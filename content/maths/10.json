@@ -1,0 +1,469 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 10,
+  "language": "en",
+  "prerequisites": [
+    7,
+    9
+  ],
+  "note": {
+    "status": "draft",
+    "text": "Multiplying in base b is like multiplying in base ten, but you carry groups of b.\n\nExample in base 4: 23₄ × 3₄\n• Units: 3 × 3 = 9. Nine is two fours and 1 more: write 1, carry 2.\n• Fours: 3 × 2 + 2 = 8, which is two fours and 0 more: write 0, carry 2.\n• Write the last carry, 2.\nSo 23₄ × 3₄ = 201₄.\n\nCheck in base ten: 23₄ = 11 and 3₄ = 3, and 11 × 3 = 33. In base 4, 33 is 201₄, because 2 × 16 + 0 × 4 + 1 = 33.\n\nTip: learn the multiplication table of the base. In base 4, 3 × 3 = 21₄ (two fours and one).",
+    "checks": [
+      "3 * 3 == 9",
+      "9 == 2 * 4 + 1",
+      "3 * 2 + 2 == 8",
+      "8 == 2 * 4 + 0",
+      "toBase(fromBase('23', 4) * 3, 4) == '201'",
+      "fromBase('23', 4) == 11",
+      "11 * 3 == 33",
+      "2 * 16 + 0 * 4 + 1 == 33",
+      "toBase(9, 4) == '21'"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "b": 5,
+      "x": "34",
+      "y": 4,
+      "c0": {
+        "expr": "dig(x, 0) * y"
+      },
+      "k0": {
+        "expr": "idiv(c0, b)"
+      },
+      "c1": {
+        "expr": "dig(x, 1) * y + k0"
+      },
+      "k1": {
+        "expr": "idiv(c1, b)"
+      },
+      "product": {
+        "expr": "fromBase(x, b) * y"
+      }
+    },
+    "problem": "In base {b}, calculate {x}{sub(b)} × {y}{sub(b)}.",
+    "steps": [
+      "Units: {y} × {dig(x, 0)} = {c0} = {k0} × {b} + {c0 % b}. Write {c0 % b}, carry {k0}.",
+      "{b}s column: {y} × {dig(x, 1)} + {k0} = {c1} = {k1} × {b} + {c1 % b}. Write {c1 % b}, carry {k1}.",
+      "Write the last carry, {k1}. The answer is {k1}{c1 % b}{c0 % b}{sub(b)}.",
+      "Check in base ten: {x}{sub(b)} = {fromBase(x, b)}, and {fromBase(x, b)} × {y} = {product}. In base {b}, {product} is {toBase(product, b)}{sub(b)}."
+    ],
+    "answer": "{x}{sub(b)} × {y}{sub(b)} = {toBase(product, b)}{sub(b)}",
+    "checks": [
+      "y < b",
+      "isValidInBase(x, b)",
+      "k1 < b",
+      "str(k1) + str(c1 % b) + str(c0 % b) == toBase(product, b)"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c10-1",
+        "status": "draft",
+        "idea": "Multiply as you do in base ten, then write the result in base b. Knowing the base's times table helps.",
+        "vars": {
+          "b": 4,
+          "d": 3,
+          "e": 3
+        },
+        "example": [
+          "{d} × {e} = {d * e} in base ten.",
+          "{d * e} = {idiv(d * e, b)} × {b} + {(d * e) % b}, so in base {b} it is {toBase(d * e, b)}{sub(b)}."
+        ],
+        "checks": [
+          "fromBase(toBase(d * e, b), b) == d * e"
+        ],
+        "check": {
+          "ref": "m10-table"
+        }
+      },
+      {
+        "id": "c10-2",
+        "status": "draft",
+        "idea": "For a two-digit number, multiply the units first. Write what is left after taking away groups of b, and carry the number of groups.",
+        "vars": {
+          "b": 4,
+          "x": "23",
+          "y": 3,
+          "c0": {
+            "expr": "dig(x, 0) * y"
+          },
+          "c1": {
+            "expr": "dig(x, 1) * y + idiv(dig(x, 0) * y, b)"
+          }
+        },
+        "example": [
+          "Units: {y} × {dig(x, 0)} = {c0} = {idiv(c0, b)} × {b} + {c0 % b}: write {c0 % b}, carry {idiv(c0, b)}.",
+          "{b}s: {y} × {dig(x, 1)} + {idiv(c0, b)} = {c1} = {idiv(c1, b)} × {b} + {c1 % b}: write {c1 % b}, carry {idiv(c1, b)}.",
+          "Answer: {toBase(fromBase(x, b) * y, b)}{sub(b)}"
+        ],
+        "checks": [
+          "str(idiv(c1, b)) + str(c1 % b) + str(c0 % b) == toBase(fromBase(x, b) * y, b)"
+        ],
+        "check": {
+          "id": "c10-2-check",
+          "type": "numeric",
+          "level": 1,
+          "vars": {
+            "b": {
+              "int": [
+                3,
+                9
+              ]
+            },
+            "n1": {
+              "int": [
+                "b",
+                "b ^ 2 - 1"
+              ]
+            },
+            "e": {
+              "int": [
+                2,
+                "b - 1"
+              ]
+            },
+            "x": {
+              "expr": "toBase(n1, b)"
+            },
+            "u": {
+              "expr": "dig(x, 0) * e"
+            }
+          },
+          "where": [
+            "u >= b",
+            "u % b != u % 10"
+          ],
+          "prompt": "In base {b}, you calculate {x}{sub(b)} × {e}{sub(b)}. Which digit do you write in the units column?",
+          "answer": "u % b",
+          "verify": "answer == (n1 * e) % b",
+          "misconceptions": [
+            {
+              "id": "base-ten",
+              "wrong": "u % 10",
+              "explain": "{dig(x, 0)} × {e} = {u}. Take away groups of {b}, not tens: {u} = {idiv(u, b)} × {b} + {u % b}."
+            }
+          ],
+          "solution": [
+            "{dig(x, 0)} × {e} = {u} = {idiv(u, b)} × {b} + {u % b}.",
+            "Write {u % b} in the units column and carry {idiv(u, b)}."
+          ]
+        }
+      },
+      {
+        "id": "c10-3",
+        "status": "draft",
+        "idea": "Check a product by changing the numbers to base ten, multiplying, and changing back.",
+        "vars": {
+          "b": 4,
+          "x": "23",
+          "y": 3
+        },
+        "example": [
+          "{x}{sub(b)} = {fromBase(x, b)}.",
+          "{fromBase(x, b)} × {y} = {fromBase(x, b) * y}.",
+          "{fromBase(x, b) * y} in base {b} is {toBase(fromBase(x, b) * y, b)}{sub(b)}: it matches."
+        ],
+        "checks": [
+          "toBase(fromBase(x, b) * y, b) == '201'"
+        ],
+        "check": {
+          "id": "c10-3-check",
+          "type": "numeric",
+          "level": 1,
+          "vars": {
+            "b": {
+              "int": [
+                3,
+                9
+              ]
+            },
+            "n": {
+              "int": [
+                "b",
+                "b ^ 2 - 1"
+              ]
+            },
+            "s": {
+              "expr": "toBase(n, b)"
+            }
+          },
+          "where": "num(s) != n",
+          "prompt": "To check a product, you first change {s}{sub(b)} to base ten. What is it?",
+          "answer": "n",
+          "verify": "toBase(answer, b) == s",
+          "misconceptions": [
+            {
+              "id": "read-as-ten",
+              "wrong": "num(s)",
+              "explain": "{s}{sub(b)} = {dig(s, 1)} × {b} + {dig(s, 0)} = {n}."
+            }
+          ],
+          "solution": [
+            "{placeSum(s, b)}"
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m10-table",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            9
+          ]
+        },
+        "d": {
+          "int": [
+            2,
+            "b - 1"
+          ]
+        },
+        "e": {
+          "int": [
+            2,
+            "b - 1"
+          ]
+        }
+      },
+      "where": "d * e >= b",
+      "prompt": "In base {b}, what is {d} × {e}?",
+      "correct": "{toBase(d * e, b)}{sub(b)}",
+      "distractors": [
+        {
+          "text": "{d * e}{sub(b)}",
+          "misconception": "base-ten"
+        },
+        {
+          "text": "{toBase(d * e + 1, b)}{sub(b)}",
+          "misconception": "table"
+        },
+        {
+          "text": "{toBase(d + e, b)}{sub(b)}",
+          "misconception": "added"
+        },
+        {
+          "text": "{toBase(d * e - 1, b)}{sub(b)}",
+          "misconception": "table"
+        }
+      ],
+      "verify": "fromBase(toBase(d * e, b), b) == d * e",
+      "misconceptions": [
+        {
+          "id": "base-ten",
+          "explain": "{d} × {e} = {d * e} in base ten. In base {b}, {d * e} is {toBase(d * e, b)}{sub(b)}."
+        },
+        {
+          "id": "table",
+          "explain": "{d} × {e} = {d * e}. Count the groups of {b} in {d * e}: {plural(idiv(d * e, b), 'group', 'groups')} and {(d * e) % b} more."
+        },
+        {
+          "id": "added",
+          "explain": "That is {d} + {e}. The question asks for {d} × {e}."
+        }
+      ],
+      "solution": [
+        "{d} × {e} = {d * e} in base ten.",
+        "{d * e} = {idiv(d * e, b)} × {b} + {(d * e) % b}, so in base {b} it is {toBase(d * e, b)}{sub(b)}."
+      ]
+    },
+    {
+      "id": "m10-multiply",
+      "type": "numeric",
+      "level": 2,
+      "answer_kind": "base",
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            9
+          ]
+        },
+        "n1": {
+          "int": [
+            "b",
+            "b ^ 2 - 1"
+          ]
+        },
+        "e": {
+          "int": [
+            2,
+            "b - 1"
+          ]
+        },
+        "x": {
+          "expr": "toBase(n1, b)"
+        }
+      },
+      "where": "decMul(x, str(e)) != toBase(n1 * e, b)",
+      "prompt": "In base {b}, calculate {x}{sub(b)} × {e}{sub(b)}. Give your answer in base {b}.",
+      "answer": "toBase(n1 * e, b)",
+      "verify": "fromBase(answer, b) == fromBase(x, b) * e",
+      "misconceptions": [
+        {
+          "id": "carried-ten",
+          "wrong": "decMul(x, str(e))",
+          "explain": "You carried in tens. In base {b}, carry one for every group of {b}."
+        }
+      ],
+      "solution": [
+        "{columnMul(x, e, b)}",
+        "Check in base ten: {fromBase(x, b)} × {e} = {fromBase(x, b) * e}."
+      ]
+    },
+    {
+      "id": "m10-two-digits",
+      "type": "numeric",
+      "level": 3,
+      "answer_kind": "base",
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            6
+          ]
+        },
+        "n1": {
+          "int": [
+            "b",
+            "b ^ 2 - 1"
+          ]
+        },
+        "n2": {
+          "int": [
+            "b",
+            "b ^ 2 - 1"
+          ]
+        },
+        "x": {
+          "expr": "toBase(n1, b)"
+        },
+        "y": {
+          "expr": "toBase(n2, b)"
+        }
+      },
+      "where": "decMul(x, y) != toBase(n1 * n2, b)",
+      "prompt": "In base {b}, calculate {x}{sub(b)} × {y}{sub(b)}. Give your answer in base {b}. (Hint: you may go through base ten.)",
+      "answer": "toBase(n1 * n2, b)",
+      "verify": "fromBase(answer, b) == fromBase(x, b) * fromBase(y, b)",
+      "misconceptions": [
+        {
+          "id": "carried-ten",
+          "wrong": "decMul(x, y)",
+          "explain": "That is the base-ten product of the digits. In base {b}: {x}{sub(b)} = {n1}, {y}{sub(b)} = {n2}, and {n1} × {n2} = {n1 * n2} = {toBase(n1 * n2, b)}{sub(b)}."
+        },
+        {
+          "id": "answer-in-ten",
+          "wrong": "str(n1 * n2)",
+          "explain": "{n1 * n2} is the answer in base ten. Convert it to base {b}."
+        }
+      ],
+      "solution": [
+        "Go through base ten: {placeSum(x, b)} and {placeSum(y, b)}.",
+        "{n1} × {n2} = {n1 * n2}.",
+        "Back to base {b}:",
+        "{divSteps(n1 * n2, b)}"
+      ]
+    },
+    {
+      "id": "m10-spot",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            9
+          ]
+        },
+        "p1": {
+          "int": [
+            "b",
+            "b ^ 2 - 1"
+          ]
+        },
+        "q1": {
+          "int": [
+            2,
+            "b - 1"
+          ]
+        },
+        "p2": {
+          "int": [
+            "b",
+            "b ^ 2 - 1"
+          ]
+        },
+        "q2": {
+          "int": [
+            2,
+            "b - 1"
+          ]
+        },
+        "p3": {
+          "int": [
+            "b",
+            "b ^ 2 - 1"
+          ]
+        },
+        "q3": {
+          "int": [
+            2,
+            "b - 1"
+          ]
+        },
+        "p4": {
+          "int": [
+            "b",
+            "b ^ 2 - 1"
+          ]
+        },
+        "q4": {
+          "int": [
+            2,
+            "b - 1"
+          ]
+        }
+      },
+      "where": "decMul(toBase(p4, b), str(q4)) != toBase(p4 * q4, b)",
+      "prompt": "Enow did four multiplications in base {b}. One is wrong. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "{toBase(p1, b)}{sub(b)} × {q1}{sub(b)} = {toBase(p1 * q1, b)}{sub(b)}",
+            "truth": "fromBase(toBase(p1 * q1, b), b) == fromBase(toBase(p1, b), b) * q1"
+          },
+          {
+            "text": "{toBase(p2, b)}{sub(b)} × {q2}{sub(b)} = {toBase(p2 * q2, b)}{sub(b)}",
+            "truth": "fromBase(toBase(p2 * q2, b), b) == fromBase(toBase(p2, b), b) * q2"
+          },
+          {
+            "text": "{toBase(p3, b)}{sub(b)} × {q3}{sub(b)} = {toBase(p3 * q3, b)}{sub(b)}",
+            "truth": "fromBase(toBase(p3 * q3, b), b) == fromBase(toBase(p3, b), b) * q3"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "{toBase(p4, b)}{sub(b)} × {q4}{sub(b)} = {decMul(toBase(p4, b), str(q4))}{sub(b)}",
+            "truth": "fromBase(decMul(toBase(p4, b), str(q4)), b) == fromBase(toBase(p4, b), b) * q4",
+            "misconception": "carried-ten",
+            "explain": "This product was worked out in base ten. In base {b} the answer is {toBase(p4 * q4, b)}{sub(b)}."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      }
+    }
+  ]
+}

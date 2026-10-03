@@ -1,0 +1,545 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 7,
+  "language": "en",
+  "prerequisites": [
+    5
+  ],
+  "skills": [
+    {
+      "id": "m7-operations",
+      "name": "The four operations and their order (BODMAS) in ℕ"
+    },
+    {
+      "id": "m7-powers",
+      "name": "Whole number powers"
+    }
+  ],
+  "note": {
+    "status": "draft",
+    "text": "A power is a short way to write a repeated multiplication:\n2⁵ = 2 × 2 × 2 × 2 × 2 = 32.\nWe read 2⁵ as '2 to the power 5'. The 2 is the base and the 5 is the exponent (index).\n• a² is 'a squared': 7² = 49.\n• a³ is 'a cubed': 4³ = 64.\nBe careful: 2⁵ is not 2 × 5.\n\nWhen a calculation has several operations, follow BODMAS: Brackets first, then Orders (powers), then Division and Multiplication from left to right, then Addition and Subtraction from left to right.\n3 + 2 × 4² = 3 + 2 × 16 = 3 + 32 = 35.\n\nIn ℕ, adding or multiplying two natural numbers always gives a natural number. The order does not matter: 5 + 8 = 8 + 5 and 5 × 8 = 8 × 5. Also 3 × (4 + 5) = 3 × 4 + 3 × 5. But a − b is in ℕ only when a ≥ b.",
+    "checks": [
+      "2 ^ 5 == 32",
+      "2 * 2 * 2 * 2 * 2 == 32",
+      "7 ^ 2 == 49",
+      "4 ^ 3 == 64",
+      "2 ^ 5 != 2 * 5",
+      "3 + 2 * 4 ^ 2 == 35",
+      "2 * 16 == 32",
+      "5 + 8 == 8 + 5",
+      "5 * 8 == 8 * 5",
+      "3 * (4 + 5) == 3 * 4 + 3 * 5"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "a": 7,
+      "b": 3,
+      "c": 9,
+      "d": 5,
+      "two": 2
+    },
+    "problem": "Calculate {a} + {b} × ({c} − {d}){sup(two)}.",
+    "steps": [
+      "Brackets first: {c} − {d} = {c - d}.",
+      "Orders (powers) next: {c - d}{sup(two)} = {c - d} × {c - d} = {(c - d) ^ two}.",
+      "Then multiplication: {b} × {(c - d) ^ two} = {b * (c - d) ^ two}.",
+      "Finally addition: {a} + {b * (c - d) ^ two} = {a + b * (c - d) ^ two}."
+    ],
+    "answer": "{a} + {b} × ({c} − {d}){sup(two)} = {a + b * (c - d) ^ two}",
+    "checks": [
+      "a + b * (c - d) ^ two == a + b * ((c - d) * (c - d))",
+      "(a + b) * (c - d) ^ two != a + b * (c - d) ^ two"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c7-1",
+        "status": "draft",
+        "skill": "m7-powers",
+        "idea": "A power is a short way to write a repeated multiplication of the same number.",
+        "vars": {
+          "a": 3,
+          "n": 4
+        },
+        "example": [
+          "{join(rep(a, n), ' × ')} = {a}{sup(n)}",
+          "{a} is the base. {n} is the exponent: it says how many times {a} is multiplied."
+        ],
+        "checks": [
+          "a ^ n == a * a * a * a"
+        ],
+        "check": {
+          "ref": "m7-power-form"
+        }
+      },
+      {
+        "id": "c7-2",
+        "status": "draft",
+        "skill": "m7-powers",
+        "idea": "To find the value of a power, multiply. A number to the power {2} is 'squared'; to the power {3}, 'cubed'.",
+        "vars": {
+          "a": 5,
+          "b": 2,
+          "n": 3,
+          "two": 2
+        },
+        "example": [
+          "{a}{sup(two)} = {a} × {a} = {a ^ two}",
+          "{b}{sup(n)} = {join(rep(b, n), ' × ')} = {b ^ n}, not {b} × {n} = {b * n}."
+        ],
+        "checks": [
+          "b ^ n != b * n"
+        ],
+        "check": {
+          "ref": "m7-power"
+        }
+      },
+      {
+        "id": "c7-3",
+        "status": "draft",
+        "skill": "m7-operations",
+        "idea": "When there are several operations, use BODMAS: Brackets, then Orders (powers), then Division and Multiplication, then Addition and Subtraction.",
+        "vars": {
+          "a": 4,
+          "b": 3,
+          "c": 5
+        },
+        "example": [
+          "{a} + {b} × {c}: multiplication first.",
+          "{b} × {c} = {b * c}, then {a} + {b * c} = {a + b * c}."
+        ],
+        "checks": [
+          "a + b * c != (a + b) * c"
+        ],
+        "check": {
+          "id": "c7-3-check",
+          "skill": "m7-operations",
+          "type": "mcq",
+          "level": 1,
+          "show": 3,
+          "vars": {
+            "a": {
+              "int": [
+                2,
+                20
+              ]
+            },
+            "b": {
+              "int": [
+                2,
+                9
+              ]
+            },
+            "c": {
+              "int": [
+                2,
+                9
+              ]
+            }
+          },
+          "where": "a != c",
+          "prompt": "In {a} + {b} × {c}, which do you work out first?",
+          "correct": "{b} × {c}",
+          "distractors": [
+            {
+              "text": "{a} + {b}",
+              "misconception": "left-to-right"
+            },
+            {
+              "text": "{a} + {c}",
+              "misconception": "left-to-right"
+            }
+          ],
+          "misconceptions": [
+            {
+              "id": "left-to-right",
+              "explain": "Multiplication comes before addition (BODMAS): first {b} × {c}."
+            }
+          ],
+          "solution": [
+            "BODMAS: multiplication comes before addition.",
+            "So first {b} × {c} = {b * c}, then {a} + {b * c} = {a + b * c}."
+          ]
+        }
+      },
+      {
+        "id": "c7-4",
+        "status": "draft",
+        "skill": "m7-operations",
+        "idea": "In ℕ, the order of adding or multiplying does not matter. A number in front of brackets multiplies everything inside.",
+        "vars": {
+          "a": 5,
+          "b": 8,
+          "c": 3
+        },
+        "example": [
+          "{a} + {b} = {b} + {a} = {a + b}",
+          "{a} × {b} = {b} × {a} = {a * b}",
+          "{c} × ({a} + {b}) = {c} × {a} + {c} × {b} = {c * (a + b)}"
+        ],
+        "checks": [
+          "c * (a + b) == c * a + c * b"
+        ],
+        "check": {
+          "ref": "m7-properties"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m7-power",
+      "skill": "m7-powers",
+      "type": "numeric",
+      "level": 1,
+      "vars": {
+        "a": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "n": {
+          "int": [
+            2,
+            4
+          ]
+        }
+      },
+      "where": "a ^ n <= 10000",
+      "prompt": "Calculate {a}{sup(n)}.",
+      "answer": "a ^ n",
+      "verify": "answer == (n == 2 ? a * a : n == 3 ? a * a * a : a * a * a * a)",
+      "misconceptions": [
+        {
+          "id": "times-exponent",
+          "wrong": "a * n",
+          "explain": "{a}{sup(n)} means {n} factors of {a} multiplied together, not {a} × {n}."
+        },
+        {
+          "id": "plus-exponent",
+          "wrong": "a + n",
+          "explain": "{a}{sup(n)} is {a} multiplied by itself: {join(rep(a, n), ' × ')}."
+        }
+      ],
+      "solution": [
+        "{a}{sup(n)} = {join(rep(a, n), ' × ')} = {a ^ n}"
+      ]
+    },
+    {
+      "id": "m7-power-form",
+      "skill": "m7-powers",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "a": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "n": {
+          "int": [
+            3,
+            6
+          ]
+        }
+      },
+      "where": "a != n",
+      "prompt": "Write {join(rep(a, n), ' × ')} as a power.",
+      "correct": "{a}{sup(n)}",
+      "distractors": [
+        {
+          "text": "{n}{sup(a)}",
+          "misconception": "swapped"
+        },
+        {
+          "text": "{a} × {n}",
+          "misconception": "times-exponent"
+        },
+        {
+          "text": "{a * n}",
+          "misconception": "times-exponent"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "swapped",
+          "explain": "The number being multiplied ({a}) is the base. The number of factors ({n}) is the exponent: {a}{sup(n)}."
+        },
+        {
+          "id": "times-exponent",
+          "explain": "{a} × {n} is a different calculation. {n} factors of {a} make the power {a}{sup(n)}."
+        }
+      ],
+      "solution": [
+        "{a} is multiplied by itself: there are {n} factors.",
+        "The base is {a} and the exponent is {n}: {a}{sup(n)}."
+      ]
+    },
+    {
+      "id": "m7-bodmas",
+      "skill": "m7-operations",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "a": {
+          "int": [
+            2,
+            20
+          ]
+        },
+        "b": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "c": {
+          "int": [
+            2,
+            9
+          ]
+        }
+      },
+      "prompt": "Calculate {a} + {b} × {c}.",
+      "answer": "a + b * c",
+      "verify": "answer - a == b * c",
+      "misconceptions": [
+        {
+          "id": "left-to-right",
+          "wrong": "(a + b) * c",
+          "explain": "Multiplication comes before addition (BODMAS): first {b} × {c} = {b * c}, then {a} + {b * c}."
+        }
+      ],
+      "solution": [
+        "Multiplication first: {b} × {c} = {b * c}.",
+        "Then addition: {a} + {b * c} = {a + b * c}."
+      ]
+    },
+    {
+      "id": "m7-change",
+      "skill": "m7-operations",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "x": {
+          "int": [
+            2,
+            6
+          ]
+        },
+        "p": {
+          "pick": [
+            150,
+            200,
+            250,
+            300,
+            350,
+            400,
+            450,
+            500
+          ]
+        },
+        "note": {
+          "pick": [
+            2000,
+            5000,
+            10000
+          ]
+        }
+      },
+      "where": "note > x * p",
+      "prompt": "Mih buys {x} bunches of plantains at {p} FCFA each. She pays with a {note} FCFA note. How much change does she get?",
+      "answer": "note - x * p",
+      "unit": "FCFA",
+      "verify": "answer + x * p == note && answer > 0",
+      "misconceptions": [
+        {
+          "id": "forgot-multiply",
+          "wrong": "note - p",
+          "explain": "First find the cost of all {x} bunches: {x} × {p} = {x * p} FCFA. Then subtract it from {note} FCFA."
+        },
+        {
+          "id": "cost-not-change",
+          "wrong": "x * p",
+          "explain": "{x * p} FCFA is the cost of the plantains. The change is {note} − {x * p}."
+        }
+      ],
+      "solution": [
+        "Cost of the plantains: {x} × {p} = {x * p} FCFA.",
+        "Change: {note} − {x * p} = {note - x * p} FCFA."
+      ]
+    },
+    {
+      "id": "m7-share",
+      "skill": "m7-operations",
+      "type": "numeric",
+      "level": 1,
+      "vars": {
+        "k": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "each": {
+          "pick": [
+            50,
+            100,
+            150,
+            200,
+            250,
+            500,
+            1000
+          ]
+        },
+        "total": {
+          "expr": "k * each"
+        }
+      },
+      "prompt": "Mami Nkeng shares {total} FCFA equally among her {k} children. How much does each child get?",
+      "answer": "total / k",
+      "unit": "FCFA",
+      "verify": "answer * k == total && isInt(answer)",
+      "misconceptions": [
+        {
+          "id": "subtracted",
+          "wrong": "total - k",
+          "explain": "Sharing equally means dividing: {total} ÷ {k}."
+        },
+        {
+          "id": "multiplied",
+          "wrong": "total * k",
+          "explain": "When you share, each child gets less than the total: divide {total} by {k}."
+        }
+      ],
+      "solution": [
+        "Sharing equally means dividing: {total} ÷ {k} = {total / k} FCFA.",
+        "Check: {k} × {total / k} = {total}."
+      ]
+    },
+    {
+      "id": "m7-properties",
+      "skill": "m7-operations",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "a": {
+          "int": [
+            2,
+            20
+          ]
+        },
+        "b": {
+          "int": [
+            2,
+            20
+          ]
+        },
+        "c": {
+          "int": [
+            2,
+            9
+          ]
+        }
+      },
+      "where": "a != b",
+      "prompt": "Which statement is true?",
+      "pool": {
+        "right": [
+          {
+            "text": "{a} + {b} = {b} + {a}",
+            "truth": "a + b == b + a"
+          },
+          {
+            "text": "{a} × {b} = {b} × {a}",
+            "truth": "a * b == b * a"
+          },
+          {
+            "text": "{c} × ({a} + {b}) = {c} × {a} + {c} × {b}",
+            "truth": "c * (a + b) == c * a + c * b"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "{a} − {b} = {b} − {a}",
+            "truth": "a - b == b - a",
+            "misconception": "subtraction-order",
+            "explain": "Order matters in subtraction: {a} − {b} is not the same as {b} − {a}."
+          },
+          {
+            "text": "{a} ÷ {b} = {b} ÷ {a}",
+            "truth": "a / b == b / a",
+            "misconception": "division-order",
+            "explain": "Order matters in division: {a} ÷ {b} is not the same as {b} ÷ {a}."
+          },
+          {
+            "text": "{c} × ({a} + {b}) = {c} × {a} + {b}",
+            "truth": "c * (a + b) == c * a + b",
+            "misconception": "half-distributed",
+            "explain": "Multiply both numbers in the brackets by {c}: {c} × {a} + {c} × {b}."
+          }
+        ]
+      },
+      "pick": {
+        "right": 1,
+        "wrong": 3
+      }
+    },
+    {
+      "id": "m7-spot",
+      "skill": "m7-powers",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "a": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "b": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "c": {
+          "int": [
+            3,
+            6
+          ]
+        },
+        "w": {
+          "int": [
+            0,
+            2
+          ]
+        }
+      },
+      "prompt": "Ndi calculated {a} + {b} × {c}{sup(2)}. One line has a mistake. Which one?",
+      "steps": [
+        {
+          "text": "Powers first: {c}{sup(2)} = {w == 0 ? 2 * c : c * c}",
+          "truth": "(w == 0 ? 2 * c : c * c) == c ^ 2",
+          "explain": "{c}{sup(2)} = {c} × {c} = {c * c}, not {c} × 2."
+        },
+        {
+          "text": "Then multiply: {b} × {c * c} = {w == 1 ? b * c * c + b : b * c * c}",
+          "truth": "(w == 1 ? b * c * c + b : b * c * c) == b * c ^ 2",
+          "explain": "{b} × {c * c} = {b * c * c}."
+        },
+        {
+          "text": "Then add: {a} + {b * c * c} = {w == 2 ? (a + b) * c * c : a + b * c * c}",
+          "truth": "(w == 2 ? (a + b) * c * c : a + b * c * c) == a + b * c ^ 2",
+          "explain": "{a} + {b * c * c} = {a + b * c * c}."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "subject": "mathematics",
+  "_note": "Human-approved corrections to the raw parse. `seq` always means the row number printed on the sheet. `expect` guards against the sheet changing under an override: if it does not match, the build fails instead of silently applying a stale fix.",
+  "overrides": [
+    {
+      "id": "math-001",
+      "op": "swap",
+      "seqs": [
+        23,
+        24
+      ],
+      "expect": {
+        "23": {
+          "lesson_no": 23
+        },
+        "24": {
+          "lesson_no": 22
+        }
+      },
+      "reason": "Sheet lists Lesson 23 (multiplication/division in Z) before Lesson 22 (addition/subtraction in Z). Lesson 22 is the prerequisite; both rows share the same dates.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "math-002",
+      "op": "set",
+      "seq": 23,
+      "field": "title",
+      "value": "Multiplication and division in the set ℤ of integers",
+      "expect": {
+        "lesson_no": 23,
+        "title": "Multiplication and division in the set"
+      },
+      "reason": "Title truncated on the sheet; completed to match its sibling Lesson 22.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02",
+      "resolves": [
+        "truncated-title"
+      ]
+    },
+    {
+      "id": "math-003",
+      "op": "set",
+      "seq": 37,
+      "field": "title",
+      "value": "Dot representation of numbers (Triangular, Rectangular and square numbers)",
+      "expect": {
+        "lesson_no": 36,
+        "title": "Dot representation of numbers (Triangular, Rectangular and square numbers"
+      },
+      "reason": "Cosmetic: close the unbalanced bracket.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02",
+      "resolves": [
+        "typo-unbalanced-bracket"
+      ]
+    },
+    {
+      "id": "math-004",
+      "op": "resolve",
+      "seqs": [
+        32,
+        47,
+        50
+      ],
+      "check": "typo-double-dot",
+      "expect": {
+        "32": {
+          "lesson_no": 31
+        },
+        "47": {
+          "lesson_no": 46
+        },
+        "50": {
+          "lesson_no": 49
+        }
+      },
+      "reason": "Cosmetic: stray double full stop after the lesson number ('Lesson 31..'). The parser drops the 'Lesson N.' prefix, so the clean title is already correct; this acknowledges the sheet typo.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    }
+  ]
+}

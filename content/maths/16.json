@@ -1,0 +1,332 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 16,
+  "language": "en",
+  "prerequisites": [
+    11,
+    15
+  ],
+  "note": {
+    "status": "draft",
+    "review": "Pending (Dion, 2026-10-02): check the meaning of 'orthogonal' against the pupil's exercise book before approval.",
+    "text": "Two lines on a flat surface (a plane) either meet or never meet.\n• Parallel lines never meet, however far you extend them, like the two rails of a railway. We write (d) // (d′).\n• Perpendicular lines meet at a right angle (90°), like the corner of your exercise book. We write (d) ⊥ (d′).\n• Orthogonal also means 'at a right angle'. In a plane, orthogonal lines and perpendicular lines are the same thing.\n\nProperties of lines in a plane:\n• Through a point not on (d), there is exactly one line parallel to (d) and exactly one line perpendicular to (d).\n• If (d₁) // (d₂) and (d₂) // (d₃), then (d₁) // (d₃).\n• If (d₁) ⊥ (d₃) and (d₂) ⊥ (d₃), then (d₁) // (d₂).\n• If (d₁) // (d₂) and (d₃) ⊥ (d₁), then (d₃) ⊥ (d₂).",
+    "checks": [
+      "lineRule('//', '//') == '//'",
+      "lineRule('⊥', '⊥') == '//'",
+      "lineRule('//', '⊥') == '⊥'"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "r1": "⊥",
+      "r2": "⊥"
+    },
+    "problem": "(L) ⊥ (M) and (N) ⊥ (M). What can you say about (L) and (N)? A fourth line (K) is perpendicular to (L): what can you say about (K) and (N)?",
+    "steps": [
+      "(L) and (N) are both perpendicular to the same line, (M).",
+      "Two lines perpendicular to the same line are parallel: (L) {lineRule(r1, r2)} (N).",
+      "(K) ⊥ (L) and (L) // (N). A line perpendicular to one of two parallel lines is perpendicular to the other: (K) {lineRule(lineRule(r1, r2), '⊥')} (N)."
+    ],
+    "answer": "(L) {lineRule(r1, r2)} (N) and (K) {lineRule(lineRule(r1, r2), '⊥')} (N).",
+    "checks": [
+      "lineRule(r1, r2) == '//'",
+      "lineRule('//', '⊥') == '⊥'"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c16-1",
+        "status": "draft",
+        "idea": "Parallel lines never meet, however far you extend them. We write (d) // (d′).",
+        "vars": {},
+        "example": [
+          "The two long edges of your ruler are parallel."
+        ],
+        "checks": [],
+        "check": {
+          "ref": "m16-symbol"
+        }
+      },
+      {
+        "id": "c16-2",
+        "status": "draft",
+        "idea": "Perpendicular lines meet at a right angle. We write (d) ⊥ (d′). Orthogonal also means 'at a right angle': in a plane, orthogonal lines and perpendicular lines are the same.",
+        "vars": {},
+        "example": [
+          "The two edges at a corner of your exercise book are perpendicular."
+        ],
+        "checks": [],
+        "check": {
+          "id": "c16-2-check",
+          "type": "mcq",
+          "level": 1,
+          "review": "authored",
+          "sources": [
+            "line-symbols"
+          ],
+          "vars": {
+            "f": {
+              "pick": [
+                {
+                  "d": "meet at a right angle",
+                  "a": "perpendicular"
+                },
+                {
+                  "d": "never meet",
+                  "a": "parallel"
+                }
+              ]
+            }
+          },
+          "prompt": "Two lines in a plane {f.d}. They are:",
+          "correct": "{f.a}",
+          "distractors": [
+            {
+              "text": "parallel",
+              "misconception": "words"
+            },
+            {
+              "text": "perpendicular",
+              "misconception": "words"
+            },
+            {
+              "text": "the same line",
+              "misconception": "words"
+            }
+          ],
+          "show": 3,
+          "misconceptions": [
+            {
+              "id": "words",
+              "explain": "Parallel lines never meet. Perpendicular (orthogonal) lines meet at a right angle."
+            }
+          ],
+          "solution": [
+            "Parallel lines never meet; perpendicular (orthogonal) lines meet at a right angle.",
+            "Lines that {f.d} are {answer}."
+          ]
+        }
+      },
+      {
+        "id": "c16-3",
+        "status": "draft",
+        "idea": "Through a point that is not on a line (d), there is exactly one line parallel to (d) and exactly one line perpendicular to (d).",
+        "vars": {},
+        "example": [
+          "Two lines perpendicular to the same line are parallel.",
+          "A line perpendicular to one of two parallel lines is perpendicular to the other."
+        ],
+        "checks": [
+          "lineRule('⊥', '⊥') == '//' && lineRule('//', '⊥') == '⊥'"
+        ],
+        "check": {
+          "ref": "m16-through-point"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m16-symbol",
+      "sources": [
+        "line-symbols"
+      ],
+      "type": "mcq",
+      "level": 1,
+      "review": "authored",
+      "vars": {
+        "f": {
+          "pick": [
+            {
+              "s": "(d) // (d′)",
+              "m": "(d) and (d′) are parallel."
+            },
+            {
+              "s": "(d) ⊥ (d′)",
+              "m": "(d) and (d′) are perpendicular."
+            }
+          ]
+        }
+      },
+      "prompt": "What does {f.s} mean?",
+      "correct": "{f.m}",
+      "distractors": [
+        {
+          "text": "(d) and (d′) are parallel.",
+          "misconception": "symbols"
+        },
+        {
+          "text": "(d) and (d′) are perpendicular.",
+          "misconception": "symbols"
+        },
+        {
+          "text": "(d) and (d′) are the same line.",
+          "misconception": "symbols"
+        },
+        {
+          "text": "(d) and (d′) meet, but not at a right angle.",
+          "misconception": "symbols"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "symbols",
+          "explain": "// means parallel (never meet). ⊥ means perpendicular (meet at a right angle)."
+        }
+      ],
+      "solution": [
+        "// means parallel: the lines never meet. ⊥ means perpendicular: they meet at a right angle.",
+        "So {f.s} means: {answer}"
+      ]
+    },
+    {
+      "id": "m16-deduce",
+      "type": "mcq",
+      "level": 2,
+      "vars": {
+        "L": {
+          "letters": 3
+        },
+        "X": {
+          "expr": "L[0]"
+        },
+        "Y": {
+          "expr": "L[1]"
+        },
+        "Z": {
+          "expr": "L[2]"
+        },
+        "r1": {
+          "pick": [
+            "//",
+            "⊥"
+          ]
+        },
+        "r2": {
+          "pick": [
+            "//",
+            "⊥"
+          ]
+        }
+      },
+      "prompt": "({X}) {r1} ({Y}) and ({Z}) {r2} ({X}). What can you say about ({Z}) and ({Y})?",
+      "correct": "({Z}) {lineRule(r1, r2)} ({Y})",
+      "distractors": [
+        {
+          "text": "({Z}) {lineRule(r1, r2) == '//' ? '⊥' : '//'} ({Y})",
+          "misconception": "rule"
+        },
+        {
+          "text": "({Z}) and ({Y}) are the same line.",
+          "misconception": "rule"
+        },
+        {
+          "text": "Nothing can be said about ({Z}) and ({Y}).",
+          "misconception": "rule"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "rule",
+          "explain": "{r1 == '⊥' && r2 == '⊥' ? 'Two lines perpendicular to the same line are parallel.' : r1 == '//' && r2 == '//' ? 'Two lines parallel to the same line are parallel.' : 'If two lines are parallel, a line perpendicular to one is perpendicular to the other.'}"
+        }
+      ],
+      "solution": [
+        "{r1 == '⊥' && r2 == '⊥' ? 'Two lines perpendicular to the same line are parallel.' : r1 == '//' && r2 == '//' ? 'Two lines parallel to the same line are parallel.' : 'If two lines are parallel, a line perpendicular to one is perpendicular to the other.'}",
+        "So {answer}."
+      ]
+    },
+    {
+      "id": "m16-through-point",
+      "sources": [
+        "parallel-postulate",
+        "one-perpendicular"
+      ],
+      "type": "numeric",
+      "level": 1,
+      "review": "authored",
+      "vars": {
+        "which": {
+          "pick": [
+            "parallel",
+            "perpendicular"
+          ]
+        }
+      },
+      "prompt": "Through a point P that is not on the line (d), how many lines can you draw {which} to (d)?",
+      "answer": "1",
+      "verify": "answer == 1",
+      "misconceptions": [
+        {
+          "id": "many",
+          "wrong": "2",
+          "explain": "Through a point not on (d) there is exactly one {which} line to (d)."
+        },
+        {
+          "id": "none",
+          "wrong": "0",
+          "explain": "There is always exactly one: you can draw it with a set square and a ruler."
+        }
+      ],
+      "solution": [
+        "Through a point not on (d) there is exactly one {which} line to (d).",
+        "Answer: {1}"
+      ]
+    },
+    {
+      "id": "m16-spot",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "L": {
+          "letters": 3
+        },
+        "X": {
+          "expr": "L[0]"
+        },
+        "Y": {
+          "expr": "L[1]"
+        },
+        "Z": {
+          "expr": "L[2]"
+        }
+      },
+      "prompt": "One of these deductions is false. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "If ({X}) // ({Y}) and ({Y}) // ({Z}), then ({X}) // ({Z}).",
+            "truth": "lineRule('//', '//') == '//'"
+          },
+          {
+            "text": "If ({X}) ⊥ ({Z}) and ({Y}) ⊥ ({Z}), then ({X}) // ({Y}).",
+            "truth": "lineRule('⊥', '⊥') == '//'"
+          },
+          {
+            "text": "If ({X}) // ({Y}) and ({Z}) ⊥ ({X}), then ({Z}) ⊥ ({Y}).",
+            "truth": "lineRule('//', '⊥') == '⊥'"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "If ({X}) ⊥ ({Z}) and ({Y}) ⊥ ({Z}), then ({X}) ⊥ ({Y}).",
+            "truth": "lineRule('⊥', '⊥') == '⊥'",
+            "explain": "Two lines perpendicular to the same line are parallel, not perpendicular."
+          },
+          {
+            "text": "If ({X}) // ({Y}) and ({Z}) ⊥ ({X}), then ({Z}) // ({Y}).",
+            "truth": "lineRule('//', '⊥') == '//'",
+            "explain": "A line perpendicular to one of two parallel lines is perpendicular to the other."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      }
+    }
+  ]
+}

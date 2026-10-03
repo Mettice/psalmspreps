@@ -1,0 +1,33 @@
+{
+  "subject": "history",
+  "overrides": [
+    {
+      "id": "hist-001",
+      "op": "set",
+      "seq": 28,
+      "field": "title",
+      "value": "Further studies 9: Christian and Muslim pilgrimages",
+      "expect": {
+        "title": "Further studies 4:Christian and Muslim pilgrimages"
+      },
+      "reason": "Further-study numbering had reached 8 (row 23); '4' is a slip.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02",
+      "resolves": [
+        "activity-numbering"
+      ]
+    },
+    {
+      "id": "history-typos",
+      "op": "replace_words",
+      "words": {
+        "Eygpt": "Egypt",
+        "Arica": "Africa",
+        "progrss": "progress"
+      },
+      "reason": "Spelling errors in the sheet; display text only, raw stays untouched.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    }
+  ]
+}

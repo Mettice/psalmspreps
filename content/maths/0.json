@@ -1,0 +1,225 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 0,
+  "language": "en",
+  "kind": "readiness",
+  "prerequisites": [],
+  "note": {
+    "status": "draft",
+    "text": "Welcome to Form One Maths! Before we start, this short check looks at the Primary School maths you will need: place value, adding, subtracting, multiplying and dividing, times tables and simple word problems. It has 13 questions and takes about 10 minutes. It is not an exam and there are no marks.\n\nIt does not test any Form One lesson. It only shows the app where your foundations are strong and where you need a little practice first.\n\nAnswer each question on your own. If you really do not know an answer, press 'I don't know' instead of guessing.\n\nTake a pencil and some paper for your working, and start when you are ready.",
+    "checks": []
+  },
+  "readiness": {
+    "_decision": "Dion, 2026-10-02 (context change: the app is the pupil's main teacher). Lesson 0 checks Primary 6 readiness only, at most 15 questions. It sets a readiness score and flags weak foundations. It sets NO Form 1 mastery and NO coverage.",
+    "max_questions": 15,
+    "time_limit_minutes": 15,
+    "seconds_per_question": 45,
+    "areas": {
+      "place_value": "Place value up to millions",
+      "operations": "The four operations",
+      "tables": "Multiplication tables",
+      "word_problems": "Simple word problems"
+    },
+    "weak_if_below": 0.66,
+    "_weak_rule": "An area is weak when fewer than two thirds of its questions are right (1 of 3, or 2 of 4).",
+    "items": [
+      {"template": "r-pv-value"}, {"template": "r-pv-words"}, {"template": "r-pv-order"},
+      {"template": "r-add"}, {"template": "r-sub"}, {"template": "r-mul"}, {"template": "r-div"},
+      {"template": "r-table-mul"}, {"template": "r-table-div"}, {"template": "r-table-missing"},
+      {"template": "r-wp-change"}, {"template": "r-wp-bags"}, {"template": "r-wp-difference"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "r-pv-value",
+      "area": "place_value",
+      "type": "mcq",
+      "level": 1,
+      "vars": {"n": {"int": [1000000, 9999999]}, "pos": {"int": [3, 6]}, "d": {"expr": "digitAt(n, pos)"}},
+      "where": ["d != 0", "countDigit(n, d) == 1"],
+      "prompt": "What is the value of the digit {d} in {n}?",
+      "correct": "{placeValue(n, pos)}",
+      "distractors": [
+        {"misconception": "face-value"},
+        {"misconception": "place-too-high"},
+        {"misconception": "place-too-low"}
+      ],
+      "verify": "placeValue(n, pos) == d * 10 ^ pos",
+      "misconceptions": [
+        {"id": "face-value", "wrong": "d", "explain": "{d} is in the {placeName(pos)} place, so it stands for {placeValue(n, pos)}."},
+        {"id": "place-too-high", "wrong": "d * 10 ^ (pos + 1)", "explain": "Count the places from the right: units, tens, hundreds, thousands, ten thousands, hundred thousands, millions."},
+        {"id": "place-too-low", "wrong": "d * 10 ^ (pos - 1)", "explain": "Count the places from the right: units, tens, hundreds, thousands, ten thousands, hundred thousands, millions."}
+      ]
+    },
+    {
+      "id": "r-pv-words",
+      "area": "place_value",
+      "type": "numeric",
+      "level": 2,
+      "vars": {"n": {"int": [1000001, 9999999]}},
+      "where": ["stripZeros(n) != n", "n % 10 != 0"],
+      "prompt": "Write in figures: {words(n)}.",
+      "answer": "n",
+      "verify": "fromWords(words(answer)) == n",
+      "misconceptions": [
+        {"id": "no-placeholder", "wrong": "stripZeros(n)", "explain": "Write 0 for every empty place: {words(n)} is {n}."}
+      ]
+    },
+    {
+      "id": "r-pv-order",
+      "area": "place_value",
+      "type": "ordering",
+      "level": 2,
+      "vars": {"m": {"int": [1, 9]}, "a": {"int": [0, 999999]}, "b": {"int": [0, 999999]}, "c": {"int": [0, 999999]}, "e": {"int": [10000, 999999]}},
+      "prompt": "Order these numbers from the smallest to the largest.",
+      "items": [
+        {"text": "{m * 1000000 + a}", "key": "m * 1000000 + a"},
+        {"text": "{m * 1000000 + b}", "key": "m * 1000000 + b"},
+        {"text": "{m * 1000000 + c}", "key": "m * 1000000 + c"},
+        {"text": "{e}", "key": "e"}
+      ],
+      "order": "asc"
+    },
+    {
+      "id": "r-add",
+      "area": "operations",
+      "type": "numeric",
+      "level": 1,
+      "vars": {"a": {"int": [1000, 9999]}, "b": {"int": [1000, 9999]}},
+      "where": "addNoCarry(a, b) != a + b",
+      "prompt": "Calculate {a} + {b}.",
+      "answer": "a + b",
+      "verify": "answer - b == a",
+      "misconceptions": [
+        {"id": "no-carry", "wrong": "addNoCarry(a, b)", "explain": "When a column adds up to 10 or more, write the units digit and carry 1 to the next column."}
+      ]
+    },
+    {
+      "id": "r-sub",
+      "area": "operations",
+      "type": "numeric",
+      "level": 1,
+      "vars": {"a": {"int": [1000, 9999]}, "b": {"int": [100, "a - 1"]}},
+      "where": "subSmallFromLarge(a, b) != a - b",
+      "prompt": "Calculate {a} − {b}.",
+      "answer": "a - b",
+      "verify": "answer + b == a",
+      "misconceptions": [
+        {"id": "smaller-from-bigger", "wrong": "subSmallFromLarge(a, b)", "explain": "When the top digit is smaller, borrow 1 from the next column. Do not take the top digit away from the bottom one."}
+      ]
+    },
+    {
+      "id": "r-mul",
+      "area": "operations",
+      "type": "numeric",
+      "level": 2,
+      "vars": {"a": {"int": [100, 999]}, "b": {"int": [12, 99]}},
+      "where": "b % 10 != 0",
+      "prompt": "Calculate {a} × {b}.",
+      "answer": "a * b",
+      "verify": "answer / b == a",
+      "misconceptions": [
+        {"id": "no-zero", "wrong": "mulNoShift(a, b)", "explain": "In the second line you multiply by {idiv(b, 10)} tens, so write a 0 in the units column first: {a} × {idiv(b, 10) * 10} = {a * idiv(b, 10) * 10}."},
+        {"id": "units-only", "wrong": "a * (b % 10)", "explain": "Multiply by the tens digit too, then add the two lines."}
+      ]
+    },
+    {
+      "id": "r-div",
+      "area": "operations",
+      "type": "numeric",
+      "level": 2,
+      "vars": {"d": {"int": [2, 9]}, "q": {"int": [101, 999]}, "n": {"expr": "d * q"}},
+      "prompt": "Calculate {n} ÷ {d}.",
+      "answer": "q",
+      "verify": "answer * d == n",
+      "misconceptions": [
+        {"id": "dropped-zero", "wrong": "stripZeros(q)", "explain": "When the divisor does not go into a digit, write 0 in the answer and carry on: {n} ÷ {d} = {q}."}
+      ]
+    },
+    {
+      "id": "r-table-mul",
+      "area": "tables",
+      "type": "numeric",
+      "level": 1,
+      "vars": {"a": {"int": [2, 12]}, "b": {"int": [2, 12]}},
+      "prompt": "{a} × {b} = ?",
+      "answer": "a * b",
+      "verify": "answer / a == b",
+      "misconceptions": [
+        {"id": "added", "wrong": "a + b", "explain": "That is {a} + {b}. {a} × {b} means {b} groups of {a}."},
+        {"id": "next-row", "wrong": "a * (b - 1)", "when": "b > 2", "explain": "That is {a} × {b - 1}. Add one more {a}: {a * (b - 1)} + {a} = {a * b}."}
+      ]
+    },
+    {
+      "id": "r-table-div",
+      "area": "tables",
+      "type": "numeric",
+      "level": 1,
+      "vars": {"a": {"int": [2, 12]}, "b": {"int": [2, 12]}},
+      "where": "a != b",
+      "prompt": "{a * b} ÷ {a} = ?",
+      "answer": "b",
+      "verify": "answer * a == a * b",
+      "misconceptions": [
+        {"id": "divisor", "wrong": "a", "explain": "Ask: {a} times what makes {a * b}? {a} × {b} = {a * b}."}
+      ]
+    },
+    {
+      "id": "r-table-missing",
+      "area": "tables",
+      "type": "numeric",
+      "level": 1,
+      "vars": {"a": {"int": [2, 12]}, "b": {"int": [2, 12]}},
+      "prompt": "{a} × ? = {a * b}",
+      "answer": "b",
+      "verify": "a * answer == a * b",
+      "misconceptions": [
+        {"id": "subtracted", "wrong": "a * b - a", "explain": "Find the number that {a} is multiplied by: {a} × {b} = {a * b}."}
+      ]
+    },
+    {
+      "id": "r-wp-change",
+      "area": "word_problems",
+      "type": "numeric",
+      "level": 2,
+      "vars": {"x": {"int": [2, 8]}, "p": {"pick": [100, 150, 200, 250, 300, 400, 500]}, "note": {"pick": [2000, 5000, 10000]}},
+      "where": "note > x * p",
+      "prompt": "Ayuk buys {x} exercise books at {p} FCFA each. He pays with a {note} FCFA note. How much change does he get?",
+      "answer": "note - x * p",
+      "unit": "FCFA",
+      "verify": "answer + x * p == note",
+      "misconceptions": [
+        {"id": "one-book", "wrong": "note - p", "explain": "First find the cost of all {x} books: {x} × {p} = {x * p} FCFA."},
+        {"id": "cost-only", "wrong": "x * p", "explain": "{x * p} FCFA is the cost. The change is {note} − {x * p}."}
+      ]
+    },
+    {
+      "id": "r-wp-bags",
+      "area": "word_problems",
+      "type": "numeric",
+      "level": 2,
+      "vars": {"k": {"int": [4, 12]}, "full": {"int": [5, 40]}, "r": {"int": [1, "k - 1"]}, "n": {"expr": "full * k + r"}},
+      "prompt": "Bih packs {n} oranges into bags of {k}. How many bags can she fill completely?",
+      "answer": "full",
+      "verify": "answer * k <= n && (answer + 1) * k > n",
+      "misconceptions": [
+        {"id": "counted-part-bag", "wrong": "full + 1", "explain": "The last bag has only {r} oranges, so it is not full. Count only full bags: {n} ÷ {k} = {full} remainder {r}."},
+        {"id": "subtracted", "wrong": "n - k", "explain": "Packing into bags of {k} means dividing: {n} ÷ {k}."}
+      ]
+    },
+    {
+      "id": "r-wp-difference",
+      "area": "word_problems",
+      "type": "numeric",
+      "level": 2,
+      "vars": {"a": {"int": [300, 1500]}, "b": {"int": [100, "a - 50"]}},
+      "prompt": "One school has {a} pupils and another school has {b} pupils. How many more pupils does the first school have?",
+      "answer": "a - b",
+      "verify": "answer + b == a",
+      "misconceptions": [
+        {"id": "added", "wrong": "a + b", "explain": "'How many more' means find the difference: {a} − {b}."}
+      ]
+    }
+  ]
+}

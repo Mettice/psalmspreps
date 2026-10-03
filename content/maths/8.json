@@ -1,0 +1,427 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 8,
+  "language": "en",
+  "prerequisites": [
+    3,
+    7
+  ],
+  "note": {
+    "status": "draft",
+    "text": "We usually count in base ten: ten digits, 0 to 9, and each place is worth ten times the place on its right. In base b there are b digits, 0 to b − 1, and each place is worth b times the place on its right. In base 5 the digits are 0, 1, 2, 3 and 4.\n\nFrom base ten to base b: divide by b again and again, writing the remainders, until the quotient is 0. Then read the remainders from the bottom to the top.\n13 in base 2: 13 ÷ 2 = 6 r 1, 6 ÷ 2 = 3 r 0, 3 ÷ 2 = 1 r 1, 1 ÷ 2 = 0 r 1. So 13 = 1101₂.\n\nFrom base b to base ten: multiply each digit by its place value and add.\n1101₂ = 1 × 8 + 1 × 4 + 0 × 2 + 1 × 1 = 13.\n\nFrom one base to another: go through base ten.",
+    "checks": [
+      "idiv(13, 2) == 6 && 13 % 2 == 1",
+      "idiv(6, 2) == 3 && 6 % 2 == 0",
+      "idiv(3, 2) == 1 && 3 % 2 == 1",
+      "idiv(1, 2) == 0 && 1 % 2 == 1",
+      "toBase(13, 2) == '1101'",
+      "fromBase('1101', 2) == 13",
+      "1 * 8 + 1 * 4 + 0 * 2 + 1 * 1 == 13"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "n": 45,
+      "b": 3,
+      "one": 1
+    },
+    "problem": "Convert {n} to base {b}.",
+    "steps": [
+      "{n} ÷ {b} = {idiv(n, b)} remainder {n % b}",
+      "{idiv(n, b)} ÷ {b} = {idiv(n, b ^ 2)} remainder {idiv(n, b) % b}",
+      "{idiv(n, b ^ 2)} ÷ {b} = {idiv(n, b ^ 3)} remainder {idiv(n, b ^ 2) % b}",
+      "{idiv(n, b ^ 3)} ÷ {b} = {idiv(n, b ^ 4)} remainder {idiv(n, b ^ 3) % b}. The quotient is now {idiv(n, b ^ 4)}, so we stop.",
+      "Read the remainders from the bottom to the top: {toBase(n, b)}{sub(b)}.",
+      "Check by going back to base ten: {idiv(n, b ^ 3) % b} × {b ^ 3} + {idiv(n, b ^ 2) % b} × {b ^ 2} + {idiv(n, b) % b} × {b} + {n % b} × {one} = {n}."
+    ],
+    "answer": "{n} = {toBase(n, b)}{sub(b)}",
+    "checks": [
+      "idiv(n, b ^ 4) == 0 && idiv(n, b ^ 3) > 0",
+      "fromBase(toBase(n, b), b) == n",
+      "(idiv(n, b ^ 3) % b) * b ^ 3 + (idiv(n, b ^ 2) % b) * b ^ 2 + (idiv(n, b) % b) * b + n % b == n",
+      "str(idiv(n, b ^ 3) % b) + str(idiv(n, b ^ 2) % b) + str(idiv(n, b) % b) + str(n % b) == toBase(n, b)"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c8-1",
+        "status": "draft",
+        "idea": "In base ten each place is worth ten times the place on its right. In base b we use the digits from {0} up to one less than b, and each place is worth b times the place on its right.",
+        "vars": {
+          "b": 5
+        },
+        "example": [
+          "Base {b}: the digits are {join(range(0, b - 1), ', ')}.",
+          "The places, from the right, are worth {1}, {b}, {b ^ 2}, {b ^ 3}…"
+        ],
+        "checks": [
+          "len(range(0, b - 1)) == b"
+        ],
+        "check": {
+          "ref": "m8-valid-digits"
+        }
+      },
+      {
+        "id": "c8-2",
+        "status": "draft",
+        "idea": "To change from base b to base ten, multiply each digit by its place value and add.",
+        "vars": {
+          "b": 5,
+          "s": "123"
+        },
+        "example": [
+          "{s}{sub(b)} = {dig(s, 2)} × {b ^ 2} + {dig(s, 1)} × {b} + {dig(s, 0)} × {1}",
+          "= {dig(s, 2) * b ^ 2} + {dig(s, 1) * b} + {dig(s, 0)} = {fromBase(s, b)}"
+        ],
+        "checks": [
+          "fromBase(s, b) == 1 * 25 + 2 * 5 + 3"
+        ],
+        "check": {
+          "id": "c8-2-check",
+          "type": "numeric",
+          "level": 1,
+          "hint": "Under the two digits, write the place values {b} and {1}. Multiply and add.",
+          "vars": {
+            "b": {
+              "int": [
+                2,
+                9
+              ]
+            },
+            "n": {
+              "int": [
+                "b",
+                "b ^ 2 - 1"
+              ]
+            },
+            "s": {
+              "expr": "toBase(n, b)"
+            }
+          },
+          "where": "num(s) != n",
+          "prompt": "Convert {s}{sub(b)} to base ten.",
+          "answer": "n",
+          "verify": "toBase(answer, b) == s",
+          "misconceptions": [
+            {
+              "id": "read-as-ten",
+              "wrong": "num(s)",
+              "explain": "{s}{sub(b)} is not the base-ten number {s}: {dig(s, 1)} × {b} + {dig(s, 0)} = {n}."
+            }
+          ],
+          "solution": [
+            "{placeSum(s, b)}"
+          ]
+        }
+      },
+      {
+        "id": "c8-3",
+        "status": "draft",
+        "idea": "To change from base ten to base b, divide by b again and again, writing the remainders, until the quotient is {0}. Read the remainders from the bottom up.",
+        "vars": {
+          "n": 13,
+          "b": 2
+        },
+        "example": [
+          "{n} ÷ {b} = {idiv(n, b)} r {n % b}",
+          "{idiv(n, b)} ÷ {b} = {idiv(n, b ^ 2)} r {idiv(n, b) % b}",
+          "{idiv(n, b ^ 2)} ÷ {b} = {idiv(n, b ^ 3)} r {idiv(n, b ^ 2) % b}",
+          "{idiv(n, b ^ 3)} ÷ {b} = {idiv(n, b ^ 4)} r {idiv(n, b ^ 3) % b}",
+          "Bottom up: {toBase(n, b)}{sub(b)}"
+        ],
+        "checks": [
+          "idiv(n, b ^ 4) == 0 && idiv(n, b ^ 3) > 0",
+          "fromBase(toBase(n, b), b) == n"
+        ],
+        "check": {
+          "id": "c8-3-check",
+          "type": "numeric",
+          "level": 1,
+          "answer_kind": "base",
+          "hint": "Divide {n} by {b}, then divide the quotient by {b}. Read the remainders from the bottom up.",
+          "vars": {
+            "b": {
+              "int": [
+                2,
+                9
+              ]
+            },
+            "n": {
+              "int": [
+                "b",
+                "b ^ 2 - 1"
+              ]
+            }
+          },
+          "where": "toBase(n, b) != reverse(toBase(n, b))",
+          "prompt": "Convert {n} to base {b}.",
+          "answer": "toBase(n, b)",
+          "verify": "fromBase(answer, b) == n",
+          "misconceptions": [
+            {
+              "id": "reversed-remainders",
+              "wrong": "reverse(toBase(n, b))",
+              "explain": "Read the remainders from the bottom up: the last remainder is the first digit."
+            }
+          ],
+          "solution": [
+            "{divSteps(n, b)}"
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m8-valid-digits",
+      "hint": "In base {b}, the only digits allowed are {0} to {b - 1}.",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            8
+          ]
+        },
+        "bad_digit": {
+          "int": [
+            "b",
+            9
+          ]
+        },
+        "lead": {
+          "int": [
+            1,
+            "b - 1"
+          ]
+        },
+        "x": {
+          "int": [
+            "b",
+            300
+          ]
+        },
+        "y": {
+          "int": [
+            "b",
+            300
+          ]
+        },
+        "z": {
+          "int": [
+            "b",
+            300
+          ]
+        }
+      },
+      "prompt": "Which of these cannot be a number in base {b}?",
+      "correct": "{str(lead) + str(bad_digit)}",
+      "distractors": [
+        {
+          "text": "{toBase(x, b)}"
+        },
+        {
+          "text": "{toBase(y, b)}"
+        },
+        {
+          "text": "{toBase(z, b)}"
+        }
+      ],
+      "verify": "!isValidInBase(answer, b) && isValidInBase(toBase(x, b), b)",
+      "misconceptions": [],
+      "solution": [
+        "In base {b} the only digits are {join(range(0, b - 1), ', ')}.",
+        "{answer} contains the digit {bad_digit}, which is not allowed."
+      ]
+    },
+    {
+      "id": "m8-to-base",
+      "hint": "Divide {n} by {b} again and again until the quotient is {0}. Write each remainder, then read them from the bottom up.",
+      "type": "numeric",
+      "level": 2,
+      "answer_kind": "base",
+      "vars": {
+        "b": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "n": {
+          "int": [
+            10,
+            150
+          ]
+        }
+      },
+      "where": "toBase(n, b) != reverse(toBase(n, b))",
+      "prompt": "Convert {n} to base {b}.",
+      "answer": "toBase(n, b)",
+      "verify": "fromBase(answer, b) == n && isValidInBase(answer, b)",
+      "misconceptions": [
+        {
+          "id": "reversed-remainders",
+          "wrong": "reverse(toBase(n, b))",
+          "explain": "Read the remainders from the bottom to the top: the last remainder is the first digit."
+        },
+        {
+          "id": "remainders-only-once",
+          "wrong": "str(idiv(n, b)) + str(n % b)",
+          "explain": "Keep dividing by {b} until the quotient is 0. Only remainders are digits of the answer."
+        }
+      ],
+      "solution": [
+        "{divSteps(n, b)}"
+      ]
+    },
+    {
+      "id": "m8-to-ten",
+      "hint": "Under the digits of {s}, write the place values of base {b}, ending with …, {b}, {1}. Multiply each digit by its place value and add.",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "b": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "n": {
+          "int": [
+            10,
+            150
+          ]
+        },
+        "s": {
+          "expr": "toBase(n, b)"
+        }
+      },
+      "where": "num(s) != n",
+      "prompt": "Convert {s}{sub(b)} to base ten.",
+      "answer": "n",
+      "verify": "toBase(answer, b) == s",
+      "misconceptions": [
+        {
+          "id": "read-as-ten",
+          "wrong": "num(s)",
+          "explain": "{s}{sub(b)} is not the base-ten number {s}. Multiply each digit by its place value in base {b} ({b}{sup(2)}, {b}, 1…) and add."
+        }
+      ],
+      "solution": [
+        "{placeSum(s, b)}"
+      ]
+    },
+    {
+      "id": "m8-base-to-base",
+      "hint": "Go through base ten: first change {s}{sub(b1)} to base ten, then divide by {b2} again and again.",
+      "type": "numeric",
+      "level": 3,
+      "answer_kind": "base",
+      "vars": {
+        "b1": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "b2": {
+          "int": [
+            2,
+            9
+          ]
+        },
+        "n": {
+          "int": [
+            10,
+            120
+          ]
+        },
+        "s": {
+          "expr": "toBase(n, b1)"
+        }
+      },
+      "where": [
+        "b1 != b2",
+        "toBase(n, b2) != s"
+      ],
+      "prompt": "Convert {s}{sub(b1)} to base {b2}.",
+      "answer": "toBase(n, b2)",
+      "verify": "fromBase(answer, b2) == fromBase(s, b1)",
+      "misconceptions": [
+        {
+          "id": "same-digits",
+          "wrong": "s",
+          "explain": "Changing the base changes the digits. Go through base ten: {s}{sub(b1)} = {n}, then convert {n} to base {b2}."
+        },
+        {
+          "id": "skipped-base-ten",
+          "wrong": "toBase(num(s), b2)",
+          "explain": "First change {s}{sub(b1)} to base ten ({n}). Do not treat {s} as a base-ten number."
+        },
+        {
+          "id": "reversed-remainders",
+          "wrong": "reverse(toBase(n, b2))",
+          "explain": "Read the remainders from the bottom to the top."
+        }
+      ],
+      "solution": [
+        "First change to base ten: {placeSum(s, b1)}",
+        "Then divide by {b2}:",
+        "{divSteps(n, b2)}"
+      ]
+    },
+    {
+      "id": "m8-spot",
+      "hint": "Check each line: quotient × {b} + remainder must give back the number that was divided.",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "b": {
+          "int": [
+            2,
+            5
+          ]
+        },
+        "n": {
+          "int": [
+            "b ^ 2",
+            "b ^ 3 - 1"
+          ]
+        },
+        "w": {
+          "int": [
+            0,
+            2
+          ]
+        }
+      },
+      "where": "reverse(toBase(n, b)) != toBase(n, b)",
+      "prompt": "Enow converted {n} to base {b}. One line has a mistake. Which one?",
+      "steps": [
+        {
+          "text": "{n} ÷ {b} = {idiv(n, b)} remainder {w == 0 ? (n % b + 1) % b : n % b}",
+          "truth": "(w == 0 ? (n % b + 1) % b : n % b) == n % b",
+          "explain": "{n} = {idiv(n, b)} × {b} + {n % b}, so the remainder is {n % b}."
+        },
+        {
+          "text": "{idiv(n, b)} ÷ {b} = {idiv(n, b ^ 2)} remainder {w == 1 ? (idiv(n, b) % b + 1) % b : idiv(n, b) % b}",
+          "truth": "(w == 1 ? (idiv(n, b) % b + 1) % b : idiv(n, b) % b) == idiv(n, b) % b",
+          "explain": "{idiv(n, b)} = {idiv(n, b ^ 2)} × {b} + {idiv(n, b) % b}, so the remainder is {idiv(n, b) % b}."
+        },
+        {
+          "text": "{idiv(n, b ^ 2)} ÷ {b} = 0 remainder {idiv(n, b ^ 2)}",
+          "truth": "idiv(n, b ^ 2) < b"
+        },
+        {
+          "text": "So {n} = {w == 2 ? reverse(toBase(n, b)) : toBase(n, b)}{sub(b)}",
+          "truth": "(w == 2 ? reverse(toBase(n, b)) : toBase(n, b)) == toBase(n, b)",
+          "explain": "The remainders must be read from the bottom to the top: {toBase(n, b)}{sub(b)}."
+        }
+      ]
+    }
+  ]
+}

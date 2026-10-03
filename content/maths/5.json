@@ -1,0 +1,360 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 5,
+  "language": "en",
+  "prerequisites": [
+    3
+  ],
+  "note": {
+    "status": "draft",
+    "text": "The natural numbers are the numbers we use to count, starting from zero: 0, 1, 2, 3, 4, … The set of natural numbers is written ℕ:\nℕ = {0, 1, 2, 3, 4, …}\nThe dots mean the list never ends: there is no biggest natural number.\n\nℕ* (read 'N star') is the set of natural numbers without zero:\nℕ* = {1, 2, 3, 4, …}\n\nWe write ∈ for 'is an element of' and ∉ for 'is not an element of':\n7 ∈ ℕ, 0 ∈ ℕ, 0 ∉ ℕ*, 2.5 ∉ ℕ, −3 ∉ ℕ.\n\nEvery natural number n has a successor, n + 1. Every natural number except 0 has a predecessor, n − 1. The successor of 99 is 100.\n\nFrom 3 to 7 there are 5 natural numbers: 3, 4, 5, 6 and 7. In general, from a to b there are b − a + 1.",
+    "checks": [
+      "inN(7)",
+      "inN(0)",
+      "!inNstar(0)",
+      "!inN(2.5)",
+      "!inN(-3)",
+      "99 + 1 == 100",
+      "len(range(3, 7)) == 5",
+      "7 - 3 + 1 == 5"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "a": 15,
+      "b": 42,
+      "one": 1,
+      "c": 1,
+      "three": 3
+    },
+    "problem": "Ashu reads her history book from page {a} to page {b}, including both pages. How many pages does she read?",
+    "steps": [
+      "From page {a} to page {b} there are {b} − {a} = {b - a} steps forward.",
+      "Each step lands on a new page, but the first page, {a}, is not a step. Add it: {b - a} + {one} = {b - a + one}.",
+      "Check with a small example: from page {c} to page {c + 2} she reads pages {c}, {c + 1} and {c + 2}, that is {three} pages, and {c + 2} − {c} + {one} = {three}."
+    ],
+    "answer": "She reads {b - a + one} pages.",
+    "checks": [
+      "len(range(a, b)) == b - a + one",
+      "len(range(c, c + 2)) == three"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c5-1",
+        "status": "draft",
+        "idea": "The natural numbers are the counting numbers, starting from zero. Their set is called ℕ: ℕ = {{{0}, {1}, {2}, {3}, …}}.",
+        "vars": {
+          "k": 3,
+          "h": 2.5,
+          "n": 12
+        },
+        "example": [
+          "{n} ∈ ℕ (say: {n} is an element of ℕ), and {0} ∈ ℕ.",
+          "−{k} ∉ ℕ and {h} ∉ ℕ: they are not counting numbers."
+        ],
+        "checks": [
+          "inN(n) && inN(0) && !inN(-k) && !inN(h)"
+        ],
+        "check": {
+          "ref": "m5-not-natural"
+        }
+      },
+      {
+        "id": "c5-2",
+        "status": "draft",
+        "idea": "ℕ* (say 'N star') is ℕ without zero: ℕ* = {{{1}, {2}, {3}, …}}.",
+        "vars": {
+          "n": 7
+        },
+        "example": [
+          "{0} ∈ ℕ, but {0} ∉ ℕ*.",
+          "{n} ∈ ℕ and {n} ∈ ℕ*."
+        ],
+        "checks": [
+          "inN(0) && !inNstar(0) && inNstar(n)"
+        ],
+        "check": {
+          "ref": "m5-membership"
+        }
+      },
+      {
+        "id": "c5-3",
+        "status": "draft",
+        "idea": "Every natural number has a successor, the number just after it. Every natural number except {0} has a predecessor, the number just before it.",
+        "vars": {
+          "n": 99
+        },
+        "example": [
+          "The successor of {n} is {n} + {1} = {n + 1}.",
+          "The predecessor of {n} is {n} − {1} = {n - 1}.",
+          "{0} has no predecessor in ℕ."
+        ],
+        "checks": [
+          "inN(n - 1) && !inN(0 - 1)"
+        ],
+        "check": {
+          "ref": "m5-successor"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m5-not-natural",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "x": {
+          "int": [
+            1,
+            99
+          ]
+        },
+        "y": {
+          "int": [
+            2,
+            20
+          ]
+        },
+        "k": {
+          "int": [
+            1,
+            9
+          ]
+        },
+        "h": {
+          "int": [
+            1,
+            9
+          ]
+        },
+        "bad": {
+          "pick": [
+            "−{k}",
+            "{h}.5"
+          ]
+        }
+      },
+      "prompt": "Which of these is NOT a natural number?",
+      "correct": "{bad}",
+      "distractors": [
+        {
+          "text": "0",
+          "misconception": "zero-not-natural"
+        },
+        {
+          "text": "{x}"
+        },
+        {
+          "text": "{y * 10}"
+        }
+      ],
+      "verify": "!inN(bad == '−' + k ? -k : h + 0.5)",
+      "misconceptions": [
+        {
+          "id": "zero-not-natural",
+          "explain": "0 is a natural number: ℕ = {{0, 1, 2, 3, …}}. Only ℕ* leaves out 0."
+        }
+      ],
+      "solution": [
+        "Natural numbers are the whole counting numbers {0}, {1}, {2}, {3}, …: no negative numbers and no decimals.",
+        "{answer} is not a whole counting number, so it is not in ℕ."
+      ]
+    },
+    {
+      "id": "m5-membership",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "x": {
+          "int": [
+            1,
+            999
+          ]
+        },
+        "k": {
+          "int": [
+            1,
+            50
+          ]
+        },
+        "h": {
+          "int": [
+            1,
+            9
+          ]
+        }
+      },
+      "prompt": "Which statement is true?",
+      "pool": {
+        "right": [
+          {
+            "text": "0 ∈ ℕ",
+            "truth": "inN(0)"
+          },
+          {
+            "text": "{x} ∈ ℕ*",
+            "truth": "inNstar(x)"
+          },
+          {
+            "text": "0 ∉ ℕ*",
+            "truth": "!inNstar(0)"
+          },
+          {
+            "text": "−{k} ∉ ℕ",
+            "truth": "!inN(-k)"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "0 ∈ ℕ*",
+            "truth": "inNstar(0)",
+            "misconception": "zero-star",
+            "explain": "ℕ* is ℕ without 0, so 0 ∉ ℕ*."
+          },
+          {
+            "text": "0 ∉ ℕ",
+            "truth": "!inN(0)",
+            "misconception": "zero-not-natural",
+            "explain": "ℕ starts at 0, so 0 ∈ ℕ."
+          },
+          {
+            "text": "{h}.5 ∈ ℕ",
+            "truth": "inN(h + 0.5)",
+            "misconception": "decimal",
+            "explain": "Natural numbers are whole numbers. {h}.5 is not whole, so {h}.5 ∉ ℕ."
+          },
+          {
+            "text": "−{k} ∈ ℕ",
+            "truth": "inN(-k)",
+            "misconception": "negative",
+            "explain": "Natural numbers are never negative, so −{k} ∉ ℕ."
+          }
+        ]
+      },
+      "pick": {
+        "right": 1,
+        "wrong": 3
+      }
+    },
+    {
+      "id": "m5-successor",
+      "type": "numeric",
+      "level": 1,
+      "vars": {
+        "n": {
+          "int": [
+            10,
+            9999
+          ]
+        },
+        "which": {
+          "pick": [
+            "successor",
+            "predecessor"
+          ]
+        }
+      },
+      "prompt": "What is the {which} of {n}?",
+      "answer": "which == 'successor' ? n + 1 : n - 1",
+      "verify": "abs(answer - n) == 1 && inN(answer)",
+      "misconceptions": [
+        {
+          "id": "swapped",
+          "wrong": "which == 'successor' ? n - 1 : n + 1",
+          "explain": "The successor comes just after (add 1). The predecessor comes just before (take away 1)."
+        }
+      ],
+      "solution": [
+        "The successor comes just after (add {1}); the predecessor comes just before (take away {1}).",
+        "{which == 'successor' ? fmt(n) + ' + 1 = ' + fmt(n + 1) : fmt(n) + ' − 1 = ' + fmt(n - 1)}"
+      ]
+    },
+    {
+      "id": "m5-count-inclusive",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "a": {
+          "int": [
+            5,
+            200
+          ]
+        },
+        "d": {
+          "int": [
+            5,
+            80
+          ]
+        },
+        "b": {
+          "expr": "a + d"
+        }
+      },
+      "prompt": "Ashu reads a book from page {a} to page {b}, including both pages. How many pages does she read?",
+      "answer": "b - a + 1",
+      "verify": "answer == len(range(a, b))",
+      "misconceptions": [
+        {
+          "id": "forgot-first",
+          "wrong": "b - a",
+          "explain": "Count both ends. From page {a} to page {b} there are {b} − {a} + 1 = {b - a + 1} pages."
+        },
+        {
+          "id": "left-out-both",
+          "wrong": "b - a - 1",
+          "explain": "Pages {a} and {b} are both read, so count them: {b} − {a} + 1."
+        }
+      ],
+      "solution": [
+        "From page {a} to page {b}: {b} − {a} = {b - a} steps forward.",
+        "Add the first page, {a}: {b - a} + {1} = {b - a + 1} pages."
+      ]
+    },
+    {
+      "id": "m5-count-between",
+      "type": "numeric",
+      "level": 3,
+      "vars": {
+        "a": {
+          "int": [
+            5,
+            500
+          ]
+        },
+        "d": {
+          "int": [
+            3,
+            90
+          ]
+        },
+        "b": {
+          "expr": "a + d"
+        }
+      },
+      "prompt": "How many natural numbers are strictly between {a} and {b}? (Do not count {a} or {b}.)",
+      "answer": "b - a - 1",
+      "verify": "answer == len(range(a + 1, b - 1))",
+      "misconceptions": [
+        {
+          "id": "difference-only",
+          "wrong": "b - a",
+          "explain": "{b} − {a} counts the steps from {a} to {b}. Leave out both ends: {b} − {a} − 1 = {b - a - 1}."
+        },
+        {
+          "id": "counted-ends",
+          "wrong": "b - a + 1",
+          "explain": "Strictly between means {a} and {b} are not counted."
+        }
+      ],
+      "solution": [
+        "{b} − {a} = {b - a} counts the numbers from {a + 1} up to {b}.",
+        "Leave out {b} itself: {b - a} − {1} = {b - a - 1}."
+      ]
+    }
+  ]
+}

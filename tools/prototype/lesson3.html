@@ -1,0 +1,1355 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 3 Prototype</title>
+<style>
+:root { --bg:#fbfaf7; --fg:#1d1c1a; --muted:#5f5b53; --card:#ffffff; --line:#d9d4c9; --accent:#1f6f4a; --accent-press:#185a3c; --accent-fg:#ffffff;
+  --good-bg:#e7f4ec; --good:#1a6340; --flash:#9fe0bb; --bad-bg:#fdeceb; --bad:#a3322a; --soft:#f2efe8; --idk-border:#8a857b; --track:#e6e1d6; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#161513; --fg:#ece9e2; --muted:#b3ada2; --card:#211f1c;
+  --line:#3a3732; --accent:#4fb487; --accent-press:#43a077; --accent-fg:#0d1f16; --good-bg:#1b3327; --good:#8fdcb2; --flash:#2f7a52;
+  --bad-bg:#3a1f1d; --bad:#f0a59e; --soft:#26241f; --idk-border:#8f897e; --track:#33302b; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+#app { max-width: 520px; margin: 0 auto; padding: 16px 16px 48px; }
+.screen { animation: enter 200ms ease-out both; }
+@keyframes enter { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.progress { display: flex; align-items: center; gap: 12px; margin: 0 0 14px; }
+.progress .track { flex: 1; height: 12px; border-radius: 6px; background: var(--track); overflow: hidden; }
+.progress .fill { height: 100%; border-radius: 6px; background: var(--accent); transition: width 300ms ease-out; }
+.progress .count { font-size: 1.05rem; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+header { margin: 4px 0 16px; } h1 { font-size: 1.3rem; line-height: 1.3; margin: 2px 0 0; }
+.kicker { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+p { margin: 0 0 10px; } .muted { color: var(--muted); font-size: .95rem; } .strong { font-weight: 600; }
+.prompt { font-size: 1.15rem; font-weight: 600; margin: 8px 0 16px; overflow-wrap: anywhere; }
+.idea { font-size: 1.1rem; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; margin-bottom: 12px; }
+.example, .note, .hint { background: var(--soft); border-radius: 12px; padding: 14px; margin-bottom: 14px; overflow-wrap: anywhere; }
+.example ol { padding-left: 1.2em; margin: 6px 0; }
+button { display: block; width: 100%; min-height: 48px; margin: 10px 0 0; padding: 10px 14px; border-radius: 12px; font: inherit;
+  border: 1px solid var(--line); background: var(--card); color: var(--fg); text-align: left; cursor: pointer;
+  transition: transform 90ms ease-out, background-color 90ms ease-out, box-shadow 90ms ease-out; -webkit-tap-highlight-color: transparent; }
+button:active { transform: scale(.97); background: var(--soft); }
+button:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+button.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); text-align: center; font-weight: 700;
+  box-shadow: 0 2px 0 var(--accent-press); }
+button.primary:active { background: var(--accent-press); box-shadow: none; transform: translateY(2px) scale(.99); }
+/* Secondary but readable: full-contrast text on a plain outlined button, below the filled Check button. */
+button.idk { text-align: center; color: var(--fg); background: transparent; border: 1.5px solid var(--idk-border); font-weight: 500; margin-top: 18px; }
+button.link { text-align: center; background: transparent; border: 0; color: var(--muted); text-decoration: underline; }
+.options { display: grid; gap: 0; }
+.answer { display: flex; gap: 8px; align-items: center; }
+input, textarea { width: 100%; font: inherit; font-size: 1.3rem; min-height: 52px; padding: 10px 12px; border-radius: 12px; border: 1.5px solid var(--line);
+  background: var(--card); color: var(--fg); }
+textarea { font-size: .8rem; font-family: ui-monospace, Menlo, Consolas, monospace; margin-top: 10px; min-height: 0; }
+.unit { color: var(--muted); white-space: nowrap; }
+.chosen { min-height: 24px; padding-left: 1.4em; } .chosen li { margin: 4px 0; font-weight: 600; }
+.fb { border-radius: 12px; padding: 14px; margin: 8px 0 14px; } .fb strong { display: block; margin-bottom: 6px; font-size: 1.1rem; }
+.fb.good { background: var(--good-bg); color: var(--good); display: flex; align-items: center; gap: 12px; } .fb.good strong { margin: 0; font-size: 1.3rem; }
+.fb.bad { background: var(--bad-bg); color: var(--fg); } .fb.bad strong { color: var(--bad); }
+.fb.soft { background: var(--soft); color: var(--fg); }
+.flash { animation: flash 600ms ease-out; }
+@keyframes flash { 0% { background: var(--flash); transform: scale(.96); } 40% { transform: scale(1.02); } 100% { background: var(--good-bg); transform: none; } }
+.tick { width: 36px; height: 36px; flex: none; fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round;
+  stroke-dasharray: 24; stroke-dashoffset: 0; animation: draw 350ms ease-out 100ms both; }
+@keyframes draw { from { stroke-dashoffset: 24; } to { stroke-dashoffset: 0; } }
+.shake { animation: shake 320ms ease-in-out; }
+@keyframes shake { 0%, 100% { transform: none; } 20% { transform: translateX(-6px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(3px); } }
+.done { text-align: center; margin: 48px 0 24px; } .done-title { font-size: 2rem; font-weight: 800; } .done-sub { font-size: 1.15rem; }
+.confetti { position: fixed; left: 50%; top: 22%; width: 0; height: 0; pointer-events: none; z-index: 10; }
+.confetti i { position: absolute; width: 8px; height: 12px; border-radius: 2px; background: var(--c); opacity: 0;
+  animation: burst 1100ms cubic-bezier(.2,.7,.3,1) var(--d) forwards; }
+@keyframes burst { 0% { opacity: 1; transform: translate(0, 0) rotate(0); }
+  80% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 140px)) rotate(var(--r)); } }
+details.grownup { margin-top: 12px; } details.grownup summary { min-height: 48px; display: flex; align-items: center; cursor: pointer; color: var(--muted); }
+.areas { padding-left: 1.2em; } .areas .weak { color: var(--bad); font-weight: 600; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .confetti { display: none; }
+  button:active, button.primary:active { transform: none; }
+}
+</style>
+</head>
+<body>
+<main id="app"><noscript>This page needs JavaScript.</noscript></main>
+<script>
+"use strict";
+const __mods = {};
+__mods["rng.js"] = (() => {
+// Seeded pseudo-random numbers (mulberry32). The same seed always gives the same question.
+
+function makeRng(seed) {
+  let a = (seed >>> 0) || 0x9e3779b9;
+  const next = () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const int = (lo, hi) => lo + Math.floor(next() * (hi - lo + 1));
+  const pick = (list) => list[int(0, list.length - 1)];
+  const shuffle = (list) => {
+    const out = list.slice();
+    for (let i = out.length - 1; i > 0; i--) {
+      const j = int(0, i);
+      [out[i], out[j]] = [out[j], out[i]];
+    }
+    return out;
+  };
+  const sample = (list, k) => shuffle(list).slice(0, k);
+  return { next, int, pick, shuffle, sample };
+}
+
+return { makeRng };
+})();
+__mods["expr.js"] = (() => {
+// A small, safe expression language for content JSON. No eval, no access to globals:
+// expressions can only read template variables and call functions from the given library.
+//
+//   numbers 12 3.5   strings 'abc' "abc"   arrays [1, 2]   member a.b   index a[0]
+//   + - * / % ^(power)   == != < <= > >=   && || !   cond ? x : y   f(x, y)
+//
+// `+` concatenates when either side is a string. `==` compares numbers with a tiny tolerance.
+
+const OPS = ["==", "!=", "<=", ">=", "&&", "||", "+", "-", "*", "/", "%", "^", "<", ">", "!", "?", ":", "(", ")", "[", "]", ",", "."];
+
+function tokenize(src) {
+  const toks = [];
+  let i = 0;
+  while (i < src.length) {
+    const c = src[i];
+    if (/\s/.test(c)) { i++; continue; }
+    if (/[0-9]/.test(c) || (c === "." && /[0-9]/.test(src[i + 1] || ""))) {
+      const m = /^[0-9]*\.?[0-9]+(?:e[+-]?[0-9]+)?|^[0-9]+/.exec(src.slice(i));
+      toks.push({ t: "num", v: Number(m[0]) });
+      i += m[0].length;
+      continue;
+    }
+    if (c === "'" || c === '"') {
+      let j = i + 1, s = "";
+      while (j < src.length && src[j] !== c) {
+        if (src[j] === "\\" && j + 1 < src.length) { s += src[j + 1]; j += 2; } else s += src[j++];
+      }
+      if (j >= src.length) throw new SyntaxError(`unterminated string in: ${src}`);
+      toks.push({ t: "str", v: s });
+      i = j + 1;
+      continue;
+    }
+    if (/[A-Za-z_]/.test(c)) {
+      const m = /^[A-Za-z_][A-Za-z0-9_]*/.exec(src.slice(i));
+      const w = m[0];
+      toks.push(w === "true" || w === "false" ? { t: "lit", v: w === "true" } : { t: "id", v: w });
+      i += w.length;
+      continue;
+    }
+    const op = OPS.find((o) => src.startsWith(o, i));
+    if (!op) throw new SyntaxError(`unexpected '${c}' in: ${src}`);
+    toks.push({ t: "op", v: op });
+    i += op.length;
+  }
+  return toks;
+}
+
+const BINARY = { "||": 1, "&&": 2, "==": 3, "!=": 3, "<": 4, "<=": 4, ">": 4, ">=": 4, "+": 5, "-": 5, "*": 6, "/": 6, "%": 6, "^": 8 };
+
+function parse(src) {
+  const toks = tokenize(src);
+  let p = 0;
+  const peek = () => toks[p];
+  const isOp = (v) => peek() && peek().t === "op" && peek().v === v;
+  const expect = (v) => {
+    if (!isOp(v)) throw new SyntaxError(`expected '${v}' in: ${src}`);
+    p++;
+  };
+
+  function primary() {
+    const tok = toks[p++];
+    if (!tok) throw new SyntaxError(`unexpected end of: ${src}`);
+    let node;
+    if (tok.t === "num" || tok.t === "str" || tok.t === "lit") node = { k: "lit", v: tok.v };
+    else if (tok.t === "id") {
+      if (isOp("(")) {
+        p++;
+        const args = [];
+        if (!isOp(")")) do { args.push(ternary()); } while (isOp(",") && ++p);
+        expect(")");
+        node = { k: "call", f: tok.v, args };
+      } else node = { k: "var", v: tok.v };
+    } else if (tok.v === "(") { node = ternary(); expect(")"); }
+    else if (tok.v === "[") {
+      const items = [];
+      if (!isOp("]")) do { items.push(ternary()); } while (isOp(",") && ++p);
+      expect("]");
+      node = { k: "arr", items };
+    } else if (tok.v === "-") node = { k: "neg", x: unary() };
+    else if (tok.v === "!") node = { k: "not", x: unary() };
+    else throw new SyntaxError(`unexpected '${tok.v}' in: ${src}`);
+    for (;;) {  // postfix: .member and [index]
+      if (isOp(".")) { p++; const m = toks[p++]; node = { k: "idx", x: node, i: { k: "lit", v: m.v } }; }
+      else if (isOp("[")) { p++; const i = ternary(); expect("]"); node = { k: "idx", x: node, i }; }
+      else return node;
+    }
+  }
+  function unary() { return primary(); }
+  function binary(minPrec) {
+    let left = unary();
+    for (;;) {
+      const tok = peek();
+      const prec = tok && tok.t === "op" ? BINARY[tok.v] : undefined;
+      if (prec === undefined || prec < minPrec) return left;
+      p++;
+      const right = binary(tok.v === "^" ? prec : prec + 1);  // ^ is right-associative
+      left = { k: "bin", op: tok.v, a: left, b: right };
+    }
+  }
+  function ternary() {
+    const cond = binary(1);
+    if (!isOp("?")) return cond;
+    p++;
+    const yes = ternary();
+    expect(":");
+    return { k: "cond", c: cond, y: yes, n: ternary() };
+  }
+  const tree = ternary();
+  if (p !== toks.length) throw new SyntaxError(`unexpected '${toks[p].v}' in: ${src}`);
+  return tree;
+}
+
+function eq(a, b) {
+  if (typeof a === "number" && typeof b === "number") return Math.abs(a - b) <= 1e-9 * Math.max(1, Math.abs(a), Math.abs(b));
+  if (Array.isArray(a) && Array.isArray(b)) return a.length === b.length && a.every((x, i) => eq(x, b[i]));
+  return a === b;
+}
+
+function run(n, scope, lib) {
+  switch (n.k) {
+    case "lit": return n.v;
+    case "var":
+      if (!Object.prototype.hasOwnProperty.call(scope, n.v)) throw new ReferenceError(`unknown variable '${n.v}'`);
+      return scope[n.v];
+    case "arr": return n.items.map((x) => run(x, scope, lib));
+    case "idx": {
+      const x = run(n.x, scope, lib), i = run(n.i, scope, lib);
+      if (x === null || x === undefined || !Object.prototype.hasOwnProperty.call(Object(x), i)) {
+        if (i === "length" && (typeof x === "string" || Array.isArray(x))) return x.length;
+        throw new ReferenceError(`no member '${i}'`);
+      }
+      return x[i];
+    }
+    case "call": {
+      if (!Object.prototype.hasOwnProperty.call(lib, n.f)) throw new ReferenceError(`unknown function '${n.f}'`);
+      return lib[n.f](...n.args.map((x) => run(x, scope, lib)));
+    }
+    case "neg": return -run(n.x, scope, lib);
+    case "not": return !run(n.x, scope, lib);
+    case "cond": return run(n.c, scope, lib) ? run(n.y, scope, lib) : run(n.n, scope, lib);
+    case "bin": {
+      if (n.op === "&&") return run(n.a, scope, lib) && run(n.b, scope, lib);
+      if (n.op === "||") return run(n.a, scope, lib) || run(n.b, scope, lib);
+      const a = run(n.a, scope, lib), b = run(n.b, scope, lib);
+      switch (n.op) {
+        case "+": return a + b;
+        case "-": return a - b;
+        case "*": return a * b;
+        case "/": return a / b;
+        case "%": return ((a % b) + b) % b;
+        case "^": return a ** b;
+        case "==": return eq(a, b);
+        case "!=": return !eq(a, b);
+        case "<": return a < b;
+        case "<=": return a <= b;
+        case ">": return a > b;
+        case ">=": return a >= b;
+      }
+    }
+  }
+  throw new Error(`bad node ${n.k}`);
+}
+
+const cache = new Map();
+
+function evaluate(src, scope, lib) {
+  if (typeof src !== "string") return src;
+  let tree = cache.get(src);
+  if (!tree) { tree = parse(src); cache.set(src, tree); }
+  return run(tree, scope, lib);
+}
+
+// "Convert {n} to base {b}." -> each {expr} is evaluated. "{{" and "}}" are literal braces.
+function render(template, scope, lib, show = String) {
+  if (typeof template !== "string") return template;
+  let out = "", i = 0;
+  while (i < template.length) {
+    const c = template[i];
+    if (c === "{" && template[i + 1] === "{") { out += "{"; i += 2; continue; }
+    if (c === "}" && template[i + 1] === "}") { out += "}"; i += 2; continue; }
+    if (c === "{") {
+      let depth = 1, j = i + 1, quote = null;
+      for (; j < template.length && depth; j++) {
+        const d = template[j];
+        if (quote) { if (d === quote) quote = null; continue; }
+        if (d === "'" || d === '"') quote = d;
+        else if (d === "{") depth++;
+        else if (d === "}") depth--;
+      }
+      if (depth) throw new SyntaxError(`unclosed '{' in: ${template}`);
+      out += show(evaluate(template.slice(i + 1, j - 1), scope, lib));
+      i = j;
+      continue;
+    }
+    out += c;
+    i++;
+  }
+  return out;
+}
+
+return { eq, evaluate, render };
+})();
+__mods["lib/maths.js"] = (() => {
+// Vetted functions that Maths content JSON may call from expressions.
+// Everything here is pure and deterministic. Misconception helpers (marked "WRONG ON PURPOSE")
+// reproduce a predictable pupil mistake so its answer can be recognised and explained.
+
+const NBSP = " ";
+const SUP = "⁰¹²³⁴⁵⁶⁷⁸⁹";
+const SUB = "₀₁₂₃₄₅₆₇₈₉";
+
+// ---------------------------------------------------------------- display
+function fmt(n) {
+  if (typeof n !== "number") return String(n);
+  if (!Number.isFinite(n)) return String(n);
+  const neg = n < 0;
+  const [int, frac] = String(Number(Math.abs(n).toFixed(9))).split(".");
+  // House style (Dion, 2026-10-02): 4-digit numbers are not grouped (7750, 1948); 5+ digits are (12 500).
+  const grouped = int.length > 4 ? int.replace(/\B(?=(\d{3})+(?!\d))/g, NBSP) : int;
+  return (neg ? "−" : "") + grouped + (frac ? "." + frac : "");
+}
+const sup = (n) => String(n).replace(/[0-9]/g, (d) => SUP[d]);
+const sub = (n) => String(n).replace(/[0-9]/g, (d) => SUB[d]);
+const str = (x) => String(x);
+const num = (s) => Number(s);
+const len = (x) => x.length;
+const reverse = (s) => String(s).split("").reverse().join("");
+const join = (list, sep) => list.join(sep);
+const upper = (s) => String(s).toUpperCase();
+
+// ---------------------------------------------------------------- arithmetic
+const abs = Math.abs;
+const floor = Math.floor;
+const min = Math.min;
+const max = Math.max;
+const idiv = (a, b) => Math.floor(a / b);
+const round = (x, places = 0) => Number(x.toFixed(places));
+const isInt = (x) => Number.isInteger(x);
+const sum = (list) => list.reduce((a, b) => a + b, 0);
+const contains = (list, x) => list.includes(x);
+const distinct = (list) => new Set(list.map(String)).size === list.length;
+const inN = (x) => Number.isInteger(x) && x >= 0;
+const inNstar = (x) => Number.isInteger(x) && x >= 1;
+const plural = (k, one, many) => `${fmt(k)} ${k === 1 ? one : many}`;
+const pad = (n, width) => String(n).padStart(width, "0");
+const rep = (x, k) => Array.from({ length: k }, () => x);
+/** Inclusive list a, a+1, ..., b. */
+const range = (a, b) => Array.from({ length: Math.max(0, b - a + 1) }, (_, i) => a + i);
+/** Digit of a numeral string at position pos counted from the right (0 = units); 0 beyond its length. */
+const dig = (s, pos) => {
+  s = String(s);
+  return pos < s.length ? Number(s[s.length - 1 - pos]) : 0;
+};
+
+// ---------------------------------------------------------------- place value
+const PLACES = ["units", "tens", "hundreds", "thousands", "ten thousands", "hundred thousands", "millions"];
+const placeName = (pos) => PLACES[pos];
+const numDigits = (n) => String(Math.abs(n)).length;
+const digitAt = (n, pos) => Math.floor(n / 10 ** pos) % 10;
+const placeValue = (n, pos) => digitAt(n, pos) * 10 ** pos;
+/** Position (0 = units) of digit d in n, or -1. Only meaningful when d occurs once. */
+const posOf = (n, d) => {
+  const s = String(n);
+  const i = s.lastIndexOf(String(d));
+  return i < 0 ? -1 : s.length - 1 - i;
+};
+const countDigit = (n, d) => String(n).split(String(d)).length - 1;
+/** Digits split into groups of `size`, from the right (correct for size 3) or from the left (a mistake). */
+function groupDigits(n, size, fromLeft = false) {
+  const s = String(n), out = [];
+  if (fromLeft) for (let i = 0; i < s.length; i += size) out.push(s.slice(i, i + size));
+  else for (let i = s.length; i > 0; i -= size) out.unshift(s.slice(Math.max(0, i - size), i));
+  return out.join(NBSP);
+}
+/** WRONG ON PURPOSE: forgets zero place holders, 40 307 -> 437. */
+const stripZeros = (n) => Number(String(n).replace(/0/g, "") || "0");
+
+// ---------------------------------------------------------------- column arithmetic mistakes (Primary 6)
+const digitsOf = (n, len) => String(n).padStart(len, "0").split("").map(Number);
+/** WRONG ON PURPOSE: adds each column but never carries, 478 + 256 -> 624. */
+function addNoCarry(a, b) {
+  const L = Math.max(String(a).length, String(b).length);
+  const x = digitsOf(a, L), y = digitsOf(b, L);
+  return Number(x.map((d, i) => (d + y[i]) % 10).join(""));
+}
+/** WRONG ON PURPOSE: in every column takes the smaller digit from the bigger, 503 - 168 -> 465. */
+function subSmallFromLarge(a, b) {
+  const L = Math.max(String(a).length, String(b).length);
+  const x = digitsOf(a, L), y = digitsOf(b, L);
+  return Number(x.map((d, i) => Math.abs(d - y[i])).join(""));
+}
+/** WRONG ON PURPOSE: long multiplication by a 2-digit number without the zero in the second line, 123 × 45 -> 123×5 + 123×4. */
+const mulNoShift = (a, b) => a * (b % 10) + a * Math.floor(b / 10);
+
+// ---------------------------------------------------------------- numbers in words (British usage)
+const ONES = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+  "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
+const TENS = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"];
+function below100(n) {
+  if (n < 20) return ONES[n];
+  return TENS[Math.floor(n / 10)] + (n % 10 ? "-" + ONES[n % 10] : "");
+}
+function below1000(n) {
+  const h = Math.floor(n / 100), r = n % 100;
+  if (!h) return below100(r);
+  return `${ONES[h]} hundred` + (r ? ` and ${below100(r)}` : "");
+}
+/** 2 405 012 -> "two million four hundred and five thousand and twelve". Up to 999 999 999. */
+function words(n) {
+  if (!Number.isInteger(n) || n < 0 || n > 999_999_999) throw new RangeError(`words(${n})`);
+  if (n === 0) return "zero";
+  const m = Math.floor(n / 1e6), t = Math.floor(n / 1e3) % 1000, r = n % 1000;
+  const parts = [];
+  if (m) parts.push(`${below1000(m)} million`);
+  if (t) parts.push(`${below1000(t)} thousand`);
+  if (r) parts.push(r < 100 && parts.length ? `and ${below100(r)}` : below1000(r));
+  return parts.join(" ");
+}
+
+/** Inverse of words(), written independently so tests can cross-check the two. NaN if not understood. */
+function fromWords(s) {
+  const small = Object.fromEntries(ONES.map((w, i) => [w, i]));
+  TENS.forEach((w, i) => { if (w) small[w] = i * 10; });
+  let total = 0, current = 0, seen = false;
+  for (const w of String(s).toLowerCase().replace(/-/g, " ").split(/\s+/).filter(Boolean)) {
+    if (w === "and") continue;
+    if (w in small) { current += small[w]; seen = true; }
+    else if (w === "hundred") current *= 100;
+    else if (w === "thousand") { total += current * 1000; current = 0; }
+    else if (w === "million") { total += current * 1e6; current = 0; }
+    else return NaN;
+  }
+  return seen ? total + current : NaN;
+}
+
+// ---------------------------------------------------------------- ordinals
+function ordinal(n) {
+  const t = n % 100;
+  const s = t >= 11 && t <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th");
+  return `${n}${s}`;
+}
+
+// ---------------------------------------------------------------- Roman and Egyptian numerals
+const ROMAN = [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"],
+  [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
+const ROMAN_ADD = [[1000, "M"], [500, "D"], [100, "C"], [50, "L"], [10, "X"], [5, "V"], [1, "I"]];
+const SYMBOL = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+function toRoman(n, table) {
+  if (!Number.isInteger(n) || n < 1 || n > 3999) throw new RangeError(`roman(${n})`);
+  let out = "";
+  for (const [v, s] of table) while (n >= v) { out += s; n -= v; }
+  return out;
+}
+const roman = (n) => toRoman(n, ROMAN);
+/** Value of a standard Roman numeral, or NaN if it is not written the standard way. */
+function fromRoman(s) {
+  s = String(s).toUpperCase();
+  if (!/^[IVXLCDM]+$/.test(s)) return NaN;
+  let total = 0;
+  for (let i = 0; i < s.length; i++) {
+    const v = SYMBOL[s[i]], next = SYMBOL[s[i + 1]] || 0;
+    total += v < next ? -v : v;
+  }
+  return total >= 1 && total <= 3999 && roman(total) === s ? total : NaN;
+}
+/** WRONG ON PURPOSE: no subtraction rule, 4 -> IIII, 90 -> LXXXX. */
+const romanAdditive = (n) => toRoman(n, ROMAN_ADD);
+/** WRONG ON PURPOSE: adds every symbol, XL -> 60. */
+const romanAddAll = (s) => String(s).split("").reduce((a, c) => a + SYMBOL[c], 0);
+const hasSubtractive = (n) => /[49]/.test(String(n));
+
+const EGYPT = [[1000, "lotus flower", "lotus flowers"], [100, "coil of rope", "coils of rope"],
+  [10, "heel bone", "heel bones"], [1, "stroke", "strokes"]];
+/** 3 205 -> "3 lotus flowers, 2 coils of rope and 5 strokes". Below 10 000. */
+function egyptianList(n) {
+  const parts = EGYPT.map(([v, one, many]) => [Math.floor(n / v) % 10, one, many]).filter(([k]) => k)
+    .map(([k, one, many]) => plural(k, one, many));
+  return parts.length > 1 ? parts.slice(0, -1).join(", ") + " and " + parts[parts.length - 1] : parts[0];
+}
+
+// ---------------------------------------------------------------- number bases
+const DIGITS = "0123456789";
+function toBase(n, b) {
+  if (!Number.isInteger(n) || n < 0 || b < 2 || b > 10) throw new RangeError(`toBase(${n}, ${b})`);
+  if (n === 0) return "0";
+  let out = "";
+  while (n > 0) { out = DIGITS[n % b] + out; n = Math.floor(n / b); }
+  return out;
+}
+/** Value of a base-b numeral, or NaN if a digit is not allowed in base b. */
+function fromBase(s, b) {
+  s = String(s);
+  if (!/^[0-9]+$/.test(s)) return NaN;
+  let v = 0;
+  for (const c of s) {
+    const d = Number(c);
+    if (d >= b) return NaN;
+    v = v * b + d;
+  }
+  return v;
+}
+const isValidInBase = (s, b) => !Number.isNaN(fromBase(s, b));
+/** WRONG ON PURPOSE: column arithmetic done in base ten (carrying or borrowing ten, not b). */
+const decAdd = (xs, ys) => String(Number(xs) + Number(ys));
+const decSub = (xs, ys) => String(Number(xs) - Number(ys));
+const decMul = (xs, ys) => String(Number(xs) * Number(ys));
+
+// ---------------------------------------------------------------- full working (shown after a second miss)
+// Each returns lines joined with "\n"; every number comes from the same functions as the answers.
+const sb = (s, b) => `${s}${sub(b)}`;
+
+/** Repeated division of n by b, then the remainders read upwards. */
+function divSteps(n, b) {
+  const out = [];
+  let q = n;
+  do { out.push(`${fmt(q)} ÷ ${b} = ${fmt(Math.floor(q / b))} r ${q % b}`); q = Math.floor(q / b); } while (q > 0);
+  out.push(`Read the remainders from the bottom up: ${sb(toBase(n, b), b)}`);
+  return out.join("\n");
+}
+/** "1 × 25 + 2 × 5 + 3 × 1 = 25 + 10 + 3 = 38" for a base-b numeral. */
+function placeSum(s, b) {
+  s = String(s);
+  const digits = [...s].map(Number), L = digits.length;
+  const terms = digits.map((d, i) => `${d} × ${fmt(b ** (L - 1 - i))}`);
+  const values = digits.map((d, i) => fmt(d * b ** (L - 1 - i)));
+  return `${sb(s, b)} = ${terms.join(" + ")} = ${values.join(" + ")} = ${fmt(fromBase(s, b))}`;
+}
+/** Column addition in base b, right to left, with carries. */
+function columnAdd(xs, ys, b) {
+  const L = Math.max(String(xs).length, String(ys).length), out = [];
+  let carry = 0;
+  for (let i = 0; i < L; i++) {
+    const a = dig(xs, i), c = dig(ys, i), t = a + c + carry;
+    out.push(`Column ${i + 1} from the right: ${a} + ${c}${carry ? ` + ${carry} (carried)` : ""} = ${t}` +
+      (t >= b ? ` = ${b} + ${t - b}: write ${t - b}, carry 1` : `: write ${t}`));
+    carry = t >= b ? 1 : 0;
+  }
+  if (carry) out.push("Write the last carry, 1.");
+  out.push(`Answer: ${sb(toBase(fromBase(xs, b) + fromBase(ys, b), b), b)}`);
+  return out.join("\n");
+}
+/** Column subtraction in base b, right to left, borrowing b. Requires xs ≥ ys. */
+function columnSub(xs, ys, b) {
+  const L = String(xs).length, out = [];
+  let borrow = 0;
+  // Plain steps with no negative intermediates (TR-C31, Dion 2026-10-03).
+  for (let i = 0; i < L; i++) {
+    const d = dig(xs, i), c = dig(ys, i);
+    const col = `Column ${i + 1} from the right: `;
+    if (borrow && d === 0) {
+      // Borrowing across a zero: the 0 has already lent 1, so it borrows b and gives back the 1.
+      out.push(`${col}This 0 already lent 1 to the right and has nothing left, so it borrows from the next column. ` +
+        `In base ${b}, borrowing gives ${b}. ${b} − 1 (what it lent) = ${b - 1}. Then ${b - 1} − ${c} = ${b - 1 - c}.`);
+      borrow = 1;
+    } else if (borrow) {
+      const top = d - 1;  // ≥ 0 here
+      if (top < c) {
+        out.push(`${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. ${top} is less than ${c}, so it borrows from the next column. ` +
+          `In base ${b}, borrowing gives ${b} more: ${top} + ${b} = ${top + b}. Then ${top + b} − ${c} = ${top + b - c}.`);
+        borrow = 1;
+      } else {
+        out.push(`${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Then ${top} − ${c} = ${top - c}.`);
+        borrow = 0;
+      }
+    } else if (d < c) {
+      out.push(`${col}${d} is less than ${c}, so it borrows from the next column. ` +
+        `In base ${b}, borrowing gives ${b} more: ${d} + ${b} = ${d + b}. Then ${d + b} − ${c} = ${d + b - c}.`);
+      borrow = 1;
+    } else {
+      out.push(`${col}${d} − ${c} = ${d - c}.`);
+      borrow = 0;
+    }
+  }
+  out.push(`Answer: ${sb(toBase(fromBase(xs, b) - fromBase(ys, b), b), b)}`);
+  return out.join("\n");
+}
+/** Multiplying a base-b numeral by a one-digit number e, column by column with carries. */
+function columnMul(xs, e, b) {
+  const L = String(xs).length, out = [];
+  let carry = 0;
+  for (let i = 0; i < L; i++) {
+    const d = dig(xs, i), t = d * e + carry;
+    out.push(`Column ${i + 1} from the right: ${e} × ${d}${carry ? ` + ${carry} (carried)` : ""} = ${t} = ${Math.floor(t / b)} × ${b} + ${t % b}: write ${t % b}, carry ${Math.floor(t / b)}`);
+    carry = Math.floor(t / b);
+  }
+  if (carry) out.push(`Write the last carry, ${carry}.`);
+  out.push(`Answer: ${sb(toBase(fromBase(xs, b) * e, b), b)}`);
+  return out.join("\n");
+}
+/** "MCMXLVIII = M + CM + XL + VIII = 1000 + 900 + 40 + 8 = 1948" (place by place). */
+function romanWorking(n) {
+  const parts = [1000, 100, 10, 1].map((p) => Math.floor(n / p) % 10 * p).filter(Boolean);
+  if (parts.length === 1) return `${roman(n)} = ${fmt(n)}`;
+  return `${roman(n)} = ${parts.map(roman).join(" + ")} = ${parts.map(fmt).join(" + ")} = ${fmt(n)}`;
+}
+/** Non-zero place values of n: "40 000 + 300 + 7". */
+const expanded = (n) => String(n).split("").map((d, i, a) => Number(d) * 10 ** (a.length - 1 - i)).filter(Boolean).map(fmt).join(" + ");
+
+// ---------------------------------------------------------------- lengths
+const UNITS = { km: 3, hm: 2, dam: 1, m: 0, dm: -1, cm: -2, mm: -3 };
+const unitExp = (u) => UNITS[u];
+/** Exact conversion between metric length units. */
+function convert(v, from, to) {
+  const d = UNITS[from] - UNITS[to];
+  return d >= 0 ? v * 10 ** d : Number((v / 10 ** -d).toFixed(12));
+}
+
+// ---------------------------------------------------------------- lines in a plane
+/** (X) r1 (Y) and (Z) r2 (X)  =>  relation between (Z) and (Y). r is "//" or "⊥". */
+function lineRule(r1, r2) {
+  const perp = (r1 === "⊥") !== (r2 === "⊥");
+  return perp ? "⊥" : "//";
+}
+
+return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
+})();
+__mods["template.js"] = (() => {
+// Turns a JSON question template + a seed into a concrete question, and checks responses.
+// Correctness is always decided here, by code: the answer is computed from the template's
+// expressions, never stored as free text from an author or a model.
+//
+// Template types
+//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?
+//   mcq         correct: tmpl + distractors: [tmpl | {text?, misconception}]   (computed values)
+//               or pool: {right: [stmt], wrong: [stmt]}, pick: {right, wrong}  (choose the true one)
+//   spot_error  pool + pick (choose the false statement), or steps: [stmt] with exactly one false
+//   ordering    items: [{text, key?}], order: asc | desc | as_written
+// A stmt is {text: tmpl, truth: expr, explain?, misconception?}; the engine evaluates every truth.
+
+const { evaluate, render, eq } = __mods["expr.js"];
+const { makeRng } = __mods["rng.js"];
+const LETTERS = "ABCDEFGHKLMNPRST";
+const MAX_TRIES = 500;
+
+function hash(s) {
+  let h = 2166136261;
+  for (const c of s) h = Math.imul(h ^ c.charCodeAt(0), 16777619);
+  return h >>> 0;
+}
+
+class ContentError extends Error {}
+
+function show(lib) {
+  return (v) => (typeof v === "number" ? lib.fmt(v) : Array.isArray(v) ? v.join(", ") : String(v));
+}
+
+function renderDeep(x, scope, lib) {
+  if (typeof x === "string") return render(x, scope, lib, show(lib));
+  if (Array.isArray(x)) return x.map((y) => renderDeep(y, scope, lib));
+  if (x && typeof x === "object") return Object.fromEntries(Object.entries(x).map(([k, v]) => [k, renderDeep(v, scope, lib)]));
+  return x;
+}
+
+function sampleVar(spec, scope, rng, lib) {
+  if (spec === null || typeof spec !== "object" || Array.isArray(spec)) return spec;
+  if ("int" in spec) {
+    const [lo, hi] = spec.int.map((e) => evaluate(e, scope, lib));
+    const step = spec.step || 1;
+    return lo + step * rng.int(0, Math.floor((hi - lo) / step));
+  }
+  if ("pick" in spec) return renderDeep(rng.pick(spec.pick), scope, lib);
+  if ("sample" in spec) return rng.sample(evaluate(spec.sample[0], scope, lib), evaluate(spec.sample[1], scope, lib));
+  if ("letters" in spec) return rng.sample(LETTERS.split(""), spec.letters);
+  if ("expr" in spec) return evaluate(spec.expr, scope, lib);
+  throw new ContentError(`unknown variable spec ${JSON.stringify(spec)}`);
+}
+
+function sampleScope(vars, where, rng, lib) {
+  const conds = where ? [].concat(where) : [];
+  for (let t = 0; t < MAX_TRIES; t++) {
+    const scope = {};
+    for (const [name, spec] of Object.entries(vars || {})) scope[name] = sampleVar(spec, scope, rng, lib);
+    if (conds.every((c) => evaluate(c, scope, lib))) return scope;
+  }
+  throw new ContentError(`could not satisfy 'where' after ${MAX_TRIES} tries: ${conds.join(" && ")}`);
+}
+
+// ---------------------------------------------------------------- answer normalisation
+function parseNumber(s) {
+  let t = String(s).replace(/[\s  ]/g, "").replace(/−/g, "-");
+  if (/^-?\d{1,3}(,\d{3})+$/.test(t)) t = t.replace(/,/g, "");  // 1,500 = thousands separator
+  else t = t.replace(",", ".");                                   // 2,5 = decimal comma
+  return /^-?(\d+\.?\d*|\.\d+)$/.test(t) ? Number(t) : NaN;
+}
+
+const SUBSCRIPTS = /[₀₁₂₃₄₅₆₇₈₉]/g;
+
+function normalize(value, kind) {
+  if (kind === "number") return typeof value === "number" ? value : parseNumber(value);
+  const s = String(value).replace(/[\s  ]/g, "");
+  if (kind === "base") return s.replace(SUBSCRIPTS, "").replace(/^0+(?=\d)/, "");
+  if (kind === "roman") return s.toUpperCase();
+  return String(value).trim().replace(/\s+/g, " ").toLowerCase();
+}
+
+const same = (a, b, kind) => {
+  const x = normalize(a, kind), y = normalize(b, kind);
+  return kind === "number" ? !Number.isNaN(x) && eq(x, y) : x === y;
+};
+
+// ---------------------------------------------------------------- statements
+function stmt(s, scope, lib) {
+  const text = render(s.text, scope, lib, show(lib));
+  const truth = evaluate(s.truth, scope, lib);
+  if (typeof truth !== "boolean") throw new ContentError(`truth of "${text}" is not true/false`);
+  return { text, truth, misconception: s.misconception, explain: s.explain && render(s.explain, scope, lib, show(lib)) };
+}
+
+function fromPool(tpl, scope, rng, lib, wantTrue) {
+  const right = tpl.pool.right.map((s) => stmt(s, scope, lib));
+  const wrong = tpl.pool.wrong.map((s) => stmt(s, scope, lib));
+  for (const s of right) if (!s.truth) throw new ContentError(`${tpl.id}: "${s.text}" is listed as right but evaluates false`);
+  for (const s of wrong) if (s.truth) throw new ContentError(`${tpl.id}: "${s.text}" is listed as wrong but evaluates true`);
+  const chosen = rng.shuffle([...rng.sample(right, tpl.pick.right), ...rng.sample(wrong, tpl.pick.wrong)]);
+  if (new Set(chosen.map((s) => s.text)).size !== chosen.length) return null;  // two identical statements: resample
+  const answers = chosen.map((s, i) => (s.truth === wantTrue ? i : -1)).filter((i) => i >= 0);
+  if (answers.length !== 1) throw new ContentError(`${tpl.id}: pick must give exactly one ${wantTrue ? "true" : "false"} statement`);
+  return { options: chosen.map(({ text, misconception, explain }) => ({ text, misconception, explain })), correctIndex: answers[0] };
+}
+
+// ---------------------------------------------------------------- full working
+/**
+ * The correct answer with full working, shown after a second miss (decision 2026-10-03).
+ * Numeric and computed-mcq templates write it in `solution` (templates, may use {answer});
+ * statement, spot-the-error and ordering questions build it from their own data.
+ */
+function solutionOf(tpl, scope, q, R) {
+  const quote = (t) => `“${t}”`;
+  if (tpl.solution) return tpl.solution.flatMap((t) => R(t, { ...scope, answer: q.answer }).split("\n"));
+  if (q.type === "mcq" && tpl.pool) {
+    return [`The true statement is ${quote(q.answer)}.`,
+      ...q.options.filter((o, i) => i !== q.correctIndex && o.explain).map((o) => `${quote(o.text)} is false: ${o.explain}`)];
+  }
+  if (q.type === "spot_error") {
+    const wrong = q.options[q.correctIndex];
+    return [`The wrong ${tpl.pool ? "statement" : "line"} is ${quote(wrong.text)}.`, ...(wrong.explain ? [wrong.explain] : [])];
+  }
+  if (q.type === "ordering") return [`The correct order is: ${q.answer}.`];
+  return undefined;  // numeric / computed mcq without a written solution (tests require one in Form 1 lessons)
+}
+
+// ---------------------------------------------------------------- instantiate
+function instantiate(tpl, seed, lib, lesson = null) {
+  const rng = makeRng(hash(tpl.id) ^ seed);
+  const R = (t, scope) => render(t, scope, lib, show(lib));
+  const withSolution = (q, scope) => {
+    const solution = solutionOf(tpl, scope, q, R);
+    if (solution) q.solution = solution;
+    return q;
+  };
+  const miscById = Object.fromEntries((tpl.misconceptions || []).map((m) => [m.id, m]));
+  const explainOf = (id, scope) => (id && miscById[id] ? R(miscById[id].explain, scope) : undefined);
+
+  for (let t = 0; t < MAX_TRIES; t++) {
+    const scope = sampleScope(tpl.vars, tpl.where, rng, lib);
+    const q = { id: tpl.id, lesson, seed, type: tpl.type, level: tpl.level, prompt: R(tpl.prompt, scope) };
+    if (tpl.hint) q.hint = R(tpl.hint, scope);
+
+    if (tpl.type === "numeric") {
+      const kind = tpl.answer_kind || "number";
+      const value = evaluate(tpl.answer, scope, lib);
+      if (kind === "number" && (typeof value !== "number" || !Number.isFinite(value))) throw new ContentError(`${tpl.id}: answer is ${value}`);
+      Object.assign(q, { answerKind: kind, answerValue: value, answer: show(lib)(value), unit: tpl.unit && R(tpl.unit, scope) });
+      q.misconceptions = (tpl.misconceptions || []).flatMap((m) => {
+        if (m.when && !evaluate(m.when, scope, lib)) return [];
+        const v = evaluate(m.wrong, scope, lib);
+        if (v === undefined || (typeof v === "number" && !Number.isFinite(v)) || same(v, value, kind)) return [];
+        return [{ id: m.id, value: show(lib)(v), explain: R(m.explain, scope) }];
+      });
+      q.verified = tpl.verify ? evaluate(tpl.verify, { ...scope, answer: value }, lib) === true : true;
+      return withSolution(q, scope);
+    }
+
+    if (tpl.type === "mcq" && tpl.correct !== undefined) {
+      const correct = R(tpl.correct, scope);
+      const seen = new Set([correct]);
+      const pool = [];
+      for (const d of tpl.distractors) {
+        if (d.when && !evaluate(d.when, scope, lib)) continue;
+        const text = typeof d === "string" ? R(d, scope)
+          : d.text !== undefined ? R(d.text, scope) : show(lib)(evaluate(miscById[d.misconception].wrong, scope, lib));
+        if (seen.has(text) || text.includes("NaN") || text.includes("undefined")) continue;
+        seen.add(text);
+        pool.push({ text, misconception: d.misconception, explain: explainOf(d.misconception, scope) });
+      }
+      const need = (tpl.show || 4) - 1;
+      if (pool.length < Math.min(need, tpl.min_distractors ?? need)) continue;  // resample: not enough distinct options
+      const options = rng.shuffle([{ text: correct }, ...rng.sample(pool, need)]);
+      Object.assign(q, { options, correctIndex: options.findIndex((o) => o.text === correct), answer: correct });
+      q.verified = tpl.verify ? evaluate(tpl.verify, { ...scope, answer: correct }, lib) === true : true;
+      return withSolution(q, scope);
+    }
+
+    if (tpl.type === "mcq" || (tpl.type === "spot_error" && tpl.pool)) {
+      const picked = fromPool(tpl, scope, rng, lib, tpl.type === "mcq");
+      if (!picked) continue;
+      Object.assign(q, picked);
+      q.answer = q.options[q.correctIndex].text;
+      q.verified = true;
+      return withSolution(q, scope);
+    }
+
+    if (tpl.type === "spot_error") {
+      const steps = tpl.steps.map((s) => stmt(s, scope, lib));
+      const wrong = steps.map((s, i) => (s.truth ? -1 : i)).filter((i) => i >= 0);
+      if (wrong.length !== 1) throw new ContentError(`${tpl.id}: ${wrong.length} false steps (need exactly 1)`);
+      Object.assign(q, { options: steps.map(({ text, misconception, explain }) => ({ text, misconception, explain })),
+        correctIndex: wrong[0], answer: steps[wrong[0]].text, ordered: true });
+      q.verified = true;
+      return withSolution(q, scope);
+    }
+
+    if (tpl.type === "ordering") {
+      const items = tpl.items.map((it) => ({ text: R(it.text, scope), key: it.key === undefined ? undefined : evaluate(it.key, scope, lib) }));
+      let correct = items.map((_, i) => i);
+      if (tpl.order === "asc" || tpl.order === "desc") {
+        const keys = items.map((i) => i.key);
+        if (new Set(keys).size !== keys.length) continue;  // ties make the order ambiguous: resample
+        correct.sort((a, b) => (tpl.order === "asc" ? keys[a] - keys[b] : keys[b] - keys[a]));
+      }
+      let display;
+      do { display = rng.shuffle(items.map((_, i) => i)); } while (display.every((d, i) => d === correct[i]));
+      Object.assign(q, {
+        items: display.map((i) => items[i].text),
+        correctOrder: correct.map((c) => display.indexOf(c)),  // display positions in the right order
+        answer: correct.map((c) => items[c].text).join(" → "),
+      });
+      q.verified = true;
+      return withSolution(q, scope);
+    }
+    throw new ContentError(`${tpl.id}: unknown type ${tpl.type}`);
+  }
+  throw new ContentError(`${tpl.id}: could not build enough distinct options`);
+}
+
+// ---------------------------------------------------------------- typed input
+/**
+ * Cleans what the pupil typed before checking: spaces, non-breaking and thin spaces always go;
+ * commas also go when the answer is a whole number ("9,038,766" → "9038766").
+ */
+function normaliseInput(text, q) {
+  const s = String(text).replace(/[\s   ]/g, "");
+  return q.answerKind === "number" && Number.isInteger(q.answerValue) ? s.replace(/,/g, "") : s;
+}
+
+/** Keyboard to show: the number pad for whole numbers and base numerals, decimal pad otherwise. */
+function inputModeFor(q) {
+  if (q.answerKind === "base" || (q.answerKind === "number" && Number.isInteger(q.answerValue))) return "numeric";
+  return q.answerKind === "number" ? "decimal" : "text";
+}
+
+// ---------------------------------------------------------------- checking
+/** The pupil pressed "I don't know". Incorrect for mastery; no misconception feedback. */
+const DONT_KNOW = Object.freeze({ dontKnow: true });
+
+/** response: string for numeric, option index for mcq/spot_error, display-index array for ordering, or DONT_KNOW. */
+function check(q, response) {
+  if (response === DONT_KNOW) {
+    return { correct: false, dontKnow: true, misconception: null, show: q.hint ? ["hint", "worked_example"] : ["worked_example"] };
+  }
+  if (q.type === "numeric") {
+    if (same(response, q.answerValue, q.answerKind)) return { correct: true };
+    const m = q.misconceptions.find((x) => same(response, x.value, q.answerKind));
+    return { correct: false, misconception: m ? { id: m.id, explain: m.explain } : null };
+  }
+  if (q.type === "mcq" || q.type === "spot_error") {
+    if (response === q.correctIndex) return { correct: true };
+    const o = q.options[response];
+    return { correct: false, misconception: o && (o.misconception || o.explain) ? { id: o.misconception || null, explain: o.explain } : null };
+  }
+  if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
+  throw new Error(`unknown type ${q.type}`);
+}
+
+// ---------------------------------------------------------------- worked examples
+/** Renders a worked example from fixed `vars`: every number is computed by code. */
+function renderWorked(we, lib) {
+  const scope = sampleScope(we.vars, null, makeRng(1), lib);
+  const R = (t) => render(t, scope, lib, show(lib));
+  const failed = (we.checks || []).filter((c) => evaluate(c, scope, lib) !== true);
+  return { problem: R(we.problem), steps: we.steps.map(R), answer: R(we.answer), failedChecks: failed };
+}
+
+return { ContentError, sampleScope, parseNumber, normalize, instantiate, normaliseInput, inputModeFor, DONT_KNOW, check, renderWorked };
+})();
+__mods["state.js"] = (() => {
+// Pupil state for one subject (decisions 2026-10-02):
+//
+//   coverage[lesson_no] = "not_taught" | "taught"        Has the class covered it? Every lesson starts
+//                                                        not_taught; only the weekly teacher checklist
+//                                                        changes it. (The app is the pupil's main teacher.)
+//   mastery[skill_id]   = "unknown" | "shaky" | "solid"  Can the pupil do it? Starts unknown; set only
+//                                                        by answers in Form 1 lessons.
+//   readiness                                            Primary 6 readiness from Lesson 0. Never touches
+//                                                        coverage or mastery.
+//
+// All functions are pure: they return a new state.
+
+const COVERAGE = ["not_taught", "taught"];
+const MASTERY = ["unknown", "shaky", "solid"];
+
+/** A lesson's skills: its declared `skills`, or one implicit skill named after the lesson. */
+function skillsOf(lesson) {
+  return lesson.skills ? lesson.skills.map((s) => s.id) : [`m${lesson.lesson_no}`];
+}
+
+/** The skill a template trains: its `skill`, or the lesson's only skill. */
+function skillOf(lesson, tpl) {
+  if (tpl.skill) return tpl.skill;
+  const skills = skillsOf(lesson);
+  if (skills.length !== 1) throw new Error(`${tpl.id}: lesson ${lesson.lesson_no} has several skills; set "skill"`);
+  return skills[0];
+}
+
+function emptyState() {
+  return { coverage: {}, coverageSource: {}, mastery: {}, readiness: null };
+}
+
+/**
+ * Weekly "Which of these lessons did your teacher actually cover?"
+ * answers: {lesson_no: true | false} for the lessons shown.
+ */
+function applyChecklist(state, answers) {
+  const coverage = { ...state.coverage }, coverageSource = { ...state.coverageSource };
+  for (const [lesson, taught] of Object.entries(answers)) {
+    coverage[lesson] = taught ? "taught" : "not_taught";
+    coverageSource[lesson] = "checklist";
+  }
+  return { ...state, coverage, coverageSource };
+}
+
+/** Lesson 0 result (from scoreReadiness). Sets readiness and nothing else. */
+function applyReadiness(state, readiness, takenAt) {
+  return { ...state, readiness: { ...readiness, takenAt } };
+}
+
+const masteryOf = (state, skill) => state.mastery[skill] || "unknown";
+const coverageOf = (state, lesson) => state.coverage[lesson] || "not_taught";
+
+return { COVERAGE, MASTERY, skillsOf, skillOf, emptyState, applyChecklist, applyReadiness, masteryOf, coverageOf };
+})();
+__mods["teach.js"] = (() => {
+// Teach mode (decision 2026-10-02: the app is the pupil's main teacher).
+//
+//   cards (3-4: one idea + a tiny example + 1 level-1 check question each)
+//   → worked example → practice (one question per template, levels 1 to 3) → the note, as a summary.
+//
+// Every card check and practice question follows the same two-try rule:
+//   1st miss (wrong or "I don't know") → feedback (cards: the card's example again) → a fresh variant
+//   2nd miss → the correct answer with full working → move on, marked "needs review"   (2026-10-03)
+// Pure functions; the UI holds the flow object.
+
+const { render, evaluate } = __mods["expr.js"];
+const { sampleScope, instantiate } = __mods["template.js"];
+const { makeRng } = __mods["rng.js"];
+const show = (lib) => (v) => (typeof v === "number" ? lib.fmt(v) : String(v));
+
+/** A card's check question: a level-1 template of the lesson ({ref}) or an inline one. */
+function cardCheckTemplate(lesson, card) {
+  const tpl = card.check.ref ? lesson.questions.find((t) => t.id === card.check.ref) : card.check;
+  if (!tpl) throw new Error(`card ${card.id}: no template ${card.check.ref}`);
+  return tpl;
+}
+
+/** Renders a card's idea and example from its fixed vars: every number is computed. */
+function renderCard(card, lib) {
+  const scope = sampleScope(card.vars, null, makeRng(1), lib);
+  const R = (t) => render(t, scope, lib, show(lib));
+  return {
+    id: card.id,
+    idea: R(card.idea),
+    example: card.example.map(R),
+    failedChecks: (card.checks || []).filter((c) => evaluate(c, scope, lib) !== true),
+  };
+}
+
+/** Practice list: every template of the lesson once, easiest first. */
+function practicePlan(lesson) {
+  return [...lesson.questions].sort((a, b) => a.level - b.level).map((t) => t.id);
+}
+
+function lessonSteps(lesson) {
+  return [
+    ...lesson.teach.cards.map((_, i) => ({ kind: "card", card: i })),
+    { kind: "worked_example" },
+    ...practicePlan(lesson).map((id) => ({ kind: "practice", template: id })),
+    { kind: "note" },
+  ];
+}
+
+/** The template behind a card or practice step. */
+function stepTemplate(lesson, step) {
+  return step.kind === "card" ? cardCheckTemplate(lesson, lesson.teach.cards[step.card])
+    : lesson.questions.find((t) => t.id === step.template);
+}
+
+const isItem = (step) => step?.kind === "card" || step?.kind === "practice";
+
+/**
+ * phase:
+ *   "idea"   card only: read the idea and the example
+ *   "check"  answer a question (attempt 0, then 1 on the fresh variant)
+ *   "retry"  after a first miss: feedback, and for cards the example again, then a fresh variant
+ *   "reveal" after a second miss: the correct answer with full working, then move on
+ */
+function startTeach(lesson, seed) {
+  const steps = lessonSteps(lesson);
+  return { lesson: lesson.lesson_no, steps, step: 0, attempt: 0, phase: phaseFor(steps[0]), seed, log: [] };
+}
+
+function phaseFor(step) {
+  if (step?.kind === "card") return "idea";
+  if (step?.kind === "practice") return "check";
+  return "read";
+}
+
+/** Seed for the current question: a new attempt starts from a different seed. */
+const checkSeed = (flow) => flow.seed + flow.step * 1000 + flow.attempt * 97;
+
+const signature = (q) => JSON.stringify([q.prompt, q.options?.map((o) => o.text), q.items]);
+
+/**
+ * The question for the current card or practice step. On a retry, seeds are tried until the
+ * question differs from the one just answered (templates with few variants could repeat it).
+ */
+function itemQuestion(lesson, flow, lib, previous = null) {
+  const tpl = stepTemplate(lesson, flow.steps[flow.step]);
+  let q;
+  for (let k = 0; k < 50; k++) {
+    q = instantiate(tpl, checkSeed(flow) + k, lib, lesson.lesson_no);
+    if (!previous || signature(q) !== signature(previous)) return q;
+  }
+  return q;  // a template with a single variant: same question, options reshuffled where possible
+}
+const cardQuestion = itemQuestion;
+
+const advance = (flow, extra = {}) => {
+  const step = flow.step + 1;
+  return { ...flow, ...extra, step, attempt: 0, phase: phaseFor(flow.steps[step]) };
+};
+
+/** The pupil pressed "Next" / "I'm ready" / "Try a new question" / "Continue". */
+function nextPhase(flow) {
+  const step = flow.steps[flow.step];
+  if (step?.kind === "card" && flow.phase === "idea") return { ...flow, phase: "check" };
+  if (isItem(step) && flow.phase === "retry") return { ...flow, phase: "check" };
+  if (isItem(step) && flow.phase === "check") throw new Error("answer the question first");
+  return advance(flow);  // "reveal", the worked example and the note all move on
+}
+
+/**
+ * Records the answer to the current card or practice question.
+ * result: {correct, dontKnow?}. The new flow's phase tells the UI what to show next:
+ * the next step, "retry" (feedback then a fresh variant) or "reveal" (answer with full working).
+ */
+function answerItem(flow, result, ms) {
+  const step = flow.steps[flow.step];
+  if (!isItem(step) || flow.phase !== "check") throw new Error("answerItem outside a question");
+  const entry = { step: flow.step, kind: step.kind, attempt: flow.attempt, correct: !!result.correct, dontKnow: !!result.dontKnow, ms };
+  if (result.correct) return advance(flow, { log: [...flow.log, entry] });
+  if (flow.attempt === 0) return { ...flow, log: [...flow.log, entry], attempt: 1, phase: "retry" };
+  return { ...flow, log: [...flow.log, { ...entry, needsReview: true }], phase: "reveal" };
+}
+const answerCard = answerItem;
+
+const isDone = (flow) => flow.step >= flow.steps.length;
+
+/** Steps the pupil missed twice, for the results and for later review. */
+const needsReview = (flow) => flow.log.filter((e) => e.needsReview).map((e) => flow.steps[e.step]);
+
+return { cardCheckTemplate, renderCard, practicePlan, lessonSteps, stepTemplate, startTeach, checkSeed, itemQuestion, cardQuestion, nextPhase, answerItem, answerCard, isDone, needsReview };
+})();
+__mods["readiness.js"] = (() => {
+// Lesson 0: Primary 6 readiness check. Sets a readiness score and flags weak foundations.
+// It never sets Form 1 mastery or coverage (decision 2026-10-02).
+
+const { instantiate } = __mods["template.js"];
+function templateOf(lesson0, id) {
+  const tpl = lesson0.questions.find((t) => t.id === id);
+  if (!tpl) throw new Error(`readiness: no template ${id}`);
+  return tpl;
+}
+
+/** lesson0: content/maths/0.json. Returns the questions in order. */
+function buildReadiness(lesson0, seed, lib) {
+  return lesson0.readiness.items.map((item, i) => instantiate(templateOf(lesson0, item.template), seed + i, lib, 0));
+}
+
+/**
+ * results: [{template, correct}]  ("I don't know" is recorded as correct: false)
+ * Returns {right, asked, percent, areas: {area: {name, right, asked, weak}}, weak: [area]}.
+ */
+function scoreReadiness(lesson0, results) {
+  const spec = lesson0.readiness;
+  const areas = Object.fromEntries(Object.entries(spec.areas).map(([id, name]) => [id, { name, right: 0, asked: 0, weak: false }]));
+  for (const r of results) {
+    const a = areas[templateOf(lesson0, r.template).area];
+    a.asked += 1;
+    a.right += r.correct ? 1 : 0;
+  }
+  for (const a of Object.values(areas)) a.weak = a.asked > 0 && a.right / a.asked < spec.weak_if_below;
+  const right = results.filter((r) => r.correct).length;
+  return {
+    right, asked: results.length,
+    percent: results.length ? Math.round((100 * right) / results.length) : 0,
+    areas,
+    weak: Object.entries(areas).filter(([, a]) => a.weak).map(([id]) => id),
+  };
+}
+
+return { buildReadiness, scoreReadiness };
+})();
+const ENGINE = { lib: __mods["lib/maths.js"], template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
+const CONTENT = {"0":{"subject":"mathematics","class":"Form 1","lesson_no":0,"language":"en","kind":"readiness","prerequisites":[],"note":{"status":"draft","text":"Welcome to Form One Maths! Before we start, this short check looks at the Primary School maths you will need: place value, adding, subtracting, multiplying and dividing, times tables and simple word problems. It has 13 questions and takes about 10 minutes. It is not an exam and there are no marks.\n\nIt does not test any Form One lesson. It only shows the app where your foundations are strong and where you need a little practice first.\n\nAnswer each question on your own. If you really do not know an answer, press 'I don't know' instead of guessing.\n\nTake a pencil and some paper for your working, and start when you are ready.","checks":[]},"readiness":{"_decision":"Dion, 2026-10-02 (context change: the app is the pupil's main teacher). Lesson 0 checks Primary 6 readiness only, at most 15 questions. It sets a readiness score and flags weak foundations. It sets NO Form 1 mastery and NO coverage.","max_questions":15,"time_limit_minutes":15,"seconds_per_question":45,"areas":{"place_value":"Place value up to millions","operations":"The four operations","tables":"Multiplication tables","word_problems":"Simple word problems"},"weak_if_below":0.66,"_weak_rule":"An area is weak when fewer than two thirds of its questions are right (1 of 3, or 2 of 4).","items":[{"template":"r-pv-value"},{"template":"r-pv-words"},{"template":"r-pv-order"},{"template":"r-add"},{"template":"r-sub"},{"template":"r-mul"},{"template":"r-div"},{"template":"r-table-mul"},{"template":"r-table-div"},{"template":"r-table-missing"},{"template":"r-wp-change"},{"template":"r-wp-bags"},{"template":"r-wp-difference"}]},"questions":[{"id":"r-pv-value","area":"place_value","type":"mcq","level":1,"vars":{"n":{"int":[1000000,9999999]},"pos":{"int":[3,6]},"d":{"expr":"digitAt(n, pos)"}},"where":["d != 0","countDigit(n, d) == 1"],"prompt":"What is the value of the digit {d} in {n}?","correct":"{placeValue(n, pos)}","distractors":[{"misconception":"face-value"},{"misconception":"place-too-high"},{"misconception":"place-too-low"}],"verify":"placeValue(n, pos) == d * 10 ^ pos","misconceptions":[{"id":"face-value","wrong":"d","explain":"{d} is in the {placeName(pos)} place, so it stands for {placeValue(n, pos)}."},{"id":"place-too-high","wrong":"d * 10 ^ (pos + 1)","explain":"Count the places from the right: units, tens, hundreds, thousands, ten thousands, hundred thousands, millions."},{"id":"place-too-low","wrong":"d * 10 ^ (pos - 1)","explain":"Count the places from the right: units, tens, hundreds, thousands, ten thousands, hundred thousands, millions."}]},{"id":"r-pv-words","area":"place_value","type":"numeric","level":2,"vars":{"n":{"int":[1000001,9999999]}},"where":["stripZeros(n) != n","n % 10 != 0"],"prompt":"Write in figures: {words(n)}.","answer":"n","verify":"fromWords(words(answer)) == n","misconceptions":[{"id":"no-placeholder","wrong":"stripZeros(n)","explain":"Write 0 for every empty place: {words(n)} is {n}."}]},{"id":"r-pv-order","area":"place_value","type":"ordering","level":2,"vars":{"m":{"int":[1,9]},"a":{"int":[0,999999]},"b":{"int":[0,999999]},"c":{"int":[0,999999]},"e":{"int":[10000,999999]}},"prompt":"Order these numbers from the smallest to the largest.","items":[{"text":"{m * 1000000 + a}","key":"m * 1000000 + a"},{"text":"{m * 1000000 + b}","key":"m * 1000000 + b"},{"text":"{m * 1000000 + c}","key":"m * 1000000 + c"},{"text":"{e}","key":"e"}],"order":"asc"},{"id":"r-add","area":"operations","type":"numeric","level":1,"vars":{"a":{"int":[1000,9999]},"b":{"int":[1000,9999]}},"where":"addNoCarry(a, b) != a + b","prompt":"Calculate {a} + {b}.","answer":"a + b","verify":"answer - b == a","misconceptions":[{"id":"no-carry","wrong":"addNoCarry(a, b)","explain":"When a column adds up to 10 or more, write the units digit and carry 1 to the next column."}]},{"id":"r-sub","area":"operations","type":"numeric","level":1,"vars":{"a":{"int":[1000,9999]},"b":{"int":[100,"a - 1"]}},"where":"subSmallFromLarge(a, b) != a - b","prompt":"Calculate {a} − {b}.","answer":"a - b","verify":"answer + b == a","misconceptions":[{"id":"smaller-from-bigger","wrong":"subSmallFromLarge(a, b)","explain":"When the top digit is smaller, borrow 1 from the next column. Do not take the top digit away from the bottom one."}]},{"id":"r-mul","area":"operations","type":"numeric","level":2,"vars":{"a":{"int":[100,999]},"b":{"int":[12,99]}},"where":"b % 10 != 0","prompt":"Calculate {a} × {b}.","answer":"a * b","verify":"answer / b == a","misconceptions":[{"id":"no-zero","wrong":"mulNoShift(a, b)","explain":"In the second line you multiply by {idiv(b, 10)} tens, so write a 0 in the units column first: {a} × {idiv(b, 10) * 10} = {a * idiv(b, 10) * 10}."},{"id":"units-only","wrong":"a * (b % 10)","explain":"Multiply by the tens digit too, then add the two lines."}]},{"id":"r-div","area":"operations","type":"numeric","level":2,"vars":{"d":{"int":[2,9]},"q":{"int":[101,999]},"n":{"expr":"d * q"}},"prompt":"Calculate {n} ÷ {d}.","answer":"q","verify":"answer * d == n","misconceptions":[{"id":"dropped-zero","wrong":"stripZeros(q)","explain":"When the divisor does not go into a digit, write 0 in the answer and carry on: {n} ÷ {d} = {q}."}]},{"id":"r-table-mul","area":"tables","type":"numeric","level":1,"vars":{"a":{"int":[2,12]},"b":{"int":[2,12]}},"prompt":"{a} × {b} = ?","answer":"a * b","verify":"answer / a == b","misconceptions":[{"id":"added","wrong":"a + b","explain":"That is {a} + {b}. {a} × {b} means {b} groups of {a}."},{"id":"next-row","wrong":"a * (b - 1)","when":"b > 2","explain":"That is {a} × {b - 1}. Add one more {a}: {a * (b - 1)} + {a} = {a * b}."}]},{"id":"r-table-div","area":"tables","type":"numeric","level":1,"vars":{"a":{"int":[2,12]},"b":{"int":[2,12]}},"where":"a != b","prompt":"{a * b} ÷ {a} = ?","answer":"b","verify":"answer * a == a * b","misconceptions":[{"id":"divisor","wrong":"a","explain":"Ask: {a} times what makes {a * b}? {a} × {b} = {a * b}."}]},{"id":"r-table-missing","area":"tables","type":"numeric","level":1,"vars":{"a":{"int":[2,12]},"b":{"int":[2,12]}},"prompt":"{a} × ? = {a * b}","answer":"b","verify":"a * answer == a * b","misconceptions":[{"id":"subtracted","wrong":"a * b - a","explain":"Find the number that {a} is multiplied by: {a} × {b} = {a * b}."}]},{"id":"r-wp-change","area":"word_problems","type":"numeric","level":2,"vars":{"x":{"int":[2,8]},"p":{"pick":[100,150,200,250,300,400,500]},"note":{"pick":[2000,5000,10000]}},"where":"note > x * p","prompt":"Ayuk buys {x} exercise books at {p} FCFA each. He pays with a {note} FCFA note. How much change does he get?","answer":"note - x * p","unit":"FCFA","verify":"answer + x * p == note","misconceptions":[{"id":"one-book","wrong":"note - p","explain":"First find the cost of all {x} books: {x} × {p} = {x * p} FCFA."},{"id":"cost-only","wrong":"x * p","explain":"{x * p} FCFA is the cost. The change is {note} − {x * p}."}]},{"id":"r-wp-bags","area":"word_problems","type":"numeric","level":2,"vars":{"k":{"int":[4,12]},"full":{"int":[5,40]},"r":{"int":[1,"k - 1"]},"n":{"expr":"full * k + r"}},"prompt":"Bih packs {n} oranges into bags of {k}. How many bags can she fill completely?","answer":"full","verify":"answer * k \u003c= n && (answer + 1) * k > n","misconceptions":[{"id":"counted-part-bag","wrong":"full + 1","explain":"The last bag has only {r} oranges, so it is not full. Count only full bags: {n} ÷ {k} = {full} remainder {r}."},{"id":"subtracted","wrong":"n - k","explain":"Packing into bags of {k} means dividing: {n} ÷ {k}."}]},{"id":"r-wp-difference","area":"word_problems","type":"numeric","level":2,"vars":{"a":{"int":[300,1500]},"b":{"int":[100,"a - 50"]}},"prompt":"One school has {a} pupils and another school has {b} pupils. How many more pupils does the first school have?","answer":"a - b","verify":"answer + b == a","misconceptions":[{"id":"added","wrong":"a + b","explain":"'How many more' means find the difference: {a} − {b}."}]}]},"3":{"subject":"mathematics","class":"Form 1","lesson_no":3,"language":"en","prerequisites":[1],"note":{"status":"draft","text":"We write numbers with ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9. The value of a digit depends on its place.\n\nIn 45 372:\n• 2 is in the units place: it stands for 2.\n• 7 is in the tens place: 70.\n• 3 is in the hundreds place: 300.\n• 5 is in the thousands place: 5000.\n• 4 is in the ten thousands place: 40 000.\nSo 45 372 = 40 000 + 5000 + 300 + 70 + 2. This is the expanded form.\n\nEach place is worth ten times the place on its right. Zero holds a place: 305 and 35 are different numbers.\n\nIf you pay for a bag of rice with 4 notes of 10 000 FCFA, 5 notes of 1000 FCFA and 3 coins of 100 FCFA, you pay 45 300 FCFA.","checks":["placeValue(45372, 0) == 2","placeValue(45372, 1) == 70","placeValue(45372, 2) == 300","placeValue(45372, 3) == 5000","placeValue(45372, 4) == 40000","40000 + 5000 + 300 + 70 + 2 == 45372","305 != 35","4 * 10000 + 5 * 1000 + 3 * 100 == 45300"]},"worked_example":{"status":"draft","vars":{"n":762418,"d":6,"p":{"expr":"posOf(n, d)"}},"problem":"What is the value of the digit {d} in {n}?","steps":["Name the places from the right: units, tens, hundreds, thousands, ten thousands, hundred thousands.","In {n}, the digit {d} is in the {placeName(p)} place.","One {placeName(p) == 'ten thousands' ? 'ten thousand' : placeName(p)} is {10 ^ p}, so the digit stands for {d} × {10 ^ p} = {placeValue(n, p)}."],"answer":"The {d} in {n} stands for {placeValue(n, p)}.","checks":["countDigit(n, d) == 1","digitAt(n, p) == d","placeValue(n, p) == d * 10 ^ p"]},"teach":{"cards":[{"id":"c3-1","status":"draft","idea":"We write numbers with ten digits, {0} to {9}. Where a digit stands tells us its value. The places, from the right, are units, tens, hundreds, thousands, and so on.","vars":{"n":4825},"example":["In {n}:","{digitAt(n, 0)} is in the units place, {digitAt(n, 1)} in the tens place, {digitAt(n, 2)} in the hundreds place and {digitAt(n, 3)} in the thousands place."],"checks":["digitAt(n, 3) * 1000 + digitAt(n, 2) * 100 + digitAt(n, 1) * 10 + digitAt(n, 0) == n"],"check":{"ref":"m3-digit-in-place"}},{"id":"c3-2","status":"draft","idea":"The value of a digit is the digit times its place: a {7} in the hundreds place stands for {7} × {100} = {7 * 100}.","vars":{"n":36507,"d":6,"p":{"expr":"posOf(n, d)"}},"example":["In {n}, the digit {d} is in the {placeName(p)} place.","It stands for {d} × {10 ^ p} = {placeValue(n, p)}."],"checks":["digitAt(n, p) == d","countDigit(n, d) == 1"],"check":{"ref":"m3-value-of-digit"}},{"id":"c3-3","status":"draft","idea":"Zero holds a place. Without it, {305} would become {stripZeros(305)}: a different number.","vars":{"n":40307},"example":["{n} = {placeValue(n, 4)} + {placeValue(n, 2)} + {placeValue(n, 0)}.","The zeros show that there are no thousands and no tens."],"checks":["placeValue(n, 3) == 0 && placeValue(n, 1) == 0","placeValue(n, 4) + placeValue(n, 2) + placeValue(n, 0) == n"],"check":{"id":"c3-3-check","type":"numeric","level":1,"vars":{"a":{"int":[1,9]},"c":{"int":[1,9]}},"prompt":"Write as one number: {a * 1000} + {c}","answer":"a * 1000 + c","verify":"digitAt(answer, 3) == a && digitAt(answer, 0) == c && numDigits(answer) == 4","misconceptions":[{"id":"no-placeholder","wrong":"stripZeros(a * 1000 + c)","explain":"{a * 1000} has 4 digits, so the answer needs 4 digits: write 0 in the empty places."}],"solution":["{a * 1000} has {4} digits: {a} thousands, {0} hundreds, {0} tens and {0} units.","Add {c} units: {a * 1000} + {c} = {a * 1000 + c}."],"hint":"{a * 1000} has {4} digits. Keep all of them and change only the units digit."}}]},"questions":[{"id":"m3-value-of-digit","type":"mcq","level":1,"vars":{"n":{"int":[10000,999999]},"pos":{"int":[2,4]},"d":{"expr":"digitAt(n, pos)"}},"where":["d != 0","countDigit(n, d) == 1"],"prompt":"What is the value of the digit {d} in {n}?","correct":"{placeValue(n, pos)}","distractors":[{"misconception":"face-value"},{"misconception":"place-too-high"},{"misconception":"place-too-low"}],"verify":"placeValue(n, pos) == d * 10 ^ pos","misconceptions":[{"id":"face-value","wrong":"d","explain":"{d} is only the digit (face value). It is in the {placeName(pos)} place, so it stands for {placeValue(n, pos)}."},{"id":"place-too-high","wrong":"d * 10 ^ (pos + 1)","explain":"Count the places from the right, starting with units. {d} is in the {placeName(pos)} place."},{"id":"place-too-low","wrong":"d * 10 ^ (pos - 1)","explain":"Count the places from the right, starting with units. {d} is in the {placeName(pos)} place."}],"solution":["Name the places from the right: units, tens, hundreds, thousands, ten thousands…","In {n}, the digit {d} is in the {placeName(pos)} place.","{d} × {10 ^ pos} = {placeValue(n, pos)}."],"hint":"Find the place of the digit {d}: count units, tens, hundreds… from the right. Then multiply {d} by the value of that place."},{"id":"m3-digit-in-place","type":"numeric","level":1,"vars":{"n":{"int":[100000,999999]},"pos":{"int":[0,5]}},"where":"digitAt(n, pos) != digitAt(n, 5 - pos)","prompt":"Which digit is in the {placeName(pos)} place in {n}?","answer":"digitAt(n, pos)","verify":"answer == floor(n / 10 ^ pos) % 10","misconceptions":[{"id":"counted-from-left","wrong":"digitAt(n, 5 - pos)","explain":"Places are counted from the right: units first, then tens, hundreds, thousands…"}],"solution":["Count the places of {n} from the right: units, tens, hundreds, thousands, ten thousands, hundred thousands.","The digit in the {placeName(pos)} place is {digitAt(n, pos)}."],"hint":"Start at the right-hand digit (the units) and move left one place at a time until you reach the {placeName(pos)}."},{"id":"m3-expanded","type":"numeric","level":2,"vars":{"a":{"int":[1,9]},"b":{"int":[1,9]},"c":{"int":[1,9]},"hi":{"int":[3,5]},"mid":{"int":[1,"hi - 2"]}},"prompt":"Write as one number: {a * 10 ^ hi} + {b * 10 ^ mid} + {c}","answer":"a * 10 ^ hi + b * 10 ^ mid + c","verify":"digitAt(answer, hi) == a && digitAt(answer, mid) == b && digitAt(answer, 0) == c && numDigits(answer) == hi + 1","misconceptions":[{"id":"no-placeholder","wrong":"stripZeros(a * 10 ^ hi + b * 10 ^ mid + c)","explain":"Empty places need a 0. {a * 10 ^ hi} has {hi + 1} digits, so the answer must have {hi + 1} digits too."}],"solution":["Put each part in its place and write {0} in every empty place.","{expanded(a * 10 ^ hi + b * 10 ^ mid + c)} = {a * 10 ^ hi + b * 10 ^ mid + c}"],"hint":"Each part has its own place. Write {0} in every place that has no part."},{"id":"m3-money","type":"numeric","level":2,"vars":{"x":{"int":[1,9]},"y":{"int":[0,9]},"z":{"int":[1,9]}},"prompt":"Bih pays for her school shoes with {plural(x, 'note', 'notes')} of 10 000 FCFA, {y == 0 ? 'no notes' : plural(y, 'note', 'notes')} of 1000 FCFA and {plural(z, 'coin', 'coins')} of 100 FCFA. How much does she pay?","answer":"x * 10000 + y * 1000 + z * 100","unit":"FCFA","verify":"answer % 100 == 0 && idiv(answer, 10000) == x","misconceptions":[{"id":"counted-pieces","wrong":"x + y + z","explain":"Each note or coin has a value. Multiply the number of notes by the value of each note: {x} × 10 000 = {x * 10000} FCFA."},{"id":"joined-digits","wrong":"num(str(x) + str(y) + str(z))","explain":"A 10 000 FCFA note is worth ten thousand, not one. Multiply each count by its value, then add."}],"solution":["{x} × {10000} = {x * 10000} FCFA","{y} × {1000} = {y * 1000} FCFA","{z} × {100} = {z * 100} FCFA","Total: {x * 10000} + {y * 1000} + {z * 100} = {x * 10000 + y * 1000 + z * 100} FCFA."],"hint":"Work out each kind of money on its own (number × value), then add the three amounts."},{"id":"m3-order-prices","type":"ordering","level":2,"vars":{"ds":{"sample":["[1, 2, 3, 4, 5, 6, 7, 8, 9]",4]},"n1":{"expr":"ds[0] * 1000 + ds[1] * 100 + ds[2] * 10 + ds[3]"},"n2":{"expr":"ds[1] * 1000 + ds[0] * 100 + ds[3] * 10 + ds[2]"},"n3":{"expr":"ds[3] * 1000 + ds[2] * 100 + ds[1] * 10 + ds[0]"},"n4":{"expr":"ds[2] * 1000 + ds[3] * 100 + ds[0] * 10 + ds[1]"}},"prompt":"Order these prices at Limbe market from the smallest to the largest.","items":[{"text":"{n1} FCFA","key":"n1"},{"text":"{n2} FCFA","key":"n2"},{"text":"{n3} FCFA","key":"n3"},{"text":"{n4} FCFA","key":"n4"}],"order":"asc","hint":"Compare the thousands digits first. If two are the same, compare the hundreds."},{"id":"m3-spot","type":"spot_error","level":3,"vars":{"n":{"int":[100000,999999]}},"where":["digitAt(n, 3) != 0","countDigit(n, digitAt(n, 3)) == 1","digitAt(n, 2) != 0","countDigit(n, digitAt(n, 4)) == 1"],"prompt":"Look at the number {n}. One statement is wrong. Which one?","pool":{"right":[{"text":"The digit {digitAt(n, 2)} stands for {placeValue(n, 2)}.","truth":"placeValue(n, 2) == digitAt(n, 2) * 100"},{"text":"{n} = {n - n % 1000} + {n % 1000}","truth":"(n - n % 1000) + n % 1000 == n"},{"text":"The digit in the units place is {digitAt(n, 0)}.","truth":"n % 10 == digitAt(n, 0)"},{"text":"The number has {numDigits(n)} digits.","truth":"numDigits(n) == len(str(n))"}],"wrong":[{"text":"The digit {digitAt(n, 3)} stands for {digitAt(n, 3)}.","truth":"placeValue(n, 3) == digitAt(n, 3)","explain":"{digitAt(n, 3)} is in the thousands place, so it stands for {placeValue(n, 3)}."},{"text":"The digit {digitAt(n, 4)} is in the thousands place.","truth":"posOf(n, digitAt(n, 4)) == 3","explain":"{digitAt(n, 4)} is in the ten thousands place: count the places from the right."}]},"pick":{"right":3,"wrong":1},"hint":"For each statement, find the place of the digit and work out what it stands for."}]}};
+const TITLES = {"0":"First contact and diagnostic assessment","3":"Hindu-Arabic numerals and place value"};
+const BUILD = "2026-10-03";
+// Prototype UI: Lesson 0 readiness → Lesson 3 teach mode (cards, worked example, practice, note) → results.
+// Uses the real engine (inlined by build.mjs). No storage, no network, no personal data.
+/* global ENGINE, CONTENT, TITLES, BUILD */
+const { lib, template, teach, readiness } = ENGINE;
+const { check, DONT_KNOW, renderWorked, normaliseInput, inputModeFor } = template;
+const L0 = CONTENT[0], L3 = CONTENT[3];
+const SEED = Math.floor(Math.random() * 1e6);  // a new set of numbers each time the page opens
+const log = { readiness: [], items: [], started: new Date() };
+
+const app = document.getElementById("app");
+const el = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) k.startsWith("on") ? e.addEventListener(k.slice(2), v) : e.setAttribute(k, v);
+  for (const k of kids.flat()) if (k != null) e.append(k.nodeType ? k : document.createTextNode(String(k)));
+  return e;
+};
+/** Replaces the page. The wrapper is new each time, so its entrance animation replays (off under reduced motion). */
+const screen = (...kids) => {
+  app.replaceChildren(el("div", { class: "screen" }, ...kids.flat().filter((k) => k != null)));
+  window.scrollTo(0, 0);
+};
+const button = (label, onclick, cls = "") => el("button", { class: cls, onclick }, label);
+const para = (t, cls = "") => el("p", { class: cls }, t);
+const lines = (text) => text.split("\n").map((l) => (l.trim() ? para(l) : null));
+const header = (kicker, title) => el("header", {}, el("div", { class: "kicker" }, kicker), el("h1", {}, title));
+/** Progress bar: a filled segment plus "2 / 13". */
+const progress = (cur, total) => el("div", { class: "progress", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(total), "aria-valuenow": String(cur) },
+  el("div", { class: "track" }, el("div", { class: "fill", style: `width:${Math.round((100 * cur) / total)}%` })),
+  el("span", { class: "count" }, `${cur} / ${total}`));
+const checkIcon = () => {
+  const ns = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(ns, "svg");
+  svg.setAttribute("viewBox", "0 0 24 24"); svg.setAttribute("class", "tick"); svg.setAttribute("aria-hidden", "true");
+  const path = document.createElementNS(ns, "path");
+  path.setAttribute("d", "M5 12.5l4.5 4.5L19 7.5");
+  svg.append(path);
+  return svg;
+};
+
+// ---------------------------------------------------------------- one question, any type
+/** Shows q; calls onAnswer({result, ms}) when the pupil answers or presses "I don't know". */
+function askQuestion(q, { kicker, title, onAnswer, bar = null }) {
+  const t0 = performance.now();
+  const finish = (response) => onAnswer({ result: check(q, response), ms: Math.round(performance.now() - t0) });
+  const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt)];
+  if (q.type === "numeric") {
+    const input = el("input", { type: "text", inputmode: inputModeFor(q), autocomplete: "off", autocorrect: "off", spellcheck: "false", "aria-label": "Your answer" });
+    const go = () => { const v = normaliseInput(input.value, q); if (v) finish(v); };
+    input.addEventListener("keydown", (e) => e.key === "Enter" && go());
+    body.push(el("div", { class: "answer" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null), button("Check", go, "primary"));
+    setTimeout(() => input.focus(), 50);
+  } else if (q.type === "mcq" || q.type === "spot_error") {
+    if (q.type === "spot_error") body.push(para("Tap the one that is wrong.", "muted"));
+    body.push(el("div", { class: "options" }, q.options.map((o, i) => button(o.text, () => finish(i), "option"))));
+  } else if (q.type === "ordering") {
+    const chosen = [];
+    const list = el("ol", { class: "chosen" });
+    const pool = el("div", { class: "options" });
+    const redraw = () => {
+      list.replaceChildren(...chosen.map((i) => el("li", {}, q.items[i])));
+      pool.replaceChildren(...q.items.map((t, i) => (chosen.includes(i) ? null : button(t, () => { chosen.push(i); redraw(); }, "option"))));
+      if (chosen.length === q.items.length) finish([...chosen]);
+    };
+    body.push(para("Tap them in order.", "muted"), list, pool, button("Start again", () => { chosen.length = 0; redraw(); }, "link"));
+    redraw();
+  }
+  body.push(button("I don't know", () => finish(DONT_KNOW), "idk"));
+  screen(...body);
+}
+
+const recordOf = (q, r, ms, phase) => ({
+  phase, id: q.id, level: q.level, result: r.correct ? "right" : r.dontKnow ? "idk" : "wrong",
+  seconds: Math.round(ms / 100) / 10, misconception: r.misconception?.id || "",
+});
+
+// ---------------------------------------------------------------- 1. start
+function start() {
+  screen(
+    header("Form One Maths · prototype", "Before we start"),
+    ...lines(L0.note.text),
+    para("Nothing you type leaves this phone. There is no name to enter.", "muted"),
+    button("Start the check", () => readinessQ(readiness.buildReadiness(L0, SEED, lib), 0), "primary"),
+  );
+}
+
+// ---------------------------------------------------------------- 2. Lesson 0 readiness
+// No feedback during the check, and no score at the end (TR-C19, approved 2026-10-03):
+// the pupil sees a neutral "Let's start"; scores and weak areas appear only in "Copy results".
+function readinessQ(qs, i) {
+  if (i >= qs.length) return readinessDone();
+  askQuestion(qs[i], {
+    bar: progress(i + 1, qs.length), kicker: "Getting ready", title: "Primary School maths",
+    onAnswer: ({ result, ms }) => {
+      log.readiness.push({ ...recordOf(qs[i], result, ms, "readiness"), template: qs[i].id, correct: result.correct });
+      readinessQ(qs, i + 1);
+    },
+  });
+}
+
+function readinessDone() {
+  log.readinessScore = readiness.scoreReadiness(L0, log.readiness);
+  screen(
+    header("Thank you", "Let's start"),
+    para("Now we begin Form One Maths, one small idea at a time."),
+    button(`Start Lesson 3: ${TITLES[3]}`, () => lesson(teach.startTeach(L3, SEED)), "primary"),
+  );
+}
+
+// ---------------------------------------------------------------- 3. Lesson 3 teach mode
+const workedBlock = () => {
+  const w = renderWorked(L3.worked_example, lib);
+  return el("div", { class: "example" }, el("div", { class: "kicker" }, "Worked example"), para(w.problem, "strong"),
+    el("ol", {}, w.steps.map((s) => el("li", {}, s))), para(`Answer: ${w.answer}`, "strong"));
+};
+const cardExample = (c) => el("div", { class: "example" }, el("div", { class: "kicker" }, "Example"), ...c.example.map((t) => para(t)));
+const hintBlock = (q) => (q.hint ? el("div", { class: "hint" }, el("strong", {}, "Hint: "), q.hint) : null);
+
+function lesson(flow, previous = null) {
+  if (teach.isDone(flow)) return results(flow);
+  const step = flow.steps[flow.step];
+  const nCards = L3.teach.cards.length;
+  const nPractice = flow.steps.filter((s) => s.kind === "practice").length;
+  const practiceNo = flow.steps.slice(0, flow.step + 1).filter((s) => s.kind === "practice").length;
+  const kicker = step.kind === "card" ? `Lesson 3 · Idea ${step.card + 1} of ${nCards}` : `Lesson 3 · Practice ${practiceNo} of ${nPractice}`;
+  const go = (next, prev = null) => () => lesson(next, prev);
+  const bar = progress(flow.step + 1, flow.steps.length);
+
+  if (step.kind === "card" && flow.phase === "idea") {
+    const c = teach.renderCard(L3.teach.cards[step.card], lib);
+    return screen(bar, header(kicker, TITLES[3]), el("div", { class: "idea" }, c.idea), cardExample(c),
+      button("I'm ready for a question", go(teach.nextPhase(flow)), "primary"));
+  }
+  if (step.kind === "card" || step.kind === "practice") {
+    const q = teach.itemQuestion(L3, flow, lib, previous);
+    return askQuestion(q, {
+      bar, kicker, title: flow.attempt ? "A new question" : step.kind === "card" ? "Quick check" : `Level ${q.level}`,
+      onAnswer: ({ result, ms }) => {
+        log.items.push({ ...recordOf(q, result, ms, step.kind), card: step.kind === "card" ? L3.teach.cards[step.card].id : "", attempt: flow.attempt + 1 });
+        const next = teach.answerItem(flow, result, ms);
+        if (next.phase === "reveal") return reveal(q, next, kicker, bar, result);
+        if (next.phase === "retry") return retry(q, result, next, kicker, bar);
+        // Teach mode only: green flash + check icon (readiness shows no right/wrong cues).
+        return screen(bar, el("div", { class: "fb good flash", role: "status" }, checkIcon(), el("strong", {}, "Correct!")), button("Next", go(next), "primary"));
+      },
+    });
+  }
+  if (step.kind === "worked_example") {
+    return screen(bar, header("Lesson 3 · Worked example", "Follow each step"), workedBlock(), button("Now practise", go(teach.nextPhase(flow)), "primary"));
+  }
+  if (step.kind === "note") {
+    return screen(bar, header("Lesson 3 · Summary", TITLES[3]), el("div", { class: "note" }, ...lines(L3.note.text)),
+      button("Finish", go(teach.nextPhase(flow)), "primary"));
+  }
+}
+
+/** First miss: feedback without the answer, then a fresh variant. */
+function retry(q, result, flow, kicker, bar) {
+  const step = flow.steps[flow.step];
+  const box = result.dontKnow
+    // "I don't know": no misconception feedback, only the hint and the worked example (spec §4)
+    ? el("div", { class: "fb soft", role: "status" }, el("strong", {}, "That's fine. Let's look at it together."))
+    : el("div", { class: "fb bad shake", role: "status" }, el("strong", {}, "✗ Not quite"),
+      result.misconception?.explain ? para(result.misconception.explain) : para("Look at the example again, then try a new question."));
+  const help = step.kind === "card"
+    ? [result.dontKnow ? hintBlock(q) : null, cardExample(teach.renderCard(L3.teach.cards[step.card], lib))]
+    : result.dontKnow ? [hintBlock(q), workedBlock()] : [];
+  screen(bar, header(kicker, "Let's try again"), box, ...help, button("Try a new question", () => lesson(teach.nextPhase(flow), q), "primary"));
+}
+
+/** Second miss: the correct answer with full working, then move on (marked "needs review"). */
+function reveal(q, flow, kicker, bar, result) {
+  screen(bar, header(kicker, "Here is how to do it"),
+    el("div", { class: result.dontKnow ? "fb soft" : "fb bad shake", role: "status" }, el("strong", {}, `The answer is: ${q.answer}${q.unit ? " " + q.unit : ""}`)),
+    el("div", { class: "example" }, el("div", { class: "kicker" }, "Full working"), el("ol", {}, q.solution.map((s) => el("li", {}, s)))),
+    para("We will come back to this one later.", "muted"),
+    button("Continue", () => lesson(teach.nextPhase(flow)), "primary"));
+}
+
+// ---------------------------------------------------------------- 4. results + copy
+/** A simple CSS confetti burst: each piece gets a direction, spin, colour and delay. Hidden under reduced motion. */
+function confetti() {
+  const colours = ["#1f6f4a", "#e0a526", "#2f6fd6", "#d0473b", "#7c4dbd", "#2aa198"];
+  const box = el("div", { class: "confetti", "aria-hidden": "true" });
+  for (let i = 0; i < 28; i++) {
+    const angle = (Math.PI * 2 * i) / 28 + Math.random() * 0.3, dist = 90 + Math.random() * 90;
+    box.append(el("i", { style: `--x:${Math.round(Math.cos(angle) * dist)}px;--y:${Math.round(Math.sin(angle) * dist - 40)}px;` +
+      `--r:${Math.round(Math.random() * 540 - 270)}deg;--c:${colours[i % colours.length]};--d:${Math.round(Math.random() * 120)}ms` }));
+  }
+  return box;
+}
+function resultsText(flow) {
+  const all = [...log.readiness, ...log.items];
+  const secs = all.reduce((s, r) => s + r.seconds, 0);
+  const count = (rows, k) => rows.filter((r) => r.result === k).length;
+  const cards = log.items.filter((r) => r.phase === "card"), practice = log.items.filter((r) => r.phase === "practice");
+  const r = log.readinessScore;
+  const review = flow ? teach.needsReview(flow).map((s) => (s.kind === "card" ? L3.teach.cards[s.card].id : s.template)) : [];
+  const row = (x) => `${x.phase}\t${x.card ? x.card + "#" + x.attempt : x.attempt ? "#" + x.attempt : ""}\t${x.id}\tL${x.level}\t${x.result}\t${x.seconds}s\t${x.misconception}`;
+  return [
+    `Form One Maths prototype ${BUILD} · ${new Date().toISOString().slice(0, 16).replace("T", " ")}`,
+    `Total answers: ${all.length} · time answering: ${Math.round(secs)}s · "I don't know" used: ${count(all, "idk")}`,
+    `Readiness (not shown to the pupil): ${r ? `${r.right}/${r.asked} (${r.percent}%)` : "not finished"}`,
+    ...(r ? Object.values(r.areas).map((a) => `  ${a.name}: ${a.right}/${a.asked}${a.weak ? " · WEAK" : ""}`) : []),
+    `Lesson 3 cards: ${count(cards, "right")} right, ${count(cards, "wrong")} wrong, ${count(cards, "idk")} IDK (${cards.length} answers)`,
+    `Lesson 3 practice: ${count(practice, "right")} right, ${count(practice, "wrong")} wrong, ${count(practice, "idk")} IDK (${practice.length} answers)`,
+    `Needs review (missed twice): ${review.join(", ") || "none"}`,
+    "", "phase\tcard#try\ttemplate\tlevel\tresult\ttime\tmisconception", ...all.map(row),
+  ].join("\n");
+}
+
+function results(flow) {
+  const text = resultsText(flow);
+  const area = el("textarea", { readonly: "", rows: "10", "aria-label": "Results" });
+  // The text holds the readiness score and weak areas, so it stays folded away from the pupil (TR-C30).
+  const details = el("details", { class: "grownup" }, el("summary", {}, "Show the text (for a grown-up)"), area);
+  area.value = text;
+  const status = para("", "muted");
+  const copy = async () => {
+    try { await navigator.clipboard.writeText(text); status.textContent = "Copied. Paste it into WhatsApp or a message."; }
+    catch { details.open = true; area.select(); document.execCommand("copy"); status.textContent = "Copied (or select the text below and copy it)."; }
+  };
+  const completed = flow.steps.filter((s) => s.kind === "card" || s.kind === "practice").length;
+  screen(confetti(), el("div", { class: "done" }, el("div", { class: "done-title" }, "Lesson 3 done"),
+    para(`You completed ${completed} questions.`, "done-sub")),
+    para("For a grown-up: these results stay on this phone until you copy them.", "muted"),
+    button("Copy results", copy, "primary"), status, details, button("Start again", () => location.reload(), "link"));
+}
+
+start();
+
+</script>
+</body>
+</html>

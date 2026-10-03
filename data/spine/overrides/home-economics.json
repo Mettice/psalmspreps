@@ -1,0 +1,77 @@
+{
+  "subject": "home-economics",
+  "overrides": [
+    {
+      "id": "home-economics-typos",
+      "op": "replace_words",
+      "words": {
+        "mordern": "modern",
+        "shadaw": "shadow",
+        "activitities": "activities",
+        "Remidiation": "Remediation"
+      },
+      "reason": "Spelling errors in the sheet; display text only, raw stays untouched.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "he-001",
+      "op": "move",
+      "seq": 12,
+      "before": 10,
+      "expect": {
+        "12": {
+          "lesson_no": 10
+        },
+        "10": {
+          "lesson_no": 11
+        }
+      },
+      "reason": "Lesson 10 (fire places diagram) is about the traditional kitchen; it sat in Chapter 3 after Lessons 11-12.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02",
+      "resolves": [
+        "non-monotonic-lesson-no"
+      ]
+    },
+    {
+      "id": "he-002",
+      "op": "set",
+      "seq": 12,
+      "field": "chapter",
+      "value": "Notion of a traditional kitchen",
+      "expect": {
+        "chapter": "Notion of a modern kitchen"
+      },
+      "reason": "Moved with he-001 into Chapter 2 (traditional kitchen).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "he-003",
+      "op": "set",
+      "seq": 42,
+      "field": "title",
+      "value": "Generation and sorting kitchen waste (Part 1)",
+      "expect": {
+        "title": "Generation and sorting kitchen waste"
+      },
+      "reason": "Rows 42-43 are one two-period practical.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "he-004",
+      "op": "set",
+      "seq": 43,
+      "field": "title",
+      "value": "Generation and sorting kitchen waste (Part 2)",
+      "expect": {
+        "title": "Generation and sorting kitchen waste"
+      },
+      "reason": "Rows 42-43 are one two-period practical.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    }
+  ]
+}

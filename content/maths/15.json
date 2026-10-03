@@ -1,0 +1,355 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 15,
+  "language": "en",
+  "prerequisites": [
+    14
+  ],
+  "note": {
+    "status": "draft",
+    "text": "The perpendicular bisector of [AB] is the line that cuts [AB] at its midpoint and makes a right angle (90°) with it. 'Perpendicular' means 'at a right angle'; 'bisector' means 'it cuts into two equal parts'.\n\nProperty: every point on the perpendicular bisector of [AB] is at the same distance from A and from B. If P is on it, then PA = PB.\nConverse: if PA = PB, then P is on the perpendicular bisector of [AB].\n\nTo construct it with a ruler and compasses:\n1. Open the compasses to more than half of AB.\n2. Put the point on A and draw an arc above and below [AB].\n3. With the same opening, put the point on B and draw arcs that cut the first two.\n4. Join the two crossing points with your ruler.\nThe line you draw cuts [AB] at its midpoint.",
+    "checks": []
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "d": 7,
+      "r": 5,
+      "two": 2
+    },
+    "problem": "AB = {d} cm. Choose a compass opening to construct the perpendicular bisector of [AB], and find where it cuts [AB].",
+    "steps": [
+      "The opening must be more than half of AB: {d} ÷ {two} = {d / two} cm.",
+      "{r} cm is more than {d / two} cm, so an opening of {r} cm works.",
+      "With the point on A and then on B, draw arcs of radius {r} cm above and below [AB]. Join the two crossing points.",
+      "Each crossing point C is {r} cm from A and {r} cm from B: CA = CB, so C is on the perpendicular bisector.",
+      "The line cuts [AB] at its midpoint I, with AI = IB = {d / two} cm."
+    ],
+    "answer": "Use an opening of {r} cm. The perpendicular bisector cuts [AB] at I, with AI = IB = {d / two} cm.",
+    "checks": [
+      "r > d / two",
+      "r <= d"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c15-1",
+        "status": "draft",
+        "idea": "The perpendicular bisector of [AB] is the line that cuts [AB] at its midpoint and makes a right angle with it.",
+        "vars": {},
+        "example": [
+          "'Perpendicular' means at a right angle. 'Bisector' means it cuts into two equal parts.",
+          "It passes through the midpoint I of [AB], so AI = IB."
+        ],
+        "checks": [],
+        "check": {
+          "id": "c15-1-check",
+          "type": "mcq",
+          "level": 1,
+          "review": "authored",
+          "sources": [
+            "perpendicular-bisector"
+          ],
+          "prompt": "The perpendicular bisector of [AB] passes through:",
+          "correct": "the midpoint of [AB]",
+          "distractors": [
+            {
+              "text": "the point A",
+              "misconception": "end-point"
+            },
+            {
+              "text": "the point B",
+              "misconception": "end-point"
+            },
+            {
+              "text": "no point of [AB]",
+              "misconception": "misses"
+            }
+          ],
+          "misconceptions": [
+            {
+              "id": "end-point",
+              "explain": "It cuts [AB] in the middle, so it passes through the midpoint, not through A or B."
+            },
+            {
+              "id": "misses",
+              "explain": "It cuts [AB]: it passes through the midpoint."
+            }
+          ],
+          "solution": [
+            "It cuts [AB] into two equal parts, at a right angle.",
+            "So it passes through {answer}."
+          ]
+        }
+      },
+      {
+        "id": "c15-2",
+        "status": "draft",
+        "idea": "Every point of the perpendicular bisector of [AB] is at the same distance from A and from B.",
+        "vars": {
+          "x": 6
+        },
+        "example": [
+          "P is on the perpendicular bisector of [AB] and PA = {x} cm.",
+          "So PB = {x} cm too."
+        ],
+        "checks": [],
+        "check": {
+          "ref": "m15-equal"
+        }
+      },
+      {
+        "id": "c15-3",
+        "status": "draft",
+        "idea": "To construct it, open the compasses to more than half of AB, draw arcs from A and from B, and join the two crossing points.",
+        "vars": {
+          "d": 8,
+          "r": 5,
+          "two": 2
+        },
+        "example": [
+          "AB = {d} cm. Half of AB is {d} ÷ {two} = {d / two} cm.",
+          "An opening of {r} cm is more than {d / two} cm, so the arcs cross at two points."
+        ],
+        "checks": [
+          "r > d / two"
+        ],
+        "check": {
+          "id": "c15-3-check",
+          "type": "mcq",
+          "level": 1,
+          "vars": {
+            "d": {
+              "int": [
+                4,
+                16
+              ]
+            }
+          },
+          "prompt": "AB = {d} cm. To construct the perpendicular bisector, the compass opening must be more than:",
+          "correct": "{d / 2} cm",
+          "distractors": [
+            {
+              "text": "{d} cm",
+              "misconception": "half"
+            },
+            {
+              "text": "{2 * d} cm",
+              "misconception": "half"
+            },
+            {
+              "text": "{d / 4} cm",
+              "misconception": "half"
+            }
+          ],
+          "verify": "answer == fmt(d / 2) + ' cm'",
+          "misconceptions": [
+            {
+              "id": "half",
+              "explain": "The arcs from A and B cross only if the opening is more than half of AB: {d} ÷ 2 = {d / 2} cm."
+            }
+          ],
+          "solution": [
+            "Half of AB: {d} ÷ {2} = {d / 2} cm.",
+            "The opening must be more than {answer}."
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m15-equal",
+      "type": "numeric",
+      "level": 1,
+      "vars": {
+        "x": {
+          "int": [
+            2,
+            30
+          ]
+        }
+      },
+      "prompt": "P is on the perpendicular bisector of [AB] and PA = {x} cm. Find PB.",
+      "answer": "x",
+      "unit": "cm",
+      "verify": "answer == x",
+      "misconceptions": [
+        {
+          "id": "halved",
+          "wrong": "x / 2",
+          "explain": "Every point on the perpendicular bisector is at the same distance from A and from B: PB = PA = {x} cm."
+        },
+        {
+          "id": "doubled",
+          "wrong": "2 * x",
+          "explain": "PB is not PA + PA. Every point on the perpendicular bisector is at the same distance from A and B."
+        }
+      ],
+      "solution": [
+        "Every point of the perpendicular bisector is at the same distance from A and from B.",
+        "So PB = PA = {x} cm."
+      ]
+    },
+    {
+      "id": "m15-opening",
+      "type": "mcq",
+      "level": 2,
+      "vars": {
+        "d": {
+          "int": [
+            6,
+            16
+          ]
+        },
+        "r": {
+          "int": [
+            "floor(d / 2) + 1",
+            "d"
+          ]
+        }
+      },
+      "prompt": "AB = {d} cm. Which compass opening can you use to construct the perpendicular bisector of [AB]?",
+      "correct": "{r} cm",
+      "distractors": [
+        {
+          "text": "{d / 2} cm",
+          "misconception": "exactly-half"
+        },
+        {
+          "text": "{floor(d / 2) - 1} cm",
+          "misconception": "too-small"
+        },
+        {
+          "text": "{floor(d / 2) - 2} cm",
+          "misconception": "too-small"
+        },
+        {
+          "text": "1 cm",
+          "misconception": "too-small",
+          "when": "floor(d / 2) - 2 > 1"
+        }
+      ],
+      "verify": "r > d / 2",
+      "misconceptions": [
+        {
+          "id": "exactly-half",
+          "explain": "With exactly half of AB ({d / 2} cm), the arcs only touch at the midpoint: you get one point, not two."
+        },
+        {
+          "id": "too-small",
+          "explain": "The arcs from A and from B only cross if the opening is more than half of AB, that is more than {d / 2} cm."
+        }
+      ],
+      "solution": [
+        "The opening must be more than half of AB: {d} ÷ {2} = {d / 2} cm.",
+        "Of the openings shown, only {answer} is more than {d / 2} cm."
+      ]
+    },
+    {
+      "id": "m15-steps",
+      "sources": [
+        "perpendicular-bisector"
+      ],
+      "type": "ordering",
+      "level": 2,
+      "review": "authored",
+      "prompt": "Put the steps for constructing the perpendicular bisector of [AB] in order.",
+      "items": [
+        {
+          "text": "Open the compasses to more than half of AB."
+        },
+        {
+          "text": "Put the point on A and draw an arc above and below [AB]."
+        },
+        {
+          "text": "With the same opening, put the point on B and draw arcs that cut the first two."
+        },
+        {
+          "text": "Join the two crossing points with a ruler."
+        }
+      ],
+      "order": "as_written"
+    },
+    {
+      "id": "m15-cut",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "d": {
+          "int": [
+            4,
+            30
+          ]
+        }
+      },
+      "prompt": "The perpendicular bisector of [AB] cuts [AB] at I. AB = {d} cm. Find AI.",
+      "answer": "d / 2",
+      "unit": "cm",
+      "verify": "answer * 2 == d",
+      "misconceptions": [
+        {
+          "id": "whole-length",
+          "wrong": "d",
+          "explain": "The perpendicular bisector cuts [AB] at its midpoint, so AI is half of AB: {d} ÷ 2."
+        }
+      ],
+      "solution": [
+        "The perpendicular bisector cuts [AB] at its midpoint, so AI = AB ÷ {2}.",
+        "{d} ÷ {2} = {d / 2} cm."
+      ]
+    },
+    {
+      "id": "m15-spot",
+      "sources": [
+        "perpendicular-bisector"
+      ],
+      "type": "spot_error",
+      "level": 3,
+      "review": "authored",
+      "vars": {
+        "x": {
+          "int": [
+            2,
+            20
+          ]
+        }
+      },
+      "prompt": "One of these statements is false. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "If P is on the perpendicular bisector of [AB] and PA = {x} cm, then PB = {x} cm.",
+            "truth": "true"
+          },
+          {
+            "text": "The perpendicular bisector of [AB] passes through the midpoint of [AB].",
+            "truth": "true"
+          },
+          {
+            "text": "The perpendicular bisector of [AB] makes a right angle with [AB].",
+            "truth": "true"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "If PA = {x} cm and PB = {x + 1} cm, then P is on the perpendicular bisector of [AB].",
+            "truth": "x == x + 1",
+            "explain": "P is on the perpendicular bisector only if PA = PB. Here {x} ≠ {x + 1}."
+          },
+          {
+            "text": "The perpendicular bisector of [AB] passes through A.",
+            "truth": "false",
+            "explain": "It passes through the midpoint of [AB], not through A."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 12,
+  "language": "en",
+  "prerequisites": [
+    11
+  ],
+  "note": {
+    "status": "draft",
+    "text": "Points are collinear when one straight line passes through all of them.\n• Any two points are always collinear, because one line passes through any two points.\n• Three points A, B and C are collinear if C is on the line (AB).\nTo test with your ruler, place its edge on two of the points and see if the third point touches the edge too.\n\nIf B is on the segment [AC], then A, B and C are collinear and AB + BC = AC. For example, three taxi stops on a straight road: if AB = 3 km and BC = 5 km, then AC = 8 km.\n\nIf AB + BC is bigger than AC, then B is not on [AC].",
+    "checks": [
+      "3 + 5 == 8"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "P": "the school",
+      "Q": "the market",
+      "R": "the hospital",
+      "a": 4,
+      "b": 7,
+      "c": 11
+    },
+    "problem": "In a small town, straight roads join three places: from {P} to {Q} is {a} km, from {Q} to {R} is {b} km, and from {P} to {R} is {c} km. Are the three places collinear, with {Q} between the other two?",
+    "steps": [
+      "If {Q} is on the straight segment between {P} and {R}, then the two short distances add up to the long one.",
+      "The two short distances: {a} km + {b} km = {a + b} km.",
+      "The long distance, from {P} to {R}, is {c} km. The two results are {a + b == c ? 'equal' : 'not equal'}."
+    ],
+    "answer": "{a + b == c ? 'Yes: the three places are collinear, with ' + Q + ' between ' + P + ' and ' + R + '.' : 'No: ' + Q + ' is not on the segment.'}",
+    "checks": [
+      "a + b == c"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c12-1",
+        "status": "draft",
+        "idea": "Points are collinear when one straight line passes through all of them.",
+        "vars": {},
+        "example": [
+          "Three taxi stops on a straight road are collinear.",
+          "A house away from the road is not collinear with them."
+        ],
+        "checks": [],
+        "check": {
+          "ref": "m12-which"
+        }
+      },
+      {
+        "id": "c12-2",
+        "status": "draft",
+        "idea": "Any two points are always collinear, because one line passes through any two points. Three points are collinear only if the third is on the line through the other two.",
+        "vars": {},
+        "example": [
+          "To test three points, put the edge of your ruler on two of them and see if the third touches it."
+        ],
+        "checks": [],
+        "check": {
+          "ref": "m12-facts"
+        }
+      },
+      {
+        "id": "c12-3",
+        "status": "draft",
+        "idea": "If B is on the segment [AC], then AB + BC = AC.",
+        "vars": {
+          "a": 3,
+          "b": 5
+        },
+        "example": [
+          "AB = {a} km and BC = {b} km, with B between A and C.",
+          "AC = {a} + {b} = {a + b} km."
+        ],
+        "checks": [
+          "a + b == 8"
+        ],
+        "check": {
+          "id": "c12-3-check",
+          "type": "numeric",
+          "level": 1,
+          "unit": "cm",
+          "vars": {
+            "a": {
+              "int": [
+                2,
+                20
+              ]
+            },
+            "b": {
+              "int": [
+                2,
+                20
+              ]
+            }
+          },
+          "where": "a != b",
+          "prompt": "B is on the segment [AC]. AB = {a} cm and BC = {b} cm. Find AC.",
+          "answer": "a + b",
+          "verify": "answer - a == b",
+          "misconceptions": [
+            {
+              "id": "difference",
+              "wrong": "abs(a - b)",
+              "explain": "B is between A and C, so AC = AB + BC = {a} + {b}."
+            }
+          ],
+          "solution": [
+            "B is on [AC], so AC = AB + BC = {a} + {b} = {a + b} cm."
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m12-which",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "L": {
+          "letters": 5
+        },
+        "on": {
+          "sample": [
+            "[L[0], L[1], L[2], L[3]]",
+            3
+          ]
+        },
+        "E": {
+          "expr": "L[4]"
+        }
+      },
+      "prompt": "Points {L[0]}, {L[1]}, {L[2]} and {L[3]} are on the line (d). Point {E} is not on (d). Which three points are collinear?",
+      "correct": "{on[0]}, {on[1]} and {on[2]}",
+      "distractors": [
+        {
+          "text": "{on[0]}, {on[1]} and {E}",
+          "misconception": "off-line"
+        },
+        {
+          "text": "{on[1]}, {on[2]} and {E}",
+          "misconception": "off-line"
+        },
+        {
+          "text": "{E}, {on[0]} and {on[2]}",
+          "misconception": "off-line"
+        }
+      ],
+      "verify": "!contains(on, E) && len(on) == 3",
+      "misconceptions": [
+        {
+          "id": "off-line",
+          "explain": "{E} is not on (d), so it is not on the same line as two points of (d)."
+        }
+      ],
+      "solution": [
+        "Only points on (d) are on one straight line together; {E} is not on (d).",
+        "So the three collinear points are {answer}."
+      ]
+    },
+    {
+      "id": "m12-facts",
+      "sources": [
+        "one-line-two-points"
+      ],
+      "type": "mcq",
+      "level": 1,
+      "review": "authored",
+      "prompt": "Which statement is true?",
+      "pool": {
+        "right": [
+          {
+            "text": "Any two points are always collinear.",
+            "truth": "true"
+          },
+          {
+            "text": "Through two different points there is exactly one straight line.",
+            "truth": "true"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "Through two points we can draw many straight lines.",
+            "truth": "false",
+            "misconception": "one-line",
+            "explain": "Through two different points there is exactly one straight line."
+          },
+          {
+            "text": "Any three points are always collinear.",
+            "truth": "false",
+            "misconception": "three-points",
+            "explain": "Three points are collinear only if the third one is on the line through the other two."
+          },
+          {
+            "text": "Two points are collinear only if they are close together.",
+            "truth": "false",
+            "misconception": "distance",
+            "explain": "Distance does not matter: one line always passes through any two points."
+          },
+          {
+            "text": "Points on a curved path are always collinear.",
+            "truth": "false",
+            "misconception": "curve",
+            "explain": "Collinear means on one straight line, not on a curve."
+          }
+        ]
+      },
+      "pick": {
+        "right": 1,
+        "wrong": 3
+      }
+    },
+    {
+      "id": "m12-taxi-stops",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "L": {
+          "letters": 3
+        },
+        "P": {
+          "expr": "L[0]"
+        },
+        "Q": {
+          "expr": "L[1]"
+        },
+        "R": {
+          "expr": "L[2]"
+        },
+        "a": {
+          "int": [
+            2,
+            40
+          ]
+        },
+        "b": {
+          "int": [
+            2,
+            40
+          ]
+        }
+      },
+      "where": "a != b",
+      "prompt": "Taxi stops {P}, {Q} and {R} are on a straight road, with {Q} between {P} and {R}. {P}{Q} = {a} km and {Q}{R} = {b} km. Find {P}{R}.",
+      "answer": "a + b",
+      "unit": "km",
+      "verify": "answer - a == b && answer > a && answer > b",
+      "misconceptions": [
+        {
+          "id": "difference",
+          "wrong": "abs(a - b)",
+          "explain": "{Q} is between {P} and {R}, so {P}{R} = {P}{Q} + {Q}{R}."
+        }
+      ],
+      "solution": [
+        "{Q} is between {P} and {R}, so {P}{R} = {P}{Q} + {Q}{R}.",
+        "{a} + {b} = {a + b} km."
+      ]
+    },
+    {
+      "id": "m12-test",
+      "type": "mcq",
+      "level": 3,
+      "show": 2,
+      "vars": {
+        "L": {
+          "letters": 3
+        },
+        "P": {
+          "expr": "L[0]"
+        },
+        "Q": {
+          "expr": "L[1]"
+        },
+        "R": {
+          "expr": "L[2]"
+        },
+        "a": {
+          "int": [
+            2,
+            20
+          ]
+        },
+        "b": {
+          "int": [
+            2,
+            20
+          ]
+        },
+        "yes": {
+          "pick": [
+            true,
+            false
+          ]
+        },
+        "gap": {
+          "int": [
+            1,
+            "2 * min(a, b) - 1"
+          ]
+        },
+        "c": {
+          "expr": "yes ? a + b : a + b - gap"
+        }
+      },
+      "prompt": "{P}{Q} = {a} cm, {Q}{R} = {b} cm and {P}{R} = {c} cm. Is {Q} on the segment [{P}{R}]?",
+      "correct": "{a + b == c ? 'Yes' : 'No'}",
+      "distractors": [
+        {
+          "text": "Yes",
+          "misconception": "no-check"
+        },
+        {
+          "text": "No",
+          "misconception": "no-check"
+        }
+      ],
+      "verify": "(answer == 'Yes') == (a + b == c) && c > abs(a - b)",
+      "misconceptions": [
+        {
+          "id": "no-check",
+          "explain": "Check the sum: {P}{Q} + {Q}{R} = {a} + {b} = {a + b} cm, and {P}{R} = {c} cm. {Q} is on [{P}{R}] only when the two are equal."
+        }
+      ],
+      "solution": [
+        "{P}{Q} + {Q}{R} = {a} + {b} = {a + b} cm, and {P}{R} = {c} cm.",
+        "{a + b == c ? 'They are equal, so ' + Q + ' is on [' + P + R + '].' : 'They are not equal, so ' + Q + ' is not on [' + P + R + '].'}",
+        "Answer: {answer}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "subject": "geography-ok",
+  "overrides": [
+    {
+      "id": "geo-001",
+      "op": "set_meta",
+      "values": {
+        "subject": "geography",
+        "subject_label": "Geography"
+      },
+      "reason": "Header reads 'Geography Ok' (an editing note left in the subject name).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "geo-002",
+      "op": "delete",
+      "seqs": [
+        14
+      ],
+      "expect": {
+        "14": {
+          "tu": 9,
+          "title": "PW 4: Construction of a climograph (construct the temperature-rainfall graph based of data from a weather station, read & identify the seasons)"
+        }
+      },
+      "reason": "Row 14 repeats row 13 (PW 4: Construction of a climograph).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "geography-ok-typos",
+      "op": "replace_words",
+      "words": {
+        "Compenents": "Components"
+      },
+      "reason": "Spelling errors in the sheet; display text only, raw stays untouched.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "geo-003",
+      "op": "set",
+      "seq": 5,
+      "field": "title",
+      "value": "Practical Work 2 (Part 1): Locate a place on a map",
+      "expect": {
+        "title": "Practical Work 2: Locate a place on a map"
+      },
+      "reason": "Rows 5-6 are one practical over two periods.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "geo-004",
+      "op": "set",
+      "seq": 6,
+      "field": "title",
+      "value": "PW 2 (Part 2): Locate a place on a map (Read geographical coordinates of a place on a map)",
+      "expect": {
+        "title": "PW 2: Locate a place on a map (Read geographical coordinates of a place on a map)"
+      },
+      "reason": "Rows 5-6 are one practical over two periods.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    }
+  ]
+}

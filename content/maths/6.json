@@ -1,0 +1,374 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 6,
+  "language": "en",
+  "prerequisites": [
+    5
+  ],
+  "note": {
+    "status": "draft",
+    "text": "Numbers do three different jobs.\n• A cardinal number tells us how many: 'There are 12 mangoes in the basket.'\n• An ordinal number tells us the position or order: 'Enow came 3rd in the race.' We write ordinals as 1st, 2nd, 3rd, 4th … or first, second, third, fourth …\n• A nominal number is a name or label. It does not count anything: a phone number, the number on a taxi, a football shirt number.\n\nAsk yourself: does it count? Cardinal. Does it give a position? Ordinal. Is it only a label? Nominal.\n\nEndings of ordinals: numbers ending in 1 take st (21st), ending in 2 take nd (32nd), ending in 3 take rd (43rd), and the others take th (57th). But numbers ending in 11, 12 or 13 always take th: 11th, 12th, 113th.",
+    "checks": [
+      "ordinal(3) == '3rd'",
+      "ordinal(21) == '21st'",
+      "ordinal(32) == '32nd'",
+      "ordinal(43) == '43rd'",
+      "ordinal(57) == '57th'",
+      "ordinal(11) == '11th'",
+      "ordinal(12) == '12th'",
+      "ordinal(113) == '113th'"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "n": 23,
+      "p": 8,
+      "one": 1
+    },
+    "problem": "There are {n} people in a queue at the Mile Two taxi park. Mbah is {ordinal(p)} from the front. What is his position from the back?",
+    "steps": [
+      "People in front of Mbah: {p} − {one} = {p - one}.",
+      "People behind Mbah: {n} − {p} = {n - p}.",
+      "From the back, Mbah comes just after those {n - p} people, so his position is {n - p} + {one} = {n - p + one}."
+    ],
+    "answer": "Mbah is {ordinal(n - p + one)} from the back.",
+    "checks": [
+      "(p - one) + one + (n - p) == n",
+      "ordinal(n - p + one) == '16th'"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c6-1",
+        "status": "draft",
+        "idea": "A cardinal number tells how many.",
+        "vars": {
+          "n": 12
+        },
+        "example": [
+          "“There are {n} mangoes in the basket.”",
+          "{n} tells how many mangoes: it is a cardinal number."
+        ],
+        "checks": [],
+        "check": {
+          "id": "c6-1-check",
+          "type": "mcq",
+          "level": 1,
+          "review": "authored",
+          "sources": [
+            "number-roles"
+          ],
+          "vars": {
+            "n": {
+              "int": [
+                5,
+                60
+              ]
+            },
+            "k": {
+              "int": [
+                1,
+                20
+              ]
+            },
+            "plate": {
+              "int": [
+                100,
+                999
+              ]
+            }
+          },
+          "prompt": "Which sentence uses a cardinal number (a number that tells how many)?",
+          "pool": {
+            "right": [
+              {
+                "text": "There are {n} pupils in the class.",
+                "truth": "true"
+              },
+              {
+                "text": "Ngwa has {n} goats.",
+                "truth": "true"
+              }
+            ],
+            "wrong": [
+              {
+                "text": "Enow came {ordinal(k)} in the race.",
+                "truth": "false",
+                "explain": "{ordinal(k)} gives a position: it is an ordinal number."
+              },
+              {
+                "text": "The number painted on the taxi is {plate}.",
+                "truth": "false",
+                "explain": "A taxi number is only a label: it is a nominal number."
+              },
+              {
+                "text": "Bih wears shirt number {k}.",
+                "truth": "false",
+                "explain": "A shirt number is only a label: it is a nominal number."
+              }
+            ]
+          },
+          "pick": {
+            "right": 1,
+            "wrong": 3
+          }
+        }
+      },
+      {
+        "id": "c6-2",
+        "status": "draft",
+        "idea": "An ordinal number tells a position: first, second, third… In figures: {ordinal(1)}, {ordinal(2)}, {ordinal(3)}, {ordinal(4)}.",
+        "vars": {},
+        "example": [
+          "Endings: {ordinal(21)}, {ordinal(32)}, {ordinal(43)}, {ordinal(57)}.",
+          "But {ordinal(11)}, {ordinal(12)} and {ordinal(13)} always end in th."
+        ],
+        "checks": [
+          "ordinal(11) == '11th' && ordinal(21) == '21st'"
+        ],
+        "check": {
+          "ref": "m6-suffix"
+        }
+      },
+      {
+        "id": "c6-3",
+        "status": "draft",
+        "idea": "A nominal number is only a name or label. It does not count anything and does not give an order.",
+        "vars": {
+          "plate": 574
+        },
+        "example": [
+          "“The number on the taxi is {plate}.”",
+          "{plate} does not count anything, and the taxi is not the {ordinal(plate)} of anything: it is a nominal number."
+        ],
+        "checks": [],
+        "check": {
+          "ref": "m6-classify"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m6-classify",
+      "sources": [
+        "number-roles"
+      ],
+      "type": "mcq",
+      "level": 1,
+      "show": 3,
+      "review": "authored",
+      "vars": {
+        "n": {
+          "int": [
+            2,
+            60
+          ]
+        },
+        "k": {
+          "int": [
+            1,
+            28
+          ]
+        },
+        "plate": {
+          "int": [
+            100,
+            999
+          ]
+        },
+        "s": {
+          "pick": [
+            {
+              "text": "There are {n} pupils in Form One B.",
+              "kind": "cardinal"
+            },
+            {
+              "text": "Ngwa bought {n} oranges at the market.",
+              "kind": "cardinal"
+            },
+            {
+              "text": "Ewane finished {ordinal(k)} in the inter-class race.",
+              "kind": "ordinal"
+            },
+            {
+              "text": "Today is the {ordinal(k)} day of the month.",
+              "kind": "ordinal"
+            },
+            {
+              "text": "The number painted on the taxi is {plate}.",
+              "kind": "nominal"
+            },
+            {
+              "text": "Bih wears shirt number {k} in the school football team.",
+              "kind": "nominal"
+            }
+          ]
+        }
+      },
+      "prompt": "In the sentence “{s.text}”, the number is:",
+      "correct": "{s.kind}",
+      "distractors": [
+        {
+          "text": "cardinal",
+          "misconception": "cardinal"
+        },
+        {
+          "text": "ordinal",
+          "misconception": "ordinal"
+        },
+        {
+          "text": "nominal",
+          "misconception": "nominal"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "cardinal",
+          "explain": "A cardinal number answers 'how many?'. Here the number is {s.kind}."
+        },
+        {
+          "id": "ordinal",
+          "explain": "An ordinal number gives a position: 1st, 2nd, 3rd… Here the number is {s.kind}."
+        },
+        {
+          "id": "nominal",
+          "explain": "A nominal number is only a label, like a phone or taxi number. Here the number is {s.kind}."
+        }
+      ],
+      "solution": [
+        "Does the number count something? Cardinal. Does it give a position? Ordinal. Is it only a label? Nominal.",
+        "Here the number is {s.kind}."
+      ]
+    },
+    {
+      "id": "m6-suffix",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "n": {
+          "int": [
+            1,
+            130
+          ]
+        }
+      },
+      "where": "n % 10 >= 1 && n % 10 <= 3",
+      "prompt": "How do you write '{words(n)}' as an ordinal number in figures?",
+      "correct": "{ordinal(n)}",
+      "distractors": [
+        {
+          "text": "{n}th",
+          "misconception": "th-for-all"
+        },
+        {
+          "text": "{n}st",
+          "misconception": "ending"
+        },
+        {
+          "text": "{n}nd",
+          "misconception": "ending"
+        },
+        {
+          "text": "{n}rd",
+          "misconception": "ending"
+        }
+      ],
+      "verify": "answer == ordinal(n)",
+      "misconceptions": [
+        {
+          "id": "th-for-all",
+          "explain": "Numbers ending in 1, 2 or 3 take st, nd or rd (21st, 32nd, 43rd), except those ending in 11, 12 or 13, which take th."
+        },
+        {
+          "id": "ending",
+          "explain": "Look at the last digit: 1 → st, 2 → nd, 3 → rd, others → th. But 11, 12 and 13 always take th."
+        }
+      ],
+      "solution": [
+        "Numbers ending in {11}, {12} or {13} take th. Otherwise a last digit of {1} takes st, {2} takes nd, {3} takes rd.",
+        "{n} is written {ordinal(n)}."
+      ]
+    },
+    {
+      "id": "m6-queue",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "n": {
+          "int": [
+            10,
+            40
+          ]
+        },
+        "p": {
+          "int": [
+            2,
+            "n - 1"
+          ]
+        }
+      },
+      "where": "n - p + 1 != p",
+      "prompt": "{n} people are in a queue at the Mile Two taxi park. Mbah is {ordinal(p)} from the front. In which position is he from the back? (Give the number only.)",
+      "answer": "n - p + 1",
+      "verify": "(p - 1) + 1 + (answer - 1) == n",
+      "misconceptions": [
+        {
+          "id": "forgot-self",
+          "wrong": "n - p",
+          "explain": "{n - p} people are behind Mbah. He comes just after them: {n - p} + 1."
+        },
+        {
+          "id": "same-position",
+          "wrong": "p",
+          "explain": "His position from the back is different: count the people behind him, then add 1 for Mbah."
+        }
+      ],
+      "solution": [
+        "People behind Mbah: {n} − {p} = {n - p}.",
+        "From the back he comes just after them: {n - p} + {1} = {n - p + 1}."
+      ]
+    },
+    {
+      "id": "m6-race",
+      "type": "numeric",
+      "level": 3,
+      "vars": {
+        "p": {
+          "int": [
+            2,
+            30
+          ]
+        },
+        "m": {
+          "int": [
+            2,
+            30
+          ]
+        }
+      },
+      "prompt": "In a race, Tabe finished {ordinal(p)}. {m} runners finished after him. How many runners were in the race?",
+      "answer": "p + m",
+      "verify": "answer - m == p",
+      "misconceptions": [
+        {
+          "id": "off-by-one-down",
+          "wrong": "p + m - 1",
+          "explain": "Being {ordinal(p)} means {p - 1} runners finished before Tabe. Add them, Tabe and the {m} after him: {p - 1} + 1 + {m}."
+        },
+        {
+          "id": "off-by-one-up",
+          "wrong": "p + m + 1",
+          "explain": "Tabe is already counted in '{ordinal(p)}': the total is {p} + {m}."
+        }
+      ],
+      "solution": [
+        "Finishing {ordinal(p)} means {p - 1} runners finished before Tabe.",
+        "Total: {p - 1} before + Tabe + {m} after = {p - 1} + {1} + {m} = {p + m}."
+      ]
+    }
+  ]
+}

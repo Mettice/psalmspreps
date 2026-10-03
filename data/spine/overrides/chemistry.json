@@ -1,0 +1,26 @@
+{
+  "subject": "chemistry",
+  "overrides": [
+    {
+      "id": "chem-001",
+      "op": "delete",
+      "seqs": [
+        60,
+        61
+      ],
+      "expect": {
+        "60": {
+          "lesson_no": 52,
+          "title": "Water pollution"
+        },
+        "61": {
+          "lesson_no": 53,
+          "title": "Solutions - Definition and types"
+        }
+      },
+      "reason": "Rows 60-61 repeat Lessons 50-51 (Water pollution; Solutions: definitions and types) under lesson numbers 52-53, which are already used by rows 58-59.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 3,
+  "language": "en",
+  "prerequisites": [
+    1
+  ],
+  "note": {
+    "status": "draft",
+    "text": "We write numbers with ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9. The value of a digit depends on its place.\n\nIn 45 372:\n• 2 is in the units place: it stands for 2.\n• 7 is in the tens place: 70.\n• 3 is in the hundreds place: 300.\n• 5 is in the thousands place: 5000.\n• 4 is in the ten thousands place: 40 000.\nSo 45 372 = 40 000 + 5000 + 300 + 70 + 2. This is the expanded form.\n\nEach place is worth ten times the place on its right. Zero holds a place: 305 and 35 are different numbers.\n\nIf you pay for a bag of rice with 4 notes of 10 000 FCFA, 5 notes of 1000 FCFA and 3 coins of 100 FCFA, you pay 45 300 FCFA.",
+    "checks": [
+      "placeValue(45372, 0) == 2",
+      "placeValue(45372, 1) == 70",
+      "placeValue(45372, 2) == 300",
+      "placeValue(45372, 3) == 5000",
+      "placeValue(45372, 4) == 40000",
+      "40000 + 5000 + 300 + 70 + 2 == 45372",
+      "305 != 35",
+      "4 * 10000 + 5 * 1000 + 3 * 100 == 45300"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "n": 762418,
+      "d": 6,
+      "p": {
+        "expr": "posOf(n, d)"
+      }
+    },
+    "problem": "What is the value of the digit {d} in {n}?",
+    "steps": [
+      "Name the places from the right: units, tens, hundreds, thousands, ten thousands, hundred thousands.",
+      "In {n}, the digit {d} is in the {placeName(p)} place.",
+      "One {placeName(p) == 'ten thousands' ? 'ten thousand' : placeName(p)} is {10 ^ p}, so the digit stands for {d} × {10 ^ p} = {placeValue(n, p)}."
+    ],
+    "answer": "The {d} in {n} stands for {placeValue(n, p)}.",
+    "checks": [
+      "countDigit(n, d) == 1",
+      "digitAt(n, p) == d",
+      "placeValue(n, p) == d * 10 ^ p"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c3-1",
+        "status": "draft",
+        "idea": "We write numbers with ten digits, {0} to {9}. Where a digit stands tells us its value. The places, from the right, are units, tens, hundreds, thousands, and so on.",
+        "vars": {
+          "n": 4825
+        },
+        "example": [
+          "In {n}:",
+          "{digitAt(n, 0)} is in the units place, {digitAt(n, 1)} in the tens place, {digitAt(n, 2)} in the hundreds place and {digitAt(n, 3)} in the thousands place."
+        ],
+        "checks": [
+          "digitAt(n, 3) * 1000 + digitAt(n, 2) * 100 + digitAt(n, 1) * 10 + digitAt(n, 0) == n"
+        ],
+        "check": {
+          "ref": "m3-digit-in-place"
+        }
+      },
+      {
+        "id": "c3-2",
+        "status": "draft",
+        "idea": "The value of a digit is the digit times its place: a {7} in the hundreds place stands for {7} × {100} = {7 * 100}.",
+        "vars": {
+          "n": 36507,
+          "d": 6,
+          "p": {
+            "expr": "posOf(n, d)"
+          }
+        },
+        "example": [
+          "In {n}, the digit {d} is in the {placeName(p)} place.",
+          "It stands for {d} × {10 ^ p} = {placeValue(n, p)}."
+        ],
+        "checks": [
+          "digitAt(n, p) == d",
+          "countDigit(n, d) == 1"
+        ],
+        "check": {
+          "ref": "m3-value-of-digit"
+        }
+      },
+      {
+        "id": "c3-3",
+        "status": "draft",
+        "idea": "Zero holds a place. Without it, {305} would become {stripZeros(305)}: a different number.",
+        "vars": {
+          "n": 40307
+        },
+        "example": [
+          "{n} = {placeValue(n, 4)} + {placeValue(n, 2)} + {placeValue(n, 0)}.",
+          "The zeros show that there are no thousands and no tens."
+        ],
+        "checks": [
+          "placeValue(n, 3) == 0 && placeValue(n, 1) == 0",
+          "placeValue(n, 4) + placeValue(n, 2) + placeValue(n, 0) == n"
+        ],
+        "check": {
+          "id": "c3-3-check",
+          "type": "numeric",
+          "level": 1,
+          "vars": {
+            "a": {
+              "int": [
+                1,
+                9
+              ]
+            },
+            "c": {
+              "int": [
+                1,
+                9
+              ]
+            }
+          },
+          "prompt": "Write as one number: {a * 1000} + {c}",
+          "answer": "a * 1000 + c",
+          "verify": "digitAt(answer, 3) == a && digitAt(answer, 0) == c && numDigits(answer) == 4",
+          "misconceptions": [
+            {
+              "id": "no-placeholder",
+              "wrong": "stripZeros(a * 1000 + c)",
+              "explain": "{a * 1000} has 4 digits, so the answer needs 4 digits: write 0 in the empty places."
+            }
+          ],
+          "solution": [
+            "{a * 1000} has {4} digits: {a} thousands, {0} hundreds, {0} tens and {0} units.",
+            "Add {c} units: {a * 1000} + {c} = {a * 1000 + c}."
+          ],
+          "hint": "{a * 1000} has {4} digits. Keep all of them and change only the units digit."
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m3-value-of-digit",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "n": {
+          "int": [
+            10000,
+            999999
+          ]
+        },
+        "pos": {
+          "int": [
+            2,
+            4
+          ]
+        },
+        "d": {
+          "expr": "digitAt(n, pos)"
+        }
+      },
+      "where": [
+        "d != 0",
+        "countDigit(n, d) == 1"
+      ],
+      "prompt": "What is the value of the digit {d} in {n}?",
+      "correct": "{placeValue(n, pos)}",
+      "distractors": [
+        {
+          "misconception": "face-value"
+        },
+        {
+          "misconception": "place-too-high"
+        },
+        {
+          "misconception": "place-too-low"
+        }
+      ],
+      "verify": "placeValue(n, pos) == d * 10 ^ pos",
+      "misconceptions": [
+        {
+          "id": "face-value",
+          "wrong": "d",
+          "explain": "{d} is only the digit (face value). It is in the {placeName(pos)} place, so it stands for {placeValue(n, pos)}."
+        },
+        {
+          "id": "place-too-high",
+          "wrong": "d * 10 ^ (pos + 1)",
+          "explain": "Count the places from the right, starting with units. {d} is in the {placeName(pos)} place."
+        },
+        {
+          "id": "place-too-low",
+          "wrong": "d * 10 ^ (pos - 1)",
+          "explain": "Count the places from the right, starting with units. {d} is in the {placeName(pos)} place."
+        }
+      ],
+      "solution": [
+        "Name the places from the right: units, tens, hundreds, thousands, ten thousands…",
+        "In {n}, the digit {d} is in the {placeName(pos)} place.",
+        "{d} × {10 ^ pos} = {placeValue(n, pos)}."
+      ],
+      "hint": "Find the place of the digit {d}: count units, tens, hundreds… from the right. Then multiply {d} by the value of that place."
+    },
+    {
+      "id": "m3-digit-in-place",
+      "type": "numeric",
+      "level": 1,
+      "vars": {
+        "n": {
+          "int": [
+            100000,
+            999999
+          ]
+        },
+        "pos": {
+          "int": [
+            0,
+            5
+          ]
+        }
+      },
+      "where": "digitAt(n, pos) != digitAt(n, 5 - pos)",
+      "prompt": "Which digit is in the {placeName(pos)} place in {n}?",
+      "answer": "digitAt(n, pos)",
+      "verify": "answer == floor(n / 10 ^ pos) % 10",
+      "misconceptions": [
+        {
+          "id": "counted-from-left",
+          "wrong": "digitAt(n, 5 - pos)",
+          "explain": "Places are counted from the right: units first, then tens, hundreds, thousands…"
+        }
+      ],
+      "solution": [
+        "Count the places of {n} from the right: units, tens, hundreds, thousands, ten thousands, hundred thousands.",
+        "The digit in the {placeName(pos)} place is {digitAt(n, pos)}."
+      ],
+      "hint": "Start at the right-hand digit (the units) and move left one place at a time until you reach the {placeName(pos)}."
+    },
+    {
+      "id": "m3-expanded",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "a": {
+          "int": [
+            1,
+            9
+          ]
+        },
+        "b": {
+          "int": [
+            1,
+            9
+          ]
+        },
+        "c": {
+          "int": [
+            1,
+            9
+          ]
+        },
+        "hi": {
+          "int": [
+            3,
+            5
+          ]
+        },
+        "mid": {
+          "int": [
+            1,
+            "hi - 2"
+          ]
+        }
+      },
+      "prompt": "Write as one number: {a * 10 ^ hi} + {b * 10 ^ mid} + {c}",
+      "answer": "a * 10 ^ hi + b * 10 ^ mid + c",
+      "verify": "digitAt(answer, hi) == a && digitAt(answer, mid) == b && digitAt(answer, 0) == c && numDigits(answer) == hi + 1",
+      "misconceptions": [
+        {
+          "id": "no-placeholder",
+          "wrong": "stripZeros(a * 10 ^ hi + b * 10 ^ mid + c)",
+          "explain": "Empty places need a 0. {a * 10 ^ hi} has {hi + 1} digits, so the answer must have {hi + 1} digits too."
+        }
+      ],
+      "solution": [
+        "Put each part in its place and write {0} in every empty place.",
+        "{expanded(a * 10 ^ hi + b * 10 ^ mid + c)} = {a * 10 ^ hi + b * 10 ^ mid + c}"
+      ],
+      "hint": "Each part has its own place. Write {0} in every place that has no part."
+    },
+    {
+      "id": "m3-money",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "x": {
+          "int": [
+            1,
+            9
+          ]
+        },
+        "y": {
+          "int": [
+            0,
+            9
+          ]
+        },
+        "z": {
+          "int": [
+            1,
+            9
+          ]
+        }
+      },
+      "prompt": "Bih pays for her school shoes with {plural(x, 'note', 'notes')} of 10 000 FCFA, {y == 0 ? 'no notes' : plural(y, 'note', 'notes')} of 1000 FCFA and {plural(z, 'coin', 'coins')} of 100 FCFA. How much does she pay?",
+      "answer": "x * 10000 + y * 1000 + z * 100",
+      "unit": "FCFA",
+      "verify": "answer % 100 == 0 && idiv(answer, 10000) == x",
+      "misconceptions": [
+        {
+          "id": "counted-pieces",
+          "wrong": "x + y + z",
+          "explain": "Each note or coin has a value. Multiply the number of notes by the value of each note: {x} × 10 000 = {x * 10000} FCFA."
+        },
+        {
+          "id": "joined-digits",
+          "wrong": "num(str(x) + str(y) + str(z))",
+          "explain": "A 10 000 FCFA note is worth ten thousand, not one. Multiply each count by its value, then add."
+        }
+      ],
+      "solution": [
+        "{x} × {10000} = {x * 10000} FCFA",
+        "{y} × {1000} = {y * 1000} FCFA",
+        "{z} × {100} = {z * 100} FCFA",
+        "Total: {x * 10000} + {y * 1000} + {z * 100} = {x * 10000 + y * 1000 + z * 100} FCFA."
+      ],
+      "hint": "Work out each kind of money on its own (number × value), then add the three amounts."
+    },
+    {
+      "id": "m3-order-prices",
+      "type": "ordering",
+      "level": 2,
+      "vars": {
+        "ds": {
+          "sample": [
+            "[1, 2, 3, 4, 5, 6, 7, 8, 9]",
+            4
+          ]
+        },
+        "n1": {
+          "expr": "ds[0] * 1000 + ds[1] * 100 + ds[2] * 10 + ds[3]"
+        },
+        "n2": {
+          "expr": "ds[1] * 1000 + ds[0] * 100 + ds[3] * 10 + ds[2]"
+        },
+        "n3": {
+          "expr": "ds[3] * 1000 + ds[2] * 100 + ds[1] * 10 + ds[0]"
+        },
+        "n4": {
+          "expr": "ds[2] * 1000 + ds[3] * 100 + ds[0] * 10 + ds[1]"
+        }
+      },
+      "prompt": "Order these prices at Limbe market from the smallest to the largest.",
+      "items": [
+        {
+          "text": "{n1} FCFA",
+          "key": "n1"
+        },
+        {
+          "text": "{n2} FCFA",
+          "key": "n2"
+        },
+        {
+          "text": "{n3} FCFA",
+          "key": "n3"
+        },
+        {
+          "text": "{n4} FCFA",
+          "key": "n4"
+        }
+      ],
+      "order": "asc",
+      "hint": "Compare the thousands digits first. If two are the same, compare the hundreds."
+    },
+    {
+      "id": "m3-spot",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "n": {
+          "int": [
+            100000,
+            999999
+          ]
+        }
+      },
+      "where": [
+        "digitAt(n, 3) != 0",
+        "countDigit(n, digitAt(n, 3)) == 1",
+        "digitAt(n, 2) != 0",
+        "countDigit(n, digitAt(n, 4)) == 1"
+      ],
+      "prompt": "Look at the number {n}. One statement is wrong. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "The digit {digitAt(n, 2)} stands for {placeValue(n, 2)}.",
+            "truth": "placeValue(n, 2) == digitAt(n, 2) * 100"
+          },
+          {
+            "text": "{n} = {n - n % 1000} + {n % 1000}",
+            "truth": "(n - n % 1000) + n % 1000 == n"
+          },
+          {
+            "text": "The digit in the units place is {digitAt(n, 0)}.",
+            "truth": "n % 10 == digitAt(n, 0)"
+          },
+          {
+            "text": "The number has {numDigits(n)} digits.",
+            "truth": "numDigits(n) == len(str(n))"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "The digit {digitAt(n, 3)} stands for {digitAt(n, 3)}.",
+            "truth": "placeValue(n, 3) == digitAt(n, 3)",
+            "explain": "{digitAt(n, 3)} is in the thousands place, so it stands for {placeValue(n, 3)}."
+          },
+          {
+            "text": "The digit {digitAt(n, 4)} is in the thousands place.",
+            "truth": "posOf(n, digitAt(n, 4)) == 3",
+            "explain": "{digitAt(n, 4)} is in the ten thousands place: count the places from the right."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      },
+      "hint": "For each statement, find the place of the digit and work out what it stands for."
+    }
+  ]
+}

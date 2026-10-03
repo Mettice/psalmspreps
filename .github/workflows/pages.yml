@@ -1,0 +1,58 @@
+# On every push to main: run all tests, build the lesson page, publish it with GitHub Pages.
+# The page is published only if every test passes.
+# One-time setup: repository Settings → Pages → Source: "GitHub Actions".
+name: Test and publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install Python tools
+        run: pip install -r requirements.txt
+
+      - name: Curriculum spine tests (Python)
+        run: python -m unittest discover -s tests
+
+      - name: Engine, content and prototype tests
+        run: npm test
+
+      - name: Build the site
+        run: node tools/site/build.mjs
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: test-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

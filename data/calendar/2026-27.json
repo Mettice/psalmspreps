@@ -1,0 +1,26 @@
+{
+  "year": "2026-27",
+  "status": "draft",
+  "source": "TODO: official MINESEC 2026-27 school calendar (Dion to fill in)",
+  "_note": "The app reads terms, holidays and evaluation weeks from this file only, never from the progression sheets. Dates are ISO (YYYY-MM-DD), inclusive. Any value \"TODO\" is unknown: the app and the validator skip it.",
+  "start": "2026-09-07",
+  "end": "TODO",
+  "terms": [
+    {"term": 1, "start": "2026-09-07", "end": "TODO"},
+    {"term": 2, "start": "TODO", "end": "TODO"},
+    {"term": 3, "start": "TODO", "end": "TODO"}
+  ],
+  "holidays": [
+    {"name": "Christmas holiday", "start": "TODO", "end": "TODO"},
+    {"name": "Easter holiday", "start": "TODO", "end": "TODO"}
+  ],
+  "evaluation_weeks": [
+    {"name": "Sequence 1", "start": "TODO", "end": "TODO"},
+    {"name": "Sequence 2", "start": "TODO", "end": "TODO"},
+    {"name": "Sequence 3", "start": "TODO", "end": "TODO"},
+    {"name": "Sequence 4", "start": "TODO", "end": "TODO"},
+    {"name": "Sequence 5", "start": "TODO", "end": "TODO"},
+    {"name": "Sequence 6", "start": "TODO", "end": "TODO"}
+  ],
+  "public_holidays": []
+}

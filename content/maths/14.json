@@ -1,0 +1,384 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 14,
+  "language": "en",
+  "prerequisites": [
+    11,
+    13
+  ],
+  "note": {
+    "status": "draft",
+    "text": "A line segment [AB] is the part of a line between A and B. Its length is written AB, without brackets.\n\nThe midpoint M of [AB] is the point of [AB] that is at the same distance from A and from B.\n\nMidpoint property: if M is the midpoint of [AB], then M is on [AB] and AM = MB = AB ÷ 2. For example, if AB = 10 cm, then AM = MB = 5 cm.\n\nConverse: if M is on [AB] and AM = MB, then M is the midpoint of [AB].\n\nBe careful: both conditions are needed. A point can be at the same distance from A and from B without being on [AB]. Then it is not the midpoint.\n\nTo find the midpoint with a ruler: measure AB, divide by 2, and mark that length from A.",
+    "checks": [
+      "10 / 2 == 5"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "a": 3,
+      "b": 11,
+      "two": 2
+    },
+    "problem": "On a ruler, A is at the {a} cm mark and B is at the {b} cm mark. At which mark is the midpoint M of [AB], and what is AM?",
+    "steps": [
+      "AB = {b} − {a} = {b - a} cm.",
+      "AM = AB ÷ {two} = {b - a} ÷ {two} = {(b - a) / two} cm.",
+      "M is {(b - a) / two} cm after A: {a} + {(b - a) / two} = {a + (b - a) / two}, so M is at the {a + (b - a) / two} cm mark.",
+      "Check: MB = {b} − {a + (b - a) / two} = {b - (a + (b - a) / two)} cm, which equals AM."
+    ],
+    "answer": "M is at the {a + (b - a) / two} cm mark, and AM = {(b - a) / two} cm.",
+    "checks": [
+      "a + (b - a) / two == (a + b) / two",
+      "b - (a + (b - a) / two) == (b - a) / two"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c14-1",
+        "status": "draft",
+        "idea": "On a ruler, the length of a segment is the difference between its two marks.",
+        "vars": {
+          "a": 3,
+          "b": 11
+        },
+        "example": [
+          "A is at {a} cm and B is at {b} cm.",
+          "AB = {b} − {a} = {b - a} cm."
+        ],
+        "checks": [
+          "b - a == 8"
+        ],
+        "check": {
+          "id": "c14-1-check",
+          "type": "numeric",
+          "level": 1,
+          "unit": "cm",
+          "vars": {
+            "a": {
+              "int": [
+                1,
+                15
+              ]
+            },
+            "d": {
+              "int": [
+                2,
+                20
+              ]
+            },
+            "b": {
+              "expr": "a + d"
+            }
+          },
+          "prompt": "On a ruler, A is at the {a} cm mark and B is at the {b} cm mark. Find AB.",
+          "answer": "b - a",
+          "verify": "answer + a == b",
+          "misconceptions": [
+            {
+              "id": "added",
+              "wrong": "a + b",
+              "explain": "The length is the difference between the marks: {b} − {a}."
+            }
+          ],
+          "solution": [
+            "AB = {b} − {a} = {b - a} cm."
+          ]
+        }
+      },
+      {
+        "id": "c14-2",
+        "status": "draft",
+        "idea": "The midpoint M of [AB] is the point of [AB] exactly in the middle: AM = MB = AB ÷ {2}.",
+        "vars": {
+          "d": 10,
+          "two": 2
+        },
+        "example": [
+          "AB = {d} cm, so AM = MB = {d} ÷ {two} = {d / two} cm."
+        ],
+        "checks": [
+          "d / two + d / two == d"
+        ],
+        "check": {
+          "ref": "m14-half"
+        }
+      },
+      {
+        "id": "c14-3",
+        "status": "draft",
+        "idea": "Converse: if M is on [AB] and AM = MB, then M is the midpoint. Both conditions are needed: a point away from [AB] can also have MA = MB.",
+        "vars": {},
+        "example": [
+          "M on [AB] and AM = MB → M is the midpoint.",
+          "MA = MB but M not on [AB] → M is not the midpoint."
+        ],
+        "checks": [],
+        "check": {
+          "id": "c14-3-check",
+          "type": "mcq",
+          "level": 1,
+          "show": 2,
+          "review": "authored",
+          "sources": [
+            "midpoint"
+          ],
+          "vars": {
+            "f": {
+              "pick": [
+                {
+                  "text": "M is on [AB] and AM = MB.",
+                  "ans": "Yes"
+                },
+                {
+                  "text": "MA = MB, but M is not on [AB].",
+                  "ans": "No"
+                }
+              ]
+            }
+          },
+          "prompt": "{f.text} Is M the midpoint of [AB]?",
+          "correct": "{f.ans}",
+          "distractors": [
+            {
+              "text": "Yes",
+              "misconception": "both"
+            },
+            {
+              "text": "No",
+              "misconception": "both"
+            }
+          ],
+          "misconceptions": [
+            {
+              "id": "both",
+              "explain": "M is the midpoint only when it is on [AB] AND AM = MB."
+            }
+          ],
+          "solution": [
+            "The midpoint needs both: M on [AB] AND AM = MB.",
+            "Answer: {answer}"
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m14-half",
+      "type": "numeric",
+      "level": 1,
+      "vars": {
+        "d": {
+          "int": [
+            2,
+            40
+          ]
+        }
+      },
+      "prompt": "M is the midpoint of [AB] and AB = {d} cm. Find AM.",
+      "answer": "d / 2",
+      "unit": "cm",
+      "verify": "answer * 2 == d",
+      "misconceptions": [
+        {
+          "id": "whole-length",
+          "wrong": "d",
+          "explain": "M is in the middle, so AM is half of AB: {d} ÷ 2."
+        },
+        {
+          "id": "doubled",
+          "wrong": "2 * d",
+          "explain": "AM is part of AB, so it is shorter than AB: {d} ÷ 2."
+        }
+      ],
+      "solution": [
+        "M is the midpoint, so AM = AB ÷ {2}.",
+        "{d} ÷ {2} = {d / 2} cm."
+      ]
+    },
+    {
+      "id": "m14-double",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "x": {
+          "int": [
+            2,
+            30
+          ]
+        }
+      },
+      "prompt": "M is the midpoint of [AB] and MB = {x} cm. Find AB.",
+      "answer": "2 * x",
+      "unit": "cm",
+      "verify": "answer / 2 == x",
+      "misconceptions": [
+        {
+          "id": "same-length",
+          "wrong": "x",
+          "explain": "MB is only half of AB. AB = AM + MB = {x} + {x}."
+        },
+        {
+          "id": "halved",
+          "wrong": "x / 2",
+          "explain": "AB is the whole segment, so it is longer than MB: AB = 2 × {x}."
+        }
+      ],
+      "solution": [
+        "MB is half of AB, so AB = {2} × MB.",
+        "{2} × {x} = {2 * x} cm."
+      ]
+    },
+    {
+      "id": "m14-ruler",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "a": {
+          "int": [
+            1,
+            20
+          ]
+        },
+        "h": {
+          "int": [
+            1,
+            10
+          ]
+        },
+        "b": {
+          "expr": "a + 2 * h"
+        }
+      },
+      "where": "a != h",
+      "prompt": "On a ruler, A is at the {a} cm mark and B is at the {b} cm mark. At which mark is the midpoint of [AB]?",
+      "answer": "(a + b) / 2",
+      "verify": "answer - a == b - answer",
+      "misconceptions": [
+        {
+          "id": "half-length",
+          "wrong": "(b - a) / 2",
+          "explain": "{(b - a) / 2} cm is the length AM. The midpoint is {(b - a) / 2} cm after A: {a} + {(b - a) / 2}."
+        },
+        {
+          "id": "half-of-end",
+          "wrong": "b / 2",
+          "when": "b % 2 == 0",
+          "explain": "Start from A's mark, not from 0: {a} + {(b - a) / 2}."
+        }
+      ],
+      "solution": [
+        "AB = {b} − {a} = {b - a} cm, and half of it is {(b - a) / 2} cm.",
+        "The midpoint is {(b - a) / 2} cm after A: {a} + {(b - a) / 2} = {(a + b) / 2}."
+      ]
+    },
+    {
+      "id": "m14-converse",
+      "sources": [
+        "midpoint"
+      ],
+      "type": "mcq",
+      "level": 3,
+      "review": "authored",
+      "vars": {
+        "x": {
+          "int": [
+            2,
+            15
+          ]
+        }
+      },
+      "prompt": "MA = MB = {x} cm. Can you be sure that M is the midpoint of [AB]?",
+      "correct": "No: M must also be on [AB].",
+      "distractors": [
+        {
+          "text": "Yes, because MA = MB.",
+          "misconception": "one-condition"
+        },
+        {
+          "text": "Yes, because {x} is a whole number.",
+          "misconception": "irrelevant"
+        },
+        {
+          "text": "No: the midpoint is never at the same distance from A and B.",
+          "misconception": "property"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "one-condition",
+          "explain": "Many points are at the same distance from A and B (all the points of the perpendicular bisector). Only the one on [AB] is the midpoint."
+        },
+        {
+          "id": "irrelevant",
+          "explain": "The size of the number does not matter. Check whether M is on [AB]."
+        },
+        {
+          "id": "property",
+          "explain": "The midpoint is always at the same distance from A and B. But being at the same distance is not enough on its own."
+        }
+      ],
+      "solution": [
+        "Every point of the perpendicular bisector of [AB] has MA = MB, but only one of them is on [AB].",
+        "Answer: {answer}"
+      ]
+    },
+    {
+      "id": "m14-spot",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "h": {
+          "int": [
+            2,
+            20
+          ]
+        },
+        "d": {
+          "expr": "2 * h"
+        }
+      },
+      "prompt": "M is the midpoint of [AB] and AB = {d} cm. One statement is false. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "AM = {d / 2} cm",
+            "truth": "d / 2 * 2 == d"
+          },
+          {
+            "text": "MB = {d / 2} cm",
+            "truth": "d - d / 2 == d / 2"
+          },
+          {
+            "text": "AM + MB = {d} cm",
+            "truth": "d / 2 + d / 2 == d"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "AM = {d} cm",
+            "truth": "d == d / 2",
+            "explain": "AM is half of AB: {d / 2} cm."
+          },
+          {
+            "text": "AM = {d * 2} cm",
+            "truth": "d * 2 == d / 2",
+            "explain": "AM is half of AB, not double: {d / 2} cm."
+          },
+          {
+            "text": "AM + MB = {d / 2} cm",
+            "truth": "d / 2 + d / 2 == d / 2",
+            "explain": "AM + MB is the whole segment: {d} cm."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      }
+    }
+  ]
+}

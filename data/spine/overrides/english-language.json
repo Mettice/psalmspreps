@@ -1,0 +1,104 @@
+{
+  "subject": "english language",
+  "overrides": [
+    {
+      "id": "english-language-ligatures",
+      "op": "replace_words",
+      "words": {
+        "abbreviatons": "abbreviations",
+        "activies": "activities",
+        "adjectves": "adjectives",
+        "artcle": "article",
+        "artcles": "articles",
+        "celebratng": "celebrating",
+        "celebraton": "celebration",
+        "comparatve": "comparative",
+        "conjuncton": "conjunction",
+        "connectves": "connectives",
+        "conventons": "conventions",
+        "defne": "define",
+        "defnite": "definite",
+        "fnancial": "financial",
+        "idiomatc": "idiomatic",
+        "imperatves": "imperatives",
+        "indefnite": "indefinite",
+        "informaton": "information",
+        "leter": "letter",
+        "modifers": "modifiers",
+        "occupaton": "occupation",
+        "partcular": "particular",
+        "positon": "position",
+        "prepositons": "prepositions",
+        "preventon": "prevention",
+        "priorites": "priorities",
+        "punctuaton": "punctuation",
+        "queston": "question",
+        "questons": "questions",
+        "relatons": "relations",
+        "relatonship": "relationship",
+        "relatve": "relative",
+        "requestng": "requesting",
+        "tme": "time",
+        "tps": "tips",
+        "transportaton": "transportation",
+        "writng": "writing"
+      },
+      "ambiguous": {},
+      "reason": "The source PDF lost 'ti'/'fi'/'tt' pairs. Each word here has exactly one dictionary repair; ambiguous ones are listed, not applied.",
+      "generated_by": "tools/spine/ligatures.py (pyspellchecker, en)",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "eng-001",
+      "op": "split_term",
+      "seq": 77,
+      "term": 3,
+      "expect": {
+        "lesson_no": 77,
+        "title": "Reading- read texts about visiting the library"
+      },
+      "reason": "The sheet has no THIRD TERM header. Term 3 starts at row 77 (08/03/2027), matching most other sheets.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "english-language-typos",
+      "op": "replace_words",
+      "words": {
+        "Aquaintainces": "Acquaintances",
+        "Commnicating": "Communicating",
+        "Gramar": "Grammar",
+        "Remidiation": "Remediation",
+        "atouristic": "a touristic",
+        "enviromental": "environmental",
+        "etiquetes": "etiquettes",
+        "gklobal": "global",
+        "liesure": "leisure",
+        "questioon": "question",
+        "waarming": "warming",
+        "warmig": "warming",
+        "aninvitaton": "an invitation"
+      },
+      "reason": "Spelling errors in the sheet; display text only, raw stays untouched.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "eng-002",
+      "op": "resolve",
+      "seqs": [
+        50
+      ],
+      "check": "chapter-wrap-merged",
+      "expect": {
+        "50": {
+          "chapter": "Doing Sports to Maintain good Health"
+        }
+      },
+      "reason": "Confirmed: the wrapped fragment 'Health' completes 'Doing Sports to Maintain good Health'.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    }
+  ]
+}

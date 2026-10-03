@@ -1,0 +1,371 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 11,
+  "language": "en",
+  "prerequisites": [],
+  "note": {
+    "status": "draft",
+    "text": "A point marks an exact place. We name it with a capital letter: A, B, M.\n\nThrough two points A and B we can draw exactly one straight line.\n• The line (AB) has no end: it goes on forever in both directions.\n• The half line [AB) starts at A, passes through B and goes on forever. A is its end point. [AB) and [BA) are different half lines.\n• The line segment [AB] is the part of the line between A and B. It has two end points, A and B, and we can measure its length, written AB.\n\nThe brackets tell you the figure:\n( ) no end point: a line\n[ ) one end point: a half line\n[ ] two end points: a segment\n\nA straight road between two villages is like a segment. The beam of light from a torch is like a half line.",
+    "checks": []
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "P": "K",
+      "Q": "L",
+      "R": "M"
+    },
+    "problem": "Points {P}, {Q} and {R} are on one straight line, in that order. Name the line, a segment and two half lines.",
+    "steps": [
+      "The line through the three points can be called ({P}{Q}), ({P}{R}) or ({Q}{R}). They are all the same line.",
+      "[{P}{R}] is the segment with end points {P} and {R}. The point {Q} is on it.",
+      "[{Q}{R}) starts at {Q} and goes through {R}, on forever.",
+      "[{Q}{P}) also starts at {Q}, but goes the other way, through {P}. It is a different half line."
+    ],
+    "answer": "Line ({P}{R}); segment [{P}{R}]; half lines [{Q}{R}) and [{Q}{P}).",
+    "checks": []
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c11-1",
+        "status": "draft",
+        "idea": "A point marks an exact place and is named with a capital letter. Through two points there is exactly one straight line. The line through A and B is written (AB): it has no end.",
+        "vars": {
+          "P": "A",
+          "Q": "B"
+        },
+        "example": [
+          "({P}{Q}) and ({Q}{P}) name the same line.",
+          "It goes on forever both ways, so it has no end point."
+        ],
+        "checks": [],
+        "check": {
+          "ref": "m11-notation"
+        }
+      },
+      {
+        "id": "c11-2",
+        "status": "draft",
+        "idea": "A half line starts at a point and goes on forever in one direction. [AB) starts at A and passes through B.",
+        "vars": {
+          "P": "A",
+          "Q": "B"
+        },
+        "example": [
+          "[{P}{Q}) has one end point: {P}.",
+          "[{Q}{P}) starts at {Q}: it is a different half line."
+        ],
+        "checks": [],
+        "check": {
+          "ref": "m11-end-points"
+        }
+      },
+      {
+        "id": "c11-3",
+        "status": "draft",
+        "idea": "A segment is the part of a line between two points. [AB] has two end points, and its length is written AB.",
+        "vars": {
+          "P": "A",
+          "Q": "B"
+        },
+        "example": [
+          "[{P}{Q}] and [{Q}{P}] are the same segment.",
+          "You can measure its length, {P}{Q}, with a ruler. A line or a half line has no length."
+        ],
+        "checks": [],
+        "check": {
+          "id": "c11-3-check",
+          "type": "mcq",
+          "level": 1,
+          "show": 3,
+          "review": "authored",
+          "sources": [
+            "line-notation"
+          ],
+          "vars": {
+            "L": {
+              "letters": 2
+            },
+            "P": {
+              "expr": "L[0]"
+            },
+            "Q": {
+              "expr": "L[1]"
+            }
+          },
+          "prompt": "Which of these has a length you can measure?",
+          "correct": "[{P}{Q}]",
+          "distractors": [
+            {
+              "text": "({P}{Q})",
+              "misconception": "no-length"
+            },
+            {
+              "text": "[{P}{Q})",
+              "misconception": "no-length"
+            }
+          ],
+          "misconceptions": [
+            {
+              "id": "no-length",
+              "explain": "Lines and half lines go on forever, so they have no length. Only a segment has one."
+            }
+          ],
+          "solution": [
+            "Lines and half lines go on forever, so they have no length.",
+            "Only the segment {answer} has a length you can measure."
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m11-notation",
+      "sources": [
+        "line-notation"
+      ],
+      "type": "mcq",
+      "level": 1,
+      "review": "authored",
+      "vars": {
+        "L": {
+          "letters": 2
+        },
+        "P": {
+          "expr": "L[0]"
+        },
+        "Q": {
+          "expr": "L[1]"
+        },
+        "f": {
+          "pick": [
+            {
+              "name": "the half line that starts at {P} and passes through {Q}",
+              "answer": "[{P}{Q})"
+            },
+            {
+              "name": "the line through {P} and {Q}",
+              "answer": "({P}{Q})"
+            },
+            {
+              "name": "the segment with end points {P} and {Q}",
+              "answer": "[{P}{Q}]"
+            }
+          ]
+        }
+      },
+      "prompt": "Which notation names {f.name}?",
+      "correct": "{f.answer}",
+      "distractors": [
+        {
+          "text": "[{P}{Q})",
+          "misconception": "brackets"
+        },
+        {
+          "text": "({P}{Q})",
+          "misconception": "brackets"
+        },
+        {
+          "text": "[{P}{Q}]",
+          "misconception": "brackets"
+        },
+        {
+          "text": "[{Q}{P})",
+          "misconception": "start"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "brackets",
+          "explain": "Look at the brackets: ( ) means no end point, [ ) one end point, [ ] two end points."
+        },
+        {
+          "id": "start",
+          "explain": "A half line is named starting with its end point. [{Q}{P}) starts at {Q}, not at {P}."
+        }
+      ],
+      "solution": [
+        "( ) means no end point: a line. [ ) means one end point: a half line, named from its end point. [ ] means two end points: a segment.",
+        "So {f.name} is written {answer}."
+      ]
+    },
+    {
+      "id": "m11-end-points",
+      "sources": [
+        "line-notation"
+      ],
+      "type": "numeric",
+      "level": 1,
+      "review": "authored",
+      "vars": {
+        "L": {
+          "letters": 2
+        },
+        "P": {
+          "expr": "L[0]"
+        },
+        "Q": {
+          "expr": "L[1]"
+        },
+        "f": {
+          "pick": [
+            {
+              "text": "({P}{Q})",
+              "ends": 0
+            },
+            {
+              "text": "[{P}{Q})",
+              "ends": 1
+            },
+            {
+              "text": "[{P}{Q}]",
+              "ends": 2
+            }
+          ]
+        }
+      },
+      "prompt": "How many end points does {f.text} have?",
+      "answer": "f.ends",
+      "verify": "answer == (f.text[0] == '[' ? 1 : 0) + (f.text[3] == ']' ? 1 : 0)",
+      "misconceptions": [
+        {
+          "id": "named-points",
+          "wrong": "2",
+          "explain": "{P} and {Q} only give the figure its name. Count the square brackets: each [ or ] marks an end point."
+        }
+      ],
+      "solution": [
+        "Each square bracket [ or ] marks an end point; a round bracket means the figure goes on forever.",
+        "{f.text} has {f.ends} end {f.ends == 1 ? 'point' : 'points'}."
+      ]
+    },
+    {
+      "id": "m11-true",
+      "sources": [
+        "line-notation",
+        "one-line-two-points"
+      ],
+      "type": "mcq",
+      "level": 2,
+      "review": "authored",
+      "vars": {
+        "L": {
+          "letters": 2
+        },
+        "P": {
+          "expr": "L[0]"
+        },
+        "Q": {
+          "expr": "L[1]"
+        }
+      },
+      "prompt": "Which statement is true?",
+      "pool": {
+        "right": [
+          {
+            "text": "({P}{Q}) and ({Q}{P}) are the same line.",
+            "truth": "true"
+          },
+          {
+            "text": "[{P}{Q}] and [{Q}{P}] are the same segment.",
+            "truth": "true"
+          },
+          {
+            "text": "[{P}{Q}) has one end point: {P}.",
+            "truth": "true"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "[{P}{Q}) and [{Q}{P}) are the same half line.",
+            "truth": "false",
+            "misconception": "half-line-direction",
+            "explain": "[{P}{Q}) starts at {P}; [{Q}{P}) starts at {Q} and goes the other way."
+          },
+          {
+            "text": "The line ({P}{Q}) has two end points.",
+            "truth": "false",
+            "misconception": "line-ends",
+            "explain": "A line goes on forever in both directions: it has no end point."
+          },
+          {
+            "text": "The segment [{P}{Q}] goes on forever.",
+            "truth": "false",
+            "misconception": "segment-ends",
+            "explain": "A segment stops at its two end points, {P} and {Q}."
+          },
+          {
+            "text": "Through {P} and {Q} we can draw two different straight lines.",
+            "truth": "false",
+            "misconception": "one-line",
+            "explain": "Through two points there is exactly one straight line."
+          }
+        ]
+      },
+      "pick": {
+        "right": 1,
+        "wrong": 3
+      }
+    },
+    {
+      "id": "m11-spot",
+      "sources": [
+        "line-notation"
+      ],
+      "type": "spot_error",
+      "level": 3,
+      "review": "authored",
+      "vars": {
+        "L": {
+          "letters": 2
+        },
+        "P": {
+          "expr": "L[0]"
+        },
+        "Q": {
+          "expr": "L[1]"
+        }
+      },
+      "prompt": "One of these statements is false. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "({P}{Q}) and ({Q}{P}) are the same line.",
+            "truth": "true"
+          },
+          {
+            "text": "[{P}{Q}] and [{Q}{P}] are the same segment.",
+            "truth": "true"
+          },
+          {
+            "text": "[{P}{Q}) has one end point: {P}.",
+            "truth": "true"
+          },
+          {
+            "text": "We can measure the length {P}{Q} of the segment [{P}{Q}].",
+            "truth": "true"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "[{P}{Q}) and [{Q}{P}) are the same half line.",
+            "truth": "false",
+            "explain": "[{P}{Q}) starts at {P}; [{Q}{P}) starts at {Q} and goes the other way."
+          },
+          {
+            "text": "We can measure the length of the line ({P}{Q}).",
+            "truth": "false",
+            "explain": "A line goes on forever, so it has no length. Only a segment has a length."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      }
+    }
+  ]
+}

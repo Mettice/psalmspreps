@@ -1,0 +1,13 @@
+# Official MINESEC progression sheets stay local (decision 2026-10-03); see data/sheets/README.md
+data/sheets/*.pdf
+
+# Built output (GitHub Actions rebuilds it on every push)
+site/
+
+# Tooling and caches
+node_modules/
+__pycache__/
+*.pyc
+.claude/
+.DS_Store
+Thumbs.db

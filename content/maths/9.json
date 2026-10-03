@@ -1,0 +1,444 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 9,
+  "language": "en",
+  "prerequisites": [
+    8
+  ],
+  "note": {
+    "status": "draft",
+    "text": "Adding in base b works like adding in base ten, but you carry when a column reaches b, not ten.\n\nExample in base 5: 34₅ + 23₅\n• Units: 4 + 3 = 7. Seven is one five and 2 more: write 2, carry 1.\n• Fives: 3 + 2 + 1 = 6, which is one five and 1 more: write 1, carry 1.\n• Write the last carry, 1.\nSo 34₅ + 23₅ = 112₅.\n\nSubtracting: when the top digit is too small, borrow 1 from the next column. In base b, the 1 you borrow is worth b, not ten.\nExample in base 5: 42₅ − 13₅. Units: 2 − 3 is not possible, so borrow: 2 + 5 = 7 and 7 − 3 = 4. Fives: 3 − 1 = 2. Answer: 24₅.\n\nCheck in base ten: 34₅ = 19, 23₅ = 13, and 19 + 13 = 32 = 112₅.",
+    "checks": [
+      "4 + 3 == 7",
+      "7 == 1 * 5 + 2",
+      "3 + 2 + 1 == 6",
+      "6 == 1 * 5 + 1",
+      "toBase(fromBase('34', 5) + fromBase('23', 5), 5) == '112'",
+      "2 + 5 - 3 == 4",
+      "4 - 1 - 1 == 2",
+      "toBase(fromBase('42', 5) - fromBase('13', 5), 5) == '24'",
+      "fromBase('34', 5) == 19",
+      "fromBase('23', 5) == 13",
+      "19 + 13 == 32",
+      "toBase(32, 5) == '112'"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "b": 6,
+      "x": "245",
+      "y": "153",
+      "c0": {
+        "expr": "dig(x, 0) + dig(y, 0)"
+      },
+      "k0": {
+        "expr": "idiv(c0, b)"
+      },
+      "c1": {
+        "expr": "dig(x, 1) + dig(y, 1) + k0"
+      },
+      "k1": {
+        "expr": "idiv(c1, b)"
+      },
+      "c2": {
+        "expr": "dig(x, 2) + dig(y, 2) + k1"
+      },
+      "k2": {
+        "expr": "idiv(c2, b)"
+      },
+      "total": {
+        "expr": "fromBase(x, b) + fromBase(y, b)"
+      }
+    },
+    "problem": "In base {b}, calculate {x}{sub(b)} + {y}{sub(b)}.",
+    "steps": [
+      "Units: {dig(x, 0)} + {dig(y, 0)} = {c0}. That is {k0} group of {b} and {c0 % b} more: write {c0 % b}, carry {k0}.",
+      "{b}s column: {dig(x, 1)} + {dig(y, 1)} + {k0} = {c1}. That is {k1} group of {b} and {c1 % b} more: write {c1 % b}, carry {k1}.",
+      "{b ^ 2}s column: {dig(x, 2)} + {dig(y, 2)} + {k1} = {c2}. This is less than {b}: write {c2}.",
+      "Check in base ten: {x}{sub(b)} = {fromBase(x, b)} and {y}{sub(b)} = {fromBase(y, b)}. {fromBase(x, b)} + {fromBase(y, b)} = {total}, and {total} in base {b} is {toBase(total, b)}{sub(b)}."
+    ],
+    "answer": "{x}{sub(b)} + {y}{sub(b)} = {toBase(total, b)}{sub(b)}",
+    "checks": [
+      "isValidInBase(x, b) && isValidInBase(y, b)",
+      "k0 == 1 && k1 == 1 && k2 == 0",
+      "str(c2) + str(c1 % b) + str(c0 % b) == toBase(total, b)"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c9-1",
+        "status": "draft",
+        "idea": "In base b there is no digit b. One group of b is written {10}: one b and no units.",
+        "vars": {
+          "b": 6
+        },
+        "example": [
+          "In base {b}: {b - 1} + {1} = {toBase(b, b)}{sub(b)}",
+          "and {b - 1} + {2} = {toBase(b + 1, b)}{sub(b)}."
+        ],
+        "checks": [
+          "toBase(b, b) == '10'"
+        ],
+        "check": {
+          "ref": "m9-carry"
+        }
+      },
+      {
+        "id": "c9-2",
+        "status": "draft",
+        "idea": "Add column by column from the right. When a column reaches b, write what is left over after taking b away, and carry {1}.",
+        "vars": {
+          "b": 5,
+          "x": "34",
+          "y": "23"
+        },
+        "example": [
+          "Units: {dig(x, 0)} + {dig(y, 0)} = {dig(x, 0) + dig(y, 0)} = {b} + {dig(x, 0) + dig(y, 0) - b}: write {dig(x, 0) + dig(y, 0) - b}, carry {1}.",
+          "{b}s: {dig(x, 1)} + {dig(y, 1)} + {1} = {dig(x, 1) + dig(y, 1) + 1} = {b} + {dig(x, 1) + dig(y, 1) + 1 - b}: write {dig(x, 1) + dig(y, 1) + 1 - b}, carry {1}.",
+          "Answer: {toBase(fromBase(x, b) + fromBase(y, b), b)}{sub(b)}"
+        ],
+        "checks": [
+          "dig(x, 0) + dig(y, 0) >= b && dig(x, 0) + dig(y, 0) < 2 * b",
+          "dig(x, 1) + dig(y, 1) + 1 >= b && dig(x, 1) + dig(y, 1) + 1 < 2 * b",
+          "'1' + str(dig(x, 1) + dig(y, 1) + 1 - b) + str(dig(x, 0) + dig(y, 0) - b) == toBase(fromBase(x, b) + fromBase(y, b), b)"
+        ],
+        "check": {
+          "id": "c9-2-check",
+          "type": "numeric",
+          "level": 1,
+          "answer_kind": "base",
+          "vars": {
+            "b": {
+              "int": [
+                3,
+                9
+              ]
+            },
+            "d": {
+              "int": [
+                1,
+                "b - 1"
+              ]
+            },
+            "e": {
+              "int": [
+                1,
+                "b - 1"
+              ]
+            }
+          },
+          "where": "d + e >= b",
+          "prompt": "In base {b}, calculate {d} + {e}.",
+          "answer": "toBase(d + e, b)",
+          "verify": "fromBase(answer, b) == d + e",
+          "misconceptions": [
+            {
+              "id": "base-ten",
+              "wrong": "str(d + e)",
+              "explain": "{d} + {e} = {d + e} in base ten. That is one group of {b} and {d + e - b} more: {toBase(d + e, b)}{sub(b)}."
+            }
+          ],
+          "solution": [
+            "{d} + {e} = {d + e} = {b} + {d + e - b}: one group of {b} and {d + e - b} more.",
+            "In base {b}: {toBase(d + e, b)}{sub(b)}"
+          ]
+        }
+      },
+      {
+        "id": "c9-3",
+        "status": "draft",
+        "idea": "To subtract, start from the right. If the top digit is too small, borrow {1} from the next column: in base b it is worth b.",
+        "vars": {
+          "b": 5,
+          "x": "42",
+          "y": "13"
+        },
+        "example": [
+          "Units: {dig(x, 0)} − {dig(y, 0)} is not possible. Borrow: {dig(x, 0)} + {b} = {dig(x, 0) + b}, and {dig(x, 0) + b} − {dig(y, 0)} = {dig(x, 0) + b - dig(y, 0)}.",
+          "{b}s: {dig(x, 1)} − {1} − {dig(y, 1)} = {dig(x, 1) - 1 - dig(y, 1)}.",
+          "Answer: {toBase(fromBase(x, b) - fromBase(y, b), b)}{sub(b)}"
+        ],
+        "checks": [
+          "dig(x, 0) < dig(y, 0)",
+          "str(dig(x, 1) - 1 - dig(y, 1)) + str(dig(x, 0) + b - dig(y, 0)) == toBase(fromBase(x, b) - fromBase(y, b), b)"
+        ],
+        "check": {
+          "id": "c9-3-check",
+          "type": "numeric",
+          "level": 1,
+          "answer_kind": "base",
+          "vars": {
+            "b": {
+              "int": [
+                3,
+                9
+              ]
+            },
+            "p": {
+              "int": [
+                0,
+                "b - 2"
+              ]
+            },
+            "q": {
+              "int": [
+                "p + 1",
+                "b - 1"
+              ]
+            },
+            "x": {
+              "expr": "'1' + str(p)"
+            }
+          },
+          "prompt": "In base {b}, calculate {x}{sub(b)} − {q}.",
+          "answer": "toBase(b + p - q, b)",
+          "verify": "fromBase(answer, b) + q == fromBase(x, b)",
+          "misconceptions": [
+            {
+              "id": "borrowed-ten",
+              "wrong": "decSub(x, str(q))",
+              "explain": "The 1 you borrow is worth {b} in base {b}, not ten: {p} + {b} − {q} = {b + p - q}."
+            }
+          ],
+          "solution": [
+            "{columnSub(x, str(q), b)}"
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m9-carry",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            9
+          ]
+        }
+      },
+      "prompt": "In base {b}, what is {b - 1} + 1?",
+      "correct": "10",
+      "distractors": [
+        {
+          "text": "{b}",
+          "misconception": "digit-b"
+        },
+        {
+          "text": "11",
+          "misconception": "carry"
+        },
+        {
+          "text": "0",
+          "misconception": "carry"
+        }
+      ],
+      "verify": "fromBase(answer, b) == b",
+      "misconceptions": [
+        {
+          "id": "digit-b",
+          "explain": "There is no digit {b} in base {b}. One group of {b} is written 10: one {b} and no units."
+        },
+        {
+          "id": "carry",
+          "explain": "{b - 1} + 1 makes one full group of {b}: write 0 in the units and carry 1. That is 10."
+        }
+      ],
+      "solution": [
+        "{b - 1} + {1} = {b}: one full group of {b} and nothing left over.",
+        "In base {b} that is written {toBase(b, b)}: one {b} and {0} units."
+      ]
+    },
+    {
+      "id": "m9-add",
+      "type": "numeric",
+      "level": 2,
+      "answer_kind": "base",
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            9
+          ]
+        },
+        "n1": {
+          "int": [
+            "b",
+            "b ^ 3 - 1"
+          ]
+        },
+        "n2": {
+          "int": [
+            "b",
+            "b ^ 3 - 1"
+          ]
+        },
+        "x": {
+          "expr": "toBase(n1, b)"
+        },
+        "y": {
+          "expr": "toBase(n2, b)"
+        }
+      },
+      "where": "decAdd(x, y) != toBase(n1 + n2, b)",
+      "prompt": "In base {b}, calculate {x}{sub(b)} + {y}{sub(b)}. Give your answer in base {b}.",
+      "answer": "toBase(n1 + n2, b)",
+      "verify": "fromBase(answer, b) == fromBase(x, b) + fromBase(y, b)",
+      "misconceptions": [
+        {
+          "id": "carried-ten",
+          "wrong": "decAdd(x, y)",
+          "explain": "In base {b} you carry when a column reaches {b}, not ten."
+        }
+      ],
+      "solution": [
+        "{columnAdd(x, y, b)}",
+        "Check in base ten: {fromBase(x, b)} + {fromBase(y, b)} = {fromBase(x, b) + fromBase(y, b)}."
+      ]
+    },
+    {
+      "id": "m9-subtract",
+      "type": "numeric",
+      "level": 2,
+      "answer_kind": "base",
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            9
+          ]
+        },
+        "n1": {
+          "int": [
+            "b ^ 2",
+            "b ^ 3 - 1"
+          ]
+        },
+        "n2": {
+          "int": [
+            "b",
+            "n1 - 1"
+          ]
+        },
+        "x": {
+          "expr": "toBase(n1, b)"
+        },
+        "y": {
+          "expr": "toBase(n2, b)"
+        }
+      },
+      "where": "decSub(x, y) != toBase(n1 - n2, b)",
+      "prompt": "In base {b}, calculate {x}{sub(b)} − {y}{sub(b)}. Give your answer in base {b}.",
+      "answer": "toBase(n1 - n2, b)",
+      "verify": "fromBase(answer, b) + fromBase(y, b) == fromBase(x, b)",
+      "misconceptions": [
+        {
+          "id": "borrowed-ten",
+          "wrong": "decSub(x, y)",
+          "explain": "When you borrow in base {b}, the 1 you borrow is worth {b}, not ten."
+        }
+      ],
+      "solution": [
+        "{columnSub(x, y, b)}",
+        "Check in base ten: {fromBase(x, b)} − {fromBase(y, b)} = {fromBase(x, b) - fromBase(y, b)}."
+      ]
+    },
+    {
+      "id": "m9-spot",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "b": {
+          "int": [
+            3,
+            9
+          ]
+        },
+        "p1": {
+          "int": [
+            "b",
+            "b ^ 2 * 2"
+          ]
+        },
+        "q1": {
+          "int": [
+            "b",
+            "b ^ 2 * 2"
+          ]
+        },
+        "p2": {
+          "int": [
+            "b",
+            "b ^ 2 * 2"
+          ]
+        },
+        "q2": {
+          "int": [
+            "b",
+            "b ^ 2 * 2"
+          ]
+        },
+        "p3": {
+          "int": [
+            "b",
+            "b ^ 2 * 2"
+          ]
+        },
+        "q3": {
+          "int": [
+            "b",
+            "b ^ 2 * 2"
+          ]
+        },
+        "p4": {
+          "int": [
+            "b",
+            "b ^ 2 * 2"
+          ]
+        },
+        "q4": {
+          "int": [
+            "b",
+            "b ^ 2 * 2"
+          ]
+        }
+      },
+      "where": "decAdd(toBase(p4, b), toBase(q4, b)) != toBase(p4 + q4, b)",
+      "prompt": "Mih did four additions in base {b}. One is wrong. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "{toBase(p1, b)}{sub(b)} + {toBase(q1, b)}{sub(b)} = {toBase(p1 + q1, b)}{sub(b)}",
+            "truth": "fromBase(toBase(p1 + q1, b), b) == fromBase(toBase(p1, b), b) + fromBase(toBase(q1, b), b)"
+          },
+          {
+            "text": "{toBase(p2, b)}{sub(b)} + {toBase(q2, b)}{sub(b)} = {toBase(p2 + q2, b)}{sub(b)}",
+            "truth": "fromBase(toBase(p2 + q2, b), b) == fromBase(toBase(p2, b), b) + fromBase(toBase(q2, b), b)"
+          },
+          {
+            "text": "{toBase(p3, b)}{sub(b)} + {toBase(q3, b)}{sub(b)} = {toBase(p3 + q3, b)}{sub(b)}",
+            "truth": "fromBase(toBase(p3 + q3, b), b) == fromBase(toBase(p3, b), b) + fromBase(toBase(q3, b), b)"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "{toBase(p4, b)}{sub(b)} + {toBase(q4, b)}{sub(b)} = {decAdd(toBase(p4, b), toBase(q4, b))}{sub(b)}",
+            "truth": "fromBase(decAdd(toBase(p4, b), toBase(q4, b)), b) == fromBase(toBase(p4, b), b) + fromBase(toBase(q4, b), b)",
+            "misconception": "carried-ten",
+            "explain": "This sum was done with base-ten carrying. In base {b} the answer is {toBase(p4 + q4, b)}{sub(b)}."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      }
+    }
+  ]
+}

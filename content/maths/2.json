@@ -1,0 +1,477 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 2,
+  "language": "en",
+  "prerequisites": [
+    1
+  ],
+  "note": {
+    "status": "draft",
+    "text": "The Egyptians wrote numbers with pictures: a stroke for 1, a heel bone for 10, a coil of rope for 100 and a lotus flower for 1000. To read a number, add the values of all the pictures. So 3 lotus flowers and 2 heel bones make 3020. They had no place value, so they did not need a zero digit to hold empty places.\n\nThe Romans used seven letters: I = 1, V = 5, X = 10, L = 50, C = 100, D = 500 and M = 1000.\n• When a letter is followed by one of equal or smaller value, add: VI = 6, XX = 20.\n• When a smaller letter comes before a bigger one, subtract: IV = 4, IX = 9, XL = 40, XC = 90, CD = 400, CM = 900.\n• Never write the same letter more than three times in a row: write IV, not IIII.\n\nThis year, 2026, is MMXXVI.",
+    "checks": [
+      "3 * 1000 + 2 * 10 == 3020",
+      "fromRoman('VI') == 6",
+      "fromRoman('XX') == 20",
+      "fromRoman('IV') == 4",
+      "fromRoman('IX') == 9",
+      "fromRoman('XL') == 40",
+      "fromRoman('XC') == 90",
+      "fromRoman('CD') == 400",
+      "fromRoman('CM') == 900",
+      "roman(2026) == 'MMXXVI'"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "n": 1948,
+      "th": {
+        "expr": "idiv(n, 1000) * 1000"
+      },
+      "h": {
+        "expr": "idiv(n, 100) % 10 * 100"
+      },
+      "t": {
+        "expr": "idiv(n, 10) % 10 * 10"
+      },
+      "u": {
+        "expr": "n % 10"
+      }
+    },
+    "problem": "Ewane's grandmother was born in {str(n)}. Write the year {str(n)} in Roman numerals.",
+    "steps": [
+      "Split the number by place value: {str(n)} = {str(th)} + {h} + {t} + {u}.",
+      "{str(th)} = {roman(th)}.",
+      "{h} = {roman(h)}: C (one hundred) before M (one thousand) means one thousand minus one hundred.",
+      "{t} = {roman(t)}: X (ten) before L (fifty) means fifty minus ten.",
+      "{u} = {roman(u)}: V followed by three I's.",
+      "Join the parts in order: {roman(th)} + {roman(h)} + {roman(t)} + {roman(u)}."
+    ],
+    "answer": "{str(n)} = {roman(n)}",
+    "checks": [
+      "th + h + t + u == n",
+      "roman(th) + roman(h) + roman(t) + roman(u) == roman(n)",
+      "fromRoman(roman(n)) == n",
+      "roman(h) == 'CM' && roman(t) == 'XL'"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c2-1",
+        "status": "draft",
+        "idea": "Egyptian numbers are pictures: a stroke is {1}, a heel bone is {10}, a coil of rope is {100} and a lotus flower is {1000}. Add the values of all the pictures.",
+        "vars": {
+          "n": 1203
+        },
+        "example": [
+          "{egyptianList(n)}:",
+          "{idiv(n, 1000)} × {1000} + {idiv(n, 100) % 10} × {100} + {n % 10} × {1} = {n}."
+        ],
+        "checks": [
+          "idiv(n, 10) % 10 == 0",
+          "idiv(n, 1000) * 1000 + idiv(n, 100) % 10 * 100 + n % 10 == n"
+        ],
+        "check": {
+          "id": "c2-1-check",
+          "type": "numeric",
+          "level": 1,
+          "vars": {
+            "h": {
+              "int": [
+                1,
+                9
+              ]
+            },
+            "t": {
+              "int": [
+                0,
+                9
+              ]
+            },
+            "u": {
+              "int": [
+                1,
+                9
+              ]
+            },
+            "n": {
+              "expr": "100 * h + 10 * t + u"
+            }
+          },
+          "prompt": "What number is {egyptianList(n)}?",
+          "answer": "n",
+          "verify": "digitAt(answer, 2) == h && digitAt(answer, 1) == t && digitAt(answer, 0) == u",
+          "misconceptions": [
+            {
+              "id": "no-placeholder",
+              "wrong": "stripZeros(n)",
+              "explain": "When a picture is missing, write 0 in that place: the answer is {n}."
+            }
+          ],
+          "solution": [
+            "{h} × {100} = {h * 100}, {t} × {10} = {t * 10}, {u} × {1} = {u}.",
+            "{h * 100} + {t * 10} + {u} = {n}."
+          ]
+        }
+      },
+      {
+        "id": "c2-2",
+        "status": "draft",
+        "idea": "The Romans used seven letters: I = {1}, V = {5}, X = {10}, L = {50}, C = {100}, D = {500} and M = {1000}.",
+        "vars": {
+          "s": "MMXXVI"
+        },
+        "example": [
+          "{s} = {1000} + {1000} + {10} + {10} + {5} + {1} = {fromRoman(s)}."
+        ],
+        "checks": [
+          "fromRoman(s) == 1000 + 1000 + 10 + 10 + 5 + 1"
+        ],
+        "check": {
+          "id": "c2-2-check",
+          "type": "mcq",
+          "level": 1,
+          "vars": {
+            "s": {
+              "pick": [
+                {
+                  "l": "I",
+                  "v": 1
+                },
+                {
+                  "l": "V",
+                  "v": 5
+                },
+                {
+                  "l": "X",
+                  "v": 10
+                },
+                {
+                  "l": "L",
+                  "v": 50
+                },
+                {
+                  "l": "C",
+                  "v": 100
+                },
+                {
+                  "l": "D",
+                  "v": 500
+                },
+                {
+                  "l": "M",
+                  "v": 1000
+                }
+              ]
+            }
+          },
+          "prompt": "What is the value of the Roman letter {s.l}?",
+          "correct": "{s.v}",
+          "distractors": [
+            {
+              "text": "1",
+              "misconception": "letters"
+            },
+            {
+              "text": "5",
+              "misconception": "letters"
+            },
+            {
+              "text": "10",
+              "misconception": "letters"
+            },
+            {
+              "text": "50",
+              "misconception": "letters"
+            },
+            {
+              "text": "100",
+              "misconception": "letters"
+            },
+            {
+              "text": "500",
+              "misconception": "letters"
+            },
+            {
+              "text": "1000",
+              "misconception": "letters"
+            }
+          ],
+          "verify": "fromRoman(s.l) == s.v",
+          "misconceptions": [
+            {
+              "id": "letters",
+              "explain": "I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000. So {s.l} = {s.v}."
+            }
+          ],
+          "solution": [
+            "The seven Roman letters: I = {1}, V = {5}, X = {10}, L = {50}, C = {100}, D = {500}, M = {1000}.",
+            "So {s.l} = {s.v}."
+          ]
+        }
+      },
+      {
+        "id": "c2-3",
+        "status": "draft",
+        "idea": "When each letter is followed by letters of the same or smaller value, add them all.",
+        "vars": {
+          "s": "XXVII"
+        },
+        "example": [
+          "{s} = {10} + {10} + {5} + {1} + {1} = {fromRoman(s)}."
+        ],
+        "checks": [
+          "fromRoman(s) == 10 + 10 + 5 + 1 + 1"
+        ],
+        "check": {
+          "id": "c2-3-check",
+          "type": "numeric",
+          "level": 1,
+          "vars": {
+            "n": {
+              "int": [
+                1,
+                3999
+              ]
+            }
+          },
+          "where": "!hasSubtractive(n)",
+          "prompt": "What number is {roman(n)}?",
+          "answer": "n",
+          "verify": "fromRoman(roman(answer)) == n",
+          "misconceptions": [],
+          "solution": [
+            "Each letter is followed by letters of the same or smaller value, so add: {romanWorking(n)}."
+          ]
+        }
+      },
+      {
+        "id": "c2-4",
+        "status": "draft",
+        "idea": "When a smaller letter comes just before a bigger one, subtract it. Only six pairs do this: IV, IX, XL, XC, CD and CM.",
+        "vars": {
+          "s": "XIV"
+        },
+        "example": [
+          "IV = {5} − {1} = {fromRoman('IV')}, IX = {fromRoman('IX')}, XL = {fromRoman('XL')}, XC = {fromRoman('XC')}, CD = {fromRoman('CD')}, CM = {fromRoman('CM')}.",
+          "So {s} = {10} + {fromRoman('IV')} = {fromRoman(s)}."
+        ],
+        "checks": [
+          "fromRoman(s) == 10 + 4"
+        ],
+        "check": {
+          "ref": "m2-roman-read"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m2-roman-read",
+      "type": "numeric",
+      "level": 1,
+      "vars": {
+        "n": {
+          "int": [
+            4,
+            99
+          ]
+        }
+      },
+      "prompt": "What number is {roman(n)}?",
+      "answer": "n",
+      "verify": "roman(answer) == roman(n) && fromRoman(roman(n)) == answer",
+      "misconceptions": [
+        {
+          "id": "no-subtraction",
+          "wrong": "romanAddAll(roman(n))",
+          "explain": "When a smaller letter comes before a bigger one, subtract it: IV = 4, IX = 9, XL = 40, XC = 90."
+        }
+      ],
+      "solution": [
+        "Split by place value and add: {romanWorking(n)}."
+      ]
+    },
+    {
+      "id": "m2-roman-write",
+      "type": "mcq",
+      "level": 2,
+      "vars": {
+        "n": {
+          "int": [
+            40,
+            3900
+          ]
+        }
+      },
+      "where": "hasSubtractive(n)",
+      "prompt": "Which is {n} written in Roman numerals?",
+      "correct": "{roman(n)}",
+      "distractors": [
+        {
+          "text": "{romanAdditive(n)}",
+          "misconception": "no-subtraction"
+        },
+        {
+          "text": "{roman(n + 1)}",
+          "misconception": "off-by-one"
+        },
+        {
+          "text": "{roman(n - 1)}",
+          "misconception": "off-by-one"
+        },
+        {
+          "text": "{roman(n + 10)}",
+          "misconception": "off-by-ten"
+        }
+      ],
+      "verify": "fromRoman(answer) == n",
+      "misconceptions": [
+        {
+          "id": "no-subtraction",
+          "explain": "Never write the same letter four times. Use subtraction: 4 is IV, 9 is IX, 40 is XL, 90 is XC, 400 is CD, 900 is CM."
+        },
+        {
+          "id": "off-by-one",
+          "explain": "Split {n} into thousands, hundreds, tens and units, write each part in Roman numerals, then join them."
+        },
+        {
+          "id": "off-by-ten",
+          "explain": "Check the tens: {n} has {plural(idiv(n, 10) % 10, 'ten', 'tens')}."
+        }
+      ],
+      "solution": [
+        "Split {n} by place value and write each part in Roman numerals:",
+        "{romanWorking(n)}",
+        "Answer: {answer}"
+      ]
+    },
+    {
+      "id": "m2-egyptian",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "th": {
+          "int": [
+            1,
+            9
+          ]
+        },
+        "h": {
+          "int": [
+            0,
+            9
+          ]
+        },
+        "t": {
+          "int": [
+            0,
+            9
+          ]
+        },
+        "u": {
+          "int": [
+            0,
+            9
+          ]
+        },
+        "n": {
+          "expr": "1000 * th + 100 * h + 10 * t + u"
+        }
+      },
+      "where": "h == 0 || t == 0 || u == 0",
+      "prompt": "An Egyptian scribe drew {egyptianList(n)}. What number is this?",
+      "answer": "n",
+      "verify": "digitAt(answer, 3) == th && digitAt(answer, 2) == h && digitAt(answer, 1) == t && digitAt(answer, 0) == u",
+      "misconceptions": [
+        {
+          "id": "no-placeholder",
+          "wrong": "stripZeros(n)",
+          "explain": "Egyptian numerals had no place value, so they did not need a zero digit. Ours do: when a picture is missing, write 0 in that place. The answer is {n}."
+        }
+      ],
+      "solution": [
+        "Value of each kind of picture: {th} × {1000} = {th * 1000}, {h} × {100} = {h * 100}, {t} × {10} = {t * 10}, {u} × {1} = {u}.",
+        "Add them: {th * 1000} + {h * 100} + {t * 10} + {u} = {n}.",
+        "A missing picture means {0} in that place."
+      ]
+    },
+    {
+      "id": "m2-roman-spot",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "a": {
+          "int": [
+            1,
+            3999
+          ]
+        },
+        "b": {
+          "int": [
+            1,
+            3999
+          ]
+        },
+        "c": {
+          "int": [
+            1,
+            3999
+          ]
+        },
+        "d": {
+          "int": [
+            4,
+            999
+          ]
+        },
+        "e": {
+          "int": [
+            4,
+            999
+          ]
+        }
+      },
+      "where": [
+        "hasSubtractive(d)",
+        "hasSubtractive(e)",
+        "distinct([a, b, c, d, e])"
+      ],
+      "prompt": "Ayuk wrote these Roman numerals. One statement is wrong. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "{roman(a)} = {a}",
+            "truth": "fromRoman(roman(a)) == a"
+          },
+          {
+            "text": "{roman(b)} = {b}",
+            "truth": "fromRoman(roman(b)) == b"
+          },
+          {
+            "text": "{roman(c)} = {c}",
+            "truth": "fromRoman(roman(c)) == c"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "{roman(d)} = {romanAddAll(roman(d))}",
+            "truth": "romanAddAll(roman(d)) == d",
+            "explain": "{roman(d)} = {d}. A smaller letter before a bigger one is subtracted, not added."
+          },
+          {
+            "text": "{romanAdditive(e)} = {e}",
+            "truth": "fromRoman(romanAdditive(e)) == e",
+            "explain": "{e} is written {roman(e)}. The same letter is never written four times in a row."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      }
+    }
+  ]
+}

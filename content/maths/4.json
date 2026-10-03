@@ -1,0 +1,449 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 4,
+  "language": "en",
+  "prerequisites": [
+    3
+  ],
+  "lint_allow": [
+    "2405012"
+  ],
+  "note": {
+    "status": "draft",
+    "text": "To read a big number, split the digits into groups of three from the right: units, thousands, millions. So 2405012 is written 2 405 012.\n\nRead each group, then say its name:\n2 405 012 → two million four hundred and five thousand and twelve.\n\nWe say 'and' after hundred: 305 is three hundred and five. Numbers from 21 to 99 take a hyphen: forty-five.\n\nTo write words in figures, fill every place. If a place is empty, write 0:\n• three thousand and five → 3005\n• forty thousand three hundred and seven → 40 307\nA common mistake is to leave out the zeros and write 35 or 437.\n\nOn a receipt, an amount is often written in words and in figures, so that nobody can change it.",
+    "checks": [
+      "words(2405012) == 'two million four hundred and five thousand and twelve'",
+      "words(305) == 'three hundred and five'",
+      "words(45) == 'forty-five'",
+      "words(3005) == 'three thousand and five'",
+      "words(40307) == 'forty thousand three hundred and seven'",
+      "stripZeros(3005) == 35",
+      "stripZeros(40307) == 437"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "n": 6070040,
+      "m": {
+        "expr": "idiv(n, 1000000)"
+      },
+      "t": {
+        "expr": "idiv(n, 1000) % 1000"
+      },
+      "u": {
+        "expr": "n % 1000"
+      }
+    },
+    "problem": "Write in figures: {words(n)}.",
+    "steps": [
+      "Millions group: {words(m)} → {m}.",
+      "Thousands group: {words(t)} → {t}. Every group after the first needs three digits: {pad(t, 3)}.",
+      "Units group: {words(u)} → {u}, written with three digits: {pad(u, 3)}.",
+      "Put the groups together: {m} {pad(t, 3)} {pad(u, 3)}."
+    ],
+    "answer": "{words(n)} = {n}",
+    "checks": [
+      "m * 1000000 + t * 1000 + u == n",
+      "fromWords(words(n)) == n",
+      "str(m) + pad(t, 3) + pad(u, 3) == str(n)"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c4-1",
+        "status": "draft",
+        "idea": "To read a long number, split its digits into groups of three, starting from the right.",
+        "vars": {
+          "n": 2405012
+        },
+        "example": [
+          "{str(n)} → {groupDigits(n, 3)}",
+          "From the left, the groups are: millions, thousands, units."
+        ],
+        "checks": [
+          "groupDigits(n, 3) == fmt(n)"
+        ],
+        "check": {
+          "ref": "m4-groups"
+        }
+      },
+      {
+        "id": "c4-2",
+        "status": "draft",
+        "idea": "Read each group as a number up to nine hundred and ninety-nine, then say the group's name: million or thousand.",
+        "vars": {
+          "n": 3450200
+        },
+        "example": [
+          "{groupDigits(n, 3)}",
+          "{words(idiv(n, 1000000))} million, {words(idiv(n, 1000) % 1000)} thousand, {words(n % 1000)}",
+          "→ {words(n)}"
+        ],
+        "checks": [
+          "fromWords(words(n)) == n"
+        ],
+        "check": {
+          "id": "c4-2-check",
+          "type": "mcq",
+          "level": 1,
+          "vars": {
+            "n": {
+              "int": [
+                1001,
+                9999
+              ]
+            }
+          },
+          "where": [
+            "stripZeros(n) != n",
+            "n % 10 != 0"
+          ],
+          "prompt": "How do you write {n} in words?",
+          "correct": "{words(n)}",
+          "distractors": [
+            {
+              "text": "{words(stripZeros(n))}",
+              "misconception": "no-placeholder"
+            },
+            {
+              "text": "{words(n * 10)}",
+              "misconception": "extra-zero"
+            },
+            {
+              "text": "{words(n + 100)}",
+              "misconception": "wrong-digit"
+            }
+          ],
+          "verify": "fromWords(answer) == n",
+          "misconceptions": [
+            {
+              "id": "no-placeholder",
+              "explain": "Zeros hold places: {n} has {numDigits(n)} digits."
+            },
+            {
+              "id": "extra-zero",
+              "explain": "That number has one digit too many."
+            },
+            {
+              "id": "wrong-digit",
+              "explain": "Check the hundreds digit of {n}: it is {digitAt(n, 2)}."
+            }
+          ],
+          "solution": [
+            "Thousands: {words(idiv(n, 1000))} thousand. The rest: {words(n % 1000)}.",
+            "Answer: {answer}"
+          ]
+        }
+      },
+      {
+        "id": "c4-3",
+        "status": "draft",
+        "idea": "To write words in figures, write every group after the first with three digits. If a place is empty, write {0}.",
+        "vars": {
+          "n": 3005
+        },
+        "example": [
+          "{words(n)}",
+          "thousands: {idiv(n, 1000)}; units group with three digits: {pad(n % 1000, 3)}",
+          "→ {n}"
+        ],
+        "checks": [
+          "fromWords(words(n)) == n",
+          "str(idiv(n, 1000)) + pad(n % 1000, 3) == str(n)"
+        ],
+        "check": {
+          "id": "c4-3-check",
+          "type": "numeric",
+          "level": 1,
+          "vars": {
+            "n": {
+              "int": [
+                1001,
+                9999
+              ]
+            }
+          },
+          "where": [
+            "stripZeros(n) != n",
+            "n % 10 != 0"
+          ],
+          "prompt": "Write in figures: {words(n)}.",
+          "answer": "n",
+          "verify": "fromWords(words(answer)) == n",
+          "misconceptions": [
+            {
+              "id": "no-placeholder",
+              "wrong": "stripZeros(n)",
+              "explain": "Write 0 for every empty place: {words(n)} is {n}."
+            }
+          ],
+          "solution": [
+            "Thousands: {words(idiv(n, 1000))} → {idiv(n, 1000)}.",
+            "The rest: {words(n % 1000)} → {pad(n % 1000, 3)}, written with three digits.",
+            "Together: {n}."
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m4-groups",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "n": {
+          "int": [
+            10000,
+            99999999
+          ]
+        }
+      },
+      "where": "numDigits(n) % 3 != 0",
+      "prompt": "Which shows {str(n)} correctly split into groups of three digits?",
+      "correct": "{groupDigits(n, 3)}",
+      "distractors": [
+        {
+          "text": "{groupDigits(n, 3, true)}",
+          "misconception": "from-left"
+        },
+        {
+          "text": "{groupDigits(n, 2)}",
+          "misconception": "group-size"
+        },
+        {
+          "text": "{groupDigits(n, 4)}",
+          "misconception": "group-size"
+        }
+      ],
+      "verify": "answer == fmt(n)",
+      "misconceptions": [
+        {
+          "id": "from-left",
+          "explain": "Always start grouping from the right, at the units: {groupDigits(n, 3)}."
+        },
+        {
+          "id": "group-size",
+          "explain": "Each group has three digits: units, tens, hundreds. Count three digits at a time from the right."
+        }
+      ],
+      "solution": [
+        "Start from the right and count three digits at a time.",
+        "{str(n)} → {groupDigits(n, 3)}"
+      ]
+    },
+    {
+      "id": "m4-to-figures",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "n": {
+          "int": [
+            1001,
+            999999
+          ]
+        }
+      },
+      "where": [
+        "stripZeros(n) != n",
+        "n % 10 != 0"
+      ],
+      "prompt": "Write in figures: {words(n)}.",
+      "answer": "n",
+      "verify": "fromWords(words(answer)) == n",
+      "misconceptions": [
+        {
+          "id": "no-placeholder",
+          "wrong": "stripZeros(n)",
+          "explain": "Every place needs a digit. Write 0 for an empty place: {words(n)} is {n}."
+        }
+      ],
+      "solution": [
+        "Thousands group: {words(idiv(n, 1000))} → {idiv(n, 1000)}.",
+        "Units group: {words(n % 1000)} → {pad(n % 1000, 3)}, written with three digits.",
+        "Together: {n}."
+      ]
+    },
+    {
+      "id": "m4-to-words",
+      "type": "mcq",
+      "level": 2,
+      "vars": {
+        "n": {
+          "int": [
+            1001,
+            999999
+          ]
+        }
+      },
+      "where": [
+        "stripZeros(n) != n",
+        "n % 10 != 0"
+      ],
+      "prompt": "How do you write {n} in words?",
+      "correct": "{words(n)}",
+      "distractors": [
+        {
+          "text": "{words(stripZeros(n))}",
+          "misconception": "no-placeholder"
+        },
+        {
+          "text": "{words(n * 10)}",
+          "misconception": "extra-zero"
+        },
+        {
+          "text": "{words(idiv(n, 1000) * 100 + n % 1000)}",
+          "misconception": "wrong-group"
+        },
+        {
+          "text": "{words(n + 1000)}",
+          "misconception": "wrong-group"
+        }
+      ],
+      "verify": "fromWords(answer) == n",
+      "misconceptions": [
+        {
+          "id": "no-placeholder",
+          "explain": "Zeros hold places. Group the digits in threes from the right: {n}."
+        },
+        {
+          "id": "extra-zero",
+          "explain": "That number has one digit too many. Count the groups of three from the right."
+        },
+        {
+          "id": "wrong-group",
+          "explain": "Read each group of three separately: the thousands group of {n} is {idiv(n, 1000)}."
+        }
+      ],
+      "solution": [
+        "Group the digits: {groupDigits(n, 3)}.",
+        "Thousands group: {words(idiv(n, 1000))} thousand. Units group: {words(n % 1000)}.",
+        "Answer: {answer}"
+      ]
+    },
+    {
+      "id": "m4-order-words",
+      "type": "ordering",
+      "level": 2,
+      "vars": {
+        "base": {
+          "int": [
+            10,
+            98
+          ]
+        },
+        "a": {
+          "int": [
+            0,
+            999
+          ]
+        },
+        "b": {
+          "int": [
+            0,
+            999
+          ]
+        },
+        "c": {
+          "int": [
+            0,
+            999
+          ]
+        },
+        "d": {
+          "int": [
+            0,
+            999
+          ]
+        }
+      },
+      "prompt": "Order these numbers from the smallest to the largest.",
+      "items": [
+        {
+          "text": "{words(base * 1000 + a)}",
+          "key": "base * 1000 + a"
+        },
+        {
+          "text": "{words(base * 1000 + b)}",
+          "key": "base * 1000 + b"
+        },
+        {
+          "text": "{words((base + 1) * 1000 + c)}",
+          "key": "(base + 1) * 1000 + c"
+        },
+        {
+          "text": "{words(base * 100 + d)}",
+          "key": "base * 100 + d"
+        }
+      ],
+      "order": "asc"
+    },
+    {
+      "id": "m4-spot",
+      "type": "spot_error",
+      "level": 3,
+      "vars": {
+        "a": {
+          "int": [
+            1001,
+            999999
+          ]
+        },
+        "b": {
+          "int": [
+            1001,
+            999999
+          ]
+        },
+        "c": {
+          "int": [
+            1001,
+            999999
+          ]
+        },
+        "d": {
+          "int": [
+            1001,
+            999999
+          ]
+        }
+      },
+      "where": [
+        "stripZeros(d) != d",
+        "d % 10 != 0",
+        "distinct([a, b, c, d])"
+      ],
+      "prompt": "Tabe wrote these amounts on receipts. One is wrong. Which one?",
+      "pool": {
+        "right": [
+          {
+            "text": "{a} FCFA: {words(a)} francs",
+            "truth": "fromWords(words(a)) == a"
+          },
+          {
+            "text": "{b} FCFA: {words(b)} francs",
+            "truth": "fromWords(words(b)) == b"
+          },
+          {
+            "text": "{c} FCFA: {words(c)} francs",
+            "truth": "fromWords(words(c)) == c"
+          }
+        ],
+        "wrong": [
+          {
+            "text": "{d} FCFA: {words(stripZeros(d))} francs",
+            "truth": "fromWords(words(stripZeros(d))) == d",
+            "explain": "The words leave out the zeros. {d} is {words(d)}."
+          }
+        ]
+      },
+      "pick": {
+        "right": 3,
+        "wrong": 1
+      }
+    }
+  ]
+}

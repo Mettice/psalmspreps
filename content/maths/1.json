@@ -1,0 +1,331 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 1,
+  "language": "en",
+  "prerequisites": [],
+  "note": {
+    "status": "draft",
+    "text": "Long ago, people counted with fingers, stones and sticks. A farmer could put one stone in a bag for each goat that went out to graze, then take one out for each goat that came back. Later, people made tally marks and grouped them in fives so they were easy to count.\n\nAs trade grew, people needed symbols for numbers. The Egyptians drew pictures, such as a lotus flower for one thousand. The Babylonians counted in groups of sixty; that is why an hour has 60 minutes. The Romans used letters such as I, V and X.\n\nThe digits we use today, 0 to 9, are called Hindu-Arabic numerals. They came from India, and Arab traders and scholars carried them to other lands. India also gave us zero as a number. With only ten digits we can write any number, however large.",
+    "checks": []
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "g": 7,
+      "r": 3,
+      "five": 5
+    },
+    "problem": "A trader at Bamenda Main Market keeps tally marks for the bags of rice she sells. At the end of the day she has {g} full groups of five marks and {r} single marks. How many bags did she sell?",
+    "steps": [
+      "Each full group has four upright marks and one mark across them: it stands for {five} bags.",
+      "The full groups stand for {g} × {five} = {g * five} bags.",
+      "Add the single marks: {g * five} + {r} = {g * five + r}."
+    ],
+    "answer": "She sold {g * five + r} bags of rice.",
+    "checks": [
+      "(g * five + r - r) % five == 0",
+      "r < five"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c1-1",
+        "status": "draft",
+        "idea": "Long ago, before people wrote numbers, they counted with things: one stone, one stick or one knot for each object.",
+        "vars": {
+          "g": 6
+        },
+        "example": [
+          "A herder has {g} goats. He drops one stone into a bag for each goat that goes out to graze.",
+          "When all the goats are out, the bag holds {g} stones: one stone for each goat."
+        ],
+        "checks": [
+          "g > 0"
+        ],
+        "check": {
+          "id": "c1-1-check",
+          "type": "numeric",
+          "level": 1,
+          "vars": {
+            "k": {
+              "int": [
+                3,
+                15
+              ]
+            }
+          },
+          "prompt": "A trader ties one knot in a rope for each bag of rice she sells. Today she has tied {k} knots. How many bags has she sold?",
+          "answer": "k",
+          "verify": "answer == k",
+          "misconceptions": [],
+          "solution": [
+            "One knot stands for one bag, so {k} knots stand for {k} bags.",
+            "Answer: {k}"
+          ]
+        }
+      },
+      {
+        "id": "c1-2",
+        "status": "draft",
+        "idea": "Tally marks are grouped in fives: four upright marks and one mark across them. Count the groups in fives, then add the single marks.",
+        "vars": {
+          "g": 3,
+          "r": 2,
+          "five": 5
+        },
+        "example": [
+          "{g} full groups and {r} single marks:",
+          "{g} × {five} = {g * five}, then {g * five} + {r} = {g * five + r}."
+        ],
+        "checks": [
+          "g * five + r == 17"
+        ],
+        "check": {
+          "id": "c1-2-check",
+          "type": "numeric",
+          "level": 1,
+          "vars": {
+            "g": {
+              "int": [
+                2,
+                9
+              ]
+            }
+          },
+          "prompt": "Fon has {g} full groups of tally marks and no single marks. How many things has he counted?",
+          "answer": "5 * g",
+          "verify": "answer % 5 == 0 && answer / 5 == g",
+          "misconceptions": [
+            {
+              "id": "group-as-one",
+              "wrong": "g",
+              "explain": "Each full group stands for 5. Count in fives: {g} × 5 = {5 * g}."
+            }
+          ],
+          "solution": [
+            "Each full group stands for {5}.",
+            "{g} × {5} = {5 * g}."
+          ]
+        }
+      },
+      {
+        "id": "c1-3",
+        "status": "draft",
+        "idea": "Peoples wrote numbers in different ways. The Egyptians drew pictures, the Romans used letters, and India gave us the ten digits we use today, including zero.",
+        "vars": {
+          "n": 7
+        },
+        "example": [
+          "Seven, written three ways:",
+          "Egyptian: {egyptianList(n)}.",
+          "Roman: {roman(n)}.",
+          "Hindu-Arabic: {n}."
+        ],
+        "checks": [
+          "fromRoman(roman(n)) == n"
+        ],
+        "check": {
+          "ref": "m1-digits-origin"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m1-zero-symbol",
+      "sources": [
+        "hindu-arabic",
+        "roman-no-zero",
+        "egyptian",
+        "tally"
+      ],
+      "type": "mcq",
+      "level": 1,
+      "review": "authored",
+      "prompt": "Which number system gave us a symbol for zero?",
+      "correct": "Hindu-Arabic numerals",
+      "distractors": [
+        {
+          "text": "Roman numerals",
+          "misconception": "roman-zero"
+        },
+        {
+          "text": "Egyptian numerals",
+          "misconception": "egypt-zero"
+        },
+        {
+          "text": "Tally marks",
+          "misconception": "tally-zero"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "roman-zero",
+          "explain": "The Romans had no symbol for zero. Zero as a number came from India."
+        },
+        {
+          "id": "egypt-zero",
+          "explain": "Egyptian numerals had no place value, so they did not need a zero digit to hold empty places."
+        },
+        {
+          "id": "tally-zero",
+          "explain": "Tally marks only count things that are there; they have no mark for zero."
+        }
+      ],
+      "solution": [
+        "Zero as a number came from India, with the Hindu-Arabic digits. Roman numerals and tally marks have no zero, and Egyptian numerals had no place value, so they did not need a zero digit to hold empty places.",
+        "Answer: {answer}."
+      ]
+    },
+    {
+      "id": "m1-digits-origin",
+      "sources": [
+        "hindu-arabic"
+      ],
+      "type": "mcq",
+      "level": 1,
+      "review": "authored",
+      "prompt": "The digits 0 to 9 that we use today first came from:",
+      "correct": "India",
+      "distractors": [
+        {
+          "text": "Rome",
+          "misconception": "origin"
+        },
+        {
+          "text": "Egypt",
+          "misconception": "origin"
+        },
+        {
+          "text": "Babylon",
+          "misconception": "origin"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "origin",
+          "explain": "Our digits are called Hindu-Arabic numerals: they came from India, and Arab traders and scholars spread them."
+        }
+      ],
+      "solution": [
+        "Our digits are called Hindu-Arabic numerals: they first came from India, and Arab traders and scholars carried them to other lands.",
+        "Answer: {answer}."
+      ]
+    },
+    {
+      "id": "m1-sixty",
+      "sources": [
+        "babylonian"
+      ],
+      "type": "mcq",
+      "level": 1,
+      "review": "authored",
+      "prompt": "The Babylonians counted in groups of sixty. Where do we still use groups of sixty today?",
+      "correct": "There are sixty minutes in one hour.",
+      "distractors": [
+        {
+          "text": "There are sixty days in one month.",
+          "misconception": "sixty"
+        },
+        {
+          "text": "There are sixty centimetres in one metre.",
+          "misconception": "sixty"
+        },
+        {
+          "text": "There are sixty months in one year.",
+          "misconception": "sixty"
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "sixty",
+          "explain": "Time still uses the Babylonian sixty: sixty seconds in a minute and sixty minutes in an hour."
+        }
+      ],
+      "solution": [
+        "The Babylonian base-sixty (sexagesimal) system is why we still count sixty seconds in a minute and sixty minutes in an hour.",
+        "Answer: {answer}"
+      ]
+    },
+    {
+      "id": "m1-tally",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "g": {
+          "int": [
+            2,
+            15
+          ]
+        },
+        "r": {
+          "int": [
+            1,
+            4
+          ]
+        }
+      },
+      "prompt": "Fon counts the goats in his compound with tally marks in groups of five. He has {g} full groups and {plural(r, 'single mark', 'single marks')}. How many goats are there?",
+      "answer": "5 * g + r",
+      "verify": "(answer - r) % 5 == 0 && answer >= 5 * g && answer < 5 * g + 5",
+      "misconceptions": [
+        {
+          "id": "group-as-one",
+          "wrong": "g + r",
+          "explain": "Each group of tally marks stands for 5 goats, not 1. Multiply the groups by 5 first: {g} × 5 = {5 * g}."
+        },
+        {
+          "id": "group-as-four",
+          "wrong": "4 * g + r",
+          "explain": "A full group has four upright marks and one mark across them. That makes 5, not 4."
+        }
+      ],
+      "solution": [
+        "Each full group stands for {5}: {g} × {5} = {5 * g}.",
+        "Add the single marks: {5 * g} + {r} = {5 * g + r}.",
+        "Answer: {5 * g + r} goats."
+      ]
+    },
+    {
+      "id": "m1-stones",
+      "type": "numeric",
+      "level": 3,
+      "vars": {
+        "m": {
+          "int": [
+            12,
+            60
+          ]
+        },
+        "e": {
+          "int": [
+            5,
+            "m - 2"
+          ]
+        }
+      },
+      "prompt": "Long ago, a herder put one stone in a bag for each goat that went out in the morning: {m} stones. In the evening he took out one stone for each goat that came back: {e} stones. How many goats are still out?",
+      "answer": "m - e",
+      "verify": "answer + e == m && answer > 0",
+      "misconceptions": [
+        {
+          "id": "added",
+          "wrong": "m + e",
+          "explain": "Each goat that came back takes a stone out of the bag. The stones left stand for the goats still out: {m} − {e}."
+        },
+        {
+          "id": "came-back",
+          "wrong": "e",
+          "explain": "{e} goats came back. The question asks how many are still out: {m} − {e}."
+        }
+      ],
+      "solution": [
+        "Each goat that came back took one stone out of the bag.",
+        "Stones left: {m} − {e} = {m - e}, one for each goat still out.",
+        "Answer: {m - e} goats."
+      ]
+    }
+  ]
+}

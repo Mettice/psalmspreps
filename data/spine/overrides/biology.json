@@ -1,0 +1,24 @@
+{
+  "subject": "biology",
+  "overrides": [
+    {
+      "id": "biology-typos",
+      "op": "replace_words",
+      "words": {
+        "garderning": "gardening"
+      },
+      "reason": "Spelling errors in the sheet; display text only, raw stays untouched.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    },
+    {
+      "id": "biology-chapter-001",
+      "op": "rename_chapter",
+      "from": "STI''s,HIV/AIDS",
+      "to": "STIs, HIV/AIDS",
+      "reason": "Typo: doubled apostrophe and missing space in the chapter name.",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-02"
+    }
+  ]
+}

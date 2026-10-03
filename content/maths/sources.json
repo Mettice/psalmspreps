@@ -1,0 +1,73 @@
+{
+  "_note": "Sources for authored (non-computed) answers. 'checked' says how far each source was verified. Britannica pages block automated reading, so they were checked only through search-result summaries.",
+  "hindu-arabic": {
+    "ref": "Encyclopaedia Britannica, 'Hindu-Arabic numerals'",
+    "url": "https://www.britannica.com/topic/Hindu-Arabic-numerals",
+    "supports": "The digits originated in India (6th or 7th century) and reached Europe through Middle Eastern mathematicians such as al-Khwarizmi. The Hindus were the first to use zero in the modern way.",
+    "checked": "Search-result summary of the page (the page itself could not be opened)."
+  },
+  "roman-no-zero": {
+    "ref": "Encyclopaedia Britannica, 'Is It Still Important to Learn Roman Numerals?'",
+    "url": "https://www.britannica.com/story/is-it-still-important-to-learn-roman-numerals",
+    "supports": "Zero cannot be written with Roman numerals.",
+    "checked": "Search-result summary of the page (the page itself could not be opened)."
+  },
+  "egyptian": {
+    "ref": "Encyclopaedia Britannica, 'Mathematics in ancient Egypt'",
+    "url": "https://www.britannica.com/science/mathematics/Mathematics-in-ancient-Egypt",
+    "supports": "Separate symbols for 1, 10, 100, 1000 and so on, each repeated as often as needed (an additive system with no place value); 1000 is a lotus flower. Wording approved by Dion 2026-10-03: 'Egyptian numerals had no place value, so they did not need a zero digit to hold empty places.'",
+    "checked": "Search-result summary of the page (the page itself could not be opened)."
+  },
+  "babylonian": {
+    "ref": "Any reliable history-of-mathematics source on the Babylonian sexagesimal (base-60) system, e.g. Encyclopaedia Britannica, 'Cuneiform numeral'",
+    "url": "https://www.britannica.com/topic/cuneiform-numeral",
+    "supports": "The Babylonians used a base-60 (sexagesimal) system, which is the origin of 60 minutes in an hour and 60 seconds in a minute.",
+    "checked": "Fact approved by Dion 2026-10-03 (TR-D02): any reliable history-of-mathematics source is acceptable; no specific article is required."
+  },
+  "tally": {
+    "ref": "Definition of tally marks",
+    "supports": "One mark is made for each object counted, so there is no mark for zero.",
+    "checked": "Not externally sourced."
+  },
+  "number-roles": {
+    "ref": "Standard school definitions of cardinal, ordinal and nominal numbers",
+    "supports": "Cardinal: how many. Ordinal: position or order. Nominal: a label that does not count anything (phone, taxi or shirt number).",
+    "checked": "Not externally sourced: compare with the pupil's textbook."
+  },
+  "line-notation": {
+    "ref": "Notation used in Cameroonian Form 1 mathematics (French-influenced): (AB) line, [AB) half line, [AB] segment, AB length",
+    "supports": "Which brackets name which figure; a half line is named from its end point; a line has no end point and no length.",
+    "checked": "Not externally sourced: compare with the pupil's exercise book."
+  },
+  "one-line-two-points": {
+    "ref": "Euclid, Elements, Book I, Postulate 1 (a straight line can be drawn between any two points)",
+    "supports": "Exactly one straight line passes through two different points, so any two points are collinear; three points need not be.",
+    "checked": "Not externally sourced (standard axiom)."
+  },
+  "midpoint": {
+    "ref": "Definition of the midpoint of a segment; the perpendicular bisector as the set of points equidistant from A and B",
+    "supports": "MA = MB alone does not make M the midpoint: every point of the perpendicular bisector has MA = MB, and only the one on [AB] is the midpoint.",
+    "checked": "Not externally sourced (standard definitions)."
+  },
+  "perpendicular-bisector": {
+    "ref": "Euclid, Elements, Book I, Proposition 10 (bisecting a segment); the standard ruler-and-compasses construction of the perpendicular bisector",
+    "supports": "The construction steps and their order; the bisector passes through the midpoint at a right angle and not through A; its points are equidistant from A and B.",
+    "checked": "Not externally sourced (standard construction)."
+  },
+  "parallel-postulate": {
+    "ref": "Playfair's axiom (equivalent to Euclid's parallel postulate); Encyclopaedia Britannica, 'Euclidean geometry'",
+    "url": "https://www.britannica.com/science/Euclidean-geometry",
+    "supports": "Through a point not on a line there is exactly one parallel line.",
+    "checked": "Search-result summary of the page (the page itself could not be opened)."
+  },
+  "one-perpendicular": {
+    "ref": "Euclid, Elements, Book I, Proposition 12, and the standard uniqueness theorem for perpendiculars in a plane",
+    "supports": "Through a point not on a line there is exactly one line perpendicular to it.",
+    "checked": "Not externally sourced (standard theorem)."
+  },
+  "line-symbols": {
+    "ref": "Symbols // (parallel) and ⊥ (perpendicular) as used in Form 1",
+    "supports": "// means parallel (never meet); ⊥ means perpendicular (meet at a right angle).",
+    "checked": "Not externally sourced: compare with the pupil's exercise book."
+  }
+}

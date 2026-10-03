@@ -1,0 +1,348 @@
+{
+  "subject": "mathematics",
+  "class": "Form 1",
+  "lesson_no": 13,
+  "language": "en",
+  "prerequisites": [
+    3
+  ],
+  "note": {
+    "status": "draft",
+    "text": "Length tells us how long something is. The distance between two points is the length of the straight segment that joins them.\n\nThe main unit of length is the metre (m). Each unit is ten times bigger than the next one on its right:\nkm   hm   dam   m   dm   cm   mm\nSo 1 km = 1000 m, 1 m = 100 cm and 1 cm = 10 mm.\n\nTo change to a smaller unit, multiply by 10 for each step to the right:\n3.5 km = 3500 m (three steps: × 1000).\nTo change to a bigger unit, divide by 10 for each step to the left:\n45 cm = 0.45 m (two steps: ÷ 100).\n\nAlways check your answer: a smaller unit gives a bigger number. A taxi trip of 12 km is 12 000 m.",
+    "checks": [
+      "convert(1, 'km', 'm') == 1000",
+      "convert(1, 'm', 'cm') == 100",
+      "convert(1, 'cm', 'mm') == 10",
+      "convert(3.5, 'km', 'm') == 3500",
+      "unitExp('km') - unitExp('m') == 3",
+      "convert(45, 'cm', 'm') == 0.45",
+      "unitExp('m') - unitExp('cm') == 2",
+      "convert(12, 'km', 'm') == 12000"
+    ]
+  },
+  "worked_example": {
+    "status": "draft",
+    "vars": {
+      "v": 2.4,
+      "u1": "km",
+      "u2": "m",
+      "ten": 10
+    },
+    "problem": "Ayuk walks {v} {u1} to school every morning. How many metres is that?",
+    "steps": [
+      "Write the units in order: km, hm, dam, m. From {u1} to {u2} is {unitExp(u1) - unitExp(u2)} steps to the right, towards smaller units.",
+      "Each step multiplies by {ten}, so multiply by {ten ^ (unitExp(u1) - unitExp(u2))}.",
+      "{v} × {ten ^ (unitExp(u1) - unitExp(u2))} = {convert(v, u1, u2)}.",
+      "Check: {u2} is a smaller unit than {u1}, so the number must get bigger. {convert(v, u1, u2)} is bigger than {v}."
+    ],
+    "answer": "{v} {u1} = {convert(v, u1, u2)} {u2}",
+    "checks": [
+      "convert(convert(v, u1, u2), u2, u1) == v",
+      "convert(v, u1, u2) > v"
+    ]
+  },
+  "teach": {
+    "cards": [
+      {
+        "id": "c13-1",
+        "status": "draft",
+        "idea": "Units of length, from the biggest to the smallest: km, hm, dam, m, dm, cm, mm. Each unit is ten times the next one.",
+        "vars": {
+          "one": 1
+        },
+        "example": [
+          "{one} km = {convert(one, 'km', 'hm')} hm, {one} hm = {convert(one, 'hm', 'dam')} dam, {one} dam = {convert(one, 'dam', 'm')} m",
+          "{one} m = {convert(one, 'm', 'dm')} dm, {one} dm = {convert(one, 'dm', 'cm')} cm, {one} cm = {convert(one, 'cm', 'mm')} mm"
+        ],
+        "checks": [
+          "convert(one, 'km', 'mm') == 1000000"
+        ],
+        "check": {
+          "ref": "m13-order"
+        }
+      },
+      {
+        "id": "c13-2",
+        "status": "draft",
+        "idea": "To change to a smaller unit, multiply by {10} for each step. The number gets bigger.",
+        "vars": {
+          "v": 3,
+          "u1": "km",
+          "u2": "m"
+        },
+        "example": [
+          "From {u1} to {u2}: {unitExp(u1) - unitExp(u2)} steps, so × {10 ^ (unitExp(u1) - unitExp(u2))}.",
+          "{v} {u1} = {convert(v, u1, u2)} {u2}"
+        ],
+        "checks": [
+          "convert(v, u1, u2) == v * 1000"
+        ],
+        "check": {
+          "ref": "m13-how-many"
+        }
+      },
+      {
+        "id": "c13-3",
+        "status": "draft",
+        "idea": "To change to a bigger unit, divide by {10} for each step. The number gets smaller.",
+        "vars": {
+          "v": 450,
+          "u1": "cm",
+          "u2": "m"
+        },
+        "example": [
+          "From {u1} to {u2}: {unitExp(u2) - unitExp(u1)} steps, so ÷ {10 ^ (unitExp(u2) - unitExp(u1))}.",
+          "{v} {u1} = {convert(v, u1, u2)} {u2}"
+        ],
+        "checks": [
+          "convert(v, u1, u2) == v / 100"
+        ],
+        "check": {
+          "id": "c13-3-check",
+          "type": "numeric",
+          "level": 1,
+          "unit": "km",
+          "vars": {
+            "k": {
+              "int": [
+                2,
+                30
+              ]
+            }
+          },
+          "prompt": "Convert {k * 1000} m to km.",
+          "answer": "k",
+          "verify": "convert(answer, 'km', 'm') == k * 1000",
+          "misconceptions": [
+            {
+              "id": "wrong-direction",
+              "wrong": "k * 1000 * 1000",
+              "explain": "km is a bigger unit than m, so the number gets smaller: divide by 1000."
+            }
+          ],
+          "solution": [
+            "km is a bigger unit than m, so divide by {1000}.",
+            "{k * 1000} ÷ {1000} = {k} km."
+          ]
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "m13-how-many",
+      "type": "mcq",
+      "level": 1,
+      "vars": {
+        "p": {
+          "pick": [
+            {
+              "big": "km",
+              "small": "m"
+            },
+            {
+              "big": "m",
+              "small": "cm"
+            },
+            {
+              "big": "m",
+              "small": "mm"
+            },
+            {
+              "big": "cm",
+              "small": "mm"
+            },
+            {
+              "big": "km",
+              "small": "dam"
+            },
+            {
+              "big": "m",
+              "small": "dm"
+            },
+            {
+              "big": "hm",
+              "small": "m"
+            },
+            {
+              "big": "dm",
+              "small": "mm"
+            }
+          ]
+        },
+        "d": {
+          "expr": "unitExp(p.big) - unitExp(p.small)"
+        }
+      },
+      "prompt": "How many {p.small} are there in 1 {p.big}?",
+      "correct": "{10 ^ d}",
+      "distractors": [
+        {
+          "text": "{10 ^ (d + 1)}",
+          "misconception": "steps"
+        },
+        {
+          "text": "{10 ^ (d - 1)}",
+          "misconception": "steps",
+          "when": "d > 1"
+        },
+        {
+          "text": "{10 ^ (d + 2)}",
+          "misconception": "steps"
+        },
+        {
+          "text": "{10 * d}",
+          "misconception": "times-steps",
+          "when": "d > 1"
+        }
+      ],
+      "verify": "convert(1, p.big, p.small) == 10 ^ d",
+      "misconceptions": [
+        {
+          "id": "steps",
+          "explain": "In the list km hm dam m dm cm mm, {p.small} is {plural(d, 'step', 'steps')} after {p.big}, so multiply by 10 {d == 1 ? 'once' : plural(d, 'time', 'times')}: {10 ^ d}."
+        },
+        {
+          "id": "times-steps",
+          "explain": "Each step multiplies by 10, so {d} steps multiply by {10 ^ d}, not by {10 * d}."
+        }
+      ],
+      "solution": [
+        "In the list km hm dam m dm cm mm, {p.small} is {plural(d, 'step', 'steps')} after {p.big}.",
+        "Each step multiplies by {10}: {10 ^ d}."
+      ]
+    },
+    {
+      "id": "m13-convert",
+      "type": "numeric",
+      "level": 2,
+      "vars": {
+        "u1": {
+          "pick": [
+            "km",
+            "hm",
+            "dam",
+            "m",
+            "dm",
+            "cm",
+            "mm"
+          ]
+        },
+        "u2": {
+          "pick": [
+            "km",
+            "hm",
+            "dam",
+            "m",
+            "dm",
+            "cm",
+            "mm"
+          ]
+        },
+        "v": {
+          "int": [
+            2,
+            950
+          ]
+        }
+      },
+      "where": [
+        "u1 != u2",
+        "abs(unitExp(u1) - unitExp(u2)) <= 3"
+      ],
+      "prompt": "Convert {v} {u1} to {u2}.",
+      "answer": "convert(v, u1, u2)",
+      "unit": "{u2}",
+      "verify": "convert(answer, u2, u1) == v",
+      "misconceptions": [
+        {
+          "id": "wrong-direction",
+          "wrong": "convert(v, u2, u1)",
+          "explain": "{u2} is a {unitExp(u2) < unitExp(u1) ? 'smaller' : 'bigger'} unit than {u1}, so the number must get {unitExp(u2) < unitExp(u1) ? 'bigger: multiply' : 'smaller: divide'}."
+        },
+        {
+          "id": "one-step-short",
+          "wrong": "unitExp(u1) > unitExp(u2) ? v * 10 ^ (unitExp(u1) - unitExp(u2) - 1) : convert(v, u1, u2) * 10",
+          "when": "abs(unitExp(u1) - unitExp(u2)) >= 2",
+          "explain": "Count every step between {u1} and {u2}, including dam, dm and the others: there are {abs(unitExp(u1) - unitExp(u2))} steps."
+        }
+      ],
+      "solution": [
+        "From {u1} to {u2} is {plural(abs(unitExp(u1) - unitExp(u2)), 'step', 'steps')} {unitExp(u1) > unitExp(u2) ? 'to a smaller unit, so multiply' : 'to a bigger unit, so divide'} by {10 ^ abs(unitExp(u1) - unitExp(u2))}.",
+        "{v} {unitExp(u1) > unitExp(u2) ? '×' : '÷'} {10 ^ abs(unitExp(u1) - unitExp(u2))} = {convert(v, u1, u2)} {u2}"
+      ]
+    },
+    {
+      "id": "m13-order",
+      "type": "ordering",
+      "level": 1,
+      "vars": {
+        "us": {
+          "sample": [
+            "['km', 'hm', 'dam', 'm', 'dm', 'cm', 'mm']",
+            4
+          ]
+        }
+      },
+      "prompt": "Order these units from the biggest to the smallest.",
+      "items": [
+        {
+          "text": "{us[0]}",
+          "key": "unitExp(us[0])"
+        },
+        {
+          "text": "{us[1]}",
+          "key": "unitExp(us[1])"
+        },
+        {
+          "text": "{us[2]}",
+          "key": "unitExp(us[2])"
+        },
+        {
+          "text": "{us[3]}",
+          "key": "unitExp(us[3])"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "m13-trip",
+      "type": "numeric",
+      "level": 3,
+      "vars": {
+        "a": {
+          "int": [
+            1,
+            15
+          ]
+        },
+        "b": {
+          "int": [
+            50,
+            950
+          ]
+        }
+      },
+      "prompt": "Ebai travels {a} km by taxi, then walks {b} m to his house. How far does he travel in total, in metres?",
+      "answer": "a * 1000 + b",
+      "unit": "m",
+      "verify": "answer == convert(a, 'km', 'm') + b",
+      "misconceptions": [
+        {
+          "id": "added-units",
+          "wrong": "a + b",
+          "explain": "Change {a} km to metres first: {a} km = {a * 1000} m. Then add {b} m."
+        },
+        {
+          "id": "wrong-factor",
+          "wrong": "a * 100 + b",
+          "explain": "1 km = 1000 m, not 100 m."
+        }
+      ],
+      "solution": [
+        "{a} km = {a} × {1000} = {a * 1000} m.",
+        "Total: {a * 1000} + {b} = {a * 1000 + b} m."
+      ]
+    }
+  ]
+}
