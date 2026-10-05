@@ -1,4 +1,5 @@
-// Builds tools/prototype/lesson3.html: one self-contained file (engine + content + UI), works offline.
+// Builds tools/prototype/maths.html: one self-contained file (engine + content + UI), works offline.
+// Lesson 0 (readiness) and Lessons 1–16, with progress saved in the browser.
 //   node tools/prototype/build.mjs
 // The engine modules are inlined unchanged except for import/export lines, so the prototype runs
 // exactly the code the tests cover.
@@ -8,7 +9,8 @@ import { posix } from "node:path";
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
 const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
-const MAX_BYTES = 120 * 1024;  // Dion 2026-10-03: stays under 120 KB
+const MAX_BYTES = 256 * 1024;  // was 120 KB for Lesson 3 alone (2026-10-03); all 16 lessons added 2026-10-05
+const LESSONS = Array.from({ length: 16 }, (_, i) => i + 1);
 
 function bundleModule(path) {
   const src = read(`src/engine/${path}`);
@@ -28,8 +30,12 @@ function bundleModule(path) {
 }
 
 const spine = JSON.parse(read("data/spine/mathematics.json"));
-const titles = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => [0, 3].includes(l.lesson_no)).map((l) => [l.lesson_no, l.title]));
-const content = { 0: JSON.parse(read("content/maths/0.json")), 3: JSON.parse(read("content/maths/3.json")) };
+// Display only (the spine keeps the sheet's text): "Number bases :Convert" → "Number bases: Convert",
+// "Line segment.- Midpoint" → "Line segment: Midpoint".
+const tidy = (t) => t.replace(/\s*\.?\s*-\s+/g, ": ").replace(/\s*:\s*/g, ": ").replace(/\s+/g, " ").trim();
+const titles = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => l.kind === "lesson" && l.lesson_no <= 16).map((l) => [l.lesson_no, tidy(l.title)]));
+const content = Object.fromEntries([0, ...LESSONS].map((n) => [n, JSON.parse(read(`content/maths/${n}.json`))]));
+for (const n of LESSONS) if (!titles[n]) throw new Error(`no spine title for Lesson ${n}`);
 const build = new Date().toISOString().slice(0, 10);
 const safeJson = (x) => JSON.stringify(x).replace(/</g, "\\u003c");
 
@@ -92,6 +98,14 @@ textarea { font-size: .8rem; font-family: ui-monospace, Menlo, Consolas, monospa
   80% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 140px)) rotate(var(--r)); } }
 details.grownup { margin-top: 12px; } details.grownup summary { min-height: 48px; display: flex; align-items: center; cursor: pointer; color: var(--muted); }
 .areas { padding-left: 1.2em; } .areas .weak { color: var(--bad); font-weight: 600; }
+.lessons { margin: 14px 0; }
+button.lesson { display: flex; gap: 12px; align-items: center; margin-top: 8px; }
+button.lesson .mark { flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-weight: 700;
+  background: var(--soft); color: var(--muted); font-variant-numeric: tabular-nums; }
+button.lesson.is-done .mark { background: var(--good-bg); color: var(--good); }
+button.lesson .lt { display: flex; flex-direction: column; min-width: 0; overflow-wrap: anywhere; }
+button.lesson .ln { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+button.lesson .sub { font-size: .9rem; color: var(--muted); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .confetti { display: none; }
@@ -104,7 +118,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lesson 3 Prototype</title>
+<title>Form One Maths</title>
 <style>${css}</style>
 </head>
 <body>
@@ -116,6 +130,7 @@ ${ENGINE.map(bundleModule).join("\n")}
 const ENGINE = { lib: __mods["lib/maths.js"], template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${safeJson(content)};
 const TITLES = ${safeJson(titles)};
+const LESSONS = ${safeJson(LESSONS)};
 const BUILD = ${JSON.stringify(build)};
 ${read("tools/prototype/app.js")}
 </script>
@@ -125,5 +140,5 @@ ${read("tools/prototype/app.js")}
 
 const bytes = Buffer.byteLength(html, "utf8");
 if (bytes > MAX_BYTES) throw new Error(`prototype is ${bytes} bytes, over the ${MAX_BYTES} limit`);
-writeFileSync(new URL("tools/prototype/lesson3.html", ROOT), html, "utf8");
-console.log(`wrote tools/prototype/lesson3.html (${(bytes / 1024).toFixed(1)} KB, limit ${MAX_BYTES / 1024} KB)`);
+writeFileSync(new URL("tools/prototype/maths.html", ROOT), html, "utf8");
+console.log(`wrote tools/prototype/maths.html (${(bytes / 1024).toFixed(1)} KB, limit ${MAX_BYTES / 1024} KB)`);

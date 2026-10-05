@@ -6,23 +6,25 @@ Form 1 Mathematics. It is built for pupils who lose school days, so it **teaches
 
 ## Try it
 
-**https://mettice.github.io/psalmspreps/**
+**https://psalmspreps.vercel.app/** (also https://mettice.github.io/psalmspreps/)
 
-Direct link to the lesson: https://mettice.github.io/psalmspreps/lesson3/
-
-Open the link on a phone. The page is a single file: once it has loaded it works with no internet,
-stores nothing and sends nothing. There is no name to enter.
+Open the link on a phone. The page is a single file: once it has loaded it works with no internet and sends
+nothing. There is no name to enter. Progress is saved on that phone, in that browser only.
 
 What it does today (prototype):
 
-1. **Getting ready**: 13 Primary 6 questions (place value, the four operations, times tables, word problems).
-   No right/wrong is shown to the pupil.
-2. **Lesson 3, Hindu-Arabic numerals and place value**: 3 idea cards, a worked example, 6 practice
-   questions (levels 1 to 3) and a summary. A miss gets a fresh question; a second miss shows the full working.
-3. **Results** for a grown-up: "Copy results" gives the time per answer, "I don't know" use, the
-   readiness areas and the questions to review, ready to paste into WhatsApp.
+1. **Getting ready** (first visit only): 13 Primary 6 questions (place value, the four operations, times tables,
+   word problems). No right/wrong is shown to the pupil.
+2. **Lessons 1–16** of Form 1 Maths, from a menu with a tick for each lesson done. Each lesson has 3–4 idea cards,
+   a worked example, practice questions (levels 1 to 3) and a summary. A miss gets a fresh question; a second miss
+   shows the full working. A lesson left part-way carries on where it stopped.
+3. **Results** for a grown-up: "Copy results" (end of a lesson) or "Copy all results" (menu → For a grown-up) gives
+   the time per answer, "I don't know" use, the readiness areas and the questions to review, ready to paste into WhatsApp.
 
-To use it with no internet at all, open the link once and save the page in the browser (menu → Download or Save page); the saved file works on its own.
+All lessons are drafts until a teacher has reviewed them (`docs/teacher-review.md`).
+
+To use it with no internet at all, open the link once and save the page in the browser (menu → Download or Save
+page); the saved file works on its own (some browsers do not keep progress for a saved file).
 
 ## For developers
 
@@ -31,12 +33,12 @@ Requirements: Node 22 or later, Python 3.10 or later.
 ```bash
 npm test                              # engine, content (every question across 1000 variants), prototype
 python -m unittest discover -s tests  # curriculum spine
-npm run build:site                    # builds site/ (what GitHub Pages publishes)
+npm run build:site                    # builds site/ (what Vercel and GitHub Pages publish)
 npm run review                        # regenerates content/maths/REVIEW.md
 ```
 
-Every push to `main` runs all the tests and, only if they pass, publishes the site
-(`.github/workflows/pages.yml`).
+Every push to `main` runs all the tests and, only if they pass, publishes the site to GitHub Pages
+(`.github/workflows/pages.yml`). Vercel also deploys every push to `main` (`vercel.json`).
 
 | Folder | What it holds |
 |---|---|

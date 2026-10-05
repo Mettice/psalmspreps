@@ -19,7 +19,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-24 P1 items: 22 open, 2 closed.
+25 P1 items: 23 open, 2 closed.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -45,6 +45,7 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-C29 | Lesson 3 hints (draft) | open |
 | TR-C31 | Borrowing wording in base subtraction working | open |
 | TR-C33 | Typed answers for whole numbers | open |
+| TR-C41 | Lessons 1, 2 and 4–16 are in front of the pupil with P1 items still open | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -135,6 +136,12 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 - [ ] **TR-C35 [P3] Feedback motion and wording (teach mode only):** green flash and a drawn check icon with "Correct!"; a small shake on a wrong answer; no shake after "I don't know" (it is not a wrong answer); the readiness check shows no right/wrong cues at all (tested). All motion is switched off under the phone's "reduce motion" setting. *Location:* `tools/prototype/app.js`; CSS in `tools/prototype/build.mjs`.
 - [ ] **TR-C36 [P2] End screen:** confetti, "Lesson 3 done" and "You completed 9 questions" (cards plus practice items, not the score). The results text, which holds the readiness score and weak areas, is folded under "Show the text (for a grown-up)". It opens by itself only if the phone refuses the normal copy and the fallback needs it. *Location:* `results()` in `tools/prototype/app.js`.
 - [ ] **TR-C37 [P3] Progress bar:** counts every screen of the lesson (cards, worked example, practice questions, summary), e.g. "5 / 13"; during readiness it counts the 13 questions. *Location:* `progress()` in `tools/prototype/app.js`.
+
+### Added 2026-10-05 (all 16 lessons in the app, after the Lesson 3 test went well)
+- [ ] **TR-C38 [P2] Saved progress (this phone and browser only):** the readiness check runs once; after that the app opens on the lesson menu. A lesson left part-way carries on where it stopped: a question left after a first miss comes back as a fresh variant; after a second miss, at the next step. Finishing a lesson again replaces its earlier results. "Clear all progress on this phone" (behind "For a grown-up", with a confirmation) starts again. Nothing is sent anywhere. *Location:* `load()`, `save()`, `openLesson()`, `resumable()` in `tools/prototype/app.js`.
+- [ ] **TR-C39 [P2] Lesson menu:** Lessons 1–16 in sheet order, a tick when done, "Started · tap to carry on" for the one in progress; the big button suggests the first lesson not yet done. No lesson is locked behind its prerequisites. One line says the lessons are drafts that a teacher has not checked. *Location:* `menu()` in `tools/prototype/app.js`.
+- [ ] **TR-C40 [P3] Lesson titles tidied for display only,** e.g. "Number bases :Convert" → "Number bases: Convert", "Line segment.- Midpoint" → "Line segment: Midpoint". The spine keeps the sheet's text. *Location:* `tidy()` in `tools/prototype/build.mjs`.
+- [ ] **TR-C41 [P1] Lessons 1, 2 and 4–16 are now in front of the pupil** while their P1 items (see the summary above) are still open. *Location:* `content/maths/*.json`.
 
 ## D. Open items (need an answer before approval)
 

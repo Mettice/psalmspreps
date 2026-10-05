@@ -1,4 +1,4 @@
-// The Lesson 3 prototype builds from the real engine and content, offline, under 120 KB.
+// The prototype (readiness + Lessons 1–16) builds from the real engine and content, offline, under 256 KB.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
@@ -6,12 +6,16 @@ import { readFileSync } from "node:fs";
 
 const ROOT = new URL("../", import.meta.url);
 
-test("prototype: builds under 120 KB, no external resources, engine runs", () => {
+test("prototype: builds under 256 KB, no external resources, engine runs", () => {
   execFileSync(process.execPath, [new URL("tools/prototype/build.mjs", ROOT).pathname.replace(/^\/([A-Za-z]:)/, "$1")]);
-  const html = readFileSync(new URL("tools/prototype/lesson3.html", ROOT), "utf8");
-  assert.ok(Buffer.byteLength(html) < 120 * 1024, `${Buffer.byteLength(html)} bytes`);
+  const html = readFileSync(new URL("tools/prototype/maths.html", ROOT), "utf8");
+  assert.ok(Buffer.byteLength(html) < 256 * 1024, `${Buffer.byteLength(html)} bytes`);
   assert.doesNotMatch(html, /<script[^>]+src=|<link[^>]+href=|https?:\/\/(?!www\.w3\.org)/, "must not load anything from the network");
-  assert.doesNotMatch(html, /localStorage|indexedDB|fetch\(|XMLHttpRequest|sendBeacon/, "must not store or send data");
+  assert.doesNotMatch(html, /indexedDB|fetch\(|XMLHttpRequest|sendBeacon|WebSocket/, "must not send data");
+  // Progress is saved in this browser only (2026-10-05): one key, every access wrapped in try/catch.
+  const uses = html.match(/localStorage\.\w+\([^)]*\)/g) || [];
+  assert.ok(uses.length >= 2, "saves and loads progress");
+  for (const u of uses) assert.match(u, /^localStorage\.(getItem|setItem|removeItem)\(KEY(, JSON\.stringify\(state)?\)$/, u);
   // Run the inlined engine (everything before the content) and build the readiness check with it.
   const script = html.split("<script>")[1].split("const CONTENT")[0];
   const ENGINE = new Function(`${script}; return ENGINE;`)();
@@ -19,10 +23,17 @@ test("prototype: builds under 120 KB, no external resources, engine runs", () =>
   const qs = ENGINE.readiness.buildReadiness(l0, 3, ENGINE.lib);
   assert.equal(qs.length, 13);
   assert.ok(qs.every((q) => q.verified));
+  // every lesson 1–16 is in the page, with its spine title
+  const content = JSON.parse(html.match(/const CONTENT = (.*);\n/)[1]);
+  const titles = JSON.parse(html.match(/const TITLES = (.*);\n/)[1]);
+  for (let n = 1; n <= 16; n++) {
+    assert.equal(content[n]?.lesson_no, n, `Lesson ${n} content`);
+    assert.ok(titles[n], `Lesson ${n} title`);
+  }
 });
 
 test("prototype: motion is switched off under prefers-reduced-motion; tap targets and number pad", () => {
-  const html = readFileSync(new URL("tools/prototype/lesson3.html", ROOT), "utf8");
+  const html = readFileSync(new URL("tools/prototype/maths.html", ROOT), "utf8");
   const reduced = html.match(/@media \(prefers-reduced-motion: reduce\) \{([\s\S]*?)\n\}/);
   assert.ok(reduced, "needs a prefers-reduced-motion block");
   assert.match(reduced[1], /animation: none !important/);

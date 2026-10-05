@@ -81,6 +81,11 @@ no network), and a "Copy results" button with time per answer and "I don't know"
 Lesson 3 teach mode → practice → note → results. A test (`tests-js/prototype.test.js`) rebuilds it and checks size,
 no network or storage calls, and that the inlined engine runs.
 
+**Changed 2026-10-05 (Dion: the pupil tested Lesson 3 and liked it, "add all"):** the prototype is now
+`tools/prototype/maths.html` with Lesson 0 and Lessons 1–16, a lesson menu, and progress saved in the browser
+(`localStorage`, one key, every access in try/catch; it still sends nothing). Size limit 256 KB (about 204 KB now).
+The readiness check runs once. Published as the site's `index.html`; `/lesson3/` serves the same app so old links work.
+
 ## 9. Content still in draft
 
 - All notes, teach cards and worked examples are `status: draft`.
