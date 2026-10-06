@@ -1,0 +1,310 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "ch14",
+   "name": "Separating solid–solid mixtures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Solid–solid mixtures are separated by using a difference between the two solids:\n• hand-picking: big pieces of different colour (stones from rice or beans);\n• sieving: different sizes (garri, sand and gravel);\n• magnetic separation: one solid is attracted by a magnet (iron filings from sand);\n• winnowing: one part is much lighter (chaff from rice, maize or beans);\n• sublimation: one solid sublimes on heating (iodine or ammonium chloride from sand or salt);\n• dissolving, filtering and evaporating: one solid dissolves in water and the other does not (salt from sand).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "How can Bih get clean salt from a mixture of salt and sand?",
+  "steps": [
+   "Add water and stir: the salt dissolves, the sand does not.",
+   "Filter: the sand stays on the filter paper; salt water (the filtrate) passes through.",
+   "Evaporate the water from the filtrate: salt crystals are left."
+  ],
+  "answer": "Dissolve in water, filter, then evaporate the filtrate.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc14-1",
+    "status": "draft",
+    "idea": "Use a difference: size (sieving), colour or size you can see (hand-picking), magnetism (magnet), weight (winnowing).",
+    "vars": {},
+    "example": [
+     "A magnet pulls iron filings out of sand."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch14-method"
+    }
+   },
+   {
+    "id": "chc14-2",
+    "status": "draft",
+    "idea": "If one solid sublimes (iodine, ammonium chloride), heat the mixture and collect it as it cools.",
+    "vars": {},
+    "example": [
+     "Iodine turns into a purple gas and forms crystals again on a cold surface."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch14-match"
+    }
+   },
+   {
+    "id": "chc14-3",
+    "status": "draft",
+    "idea": "If one solid dissolves and the other does not: dissolve, filter, then evaporate.",
+    "vars": {},
+    "example": [
+     "Salt and sand → salt water + sand → salt crystals."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch14-steps"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch14-method",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "stones from rice",
+       "a": "hand-picking",
+       "why": "To separate stones from rice, use hand-picking."
+      },
+      {
+       "t": "fine garri from lumps",
+       "a": "sieving",
+       "why": "To separate fine garri from lumps, use sieving."
+      },
+      {
+       "t": "iron filings from sand",
+       "a": "magnetic separation",
+       "why": "To separate iron filings from sand, use magnetic separation."
+      },
+      {
+       "t": "chaff from rice grains",
+       "a": "winnowing",
+       "why": "To separate chaff from rice grains, use winnowing."
+      },
+      {
+       "t": "iodine from sand",
+       "a": "sublimation",
+       "why": "To separate iodine from sand, use sublimation."
+      },
+      {
+       "t": "salt from sand",
+       "a": "dissolving, filtering and evaporating",
+       "why": "To separate salt from sand, use dissolving, filtering and evaporating."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method would you use to separate {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "hand-picking",
+     "misconception": "other"
+    },
+    {
+     "text": "sieving",
+     "misconception": "other"
+    },
+    {
+     "text": "magnetic separation",
+     "misconception": "other"
+    },
+    {
+     "text": "winnowing",
+     "misconception": "other"
+    },
+    {
+     "text": "sublimation",
+     "misconception": "other"
+    },
+    {
+     "text": "dissolving, filtering and evaporating",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That method uses a different difference between the solids."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch14-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "prompt": "Match each method with how it works.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "hand-picking",
+     "right": "pick out the unwanted pieces by hand"
+    },
+    {
+     "left": "sieving",
+     "right": "shake through a sieve: small pieces fall through, big ones stay"
+    },
+    {
+     "left": "magnetic separation",
+     "right": "a magnet pulls out the iron"
+    },
+    {
+     "left": "winnowing",
+     "right": "the wind blows away the light chaff"
+    },
+    {
+     "left": "sublimation",
+     "right": "heat: one solid turns into a gas and is collected when it cools"
+    },
+    {
+     "left": "dissolving, filtering and evaporating",
+     "right": "dissolve one solid, filter out the other, evaporate the water"
+    }
+   ]
+  },
+  {
+   "id": "ch14-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "order": "as_written",
+   "vars": {},
+   "prompt": "Put the steps in order to get salt from a mixture of salt and sand.",
+   "items": [
+    {
+     "text": "Add water and stir until the salt dissolves."
+    },
+    {
+     "text": "Filter the mixture."
+    },
+    {
+     "text": "Collect the salt water (filtrate) in an evaporating dish."
+    },
+    {
+     "text": "Heat until the water evaporates and salt is left."
+    }
+   ]
+  },
+  {
+   "id": "ch14-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "Why can a magnet separate iron filings from sand?",
+   "pool": {
+    "right": [
+     {
+      "text": "Iron is attracted by a magnet; sand is not.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Iron is heavier than sand.",
+      "truth": "false",
+      "explain": "Weight is not used here; magnetism is."
+     },
+     {
+      "text": "Iron dissolves in water.",
+      "truth": "false",
+      "explain": "Iron does not dissolve in water."
+     },
+     {
+      "text": "Sand is attracted by a magnet.",
+      "truth": "false",
+      "explain": "Sand is not attracted; iron is."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Winnowing removes the light chaff from grain.",
+      "truth": "true"
+     },
+     {
+      "text": "Sieving separates pieces of different sizes.",
+      "truth": "true"
+     },
+     {
+      "text": "Iodine can be separated from sand by sublimation.",
+      "truth": "true"
+     },
+     {
+      "text": "Hand-picking removes stones from beans.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A magnet separates salt from sand.",
+      "truth": "false",
+      "explain": "Neither salt nor sand is magnetic: dissolve, filter and evaporate."
+     },
+     {
+      "text": "Sieving separates salt from sugar.",
+      "truth": "false",
+      "explain": "Their grains are the same size; sieving cannot separate them."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

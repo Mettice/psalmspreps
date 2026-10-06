@@ -1,7 +1,7 @@
-# Psalms Preps: Form 1 Maths, English and Physics (offline)
+# Psalms Preps: Form 1 Maths, English, Physics and Chemistry (offline)
 
 An offline-first learning app for Cameroonian secondary students (English sub-system), starting with
-Form 1 Mathematics, English and Physics. It is built for pupils who lose school days, so it **teaches** missed lessons
+Form 1 Mathematics, English, Physics and Chemistry. It is built for pupils who lose school days, so it **teaches** missed lessons
 (idea cards, worked examples, practice with full working) instead of only quizzing on them.
 
 ## Try it
@@ -15,7 +15,7 @@ What it does today (prototype):
 
 1. **Getting ready** (first visit only): 13 Primary 6 questions (place value, the four operations, times tables,
    word problems). No right/wrong is shown to the pupil.
-2. **Maths Lessons 1–16, English Lessons 1–16 and Physics Lessons 1–19** (three tabs on the menu, a tick for each lesson done). Each lesson
+2. **Maths Lessons 1–16, English Lessons 1–16, Physics Lessons 1–19 and Chemistry Lessons 1–21** (four tabs on the menu, a tick for each lesson done). Each lesson
    has 3–4 idea cards, a worked example, practice questions (levels 1 to 3) and a summary. A miss gets a fresh
    question; a second miss shows the full working. A lesson left part-way carries on where it stopped.
    English adds fill-the-blank, word-order and matching questions (all by tapping), and two writing lessons done on
@@ -40,6 +40,7 @@ npm run build:site                    # builds site/ (what Vercel and GitHub Pag
 npm run review                        # regenerates content/maths/REVIEW.md
 npm run review:english                # regenerates content/english/REVIEW.md and AUTHORED.md
 npm run review:physics                # regenerates content/physics/REVIEW.md, AUTHORED.md and figures/
+npm run review:chemistry              # regenerates content/chemistry/REVIEW.md, AUTHORED.md and figures/
 ```
 
 Every push to `main` runs all the tests and, only if they pass, publishes the site to GitHub Pages
@@ -52,6 +53,7 @@ Every push to `main` runs all the tests and, only if they pass, publishes the si
 | `content/maths/` | Lessons 0–16: notes, teach cards, worked examples, question templates (all drafts) |
 | `content/english/` | English Lessons 1–16 (Batch E1, drafts): 11 with practice, 2 paper tasks (writing), 3 speech-work lessons deferred |
 | `content/physics/` | Physics Lessons 1–19 (Batch P1, drafts): measurement questions come with drawn rulers, cylinders and thermometers |
+| `content/chemistry/` | Chemistry Lessons 1–21 (Batch C1, drafts): atom counts from formulas are computed by code |
 | `src/engine/` | The question engine: answers are always computed by code, never by a person or an AI |
 | `tools/` | Sheet parser, review generators, prototype and site builders |
 | `docs/` | `teacher-review.md` (everything a teacher should check, P1 first) and `phase3-spec.md` |

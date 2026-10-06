@@ -1,0 +1,309 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "ch8",
+   "name": "Measuring time and temperature"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Time is measured with a stopwatch or stop clock. The SI unit is the second (s): 1 min = 60 s; 1 h = 60 min = 3600 s. In experiments we often time how long a reaction or a change takes: time taken = finishing time − starting time.\nTemperature is measured with a thermometer, in degrees Celsius (°C); the SI unit is the kelvin (K): T(K) = T(°C) + 273.\nUse the thermometer carefully: hold it in the liquid without touching the bottom of the beaker, wait until the reading stops changing, and read with your eye level with the top of the liquid. Pure water boils at 100 °C and pure ice melts at 0 °C.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 2,
+   "s": 35
+  },
+  "problem": "Magnesium ribbon fizzes in acid for {m} min {s} s. How many seconds is that?",
+  "steps": [
+   "1 min = {convertUnit(1, 'min', 's')} s, so {m} min = {convertUnit(m, 'min', 's')} s.",
+   "{convertUnit(m, 'min', 's')} + {s} = {convertUnit(m, 'min', 's') + s} s."
+  ],
+  "answer": "{convertUnit(m, 'min', 's') + s} s",
+  "checks": [
+   "convertUnit(m, 'min', 's') + s == 155"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc8-1",
+    "status": "draft",
+    "idea": "Time: a stopwatch. 1 min = {convertUnit(1, 'min', 's')} s and 1 h = {convertUnit(1, 'h', 'min')} min.",
+    "vars": {
+     "m": 3
+    },
+    "example": [
+     "{m} min = {convertUnit(m, 'min', 's')} s."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch8-time"
+    }
+   },
+   {
+    "id": "chc8-2",
+    "status": "draft",
+    "idea": "Temperature: a thermometer, in °C. Keep the bulb in the liquid, not touching the beaker, and wait for the reading to stop changing.",
+    "vars": {
+     "t": 42
+    },
+    "example": [
+     "This thermometer shows {t} °C."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch8-read"
+    },
+    "figure": "thermometer(t, 0)"
+   },
+   {
+    "id": "chc8-3",
+    "status": "draft",
+    "idea": "In kelvin: T(K) = T(°C) + {toKelvin(0)}.",
+    "vars": {
+     "b": 100
+    },
+    "example": [
+     "Boiling water: {b} °C = {toKelvin(b)} K."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch8-k"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch8-time",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "s": {
+     "int": [
+      5,
+      55
+     ]
+    }
+   },
+   "prompt": "A reaction takes {m} min {s} s. How many seconds is that?",
+   "answer": "convertUnit(m, 'min', 's') + s",
+   "unit": "s",
+   "misconceptions": [
+    {
+     "id": "hundred",
+     "wrong": "100 * m + s",
+     "explain": "One minute is 60 seconds, not 100."
+    }
+   ],
+   "solution": [
+    "{m} min = {m} × {convertUnit(1, 'min', 's')} = {convertUnit(m, 'min', 's')} s.",
+    "{convertUnit(m, 'min', 's')} + {s} = {answer} s."
+   ]
+  },
+  {
+   "id": "ch8-read",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      3,
+      47
+     ]
+    }
+   },
+   "figure": "thermometer(t, 0)",
+   "prompt": "What temperature does the thermometer show?",
+   "answer": "t",
+   "unit": "°C",
+   "misconceptions": [
+    {
+     "id": "next",
+     "wrong": "t + 10",
+     "explain": "Count the small marks after the last number: each one is 1 °C."
+    }
+   ],
+   "solution": [
+    "Each small mark is 1 °C.",
+    "The liquid ends at {answer} °C."
+   ]
+  },
+  {
+   "id": "ch8-k",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      -10,
+      110
+     ]
+    }
+   },
+   "prompt": "Change {t} °C into kelvin.",
+   "answer": "toKelvin(t)",
+   "unit": "K",
+   "misconceptions": [
+    {
+     "id": "minus",
+     "wrong": "t - 273",
+     "explain": "From °C to K, add 273."
+    }
+   ],
+   "solution": [
+    "T(K) = {t} + {toKelvin(0)}.",
+    "= {answer} K."
+   ]
+  },
+  {
+   "id": "ch8-taken",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      40
+     ]
+    },
+    "d": {
+     "int": [
+      15,
+      140
+     ]
+    }
+   },
+   "prompt": "The stopwatch read {a} s when a piece of chalk was dropped into acid, and {a + d} s when the fizzing stopped. How long did the fizzing last?",
+   "answer": "d",
+   "unit": "s",
+   "misconceptions": [
+    {
+     "id": "end",
+     "wrong": "a + d",
+     "explain": "That is the finishing reading. Time taken = finish − start."
+    }
+   ],
+   "solution": [
+    "Time taken = finish − start = {a + d} − {a}.",
+    "= {answer} s."
+   ]
+  },
+  {
+   "id": "ch8-rise",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      18,
+      30
+     ]
+    },
+    "r": {
+     "int": [
+      4,
+      40
+     ]
+    }
+   },
+   "prompt": "When sodium hydroxide dissolves in water, the temperature rises from {a} °C to {a + r} °C. By how many degrees does it rise?",
+   "answer": "r",
+   "unit": "°C",
+   "misconceptions": [
+    {
+     "id": "end",
+     "wrong": "a + r",
+     "explain": "That is the final temperature. The rise is final − start."
+    }
+   ],
+   "solution": [
+    "Rise = {a + r} − {a}.",
+    "= {answer} °C."
+   ]
+  },
+  {
+   "id": "ch8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "One minute is 60 seconds.",
+      "truth": "true"
+     },
+     {
+      "text": "A thermometer bulb should not touch the bottom of the beaker.",
+      "truth": "true"
+     },
+     {
+      "text": "0 °C is 273 K.",
+      "truth": "true"
+     },
+     {
+      "text": "Time taken = finishing time − starting time.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "One minute is 100 seconds.",
+      "truth": "false",
+      "explain": "One minute is 60 seconds."
+     },
+     {
+      "text": "Read the thermometer as soon as you put it in.",
+      "truth": "false",
+      "explain": "Wait until the reading stops changing."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

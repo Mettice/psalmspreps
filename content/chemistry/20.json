@@ -1,0 +1,609 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "ch20",
+   "name": "Compounds and formulas"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A compound is a pure substance made of two or more elements chemically joined in a fixed ratio. Its properties are different from those of its elements: sodium (a soft, dangerous metal) and chlorine (a poisonous gas) join to make sodium chloride, the salt we eat.\nA formula shows which elements are in a compound and how many atoms of each. The small number after a symbol counts the atoms just before it; no number means one.\n• H₂O (water): 2 hydrogen atoms, 1 oxygen atom.\n• CO₂ (carbon dioxide): 1 carbon, 2 oxygen.\n• CaCO₃ (calcium carbonate): 1 calcium, 1 carbon, 3 oxygen.\nA compound can only be split into its elements by a chemical reaction.",
+  "checks": [
+   "atomCount('CaCO3', 'O') == 3",
+   "totalAtoms('H2O') == 3"
+  ]
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "H2SO4"
+  },
+  "problem": "Sulfuric acid has the formula {formula(f)}. Which elements does it contain, and how many atoms of each?",
+  "steps": [
+   "Read the symbols: {symbolsIn(f)}, that is {elementNames(f)}.",
+   "The small numbers: H has {atomCount(f, 'H')}, S has {atomCount(f, 'S')} (no number means one), O has {atomCount(f, 'O')}.",
+   "Total: {atomCount(f, 'H')} + {atomCount(f, 'S')} + {atomCount(f, 'O')} = {totalAtoms(f)} atoms."
+  ],
+  "answer": "{elementNames(f)}: {atomList(f)} ({totalAtoms(f)} atoms in all).",
+  "checks": [
+   "totalAtoms(f) == 7"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc20-1",
+    "status": "draft",
+    "idea": "A compound has two or more elements chemically joined, with new properties.",
+    "vars": {},
+    "example": [
+     "Sodium + chlorine → sodium chloride, the salt we eat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch20-elements"
+    }
+   },
+   {
+    "id": "chc20-2",
+    "status": "draft",
+    "idea": "In a formula, the small number counts the atoms of the symbol just before it. No number means one.",
+    "vars": {
+     "f": "CO2"
+    },
+    "example": [
+     "{formula(f)}: {atomList(f)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch20-count"
+    }
+   },
+   {
+    "id": "chc20-3",
+    "status": "draft",
+    "idea": "Add the numbers to find the total atoms in one unit of the compound.",
+    "vars": {
+     "f": "CaCO3"
+    },
+    "example": [
+     "{formula(f)}: {totalAtoms(f)} atoms."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch20-total-l1"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch20-elements",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      {
+       "f": "H2O",
+       "n": "water"
+      },
+      {
+       "f": "CO2",
+       "n": "carbon dioxide"
+      },
+      {
+       "f": "NaCl",
+       "n": "sodium chloride (table salt)"
+      },
+      {
+       "f": "CaCO3",
+       "n": "calcium carbonate (chalk, limestone)"
+      },
+      {
+       "f": "H2SO4",
+       "n": "sulfuric acid"
+      },
+      {
+       "f": "NH3",
+       "n": "ammonia"
+      },
+      {
+       "f": "CH4",
+       "n": "methane"
+      },
+      {
+       "f": "C6H12O6",
+       "n": "glucose"
+      },
+      {
+       "f": "MgO",
+       "n": "magnesium oxide"
+      },
+      {
+       "f": "CuSO4",
+       "n": "copper(II) sulfate"
+      }
+     ]
+    }
+   },
+   "prompt": "Which elements are in {c.n}, {formula(c.f)}?",
+   "correct": "{elementNames(c.f)}",
+   "distractors": [
+    {
+     "text": "{elementNames(c.f == 'H2O' ? 'CO2' : 'H2O')}",
+     "misconception": "other"
+    },
+    {
+     "text": "{elementNames(c.f == 'NaCl' ? 'MgO' : 'NaCl')}",
+     "misconception": "other"
+    },
+    {
+     "text": "{elementNames(c.f == 'CH4' ? 'NH3' : 'CH4')}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Read each symbol in the formula: a capital letter starts a new element."
+    }
+   ],
+   "solution": [
+    "{formula(c.f)}: the symbols are {symbolsIn(c.f)}.",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "ch20-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      {
+       "f": "H2O",
+       "n": "water"
+      },
+      {
+       "f": "CO2",
+       "n": "carbon dioxide"
+      },
+      {
+       "f": "NaCl",
+       "n": "sodium chloride (table salt)"
+      },
+      {
+       "f": "CaCO3",
+       "n": "calcium carbonate (chalk, limestone)"
+      },
+      {
+       "f": "H2SO4",
+       "n": "sulfuric acid"
+      },
+      {
+       "f": "NH3",
+       "n": "ammonia"
+      },
+      {
+       "f": "CH4",
+       "n": "methane"
+      },
+      {
+       "f": "C6H12O6",
+       "n": "glucose"
+      },
+      {
+       "f": "MgO",
+       "n": "magnesium oxide"
+      },
+      {
+       "f": "CuSO4",
+       "n": "copper(II) sulfate"
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      3
+     ]
+    }
+   },
+   "where": "k < elementCount(c.f)",
+   "prompt": "How many {nameOf(symbolsIn(c.f)[k])} atoms are in one unit of {formula(c.f)}?",
+   "answer": "atomCount(c.f, symbolsIn(c.f)[k])",
+   "misconceptions": [
+    {
+     "id": "total",
+     "wrong": "totalAtoms(c.f)",
+     "explain": "That is all the atoms. Count only the {nameOf(symbolsIn(c.f)[k])} atoms."
+    }
+   ],
+   "solution": [
+    "In {formula(c.f)}, look at the number after {symbolsIn(c.f)[k]} (no number means one).",
+    "{symbolsIn(c.f)[k]}: {answer}."
+   ]
+  },
+  {
+   "id": "ch20-total-l1",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      {
+       "f": "H2O",
+       "n": "water"
+      },
+      {
+       "f": "CO2",
+       "n": "carbon dioxide"
+      },
+      {
+       "f": "NaCl",
+       "n": "sodium chloride (table salt)"
+      },
+      {
+       "f": "CaCO3",
+       "n": "calcium carbonate (chalk, limestone)"
+      },
+      {
+       "f": "H2SO4",
+       "n": "sulfuric acid"
+      },
+      {
+       "f": "NH3",
+       "n": "ammonia"
+      },
+      {
+       "f": "CH4",
+       "n": "methane"
+      },
+      {
+       "f": "C6H12O6",
+       "n": "glucose"
+      },
+      {
+       "f": "MgO",
+       "n": "magnesium oxide"
+      },
+      {
+       "f": "CuSO4",
+       "n": "copper(II) sulfate"
+      }
+     ]
+    }
+   },
+   "prompt": "How many atoms in total are in one unit of {formula(c.f)}?",
+   "answer": "totalAtoms(c.f)",
+   "misconceptions": [
+    {
+     "id": "elements",
+     "wrong": "elementCount(c.f)",
+     "explain": "That is the number of different elements. Count all the atoms."
+    }
+   ],
+   "solution": [
+    "{formula(c.f)}: {atomList(c.f)}.",
+    "Total = {answer} atoms."
+   ]
+  },
+  {
+   "id": "ch20-many",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      {
+       "f": "H2O",
+       "n": "water"
+      },
+      {
+       "f": "CO2",
+       "n": "carbon dioxide"
+      },
+      {
+       "f": "NaCl",
+       "n": "sodium chloride (table salt)"
+      },
+      {
+       "f": "CaCO3",
+       "n": "calcium carbonate (chalk, limestone)"
+      },
+      {
+       "f": "H2SO4",
+       "n": "sulfuric acid"
+      },
+      {
+       "f": "NH3",
+       "n": "ammonia"
+      },
+      {
+       "f": "CH4",
+       "n": "methane"
+      },
+      {
+       "f": "C6H12O6",
+       "n": "glucose"
+      },
+      {
+       "f": "MgO",
+       "n": "magnesium oxide"
+      },
+      {
+       "f": "CuSO4",
+       "n": "copper(II) sulfate"
+      }
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      2
+     ]
+    }
+   },
+   "where": "k < elementCount(c.f)",
+   "prompt": "How many {nameOf(symbolsIn(c.f)[k])} atoms are in {n} units of {formula(c.f)}?",
+   "answer": "n * atomCount(c.f, symbolsIn(c.f)[k])",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "atomCount(c.f, symbolsIn(c.f)[k])",
+     "explain": "That is for one unit. There are {n} units: multiply."
+    }
+   ],
+   "solution": [
+    "One unit of {formula(c.f)} has {atomCount(c.f, symbolsIn(c.f)[k])} {symbolsIn(c.f)[k]}.",
+    "{n} × {atomCount(c.f, symbolsIn(c.f)[k])} = {answer}."
+   ]
+  },
+  {
+   "id": "ch20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      {
+       "f": "H2O",
+       "n": "water"
+      },
+      {
+       "f": "CO2",
+       "n": "carbon dioxide"
+      },
+      {
+       "f": "NaCl",
+       "n": "sodium chloride (table salt)"
+      },
+      {
+       "f": "CaCO3",
+       "n": "calcium carbonate (chalk, limestone)"
+      },
+      {
+       "f": "H2SO4",
+       "n": "sulfuric acid"
+      },
+      {
+       "f": "NH3",
+       "n": "ammonia"
+      },
+      {
+       "f": "CH4",
+       "n": "methane"
+      },
+      {
+       "f": "C6H12O6",
+       "n": "glucose"
+      },
+      {
+       "f": "MgO",
+       "n": "magnesium oxide"
+      },
+      {
+       "f": "CuSO4",
+       "n": "copper(II) sulfate"
+      }
+     ]
+    },
+    "b": {
+     "pick": [
+      {
+       "f": "H2O",
+       "n": "water"
+      },
+      {
+       "f": "CO2",
+       "n": "carbon dioxide"
+      },
+      {
+       "f": "NaCl",
+       "n": "sodium chloride (table salt)"
+      },
+      {
+       "f": "CaCO3",
+       "n": "calcium carbonate (chalk, limestone)"
+      },
+      {
+       "f": "H2SO4",
+       "n": "sulfuric acid"
+      },
+      {
+       "f": "NH3",
+       "n": "ammonia"
+      },
+      {
+       "f": "CH4",
+       "n": "methane"
+      },
+      {
+       "f": "C6H12O6",
+       "n": "glucose"
+      },
+      {
+       "f": "MgO",
+       "n": "magnesium oxide"
+      },
+      {
+       "f": "CuSO4",
+       "n": "copper(II) sulfate"
+      }
+     ]
+    },
+    "c": {
+     "pick": [
+      {
+       "f": "H2O",
+       "n": "water"
+      },
+      {
+       "f": "CO2",
+       "n": "carbon dioxide"
+      },
+      {
+       "f": "NaCl",
+       "n": "sodium chloride (table salt)"
+      },
+      {
+       "f": "CaCO3",
+       "n": "calcium carbonate (chalk, limestone)"
+      },
+      {
+       "f": "H2SO4",
+       "n": "sulfuric acid"
+      },
+      {
+       "f": "NH3",
+       "n": "ammonia"
+      },
+      {
+       "f": "CH4",
+       "n": "methane"
+      },
+      {
+       "f": "C6H12O6",
+       "n": "glucose"
+      },
+      {
+       "f": "MgO",
+       "n": "magnesium oxide"
+      },
+      {
+       "f": "CuSO4",
+       "n": "copper(II) sulfate"
+      }
+     ]
+    },
+    "d": {
+     "pick": [
+      {
+       "f": "H2O",
+       "n": "water"
+      },
+      {
+       "f": "CO2",
+       "n": "carbon dioxide"
+      },
+      {
+       "f": "NaCl",
+       "n": "sodium chloride (table salt)"
+      },
+      {
+       "f": "CaCO3",
+       "n": "calcium carbonate (chalk, limestone)"
+      },
+      {
+       "f": "H2SO4",
+       "n": "sulfuric acid"
+      },
+      {
+       "f": "NH3",
+       "n": "ammonia"
+      },
+      {
+       "f": "CH4",
+       "n": "methane"
+      },
+      {
+       "f": "C6H12O6",
+       "n": "glucose"
+      },
+      {
+       "f": "MgO",
+       "n": "magnesium oxide"
+      },
+      {
+       "f": "CuSO4",
+       "n": "copper(II) sulfate"
+      }
+     ]
+    }
+   },
+   "where": "a.f != b.f && a.f != c.f && b.f != c.f && d.f != a.f && d.f != b.f && d.f != c.f && totalAtoms(d.f) > 2",
+   "prompt": "One line counts the atoms wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "{formula(a.f)} has {totalAtoms(a.f)} atoms in all.",
+      "truth": "true"
+     },
+     {
+      "text": "{formula(b.f)} has {totalAtoms(b.f)} atoms in all.",
+      "truth": "true"
+     },
+     {
+      "text": "{formula(c.f)} has {totalAtoms(c.f)} atoms in all.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "{formula(d.f)} has {elementCount(d.f)} atoms in all.",
+      "truth": "elementCount(d.f) == totalAtoms(d.f)",
+      "explain": "{formula(d.f)} has {elementCount(d.f)} different elements, but {totalAtoms(d.f)} atoms in all ({atomList(d.f)})."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

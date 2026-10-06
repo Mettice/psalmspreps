@@ -1,0 +1,285 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "ch17",
+   "name": "Separating liquid–gas mixtures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Some gases dissolve in liquids: carbon dioxide in a soft drink, oxygen in river water (fish breathe it).\nA gas is less soluble when the liquid is warmer or when the pressure falls, so a dissolved gas can be removed by:\n• heating the liquid gently: bubbles of gas come out (warm water holds less gas);\n• shaking or stirring, or lowering the pressure: when you open a soft drink, the pressure drops and the gas fizzes out.\nThe gas can be collected over water in a gas jar or test tube.\nThis is why a soft drink goes “flat” when it is open and warm, and why fish can struggle in water that is too warm.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why does a warm bottle of soft drink fizz more than a cold one when it is opened?",
+  "steps": [
+   "The drink has carbon dioxide dissolved in it under pressure.",
+   "Opening the bottle lowers the pressure, so gas comes out.",
+   "Warm liquid holds less dissolved gas than cold liquid, so even more gas escapes."
+  ],
+  "answer": "Warm liquid holds less gas, so more carbon dioxide escapes when the pressure is released.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc17-1",
+    "status": "draft",
+    "idea": "Gases can dissolve in liquids: carbon dioxide in a soft drink, oxygen in river water.",
+    "vars": {},
+    "example": [
+     "Fish use the oxygen dissolved in water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch17-which"
+    }
+   },
+   {
+    "id": "chc17-2",
+    "status": "draft",
+    "idea": "Heating a liquid drives out the dissolved gas: warm water holds less gas.",
+    "vars": {},
+    "example": [
+     "Bubbles appear in water being heated before it boils."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch17-heat"
+    }
+   },
+   {
+    "id": "chc17-3",
+    "status": "draft",
+    "idea": "Lowering the pressure or shaking also lets the gas escape.",
+    "vars": {},
+    "example": [
+     "Opening a soft drink: the pressure drops and it fizzes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc17-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "separation"
+     ],
+     "vars": {},
+     "prompt": "Why does a soft drink fizz when the bottle is opened?",
+     "pool": {
+      "right": [
+       {
+        "text": "The pressure drops, so the dissolved carbon dioxide comes out.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The drink starts to boil.",
+        "truth": "false",
+        "explain": "It does not boil; the dissolved gas escapes."
+       },
+       {
+        "text": "Air rushes into the drink.",
+        "truth": "false",
+        "explain": "The bubbles are carbon dioxide coming out of the drink."
+       },
+       {
+        "text": "The sugar turns into gas.",
+        "truth": "false",
+        "explain": "The gas was already dissolved: it is carbon dioxide."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch17-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "Which of these is a mixture of a gas dissolved in a liquid?",
+   "pool": {
+    "right": [
+     {
+      "text": "a soft drink",
+      "truth": "true"
+     },
+     {
+      "text": "river water with oxygen in it",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "sand and salt",
+      "truth": "false",
+      "explain": "That is solid–solid."
+     },
+     {
+      "text": "palm oil and water",
+      "truth": "false",
+      "explain": "That is liquid–liquid."
+     },
+     {
+      "text": "air",
+      "truth": "false",
+      "explain": "That is gas–gas."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch17-heat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "How can you remove the dissolved gas from a glass of soft drink?",
+   "pool": {
+    "right": [
+     {
+      "text": "Warm it gently and stir it.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Put it in the fridge.",
+      "truth": "false",
+      "explain": "Cold liquid holds more gas, not less."
+     },
+     {
+      "text": "Add more sugar.",
+      "truth": "false",
+      "explain": "Sugar does not remove the gas."
+     },
+     {
+      "text": "Filter it.",
+      "truth": "false",
+      "explain": "A filter cannot hold back a dissolved gas."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch17-fish",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "In the dry season, a fish pond becomes very warm. Why can this harm the fish?",
+   "pool": {
+    "right": [
+     {
+      "text": "Warm water holds less dissolved oxygen, so the fish have less to breathe.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Warm water has more oxygen, which is poisonous.",
+      "truth": "false",
+      "explain": "Warm water holds less oxygen, not more."
+     },
+     {
+      "text": "The fish get sunburnt.",
+      "truth": "false",
+      "explain": "The main problem is less dissolved oxygen."
+     },
+     {
+      "text": "Warm water turns into carbon dioxide.",
+      "truth": "false",
+      "explain": "Water does not turn into carbon dioxide."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Opening a soft drink lowers the pressure.",
+      "truth": "true"
+     },
+     {
+      "text": "Fish breathe oxygen dissolved in water.",
+      "truth": "true"
+     },
+     {
+      "text": "A dissolved gas can be collected over water.",
+      "truth": "true"
+     },
+     {
+      "text": "Warm water holds less dissolved gas than cold water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cold water holds less dissolved gas than warm water.",
+      "truth": "false",
+      "explain": "It is the other way round: cold water holds more gas."
+     },
+     {
+      "text": "Filtering removes dissolved gas from a drink.",
+      "truth": "false",
+      "explain": "A filter cannot stop a dissolved gas."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

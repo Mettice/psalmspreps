@@ -1,0 +1,334 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "ch15",
+   "name": "Separating solid–liquid mixtures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Solid–liquid mixtures:\n• Decantation: let the solid settle, then gently pour off the liquid.\n• Filtration: pour through filter paper in a funnel. The solid left on the paper is the residue; the liquid that passes through is the filtrate.\n• Evaporation: heat a solution until the water has gone and the dissolved solid is left (salt from salt water).\n• Crystallisation: heat the solution until it is strong, then let it cool slowly: crystals form (copper(II) sulfate).\n• Simple distillation: boil the solution, cool the vapour in a condenser and collect the pure liquid (the distillate): pure water from salt water.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ayuk wants drinking water from salt water and wants to keep the water, not the salt. Which method?",
+  "steps": [
+   "Evaporation would lose the water into the air.",
+   "Simple distillation boils the water, then cools the steam in a condenser so it turns back into liquid water.",
+   "The salt stays behind in the flask."
+  ],
+  "answer": "Simple distillation.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc15-1",
+    "status": "draft",
+    "idea": "Filtration: the solid stays on the filter paper (residue); the liquid passes through (filtrate).",
+    "vars": {},
+    "example": [
+     "Muddy water → filtrate (clear water) + residue (mud)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch15-method"
+    }
+   },
+   {
+    "id": "chc15-2",
+    "status": "draft",
+    "idea": "Evaporation keeps the dissolved solid; distillation keeps the liquid too.",
+    "vars": {},
+    "example": [
+     "Salt water: evaporate to get salt; distil to get pure water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch15-match"
+    }
+   },
+   {
+    "id": "chc15-3",
+    "status": "draft",
+    "idea": "Decantation: let the solid settle, then pour off the liquid gently.",
+    "vars": {},
+    "example": [
+     "Water from a bucket of muddy water left overnight."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc15-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "separation"
+     ],
+     "vars": {},
+     "prompt": "In filtration, what is the filtrate?",
+     "pool": {
+      "right": [
+       {
+        "text": "the liquid that passes through the filter paper",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "the solid left on the filter paper",
+        "truth": "false",
+        "explain": "That is the residue."
+       },
+       {
+        "text": "the filter paper itself",
+        "truth": "false",
+        "explain": "The filtrate is the liquid that passes through."
+       },
+       {
+        "text": "the steam from the liquid",
+        "truth": "false",
+        "explain": "Steam comes from distillation or evaporation, not filtration."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch15-method",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "water from settled sand in a bucket",
+       "a": "decantation",
+       "why": "To separate water from settled sand in a bucket, use decantation."
+      },
+      {
+       "t": "sand from muddy water",
+       "a": "filtration",
+       "why": "To separate sand from muddy water, use filtration."
+      },
+      {
+       "t": "salt from salt water",
+       "a": "evaporation",
+       "why": "To separate salt from salt water, use evaporation."
+      },
+      {
+       "t": "copper(II) sulfate crystals from its solution",
+       "a": "crystallisation",
+       "why": "To separate copper(II) sulfate crystals from its solution, use crystallisation."
+      },
+      {
+       "t": "pure water from salt water",
+       "a": "simple distillation",
+       "why": "To separate pure water from salt water, use simple distillation."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method would you use to get {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "decantation",
+     "misconception": "other"
+    },
+    {
+     "text": "filtration",
+     "misconception": "other"
+    },
+    {
+     "text": "evaporation",
+     "misconception": "other"
+    },
+    {
+     "text": "crystallisation",
+     "misconception": "other"
+    },
+    {
+     "text": "simple distillation",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That method gives a different product. Do you want to keep the solid, the liquid, or both?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch15-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "prompt": "Match each method with how it works.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "decantation",
+     "right": "let the solid settle, then pour off the liquid"
+    },
+    {
+     "left": "filtration",
+     "right": "pass through filter paper: the solid stays (residue), the liquid passes (filtrate)"
+    },
+    {
+     "left": "evaporation",
+     "right": "heat to drive off the liquid and keep the dissolved solid"
+    },
+    {
+     "left": "crystallisation",
+     "right": "heat to make a hot, strong solution, then let it cool to form crystals"
+    },
+    {
+     "left": "simple distillation",
+     "right": "boil the liquid and cool the vapour to collect the pure liquid"
+    }
+   ]
+  },
+  {
+   "id": "ch15-distil",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "order": "as_written",
+   "vars": {},
+   "prompt": "Put the steps of simple distillation of salt water in order.",
+   "items": [
+    {
+     "text": "Heat the salt water in a flask until it boils."
+    },
+    {
+     "text": "Steam rises into the condenser."
+    },
+    {
+     "text": "Cold water around the condenser cools the steam into liquid water."
+    },
+    {
+     "text": "Pure water (the distillate) drips into a beaker; the salt stays in the flask."
+    }
+   ]
+  },
+  {
+   "id": "ch15-words",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "After filtering muddy water, which sentence is right?",
+   "pool": {
+    "right": [
+     {
+      "text": "The mud on the paper is the residue; the clear water is the filtrate.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The mud is the filtrate.",
+      "truth": "false",
+      "explain": "The filtrate is the liquid that passes through."
+     },
+     {
+      "text": "The clear water is the residue.",
+      "truth": "false",
+      "explain": "The residue is the solid left on the paper."
+     },
+     {
+      "text": "Both are distillates.",
+      "truth": "false",
+      "explain": "Distillate is the liquid collected in distillation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Filtration separates sand from water.",
+      "truth": "true"
+     },
+     {
+      "text": "Distillation can give pure water from salt water.",
+      "truth": "true"
+     },
+     {
+      "text": "Crystallisation gives copper(II) sulfate crystals.",
+      "truth": "true"
+     },
+     {
+      "text": "Decantation pours off a liquid above a settled solid.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Filtration separates salt from salt water.",
+      "truth": "false",
+      "explain": "Dissolved salt passes through the filter paper: use evaporation."
+     },
+     {
+      "text": "Evaporation lets you keep the water.",
+      "truth": "false",
+      "explain": "Evaporation loses the water into the air: use distillation to keep it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

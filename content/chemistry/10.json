@@ -1,0 +1,369 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "ch10",
+   "name": "States of matter and changes of state"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Matter exists as solid, liquid or gas.\n• Solid: fixed shape and volume. Liquid: fixed volume, takes the shape of its container. Gas: fills its container, can be compressed.\nChanges of state are physical changes:\n• melting (solid → liquid) at the melting point; ice melts at 0 °C;\n• freezing (liquid → solid);\n• evaporation and boiling (liquid → gas); water boils at 100 °C;\n• condensation (gas → liquid);\n• sublimation (solid → gas directly), for example iodine and ammonium chloride.\nA pure substance melts and boils at fixed temperatures; an impure one melts and boils over a range.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "solid",
+   "t": "gas"
+  },
+  "problem": "When iodine crystals are warmed gently, a purple gas appears and no liquid forms. What is this change called?",
+  "steps": [
+   "Iodine goes from {f} straight to {t}, with no liquid in between.",
+   "A {f} → {t} change is {processName(f, t)}."
+  ],
+  "answer": "{processName(f, t)}",
+  "checks": [
+   "processName(f, t) == 'sublimation'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc10-1",
+    "status": "draft",
+    "idea": "Solid, liquid and gas: a solid keeps its shape, a liquid takes the shape of its container, a gas fills its container.",
+    "vars": {},
+    "example": [
+     "Kerosene in a lamp takes the shape of the lamp."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch10-state"
+    }
+   },
+   {
+    "id": "chc10-2",
+    "status": "draft",
+    "idea": "Melting, freezing, evaporation, condensation and sublimation are changes of state: no new substance is made.",
+    "vars": {
+     "f": "solid",
+     "t": "gas"
+    },
+    "example": [
+     "Iodine: {f} → {t} is {processName(f, t)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch10-name"
+    }
+   },
+   {
+    "id": "chc10-3",
+    "status": "draft",
+    "idea": "A pure substance has a fixed melting point and boiling point. Pure water boils at {b} °C at normal pressure.",
+    "vars": {
+     "b": 100
+    },
+    "example": [
+     "Salt water boils above {b} °C: it is not pure."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc10-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "states"
+     ],
+     "vars": {},
+     "prompt": "How can we tell that a sample of water is pure?",
+     "pool": {
+      "right": [
+       {
+        "text": "It boils at exactly 100 °C at normal pressure.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "It looks clear.",
+        "truth": "false",
+        "explain": "Salt water also looks clear."
+       },
+       {
+        "text": "It has no smell.",
+        "truth": "false",
+        "explain": "Many impure liquids have no smell."
+       },
+       {
+        "text": "It is cold.",
+        "truth": "false",
+        "explain": "Temperature does not show purity; the boiling point does."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch10-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "states"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "f": "solid",
+       "t": "liquid"
+      },
+      {
+       "f": "liquid",
+       "t": "solid"
+      },
+      {
+       "f": "liquid",
+       "t": "gas"
+      },
+      {
+       "f": "gas",
+       "t": "liquid"
+      },
+      {
+       "f": "solid",
+       "t": "gas"
+      }
+     ]
+    }
+   },
+   "prompt": "A {p.f} changes into a {p.t}. What is this change called?",
+   "correct": "{processName(p.f, p.t)}",
+   "distractors": [
+    {
+     "text": "melting",
+     "misconception": "name"
+    },
+    {
+     "text": "freezing",
+     "misconception": "name"
+    },
+    {
+     "text": "evaporation",
+     "misconception": "name"
+    },
+    {
+     "text": "condensation",
+     "misconception": "name"
+    },
+    {
+     "text": "sublimation",
+     "misconception": "name"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "name",
+     "explain": "Not this one. Which state does it start in, and which does it end in?"
+    }
+   ],
+   "solution": [
+    "{p.f} → {p.t}: {answer}."
+   ]
+  },
+  {
+   "id": "ch10-state",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "states"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "keeps its own shape",
+       "a": "solid",
+       "why": "A solid keeps its own shape."
+      },
+      {
+       "t": "takes the shape of its container but keeps its volume",
+       "a": "liquid",
+       "why": "A liquid takes the shape of its container but keeps its volume."
+      },
+      {
+       "t": "spreads to fill the whole container",
+       "a": "gas",
+       "why": "A gas spreads to fill the whole container."
+      }
+     ]
+    }
+   },
+   "prompt": "Which state of matter {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "solid",
+     "misconception": "other"
+    },
+    {
+     "text": "liquid",
+     "misconception": "other"
+    },
+    {
+     "text": "gas",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think: does it keep its shape? its volume?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "ch10-example",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "states"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Iodine crystals warmed in a beaker give a purple gas, with no liquid.",
+       "a": "sublimation",
+       "why": "Iodine crystals warmed in a beaker give a purple gas, with no liquid. This is sublimation."
+      },
+      {
+       "t": "Candle wax becomes liquid near the flame.",
+       "a": "melting",
+       "why": "Candle wax becomes liquid near the flame. This is melting."
+      },
+      {
+       "t": "A mirror in the bathroom becomes covered with water drops.",
+       "a": "condensation",
+       "why": "A mirror in the bathroom becomes covered with water drops. This is condensation."
+      },
+      {
+       "t": "A puddle disappears in the afternoon sun.",
+       "a": "evaporation",
+       "why": "A puddle disappears in the afternoon sun. This is evaporation."
+      },
+      {
+       "t": "Hot lead poured into a mould becomes hard.",
+       "a": "freezing",
+       "why": "Hot lead poured into a mould becomes hard. This is freezing."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t} What change of state is this?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "melting",
+     "misconception": "other"
+    },
+    {
+     "text": "freezing",
+     "misconception": "other"
+    },
+    {
+     "text": "evaporation",
+     "misconception": "other"
+    },
+    {
+     "text": "condensation",
+     "misconception": "other"
+    },
+    {
+     "text": "sublimation",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Which state does it start in, and which does it end in?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "states"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Melting is a physical change.",
+      "truth": "true"
+     },
+     {
+      "text": "Iodine can sublime.",
+      "truth": "true"
+     },
+     {
+      "text": "A pure substance has a fixed boiling point.",
+      "truth": "true"
+     },
+     {
+      "text": "Condensation turns a gas into a liquid.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Salt water boils at exactly 100 °C.",
+      "truth": "false",
+      "explain": "Salt water is impure: it boils above 100 °C."
+     },
+     {
+      "text": "Boiling makes a new substance.",
+      "truth": "false",
+      "explain": "Steam is still water: boiling is a physical change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

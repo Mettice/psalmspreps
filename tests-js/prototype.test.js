@@ -1,4 +1,4 @@
-// The prototype (readiness + Maths 1–16 + English E1 + Physics P1) builds from the real engine and content, offline, under 640 KB.
+// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1) builds from the real engine and content, offline, under 800 KB.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
@@ -9,10 +9,10 @@ const FILE = new URL("tools/prototype/form1.html", ROOT);
 const page = () => readFileSync(FILE, "utf8");
 const constant = (html, name) => JSON.parse(html.match(new RegExp(`const ${name} = (.*);\\n`))[1]);
 
-test("prototype: builds under 640 KB, no external resources, engine runs", () => {
+test("prototype: builds under 800 KB, no external resources, engine runs", () => {
   execFileSync(process.execPath, [new URL("tools/prototype/build.mjs", ROOT).pathname.replace(/^\/([A-Za-z]:)/, "$1")]);
   const html = page();
-  assert.ok(Buffer.byteLength(html) < 640 * 1024, `${Buffer.byteLength(html)} bytes`);
+  assert.ok(Buffer.byteLength(html) < 800 * 1024, `${Buffer.byteLength(html)} bytes`);
   assert.doesNotMatch(html, /<script[^>]+src=|<link[^>]+href=|https?:\/\/(?!www\.w3\.org)/, "must not load anything from the network");
   assert.doesNotMatch(html, /indexedDB|fetch\(|XMLHttpRequest|sendBeacon|WebSocket/, "must not send data");
   // Progress is saved in this browser only (2026-10-05): one key, every access wrapped in try/catch.
@@ -35,15 +35,20 @@ test("prototype: builds under 640 KB, no external resources, engine runs", () =>
   const pq = ENGINE.template.instantiate(p16.questions.find((t) => t.id === "p16-cyl"), 5, ENGINE.libs.physics, 16);
   assert.match(pq.figure, /^<svg /);
   assert.deepEqual(ENGINE.template.check(pq, pq.answer), { correct: true });
+  // Chemistry: atom counts come from the inlined formula parser.
+  const c20 = JSON.parse(readFileSync(new URL("content/chemistry/20.json", ROOT), "utf8"));
+  const cq = ENGINE.template.instantiate(c20.questions.find((t) => t.id === "ch20-count"), 5, ENGINE.libs.chemistry, 20);
+  assert.deepEqual(ENGINE.template.check(cq, cq.answer), { correct: true });
 });
 
-test("prototype: Maths 1–16, English E1 and Physics P1 are in the page; deferred speech work is not", () => {
+test("prototype: Maths 1–16, English E1, Physics P1 and Chemistry C1 are in the page; deferred speech work is not", () => {
   const html = page();
   const content = constant(html, "CONTENT"), titles = constant(html, "TITLES"), lessons = constant(html, "LESSONS");
   assert.deepEqual(lessons.maths, Array.from({ length: 16 }, (_, i) => i + 1));
   assert.deepEqual(lessons.english, [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16]);
   assert.deepEqual(lessons.physics, Array.from({ length: 19 }, (_, i) => i + 1));
-  for (const s of ["maths", "english", "physics"]) for (const n of lessons[s]) {
+  assert.deepEqual(lessons.chemistry, Array.from({ length: 21 }, (_, i) => i + 1));
+  for (const s of ["maths", "english", "physics", "chemistry"]) for (const n of lessons[s]) {
     assert.equal(content[s][n]?.lesson_no, n, `${s} ${n}`);
     assert.ok(titles[s][n], `${s} ${n} title`);
   }

@@ -9,14 +9,14 @@ import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
-const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
+const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
 // 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
 // The Phase 3 budget for the whole app is 2 MB.
-const MAX_BYTES = 640 * 1024;  // 640 KB with Physics P1 (2026-10-07)
-const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics" };
-const SPINE = { maths: "mathematics", english: "english-language", physics: "physics" };
+const MAX_BYTES = 800 * 1024;  // 640 KB with Physics P1; 800 KB with Chemistry C1 (2026-10-07); app budget 2 MB
+const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry" };
+const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry" };
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
-const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19) };  // released lessons per subject
+const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21) };  // released lessons per subject
 
 function bundleModule(path) {
   const src = read(`src/engine/${path}`);
@@ -119,7 +119,7 @@ details.grownup { margin-top: 12px; } details.grownup summary { min-height: 48px
 .figure { margin: 4px 0 14px; color: var(--fg); }
 .figure svg { display: block; width: 100%; height: auto; max-height: 300px; margin: 0 auto; }
 /* subjects */
-.subjects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 14px; }
+.subjects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 0 0 14px; }  /* 4 subjects: 2 × 2 at 360px */
 button.subject { padding: 10px 6px; }
 button.subject { margin: 0; text-align: center; font-weight: 700; }
 button.subject.on { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
@@ -183,7 +183,8 @@ const html = `<!doctype html>
 const __mods = {};
 ${ENGINE.map(bundleModule).join("\n")}
 const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
-    physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] } },
+    physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },
+    chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] } },
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${safeJson(content)};
 const TITLES = ${safeJson(titles)};

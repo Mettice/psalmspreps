@@ -1,0 +1,370 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "ch7",
+   "name": "Measuring mass and volume"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mass is measured with a balance, in kilograms (kg) or grams (g): 1 kg = 1000 g, 1 g = 1000 mg. In the laboratory we use a top-pan (electronic) balance. Put the empty container on first and press “zero” (tare), then add the substance: the screen shows only the substance's mass.\nVolume of a liquid is measured in cm³ or mL (1 cm³ = 1 mL; 1 L = 1000 cm³):\n• measuring cylinder for most volumes;\n• pipette or burette when the volume must be exact.\nRead the bottom of the meniscus with your eye level with it.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 52.4,
+   "t": 61.9
+  },
+  "problem": "A beaker has a mass of {b} g. With salt in it, the mass is {t} g. What is the mass of the salt?",
+  "steps": [
+   "Mass of the salt = mass with salt − mass of the empty beaker.",
+   "{t} − {b} = {t - b} g.",
+   "(With a tare button, set the empty beaker to zero and read the salt directly.)"
+  ],
+  "answer": "{t - b} g",
+  "checks": [
+   "t - b == 9.5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc7-1",
+    "status": "draft",
+    "idea": "Mass: use a balance. 1 kg = {factor('kg', 'g')} g, 1 g = {factor('g', 'mg')} mg.",
+    "vars": {
+     "m": 500
+    },
+    "example": [
+     "A packet of {m} g of salt has a mass of {convertUnit(m, 'g', 'kg')} kg."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch7-mass"
+    }
+   },
+   {
+    "id": "chc7-2",
+    "status": "draft",
+    "idea": "Weighing by difference: mass of substance = (container + substance) − container. Or press “zero” with the empty container on.",
+    "vars": {
+     "a": 30,
+     "b": 42
+    },
+    "example": [
+     "Empty dish {a} g; dish with sugar {b} g; sugar {b - a} g."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch7-diff"
+    }
+   },
+   {
+    "id": "chc7-3",
+    "status": "draft",
+    "idea": "Volume of a liquid: read the bottom of the meniscus in a measuring cylinder. 1 L = {factor('L', 'cm³')} cm³ and 1 mL = 1 cm³.",
+    "vars": {
+     "v": 34
+    },
+    "example": [
+     "This cylinder holds {v} cm³."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch7-cyl"
+    },
+    "figure": "cylinder(v, 50, 1)"
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch7-mass",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "a": "kg",
+       "b": "g"
+      },
+      {
+       "a": "g",
+       "b": "mg"
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      95
+     ]
+    },
+    "up": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Convert this mass: {up ? k / 10 : k * 10} {up ? p.a : p.b} = ? {up ? p.b : p.a}",
+   "answer": "up ? convertUnit(k / 10, p.a, p.b) : convertUnit(k * 10, p.b, p.a)",
+   "unit": "{up ? p.b : p.a}",
+   "misconceptions": [
+    {
+     "id": "wrong-way",
+     "wrong": "up ? convertUnit(k / 10, p.b, p.a) : convertUnit(k * 10, p.a, p.b)",
+     "explain": "You went the wrong way: to a smaller unit the number gets bigger."
+    }
+   ],
+   "solution": [
+    "1 {p.a} = {factor(p.a, p.b)} {p.b}.",
+    "{up ? 'Multiply' : 'Divide'} by {factor(p.a, p.b)}: {answer} {up ? p.b : p.a}."
+   ]
+  },
+  {
+   "id": "ch7-diff",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      250,
+      600
+     ]
+    },
+    "s": {
+     "int": [
+      15,
+      180
+     ]
+    }
+   },
+   "prompt": "An empty beaker has a mass of {a / 10} g. With copper(II) sulfate crystals in it, the mass is {(a + s) / 10} g. What is the mass of the crystals?",
+   "answer": "s / 10",
+   "unit": "g",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "(2 * a + s) / 10",
+     "explain": "Subtract the empty beaker from the total; do not add."
+    }
+   ],
+   "solution": [
+    "Crystals = total − empty beaker = {(a + s) / 10} − {a / 10}.",
+    "= {answer} g."
+   ]
+  },
+  {
+   "id": "ch7-cyl",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      8,
+      48
+     ]
+    },
+    "step": 1
+   },
+   "figure": "cylinder(v, 50, step)",
+   "prompt": "What volume of water is in the measuring cylinder, in cm³?",
+   "answer": "v",
+   "unit": "cm³",
+   "misconceptions": [
+    {
+     "id": "top",
+     "wrong": "v + step",
+     "explain": "Read at the bottom of the curved surface (the meniscus)."
+    }
+   ],
+   "hint": "Each small mark is {step} cm³. Look at the bottom of the curve.",
+   "solution": [
+    "Each small mark is {step} cm³.",
+    "The bottom of the meniscus is on {answer} cm³."
+   ]
+  },
+  {
+   "id": "ch7-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "a": "L",
+       "b": "mL"
+      },
+      {
+       "a": "L",
+       "b": "cm³"
+      },
+      {
+       "a": "dm³",
+       "b": "cm³"
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      95
+     ]
+    },
+    "up": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Convert this volume: {up ? k / 10 : k * 10} {up ? p.a : p.b} = ? {up ? p.b : p.a}",
+   "answer": "up ? convertUnit(k / 10, p.a, p.b) : convertUnit(k * 10, p.b, p.a)",
+   "unit": "{up ? p.b : p.a}",
+   "misconceptions": [
+    {
+     "id": "wrong-way",
+     "wrong": "up ? convertUnit(k / 10, p.b, p.a) : convertUnit(k * 10, p.a, p.b)",
+     "explain": "You went the wrong way: to a smaller unit the number gets bigger."
+    }
+   ],
+   "solution": [
+    "1 {p.a} = {factor(p.a, p.b)} {p.b}.",
+    "{up ? 'Multiply' : 'Divide'} by {factor(p.a, p.b)}: {answer} {up ? p.b : p.a}."
+   ]
+  },
+  {
+   "id": "ch7-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      40
+     ]
+    },
+    "b": {
+     "int": [
+      5,
+      40
+     ]
+    }
+   },
+   "prompt": "Tabe pours {a} cm³ of water and then {b} cm³ of dilute acid into a beaker. What volume of liquid is in the beaker, in cm³?",
+   "answer": "a + b",
+   "unit": "cm³",
+   "misconceptions": [
+    {
+     "id": "diff",
+     "wrong": "abs(a - b)",
+     "explain": "Both liquids are in the beaker: add the volumes."
+    }
+   ],
+   "solution": [
+    "Total = {a} + {b}.",
+    "= {answer} cm³."
+   ]
+  },
+  {
+   "id": "ch7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "measure-chem"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      20,
+      60
+     ]
+    },
+    "s": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "b": {
+     "int": [
+      20,
+      60
+     ]
+    },
+    "t": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "where": "a != b",
+   "prompt": "One result is worked out wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Empty beaker {a} g, beaker with salt {a + s} g: the salt is {s} g.",
+      "truth": "true"
+     },
+     {
+      "text": "{v} L = {convertUnit(v, 'L', 'cm³')} cm³.",
+      "truth": "true"
+     },
+     {
+      "text": "{v} kg = {convertUnit(v, 'kg', 'g')} g.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Empty beaker {b} g, beaker with sugar {b + t} g: the sugar is {2 * b + t} g.",
+      "truth": "false",
+      "explain": "Subtract: {b + t} − {b} = {t} g."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

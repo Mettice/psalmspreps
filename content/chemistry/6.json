@@ -1,0 +1,332 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "ch6",
+   "name": "Chemistry laboratory safety"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Chemistry safety rules:\n• Wear safety goggles (and a lab coat) when heating or using acids and alkalis.\n• Never taste anything. To smell a gas, waft it gently towards your nose with your hand.\n• When diluting, add acid slowly to water, never water to acid.\n• Point a test tube you are heating away from yourself and others.\n• Label every container; never put chemicals in drink bottles.\n• Do not return unused chemicals to the stock bottle; ask how to get rid of them.\n• Wash spills on skin with plenty of water and tell the teacher at once.\n• Wash your hands when you finish.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ewane spills a little dilute acid on his hand. What should he do?",
+  "steps": [
+   "Wash the hand at once under plenty of running water.",
+   "Tell the teacher straight away.",
+   "Do not rub the skin or put anything else on it unless the teacher says so."
+  ],
+  "answer": "Wash with plenty of water at once and tell the teacher.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc6-1",
+    "status": "draft",
+    "idea": "Never taste chemicals, and never smell a gas directly: waft it towards your nose with your hand.",
+    "vars": {},
+    "example": [
+     "Waft: move your hand over the test tube to bring a little of the smell towards you."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch6-sort"
+    }
+   },
+   {
+    "id": "chc6-2",
+    "status": "draft",
+    "idea": "When diluting, add acid to water, slowly. Point a heated test tube away from everyone.",
+    "vars": {},
+    "example": [
+     "Adding water to concentrated acid can make it boil and spit."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc6-2-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "safety-chem"
+     ],
+     "vars": {},
+     "prompt": "How should you dilute an acid?",
+     "pool": {
+      "right": [
+       {
+        "text": "Add the acid slowly to the water.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Add water quickly to the acid.",
+        "truth": "false",
+        "explain": "Water added to concentrated acid can make it boil and spit."
+       },
+       {
+        "text": "Mix them in a drink bottle.",
+        "truth": "false",
+        "explain": "Never use drink bottles for chemicals."
+       },
+       {
+        "text": "Heat the acid first.",
+        "truth": "false",
+        "explain": "Heating the acid makes it more dangerous."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "chc6-3",
+    "status": "draft",
+    "idea": "Spills on skin: wash with plenty of water at once and tell the teacher.",
+    "vars": {},
+    "example": [
+     "A splash in the eye: rinse with clean water for a long time and get help."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch6-what"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch6-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "safety-chem"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "safe",
+    "not safe"
+   ],
+   "prompt": "Is each action safe or not safe in the chemistry laboratory?",
+   "pool": [
+    {
+     "left": "Wear safety goggles when heating or using acids.",
+     "right": "safe"
+    },
+    {
+     "left": "Waft a smell towards your nose with your hand.",
+     "right": "safe"
+    },
+    {
+     "left": "Add acid to water, slowly, not water to acid.",
+     "right": "safe"
+    },
+    {
+     "left": "Point a heated test tube away from people.",
+     "right": "safe"
+    },
+    {
+     "left": "Label every container you fill.",
+     "right": "safe"
+    },
+    {
+     "left": "Wash your hands after the practical.",
+     "right": "safe"
+    },
+    {
+     "left": "Taste a chemical to identify it.",
+     "right": "not safe"
+    },
+    {
+     "left": "Smell a gas by putting your nose over the test tube.",
+     "right": "not safe"
+    },
+    {
+     "left": "Pour unused chemicals back into the stock bottle.",
+     "right": "not safe"
+    },
+    {
+     "left": "Eat your lunch at the laboratory bench.",
+     "right": "not safe"
+    },
+    {
+     "left": "Heat a test tube pointing at your neighbour.",
+     "right": "not safe"
+    },
+    {
+     "left": "Pour water into concentrated acid.",
+     "right": "not safe"
+    }
+   ]
+  },
+  {
+   "id": "ch6-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "safety-chem"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "acid splashes on your hand",
+       "a": "Wash it with plenty of running water and tell the teacher.",
+       "why": "If acid splashes on your hand: Wash it with plenty of running water and tell the teacher."
+      },
+      {
+       "t": "a chemical splashes into your eye",
+       "a": "Rinse the eye with clean water for a long time and get help at once.",
+       "why": "If a chemical splashes into your eye: Rinse the eye with clean water for a long time and get help at once."
+      },
+      {
+       "t": "you smell gas from the Bunsen burner tap",
+       "a": "Turn off the gas, open windows and tell the teacher.",
+       "why": "If you smell gas from the Bunsen burner tap: Turn off the gas, open windows and tell the teacher."
+      },
+      {
+       "t": "your classmate's test tube starts to spit while heating",
+       "a": "Move away and tell your classmate to point it away and stop heating.",
+       "why": "If your classmate's test tube starts to spit while heating: Move away and tell your classmate to point it away and stop heating."
+      }
+     ]
+    }
+   },
+   "prompt": "What should you do if {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Wash it with plenty of running water and tell the teacher.",
+     "misconception": "other"
+    },
+    {
+     "text": "Rinse the eye with clean water for a long time and get help at once.",
+     "misconception": "other"
+    },
+    {
+     "text": "Turn off the gas, open windows and tell the teacher.",
+     "misconception": "other"
+    },
+    {
+     "text": "Move away and tell your classmate to point it away and stop heating.",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is the right action for a different accident."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch6-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "safety-chem"
+   ],
+   "vars": {},
+   "prompt": "Why must we never pour unused chemicals back into the stock bottle?",
+   "pool": {
+    "right": [
+     {
+      "text": "It could spoil (contaminate) the whole bottle for everyone.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Because it wastes time.",
+      "truth": "false",
+      "explain": "The danger is contaminating the whole stock bottle."
+     },
+     {
+      "text": "Because the bottle is too small.",
+      "truth": "false",
+      "explain": "The real reason: the chemical may be dirty or mixed and spoil the stock."
+     },
+     {
+      "text": "Because the teacher wants to count them.",
+      "truth": "false",
+      "explain": "The reason is safety and purity: it could contaminate the stock."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "safety-chem"
+   ],
+   "vars": {},
+   "prompt": "One rule is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wear safety goggles when heating.",
+      "truth": "true"
+     },
+     {
+      "text": "Label every container you fill.",
+      "truth": "true"
+     },
+     {
+      "text": "Wash your hands after a practical.",
+      "truth": "true"
+     },
+     {
+      "text": "Waft a gas towards your nose to smell it.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Add water to concentrated acid.",
+      "truth": "false",
+      "explain": "Always add acid to water, slowly."
+     },
+     {
+      "text": "You may keep a chemical in an empty drink bottle if you label it.",
+      "truth": "false",
+      "explain": "Never use drink bottles: someone may drink from it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

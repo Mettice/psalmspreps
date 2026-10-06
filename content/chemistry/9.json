@@ -1,0 +1,386 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "ch9",
+   "name": "Physical and chemical changes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A physical change makes no new substance. Only the form or state changes, and it is often easy to reverse: ice melting, sugar dissolving, water boiling, cutting paper.\nA chemical change makes one or more new substances. It is usually hard to reverse: firewood burning, iron rusting, cooking an egg, palm wine or milk turning sour.\nSigns of a chemical change:\n• a gas is given off (bubbles, fizzing);\n• the colour changes;\n• heat or light is given out;\n• a new solid appears (a precipitate);\n• a new smell.\nSome physical changes also give bubbles (boiling) or change colour, so look for a new substance.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "When an egg is boiled, the clear liquid inside turns white and solid. Is this a physical or a chemical change?",
+  "steps": [
+   "The clear liquid becomes a white solid that does not turn back when it cools.",
+   "A new substance has formed and the change cannot be reversed."
+  ],
+  "answer": "A chemical change.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc9-1",
+    "status": "draft",
+    "idea": "A physical change makes no new substance and is often easy to reverse.",
+    "vars": {},
+    "example": [
+     "Ice → water → ice again: the same substance all the time."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch9-sort"
+    }
+   },
+   {
+    "id": "chc9-2",
+    "status": "draft",
+    "idea": "A chemical change makes a new substance and is hard to reverse.",
+    "vars": {},
+    "example": [
+     "Firewood burns to ash and smoke: you cannot turn the ash back into wood."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch9-which"
+    }
+   },
+   {
+    "id": "chc9-3",
+    "status": "draft",
+    "idea": "Signs of a chemical change: gas given off, colour change, heat or light given out, a new solid or a new smell.",
+    "vars": {},
+    "example": [
+     "A piece of chalk in vinegar fizzes: a gas is made."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch9-sign"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch9-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "changes"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "physical change",
+    "chemical change"
+   ],
+   "prompt": "Sort each change: physical or chemical?",
+   "pool": [
+    {
+     "left": "ice melting",
+     "right": "physical change"
+    },
+    {
+     "left": "sugar dissolving in tea",
+     "right": "physical change"
+    },
+    {
+     "left": "water boiling",
+     "right": "physical change"
+    },
+    {
+     "left": "cutting paper",
+     "right": "physical change"
+    },
+    {
+     "left": "breaking a glass",
+     "right": "physical change"
+    },
+    {
+     "left": "palm oil turning solid in the cold",
+     "right": "physical change"
+    },
+    {
+     "left": "grinding maize into flour",
+     "right": "physical change"
+    },
+    {
+     "left": "firewood burning",
+     "right": "chemical change"
+    },
+    {
+     "left": "an iron roof rusting",
+     "right": "chemical change"
+    },
+    {
+     "left": "cooking an egg",
+     "right": "chemical change"
+    },
+    {
+     "left": "palm wine turning sour",
+     "right": "chemical change"
+    },
+    {
+     "left": "milk going sour",
+     "right": "chemical change"
+    },
+    {
+     "left": "bread dough rising with yeast",
+     "right": "chemical change"
+    },
+    {
+     "left": "a match burning",
+     "right": "chemical change"
+    }
+   ]
+  },
+  {
+   "id": "ch9-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "changes"
+   ],
+   "vars": {},
+   "prompt": "Which of these is a chemical change?",
+   "pool": {
+    "right": [
+     {
+      "text": "firewood burning",
+      "truth": "true"
+     },
+     {
+      "text": "an iron roof rusting",
+      "truth": "true"
+     },
+     {
+      "text": "cooking an egg",
+      "truth": "true"
+     },
+     {
+      "text": "palm wine turning sour",
+      "truth": "true"
+     },
+     {
+      "text": "milk going sour",
+      "truth": "true"
+     },
+     {
+      "text": "bread dough rising with yeast",
+      "truth": "true"
+     },
+     {
+      "text": "a match burning",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "ice melting",
+      "truth": "false",
+      "explain": "Ice melting makes no new substance: it is a physical change."
+     },
+     {
+      "text": "sugar dissolving in tea",
+      "truth": "false",
+      "explain": "Sugar dissolving in tea makes no new substance: it is a physical change."
+     },
+     {
+      "text": "water boiling",
+      "truth": "false",
+      "explain": "Water boiling makes no new substance: it is a physical change."
+     },
+     {
+      "text": "cutting paper",
+      "truth": "false",
+      "explain": "Cutting paper makes no new substance: it is a physical change."
+     },
+     {
+      "text": "breaking a glass",
+      "truth": "false",
+      "explain": "Breaking a glass makes no new substance: it is a physical change."
+     },
+     {
+      "text": "palm oil turning solid in the cold",
+      "truth": "false",
+      "explain": "Palm oil turning solid in the cold makes no new substance: it is a physical change."
+     },
+     {
+      "text": "grinding maize into flour",
+      "truth": "false",
+      "explain": "Grinding maize into flour makes no new substance: it is a physical change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch9-sign",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "changes"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Bubbles of gas appear when chalk is put in vinegar.",
+       "a": "a gas is given off",
+       "why": "Bubbles of gas appear when chalk is put in vinegar. The sign is: a gas is given off."
+      },
+      {
+       "t": "A shiny iron nail turns orange-brown.",
+       "a": "the colour changes",
+       "why": "A shiny iron nail turns orange-brown. The sign is: the colour changes."
+      },
+      {
+       "t": "Burning kerosene gives out heat and light.",
+       "a": "heat or light is given out",
+       "why": "Burning kerosene gives out heat and light. The sign is: heat or light is given out."
+      },
+      {
+       "t": "Two clear liquids are mixed and a cloudy white solid appears.",
+       "a": "a new solid appears",
+       "why": "Two clear liquids are mixed and a cloudy white solid appears. The sign is: a new solid appears."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t} Which sign of a chemical change is this?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a gas is given off",
+     "misconception": "other"
+    },
+    {
+     "text": "the colour changes",
+     "misconception": "other"
+    },
+    {
+     "text": "heat or light is given out",
+     "misconception": "other"
+    },
+    {
+     "text": "a new solid appears",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Look again at what you can see happening."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch9-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "changes"
+   ],
+   "vars": {},
+   "prompt": "Water boils and gives bubbles. Why is boiling a physical change?",
+   "pool": {
+    "right": [
+     {
+      "text": "The bubbles are steam, which is still water: no new substance is made.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Because it needs heat.",
+      "truth": "false",
+      "explain": "Many chemical changes also need heat. What matters is whether a new substance forms."
+     },
+     {
+      "text": "Because bubbles always mean a physical change.",
+      "truth": "false",
+      "explain": "Bubbles can come from chemical changes too (chalk in vinegar)."
+     },
+     {
+      "text": "Because water is a liquid.",
+      "truth": "false",
+      "explain": "The state does not decide; ask whether a new substance forms."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "changes"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Rusting is a chemical change.",
+      "truth": "true"
+     },
+     {
+      "text": "Dissolving sugar is a physical change.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning firewood makes new substances.",
+      "truth": "true"
+     },
+     {
+      "text": "Melting ice can be reversed by freezing.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cooking an egg is a physical change.",
+      "truth": "false",
+      "explain": "Cooking makes new substances that do not change back: a chemical change."
+     },
+     {
+      "text": "Grinding maize into flour is a chemical change.",
+      "truth": "false",
+      "explain": "Flour is still maize in small pieces: a physical change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

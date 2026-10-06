@@ -1,0 +1,464 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "ch19",
+   "name": "Elements and their symbols"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An element is a pure substance made of only one kind of atom. It cannot be broken down into simpler substances by chemical means. About 118 elements are known; most are metals.\nEach element has a symbol: one capital letter, or a capital and a small letter. H hydrogen, He helium, C carbon, N nitrogen, O oxygen, Na sodium, Mg magnesium, Al aluminium, S sulfur, Cl chlorine, K potassium, Ca calcium, Fe iron, Cu copper, Zn zinc.\nSome symbols come from Latin names: Na (natrium), K (kalium), Fe (ferrum), Cu (cuprum), Ag silver (argentum), Au gold (aurum), Pb lead (plumbum).\nWrite symbols carefully: Co is cobalt, but CO is carbon monoxide.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "Fe",
+   "b": "Na"
+  },
+  "problem": "Why is the symbol for iron {a} and the symbol for sodium {b}?",
+  "steps": [
+   "They come from the Latin names of the elements.",
+   "Iron in Latin is {latinName(a)}: {a}. Sodium is {latinName(b)}: {b}."
+  ],
+  "answer": "Iron: {a} (from {latinName(a)}); sodium: {b} (from {latinName(b)}).",
+  "checks": [
+   "nameOf(a) == 'iron'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc19-1",
+    "status": "draft",
+    "idea": "An element is made of one kind of atom only and cannot be split into simpler substances by chemical means.",
+    "vars": {},
+    "example": [
+     "Oxygen, iron, carbon and gold are elements."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc19-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "elements"
+     ],
+     "vars": {},
+     "prompt": "Which of these is an element?",
+     "pool": {
+      "right": [
+       {
+        "text": "iron",
+        "truth": "true"
+       },
+       {
+        "text": "oxygen",
+        "truth": "true"
+       },
+       {
+        "text": "gold",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "water",
+        "truth": "false",
+        "explain": "Water is a compound of hydrogen and oxygen."
+       },
+       {
+        "text": "table salt",
+        "truth": "false",
+        "explain": "Salt is a compound of sodium and chlorine."
+       },
+       {
+        "text": "air",
+        "truth": "false",
+        "explain": "Air is a mixture of gases."
+       },
+       {
+        "text": "sugar",
+        "truth": "false",
+        "explain": "Sugar is a compound."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "chc19-2",
+    "status": "draft",
+    "idea": "A symbol is one capital letter, or a capital followed by a small letter.",
+    "vars": {},
+    "example": [
+     "{nameOf('C')}: C. {nameOf('Cl')}: Cl. {nameOf('Ca')}: Ca."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch19-match"
+    }
+   },
+   {
+    "id": "chc19-3",
+    "status": "draft",
+    "idea": "Some symbols come from Latin names.",
+    "vars": {},
+    "example": [
+     "{nameOf('Na')}: Na (natrium). {nameOf('K')}: K (kalium). {nameOf('Cu')}: Cu (cuprum)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch19-symbol"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch19-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "elements"
+   ],
+   "pick": 4,
+   "prompt": "Match each element with its symbol.",
+   "pool": [
+    {
+     "left": "{nameOf('H')}",
+     "right": "H"
+    },
+    {
+     "left": "{nameOf('He')}",
+     "right": "He"
+    },
+    {
+     "left": "{nameOf('C')}",
+     "right": "C"
+    },
+    {
+     "left": "{nameOf('N')}",
+     "right": "N"
+    },
+    {
+     "left": "{nameOf('O')}",
+     "right": "O"
+    },
+    {
+     "left": "{nameOf('Na')}",
+     "right": "Na"
+    },
+    {
+     "left": "{nameOf('Mg')}",
+     "right": "Mg"
+    },
+    {
+     "left": "{nameOf('Al')}",
+     "right": "Al"
+    },
+    {
+     "left": "{nameOf('S')}",
+     "right": "S"
+    },
+    {
+     "left": "{nameOf('Cl')}",
+     "right": "Cl"
+    },
+    {
+     "left": "{nameOf('K')}",
+     "right": "K"
+    },
+    {
+     "left": "{nameOf('Ca')}",
+     "right": "Ca"
+    },
+    {
+     "left": "{nameOf('Fe')}",
+     "right": "Fe"
+    },
+    {
+     "left": "{nameOf('Cu')}",
+     "right": "Cu"
+    },
+    {
+     "left": "{nameOf('Zn')}",
+     "right": "Zn"
+    },
+    {
+     "left": "{nameOf('Ag')}",
+     "right": "Ag"
+    },
+    {
+     "left": "{nameOf('Au')}",
+     "right": "Au"
+    },
+    {
+     "left": "{nameOf('Pb')}",
+     "right": "Pb"
+    }
+   ]
+  },
+  {
+   "id": "ch19-symbol",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "elements"
+   ],
+   "show": 3,
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "C",
+      "N",
+      "O",
+      "Na",
+      "Mg",
+      "Al",
+      "S",
+      "Cl",
+      "K",
+      "Ca",
+      "Fe",
+      "Cu",
+      "Zn",
+      "Ag",
+      "Au",
+      "Pb"
+     ]
+    }
+   },
+   "prompt": "What is the symbol for {nameOf(s)}?",
+   "correct": "{s}",
+   "distractors": [
+    {
+     "text": "{upper(s)}",
+     "misconception": "case",
+     "when": "upper(s) != s"
+    },
+    {
+     "text": "{lowerAll(s)}",
+     "misconception": "case"
+    },
+    {
+     "text": "{upper(lowerAll(nameOf(s))[0])}{lowerAll(nameOf(s))[1]}",
+     "misconception": "first-two"
+    },
+    {
+     "text": "{upper(lowerAll(nameOf(s))[0])}",
+     "misconception": "first"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "case",
+     "explain": "A symbol starts with a capital letter; a second letter is always small."
+    },
+    {
+     "id": "first-two",
+     "explain": "Not always the first two letters: some symbols come from Latin names or use another letter."
+    },
+    {
+     "id": "first",
+     "explain": "Several elements start with the same letter, so many symbols need a second letter."
+    }
+   ],
+   "solution": [
+    "{nameOf(s)}: {answer}."
+   ]
+  },
+  {
+   "id": "ch19-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "elements"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "metal",
+    "non-metal"
+   ],
+   "prompt": "Sort the elements: metal or non-metal?",
+   "pool": [
+    {
+     "left": "{nameOf('Na')}",
+     "right": "{kindOf('Na')}"
+    },
+    {
+     "left": "{nameOf('Mg')}",
+     "right": "{kindOf('Mg')}"
+    },
+    {
+     "left": "{nameOf('Al')}",
+     "right": "{kindOf('Al')}"
+    },
+    {
+     "left": "{nameOf('K')}",
+     "right": "{kindOf('K')}"
+    },
+    {
+     "left": "{nameOf('Ca')}",
+     "right": "{kindOf('Ca')}"
+    },
+    {
+     "left": "{nameOf('Fe')}",
+     "right": "{kindOf('Fe')}"
+    },
+    {
+     "left": "{nameOf('Cu')}",
+     "right": "{kindOf('Cu')}"
+    },
+    {
+     "left": "{nameOf('Zn')}",
+     "right": "{kindOf('Zn')}"
+    },
+    {
+     "left": "{nameOf('H')}",
+     "right": "{kindOf('H')}"
+    },
+    {
+     "left": "{nameOf('C')}",
+     "right": "{kindOf('C')}"
+    },
+    {
+     "left": "{nameOf('N')}",
+     "right": "{kindOf('N')}"
+    },
+    {
+     "left": "{nameOf('O')}",
+     "right": "{kindOf('O')}"
+    },
+    {
+     "left": "{nameOf('S')}",
+     "right": "{kindOf('S')}"
+    },
+    {
+     "left": "{nameOf('Cl')}",
+     "right": "{kindOf('Cl')}"
+    }
+   ]
+  },
+  {
+   "id": "ch19-name",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "elements"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "C",
+      "N",
+      "O",
+      "Na",
+      "Mg",
+      "Al",
+      "S",
+      "Cl",
+      "K",
+      "Ca",
+      "Fe",
+      "Cu",
+      "Zn",
+      "Ag",
+      "Au",
+      "Pb"
+     ]
+    }
+   },
+   "prompt": "Write the name of the element.",
+   "text": "{s} is the symbol for ___.",
+   "answer": "nameOf(s)",
+   "misconceptions": [
+    {
+     "id": "sulphur",
+     "when": "s == 'S'",
+     "wrong": "'sulphur'",
+     "explain": "This course spells it sulfur."
+    },
+    {
+     "id": "aluminum",
+     "when": "s == 'Al'",
+     "wrong": "'aluminum'",
+     "explain": "In British English: aluminium."
+    }
+   ]
+  },
+  {
+   "id": "ch19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "elements"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The symbol for sodium is Na.",
+      "truth": "true"
+     },
+     {
+      "text": "The symbol for iron is Fe.",
+      "truth": "true"
+     },
+     {
+      "text": "An element contains one kind of atom only.",
+      "truth": "true"
+     },
+     {
+      "text": "The symbol for gold is Au.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The symbol for potassium is P.",
+      "truth": "false",
+      "explain": "Potassium is K (from kalium); P is phosphorus."
+     },
+     {
+      "text": "Water is an element.",
+      "truth": "false",
+      "explain": "Water is a compound of hydrogen and oxygen."
+     },
+     {
+      "text": "The symbol for chlorine is CL.",
+      "truth": "false",
+      "explain": "The second letter is always small: Cl."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

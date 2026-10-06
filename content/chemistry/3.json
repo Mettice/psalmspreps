@@ -1,0 +1,348 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "ch3",
+   "name": "Laboratory equipment: holding and measuring"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Each piece of equipment has a job.\n• Test tube: holds small amounts for reactions.\n• Beaker: holds and heats liquids (its marks are rough).\n• Conical flask: holds liquids that are swirled.\n• Measuring cylinder: measures volumes of liquids.\n• Burette: lets out an exact volume, drop by drop.\n• Pipette: transfers one exact volume, such as 25 cm³.\n• Dropper: adds a few drops.\n• Gas jar: collects a gas.\n• Watch glass: holds a little solid or evaporates a few drops.\nUse the right equipment, keep it clean, and handle glass with care.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": 25
+  },
+  "problem": "Bih needs exactly {v} cm³ of a solution for an experiment. Should she use a beaker, a measuring cylinder or a pipette?",
+  "steps": [
+   "A beaker's marks are only rough.",
+   "A measuring cylinder is good, but not exact.",
+   "A pipette transfers one exact, fixed volume."
+  ],
+  "answer": "A pipette.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc3-1",
+    "status": "draft",
+    "idea": "Containers: a test tube for small reactions, a beaker to hold and heat liquids, a conical flask to swirl liquids, a gas jar to collect a gas.",
+    "vars": {},
+    "example": [
+     "Mix two solutions in a test tube to see if they react."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch3-match"
+    }
+   },
+   {
+    "id": "chc3-2",
+    "status": "draft",
+    "idea": "Measuring volume: a measuring cylinder for most volumes; a pipette or burette when the volume must be exact.",
+    "vars": {},
+    "example": [
+     "A burette lets out the liquid drop by drop."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch3-choose"
+    }
+   },
+   {
+    "id": "chc3-3",
+    "status": "draft",
+    "idea": "Handle glassware with care: carry it with both hands, never heat a measuring cylinder, and report breakages.",
+    "vars": {},
+    "example": [
+     "A measuring cylinder can crack in a flame: heat liquids in a beaker or test tube."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc3-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "equipment-chem"
+     ],
+     "vars": {},
+     "prompt": "Which of these should NOT be heated?",
+     "pool": {
+      "right": [
+       {
+        "text": "a measuring cylinder",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a beaker",
+        "truth": "false",
+        "explain": "Beakers can be heated, on a tripod and gauze."
+       },
+       {
+        "text": "a test tube",
+        "truth": "false",
+        "explain": "Test tubes can be heated, held with a test-tube holder."
+       },
+       {
+        "text": "an evaporating dish",
+        "truth": "false",
+        "explain": "Evaporating dishes are made to be heated."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch3-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equipment-chem"
+   ],
+   "prompt": "Match each piece of equipment with its job.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "test tube",
+     "right": "holds small amounts of substances for reactions"
+    },
+    {
+     "left": "beaker",
+     "right": "holds and heats liquids"
+    },
+    {
+     "left": "conical flask",
+     "right": "holds liquids that are swirled or titrated"
+    },
+    {
+     "left": "measuring cylinder",
+     "right": "measures the volume of a liquid"
+    },
+    {
+     "left": "burette",
+     "right": "lets out an exact volume of liquid, drop by drop"
+    },
+    {
+     "left": "pipette",
+     "right": "transfers an exact, fixed volume of liquid"
+    },
+    {
+     "left": "dropper",
+     "right": "adds a liquid a few drops at a time"
+    },
+    {
+     "left": "gas jar",
+     "right": "collects a gas"
+    },
+    {
+     "left": "watch glass",
+     "right": "holds a small amount of a solid or evaporates a few drops"
+    }
+   ]
+  },
+  {
+   "id": "ch3-choose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equipment-chem"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "collect a gas",
+       "a": "gas jar",
+       "why": "To collect a gas, use a gas jar."
+      },
+      {
+       "t": "let out an exact volume drop by drop",
+       "a": "burette",
+       "why": "To let out an exact volume drop by drop, use a burette."
+      },
+      {
+       "t": "transfer exactly 25 cm³ of a solution",
+       "a": "pipette",
+       "why": "To transfer exactly 25 cm³ of a solution, use a pipette."
+      },
+      {
+       "t": "measure about 40 cm³ of water",
+       "a": "measuring cylinder",
+       "why": "To measure about 40 cm³ of water, use a measuring cylinder."
+      },
+      {
+       "t": "mix two solutions to see if they react",
+       "a": "test tube",
+       "why": "To mix two solutions to see if they react, use a test tube."
+      }
+     ]
+    }
+   },
+   "prompt": "Which equipment would you use to {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "test tube",
+     "misconception": "other"
+    },
+    {
+     "text": "beaker",
+     "misconception": "other"
+    },
+    {
+     "text": "conical flask",
+     "misconception": "other"
+    },
+    {
+     "text": "measuring cylinder",
+     "misconception": "other"
+    },
+    {
+     "text": "burette",
+     "misconception": "other"
+    },
+    {
+     "text": "pipette",
+     "misconception": "other"
+    },
+    {
+     "text": "dropper",
+     "misconception": "other"
+    },
+    {
+     "text": "gas jar",
+     "misconception": "other"
+    },
+    {
+     "text": "watch glass",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That equipment has a different job."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch3-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "equipment-chem"
+   ],
+   "groups": true,
+   "pick": 5,
+   "group_order": [
+    "measures a volume",
+    "holds substances"
+   ],
+   "prompt": "Sort the equipment: does it measure a volume, or only hold substances?",
+   "pool": [
+    {
+     "left": "measuring cylinder",
+     "right": "measures a volume"
+    },
+    {
+     "left": "burette",
+     "right": "measures a volume"
+    },
+    {
+     "left": "pipette",
+     "right": "measures a volume"
+    },
+    {
+     "left": "test tube",
+     "right": "holds substances"
+    },
+    {
+     "left": "gas jar",
+     "right": "holds substances"
+    },
+    {
+     "left": "watch glass",
+     "right": "holds substances"
+    },
+    {
+     "left": "conical flask",
+     "right": "holds substances"
+    }
+   ]
+  },
+  {
+   "id": "ch3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "equipment-chem"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A gas jar is used to collect a gas.",
+      "truth": "true"
+     },
+     {
+      "text": "A burette lets out a liquid drop by drop.",
+      "truth": "true"
+     },
+     {
+      "text": "A pipette transfers an exact volume of liquid.",
+      "truth": "true"
+     },
+     {
+      "text": "A test tube holds small amounts for reactions.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A measuring cylinder is used to heat liquids.",
+      "truth": "false",
+      "explain": "Never heat a measuring cylinder: use a beaker or a test tube."
+     },
+     {
+      "text": "A dropper measures a large volume exactly.",
+      "truth": "false",
+      "explain": "A dropper adds a few drops; exact volumes need a pipette or burette."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

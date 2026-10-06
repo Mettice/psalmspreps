@@ -1,0 +1,353 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "ch5",
+   "name": "Hazard symbols"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Reagent bottles carry hazard symbols (red diamonds) that warn of danger:\n• a flame: flammable, catches fire easily (ethanol, kerosene);\n• a flame over a circle: oxidising, makes other things burn fiercely (potassium manganate(VII));\n• a skull and crossbones: toxic, poisonous (mercury);\n• liquid dripping onto a hand and metal: corrosive, destroys skin and metal (concentrated acids, sodium hydroxide);\n• an exclamation mark: harmful or irritant;\n• an exploding bomb: explosive;\n• a dead tree and fish: dangerous for the environment.\nRead the label before you open a bottle, and never mix chemicals without the teacher's instruction.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A bottle has two symbols: a flame and an exclamation mark. What do they tell you, and how should you use it?",
+  "steps": [
+   "The flame: the liquid catches fire easily, so keep it away from Bunsen burners and sparks.",
+   "The exclamation mark: it is harmful or irritating, so avoid touching it or breathing it in."
+  ],
+  "answer": "Flammable and harmful: no flames near it, and avoid contact.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc5-1",
+    "status": "draft",
+    "idea": "A flame means flammable; a skull and crossbones means toxic; liquid on a hand and metal means corrosive.",
+    "vars": {},
+    "example": [
+     "Ethanol bottle: a flame. Keep it away from the Bunsen burner."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch5-match"
+    }
+   },
+   {
+    "id": "chc5-2",
+    "status": "draft",
+    "idea": "A flame over a circle means oxidising; an exclamation mark means harmful or irritant; an exploding bomb means explosive.",
+    "vars": {},
+    "example": [
+     "Potassium manganate(VII) is an oxidiser: keep it away from fuels."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch5-reagent"
+    }
+   },
+   {
+    "id": "chc5-3",
+    "status": "draft",
+    "idea": "Read the label before you open a bottle. Never mix chemicals unless the teacher says so.",
+    "vars": {},
+    "example": [
+     "Two harmless-looking liquids can react and give off a poisonous gas."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc5-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hazards-chem"
+     ],
+     "vars": {},
+     "prompt": "What should you do before opening a reagent bottle?",
+     "pool": {
+      "right": [
+       {
+        "text": "Read the label and the hazard symbols.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Smell it to find out what it is.",
+        "truth": "false",
+        "explain": "Never smell chemicals directly: some give off harmful gases."
+       },
+       {
+        "text": "Taste a little.",
+        "truth": "false",
+        "explain": "Never taste anything in a laboratory."
+       },
+       {
+        "text": "Shake it hard.",
+        "truth": "false",
+        "explain": "Shaking can spill or splash: read the label first."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch5-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hazards-chem"
+   ],
+   "prompt": "Match each hazard symbol (described in words) with its meaning.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "a flame",
+     "right": "flammable: catches fire easily"
+    },
+    {
+     "left": "a skull and crossbones",
+     "right": "toxic: poisonous"
+    },
+    {
+     "left": "liquid dripping onto a hand and a metal bar",
+     "right": "corrosive: destroys skin and metal"
+    },
+    {
+     "left": "a flame over a circle",
+     "right": "oxidising: makes other things burn more fiercely"
+    },
+    {
+     "left": "an exclamation mark",
+     "right": "harmful or irritant"
+    },
+    {
+     "left": "an exploding bomb",
+     "right": "explosive"
+    },
+    {
+     "left": "a dead tree and a dead fish",
+     "right": "dangerous for the environment"
+    }
+   ]
+  },
+  {
+   "id": "ch5-reagent",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hazards-chem"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "concentrated sulfuric acid",
+       "a": "corrosive: destroys skin and metal",
+       "why": "A bottle of concentrated sulfuric acid carries the symbol for “corrosive: destroys skin and metal”."
+      },
+      {
+       "t": "sodium hydroxide",
+       "a": "corrosive: destroys skin and metal",
+       "why": "A bottle of sodium hydroxide carries the symbol for “corrosive: destroys skin and metal”."
+      },
+      {
+       "t": "ethanol (methylated spirit)",
+       "a": "flammable: catches fire easily",
+       "why": "A bottle of ethanol (methylated spirit) carries the symbol for “flammable: catches fire easily”."
+      },
+      {
+       "t": "kerosene",
+       "a": "flammable: catches fire easily",
+       "why": "A bottle of kerosene carries the symbol for “flammable: catches fire easily”."
+      },
+      {
+       "t": "mercury",
+       "a": "toxic: poisonous",
+       "why": "A bottle of mercury carries the symbol for “toxic: poisonous”."
+      },
+      {
+       "t": "potassium manganate(VII) (permanganate)",
+       "a": "oxidising: makes other things burn more fiercely",
+       "why": "A bottle of potassium manganate(VII) (permanganate) carries the symbol for “oxidising: makes other things burn more fiercely”."
+      }
+     ]
+    }
+   },
+   "prompt": "Which hazard symbol would you expect on a bottle of {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "flammable: catches fire easily",
+     "misconception": "other"
+    },
+    {
+     "text": "toxic: poisonous",
+     "misconception": "other"
+    },
+    {
+     "text": "corrosive: destroys skin and metal",
+     "misconception": "other"
+    },
+    {
+     "text": "oxidising: makes other things burn more fiercely",
+     "misconception": "other"
+    },
+    {
+     "text": "harmful or irritant",
+     "misconception": "other"
+    },
+    {
+     "text": "explosive",
+     "misconception": "other"
+    },
+    {
+     "text": "dangerous for the environment",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That symbol warns of a different danger."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch5-act",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hazards-chem"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "The bottle shows a flame.",
+       "a": "Keep it away from flames and sparks.",
+       "why": "The bottle shows a flame. So: Keep it away from flames and sparks."
+      },
+      {
+       "t": "The bottle shows liquid dripping onto a hand.",
+       "a": "Wear gloves and goggles, and wash off any splash with lots of water.",
+       "why": "The bottle shows liquid dripping onto a hand. So: Wear gloves and goggles, and wash off any splash with lots of water."
+      },
+      {
+       "t": "The bottle shows a skull and crossbones.",
+       "a": "Do not touch, taste or breathe it; use it only as the teacher says.",
+       "why": "The bottle shows a skull and crossbones. So: Do not touch, taste or breathe it; use it only as the teacher says."
+      },
+      {
+       "t": "The bottle shows a dead tree and a dead fish.",
+       "a": "Never pour it down the drain or onto the ground.",
+       "why": "The bottle shows a dead tree and a dead fish. So: Never pour it down the drain or onto the ground."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t} What should you do?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Keep it away from flames and sparks.",
+     "misconception": "other"
+    },
+    {
+     "text": "Wear gloves and goggles, and wash off any splash with lots of water.",
+     "misconception": "other"
+    },
+    {
+     "text": "Do not touch, taste or breathe it; use it only as the teacher says.",
+     "misconception": "other"
+    },
+    {
+     "text": "Never pour it down the drain or onto the ground.",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That advice is for a different symbol."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hazards-chem"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Concentrated sulfuric acid is corrosive.",
+      "truth": "true"
+     },
+     {
+      "text": "Ethanol is flammable.",
+      "truth": "true"
+     },
+     {
+      "text": "Mercury is toxic.",
+      "truth": "true"
+     },
+     {
+      "text": "A flame over a circle means oxidising.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The skull and crossbones means flammable.",
+      "truth": "false",
+      "explain": "The skull and crossbones means toxic (poisonous). A flame means flammable."
+     },
+     {
+      "text": "A corrosive liquid is safe on skin.",
+      "truth": "false",
+      "explain": "Corrosive substances destroy skin: wash any splash with lots of water and tell the teacher."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,367 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "ch4",
+   "name": "Laboratory equipment: heating, holding and separating"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "More equipment and its job:\n• Bunsen burner: heats with a gas flame (a blue flame is hottest; a yellow flame is sooty).\n• Tripod stand and wire gauze: hold a beaker over the flame and spread the heat.\n• Test-tube holder: holds a hot test tube. Test-tube rack: keeps test tubes upright.\n• Funnel and filter paper: separate a solid from a liquid.\n• Evaporating dish: holds a solution while the water evaporates.\n• Crucible and tongs: heat a solid strongly; tongs lift the hot crucible.\n• Mortar and pestle: grind solids into powder. Spatula: picks up powders.\n• Retort stand and clamp: hold apparatus in place.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mih wants to get salt crystals from salt water by heating it. Which equipment does she need?",
+  "steps": [
+   "She needs a flame: a Bunsen burner.",
+   "She needs something to hold the dish over the flame: a tripod stand and wire gauze.",
+   "She needs a dish for the salt water: an evaporating dish."
+  ],
+  "answer": "Bunsen burner, tripod stand, wire gauze and evaporating dish.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc4-1",
+    "status": "draft",
+    "idea": "To heat: a Bunsen burner gives the flame; a tripod and wire gauze hold the beaker; a crucible holds a solid heated strongly.",
+    "vars": {},
+    "example": [
+     "A blue Bunsen flame is hotter and cleaner than a yellow one."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch4-match"
+    }
+   },
+   {
+    "id": "chc4-2",
+    "status": "draft",
+    "idea": "To hold: a test-tube holder for a hot test tube, a rack for test tubes, a retort stand and clamp for apparatus, tongs for a hot crucible.",
+    "vars": {},
+    "example": [
+     "Never hold a hot test tube with your fingers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch4-choose"
+    }
+   },
+   {
+    "id": "chc4-3",
+    "status": "draft",
+    "idea": "To separate and prepare: funnel and filter paper, evaporating dish, mortar and pestle, spatula.",
+    "vars": {},
+    "example": [
+     "Grind the crystals in a mortar with a pestle, then pick up the powder with a spatula."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc4-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "equipment-chem"
+     ],
+     "vars": {},
+     "prompt": "Which equipment separates sand from water?",
+     "pool": {
+      "right": [
+       {
+        "text": "funnel and filter paper",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Bunsen burner",
+        "truth": "false",
+        "explain": "A Bunsen burner heats things."
+       },
+       {
+        "text": "mortar and pestle",
+        "truth": "false",
+        "explain": "A mortar and pestle grinds solids."
+       },
+       {
+        "text": "test-tube rack",
+        "truth": "false",
+        "explain": "A rack holds test tubes upright."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch4-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equipment-chem"
+   ],
+   "prompt": "Match each piece of equipment with its job.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "Bunsen burner",
+     "right": "heats things with a gas flame"
+    },
+    {
+     "left": "tripod stand",
+     "right": "holds a beaker or dish over a flame"
+    },
+    {
+     "left": "wire gauze",
+     "right": "spreads the heat under a beaker"
+    },
+    {
+     "left": "test-tube holder",
+     "right": "holds a hot test tube"
+    },
+    {
+     "left": "test-tube rack",
+     "right": "holds test tubes upright"
+    },
+    {
+     "left": "funnel and filter paper",
+     "right": "separates a solid from a liquid"
+    },
+    {
+     "left": "evaporating dish",
+     "right": "holds a solution while the water evaporates"
+    },
+    {
+     "left": "crucible and tongs",
+     "right": "heats a solid very strongly; tongs lift it"
+    },
+    {
+     "left": "mortar and pestle",
+     "right": "grinds solids into powder"
+    },
+    {
+     "left": "spatula",
+     "right": "picks up small amounts of a powder"
+    },
+    {
+     "left": "retort stand and clamp",
+     "right": "holds apparatus in place"
+    }
+   ]
+  },
+  {
+   "id": "ch4-choose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equipment-chem"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "hold a hot test tube",
+       "a": "test-tube holder",
+       "why": "To hold a hot test tube, use a test-tube holder."
+      },
+      {
+       "t": "grind crystals into powder",
+       "a": "mortar and pestle",
+       "why": "To grind crystals into powder, use a mortar and pestle."
+      },
+      {
+       "t": "spread the heat under a beaker",
+       "a": "wire gauze",
+       "why": "To spread the heat under a beaker, use a wire gauze."
+      },
+      {
+       "t": "heat a solid very strongly",
+       "a": "crucible and tongs",
+       "why": "To heat a solid very strongly, use a crucible and tongs."
+      },
+      {
+       "t": "hold a thermometer in place over a beaker",
+       "a": "retort stand and clamp",
+       "why": "To hold a thermometer in place over a beaker, use a retort stand and clamp."
+      }
+     ]
+    }
+   },
+   "prompt": "Which equipment would you use to {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Bunsen burner",
+     "misconception": "other"
+    },
+    {
+     "text": "tripod stand",
+     "misconception": "other"
+    },
+    {
+     "text": "wire gauze",
+     "misconception": "other"
+    },
+    {
+     "text": "test-tube holder",
+     "misconception": "other"
+    },
+    {
+     "text": "test-tube rack",
+     "misconception": "other"
+    },
+    {
+     "text": "funnel and filter paper",
+     "misconception": "other"
+    },
+    {
+     "text": "evaporating dish",
+     "misconception": "other"
+    },
+    {
+     "text": "crucible and tongs",
+     "misconception": "other"
+    },
+    {
+     "text": "mortar and pestle",
+     "misconception": "other"
+    },
+    {
+     "text": "spatula",
+     "misconception": "other"
+    },
+    {
+     "text": "retort stand and clamp",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That equipment has a different job."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch4-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "equipment-chem"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "heating",
+    "holding",
+    "separating or preparing"
+   ],
+   "prompt": "Sort the equipment by its main job.",
+   "pool": [
+    {
+     "left": "Bunsen burner",
+     "right": "heating"
+    },
+    {
+     "left": "crucible",
+     "right": "heating"
+    },
+    {
+     "left": "test-tube holder",
+     "right": "holding"
+    },
+    {
+     "left": "retort stand and clamp",
+     "right": "holding"
+    },
+    {
+     "left": "test-tube rack",
+     "right": "holding"
+    },
+    {
+     "left": "funnel and filter paper",
+     "right": "separating or preparing"
+    },
+    {
+     "left": "evaporating dish",
+     "right": "separating or preparing"
+    },
+    {
+     "left": "mortar and pestle",
+     "right": "separating or preparing"
+    }
+   ]
+  },
+  {
+   "id": "ch4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "equipment-chem"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A wire gauze spreads the heat under a beaker.",
+      "truth": "true"
+     },
+     {
+      "text": "Tongs are used to lift a hot crucible.",
+      "truth": "true"
+     },
+     {
+      "text": "A test-tube holder holds a hot test tube.",
+      "truth": "true"
+     },
+     {
+      "text": "A mortar and pestle grinds solids.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A yellow Bunsen flame is the hottest.",
+      "truth": "false",
+      "explain": "The blue flame is hotter; the yellow flame is cooler and sooty."
+     },
+     {
+      "text": "A spatula is used to heat liquids.",
+      "truth": "false",
+      "explain": "A spatula picks up small amounts of a powder."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

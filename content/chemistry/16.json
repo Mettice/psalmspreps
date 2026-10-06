@@ -1,0 +1,317 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  13,
+  15
+ ],
+ "skills": [
+  {
+   "id": "ch16",
+   "name": "Separating liquid–liquid mixtures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Liquid–liquid mixtures:\n• Immiscible liquids (they form two layers, such as palm oil and water, or kerosene and water): use a separating funnel. Let the layers settle, open the tap and run off the bottom layer; close the tap just as the top layer reaches it.\n• Miscible liquids (they mix completely, such as ethanol and water): use fractional distillation. The liquid with the lower boiling point boils off first and is collected; ethanol (about 78 °C) comes over before water (100 °C).\nFractional distillation is used to get alcohol from fermented palm wine, and in industry to separate crude oil into petrol, kerosene and diesel.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Kerosene and water have been mixed by mistake. How can they be separated?",
+  "steps": [
+   "Kerosene and water do not mix: they form two layers, with kerosene on top.",
+   "Pour the mixture into a separating funnel and let it settle.",
+   "Open the tap to run off the water (bottom layer); close it when the kerosene reaches the tap."
+  ],
+  "answer": "With a separating funnel.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc16-1",
+    "status": "draft",
+    "idea": "Immiscible liquids form layers: separate them with a separating funnel.",
+    "vars": {},
+    "example": [
+     "Palm oil floats on water; run the water off through the tap."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch16-method"
+    }
+   },
+   {
+    "id": "chc16-2",
+    "status": "draft",
+    "idea": "Miscible liquids mix completely: separate them by fractional distillation, using their different boiling points.",
+    "vars": {
+     "e": 78,
+     "w": 100
+    },
+    "example": [
+     "Ethanol boils at about {e} °C, water at {w} °C: ethanol comes over first."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch16-first"
+    }
+   },
+   {
+    "id": "chc16-3",
+    "status": "draft",
+    "idea": "Fractional distillation is also used for crude oil: petrol, kerosene and diesel boil at different temperatures.",
+    "vars": {},
+    "example": [
+     "The fractions are collected one after another."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc16-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "separation"
+     ],
+     "vars": {},
+     "prompt": "Which method separates ethanol from water?",
+     "pool": {
+      "right": [
+       {
+        "text": "fractional distillation",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a separating funnel",
+        "truth": "false",
+        "explain": "Ethanol and water mix completely: they do not form layers."
+       },
+       {
+        "text": "filtration",
+        "truth": "false",
+        "explain": "Filtration removes undissolved solids."
+       },
+       {
+        "text": "magnetic separation",
+        "truth": "false",
+        "explain": "A magnet only attracts iron and some metals."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch16-method",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "palm oil and water",
+       "a": "separating funnel",
+       "why": "palm oil and water: separating funnel."
+      },
+      {
+       "t": "kerosene and water",
+       "a": "separating funnel",
+       "why": "kerosene and water: separating funnel."
+      },
+      {
+       "t": "ethanol and water",
+       "a": "fractional distillation",
+       "why": "ethanol and water: fractional distillation."
+      },
+      {
+       "t": "petrol and kerosene from crude oil",
+       "a": "fractional distillation",
+       "why": "petrol and kerosene from crude oil: fractional distillation."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method separates {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "separating funnel",
+     "misconception": "other"
+    },
+    {
+     "text": "fractional distillation",
+     "misconception": "other"
+    },
+    {
+     "text": "filtration",
+     "misconception": "other"
+    },
+    {
+     "text": "sieving",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Ask: do the liquids form layers (separating funnel) or mix completely (fractional distillation)?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch16-first",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "separation"
+   ],
+   "show": 2,
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "a": "ethanol",
+       "ta": 78,
+       "b": "water",
+       "tb": 100
+      },
+      {
+       "a": "water",
+       "ta": 100,
+       "b": "acetic acid (in vinegar)",
+       "tb": 118
+      },
+      {
+       "a": "ethanol",
+       "ta": 78,
+       "b": "acetic acid (in vinegar)",
+       "tb": 118
+      }
+     ]
+    },
+    "flip": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "In fractional distillation of a mixture of {flip ? p.a : p.b} (boils at {flip ? p.ta : p.tb} °C) and {flip ? p.b : p.a} (boils at {flip ? p.tb : p.ta} °C), which liquid is collected first?",
+   "correct": "{p.a}",
+   "distractors": [
+    {
+     "text": "{p.b}",
+     "misconception": "first"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "first",
+     "explain": "The liquid with the lower boiling point boils first and comes over first."
+    }
+   ],
+   "solution": [
+    "{p.a} boils at {p.ta} °C, {p.b} at {p.tb} °C.",
+    "The lower boiling point comes over first: {answer}."
+   ]
+  },
+  {
+   "id": "ch16-funnel",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "order": "as_written",
+   "vars": {},
+   "prompt": "Put the steps for using a separating funnel in order.",
+   "items": [
+    {
+     "text": "Pour the mixture into the separating funnel."
+    },
+    {
+     "text": "Wait until two layers form."
+    },
+    {
+     "text": "Open the tap and run off the bottom layer into a beaker."
+    },
+    {
+     "text": "Close the tap when the top layer reaches it."
+    },
+    {
+     "text": "Pour the top layer out into another beaker."
+    }
+   ]
+  },
+  {
+   "id": "ch16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Palm oil and water can be separated with a separating funnel.",
+      "truth": "true"
+     },
+     {
+      "text": "Ethanol boils at a lower temperature than water.",
+      "truth": "true"
+     },
+     {
+      "text": "Crude oil is separated by fractional distillation.",
+      "truth": "true"
+     },
+     {
+      "text": "Miscible liquids mix completely.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ethanol and water are separated with a separating funnel.",
+      "truth": "false",
+      "explain": "They mix completely: use fractional distillation."
+     },
+     {
+      "text": "In fractional distillation the liquid with the higher boiling point comes over first.",
+      "truth": "false",
+      "explain": "The lower boiling point comes over first."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

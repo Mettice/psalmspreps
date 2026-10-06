@@ -1,0 +1,297 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  13,
+  16
+ ],
+ "skills": [
+  {
+   "id": "ch18",
+   "name": "Separating gas–gas mixtures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Air is a mixture of gases: about 78 % nitrogen, 21 % oxygen, almost 1 % argon, and small amounts of carbon dioxide and water vapour.\nGas–gas mixtures can be separated:\n• by fractional distillation of liquid air: air is cooled until it becomes liquid, then warmed slowly; each gas boils off at its own boiling point (nitrogen first, then argon, then oxygen). This gives pure oxygen for hospitals and welding, and nitrogen;\n• by absorption: the mixture is bubbled through a liquid that dissolves or reacts with only one gas. For example, sodium hydroxide solution absorbs carbon dioxide from air; limewater turns milky with carbon dioxide.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "How can carbon dioxide be removed from a sample of air?",
+  "steps": [
+   "Bubble the air through sodium hydroxide solution.",
+   "The sodium hydroxide absorbs the carbon dioxide; the other gases pass through."
+  ],
+  "answer": "Absorption: bubble the air through sodium hydroxide solution.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc18-1",
+    "status": "draft",
+    "idea": "Air is a mixture of gases, mainly nitrogen and oxygen, with a little argon, carbon dioxide and water vapour.",
+    "vars": {},
+    "example": [
+     "Nitrogen is the gas with the largest share of the air."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch18-air"
+    }
+   },
+   {
+    "id": "chc18-2",
+    "status": "draft",
+    "idea": "Fractional distillation of liquid air: cool air until it is liquid, then each gas boils off at its own temperature.",
+    "vars": {},
+    "example": [
+     "Pure oxygen for hospitals is made this way."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch18-method"
+    }
+   },
+   {
+    "id": "chc18-3",
+    "status": "draft",
+    "idea": "Absorption: bubble the mixture through a liquid that takes in only one gas.",
+    "vars": {},
+    "example": [
+     "Sodium hydroxide solution absorbs carbon dioxide."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc18-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "separation"
+     ],
+     "vars": {},
+     "prompt": "Which liquid absorbs carbon dioxide from air?",
+     "pool": {
+      "right": [
+       {
+        "text": "sodium hydroxide solution",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "pure water only",
+        "truth": "false",
+        "explain": "Water dissolves only a little carbon dioxide."
+       },
+       {
+        "text": "kerosene",
+        "truth": "false",
+        "explain": "Kerosene is not used to absorb carbon dioxide."
+       },
+       {
+        "text": "palm oil",
+        "truth": "false",
+        "explain": "Palm oil does not absorb carbon dioxide."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch18-air",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "Which gas makes up the largest part of the air?",
+   "pool": {
+    "right": [
+     {
+      "text": "nitrogen",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "oxygen",
+      "truth": "false",
+      "explain": "Oxygen is about 21 %; nitrogen is about 78 %."
+     },
+     {
+      "text": "carbon dioxide",
+      "truth": "false",
+      "explain": "Carbon dioxide is only a tiny part of the air."
+     },
+     {
+      "text": "argon",
+      "truth": "false",
+      "explain": "Argon is almost 1 % of the air."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch18-method",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "get pure oxygen and nitrogen from air in a factory",
+       "a": "fractional distillation of liquid air",
+       "why": "To get pure oxygen and nitrogen from air in a factory: fractional distillation of liquid air."
+      },
+      {
+       "t": "remove carbon dioxide from a sample of air",
+       "a": "absorption in sodium hydroxide solution",
+       "why": "To remove carbon dioxide from a sample of air: absorption in sodium hydroxide solution."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method would you use to {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "fractional distillation of liquid air",
+     "misconception": "other"
+    },
+    {
+     "text": "absorption in sodium hydroxide solution",
+     "misconception": "other"
+    },
+    {
+     "text": "filtration",
+     "misconception": "other"
+    },
+    {
+     "text": "a separating funnel",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think: is it many gases separated by boiling point, or one gas taken out by a liquid?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "ch18-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "Why does fractional distillation of liquid air work?",
+   "pool": {
+    "right": [
+     {
+      "text": "Each gas in the air has a different boiling point.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Each gas has a different colour.",
+      "truth": "false",
+      "explain": "The gases are colourless; boiling points are used."
+     },
+     {
+      "text": "Oxygen is magnetic.",
+      "truth": "false",
+      "explain": "That is not how fractional distillation works."
+     },
+     {
+      "text": "Nitrogen dissolves in water.",
+      "truth": "false",
+      "explain": "Fractional distillation uses boiling points."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "separation"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Air is a mixture of gases.",
+      "truth": "true"
+     },
+     {
+      "text": "Sodium hydroxide solution absorbs carbon dioxide.",
+      "truth": "true"
+     },
+     {
+      "text": "Oxygen for hospitals comes from liquid air.",
+      "truth": "true"
+     },
+     {
+      "text": "Nitrogen is the largest part of the air.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Air is a pure substance.",
+      "truth": "false",
+      "explain": "Air contains several gases that are not joined: it is a mixture."
+     },
+     {
+      "text": "Oxygen makes up most of the air.",
+      "truth": "false",
+      "explain": "Nitrogen (about 78 %) makes up most of the air."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

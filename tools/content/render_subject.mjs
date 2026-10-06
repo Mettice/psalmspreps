@@ -8,6 +8,7 @@ import { readFileSync, readdirSync, writeFileSync, mkdirSync, rmSync } from "nod
 import * as maths from "../../src/engine/lib/maths.js";
 import * as english from "../../src/engine/lib/english.js";
 import * as physics from "../../src/engine/lib/physics.js";
+import * as chemistry from "../../src/engine/lib/chemistry.js";
 import { render } from "../../src/engine/expr.js";
 import { instantiate, renderWorked } from "../../src/engine/template.js";
 import { renderCard, cardCheckTemplate, practicePlan, renderPaper, isDeferred } from "../../src/engine/teach.js";
@@ -16,8 +17,9 @@ const SUBJECT = process.argv[2];
 const CONF = {
   english: { name: "English", batch: "Batch E1", spine: "english-language", lib: { ...maths, ...english }, sample: 3, lessons: "1–16" },
   physics: { name: "Physics", batch: "Batch P1", spine: "physics", lib: { ...maths, ...english, ...physics }, sample: 16, lessons: "1–19" },
+  chemistry: { name: "Chemistry", batch: "Batch C1", spine: "chemistry", lib: { ...maths, ...english, ...physics, ...chemistry }, sample: 20, lessons: "1–21" },
 }[SUBJECT];
-if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics");
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry");
 const lib = CONF.lib;
 const DIR = new URL(`../../content/${SUBJECT}/`, import.meta.url);
 // Drawings are saved as files (GitHub does not show SVG written inside Markdown).
@@ -123,6 +125,12 @@ writeFileSync(new URL("REVIEW.md", DIR), R.join("\n") + "\n", "utf8");
 const show = (v) => (typeof v === "number" ? maths.fmt(v) : String(v));
 const rend = (t, scope = {}) => render(t, scope, lib, show);
 const PART1 = {
+  chemistry: () => ["## Part 1: tables and rules the computed answers use (src/engine/lib/chemistry.js, physics.js)", "",
+    "**Elements (TR-K02)**: atomic number, symbol, name, kind.", "",
+    "| Z | Symbol | Name | Kind |", "|---|---|---|---|", ...chemistry.ELEMENTS.map((e) => `| ${e.z} | ${e.symbol} | ${e.name} | ${e.kind} |`), "",
+    `**Symbols from Latin (TR-K02)**: ${Object.entries(chemistry.LATIN).map(([s, l]) => `${s} (${l})`).join(", ")}.`, "",
+    "- **Formulas (TR-K03)**: the small number after a symbol counts the atoms of that symbol; no number means one; a bracket multiplies everything inside it (Ca(OH)₂: 1 Ca, 2 O, 2 H). Counted by `parseFormula()`, tested on known answers.",
+    "- **Measurement**: the unit conversions, °C → K (+ 273), the measuring cylinder and thermometer drawings are the same as in Physics (TR-P04, TR-P05, TR-P08).", ""],
   physics: () => ["## Part 1: conventions and rules the computed answers use (src/engine/lib/physics.js)", "",
     "- **g = 10 N/kg on Earth (TR-P03)**; on the Moon about 1.6 N/kg. Weight = mass × g.",
     "- **T(K) = T(°C) + 273 (TR-P04)**; 0 °C = 273 K; 100 °C = 373 K; a change of 1 °C is a change of 1 K.",

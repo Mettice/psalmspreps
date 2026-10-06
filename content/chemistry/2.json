@@ -1,0 +1,357 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "ch2",
+   "name": "Chemistry in everyday life"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Chemistry is everywhere in daily life:\n• Health: medicines, vaccines, antiseptics.\n• Farming: fertilisers make crops grow; pesticides protect them.\n• Cleaning: soap and detergents; bleach.\n• Clean water: chlorine kills germs in drinking water.\n• Building: cement, paint, glass.\n• Energy: fuels such as petrol, kerosene, cooking gas.\n• Food: salt, sugar and vinegar keep food from going bad.\n• Household goods: plastics, cloth, cosmetics.\nChemistry can also cause harm when it is misused: smoke and waste pollute air and rivers, and some chemicals are poisonous. Using chemicals carefully protects people and the environment.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give two ways chemistry helps a farmer in the North West, and one way it can cause harm.",
+  "steps": [
+   "Fertilisers help maize and beans grow better.",
+   "Pesticides protect crops from insects.",
+   "But too much fertiliser or pesticide can wash into streams and pollute the water."
+  ],
+  "answer": "Fertilisers and pesticides help; misused, they pollute streams.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc2-1",
+    "status": "draft",
+    "idea": "Chemistry gives us medicines, fertilisers, soap, clean water, cement, fuels and plastics.",
+    "vars": {},
+    "example": [
+     "Chlorine in the water treatment plant kills germs, so tap water is safer to drink."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch2-match"
+    }
+   },
+   {
+    "id": "chc2-2",
+    "status": "draft",
+    "idea": "Chemistry helps keep food: salt, sugar and vinegar stop germs from growing.",
+    "vars": {},
+    "example": [
+     "Smoked and salted fish lasts longer than fresh fish."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch2-area"
+    }
+   },
+   {
+    "id": "chc2-3",
+    "status": "draft",
+    "idea": "Misused, chemicals can harm: smoke and waste pollute air and water, and some chemicals are poisonous.",
+    "vars": {},
+    "example": [
+     "Pouring used engine oil into a stream kills fish."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc2-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "chemistry-life"
+     ],
+     "vars": {},
+     "prompt": "Which is a harmful use of chemicals?",
+     "pool": {
+      "right": [
+       {
+        "text": "Pouring used engine oil into a stream.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Washing hands with soap.",
+        "truth": "false",
+        "explain": "Soap removes dirt and germs: a good use."
+       },
+       {
+        "text": "Putting chlorine in drinking water.",
+        "truth": "false",
+        "explain": "Chlorine kills germs in water: a good use."
+       },
+       {
+        "text": "Using fertiliser on a maize farm.",
+        "truth": "false",
+        "explain": "Used correctly, fertiliser helps crops grow."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch2-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "chemistry-life"
+   ],
+   "prompt": "Match each product of chemistry with how it helps us.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "medicines such as paracetamol",
+     "right": "health"
+    },
+    {
+     "left": "fertilisers for maize and cocoa farms",
+     "right": "farming"
+    },
+    {
+     "left": "soap and detergents",
+     "right": "cleaning and hygiene"
+    },
+    {
+     "left": "chlorine to make water safe to drink",
+     "right": "clean water"
+    },
+    {
+     "left": "cement for building houses",
+     "right": "building"
+    },
+    {
+     "left": "petrol and kerosene",
+     "right": "fuels and energy"
+    },
+    {
+     "left": "salt and vinegar to keep food from going bad",
+     "right": "keeping food"
+    },
+    {
+     "left": "plastics for buckets and pipes",
+     "right": "household goods"
+    }
+   ]
+  },
+  {
+   "id": "ch2-area",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "chemistry-life"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "medicines such as paracetamol",
+       "a": "health",
+       "why": "medicines such as paracetamol: health."
+      },
+      {
+       "t": "fertilisers for maize and cocoa farms",
+       "a": "farming",
+       "why": "fertilisers for maize and cocoa farms: farming."
+      },
+      {
+       "t": "soap and detergents",
+       "a": "cleaning and hygiene",
+       "why": "soap and detergents: cleaning and hygiene."
+      },
+      {
+       "t": "chlorine to make water safe to drink",
+       "a": "clean water",
+       "why": "chlorine to make water safe to drink: clean water."
+      },
+      {
+       "t": "cement for building houses",
+       "a": "building",
+       "why": "cement for building houses: building."
+      },
+      {
+       "t": "petrol and kerosene",
+       "a": "fuels and energy",
+       "why": "petrol and kerosene: fuels and energy."
+      },
+      {
+       "t": "salt and vinegar to keep food from going bad",
+       "a": "keeping food",
+       "why": "salt and vinegar to keep food from going bad: keeping food."
+      },
+      {
+       "t": "plastics for buckets and pipes",
+       "a": "household goods",
+       "why": "plastics for buckets and pipes: household goods."
+      }
+     ]
+    }
+   },
+   "prompt": "In which area of life does chemistry give us {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "health",
+     "misconception": "other"
+    },
+    {
+     "text": "farming",
+     "misconception": "other"
+    },
+    {
+     "text": "cleaning and hygiene",
+     "misconception": "other"
+    },
+    {
+     "text": "clean water",
+     "misconception": "other"
+    },
+    {
+     "text": "building",
+     "misconception": "other"
+    },
+    {
+     "text": "fuels and energy",
+     "misconception": "other"
+    },
+    {
+     "text": "keeping food",
+     "misconception": "other"
+    },
+    {
+     "text": "household goods",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is a different area. Think about what the product is used for."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch2-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "chemistry-life"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "helps people",
+    "harms people or nature"
+   ],
+   "prompt": "Does each use of chemicals help or harm?",
+   "pool": [
+    {
+     "left": "washing clothes with detergent",
+     "right": "helps people"
+    },
+    {
+     "left": "treating malaria with medicine",
+     "right": "helps people"
+    },
+    {
+     "left": "preserving fish with salt",
+     "right": "helps people"
+    },
+    {
+     "left": "killing germs in water with chlorine",
+     "right": "helps people"
+    },
+    {
+     "left": "burning plastic waste in the open",
+     "right": "harms people or nature"
+    },
+    {
+     "left": "pouring engine oil into a stream",
+     "right": "harms people or nature"
+    },
+    {
+     "left": "spraying too much pesticide near a river",
+     "right": "harms people or nature"
+    },
+    {
+     "left": "storing kerosene in a drink bottle",
+     "right": "harms people or nature"
+    }
+   ]
+  },
+  {
+   "id": "ch2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "chemistry-life"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Fertilisers help crops grow.",
+      "truth": "true"
+     },
+     {
+      "text": "Chlorine helps make water safe to drink.",
+      "truth": "true"
+     },
+     {
+      "text": "Cement is made by chemical industries.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning plastic in the open pollutes the air.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Soap is made without any chemistry.",
+      "truth": "false",
+      "explain": "Soap is made by a chemical reaction between fats or oils and an alkali."
+     },
+     {
+      "text": "Chemicals can never harm people.",
+      "truth": "false",
+      "explain": "Some chemicals are poisonous or polluting when misused."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

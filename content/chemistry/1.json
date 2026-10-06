@@ -1,0 +1,317 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "ch1",
+   "name": "What chemistry is"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Chemistry is the study of matter: what substances are made of, their properties, and how they change into new substances.\nA chemist asks: What is it made of? How does it behave? What happens when it reacts with something else?\nSome branches of chemistry:\n• Organic chemistry: compounds of carbon (in living things, fuels, plastics).\n• Inorganic chemistry: metals, salts and minerals.\n• Physical chemistry: energy changes and how fast reactions go.\n• Analytical chemistry: finding what a sample contains.\n• Biochemistry: chemical changes inside living things.\nA chemist works safely, measures carefully and records results honestly.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A laboratory in Douala tests a sample of tap water to find out how much chlorine it contains. Which branch of chemistry is this?",
+  "steps": [
+   "The question is “what does the sample contain, and how much?”",
+   "Finding what a sample contains is analytical chemistry."
+  ],
+  "answer": "Analytical chemistry.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc1-1",
+    "status": "draft",
+    "idea": "Chemistry studies matter: what substances are made of, how they behave, and how they change into new substances.",
+    "vars": {},
+    "example": [
+     "When firewood burns, it changes into ash, smoke and gases: new substances. Chemistry studies changes like this."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc1-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "chemistry"
+     ],
+     "vars": {},
+     "prompt": "Which question is a chemistry question?",
+     "pool": {
+      "right": [
+       {
+        "text": "What is table salt made of?",
+        "truth": "true"
+       },
+       {
+        "text": "Why does iron rust?",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "How fast does a taxi move?",
+        "truth": "false",
+        "explain": "Speed and motion are Physics."
+       },
+       {
+        "text": "How does a goat digest grass?",
+        "truth": "false",
+        "explain": "Digestion in an animal is Biology."
+       },
+       {
+        "text": "What will the weather be tomorrow?",
+        "truth": "false",
+        "explain": "Weather is Meteorology."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "chc1-2",
+    "status": "draft",
+    "idea": "Chemistry has branches: organic, inorganic, physical, analytical chemistry and biochemistry.",
+    "vars": {},
+    "example": [
+     "Plastics and fuels: organic chemistry. Salts and metals: inorganic chemistry."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch1-branch"
+    }
+   },
+   {
+    "id": "chc1-3",
+    "status": "draft",
+    "idea": "A chemist observes, measures carefully, works safely and records results honestly.",
+    "vars": {},
+    "example": [
+     "Ndi weighs a sample twice and writes both results, even when they are different."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch1-which"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch1-branch",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "chemistry"
+   ],
+   "prompt": "Match each branch of chemistry with what it studies.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "Organic chemistry",
+     "right": "the compounds of carbon found in living things, fuels and plastics"
+    },
+    {
+     "left": "Inorganic chemistry",
+     "right": "metals, salts and minerals"
+    },
+    {
+     "left": "Analytical chemistry",
+     "right": "what a sample contains and how much of each substance"
+    },
+    {
+     "left": "Biochemistry",
+     "right": "the chemical changes that happen inside living things"
+    },
+    {
+     "left": "Physical chemistry",
+     "right": "energy changes and how fast reactions happen"
+    }
+   ]
+  },
+  {
+   "id": "ch1-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "chemistry"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the compounds of carbon found in living things, fuels and plastics",
+       "a": "Organic chemistry",
+       "why": "Organic chemistry studies the compounds of carbon found in living things, fuels and plastics."
+      },
+      {
+       "t": "metals, salts and minerals",
+       "a": "Inorganic chemistry",
+       "why": "Inorganic chemistry studies metals, salts and minerals."
+      },
+      {
+       "t": "what a sample contains and how much of each substance",
+       "a": "Analytical chemistry",
+       "why": "Analytical chemistry studies what a sample contains and how much of each substance."
+      },
+      {
+       "t": "the chemical changes that happen inside living things",
+       "a": "Biochemistry",
+       "why": "Biochemistry studies the chemical changes that happen inside living things."
+      },
+      {
+       "t": "energy changes and how fast reactions happen",
+       "a": "Physical chemistry",
+       "why": "Physical chemistry studies energy changes and how fast reactions happen."
+      }
+     ]
+    }
+   },
+   "prompt": "Which branch of chemistry studies {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Organic chemistry",
+     "misconception": "other"
+    },
+    {
+     "text": "Inorganic chemistry",
+     "misconception": "other"
+    },
+    {
+     "text": "Analytical chemistry",
+     "misconception": "other"
+    },
+    {
+     "text": "Biochemistry",
+     "misconception": "other"
+    },
+    {
+     "text": "Physical chemistry",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this branch. Read what each branch studies again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch1-true",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "chemistry"
+   ],
+   "vars": {},
+   "prompt": "Which sentence is true?",
+   "pool": {
+    "right": [
+     {
+      "text": "Chemistry studies what substances are made of and how they change.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning firewood is a change that chemistry studies.",
+      "truth": "true"
+     },
+     {
+      "text": "A chemist records results honestly.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chemistry only studies dangerous substances.",
+      "truth": "false",
+      "explain": "Chemistry studies all matter: water, food, soap, air, medicines."
+     },
+     {
+      "text": "Chemistry is the study of living things.",
+      "truth": "false",
+      "explain": "Living things are Biology; chemistry studies substances and their changes."
+     },
+     {
+      "text": "A chemist changes results that look wrong.",
+      "truth": "false",
+      "explain": "Results are recorded as they are, even when they are surprising."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "chemistry"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Organic chemistry studies compounds of carbon.",
+      "truth": "true"
+     },
+     {
+      "text": "Analytical chemistry finds out what a sample contains.",
+      "truth": "true"
+     },
+     {
+      "text": "Biochemistry studies chemical changes in living things.",
+      "truth": "true"
+     },
+     {
+      "text": "Inorganic chemistry studies metals and salts.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Physical chemistry studies plants and animals.",
+      "truth": "false",
+      "explain": "Physical chemistry studies energy changes and how fast reactions go."
+     },
+     {
+      "text": "Organic chemistry studies only metals.",
+      "truth": "false",
+      "explain": "Organic chemistry studies compounds of carbon. Metals are inorganic chemistry."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

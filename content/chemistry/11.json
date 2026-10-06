@@ -1,0 +1,326 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "ch11",
+   "name": "Kinetic theory of matter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The kinetic theory says:\n• All matter is made of tiny particles.\n• The particles are always moving. In a solid they vibrate in fixed places; in a liquid they slide past each other; in a gas they move fast in all directions.\n• When a substance is heated, its particles gain energy and move faster.\nThis explains changes of state: when a solid is heated, its particles vibrate so much that they break free (melting); heated more, they escape from the liquid (boiling).\nDiffusion: particles spread out from where there are many to where there are few. The smell of ndolé cooking fills the house; a purple crystal colours still water. Diffusion is fastest in gases and faster when warm.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why does the smell of fried plantains reach the next room, even with no wind?",
+  "steps": [
+   "The smell is made of tiny gas particles from the food.",
+   "Gas particles move fast in all directions and spread out into the air (diffusion).",
+   "They spread from the kitchen, where there are many, to the room, where there are few."
+  ],
+  "answer": "The smell particles diffuse through the air.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc11-1",
+    "status": "draft",
+    "idea": "All matter is made of tiny particles that are always moving.",
+    "vars": {},
+    "example": [
+     "Even in a stone, the particles vibrate in their places."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch11-move"
+    }
+   },
+   {
+    "id": "chc11-2",
+    "status": "draft",
+    "idea": "Heating gives the particles more energy: they move faster. That is why solids melt and liquids boil.",
+    "vars": {},
+    "example": [
+     "Ice melts because its particles vibrate so much that they break free."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch11-heat"
+    }
+   },
+   {
+    "id": "chc11-3",
+    "status": "draft",
+    "idea": "Diffusion: particles spread out from where there are many to where there are few. It is fastest in gases and when warm.",
+    "vars": {},
+    "example": [
+     "A drop of ink slowly colours a whole glass of still water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch11-diffusion"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch11-move",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kinetic"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "vibrate in fixed places",
+       "a": "solid",
+       "why": "In a solid the particles vibrate in fixed places."
+      },
+      {
+       "t": "slide past each other",
+       "a": "liquid",
+       "why": "In a liquid the particles slide past each other."
+      },
+      {
+       "t": "move fast in all directions",
+       "a": "gas",
+       "why": "In a gas the particles move fast in all directions."
+      }
+     ]
+    }
+   },
+   "prompt": "In which state do the particles {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "solid",
+     "misconception": "other"
+    },
+    {
+     "text": "liquid",
+     "misconception": "other"
+    },
+    {
+     "text": "gas",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think about how freely the particles can move."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "ch11-heat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kinetic"
+   ],
+   "vars": {},
+   "prompt": "What happens to the particles of a substance when it is heated?",
+   "pool": {
+    "right": [
+     {
+      "text": "They gain energy and move faster.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "They get bigger.",
+      "truth": "false",
+      "explain": "The particles do not grow; they move faster."
+     },
+     {
+      "text": "They stop moving.",
+      "truth": "false",
+      "explain": "Cooling slows them down; heating speeds them up."
+     },
+     {
+      "text": "They change into new particles.",
+      "truth": "false",
+      "explain": "Heating alone does not make new particles in a change of state."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch11-diffusion",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kinetic"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "The smell of ndolé cooking fills the house.",
+       "a": "diffusion",
+       "why": "The smell of ndolé cooking fills the house. This is diffusion."
+      },
+      {
+       "t": "A purple crystal slowly colours still water.",
+       "a": "diffusion",
+       "why": "A purple crystal slowly colours still water. This is diffusion."
+      },
+      {
+       "t": "Water in a pot turns to steam.",
+       "a": "boiling",
+       "why": "Water in a pot turns to steam. This is boiling."
+      },
+      {
+       "t": "Ice cubes in a drink turn to water.",
+       "a": "melting",
+       "why": "Ice cubes in a drink turn to water. This is melting."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t} Which of these explains it?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "diffusion",
+     "misconception": "other"
+    },
+    {
+     "text": "boiling",
+     "misconception": "other"
+    },
+    {
+     "text": "melting",
+     "misconception": "other"
+    },
+    {
+     "text": "condensation",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Is something spreading out, or changing state?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch11-faster",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kinetic"
+   ],
+   "vars": {},
+   "prompt": "In which case does diffusion happen fastest?",
+   "pool": {
+    "right": [
+     {
+      "text": "a smell spreading through warm air",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a smell spreading through cold air",
+      "truth": "false",
+      "explain": "Diffusion is faster when it is warm: the particles move faster."
+     },
+     {
+      "text": "ink spreading through cold water",
+      "truth": "false",
+      "explain": "Diffusion is much faster in gases than in liquids."
+     },
+     {
+      "text": "a solid spreading into another solid",
+      "truth": "false",
+      "explain": "In solids the particles only vibrate: diffusion is extremely slow."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kinetic"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Particles in a gas move fast in all directions.",
+      "truth": "true"
+     },
+     {
+      "text": "Heating makes particles move faster.",
+      "truth": "true"
+     },
+     {
+      "text": "Diffusion is faster in gases than in liquids.",
+      "truth": "true"
+     },
+     {
+      "text": "All matter is made of tiny particles.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Particles in a solid do not move at all.",
+      "truth": "false",
+      "explain": "They vibrate in fixed places."
+     },
+     {
+      "text": "When ice melts, its particles get bigger.",
+      "truth": "false",
+      "explain": "The particles move more; they do not get bigger."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  12,
+  20
+ ],
+ "skills": [
+  {
+   "id": "ch21",
+   "name": "Mixtures and compounds compared"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mixture or compound?\n• Make-up: a mixture's parts can be in any amounts; a compound's elements are in a fixed ratio.\n• Properties: in a mixture each part keeps its properties; a compound has new properties.\n• Separation: a mixture can be separated by physical methods; a compound only by a chemical reaction.\n• Melting and boiling: a mixture melts or boils over a range; a compound at fixed temperatures.\n• Making it: mixing usually gives no heat or light; forming a compound often gives out (or takes in) heat.\nExample: iron filings and sulfur mixed together are a mixture (a magnet pulls out the iron); heated together they react to form iron sulfide, a compound (a magnet no longer pulls it).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Iron filings and sulfur powder are mixed, then the mixture is heated strongly until it glows. What do you have before and after heating?",
+  "steps": [
+   "Before: a magnet pulls out the iron; the yellow sulfur stays. It is a mixture.",
+   "Heating: the mixture glows: a chemical reaction gives out heat.",
+   "After: a black solid, iron sulfide; a magnet does not pull it. It is a compound."
+  ],
+  "answer": "Before: a mixture. After: a compound (iron sulfide).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc21-1",
+    "status": "draft",
+    "idea": "A mixture can be separated by physical methods; a compound needs a chemical reaction.",
+    "vars": {},
+    "example": [
+     "Salt water: evaporate. Water itself: only a reaction splits it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch21-sort"
+    }
+   },
+   {
+    "id": "chc21-2",
+    "status": "draft",
+    "idea": "In a mixture each part keeps its properties; a compound has new properties.",
+    "vars": {},
+    "example": [
+     "Iron + sulfur mixed: a magnet still pulls the iron. Iron sulfide: it does not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch21-which"
+    }
+   },
+   {
+    "id": "chc21-3",
+    "status": "draft",
+    "idea": "A compound has a fixed make-up and fixed melting and boiling points; a mixture does not.",
+    "vars": {
+     "b": 100
+    },
+    "example": [
+     "Water is always H₂O and boils at {b} °C (pure, normal pressure)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc21-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "compounds"
+     ],
+     "vars": {},
+     "prompt": "Which is true of a compound?",
+     "pool": {
+      "right": [
+       {
+        "text": "Its elements are always in the same fixed ratio.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Its parts can be in any amounts.",
+        "truth": "false",
+        "explain": "That is a mixture."
+       },
+       {
+        "text": "It can be separated with a magnet or a filter.",
+        "truth": "false",
+        "explain": "That is a mixture."
+       },
+       {
+        "text": "Each part keeps its own properties.",
+        "truth": "false",
+        "explain": "That is a mixture."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch21-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "mixture",
+    "compound"
+   ],
+   "prompt": "Does each sentence describe a mixture or a compound?",
+   "pool": [
+    {
+     "left": "its parts can be in any amounts",
+     "right": "mixture"
+    },
+    {
+     "left": "its parts keep their own properties",
+     "right": "mixture"
+    },
+    {
+     "left": "it can be separated by physical methods",
+     "right": "mixture"
+    },
+    {
+     "left": "it melts or boils over a range of temperatures",
+     "right": "mixture"
+    },
+    {
+     "left": "its elements are in a fixed ratio",
+     "right": "compound"
+    },
+    {
+     "left": "it has new properties, unlike its elements",
+     "right": "compound"
+    },
+    {
+     "left": "it can only be split by a chemical reaction",
+     "right": "compound"
+    },
+    {
+     "left": "it has a fixed melting and boiling point",
+     "right": "compound"
+    }
+   ]
+  },
+  {
+   "id": "ch21-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "iron filings and sulfur stirred together",
+       "a": "a mixture",
+       "why": "iron filings and sulfur stirred together: a mixture."
+      },
+      {
+       "t": "iron sulfide made by heating iron and sulfur",
+       "a": "a compound",
+       "why": "iron sulfide made by heating iron and sulfur: a compound."
+      },
+      {
+       "t": "salt water",
+       "a": "a mixture",
+       "why": "salt water: a mixture."
+      },
+      {
+       "t": "water (H₂O)",
+       "a": "a compound",
+       "why": "water (H₂O): a compound."
+      },
+      {
+       "t": "air",
+       "a": "a mixture",
+       "why": "air: a mixture."
+      },
+      {
+       "t": "carbon dioxide (CO₂)",
+       "a": "a compound",
+       "why": "carbon dioxide (CO₂): a compound."
+      }
+     ]
+    }
+   },
+   "prompt": "Is {x.t} a mixture or a compound?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a mixture",
+     "misconception": "other"
+    },
+    {
+     "text": "a compound",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Ask: are the parts chemically joined in a fixed ratio?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "ch21-test",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {},
+   "prompt": "Iron and sulfur have been heated together. How can you show that a compound has formed?",
+   "pool": {
+    "right": [
+     {
+      "text": "A magnet no longer pulls out the iron.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The mixture is still yellow and grey.",
+      "truth": "false",
+      "explain": "Those are the old properties: a compound has new ones."
+     },
+     {
+      "text": "You can still pick out the sulfur.",
+      "truth": "false",
+      "explain": "If you can, it is still a mixture."
+     },
+     {
+      "text": "It weighs the same.",
+      "truth": "false",
+      "explain": "Weighing does not show whether the elements have joined."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A compound has a fixed composition.",
+      "truth": "true"
+     },
+     {
+      "text": "A mixture can be separated by physical methods.",
+      "truth": "true"
+     },
+     {
+      "text": "Forming a compound often gives out heat.",
+      "truth": "true"
+     },
+     {
+      "text": "Air is a mixture.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Water can be separated into hydrogen and oxygen by filtering.",
+      "truth": "false",
+      "explain": "Water is a compound: only a chemical reaction splits it."
+     },
+     {
+      "text": "In a compound, each element keeps its own properties.",
+      "truth": "false",
+      "explain": "A compound has new properties; each part keeps its properties only in a mixture."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

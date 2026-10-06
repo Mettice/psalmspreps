@@ -16,12 +16,13 @@ teacher, not revision. No exercise-book check is possible; teachers review later
 Related files: `content/maths/AUTHORED.md` (every authored question, all variants, with sources),
 `content/maths/REVIEW.md` (every draft rendered), `content/maths/sources.json`. English: `content/english/AUTHORED.md`,
 `content/english/REVIEW.md`, `content/english/sources.json`. Physics: `content/physics/AUTHORED.md`,
-`content/physics/REVIEW.md` (with drawings in `content/physics/figures/`), `content/physics/sources.json`.
+`content/physics/REVIEW.md` (with drawings in `content/physics/figures/`), `content/physics/sources.json`. Chemistry: `content/chemistry/AUTHORED.md`,
+`content/chemistry/REVIEW.md`, `content/chemistry/sources.json`.
 
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-61 P1 items: 59 open, 2 closed (Maths 25, English 18, Physics 18). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+74 P1 items: 72 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -84,6 +85,19 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-P17 | Physics statement pools | open |
 | TR-P18 | Physics notes (19) and teach cards (58) | open |
 | TR-P19 | Typed Physics answers | open |
+| TR-K02 | Element table, symbols, spellings, Latin names | open |
+| TR-K03 | Formulas and atom counts | open |
+| TR-K04 | Branches of chemistry | open |
+| TR-K05 | Laboratory equipment and uses | open |
+| TR-K06 | Hazard symbols and reagents | open |
+| TR-K07 | Chemistry laboratory safety | open |
+| TR-K08 | Physical and chemical changes | open |
+| TR-K09 | States of matter and kinetic theory | open |
+| TR-K10 | Pure substances, mixtures, solutions | open |
+| TR-K11 | Separation methods and steps | open |
+| TR-K12 | Gases in liquids; composition of air | open |
+| TR-K13 | Mixtures and compounds compared | open |
+| TR-K14 | Chemistry statement pools, notes (21) and cards (63) | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -281,3 +295,34 @@ reading. Everything is draft and **not yet in the app**: it goes in after review
 ### P3: cosmetic
 - [ ] **TR-P25 [P3] Context:** Cameroonian names, places (Buea, Bamenda, Kumba, Mamfe, Limbe, Yaoundé, Mount Cameroon) and goods (palm oil, maize, groundnuts, rice, kerosene). *Location:* all Physics lessons.
 - [ ] **TR-P26 [P2] Physics released in the app on 2026-10-07 at Dion's request ("release physics and push it"),** before the TR-P items above were checked by a teacher; the lessons show the usual "drafts" line. The app now has three tabs (Maths, English, Physics) and is about 506 KB (limit raised to 640 KB; the 2 MB Phase 3 budget stands). Supersedes TR-P24. *Location:* `SUBJECTS`, `BATCH` in `tools/prototype/build.mjs`.
+
+## K. Chemistry Form 1, Batch C1 (Lessons 1–21, Term 1), added 2026-10-07
+
+All 21 lessons are taught with auto-marked practice. 21 notes, 63 teach cards, 94 practice templates and 15 card-check
+templates: 91 have an **authored key** and 18 are **computed by rule** (unit conversions, weighing by difference, time,
+temperature, atom counts from formulas, boiling-point order). Two questions show a drawn measuring cylinder or
+thermometer (the Physics drawings). Chemistry is mostly facts and classification, so far more of it rests on teacher
+review than Maths or Physics. Everything is draft and **not yet in the app**. Every authored key and statement is in
+`content/chemistry/AUTHORED.md`; every question as the pupil sees it is in `content/chemistry/REVIEW.md`.
+
+### P1: wrong facts here would mislead the pupil
+- [ ] **TR-K02 [P1] Element table:** the first 20 elements in order plus Fe, Cu, Zn, Ag, Sn, I, Au, Hg, Pb; names in British school spelling (aluminium, sulfur; "sulphur" is not accepted as typed); metal / non-metal / metalloid (B, Si are metalloids and are left out of the sorting question); Latin origins of Na, K, Fe, Cu, Ag, Sn, Au, Hg, Pb. *Location:* `ELEMENTS`, `LATIN` in `src/engine/lib/chemistry.js`; `content/chemistry/19.json`.
+- [ ] **TR-K03 [P1] Formulas and atom counts:** the ten compounds (water H₂O, carbon dioxide CO₂, sodium chloride NaCl, calcium carbonate CaCO₃, sulfuric acid H₂SO₄, ammonia NH₃, methane CH₄, glucose C₆H₁₂O₆, magnesium oxide MgO, copper(II) sulfate CuSO₄) and how a formula is read (no number means one; brackets multiply). *Location:* `parseFormula()` in `src/engine/lib/chemistry.js`; `content/chemistry/20.json`.
+- [ ] **TR-K04 [P1] Branches of chemistry:** organic, inorganic, physical, analytical chemistry and biochemistry, and what each studies. *Location:* `content/chemistry/1.json`.
+- [ ] **TR-K05 [P1] Laboratory equipment and uses:** the 20 items in Lessons 3–4 and their jobs (e.g. a burette lets out an exact volume drop by drop; a pipette transfers one exact volume; never heat a measuring cylinder; a blue Bunsen flame is hotter than a yellow one). *Location:* `content/chemistry/3.json`, `4.json`.
+- [ ] **TR-K06 [P1] Hazard symbols and reagents:** seven symbols in words (incl. flame over a circle = oxidising) and the typical hazard of six reagents (concentrated sulfuric acid and sodium hydroxide corrosive; ethanol and kerosene flammable; mercury toxic; potassium manganate(VII) oxidising); what to do for each symbol. *Location:* `content/chemistry/5.json`.
+- [ ] **TR-K07 [P1] Chemistry safety:** waft smells; add acid to water; point heated test tubes away; never return chemicals to the stock bottle; first actions after a splash on skin or in the eye, a gas smell, a spitting test tube. *Location:* `content/chemistry/6.json`.
+- [ ] **TR-K08 [P1] Physical and chemical changes:** the seven examples of each (palm wine and milk turning sour, bread dough rising, rusting… are chemical; dissolving sugar, grinding maize, palm oil hardening… are physical) and the signs of a chemical change. *Location:* `content/chemistry/9.json`.
+- [ ] **TR-K09 [P1] States and kinetic theory:** changes of state as physical changes; iodine and ammonium chloride sublime; a pure substance has fixed melting and boiling points (salt water boils above 100 °C); particle movement in each state; diffusion (faster in gases and when warm). *Location:* `content/chemistry/10.json`, `11.json`.
+- [ ] **TR-K10 [P1] Pure substances and mixtures:** the lists (distilled water, salt, sugar, oxygen, iron, gold, carbon dioxide are pure; air, sea water, soil, tap water, palm wine, concrete, milk, a soft drink are mixtures); types of mixtures; miscible and immiscible pairs (milk and water treated as miscible); solutions and suspensions. *Location:* `content/chemistry/12.json`, `13.json`.
+- [ ] **TR-K11 [P1] Separation methods:** which method for which mixture, and the steps in order (salt from sand; simple distillation; using a separating funnel); residue and filtrate; fractional distillation by boiling point (ethanol about 78 °C, water 100 °C, acetic acid about 118 °C). *Location:* `content/chemistry/14.json` to `16.json`.
+- [ ] **TR-K12 [P1] Gases in liquids and in air:** warm water holds less dissolved gas; opening a soft drink lowers the pressure; air is about 78 % nitrogen, 21 % oxygen, almost 1 % argon; fractional distillation of liquid air; sodium hydroxide solution absorbs carbon dioxide. *Location:* `content/chemistry/17.json`, `18.json`.
+- [ ] **TR-K13 [P1] Mixtures and compounds compared:** the eight statements, and the iron and sulfur experiment (iron sulfide is not attracted by a magnet). *Location:* `content/chemistry/21.json`.
+- [ ] **TR-K14 [P1] Statement pools, notes and cards:** every right and wrong sentence with its explanation, 21 notes and 63 cards. *Location:* `content/chemistry/AUTHORED.md`, `REVIEW.md`.
+
+### P2: conventions and decisions
+- [ ] **TR-K15 [P2] Uses of chemistry and "helps or harms":** the eight product → area pairs and the eight help/harm examples. *Location:* `content/chemistry/2.json`.
+- [ ] **TR-K16 [P2] Depth for Form 1:** gas–gas separation (liquid air) and liquid–gas separation are taught at a simple, descriptive level; please say if the school goes further or less far. *Location:* `content/chemistry/17.json`, `18.json`.
+- [ ] **TR-K17 [P2] Element-symbol questions offer wrong capitalisations** (Cu, CU, cu) as choices on purpose; the test compares tapped options exactly. *Location:* `ch19-symbol` in `content/chemistry/19.json`; `tests-js/subject-suite.js`.
+- [ ] **TR-K18 [P2] Not in the app yet:** Chemistry joins as a fourth tab after this review. *Location:* `SUBJECTS` in `tools/prototype/build.mjs`.
+- [ ] **TR-K19 [P2] Chemistry released in the app on 2026-10-07 at Dion's request ("release chemistry and push it"),** before the TR-K items above were checked by a teacher; the lessons show the usual "drafts" line. Four tabs now (Maths, English, Physics, Chemistry), shown two by two at 360 px; the page is about 640 KB (limit 800 KB; the 2 MB Phase 3 budget stands). Supersedes TR-K18. *Location:* `SUBJECTS`, `BATCH` in `tools/prototype/build.mjs`.

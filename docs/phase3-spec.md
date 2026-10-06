@@ -147,3 +147,13 @@ The readiness check runs once. Published as the site's `index.html`; `/lesson3/`
 - Physics Batch P1 (Lessons 1–19) was written and tested, then **released on 2026-10-07** at Dion's request (TR-P26):
   a third tab, `lib/physics.js` in the bundle, size limit 640 KB. Releasing it
   means adding `physics` to `SUBJECTS` and `lib/physics.js` to the bundle in `tools/prototype/build.mjs`.
+
+## 12. Chemistry (2026-10-07)
+
+- `src/engine/lib/chemistry.js`: an authored element table (first 20 + common metals, British spellings, Latin
+  origins) and a formula parser (`parseFormula()`, brackets supported) so atom counts and element lists are computed.
+  Chemistry templates use `{...maths, ...english, ...physics, ...chemistry}` and reuse the Physics units and drawings.
+- Content is tested by the shared suite; template ids start with `ch`, skills `ch1` … `ch21`. In multiple choice the
+  suite compares options exactly, because some questions (element symbols) offer the same letters in different capitals.
+- Batch C1 (Lessons 1–21) was written and tested, then **released on 2026-10-07** at Dion's request (TR-K19): a fourth
+  tab (the subject tabs now sit two by two), `lib/chemistry.js` in the bundle, size limit 800 KB.

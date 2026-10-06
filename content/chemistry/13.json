@@ -1,0 +1,342 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "ch13",
+   "name": "Types of mixtures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mixtures are named by the states of their parts:\n• solid–solid: sand and salt; garri with small stones;\n• solid–liquid: muddy water, salt water;\n• liquid–liquid: palm oil and water (they do not mix: immiscible); ethanol and water (they mix: miscible);\n• gas–liquid: a soft drink (carbon dioxide dissolved in water);\n• gas–gas: air;\n• solid–gas: smoke.\nA solution is a mixture where a solid, liquid or gas (the solute) dissolves completely in a liquid (the solvent): salt water. A suspension has solid pieces that do not dissolve and settle on standing: muddy water.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Palm oil and water are shaken in a bottle, then left to stand. What happens, and what type of mixture is it?",
+  "steps": [
+   "Both parts are liquids: a liquid–liquid mixture.",
+   "On standing, the oil floats on top as a separate layer: they do not mix (immiscible)."
+  ],
+  "answer": "A liquid–liquid mixture of immiscible liquids: two layers form.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc13-1",
+    "status": "draft",
+    "idea": "A mixture is named by the states of its parts: solid–solid, solid–liquid, liquid–liquid, gas–liquid, gas–gas.",
+    "vars": {},
+    "example": [
+     "Muddy water: solid–liquid. Air: gas–gas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch13-type"
+    }
+   },
+   {
+    "id": "chc13-2",
+    "status": "draft",
+    "idea": "Liquids that mix are miscible (ethanol and water); liquids that form layers are immiscible (palm oil and water).",
+    "vars": {},
+    "example": [
+     "Kerosene floats on water in a separate layer: immiscible."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch13-misc"
+    }
+   },
+   {
+    "id": "chc13-3",
+    "status": "draft",
+    "idea": "A solution: the solute dissolves completely in the solvent. A suspension: solid pieces that settle on standing.",
+    "vars": {},
+    "example": [
+     "Salt water is a solution; muddy water is a suspension."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc13-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "mixtures"
+     ],
+     "vars": {},
+     "prompt": "In salt water, which is the solvent?",
+     "pool": {
+      "right": [
+       {
+        "text": "water",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "salt",
+        "truth": "false",
+        "explain": "The salt is the solute: it dissolves."
+       },
+       {
+        "text": "the cup",
+        "truth": "false",
+        "explain": "The solvent is the liquid that does the dissolving."
+       },
+       {
+        "text": "the air",
+        "truth": "false",
+        "explain": "Air is not part of the solution."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch13-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "mixtures"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "sand and salt",
+       "a": "solid and solid",
+       "why": "sand and salt: a mixture of solid and solid."
+      },
+      {
+       "t": "garri mixed with small stones",
+       "a": "solid and solid",
+       "why": "garri mixed with small stones: a mixture of solid and solid."
+      },
+      {
+       "t": "muddy water",
+       "a": "solid and liquid",
+       "why": "muddy water: a mixture of solid and liquid."
+      },
+      {
+       "t": "salt water",
+       "a": "solid and liquid",
+       "why": "salt water: a mixture of solid and liquid."
+      },
+      {
+       "t": "palm oil and water",
+       "a": "liquid and liquid",
+       "why": "palm oil and water: a mixture of liquid and liquid."
+      },
+      {
+       "t": "ethanol and water",
+       "a": "liquid and liquid",
+       "why": "ethanol and water: a mixture of liquid and liquid."
+      },
+      {
+       "t": "a soft drink (carbon dioxide in water)",
+       "a": "gas and liquid",
+       "why": "a soft drink (carbon dioxide in water): a mixture of gas and liquid."
+      },
+      {
+       "t": "air",
+       "a": "gas and gas",
+       "why": "air: a mixture of gas and gas."
+      },
+      {
+       "t": "smoke (soot in air)",
+       "a": "solid and gas",
+       "why": "smoke (soot in air): a mixture of solid and gas."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of mixture is {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "solid and solid",
+     "misconception": "other"
+    },
+    {
+     "text": "solid and liquid",
+     "misconception": "other"
+    },
+    {
+     "text": "liquid and liquid",
+     "misconception": "other"
+    },
+    {
+     "text": "gas and liquid",
+     "misconception": "other"
+    },
+    {
+     "text": "gas and gas",
+     "misconception": "other"
+    },
+    {
+     "text": "solid and gas",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think about the state of each part."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "ch13-misc",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "mixtures"
+   ],
+   "groups": true,
+   "pick": 4,
+   "group_order": [
+    "miscible (they mix)",
+    "immiscible (two layers)"
+   ],
+   "prompt": "Do these liquids mix with water, or form layers?",
+   "pool": [
+    {
+     "left": "ethanol and water",
+     "right": "miscible (they mix)"
+    },
+    {
+     "left": "vinegar and water",
+     "right": "miscible (they mix)"
+    },
+    {
+     "left": "milk and water",
+     "right": "miscible (they mix)"
+    },
+    {
+     "left": "palm oil and water",
+     "right": "immiscible (two layers)"
+    },
+    {
+     "left": "kerosene and water",
+     "right": "immiscible (two layers)"
+    },
+    {
+     "left": "petrol and water",
+     "right": "immiscible (two layers)"
+    }
+   ]
+  },
+  {
+   "id": "ch13-solution",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "mixtures"
+   ],
+   "groups": true,
+   "pick": 5,
+   "group_order": [
+    "solution",
+    "suspension"
+   ],
+   "prompt": "Solution (dissolves completely) or suspension (pieces settle)?",
+   "pool": [
+    {
+     "left": "salt in water",
+     "right": "solution"
+    },
+    {
+     "left": "sugar in tea",
+     "right": "solution"
+    },
+    {
+     "left": "copper(II) sulfate in water",
+     "right": "solution"
+    },
+    {
+     "left": "muddy water",
+     "right": "suspension"
+    },
+    {
+     "left": "chalk dust in water",
+     "right": "suspension"
+    },
+    {
+     "left": "sand in water",
+     "right": "suspension"
+    }
+   ]
+  },
+  {
+   "id": "ch13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "mixtures"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Air is a gas–gas mixture.",
+      "truth": "true"
+     },
+     {
+      "text": "Palm oil and water are immiscible.",
+      "truth": "true"
+     },
+     {
+      "text": "In salt water, salt is the solute.",
+      "truth": "true"
+     },
+     {
+      "text": "A soft drink contains a dissolved gas.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Muddy water is a solution.",
+      "truth": "false",
+      "explain": "The mud does not dissolve and settles: it is a suspension."
+     },
+     {
+      "text": "Ethanol and water form two layers.",
+      "truth": "false",
+      "explain": "Ethanol and water are miscible: they mix completely."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

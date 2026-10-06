@@ -1,0 +1,367 @@
+{
+ "subject": "chemistry",
+ "class": "Form 1",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "ch12",
+   "name": "Mixtures and pure substances"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A pure substance is made of only one kind of matter. It is either an element (iron, oxygen, gold) or a compound (water, table salt, sugar, carbon dioxide). It has fixed melting and boiling points.\nA mixture contains two or more substances that are not chemically joined. Each keeps its own properties, and they can be separated by physical methods (filtering, evaporating, distilling…). Examples: air, sea water, soil, tap water, palm wine, a soft drink, concrete, milk.\nThe amounts in a mixture can vary: tea can be weak or strong. The make-up of a pure substance never varies: water is always hydrogen and oxygen in the same ratio.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is sea water a pure substance or a mixture? How do you know?",
+  "steps": [
+   "Sea water contains water and dissolved salts.",
+   "If you let it evaporate, the salt is left behind: the parts were separated by a physical method.",
+   "Its saltiness varies from place to place."
+  ],
+  "answer": "A mixture.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "chc12-1",
+    "status": "draft",
+    "idea": "A pure substance is one kind of matter only: an element or a compound. It has fixed melting and boiling points.",
+    "vars": {},
+    "example": [
+     "Distilled water, table salt, oxygen, gold."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch12-sort"
+    }
+   },
+   {
+    "id": "chc12-2",
+    "status": "draft",
+    "idea": "A mixture has two or more substances, not chemically joined, that can be separated by physical methods.",
+    "vars": {},
+    "example": [
+     "Sea water: evaporate the water and the salt is left."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "ch12-which"
+    }
+   },
+   {
+    "id": "chc12-3",
+    "status": "draft",
+    "idea": "The amounts in a mixture can vary; in a pure substance they are fixed.",
+    "vars": {},
+    "example": [
+     "Tea can be weak or strong; water is always H₂O."
+    ],
+    "checks": [],
+    "check": {
+     "id": "chc12-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "mixtures"
+     ],
+     "vars": {},
+     "prompt": "Which sentence is about a mixture?",
+     "pool": {
+      "right": [
+       {
+        "text": "Its parts can be present in any amounts.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "It has a fixed boiling point.",
+        "truth": "false",
+        "explain": "That is a pure substance."
+       },
+       {
+        "text": "It is made of only one kind of matter.",
+        "truth": "false",
+        "explain": "That is a pure substance."
+       },
+       {
+        "text": "It can only be split by a chemical reaction.",
+        "truth": "false",
+        "explain": "Mixtures can be separated by physical methods."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "ch12-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "mixtures"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "pure substance",
+    "mixture"
+   ],
+   "prompt": "Sort them: pure substance or mixture?",
+   "pool": [
+    {
+     "left": "distilled water",
+     "right": "pure substance"
+    },
+    {
+     "left": "table salt (sodium chloride)",
+     "right": "pure substance"
+    },
+    {
+     "left": "sugar",
+     "right": "pure substance"
+    },
+    {
+     "left": "oxygen",
+     "right": "pure substance"
+    },
+    {
+     "left": "iron",
+     "right": "pure substance"
+    },
+    {
+     "left": "gold",
+     "right": "pure substance"
+    },
+    {
+     "left": "carbon dioxide",
+     "right": "pure substance"
+    },
+    {
+     "left": "air",
+     "right": "mixture"
+    },
+    {
+     "left": "sea water",
+     "right": "mixture"
+    },
+    {
+     "left": "soil",
+     "right": "mixture"
+    },
+    {
+     "left": "tap water",
+     "right": "mixture"
+    },
+    {
+     "left": "palm wine",
+     "right": "mixture"
+    },
+    {
+     "left": "concrete",
+     "right": "mixture"
+    },
+    {
+     "left": "milk",
+     "right": "mixture"
+    },
+    {
+     "left": "a soft drink",
+     "right": "mixture"
+    }
+   ]
+  },
+  {
+   "id": "ch12-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "mixtures"
+   ],
+   "vars": {},
+   "prompt": "Which of these is a mixture?",
+   "pool": {
+    "right": [
+     {
+      "text": "air",
+      "truth": "true"
+     },
+     {
+      "text": "sea water",
+      "truth": "true"
+     },
+     {
+      "text": "soil",
+      "truth": "true"
+     },
+     {
+      "text": "tap water",
+      "truth": "true"
+     },
+     {
+      "text": "palm wine",
+      "truth": "true"
+     },
+     {
+      "text": "concrete",
+      "truth": "true"
+     },
+     {
+      "text": "milk",
+      "truth": "true"
+     },
+     {
+      "text": "a soft drink",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "distilled water",
+      "truth": "false",
+      "explain": "Distilled water is one kind of matter only: a pure substance."
+     },
+     {
+      "text": "table salt (sodium chloride)",
+      "truth": "false",
+      "explain": "Table salt (sodium chloride) is one kind of matter only: a pure substance."
+     },
+     {
+      "text": "sugar",
+      "truth": "false",
+      "explain": "Sugar is one kind of matter only: a pure substance."
+     },
+     {
+      "text": "oxygen",
+      "truth": "false",
+      "explain": "Oxygen is one kind of matter only: a pure substance."
+     },
+     {
+      "text": "iron",
+      "truth": "false",
+      "explain": "Iron is one kind of matter only: a pure substance."
+     },
+     {
+      "text": "gold",
+      "truth": "false",
+      "explain": "Gold is one kind of matter only: a pure substance."
+     },
+     {
+      "text": "carbon dioxide",
+      "truth": "false",
+      "explain": "Carbon dioxide is one kind of matter only: a pure substance."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch12-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "mixtures"
+   ],
+   "vars": {},
+   "prompt": "Why is air a mixture and not a pure substance?",
+   "pool": {
+    "right": [
+     {
+      "text": "It contains several gases (nitrogen, oxygen, carbon dioxide…) that are not chemically joined.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Because we cannot see it.",
+      "truth": "false",
+      "explain": "We cannot see oxygen either, and oxygen is pure."
+     },
+     {
+      "text": "Because it is a gas.",
+      "truth": "false",
+      "explain": "Oxygen is a gas and it is pure."
+     },
+     {
+      "text": "Because it is everywhere.",
+      "truth": "false",
+      "explain": "That does not decide; air is several gases mixed together."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "ch12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "mixtures"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Sea water is a mixture.",
+      "truth": "true"
+     },
+     {
+      "text": "Oxygen is a pure substance.",
+      "truth": "true"
+     },
+     {
+      "text": "The parts of a mixture can be separated by physical methods.",
+      "truth": "true"
+     },
+     {
+      "text": "Distilled water is pure.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tap water is a pure substance.",
+      "truth": "false",
+      "explain": "Tap water contains dissolved substances: it is a mixture."
+     },
+     {
+      "text": "A mixture has a fixed boiling point.",
+      "truth": "false",
+      "explain": "Mixtures boil over a range of temperatures."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

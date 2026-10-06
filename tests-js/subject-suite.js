@@ -4,7 +4,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
-import { instantiate, check, renderWorked, normaliseText } from "../src/engine/template.js";
+import { instantiate, check, renderWorked } from "../src/engine/template.js";
 import { renderCard, cardCheckTemplate, renderPaper, isDeferred, isAutoMarked } from "../src/engine/teach.js";
 
 const BAD_TEXT = /NaN|undefined|\[object Object\]|Infinity|\{|\}/;
@@ -128,7 +128,8 @@ export function subjectSuite({ subject, spine, lib, batch, prefix }) {
           assert.deepEqual(check(q, q.answer), { correct: true }, where);
         } else if (q.options) {
           const texts = q.options.map((o) => o.text);
-          assert.equal(new Set(texts.map(normaliseText)).size, texts.length, `${where}: repeated option in ${texts}`);
+          // tapped options are compared exactly: "Cu", "CU" and "cu" are different answers to a question about capitals
+          assert.equal(new Set(texts).size, texts.length, `${where}: repeated option in ${texts}`);
           for (const t of texts) assert.ok(!BAD_TEXT.test(t), `${where}: ${t}`);
           q.options.forEach((o, i) => {
             const r = check(q, i);
