@@ -68,6 +68,9 @@ test("prototype: motion off under prefers-reduced-motion; 48px tap targets; text
   // a placed tile leaves an empty slot: lists of tiles go through fill(), never straight into replaceChildren
   // (that showed the word "null" in ordering questions until 2026-10-06)
   assert.doesNotMatch(html, /replaceChildren\(\.\.\.[^;]*\? null/);
+  // the app opens on the lesson menu; the readiness check is offered on the Maths tab only, until done (2026-10-07)
+  assert.match(html, /\nmenu\(\);\s*<\/script>/);
+  assert.match(html, /const check = s === "maths" && !state\.readiness;/);
   // readiness must stay neutral: no flash, shake or check icon on that path
   const readinessCode = html.slice(html.indexOf("function readinessQ"), html.indexOf("function readinessDone"));
   assert.doesNotMatch(readinessCode, /flash|shake|checkIcon|Correct/);

@@ -198,7 +198,7 @@ function start() {
     ...lines(L0.note.text),
     para("Nothing you type leaves this phone. There is no name to enter.", "muted"),
     button("Start the check", () => readinessQ(readiness.buildReadiness(L0, newSeed(), libs.maths), 0, []), "primary"),
-    state.readiness ? toMenu() : null,
+    toMenu(),
   );
 }
 
@@ -221,7 +221,7 @@ function readinessDone(rows) {
   screen(
     header("Thank you", "Let's start"),
     para("Now we begin Form One, one small idea at a time."),
-    button("See the lessons", menu, "primary"),
+    button("See the Maths lessons", () => { state.subject = "maths"; save(); menu(); }, "primary"),
   );
 }
 
@@ -244,7 +244,12 @@ function menu() {
       el("span", { class: "mark", "aria-hidden": "true" }, mark),
       el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[s][n], sub ? el("span", { class: "sub" }, sub) : null));
   };
-  const lead = cur ? button(`Carry on with Lesson ${cur.lesson}`, () => openLesson(s, cur.lesson), "primary")
+  // The Primary 6 readiness check belongs to Maths only: it is offered first on the Maths tab until it is done
+  // (2026-10-07; before, it blocked the whole app on a first visit). It never blocks a lesson or the English tab.
+  const check = s === "maths" && !state.readiness;
+  const lead = check ? [button("Before Maths: a short check (13 questions)", start, "primary"),
+      para("It looks at the Primary School maths you need. About 10 minutes, no marks.", "muted")]
+    : cur ? button(`Carry on with Lesson ${cur.lesson}`, () => openLesson(s, cur.lesson), "primary")
     : next ? button(`Start Lesson ${next}: ${TITLES[s][next]}`, () => openLesson(s, next), "primary") : null;
   screen(
     tabs,
@@ -479,5 +484,5 @@ function results(flow) {
     button("Copy results", () => copyText(text, status, details, area), ""), status, details);
 }
 
-// First visit: the readiness check. After that: straight to the lessons.
-state.readiness ? menu() : start();
+// Always open on the lesson menu; the readiness check is offered on the Maths tab until it is done.
+menu();
