@@ -29,6 +29,7 @@ export function renderCard(card, lib) {
     id: card.id,
     idea: R(card.idea),
     example: card.example.map(R),
+    ...(card.figure ? { figure: String(evaluate(card.figure, scope, lib)) } : {}),
     failedChecks: (card.checks || []).filter((c) => evaluate(c, scope, lib) !== true),
   };
 }

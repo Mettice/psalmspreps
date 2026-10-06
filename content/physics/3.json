@@ -1,0 +1,336 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p3",
+   "name": "Physics and its branches"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Physics is the branch of science that studies matter and energy and how they act on each other.\nSome branches of physics:\n• Mechanics: forces and motion (a rolling ball, a lever, a moving car).\n• Heat: temperature and how heat moves (a hot iron, a cooking pot).\n• Optics: light (mirrors, lenses, rainbows).\n• Sound (acoustics): how sound is made and travels (drums, echoes).\n• Electricity and magnetism: batteries, bulbs, wires, magnets, compasses.\nPhysics is all around us: in a taxi's brakes, a solar lamp, a radio and a phone.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "At night, Ayuk switches on a solar lamp that was charged in the sun during the day. Which branches of physics explain this?",
+  "steps": [
+   "The solar panel turns sunlight into electricity, which charges the battery: Electricity.",
+   "The lamp then gives out light: Optics."
+  ],
+  "answer": "Electricity (the battery and panel) and Optics (the light).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc3-1",
+    "status": "draft",
+    "idea": "Physics studies matter and energy: forces, motion, heat, light, sound, electricity and magnetism.",
+    "vars": {},
+    "example": [
+     "A football kicked into the air: forces and motion.",
+     "A radio playing music: electricity and sound."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc3-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "physics-branches"
+     ],
+     "vars": {},
+     "prompt": "Which question is a physics question?",
+     "pool": {
+      "right": [
+       {
+        "text": "Why does a ball roll down a slope?",
+        "truth": "true"
+       },
+       {
+        "text": "How does a bulb light up?",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "How does a goat digest grass?",
+        "truth": "false",
+        "explain": "Digestion in an animal is Biology."
+       },
+       {
+        "text": "What is soap made of?",
+        "truth": "false",
+        "explain": "What substances are made of is Chemistry."
+       },
+       {
+        "text": "Why do maize leaves turn yellow?",
+        "truth": "false",
+        "explain": "Plant health is Biology."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "pc3-2",
+    "status": "draft",
+    "idea": "Mechanics is about forces and motion. Heat is about temperature. Optics is about light.",
+    "vars": {},
+    "example": [
+     "Brakes stopping a taxi: Mechanics.",
+     "A hot iron: Heat. A mirror: Optics."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-match"
+    }
+   },
+   {
+    "id": "pc3-3",
+    "status": "draft",
+    "idea": "Sound (acoustics) is about how sound is made and travels. Electricity and magnetism are about batteries, wires and magnets.",
+    "vars": {},
+    "example": [
+     "A talking drum: Sound.",
+     "A torch: Electricity."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p3-which"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p3-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physics-branches"
+   ],
+   "prompt": "Match each branch of physics with what it studies.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "Mechanics",
+     "right": "forces and motion"
+    },
+    {
+     "left": "Heat",
+     "right": "temperature and how heat moves"
+    },
+    {
+     "left": "Optics",
+     "right": "light, mirrors and lenses"
+    },
+    {
+     "left": "Sound (acoustics)",
+     "right": "how sound is made and travels"
+    },
+    {
+     "left": "Electricity and magnetism",
+     "right": "batteries, wires and magnets"
+    }
+   ]
+  },
+  {
+   "id": "p3-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physics-branches"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "how a bicycle moves and stops",
+       "a": "Mechanics",
+       "why": "Forces and motion: Mechanics."
+      },
+      {
+       "t": "why a metal spoon in hot tea gets hot",
+       "a": "Heat",
+       "why": "How heat moves: Heat (thermal physics)."
+      },
+      {
+       "t": "how a mirror makes an image",
+       "a": "Optics",
+       "why": "Light and images: Optics."
+      },
+      {
+       "t": "why a drum makes a loud sound",
+       "a": "Sound (acoustics)",
+       "why": "Sound: acoustics."
+      },
+      {
+       "t": "how a torch battery lights a bulb",
+       "a": "Electricity and magnetism",
+       "why": "Batteries and bulbs: electricity."
+      },
+      {
+       "t": "how a compass needle points north",
+       "a": "Electricity and magnetism",
+       "why": "A compass is a magnet: magnetism."
+      },
+      {
+       "t": "how a lever helps lift a heavy stone",
+       "a": "Mechanics",
+       "why": "Forces and machines: Mechanics."
+      },
+      {
+       "t": "how light bends in a glass of water",
+       "a": "Optics",
+       "why": "Light: Optics."
+      }
+     ]
+    }
+   },
+   "prompt": "Which branch of physics studies {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Mechanics",
+     "misconception": "other"
+    },
+    {
+     "text": "Heat",
+     "misconception": "other"
+    },
+    {
+     "text": "Optics",
+     "misconception": "other"
+    },
+    {
+     "text": "Sound (acoustics)",
+     "misconception": "other"
+    },
+    {
+     "text": "Electricity and magnetism",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this one. Is it about forces and motion, heat, light, sound, or electricity and magnets?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p3-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "physics-branches"
+   ],
+   "groups": true,
+   "pick": 5,
+   "group_order": [
+    "Physics",
+    "Chemistry",
+    "Biology"
+   ],
+   "prompt": "Which branch of science does each question belong to?",
+   "pool": [
+    {
+     "left": "Why does a ball roll down a slope?",
+     "right": "Physics"
+    },
+    {
+     "left": "How does a bulb light up?",
+     "right": "Physics"
+    },
+    {
+     "left": "Why do we hear thunder after lightning?",
+     "right": "Physics"
+    },
+    {
+     "left": "What is soap made of?",
+     "right": "Chemistry"
+    },
+    {
+     "left": "Why does iron rust?",
+     "right": "Chemistry"
+    },
+    {
+     "left": "How does a goat digest grass?",
+     "right": "Biology"
+    },
+    {
+     "left": "Why do maize leaves turn yellow?",
+     "right": "Biology"
+    }
+   ]
+  },
+  {
+   "id": "p3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "physics-branches"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Optics studies light and mirrors.",
+      "truth": "true"
+     },
+     {
+      "text": "Mechanics studies forces and motion.",
+      "truth": "true"
+     },
+     {
+      "text": "A compass works because of magnetism.",
+      "truth": "true"
+     },
+     {
+      "text": "Physics studies matter and energy.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Optics studies sound.",
+      "truth": "false",
+      "explain": "Optics studies light. Sound is acoustics."
+     },
+     {
+      "text": "Mechanics studies light and colours.",
+      "truth": "false",
+      "explain": "Mechanics studies forces and motion. Light is optics."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  8,
+  10
+ ],
+ "skills": [
+  {
+   "id": "p13",
+   "name": "Length"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Length is the distance between two points. Its SI unit is the metre (m).\nOther units: 1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm (the same ladder as in Maths: km, hm, dam, m, dm, cm, mm).\nInstruments:\n• ruler or metre rule: lengths up to about 1 m; the smallest mark is 1 mm;\n• measuring tape: long lengths, such as a room or a football field.\nTo measure with a ruler: put the start of the object on a mark (0 if you can), keep your eye straight above the mark, and if you did not start at 0, subtract: length = end − start.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": 1.5,
+   "e": 7.2
+  },
+  "figure": "ruler(s, e)",
+  "problem": "How long is the nail, in millimetres?",
+  "steps": [
+   "Start: {s} cm. End: {e} cm.",
+   "Length = {e} − {s} = {e - s} cm.",
+   "1 cm = {factor('cm', 'mm')} mm, so {e - s} cm = {convertUnit(e - s, 'cm', 'mm')} mm."
+  ],
+  "answer": "{convertUnit(e - s, 'cm', 'mm')} mm",
+  "checks": [
+   "convertUnit(e - s, 'cm', 'mm') == 57"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc13-1",
+    "status": "draft",
+    "idea": "Length is the distance between two points. SI unit: the metre (m). 1 km = {factor('km', 'm')} m, 1 m = {factor('m', 'cm')} cm, 1 cm = {factor('cm', 'mm')} mm.",
+    "vars": {},
+    "example": [
+     "Kumba to Mamfe is measured in km; a classroom in m; a pencil in cm; a grain of rice in mm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p13-convert"
+    }
+   },
+   {
+    "id": "pc13-2",
+    "status": "draft",
+    "idea": "Choose the instrument: a ruler for short lengths, a metre rule for about a metre, a measuring tape for long lengths.",
+    "vars": {},
+    "example": [
+     "The length of the classroom: a measuring tape."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p13-tool"
+    }
+   },
+   {
+    "id": "pc13-3",
+    "status": "draft",
+    "idea": "On a ruler, the small marks are millimetres: there are {factor('cm', 'mm')} between two centimetre numbers.",
+    "vars": {
+     "l": 46
+    },
+    "example": [
+     "This object is {l} mm long, that is {l / 10} cm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p13-mm"
+    },
+    "figure": "ruler(0, l / 10)"
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p13-convert",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "a": "km",
+       "b": "m"
+      },
+      {
+       "a": "m",
+       "b": "cm"
+      },
+      {
+       "a": "m",
+       "b": "mm"
+      },
+      {
+       "a": "cm",
+       "b": "mm"
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      95
+     ]
+    },
+    "up": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Convert this length: {up ? k / 10 : k * 10} {up ? p.a : p.b} = ? {up ? p.b : p.a}",
+   "answer": "up ? convertUnit(k / 10, p.a, p.b) : convertUnit(k * 10, p.b, p.a)",
+   "unit": "{up ? p.b : p.a}",
+   "misconceptions": [
+    {
+     "id": "wrong-way",
+     "wrong": "up ? convertUnit(k / 10, p.b, p.a) : convertUnit(k * 10, p.a, p.b)",
+     "explain": "You went the wrong way. From a bigger unit to a smaller one, the number gets bigger; from smaller to bigger, it gets smaller."
+    }
+   ],
+   "solution": [
+    "1 {p.a} = {factor(p.a, p.b)} {p.b}.",
+    "{up ? 'Multiply' : 'Divide'} by {factor(p.a, p.b)}: {up ? k / 10 : k * 10} {up ? p.a : p.b} = {answer} {up ? p.b : p.a}."
+   ]
+  },
+  {
+   "id": "p13-tool",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the length of a pencil",
+       "a": "ruler",
+       "why": "For the length of a pencil, a ruler is best."
+      },
+      {
+       "t": "the length of the classroom",
+       "a": "measuring tape",
+       "why": "For the length of the classroom, a measuring tape is best."
+      },
+      {
+       "t": "the width of your desk",
+       "a": "metre rule",
+       "why": "For the width of your desk, a metre rule is best."
+      },
+      {
+       "t": "the length of the school football field",
+       "a": "measuring tape",
+       "why": "For the length of the school football field, a measuring tape is best."
+      }
+     ]
+    }
+   },
+   "prompt": "Which instrument is best to measure {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "ruler",
+     "misconception": "other"
+    },
+    {
+     "text": "metre rule",
+     "misconception": "other"
+    },
+    {
+     "text": "measuring tape",
+     "misconception": "other"
+    },
+    {
+     "text": "balance",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That instrument is too short, too long, or measures something else."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p13-mm",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      15,
+      78
+     ]
+    },
+    "o": {
+     "pick": [
+      "pencil",
+      "piece of chalk",
+      "nail",
+      "matchbox",
+      "stick",
+      "key"
+     ]
+    }
+   },
+   "figure": "ruler(0, l / 10)",
+   "prompt": "How long is the {o}, in millimetres?",
+   "answer": "l",
+   "unit": "mm",
+   "misconceptions": [
+    {
+     "id": "cm",
+     "wrong": "l / 10",
+     "explain": "That is in centimetres. Each centimetre has 10 millimetres."
+    }
+   ],
+   "solution": [
+    "The {o} ends at {l / 10} cm.",
+    "{l / 10} cm = {l / 10} × {factor('cm', 'mm')} = {answer} mm."
+   ]
+  },
+  {
+   "id": "p13-read",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      8,
+      25
+     ]
+    },
+    "l": {
+     "int": [
+      15,
+      55
+     ]
+    },
+    "o": {
+     "pick": [
+      "pencil",
+      "piece of chalk",
+      "nail",
+      "matchbox",
+      "stick",
+      "key"
+     ]
+    }
+   },
+   "figure": "ruler(a / 10, (a + l) / 10)",
+   "prompt": "How long is the {o}, in millimetres?",
+   "answer": "l",
+   "unit": "mm",
+   "misconceptions": [
+    {
+     "id": "end",
+     "wrong": "a + l",
+     "explain": "That is where the {o} ends. Subtract where it starts."
+    },
+    {
+     "id": "cm",
+     "wrong": "l / 10",
+     "explain": "That is in centimetres. Give the answer in millimetres."
+    }
+   ],
+   "hint": "Read the start and the end in millimetres, then subtract.",
+   "solution": [
+    "Start: {a} mm. End: {a + l} mm.",
+    "Length = {a + l} − {a} = {answer} mm."
+   ]
+  },
+  {
+   "id": "p13-walk",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "Tabe",
+      "Bih",
+      "Ayuk",
+      "Manyi"
+     ]
+    },
+    "a": {
+     "int": [
+      2,
+      9
+     ],
+     "step": 1
+    },
+    "b": {
+     "int": [
+      150,
+      950
+     ],
+     "step": 50
+    }
+   },
+   "prompt": "{n} walks {a / 10} km to the market and then {b} m to the stream. How far is that altogether, in metres?",
+   "answer": "convertUnit(a / 10, 'km', 'm') + b",
+   "unit": "m",
+   "misconceptions": [
+    {
+     "id": "no-convert",
+     "wrong": "a / 10 + b",
+     "explain": "Change the kilometres into metres before you add."
+    }
+   ],
+   "solution": [
+    "{a / 10} km = {a / 10} × {factor('km', 'm')} = {convertUnit(a / 10, 'km', 'm')} m.",
+    "{convertUnit(a / 10, 'km', 'm')} + {b} = {answer} m."
+   ]
+  },
+  {
+   "id": "p13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "i": {
+     "sample": [
+      "[0, 1, 2, 3]",
+      4
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "where": "['km','m','m','cm'][i[3]] != 'cm'",
+   "prompt": "One conversion is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "{k} {['km','m','m','cm'][i[0]]} = {convertUnit(k, ['km','m','m','cm'][i[0]], ['m','cm','mm','mm'][i[0]])} {['m','cm','mm','mm'][i[0]]}",
+      "truth": "true"
+     },
+     {
+      "text": "{k} {['km','m','m','cm'][i[1]]} = {convertUnit(k, ['km','m','m','cm'][i[1]], ['m','cm','mm','mm'][i[1]])} {['m','cm','mm','mm'][i[1]]}",
+      "truth": "true"
+     },
+     {
+      "text": "{k} {['km','m','m','cm'][i[2]]} = {convertUnit(k, ['km','m','m','cm'][i[2]], ['m','cm','mm','mm'][i[2]])} {['m','cm','mm','mm'][i[2]]}",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "{k} {['km','m','m','cm'][i[3]]} = {k * 10} {['m','cm','mm','mm'][i[3]]}",
+      "truth": "k * 10 == convertUnit(k, ['km','m','m','cm'][i[3]], ['m','cm','mm','mm'][i[3]])",
+      "explain": "1 {['km','m','m','cm'][i[3]]} = {factor(['km','m','m','cm'][i[3]], ['m','cm','mm','mm'][i[3]])} {['m','cm','mm','mm'][i[3]]}, so {k} {['km','m','m','cm'][i[3]]} = {convertUnit(k, ['km','m','m','cm'][i[3]], ['m','cm','mm','mm'][i[3]])} {['m','cm','mm','mm'][i[3]]}."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -132,3 +132,18 @@ The readiness check runs once. Published as the site's `index.html`; `/lesson3/`
 - Saved progress moved to version 2 (lessons keyed "maths:3", "english:3"; one lesson in progress per subject). A
   version-1 save (Maths only) is upgraded in place under the same key, so the pupil keeps his ticks; a damaged
   lesson-in-progress is dropped rather than breaking the page.
+
+## 11. Physics and drawn instruments (2026-10-07)
+
+- Subject order agreed with Dion: Physics, Chemistry, Geography, then the rest; French last.
+- `src/engine/lib/physics.js`: unit conversions (length, mass, capacity, time), weight (g = 10 N/kg), density, °C ↔ K,
+  changes of state, label dates, and **drawn instruments**: `ruler()` (0–8 cm), `cylinder()`, `displacement()`,
+  `thermometer()`, `clinical()`. Each returns an SVG string drawn from the question's own numbers, so the reading is
+  computed, never typed; tests check that every drawing shows exactly that reading.
+- Any template, teach card or worked example may have `figure: expr`. The app shows it under the prompt (at most 300 px
+  tall, full width, light and dark colours from the page). REVIEW.md links the drawings as files in `content/{subject}/figures/`.
+- Content for new subjects is tested by one shared suite (`tests-js/subject-suite.js`) with the same rules as Maths
+  and English; Physics templates start with `p`, skills `p1` … `p19`.
+- Physics Batch P1 (Lessons 1–19) was written and tested, then **released on 2026-10-07** at Dion's request (TR-P26):
+  a third tab, `lib/physics.js` in the bundle, size limit 640 KB. Releasing it
+  means adding `physics` to `SUBJECTS` and `lib/physics.js` to the bundle in `tools/prototype/build.mjs`.

@@ -1,0 +1,460 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "p19",
+   "name": "Safety information on products"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Read the label before you use any product. A label tells you the name, how to use it, how to store it, warnings, who made it, and the date of manufacture and the expiry date (“use before …”). Do not use a product after its expiry date.\nHazard symbols warn of danger:\n• a flame: flammable (kerosene, petrol);\n• a skull and crossbones: toxic (rat poison);\n• liquid dripping onto a hand and metal: corrosive (battery acid);\n• an exclamation mark: harmful or irritant;\n• a gas bottle: gas under pressure (cooking gas);\n• a dead tree and fish: dangerous for the environment.\nKeep such products away from children and food, in their own containers, never in drink bottles.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d1": 7,
+   "m1": 10,
+   "y1": 2026,
+   "d2": 30,
+   "m2": 9,
+   "y2": 2026
+  },
+  "problem": "Today is {ddmmyyyy(d1, m1, y1)}. A tin of milk says “Use before {ddmmyyyy(d2, m2, y2)}”. Can we still use it?",
+  "steps": [
+   "Compare the dates: first the year, then the month, then the day.",
+   "The use-before date, {ddmmyyyy(d2, m2, y2)}, is before today, {ddmmyyyy(d1, m1, y1)}."
+  ],
+  "answer": "No: it has expired. Do not use it.",
+  "checks": [
+   "!stillGood(d1, m1, y1, d2, m2, y2)"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc19-1",
+    "status": "draft",
+    "idea": "Hazard symbols warn of danger. A flame means flammable; a skull and crossbones means toxic.",
+    "vars": {},
+    "example": [
+     "Kerosene has the flame symbol: keep it away from fire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p19-symbol"
+    }
+   },
+   {
+    "id": "pc19-2",
+    "status": "draft",
+    "idea": "A label tells how to use and store a product, warnings, who made it and the expiry date.",
+    "vars": {},
+    "example": [
+     "“Keep out of reach of children” is a warning."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p19-label-l1"
+    }
+   },
+   {
+    "id": "pc19-3",
+    "status": "draft",
+    "idea": "Never use a product after its expiry (“use before”) date.",
+    "vars": {
+     "d1": 7,
+     "m1": 10,
+     "y1": 2026,
+     "d2": 1,
+     "m2": 3,
+     "y2": 2027
+    },
+    "example": [
+     "Today {ddmmyyyy(d1, m1, y1)}; use before {ddmmyyyy(d2, m2, y2)}: still good."
+    ],
+    "checks": [
+     "stillGood(d1, m1, y1, d2, m2, y2)"
+    ],
+    "check": {
+     "ref": "p19-expiry"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p19-symbol",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hazards"
+   ],
+   "prompt": "Match each hazard symbol (described in words) with what it means.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "a flame",
+     "right": "flammable: catches fire easily"
+    },
+    {
+     "left": "a skull and crossbones",
+     "right": "toxic: poisonous"
+    },
+    {
+     "left": "liquid dripping onto a hand and a metal bar",
+     "right": "corrosive: burns skin and eats metal"
+    },
+    {
+     "left": "an exclamation mark",
+     "right": "harmful or irritant: can hurt skin, eyes or breathing"
+    },
+    {
+     "left": "a gas bottle",
+     "right": "gas under pressure: can burst if heated"
+    },
+    {
+     "left": "a dead tree and a dead fish",
+     "right": "dangerous for the environment"
+    },
+    {
+     "left": "an exploding bomb",
+     "right": "explosive"
+    }
+   ]
+  },
+  {
+   "id": "p19-label-l1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hazards"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "“Keep out of reach of children.”",
+       "a": "a warning",
+       "why": "“Keep out of reach of children.” tells a warning."
+      },
+      {
+       "t": "“Use before 03/2027.”",
+       "a": "the expiry date",
+       "why": "“Use before 03/2027.” tells the expiry date."
+      },
+      {
+       "t": "“Store in a cool, dry place.”",
+       "a": "how to store it",
+       "why": "“Store in a cool, dry place.” tells how to store it."
+      },
+      {
+       "t": "“Shake well before use.”",
+       "a": "how to use it",
+       "why": "“Shake well before use.” tells how to use it."
+      },
+      {
+       "t": "“Made by … , Douala, Cameroon.”",
+       "a": "who made it",
+       "why": "“Made by … , Douala, Cameroon.” tells who made it."
+      }
+     ]
+    }
+   },
+   "prompt": "A label says {x.t} What does this part of the label tell you?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a warning",
+     "misconception": "other"
+    },
+    {
+     "text": "the expiry date",
+     "misconception": "other"
+    },
+    {
+     "text": "how to store it",
+     "misconception": "other"
+    },
+    {
+     "text": "how to use it",
+     "misconception": "other"
+    },
+    {
+     "text": "who made it",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is a different part of the label."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p19-product",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hazards"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "kerosene or petrol",
+       "a": "flammable: catches fire easily",
+       "why": "kerosene or petrol: flammable: catches fire easily."
+      },
+      {
+       "t": "rat poison",
+       "a": "toxic: poisonous",
+       "why": "rat poison: toxic: poisonous."
+      },
+      {
+       "t": "acid from a car battery",
+       "a": "corrosive: burns skin and eats metal",
+       "why": "acid from a car battery: corrosive: burns skin and eats metal."
+      },
+      {
+       "t": "a cooking-gas bottle",
+       "a": "gas under pressure: can burst if heated",
+       "why": "a cooking-gas bottle: gas under pressure: can burst if heated."
+      }
+     ]
+    }
+   },
+   "prompt": "Which danger does {x.t} have?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "flammable: catches fire easily",
+     "misconception": "other"
+    },
+    {
+     "text": "toxic: poisonous",
+     "misconception": "other"
+    },
+    {
+     "text": "corrosive: burns skin and eats metal",
+     "misconception": "other"
+    },
+    {
+     "text": "gas under pressure: can burst if heated",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That warning is for a different product."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p19-expiry",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "hazards"
+   ],
+   "show": 2,
+   "vars": {
+    "d1": {
+     "int": [
+      1,
+      28
+     ]
+    },
+    "m1": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "y1": 2026,
+    "d2": {
+     "int": [
+      1,
+      28
+     ]
+    },
+    "m2": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "y2": {
+     "pick": [
+      2025,
+      2026,
+      2027
+     ]
+    },
+    "it": {
+     "pick": [
+      "a tin of milk",
+      "a bottle of cough syrup",
+      "a packet of biscuits",
+      "a tin of sardines"
+     ]
+    }
+   },
+   "where": "dateNum(d1, m1, y1) != dateNum(d2, m2, y2)",
+   "prompt": "Today is {ddmmyyyy(d1, m1, y1)}. {cap(it)} says “Use before {ddmmyyyy(d2, m2, y2)}”. Can it still be used?",
+   "correct": "{stillGood(d1, m1, y1, d2, m2, y2) ? 'Yes, it is still good.' : 'No, it has expired.'}",
+   "distractors": [
+    {
+     "text": "Yes, it is still good.",
+     "misconception": "date"
+    },
+    {
+     "text": "No, it has expired.",
+     "misconception": "date"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "date",
+     "explain": "Compare the year first, then the month, then the day."
+    }
+   ],
+   "solution": [
+    "Today: {ddmmyyyy(d1, m1, y1)}. Use before: {ddmmyyyy(d2, m2, y2)}.",
+    "The use-before date is {stillGood(d1, m1, y1, d2, m2, y2) ? 'after' : 'before'} today: {answer}"
+   ]
+  },
+  {
+   "id": "p19-what",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hazards"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "You find kerosene in an old drink bottle in the kitchen.",
+       "a": "Tell an adult so it can go into a labelled container, away from food and children.",
+       "why": "You find kerosene in an old drink bottle in the kitchen. → Tell an adult so it can go into a labelled container, away from food and children."
+      },
+      {
+       "t": "A product has the skull and crossbones symbol.",
+       "a": "Do not touch or taste it, and keep it away from children.",
+       "why": "A product has the skull and crossbones symbol. → Do not touch or taste it, and keep it away from children."
+      },
+      {
+       "t": "Your little brother wants to play with a cooking-gas bottle.",
+       "a": "Keep children away from the gas bottle and tell an adult: it can burst or leak.",
+       "why": "Your little brother wants to play with a cooking-gas bottle. → Keep children away from the gas bottle and tell an adult: it can burst or leak."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t} What should you do?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Tell an adult so it can go into a labelled container, away from food and children.",
+     "misconception": "other"
+    },
+    {
+     "text": "Do not touch or taste it, and keep it away from children.",
+     "misconception": "other"
+    },
+    {
+     "text": "Keep children away from the gas bottle and tell an adult: it can burst or leak.",
+     "misconception": "other"
+    },
+    {
+     "text": "Taste a little to find out what it is.",
+     "misconception": "other"
+    },
+    {
+     "text": "Nothing: it is not dangerous.",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not the safe choice. Read the situation again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hazards"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The flame symbol means the product catches fire easily.",
+      "truth": "true"
+     },
+     {
+      "text": "Rat poison is toxic.",
+      "truth": "true"
+     },
+     {
+      "text": "Read the label before using a product.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep dangerous products away from children.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is fine to keep kerosene in a drink bottle.",
+      "truth": "false",
+      "explain": "Someone could drink it by mistake. Keep it in its own labelled container."
+     },
+     {
+      "text": "A product is still good after its expiry date.",
+      "truth": "false",
+      "explain": "After the expiry date, do not use it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

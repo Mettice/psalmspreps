@@ -9,13 +9,14 @@ import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
-const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
+const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
 // 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
 // The Phase 3 budget for the whole app is 2 MB.
-const MAX_BYTES = 448 * 1024;
-const SUBJECTS = { maths: "Maths", english: "English" };
-const SPINE = { maths: "mathematics", english: "english-language" };
-const BATCH = Array.from({ length: 16 }, (_, i) => i + 1);
+const MAX_BYTES = 640 * 1024;  // 640 KB with Physics P1 (2026-10-07)
+const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics" };
+const SPINE = { maths: "mathematics", english: "english-language", physics: "physics" };
+const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
+const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19) };  // released lessons per subject
 
 function bundleModule(path) {
   const src = read(`src/engine/${path}`);
@@ -42,11 +43,11 @@ const tidy = (t) => t
 const titles = {}, content = {}, lessons = {};
 for (const s of Object.keys(SUBJECTS)) {
   const spine = JSON.parse(read(`data/spine/${SPINE[s]}.json`));
-  titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => l.kind === "lesson" && l.lesson_no <= 16).map((l) => [l.lesson_no, tidy(l.title)]));
-  const all = Object.fromEntries((s === "maths" ? [0, ...BATCH] : BATCH).map((n) => [n, JSON.parse(read(`content/${s}/${n}.json`))]));
+  titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => l.kind === "lesson" && BATCH[s].includes(l.lesson_no)).map((l) => [l.lesson_no, tidy(l.title)]));
+  const all = Object.fromEntries((s === "maths" ? [0, ...BATCH[s]] : BATCH[s]).map((n) => [n, JSON.parse(read(`content/${s}/${n}.json`))]));
   // Deferred lessons (speech work: needs audio) are not shipped at all: hidden from the pupil (TR-E22).
   content[s] = Object.fromEntries(Object.entries(all).filter(([, l]) => l.status !== "deferred"));
-  lessons[s] = BATCH.filter((n) => content[s][n]);
+  lessons[s] = BATCH[s].filter((n) => content[s][n]);
   titles[s] = Object.fromEntries(Object.entries(titles[s]).filter(([n]) => content[s][n]));
   for (const n of lessons[s]) if (!titles[s][n]) throw new Error(`no spine title for ${s} Lesson ${n}`);
 }
@@ -55,10 +56,12 @@ const safeJson = (x) => JSON.stringify(x).replace(/</g, "\\u003c");
 
 const css = `
 :root { --bg:#fbfaf7; --fg:#1d1c1a; --muted:#5f5b53; --card:#ffffff; --line:#d9d4c9; --accent:#1f6f4a; --accent-press:#185a3c; --accent-fg:#ffffff;
-  --good-bg:#e7f4ec; --good:#1a6340; --flash:#9fe0bb; --bad-bg:#fdeceb; --bad:#a3322a; --soft:#f2efe8; --idk-border:#8a857b; --track:#e6e1d6; }
+  --good-bg:#e7f4ec; --good:#1a6340; --flash:#9fe0bb; --bad-bg:#fdeceb; --bad:#a3322a; --soft:#f2efe8; --idk-border:#8a857b; --track:#e6e1d6;
+  --fig-liquid:#6aa9e9; --fig-object:#c98b3a; --fig-red:#d0473b; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#161513; --fg:#ece9e2; --muted:#b3ada2; --card:#211f1c;
   --line:#3a3732; --accent:#4fb487; --accent-press:#43a077; --accent-fg:#0d1f16; --good-bg:#1b3327; --good:#8fdcb2; --flash:#2f7a52;
-  --bad-bg:#3a1f1d; --bad:#f0a59e; --soft:#26241f; --idk-border:#8f897e; --track:#33302b; } }
+  --bad-bg:#3a1f1d; --bad:#f0a59e; --soft:#26241f; --idk-border:#8f897e; --track:#33302b;
+  --fig-liquid:#3f7fc0; --fig-object:#b07a32; --fig-red:#e0635a; } }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 #app { max-width: 520px; margin: 0 auto; padding: 16px 16px 48px; }
@@ -112,8 +115,12 @@ textarea { font-size: .8rem; font-family: ui-monospace, Menlo, Consolas, monospa
   80% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 140px)) rotate(var(--r)); } }
 details.grownup { margin-top: 12px; } details.grownup summary { min-height: 48px; display: flex; align-items: center; cursor: pointer; color: var(--muted); }
 .pre, .prompt { white-space: pre-line; }
+/* drawings made by the engine (rulers, cylinders, thermometers): readable at 360px, never taller than the screen */
+.figure { margin: 4px 0 14px; color: var(--fg); }
+.figure svg { display: block; width: 100%; height: auto; max-height: 300px; margin: 0 auto; }
 /* subjects */
-.subjects { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 0 0 14px; }
+.subjects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 14px; }
+button.subject { padding: 10px 6px; }
 button.subject { margin: 0; text-align: center; font-weight: 700; }
 button.subject.on { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
 button:disabled { opacity: .45; cursor: default; box-shadow: none; }
@@ -175,7 +182,8 @@ const html = `<!doctype html>
 "use strict";
 const __mods = {};
 ${ENGINE.map(bundleModule).join("\n")}
-const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] } },
+const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
+    physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] } },
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${safeJson(content)};
 const TITLES = ${safeJson(titles)};

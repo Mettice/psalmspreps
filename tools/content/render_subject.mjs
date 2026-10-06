@@ -1,28 +1,47 @@
-// Renders English Batch E1 for review:
-//   content/english/REVIEW.md    a sample lesson in teach mode, then every draft (cards, worked examples, practice, paper tasks)
-//   content/english/AUTHORED.md  every answer fixed by a person (keys, word tables, statement pools), with sources
-//   node tools/content/render_english.mjs   (npm run review:english)
+// Renders a subject batch for review (English E1, Physics P1, …):
+//   content/{subject}/REVIEW.md    a sample lesson in teach mode, then every draft (cards, worked examples, practice, paper tasks)
+//   content/{subject}/AUTHORED.md  every answer fixed by a person (keys, tables, statement pools), with sources
+//   content/{subject}/figures/     the drawings (SVG) shown in REVIEW.md
+//   node tools/content/render_subject.mjs english|physics   (npm run review:english, npm run review:physics)
 // Everything shown is produced by the engine itself, so the reviewer sees exactly what pupils will see.
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import * as maths from "../../src/engine/lib/maths.js";
 import * as english from "../../src/engine/lib/english.js";
+import * as physics from "../../src/engine/lib/physics.js";
 import { render } from "../../src/engine/expr.js";
 import { instantiate, renderWorked } from "../../src/engine/template.js";
 import { renderCard, cardCheckTemplate, practicePlan, renderPaper, isDeferred } from "../../src/engine/teach.js";
 
-const lib = { ...maths, ...english };
-const DIR = new URL("../../content/english/", import.meta.url);
+const SUBJECT = process.argv[2];
+const CONF = {
+  english: { name: "English", batch: "Batch E1", spine: "english-language", lib: { ...maths, ...english }, sample: 3, lessons: "1–16" },
+  physics: { name: "Physics", batch: "Batch P1", spine: "physics", lib: { ...maths, ...english, ...physics }, sample: 16, lessons: "1–19" },
+}[SUBJECT];
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics");
+const lib = CONF.lib;
+const DIR = new URL(`../../content/${SUBJECT}/`, import.meta.url);
+// Drawings are saved as files (GitHub does not show SVG written inside Markdown).
+const FIG = new URL("figures/", DIR);
+rmSync(FIG, { recursive: true, force: true });
+let figCount = 0;
+const figure = (svg, name) => {
+  if (!svg) return [];
+  mkdirSync(FIG, { recursive: true });
+  const file = `${name}-${++figCount}.svg`;
+  writeFileSync(new URL(file, FIG), svg.replace(/currentColor/g, "#222"), "utf8");
+  return [`![drawing](figures/${file})`, ""];
+};
 const lessons = readdirSync(DIR).filter((f) => /^\d+\.json$/.test(f))
   .map((f) => JSON.parse(readFileSync(new URL(f, DIR), "utf8"))).sort((a, b) => a.lesson_no - b.lesson_no);
 const sources = JSON.parse(readFileSync(new URL("sources.json", DIR), "utf8"));
-const spine = JSON.parse(readFileSync(new URL("../../data/spine/english-language.json", import.meta.url), "utf8"));
+const spine = JSON.parse(readFileSync(new URL(`../../data/spine/${CONF.spine}.json`, import.meta.url), "utf8"));
 const meta = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).map((l) => [l.lesson_no, l]));
-const SAMPLE_LESSON = 3, SAMPLE_SEED = 2026;
+const SAMPLE_LESSON = CONF.sample, SAMPLE_SEED = 2026;
 const quote = (t) => String(t).split("\n").map((l) => `> ${l}`).join("\n");
-const TYPE_NAME = { mcq: "multiple choice", spot_error: "spot the error", ordering: "ordering", cloze: "fill the blank", word_order: "word order", matching: "matching" };
+const TYPE_NAME = { numeric: "number", mcq: "multiple choice", spot_error: "spot the error", ordering: "ordering", cloze: "fill the blank", word_order: "word order", matching: "matching" };
 
 function renderQuestion(q) {
-  const out = [quote(q.prompt), ""];
+  const out = [quote(q.prompt), "", ...figure(q.figure, q.id)];
   if (q.type === "cloze") {
     out.push(`Sentence: **${q.sentence}**`);
     if (q.mode === "choose") q.options.forEach((o, i) => out.push(`- ${i === q.correctIndex ? "✅" : "◻️"} ${o.text}${o.explain ? `  \n  _↳ feedback if chosen: ${o.explain}_` : ""}`));
@@ -39,6 +58,10 @@ function renderQuestion(q) {
   } else if (q.type === "matching") {
     out.push(`${q.groups ? "Groups" : "Right-hand side (shuffled)"}: ${q.right.join(" · ")}`, ...q.left.map((l, i) => `- ${l} → **${q.right[q.correctMatch[i]]}**`));
   }
+  if (q.type === "numeric") {
+    out.push(`Answer: **${q.answer}${q.unit ? " " + q.unit : ""}**`);
+    for (const m of q.misconceptions) out.push(`- Typed **${m.value}** (${m.id}) → “${m.explain}”`);
+  }
   if (q.hint) out.push("", `Hint (draft): ${q.hint}`);
   if (q.solution) out.push("", "Full working after a second miss:", "", ...q.solution.map((x) => `> ${x}  `));
   return out.join("\n");
@@ -47,12 +70,12 @@ const tplHead = (t, extra = "") => `\`${t.id}\` · ${TYPE_NAME[t.type]}, level $
 const cardBlock = (l, c, seed) => {
   const r = renderCard(c, lib);
   const tpl = cardCheckTemplate(l, c);
-  return [`**Card ${c.id}** (draft)`, "", `> ${r.idea}`, ">", ...r.example.map((x) => `> _${x}_  `), "",
+  return [`**Card ${c.id}** (draft)`, "", `> ${r.idea}`, ">", ...r.example.map((x) => `> _${x}_  `), "", ...figure(r.figure, c.id),
     `Check question: ${tplHead(tpl, c.check.ref ? ", reused from practice" : "")}`, "", renderQuestion(instantiate(tpl, seed, lib, l.lesson_no)), ""];
 };
 const workedBlock = (l) => {
   const w = renderWorked(l.worked_example, lib);
-  return ["**Worked example** (draft)", "", quote(w.problem), "", ...w.steps.map((s, i) => `${i + 1}. ${s}`), "", `**Answer:** ${w.answer}`, ""];
+  return ["**Worked example** (draft)", "", quote(w.problem), "", ...figure(w.figure, `worked-${l.lesson_no}`), ...w.steps.map((s, i) => `${i + 1}. ${s}`), "", `**Answer:** ${w.answer}`, ""];
 };
 const paperBlock = (l) => {
   const p = renderPaper(l, lib);
@@ -61,12 +84,12 @@ const paperBlock = (l) => {
 };
 
 // ---------------------------------------------------------------- REVIEW.md
-const R = ["# English Form 1, Batch E1: drafts for review (Lessons 1–16)", "",
-  "Generated by `npm run review:english` from `content/english/*.json`. Every question below was built by the engine.",
+const R = [`# ${CONF.name} Form 1, ${CONF.batch}: drafts for review (Lessons ${CONF.lessons})`, "",
+  `Generated by \`npm run review:${SUBJECT}\` from \`content/${SUBJECT}/*.json\`. Every question and drawing below was built by the engine.`,
   "All notes, teach cards, worked examples and paper tasks are **status: draft**. “Authored key” means a person fixed the",
-  "right answer (see `AUTHORED.md`); “computed by rule” means code worked it out from a word table and a spelling rule.", "",
+  "right answer (see `AUTHORED.md`); “computed by rule” means code worked it out (a formula, a conversion, a spelling rule).", "",
   "Teach mode: cards (idea + example + 1 level-1 check) → worked example → practice (levels 1–3) → the note as a summary.",
-  "Writing lessons replace practice with a paper task. Speech-work lessons are deferred (they need audio).", "",
+  ...(SUBJECT === "english" ? ["Writing lessons replace practice with a paper task. Speech-work lessons are deferred (they need audio).", ""] : [""]),
   `## Sample rendered lesson: Lesson ${SAMPLE_LESSON} in teach mode`, ""];
 const sample = lessons.find((l) => l.lesson_no === SAMPLE_LESSON);
 R.push(`### Lesson ${SAMPLE_LESSON}: ${meta[SAMPLE_LESSON].title}`, "");
@@ -99,12 +122,16 @@ writeFileSync(new URL("REVIEW.md", DIR), R.join("\n") + "\n", "utf8");
 // ---------------------------------------------------------------- AUTHORED.md
 const show = (v) => (typeof v === "number" ? maths.fmt(v) : String(v));
 const rend = (t, scope = {}) => render(t, scope, lib, show);
-const A = ["# English Form 1, Batch E1: authored answers for review", "",
-  "Every answer fixed by a person, not computed. Part 1: the word tables and rules that computed answers come from.",
-  "Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.",
-  "Regenerate with `npm run review:english`. Item IDs (TR-E…) match `docs/teacher-review.md`.", "",
-  "## Part 1: word tables and rules (src/engine/lib/english.js)", "",
-  "**Irregular verbs (TR-E01)**: base → simple past → past participle", "",
+const PART1 = {
+  physics: () => ["## Part 1: conventions and rules the computed answers use (src/engine/lib/physics.js)", "",
+    "- **g = 10 N/kg on Earth (TR-P03)**; on the Moon about 1.6 N/kg. Weight = mass × g.",
+    "- **T(K) = T(°C) + 273 (TR-P04)**; 0 °C = 273 K; 100 °C = 373 K; a change of 1 °C is a change of 1 K.",
+    "- **Unit ladders (TR-P05)**: length km hm dam m dm cm mm; mass t (= 1000 kg) kg hg dag g dg cg mg; capacity kL hL daL L dL cL mL; 1 L = 1 dm³ = 1000 cm³; 1 m³ = 1000 L; 1 mL = 1 cm³; time 1 h = 60 min = 3600 s.",
+    "- **Density (TR-P06)**: density = mass ÷ volume, shown to 2 decimals; water 1 g/cm³; 1 g/cm³ = 1000 kg/m³; floats if less than 1 g/cm³.",
+    "- **Changes of state (TR-P07)**: melting, freezing, evaporation, condensation, sublimation (solid → gas), deposition (gas → solid); heat is taken in going solid → liquid → gas and given out the other way.",
+    "- **Drawings (TR-P08)**: rulers (0–15 cm, mm marks), measuring cylinders (marks every 2 mL, numbers every 10 mL, read at the bottom of the meniscus), thermometers (0–50 °C, marks every 1 °C) are drawn by code from the question's own numbers; tests check that each drawing shows exactly the reading.", ""],
+  english: () => ["## Part 1: word tables and rules (src/engine/lib/english.js)", "",
+    "**Irregular verbs (TR-E01)**: base → simple past → past participle", "",
   "| Verb | Simple past | Past participle |", "|---|---|---|",
   ...Object.entries(english.IRREGULAR).map(([v, [p, pp]]) => `| ${v} | ${p} | ${pp} |`), "",
   "**Spelling rules (TR-E02, TR-E03)**, checked on known answers in `tests-js/english.test.js`:", "",
@@ -118,7 +145,13 @@ const A = ["# English Form 1, Batch E1: authored answers for review", "",
   `**a / an (TR-E04)**: by the first sound. “an” although a consonant letter: hour, honest, honour, heir. “a” although a vowel letter: university, uniform, unit, union, unique, user, useful, usual, utensil, European, one, once, ewe.`, "",
   `**Irregular plurals (TR-E05)**: ${Object.entries(english.IRREGULAR_PLURAL).map(([a, b]) => `${a} → ${b}`).join(", ")}; -es after s, sh, ch, x, z and for tomato, potato, mango, hero, echo; consonant + y → -ies.`, "",
   "**Ordinal words (TR-E12)**: first, second, third, fifth, eighth, ninth, twelfth are special; -y → -ieth (twentieth); the rest add -th.", "",
-  "**Dates (TR-E16)**: dd/mm/yyyy (British order).", "",
+  "**Dates (TR-E16)**: dd/mm/yyyy (British order).", ""],
+}[SUBJECT];
+const A = [`# ${CONF.name} Form 1, ${CONF.batch}: authored answers for review`, "",
+  "Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.",
+  "Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.",
+  `Regenerate with \`npm run review:${SUBJECT}\`. Item IDs (TR-…) match \`docs/teacher-review.md\`.`, "",
+  ...PART1(),
   "## Part 2: authored question templates", "",
   "| # | Template | Lesson | Type, level | Sources |", "|---|---|---|---|---|"];
 const authored = lessons.filter((l) => !isDeferred(l)).flatMap((l) => [...l.questions, ...l.teach.cards.filter((c) => !c.check.ref).map((c) => ({ ...c.check, card: c.id }))]
@@ -156,4 +189,4 @@ for (const [l, t] of authored) {
   A.push(`Sources: ${t.sources.map((s) => `${s} (${sources[s].ref})`).join("; ")}`, "");
 }
 writeFileSync(new URL("AUTHORED.md", DIR), A.join("\n") + "\n", "utf8");
-console.log(`wrote content/english/REVIEW.md and AUTHORED.md (${authored.length} authored templates)`);
+console.log(`wrote content/${SUBJECT}/REVIEW.md, AUTHORED.md and ${figCount} figures (${authored.length} authored templates)`);

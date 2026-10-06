@@ -1,0 +1,404 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  8,
+  9
+ ],
+ "skills": [
+  {
+   "id": "p10",
+   "name": "Units and SI units"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Scientists everywhere use the same units: the International System of Units (SI). Some SI base units:\n• length: metre (m) • mass: kilogram (kg) • time: second (s) • temperature: kelvin (K) • electric current: ampere (A).\nOther units come from these: area in m², volume in m³, speed in m/s.\nPrefixes make units bigger or smaller:\n• kilo (k) = 1000: 1 km = 1000 m, 1 kg = 1000 g\n• centi (c) = one hundredth: 1 m = 100 cm\n• milli (m) = one thousandth: 1 m = 1000 mm, 1 g = 1000 mg, 1 L = 1000 mL\nCareful: the SI unit of mass is the kilogram, not the gram.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": 2.5,
+   "a": "kg",
+   "b": "g"
+  },
+  "problem": "A bag of rice has a mass of {v} {a}. What is its mass in {b}?",
+  "steps": [
+   "Kilo means one thousand: 1 {a} = {factor(a, b)} {b}.",
+   "{v} {a} = {v} × {factor(a, b)} = {convertUnit(v, a, b)} {b}."
+  ],
+  "answer": "{convertUnit(v, a, b)} {b}",
+  "checks": [
+   "convertUnit(v, a, b) == 2500"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc10-1",
+    "status": "draft",
+    "idea": "The SI units are used by scientists everywhere: metre for length, kilogram for mass, second for time, kelvin for temperature, ampere for electric current.",
+    "vars": {
+     "m": 45,
+     "t": 12
+    },
+    "example": [
+     "Mass of a pupil: about {m} kg. A race: {t} s."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p10-si"
+    }
+   },
+   {
+    "id": "pc10-2",
+    "status": "draft",
+    "idea": "Each unit has a symbol: metre m, kilogram kg, second s, kelvin K, ampere A. Symbols take no full stop and no s.",
+    "vars": {
+     "n": 5
+    },
+    "example": [
+     "{n} m (not {n} ms, and no full stop after m)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p10-symbol"
+    }
+   },
+   {
+    "id": "pc10-3",
+    "status": "draft",
+    "idea": "Prefixes: kilo = {factor('km', 'm')}, centi = one hundredth, milli = one thousandth.",
+    "vars": {},
+    "example": [
+     "1 km = {factor('km', 'm')} m. 1 m = {factor('m', 'cm')} cm. 1 g = {factor('g', 'mg')} mg."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p10-prefix"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p10-si",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "si-units"
+   ],
+   "prompt": "Match each quantity with its SI unit.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "length",
+     "right": "metre"
+    },
+    {
+     "left": "mass",
+     "right": "kilogram"
+    },
+    {
+     "left": "time",
+     "right": "second"
+    },
+    {
+     "left": "temperature",
+     "right": "kelvin"
+    },
+    {
+     "left": "electric current",
+     "right": "ampere"
+    }
+   ]
+  },
+  {
+   "id": "p10-symbol",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "si-units"
+   ],
+   "prompt": "Match each unit with its symbol.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "metre",
+     "right": "m"
+    },
+    {
+     "left": "kilogram",
+     "right": "kg"
+    },
+    {
+     "left": "second",
+     "right": "s"
+    },
+    {
+     "left": "kelvin",
+     "right": "K"
+    },
+    {
+     "left": "ampere",
+     "right": "A"
+    },
+    {
+     "left": "gram",
+     "right": "g"
+    },
+    {
+     "left": "litre",
+     "right": "L"
+    }
+   ]
+  },
+  {
+   "id": "p10-prefix",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "si-units"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "a": "km",
+       "b": "m"
+      },
+      {
+       "a": "m",
+       "b": "cm"
+      },
+      {
+       "a": "m",
+       "b": "mm"
+      },
+      {
+       "a": "cm",
+       "b": "mm"
+      },
+      {
+       "a": "kg",
+       "b": "g"
+      },
+      {
+       "a": "g",
+       "b": "mg"
+      },
+      {
+       "a": "L",
+       "b": "mL"
+      },
+      {
+       "a": "t",
+       "b": "kg"
+      }
+     ]
+    }
+   },
+   "prompt": "How many {p.b} make 1 {p.a}?",
+   "answer": "factor(p.a, p.b)",
+   "unit": "{p.b}",
+   "misconceptions": [
+    {
+     "id": "ten",
+     "wrong": "10",
+     "explain": "Not 10 here. Look at the prefix: kilo = 1000, centi = one hundredth, milli = one thousandth."
+    }
+   ],
+   "solution": [
+    "1 {p.a} = {answer} {p.b}."
+   ]
+  },
+  {
+   "id": "p10-convert",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "si-units"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "a": "km",
+       "b": "m"
+      },
+      {
+       "a": "m",
+       "b": "cm"
+      },
+      {
+       "a": "m",
+       "b": "mm"
+      },
+      {
+       "a": "cm",
+       "b": "mm"
+      },
+      {
+       "a": "kg",
+       "b": "g"
+      },
+      {
+       "a": "g",
+       "b": "mg"
+      },
+      {
+       "a": "L",
+       "b": "mL"
+      },
+      {
+       "a": "t",
+       "b": "kg"
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      95
+     ]
+    },
+    "up": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Convert {up ? k / 10 : k * 10} {up ? p.a : p.b} into {up ? p.b : p.a}.",
+   "answer": "up ? convertUnit(k / 10, p.a, p.b) : convertUnit(k * 10, p.b, p.a)",
+   "unit": "{up ? p.b : p.a}",
+   "misconceptions": [
+    {
+     "id": "wrong-way",
+     "wrong": "up ? convertUnit(k / 10, p.b, p.a) : convertUnit(k * 10, p.a, p.b)",
+     "explain": "You went the wrong way. Bigger units → smaller units: the number gets bigger."
+    }
+   ],
+   "solution": [
+    "1 {p.a} = {factor(p.a, p.b)} {p.b}.",
+    "{up ? 'Multiply' : 'Divide'} by {factor(p.a, p.b)}: {up ? k / 10 : k * 10} {up ? p.a : p.b} = {answer} {up ? p.b : p.a}."
+   ]
+  },
+  {
+   "id": "p10-trap",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "si-units"
+   ],
+   "vars": {},
+   "prompt": "Which sentence is true?",
+   "pool": {
+    "right": [
+     {
+      "text": "The SI unit of mass is the kilogram.",
+      "truth": "true"
+     },
+     {
+      "text": "The SI unit of temperature is the kelvin.",
+      "truth": "true"
+     },
+     {
+      "text": "The SI unit of time is the second.",
+      "truth": "true"
+     },
+     {
+      "text": "The SI unit of length is the metre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The SI unit of mass is the gram.",
+      "truth": "false",
+      "explain": "The SI unit of mass is the kilogram (kg). The gram is a smaller unit."
+     },
+     {
+      "text": "The SI unit of time is the minute.",
+      "truth": "false",
+      "explain": "The SI unit of time is the second (s)."
+     },
+     {
+      "text": "The SI unit of temperature is the degree Celsius.",
+      "truth": "false",
+      "explain": "°C is used every day, but the SI unit is the kelvin (K)."
+     },
+     {
+      "text": "The SI unit of length is the centimetre.",
+      "truth": "false",
+      "explain": "The SI unit of length is the metre (m)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "p10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "si-units"
+   ],
+   "vars": {
+    "p": {
+     "sample": [
+      "[0, 1, 2, 3, 4, 5, 6, 7]",
+      4
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "where": "p[3] != 3",
+   "prompt": "One conversion is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "{k} {['km','m','m','cm','kg','g','L','t'][p[0]]} = {convertUnit(k, ['km','m','m','cm','kg','g','L','t'][p[0]], ['m','cm','mm','mm','g','mg','mL','kg'][p[0]])} {['m','cm','mm','mm','g','mg','mL','kg'][p[0]]}",
+      "truth": "true"
+     },
+     {
+      "text": "{k} {['km','m','m','cm','kg','g','L','t'][p[1]]} = {convertUnit(k, ['km','m','m','cm','kg','g','L','t'][p[1]], ['m','cm','mm','mm','g','mg','mL','kg'][p[1]])} {['m','cm','mm','mm','g','mg','mL','kg'][p[1]]}",
+      "truth": "true"
+     },
+     {
+      "text": "{k} {['km','m','m','cm','kg','g','L','t'][p[2]]} = {convertUnit(k, ['km','m','m','cm','kg','g','L','t'][p[2]], ['m','cm','mm','mm','g','mg','mL','kg'][p[2]])} {['m','cm','mm','mm','g','mg','mL','kg'][p[2]]}",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "{k} {['km','m','m','cm','kg','g','L','t'][p[3]]} = {k * 10} {['m','cm','mm','mm','g','mg','mL','kg'][p[3]]}",
+      "truth": "k * 10 == convertUnit(k, ['km','m','m','cm','kg','g','L','t'][p[3]], ['m','cm','mm','mm','g','mg','mL','kg'][p[3]])",
+      "explain": "1 {['km','m','m','cm','kg','g','L','t'][p[3]]} = {factor(['km','m','m','cm','kg','g','L','t'][p[3]], ['m','cm','mm','mm','g','mg','mL','kg'][p[3]])} {['m','cm','mm','mm','g','mg','mL','kg'][p[3]]}, not 10."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,306 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "p18",
+   "name": "Temperature"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Temperature tells how hot or cold a body is. The SI unit is the kelvin (K); in daily life we use degrees Celsius (°C).\nT(K) = T(°C) + 273. So 0 °C = 273 K and 100 °C = 373 K.\nFixed points (at normal air pressure): pure ice melts at 0 °C; pure water boils at 100 °C.\nA liquid-in-glass thermometer has mercury or coloured alcohol in a thin tube. When it gets warmer, the liquid expands and rises. Read it with your eye level with the top of the liquid.\nA change of 1 °C is the same as a change of 1 K.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 25
+  },
+  "figure": "thermometer(t, 0)",
+  "problem": "Read the thermometer, then give the temperature in kelvin.",
+  "steps": [
+   "Each small mark is 1 °C. The red liquid ends at {t} °C.",
+   "T(K) = T(°C) + {toKelvin(0)} = {t} + {toKelvin(0)} = {toKelvin(t)} K."
+  ],
+  "answer": "{t} °C = {toKelvin(t)} K",
+  "checks": [
+   "toKelvin(t) == 298"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc18-1",
+    "status": "draft",
+    "idea": "Temperature tells how hot or cold something is. We read it on a thermometer, in °C.",
+    "vars": {
+     "t": 31
+    },
+    "example": [
+     "The liquid rises when it gets warmer. This one shows {t} °C."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p18-read"
+    },
+    "figure": "thermometer(t, 0)"
+   },
+   {
+    "id": "pc18-2",
+    "status": "draft",
+    "idea": "The SI unit is the kelvin: T(K) = T(°C) + {toKelvin(0)}.",
+    "vars": {
+     "t": 37,
+     "z": 0
+    },
+    "example": [
+     "{z} °C = {toKelvin(z)} K. {t} °C = {toKelvin(t)} K."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p18-k"
+    }
+   },
+   {
+    "id": "pc18-3",
+    "status": "draft",
+    "idea": "Fixed points: pure ice melts at {melt} °C; pure water boils at {b} °C (at normal air pressure).",
+    "vars": {
+     "b": 100,
+     "melt": 0
+    },
+    "example": [
+     "Boiling water: {b} °C = {toKelvin(b)} K."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc18-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "temperature"
+     ],
+     "vars": {},
+     "prompt": "At normal air pressure, pure water boils at:",
+     "pool": {
+      "right": [
+       {
+        "text": "100 °C",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "0 °C",
+        "truth": "false",
+        "explain": "0 °C is where pure ice melts."
+       },
+       {
+        "text": "37 °C",
+        "truth": "false",
+        "explain": "37 °C is about normal body temperature."
+       },
+       {
+        "text": "273 °C",
+        "truth": "false",
+        "explain": "273 is the number added to change °C into kelvin."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p18-read",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      3,
+      47
+     ]
+    }
+   },
+   "figure": "thermometer(t, 0)",
+   "prompt": "What temperature does the thermometer show?",
+   "answer": "t",
+   "unit": "°C",
+   "misconceptions": [
+    {
+     "id": "next",
+     "wrong": "t + 10",
+     "explain": "Count the small marks after the last number carefully: each one is 1 °C."
+    }
+   ],
+   "hint": "Find the last number before the end of the red liquid, then count the small marks.",
+   "solution": [
+    "Each small mark is 1 °C.",
+    "The red liquid ends at {answer} °C."
+   ]
+  },
+  {
+   "id": "p18-k",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      -20,
+      120
+     ]
+    }
+   },
+   "prompt": "Change {t} °C into kelvin.",
+   "answer": "toKelvin(t)",
+   "unit": "K",
+   "misconceptions": [
+    {
+     "id": "minus",
+     "wrong": "t - 273",
+     "explain": "From °C to K, add 273."
+    }
+   ],
+   "solution": [
+    "T(K) = T(°C) + {toKelvin(0)} = {t} + {toKelvin(0)}.",
+    "= {answer} K."
+   ]
+  },
+  {
+   "id": "p18-c",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      253,
+      393
+     ]
+    }
+   },
+   "prompt": "Change {k} K into degrees Celsius.",
+   "answer": "toCelsius(k)",
+   "unit": "°C",
+   "misconceptions": [
+    {
+     "id": "plus",
+     "wrong": "k + 273",
+     "explain": "From K to °C, subtract 273."
+    }
+   ],
+   "solution": [
+    "T(°C) = T(K) − {toKelvin(0)} = {k} − {toKelvin(0)}.",
+    "= {answer} °C."
+   ]
+  },
+  {
+   "id": "p18-rise",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      18,
+      30
+     ]
+    },
+    "r": {
+     "int": [
+      5,
+      60
+     ]
+    }
+   },
+   "prompt": "Water in a pot was at {a} °C. After heating it is at {a + r} °C. By how many kelvin did its temperature rise?",
+   "answer": "r",
+   "unit": "K",
+   "misconceptions": [
+    {
+     "id": "add273",
+     "wrong": "r + 273",
+     "explain": "A change of 1 °C is the same as a change of 1 K: do not add 273 to a difference."
+    }
+   ],
+   "solution": [
+    "Rise = {a + r} − {a} = {r} °C.",
+    "A rise of 1 °C is a rise of 1 K, so the rise is {answer} K."
+   ]
+  },
+  {
+   "id": "p18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The SI unit of temperature is the kelvin.",
+      "truth": "true"
+     },
+     {
+      "text": "0 °C = 273 K.",
+      "truth": "true"
+     },
+     {
+      "text": "Pure water boils at 100 °C at normal air pressure.",
+      "truth": "true"
+     },
+     {
+      "text": "The liquid in a thermometer rises when it gets warmer.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "To change °C into kelvin, subtract 273.",
+      "truth": "false",
+      "explain": "From °C to K, add 273: 0 °C = 273 K."
+     },
+     {
+      "text": "Pure ice melts at 100 °C.",
+      "truth": "false",
+      "explain": "Pure ice melts at 0 °C."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

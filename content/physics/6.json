@@ -1,0 +1,341 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "p6",
+   "name": "Laboratory safety"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The laboratory is safe when everyone follows the rules.\n• Enter only with the teacher's permission, and follow instructions.\n• Walk; never run or play.\n• Do not eat, drink or taste anything.\n• Tie back long hair and keep loose clothes away from flames.\n• Keep water away from electric sockets and never touch them with wet hands.\n• Do not touch apparatus that has just been heated.\n• Never pick up broken glass with your hands: tell the teacher.\n• Report every accident, cut, burn or breakage at once.\n• Switch off electricity and gas, tidy your bench and wash your hands when you finish.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "During an experiment, Mih knocks over a beaker and it breaks on the floor. What should she do?",
+  "steps": [
+   "Stay calm and do not pick up the glass with her hands.",
+   "Tell the teacher at once.",
+   "Keep other pupils away until it is cleaned up safely."
+  ],
+  "answer": "Do not touch the glass; tell the teacher at once and keep others away.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc6-1",
+    "status": "draft",
+    "idea": "Safe habits: walk, follow instructions, keep food and drink out, tie back long hair.",
+    "vars": {},
+    "example": [
+     "Mih ties her hair back before lighting the burner."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p6-sort"
+    }
+   },
+   {
+    "id": "pc6-2",
+    "status": "draft",
+    "idea": "Report every accident or breakage to the teacher at once. Never pick up broken glass with bare hands.",
+    "vars": {},
+    "example": [
+     "A beaker breaks: tell the teacher; do not touch the glass."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc6-2-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "safety"
+     ],
+     "vars": {},
+     "prompt": "A test tube breaks on your bench. What do you do first?",
+     "pool": {
+      "right": [
+       {
+        "text": "Tell the teacher and do not touch the glass.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Pick up the pieces with your fingers.",
+        "truth": "false",
+        "explain": "Broken glass cuts: never touch it with bare hands."
+       },
+       {
+        "text": "Hide the pieces in your bag.",
+        "truth": "false",
+        "explain": "Always report a breakage so it can be cleaned up safely."
+       },
+       {
+        "text": "Carry on with the experiment.",
+        "truth": "false",
+        "explain": "Stop and report it first."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "pc6-3",
+    "status": "draft",
+    "idea": "Electricity and heat can hurt: keep water away from sockets, and do not touch apparatus that has just been heated.",
+    "vars": {},
+    "example": [
+     "Wait for a heated tripod to cool before moving it."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc6-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "safety"
+     ],
+     "vars": {},
+     "prompt": "Which is the safe thing to do?",
+     "pool": {
+      "right": [
+       {
+        "text": "Dry your hands before you touch a switch.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Touch the socket with wet hands to see if it works.",
+        "truth": "false",
+        "explain": "Water and electricity together can give a dangerous shock."
+       },
+       {
+        "text": "Pick up the hot tripod quickly.",
+        "truth": "false",
+        "explain": "Heated apparatus can burn you: let it cool first."
+       },
+       {
+        "text": "Pour water on a burning electric wire.",
+        "truth": "false",
+        "explain": "Water on electricity is dangerous: switch off and call the teacher."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p6-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "safety"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "safe",
+    "not safe"
+   ],
+   "prompt": "Is each action safe or not safe in the laboratory?",
+   "pool": [
+    {
+     "left": "Walk, never run, in the laboratory.",
+     "right": "safe"
+    },
+    {
+     "left": "Follow the teacher's instructions.",
+     "right": "safe"
+    },
+    {
+     "left": "Tell the teacher at once about any accident or breakage.",
+     "right": "safe"
+    },
+    {
+     "left": "Tie back long hair near a flame.",
+     "right": "safe"
+    },
+    {
+     "left": "Switch off electricity and gas after use.",
+     "right": "safe"
+    },
+    {
+     "left": "Wash your hands after an experiment.",
+     "right": "safe"
+    },
+    {
+     "left": "Keep your bag away from the bench and the floor path.",
+     "right": "safe"
+    },
+    {
+     "left": "Eat or drink in the laboratory.",
+     "right": "not safe"
+    },
+    {
+     "left": "Touch electric sockets with wet hands.",
+     "right": "not safe"
+    },
+    {
+     "left": "Pick up broken glass with bare hands.",
+     "right": "not safe"
+    },
+    {
+     "left": "Taste a substance to find out what it is.",
+     "right": "not safe"
+    },
+    {
+     "left": "Touch apparatus that has just been heated.",
+     "right": "not safe"
+    },
+    {
+     "left": "Point a heated test tube at a classmate.",
+     "right": "not safe"
+    }
+   ]
+  },
+  {
+   "id": "p6-what",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "safety"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "A beaker breaks on the floor.",
+       "a": "Tell the teacher and do not touch the glass.",
+       "why": "Safety first: the teacher must know, and no one should take a risk."
+      },
+      {
+       "t": "Your classmate burns a finger on a hot tripod.",
+       "a": "Tell the teacher at once.",
+       "why": "Safety first: the teacher must know, and no one should take a risk."
+      },
+      {
+       "t": "You smell gas in the laboratory.",
+       "a": "Do not light anything and tell the teacher at once.",
+       "why": "Safety first: the teacher must know, and no one should take a risk."
+      },
+      {
+       "t": "You do not understand an instruction.",
+       "a": "Ask the teacher before you start.",
+       "why": "Safety first: the teacher must know, and no one should take a risk."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t} What should you do?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Tell the teacher and do not touch the glass.",
+     "misconception": "other"
+    },
+    {
+     "text": "Tell the teacher at once.",
+     "misconception": "other"
+    },
+    {
+     "text": "Do not light anything and tell the teacher at once.",
+     "misconception": "other"
+    },
+    {
+     "text": "Ask the teacher before you start.",
+     "misconception": "other"
+    },
+    {
+     "text": "Carry on with the experiment.",
+     "misconception": "other"
+    },
+    {
+     "text": "Hide it so you are not punished.",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not the best choice here. Read what happened again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "safety"
+   ],
+   "vars": {},
+   "prompt": "One rule is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wash your hands after an experiment.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep your bag away from the floor path.",
+      "truth": "true"
+     },
+     {
+      "text": "Switch off the gas when you finish.",
+      "truth": "true"
+     },
+     {
+      "text": "Walk, never run, in the laboratory.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "You may taste a substance if it looks like sugar.",
+      "truth": "false",
+      "explain": "Never taste anything in a laboratory: it could be poisonous."
+     },
+     {
+      "text": "Pick up broken glass quickly with your hands.",
+      "truth": "false",
+      "explain": "Never touch broken glass: tell the teacher."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

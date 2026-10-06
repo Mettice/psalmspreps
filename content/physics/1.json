@@ -1,0 +1,346 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p1",
+   "name": "Science and its branches"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Science is knowledge about the natural world that we get by observing carefully, asking questions and testing our ideas with experiments.\nThe three main branches of science are:\n• Physics: matter and energy: forces, motion, heat, light, sound, electricity.\n• Chemistry: what substances are made of and how they change into new substances.\n• Biology: living things: plants, animals and people.\nOther branches study the Earth and the sky: Geology (rocks), Meteorology (weather) and Astronomy (planets and stars).\nScience helps us in daily life: medicines, electricity, phones, clean water and better farming all come from science.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ndi wants to know why the water in a black pot gets hot faster in the sun than the water in a white pot. Which branch of science studies this?",
+  "steps": [
+   "The question is about heat, which is a form of energy.",
+   "Energy, heat, light and motion are studied in Physics."
+  ],
+  "answer": "Physics.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc1-1",
+    "status": "draft",
+    "idea": "Science is knowledge we get by observing, asking questions and testing ideas with experiments.",
+    "vars": {},
+    "example": [
+     "A farmer sees that maize grows better where there is manure. A scientist tests it: two plots, one with manure, one without."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc1-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "science"
+     ],
+     "vars": {},
+     "prompt": "Which sentence describes science?",
+     "pool": {
+      "right": [
+       {
+        "text": "Science is knowledge we get by observing and testing our ideas.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Science is a list of facts we must believe without checking.",
+        "truth": "false",
+        "explain": "Scientists check their ideas with observations and experiments."
+       },
+       {
+        "text": "Science is only done by people in big laboratories.",
+        "truth": "false",
+        "explain": "Anyone who observes carefully and tests ideas is doing science, even at home or on a farm."
+       },
+       {
+        "text": "Science is the same thing as magic.",
+        "truth": "false",
+        "explain": "Science explains things by observing and testing, not by magic."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "pc1-2",
+    "status": "draft",
+    "idea": "The three main branches: Physics (matter and energy), Chemistry (substances and how they change), Biology (living things).",
+    "vars": {},
+    "example": [
+     "A rolling ball: Physics. Rusting iron: Chemistry. A growing plant: Biology."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p1-branch"
+    }
+   },
+   {
+    "id": "pc1-3",
+    "status": "draft",
+    "idea": "Other branches study the Earth and the sky: Geology (rocks), Meteorology (weather), Astronomy (planets and stars).",
+    "vars": {},
+    "example": [
+     "The rocks of Mount Cameroon: Geology. The rainy season: Meteorology. The Moon: Astronomy."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p1-which"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p1-branch",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "science"
+   ],
+   "prompt": "Match each branch of science with what it studies.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "Physics",
+     "right": "matter, energy, forces and motion"
+    },
+    {
+     "left": "Chemistry",
+     "right": "substances and how they change"
+    },
+    {
+     "left": "Biology",
+     "right": "living things"
+    },
+    {
+     "left": "Geology",
+     "right": "rocks and the Earth's crust"
+    },
+    {
+     "left": "Meteorology",
+     "right": "weather"
+    },
+    {
+     "left": "Astronomy",
+     "right": "planets and stars"
+    }
+   ]
+  },
+  {
+   "id": "p1-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "science"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "how plants make their food",
+       "a": "Biology",
+       "why": "Plants are living things: Biology."
+      },
+      {
+       "t": "how the heart pumps blood",
+       "a": "Biology",
+       "why": "The heart is part of a living body: Biology."
+      },
+      {
+       "t": "why iron rusts",
+       "a": "Chemistry",
+       "why": "Rusting changes iron into a new substance: Chemistry."
+      },
+      {
+       "t": "what table salt is made of",
+       "a": "Chemistry",
+       "why": "What substances are made of is Chemistry."
+      },
+      {
+       "t": "how fast a taxi moves",
+       "a": "Physics",
+       "why": "Motion and speed are part of Physics."
+      },
+      {
+       "t": "how sound travels through the air",
+       "a": "Physics",
+       "why": "Sound is a form of energy: Physics."
+      },
+      {
+       "t": "the rocks of Mount Cameroon",
+       "a": "Geology",
+       "why": "Rocks and the Earth's crust are studied in Geology."
+      },
+      {
+       "t": "the planets and the stars",
+       "a": "Astronomy",
+       "why": "Planets and stars are studied in Astronomy."
+      },
+      {
+       "t": "tomorrow's weather in Buea",
+       "a": "Meteorology",
+       "why": "Weather is studied in Meteorology."
+      }
+     ]
+    }
+   },
+   "prompt": "A scientist studies {x.t}. Which branch of science is this?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Physics",
+     "misconception": "other"
+    },
+    {
+     "text": "Chemistry",
+     "misconception": "other"
+    },
+    {
+     "text": "Biology",
+     "misconception": "other"
+    },
+    {
+     "text": "Geology",
+     "misconception": "other"
+    },
+    {
+     "text": "Astronomy",
+     "misconception": "other"
+    },
+    {
+     "text": "Meteorology",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this branch. Think: is it about energy and motion, substances, living things, rocks, weather or the sky?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p1-true",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "science"
+   ],
+   "vars": {},
+   "prompt": "Which sentence is true?",
+   "pool": {
+    "right": [
+     {
+      "text": "Physics, Chemistry and Biology are the three main branches of science.",
+      "truth": "true"
+     },
+     {
+      "text": "Medicines, electricity and phones all came from science.",
+      "truth": "true"
+     },
+     {
+      "text": "A scientist tests an idea before saying it is true.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Biology studies rocks and soil only.",
+      "truth": "false",
+      "explain": "Biology studies living things. Rocks are studied in Geology."
+     },
+     {
+      "text": "Physics is the study of living things.",
+      "truth": "false",
+      "explain": "Physics studies matter and energy. Living things are Biology."
+     },
+     {
+      "text": "Science cannot help farmers.",
+      "truth": "false",
+      "explain": "Science gives better seeds, fertilisers and ways to fight pests."
+     },
+     {
+      "text": "Chemistry studies the weather.",
+      "truth": "false",
+      "explain": "Weather is Meteorology. Chemistry studies substances and how they change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "p1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "science"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Meteorology helps farmers know when the rains will come.",
+      "truth": "true"
+     },
+     {
+      "text": "Astronomy studies the Moon, the planets and the stars.",
+      "truth": "true"
+     },
+     {
+      "text": "Chemistry studies what substances are made of.",
+      "truth": "true"
+     },
+     {
+      "text": "Physics studies forces, motion, heat, light and sound.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Geology studies the weather.",
+      "truth": "false",
+      "explain": "Geology studies rocks. The weather is studied in Meteorology."
+     },
+     {
+      "text": "Biology studies how a lamp makes light.",
+      "truth": "false",
+      "explain": "Light is studied in Physics. Biology studies living things."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

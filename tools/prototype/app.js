@@ -54,6 +54,13 @@ const header = (kicker, title) => el("header", {}, el("div", { class: "kicker" }
 const progress = (cur, total) => el("div", { class: "progress", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(total), "aria-valuenow": String(cur) },
   el("div", { class: "track" }, el("div", { class: "fill", style: `width:${Math.round((100 * cur) / total)}%` })),
   el("span", { class: "count" }, `${cur} / ${total}`));
+/** A drawing made by the engine from the question's own numbers (an SVG string from our library, never from input). */
+const figureBox = (svg) => {
+  if (!svg) return null;
+  const box = el("div", { class: "figure" });
+  box.innerHTML = svg;
+  return box;
+};
 const checkIcon = () => {
   const ns = "http://www.w3.org/2000/svg";
   const svg = document.createElementNS(ns, "svg");
@@ -153,7 +160,7 @@ function sorting(q, finish) {
 function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const t0 = performance.now();
   const finish = (response) => onAnswer({ result: check(q, response), ms: Math.round(performance.now() - t0) });
-  const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt)];
+  const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt), figureBox(q.figure)];
   if (q.type === "numeric") {
     const { input, check: go } = answerBox(q, finish);
     body.push(el("div", { class: "answer" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null), go);
@@ -296,9 +303,9 @@ const resumable = (flow) => (flow.phase === "retry" || flow.phase === "reveal" ?
 const workedBlock = () => {
   const w = renderWorked(L().worked_example, LIB());
   return el("div", { class: "example" }, el("div", { class: "kicker" }, "Worked example"), el("div", { class: "strong pre" }, w.problem),
-    el("ol", {}, w.steps.map((s) => el("li", {}, s))), para(`Answer: ${w.answer}`, "strong"));
+    figureBox(w.figure), el("ol", {}, w.steps.map((s) => el("li", {}, s))), para(`Answer: ${w.answer}`, "strong"));
 };
-const cardExample = (c) => el("div", { class: "example" }, el("div", { class: "kicker" }, "Example"), ...c.example.map((t) => para(t)));
+const cardExample = (c) => el("div", { class: "example" }, el("div", { class: "kicker" }, "Example"), ...c.example.map((t) => para(t)), figureBox(c.figure));
 const hintBlock = (q) => (q.hint ? el("div", { class: "hint" }, el("strong", {}, "Hint: "), q.hint) : null);
 
 /** Every screen of a lesson goes through here, so the flow is saved at each step. */

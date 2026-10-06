@@ -1,0 +1,328 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p7",
+   "name": "Jobs that use science"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Studying science opens the door to many jobs, in Cameroon and abroad:\n• electrician: electric wiring in homes and offices;\n• engineer (civil, electrical, mechanical, agricultural): roads, bridges, machines, power;\n• doctor, nurse, pharmacist, radiographer, laboratory technician: health;\n• meteorologist: the weather; pilot: aeroplanes;\n• teacher of science; computer programmer; mining and petroleum engineer.\nMany of these jobs need good results in Mathematics, Physics, Chemistry and Biology. Ask a teacher or a worker about the job you like.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Tabe likes Physics and wants to bring electricity to villages that have none. Which jobs could he aim for?",
+  "steps": [
+   "Bringing electricity needs people who install wiring: electrician.",
+   "Planning power lines and solar systems needs an electrical engineer."
+  ],
+  "answer": "Electrician or electrical engineer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc7-1",
+    "status": "draft",
+    "idea": "Science leads to many jobs: electrician, engineer, doctor, pharmacist, pilot, meteorologist and more.",
+    "vars": {},
+    "example": [
+     "An electrician installs wiring. A pharmacist prepares medicines."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p7-match"
+    }
+   },
+   {
+    "id": "pc7-2",
+    "status": "draft",
+    "idea": "Choose a job that matches what you enjoy and what you are good at.",
+    "vars": {},
+    "example": [
+     "Likes fixing radios → electrician. Likes rain and storms → meteorologist."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc7-2-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "jobs"
+     ],
+     "vars": {},
+     "prompt": "Which job is about electric wiring?",
+     "pool": {
+      "right": [
+       {
+        "text": "electrician",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "pharmacist",
+        "truth": "false",
+        "explain": "A pharmacist prepares medicines."
+       },
+       {
+        "text": "pilot",
+        "truth": "false",
+        "explain": "A pilot flies aeroplanes."
+       },
+       {
+        "text": "meteorologist",
+        "truth": "false",
+        "explain": "A meteorologist forecasts the weather."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "pc7-3",
+    "status": "draft",
+    "idea": "Many science jobs are in health: doctor, nurse, pharmacist, radiographer, laboratory technician.",
+    "vars": {},
+    "example": [
+     "A radiographer takes X-ray pictures in a hospital."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc7-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "jobs"
+     ],
+     "vars": {},
+     "prompt": "Which of these is a health job?",
+     "pool": {
+      "right": [
+       {
+        "text": "radiographer",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "pilot",
+        "truth": "false",
+        "explain": "A pilot flies aeroplanes."
+       },
+       {
+        "text": "civil engineer",
+        "truth": "false",
+        "explain": "A civil engineer designs roads and bridges."
+       },
+       {
+        "text": "meteorologist",
+        "truth": "false",
+        "explain": "A meteorologist studies the weather."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p7-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "jobs"
+   ],
+   "prompt": "Match each job with what the person does.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "electrician",
+     "right": "installs and repairs electric wiring"
+    },
+    {
+     "left": "doctor",
+     "right": "finds out what is wrong with sick people and treats them"
+    },
+    {
+     "left": "pharmacist",
+     "right": "prepares and gives out medicines"
+    },
+    {
+     "left": "civil engineer",
+     "right": "designs roads, bridges and buildings"
+    },
+    {
+     "left": "laboratory technician",
+     "right": "prepares and looks after apparatus for experiments"
+    },
+    {
+     "left": "meteorologist",
+     "right": "studies and forecasts the weather"
+    },
+    {
+     "left": "pilot",
+     "right": "flies aeroplanes"
+    },
+    {
+     "left": "radiographer",
+     "right": "takes X-ray pictures in a hospital"
+    },
+    {
+     "left": "agricultural engineer",
+     "right": "designs machines and water systems for farms"
+    }
+   ]
+  },
+  {
+   "id": "p7-like",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "jobs"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Ndi likes fixing radios and wiring torches.",
+       "a": "electrician",
+       "why": "Ndi likes fixing radios and wiring torches. A good job to think about: electrician."
+      },
+      {
+       "t": "Ewane wants to build bridges over rivers.",
+       "a": "civil engineer",
+       "why": "Ewane wants to build bridges over rivers. A good job to think about: civil engineer."
+      },
+      {
+       "t": "Bih wants to help sick people get better.",
+       "a": "doctor",
+       "why": "Bih wants to help sick people get better. A good job to think about: doctor."
+      },
+      {
+       "t": "Ashu is curious about rain and storms.",
+       "a": "meteorologist",
+       "why": "Ashu is curious about rain and storms. A good job to think about: meteorologist."
+      },
+      {
+       "t": "Akwen dreams of flying aeroplanes.",
+       "a": "pilot",
+       "why": "Akwen dreams of flying aeroplanes. A good job to think about: pilot."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t} Which job suits this pupil best?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "electrician",
+     "misconception": "other"
+    },
+    {
+     "text": "doctor",
+     "misconception": "other"
+    },
+    {
+     "text": "pharmacist",
+     "misconception": "other"
+    },
+    {
+     "text": "civil engineer",
+     "misconception": "other"
+    },
+    {
+     "text": "laboratory technician",
+     "misconception": "other"
+    },
+    {
+     "text": "meteorologist",
+     "misconception": "other"
+    },
+    {
+     "text": "pilot",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That job is about something else. What does the pupil enjoy?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "jobs"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A pharmacist prepares and gives out medicines.",
+      "truth": "true"
+     },
+     {
+      "text": "A civil engineer designs roads and bridges.",
+      "truth": "true"
+     },
+     {
+      "text": "A meteorologist forecasts the weather.",
+      "truth": "true"
+     },
+     {
+      "text": "An electrician repairs electric wiring.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A pilot takes X-ray pictures.",
+      "truth": "false",
+      "explain": "A pilot flies aeroplanes. X-ray pictures are taken by a radiographer."
+     },
+     {
+      "text": "A radiographer designs bridges.",
+      "truth": "false",
+      "explain": "A radiographer takes X-ray pictures. Bridges are designed by civil engineers."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

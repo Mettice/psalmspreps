@@ -1,0 +1,436 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "p8",
+   "name": "Simple measurement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To measure something is to compare it with a standard unit. A measurement always has a number and a unit: 25 cm, 3 kg, 40 s. A number alone (just “25”) means nothing.\nUse the right instrument: a ruler for length, a balance for mass, a measuring cylinder for the volume of a liquid, a stopwatch for time, a thermometer for temperature.\nRead carefully:\n• Put your eye level with the mark, looking straight at the scale, not from the side (this avoids parallax error).\n• If the object does not start at zero, subtract: length = end reading − start reading.\n• Measure more than once and take the average.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": 1.5,
+   "e": 7.3
+  },
+  "figure": "ruler(s, e)",
+  "problem": "How long is the object on the ruler?",
+  "steps": [
+   "The object starts at {s} cm, not at zero.",
+   "It ends at {e} cm.",
+   "Length = end − start = {e} − {s} = {e - s} cm."
+  ],
+  "answer": "{e - s} cm",
+  "checks": [
+   "e - s == 5.8"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc8-1",
+    "status": "draft",
+    "idea": "A measurement has a number and a unit. “{k}” alone means nothing; “{k} cm” is a measurement.",
+    "vars": {
+     "n": 120,
+     "m": 25,
+     "k": 25
+    },
+    "example": [
+     "The table is {n} cm long. The bag of rice has a mass of {m} kg."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc8-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "measurement"
+     ],
+     "vars": {
+      "n": {
+       "int": [
+        12,
+        95
+       ]
+      }
+     },
+     "prompt": "Which is a complete measurement?",
+     "pool": {
+      "right": [
+       {
+        "text": "{n} cm",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "{n}",
+        "truth": "false",
+        "explain": "A measurement needs a unit as well as a number."
+       },
+       {
+        "text": "centimetres",
+        "truth": "false",
+        "explain": "A unit alone is not a measurement: give the number too."
+       },
+       {
+        "text": "very long",
+        "truth": "false",
+        "explain": "Words like “very long” are not a measurement: give a number and a unit."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "pc8-2",
+    "status": "draft",
+    "idea": "Each quantity has its own instrument: length → ruler, mass → balance, volume of a liquid → measuring cylinder, time → stopwatch, temperature → thermometer.",
+    "vars": {},
+    "example": [
+     "To time a race, use a stopwatch."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p8-instrument"
+    }
+   },
+   {
+    "id": "pc8-3",
+    "status": "draft",
+    "idea": "Read a ruler with your eye straight above the mark. If the object does not start at zero, subtract the start reading from the end reading.",
+    "vars": {
+     "s": 1,
+     "e": 7.4
+    },
+    "example": [
+     "Start: {s} cm. End: {e} cm.",
+     "Length = {e} − {s} = {e - s} cm."
+    ],
+    "checks": [
+     "e - s == 6.4"
+    ],
+    "check": {
+     "ref": "p8-ruler0"
+    },
+    "figure": "ruler(s, e)"
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p8-instrument",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "length",
+       "a": "a ruler or metre rule",
+       "why": "Length is measured with a ruler or metre rule."
+      },
+      {
+       "t": "mass",
+       "a": "a balance",
+       "why": "Mass is measured with a balance."
+      },
+      {
+       "t": "the volume of a liquid",
+       "a": "a measuring cylinder",
+       "why": "The volume of a liquid is measured with a measuring cylinder."
+      },
+      {
+       "t": "time",
+       "a": "a stopwatch",
+       "why": "Time is measured with a stopwatch."
+      },
+      {
+       "t": "temperature",
+       "a": "a thermometer",
+       "why": "Temperature is measured with a thermometer."
+      }
+     ]
+    }
+   },
+   "prompt": "Which instrument measures {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a ruler or metre rule",
+     "misconception": "other"
+    },
+    {
+     "text": "a balance",
+     "misconception": "other"
+    },
+    {
+     "text": "a measuring cylinder",
+     "misconception": "other"
+    },
+    {
+     "text": "a stopwatch",
+     "misconception": "other"
+    },
+    {
+     "text": "a thermometer",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That instrument measures a different quantity."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p8-ruler0",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      15,
+      78
+     ]
+    },
+    "o": {
+     "pick": [
+      "pencil",
+      "piece of chalk",
+      "nail",
+      "matchbox",
+      "stick",
+      "key"
+     ]
+    }
+   },
+   "figure": "ruler(0, l / 10)",
+   "prompt": "How long is the {o}, in centimetres?",
+   "answer": "l / 10",
+   "unit": "cm",
+   "misconceptions": [
+    {
+     "id": "mm",
+     "wrong": "l",
+     "explain": "That is the number of millimetre marks. Read the centimetre numbers: 1 cm = 10 mm."
+    }
+   ],
+   "solution": [
+    "The {o} starts at zero and ends at {l / 10} cm.",
+    "Length = {answer} cm."
+   ]
+  },
+  {
+   "id": "p8-ruler",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      8,
+      25
+     ]
+    },
+    "l": {
+     "int": [
+      15,
+      55
+     ]
+    },
+    "o": {
+     "pick": [
+      "pencil",
+      "piece of chalk",
+      "nail",
+      "matchbox",
+      "stick",
+      "key"
+     ]
+    }
+   },
+   "figure": "ruler(a / 10, (a + l) / 10)",
+   "prompt": "How long is the {o}, in centimetres?",
+   "answer": "l / 10",
+   "unit": "cm",
+   "misconceptions": [
+    {
+     "id": "end",
+     "wrong": "(a + l) / 10",
+     "explain": "That is only where the {o} ends. It does not start at 0: subtract the start reading."
+    },
+    {
+     "id": "mm",
+     "wrong": "l",
+     "explain": "That is in millimetres. Give the length in centimetres."
+    }
+   ],
+   "hint": "Read where the {o} starts and where it ends. Then subtract.",
+   "solution": [
+    "Start: {a / 10} cm. End: {(a + l) / 10} cm.",
+    "Length = {(a + l) / 10} − {a / 10} = {answer} cm."
+   ]
+  },
+  {
+   "id": "p8-eye",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {},
+   "prompt": "Where should your eye be when you read a scale?",
+   "pool": {
+    "right": [
+     {
+      "text": "Level with the mark, looking straight at the scale.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Above the mark, looking down at a slant.",
+      "truth": "false",
+      "explain": "Looking at a slant gives a wrong reading (parallax error)."
+     },
+     {
+      "text": "Far to one side of the scale.",
+      "truth": "false",
+      "explain": "From the side the mark seems to move: a wrong reading."
+     },
+     {
+      "text": "Below the mark, looking up.",
+      "truth": "false",
+      "explain": "Looking up at a slant also gives a wrong reading."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "p8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "a1": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "l1": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "a2": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "l2": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "a3": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "l3": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "a4": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "l4": {
+     "int": [
+      3,
+      8
+     ]
+    }
+   },
+   "where": "a1 + l1 != a2 + l2 && a4 != 0",
+   "prompt": "Each object lies on a ruler. One length is worked out wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "From {a1} cm to {a1 + l1} cm: the object is {l1} cm long.",
+      "truth": "(a1 + l1) - a1 == l1"
+     },
+     {
+      "text": "From {a2} cm to {a2 + l2} cm: the object is {l2} cm long.",
+      "truth": "(a2 + l2) - a2 == l2"
+     },
+     {
+      "text": "From {a3} cm to {a3 + l3} cm: the object is {l3} cm long.",
+      "truth": "(a3 + l3) - a3 == l3"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "From {a4} cm to {a4 + l4} cm: the object is {a4 + l4} cm long.",
+      "truth": "a4 + l4 == l4",
+      "explain": "That is the end reading. The object starts at {a4} cm, so it is {a4 + l4} − {a4} = {l4} cm long."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

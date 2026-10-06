@@ -1,0 +1,416 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "p11",
+   "name": "States of matter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Matter is anything that has mass and takes up space. It exists in three states:\n• Solid (stone, ice, wood): fixed shape and fixed volume. Particles are very close, in fixed places; they only vibrate.\n• Liquid (water, palm oil, kerosene): no fixed shape, it takes the shape of its container; fixed volume; it flows. Particles are close but can move past each other.\n• Gas (air, steam, oxygen): no fixed shape and no fixed volume; it spreads to fill its container and can be squashed. Particles are far apart and move fast.\nThe same substance can be in all three states: ice, water and steam.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why can we pump more air into a football, but not more water into a full bottle?",
+  "steps": [
+   "Air is a gas: its particles are far apart, so they can be pushed closer together (compressed).",
+   "Water is a liquid: its particles are already close together, so it cannot be squashed."
+  ],
+  "answer": "Gas particles are far apart and can be squashed together; liquid particles are already close.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc11-1",
+    "status": "draft",
+    "idea": "Matter has three states: solid, liquid and gas.",
+    "vars": {},
+    "example": [
+     "Solid: a stone. Liquid: palm oil. Gas: the air in a football."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p11-sort"
+    }
+   },
+   {
+    "id": "pc11-2",
+    "status": "draft",
+    "idea": "A solid keeps its shape. A liquid takes the shape of its container but keeps its volume. A gas fills its container.",
+    "vars": {},
+    "example": [
+     "Pour water from a bottle into a bowl: the shape changes, the volume stays the same."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p11-prop"
+    }
+   },
+   {
+    "id": "pc11-3",
+    "status": "draft",
+    "idea": "Particles: very close and fixed in a solid; close but moving in a liquid; far apart and fast in a gas.",
+    "vars": {},
+    "example": [
+     "That is why a gas can be squashed, but a liquid cannot."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc11-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "matter"
+     ],
+     "vars": {
+      "x": {
+       "pick": [
+        {
+         "t": "very close together, in fixed places; they only vibrate",
+         "a": "solid",
+         "why": "In a solid, the particles are very close together, in fixed places; they only vibrate."
+        },
+        {
+         "t": "close together, but able to move past each other",
+         "a": "liquid",
+         "why": "In a liquid, the particles are close together, but able to move past each other."
+        },
+        {
+         "t": "far apart, moving fast in all directions",
+         "a": "gas",
+         "why": "In a gas, the particles are far apart, moving fast in all directions."
+        }
+       ]
+      }
+     },
+     "prompt": "In which state are the particles {x.t}?",
+     "correct": "{x.a}",
+     "distractors": [
+      {
+       "text": "solid",
+       "misconception": "other"
+      },
+      {
+       "text": "liquid",
+       "misconception": "other"
+      },
+      {
+       "text": "gas",
+       "misconception": "other"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "other",
+       "explain": "Think about how close the particles are and how they move."
+      }
+     ],
+     "solution": [
+      "{x.why}",
+      "Answer: {answer}."
+     ],
+     "show": 3
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p11-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "solid",
+    "liquid",
+    "gas"
+   ],
+   "prompt": "Sort each one: solid, liquid or gas?",
+   "pool": [
+    {
+     "left": "stone",
+     "right": "solid"
+    },
+    {
+     "left": "ice",
+     "right": "solid"
+    },
+    {
+     "left": "wood",
+     "right": "solid"
+    },
+    {
+     "left": "an iron nail",
+     "right": "solid"
+    },
+    {
+     "left": "chalk",
+     "right": "solid"
+    },
+    {
+     "left": "water",
+     "right": "liquid"
+    },
+    {
+     "left": "palm oil",
+     "right": "liquid"
+    },
+    {
+     "left": "kerosene",
+     "right": "liquid"
+    },
+    {
+     "left": "milk",
+     "right": "liquid"
+    },
+    {
+     "left": "honey",
+     "right": "liquid"
+    },
+    {
+     "left": "air",
+     "right": "gas"
+    },
+    {
+     "left": "water vapour (steam)",
+     "right": "gas"
+    },
+    {
+     "left": "oxygen",
+     "right": "gas"
+    },
+    {
+     "left": "carbon dioxide",
+     "right": "gas"
+    }
+   ]
+  },
+  {
+   "id": "p11-prop",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "has a fixed shape and a fixed volume",
+       "a": "solid",
+       "why": "A solid has a fixed shape and a fixed volume."
+      },
+      {
+       "t": "takes the shape of its container but keeps its volume",
+       "a": "liquid",
+       "why": "A liquid takes the shape of its container but keeps its volume."
+      },
+      {
+       "t": "spreads out to fill any container",
+       "a": "gas",
+       "why": "A gas spreads out to fill any container."
+      },
+      {
+       "t": "can be squashed (compressed) easily",
+       "a": "gas",
+       "why": "A gas can be squashed (compressed) easily."
+      },
+      {
+       "t": "can be poured but not squashed",
+       "a": "liquid",
+       "why": "A liquid can be poured but not squashed."
+      }
+     ]
+    }
+   },
+   "prompt": "Which state of matter {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "solid",
+     "misconception": "other"
+    },
+    {
+     "text": "liquid",
+     "misconception": "other"
+    },
+    {
+     "text": "gas",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this state. Think: does it keep its shape? Its volume?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "p11-particles",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "very close together, in fixed places; they only vibrate",
+       "a": "solid",
+       "why": "In a solid, the particles are very close together, in fixed places; they only vibrate."
+      },
+      {
+       "t": "close together, but able to move past each other",
+       "a": "liquid",
+       "why": "In a liquid, the particles are close together, but able to move past each other."
+      },
+      {
+       "t": "far apart, moving fast in all directions",
+       "a": "gas",
+       "why": "In a gas, the particles are far apart, moving fast in all directions."
+      }
+     ]
+    }
+   },
+   "prompt": "In which state are the particles {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "solid",
+     "misconception": "other"
+    },
+    {
+     "text": "liquid",
+     "misconception": "other"
+    },
+    {
+     "text": "gas",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think about how close the particles are and how they move."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "p11-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {},
+   "prompt": "Why can a gas be squashed (compressed) but a liquid cannot?",
+   "pool": {
+    "right": [
+     {
+      "text": "The particles of a gas are far apart; those of a liquid are already close together.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Gases are always hot.",
+      "truth": "false",
+      "explain": "Gases can be cold. It is about the space between the particles."
+     },
+     {
+      "text": "Liquids are heavier than gases.",
+      "truth": "false",
+      "explain": "It is not about weight but about the space between the particles."
+     },
+     {
+      "text": "Gases have no particles.",
+      "truth": "false",
+      "explain": "Gases are made of particles too, but they are far apart."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "p11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Palm oil takes the shape of the bottle it is in.",
+      "truth": "true"
+     },
+     {
+      "text": "Air spreads out to fill a room.",
+      "truth": "true"
+     },
+     {
+      "text": "A stone keeps its shape.",
+      "truth": "true"
+     },
+     {
+      "text": "Water, ice and steam are the same substance.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A solid takes the shape of its container.",
+      "truth": "false",
+      "explain": "A solid keeps its own shape. It is a liquid that takes the shape of its container."
+     },
+     {
+      "text": "The particles in a gas are very close together.",
+      "truth": "false",
+      "explain": "In a gas the particles are far apart."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

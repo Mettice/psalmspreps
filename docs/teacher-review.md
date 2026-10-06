@@ -15,12 +15,13 @@ teacher, not revision. No exercise-book check is possible; teachers review later
 
 Related files: `content/maths/AUTHORED.md` (every authored question, all variants, with sources),
 `content/maths/REVIEW.md` (every draft rendered), `content/maths/sources.json`. English: `content/english/AUTHORED.md`,
-`content/english/REVIEW.md`, `content/english/sources.json`.
+`content/english/REVIEW.md`, `content/english/sources.json`. Physics: `content/physics/AUTHORED.md`,
+`content/physics/REVIEW.md` (with drawings in `content/physics/figures/`), `content/physics/sources.json`.
 
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-43 P1 items: 41 open, 2 closed (Maths 25, English 18). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+61 P1 items: 59 open, 2 closed (Maths 25, English 18, Physics 18). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -65,6 +66,24 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-E16 | Simple Present vs Present continuous: the time words | open |
 | TR-E17 | Forms and invitations: dd/mm/yyyy, BLOCK LETTERS, the model answers | open |
 | TR-E18 | Typed English answers: what the app accepts as right | open |
+| TR-P02 | Scientists, discoveries and dates | open |
+| TR-P03 | g = 10 N/kg on Earth; about 1.6 N/kg on the Moon | open |
+| TR-P04 | T(K) = T(°C) + 273; fixed points | open |
+| TR-P05 | Unit ladders and conversions | open |
+| TR-P06 | Density facts and values | open |
+| TR-P07 | Names of the changes of state; examples | open |
+| TR-P08 | How the drawn ruler, cylinder and thermometer are read | open |
+| TR-P09 | Branches of science and of physics | open |
+| TR-P10 | The scientific method; fair test | open |
+| TR-P11 | Equipment and what it measures | open |
+| TR-P12 | Laboratory safety | open |
+| TR-P13 | SI units, symbols, prefixes | open |
+| TR-P14 | States of matter | open |
+| TR-P15 | Mass and weight | open |
+| TR-P16 | Hazard symbols and product labels | open |
+| TR-P17 | Physics statement pools | open |
+| TR-P18 | Physics notes (19) and teach cards (58) | open |
+| TR-P19 | Typed Physics answers | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -221,3 +240,44 @@ is printed in `content/english/AUTHORED.md`; every question as the pupil sees it
 - [ ] **TR-E32 [P3] Feedback after a wrong matching or sorting attempt** names the items that are not right yet ("These are not right yet: sell, eat, give, sing."), without showing their partners. *Location:* `retry()` in `tools/prototype/app.js`.
 - [ ] **TR-C42 [P2] Fixed a display bug in the live Maths app:** after tapping an item in an ordering question, the word "null" appeared among the remaining items (e.g. Lesson 15, construction steps). Fixed 2026-10-06 and guarded by a test. *Location:* `fill()` in `tools/prototype/app.js`; `tests-js/prototype.test.js`.
 - [ ] **TR-C43 [P2] The readiness check no longer blocks the app:** the app always opens on the lesson menu; the check is offered as the first button on the Maths tab until it is done, and the English tab never shows it. Maths lessons can still be opened before the check (as before, nothing is locked). Changed 2026-10-07 at Dion's request. *Location:* `menu()` in `tools/prototype/app.js`.
+
+## P. Physics Form 1, Batch P1 (Lessons 1–19, Term 1), added 2026-10-07
+
+All 19 lessons are taught with auto-marked practice. 19 notes, 58 teach cards, 93 practice templates and 16 card-check
+templates: 68 have an **authored key** and 41 are **computed by rule** (conversions, weight, density, temperature,
+readings of drawn instruments). 7 templates come with a drawing made by code from the question's own numbers (ruler,
+measuring cylinder, two cylinders for displacement, thermometer); tests check that each drawing shows exactly the
+reading. Everything is draft and **not yet in the app**: it goes in after review. Every authored key and statement is in
+`content/physics/AUTHORED.md`; every question and drawing as the pupil sees it is in `content/physics/REVIEW.md`.
+
+### P1: wrong facts here would mislead the pupil
+- [ ] **TR-P02 [P1] Scientists, discoveries and dates:** Newton (laws of motion and gravity, 1687), Faraday (electricity from magnets, 1831), Bell (telephone, 1876), Marie Curie (radioactivity, 1898), the Wright brothers (first powered aeroplane flight, 1903), Fleming (penicillin, 1928), Arthur Zang (Cardiopad, about 2011); and how each helps people today. The ordering question uses these dates. *Location:* `content/physics/2.json`.
+- [ ] **TR-P03 [P1] g = 10 N/kg on Earth** (not 9.8) and **about 1.6 N/kg on the Moon**. *Location:* `weight()` in `src/engine/lib/physics.js`; `content/physics/15.json`.
+- [ ] **TR-P04 [P1] Temperature:** T(K) = T(°C) + 273 (not 273.15); pure ice melts at 0 °C and pure water boils at 100 °C at normal air pressure; a change of 1 °C equals a change of 1 K; thermometers use mercury or coloured alcohol. *Location:* `toKelvin()`, `toCelsius()` in `src/engine/lib/physics.js`; `content/physics/18.json`.
+- [ ] **TR-P05 [P1] Unit ladders:** length km … mm; mass t (1000 kg), kg … mg; capacity L, mL (also cL, dL); 1 L = 1 dm³ = 1000 cm³; 1 mL = 1 cm³; 1 m³ = 1000 L; 1 h = 60 min = 3600 s. *Location:* `convertUnit()` in `src/engine/lib/physics.js`.
+- [ ] **TR-P06 [P1] Density:** density = mass ÷ volume (answers to 2 decimals); water 1 g/cm³; 1 g/cm³ = 1000 kg/m³; less than 1 g/cm³ floats; ice about 0.92, kerosene about 0.8, iron about 7.9 g/cm³; wood about 0.6 g/cm³ in a card example. *Location:* `content/physics/17.json`.
+- [ ] **TR-P07 [P1] Changes of state:** melting, freezing (solidification), evaporation (boiling = fast evaporation at the boiling point), condensation, sublimation (solid → gas) and deposition (gas → solid; some books call this sublimation too); heat taken in going solid → liquid → gas; the eight everyday examples (dew, palm oil hardening on a cold Bamenda morning, mothballs, drying clothes …). *Location:* `processName()`, `heatFlow()` in `src/engine/lib/physics.js`; `content/physics/12.json`.
+- [ ] **TR-P08 [P1] Drawings and how to read them:** ruler 0–8 cm with millimetre marks (an object need not start at zero: length = end − start); measuring cylinder with a mark every 2 mL and a number every 10 mL, read at the bottom of the meniscus; displacement = reading after − reading before; thermometer 0–50 °C with a mark every degree. *Location:* `ruler()`, `cylinder()`, `displacement()`, `thermometer()` in `src/engine/lib/physics.js`; drawings in `content/physics/figures/`.
+- [ ] **TR-P09 [P1] Branches:** science (Physics, Chemistry, Biology, Geology, Meteorology, Astronomy) and physics (mechanics, heat, optics, sound/acoustics, electricity and magnetism), and the example questions sorted into each. *Location:* `content/physics/1.json`, `3.json`.
+- [ ] **TR-P10 [P1] The scientific method:** six steps in this order: observe, ask a question, suggest a testable answer (hypothesis), test with an experiment, record and study the results, draw a conclusion; a fair test changes one thing only. *Location:* `content/physics/4.json`.
+- [ ] **TR-P11 [P1] Equipment and what it measures:** metre rule/ruler and measuring tape (length), beam and top-pan balance (mass), measuring cylinder (volume of a liquid), stopwatch (time), thermometer (temperature), spring balance (weight, a force); retort stand, Bunsen burner, beaker and tripod hold or heat. Which instrument is "best" for a desk (metre rule) or a field (measuring tape). *Location:* `content/physics/5.json`, `8.json`, `13.json`.
+- [ ] **TR-P12 [P1] Laboratory safety:** the safe and not-safe actions, and what to do after a breakage, a burn, a gas smell. *Location:* `content/physics/6.json`.
+- [ ] **TR-P13 [P1] SI units:** metre, kilogram, second, kelvin, ampere and their symbols; the SI unit of mass is the kilogram (not the gram) and of temperature the kelvin (not °C); prefixes kilo, centi, milli. Only five of the seven base units are taught. *Location:* `content/physics/10.json`.
+- [ ] **TR-P14 [P1] States of matter:** properties and the particle model; examples (stone, ice, wood, nail, chalk / water, palm oil, kerosene, milk, honey / air, water vapour, oxygen, carbon dioxide). *Location:* `content/physics/11.json`.
+- [ ] **TR-P15 [P1] Mass and weight:** the eight statements sorted into mass or weight; mass is the same everywhere, weight changes. *Location:* `content/physics/14.json`, `15.json`.
+- [ ] **TR-P16 [P1] Hazard symbols and labels:** the seven symbols described in words (flame, skull and crossbones, corrosion, exclamation mark, gas bottle, dead tree and fish, exploding bomb) and their meanings; kerosene/petrol flammable, rat poison toxic, battery acid corrosive, cooking gas under pressure; label parts (warning, expiry, storage, use, maker); never store kerosene in a drink bottle. *Location:* `content/physics/19.json`.
+- [ ] **TR-P17 [P1] Statement pools:** every right and wrong sentence in the spot-the-error and "which is true" questions, with the explanation for each wrong one. *Location:* `content/physics/AUTHORED.md` Part 2.
+- [ ] **TR-P18 [P1] Notes and teach cards:** 19 notes and 58 cards: the ideas, their order and their examples. *Location:* `content/physics/REVIEW.md`.
+- [ ] **TR-P19 [P1] Typed answers:** decimals may be typed 2.5 or 2,5; negative temperatures with a minus sign (−18 or -18); a misconception list catches common slips (forgetting to convert grams to kilograms, reading only the end of an object, adding 273 to a temperature difference). *Location:* `misconceptions` on every numeric template in `content/physics/*.json`.
+
+### P2: conventions and decisions
+- [ ] **TR-P01 [P2] Typed numbers rule for Physics:** as in Maths, cards and working contain no typed numbers, with one exception: a bare 1 in a definition ("1 km = 1000 m", where 1000 is computed). Constants such as 273 and 1000 are written as computed values (e.g. `{toKelvin(0)}`). *Location:* `literalDigits()` in `tests-js/subject-suite.js`.
+- [ ] **TR-P20 [P2] Careers:** the nine jobs and what each person does; the five "which job suits this pupil" cases. *Location:* `content/physics/7.json`.
+- [ ] **TR-P21 [P2] Physical and non-physical quantities:** the two lists (length … weight; love … courage). *Location:* `content/physics/9.json`.
+- [ ] **TR-P22 [P2] Pictures not drawn yet:** lab equipment, particle diagrams, hazard symbols and a beam balance are described in words for now (the audit planned drawn pictures). *Location:* `docs/audit/physics.md`.
+- [ ] **TR-P23 [P2] The ruler shows 0–8 cm** so the millimetre marks stay readable on a 360 px phone (about 3.5 px apart). Objects are 1.5 to 7.8 cm long. *Location:* `ruler()` in `src/engine/lib/physics.js`.
+- [ ] **TR-P24 [P2] Physics is not in the app yet.** It joins the Maths and English tabs only after this review. *Location:* `SUBJECTS` in `tools/prototype/build.mjs`.
+
+### P3: cosmetic
+- [ ] **TR-P25 [P3] Context:** Cameroonian names, places (Buea, Bamenda, Kumba, Mamfe, Limbe, Yaoundé, Mount Cameroon) and goods (palm oil, maize, groundnuts, rice, kerosene). *Location:* all Physics lessons.
+- [ ] **TR-P26 [P2] Physics released in the app on 2026-10-07 at Dion's request ("release physics and push it"),** before the TR-P items above were checked by a teacher; the lessons show the usual "drafts" line. The app now has three tabs (Maths, English, Physics) and is about 506 KB (limit raised to 640 KB; the 2 MB Phase 3 budget stands). Supersedes TR-P24. *Location:* `SUBJECTS`, `BATCH` in `tools/prototype/build.mjs`.

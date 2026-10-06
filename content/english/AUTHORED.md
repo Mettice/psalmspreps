@@ -1,8 +1,8 @@
 # English Form 1, Batch E1: authored answers for review
 
-Every answer fixed by a person, not computed. Part 1: the word tables and rules that computed answers come from.
+Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
-Regenerate with `npm run review:english`. Item IDs (TR-E…) match `docs/teacher-review.md`.
+Regenerate with `npm run review:english`. Item IDs (TR-…) match `docs/teacher-review.md`.
 
 ## Part 1: word tables and rules (src/engine/lib/english.js)
 

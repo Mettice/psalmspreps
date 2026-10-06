@@ -1,0 +1,365 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "p15",
+   "name": "Weight and mass"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Weight is the force with which the Earth pulls a body. Its SI unit is the newton (N). It is measured with a spring balance (newton meter).\nWeight = mass × g, where g is the pull on each kilogram. On Earth we use g = 10 N/kg, so a 5 kg bag weighs 5 × 10 = 50 N.\nOn the Moon, g is about 1.6 N/kg, so the same bag weighs much less, but its mass is still 5 kg.\nMass and weight are different:\n• mass: quantity of matter, kilograms, beam balance, the same everywhere;\n• weight: a force, newtons, spring balance, changes from place to place.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 250,
+   "g": 10
+  },
+  "problem": "A tin of tomatoes has a mass of {m} g. What is its weight on Earth?",
+  "steps": [
+   "Change the mass into kilograms: {m} g = {convertUnit(m, 'g', 'kg')} kg.",
+   "Weight = mass × g = {convertUnit(m, 'g', 'kg')} × {g} = {weight(convertUnit(m, 'g', 'kg'), g)} N."
+  ],
+  "answer": "{weight(convertUnit(m, 'g', 'kg'), g)} N",
+  "checks": [
+   "weight(convertUnit(m, 'g', 'kg'), g) == 2.5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc15-1",
+    "status": "draft",
+    "idea": "Weight is a force: the pull of the Earth on a body. It is measured in newtons (N) with a spring balance.",
+    "vars": {},
+    "example": [
+     "A bag of cement pulls down on your hands: that pull is its weight."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p15-diff"
+    }
+   },
+   {
+    "id": "pc15-2",
+    "status": "draft",
+    "idea": "Weight = mass × g. On Earth, g = {g} N/kg.",
+    "vars": {
+     "m": 5,
+     "g": 10
+    },
+    "example": [
+     "A {m} kg bag: {m} × {g} = {weight(m, g)} N."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p15-w"
+    }
+   },
+   {
+    "id": "pc15-3",
+    "status": "draft",
+    "idea": "On the Moon, g is smaller (about {gm} N/kg): weight is smaller, but the mass does not change.",
+    "vars": {
+     "m": 10,
+     "gm": 1.6
+    },
+    "example": [
+     "A {m} kg bag weighs {weight(m, 10)} N on Earth and about {weight(m, gm)} N on the Moon. Its mass is {m} kg in both places."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc15-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "weight"
+     ],
+     "vars": {},
+     "prompt": "An astronaut goes from the Earth to the Moon. What happens?",
+     "pool": {
+      "right": [
+       {
+        "text": "Her weight gets smaller, but her mass stays the same.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Her mass gets smaller, but her weight stays the same.",
+        "truth": "false",
+        "explain": "Mass is the matter in her body: it does not change. The Moon pulls less, so her weight changes."
+       },
+       {
+        "text": "Both her mass and her weight stay the same.",
+        "truth": "false",
+        "explain": "The Moon pulls less than the Earth, so her weight is smaller."
+       },
+       {
+        "text": "Her mass and weight both become zero.",
+        "truth": "false",
+        "explain": "The Moon still pulls on her, and her body still has matter."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p15-diff",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "weight"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "mass",
+    "weight"
+   ],
+   "prompt": "Does each sentence describe mass or weight?",
+   "pool": [
+    {
+     "left": "the quantity of matter in a body",
+     "right": "mass"
+    },
+    {
+     "left": "measured in kilograms",
+     "right": "mass"
+    },
+    {
+     "left": "measured with a beam balance",
+     "right": "mass"
+    },
+    {
+     "left": "the same everywhere",
+     "right": "mass"
+    },
+    {
+     "left": "a force: the pull of gravity",
+     "right": "weight"
+    },
+    {
+     "left": "measured in newtons",
+     "right": "weight"
+    },
+    {
+     "left": "measured with a spring balance",
+     "right": "weight"
+    },
+    {
+     "left": "smaller on the Moon",
+     "right": "weight"
+    }
+   ]
+  },
+  {
+   "id": "p15-w",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "weight"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      2,
+      80
+     ]
+    },
+    "g": 10,
+    "it": {
+     "pick": [
+      "a bag of rice",
+      "a bucket of water",
+      "a goat",
+      "a box of books"
+     ]
+    }
+   },
+   "prompt": "{cap(it)} has a mass of {m} kg. What is its weight on Earth? (g = {g} N/kg)",
+   "answer": "weight(m, g)",
+   "unit": "N",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "m",
+     "explain": "That is the mass in kilograms. Weight = mass × g, in newtons."
+    }
+   ],
+   "solution": [
+    "Weight = mass × g = {m} × {g}.",
+    "= {answer} N."
+   ]
+  },
+  {
+   "id": "p15-g",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "weight"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      100,
+      2500
+     ],
+     "step": 50
+    },
+    "g": 10
+   },
+   "prompt": "A packet of sugar has a mass of {m} g. What is its weight on Earth? (g = {g} N/kg)",
+   "answer": "weight(convertUnit(m, 'g', 'kg'), g)",
+   "unit": "N",
+   "misconceptions": [
+    {
+     "id": "no-convert",
+     "wrong": "m * g",
+     "explain": "Change grams into kilograms first: g is in newtons per kilogram."
+    }
+   ],
+   "hint": "Change the grams into kilograms, then multiply by g.",
+   "solution": [
+    "{m} g = {convertUnit(m, 'g', 'kg')} kg.",
+    "Weight = {convertUnit(m, 'g', 'kg')} × {g} = {answer} N."
+   ]
+  },
+  {
+   "id": "p15-m",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "weight"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      2,
+      90
+     ]
+    },
+    "g": 10
+   },
+   "prompt": "A spring balance shows that a sack of maize weighs {weight(m, g)} N. What is its mass? (g = {g} N/kg)",
+   "answer": "m",
+   "unit": "kg",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "weight(m, g) * g",
+     "explain": "To find the mass, divide the weight by g."
+    }
+   ],
+   "solution": [
+    "Mass = weight ÷ g = {weight(m, g)} ÷ {g}.",
+    "= {answer} kg."
+   ]
+  },
+  {
+   "id": "p15-moon",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "weight"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      5,
+      80
+     ]
+    },
+    "g": 10,
+    "gm": 1.6
+   },
+   "prompt": "An astronaut's tool bag has a mass of {m} kg. On the Moon, g is about {gm} N/kg. What does the bag weigh on the Moon?",
+   "answer": "weight(m, gm)",
+   "unit": "N",
+   "misconceptions": [
+    {
+     "id": "earth",
+     "wrong": "weight(m, g)",
+     "explain": "That is its weight on Earth. On the Moon use g = {gm} N/kg."
+    },
+    {
+     "id": "mass",
+     "wrong": "m",
+     "explain": "That is the mass. Weight = mass × g."
+    }
+   ],
+   "solution": [
+    "The mass is still {m} kg.",
+    "Weight on the Moon = {m} × {gm} = {answer} N."
+   ]
+  },
+  {
+   "id": "p15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "weight"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Weight is measured in newtons.",
+      "truth": "true"
+     },
+     {
+      "text": "A spring balance measures weight.",
+      "truth": "true"
+     },
+     {
+      "text": "Mass is the same on the Moon as on Earth.",
+      "truth": "true"
+     },
+     {
+      "text": "Weight is a force.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Weight is measured in kilograms.",
+      "truth": "false",
+      "explain": "Weight is a force, measured in newtons (N). Kilograms measure mass."
+     },
+     {
+      "text": "Mass is smaller on the Moon.",
+      "truth": "false",
+      "explain": "Mass is the same everywhere. It is weight that is smaller on the Moon."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

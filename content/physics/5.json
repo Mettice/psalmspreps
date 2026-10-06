@@ -1,0 +1,351 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p5",
+   "name": "Basic laboratory equipment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Each measuring instrument measures one quantity:\n• metre rule or ruler: length (short lengths); measuring tape: long lengths;\n• beam balance or top-pan balance: mass;\n• measuring cylinder: the volume of a liquid;\n• stopwatch or stop clock: time;\n• thermometer: temperature;\n• spring balance (newton meter): weight, which is a force.\nOther equipment helps us do experiments: a retort stand and clamp hold apparatus; a beaker holds liquids; a Bunsen burner or spirit lamp heats things; a magnifying glass makes small things look bigger.\nAlways choose the instrument that fits what you measure.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ewane wants to find out how long it takes a pot of water to boil and how hot the water gets. Which two instruments does he need?",
+  "steps": [
+   "“How long” is a time: he needs a stopwatch.",
+   "“How hot” is a temperature: he needs a thermometer."
+  ],
+  "answer": "A stopwatch and a thermometer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc5-1",
+    "status": "draft",
+    "idea": "Each instrument measures one quantity: a ruler measures length, a balance measures mass, a thermometer measures temperature.",
+    "vars": {},
+    "example": [
+     "A stopwatch measures time.",
+     "A measuring cylinder measures the volume of a liquid."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p5-match"
+    }
+   },
+   {
+    "id": "pc5-2",
+    "status": "draft",
+    "idea": "Choose the instrument that fits: a metre rule for a desk, a measuring tape for a field.",
+    "vars": {},
+    "example": [
+     "The length of a football field: a measuring tape."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p5-choose"
+    }
+   },
+   {
+    "id": "pc5-3",
+    "status": "draft",
+    "idea": "Some equipment does not measure: it holds or heats things. A retort stand holds; a Bunsen burner heats; a beaker holds liquids.",
+    "vars": {},
+    "example": [
+     "A thermometer held in hot water by a clamp on a retort stand."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc5-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "equipment"
+     ],
+     "vars": {},
+     "prompt": "Which piece of equipment is used to HOLD apparatus in place?",
+     "pool": {
+      "right": [
+       {
+        "text": "retort stand and clamp",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "stopwatch",
+        "truth": "false",
+        "explain": "A stopwatch measures time."
+       },
+       {
+        "text": "thermometer",
+        "truth": "false",
+        "explain": "A thermometer measures temperature."
+       },
+       {
+        "text": "measuring cylinder",
+        "truth": "false",
+        "explain": "A measuring cylinder measures the volume of a liquid."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p5-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equipment"
+   ],
+   "prompt": "Match each instrument with what it measures.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "metre rule",
+     "right": "length"
+    },
+    {
+     "left": "measuring tape",
+     "right": "length"
+    },
+    {
+     "left": "beam balance",
+     "right": "mass"
+    },
+    {
+     "left": "top-pan balance",
+     "right": "mass"
+    },
+    {
+     "left": "measuring cylinder",
+     "right": "volume of a liquid"
+    },
+    {
+     "left": "stopwatch",
+     "right": "time"
+    },
+    {
+     "left": "thermometer",
+     "right": "temperature"
+    },
+    {
+     "left": "spring balance (newton meter)",
+     "right": "weight (a force)"
+    }
+   ],
+   "groups": true
+  },
+  {
+   "id": "p5-choose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equipment"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the length of your desk",
+       "a": "metre rule",
+       "why": "To measure the length of your desk, use a metre rule."
+      },
+      {
+       "t": "the length of the school field",
+       "a": "measuring tape",
+       "why": "To measure the length of the school field, use a measuring tape."
+      },
+      {
+       "t": "the mass of a stone",
+       "a": "beam balance",
+       "why": "To measure the mass of a stone, use a beam balance."
+      },
+      {
+       "t": "the volume of some palm oil",
+       "a": "measuring cylinder",
+       "why": "To measure the volume of some palm oil, use a measuring cylinder."
+      },
+      {
+       "t": "how long a race takes",
+       "a": "stopwatch",
+       "why": "To measure how long a race takes, use a stopwatch."
+      },
+      {
+       "t": "how hot the water in a pot is",
+       "a": "thermometer",
+       "why": "To measure how hot the water in a pot is, use a thermometer."
+      },
+      {
+       "t": "the weight of a bag of rice",
+       "a": "spring balance (newton meter)",
+       "why": "To measure the weight of a bag of rice, use a spring balance (newton meter)."
+      }
+     ]
+    }
+   },
+   "prompt": "Which instrument would you use to measure {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "metre rule",
+     "misconception": "other"
+    },
+    {
+     "text": "measuring tape",
+     "misconception": "other"
+    },
+    {
+     "text": "beam balance",
+     "misconception": "other"
+    },
+    {
+     "text": "top-pan balance",
+     "misconception": "other"
+    },
+    {
+     "text": "measuring cylinder",
+     "misconception": "other"
+    },
+    {
+     "text": "stopwatch",
+     "misconception": "other"
+    },
+    {
+     "text": "thermometer",
+     "misconception": "other"
+    },
+    {
+     "text": "spring balance (newton meter)",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That instrument measures something else. Ask: is it a length, a mass, a volume, a time, a temperature or a weight?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p5-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "equipment"
+   ],
+   "groups": true,
+   "pick": 5,
+   "group_order": [
+    "measures something",
+    "holds or heats"
+   ],
+   "prompt": "Does each piece of equipment measure something, or hold or heat things?",
+   "pool": [
+    {
+     "left": "stopwatch",
+     "right": "measures something"
+    },
+    {
+     "left": "thermometer",
+     "right": "measures something"
+    },
+    {
+     "left": "metre rule",
+     "right": "measures something"
+    },
+    {
+     "left": "beam balance",
+     "right": "measures something"
+    },
+    {
+     "left": "retort stand",
+     "right": "holds or heats"
+    },
+    {
+     "left": "Bunsen burner",
+     "right": "holds or heats"
+    },
+    {
+     "left": "beaker",
+     "right": "holds or heats"
+    },
+    {
+     "left": "tripod stand",
+     "right": "holds or heats"
+    }
+   ]
+  },
+  {
+   "id": "p5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "equipment"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A stopwatch measures time.",
+      "truth": "true"
+     },
+     {
+      "text": "A measuring cylinder measures the volume of a liquid.",
+      "truth": "true"
+     },
+     {
+      "text": "A beam balance measures mass.",
+      "truth": "true"
+     },
+     {
+      "text": "A measuring tape is good for long lengths.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A thermometer measures mass.",
+      "truth": "false",
+      "explain": "A thermometer measures temperature. Mass is measured with a balance."
+     },
+     {
+      "text": "A spring balance measures temperature.",
+      "truth": "false",
+      "explain": "A spring balance measures weight, which is a force."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

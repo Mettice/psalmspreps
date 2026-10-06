@@ -12,6 +12,7 @@
 //               choices: [tmpl | {text, misconception}] → pick one (shown like mcq); no choices → typed,
 //               checked against the accepted list (case- and space-insensitive), misconceptions: [{id, wrong: expr, explain}]
 //   word_order  answer: tmpl (the sentence), accept?: [tmpl] (other correct orders of the same words)
+// Any template may have figure: expr, an SVG string drawn by a library function from the question's numbers.
 //   matching    pool: [{left: tmpl, right: tmpl}], pick: n; with groups: true several lefts may share a right
 //               (sort into groups)
 // A stmt is {text: tmpl, truth: expr, explain?, misconception?}; the engine evaluates every truth.
@@ -156,6 +157,7 @@ export function instantiate(tpl, seed, lib, lesson = null) {
     const scope = sampleScope(tpl.vars, tpl.where, rng, lib);
     const q = { id: tpl.id, lesson, seed, type: tpl.type, level: tpl.level, prompt: R(tpl.prompt, scope) };
     if (tpl.hint) q.hint = R(tpl.hint, scope);
+    if (tpl.figure) q.figure = String(evaluate(tpl.figure, scope, lib));  // an SVG drawn from this question's numbers
 
     if (tpl.type === "numeric") {
       const kind = tpl.answer_kind || "number";
@@ -379,5 +381,6 @@ export function renderWorked(we, lib) {
   const scope = sampleScope(we.vars, null, makeRng(1), lib);
   const R = (t) => render(t, scope, lib, show(lib));
   const failed = (we.checks || []).filter((c) => evaluate(c, scope, lib) !== true);
-  return { problem: R(we.problem), steps: we.steps.map(R), answer: R(we.answer), failedChecks: failed };
+  return { problem: R(we.problem), steps: we.steps.map(R), answer: R(we.answer), failedChecks: failed,
+    ...(we.figure ? { figure: String(evaluate(we.figure, scope, lib)) } : {}) };
 }

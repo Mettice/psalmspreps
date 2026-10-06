@@ -1,0 +1,465 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "p16",
+   "name": "Volume"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Volume is the space a body takes up. Its SI unit is the cubic metre (m³). We also use cm³, litres (L) and millilitres (mL): 1 L = 1000 mL = 1000 cm³, so 1 mL = 1 cm³; 1 m³ = 1000 L.\n• Liquids: pour into a measuring cylinder; put your eye level with the surface and read at the bottom of the curved surface (the meniscus).\n• Regular solids: volume of a cuboid = length × width × height.\n• Irregular solids (a stone): put water in a measuring cylinder and read it; lower the stone in and read again. Volume of the stone = second reading − first reading (displacement).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 40,
+   "b": 58
+  },
+  "figure": "displacement(a, b)",
+  "problem": "Ewane puts water in a measuring cylinder, then lowers a stone into it. What is the volume of the stone?",
+  "steps": [
+   "Before: the bottom of the meniscus is at {a} mL.",
+   "After: it is at {b} mL.",
+   "Volume of the stone = {b} − {a} = {b - a} mL = {b - a} cm³."
+  ],
+  "answer": "{b - a} cm³",
+  "checks": [
+   "b - a == 18"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc16-1",
+    "status": "draft",
+    "idea": "Volume is the space a body takes up. 1 L = {factor('L', 'mL')} mL = {factor('L', 'cm³')} cm³, so 1 mL = 1 cm³.",
+    "vars": {
+     "v": 500
+    },
+    "example": [
+     "A {v} mL bottle of water holds {convertUnit(v, 'mL', 'cm³')} cm³ of water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p16-convert1"
+    }
+   },
+   {
+    "id": "pc16-2",
+    "status": "draft",
+    "idea": "Read a measuring cylinder with your eye level with the surface, at the bottom of the curve (the meniscus).",
+    "vars": {
+     "v": 46
+    },
+    "example": [
+     "The bottom of the meniscus is on {v} mL."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p16-cyl"
+    },
+    "figure": "cylinder(v)"
+   },
+   {
+    "id": "pc16-3",
+    "status": "draft",
+    "idea": "A cuboid: volume = length × width × height.",
+    "vars": {
+     "l": 5,
+     "w": 4,
+     "h": 3
+    },
+    "example": [
+     "A box {l} cm × {w} cm × {h} cm: {l} × {w} × {h} = {cuboid(l, w, h)} cm³."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p16-cuboid"
+    }
+   },
+   {
+    "id": "pc16-4",
+    "status": "draft",
+    "idea": "An irregular solid: read the water level before and after the stone goes in. The difference is the stone's volume.",
+    "vars": {
+     "a": 40,
+     "b": 58
+    },
+    "example": [
+     "Before {a} mL, after {b} mL: the stone is {b - a} cm³."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p16-disp"
+    },
+    "figure": "displacement(a, b)"
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p16-convert1",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "a": "L",
+       "b": "mL"
+      },
+      {
+       "a": "L",
+       "b": "cm³"
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      30
+     ]
+    }
+   },
+   "prompt": "{k / 2} {p.a} = ? {p.b}",
+   "answer": "convertUnit(k / 2, p.a, p.b)",
+   "unit": "{p.b}",
+   "misconceptions": [
+    {
+     "id": "small",
+     "wrong": "k / 2",
+     "explain": "Change the unit: 1 {p.a} = {factor(p.a, p.b)} {p.b}."
+    }
+   ],
+   "solution": [
+    "1 {p.a} = {factor(p.a, p.b)} {p.b}.",
+    "{k / 2} × {factor(p.a, p.b)} = {answer} {p.b}."
+   ]
+  },
+  {
+   "id": "p16-cyl",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "volume"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      6,
+      48
+     ]
+    },
+    "step": 2
+   },
+   "figure": "cylinder(step * v, 100, step)",
+   "prompt": "How much water is in the measuring cylinder?",
+   "answer": "step * v",
+   "unit": "mL",
+   "misconceptions": [
+    {
+     "id": "top",
+     "wrong": "step * v + step",
+     "explain": "Read at the bottom of the curved surface, not at the edges."
+    }
+   ],
+   "hint": "Each small mark is {step} mL. Look at the bottom of the curve.",
+   "solution": [
+    "Each small mark is {step} mL.",
+    "The bottom of the meniscus is on {answer} mL."
+   ]
+  },
+  {
+   "id": "p16-cuboid",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "volume"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "it": {
+     "pick": [
+      "box of chalk",
+      "brick",
+      "wooden block",
+      "box of matches"
+     ]
+    }
+   },
+   "prompt": "A {it} is {l} cm long, {w} cm wide and {h} cm high. What is its volume?",
+   "answer": "cuboid(l, w, h)",
+   "unit": "cm³",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "l + w + h",
+     "explain": "Volume = length × width × height: multiply, do not add."
+    }
+   ],
+   "solution": [
+    "Volume = length × width × height = {l} × {w} × {h}.",
+    "= {answer} cm³."
+   ]
+  },
+  {
+   "id": "p16-disp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "volume"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      10,
+      30
+     ]
+    },
+    "d": {
+     "int": [
+      4,
+      15
+     ]
+    }
+   },
+   "figure": "displacement(2 * a, 2 * a + 2 * d)",
+   "prompt": "What is the volume of the stone, in cm³?",
+   "answer": "2 * d",
+   "unit": "cm³",
+   "misconceptions": [
+    {
+     "id": "after",
+     "wrong": "2 * a + 2 * d",
+     "explain": "That is the water and the stone together. Subtract the reading before the stone went in."
+    }
+   ],
+   "hint": "Read both cylinders, then subtract.",
+   "solution": [
+    "Before: {2 * a} mL. After: {2 * a + 2 * d} mL.",
+    "Stone = {2 * a + 2 * d} − {2 * a} = {answer} mL = {answer} cm³."
+   ]
+  },
+  {
+   "id": "p16-tank",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "volume",
+    "units"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "w": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "h": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "prompt": "A water tank is {l} m long, {w} m wide and {h} m high. How many litres of water can it hold?",
+   "answer": "convertUnit(cuboid(l, w, h), 'm³', 'L')",
+   "unit": "L",
+   "misconceptions": [
+    {
+     "id": "m3",
+     "wrong": "cuboid(l, w, h)",
+     "explain": "That is in cubic metres. 1 m³ = 1000 L."
+    }
+   ],
+   "solution": [
+    "Volume = {l} × {w} × {h} = {cuboid(l, w, h)} m³.",
+    "1 m³ = {factor('m³', 'L')} L, so the tank holds {answer} L."
+   ]
+  },
+  {
+   "id": "p16-convert",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "a": "L",
+       "b": "mL"
+      },
+      {
+       "a": "L",
+       "b": "cm³"
+      },
+      {
+       "a": "m³",
+       "b": "L"
+      },
+      {
+       "a": "dm³",
+       "b": "cm³"
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      95
+     ]
+    },
+    "up": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Convert this volume: {up ? k / 10 : k * 10} {up ? p.a : p.b} = ? {up ? p.b : p.a}",
+   "answer": "up ? convertUnit(k / 10, p.a, p.b) : convertUnit(k * 10, p.b, p.a)",
+   "unit": "{up ? p.b : p.a}",
+   "misconceptions": [
+    {
+     "id": "wrong-way",
+     "wrong": "up ? convertUnit(k / 10, p.b, p.a) : convertUnit(k * 10, p.a, p.b)",
+     "explain": "You went the wrong way. From a bigger unit to a smaller one, the number gets bigger; from smaller to bigger, it gets smaller."
+    }
+   ],
+   "solution": [
+    "1 {p.a} = {factor(p.a, p.b)} {p.b}.",
+    "{up ? 'Multiply' : 'Divide'} by {factor(p.a, p.b)}: {up ? k / 10 : k * 10} {up ? p.a : p.b} = {answer} {up ? p.b : p.a}."
+   ]
+  },
+  {
+   "id": "p16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "volume"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "d": {
+     "int": [
+      3,
+      7
+     ]
+    },
+    "e": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "f": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "x": {
+     "int": [
+      10,
+      30
+     ]
+    },
+    "y": {
+     "int": [
+      3,
+      12
+     ]
+    }
+   },
+   "where": "d + e + f != d * e * f",
+   "prompt": "One answer is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A box {a} cm × {b} cm × {c} cm has a volume of {a * b * c} cm³.",
+      "truth": "cuboid(a, b, c) == a * b * c"
+     },
+     {
+      "text": "Water rises from {2 * x} mL to {2 * x + 2 * y} mL: the stone is {2 * y} cm³.",
+      "truth": "true"
+     },
+     {
+      "text": "{a} L = {convertUnit(a, 'L', 'mL')} mL.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A box {d} cm × {e} cm × {f} cm has a volume of {d + e + f} cm³.",
+      "truth": "d + e + f == cuboid(d, e, f)",
+      "explain": "Multiply, do not add: {d} × {e} × {f} = {cuboid(d, e, f)} cm³."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

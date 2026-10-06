@@ -1,0 +1,418 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "p9",
+   "name": "Physical and non-physical quantities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A physical quantity is anything that can be measured with an instrument and written as a number with a unit.\nExamples: length (2.5 m), mass (50 kg), time (30 s), temperature (37 °C), volume (1.5 L), area, speed, weight.\nA non-physical quantity cannot be measured with an instrument and has no unit. Examples: love, kindness, beauty, honesty, happiness, fear, anger, courage.\nWe can talk about them and feel them, but there is no instrument or unit to measure them.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is “the height of a mango tree” a physical quantity? Is “how much Bih likes mangoes”?",
+  "steps": [
+   "The height of the tree can be measured with a measuring tape, in metres: it is a physical quantity.",
+   "How much Bih likes mangoes cannot be measured with an instrument and has no unit: it is not a physical quantity."
+  ],
+  "answer": "The height is a physical quantity; how much she likes mangoes is not.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc9-1",
+    "status": "draft",
+    "idea": "A physical quantity can be measured with an instrument and written as a number with a unit.",
+    "vars": {
+     "a": 2.5,
+     "b": 50,
+     "c": 30
+    },
+    "example": [
+     "Length: {a} m. Mass: {b} kg. Time: {c} s."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p9-which"
+    }
+   },
+   {
+    "id": "pc9-2",
+    "status": "draft",
+    "idea": "Love, kindness, beauty and fear are not physical quantities: no instrument measures them and they have no unit.",
+    "vars": {
+     "k": 5
+    },
+    "example": [
+     "We can feel happiness, but we cannot write “happiness = {k} kg”."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p9-sort"
+    }
+   },
+   {
+    "id": "pc9-3",
+    "status": "draft",
+    "idea": "Every physical quantity has a unit: metres for length, kilograms for mass, seconds for time.",
+    "vars": {},
+    "example": [
+     "Temperature: degrees Celsius (°C). Volume: litres (L)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p9-unit"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p9-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "quantities"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "physical quantity",
+    "not a physical quantity"
+   ],
+   "prompt": "Sort them: physical quantity or not?",
+   "pool": [
+    {
+     "left": "length",
+     "right": "physical quantity"
+    },
+    {
+     "left": "mass",
+     "right": "physical quantity"
+    },
+    {
+     "left": "time",
+     "right": "physical quantity"
+    },
+    {
+     "left": "temperature",
+     "right": "physical quantity"
+    },
+    {
+     "left": "volume",
+     "right": "physical quantity"
+    },
+    {
+     "left": "speed",
+     "right": "physical quantity"
+    },
+    {
+     "left": "area",
+     "right": "physical quantity"
+    },
+    {
+     "left": "weight",
+     "right": "physical quantity"
+    },
+    {
+     "left": "love",
+     "right": "not a physical quantity"
+    },
+    {
+     "left": "kindness",
+     "right": "not a physical quantity"
+    },
+    {
+     "left": "beauty",
+     "right": "not a physical quantity"
+    },
+    {
+     "left": "honesty",
+     "right": "not a physical quantity"
+    },
+    {
+     "left": "happiness",
+     "right": "not a physical quantity"
+    },
+    {
+     "left": "fear",
+     "right": "not a physical quantity"
+    },
+    {
+     "left": "anger",
+     "right": "not a physical quantity"
+    },
+    {
+     "left": "courage",
+     "right": "not a physical quantity"
+    }
+   ]
+  },
+  {
+   "id": "p9-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "quantities"
+   ],
+   "vars": {},
+   "prompt": "Which of these is a physical quantity?",
+   "pool": {
+    "right": [
+     {
+      "text": "length",
+      "truth": "true"
+     },
+     {
+      "text": "mass",
+      "truth": "true"
+     },
+     {
+      "text": "time",
+      "truth": "true"
+     },
+     {
+      "text": "temperature",
+      "truth": "true"
+     },
+     {
+      "text": "volume",
+      "truth": "true"
+     },
+     {
+      "text": "speed",
+      "truth": "true"
+     },
+     {
+      "text": "area",
+      "truth": "true"
+     },
+     {
+      "text": "weight",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "love",
+      "truth": "false",
+      "explain": "Love cannot be measured with an instrument and has no unit."
+     },
+     {
+      "text": "kindness",
+      "truth": "false",
+      "explain": "Kindness cannot be measured with an instrument and has no unit."
+     },
+     {
+      "text": "beauty",
+      "truth": "false",
+      "explain": "Beauty cannot be measured with an instrument and has no unit."
+     },
+     {
+      "text": "honesty",
+      "truth": "false",
+      "explain": "Honesty cannot be measured with an instrument and has no unit."
+     },
+     {
+      "text": "happiness",
+      "truth": "false",
+      "explain": "Happiness cannot be measured with an instrument and has no unit."
+     },
+     {
+      "text": "fear",
+      "truth": "false",
+      "explain": "Fear cannot be measured with an instrument and has no unit."
+     },
+     {
+      "text": "anger",
+      "truth": "false",
+      "explain": "Anger cannot be measured with an instrument and has no unit."
+     },
+     {
+      "text": "courage",
+      "truth": "false",
+      "explain": "Courage cannot be measured with an instrument and has no unit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "p9-unit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "quantities"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "length",
+       "a": "metre (m)",
+       "why": "length can be measured in metre (m)."
+      },
+      {
+       "t": "mass",
+       "a": "kilogram (kg)",
+       "why": "mass can be measured in kilogram (kg)."
+      },
+      {
+       "t": "time",
+       "a": "second (s)",
+       "why": "time can be measured in second (s)."
+      },
+      {
+       "t": "volume of a liquid",
+       "a": "litre (L)",
+       "why": "volume of a liquid can be measured in litre (L)."
+      },
+      {
+       "t": "temperature",
+       "a": "degree Celsius (°C)",
+       "why": "temperature can be measured in degree Celsius (°C)."
+      }
+     ]
+    }
+   },
+   "prompt": "Which unit can be used to measure {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "metre (m)",
+     "misconception": "other"
+    },
+    {
+     "text": "kilogram (kg)",
+     "misconception": "other"
+    },
+    {
+     "text": "second (s)",
+     "misconception": "other"
+    },
+    {
+     "text": "litre (L)",
+     "misconception": "other"
+    },
+    {
+     "text": "degree Celsius (°C)",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That unit is for a different quantity."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p9-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "quantities"
+   ],
+   "vars": {},
+   "prompt": "Why is kindness NOT a physical quantity?",
+   "pool": {
+    "right": [
+     {
+      "text": "No instrument can measure it, and it has no unit.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Because it is too small to see.",
+      "truth": "false",
+      "explain": "Small things can still be measured. Kindness has no instrument and no unit."
+     },
+     {
+      "text": "Because it changes from day to day.",
+      "truth": "false",
+      "explain": "Temperature changes too, and it is a physical quantity. The reason is: no instrument, no unit."
+     },
+     {
+      "text": "Because only scientists can measure it.",
+      "truth": "false",
+      "explain": "No one can measure it: there is no instrument and no unit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "p9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "quantities"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Mass is a physical quantity measured in kilograms.",
+      "truth": "true"
+     },
+     {
+      "text": "Time is a physical quantity measured in seconds.",
+      "truth": "true"
+     },
+     {
+      "text": "Beauty is not a physical quantity.",
+      "truth": "true"
+     },
+     {
+      "text": "Temperature can be measured with a thermometer.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Happiness is a physical quantity measured in metres.",
+      "truth": "false",
+      "explain": "Happiness cannot be measured with an instrument and has no unit."
+     },
+     {
+      "text": "Length is not a physical quantity.",
+      "truth": "false",
+      "explain": "Length is measured with a ruler, in metres: it is a physical quantity."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

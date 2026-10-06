@@ -1,0 +1,500 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "p12",
+   "name": "Changes of state"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Heating or cooling can change matter from one state to another:\n• melting: solid → liquid (ice melts)\n• freezing (solidification): liquid → solid (palm oil turns solid on a cold morning)\n• evaporation: liquid → gas (wet clothes dry); boiling is fast evaporation at the boiling point\n• condensation: gas → liquid (dew; drops on a cold bottle)\n• sublimation: solid → gas, with no liquid (mothballs)\n• deposition: gas → solid (frost)\nMelting, evaporation and sublimation take in heat. Freezing, condensation and deposition give out heat. The substance stays the same: ice, water and steam are all water.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "gas",
+   "t": "liquid"
+  },
+  "problem": "Drops of water form on the outside of a cold bottle taken from the fridge. Where do they come from, and what is this change called?",
+  "steps": [
+   "The air around the bottle has water vapour in it, a {f}.",
+   "The cold bottle cools the vapour, which turns into a {t}.",
+   "A {f} turning into a {t} is {processName(f, t)}. Heat is {heatFlow(f, t)}."
+  ],
+  "answer": "Water vapour from the air turns into liquid water: {processName(f, t)}.",
+  "checks": [
+   "processName(f, t) == 'condensation'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc12-1",
+    "status": "draft",
+    "idea": "Heating: solid → liquid is melting; liquid → gas is evaporation (boiling when it is fast).",
+    "vars": {},
+    "example": [
+     "Ice → water: {processName('solid', 'liquid')}. Water → steam: {processName('liquid', 'gas')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p12-name"
+    }
+   },
+   {
+    "id": "pc12-2",
+    "status": "draft",
+    "idea": "Cooling: gas → liquid is condensation; liquid → solid is freezing.",
+    "vars": {},
+    "example": [
+     "Dew on the grass: {processName('gas', 'liquid')}. Palm oil hardening: {processName('liquid', 'solid')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p12-example"
+    }
+   },
+   {
+    "id": "pc12-3",
+    "status": "draft",
+    "idea": "Some solids turn straight into a gas, with no liquid: sublimation. The reverse, gas → solid, is deposition.",
+    "vars": {},
+    "example": [
+     "Mothballs getting smaller: {processName('solid', 'gas')}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc12-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "matter"
+     ],
+     "show": 3,
+     "vars": {
+      "p": {
+       "pick": [
+        {
+         "f": "solid",
+         "t": "liquid"
+        },
+        {
+         "f": "liquid",
+         "t": "solid"
+        },
+        {
+         "f": "liquid",
+         "t": "gas"
+        },
+        {
+         "f": "gas",
+         "t": "liquid"
+        },
+        {
+         "f": "solid",
+         "t": "gas"
+        },
+        {
+         "f": "gas",
+         "t": "solid"
+        }
+       ]
+      }
+     },
+     "prompt": "A {p.f} turns into a {p.t}. What is this change called?",
+     "correct": "{processName(p.f, p.t)}",
+     "distractors": [
+      {
+       "text": "melting",
+       "misconception": "name"
+      },
+      {
+       "text": "freezing",
+       "misconception": "name"
+      },
+      {
+       "text": "evaporation",
+       "misconception": "name"
+      },
+      {
+       "text": "condensation",
+       "misconception": "name"
+      },
+      {
+       "text": "sublimation",
+       "misconception": "name"
+      },
+      {
+       "text": "deposition",
+       "misconception": "name"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "name",
+       "explain": "Not this one. Melting: solid → liquid; freezing: liquid → solid; evaporation: liquid → gas; condensation: gas → liquid; sublimation: solid → gas; deposition: gas → solid."
+      }
+     ],
+     "solution": [
+      "{p.f} → {p.t}: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p12-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "f": "solid",
+       "t": "liquid"
+      },
+      {
+       "f": "liquid",
+       "t": "solid"
+      },
+      {
+       "f": "liquid",
+       "t": "gas"
+      },
+      {
+       "f": "gas",
+       "t": "liquid"
+      },
+      {
+       "f": "solid",
+       "t": "gas"
+      },
+      {
+       "f": "gas",
+       "t": "solid"
+      }
+     ]
+    }
+   },
+   "prompt": "When a {p.f} changes into a {p.t}, the change is called:",
+   "correct": "{processName(p.f, p.t)}",
+   "distractors": [
+    {
+     "text": "melting",
+     "misconception": "name"
+    },
+    {
+     "text": "freezing",
+     "misconception": "name"
+    },
+    {
+     "text": "evaporation",
+     "misconception": "name"
+    },
+    {
+     "text": "condensation",
+     "misconception": "name"
+    },
+    {
+     "text": "sublimation",
+     "misconception": "name"
+    },
+    {
+     "text": "deposition",
+     "misconception": "name"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "name",
+     "explain": "Not this one. Check which state it starts in and which state it ends in."
+    }
+   ],
+   "solution": [
+    "{p.f} → {p.t}: {answer}."
+   ]
+  },
+  {
+   "id": "p12-example",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "An ice cube in a cold drink gets smaller and smaller.",
+       "a": "melting",
+       "why": "An ice cube in a cold drink gets smaller and smaller. This is melting."
+      },
+      {
+       "t": "Water in a pot on the fire boils away.",
+       "a": "evaporation",
+       "why": "Water in a pot on the fire boils away. This is evaporation."
+      },
+      {
+       "t": "In the morning, there are drops of dew on the grass.",
+       "a": "condensation",
+       "why": "In the morning, there are drops of dew on the grass. This is condensation."
+      },
+      {
+       "t": "Palm oil turns solid on a cold morning in Bamenda.",
+       "a": "freezing",
+       "why": "Palm oil turns solid on a cold morning in Bamenda. This is freezing."
+      },
+      {
+       "t": "Mothballs (naphthalene) in a wardrobe get smaller without leaving any liquid.",
+       "a": "sublimation",
+       "why": "Mothballs (naphthalene) in a wardrobe get smaller without leaving any liquid. This is sublimation."
+      },
+      {
+       "t": "Water drops form on the outside of a cold bottle of water.",
+       "a": "condensation",
+       "why": "Water drops form on the outside of a cold bottle of water. This is condensation."
+      },
+      {
+       "t": "Wet clothes dry on the line.",
+       "a": "evaporation",
+       "why": "Wet clothes dry on the line. This is evaporation."
+      },
+      {
+       "t": "Hot candle wax becomes hard again.",
+       "a": "freezing",
+       "why": "Hot candle wax becomes hard again. This is freezing."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t} What is this change of state called?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "melting",
+     "misconception": "other"
+    },
+    {
+     "text": "freezing",
+     "misconception": "other"
+    },
+    {
+     "text": "evaporation",
+     "misconception": "other"
+    },
+    {
+     "text": "condensation",
+     "misconception": "other"
+    },
+    {
+     "text": "sublimation",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this change. Which state does it start in, and which state does it end in?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p12-heat",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matter"
+   ],
+   "show": 2,
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "f": "solid",
+       "t": "liquid"
+      },
+      {
+       "f": "liquid",
+       "t": "solid"
+      },
+      {
+       "f": "liquid",
+       "t": "gas"
+      },
+      {
+       "f": "gas",
+       "t": "liquid"
+      },
+      {
+       "f": "solid",
+       "t": "gas"
+      },
+      {
+       "f": "gas",
+       "t": "solid"
+      }
+     ]
+    }
+   },
+   "prompt": "During {processName(p.f, p.t)} ({p.f} → {p.t}), is heat taken in or given out?",
+   "correct": "{heatFlow(p.f, p.t)}",
+   "distractors": [
+    {
+     "text": "taken in",
+     "misconception": "heat"
+    },
+    {
+     "text": "given out",
+     "misconception": "heat"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "heat",
+     "explain": "To move particles further apart (solid → liquid → gas) needs heat. Coming closer together gives heat out."
+    }
+   ],
+   "solution": [
+    "{p.f} → {p.t}: the particles move {heatFlow(p.f, p.t) == 'taken in' ? 'further apart, which needs heat' : 'closer together, which gives out heat'}.",
+    "Heat is {answer}."
+   ]
+  },
+  {
+   "id": "p12-reverse",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matter"
+   ],
+   "show": 3,
+   "vars": {
+    "p": {
+     "pick": [
+      {
+       "f": "solid",
+       "t": "liquid"
+      },
+      {
+       "f": "liquid",
+       "t": "solid"
+      },
+      {
+       "f": "liquid",
+       "t": "gas"
+      },
+      {
+       "f": "gas",
+       "t": "liquid"
+      },
+      {
+       "f": "solid",
+       "t": "gas"
+      },
+      {
+       "f": "gas",
+       "t": "solid"
+      }
+     ]
+    }
+   },
+   "prompt": "{cap(processName(p.f, p.t))} changes a {p.f} into a:",
+   "correct": "{p.t}",
+   "distractors": [
+    {
+     "text": "solid",
+     "misconception": "state"
+    },
+    {
+     "text": "liquid",
+     "misconception": "state"
+    },
+    {
+     "text": "gas",
+     "misconception": "state"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "state",
+     "explain": "Not this state. Think about what {processName(p.f, p.t)} does."
+    }
+   ],
+   "solution": [
+    "{cap(processName(p.f, p.t))}: {p.f} → {answer}."
+   ]
+  },
+  {
+   "id": "p12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Melting changes a solid into a liquid.",
+      "truth": "true"
+     },
+     {
+      "text": "Condensation changes a gas into a liquid.",
+      "truth": "true"
+     },
+     {
+      "text": "Evaporation takes in heat.",
+      "truth": "true"
+     },
+     {
+      "text": "Dew forms by condensation.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Freezing changes a gas into a solid.",
+      "truth": "false",
+      "explain": "Freezing changes a liquid into a solid. Gas → solid is deposition."
+     },
+     {
+      "text": "Wet clothes dry by condensation.",
+      "truth": "false",
+      "explain": "Wet clothes dry by evaporation: liquid → gas."
+     },
+     {
+      "text": "Melting gives out heat.",
+      "truth": "false",
+      "explain": "Melting takes in heat."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

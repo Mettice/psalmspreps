@@ -1,0 +1,317 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "p4",
+   "name": "How scientists work"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Physicists observe nature and try to understand it. They work in steps (the scientific method):\n1. Observe something carefully.\n2. Ask a question about it.\n3. Suggest an answer that can be tested (a hypothesis).\n4. Test it with an experiment.\n5. Record and study the results.\n6. Draw a conclusion, and share it.\nA fair test changes only one thing at a time and keeps everything else the same. Scientists measure carefully, repeat experiments, and are honest about their results, even when the results show their idea was wrong.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Tabe wants to know if salt makes water boil faster. How can he make his test fair?",
+  "steps": [
+   "Use two pots that are the same, with the same amount of water, on the same fire.",
+   "Add salt to one pot only: change just one thing.",
+   "Measure the time each pot takes to boil.",
+   "Repeat the test to check the result."
+  ],
+  "answer": "Change only the salt; keep everything else the same, measure, and repeat.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc4-1",
+    "status": "draft",
+    "idea": "Scientists work in steps: observe, ask a question, suggest an answer, test it, record the results, conclude.",
+    "vars": {},
+    "example": [
+     "Observe: the black pot heats faster. Question: does colour matter? Test: two pots in the sun."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-steps"
+    }
+   },
+   {
+    "id": "pc4-2",
+    "status": "draft",
+    "idea": "Each part of an investigation is one of these steps.",
+    "vars": {},
+    "example": [
+     "“Every ten minutes Bih writes the temperature in a table” is recording the results."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-which"
+    }
+   },
+   {
+    "id": "pc4-3",
+    "status": "draft",
+    "idea": "A fair test changes only one thing at a time and keeps everything else the same.",
+    "vars": {},
+    "example": [
+     "To test salt, both pots get the same water and the same fire; only one gets salt."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc4-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "method"
+     ],
+     "vars": {},
+     "prompt": "In a fair test, how many things do you change at a time?",
+     "pool": {
+      "right": [
+       {
+        "text": "only one",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "two",
+        "truth": "false",
+        "explain": "If two things change, you cannot tell which one caused the result."
+       },
+       {
+        "text": "all of them",
+        "truth": "false",
+        "explain": "Then you cannot tell what caused the result."
+       },
+       {
+        "text": "none",
+        "truth": "false",
+        "explain": "If nothing changes, there is nothing to test."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "method"
+   ],
+   "order": "as_written",
+   "vars": {},
+   "prompt": "Put the steps of the scientific method in order.",
+   "items": [
+    {
+     "text": "Observe something carefully"
+    },
+    {
+     "text": "Ask a question about it"
+    },
+    {
+     "text": "Suggest an answer to test (a hypothesis)"
+    },
+    {
+     "text": "Test it with an experiment"
+    },
+    {
+     "text": "Record and study the results"
+    },
+    {
+     "text": "Draw a conclusion"
+    }
+   ]
+  },
+  {
+   "id": "p4-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "method"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Bih notices that water in a black pot gets hot faster than in a white pot.",
+       "a": "Observe something carefully",
+       "why": "This is the step “Observe something carefully”."
+      },
+      {
+       "t": "Bih asks: “Does the colour of a pot change how fast water heats up?”",
+       "a": "Ask a question about it",
+       "why": "This is the step “Ask a question about it”."
+      },
+      {
+       "t": "Bih thinks: “Black pots take in more heat from the sun.”",
+       "a": "Suggest an answer to test (a hypothesis)",
+       "why": "This is the step “Suggest an answer to test (a hypothesis)”."
+      },
+      {
+       "t": "Bih puts the same amount of water in a black pot and a white pot, side by side in the sun.",
+       "a": "Test it with an experiment",
+       "why": "This is the step “Test it with an experiment”."
+      },
+      {
+       "t": "Every ten minutes Bih reads the thermometer in each pot and writes the temperature in a table.",
+       "a": "Record and study the results",
+       "why": "This is the step “Record and study the results”."
+      },
+      {
+       "t": "Bih says: “The black pot heated faster, so colour does matter.”",
+       "a": "Draw a conclusion",
+       "why": "This is the step “Draw a conclusion”."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t}\nWhich step is this?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Observe something carefully",
+     "misconception": "other"
+    },
+    {
+     "text": "Ask a question about it",
+     "misconception": "other"
+    },
+    {
+     "text": "Suggest an answer to test (a hypothesis)",
+     "misconception": "other"
+    },
+    {
+     "text": "Test it with an experiment",
+     "misconception": "other"
+    },
+    {
+     "text": "Record and study the results",
+     "misconception": "other"
+    },
+    {
+     "text": "Draw a conclusion",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not quite. Is Bih looking, asking, guessing, testing, writing results, or deciding?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p4-fair",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "method"
+   ],
+   "vars": {},
+   "prompt": "Ndi wants to test whether plants grow taller with fertiliser. Which plan is a fair test?",
+   "pool": {
+    "right": [
+     {
+      "text": "Two plants of the same kind, the same pot, soil, water and sunlight; fertiliser for one plant only.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "One plant in the sun with fertiliser, one in the shade without.",
+      "truth": "false",
+      "explain": "Two things change (sun and fertiliser), so we cannot tell which one made the difference."
+     },
+     {
+      "text": "Give both plants fertiliser and see which grows taller.",
+      "truth": "false",
+      "explain": "Nothing is compared: both get fertiliser."
+     },
+     {
+      "text": "Ask friends whether fertiliser works.",
+      "truth": "false",
+      "explain": "A scientist tests the idea with an experiment, not by asking opinions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "p4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "method"
+   ],
+   "vars": {},
+   "prompt": "One sentence about how scientists work is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Scientists repeat experiments to check their results.",
+      "truth": "true"
+     },
+     {
+      "text": "A hypothesis is an answer that can be tested.",
+      "truth": "true"
+     },
+     {
+      "text": "Scientists record their measurements carefully.",
+      "truth": "true"
+     },
+     {
+      "text": "In a fair test only one thing is changed.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "If the results do not match the idea, a scientist should change the results.",
+      "truth": "false",
+      "explain": "Scientists must be honest: if the results disagree, they change the idea, not the results."
+     },
+     {
+      "text": "A scientist draws a conclusion before doing the experiment.",
+      "truth": "false",
+      "explain": "The conclusion comes after testing and studying the results."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

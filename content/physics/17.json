@@ -1,0 +1,370 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  14,
+  16
+ ],
+ "skills": [
+  {
+   "id": "p17",
+   "name": "Density"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Density is the mass of each unit of volume: density = mass ÷ volume.\nUnits: g/cm³ or kg/m³ (the SI unit). 1 g/cm³ = 1000 kg/m³.\nTo find the density of a stone: measure its mass with a balance and its volume by displacement, then divide.\nThe density of water is 1 g/cm³. A body less dense than water floats; a body more dense than water sinks. Some densities: ice about 0.92 g/cm³ (it floats), kerosene about 0.8 g/cm³, iron about 7.9 g/cm³ (it sinks).\nTwo bodies of the same size can have different masses because their densities are different: a block of iron is much heavier than a block of wood of the same size.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 54,
+   "v": 20,
+   "w": 1
+  },
+  "problem": "A metal block has a mass of {m} g and a volume of {v} cm³. What is its density? Will it float in water?",
+  "steps": [
+   "Density = mass ÷ volume = {m} ÷ {v} = {density(m, v)} g/cm³.",
+   "Water is {w} g/cm³. {density(m, v)} is more than {w}, so the block sinks."
+  ],
+  "answer": "{density(m, v)} g/cm³; it sinks.",
+  "checks": [
+   "density(m, v) == 2.7",
+   "!floatsInWater(density(m, v))"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc17-1",
+    "status": "draft",
+    "idea": "Density = mass ÷ volume. It tells how much mass is packed into each cm³.",
+    "vars": {
+     "m": 30,
+     "v": 12
+    },
+    "example": [
+     "{m} g in {v} cm³: {m} ÷ {v} = {density(m, v)} g/cm³."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p17-d"
+    }
+   },
+   {
+    "id": "pc17-2",
+    "status": "draft",
+    "idea": "Water has a density of 1 g/cm³. Less dense than water: it floats. More dense: it sinks.",
+    "vars": {
+     "w": 0.6,
+     "i": 7.9
+    },
+    "example": [
+     "Wood (about {w} g/cm³) floats. Iron (about {i} g/cm³) sinks."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc17-2-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "density"
+     ],
+     "show": 2,
+     "vars": {
+      "d": {
+       "pick": [
+        0.5,
+        0.8,
+        1.5,
+        2,
+        2.5,
+        2.7,
+        3,
+        4,
+        8
+       ]
+      }
+     },
+     "prompt": "A block has a density of {d} g/cm³. Will it float or sink in water?",
+     "correct": "{floatsInWater(d) ? 'It floats.' : 'It sinks.'}",
+     "distractors": [
+      {
+       "text": "It floats.",
+       "misconception": "fs"
+      },
+      {
+       "text": "It sinks.",
+       "misconception": "fs"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "fs",
+       "explain": "Compare with water, 1 g/cm³: less than 1 floats, more than 1 sinks."
+      }
+     ],
+     "solution": [
+      "{d} g/cm³ is {floatsInWater(d) ? 'less' : 'more'} than the density of water.",
+      "{answer}"
+     ]
+    }
+   },
+   {
+    "id": "pc17-3",
+    "status": "draft",
+    "idea": "Units of density: g/cm³ or kg/m³. 1 g/cm³ = {convertUnit(1, 'kg', 'g')} kg/m³.",
+    "vars": {},
+    "example": [
+     "Water: 1 g/cm³ = {convertUnit(1, 'kg', 'g')} kg/m³."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p17-unit-l1"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p17-d",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "d": {
+     "pick": [
+      0.5,
+      0.8,
+      1.5,
+      2,
+      2.5,
+      2.7,
+      3,
+      4,
+      8
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      25
+     ]
+    }
+   },
+   "prompt": "A block has a mass of {d * v} g and a volume of {v} cm³. What is its density?",
+   "answer": "density(d * v, v)",
+   "unit": "g/cm³",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "d * v * v",
+     "explain": "Density = mass ÷ volume: divide, do not multiply."
+    },
+    {
+     "id": "upside",
+     "wrong": "round(v / (d * v), 2)",
+     "explain": "Divide the mass by the volume, not the volume by the mass."
+    }
+   ],
+   "solution": [
+    "Density = mass ÷ volume = {d * v} ÷ {v}.",
+    "= {answer} g/cm³."
+   ]
+  },
+  {
+   "id": "p17-unit-l1",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "d": {
+     "pick": [
+      0.5,
+      0.8,
+      1.5,
+      2,
+      2.5,
+      2.7,
+      3,
+      4,
+      8
+     ]
+    }
+   },
+   "prompt": "Change {d} g/cm³ into kg/m³.",
+   "answer": "d * 1000",
+   "unit": "kg/m³",
+   "misconceptions": [
+    {
+     "id": "divide",
+     "wrong": "d / 1000",
+     "explain": "1 g/cm³ = 1000 kg/m³: multiply by 1000."
+    }
+   ],
+   "solution": [
+    "1 g/cm³ = {convertUnit(1, 'kg', 'g')} kg/m³.",
+    "{d} × {convertUnit(1, 'kg', 'g')} = {answer} kg/m³."
+   ]
+  },
+  {
+   "id": "p17-m",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "vars": {
+    "d": {
+     "pick": [
+      0.5,
+      0.8,
+      1.5,
+      2,
+      2.5,
+      2.7,
+      3,
+      4,
+      8
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      30
+     ]
+    }
+   },
+   "prompt": "A stone has a density of {d} g/cm³ and a volume of {v} cm³. What is its mass?",
+   "answer": "d * v",
+   "unit": "g",
+   "misconceptions": [
+    {
+     "id": "divide",
+     "wrong": "round(d / v, 2)",
+     "explain": "Mass = density × volume."
+    }
+   ],
+   "solution": [
+    "Mass = density × volume = {d} × {v}.",
+    "= {answer} g."
+   ]
+  },
+  {
+   "id": "p17-float",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "density"
+   ],
+   "show": 2,
+   "vars": {
+    "d": {
+     "pick": [
+      0.5,
+      0.8,
+      1.5,
+      2,
+      2.5,
+      2.7,
+      3,
+      4,
+      8
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      20
+     ]
+    }
+   },
+   "prompt": "A block has a mass of {d * v} g and a volume of {v} cm³. Will it float or sink in water?",
+   "correct": "{floatsInWater(d) ? 'It floats.' : 'It sinks.'}",
+   "distractors": [
+    {
+     "text": "It floats.",
+     "misconception": "fs"
+    },
+    {
+     "text": "It sinks.",
+     "misconception": "fs"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "fs",
+     "explain": "Work out the density (mass ÷ volume) and compare it with water, 1 g/cm³."
+    }
+   ],
+   "solution": [
+    "Density = {d * v} ÷ {v} = {density(d * v, v)} g/cm³.",
+    "That is {floatsInWater(d) ? 'less' : 'more'} than water (1 g/cm³): {answer}"
+   ]
+  },
+  {
+   "id": "p17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "density"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Density = mass ÷ volume.",
+      "truth": "true"
+     },
+     {
+      "text": "Ice floats because it is less dense than water.",
+      "truth": "true"
+     },
+     {
+      "text": "1 g/cm³ = 1000 kg/m³.",
+      "truth": "true"
+     },
+     {
+      "text": "A body denser than water sinks.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A big log sinks because it is heavy.",
+      "truth": "false",
+      "explain": "Size does not decide: wood floats because its density is less than water's."
+     },
+     {
+      "text": "Density = mass × volume.",
+      "truth": "false",
+      "explain": "Density = mass ÷ volume."
+     },
+     {
+      "text": "Iron floats in water.",
+      "truth": "false",
+      "explain": "Iron (about 7.9 g/cm³) is denser than water: it sinks."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,422 @@
+{
+ "subject": "physics",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p2",
+   "name": "Scientists and their discoveries"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Scientists have made discoveries that changed our lives.\n• Isaac Newton described the laws of motion and gravity (1687).\n• Michael Faraday showed how to make electricity with magnets (1831): this led to generators.\n• Alexander Graham Bell made the telephone (1876).\n• Marie Curie studied radioactivity (1898), used today in medicine.\n• The Wright brothers made the first powered aeroplane flight (1903).\n• Alexander Fleming discovered penicillin (1928), the first antibiotic.\n• Arthur Zang, a Cameroonian engineer, created the Cardiopad (about 2011), a tablet that records heart tests and sends them to a doctor.\nScience is done by people everywhere, including in Cameroon. You can be one of them.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A nurse in a village health centre records a patient's heart test on a tablet and sends it to a heart doctor in Yaoundé. Which discovery made this possible, and who made it?",
+  "steps": [
+   "The tablet that records heart tests and sends them is the Cardiopad.",
+   "It was created by Arthur Zang, a Cameroonian engineer."
+  ],
+  "answer": "The Cardiopad, created by Arthur Zang.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "pc2-1",
+    "status": "draft",
+    "idea": "Many great discoveries changed daily life: the telephone, electricity from generators, aeroplanes and medicines.",
+    "vars": {},
+    "example": [
+     "Bell → the telephone. Faraday → electricity from magnets. Fleming → penicillin."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-match"
+    }
+   },
+   {
+    "id": "pc2-2",
+    "status": "draft",
+    "idea": "Each discovery helps people in a different way: to talk, to travel, to have light and power, to stay healthy.",
+    "vars": {},
+    "example": [
+     "Penicillin cures infections. The telephone carries our voice far away."
+    ],
+    "checks": [],
+    "check": {
+     "id": "pc2-2-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "scientists"
+     ],
+     "vars": {},
+     "prompt": "Which discovery lets people talk to each other across long distances?",
+     "pool": {
+      "right": [
+       {
+        "text": "the telephone",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "penicillin",
+        "truth": "false",
+        "explain": "Penicillin cures infections."
+       },
+       {
+        "text": "the aeroplane",
+        "truth": "false",
+        "explain": "The aeroplane lets people travel by air."
+       },
+       {
+        "text": "the laws of motion",
+        "truth": "false",
+        "explain": "The laws of motion help engineers design machines and vehicles."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "pc2-3",
+    "status": "draft",
+    "idea": "Science is done everywhere, including in Cameroon: Arthur Zang created the Cardiopad for heart tests.",
+    "vars": {},
+    "example": [
+     "A heart test done in a village can be read by a doctor in Yaoundé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-who"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientists"
+   ],
+   "prompt": "Match each scientist with the discovery.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "Isaac Newton",
+     "right": "the laws of motion and gravity"
+    },
+    {
+     "left": "Alexander Graham Bell",
+     "right": "the telephone"
+    },
+    {
+     "left": "Michael Faraday",
+     "right": "how to make electricity with magnets (the dynamo)"
+    },
+    {
+     "left": "Marie Curie",
+     "right": "radioactivity (with radium and polonium)"
+    },
+    {
+     "left": "Alexander Fleming",
+     "right": "penicillin (the first antibiotic)"
+    },
+    {
+     "left": "the Wright brothers",
+     "right": "the first powered aeroplane flight"
+    },
+    {
+     "left": "Arthur Zang (Cameroon)",
+     "right": "the Cardiopad, a tablet that records heart tests"
+    }
+   ]
+  },
+  {
+   "id": "p2-who",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientists"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the laws of motion and gravity",
+       "a": "Isaac Newton",
+       "why": "Isaac Newton: the laws of motion and gravity."
+      },
+      {
+       "t": "the telephone",
+       "a": "Alexander Graham Bell",
+       "why": "Alexander Graham Bell: the telephone."
+      },
+      {
+       "t": "how to make electricity with magnets (the dynamo)",
+       "a": "Michael Faraday",
+       "why": "Michael Faraday: how to make electricity with magnets (the dynamo)."
+      },
+      {
+       "t": "radioactivity (with radium and polonium)",
+       "a": "Marie Curie",
+       "why": "Marie Curie: radioactivity (with radium and polonium)."
+      },
+      {
+       "t": "penicillin (the first antibiotic)",
+       "a": "Alexander Fleming",
+       "why": "Alexander Fleming: penicillin (the first antibiotic)."
+      },
+      {
+       "t": "the first powered aeroplane flight",
+       "a": "the Wright brothers",
+       "why": "the Wright brothers: the first powered aeroplane flight."
+      },
+      {
+       "t": "the Cardiopad, a tablet that records heart tests",
+       "a": "Arthur Zang (Cameroon)",
+       "why": "Arthur Zang (Cameroon): the Cardiopad, a tablet that records heart tests."
+      }
+     ]
+    }
+   },
+   "prompt": "Who is known for {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Isaac Newton",
+     "misconception": "other"
+    },
+    {
+     "text": "Alexander Graham Bell",
+     "misconception": "other"
+    },
+    {
+     "text": "Michael Faraday",
+     "misconception": "other"
+    },
+    {
+     "text": "Marie Curie",
+     "misconception": "other"
+    },
+    {
+     "text": "Alexander Fleming",
+     "misconception": "other"
+    },
+    {
+     "text": "the Wright brothers",
+     "misconception": "other"
+    },
+    {
+     "text": "Arthur Zang (Cameroon)",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That person is known for a different discovery."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p2-life",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "scientists"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the laws of motion and gravity",
+       "a": "helps engineers design bridges, cars and rockets",
+       "why": "the laws of motion and gravity helps engineers design bridges, cars and rockets."
+      },
+      {
+       "t": "the telephone",
+       "a": "lets people talk to each other across long distances",
+       "why": "the telephone lets people talk to each other across long distances."
+      },
+      {
+       "t": "how to make electricity with magnets (the dynamo)",
+       "a": "led to the generators that give us electric power",
+       "why": "how to make electricity with magnets (the dynamo) led to the generators that give us electric power."
+      },
+      {
+       "t": "radioactivity (with radium and polonium)",
+       "a": "led to X-ray machines and cancer treatment",
+       "why": "radioactivity (with radium and polonium) led to X-ray machines and cancer treatment."
+      },
+      {
+       "t": "penicillin (the first antibiotic)",
+       "a": "cures many infections caused by bacteria",
+       "why": "penicillin (the first antibiotic) cures many infections caused by bacteria."
+      },
+      {
+       "t": "the first powered aeroplane flight",
+       "a": "made travel by air possible",
+       "why": "the first powered aeroplane flight made travel by air possible."
+      },
+      {
+       "t": "the Cardiopad, a tablet that records heart tests",
+       "a": "lets a heart test be sent to a doctor far away",
+       "why": "the Cardiopad, a tablet that records heart tests lets a heart test be sent to a doctor far away."
+      }
+     ]
+    }
+   },
+   "prompt": "How does {x.t} help people today?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "helps engineers design bridges, cars and rockets",
+     "misconception": "other"
+    },
+    {
+     "text": "lets people talk to each other across long distances",
+     "misconception": "other"
+    },
+    {
+     "text": "led to the generators that give us electric power",
+     "misconception": "other"
+    },
+    {
+     "text": "led to X-ray machines and cancer treatment",
+     "misconception": "other"
+    },
+    {
+     "text": "cures many infections caused by bacteria",
+     "misconception": "other"
+    },
+    {
+     "text": "made travel by air possible",
+     "misconception": "other"
+    },
+    {
+     "text": "lets a heart test be sent to a doctor far away",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is what a different discovery does."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "p2-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "scientists"
+   ],
+   "order": "asc",
+   "vars": {
+    "k": {
+     "sample": [
+      "[0, 1, 2, 3, 4, 5]",
+      4
+     ]
+    }
+   },
+   "prompt": "Put these discoveries in order, from the oldest to the newest.",
+   "items": [
+    {
+     "text": "{['Isaac Newton: the laws of motion and gravity', 'Alexander Graham Bell: the telephone', 'Michael Faraday: how to make electricity with magnets (the dynamo)', 'Marie Curie: radioactivity (with radium and polonium)', 'Alexander Fleming: penicillin (the first antibiotic)', 'the Wright brothers: the first powered aeroplane flight'][k[0]]}",
+     "key": "[1687, 1876, 1831, 1898, 1928, 1903][k[0]]"
+    },
+    {
+     "text": "{['Isaac Newton: the laws of motion and gravity', 'Alexander Graham Bell: the telephone', 'Michael Faraday: how to make electricity with magnets (the dynamo)', 'Marie Curie: radioactivity (with radium and polonium)', 'Alexander Fleming: penicillin (the first antibiotic)', 'the Wright brothers: the first powered aeroplane flight'][k[1]]}",
+     "key": "[1687, 1876, 1831, 1898, 1928, 1903][k[1]]"
+    },
+    {
+     "text": "{['Isaac Newton: the laws of motion and gravity', 'Alexander Graham Bell: the telephone', 'Michael Faraday: how to make electricity with magnets (the dynamo)', 'Marie Curie: radioactivity (with radium and polonium)', 'Alexander Fleming: penicillin (the first antibiotic)', 'the Wright brothers: the first powered aeroplane flight'][k[2]]}",
+     "key": "[1687, 1876, 1831, 1898, 1928, 1903][k[2]]"
+    },
+    {
+     "text": "{['Isaac Newton: the laws of motion and gravity', 'Alexander Graham Bell: the telephone', 'Michael Faraday: how to make electricity with magnets (the dynamo)', 'Marie Curie: radioactivity (with radium and polonium)', 'Alexander Fleming: penicillin (the first antibiotic)', 'the Wright brothers: the first powered aeroplane flight'][k[3]]}",
+     "key": "[1687, 1876, 1831, 1898, 1928, 1903][k[3]]"
+    }
+   ]
+  },
+  {
+   "id": "p2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "scientists"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Alexander Graham Bell made the telephone.",
+      "truth": "true"
+     },
+     {
+      "text": "Alexander Fleming discovered penicillin.",
+      "truth": "true"
+     },
+     {
+      "text": "Michael Faraday showed how to make electricity with magnets.",
+      "truth": "true"
+     },
+     {
+      "text": "Arthur Zang created the Cardiopad.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Isaac Newton made the first aeroplane.",
+      "truth": "false",
+      "explain": "Newton described motion and gravity. The first powered flight was by the Wright brothers."
+     },
+     {
+      "text": "Marie Curie made the telephone.",
+      "truth": "false",
+      "explain": "Marie Curie studied radioactivity. The telephone was made by Bell."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
