@@ -1,0 +1,542 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e6",
+   "name": "Number words"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Numbers in words (British English):\n• One to twenty: one, two, … twelve, thirteen, … nineteen, twenty. Careful: four but forty; nine, nineteen but ninety; twelve.\n• Twenty-one to ninety-nine: the tens and the units are joined with a hyphen: twenty-one, forty-five, ninety-nine.\n• After hundred, say “and”: three hundred and five; two thousand four hundred and five.\n• Ordinal words show position: first, second, third, fourth, fifth, eighth, ninth, twelfth, twentieth, twenty-first.\n• Money: 2500 FCFA is read “two thousand five hundred francs”.\nIn figures, a 4-digit number has no space (2500); bigger numbers have a space between the groups: 12 500.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 2405,
+   "th": 2,
+   "rest": 405
+  },
+  "problem": "Write {n} in words.",
+  "steps": [
+   "Split the number: {th} thousands and {rest}.",
+   "The thousands: {words(th)} thousand.",
+   "The rest: {rest} is {words(rest)}. After hundred we say “and”.",
+   "Put them together, with no commas."
+  ],
+  "answer": "{words(n)}",
+  "checks": [
+   "th * 1000 + rest == n",
+   "words(n) == 'two thousand four hundred and five'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Learn the tricky spellings: four but forty; nine and nineteen but ninety; twelve; eight, eighteen, eighty.",
+    "vars": {},
+    "example": [
+     "{words(4)}, {words(14)}, {words(40)}",
+     "{words(9)}, {words(19)}, {words(90)}",
+     "{words(12)}, {words(18)}, {words(80)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c6-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "number-words"
+     ],
+     "show": 3,
+     "vars": {
+      "x": {
+       "pick": [
+        {
+         "n": 40,
+         "w": [
+          "fourty",
+          "forthy"
+         ]
+        },
+        {
+         "n": 19,
+         "w": [
+          "ninteen",
+          "nineteenn"
+         ]
+        },
+        {
+         "n": 90,
+         "w": [
+          "ninty",
+          "ninetty"
+         ]
+        },
+        {
+         "n": 14,
+         "w": [
+          "forteen",
+          "fourtheen"
+         ]
+        },
+        {
+         "n": 18,
+         "w": [
+          "eightteen",
+          "eigteen"
+         ]
+        },
+        {
+         "n": 80,
+         "w": [
+          "eigthy",
+          "eightty"
+         ]
+        },
+        {
+         "n": 12,
+         "w": [
+          "twelf",
+          "twelv"
+         ]
+        },
+        {
+         "n": 15,
+         "w": [
+          "fiveteen",
+          "fivteen"
+         ]
+        },
+        {
+         "n": 50,
+         "w": [
+          "fivety",
+          "fiffty"
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Which is {x.n} in words?",
+     "correct": "{words(x.n)}",
+     "distractors": [
+      {
+       "text": "{x.w[0]}",
+       "misconception": "letters"
+      },
+      {
+       "text": "{x.w[1]}",
+       "misconception": "letters"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "letters",
+       "explain": "Not quite. Check the tricky letters: four → forty, nine → ninety."
+      }
+     ],
+     "solution": [
+      "{x.n} is written “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "From twenty-one to ninety-nine, join the tens and the units with a hyphen. After hundred, say “and”.",
+    "vars": {},
+    "example": [
+     "{words(21)}, {words(45)}, {words(99)}",
+     "{words(305)}",
+     "{words(1948)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e6-words"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Ordinal words tell the position: first, second, third… Most add -th, but learn the special ones.",
+    "vars": {},
+    "example": [
+     "{ordinalWords(words(1))}, {ordinalWords(words(2))}, {ordinalWords(words(3))}, {ordinalWords(words(5))}",
+     "{ordinalWords(words(8))}, {ordinalWords(words(9))}, {ordinalWords(words(12))}",
+     "{ordinalWords(words(20))}, {ordinalWords(words(21))}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e6-ordinal"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e6-words",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "number-words"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      21,
+      999
+     ]
+    }
+   },
+   "where": "n % 10 != 0",
+   "prompt": "Write the number in words.",
+   "text": "{n} = ___",
+   "answer": "words(n)",
+   "accept": [
+    "replaceFirst(words(n), 'one hundred', 'a hundred')"
+   ],
+   "misconceptions": [
+    {
+     "id": "no-hyphen",
+     "wrong": "noHyphen(words(n))",
+     "explain": "From twenty-one to ninety-nine, join the tens and the units with a hyphen (-)."
+    },
+    {
+     "id": "no-and",
+     "wrong": "without(words(n), ' and')",
+     "explain": "In British English we say “and” after hundred: three hundred and five."
+    },
+    {
+     "id": "fourty",
+     "wrong": "replaceFirst(words(n), 'forty', 'fourty')",
+     "explain": "Four has a u, but forty has none: forty."
+    }
+   ]
+  },
+  {
+   "id": "e6-figures",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "number-words"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      21,
+      999
+     ]
+    }
+   },
+   "prompt": "Write the number in figures.",
+   "text": "{words(n)} = ___",
+   "answer": "'' + n",
+   "accept": [
+    "numberVariants(n)"
+   ]
+  },
+  {
+   "id": "e6-ordinal",
+   "type": "matching",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "number-words"
+   ],
+   "pick": 4,
+   "prompt": "Match each position with its word.",
+   "pool": [
+    {
+     "left": "{ordinal(1)}",
+     "right": "{ordinalWords(words(1))}"
+    },
+    {
+     "left": "{ordinal(2)}",
+     "right": "{ordinalWords(words(2))}"
+    },
+    {
+     "left": "{ordinal(3)}",
+     "right": "{ordinalWords(words(3))}"
+    },
+    {
+     "left": "{ordinal(4)}",
+     "right": "{ordinalWords(words(4))}"
+    },
+    {
+     "left": "{ordinal(5)}",
+     "right": "{ordinalWords(words(5))}"
+    },
+    {
+     "left": "{ordinal(8)}",
+     "right": "{ordinalWords(words(8))}"
+    },
+    {
+     "left": "{ordinal(9)}",
+     "right": "{ordinalWords(words(9))}"
+    },
+    {
+     "left": "{ordinal(12)}",
+     "right": "{ordinalWords(words(12))}"
+    },
+    {
+     "left": "{ordinal(20)}",
+     "right": "{ordinalWords(words(20))}"
+    },
+    {
+     "left": "{ordinal(21)}",
+     "right": "{ordinalWords(words(21))}"
+    },
+    {
+     "left": "{ordinal(30)}",
+     "right": "{ordinalWords(words(30))}"
+    },
+    {
+     "left": "{ordinal(40)}",
+     "right": "{ordinalWords(words(40))}"
+    },
+    {
+     "left": "{ordinal(50)}",
+     "right": "{ordinalWords(words(50))}"
+    }
+   ]
+  },
+  {
+   "id": "e6-spelling",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "number-words"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "right": "forty",
+       "w": [
+        "fourty",
+        "fortey",
+        "forthy"
+       ]
+      },
+      {
+       "right": "nineteen",
+       "w": [
+        "ninteen",
+        "nineteenn",
+        "ninetteen"
+       ]
+      },
+      {
+       "right": "ninety",
+       "w": [
+        "ninty",
+        "ninetie",
+        "nintey"
+       ]
+      },
+      {
+       "right": "twelfth",
+       "w": [
+        "twelveth",
+        "twelth",
+        "twelvth"
+       ]
+      },
+      {
+       "right": "eighth",
+       "w": [
+        "eightth",
+        "eigth",
+        "eighthe"
+       ]
+      },
+      {
+       "right": "ninth",
+       "w": [
+        "nineth",
+        "nienth",
+        "ninthe"
+       ]
+      },
+      {
+       "right": "fourteen",
+       "w": [
+        "forteen",
+        "fourtenn",
+        "fourtheen"
+       ]
+      },
+      {
+       "right": "eighteen",
+       "w": [
+        "eightteen",
+        "eigteen",
+        "eighteenn"
+       ]
+      },
+      {
+       "right": "thousand",
+       "w": [
+        "thousend",
+        "tousand",
+        "thowsand"
+       ]
+      },
+      {
+       "right": "hundred",
+       "w": [
+        "hundered",
+        "hunderd",
+        "hundread"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Which number word is spelt correctly?",
+   "correct": "{x.right}",
+   "distractors": [
+    {
+     "text": "{x.w[0]}",
+     "misconception": "letters"
+    },
+    {
+     "text": "{x.w[1]}",
+     "misconception": "letters"
+    },
+    {
+     "text": "{x.w[2]}",
+     "misconception": "letters"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "letters",
+     "explain": "Not quite. Say the word slowly and check each letter."
+    }
+   ],
+   "solution": [
+    "The correct spelling is “{answer}”."
+   ]
+  },
+  {
+   "id": "e6-price",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "number-words"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      1000,
+      9500
+     ],
+     "step": 500
+    },
+    "it": {
+     "pick": [
+      "a bag of rice",
+      "a basin of tomatoes",
+      "a pair of sandals",
+      "a school bag"
+     ]
+    }
+   },
+   "prompt": "Write the price in figures.",
+   "text": "Ndi paid {words(n)} francs for {it}. In figures: ___ FCFA",
+   "answer": "'' + n",
+   "accept": [
+    "numberVariants(n)"
+   ]
+  },
+  {
+   "id": "e6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "number-words"
+   ],
+   "vars": {
+    "c": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "h": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "a": {
+     "int": [
+      21,
+      99
+     ]
+    },
+    "b": {
+     "int": [
+      101,
+      999
+     ]
+    }
+   },
+   "where": "a % 10 != 0 && b % 100 != 0",
+   "prompt": "One line is written wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "{c} = {words(c)}",
+      "truth": "true"
+     },
+     {
+      "text": "{10 * m} = {words(10 * m)}",
+      "truth": "true"
+     },
+     {
+      "text": "{100 * h} = {words(100 * h)}",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "{a} = {noHyphen(words(a))}",
+      "truth": "noHyphen(words(a)) == words(a)",
+      "explain": "From twenty-one to ninety-nine, use a hyphen: {words(a)}."
+     },
+     {
+      "text": "{b} = {without(words(b), ' and')}",
+      "truth": "without(words(b), ' and') == words(b)",
+      "explain": "In British English, say “and” after hundred: {words(b)}."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

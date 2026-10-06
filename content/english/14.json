@@ -1,0 +1,560 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "e14",
+   "name": "Forming new words: conversion and compounding"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We can make new words from old ones.\nCompounding: join two words to make a new word: foot + ball → football; air + port → airport; motor + bike → motorbike; rail + way → railway; bus + stop → bus stop; taxi + driver → taxi driver.\nSome compounds are written as one word (airport), some as two words (bus stop), and a few with a hyphen (mother-in-law). A dictionary tells you which.\nConversion: the same word changes its job in the sentence, but its spelling does not change.\n• “We walk to school.” (walk is a verb: an action.)\n• “It is a long walk to school.” (walk is a noun: a thing; it can take a or the.)\nOther examples: drink, ride, text, phone, park, water.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "bus",
+   "b": "stop",
+   "c": "rail",
+   "d": "way",
+   "w": "ride"
+  },
+  "problem": "Make compound words from {a} + {b} and {c} + {d}. Then use “{w}” as a verb and as a noun.",
+  "steps": [
+   "{a} + {b} → {a} {b}: this compound is written as two words.",
+   "{c} + {d} → {c}{d}: this compound is written as one word.",
+   "As a verb (an action): “Ayuk can {w} a motorbike.”",
+   "As a noun (a thing, after a or the): “The {w} to Buea was bumpy.”"
+  ],
+  "answer": "{a} {b}, {c}{d}; “Ayuk can {w} …” (verb), “The {w} …” (noun).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "Compounding: join two words to make a new word with a new meaning.",
+    "vars": {},
+    "example": [
+     "air + port → airport (where planes land)",
+     "class + room → classroom"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e14-match"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Some compounds are one word, some are two words. Learn them, or check a dictionary.",
+    "vars": {},
+    "example": [
+     "One word: football, airport, motorbike, railway.",
+     "Two words: bus stop, car park, taxi driver."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e14-written"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Conversion: the same word can be a verb (an action) or a noun (a thing), with no change in spelling.",
+    "vars": {},
+    "example": [
+     "“Text me.” — text is a verb.",
+     "“I got a text.” — text is a noun."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e14-class"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e14-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "pick": 4,
+   "prompt": "Match the two halves of each compound word.",
+   "pool": [
+    {
+     "left": "air",
+     "right": "port"
+    },
+    {
+     "left": "class",
+     "right": "room"
+    },
+    {
+     "left": "black",
+     "right": "board"
+    },
+    {
+     "left": "round",
+     "right": "about"
+    },
+    {
+     "left": "motor",
+     "right": "bike"
+    }
+   ]
+  },
+  {
+   "id": "e14-written",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "show": 3,
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "a": "foot",
+       "b": "ball",
+       "f": "football"
+      },
+      {
+       "a": "air",
+       "b": "port",
+       "f": "airport"
+      },
+      {
+       "a": "rail",
+       "b": "way",
+       "f": "railway"
+      },
+      {
+       "a": "motor",
+       "b": "bike",
+       "f": "motorbike"
+      },
+      {
+       "a": "class",
+       "b": "room",
+       "f": "classroom"
+      },
+      {
+       "a": "tooth",
+       "b": "brush",
+       "f": "toothbrush"
+      },
+      {
+       "a": "black",
+       "b": "board",
+       "f": "blackboard"
+      },
+      {
+       "a": "round",
+       "b": "about",
+       "f": "roundabout"
+      },
+      {
+       "a": "foot",
+       "b": "path",
+       "f": "footpath"
+      },
+      {
+       "a": "bus",
+       "b": "stop",
+       "f": "bus stop"
+      },
+      {
+       "a": "car",
+       "b": "park",
+       "f": "car park"
+      },
+      {
+       "a": "road",
+       "b": "sign",
+       "f": "road sign"
+      },
+      {
+       "a": "taxi",
+       "b": "driver",
+       "f": "taxi driver"
+      },
+      {
+       "a": "traffic",
+       "b": "light",
+       "f": "traffic light"
+      }
+     ]
+    }
+   },
+   "prompt": "Which is written correctly?",
+   "correct": "{x.f}",
+   "distractors": [
+    {
+     "text": "{x.a}{x.b}",
+     "misconception": "form"
+    },
+    {
+     "text": "{x.a} {x.b}",
+     "misconception": "form"
+    },
+    {
+     "text": "{x.a}-{x.b}",
+     "misconception": "form"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "form",
+     "explain": "This compound is written {x.f == x.a + x.b ? 'as one word' : 'as two words'}."
+    }
+   ],
+   "solution": [
+    "{x.a} + {x.b} is written {x.f == x.a + x.b ? 'as one word' : 'as two words'}: {answer}."
+   ]
+  },
+  {
+   "id": "e14-class",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "show": 2,
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "s": "Please water the flowers.",
+       "w": "water",
+       "c": "verb"
+      },
+      {
+       "s": "Bring me a cup of water.",
+       "w": "water",
+       "c": "noun"
+      },
+      {
+       "s": "We walk to school.",
+       "w": "walk",
+       "c": "verb"
+      },
+      {
+       "s": "It is a long walk to school.",
+       "w": "walk",
+       "c": "noun"
+      },
+      {
+       "s": "Text me when you arrive.",
+       "w": "text",
+       "c": "verb"
+      },
+      {
+       "s": "I got a text from Bih.",
+       "w": "text",
+       "c": "noun"
+      },
+      {
+       "s": "Ayuk can ride a motorbike.",
+       "w": "ride",
+       "c": "verb"
+      },
+      {
+       "s": "The ride to Buea was bumpy.",
+       "w": "ride",
+       "c": "noun"
+      },
+      {
+       "s": "Park the car under the tree.",
+       "w": "park",
+       "c": "verb"
+      },
+      {
+       "s": "The children play in the park.",
+       "w": "park",
+       "c": "noun"
+      },
+      {
+       "s": "My uncle will phone us tonight.",
+       "w": "phone",
+       "c": "verb"
+      },
+      {
+       "s": "Mother's phone is ringing.",
+       "w": "phone",
+       "c": "noun"
+      },
+      {
+       "s": "I want a cold drink.",
+       "w": "drink",
+       "c": "noun"
+      },
+      {
+       "s": "We ate fish and plantains.",
+       "w": "fish",
+       "c": "noun"
+      }
+     ]
+    }
+   },
+   "prompt": "In the sentence “{x.s}”, the word “{x.w}” is a:",
+   "correct": "{x.c}",
+   "distractors": [
+    {
+     "text": "noun",
+     "misconception": "noun"
+    },
+    {
+     "text": "verb",
+     "misconception": "verb"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "noun",
+     "explain": "Here “{x.w}” is an action: who does it? It is a verb."
+    },
+    {
+     "id": "verb",
+     "explain": "Here “{x.w}” names a thing: it can take a, the or some. It is a noun."
+    }
+   ],
+   "solution": [
+    "In “{x.s}”, “{x.w}” {x.c == 'verb' ? 'is an action' : 'names a thing'}: it is a {answer}."
+   ]
+  },
+  {
+   "id": "e14-join",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "a": "foot",
+       "b": "ball",
+       "f": "football"
+      },
+      {
+       "a": "air",
+       "b": "port",
+       "f": "airport"
+      },
+      {
+       "a": "rail",
+       "b": "way",
+       "f": "railway"
+      },
+      {
+       "a": "motor",
+       "b": "bike",
+       "f": "motorbike"
+      },
+      {
+       "a": "class",
+       "b": "room",
+       "f": "classroom"
+      },
+      {
+       "a": "tooth",
+       "b": "brush",
+       "f": "toothbrush"
+      },
+      {
+       "a": "black",
+       "b": "board",
+       "f": "blackboard"
+      },
+      {
+       "a": "round",
+       "b": "about",
+       "f": "roundabout"
+      },
+      {
+       "a": "foot",
+       "b": "path",
+       "f": "footpath"
+      },
+      {
+       "a": "bus",
+       "b": "stop",
+       "f": "bus stop"
+      },
+      {
+       "a": "car",
+       "b": "park",
+       "f": "car park"
+      },
+      {
+       "a": "road",
+       "b": "sign",
+       "f": "road sign"
+      },
+      {
+       "a": "taxi",
+       "b": "driver",
+       "f": "taxi driver"
+      },
+      {
+       "a": "traffic",
+       "b": "light",
+       "f": "traffic light"
+      }
+     ]
+    }
+   },
+   "prompt": "Join the two words to make a compound word.",
+   "text": "{x.a} + {x.b} → ___",
+   "answer": "x.f",
+   "misconceptions": [
+    {
+     "id": "form",
+     "wrong": [
+      "x.a + x.b",
+      "x.a + ' ' + x.b",
+      "x.a + '-' + x.b"
+     ],
+     "explain": "Right words, but this compound is written {x.f == x.a + x.b ? 'as one word' : 'as two words'}."
+    }
+   ]
+  },
+  {
+   "id": "e14-convert",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "v": "We walk to school.",
+       "n": "It is a long ___ to school.",
+       "w": "walk"
+      },
+      {
+       "v": "Text me tonight.",
+       "n": "Bih sent me a ___.",
+       "w": "text"
+      },
+      {
+       "v": "Can you ride a bicycle?",
+       "n": "The ___ to Kumba took two hours.",
+       "w": "ride"
+      },
+      {
+       "v": "Let us drink some water.",
+       "n": "I would like a cold ___.",
+       "w": "drink"
+      },
+      {
+       "v": "Please phone your mother.",
+       "n": "My ___ is in my bag.",
+       "w": "phone"
+      },
+      {
+       "v": "Park the car here.",
+       "n": "We played football in the ___.",
+       "w": "park"
+      }
+     ]
+    }
+   },
+   "prompt": "The first sentence uses a verb. Use the same word as a noun in the second sentence.",
+   "text": "{x.v} → {x.n}",
+   "answer": "x.w",
+   "misconceptions": [
+    {
+     "id": "changed",
+     "wrong": [
+      "x.w + 's'",
+      "x.w + 'ing'"
+     ],
+     "explain": "In conversion the spelling does not change: the noun is “{x.w}”."
+    }
+   ]
+  },
+  {
+   "id": "e14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "compounds"
+   ],
+   "vars": {},
+   "prompt": "One sentence has a compound word written wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wear your seat belt in the taxi.",
+      "truth": "true"
+     },
+     {
+      "text": "The football match starts after lunch.",
+      "truth": "true"
+     },
+     {
+      "text": "We waited at the bus stop for an hour.",
+      "truth": "true"
+     },
+     {
+      "text": "The plane landed at the airport.",
+      "truth": "true"
+     },
+     {
+      "text": "Turn left at the roundabout.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "We waited at the busstop.",
+      "truth": "false",
+      "explain": "Bus stop is written as two words."
+     },
+     {
+      "text": "The plane landed at the air port.",
+      "truth": "false",
+      "explain": "Airport is written as one word."
+     },
+     {
+      "text": "Ayuk rides a motor bike to school.",
+      "truth": "false",
+      "explain": "Motorbike is written as one word."
+     },
+     {
+      "text": "The taxidriver stopped at the market.",
+      "truth": "false",
+      "explain": "Taxi driver is written as two words."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,5 +1,6 @@
-// Builds tools/prototype/maths.html: one self-contained file (engine + content + UI), works offline.
-// Lesson 0 (readiness) and Lessons 1–16, with progress saved in the browser.
+// Builds tools/prototype/form1.html: one self-contained file (engine + content + UI), works offline.
+// Maths: Lesson 0 (readiness) and Lessons 1–16. English: Batch E1 (Lessons 1–16, speech work left out).
+// Progress is saved in the browser.
 //   node tools/prototype/build.mjs
 // The engine modules are inlined unchanged except for import/export lines, so the prototype runs
 // exactly the code the tests cover.
@@ -8,9 +9,13 @@ import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
-const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
-const MAX_BYTES = 256 * 1024;  // was 120 KB for Lesson 3 alone (2026-10-03); all 16 lessons added 2026-10-05
-const LESSONS = Array.from({ length: 16 }, (_, i) => i + 1);
+const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
+// 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
+// The Phase 3 budget for the whole app is 2 MB.
+const MAX_BYTES = 448 * 1024;
+const SUBJECTS = { maths: "Maths", english: "English" };
+const SPINE = { maths: "mathematics", english: "english-language" };
+const BATCH = Array.from({ length: 16 }, (_, i) => i + 1);
 
 function bundleModule(path) {
   const src = read(`src/engine/${path}`);
@@ -29,13 +34,22 @@ function bundleModule(path) {
   return `__mods[${JSON.stringify(path)}] = (() => {\n${code}\nreturn { ${exports.join(", ")} };\n})();`;
 }
 
-const spine = JSON.parse(read("data/spine/mathematics.json"));
 // Display only (the spine keeps the sheet's text): "Number bases :Convert" → "Number bases: Convert",
-// "Line segment.- Midpoint" → "Line segment: Midpoint".
-const tidy = (t) => t.replace(/\s*\.?\s*-\s+/g, ": ").replace(/\s*:\s*/g, ": ").replace(/\s+/g, " ").trim();
-const titles = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => l.kind === "lesson" && l.lesson_no <= 16).map((l) => [l.lesson_no, tidy(l.title)]));
-const content = Object.fromEntries([0, ...LESSONS].map((n) => [n, JSON.parse(read(`content/maths/${n}.json`))]));
-for (const n of LESSONS) if (!titles[n]) throw new Error(`no spine title for Lesson ${n}`);
+// "Line segment.- Midpoint" → "Line segment: Midpoint", "Vocabulary-countable …;" → "Vocabulary: countable …".
+const tidy = (t) => t
+  .replace(/^(Speaking|Reading|Writing|Vocabulary|Grammar|Listening)\s*[-:]?\s*/, "$1: ")
+  .replace(/\s*\.?\s*-\s+/g, ": ").replace(/\s*:\s*/g, ": ").replace(/[;\s]+$/, "").replace(/\s+/g, " ").trim();
+const titles = {}, content = {}, lessons = {};
+for (const s of Object.keys(SUBJECTS)) {
+  const spine = JSON.parse(read(`data/spine/${SPINE[s]}.json`));
+  titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => l.kind === "lesson" && l.lesson_no <= 16).map((l) => [l.lesson_no, tidy(l.title)]));
+  const all = Object.fromEntries((s === "maths" ? [0, ...BATCH] : BATCH).map((n) => [n, JSON.parse(read(`content/${s}/${n}.json`))]));
+  // Deferred lessons (speech work: needs audio) are not shipped at all: hidden from the pupil (TR-E22).
+  content[s] = Object.fromEntries(Object.entries(all).filter(([, l]) => l.status !== "deferred"));
+  lessons[s] = BATCH.filter((n) => content[s][n]);
+  titles[s] = Object.fromEntries(Object.entries(titles[s]).filter(([n]) => content[s][n]));
+  for (const n of lessons[s]) if (!titles[s][n]) throw new Error(`no spine title for ${s} Lesson ${n}`);
+}
 const build = new Date().toISOString().slice(0, 10);
 const safeJson = (x) => JSON.stringify(x).replace(/</g, "\\u003c");
 
@@ -97,6 +111,40 @@ textarea { font-size: .8rem; font-family: ui-monospace, Menlo, Consolas, monospa
 @keyframes burst { 0% { opacity: 1; transform: translate(0, 0) rotate(0); }
   80% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 140px)) rotate(var(--r)); } }
 details.grownup { margin-top: 12px; } details.grownup summary { min-height: 48px; display: flex; align-items: center; cursor: pointer; color: var(--muted); }
+.pre, .prompt { white-space: pre-line; }
+/* subjects */
+.subjects { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 0 0 14px; }
+button.subject { margin: 0; text-align: center; font-weight: 700; }
+button.subject.on { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+button:disabled { opacity: .45; cursor: default; box-shadow: none; }
+/* cloze: the blank sits inside the sentence */
+.sentence { font-size: 1.2rem; line-height: 2.1; margin: 0 0 14px; overflow-wrap: anywhere; }
+.blank { display: inline-block; min-width: 4.5em; border-bottom: 3px dotted var(--accent); line-height: 1.2; }
+input.blank-input { display: inline-block; width: 9em; max-width: 100%; min-height: 48px; padding: 6px 10px; font-size: 1.15rem; vertical-align: middle; }
+/* word tiles (word order, sorting): tap, never drag */
+.tiles { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+button.tile { display: inline-flex; align-items: center; justify-content: center; width: auto; min-width: 48px; min-height: 48px; margin: 0; padding: 8px 14px; text-align: center; }
+button.tile.placed { background: var(--soft); border-color: var(--accent); animation: pop 160ms ease-out; }
+button.tile.picked, button.match.picked { outline: 3px solid var(--accent); outline-offset: 1px; background: var(--good-bg); }
+@keyframes pop { from { transform: scale(.85); } to { transform: none; } }
+.built { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-height: 64px; padding: 8px; margin: 8px 0 12px;
+  border: 1.5px dashed var(--idk-border); border-radius: 12px; }
+.built .end { font-size: 1.4rem; font-weight: 700; padding: 0 2px; }
+/* matching: two columns at 360px, words wrap */
+.match-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0; }
+.match-cols .col { display: flex; flex-direction: column; gap: 8px; }
+button.match { display: flex; gap: 8px; align-items: center; margin: 0; min-height: 48px; padding: 8px 10px; font-size: 1rem; overflow-wrap: anywhere; }
+button.match.paired { background: var(--soft); border-color: var(--accent); }
+button.match.ready { border-style: dashed; border-color: var(--accent); }
+.badge { flex: none; display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--accent);
+  color: var(--accent-fg); font-size: .85rem; font-weight: 700; }
+.group { border: 1.5px solid var(--line); border-radius: 12px; padding: 10px; margin-top: 10px; min-height: 76px; background: var(--card); cursor: pointer; }
+.group.ready { border-style: dashed; border-color: var(--accent); }
+.group-name { font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 700; }
+/* paper task self-check */
+.ticks { margin: 8px 0 12px; }
+label.tickrow { display: flex; gap: 12px; align-items: center; min-height: 48px; padding: 6px 2px; border-bottom: 1px solid var(--line); cursor: pointer; }
+label.tickrow input { flex: none; width: 28px; height: 28px; min-height: 0; margin: 0; padding: 0; accent-color: var(--accent); }
 .areas { padding-left: 1.2em; } .areas .weak { color: var(--bad); font-weight: 600; }
 .lessons { margin: 14px 0; }
 button.lesson { display: flex; gap: 12px; align-items: center; margin-top: 8px; }
@@ -118,7 +166,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Form One Maths</title>
+<title>Form One Lessons</title>
 <style>${css}</style>
 </head>
 <body>
@@ -127,10 +175,12 @@ const html = `<!doctype html>
 "use strict";
 const __mods = {};
 ${ENGINE.map(bundleModule).join("\n")}
-const ENGINE = { lib: __mods["lib/maths.js"], template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
+const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] } },
+  template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${safeJson(content)};
 const TITLES = ${safeJson(titles)};
-const LESSONS = ${safeJson(LESSONS)};
+const LESSONS = ${safeJson(lessons)};
+const SUBJECTS = ${safeJson(SUBJECTS)};
 const BUILD = ${JSON.stringify(build)};
 ${read("tools/prototype/app.js")}
 </script>
@@ -140,5 +190,5 @@ ${read("tools/prototype/app.js")}
 
 const bytes = Buffer.byteLength(html, "utf8");
 if (bytes > MAX_BYTES) throw new Error(`prototype is ${bytes} bytes, over the ${MAX_BYTES} limit`);
-writeFileSync(new URL("tools/prototype/maths.html", ROOT), html, "utf8");
-console.log(`wrote tools/prototype/maths.html (${(bytes / 1024).toFixed(1)} KB, limit ${MAX_BYTES / 1024} KB)`);
+writeFileSync(new URL("tools/prototype/form1.html", ROOT), html, "utf8");
+console.log(`wrote tools/prototype/form1.html (${(bytes / 1024).toFixed(1)} KB, limit ${MAX_BYTES / 1024} KB)`);

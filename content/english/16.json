@@ -1,0 +1,282 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  2,
+  6
+ ],
+ "skills": [
+  {
+   "id": "e16",
+   "name": "Filling in forms; invitations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A form asks for information on lines or in boxes. Read each label before you write.\n• Surname (family name) and first name. “In BLOCK LETTERS” means in capital letters: EBAI.\n• Date of birth: day, month, year: 14/05/2014 or 14 May 2014.\n• Place of birth, address, class, phone number.\n• Signature: your own way of writing your name, always the same.\nWrite clearly, do not leave a line empty (write “None” if it does not apply), and check everything before you sign.\nAn invitation tells: who is invited, what the event is, when (day and time), where, and how to reply. Example: “Dear Mih, please come to my birthday party on Saturday at three o'clock at our house. Please reply by Thursday. Your friend, Bih.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "first": "Manyi",
+   "sur": "Ebai",
+   "d": 14,
+   "m": 5,
+   "y": 2014,
+   "place": "Mamfe"
+  },
+  "problem": "{first} {sur} fills in the form for a library card. The form asks for: Surname (in BLOCK LETTERS), First name, Date of birth (dd/mm/yyyy), Place of birth. She was born in {place} on {d} {monthName(m)} {y}.",
+  "steps": [
+   "Surname (in BLOCK LETTERS): {upperAll(sur)}",
+   "First name: {first}",
+   "Date of birth (dd/mm/yyyy): day first, then month, then year: {ddmmyyyy(d, m, y)}",
+   "Place of birth: {place}"
+  ],
+  "answer": "{upperAll(sur)} · {first} · {ddmmyyyy(d, m, y)} · {place}",
+  "checks": [
+   "ddmmyyyy(d, m, y) == '14/05/2014'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "Read each label on a form and write the right information next to it. “BLOCK LETTERS” means capital letters.",
+    "vars": {
+     "first": "Manyi",
+     "sur": "Ebai"
+    },
+    "example": [
+     "Surname (in BLOCK LETTERS): {upperAll(sur)}",
+     "First name: {first}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c16-1-check",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "forms"
+     ],
+     "pick": 4,
+     "prompt": "Manyi Ebai, from Mamfe, is in Form One. Match each label on her form with what she writes.",
+     "pool": [
+      {
+       "left": "Surname (in BLOCK LETTERS)",
+       "right": "EBAI"
+      },
+      {
+       "left": "First name",
+       "right": "Manyi"
+      },
+      {
+       "left": "Date of birth",
+       "right": "14/05/2014"
+      },
+      {
+       "left": "Place of birth",
+       "right": "Mamfe"
+      },
+      {
+       "left": "Class",
+       "right": "Form One"
+      }
+     ]
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Dates on forms: day, then month, then year (dd/mm/yyyy).",
+    "vars": {
+     "d": 14,
+     "m": 5,
+     "y": 2014
+    },
+    "example": [
+     "Born on {d} {monthName(m)} {y} → {ddmmyyyy(d, m, y)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c16-2-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "forms"
+     ],
+     "show": 3,
+     "vars": {
+      "n": {
+       "pick": [
+        "Bih",
+        "Ayuk",
+        "Ndi",
+        "Ewane"
+       ]
+      },
+      "d": {
+       "int": [
+        13,
+        28
+       ]
+      },
+      "m": {
+       "int": [
+        1,
+        12
+       ]
+      },
+      "y": {
+       "int": [
+        2012,
+        2015
+       ]
+      }
+     },
+     "prompt": "Choose the date written the right way.",
+     "text": "{n} was born on {d} {monthName(m)} {y}. Date of birth (dd/mm/yyyy): ___",
+     "answer": "ddmmyyyy(d, m, y)",
+     "choices": [
+      {
+       "text": "{mmddyyyy(d, m, y)}",
+       "misconception": "us"
+      },
+      {
+       "text": "{yyyymmdd(d, m, y)}",
+       "misconception": "year"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "us",
+       "explain": "That puts the month first. dd/mm/yyyy means day, then month, then year."
+      },
+      {
+       "id": "year",
+       "explain": "That puts the year first. dd/mm/yyyy means day, then month, then year."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "An invitation tells who is invited, what the event is, when, where, and how to reply.",
+    "vars": {},
+    "example": [
+     "Dear Mih, please come to my birthday party on Saturday at three o'clock at our house. Please reply by Thursday. Your friend, Bih."
+    ],
+    "checks": [],
+    "check": {
+     "id": "c16-3-check",
+     "type": "matching",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "forms"
+     ],
+     "pick": 4,
+     "vars": {
+      "who": {
+       "pick": [
+        "Mih",
+        "Tabe",
+        "Ashu",
+        "Akwen"
+       ]
+      },
+      "ev": {
+       "pick": [
+        "birthday party",
+        "end-of-year party",
+        "football match",
+        "reading club meeting"
+       ]
+      },
+      "day": {
+       "pick": [
+        "Saturday",
+        "Sunday",
+        "Friday"
+       ]
+      },
+      "time": {
+       "pick": [
+        "three o'clock",
+        "four o'clock",
+        "two o'clock"
+       ]
+      },
+      "place": {
+       "pick": [
+        "our house in Small Mankon",
+        "the school hall",
+        "the school field",
+        "my aunt's house in Molyko"
+       ]
+      }
+     },
+     "prompt": "Dear {who},\nPlease come to my {ev} on {day} at {time}, at {place}. Please reply by Thursday.\nYour friend,\nBih\n\nMatch each question with the answer from the invitation.",
+     "pool": [
+      {
+       "left": "Who is invited?",
+       "right": "{who}"
+      },
+      {
+       "left": "What is the event?",
+       "right": "{withArticle(ev)}"
+      },
+      {
+       "left": "When is it?",
+       "right": "{day} at {time}"
+      },
+      {
+       "left": "Where is it?",
+       "right": "{place}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [],
+ "paper_task": {
+  "status": "draft",
+  "vars": {
+   "first": "Manyi",
+   "sur": "Ebai",
+   "d": 14,
+   "m": 5,
+   "y": 2014,
+   "place": "Mamfe",
+   "guardian": "Mrs Ebai"
+  },
+  "prompt": "In your exercise book, copy this form and fill it in for yourself: Surname (in BLOCK LETTERS) · First name · Date of birth (dd/mm/yyyy) · Place of birth · Class · Name of parent or guardian · Signature. Then write a short invitation to a friend for a party or a match.",
+  "model": [
+   "Surname (in BLOCK LETTERS): {upperAll(sur)}",
+   "First name: {first}",
+   "Date of birth (dd/mm/yyyy): {ddmmyyyy(d, m, y)}",
+   "Place of birth: {place}",
+   "Class: Form One",
+   "Name of parent or guardian: {guardian}",
+   "Signature: M. {sur}",
+   "Dear Akwen, please come to my birthday party on Saturday at three o'clock at our house in Mamfe. Please reply by Thursday. Your friend, {first}."
+  ],
+  "checklist": [
+   "My surname is in BLOCK LETTERS.",
+   "My date of birth is day, then month, then year.",
+   "No line is empty.",
+   "My signature is the way I always sign.",
+   "My invitation says who, what, when and where.",
+   "My invitation asks my friend to reply.",
+   "I checked my capital letters and spelling."
+  ],
+  "checks": []
+ }
+}

@@ -1,7 +1,7 @@
-# Psalms Preps: Form 1 Maths (offline)
+# Psalms Preps: Form 1 Maths and English (offline)
 
 An offline-first learning app for Cameroonian secondary students (English sub-system), starting with
-Form 1 Mathematics. It is built for pupils who lose school days, so it **teaches** missed lessons
+Form 1 Mathematics and English. It is built for pupils who lose school days, so it **teaches** missed lessons
 (idea cards, worked examples, practice with full working) instead of only quizzing on them.
 
 ## Try it
@@ -15,11 +15,14 @@ What it does today (prototype):
 
 1. **Getting ready** (first visit only): 13 Primary 6 questions (place value, the four operations, times tables,
    word problems). No right/wrong is shown to the pupil.
-2. **Lessons 1–16** of Form 1 Maths, from a menu with a tick for each lesson done. Each lesson has 3–4 idea cards,
-   a worked example, practice questions (levels 1 to 3) and a summary. A miss gets a fresh question; a second miss
-   shows the full working. A lesson left part-way carries on where it stopped.
+2. **Maths Lessons 1–16 and English Lessons 1–16** (two tabs on the menu, a tick for each lesson done). Each lesson
+   has 3–4 idea cards, a worked example, practice questions (levels 1 to 3) and a summary. A miss gets a fresh
+   question; a second miss shows the full working. A lesson left part-way carries on where it stopped.
+   English adds fill-the-blank, word-order and matching questions (all by tapping), and two writing lessons done on
+   paper with a model answer and a self-check list. The three speech-work lessons (4, 8, 12) need audio and are left
+   out for now.
 3. **Results** for a grown-up: "Copy results" (end of a lesson) or "Copy all results" (menu → For a grown-up) gives
-   the time per answer, "I don't know" use, the readiness areas and the questions to review, ready to paste into WhatsApp.
+   the time per answer, "I don't know" use, the readiness areas, the questions to review and the writing self-check ticks, ready to paste into WhatsApp.
 
 All lessons are drafts until a teacher has reviewed them (`docs/teacher-review.md`).
 
@@ -35,6 +38,7 @@ npm test                              # engine, content (every question across 1
 python -m unittest discover -s tests  # curriculum spine
 npm run build:site                    # builds site/ (what Vercel and GitHub Pages publish)
 npm run review                        # regenerates content/maths/REVIEW.md
+npm run review:english                # regenerates content/english/REVIEW.md and AUTHORED.md
 ```
 
 Every push to `main` runs all the tests and, only if they pass, publishes the site to GitHub Pages
@@ -45,6 +49,7 @@ Every push to `main` runs all the tests and, only if they pass, publishes the si
 | `data/spine/` | Form 1 progression sheets parsed into JSON, approved overrides, `issues.md` |
 | `data/calendar/` | The official school calendar (dates still to be filled in) |
 | `content/maths/` | Lessons 0–16: notes, teach cards, worked examples, question templates (all drafts) |
+| `content/english/` | English Lessons 1–16 (Batch E1, drafts): 11 with practice, 2 paper tasks (writing), 3 speech-work lessons deferred |
 | `src/engine/` | The question engine: answers are always computed by code, never by a person or an AI |
 | `tools/` | Sheet parser, review generators, prototype and site builders |
 | `docs/` | `teacher-review.md` (everything a teacher should check, P1 first) and `phase3-spec.md` |

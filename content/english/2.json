@@ -1,0 +1,511 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2",
+   "name": "Daily-needs words; capital letters and spelling"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Basic daily needs are the things we need every day to live well: food, water, clothing, shelter (a home), soap, sleep and health care.\nUseful words: rice, beans, plantains, bread, oil, salt, soap, toothbrush, toothpaste, bucket, blanket, mattress, sandals, uniform.\nSpelling conventions:\n• Use a capital letter for the names of people and places, for days and months, and for the word I: Ayuk, Bamenda, Monday, October.\n• Start every sentence with a capital letter.\n• Do not use a capital letter for ordinary words in the middle of a sentence: rice, soap, market.\n• Learn words that are often misspelt: Wednesday, February, vegetables, necessary, toothpaste.\n• Clothes are what we wear; cloths are pieces of cloth.\nCheck every word you write. A dictionary can help.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "wrong": "on wensday, my mother bought sope and bred at the market in kumba."
+  },
+  "problem": "Correct the capital letters and the spelling: “{wrong}”",
+  "steps": [
+   "A sentence starts with a capital letter: On.",
+   "Days of the week take a capital letter, and this one is spelt Wednesday.",
+   "Kumba is the name of a town, so it takes a capital letter: Kumba.",
+   "Ordinary words stay small, but check their spelling: soap, bread, market."
+  ],
+  "answer": "On Wednesday, my mother bought soap and bread at the market in Kumba.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "Basic daily needs are things we cannot live well without: food, water, clothing and shelter. Soap, sleep and health care are needs too.",
+    "vars": {},
+    "example": [
+     "Food: rice, beans, plantains, bread.",
+     "Clothing: a shirt, a uniform, sandals.",
+     "Keeping clean: soap, a toothbrush, toothpaste."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-sort"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Names of people and towns, days, months and the word I always start with a capital letter. So does every sentence.",
+    "vars": {},
+    "example": [
+     "Ayuk went to Bamenda on Saturday.",
+     "In October, I buy a new uniform."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-capital"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Some everyday words are often misspelt. Learn them carefully.",
+    "vars": {},
+    "example": [
+     "Wednesday, February, vegetables, necessary, toothpaste",
+     "clothes (what we wear) — cloths (pieces of cloth)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-spelling"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "daily-needs"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "food",
+    "clothing",
+    "keeping clean"
+   ],
+   "prompt": "Sort each word into its group.",
+   "pool": [
+    {
+     "left": "rice",
+     "right": "food"
+    },
+    {
+     "left": "beans",
+     "right": "food"
+    },
+    {
+     "left": "plantains",
+     "right": "food"
+    },
+    {
+     "left": "bread",
+     "right": "food"
+    },
+    {
+     "left": "fish",
+     "right": "food"
+    },
+    {
+     "left": "shirt",
+     "right": "clothing"
+    },
+    {
+     "left": "uniform",
+     "right": "clothing"
+    },
+    {
+     "left": "sandals",
+     "right": "clothing"
+    },
+    {
+     "left": "dress",
+     "right": "clothing"
+    },
+    {
+     "left": "trousers",
+     "right": "clothing"
+    },
+    {
+     "left": "soap",
+     "right": "keeping clean"
+    },
+    {
+     "left": "toothbrush",
+     "right": "keeping clean"
+    },
+    {
+     "left": "toothpaste",
+     "right": "keeping clean"
+    },
+    {
+     "left": "sponge",
+     "right": "keeping clean"
+    }
+   ]
+  },
+  {
+   "id": "e2-capital",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "spelling"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "Ayuk",
+      "Bih",
+      "Ndi",
+      "Ewane",
+      "Manyi"
+     ]
+    },
+    "t": {
+     "pick": [
+      "Bamenda",
+      "Buea",
+      "Kumba",
+      "Limbe",
+      "Mamfe"
+     ]
+    },
+    "d": {
+     "pick": [
+      "Monday",
+      "Tuesday",
+      "Friday",
+      "Saturday"
+     ]
+    },
+    "it": {
+     "pick": [
+      "rice",
+      "soap",
+      "plantains",
+      "salt",
+      "bread"
+     ]
+    },
+    "k": {
+     "pick": [
+      "n",
+      "t",
+      "d"
+     ]
+    }
+   },
+   "prompt": "Which word in this sentence needs a capital letter?\n“{k == 'n' ? lowerAll(n) : n} bought {it} in {k == 't' ? lowerAll(t) : t} on {k == 'd' ? lowerAll(d) : d}.”",
+   "correct": "{k == 'n' ? lowerAll(n) : k == 't' ? lowerAll(t) : lowerAll(d)}",
+   "distractors": [
+    {
+     "text": "{it}",
+     "misconception": "common"
+    },
+    {
+     "text": "bought",
+     "misconception": "verb"
+    },
+    {
+     "text": "on",
+     "misconception": "small"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "common",
+     "explain": "“{it}” is an ordinary word, not a name: no capital letter."
+    },
+    {
+     "id": "verb",
+     "explain": "“bought” is an ordinary word in the middle of the sentence: no capital letter."
+    },
+    {
+     "id": "small",
+     "explain": "“on” is a small ordinary word: no capital letter."
+    }
+   ],
+   "solution": [
+    "“{answer}” is the name of {k == 'n' ? 'a person' : k == 't' ? 'a town' : 'a day'}, so it needs a capital letter: {k == 'n' ? n : k == 't' ? t : d}.",
+    "{n} bought {it} in {t} on {d}."
+   ]
+  },
+  {
+   "id": "e2-spelling",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "spelling"
+   ],
+   "vars": {
+    "w": {
+     "pick": [
+      {
+       "right": "Wednesday",
+       "w": [
+        "Wensday",
+        "Wednesay",
+        "Wenesday"
+       ]
+      },
+      {
+       "right": "February",
+       "w": [
+        "Febuary",
+        "Febraury",
+        "Februery"
+       ]
+      },
+      {
+       "right": "vegetables",
+       "w": [
+        "vegitables",
+        "vegetabels",
+        "vejetables"
+       ]
+      },
+      {
+       "right": "necessary",
+       "w": [
+        "neccessary",
+        "necessery",
+        "nesessary"
+       ]
+      },
+      {
+       "right": "blanket",
+       "w": [
+        "blankit",
+        "blancket",
+        "blankett"
+       ]
+      },
+      {
+       "right": "soap",
+       "w": [
+        "sope",
+        "soop",
+        "saop"
+       ]
+      },
+      {
+       "right": "bucket",
+       "w": [
+        "bukket",
+        "buckit",
+        "buket"
+       ]
+      },
+      {
+       "right": "mattress",
+       "w": [
+        "matress",
+        "mattres",
+        "matres"
+       ]
+      },
+      {
+       "right": "toothpaste",
+       "w": [
+        "toothpast",
+        "tothpaste",
+        "toothpaist"
+       ]
+      },
+      {
+       "right": "tomatoes",
+       "w": [
+        "tomatos",
+        "tomattoes",
+        "tommatoes"
+       ]
+      },
+      {
+       "right": "sandals",
+       "w": [
+        "sandles",
+        "sandels",
+        "sandalls"
+       ]
+      },
+      {
+       "right": "clothes",
+       "w": [
+        "clotes",
+        "cloths",
+        "clothse"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Which word is spelt correctly?",
+   "correct": "{w.right}",
+   "distractors": [
+    {
+     "text": "{w.w[0]}",
+     "misconception": "letters"
+    },
+    {
+     "text": "{w.w[1]}",
+     "misconception": "letters"
+    },
+    {
+     "text": "{w.w[2]}",
+     "misconception": "letters"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "letters",
+     "explain": "Not quite. Say the word slowly and look at each letter again."
+    }
+   ],
+   "solution": [
+    "The correct spelling is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-correct",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "spelling"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "frame": "We buy fresh ___ at the market every Saturday.",
+       "wrong": "vejetables",
+       "right": "vegetables"
+      },
+      {
+       "frame": "Mother washed all our school ___ on Sunday.",
+       "wrong": "clotes",
+       "right": "clothes"
+      },
+      {
+       "frame": "I wash my hands with ___ and water.",
+       "wrong": "sope",
+       "right": "soap"
+      },
+      {
+       "frame": "Kumbo is cold at night, so we sleep under a thick ___.",
+       "wrong": "blankit",
+       "right": "blanket"
+      },
+      {
+       "frame": "Bih fetched a ___ of water from the tap.",
+       "wrong": "buckit",
+       "right": "bucket"
+      },
+      {
+       "frame": "My birthday is in ___.",
+       "wrong": "Febuary",
+       "right": "February"
+      },
+      {
+       "frame": "We have Sports on ___ afternoon.",
+       "wrong": "Wensday",
+       "right": "Wednesday"
+      },
+      {
+       "frame": "Squeeze a little ___ onto your toothbrush.",
+       "wrong": "toothpast",
+       "right": "toothpaste"
+      }
+     ]
+    }
+   },
+   "prompt": "The word in brackets is misspelt. Write it correctly.",
+   "text": "{x.frame} ({x.wrong})",
+   "answer": "x.right",
+   "misconceptions": [
+    {
+     "id": "copied",
+     "wrong": "x.wrong",
+     "explain": "That is the misspelt word. Look at each letter again."
+    }
+   ]
+  },
+  {
+   "id": "e2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "spelling"
+   ],
+   "vars": {},
+   "prompt": "One sentence has a mistake in capital letters or spelling. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Bih goes to the market on Saturday.",
+      "truth": "true"
+     },
+     {
+      "text": "I need soap and a toothbrush.",
+      "truth": "true"
+     },
+     {
+      "text": "Our school uniform is blue and white.",
+      "truth": "true"
+     },
+     {
+      "text": "Ayuk lives in Bamenda with his grandmother.",
+      "truth": "true"
+     },
+     {
+      "text": "We eat rice and beans on Sundays.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ewane lives in limbe.",
+      "truth": "false",
+      "explain": "Limbe is the name of a town: it needs a capital L."
+     },
+     {
+      "text": "Every morning i make my bed.",
+      "truth": "false",
+      "explain": "The word I is always a capital letter."
+     },
+     {
+      "text": "We buy bred at the bakery.",
+      "truth": "false",
+      "explain": "The correct spelling is bread."
+     },
+     {
+      "text": "My birthday is in febuary.",
+      "truth": "false",
+      "explain": "Months take a capital letter, and the spelling is February."
+     },
+     {
+      "text": "my brother likes plantains.",
+      "truth": "false",
+      "explain": "A sentence starts with a capital letter: My."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

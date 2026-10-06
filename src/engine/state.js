@@ -32,11 +32,13 @@ export function emptyState() {
 
 /**
  * Weekly "Which of these lessons did your teacher actually cover?"
- * answers: {lesson_no: true | false} for the lessons shown.
+ * answers: {lesson_no: true | false} for the lessons shown. Deferred lessons are never shown or recorded.
  */
-export function applyChecklist(state, answers) {
+export function applyChecklist(state, answers, deferred = []) {
   const coverage = { ...state.coverage }, coverageSource = { ...state.coverageSource };
+  const skip = new Set(deferred.map(String));
   for (const [lesson, taught] of Object.entries(answers)) {
+    if (skip.has(String(lesson))) continue;  // deferred lessons (speech work) are not in coverage
     coverage[lesson] = taught ? "taught" : "not_taught";
     coverageSource[lesson] = "checklist";
   }
@@ -50,3 +52,6 @@ export function applyReadiness(state, readiness, takenAt) {
 
 export const masteryOf = (state, skill) => state.mastery[skill] || "unknown";
 export const coverageOf = (state, lesson) => state.coverage[lesson] || "not_taught";
+
+/** Lessons the weekly checklist shows: every lesson in the spine order except deferred ones (2026-10-06). */
+export const checklistLessons = (lessons) => lessons.filter((l) => l.status !== "deferred").map((l) => l.lesson_no);

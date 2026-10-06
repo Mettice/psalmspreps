@@ -1,0 +1,1287 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e3",
+   "name": "The Simple Present tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Simple Present tense for habits and for things that are always true: “I go to school every day.” “The sun rises in the east.”\nAffirmative: I, you, we, they + verb: “We sweep the yard.” He, she, it + verb + s: “Bih sweeps the yard.” Spelling: wash → washes, go → goes, carry → carries, have → has.\nNegative: don't or doesn't + verb: “I don't drink coffee.” “Ayuk doesn't play football.” (Not: doesn't plays.)\nInterrogative (a question): Do or Does + subject + verb: “Do you like fufu?” “Does Mih sell oranges?” Short answers: “Yes, I do.” “No, she doesn't.”\nSignal words: every day, always, usually, often, sometimes, never, on Saturdays.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Tabe",
+   "v": "sweep",
+   "c": "the classroom",
+   "t": "every Monday"
+  },
+  "problem": "{n} {thirdPerson(v)} {c} {t}. Write this sentence in the negative and as a question.",
+  "steps": [
+   "{n} is one person (he), so the affirmative verb has -s: {n} {thirdPerson(v)} {c} {t}.",
+   "Negative: doesn't + the verb without -s: {n} doesn't {v} {c} {t}.",
+   "Question: Does + subject + the verb without -s: Does {n} {v} {c} {t}?"
+  ],
+  "answer": "{n} doesn't {v} {c} {t}. / Does {n} {v} {c} {t}?",
+  "checks": [
+   "thirdPerson(v) == 'sweeps'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "The Simple Present tells about habits and facts. With he, she or it (one person or thing), the verb takes -s.",
+    "vars": {
+     "v": "sweep"
+    },
+    "example": [
+     "I {v} the yard every morning.",
+     "Bih {thirdPerson(v)} the yard every morning."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-form"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "Spelling of the -s form: add -es after s, sh, ch, x and o; change a consonant + y into -ies. Have becomes has.",
+    "vars": {},
+    "example": [
+     "wash → {thirdPerson('wash')}, go → {thirdPerson('go')}, fix → {thirdPerson('fix')}",
+     "carry → {thirdPerson('carry')}, but play → {thirdPerson('play')}",
+     "have → {thirdPerson('have')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c3-2-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "spelling-rules"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "wash",
+        "watch",
+        "go",
+        "do",
+        "fix",
+        "carry",
+        "study",
+        "cry",
+        "play",
+        "buy",
+        "have",
+        "miss",
+        "sell",
+        "fetch"
+       ]
+      }
+     },
+     "prompt": "Write the he/she/it form of the verb.",
+     "text": "{v} → he ___",
+     "answer": "thirdPerson(v)",
+     "misconceptions": [
+      {
+       "id": "spelling",
+       "wrong": "v + 's'",
+       "explain": "Check the spelling rule: {v} → {thirdPerson(v)}."
+      },
+      {
+       "id": "no-s",
+       "wrong": "v",
+       "explain": "With he, she or it the verb takes -s."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "Negative: don't or doesn't + the verb without -s. Doesn't is for he, she and it.",
+    "vars": {},
+    "example": [
+     "I don't eat pork.",
+     "Ayuk doesn't eat pork. (Not: doesn't eats.)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c3-3-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "simple-present"
+     ],
+     "show": 3,
+     "vars": {
+      "S": {
+       "pick": [
+        {
+         "t": "I",
+         "m": "I",
+         "s": {
+          "text": "I",
+          "person": 1,
+          "plural": false
+         }
+        },
+        {
+         "t": "You",
+         "m": "you",
+         "s": {
+          "text": "you",
+          "person": 2,
+          "plural": false
+         }
+        },
+        {
+         "t": "We",
+         "m": "we",
+         "s": {
+          "text": "we",
+          "person": 1,
+          "plural": true
+         }
+        },
+        {
+         "t": "They",
+         "m": "they",
+         "s": {
+          "text": "they",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "He",
+         "m": "he",
+         "s": {
+          "text": "he",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "She",
+         "m": "she",
+         "s": {
+          "text": "she",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Bih",
+         "m": "Bih",
+         "s": {
+          "text": "Bih",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Ayuk",
+         "m": "Ayuk",
+         "s": {
+          "text": "Ayuk",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "My mother",
+         "m": "my mother",
+         "s": {
+          "text": "my mother",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Our teacher",
+         "m": "our teacher",
+         "s": {
+          "text": "our teacher",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Tabe and Ndi",
+         "m": "Tabe and Ndi",
+         "s": {
+          "text": "Tabe and Ndi",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "My cousins",
+         "m": "my cousins",
+         "s": {
+          "text": "my cousins",
+          "person": 3,
+          "plural": true
+         }
+        }
+       ]
+      },
+      "V": {
+       "pick": [
+        {
+         "v": "sweep",
+         "c": "the yard"
+        },
+        {
+         "v": "wash",
+         "c": "the plates"
+        },
+        {
+         "v": "go",
+         "c": "to school"
+        },
+        {
+         "v": "carry",
+         "c": "water from the stream"
+        },
+        {
+         "v": "watch",
+         "c": "the news"
+        },
+        {
+         "v": "buy",
+         "c": "bread at the bakery"
+        },
+        {
+         "v": "fetch",
+         "c": "firewood"
+        },
+        {
+         "v": "eat",
+         "c": "fufu and njama njama"
+        },
+        {
+         "v": "play",
+         "c": "football"
+        },
+        {
+         "v": "fix",
+         "c": "bicycles"
+        },
+        {
+         "v": "do",
+         "c": "homework"
+        },
+        {
+         "v": "study",
+         "c": "in the library"
+        },
+        {
+         "v": "have",
+         "c": "a bath"
+        }
+       ]
+      },
+      "T": {
+       "pick": [
+        "every day",
+        "every morning",
+        "every evening",
+        "on Saturdays",
+        "twice a week"
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "{S.t} ___ {V.v} {V.c} {T}.",
+     "answer": "dontFor(S.s)",
+     "choices": [
+      {
+       "text": "don't",
+       "misconception": "dont"
+      },
+      {
+       "text": "doesn't",
+       "misconception": "doesnt"
+      },
+      {
+       "text": "isn't",
+       "misconception": "isnt"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "dont",
+       "explain": "Don't goes with I, you, we and they."
+      },
+      {
+       "id": "doesnt",
+       "explain": "Doesn't goes with he, she and it (one person or thing)."
+      },
+      {
+       "id": "isnt",
+       "explain": "With a verb like {V.v}, the negative uses don't or doesn't, not isn't."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c3-4",
+    "status": "draft",
+    "idea": "Questions: Do or Does + subject + the verb without -s. Short answers: Yes, she does. / No, they don't.",
+    "vars": {},
+    "example": [
+     "Does Mih sell oranges? — Yes, she does.",
+     "Do your brothers play football? — No, they don't."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e3-does"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e3-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simple-present",
+    "spelling-rules"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "sweep",
+       "c": "the yard"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "go",
+       "c": "to school"
+      },
+      {
+       "v": "carry",
+       "c": "water from the stream"
+      },
+      {
+       "v": "watch",
+       "c": "the news"
+      },
+      {
+       "v": "buy",
+       "c": "bread at the bakery"
+      },
+      {
+       "v": "fetch",
+       "c": "firewood"
+      },
+      {
+       "v": "eat",
+       "c": "fufu and njama njama"
+      },
+      {
+       "v": "play",
+       "c": "football"
+      },
+      {
+       "v": "fix",
+       "c": "bicycles"
+      },
+      {
+       "v": "do",
+       "c": "homework"
+      },
+      {
+       "v": "study",
+       "c": "in the library"
+      },
+      {
+       "v": "have",
+       "c": "a bath"
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      "every day",
+      "every morning",
+      "every evening",
+      "on Saturdays",
+      "twice a week"
+     ]
+    }
+   },
+   "prompt": "Write the verb in brackets in the Simple Present.",
+   "text": "{S.t} ___ ({V.v}) {V.c} {T}.",
+   "answer": "presentFor(S.s, V.v)",
+   "misconceptions": [
+    {
+     "id": "no-s",
+     "when": "S.s.person == 3 && !S.s.plural",
+     "wrong": "V.v",
+     "explain": "{S.t} is one person or thing (he, she or it), so the verb takes -s."
+    },
+    {
+     "id": "extra-s",
+     "when": "!(S.s.person == 3 && !S.s.plural)",
+     "wrong": "thirdPerson(V.v)",
+     "explain": "Only he, she and it (one person or thing) take -s. With {S.m} use the verb as it is, with no -s."
+    },
+    {
+     "id": "spelling",
+     "when": "S.s.person == 3 && !S.s.plural && V.v + 's' != thirdPerson(V.v)",
+     "wrong": "V.v + 's'",
+     "explain": "Right idea, but check the spelling: {V.v} → {thirdPerson(V.v)}."
+    }
+   ],
+   "solution": [
+    "{S.t}: {S.s.person == 3 && !S.s.plural ? 'one person or thing (he, she or it), so the verb takes -s' : 'not he, she or it, so the verb has no -s'}.",
+    "{S.t} {answer} {V.c} {T}."
+   ]
+  },
+  {
+   "id": "e3-does",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simple-present"
+   ],
+   "show": 3,
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "sweep",
+       "c": "the yard"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "go",
+       "c": "to school"
+      },
+      {
+       "v": "carry",
+       "c": "water from the stream"
+      },
+      {
+       "v": "watch",
+       "c": "the news"
+      },
+      {
+       "v": "buy",
+       "c": "bread at the bakery"
+      },
+      {
+       "v": "fetch",
+       "c": "firewood"
+      },
+      {
+       "v": "eat",
+       "c": "fufu and njama njama"
+      },
+      {
+       "v": "play",
+       "c": "football"
+      },
+      {
+       "v": "fix",
+       "c": "bicycles"
+      },
+      {
+       "v": "do",
+       "c": "homework"
+      },
+      {
+       "v": "study",
+       "c": "in the library"
+      },
+      {
+       "v": "have",
+       "c": "a bath"
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      "every day",
+      "every morning",
+      "every evening",
+      "on Saturdays",
+      "twice a week"
+     ]
+    }
+   },
+   "where": "S.t != 'I'",
+   "prompt": "Choose the word that starts the question.",
+   "text": "___ {S.m} {V.v} {V.c} {T}?",
+   "answer": "cap(doFor(S.s))",
+   "choices": [
+    {
+     "text": "Do",
+     "misconception": "do"
+    },
+    {
+     "text": "Does",
+     "misconception": "does"
+    },
+    {
+     "text": "Is",
+     "misconception": "be"
+    },
+    {
+     "text": "Are",
+     "misconception": "be"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "do",
+     "explain": "Do goes with I, you, we and they."
+    },
+    {
+     "id": "does",
+     "explain": "Does goes with he, she and it (one person or thing)."
+    },
+    {
+     "id": "be",
+     "explain": "Questions with a verb like {V.v} start with Do or Does in the Simple Present."
+    }
+   ],
+   "solution": [
+    "{S.t} → {doFor(S.s)}.",
+    "{answer} {S.m} {V.v} {V.c} {T}?"
+   ]
+  },
+  {
+   "id": "e3-negative",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simple-present"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "sweep",
+       "c": "the yard"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "go",
+       "c": "to school"
+      },
+      {
+       "v": "carry",
+       "c": "water from the stream"
+      },
+      {
+       "v": "watch",
+       "c": "the news"
+      },
+      {
+       "v": "buy",
+       "c": "bread at the bakery"
+      },
+      {
+       "v": "fetch",
+       "c": "firewood"
+      },
+      {
+       "v": "eat",
+       "c": "fufu and njama njama"
+      },
+      {
+       "v": "play",
+       "c": "football"
+      },
+      {
+       "v": "fix",
+       "c": "bicycles"
+      },
+      {
+       "v": "do",
+       "c": "homework"
+      },
+      {
+       "v": "study",
+       "c": "in the library"
+      },
+      {
+       "v": "have",
+       "c": "a bath"
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      "every day",
+      "every morning",
+      "every evening",
+      "on Saturdays",
+      "twice a week"
+     ]
+    }
+   },
+   "prompt": "Write the verb in brackets in the negative.",
+   "text": "{S.t} ___ ({V.v}) {V.c} {T}.",
+   "answer": "dontFor(S.s) + ' ' + V.v",
+   "accept": [
+    "doFor(S.s) + ' not ' + V.v"
+   ],
+   "misconceptions": [
+    {
+     "id": "double-s",
+     "when": "S.s.person == 3 && !S.s.plural",
+     "wrong": [
+      "\"doesn't \" + thirdPerson(V.v)",
+      "'does not ' + thirdPerson(V.v)"
+     ],
+     "explain": "After doesn't, the verb loses its -s: doesn't {V.v}."
+    },
+    {
+     "id": "wrong-aux",
+     "when": "S.s.person == 3 && !S.s.plural",
+     "wrong": "\"don't \" + V.v",
+     "explain": "{S.t} is he, she or it: use doesn't."
+    },
+    {
+     "id": "wrong-aux2",
+     "when": "!(S.s.person == 3 && !S.s.plural)",
+     "wrong": "\"doesn't \" + V.v",
+     "explain": "Doesn't is only for he, she and it. With {S.m} use don't."
+    }
+   ],
+   "solution": [
+    "{S.t} → {dontFor(S.s)}, then the verb without -s.",
+    "{S.t} {answer} {V.c} {T}."
+   ]
+  },
+  {
+   "id": "e3-question",
+   "type": "word_order",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simple-present"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "sweep",
+       "c": "the yard"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "go",
+       "c": "to school"
+      },
+      {
+       "v": "carry",
+       "c": "water from the stream"
+      },
+      {
+       "v": "watch",
+       "c": "the news"
+      },
+      {
+       "v": "buy",
+       "c": "bread at the bakery"
+      },
+      {
+       "v": "fetch",
+       "c": "firewood"
+      },
+      {
+       "v": "eat",
+       "c": "fufu and njama njama"
+      },
+      {
+       "v": "play",
+       "c": "football"
+      },
+      {
+       "v": "fix",
+       "c": "bicycles"
+      },
+      {
+       "v": "do",
+       "c": "homework"
+      },
+      {
+       "v": "study",
+       "c": "in the library"
+      },
+      {
+       "v": "have",
+       "c": "a bath"
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      "every day",
+      "every morning",
+      "every evening",
+      "on Saturdays",
+      "twice a week"
+     ]
+    }
+   },
+   "where": "S.t != 'I'",
+   "prompt": "Tap the words to make a question.",
+   "answer": "{cap(doFor(S.s))} {S.m} {V.v} {V.c} {T}?"
+  },
+  {
+   "id": "e3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "simple-present"
+   ],
+   "vars": {},
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ayuk washes his uniform on Saturdays.",
+      "truth": "true"
+     },
+     {
+      "text": "Do you like puff-puff?",
+      "truth": "true"
+     },
+     {
+      "text": "My sisters don't drink coffee.",
+      "truth": "true"
+     },
+     {
+      "text": "Does Tabe carry water every morning?",
+      "truth": "true"
+     },
+     {
+      "text": "We go to church on Sundays.",
+      "truth": "true"
+     },
+     {
+      "text": "Mih studies in the evening.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bih don't like fish.",
+      "truth": "false",
+      "explain": "Bih is one person (she): Bih doesn't like fish."
+     },
+     {
+      "text": "Does Ndi plays football?",
+      "truth": "false",
+      "explain": "After does, the verb has no -s: Does Ndi play football?"
+     },
+     {
+      "text": "My father go to the farm every day.",
+      "truth": "false",
+      "explain": "My father is he: My father goes to the farm every day."
+     },
+     {
+      "text": "They doesn't eat meat.",
+      "truth": "false",
+      "explain": "They takes don't: They don't eat meat."
+     },
+     {
+      "text": "She carrys water from the stream.",
+      "truth": "false",
+      "explain": "Carry → carries (consonant + y becomes -ies)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  2,
+  6
+ ],
+ "skills": [
+  {
+   "id": "e9",
+   "name": "Writing a shopping list"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Needs are things we must have: food, soap, school books. Wants are nice to have, but we can live without them: sweets, a new phone. When money is short, buy the needs first: they are the priority.\nA good shopping list:\n• has a title, for example “Shopping list for Saturday”;\n• has one item on each line, with the quantity and the price;\n• puts the most important items first;\n• adds up the prices, and the total is not more than the money you have.\nBefore you go to the market, check the list again: is anything missing? Can you buy everything with your money?",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "money": 5000,
+   "rice": 1400,
+   "oil": 1200,
+   "salt": 150,
+   "soap": 600,
+   "sweets": 500
+  },
+  "problem": "Mother gives Ashu {money} FCFA for the market. The family needs rice, palm oil, salt and soap. Ashu would also like sweets. Plan the list.",
+  "steps": [
+   "Needs first: rice {rice} FCFA, palm oil {oil} FCFA, salt {salt} FCFA, soap {soap} FCFA.",
+   "Add the needs: {rice} + {oil} + {salt} + {soap} = {rice + oil + salt + soap} FCFA.",
+   "Money left: {money} − {rice + oil + salt + soap} = {money - rice - oil - salt - soap} FCFA.",
+   "The sweets cost {sweets} FCFA, which is not more than what is left, so they can go last on the list."
+  ],
+  "answer": "Rice, palm oil, salt, soap, then sweets. Total: {rice + oil + salt + soap + sweets} FCFA.",
+  "checks": [
+   "rice + oil + salt + soap + sweets <= money"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Needs are things we must have. Wants are nice to have, but we can live without them.",
+    "vars": {},
+    "example": [
+     "Needs: rice, soap, exercise books.",
+     "Wants: sweets, a toy car, soft drinks."
+    ],
+    "checks": [],
+    "check": {
+     "id": "c9-1-check",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "shopping-list"
+     ],
+     "groups": true,
+     "group_order": [
+      "need",
+      "want"
+     ],
+     "pick": 4,
+     "prompt": "Sort each item: is it a need or a want?",
+     "pool": [
+      {
+       "left": "rice",
+       "right": "need"
+      },
+      {
+       "left": "soap",
+       "right": "need"
+      },
+      {
+       "left": "salt",
+       "right": "need"
+      },
+      {
+       "left": "cooking oil",
+       "right": "need"
+      },
+      {
+       "left": "exercise books",
+       "right": "need"
+      },
+      {
+       "left": "toothpaste",
+       "right": "need"
+      },
+      {
+       "left": "beans",
+       "right": "need"
+      },
+      {
+       "left": "kerosene for the lamp",
+       "right": "need"
+      },
+      {
+       "left": "sweets",
+       "right": "want"
+      },
+      {
+       "left": "chewing gum",
+       "right": "want"
+      },
+      {
+       "left": "a toy car",
+       "right": "want"
+      },
+      {
+       "left": "a new phone",
+       "right": "want"
+      },
+      {
+       "left": "soft drinks",
+       "right": "want"
+      },
+      {
+       "left": "a video game",
+       "right": "want"
+      }
+     ]
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Buy the needs first. Add up the prices: the total must not be more than the money you have.",
+    "vars": {
+     "money": 2000,
+     "a": 700,
+     "b": 300
+    },
+    "example": [
+     "You have {money} FCFA. Rice costs {a} FCFA and soap costs {b} FCFA.",
+     "{a} + {b} = {a + b} FCFA, so {money - a - b} FCFA is left."
+    ],
+    "checks": [
+     "a + b <= money"
+    ],
+    "check": {
+     "id": "c9-2-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "shopping-list"
+     ],
+     "vars": {
+      "x": {
+       "pick": [
+        {
+         "it": "rice",
+         "p": 700,
+         "unit": "1 kg"
+        },
+        {
+         "it": "soap",
+         "p": 300,
+         "unit": "1 bar"
+        },
+        {
+         "it": "salt",
+         "p": 150,
+         "unit": "1 packet"
+        },
+        {
+         "it": "palm oil",
+         "p": 1200,
+         "unit": "1 litre"
+        },
+        {
+         "it": "beans",
+         "p": 900,
+         "unit": "1 kg"
+        },
+        {
+         "it": "sugar",
+         "p": 850,
+         "unit": "1 kg"
+        }
+       ]
+      },
+      "y": {
+       "pick": [
+        {
+         "it": "rice",
+         "p": 700,
+         "unit": "1 kg"
+        },
+        {
+         "it": "soap",
+         "p": 300,
+         "unit": "1 bar"
+        },
+        {
+         "it": "salt",
+         "p": 150,
+         "unit": "1 packet"
+        },
+        {
+         "it": "palm oil",
+         "p": 1200,
+         "unit": "1 litre"
+        },
+        {
+         "it": "beans",
+         "p": 900,
+         "unit": "1 kg"
+        },
+        {
+         "it": "sugar",
+         "p": 850,
+         "unit": "1 kg"
+        }
+       ]
+      }
+     },
+     "where": "x.it != y.it",
+     "prompt": "Add the prices.",
+     "text": "{x.it}: {x.p} FCFA, {y.it}: {y.p} FCFA. Total: ___ FCFA",
+     "answer": "'' + (x.p + y.p)",
+     "accept": [
+      "numberVariants(x.p + y.p)"
+     ],
+     "solution": [
+      "{x.p} + {y.p} = {answer} FCFA."
+     ]
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "Write one item on each line, with the quantity and the price. Put a title at the top and the total at the bottom.",
+    "vars": {
+     "q": 2,
+     "r": 1400,
+     "s": 600
+    },
+    "example": [
+     "Shopping list for Saturday",
+     "Rice, {q} kg — {r} FCFA",
+     "Soap, {q} bars — {s} FCFA",
+     "Total: {r + s} FCFA"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c9-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "shopping-list"
+     ],
+     "vars": {
+      "p": {
+       "pick": [
+        150,
+        200,
+        250
+       ]
+      }
+     },
+     "prompt": "Which line is written the right way for a shopping list?",
+     "pool": {
+      "right": [
+       {
+        "text": "Salt, 1 packet — {p} FCFA",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "salt",
+        "truth": "false",
+        "explain": "Give the quantity and the price too."
+       },
+       {
+        "text": "I will buy some salt because we need it for the soup.",
+        "truth": "false",
+        "explain": "A list has short lines, not full sentences."
+       },
+       {
+        "text": "Salt and soap and rice and oil",
+        "truth": "false",
+        "explain": "Write one item on each line."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [],
+ "paper_task": {
+  "status": "draft",
+  "vars": {
+   "money": 10000,
+   "rice": 2800,
+   "oil": 1200,
+   "beans": 1800,
+   "salt": 150,
+   "soap": 600,
+   "books": 1500,
+   "sweets": 500,
+   "qr": 4,
+   "qb": 2,
+   "qs": 2,
+   "qe": 3
+  },
+  "prompt": "Your family has {money} FCFA for the market on Saturday. Write a shopping list for the week in your exercise book. Put the needs first, give the quantity and the price of each item, and add up the total.",
+  "model": [
+   "Shopping list for Saturday",
+   "Rice, {qr} kg — {rice} FCFA",
+   "Palm oil, one litre — {oil} FCFA",
+   "Beans, {qb} kg — {beans} FCFA",
+   "Salt, one packet — {salt} FCFA",
+   "Soap, {qs} bars — {soap} FCFA",
+   "Exercise books, {qe} — {books} FCFA",
+   "Sweets for my little brother — {sweets} FCFA",
+   "Total: {rice + oil + beans + salt + soap + books + sweets} FCFA (money left: {money - rice - oil - beans - salt - soap - books - sweets} FCFA)"
+  ],
+  "checklist": [
+   "My list has a title.",
+   "Each item is on its own line.",
+   "Each item has a quantity and a price.",
+   "The needs come before the wants.",
+   "I added up the prices and wrote the total.",
+   "My total is not more than {money} FCFA.",
+   "I checked my spelling."
+  ],
+  "checks": [
+   "rice + oil + beans + salt + soap + books + sweets <= money"
+  ]
+ }
+}

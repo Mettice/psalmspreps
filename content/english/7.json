@@ -1,0 +1,1487 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "e7",
+   "name": "The Present continuous tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Present continuous tense for actions happening now, at the moment of speaking: “Look! Bih is carrying a basin of water.”\nForm: am / is / are + verb-ing. I am reading. She is cooking. They are playing.\nSpelling of -ing: most verbs add -ing (read → reading); drop a final e (make → making); double the last letter after one short vowel (run → running, sit → sitting); ie becomes y (lie → lying).\nNegative: am not / isn't / aren't + verb-ing: “Ayuk isn't sleeping.”\nQuestion: Am / Is / Are + subject + verb-ing? “Are you listening?” Short answers: “Yes, I am.” “No, it isn't.”\nSignal words: now, at the moment, Look!, Listen!\nCompare: “Mih sells oranges every day.” (a habit: Simple Present) and “Mih is selling oranges now.” (now: Present continuous)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Ndi",
+   "v": "make",
+   "c": "puff-puff"
+  },
+  "problem": "{n} is in the kitchen with a bowl of dough. Say what she is doing now: ({v}) {c}.",
+  "steps": [
+   "{n} is one person (she), so we use is.",
+   "{v} ends in e: drop the e and add -ing: {ing(v)}.",
+   "Put it together: {n} is {ing(v)} {c}."
+  ],
+  "answer": "{n} is {ing(v)} {c} now.",
+  "checks": [
+   "ing(v) == 'making'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "The Present continuous is for actions happening now. Form: am, is or are + the verb with -ing.",
+    "vars": {},
+    "example": [
+     "I am {ing('read')} a story book.",
+     "Bih is {ing('cook')} achu.",
+     "They are {ing('play')} football."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e7-be"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "Spelling: most verbs add -ing; a final e drops; after one short vowel the last letter doubles; ie becomes y.",
+    "vars": {},
+    "example": [
+     "read → {ing('read')}, make → {ing('make')}",
+     "run → {ing('run')}, sit → {ing('sit')}, travel → {ing('travel')}",
+     "lie → {ing('lie')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e7-ing"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Negative: am not, isn't or aren't + -ing. Question: Am, Is or Are + subject + -ing?",
+    "vars": {},
+    "example": [
+     "Ayuk isn't sleeping. He is reading.",
+     "Are you listening? — Yes, I am."
+    ],
+    "checks": [],
+    "check": {
+     "id": "c7-3-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "present-continuous"
+     ],
+     "show": 3,
+     "vars": {
+      "S": {
+       "pick": [
+        {
+         "t": "I",
+         "m": "I",
+         "s": {
+          "text": "I",
+          "person": 1,
+          "plural": false
+         }
+        },
+        {
+         "t": "You",
+         "m": "you",
+         "s": {
+          "text": "you",
+          "person": 2,
+          "plural": false
+         }
+        },
+        {
+         "t": "We",
+         "m": "we",
+         "s": {
+          "text": "we",
+          "person": 1,
+          "plural": true
+         }
+        },
+        {
+         "t": "They",
+         "m": "they",
+         "s": {
+          "text": "they",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "He",
+         "m": "he",
+         "s": {
+          "text": "he",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "She",
+         "m": "she",
+         "s": {
+          "text": "she",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Bih",
+         "m": "Bih",
+         "s": {
+          "text": "Bih",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Ayuk",
+         "m": "Ayuk",
+         "s": {
+          "text": "Ayuk",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "My mother",
+         "m": "my mother",
+         "s": {
+          "text": "my mother",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Our teacher",
+         "m": "our teacher",
+         "s": {
+          "text": "our teacher",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Tabe and Ndi",
+         "m": "Tabe and Ndi",
+         "s": {
+          "text": "Tabe and Ndi",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "My cousins",
+         "m": "my cousins",
+         "s": {
+          "text": "my cousins",
+          "person": 3,
+          "plural": true
+         }
+        }
+       ]
+      },
+      "V": {
+       "pick": [
+        {
+         "v": "carry",
+         "c": "a basin of water"
+        },
+        {
+         "v": "cook",
+         "c": "achu"
+        },
+        {
+         "v": "write",
+         "c": "a letter"
+        },
+        {
+         "v": "run",
+         "c": "to the field"
+        },
+        {
+         "v": "swim",
+         "c": "in the river"
+        },
+        {
+         "v": "sweep",
+         "c": "the classroom"
+        },
+        {
+         "v": "read",
+         "c": "a story book"
+        },
+        {
+         "v": "make",
+         "c": "puff-puff"
+        },
+        {
+         "v": "sit",
+         "c": "under the mango tree"
+        },
+        {
+         "v": "wash",
+         "c": "the car"
+        },
+        {
+         "v": "travel",
+         "c": "to Douala"
+        },
+        {
+         "v": "plan",
+         "c": "a party"
+        },
+        {
+         "v": "lie",
+         "c": "on the mat"
+        },
+        {
+         "v": "dance",
+         "c": "to the music"
+        }
+       ]
+      }
+     },
+     "where": "S.t != 'I'",
+     "prompt": "Choose the word that starts the question.",
+     "text": "___ {S.m} {ing(V.v)} {V.c} now?",
+     "answer": "cap(beFor(S.s))",
+     "choices": [
+      {
+       "text": "Am",
+       "misconception": "am"
+      },
+      {
+       "text": "Is",
+       "misconception": "is"
+      },
+      {
+       "text": "Are",
+       "misconception": "are"
+      },
+      {
+       "text": "Does",
+       "misconception": "do"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "am",
+       "explain": "Am goes only with I."
+      },
+      {
+       "id": "is",
+       "explain": "Is goes with he, she and it (one person or thing)."
+      },
+      {
+       "id": "are",
+       "explain": "Are goes with you, we and they (and two or more people)."
+      },
+      {
+       "id": "do",
+       "explain": "With -ing, the question starts with am, is or are, not does."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c7-4",
+    "status": "draft",
+    "idea": "Simple Present for habits (every day, on Saturdays); Present continuous for now (now, at the moment).",
+    "vars": {},
+    "example": [
+     "Mih sells oranges every day.",
+     "Mih is selling oranges now."
+    ],
+    "checks": [],
+    "check": {
+     "id": "c7-4-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "present-continuous"
+     ],
+     "show": 2,
+     "vars": {
+      "S": {
+       "pick": [
+        {
+         "t": "I",
+         "m": "I",
+         "s": {
+          "text": "I",
+          "person": 1,
+          "plural": false
+         }
+        },
+        {
+         "t": "You",
+         "m": "you",
+         "s": {
+          "text": "you",
+          "person": 2,
+          "plural": false
+         }
+        },
+        {
+         "t": "We",
+         "m": "we",
+         "s": {
+          "text": "we",
+          "person": 1,
+          "plural": true
+         }
+        },
+        {
+         "t": "They",
+         "m": "they",
+         "s": {
+          "text": "they",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "He",
+         "m": "he",
+         "s": {
+          "text": "he",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "She",
+         "m": "she",
+         "s": {
+          "text": "she",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Bih",
+         "m": "Bih",
+         "s": {
+          "text": "Bih",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Ayuk",
+         "m": "Ayuk",
+         "s": {
+          "text": "Ayuk",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "My mother",
+         "m": "my mother",
+         "s": {
+          "text": "my mother",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Our teacher",
+         "m": "our teacher",
+         "s": {
+          "text": "our teacher",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Tabe and Ndi",
+         "m": "Tabe and Ndi",
+         "s": {
+          "text": "Tabe and Ndi",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "My cousins",
+         "m": "my cousins",
+         "s": {
+          "text": "my cousins",
+          "person": 3,
+          "plural": true
+         }
+        }
+       ]
+      },
+      "V": {
+       "pick": [
+        {
+         "v": "carry",
+         "c": "a basin of water"
+        },
+        {
+         "v": "cook",
+         "c": "achu"
+        },
+        {
+         "v": "write",
+         "c": "a letter"
+        },
+        {
+         "v": "run",
+         "c": "to the field"
+        },
+        {
+         "v": "swim",
+         "c": "in the river"
+        },
+        {
+         "v": "sweep",
+         "c": "the classroom"
+        },
+        {
+         "v": "read",
+         "c": "a story book"
+        },
+        {
+         "v": "make",
+         "c": "puff-puff"
+        },
+        {
+         "v": "sit",
+         "c": "under the mango tree"
+        },
+        {
+         "v": "wash",
+         "c": "the car"
+        },
+        {
+         "v": "travel",
+         "c": "to Douala"
+        },
+        {
+         "v": "plan",
+         "c": "a party"
+        },
+        {
+         "v": "lie",
+         "c": "on the mat"
+        },
+        {
+         "v": "dance",
+         "c": "to the music"
+        }
+       ]
+      }
+     },
+     "prompt": "Which sentence is about something happening now?",
+     "correct": "{S.t} {beFor(S.s)} {ing(V.v)} {V.c}.",
+     "distractors": [
+      {
+       "text": "{S.t} {presentFor(S.s, V.v)} {V.c} every day.",
+       "misconception": "habit"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "habit",
+       "explain": "“Every day” is a habit (Simple Present). Happening now uses am, is or are + -ing."
+      }
+     ],
+     "solution": [
+      "Now → am, is or are + -ing: {answer}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e7-be",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "present-continuous"
+   ],
+   "show": 3,
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "carry",
+       "c": "a basin of water"
+      },
+      {
+       "v": "cook",
+       "c": "achu"
+      },
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "run",
+       "c": "to the field"
+      },
+      {
+       "v": "swim",
+       "c": "in the river"
+      },
+      {
+       "v": "sweep",
+       "c": "the classroom"
+      },
+      {
+       "v": "read",
+       "c": "a story book"
+      },
+      {
+       "v": "make",
+       "c": "puff-puff"
+      },
+      {
+       "v": "sit",
+       "c": "under the mango tree"
+      },
+      {
+       "v": "wash",
+       "c": "the car"
+      },
+      {
+       "v": "travel",
+       "c": "to Douala"
+      },
+      {
+       "v": "plan",
+       "c": "a party"
+      },
+      {
+       "v": "lie",
+       "c": "on the mat"
+      },
+      {
+       "v": "dance",
+       "c": "to the music"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{S.t} ___ {ing(V.v)} {V.c} at the moment.",
+   "answer": "beFor(S.s)",
+   "choices": [
+    {
+     "text": "am",
+     "misconception": "am"
+    },
+    {
+     "text": "is",
+     "misconception": "is"
+    },
+    {
+     "text": "are",
+     "misconception": "are"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "am",
+     "explain": "Am goes only with I."
+    },
+    {
+     "id": "is",
+     "explain": "Is goes with he, she and it (one person or thing)."
+    },
+    {
+     "id": "are",
+     "explain": "Are goes with you, we and they (and two or more people)."
+    }
+   ],
+   "solution": [
+    "{S.t} → {answer}.",
+    "{S.t} {answer} {ing(V.v)} {V.c} at the moment."
+   ]
+  },
+  {
+   "id": "e7-ing",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "read",
+      "make",
+      "write",
+      "come",
+      "run",
+      "sit",
+      "swim",
+      "stop",
+      "travel",
+      "lie",
+      "tie",
+      "play",
+      "cook",
+      "dance",
+      "begin",
+      "plan"
+     ]
+    }
+   },
+   "prompt": "Write the -ing form.",
+   "text": "{v} → ___",
+   "answer": "ing(v)",
+   "misconceptions": [
+    {
+     "id": "plain",
+     "wrong": "v + 'ing'",
+     "explain": "Check the spelling rule for {v}: drop a final e, double the last letter after one short vowel, or change ie to y."
+    }
+   ],
+   "solution": [
+    "{v} → {answer}"
+   ]
+  },
+  {
+   "id": "e7-form",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "present-continuous",
+    "spelling-rules"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "carry",
+       "c": "a basin of water"
+      },
+      {
+       "v": "cook",
+       "c": "achu"
+      },
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "run",
+       "c": "to the field"
+      },
+      {
+       "v": "swim",
+       "c": "in the river"
+      },
+      {
+       "v": "sweep",
+       "c": "the classroom"
+      },
+      {
+       "v": "read",
+       "c": "a story book"
+      },
+      {
+       "v": "make",
+       "c": "puff-puff"
+      },
+      {
+       "v": "sit",
+       "c": "under the mango tree"
+      },
+      {
+       "v": "wash",
+       "c": "the car"
+      },
+      {
+       "v": "travel",
+       "c": "to Douala"
+      },
+      {
+       "v": "plan",
+       "c": "a party"
+      },
+      {
+       "v": "lie",
+       "c": "on the mat"
+      },
+      {
+       "v": "dance",
+       "c": "to the music"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in brackets in the Present continuous.",
+   "text": "Look! {S.t} ___ ({V.v}) {V.c}.",
+   "answer": "beFor(S.s) + ' ' + ing(V.v)",
+   "misconceptions": [
+    {
+     "id": "no-be",
+     "wrong": "ing(V.v)",
+     "explain": "The Present continuous needs am, is or are before the -ing verb."
+    },
+    {
+     "id": "spelling",
+     "wrong": "beFor(S.s) + ' ' + V.v + 'ing'",
+     "explain": "Right form, but check the spelling: {V.v} → {ing(V.v)}."
+    },
+    {
+     "id": "simple",
+     "wrong": "presentFor(S.s, V.v)",
+     "explain": "“Look!” means it is happening now: use am, is or are + -ing."
+    }
+   ],
+   "solution": [
+    "{S.t} → {beFor(S.s)}; {V.v} → {ing(V.v)}.",
+    "Look! {S.t} {answer} {V.c}."
+   ]
+  },
+  {
+   "id": "e7-question",
+   "type": "word_order",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "present-continuous"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "carry",
+       "c": "a basin of water"
+      },
+      {
+       "v": "cook",
+       "c": "achu"
+      },
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "run",
+       "c": "to the field"
+      },
+      {
+       "v": "swim",
+       "c": "in the river"
+      },
+      {
+       "v": "sweep",
+       "c": "the classroom"
+      },
+      {
+       "v": "read",
+       "c": "a story book"
+      },
+      {
+       "v": "make",
+       "c": "puff-puff"
+      },
+      {
+       "v": "sit",
+       "c": "under the mango tree"
+      },
+      {
+       "v": "wash",
+       "c": "the car"
+      },
+      {
+       "v": "travel",
+       "c": "to Douala"
+      },
+      {
+       "v": "plan",
+       "c": "a party"
+      },
+      {
+       "v": "lie",
+       "c": "on the mat"
+      },
+      {
+       "v": "dance",
+       "c": "to the music"
+      }
+     ]
+    }
+   },
+   "where": "S.t != 'I'",
+   "prompt": "Tap the words to make a question.",
+   "answer": "{cap(beFor(S.s))} {S.m} {ing(V.v)} {V.c} now?"
+  },
+  {
+   "id": "e7-which",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "present-continuous"
+   ],
+   "show": 3,
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "carry",
+       "c": "a basin of water"
+      },
+      {
+       "v": "cook",
+       "c": "achu"
+      },
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "run",
+       "c": "to the field"
+      },
+      {
+       "v": "swim",
+       "c": "in the river"
+      },
+      {
+       "v": "sweep",
+       "c": "the classroom"
+      },
+      {
+       "v": "read",
+       "c": "a story book"
+      },
+      {
+       "v": "make",
+       "c": "puff-puff"
+      },
+      {
+       "v": "sit",
+       "c": "under the mango tree"
+      },
+      {
+       "v": "wash",
+       "c": "the car"
+      },
+      {
+       "v": "travel",
+       "c": "to Douala"
+      },
+      {
+       "v": "plan",
+       "c": "a party"
+      },
+      {
+       "v": "lie",
+       "c": "on the mat"
+      },
+      {
+       "v": "dance",
+       "c": "to the music"
+      }
+     ]
+    },
+    "sig": {
+     "pick": [
+      {
+       "w": "every day",
+       "now": false
+      },
+      {
+       "w": "now",
+       "now": true
+      },
+      {
+       "w": "at the moment",
+       "now": true
+      },
+      {
+       "w": "on Saturdays",
+       "now": false
+      },
+      {
+       "w": "every evening",
+       "now": false
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the verb that fits the time words.",
+   "text": "{S.t} ___ {V.c} {sig.w}.",
+   "answer": "sig.now ? beFor(S.s) + ' ' + ing(V.v) : presentFor(S.s, V.v)",
+   "choices": [
+    {
+     "text": "{presentFor(S.s, V.v)}",
+     "misconception": "habit"
+    },
+    {
+     "text": "{beFor(S.s)} {ing(V.v)}",
+     "misconception": "now"
+    },
+    {
+     "text": "{ing(V.v)}",
+     "misconception": "no-be"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "habit",
+     "explain": "“{sig.w}” is about now, so use am, is or are + -ing."
+    },
+    {
+     "id": "now",
+     "explain": "“{sig.w}” is a habit, so use the Simple Present."
+    },
+    {
+     "id": "no-be",
+     "explain": "An -ing verb alone is not a full verb: it needs am, is or are."
+    }
+   ],
+   "solution": [
+    "“{sig.w}” → {sig.now ? 'happening now: Present continuous' : 'a habit: Simple Present'}.",
+    "{S.t} {answer} {V.c} {sig.w}."
+   ]
+  },
+  {
+   "id": "e7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "present-continuous"
+   ],
+   "vars": {},
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Look! The children are running to the field.",
+      "truth": "true"
+     },
+     {
+      "text": "I am writing a letter to my uncle in Douala.",
+      "truth": "true"
+     },
+     {
+      "text": "Is Ayuk sleeping now?",
+      "truth": "true"
+     },
+     {
+      "text": "We aren't watching television at the moment.",
+      "truth": "true"
+     },
+     {
+      "text": "Mih is sitting under the mango tree.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bih is cook achu now.",
+      "truth": "false",
+      "explain": "After is, use the -ing form: Bih is cooking achu now."
+     },
+     {
+      "text": "They is playing football.",
+      "truth": "false",
+      "explain": "They takes are: They are playing football."
+     },
+     {
+      "text": "I am siting on the bench.",
+      "truth": "false",
+      "explain": "Sit → sitting: double the t after one short vowel."
+     },
+     {
+      "text": "Ewane is writeing a letter.",
+      "truth": "false",
+      "explain": "Write → writing: drop the final e."
+     },
+     {
+      "text": "Are you listen to me?",
+      "truth": "false",
+      "explain": "After are you, use the -ing form: Are you listening to me?"
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

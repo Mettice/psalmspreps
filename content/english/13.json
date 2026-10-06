@@ -1,0 +1,428 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "e13",
+   "name": "Talking about means of transport"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Means of transport carry people and goods from one place to another.\n• By road: car, taxi, bus, motorbike, lorry, bicycle.\n• By water: canoe, boat, ship, ferry.\n• By rail: train.\n• By air: plane, helicopter.\nWe say: “I go to school by taxi”, “by bus”, “by motorbike”. But: “I go on foot” or “I walk to school”.\nTo talk about a journey, ask and answer:\n• How do you travel to Bamenda? — I travel by bus.\n• How long does it take? — About one hour.\n• How much is the fare? — It is one thousand francs.\nStay safe: wear a helmet on a motorbike and a seat belt in a car.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Ayuk",
+   "f": "Ewane",
+   "t": "taxi",
+   "town": "Buea"
+  },
+  "problem": "{f} asks {n} how he comes to school. {n} takes a {t} from his house. Write their short conversation.",
+  "steps": [
+   "{f} asks with “How”: “How do you come to school?”",
+   "{n} answers with by + the means of transport: “I come by {t}.”",
+   "{f} asks about the time: “How long does it take?” — “About twenty minutes.”",
+   "If {n} walked, he would say “on foot”, not “by foot”."
+  ],
+  "answer": "“How do you come to school?” — “I come by {t}.”",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "Means of transport move by road, by water, by rail or by air.",
+    "vars": {},
+    "example": [
+     "Road: taxi, bus, motorbike. Water: canoe, ship.",
+     "Rail: train. Air: plane."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e13-sort"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Say “by” + the means of transport, with no a or the: by bus, by taxi, by train. But: on foot.",
+    "vars": {},
+    "example": [
+     "I go to school by motorbike.",
+     "Mih goes to school on foot."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e13-by"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "Ask about a journey with How (which transport), How long (time), How much (money) and Where (place).",
+    "vars": {
+     "town": "Bamenda"
+    },
+    "example": [
+     "How do you travel to {town}? — I travel by bus.",
+     "How much is the fare? — It is one thousand francs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e13-reply"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e13-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "groups": true,
+   "group_order": [
+    "road",
+    "water",
+    "rail",
+    "air"
+   ],
+   "pick": 6,
+   "prompt": "How does each one travel? Sort them.",
+   "pool": [
+    {
+     "left": "taxi",
+     "right": "road"
+    },
+    {
+     "left": "bus",
+     "right": "road"
+    },
+    {
+     "left": "motorbike",
+     "right": "road"
+    },
+    {
+     "left": "lorry",
+     "right": "road"
+    },
+    {
+     "left": "bicycle",
+     "right": "road"
+    },
+    {
+     "left": "car",
+     "right": "road"
+    },
+    {
+     "left": "canoe",
+     "right": "water"
+    },
+    {
+     "left": "boat",
+     "right": "water"
+    },
+    {
+     "left": "ship",
+     "right": "water"
+    },
+    {
+     "left": "ferry",
+     "right": "water"
+    },
+    {
+     "left": "train",
+     "right": "rail"
+    },
+    {
+     "left": "plane",
+     "right": "air"
+    },
+    {
+     "left": "helicopter",
+     "right": "air"
+    }
+   ]
+  },
+  {
+   "id": "e13-by",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "show": 3,
+   "vars": {
+    "t": {
+     "pick": [
+      {
+       "w": "taxi",
+       "p": "by"
+      },
+      {
+       "w": "bus",
+       "p": "by"
+      },
+      {
+       "w": "motorbike",
+       "p": "by"
+      },
+      {
+       "w": "train",
+       "p": "by"
+      },
+      {
+       "w": "bicycle",
+       "p": "by"
+      },
+      {
+       "w": "canoe",
+       "p": "by"
+      },
+      {
+       "w": "foot",
+       "p": "on"
+      }
+     ]
+    },
+    "n": {
+     "pick": [
+      "Ayuk",
+      "Bih",
+      "Ndi",
+      "Ewane",
+      "Manyi"
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{n} goes to school ___ {t.w}.",
+   "answer": "t.p",
+   "choices": [
+    {
+     "text": "by",
+     "misconception": "by"
+    },
+    {
+     "text": "on",
+     "misconception": "on"
+    },
+    {
+     "text": "with",
+     "misconception": "with"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "by",
+     "explain": "We say “on foot”, not “by foot”."
+    },
+    {
+     "id": "on",
+     "explain": "With a means of transport we say “by”: by {t.w}."
+    },
+    {
+     "id": "with",
+     "explain": "We do not say “with {t.w}”. Use by + the means of transport (but: on foot)."
+    }
+   ]
+  },
+  {
+   "id": "e13-reply",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      "bus",
+      "taxi",
+      "motorbike",
+      "train"
+     ]
+    },
+    "town": {
+     "pick": [
+      "Buea",
+      "Limbe",
+      "Kumba",
+      "Bamenda",
+      "Mamfe",
+      "Douala",
+      "Yaoundé"
+     ]
+    },
+    "x": {
+     "pick": [
+      {
+       "q": "How do you go to school?",
+       "r": "I go to school by {t}.",
+       "w": [
+        "I go to school at seven o'clock.",
+        "My school is in {town}.",
+        "Yes, I do."
+       ],
+       "why": "“How” asks about the means of transport."
+      },
+      {
+       "q": "How long does the journey take?",
+       "r": "It takes about one hour.",
+       "w": [
+        "I travel by {t}.",
+        "It costs five hundred francs.",
+        "It is in {town}."
+       ],
+       "why": "“How long” asks about time."
+      },
+      {
+       "q": "How much is the fare to {town}?",
+       "r": "It is one thousand francs.",
+       "w": [
+        "It takes about one hour.",
+        "I go by {t}.",
+        "It is very fast."
+       ],
+       "why": "“How much” asks about money (the fare)."
+      },
+      {
+       "q": "Where does this bus go?",
+       "r": "It goes to {town}.",
+       "w": [
+        "It goes by road.",
+        "It takes two hours.",
+        "Yes, it does."
+       ],
+       "why": "“Where” asks about a place."
+      }
+     ]
+    }
+   },
+   "prompt": "Someone asks: “{x.q}” What is the best answer?",
+   "correct": "{x.r}",
+   "distractors": [
+    {
+     "text": "{x.w[0]}",
+     "misconception": "off"
+    },
+    {
+     "text": "{x.w[1]}",
+     "misconception": "off"
+    },
+    {
+     "text": "{x.w[2]}",
+     "misconception": "off"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "off",
+     "explain": "That answer does not fit the question. {x.why}"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "“{x.q}” → “{answer}”"
+   ]
+  },
+  {
+   "id": "e13-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      "I go to school on foot.",
+      "We travelled to Bamenda by bus.",
+      "How do you travel to Limbe?",
+      "My father rides a motorbike to work.",
+      "Ships carry goods to the port of Douala.",
+      "How long does the journey take?"
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{x}"
+  },
+  {
+   "id": "e13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {},
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "We travelled to Buea by bus.",
+      "truth": "true"
+     },
+     {
+      "text": "My brother rides a motorbike to work.",
+      "truth": "true"
+     },
+     {
+      "text": "Ships carry goods to the port of Douala.",
+      "truth": "true"
+     },
+     {
+      "text": "I walk to school every day.",
+      "truth": "true"
+     },
+     {
+      "text": "Always wear a seat belt in a car.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "I go to school by foot.",
+      "truth": "false",
+      "explain": "We say “on foot”: I go to school on foot."
+     },
+     {
+      "text": "We travelled to Limbe on taxi.",
+      "truth": "false",
+      "explain": "With a means of transport we say “by”: by taxi."
+     },
+     {
+      "text": "A canoe travels by road.",
+      "truth": "false",
+      "explain": "A canoe travels by water."
+     },
+     {
+      "text": "We went to Douala by the train.",
+      "truth": "false",
+      "explain": "After by, no the: by train."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

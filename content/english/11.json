@@ -1,0 +1,1442 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  3,
+  5
+ ],
+ "skills": [
+  {
+   "id": "e11",
+   "name": "The Simple Past tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Simple Past tense for actions that finished in the past: yesterday, last week, last year, two days ago.\nRegular verbs add -ed: walk → walked, cook → cooked. Spelling: like → liked, carry → carried, stop → stopped, travel → travelled.\nIrregular verbs have their own past form: go → went, eat → ate, buy → bought, see → saw, take → took. Learn them by heart.\nThe past form is the same for every subject: I went, she went, they went. (Be: I, he, she, it was; we, you, they were.)\nNegative: didn't + the verb (no -ed): “Ayuk didn't go to school yesterday.” (Not: didn't went.)\nQuestion: Did + subject + the verb? “Did you see the match?” Short answers: “Yes, I did.” “No, I didn't.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Ebai",
+   "v": "travel",
+   "c": "to Douala",
+   "w": "go"
+  },
+  "problem": "Put the verbs in the Simple Past: “Last week, {n} ({v}) {c}. He ({w}) by bus.”",
+  "steps": [
+   "{v} is regular. After one vowel, British English doubles the final l: {v} → {past(v)}.",
+   "{w} is irregular: its past form is {past(w)}.",
+   "The past form is the same for every subject."
+  ],
+  "answer": "Last week, {n} {past(v)} {c}. He {past(w)} by bus.",
+  "checks": [
+   "past(v) == 'travelled'",
+   "past(w) == 'went'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "The Simple Past is for finished actions. Time words: yesterday, last week, two days ago.",
+    "vars": {},
+    "example": [
+     "Yesterday, Bih {past('cook')} achu.",
+     "Last week, we {past('go')} to Kumba."
+    ],
+    "checks": [],
+    "check": {
+     "id": "c11-1-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "simple-past"
+     ],
+     "show": 3,
+     "vars": {
+      "S": {
+       "pick": [
+        {
+         "t": "I",
+         "m": "I",
+         "s": {
+          "text": "I",
+          "person": 1,
+          "plural": false
+         }
+        },
+        {
+         "t": "You",
+         "m": "you",
+         "s": {
+          "text": "you",
+          "person": 2,
+          "plural": false
+         }
+        },
+        {
+         "t": "We",
+         "m": "we",
+         "s": {
+          "text": "we",
+          "person": 1,
+          "plural": true
+         }
+        },
+        {
+         "t": "They",
+         "m": "they",
+         "s": {
+          "text": "they",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "He",
+         "m": "he",
+         "s": {
+          "text": "he",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "She",
+         "m": "she",
+         "s": {
+          "text": "she",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Bih",
+         "m": "Bih",
+         "s": {
+          "text": "Bih",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Ayuk",
+         "m": "Ayuk",
+         "s": {
+          "text": "Ayuk",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "My mother",
+         "m": "my mother",
+         "s": {
+          "text": "my mother",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Our teacher",
+         "m": "our teacher",
+         "s": {
+          "text": "our teacher",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Tabe and Ndi",
+         "m": "Tabe and Ndi",
+         "s": {
+          "text": "Tabe and Ndi",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "My cousins",
+         "m": "my cousins",
+         "s": {
+          "text": "my cousins",
+          "person": 3,
+          "plural": true
+         }
+        }
+       ]
+      },
+      "V": {
+       "pick": [
+        {
+         "v": "cook",
+         "c": "achu"
+        },
+        {
+         "v": "wash",
+         "c": "the plates"
+        },
+        {
+         "v": "visit",
+         "c": "our grandmother"
+        },
+        {
+         "v": "travel",
+         "c": "to Douala"
+        },
+        {
+         "v": "carry",
+         "c": "the bags"
+        },
+        {
+         "v": "stop",
+         "c": "the taxi"
+        },
+        {
+         "v": "play",
+         "c": "football"
+        },
+        {
+         "v": "clean",
+         "c": "the house"
+        },
+        {
+         "v": "go",
+         "c": "to Kumba"
+        },
+        {
+         "v": "eat",
+         "c": "eru"
+        },
+        {
+         "v": "buy",
+         "c": "plantains"
+        },
+        {
+         "v": "see",
+         "c": "a big snake"
+        },
+        {
+         "v": "take",
+         "c": "a taxi"
+        },
+        {
+         "v": "write",
+         "c": "a letter"
+        },
+        {
+         "v": "meet",
+         "c": "the Principal"
+        },
+        {
+         "v": "sell",
+         "c": "oranges"
+        },
+        {
+         "v": "swim",
+         "c": "in the river"
+        },
+        {
+         "v": "bring",
+         "c": "my books"
+        }
+       ]
+      },
+      "T": {
+       "pick": [
+        "yesterday",
+        "last week",
+        "last Saturday",
+        "two days ago",
+        "last year"
+       ]
+      }
+     },
+     "prompt": "Choose the verb that fits.",
+     "text": "{cap(T)}, {S.m} ___ {V.c}.",
+     "answer": "past(V.v)",
+     "choices": [
+      {
+       "text": "{presentFor(S.s, V.v)}",
+       "misconception": "present"
+      },
+      {
+       "text": "{V.v}",
+       "misconception": "present"
+      },
+      {
+       "text": "{beFor(S.s)} {ing(V.v)}",
+       "misconception": "now"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "present",
+       "explain": "“{T}” is in the past: use the Simple Past."
+      },
+      {
+       "id": "now",
+       "explain": "-ing with am, is or are is for now. “{T}” is in the past."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Regular verbs add -ed. A final e adds only -d; a consonant + y becomes -ied; after one short vowel the last letter doubles.",
+    "vars": {},
+    "example": [
+     "cook → {past('cook')}, like → {past('like')}",
+     "carry → {past('carry')}, stop → {past('stop')}",
+     "travel → {past('travel')} (British English)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e11-ed"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "Irregular verbs have their own past form. Learn them by heart.",
+    "vars": {},
+    "example": [
+     "go → {past('go')}, eat → {past('eat')}, buy → {past('buy')}",
+     "see → {past('see')}, take → {past('take')}, write → {past('write')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e11-irregular"
+    }
+   },
+   {
+    "id": "c11-4",
+    "status": "draft",
+    "idea": "Negative: didn't + the verb without -ed. Question: Did + subject + the verb?",
+    "vars": {},
+    "example": [
+     "Ayuk didn't go to school yesterday. (Not: didn't went.)",
+     "Did you see the match? — Yes, I did."
+    ],
+    "checks": [],
+    "check": {
+     "id": "c11-4-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "simple-past"
+     ],
+     "show": 3,
+     "vars": {
+      "S": {
+       "pick": [
+        {
+         "t": "I",
+         "m": "I",
+         "s": {
+          "text": "I",
+          "person": 1,
+          "plural": false
+         }
+        },
+        {
+         "t": "You",
+         "m": "you",
+         "s": {
+          "text": "you",
+          "person": 2,
+          "plural": false
+         }
+        },
+        {
+         "t": "We",
+         "m": "we",
+         "s": {
+          "text": "we",
+          "person": 1,
+          "plural": true
+         }
+        },
+        {
+         "t": "They",
+         "m": "they",
+         "s": {
+          "text": "they",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "He",
+         "m": "he",
+         "s": {
+          "text": "he",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "She",
+         "m": "she",
+         "s": {
+          "text": "she",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Bih",
+         "m": "Bih",
+         "s": {
+          "text": "Bih",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Ayuk",
+         "m": "Ayuk",
+         "s": {
+          "text": "Ayuk",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "My mother",
+         "m": "my mother",
+         "s": {
+          "text": "my mother",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Our teacher",
+         "m": "our teacher",
+         "s": {
+          "text": "our teacher",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Tabe and Ndi",
+         "m": "Tabe and Ndi",
+         "s": {
+          "text": "Tabe and Ndi",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "My cousins",
+         "m": "my cousins",
+         "s": {
+          "text": "my cousins",
+          "person": 3,
+          "plural": true
+         }
+        }
+       ]
+      },
+      "V": {
+       "pick": [
+        {
+         "v": "cook",
+         "c": "achu"
+        },
+        {
+         "v": "wash",
+         "c": "the plates"
+        },
+        {
+         "v": "visit",
+         "c": "our grandmother"
+        },
+        {
+         "v": "travel",
+         "c": "to Douala"
+        },
+        {
+         "v": "carry",
+         "c": "the bags"
+        },
+        {
+         "v": "stop",
+         "c": "the taxi"
+        },
+        {
+         "v": "play",
+         "c": "football"
+        },
+        {
+         "v": "clean",
+         "c": "the house"
+        },
+        {
+         "v": "go",
+         "c": "to Kumba"
+        },
+        {
+         "v": "eat",
+         "c": "eru"
+        },
+        {
+         "v": "buy",
+         "c": "plantains"
+        },
+        {
+         "v": "see",
+         "c": "a big snake"
+        },
+        {
+         "v": "take",
+         "c": "a taxi"
+        },
+        {
+         "v": "write",
+         "c": "a letter"
+        },
+        {
+         "v": "meet",
+         "c": "the Principal"
+        },
+        {
+         "v": "sell",
+         "c": "oranges"
+        },
+        {
+         "v": "swim",
+         "c": "in the river"
+        },
+        {
+         "v": "bring",
+         "c": "my books"
+        }
+       ]
+      },
+      "T": {
+       "pick": [
+        "yesterday",
+        "last week",
+        "last Saturday",
+        "two days ago",
+        "last year"
+       ]
+      }
+     },
+     "where": "S.t != 'I'",
+     "prompt": "Choose the word that starts the question.",
+     "text": "___ {S.m} {V.v} {V.c} {T}?",
+     "answer": "'Did'",
+     "choices": [
+      {
+       "text": "Do",
+       "misconception": "present"
+      },
+      {
+       "text": "Does",
+       "misconception": "present"
+      },
+      {
+       "text": "Was",
+       "misconception": "be"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "present",
+       "explain": "“{T}” is in the past: the question starts with Did."
+      },
+      {
+       "id": "be",
+       "explain": "With a verb like {V.v}, a past question starts with Did."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e11-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simple-past",
+    "irregular-verbs"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "cook",
+       "c": "achu"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "visit",
+       "c": "our grandmother"
+      },
+      {
+       "v": "travel",
+       "c": "to Douala"
+      },
+      {
+       "v": "carry",
+       "c": "the bags"
+      },
+      {
+       "v": "stop",
+       "c": "the taxi"
+      },
+      {
+       "v": "play",
+       "c": "football"
+      },
+      {
+       "v": "clean",
+       "c": "the house"
+      },
+      {
+       "v": "go",
+       "c": "to Kumba"
+      },
+      {
+       "v": "eat",
+       "c": "eru"
+      },
+      {
+       "v": "buy",
+       "c": "plantains"
+      },
+      {
+       "v": "see",
+       "c": "a big snake"
+      },
+      {
+       "v": "take",
+       "c": "a taxi"
+      },
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "meet",
+       "c": "the Principal"
+      },
+      {
+       "v": "sell",
+       "c": "oranges"
+      },
+      {
+       "v": "swim",
+       "c": "in the river"
+      },
+      {
+       "v": "bring",
+       "c": "my books"
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      "yesterday",
+      "last week",
+      "last Saturday",
+      "two days ago",
+      "last year"
+     ]
+    }
+   },
+   "prompt": "Write the verb in brackets in the Simple Past.",
+   "text": "{S.t} ___ ({V.v}) {V.c} {T}.",
+   "answer": "past(V.v)",
+   "misconceptions": [
+    {
+     "id": "regularised",
+     "when": "isIrregular(V.v)",
+     "wrong": "regularPast(V.v)",
+     "explain": "{V.v} is irregular: it does not add -ed."
+    },
+    {
+     "id": "base",
+     "wrong": [
+      "V.v",
+      "presentFor(S.s, V.v)"
+     ],
+     "explain": "“{T}” is in the past: the verb must be in the past form."
+    },
+    {
+     "id": "spelling",
+     "when": "!isIrregular(V.v)",
+     "wrong": "V.v + 'ed'",
+     "explain": "Right idea, but check the spelling: {V.v} → {past(V.v)}."
+    }
+   ],
+   "solution": [
+    "{V.v} is {isIrregular(V.v) ? 'irregular: its past form is ' + past(V.v) : 'regular: ' + V.v + ' → ' + past(V.v)}.",
+    "{S.t} {answer} {V.c} {T}."
+   ]
+  },
+  {
+   "id": "e11-ed",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "like",
+      "dance",
+      "carry",
+      "study",
+      "cry",
+      "play",
+      "stay",
+      "stop",
+      "plan",
+      "chat",
+      "travel",
+      "visit",
+      "open",
+      "listen",
+      "cook",
+      "clean",
+      "arrive",
+      "jog"
+     ]
+    }
+   },
+   "prompt": "Write the past form.",
+   "text": "{v} → ___",
+   "answer": "past(v)",
+   "misconceptions": [
+    {
+     "id": "plain",
+     "wrong": "v + 'ed'",
+     "explain": "Check the spelling rule for {v}: e → -d, consonant + y → -ied, or double the last letter."
+    }
+   ],
+   "solution": [
+    "{v} → {answer}"
+   ]
+  },
+  {
+   "id": "e11-irregular",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "irregular-verbs"
+   ],
+   "pick": 4,
+   "prompt": "Match each verb with its past form.",
+   "pool": [
+    {
+     "left": "go",
+     "right": "{past('go')}"
+    },
+    {
+     "left": "eat",
+     "right": "{past('eat')}"
+    },
+    {
+     "left": "buy",
+     "right": "{past('buy')}"
+    },
+    {
+     "left": "see",
+     "right": "{past('see')}"
+    },
+    {
+     "left": "take",
+     "right": "{past('take')}"
+    },
+    {
+     "left": "write",
+     "right": "{past('write')}"
+    },
+    {
+     "left": "come",
+     "right": "{past('come')}"
+    },
+    {
+     "left": "drink",
+     "right": "{past('drink')}"
+    },
+    {
+     "left": "sell",
+     "right": "{past('sell')}"
+    },
+    {
+     "left": "meet",
+     "right": "{past('meet')}"
+    },
+    {
+     "left": "swim",
+     "right": "{past('swim')}"
+    },
+    {
+     "left": "bring",
+     "right": "{past('bring')}"
+    },
+    {
+     "left": "think",
+     "right": "{past('think')}"
+    },
+    {
+     "left": "speak",
+     "right": "{past('speak')}"
+    },
+    {
+     "left": "sleep",
+     "right": "{past('sleep')}"
+    },
+    {
+     "left": "pay",
+     "right": "{past('pay')}"
+    }
+   ]
+  },
+  {
+   "id": "e11-negative",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simple-past"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "cook",
+       "c": "achu"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "visit",
+       "c": "our grandmother"
+      },
+      {
+       "v": "travel",
+       "c": "to Douala"
+      },
+      {
+       "v": "carry",
+       "c": "the bags"
+      },
+      {
+       "v": "stop",
+       "c": "the taxi"
+      },
+      {
+       "v": "play",
+       "c": "football"
+      },
+      {
+       "v": "clean",
+       "c": "the house"
+      },
+      {
+       "v": "go",
+       "c": "to Kumba"
+      },
+      {
+       "v": "eat",
+       "c": "eru"
+      },
+      {
+       "v": "buy",
+       "c": "plantains"
+      },
+      {
+       "v": "see",
+       "c": "a big snake"
+      },
+      {
+       "v": "take",
+       "c": "a taxi"
+      },
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "meet",
+       "c": "the Principal"
+      },
+      {
+       "v": "sell",
+       "c": "oranges"
+      },
+      {
+       "v": "swim",
+       "c": "in the river"
+      },
+      {
+       "v": "bring",
+       "c": "my books"
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      "yesterday",
+      "last week",
+      "last Saturday",
+      "two days ago",
+      "last year"
+     ]
+    }
+   },
+   "prompt": "Write the verb in brackets in the negative.",
+   "text": "{S.t} ___ ({V.v}) {V.c} {T}.",
+   "answer": "\"didn't \" + V.v",
+   "accept": [
+    "'did not ' + V.v"
+   ],
+   "misconceptions": [
+    {
+     "id": "double-past",
+     "wrong": [
+      "\"didn't \" + past(V.v)",
+      "'did not ' + past(V.v)"
+     ],
+     "explain": "After didn't, use the verb without -ed: didn't {V.v}."
+    },
+    {
+     "id": "present-neg",
+     "wrong": "dontFor(S.s) + ' ' + V.v",
+     "explain": "“{T}” is in the past: use didn't."
+    }
+   ],
+   "solution": [
+    "Negative in the past: didn't + {V.v}.",
+    "{S.t} {answer} {V.c} {T}."
+   ]
+  },
+  {
+   "id": "e11-question",
+   "type": "word_order",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simple-past"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "cook",
+       "c": "achu"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "visit",
+       "c": "our grandmother"
+      },
+      {
+       "v": "travel",
+       "c": "to Douala"
+      },
+      {
+       "v": "carry",
+       "c": "the bags"
+      },
+      {
+       "v": "stop",
+       "c": "the taxi"
+      },
+      {
+       "v": "play",
+       "c": "football"
+      },
+      {
+       "v": "clean",
+       "c": "the house"
+      },
+      {
+       "v": "go",
+       "c": "to Kumba"
+      },
+      {
+       "v": "eat",
+       "c": "eru"
+      },
+      {
+       "v": "buy",
+       "c": "plantains"
+      },
+      {
+       "v": "see",
+       "c": "a big snake"
+      },
+      {
+       "v": "take",
+       "c": "a taxi"
+      },
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "meet",
+       "c": "the Principal"
+      },
+      {
+       "v": "sell",
+       "c": "oranges"
+      },
+      {
+       "v": "swim",
+       "c": "in the river"
+      },
+      {
+       "v": "bring",
+       "c": "my books"
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      "yesterday",
+      "last week",
+      "last Saturday",
+      "two days ago",
+      "last year"
+     ]
+    }
+   },
+   "where": "S.t != 'I'",
+   "prompt": "Tap the words to make a question.",
+   "answer": "Did {S.m} {V.v} {V.c} {T}?"
+  },
+  {
+   "id": "e11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "simple-past"
+   ],
+   "vars": {},
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Last Saturday, Ndi travelled to Douala.",
+      "truth": "true"
+     },
+     {
+      "text": "Did you eat eru yesterday?",
+      "truth": "true"
+     },
+     {
+      "text": "We didn't go to school on Monday.",
+      "truth": "true"
+     },
+     {
+      "text": "Ashu bought plantains at the market.",
+      "truth": "true"
+     },
+     {
+      "text": "The rain stopped at noon.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Yesterday Ebai goed to the farm.",
+      "truth": "false",
+      "explain": "Go is irregular: Yesterday Ebai went to the farm."
+     },
+     {
+      "text": "Did Tabe saw the snake?",
+      "truth": "false",
+      "explain": "After did, use the verb as it is: Did Tabe see the snake?"
+     },
+     {
+      "text": "I didn't went to church.",
+      "truth": "false",
+      "explain": "After didn't, use the verb as it is: I didn't go to church."
+     },
+     {
+      "text": "Mih carryed the bucket.",
+      "truth": "false",
+      "explain": "Carry → carried (consonant + y becomes -ied)."
+     },
+     {
+      "text": "Last week we visit our uncle.",
+      "truth": "false",
+      "explain": "Last week is in the past: we visited our uncle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

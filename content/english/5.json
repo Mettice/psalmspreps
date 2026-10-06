@@ -1,0 +1,721 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "e5",
+   "name": "Reading timetables, notices and accounts; irregular verbs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Reading a timetable: find the day, then the time. The lesson next to that time is the answer.\nReading a notice: a notice tells who it is for, what will happen, when, where, and what to bring. The person who wrote it signs at the bottom.\nReading an account: an account tells what happened, in order. Look for time words such as first, then, at ten o'clock, in the end.\nAccounts of past events use the past tense. Many common verbs are irregular: they do not add -ed. Learn them:\ngo → went, come → came, take → took, eat → ate, bring → brought, see → saw, give → gave, buy → bought, write → wrote, sit → sat, run → ran, cut → cut.\n“We came at eight o'clock.” (Not: comed.)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "text": "Last Saturday, the Form One pupils cleaned the school compound. They came at eight o'clock. Some pupils cut the grass, others swept the classrooms, and Tabe and Bih carried the rubbish to the pit. At ten o'clock, the Principal gave everyone bread and a drink. The pupils went home at noon, tired but happy."
+  },
+  "problem": "Read the account, then answer: what did the Principal do at ten o'clock?\n{text}",
+  "steps": [
+   "Look for the time words “ten o'clock” in the account.",
+   "Read the sentence that holds them: “At ten o'clock, the Principal gave everyone bread and a drink.”",
+   "“Gave” is the past of the irregular verb give."
+  ],
+  "answer": "The Principal gave everyone bread and a drink.",
+  "checks": [
+   "past('give') == 'gave'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "A timetable shows what happens at each time. Find the time, then read across to the lesson.",
+    "vars": {
+     "times": [
+      "7:30",
+      "8:30",
+      "9:30"
+     ],
+     "subs": [
+      "Mathematics",
+      "English",
+      "Biology"
+     ]
+    },
+    "example": [
+     "{times[0]}  {subs[0]}",
+     "{times[1]}  {subs[1]}",
+     "{times[2]}  {subs[2]}",
+     "At {times[1]}, Form One has {subs[1]}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-timetable"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "A notice tells: who it is for, what will happen, when, where, and what to bring. The writer signs at the bottom.",
+    "vars": {
+     "what": "football practice"
+    },
+    "example": [
+     "NOTICE — To: all Form One pupils. There will be a {what} on Wednesday at four o'clock. Meet at the school field. Bring your sports kit. — The Sports Master",
+     "What? A {what}. When? Wednesday at four o'clock. Where? The school field."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-notice"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "Accounts of past events use the past tense. Irregular verbs do not add -ed: each has its own past form.",
+    "vars": {},
+    "example": [
+     "go → {past('go')}, come → {past('come')}, take → {past('take')}, eat → {past('eat')}",
+     "We {past('come')} at eight o'clock. (Not: comed.)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-irregular"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-timetable",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "reading"
+   ],
+   "vars": {
+    "day": {
+     "pick": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+     ]
+    },
+    "times": {
+     "expr": "['7:30', '8:30', '9:30', '10:30', '11:30']"
+    },
+    "subs": {
+     "sample": [
+      "['Mathematics', 'English', 'French', 'Biology', 'History', 'Geography', 'Computer Science', 'Physics', 'Chemistry', 'Citizenship', 'Sports']",
+      5
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      4
+     ]
+    }
+   },
+   "prompt": "Form One timetable for {day}:\n{timetable(times, subs)}\nWhich lesson is at {times[k]}?",
+   "correct": "{subs[k]}",
+   "distractors": [
+    {
+     "text": "{subs[(k + 1) % 5]}",
+     "misconception": "row"
+    },
+    {
+     "text": "{subs[(k + 2) % 5]}",
+     "misconception": "row"
+    },
+    {
+     "text": "{subs[(k + 4) % 5]}",
+     "misconception": "row"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "row",
+     "explain": "That lesson is at another time. Find {times[k]} first, then read across."
+    }
+   ],
+   "solution": [
+    "Find {times[k]} in the timetable.",
+    "Read across: at {times[k]} the lesson is {answer}."
+   ]
+  },
+  {
+   "id": "e5-after",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "reading"
+   ],
+   "vars": {
+    "day": {
+     "pick": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+     ]
+    },
+    "times": {
+     "expr": "['7:30', '8:30', '9:30', '10:30', '11:30']"
+    },
+    "subs": {
+     "sample": [
+      "['Mathematics', 'English', 'French', 'Biology', 'History', 'Geography', 'Computer Science', 'Physics', 'Chemistry', 'Citizenship', 'Sports']",
+      5
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      3
+     ]
+    }
+   },
+   "prompt": "Form One timetable for {day}:\n{timetable(times, subs)}\nWhich lesson comes just after {subs[k]}?",
+   "correct": "{subs[k + 1]}",
+   "distractors": [
+    {
+     "text": "{subs[k]}",
+     "misconception": "same"
+    },
+    {
+     "text": "{subs[(k + 2) % 5]}",
+     "misconception": "skip"
+    },
+    {
+     "text": "{subs[(k + 4) % 5]}",
+     "misconception": "skip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "same",
+     "explain": "That is the lesson named in the question. Look at the next line down."
+    },
+    {
+     "id": "skip",
+     "explain": "Find {subs[k]} ({times[k]}), then look at the very next line."
+    }
+   ],
+   "solution": [
+    "{subs[k]} is at {times[k]}.",
+    "The next line is {times[k + 1]}: {answer}."
+   ]
+  },
+  {
+   "id": "e5-notice",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "reading"
+   ],
+   "vars": {
+    "ev": {
+     "pick": [
+      {
+       "what": "visit to the Limbe Botanic Garden",
+       "where": "the school gate",
+       "bring": "a pen and a notebook"
+      },
+      {
+       "what": "football match against our neighbour school",
+       "where": "the school field",
+       "bring": "your sports kit"
+      },
+      {
+       "what": "health talk by the school nurse",
+       "where": "the school hall",
+       "bring": "a notebook"
+      },
+      {
+       "what": "cleaning of the school compound",
+       "where": "the school field",
+       "bring": "a broom"
+      },
+      {
+       "what": "reading competition",
+       "where": "the library",
+       "bring": "your favourite story book"
+      }
+     ]
+    },
+    "day": {
+     "pick": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+     ]
+    },
+    "time": {
+     "pick": [
+      "eight o'clock",
+      "ten o'clock",
+      "two o'clock in the afternoon"
+     ]
+    },
+    "writer": {
+     "pick": [
+      "The Principal",
+      "The Vice Principal",
+      "The Sports Master",
+      "The Discipline Master"
+     ]
+    },
+    "qn": {
+     "int": [
+      0,
+      3
+     ]
+    }
+   },
+   "prompt": "NOTICE\nTo: all Form One pupils\nThere will be a {ev.what} on {day} at {time}. Meet at {ev.where}. Bring {ev.bring}.\n{writer}\n{['What will happen?', 'When is it?', 'Where must the pupils meet?', 'What must the pupils bring?'][qn]}",
+   "correct": "{[ev.what, day + ' at ' + time, ev.where, ev.bring][qn]}",
+   "distractors": [
+    {
+     "text": "{[ev.what, day + ' at ' + time, ev.where, ev.bring][(qn + 1) % 4]}",
+     "misconception": "part"
+    },
+    {
+     "text": "{[ev.what, day + ' at ' + time, ev.where, ev.bring][(qn + 2) % 4]}",
+     "misconception": "part"
+    },
+    {
+     "text": "{[ev.what, day + ' at ' + time, ev.where, ev.bring][(qn + 3) % 4]}",
+     "misconception": "part"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "part",
+     "explain": "That is another part of the notice. Read the question again: {['What will happen?', 'When is it?', 'Where must the pupils meet?', 'What must the pupils bring?'][qn]}"
+    }
+   ],
+   "solution": [
+    "The question: {['What will happen?', 'When is it?', 'Where must the pupils meet?', 'What must the pupils bring?'][qn]}",
+    "The notice says: {answer}."
+   ]
+  },
+  {
+   "id": "e5-account",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading"
+   ],
+   "vars": {
+    "text": "Last Saturday, the Form One pupils cleaned the school compound. They came at eight o'clock. Some pupils cut the grass, others swept the classrooms, and Tabe and Bih carried the rubbish to the pit. At ten o'clock, the Principal gave everyone bread and a drink. The pupils went home at noon, tired but happy."
+   },
+   "prompt": "{text}\nWhich sentence is true, from the account?",
+   "pool": {
+    "right": [
+     {
+      "text": "The pupils cleaned the school compound on Saturday.",
+      "truth": "true"
+     },
+     {
+      "text": "Tabe and Bih carried the rubbish to the pit.",
+      "truth": "true"
+     },
+     {
+      "text": "The Principal gave everyone bread and a drink.",
+      "truth": "true"
+     },
+     {
+      "text": "The pupils went home at noon.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The pupils came at ten o'clock.",
+      "truth": "false",
+      "explain": "They came at eight o'clock. Ten o'clock was the time of the bread and drink."
+     },
+     {
+      "text": "Only the boys cut the grass.",
+      "truth": "false",
+      "explain": "The account says “some pupils” cut the grass."
+     },
+     {
+      "text": "The pupils cleaned the market.",
+      "truth": "false",
+      "explain": "They cleaned the school compound."
+     },
+     {
+      "text": "The pupils went home on Sunday.",
+      "truth": "false",
+      "explain": "They went home at noon on Saturday."
+     },
+     {
+      "text": "The pupils were sad at the end.",
+      "truth": "false",
+      "explain": "They went home “tired but happy”."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "e5-irregular",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "irregular-verbs"
+   ],
+   "pick": 4,
+   "prompt": "Match each verb with its past form.",
+   "pool": [
+    {
+     "left": "go",
+     "right": "{past('go')}"
+    },
+    {
+     "left": "come",
+     "right": "{past('come')}"
+    },
+    {
+     "left": "take",
+     "right": "{past('take')}"
+    },
+    {
+     "left": "eat",
+     "right": "{past('eat')}"
+    },
+    {
+     "left": "bring",
+     "right": "{past('bring')}"
+    },
+    {
+     "left": "see",
+     "right": "{past('see')}"
+    },
+    {
+     "left": "give",
+     "right": "{past('give')}"
+    },
+    {
+     "left": "buy",
+     "right": "{past('buy')}"
+    },
+    {
+     "left": "write",
+     "right": "{past('write')}"
+    },
+    {
+     "left": "sit",
+     "right": "{past('sit')}"
+    },
+    {
+     "left": "run",
+     "right": "{past('run')}"
+    },
+    {
+     "left": "sing",
+     "right": "{past('sing')}"
+    },
+    {
+     "left": "drink",
+     "right": "{past('drink')}"
+    },
+    {
+     "left": "wake",
+     "right": "{past('wake')}"
+    },
+    {
+     "left": "meet",
+     "right": "{past('meet')}"
+    },
+    {
+     "left": "teach",
+     "right": "{past('teach')}"
+    },
+    {
+     "left": "sell",
+     "right": "{past('sell')}"
+    },
+    {
+     "left": "tell",
+     "right": "{past('tell')}"
+    },
+    {
+     "left": "cut",
+     "right": "{past('cut')}"
+    }
+   ]
+  },
+  {
+   "id": "e5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "irregular-verbs"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      {
+       "v": "go",
+       "c": "to the library"
+      },
+      {
+       "v": "come",
+       "c": "to school early"
+      },
+      {
+       "v": "take",
+       "c": "a taxi to Buea"
+      },
+      {
+       "v": "eat",
+       "c": "rice and beans"
+      },
+      {
+       "v": "bring",
+       "c": "a football"
+      },
+      {
+       "v": "see",
+       "c": "the new teacher"
+      },
+      {
+       "v": "buy",
+       "c": "new exercise books"
+      },
+      {
+       "v": "write",
+       "c": "a letter to the Principal"
+      },
+      {
+       "v": "run",
+       "c": "round the field"
+      },
+      {
+       "v": "sit",
+       "c": "under the mango tree"
+      },
+      {
+       "v": "drink",
+       "c": "cold water"
+      },
+      {
+       "v": "sing",
+       "c": "a song in the hall"
+      }
+     ]
+    },
+    "b": {
+     "pick": [
+      {
+       "v": "go",
+       "c": "to the library"
+      },
+      {
+       "v": "come",
+       "c": "to school early"
+      },
+      {
+       "v": "take",
+       "c": "a taxi to Buea"
+      },
+      {
+       "v": "eat",
+       "c": "rice and beans"
+      },
+      {
+       "v": "bring",
+       "c": "a football"
+      },
+      {
+       "v": "see",
+       "c": "the new teacher"
+      },
+      {
+       "v": "buy",
+       "c": "new exercise books"
+      },
+      {
+       "v": "write",
+       "c": "a letter to the Principal"
+      },
+      {
+       "v": "run",
+       "c": "round the field"
+      },
+      {
+       "v": "sit",
+       "c": "under the mango tree"
+      },
+      {
+       "v": "drink",
+       "c": "cold water"
+      },
+      {
+       "v": "sing",
+       "c": "a song in the hall"
+      }
+     ]
+    },
+    "c": {
+     "pick": [
+      {
+       "v": "go",
+       "c": "to the library"
+      },
+      {
+       "v": "come",
+       "c": "to school early"
+      },
+      {
+       "v": "take",
+       "c": "a taxi to Buea"
+      },
+      {
+       "v": "eat",
+       "c": "rice and beans"
+      },
+      {
+       "v": "bring",
+       "c": "a football"
+      },
+      {
+       "v": "see",
+       "c": "the new teacher"
+      },
+      {
+       "v": "buy",
+       "c": "new exercise books"
+      },
+      {
+       "v": "write",
+       "c": "a letter to the Principal"
+      },
+      {
+       "v": "run",
+       "c": "round the field"
+      },
+      {
+       "v": "sit",
+       "c": "under the mango tree"
+      },
+      {
+       "v": "drink",
+       "c": "cold water"
+      },
+      {
+       "v": "sing",
+       "c": "a song in the hall"
+      }
+     ]
+    },
+    "d": {
+     "pick": [
+      {
+       "v": "go",
+       "c": "to the library"
+      },
+      {
+       "v": "come",
+       "c": "to school early"
+      },
+      {
+       "v": "take",
+       "c": "a taxi to Buea"
+      },
+      {
+       "v": "eat",
+       "c": "rice and beans"
+      },
+      {
+       "v": "bring",
+       "c": "a football"
+      },
+      {
+       "v": "see",
+       "c": "the new teacher"
+      },
+      {
+       "v": "buy",
+       "c": "new exercise books"
+      },
+      {
+       "v": "write",
+       "c": "a letter to the Principal"
+      },
+      {
+       "v": "run",
+       "c": "round the field"
+      },
+      {
+       "v": "sit",
+       "c": "under the mango tree"
+      },
+      {
+       "v": "drink",
+       "c": "cold water"
+      },
+      {
+       "v": "sing",
+       "c": "a song in the hall"
+      }
+     ]
+    }
+   },
+   "where": "a.v != b.v && a.v != c.v && a.v != d.v && b.v != c.v && b.v != d.v && c.v != d.v",
+   "prompt": "One sentence uses a wrong past form. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Last week, Form One {past(a.v)} {a.c}.",
+      "truth": "past(a.v) != regularPast(a.v)"
+     },
+     {
+      "text": "Yesterday, Ewane {past(b.v)} {b.c}.",
+      "truth": "past(b.v) != regularPast(b.v)"
+     },
+     {
+      "text": "On Friday, the girls {past(c.v)} {c.c}.",
+      "truth": "past(c.v) != regularPast(c.v)"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On Monday, Ndi {regularPast(d.v)} {d.c}.",
+      "truth": "regularPast(d.v) == past(d.v)",
+      "explain": "{d.v} is an irregular verb: its past is {past(d.v)}, not {regularPast(d.v)}."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

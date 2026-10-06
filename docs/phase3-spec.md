@@ -91,3 +91,44 @@ The readiness check runs once. Published as the site's `index.html`; `/lesson3/`
 - All notes, teach cards and worked examples are `status: draft`.
 - Conventions pending review: [AB) notation, orthogonal = perpendicular in a plane, number style (teacher-review A01–A03).
 - 19 authored questions await review in `content/maths/AUTHORED.md`.
+
+## 10. English and the new question types (Dion, 2026-10-06)
+
+- **Engine first, tests before content.** New template types in `src/engine/template.js`, all answers checked against
+  exact accepted lists:
+  - `cloze`: one `___` blank. With `choices` it is shown like multiple choice; without, the pupil types. Typed answers
+    are case-insensitive, outer and repeated spaces are ignored, curly apostrophes count as straight ones; spaces inside
+    the answer still matter. The keyboard is the text keyboard.
+  - `word_order`: the pupil taps word tiles into a sentence. The final . ? or ! is not a tile. Any listed correct order is
+    accepted; capital letters are ignored when checking.
+  - `matching`: pairs (left → right), all must be right; wrong pairs are reported. With `groups: true` it becomes
+    "sort into groups". UI at 360 px: tap a left item, then a right item (no dragging).
+- **Writing lessons are paper tasks** (`paper_task`): prompt → the pupil writes in the exercise book → "I have written
+  it" → model answer + self-check list. No auto-marking; mastery for the lesson stays `unknown` (`isAutoMarked()`).
+  Steps: cards → worked example → paper task → note.
+- **Speech-work lessons are deferred** (`status: "deferred"`): hidden from the pupil, no teach steps, and never shown
+  or recorded in the weekly coverage checklist (`checklistLessons()`, `applyChecklist(state, answers, deferred)`).
+- **Libraries per subject:** English templates use `{...maths, ...english}` (`src/engine/lib/english.js` adds word
+  forms, subject agreement, a/an, plurals, ordinal words, dates and timetable helpers).
+- **Skills are named per subject** (`e3`, not `m3`): every English lesson declares `skills`.
+- **Prompts may have line breaks** (timetables, notices, invitations): the UI must show them (`white-space: pre-line`).
+- Not yet in the app: the prototype renders mcq, numeric, spot-the-error and ordering only. The three new types and
+  the paper flow need UI before English can go in front of the pupil.
+
+**Changed 2026-10-06 (Dion: "build the screens for English, then release Batch E1"):** the app is now
+`tools/prototype/form1.html` with Maths and English (subject tabs on the lesson menu). Every interaction is a tap, never a drag:
+- Word order: tap a word to add it to the sentence; tap a word in the sentence to send it back. Tiles wrap at 360 px
+  (tested with 15 words); the final . ? or ! sits after the last tile; "Check" works only when every word is placed.
+- Matching: tap a left item, then a right item; the pair gets the same number badge; tap either item of a pair to undo it.
+  Sorting: tap a word, then tap its group; tap a word inside a group to take it out.
+- Cloze: the blank sits inside the sentence. Typed answers use the same answer box as numbers (Enter or "Check"), with
+  the text keyboard and with autocorrect, auto-capitals and spellcheck off so the phone cannot correct the pupil.
+- Paper task: the task → "I've written it" → model answer + self-check list. Ticks are saved with the lesson and appear
+  only in "Copy results"; nothing is scored and mastery stays unknown.
+- Deferred lessons (English 4, 8, 12) are not shipped at all: no content, no title, not in the menu.
+- "Copy results" and "Copy all results" list Maths and English with the same fields, plus the paper-task ticks.
+- Same motion, 48 px tap targets (tiles also 48 px wide) and reduced-motion rules as Maths. Size limit 448 KB (about
+  368 KB now; the Phase 3 budget for the whole app stays 2 MB).
+- Saved progress moved to version 2 (lessons keyed "maths:3", "english:3"; one lesson in progress per subject). A
+  version-1 save (Maths only) is upgraded in place under the same key, so the pupil keeps his ticks; a damaged
+  lesson-in-progress is dropped rather than breaking the page.

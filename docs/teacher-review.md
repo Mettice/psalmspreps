@@ -14,12 +14,13 @@ Context (2026-10-02): the pupil has missed most of this term, so the app is his 
 teacher, not revision. No exercise-book check is possible; teachers review later.
 
 Related files: `content/maths/AUTHORED.md` (every authored question, all variants, with sources),
-`content/maths/REVIEW.md` (every draft rendered), `content/maths/sources.json`.
+`content/maths/REVIEW.md` (every draft rendered), `content/maths/sources.json`. English: `content/english/AUTHORED.md`,
+`content/english/REVIEW.md`, `content/english/sources.json`.
 
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-25 P1 items: 23 open, 2 closed.
+43 P1 items: 41 open, 2 closed (Maths 25, English 18). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -46,6 +47,24 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-C31 | Borrowing wording in base subtraction working | open |
 | TR-C33 | Typed answers for whole numbers | open |
 | TR-C41 | Lessons 1, 2 and 4–16 are in front of the pupil with P1 items still open | open |
+| TR-E01 | Irregular verb table (63 verbs): simple past and past participle | open |
+| TR-E02 | Spelling of the he/she/it form (-s, -es, -ies, has) | open |
+| TR-E03 | Spelling of -ing and -ed, including when to double the last letter (British: travelled) | open |
+| TR-E04 | a / an by sound, and its exception lists | open |
+| TR-E05 | Plurals and the irregular plural list | open |
+| TR-E06 | Countable and uncountable nouns; units (a loaf of bread, a bar of soap) | open |
+| TR-E07 | How each compound word is written (one word or two) | open |
+| TR-E08 | Conversion sentences: is the word a noun or a verb? | open |
+| TR-E09 | Reading texts and their keys (account, notices, timetables) | open |
+| TR-E10 | Every statement in the spot-the-error and true-sentence questions | open |
+| TR-E11 | English notes (13) and teach cards (45) | open |
+| TR-E12 | Number words, ordinal words and the misspelling lists | open |
+| TR-E13 | Greetings and introductions: which reply fits | open |
+| TR-E14 | Means of transport: road/water/rail/air; by bus, on foot | open |
+| TR-E15 | Present Perfect: not with a finished time; ever, never, already, yet | open |
+| TR-E16 | Simple Present vs Present continuous: the time words | open |
+| TR-E17 | Forms and invitations: dd/mm/yyyy, BLOCK LETTERS, the model answers | open |
+| TR-E18 | Typed English answers: what the app accepts as right | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -150,3 +169,54 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 - [x] **TR-D02 [P1] "Base-60 source (as previously instructed)".** Same: no earlier instruction found. Current source is Britannica "Cuneiform numeral", checked only through search summaries. Please restate which source to use. *Location:* `babylonian` in `content/maths/sources.json`.
   - **Closed 2026-10-03 (Dion):** the 60-minute hour comes from the Babylonian base-60 (sexagesimal) system; any reliable history-of-mathematics source is acceptable. Source `babylonian` updated accordingly.
 - [ ] **TR-D03 [P2] School calendar dates.** 22 dates are still TODO. *Location:* `data/calendar/2026-27.json`.
+
+## E. English Form 1, Batch E1 (Lessons 1–16), added 2026-10-06
+
+Lessons 1–3, 5–7, 10, 11 and 13–15 are taught with auto-marked practice; Lessons 9 and 16 (Writing) are paper tasks;
+Lessons 4, 8 and 12 (Speech Work) are deferred. 13 notes, 45 teach cards, 61 practice templates and 19 card-check
+templates: 41 have an **authored key** (a person fixed the answer) and 39 are **computed by rule** (code applies a
+spelling or grammar rule to an authored word table). Everything is draft. Every authored key, word table and statement
+is printed in `content/english/AUTHORED.md`; every question as the pupil sees it is in `content/english/REVIEW.md`.
+
+### P1: wrong facts here would mislead the pupil
+- [ ] **TR-E01 [P1] Irregular verb table:** 63 verbs with their simple past and past participle, British forms (got, not gotten). "be" has "was/were". *Location:* `IRREGULAR` in `src/engine/lib/english.js`; listed in `content/english/AUTHORED.md` Part 1.
+- [ ] **TR-E02 [P1] The he/she/it form:** -es after s, sh, ch, x, z and o (washes, goes); consonant + y → -ies (carries; but plays); have → has. Tested on known answers. *Location:* `thirdPerson()` in `src/engine/lib/english.js`; `tests-js/english.test.js`.
+- [ ] **TR-E03 [P1] -ing and -ed spelling:** drop a final e (making; but seeing, being); ie → y (lying); double the last consonant after one short vowel in one-syllable verbs (running, stopped); the two-syllable list (begin, forget, prefer, …); British doubling of a final l (travelled, cancelled); never doubled: visit, open, listen, happen, enter, answer, offer, order, wonder, remember, cover, suffer. *Location:* `ing()`, `regularPast()`, `doublesFinal()` in `src/engine/lib/english.js`.
+- [ ] **TR-E04 [P1] a / an by sound:** an hour, an honest man; a uniform, a university, a European, a one-way street. *Location:* `article()` in `src/engine/lib/english.js`; Lesson 10 card c10-2.
+- [ ] **TR-E05 [P1] Plurals:** -es after s, sh, ch, x, z and for tomato, potato, mango, hero, echo; -ies; the irregular list (children, men, women, feet, teeth, mice, people, knives, wives, leaves, loaves, lives, shelves, halves, sheep, fish). *Location:* `plural()`, `IRREGULAR_PLURAL` in `src/engine/lib/english.js`.
+- [ ] **TR-E06 [P1] Countable and uncountable nouns:** countable: orange, egg, bucket, mango, plantain, pencil, chair, goat, bag, tomato, banana, bottle; uncountable: rice, water, salt, oil, sugar, sand, money, bread, milk, flour, garri, advice. Units: a loaf of bread, a bar of soap, a bottle of oil, a bucket of water, a packet of salt, a bag of rice. *Location:* `content/english/10.json`.
+- [ ] **TR-E07 [P1] Written form of compounds:** one word: football, airport, railway, motorbike, classroom, toothbrush, blackboard, roundabout, footpath; two words: bus stop, car park, road sign, taxi driver, traffic light. The matching question uses only halves that cannot be joined another way (air–port, class–room, black–board, round–about, motor–bike). "Seat belt" appears only in a correct sentence, never as a question (dictionaries also show "seatbelt"). *Location:* `content/english/14.json`.
+- [ ] **TR-E08 [P1] Conversion (noun or verb):** the 14 sentences in `e14-class` and the 6 pairs in `e14-convert`. *Location:* `content/english/14.json`.
+- [ ] **TR-E09 [P1] Reading texts and keys:** the account of the compound clean-up and its true/false statements; the notice generator (event, day, time, place, what to bring) and its four questions; the timetable questions (which lesson at a time, which lesson comes next). All texts are original. *Location:* `content/english/5.json`.
+- [ ] **TR-E10 [P1] Statement pools:** every correct and wrong sentence in the spot-the-error and "which is true" questions (Lessons 1, 2, 3, 5, 7, 10, 11, 13, 14, 15), with the explanation shown for each wrong one. *Location:* `content/english/AUTHORED.md` Part 2.
+- [ ] **TR-E11 [P1] Notes and teach cards:** 13 notes (each at most 150 words) and 45 cards: the choice of ideas, their order and their examples. Grammar terms are the sheet's: Simple Present tense (affirmative, negative and interrogative), Present continuous tense, Simple Past tense, Present Perfect tense, countable and uncountable nouns, conversion and compounding, irregular verbs. *Location:* `note` and `teach.cards` in `content/english/*.json`; rendered in `content/english/REVIEW.md`.
+- [ ] **TR-E12 [P1] Number words:** British style as in Maths TR-A06 (and after hundred, hyphens 21–99); typed answers must have the hyphen; "a hundred" is accepted for "one hundred". Ordinal words (first, second, third, fifth, eighth, ninth, twelfth, twentieth, twenty-first). The misspelling lists in `e2-spelling`, `e2-correct`, `c6-1-check` and `e6-spelling`. *Location:* `content/english/2.json`, `6.json`; `ordinalWords()` in `src/engine/lib/english.js`.
+- [ ] **TR-E13 [P1] Greetings and introductions:** Good morning before midday; Good afternoon after midday until about five or six o'clock; Good evening; "Good night" is for leaving, not greeting; the six question-and-reply pairs in `e1-reply`; with an older person or a teacher, greet first, add sir or madam, and prefer "Good morning" to "Hi". *Location:* `content/english/1.json`.
+- [ ] **TR-E14 [P1] Means of transport:** road (taxi, bus, motorbike, lorry, bicycle, car), water (canoe, boat, ship, ferry), rail (train), air (plane, helicopter); by + transport with no article (by train, not by the train); on foot (not by foot); the four journey questions (How, How long, How much, Where). *Location:* `content/english/13.json`.
+- [ ] **TR-E15 [P1] Present Perfect:** have/has + past participle; not with a finished time (yesterday, last week, two days ago, last Saturday); "already" may end the sentence (British); the four ever/never/already/yet sentences in `c15-3-check` and the two wrong choices given for each. *Location:* `content/english/15.json`.
+- [ ] **TR-E16 [P1] Simple Present or Present continuous:** "every day", "every evening" and "on Saturdays" → Simple Present; "now" and "at the moment" → Present continuous. *Location:* `e7-which`, `c7-4-check` in `content/english/7.json`.
+- [ ] **TR-E17 [P1] Forms and invitations:** dates as dd/mm/yyyy (British order); "BLOCK LETTERS" means capitals; an invitation tells who, what, when, where and how to reply; the model answers of both paper tasks (Lesson 9 shopping list, Lesson 16 form and invitation). *Location:* `content/english/9.json`, `16.json`.
+- [ ] **TR-E18 [P1] What counts as a right typed answer:** case and extra spaces are ignored ("GOES" and " goes " are right); curly and straight apostrophes are the same; spaces inside an answer still matter ("busstop" is wrong for "bus stop"); "do not / does not / did not" are accepted for "don't / doesn't / didn't"; prices may be typed 1500, 1 500 or 1,500. Contractions such as "Bih's eaten" are not offered. *Location:* `normaliseText()` and cloze checking in `src/engine/template.js`; `accept` lists in `content/english/*.json`.
+
+### P2: conventions and decisions
+- [ ] **TR-E19 [P2] Prices** in Lesson 9 (rice 700 FCFA a kilo, soap 300 FCFA a bar, salt 150 FCFA a packet, palm oil 1200 FCFA a litre, beans 900 FCFA a kilo, sugar 850 FCFA a kilo) are invented illustrations for a town market, not data. *Location:* `content/english/9.json`.
+- [ ] **TR-E20 [P2] Lesson 16 is a paper task.** The sheet calls it "Writing- Fill out simple forms, e.g. an invitation letter"; the audit had planned fill-in-the-form questions. Following the rule "Writing lessons → paper task", it is now paper, with three auto-marked card checks (form labels, date order, invitation parts). *Location:* `content/english/16.json`; `docs/audit/english-language.md` row 16.
+- [ ] **TR-E21 [P2] Speaking lessons (1 and 13)** are taught with auto-marked questions about the language (the right reply, the right preposition, word order, a conversation in order). The pupil does not speak to the app. *Location:* `content/english/1.json`, `13.json`.
+- [ ] **TR-E22 [P2] Speech Work deferred:** Lessons 4, 8 and 12 need recorded sounds. They are hidden from the pupil and left out of the coverage checklist until an audio decision is made. *Location:* `content/english/4.json`, `8.json`, `12.json`; `isDeferred()` in `src/engine/teach.js`; `checklistLessons()` and `applyChecklist()` in `src/engine/state.js`.
+- [ ] **TR-E23 [P2] Word order:** the final . ? or ! stays at the end and is not a tile; capital letters do not matter when checking; a comma stays on its word ("Mummy,"). Another correct order is accepted only if listed (e.g. "My name is Bih and I am from Kumbo." and "I am from Kumbo and my name is Bih."). *Location:* `word_order` in `src/engine/template.js`.
+- [ ] **TR-E24 [P2] Matching:** all pairs must be right; the wrong pairs are listed. "Sort into groups" uses the same type, with several items per group. *Location:* `matching` in `src/engine/template.js`.
+- [ ] **TR-E25 [P2] Paper tasks:** the pupil reads the task, writes in the exercise book, then sees the model answer and a self-check list. The app does not mark it and mastery stays "unknown"; the parent summary should list paper tasks done. *Location:* `paper_task`, `renderPaper()` and `isAutoMarked()` in `src/engine/teach.js`.
+- [ ] **TR-E26 [P2] Sources not opened online:** the English sources (Cambridge English Grammar Today, Oxford Learner's Dictionaries) are cited as standard references and were not checked online for this batch; each says so in `content/english/sources.json`.
+- [ ] **TR-E27 [P2] Question levels:** 1 = recognise or recall; 2 = produce (type a form, build a sentence, read a text); 3 = spot the error. *Location:* `level` on every English template.
+
+### P3: cosmetic
+- [ ] **TR-E28 [P3] Names, places and food:** Ayuk, Bih, Tabe, Ndi, Ewane, Mih, Ashu, Ebai, Enow, Manyi, Ndip, Akwen; Bamenda, Buea, Limbe, Kumba, Mamfe, Kumbo, Wum, Douala, Yaoundé, Small Mankon, Molyko, the Limbe Botanic Garden, Mount Cameroon; achu, eru, fufu and njama njama, koki, puff-puff, garri, plantains. *Location:* all English lessons.
+- [ ] **TR-E29 [P3] Timetable times** are written 7:30, 8:30 … with a colon. *Location:* `content/english/5.json`.
+
+**Authored templates (41), each printed with all its data in `content/english/AUTHORED.md`:** `e1-reply` (L1), `e1-greet` (L1), `e1-build` (L1), `e1-dialogue` (L1), `e1-spot` (L1), `c1-1-check` (L1), `c1-2-check` (L1), `e2-sort` (L2), `e2-capital` (L2), `e2-spelling` (L2), `e2-correct` (L2), `e2-spot` (L2), `e3-spot` (L3), `e5-account` (L5), `e5-irregular` (L5), `e6-spelling` (L6), `c6-1-check` (L6), `e7-spot` (L7), `c9-1-check` (L9), `c9-3-check` (L9), `e10-sort` (L10), `e10-unit` (L10), `e10-spot` (L10), `c10-3-check` (L10), `e11-irregular` (L11), `e11-spot` (L11), `e13-sort` (L13), `e13-by` (L13), `e13-reply` (L13), `e13-build` (L13), `e13-spot` (L13), `e14-match` (L14), `e14-written` (L14), `e14-class` (L14), `e14-join` (L14), `e14-convert` (L14), `e14-spot` (L14), `e15-participle` (L15), `e15-spot` (L15), `c15-3-check` (L15), `c16-1-check` (L16). Spot-the-error and true-sentence pools are TR-E10; matching and choice keys fall under the topic items above (TR-E06 to TR-E17).
+
+### Added 2026-10-06 (English screens, Batch E1 released in the app)
+- [ ] **TR-E30 [P2] Tap-only screens:** word order (tap to place, tap to remove), matching (tap left then right, tap a pair to undo), sorting (tap a word then its group), the inline blank, and the paper task ("I've written it", then the model answer and self-check ticks). *Location:* `wordOrder()`, `matching()`, `sorting()`, `clozeSentence()`, `paperTask()` in `tools/prototype/app.js`; `docs/phase3-spec.md` §10.
+- [ ] **TR-E31 [P2] First-miss feedback in Lesson 3 no longer shows the answer:** "so the verb takes -s." replaces "so the verb takes -s: Our teacher goes …" (and the same for the no -s case), following the rule that a first miss explains without giving the answer. *Location:* `e3-form` misconceptions in `content/english/3.json`.
+- [ ] **TR-E32 [P3] Feedback after a wrong matching or sorting attempt** names the items that are not right yet ("These are not right yet: sell, eat, give, sing."), without showing their partners. *Location:* `retry()` in `tools/prototype/app.js`.
+- [ ] **TR-C42 [P2] Fixed a display bug in the live Maths app:** after tapping an item in an ordering question, the word "null" appeared among the remaining items (e.g. Lesson 15, construction steps). Fixed 2026-10-06 and guarded by a test. *Location:* `fill()` in `tools/prototype/app.js`; `tests-js/prototype.test.js`.

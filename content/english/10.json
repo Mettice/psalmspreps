@@ -1,0 +1,860 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "e10",
+   "name": "Countable and uncountable nouns"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Countable nouns are things we can count one by one: one orange, two oranges; a bucket, three buckets. They have a plural and can take a or an.\nUncountable nouns cannot be counted one by one: rice, water, salt, oil, sugar, sand, money, bread, advice. They have no plural and do not take a or an. We say some rice, a lot of water.\nTo count them, use a unit: a bag of rice, a bottle of oil, a bucket of water, a loaf of bread, a packet of salt, a bar of soap.\nHow many + countable: How many oranges? How much + uncountable: How much rice?\nA few + countable: a few eggs. A little + uncountable: a little salt.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "egg",
+   "b": "salt"
+  },
+  "problem": "Complete the questions with many or much: “How ___ {plural(a)} are in the basket?” “How ___ {b} do we need?”",
+  "steps": [
+   "{cap(a)} is countable: one {a}, two {plural(a)}. Countable nouns take many.",
+   "{cap(b)} is uncountable: we cannot say two {b}s. Uncountable nouns take much."
+  ],
+  "answer": "How many {plural(a)} are in the basket? How much {b} do we need?",
+  "checks": [
+   "plural(a) == 'eggs'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "Countable nouns can be counted: one {a}, two {plural(a)}. Uncountable nouns cannot: rice, water, salt.",
+    "vars": {
+     "a": "mango"
+    },
+    "example": [
+     "a {a}, three {plural(a)}",
+     "some rice (not: a rice, three rices)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e10-sort"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "A countable noun in the singular takes a or an. An uncountable noun takes some, not a or an.",
+    "vars": {},
+    "example": [
+     "Ayuk bought an orange and some bread.",
+     "Bih needs a bucket and some water."
+    ],
+    "checks": [],
+    "check": {
+     "id": "c10-2-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "countable",
+      "articles"
+     ],
+     "show": 3,
+     "vars": {
+      "n": {
+       "pick": [
+        {
+         "w": "orange",
+         "c": true
+        },
+        {
+         "w": "egg",
+         "c": true
+        },
+        {
+         "w": "bucket",
+         "c": true
+        },
+        {
+         "w": "mango",
+         "c": true
+        },
+        {
+         "w": "plantain",
+         "c": true
+        },
+        {
+         "w": "pencil",
+         "c": true
+        },
+        {
+         "w": "chair",
+         "c": true
+        },
+        {
+         "w": "goat",
+         "c": true
+        },
+        {
+         "w": "bag",
+         "c": true
+        },
+        {
+         "w": "tomato",
+         "c": true
+        },
+        {
+         "w": "banana",
+         "c": true
+        },
+        {
+         "w": "bottle",
+         "c": true
+        },
+        {
+         "w": "rice",
+         "c": false
+        },
+        {
+         "w": "water",
+         "c": false
+        },
+        {
+         "w": "salt",
+         "c": false
+        },
+        {
+         "w": "oil",
+         "c": false
+        },
+        {
+         "w": "sugar",
+         "c": false
+        },
+        {
+         "w": "sand",
+         "c": false
+        },
+        {
+         "w": "money",
+         "c": false
+        },
+        {
+         "w": "bread",
+         "c": false
+        },
+        {
+         "w": "milk",
+         "c": false
+        },
+        {
+         "w": "flour",
+         "c": false
+        },
+        {
+         "w": "garri",
+         "c": false
+        },
+        {
+         "w": "advice",
+         "c": false
+        }
+       ]
+      }
+     },
+     "where": "n.w != 'advice' && n.w != 'money'",
+     "prompt": "Choose the word that fits.",
+     "text": "Ewane bought ___ {n.w} at the market.",
+     "answer": "n.c ? article(n.w) : 'some'",
+     "choices": [
+      {
+       "text": "a",
+       "misconception": "a"
+      },
+      {
+       "text": "an",
+       "misconception": "an"
+      },
+      {
+       "text": "some",
+       "misconception": "some"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "a",
+       "explain": "{n.c ? 'Use an before a vowel sound: an ' + n.w + '.' : cap(n.w) + ' is uncountable: it does not take a.'}"
+      },
+      {
+       "id": "an",
+       "explain": "{n.c ? 'Use a before a consonant sound: a ' + n.w + '.' : cap(n.w) + ' is uncountable: it does not take an.'}"
+      },
+      {
+       "id": "some",
+       "explain": "{cap(n.w)} is countable: one {n.w} takes a or an."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "To count uncountable things, use a unit: a loaf of bread, a bar of soap, a bottle of oil.",
+    "vars": {},
+    "example": [
+     "two loaves of bread (not: two breads)",
+     "a bucket of water, a bag of rice"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c10-3-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "countable"
+     ],
+     "show": 3,
+     "vars": {
+      "x": {
+       "pick": [
+        {
+         "n": "bread",
+         "u": "loaf",
+         "w": [
+          "bottle",
+          "bar"
+         ]
+        },
+        {
+         "n": "soap",
+         "u": "bar",
+         "w": [
+          "loaf",
+          "bottle"
+         ]
+        },
+        {
+         "n": "oil",
+         "u": "bottle",
+         "w": [
+          "loaf",
+          "bar"
+         ]
+        },
+        {
+         "n": "water",
+         "u": "bucket",
+         "w": [
+          "loaf",
+          "bar"
+         ]
+        },
+        {
+         "n": "salt",
+         "u": "packet",
+         "w": [
+          "loaf",
+          "bottle"
+         ]
+        },
+        {
+         "n": "rice",
+         "u": "bag",
+         "w": [
+          "loaf",
+          "bar"
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "Please buy a ___ of {x.n}.",
+     "answer": "x.u",
+     "choices": [
+      {
+       "text": "{x.w[0]}",
+       "misconception": "unit"
+      },
+      {
+       "text": "{x.w[1]}",
+       "misconception": "unit"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "unit",
+       "explain": "We do not say that. Think of how {x.n} is sold at the market."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c10-4",
+    "status": "draft",
+    "idea": "How many and a few go with countable nouns. How much and a little go with uncountable nouns.",
+    "vars": {},
+    "example": [
+     "How many oranges? — A few.",
+     "How much salt? — A little."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e10-much"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e10-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "countable"
+   ],
+   "groups": true,
+   "group_order": [
+    "countable",
+    "uncountable"
+   ],
+   "pick": 6,
+   "prompt": "Sort the nouns: countable or uncountable?",
+   "pool": [
+    {
+     "left": "orange",
+     "right": "countable"
+    },
+    {
+     "left": "egg",
+     "right": "countable"
+    },
+    {
+     "left": "bucket",
+     "right": "countable"
+    },
+    {
+     "left": "mango",
+     "right": "countable"
+    },
+    {
+     "left": "plantain",
+     "right": "countable"
+    },
+    {
+     "left": "pencil",
+     "right": "countable"
+    },
+    {
+     "left": "chair",
+     "right": "countable"
+    },
+    {
+     "left": "goat",
+     "right": "countable"
+    },
+    {
+     "left": "bag",
+     "right": "countable"
+    },
+    {
+     "left": "tomato",
+     "right": "countable"
+    },
+    {
+     "left": "banana",
+     "right": "countable"
+    },
+    {
+     "left": "bottle",
+     "right": "countable"
+    },
+    {
+     "left": "rice",
+     "right": "uncountable"
+    },
+    {
+     "left": "water",
+     "right": "uncountable"
+    },
+    {
+     "left": "salt",
+     "right": "uncountable"
+    },
+    {
+     "left": "oil",
+     "right": "uncountable"
+    },
+    {
+     "left": "sugar",
+     "right": "uncountable"
+    },
+    {
+     "left": "sand",
+     "right": "uncountable"
+    },
+    {
+     "left": "money",
+     "right": "uncountable"
+    },
+    {
+     "left": "bread",
+     "right": "uncountable"
+    },
+    {
+     "left": "milk",
+     "right": "uncountable"
+    },
+    {
+     "left": "flour",
+     "right": "uncountable"
+    },
+    {
+     "left": "garri",
+     "right": "uncountable"
+    },
+    {
+     "left": "advice",
+     "right": "uncountable"
+    }
+   ]
+  },
+  {
+   "id": "e10-much",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "countable"
+   ],
+   "show": 2,
+   "vars": {
+    "n": {
+     "pick": [
+      {
+       "w": "orange",
+       "c": true
+      },
+      {
+       "w": "egg",
+       "c": true
+      },
+      {
+       "w": "bucket",
+       "c": true
+      },
+      {
+       "w": "mango",
+       "c": true
+      },
+      {
+       "w": "plantain",
+       "c": true
+      },
+      {
+       "w": "pencil",
+       "c": true
+      },
+      {
+       "w": "chair",
+       "c": true
+      },
+      {
+       "w": "goat",
+       "c": true
+      },
+      {
+       "w": "bag",
+       "c": true
+      },
+      {
+       "w": "tomato",
+       "c": true
+      },
+      {
+       "w": "banana",
+       "c": true
+      },
+      {
+       "w": "bottle",
+       "c": true
+      },
+      {
+       "w": "rice",
+       "c": false
+      },
+      {
+       "w": "water",
+       "c": false
+      },
+      {
+       "w": "salt",
+       "c": false
+      },
+      {
+       "w": "oil",
+       "c": false
+      },
+      {
+       "w": "sugar",
+       "c": false
+      },
+      {
+       "w": "sand",
+       "c": false
+      },
+      {
+       "w": "money",
+       "c": false
+      },
+      {
+       "w": "bread",
+       "c": false
+      },
+      {
+       "w": "milk",
+       "c": false
+      },
+      {
+       "w": "flour",
+       "c": false
+      },
+      {
+       "w": "garri",
+       "c": false
+      },
+      {
+       "w": "advice",
+       "c": false
+      }
+     ]
+    }
+   },
+   "where": "n.w != 'advice' && n.w != 'money'",
+   "prompt": "Choose the word that fits.",
+   "text": "How ___ {n.c ? plural(n.w) : n.w} did you buy?",
+   "answer": "n.c ? 'many' : 'much'",
+   "choices": [
+    {
+     "text": "many",
+     "misconception": "many"
+    },
+    {
+     "text": "much",
+     "misconception": "much"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "many",
+     "explain": "{cap(n.w)} is uncountable: use much."
+    },
+    {
+     "id": "much",
+     "explain": "{cap(n.w)} is countable: use many."
+    }
+   ],
+   "solution": [
+    "{cap(n.w)} is {n.c ? 'countable' : 'uncountable'}, so: how {answer}.",
+    "How {answer} {n.c ? plural(n.w) : n.w} did you buy?"
+   ]
+  },
+  {
+   "id": "e10-few",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "countable"
+   ],
+   "show": 2,
+   "vars": {
+    "n": {
+     "pick": [
+      {
+       "w": "orange",
+       "c": true
+      },
+      {
+       "w": "egg",
+       "c": true
+      },
+      {
+       "w": "bucket",
+       "c": true
+      },
+      {
+       "w": "mango",
+       "c": true
+      },
+      {
+       "w": "plantain",
+       "c": true
+      },
+      {
+       "w": "pencil",
+       "c": true
+      },
+      {
+       "w": "chair",
+       "c": true
+      },
+      {
+       "w": "goat",
+       "c": true
+      },
+      {
+       "w": "bag",
+       "c": true
+      },
+      {
+       "w": "tomato",
+       "c": true
+      },
+      {
+       "w": "banana",
+       "c": true
+      },
+      {
+       "w": "bottle",
+       "c": true
+      },
+      {
+       "w": "rice",
+       "c": false
+      },
+      {
+       "w": "water",
+       "c": false
+      },
+      {
+       "w": "salt",
+       "c": false
+      },
+      {
+       "w": "oil",
+       "c": false
+      },
+      {
+       "w": "sugar",
+       "c": false
+      },
+      {
+       "w": "sand",
+       "c": false
+      },
+      {
+       "w": "money",
+       "c": false
+      },
+      {
+       "w": "bread",
+       "c": false
+      },
+      {
+       "w": "milk",
+       "c": false
+      },
+      {
+       "w": "flour",
+       "c": false
+      },
+      {
+       "w": "garri",
+       "c": false
+      },
+      {
+       "w": "advice",
+       "c": false
+      }
+     ]
+    }
+   },
+   "where": "n.w != 'advice'",
+   "prompt": "Choose the words that fit.",
+   "text": "There {n.c ? 'are' : 'is'} only ___ {n.c ? plural(n.w) : n.w} left.",
+   "answer": "n.c ? 'a few' : 'a little'",
+   "choices": [
+    {
+     "text": "a few",
+     "misconception": "few"
+    },
+    {
+     "text": "a little",
+     "misconception": "little"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "few",
+     "explain": "{cap(n.w)} is uncountable: use a little."
+    },
+    {
+     "id": "little",
+     "explain": "{cap(n.w)} is countable: use a few."
+    }
+   ],
+   "solution": [
+    "{cap(n.w)} is {n.c ? 'countable' : 'uncountable'}, so: {answer}.",
+    "There {n.c ? 'are' : 'is'} only {answer} {n.c ? plural(n.w) : n.w} left."
+   ]
+  },
+  {
+   "id": "e10-unit",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "countable"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "n": "bread",
+       "u": "loaf",
+       "w": [
+        "bottle",
+        "bar"
+       ]
+      },
+      {
+       "n": "soap",
+       "u": "bar",
+       "w": [
+        "loaf",
+        "bottle"
+       ]
+      },
+      {
+       "n": "oil",
+       "u": "bottle",
+       "w": [
+        "loaf",
+        "bar"
+       ]
+      },
+      {
+       "n": "water",
+       "u": "bucket",
+       "w": [
+        "loaf",
+        "bar"
+       ]
+      },
+      {
+       "n": "salt",
+       "u": "packet",
+       "w": [
+        "loaf",
+        "bottle"
+       ]
+      },
+      {
+       "n": "rice",
+       "u": "bag",
+       "w": [
+        "loaf",
+        "bar"
+       ]
+      }
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "Write the missing word.",
+   "text": "Mother asked me to buy {words(k)} ___ of {x.n}.",
+   "answer": "plural(x.u)",
+   "misconceptions": [
+    {
+     "id": "singular",
+     "wrong": "x.u",
+     "explain": "There are {words(k)} of them: use the plural, {plural(x.u)}."
+    }
+   ],
+   "solution": [
+    "{x.n} is counted in {plural(x.u)}: one {x.u}, {words(k)} {plural(x.u)}.",
+    "Mother asked me to buy {words(k)} {answer} of {x.n}."
+   ]
+  },
+  {
+   "id": "e10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "countable"
+   ],
+   "vars": {},
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "We need some rice and two bottles of oil.",
+      "truth": "true"
+     },
+     {
+      "text": "How many eggs are in the basket?",
+      "truth": "true"
+     },
+     {
+      "text": "Bih gave me some good advice.",
+      "truth": "true"
+     },
+     {
+      "text": "There is a little sugar in the tin.",
+      "truth": "true"
+     },
+     {
+      "text": "Ayuk bought three loaves of bread.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tabe bought three breads at the bakery.",
+      "truth": "false",
+      "explain": "Bread is uncountable: three loaves of bread."
+     },
+     {
+      "text": "How much oranges do you want?",
+      "truth": "false",
+      "explain": "Oranges can be counted: How many oranges?"
+     },
+     {
+      "text": "My uncle gave me an advice.",
+      "truth": "false",
+      "explain": "Advice is uncountable: some advice."
+     },
+     {
+      "text": "We need many water for the garden.",
+      "truth": "false",
+      "explain": "Water is uncountable: a lot of water (or much water)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

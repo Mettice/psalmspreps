@@ -38,13 +38,32 @@ export function practicePlan(lesson) {
   return [...lesson.questions].sort((a, b) => a.level - b.level).map((t) => t.id);
 }
 
+/**
+ * Lesson steps. Writing lessons (`paper_task`, decision 2026-10-06) replace practice with one paper task:
+ * prompt → the pupil writes on paper → model answer + self-check list. No auto-marking; mastery stays unknown.
+ * Deferred lessons (speech work: needs audio) have no steps and are hidden from the pupil.
+ */
 export function lessonSteps(lesson) {
+  if (isDeferred(lesson)) throw new Error(`lesson ${lesson.lesson_no} is deferred: ${lesson.deferred_reason}`);
   return [
     ...lesson.teach.cards.map((_, i) => ({ kind: "card", card: i })),
-    { kind: "worked_example" },
-    ...practicePlan(lesson).map((id) => ({ kind: "practice", template: id })),
+    ...(lesson.worked_example ? [{ kind: "worked_example" }] : []),
+    ...(lesson.paper_task ? [{ kind: "paper" }] : practicePlan(lesson).map((id) => ({ kind: "practice", template: id }))),
     { kind: "note" },
   ];
+}
+
+export const isDeferred = (lesson) => lesson?.status === "deferred";
+/** Lessons whose answers can set mastery: not deferred, not paper-only. */
+export const isAutoMarked = (lesson) => !isDeferred(lesson) && !lesson.paper_task;
+
+/** A paper task with its numbers computed: {prompt, model: [lines], checklist: [items]}. */
+export function renderPaper(lesson, lib) {
+  const t = lesson.paper_task;
+  const scope = sampleScope(t.vars, null, makeRng(1), lib);
+  const R = (x) => render(x, scope, lib, show(lib));
+  return { prompt: R(t.prompt), model: t.model.map(R), checklist: t.checklist.map(R),
+    failedChecks: (t.checks || []).filter((c) => evaluate(c, scope, lib) !== true) };
 }
 
 /** The template behind a card or practice step. */

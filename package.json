@@ -3,8 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests-js/engine.test.js tests-js/content.test.js tests-js/state.test.js tests-js/prototype.test.js",
+    "test": "node --test tests-js/engine.test.js tests-js/content.test.js tests-js/state.test.js tests-js/prototype.test.js tests-js/english.test.js tests-js/english-content.test.js",
     "review": "node tools/content/render_review.mjs",
-    "build:site": "node tools/site/build.mjs"
+    "build:site": "node tools/site/build.mjs",
+    "review:english": "node tools/content/render_english.mjs"
   }
 }

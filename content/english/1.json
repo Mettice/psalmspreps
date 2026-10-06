@@ -1,0 +1,564 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e1",
+   "name": "Introducing oneself and others"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "When we meet someone for the first time, we greet and introduce ourselves.\n• Greet: “Good morning.” “Good afternoon.” “Good evening.” With friends: “Hello” or “Hi”.\n• Introduce yourself: “My name is Bih. I am from Kumbo. I am in Form One.”\n• Introduce another person: “This is my friend Ayuk.” “Mummy, meet Tabe, my classmate.”\n• Reply: “Nice to meet you.” “Nice to meet you too.” “Pleased to meet you.”\n• Ask: “What is your name?” “Where are you from?” “How are you?”\nWith an older person or a teacher, greet first, add “sir” or “madam”, and use “Good morning” rather than “Hi”.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "Ayuk",
+   "b": "Bih",
+   "c": "Tabe"
+  },
+  "problem": "On the first day of school, {a} meets a new classmate, {b}. {a} is with his friend {c}. What do they say?",
+  "steps": [
+   "Greet: {a}: “Good morning.”",
+   "Give your name and one fact: {a}: “My name is {a}. I am from Mamfe.”",
+   "The other person greets back and gives her name: {b}: “Good morning, {a}. My name is {b}. I am from Kumbo.”",
+   "Introduce your friend: {a}: “{b}, this is my friend {c}.”",
+   "Reply politely: {b}: “Nice to meet you, {c}.” {c}: “Nice to meet you too.”"
+  ],
+  "answer": "Greet → give your name → introduce the other person → reply politely.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "To introduce yourself, greet first, then give your name and one or two facts about you.",
+    "vars": {
+     "name": "Bih",
+     "town": "Kumbo"
+    },
+    "example": [
+     "“Good morning. My name is {name}. I am from {town}. I am in Form One.”"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c1-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "introductions"
+     ],
+     "vars": {
+      "n": {
+       "pick": [
+        "Enow",
+        "Mih",
+        "Ashu",
+        "Ebai",
+        "Manyi"
+       ]
+      },
+      "t": {
+       "pick": [
+        "Buea",
+        "Kumbo",
+        "Mamfe",
+        "Limbe",
+        "Wum"
+       ]
+      }
+     },
+     "prompt": "Which is the best way to introduce yourself to a new classmate?",
+     "pool": {
+      "right": [
+       {
+        "text": "“Hello, my name is {n}. I am from {t}.”",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "“My name {n}. From {t}.”",
+        "truth": "false",
+        "explain": "Use full sentences: “My name is …”, “I am from …”."
+       },
+       {
+        "text": "“Goodbye. I am {n}.”",
+        "truth": "false",
+        "explain": "“Goodbye” is for leaving, not for meeting someone."
+       },
+       {
+        "text": "“What is your name? Nice to meet you too.”",
+        "truth": "false",
+        "explain": "Give your own name first; “Nice to meet you too” is a reply."
+       },
+       {
+        "text": "“Hey you! Where are you from?”",
+        "truth": "false",
+        "explain": "“Hey you!” is not polite. Greet and give your name first."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "To introduce another person, say “This is …” and add who the person is.",
+    "vars": {
+     "a": "Ayuk",
+     "b": "Tabe",
+     "c": "Bih"
+    },
+    "example": [
+     "{a}: “{b}, this is my cousin {c}. She is in Form One too.”"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c1-2-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "introductions"
+     ],
+     "show": 3,
+     "vars": {
+      "x": {
+       "pick": [
+        "Mih",
+        "Ewane",
+        "Ndip",
+        "Akwen"
+       ]
+      },
+      "y": {
+       "pick": [
+        "friend",
+        "cousin",
+        "classmate",
+        "brother"
+       ]
+      }
+     },
+     "prompt": "Choose the words that fit.",
+     "text": "Mummy, ___ my {y} {x}.",
+     "answer": "'this is'",
+     "choices": [
+      {
+       "text": "he is",
+       "misconception": "pronoun"
+      },
+      {
+       "text": "it is",
+       "misconception": "it"
+      },
+      {
+       "text": "there is",
+       "misconception": "there"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "pronoun",
+       "explain": "To introduce someone, we say “This is …”, not “He is …”."
+      },
+      {
+       "id": "it",
+       "explain": "“It” is for things, not people. Say “This is …”."
+      },
+      {
+       "id": "there",
+       "explain": "“There is” tells that something exists. To introduce someone, say “This is …”."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "When someone is introduced to you, answer politely and use the person's name.",
+    "vars": {
+     "b": "Bih",
+     "c": "Tabe"
+    },
+    "example": [
+     "{c}: “Nice to meet you, {b}.” {b}: “Nice to meet you too.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e1-reply"
+    }
+   },
+   {
+    "id": "c1-4",
+    "status": "draft",
+    "idea": "Greet by the time of day: Good morning (before midday), Good afternoon (after midday), Good evening (in the evening). “Good night” is for leaving, not for greeting.",
+    "vars": {},
+    "example": [
+     "Before school: “Good morning, madam.”",
+     "After school, at about four o'clock: “Good afternoon, sir.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e1-greet"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e1-reply",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "introductions"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "line": "Hello, my name is Enow.",
+       "right": "Hello, Enow. My name is Mih.",
+       "w": [
+        "Goodbye, Enow.",
+        "I am fine, thank you.",
+        "Yes, it is."
+       ],
+       "why": "When someone tells you their name, greet them by name and give your own name."
+      },
+      {
+       "line": "Nice to meet you.",
+       "right": "Nice to meet you too.",
+       "w": [
+        "I am twelve years old.",
+        "Thank you, goodbye.",
+        "Yes, I am."
+       ],
+       "why": "The polite reply to “Nice to meet you” is “Nice to meet you too.”"
+      },
+      {
+       "line": "What is your name?",
+       "right": "My name is Ndi.",
+       "w": [
+        "I am from Wum.",
+        "I am fine.",
+        "Nice to meet you too."
+       ],
+       "why": "“What is your name?” asks for a name: “My name is …”."
+      },
+      {
+       "line": "Where are you from?",
+       "right": "I am from Buea.",
+       "w": [
+        "My name is Ashu.",
+        "I am in Form One.",
+        "Good afternoon."
+       ],
+       "why": "“Where are you from?” asks for a place: “I am from …”."
+      },
+      {
+       "line": "How are you?",
+       "right": "I am fine, thank you. And you?",
+       "w": [
+        "I am from Limbe.",
+        "My name is Ebai.",
+        "Nice to meet you too."
+       ],
+       "why": "“How are you?” asks how you feel: “I am fine, thank you.”"
+      },
+      {
+       "line": "This is my sister Manyi.",
+       "right": "Hello, Manyi. Nice to meet you.",
+       "w": [
+        "This is my sister too.",
+        "I am fine, thank you.",
+        "Goodbye, Manyi."
+       ],
+       "why": "When someone is introduced to you, greet them by name and say “Nice to meet you.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Someone says: “{x.line}” What is the best reply?",
+   "correct": "{x.right}",
+   "distractors": [
+    {
+     "text": "{x.w[0]}",
+     "misconception": "off"
+    },
+    {
+     "text": "{x.w[1]}",
+     "misconception": "off"
+    },
+    {
+     "text": "{x.w[2]}",
+     "misconception": "off"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "off",
+     "explain": "That answer does not fit what was said. {x.why}"
+    }
+   ],
+   "solution": [
+    "“{x.line}” → “{answer}”",
+    "{x.why}"
+   ]
+  },
+  {
+   "id": "e1-greet",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "introductions"
+   ],
+   "show": 3,
+   "vars": {
+    "t": {
+     "pick": [
+      {
+       "when": "at seven o'clock in the morning",
+       "g": "Good morning"
+      },
+      {
+       "when": "at ten o'clock in the morning",
+       "g": "Good morning"
+      },
+      {
+       "when": "at two o'clock in the afternoon",
+       "g": "Good afternoon"
+      },
+      {
+       "when": "at four o'clock in the afternoon",
+       "g": "Good afternoon"
+      },
+      {
+       "when": "at eight o'clock in the evening",
+       "g": "Good evening"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the greeting that fits.",
+   "text": "You meet your principal {t.when}. You say: “___, sir.”",
+   "answer": "t.g",
+   "choices": [
+    {
+     "text": "Good morning",
+     "misconception": "morning"
+    },
+    {
+     "text": "Good afternoon",
+     "misconception": "afternoon"
+    },
+    {
+     "text": "Good evening",
+     "misconception": "evening"
+    },
+    {
+     "text": "Good night",
+     "misconception": "night"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "morning",
+     "explain": "Good morning is for the morning, before midday."
+    },
+    {
+     "id": "afternoon",
+     "explain": "Good afternoon is for the time after midday until about five or six o'clock."
+    },
+    {
+     "id": "evening",
+     "explain": "Good evening is for the evening."
+    },
+    {
+     "id": "night",
+     "explain": "Good night is said when leaving at night or before going to bed, not to greet someone."
+    }
+   ]
+  },
+  {
+   "id": "e1-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "introductions"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "a": "This is my friend Ayuk.",
+       "alt": "This is my friend Ayuk."
+      },
+      {
+       "a": "My name is Bih and I am from Kumbo.",
+       "alt": "I am from Kumbo and my name is Bih."
+      },
+      {
+       "a": "Mummy, meet my classmate Tabe.",
+       "alt": "Mummy, meet my classmate Tabe."
+      },
+      {
+       "a": "Nice to meet you too.",
+       "alt": "Nice to meet you too."
+      },
+      {
+       "a": "Where are you from, Ewane?",
+       "alt": "Where are you from, Ewane?"
+      },
+      {
+       "a": "I am in Form One at this school.",
+       "alt": "I am in Form One at this school."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{x.a}",
+   "accept": [
+    "{x.alt}"
+   ]
+  },
+  {
+   "id": "e1-dialogue",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "introductions"
+   ],
+   "order": "as_written",
+   "vars": {
+    "names": {
+     "sample": [
+      "['Ayuk', 'Bih', 'Tabe', 'Ndi', 'Ewane', 'Mih', 'Ashu', 'Manyi']",
+      3
+     ]
+    }
+   },
+   "prompt": "Put the conversation in order.",
+   "items": [
+    {
+     "text": "{names[0]}: Good morning. My name is {names[0]}."
+    },
+    {
+     "text": "{names[1]}: Good morning, {names[0]}. My name is {names[1]}."
+    },
+    {
+     "text": "{names[0]}: {names[1]}, this is my friend {names[2]}."
+    },
+    {
+     "text": "{names[1]}: Nice to meet you, {names[2]}."
+    },
+    {
+     "text": "{names[2]}: Nice to meet you too."
+    }
+   ]
+  },
+  {
+   "id": "e1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "introductions"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "Enow",
+      "Mih",
+      "Ashu",
+      "Ebai"
+     ]
+    },
+    "f": {
+     "pick": [
+      "Tabe",
+      "Ndi",
+      "Manyi",
+      "Ewane"
+     ]
+    },
+    "t": {
+     "pick": [
+      "Buea",
+      "Kumbo",
+      "Mamfe",
+      "Limbe"
+     ]
+    }
+   },
+   "prompt": "Each line is a question and its answer. One answer does not fit its question. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "“What is your name?” — “My name is {n}.”",
+      "truth": "true"
+     },
+     {
+      "text": "“Where are you from?” — “I am from {t}.”",
+      "truth": "true"
+     },
+     {
+      "text": "“How are you?” — “I am fine, thank you.”",
+      "truth": "true"
+     },
+     {
+      "text": "“Nice to meet you.” — “Nice to meet you too.”",
+      "truth": "true"
+     },
+     {
+      "text": "“This is my friend {f}.” — “Hello, {f}. Nice to meet you.”",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "“What is your name?” — “I am from {t}.”",
+      "truth": "false",
+      "explain": "The question asks for a name. The answer should be “My name is …”."
+     },
+     {
+      "text": "“How are you?” — “My name is {n}.”",
+      "truth": "false",
+      "explain": "“How are you?” asks how you feel. The answer should be “I am fine, thank you.”"
+     },
+     {
+      "text": "“Where are you from?” — “I am fine, thank you.”",
+      "truth": "false",
+      "explain": "“Where are you from?” asks for a place. The answer should be “I am from …”."
+     },
+     {
+      "text": "“Nice to meet you.” — “Yes, it is.”",
+      "truth": "false",
+      "explain": "The polite reply is “Nice to meet you too.”"
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

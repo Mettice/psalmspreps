@@ -1,0 +1,1332 @@
+{
+ "subject": "english-language",
+ "class": "Form 1",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "e15",
+   "name": "The Present Perfect tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Present Perfect tense for past actions that are linked to now: “I have finished my homework.” (It is done now.) “Ayuk has lost his pen.” (He does not have it now.)\nForm: have / has + past participle. I, you, we, they have; he, she, it has.\nRegular verbs: the past participle is the same as the past: cook → cooked.\nIrregular verbs have their own form: go → gone, eat → eaten, see → seen, write → written, take → taken, buy → bought.\nUseful words: ever, never, already, just, yet. “Have you ever eaten koki?” “I have never seen the sea.” “Has Bih finished yet?”\nNegative: haven't / hasn't + participle. Question: Have / Has + subject + participle?\nWith a finished time (yesterday, last week), use the Simple Past: “I saw him yesterday.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "sweep",
+   "c": "the yard"
+  },
+  "problem": "Mother asks Ayuk if the yard is clean. Ayuk swept it this morning. Answer for him with the Present Perfect: “Yes, I ({v}) {c}.”",
+  "steps": [
+   "The subject is I, so we use have.",
+   "{v} is irregular: its past participle is {participle(v)}.",
+   "There is no finished time word (like yesterday), and the result is now: the yard is clean."
+  ],
+  "answer": "Yes, I have {participle(v)} {c}.",
+  "checks": [
+   "participle(v) == 'swept'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "The Present Perfect links a past action to now. Form: have or has + the past participle.",
+    "vars": {},
+    "example": [
+     "I have {participle('finish')} my homework. (It is done now.)",
+     "Ayuk has {participle('lose')} his pen. (He does not have it now.)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e15-havehas"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Regular verbs: the participle is the -ed form. Irregular verbs have their own participle.",
+    "vars": {},
+    "example": [
+     "cook → {participle('cook')}, carry → {participle('carry')}",
+     "go → {participle('go')}, eat → {participle('eat')}, write → {participle('write')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e15-participle"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Ever and never: at any time in your life. Already: sooner than expected. Yet: in questions and negatives, at the end.",
+    "vars": {},
+    "example": [
+     "Have you ever eaten koki? — No, I have never eaten it.",
+     "Bih has already finished. Has Ndi finished yet?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c15-3-check",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "present-perfect"
+     ],
+     "show": 3,
+     "vars": {
+      "x": {
+       "pick": [
+        {
+         "t": "I have ___ seen the sea. I would like to see it one day.",
+         "a": "never",
+         "w": [
+          "ever",
+          "yet"
+         ]
+        },
+        {
+         "t": "Bih has ___ finished her homework, so she can play now.",
+         "a": "already",
+         "w": [
+          "ever",
+          "yet"
+         ]
+        },
+        {
+         "t": "Ndi hasn't finished her homework ___.",
+         "a": "yet",
+         "w": [
+          "already",
+          "ever"
+         ]
+        },
+        {
+         "t": "Have you ___ been to Yaoundé in your life?",
+         "a": "ever",
+         "w": [
+          "yet",
+          "just"
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "{x.t}",
+     "answer": "x.a",
+     "choices": [
+      {
+       "text": "{x.w[0]}",
+       "misconception": "adv"
+      },
+      {
+       "text": "{x.w[1]}",
+       "misconception": "adv"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "adv",
+       "explain": "Not here. Ever: in questions; never: not at any time; already: done sooner than expected; yet: at the end of questions and negatives."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c15-4",
+    "status": "draft",
+    "idea": "With a finished time (yesterday, last week, two days ago), use the Simple Past, not the Present Perfect.",
+    "vars": {},
+    "example": [
+     "I {past('see')} Bih yesterday. (Not: I have seen Bih yesterday.)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "c15-4-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "present-perfect"
+     ],
+     "show": 2,
+     "vars": {
+      "S": {
+       "pick": [
+        {
+         "t": "I",
+         "m": "I",
+         "s": {
+          "text": "I",
+          "person": 1,
+          "plural": false
+         }
+        },
+        {
+         "t": "You",
+         "m": "you",
+         "s": {
+          "text": "you",
+          "person": 2,
+          "plural": false
+         }
+        },
+        {
+         "t": "We",
+         "m": "we",
+         "s": {
+          "text": "we",
+          "person": 1,
+          "plural": true
+         }
+        },
+        {
+         "t": "They",
+         "m": "they",
+         "s": {
+          "text": "they",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "He",
+         "m": "he",
+         "s": {
+          "text": "he",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "She",
+         "m": "she",
+         "s": {
+          "text": "she",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Bih",
+         "m": "Bih",
+         "s": {
+          "text": "Bih",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Ayuk",
+         "m": "Ayuk",
+         "s": {
+          "text": "Ayuk",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "My mother",
+         "m": "my mother",
+         "s": {
+          "text": "my mother",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Our teacher",
+         "m": "our teacher",
+         "s": {
+          "text": "our teacher",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Tabe and Ndi",
+         "m": "Tabe and Ndi",
+         "s": {
+          "text": "Tabe and Ndi",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "My cousins",
+         "m": "my cousins",
+         "s": {
+          "text": "my cousins",
+          "person": 3,
+          "plural": true
+         }
+        }
+       ]
+      },
+      "V": {
+       "pick": [
+        {
+         "v": "eat",
+         "c": "the eru"
+        },
+        {
+         "v": "write",
+         "c": "the letter"
+        },
+        {
+         "v": "finish",
+         "c": "the homework"
+        },
+        {
+         "v": "clean",
+         "c": "the classroom"
+        },
+        {
+         "v": "wash",
+         "c": "the plates"
+        },
+        {
+         "v": "take",
+         "c": "the bucket"
+        },
+        {
+         "v": "see",
+         "c": "the new teacher"
+        },
+        {
+         "v": "buy",
+         "c": "the bread"
+        },
+        {
+         "v": "drink",
+         "c": "the juice"
+        },
+        {
+         "v": "sell",
+         "c": "all the oranges"
+        },
+        {
+         "v": "break",
+         "c": "the plate"
+        },
+        {
+         "v": "pay",
+         "c": "the school fees"
+        },
+        {
+         "v": "tidy",
+         "c": "the room"
+        },
+        {
+         "v": "sweep",
+         "c": "the yard"
+        }
+       ]
+      }
+     },
+     "prompt": "Which sentence is correct?",
+     "correct": "{S.t} {past(V.v)} {V.c} yesterday.",
+     "distractors": [
+      {
+       "text": "{S.t} {haveFor(S.s)} {participle(V.v)} {V.c} yesterday.",
+       "misconception": "finished"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "finished",
+       "explain": "“Yesterday” is a finished time: use the Simple Past, not have/has."
+      }
+     ],
+     "solution": [
+      "“Yesterday” is a finished time → Simple Past: {answer}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e15-havehas",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "present-perfect"
+   ],
+   "show": 3,
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "eat",
+       "c": "the eru"
+      },
+      {
+       "v": "write",
+       "c": "the letter"
+      },
+      {
+       "v": "finish",
+       "c": "the homework"
+      },
+      {
+       "v": "clean",
+       "c": "the classroom"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "take",
+       "c": "the bucket"
+      },
+      {
+       "v": "see",
+       "c": "the new teacher"
+      },
+      {
+       "v": "buy",
+       "c": "the bread"
+      },
+      {
+       "v": "drink",
+       "c": "the juice"
+      },
+      {
+       "v": "sell",
+       "c": "all the oranges"
+      },
+      {
+       "v": "break",
+       "c": "the plate"
+      },
+      {
+       "v": "pay",
+       "c": "the school fees"
+      },
+      {
+       "v": "tidy",
+       "c": "the room"
+      },
+      {
+       "v": "sweep",
+       "c": "the yard"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{S.t} ___ already {participle(V.v)} {V.c}.",
+   "answer": "haveFor(S.s)",
+   "choices": [
+    {
+     "text": "have",
+     "misconception": "have"
+    },
+    {
+     "text": "has",
+     "misconception": "has"
+    },
+    {
+     "text": "is",
+     "misconception": "be"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "have",
+     "explain": "Have goes with I, you, we and they."
+    },
+    {
+     "id": "has",
+     "explain": "Has goes with he, she and it (one person or thing)."
+    },
+    {
+     "id": "be",
+     "explain": "The Present Perfect uses have or has, not is."
+    }
+   ],
+   "solution": [
+    "{S.t} → {answer}.",
+    "{S.t} {answer} already {participle(V.v)} {V.c}."
+   ]
+  },
+  {
+   "id": "e15-participle",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "irregular-verbs"
+   ],
+   "pick": 4,
+   "prompt": "Match each verb with its past participle.",
+   "pool": [
+    {
+     "left": "go",
+     "right": "{participle('go')}"
+    },
+    {
+     "left": "eat",
+     "right": "{participle('eat')}"
+    },
+    {
+     "left": "see",
+     "right": "{participle('see')}"
+    },
+    {
+     "left": "write",
+     "right": "{participle('write')}"
+    },
+    {
+     "left": "take",
+     "right": "{participle('take')}"
+    },
+    {
+     "left": "break",
+     "right": "{participle('break')}"
+    },
+    {
+     "left": "drink",
+     "right": "{participle('drink')}"
+    },
+    {
+     "left": "forget",
+     "right": "{participle('forget')}"
+    },
+    {
+     "left": "speak",
+     "right": "{participle('speak')}"
+    },
+    {
+     "left": "give",
+     "right": "{participle('give')}"
+    },
+    {
+     "left": "sing",
+     "right": "{participle('sing')}"
+    },
+    {
+     "left": "swim",
+     "right": "{participle('swim')}"
+    },
+    {
+     "left": "do",
+     "right": "{participle('do')}"
+    },
+    {
+     "left": "buy",
+     "right": "{participle('buy')}"
+    }
+   ]
+  },
+  {
+   "id": "e15-form",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "present-perfect",
+    "irregular-verbs"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "eat",
+       "c": "the eru"
+      },
+      {
+       "v": "write",
+       "c": "the letter"
+      },
+      {
+       "v": "finish",
+       "c": "the homework"
+      },
+      {
+       "v": "clean",
+       "c": "the classroom"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "take",
+       "c": "the bucket"
+      },
+      {
+       "v": "see",
+       "c": "the new teacher"
+      },
+      {
+       "v": "buy",
+       "c": "the bread"
+      },
+      {
+       "v": "drink",
+       "c": "the juice"
+      },
+      {
+       "v": "sell",
+       "c": "all the oranges"
+      },
+      {
+       "v": "break",
+       "c": "the plate"
+      },
+      {
+       "v": "pay",
+       "c": "the school fees"
+      },
+      {
+       "v": "tidy",
+       "c": "the room"
+      },
+      {
+       "v": "sweep",
+       "c": "the yard"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in brackets in the Present Perfect.",
+   "text": "{S.t} ___ ({V.v}) {V.c}.",
+   "answer": "haveFor(S.s) + ' ' + participle(V.v)",
+   "misconceptions": [
+    {
+     "id": "past-form",
+     "when": "past(V.v) != participle(V.v)",
+     "wrong": "haveFor(S.s) + ' ' + past(V.v)",
+     "explain": "After have or has, use the past participle: {participle(V.v)}, not {past(V.v)}."
+    },
+    {
+     "id": "aux",
+     "wrong": "(haveFor(S.s) == 'has' ? 'have' : 'has') + ' ' + participle(V.v)",
+     "explain": "{S.t} takes {haveFor(S.s)}."
+    },
+    {
+     "id": "no-aux",
+     "wrong": "past(V.v)",
+     "explain": "That is the Simple Past. The Present Perfect needs have or has + the participle."
+    }
+   ],
+   "solution": [
+    "{S.t} → {haveFor(S.s)}; {V.v} → {participle(V.v)}.",
+    "{S.t} {answer} {V.c}."
+   ]
+  },
+  {
+   "id": "e15-question",
+   "type": "word_order",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "present-perfect"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "E": {
+     "pick": [
+      {
+       "v": "eat",
+       "c": "koki"
+      },
+      {
+       "v": "see",
+       "c": "the sea"
+      },
+      {
+       "v": "travel",
+       "c": "by plane"
+      },
+      {
+       "v": "climb",
+       "c": "Mount Cameroon"
+      },
+      {
+       "v": "ride",
+       "c": "a horse"
+      },
+      {
+       "v": "visit",
+       "c": "Yaoundé"
+      },
+      {
+       "v": "swim",
+       "c": "in a river"
+      },
+      {
+       "v": "meet",
+       "c": "a famous footballer"
+      },
+      {
+       "v": "sing",
+       "c": "in a choir"
+      }
+     ]
+    }
+   },
+   "where": "S.t != 'I'",
+   "prompt": "Tap the words to make a question.",
+   "answer": "{cap(haveFor(S.s))} {S.m} ever {participle(E.v)} {E.c}?"
+  },
+  {
+   "id": "e15-tense",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "present-perfect"
+   ],
+   "show": 3,
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "eat",
+       "c": "the eru"
+      },
+      {
+       "v": "write",
+       "c": "the letter"
+      },
+      {
+       "v": "finish",
+       "c": "the homework"
+      },
+      {
+       "v": "clean",
+       "c": "the classroom"
+      },
+      {
+       "v": "wash",
+       "c": "the plates"
+      },
+      {
+       "v": "take",
+       "c": "the bucket"
+      },
+      {
+       "v": "see",
+       "c": "the new teacher"
+      },
+      {
+       "v": "buy",
+       "c": "the bread"
+      },
+      {
+       "v": "drink",
+       "c": "the juice"
+      },
+      {
+       "v": "sell",
+       "c": "all the oranges"
+      },
+      {
+       "v": "break",
+       "c": "the plate"
+      },
+      {
+       "v": "pay",
+       "c": "the school fees"
+      },
+      {
+       "v": "tidy",
+       "c": "the room"
+      },
+      {
+       "v": "sweep",
+       "c": "the yard"
+      }
+     ]
+    },
+    "tw": {
+     "pick": [
+      {
+       "w": "yesterday",
+       "perf": false
+      },
+      {
+       "w": "last week",
+       "perf": false
+      },
+      {
+       "w": "two days ago",
+       "perf": false
+      },
+      {
+       "w": "last Saturday",
+       "perf": false
+      },
+      {
+       "w": "already",
+       "perf": true
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the verb that fits the time words.",
+   "text": "{S.t} ___ {V.c} {tw.w}.",
+   "answer": "tw.perf ? haveFor(S.s) + ' ' + participle(V.v) : past(V.v)",
+   "choices": [
+    {
+     "text": "{haveFor(S.s)} {participle(V.v)}",
+     "misconception": "perfect"
+    },
+    {
+     "text": "{past(V.v)}",
+     "misconception": "past"
+    },
+    {
+     "text": "{haveFor(S.s)} {past(V.v)}",
+     "misconception": "mixed"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "perfect",
+     "explain": "“{tw.w}” is a finished time: use the Simple Past."
+    },
+    {
+     "id": "past",
+     "explain": "“{tw.w}” links the action to now: use have or has + the participle."
+    },
+    {
+     "id": "mixed",
+     "explain": "After have or has, use the past participle ({participle(V.v)})."
+    }
+   ],
+   "solution": [
+    "“{tw.w}” → {tw.perf ? 'linked to now: Present Perfect' : 'a finished time: Simple Past'}.",
+    "{S.t} {answer} {V.c} {tw.w}."
+   ]
+  },
+  {
+   "id": "e15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "present-perfect"
+   ],
+   "vars": {},
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "I have never seen snow.",
+      "truth": "true"
+     },
+     {
+      "text": "Has Ewane finished his homework yet?",
+      "truth": "true"
+     },
+     {
+      "text": "They have already eaten.",
+      "truth": "true"
+     },
+     {
+      "text": "Ndi has lost her pencil.",
+      "truth": "true"
+     },
+     {
+      "text": "We saw the new teacher yesterday.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bih has went to the market.",
+      "truth": "false",
+      "explain": "After has, use the past participle: Bih has gone to the market."
+     },
+     {
+      "text": "I have seen him yesterday.",
+      "truth": "false",
+      "explain": "Yesterday is a finished time: I saw him yesterday."
+     },
+     {
+      "text": "They has finished their work.",
+      "truth": "false",
+      "explain": "They takes have: They have finished their work."
+     },
+     {
+      "text": "Have you ever eat koki?",
+      "truth": "false",
+      "explain": "Use the past participle: Have you ever eaten koki?"
+     },
+     {
+      "text": "He have taken my book.",
+      "truth": "false",
+      "explain": "He takes has: He has taken my book."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -8,6 +8,12 @@
 //               or pool: {right: [stmt], wrong: [stmt]}, pick: {right, wrong}  (choose the true one)
 //   spot_error  pool + pick (choose the false statement), or steps: [stmt] with exactly one false
 //   ordering    items: [{text, key?}], order: asc | desc | as_written
+//   cloze       text: tmpl with one ___ blank, answer: expr, accept?: [expr]
+//               choices: [tmpl | {text, misconception}] → pick one (shown like mcq); no choices → typed,
+//               checked against the accepted list (case- and space-insensitive), misconceptions: [{id, wrong: expr, explain}]
+//   word_order  answer: tmpl (the sentence), accept?: [tmpl] (other correct orders of the same words)
+//   matching    pool: [{left: tmpl, right: tmpl}], pick: n; with groups: true several lefts may share a right
+//               (sort into groups)
 // A stmt is {text: tmpl, truth: expr, explain?, misconception?}; the engine evaluates every truth.
 
 import { evaluate, render, eq } from "./expr.js";
@@ -15,6 +21,14 @@ import { makeRng } from "./rng.js";
 
 const LETTERS = "ABCDEFGHKLMNPRST";
 const MAX_TRIES = 500;
+const BLANK = "___";
+const BAD = /NaN|undefined|\[object Object\]|Infinity/;
+
+/** Typed words: case-insensitive, outer and repeated spaces ignored, curly quotes read as straight ones. */
+export function normaliseText(s) {
+  return String(s).replace(/[‘’ʼ`]/g, "'").replace(/[“”]/g, '"')
+    .replace(/[\s  ]+/g, " ").trim().toLowerCase();
+}
 
 function hash(s) {
   let h = 2166136261;
@@ -120,6 +134,9 @@ function solutionOf(tpl, scope, q, R) {
     return [`The wrong ${tpl.pool ? "statement" : "line"} is ${quote(wrong.text)}.`, ...(wrong.explain ? [wrong.explain] : [])];
   }
   if (q.type === "ordering") return [`The correct order is: ${q.answer}.`];
+  if (q.type === "cloze") return [`The missing word${/\s/.test(q.answer) ? "s are" : " is"} ${quote(q.answer)}.`, q.full];
+  if (q.type === "word_order") return [`The sentence is: ${q.answer}`];
+  if (q.type === "matching") return ["The right pairs are:", ...q.left.map((l, i) => `${l} → ${q.right[q.correctMatch[i]]}`)];
   return undefined;  // numeric / computed mcq without a written solution (tests require one in Form 1 lessons)
 }
 
@@ -212,6 +229,83 @@ export function instantiate(tpl, seed, lib, lesson = null) {
       q.verified = true;
       return withSolution(q, scope);
     }
+
+    if (tpl.type === "cloze") {
+      const text = R(tpl.text, scope);
+      if (text.split(BLANK).length !== 2) throw new ContentError(`${tpl.id}: the text needs exactly one ${BLANK} blank: ${text}`);
+      const answer = String(evaluate(tpl.answer, scope, lib));
+      const accept = [answer, ...(tpl.accept || []).flatMap((a) => [].concat(evaluate(a, scope, lib))).map(String)];  // an expr may give a list
+      Object.assign(q, { sentence: text, answer, full: text.replace(BLANK, answer) });
+      if (tpl.choices) {
+        const seen = new Set([normaliseText(answer)]);
+        const pool = [];
+        for (const d of tpl.choices) {
+          if (d.when && !evaluate(d.when, scope, lib)) continue;
+          const t = typeof d === "string" ? R(d, scope) : R(d.text, scope);
+          if (seen.has(normaliseText(t)) || BAD.test(t)) continue;
+          seen.add(normaliseText(t));
+          pool.push({ text: t, misconception: d.misconception, explain: explainOf(d.misconception, scope) });
+        }
+        const need = (tpl.show || 3) - 1;
+        if (pool.length < need) continue;  // resample: not enough distinct choices
+        const options = rng.shuffle([{ text: answer }, ...rng.sample(pool, need)]);
+        Object.assign(q, { mode: "choose", options, correctIndex: options.findIndex((o) => o.text === answer) });
+      } else {
+        q.mode = "type";
+        q.accept = [...new Set(accept.map(normaliseText))];
+        q.misconceptions = (tpl.misconceptions || []).flatMap((m) => {
+          if (m.when && !evaluate(m.when, scope, lib)) return [];
+          return [].concat(m.wrong).flatMap((w) => [].concat(evaluate(w, scope, lib))).map(String)  // wrong: expr or [expr]
+            .filter((v) => v && !q.accept.includes(normaliseText(v)))
+            .map((v) => ({ id: m.id, value: v, explain: R(m.explain, scope) }));
+        });
+      }
+      q.verified = (!BAD.test(answer) && answer.trim() !== "") && (tpl.verify ? evaluate(tpl.verify, { ...scope, answer }, lib) === true : true);
+      return withSolution(q, scope);
+    }
+
+    if (tpl.type === "word_order") {
+      // The final . ? or ! is not a tile: it stays at the end, so any correct order of the words is accepted.
+      const answer = R(tpl.answer, scope);
+      const end = /[.?!]$/.exec(answer)?.[0] || "";
+      const body = (s) => s.replace(/\s*[.?!]$/, "");
+      const words = body(answer).split(/\s+/).filter(Boolean);
+      if (words.length < 3) throw new ContentError(`${tpl.id}: a word-order sentence needs at least 3 words: ${answer}`);
+      const accept = [answer, ...(tpl.accept || []).map((a) => R(a, scope))].map(body);
+      const bag = (s) => s.split(/\s+/).filter(Boolean).map(normaliseText).sort().join(" ");
+      for (const a of accept) if (bag(a) !== bag(body(answer))) throw new ContentError(`${tpl.id}: "${a}" does not use the same words as "${answer}"`);
+      const inOrder = (d) => accept.some((a) => normaliseText(d.map((i) => words[i]).join(" ")) === normaliseText(a));
+      let display = rng.shuffle(words.map((_, i) => i));
+      for (let k = 0; inOrder(display); k++) {
+        if (k > 50) throw new ContentError(`${tpl.id}: cannot shuffle "${answer}" out of order`);
+        display = rng.shuffle(words.map((_, i) => i));
+      }
+      Object.assign(q, {
+        items: display.map((i) => words[i]),
+        correctOrder: words.map((_, w) => display.indexOf(w)),
+        accept: accept.map(normaliseText),
+        end,
+        answer,
+      });
+      q.verified = !BAD.test(answer);
+      return withSolution(q, scope);
+    }
+
+    if (tpl.type === "matching") {
+      const pairs = rng.sample(tpl.pool, tpl.pick || tpl.pool.length).map((p) => ({ left: R(p.left, scope), right: R(p.right, scope) }));
+      const lefts = pairs.map((p) => p.left), rights = pairs.map((p) => p.right);
+      if (new Set(lefts).size !== lefts.length) continue;                     // resample: two identical left items
+      if (!tpl.groups && new Set(rights).size !== rights.length) continue;    // resample: two identical answers
+      const shownRights = [...new Set(rights)];
+      if (tpl.groups && tpl.group_order) shownRights.sort((a, b) => tpl.group_order.indexOf(a) - tpl.group_order.indexOf(b));
+      let right = tpl.groups && tpl.group_order ? shownRights : rng.shuffle(shownRights);
+      if (!tpl.groups && right.length > 1) while (right.every((r, i) => r === rights[i])) right = rng.shuffle(shownRights);
+      if (tpl.groups && right.length < 2) continue;                          // resample: every item in one group
+      Object.assign(q, { left: lefts, right, correctMatch: rights.map((r) => right.indexOf(r)), groups: !!tpl.groups });
+      q.answer = lefts.map((l, i) => `${l} → ${rights[i]}`).join("; ");
+      q.verified = ![...lefts, ...right].some((t) => BAD.test(t));
+      return withSolution(q, scope);
+    }
     throw new ContentError(`${tpl.id}: unknown type ${tpl.type}`);
   }
   throw new ContentError(`${tpl.id}: could not build enough distinct options`);
@@ -223,12 +317,14 @@ export function instantiate(tpl, seed, lib, lesson = null) {
  * commas also go when the answer is a whole number ("9,038,766" → "9038766").
  */
 export function normaliseInput(text, q) {
+  if (q.type === "cloze") return String(text).replace(/[\s  ]+/g, " ").trim();  // words keep their spaces
   const s = String(text).replace(/[\s   ]/g, "");
   return q.answerKind === "number" && Number.isInteger(q.answerValue) ? s.replace(/,/g, "") : s;
 }
 
 /** Keyboard to show: the number pad for whole numbers and base numerals, decimal pad otherwise. */
 export function inputModeFor(q) {
+  if (q.type === "cloze") return "text";
   if (q.answerKind === "base" || (q.answerKind === "number" && Number.isInteger(q.answerValue))) return "numeric";
   return q.answerKind === "number" ? "decimal" : "text";
 }
@@ -253,6 +349,27 @@ export function check(q, response) {
     return { correct: false, misconception: o && (o.misconception || o.explain) ? { id: o.misconception || null, explain: o.explain } : null };
   }
   if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
+  if (q.type === "cloze") {
+    if (q.mode === "choose") {
+      if (response === q.correctIndex) return { correct: true };
+      const o = q.options[response];
+      return { correct: false, misconception: o && (o.misconception || o.explain) ? { id: o.misconception || null, explain: o.explain } : null };
+    }
+    const typed = normaliseText(response);
+    if (q.accept.includes(typed)) return { correct: true };
+    const m = q.misconceptions.find((x) => normaliseText(x.value) === typed);
+    return { correct: false, misconception: m ? { id: m.id, explain: m.explain } : null };
+  }
+  if (q.type === "word_order") {
+    // response: display indices in the order tapped. Any accepted order of the same words is right.
+    const ok = Array.isArray(response) && response.length === q.items.length && new Set(response).size === response.length;
+    return { correct: ok && q.accept.includes(normaliseText(response.map((i) => q.items[i]).join(" "))) };
+  }
+  if (q.type === "matching") {
+    // response: for each left item, the index of the right item chosen. All must be right; wrong ones are listed.
+    const wrong = q.left.map((_, i) => i).filter((i) => !Array.isArray(response) || q.right[response[i]] !== q.right[q.correctMatch[i]]);
+    return wrong.length ? { correct: false, wrongPairs: wrong } : { correct: true };
+  }
   throw new Error(`unknown type ${q.type}`);
 }
 
