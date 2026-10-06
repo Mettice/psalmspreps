@@ -1,0 +1,556 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "g5",
+   "name": "Grid references"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Grid lines are numbered lines drawn on a map to help us find places.\n• Eastings are the lines going up and down. Their numbers are along the bottom and grow towards the east.\n• Northings are the lines going across. Their numbers are up the side and grow towards the north.\nA 4-figure grid reference names a square: first the easting of the line on the left of the square, then the northing of the line below it. Remember: “along the corridor, then up the stairs”.\nA 6-figure grid reference names a point: imagine each side of the square cut into ten. Write the easting and the tenths across, then the northing and the tenths up. 253347 means easting 25 and 3 tenths, northing 34 and 7 tenths.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e0": 23,
+   "n0": 41
+  },
+  "figure": "gridMap(e0, n0, [['clinic', 2.5, 1.5], ['market', 4.5, 3.5]])",
+  "problem": "What is the four-figure grid reference of the clinic?",
+  "steps": [
+   "Along the corridor: the line on the left of the clinic’s square is easting {e0 + 2}.",
+   "Up the stairs: the line below the square is northing {n0 + 1}.",
+   "Easting first, then northing."
+  ],
+  "answer": "{grid4(e0 + 2, n0 + 1)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc5-1",
+    "status": "draft",
+    "idea": "Eastings are the grid lines going up and down; their numbers are along the bottom. Northings go across; their numbers are up the side.",
+    "vars": {},
+    "example": [
+     "Eastings grow as you go east (to the right). Northings grow as you go north (up)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc5-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grid-ref"
+     ],
+     "vars": {},
+     "prompt": "Which sentence is true?",
+     "pool": {
+      "right": [
+       {
+        "text": "Eastings are the lines going up and down the map.",
+        "truth": "true"
+       },
+       {
+        "text": "Northings are the lines going across the map.",
+        "truth": "true"
+       },
+       {
+        "text": "The easting numbers are written along the bottom of the map.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Eastings are the lines going across the map.",
+        "truth": "false",
+        "explain": "Lines going across are northings. Eastings go up and down."
+       },
+       {
+        "text": "Northing numbers get bigger towards the south.",
+        "truth": "false",
+        "explain": "Northing numbers get bigger towards the north."
+       },
+       {
+        "text": "Easting numbers get bigger towards the west.",
+        "truth": "false",
+        "explain": "Easting numbers get bigger towards the east."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc5-2",
+    "status": "draft",
+    "idea": "A four-figure grid reference names a square: the easting of the line on its left, then the northing of the line below it.",
+    "vars": {},
+    "example": [
+     "“Along the corridor, then up the stairs”: easting first, northing second."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-four"
+    }
+   },
+   {
+    "id": "gc5-3",
+    "status": "draft",
+    "idea": "To find a square from its grid reference, go along to the easting, then up to the northing: the square is to the right of and above that corner.",
+    "vars": {
+     "e": 25,
+     "n": 34
+    },
+    "example": [
+     "Square {grid4(e, n)}: along to easting {e}, up to northing {n}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-which"
+    }
+   },
+   {
+    "id": "gc5-4",
+    "status": "draft",
+    "idea": "A six-figure grid reference names a point: easting and tenths across, then northing and tenths up.",
+    "vars": {
+     "e": 25,
+     "a": 3,
+     "n": 34,
+     "b": 7
+    },
+    "example": [
+     "{grid6(e, a, n, b)}: easting {e} and {a} tenths, northing {n} and {b} tenths."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc5-4-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grid-ref"
+     ],
+     "vars": {
+      "e": {
+       "int": [
+        10,
+        40
+       ]
+      },
+      "n": {
+       "int": [
+        10,
+        40
+       ]
+      },
+      "a": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "where": "e != n",
+     "prompt": "In the grid reference {grid6(e, a, n, b)}, which part gives the easting and its tenths?",
+     "correct": "{e}{a}",
+     "distractors": [
+      {
+       "text": "{n}{b}",
+       "misconception": "north"
+      },
+      {
+       "text": "{e}",
+       "misconception": "tenths"
+      },
+      {
+       "text": "{a}{n}",
+       "misconception": "split"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "north",
+       "explain": "That is the northing. The easting always comes first."
+      },
+      {
+       "id": "tenths",
+       "explain": "In a six-figure reference the easting has its tenths: three figures."
+      },
+      {
+       "id": "split",
+       "explain": "Split the six figures into two groups of three: easting first, northing second."
+      }
+     ],
+     "solution": [
+      "Split {grid6(e, a, n, b)} into two groups of three figures.",
+      "The first group is the easting with its tenths: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-four",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grid-ref"
+   ],
+   "vars": {
+    "e0": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "n0": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "de": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "dn": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "ps": {
+     "sample": [
+      "gridPlaces()",
+      "3"
+     ]
+    }
+   },
+   "figure": "gridMap(e0, n0, [[ps[0], de + 0.5, dn + 0.5], [ps[1], (de + 2) % 5 + 0.5, (dn + 1) % 5 + 0.5], [ps[2], (de + 4) % 5 + 0.5, (dn + 3) % 5 + 0.5]])",
+   "prompt": "Give the 4-figure grid reference of the {ps[0]}.",
+   "answer": "num(grid4(e0 + de, n0 + dn))",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "num(grid4(n0 + dn, e0 + de))",
+     "explain": "You gave the northing first. Easting first: along the corridor, then up the stairs."
+    },
+    {
+     "id": "right",
+     "wrong": "num(grid4(e0 + de + 1, n0 + dn))",
+     "explain": "Use the easting on the LEFT of the square, not the right."
+    },
+    {
+     "id": "top",
+     "wrong": "num(grid4(e0 + de, n0 + dn + 1))",
+     "explain": "Use the northing BELOW the square, not above it."
+    }
+   ],
+   "solution": [
+    "Along the corridor: the line on the left of the {ps[0]}’s square is easting {e0 + de}.",
+    "Up the stairs: the line below it is northing {n0 + dn}.",
+    "Grid reference: {answer}."
+   ]
+  },
+  {
+   "id": "g5-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grid-ref"
+   ],
+   "vars": {
+    "e0": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "n0": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "de": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "dn": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "ps": {
+     "sample": [
+      "gridPlaces()",
+      "3"
+     ]
+    }
+   },
+   "figure": "gridMap(e0, n0, [[ps[0], de + 0.5, dn + 0.5], [ps[1], (de + 2) % 5 + 0.5, (dn + 1) % 5 + 0.5], [ps[2], (de + 4) % 5 + 0.5, (dn + 3) % 5 + 0.5]])",
+   "show": 3,
+   "prompt": "Which place is in grid square {grid4(e0 + de, n0 + dn)}?",
+   "correct": "{ps[0]}",
+   "distractors": [
+    {
+     "text": "{ps[1]}",
+     "misconception": "other"
+    },
+    {
+     "text": "{ps[2]}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Go along to easting {e0 + de} first, then up to northing {n0 + dn}. The square is to the right of and above that corner."
+    }
+   ],
+   "solution": [
+    "Along to easting {e0 + de}, up to northing {n0 + dn}.",
+    "The square to the right of and above that corner holds the {answer}."
+   ]
+  },
+  {
+   "id": "g5-rule",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grid-ref"
+   ],
+   "vars": {},
+   "prompt": "Which is the right way to give a 4-figure grid reference?",
+   "pool": {
+    "right": [
+     {
+      "text": "The easting on the left of the square, then the northing below it.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The northing below the square, then the easting on its left.",
+      "truth": "false",
+      "explain": "Easting first: along the corridor, then up the stairs."
+     },
+     {
+      "text": "The easting on the right of the square, then the northing above it.",
+      "truth": "false",
+      "explain": "Use the lines on the left and below the square."
+     },
+     {
+      "text": "The number of the square counted from the top of the map.",
+      "truth": "false",
+      "explain": "A grid reference uses the easting and northing numbers."
+     },
+     {
+      "text": "Any two numbers you can see near the place.",
+      "truth": "false",
+      "explain": "Use the easting on the left of the square, then the northing below it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "g5-six",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grid-ref"
+   ],
+   "vars": {
+    "e0": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "n0": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "de": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "dn": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "ps": {
+     "sample": [
+      "gridPlaces()",
+      "3"
+     ]
+    },
+    "te": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "tn": {
+     "int": [
+      2,
+      8
+     ]
+    }
+   },
+   "where": [
+    "e0 + de != n0 + dn",
+    "abs(te - tn) >= 3"
+   ],
+   "figure": "gridMap(e0, n0, [[ps[0], de + te / 10, dn + tn / 10], [ps[1], (de + 2) % 5 + 0.5, (dn + 1) % 5 + 0.5]])",
+   "prompt": "Give the 6-figure grid reference of the {ps[0]}.",
+   "correct": "{grid6(e0 + de, te, n0 + dn, tn)}",
+   "distractors": [
+    {
+     "text": "{grid6(n0 + dn, tn, e0 + de, te)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{grid6(e0 + de, tn, n0 + dn, te)}",
+     "misconception": "tenths"
+    },
+    {
+     "text": "{grid6(e0 + de + 1, te, n0 + dn, tn)}",
+     "misconception": "right"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "That gives the northing first. Easting and its tenths first, then northing and its tenths."
+    },
+    {
+     "id": "tenths",
+     "explain": "The tenths are mixed up: the first tenths are across (east), the second tenths are up (north)."
+    },
+    {
+     "id": "right",
+     "explain": "Start from the easting on the left of the square, then add the tenths across."
+    }
+   ],
+   "solution": [
+    "The {ps[0]} is right of easting {e0 + de} by {te} tenths of the square: {e0 + de}{te}.",
+    "It is above northing {n0 + dn} by {tn} tenths: {n0 + dn}{tn}.",
+    "Grid reference: {answer}."
+   ]
+  },
+  {
+   "id": "g5-mistake",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grid-ref"
+   ],
+   "vars": {
+    "e0": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "n0": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "de": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "dn": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "ps": {
+     "sample": [
+      "gridPlaces()",
+      "3"
+     ]
+    }
+   },
+   "where": "e0 + de != n0 + dn",
+   "figure": "gridMap(e0, n0, [[ps[0], de + 0.5, dn + 0.5], [ps[1], (de + 2) % 5 + 0.5, (dn + 1) % 5 + 0.5], [ps[2], (de + 4) % 5 + 0.5, (dn + 3) % 5 + 0.5]])",
+   "prompt": "A pupil says the {ps[0]} is in square {grid4(n0 + dn, e0 + de)}. What mistake was made?",
+   "correct": "The northing was given before the easting.",
+   "distractors": [
+    {
+     "text": "The easting on the right of the square was used.",
+     "misconception": "other"
+    },
+    {
+     "text": "The northing above the square was used.",
+     "misconception": "other"
+    },
+    {
+     "text": "There is no mistake: the answer is right.",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Look again: the right answer is {grid4(e0 + de, n0 + dn)}. The same two numbers were used, in the wrong order."
+    },
+    {
+     "id": "none",
+     "explain": "The right answer is {grid4(e0 + de, n0 + dn)}: easting first, then northing."
+    }
+   ],
+   "solution": [
+    "The {ps[0]}’s square has easting {e0 + de} and northing {n0 + dn}: {grid4(e0 + de, n0 + dn)}.",
+    "The same numbers were written the other way round. So: {answer}"
+   ]
+  }
+ ]
+}

@@ -17,12 +17,13 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 `content/maths/REVIEW.md` (every draft rendered), `content/maths/sources.json`. English: `content/english/AUTHORED.md`,
 `content/english/REVIEW.md`, `content/english/sources.json`. Physics: `content/physics/AUTHORED.md`,
 `content/physics/REVIEW.md` (with drawings in `content/physics/figures/`), `content/physics/sources.json`. Chemistry: `content/chemistry/AUTHORED.md`,
-`content/chemistry/REVIEW.md`, `content/chemistry/sources.json`.
+`content/chemistry/REVIEW.md`, `content/chemistry/sources.json`. Geography: `content/geography/AUTHORED.md`,
+`content/geography/REVIEW.md` (with drawings in `content/geography/figures/`), `content/geography/sources.json`.
 
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-74 P1 items: 72 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+87 P1 items: 85 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -98,6 +99,19 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-K12 | Gases in liquids; composition of air | open |
 | TR-K13 | Mixtures and compounds compared | open |
 | TR-K14 | Chemistry statement pools, notes (21) and cards (63) | open |
+| TR-G01 | Local time: 15° = 1 hour, 1° = 4 minutes, east ahead; clock style | open |
+| TR-G02 | Main parallels at 23½° and 66½° | open |
+| TR-G03 | Planets: order, distances, facts | open |
+| TR-G04 | Continents and oceans by area | open |
+| TR-G05 | Shape and size of the Earth; proofs | open |
+| TR-G06 | Grid references (four- and six-figure) | open |
+| TR-G07 | Map scale; marginal information | open |
+| TR-G08 | Time zones; Cameroon GMT+1; Date Line | open |
+| TR-G09 | Rotation, revolution, leap years, seasons; day-and-night drawing | open |
+| TR-G10 | Reading latitude and longitude; Cameroon's extent | open |
+| TR-G11 | Natural environment, spheres, ecosystems, food chains | open |
+| TR-G12 | Branches, sub-branches and methods of geography | open |
+| TR-G13 | Geography statement pools, notes (10) and cards (37) | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -326,3 +340,39 @@ review than Maths or Physics. Everything is draft and **not yet in the app**. Ev
 - [ ] **TR-K17 [P2] Element-symbol questions offer wrong capitalisations** (Cu, CU, cu) as choices on purpose; the test compares tapped options exactly. *Location:* `ch19-symbol` in `content/chemistry/19.json`; `tests-js/subject-suite.js`.
 - [ ] **TR-K18 [P2] Not in the app yet:** Chemistry joins as a fourth tab after this review. *Location:* `SUBJECTS` in `tools/prototype/build.mjs`.
 - [ ] **TR-K19 [P2] Chemistry released in the app on 2026-10-07 at Dion's request ("release chemistry and push it"),** before the TR-K items above were checked by a teacher; the lessons show the usual "drafts" line. Four tabs now (Maths, English, Physics, Chemistry), shown two by two at 360 px; the page is about 640 KB (limit 800 KB; the 2 MB Phase 3 budget stands). Supersedes TR-K18. *Location:* `SUBJECTS`, `BATCH` in `tools/prototype/build.mjs`.
+
+## G. Geography Form 1, Batch G1 (Lessons 1–10, Term 1), added 2026-10-06
+
+All 10 lessons are taught with auto-marked practice: 10 notes, 37 teach cards, 60 practice templates and 16 card-check
+templates. 42 have an **authored key** and 34 are **computed by rule** (local time, time zones, map scale, grid
+references, positions read from a drawn graticule, day and night, leap years, planet order). Eleven practice questions
+show a map or drawing that the code draws from the question's own numbers, so the answer always matches the drawing.
+Everything is draft and **not yet in the app**. Every authored key is in `content/geography/AUTHORED.md` (Part 1 lists
+the rules and tables); every question as the pupil sees it is in `content/geography/REVIEW.md`.
+
+### P1: wrong facts here would mislead the pupil
+- [ ] **TR-G01 [P1] Local time:** 360° in 24 hours, so 15° = 1 hour and 1° = 4 minutes; places east are ahead (add), west behind (subtract); difference in longitude: same side of 0° subtract, opposite sides add. Times are written 12-hour style ("2:20 p.m.", "12:00 noon", "12:00 midnight"); no question crosses midnight. *Location:* `clock()`, `localTime()` in `src/engine/lib/geography.js`; `content/geography/8.json`, `9.json`.
+- [ ] **TR-G02 [P1] Main parallels** written 23½° and 66½° (not 23°26′ and 66°34′); the globe drawing letters them A–E from the top. *Location:* `PARALLELS`, `parallels()` in `geography.js`; `content/geography/3.json`.
+- [ ] **TR-G03 [P1] Planets:** the order, the average distances (58, 108, 150, 228, 778, 1430, 2870, 4500 million km), the facts (largest Jupiter, smallest and nearest Mercury, hottest Venus, red Mars, rings Saturn, farthest Neptune), inner rocky and outer giant planets, Pluto a dwarf planet, the Sun a star. *Location:* `PLANETS` in `geography.js`; `content/geography/2.json`.
+- [ ] **TR-G04 [P1] Continents and oceans by area:** seven continents (named "Australia", not "Oceania") and five oceans including the Southern Ocean; only the order of size is asked. About 71 % water, 29 % land. *Location:* `CONTINENTS`, `OCEANS` in `geography.js`; `content/geography/3.json`.
+- [ ] **TR-G05 [P1] Shape and size of the Earth:** nearly a sphere, flattened at the poles (geoid); the four proofs used; about 40 000 km round the Equator and 12 750 km across. *Location:* `content/geography/3.json`.
+- [ ] **TR-G06 [P1] Grid references:** a four-figure reference names a square by the easting on its left and the northing below it, easting first; a six-figure reference adds tenths across and up. The grid maps are drawn by code with made-up places. *Location:* `grid4()`, `grid6()`, `gridMap()` in `geography.js`; `content/geography/5.json`.
+- [ ] **TR-G07 [P1] Maps and scale:** five parts of the marginal information (title, key, scale, north arrow, grid numbers; date and publisher not asked); three kinds of scale; real km = map cm × scale number ÷ 100 000. The sketch map titled "Nkongsamba area" is invented, not a real map. *Location:* `marginMap()`, `realKm()`, `mapCm()` in `geography.js`; `content/geography/4.json`.
+- [ ] **TR-G08 [P1] Time zones:** 24 zones of about 15°; standard meridians are multiples of 15°, named GMT+n east and GMT−n west; Cameroon, Nigeria, Gabon and Chad use GMT+1 (West Africa Time); the International Date Line is near 180°. "GMT" is used, not "UTC". *Location:* `zone()` in `geography.js`; `content/geography/9.json`.
+- [ ] **TR-G09 [P1] Rotation and revolution:** west to east in about 24 hours; about 365¼ days round the Sun; a leap year is divisible by 4 (only 2001–2099 used); the tilt (about 23½°) gives the seasons; equinoxes about 21 March and 23 September, solstices about 21 June and 22 December. The drawing shows the Earth from above the North Pole, Sun on the left, turning anticlockwise; a town near the top is about to have sunrise, near the bottom sunset. *Location:* `dayNight()`, `isLeap()` in `geography.js`; `content/geography/7.json`.
+- [ ] **TR-G10 [P1] Positions:** latitude first, then longitude, with N/S and E/W (0° has no letter); a place halfway between lines takes the middle value; hemispheres from N/S and E/W; Cameroon roughly between 2°N and 13°N, 8°E and 16°E (in the note only). *Location:* `latlon()`, `graticule()` in `geography.js`; `content/geography/6.json`.
+- [ ] **TR-G11 [P1] The natural environment:** natural and built examples; the living and non-living lists (temperature, wind and rain non-living; bacteria and mushrooms living); the four spheres; ecosystem examples; the five food chains, each starting with a green plant. *Location:* `content/geography/10.json`.
+- [ ] **TR-G12 [P1] What geography is:** the three branches; the ten sub-branches and what they study; the five methods (observation, interview, questionnaire, measurement, map reading); reasons to study geography. *Location:* `content/geography/1.json`.
+- [ ] **TR-G13 [P1] Statement pools, notes and cards:** every right and wrong sentence with its explanation, 10 notes and 37 cards. *Location:* `content/geography/AUTHORED.md`, `REVIEW.md`.
+
+### P2: conventions and decisions
+- [ ] **TR-G14 [P2] Lesson numbers:** the sheet gives no lesson number to the practicals and gives one number to two-part lessons, so Geography lessons are numbered by their place in the year (Lessons 1–10 = rows 1–10): PW1 is Lesson 4, PW2 is Lessons 5–6, PW3 is Lesson 9. *Location:* `numbering: "seq"` in `tests-js/geography-content.test.js`; `CONF.geography` in `tools/content/render_subject.mjs`.
+- [ ] **TR-G15 [P2] Practical work on screen:** PW1–PW3 are taught with code-drawn maps and auto-marked questions. Reading a real printed map of Cameroon with a ruler is still a classroom task. The world map and solar-system drawings planned in the audit were not made; those questions use words. *Location:* `content/geography/4.json`, `5.json`, `6.json`, `9.json`.
+- [ ] **TR-G16 [P2] Not in the app yet:** Geography joins as a fifth tab after this review; the build will need to number Geography by place in the year as above. *Location:* `SUBJECTS`, `BATCH` in `tools/prototype/build.mjs`.
+
+### P3: cosmetic
+- [ ] **TR-G17 [P3] Drawing labels:** the drawing helper wrote `text-anchor` twice on some labels (invalid SVG; browsers kept the first, so every label was centred). Fixed in `geography.js` and in `physics.js`, so the live Physics drawings will change at the next release: the cylinder numbers sit fully left of the scale and "cm" sits at the right of the ruler, as intended. A test now checks every drawing for repeated attributes. *Location:* `text()` in `src/engine/lib/physics.js`, `geography.js`; `tests-js/geography.test.js`.
+- [ ] **TR-G18 [P3] Dates in this log:** sections P and K (and TR-P26, TR-K19, spec §11–12) say 2026-10-07, but that work was done and committed on 2026-10-06 (see `git log`). The entries stay as written (this file is append-only).
+
+### Added 2026-10-07 (Geography released in the app)
+- [ ] **TR-G19 [P2] Geography released in the app on 2026-10-07 at Dion's request ("release geography and push it"),** before the TR-G items above were checked by a teacher; the lessons show the usual "drafts" line. Five tabs now (Maths, English, Physics, Chemistry, Geography; two by two at 360 px, Geography alone on the third row). The build numbers Geography by place in the year (TR-G14), so the menu shows "Lesson 4: PW1 …". The page is about 746 KB (limit raised to 900 KB; the 2 MB Phase 3 budget stands). This release also ships the Physics label fix (TR-G17). Supersedes TR-G16. *Location:* `SUBJECTS`, `BATCH`, `BY_SEQ` in `tools/prototype/build.mjs`.

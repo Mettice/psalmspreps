@@ -1,0 +1,512 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g1",
+   "name": "What geography is"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Geography is the study of the Earth’s surface: its land, water, air, plants and animals, the people who live on it, and how people and their surroundings affect each other.\nBranches:\n• Physical geography: landforms, rivers, climate, soils, vegetation.\n• Human geography: population, settlements, farming, industry, trade, transport.\n• Practical geography: map reading, fieldwork, graphs and statistics.\nSub-branches include climatology (climate), geomorphology (landforms), hydrology (water), pedology (soils), biogeography, population, settlement, economic and transport geography, and cartography (making maps).\nMethods: observation, interviews, questionnaires, measurement, maps and photographs.\nWhy study it? To understand and protect our environment, to plan farms and towns, to read maps and find our way, and for jobs such as surveyor, weather forecaster and town planner.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A class visits the Wouri River in Douala. They measure how fast the water flows, and they ask fishermen how much fish they catch. Which branches of geography are they using?",
+  "steps": [
+   "How fast a river flows is about water: physical geography (hydrology).",
+   "Fishing as a way of earning a living is human geography (economic geography).",
+   "Measuring and asking questions outside the classroom is fieldwork: practical geography."
+  ],
+  "answer": "Physical, human and practical geography together.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc1-1",
+    "status": "draft",
+    "idea": "Geography studies the Earth’s surface and the people on it, and how people and their surroundings affect each other.",
+    "vars": {},
+    "example": [
+     "Why does Buea get more rain than Maroua? Why do people build towns beside rivers? These are geography questions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc1-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "geography"
+     ],
+     "vars": {},
+     "prompt": "Which question is a geography question?",
+     "pool": {
+      "right": [
+       {
+        "text": "Why do many people live near the coast?",
+        "truth": "true"
+       },
+       {
+        "text": "Why does the north of Cameroon get less rain than the south?",
+        "truth": "true"
+       },
+       {
+        "text": "Where are the main roads in Cameroon?",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "How do you add fractions?",
+        "truth": "false",
+        "explain": "That is Mathematics."
+       },
+       {
+        "text": "What is the past tense of “go”?",
+        "truth": "false",
+        "explain": "That is English."
+       },
+       {
+        "text": "How does the heart pump blood?",
+        "truth": "false",
+        "explain": "That is Biology."
+       },
+       {
+        "text": "Who was the first president of Cameroon?",
+        "truth": "false",
+        "explain": "That is History."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc1-2",
+    "status": "draft",
+    "idea": "Geography has three branches: physical geography (the natural world), human geography (people and what they do) and practical geography (maps and fieldwork).",
+    "vars": {},
+    "example": [
+     "Hills and rivers: physical. Markets and roads: human. Drawing a map of the school: practical."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g1-which"
+    }
+   },
+   {
+    "id": "gc1-3",
+    "status": "draft",
+    "idea": "Each branch has sub-branches: climatology studies climate, pedology studies soils, cartography is making maps.",
+    "vars": {},
+    "example": [
+     "A weather forecaster uses climatology. A map maker uses cartography."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g1-sub"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g1-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "geography"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "landforms such as hills and valleys",
+       "a": "Physical geography",
+       "why": "Physical geography studies landforms such as hills and valleys."
+      },
+      {
+       "t": "rivers and lakes",
+       "a": "Physical geography",
+       "why": "Physical geography studies rivers and lakes."
+      },
+      {
+       "t": "climate and weather",
+       "a": "Physical geography",
+       "why": "Physical geography studies climate and weather."
+      },
+      {
+       "t": "soils and vegetation",
+       "a": "Physical geography",
+       "why": "Physical geography studies soils and vegetation."
+      },
+      {
+       "t": "population and where people live",
+       "a": "Human geography",
+       "why": "Human geography studies population and where people live."
+      },
+      {
+       "t": "towns and villages",
+       "a": "Human geography",
+       "why": "Human geography studies towns and villages."
+      },
+      {
+       "t": "farming, industry and trade",
+       "a": "Human geography",
+       "why": "Human geography studies farming, industry and trade."
+      },
+      {
+       "t": "roads, railways and ports",
+       "a": "Human geography",
+       "why": "Human geography studies roads, railways and ports."
+      },
+      {
+       "t": "reading and drawing maps",
+       "a": "Practical geography",
+       "why": "Practical geography studies reading and drawing maps."
+      },
+      {
+       "t": "fieldwork and collecting data",
+       "a": "Practical geography",
+       "why": "Practical geography studies fieldwork and collecting data."
+      },
+      {
+       "t": "graphs and statistics",
+       "a": "Practical geography",
+       "why": "Practical geography studies graphs and statistics."
+      }
+     ]
+    }
+   },
+   "prompt": "Which branch of geography studies {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Physical geography",
+     "misconception": "other"
+    },
+    {
+     "text": "Human geography",
+     "misconception": "other"
+    },
+    {
+     "text": "Practical geography",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this branch. Physical is the natural world, human is people and what they do, practical is maps and fieldwork."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "g1-sub",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "geography"
+   ],
+   "prompt": "Match each sub-branch with what it studies.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "climatology",
+     "right": "climate: the usual weather of a place over many years"
+    },
+    {
+     "left": "geomorphology",
+     "right": "landforms such as hills, valleys and plateaus"
+    },
+    {
+     "left": "hydrology",
+     "right": "water: rivers, lakes and seas"
+    },
+    {
+     "left": "pedology",
+     "right": "soils"
+    },
+    {
+     "left": "biogeography",
+     "right": "where plants and animals live"
+    },
+    {
+     "left": "population geography",
+     "right": "how many people live in a place, and where"
+    },
+    {
+     "left": "settlement geography",
+     "right": "villages, towns and cities"
+    },
+    {
+     "left": "economic geography",
+     "right": "farming, industry and trade"
+    },
+    {
+     "left": "transport geography",
+     "right": "roads, railways, ports and airports"
+    },
+    {
+     "left": "cartography",
+     "right": "making maps"
+    }
+   ]
+  },
+  {
+   "id": "g1-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "geography"
+   ],
+   "prompt": "Sort these topics: physical or human geography?",
+   "pick": 6,
+   "pool": [
+    {
+     "left": "landforms such as hills and valleys",
+     "right": "Physical geography"
+    },
+    {
+     "left": "rivers and lakes",
+     "right": "Physical geography"
+    },
+    {
+     "left": "climate and weather",
+     "right": "Physical geography"
+    },
+    {
+     "left": "soils and vegetation",
+     "right": "Physical geography"
+    },
+    {
+     "left": "population and where people live",
+     "right": "Human geography"
+    },
+    {
+     "left": "towns and villages",
+     "right": "Human geography"
+    },
+    {
+     "left": "farming, industry and trade",
+     "right": "Human geography"
+    },
+    {
+     "left": "roads, railways and ports",
+     "right": "Human geography"
+    }
+   ],
+   "groups": true,
+   "group_order": [
+    "Physical geography",
+    "Human geography"
+   ]
+  },
+  {
+   "id": "g1-method",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "geography-methods"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "The class watches the types of houses along the road and writes notes.",
+       "a": "observation",
+       "why": "This is observation."
+      },
+      {
+       "t": "Ngwa asks farmers questions face to face and writes down their answers.",
+       "a": "interview",
+       "why": "This is interview."
+      },
+      {
+       "t": "The class gives printed questions to families, who write their answers and return them.",
+       "a": "questionnaire",
+       "why": "This is questionnaire."
+      },
+      {
+       "t": "The class reads the rain gauge every morning and records the rainfall.",
+       "a": "measurement",
+       "why": "This is measurement."
+      },
+      {
+       "t": "Tabe studies a map of Buea to find the roads and rivers.",
+       "a": "map reading",
+       "why": "This is map reading."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method is this?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "observation",
+     "misconception": "other"
+    },
+    {
+     "text": "interview",
+     "misconception": "other"
+    },
+    {
+     "text": "questionnaire",
+     "misconception": "other"
+    },
+    {
+     "text": "measurement",
+     "misconception": "other"
+    },
+    {
+     "text": "map reading",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this method. Observation is watching, an interview is asking face to face, a questionnaire is written questions."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "g1-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "geography"
+   ],
+   "vars": {},
+   "prompt": "Which is a good reason to study geography?",
+   "pool": {
+    "right": [
+     {
+      "text": "It helps us understand and protect our environment.",
+      "truth": "true"
+     },
+     {
+      "text": "It helps farmers plan their work with the seasons.",
+      "truth": "true"
+     },
+     {
+      "text": "It helps us read maps and find our way.",
+      "truth": "true"
+     },
+     {
+      "text": "It helps planners decide where to build roads and schools.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It teaches doctors how to cure diseases.",
+      "truth": "false",
+      "explain": "That is medicine."
+     },
+     {
+      "text": "It is only about learning the names of capital cities.",
+      "truth": "false",
+      "explain": "Geography studies the land, the weather and people, not just names."
+     },
+     {
+      "text": "It tells us exactly what will happen in the future.",
+      "truth": "false",
+      "explain": "Geography helps us plan, but it cannot tell the future exactly."
+     },
+     {
+      "text": "It is only useful for pilots.",
+      "truth": "false",
+      "explain": "Everyone uses geography: farmers, traders, travellers, planners."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "g1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "geography"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Hydrology is the study of water.",
+      "truth": "true"
+     },
+     {
+      "text": "Pedology is the study of soils.",
+      "truth": "true"
+     },
+     {
+      "text": "Cartography is the making of maps.",
+      "truth": "true"
+     },
+     {
+      "text": "Human geography studies people and their activities.",
+      "truth": "true"
+     },
+     {
+      "text": "Climatology is the study of climate.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Geomorphology is the study of population.",
+      "truth": "false",
+      "explain": "Geomorphology studies landforms; population is studied in population geography."
+     },
+     {
+      "text": "Physical geography studies towns and markets.",
+      "truth": "false",
+      "explain": "Towns and markets are human geography."
+     },
+     {
+      "text": "A questionnaire is watching people without asking them anything.",
+      "truth": "false",
+      "explain": "That is observation; a questionnaire is a list of written questions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

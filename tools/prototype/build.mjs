@@ -9,14 +9,16 @@ import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
-const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
+const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
 // 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
 // The Phase 3 budget for the whole app is 2 MB.
-const MAX_BYTES = 800 * 1024;  // 640 KB with Physics P1; 800 KB with Chemistry C1 (2026-10-07); app budget 2 MB
-const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry" };
-const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry" };
+const MAX_BYTES = 900 * 1024;  // 640 KB with Physics P1; 800 KB with Chemistry C1; 900 KB with Geography G1 (2026-10-07); app budget 2 MB
+const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography" };
+const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography" };
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
-const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21) };  // released lessons per subject
+const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10) };  // released lessons per subject
+// Geography is numbered by place in the year (spine seq): its practicals have no lesson number (TR-G14).
+const BY_SEQ = new Set(["geography"]);
 
 function bundleModule(path) {
   const src = read(`src/engine/${path}`);
@@ -43,7 +45,8 @@ const tidy = (t) => t
 const titles = {}, content = {}, lessons = {};
 for (const s of Object.keys(SUBJECTS)) {
   const spine = JSON.parse(read(`data/spine/${SPINE[s]}.json`));
-  titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => l.kind === "lesson" && BATCH[s].includes(l.lesson_no)).map((l) => [l.lesson_no, tidy(l.title)]));
+  const num = (l) => (BY_SEQ.has(s) ? l.seq : l.kind === "lesson" ? l.lesson_no : null);
+  titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => BATCH[s].includes(num(l))).map((l) => [num(l), tidy(l.title)]));
   const all = Object.fromEntries((s === "maths" ? [0, ...BATCH[s]] : BATCH[s]).map((n) => [n, JSON.parse(read(`content/${s}/${n}.json`))]));
   // Deferred lessons (speech work: needs audio) are not shipped at all: hidden from the pupil (TR-E22).
   content[s] = Object.fromEntries(Object.entries(all).filter(([, l]) => l.status !== "deferred"));
@@ -184,7 +187,8 @@ const __mods = {};
 ${ENGINE.map(bundleModule).join("\n")}
 const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },
-    chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] } },
+    chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] },
+    geography: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"] } },
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${safeJson(content)};
 const TITLES = ${safeJson(titles)};

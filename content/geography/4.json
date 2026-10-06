@@ -1,0 +1,538 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "g4",
+   "name": "Maps: marginal information and scale"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A globe is a model of the Earth. It has the right shape, but it is small and hard to carry.\nA map is a flat drawing of the Earth, or of part of it, drawn to scale.\nMarginal information is written around the map, outside its frame:\n• title: what place the map shows;\n• key (legend): what the symbols and colours mean;\n• scale: how map distances compare with real distances;\n• north arrow: which way is north;\n• grid numbers: the numbers of the grid lines.\nThree ways to show a scale:\n• statement: “1 cm represents 1 km”;\n• representative fraction (ratio): 1 : 100 000;\n• linear scale: a line marked in kilometres.\nReal distance: measure on the map in cm, multiply by the scale number, then change cm to km (100 000 cm = 1 km).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "cm": 6,
+   "n": 50000
+  },
+  "problem": "On a map with scale {ratio(n)}, the road from the school to the market measures {cm} cm. How long is the real road?",
+  "steps": [
+   "1 cm on the map is {fmt(n)} cm on the ground.",
+   "{cm} cm on the map is {cm} × {fmt(n)} = {fmt(cm * n)} cm on the ground.",
+   "There are {fmt(factor('km', 'cm'))} cm in 1 km, so {fmt(cm * n)} cm = {fmt(realKm(cm, n))} km."
+  ],
+  "answer": "{fmt(realKm(cm, n))} km.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc4-1",
+    "status": "draft",
+    "idea": "A globe has the true shape of the Earth but is small and hard to carry. A map is flat: it can show a small place in detail and fit in a bag.",
+    "vars": {},
+    "example": [
+     "To walk around Bamenda, take a map. To see the whole Earth’s shape, look at a globe."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc4-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "maps"
+     ],
+     "vars": {},
+     "prompt": "Which is true about globes and maps?",
+     "pool": {
+      "right": [
+       {
+        "text": "A globe shows the true shape of the Earth.",
+        "truth": "true"
+       },
+       {
+        "text": "A map can show a small area, such as a town, in detail.",
+        "truth": "true"
+       },
+       {
+        "text": "A map is easy to fold and carry.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A globe is easier to carry than a map.",
+        "truth": "false",
+        "explain": "A globe is round and bulky; a map can be folded."
+       },
+       {
+        "text": "A map is a model in the shape of a ball.",
+        "truth": "false",
+        "explain": "That is a globe; a map is flat."
+       },
+       {
+        "text": "A globe can show every street of a town.",
+        "truth": "false",
+        "explain": "A globe is too small for that; a large-scale map can show streets."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc4-2",
+    "status": "draft",
+    "idea": "The marginal information around a map helps you read it: title, key, scale, north arrow and grid numbers.",
+    "vars": {},
+    "example": [
+     "The key tells you that a blue line is a river and a dashed line is a road."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-letter"
+    }
+   },
+   {
+    "id": "gc4-3",
+    "status": "draft",
+    "idea": "A scale can be written in words (“1 cm represents 1 km”), as a ratio ({ratio(n)}), or drawn as a line marked in kilometres.",
+    "vars": {
+     "n": 50000
+    },
+    "example": [
+     "{ratio(n)} means 1 cm on the map is {fmt(n)} cm on the ground."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g4-use"
+    }
+   },
+   {
+    "id": "gc4-4",
+    "status": "draft",
+    "idea": "To find a real distance: measure in cm on the map, multiply by the scale number, and change cm to km.",
+    "vars": {
+     "cm": 3,
+     "n": 50000
+    },
+    "example": [
+     "{cm} cm on a {ratio(n)} map: {cm} × {fmt(n)} = {fmt(cm * n)} cm = {fmt(realKm(cm, n))} km."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc4-4-check",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "map-scale"
+     ],
+     "vars": {
+      "cm": {
+       "int": [
+        2,
+        15
+       ]
+      }
+     },
+     "prompt": "On a map with scale {ratio(100000)}, 1 cm represents 1 km. Two villages are {cm} cm apart on the map. How far apart are they on the ground?",
+     "answer": "realKm(cm, 100000)",
+     "unit": "km",
+     "misconceptions": [
+      {
+       "id": "cm",
+       "wrong": "cm * 100000",
+       "explain": "That is in centimetres. Change it to kilometres."
+      }
+     ],
+     "solution": [
+      "Each cm on this map is 1 km on the ground.",
+      "{cm} cm on the map = {answer} km."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g4-letter",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "maps"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      119
+     ]
+    },
+    "x": {
+     "pick": [
+      {
+       "p": "title",
+       "why": "The title tells you what place the map shows."
+      },
+      {
+       "p": "key",
+       "why": "The key explains what each symbol and colour means."
+      },
+      {
+       "p": "scale",
+       "why": "The scale tells you how a distance on the map compares with the real distance."
+      },
+      {
+       "p": "north arrow",
+       "why": "The north arrow shows which way is north."
+      },
+      {
+       "p": "grid numbers",
+       "why": "The grid numbers name the grid lines, to help you find places."
+      }
+     ]
+    }
+   },
+   "figure": "marginMap(k)",
+   "prompt": "What does letter {marginLetter(k, x.p)} point to?",
+   "correct": "{x.p}",
+   "distractors": [
+    {
+     "text": "title",
+     "misconception": "other"
+    },
+    {
+     "text": "key",
+     "misconception": "other"
+    },
+    {
+     "text": "scale",
+     "misconception": "other"
+    },
+    {
+     "text": "north arrow",
+     "misconception": "other"
+    },
+    {
+     "text": "grid numbers",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Look at what is next to the letter: words at the top, a box of symbols, a line marked in km, an arrow with N, or numbers along the frame."
+    }
+   ],
+   "solution": [
+    "Letter {marginLetter(k, x.p)} points to the {answer}.",
+    "{x.why}"
+   ]
+  },
+  {
+   "id": "g4-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "maps"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "what place the map shows",
+       "a": "title",
+       "why": "The title tells you what place the map shows."
+      },
+      {
+       "t": "what each symbol on the map means",
+       "a": "key",
+       "why": "The key tells you what each symbol on the map means."
+      },
+      {
+       "t": "how far apart places really are",
+       "a": "scale",
+       "why": "The scale tells you how far apart places really are."
+      },
+      {
+       "t": "which direction is north",
+       "a": "north arrow",
+       "why": "The north arrow tells you which direction is north."
+      },
+      {
+       "t": "the numbers of the lines used to find a place",
+       "a": "grid numbers",
+       "why": "The grid numbers tells you the numbers of the lines used to find a place."
+      }
+     ]
+    }
+   },
+   "prompt": "Which part of a map tells you {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "title",
+     "misconception": "other"
+    },
+    {
+     "text": "key",
+     "misconception": "other"
+    },
+    {
+     "text": "scale",
+     "misconception": "other"
+    },
+    {
+     "text": "north arrow",
+     "misconception": "other"
+    },
+    {
+     "text": "grid numbers",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that part. Read what each part of the marginal information does."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "g4-real",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "map-scale"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      25000,
+      50000,
+      100000,
+      200000,
+      250000,
+      500000
+     ]
+    },
+    "cm": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "A map has the scale {ratio(n)}. Two villages are {cm} cm apart on the map. How far apart are they on the ground?",
+   "answer": "realKm(cm, n)",
+   "unit": "km",
+   "misconceptions": [
+    {
+     "id": "m",
+     "wrong": "cm * n / 100",
+     "explain": "That is in metres. There are 100 000 cm in a kilometre, not 100."
+    },
+    {
+     "id": "nocv",
+     "wrong": "cm * n",
+     "explain": "That is in centimetres. Divide by 100 000 to get kilometres."
+    }
+   ],
+   "solution": [
+    "1 cm on the map = {fmt(n)} cm on the ground.",
+    "{cm} × {fmt(n)} = {fmt(cm * n)} cm.",
+    "{fmt(cm * n)} cm ÷ {fmt(factor('km', 'cm'))} = {answer} km."
+   ]
+  },
+  {
+   "id": "g4-rf",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "map-scale"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      1,
+      2,
+      4,
+      5,
+      10
+     ]
+    }
+   },
+   "prompt": "On a map, 1 cm represents {k} km. Write this scale as a ratio.",
+   "correct": "{ratio(k * 100000)}",
+   "distractors": [
+    {
+     "text": "{ratio(k * 1000)}",
+     "misconception": "m"
+    },
+    {
+     "text": "{ratio(k * 100)}",
+     "misconception": "hundred"
+    },
+    {
+     "text": "{ratio(k * 10000)}",
+     "misconception": "zeros"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "m",
+     "explain": "1 km is 1000 metres, but the ratio must use the same unit on both sides: centimetres. 1 km = 100 000 cm."
+    },
+    {
+     "id": "hundred",
+     "explain": "1 km = 100 000 cm, not 100 cm."
+    },
+    {
+     "id": "zeros",
+     "explain": "Count the zeros: 1 km = 100 000 cm."
+    }
+   ],
+   "solution": [
+    "Both sides must be in cm: {k} km = {k} × {fmt(factor('km', 'cm'))} = {fmt(k * 100000)} cm.",
+    "So the scale is {answer}."
+   ]
+  },
+  {
+   "id": "g4-type",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "map-scale"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "“1 cm represents 2 km”",
+       "a": "a statement scale",
+       "why": "“1 cm represents 2 km” is a statement scale."
+      },
+      {
+       "t": "“1 : 50 000”",
+       "a": "a representative fraction (ratio)",
+       "why": "“1 : 50 000” is a representative fraction (ratio)."
+      },
+      {
+       "t": "“1/100 000”",
+       "a": "a representative fraction (ratio)",
+       "why": "“1/100 000” is a representative fraction (ratio)."
+      },
+      {
+       "t": "a line divided into kilometres",
+       "a": "a linear scale",
+       "why": "a line divided into kilometres is a linear scale."
+      },
+      {
+       "t": "“one centimetre to half a kilometre”",
+       "a": "a statement scale",
+       "why": "“one centimetre to half a kilometre” is a statement scale."
+      }
+     ]
+    }
+   },
+   "prompt": "Which kind of scale is {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a statement scale",
+     "misconception": "other"
+    },
+    {
+     "text": "a representative fraction (ratio)",
+     "misconception": "other"
+    },
+    {
+     "text": "a linear scale",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this kind. Words: statement. Numbers 1 : n: ratio. A line marked in km: linear scale."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "g4-map",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "map-scale"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      25000,
+      50000,
+      100000,
+      200000,
+      250000,
+      500000
+     ]
+    },
+    "cm": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "km": {
+     "expr": "realKm(cm, n)"
+    }
+   },
+   "prompt": "A road is {fmt(km)} km long. How long is it on a map with the scale {ratio(n)}?",
+   "answer": "mapCm(km, n)",
+   "unit": "cm",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "realKm(km, n)",
+     "explain": "You multiplied by the scale. Going from the ground to the map, the distance gets smaller: divide."
+    },
+    {
+     "id": "km",
+     "wrong": "km * 100000",
+     "explain": "That is the real distance in cm. Now divide by the scale number to get the map distance."
+    }
+   ],
+   "solution": [
+    "{fmt(km)} km = {fmt(km)} × {fmt(factor('km', 'cm'))} = {fmt(km * 100000)} cm on the ground.",
+    "On the map: {fmt(km * 100000)} ÷ {fmt(n)} = {answer} cm."
+   ]
+  }
+ ]
+}

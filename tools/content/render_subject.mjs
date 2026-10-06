@@ -2,13 +2,14 @@
 //   content/{subject}/REVIEW.md    a sample lesson in teach mode, then every draft (cards, worked examples, practice, paper tasks)
 //   content/{subject}/AUTHORED.md  every answer fixed by a person (keys, tables, statement pools), with sources
 //   content/{subject}/figures/     the drawings (SVG) shown in REVIEW.md
-//   node tools/content/render_subject.mjs english|physics   (npm run review:english, npm run review:physics)
+//   node tools/content/render_subject.mjs english|physics|chemistry|geography   (npm run review:<subject>)
 // Everything shown is produced by the engine itself, so the reviewer sees exactly what pupils will see.
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import * as maths from "../../src/engine/lib/maths.js";
 import * as english from "../../src/engine/lib/english.js";
 import * as physics from "../../src/engine/lib/physics.js";
 import * as chemistry from "../../src/engine/lib/chemistry.js";
+import * as geography from "../../src/engine/lib/geography.js";
 import { render } from "../../src/engine/expr.js";
 import { instantiate, renderWorked } from "../../src/engine/template.js";
 import { renderCard, cardCheckTemplate, practicePlan, renderPaper, isDeferred } from "../../src/engine/teach.js";
@@ -18,8 +19,10 @@ const CONF = {
   english: { name: "English", batch: "Batch E1", spine: "english-language", lib: { ...maths, ...english }, sample: 3, lessons: "1–16" },
   physics: { name: "Physics", batch: "Batch P1", spine: "physics", lib: { ...maths, ...english, ...physics }, sample: 16, lessons: "1–19" },
   chemistry: { name: "Chemistry", batch: "Batch C1", spine: "chemistry", lib: { ...maths, ...english, ...physics, ...chemistry }, sample: 20, lessons: "1–21" },
+  // Geography is numbered by place in the year (spine seq): PW1–PW3 have no lesson number on the sheet.
+  geography: { name: "Geography", batch: "Batch G1", spine: "geography", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography }, sample: 8, lessons: "1–10", bySeq: true },
 }[SUBJECT];
-if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry");
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography");
 const lib = CONF.lib;
 const DIR = new URL(`../../content/${SUBJECT}/`, import.meta.url);
 // Drawings are saved as files (GitHub does not show SVG written inside Markdown).
@@ -37,7 +40,7 @@ const lessons = readdirSync(DIR).filter((f) => /^\d+\.json$/.test(f))
   .map((f) => JSON.parse(readFileSync(new URL(f, DIR), "utf8"))).sort((a, b) => a.lesson_no - b.lesson_no);
 const sources = JSON.parse(readFileSync(new URL("sources.json", DIR), "utf8"));
 const spine = JSON.parse(readFileSync(new URL(`../../data/spine/${CONF.spine}.json`, import.meta.url), "utf8"));
-const meta = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).map((l) => [l.lesson_no, l]));
+const meta = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).map((l) => [CONF.bySeq ? l.seq : l.lesson_no, l]));
 const SAMPLE_LESSON = CONF.sample, SAMPLE_SEED = 2026;
 const quote = (t) => String(t).split("\n").map((l) => `> ${l}`).join("\n");
 const TYPE_NAME = { numeric: "number", mcq: "multiple choice", spot_error: "spot the error", ordering: "ordering", cloze: "fill the blank", word_order: "word order", matching: "matching" };
@@ -131,6 +134,20 @@ const PART1 = {
     `**Symbols from Latin (TR-K02)**: ${Object.entries(chemistry.LATIN).map(([s, l]) => `${s} (${l})`).join(", ")}.`, "",
     "- **Formulas (TR-K03)**: the small number after a symbol counts the atoms of that symbol; no number means one; a bracket multiplies everything inside it (Ca(OH)₂: 1 Ca, 2 O, 2 H). Counted by `parseFormula()`, tested on known answers.",
     "- **Measurement**: the unit conversions, °C → K (+ 273), the measuring cylinder and thermometer drawings are the same as in Physics (TR-P04, TR-P05, TR-P08).", ""],
+  geography: () => ["## Part 1: tables and rules the computed answers use (src/engine/lib/geography.js)", "",
+    "- **Local time (TR-G01)**: 360° in 24 hours, so 15° = 1 hour and 1° = 4 minutes; east of a place is ahead (add), west is behind (subtract). Difference in longitude: same side of 0°, subtract; opposite sides, add. Questions stay within one day (no midnight crossed).",
+    `- **Clock style (TR-G01)**: 12-hour times: ${[0, 30, 545, 720, 860].map(geography.clock).join(", ")}.`,
+    `- **Time zones (TR-G08)**: standard meridians are multiples of 15°: ${[-30, -15, 0, 15, 45].map((d) => `${geography.lon(d)} → ${geography.zone(d)}`).join(", ")}. Cameroon uses ${geography.zone(15)} (West Africa Time).`,
+    `- **Main parallels (TR-G02)**: ${geography.PARALLELS.map(([n, d]) => `${n} ${geography.halfLat(d)}`).join(", ")}.`,
+    "- **Positions (TR-G05)**: latitude first, then longitude, each with N/S or E/W (4°N, 12°E); 0° has no letter.",
+    "- **Grid references (TR-G06)**: a 4-figure reference names the square by the easting on its left and the northing below it, easting first; a 6-figure reference adds tenths across and up (253347).",
+    "- **Map scale (TR-G07)**: real km = map cm × scale number ÷ 100 000; map cm = km × 100 000 ÷ scale number. Scales used: 1 : 25 000, 50 000, 100 000, 200 000, 250 000, 500 000.",
+    "- **Leap years (TR-G09)**: the Form 1 rule, divisible by 4; only years 2001–2099 are used, where it agrees with the full calendar rule.", "",
+    "**Planets (TR-G03)**, in order from the Sun, average distance in millions of km:", "",
+    "| # | Planet | Distance |", "|---|---|---|", ...[0, 1, 2, 3, 4, 5, 6, 7].map((i) => `| ${i + 1} | ${geography.planetName(i)} | ${geography.planetDistance(i)} |`), "",
+    "**Continents and oceans (TR-G04)**, largest first, area in millions of km² (rounded; only the order is used in questions):", "",
+    "| Continent | Area | | Ocean | Area |", "|---|---|---|---|---|",
+    ...[0, 1, 2, 3, 4, 5, 6].map((i) => `| ${geography.continentName(i)} | ${geography.continentArea(i)} | | ${i < 5 ? geography.oceanName(i) : ""} | ${i < 5 ? geography.oceanArea(i) : ""} |`), ""],
   physics: () => ["## Part 1: conventions and rules the computed answers use (src/engine/lib/physics.js)", "",
     "- **g = 10 N/kg on Earth (TR-P03)**; on the Moon about 1.6 N/kg. Weight = mass × g.",
     "- **T(K) = T(°C) + 273 (TR-P04)**; 0 °C = 273 K; 100 °C = 373 K; a change of 1 °C is a change of 1 K.",

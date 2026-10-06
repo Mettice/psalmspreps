@@ -1,0 +1,453 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  6,
+  7
+ ],
+ "skills": [
+  {
+   "id": "g8",
+   "name": "Local time and standard time"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Earth turns through 360° in 24 hours, so it turns 15° in 1 hour and 1° in 4 minutes.\nLocal time: it is 12 noon at a place when the Sun is highest in its sky. Places on the same meridian have the same local time.\nThe Earth turns from west to east, so places to the east see the Sun first: their time is ahead. Places to the west are behind.\nTo find the local time of a place:\n1. Find the difference in longitude (same side of 0°: subtract; opposite sides: add).\n2. Multiply by 4 minutes.\n3. East: add the time. West: subtract it.\nStandard time: a country uses one time for all its places, the time of one chosen meridian. Cameroon uses West Africa Time, one hour ahead of Greenwich (GMT+1), the time of 15°E.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 600,
+   "L": 45
+  },
+  "problem": "When it is {clock(t)} at Greenwich ({lon(0)}), what is the local time at a town on {lon(L)}?",
+  "steps": [
+   "Difference in longitude: {lonDiff(L, 0)}°.",
+   "Time difference: {lonDiff(L, 0)} × {minutesPerDegree()} = {timeForDegrees(L)} minutes = {duration(timeForDegrees(L))}.",
+   "The town is east of Greenwich, so its time is ahead: add."
+  ],
+  "answer": "{clock(localTime(t, 0, L))}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc8-1",
+    "status": "draft",
+    "idea": "The Earth turns through {360}° in {24} hours, so it turns {degreesPerHour()}° in 1 hour.",
+    "vars": {},
+    "example": [
+     "Two places {2 * degreesPerHour()}° apart have a time difference of {duration(120)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g8-hours"
+    }
+   },
+   {
+    "id": "gc8-2",
+    "status": "draft",
+    "idea": "Each degree of longitude makes a difference of {minutesPerDegree()} minutes in time.",
+    "vars": {
+     "d": 10
+    },
+    "example": [
+     "{d}° apart: {d} × {minutesPerDegree()} = {timeForDegrees(d)} minutes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g8-mins"
+    }
+   },
+   {
+    "id": "gc8-3",
+    "status": "draft",
+    "idea": "Places to the east see the Sun first, so their local time is ahead. Places to the west are behind.",
+    "vars": {},
+    "example": [
+     "When the local time is noon in Limbe, it is already after noon in Bertoua, further east."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g8-east"
+    }
+   },
+   {
+    "id": "gc8-4",
+    "status": "draft",
+    "idea": "Standard time is one time used by a whole country. Cameroon uses West Africa Time: {zone(cam)}.",
+    "vars": {
+     "t": 540,
+     "cam": 15
+    },
+    "example": [
+     "When it is {clock(t)} at Greenwich, it is {clock(localTime(t, 0, cam))} in Yaoundé and in Garoua."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc8-4-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "time-zones"
+     ],
+     "vars": {
+      "t": {
+       "int": [
+        360,
+        1020
+       ],
+       "step": 30
+      }
+     },
+     "show": 3,
+     "prompt": "Cameroon uses {zone(15)}. When it is {clock(t)} at Greenwich (GMT), what time is it in Cameroon?",
+     "correct": "{clock(t + 60)}",
+     "distractors": [
+      {
+       "text": "{clock(t - 60)}",
+       "misconception": "way"
+      },
+      {
+       "text": "{clock(t)}",
+       "misconception": "same"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "way",
+       "explain": "GMT+1 is ahead of Greenwich: add one hour."
+      },
+      {
+       "id": "same",
+       "explain": "Cameroon is not on Greenwich time: it is one hour ahead."
+      }
+     ],
+     "solution": [
+      "{zone(15)} is one hour ahead of Greenwich.",
+      "{clock(t)} + 1 hour = {answer}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g8-hours",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "local-time"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1,
+      10
+     ]
+    }
+   },
+   "prompt": "Two places are {k * 15}° of longitude apart. What is the difference in their local times, in hours?",
+   "answer": "k",
+   "unit": "hours",
+   "misconceptions": [
+    {
+     "id": "min",
+     "wrong": "timeForDegrees(k * 15)",
+     "explain": "That is the difference in minutes. Divide by 60, or divide the degrees by 15."
+    },
+    {
+     "id": "times",
+     "wrong": "k * 15 * 15",
+     "explain": "Divide by 15, do not multiply: 15° is 1 hour."
+    }
+   ],
+   "solution": [
+    "{degreesPerHour()}° = 1 hour.",
+    "{k * 15} ÷ {degreesPerHour()} = {answer} hours."
+   ]
+  },
+  {
+   "id": "g8-mins",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "local-time"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      2,
+      40
+     ]
+    }
+   },
+   "prompt": "Two places are {d}° of longitude apart. What is the difference in their local times, in minutes?",
+   "answer": "timeForDegrees(d)",
+   "unit": "minutes",
+   "misconceptions": [
+    {
+     "id": "fifteen",
+     "wrong": "d * 15",
+     "explain": "15 is degrees per hour. For minutes, each degree is 4 minutes."
+    },
+    {
+     "id": "same",
+     "wrong": "d",
+     "explain": "Each degree is 4 minutes, not 1 minute: multiply by 4."
+    }
+   ],
+   "solution": [
+    "Each degree = {minutesPerDegree()} minutes.",
+    "{d} × {minutesPerDegree()} = {answer} minutes."
+   ]
+  },
+  {
+   "id": "g8-east",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "local-time"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -90,
+      90
+     ],
+     "step": 5
+    },
+    "b": {
+     "int": [
+      -90,
+      90
+     ],
+     "step": 5
+    }
+   },
+   "where": "a != b",
+   "show": 3,
+   "prompt": "Town A is at {lon(a)} and town B is at {lon(b)}. Which town’s local time is ahead?",
+   "correct": "{a > b ? 'Town A' : 'Town B'}",
+   "distractors": [
+    {
+     "text": "{a > b ? 'Town B' : 'Town A'}",
+     "misconception": "west"
+    },
+    {
+     "text": "They have the same time.",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "west",
+     "explain": "That town is further west. The town further east sees the Sun first, so its time is ahead."
+    },
+    {
+     "id": "same",
+     "explain": "They are on different meridians, so their local times are different."
+    }
+   ],
+   "solution": [
+    "{a > b ? 'Town A' : 'Town B'} is further east.",
+    "Places further east are ahead: {answer}."
+   ]
+  },
+  {
+   "id": "g8-diff",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "local-time"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -90,
+      90
+     ],
+     "step": 5
+    },
+    "b": {
+     "int": [
+      -90,
+      90
+     ],
+     "step": 5
+    }
+   },
+   "where": [
+    "a != 0",
+    "b != 0",
+    "a != b",
+    "abs(a) != abs(b)"
+   ],
+   "prompt": "What is the difference in longitude between {lon(a)} and {lon(b)}?",
+   "answer": "lonDiff(a, b)",
+   "unit": "°",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "abs(abs(a) - abs(b))",
+     "when": "a * b < 0",
+     "explain": "One place is east of Greenwich and one is west: add the two longitudes."
+    },
+    {
+     "id": "add",
+     "wrong": "abs(a) + abs(b)",
+     "when": "a * b > 0",
+     "explain": "Both places are on the same side of Greenwich: subtract the smaller longitude from the larger."
+    }
+   ],
+   "solution": [
+    "{a * b < 0 ? 'Opposite sides of Greenwich: add' : 'Same side of Greenwich: subtract'}.",
+    "{a * b < 0 ? abs(a) + ' + ' + abs(b) : max(abs(a), abs(b)) + ' − ' + min(abs(a), abs(b))} = {answer}°."
+   ]
+  },
+  {
+   "id": "g8-local",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "local-time"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      360,
+      1080
+     ],
+     "step": 30
+    },
+    "L": {
+     "int": [
+      -75,
+      75
+     ],
+     "step": 5
+    }
+   },
+   "where": [
+    "L != 0",
+    "sameDay(localTime(t, 0, L))"
+   ],
+   "prompt": "It is {clock(t)} at Greenwich (0°). What is the local time at a place on {lon(L)}?",
+   "correct": "{clock(localTime(t, 0, L))}",
+   "distractors": [
+    {
+     "text": "{clock(localTime(t, 0, -L))}",
+     "misconception": "way"
+    },
+    {
+     "text": "{clock(t + L)}",
+     "misconception": "one"
+    },
+    {
+     "text": "{clock(t + 15 * L)}",
+     "misconception": "fifteen"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "way",
+     "explain": "Check the direction: east is ahead (add), west is behind (subtract)."
+    },
+    {
+     "id": "one",
+     "explain": "Each degree is 4 minutes, not 1 minute."
+    },
+    {
+     "id": "fifteen",
+     "explain": "Each degree is 4 minutes. 15 is the number of degrees in one hour."
+    }
+   ],
+   "solution": [
+    "Difference in longitude: {abs(L)}°. Time: {abs(L)} × {minutesPerDegree()} = {duration(timeForDegrees(abs(L)))}.",
+    "{L > 0 ? 'East' : 'West'} of Greenwich: {L > 0 ? 'add' : 'subtract'}. {clock(t)} {L > 0 ? '+' : '−'} {duration(timeForDegrees(abs(L)))} = {answer}"
+   ]
+  },
+  {
+   "id": "g8-ab",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "local-time"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      360,
+      1080
+     ],
+     "step": 15
+    },
+    "a": {
+     "int": [
+      -60,
+      60
+     ],
+     "step": 5
+    },
+    "b": {
+     "int": [
+      -60,
+      60
+     ],
+     "step": 5
+    }
+   },
+   "where": [
+    "a != b",
+    "sameDay(localTime(t, a, b))"
+   ],
+   "prompt": "It is {clock(t)} at town A ({lon(a)}). What is the local time at town B ({lon(b)})?",
+   "correct": "{clock(localTime(t, a, b))}",
+   "distractors": [
+    {
+     "text": "{clock(localTime(t, b, a))}",
+     "misconception": "way"
+    },
+    {
+     "text": "{clock(t + (b - a))}",
+     "misconception": "one"
+    },
+    {
+     "text": "{clock(t + minutesPerDegree() * (b > a ? 1 : -1) * abs(abs(b) - abs(a)))}",
+     "misconception": "sub",
+     "when": "a * b < 0"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "way",
+     "explain": "Check the direction: if B is east of A, B is ahead (add); if west, B is behind (subtract)."
+    },
+    {
+     "id": "one",
+     "explain": "Each degree is 4 minutes, not 1 minute."
+    },
+    {
+     "id": "sub",
+     "explain": "A and B are on opposite sides of Greenwich: add their longitudes to find the difference."
+    }
+   ],
+   "min_distractors": 2,
+   "solution": [
+    "Difference in longitude: {lonDiff(a, b)}°. Time: {lonDiff(a, b)} × {minutesPerDegree()} = {duration(timeForDegrees(lonDiff(a, b)))}.",
+    "B is {b > a ? 'east' : 'west'} of A: {b > a ? 'add' : 'subtract'}. {clock(t)} {b > a ? '+' : '−'} {duration(timeForDegrees(lonDiff(a, b)))} = {answer}"
+   ]
+  }
+ ]
+}

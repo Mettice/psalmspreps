@@ -1,0 +1,601 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "g3",
+   "name": "Shape of the Earth, latitude and longitude, land and water"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Earth is nearly a sphere: a little flattened at the poles and bulging at the Equator (a geoid).\nProofs: photographs from space; a ship’s body disappears over the horizon before its mast; the Earth’s shadow on the Moon in an eclipse is round; people have travelled all the way round it.\nSize: about 40 000 km round the Equator; about 12 750 km across.\nLines of latitude (parallels) run east–west. They measure how far north or south of the Equator (0°) a place is, up to 90° at the poles. Main parallels: Arctic Circle 66½°N, Tropic of Cancer 23½°N, Equator 0°, Tropic of Capricorn 23½°S, Antarctic Circle 66½°S.\nLines of longitude (meridians) run from pole to pole. They measure east or west of the Prime Meridian (0°) at Greenwich, up to 180°.\nAbout 71 % of the surface is water and 29 % land: seven continents and five oceans.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "From the beach at Limbe, Mbah watches a ship sailing away. Which part of the ship disappears first, and what does this show?",
+  "steps": [
+   "The sea’s surface curves downwards away from us.",
+   "So the body of the ship goes behind the curve first; the top of the mast is seen last.",
+   "This only happens if the surface of the Earth is curved."
+  ],
+  "answer": "The body of the ship disappears first, then the mast: the Earth is round.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc3-1",
+    "status": "draft",
+    "idea": "The Earth is nearly a sphere: it is a little flattened at the poles and bulges at the Equator.",
+    "vars": {},
+    "example": [
+     "Photographs taken from space show a round Earth."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc3-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth-shape"
+     ],
+     "vars": {},
+     "prompt": "Which best describes the shape of the Earth?",
+     "pool": {
+      "right": [
+       {
+        "text": "nearly a sphere, a little flattened at the poles",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "flat like a plate",
+        "truth": "false",
+        "explain": "Photographs from space and ships at sea show that the Earth is round."
+       },
+       {
+        "text": "a perfect cube",
+        "truth": "false",
+        "explain": "The Earth has no corners: it is nearly a sphere."
+       },
+       {
+        "text": "a perfect sphere",
+        "truth": "false",
+        "explain": "It is nearly a sphere, but a little flattened at the poles."
+       },
+       {
+        "text": "shaped like a long egg, pointed at the poles",
+        "truth": "false",
+        "explain": "It is flattened at the poles, not pointed."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc3-2",
+    "status": "draft",
+    "idea": "Lines of latitude (parallels) run east–west. They tell how far north or south of the Equator a place is.",
+    "vars": {},
+    "example": [
+     "The Equator is {halfLat(0)}. The Tropic of Cancer is {halfLat(23.5)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g3-latof"
+    }
+   },
+   {
+    "id": "gc3-3",
+    "status": "draft",
+    "idea": "Lines of longitude (meridians) run from the North Pole to the South Pole. They tell how far east or west of Greenwich a place is.",
+    "vars": {},
+    "example": [
+     "The Prime Meridian through Greenwich is {lon(0)} longitude."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc3-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "latlon"
+     ],
+     "vars": {},
+     "prompt": "Which sentence about lines of longitude is true?",
+     "pool": {
+      "right": [
+       {
+        "text": "They run from the North Pole to the South Pole.",
+        "truth": "true"
+       },
+       {
+        "text": "They are also called meridians.",
+        "truth": "true"
+       },
+       {
+        "text": "The Prime Meridian at Greenwich is 0° longitude.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "They run east–west around the Earth.",
+        "truth": "false",
+        "explain": "Lines of latitude run east–west; lines of longitude run from pole to pole."
+       },
+       {
+        "text": "They are also called parallels.",
+        "truth": "false",
+        "explain": "Parallels are lines of latitude; lines of longitude are meridians."
+       },
+       {
+        "text": "The Equator is 0° longitude.",
+        "truth": "false",
+        "explain": "The Equator is 0° latitude. 0° longitude is the Prime Meridian."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc3-4",
+    "status": "draft",
+    "idea": "Most of the Earth’s surface is water. The land is in seven continents; the water is mainly in five oceans.",
+    "vars": {
+     "w": 71
+    },
+    "example": [
+     "About {w} % of the surface is water and {100 - w} % is land."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc3-4-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "land-water"
+     ],
+     "vars": {},
+     "prompt": "Which of these is a continent?",
+     "pool": {
+      "right": [
+       {
+        "text": "Africa",
+        "truth": "true"
+       },
+       {
+        "text": "Asia",
+        "truth": "true"
+       },
+       {
+        "text": "Europe",
+        "truth": "true"
+       },
+       {
+        "text": "South America",
+        "truth": "true"
+       },
+       {
+        "text": "Australia",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "the Pacific",
+        "truth": "false",
+        "explain": "The Pacific is an ocean."
+       },
+       {
+        "text": "the Atlantic",
+        "truth": "false",
+        "explain": "The Atlantic is an ocean."
+       },
+       {
+        "text": "the Indian Ocean",
+        "truth": "false",
+        "explain": "That is an ocean."
+       },
+       {
+        "text": "the Arctic Ocean",
+        "truth": "false",
+        "explain": "That is an ocean."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g3-line",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "latlon"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "l": "A",
+       "i": 0
+      },
+      {
+       "l": "B",
+       "i": 1
+      },
+      {
+       "l": "C",
+       "i": 2
+      },
+      {
+       "l": "D",
+       "i": 3
+      },
+      {
+       "l": "E",
+       "i": 4
+      }
+     ]
+    }
+   },
+   "figure": "parallels()",
+   "prompt": "On the globe, which line is {x.l}?",
+   "correct": "{parallelName(x.i)}",
+   "distractors": [
+    {
+     "text": "Arctic Circle",
+     "misconception": "other"
+    },
+    {
+     "text": "Tropic of Cancer",
+     "misconception": "other"
+    },
+    {
+     "text": "Equator",
+     "misconception": "other"
+    },
+    {
+     "text": "Tropic of Capricorn",
+     "misconception": "other"
+    },
+    {
+     "text": "Antarctic Circle",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Count the lines from the top: Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn, Antarctic Circle."
+    }
+   ],
+   "solution": [
+    "From the top: Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn, Antarctic Circle.",
+    "Line {x.l} is at {halfLat(parallelLat(x.i))}: the {answer}."
+   ]
+  },
+  {
+   "id": "g3-latof",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "latlon"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      4
+     ]
+    }
+   },
+   "prompt": "What is the latitude of the {parallelName(i)}?",
+   "correct": "{halfLat(parallelLat(i))}",
+   "distractors": [
+    {
+     "text": "{halfLat(parallelLat(0))}",
+     "misconception": "other"
+    },
+    {
+     "text": "{halfLat(parallelLat(1))}",
+     "misconception": "other"
+    },
+    {
+     "text": "{halfLat(parallelLat(2))}",
+     "misconception": "other"
+    },
+    {
+     "text": "{halfLat(parallelLat(3))}",
+     "misconception": "other"
+    },
+    {
+     "text": "{halfLat(parallelLat(4))}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Learn the five main parallels: Arctic Circle 66½°N, Tropic of Cancer 23½°N, Equator 0°, Tropic of Capricorn 23½°S, Antarctic Circle 66½°S."
+    }
+   ],
+   "solution": [
+    "The {parallelName(i)} is at {answer}."
+   ]
+  },
+  {
+   "id": "g3-proof",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "earth-shape"
+   ],
+   "vars": {},
+   "prompt": "Which of these shows that the Earth is round?",
+   "pool": {
+    "right": [
+     {
+      "text": "A ship sailing away disappears body first, mast last.",
+      "truth": "true"
+     },
+     {
+      "text": "The Earth’s shadow on the Moon during an eclipse is round.",
+      "truth": "true"
+     },
+     {
+      "text": "Photographs taken from space show a round Earth.",
+      "truth": "true"
+     },
+     {
+      "text": "People have travelled all the way round the Earth.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Sun is very hot.",
+      "truth": "false",
+      "explain": "That tells us about the Sun, not the shape of the Earth."
+     },
+     {
+      "text": "Rivers flow downhill.",
+      "truth": "false",
+      "explain": "That is about slopes on the land, not the shape of the whole Earth."
+     },
+     {
+      "text": "The Earth has high mountains.",
+      "truth": "false",
+      "explain": "Mountains are tiny compared with the whole Earth; they do not show its shape."
+     },
+     {
+      "text": "The sky is blue.",
+      "truth": "false",
+      "explain": "The colour of the sky does not show the shape of the Earth."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "g3-lines",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "latlon"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "latitude",
+    "longitude"
+   ],
+   "prompt": "Sort these: do they describe lines of latitude or lines of longitude?",
+   "pool": [
+    {
+     "left": "run east–west",
+     "right": "latitude"
+    },
+    {
+     "left": "also called parallels",
+     "right": "latitude"
+    },
+    {
+     "left": "measured north or south of the Equator",
+     "right": "latitude"
+    },
+    {
+     "left": "the Equator is the 0° line",
+     "right": "latitude"
+    },
+    {
+     "left": "run from pole to pole",
+     "right": "longitude"
+    },
+    {
+     "left": "also called meridians",
+     "right": "longitude"
+    },
+    {
+     "left": "measured east or west of Greenwich",
+     "right": "longitude"
+    },
+    {
+     "left": "the Prime Meridian is the 0° line",
+     "right": "longitude"
+    }
+   ]
+  },
+  {
+   "id": "g3-continents",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "land-water"
+   ],
+   "vars": {
+    "s": {
+     "sample": [
+      "range(0, 6)",
+      "4"
+     ]
+    }
+   },
+   "prompt": "Put these continents in order of size, largest first.",
+   "order": "asc",
+   "items": [
+    {
+     "text": "{continentName(s[0])}",
+     "key": "s[0]"
+    },
+    {
+     "text": "{continentName(s[1])}",
+     "key": "s[1]"
+    },
+    {
+     "text": "{continentName(s[2])}",
+     "key": "s[2]"
+    },
+    {
+     "text": "{continentName(s[3])}",
+     "key": "s[3]"
+    }
+   ]
+  },
+  {
+   "id": "g3-oceans",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "land-water"
+   ],
+   "vars": {
+    "s": {
+     "sample": [
+      "range(0, 4)",
+      "4"
+     ]
+    }
+   },
+   "prompt": "Put these oceans in order of size, largest first.",
+   "order": "asc",
+   "items": [
+    {
+     "text": "{oceanName(s[0])}",
+     "key": "s[0]"
+    },
+    {
+     "text": "{oceanName(s[1])}",
+     "key": "s[1]"
+    },
+    {
+     "text": "{oceanName(s[2])}",
+     "key": "s[2]"
+    },
+    {
+     "text": "{oceanName(s[3])}",
+     "key": "s[3]"
+    }
+   ]
+  },
+  {
+   "id": "g3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth-shape",
+    "latlon",
+    "land-water"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Most of the Earth’s surface is covered by water.",
+      "truth": "true"
+     },
+     {
+      "text": "The Equator divides the Earth into the Northern and Southern Hemispheres.",
+      "truth": "true"
+     },
+     {
+      "text": "Lines of latitude are also called parallels.",
+      "truth": "true"
+     },
+     {
+      "text": "The North Pole is at 90°N.",
+      "truth": "true"
+     },
+     {
+      "text": "Africa is the second largest continent.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Earth is a perfect sphere.",
+      "truth": "false",
+      "explain": "It is a little flattened at the poles and bulges at the Equator."
+     },
+     {
+      "text": "Lines of longitude run east–west.",
+      "truth": "false",
+      "explain": "Lines of longitude run from pole to pole; lines of latitude run east–west."
+     },
+     {
+      "text": "The Equator is at 90°.",
+      "truth": "false",
+      "explain": "The Equator is 0°; the poles are at 90°."
+     },
+     {
+      "text": "Most of the Earth’s surface is land.",
+      "truth": "false",
+      "explain": "About 71 % is water."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

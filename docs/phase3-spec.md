@@ -157,3 +157,17 @@ The readiness check runs once. Published as the site's `index.html`; `/lesson3/`
   suite compares options exactly, because some questions (element symbols) offer the same letters in different capitals.
 - Batch C1 (Lessons 1–21) was written and tested, then **released on 2026-10-07** at Dion's request (TR-K19): a fourth
   tab (the subject tabs now sit two by two), `lib/chemistry.js` in the bundle, size limit 800 KB.
+
+## 13. Geography (2026-10-06)
+
+- `src/engine/lib/geography.js`: local time from longitude (`localTime()`, `clock()`, `duration()`), time zones
+  (`zone()`), positions (`lat()`, `lon()`, `latlon()`), map scale (`realKm()`, `mapCm()`, `ratio()`), grid references
+  (`grid4()`, `grid6()`), leap years, authored tables (planets, continents, oceans, parallels), and **code-drawn maps**:
+  `gridMap()`, `graticule()`, `marginMap()`, `dayNight()`, `parallels()`. The places on a drawn map come from the
+  question's own numbers, so the answer is computed. The expression language reads only variables and calls library
+  functions, so tables are exposed as functions (`planetName(i)`, `parallelLat(i)`, `gridPlaces()`).
+- Geography is numbered by **place in the year** (spine `seq`): the sheet's practicals PW1–PW5 have no lesson number,
+  and two-part lessons share one. The shared suite takes `numbering: "seq"`; so does the review renderer (TR-G14).
+- Template ids start with `g`, skills `g1` … `g10`. Library order: `{...maths, ...english, ...physics, ...chemistry, ...geography}`.
+- Batch G1 (Lessons 1–10, Term 1) was written and tested, then **released on 2026-10-07** at Dion's request (TR-G19): a fifth
+  tab, `lib/geography.js` in the bundle, lessons numbered by place in the year (`BY_SEQ` in the build), size limit 900 KB.

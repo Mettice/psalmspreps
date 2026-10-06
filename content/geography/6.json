@@ -1,0 +1,463 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "g6",
+   "name": "Reading latitude and longitude"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The position of a place is given by its latitude and its longitude, latitude first: 4°N, 10°E.\nTo read a position on a map:\n1. Find the line of latitude through the place. Is it north (N) or south (S) of the Equator?\n2. Find the line of longitude through the place. Is it east (E) or west (W) of the Prime Meridian?\n3. Write the latitude, then the longitude.\nIf the place is halfway between two lines, its value is halfway between theirs: halfway between 4°N and 6°N is 5°N.\nThe Equator divides the Earth into the Northern and Southern Hemispheres; the Prime Meridian divides it into the Eastern and Western Hemispheres.\nCameroon is in the Northern and Eastern Hemispheres: roughly between 2°N and 13°N, and between 8°E and 16°E.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 4,
+   "b": 12
+  },
+  "figure": "graticule(0, 8, 2, [['Y', a, b]])",
+  "problem": "What is the position of place Y?",
+  "steps": [
+   "The line of latitude through Y is {lat(a)}: north of the Equator.",
+   "The line of longitude through Y is {lon(b)}: east of the Prime Meridian.",
+   "Latitude first, then longitude."
+  ],
+  "answer": "{latlon(a, b)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc6-1",
+    "status": "draft",
+    "idea": "A position is written latitude first, then longitude, each with its letter: N or S, then E or W.",
+    "vars": {
+     "a": 4,
+     "b": 10
+    },
+    "example": [
+     "{latlon(a, b)} means {lat(a)} latitude and {lon(b)} longitude."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g6-read"
+    }
+   },
+   {
+    "id": "gc6-2",
+    "status": "draft",
+    "idea": "North or south of the Equator gives N or S. East or west of the Prime Meridian gives E or W.",
+    "vars": {
+     "a": 6
+    },
+    "example": [
+     "Below the Equator the latitude is S: {lat(-a)}. Left of the Prime Meridian the longitude is W: {lon(-a)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g6-lat"
+    }
+   },
+   {
+    "id": "gc6-3",
+    "status": "draft",
+    "idea": "A place halfway between two lines has the value halfway between them.",
+    "vars": {
+     "a": 4
+    },
+    "example": [
+     "Halfway between {lat(a)} and {lat(a + 2)} is {lat(a + 1)}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc6-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "latlon"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        20
+       ],
+       "step": 2
+      }
+     },
+     "prompt": "A place is halfway between the lines {lat(a)} and {lat(a + 2)}. What is its latitude?",
+     "correct": "{lat(a + 1)}",
+     "distractors": [
+      {
+       "text": "{lat(a)}",
+       "misconception": "line"
+      },
+      {
+       "text": "{lat(a + 2)}",
+       "misconception": "line"
+      },
+      {
+       "text": "{lat(-(a + 1))}",
+       "misconception": "hemi"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "line",
+       "explain": "The place is between the lines, not on one: take the middle value."
+      },
+      {
+       "id": "hemi",
+       "explain": "Both lines are north of the Equator, so the place is too: N."
+      }
+     ],
+     "solution": [
+      "The middle of {a} and {a + 2} is {a + 1}.",
+      "Both lines are north of the Equator: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g6-read",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "latlon"
+   ],
+   "vars": {
+    "la0": {
+     "int": [
+      -8,
+      4
+     ],
+     "step": 2
+    },
+    "lo0": {
+     "int": [
+      -10,
+      6
+     ],
+     "step": 2
+    },
+    "i": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "j": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "where": [
+    "la0 + 2 * i != 0",
+    "lo0 + 2 * j != 0",
+    "abs(la0 + 2 * i) != abs(lo0 + 2 * j)"
+   ],
+   "figure": "graticule(la0, lo0, 2, [['P', la0 + 2 * i, lo0 + 2 * j], ['Q', la0 + 2 * (i % 3 + 1), lo0 + 2 * (j % 3 + 1)]])",
+   "prompt": "What is the position of place P?",
+   "correct": "{latlon(la0 + 2 * i, lo0 + 2 * j)}",
+   "distractors": [
+    {
+     "text": "{latlon(-(la0 + 2 * i), lo0 + 2 * j)}",
+     "misconception": "ns"
+    },
+    {
+     "text": "{latlon(la0 + 2 * i, -(lo0 + 2 * j))}",
+     "misconception": "ew"
+    },
+    {
+     "text": "{latlon(lo0 + 2 * j, la0 + 2 * i)}",
+     "misconception": "swap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ns",
+     "explain": "Check N or S: is P above (north of) the Equator or below it?"
+    },
+    {
+     "id": "ew",
+     "explain": "Check E or W: is P to the right (east) of the Prime Meridian or to the left?"
+    },
+    {
+     "id": "swap",
+     "explain": "Latitude first: read the line going across through P, then the line going up and down."
+    }
+   ],
+   "solution": [
+    "The line of latitude through P is {lat(la0 + 2 * i)}.",
+    "The line of longitude through P is {lon(lo0 + 2 * j)}.",
+    "Position: {answer}."
+   ]
+  },
+  {
+   "id": "g6-lat",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "latlon"
+   ],
+   "vars": {
+    "la0": {
+     "int": [
+      -8,
+      4
+     ],
+     "step": 2
+    },
+    "lo0": {
+     "int": [
+      -10,
+      6
+     ],
+     "step": 2
+    },
+    "i": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "j": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "where": [
+    "la0 + 2 * i != 0",
+    "lo0 + 2 * j != 0",
+    "abs(la0 + 2 * i) != abs(lo0 + 2 * j)"
+   ],
+   "figure": "graticule(la0, lo0, 2, [['P', la0 + 2 * i, lo0 + 2 * j], ['Q', la0 + 2 * (i % 3 + 1), lo0 + 2 * (j % 3 + 1)]])",
+   "prompt": "What is the latitude of place P?",
+   "correct": "{lat(la0 + 2 * i)}",
+   "distractors": [
+    {
+     "text": "{lat(-(la0 + 2 * i))}",
+     "misconception": "ns"
+    },
+    {
+     "text": "{lon(lo0 + 2 * j)}",
+     "misconception": "lon"
+    },
+    {
+     "text": "{lat(la0 + 2 * i + 2)}",
+     "misconception": "next"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ns",
+     "explain": "Check N or S: is P north of the Equator or south of it?"
+    },
+    {
+     "id": "lon",
+     "explain": "That is the longitude. Latitude is read on the lines going across."
+    },
+    {
+     "id": "next",
+     "explain": "That is the next line up. Read the line that passes through P."
+    }
+   ],
+   "solution": [
+    "The line going across through P is {lat(la0 + 2 * i)}.",
+    "Latitude: {answer}."
+   ]
+  },
+  {
+   "id": "g6-half",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "latlon"
+   ],
+   "vars": {
+    "la0": {
+     "int": [
+      -8,
+      4
+     ],
+     "step": 2
+    },
+    "lo0": {
+     "int": [
+      -10,
+      6
+     ],
+     "step": 2
+    },
+    "i": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "j": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "where": [
+    "la0 + 2 * i != 0",
+    "lo0 + 2 * j != 0",
+    "abs(la0 + 2 * i) != abs(lo0 + 2 * j)"
+   ],
+   "figure": "graticule(la0, lo0, 2, [['R', la0 + 2 * i - 1, lo0 + 2 * j - 1]])",
+   "prompt": "Place R is halfway between grid lines. What is its position?",
+   "correct": "{latlon(la0 + 2 * i - 1, lo0 + 2 * j - 1)}",
+   "distractors": [
+    {
+     "text": "{latlon(la0 + 2 * i, lo0 + 2 * j)}",
+     "misconception": "line"
+    },
+    {
+     "text": "{latlon(-(la0 + 2 * i - 1), lo0 + 2 * j - 1)}",
+     "misconception": "ns"
+    },
+    {
+     "text": "{latlon(la0 + 2 * i - 1, -(lo0 + 2 * j - 1))}",
+     "misconception": "ew"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "line",
+     "explain": "That is the nearest crossing of lines. R is halfway between lines: take the middle values."
+    },
+    {
+     "id": "ns",
+     "explain": "Check N or S against the Equator."
+    },
+    {
+     "id": "ew",
+     "explain": "Check E or W against the Prime Meridian."
+    }
+   ],
+   "solution": [
+    "R is halfway between latitudes {lat(la0 + 2 * i - 2)} and {lat(la0 + 2 * i)}: {lat(la0 + 2 * i - 1)}.",
+    "R is halfway between longitudes {lon(lo0 + 2 * j - 2)} and {lon(lo0 + 2 * j)}: {lon(lo0 + 2 * j - 1)}.",
+    "Position: {answer}."
+   ]
+  },
+  {
+   "id": "g6-hemi",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "latlon"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -60,
+      60
+     ]
+    },
+    "b": {
+     "int": [
+      -170,
+      170
+     ]
+    }
+   },
+   "where": [
+    "a != 0",
+    "b != 0"
+   ],
+   "prompt": "A place is at {latlon(a, b)}. Which hemispheres is it in?",
+   "correct": "{a > 0 ? 'Northern' : 'Southern'} and {b > 0 ? 'Eastern' : 'Western'}",
+   "distractors": [
+    {
+     "text": "Northern and Eastern",
+     "misconception": "hemi"
+    },
+    {
+     "text": "Northern and Western",
+     "misconception": "hemi"
+    },
+    {
+     "text": "Southern and Eastern",
+     "misconception": "hemi"
+    },
+    {
+     "text": "Southern and Western",
+     "misconception": "hemi"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "hemi",
+     "explain": "N is the Northern Hemisphere and S the Southern; E is the Eastern Hemisphere and W the Western."
+    }
+   ],
+   "solution": [
+    "{lat(a)}: {a > 0 ? 'N, north' : 'S, south'} of the Equator. {lon(b)}: {b > 0 ? 'E, east' : 'W, west'} of the Prime Meridian.",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "g6-apart",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "latlon"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -30,
+      30
+     ]
+    },
+    "b": {
+     "int": [
+      -30,
+      30
+     ]
+    }
+   },
+   "where": [
+    "a * b < 0"
+   ],
+   "prompt": "Town A is at latitude {lat(a)} and town B at {lat(b)}. How many degrees of latitude apart are they?",
+   "answer": "abs(a - b)",
+   "unit": "°",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "abs(abs(a) - abs(b))",
+     "explain": "The towns are on opposite sides of the Equator: add the two latitudes."
+    }
+   ],
+   "solution": [
+    "One town is north of the Equator and the other south: add.",
+    "{abs(a)} + {abs(b)} = {answer}°."
+   ]
+  }
+ ]
+}

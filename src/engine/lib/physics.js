@@ -54,7 +54,9 @@ const svg = (w, h, label, body) =>
   `<svg class="fig" viewBox="0 0 ${w} ${h}" role="img" aria-label="${label}" xmlns="http://www.w3.org/2000/svg" ` +
   `font-family="system-ui, sans-serif" font-size="11" fill="none" stroke="currentColor" stroke-width="1">${body}</svg>`;
 const line = (x1, y1, x2, y2, extra = "") => `<line x1="${r1(x1)}" y1="${r1(y1)}" x2="${r1(x2)}" y2="${r1(y2)}"${extra}/>`;
-const text = (x, y, s, extra = "") => `<text x="${r1(x)}" y="${r1(y)}" fill="currentColor" stroke="none" text-anchor="middle"${extra}>${s}</text>`;
+// Centred unless `extra` sets its own text-anchor (an attribute written twice is invalid SVG, and HTML keeps the first).
+const text = (x, y, s, extra = "") =>
+  `<text x="${r1(x)}" y="${r1(y)}" fill="currentColor" stroke="none"${/text-anchor/.test(extra) ? "" : ` text-anchor="middle"`}${extra}>${s}</text>`;
 
 /**
  * A ruler (0 to 8 cm by default) with millimetre marks, and an object lying on it from `start` to `end` (in cm, to the mm).

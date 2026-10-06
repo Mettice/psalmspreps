@@ -1,0 +1,528 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "g2",
+   "name": "The solar system"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The solar system is the Sun and everything that moves around it: planets, their moons, asteroids and comets.\nThe Sun is a star: a huge ball of hot gas that gives light and heat.\nThere are eight planets. In order from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune (“My Very Easy Method Just Speeds Up Naming”).\n• Inner planets (Mercury to Mars): small and rocky.\n• Outer planets (Jupiter to Neptune): giants, made mostly of gas and ice.\nPluto is a dwarf planet. Asteroids are rocks, most of them between Mars and Jupiter.\nA moon is a natural satellite. The Earth has one Moon.\nThe Earth is the third planet. It is the only planet known to have life: it has liquid water, air and the right temperature.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": [
+    5,
+    2,
+    4,
+    1
+   ]
+  },
+  "problem": "Put these planets in order from the Sun: {planetName(s[0])}, {planetName(s[1])}, {planetName(s[2])}, {planetName(s[3])}.",
+  "steps": [
+   "Say the order: My Very Easy Method Just Speeds Up Naming (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune).",
+   "{planetName(s[3])} comes first, then {planetName(s[1])}, then {planetName(s[2])}, then {planetName(s[0])}."
+  ],
+  "answer": "{planetName(s[3])} → {planetName(s[1])} → {planetName(s[2])} → {planetName(s[0])}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc2-1",
+    "status": "draft",
+    "idea": "The solar system is the Sun and everything that moves around it. The Sun is a star: it makes its own light and heat.",
+    "vars": {},
+    "example": [
+     "The Moon shines only because sunlight falls on it. The Sun makes its own light."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc2-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "solar-system"
+     ],
+     "vars": {},
+     "prompt": "Which of these is a star?",
+     "pool": {
+      "right": [
+       {
+        "text": "the Sun",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "the Moon",
+        "truth": "false",
+        "explain": "The Moon is a natural satellite of the Earth. It does not make its own light."
+       },
+       {
+        "text": "the Earth",
+        "truth": "false",
+        "explain": "The Earth is a planet."
+       },
+       {
+        "text": "Jupiter",
+        "truth": "false",
+        "explain": "Jupiter is a planet."
+       },
+       {
+        "text": "a comet",
+        "truth": "false",
+        "explain": "A comet is a ball of ice and dust that moves round the Sun."
+       },
+       {
+        "text": "Mars",
+        "truth": "false",
+        "explain": "Mars is a planet."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc2-2",
+    "status": "draft",
+    "idea": "There are eight planets. From the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+    "vars": {},
+    "example": [
+     "Remember: My Very Easy Method Just Speeds Up Naming."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-nth"
+    }
+   },
+   {
+    "id": "gc2-3",
+    "status": "draft",
+    "idea": "The four inner planets are small and rocky. The four outer planets are giants made mostly of gas and ice.",
+    "vars": {},
+    "example": [
+     "Mars is rocky. Jupiter is a gas giant."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-inner"
+    }
+   },
+   {
+    "id": "gc2-4",
+    "status": "draft",
+    "idea": "The Earth is the only planet known to have life: it has liquid water, air to breathe and the right temperature.",
+    "vars": {},
+    "example": [
+     "Venus is far too hot for life; Neptune is far too cold."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc2-4-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "solar-system"
+     ],
+     "vars": {},
+     "prompt": "Why can living things live on the Earth?",
+     "pool": {
+      "right": [
+       {
+        "text": "It has liquid water, air and the right temperature.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "It is the largest planet.",
+        "truth": "false",
+        "explain": "Jupiter is the largest; the Earth is quite small."
+       },
+       {
+        "text": "It is the nearest planet to the Sun.",
+        "truth": "false",
+        "explain": "Mercury is nearest. The Earth is the third planet."
+       },
+       {
+        "text": "It has bright rings.",
+        "truth": "false",
+        "explain": "Saturn has bright rings; the Earth has none."
+       },
+       {
+        "text": "It is a star.",
+        "truth": "false",
+        "explain": "The Earth is a planet, not a star."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-nth",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "solar-system"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Which planet is {ordinalWords(words(k + 1))} from the Sun?",
+   "correct": "{planetName(k)}",
+   "distractors": [
+    {
+     "text": "{planetName((k + 1) % 8)}",
+     "misconception": "next"
+    },
+    {
+     "text": "{planetName((k + 8 - 1) % 8)}",
+     "misconception": "next"
+    },
+    {
+     "text": "{planetName((k + 4) % 8)}",
+     "misconception": "next"
+    },
+    {
+     "text": "{planetName((k + 2) % 8)}",
+     "misconception": "next"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "next",
+     "explain": "Count again from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    }
+   ],
+   "solution": [
+    "From the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+    "Number {k + 1} is {answer}."
+   ]
+  },
+  {
+   "id": "g2-inner",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "solar-system"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "inner, rocky planet",
+    "outer, giant planet"
+   ],
+   "prompt": "Sort the planets: inner rocky planet or outer giant planet?",
+   "pool": [
+    {
+     "left": "Mercury",
+     "right": "inner, rocky planet"
+    },
+    {
+     "left": "Venus",
+     "right": "inner, rocky planet"
+    },
+    {
+     "left": "Earth",
+     "right": "inner, rocky planet"
+    },
+    {
+     "left": "Mars",
+     "right": "inner, rocky planet"
+    },
+    {
+     "left": "Jupiter",
+     "right": "outer, giant planet"
+    },
+    {
+     "left": "Saturn",
+     "right": "outer, giant planet"
+    },
+    {
+     "left": "Uranus",
+     "right": "outer, giant planet"
+    },
+    {
+     "left": "Neptune",
+     "right": "outer, giant planet"
+    }
+   ]
+  },
+  {
+   "id": "g2-fact",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "solar-system"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the largest planet",
+       "a": "Jupiter",
+       "why": "Jupiter is the largest planet."
+      },
+      {
+       "t": "the smallest planet",
+       "a": "Mercury",
+       "why": "Mercury is the smallest planet."
+      },
+      {
+       "t": "the hottest planet",
+       "a": "Venus",
+       "why": "Venus is the hottest planet."
+      },
+      {
+       "t": "called the red planet",
+       "a": "Mars",
+       "why": "Mars is called the red planet."
+      },
+      {
+       "t": "famous for its bright rings",
+       "a": "Saturn",
+       "why": "Saturn is famous for its bright rings."
+      },
+      {
+       "t": "the planet we live on",
+       "a": "Earth",
+       "why": "Earth is the planet we live on."
+      },
+      {
+       "t": "the farthest planet from the Sun",
+       "a": "Neptune",
+       "why": "Neptune is the farthest planet from the Sun."
+      },
+      {
+       "t": "the planet nearest the Sun",
+       "a": "Mercury",
+       "why": "Mercury is the planet nearest the Sun."
+      }
+     ]
+    }
+   },
+   "prompt": "Which planet is {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Mercury",
+     "misconception": "other"
+    },
+    {
+     "text": "Venus",
+     "misconception": "other"
+    },
+    {
+     "text": "Earth",
+     "misconception": "other"
+    },
+    {
+     "text": "Mars",
+     "misconception": "other"
+    },
+    {
+     "text": "Jupiter",
+     "misconception": "other"
+    },
+    {
+     "text": "Saturn",
+     "misconception": "other"
+    },
+    {
+     "text": "Uranus",
+     "misconception": "other"
+    },
+    {
+     "text": "Neptune",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that one. Read the facts about each planet again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "g2-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "solar-system"
+   ],
+   "vars": {
+    "s": {
+     "sample": [
+      "range(0, 7)",
+      "4"
+     ]
+    }
+   },
+   "prompt": "Put these planets in order, nearest the Sun first.",
+   "order": "asc",
+   "items": [
+    {
+     "text": "{planetName(s[0])}",
+     "key": "s[0]"
+    },
+    {
+     "text": "{planetName(s[1])}",
+     "key": "s[1]"
+    },
+    {
+     "text": "{planetName(s[2])}",
+     "key": "s[2]"
+    },
+    {
+     "text": "{planetName(s[3])}",
+     "key": "s[3]"
+    }
+   ]
+  },
+  {
+   "id": "g2-closer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "solar-system"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "b": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "where": "a != b",
+   "show": 2,
+   "prompt": "Which planet is nearer to the Sun: {planetName(a)} or {planetName(b)}?",
+   "correct": "{planetName(min(a, b))}",
+   "distractors": [
+    {
+     "text": "{planetName(max(a, b))}",
+     "misconception": "far"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "far",
+     "explain": "That one is farther away. Say the order from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    }
+   ],
+   "solution": [
+    "{planetName(min(a, b))} is number {min(a, b) + 1} from the Sun; {planetName(max(a, b))} is number {max(a, b) + 1}.",
+    "Nearer: {answer}."
+   ]
+  },
+  {
+   "id": "g2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "solar-system"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Sun is a star.",
+      "truth": "true"
+     },
+     {
+      "text": "The Earth is the third planet from the Sun.",
+      "truth": "true"
+     },
+     {
+      "text": "Jupiter is the largest planet.",
+      "truth": "true"
+     },
+     {
+      "text": "The Moon is a natural satellite of the Earth.",
+      "truth": "true"
+     },
+     {
+      "text": "Mars is a rocky planet.",
+      "truth": "true"
+     },
+     {
+      "text": "Pluto is a dwarf planet.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Moon gives out its own light.",
+      "truth": "false",
+      "explain": "The Moon only reflects light from the Sun."
+     },
+     {
+      "text": "Saturn is the planet nearest to the Sun.",
+      "truth": "false",
+      "explain": "Mercury is nearest; Saturn is the sixth planet."
+     },
+     {
+      "text": "Jupiter is a small rocky planet.",
+      "truth": "false",
+      "explain": "Jupiter is a giant planet made mostly of gas."
+     },
+     {
+      "text": "The Earth is a star.",
+      "truth": "false",
+      "explain": "The Earth is a planet; the Sun is the star."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -16,7 +16,9 @@ const words = (t) => t.split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).lengt
 const literalDigits = (t) => t.replace(/(^|[^\d.,])1 (?=[A-Za-zµ°{])/g, "$1").replace(/\{[^{}]*(\{[^{}]*\}[^{}]*)*\}/g, "").match(/[0-9]/g);
 const SVG = /^<svg [^>]*role="img"[\s\S]*<\/svg>$/;
 
-export function subjectSuite({ subject, spine, lib, batch, prefix }) {
+// numbering: "lesson" (the sheet's lesson numbers) or "seq" (the row's place in the year: Geography, whose practicals
+// PW1–PW5 have no lesson number and whose lessons come in parts that share one).
+export function subjectSuite({ subject, spine, lib, batch, prefix, numbering = "lesson" }) {
   const DIR = new URL(`../content/${subject}/`, import.meta.url);
   const lessons = Object.fromEntries(readdirSync(DIR).filter((f) => /^\d+\.json$/.test(f))
     .map((f) => JSON.parse(readFileSync(new URL(f, DIR), "utf8"))).map((l) => [l.lesson_no, l]));
@@ -33,7 +35,9 @@ export function subjectSuite({ subject, spine, lib, batch, prefix }) {
     for (const l of Object.values(lessons)) {
       assert.equal(l.subject, subject);
       assert.equal(l.class, "Form 1");
-      assert.ok(spineLessons.some((s) => s.lesson_no === l.lesson_no && s.kind === "lesson"), `lesson ${l.lesson_no} is not in the spine`);
+      const inSpine = numbering === "seq" ? spineLessons.some((s) => s.seq === l.lesson_no)
+        : spineLessons.some((s) => s.lesson_no === l.lesson_no && s.kind === "lesson");
+      assert.ok(inSpine, `lesson ${l.lesson_no} is not in the spine`);
     }
   });
 

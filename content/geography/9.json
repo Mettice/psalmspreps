@@ -1,0 +1,450 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "g9",
+   "name": "Time from GMT and time zones"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "GMT (Greenwich Mean Time) is the time on the Prime Meridian (0°), which passes through Greenwich in London.\nLocal time from GMT: find the longitude of the place, multiply by 4 minutes, then add for east or subtract for west.\nTime zones: 360° ÷ 24 hours gives 24 zones, each about 15° wide. Each zone uses the time of its standard meridian, a multiple of 15°:\n• 15°E: GMT+1, 30°E: GMT+2, 45°E: GMT+3 …\n• 15°W: GMT−1, 30°W: GMT−2 …\nZone borders often follow country borders, so that a country keeps one time. Very wide countries have several zones.\nThe International Date Line is near 180°. Crossing it, travellers change the date by one day.\nCameroon, Nigeria, Gabon and Chad use GMT+1.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 840,
+   "L": -37
+  },
+  "problem": "It is {clock(t)} GMT. What is the local time at a place on {lon(L)}?",
+  "steps": [
+   "The place is {abs(L)}° west of Greenwich.",
+   "{abs(L)} × {minutesPerDegree()} = {timeForDegrees(abs(L))} minutes = {duration(timeForDegrees(abs(L)))}.",
+   "West is behind: subtract. {clock(t)} − {duration(timeForDegrees(abs(L)))}."
+  ],
+  "answer": "{clock(localTime(t, 0, L))}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc9-1",
+    "status": "draft",
+    "idea": "GMT is the time on the Prime Meridian ({lon(0)}) at Greenwich. Times around the world are compared with GMT.",
+    "vars": {},
+    "example": [
+     "{zone(15)} means one hour ahead of GMT."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc9-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "time-zones"
+     ],
+     "vars": {},
+     "prompt": "Where is GMT, Greenwich Mean Time, measured?",
+     "pool": {
+      "right": [
+       {
+        "text": "on the Prime Meridian (0°), at Greenwich",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "on the Equator",
+        "truth": "false",
+        "explain": "The Equator is a line of latitude; time is measured from the Prime Meridian."
+       },
+       {
+        "text": "in Yaoundé",
+        "truth": "false",
+        "explain": "Yaoundé uses GMT+1, one hour ahead of Greenwich."
+       },
+       {
+        "text": "on the International Date Line",
+        "truth": "false",
+        "explain": "The Date Line is near 180°, on the other side of the Earth from Greenwich."
+       },
+       {
+        "text": "at the North Pole",
+        "truth": "false",
+        "explain": "GMT is the time on the Prime Meridian at Greenwich."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc9-2",
+    "status": "draft",
+    "idea": "The world has {24} time zones of about {degreesPerHour()}° each. Each zone uses the time of a standard meridian that is a multiple of {degreesPerHour()}°.",
+    "vars": {
+     "m": 45
+    },
+    "example": [
+     "The zone of {lon(m)} is {zone(m)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g9-zone"
+    }
+   },
+   {
+    "id": "gc9-3",
+    "status": "draft",
+    "idea": "Each {degreesPerHour()}° east of Greenwich is one hour ahead of GMT; each {degreesPerHour()}° west is one hour behind.",
+    "vars": {
+     "m": 30
+    },
+    "example": [
+     "{lon(m)}: {zone(m)}. {lon(-m)}: {zone(-m)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g9-ahead"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g9-zone",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "time-zones"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      -150,
+      165
+     ],
+     "step": 15
+    }
+   },
+   "where": "m != 0",
+   "prompt": "A country uses the standard meridian {lon(m)}. What is its time zone?",
+   "correct": "{zone(m)}",
+   "distractors": [
+    {
+     "text": "{zone(-m)}",
+     "misconception": "way"
+    },
+    {
+     "text": "{zone(m + 15)}",
+     "misconception": "count"
+    },
+    {
+     "text": "{zone(m - 15)}",
+     "misconception": "count"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "way",
+     "explain": "East of Greenwich is ahead (+); west is behind (−)."
+    },
+    {
+     "id": "count",
+     "explain": "Divide the longitude by 15 to find the number of hours."
+    }
+   ],
+   "solution": [
+    "{abs(m)} ÷ {degreesPerHour()} = {abs(m) / degreesPerHour()} hour{abs(m) == 15 ? '' : 's'}, {m > 0 ? 'east: ahead' : 'west: behind'}.",
+    "Time zone: {answer}."
+   ]
+  },
+  {
+   "id": "g9-ahead",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "time-zones"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1,
+      11
+     ]
+    }
+   },
+   "prompt": "A place uses the time of the meridian {lon(15 * k)}. How many hours ahead of GMT is it?",
+   "answer": "k",
+   "unit": "hours",
+   "misconceptions": [
+    {
+     "id": "min",
+     "wrong": "timeForDegrees(15 * k)",
+     "explain": "That is the difference in minutes. Divide the longitude by 15 for hours."
+    }
+   ],
+   "solution": [
+    "{degreesPerHour()}° = 1 hour.",
+    "{15 * k} ÷ {degreesPerHour()} = {answer} hours ahead."
+   ]
+  },
+  {
+   "id": "g9-std",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "time-zones"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      360,
+      1080
+     ],
+     "step": 30
+    },
+    "h": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "where": [
+    "h != 0",
+    "sameDay(t + 60 * h)"
+   ],
+   "prompt": "It is {clock(t)} GMT. What is the time in a country that uses {zone(15 * h)}?",
+   "correct": "{clock(t + 60 * h)}",
+   "distractors": [
+    {
+     "text": "{clock(t - 60 * h)}",
+     "misconception": "way"
+    },
+    {
+     "text": "{clock(t)}",
+     "misconception": "same"
+    },
+    {
+     "text": "{clock(t + 60 * h + (h > 0 ? 60 : -60))}",
+     "misconception": "count"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "way",
+     "explain": "+ means ahead of GMT (add); − means behind (subtract)."
+    },
+    {
+     "id": "same",
+     "explain": "Only places on GMT have the same time as Greenwich."
+    },
+    {
+     "id": "count",
+     "explain": "Add or subtract exactly the number of hours in the zone name."
+    }
+   ],
+   "solution": [
+    "{zone(15 * h)}: {abs(h)} hour{abs(h) == 1 ? '' : 's'} {h > 0 ? 'ahead of' : 'behind'} GMT.",
+    "{clock(t)} {h > 0 ? '+' : '−'} {duration(60 * abs(h))} = {answer}"
+   ]
+  },
+  {
+   "id": "g9-local",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "local-time"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      360,
+      1080
+     ],
+     "step": 30
+    },
+    "L": {
+     "int": [
+      -80,
+      80
+     ]
+    }
+   },
+   "where": [
+    "L != 0",
+    "L % 5 != 0",
+    "sameDay(localTime(t, 0, L))"
+   ],
+   "prompt": "It is {clock(t)} GMT. What is the local time at a place on {lon(L)}?",
+   "correct": "{clock(localTime(t, 0, L))}",
+   "distractors": [
+    {
+     "text": "{clock(localTime(t, 0, -L))}",
+     "misconception": "way"
+    },
+    {
+     "text": "{clock(t + L)}",
+     "misconception": "one"
+    },
+    {
+     "text": "{clock(t + 60 * round(L / 15))}",
+     "misconception": "zone"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "way",
+     "explain": "East of Greenwich is ahead (add); west is behind (subtract)."
+    },
+    {
+     "id": "one",
+     "explain": "Each degree is 4 minutes, not 1 minute."
+    },
+    {
+     "id": "zone",
+     "explain": "That is the standard time of the nearest zone. Local time uses the exact longitude: 4 minutes for each degree."
+    }
+   ],
+   "solution": [
+    "{abs(L)} × {minutesPerDegree()} = {timeForDegrees(abs(L))} minutes = {duration(timeForDegrees(abs(L)))}.",
+    "{L > 0 ? 'East: add' : 'West: subtract'}. {clock(t)} {L > 0 ? '+' : '−'} {duration(timeForDegrees(abs(L)))} = {answer}"
+   ]
+  },
+  {
+   "id": "g9-facts",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "time-zones"
+   ],
+   "vars": {},
+   "prompt": "Which sentence about time zones is true?",
+   "pool": {
+    "right": [
+     {
+      "text": "Each time zone is about 15° of longitude wide.",
+      "truth": "true"
+     },
+     {
+      "text": "There are 24 time zones, one for each hour of the day.",
+      "truth": "true"
+     },
+     {
+      "text": "Cameroon uses GMT+1.",
+      "truth": "true"
+     },
+     {
+      "text": "Crossing the International Date Line changes the date.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Each time zone is 4° wide.",
+      "truth": "false",
+      "explain": "4 is the number of minutes for one degree. A time zone is about 15° wide."
+     },
+     {
+      "text": "Every country has its own time zone, different from all its neighbours.",
+      "truth": "false",
+      "explain": "Cameroon, Nigeria, Gabon and Chad all use GMT+1."
+     },
+     {
+      "text": "The International Date Line is at 0°.",
+      "truth": "false",
+      "explain": "0° is the Prime Meridian. The Date Line is near 180°."
+     },
+     {
+      "text": "Places west of Greenwich are ahead of GMT.",
+      "truth": "false",
+      "explain": "Places west of Greenwich are behind GMT."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "g9-gmt",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "local-time"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      360,
+      1080
+     ],
+     "step": 30
+    },
+    "L": {
+     "int": [
+      -80,
+      80
+     ]
+    }
+   },
+   "where": [
+    "L != 0",
+    "sameDay(localTime(t, L, 0))"
+   ],
+   "prompt": "When the local time at a place on {lon(L)} is {clock(t)}, what time is it at Greenwich (GMT)?",
+   "correct": "{clock(localTime(t, L, 0))}",
+   "distractors": [
+    {
+     "text": "{clock(localTime(t, 0, L))}",
+     "misconception": "way"
+    },
+    {
+     "text": "{clock(t - L)}",
+     "misconception": "one"
+    },
+    {
+     "text": "{clock(t)}",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "way",
+     "explain": "Going from the place back to Greenwich, the direction is reversed: from an eastern place subtract, from a western place add."
+    },
+    {
+     "id": "one",
+     "explain": "Each degree is 4 minutes, not 1 minute."
+    },
+    {
+     "id": "same",
+     "explain": "The place is not on 0°, so its time is different from GMT."
+    }
+   ],
+   "solution": [
+    "{abs(L)} × {minutesPerDegree()} = {duration(timeForDegrees(abs(L)))}.",
+    "The place is {L > 0 ? 'east' : 'west'} of Greenwich, so Greenwich is {L > 0 ? 'behind: subtract' : 'ahead: add'}. {clock(t)} {L > 0 ? '−' : '+'} {duration(timeForDegrees(abs(L)))} = {answer}"
+   ]
+  }
+ ]
+}

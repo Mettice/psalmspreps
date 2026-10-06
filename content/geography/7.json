@@ -1,0 +1,459 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "g7",
+   "name": "Rotation and revolution of the Earth"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Earth makes two movements.\nRotation: the Earth spins on its axis (an imaginary line through the poles) from west to east, once in about 24 hours: one day.\nEffects of rotation:\n• day and night (the half facing the Sun has day);\n• the Sun seems to rise in the east and set in the west;\n• places on different meridians have different times.\nRevolution: the Earth travels round the Sun in an orbit, once in about 365¼ days: one year. Every four years the extra quarters make a leap year of 366 days, with 29 February.\nEffects of revolution, because the axis is tilted (about 23½°):\n• the seasons;\n• days and nights of different lengths during the year.\nAt the equinoxes (about 21 March and 23 September) day and night are equal everywhere. The solstices are about 21 June and 22 December.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 150
+  },
+  "figure": "dayNight(a)",
+  "problem": "In the drawing, is it day or night at town T?",
+  "steps": [
+   "The Sun’s rays come from the left, so the left half of the Earth, facing the Sun, has day.",
+   "The right half faces away from the Sun and has night.",
+   "T is on the left half."
+  ],
+  "answer": "It is {dayOrNight(a)} at T.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc7-1",
+    "status": "draft",
+    "idea": "The Earth rotates (spins on its axis) from west to east, once in about {h} hours. This gives day and night.",
+    "vars": {
+     "h": 24
+    },
+    "example": [
+     "The half of the Earth facing the Sun has day; the other half has night."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g7-dn"
+    }
+   },
+   {
+    "id": "gc7-2",
+    "status": "draft",
+    "idea": "Because the Earth turns from west to east, the Sun seems to rise in the east and set in the west.",
+    "vars": {},
+    "example": [
+     "In Bertoua the Sun rises before it rises in Buea, because Bertoua is further east."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g7-sort"
+    }
+   },
+   {
+    "id": "gc7-3",
+    "status": "draft",
+    "idea": "The Earth revolves (travels) round the Sun once in about {d} days: one year. Every fourth year is a leap year of {d2} days.",
+    "vars": {
+     "d": "365¼",
+     "d2": 366,
+     "f": 29
+    },
+    "example": [
+     "In a leap year February has {f} days."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc7-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth-movements"
+     ],
+     "vars": {},
+     "prompt": "Which takes about one year?",
+     "pool": {
+      "right": [
+       {
+        "text": "one revolution of the Earth round the Sun",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "one rotation of the Earth on its axis",
+        "truth": "false",
+        "explain": "One rotation takes about one day."
+       },
+       {
+        "text": "one spin of the Earth",
+        "truth": "false",
+        "explain": "A spin (rotation) takes about one day."
+       },
+       {
+        "text": "the time from sunrise to sunset",
+        "truth": "false",
+        "explain": "That is part of one day."
+       },
+       {
+        "text": "the Moon going round the Earth",
+        "truth": "false",
+        "explain": "That takes about a month."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc7-4",
+    "status": "draft",
+    "idea": "The Earth’s axis is tilted. As the Earth revolves, this tilt gives the seasons and days and nights of different lengths.",
+    "vars": {},
+    "example": [
+     "At the equinoxes, day and night are equal everywhere."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc7-4-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "earth-movements"
+     ],
+     "vars": {},
+     "prompt": "What causes the seasons?",
+     "pool": {
+      "right": [
+       {
+        "text": "the revolution of the Earth with its tilted axis",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "the rotation of the Earth",
+        "truth": "false",
+        "explain": "Rotation gives day and night, not seasons."
+       },
+       {
+        "text": "the Moon",
+        "truth": "false",
+        "explain": "The Moon causes tides, not seasons."
+       },
+       {
+        "text": "clouds covering the Sun",
+        "truth": "false",
+        "explain": "Clouds change the weather, not the seasons of the year."
+       },
+       {
+        "text": "the Sun moving round the Earth",
+        "truth": "false",
+        "explain": "The Earth moves round the Sun."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g7-dn",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "earth-movements"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      0,
+      30,
+      45,
+      135,
+      150,
+      180,
+      210,
+      225,
+      315,
+      330
+     ]
+    }
+   },
+   "figure": "dayNight(a)",
+   "show": 2,
+   "prompt": "The Sun’s rays come from the left. Is it day or night at town T?",
+   "correct": "{dayOrNight(a)}",
+   "distractors": [
+    {
+     "text": "{dayOrNight(a) == 'day' ? 'night' : 'day'}",
+     "misconception": "side"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "side",
+     "explain": "The half of the Earth facing the Sun (the left half here) has day; the other half has night."
+    }
+   ],
+   "solution": [
+    "The left half faces the Sun and has day.",
+    "T is on the {dayOrNight(a) == 'day' ? 'left' : 'right'} half: {answer}."
+   ]
+  },
+  {
+   "id": "g7-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "earth-movements"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "rotation",
+    "revolution"
+   ],
+   "prompt": "Sort these: are they about rotation or revolution?",
+   "pool": [
+    {
+     "left": "day and night",
+     "right": "rotation"
+    },
+    {
+     "left": "takes about 24 hours",
+     "right": "rotation"
+    },
+    {
+     "left": "the Sun seems to rise in the east",
+     "right": "rotation"
+    },
+    {
+     "left": "different times in different places",
+     "right": "rotation"
+    },
+    {
+     "left": "takes about 365¼ days",
+     "right": "revolution"
+    },
+    {
+     "left": "the seasons",
+     "right": "revolution"
+    },
+    {
+     "left": "leap years",
+     "right": "revolution"
+    },
+    {
+     "left": "days longer in some months than others",
+     "right": "revolution"
+    }
+   ]
+  },
+  {
+   "id": "g7-days",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "earth-movements"
+   ],
+   "vars": {
+    "y": {
+     "int": [
+      2025,
+      2040
+     ]
+    }
+   },
+   "prompt": "How many days are there in the year {y}?",
+   "answer": "daysInYear(y)",
+   "unit": "days",
+   "misconceptions": [
+    {
+     "id": "leap",
+     "wrong": "daysInYear(y) == 366 ? 365 : 366",
+     "explain": "A leap year comes every four years: the year can be divided exactly by 4. Check {y}."
+    }
+   ],
+   "solution": [
+    "{y} ÷ {4} = {round(y / 4, 2)}: {isLeap(y) ? 'it divides exactly, so it is a leap year' : 'it does not divide exactly, so it is not a leap year'}.",
+    "{y} has {answer} days."
+   ]
+  },
+  {
+   "id": "g7-rs",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "earth-movements"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      70,
+      75,
+      80,
+      250,
+      255,
+      260
+     ]
+    }
+   },
+   "figure": "dayNight(a)",
+   "show": 2,
+   "prompt": "The Earth turns in the direction of the arrow. Will town T soon have sunrise or sunset?",
+   "correct": "{sunriseOrSunset(a)}",
+   "distractors": [
+    {
+     "text": "{sunriseOrSunset(a) == 'sunrise' ? 'sunset' : 'sunrise'}",
+     "misconception": "way"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "way",
+     "explain": "Follow the arrow: is T being carried from night into day (sunrise) or from day into night (sunset)?"
+    }
+   ],
+   "solution": [
+    "T is near the line between day and night.",
+    "Following the arrow, T moves {sunriseOrSunset(a) == 'sunrise' ? 'from night into day' : 'from day into night'}: {answer}."
+   ]
+  },
+  {
+   "id": "g7-leap",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "earth-movements"
+   ],
+   "vars": {
+    "y": {
+     "int": [
+      2004,
+      2096
+     ],
+     "step": 4
+    }
+   },
+   "prompt": "Which of these years is a leap year?",
+   "correct": "{y}",
+   "distractors": [
+    {
+     "text": "{y + 1}",
+     "misconception": "no"
+    },
+    {
+     "text": "{y + 2}",
+     "misconception": "no"
+    },
+    {
+     "text": "{y + 3}",
+     "misconception": "no"
+    },
+    {
+     "text": "{y - 1}",
+     "misconception": "no"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "no",
+     "explain": "A leap year can be divided exactly by 4. This year cannot."
+    }
+   ],
+   "solution": [
+    "A leap year can be divided exactly by {4}.",
+    "{y} ÷ {4} = {y / 4} exactly, so {answer} is a leap year."
+   ]
+  },
+  {
+   "id": "g7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "earth-movements"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Earth rotates from west to east.",
+      "truth": "true"
+     },
+     {
+      "text": "One rotation takes about 24 hours.",
+      "truth": "true"
+     },
+     {
+      "text": "Revolution and the tilted axis cause the seasons.",
+      "truth": "true"
+     },
+     {
+      "text": "At the equinoxes, day and night are equal.",
+      "truth": "true"
+     },
+     {
+      "text": "A leap year has 366 days.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Earth rotates from east to west.",
+      "truth": "false",
+      "explain": "It rotates from west to east; that is why the Sun seems to rise in the east."
+     },
+     {
+      "text": "The Sun moves round the Earth once a day.",
+      "truth": "false",
+      "explain": "The Sun only seems to move: the Earth is rotating."
+     },
+     {
+      "text": "Rotation causes the seasons.",
+      "truth": "false",
+      "explain": "Rotation causes day and night; revolution with the tilted axis causes the seasons."
+     },
+     {
+      "text": "One revolution takes about 24 hours.",
+      "truth": "false",
+      "explain": "One revolution takes about 365¼ days; one rotation takes about 24 hours."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,563 @@
+{
+ "subject": "geography",
+ "class": "Form 1",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "g10",
+   "name": "The natural environment and ecosystems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The environment is everything around us. The natural environment is the part not made by people: land, water, air, plants and animals. Houses, roads and bridges are the built (human-made) environment.\nComponents of the natural environment:\n• living (biotic): plants, animals, people, micro-organisms such as bacteria and fungi;\n• non-living (abiotic): air, water, soil, rocks, sunlight, rain, temperature.\nThe four spheres:\n• lithosphere: rocks and soil;\n• hydrosphere: water (seas, rivers, lakes);\n• atmosphere: the air;\n• biosphere: all living things.\nAn ecosystem is a group of living things and their non-living surroundings in one place, all depending on each other: a forest, a pond, a savanna.\nIn a food chain, green plants (producers) make food using sunlight; animals (consumers) eat plants or other animals.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A fish pond near Bafoussam has water, mud, sunlight, water plants, frogs and small fish. Sort these into living and non-living components.",
+  "steps": [
+   "Living things grow, feed and reproduce: water plants, frogs and small fish.",
+   "Non-living components: water, mud (soil) and sunlight.",
+   "Together they form an ecosystem: the fish need the plants, and the plants need sunlight and water."
+  ],
+  "answer": "Living: water plants, frogs, small fish. Non-living: water, mud, sunlight.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "gc10-1",
+    "status": "draft",
+    "idea": "The natural environment is everything around us that is not made by people: land, water, air, plants and animals.",
+    "vars": {},
+    "example": [
+     "A river is natural. A bridge over it is built by people."
+    ],
+    "checks": [],
+    "check": {
+     "id": "gc10-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "environment"
+     ],
+     "vars": {},
+     "prompt": "Which of these is part of the natural environment?",
+     "pool": {
+      "right": [
+       {
+        "text": "a river",
+        "truth": "true"
+       },
+       {
+        "text": "a forest",
+        "truth": "true"
+       },
+       {
+        "text": "a mountain",
+        "truth": "true"
+       },
+       {
+        "text": "the air",
+        "truth": "true"
+       },
+       {
+        "text": "the soil",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a road",
+        "truth": "false",
+        "explain": "Roads are built by people."
+       },
+       {
+        "text": "a bridge",
+        "truth": "false",
+        "explain": "Bridges are built by people."
+       },
+       {
+        "text": "a school building",
+        "truth": "false",
+        "explain": "Buildings are made by people."
+       },
+       {
+        "text": "a market stall",
+        "truth": "false",
+        "explain": "Market stalls are made by people."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "gc10-2",
+    "status": "draft",
+    "idea": "The environment has living (biotic) components, such as plants and animals, and non-living (abiotic) ones, such as air, water and soil.",
+    "vars": {},
+    "example": [
+     "A goat is living; the grass it eats is living; the rain that falls on the grass is non-living."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g10-sort"
+    }
+   },
+   {
+    "id": "gc10-3",
+    "status": "draft",
+    "idea": "The Earth has four spheres: lithosphere (rocks and soil), hydrosphere (water), atmosphere (air) and biosphere (living things).",
+    "vars": {},
+    "example": [
+     "Lake Chad is part of the hydrosphere; Mount Cameroon is part of the lithosphere."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g10-sphere"
+    }
+   },
+   {
+    "id": "gc10-4",
+    "status": "draft",
+    "idea": "An ecosystem is living things and their surroundings in one place, depending on each other. In a food chain, energy passes from plants to animals.",
+    "vars": {},
+    "example": [
+     "Grass → grasshopper → frog → snake. Grass is the producer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g10-producer"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g10-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "environment"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "living (biotic)",
+    "non-living (abiotic)"
+   ],
+   "prompt": "Sort these: living or non-living components of the environment?",
+   "pool": [
+    {
+     "left": "trees",
+     "right": "living (biotic)"
+    },
+    {
+     "left": "grass",
+     "right": "living (biotic)"
+    },
+    {
+     "left": "goats",
+     "right": "living (biotic)"
+    },
+    {
+     "left": "fish",
+     "right": "living (biotic)"
+    },
+    {
+     "left": "bacteria",
+     "right": "living (biotic)"
+    },
+    {
+     "left": "mushrooms",
+     "right": "living (biotic)"
+    },
+    {
+     "left": "people",
+     "right": "living (biotic)"
+    },
+    {
+     "left": "birds",
+     "right": "living (biotic)"
+    },
+    {
+     "left": "air",
+     "right": "non-living (abiotic)"
+    },
+    {
+     "left": "water",
+     "right": "non-living (abiotic)"
+    },
+    {
+     "left": "soil",
+     "right": "non-living (abiotic)"
+    },
+    {
+     "left": "rocks",
+     "right": "non-living (abiotic)"
+    },
+    {
+     "left": "sunlight",
+     "right": "non-living (abiotic)"
+    },
+    {
+     "left": "rain",
+     "right": "non-living (abiotic)"
+    },
+    {
+     "left": "temperature",
+     "right": "non-living (abiotic)"
+    },
+    {
+     "left": "wind",
+     "right": "non-living (abiotic)"
+    }
+   ]
+  },
+  {
+   "id": "g10-sphere",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "environment"
+   ],
+   "prompt": "Match each sphere with what it is made of.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "lithosphere",
+     "right": "rocks and soil"
+    },
+    {
+     "left": "hydrosphere",
+     "right": "water: seas, rivers and lakes"
+    },
+    {
+     "left": "atmosphere",
+     "right": "the air around the Earth"
+    },
+    {
+     "left": "biosphere",
+     "right": "all living things"
+    }
+   ]
+  },
+  {
+   "id": "g10-producer",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "environment"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      {
+       "a": "grass",
+       "b": "grasshopper",
+       "c": "frog",
+       "d": "snake"
+      },
+      {
+       "a": "maize",
+       "b": "rat",
+       "c": "snake",
+       "d": "eagle"
+      },
+      {
+       "a": "leaves",
+       "b": "caterpillar",
+       "c": "bird",
+       "d": "cat"
+      },
+      {
+       "a": "water plants",
+       "b": "small fish",
+       "c": "big fish",
+       "d": "heron"
+      },
+      {
+       "a": "grass",
+       "b": "grasshopper",
+       "c": "lizard",
+       "d": "hawk"
+      }
+     ]
+    }
+   },
+   "prompt": "In the food chain {c.a} → {c.b} → {c.c} → {c.d}, which is the producer?",
+   "correct": "{c.a}",
+   "distractors": [
+    {
+     "text": "{c.b}",
+     "misconception": "consumer"
+    },
+    {
+     "text": "{c.c}",
+     "misconception": "consumer"
+    },
+    {
+     "text": "{c.d}",
+     "misconception": "consumer"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "consumer",
+     "explain": "That is an animal: a consumer. The producer is the green plant at the start of the chain."
+    }
+   ],
+   "solution": [
+    "The producer makes its own food using sunlight: the green plant.",
+    "It comes first in the chain: {answer}."
+   ]
+  },
+  {
+   "id": "g10-chain",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "environment"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      {
+       "a": "grass",
+       "b": "grasshopper",
+       "c": "frog",
+       "d": "snake"
+      },
+      {
+       "a": "maize",
+       "b": "rat",
+       "c": "snake",
+       "d": "eagle"
+      },
+      {
+       "a": "leaves",
+       "b": "caterpillar",
+       "c": "bird",
+       "d": "cat"
+      },
+      {
+       "a": "water plants",
+       "b": "small fish",
+       "c": "big fish",
+       "d": "heron"
+      },
+      {
+       "a": "grass",
+       "b": "grasshopper",
+       "c": "lizard",
+       "d": "hawk"
+      }
+     ]
+    }
+   },
+   "order": "as_written",
+   "prompt": "Put this food chain in order, starting with the producer.",
+   "items": [
+    {
+     "text": "{c.a}"
+    },
+    {
+     "text": "{c.b}"
+    },
+    {
+     "text": "{c.c}"
+    },
+    {
+     "text": "{c.d}"
+    }
+   ]
+  },
+  {
+   "id": "g10-natural",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "environment"
+   ],
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "natural",
+    "built by people"
+   ],
+   "prompt": "Sort these: natural environment or built by people?",
+   "pool": [
+    {
+     "left": "the Sanaga River",
+     "right": "natural"
+    },
+    {
+     "left": "a forest",
+     "right": "natural"
+    },
+    {
+     "left": "Mount Cameroon",
+     "right": "natural"
+    },
+    {
+     "left": "the rain",
+     "right": "natural"
+    },
+    {
+     "left": "a waterfall",
+     "right": "natural"
+    },
+    {
+     "left": "a tarred road",
+     "right": "built by people"
+    },
+    {
+     "left": "a bridge",
+     "right": "built by people"
+    },
+    {
+     "left": "a football stadium",
+     "right": "built by people"
+    },
+    {
+     "left": "a dam",
+     "right": "built by people"
+    },
+    {
+     "left": "a market",
+     "right": "built by people"
+    }
+   ]
+  },
+  {
+   "id": "g10-eco",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "environment"
+   ],
+   "vars": {},
+   "prompt": "Which of these is an ecosystem?",
+   "pool": {
+    "right": [
+     {
+      "text": "a pond with its plants, fish and frogs",
+      "truth": "true"
+     },
+     {
+      "text": "a forest with its trees, animals and soil",
+      "truth": "true"
+     },
+     {
+      "text": "a savanna with its grass, animals and rain",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a single goat",
+      "truth": "false",
+      "explain": "One animal alone is not an ecosystem: an ecosystem is many living things with their surroundings."
+     },
+     {
+      "text": "a bag of rice",
+      "truth": "false",
+      "explain": "That is a food, not a community of living things with their surroundings."
+     },
+     {
+      "text": "a rock",
+      "truth": "false",
+      "explain": "A rock alone is a non-living thing, not an ecosystem."
+     },
+     {
+      "text": "a car",
+      "truth": "false",
+      "explain": "A car is made by people and is not living."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "g10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "environment"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Soil and water are non-living components of the environment.",
+      "truth": "true"
+     },
+     {
+      "text": "The hydrosphere is all the water on the Earth.",
+      "truth": "true"
+     },
+     {
+      "text": "Green plants are producers.",
+      "truth": "true"
+     },
+     {
+      "text": "An ecosystem includes living and non-living things.",
+      "truth": "true"
+     },
+     {
+      "text": "Bacteria are living things.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The atmosphere is made of rocks and soil.",
+      "truth": "false",
+      "explain": "Rocks and soil are the lithosphere; the atmosphere is the air."
+     },
+     {
+      "text": "Animals are producers in a food chain.",
+      "truth": "false",
+      "explain": "Animals are consumers; green plants are producers."
+     },
+     {
+      "text": "Roads are part of the natural environment.",
+      "truth": "false",
+      "explain": "Roads are built by people."
+     },
+     {
+      "text": "Sunlight is a living component.",
+      "truth": "false",
+      "explain": "Sunlight is non-living."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
