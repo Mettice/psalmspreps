@@ -1,4 +1,4 @@
-// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1) builds from the real engine and content, offline, under 900 KB.
+// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1) builds from the real engine and content, offline, under 1.3 MB.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
@@ -9,10 +9,10 @@ const FILE = new URL("tools/prototype/form1.html", ROOT);
 const page = () => readFileSync(FILE, "utf8");
 const constant = (html, name) => JSON.parse(html.match(new RegExp(`const ${name} = (.*);\\n`))[1]);
 
-test("prototype: builds under 900 KB, no external resources, engine runs", () => {
+test("prototype: builds under 1.3 MB, no external resources, engine runs", () => {
   execFileSync(process.execPath, [new URL("tools/prototype/build.mjs", ROOT).pathname.replace(/^\/([A-Za-z]:)/, "$1")]);
   const html = page();
-  assert.ok(Buffer.byteLength(html) < 900 * 1024, `${Buffer.byteLength(html)} bytes`);
+  assert.ok(Buffer.byteLength(html) < 1300 * 1024, `${Buffer.byteLength(html)} bytes`);
   assert.doesNotMatch(html, /<script[^>]+src=|<link[^>]+href=|https?:\/\/(?!www\.w3\.org)/, "must not load anything from the network");
   assert.doesNotMatch(html, /indexedDB|fetch\(|XMLHttpRequest|sendBeacon|WebSocket/, "must not send data");
   // Progress is saved in this browser only (2026-10-05): one key, every access wrapped in try/catch.
@@ -49,9 +49,15 @@ test("prototype: builds under 900 KB, no external resources, engine runs", () =>
   const hq = ENGINE.template.instantiate(h13.questions.find((t) => t.id === "he13-total"), 5, ENGINE.libs["home-economics"], 13);
   assert.match(hq.figure, /^<svg /);
   assert.deepEqual(ENGINE.template.check(hq, hq.answer), { correct: true });
+  // History, Biology, Computer Science: dates, magnification and patterns come from the inlined libraries.
+  for (const [s, n, id] of [["history", 3, "hi3-across"], ["biology", 7, "b7-mag"], ["computer-science", 9, "cs9-shape"]]) {
+    const l = JSON.parse(readFileSync(new URL(`content/${s}/${n}.json`, ROOT), "utf8"));
+    const x = ENGINE.template.instantiate(l.questions.find((t) => t.id === id), 5, ENGINE.libs[s], n);
+    assert.equal(x.verified, true, id);
+  }
 });
 
-test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1, Geography G1 and Home Economics H1 are in the page; deferred speech work is not", () => {
+test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1, Geography G1, Home Economics H1, History Y1, Biology L1 and Computer Science S1 are in the page; deferred speech work is not", () => {
   const html = page();
   const content = constant(html, "CONTENT"), titles = constant(html, "TITLES"), lessons = constant(html, "LESSONS");
   assert.deepEqual(lessons.maths, Array.from({ length: 16 }, (_, i) => i + 1));
@@ -61,7 +67,10 @@ test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1, Geography G
   assert.deepEqual(lessons.geography, Array.from({ length: 10 }, (_, i) => i + 1));
   assert.match(titles.geography[4], /^PW1/, "Geography is numbered by place in the year: Lesson 4 is PW1");
   assert.deepEqual(lessons["home-economics"], [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21]);
-  for (const s of ["maths", "english", "physics", "chemistry", "geography", "home-economics"]) for (const n of lessons[s]) {
+  assert.deepEqual(lessons.history, Array.from({ length: 10 }, (_, i) => i + 1));
+  assert.deepEqual(lessons.biology, [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21]);
+  assert.deepEqual(lessons["computer-science"], [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18]);
+  for (const s of ["maths", "english", "physics", "chemistry", "geography", "home-economics", "history", "biology", "computer-science"]) for (const n of lessons[s]) {
     assert.equal(content[s][n]?.lesson_no, n, `${s} ${n}`);
     assert.ok(titles[s][n], `${s} ${n} title`);
   }

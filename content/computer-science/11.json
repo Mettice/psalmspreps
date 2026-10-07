@@ -1,0 +1,284 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "cs11",
+   "name": "Algorithms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An algorithm is a list of clear steps, in order, that solves a problem. A recipe and directions to a friend’s house are algorithms.\nA good algorithm: has a start and an end; each step is clear; the steps are in the right order; it gives the right result.\nAlgorithms can be written:\n• in words (numbered steps);\n• as a flowchart, with shapes: oval for start or end, rectangle for a process, diamond for a decision (yes or no), parallelogram for input or output;\n• in pseudocode, a simple, structured way of writing steps.\nTracing an algorithm means following it step by step, writing down the value after each step, to find the result.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 4,
+   "b": 3,
+   "n": 3
+  },
+  "problem": "Trace this algorithm.\nStart with x = {a}.\nAdd {b} to x, and do this {n} times in all.\nOutput x.",
+  "steps": [
+   "Start: x = {a}.",
+   "After each addition: {traceAdd(a, b, 1)}, {traceAdd(a, b, 2)}, {traceAdd(a, b, 3)}.",
+   "Output: {traceAdd(a, b, n)}."
+  ],
+  "answer": "{traceAdd(a, b, n)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc11-1",
+    "status": "draft",
+    "idea": "An algorithm is a list of clear steps, in order, that solves a problem.",
+    "vars": {},
+    "example": [
+     "A recipe for puff-puff is an algorithm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs11-what"
+    }
+   },
+   {
+    "id": "csc11-2",
+    "status": "draft",
+    "idea": "Flowchart shapes: oval = start or end; rectangle = process; diamond = decision; parallelogram = input or output.",
+    "vars": {},
+    "example": [
+     "“Is it raining?” goes in a diamond."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs11-shape"
+    }
+   },
+   {
+    "id": "csc11-3",
+    "status": "draft",
+    "idea": "Tracing means following the steps one by one and writing down the value each time.",
+    "vars": {
+     "a": 2,
+     "b": 5
+    },
+    "example": [
+     "Start {a}, add {b} twice: {traceAdd(a, b, 1)}, then {traceAdd(a, b, 2)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs11-trace"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs11-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {},
+   "prompt": "What is an algorithm?",
+   "pool": {
+    "right": [
+     {
+      "text": "a list of clear steps, in order, that solves a problem",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a type of computer",
+      "truth": "false",
+      "explain": "An algorithm is a list of steps."
+     },
+     {
+      "text": "a computer virus",
+      "truth": "false",
+      "explain": "An algorithm is a list of steps."
+     },
+     {
+      "text": "a guess",
+      "truth": "false",
+      "explain": "An algorithm gives clear steps, not a guess."
+     },
+     {
+      "text": "a picture on the screen",
+      "truth": "false",
+      "explain": "An algorithm is a list of steps."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs11-shape",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "algorithms"
+   ],
+   "prompt": "Match each flowchart shape with its meaning.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "oval",
+     "right": "start or end"
+    },
+    {
+     "left": "rectangle",
+     "right": "a process (doing something)"
+    },
+    {
+     "left": "diamond",
+     "right": "a decision (a question with yes or no)"
+    },
+    {
+     "left": "parallelogram",
+     "right": "input or output"
+    }
+   ]
+  },
+  {
+   "id": "cs11-trace",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "Trace this algorithm.\n1. Start with x = {a}.\n2. Add {b} to x.\n3. Repeat step 2 until it has been done {n} times.\n4. Output x.",
+   "answer": "traceAdd(a, b, n)",
+   "misconceptions": [
+    {
+     "id": "once",
+     "wrong": "traceAdd(a, b, 1)",
+     "explain": "Step 2 is done {n} times, not once."
+    },
+    {
+     "id": "times",
+     "wrong": "a * b * n",
+     "explain": "Add {b} each time; do not multiply."
+    }
+   ],
+   "solution": [
+    "x starts at {a} and grows by {b} each time, {n} times.",
+    "{a} + {b} × {n} = {answer}."
+   ]
+  },
+  {
+   "id": "cs11-double",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "Trace this algorithm.\n1. Start with x = {a}.\n2. Double x.\n3. Repeat step 2 until it has been done {n} times.\n4. Output x.",
+   "answer": "traceDouble(a, n)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "a + 2 * n",
+     "explain": "Doubling means multiplying by {2} each time, not adding {2}."
+    }
+   ],
+   "solution": [
+    "x doubles {n} times, starting from {a}.",
+    "{a} × {2 ^ n} = {answer}."
+   ]
+  },
+  {
+   "id": "cs11-if",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algorithms"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      1,
+      30
+     ]
+    },
+    "L": {
+     "int": [
+      5,
+      25
+     ]
+    }
+   },
+   "where": "x != L",
+   "show": 2,
+   "prompt": "1. Input a number x.\n2. IF x > {L} THEN output “big” ELSE output “small”.\nThe input is {x}. What is the output?",
+   "correct": "{traceIf(x, L, 'big', 'small')}",
+   "distractors": [
+    {
+     "text": "{traceIf(x, L, 'small', 'big')}",
+     "misconception": "cmp"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "cmp",
+     "explain": "Check the decision: is {x} greater than {L}?"
+    }
+   ],
+   "solution": [
+    "Is {x} > {L}? {x > L ? 'Yes' : 'No'}.",
+    "So the output is “{answer}”."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "b21",
+   "name": "Responsible farming practices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Responsible farming produces food while protecting the soil, water, people and wildlife:\n• crop rotation and mixed cropping (intercropping), to keep the soil fertile and reduce pests;\n• no bush burning; use mulch and compost instead;\n• on slopes: plant across the slope (contour ridges), make terraces, and keep cover crops;\n• agroforestry: keep or plant trees among crops;\n• use fertilisers and pesticides only as instructed, wear protective clothing, keep them away from children, food and water, and never wash sprayers in rivers;\n• do not farm right up to river banks;\n• save water and keep animals out of drinking-water sources.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A farmer on a hillside near Bamenda makes ridges running straight down the slope, and the soil washes away. What should the farmer do instead?",
+  "steps": [
+   "Ridges down the slope make channels for rain water, which carries soil away.",
+   "Ridges across the slope (along the contour) slow the water and hold the soil."
+  ],
+  "answer": "Make the ridges across the slope (contour ridges), or terraces.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc21-1",
+    "status": "draft",
+    "idea": "Crop rotation, mixed cropping and no bush burning keep the soil fertile.",
+    "vars": {},
+    "example": [
+     "Beans after maize put nitrogen back into the soil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b21-sort"
+    }
+   },
+   {
+    "id": "bc21-2",
+    "status": "draft",
+    "idea": "On slopes, ridges and terraces across the slope stop soil being washed away.",
+    "vars": {},
+    "example": [
+     "Terraces look like big steps on the hillside."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b21-slope"
+    }
+   },
+   {
+    "id": "bc21-3",
+    "status": "draft",
+    "idea": "Use fertilisers and pesticides only as instructed, with protective clothing, away from children, food and water.",
+    "vars": {},
+    "example": [
+     "Never wash a sprayer in the river."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc21-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "farming"
+     ],
+     "vars": {},
+     "prompt": "What is the safe way to use pesticides?",
+     "pool": {
+      "right": [
+       {
+        "text": "Follow the instructions and wear protective clothing.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Use as much as possible.",
+        "truth": "false",
+        "explain": "Too much harms people, soil and water."
+       },
+       {
+        "text": "Wash the sprayer in the river.",
+        "truth": "false",
+        "explain": "That poisons the water and fish."
+       },
+       {
+        "text": "Store them with food.",
+        "truth": "false",
+        "explain": "Keep them away from food and children."
+       },
+       {
+        "text": "Spray without covering your skin.",
+        "truth": "false",
+        "explain": "Wear protective clothing."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b21-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "farming"
+   ],
+   "prompt": "Sort these: responsible or harmful farming?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "responsible",
+    "harmful"
+   ],
+   "pool": [
+    {
+     "left": "crop rotation",
+     "right": "responsible"
+    },
+    {
+     "left": "mixed cropping",
+     "right": "responsible"
+    },
+    {
+     "left": "mulching",
+     "right": "responsible"
+    },
+    {
+     "left": "contour ridges on slopes",
+     "right": "responsible"
+    },
+    {
+     "left": "planting trees among crops",
+     "right": "responsible"
+    },
+    {
+     "left": "bush burning",
+     "right": "harmful"
+    },
+    {
+     "left": "washing sprayers in the river",
+     "right": "harmful"
+    },
+    {
+     "left": "ridges straight down the slope",
+     "right": "harmful"
+    },
+    {
+     "left": "farming right up to the river bank",
+     "right": "harmful"
+    },
+    {
+     "left": "spraying without protective clothing",
+     "right": "harmful"
+    }
+   ]
+  },
+  {
+   "id": "b21-slope",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "farming"
+   ],
+   "vars": {},
+   "prompt": "On a steep slope, how should ridges be made?",
+   "pool": {
+    "right": [
+     {
+      "text": "across the slope, along the contour",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "straight down the slope",
+      "truth": "false",
+      "explain": "That lets water run down and carry the soil away."
+     },
+     {
+      "text": "no ridges, and burn the grass",
+      "truth": "false",
+      "explain": "Bare, burnt soil washes away."
+     },
+     {
+      "text": "only at the top of the hill",
+      "truth": "false",
+      "explain": "Ridges are needed all across the slope."
+     },
+     {
+      "text": "in a circle around one tree",
+      "truth": "false",
+      "explain": "Ridges should run across the slope."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b21-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "farming"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "crop rotation",
+       "a": "keeps the soil fertile and reduces pests",
+       "why": "Crop rotation keeps the soil fertile and reduces pests."
+      },
+      {
+       "t": "mulching",
+       "a": "keeps the soil moist and adds humus",
+       "why": "Mulching keeps the soil moist and adds humus."
+      },
+      {
+       "t": "terracing",
+       "a": "stops soil being washed down the slope",
+       "why": "Terracing stops soil being washed down the slope."
+      },
+      {
+       "t": "planting trees among crops",
+       "a": "protects the soil and gives shade, fruit and wood",
+       "why": "Planting trees among crops protects the soil and gives shade, fruit and wood."
+      },
+      {
+       "t": "not farming on river banks",
+       "a": "stops soil falling into the river",
+       "why": "Not farming on river banks stops soil falling into the river."
+      }
+     ]
+    }
+   },
+   "prompt": "Why is {x.t} a good practice?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "keeps the soil fertile and reduces pests",
+     "misconception": "other"
+    },
+    {
+     "text": "keeps the soil moist and adds humus",
+     "misconception": "other"
+    },
+    {
+     "text": "stops soil being washed down the slope",
+     "misconception": "other"
+    },
+    {
+     "text": "protects the soil and gives shade, fruit and wood",
+     "misconception": "other"
+    },
+    {
+     "text": "stops soil falling into the river",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is the reason for a different practice."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "farming"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Crop rotation helps keep soil fertile.",
+      "truth": "true"
+     },
+     {
+      "text": "Terraces reduce soil erosion on slopes.",
+      "truth": "true"
+     },
+     {
+      "text": "Pesticides must be kept away from children.",
+      "truth": "true"
+     },
+     {
+      "text": "Trees among crops can protect the soil.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bush burning improves soil fertility.",
+      "truth": "false",
+      "explain": "Burning destroys humus and soil life."
+     },
+     {
+      "text": "Sprayers should be washed in the river.",
+      "truth": "false",
+      "explain": "That poisons the river."
+     },
+     {
+      "text": "Ridges down the slope stop erosion.",
+      "truth": "false",
+      "explain": "Ridges down the slope make erosion worse."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

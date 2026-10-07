@@ -1,0 +1,359 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "cs9",
+   "name": "Pattern recognition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pattern recognition means finding what is the same, or what repeats, in problems and data. Once we see a pattern we can predict what comes next and reuse a solution.\nNumber patterns: 3, 7, 11, 15, … adds 4 each time, so the next number is 19. 2, 4, 8, 16, … doubles each time.\nShape patterns: circle, square, triangle, circle, square, triangle, … repeats every three shapes.\nTo find a far-away shape in a repeating pattern, divide its position by the length of the pattern and look at the remainder.\nPatterns are everywhere: the days of the week, school timetables, the seasons, the numbers on a calendar.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "d": 4
+  },
+  "problem": "What are the next two numbers in the pattern {firstTerms(a, d, 4)}, …?",
+  "steps": [
+   "Find the difference between neighbours: {a + d} − {a} = {d}.",
+   "The pattern adds {d} each time.",
+   "{nthTerm(a, d, 4)} + {d} = {nthTerm(a, d, 5)}, then {nthTerm(a, d, 5)} + {d} = {nthTerm(a, d, 6)}."
+  ],
+  "answer": "{nthTerm(a, d, 5)} and {nthTerm(a, d, 6)}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc9-1",
+    "status": "draft",
+    "idea": "Pattern recognition is finding what is the same or what repeats.",
+    "vars": {},
+    "example": [
+     "Monday follows Sunday every week."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs9-shape"
+    }
+   },
+   {
+    "id": "csc9-2",
+    "status": "draft",
+    "idea": "In a number pattern, look at how each number changes: add the same amount, or double.",
+    "vars": {
+     "a": 5,
+     "d": 3
+    },
+    "example": [
+     "{firstTerms(a, d, 4)}: add {d} each time."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs9-next"
+    }
+   },
+   {
+    "id": "csc9-3",
+    "status": "draft",
+    "idea": "A repeating pattern repeats a group of shapes; find the group, then continue it.",
+    "vars": {},
+    "example": [
+     "Circle, square, circle, square: the group is “circle, square”."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc9-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "patterns"
+     ],
+     "vars": {
+      "p": {
+       "pick": [
+        "01",
+        "012",
+        "0123",
+        "001",
+        "011"
+       ]
+      },
+      "n": {
+       "int": [
+        4,
+        7
+       ]
+      }
+     },
+     "figure": "shapeSequence(p, n)",
+     "prompt": "What shape comes next?",
+     "correct": "{shapeAt(p, n + 1)}",
+     "distractors": [
+      {
+       "text": "{patternShape(0)}",
+       "misconception": "group"
+      },
+      {
+       "text": "{patternShape(1)}",
+       "misconception": "group"
+      },
+      {
+       "text": "{patternShape(2)}",
+       "misconception": "group"
+      },
+      {
+       "text": "{patternShape(3)}",
+       "misconception": "group"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "group",
+       "explain": "Find the group of shapes that repeats, then continue it."
+      }
+     ],
+     "solution": [
+      "The group that repeats has {patternLength(p)} shapes.",
+      "Shape number {n + 1} is a {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs9-next",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "patterns"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      30
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "What is the next number? {firstTerms(a, d, 4)}, …",
+   "answer": "nthTerm(a, d, 5)",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "nthTerm(a, d, 4) + 1",
+     "explain": "Find how much is added each time: {d}."
+    }
+   ],
+   "solution": [
+    "Each number is {d} more than the one before.",
+    "{nthTerm(a, d, 4)} + {d} = {answer}."
+   ]
+  },
+  {
+   "id": "cs9-shape",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "patterns"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      "01",
+      "012",
+      "0123",
+      "001",
+      "011",
+      "0012"
+     ]
+    },
+    "n": {
+     "int": [
+      5,
+      8
+     ]
+    }
+   },
+   "figure": "shapeSequence(p, n)",
+   "prompt": "What shape comes next?",
+   "correct": "{shapeAt(p, n + 1)}",
+   "distractors": [
+    {
+     "text": "{patternShape(0)}",
+     "misconception": "group"
+    },
+    {
+     "text": "{patternShape(1)}",
+     "misconception": "group"
+    },
+    {
+     "text": "{patternShape(2)}",
+     "misconception": "group"
+    },
+    {
+     "text": "{patternShape(3)}",
+     "misconception": "group"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "group",
+     "explain": "Find the group of shapes that repeats, then continue it."
+    }
+   ],
+   "solution": [
+    "The group that repeats has {patternLength(p)} shapes.",
+    "Shape number {n + 1} is a {answer}."
+   ]
+  },
+  {
+   "id": "cs9-double",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "patterns"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      6
+     ]
+    }
+   },
+   "prompt": "What is the next number? {firstDoubles(a, 4)}, …",
+   "answer": "nthDouble(a, 5)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "nthDouble(a, 4) + (nthDouble(a, 4) - nthDouble(a, 3))",
+     "explain": "The numbers do not go up by the same amount: each one is double the one before."
+    }
+   ],
+   "solution": [
+    "Each number is double the one before.",
+    "{nthDouble(a, 4)} × {2} = {answer}."
+   ]
+  },
+  {
+   "id": "cs9-far",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "patterns"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      "012",
+      "0123",
+      "001",
+      "0112"
+     ]
+    },
+    "n": {
+     "int": [
+      15,
+      40
+     ]
+    }
+   },
+   "figure": "shapeSequence(p, 2 * patternLength(p))",
+   "prompt": "This pattern keeps repeating. What is shape number {n}?",
+   "correct": "{shapeAt(p, n)}",
+   "distractors": [
+    {
+     "text": "{patternShape(0)}",
+     "misconception": "rem"
+    },
+    {
+     "text": "{patternShape(1)}",
+     "misconception": "rem"
+    },
+    {
+     "text": "{patternShape(2)}",
+     "misconception": "rem"
+    },
+    {
+     "text": "{patternShape(3)}",
+     "misconception": "rem"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "rem",
+     "explain": "Divide the position by the length of the group and use the remainder."
+    }
+   ],
+   "solution": [
+    "The group has {patternLength(p)} shapes. {n} ÷ {patternLength(p)} = {idiv(n, patternLength(p))} remainder {n % patternLength(p)}.",
+    "{n % patternLength(p) == 0 ? 'Remainder 0 means the last shape of the group' : 'Remainder ' + (n % patternLength(p)) + ' means shape number ' + (n % patternLength(p)) + ' of the group'}: {answer}."
+   ]
+  },
+  {
+   "id": "cs9-nth",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "patterns"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      8,
+      15
+     ]
+    }
+   },
+   "prompt": "The pattern {firstTerms(a, d, 4)}, … continues. What is number {n} in the pattern?",
+   "answer": "nthTerm(a, d, n)",
+   "misconceptions": [
+    {
+     "id": "off",
+     "wrong": "a + d * n",
+     "explain": "The first number has no {d} added yet: add {d} only {n - 1} times."
+    }
+   ],
+   "solution": [
+    "The first number is {a}; each one adds {d}.",
+    "Number {n}: {a} + {d} × {n - 1} = {answer}."
+   ]
+  }
+ ]
+}

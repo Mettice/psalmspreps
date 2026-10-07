@@ -1,0 +1,347 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "hi6",
+   "name": "Myths of creation as historical sources"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A myth is a traditional story that a people tells to explain how something began: the world, the first people, a clan, a river or a custom.\nAlmost every people in the world has creation stories. They are usually passed on orally, by elders, storytellers and griots, at gatherings, ceremonies and around the fire. Religions also teach about creation: for example, the Bible and the Qur’an say that God created the world and the first humans.\nHistorians study myths as sources: they show what a people believed, what they valued and how they saw their past.\nArchaeologists and scientists study human origins with other evidence: fossils, tools and remains.\nIn class we respect everyone’s beliefs, and we can learn the stories of other peoples.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An elder tells how the founder of the clan came out of a great river. What kind of source is this story, and what can a historian learn from it?",
+  "steps": [
+   "It is a traditional story told by word of mouth: a myth, which is an oral source.",
+   "It shows what the clan believes about its beginning and how important the river is to them."
+  ],
+  "answer": "An oral source (a myth); it shows the clan’s beliefs and values.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic6-1",
+    "status": "draft",
+    "idea": "A myth is a traditional story that explains how something began: the world, the first people, a clan or a custom.",
+    "vars": {},
+    "example": [
+     "A story about how the first ancestor came down from the sky is a creation myth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi6-what"
+    }
+   },
+   {
+    "id": "hic6-2",
+    "status": "draft",
+    "idea": "Creation stories are usually passed on orally, by elders, storytellers and griots.",
+    "vars": {},
+    "example": [
+     "Children learn the story from their grandparents, who learnt it from theirs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi6-passed"
+    }
+   },
+   {
+    "id": "hic6-3",
+    "status": "draft",
+    "idea": "Historians study myths to learn what a people believed and valued. We respect everyone’s beliefs.",
+    "vars": {},
+    "example": [
+     "A myth about a sacred lake shows that the lake is important to that people."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic6-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "creation-myths"
+     ],
+     "vars": {},
+     "prompt": "Why do historians study creation myths?",
+     "pool": {
+      "right": [
+       {
+        "text": "to learn what a people believed and valued",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "to make fun of other people’s beliefs",
+        "truth": "false",
+        "explain": "We respect everyone’s beliefs."
+       },
+       {
+        "text": "to find the exact date the world began",
+        "truth": "false",
+        "explain": "Myths tell beliefs, not exact dates."
+       },
+       {
+        "text": "because myths are written in old books only",
+        "truth": "false",
+        "explain": "Most myths are passed on orally."
+       },
+       {
+        "text": "to stop people telling stories",
+        "truth": "false",
+        "explain": "Historians want the stories kept and recorded."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi6-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "creation-myths"
+   ],
+   "vars": {},
+   "prompt": "What is a creation myth?",
+   "pool": {
+    "right": [
+     {
+      "text": "a traditional story that explains how the world or the first people began",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a newspaper report",
+      "truth": "false",
+      "explain": "That is a written source about recent events."
+     },
+     {
+      "text": "a fossil",
+      "truth": "false",
+      "explain": "A fossil is a remain of a living thing."
+     },
+     {
+      "text": "a modern science experiment",
+      "truth": "false",
+      "explain": "A myth is a traditional story."
+     },
+     {
+      "text": "a map of a village",
+      "truth": "false",
+      "explain": "A myth is a story."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi6-passed",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "creation-myths"
+   ],
+   "vars": {},
+   "prompt": "How are most creation myths passed on?",
+   "pool": {
+    "right": [
+     {
+      "text": "orally: told by elders, storytellers and griots",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "by text message",
+      "truth": "false",
+      "explain": "They are very old: they are passed on by word of mouth."
+     },
+     {
+      "text": "only in school textbooks",
+      "truth": "false",
+      "explain": "Most are told by word of mouth."
+     },
+     {
+      "text": "on radio only",
+      "truth": "false",
+      "explain": "They are much older than radio."
+     },
+     {
+      "text": "by carving them on stone only",
+      "truth": "false",
+      "explain": "Most are told by word of mouth."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi6-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "creation-myths"
+   ],
+   "prompt": "Sort these sources: a story passed on by people, or material evidence?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "story passed on by people",
+    "material evidence"
+   ],
+   "pool": [
+    {
+     "left": "an elder’s story about the first ancestor",
+     "right": "story passed on by people"
+    },
+    {
+     "left": "a song about how the river was made",
+     "right": "story passed on by people"
+    },
+    {
+     "left": "a griot’s tale about the founding of the clan",
+     "right": "story passed on by people"
+    },
+    {
+     "left": "a fossil bone",
+     "right": "material evidence"
+    },
+    {
+     "left": "a stone tool dug up from the ground",
+     "right": "material evidence"
+    },
+    {
+     "left": "the remains of an old fireplace",
+     "right": "material evidence"
+    }
+   ]
+  },
+  {
+   "id": "hi6-respect",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "creation-myths"
+   ],
+   "vars": {},
+   "prompt": "Your friend’s family tells a creation story different from yours. What is the best thing to do?",
+   "pool": {
+    "right": [
+     {
+      "text": "listen with respect and learn about it",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "laugh at the story",
+      "truth": "false",
+      "explain": "We respect other people’s beliefs."
+     },
+     {
+      "text": "tell your friend the story is stupid",
+      "truth": "false",
+      "explain": "We respect other people’s beliefs."
+     },
+     {
+      "text": "refuse to talk to your friend",
+      "truth": "false",
+      "explain": "Different beliefs are not a reason to reject a friend."
+     },
+     {
+      "text": "tell the teacher your friend is wrong",
+      "truth": "false",
+      "explain": "Myths tell beliefs; we listen with respect."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "creation-myths"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A myth explains how something began.",
+      "truth": "true"
+     },
+     {
+      "text": "Many myths are passed on orally.",
+      "truth": "true"
+     },
+     {
+      "text": "Historians study myths to learn about beliefs.",
+      "truth": "true"
+     },
+     {
+      "text": "Almost every people has creation stories.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Only one people in the world has a creation story.",
+      "truth": "false",
+      "explain": "Almost every people has creation stories."
+     },
+     {
+      "text": "Historians study fossils by listening to songs.",
+      "truth": "false",
+      "explain": "Fossils are material evidence; songs are oral sources."
+     },
+     {
+      "text": "Myths are always written in newspapers.",
+      "truth": "false",
+      "explain": "Myths are usually passed on orally."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

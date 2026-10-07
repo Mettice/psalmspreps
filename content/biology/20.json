@@ -1,0 +1,342 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "b20",
+   "name": "Fertile soils and improving soil"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A fertile (good) soil:\n• is rich in humus and minerals (nutrients);\n• holds water but also drains well, so it is not waterlogged;\n• has air spaces for roots;\n• is deep enough for roots;\n• is neither too acidic nor too alkaline;\n• has many living things such as earthworms.\nWays to improve soil:\n• add compost or animal manure (humus and nutrients);\n• use green manure: grow beans or other legumes and dig them in;\n• mulch: cover the soil with dry grass or leaves to keep it moist;\n• rotate crops and leave land to rest (fallow);\n• use fertilisers carefully, as instructed;\n• add lime to very acidic soil;\n• do not burn the bush, which destroys humus.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A farmer’s soil is sandy and dries out quickly. Give two ways to improve it.",
+  "steps": [
+   "Add compost or manure: humus helps sandy soil hold water and gives nutrients.",
+   "Mulch the soil with dry grass to keep the water in."
+  ],
+  "answer": "Add compost or manure, and mulch.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc20-1",
+    "status": "draft",
+    "idea": "A fertile soil is rich in humus and nutrients, holds water but drains, has air and many living things.",
+    "vars": {},
+    "example": [
+     "Many earthworms are a sign of a healthy soil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b20-good"
+    }
+   },
+   {
+    "id": "bc20-2",
+    "status": "draft",
+    "idea": "Compost, manure and green manure add humus and nutrients to the soil.",
+    "vars": {},
+    "example": [
+     "Kitchen peelings can be turned into compost."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b20-improve"
+    }
+   },
+   {
+    "id": "bc20-3",
+    "status": "draft",
+    "idea": "Mulching keeps soil moist; bush burning destroys humus.",
+    "vars": {},
+    "example": [
+     "Dry grass on the soil shades it from the sun."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc20-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "soil"
+     ],
+     "vars": {},
+     "prompt": "Why is bush burning bad for the soil?",
+     "pool": {
+      "right": [
+       {
+        "text": "It destroys humus and the living things in the soil.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "It makes the soil too wet.",
+        "truth": "false",
+        "explain": "Burning dries the soil."
+       },
+       {
+        "text": "It adds too much humus.",
+        "truth": "false",
+        "explain": "It destroys humus."
+       },
+       {
+        "text": "It makes the rain fall harder.",
+        "truth": "false",
+        "explain": "The harm is to humus and soil life."
+       },
+       {
+        "text": "It is good for the soil.",
+        "truth": "false",
+        "explain": "It destroys humus and soil life and leaves the soil bare."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b20-good",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {},
+   "prompt": "Which is a sign of a fertile soil?",
+   "pool": {
+    "right": [
+     {
+      "text": "It is dark and rich in humus.",
+      "truth": "true"
+     },
+     {
+      "text": "It has many earthworms.",
+      "truth": "true"
+     },
+     {
+      "text": "It holds water but does not stay waterlogged.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is very hard and cracked.",
+      "truth": "false",
+      "explain": "Hard, cracked soil has little air and humus."
+     },
+     {
+      "text": "Nothing lives in it.",
+      "truth": "false",
+      "explain": "Fertile soil is full of life."
+     },
+     {
+      "text": "Water stays on top for days.",
+      "truth": "false",
+      "explain": "Waterlogged soil has no air for roots."
+     },
+     {
+      "text": "It is pale and sandy with no humus.",
+      "truth": "false",
+      "explain": "That soil is poor."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b20-improve",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "prompt": "Sort these: improves the soil, or harms it?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "improves",
+    "harms"
+   ],
+   "pool": [
+    {
+     "left": "adding compost",
+     "right": "improves"
+    },
+    {
+     "left": "adding animal manure",
+     "right": "improves"
+    },
+    {
+     "left": "mulching with dry grass",
+     "right": "improves"
+    },
+    {
+     "left": "growing beans and digging them in",
+     "right": "improves"
+    },
+    {
+     "left": "leaving land to rest (fallow)",
+     "right": "improves"
+    },
+    {
+     "left": "burning the bush",
+     "right": "harms"
+    },
+    {
+     "left": "using too much fertiliser",
+     "right": "harms"
+    },
+    {
+     "left": "leaving the soil bare",
+     "right": "harms"
+    },
+    {
+     "left": "planting the same crop every year",
+     "right": "harms"
+    }
+   ]
+  },
+  {
+   "id": "b20-how",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "The soil is sandy and dries out fast.",
+       "a": "add compost or manure",
+       "why": "Add compost or manure: The soil is sandy and dries out fast."
+      },
+      {
+       "t": "The soil is too acidic.",
+       "a": "add lime",
+       "why": "Add lime: The soil is too acidic."
+      },
+      {
+       "t": "The soil loses water to the hot sun.",
+       "a": "mulch it with dry grass or leaves",
+       "why": "Mulch it with dry grass or leaves: The soil loses water to the hot sun."
+      },
+      {
+       "t": "The soil is tired after many years of maize.",
+       "a": "rotate crops or leave it fallow",
+       "why": "Rotate crops or leave it fallow: The soil is tired after many years of maize."
+      }
+     ]
+    }
+   },
+   "prompt": "Which is the best way to improve this soil?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "add compost or manure",
+     "misconception": "other"
+    },
+    {
+     "text": "add lime",
+     "misconception": "other"
+    },
+    {
+     "text": "mulch it with dry grass or leaves",
+     "misconception": "other"
+    },
+    {
+     "text": "rotate crops or leave it fallow",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That helps a different problem."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Compost adds humus to the soil.",
+      "truth": "true"
+     },
+     {
+      "text": "Mulching keeps the soil moist.",
+      "truth": "true"
+     },
+     {
+      "text": "Lime can help acidic soil.",
+      "truth": "true"
+     },
+     {
+      "text": "Earthworms help to mix the soil.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Burning the bush adds humus.",
+      "truth": "false",
+      "explain": "Burning destroys humus."
+     },
+     {
+      "text": "The more fertiliser, the better.",
+      "truth": "false",
+      "explain": "Too much fertiliser harms soil and water: follow instructions."
+     },
+     {
+      "text": "Waterlogged soil is best for most crops.",
+      "truth": "false",
+      "explain": "Roots need air; waterlogged soil has none."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

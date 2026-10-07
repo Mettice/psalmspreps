@@ -1,0 +1,350 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "cs3",
+   "name": "Classification of computers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Computers can be classified in three ways.\nBy size and power:\n• supercomputers: the most powerful, for weather forecasts and big research;\n• mainframes: large computers serving many users at once, for banks and governments;\n• minicomputers (mid-range): for a medium-sized company;\n• microcomputers: personal computers (desktops, laptops, tablets, smartphones).\nBy type of data:\n• analog: measure continuously changing quantities (an old speedometer);\n• digital: work with numbers (digits), like most computers today;\n• hybrid: both (some hospital machines).\nBy purpose:\n• general-purpose: can do many jobs (a laptop);\n• special-purpose: built for one job (the computer in a washing machine or an ATM).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The computer inside a cash machine (ATM) only lets people take out money and check their balance. How is it classified by purpose?",
+  "steps": [
+   "It does only one kind of job.",
+   "A computer built for one job is special-purpose."
+  ],
+  "answer": "Special-purpose.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc3-1",
+    "status": "draft",
+    "idea": "By size: supercomputers, mainframes, minicomputers, microcomputers (personal computers).",
+    "vars": {},
+    "example": [
+     "Your phone is a microcomputer; a weather service may use a supercomputer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs3-size"
+    }
+   },
+   {
+    "id": "csc3-2",
+    "status": "draft",
+    "idea": "By data: analog, digital or hybrid. Most computers today are digital.",
+    "vars": {},
+    "example": [
+     "A digital computer works with numbers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs3-data"
+    }
+   },
+   {
+    "id": "csc3-3",
+    "status": "draft",
+    "idea": "By purpose: general-purpose (many jobs) or special-purpose (one job).",
+    "vars": {},
+    "example": [
+     "A laptop is general-purpose; a washing machine’s computer is special-purpose."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc3-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cs-classes"
+     ],
+     "vars": {},
+     "prompt": "Which is a special-purpose computer?",
+     "pool": {
+      "right": [
+       {
+        "text": "the computer in a washing machine",
+        "truth": "true"
+       },
+       {
+        "text": "the computer in an ATM",
+        "truth": "true"
+       },
+       {
+        "text": "a digital watch",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a laptop",
+        "truth": "false",
+        "explain": "A laptop can do many jobs: general-purpose."
+       },
+       {
+        "text": "a desktop computer",
+        "truth": "false",
+        "explain": "It can do many jobs."
+       },
+       {
+        "text": "a tablet",
+        "truth": "false",
+        "explain": "It can do many jobs."
+       },
+       {
+        "text": "a smartphone",
+        "truth": "false",
+        "explain": "It can do many jobs."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs3-size",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cs-classes"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the most powerful, used for weather forecasts",
+       "a": "supercomputer",
+       "why": "Supercomputer: the most powerful, used for weather forecasts."
+      },
+      {
+       "t": "serves thousands of bank customers at once",
+       "a": "mainframe",
+       "why": "Mainframe: serves thousands of bank customers at once."
+      },
+      {
+       "t": "a laptop, desktop, tablet or smartphone",
+       "a": "microcomputer",
+       "why": "Microcomputer: a laptop, desktop, tablet or smartphone."
+      },
+      {
+       "t": "serves a medium-sized company",
+       "a": "minicomputer",
+       "why": "Minicomputer: serves a medium-sized company."
+      }
+     ]
+    }
+   },
+   "prompt": "Which kind of computer is this: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "supercomputer",
+     "misconception": "other"
+    },
+    {
+     "text": "mainframe",
+     "misconception": "other"
+    },
+    {
+     "text": "minicomputer",
+     "misconception": "other"
+    },
+    {
+     "text": "microcomputer",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that kind. Think about size and power."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "cs3-data",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cs-classes"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "works with numbers (digits)",
+       "a": "digital",
+       "why": "Digital: works with numbers (digits)."
+      },
+      {
+       "t": "measures quantities that change smoothly, like an old needle speedometer",
+       "a": "analog",
+       "why": "Analog: measures quantities that change smoothly, like an old needle speedometer."
+      },
+      {
+       "t": "can work in both ways",
+       "a": "hybrid",
+       "why": "Hybrid: can work in both ways."
+      }
+     ]
+    }
+   },
+   "prompt": "Which type of computer {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "digital",
+     "misconception": "other"
+    },
+    {
+     "text": "analog",
+     "misconception": "other"
+    },
+    {
+     "text": "hybrid",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Digital: numbers. Analog: smooth measurements. Hybrid: both."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "cs3-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cs-classes"
+   ],
+   "prompt": "Sort these: general-purpose or special-purpose?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "general-purpose",
+    "special-purpose"
+   ],
+   "pool": [
+    {
+     "left": "laptop",
+     "right": "general-purpose"
+    },
+    {
+     "left": "desktop computer",
+     "right": "general-purpose"
+    },
+    {
+     "left": "tablet",
+     "right": "general-purpose"
+    },
+    {
+     "left": "smartphone",
+     "right": "general-purpose"
+    },
+    {
+     "left": "ATM",
+     "right": "special-purpose"
+    },
+    {
+     "left": "washing machine controller",
+     "right": "special-purpose"
+    },
+    {
+     "left": "digital watch",
+     "right": "special-purpose"
+    },
+    {
+     "left": "traffic-light controller",
+     "right": "special-purpose"
+    }
+   ]
+  },
+  {
+   "id": "cs3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cs-classes"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A laptop is a microcomputer.",
+      "truth": "true"
+     },
+     {
+      "text": "Most computers today are digital.",
+      "truth": "true"
+     },
+     {
+      "text": "An ATM is special-purpose.",
+      "truth": "true"
+     },
+     {
+      "text": "Supercomputers are the most powerful.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A smartphone is a supercomputer.",
+      "truth": "false",
+      "explain": "A smartphone is a microcomputer."
+     },
+     {
+      "text": "A mainframe can serve only one user.",
+      "truth": "false",
+      "explain": "A mainframe serves many users at once."
+     },
+     {
+      "text": "A washing machine’s computer is general-purpose.",
+      "truth": "false",
+      "explain": "It does one job: special-purpose."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,361 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "cs16",
+   "name": "Computer laboratory equipment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A school computer laboratory usually has:\n• computers (desktops or laptops) for the pupils and one for the teacher;\n• a projector or interactive whiteboard to show the teacher’s screen;\n• printers and scanners;\n• a UPS (uninterruptible power supply) and voltage stabilisers, which protect the computers when the power goes off or changes;\n• a router or switch and cables, which connect the computers into a network and to the Internet;\n• air conditioners or fans to keep the room cool;\n• safety equipment: a CO₂ (carbon dioxide) fire extinguisher for electrical fires, a first-aid box;\n• good sockets and wiring, with cables kept away from walkways.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "During a lesson the electricity goes off, but the computers stay on for a few minutes so pupils can save their work. Which device made this possible?",
+  "steps": [
+   "A device that keeps computers running for a short time when power fails is a UPS.",
+   "It gives time to save work and shut down safely."
+  ],
+  "answer": "The UPS (uninterruptible power supply).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc16-1",
+    "status": "draft",
+    "idea": "A computer laboratory has computers, a projector, printers and scanners.",
+    "vars": {},
+    "example": [
+     "The projector shows the teacher’s screen on the wall."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs16-match"
+    }
+   },
+   {
+    "id": "csc16-2",
+    "status": "draft",
+    "idea": "A UPS and stabilisers protect computers from power cuts and changes.",
+    "vars": {},
+    "example": [
+     "A UPS gives time to save your work."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs16-which"
+    }
+   },
+   {
+    "id": "csc16-3",
+    "status": "draft",
+    "idea": "Safety equipment includes a CO₂ fire extinguisher for electrical fires and a first-aid box.",
+    "vars": {},
+    "example": [
+     "Never use water on an electrical fire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc16-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computer-lab"
+     ],
+     "vars": {},
+     "prompt": "Which fire extinguisher is used on an electrical fire in the computer laboratory?",
+     "pool": {
+      "right": [
+       {
+        "text": "a CO₂ (carbon dioxide) extinguisher",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a bucket of water",
+        "truth": "false",
+        "explain": "Water conducts electricity: never use it on an electrical fire."
+       },
+       {
+        "text": "a wet cloth thrown on the computer",
+        "truth": "false",
+        "explain": "Water and electricity are dangerous together."
+       },
+       {
+        "text": "a fan",
+        "truth": "false",
+        "explain": "A fan feeds the fire with air."
+       },
+       {
+        "text": "sand from the garden poured into the computer",
+        "truth": "false",
+        "explain": "Use the CO₂ extinguisher and call an adult."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs16-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "prompt": "Match each device with its use.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "computer",
+     "right": "for pupils to work on"
+    },
+    {
+     "left": "projector",
+     "right": "shows the teacher’s screen on the wall"
+    },
+    {
+     "left": "printer",
+     "right": "prints documents on paper"
+    },
+    {
+     "left": "scanner",
+     "right": "turns paper documents into pictures on the computer"
+    },
+    {
+     "left": "UPS (uninterruptible power supply)",
+     "right": "keeps computers running for a short time when the power goes off"
+    },
+    {
+     "left": "router or switch",
+     "right": "connects the computers into a network"
+    },
+    {
+     "left": "fire extinguisher (CO₂)",
+     "right": "puts out electrical fires"
+    },
+    {
+     "left": "air conditioner or fan",
+     "right": "keeps the room and the computers cool"
+    }
+   ]
+  },
+  {
+   "id": "cs16-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "for pupils to work on",
+       "a": "computer",
+       "why": "Computer: for pupils to work on."
+      },
+      {
+       "t": "shows the teacher’s screen on the wall",
+       "a": "projector",
+       "why": "Projector: shows the teacher’s screen on the wall."
+      },
+      {
+       "t": "prints documents on paper",
+       "a": "printer",
+       "why": "Printer: prints documents on paper."
+      },
+      {
+       "t": "turns paper documents into pictures on the computer",
+       "a": "scanner",
+       "why": "Scanner: turns paper documents into pictures on the computer."
+      },
+      {
+       "t": "keeps computers running for a short time when the power goes off",
+       "a": "UPS (uninterruptible power supply)",
+       "why": "UPS (uninterruptible power supply): keeps computers running for a short time when the power goes off."
+      },
+      {
+       "t": "connects the computers into a network",
+       "a": "router or switch",
+       "why": "Router or switch: connects the computers into a network."
+      },
+      {
+       "t": "puts out electrical fires",
+       "a": "fire extinguisher (CO₂)",
+       "why": "Fire extinguisher (CO₂): puts out electrical fires."
+      },
+      {
+       "t": "keeps the room and the computers cool",
+       "a": "air conditioner or fan",
+       "why": "Air conditioner or fan: keeps the room and the computers cool."
+      }
+     ]
+    }
+   },
+   "prompt": "Which device {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "computer",
+     "misconception": "other"
+    },
+    {
+     "text": "projector",
+     "misconception": "other"
+    },
+    {
+     "text": "printer",
+     "misconception": "other"
+    },
+    {
+     "text": "scanner",
+     "misconception": "other"
+    },
+    {
+     "text": "UPS (uninterruptible power supply)",
+     "misconception": "other"
+    },
+    {
+     "text": "router or switch",
+     "misconception": "other"
+    },
+    {
+     "text": "fire extinguisher (CO₂)",
+     "misconception": "other"
+    },
+    {
+     "text": "air conditioner or fan",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That device has a different use."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "cs16-power",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {},
+   "prompt": "Why does a computer laboratory need a UPS?",
+   "pool": {
+    "right": [
+     {
+      "text": "to keep computers running for a short time when the power fails, so work can be saved",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "to make the Internet faster",
+      "truth": "false",
+      "explain": "A router connects to the Internet; a UPS gives power."
+     },
+     {
+      "text": "to print documents",
+      "truth": "false",
+      "explain": "A printer prints."
+     },
+     {
+      "text": "to cool the room",
+      "truth": "false",
+      "explain": "A fan or air conditioner cools."
+     },
+     {
+      "text": "to show the screen on the wall",
+      "truth": "false",
+      "explain": "A projector does that."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A projector shows the teacher’s screen on the wall.",
+      "truth": "true"
+     },
+     {
+      "text": "A router connects computers into a network.",
+      "truth": "true"
+     },
+     {
+      "text": "A CO₂ extinguisher is used on electrical fires.",
+      "truth": "true"
+     },
+     {
+      "text": "Fans help keep computers cool.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Water is the best way to put out an electrical fire.",
+      "truth": "false",
+      "explain": "Water conducts electricity: use CO₂."
+     },
+     {
+      "text": "A scanner prints documents.",
+      "truth": "false",
+      "explain": "A printer prints; a scanner copies paper into the computer."
+     },
+     {
+      "text": "A UPS makes the computers faster.",
+      "truth": "false",
+      "explain": "A UPS keeps them running during a power cut."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

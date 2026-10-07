@@ -1,0 +1,413 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "hi1",
+   "name": "What history is; historical sources"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "History is the study of the past: what people did, how they lived and why things changed. Historians work from evidence called sources.\nKinds of sources:\n• oral sources: stories, songs, proverbs and memories passed on by word of mouth, for example by elders and griots;\n• written sources: books, letters, newspapers, records and inscriptions;\n• material (archaeological) sources: objects and remains from the past, such as tools, pottery, bones, coins and buildings.\nThe time before writing is called prehistory; we learn about it mainly from material sources found by archaeologists.\nWhy study history? To understand how our communities and country came to be, to learn from the past, to respect other peoples, and to keep our heritage alive.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "To learn how her village began, Asong listens to her grandfather’s story, reads an old letter at the mission, and looks at an old iron hoe kept by the chief. Which kind of source is each one?",
+  "steps": [
+   "The grandfather’s story is passed on by word of mouth: an oral source.",
+   "The letter is written: a written source.",
+   "The iron hoe is an object from the past: a material source."
+  ],
+  "answer": "Story: oral. Letter: written. Hoe: material.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic1-1",
+    "status": "draft",
+    "idea": "History is the study of the past, based on evidence called sources.",
+    "vars": {},
+    "example": [
+     "A historian asks: what happened, when, where, why, and how do we know?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic1-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "history-intro"
+     ],
+     "vars": {},
+     "prompt": "What is history?",
+     "pool": {
+      "right": [
+       {
+        "text": "the study of the past, based on evidence",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "the study of the stars",
+        "truth": "false",
+        "explain": "That is astronomy."
+       },
+       {
+        "text": "the study of plants",
+        "truth": "false",
+        "explain": "That is botany, part of Biology."
+       },
+       {
+        "text": "guessing about the future",
+        "truth": "false",
+        "explain": "History studies the past."
+       },
+       {
+        "text": "the study of numbers",
+        "truth": "false",
+        "explain": "That is Mathematics."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "hic1-2",
+    "status": "draft",
+    "idea": "Sources can be oral (spoken), written, or material (objects and remains).",
+    "vars": {},
+    "example": [
+     "A griot’s song is oral; a diary is written; a clay pot is material."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi1-source"
+    }
+   },
+   {
+    "id": "hic1-3",
+    "status": "draft",
+    "idea": "Studying history helps us understand our community, learn from the past and keep our heritage.",
+    "vars": {},
+    "example": [
+     "Knowing how a festival began helps us understand why it matters."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi1-why"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi1-source",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "history-intro"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "a story about the founding of the village, told by an elder",
+       "a": "an oral source",
+       "why": "An oral source: a story about the founding of the village, told by an elder."
+      },
+      {
+       "t": "a song a griot sings about a past king",
+       "a": "an oral source",
+       "why": "An oral source: a song a griot sings about a past king."
+      },
+      {
+       "t": "a proverb passed down from grandparents",
+       "a": "an oral source",
+       "why": "An oral source: a proverb passed down from grandparents."
+      },
+      {
+       "t": "an old letter written by a missionary",
+       "a": "a written source",
+       "why": "A written source: an old letter written by a missionary."
+      },
+      {
+       "t": "a newspaper from 1960",
+       "a": "a written source",
+       "why": "A written source: a newspaper from 1960."
+      },
+      {
+       "t": "a school register from the colonial period",
+       "a": "a written source",
+       "why": "A written source: a school register from the colonial period."
+      },
+      {
+       "t": "a clay pot dug up by archaeologists",
+       "a": "a material source",
+       "why": "A material source: a clay pot dug up by archaeologists."
+      },
+      {
+       "t": "an old stone axe",
+       "a": "a material source",
+       "why": "A material source: an old stone axe."
+      },
+      {
+       "t": "the ruins of an old palace",
+       "a": "a material source",
+       "why": "A material source: the ruins of an old palace."
+      }
+     ]
+    }
+   },
+   "prompt": "What kind of source is this: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "an oral source",
+     "misconception": "other"
+    },
+    {
+     "text": "a written source",
+     "misconception": "other"
+    },
+    {
+     "text": "a material source",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that kind. Is it spoken, written, or an object?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "hi1-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "history-intro"
+   ],
+   "vars": {},
+   "prompt": "Which is a good reason to study history?",
+   "pool": {
+    "right": [
+     {
+      "text": "to understand how our community came to be",
+      "truth": "true"
+     },
+     {
+      "text": "to learn from the mistakes of the past",
+      "truth": "true"
+     },
+     {
+      "text": "to keep our heritage alive",
+      "truth": "true"
+     },
+     {
+      "text": "to respect other peoples",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "to know exactly what will happen tomorrow",
+      "truth": "false",
+      "explain": "History studies the past; it cannot tell the future exactly."
+     },
+     {
+      "text": "to forget the past",
+      "truth": "false",
+      "explain": "History helps us remember the past."
+     },
+     {
+      "text": "only to pass examinations",
+      "truth": "false",
+      "explain": "History is useful in life, not only for examinations."
+     },
+     {
+      "text": "to learn how to repair cars",
+      "truth": "false",
+      "explain": "That is mechanics."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi1-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "history-intro"
+   ],
+   "prompt": "Sort these sources: oral, written or material?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "oral",
+    "written",
+    "material"
+   ],
+   "pool": [
+    {
+     "left": "a story told by an elder",
+     "right": "oral"
+    },
+    {
+     "left": "a griot’s song",
+     "right": "oral"
+    },
+    {
+     "left": "a proverb",
+     "right": "oral"
+    },
+    {
+     "left": "an old letter",
+     "right": "written"
+    },
+    {
+     "left": "a newspaper",
+     "right": "written"
+    },
+    {
+     "left": "a stone inscription with writing",
+     "right": "written"
+    },
+    {
+     "left": "a stone axe",
+     "right": "material"
+    },
+    {
+     "left": "a clay pot",
+     "right": "material"
+    },
+    {
+     "left": "old coins",
+     "right": "material"
+    }
+   ]
+  },
+  {
+   "id": "hi1-prehistory",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "history-intro"
+   ],
+   "vars": {},
+   "prompt": "Why do we learn about prehistory mainly from material sources?",
+   "pool": {
+    "right": [
+     {
+      "text": "People had not yet invented writing.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nobody lived in prehistoric times.",
+      "truth": "false",
+      "explain": "People lived then; they simply did not write."
+     },
+     {
+      "text": "Oral sources are always false.",
+      "truth": "false",
+      "explain": "Oral sources are useful, but memories do not reach back that far."
+     },
+     {
+      "text": "Material sources are the easiest to read.",
+      "truth": "false",
+      "explain": "The reason is that there was no writing."
+     },
+     {
+      "text": "Historians do not like books.",
+      "truth": "false",
+      "explain": "Books did not exist then: there was no writing."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "history-intro"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "History studies the past using evidence.",
+      "truth": "true"
+     },
+     {
+      "text": "A griot’s song is an oral source.",
+      "truth": "true"
+     },
+     {
+      "text": "Archaeologists dig up material sources.",
+      "truth": "true"
+     },
+     {
+      "text": "Prehistory is the time before writing.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A newspaper is a material source.",
+      "truth": "false",
+      "explain": "A newspaper is a written source."
+     },
+     {
+      "text": "Oral sources are written down in books.",
+      "truth": "false",
+      "explain": "Oral sources are passed on by word of mouth."
+     },
+     {
+      "text": "History is the study of the future.",
+      "truth": "false",
+      "explain": "History is the study of the past."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

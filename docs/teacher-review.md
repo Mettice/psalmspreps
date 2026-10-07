@@ -19,12 +19,13 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 `content/physics/REVIEW.md` (with drawings in `content/physics/figures/`), `content/physics/sources.json`. Chemistry: `content/chemistry/AUTHORED.md`,
 `content/chemistry/REVIEW.md`, `content/chemistry/sources.json`. Geography: `content/geography/AUTHORED.md`,
 `content/geography/REVIEW.md` (with drawings in `content/geography/figures/`), `content/geography/sources.json`. Home Economics: `content/home-economics/AUTHORED.md`,
-`content/home-economics/REVIEW.md` (with drawings in `content/home-economics/figures/`), `content/home-economics/sources.json`.
+`content/home-economics/REVIEW.md` (with drawings in `content/home-economics/figures/`), `content/home-economics/sources.json`. History, Biology and Computer Science:
+`content/{history,biology,computer-science}/AUTHORED.md`, `REVIEW.md` (drawings in `figures/`) and `sources.json`.
 
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-100 P1 items: 98 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+125 P1 items: 123 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -126,6 +127,31 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-H11 | Modern kitchen: work centres, shapes, units, planning | open |
 | TR-H12 | Time management in the kitchen | open |
 | TR-H13 | Home Economics statement pools, notes (17) and cards (51) | open |
+| TR-Y01 | Dates BC/AD, no year 0, centuries | open |
+| TR-Y02 | Historical sources | open |
+| TR-Y03 | Early humans: names, dates, places | open |
+| TR-Y04 | Early humans’ way of life; the Neolithic | open |
+| TR-Y05 | Cameroon in the Neolithic (Shum Laka, Obobogo) | open |
+| TR-Y06 | Relics | open |
+| TR-Y07 | History statement pools, notes (10) and cards (31) | open |
+| TR-L01 | Microscope parts, use, magnification | open |
+| TR-L02 | Cells: discovery, types, parts, preparing slides | open |
+| TR-L03 | Biology drawings: parts look right | open |
+| TR-L04 | Living things (MRS GREN); plants vs animals | open |
+| TR-L05 | Scientific approach | open |
+| TR-L06 | Lab rules, field tools, collecting safely | open |
+| TR-L07 | Habitats, factors, day/night, seasons, interactions | open |
+| TR-L08 | Soil and responsible farming | open |
+| TR-L09 | Branches of biology; careers | open |
+| TR-L10 | Biology statement pools, notes (18) and cards (54) | open |
+| TR-S01 | Patterns and algorithm tracing | open |
+| TR-S02 | Computer history and generations | open |
+| TR-S03 | Input/process/output; classification | open |
+| TR-S04 | AI, ethics and prompts | open |
+| TR-S05 | Computational thinking | open |
+| TR-S06 | Computing environment; data vs information | open |
+| TR-S07 | Computer laboratory: equipment, layouts, rules | open |
+| TR-S08 | Computer Science statement pools, notes (15) and cards (45) | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -424,3 +450,76 @@ is in `content/home-economics/REVIEW.md`.
 
 ### Added 2026-10-07 (Home Economics released in the app)
 - [ ] **TR-H17 [P2] Home Economics released in the app on 2026-10-07 at Dion's request ("release home economics and push it"),** before the TR-H items above were checked by a teacher; the lessons show the usual "drafts" line. Six tabs now, two by two at 360 px. The page is about 875 KB, close to the 900 KB build limit (the 2 MB Phase 3 budget stands): the next subject should come with the move to loading one subject at a time. Menu titles now join a word the sheet split ("under- nutrition" → "under-nutrition"); no title of an earlier subject changed. Supersedes TR-H16. *Location:* `SUBJECTS`, `BATCH`, `tidy()` in `tools/prototype/build.mjs`.
+
+## Y. History Form 1, Batch Y1 (Lessons 1–10, Term 1), added 2026-10-07
+
+All 10 Term 1 rows are taught with auto-marked practice: 10 notes, 31 teach cards, 51 practice templates and 10 card-check
+templates. 53 have an **authored key**; 8 are **computed by rule** (dates BC and AD, years between dates, centuries,
+a timeline drawn by code). Everything is draft and **not yet in the app**. Every authored key is in
+`content/history/AUTHORED.md`; every question as the pupil sees it is in `content/history/REVIEW.md`.
+
+### P1: wrong facts here would mislead the pupil
+- [ ] **TR-Y01 [P1] Dates:** years written “500 BC” and “AD 476”; there is no year 0; across BC and AD, add and take away 1; a year is in the century one more than its hundreds (1884 → 19th century). The note mentions BCE/CE. *Location:* `year()`, `yearsBetween()`, `century()` in `src/engine/lib/history.js`; `content/history/3.json`.
+- [ ] **TR-Y02 [P1] Sources:** oral, written and material sources, with the examples; prehistory as the time before writing. *Location:* `content/history/1.json`.
+- [ ] **TR-Y03 [P1] Early humans:** the five ancestors and their rounded dates (Toumaï about 7 million years ago, Lucy 3.2 million, Homo habilis 2.4 million, Homo erectus 1.9 million, Homo sapiens 300 000), what each is known for, and where important fossils were found (Chad, Ethiopia, Tanzania, Kenya, South Africa, Morocco). Dates are estimates and differ between books. *Location:* `HOMININS` in `history.js`; `content/history/4.json`, `8.json`.
+- [ ] **TR-Y04 [P1] Way of life of early humans and the Neolithic:** hunting and gathering, nomads, stone tools, fire; the Neolithic from about 10 000 years ago (farming, domestication, villages, polished tools, pottery). *Location:* `content/history/5.json`, `7.json`.
+- [ ] **TR-Y05 [P1] Cameroon in the Neolithic:** Shum Laka (rock shelter near Bamenda: stone tools, pottery, burials) and Obobogo (near Yaoundé, about 3000 years ago: pottery, polished stone axes, oil-palm nuts). Please check against the textbook the school uses. *Location:* `content/history/9.json`.
+- [ ] **TR-Y06 [P1] Relics:** what a relic is, how to label and care for it, classifying by use and by material. *Location:* `content/history/2.json`.
+- [ ] **TR-Y07 [P1] Statement pools, notes and cards:** every right and wrong sentence with its explanation, 10 notes and 31 cards. *Location:* `content/history/AUTHORED.md`, `REVIEW.md`.
+
+### P2: conventions and decisions
+- [ ] **TR-Y08 [P2] Creation myths (row 6) are taught neutrally:** what a myth is, how myths are passed on, why historians study them, and respect for others’ beliefs. The note says that religions such as Christianity and Islam teach that God created the world; no belief is called true or false, and no question asks the pupil to choose between beliefs. A second reader for neutrality is advised. *Location:* `content/history/6.json`.
+- [ ] **TR-Y09 [P2] Forest peoples (row 10):** the sheet’s title “The pygmies in Cameroon” is kept in the menu (it is the sheet’s text; changing it is an override for Dion to approve). The lesson itself uses the peoples’ own names (Baka, Bagyeli or Bakola, Bedzang) and says that many prefer them. Please decide whether the menu title should change. *Location:* `content/history/10.json`; `data/spine/history.json` row 10.
+- [ ] **TR-Y10 [P2] Lesson numbers:** most History rows are “Further study” or “Guided work” with no lesson number, so History is numbered by place in the year, like Geography: Lesson 2 is Further study 1, Lesson 3 is Guided work 1, and so on. The relic collection and the local enquiries are classroom tasks; the app teaches the ideas around them. *Location:* `numbering: "seq"` in `tests-js/history-content.test.js`.
+
+## L. Biology Form 1, Batch L1 (Term 1: Lessons 1–9, 13–21), added 2026-10-07
+
+(Biology items use the letter L, because TR-B is already used in section B.) All 18 Term 1 lessons are taught with
+auto-marked practice: 18 notes, 54 teach cards, 79 practice templates and 15 card-check templates. 91 have an
+**authored key**; 3 are **computed by rule** (microscope magnification). Rows 10–12 and 22–24 are integration, evaluation
+and remediation and are not in this batch. The four practicals (6, 8, 14, 18) need a laboratory; the app prepares the
+pupil for them (rules, steps, what to expect) but does not replace them. Drawings made by code with lettered parts: a
+microscope, a plant cell, an animal cell and a soil profile. Everything is draft and **not yet in the app**.
+
+### P1: wrong facts here would mislead the pupil
+- [ ] **TR-L01 [P1] Microscope:** the eight parts and their jobs; total magnification = eyepiece × objective; the steps for using it (lowest power first, lower the objective while looking from the side, focus upwards); the image is upside down and reversed. *Location:* `magnification()`, `microscope()` in `src/engine/lib/biology.js`; `content/biology/7.json`, `8.json`.
+- [ ] **TR-L02 [P1] Cells:** discoveries (Hooke 1665, van Leeuwenhoek 1670s, Schleiden 1838, Schwann 1839); unicellular and multicellular examples; bacteria have no nucleus; parts of plant and animal cells and their jobs; preparing onion (iodine) and cheek (methylene blue) cells. *Location:* `DISCOVERIES` in `biology.js`; `content/biology/9.json`, `13.json`, `14.json`.
+- [ ] **TR-L03 [P1] Drawings:** the microscope, plant cell, animal cell and soil profile drawn by code; please check that each lettered part looks like what it is called. *Location:* `microscope()`, `plantCell()`, `animalCell()`, `soilProfile()` in `biology.js`; `content/biology/figures/`.
+- [ ] **TR-L04 [P1] Characteristics of living things (MRS GREN)** and the differences between plants and animals. *Location:* `content/biology/2.json`, `3.json`.
+- [ ] **TR-L05 [P1] Scientific approach:** the six steps in order; hypothesis; fair test; control. *Location:* `content/biology/4.json`.
+- [ ] **TR-L06 [P1] Laboratory and field work:** biology laboratory rules; equipment and uses; field tools; collecting rules (never touch snakes, scorpions, unknown plants or mushrooms; never collect protected species). *Location:* `content/biology/5.json`, `6.json`, `18.json`.
+- [ ] **TR-L07 [P1] Environment:** habitats; climatic, edaphic and biotic factors; diurnal and nocturnal animals; effects of the rainy and dry seasons; the five interactions with their examples (a mosquito as a parasite, an orchid on a branch as commensalism). *Location:* `content/biology/15.json` to `17.json`.
+- [ ] **TR-L08 [P1] Soil and farming:** soil formation, composition, types (sandy, clay, loam) and profile; fertile soil and ways to improve it; responsible farming, including the safe use of pesticides (follow instructions, protective clothing, never wash sprayers in rivers). *Location:* `content/biology/19.json` to `21.json`.
+- [ ] **TR-L09 [P1] Branches and careers:** the seven branches of biology and the six careers. *Location:* `content/biology/1.json`.
+- [ ] **TR-L10 [P1] Statement pools, notes and cards:** every right and wrong sentence with its explanation, 18 notes and 54 cards. *Location:* `content/biology/AUTHORED.md`, `REVIEW.md`.
+
+### P2: conventions and decisions
+- [ ] **TR-L11 [P2] Lesson numbers equal the rows**, but the sheet marks the practicals as kind “practical”, so Biology lessons are matched to the spine by place in the year (the numbers are the same). The menu will skip 10–12. *Location:* `numbering: "seq"` in `tests-js/biology-content.test.js`.
+- [ ] **TR-L12 [P2] Sensitive topics later:** puberty, reproduction and health (rows 37–41, Term 2) and medicinal plants (rows 32–33) are not in this batch; they need a decision on parent preview, and medicinal plants must never give doses or recipes. *Location:* `docs/audit/biology.md`.
+
+## S. Computer Science Form 1, Batch S1 (Term 1: Lessons 1–6, 8–11, 13–14, 16–18), added 2026-10-07
+
+All 15 Term 1 lessons are taught with auto-marked practice: 15 notes, 45 teach cards, 64 practice templates and 13
+card-check templates. 68 have an **authored key**; 9 are **computed by rule** (number and shape patterns, tracing short
+algorithms). Rows 7, 12, 15 and 19 are integration activities and are not in this batch. Drawings made by code:
+repeating shape patterns and three computer-laboratory layouts. Everything is draft and **not yet in the app**.
+
+### P1: wrong facts here would mislead the pupil
+- [ ] **TR-S01 [P1] Patterns and tracing:** next terms of adding and doubling patterns; the n-th shape of a repeating pattern from the remainder; tracing “add b, n times”, “double n times” and an IF … THEN … ELSE; flowchart shapes (oval start/end, rectangle process, diamond decision, parallelogram input/output). *Location:* `src/engine/lib/computerscience.js`; `content/computer-science/9.json`, `11.json`.
+- [ ] **TR-S02 [P1] History and generations:** abacus, Pascal (1642), Babbage (1830s, “father of the computer”), Ada Lovelace (1843), ENIAC (1946), personal computers (1980s), smartphones (2007); five generations (vacuum tubes, transistors, integrated circuits, microprocessors, AI) with approximate dates that differ between textbooks. *Location:* `HISTORY`, `GENERATIONS` in `computerscience.js`; `content/computer-science/2.json`.
+- [ ] **TR-S03 [P1] Computers and their classification:** input, processing, output, storage; classification by size, type of data and purpose. *Location:* `content/computer-science/1.json`, `3.json`.
+- [ ] **TR-S04 [P1] Artificial intelligence:** what AI and machine learning are; uses; limits; ethics (privacy, honesty, checking facts, fairness, deepfakes); writing clear prompts. No product is named, so the lessons do not date quickly. *Location:* `content/computer-science/4.json` to `6.json`.
+- [ ] **TR-S05 [P1] Computational thinking:** decomposition, pattern recognition, abstraction, algorithms, with the examples. *Location:* `content/computer-science/8.json` to `11.json`.
+- [ ] **TR-S06 [P1] Computing environment:** hardware, system and application software, data, users, networks, procedures; data and information; types of users. *Location:* `content/computer-science/13.json`, `14.json`.
+- [ ] **TR-S07 [P1] Computer laboratory:** equipment and uses (UPS, router, CO₂ extinguisher for electrical fires; never water); the three layouts and their advantages; rules of behaviour (burning smell or smoke: move away and tell the teacher). *Location:* `content/computer-science/16.json` to `18.json`.
+- [ ] **TR-S08 [P1] Statement pools, notes and cards:** every right and wrong sentence with its explanation, 15 notes and 45 cards. *Location:* `content/computer-science/AUTHORED.md`, `REVIEW.md`.
+
+### P2: conventions and decisions
+- [ ] **TR-S09 [P2] Hands-on work is not in the app:** using a keyboard and mouse, block programming and real AI tools need a computer; the app teaches the ideas. Live AI practice stays deferred (the app works offline). *Location:* `docs/audit/computer-science.md`.
+- [ ] **TR-S10 [P2] Library names:** a new test fails if a later subject library reuses a function name (a later library would silently replace it). The Computer Science pattern-shape function is `patternShape()` because `shapeName()` is Home Economics’ kitchen shapes. *Location:* `tests-js/computerscience.test.js`.
+
+## Not in the app yet (History, Biology, Computer Science)
+- [ ] **TR-S11 [P2] History, Biology and Computer Science join the app after this review.** The page is about 875 KB of the 900 KB build limit; together they add roughly 330 KB. Releasing them needs either a higher build limit (the 2 MB Phase 3 budget allows it) or loading one subject at a time. *Location:* `MAX_BYTES`, `SUBJECTS` in `tools/prototype/build.mjs`.
+
+### Added 2026-10-07 (History, Biology and Computer Science released in the app)
+- [ ] **TR-S12 [P2] History, Biology and Computer Science released in the app on 2026-10-07 at Dion's request ("release history, biology and computer science and push it"),** before the TR-Y, TR-L and TR-S items above were checked by a teacher; the lessons show the usual "drafts" line. Nine tabs now, two per row at 360 px; an odd last tab takes the whole row, so "Computer Science" stays on one line. The build limit is raised from 900 KB to 1.3 MB (the page is about 1157 KB; the 2 MB Phase 3 budget stands). History and Biology are numbered by place in the year in the build, as Geography is. No title of an earlier subject changed. Supersedes TR-S11. *Location:* `SUBJECTS`, `BATCH`, `BY_SEQ`, `MAX_BYTES`, `.subjects` CSS in `tools/prototype/build.mjs`.

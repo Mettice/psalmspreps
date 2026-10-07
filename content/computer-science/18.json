@@ -1,0 +1,339 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "cs18",
+   "name": "Behaviour in the computer laboratory"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rules for the computer laboratory:\n• enter only with a teacher; walk, do not run;\n• no food or drinks near the computers;\n• come with clean, dry hands;\n• do not touch cables, sockets or the inside of a computer; report any fault or burning smell at once;\n• do not install, delete or change software or settings without permission;\n• use only your own account; never share your password;\n• save your work often, and shut down or log out properly;\n• sit up straight, with the screen at eye level, and rest your eyes from time to time;\n• keep the room tidy: push chairs in and leave the desk clean.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Tanyi notices a burning smell coming from a computer. What should he do?",
+  "steps": [
+   "A burning smell can mean an electrical fault or the start of a fire.",
+   "He should not touch the computer or the cables.",
+   "He should tell the teacher at once."
+  ],
+  "answer": "Do not touch it; tell the teacher at once.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc18-1",
+    "status": "draft",
+    "idea": "No food or drinks near computers; come with clean, dry hands.",
+    "vars": {},
+    "example": [
+     "A spilt drink can destroy a keyboard."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs18-sort"
+    }
+   },
+   {
+    "id": "csc18-2",
+    "status": "draft",
+    "idea": "Do not touch cables or sockets; report faults and burning smells at once.",
+    "vars": {},
+    "example": [
+     "Tell the teacher; do not try to repair it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs18-fault"
+    }
+   },
+   {
+    "id": "csc18-3",
+    "status": "draft",
+    "idea": "Save often, log out properly, and never share your password.",
+    "vars": {},
+    "example": [
+     "Logging out stops others using your account."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc18-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computer-lab"
+     ],
+     "vars": {},
+     "prompt": "What should you do at the end of a lesson in the computer laboratory?",
+     "pool": {
+      "right": [
+       {
+        "text": "save your work and log out or shut down properly",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "pull out the plug while the computer is on",
+        "truth": "false",
+        "explain": "That can damage the computer and lose work."
+       },
+       {
+        "text": "leave your account open",
+        "truth": "false",
+        "explain": "Others could use it."
+       },
+       {
+        "text": "write your password on the desk",
+        "truth": "false",
+        "explain": "Never share your password."
+       },
+       {
+        "text": "leave your chair in the walkway",
+        "truth": "false",
+        "explain": "Push chairs in."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs18-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "prompt": "Sort these: good or bad behaviour in the computer laboratory?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "good",
+    "bad"
+   ],
+   "pool": [
+    {
+     "left": "saving work often",
+     "right": "good"
+    },
+    {
+     "left": "logging out at the end",
+     "right": "good"
+    },
+    {
+     "left": "pushing the chair in",
+     "right": "good"
+    },
+    {
+     "left": "reporting a broken mouse",
+     "right": "good"
+    },
+    {
+     "left": "sitting up straight",
+     "right": "good"
+    },
+    {
+     "left": "eating at the computer",
+     "right": "bad"
+    },
+    {
+     "left": "running in the lab",
+     "right": "bad"
+    },
+    {
+     "left": "sharing your password",
+     "right": "bad"
+    },
+    {
+     "left": "installing games without permission",
+     "right": "bad"
+    },
+    {
+     "left": "touching the back of the socket",
+     "right": "bad"
+    }
+   ]
+  },
+  {
+   "id": "cs18-fault",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {},
+   "prompt": "A computer screen starts to smoke. What should you do?",
+   "pool": {
+    "right": [
+     {
+      "text": "move away and tell the teacher at once",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "pour water on it",
+      "truth": "false",
+      "explain": "Never put water on electrical equipment."
+     },
+     {
+      "text": "open it to look inside",
+      "truth": "false",
+      "explain": "Do not touch it: tell the teacher."
+     },
+     {
+      "text": "keep working",
+      "truth": "false",
+      "explain": "It could be a fire: tell the teacher."
+     },
+     {
+      "text": "unplug it with wet hands",
+      "truth": "false",
+      "explain": "Do not touch it, especially with wet hands."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs18-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "no food or drinks near the computers",
+       "a": "a spill can damage the equipment",
+       "why": "No food or drinks near the computers: a spill can damage the equipment."
+      },
+      {
+       "t": "never share your password",
+       "a": "someone else could use or change your work",
+       "why": "Never share your password: someone else could use or change your work."
+      },
+      {
+       "t": "save your work often",
+       "a": "work is not lost if the power goes off",
+       "why": "Save your work often: work is not lost if the power goes off."
+      },
+      {
+       "t": "do not run in the laboratory",
+       "a": "you could trip over cables and hurt yourself or the equipment",
+       "why": "Do not run in the laboratory: you could trip over cables and hurt yourself or the equipment."
+      }
+     ]
+    }
+   },
+   "prompt": "Why is this a rule: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a spill can damage the equipment",
+     "misconception": "other"
+    },
+    {
+     "text": "someone else could use or change your work",
+     "misconception": "other"
+    },
+    {
+     "text": "work is not lost if the power goes off",
+     "misconception": "other"
+    },
+    {
+     "text": "you could trip over cables and hurt yourself or the equipment",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is the reason for a different rule."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "cs18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Food and drinks are not allowed near computers.",
+      "truth": "true"
+     },
+     {
+      "text": "Faults should be reported to the teacher.",
+      "truth": "true"
+     },
+     {
+      "text": "You should log out at the end of the lesson.",
+      "truth": "true"
+     },
+     {
+      "text": "Save your work often.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is fine to share your password with friends.",
+      "truth": "false",
+      "explain": "Never share your password."
+     },
+     {
+      "text": "You may install any game you like.",
+      "truth": "false",
+      "explain": "Install nothing without permission."
+     },
+     {
+      "text": "Running in the laboratory is allowed if you are late.",
+      "truth": "false",
+      "explain": "Never run in the laboratory."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

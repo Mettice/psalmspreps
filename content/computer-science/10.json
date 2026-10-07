@@ -1,0 +1,334 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "cs10",
+   "name": "Abstraction"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Abstraction means keeping only the details that matter for a task and leaving out the rest.\nExamples:\n• a map of bus stops shows the stops and the order, not the colour of the houses;\n• a school timetable shows the day, time and subject, not what the teacher is wearing;\n• the symbol of a person on a toilet door is simple but clear.\nWhich details matter depends on the task: to find the way to the market, the roads matter; to buy fruit, the prices matter.\nAbstraction helps us make models, maps, diagrams and programs that are simple and useful.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mbah draws a map to show a visitor the way from the junction to his house. Which details should he keep?",
+  "steps": [
+   "The visitor needs the roads, the turns and some landmarks (the church, the market).",
+   "Details like the colour of every house or the number of trees do not help."
+  ],
+  "answer": "Roads, turns and a few landmarks; leave out the rest.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc10-1",
+    "status": "draft",
+    "idea": "Abstraction keeps only the details that matter for the task.",
+    "vars": {},
+    "example": [
+     "A bus map shows stops, not trees."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs10-keep"
+    }
+   },
+   {
+    "id": "csc10-2",
+    "status": "draft",
+    "idea": "Which details matter depends on the task.",
+    "vars": {},
+    "example": [
+     "To find a classroom, the room number matters; the paint colour does not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs10-which"
+    }
+   },
+   {
+    "id": "csc10-3",
+    "status": "draft",
+    "idea": "Maps, timetables, symbols and diagrams are abstractions.",
+    "vars": {},
+    "example": [
+     "A timetable shows the day, time and subject."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc10-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "comp-thinking"
+     ],
+     "vars": {},
+     "prompt": "Which is an example of abstraction?",
+     "pool": {
+      "right": [
+       {
+        "text": "a simple map showing only roads and landmarks",
+        "truth": "true"
+       },
+       {
+        "text": "a timetable showing only day, time and subject",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a photo showing every detail",
+        "truth": "false",
+        "explain": "It keeps every detail; abstraction leaves some out."
+       },
+       {
+        "text": "a list of every leaf on a tree",
+        "truth": "false",
+        "explain": "Too many details: nothing is left out."
+       },
+       {
+        "text": "writing down everything you see",
+        "truth": "false",
+        "explain": "Abstraction keeps only what matters."
+       },
+       {
+        "text": "a video of the whole day",
+        "truth": "false",
+        "explain": "Nothing is left out."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs10-keep",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "comp-thinking"
+   ],
+   "vars": {},
+   "prompt": "A visitor needs a map to find the school. Which detail is important?",
+   "pool": {
+    "right": [
+     {
+      "text": "the roads and the turns",
+      "truth": "true"
+     },
+     {
+      "text": "landmarks such as the market",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "the colour of every house",
+      "truth": "false",
+      "explain": "It does not help find the way."
+     },
+     {
+      "text": "the number of chickens on the road",
+      "truth": "false",
+      "explain": "Not needed for finding the way."
+     },
+     {
+      "text": "the names of all the shopkeepers",
+      "truth": "false",
+      "explain": "Not needed."
+     },
+     {
+      "text": "the weather today",
+      "truth": "false",
+      "explain": "Not needed for the map."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs10-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "comp-thinking"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "finding a classroom",
+       "a": "the room number",
+       "why": "The room number: finding a classroom."
+      },
+      {
+       "t": "catching the right bus",
+       "a": "the bus number and its stops",
+       "why": "The bus number and its stops: catching the right bus."
+      },
+      {
+       "t": "knowing which lesson is next",
+       "a": "the time and the subject on the timetable",
+       "why": "The time and the subject on the timetable: knowing which lesson is next."
+      },
+      {
+       "t": "buying the cheapest rice",
+       "a": "the prices",
+       "why": "The prices: buying the cheapest rice."
+      }
+     ]
+    }
+   },
+   "prompt": "Which detail matters most for {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "the room number",
+     "misconception": "other"
+    },
+    {
+     "text": "the bus number and its stops",
+     "misconception": "other"
+    },
+    {
+     "text": "the time and the subject on the timetable",
+     "misconception": "other"
+    },
+    {
+     "text": "the prices",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That detail matters for a different task."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "cs10-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "comp-thinking"
+   ],
+   "prompt": "A map for walking from school to the market: keep or leave out?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "keep",
+    "leave out"
+   ],
+   "pool": [
+    {
+     "left": "the main road",
+     "right": "keep"
+    },
+    {
+     "left": "where to turn left",
+     "right": "keep"
+    },
+    {
+     "left": "the church on the corner",
+     "right": "keep"
+    },
+    {
+     "left": "the market",
+     "right": "keep"
+    },
+    {
+     "left": "the colour of the houses",
+     "right": "leave out"
+    },
+    {
+     "left": "the clouds",
+     "right": "leave out"
+    },
+    {
+     "left": "the names of all the people",
+     "right": "leave out"
+    },
+    {
+     "left": "the dogs on the street",
+     "right": "leave out"
+    }
+   ]
+  },
+  {
+   "id": "cs10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "comp-thinking"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Abstraction leaves out unneeded details.",
+      "truth": "true"
+     },
+     {
+      "text": "A map is an abstraction.",
+      "truth": "true"
+     },
+     {
+      "text": "Which details matter depends on the task.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Abstraction means keeping every detail.",
+      "truth": "false",
+      "explain": "It keeps only what matters."
+     },
+     {
+      "text": "A timetable must show what each teacher wears.",
+      "truth": "false",
+      "explain": "That detail does not matter."
+     },
+     {
+      "text": "Abstraction makes things more complicated.",
+      "truth": "false",
+      "explain": "It makes them simpler."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

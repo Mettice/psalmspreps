@@ -1,0 +1,338 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "cs14",
+   "name": "Users; data and information"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Users of the computing environment:\n• end users: people who use computers for their work or studies (pupils, secretaries, cashiers);\n• programmers: people who write software;\n• technicians and system administrators: people who install, repair and look after computers and networks;\n• data entry clerks: people who type data into the computer.\nData and information:\n• data are raw facts with no meaning yet: “12, 15, 9, 14”;\n• information is data that has been processed so it has meaning: “The average mark is 12.5 out of 20.”\nComputers turn data into information. Good information must be correct, complete, up to date and clear.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 12,
+   "b": 15,
+   "c": 9
+  },
+  "problem": "A teacher types the marks {a}, {b} and {c} into a spreadsheet, which shows “Class average: {(a + b + c) / 3}”. Which is data and which is information?",
+  "steps": [
+   "The marks on their own are raw facts: data.",
+   "“Class average: {(a + b + c) / 3}” has been processed and has meaning: information."
+  ],
+  "answer": "The marks are data; the average is information.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc14-1",
+    "status": "draft",
+    "idea": "Users include end users, programmers, technicians and data entry clerks.",
+    "vars": {},
+    "example": [
+     "A programmer writes apps; a technician repairs computers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs14-who"
+    }
+   },
+   {
+    "id": "csc14-2",
+    "status": "draft",
+    "idea": "Data are raw facts; information is processed data that has meaning.",
+    "vars": {
+     "a": 25,
+     "b": 30,
+     "c": 28
+    },
+    "example": [
+     "“{a}, {b}, {c}” is data; “The hottest day was {b} °C” is information."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs14-sort"
+    }
+   },
+   {
+    "id": "csc14-3",
+    "status": "draft",
+    "idea": "Good information is correct, complete, up to date and clear.",
+    "vars": {},
+    "example": [
+     "Last year’s timetable is not up to date."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc14-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "data-info"
+     ],
+     "vars": {},
+     "prompt": "Which makes information good?",
+     "pool": {
+      "right": [
+       {
+        "text": "It is correct and up to date.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "It is very old.",
+        "truth": "false",
+        "explain": "Old information may be out of date."
+       },
+       {
+        "text": "It is hard to understand.",
+        "truth": "false",
+        "explain": "Good information is clear."
+       },
+       {
+        "text": "Some of it is missing.",
+        "truth": "false",
+        "explain": "Good information is complete."
+       },
+       {
+        "text": "It is partly wrong.",
+        "truth": "false",
+        "explain": "Good information is correct."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs14-who",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-info"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "writes computer programs",
+       "a": "a programmer",
+       "why": "A programmer: writes computer programs."
+      },
+      {
+       "t": "installs and repairs computers",
+       "a": "a technician",
+       "why": "A technician: installs and repairs computers."
+      },
+      {
+       "t": "uses a computer to do homework",
+       "a": "an end user",
+       "why": "An end user: uses a computer to do homework."
+      },
+      {
+       "t": "types data into the computer",
+       "a": "a data entry clerk",
+       "why": "A data entry clerk: types data into the computer."
+      }
+     ]
+    }
+   },
+   "prompt": "Who {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a programmer",
+     "misconception": "other"
+    },
+    {
+     "text": "a technician",
+     "misconception": "other"
+    },
+    {
+     "text": "an end user",
+     "misconception": "other"
+    },
+    {
+     "text": "a data entry clerk",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that user. Read what each one does."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "cs14-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-info"
+   ],
+   "prompt": "Sort these: data or information?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "data",
+    "information"
+   ],
+   "pool": [
+    {
+     "left": "12, 15, 9, 14",
+     "right": "data"
+    },
+    {
+     "left": "Bih, Ewane, Ngozi",
+     "right": "data"
+    },
+    {
+     "left": "28, 30, 27",
+     "right": "data"
+    },
+    {
+     "left": "yes, no, yes, yes",
+     "right": "data"
+    },
+    {
+     "left": "The class average is 12.5.",
+     "right": "information"
+    },
+    {
+     "left": "Bih came first in the class.",
+     "right": "information"
+    },
+    {
+     "left": "Tuesday was the hottest day.",
+     "right": "information"
+    },
+    {
+     "left": "Three out of four pupils said yes.",
+     "right": "information"
+    }
+   ]
+  },
+  {
+   "id": "cs14-turn",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "data-info"
+   ],
+   "vars": {},
+   "prompt": "What does a computer do to turn data into information?",
+   "pool": {
+    "right": [
+     {
+      "text": "it processes the data, for example by sorting or calculating",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "it deletes the data",
+      "truth": "false",
+      "explain": "Then nothing is left."
+     },
+     {
+      "text": "it prints the data without changes",
+      "truth": "false",
+      "explain": "That is output, not processing."
+     },
+     {
+      "text": "it switches off",
+      "truth": "false",
+      "explain": "Processing turns data into information."
+     },
+     {
+      "text": "it hides the data",
+      "truth": "false",
+      "explain": "Processing gives it meaning."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "data-info"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Data are raw facts.",
+      "truth": "true"
+     },
+     {
+      "text": "Information has meaning.",
+      "truth": "true"
+     },
+     {
+      "text": "A programmer writes software.",
+      "truth": "true"
+     },
+     {
+      "text": "A technician repairs computers.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "“12, 15, 9” is information.",
+      "truth": "false",
+      "explain": "Numbers alone are data until they are processed."
+     },
+     {
+      "text": "Information is never processed.",
+      "truth": "false",
+      "explain": "Information is processed data."
+     },
+     {
+      "text": "End users write all the software.",
+      "truth": "false",
+      "explain": "Programmers write software; end users use it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,333 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "cs13",
+   "name": "Components of the computing environment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A computing environment has several components that work together:\n• hardware: the physical parts (screen, keyboard, mouse, system unit, printer);\n• software: the programs. System software runs the computer (the operating system, such as Windows, Linux or Android). Application software does jobs for the user (word processor, spreadsheet, browser, games);\n• data: the facts and figures the computer works on;\n• users (people): the people who use and look after the system;\n• network: the connections (cables, Wi-Fi, the Internet) that let computers share data;\n• procedures: the rules and steps for using the system safely and well.\nHardware without software cannot do anything; software needs hardware to run on.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In the school office, a secretary types report cards in a word processor on a desktop computer, which prints them on a shared printer. Name the hardware, software, data and user.",
+  "steps": [
+   "Hardware: the desktop computer and the printer.",
+   "Software: the word processor (and the operating system).",
+   "Data: the pupils’ marks and names.",
+   "User: the secretary."
+  ],
+  "answer": "Hardware: computer, printer. Software: word processor. Data: marks. User: secretary.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc13-1",
+    "status": "draft",
+    "idea": "Hardware is the physical parts you can touch; software is the programs.",
+    "vars": {},
+    "example": [
+     "The keyboard is hardware; a game is software."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs13-sort"
+    }
+   },
+   {
+    "id": "csc13-2",
+    "status": "draft",
+    "idea": "System software runs the computer; application software does jobs for the user.",
+    "vars": {},
+    "example": [
+     "The operating system is system software; a word processor is application software."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs13-soft"
+    }
+   },
+   {
+    "id": "csc13-3",
+    "status": "draft",
+    "idea": "Data, users, networks and procedures complete the computing environment.",
+    "vars": {},
+    "example": [
+     "The school’s Wi-Fi is part of the network."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs13-match"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs13-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-environment"
+   ],
+   "prompt": "Sort these: hardware or software?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "hardware",
+    "software"
+   ],
+   "pool": [
+    {
+     "left": "keyboard",
+     "right": "hardware"
+    },
+    {
+     "left": "mouse",
+     "right": "hardware"
+    },
+    {
+     "left": "screen",
+     "right": "hardware"
+    },
+    {
+     "left": "printer",
+     "right": "hardware"
+    },
+    {
+     "left": "system unit",
+     "right": "hardware"
+    },
+    {
+     "left": "operating system",
+     "right": "software"
+    },
+    {
+     "left": "word processor",
+     "right": "software"
+    },
+    {
+     "left": "web browser",
+     "right": "software"
+    },
+    {
+     "left": "a game",
+     "right": "software"
+    },
+    {
+     "left": "spreadsheet program",
+     "right": "software"
+    }
+   ]
+  },
+  {
+   "id": "cs13-soft",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-environment"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "an operating system such as Windows, Linux or Android",
+       "a": "system software",
+       "why": "System software: an operating system such as Windows, Linux or Android."
+      },
+      {
+       "t": "a word processor",
+       "a": "application software",
+       "why": "Application software: a word processor."
+      },
+      {
+       "t": "a web browser",
+       "a": "application software",
+       "why": "Application software: a web browser."
+      },
+      {
+       "t": "a game",
+       "a": "application software",
+       "why": "Application software: a game."
+      },
+      {
+       "t": "the program that starts and runs the computer",
+       "a": "system software",
+       "why": "System software: the program that starts and runs the computer."
+      }
+     ]
+    }
+   },
+   "prompt": "What kind of software is {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "system software",
+     "misconception": "other"
+    },
+    {
+     "text": "application software",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "System software runs the computer; application software does a job for the user."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "cs13-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computing-environment"
+   ],
+   "prompt": "Match each component with its meaning.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "hardware",
+     "right": "the physical parts you can touch: screen, keyboard, processor"
+    },
+    {
+     "left": "software",
+     "right": "the programs that tell the computer what to do"
+    },
+    {
+     "left": "data",
+     "right": "the facts and figures the computer works on"
+    },
+    {
+     "left": "users (people)",
+     "right": "the people who use and look after computers"
+    },
+    {
+     "left": "network",
+     "right": "the connections that let computers share data"
+    },
+    {
+     "left": "procedures",
+     "right": "the rules and steps for using the system"
+    }
+   ]
+  },
+  {
+   "id": "cs13-need",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computing-environment"
+   ],
+   "vars": {},
+   "prompt": "Why does hardware need software?",
+   "pool": {
+    "right": [
+     {
+      "text": "Without programs, the hardware does not know what to do.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Software keeps the hardware cool.",
+      "truth": "false",
+      "explain": "Software gives instructions; a fan keeps it cool."
+     },
+     {
+      "text": "Software makes the screen bigger.",
+      "truth": "false",
+      "explain": "Software gives instructions."
+     },
+     {
+      "text": "Hardware does not need software.",
+      "truth": "false",
+      "explain": "Without programs, hardware cannot do anything useful."
+     },
+     {
+      "text": "Software is the plug.",
+      "truth": "false",
+      "explain": "Software is the programs."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computing-environment"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A mouse is hardware.",
+      "truth": "true"
+     },
+     {
+      "text": "A web browser is application software.",
+      "truth": "true"
+     },
+     {
+      "text": "Users are part of the computing environment.",
+      "truth": "true"
+     },
+     {
+      "text": "A network lets computers share data.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A keyboard is software.",
+      "truth": "false",
+      "explain": "A keyboard is hardware."
+     },
+     {
+      "text": "An operating system is application software.",
+      "truth": "false",
+      "explain": "It is system software."
+     },
+     {
+      "text": "Software can be touched with your hands.",
+      "truth": "false",
+      "explain": "Software is programs; you touch hardware."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

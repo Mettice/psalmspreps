@@ -1,0 +1,341 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "b19",
+   "name": "Soil: formation, composition and types"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Soil is the loose top layer of the Earth’s surface in which plants grow.\nFormation: rock is slowly broken into small pieces (weathering) by heat and cold, water, and plant roots; dead plants and animals rot and add humus.\nComposition: mineral particles (sand, silt, clay), humus (organic matter), water, air and living things (earthworms, insects, bacteria).\nTypes:\n• sandy soil: large particles, drains fast, holds little water, often poor;\n• clay soil: tiny particles, holds water, sticky when wet and hard when dry, little air;\n• loam: a mixture of sand, silt and clay with humus; holds water and air well; best for farming.\nA soil profile shows the layers: topsoil, subsoil, weathered rock (parent material) and bedrock.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 0
+  },
+  "figure": "soilProfile(k)",
+  "problem": "In the soil profile, which letter shows the layer where most plant roots and earthworms live, and why?",
+  "steps": [
+   "The top layer is dark because it is rich in humus.",
+   "Humus and air are food and shelter for roots and soil animals.",
+   "That layer is the topsoil: letter {bioLetter(k, 4, 0)}."
+  ],
+  "answer": "{bioLetter(k, 4, 0)}: the topsoil, rich in humus.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc19-1",
+    "status": "draft",
+    "idea": "Soil forms when rock is broken into small pieces (weathering) and dead things rot into humus.",
+    "vars": {},
+    "example": [
+     "Roots growing in cracks help break rock apart."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b19-made"
+    }
+   },
+   {
+    "id": "bc19-2",
+    "status": "draft",
+    "idea": "Soil contains mineral particles, humus, water, air and living things.",
+    "vars": {},
+    "example": [
+     "Earthworms mix the soil and let air in."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b19-layer"
+    }
+   },
+   {
+    "id": "bc19-3",
+    "status": "draft",
+    "idea": "Sandy soil drains fast; clay soil holds water; loam holds water and air well and is best for farming.",
+    "vars": {},
+    "example": [
+     "Water poured on sand disappears quickly."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b19-type"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b19-made",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {},
+   "prompt": "What is soil made of?",
+   "pool": {
+    "right": [
+     {
+      "text": "mineral particles, humus, water, air and living things",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "only sand",
+      "truth": "false",
+      "explain": "Soil also has humus, water, air and living things."
+     },
+     {
+      "text": "only water and air",
+      "truth": "false",
+      "explain": "Soil also has mineral particles and humus."
+     },
+     {
+      "text": "plastic and metal",
+      "truth": "false",
+      "explain": "Those are waste, not soil."
+     },
+     {
+      "text": "only dead leaves",
+      "truth": "false",
+      "explain": "Dead leaves become humus, one part of soil."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b19-layer",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      23
+     ]
+    },
+    "x": {
+     "pick": [
+      {
+       "p": "topsoil",
+       "i": 0,
+       "why": "Topsoil is the dark top layer, rich in humus, where most roots and soil animals live."
+      },
+      {
+       "p": "subsoil",
+       "i": 1,
+       "why": "Subsoil is lighter in colour, with less humus, below the topsoil."
+      },
+      {
+       "p": "weathered rock (parent material)",
+       "i": 2,
+       "why": "Weathered rock is rock that is breaking up into small pieces."
+      },
+      {
+       "p": "bedrock",
+       "i": 3,
+       "why": "Bedrock is the solid rock at the bottom."
+      }
+     ]
+    }
+   },
+   "figure": "soilProfile(k)",
+   "prompt": "What is the part labelled {bioLetter(k, 4, x.i)}?",
+   "correct": "{x.p}",
+   "distractors": [
+    {
+     "text": "topsoil",
+     "misconception": "other"
+    },
+    {
+     "text": "subsoil",
+     "misconception": "other"
+    },
+    {
+     "text": "weathered rock (parent material)",
+     "misconception": "other"
+    },
+    {
+     "text": "bedrock",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Look again at what the letter is next to."
+    }
+   ],
+   "solution": [
+    "Letter {bioLetter(k, 4, x.i)} is next to the {answer}.",
+    "{x.why}"
+   ]
+  },
+  {
+   "id": "b19-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "has large particles and drains fast",
+       "a": "sandy soil",
+       "why": "Sandy soil: has large particles and drains fast."
+      },
+      {
+       "t": "has tiny particles, is sticky when wet and holds water",
+       "a": "clay soil",
+       "why": "Clay soil: has tiny particles, is sticky when wet and holds water."
+      },
+      {
+       "t": "is a mixture with humus and is best for most crops",
+       "a": "loam",
+       "why": "Loam: is a mixture with humus and is best for most crops."
+      },
+      {
+       "t": "cracks and becomes hard when dry",
+       "a": "clay soil",
+       "why": "Clay soil: cracks and becomes hard when dry."
+      },
+      {
+       "t": "holds very little water",
+       "a": "sandy soil",
+       "why": "Sandy soil: holds very little water."
+      }
+     ]
+    }
+   },
+   "prompt": "Which soil {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "sandy soil",
+     "misconception": "other"
+    },
+    {
+     "text": "clay soil",
+     "misconception": "other"
+    },
+    {
+     "text": "loam",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that soil. Think about particle size and water."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "b19-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "order": "as_written",
+   "prompt": "Put the layers of a soil profile in order, from the top down.",
+   "items": [
+    {
+     "text": "topsoil"
+    },
+    {
+     "text": "subsoil"
+    },
+    {
+     "text": "weathered rock (parent material)"
+    },
+    {
+     "text": "bedrock"
+    }
+   ]
+  },
+  {
+   "id": "b19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "soil"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Topsoil is rich in humus.",
+      "truth": "true"
+     },
+     {
+      "text": "Loam is good for farming.",
+      "truth": "true"
+     },
+     {
+      "text": "Weathering breaks rock into small pieces.",
+      "truth": "true"
+     },
+     {
+      "text": "Clay soil holds water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Sandy soil holds more water than clay soil.",
+      "truth": "false",
+      "explain": "Clay holds more water; sand drains fast."
+     },
+     {
+      "text": "Bedrock is the top layer of soil.",
+      "truth": "false",
+      "explain": "Bedrock is at the bottom."
+     },
+     {
+      "text": "Humus comes from rocks.",
+      "truth": "false",
+      "explain": "Humus comes from dead plants and animals that rot."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

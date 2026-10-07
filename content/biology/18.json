@@ -1,0 +1,312 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  5,
+  17
+ ],
+ "skills": [
+  {
+   "id": "b18",
+   "name": "Collecting specimens safely"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "This practical is done outdoors with a teacher; here you prepare for it.\nTools: sweep net (insects in grass), pooter (small insects), pitfall trap (a jar sunk in the ground for crawling animals), collecting jars and bags, a plant press (to dry plants flat between newspapers), labels and a notebook.\nRules:\n• go with a teacher or adult; wear closed shoes;\n• never touch snakes, scorpions, unknown plants or mushrooms;\n• collect only what you need, and never protected or rare species;\n• return live animals where you found them;\n• label every specimen: what it is, where and when it was found, and by whom;\n• wash your hands afterwards.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih collects a leaf, a snail and a beetle near the school. What should she write on each label?",
+  "steps": [
+   "What the specimen is (or a description if unknown).",
+   "Where it was found, and the date.",
+   "Who collected it."
+  ],
+  "answer": "Name, place, date and collector.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc18-1",
+    "status": "draft",
+    "idea": "Each collecting tool has a use: sweep net for insects in grass, pitfall trap for crawling animals, plant press for plants.",
+    "vars": {},
+    "example": [
+     "A pitfall trap is a jar sunk level with the ground."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b18-tool"
+    }
+   },
+   {
+    "id": "bc18-2",
+    "status": "draft",
+    "idea": "Safety: go with an adult, wear closed shoes, never touch snakes, scorpions or unknown plants and mushrooms.",
+    "vars": {},
+    "example": [
+     "Some caterpillars and plants cause a painful rash."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b18-safe"
+    }
+   },
+   {
+    "id": "bc18-3",
+    "status": "draft",
+    "idea": "Collect only what you need, never protected species; return animals; label everything.",
+    "vars": {},
+    "example": [
+     "A label: what, where, when, who."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc18-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "specimens"
+     ],
+     "vars": {},
+     "prompt": "What should a specimen label say?",
+     "pool": {
+      "right": [
+       {
+        "text": "what it is, where and when it was found, and who collected it",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "only the price",
+        "truth": "false",
+        "explain": "A specimen’s value is the information about it."
+       },
+       {
+        "text": "nothing",
+        "truth": "false",
+        "explain": "Without a label the information is lost."
+       },
+       {
+        "text": "a joke",
+        "truth": "false",
+        "explain": "A label gives true information."
+       },
+       {
+        "text": "the name of a friend who was not there",
+        "truth": "false",
+        "explain": "Write who really collected it."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b18-tool",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "specimens"
+   ],
+   "prompt": "Match each collecting tool with its use.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "sweep net",
+     "right": "catching insects in long grass"
+    },
+    {
+     "left": "pitfall trap",
+     "right": "catching crawling animals"
+    },
+    {
+     "left": "plant press",
+     "right": "drying plants flat"
+    },
+    {
+     "left": "pooter",
+     "right": "sucking up small insects into a jar"
+    },
+    {
+     "left": "collecting jar",
+     "right": "keeping small animals for a short time"
+    }
+   ]
+  },
+  {
+   "id": "b18-safe",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "specimens"
+   ],
+   "vars": {},
+   "prompt": "Which is a safe rule when collecting specimens?",
+   "pool": {
+    "right": [
+     {
+      "text": "Never touch snakes or scorpions.",
+      "truth": "true"
+     },
+     {
+      "text": "Go with a teacher or adult.",
+      "truth": "true"
+     },
+     {
+      "text": "Wear closed shoes.",
+      "truth": "true"
+     },
+     {
+      "text": "Wash your hands afterwards.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Taste unknown berries to identify them.",
+      "truth": "false",
+      "explain": "Never taste unknown plants: some are poisonous."
+     },
+     {
+      "text": "Pick up a snake if it looks small.",
+      "truth": "false",
+      "explain": "Never touch snakes."
+     },
+     {
+      "text": "Go into the forest alone.",
+      "truth": "false",
+      "explain": "Always go with an adult."
+     },
+     {
+      "text": "Collect as many rare animals as possible.",
+      "truth": "false",
+      "explain": "Never collect rare or protected species."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b18-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "specimens"
+   ],
+   "prompt": "Sort these: good practice or bad practice when collecting?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "good",
+    "bad"
+   ],
+   "pool": [
+    {
+     "left": "labelling each specimen",
+     "right": "good"
+    },
+    {
+     "left": "returning a frog where it was found",
+     "right": "good"
+    },
+    {
+     "left": "collecting only what is needed",
+     "right": "good"
+    },
+    {
+     "left": "pressing a plant between newspapers",
+     "right": "good"
+    },
+    {
+     "left": "collecting a protected orchid",
+     "right": "bad"
+    },
+    {
+     "left": "keeping a snail in a jar for weeks",
+     "right": "bad"
+    },
+    {
+     "left": "picking up a scorpion",
+     "right": "bad"
+    },
+    {
+     "left": "leaving specimens without labels",
+     "right": "bad"
+    }
+   ]
+  },
+  {
+   "id": "b18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "specimens"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A sweep net is used for insects in grass.",
+      "truth": "true"
+     },
+     {
+      "text": "Specimens should be labelled.",
+      "truth": "true"
+     },
+     {
+      "text": "Live animals should be returned.",
+      "truth": "true"
+     },
+     {
+      "text": "A plant press dries plants flat.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Rare and protected species should be collected first.",
+      "truth": "false",
+      "explain": "Never collect them."
+     },
+     {
+      "text": "You may taste mushrooms to identify them.",
+      "truth": "false",
+      "explain": "Some mushrooms are deadly: never taste them."
+     },
+     {
+      "text": "A pitfall trap is hung in a tree.",
+      "truth": "false",
+      "explain": "A pitfall trap is sunk in the ground."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

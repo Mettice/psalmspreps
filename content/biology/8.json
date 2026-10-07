@@ -1,0 +1,341 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "b8",
+   "name": "Using the hand lens and the microscope"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "This practical needs a microscope in the laboratory; here you learn the steps.\nUsing a hand lens: hold the lens close to your eye, then bring the object towards it until it is clear.\nUsing a microscope:\n1. Put the slide on the stage and hold it with the clips.\n2. Turn the lowest-power objective into place.\n3. Adjust the mirror (or switch on the lamp) so light passes through.\n4. Looking from the side, lower the objective close to the slide with the coarse knob.\n5. Look through the eyepiece and turn the coarse knob slowly upwards until the image appears.\n6. Make it sharp with the fine knob.\nTo see more detail, turn to a higher-power objective and use only the fine knob.\nNever lower the objective while looking through the eyepiece: it can break the slide.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": 10,
+   "a": 4,
+   "b": 40
+  },
+  "problem": "Ngwa views onion cells with a ×{e} eyepiece and the ×{a} objective, then turns to the ×{b} objective. How many times more is the magnification now?",
+  "steps": [
+   "First: {e} × {a} = ×{magnification(e, a)}.",
+   "Then: {e} × {b} = ×{magnification(e, b)}.",
+   "{magnification(e, b)} ÷ {magnification(e, a)} = {b / a}."
+  ],
+  "answer": "{b / a} times more.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc8-1",
+    "status": "draft",
+    "idea": "Start with the lowest-power objective, and lower it while looking from the side.",
+    "vars": {},
+    "example": [
+     "Looking from the side stops the lens from crushing the slide."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b8-order"
+    }
+   },
+   {
+    "id": "bc8-2",
+    "status": "draft",
+    "idea": "Focus upwards with the coarse knob, then make the image sharp with the fine knob.",
+    "vars": {},
+    "example": [
+     "At high power, use only the fine knob."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b8-why"
+    }
+   },
+   {
+    "id": "bc8-3",
+    "status": "draft",
+    "idea": "A hand lens is held close to the eye; the object is moved until it is clear.",
+    "vars": {},
+    "example": [
+     "Bring the leaf towards the lens, not the lens towards the leaf."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc8-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "microscope"
+     ],
+     "vars": {},
+     "prompt": "How do you use a hand lens?",
+     "pool": {
+      "right": [
+       {
+        "text": "Hold it close to your eye and move the object until it is clear.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Hold it at arm’s length and close your eyes.",
+        "truth": "false",
+        "explain": "Hold it close to your eye and look."
+       },
+       {
+        "text": "Use it to look at the Sun.",
+        "truth": "false",
+        "explain": "Never look at the Sun through a lens: it damages the eyes."
+       },
+       {
+        "text": "Put it on the stage of a microscope.",
+        "truth": "false",
+        "explain": "A hand lens is used on its own."
+       },
+       {
+        "text": "Shake it until the image is clear.",
+        "truth": "false",
+        "explain": "Move the object slowly until it is clear."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b8-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "microscope"
+   ],
+   "order": "as_written",
+   "prompt": "Put the steps for using a microscope in order.",
+   "items": [
+    {
+     "text": "put the slide on the stage and hold it with the clips"
+    },
+    {
+     "text": "turn the lowest-power objective into place"
+    },
+    {
+     "text": "looking from the side, lower the objective close to the slide with the coarse knob"
+    },
+    {
+     "text": "look through the eyepiece and turn the coarse knob slowly upwards until the image appears"
+    },
+    {
+     "text": "make the image sharp with the fine knob"
+    }
+   ]
+  },
+  {
+   "id": "b8-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {},
+   "prompt": "Why do you look from the side while lowering the objective?",
+   "pool": {
+    "right": [
+     {
+      "text": "so that the lens does not hit and break the slide",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "to see the image better",
+      "truth": "false",
+      "explain": "You cannot see the image from the side."
+     },
+     {
+      "text": "to save electricity",
+      "truth": "false",
+      "explain": "It is to protect the slide and the lens."
+     },
+     {
+      "text": "because the eyepiece is dirty",
+      "truth": "false",
+      "explain": "It is to protect the slide and the lens."
+     },
+     {
+      "text": "to make the image bigger",
+      "truth": "false",
+      "explain": "Looking from the side does not change the magnification."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b8-times",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {
+    "e": {
+     "pick": [
+      5,
+      10,
+      15
+     ]
+    },
+    "a": {
+     "pick": [
+      4,
+      10
+     ]
+    },
+    "b": {
+     "pick": [
+      40,
+      100
+     ]
+    }
+   },
+   "prompt": "With a ×{e} eyepiece, you change from the ×{a} objective to the ×{b} objective. What is the new total magnification?",
+   "answer": "magnification(e, b)",
+   "misconceptions": [
+    {
+     "id": "old",
+     "wrong": "magnification(e, a)",
+     "explain": "That was the old magnification. Use the new objective."
+    },
+    {
+     "id": "add",
+     "wrong": "e + b",
+     "explain": "Multiply, do not add."
+    }
+   ],
+   "solution": [
+    "New total = eyepiece × new objective.",
+    "{e} × {b} = {answer}."
+   ]
+  },
+  {
+   "id": "b8-image",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {},
+   "prompt": "What is true of the image under a microscope?",
+   "pool": {
+    "right": [
+     {
+      "text": "It is upside down and the wrong way round.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is always smaller than the object.",
+      "truth": "false",
+      "explain": "It is magnified: bigger."
+     },
+     {
+      "text": "It shows colours that are not there.",
+      "truth": "false",
+      "explain": "It shows the specimen as it is, only bigger."
+     },
+     {
+      "text": "It is the same way round as the object.",
+      "truth": "false",
+      "explain": "It is upside down and reversed."
+     },
+     {
+      "text": "It can only be seen at night.",
+      "truth": "false",
+      "explain": "A lamp or mirror gives light at any time."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Start with the lowest-power objective.",
+      "truth": "true"
+     },
+     {
+      "text": "Use the fine knob at high power.",
+      "truth": "true"
+     },
+     {
+      "text": "The slide is held by clips on the stage.",
+      "truth": "true"
+     },
+     {
+      "text": "Total magnification is eyepiece × objective.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Lower the objective while looking through the eyepiece.",
+      "truth": "false",
+      "explain": "Look from the side, or you may break the slide."
+     },
+     {
+      "text": "Start with the highest-power objective.",
+      "truth": "false",
+      "explain": "Start with the lowest power."
+     },
+     {
+      "text": "Total magnification is eyepiece + objective.",
+      "truth": "false",
+      "explain": "Multiply, do not add."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

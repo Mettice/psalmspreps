@@ -1,0 +1,427 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "b7",
+   "name": "The hand lens and the microscope"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We study living things first with our five senses: sight, hearing, touch, smell (and taste only at home with food, never in the laboratory).\nA hand lens magnifies a little (about five to ten times).\nA compound light microscope magnifies much more. Its parts: eyepiece, objective lenses (on a turning nosepiece), stage with clips, mirror or lamp, coarse focus knob, fine focus knob, arm and base.\nTotal magnification = eyepiece magnification × objective magnification. With a ×10 eyepiece and a ×40 objective, the total is ×400.\nThe image under a microscope is upside down and the wrong way round.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": 10,
+   "o": 40
+  },
+  "problem": "A microscope has a ×{e} eyepiece and a ×{o} objective. What is the total magnification?",
+  "steps": [
+   "Total magnification = eyepiece × objective.",
+   "{e} × {o} = {magnification(e, o)}."
+  ],
+  "answer": "×{magnification(e, o)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc7-1",
+    "status": "draft",
+    "idea": "A microscope has an eyepiece, objective lenses, a stage, a mirror or lamp, focus knobs, an arm and a base.",
+    "vars": {},
+    "example": [
+     "You look through the eyepiece; the slide sits on the stage."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b7-part"
+    }
+   },
+   {
+    "id": "bc7-2",
+    "status": "draft",
+    "idea": "Total magnification = eyepiece × objective.",
+    "vars": {
+     "e": 10,
+     "o": 4
+    },
+    "example": [
+     "×{e} eyepiece and ×{o} objective: {e} × {o} = ×{magnification(e, o)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b7-mag"
+    }
+   },
+   {
+    "id": "bc7-3",
+    "status": "draft",
+    "idea": "A hand lens magnifies a little; a microscope magnifies much more and shows cells.",
+    "vars": {},
+    "example": [
+     "A hand lens shows the hairs on a leaf; a microscope shows its cells."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b7-letter"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b7-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      40319
+     ]
+    },
+    "x": {
+     "pick": [
+      {
+       "p": "eyepiece",
+       "i": 0,
+       "why": "The eyepiece is the lens you look through."
+      },
+      {
+       "p": "objective lenses",
+       "i": 1,
+       "why": "The objective lenses are the lenses near the specimen; they give different magnifications."
+      },
+      {
+       "p": "stage",
+       "i": 2,
+       "why": "The stage holds the slide."
+      },
+      {
+       "p": "coarse focus knob",
+       "i": 3,
+       "why": "The coarse focus knob moves the lenses a lot, to focus roughly."
+      },
+      {
+       "p": "fine focus knob",
+       "i": 4,
+       "why": "The fine focus knob moves the lenses a little, to make the image sharp."
+      },
+      {
+       "p": "mirror",
+       "i": 5,
+       "why": "The mirror reflects light up through the specimen."
+      },
+      {
+       "p": "arm",
+       "i": 6,
+       "why": "The arm is used to carry the microscope and holds the tube."
+      },
+      {
+       "p": "base",
+       "i": 7,
+       "why": "The base keeps the microscope steady."
+      }
+     ]
+    }
+   },
+   "figure": "microscope(k)",
+   "prompt": "What is the part labelled {bioLetter(k, 8, x.i)}?",
+   "correct": "{x.p}",
+   "distractors": [
+    {
+     "text": "eyepiece",
+     "misconception": "other"
+    },
+    {
+     "text": "objective lenses",
+     "misconception": "other"
+    },
+    {
+     "text": "stage",
+     "misconception": "other"
+    },
+    {
+     "text": "coarse focus knob",
+     "misconception": "other"
+    },
+    {
+     "text": "fine focus knob",
+     "misconception": "other"
+    },
+    {
+     "text": "mirror",
+     "misconception": "other"
+    },
+    {
+     "text": "arm",
+     "misconception": "other"
+    },
+    {
+     "text": "base",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Look again at what the letter is next to."
+    }
+   ],
+   "solution": [
+    "Letter {bioLetter(k, 8, x.i)} is next to the {answer}.",
+    "{x.why}"
+   ]
+  },
+  {
+   "id": "b7-letter",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      40319
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "figure": "microscope(k)",
+   "prompt": "Which letter shows the {microPart(i)}?",
+   "correct": "{bioLetter(k, 8, i)}",
+   "distractors": [
+    {
+     "text": "A",
+     "misconception": "other"
+    },
+    {
+     "text": "B",
+     "misconception": "other"
+    },
+    {
+     "text": "C",
+     "misconception": "other"
+    },
+    {
+     "text": "D",
+     "misconception": "other"
+    },
+    {
+     "text": "E",
+     "misconception": "other"
+    },
+    {
+     "text": "F",
+     "misconception": "other"
+    },
+    {
+     "text": "G",
+     "misconception": "other"
+    },
+    {
+     "text": "H",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That letter is next to a different part."
+    }
+   ],
+   "solution": [
+    "The {microPart(i)} is labelled {answer}."
+   ]
+  },
+  {
+   "id": "b7-mag",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {
+    "e": {
+     "pick": [
+      5,
+      10,
+      15
+     ]
+    },
+    "o": {
+     "pick": [
+      4,
+      10,
+      40,
+      100
+     ]
+    }
+   },
+   "prompt": "A microscope has a ×{e} eyepiece and a ×{o} objective. What is the total magnification?",
+   "answer": "magnification(e, o)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "e + o",
+     "explain": "Multiply the two magnifications; do not add them."
+    }
+   ],
+   "solution": [
+    "Total magnification = eyepiece × objective.",
+    "{e} × {o} = {answer}."
+   ]
+  },
+  {
+   "id": "b7-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "holds the slide",
+       "a": "stage",
+       "why": "Stage: holds the slide."
+      },
+      {
+       "t": "is the lens you look through",
+       "a": "eyepiece",
+       "why": "Eyepiece: is the lens you look through."
+      },
+      {
+       "t": "makes the image sharp with a small movement",
+       "a": "fine focus knob",
+       "why": "Fine focus knob: makes the image sharp with a small movement."
+      },
+      {
+       "t": "reflects light up through the specimen",
+       "a": "mirror",
+       "why": "Mirror: reflects light up through the specimen."
+      },
+      {
+       "t": "is held when carrying the microscope",
+       "a": "arm",
+       "why": "Arm: is held when carrying the microscope."
+      },
+      {
+       "t": "focuses roughly with a big movement",
+       "a": "coarse focus knob",
+       "why": "Coarse focus knob: focuses roughly with a big movement."
+      }
+     ]
+    }
+   },
+   "prompt": "Which part of the microscope {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "eyepiece",
+     "misconception": "other"
+    },
+    {
+     "text": "objective lenses",
+     "misconception": "other"
+    },
+    {
+     "text": "stage",
+     "misconception": "other"
+    },
+    {
+     "text": "coarse focus knob",
+     "misconception": "other"
+    },
+    {
+     "text": "fine focus knob",
+     "misconception": "other"
+    },
+    {
+     "text": "mirror",
+     "misconception": "other"
+    },
+    {
+     "text": "arm",
+     "misconception": "other"
+    },
+    {
+     "text": "base",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That part has a different job."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b7-objective",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "microscope"
+   ],
+   "vars": {
+    "e": {
+     "pick": [
+      5,
+      10,
+      15
+     ]
+    },
+    "o": {
+     "pick": [
+      4,
+      10,
+      40
+     ]
+    }
+   },
+   "prompt": "The total magnification is ×{magnification(e, o)} and the eyepiece is ×{e}. What is the magnification of the objective lens?",
+   "answer": "o",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "magnification(e, o) * e",
+     "explain": "Divide the total by the eyepiece magnification."
+    }
+   ],
+   "solution": [
+    "Total = eyepiece × objective, so objective = total ÷ eyepiece.",
+    "{magnification(e, o)} ÷ {e} = {answer}."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,329 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "b4",
+   "name": "The scientific approach"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Biologists find out about living things with the scientific approach:\n1. Observe and ask a question (Why are the leaves of this plant yellow?).\n2. Make a hypothesis: a possible answer that can be tested (It does not get enough light).\n3. Plan and do an experiment to test it.\n4. Record the results carefully (tables, drawings, measurements).\n5. Draw a conclusion: was the hypothesis right?\n6. Report what you found so others can check it.\nA fair test changes only one thing (the variable) and keeps everything else the same. A control is the set-up that is left unchanged, for comparison. Repeating an experiment makes the results more reliable.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mbah wants to know if bean seeds need water to germinate. He puts seeds on wet cotton in one dish and on dry cotton in another, both in the same warm place. Which dish is the control, and why is it a fair test?",
+  "steps": [
+   "Only one thing is different: water.",
+   "The temperature, light and kind of seed are the same.",
+   "The dish with wet cotton shows normal conditions to compare with: it is the control."
+  ],
+  "answer": "Wet cotton is the control; only the water is changed, so it is fair.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc4-1",
+    "status": "draft",
+    "idea": "The scientific approach: observe and ask, make a hypothesis, experiment, record, conclude, report.",
+    "vars": {},
+    "example": [
+     "Observation: the leaves are yellow. Hypothesis: the plant lacks light."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b4-order"
+    }
+   },
+   {
+    "id": "bc4-2",
+    "status": "draft",
+    "idea": "A hypothesis is a possible answer that can be tested by an experiment.",
+    "vars": {},
+    "example": [
+     "“Seeds need water to germinate” can be tested."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b4-hyp"
+    }
+   },
+   {
+    "id": "bc4-3",
+    "status": "draft",
+    "idea": "A fair test changes only one thing and keeps everything else the same; the control is used for comparison.",
+    "vars": {},
+    "example": [
+     "Same seeds, same place, same temperature: only the water changes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc4-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "scientific-approach"
+     ],
+     "vars": {},
+     "prompt": "What makes an experiment a fair test?",
+     "pool": {
+      "right": [
+       {
+        "text": "Only one thing is changed; everything else stays the same.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Everything is changed at once.",
+        "truth": "false",
+        "explain": "Then you cannot tell which change caused the result."
+       },
+       {
+        "text": "The experiment is done only once.",
+        "truth": "false",
+        "explain": "Repeating makes it more reliable, but fairness means changing one thing."
+       },
+       {
+        "text": "The results are guessed.",
+        "truth": "false",
+        "explain": "Results must be measured and recorded."
+       },
+       {
+        "text": "The teacher does it alone.",
+        "truth": "false",
+        "explain": "Fairness is about changing only one thing."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b4-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientific-approach"
+   ],
+   "order": "as_written",
+   "prompt": "Put the steps of the scientific approach in order.",
+   "items": [
+    {
+     "text": "observe and ask a question"
+    },
+    {
+     "text": "make a hypothesis (a possible answer)"
+    },
+    {
+     "text": "plan and do an experiment"
+    },
+    {
+     "text": "record the results"
+    },
+    {
+     "text": "draw a conclusion"
+    },
+    {
+     "text": "report what you found"
+    }
+   ]
+  },
+  {
+   "id": "b4-hyp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientific-approach"
+   ],
+   "vars": {},
+   "prompt": "Which is a hypothesis?",
+   "pool": {
+    "right": [
+     {
+      "text": "Seeds need water to germinate.",
+      "truth": "true"
+     },
+     {
+      "text": "Plants grow faster in sunlight.",
+      "truth": "true"
+     },
+     {
+      "text": "Mosquitoes breed in still water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Why are the leaves yellow?",
+      "truth": "false",
+      "explain": "That is a question. A hypothesis is a possible answer."
+     },
+     {
+      "text": "I put the seeds in a dish.",
+      "truth": "false",
+      "explain": "That is part of the experiment."
+     },
+     {
+      "text": "The seeds germinated in three days.",
+      "truth": "false",
+      "explain": "That is a result."
+     },
+     {
+      "text": "Write a report.",
+      "truth": "false",
+      "explain": "That is the last step."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b4-step",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "scientific-approach"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "“The maize leaves are turning yellow.”",
+       "a": "observing",
+       "why": "Observing: “The maize leaves are turning yellow.”."
+      },
+      {
+       "t": "“Maybe the soil lacks nitrogen.”",
+       "a": "making a hypothesis",
+       "why": "Making a hypothesis: “Maybe the soil lacks nitrogen.”."
+      },
+      {
+       "t": "Adding fertiliser to half the plants and none to the rest",
+       "a": "doing an experiment",
+       "why": "Doing an experiment: Adding fertiliser to half the plants and none to the rest."
+      },
+      {
+       "t": "Measuring the height of each plant every week",
+       "a": "recording results",
+       "why": "Recording results: Measuring the height of each plant every week."
+      },
+      {
+       "t": "“The plants with fertiliser grew greener, so the soil lacked nitrogen.”",
+       "a": "drawing a conclusion",
+       "why": "Drawing a conclusion: “The plants with fertiliser grew greener, so the soil lacked nitrogen.”."
+      }
+     ]
+    }
+   },
+   "prompt": "Which step of the scientific approach is this?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "observing",
+     "misconception": "other"
+    },
+    {
+     "text": "making a hypothesis",
+     "misconception": "other"
+    },
+    {
+     "text": "doing an experiment",
+     "misconception": "other"
+    },
+    {
+     "text": "recording results",
+     "misconception": "other"
+    },
+    {
+     "text": "drawing a conclusion",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that step. Read the steps in order again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "scientific-approach"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A hypothesis can be tested.",
+      "truth": "true"
+     },
+     {
+      "text": "A fair test changes only one thing.",
+      "truth": "true"
+     },
+     {
+      "text": "Results should be recorded carefully.",
+      "truth": "true"
+     },
+     {
+      "text": "Repeating an experiment makes results more reliable.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A conclusion is made before the experiment.",
+      "truth": "false",
+      "explain": "The conclusion comes after the results."
+     },
+     {
+      "text": "In a fair test you change everything at once.",
+      "truth": "false",
+      "explain": "Change only one thing."
+     },
+     {
+      "text": "A control is not needed.",
+      "truth": "false",
+      "explain": "A control gives something to compare with."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

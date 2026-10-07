@@ -1,0 +1,340 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "cs5",
+   "name": "Uses and ethics of AI"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Uses of AI:\n• health: helping doctors read X-rays and scans;\n• farming: spotting crop diseases from photos of leaves;\n• transport: maps that find the fastest route;\n• education: practice apps that adapt to the learner;\n• banking: spotting fraud;\n• languages: translation and speech-to-text.\nEthics (doing what is right) with AI:\n• privacy: do not share personal information (full name, address, photos, passwords) with AI tools;\n• honesty: do not hand in AI work as your own;\n• accuracy: check facts, because AI can be wrong;\n• fairness: AI can be biased if its data is unfair;\n• safety: fake pictures and voices (deepfakes) can be made with AI, so be careful what you believe and share.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ngozi asks an AI tool to write her History homework and hands it in as her own. What is wrong?",
+  "steps": [
+   "The work was not written by Ngozi.",
+   "Handing it in as her own is dishonest.",
+   "She also has not checked whether the facts are right."
+  ],
+  "answer": "It is dishonest, and the facts may be wrong.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc5-1",
+    "status": "draft",
+    "idea": "AI is used in health, farming, transport, education, banking and translation.",
+    "vars": {},
+    "example": [
+     "An app can spot cassava disease from a photo of a leaf."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs5-use"
+    }
+   },
+   {
+    "id": "csc5-2",
+    "status": "draft",
+    "idea": "Be honest: do not hand in AI work as your own; check its facts.",
+    "vars": {},
+    "example": [
+     "Use AI to help you understand, then write your own answer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs5-right"
+    }
+   },
+   {
+    "id": "csc5-3",
+    "status": "draft",
+    "idea": "Protect privacy: never share your full name, address, photos or passwords with AI tools.",
+    "vars": {},
+    "example": [
+     "Keep personal details out of your questions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc5-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ai-ethics"
+     ],
+     "vars": {},
+     "prompt": "Which should you NOT share with an AI tool?",
+     "pool": {
+      "right": [
+       {
+        "text": "your password",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a question about photosynthesis",
+        "truth": "false",
+        "explain": "That is fine to ask."
+       },
+       {
+        "text": "a request to explain fractions",
+        "truth": "false",
+        "explain": "That is fine to ask."
+       },
+       {
+        "text": "the name of a planet",
+        "truth": "false",
+        "explain": "That is not personal."
+       },
+       {
+        "text": "a maths problem",
+        "truth": "false",
+        "explain": "That is fine to ask."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs5-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ai-ethics"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "helping doctors read X-rays",
+       "a": "health",
+       "why": "Health: helping doctors read X-rays."
+      },
+      {
+       "t": "spotting cassava disease from photos of leaves",
+       "a": "farming",
+       "why": "Farming: spotting cassava disease from photos of leaves."
+      },
+      {
+       "t": "finding the fastest road between two towns",
+       "a": "transport",
+       "why": "Transport: finding the fastest road between two towns."
+      },
+      {
+       "t": "spotting stolen bank cards being used",
+       "a": "banking",
+       "why": "Banking: spotting stolen bank cards being used."
+      },
+      {
+       "t": "turning speech into written words",
+       "a": "languages",
+       "why": "Languages: turning speech into written words."
+      }
+     ]
+    }
+   },
+   "prompt": "In which area is AI used for {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "health",
+     "misconception": "other"
+    },
+    {
+     "text": "farming",
+     "misconception": "other"
+    },
+    {
+     "text": "transport",
+     "misconception": "other"
+    },
+    {
+     "text": "banking",
+     "misconception": "other"
+    },
+    {
+     "text": "languages",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that area."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "cs5-right",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ai-ethics"
+   ],
+   "vars": {},
+   "prompt": "Which is the right way to use AI for homework?",
+   "pool": {
+    "right": [
+     {
+      "text": "use it to understand, then write your own answer and check the facts",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "copy its answer and hand it in as your own",
+      "truth": "false",
+      "explain": "That is dishonest."
+     },
+     {
+      "text": "believe everything it says",
+      "truth": "false",
+      "explain": "AI can be wrong."
+     },
+     {
+      "text": "give it your full name and address",
+      "truth": "false",
+      "explain": "Protect your privacy."
+     },
+     {
+      "text": "use it to write a fake message from a friend",
+      "truth": "false",
+      "explain": "That is dishonest and can hurt people."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs5-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ai-ethics"
+   ],
+   "prompt": "Sort these: responsible or irresponsible use of AI?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "responsible",
+    "irresponsible"
+   ],
+   "pool": [
+    {
+     "left": "checking AI facts in a textbook",
+     "right": "responsible"
+    },
+    {
+     "left": "asking AI to explain a hard word",
+     "right": "responsible"
+    },
+    {
+     "left": "saying when you used AI",
+     "right": "responsible"
+    },
+    {
+     "left": "keeping personal details private",
+     "right": "responsible"
+    },
+    {
+     "left": "sharing a password with a chatbot",
+     "right": "irresponsible"
+    },
+    {
+     "left": "making a fake photo of a classmate",
+     "right": "irresponsible"
+    },
+    {
+     "left": "handing in AI work as your own",
+     "right": "irresponsible"
+    },
+    {
+     "left": "spreading an AI answer without checking it",
+     "right": "irresponsible"
+    }
+   ]
+  },
+  {
+   "id": "cs5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ai-ethics"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "AI can help doctors read X-rays.",
+      "truth": "true"
+     },
+     {
+      "text": "AI answers should be checked.",
+      "truth": "true"
+     },
+     {
+      "text": "Deepfakes can make fake pictures and voices.",
+      "truth": "true"
+     },
+     {
+      "text": "AI can be biased if its data is unfair.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is fine to hand in AI work as your own.",
+      "truth": "false",
+      "explain": "That is dishonest."
+     },
+     {
+      "text": "Sharing your password with AI is safe.",
+      "truth": "false",
+      "explain": "Never share passwords."
+     },
+     {
+      "text": "AI is always fair.",
+      "truth": "false",
+      "explain": "AI can be unfair if its data is unfair."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

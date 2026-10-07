@@ -1,0 +1,398 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "hi7",
+   "name": "The Neolithic (New Stone Age)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Neolithic, or New Stone Age, began about 10 000 years ago in the Middle East, and later in other places including Africa (the Nile valley and the Sahara, which was then greener).\nWhat changed (the Neolithic revolution):\n• farming: people grew crops (wheat, barley, millet, sorghum, later yams and oil palm in West and Central Africa);\n• domestication of animals: goats, sheep, cattle and dogs;\n• people settled in permanent villages;\n• polished stone tools (axes, hoes), pottery for cooking and storing, and weaving of cloth and baskets.\nResults: more food, more people, trade between villages, people with special skills (potters, weavers), and leaders and rules for villages.\nOld Stone Age: hunting, gathering, moving about, chipped stone tools. New Stone Age: farming, herding, villages, polished tools, pottery.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why could Neolithic people stay in one place, when earlier people kept moving?",
+  "steps": [
+   "Earlier people followed wild animals and plants, so they had to move.",
+   "Neolithic people grew crops and kept animals, so food was near them all year.",
+   "So they could build permanent villages."
+  ],
+  "answer": "Because farming and herding gave them food in one place.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic7-1",
+    "status": "draft",
+    "idea": "In the New Stone Age, people began to farm crops and keep animals.",
+    "vars": {},
+    "example": [
+     "Goats, sheep and cattle were domesticated; millet and sorghum were grown."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi7-sort"
+    }
+   },
+   {
+    "id": "hic7-2",
+    "status": "draft",
+    "idea": "Farming let people live in permanent villages, with polished stone tools and pottery.",
+    "vars": {},
+    "example": [
+     "Clay pots stored grain and water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi7-new"
+    }
+   },
+   {
+    "id": "hic7-3",
+    "status": "draft",
+    "idea": "More food meant more people, trade and people with special skills such as potters and weavers.",
+    "vars": {},
+    "example": [
+     "A village with extra grain could trade it for salt or tools."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic7-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "stone-age"
+     ],
+     "vars": {},
+     "prompt": "What was a result of farming in the New Stone Age?",
+     "pool": {
+      "right": [
+       {
+        "text": "more food and more people",
+        "truth": "true"
+       },
+       {
+        "text": "permanent villages",
+        "truth": "true"
+       },
+       {
+        "text": "trade between villages",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "fewer people",
+        "truth": "false",
+        "explain": "More food meant more people."
+       },
+       {
+        "text": "everyone moved from place to place",
+        "truth": "false",
+        "explain": "Farmers stayed in one place."
+       },
+       {
+        "text": "the end of all tools",
+        "truth": "false",
+        "explain": "Tools improved: polished axes and hoes."
+       },
+       {
+        "text": "people stopped cooking",
+        "truth": "false",
+        "explain": "Pottery made cooking and storage easier."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi7-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "stone-age"
+   ],
+   "prompt": "Sort these: Old Stone Age or New Stone Age?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "Old Stone Age",
+    "New Stone Age"
+   ],
+   "pool": [
+    {
+     "left": "hunting and gathering",
+     "right": "Old Stone Age"
+    },
+    {
+     "left": "moving from place to place",
+     "right": "Old Stone Age"
+    },
+    {
+     "left": "chipped stone tools",
+     "right": "Old Stone Age"
+    },
+    {
+     "left": "living in caves and camps",
+     "right": "Old Stone Age"
+    },
+    {
+     "left": "farming crops",
+     "right": "New Stone Age"
+    },
+    {
+     "left": "keeping goats and cattle",
+     "right": "New Stone Age"
+    },
+    {
+     "left": "permanent villages",
+     "right": "New Stone Age"
+    },
+    {
+     "left": "polished stone tools",
+     "right": "New Stone Age"
+    },
+    {
+     "left": "pottery",
+     "right": "New Stone Age"
+    }
+   ]
+  },
+  {
+   "id": "hi7-new",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "stone-age"
+   ],
+   "vars": {},
+   "prompt": "Which was new in the Neolithic (New Stone Age)?",
+   "pool": {
+    "right": [
+     {
+      "text": "pottery",
+      "truth": "true"
+     },
+     {
+      "text": "polished stone axes",
+      "truth": "true"
+     },
+     {
+      "text": "growing crops",
+      "truth": "true"
+     },
+     {
+      "text": "keeping animals",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "using fire",
+      "truth": "false",
+      "explain": "Fire was used long before, in the Old Stone Age."
+     },
+     {
+      "text": "hunting",
+      "truth": "false",
+      "explain": "People hunted long before."
+     },
+     {
+      "text": "iron tools",
+      "truth": "false",
+      "explain": "Iron came later, in the Iron Age."
+     },
+     {
+      "text": "gathering wild fruits",
+      "truth": "false",
+      "explain": "That is older."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi7-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "stone-age"
+   ],
+   "vars": {},
+   "prompt": "Why could Neolithic people live in permanent villages?",
+   "pool": {
+    "right": [
+     {
+      "text": "Farming and herding gave them food in one place.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "They had cars to fetch food.",
+      "truth": "false",
+      "explain": "There were no cars."
+     },
+     {
+      "text": "Wild animals came to their houses every day.",
+      "truth": "false",
+      "explain": "They grew crops and kept animals."
+     },
+     {
+      "text": "They stopped eating.",
+      "truth": "false",
+      "explain": "They grew their food."
+     },
+     {
+      "text": "They bought food from shops.",
+      "truth": "false",
+      "explain": "There were no shops."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi7-when",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "stone-age"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the first crops and domesticated animals",
+       "a": "the New Stone Age (Neolithic)",
+       "why": "The New Stone Age (Neolithic): the first crops and domesticated animals."
+      },
+      {
+       "t": "hand axes made by chipping stone",
+       "a": "the Old Stone Age (Palaeolithic)",
+       "why": "The Old Stone Age (Palaeolithic): hand axes made by chipping stone."
+      },
+      {
+       "t": "clay pots for storing grain",
+       "a": "the New Stone Age (Neolithic)",
+       "why": "The New Stone Age (Neolithic): clay pots for storing grain."
+      },
+      {
+       "t": "the first use of fire",
+       "a": "the Old Stone Age (Palaeolithic)",
+       "why": "The Old Stone Age (Palaeolithic): the first use of fire."
+      },
+      {
+       "t": "the first permanent farming villages",
+       "a": "the New Stone Age (Neolithic)",
+       "why": "The New Stone Age (Neolithic): the first permanent farming villages."
+      }
+     ]
+    }
+   },
+   "prompt": "When did this begin: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "the Old Stone Age (Palaeolithic)",
+     "misconception": "other"
+    },
+    {
+     "text": "the New Stone Age (Neolithic)",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think: hunting and moving (Old), or farming and villages (New)?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "hi7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "stone-age"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Neolithic people made pottery.",
+      "truth": "true"
+     },
+     {
+      "text": "Neolithic people kept goats and cattle.",
+      "truth": "true"
+     },
+     {
+      "text": "The Neolithic began about 10 000 years ago.",
+      "truth": "true"
+     },
+     {
+      "text": "Farming led to permanent villages.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Neolithic people only hunted and never farmed.",
+      "truth": "false",
+      "explain": "Farming is what makes the Neolithic new."
+     },
+     {
+      "text": "Neolithic people made iron tools.",
+      "truth": "false",
+      "explain": "Iron came later."
+     },
+     {
+      "text": "Farming made food scarcer.",
+      "truth": "false",
+      "explain": "Farming gave more food."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

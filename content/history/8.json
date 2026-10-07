@@ -1,0 +1,370 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "hi8",
+   "name": "Humanisation: from early ancestors to modern humans"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Humanisation (hominisation) is the long process by which humans developed, over millions of years. Dates are estimates:\n• Sahelanthropus (Toumaï, Chad): about 7 million years ago;\n• Australopithecus (“Lucy”, Ethiopia): about 3.2 million years ago; walked upright, small brain;\n• Homo habilis (“handy man”): about 2.4 million years ago; made the first simple stone tools;\n• Homo erectus (“upright man”): about 1.9 million years ago; used fire, travelled out of Africa;\n• Homo sapiens (“wise man”): about 300 000 years ago; modern humans.\nMain changes: walking upright on two legs, freeing the hands; a bigger brain; making better tools; using fire; language; living in organised groups.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Put these in order, oldest first: Homo erectus, Australopithecus, Homo sapiens.",
+  "steps": [
+   "Australopithecus: {ago(homininAgo(1))}.",
+   "Homo erectus: {ago(homininAgo(3))}.",
+   "Homo sapiens: {ago(homininAgo(4))}."
+  ],
+  "answer": "Australopithecus → Homo erectus → Homo sapiens.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic8-1",
+    "status": "draft",
+    "idea": "Humanisation is the long change, over millions of years, from early ancestors to modern humans.",
+    "vars": {},
+    "example": [
+     "Australopithecus walked upright; Homo sapiens is us."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi8-order"
+    }
+   },
+   {
+    "id": "hic8-2",
+    "status": "draft",
+    "idea": "Homo habilis means “handy man” (first stone tools); Homo erectus “upright man” (fire); Homo sapiens “wise man”.",
+    "vars": {},
+    "example": [
+     "Homo erectus used fire {ago(homininAgo(3))} or later."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi8-name"
+    }
+   },
+   {
+    "id": "hic8-3",
+    "status": "draft",
+    "idea": "Main changes: walking on two legs, a bigger brain, better tools, fire, language.",
+    "vars": {},
+    "example": [
+     "Walking on two legs freed the hands to carry and make tools."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic8-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "early-humans"
+     ],
+     "vars": {},
+     "prompt": "Which change happened during humanisation?",
+     "pool": {
+      "right": [
+       {
+        "text": "walking upright on two legs",
+        "truth": "true"
+       },
+       {
+        "text": "a bigger brain",
+        "truth": "true"
+       },
+       {
+        "text": "making better tools",
+        "truth": "true"
+       },
+       {
+        "text": "using fire",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "growing wings",
+        "truth": "false",
+        "explain": "Humans never grew wings."
+       },
+       {
+        "text": "losing the hands",
+        "truth": "false",
+        "explain": "The hands became more useful."
+       },
+       {
+        "text": "the brain becoming smaller",
+        "truth": "false",
+        "explain": "The brain became bigger."
+       },
+       {
+        "text": "learning to drive",
+        "truth": "false",
+        "explain": "Cars came only recently."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi8-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {
+    "s": {
+     "sample": [
+      "range(0, 4)",
+      "3"
+     ]
+    }
+   },
+   "order": "asc",
+   "prompt": "Put these in order, oldest first.",
+   "items": [
+    {
+     "text": "{homininName(s[0])}",
+     "key": "s[0]"
+    },
+    {
+     "text": "{homininName(s[1])}",
+     "key": "s[1]"
+    },
+    {
+     "text": "{homininName(s[2])}",
+     "key": "s[2]"
+    }
+   ]
+  },
+  {
+   "id": "hi8-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "“handy man”, the first maker of simple stone tools",
+       "a": "Homo habilis",
+       "why": "Homo habilis: “handy man”, the first maker of simple stone tools."
+      },
+      {
+       "t": "“upright man”, who used fire",
+       "a": "Homo erectus",
+       "why": "Homo erectus: “upright man”, who used fire."
+      },
+      {
+       "t": "“wise man”: modern humans",
+       "a": "Homo sapiens",
+       "why": "Homo sapiens: “wise man”: modern humans."
+      }
+     ]
+    }
+   },
+   "prompt": "Which is {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Homo habilis",
+     "misconception": "other"
+    },
+    {
+     "text": "Homo erectus",
+     "misconception": "other"
+    },
+    {
+     "text": "Homo sapiens",
+     "misconception": "other"
+    },
+    {
+     "text": "Australopithecus (“Lucy”)",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that one. Read what each name means."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "hi8-older",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      0,
+      4
+     ]
+    }
+   },
+   "where": "a != b",
+   "show": 2,
+   "prompt": "Which appeared earlier: {homininName(a)} or {homininName(b)}?",
+   "correct": "{homininName(min(a, b))}",
+   "distractors": [
+    {
+     "text": "{homininName(max(a, b))}",
+     "misconception": "later"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "later",
+     "explain": "That one appeared later. Compare how many years ago each lived."
+    }
+   ],
+   "solution": [
+    "{homininName(min(a, b))}: {ago(homininAgo(min(a, b)))}. {homininName(max(a, b))}: {ago(homininAgo(max(a, b)))}.",
+    "Earlier: {answer}."
+   ]
+  },
+  {
+   "id": "hi8-when",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      4
+     ]
+    }
+   },
+   "prompt": "About when did {homininName(i)} first appear?",
+   "correct": "{ago(homininAgo(i))}",
+   "distractors": [
+    {
+     "text": "{ago(homininAgo(0))}",
+     "misconception": "other"
+    },
+    {
+     "text": "{ago(homininAgo(1))}",
+     "misconception": "other"
+    },
+    {
+     "text": "{ago(homininAgo(2))}",
+     "misconception": "other"
+    },
+    {
+     "text": "{ago(homininAgo(3))}",
+     "misconception": "other"
+    },
+    {
+     "text": "{ago(homininAgo(4))}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That date belongs to a different ancestor. Oldest first: Toumaï, Lucy, Homo habilis, Homo erectus, Homo sapiens."
+    }
+   ],
+   "solution": [
+    "{homininName(i)}: {answer}."
+   ]
+  },
+  {
+   "id": "hi8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Homo sapiens means “wise man”.",
+      "truth": "true"
+     },
+     {
+      "text": "Homo habilis made simple stone tools.",
+      "truth": "true"
+     },
+     {
+      "text": "Homo erectus used fire.",
+      "truth": "true"
+     },
+     {
+      "text": "Australopithecus walked upright.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Homo sapiens lived before Australopithecus.",
+      "truth": "false",
+      "explain": "Australopithecus is much older."
+     },
+     {
+      "text": "The human brain became smaller during humanisation.",
+      "truth": "false",
+      "explain": "It became bigger."
+     },
+     {
+      "text": "Homo erectus means “handy man”.",
+      "truth": "false",
+      "explain": "Homo erectus means “upright man”; Homo habilis is “handy man”."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

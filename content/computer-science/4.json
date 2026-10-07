@@ -1,0 +1,322 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "cs4",
+   "name": "What artificial intelligence is"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Artificial intelligence (AI) is the ability of computer systems to do tasks that usually need human intelligence: recognising speech and pictures, translating languages, answering questions, recommending things and playing games.\nMany AI systems learn from examples: they are shown very large amounts of data and find patterns in it. This is called machine learning.\nExamples: a phone that unlocks when it sees your face; a voice assistant; a translation app; an email filter that removes spam; a chatbot that answers questions.\nLimits: AI can make mistakes, sometimes with great confidence; it has no feelings; it only knows what its data and design allow; it can be unfair if its data is unfair. People must check its work.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A translation app turns an English sentence into French. Is this AI? How did it learn?",
+  "steps": [
+   "Translating a language usually needs human intelligence, so the app uses AI.",
+   "It learnt from very many examples of sentences in both languages (machine learning)."
+  ],
+  "answer": "Yes; it learnt from many example translations.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc4-1",
+    "status": "draft",
+    "idea": "AI is the ability of computers to do tasks that usually need human intelligence.",
+    "vars": {},
+    "example": [
+     "Recognising a face in a photo is an AI task."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs4-which"
+    }
+   },
+   {
+    "id": "csc4-2",
+    "status": "draft",
+    "idea": "Many AI systems learn patterns from large amounts of data: machine learning.",
+    "vars": {},
+    "example": [
+     "A spam filter learns from many emails marked as spam."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs4-learn"
+    }
+   },
+   {
+    "id": "csc4-3",
+    "status": "draft",
+    "idea": "AI can make mistakes and has no feelings; people must check its work.",
+    "vars": {},
+    "example": [
+     "A chatbot can give a wrong date and sound sure."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc4-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ai"
+     ],
+     "vars": {},
+     "prompt": "Which is true about AI?",
+     "pool": {
+      "right": [
+       {
+        "text": "It can make mistakes, so its answers must be checked.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "It is always right.",
+        "truth": "false",
+        "explain": "AI can be wrong, even when it sounds sure."
+       },
+       {
+        "text": "It has feelings like a person.",
+        "truth": "false",
+        "explain": "AI has no feelings."
+       },
+       {
+        "text": "It works without any data.",
+        "truth": "false",
+        "explain": "AI learns from data."
+       },
+       {
+        "text": "It can never be unfair.",
+        "truth": "false",
+        "explain": "AI can be unfair if its data is unfair."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs4-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ai"
+   ],
+   "vars": {},
+   "prompt": "Which of these uses artificial intelligence?",
+   "pool": {
+    "right": [
+     {
+      "text": "a phone that unlocks when it recognises your face",
+      "truth": "true"
+     },
+     {
+      "text": "a voice assistant that answers spoken questions",
+      "truth": "true"
+     },
+     {
+      "text": "a translation app",
+      "truth": "true"
+     },
+     {
+      "text": "a spam filter that learns which emails are junk",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a simple light switch",
+      "truth": "false",
+      "explain": "It only turns on and off."
+     },
+     {
+      "text": "a wind-up clock",
+      "truth": "false",
+      "explain": "It does not learn or recognise anything."
+     },
+     {
+      "text": "a pencil",
+      "truth": "false",
+      "explain": "It is not a computer system."
+     },
+     {
+      "text": "a door key",
+      "truth": "false",
+      "explain": "It is not a computer system."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs4-learn",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ai"
+   ],
+   "vars": {},
+   "prompt": "How do many AI systems learn?",
+   "pool": {
+    "right": [
+     {
+      "text": "by finding patterns in large amounts of example data",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "by going to school",
+      "truth": "false",
+      "explain": "They are trained on data, not taught in school."
+     },
+     {
+      "text": "by eating",
+      "truth": "false",
+      "explain": "Computers do not eat."
+     },
+     {
+      "text": "by guessing randomly forever",
+      "truth": "false",
+      "explain": "They learn patterns from data."
+     },
+     {
+      "text": "they never learn",
+      "truth": "false",
+      "explain": "Machine learning means learning from data."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs4-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "ai"
+   ],
+   "prompt": "Sort these: an AI task, or not?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "AI task",
+    "not AI"
+   ],
+   "pool": [
+    {
+     "left": "recognising faces in photos",
+     "right": "AI task"
+    },
+    {
+     "left": "translating a sentence",
+     "right": "AI task"
+    },
+    {
+     "left": "answering spoken questions",
+     "right": "AI task"
+    },
+    {
+     "left": "recommending videos you may like",
+     "right": "AI task"
+    },
+    {
+     "left": "switching on a bulb",
+     "right": "not AI"
+    },
+    {
+     "left": "a calculator adding two numbers",
+     "right": "not AI"
+    },
+    {
+     "left": "a clock ticking",
+     "right": "not AI"
+    },
+    {
+     "left": "a fan turning",
+     "right": "not AI"
+    }
+   ]
+  },
+  {
+   "id": "cs4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ai"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "AI can recognise speech.",
+      "truth": "true"
+     },
+     {
+      "text": "Machine learning uses data.",
+      "truth": "true"
+     },
+     {
+      "text": "AI can make mistakes.",
+      "truth": "true"
+     },
+     {
+      "text": "A spam filter can use AI.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "AI is always right.",
+      "truth": "false",
+      "explain": "AI can be wrong; check its work."
+     },
+     {
+      "text": "AI has feelings.",
+      "truth": "false",
+      "explain": "AI has no feelings."
+     },
+     {
+      "text": "AI does not need any data.",
+      "truth": "false",
+      "explain": "Most AI learns from data."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

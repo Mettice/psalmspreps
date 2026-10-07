@@ -1,0 +1,388 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "hi10",
+   "name": "The forest peoples of Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cameroon’s forest peoples have lived in the rainforest of the south and east for a very long time. They are often called “pygmies”; many prefer to be called by their own names:\n• the Baka, in the East and South regions (the largest group);\n• the Bagyeli (also called Bakola), in the South region, near the coast;\n• the Bedzang, in the Centre region.\nTraditional way of life: hunting, fishing and gathering wild yams, fruits, nuts, mushrooms and honey; moving between forest camps of small leaf-covered huts; deep knowledge of forest plants and medicines; music, songs and dances.\nToday many live in villages beside roads, farm and trade with neighbours, and send children to school.\nChallenges: loss of forest, rights over land, and access to schools and health care. Respect for all peoples is part of being a good citizen.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why do the forest peoples know so much about plants and medicines?",
+  "steps": [
+   "They have lived in and from the rainforest for a very long time.",
+   "Their food, shelter and medicine come from forest plants and animals.",
+   "This knowledge is passed from parents to children."
+  ],
+  "answer": "Because they have lived from the forest for generations and pass the knowledge on.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic10-1",
+    "status": "draft",
+    "idea": "Cameroon’s forest peoples include the Baka, the Bagyeli (Bakola) and the Bedzang.",
+    "vars": {},
+    "example": [
+     "The Baka live in the East and South regions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi10-where"
+    }
+   },
+   {
+    "id": "hic10-2",
+    "status": "draft",
+    "idea": "Their traditional life: hunting, fishing, gathering, forest camps, and deep knowledge of forest plants.",
+    "vars": {},
+    "example": [
+     "Honey and wild yams are gathered in the forest."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi10-life"
+    }
+   },
+   {
+    "id": "hic10-3",
+    "status": "draft",
+    "idea": "Today they face loss of forest, problems over land rights, and access to schools and health care.",
+    "vars": {},
+    "example": [
+     "When forests are cut down, forest peoples lose their food and medicine."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic10-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "forest-peoples"
+     ],
+     "vars": {},
+     "prompt": "Which is a challenge facing forest peoples today?",
+     "pool": {
+      "right": [
+       {
+        "text": "the loss of the forest",
+        "truth": "true"
+       },
+       {
+        "text": "rights over their land",
+        "truth": "true"
+       },
+       {
+        "text": "access to schools and health care",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "too much snow",
+        "truth": "false",
+        "explain": "Cameroon’s rainforest has no snow."
+       },
+       {
+        "text": "too many trains in the forest",
+        "truth": "false",
+        "explain": "That is not a challenge they face."
+       },
+       {
+        "text": "having too much forest",
+        "truth": "false",
+        "explain": "The problem is losing forest."
+       },
+       {
+        "text": "living in the desert",
+        "truth": "false",
+        "explain": "They live in the rainforest."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi10-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "forest-peoples"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the largest group, living in the East and South regions",
+       "a": "the Baka",
+       "why": "The Baka: the largest group, living in the East and South regions."
+      },
+      {
+       "t": "living in the South region, near the coast (also called Bakola)",
+       "a": "the Bagyeli",
+       "why": "The Bagyeli: living in the South region, near the coast (also called Bakola)."
+      },
+      {
+       "t": "living in the Centre region",
+       "a": "the Bedzang",
+       "why": "The Bedzang: living in the Centre region."
+      }
+     ]
+    }
+   },
+   "prompt": "Which forest people is this: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "the Baka",
+     "misconception": "other"
+    },
+    {
+     "text": "the Bagyeli",
+     "misconception": "other"
+    },
+    {
+     "text": "the Bedzang",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that people. Read where each group lives."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "hi10-life",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "forest-peoples"
+   ],
+   "vars": {},
+   "prompt": "Which is part of the traditional way of life of the forest peoples?",
+   "pool": {
+    "right": [
+     {
+      "text": "gathering honey and wild yams",
+      "truth": "true"
+     },
+     {
+      "text": "hunting and fishing",
+      "truth": "true"
+     },
+     {
+      "text": "knowing forest medicines",
+      "truth": "true"
+     },
+     {
+      "text": "living in forest camps of leaf-covered huts",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "working in factories",
+      "truth": "false",
+      "explain": "Their traditional life was in the forest."
+     },
+     {
+      "text": "herding camels",
+      "truth": "false",
+      "explain": "Camels live in deserts, not rainforests."
+     },
+     {
+      "text": "fishing at sea in big ships",
+      "truth": "false",
+      "explain": "They lived in the forest."
+     },
+     {
+      "text": "growing wheat on large farms",
+      "truth": "false",
+      "explain": "Wheat is not a rainforest crop."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi10-name",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "forest-peoples"
+   ],
+   "vars": {},
+   "prompt": "What is the most respectful way to speak about the forest peoples?",
+   "pool": {
+    "right": [
+     {
+      "text": "call each people by its own name, such as Baka or Bagyeli",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "make jokes about their height",
+      "truth": "false",
+      "explain": "Jokes about people’s bodies are disrespectful."
+     },
+     {
+      "text": "say they have no history",
+      "truth": "false",
+      "explain": "They have a long history in the forest."
+     },
+     {
+      "text": "call them all by one word they may not like",
+      "truth": "false",
+      "explain": "Many prefer their own names."
+     },
+     {
+      "text": "avoid learning about them",
+      "truth": "false",
+      "explain": "Learning about other peoples builds respect."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi10-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "forest-peoples"
+   ],
+   "prompt": "Sort these: traditional forest life, or a change of today?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "traditional",
+    "change of today"
+   ],
+   "pool": [
+    {
+     "left": "gathering honey",
+     "right": "traditional"
+    },
+    {
+     "left": "hunting with nets",
+     "right": "traditional"
+    },
+    {
+     "left": "moving between forest camps",
+     "right": "traditional"
+    },
+    {
+     "left": "using forest medicines",
+     "right": "traditional"
+    },
+    {
+     "left": "living in villages beside roads",
+     "right": "change of today"
+    },
+    {
+     "left": "children going to school",
+     "right": "change of today"
+    },
+    {
+     "left": "loss of forest from logging",
+     "right": "change of today"
+    },
+    {
+     "left": "farming and trading with neighbours",
+     "right": "change of today"
+    }
+   ]
+  },
+  {
+   "id": "hi10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "forest-peoples"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Baka live in the East and South regions.",
+      "truth": "true"
+     },
+     {
+      "text": "The forest peoples know many forest medicines.",
+      "truth": "true"
+     },
+     {
+      "text": "Loss of forest is a problem for the forest peoples.",
+      "truth": "true"
+     },
+     {
+      "text": "The Bagyeli are also called Bakola.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The forest peoples have no history.",
+      "truth": "false",
+      "explain": "They have lived in the forest for a very long time."
+     },
+     {
+      "text": "The Baka live mainly in the Far North desert.",
+      "truth": "false",
+      "explain": "They live in the rainforest of the East and South."
+     },
+     {
+      "text": "The forest peoples have never had any knowledge of plants.",
+      "truth": "false",
+      "explain": "They have deep knowledge of forest plants."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

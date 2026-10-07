@@ -1,0 +1,281 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "cs8",
+   "name": "Decomposition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Computational thinking is a way of solving problems that computer scientists use. It has four parts: decomposition, pattern recognition, abstraction and algorithms.\nDecomposition means breaking a big problem into smaller parts that are easier to solve, one at a time.\nExample: organising a class party breaks into: decide the date and place; list what is needed; collect money and buy; decorate and prepare food; hold the party; clean up.\nAdvantages: each part is easier; different people can work on different parts; it is easier to find and fix mistakes.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Break the task “cook rice and stew for lunch” into smaller parts.",
+  "steps": [
+   "Get the ingredients (rice, tomatoes, onions, oil, meat or fish).",
+   "Prepare them: wash the rice, cut the vegetables.",
+   "Cook the rice; cook the stew.",
+   "Serve, then wash up."
+  ],
+  "answer": "Get ingredients → prepare → cook → serve and wash up.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc8-1",
+    "status": "draft",
+    "idea": "Decomposition is breaking a big problem into smaller parts that are easier to solve.",
+    "vars": {},
+    "example": [
+     "Writing a story: plan, write the beginning, the middle, the end, then check."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs8-what"
+    }
+   },
+   {
+    "id": "csc8-2",
+    "status": "draft",
+    "idea": "The small parts are solved one at a time, often in a sensible order.",
+    "vars": {},
+    "example": [
+     "You cannot clean up before the party."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs8-order"
+    }
+   },
+   {
+    "id": "csc8-3",
+    "status": "draft",
+    "idea": "Decomposition lets people share the work and makes mistakes easier to find.",
+    "vars": {},
+    "example": [
+     "One group decorates while another buys drinks."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc8-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "comp-thinking"
+     ],
+     "vars": {},
+     "prompt": "Why is decomposition useful?",
+     "pool": {
+      "right": [
+       {
+        "text": "Each small part is easier to solve.",
+        "truth": "true"
+       },
+       {
+        "text": "Different people can work on different parts.",
+        "truth": "true"
+       },
+       {
+        "text": "Mistakes are easier to find.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "It makes the problem bigger.",
+        "truth": "false",
+        "explain": "It makes each part smaller."
+       },
+       {
+        "text": "It means one person must do everything.",
+        "truth": "false",
+        "explain": "Work can be shared."
+       },
+       {
+        "text": "It removes the need to think.",
+        "truth": "false",
+        "explain": "You still think about each part."
+       },
+       {
+        "text": "It hides the mistakes.",
+        "truth": "false",
+        "explain": "It makes mistakes easier to find."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs8-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "comp-thinking"
+   ],
+   "vars": {},
+   "prompt": "What is decomposition?",
+   "pool": {
+    "right": [
+     {
+      "text": "breaking a big problem into smaller parts",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "throwing a problem away",
+      "truth": "false",
+      "explain": "Decomposition breaks it into parts."
+     },
+     {
+      "text": "finding what repeats",
+      "truth": "false",
+      "explain": "That is pattern recognition."
+     },
+     {
+      "text": "ignoring details that do not matter",
+      "truth": "false",
+      "explain": "That is abstraction."
+     },
+     {
+      "text": "writing steps in order",
+      "truth": "false",
+      "explain": "That is an algorithm."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs8-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "comp-thinking"
+   ],
+   "order": "as_written",
+   "prompt": "Organising a class party: put the parts in a sensible order.",
+   "items": [
+    {
+     "text": "decide the date and place"
+    },
+    {
+     "text": "make a list of what is needed"
+    },
+    {
+     "text": "collect money and buy the items"
+    },
+    {
+     "text": "decorate the room and prepare food"
+    },
+    {
+     "text": "hold the party"
+    },
+    {
+     "text": "clean up"
+    }
+   ]
+  },
+  {
+   "id": "cs8-ct",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "comp-thinking"
+   ],
+   "prompt": "Match each part of computational thinking with what it means.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "decomposition",
+     "right": "breaking a problem into smaller parts"
+    },
+    {
+     "left": "pattern recognition",
+     "right": "finding what is the same or repeats"
+    },
+    {
+     "left": "abstraction",
+     "right": "keeping only the important details"
+    },
+    {
+     "left": "algorithm",
+     "right": "a list of steps in order to solve a problem"
+    }
+   ]
+  },
+  {
+   "id": "cs8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "comp-thinking"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Decomposition makes big problems easier.",
+      "truth": "true"
+     },
+     {
+      "text": "Different people can solve different parts.",
+      "truth": "true"
+     },
+     {
+      "text": "Decomposition is part of computational thinking.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Decomposition means solving the whole problem in one step.",
+      "truth": "false",
+      "explain": "It means breaking it into smaller parts."
+     },
+     {
+      "text": "Decomposition makes mistakes harder to find.",
+      "truth": "false",
+      "explain": "Smaller parts make mistakes easier to find."
+     },
+     {
+      "text": "Decomposition only works for computers.",
+      "truth": "false",
+      "explain": "It works for any problem, like planning a party."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

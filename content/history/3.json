@@ -1,0 +1,446 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "hi3",
+   "name": "Dates BC and AD; centuries"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We count years from the year given as the birth of Jesus Christ.\n• Years before it are BC (Before Christ). They count backwards: 500 BC is earlier than 200 BC.\n• Years after it are AD (Anno Domini, “in the year of the Lord”): AD 476, AD 2026.\n• There is no year 0: 1 BC is followed by AD 1.\nYears between two dates: if both are AD or both BC, subtract. If one is BC and one is AD, add them and take away 1 (no year 0).\nCenturies: a century is 100 years. AD 1 to AD 100 is the 1st century; 1801 to 1900 is the 19th century; we live in the 21st century. So 1884 is in the 19th century, one more than its first two figures.\nSome books write BCE and CE instead of BC and AD.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": -50,
+   "b": 50
+  },
+  "problem": "How many years are there from {year(a)} to {year(b)}?",
+  "steps": [
+   "One date is BC and the other AD: add them.",
+   "{-a} + {b} = {b - a}.",
+   "There is no year zero, so take away one: {b - a} − {1} = {yearsBetween(a, b)}."
+  ],
+  "answer": "{yearsBetween(a, b)} years.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic3-1",
+    "status": "draft",
+    "idea": "BC years count backwards: the bigger the number, the earlier the year.",
+    "vars": {
+     "a": -500,
+     "b": -200
+    },
+    "example": [
+     "{year(a)} is earlier than {year(b)}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic3-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "dating"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        30
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        30
+       ]
+      }
+     },
+     "where": "a != b",
+     "show": 2,
+     "prompt": "Which year is earlier: {year(-a * 100)} or {year(-b * 100)}?",
+     "correct": "{year(-max(a, b) * 100)}",
+     "distractors": [
+      {
+       "text": "{year(-min(a, b) * 100)}",
+       "misconception": "bc"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "bc",
+       "explain": "BC years count backwards: the bigger number is further back in time."
+      }
+     ],
+     "solution": [
+      "BC years count backwards.",
+      "The bigger number is earlier: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "hic3-2",
+    "status": "draft",
+    "idea": "Between two AD dates, or two BC dates, subtract to find the years between them.",
+    "vars": {
+     "a": 1884,
+     "b": 1961
+    },
+    "example": [
+     "{year(a)} to {year(b)}: {b} − {a} = {yearsBetween(a, b)} years."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi3-ad"
+    }
+   },
+   {
+    "id": "hic3-3",
+    "status": "draft",
+    "idea": "There is no year zero. From a BC date to an AD date: add the two numbers, then take away one.",
+    "vars": {
+     "a": -30,
+     "b": 20
+    },
+    "example": [
+     "{year(a)} to {year(b)}: {-a} + {b} − {1} = {yearsBetween(a, b)} years."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic3-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "dating"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "show": 3,
+     "prompt": "Which year comes straight after {year(-1)}?",
+     "correct": "{year(1)}",
+     "distractors": [
+      {
+       "text": "the year 0",
+       "misconception": "zero"
+      },
+      {
+       "text": "{year(-2)}",
+       "misconception": "back"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "zero",
+       "explain": "There is no year 0: 1 BC is followed by AD 1."
+      },
+      {
+       "id": "back",
+       "explain": "That is the year before 1 BC, not after."
+      }
+     ],
+     "solution": [
+      "There is no year zero.",
+      "{year(-1)} is followed by {answer}."
+     ]
+    }
+   },
+   {
+    "id": "hic3-4",
+    "status": "draft",
+    "idea": "A century is a hundred years. A year is in the century one more than its hundreds: {year(e)} is in the {century(e)}.",
+    "vars": {
+     "y": 1961,
+     "e": 1884
+    },
+    "example": [
+     "{year(y)}: {century(y)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi3-century"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi3-ad",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "dating"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1500,
+      1990
+     ]
+    },
+    "d": {
+     "int": [
+      5,
+      90
+     ]
+    },
+    "b": {
+     "expr": "a + d"
+    }
+   },
+   "prompt": "How many years are there from {year(a)} to {year(b)}?",
+   "answer": "yearsBetween(a, b)",
+   "unit": "years",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "a + b",
+     "explain": "Both dates are AD: subtract the earlier from the later."
+    }
+   ],
+   "solution": [
+    "Both dates are AD: subtract.",
+    "{b} − {a} = {answer} years."
+   ]
+  },
+  {
+   "id": "hi3-century",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "dating"
+   ],
+   "vars": {
+    "y": {
+     "int": [
+      101,
+      2026
+     ]
+    }
+   },
+   "where": "y % 100 != 0",
+   "prompt": "In which century is {year(y)}?",
+   "correct": "{century(y)}",
+   "distractors": [
+    {
+     "text": "{centuryFirstDigits(y)}",
+     "misconception": "digits",
+     "when": "y >= 200"
+    },
+    {
+     "text": "{century(-y)}",
+     "misconception": "bc"
+    },
+    {
+     "text": "{century(y + 100)}",
+     "misconception": "two"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "digits",
+     "explain": "The century is one more than the hundreds: 1884 is in the 19th century."
+    },
+    {
+     "id": "bc",
+     "explain": "This is an AD year, so the century is AD."
+    },
+    {
+     "id": "two",
+     "explain": "Add only one to the hundreds."
+    }
+   ],
+   "min_distractors": 2,
+   "solution": [
+    "{year(y)} has {floor(y / 100)} full hundred{floor(y / 100) == 1 ? '' : 's'} and some more years.",
+    "So it is in the next century: {answer}."
+   ]
+  },
+  {
+   "id": "hi3-earlier",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "dating"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -3000,
+      1990
+     ]
+    },
+    "b": {
+     "int": [
+      -3000,
+      1990
+     ]
+    }
+   },
+   "where": [
+    "a != 0",
+    "b != 0",
+    "a != b",
+    "a < 0 || b < 0"
+   ],
+   "show": 2,
+   "prompt": "Which date is earlier: {year(a)} or {year(b)}?",
+   "correct": "{year(earlier(a, b))}",
+   "distractors": [
+    {
+     "text": "{year(a == earlier(a, b) ? b : a)}",
+     "misconception": "bc"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "bc",
+     "explain": "BC dates come before all AD dates, and among BC dates the bigger number is earlier."
+    }
+   ],
+   "solution": [
+    "{a < 0 && b < 0 ? 'Both are BC: the bigger number is earlier.' : 'A BC date is earlier than any AD date.'}",
+    "Earlier: {answer}."
+   ]
+  },
+  {
+   "id": "hi3-bc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "dating"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      200,
+      3000
+     ]
+    },
+    "d": {
+     "int": [
+      20,
+      190
+     ]
+    }
+   },
+   "where": "a - d > 0",
+   "prompt": "How many years are there from {year(-a)} to {year(-(a - d))}?",
+   "answer": "yearsBetween(-a, -(a - d))",
+   "unit": "years",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "a + (a - d)",
+     "explain": "Both dates are BC: subtract the smaller number from the bigger."
+    }
+   ],
+   "solution": [
+    "Both dates are BC: subtract.",
+    "{a} − {a - d} = {answer} years."
+   ]
+  },
+  {
+   "id": "hi3-across",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "dating"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      500
+     ]
+    },
+    "b": {
+     "int": [
+      5,
+      500
+     ]
+    }
+   },
+   "prompt": "How many years are there from {year(-a)} to {year(b)}?",
+   "answer": "yearsBetween(-a, b)",
+   "unit": "years",
+   "misconceptions": [
+    {
+     "id": "zero",
+     "wrong": "yearsBetweenWithZero(-a, b)",
+     "explain": "There is no year 0: add the two numbers, then take away 1."
+    },
+    {
+     "id": "sub",
+     "wrong": "abs(b - a)",
+     "explain": "One date is BC and one is AD: add the two numbers (then take away 1)."
+    }
+   ],
+   "solution": [
+    "One date is BC and one is AD: add. {a} + {b} = {a + b}.",
+    "No year zero: {a + b} − {1} = {answer} years."
+   ]
+  },
+  {
+   "id": "hi3-timeline",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "dating"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -7,
+      -1
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      7
+     ]
+    }
+   },
+   "figure": "timeline(-400, 400, 100, [['A', p * 50], ['B', q * 50]])",
+   "prompt": "On the timeline, how many years are there from event A to event B?",
+   "answer": "yearsBetween(p * 50, q * 50)",
+   "unit": "years",
+   "misconceptions": [
+    {
+     "id": "zero",
+     "wrong": "yearsBetweenWithZero(p * 50, q * 50)",
+     "explain": "Count across BC and AD: add, then take away 1, because there is no year 0."
+    }
+   ],
+   "solution": [
+    "A is at {year(p * 50)} and B is at {year(q * 50)}.",
+    "{-p * 50} + {q * 50} − {1} = {answer} years."
+   ]
+  }
+ ]
+}

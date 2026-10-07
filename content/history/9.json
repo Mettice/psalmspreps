@@ -1,0 +1,372 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "hi9",
+   "name": "Cameroon in the Neolithic"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Archaeologists have found that people lived in what is now Cameroon for many thousands of years.\n• Shum Laka, a rock shelter near Bamenda in the North-West region, was used by people for many thousands of years. Stone tools, pottery and burials were found there.\n• Obobogo, near Yaoundé, is a village site from about 3000 years ago, with pottery, polished stone axes and the remains of oil-palm nuts.\n• Polished stone axes and hoes and pieces of old pottery have been found in many parts of the country.\nThese finds show that Neolithic people in Cameroon made pottery, used polished stone tools, cleared the forest edge and grew or used crops such as oil palm and yams. Archaeologists still study these sites; their dates are estimates.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "At Obobogo, archaeologists found pottery, polished stone axes and oil-palm nuts. What do these tell us about the people who lived there?",
+  "steps": [
+   "Pottery shows they cooked and stored food in clay pots.",
+   "Polished stone axes show Neolithic tools, used to clear land and cut wood.",
+   "Oil-palm nuts show they used, and probably grew, oil palms."
+  ],
+  "answer": "They were Neolithic villagers who made pottery, used polished axes and used oil palm.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic9-1",
+    "status": "draft",
+    "idea": "Shum Laka is a rock shelter near Bamenda where people lived for many thousands of years.",
+    "vars": {},
+    "example": [
+     "Stone tools, pottery and burials were found there."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi9-where"
+    }
+   },
+   {
+    "id": "hic9-2",
+    "status": "draft",
+    "idea": "Obobogo, near Yaoundé, is an old village site with pottery, polished stone axes and oil-palm nuts.",
+    "vars": {},
+    "example": [
+     "It shows village life in the Neolithic."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi9-find"
+    }
+   },
+   {
+    "id": "hic9-3",
+    "status": "draft",
+    "idea": "These finds show Neolithic life in Cameroon: pottery, polished stone tools and the use of crops such as oil palm.",
+    "vars": {},
+    "example": [
+     "Pieces of old pottery are clues for archaeologists."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic9-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cameroon-neolithic"
+     ],
+     "vars": {},
+     "prompt": "Who studies old sites such as Shum Laka by digging carefully?",
+     "pool": {
+      "right": [
+       {
+        "text": "archaeologists",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "farmers",
+        "truth": "false",
+        "explain": "Farmers grow crops; archaeologists study old sites."
+       },
+       {
+        "text": "doctors",
+        "truth": "false",
+        "explain": "Doctors treat patients."
+       },
+       {
+        "text": "drivers",
+        "truth": "false",
+        "explain": "Drivers drive vehicles."
+       },
+       {
+        "text": "tailors",
+        "truth": "false",
+        "explain": "Tailors make clothes."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi9-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cameroon-neolithic"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "a rock shelter near Bamenda, used by people for many thousands of years",
+       "a": "Shum Laka",
+       "why": "Shum Laka: a rock shelter near Bamenda, used by people for many thousands of years."
+      },
+      {
+       "t": "an old village site near Yaoundé with pottery and oil-palm nuts",
+       "a": "Obobogo",
+       "why": "Obobogo: an old village site near Yaoundé with pottery and oil-palm nuts."
+      }
+     ]
+    }
+   },
+   "prompt": "Which site is {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Shum Laka",
+     "misconception": "other"
+    },
+    {
+     "text": "Obobogo",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Shum Laka is near Bamenda; Obobogo is near Yaoundé."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "hi9-find",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cameroon-neolithic"
+   ],
+   "vars": {},
+   "prompt": "Which of these was found at Neolithic sites in Cameroon?",
+   "pool": {
+    "right": [
+     {
+      "text": "pottery",
+      "truth": "true"
+     },
+     {
+      "text": "polished stone axes",
+      "truth": "true"
+     },
+     {
+      "text": "oil-palm nuts",
+      "truth": "true"
+     },
+     {
+      "text": "stone tools",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "iron trains",
+      "truth": "false",
+      "explain": "Trains are modern."
+     },
+     {
+      "text": "plastic bottles",
+      "truth": "false",
+      "explain": "Plastic is modern."
+     },
+     {
+      "text": "coins of the Central African franc",
+      "truth": "false",
+      "explain": "That money is modern."
+     },
+     {
+      "text": "printed books",
+      "truth": "false",
+      "explain": "Printing is modern."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi9-show",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cameroon-neolithic"
+   ],
+   "vars": {},
+   "prompt": "What do the pots and polished axes found in Cameroon show?",
+   "pool": {
+    "right": [
+     {
+      "text": "that Neolithic people lived there, cooking and storing food in pots and clearing land with axes",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "that nobody lived in Cameroon long ago",
+      "truth": "false",
+      "explain": "The finds show that people lived there."
+     },
+     {
+      "text": "that people used electricity",
+      "truth": "false",
+      "explain": "There was no electricity."
+     },
+     {
+      "text": "that people bought pots in shops",
+      "truth": "false",
+      "explain": "They made the pots themselves."
+     },
+     {
+      "text": "that the people had cars",
+      "truth": "false",
+      "explain": "There were no cars."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi9-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cameroon-neolithic",
+    "stone-age"
+   ],
+   "prompt": "Sort these: evidence of Neolithic life, or modern objects?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "Neolithic evidence",
+    "modern"
+   ],
+   "pool": [
+    {
+     "left": "broken clay pots",
+     "right": "Neolithic evidence"
+    },
+    {
+     "left": "polished stone axes",
+     "right": "Neolithic evidence"
+    },
+    {
+     "left": "old oil-palm nuts",
+     "right": "Neolithic evidence"
+    },
+    {
+     "left": "stone hoes",
+     "right": "Neolithic evidence"
+    },
+    {
+     "left": "a metal cooking pot from the market",
+     "right": "modern"
+    },
+    {
+     "left": "a plastic bucket",
+     "right": "modern"
+    },
+    {
+     "left": "a bicycle",
+     "right": "modern"
+    },
+    {
+     "left": "a radio",
+     "right": "modern"
+    }
+   ]
+  },
+  {
+   "id": "hi9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cameroon-neolithic"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Shum Laka is near Bamenda.",
+      "truth": "true"
+     },
+     {
+      "text": "Obobogo is near Yaoundé.",
+      "truth": "true"
+     },
+     {
+      "text": "Pottery has been found at Neolithic sites in Cameroon.",
+      "truth": "true"
+     },
+     {
+      "text": "Dates of old sites are estimates.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Shum Laka is near Maroua.",
+      "truth": "false",
+      "explain": "Shum Laka is in the North-West region, near Bamenda."
+     },
+     {
+      "text": "No one lived in Cameroon before the colonial period.",
+      "truth": "false",
+      "explain": "Archaeology shows people lived there for thousands of years."
+     },
+     {
+      "text": "Obobogo is famous for its iron railway.",
+      "truth": "false",
+      "explain": "Obobogo is an old village site with pottery and stone axes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

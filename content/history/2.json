@@ -1,0 +1,375 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "hi2",
+   "name": "Historical relics"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A relic is an object that has survived from the past: a tool, a pot, a coin, a weapon, a piece of jewellery, a photograph, a document or a building.\nRelics help us learn how people lived. When you find or collect one:\n• ask where it was found, who used it, and how old it is;\n• handle it carefully and do not clean or break it;\n• write a label: what it is, where and when it was found, and who gave it.\nRelics can be classified:\n• by material: stone, clay, metal, wood, cloth, paper;\n• by use: farming, cooking, hunting or war, dress and decoration, money and trade, religion.\nMany relics are kept in museums, palaces and family houses. Taking them without permission or selling them harms our heritage.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ndi’s class brings an iron hoe, a clay cooking pot and a cowrie-shell necklace. Classify each relic by its use.",
+  "steps": [
+   "An iron hoe was used to dig the soil: farming.",
+   "A clay cooking pot: cooking (the home).",
+   "Cowrie shells were used as money and for decoration: money and trade, or dress and decoration."
+  ],
+  "answer": "Hoe: farming. Pot: cooking. Necklace: money or decoration.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic2-1",
+    "status": "draft",
+    "idea": "A relic is an object that has survived from the past, such as a tool, a pot or a coin.",
+    "vars": {},
+    "example": [
+     "An old grinding stone in a grandmother’s kitchen is a relic."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi2-which"
+    }
+   },
+   {
+    "id": "hic2-2",
+    "status": "draft",
+    "idea": "Relics can be classified by material (stone, clay, metal …) or by use (farming, cooking, war …).",
+    "vars": {},
+    "example": [
+     "A spearhead is metal; it was used for hunting or war."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi2-use"
+    }
+   },
+   {
+    "id": "hic2-3",
+    "status": "draft",
+    "idea": "Handle relics carefully and label them: what, where and when found, and who gave it.",
+    "vars": {},
+    "example": [
+     "A label tells the next person where the relic came from."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic2-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "relics"
+     ],
+     "vars": {},
+     "prompt": "What should a relic’s label say?",
+     "pool": {
+      "right": [
+       {
+        "text": "what it is, where and when it was found, and who gave it",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "only its price",
+        "truth": "false",
+        "explain": "A relic’s value is its history, not only its price."
+       },
+       {
+        "text": "nothing: labels are not needed",
+        "truth": "false",
+        "explain": "Without a label, its story is lost."
+       },
+       {
+        "text": "the name of the person who will buy it",
+        "truth": "false",
+        "explain": "Relics should not be sold."
+       },
+       {
+        "text": "a made-up story",
+        "truth": "false",
+        "explain": "A label must tell the truth about the relic."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi2-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "relics"
+   ],
+   "vars": {},
+   "prompt": "Which of these is a historical relic?",
+   "pool": {
+    "right": [
+     {
+      "text": "an old iron hoe",
+      "truth": "true"
+     },
+     {
+      "text": "a clay pot from a past generation",
+      "truth": "true"
+     },
+     {
+      "text": "an old cowrie-shell necklace",
+      "truth": "true"
+     },
+     {
+      "text": "a stone axe",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a new plastic bucket",
+      "truth": "false",
+      "explain": "It is new: it does not come from the past."
+     },
+     {
+      "text": "a mobile phone bought this year",
+      "truth": "false",
+      "explain": "It is new."
+     },
+     {
+      "text": "a song on the radio today",
+      "truth": "false",
+      "explain": "A relic is an object from the past."
+     },
+     {
+      "text": "this morning’s bread",
+      "truth": "false",
+      "explain": "A relic is an object that has survived from the past."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi2-use",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "relics"
+   ],
+   "prompt": "Classify these relics by their use.",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "farming",
+    "cooking",
+    "hunting or war"
+   ],
+   "pool": [
+    {
+     "left": "an iron hoe",
+     "right": "farming"
+    },
+    {
+     "left": "a cutlass",
+     "right": "farming"
+    },
+    {
+     "left": "a wooden digging stick",
+     "right": "farming"
+    },
+    {
+     "left": "a clay cooking pot",
+     "right": "cooking"
+    },
+    {
+     "left": "a grinding stone",
+     "right": "cooking"
+    },
+    {
+     "left": "a wooden mortar",
+     "right": "cooking"
+    },
+    {
+     "left": "a spear",
+     "right": "hunting or war"
+    },
+    {
+     "left": "a bow and arrows",
+     "right": "hunting or war"
+    },
+    {
+     "left": "a shield",
+     "right": "hunting or war"
+    }
+   ]
+  },
+  {
+   "id": "hi2-material",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "relics"
+   ],
+   "prompt": "Classify these relics by material.",
+   "groups": true,
+   "pick": 5,
+   "group_order": [
+    "stone",
+    "clay",
+    "metal"
+   ],
+   "pool": [
+    {
+     "left": "a grinding stone",
+     "right": "stone"
+    },
+    {
+     "left": "a stone axe",
+     "right": "stone"
+    },
+    {
+     "left": "a clay pot",
+     "right": "clay"
+    },
+    {
+     "left": "a clay pipe",
+     "right": "clay"
+    },
+    {
+     "left": "an iron hoe",
+     "right": "metal"
+    },
+    {
+     "left": "a bronze bell",
+     "right": "metal"
+    }
+   ]
+  },
+  {
+   "id": "hi2-care",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "relics"
+   ],
+   "vars": {},
+   "prompt": "How should you look after a relic?",
+   "pool": {
+    "right": [
+     {
+      "text": "Handle it carefully and keep it in a safe place.",
+      "truth": "true"
+     },
+     {
+      "text": "Write a label saying where and when it was found.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Scrub it hard to make it look new.",
+      "truth": "false",
+      "explain": "Scrubbing can damage it."
+     },
+     {
+      "text": "Sell it to a visitor.",
+      "truth": "false",
+      "explain": "Selling relics loses our heritage."
+     },
+     {
+      "text": "Break it to see what is inside.",
+      "truth": "false",
+      "explain": "Breaking it destroys the evidence."
+     },
+     {
+      "text": "Paint it a bright colour.",
+      "truth": "false",
+      "explain": "Paint hides the original surface."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "relics"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A relic is an object that has survived from the past.",
+      "truth": "true"
+     },
+     {
+      "text": "Museums keep relics safe.",
+      "truth": "true"
+     },
+     {
+      "text": "Relics can be classified by their use.",
+      "truth": "true"
+     },
+     {
+      "text": "A label tells where a relic was found.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A new plastic chair is a historical relic.",
+      "truth": "false",
+      "explain": "It is new: a relic comes from the past."
+     },
+     {
+      "text": "Relics should be cleaned with strong soap and a brush.",
+      "truth": "false",
+      "explain": "That can damage them: handle carefully."
+     },
+     {
+      "text": "Selling relics protects our heritage.",
+      "truth": "false",
+      "explain": "Selling relics loses them from our heritage."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

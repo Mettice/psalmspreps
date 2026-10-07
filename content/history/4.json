@@ -1,0 +1,390 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "hi4",
+   "name": "Early humans and Africa, the cradle of humankind"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Africa is called the cradle of humankind: the oldest fossils of human ancestors have been found there.\nImportant finds (dates are estimates and differ between books):\n• Chad: Toumaï (Sahelanthropus), about 7 million years old;\n• Ethiopia: “Lucy” (Australopithecus), about 3.2 million years old;\n• Tanzania (Olduvai Gorge): Homo habilis and early stone tools;\n• Kenya: Homo erectus (the “Turkana Boy”);\n• South Africa: many fossils in caves such as Sterkfontein;\n• Morocco and Ethiopia: early Homo sapiens, about 300 000 years ago.\nEarly humans lived where there was water, food and shelter: near rivers and lakes, in the savanna, and in caves and rock shelters. From Africa, humans later spread to the rest of the world.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why did early humans often live near rivers and lakes?",
+  "steps": [
+   "People and animals need water every day.",
+   "Animals came to drink, so hunting was easier, and plants grew well near water.",
+   "So rivers and lakes gave water and food."
+  ],
+  "answer": "For water and food (animals to hunt and plants to gather).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic4-1",
+    "status": "draft",
+    "idea": "Africa is the cradle of humankind: the oldest human ancestors were found there.",
+    "vars": {},
+    "example": [
+     "“Lucy” was found in Ethiopia; Toumaï was found in Chad, Cameroon’s neighbour."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi4-place"
+    }
+   },
+   {
+    "id": "hic4-2",
+    "status": "draft",
+    "idea": "Fossils are the remains of very old bones turned to stone. Their dates are estimates, so we say “about”.",
+    "vars": {
+     "n": 3200000
+    },
+    "example": [
+     "Lucy lived {ago(n)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi4-fossil"
+    }
+   },
+   {
+    "id": "hic4-3",
+    "status": "draft",
+    "idea": "Early humans lived near water, in the savanna, and in caves and rock shelters.",
+    "vars": {},
+    "example": [
+     "A cave gave shelter from rain and wild animals."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hic4-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "early-humans"
+     ],
+     "vars": {},
+     "prompt": "Where did early humans often live?",
+     "pool": {
+      "right": [
+       {
+        "text": "near rivers and lakes",
+        "truth": "true"
+       },
+       {
+        "text": "in caves and rock shelters",
+        "truth": "true"
+       },
+       {
+        "text": "in the savanna, where there were animals to hunt",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "in big cities",
+        "truth": "false",
+        "explain": "Cities came much later."
+       },
+       {
+        "text": "in houses of cement",
+        "truth": "false",
+        "explain": "Cement was not known."
+       },
+       {
+        "text": "on the tops of high, bare mountains",
+        "truth": "false",
+        "explain": "They needed water and food nearby."
+       },
+       {
+        "text": "in the middle of deserts far from water",
+        "truth": "false",
+        "explain": "They needed water every day."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi4-place",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Toumaï (Sahelanthropus) was found here",
+       "a": "Chad",
+       "why": "Chad: Toumaï (Sahelanthropus) was found here."
+      },
+      {
+       "t": "“Lucy” (Australopithecus) was found here",
+       "a": "Ethiopia",
+       "why": "Ethiopia: “Lucy” (Australopithecus) was found here."
+      },
+      {
+       "t": "Olduvai Gorge, famous for Homo habilis, is here",
+       "a": "Tanzania",
+       "why": "Tanzania: Olduvai Gorge, famous for Homo habilis, is here."
+      },
+      {
+       "t": "the “Turkana Boy” (Homo erectus) was found here",
+       "a": "Kenya",
+       "why": "Kenya: the “Turkana Boy” (Homo erectus) was found here."
+      },
+      {
+       "t": "the Sterkfontein caves are here",
+       "a": "South Africa",
+       "why": "South Africa: the Sterkfontein caves are here."
+      }
+     ]
+    }
+   },
+   "prompt": "In which country: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Chad",
+     "misconception": "other"
+    },
+    {
+     "text": "Ethiopia",
+     "misconception": "other"
+    },
+    {
+     "text": "Tanzania",
+     "misconception": "other"
+    },
+    {
+     "text": "Kenya",
+     "misconception": "other"
+    },
+    {
+     "text": "South Africa",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that country. Read the list of finds again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "hi4-fossil",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "What is a fossil?",
+   "pool": {
+    "right": [
+     {
+      "text": "the remains of a very old living thing, often turned to stone",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a new kind of stone tool",
+      "truth": "false",
+      "explain": "A tool is made by people; a fossil is a remain of a living thing."
+     },
+     {
+      "text": "a story about the first people",
+      "truth": "false",
+      "explain": "That is a myth or oral tradition."
+     },
+     {
+      "text": "a kind of cave painting",
+      "truth": "false",
+      "explain": "A painting is made by people; a fossil is a remain."
+     },
+     {
+      "text": "a modern skeleton in a hospital",
+      "truth": "false",
+      "explain": "Fossils are very, very old."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi4-cradle",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "Why is Africa called the cradle of humankind?",
+   "pool": {
+    "right": [
+     {
+      "text": "The oldest fossils of human ancestors have been found there.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is the largest continent.",
+      "truth": "false",
+      "explain": "Asia is larger. The reason is the oldest fossils."
+     },
+     {
+      "text": "It has the most people today.",
+      "truth": "false",
+      "explain": "Asia has the most people. The reason is the oldest fossils."
+     },
+     {
+      "text": "It is the hottest continent.",
+      "truth": "false",
+      "explain": "The reason is the oldest fossils of human ancestors."
+     },
+     {
+      "text": "All animals came from Africa.",
+      "truth": "false",
+      "explain": "The phrase is about human ancestors."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi4-water",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "Why did early humans settle near rivers and lakes?",
+   "pool": {
+    "right": [
+     {
+      "text": "for drinking water and food from animals and plants",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "to swim for fun",
+      "truth": "false",
+      "explain": "They needed water and food to survive."
+     },
+     {
+      "text": "to travel by motor boat",
+      "truth": "false",
+      "explain": "Motor boats did not exist."
+     },
+     {
+      "text": "because rivers were warm in winter",
+      "truth": "false",
+      "explain": "The reasons were water and food."
+     },
+     {
+      "text": "to build bridges",
+      "truth": "false",
+      "explain": "Bridges came much later."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "“Lucy” was found in Ethiopia.",
+      "truth": "true"
+     },
+     {
+      "text": "Toumaï was found in Chad.",
+      "truth": "true"
+     },
+     {
+      "text": "Fossil dates are estimates.",
+      "truth": "true"
+     },
+     {
+      "text": "Early humans used caves for shelter.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The oldest human fossils were found in Europe.",
+      "truth": "false",
+      "explain": "They were found in Africa."
+     },
+     {
+      "text": "Early humans lived far from water.",
+      "truth": "false",
+      "explain": "They lived near water."
+     },
+     {
+      "text": "Lucy lived about 300 years ago.",
+      "truth": "false",
+      "explain": "Lucy lived about 3.2 million years ago."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

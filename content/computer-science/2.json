@@ -1,0 +1,353 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "cs2",
+   "name": "History and generations of computers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "From counting tools to smartphones (dates are approximate):\n• the abacus, used for counting for thousands of years;\n• 1642: Blaise Pascal’s mechanical adding machine (the Pascaline);\n• 1830s: Charles Babbage designs the Analytical Engine; he is called the father of the computer;\n• 1843: Ada Lovelace writes the first computer program;\n• 1946: ENIAC, an early electronic computer, filling a large room;\n• 1980s: personal computers in offices and homes;\n• 2000s: laptops, the Internet everywhere, smartphones.\nGenerations of computers (textbooks give slightly different dates):\n1st vacuum tubes; 2nd transistors; 3rd integrated circuits (chips); 4th microprocessors; 5th artificial intelligence.\nEach generation became smaller, faster, cheaper and more reliable.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why did computers become smaller and cheaper from the first to the fourth generation?",
+  "steps": [
+   "Vacuum tubes were big, hot and broke often.",
+   "Transistors, then chips, then microprocessors put more and more parts into a smaller space.",
+   "So computers became smaller, faster and cheaper."
+  ],
+  "answer": "New technology (transistors, chips, microprocessors) packed more into less space.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc2-1",
+    "status": "draft",
+    "idea": "Before electronic computers, people used counting tools and machines: the abacus, Pascal’s adding machine, Babbage’s engine.",
+    "vars": {},
+    "example": [
+     "Charles Babbage is called the father of the computer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs2-who"
+    }
+   },
+   {
+    "id": "csc2-2",
+    "status": "draft",
+    "idea": "There are five generations of computers: vacuum tubes, transistors, integrated circuits, microprocessors, artificial intelligence.",
+    "vars": {},
+    "example": [
+     "Your phone has a microprocessor: fourth-generation technology."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs2-gen"
+    }
+   },
+   {
+    "id": "csc2-3",
+    "status": "draft",
+    "idea": "Each generation was smaller, faster, cheaper and more reliable.",
+    "vars": {},
+    "example": [
+     "ENIAC filled a room; a phone today is far more powerful."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc2-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cs-history"
+     ],
+     "vars": {},
+     "prompt": "How did computers change from one generation to the next?",
+     "pool": {
+      "right": [
+       {
+        "text": "They became smaller, faster and cheaper.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "They became bigger and slower.",
+        "truth": "false",
+        "explain": "The opposite: smaller and faster."
+       },
+       {
+        "text": "They stopped using electricity.",
+        "truth": "false",
+        "explain": "All of them use electricity."
+       },
+       {
+        "text": "They became more expensive every time.",
+        "truth": "false",
+        "explain": "They became cheaper."
+       },
+       {
+        "text": "Nothing changed.",
+        "truth": "false",
+        "explain": "They changed a lot."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs2-who",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cs-history"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "built a mechanical adding machine in 1642",
+       "a": "Blaise Pascal",
+       "why": "Blaise Pascal: built a mechanical adding machine in 1642."
+      },
+      {
+       "t": "designed the Analytical Engine and is called the father of the computer",
+       "a": "Charles Babbage",
+       "why": "Charles Babbage: designed the Analytical Engine and is called the father of the computer."
+      },
+      {
+       "t": "wrote the first computer program",
+       "a": "Ada Lovelace",
+       "why": "Ada Lovelace: wrote the first computer program."
+      }
+     ]
+    }
+   },
+   "prompt": "Who {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Blaise Pascal",
+     "misconception": "other"
+    },
+    {
+     "text": "Charles Babbage",
+     "misconception": "other"
+    },
+    {
+     "text": "Ada Lovelace",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that person. Read the history again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "cs2-gen",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cs-history"
+   ],
+   "vars": {
+    "g": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "Which technology belongs to the {ordinalWords(words(g))} generation of computers?",
+   "correct": "{generationTech(g)}",
+   "distractors": [
+    {
+     "text": "{generationTech(1)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{generationTech(2)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{generationTech(3)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{generationTech(4)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{generationTech(5)}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "In order: vacuum tubes, transistors, integrated circuits, microprocessors, artificial intelligence."
+    }
+   ],
+   "solution": [
+    "The generations in order: vacuum tubes, transistors, integrated circuits, microprocessors, artificial intelligence.",
+    "Generation {g}: {answer}."
+   ]
+  },
+  {
+   "id": "cs2-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cs-history"
+   ],
+   "vars": {
+    "s": {
+     "sample": [
+      "range(0, 6)",
+      "4"
+     ]
+    }
+   },
+   "order": "asc",
+   "prompt": "Put these in order, earliest first.",
+   "items": [
+    {
+     "text": "{historyStep(s[0])}",
+     "key": "historyYear(s[0])"
+    },
+    {
+     "text": "{historyStep(s[1])}",
+     "key": "historyYear(s[1])"
+    },
+    {
+     "text": "{historyStep(s[2])}",
+     "key": "historyYear(s[2])"
+    },
+    {
+     "text": "{historyStep(s[3])}",
+     "key": "historyYear(s[3])"
+    }
+   ]
+  },
+  {
+   "id": "cs2-genorder",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cs-history"
+   ],
+   "vars": {
+    "s": {
+     "sample": [
+      "range(1, 5)",
+      "4"
+     ]
+    }
+   },
+   "order": "asc",
+   "prompt": "Put these computer technologies in order, oldest first.",
+   "items": [
+    {
+     "text": "{generationTech(s[0])}",
+     "key": "s[0]"
+    },
+    {
+     "text": "{generationTech(s[1])}",
+     "key": "s[1]"
+    },
+    {
+     "text": "{generationTech(s[2])}",
+     "key": "s[2]"
+    },
+    {
+     "text": "{generationTech(s[3])}",
+     "key": "s[3]"
+    }
+   ]
+  },
+  {
+   "id": "cs2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cs-history"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The first generation used vacuum tubes.",
+      "truth": "true"
+     },
+     {
+      "text": "Ada Lovelace wrote the first computer program.",
+      "truth": "true"
+     },
+     {
+      "text": "Charles Babbage is called the father of the computer.",
+      "truth": "true"
+     },
+     {
+      "text": "Microprocessors belong to the fourth generation.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "ENIAC was smaller than a smartphone.",
+      "truth": "false",
+      "explain": "ENIAC filled a large room."
+     },
+     {
+      "text": "The abacus is an electronic computer.",
+      "truth": "false",
+      "explain": "The abacus is a counting tool with beads."
+     },
+     {
+      "text": "Each generation was bigger and slower.",
+      "truth": "false",
+      "explain": "Each was smaller and faster."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

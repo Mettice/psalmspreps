@@ -1,0 +1,311 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "b5",
+   "name": "Studying living things in the field and the laboratory"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Living things can be studied in two places:\n• In their natural environment (field study): we see how they really live, what they eat, where they shelter and how they behave with other living things. Tools: notebook and pencil, hand lens, collecting bags and jars, sweep net, quadrat (a square frame for counting plants), camera.\n• In the laboratory: we can control the conditions, measure carefully and look closely with a microscope. But the organism is away from its real home.\nThe two go together: observe in the field, then study samples in the laboratory.\nIn the field: disturb living things as little as possible, return animals where you found them, and never collect protected species.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "To learn what weaver birds use to build their nests and where they build them, should Ewane study them in the field or in the laboratory?",
+  "steps": [
+   "Nest building happens in the birds’ real home, in trees near water and villages.",
+   "Watching them there shows the real behaviour."
+  ],
+  "answer": "In the field (their natural environment).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc5-1",
+    "status": "draft",
+    "idea": "A field study observes living things in their natural environment.",
+    "vars": {},
+    "example": [
+     "Counting the plants in a quadrat on the school field is a field study."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b5-where"
+    }
+   },
+   {
+    "id": "bc5-2",
+    "status": "draft",
+    "idea": "In the laboratory we control conditions and look closely, for example with a microscope.",
+    "vars": {},
+    "example": [
+     "Pond water is brought to the lab to look for tiny organisms."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b5-tool"
+    }
+   },
+   {
+    "id": "bc5-3",
+    "status": "draft",
+    "idea": "In the field: disturb as little as possible, return animals and never collect protected species.",
+    "vars": {},
+    "example": [
+     "A frog is looked at, then put back where it was found."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc5-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "field-lab"
+     ],
+     "vars": {},
+     "prompt": "What should you do with a frog after studying it in the field?",
+     "pool": {
+      "right": [
+       {
+        "text": "put it back where you found it",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "take it home as a pet",
+        "truth": "false",
+        "explain": "Return animals to where you found them."
+       },
+       {
+        "text": "throw it far away",
+        "truth": "false",
+        "explain": "Put it back where it lives."
+       },
+       {
+        "text": "keep it in a jar without water",
+        "truth": "false",
+        "explain": "That would kill it."
+       },
+       {
+        "text": "sell it",
+        "truth": "false",
+        "explain": "Return animals to where you found them."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b5-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "field-lab"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "watching where weaver birds build nests",
+       "a": "in the field",
+       "why": "In the field: watching where weaver birds build nests."
+      },
+      {
+       "t": "looking at pond water through a microscope",
+       "a": "in the laboratory",
+       "why": "In the laboratory: looking at pond water through a microscope."
+      },
+      {
+       "t": "counting the kinds of plants on the school field",
+       "a": "in the field",
+       "why": "In the field: counting the kinds of plants on the school field."
+      },
+      {
+       "t": "measuring the temperature at which seeds germinate best, with everything else controlled",
+       "a": "in the laboratory",
+       "why": "In the laboratory: measuring the temperature at which seeds germinate best, with everything else controlled."
+      },
+      {
+       "t": "seeing what a chameleon eats in the bush",
+       "a": "in the field",
+       "why": "In the field: seeing what a chameleon eats in the bush."
+      }
+     ]
+    }
+   },
+   "prompt": "Where is this best done: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "in the field",
+     "misconception": "other"
+    },
+    {
+     "text": "in the laboratory",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think: real home, or controlled conditions?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "b5-tool",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "field-lab"
+   ],
+   "prompt": "Match each tool with its use.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "quadrat",
+     "right": "counting plants in a square area"
+    },
+    {
+     "left": "sweep net",
+     "right": "catching insects in long grass"
+    },
+    {
+     "left": "hand lens",
+     "right": "seeing small details"
+    },
+    {
+     "left": "collecting jar",
+     "right": "keeping small animals for a short time"
+    },
+    {
+     "left": "notebook",
+     "right": "recording observations"
+    }
+   ]
+  },
+  {
+   "id": "b5-adv",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "field-lab"
+   ],
+   "vars": {},
+   "prompt": "What is an advantage of studying living things in the laboratory?",
+   "pool": {
+    "right": [
+     {
+      "text": "Conditions can be controlled and things looked at closely.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "You see how the organism lives in its real home.",
+      "truth": "false",
+      "explain": "That is an advantage of a field study."
+     },
+     {
+      "text": "The organism is always happier there.",
+      "truth": "false",
+      "explain": "It is away from its real home."
+     },
+     {
+      "text": "No equipment is needed.",
+      "truth": "false",
+      "explain": "The laboratory has special equipment."
+     },
+     {
+      "text": "You can collect protected species.",
+      "truth": "false",
+      "explain": "Protected species must not be collected."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "field-lab"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A quadrat is used to count plants.",
+      "truth": "true"
+     },
+     {
+      "text": "Field studies show how organisms really live.",
+      "truth": "true"
+     },
+     {
+      "text": "A microscope is used in the laboratory.",
+      "truth": "true"
+     },
+     {
+      "text": "Animals should be returned after study.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Protected species may be collected for fun.",
+      "truth": "false",
+      "explain": "Protected species must never be collected."
+     },
+     {
+      "text": "In the laboratory you see an organism in its real home.",
+      "truth": "false",
+      "explain": "That is in the field."
+     },
+     {
+      "text": "A sweep net is used to look at cells.",
+      "truth": "false",
+      "explain": "A sweep net catches insects; a microscope shows cells."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "cs6",
+   "name": "Writing clear prompts for AI"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A prompt is the question or instruction you give to an AI tool.\nA good prompt is:\n• clear and specific: say exactly what you want;\n• gives context: who it is for and what you already know;\n• says the form of the answer: a list, a short paragraph, three examples, simple English;\n• safe: it contains no personal information.\nCompare: “Tell me about plants.” (vague) with “Explain in five simple sentences, for a Form 1 pupil, how a plant makes its food.” (clear).\nAfter the answer: read it carefully, check the facts in a book or with a teacher, and ask a follow-up question if something is unclear.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Improve this prompt: “Write about Cameroon.”",
+  "steps": [
+   "It is too vague: about what? for whom? how long?",
+   "Add the topic, the reader and the form.",
+   "For example: “List five main rivers of Cameroon, with one sentence about each, for a Form 1 pupil.”"
+  ],
+  "answer": "Make it specific: topic, reader and form of the answer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc6-1",
+    "status": "draft",
+    "idea": "A prompt is the question or instruction you give to an AI tool.",
+    "vars": {},
+    "example": [
+     "“Explain fractions with two examples” is a prompt."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs6-what"
+    }
+   },
+   {
+    "id": "csc6-2",
+    "status": "draft",
+    "idea": "A good prompt is clear and specific, gives context and says the form of the answer.",
+    "vars": {},
+    "example": [
+     "“In three simple sentences, for a Form 1 pupil, explain what a cell is.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs6-best"
+    }
+   },
+   {
+    "id": "csc6-3",
+    "status": "draft",
+    "idea": "After the answer: read carefully, check facts, and ask a follow-up if needed. Never put personal details in a prompt.",
+    "vars": {},
+    "example": [
+     "“Can you give one more example?” is a follow-up."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc6-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "prompts"
+     ],
+     "vars": {},
+     "prompt": "What should you do after an AI tool answers?",
+     "pool": {
+      "right": [
+       {
+        "text": "check the facts in a book or with a teacher",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "copy it straight into your exercise book",
+        "truth": "false",
+        "explain": "Check it first: it may be wrong."
+       },
+       {
+        "text": "share it with everyone at once",
+        "truth": "false",
+        "explain": "Check it first."
+       },
+       {
+        "text": "give the AI your phone number",
+        "truth": "false",
+        "explain": "Never share personal details."
+       },
+       {
+        "text": "assume it is always right",
+        "truth": "false",
+        "explain": "AI can be wrong."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs6-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "prompts"
+   ],
+   "vars": {},
+   "prompt": "What is a prompt?",
+   "pool": {
+    "right": [
+     {
+      "text": "the question or instruction you give to an AI tool",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "the answer the AI gives",
+      "truth": "false",
+      "explain": "That is the response."
+     },
+     {
+      "text": "a computer virus",
+      "truth": "false",
+      "explain": "A prompt is a question or instruction."
+     },
+     {
+      "text": "the screen of a computer",
+      "truth": "false",
+      "explain": "A prompt is what you type or say."
+     },
+     {
+      "text": "the password of the computer",
+      "truth": "false",
+      "explain": "A prompt is a question or instruction."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs6-best",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "prompts"
+   ],
+   "vars": {},
+   "prompt": "Which prompt is the clearest?",
+   "pool": {
+    "right": [
+     {
+      "text": "Explain in five simple sentences, for a Form 1 pupil, how a plant makes its food.",
+      "truth": "true"
+     },
+     {
+      "text": "List three causes of soil erosion, with one example each.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plants.",
+      "truth": "false",
+      "explain": "Too vague: what about plants?"
+     },
+     {
+      "text": "Tell me stuff.",
+      "truth": "false",
+      "explain": "Too vague: say exactly what you want."
+     },
+     {
+      "text": "Write something.",
+      "truth": "false",
+      "explain": "Too vague: about what, for whom, how long?"
+     },
+     {
+      "text": "Science?",
+      "truth": "false",
+      "explain": "Too vague."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs6-missing",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "prompts"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "“Explain photosynthesis.” (The pupil wants a short, simple answer.)",
+       "a": "the form and level of the answer",
+       "why": "The form and level of the answer: “Explain photosynthesis.” (The pupil wants a short, simple answer.)."
+      },
+      {
+       "t": "“Write about it.”",
+       "a": "what the topic is",
+       "why": "What the topic is: “Write about it.”."
+      },
+      {
+       "t": "“My name is Ewane Tabi, I live at … Help me with maths.”",
+       "a": "nothing is missing, but personal details must be removed",
+       "why": "Nothing is missing, but personal details must be removed: “My name is Ewane Tabi, I live at … Help me with maths.”."
+      },
+      {
+       "t": "“List rivers.” (The pupil wants rivers of Cameroon.)",
+       "a": "the context: which country",
+       "why": "The context: which country: “List rivers.” (The pupil wants rivers of Cameroon.)."
+      }
+     ]
+    }
+   },
+   "prompt": "What is wrong with or missing from this prompt?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "the form and level of the answer",
+     "misconception": "other"
+    },
+    {
+     "text": "what the topic is",
+     "misconception": "other"
+    },
+    {
+     "text": "nothing is missing, but personal details must be removed",
+     "misconception": "other"
+    },
+    {
+     "text": "the context: which country",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Look again: is it the topic, the context, the form, or something unsafe?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "cs6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "prompts"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A good prompt is specific.",
+      "truth": "true"
+     },
+     {
+      "text": "A prompt can say who the answer is for.",
+      "truth": "true"
+     },
+     {
+      "text": "You can ask a follow-up question.",
+      "truth": "true"
+     },
+     {
+      "text": "AI answers should be checked.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A shorter, vaguer prompt always gives a better answer.",
+      "truth": "false",
+      "explain": "Clear, specific prompts give better answers."
+     },
+     {
+      "text": "Putting your address in a prompt makes the answer better.",
+      "truth": "false",
+      "explain": "Never share personal details."
+     },
+     {
+      "text": "You must never ask a follow-up question.",
+      "truth": "false",
+      "explain": "Follow-up questions help."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

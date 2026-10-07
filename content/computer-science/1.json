@@ -1,0 +1,360 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "cs1",
+   "name": "What computer science is; input, process, output"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Computer Science is the study of computers and of how information is processed: how to solve problems with computers, write programs, store data and connect computers together.\nA computer is an electronic machine that accepts data (input), processes it following instructions (a program), stores it, and gives out results (output).\nThe information processing cycle:\n• input: data goes in (keyboard, mouse, microphone, scanner, camera);\n• processing: the computer works on the data;\n• output: results come out (screen, printer, speakers);\n• storage: data and results are kept for later (hard disk, flash drive).\nComputers are used in schools, hospitals, banks, farms, offices and homes.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A cashier scans the price of rice, the till adds up the total, the total appears on the screen and is saved for the day’s sales. Name the four stages.",
+  "steps": [
+   "Scanning the price: input.",
+   "Adding up the total: processing.",
+   "Showing the total on the screen: output.",
+   "Saving it for the day’s sales: storage."
+  ],
+  "answer": "Input, processing, output, storage.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc1-1",
+    "status": "draft",
+    "idea": "A computer is an electronic machine that accepts data, processes it, stores it and gives results.",
+    "vars": {},
+    "example": [
+     "A calculator, a phone and a laptop are all computers of a kind."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc1-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cs-intro"
+     ],
+     "vars": {},
+     "prompt": "What is a computer?",
+     "pool": {
+      "right": [
+       {
+        "text": "an electronic machine that accepts data, processes it, stores it and gives results",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "any machine with a motor",
+        "truth": "false",
+        "explain": "A motor alone does not process data."
+       },
+       {
+        "text": "a box that only plays music",
+        "truth": "false",
+        "explain": "A computer can do much more: it processes data."
+       },
+       {
+        "text": "a kind of television",
+        "truth": "false",
+        "explain": "A television shows pictures; a computer processes data."
+       },
+       {
+        "text": "a book of instructions",
+        "truth": "false",
+        "explain": "A program is instructions; a computer is the machine that follows them."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "csc1-2",
+    "status": "draft",
+    "idea": "Input, processing, output and storage make the information processing cycle.",
+    "vars": {},
+    "example": [
+     "Keyboard: input. Screen: output."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs1-ipo"
+    }
+   },
+   {
+    "id": "csc1-3",
+    "status": "draft",
+    "idea": "Computer Science studies how to solve problems with computers, write programs and use data.",
+    "vars": {},
+    "example": [
+     "Writing an app to record class marks is computer science."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs1-what"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs1-ipo",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cs-intro"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "typing your name on the keyboard",
+       "a": "input",
+       "why": "Input: typing your name on the keyboard."
+      },
+      {
+       "t": "the computer adding up the marks",
+       "a": "processing",
+       "why": "Processing: the computer adding up the marks."
+      },
+      {
+       "t": "the printer printing the report card",
+       "a": "output",
+       "why": "Output: the printer printing the report card."
+      },
+      {
+       "t": "saving the marks on the hard disk",
+       "a": "storage",
+       "why": "Storage: saving the marks on the hard disk."
+      },
+      {
+       "t": "scanning a photo",
+       "a": "input",
+       "why": "Input: scanning a photo."
+      },
+      {
+       "t": "showing the result on the screen",
+       "a": "output",
+       "why": "Output: showing the result on the screen."
+      }
+     ]
+    }
+   },
+   "prompt": "Which stage is this: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "input",
+     "misconception": "other"
+    },
+    {
+     "text": "processing",
+     "misconception": "other"
+    },
+    {
+     "text": "output",
+     "misconception": "other"
+    },
+    {
+     "text": "storage",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that stage. Data in, work on it, results out, keep it."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "cs1-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cs-intro"
+   ],
+   "vars": {},
+   "prompt": "Which is part of computer science?",
+   "pool": {
+    "right": [
+     {
+      "text": "writing programs",
+      "truth": "true"
+     },
+     {
+      "text": "storing and using data",
+      "truth": "true"
+     },
+     {
+      "text": "solving problems with computers",
+      "truth": "true"
+     },
+     {
+      "text": "connecting computers in networks",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "growing maize",
+      "truth": "false",
+      "explain": "That is agriculture."
+     },
+     {
+      "text": "painting houses",
+      "truth": "false",
+      "explain": "That is not computer science."
+     },
+     {
+      "text": "studying volcanoes",
+      "truth": "false",
+      "explain": "That is geography or geology."
+     },
+     {
+      "text": "cooking rice",
+      "truth": "false",
+      "explain": "That is home economics."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs1-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cs-intro"
+   ],
+   "prompt": "Sort these devices: input or output?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "input",
+    "output"
+   ],
+   "pool": [
+    {
+     "left": "keyboard",
+     "right": "input"
+    },
+    {
+     "left": "mouse",
+     "right": "input"
+    },
+    {
+     "left": "microphone",
+     "right": "input"
+    },
+    {
+     "left": "scanner",
+     "right": "input"
+    },
+    {
+     "left": "camera",
+     "right": "input"
+    },
+    {
+     "left": "screen",
+     "right": "output"
+    },
+    {
+     "left": "printer",
+     "right": "output"
+    },
+    {
+     "left": "speakers",
+     "right": "output"
+    },
+    {
+     "left": "projector",
+     "right": "output"
+    },
+    {
+     "left": "headphones",
+     "right": "output"
+    }
+   ]
+  },
+  {
+   "id": "cs1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cs-intro"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A keyboard is an input device.",
+      "truth": "true"
+     },
+     {
+      "text": "A printer is an output device.",
+      "truth": "true"
+     },
+     {
+      "text": "A computer follows instructions called a program.",
+      "truth": "true"
+     },
+     {
+      "text": "Data can be stored for later use.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A screen is an input device.",
+      "truth": "false",
+      "explain": "A screen shows results: output."
+     },
+     {
+      "text": "A computer can think and feel like a person.",
+      "truth": "false",
+      "explain": "A computer follows instructions; it has no feelings."
+     },
+     {
+      "text": "Processing means printing the result.",
+      "truth": "false",
+      "explain": "Processing is working on the data; printing is output."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,350 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "b3",
+   "name": "Living and non-living; plants and animals"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Living things show all seven characteristics (MRS GREN); non-living things do not.\nDifferences between plants and animals:\n• Plants make their own food by photosynthesis, using sunlight; animals eat food.\n• Most plants are green: they contain chlorophyll. Animals have none.\n• Plants stay in one place (they move only parts, slowly); most animals move from place to place.\n• Plants grow all their lives; most animals stop growing when adult.\n• Plant cells have a cell wall; animal cells do not.\n• Animals respond quickly (nerves, muscles); plants respond slowly.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give two ways in which a cassava plant is different from a goat.",
+  "steps": [
+   "The cassava plant makes its own food using sunlight; the goat must eat food.",
+   "The cassava plant stays in one place; the goat moves from place to place."
+  ],
+  "answer": "It makes its own food, and it does not move from place to place.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc3-1",
+    "status": "draft",
+    "idea": "Plants make their own food using sunlight (photosynthesis); animals must eat food.",
+    "vars": {},
+    "example": [
+     "A maize plant makes sugar in its green leaves; a goat eats the leaves."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-diff"
+    }
+   },
+   {
+    "id": "bc3-2",
+    "status": "draft",
+    "idea": "Plants stay in one place and grow all their lives; most animals move about and stop growing when adult.",
+    "vars": {},
+    "example": [
+     "A tree keeps growing taller for many years."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b3-sort"
+    }
+   },
+   {
+    "id": "bc3-3",
+    "status": "draft",
+    "idea": "Plant cells have a cell wall and chlorophyll; animal cells have neither.",
+    "vars": {},
+    "example": [
+     "Chlorophyll makes leaves green."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc3-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "plants-animals"
+     ],
+     "vars": {},
+     "prompt": "Which is true of plants but not animals?",
+     "pool": {
+      "right": [
+       {
+        "text": "They make their own food using sunlight.",
+        "truth": "true"
+       },
+       {
+        "text": "They contain chlorophyll.",
+        "truth": "true"
+       },
+       {
+        "text": "Their cells have a cell wall.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "They need water.",
+        "truth": "false",
+        "explain": "Animals need water too."
+       },
+       {
+        "text": "They respire.",
+        "truth": "false",
+        "explain": "Animals respire too."
+       },
+       {
+        "text": "They reproduce.",
+        "truth": "false",
+        "explain": "Animals reproduce too."
+       },
+       {
+        "text": "They grow.",
+        "truth": "false",
+        "explain": "Animals grow too."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b3-diff",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plants-animals"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "makes its own food using sunlight",
+       "a": "a plant",
+       "why": "A plant: makes its own food using sunlight."
+      },
+      {
+       "t": "eats food",
+       "a": "an animal",
+       "why": "An animal: eats food."
+      },
+      {
+       "t": "contains green chlorophyll",
+       "a": "a plant",
+       "why": "A plant: contains green chlorophyll."
+      },
+      {
+       "t": "moves from place to place",
+       "a": "an animal",
+       "why": "An animal: moves from place to place."
+      },
+      {
+       "t": "has cells with a cell wall",
+       "a": "a plant",
+       "why": "A plant: has cells with a cell wall."
+      },
+      {
+       "t": "stops growing when adult",
+       "a": "an animal",
+       "why": "An animal: stops growing when adult."
+      }
+     ]
+    }
+   },
+   "prompt": "Which one {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a plant",
+     "misconception": "other"
+    },
+    {
+     "text": "an animal",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think about food, movement and growth."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "b3-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plants-animals"
+   ],
+   "prompt": "Sort these: plant or animal?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "plant",
+    "animal"
+   ],
+   "pool": [
+    {
+     "left": "cassava",
+     "right": "plant"
+    },
+    {
+     "left": "a mango tree",
+     "right": "plant"
+    },
+    {
+     "left": "grass",
+     "right": "plant"
+    },
+    {
+     "left": "an orchid",
+     "right": "plant"
+    },
+    {
+     "left": "a fern",
+     "right": "plant"
+    },
+    {
+     "left": "a snail",
+     "right": "animal"
+    },
+    {
+     "left": "a goat",
+     "right": "animal"
+    },
+    {
+     "left": "a butterfly",
+     "right": "animal"
+    },
+    {
+     "left": "a frog",
+     "right": "animal"
+    },
+    {
+     "left": "a pangolin",
+     "right": "animal"
+    }
+   ]
+  },
+  {
+   "id": "b3-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "plants-animals"
+   ],
+   "vars": {},
+   "prompt": "Why do plants not need to move about to find food?",
+   "pool": {
+    "right": [
+     {
+      "text": "They make their own food using sunlight, water and carbon dioxide.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "They do not need food.",
+      "truth": "false",
+      "explain": "All living things need food; plants make theirs."
+     },
+     {
+      "text": "Animals bring food to them.",
+      "truth": "false",
+      "explain": "Plants make their own food."
+     },
+     {
+      "text": "They eat soil.",
+      "truth": "false",
+      "explain": "They take water and minerals from the soil but make their food in the leaves."
+     },
+     {
+      "text": "They sleep all the time.",
+      "truth": "false",
+      "explain": "Plants make their own food by photosynthesis."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "plants-animals",
+    "living-things"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Plants make their own food.",
+      "truth": "true"
+     },
+     {
+      "text": "Most animals move from place to place.",
+      "truth": "true"
+     },
+     {
+      "text": "Plant cells have a cell wall.",
+      "truth": "true"
+     },
+     {
+      "text": "Chlorophyll makes plants green.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Animals make their food by photosynthesis.",
+      "truth": "false",
+      "explain": "Plants do; animals eat food."
+     },
+     {
+      "text": "Plants stop growing when they are a year old.",
+      "truth": "false",
+      "explain": "Plants grow all their lives."
+     },
+     {
+      "text": "Animal cells have a cell wall.",
+      "truth": "false",
+      "explain": "Animal cells have no cell wall."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

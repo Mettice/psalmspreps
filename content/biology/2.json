@@ -1,0 +1,374 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "b2",
+   "name": "Characteristics of living things"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "All living things share seven characteristics. Remember MRS GREN:\n• Movement: moving the body or a part of it (a plant turns its leaves to the light);\n• Respiration: releasing energy from food;\n• Sensitivity: noticing and responding to changes (light, heat, touch);\n• Growth: getting bigger;\n• Reproduction: making young ones;\n• Excretion: getting rid of waste made in the body (urine, carbon dioxide, sweat);\n• Nutrition: taking in food (animals) or making it (green plants).\nA thing is living only if it shows all seven. A car moves and uses fuel, but it does not grow or reproduce, so it is not living.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A fire grows bigger, moves and uses air. Is fire a living thing?",
+  "steps": [
+   "Check MRS GREN.",
+   "A fire does not reproduce young ones, has no sensitivity and does not excrete waste made in a body.",
+   "It does not show all seven characteristics."
+  ],
+  "answer": "No, fire is not living.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc2-1",
+    "status": "draft",
+    "idea": "Living things share seven characteristics: Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition (MRS GREN).",
+    "vars": {},
+    "example": [
+     "A goat moves, breathes, feels, grows, has kids, excretes and eats."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-match"
+    }
+   },
+   {
+    "id": "bc2-2",
+    "status": "draft",
+    "idea": "Plants show them too: leaves turn to the light (movement, sensitivity), plants grow, make seeds and make their own food.",
+    "vars": {},
+    "example": [
+     "A bean seedling bends towards the window."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-which"
+    }
+   },
+   {
+    "id": "bc2-3",
+    "status": "draft",
+    "idea": "A thing is living only if it shows all seven characteristics.",
+    "vars": {},
+    "example": [
+     "A car moves but does not grow or reproduce: it is not living."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc2-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "living-things"
+     ],
+     "vars": {},
+     "prompt": "Which of these is a living thing?",
+     "pool": {
+      "right": [
+       {
+        "text": "a mushroom",
+        "truth": "true"
+       },
+       {
+        "text": "a mango tree",
+        "truth": "true"
+       },
+       {
+        "text": "a goat",
+        "truth": "true"
+       },
+       {
+        "text": "a mosquito",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a car",
+        "truth": "false",
+        "explain": "A car does not grow or reproduce."
+       },
+       {
+        "text": "a fire",
+        "truth": "false",
+        "explain": "A fire does not reproduce or excrete."
+       },
+       {
+        "text": "a stone",
+        "truth": "false",
+        "explain": "A stone shows none of the characteristics."
+       },
+       {
+        "text": "the wind",
+        "truth": "false",
+        "explain": "The wind is not living."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "living-things"
+   ],
+   "prompt": "Match each characteristic of living things with its meaning.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "movement",
+     "right": "moving the body or a part of it"
+    },
+    {
+     "left": "respiration",
+     "right": "releasing energy from food"
+    },
+    {
+     "left": "sensitivity",
+     "right": "noticing and responding to changes around"
+    },
+    {
+     "left": "growth",
+     "right": "getting bigger"
+    },
+    {
+     "left": "reproduction",
+     "right": "making young ones"
+    },
+    {
+     "left": "excretion",
+     "right": "getting rid of waste made in the body"
+    },
+    {
+     "left": "nutrition",
+     "right": "taking in or making food"
+    }
+   ]
+  },
+  {
+   "id": "b2-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "living-things"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "A sunflower turns to face the sun.",
+       "a": "sensitivity",
+       "why": "Sensitivity: A sunflower turns to face the sun."
+      },
+      {
+       "t": "A hen lays eggs that hatch into chicks.",
+       "a": "reproduction",
+       "why": "Reproduction: A hen lays eggs that hatch into chicks."
+      },
+      {
+       "t": "A baby becomes a child, then an adult.",
+       "a": "growth",
+       "why": "Growth: A baby becomes a child, then an adult."
+      },
+      {
+       "t": "A goat eats grass.",
+       "a": "nutrition",
+       "why": "Nutrition: A goat eats grass."
+      },
+      {
+       "t": "We breathe out carbon dioxide made in our cells.",
+       "a": "excretion",
+       "why": "Excretion: We breathe out carbon dioxide made in our cells."
+      },
+      {
+       "t": "A cell releases energy from sugar.",
+       "a": "respiration",
+       "why": "Respiration: A cell releases energy from sugar."
+      },
+      {
+       "t": "A lizard runs away from a cat.",
+       "a": "movement",
+       "why": "Movement: A lizard runs away from a cat."
+      }
+     ]
+    }
+   },
+   "prompt": "Which characteristic of living things is shown?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "movement",
+     "misconception": "other"
+    },
+    {
+     "text": "respiration",
+     "misconception": "other"
+    },
+    {
+     "text": "sensitivity",
+     "misconception": "other"
+    },
+    {
+     "text": "growth",
+     "misconception": "other"
+    },
+    {
+     "text": "reproduction",
+     "misconception": "other"
+    },
+    {
+     "text": "excretion",
+     "misconception": "other"
+    },
+    {
+     "text": "nutrition",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that one. Read MRS GREN again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b2-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "living-things"
+   ],
+   "prompt": "Sort these: living or non-living?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "living",
+    "non-living"
+   ],
+   "pool": [
+    {
+     "left": "a mushroom",
+     "right": "living"
+    },
+    {
+     "left": "a mango tree",
+     "right": "living"
+    },
+    {
+     "left": "a cockroach",
+     "right": "living"
+    },
+    {
+     "left": "bacteria",
+     "right": "living"
+    },
+    {
+     "left": "a fish",
+     "right": "living"
+    },
+    {
+     "left": "a car",
+     "right": "non-living"
+    },
+    {
+     "left": "a fire",
+     "right": "non-living"
+    },
+    {
+     "left": "a stone",
+     "right": "non-living"
+    },
+    {
+     "left": "the wind",
+     "right": "non-living"
+    },
+    {
+     "left": "a radio",
+     "right": "non-living"
+    }
+   ]
+  },
+  {
+   "id": "b2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "living-things"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Plants can respond to light.",
+      "truth": "true"
+     },
+     {
+      "text": "All living things reproduce.",
+      "truth": "true"
+     },
+     {
+      "text": "Excretion is getting rid of waste made in the body.",
+      "truth": "true"
+     },
+     {
+      "text": "Respiration releases energy from food.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A car is living because it moves.",
+      "truth": "false",
+      "explain": "A car does not grow or reproduce."
+     },
+     {
+      "text": "Plants do not need nutrition.",
+      "truth": "false",
+      "explain": "Green plants make their own food: that is nutrition."
+     },
+     {
+      "text": "Respiration is the same as breathing in air.",
+      "truth": "false",
+      "explain": "Respiration releases energy from food in the cells; breathing moves air in and out."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

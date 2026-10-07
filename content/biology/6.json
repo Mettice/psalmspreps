@@ -1,0 +1,323 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "b6",
+   "name": "Laboratory safety and equipment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "This practical is done in the school laboratory with a teacher; here you prepare for it.\nSafety rules:\n• enter only with a teacher, and follow instructions;\n• never eat, drink or taste anything in the laboratory;\n• wash your hands after handling specimens and soil;\n• handle glass slides, scalpels and needles carefully; report any cut, spill or breakage at once;\n• tie back long hair; keep bags off the benches.\nCommon equipment: microscope, hand lens, slides and cover slips, dropper, forceps, scalpel, petri dish, beaker.\nCare: carry a microscope with two hands (one under the base); clean and dry equipment after use; put everything back in its place.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Sirri drops a glass slide and it breaks on the floor. What should Sirri do?",
+  "steps": [
+   "Do not pick up the broken glass with bare hands.",
+   "Tell the teacher at once.",
+   "The teacher clears it safely, for example with a brush and dustpan."
+  ],
+  "answer": "Leave the glass, tell the teacher at once.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc6-1",
+    "status": "draft",
+    "idea": "Laboratory rules: never eat, drink or taste anything; wash hands; report accidents at once.",
+    "vars": {},
+    "example": [
+     "Some specimens and chemicals can carry germs or be poisonous."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b6-rule"
+    }
+   },
+   {
+    "id": "bc6-2",
+    "status": "draft",
+    "idea": "Each piece of equipment has a job: forceps pick up, a scalpel cuts, a dropper adds drops.",
+    "vars": {},
+    "example": [
+     "Forceps lift a thin onion skin without tearing it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b6-equip"
+    }
+   },
+   {
+    "id": "bc6-3",
+    "status": "draft",
+    "idea": "Care for equipment: carry a microscope with two hands, clean and dry things, put them back.",
+    "vars": {},
+    "example": [
+     "One hand holds the arm, the other supports the base."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc6-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lab-safety"
+     ],
+     "vars": {},
+     "prompt": "How should you carry a microscope?",
+     "pool": {
+      "right": [
+       {
+        "text": "with two hands: one on the arm and one under the base",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "by the eyepiece",
+        "truth": "false",
+        "explain": "The eyepiece can fall out."
+       },
+       {
+        "text": "with one hand, swinging it",
+        "truth": "false",
+        "explain": "It can fall and break."
+       },
+       {
+        "text": "upside down",
+        "truth": "false",
+        "explain": "Parts can fall out."
+       },
+       {
+        "text": "by the mirror",
+        "truth": "false",
+        "explain": "The mirror can come off."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b6-rule",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lab-safety"
+   ],
+   "vars": {},
+   "prompt": "Which is a safety rule in the biology laboratory?",
+   "pool": {
+    "right": [
+     {
+      "text": "Never eat or drink in the laboratory.",
+      "truth": "true"
+     },
+     {
+      "text": "Wash your hands after handling specimens.",
+      "truth": "true"
+     },
+     {
+      "text": "Report any accident to the teacher at once.",
+      "truth": "true"
+     },
+     {
+      "text": "Handle scalpels carefully.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Taste a specimen to identify it.",
+      "truth": "false",
+      "explain": "Never taste anything in the laboratory."
+     },
+     {
+      "text": "Run between the benches.",
+      "truth": "false",
+      "explain": "Running causes accidents."
+     },
+     {
+      "text": "Pick up broken glass with your hands.",
+      "truth": "false",
+      "explain": "Tell the teacher; do not touch broken glass."
+     },
+     {
+      "text": "Hide a spill so you are not blamed.",
+      "truth": "false",
+      "explain": "Report spills at once."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b6-equip",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lab-safety"
+   ],
+   "prompt": "Match each piece of equipment with its use.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "microscope",
+     "right": "makes very small things look bigger"
+    },
+    {
+     "left": "hand lens",
+     "right": "magnifies small details a little"
+    },
+    {
+     "left": "slide and cover slip",
+     "right": "hold a specimen to look at under the microscope"
+    },
+    {
+     "left": "dropper",
+     "right": "adds liquids drop by drop"
+    },
+    {
+     "left": "forceps",
+     "right": "pick up small or delicate things"
+    },
+    {
+     "left": "scalpel",
+     "right": "cuts thin pieces of a specimen"
+    },
+    {
+     "left": "petri dish",
+     "right": "holds small samples or growing seeds"
+    },
+    {
+     "left": "beaker",
+     "right": "holds and measures liquids roughly"
+    }
+   ]
+  },
+  {
+   "id": "b6-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lab-safety"
+   ],
+   "prompt": "Sort these: safe or unsafe in the laboratory?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "safe",
+    "unsafe"
+   ],
+   "pool": [
+    {
+     "left": "washing hands after the practical",
+     "right": "safe"
+    },
+    {
+     "left": "carrying the microscope with two hands",
+     "right": "safe"
+    },
+    {
+     "left": "telling the teacher about a cut",
+     "right": "safe"
+    },
+    {
+     "left": "tying back long hair",
+     "right": "safe"
+    },
+    {
+     "left": "eating biscuits at the bench",
+     "right": "unsafe"
+    },
+    {
+     "left": "tasting a leaf specimen",
+     "right": "unsafe"
+    },
+    {
+     "left": "pointing a scalpel at a friend",
+     "right": "unsafe"
+    },
+    {
+     "left": "leaving a broken slide on the floor",
+     "right": "unsafe"
+    }
+   ]
+  },
+  {
+   "id": "b6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lab-safety"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Forceps are used to pick up small things.",
+      "truth": "true"
+     },
+     {
+      "text": "A scalpel is used to cut thin pieces.",
+      "truth": "true"
+     },
+     {
+      "text": "Equipment should be cleaned after use.",
+      "truth": "true"
+     },
+     {
+      "text": "A dropper adds liquids drop by drop.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "You may taste specimens if you are careful.",
+      "truth": "false",
+      "explain": "Never taste anything in the laboratory."
+     },
+     {
+      "text": "A microscope should be carried with one hand by the eyepiece.",
+      "truth": "false",
+      "explain": "Use two hands: arm and base."
+     },
+     {
+      "text": "Small cuts need not be reported.",
+      "truth": "false",
+      "explain": "Report every cut or accident."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

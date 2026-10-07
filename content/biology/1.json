@@ -1,0 +1,387 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b1",
+   "name": "What biology is"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Biology is the study of living things (organisms): plants, animals, people and micro-organisms.\nBranches of biology:\n• botany: plants;\n• zoology: animals;\n• microbiology: micro-organisms such as bacteria;\n• ecology: living things and their environment;\n• anatomy: the structure of the body;\n• physiology: how the parts of the body work;\n• genetics: how features pass from parents to children.\nWhy study biology? To keep healthy and fight disease, to grow more food, to protect plants, animals and the environment, and for careers such as doctor, nurse, pharmacist, veterinary doctor (vet), laboratory technician, agronomist and forester.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A scientist at Limbe Botanic Garden studies how cocoa trees grow, and another studies the bacteria that make yoghurt. Which branches of biology are they using?",
+  "steps": [
+   "Cocoa trees are plants: botany.",
+   "Bacteria are micro-organisms: microbiology."
+  ],
+  "answer": "Botany and microbiology.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc1-1",
+    "status": "draft",
+    "idea": "Biology is the study of living things: plants, animals, people and micro-organisms.",
+    "vars": {},
+    "example": [
+     "How a mango tree grows and how a goat digests grass are biology questions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc1-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "biology-intro"
+     ],
+     "vars": {},
+     "prompt": "Which question is a biology question?",
+     "pool": {
+      "right": [
+       {
+        "text": "How do plants make their food?",
+        "truth": "true"
+       },
+       {
+        "text": "How does the heart pump blood?",
+        "truth": "true"
+       },
+       {
+        "text": "How do mosquitoes spread malaria?",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "How fast does a car move?",
+        "truth": "false",
+        "explain": "That is Physics."
+       },
+       {
+        "text": "What is table salt made of?",
+        "truth": "false",
+        "explain": "That is Chemistry."
+       },
+       {
+        "text": "When did Cameroon become independent?",
+        "truth": "false",
+        "explain": "That is History."
+       },
+       {
+        "text": "How do you add fractions?",
+        "truth": "false",
+        "explain": "That is Mathematics."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "bc1-2",
+    "status": "draft",
+    "idea": "Biology has branches: botany (plants), zoology (animals), microbiology (micro-organisms), ecology, anatomy, physiology, genetics.",
+    "vars": {},
+    "example": [
+     "A zoologist studies animals such as gorillas in the forest."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b1-branch"
+    }
+   },
+   {
+    "id": "bc1-3",
+    "status": "draft",
+    "idea": "Biology helps us stay healthy, grow food and protect nature, and leads to many careers.",
+    "vars": {},
+    "example": [
+     "A vet treats sick animals; an agronomist helps farmers grow better crops."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b1-career"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b1-branch",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biology-intro"
+   ],
+   "prompt": "Match each branch of biology with what it studies.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "botany",
+     "right": "plants"
+    },
+    {
+     "left": "zoology",
+     "right": "animals"
+    },
+    {
+     "left": "microbiology",
+     "right": "micro-organisms such as bacteria"
+    },
+    {
+     "left": "ecology",
+     "right": "living things and their environment"
+    },
+    {
+     "left": "anatomy",
+     "right": "the structure of the body"
+    },
+    {
+     "left": "physiology",
+     "right": "how the parts of the body work"
+    },
+    {
+     "left": "genetics",
+     "right": "how features pass from parents to offspring"
+    }
+   ]
+  },
+  {
+   "id": "b1-career",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "biology-intro"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "treats sick animals",
+       "a": "a vet",
+       "why": "A vet: treats sick animals."
+      },
+      {
+       "t": "helps farmers grow better crops",
+       "a": "an agronomist",
+       "why": "An agronomist: helps farmers grow better crops."
+      },
+      {
+       "t": "cares for patients in hospital",
+       "a": "a nurse",
+       "why": "A nurse: cares for patients in hospital."
+      },
+      {
+       "t": "prepares and sells medicines",
+       "a": "a pharmacist",
+       "why": "A pharmacist: prepares and sells medicines."
+      },
+      {
+       "t": "tests blood and other samples",
+       "a": "a laboratory technician",
+       "why": "A laboratory technician: tests blood and other samples."
+      },
+      {
+       "t": "looks after forests",
+       "a": "a forester",
+       "why": "A forester: looks after forests."
+      }
+     ]
+    }
+   },
+   "prompt": "Who {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a vet",
+     "misconception": "other"
+    },
+    {
+     "text": "an agronomist",
+     "misconception": "other"
+    },
+    {
+     "text": "a nurse",
+     "misconception": "other"
+    },
+    {
+     "text": "a pharmacist",
+     "misconception": "other"
+    },
+    {
+     "text": "a laboratory technician",
+     "misconception": "other"
+    },
+    {
+     "text": "a forester",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that career. Read what each person does."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b1-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "biology-intro"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "how bees pollinate flowers",
+       "a": "ecology",
+       "why": "Ecology: how bees pollinate flowers."
+      },
+      {
+       "t": "the bones of the human skeleton",
+       "a": "anatomy",
+       "why": "Anatomy: the bones of the human skeleton."
+      },
+      {
+       "t": "how the kidneys clean the blood",
+       "a": "physiology",
+       "why": "Physiology: how the kidneys clean the blood."
+      },
+      {
+       "t": "why a child has her mother’s eyes",
+       "a": "genetics",
+       "why": "Genetics: why a child has her mother’s eyes."
+      },
+      {
+       "t": "the bacteria that cause cholera",
+       "a": "microbiology",
+       "why": "Microbiology: the bacteria that cause cholera."
+      },
+      {
+       "t": "the trees of the rainforest",
+       "a": "botany",
+       "why": "Botany: the trees of the rainforest."
+      }
+     ]
+    }
+   },
+   "prompt": "Which branch of biology studies {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "botany",
+     "misconception": "other"
+    },
+    {
+     "text": "zoology",
+     "misconception": "other"
+    },
+    {
+     "text": "microbiology",
+     "misconception": "other"
+    },
+    {
+     "text": "ecology",
+     "misconception": "other"
+    },
+    {
+     "text": "anatomy",
+     "misconception": "other"
+    },
+    {
+     "text": "physiology",
+     "misconception": "other"
+    },
+    {
+     "text": "genetics",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that branch. Read what each branch studies."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "biology-intro"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Botany is the study of plants.",
+      "truth": "true"
+     },
+     {
+      "text": "Zoology is the study of animals.",
+      "truth": "true"
+     },
+     {
+      "text": "Biology helps doctors fight disease.",
+      "truth": "true"
+     },
+     {
+      "text": "Ecology studies living things and their environment.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Biology only studies animals.",
+      "truth": "false",
+      "explain": "Biology studies all living things: plants, animals, people and micro-organisms."
+     },
+     {
+      "text": "Microbiology studies very large animals.",
+      "truth": "false",
+      "explain": "Microbiology studies micro-organisms."
+     },
+     {
+      "text": "Genetics is the study of soils.",
+      "truth": "false",
+      "explain": "Genetics studies how features pass from parents to offspring."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

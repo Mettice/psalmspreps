@@ -1,0 +1,328 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "b16",
+   "name": "Day and night, seasons and living things"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Day and night:\n• green plants make food (photosynthesis) only in light; all living things respire day and night;\n• diurnal animals are active by day (most birds, butterflies, lizards); nocturnal animals are active at night (owls, bats, many moths, bush babies);\n• some flowers open in the day and close at night.\nSeasons in Cameroon are mainly the rainy season and the dry season:\n• in the rainy season, plants grow fast, farmers plant, many animals breed, mosquitoes increase;\n• in the dry season, grass dries, some trees lose their leaves to save water, some animals move to find water and grass (cattle herders practise transhumance), and some rest underground until the rains (aestivation).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An owl hunts rats at night and sleeps during the day. What kind of animal is it, and why does hunting at night help?",
+  "steps": [
+   "Animals active at night are nocturnal.",
+   "Rats come out at night, and the owl sees and hears well in the dark."
+  ],
+  "answer": "Nocturnal; it can catch rats that are active at night.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc16-1",
+    "status": "draft",
+    "idea": "Diurnal animals are active by day; nocturnal animals are active at night.",
+    "vars": {},
+    "example": [
+     "Bats and owls are nocturnal; butterflies are diurnal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b16-sort"
+    }
+   },
+   {
+    "id": "bc16-2",
+    "status": "draft",
+    "idea": "Plants make food only in light, but respire day and night.",
+    "vars": {},
+    "example": [
+     "At night a plant uses some of the food it made in the day."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b16-plant"
+    }
+   },
+   {
+    "id": "bc16-3",
+    "status": "draft",
+    "idea": "In the dry season some trees lose leaves, grass dries and animals move to find water.",
+    "vars": {},
+    "example": [
+     "Herders move their cattle south in the dry season to find grass."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc16-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "day-seasons"
+     ],
+     "vars": {},
+     "prompt": "Why do some trees lose their leaves in the dry season?",
+     "pool": {
+      "right": [
+       {
+        "text": "to save water",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "because they are dead",
+        "truth": "false",
+        "explain": "They grow new leaves when the rains come."
+       },
+       {
+        "text": "to get more sunlight",
+        "truth": "false",
+        "explain": "The leaves make food from sunlight; they drop them to save water."
+       },
+       {
+        "text": "because insects eat them all",
+        "truth": "false",
+        "explain": "The reason is to save water."
+       },
+       {
+        "text": "to keep warm",
+        "truth": "false",
+        "explain": "Cameroon’s dry season is not cold; the reason is water."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b16-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "day-seasons"
+   ],
+   "prompt": "Sort these animals: diurnal (day) or nocturnal (night)?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "diurnal",
+    "nocturnal"
+   ],
+   "pool": [
+    {
+     "left": "butterfly",
+     "right": "diurnal"
+    },
+    {
+     "left": "weaver bird",
+     "right": "diurnal"
+    },
+    {
+     "left": "lizard",
+     "right": "diurnal"
+    },
+    {
+     "left": "chicken",
+     "right": "diurnal"
+    },
+    {
+     "left": "owl",
+     "right": "nocturnal"
+    },
+    {
+     "left": "bat",
+     "right": "nocturnal"
+    },
+    {
+     "left": "bush baby",
+     "right": "nocturnal"
+    },
+    {
+     "left": "most moths",
+     "right": "nocturnal"
+    }
+   ]
+  },
+  {
+   "id": "b16-plant",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "day-seasons"
+   ],
+   "vars": {},
+   "prompt": "When do green plants make food by photosynthesis?",
+   "pool": {
+    "right": [
+     {
+      "text": "only when there is light",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "only at night",
+      "truth": "false",
+      "explain": "Photosynthesis needs light."
+     },
+     {
+      "text": "only in the dry season",
+      "truth": "false",
+      "explain": "They make food whenever there is light, water and air."
+     },
+     {
+      "text": "never",
+      "truth": "false",
+      "explain": "Green plants make their food."
+     },
+     {
+      "text": "only when it rains",
+      "truth": "false",
+      "explain": "They need light; water comes from the soil."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b16-season",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "day-seasons"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "farmers plant maize and groundnuts",
+       "a": "the rainy season",
+       "why": "The rainy season: farmers plant maize and groundnuts."
+      },
+      {
+       "t": "the grass dries and turns brown",
+       "a": "the dry season",
+       "why": "The dry season: the grass dries and turns brown."
+      },
+      {
+       "t": "many mosquitoes breed in puddles",
+       "a": "the rainy season",
+       "why": "The rainy season: many mosquitoes breed in puddles."
+      },
+      {
+       "t": "herders move cattle to find grass and water",
+       "a": "the dry season",
+       "why": "The dry season: herders move cattle to find grass and water."
+      },
+      {
+       "t": "some trees lose their leaves",
+       "a": "the dry season",
+       "why": "The dry season: some trees lose their leaves."
+      }
+     ]
+    }
+   },
+   "prompt": "When does this happen: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "the rainy season",
+     "misconception": "other"
+    },
+    {
+     "text": "the dry season",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think: lots of water, or little water?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "b16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "day-seasons"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Owls are nocturnal.",
+      "truth": "true"
+     },
+     {
+      "text": "Plants respire day and night.",
+      "truth": "true"
+     },
+     {
+      "text": "Many farmers plant at the start of the rains.",
+      "truth": "true"
+     },
+     {
+      "text": "Grass dries in the dry season.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plants make food by photosynthesis at night.",
+      "truth": "false",
+      "explain": "Photosynthesis needs light."
+     },
+     {
+      "text": "Butterflies are nocturnal.",
+      "truth": "false",
+      "explain": "Butterflies are active by day."
+     },
+     {
+      "text": "Mosquitoes increase in the dry season.",
+      "truth": "false",
+      "explain": "They breed in water, so they increase in the rainy season."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

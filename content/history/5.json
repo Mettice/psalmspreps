@@ -1,0 +1,335 @@
+{
+ "subject": "history",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "hi5",
+   "name": "The way of life of early humans"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Early humans (in the Old Stone Age, or Palaeolithic) lived by hunting animals, fishing and gathering wild fruits, roots, nuts and honey. They were nomads: they moved from place to place following animals and the seasons.\nThey made tools from stone, bone and wood: hand axes, scrapers, spears.\nThe discovery of fire was very important. Fire gave warmth and light, cooked food, kept wild animals away and helped make better tools.\nThey wore animal skins, lived in small groups (bands), shared food, developed language, and painted on rock walls.\nImplications: better tools and fire gave more food and safety; working together helped groups survive; slowly people learnt more about plants and animals, which later led to farming.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give three ways in which fire changed the life of early humans.",
+  "steps": [
+   "Fire cooked food, making it softer, safer and easier to digest.",
+   "Fire gave warmth and light at night.",
+   "Fire kept wild animals away from the camp."
+  ],
+  "answer": "Cooking, warmth and light, protection from animals.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hic5-1",
+    "status": "draft",
+    "idea": "Early humans were hunters and gatherers, and nomads who moved with the animals and the seasons.",
+    "vars": {},
+    "example": [
+     "They gathered fruits, roots and honey, and hunted antelopes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi5-life"
+    }
+   },
+   {
+    "id": "hic5-2",
+    "status": "draft",
+    "idea": "They made tools of stone, bone and wood, such as hand axes and spears.",
+    "vars": {},
+    "example": [
+     "A hand axe was a stone shaped by striking it with another stone."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi5-tool"
+    }
+   },
+   {
+    "id": "hic5-3",
+    "status": "draft",
+    "idea": "Fire gave warmth, light, cooked food and protection from wild animals.",
+    "vars": {},
+    "example": [
+     "Cooked meat is softer and safer to eat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "hi5-fire"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "hi5-life",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "How did early humans get their food?",
+   "pool": {
+    "right": [
+     {
+      "text": "by hunting, fishing and gathering wild plants",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "by farming large fields of maize",
+      "truth": "false",
+      "explain": "Farming came later, in the New Stone Age."
+     },
+     {
+      "text": "by buying food in markets",
+      "truth": "false",
+      "explain": "There were no markets or money."
+     },
+     {
+      "text": "by keeping cattle in big ranches",
+      "truth": "false",
+      "explain": "Herding came later."
+     },
+     {
+      "text": "from shops in towns",
+      "truth": "false",
+      "explain": "There were no towns or shops."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi5-tool",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "What were early humans’ tools made of?",
+   "pool": {
+    "right": [
+     {
+      "text": "stone, bone and wood",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "iron and steel",
+      "truth": "false",
+      "explain": "Iron came much later."
+     },
+     {
+      "text": "plastic",
+      "truth": "false",
+      "explain": "Plastic is a modern material."
+     },
+     {
+      "text": "gold and silver",
+      "truth": "false",
+      "explain": "They used stone, bone and wood."
+     },
+     {
+      "text": "glass",
+      "truth": "false",
+      "explain": "They used stone, bone and wood."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi5-fire",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "Which was a use of fire for early humans?",
+   "pool": {
+    "right": [
+     {
+      "text": "cooking food",
+      "truth": "true"
+     },
+     {
+      "text": "keeping warm at night",
+      "truth": "true"
+     },
+     {
+      "text": "keeping wild animals away",
+      "truth": "true"
+     },
+     {
+      "text": "giving light in the dark",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "charging phones",
+      "truth": "false",
+      "explain": "There was no electricity."
+     },
+     {
+      "text": "melting iron in factories",
+      "truth": "false",
+      "explain": "That came much later."
+     },
+     {
+      "text": "driving machines",
+      "truth": "false",
+      "explain": "There were no machines."
+     },
+     {
+      "text": "boiling water in kettles",
+      "truth": "false",
+      "explain": "There were no metal kettles."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "hi5-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "early-humans",
+    "stone-age"
+   ],
+   "prompt": "Sort these: true of early humans (Old Stone Age), or only later?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "early humans",
+    "only later"
+   ],
+   "pool": [
+    {
+     "left": "hunting and gathering",
+     "right": "early humans"
+    },
+    {
+     "left": "moving from place to place",
+     "right": "early humans"
+    },
+    {
+     "left": "stone hand axes",
+     "right": "early humans"
+    },
+    {
+     "left": "using fire",
+     "right": "early humans"
+    },
+    {
+     "left": "wearing animal skins",
+     "right": "early humans"
+    },
+    {
+     "left": "farming crops",
+     "right": "only later"
+    },
+    {
+     "left": "living in permanent villages",
+     "right": "only later"
+    },
+    {
+     "left": "making pottery",
+     "right": "only later"
+    },
+    {
+     "left": "iron tools",
+     "right": "only later"
+    },
+    {
+     "left": "keeping goats and cattle",
+     "right": "only later"
+    }
+   ]
+  },
+  {
+   "id": "hi5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "early-humans"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Early humans were nomads.",
+      "truth": "true"
+     },
+     {
+      "text": "Early humans lived in small groups.",
+      "truth": "true"
+     },
+     {
+      "text": "Fire helped early humans cook their food.",
+      "truth": "true"
+     },
+     {
+      "text": "Early humans painted on rock walls.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Early humans grew maize and cassava on farms.",
+      "truth": "false",
+      "explain": "Farming came later, in the New Stone Age."
+     },
+     {
+      "text": "Early humans used iron tools.",
+      "truth": "false",
+      "explain": "They used stone, bone and wood."
+     },
+     {
+      "text": "Early humans lived in large towns.",
+      "truth": "false",
+      "explain": "They lived in small, moving groups."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,333 @@
+{
+ "subject": "computer-science",
+ "class": "Form 1",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "cs17",
+   "name": "Computer laboratory layouts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Common computer laboratory designs (layouts):\n• rows: desks in rows facing the board. Everyone can see the board, but the teacher cannot easily see all the screens.\n• U-shape (along the walls): desks along three walls. The teacher can see every screen from the middle, and cables run along the walls; but pupils must turn to see the board.\n• clusters (groups): desks in small groups. Good for group work and sharing; some pupils sit with their backs to the board.\nWhen planning a laboratory, think about: space to walk, safe cables and sockets, good light without glare on the screens, air and cooling, a clear way to the door, and where the teacher stands.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 1
+  },
+  "figure": "labLayout(t)",
+  "problem": "Which layout is shown, and what is its main advantage?",
+  "steps": [
+   "The desks run along the walls, making a U.",
+   "From the middle of the room the teacher can see every screen."
+  ],
+  "answer": "U-shape: the teacher can see all the screens.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "csc17-1",
+    "status": "draft",
+    "idea": "Rows: all pupils face the board.",
+    "vars": {},
+    "example": [
+     "Like a normal classroom."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs17-name"
+    }
+   },
+   {
+    "id": "csc17-2",
+    "status": "draft",
+    "idea": "U-shape: desks along the walls; the teacher can see every screen.",
+    "vars": {},
+    "example": [
+     "Cables run safely along the walls."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "cs17-adv"
+    }
+   },
+   {
+    "id": "csc17-3",
+    "status": "draft",
+    "idea": "Clusters: desks in small groups, good for group work.",
+    "vars": {},
+    "example": [
+     "Four pupils share ideas around one group of desks."
+    ],
+    "checks": [],
+    "check": {
+     "id": "csc17-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "computer-lab"
+     ],
+     "vars": {},
+     "prompt": "Which layout is best for group work?",
+     "pool": {
+      "right": [
+       {
+        "text": "clusters (groups)",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "rows",
+        "truth": "false",
+        "explain": "Rows face the board, not each other."
+       },
+       {
+        "text": "one long line facing the wall",
+        "truth": "false",
+        "explain": "Pupils cannot talk together easily."
+       },
+       {
+        "text": "desks scattered randomly",
+        "truth": "false",
+        "explain": "That is unsafe and untidy."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "cs17-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "i": 0,
+       "why": "Desks in rows all face the board, like a normal classroom."
+      },
+      {
+       "i": 1,
+       "why": "Desks along the walls form a U, so the teacher in the middle can see every screen."
+      },
+      {
+       "i": 2,
+       "why": "Desks in small groups help pupils work together."
+      }
+     ]
+    }
+   },
+   "figure": "labLayout(x.i)",
+   "prompt": "Which computer laboratory layout is this?",
+   "correct": "{layoutName(x.i)}",
+   "show": 3,
+   "distractors": [
+    {
+     "text": "rows",
+     "misconception": "look"
+    },
+    {
+     "text": "U-shape (along the walls)",
+     "misconception": "look"
+    },
+    {
+     "text": "clusters (groups)",
+     "misconception": "look"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "look",
+     "explain": "Look at where the desks are: in rows, along the walls, or in small groups."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "So it is {answer}."
+   ]
+  },
+  {
+   "id": "cs17-adv",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the teacher can see every screen from the middle",
+       "a": "U-shape (along the walls)",
+       "why": "U-shape (along the walls): the teacher can see every screen from the middle."
+      },
+      {
+       "t": "everyone faces the board",
+       "a": "rows",
+       "why": "Rows: everyone faces the board."
+      },
+      {
+       "t": "pupils can easily work together",
+       "a": "clusters (groups)",
+       "why": "Clusters (groups): pupils can easily work together."
+      }
+     ]
+    }
+   },
+   "prompt": "Which layout has this advantage: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "rows",
+     "misconception": "other"
+    },
+    {
+     "text": "U-shape (along the walls)",
+     "misconception": "other"
+    },
+    {
+     "text": "clusters (groups)",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think about where the desks face."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "cs17-plan",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {},
+   "prompt": "Which is important when planning a computer laboratory?",
+   "pool": {
+    "right": [
+     {
+      "text": "space to walk safely",
+      "truth": "true"
+     },
+     {
+      "text": "cables kept away from walkways",
+      "truth": "true"
+     },
+     {
+      "text": "a clear way to the door",
+      "truth": "true"
+     },
+     {
+      "text": "light without glare on the screens",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "as many desks as possible, even blocking the door",
+      "truth": "false",
+      "explain": "The way out must stay clear."
+     },
+     {
+      "text": "cables across the floor",
+      "truth": "false",
+      "explain": "People can trip over them."
+     },
+     {
+      "text": "no windows or fans",
+      "truth": "false",
+      "explain": "Computers need cool air."
+     },
+     {
+      "text": "sockets next to the water tap",
+      "truth": "false",
+      "explain": "Water and electricity are dangerous together."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "cs17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "computer-lab"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "In a U-shape the teacher can see every screen.",
+      "truth": "true"
+     },
+     {
+      "text": "Clusters are good for group work.",
+      "truth": "true"
+     },
+     {
+      "text": "In rows everyone faces the board.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cables should run across the walkways.",
+      "truth": "false",
+      "explain": "Cables across walkways make people trip."
+     },
+     {
+      "text": "The way to the door can be blocked by desks.",
+      "truth": "false",
+      "explain": "The way out must always be clear."
+     },
+     {
+      "text": "In rows the teacher can see every screen easily.",
+      "truth": "false",
+      "explain": "That is the advantage of the U-shape."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

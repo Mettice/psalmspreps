@@ -1,0 +1,359 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "b15",
+   "name": "Habitats and environmental factors"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A habitat is the place where an organism lives, for example a forest, a river, a savanna or the soil.\nThe environment is everything around an organism. Environmental factors affect what can live in a place:\n• climatic factors (weather and climate): temperature, rainfall, light, humidity and wind;\n• edaphic factors (soil): texture (sand, clay, loam), the amount of water and air in the soil, minerals and humus, and acidity (pH);\n• biotic factors: the other living things (food, predators, competitors, people).\nExample: the rainforest of the South has heavy rain, warmth and deep, humus-rich soil; the savanna of the North has a long dry season, so grasses and drought-tolerant trees grow there.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why do mangroves grow along the coast near Douala and Limbe, but not on the dry plains of the Far North?",
+  "steps": [
+   "Mangroves need salty, waterlogged mud and a warm, wet climate.",
+   "The coast has these edaphic and climatic factors; the Far North is dry."
+  ],
+  "answer": "Only the coast gives the wet, salty soil and climate they need.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc15-1",
+    "status": "draft",
+    "idea": "A habitat is the place where an organism lives.",
+    "vars": {},
+    "example": [
+     "The habitat of a fish is water; the habitat of an earthworm is the soil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b15-habitat"
+    }
+   },
+   {
+    "id": "bc15-2",
+    "status": "draft",
+    "idea": "Climatic factors are about weather: temperature, rainfall, light, humidity, wind.",
+    "vars": {},
+    "example": [
+     "The Far North gets less rainfall than the South."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b15-sort"
+    }
+   },
+   {
+    "id": "bc15-3",
+    "status": "draft",
+    "idea": "Edaphic factors are about soil: texture, water, air, minerals, humus, acidity.",
+    "vars": {},
+    "example": [
+     "Sandy soil drains fast; clay soil holds water."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc15-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "environment-factors"
+     ],
+     "vars": {},
+     "prompt": "Which is an edaphic (soil) factor?",
+     "pool": {
+      "right": [
+       {
+        "text": "the amount of humus in the soil",
+        "truth": "true"
+       },
+       {
+        "text": "the texture of the soil",
+        "truth": "true"
+       },
+       {
+        "text": "the water in the soil",
+        "truth": "true"
+       },
+       {
+        "text": "soil acidity",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "rainfall",
+        "truth": "false",
+        "explain": "That is a climatic factor."
+       },
+       {
+        "text": "temperature of the air",
+        "truth": "false",
+        "explain": "That is a climatic factor."
+       },
+       {
+        "text": "wind",
+        "truth": "false",
+        "explain": "That is a climatic factor."
+       },
+       {
+        "text": "sunlight",
+        "truth": "false",
+        "explain": "That is a climatic factor."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b15-habitat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "environment-factors"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "a tilapia",
+       "a": "a river or lake",
+       "why": "A river or lake: a tilapia."
+      },
+      {
+       "t": "an earthworm",
+       "a": "the soil",
+       "why": "The soil: an earthworm."
+      },
+      {
+       "t": "a gorilla",
+       "a": "the rainforest",
+       "why": "The rainforest: a gorilla."
+      },
+      {
+       "t": "a mangrove tree",
+       "a": "salty coastal mud",
+       "why": "Salty coastal mud: a mangrove tree."
+      },
+      {
+       "t": "a giraffe",
+       "a": "the savanna",
+       "why": "The savanna: a giraffe."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the habitat of {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "a river or lake",
+     "misconception": "other"
+    },
+    {
+     "text": "the soil",
+     "misconception": "other"
+    },
+    {
+     "text": "the rainforest",
+     "misconception": "other"
+    },
+    {
+     "text": "salty coastal mud",
+     "misconception": "other"
+    },
+    {
+     "text": "the savanna",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not its habitat. Where does it live?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b15-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "environment-factors"
+   ],
+   "prompt": "Sort these: climatic or edaphic factor?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "climatic",
+    "edaphic"
+   ],
+   "pool": [
+    {
+     "left": "rainfall",
+     "right": "climatic"
+    },
+    {
+     "left": "temperature",
+     "right": "climatic"
+    },
+    {
+     "left": "light",
+     "right": "climatic"
+    },
+    {
+     "left": "humidity",
+     "right": "climatic"
+    },
+    {
+     "left": "wind",
+     "right": "climatic"
+    },
+    {
+     "left": "soil texture",
+     "right": "edaphic"
+    },
+    {
+     "left": "soil water",
+     "right": "edaphic"
+    },
+    {
+     "left": "humus",
+     "right": "edaphic"
+    },
+    {
+     "left": "soil acidity",
+     "right": "edaphic"
+    },
+    {
+     "left": "minerals in the soil",
+     "right": "edaphic"
+    }
+   ]
+  },
+  {
+   "id": "b15-north",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "environment-factors"
+   ],
+   "vars": {},
+   "prompt": "Why do grasses and few trees grow in the far north of Cameroon?",
+   "pool": {
+    "right": [
+     {
+      "text": "The dry season is long and the rainfall is low.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The soil is too wet.",
+      "truth": "false",
+      "explain": "The north is dry."
+     },
+     {
+      "text": "There is no sunlight.",
+      "truth": "false",
+      "explain": "There is plenty of sunlight."
+     },
+     {
+      "text": "Trees are not allowed.",
+      "truth": "false",
+      "explain": "The reason is the climate."
+     },
+     {
+      "text": "It snows every year.",
+      "truth": "false",
+      "explain": "It does not snow there."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "environment-factors"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Rainfall is a climatic factor.",
+      "truth": "true"
+     },
+     {
+      "text": "Soil texture is an edaphic factor.",
+      "truth": "true"
+     },
+     {
+      "text": "A habitat is where an organism lives.",
+      "truth": "true"
+     },
+     {
+      "text": "Predators are a biotic factor.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Humus is a climatic factor.",
+      "truth": "false",
+      "explain": "Humus is part of the soil: edaphic."
+     },
+     {
+      "text": "Wind is an edaphic factor.",
+      "truth": "false",
+      "explain": "Wind is climatic."
+     },
+     {
+      "text": "The habitat of a tilapia is the desert.",
+      "truth": "false",
+      "explain": "Tilapia live in rivers and lakes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

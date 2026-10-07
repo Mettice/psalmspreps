@@ -11,6 +11,9 @@ import * as physics from "../../src/engine/lib/physics.js";
 import * as chemistry from "../../src/engine/lib/chemistry.js";
 import * as geography from "../../src/engine/lib/geography.js";
 import * as homeeconomics from "../../src/engine/lib/homeeconomics.js";
+import * as history from "../../src/engine/lib/history.js";
+import * as biology from "../../src/engine/lib/biology.js";
+import * as computerscience from "../../src/engine/lib/computerscience.js";
 import { render } from "../../src/engine/expr.js";
 import { instantiate, renderWorked } from "../../src/engine/template.js";
 import { renderCard, cardCheckTemplate, practicePlan, renderPaper, isDeferred } from "../../src/engine/teach.js";
@@ -23,8 +26,11 @@ const CONF = {
   // Geography is numbered by place in the year (spine seq): PW1–PW3 have no lesson number on the sheet.
   geography: { name: "Geography", batch: "Batch G1", spine: "geography", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography }, sample: 8, lessons: "1–10", bySeq: true },
   "home-economics": { name: "Home Economics", batch: "Batch H1", spine: "home-economics", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics }, sample: 13, lessons: "1–7, 10–17, 20–21" },
+  history: { name: "History", batch: "Batch Y1", spine: "history", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history }, sample: 3, lessons: "1–10", bySeq: true },
+  biology: { name: "Biology", batch: "Batch B1", spine: "biology", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology }, sample: 7, lessons: "1–9, 13–21", bySeq: true },
+  "computer-science": { name: "Computer Science", batch: "Batch S1", spine: "computer-science", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience }, sample: 11, lessons: "1–6, 8–11, 13–14, 16–18" },
 }[SUBJECT];
-if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics");
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science");
 const lib = CONF.lib;
 const DIR = new URL(`../../content/${SUBJECT}/`, import.meta.url);
 // Drawings are saved as files (GitHub does not show SVG written inside Markdown).
@@ -136,6 +142,23 @@ const PART1 = {
     `**Symbols from Latin (TR-K02)**: ${Object.entries(chemistry.LATIN).map(([s, l]) => `${s} (${l})`).join(", ")}.`, "",
     "- **Formulas (TR-K03)**: the small number after a symbol counts the atoms of that symbol; no number means one; a bracket multiplies everything inside it (Ca(OH)₂: 1 Ca, 2 O, 2 H). Counted by `parseFormula()`, tested on known answers.",
     "- **Measurement**: the unit conversions, °C → K (+ 273), the measuring cylinder and thermometer drawings are the same as in Physics (TR-P04, TR-P05, TR-P08).", ""],
+  "computer-science": () => ["## Part 1: rules, table and drawings the answers use (src/engine/lib/computerscience.js)", "",
+    `- **Patterns (TR-S01)**: number patterns add the same amount (${computerscience.firstTerms(3, 4, 4)} → ${computerscience.nthTerm(3, 4, 5)}) or double (${computerscience.firstDoubles(3, 4)} → ${computerscience.nthDouble(3, 5)}); shape patterns repeat a group, and shape n is found from the remainder of n ÷ the group length.`,
+    "- **Tracing (TR-S01)**: “start with x, add b, n times” gives x + b × n; “double n times” gives x × 2ⁿ; IF x > L THEN “big” ELSE “small” (equal counts as small).",
+    `- **History (TR-S02)**: ${[0, 1, 2, 3, 4, 5, 6].map((i) => `${computerscience.historyYear(i) < 0 ? "ancient times" : computerscience.historyYear(i)}: ${computerscience.historyStep(i)}`).join("; ")}.`,
+    `- **Generations (TR-S02)**: ${[1, 2, 3, 4, 5].map((g) => `${g}: ${computerscience.generationTech(g)} (${computerscience.generationWhen(g)})`).join("; ")}.`,
+    `- **Drawings**: repeating shapes (${[0, 1, 2, 3].map(computerscience.patternShape).join(", ")}) and three laboratory layouts (${computerscience.LAYOUTS.join(", ")}).`, ""],
+  biology: () => ["## Part 1: rules, table and drawings the answers use (src/engine/lib/biology.js)", "",
+    `- **Magnification (TR-L01)**: total = eyepiece × objective (${[[10, 4], [10, 40], [15, 100]].map(([e, o]) => `×${e} and ×${o} → ×${biology.magnification(e, o)}`).join("; ")}).`,
+    `- **Cell discoveries (TR-L02)**: ${[0, 1, 2, 3].map((i) => `${biology.discoveryYear(i)}: ${biology.discoverer(i)} ${biology.discoveryWhat(i)}`).join("; ")}.`,
+    `- **Drawings with lettered parts (TR-L03)**: microscope (${biology.MICRO_PARTS.join(", ")}); plant cell (${biology.PLANT_PARTS.join(", ")}); animal cell (${biology.ANIMAL_PARTS.join(", ")}); soil profile (${biology.SOIL_LAYERS.join(", ")}).`, ""],
+  history: () => ["## Part 1: rules and the table the computed answers use (src/engine/lib/history.js)", "",
+    `- **Writing years (TR-Y01)**: ${[-500, -1, 1, 476, 2026].map(history.year).join(", ")}; there is no year 0 (1 BC is followed by AD 1).`,
+    `- **Years between (TR-Y01)**: same era, subtract; across BC and AD, add and take away 1: ${[[1884, 1961], [-500, -200], [-50, 50], [-1, 1]].map(([a, b]) => `${history.year(a)} → ${history.year(b)}: ${history.yearsBetween(a, b)}`).join("; ")}.`,
+    `- **Centuries (TR-Y01)**: ${[111, 1884, 1900, 1901, 2026, -500, -501].map((y) => `${history.year(y)} → ${history.century(y)}`).join("; ")}.`, "",
+    "**Early humans (TR-Y03)**, oldest first (estimates; only the order and these rounded dates are used):", "",
+    "| Name | First appears | Known for | Important finds |", "|---|---|---|---|",
+    ...[0, 1, 2, 3, 4].map((i) => `| ${history.homininName(i)} | ${history.ago(history.homininAgo(i))} | ${history.homininNote(i)} | ${history.homininPlace(i)} |`), ""],
   "home-economics": () => ["## Part 1: the rule and drawings the answers use (src/engine/lib/homeeconomics.js)", "",
     `- **Work triangle (TR-H01)**: the path sink → cooker → fridge → sink. Total = the three sides added. Well planned when every side is ${homeeconomics.sideMin()} m to ${homeeconomics.sideMax()} m and the total is ${homeeconomics.totalMin()} m to ${homeeconomics.totalMax()} m. The reason shown: ${["1.8, 2.1, 2.4", "3.2, 2, 2", "0.9, 2, 2", "2.6, 2.7, 2.7", "1.2, 1.3, 1.4"].map((t) => { const [a, b, c] = t.split(", ").map(Number); return `${t} m → “${homeeconomics.triangleVerdict(a, b, c)}”`; }).join("; ")}. Practice sides run from 0.9 m to 3.2 m.`,
     `- **Drawings with lettered parts (TR-H02)**: traditional kitchen (${homeeconomics.TRAD_PARTS.join(", ")}); fireplaces (${homeeconomics.FIRE_TYPES.join(", ")}); kitchen front (${homeeconomics.UNIT_PARTS.join(", ")}); kitchen shapes seen from above (${homeeconomics.SHAPES.join(", ")}). The letters are shuffled by the question's numbers; the code that draws a letter also gives the answer.`, ""],

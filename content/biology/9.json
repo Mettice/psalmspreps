@@ -1,0 +1,357 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "b9",
+   "name": "The cell: discovery and types"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The cell is the basic unit of life: every living thing is made of one or more cells.\nDiscovery:\n• 1665: Robert Hooke looked at thin cork through his microscope and named the little boxes “cells”.\n• 1670s: Antonie van Leeuwenhoek made strong lenses and was the first to see living micro-organisms.\n• 1838–1839: Matthias Schleiden (plants) and Theodor Schwann (animals) said all living things are made of cells (the cell theory).\nTypes of organisms:\n• unicellular (one cell): amoeba, paramecium, bacteria, yeast;\n• multicellular (many cells): plants, animals, people.\nTypes of cells: cells without a nucleus (prokaryotic: bacteria) and cells with a nucleus (eukaryotic: plants, animals, fungi).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Who first used the word “cell”, and what was he looking at?",
+  "steps": [
+   "In {discoveryYear(0)}, {discoverer(0)} looked at thin slices of cork through a microscope.",
+   "He saw little boxes and named them cells."
+  ],
+  "answer": "{discoverer(0)}, looking at cork.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc9-1",
+    "status": "draft",
+    "idea": "The cell is the basic unit of life: every living thing is made of cells.",
+    "vars": {},
+    "example": [
+     "A human body has many millions of cells; an amoeba is just one cell."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b9-uni"
+    }
+   },
+   {
+    "id": "bc9-2",
+    "status": "draft",
+    "idea": "Robert Hooke named cells; van Leeuwenhoek first saw living micro-organisms; Schleiden and Schwann said all living things are made of cells.",
+    "vars": {},
+    "example": [
+     "In {discoveryYear(0)}, Hooke looked at cork."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b9-who"
+    }
+   },
+   {
+    "id": "bc9-3",
+    "status": "draft",
+    "idea": "Unicellular organisms have one cell; multicellular organisms have many.",
+    "vars": {},
+    "example": [
+     "Yeast is unicellular; a mango tree is multicellular."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc9-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cells"
+     ],
+     "vars": {},
+     "prompt": "Which organism is unicellular (one cell)?",
+     "pool": {
+      "right": [
+       {
+        "text": "an amoeba",
+        "truth": "true"
+       },
+       {
+        "text": "a paramecium",
+        "truth": "true"
+       },
+       {
+        "text": "a bacterium",
+        "truth": "true"
+       },
+       {
+        "text": "yeast",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a goat",
+        "truth": "false",
+        "explain": "A goat has many cells."
+       },
+       {
+        "text": "a mango tree",
+        "truth": "false",
+        "explain": "A tree has many cells."
+       },
+       {
+        "text": "a person",
+        "truth": "false",
+        "explain": "People have many cells."
+       },
+       {
+        "text": "a mushroom",
+        "truth": "false",
+        "explain": "A mushroom has many cells."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b9-uni",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "prompt": "Sort these: unicellular (one cell) or multicellular (many cells)?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "unicellular",
+    "multicellular"
+   ],
+   "pool": [
+    {
+     "left": "amoeba",
+     "right": "unicellular"
+    },
+    {
+     "left": "paramecium",
+     "right": "unicellular"
+    },
+    {
+     "left": "bacteria",
+     "right": "unicellular"
+    },
+    {
+     "left": "yeast",
+     "right": "unicellular"
+    },
+    {
+     "left": "a goat",
+     "right": "multicellular"
+    },
+    {
+     "left": "a maize plant",
+     "right": "multicellular"
+    },
+    {
+     "left": "a person",
+     "right": "multicellular"
+    },
+    {
+     "left": "a frog",
+     "right": "multicellular"
+    }
+   ]
+  },
+  {
+   "id": "b9-who",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      3
+     ]
+    }
+   },
+   "prompt": "Who {discoveryWhat(i)}?",
+   "correct": "{discoverer(i)}",
+   "distractors": [
+    {
+     "text": "{discoverer(0)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{discoverer(1)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{discoverer(2)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{discoverer(3)}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Hooke named cells (cork); van Leeuwenhoek saw micro-organisms; Schleiden: plants; Schwann: animals."
+    }
+   ],
+   "solution": [
+    "In {discoveryYear(i)}, {discoverer(i)} {discoveryWhat(i)}.",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b9-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "order": "asc",
+   "prompt": "Put these discoveries in order, earliest first.",
+   "vars": {
+    "s": {
+     "sample": [
+      "[0, 1, 3]",
+      "3"
+     ]
+    }
+   },
+   "items": [
+    {
+     "text": "{discoverer(s[0])} {discoveryWhat(s[0])}",
+     "key": "discoveryYear(s[0])"
+    },
+    {
+     "text": "{discoverer(s[1])} {discoveryWhat(s[1])}",
+     "key": "discoveryYear(s[1])"
+    },
+    {
+     "text": "{discoverer(s[2])} {discoveryWhat(s[2])}",
+     "key": "discoveryYear(s[2])"
+    }
+   ]
+  },
+  {
+   "id": "b9-types",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {},
+   "prompt": "What is the main difference between bacteria cells and plant or animal cells?",
+   "pool": {
+    "right": [
+     {
+      "text": "Bacteria cells have no nucleus.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bacteria cells are much bigger.",
+      "truth": "false",
+      "explain": "Bacteria are much smaller."
+     },
+     {
+      "text": "Plant cells have no nucleus.",
+      "truth": "false",
+      "explain": "Plant cells have a nucleus."
+     },
+     {
+      "text": "Animal cells have no cytoplasm.",
+      "truth": "false",
+      "explain": "All cells have cytoplasm."
+     },
+     {
+      "text": "Bacteria are not living.",
+      "truth": "false",
+      "explain": "Bacteria are living things."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The cell is the basic unit of life.",
+      "truth": "true"
+     },
+     {
+      "text": "Robert Hooke named cells.",
+      "truth": "true"
+     },
+     {
+      "text": "An amoeba is unicellular.",
+      "truth": "true"
+     },
+     {
+      "text": "People are multicellular.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Only animals are made of cells.",
+      "truth": "false",
+      "explain": "Plants, animals and micro-organisms are all made of cells."
+     },
+     {
+      "text": "Bacteria cells have a nucleus.",
+      "truth": "false",
+      "explain": "Bacteria have no nucleus."
+     },
+     {
+      "text": "Hooke first saw cells in a piece of meat.",
+      "truth": "false",
+      "explain": "He looked at thin slices of cork."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,348 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  8,
+  13
+ ],
+ "skills": [
+  {
+   "id": "b14",
+   "name": "Preparing and observing cells"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "This practical needs a microscope; here you learn the steps.\nOnion cells (plant):\n1. Peel a thin layer of skin from inside an onion scale.\n2. Lay it flat in a drop of water on a slide.\n3. Add a drop of iodine solution to stain it.\n4. Lower a cover slip slowly at an angle, to avoid air bubbles.\n5. Look under low power, then high power.\nYou see box-shaped cells side by side, each with a cell wall and a nucleus. Onion skin has no chloroplasts: it is not green.\nCheek cells (animal): gently scrape the inside of your own cheek with a clean cotton bud, smear it on a slide, add a drop of methylene blue stain and a cover slip. You see flat, rounded cells with a nucleus and no wall. Put the used bud in the bin at once.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why is the cover slip lowered slowly at an angle?",
+  "steps": [
+   "Dropping it flat traps air.",
+   "Air bubbles look like round shapes and can be mistaken for cells.",
+   "Lowering it at an angle pushes the air out."
+  ],
+  "answer": "To avoid air bubbles.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc14-1",
+    "status": "draft",
+    "idea": "To see onion cells: thin skin, a drop of water, iodine stain, a cover slip lowered at an angle, then the microscope.",
+    "vars": {},
+    "example": [
+     "A stain makes the nucleus and wall easier to see."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b14-order"
+    }
+   },
+   {
+    "id": "bc14-2",
+    "status": "draft",
+    "idea": "Onion cells look like boxes with walls; cheek cells are rounder with no wall.",
+    "vars": {},
+    "example": [
+     "Both have a nucleus."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b14-see"
+    }
+   },
+   {
+    "id": "bc14-3",
+    "status": "draft",
+    "idea": "Stains such as iodine (plants) and methylene blue (cheek cells) make cell parts easier to see.",
+    "vars": {},
+    "example": [
+     "Without a stain the cells are almost clear."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc14-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cells"
+     ],
+     "vars": {},
+     "prompt": "Why is a stain such as iodine added to the slide?",
+     "pool": {
+      "right": [
+       {
+        "text": "to make the cell parts easier to see",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "to kill germs on the slide",
+        "truth": "false",
+        "explain": "Its job here is to colour the cells so they show."
+       },
+       {
+        "text": "to make the cells bigger",
+        "truth": "false",
+        "explain": "A stain colours; the microscope magnifies."
+       },
+       {
+        "text": "to glue the cover slip",
+        "truth": "false",
+        "explain": "The water holds the cover slip; the stain colours."
+       },
+       {
+        "text": "to feed the cells",
+        "truth": "false",
+        "explain": "The stain only colours the cells."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b14-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "order": "as_written",
+   "prompt": "Put the steps for preparing onion cells in order.",
+   "items": [
+    {
+     "text": "peel a thin layer of skin from inside an onion scale"
+    },
+    {
+     "text": "lay it flat in a drop of water on a slide"
+    },
+    {
+     "text": "add a drop of iodine solution to stain it"
+    },
+    {
+     "text": "lower a cover slip slowly at an angle to avoid air bubbles"
+    },
+    {
+     "text": "look at it under low power, then high power"
+    }
+   ]
+  },
+  {
+   "id": "b14-see",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "box-shaped cells with walls, side by side",
+       "a": "onion cells",
+       "why": "Onion cells: box-shaped cells with walls, side by side."
+      },
+      {
+       "t": "flat, rounded cells with no wall",
+       "a": "cheek cells",
+       "why": "Cheek cells: flat, rounded cells with no wall."
+      },
+      {
+       "t": "cells stained with iodine",
+       "a": "onion cells",
+       "why": "Onion cells: cells stained with iodine."
+      },
+      {
+       "t": "cells stained with methylene blue",
+       "a": "cheek cells",
+       "why": "Cheek cells: cells stained with methylene blue."
+      }
+     ]
+    }
+   },
+   "prompt": "Which cells are these: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "onion cells",
+     "misconception": "other"
+    },
+    {
+     "text": "cheek cells",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Plant cells have walls; animal cells do not."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "b14-bubble",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {},
+   "prompt": "Why is the cover slip lowered slowly at an angle?",
+   "pool": {
+    "right": [
+     {
+      "text": "to avoid trapping air bubbles",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "to make the cells grow",
+      "truth": "false",
+      "explain": "It only pushes the air out."
+     },
+     {
+      "text": "to stain the cells",
+      "truth": "false",
+      "explain": "The stain is added separately."
+     },
+     {
+      "text": "to break the slide",
+      "truth": "false",
+      "explain": "Careful handling avoids breaking it."
+     },
+     {
+      "text": "to make the image upside down",
+      "truth": "false",
+      "explain": "The microscope does that."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b14-green",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {},
+   "prompt": "Why are there no chloroplasts in onion skin cells?",
+   "pool": {
+    "right": [
+     {
+      "text": "The onion bulb grows under the ground, away from light, so it is not green.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Onions are animals.",
+      "truth": "false",
+      "explain": "Onions are plants."
+     },
+     {
+      "text": "The iodine destroyed them.",
+      "truth": "false",
+      "explain": "There were none: the bulb is not green."
+     },
+     {
+      "text": "Chloroplasts are only in animal cells.",
+      "truth": "false",
+      "explain": "Chloroplasts are only in plant cells, in green parts."
+     },
+     {
+      "text": "The microscope cannot see them.",
+      "truth": "false",
+      "explain": "In green leaves they are easy to see."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cells"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Onion cells have cell walls.",
+      "truth": "true"
+     },
+     {
+      "text": "Cheek cells have a nucleus.",
+      "truth": "true"
+     },
+     {
+      "text": "A used cotton bud goes straight in the bin.",
+      "truth": "true"
+     },
+     {
+      "text": "Iodine helps to show onion cells.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cheek cells have cell walls.",
+      "truth": "false",
+      "explain": "Cheek cells are animal cells: no wall."
+     },
+     {
+      "text": "You should scrape a friend’s cheek with your bud.",
+      "truth": "false",
+      "explain": "Use only your own cheek and a clean bud."
+     },
+     {
+      "text": "Air bubbles are the cells you want to see.",
+      "truth": "false",
+      "explain": "Air bubbles are mistakes; avoid them."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

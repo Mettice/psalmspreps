@@ -182,3 +182,20 @@ The readiness check runs once. Published as the site's `index.html`; `/lesson3/`
   to the row), so Batch H1 is Lessons 1–7, 10–17 and 20–21 (rows 8–9 and 18–19 are integration and remediation).
 - Batch H1 (Term 1) was written and tested, then **released on 2026-10-07** at Dion's request (TR-H17): a sixth tab,
   `lib/homeeconomics.js` in the bundle; the page is about 875 KB of the 900 KB limit.
+
+## 15. History, Biology and Computer Science (2026-10-07)
+
+Dion asked for "History, Biology, Computer Science" together; each Term 1 batch was written and tested, then all three
+were **released on 2026-10-07** (TR-S12): nine tabs, build limit raised to 1.3 MB (page about 1157 KB of the 2 MB budget).
+- **History** (`src/engine/lib/history.js`): years BC/AD with no year 0 (`year()`, `yearsBetween()`), centuries,
+  a timeline drawn by code, an authored table of early humans. Numbered by place in the year (most rows are further
+  study or guided work). Ids `hi`, skills `hi1` … `hi10`. Review items TR-Y.
+- **Biology** (`src/engine/lib/biology.js`): magnification = eyepiece × objective; drawings with lettered parts
+  (`microscope()`, `plantCell()`, `animalCell()`, `soilProfile()`; `bioLetter()` gives the letter). Lessons 1–9 and
+  13–21, matched to the spine by place in the year because practicals have kind "practical". Ids `b`, skills `b1` …
+  `b21`. Review items TR-L (TR-B is taken).
+- **Computer Science** (`src/engine/lib/computerscience.js`): number and shape patterns, tracing short algorithms,
+  authored history and generations, drawings (`shapeSequence()`, `labLayout()`). Lessons 1–6, 8–11, 13–14, 16–18.
+  Ids `cs`, skills `cs1` … `cs18`. Review items TR-S.
+- Library order for each subject is every earlier library, then its own. A test now fails if a later library reuses a
+  function name (TR-S10).

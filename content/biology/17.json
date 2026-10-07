@@ -1,0 +1,322 @@
+{
+ "subject": "biology",
+ "class": "Form 1",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "b17",
+   "name": "Interactions between living things"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Living things depend on each other. Types of interaction:\n• predation: a predator kills and eats its prey (owl and rat, lion and antelope);\n• parasitism: a parasite lives on or in a host and harms it (tick on a dog, tapeworm in the gut, mistletoe on a tree);\n• mutualism: both gain (bees and flowers; bacteria in the root nodules of beans);\n• commensalism: one gains, the other is not harmed (an orchid growing on a branch);\n• competition: both need the same thing that is in short supply (weeds and maize for light, water and minerals).\nInteractions also help reproduction: insects and birds pollinate flowers, and animals spread seeds by eating fruits.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A tick sucks blood from a dog, and the dog becomes weak. What type of interaction is this?",
+  "steps": [
+   "The tick gains food; the dog is harmed.",
+   "One lives on another and harms it: parasitism. The tick is the parasite and the dog is the host."
+  ],
+  "answer": "Parasitism.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "bc17-1",
+    "status": "draft",
+    "idea": "Predation: a predator kills and eats its prey. Parasitism: a parasite lives on or in a host and harms it.",
+    "vars": {},
+    "example": [
+     "A snake eating a frog is predation; a tapeworm in the gut is parasitism."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b17-match"
+    }
+   },
+   {
+    "id": "bc17-2",
+    "status": "draft",
+    "idea": "Mutualism: both gain. Commensalism: one gains, the other is not harmed. Competition: both need the same scarce thing.",
+    "vars": {},
+    "example": [
+     "Bees and flowers both gain: mutualism."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b17-which"
+    }
+   },
+   {
+    "id": "bc17-3",
+    "status": "draft",
+    "idea": "Animals help plants reproduce: insects pollinate flowers and animals spread seeds.",
+    "vars": {},
+    "example": [
+     "Birds eat fruits and drop the seeds far away."
+    ],
+    "checks": [],
+    "check": {
+     "id": "bc17-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "interactions"
+     ],
+     "vars": {},
+     "prompt": "How do bees help flowering plants reproduce?",
+     "pool": {
+      "right": [
+       {
+        "text": "They carry pollen from flower to flower.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "They eat the seeds.",
+        "truth": "false",
+        "explain": "Bees collect nectar and pollen; they carry pollen between flowers."
+       },
+       {
+        "text": "They water the plants.",
+        "truth": "false",
+        "explain": "They carry pollen."
+       },
+       {
+        "text": "They kill pests in the soil.",
+        "truth": "false",
+        "explain": "They carry pollen."
+       },
+       {
+        "text": "They dig holes for seeds.",
+        "truth": "false",
+        "explain": "They carry pollen."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b17-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "interactions"
+   ],
+   "prompt": "Match each type of interaction with an example.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "predation",
+     "right": "one animal kills and eats another: an owl and a rat"
+    },
+    {
+     "left": "parasitism",
+     "right": "one lives on or in another and harms it: a tick on a dog"
+    },
+    {
+     "left": "mutualism",
+     "right": "both gain: bees get nectar and the flowers are pollinated"
+    },
+    {
+     "left": "competition",
+     "right": "both need the same thing that is in short supply: weeds and maize for water and light"
+    },
+    {
+     "left": "commensalism",
+     "right": "one gains and the other is not harmed: an orchid growing on a tree branch"
+    }
+   ]
+  },
+  {
+   "id": "b17-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "interactions"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "A leopard kills and eats an antelope.",
+       "a": "predation",
+       "why": "Predation: A leopard kills and eats an antelope."
+      },
+      {
+       "t": "Mosquitoes suck human blood and can spread malaria.",
+       "a": "parasitism",
+       "why": "Parasitism: Mosquitoes suck human blood and can spread malaria."
+      },
+      {
+       "t": "Bacteria in bean root nodules get food; the bean plant gets nitrogen.",
+       "a": "mutualism",
+       "why": "Mutualism: Bacteria in bean root nodules get food; the bean plant gets nitrogen."
+      },
+      {
+       "t": "Weeds and cassava both need the same water and light.",
+       "a": "competition",
+       "why": "Competition: Weeds and cassava both need the same water and light."
+      },
+      {
+       "t": "A fern grows on a palm trunk without harming the palm.",
+       "a": "commensalism",
+       "why": "Commensalism: A fern grows on a palm trunk without harming the palm."
+      }
+     ]
+    }
+   },
+   "prompt": "Which type of interaction is this?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "predation",
+     "misconception": "other"
+    },
+    {
+     "text": "parasitism",
+     "misconception": "other"
+    },
+    {
+     "text": "mutualism",
+     "misconception": "other"
+    },
+    {
+     "text": "competition",
+     "misconception": "other"
+    },
+    {
+     "text": "commensalism",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Ask: who gains, and who is harmed?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "b17-weeds",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "interactions"
+   ],
+   "vars": {},
+   "prompt": "Why do farmers remove weeds from a maize farm?",
+   "pool": {
+    "right": [
+     {
+      "text": "Weeds compete with the maize for water, light and minerals.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Weeds are predators of maize.",
+      "truth": "false",
+      "explain": "Weeds compete; they do not eat the maize."
+     },
+     {
+      "text": "Weeds pollinate the maize.",
+      "truth": "false",
+      "explain": "Weeds compete with the maize."
+     },
+     {
+      "text": "Weeds give the maize more water.",
+      "truth": "false",
+      "explain": "Weeds take water away."
+     },
+     {
+      "text": "Weeds are the maize’s parasites.",
+      "truth": "false",
+      "explain": "Weeds compete; they do not live on the maize."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "b17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "interactions"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "In mutualism both organisms gain.",
+      "truth": "true"
+     },
+     {
+      "text": "A predator kills and eats its prey.",
+      "truth": "true"
+     },
+     {
+      "text": "Weeds compete with crops.",
+      "truth": "true"
+     },
+     {
+      "text": "Insects can pollinate flowers.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A parasite helps its host.",
+      "truth": "false",
+      "explain": "A parasite harms its host."
+     },
+     {
+      "text": "In predation both animals gain.",
+      "truth": "false",
+      "explain": "The prey is killed."
+     },
+     {
+      "text": "Competition happens when there is more than enough for all.",
+      "truth": "false",
+      "explain": "Competition happens when something is in short supply."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
