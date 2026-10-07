@@ -1,0 +1,448 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "he1",
+   "name": "Basic terms in nutrition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Nutrition is the way the body takes in food and uses it. A nutrient is a substance in food that the body needs (carbohydrates, proteins, fats and oils, vitamins, minerals, water).\nYour diet is the food you usually eat. A balanced diet has all the nutrients in the right amounts.\nMalnutrition means bad nutrition:\n• under-nutrition: not enough food or nutrients (for example kwashiorkor from too little protein, marasmus from too little food);\n• over-nutrition: too much food for a long time, which can lead to obesity;\n• hidden hunger: a lack of vitamins and minerals even when the stomach is full.\nMetabolism is all the chemical processes in the body that turn food into energy and body tissue.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Enow eats a big plate of garri every day but almost never eats fruit, vegetables, beans or fish. He is not hungry. Is his diet balanced? What kind of malnutrition could he have?",
+  "steps": [
+   "Garri gives energy, but Enow gets few proteins, vitamins and minerals.",
+   "So his diet is not balanced.",
+   "He is not hungry, but his body lacks vitamins and minerals: this is hidden hunger."
+  ],
+  "answer": "No, his diet is not balanced; he could have hidden hunger.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec1-1",
+    "status": "draft",
+    "idea": "Nutrition is how the body takes in and uses food. Nutrients are the substances in food the body needs. Your diet is the food you usually eat.",
+    "vars": {},
+    "example": [
+     "Beans contain the nutrient protein. Rice, beans and vegetables can be part of a good diet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he1-which"
+    }
+   },
+   {
+    "id": "hec1-2",
+    "status": "draft",
+    "idea": "Malnutrition is bad nutrition: under-nutrition (too little), over-nutrition (too much) or hidden hunger (missing vitamins and minerals).",
+    "vars": {},
+    "example": [
+     "A very thin child with too little food has under-nutrition. Eating fried food and sweets every day can lead to obesity."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec1-2-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrition-terms"
+     ],
+     "vars": {},
+     "prompt": "Which is an example of malnutrition?",
+     "pool": {
+      "right": [
+       {
+        "text": "a child who is very thin because there is too little food",
+        "truth": "true"
+       },
+       {
+        "text": "a person who becomes obese from eating too much",
+        "truth": "true"
+       },
+       {
+        "text": "a child who eats enough maize but lacks vitamins",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a child who eats a balanced diet",
+        "truth": "false",
+        "explain": "A balanced diet has all the nutrients in the right amounts: that is good nutrition."
+       },
+       {
+        "text": "a girl who eats fruit every day",
+        "truth": "false",
+        "explain": "Fruit gives vitamins: that is good."
+       },
+       {
+        "text": "a boy who drinks clean water",
+        "truth": "false",
+        "explain": "Clean water is good for health."
+       },
+       {
+        "text": "a family that eats beans, vegetables and rice",
+        "truth": "false",
+        "explain": "That is a varied, healthy meal."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "hec1-3",
+    "status": "draft",
+    "idea": "Metabolism is all the chemical processes that turn food into energy and body tissue.",
+    "vars": {},
+    "example": [
+     "When you run, your metabolism uses the energy from your food."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he1-match"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he1-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-terms"
+   ],
+   "prompt": "Match each word with its meaning.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "nutrition",
+     "right": "the way the body takes in food and uses it"
+    },
+    {
+     "left": "nutrient",
+     "right": "a substance in food that the body needs, such as protein or a vitamin"
+    },
+    {
+     "left": "diet",
+     "right": "the food a person usually eats"
+    },
+    {
+     "left": "balanced diet",
+     "right": "a diet with all the nutrients in the right amounts"
+    },
+    {
+     "left": "malnutrition",
+     "right": "bad nutrition: too little food, too much food or the wrong kinds of food"
+    },
+    {
+     "left": "under-nutrition",
+     "right": "not getting enough food or nutrients"
+    },
+    {
+     "left": "over-nutrition",
+     "right": "eating more food than the body needs for a long time"
+    },
+    {
+     "left": "hidden hunger",
+     "right": "a lack of vitamins and minerals even when the stomach is full"
+    },
+    {
+     "left": "metabolism",
+     "right": "all the chemical processes in the body that turn food into energy and body tissue"
+    },
+    {
+     "left": "obesity",
+     "right": "being very overweight because of too much body fat"
+    }
+   ]
+  },
+  {
+   "id": "he1-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-terms"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "the way the body takes in food and uses it",
+       "a": "nutrition",
+       "why": "Nutrition: the way the body takes in food and uses it."
+      },
+      {
+       "t": "a substance in food that the body needs, such as protein or a vitamin",
+       "a": "nutrient",
+       "why": "Nutrient: a substance in food that the body needs, such as protein or a vitamin."
+      },
+      {
+       "t": "the food a person usually eats",
+       "a": "diet",
+       "why": "Diet: the food a person usually eats."
+      },
+      {
+       "t": "a diet with all the nutrients in the right amounts",
+       "a": "balanced diet",
+       "why": "Balanced diet: a diet with all the nutrients in the right amounts."
+      },
+      {
+       "t": "bad nutrition: too little food, too much food or the wrong kinds of food",
+       "a": "malnutrition",
+       "why": "Malnutrition: bad nutrition: too little food, too much food or the wrong kinds of food."
+      },
+      {
+       "t": "not getting enough food or nutrients",
+       "a": "under-nutrition",
+       "why": "Under-nutrition: not getting enough food or nutrients."
+      },
+      {
+       "t": "eating more food than the body needs for a long time",
+       "a": "over-nutrition",
+       "why": "Over-nutrition: eating more food than the body needs for a long time."
+      },
+      {
+       "t": "a lack of vitamins and minerals even when the stomach is full",
+       "a": "hidden hunger",
+       "why": "Hidden hunger: a lack of vitamins and minerals even when the stomach is full."
+      },
+      {
+       "t": "all the chemical processes in the body that turn food into energy and body tissue",
+       "a": "metabolism",
+       "why": "Metabolism: all the chemical processes in the body that turn food into energy and body tissue."
+      },
+      {
+       "t": "being very overweight because of too much body fat",
+       "a": "obesity",
+       "why": "Obesity: being very overweight because of too much body fat."
+      }
+     ]
+    }
+   },
+   "prompt": "Which word means: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "nutrition",
+     "misconception": "other"
+    },
+    {
+     "text": "nutrient",
+     "misconception": "other"
+    },
+    {
+     "text": "diet",
+     "misconception": "other"
+    },
+    {
+     "text": "balanced diet",
+     "misconception": "other"
+    },
+    {
+     "text": "malnutrition",
+     "misconception": "other"
+    },
+    {
+     "text": "under-nutrition",
+     "misconception": "other"
+    },
+    {
+     "text": "over-nutrition",
+     "misconception": "other"
+    },
+    {
+     "text": "hidden hunger",
+     "misconception": "other"
+    },
+    {
+     "text": "metabolism",
+     "misconception": "other"
+    },
+    {
+     "text": "obesity",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this word. Read the meanings again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he1-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrition-terms"
+   ],
+   "prompt": "Sort these: under-nutrition or over-nutrition?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "under-nutrition",
+    "over-nutrition"
+   ],
+   "pool": [
+    {
+     "left": "a very thin child who does not get enough food",
+     "right": "under-nutrition"
+    },
+    {
+     "left": "kwashiorkor: a swollen belly from too little protein",
+     "right": "under-nutrition"
+    },
+    {
+     "left": "marasmus: very thin from too little food",
+     "right": "under-nutrition"
+    },
+    {
+     "left": "only one small meal a day for a long time",
+     "right": "under-nutrition"
+    },
+    {
+     "left": "obesity",
+     "right": "over-nutrition"
+    },
+    {
+     "left": "eating fried food and sweets every day",
+     "right": "over-nutrition"
+    },
+    {
+     "left": "putting on too much weight",
+     "right": "over-nutrition"
+    },
+    {
+     "left": "eating much more than the body needs",
+     "right": "over-nutrition"
+    }
+   ]
+  },
+  {
+   "id": "he1-hidden",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrition-terms"
+   ],
+   "vars": {},
+   "prompt": "Which is an example of hidden hunger?",
+   "pool": {
+    "right": [
+     {
+      "text": "A child eats enough garri every day but no fruit or vegetables, and lacks vitamins.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A child has nothing to eat for two days.",
+      "truth": "false",
+      "explain": "That is under-nutrition: there is too little food."
+     },
+     {
+      "text": "A man eats so much that he becomes obese.",
+      "truth": "false",
+      "explain": "That is over-nutrition."
+     },
+     {
+      "text": "A girl eats a balanced diet.",
+      "truth": "false",
+      "explain": "A balanced diet gives all the nutrients: no hunger."
+     },
+     {
+      "text": "A boy is hungry just before lunch.",
+      "truth": "false",
+      "explain": "Feeling hungry before a meal is normal."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrition-terms"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A balanced diet has all the nutrients in the right amounts.",
+      "truth": "true"
+     },
+     {
+      "text": "Obesity can come from over-nutrition.",
+      "truth": "true"
+     },
+     {
+      "text": "Kwashiorkor is caused by too little protein.",
+      "truth": "true"
+     },
+     {
+      "text": "Nutrients are substances in food that the body needs.",
+      "truth": "true"
+     },
+     {
+      "text": "Hidden hunger is a lack of vitamins and minerals.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Malnutrition only means having too little food.",
+      "truth": "false",
+      "explain": "Malnutrition also includes over-nutrition and hidden hunger."
+     },
+     {
+      "text": "Metabolism is the name of a food.",
+      "truth": "false",
+      "explain": "Metabolism is the chemical processes that use food in the body."
+     },
+     {
+      "text": "A person with hidden hunger always feels hungry.",
+      "truth": "false",
+      "explain": "With hidden hunger the stomach can be full; vitamins and minerals are missing."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "he7",
+   "name": "Types of fireplaces"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Fireplaces used in traditional kitchens:\n• Three-stone fireplace: three stones hold the pot over an open wood fire. It is cheap and easy to make, but it wastes firewood, makes a lot of smoke, and children can be burnt.\n• Improved (mud or clay) stove: walls of mud or clay around the fire keep the heat in; the pot sits on top. It saves firewood, makes less smoke and is safer, but it must be built and repaired.\n• Charcoal stove: a metal stove that burns charcoal. It can be carried, makes little smoke and cooks fast, but charcoal costs money, and burning it indoors without fresh air is dangerous (carbon monoxide).\nSaving firewood protects forests.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A family wants a fireplace that uses less firewood and makes less smoke, and they have clay nearby. Which fireplace should they build?",
+  "steps": [
+   "The three-stone fireplace wastes firewood and is smoky.",
+   "An improved mud or clay stove keeps the heat in, so it uses less wood and makes less smoke, and clay is free nearby."
+  ],
+  "answer": "An improved (mud or clay) stove.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec7-1",
+    "status": "draft",
+    "idea": "The three-stone fireplace: three stones hold the pot over an open fire. Cheap, but it wastes firewood and is smoky.",
+    "vars": {},
+    "example": [
+     "Much of the heat escapes round the sides of the pot."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he7-which"
+    }
+   },
+   {
+    "id": "hec7-2",
+    "status": "draft",
+    "idea": "The improved mud stove keeps the heat in with mud or clay walls, so it saves firewood and makes less smoke.",
+    "vars": {},
+    "example": [
+     "Less firewood means fewer trees cut down."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he7-match"
+    }
+   },
+   {
+    "id": "hec7-3",
+    "status": "draft",
+    "idea": "The charcoal stove is metal, burns charcoal and can be carried. Use it only where there is fresh air.",
+    "vars": {},
+    "example": [
+     "Burning charcoal in a closed room can poison people."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec7-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "fireplaces"
+     ],
+     "vars": {},
+     "prompt": "Why must a charcoal stove be used only where there is fresh air?",
+     "pool": {
+      "right": [
+       {
+        "text": "Burning charcoal gives off a poisonous gas (carbon monoxide).",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Charcoal smells bad.",
+        "truth": "false",
+        "explain": "The danger is a poisonous gas, carbon monoxide, which has no smell."
+       },
+       {
+        "text": "The stove gets too cold.",
+        "truth": "false",
+        "explain": "The problem is a poisonous gas, not cold."
+       },
+       {
+        "text": "Charcoal is heavy.",
+        "truth": "false",
+        "explain": "Weight is not the danger: the gas is."
+       },
+       {
+        "text": "Fresh air makes food taste better.",
+        "truth": "false",
+        "explain": "Fresh air is needed for safety: charcoal gives off carbon monoxide."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he7-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "fireplaces"
+   ],
+   "prompt": "Match each fireplace with its description.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "three-stone fireplace",
+     "right": "three stones hold the pot over an open wood fire"
+    },
+    {
+     "left": "improved (mud) stove",
+     "right": "mud or clay walls around the fire hold the heat; the pot sits on top"
+    },
+    {
+     "left": "charcoal stove",
+     "right": "a metal stove that burns charcoal and can be carried"
+    }
+   ]
+  },
+  {
+   "id": "he7-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "fireplaces"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "three stones hold the pot",
+       "a": "three-stone fireplace",
+       "why": "Three-stone fireplace: three stones hold the pot."
+      },
+      {
+       "t": "mud walls keep the heat in",
+       "a": "improved (mud) stove",
+       "why": "Improved (mud) stove: mud walls keep the heat in."
+      },
+      {
+       "t": "it burns charcoal and can be carried",
+       "a": "charcoal stove",
+       "why": "Charcoal stove: it burns charcoal and can be carried."
+      },
+      {
+       "t": "it wastes the most firewood",
+       "a": "three-stone fireplace",
+       "why": "Three-stone fireplace: it wastes the most firewood."
+      },
+      {
+       "t": "it saves firewood and must be built from clay",
+       "a": "improved (mud) stove",
+       "why": "Improved (mud) stove: it saves firewood and must be built from clay."
+      }
+     ]
+    }
+   },
+   "prompt": "Which fireplace is this: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "three-stone fireplace",
+     "misconception": "other"
+    },
+    {
+     "text": "improved (mud) stove",
+     "misconception": "other"
+    },
+    {
+     "text": "charcoal stove",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that one. Read the descriptions again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "he7-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "fireplaces"
+   ],
+   "prompt": "Three-stone fireplace: sort these into advantages and disadvantages.",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "advantage",
+    "disadvantage"
+   ],
+   "pool": [
+    {
+     "left": "cheap: the stones cost nothing",
+     "right": "advantage"
+    },
+    {
+     "left": "easy to make",
+     "right": "advantage"
+    },
+    {
+     "left": "can take pots of any size",
+     "right": "advantage"
+    },
+    {
+     "left": "gives light and warmth in the kitchen",
+     "right": "advantage"
+    },
+    {
+     "left": "wastes firewood",
+     "right": "disadvantage"
+    },
+    {
+     "left": "makes a lot of smoke",
+     "right": "disadvantage"
+    },
+    {
+     "left": "children can fall into the fire",
+     "right": "disadvantage"
+    },
+    {
+     "left": "soot blackens pots and walls",
+     "right": "disadvantage"
+    }
+   ]
+  },
+  {
+   "id": "he7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "fireplaces"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "An improved mud stove saves firewood.",
+      "truth": "true"
+     },
+     {
+      "text": "A three-stone fireplace makes a lot of smoke.",
+      "truth": "true"
+     },
+     {
+      "text": "A charcoal stove can be carried.",
+      "truth": "true"
+     },
+     {
+      "text": "Saving firewood helps to protect forests.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A charcoal stove is safe to use in a closed room.",
+      "truth": "false",
+      "explain": "Burning charcoal gives off carbon monoxide: use it only with fresh air."
+     },
+     {
+      "text": "A three-stone fireplace saves the most firewood.",
+      "truth": "false",
+      "explain": "It wastes the most firewood: heat escapes round the pot."
+     },
+     {
+      "text": "An improved stove makes more smoke than a three-stone fire.",
+      "truth": "false",
+      "explain": "An improved stove makes less smoke."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

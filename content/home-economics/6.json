@@ -1,0 +1,405 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "he6",
+   "name": "Parts of a traditional kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A traditional kitchen is often a separate house near the main house, with walls of mud or mud bricks and a roof of thatch or zinc. The floor is often earth.\nIts main parts:\n• the fireplace, often three stones in the middle of the floor, holding the pot;\n• the smoke rack (often bamboo) above the fire, for drying and smoking meat, fish, maize and firewood;\n• the firewood store, keeping wood dry;\n• water pots or containers;\n• shelves, baskets or hooks for plates, pots and spoons;\n• the mortar and pestle and the grinding stone, for pounding and grinding food;\n• stools to sit on, and small openings to let smoke out.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 0
+  },
+  "figure": "traditionalKitchen(k)",
+  "problem": "In the drawing, which part is labelled {letterOf(k, 6, 1)}, and what is it for?",
+  "steps": [
+   "Letter {letterOf(k, 6, 1)} is on the frame of bamboo hanging above the fire.",
+   "That is the smoke rack. The heat and smoke from the fire dry food and firewood placed on it."
+  ],
+  "answer": "The smoke rack: it dries and smokes meat, fish, maize and firewood.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec6-1",
+    "status": "draft",
+    "idea": "A traditional kitchen has a fireplace, a smoke rack above it, a firewood store, water pots, shelves and a mortar and pestle.",
+    "vars": {},
+    "example": [
+     "The fireplace is usually in the middle of the floor."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he6-part"
+    }
+   },
+   {
+    "id": "hec6-2",
+    "status": "draft",
+    "idea": "The smoke rack hangs above the fire. Heat and smoke dry and preserve food and firewood.",
+    "vars": {},
+    "example": [
+     "Smoked fish keeps for a long time."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he6-letter"
+    }
+   },
+   {
+    "id": "hec6-3",
+    "status": "draft",
+    "idea": "Each part has a use: the shelf keeps utensils clean; the mortar and pestle pound food.",
+    "vars": {},
+    "example": [
+     "Groundnuts are pounded in the mortar for groundnut soup."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec6-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "traditional-kitchen"
+     ],
+     "vars": {},
+     "prompt": "What is the smoke rack above the fire used for?",
+     "pool": {
+      "right": [
+       {
+        "text": "drying and smoking meat, fish, maize and firewood",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "storing water",
+        "truth": "false",
+        "explain": "Water is kept in water pots."
+       },
+       {
+        "text": "pounding groundnuts",
+        "truth": "false",
+        "explain": "That is done with the mortar and pestle."
+       },
+       {
+        "text": "holding the pot over the fire",
+        "truth": "false",
+        "explain": "The three stones hold the pot."
+       },
+       {
+        "text": "washing plates",
+        "truth": "false",
+        "explain": "Plates are washed with water, then put on the shelf."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he6-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "traditional-kitchen"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      719
+     ]
+    },
+    "x": {
+     "pick": [
+      {
+       "p": "three-stone fireplace",
+       "i": 0,
+       "why": "The three-stone fireplace holds the pot over the fire."
+      },
+      {
+       "p": "smoke rack",
+       "i": 1,
+       "why": "The smoke rack above the fire dries and smokes meat, fish, maize and firewood."
+      },
+      {
+       "p": "firewood store",
+       "i": 2,
+       "why": "The firewood store keeps firewood dry and ready to use."
+      },
+      {
+       "p": "water pot",
+       "i": 3,
+       "why": "The water pot stores water and keeps it cool."
+      },
+      {
+       "p": "shelf for utensils",
+       "i": 4,
+       "why": "The shelf keeps plates and pots clean and off the floor."
+      },
+      {
+       "p": "mortar and pestle",
+       "i": 5,
+       "why": "The mortar and pestle pound food such as cocoyams, groundnuts and spices."
+      }
+     ]
+    }
+   },
+   "figure": "traditionalKitchen(k)",
+   "prompt": "What is the part labelled {letterOf(k, 6, x.i)}?",
+   "correct": "{x.p}",
+   "distractors": [
+    {
+     "text": "three-stone fireplace",
+     "misconception": "other"
+    },
+    {
+     "text": "smoke rack",
+     "misconception": "other"
+    },
+    {
+     "text": "firewood store",
+     "misconception": "other"
+    },
+    {
+     "text": "water pot",
+     "misconception": "other"
+    },
+    {
+     "text": "shelf for utensils",
+     "misconception": "other"
+    },
+    {
+     "text": "mortar and pestle",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Look again at what the letter is next to."
+    }
+   ],
+   "solution": [
+    "Letter {letterOf(k, 6, x.i)} is next to the {answer}.",
+    "{x.why}"
+   ]
+  },
+  {
+   "id": "he6-letter",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "traditional-kitchen"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      719
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      5
+     ]
+    }
+   },
+   "figure": "traditionalKitchen(k)",
+   "prompt": "Which letter shows the {tradPart(i)}?",
+   "correct": "{letterOf(k, 6, i)}",
+   "distractors": [
+    {
+     "text": "A",
+     "misconception": "other"
+    },
+    {
+     "text": "B",
+     "misconception": "other"
+    },
+    {
+     "text": "C",
+     "misconception": "other"
+    },
+    {
+     "text": "D",
+     "misconception": "other"
+    },
+    {
+     "text": "E",
+     "misconception": "other"
+    },
+    {
+     "text": "F",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That letter is next to a different part."
+    }
+   ],
+   "solution": [
+    "The {tradPart(i)} is labelled {answer}."
+   ]
+  },
+  {
+   "id": "he6-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "traditional-kitchen"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "three-stone fireplace",
+       "a": "holding the pot over the fire",
+       "why": "The three-stone fireplace holds the pot over the fire."
+      },
+      {
+       "t": "smoke rack",
+       "a": "drying and smoking meat, fish, maize and firewood",
+       "why": "The smoke rack above the fire dries and smokes meat, fish, maize and firewood."
+      },
+      {
+       "t": "firewood store",
+       "a": "keeping firewood dry",
+       "why": "The firewood store keeps firewood dry and ready to use."
+      },
+      {
+       "t": "water pot",
+       "a": "storing water and keeping it cool",
+       "why": "The water pot stores water and keeps it cool."
+      },
+      {
+       "t": "shelf for utensils",
+       "a": "keeping plates and pots clean and off the floor",
+       "why": "The shelf keeps plates and pots clean and off the floor."
+      },
+      {
+       "t": "mortar and pestle",
+       "a": "pounding food such as cocoyams, groundnuts and spices",
+       "why": "The mortar and pestle pound food such as cocoyams, groundnuts and spices."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the {x.t} used for?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "holding the pot over the fire",
+     "misconception": "other"
+    },
+    {
+     "text": "drying and smoking meat, fish, maize and firewood",
+     "misconception": "other"
+    },
+    {
+     "text": "keeping firewood dry",
+     "misconception": "other"
+    },
+    {
+     "text": "storing water and keeping it cool",
+     "misconception": "other"
+    },
+    {
+     "text": "keeping plates and pots clean and off the floor",
+     "misconception": "other"
+    },
+    {
+     "text": "pounding food such as cocoyams, groundnuts and spices",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is the use of a different part."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "traditional-kitchen"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A traditional kitchen often has mud walls.",
+      "truth": "true"
+     },
+     {
+      "text": "The smoke rack is above the fire.",
+      "truth": "true"
+     },
+     {
+      "text": "Firewood is kept dry in the firewood store.",
+      "truth": "true"
+     },
+     {
+      "text": "The mortar and pestle are used to pound food.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The smoke rack is used to store water.",
+      "truth": "false",
+      "explain": "Water is kept in water pots; the smoke rack dries and smokes food."
+     },
+     {
+      "text": "The fireplace is usually on the roof.",
+      "truth": "false",
+      "explain": "The fireplace is on the floor, often in the middle."
+     },
+     {
+      "text": "A traditional kitchen always has an electric cooker.",
+      "truth": "false",
+      "explain": "A traditional kitchen uses a wood fire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

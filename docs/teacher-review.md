@@ -18,12 +18,13 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 `content/english/REVIEW.md`, `content/english/sources.json`. Physics: `content/physics/AUTHORED.md`,
 `content/physics/REVIEW.md` (with drawings in `content/physics/figures/`), `content/physics/sources.json`. Chemistry: `content/chemistry/AUTHORED.md`,
 `content/chemistry/REVIEW.md`, `content/chemistry/sources.json`. Geography: `content/geography/AUTHORED.md`,
-`content/geography/REVIEW.md` (with drawings in `content/geography/figures/`), `content/geography/sources.json`.
+`content/geography/REVIEW.md` (with drawings in `content/geography/figures/`), `content/geography/sources.json`. Home Economics: `content/home-economics/AUTHORED.md`,
+`content/home-economics/REVIEW.md` (with drawings in `content/home-economics/figures/`), `content/home-economics/sources.json`.
 
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-87 P1 items: 85 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+100 P1 items: 98 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -112,6 +113,19 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-G11 | Natural environment, spheres, ecosystems, food chains | open |
 | TR-G12 | Branches, sub-branches and methods of geography | open |
 | TR-G13 | Geography statement pools, notes (10) and cards (37) | open |
+| TR-H01 | Kitchen work triangle: 1.2–2.7 m sides, 4–7.9 m total | open |
+| TR-H02 | Home Economics drawings: parts look right | open |
+| TR-H03 | Nutrition terms | open |
+| TR-H04 | Health and its factors | open |
+| TR-H05 | Foods, nutrients, three food groups | open |
+| TR-H06 | Functions of food; dietary guidelines | open |
+| TR-H07 | Food and nutrition careers | open |
+| TR-H08 | Traditional kitchen: parts, uses, pros and cons | open |
+| TR-H09 | Fireplaces; charcoal and carbon monoxide | open |
+| TR-H10 | Kitchen care; what to do if you smell gas | open |
+| TR-H11 | Modern kitchen: work centres, shapes, units, planning | open |
+| TR-H12 | Time management in the kitchen | open |
+| TR-H13 | Home Economics statement pools, notes (17) and cards (51) | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -376,3 +390,37 @@ the rules and tables); every question as the pupil sees it is in `content/geogra
 
 ### Added 2026-10-07 (Geography released in the app)
 - [ ] **TR-G19 [P2] Geography released in the app on 2026-10-07 at Dion's request ("release geography and push it"),** before the TR-G items above were checked by a teacher; the lessons show the usual "drafts" line. Five tabs now (Maths, English, Physics, Chemistry, Geography; two by two at 360 px, Geography alone on the third row). The build numbers Geography by place in the year (TR-G14), so the menu shows "Lesson 4: PW1 …". The page is about 746 KB (limit raised to 900 KB; the 2 MB Phase 3 budget stands). This release also ships the Physics label fix (TR-G17). Supersedes TR-G16. *Location:* `SUBJECTS`, `BATCH`, `BY_SEQ` in `tools/prototype/build.mjs`.
+
+## H. Home Economics Form 1, Batch H1 (Term 1: Lessons 1–7, 10–17, 20–21), added 2026-10-07
+
+All 17 Term 1 lessons are taught with auto-marked practice: 17 notes, 51 teach cards, 73 practice templates and 17
+card-check templates. Rows 8–9 and 18–19 are integration and remediation rows (mixed review, no new teaching) and are
+not in this batch. Home Economics is mostly naming, sorting and reasons, so **88 templates have an authored key** and
+only 2 are **computed by rule** (the kitchen work triangle). Ten practice questions show a drawing made by code (the
+traditional kitchen, three fireplaces, kitchen shapes from above, the front of a modern kitchen, the work triangle); the
+letters on each drawing come from the question's numbers, and the same code gives the answer. Everything is draft and
+**not yet in the app**. Every authored key is in `content/home-economics/AUTHORED.md`; every question as the pupil sees it
+is in `content/home-economics/REVIEW.md`.
+
+### P1: wrong facts here would mislead the pupil
+- [ ] **TR-H01 [P1] Kitchen work triangle:** sink → cooker → fridge; each side 1.2 m to 2.7 m and the total 4 m to 7.9 m (a common kitchen-design guideline, not from the school sheet); the reason given when it is not well planned. Please say if the school teaches different figures, or none. *Location:* `SIDE_MIN` … `triangleVerdict()` in `src/engine/lib/homeeconomics.js`; `content/home-economics/13.json`.
+- [ ] **TR-H02 [P1] Drawings:** the traditional kitchen (three-stone fireplace, smoke rack, firewood store, water pot, shelf, mortar and pestle), the three fireplaces, the kitchen shapes and the kitchen front (wall, base and tall units, worktop, sink, cooker) are simple drawings made by code. Please check that each part looks like what it is called. *Location:* `traditionalKitchen()`, `fireplaces()`, `kitchenPlan()`, `kitchenUnits()` in `homeeconomics.js`; drawings in `content/home-economics/figures/`.
+- [ ] **TR-H03 [P1] Nutrition terms:** the ten words and meanings (nutrition, nutrient, diet, balanced diet, malnutrition, under-nutrition, over-nutrition, hidden hunger, metabolism, obesity); kwashiorkor (too little protein) and marasmus (too little food) as under-nutrition. *Location:* `content/home-economics/1.json`.
+- [ ] **TR-H04 [P1] Health:** health as well-being of body, mind and life with others, not only freedom from disease; the factors (diet, exercise, rest and sleep, recreation, hygiene, clean environment, avoiding harmful habits, health care). *Location:* `content/home-economics/2.json`.
+- [ ] **TR-H05 [P1] Foods, nutrients and food groups:** the 19 foods and their main nutrient (groundnuts counted as protein, palm oil as fat), the three food groups (energy-giving, body-building, protective), and the job of each nutrient, water and fibre. *Location:* `content/home-economics/3.json`.
+- [ ] **TR-H06 [P1] Functions of food and dietary guidelines:** body and social functions; the six guidelines; the subjects linked to food and nutrition. *Location:* `content/home-economics/4.json`.
+- [ ] **TR-H07 [P1] Careers:** the nine jobs and what each person does (dietitian vs nutritionist especially). *Location:* `content/home-economics/5.json`.
+- [ ] **TR-H08 [P1] Traditional kitchen:** its parts and their uses; its advantages and disadvantages. *Location:* `content/home-economics/6.json`, `11.json`.
+- [ ] **TR-H09 [P1] Fireplaces:** three-stone fireplace, improved (mud or clay) stove, charcoal stove; their advantages and disadvantages; **burning charcoal indoors without fresh air is dangerous (carbon monoxide)**. *Location:* `content/home-economics/7.json`, `10.json`.
+- [ ] **TR-H10 [P1] Kitchen care and safety:** caring for traditional and modern kitchens (ashes only when cold, firewood away from the fire, no fat down the sink, defrost the fridge, switch appliances off); **if you smell gas: open the windows, light nothing, switch nothing on, tell an adult**. *Location:* `content/home-economics/12.json`, `21.json`.
+- [ ] **TR-H11 [P1] Modern kitchen planning:** the three work centres; the five kitchen shapes; base, wall, tall, corner and drawer units and what goes in each; the planning points (lighting, ventilation, water, electricity away from water, safety, budget). *Location:* `content/home-economics/13.json` to `17.json`.
+- [ ] **TR-H12 [P1] Time management:** the advantages; the five methods (planning the menu, preparing first, dovetailing, labour-saving equipment, cleaning as you go); the order of work (plan, buy, prepare, cook, serve, wash up). *Location:* `content/home-economics/20.json`.
+- [ ] **TR-H13 [P1] Statement pools, notes and cards:** every right and wrong sentence with its explanation, 17 notes and 51 cards. *Location:* `content/home-economics/AUTHORED.md`, `REVIEW.md`.
+
+### P2: conventions and decisions
+- [ ] **TR-H14 [P2] Lesson numbers follow the sheet** (here the lesson number equals the row), so the menu will skip 8–9 and 18–19, the integration and remediation rows. *Location:* `batch` in `tests-js/homeeconomics-content.test.js`.
+- [ ] **TR-H15 [P2] Term 1 only:** first aid (rows 38–39, Term 2) is the highest-stakes Home Economics content and is not in this batch; it will need a first-aid trainer or health worker as well as a teacher. *Location:* `docs/audit/home-economics.md`.
+- [ ] **TR-H16 [P2] Not in the app yet:** Home Economics joins as a sixth tab after this review. The page is about 746 KB now; Home Economics adds roughly 100 KB, still under the 900 KB build limit. *Location:* `SUBJECTS`, `BATCH` in `tools/prototype/build.mjs`.
+
+### Added 2026-10-07 (Home Economics released in the app)
+- [ ] **TR-H17 [P2] Home Economics released in the app on 2026-10-07 at Dion's request ("release home economics and push it"),** before the TR-H items above were checked by a teacher; the lessons show the usual "drafts" line. Six tabs now, two by two at 360 px. The page is about 875 KB, close to the 900 KB build limit (the 2 MB Phase 3 budget stands): the next subject should come with the move to loading one subject at a time. Menu titles now join a word the sheet split ("under- nutrition" → "under-nutrition"); no title of an earlier subject changed. Supersedes TR-H16. *Location:* `SUBJECTS`, `BATCH`, `tidy()` in `tools/prototype/build.mjs`.

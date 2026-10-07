@@ -1,4 +1,4 @@
-// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1) builds from the real engine and content, offline, under 900 KB.
+// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1) builds from the real engine and content, offline, under 900 KB.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
@@ -44,9 +44,14 @@ test("prototype: builds under 900 KB, no external resources, engine runs", () =>
   const gq = ENGINE.template.instantiate(g5.questions.find((t) => t.id === "g5-four"), 5, ENGINE.libs.geography, 5);
   assert.match(gq.figure, /^<svg /);
   assert.deepEqual(ENGINE.template.check(gq, gq.answer), { correct: true });
+  // Home Economics: the work triangle is drawn and totalled by the inlined library.
+  const h13 = JSON.parse(readFileSync(new URL("content/home-economics/13.json", ROOT), "utf8"));
+  const hq = ENGINE.template.instantiate(h13.questions.find((t) => t.id === "he13-total"), 5, ENGINE.libs["home-economics"], 13);
+  assert.match(hq.figure, /^<svg /);
+  assert.deepEqual(ENGINE.template.check(hq, hq.answer), { correct: true });
 });
 
-test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1 and Geography G1 are in the page; deferred speech work is not", () => {
+test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1, Geography G1 and Home Economics H1 are in the page; deferred speech work is not", () => {
   const html = page();
   const content = constant(html, "CONTENT"), titles = constant(html, "TITLES"), lessons = constant(html, "LESSONS");
   assert.deepEqual(lessons.maths, Array.from({ length: 16 }, (_, i) => i + 1));
@@ -55,7 +60,8 @@ test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1 and Geograph
   assert.deepEqual(lessons.chemistry, Array.from({ length: 21 }, (_, i) => i + 1));
   assert.deepEqual(lessons.geography, Array.from({ length: 10 }, (_, i) => i + 1));
   assert.match(titles.geography[4], /^PW1/, "Geography is numbered by place in the year: Lesson 4 is PW1");
-  for (const s of ["maths", "english", "physics", "chemistry", "geography"]) for (const n of lessons[s]) {
+  assert.deepEqual(lessons["home-economics"], [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21]);
+  for (const s of ["maths", "english", "physics", "chemistry", "geography", "home-economics"]) for (const n of lessons[s]) {
     assert.equal(content[s][n]?.lesson_no, n, `${s} ${n}`);
     assert.ok(titles[s][n], `${s} ${n} title`);
   }

@@ -1,0 +1,357 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "he14",
+   "name": "Shapes of modern kitchens"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Modern kitchens are planned in a few common shapes (seen from above):\n• One-wall (single-line): all the counters and units along one wall. Good for small spaces, but the work triangle becomes a line.\n• Galley (corridor): two rows of counters facing each other. Efficient for one cook.\n• L-shaped: counters on two walls that meet at a corner. Leaves space for a table.\n• U-shaped: counters on three walls. A lot of storage and work space.\n• Island: a free-standing counter in the middle of the room, as well as wall counters. Needs a big room.\nChoose the shape to fit the size of the room, the family and the work done in it.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 3
+  },
+  "figure": "kitchenPlan(t)",
+  "problem": "The drawing shows a kitchen from above; the counters are shaded. Which shape is it?",
+  "steps": [
+   "Count the walls with counters: three.",
+   "Counters on three walls make a U."
+  ],
+  "answer": "{shapeName(t)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec14-1",
+    "status": "draft",
+    "idea": "A kitchen plan is drawn from above. The shaded strips are the counters and units.",
+    "vars": {},
+    "example": [
+     "Count how many walls have counters, and look for a counter in the middle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he14-shape"
+    }
+   },
+   {
+    "id": "hec14-2",
+    "status": "draft",
+    "idea": "One wall: one-wall kitchen. Two facing walls: galley. Two walls at a corner: L-shaped. Three walls: U-shaped. A counter in the middle: island.",
+    "vars": {},
+    "example": [
+     "A narrow kitchen with counters on both long sides is a galley."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he14-desc"
+    }
+   },
+   {
+    "id": "hec14-3",
+    "status": "draft",
+    "idea": "Choose the shape that fits the room: one-wall or galley for small rooms, U-shaped or island for big ones.",
+    "vars": {},
+    "example": [
+     "An island needs space to walk all round it."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec14-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-shapes"
+     ],
+     "vars": {},
+     "prompt": "Which shape suits a very small kitchen best?",
+     "pool": {
+      "right": [
+       {
+        "text": "one-wall (single-line)",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "island",
+        "truth": "false",
+        "explain": "An island needs a big room."
+       },
+       {
+        "text": "U-shaped",
+        "truth": "false",
+        "explain": "A U-shape needs space on three walls."
+       },
+       {
+        "text": "a kitchen with two islands",
+        "truth": "false",
+        "explain": "That needs a very big room."
+       },
+       {
+        "text": "L-shaped with an island",
+        "truth": "false",
+        "explain": "That needs a big room."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he14-shape",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-shapes"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "i": 0,
+       "why": "Counters along one wall only: good for a very small kitchen."
+      },
+      {
+       "i": 1,
+       "why": "Two rows of counters facing each other, with a corridor between them."
+      },
+      {
+       "i": 2,
+       "why": "Counters on two walls that meet at a corner."
+      },
+      {
+       "i": 3,
+       "why": "Counters on three walls: a lot of storage and work space."
+      },
+      {
+       "i": 4,
+       "why": "A free-standing counter in the middle of the room, as well as the wall counters: needs a big room."
+      }
+     ]
+    }
+   },
+   "figure": "kitchenPlan(x.i)",
+   "prompt": "The counters are shaded. Which kitchen shape is this?",
+   "correct": "{shapeName(x.i)}",
+   "distractors": [
+    {
+     "text": "one-wall (single-line)",
+     "misconception": "count"
+    },
+    {
+     "text": "galley (corridor)",
+     "misconception": "count"
+    },
+    {
+     "text": "L-shaped",
+     "misconception": "count"
+    },
+    {
+     "text": "U-shaped",
+     "misconception": "count"
+    },
+    {
+     "text": "island",
+     "misconception": "count"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "count",
+     "explain": "Count the walls with counters, and look for a counter standing in the middle."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "So it is {answer}."
+   ]
+  },
+  {
+   "id": "he14-desc",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-shapes"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "counters along one wall only",
+       "a": "one-wall (single-line)",
+       "why": "Counters along one wall only: good for a very small kitchen."
+      },
+      {
+       "t": "two rows of counters facing each other",
+       "a": "galley (corridor)",
+       "why": "Two rows of counters facing each other, with a corridor between them."
+      },
+      {
+       "t": "counters on two walls that meet at a corner",
+       "a": "L-shaped",
+       "why": "Counters on two walls that meet at a corner."
+      },
+      {
+       "t": "counters on three walls",
+       "a": "U-shaped",
+       "why": "Counters on three walls: a lot of storage and work space."
+      },
+      {
+       "t": "a free-standing counter in the middle of the room",
+       "a": "island",
+       "why": "A free-standing counter in the middle of the room, as well as the wall counters: needs a big room."
+      }
+     ]
+    }
+   },
+   "prompt": "Which kitchen shape has {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "one-wall (single-line)",
+     "misconception": "other"
+    },
+    {
+     "text": "galley (corridor)",
+     "misconception": "other"
+    },
+    {
+     "text": "L-shaped",
+     "misconception": "other"
+    },
+    {
+     "text": "U-shaped",
+     "misconception": "other"
+    },
+    {
+     "text": "island",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that shape. Count the walls with counters."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he14-best",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-shapes"
+   ],
+   "vars": {},
+   "prompt": "Which shape gives the most storage and work space around the cook?",
+   "pool": {
+    "right": [
+     {
+      "text": "U-shaped",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "one-wall (single-line)",
+      "truth": "false",
+      "explain": "Only one wall of storage."
+     },
+     {
+      "text": "galley (corridor)",
+      "truth": "false",
+      "explain": "Two walls only."
+     },
+     {
+      "text": "L-shaped",
+      "truth": "false",
+      "explain": "Two walls only."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-shapes"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "An L-shaped kitchen has counters on two walls that meet.",
+      "truth": "true"
+     },
+     {
+      "text": "A galley kitchen has two rows of counters facing each other.",
+      "truth": "true"
+     },
+     {
+      "text": "A U-shaped kitchen has counters on three walls.",
+      "truth": "true"
+     },
+     {
+      "text": "A one-wall kitchen suits a small room.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An island kitchen suits a very small room.",
+      "truth": "false",
+      "explain": "An island needs a big room: you must walk round it."
+     },
+     {
+      "text": "A galley kitchen has counters on three walls.",
+      "truth": "false",
+      "explain": "That is U-shaped; a galley has two facing rows."
+     },
+     {
+      "text": "A one-wall kitchen has counters on every wall.",
+      "truth": "false",
+      "explain": "A one-wall kitchen has counters on one wall only."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

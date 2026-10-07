@@ -1,0 +1,439 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "he13",
+   "name": "Kitchen planning and the work triangle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A kitchen has three main work centres:\n• the storage centre: the fridge and cupboards;\n• the preparation and cleaning centre: the sink;\n• the cooking centre: the cooker.\nThe work triangle is the path between the sink, the cooker and the fridge. A good triangle saves walking and time. A common guide: each side 1.2 m to 2.7 m long, and the three sides together 4 m to 7.9 m. Nothing (a table, a cupboard) should block the triangle.\nManaging a kitchen means: planning meals in advance, keeping it clean and tidy, storing food properly, working in a sensible order, cleaning as you go, and using fuel, water and money carefully.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1.8,
+   "b": 2.1,
+   "c": 2.4
+  },
+  "figure": "workTriangle(a, b, c)",
+  "problem": "The sink is {a} m from the cooker, the cooker {b} m from the fridge, and the fridge {c} m from the sink. How long is the work triangle? Is it well planned?",
+  "steps": [
+   "Total: {a} + {b} + {c} = {triangleTotal(a, b, c)} m.",
+   "Each side is between {sideMin()} m and {sideMax()} m.",
+   "The total is between {totalMin()} m and {totalMax()} m."
+  ],
+  "answer": "{triangleTotal(a, b, c)} m: {triangleVerdict(a, b, c)}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec13-1",
+    "status": "draft",
+    "idea": "A kitchen has three work centres: storage (fridge), preparation and cleaning (sink), and cooking (cooker).",
+    "vars": {},
+    "example": [
+     "Vegetables come from the fridge, are washed at the sink, and are cooked on the cooker."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he13-centre"
+    }
+   },
+   {
+    "id": "hec13-2",
+    "status": "draft",
+    "idea": "The work triangle joins the sink, the cooker and the fridge. Add its three sides to find its total length.",
+    "vars": {
+     "a": 1.5,
+     "b": 2,
+     "c": 2.2
+    },
+    "example": [
+     "{a} m + {b} m + {c} m = {triangleTotal(a, b, c)} m."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he13-total"
+    }
+   },
+   {
+    "id": "hec13-3",
+    "status": "draft",
+    "idea": "A good work triangle: each side {sideMin()} m to {sideMax()} m, and a total of {totalMin()} m to {totalMax()} m.",
+    "vars": {},
+    "example": [
+     "Too long: too much walking. Too short: the cook has no room to work."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec13-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-planning"
+     ],
+     "vars": {},
+     "prompt": "Why should the work triangle not be too long?",
+     "pool": {
+      "right": [
+       {
+        "text": "The cook would walk too much and waste time and energy.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The fridge would get too cold.",
+        "truth": "false",
+        "explain": "The length of the triangle does not change the fridge."
+       },
+       {
+        "text": "The food would cook faster.",
+        "truth": "false",
+        "explain": "A long triangle only means more walking."
+       },
+       {
+        "text": "The sink would not work.",
+        "truth": "false",
+        "explain": "The sink works anywhere; the problem is the walking."
+       },
+       {
+        "text": "The kitchen would look too small.",
+        "truth": "false",
+        "explain": "The problem is wasted walking, not looks."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he13-total",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "work-triangle"
+   ],
+   "vars": {
+    "ai": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "bi": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "ci": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "a": {
+     "expr": "ai / 10"
+    },
+    "b": {
+     "expr": "bi / 10"
+    },
+    "c": {
+     "expr": "ci / 10"
+    }
+   },
+   "where": "isTriangle(a, b, c)",
+   "figure": "workTriangle(a, b, c)",
+   "prompt": "How long is this work triangle altogether?",
+   "answer": "triangleTotal(a, b, c)",
+   "unit": "m",
+   "misconceptions": [
+    {
+     "id": "two",
+     "wrong": "triangleTotal(a, b, 0)",
+     "explain": "Add all three sides: sink–cooker, cooker–fridge and fridge–sink."
+    }
+   ],
+   "solution": [
+    "Add the three sides.",
+    "{a} + {b} + {c} = {answer} m."
+   ]
+  },
+  {
+   "id": "he13-centre",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-planning"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "washing vegetables and plates",
+       "a": "the sink",
+       "why": "The sink: washing vegetables and plates."
+      },
+      {
+       "t": "boiling rice and frying fish",
+       "a": "the cooker",
+       "why": "The cooker: boiling rice and frying fish."
+      },
+      {
+       "t": "keeping milk and meat cold",
+       "a": "the fridge",
+       "why": "The fridge: keeping milk and meat cold."
+      },
+      {
+       "t": "peeling cassava before cooking",
+       "a": "the sink",
+       "why": "The sink: peeling cassava before cooking."
+      },
+      {
+       "t": "baking a cake",
+       "a": "the cooker",
+       "why": "The cooker: baking a cake."
+      },
+      {
+       "t": "storing leftover soup safely",
+       "a": "the fridge",
+       "why": "The fridge: storing leftover soup safely."
+      }
+     ]
+    }
+   },
+   "prompt": "Where in the kitchen should you do this: {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "the sink",
+     "misconception": "other"
+    },
+    {
+     "text": "the cooker",
+     "misconception": "other"
+    },
+    {
+     "text": "the fridge",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is a different work centre."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "he13-verdict",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "work-triangle"
+   ],
+   "vars": {
+    "ai": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "bi": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "ci": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "a": {
+     "expr": "ai / 10"
+    },
+    "b": {
+     "expr": "bi / 10"
+    },
+    "c": {
+     "expr": "ci / 10"
+    }
+   },
+   "where": "isTriangle(a, b, c)",
+   "figure": "workTriangle(a, b, c)",
+   "show": 3,
+   "prompt": "Is this work triangle well planned? (Each side {sideMin()} m to {sideMax()} m; total {totalMin()} m to {totalMax()} m.)",
+   "correct": "{triangleVerdict(a, b, c)}",
+   "distractors": [
+    {
+     "text": "it is well planned",
+     "misconception": "check"
+    },
+    {
+     "text": "a side is too long: too much walking",
+     "misconception": "check"
+    },
+    {
+     "text": "a side is too short: the work centres are crowded",
+     "misconception": "check"
+    },
+    {
+     "text": "the total is too long: too much walking",
+     "misconception": "check"
+    },
+    {
+     "text": "the total is too short: the work centres are crowded",
+     "misconception": "check"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "check",
+     "explain": "Check each side first, then add them: total {triangleTotal(a, b, c)} m."
+    }
+   ],
+   "solution": [
+    "Sides: {a} m, {b} m, {c} m. Total: {triangleTotal(a, b, c)} m.",
+    "So {answer}."
+   ]
+  },
+  {
+   "id": "he13-manage",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-planning"
+   ],
+   "vars": {},
+   "prompt": "Which is good kitchen management?",
+   "pool": {
+    "right": [
+     {
+      "text": "Plan the meals before shopping.",
+      "truth": "true"
+     },
+     {
+      "text": "Clean as you go.",
+      "truth": "true"
+     },
+     {
+      "text": "Store food covered and in the right place.",
+      "truth": "true"
+     },
+     {
+      "text": "Turn off the cooker as soon as the food is ready.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Leave the washing-up until the next day.",
+      "truth": "false",
+      "explain": "Dirty dishes attract flies and take longer to clean later."
+     },
+     {
+      "text": "Buy food without a plan.",
+      "truth": "false",
+      "explain": "Planning saves money and avoids waste."
+     },
+     {
+      "text": "Leave the gas on low all day.",
+      "truth": "false",
+      "explain": "That wastes gas and is dangerous."
+     },
+     {
+      "text": "Put a table in the middle of the work triangle.",
+      "truth": "false",
+      "explain": "Nothing should block the work triangle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-planning",
+    "work-triangle"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The work triangle joins the sink, the cooker and the fridge.",
+      "truth": "true"
+     },
+     {
+      "text": "A very long work triangle means too much walking.",
+      "truth": "true"
+     },
+     {
+      "text": "Cleaning as you go keeps the kitchen tidy.",
+      "truth": "true"
+     },
+     {
+      "text": "The sink is the cleaning centre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The fridge is the cooking centre.",
+      "truth": "false",
+      "explain": "The fridge is the storage centre; the cooker is the cooking centre."
+     },
+     {
+      "text": "A cupboard in the middle of the work triangle makes work easier.",
+      "truth": "false",
+      "explain": "Nothing should block the work triangle."
+     },
+     {
+      "text": "A work triangle should be as long as possible.",
+      "truth": "false",
+      "explain": "Too long means too much walking: each side about 1.2 m to 2.7 m."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -10,6 +10,7 @@ import * as english from "../../src/engine/lib/english.js";
 import * as physics from "../../src/engine/lib/physics.js";
 import * as chemistry from "../../src/engine/lib/chemistry.js";
 import * as geography from "../../src/engine/lib/geography.js";
+import * as homeeconomics from "../../src/engine/lib/homeeconomics.js";
 import { render } from "../../src/engine/expr.js";
 import { instantiate, renderWorked } from "../../src/engine/template.js";
 import { renderCard, cardCheckTemplate, practicePlan, renderPaper, isDeferred } from "../../src/engine/teach.js";
@@ -21,8 +22,9 @@ const CONF = {
   chemistry: { name: "Chemistry", batch: "Batch C1", spine: "chemistry", lib: { ...maths, ...english, ...physics, ...chemistry }, sample: 20, lessons: "1–21" },
   // Geography is numbered by place in the year (spine seq): PW1–PW3 have no lesson number on the sheet.
   geography: { name: "Geography", batch: "Batch G1", spine: "geography", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography }, sample: 8, lessons: "1–10", bySeq: true },
+  "home-economics": { name: "Home Economics", batch: "Batch H1", spine: "home-economics", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics }, sample: 13, lessons: "1–7, 10–17, 20–21" },
 }[SUBJECT];
-if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography");
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics");
 const lib = CONF.lib;
 const DIR = new URL(`../../content/${SUBJECT}/`, import.meta.url);
 // Drawings are saved as files (GitHub does not show SVG written inside Markdown).
@@ -134,6 +136,9 @@ const PART1 = {
     `**Symbols from Latin (TR-K02)**: ${Object.entries(chemistry.LATIN).map(([s, l]) => `${s} (${l})`).join(", ")}.`, "",
     "- **Formulas (TR-K03)**: the small number after a symbol counts the atoms of that symbol; no number means one; a bracket multiplies everything inside it (Ca(OH)₂: 1 Ca, 2 O, 2 H). Counted by `parseFormula()`, tested on known answers.",
     "- **Measurement**: the unit conversions, °C → K (+ 273), the measuring cylinder and thermometer drawings are the same as in Physics (TR-P04, TR-P05, TR-P08).", ""],
+  "home-economics": () => ["## Part 1: the rule and drawings the answers use (src/engine/lib/homeeconomics.js)", "",
+    `- **Work triangle (TR-H01)**: the path sink → cooker → fridge → sink. Total = the three sides added. Well planned when every side is ${homeeconomics.sideMin()} m to ${homeeconomics.sideMax()} m and the total is ${homeeconomics.totalMin()} m to ${homeeconomics.totalMax()} m. The reason shown: ${["1.8, 2.1, 2.4", "3.2, 2, 2", "0.9, 2, 2", "2.6, 2.7, 2.7", "1.2, 1.3, 1.4"].map((t) => { const [a, b, c] = t.split(", ").map(Number); return `${t} m → “${homeeconomics.triangleVerdict(a, b, c)}”`; }).join("; ")}. Practice sides run from 0.9 m to 3.2 m.`,
+    `- **Drawings with lettered parts (TR-H02)**: traditional kitchen (${homeeconomics.TRAD_PARTS.join(", ")}); fireplaces (${homeeconomics.FIRE_TYPES.join(", ")}); kitchen front (${homeeconomics.UNIT_PARTS.join(", ")}); kitchen shapes seen from above (${homeeconomics.SHAPES.join(", ")}). The letters are shuffled by the question's numbers; the code that draws a letter also gives the answer.`, ""],
   geography: () => ["## Part 1: tables and rules the computed answers use (src/engine/lib/geography.js)", "",
     "- **Local time (TR-G01)**: 360° in 24 hours, so 15° = 1 hour and 1° = 4 minutes; east of a place is ahead (add), west is behind (subtract). Difference in longitude: same side of 0°, subtract; opposite sides, add. Questions stay within one day (no midnight crossed).",
     `- **Clock style (TR-G01)**: 12-hour times: ${[0, 30, 545, 720, 860].map(geography.clock).join(", ")}.`,

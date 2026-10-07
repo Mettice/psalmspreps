@@ -1,0 +1,333 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "he20",
+   "name": "Time management in the kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Time management in the kitchen means planning work so that it is done well and on time.\nAdvantages:\n• meals are ready on time;\n• the cook saves energy and is less tired and stressed;\n• fuel, water and money are saved;\n• there are fewer accidents, because the cook does not rush;\n• there is time for other activities: school work, rest, family.\nHow to manage time:\n• plan the menu and the shopping;\n• prepare all the ingredients first;\n• dovetail: do two jobs at once (wash up while the rice boils);\n• use labour-saving equipment;\n• clean as you go.\nOrder of work: plan the menu → buy the food → prepare the ingredients → cook → serve → wash up.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Lum must cook rice and stew and wash yesterday's pots before lunch. How can dovetailing save time?",
+  "steps": [
+   "Start the rice first, since it takes the longest.",
+   "While the rice boils, make the stew and wash the pots.",
+   "Doing jobs at the same time is dovetailing: the meal is ready sooner."
+  ],
+  "answer": "Wash the pots and make the stew while the rice boils.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec20-1",
+    "status": "draft",
+    "idea": "Managing time in the kitchen means meals on time, less tiredness, fewer accidents, and fuel and money saved.",
+    "vars": {},
+    "example": [
+     "A cook who rushes is more likely to get burnt."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he20-adv"
+    }
+   },
+   {
+    "id": "hec20-2",
+    "status": "draft",
+    "idea": "Ways to save time: plan the menu, prepare ingredients first, dovetail, use labour-saving equipment, clean as you go.",
+    "vars": {},
+    "example": [
+     "Dovetailing: wash up while the rice boils."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he20-how"
+    }
+   },
+   {
+    "id": "hec20-3",
+    "status": "draft",
+    "idea": "Work in order: plan the menu, buy the food, prepare, cook, serve, then wash up.",
+    "vars": {},
+    "example": [
+     "Planning first means nothing is forgotten at the market."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec20-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "time-management"
+     ],
+     "vars": {},
+     "prompt": "What should come first when preparing a meal?",
+     "pool": {
+      "right": [
+       {
+        "text": "planning the menu",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "washing up",
+        "truth": "false",
+        "explain": "Washing up comes at the end."
+       },
+       {
+        "text": "serving the food",
+        "truth": "false",
+        "explain": "Serving comes after cooking."
+       },
+       {
+        "text": "cooking",
+        "truth": "false",
+        "explain": "You must plan, buy and prepare before cooking."
+       },
+       {
+        "text": "eating",
+        "truth": "false",
+        "explain": "Eating comes after the food is served."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he20-adv",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "time-management"
+   ],
+   "vars": {},
+   "prompt": "Which is an advantage of managing time in the kitchen?",
+   "pool": {
+    "right": [
+     {
+      "text": "Meals are ready on time.",
+      "truth": "true"
+     },
+     {
+      "text": "The cook is less tired.",
+      "truth": "true"
+     },
+     {
+      "text": "Fuel and money are saved.",
+      "truth": "true"
+     },
+     {
+      "text": "There are fewer accidents.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The food tastes of smoke.",
+      "truth": "false",
+      "explain": "That has nothing to do with time management."
+     },
+     {
+      "text": "More fuel is used.",
+      "truth": "false",
+      "explain": "Good time management saves fuel."
+     },
+     {
+      "text": "The cook must rush.",
+      "truth": "false",
+      "explain": "Good planning means the cook does not need to rush."
+     },
+     {
+      "text": "Meals are always late.",
+      "truth": "false",
+      "explain": "Good time management makes meals ready on time."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he20-how",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "time-management"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "doing two jobs at the same time, such as washing up while the rice boils",
+       "a": "dovetailing",
+       "why": "Dovetailing: doing two jobs at the same time, such as washing up while the rice boils."
+      },
+      {
+       "t": "deciding what to cook for the week before going to market",
+       "a": "planning the menu",
+       "why": "Planning the menu: deciding what to cook for the week before going to market."
+      },
+      {
+       "t": "washing, peeling and cutting everything before starting to cook",
+       "a": "preparing the ingredients first",
+       "why": "Preparing the ingredients first: washing, peeling and cutting everything before starting to cook."
+      },
+      {
+       "t": "washing each pot as soon as you finish with it",
+       "a": "cleaning as you go",
+       "why": "Cleaning as you go: washing each pot as soon as you finish with it."
+      },
+      {
+       "t": "grinding pepper with a blender instead of a grinding stone",
+       "a": "using labour-saving equipment",
+       "why": "Using labour-saving equipment: grinding pepper with a blender instead of a grinding stone."
+      }
+     ]
+    }
+   },
+   "prompt": "Which way of saving time is this?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "dovetailing",
+     "misconception": "other"
+    },
+    {
+     "text": "planning the menu",
+     "misconception": "other"
+    },
+    {
+     "text": "preparing the ingredients first",
+     "misconception": "other"
+    },
+    {
+     "text": "cleaning as you go",
+     "misconception": "other"
+    },
+    {
+     "text": "using labour-saving equipment",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that one. Read what the cook does."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he20-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "time-management"
+   ],
+   "order": "as_written",
+   "prompt": "Put the work in order.",
+   "items": [
+    {
+     "text": "plan the menu"
+    },
+    {
+     "text": "buy the food"
+    },
+    {
+     "text": "prepare the ingredients"
+    },
+    {
+     "text": "cook"
+    },
+    {
+     "text": "serve"
+    },
+    {
+     "text": "wash up"
+    }
+   ]
+  },
+  {
+   "id": "he20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "time-management"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Dovetailing means doing two jobs at once.",
+      "truth": "true"
+     },
+     {
+      "text": "Planning the menu saves time at the market.",
+      "truth": "true"
+     },
+     {
+      "text": "Cleaning as you go saves time at the end.",
+      "truth": "true"
+     },
+     {
+      "text": "A blender can save time.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Rushing in the kitchen prevents accidents.",
+      "truth": "false",
+      "explain": "Rushing causes accidents; planning prevents them."
+     },
+     {
+      "text": "Time management wastes fuel.",
+      "truth": "false",
+      "explain": "Good time management saves fuel."
+     },
+     {
+      "text": "You should cook before buying the food.",
+      "truth": "false",
+      "explain": "Plan, buy and prepare first; then cook."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

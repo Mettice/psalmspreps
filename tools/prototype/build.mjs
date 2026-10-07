@@ -9,14 +9,14 @@ import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
-const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
+const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "lib/homeeconomics.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
 // 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
 // The Phase 3 budget for the whole app is 2 MB.
 const MAX_BYTES = 900 * 1024;  // 640 KB with Physics P1; 800 KB with Chemistry C1; 900 KB with Geography G1 (2026-10-07); app budget 2 MB
-const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography" };
-const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography" };
+const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography", "home-economics": "Home Economics" };
+const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography", "home-economics": "home-economics" };
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
-const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10) };  // released lessons per subject
+const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10), "home-economics": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21] };  // released lessons per subject
 // Geography is numbered by place in the year (spine seq): its practicals have no lesson number (TR-G14).
 const BY_SEQ = new Set(["geography"]);
 
@@ -38,8 +38,10 @@ function bundleModule(path) {
 }
 
 // Display only (the spine keeps the sheet's text): "Number bases :Convert" → "Number bases: Convert",
-// "Line segment.- Midpoint" → "Line segment: Midpoint", "Vocabulary-countable …;" → "Vocabulary: countable …".
+// "Line segment.- Midpoint" → "Line segment: Midpoint", "Vocabulary-countable …;" → "Vocabulary: countable …",
+// "under- nutrition" → "under-nutrition".
 const tidy = (t) => t
+  .replace(/(\p{L})- (?=\p{Ll})/gu, "$1-")  // a word split by the sheet: "under- nutrition" → "under-nutrition"
   .replace(/^(Speaking|Reading|Writing|Vocabulary|Grammar|Listening)\s*[-:]?\s*/, "$1: ")
   .replace(/\s*\.?\s*-\s+/g, ": ").replace(/\s*:\s*/g, ": ").replace(/[;\s]+$/, "").replace(/\s+/g, " ").trim();
 const titles = {}, content = {}, lessons = {};
@@ -188,7 +190,8 @@ ${ENGINE.map(bundleModule).join("\n")}
 const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },
     chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] },
-    geography: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"] } },
+    geography: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"] },
+    "home-economics": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"] } },
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${safeJson(content)};
 const TITLES = ${safeJson(titles)};

@@ -171,3 +171,14 @@ The readiness check runs once. Published as the site's `index.html`; `/lesson3/`
 - Template ids start with `g`, skills `g1` … `g10`. Library order: `{...maths, ...english, ...physics, ...chemistry, ...geography}`.
 - Batch G1 (Lessons 1–10, Term 1) was written and tested, then **released on 2026-10-07** at Dion's request (TR-G19): a fifth
   tab, `lib/geography.js` in the bundle, lessons numbered by place in the year (`BY_SEQ` in the build), size limit 900 KB.
+
+## 14. Home Economics (2026-10-07)
+
+- `src/engine/lib/homeeconomics.js`: the kitchen work triangle (`triangleTotal()`, `goodTriangle()`, `triangleVerdict()`;
+  sides 1.2–2.7 m, total 4–7.9 m, TR-H01) and drawings made by code with **lettered parts**: `traditionalKitchen(k)`,
+  `fireplaces(k)`, `kitchenUnits(k)` (the letters follow arrangement `k`, so `letterOf()` / `fireLetter()` give the answer)
+  and `kitchenPlan(type)` for the five kitchen shapes.
+- Subject id `home-economics`; template ids start with `he`, skills `he1` … `he21`; lesson numbers are the sheet's (equal
+  to the row), so Batch H1 is Lessons 1–7, 10–17 and 20–21 (rows 8–9 and 18–19 are integration and remediation).
+- Batch H1 (Term 1) was written and tested, then **released on 2026-10-07** at Dion's request (TR-H17): a sixth tab,
+  `lib/homeeconomics.js` in the bundle; the page is about 875 KB of the 900 KB limit.

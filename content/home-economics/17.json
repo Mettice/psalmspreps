@@ -1,0 +1,367 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  13,
+  16
+ ],
+ "skills": [
+  {
+   "id": "he17",
+   "name": "Planning a modern kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Points to consider when planning a modern kitchen:\n• the size of the room and of the family;\n• the budget: how much money there is;\n• the work triangle between the sink, cooker and fridge;\n• lighting: windows for daylight, and lamps over the work areas;\n• ventilation: windows, an extractor fan or a hood, to remove smoke, steam and smells;\n• water supply and drainage: taps and a drain for the sink;\n• electricity: enough sockets, away from water;\n• safety: the cooker away from doors and curtains, a fire blanket or extinguisher;\n• surfaces that are easy to clean, and enough storage;\n• being close to the dining area.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In a new kitchen, the cooker is placed under a window with curtains, next to the door. Which point was forgotten, and why does it matter?",
+  "steps": [
+   "Curtains can catch fire from the cooker.",
+   "People passing through the door can knock pots of hot food.",
+   "So the point forgotten is safety."
+  ],
+  "answer": "Safety: keep the cooker away from curtains and doors.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec17-1",
+    "status": "draft",
+    "idea": "Plan for the people and the money: the size of the family and the budget.",
+    "vars": {},
+    "example": [
+     "A large family needs more storage and work space."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he17-point"
+    }
+   },
+   {
+    "id": "hec17-2",
+    "status": "draft",
+    "idea": "Plan for light, air and water: lighting, ventilation, water supply and drainage.",
+    "vars": {},
+    "example": [
+     "A window over the sink gives light and lets steam out."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he17-vent"
+    }
+   },
+   {
+    "id": "hec17-3",
+    "status": "draft",
+    "idea": "Plan for safety: keep the cooker away from doors and curtains, and sockets away from water.",
+    "vars": {},
+    "example": [
+     "Water near a socket can give an electric shock."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec17-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-planning"
+     ],
+     "vars": {},
+     "prompt": "Which plan is safe?",
+     "pool": {
+      "right": [
+       {
+        "text": "the cooker away from the door and the curtains",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "a socket right next to the tap",
+        "truth": "false",
+        "explain": "Water near electricity can give a shock."
+       },
+       {
+        "text": "the cooker next to the door",
+        "truth": "false",
+        "explain": "People passing can knock hot pots."
+       },
+       {
+        "text": "curtains hanging over the cooker",
+        "truth": "false",
+        "explain": "Curtains can catch fire."
+       },
+       {
+        "text": "the gas bottle next to the open fire",
+        "truth": "false",
+        "explain": "Gas near a flame can explode."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he17-point",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-planning"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "The family is large and cooks a lot.",
+       "a": "the size of the family",
+       "why": "The size of the family: The family is large and cooks a lot."
+      },
+      {
+       "t": "There is only a little money.",
+       "a": "the budget (cost)",
+       "why": "The budget (cost): There is only a little money."
+      },
+      {
+       "t": "The kitchen is dark and the cook cannot see well.",
+       "a": "lighting",
+       "why": "Lighting: The kitchen is dark and the cook cannot see well."
+      },
+      {
+       "t": "Smoke and steam stay in the kitchen.",
+       "a": "ventilation",
+       "why": "Ventilation: Smoke and steam stay in the kitchen."
+      },
+      {
+       "t": "Water has to be carried from outside.",
+       "a": "water supply and drainage",
+       "why": "Water supply and drainage: Water has to be carried from outside."
+      },
+      {
+       "t": "The cooker is next to the door, where people pass.",
+       "a": "safety",
+       "why": "Safety: The cooker is next to the door, where people pass."
+      },
+      {
+       "t": "The cook walks a long way between the sink, cooker and fridge.",
+       "a": "the work triangle",
+       "why": "The work triangle: The cook walks a long way between the sink, cooker and fridge."
+      }
+     ]
+    }
+   },
+   "prompt": "Which point was not planned well?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "the size of the family",
+     "misconception": "other"
+    },
+    {
+     "text": "the budget (cost)",
+     "misconception": "other"
+    },
+    {
+     "text": "lighting",
+     "misconception": "other"
+    },
+    {
+     "text": "ventilation",
+     "misconception": "other"
+    },
+    {
+     "text": "water supply and drainage",
+     "misconception": "other"
+    },
+    {
+     "text": "safety",
+     "misconception": "other"
+    },
+    {
+     "text": "the work triangle",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that one. What is the problem here?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he17-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-planning"
+   ],
+   "prompt": "Sort these: good or poor kitchen planning?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "good planning",
+    "poor planning"
+   ],
+   "pool": [
+    {
+     "left": "a window over the sink",
+     "right": "good planning"
+    },
+    {
+     "left": "a hood above the cooker",
+     "right": "good planning"
+    },
+    {
+     "left": "surfaces that are easy to clean",
+     "right": "good planning"
+    },
+    {
+     "left": "sockets away from the sink",
+     "right": "good planning"
+    },
+    {
+     "left": "the kitchen close to the dining area",
+     "right": "good planning"
+    },
+    {
+     "left": "the cooker next to the door",
+     "right": "poor planning"
+    },
+    {
+     "left": "no window or fan",
+     "right": "poor planning"
+    },
+    {
+     "left": "a socket beside the tap",
+     "right": "poor planning"
+    },
+    {
+     "left": "curtains near the cooker",
+     "right": "poor planning"
+    },
+    {
+     "left": "a fridge far from the sink and cooker",
+     "right": "poor planning"
+    }
+   ]
+  },
+  {
+   "id": "he17-vent",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-planning"
+   ],
+   "vars": {},
+   "prompt": "Why does a kitchen need good ventilation?",
+   "pool": {
+    "right": [
+     {
+      "text": "to remove smoke, steam and cooking smells",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "to make the food cook faster",
+      "truth": "false",
+      "explain": "Ventilation removes smoke and steam; it does not cook food."
+     },
+     {
+      "text": "to keep the fridge cold",
+      "truth": "false",
+      "explain": "The fridge keeps itself cold."
+     },
+     {
+      "text": "to save water",
+      "truth": "false",
+      "explain": "Ventilation is about air, not water."
+     },
+     {
+      "text": "so that no lights are needed",
+      "truth": "false",
+      "explain": "Light and air are both needed."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-planning"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A hood or fan helps remove steam and smoke.",
+      "truth": "true"
+     },
+     {
+      "text": "The budget must be considered.",
+      "truth": "true"
+     },
+     {
+      "text": "Surfaces should be easy to clean.",
+      "truth": "true"
+     },
+     {
+      "text": "Good lighting helps the cook work safely.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Sockets should be placed right next to the sink.",
+      "truth": "false",
+      "explain": "Water and electricity together are dangerous."
+     },
+     {
+      "text": "Curtains should hang next to the cooker.",
+      "truth": "false",
+      "explain": "Curtains near a cooker can catch fire."
+     },
+     {
+      "text": "The size of the family does not matter.",
+      "truth": "false",
+      "explain": "A larger family needs more space and storage."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

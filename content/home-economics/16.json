@@ -1,0 +1,353 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "he16",
+   "name": "Types of kitchen units"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Types of kitchen units:\n• Base units: on the floor, under the worktop. Cupboards or drawers for heavy and large things: pots, pans, bags of food, the gas bottle.\n• Wall units: fixed to the wall above the worktop. For light things used often: cups, glasses, plates, spices.\n• Tall units: from the floor almost to the ceiling. Broom cupboards, larders (food stores), or a space for the fridge.\n• Corner units: fit into a corner, often with a turning shelf, so the space is not wasted.\n• Drawer units: drawers for cutlery, knives and kitchen cloths.\nPut heavy things low and light things high; keep things near where they are used.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Where should these go: a heavy cooking pot, a set of glasses, and the mop?",
+  "steps": [
+   "Heavy things go low: the pot goes in a base unit.",
+   "Light things can go high: the glasses go in a wall unit.",
+   "Long things such as the mop go in a tall unit."
+  ],
+  "answer": "Pot: base unit. Glasses: wall unit. Mop: tall unit.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec16-1",
+    "status": "draft",
+    "idea": "Heavy things go low, in base units; light things go high, in wall units.",
+    "vars": {},
+    "example": [
+     "A bag of rice goes in a base unit; a jar of spices goes in a wall unit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he16-sort"
+    }
+   },
+   {
+    "id": "hec16-2",
+    "status": "draft",
+    "idea": "Tall units hold long things such as brooms, or food in bulk. Corner units use the space in a corner.",
+    "vars": {},
+    "example": [
+     "A turning shelf in a corner unit lets you reach things at the back."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he16-which"
+    }
+   },
+   {
+    "id": "hec16-3",
+    "status": "draft",
+    "idea": "Drawer units hold cutlery, knives and kitchen cloths.",
+    "vars": {},
+    "example": [
+     "Spoons and forks are kept in a drawer near the worktop."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec16-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-units"
+     ],
+     "vars": {},
+     "prompt": "Where are spoons and forks usually kept?",
+     "pool": {
+      "right": [
+       {
+        "text": "in a drawer unit",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "in the tall broom cupboard",
+        "truth": "false",
+        "explain": "That is for brooms and mops."
+       },
+       {
+        "text": "on the floor",
+        "truth": "false",
+        "explain": "Cutlery must be kept clean, off the floor."
+       },
+       {
+        "text": "in the fridge",
+        "truth": "false",
+        "explain": "The fridge is for food that must stay cold."
+       },
+       {
+        "text": "inside the oven",
+        "truth": "false",
+        "explain": "The oven is for cooking."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he16-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-units"
+   ],
+   "prompt": "Where should these be kept?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "base unit",
+    "wall unit",
+    "tall unit"
+   ],
+   "pool": [
+    {
+     "left": "a heavy cooking pot",
+     "right": "base unit"
+    },
+    {
+     "left": "a bag of rice",
+     "right": "base unit"
+    },
+    {
+     "left": "frying pans",
+     "right": "base unit"
+    },
+    {
+     "left": "the gas bottle",
+     "right": "base unit"
+    },
+    {
+     "left": "cups",
+     "right": "wall unit"
+    },
+    {
+     "left": "glasses",
+     "right": "wall unit"
+    },
+    {
+     "left": "plates",
+     "right": "wall unit"
+    },
+    {
+     "left": "jars of spices",
+     "right": "wall unit"
+    },
+    {
+     "left": "the broom",
+     "right": "tall unit"
+    },
+    {
+     "left": "the mop",
+     "right": "tall unit"
+    },
+    {
+     "left": "the ironing board",
+     "right": "tall unit"
+    }
+   ]
+  },
+  {
+   "id": "he16-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-units"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "fixed to the wall above the worktop",
+       "a": "wall unit",
+       "why": "Wall unit: fixed to the wall above the worktop."
+      },
+      {
+       "t": "on the floor under the worktop",
+       "a": "base unit",
+       "why": "Base unit: on the floor under the worktop."
+      },
+      {
+       "t": "from the floor almost to the ceiling",
+       "a": "tall unit",
+       "why": "Tall unit: from the floor almost to the ceiling."
+      },
+      {
+       "t": "fits into a corner, often with a turning shelf",
+       "a": "corner unit",
+       "why": "Corner unit: fits into a corner, often with a turning shelf."
+      },
+      {
+       "t": "a set of drawers for cutlery and cloths",
+       "a": "drawer unit",
+       "why": "Drawer unit: a set of drawers for cutlery and cloths."
+      }
+     ]
+    }
+   },
+   "prompt": "Which unit is {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "wall unit",
+     "misconception": "other"
+    },
+    {
+     "text": "base unit",
+     "misconception": "other"
+    },
+    {
+     "text": "tall unit",
+     "misconception": "other"
+    },
+    {
+     "text": "corner unit",
+     "misconception": "other"
+    },
+    {
+     "text": "drawer unit",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not that one. Read the descriptions again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he16-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-units"
+   ],
+   "vars": {},
+   "prompt": "Why should heavy things be kept in base units and not wall units?",
+   "pool": {
+    "right": [
+     {
+      "text": "Heavy things up high can fall and hurt someone, and are hard to lift down.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Base units are colder.",
+      "truth": "false",
+      "explain": "The reason is safety, not temperature."
+     },
+     {
+      "text": "Wall units are only for food.",
+      "truth": "false",
+      "explain": "Wall units hold light things such as cups and plates."
+     },
+     {
+      "text": "Heavy things look better on the floor.",
+      "truth": "false",
+      "explain": "The reason is safety."
+     },
+     {
+      "text": "Base units have no doors.",
+      "truth": "false",
+      "explain": "Base units have doors or drawers; the reason is safety."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-units"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A corner unit uses the space in a corner.",
+      "truth": "true"
+     },
+     {
+      "text": "Cups and glasses can go in a wall unit.",
+      "truth": "true"
+     },
+     {
+      "text": "A tall unit can hold brooms and mops.",
+      "truth": "true"
+     },
+     {
+      "text": "Cutlery is kept in a drawer.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The gas bottle should go in a high wall unit.",
+      "truth": "false",
+      "explain": "Heavy things such as the gas bottle go low, in a base unit."
+     },
+     {
+      "text": "Wall units stand on the floor.",
+      "truth": "false",
+      "explain": "Wall units are fixed to the wall."
+     },
+     {
+      "text": "Knives should be left loose on the floor of the cupboard.",
+      "truth": "false",
+      "explain": "Knives are kept safely in a drawer or knife block."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "he10",
+   "name": "Recognising fireplaces in a drawing"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "How to recognise each fireplace in a drawing:\n• Three-stone fireplace: three stones on the ground, the fire between them, the pot resting on the stones.\n• Improved (mud) stove: a solid block of mud or clay with a small door in front for the firewood and a hole on top for the pot.\n• Charcoal stove: a small metal stove, often on legs, with black pieces of charcoal glowing red under the pot.\nWhen you draw a fireplace, label the pot, the fire, the fuel (wood or charcoal) and what holds the pot.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 3
+  },
+  "figure": "fireplaces(k)",
+  "problem": "Which fireplace in the drawing is the charcoal stove?",
+  "steps": [
+   "Look for a small metal stove on legs, with black charcoal under the pot.",
+   "That is fireplace {fireLetter(k, 2)}."
+  ],
+  "answer": "Fireplace {fireLetter(k, 2)}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec10-1",
+    "status": "draft",
+    "idea": "A three-stone fireplace shows three stones on the ground with the fire between them.",
+    "vars": {},
+    "example": [
+     "The pot rests on the three stones."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he10-name"
+    }
+   },
+   {
+    "id": "hec10-2",
+    "status": "draft",
+    "idea": "An improved stove is a solid block of mud or clay with a door in front for wood.",
+    "vars": {},
+    "example": [
+     "Only a little of the fire can be seen, through the door."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he10-find"
+    }
+   },
+   {
+    "id": "hec10-3",
+    "status": "draft",
+    "idea": "A charcoal stove is a small metal stove, often on legs, with glowing charcoal under the pot.",
+    "vars": {},
+    "example": [
+     "Charcoal is black; it glows red when it burns."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec10-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "fireplaces"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        0,
+        5
+       ]
+      }
+     },
+     "figure": "fireplaces(k)",
+     "show": 3,
+     "prompt": "Which letter shows the charcoal stove?",
+     "correct": "{fireLetter(k, 2)}",
+     "distractors": [
+      {
+       "text": "{fireLetter(k, 0)}",
+       "misconception": "stones"
+      },
+      {
+       "text": "{fireLetter(k, 1)}",
+       "misconception": "mud"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "stones",
+       "explain": "That one has three stones: the three-stone fireplace."
+      },
+      {
+       "id": "mud",
+       "explain": "That one is a block of mud: the improved stove."
+      }
+     ],
+     "solution": [
+      "The charcoal stove is metal, on legs, with charcoal under the pot.",
+      "It is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he10-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "fireplaces"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      5
+     ]
+    },
+    "L": {
+     "pick": [
+      "A",
+      "B",
+      "C"
+     ]
+    }
+   },
+   "figure": "fireplaces(k)",
+   "show": 3,
+   "prompt": "What is fireplace {L}?",
+   "correct": "{fireAt(k, L)}",
+   "distractors": [
+    {
+     "text": "three-stone fireplace",
+     "misconception": "other"
+    },
+    {
+     "text": "improved (mud) stove",
+     "misconception": "other"
+    },
+    {
+     "text": "charcoal stove",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Three stones: three-stone fireplace. A block of mud with a door: improved stove. Metal on legs with charcoal: charcoal stove."
+    }
+   ],
+   "solution": [
+    "Look at what holds the pot and what burns.",
+    "Fireplace {L} is the {answer}."
+   ]
+  },
+  {
+   "id": "he10-find",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "fireplaces"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      5
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      2
+     ]
+    }
+   },
+   "figure": "fireplaces(k)",
+   "show": 3,
+   "prompt": "Which letter shows the {fireType(i)}?",
+   "correct": "{fireLetter(k, i)}",
+   "distractors": [
+    {
+     "text": "A",
+     "misconception": "other"
+    },
+    {
+     "text": "B",
+     "misconception": "other"
+    },
+    {
+     "text": "C",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That letter shows a different fireplace."
+    }
+   ],
+   "solution": [
+    "The {fireType(i)} is labelled {answer}."
+   ]
+  },
+  {
+   "id": "he10-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "fireplaces"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      5
+     ]
+    },
+    "x": {
+     "pick": [
+      {
+       "i": 0,
+       "t": "wastes the most firewood"
+      },
+      {
+       "i": 0,
+       "t": "uses three stones to hold the pot"
+      },
+      {
+       "i": 1,
+       "t": "has mud walls to keep the heat in"
+      },
+      {
+       "i": 1,
+       "t": "has a small door at the front for the firewood"
+      },
+      {
+       "i": 2,
+       "t": "is made of metal and burns charcoal"
+      },
+      {
+       "i": 2,
+       "t": "stands on legs and can be carried"
+      }
+     ]
+    }
+   },
+   "figure": "fireplaces(k)",
+   "show": 3,
+   "prompt": "Which fireplace {x.t}?",
+   "correct": "{fireLetter(k, x.i)}",
+   "distractors": [
+    {
+     "text": "A",
+     "misconception": "other"
+    },
+    {
+     "text": "B",
+     "misconception": "other"
+    },
+    {
+     "text": "C",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Think about what each fireplace is made of and how it works."
+    }
+   ],
+   "solution": [
+    "The {fireType(x.i)} {x.t}.",
+    "It is labelled {answer}."
+   ]
+  },
+  {
+   "id": "he10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "fireplaces"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "In a drawing, a three-stone fireplace shows three stones on the ground.",
+      "truth": "true"
+     },
+     {
+      "text": "An improved stove has a door in front for firewood.",
+      "truth": "true"
+     },
+     {
+      "text": "A charcoal stove is often made of metal.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A charcoal stove is drawn as three stones.",
+      "truth": "false",
+      "explain": "Three stones show the three-stone fireplace; a charcoal stove is a metal stove."
+     },
+     {
+      "text": "An improved stove has no walls.",
+      "truth": "false",
+      "explain": "An improved stove has mud or clay walls."
+     },
+     {
+      "text": "A three-stone fireplace burns charcoal in a metal box.",
+      "truth": "false",
+      "explain": "A three-stone fireplace burns firewood between three stones."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

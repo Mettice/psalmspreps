@@ -1,0 +1,407 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "he15",
+   "name": "Kitchen units and elements"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The main elements of a modern kitchen:\n• base units: cupboards and drawers on the floor, under the worktop, for heavy things (pots, pans, bags of rice);\n• wall units: cupboards fixed on the wall above the worktop, for light things (cups, plates, spices);\n• tall units: from the floor almost to the ceiling, for brooms and mops, or for food in bulk;\n• the worktop: the flat surface on top of the base units, where food is prepared;\n• the sink with its tap, for washing;\n• the cooker (hob and oven), sometimes with a hood above it to take away steam and smoke;\n• the fridge.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 0
+  },
+  "figure": "kitchenUnits(k)",
+  "problem": "In the drawing, what is the part labelled {letterOf(k, 6, 1)}, and what would you keep in it?",
+  "steps": [
+   "Letter {letterOf(k, 6, 1)} is on a cupboard on the floor, under the worktop.",
+   "That is a base unit: it holds heavy things."
+  ],
+  "answer": "A base unit, for heavy things such as pots and pans.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec15-1",
+    "status": "draft",
+    "idea": "Base units stand on the floor under the worktop; wall units hang on the wall above it.",
+    "vars": {},
+    "example": [
+     "Heavy pots go low, in a base unit; cups go high, in a wall unit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he15-part"
+    }
+   },
+   {
+    "id": "hec15-2",
+    "status": "draft",
+    "idea": "A tall unit goes from the floor almost to the ceiling. The worktop is the flat surface for preparing food.",
+    "vars": {},
+    "example": [
+     "Brooms and mops fit in a tall unit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he15-letter"
+    }
+   },
+   {
+    "id": "hec15-3",
+    "status": "draft",
+    "idea": "The sink is for washing and the cooker for cooking; a hood above the cooker takes away steam and smoke.",
+    "vars": {},
+    "example": [
+     "The sink is placed under or near a window for light."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec15-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-units"
+     ],
+     "vars": {},
+     "prompt": "Where should heavy pots and pans be kept?",
+     "pool": {
+      "right": [
+       {
+        "text": "in a base unit, under the worktop",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "in a wall unit, high up",
+        "truth": "false",
+        "explain": "Heavy things high up can fall on someone."
+       },
+       {
+        "text": "on the floor by the door",
+        "truth": "false",
+        "explain": "That is in the way and dirty."
+       },
+       {
+        "text": "in the sink",
+        "truth": "false",
+        "explain": "The sink is for washing."
+       },
+       {
+        "text": "on top of the cooker",
+        "truth": "false",
+        "explain": "That is unsafe and in the way."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he15-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-units"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      719
+     ]
+    },
+    "x": {
+     "pick": [
+      {
+       "p": "wall unit",
+       "i": 0,
+       "why": "A wall unit is fixed on the wall above the worktop, for light things such as cups, plates and spices."
+      },
+      {
+       "p": "base unit",
+       "i": 1,
+       "why": "A base unit stands on the floor under the worktop, for heavy things such as pots and pans."
+      },
+      {
+       "p": "tall unit",
+       "i": 2,
+       "why": "A tall unit goes from the floor almost to the ceiling, for brooms, mops or food in bulk."
+      },
+      {
+       "p": "worktop",
+       "i": 3,
+       "why": "The worktop is the flat surface where food is prepared."
+      },
+      {
+       "p": "sink",
+       "i": 4,
+       "why": "The sink is where food and dishes are washed."
+      },
+      {
+       "p": "cooker",
+       "i": 5,
+       "why": "The cooker is where food is cooked."
+      }
+     ]
+    }
+   },
+   "figure": "kitchenUnits(k)",
+   "prompt": "What is the part labelled {letterOf(k, 6, x.i)}?",
+   "correct": "{x.p}",
+   "distractors": [
+    {
+     "text": "wall unit",
+     "misconception": "other"
+    },
+    {
+     "text": "base unit",
+     "misconception": "other"
+    },
+    {
+     "text": "tall unit",
+     "misconception": "other"
+    },
+    {
+     "text": "worktop",
+     "misconception": "other"
+    },
+    {
+     "text": "sink",
+     "misconception": "other"
+    },
+    {
+     "text": "cooker",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Look again at what the letter is next to."
+    }
+   ],
+   "solution": [
+    "Letter {letterOf(k, 6, x.i)} is next to the {answer}.",
+    "{x.why}"
+   ]
+  },
+  {
+   "id": "he15-letter",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-units"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      719
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      5
+     ]
+    }
+   },
+   "figure": "kitchenUnits(k)",
+   "prompt": "Which letter shows the {unitPart(i)}?",
+   "correct": "{letterOf(k, 6, i)}",
+   "distractors": [
+    {
+     "text": "A",
+     "misconception": "other"
+    },
+    {
+     "text": "B",
+     "misconception": "other"
+    },
+    {
+     "text": "C",
+     "misconception": "other"
+    },
+    {
+     "text": "D",
+     "misconception": "other"
+    },
+    {
+     "text": "E",
+     "misconception": "other"
+    },
+    {
+     "text": "F",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That letter is next to a different part."
+    }
+   ],
+   "solution": [
+    "The {unitPart(i)} is labelled {answer}."
+   ]
+  },
+  {
+   "id": "he15-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-units"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "light things such as cups and spices",
+       "a": "wall unit",
+       "why": "Wall unit: light things such as cups and spices."
+      },
+      {
+       "t": "heavy things such as pots and pans",
+       "a": "base unit",
+       "why": "Base unit: heavy things such as pots and pans."
+      },
+      {
+       "t": "brooms and mops",
+       "a": "tall unit",
+       "why": "Tall unit: brooms and mops."
+      },
+      {
+       "t": "preparing food",
+       "a": "worktop",
+       "why": "Worktop: preparing food."
+      },
+      {
+       "t": "washing dishes",
+       "a": "sink",
+       "why": "Sink: washing dishes."
+      },
+      {
+       "t": "cooking food",
+       "a": "cooker",
+       "why": "Cooker: cooking food."
+      }
+     ]
+    }
+   },
+   "prompt": "Which part of the kitchen is for {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "wall unit",
+     "misconception": "other"
+    },
+    {
+     "text": "base unit",
+     "misconception": "other"
+    },
+    {
+     "text": "tall unit",
+     "misconception": "other"
+    },
+    {
+     "text": "worktop",
+     "misconception": "other"
+    },
+    {
+     "text": "sink",
+     "misconception": "other"
+    },
+    {
+     "text": "cooker",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That part has a different use."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-units"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Base units stand on the floor.",
+      "truth": "true"
+     },
+     {
+      "text": "Wall units are fixed above the worktop.",
+      "truth": "true"
+     },
+     {
+      "text": "The worktop is where food is prepared.",
+      "truth": "true"
+     },
+     {
+      "text": "A hood above the cooker takes away steam and smoke.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Heavy pots are best kept in high wall units.",
+      "truth": "false",
+      "explain": "Heavy things should go low, in base units."
+     },
+     {
+      "text": "The sink is for storing food.",
+      "truth": "false",
+      "explain": "The sink is for washing."
+     },
+     {
+      "text": "A tall unit is fixed to the ceiling.",
+      "truth": "false",
+      "explain": "A tall unit stands on the floor and reaches almost to the ceiling."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,403 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "he4",
+   "name": "Functions of food and dietary guidelines"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Functions of food in the body: it gives energy, builds and repairs the body, protects against disease, keeps the body warm and helps the body work well.\nFood also has social uses: families eat together, we welcome visitors with food, and we share meals at weddings, birthdays and festivals. Food can also comfort us and make us happy.\nDietary guidelines (advice for healthy eating):\n• eat a variety of foods from all the food groups;\n• eat plenty of fruit and vegetables;\n• use less salt, sugar and fat;\n• drink clean, safe water;\n• eat regular meals, including breakfast;\n• keep food and hands clean.\nSubjects related to food and nutrition: Biology (the body), Chemistry (nutrients), Agriculture (growing food), Health education, and Physics (heat in cooking).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Every day Nkeng drinks two bottles of sweet soft drink and eats no fruit. Which two dietary guidelines should Nkeng follow?",
+  "steps": [
+   "Soft drinks contain a lot of sugar: eat and drink less sugar.",
+   "No fruit means few vitamins: eat plenty of fruit and vegetables."
+  ],
+  "answer": "Drink less sugar; eat plenty of fruit and vegetables.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec4-1",
+    "status": "draft",
+    "idea": "Food gives energy, builds and repairs the body, protects against disease and keeps us warm. It also brings people together.",
+    "vars": {},
+    "example": [
+     "A wedding feast is a social use of food."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he4-func"
+    }
+   },
+   {
+    "id": "hec4-2",
+    "status": "draft",
+    "idea": "Dietary guidelines are advice for healthy eating: variety, plenty of fruit and vegetables, less salt, sugar and fat, clean water, regular meals.",
+    "vars": {},
+    "example": [
+     "Breakfast gives energy for morning lessons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he4-guide"
+    }
+   },
+   {
+    "id": "hec4-3",
+    "status": "draft",
+    "idea": "Food and nutrition is linked to other subjects: Biology, Chemistry, Agriculture, Health education and Physics.",
+    "vars": {},
+    "example": [
+     "Agriculture teaches how food is grown; Biology teaches how the body uses it."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec4-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "food-functions"
+     ],
+     "vars": {},
+     "prompt": "Which subject teaches how crops are grown for food?",
+     "pool": {
+      "right": [
+       {
+        "text": "Agriculture",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "History",
+        "truth": "false",
+        "explain": "History studies the past."
+       },
+       {
+        "text": "French",
+        "truth": "false",
+        "explain": "French is a language."
+       },
+       {
+        "text": "Geography only",
+        "truth": "false",
+        "explain": "Geography studies the land; Agriculture teaches how crops are grown."
+       },
+       {
+        "text": "Computer Science",
+        "truth": "false",
+        "explain": "Computer Science studies computers."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he4-func",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-functions"
+   ],
+   "prompt": "Sort these: a function of food in the body, or a social use of food?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "in the body",
+    "social use"
+   ],
+   "pool": [
+    {
+     "left": "gives energy to work and play",
+     "right": "in the body"
+    },
+    {
+     "left": "builds and repairs the body",
+     "right": "in the body"
+    },
+    {
+     "left": "protects against disease",
+     "right": "in the body"
+    },
+    {
+     "left": "keeps the body warm",
+     "right": "in the body"
+    },
+    {
+     "left": "sharing a meal with friends",
+     "right": "social use"
+    },
+    {
+     "left": "welcoming visitors with food",
+     "right": "social use"
+    },
+    {
+     "left": "a feast at a wedding",
+     "right": "social use"
+    },
+    {
+     "left": "a family eating together",
+     "right": "social use"
+    }
+   ]
+  },
+  {
+   "id": "he4-guide",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "dietary-guidelines"
+   ],
+   "vars": {},
+   "prompt": "Which is good advice for healthy eating?",
+   "pool": {
+    "right": [
+     {
+      "text": "Eat a variety of foods.",
+      "truth": "true"
+     },
+     {
+      "text": "Eat plenty of fruit and vegetables.",
+      "truth": "true"
+     },
+     {
+      "text": "Use less salt.",
+      "truth": "true"
+     },
+     {
+      "text": "Drink clean, safe water.",
+      "truth": "true"
+     },
+     {
+      "text": "Eat breakfast every day.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Eat as much sugar as you like.",
+      "truth": "false",
+      "explain": "Too much sugar harms the teeth and can lead to obesity."
+     },
+     {
+      "text": "Skip meals to save time.",
+      "truth": "false",
+      "explain": "Regular meals keep your energy steady."
+     },
+     {
+      "text": "Eat only one kind of food.",
+      "truth": "false",
+      "explain": "One food cannot give all the nutrients."
+     },
+     {
+      "text": "Add plenty of salt to every meal.",
+      "truth": "false",
+      "explain": "Too much salt is bad for the heart."
+     },
+     {
+      "text": "Fried food is best every day.",
+      "truth": "false",
+      "explain": "Too much fat is unhealthy."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he4-advice",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "dietary-guidelines"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Mbi eats only rice, every meal, every day.",
+       "a": "eat a variety of foods",
+       "why": "Eat a variety of foods: Mbi eats only rice, every meal, every day."
+      },
+      {
+       "t": "Ako adds a lot of salt to every meal.",
+       "a": "use less salt",
+       "why": "Use less salt: Ako adds a lot of salt to every meal."
+      },
+      {
+       "t": "Nfor never eats breakfast.",
+       "a": "eat regular meals, including breakfast",
+       "why": "Eat regular meals, including breakfast: Nfor never eats breakfast."
+      },
+      {
+       "t": "Ayuk drinks sweet soft drinks every day.",
+       "a": "eat and drink less sugar",
+       "why": "Eat and drink less sugar: Ayuk drinks sweet soft drinks every day."
+      },
+      {
+       "t": "Ebai drinks water from an open stream.",
+       "a": "drink clean, safe water",
+       "why": "Drink clean, safe water: Ebai drinks water from an open stream."
+      },
+      {
+       "t": "Sama never eats fruit or vegetables.",
+       "a": "eat plenty of fruit and vegetables",
+       "why": "Eat plenty of fruit and vegetables: Sama never eats fruit or vegetables."
+      }
+     ]
+    }
+   },
+   "prompt": "Which advice fits best?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "eat a variety of foods",
+     "misconception": "other"
+    },
+    {
+     "text": "use less salt",
+     "misconception": "other"
+    },
+    {
+     "text": "eat regular meals, including breakfast",
+     "misconception": "other"
+    },
+    {
+     "text": "eat and drink less sugar",
+     "misconception": "other"
+    },
+    {
+     "text": "drink clean, safe water",
+     "misconception": "other"
+    },
+    {
+     "text": "eat plenty of fruit and vegetables",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That advice is good, but it does not fit this problem."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he4-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "food-functions"
+   ],
+   "prompt": "Match each subject with what it teaches about food.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "Biology",
+     "right": "how the body digests and uses food"
+    },
+    {
+     "left": "Chemistry",
+     "right": "what nutrients are made of"
+    },
+    {
+     "left": "Agriculture",
+     "right": "how food is grown"
+    },
+    {
+     "left": "Physics",
+     "right": "how heat cooks food"
+    },
+    {
+     "left": "Health education",
+     "right": "how food keeps us healthy"
+    }
+   ]
+  },
+  {
+   "id": "he4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "food-functions",
+    "dietary-guidelines"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Food builds and repairs the body.",
+      "truth": "true"
+     },
+     {
+      "text": "Sharing a meal is a social use of food.",
+      "truth": "true"
+     },
+     {
+      "text": "Eating breakfast gives energy for the morning.",
+      "truth": "true"
+     },
+     {
+      "text": "Too much salt is bad for health.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Food has no use except to fill the stomach.",
+      "truth": "false",
+      "explain": "Food gives energy, builds the body, protects it and brings people together."
+     },
+     {
+      "text": "Healthy eating means eating one kind of food.",
+      "truth": "false",
+      "explain": "Healthy eating means a variety of foods."
+     },
+     {
+      "text": "Sugary drinks are better than clean water.",
+      "truth": "false",
+      "explain": "Clean water is the best drink; sugary drinks harm teeth and weight."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

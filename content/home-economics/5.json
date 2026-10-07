@@ -1,0 +1,390 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "he5",
+   "name": "Careers in food and nutrition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Many jobs use knowledge of food and nutrition:\n• dietitian: plans special diets for patients, for example in a hospital;\n• nutritionist: teaches people how to eat well;\n• chef or cook: cooks and plans meals in hotels and restaurants;\n• caterer: prepares and serves food for events such as weddings;\n• baker: makes bread, cakes and pastries;\n• food scientist: studies food and makes new food products;\n• food inspector (health inspector): checks that food sold is clean and safe;\n• Home Economics teacher;\n• waiter or waitress, hotel manager.\nThese careers need Home Economics, Biology and Chemistry, and also good hygiene, care and honesty.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A hospital patient with diabetes needs a special plan for what to eat each day. Who should make the plan?",
+  "steps": [
+   "A special diet for a patient is planned by a health professional who knows nutrition.",
+   "That is the job of a dietitian."
+  ],
+  "answer": "A dietitian.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec5-1",
+    "status": "draft",
+    "idea": "Some food careers prepare food: chef, cook, caterer, baker.",
+    "vars": {},
+    "example": [
+     "A caterer prepares food for a wedding of three hundred guests."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he5-which"
+    }
+   },
+   {
+    "id": "hec5-2",
+    "status": "draft",
+    "idea": "Some food careers advise, teach or check: dietitian, nutritionist, food inspector, Home Economics teacher.",
+    "vars": {},
+    "example": [
+     "A food inspector visits restaurants to check that food is safe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he5-match"
+    }
+   },
+   {
+    "id": "hec5-3",
+    "status": "draft",
+    "idea": "Food careers need knowledge of Home Economics, Biology and Chemistry, and good hygiene.",
+    "vars": {},
+    "example": [
+     "A baker must wash hands and keep the bakery clean."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec5-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "careers"
+     ],
+     "vars": {},
+     "prompt": "Which is a career in food and nutrition?",
+     "pool": {
+      "right": [
+       {
+        "text": "baker",
+        "truth": "true"
+       },
+       {
+        "text": "chef",
+        "truth": "true"
+       },
+       {
+        "text": "dietitian",
+        "truth": "true"
+       },
+       {
+        "text": "caterer",
+        "truth": "true"
+       },
+       {
+        "text": "food inspector",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "carpenter",
+        "truth": "false",
+        "explain": "A carpenter works with wood."
+       },
+       {
+        "text": "mechanic",
+        "truth": "false",
+        "explain": "A mechanic repairs engines."
+       },
+       {
+        "text": "driver",
+        "truth": "false",
+        "explain": "A driver drives vehicles."
+       },
+       {
+        "text": "electrician",
+        "truth": "false",
+        "explain": "An electrician works with electricity."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he5-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "careers"
+   ],
+   "prompt": "Match each job with what the person does.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "dietitian",
+     "right": "plans special diets for patients, for example in a hospital"
+    },
+    {
+     "left": "nutritionist",
+     "right": "teaches people how to eat well"
+    },
+    {
+     "left": "chef",
+     "right": "cooks and plans meals in a hotel or restaurant"
+    },
+    {
+     "left": "caterer",
+     "right": "prepares and serves food for events such as weddings"
+    },
+    {
+     "left": "baker",
+     "right": "makes bread, cakes and pastries"
+    },
+    {
+     "left": "food scientist",
+     "right": "studies food and makes new food products"
+    },
+    {
+     "left": "food inspector",
+     "right": "checks that food sold to people is clean and safe"
+    },
+    {
+     "left": "Home Economics teacher",
+     "right": "teaches food, nutrition and home management in school"
+    },
+    {
+     "left": "waiter or waitress",
+     "right": "serves food to customers in a restaurant"
+    }
+   ]
+  },
+  {
+   "id": "he5-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "careers"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "plans special diets for patients, for example in a hospital",
+       "a": "dietitian",
+       "why": "Dietitian: plans special diets for patients, for example in a hospital."
+      },
+      {
+       "t": "teaches people how to eat well",
+       "a": "nutritionist",
+       "why": "Nutritionist: teaches people how to eat well."
+      },
+      {
+       "t": "cooks and plans meals in a hotel or restaurant",
+       "a": "chef",
+       "why": "Chef: cooks and plans meals in a hotel or restaurant."
+      },
+      {
+       "t": "prepares and serves food for events such as weddings",
+       "a": "caterer",
+       "why": "Caterer: prepares and serves food for events such as weddings."
+      },
+      {
+       "t": "makes bread, cakes and pastries",
+       "a": "baker",
+       "why": "Baker: makes bread, cakes and pastries."
+      },
+      {
+       "t": "studies food and makes new food products",
+       "a": "food scientist",
+       "why": "Food scientist: studies food and makes new food products."
+      },
+      {
+       "t": "checks that food sold to people is clean and safe",
+       "a": "food inspector",
+       "why": "Food inspector: checks that food sold to people is clean and safe."
+      },
+      {
+       "t": "teaches food, nutrition and home management in school",
+       "a": "Home Economics teacher",
+       "why": "Home Economics teacher: teaches food, nutrition and home management in school."
+      },
+      {
+       "t": "serves food to customers in a restaurant",
+       "a": "waiter or waitress",
+       "why": "Waiter or waitress: serves food to customers in a restaurant."
+      }
+     ]
+    }
+   },
+   "prompt": "Who {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "dietitian",
+     "misconception": "other"
+    },
+    {
+     "text": "nutritionist",
+     "misconception": "other"
+    },
+    {
+     "text": "chef",
+     "misconception": "other"
+    },
+    {
+     "text": "caterer",
+     "misconception": "other"
+    },
+    {
+     "text": "baker",
+     "misconception": "other"
+    },
+    {
+     "text": "food scientist",
+     "misconception": "other"
+    },
+    {
+     "text": "food inspector",
+     "misconception": "other"
+    },
+    {
+     "text": "Home Economics teacher",
+     "misconception": "other"
+    },
+    {
+     "text": "waiter or waitress",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this job. Read what each person does."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he5-need",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "careers"
+   ],
+   "vars": {},
+   "prompt": "What do people in food careers need most?",
+   "pool": {
+    "right": [
+     {
+      "text": "good hygiene and knowledge of food and nutrition",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a driving licence",
+      "truth": "false",
+      "explain": "Some jobs need it, but food careers need hygiene and food knowledge."
+     },
+     {
+      "text": "strong muscles only",
+      "truth": "false",
+      "explain": "Food careers need knowledge and hygiene, not only strength."
+     },
+     {
+      "text": "a big car",
+      "truth": "false",
+      "explain": "That does not help to prepare safe, healthy food."
+     },
+     {
+      "text": "knowing how to build houses",
+      "truth": "false",
+      "explain": "That is building, not food."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "careers"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A baker makes bread and cakes.",
+      "truth": "true"
+     },
+     {
+      "text": "A caterer prepares food for events.",
+      "truth": "true"
+     },
+     {
+      "text": "A food inspector checks that food is safe.",
+      "truth": "true"
+     },
+     {
+      "text": "A chef cooks in a hotel or restaurant.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A dietitian repairs kitchen equipment.",
+      "truth": "false",
+      "explain": "A dietitian plans special diets for patients."
+     },
+     {
+      "text": "A nutritionist builds kitchens.",
+      "truth": "false",
+      "explain": "A nutritionist teaches people how to eat well."
+     },
+     {
+      "text": "A food scientist serves customers in a restaurant.",
+      "truth": "false",
+      "explain": "Waiters serve customers; a food scientist studies food and makes new products."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

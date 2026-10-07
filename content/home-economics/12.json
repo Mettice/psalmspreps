@@ -1,0 +1,360 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "he12",
+   "name": "Care of a traditional kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Caring for a traditional kitchen keeps it clean and safe:\n• sweep the floor every day;\n• remove the ashes when they are cold and throw them away safely (they can go on the garden);\n• remove soot and cobwebs from the walls and roof regularly;\n• keep firewood dry, stacked, and away from the fire;\n• cover water pots and food to keep out dust, insects and rats;\n• wash plates and pots after use and put them on the shelf to dry;\n• put out the fire before leaving the kitchen;\n• keep goats and chickens out;\n• repair cracks in the walls, floor and roof.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "After cooking, Mbong throws the hot ashes behind the kitchen near the thatch wall. What is wrong, and what should Mbong do?",
+  "steps": [
+   "Hot ashes can still set dry thatch or grass on fire.",
+   "Ashes should be removed only when they are cold, and thrown away in a safe place."
+  ],
+  "answer": "Let the ashes cool first, then throw them away safely, far from the thatch.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec12-1",
+    "status": "draft",
+    "idea": "Sweep the floor daily and remove ashes, soot and cobwebs to keep the kitchen clean.",
+    "vars": {},
+    "example": [
+     "Food crumbs on the floor attract insects and rats."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he12-sort"
+    }
+   },
+   {
+    "id": "hec12-2",
+    "status": "draft",
+    "idea": "Keep firewood dry and away from the fire, and put the fire out before leaving.",
+    "vars": {},
+    "example": [
+     "A fire left burning can spread to the roof."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he12-best"
+    }
+   },
+   {
+    "id": "hec12-3",
+    "status": "draft",
+    "idea": "Cover water and food, and keep animals out of the kitchen.",
+    "vars": {},
+    "example": [
+     "Goats and chickens bring dirt and germs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec12-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-care"
+     ],
+     "vars": {},
+     "prompt": "Why should water pots be covered?",
+     "pool": {
+      "right": [
+       {
+        "text": "to keep dust and insects out of the water",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "to make the water hot",
+        "truth": "false",
+        "explain": "Covering does not heat water."
+       },
+       {
+        "text": "so the pot does not break",
+        "truth": "false",
+        "explain": "The cover keeps dirt and insects out; it does not protect the pot."
+       },
+       {
+        "text": "to make the water taste sweet",
+        "truth": "false",
+        "explain": "A cover keeps water clean; it does not change the taste."
+       },
+       {
+        "text": "to hide the water from visitors",
+        "truth": "false",
+        "explain": "The reason is cleanliness."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he12-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-care"
+   ],
+   "prompt": "Sort these: good care or bad practice in a traditional kitchen?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "good care",
+    "bad practice"
+   ],
+   "pool": [
+    {
+     "left": "sweeping the floor every day",
+     "right": "good care"
+    },
+    {
+     "left": "covering water pots",
+     "right": "good care"
+    },
+    {
+     "left": "removing cold ashes",
+     "right": "good care"
+    },
+    {
+     "left": "keeping firewood dry",
+     "right": "good care"
+    },
+    {
+     "left": "washing pots after use",
+     "right": "good care"
+    },
+    {
+     "left": "leaving the fire burning when you go out",
+     "right": "bad practice"
+    },
+    {
+     "left": "letting goats into the kitchen",
+     "right": "bad practice"
+    },
+    {
+     "left": "throwing hot ashes near the thatch",
+     "right": "bad practice"
+    },
+    {
+     "left": "leaving food uncovered",
+     "right": "bad practice"
+    },
+    {
+     "left": "stacking firewood next to the fire",
+     "right": "bad practice"
+    }
+   ]
+  },
+  {
+   "id": "he12-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-care"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "remove the ashes when they are cold",
+       "a": "to keep the fireplace clean and stop the fire spreading",
+       "why": "We remove the ashes when they are cold to keep the fireplace clean and stop the fire spreading."
+      },
+      {
+       "t": "keep firewood dry and away from the fire",
+       "a": "so it burns well and does not catch fire by accident",
+       "why": "We keep firewood dry and away from the fire so it burns well and does not catch fire by accident."
+      },
+      {
+       "t": "sweep the floor every day",
+       "a": "to remove dust and food that attract insects and rats",
+       "why": "We sweep the floor every day to remove dust and food that attract insects and rats."
+      },
+      {
+       "t": "cover the water pots",
+       "a": "to keep dust and insects out of the water",
+       "why": "We cover the water pots to keep dust and insects out of the water."
+      },
+      {
+       "t": "put out the fire before leaving the kitchen",
+       "a": "to prevent a fire",
+       "why": "We put out the fire before leaving the kitchen to prevent a fire."
+      },
+      {
+       "t": "remove soot and cobwebs regularly",
+       "a": "to keep the walls and roof clean",
+       "why": "We remove soot and cobwebs regularly to keep the walls and roof clean."
+      }
+     ]
+    }
+   },
+   "prompt": "Why do we {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "to keep the fireplace clean and stop the fire spreading",
+     "misconception": "other"
+    },
+    {
+     "text": "so it burns well and does not catch fire by accident",
+     "misconception": "other"
+    },
+    {
+     "text": "to remove dust and food that attract insects and rats",
+     "misconception": "other"
+    },
+    {
+     "text": "to keep dust and insects out of the water",
+     "misconception": "other"
+    },
+    {
+     "text": "to prevent a fire",
+     "misconception": "other"
+    },
+    {
+     "text": "to keep the walls and roof clean",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is the reason for a different task."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he12-best",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-care"
+   ],
+   "vars": {},
+   "prompt": "Which is the safest way to deal with ashes?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wait until they are cold, then throw them away in a safe place.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Throw them out while still hot.",
+      "truth": "false",
+      "explain": "Hot ashes can start a fire."
+     },
+     {
+      "text": "Leave them in the fireplace for weeks.",
+      "truth": "false",
+      "explain": "Old ashes make the kitchen dirty and dusty."
+     },
+     {
+      "text": "Pour them into the water pot.",
+      "truth": "false",
+      "explain": "That would make the drinking water dirty."
+     },
+     {
+      "text": "Put them on the smoke rack.",
+      "truth": "false",
+      "explain": "Ashes do not belong on the rack: they fall onto the food."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-care"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Sweep the kitchen floor every day.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep firewood dry.",
+      "truth": "true"
+     },
+     {
+      "text": "Put out the fire before leaving the kitchen.",
+      "truth": "true"
+     },
+     {
+      "text": "Wash pots after use.",
+      "truth": "true"
+     },
+     {
+      "text": "Repair cracks in the walls.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Leave food uncovered so it cools faster.",
+      "truth": "false",
+      "explain": "Uncovered food attracts flies and dust: cover it."
+     },
+     {
+      "text": "Keep chickens in the kitchen to eat the crumbs.",
+      "truth": "false",
+      "explain": "Animals bring dirt and germs: keep them out."
+     },
+     {
+      "text": "Store firewood right next to the fire.",
+      "truth": "false",
+      "explain": "Firewood next to the fire can catch fire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,592 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "he3",
+   "name": "Nutrients and food groups"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Food contains nutrients:\n• carbohydrates: rice, maize, cassava, yams, plantains, bread;\n• proteins: beans, groundnuts, eggs, fish, meat, milk;\n• fats and oils: palm oil, groundnut oil, butter;\n• vitamins: fruits and vegetables such as oranges, mangoes, pawpaw, carrots, huckleberry;\n• minerals: for example calcium (milk, small fish) and iron (liver, green leaves);\n• water and fibre (roughage) are also needed.\nThe three food groups:\n• energy-giving foods: carbohydrates, fats and oils;\n• body-building foods: proteins;\n• protective foods: vitamins and minerals.\nA balanced meal has food from each group, for example rice, beans with fish, and a green vegetable, with fruit after.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is this meal balanced: boiled plantains, fried fish and a mango? If not, what could be added?",
+  "steps": [
+   "Plantains: energy-giving (carbohydrates). The frying oil is also energy-giving.",
+   "Fish: body-building (proteins).",
+   "Mango: protective (vitamins).",
+   "All three groups are there; a green vegetable would add more minerals."
+  ],
+  "answer": "Yes, it has all three food groups.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec3-1",
+    "status": "draft",
+    "idea": "Each food is rich in certain nutrients: carbohydrates, proteins, fats and oils, vitamins or minerals.",
+    "vars": {},
+    "example": [
+     "Rice is rich in carbohydrates. Beans are rich in proteins. Oranges are rich in vitamins."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he3-nutrient"
+    }
+   },
+   {
+    "id": "hec3-2",
+    "status": "draft",
+    "idea": "Foods are put into three groups: energy-giving, body-building and protective.",
+    "vars": {},
+    "example": [
+     "Yams give energy. Eggs build the body. Pawpaw protects against disease."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he3-group"
+    }
+   },
+   {
+    "id": "hec3-3",
+    "status": "draft",
+    "idea": "Water and fibre (roughage) are needed too: water carries nutrients, fibre helps food move through the gut.",
+    "vars": {},
+    "example": [
+     "Fruits, vegetables and whole grains give fibre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec3-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "food-groups"
+     ],
+     "vars": {},
+     "prompt": "Why does the body need fibre (roughage)?",
+     "pool": {
+      "right": [
+       {
+        "text": "It helps food move through the gut.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "It builds muscles.",
+        "truth": "false",
+        "explain": "Proteins build and repair the body."
+       },
+       {
+        "text": "It gives most of our energy.",
+        "truth": "false",
+        "explain": "Carbohydrates, fats and oils give energy."
+       },
+       {
+        "text": "It makes blood.",
+        "truth": "false",
+        "explain": "Minerals such as iron help make blood."
+       },
+       {
+        "text": "It keeps the body warm.",
+        "truth": "false",
+        "explain": "Fats and oils help keep the body warm."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he3-nutrient",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-groups"
+   ],
+   "prompt": "Match each food with the main nutrient it gives.",
+   "pick": 3,
+   "pool": [
+    {
+     "left": "rice",
+     "right": "carbohydrates"
+    },
+    {
+     "left": "maize",
+     "right": "carbohydrates"
+    },
+    {
+     "left": "cassava",
+     "right": "carbohydrates"
+    },
+    {
+     "left": "yams",
+     "right": "carbohydrates"
+    },
+    {
+     "left": "plantains",
+     "right": "carbohydrates"
+    },
+    {
+     "left": "bread",
+     "right": "carbohydrates"
+    },
+    {
+     "left": "beans",
+     "right": "proteins"
+    },
+    {
+     "left": "eggs",
+     "right": "proteins"
+    },
+    {
+     "left": "fish",
+     "right": "proteins"
+    },
+    {
+     "left": "meat",
+     "right": "proteins"
+    },
+    {
+     "left": "groundnuts",
+     "right": "proteins"
+    },
+    {
+     "left": "palm oil",
+     "right": "fats and oils"
+    },
+    {
+     "left": "groundnut oil",
+     "right": "fats and oils"
+    },
+    {
+     "left": "butter",
+     "right": "fats and oils"
+    },
+    {
+     "left": "oranges",
+     "right": "vitamins"
+    },
+    {
+     "left": "mangoes",
+     "right": "vitamins"
+    },
+    {
+     "left": "pawpaw",
+     "right": "vitamins"
+    },
+    {
+     "left": "carrots",
+     "right": "vitamins"
+    },
+    {
+     "left": "huckleberry (njama njama)",
+     "right": "vitamins"
+    }
+   ]
+  },
+  {
+   "id": "he3-group",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-groups"
+   ],
+   "prompt": "Sort these foods into food groups.",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "energy-giving",
+    "body-building",
+    "protective"
+   ],
+   "pool": [
+    {
+     "left": "rice",
+     "right": "energy-giving"
+    },
+    {
+     "left": "maize",
+     "right": "energy-giving"
+    },
+    {
+     "left": "cassava",
+     "right": "energy-giving"
+    },
+    {
+     "left": "yams",
+     "right": "energy-giving"
+    },
+    {
+     "left": "plantains",
+     "right": "energy-giving"
+    },
+    {
+     "left": "bread",
+     "right": "energy-giving"
+    },
+    {
+     "left": "palm oil",
+     "right": "energy-giving"
+    },
+    {
+     "left": "groundnut oil",
+     "right": "energy-giving"
+    },
+    {
+     "left": "butter",
+     "right": "energy-giving"
+    },
+    {
+     "left": "beans",
+     "right": "body-building"
+    },
+    {
+     "left": "eggs",
+     "right": "body-building"
+    },
+    {
+     "left": "fish",
+     "right": "body-building"
+    },
+    {
+     "left": "meat",
+     "right": "body-building"
+    },
+    {
+     "left": "groundnuts",
+     "right": "body-building"
+    },
+    {
+     "left": "oranges",
+     "right": "protective"
+    },
+    {
+     "left": "mangoes",
+     "right": "protective"
+    },
+    {
+     "left": "pawpaw",
+     "right": "protective"
+    },
+    {
+     "left": "carrots",
+     "right": "protective"
+    },
+    {
+     "left": "huckleberry (njama njama)",
+     "right": "protective"
+    }
+   ]
+  },
+  {
+   "id": "he3-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "food-groups"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "rice",
+       "a": "carbohydrates",
+       "why": "Rice is rich in carbohydrates."
+      },
+      {
+       "t": "maize",
+       "a": "carbohydrates",
+       "why": "Maize is rich in carbohydrates."
+      },
+      {
+       "t": "cassava",
+       "a": "carbohydrates",
+       "why": "Cassava is rich in carbohydrates."
+      },
+      {
+       "t": "yams",
+       "a": "carbohydrates",
+       "why": "Yams is rich in carbohydrates."
+      },
+      {
+       "t": "plantains",
+       "a": "carbohydrates",
+       "why": "Plantains is rich in carbohydrates."
+      },
+      {
+       "t": "bread",
+       "a": "carbohydrates",
+       "why": "Bread is rich in carbohydrates."
+      },
+      {
+       "t": "beans",
+       "a": "proteins",
+       "why": "Beans is rich in proteins."
+      },
+      {
+       "t": "eggs",
+       "a": "proteins",
+       "why": "Eggs is rich in proteins."
+      },
+      {
+       "t": "fish",
+       "a": "proteins",
+       "why": "Fish is rich in proteins."
+      },
+      {
+       "t": "meat",
+       "a": "proteins",
+       "why": "Meat is rich in proteins."
+      },
+      {
+       "t": "groundnuts",
+       "a": "proteins",
+       "why": "Groundnuts is rich in proteins."
+      },
+      {
+       "t": "palm oil",
+       "a": "fats and oils",
+       "why": "Palm oil is rich in fats and oils."
+      },
+      {
+       "t": "groundnut oil",
+       "a": "fats and oils",
+       "why": "Groundnut oil is rich in fats and oils."
+      },
+      {
+       "t": "butter",
+       "a": "fats and oils",
+       "why": "Butter is rich in fats and oils."
+      },
+      {
+       "t": "oranges",
+       "a": "vitamins",
+       "why": "Oranges is rich in vitamins."
+      },
+      {
+       "t": "mangoes",
+       "a": "vitamins",
+       "why": "Mangoes is rich in vitamins."
+      },
+      {
+       "t": "pawpaw",
+       "a": "vitamins",
+       "why": "Pawpaw is rich in vitamins."
+      },
+      {
+       "t": "carrots",
+       "a": "vitamins",
+       "why": "Carrots is rich in vitamins."
+      },
+      {
+       "t": "huckleberry (njama njama)",
+       "a": "vitamins",
+       "why": "Huckleberry (njama njama) is rich in vitamins."
+      }
+     ]
+    }
+   },
+   "prompt": "Which nutrient is {x.t} rich in?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "carbohydrates",
+     "misconception": "other"
+    },
+    {
+     "text": "proteins",
+     "misconception": "other"
+    },
+    {
+     "text": "fats and oils",
+     "misconception": "other"
+    },
+    {
+     "text": "vitamins",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not the main one. Think: does this food give energy, build the body, or protect it?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he3-job",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "food-groups"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "give the body energy",
+       "a": "carbohydrates",
+       "why": "Carbohydrates: give the body energy."
+      },
+      {
+       "t": "build and repair the body",
+       "a": "proteins",
+       "why": "Proteins: build and repair the body."
+      },
+      {
+       "t": "give energy and keep the body warm",
+       "a": "fats and oils",
+       "why": "Fats and oils: give energy and keep the body warm."
+      },
+      {
+       "t": "protect the body against disease",
+       "a": "vitamins",
+       "why": "Vitamins: protect the body against disease."
+      },
+      {
+       "t": "build strong bones and teeth, and make blood",
+       "a": "minerals",
+       "why": "Minerals: build strong bones and teeth, and make blood."
+      },
+      {
+       "t": "help food move through the gut",
+       "a": "fibre (roughage)",
+       "why": "Fibre (roughage): help food move through the gut."
+      },
+      {
+       "t": "carry nutrients round the body and cool it",
+       "a": "water",
+       "why": "Water: carry nutrients round the body and cool it."
+      }
+     ]
+    }
+   },
+   "prompt": "Which nutrient helps to {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "carbohydrates",
+     "misconception": "other"
+    },
+    {
+     "text": "proteins",
+     "misconception": "other"
+    },
+    {
+     "text": "fats and oils",
+     "misconception": "other"
+    },
+    {
+     "text": "vitamins",
+     "misconception": "other"
+    },
+    {
+     "text": "minerals",
+     "misconception": "other"
+    },
+    {
+     "text": "fibre (roughage)",
+     "misconception": "other"
+    },
+    {
+     "text": "water",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That nutrient has a different job."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "food-groups"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Beans are a body-building food.",
+      "truth": "true"
+     },
+     {
+      "text": "Oranges are a protective food.",
+      "truth": "true"
+     },
+     {
+      "text": "Palm oil is an energy-giving food.",
+      "truth": "true"
+     },
+     {
+      "text": "Rice is rich in carbohydrates.",
+      "truth": "true"
+     },
+     {
+      "text": "Fish is rich in proteins.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cassava is a body-building food.",
+      "truth": "false",
+      "explain": "Cassava is mostly carbohydrate: an energy-giving food."
+     },
+     {
+      "text": "Mangoes are rich in proteins.",
+      "truth": "false",
+      "explain": "Mangoes are rich in vitamins: a protective food."
+     },
+     {
+      "text": "Vitamins give us most of our energy.",
+      "truth": "false",
+      "explain": "Carbohydrates, fats and oils give energy; vitamins protect the body."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

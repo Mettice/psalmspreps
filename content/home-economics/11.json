@@ -1,0 +1,343 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  6,
+  7
+ ],
+ "skills": [
+  {
+   "id": "he11",
+   "name": "Advantages and disadvantages of a traditional kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Advantages of a traditional kitchen:\n• cheap to build with local materials (mud, wood, thatch);\n• firewood is cheap or free;\n• the smoke rack dries and preserves food;\n• smoke keeps some insects away;\n• warm in the cold season; a place where the family sits and talks.\nDisadvantages:\n• smoke hurts the eyes and the lungs;\n• soot makes walls, pots and clothes black and is hard to clean;\n• risk of fire, especially with a thatch roof;\n• earth floors are dusty and hard to keep clean;\n• it uses a lot of firewood, so trees are cut down;\n• it is often dark, and children can be burnt by the open fire.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give one advantage and one disadvantage of the smoke in a traditional kitchen.",
+  "steps": [
+   "Smoke dries and preserves meat, fish and maize on the smoke rack, and keeps some insects away: an advantage.",
+   "Smoke also hurts the eyes and the lungs of the cook: a disadvantage."
+  ],
+  "answer": "Advantage: it preserves food. Disadvantage: it harms the eyes and lungs.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec11-1",
+    "status": "draft",
+    "idea": "A traditional kitchen is cheap to build and to run, and its smoke rack preserves food.",
+    "vars": {},
+    "example": [
+     "Mud, wood and thatch can be found locally."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he11-sort"
+    }
+   },
+   {
+    "id": "hec11-2",
+    "status": "draft",
+    "idea": "But smoke harms the eyes and lungs, soot blackens everything, and there is a risk of fire and burns.",
+    "vars": {},
+    "example": [
+     "A thatch roof can catch fire from sparks."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he11-dis"
+    }
+   },
+   {
+    "id": "hec11-3",
+    "status": "draft",
+    "idea": "An improved stove and a window or chimney reduce the smoke in a traditional kitchen.",
+    "vars": {},
+    "example": [
+     "A chimney carries smoke out of the kitchen."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec11-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "traditional-kitchen"
+     ],
+     "vars": {},
+     "prompt": "Which change makes a traditional kitchen less smoky?",
+     "pool": {
+      "right": [
+       {
+        "text": "using an improved stove",
+        "truth": "true"
+       },
+       {
+        "text": "adding a chimney",
+        "truth": "true"
+       },
+       {
+        "text": "making a window to let smoke out",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "adding more firewood",
+        "truth": "false",
+        "explain": "More wood makes more smoke."
+       },
+       {
+        "text": "closing all the openings",
+        "truth": "false",
+        "explain": "Closed openings keep the smoke in."
+       },
+       {
+        "text": "using wet firewood",
+        "truth": "false",
+        "explain": "Wet wood makes more smoke."
+       },
+       {
+        "text": "cooking with the door closed",
+        "truth": "false",
+        "explain": "That keeps the smoke inside."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he11-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "traditional-kitchen"
+   ],
+   "prompt": "Traditional kitchen: sort these into advantages and disadvantages.",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "advantage",
+    "disadvantage"
+   ],
+   "pool": [
+    {
+     "left": "cheap to build with local materials",
+     "right": "advantage"
+    },
+    {
+     "left": "firewood is cheap or free",
+     "right": "advantage"
+    },
+    {
+     "left": "the smoke rack preserves food",
+     "right": "advantage"
+    },
+    {
+     "left": "warm in the cold season",
+     "right": "advantage"
+    },
+    {
+     "left": "a place for the family to sit together",
+     "right": "advantage"
+    },
+    {
+     "left": "smoke hurts the eyes and lungs",
+     "right": "disadvantage"
+    },
+    {
+     "left": "soot blackens the walls and pots",
+     "right": "disadvantage"
+    },
+    {
+     "left": "risk of fire with a thatch roof",
+     "right": "disadvantage"
+    },
+    {
+     "left": "the earth floor is dusty",
+     "right": "disadvantage"
+    },
+    {
+     "left": "it uses a lot of firewood",
+     "right": "disadvantage"
+    }
+   ]
+  },
+  {
+   "id": "he11-adv",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "traditional-kitchen"
+   ],
+   "vars": {},
+   "prompt": "Which is an advantage of a traditional kitchen?",
+   "pool": {
+    "right": [
+     {
+      "text": "It is cheap to build with local materials.",
+      "truth": "true"
+     },
+     {
+      "text": "The smoke rack preserves food.",
+      "truth": "true"
+     },
+     {
+      "text": "Firewood costs little.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is free of smoke.",
+      "truth": "false",
+      "explain": "Traditional kitchens are usually smoky."
+     },
+     {
+      "text": "It is easy to keep clean.",
+      "truth": "false",
+      "explain": "Soot and earth floors make it hard to clean."
+     },
+     {
+      "text": "It has no fire risk.",
+      "truth": "false",
+      "explain": "Open fires and thatch roofs are a fire risk."
+     },
+     {
+      "text": "It needs electricity.",
+      "truth": "false",
+      "explain": "It uses wood, not electricity."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he11-dis",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "traditional-kitchen"
+   ],
+   "vars": {},
+   "prompt": "Which is a disadvantage of a traditional kitchen?",
+   "pool": {
+    "right": [
+     {
+      "text": "Smoke hurts the eyes and lungs.",
+      "truth": "true"
+     },
+     {
+      "text": "Soot blackens the walls and pots.",
+      "truth": "true"
+     },
+     {
+      "text": "It uses a lot of firewood.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is cheap to build.",
+      "truth": "false",
+      "explain": "That is an advantage."
+     },
+     {
+      "text": "The smoke rack preserves food.",
+      "truth": "false",
+      "explain": "That is an advantage."
+     },
+     {
+      "text": "It is warm in the cold season.",
+      "truth": "false",
+      "explain": "That is an advantage."
+     },
+     {
+      "text": "It can be built with local materials.",
+      "truth": "false",
+      "explain": "That is an advantage."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "traditional-kitchen"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Smoke from a wood fire can harm the lungs.",
+      "truth": "true"
+     },
+     {
+      "text": "A thatch roof can catch fire.",
+      "truth": "true"
+     },
+     {
+      "text": "A traditional kitchen is cheap to build.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning a lot of firewood leads to cutting down trees.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Soot is easy to wash off walls.",
+      "truth": "false",
+      "explain": "Soot is hard to clean."
+     },
+     {
+      "text": "A traditional kitchen never has smoke.",
+      "truth": "false",
+      "explain": "A wood fire makes smoke."
+     },
+     {
+      "text": "Children are safe near an open fire.",
+      "truth": "false",
+      "explain": "Children can be burnt by an open fire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

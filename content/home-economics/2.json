@@ -1,0 +1,433 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "he2",
+   "name": "Factors for good health"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Health is being well in body, mind and in our life with other people, not only being free from disease.\nFactors that keep us healthy:\n• a good diet: a balanced diet, regular meals and clean water;\n• exercise: walking, running, games and sport make the heart, lungs and muscles strong and keep weight right;\n• rest and sleep: the body repairs itself and grows;\n• recreation: games, music, hobbies and time with friends refresh the mind and reduce stress;\n• personal hygiene: washing the body, hands, teeth and clothes;\n• a clean environment: no rubbish or stagnant water near the house;\n• avoiding harmful habits: smoking, alcohol and drugs;\n• going to the health centre for vaccinations and when ill.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ashu eats well, but he sits in front of the television every evening and goes to bed very late. Which two health factors does he need to improve?",
+  "steps": [
+   "He does not move his body much: he needs more exercise.",
+   "He goes to bed very late: he needs more rest and sleep."
+  ],
+  "answer": "Exercise, and rest and sleep.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec2-1",
+    "status": "draft",
+    "idea": "Health is being well in body, mind and in our life with other people, not only being free from disease.",
+    "vars": {},
+    "example": [
+     "A pupil who is not sick but is always sad and alone is not fully healthy."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec2-1-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "health"
+     ],
+     "vars": {},
+     "prompt": "What does “health” mean?",
+     "pool": {
+      "right": [
+       {
+        "text": "being well in body, mind and life with others, not only free from disease",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "never going to the hospital",
+        "truth": "false",
+        "explain": "Health is more than that: it includes the mind and life with others."
+       },
+       {
+        "text": "being very strong",
+        "truth": "false",
+        "explain": "Strength is only one part of health."
+       },
+       {
+        "text": "eating a lot of food",
+        "truth": "false",
+        "explain": "Too much food can cause obesity."
+       },
+       {
+        "text": "being rich",
+        "truth": "false",
+        "explain": "Money does not make a person healthy."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   },
+   {
+    "id": "hec2-2",
+    "status": "draft",
+    "idea": "A good diet and regular exercise keep the body strong.",
+    "vars": {},
+    "example": [
+     "Walking to school and playing games are good exercise."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he2-factor"
+    }
+   },
+   {
+    "id": "hec2-3",
+    "status": "draft",
+    "idea": "Rest, sleep and recreation (games, music, hobbies) refresh the body and the mind.",
+    "vars": {},
+    "example": [
+     "After a day of lessons, a game of football with friends is recreation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he2-sort"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he2-factor",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "health"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Ngozi plays football after school.",
+       "a": "exercise",
+       "why": "Exercise: Ngozi plays football after school."
+      },
+      {
+       "t": "Ewane goes to bed early and sleeps well.",
+       "a": "rest and sleep",
+       "why": "Rest and sleep: Ewane goes to bed early and sleeps well."
+      },
+      {
+       "t": "The family eats rice, beans, vegetables and fruit.",
+       "a": "a good diet",
+       "why": "A good diet: The family eats rice, beans, vegetables and fruit."
+      },
+      {
+       "t": "Bih sings in the choir and plays draughts at the weekend.",
+       "a": "recreation",
+       "why": "Recreation: Bih sings in the choir and plays draughts at the weekend."
+      },
+      {
+       "t": "Tanyi washes his hands with soap before eating.",
+       "a": "personal hygiene",
+       "why": "Personal hygiene: Tanyi washes his hands with soap before eating."
+      },
+      {
+       "t": "The class clears the rubbish and stagnant water around the school.",
+       "a": "a clean environment",
+       "why": "A clean environment: The class clears the rubbish and stagnant water around the school."
+      }
+     ]
+    }
+   },
+   "prompt": "Which health factor is this?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "exercise",
+     "misconception": "other"
+    },
+    {
+     "text": "rest and sleep",
+     "misconception": "other"
+    },
+    {
+     "text": "a good diet",
+     "misconception": "other"
+    },
+    {
+     "text": "recreation",
+     "misconception": "other"
+    },
+    {
+     "text": "personal hygiene",
+     "misconception": "other"
+    },
+    {
+     "text": "a clean environment",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Not this one. Read the situation again."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he2-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "health"
+   ],
+   "prompt": "Sort these habits: good or bad for health?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "good for health",
+    "bad for health"
+   ],
+   "pool": [
+    {
+     "left": "sleeping enough every night",
+     "right": "good for health"
+    },
+    {
+     "left": "playing games with friends",
+     "right": "good for health"
+    },
+    {
+     "left": "washing hands before eating",
+     "right": "good for health"
+    },
+    {
+     "left": "drinking clean water",
+     "right": "good for health"
+    },
+    {
+     "left": "walking or running often",
+     "right": "good for health"
+    },
+    {
+     "left": "eating fruit and vegetables",
+     "right": "good for health"
+    },
+    {
+     "left": "smoking",
+     "right": "bad for health"
+    },
+    {
+     "left": "drinking alcohol",
+     "right": "bad for health"
+    },
+    {
+     "left": "eating sweets all day",
+     "right": "bad for health"
+    },
+    {
+     "left": "sleeping very late every night",
+     "right": "bad for health"
+    },
+    {
+     "left": "leaving rubbish near the house",
+     "right": "bad for health"
+    },
+    {
+     "left": "never doing any exercise",
+     "right": "bad for health"
+    }
+   ]
+  },
+  {
+   "id": "he2-exercise",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "health"
+   ],
+   "vars": {},
+   "prompt": "Which is a benefit of regular exercise?",
+   "pool": {
+    "right": [
+     {
+      "text": "It makes the heart, lungs and muscles strong.",
+      "truth": "true"
+     },
+     {
+      "text": "It helps keep a healthy weight.",
+      "truth": "true"
+     },
+     {
+      "text": "It helps you sleep well.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It means you never need to eat.",
+      "truth": "false",
+      "explain": "Exercise uses energy: you still need good food."
+     },
+     {
+      "text": "It cures all diseases.",
+      "truth": "false",
+      "explain": "Exercise helps health but does not cure every disease."
+     },
+     {
+      "text": "It is only useful for footballers.",
+      "truth": "false",
+      "explain": "Everyone benefits from exercise."
+     },
+     {
+      "text": "It makes you need no sleep.",
+      "truth": "false",
+      "explain": "You still need rest and sleep after exercise."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he2-recreation",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "health"
+   ],
+   "vars": {},
+   "prompt": "Which is recreation?",
+   "pool": {
+    "right": [
+     {
+      "text": "playing draughts with friends",
+      "truth": "true"
+     },
+     {
+      "text": "singing in a choir",
+      "truth": "true"
+     },
+     {
+      "text": "dancing at a school party",
+      "truth": "true"
+     },
+     {
+      "text": "reading a story book for fun",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "sleeping at night",
+      "truth": "false",
+      "explain": "That is rest and sleep."
+     },
+     {
+      "text": "washing your clothes",
+      "truth": "false",
+      "explain": "That is personal hygiene."
+     },
+     {
+      "text": "eating lunch",
+      "truth": "false",
+      "explain": "That is diet."
+     },
+     {
+      "text": "taking medicine",
+      "truth": "false",
+      "explain": "That is treatment when ill."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "health"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Sleep helps the body to repair itself.",
+      "truth": "true"
+     },
+     {
+      "text": "Recreation helps to reduce stress.",
+      "truth": "true"
+     },
+     {
+      "text": "Personal hygiene helps to prevent disease.",
+      "truth": "true"
+     },
+     {
+      "text": "Stagnant water near the house can breed mosquitoes.",
+      "truth": "true"
+     },
+     {
+      "text": "Exercise makes the heart stronger.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A person who is not sick is always healthy.",
+      "truth": "false",
+      "explain": "Health also includes the mind and life with other people."
+     },
+     {
+      "text": "Smoking is good for the lungs.",
+      "truth": "false",
+      "explain": "Smoking damages the lungs."
+     },
+     {
+      "text": "Exercise is only for adults.",
+      "truth": "false",
+      "explain": "Children need exercise too."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "subject": "home-economics",
+ "class": "Form 1",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "he21",
+   "name": "Care of a modern kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Caring for a modern kitchen keeps it clean, safe and working well:\n• wipe worktops, tables and the cooker after use;\n• clean spills on the cooker when it is cool;\n• wash and dry dishes; keep the sink and drain clean, and never pour fat or oil down the sink;\n• empty and wash the dustbin often;\n• sweep and mop the floor;\n• defrost and clean the fridge regularly, and throw away old food;\n• keep food covered and stored in the right place;\n• switch off appliances after use; check gas taps and pipes for leaks;\n• clean cupboards and wall units from time to time.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "After frying plantains, Tabot pours the hot oil down the sink. Why is this a bad idea, and what should Tabot do?",
+  "steps": [
+   "Oil cools and becomes thick in the pipe, so the drain gets blocked.",
+   "Let the oil cool, keep it to use again or pour it into a container and throw it away with the rubbish."
+  ],
+  "answer": "It blocks the drain; let it cool and put it in a container instead.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "hec21-1",
+    "status": "draft",
+    "idea": "Wipe worktops and the cooker after use, sweep and mop the floor, and empty the dustbin often.",
+    "vars": {},
+    "example": [
+     "Crumbs and a full bin attract flies, cockroaches and rats."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he21-sort"
+    }
+   },
+   {
+    "id": "hec21-2",
+    "status": "draft",
+    "idea": "Look after equipment: clean the cooker when cool, defrost the fridge, keep fat out of the sink.",
+    "vars": {},
+    "example": [
+     "Fat poured down the sink sets hard and blocks the drain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "he21-why"
+    }
+   },
+   {
+    "id": "hec21-3",
+    "status": "draft",
+    "idea": "Stay safe: switch off appliances after use and check gas taps and pipes for leaks.",
+    "vars": {},
+    "example": [
+     "If you smell gas, open the windows and do not light a match or switch anything on."
+    ],
+    "checks": [],
+    "check": {
+     "id": "hec21-3-check",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchen-care"
+     ],
+     "vars": {},
+     "prompt": "You smell gas in the kitchen. What should you do first?",
+     "pool": {
+      "right": [
+       {
+        "text": "Open the windows and do not light anything; tell an adult.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Light a match to find the leak.",
+        "truth": "false",
+        "explain": "A flame can make the gas explode."
+       },
+       {
+        "text": "Switch on the light to see better.",
+        "truth": "false",
+        "explain": "A spark from a switch can light the gas."
+       },
+       {
+        "text": "Close the windows and wait.",
+        "truth": "false",
+        "explain": "Fresh air is needed to clear the gas."
+       },
+       {
+        "text": "Start cooking quickly.",
+        "truth": "false",
+        "explain": "Lighting the cooker can make the gas explode."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "he21-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-care"
+   ],
+   "prompt": "Sort these: good care or bad practice in a modern kitchen?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "good care",
+    "bad practice"
+   ],
+   "pool": [
+    {
+     "left": "wiping the worktop after use",
+     "right": "good care"
+    },
+    {
+     "left": "emptying the dustbin every day",
+     "right": "good care"
+    },
+    {
+     "left": "switching off the cooker after use",
+     "right": "good care"
+    },
+    {
+     "left": "covering food",
+     "right": "good care"
+    },
+    {
+     "left": "cleaning the fridge regularly",
+     "right": "good care"
+    },
+    {
+     "left": "pouring oil down the sink",
+     "right": "bad practice"
+    },
+    {
+     "left": "leaving dirty dishes overnight",
+     "right": "bad practice"
+    },
+    {
+     "left": "leaving the gas tap on",
+     "right": "bad practice"
+    },
+    {
+     "left": "keeping old food in the fridge",
+     "right": "bad practice"
+    },
+    {
+     "left": "cleaning the hot cooker with a wet cloth",
+     "right": "bad practice"
+    }
+   ]
+  },
+  {
+   "id": "he21-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchen-care"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "wipe the worktops after use",
+       "a": "to remove germs and food that attract insects",
+       "why": "We wipe the worktops after use to remove germs and food that attract insects."
+      },
+      {
+       "t": "clean spills on the cooker when it is cool",
+       "a": "so they do not burn on and to avoid burns",
+       "why": "We clean spills on the cooker when it is cool so they do not burn on and to avoid burns."
+      },
+      {
+       "t": "empty the dustbin every day",
+       "a": "to stop bad smells, flies and rats",
+       "why": "We empty the dustbin every day to stop bad smells, flies and rats."
+      },
+      {
+       "t": "defrost and clean the fridge regularly",
+       "a": "so it works well and food stays safe",
+       "why": "We defrost and clean the fridge regularly so it works well and food stays safe."
+      },
+      {
+       "t": "never pour fat or oil down the sink",
+       "a": "because it blocks the drain when it cools",
+       "why": "We never pour fat or oil down the sink because it blocks the drain when it cools."
+      },
+      {
+       "t": "switch off appliances after use",
+       "a": "to save electricity and prevent fires",
+       "why": "We switch off appliances after use to save electricity and prevent fires."
+      }
+     ]
+    }
+   },
+   "prompt": "Why do we {x.t}?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "to remove germs and food that attract insects",
+     "misconception": "other"
+    },
+    {
+     "text": "so they do not burn on and to avoid burns",
+     "misconception": "other"
+    },
+    {
+     "text": "to stop bad smells, flies and rats",
+     "misconception": "other"
+    },
+    {
+     "text": "so it works well and food stays safe",
+     "misconception": "other"
+    },
+    {
+     "text": "because it blocks the drain when it cools",
+     "misconception": "other"
+    },
+    {
+     "text": "to save electricity and prevent fires",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is the reason for a different task."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Answer: {answer}."
+   ]
+  },
+  {
+   "id": "he21-fridge",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchen-care"
+   ],
+   "vars": {},
+   "prompt": "Why should old food be thrown out of the fridge?",
+   "pool": {
+    "right": [
+     {
+      "text": "Old food can go bad and make people ill.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "To make the fridge colder.",
+      "truth": "false",
+      "explain": "The reason is food safety."
+     },
+     {
+      "text": "Because the fridge only works when empty.",
+      "truth": "false",
+      "explain": "A fridge works with food in it; old food can make people ill."
+     },
+     {
+      "text": "To save electricity only.",
+      "truth": "false",
+      "explain": "The main reason is that old food can make people ill."
+     },
+     {
+      "text": "Because fridges cannot hold cooked food.",
+      "truth": "false",
+      "explain": "Cooked food can be kept for a short time."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "he21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchen-care"
+   ],
+   "vars": {},
+   "prompt": "One sentence is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Spills on the cooker should be cleaned when it is cool.",
+      "truth": "true"
+     },
+     {
+      "text": "The dustbin should be emptied often.",
+      "truth": "true"
+     },
+     {
+      "text": "Appliances should be switched off after use.",
+      "truth": "true"
+     },
+     {
+      "text": "Food in the kitchen should be covered.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Pouring oil down the sink keeps the drain clean.",
+      "truth": "false",
+      "explain": "Oil sets hard and blocks the drain."
+     },
+     {
+      "text": "A gas smell can be checked with a lit match.",
+      "truth": "false",
+      "explain": "A flame can make the gas explode."
+     },
+     {
+      "text": "The fridge never needs cleaning.",
+      "truth": "false",
+      "explain": "The fridge should be defrosted and cleaned regularly."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
