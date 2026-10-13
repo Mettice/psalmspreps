@@ -154,3 +154,17 @@ test("check() recognises a misconception and explains it", () => {
   assert.deepEqual(check(q, "0021"), { correct: false, misconception: { id: "reversed", explain: "Read from the bottom." } });
   assert.deepEqual(check(q, "999"), { correct: false, misconception: null });
 });
+
+test("working written by the engine is in French for templates with lang: fr", async () => {
+  const { instantiate } = await import("../src/engine/template.js");
+  const lib = await import("../src/engine/lib/maths.js");
+  const pool = { id: "x-fr", type: "mcq", level: 1, lang: "fr", vars: {}, prompt: "Laquelle est vraie ?", pick: { right: 1, wrong: 1 },
+    pool: { right: [{ text: "Le chat est un animal.", truth: "true" }], wrong: [{ text: "Le chat est une plante.", truth: "false", explain: "C’est un animal." }] } };
+  const q = instantiate(pool, 1, lib);
+  assert.equal(q.solution[0], "La bonne réponse est « Le chat est un animal. ».");
+  assert.equal(q.solution[1], "« Le chat est une plante. » est faux : C’est un animal.");
+  const ord = instantiate({ id: "y-fr", type: "ordering", level: 1, lang: "fr", order: "as_written", prompt: "Range.", items: [{ text: "a" }, { text: "b" }, { text: "c" }] }, 1, lib);
+  assert.equal(ord.solution[0], "Le bon ordre est : a → b → c.");
+  const en = instantiate({ ...pool, lang: undefined, id: "z-en" }, 1, lib);
+  assert.match(en.solution[0], /^The true statement is/);
+});

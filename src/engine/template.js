@@ -123,21 +123,37 @@ function fromPool(tpl, scope, rng, lib, wantTrue) {
  * Numeric and computed-mcq templates write it in `solution` (templates, may use {answer});
  * statement, spot-the-error and ordering questions build it from their own data.
  */
+// The working the engine writes itself, in English or in French (a template with lang: "fr"; French lessons are
+// written entirely in French, French quotation marks and a space before : as in French typography).
+const WORKING = {
+  en: {
+    quote: (t) => `“${t}”`,
+    trueIs: (a) => `The true statement is ${a}.`, isFalse: (t, e) => `${t} is false: ${e}`,
+    wrongIs: (pool, a) => `The wrong ${pool ? "statement" : "line"} is ${a}.`, order: (a) => `The correct order is: ${a}.`,
+    missing: (several, a) => `The missing word${several ? "s are" : " is"} ${a}.`, sentence: (a) => `The sentence is: ${a}`, pairs: "The right pairs are:",
+  },
+  fr: {
+    quote: (t) => `« ${t} »`,
+    trueIs: (a) => `La bonne réponse est ${a}.`, isFalse: (t, e) => `${t} est faux : ${e}`,
+    wrongIs: (pool, a) => `La phrase fausse est ${a}.`, order: (a) => `Le bon ordre est : ${a}.`,
+    missing: (several, a) => (several ? `Les mots qui manquent sont ${a}.` : `Le mot qui manque est ${a}.`), sentence: (a) => `La phrase est : ${a}`, pairs: "Les bonnes paires sont :",
+  },
+};
 function solutionOf(tpl, scope, q, R) {
-  const quote = (t) => `“${t}”`;
+  const W = WORKING[tpl.lang || "en"], quote = W.quote;
   if (tpl.solution) return tpl.solution.flatMap((t) => R(t, { ...scope, answer: q.answer }).split("\n"));
   if (q.type === "mcq" && tpl.pool) {
-    return [`The true statement is ${quote(q.answer)}.`,
-      ...q.options.filter((o, i) => i !== q.correctIndex && o.explain).map((o) => `${quote(o.text)} is false: ${o.explain}`)];
+    return [W.trueIs(quote(q.answer)),
+      ...q.options.filter((o, i) => i !== q.correctIndex && o.explain).map((o) => W.isFalse(quote(o.text), o.explain))];
   }
   if (q.type === "spot_error") {
     const wrong = q.options[q.correctIndex];
-    return [`The wrong ${tpl.pool ? "statement" : "line"} is ${quote(wrong.text)}.`, ...(wrong.explain ? [wrong.explain] : [])];
+    return [W.wrongIs(tpl.pool, quote(wrong.text)), ...(wrong.explain ? [wrong.explain] : [])];
   }
-  if (q.type === "ordering") return [`The correct order is: ${q.answer}.`];
-  if (q.type === "cloze") return [`The missing word${/\s/.test(q.answer) ? "s are" : " is"} ${quote(q.answer)}.`, q.full];
-  if (q.type === "word_order") return [`The sentence is: ${q.answer}`];
-  if (q.type === "matching") return ["The right pairs are:", ...q.left.map((l, i) => `${l} → ${q.right[q.correctMatch[i]]}`)];
+  if (q.type === "ordering") return [W.order(q.answer)];
+  if (q.type === "cloze") return [W.missing(/\s/.test(q.answer), quote(q.answer)), q.full];
+  if (q.type === "word_order") return [W.sentence(q.answer)];
+  if (q.type === "matching") return [W.pairs, ...q.left.map((l, i) => `${l} → ${q.right[q.correctMatch[i]]}`)];
   return undefined;  // numeric / computed mcq without a written solution (tests require one in Form 1 lessons)
 }
 

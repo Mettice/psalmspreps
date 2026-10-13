@@ -25,7 +25,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-125 P1 items: 123 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+134 P1 items: 132 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -152,6 +152,15 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-S06 | Computing environment; data vs information | open |
 | TR-S07 | Computer laboratory: equipment, layouts, rules | open |
 | TR-S08 | Computer Science statement pools, notes (15) and cards (45) | open |
+| TR-F01 | French nouns, genders, articles, élision | open |
+| TR-F02 | French conjugation (avoir, s’appeler, -er verbs) | open |
+| TR-F03 | French numbers 1–50 in words | open |
+| TR-F04 | French alphabet, accents, alphabetical order | open |
+| TR-F05 | French possessives | open |
+| TR-F06 | French pronouns; the simple sentence | open |
+| TR-F07 | French reading texts (original) | open |
+| TR-F08 | French vocabulary: family, presentations, school | open |
+| TR-F09 | French statement pools, notes (15) and cards (45) | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -523,3 +532,34 @@ repeating shape patterns and three computer-laboratory layouts. Everything is dr
 
 ### Added 2026-10-07 (History, Biology and Computer Science released in the app)
 - [ ] **TR-S12 [P2] History, Biology and Computer Science released in the app on 2026-10-07 at Dion's request ("release history, biology and computer science and push it"),** before the TR-Y, TR-L and TR-S items above were checked by a teacher; the lessons show the usual "drafts" line. Nine tabs now, two per row at 360 px; an odd last tab takes the whole row, so "Computer Science" stays on one line. The build limit is raised from 900 KB to 1.3 MB (the page is about 1157 KB; the 2 MB Phase 3 budget stands). History and Biology are numbered by place in the year in the build, as Geography is. No title of an earlier subject changed. Supersedes TR-S11. *Location:* `SUBJECTS`, `BATCH`, `BY_SEQ`, `MAX_BYTES`, `.subjects` CSS in `tools/prototype/build.mjs`.
+
+## F. French Form 1, Batch F1 (Lessons 1–15, first half of Term 1), added 2026-10-08
+
+French was kept for last (Dion’s decision). This batch covers Lessons 1–15, up to the first integration activity on the
+sheet (row 16); Lessons 16–30 complete Term 1 in a later batch. All 15 lessons are taught with auto-marked practice:
+15 notes, 45 teach cards, 62 practice templates and 14 card-check templates. 55 have an **authored key**; 21 are
+**computed by rule** (articles, possessives, conjugation, numbers in words, alphabetical order, the next letter).
+**Everything the pupil reads in these lessons is in French**: notes, cards, questions, feedback, and the working the
+engine writes itself (templates carry `lang: "fr"`). Everything is draft and **not yet in the app**. Every authored key is
+in `content/french/AUTHORED.md`; every question as the pupil sees it is in `content/french/REVIEW.md`.
+Reviewer: a French teacher (bilingual-system French), not the English reviewer.
+
+### P1: wrong French here would mislead the pupil
+- [ ] **TR-F01 [P1] Nouns, genders and articles:** the 22 nouns with their gender and plural (tableau → tableaux, oiseau → oiseaux, hibou → hiboux); le/la/l’/les and un/une/des; élision before a vowel or silent h (l’homme) and none before h aspiré (le haricot, le hibou). *Location:* `NOUNS`, `frDef()`, `frIndef()` in `src/engine/lib/french.js`; `content/french/4.json`.
+- [ ] **TR-F02 [P1] Conjugation:** avoir, s’appeler (double l: je m’appelle, ils s’appellent; one l: nous nous appelons) and the -er verbs travailler and laver in the present; je → j’ before a vowel. *Location:* `frForm()`, `frConj()` in `french.js`; `content/french/5.json`, `8.json`.
+- [ ] **TR-F03 [P1] Numbers 1–50 in words:** traditional spelling taught (vingt et un, vingt-deux); the 1990 spelling (vingt-et-un) is accepted when typed and never offered as a wrong choice. Please say which the school uses. *Location:* `frNumber()`, `frNumber1990()` in `french.js`; `content/french/9.json`.
+- [ ] **TR-F04 [P1] Alphabet:** vowels a, e, i, o, u, y; the names of the accents (aigu, grave, circonflexe, tréma, cédille); alphabetical order ignoring accents. *Location:* `content/french/1.json`.
+- [ ] **TR-F05 [P1] Possessives:** mon/ma/mes … leur/leurs; mon/ton/son before a feminine noun starting with a vowel (mon école). *Location:* `frPoss()` in `french.js`; `content/french/15.json`.
+- [ ] **TR-F06 [P1] Pronouns and the simple sentence:** subject pronouns, persons, mixed groups take ils; subject, verb and complement in the seven sentences. *Location:* `content/french/7.json`, `13.json`.
+- [ ] **TR-F07 [P1] Reading texts:** the three texts (the family, Saturday activities and investissement humain, the school) are original, written for the app; please check the French and that they suit Form One. *Location:* `content/french/2.json`, `10.json`, `11.json`.
+- [ ] **TR-F08 [P1] Vocabulary:** family members and relations; presentations; school places and staff (proviseur, censeur: organises lessons and studies; surveillant général: discipline; intendant: money and equipment). *Location:* `content/french/3.json`, `12.json`.
+- [ ] **TR-F09 [P1] Statement pools, notes and cards:** every right and wrong sentence with its explanation, 15 notes and 45 cards. *Location:* `content/french/AUTHORED.md`, `REVIEW.md`.
+
+### P2: conventions and decisions
+- [ ] **TR-F10 [P2] Accents in typed answers:** only two questions ask the pupil to type (a number in words, and copying a word); typed answers must have the right accents (case and spaces are ignored). Everything else is tap-to-choose, because typing accents on a phone is slow. The copying lesson tells the pupil to press and hold a letter to find its accents. *Location:* `f9-type`, `f14-type`.
+- [ ] **TR-F11 [P2] Speaking work:** Lesson 6 (se présenter) teaches the phrases and their order on screen; saying them aloud is practised with a grown-up (no audio in the app). Letter names (Lesson 1) also need audio and are not taught. *Location:* `content/french/1.json`, `6.json`.
+- [ ] **TR-F12 [P2] The app’s own buttons and headings are in English** (Check, I don’t know, Quick check …). When French joins the app, these will be shown in French inside French lessons. *Location:* `tools/prototype/app.js`.
+- [ ] **TR-F13 [P2] Not in the app yet:** French joins as a tenth tab after this review. The page is about 1157 KB of the 1.3 MB build limit; French F1 adds about 80 KB. *Location:* `SUBJECTS`, `BATCH`, `MAX_BYTES` in `tools/prototype/build.mjs`.
+
+### Added 2026-10-13 (French released in the app)
+- [ ] **TR-F14 [P2] French F1 released in the app on 2026-10-13 at Dion’s request (“release french and push it”),** before the TR-F items above were checked by a French teacher; the lessons show the usual "drafts" line. Ten tabs now, two per row at 360 px. **Inside a French lesson every label the pupil sees is in French** (Vérifier, Je ne sais pas, Petite vérification, Leçon 4 · Idée 1 sur 3, Bravo !, Voici comment faire …) and the page language is set to French for screen readers; the menu and the grown-up results text stay in English. A walkthrough of all 154 lessons found no English label in a French lesson and no French label elsewhere. The page is about 1263 KB of the 1.3 MB build limit, so the next batch (French 16–30) needs the move to loading one subject at a time, or a higher limit within the 2 MB budget. Supersedes TR-F12 and TR-F13. *Location:* `FR`, `T()` in `tools/prototype/app.js`; `SUBJECTS`, `BATCH` in `tools/prototype/build.mjs`.

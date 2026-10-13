@@ -71,15 +71,39 @@ const checkIcon = () => {
   return svg;
 };
 
+// ---------------------------------------------------------------- French lessons are in French (TR-F12)
+// Inside a French lesson the pupil's buttons and headings are in French; the menu and the grown-up text stay English.
+const FR = {
+  "Check": "Vérifier", "Your answer": "Ta réponse", "blank": "espace vide", "Tap the words below.": "Touche les mots ci-dessous.",
+  "Tap a word to add it. Tap a word in your sentence to take it out.": "Touche un mot pour l’ajouter. Touche un mot de ta phrase pour l’enlever.",
+  "Tap an item on the left, then its partner on the right. Tap a pair to undo it.": "Touche un élément à gauche, puis son partenaire à droite. Touche une paire pour l’annuler.",
+  "Tap a word, then tap its group. Tap a word in a group to take it out.": "Touche un mot, puis touche son groupe. Touche un mot dans un groupe pour l’enlever.",
+  "Tap the one that is wrong.": "Touche celle qui est fausse.", "Tap them in order.": "Touche-les dans l’ordre.", "Start again": "Recommencer",
+  "I don't know": "Je ne sais pas", "Back to the lessons": "Retour aux leçons", "Worked example": "Exemple expliqué", "Answer: {a}": "Réponse : {a}",
+  "Example": "Exemple", "Hint: ": "Indice : ", "Lesson {n} · Idea {a} of {b}": "Leçon {n} · Idée {a} sur {b}", "Lesson {n} · Practice {a} of {b}": "Leçon {n} · Exercice {a} sur {b}",
+  "I'm ready for a question": "Je passe à la question", "A new question": "Une nouvelle question", "Quick check": "Petite vérification", "Level {a}": "Niveau {a}",
+  "Correct!": "Bravo !", "Next": "Suivant", "Lesson {n} · Worked example": "Leçon {n} · Exemple expliqué", "Follow each step": "Suis chaque étape",
+  "Now write": "Maintenant, écris", "Now practise": "À toi de t’exercer", "Lesson {n} · Summary": "Leçon {n} · Résumé", "Finish": "Terminer",
+  "These are not right yet: {a}.": "Ce n’est pas encore juste pour : {a}.", "This one is not right yet: {a}.": "Ce n’est pas encore juste pour : {a}.",
+  "That's fine. Let's look at it together.": "Ce n’est pas grave. Regardons ensemble.", "✗ Not quite": "✗ Pas tout à fait",
+  "Look at the example again, then try a new question.": "Regarde encore l’exemple, puis essaie une nouvelle question.", "Let's try again": "Essayons encore",
+  "Try a new question": "Essayer une nouvelle question", "Here are the right answers.": "Voici les bonnes réponses.", "The answer is: {a}": "La réponse est : {a}",
+  "Here is how to do it": "Voici comment faire", "Full working": "La solution complète", "We will come back to this one later.": "Nous reviendrons sur cette question plus tard.",
+  "Continue": "Continuer", "Lesson {n} done": "Leçon {n} terminée", "You completed {a} questions.": "Tu as répondu à {a} questions.",
+  "Next: Lesson {a}": "Suivant : Leçon {a}", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
+};
+/** A label for the pupil: in French inside a French lesson, otherwise English. {x} are filled from v. */
+const T = (text, v = {}) => ((S === "french" && FR[text]) || text).replace(/\{(\w)\}/g, (_, k) => v[k]);
+
 // ---------------------------------------------------------------- one question, any type
 /** A typed answer box (numbers or words): Enter or "Check" submits; the engine picks the keyboard. */
 function answerBox(q, finish, inline = false) {
   const input = el("input", { type: "text", inputmode: inputModeFor(q), autocomplete: "off", autocorrect: "off", autocapitalize: "off",
-    spellcheck: "false", "aria-label": "Your answer", class: inline ? "blank-input" : "" });
+    spellcheck: "false", "aria-label": T("Your answer"), class: inline ? "blank-input" : "" });
   const go = () => { const v = normaliseInput(input.value, q); if (v) finish(v); };
   input.addEventListener("keydown", (e) => e.key === "Enter" && go());
   setTimeout(() => input.focus(), 50);
-  return { input, check: button("Check", go, "primary") };
+  return { input, check: button(T("Check"), go, "primary") };
 }
 
 /** Cloze: the sentence with its blank inline. Typed: a box in the gap. Choose: a dotted gap, options below. */
@@ -93,23 +117,23 @@ function wordOrder(q, finish) {
   const placed = [];
   const line = el("div", { class: "built", "aria-live": "polite" });
   const pool = el("div", { class: "tiles" });
-  const done = button("Check", () => placed.length === q.items.length && finish([...placed]), "primary");
+  const done = button(T("Check"), () => placed.length === q.items.length && finish([...placed]), "primary");
   const redraw = () => {
     line.replaceChildren(...(placed.length
       ? [...placed.map((i, k) => button(q.items[i], () => { placed.splice(k, 1); redraw(); }, "tile placed")), ...(q.end ? [el("span", { class: "end" }, q.end)] : [])]
-      : [el("span", { class: "muted" }, "Tap the words below.")]));
+      : [el("span", { class: "muted" }, T("Tap the words below."))]));
     fill(pool, q.items.map((t, i) => (placed.includes(i) ? null : button(t, () => { placed.push(i); redraw(); }, "tile"))));
     done.disabled = placed.length !== q.items.length;
   };
   redraw();
-  return [para("Tap a word to add it. Tap a word in your sentence to take it out.", "muted"), line, pool, done];
+  return [para(T("Tap a word to add it. Tap a word in your sentence to take it out."), "muted"), line, pool, done];
 }
 
 /** Matching: tap a left item, then a right item, to pair them; tap a pair to undo it. */
 function matching(q, finish) {
   const pairOf = q.left.map(() => null);  // left index → right index
   let picked = null;
-  const done = button("Check", () => pairOf.every((r) => r !== null) && finish([...pairOf]), "primary");
+  const done = button(T("Check"), () => pairOf.every((r) => r !== null) && finish([...pairOf]), "primary");
   const wrap = el("div", {});
   const redraw = () => {
     const rightUsed = new Map(pairOf.map((r, l) => [r, l]).filter(([r]) => r !== null));
@@ -133,14 +157,14 @@ function matching(q, finish) {
     done.disabled = pairOf.some((r) => r === null);
   };
   redraw();
-  return [para("Tap an item on the left, then its partner on the right. Tap a pair to undo it.", "muted"), wrap, done];
+  return [para(T("Tap an item on the left, then its partner on the right. Tap a pair to undo it."), "muted"), wrap, done];
 }
 
 /** Sorting (matching with groups): tap a word, then tap its group; tap a word inside a group to take it out. */
 function sorting(q, finish) {
   const groupOf = q.left.map(() => null);
   let picked = null;
-  const done = button("Check", () => groupOf.every((g) => g !== null) && finish([...groupOf]), "primary");
+  const done = button(T("Check"), () => groupOf.every((g) => g !== null) && finish([...groupOf]), "primary");
   const wrap = el("div", {});
   const redraw = () => {
     const loose = q.left.map((t, i) => (groupOf[i] === null ? button(t, () => { picked = picked === i ? null : i; redraw(); }, `tile${picked === i ? " picked" : ""}`) : null));
@@ -153,7 +177,7 @@ function sorting(q, finish) {
     done.disabled = groupOf.some((g) => g === null);
   };
   redraw();
-  return [para("Tap a word, then tap its group. Tap a word in a group to take it out.", "muted"), wrap, done];
+  return [para(T("Tap a word, then tap its group. Tap a word in a group to take it out."), "muted"), wrap, done];
 }
 
 /** Shows q; calls onAnswer({result, ms}) when the pupil answers or presses "I don't know". */
@@ -170,7 +194,7 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   } else if (q.type === "cloze") {
     body.push(clozeSentence(q), el("div", { class: "options" }, q.options.map((o, i) => button(o.text, () => finish(i), "option"))));
   } else if (q.type === "mcq" || q.type === "spot_error") {
-    if (q.type === "spot_error") body.push(para("Tap the one that is wrong.", "muted"));
+    if (q.type === "spot_error") body.push(para(T("Tap the one that is wrong."), "muted"));
     body.push(el("div", { class: "options" }, q.options.map((o, i) => button(o.text, () => finish(i), "option"))));
   } else if (q.type === "ordering") {
     const chosen = [];
@@ -181,14 +205,14 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
       fill(pool, q.items.map((t, i) => (chosen.includes(i) ? null : button(t, () => { chosen.push(i); redraw(); }, "option"))));
       if (chosen.length === q.items.length) finish([...chosen]);
     };
-    body.push(para("Tap them in order.", "muted"), list, pool, button("Start again", () => { chosen.length = 0; redraw(); }, "link"));
+    body.push(para(T("Tap them in order."), "muted"), list, pool, button(T("Start again"), () => { chosen.length = 0; redraw(); }, "link"));
     redraw();
   } else if (q.type === "word_order") {
     body.push(...wordOrder(q, finish));
   } else if (q.type === "matching") {
     body.push(...(q.groups ? sorting(q, finish) : matching(q, finish)));
   }
-  body.push(button("I don't know", () => finish(DONT_KNOW), "idk"), back);
+  body.push(button(T("I don't know"), () => finish(DONT_KNOW), "idk"), back);
   screen(...body);
 }
 
@@ -196,7 +220,7 @@ const recordOf = (q, r, ms, phase) => ({
   phase, id: q.id, level: q.level, result: r.correct ? "right" : r.dontKnow ? "idk" : "wrong",
   seconds: Math.round(ms / 100) / 10, misconception: r.misconception?.id || "",
 });
-const toMenu = () => button("Back to the lessons", menu, "link");
+const toMenu = () => button(T("Back to the lessons"), menu, "link");
 
 // ---------------------------------------------------------------- 1. first visit: readiness check (Primary 6 maths)
 function start() {
@@ -238,6 +262,7 @@ const nextLesson = (s) => LESSONS[s].find((n) => !state.lessons[lessonKey(s, n)]
 const inProgress = (s) => { const c = state.current[s]; return c && !teach.isDone(c.flow) ? c : null; };
 
 function menu() {
+  document.documentElement.lang = "en";
   const s = subj(), cur = inProgress(s), next = nextLesson(s);
   const done = LESSONS[s].filter((n) => state.lessons[lessonKey(s, n)]?.done).length;
   const tabs = el("div", { class: "subjects", role: "tablist" }, Object.entries(SUBJECTS).map(([id, name]) =>
@@ -291,6 +316,7 @@ const LIB = () => libs[S];
 /** Opens lesson n: carries on a saved, unfinished flow, otherwise starts it fresh. */
 function openLesson(s, n) {
   S = s;
+  document.documentElement.lang = s === "french" ? "fr" : "en";  // screen readers read French lessons in French
   const cur = state.current[s];
   if (cur?.lesson === n && !teach.isDone(cur.flow)) return lesson(resumable(cur.flow));
   state.current[s] = { lesson: n, flow: teach.startTeach(CONTENT[s][n], newSeed()), rows: [] };
@@ -302,11 +328,11 @@ const resumable = (flow) => (flow.phase === "retry" || flow.phase === "reveal" ?
 
 const workedBlock = () => {
   const w = renderWorked(L().worked_example, LIB());
-  return el("div", { class: "example" }, el("div", { class: "kicker" }, "Worked example"), el("div", { class: "strong pre" }, w.problem),
-    figureBox(w.figure), el("ol", {}, w.steps.map((s) => el("li", {}, s))), para(`Answer: ${w.answer}`, "strong"));
+  return el("div", { class: "example" }, el("div", { class: "kicker" }, T("Worked example")), el("div", { class: "strong pre" }, w.problem),
+    figureBox(w.figure), el("ol", {}, w.steps.map((s) => el("li", {}, s))), para(T("Answer: {a}", { a: w.answer }), "strong"));
 };
-const cardExample = (c) => el("div", { class: "example" }, el("div", { class: "kicker" }, "Example"), ...c.example.map((t) => para(t)), figureBox(c.figure));
-const hintBlock = (q) => (q.hint ? el("div", { class: "hint" }, el("strong", {}, "Hint: "), q.hint) : null);
+const cardExample = (c) => el("div", { class: "example" }, el("div", { class: "kicker" }, T("Example")), ...c.example.map((t) => para(t)), figureBox(c.figure));
+const hintBlock = (q) => (q.hint ? el("div", { class: "hint" }, el("strong", {}, T("Hint: ")), q.hint) : null);
 
 /** Every screen of a lesson goes through here, so the flow is saved at each step. */
 function lesson(flow, previous = null) {
@@ -318,19 +344,19 @@ function lesson(flow, previous = null) {
   const nCards = Ln.teach.cards.length;
   const nPractice = flow.steps.filter((s) => s.kind === "practice").length;
   const practiceNo = flow.steps.slice(0, flow.step + 1).filter((s) => s.kind === "practice").length;
-  const kicker = step.kind === "card" ? `Lesson ${n} · Idea ${step.card + 1} of ${nCards}` : `Lesson ${n} · Practice ${practiceNo} of ${nPractice}`;
+  const kicker = step.kind === "card" ? T("Lesson {n} · Idea {a} of {b}", { n, a: step.card + 1, b: nCards }) : T("Lesson {n} · Practice {a} of {b}", { n, a: practiceNo, b: nPractice });
   const go = (next, prev = null) => () => lesson(next, prev);
   const bar = progress(flow.step + 1, flow.steps.length);
 
   if (step.kind === "card" && flow.phase === "idea") {
     const c = teach.renderCard(Ln.teach.cards[step.card], LIB());
     return screen(bar, header(kicker, TITLES[S][n]), el("div", { class: "idea" }, c.idea), cardExample(c),
-      button("I'm ready for a question", go(teach.nextPhase(flow)), "primary"), toMenu());
+      button(T("I'm ready for a question"), go(teach.nextPhase(flow)), "primary"), toMenu());
   }
   if (step.kind === "card" || step.kind === "practice") {
     const q = teach.itemQuestion(Ln, flow, LIB(), previous);
     return askQuestion(q, {
-      bar, kicker, back: toMenu(), title: flow.attempt ? "A new question" : step.kind === "card" ? "Quick check" : `Level ${q.level}`,
+      bar, kicker, back: toMenu(), title: flow.attempt ? T("A new question") : step.kind === "card" ? T("Quick check") : T("Level {a}", { a: q.level }),
       onAnswer: ({ result, ms }) => {
         C().rows.push({ ...recordOf(q, result, ms, step.kind), card: step.kind === "card" ? Ln.teach.cards[step.card].id : "", attempt: flow.attempt + 1 });
         const next = teach.answerItem(flow, result, ms);
@@ -339,18 +365,18 @@ function lesson(flow, previous = null) {
         if (next.phase === "reveal") return reveal(q, next, kicker, bar, result);
         if (next.phase === "retry") return retry(q, result, next, kicker, bar);
         // Teach mode only: green flash + check icon (readiness shows no right/wrong cues).
-        return screen(bar, el("div", { class: "fb good flash", role: "status" }, checkIcon(), el("strong", {}, "Correct!")), button("Next", go(next), "primary"));
+        return screen(bar, el("div", { class: "fb good flash", role: "status" }, checkIcon(), el("strong", {}, T("Correct!"))), button(T("Next"), go(next), "primary"));
       },
     });
   }
   if (step.kind === "worked_example") {
-    return screen(bar, header(`Lesson ${n} · Worked example`, "Follow each step"), workedBlock(),
-      button(Ln.paper_task ? "Now write" : "Now practise", go(teach.nextPhase(flow)), "primary"), toMenu());
+    return screen(bar, header(T("Lesson {n} · Worked example", { n }), T("Follow each step")), workedBlock(),
+      button(T(Ln.paper_task ? "Now write" : "Now practise"), go(teach.nextPhase(flow)), "primary"), toMenu());
   }
   if (step.kind === "paper") return paperTask(flow, bar);
   if (step.kind === "note") {
-    return screen(bar, header(`Lesson ${n} · Summary`, TITLES[S][n]), el("div", { class: "note" }, ...lines(Ln.note.text)),
-      button("Finish", go(teach.nextPhase(flow)), "primary"));
+    return screen(bar, header(T("Lesson {n} · Summary", { n }), TITLES[S][n]), el("div", { class: "note" }, ...lines(Ln.note.text)),
+      button(T("Finish"), go(teach.nextPhase(flow)), "primary"));
   }
 }
 
@@ -386,26 +412,26 @@ function paperTask(flow, bar) {
 function retry(q, result, flow, kicker, bar) {
   const step = flow.steps[flow.step];
   const wrongPairs = result.wrongPairs?.length
-    ? para(`${result.wrongPairs.length === 1 ? "This one is" : "These are"} not right yet: ${result.wrongPairs.map((i) => q.left[i]).join(", ")}.`) : null;
+    ? para(T(result.wrongPairs.length === 1 ? "This one is not right yet: {a}." : "These are not right yet: {a}.", { a: result.wrongPairs.map((i) => q.left[i]).join(", ") })) : null;
   const box = result.dontKnow
     // "I don't know": no misconception feedback, only the hint and the worked example (spec §4)
-    ? el("div", { class: "fb soft", role: "status" }, el("strong", {}, "That's fine. Let's look at it together."))
-    : el("div", { class: "fb bad shake", role: "status" }, el("strong", {}, "✗ Not quite"),
-      result.misconception?.explain ? para(result.misconception.explain) : wrongPairs || para("Look at the example again, then try a new question."));
+    ? el("div", { class: "fb soft", role: "status" }, el("strong", {}, T("That's fine. Let's look at it together.")))
+    : el("div", { class: "fb bad shake", role: "status" }, el("strong", {}, T("✗ Not quite")),
+      result.misconception?.explain ? para(result.misconception.explain) : wrongPairs || para(T("Look at the example again, then try a new question.")));
   const help = step.kind === "card"
     ? [result.dontKnow ? hintBlock(q) : null, cardExample(teach.renderCard(L().teach.cards[step.card], LIB()))]
     : result.dontKnow ? [hintBlock(q), workedBlock()] : [];
-  screen(bar, header(kicker, "Let's try again"), box, ...help, button("Try a new question", () => lesson(teach.nextPhase(flow), q), "primary"));
+  screen(bar, header(kicker, T("Let's try again")), box, ...help, button(T("Try a new question"), () => lesson(teach.nextPhase(flow), q), "primary"));
 }
 
 /** Second miss: the correct answer with full working, then move on (marked "needs review"). */
 function reveal(q, flow, kicker, bar, result) {
-  const shown = q.type === "matching" ? "Here are the right answers." : `The answer is: ${q.answer}${q.unit ? " " + q.unit : ""}`;
-  screen(bar, header(kicker, "Here is how to do it"),
+  const shown = q.type === "matching" ? T("Here are the right answers.") : T("The answer is: {a}", { a: `${q.answer}${q.unit ? " " + q.unit : ""}` });
+  screen(bar, header(kicker, T("Here is how to do it")),
     el("div", { class: result.dontKnow ? "fb soft" : "fb bad shake", role: "status" }, el("strong", {}, shown)),
-    el("div", { class: "example" }, el("div", { class: "kicker" }, "Full working"), el("ol", {}, q.solution.map((s) => el("li", {}, s)))),
-    para("We will come back to this one later.", "muted"),
-    button("Continue", () => lesson(teach.nextPhase(flow)), "primary"));
+    el("div", { class: "example" }, el("div", { class: "kicker" }, T("Full working")), el("ol", {}, q.solution.map((s) => el("li", {}, s)))),
+    para(T("We will come back to this one later."), "muted"),
+    button(T("Continue"), () => lesson(teach.nextPhase(flow)), "primary"));
 }
 
 // ---------------------------------------------------------------- 4. results + copy
@@ -483,10 +509,10 @@ function results(flow) {
   const status = para("", "muted");
   const completed = flow.steps.filter((x) => x.kind === "card" || x.kind === "practice").length;
   const next = nextLesson(s);
-  screen(confetti(), el("div", { class: "done" }, el("div", { class: "done-title" }, `Lesson ${n} done`),
-    para(Ln.paper_task ? `You completed ${completed} questions and a writing task.` : `You completed ${completed} questions.`, "done-sub")),
-    next ? button(`Next: Lesson ${next}`, () => openLesson(s, next), "primary") : para(`You have done every ${SUBJECTS[s]} lesson. Well done!`, "strong"),
-    button("Back to the lessons", menu, next ? "" : "primary"),
+  screen(confetti(), el("div", { class: "done" }, el("div", { class: "done-title" }, T("Lesson {n} done", { n })),
+    para(Ln.paper_task ? `You completed ${completed} questions and a writing task.` : T("You completed {a} questions.", { a: completed }), "done-sub")),
+    next ? button(T("Next: Lesson {a}", { a: next }), () => openLesson(s, next), "primary") : para(T("You have done every {a} lesson. Well done!", { a: SUBJECTS[s] }), "strong"),
+    button(T("Back to the lessons"), menu, next ? "" : "primary"),
     para("For a grown-up: these results stay on this phone until you copy them.", "muted"),
     button("Copy results", () => copyText(text, status, details, area), ""), status, details);
 }

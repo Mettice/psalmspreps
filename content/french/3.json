@@ -1,0 +1,336 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 3,
+ "language": "fr",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "f3",
+   "name": "Vocabulaire de la famille et des présentations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour se présenter :\n• Je m’appelle … (mon nom) ;\n• J’ai … ans (mon âge) ;\n• J’habite à … (ma ville ou mon village) ;\n• Je suis en Form One au lycée de …\nQuestions et réponses : « Comment t’appelles-tu ? » – « Je m’appelle Ngono. » ; « Quel âge as-tu ? » – « J’ai onze ans. » ; « Où habites-tu ? » – « J’habite à Buea. »\nLa famille : le père, la mère, le frère, la sœur, le fils, la fille, les parents ; le grand-père, la grand-mère, l’oncle, la tante, le cousin, la cousine.\nLes rôles : les parents protègent, nourrissent et éduquent les enfants ; les enfants respectent leurs parents, aident à la maison et travaillent bien à l’école.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Qui est la sœur de ta mère ? Et le fils de ton oncle ?",
+  "steps": [
+   "La sœur de ma mère est ma tante.",
+   "Le fils de mon oncle est mon cousin."
+  ],
+  "answer": "Ma tante ; mon cousin.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc3-1",
+    "status": "draft",
+    "idea": "Pour se présenter, on dit son nom, son âge et où on habite.",
+    "vars": {},
+    "example": [
+     "« Je m’appelle Paul. J’ai douze ans. J’habite à Kumba. »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f3-answer"
+    }
+   },
+   {
+    "id": "fc3-2",
+    "status": "draft",
+    "idea": "La famille : père, mère, frère, sœur ; grand-père, grand-mère, oncle, tante, cousin, cousine.",
+    "vars": {},
+    "example": [
+     "Le frère de mon père est mon oncle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f3-rel"
+    }
+   },
+   {
+    "id": "fc3-3",
+    "status": "draft",
+    "idea": "Chacun a un rôle : les parents protègent et éduquent ; les enfants respectent et aident.",
+    "vars": {},
+    "example": [
+     "Aider à balayer la cour, c’est aider à la maison."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc3-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {},
+     "prompt": "Quel est un rôle des enfants dans la famille ?",
+     "pool": {
+      "right": [
+       {
+        "text": "respecter leurs parents",
+        "truth": "true"
+       },
+       {
+        "text": "aider à la maison",
+        "truth": "true"
+       },
+       {
+        "text": "bien travailler à l’école",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "payer la maison",
+        "truth": "false",
+        "explain": "Ce sont les parents qui s’en occupent."
+       },
+       {
+        "text": "ne jamais aider",
+        "truth": "false",
+        "explain": "Les enfants aident à la maison."
+       },
+       {
+        "text": "désobéir aux parents",
+        "truth": "false",
+        "explain": "Les enfants respectent leurs parents."
+       },
+       {
+        "text": "refuser d’aller à l’école",
+        "truth": "false",
+        "explain": "Les enfants vont à l’école et travaillent bien."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f3-answer",
+   "type": "matching",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque question à la bonne réponse.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "Comment t’appelles-tu ?",
+     "right": "Je m’appelle Ngono."
+    },
+    {
+     "left": "Quel âge as-tu ?",
+     "right": "J’ai onze ans."
+    },
+    {
+     "left": "Où habites-tu ?",
+     "right": "J’habite à Bafoussam."
+    },
+    {
+     "left": "Comment vas-tu ?",
+     "right": "Je vais bien, merci."
+    },
+    {
+     "left": "En quelle classe es-tu ?",
+     "right": "Je suis en Form One."
+    }
+   ]
+  },
+  {
+   "id": "f3-rel",
+   "type": "matching",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie pour trouver le membre de la famille.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "le père de mon père",
+     "right": "mon grand-père"
+    },
+    {
+     "left": "la mère de ma mère",
+     "right": "ma grand-mère"
+    },
+    {
+     "left": "le frère de mon père",
+     "right": "mon oncle"
+    },
+    {
+     "left": "la sœur de ma mère",
+     "right": "ma tante"
+    },
+    {
+     "left": "le fils de mon oncle",
+     "right": "mon cousin"
+    },
+    {
+     "left": "la fille de ma tante",
+     "right": "ma cousine"
+    }
+   ]
+  },
+  {
+   "id": "f3-who",
+   "type": "mcq",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Qui est le père de mon père ?",
+       "a": "mon grand-père",
+       "why": "Qui est le père de mon père ? → mon grand-père."
+      },
+      {
+       "t": "Qui est la mère de ma mère ?",
+       "a": "ma grand-mère",
+       "why": "Qui est la mère de ma mère ? → ma grand-mère."
+      },
+      {
+       "t": "Qui est le frère de mon père ?",
+       "a": "mon oncle",
+       "why": "Qui est le frère de mon père ? → mon oncle."
+      },
+      {
+       "t": "Qui est la sœur de ma mère ?",
+       "a": "ma tante",
+       "why": "Qui est la sœur de ma mère ? → ma tante."
+      },
+      {
+       "t": "Qui est le fils de mon oncle ?",
+       "a": "mon cousin",
+       "why": "Qui est le fils de mon oncle ? → mon cousin."
+      },
+      {
+       "t": "Qui est la fille de ma tante ?",
+       "a": "ma cousine",
+       "why": "Qui est la fille de ma tante ? → ma cousine."
+      }
+     ]
+    }
+   },
+   "prompt": "{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "mon grand-père",
+     "misconception": "other"
+    },
+    {
+     "text": "ma grand-mère",
+     "misconception": "other"
+    },
+    {
+     "text": "mon oncle",
+     "misconception": "other"
+    },
+    {
+     "text": "ma tante",
+     "misconception": "other"
+    },
+    {
+     "text": "mon cousin",
+     "misconception": "other"
+    },
+    {
+     "text": "ma cousine",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Ce n’est pas cette personne. Lis bien : père ou mère ? frère ou sœur ?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "id": "f3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {},
+   "prompt": "Une phrase est fausse. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le frère de ma mère est mon oncle.",
+      "truth": "true"
+     },
+     {
+      "text": "La mère de mon père est ma grand-mère.",
+      "truth": "true"
+     },
+     {
+      "text": "On dit « J’ai onze ans » pour donner son âge.",
+      "truth": "true"
+     },
+     {
+      "text": "La fille de mon oncle est ma cousine.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On dit « Je suis onze ans » pour donner son âge.",
+      "truth": "false",
+      "explain": "On dit « J’ai onze ans » (avec le verbe avoir)."
+     },
+     {
+      "text": "La sœur de mon père est ma cousine.",
+      "truth": "false",
+      "explain": "La sœur de mon père est ma tante."
+     },
+     {
+      "text": "Le fils de ma tante est mon oncle.",
+      "truth": "false",
+      "explain": "Le fils de ma tante est mon cousin."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

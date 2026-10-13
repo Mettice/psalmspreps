@@ -1,0 +1,317 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 4,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "f4",
+   "name": "Les articles définis et indéfinis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’article se place devant le nom. Il montre le genre (masculin ou féminin) et le nombre (singulier ou pluriel).\nArticles définis (une chose précise) : le (masculin), la (féminin), les (pluriel). Devant une voyelle ou un h muet, le et la deviennent l’ : l’école, l’arbre, l’homme.\nAttention : devant un h aspiré, pas d’élision : le haricot, le hibou.\nArticles indéfinis (une chose non précise) : un (masculin), une (féminin), des (pluriel).\nExemples : le livre, la table, l’orange, les cahiers ; un stylo, une chaise, des mangues.\nAu pluriel, on ajoute souvent un s au nom : les livres ; les noms en -eau prennent un x : les tableaux.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mets le bon article défini : ___ école, ___ cahier, ___ table.",
+  "steps": [
+   "« école » commence par une voyelle : l’école.",
+   "« cahier » est masculin : le cahier.",
+   "« table » est féminin : la table."
+  ],
+  "answer": "l’école, le cahier, la table",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc4-1",
+    "status": "draft",
+    "idea": "Articles définis : le (masculin), la (féminin), l’ (devant une voyelle ou un h muet), les (pluriel).",
+    "vars": {},
+    "example": [
+     "le stylo, la porte, l’enfant, les sacs"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f4-def"
+    }
+   },
+   {
+    "id": "fc4-2",
+    "status": "draft",
+    "idea": "Articles indéfinis : un (masculin), une (féminin), des (pluriel).",
+    "vars": {},
+    "example": [
+     "un crayon, une règle, des oranges"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f4-indef"
+    }
+   },
+   {
+    "id": "fc4-3",
+    "status": "draft",
+    "idea": "Devant un h aspiré, on n’écrit pas l’ : le haricot, le hibou.",
+    "vars": {},
+    "example": [
+     "Mais devant un h muet : l’homme."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc4-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "articles"
+     ],
+     "vars": {},
+     "prompt": "Laquelle est correcte ?",
+     "pool": {
+      "right": [
+       {
+        "text": "le haricot",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "l’haricot",
+        "truth": "false",
+        "explain": "« haricot » commence par un h aspiré : on écrit le haricot."
+       },
+       {
+        "text": "la haricot",
+        "truth": "false",
+        "explain": "« haricot » est masculin."
+       },
+       {
+        "text": "les haricot",
+        "truth": "false",
+        "explain": "Au pluriel : les haricots."
+       },
+       {
+        "text": "un haricots",
+        "truth": "false",
+        "explain": "Au singulier : un haricot."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f4-def",
+   "level": 1,
+   "sources": [
+    "articles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      21
+     ]
+    }
+   },
+   "prompt": "Quel article défini convient ?\n___ {frNoun(i)}",
+   "correct": "{frDefArticle(i)}",
+   "distractors": [
+    {
+     "text": "le",
+     "misconception": "genre"
+    },
+    {
+     "text": "la",
+     "misconception": "genre"
+    },
+    {
+     "text": "l’",
+     "misconception": "genre"
+    },
+    {
+     "text": "les",
+     "misconception": "genre"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "genre",
+     "explain": "« {frNoun(i)} » est {frGender(i)}{frVowel(i) ? ' et commence par une voyelle ou un h muet' : ''}."
+    }
+   ],
+   "solution": [
+    "« {frNoun(i)} » est {frGender(i)}, singulier.",
+    "On écrit : {frDef(i)}."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f4-indef",
+   "level": 1,
+   "sources": [
+    "articles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      21
+     ]
+    }
+   },
+   "prompt": "Quel article indéfini convient ?\n___ {frNoun(i)}",
+   "correct": "{frIndefArticle(i)}",
+   "show": 3,
+   "distractors": [
+    {
+     "text": "un",
+     "misconception": "genre"
+    },
+    {
+     "text": "une",
+     "misconception": "genre"
+    },
+    {
+     "text": "des",
+     "misconception": "genre"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "genre",
+     "explain": "« {frNoun(i)} » est {frGender(i)} et au singulier."
+    }
+   ],
+   "solution": [
+    "« {frNoun(i)} » est {frGender(i)}, singulier.",
+    "On écrit : {frIndef(i)}."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f4-plural",
+   "level": 2,
+   "sources": [
+    "articles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      21
+     ]
+    },
+    "d": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Mets au pluriel : {d ? frDef(i) : frIndef(i)}",
+   "correct": "{d ? frDef(i, true) : frIndef(i, true)}",
+   "distractors": [
+    {
+     "text": "{d ? 'les ' + frNoun(i) : 'des ' + frNoun(i)}",
+     "misconception": "s"
+    },
+    {
+     "text": "{d ? frIndef(i, true) : frDef(i, true)}",
+     "misconception": "def"
+    },
+    {
+     "text": "{d ? frDefArticle(i) : frIndefArticle(i)} {frPlural(i)}",
+     "misconception": "art"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "s",
+     "explain": "Au pluriel, le nom change aussi : {frPlural(i)}."
+    },
+    {
+     "id": "def",
+     "explain": "Garde le même genre d’article : défini (le, la, l’ → les) ou indéfini (un, une → des)."
+    },
+    {
+     "id": "art",
+     "explain": "L’article aussi se met au pluriel."
+    }
+   ],
+   "solution": [
+    "Au pluriel : {d ? 'le, la, l’ deviennent les' : 'un, une deviennent des'} ; le nom devient « {frPlural(i)} ».",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f4-elision",
+   "level": 3,
+   "sources": [
+    "articles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      21
+     ]
+    }
+   },
+   "where": "frVowel(i) || frStartsH(i)",
+   "prompt": "Laquelle est correcte ?",
+   "correct": "{frDef(i)}",
+   "show": 3,
+   "distractors": [
+    {
+     "text": "{frVowel(i) ? (frFeminine(i) ? 'la ' : 'le ') + frNoun(i) : 'l’' + frNoun(i)}",
+     "misconception": "elision"
+    },
+    {
+     "text": "{frVowel(i) ? (frFeminine(i) ? 'le ' : 'la ') + frNoun(i) : 'la ' + frNoun(i)}",
+     "misconception": "genre"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "elision",
+     "explain": "{frVowel(i) ? 'Devant une voyelle ou un h muet, on écrit l’.' : 'Devant un h aspiré, on n’écrit pas l’.'}"
+    },
+    {
+     "id": "genre",
+     "explain": "« {frNoun(i)} » est {frGender(i)}."
+    }
+   ],
+   "solution": [
+    "« {frNoun(i)} » {frVowel(i) ? 'commence par une voyelle ou un h muet : élision' : 'commence par un h aspiré : pas d’élision'}.",
+    "On écrit : {answer}."
+   ]
+  }
+ ]
+}

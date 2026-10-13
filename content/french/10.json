@@ -1,0 +1,343 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 10,
+ "language": "fr",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "f10",
+   "name": "Lire un texte sur les activités en famille et au quartier"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte :\n« Le samedi matin, toute la famille de Mbarga se lève tôt. Le père et les enfants vont au champ pour désherber le maïs. La mère et le petit frère balaient la cour et lavent le linge. L’après-midi, les voisins se réunissent pour l’investissement humain : ils nettoient le marché et curent les caniveaux du quartier. Le soir, tout le monde est fatigué mais content. La grand-mère raconte des contes aux enfants autour du feu. »\nMots du texte : désherber = enlever les mauvaises herbes ; le linge = les vêtements à laver ; curer un caniveau = enlever la saleté qui le bouche ; l’investissement humain = un travail fait ensemble, sans salaire, pour le bien du quartier ; un conte = une histoire que l’on raconte.\nPour répondre : cherche le moment (matin, après-midi, soir), puis qui fait quoi.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "« Le samedi matin, toute la famille de Mbarga se lève tôt. Le père et les enfants vont au champ pour désherber le maïs. La mère et le petit frère balaient la cour et lavent le linge. L’après-midi, les voisins se réunissent pour l’investissement humain : ils nettoient le marché et curent les caniveaux du quartier. Le soir, tout le monde est fatigué mais content. La grand-mère raconte des contes aux enfants autour du feu. »\nQue font les voisins l’après-midi ?",
+  "steps": [
+   "On cherche « l’après-midi » dans le texte.",
+   "La phrase dit qu’ils se réunissent pour l’investissement humain : ils nettoient le marché et curent les caniveaux."
+  ],
+  "answer": "Ils nettoient le marché et les caniveaux du quartier.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc10-1",
+    "status": "draft",
+    "idea": "Repère les moments du texte : le matin, l’après-midi, le soir.",
+    "vars": {},
+    "example": [
+     "Le matin : le champ et la cour. Le soir : les contes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f10-when"
+    }
+   },
+   {
+    "id": "fc10-2",
+    "status": "draft",
+    "idea": "Repère qui fait quoi : le père et les enfants, la mère et le petit frère, les voisins, la grand-mère.",
+    "vars": {},
+    "example": [
+     "La grand-mère raconte des contes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f10-who"
+    }
+   },
+   {
+    "id": "fc10-3",
+    "status": "draft",
+    "idea": "L’investissement humain est un travail fait ensemble pour le quartier.",
+    "vars": {},
+    "example": [
+     "Nettoyer le marché ensemble est un investissement humain."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc10-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {},
+     "prompt": "Que veut dire « investissement humain » ?",
+     "pool": {
+      "right": [
+       {
+        "text": "un travail fait ensemble pour le bien du quartier",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "mettre de l’argent à la banque",
+        "truth": "false",
+        "explain": "Ici, c’est un travail fait ensemble, sans salaire."
+       },
+       {
+        "text": "une fête au village",
+        "truth": "false",
+        "explain": "C’est un travail pour le quartier."
+       },
+       {
+        "text": "un match de football",
+        "truth": "false",
+        "explain": "C’est un travail pour le quartier."
+       },
+       {
+        "text": "un cours à l’école",
+        "truth": "false",
+        "explain": "C’est un travail pour le quartier."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f10-who",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Qui va au champ ?",
+       "a": "le père et les enfants",
+       "why": "Qui va au champ ? → le père et les enfants."
+      },
+      {
+       "t": "Qui balaie la cour ?",
+       "a": "la mère et le petit frère",
+       "why": "Qui balaie la cour ? → la mère et le petit frère."
+      },
+      {
+       "t": "Qui nettoie le marché ?",
+       "a": "les voisins",
+       "why": "Qui nettoie le marché ? → les voisins."
+      },
+      {
+       "t": "Qui raconte des contes ?",
+       "a": "la grand-mère",
+       "why": "Qui raconte des contes ? → la grand-mère."
+      }
+     ]
+    }
+   },
+   "prompt": "« Le samedi matin, toute la famille de Mbarga se lève tôt. Le père et les enfants vont au champ pour désherber le maïs. La mère et le petit frère balaient la cour et lavent le linge. L’après-midi, les voisins se réunissent pour l’investissement humain : ils nettoient le marché et curent les caniveaux du quartier. Le soir, tout le monde est fatigué mais content. La grand-mère raconte des contes aux enfants autour du feu. »\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "le père et les enfants",
+     "misconception": "other"
+    },
+    {
+     "text": "la mère et le petit frère",
+     "misconception": "other"
+    },
+    {
+     "text": "les voisins",
+     "misconception": "other"
+    },
+    {
+     "text": "la grand-mère",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Relis la phrase qui parle de cette activité."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "id": "f10-when",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Quand la famille va-t-elle au champ ?",
+       "a": "le samedi matin",
+       "why": "Quand la famille va-t-elle au champ ? → le samedi matin."
+      },
+      {
+       "t": "Quand les voisins font-ils l’investissement humain ?",
+       "a": "l’après-midi",
+       "why": "Quand les voisins font-ils l’investissement humain ? → l’après-midi."
+      },
+      {
+       "t": "Quand la grand-mère raconte-t-elle des contes ?",
+       "a": "le soir",
+       "why": "Quand la grand-mère raconte-t-elle des contes ? → le soir."
+      }
+     ]
+    }
+   },
+   "prompt": "« Le samedi matin, toute la famille de Mbarga se lève tôt. Le père et les enfants vont au champ pour désherber le maïs. La mère et le petit frère balaient la cour et lavent le linge. L’après-midi, les voisins se réunissent pour l’investissement humain : ils nettoient le marché et curent les caniveaux du quartier. Le soir, tout le monde est fatigué mais content. La grand-mère raconte des contes aux enfants autour du feu. »\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "le samedi matin",
+     "misconception": "other"
+    },
+    {
+     "text": "l’après-midi",
+     "misconception": "other"
+    },
+    {
+     "text": "le soir",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Relis le texte : matin, après-midi ou soir ?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Réponse : {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "f10-true",
+   "type": "mcq",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {},
+   "prompt": "« Le samedi matin, toute la famille de Mbarga se lève tôt. Le père et les enfants vont au champ pour désherber le maïs. La mère et le petit frère balaient la cour et lavent le linge. L’après-midi, les voisins se réunissent pour l’investissement humain : ils nettoient le marché et curent les caniveaux du quartier. Le soir, tout le monde est fatigué mais content. La grand-mère raconte des contes aux enfants autour du feu. »\nQuelle phrase est vraie d’après le texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "La famille se lève tôt le samedi.",
+      "truth": "true"
+     },
+     {
+      "text": "Les voisins curent les caniveaux.",
+      "truth": "true"
+     },
+     {
+      "text": "Le soir, tout le monde est content.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La famille dort jusqu’à midi.",
+      "truth": "false",
+      "explain": "Le texte dit qu’elle se lève tôt."
+     },
+     {
+      "text": "La mère va au champ.",
+      "truth": "false",
+      "explain": "La mère balaie la cour et lave le linge."
+     },
+     {
+      "text": "Les voisins vont à la plage.",
+      "truth": "false",
+      "explain": "Ils nettoient le marché et les caniveaux."
+     },
+     {
+      "text": "La grand-mère désherbe le maïs.",
+      "truth": "false",
+      "explain": "Elle raconte des contes le soir."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "f10-word",
+   "type": "mcq",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {},
+   "prompt": "« Le samedi matin, toute la famille de Mbarga se lève tôt. Le père et les enfants vont au champ pour désherber le maïs. La mère et le petit frère balaient la cour et lavent le linge. L’après-midi, les voisins se réunissent pour l’investissement humain : ils nettoient le marché et curent les caniveaux du quartier. Le soir, tout le monde est fatigué mais content. La grand-mère raconte des contes aux enfants autour du feu. »\nDans le texte, que veut dire « désherber » ?",
+   "pool": {
+    "right": [
+     {
+      "text": "enlever les mauvaises herbes",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "planter du maïs",
+      "truth": "false",
+      "explain": "Planter, c’est mettre les graines en terre."
+     },
+     {
+      "text": "arroser le champ",
+      "truth": "false",
+      "explain": "Arroser, c’est donner de l’eau."
+     },
+     {
+      "text": "récolter le maïs",
+      "truth": "false",
+      "explain": "Récolter, c’est ramasser ce qui a poussé."
+     },
+     {
+      "text": "brûler la brousse",
+      "truth": "false",
+      "explain": "Désherber, c’est enlever les mauvaises herbes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 11,
+ "language": "fr",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "f11",
+   "name": "Lire un texte sur l’école"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte :\n« Le lycée de Ngono se trouve à l’entrée de la ville. Chaque lundi matin, les élèves se rassemblent dans la cour pour le lever des couleurs. Ensuite, ils entrent en classe. En Form One, Ngono étudie le français, l’anglais, les mathématiques, l’histoire, la géographie et les sciences. À la récréation, les élèves jouent au football ou achètent des beignets. Quand un élève est malade, il va à l’infirmerie. Le proviseur, le censeur et les surveillants veillent sur le travail et la discipline. »\nMots du texte : le lever des couleurs = la cérémonie où l’on hisse le drapeau ; la récréation = la pause entre les cours ; l’infirmerie = la salle où l’on soigne les élèves malades ; veiller sur = surveiller, faire attention à.\nPour répondre : lis la question, cherche le mot important dans le texte, puis lis toute la phrase.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "« Le lycée de Ngono se trouve à l’entrée de la ville. Chaque lundi matin, les élèves se rassemblent dans la cour pour le lever des couleurs. Ensuite, ils entrent en classe. En Form One, Ngono étudie le français, l’anglais, les mathématiques, l’histoire, la géographie et les sciences. À la récréation, les élèves jouent au football ou achètent des beignets. Quand un élève est malade, il va à l’infirmerie. Le proviseur, le censeur et les surveillants veillent sur le travail et la discipline. »\nOù va un élève malade ?",
+  "steps": [
+   "On cherche le mot « malade » dans le texte.",
+   "La phrase dit : « il va à l’infirmerie »."
+  ],
+  "answer": "À l’infirmerie.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc11-1",
+    "status": "draft",
+    "idea": "Pour répondre, cherche le mot important de la question dans le texte.",
+    "vars": {},
+    "example": [
+     "« récréation » → les élèves jouent au football ou achètent des beignets."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f11-what"
+    }
+   },
+   {
+    "id": "fc11-2",
+    "status": "draft",
+    "idea": "Le lever des couleurs est la cérémonie où l’on hisse le drapeau.",
+    "vars": {},
+    "example": [
+     "Il a lieu le lundi matin dans la cour."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f11-true"
+    }
+   },
+   {
+    "id": "fc11-3",
+    "status": "draft",
+    "idea": "Le proviseur, le censeur et les surveillants veillent sur le travail et la discipline.",
+    "vars": {},
+    "example": [
+     "Ce sont des membres de l’administration du lycée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc11-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {},
+     "prompt": "« Le lycée de Ngono se trouve à l’entrée de la ville. Chaque lundi matin, les élèves se rassemblent dans la cour pour le lever des couleurs. Ensuite, ils entrent en classe. En Form One, Ngono étudie le français, l’anglais, les mathématiques, l’histoire, la géographie et les sciences. À la récréation, les élèves jouent au football ou achètent des beignets. Quand un élève est malade, il va à l’infirmerie. Le proviseur, le censeur et les surveillants veillent sur le travail et la discipline. »\nQui veille sur la discipline ?",
+     "pool": {
+      "right": [
+       {
+        "text": "le proviseur, le censeur et les surveillants",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "les élèves seulement",
+        "truth": "false",
+        "explain": "Le texte nomme le proviseur, le censeur et les surveillants."
+       },
+       {
+        "text": "les vendeuses de beignets",
+        "truth": "false",
+        "explain": "Elles vendent des beignets."
+       },
+       {
+        "text": "l’infirmière",
+        "truth": "false",
+        "explain": "Elle soigne les malades."
+       },
+       {
+        "text": "les parents",
+        "truth": "false",
+        "explain": "Le texte nomme le proviseur, le censeur et les surveillants."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f11-what",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Où va un élève malade ?",
+       "a": "à l’infirmerie",
+       "why": "Où va un élève malade ? → à l’infirmerie."
+      },
+      {
+       "t": "Où se rassemblent les élèves le lundi matin ?",
+       "a": "dans la cour",
+       "why": "Où se rassemblent les élèves le lundi matin ? → dans la cour."
+      },
+      {
+       "t": "Où se trouve le lycée ?",
+       "a": "à l’entrée de la ville",
+       "why": "Où se trouve le lycée ? → à l’entrée de la ville."
+      }
+     ]
+    }
+   },
+   "prompt": "« Le lycée de Ngono se trouve à l’entrée de la ville. Chaque lundi matin, les élèves se rassemblent dans la cour pour le lever des couleurs. Ensuite, ils entrent en classe. En Form One, Ngono étudie le français, l’anglais, les mathématiques, l’histoire, la géographie et les sciences. À la récréation, les élèves jouent au football ou achètent des beignets. Quand un élève est malade, il va à l’infirmerie. Le proviseur, le censeur et les surveillants veillent sur le travail et la discipline. »\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "à l’infirmerie",
+     "misconception": "other"
+    },
+    {
+     "text": "dans la cour",
+     "misconception": "other"
+    },
+    {
+     "text": "à l’entrée de la ville",
+     "misconception": "other"
+    },
+    {
+     "text": "au marché",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Relis la phrase qui parle de ce lieu."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "id": "f11-true",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {},
+   "prompt": "« Le lycée de Ngono se trouve à l’entrée de la ville. Chaque lundi matin, les élèves se rassemblent dans la cour pour le lever des couleurs. Ensuite, ils entrent en classe. En Form One, Ngono étudie le français, l’anglais, les mathématiques, l’histoire, la géographie et les sciences. À la récréation, les élèves jouent au football ou achètent des beignets. Quand un élève est malade, il va à l’infirmerie. Le proviseur, le censeur et les surveillants veillent sur le travail et la discipline. »\nQuelle phrase est vraie d’après le texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le lever des couleurs a lieu le lundi matin.",
+      "truth": "true"
+     },
+     {
+      "text": "Ngono étudie l’anglais.",
+      "truth": "true"
+     },
+     {
+      "text": "À la récréation, des élèves jouent au football.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le lever des couleurs a lieu le vendredi soir.",
+      "truth": "false",
+      "explain": "Le texte dit « chaque lundi matin »."
+     },
+     {
+      "text": "Ngono n’étudie pas les mathématiques.",
+      "truth": "false",
+      "explain": "Les mathématiques sont dans la liste."
+     },
+     {
+      "text": "Les élèves malades rentrent à la maison seuls.",
+      "truth": "false",
+      "explain": "Ils vont à l’infirmerie."
+     },
+     {
+      "text": "Le lycée est au milieu de la forêt.",
+      "truth": "false",
+      "explain": "Il est à l’entrée de la ville."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "f11-subject",
+   "type": "mcq",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {},
+   "prompt": "« Le lycée de Ngono se trouve à l’entrée de la ville. Chaque lundi matin, les élèves se rassemblent dans la cour pour le lever des couleurs. Ensuite, ils entrent en classe. En Form One, Ngono étudie le français, l’anglais, les mathématiques, l’histoire, la géographie et les sciences. À la récréation, les élèves jouent au football ou achètent des beignets. Quand un élève est malade, il va à l’infirmerie. Le proviseur, le censeur et les surveillants veillent sur le travail et la discipline. »\nQuelle matière n’est pas dans la liste du texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "l’informatique",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "le français",
+      "truth": "false",
+      "explain": "Le français est dans la liste."
+     },
+     {
+      "text": "l’histoire",
+      "truth": "false",
+      "explain": "L’histoire est dans la liste."
+     },
+     {
+      "text": "la géographie",
+      "truth": "false",
+      "explain": "La géographie est dans la liste."
+     },
+     {
+      "text": "l’anglais",
+      "truth": "false",
+      "explain": "L’anglais est dans la liste."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "f11-word",
+   "type": "mcq",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {},
+   "prompt": "« Le lycée de Ngono se trouve à l’entrée de la ville. Chaque lundi matin, les élèves se rassemblent dans la cour pour le lever des couleurs. Ensuite, ils entrent en classe. En Form One, Ngono étudie le français, l’anglais, les mathématiques, l’histoire, la géographie et les sciences. À la récréation, les élèves jouent au football ou achètent des beignets. Quand un élève est malade, il va à l’infirmerie. Le proviseur, le censeur et les surveillants veillent sur le travail et la discipline. »\nDans le texte, que veut dire « veillent sur » ?",
+   "pool": {
+    "right": [
+     {
+      "text": "surveillent, font attention à",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "dorment",
+      "truth": "false",
+      "explain": "Veiller sur quelqu’un, c’est le surveiller."
+     },
+     {
+      "text": "oublient",
+      "truth": "false",
+      "explain": "C’est le contraire."
+     },
+     {
+      "text": "vendent",
+      "truth": "false",
+      "explain": "Ce n’est pas le sens."
+     },
+     {
+      "text": "chantent",
+      "truth": "false",
+      "explain": "Ce n’est pas le sens."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  }
+ ]
+}

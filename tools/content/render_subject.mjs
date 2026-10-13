@@ -14,6 +14,7 @@ import * as homeeconomics from "../../src/engine/lib/homeeconomics.js";
 import * as history from "../../src/engine/lib/history.js";
 import * as biology from "../../src/engine/lib/biology.js";
 import * as computerscience from "../../src/engine/lib/computerscience.js";
+import * as french from "../../src/engine/lib/french.js";
 import { render } from "../../src/engine/expr.js";
 import { instantiate, renderWorked } from "../../src/engine/template.js";
 import { renderCard, cardCheckTemplate, practicePlan, renderPaper, isDeferred } from "../../src/engine/teach.js";
@@ -29,8 +30,9 @@ const CONF = {
   history: { name: "History", batch: "Batch Y1", spine: "history", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history }, sample: 3, lessons: "1–10", bySeq: true },
   biology: { name: "Biology", batch: "Batch B1", spine: "biology", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology }, sample: 7, lessons: "1–9, 13–21", bySeq: true },
   "computer-science": { name: "Computer Science", batch: "Batch S1", spine: "computer-science", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience }, sample: 11, lessons: "1–6, 8–11, 13–14, 16–18" },
+  french: { name: "French", batch: "Batch F1", spine: "french", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french }, sample: 15, lessons: "1–15" },
 }[SUBJECT];
-if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science");
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science|french");
 const lib = CONF.lib;
 const DIR = new URL(`../../content/${SUBJECT}/`, import.meta.url);
 // Drawings are saved as files (GitHub does not show SVG written inside Markdown).
@@ -142,6 +144,17 @@ const PART1 = {
     `**Symbols from Latin (TR-K02)**: ${Object.entries(chemistry.LATIN).map(([s, l]) => `${s} (${l})`).join(", ")}.`, "",
     "- **Formulas (TR-K03)**: the small number after a symbol counts the atoms of that symbol; no number means one; a bracket multiplies everything inside it (Ca(OH)₂: 1 Ca, 2 O, 2 H). Counted by `parseFormula()`, tested on known answers.",
     "- **Measurement**: the unit conversions, °C → K (+ 273), the measuring cylinder and thermometer drawings are the same as in Physics (TR-P04, TR-P05, TR-P08).", ""],
+  french: () => {
+    const nouns = Array.from({ length: french.frNounCount() }, (_, i) => i);
+    return ["## Part 1: tables and rules the computed answers use (src/engine/lib/french.js)", "",
+      "Everything the pupil reads in French lessons is in French, including the working the engine writes (`lang: \"fr\"`).", "",
+      "**Nouns (TR-F01)**: definite and indefinite article, plural, and the possessive “à moi”.", "",
+      "| Nom | Genre | Défini | Indéfini | Pluriel | À moi |", "|---|---|---|---|---|---|",
+      ...nouns.map((i) => `| ${french.frNoun(i)} | ${french.frGender(i)} | ${french.frDef(i)} | ${french.frIndef(i)} | ${french.frDef(i, true)} | ${french.frPoss(0, i)} |`), "",
+      `- **Conjugation (TR-F02)**: ${["avoir", "s’appeler", "travailler", "laver"].map((v) => `${v}: ${[0, 1, 2, 4, 5, 6].map((p) => french.frConj(v, p)).join(", ")}`).join("; ")}.`,
+      `- **Numbers (TR-F03)**: traditional spelling taught; the 1990 spelling is also accepted when typed. ${[17, 21, 22, 31, 41, 44, 50].map((n) => `${n} → ${french.frNumber(n)} (1990 : ${french.frNumber1990(n)})`).join("; ")}.`,
+      "- **Alphabetical order (TR-F04)**: accents are ignored when ordering (école sorts with e).", ""];
+  },
   "computer-science": () => ["## Part 1: rules, table and drawings the answers use (src/engine/lib/computerscience.js)", "",
     `- **Patterns (TR-S01)**: number patterns add the same amount (${computerscience.firstTerms(3, 4, 4)} → ${computerscience.nthTerm(3, 4, 5)}) or double (${computerscience.firstDoubles(3, 4)} → ${computerscience.nthDouble(3, 5)}); shape patterns repeat a group, and shape n is found from the remainder of n ÷ the group length.`,
     "- **Tracing (TR-S01)**: “start with x, add b, n times” gives x + b × n; “double n times” gives x × 2ⁿ; IF x > L THEN “big” ELSE “small” (equal counts as small).",

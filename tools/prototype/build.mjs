@@ -9,15 +9,15 @@ import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
-const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "lib/homeeconomics.js", "lib/history.js", "lib/biology.js", "lib/computerscience.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
+const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "lib/homeeconomics.js", "lib/history.js", "lib/biology.js", "lib/computerscience.js", "lib/french.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
 // 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
 // The Phase 3 budget for the whole app is 2 MB.
 const MAX_BYTES = 1300 * 1024;  // 900 KB with Home Economics; 1.3 MB with History, Biology and Computer Science (Dion, 2026-10-07); app budget 2 MB
-const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography", "home-economics": "Home Economics", history: "History", biology: "Biology", "computer-science": "Computer Science" };
-const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography", "home-economics": "home-economics", history: "history", biology: "biology", "computer-science": "computer-science" };
+const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography", "home-economics": "Home Economics", history: "History", biology: "Biology", "computer-science": "Computer Science", french: "French" };
+const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography", "home-economics": "home-economics", history: "history", biology: "biology", "computer-science": "computer-science", french: "french" };
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
 const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10), "home-economics": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21],
-  history: upTo(10), biology: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21], "computer-science": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18] };  // released lessons per subject
+  history: upTo(10), biology: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21], "computer-science": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18], french: upTo(15) };  // released lessons per subject
 // Geography is numbered by place in the year (spine seq): its practicals have no lesson number (TR-G14).
 const BY_SEQ = new Set(["geography", "history", "biology"]);  // biology: practicals have kind "practical" (numbers equal the rows)
 
@@ -196,7 +196,8 @@ const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["li
     "home-economics": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"] },
     history: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"] },
     biology: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"] },
-    "computer-science": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"] } },
+    "computer-science": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"] },
+    french: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/french.js"] } },
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${safeJson(content)};
 const TITLES = ${safeJson(titles)};

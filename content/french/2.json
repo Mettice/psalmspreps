@@ -1,0 +1,372 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 2,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "f2",
+   "name": "Lire un texte sur la famille"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte :\n« Je m’appelle Ngono. J’ai onze ans et j’habite à Bafoussam avec ma famille. Mon père, Monsieur Tchoua, est enseignant. Ma mère, Madame Tchoua, est couturière. J’ai un grand frère, Paul, et une petite sœur, Lisette. Le soir, nous mangeons ensemble et chacun raconte sa journée. Le samedi, nous allons au marché, puis nous rendons visite à nos grands-parents au village. »\nLa famille nucléaire, c’est le père, la mère et leurs enfants. Les grands-parents, les oncles, les tantes et les cousins forment la famille élargie.\nPour bien lire : lis tout le texte une fois ; lis la question ; cherche la réponse dans le texte ; relis la phrase qui contient la réponse.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "« Je m’appelle Ngono. J’ai onze ans et j’habite à Bafoussam avec ma famille. Mon père, Monsieur Tchoua, est enseignant. Ma mère, Madame Tchoua, est couturière. J’ai un grand frère, Paul, et une petite sœur, Lisette. Le soir, nous mangeons ensemble et chacun raconte sa journée. Le samedi, nous allons au marché, puis nous rendons visite à nos grands-parents au village. »\nQue fait la famille le soir ?",
+  "steps": [
+   "On cherche le mot « soir » dans le texte.",
+   "La phrase dit : « Le soir, nous mangeons ensemble et chacun raconte sa journée. »"
+  ],
+  "answer": "Elle mange ensemble et chacun raconte sa journée.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc2-1",
+    "status": "draft",
+    "idea": "Pour répondre, on cherche dans le texte la phrase qui contient la réponse.",
+    "vars": {},
+    "example": [
+     "« Comment s’appelle le grand frère ? » → on cherche « grand frère » : Paul."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f2-who"
+    }
+   },
+   {
+    "id": "fc2-2",
+    "status": "draft",
+    "idea": "La famille nucléaire : le père, la mère et leurs enfants.",
+    "vars": {},
+    "example": [
+     "Les grands-parents font partie de la famille élargie."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f2-family"
+    }
+   },
+   {
+    "id": "fc2-3",
+    "status": "draft",
+    "idea": "Un métier est le travail qu’une personne fait : enseignant, couturière, cultivateur, médecin.",
+    "vars": {},
+    "example": [
+     "Le père de Ngono est enseignant."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f2-job"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f2-who",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Comment s’appelle le grand frère de Ngono ?",
+       "a": "Paul",
+       "why": "Comment s’appelle le grand frère de Ngono ? → Paul.",
+       "q": "Comment s’appelle le grand frère de Ngono ?"
+      },
+      {
+       "t": "Comment s’appelle la petite sœur de Ngono ?",
+       "a": "Lisette",
+       "why": "Comment s’appelle la petite sœur de Ngono ? → Lisette.",
+       "q": "Comment s’appelle la petite sœur de Ngono ?"
+      },
+      {
+       "t": "Comment s’appelle le père de Ngono ?",
+       "a": "Monsieur Tchoua",
+       "why": "Comment s’appelle le père de Ngono ? → Monsieur Tchoua.",
+       "q": "Comment s’appelle le père de Ngono ?"
+      },
+      {
+       "t": "Qui raconte l’histoire ?",
+       "a": "Ngono",
+       "why": "Qui raconte l’histoire ? → Ngono.",
+       "q": "Qui raconte l’histoire ?"
+      }
+     ]
+    }
+   },
+   "prompt": "« Je m’appelle Ngono. J’ai onze ans et j’habite à Bafoussam avec ma famille. Mon père, Monsieur Tchoua, est enseignant. Ma mère, Madame Tchoua, est couturière. J’ai un grand frère, Paul, et une petite sœur, Lisette. Le soir, nous mangeons ensemble et chacun raconte sa journée. Le samedi, nous allons au marché, puis nous rendons visite à nos grands-parents au village. »\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "Paul",
+     "misconception": "other"
+    },
+    {
+     "text": "Lisette",
+     "misconception": "other"
+    },
+    {
+     "text": "Monsieur Tchoua",
+     "misconception": "other"
+    },
+    {
+     "text": "Madame Tchoua",
+     "misconception": "other"
+    },
+    {
+     "text": "Ngono",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Relis la phrase du texte qui parle de cette personne."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "id": "f2-family",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {},
+   "prompt": "Qui fait partie de la famille nucléaire ?",
+   "pool": {
+    "right": [
+     {
+      "text": "le père",
+      "truth": "true"
+     },
+     {
+      "text": "la mère",
+      "truth": "true"
+     },
+     {
+      "text": "les enfants",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "le grand-père",
+      "truth": "false",
+      "explain": "Les grands-parents font partie de la famille élargie."
+     },
+     {
+      "text": "l’oncle",
+      "truth": "false",
+      "explain": "L’oncle fait partie de la famille élargie."
+     },
+     {
+      "text": "la cousine",
+      "truth": "false",
+      "explain": "La cousine fait partie de la famille élargie."
+     },
+     {
+      "text": "le voisin",
+      "truth": "false",
+      "explain": "Le voisin ne fait pas partie de la famille."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "f2-job",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Quel est le métier du père ?",
+       "a": "enseignant",
+       "why": "Quel est le métier du père ? → enseignant."
+      },
+      {
+       "t": "Quel est le métier de la mère ?",
+       "a": "couturière",
+       "why": "Quel est le métier de la mère ? → couturière."
+      }
+     ]
+    }
+   },
+   "prompt": "« Je m’appelle Ngono. J’ai onze ans et j’habite à Bafoussam avec ma famille. Mon père, Monsieur Tchoua, est enseignant. Ma mère, Madame Tchoua, est couturière. J’ai un grand frère, Paul, et une petite sœur, Lisette. Le soir, nous mangeons ensemble et chacun raconte sa journée. Le samedi, nous allons au marché, puis nous rendons visite à nos grands-parents au village. »\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "enseignant",
+     "misconception": "other"
+    },
+    {
+     "text": "couturière",
+     "misconception": "other"
+    },
+    {
+     "text": "cultivateur",
+     "misconception": "other"
+    },
+    {
+     "text": "médecin",
+     "misconception": "other"
+    },
+    {
+     "text": "commerçant",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Relis la phrase qui parle de cette personne."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Réponse : {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "f2-true",
+   "type": "mcq",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {},
+   "prompt": "« Je m’appelle Ngono. J’ai onze ans et j’habite à Bafoussam avec ma famille. Mon père, Monsieur Tchoua, est enseignant. Ma mère, Madame Tchoua, est couturière. J’ai un grand frère, Paul, et une petite sœur, Lisette. Le soir, nous mangeons ensemble et chacun raconte sa journée. Le samedi, nous allons au marché, puis nous rendons visite à nos grands-parents au village. »\nQuelle phrase est vraie d’après le texte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ngono habite à Bafoussam.",
+      "truth": "true"
+     },
+     {
+      "text": "Ngono a une petite sœur.",
+      "truth": "true"
+     },
+     {
+      "text": "Le samedi, la famille va au marché.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ngono habite au village.",
+      "truth": "false",
+      "explain": "Ngono habite à Bafoussam ; ses grands-parents habitent au village."
+     },
+     {
+      "text": "Ngono a douze ans.",
+      "truth": "false",
+      "explain": "Le texte dit : « J’ai onze ans »."
+     },
+     {
+      "text": "La mère de Ngono est enseignante.",
+      "truth": "false",
+      "explain": "La mère est couturière ; c’est le père qui est enseignant."
+     },
+     {
+      "text": "Ngono est l’aîné de la famille.",
+      "truth": "false",
+      "explain": "Ngono a un grand frère, Paul."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "f2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {},
+   "prompt": "« Je m’appelle Ngono. J’ai onze ans et j’habite à Bafoussam avec ma famille. Mon père, Monsieur Tchoua, est enseignant. Ma mère, Madame Tchoua, est couturière. J’ai un grand frère, Paul, et une petite sœur, Lisette. Le soir, nous mangeons ensemble et chacun raconte sa journée. Le samedi, nous allons au marché, puis nous rendons visite à nos grands-parents au village. »\nUne phrase est fausse d’après le texte. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Paul est le grand frère de Ngono.",
+      "truth": "true"
+     },
+     {
+      "text": "Le père s’appelle Monsieur Tchoua.",
+      "truth": "true"
+     },
+     {
+      "text": "La famille mange ensemble le soir.",
+      "truth": "true"
+     },
+     {
+      "text": "Les grands-parents habitent au village.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Lisette est la grande sœur de Ngono.",
+      "truth": "false",
+      "explain": "Lisette est la petite sœur."
+     },
+     {
+      "text": "Le dimanche, la famille va au marché.",
+      "truth": "false",
+      "explain": "Le texte dit « le samedi »."
+     },
+     {
+      "text": "Ngono habite à Douala.",
+      "truth": "false",
+      "explain": "Ngono habite à Bafoussam."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

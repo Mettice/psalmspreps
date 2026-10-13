@@ -1,0 +1,403 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 15,
+ "language": "fr",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "f15",
+   "name": "Les adjectifs possessifs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’adjectif possessif dit à qui appartient la chose. Il s’accorde avec le nom (masculin, féminin, pluriel).\n• à moi : mon livre, ma table, mes livres ;\n• à toi : ton, ta, tes ;\n• à lui ou à elle : son, sa, ses ;\n• à nous : notre, nos ;\n• à vous : votre, vos ;\n• à eux ou à elles : leur, leurs.\nAttention : devant un nom féminin qui commence par une voyelle ou un h muet, on écrit mon, ton, son : mon école, ton amie, son orange.\n« son » et « sa » s’accordent avec le nom, pas avec le propriétaire : Paul aime sa mère ; Lisette aime son père.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète avec « à moi » : ___ école, ___ règle, ___ cahiers.",
+  "steps": [
+   "« école » est féminin mais commence par une voyelle : mon école.",
+   "« règle » est féminin : ma règle.",
+   "« cahiers » est au pluriel : mes cahiers."
+  ],
+  "answer": "mon école, ma règle, mes cahiers",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc15-1",
+    "status": "draft",
+    "idea": "À moi : mon (masculin), ma (féminin), mes (pluriel). De même ton, ta, tes et son, sa, ses.",
+    "vars": {},
+    "example": [
+     "mon stylo, ma chaise, mes livres"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f15-poss"
+    }
+   },
+   {
+    "id": "fc15-2",
+    "status": "draft",
+    "idea": "À nous : notre, nos ; à vous : votre, vos ; à eux : leur, leurs.",
+    "vars": {},
+    "example": [
+     "notre maison, vos cahiers, leurs enfants"
+    ],
+    "checks": [],
+    "check": {
+     "type": "mcq",
+     "review": "rule",
+     "lang": "fr",
+     "id": "fc15-2-check",
+     "level": 1,
+     "sources": [
+      "possessifs"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        3,
+        5
+       ]
+      },
+      "i": {
+       "int": [
+        0,
+        21
+       ]
+      },
+      "pl": {
+       "pick": [
+        true,
+        false
+       ]
+      }
+     },
+     "prompt": "Complète ({frOwner(p)}) : ___ {pl ? frPlural(i) : frNoun(i)}",
+     "correct": "{frPossWord(p, i, pl)}",
+     "distractors": [
+      {
+       "text": "{frPossWord(p, i, !pl)}",
+       "misconception": "nombre"
+      },
+      {
+       "text": "{frPossWord(p == 3 ? 4 : 3, i, pl)}",
+       "misconception": "personne"
+      },
+      {
+       "text": "{frPossWord(p == 5 ? 4 : 5, i, pl)}",
+       "misconception": "personne"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "nombre",
+       "explain": "Regarde si le nom est au singulier ou au pluriel."
+      },
+      {
+       "id": "personne",
+       "explain": "Ce possessif n’est pas pour « {frOwner(p)} »."
+      }
+     ],
+     "solution": [
+      "La chose est {frOwner(p)} ; le nom est au {pl ? 'pluriel' : 'singulier'}.",
+      "On écrit : {answer}."
+     ]
+    }
+   },
+   {
+    "id": "fc15-3",
+    "status": "draft",
+    "idea": "Devant un nom féminin qui commence par une voyelle : mon, ton, son (mon école, son amie).",
+    "vars": {},
+    "example": [
+     "On n’écrit pas « ma école »."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc15-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "possessifs"
+     ],
+     "vars": {},
+     "prompt": "Laquelle est correcte ?",
+     "pool": {
+      "right": [
+       {
+        "text": "mon école",
+        "truth": "true"
+       },
+       {
+        "text": "ton amie",
+        "truth": "true"
+       },
+       {
+        "text": "son orange",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "ma école",
+        "truth": "false",
+        "explain": "Devant une voyelle : mon école."
+       },
+       {
+        "text": "ta amie",
+        "truth": "false",
+        "explain": "Devant une voyelle : ton amie."
+       },
+       {
+        "text": "sa orange",
+        "truth": "false",
+        "explain": "Devant une voyelle : son orange."
+       },
+       {
+        "text": "mes école",
+        "truth": "false",
+        "explain": "Au singulier : mon école."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f15-poss",
+   "level": 1,
+   "sources": [
+    "possessifs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      5
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      21
+     ]
+    }
+   },
+   "prompt": "Complète ({frOwner(p)}) : ___ {frNoun(i)}",
+   "correct": "{frPossWord(p, i)}",
+   "distractors": [
+    {
+     "text": "{frPossWord(p, i, true)}",
+     "misconception": "pluriel"
+    },
+    {
+     "text": "{frPossWord((p + 1) % 6, i)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frPossWord((p + 2) % 6, i)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frFeminine(i) && !frVowel(i) ? frPossWord(p, 0) : frPossWord(p, 6)}",
+     "misconception": "genre",
+     "when": "p < 3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pluriel",
+     "explain": "« {frNoun(i)} » est au singulier."
+    },
+    {
+     "id": "personne",
+     "explain": "Ce possessif n’est pas pour « {frOwner(p)} »."
+    },
+    {
+     "id": "genre",
+     "explain": "« {frNoun(i)} » est {frGender(i)}{frVowel(i) ? ' et commence par une voyelle' : ''}."
+    }
+   ],
+   "solution": [
+    "« {frNoun(i)} » est {frGender(i)}, singulier ; la chose est {frOwner(p)}.",
+    "On écrit : {frPoss(p, i)}."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f15-plural",
+   "level": 2,
+   "sources": [
+    "possessifs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      5
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      21
+     ]
+    }
+   },
+   "prompt": "Mets au pluriel : {frPoss(p, i)}",
+   "correct": "{frPoss(p, i, true)}",
+   "distractors": [
+    {
+     "text": "{frPossWord(p, i)} {frPlural(i)}",
+     "misconception": "poss"
+    },
+    {
+     "text": "{frPossWord(p, i, true)} {frNoun(i)}",
+     "misconception": "nom"
+    },
+    {
+     "text": "{frPoss((p + 3) % 6, i, true)}",
+     "misconception": "personne"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "poss",
+     "explain": "Le possessif aussi se met au pluriel : {frPossWord(p, i, true)}."
+    },
+    {
+     "id": "nom",
+     "explain": "Le nom aussi se met au pluriel : {frPlural(i)}."
+    },
+    {
+     "id": "personne",
+     "explain": "Garde la même personne ({frOwner(p)})."
+    }
+   ],
+   "solution": [
+    "Le possessif devient {frPossWord(p, i, true)} et le nom devient {frPlural(i)}.",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f15-vowel",
+   "level": 3,
+   "sources": [
+    "possessifs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      2
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      21
+     ]
+    }
+   },
+   "where": "frFeminine(i) && frVowel(i)",
+   "show": 2,
+   "prompt": "Laquelle est correcte ({frOwner(p)}) ?",
+   "correct": "{frPoss(p, i)}",
+   "distractors": [
+    {
+     "text": "{frPossWrongVowel(p, i)}",
+     "misconception": "voyelle"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "voyelle",
+     "explain": "« {frNoun(i)} » est féminin, mais il commence par une voyelle : on écrit {frPoss(p, i)}."
+    }
+   ],
+   "solution": [
+    "« {frNoun(i)} » est féminin et commence par une voyelle.",
+    "On écrit donc : {answer}."
+   ]
+  },
+  {
+   "id": "f15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "possessifs"
+   ],
+   "vars": {},
+   "prompt": "Une phrase est fausse. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Lisette aime son père.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous lavons notre voiture.",
+      "truth": "true"
+     },
+     {
+      "text": "Les enfants rangent leurs cahiers.",
+      "truth": "true"
+     },
+     {
+      "text": "Mon amie habite à Buea.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Paul aime son mère.",
+      "truth": "false",
+      "explain": "« mère » est féminin et commence par une consonne : sa mère."
+     },
+     {
+      "text": "Vous oubliez votre cahiers.",
+      "truth": "false",
+      "explain": "Au pluriel : vos cahiers."
+     },
+     {
+      "text": "Elle cherche ma amie.",
+      "truth": "false",
+      "explain": "Devant une voyelle : mon amie."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

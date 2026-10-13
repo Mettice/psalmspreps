@@ -1,0 +1,306 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 6,
+ "language": "fr",
+ "prerequisites": [
+  3,
+  5
+ ],
+ "skills": [
+  {
+   "id": "f6",
+   "name": "Se présenter et présenter quelqu’un"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour se présenter : on salue, puis on dit son nom, son âge, où on habite et sa classe.\n« Bonjour ! Je m’appelle Ngono. J’ai onze ans. J’habite à Bafoussam. Je suis en Form One. »\nPour présenter quelqu’un : « Voici mon ami Paul. » ; « Je te présente ma sœur Lisette. » ; « Il s’appelle Eric, il a douze ans. »\nPolitesse : on dit « Bonjour Monsieur », « Bonjour Madame » à un adulte ; on dit « tu » à un ami et « vous » à un adulte qu’on respecte.\nEntraîne-toi à voix haute avec un parent ou un ami : regarde la personne, parle clairement et souris.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Tu présentes ton ami Eric, douze ans, à ton professeur. Que dis-tu ?",
+  "steps": [
+   "On salue poliment l’adulte : « Bonjour Monsieur. »",
+   "On présente : « Je vous présente mon ami Eric. »",
+   "On ajoute une information : « Il a douze ans. »"
+  ],
+  "answer": "« Bonjour Monsieur. Je vous présente mon ami Eric. Il a douze ans. »",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc6-1",
+    "status": "draft",
+    "idea": "Pour se présenter : on salue, puis on dit son nom, son âge et où on habite.",
+    "vars": {},
+    "example": [
+     "« Bonjour ! Je m’appelle Ewane. J’habite à Limbe. »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f6-self"
+    }
+   },
+   {
+    "id": "fc6-2",
+    "status": "draft",
+    "idea": "Pour présenter quelqu’un : « Voici … » ou « Je te présente … ».",
+    "vars": {},
+    "example": [
+     "« Voici ma cousine Anne. »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f6-other"
+    }
+   },
+   {
+    "id": "fc6-3",
+    "status": "draft",
+    "idea": "On dit « vous » et « Bonjour Monsieur / Madame » à un adulte ; « tu » à un ami.",
+    "vars": {},
+    "example": [
+     "« Je vous présente mon frère, Madame. »"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc6-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "oral"
+     ],
+     "vars": {},
+     "prompt": "Que dis-tu poliment à la directrice ?",
+     "pool": {
+      "right": [
+       {
+        "text": "Bonjour Madame, je m’appelle Paul.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Salut toi, c’est Paul !",
+        "truth": "false",
+        "explain": "À un adulte, on parle poliment : « Bonjour Madame »."
+       },
+       {
+        "text": "Hé ! Moi c’est Paul.",
+        "truth": "false",
+        "explain": "Ce n’est pas poli avec un adulte."
+       },
+       {
+        "text": "Tu vas bien, toi ?",
+        "truth": "false",
+        "explain": "À un adulte, on dit « vous »."
+       },
+       {
+        "text": "Paul. Voilà.",
+        "truth": "false",
+        "explain": "On salue et on fait une phrase complète."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f6-self",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "oral"
+   ],
+   "vars": {},
+   "prompt": "Quelle phrase sert à se présenter ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Je m’appelle Ngono.",
+      "truth": "true"
+     },
+     {
+      "text": "J’ai onze ans.",
+      "truth": "true"
+     },
+     {
+      "text": "J’habite à Bafoussam.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Voici mon ami Paul.",
+      "truth": "false",
+      "explain": "Cette phrase présente une autre personne."
+     },
+     {
+      "text": "Comment t’appelles-tu ?",
+      "truth": "false",
+      "explain": "C’est une question, pas une présentation."
+     },
+     {
+      "text": "Il s’appelle Eric.",
+      "truth": "false",
+      "explain": "Cette phrase parle d’une autre personne."
+     },
+     {
+      "text": "Au revoir !",
+      "truth": "false",
+      "explain": "C’est pour partir, pas pour se présenter."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "f6-other",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "oral"
+   ],
+   "vars": {},
+   "prompt": "Quelle phrase sert à présenter quelqu’un d’autre ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Voici mon ami Paul.",
+      "truth": "true"
+     },
+     {
+      "text": "Je te présente ma sœur Lisette.",
+      "truth": "true"
+     },
+     {
+      "text": "Il s’appelle Eric.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Je m’appelle Ngono.",
+      "truth": "false",
+      "explain": "Là, tu te présentes toi-même."
+     },
+     {
+      "text": "J’ai onze ans.",
+      "truth": "false",
+      "explain": "Là, tu parles de toi."
+     },
+     {
+      "text": "Où habites-tu ?",
+      "truth": "false",
+      "explain": "C’est une question."
+     },
+     {
+      "text": "Merci beaucoup.",
+      "truth": "false",
+      "explain": "C’est un remerciement."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "f6-order",
+   "type": "word_order",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "oral"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "Je m’appelle Ngono.",
+      "J’ai onze ans.",
+      "J’habite à Bafoussam.",
+      "Voici mon ami Paul.",
+      "Je te présente ma sœur Lisette.",
+      "Il s’appelle Eric."
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{s}"
+  },
+  {
+   "id": "f6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "oral"
+   ],
+   "vars": {},
+   "prompt": "Une phrase n’est pas correcte. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Bonjour Monsieur, je m’appelle Ewane.",
+      "truth": "true"
+     },
+     {
+      "text": "Je te présente mon cousin Joël.",
+      "truth": "true"
+     },
+     {
+      "text": "Voici ma sœur, elle a dix ans.",
+      "truth": "true"
+     },
+     {
+      "text": "J’habite à Kribi.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Je suis onze ans.",
+      "truth": "false",
+      "explain": "Pour l’âge : J’ai onze ans."
+     },
+     {
+      "text": "Je présente toi mon ami.",
+      "truth": "false",
+      "explain": "On dit : Je te présente mon ami."
+     },
+     {
+      "text": "Moi s’appelle Ngono.",
+      "truth": "false",
+      "explain": "On dit : Je m’appelle Ngono."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1) builds from the real engine and content, offline, under 1.3 MB.
+// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1 + French F1) builds from the real engine and content, offline, under 1.3 MB.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
@@ -50,14 +50,14 @@ test("prototype: builds under 1.3 MB, no external resources, engine runs", () =>
   assert.match(hq.figure, /^<svg /);
   assert.deepEqual(ENGINE.template.check(hq, hq.answer), { correct: true });
   // History, Biology, Computer Science: dates, magnification and patterns come from the inlined libraries.
-  for (const [s, n, id] of [["history", 3, "hi3-across"], ["biology", 7, "b7-mag"], ["computer-science", 9, "cs9-shape"]]) {
+  for (const [s, n, id] of [["history", 3, "hi3-across"], ["biology", 7, "b7-mag"], ["computer-science", 9, "cs9-shape"], ["french", 15, "f15-poss"]]) {
     const l = JSON.parse(readFileSync(new URL(`content/${s}/${n}.json`, ROOT), "utf8"));
     const x = ENGINE.template.instantiate(l.questions.find((t) => t.id === id), 5, ENGINE.libs[s], n);
     assert.equal(x.verified, true, id);
   }
 });
 
-test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1, Geography G1, Home Economics H1, History Y1, Biology L1 and Computer Science S1 are in the page; deferred speech work is not", () => {
+test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1, Geography G1, Home Economics H1, History Y1, Biology L1, Computer Science S1 and French F1 are in the page; deferred speech work is not", () => {
   const html = page();
   const content = constant(html, "CONTENT"), titles = constant(html, "TITLES"), lessons = constant(html, "LESSONS");
   assert.deepEqual(lessons.maths, Array.from({ length: 16 }, (_, i) => i + 1));
@@ -70,7 +70,8 @@ test("prototype: Maths 1–16, English E1, Physics P1, Chemistry C1, Geography G
   assert.deepEqual(lessons.history, Array.from({ length: 10 }, (_, i) => i + 1));
   assert.deepEqual(lessons.biology, [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21]);
   assert.deepEqual(lessons["computer-science"], [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18]);
-  for (const s of ["maths", "english", "physics", "chemistry", "geography", "home-economics", "history", "biology", "computer-science"]) for (const n of lessons[s]) {
+  assert.deepEqual(lessons.french, Array.from({ length: 15 }, (_, i) => i + 1));
+  for (const s of ["maths", "english", "physics", "chemistry", "geography", "home-economics", "history", "biology", "computer-science", "french"]) for (const n of lessons[s]) {
     assert.equal(content[s][n]?.lesson_no, n, `${s} ${n}`);
     assert.ok(titles[s][n], `${s} ${n} title`);
   }
@@ -113,4 +114,11 @@ test("prototype: motion off under prefers-reduced-motion; 48px tap targets; text
   const paper = html.slice(html.indexOf("function paperTask"), html.indexOf("function retry"));
   assert.match(paper, /I've written it/);
   assert.doesNotMatch(paper, /answerItem|check\(/);
+});
+
+test("prototype: inside French lessons the pupil's labels are French; elsewhere English", () => {
+  const html = page();
+  assert.ok(html.includes('const T = (text, v = {}) => ((S === "french" && FR[text]) || text)'), "the label helper is in the page");
+  for (const fr of ["Vérifier", "Je ne sais pas", "Retour aux leçons", "Leçon {n} · Idée {a} sur {b}", "Bravo !"]) assert.ok(html.includes(fr), fr);
+  for (const en of ['button("Check"', "button(\"I don't know\"", '{}, "Correct!")']) assert.ok(!html.includes(en), `still hard-coded: ${en}`);
 });

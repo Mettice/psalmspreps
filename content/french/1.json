@@ -1,0 +1,419 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 1,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "f1",
+   "name": "L’alphabet français"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’alphabet français a vingt-six lettres, de a à z.\n• Les voyelles : a, e, i, o, u, y.\n• Les consonnes : toutes les autres lettres (b, c, d, f, g …).\nChaque lettre a une majuscule (A, B, C) et une minuscule (a, b, c).\nLes accents et les signes :\n• l’accent aigu : é (été) ;\n• l’accent grave : è, à, ù (mère, à, où) ;\n• l’accent circonflexe : â, ê, î, ô, û (fenêtre) ;\n• le tréma : ë, ï (Noël, maïs) ;\n• la cédille : ç (garçon).\nL’ordre alphabétique : on compare la première lettre des mots ; si elle est la même, on compare la deuxième, et ainsi de suite. On ne tient pas compte des accents.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Range ces mots dans l’ordre alphabétique : livre, arbre, maison, école.",
+  "steps": [
+   "On regarde la première lettre : l, a, m, é (e).",
+   "Dans l’alphabet : a, puis e, puis l, puis m.",
+   "Donc : arbre, école, livre, maison."
+  ],
+  "answer": "arbre → école → livre → maison",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc1-1",
+    "status": "draft",
+    "idea": "L’alphabet français a vingt-six lettres : six voyelles (a, e, i, o, u, y) et vingt consonnes.",
+    "vars": {},
+    "example": [
+     "Dans le mot « ami », a et i sont des voyelles, m est une consonne."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f1-sort"
+    }
+   },
+   {
+    "id": "fc1-2",
+    "status": "draft",
+    "idea": "Les lettres ont un ordre : a, b, c, d, e … jusqu’à z.",
+    "vars": {},
+    "example": [
+     "Après m vient n ; avant m vient l."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f1-after"
+    }
+   },
+   {
+    "id": "fc1-3",
+    "status": "draft",
+    "idea": "Les accents changent le son ou le sens : é (aigu), è (grave), ê (circonflexe), ë (tréma), ç (cédille).",
+    "vars": {},
+    "example": [
+     "« a » est un verbe (il a), « à » est un petit mot (à l’école)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc1-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "alphabet"
+     ],
+     "vars": {},
+     "prompt": "Quel mot porte un accent aigu ?",
+     "pool": {
+      "right": [
+       {
+        "text": "été",
+        "truth": "true"
+       },
+       {
+        "text": "école",
+        "truth": "true"
+       },
+       {
+        "text": "café",
+        "truth": "true"
+       },
+       {
+        "text": "élève",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "mère",
+        "truth": "false",
+        "explain": "è est un accent grave."
+       },
+       {
+        "text": "fenêtre",
+        "truth": "false",
+        "explain": "ê est un accent circonflexe."
+       },
+       {
+        "text": "garçon",
+        "truth": "false",
+        "explain": "ç est une cédille."
+       },
+       {
+        "text": "maïs",
+        "truth": "false",
+        "explain": "ï est un tréma."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f1-sort",
+   "type": "matching",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "alphabet"
+   ],
+   "prompt": "Classe les lettres : voyelle ou consonne ?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "voyelle",
+    "consonne"
+   ],
+   "pool": [
+    {
+     "left": "a",
+     "right": "voyelle"
+    },
+    {
+     "left": "e",
+     "right": "voyelle"
+    },
+    {
+     "left": "i",
+     "right": "voyelle"
+    },
+    {
+     "left": "o",
+     "right": "voyelle"
+    },
+    {
+     "left": "u",
+     "right": "voyelle"
+    },
+    {
+     "left": "y",
+     "right": "voyelle"
+    },
+    {
+     "left": "b",
+     "right": "consonne"
+    },
+    {
+     "left": "d",
+     "right": "consonne"
+    },
+    {
+     "left": "m",
+     "right": "consonne"
+    },
+    {
+     "left": "r",
+     "right": "consonne"
+    },
+    {
+     "left": "s",
+     "right": "consonne"
+    },
+    {
+     "left": "t",
+     "right": "consonne"
+    },
+    {
+     "left": "k",
+     "right": "consonne"
+    },
+    {
+     "left": "p",
+     "right": "consonne"
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f1-after",
+   "level": 1,
+   "sources": [
+    "alphabet"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1,
+      22
+     ]
+    }
+   },
+   "prompt": "Quelle lettre vient juste après « {frLetter(k)} » ?",
+   "correct": "{frLetter(k + 1)}",
+   "distractors": [
+    {
+     "text": "{frLetter(k - 1)}",
+     "misconception": "avant"
+    },
+    {
+     "text": "{frLetter(k + 2)}",
+     "misconception": "saut"
+    },
+    {
+     "text": "{frLetter(k + 3)}",
+     "misconception": "saut"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "avant",
+     "explain": "Cette lettre vient avant « {frLetter(k)} », pas après."
+    },
+    {
+     "id": "saut",
+     "explain": "Tu as sauté une lettre. Récite l’alphabet à partir de « {frLetter(k)} »."
+    }
+   ],
+   "solution": [
+    "… {frLetter(k - 1)}, {frLetter(k)}, {frLetter(k + 1)}, {frLetter(k + 2)} …",
+    "Après « {frLetter(k)} » vient « {answer} »."
+   ]
+  },
+  {
+   "id": "f1-accent",
+   "type": "mcq",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "alphabet"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Le signe sur le e de « été »",
+       "a": "l’accent aigu",
+       "why": "Le signe sur le e de « été » : l’accent aigu."
+      },
+      {
+       "t": "Le signe sur le e de « mère »",
+       "a": "l’accent grave",
+       "why": "Le signe sur le e de « mère » : l’accent grave."
+      },
+      {
+       "t": "Le signe sur le e de « fenêtre »",
+       "a": "l’accent circonflexe",
+       "why": "Le signe sur le e de « fenêtre » : l’accent circonflexe."
+      },
+      {
+       "t": "Le signe sous le c de « garçon »",
+       "a": "la cédille",
+       "why": "Le signe sous le c de « garçon » : la cédille."
+      },
+      {
+       "t": "Le signe sur le i de « maïs »",
+       "a": "le tréma",
+       "why": "Le signe sur le i de « maïs » : le tréma."
+      }
+     ]
+    }
+   },
+   "prompt": "Comment s’appelle ce signe ?\n{x.t}",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "l’accent aigu",
+     "misconception": "other"
+    },
+    {
+     "text": "l’accent grave",
+     "misconception": "other"
+    },
+    {
+     "text": "l’accent circonflexe",
+     "misconception": "other"
+    },
+    {
+     "text": "la cédille",
+     "misconception": "other"
+    },
+    {
+     "text": "le tréma",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Ce n’est pas ce signe. Relis la liste des accents."
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "id": "f1-order",
+   "type": "ordering",
+   "level": 2,
+   "lang": "fr",
+   "review": "rule",
+   "sources": [
+    "alphabet"
+   ],
+   "vars": {
+    "w": {
+     "sample": [
+      "['maison', 'école', 'arbre', 'livre', 'table', 'cahier', 'orange', 'porte', 'stylo', 'fenêtre', 'ballon', 'mangue', 'jardin', 'rivière', 'nuage', 'dent']",
+      "4"
+     ]
+    }
+   },
+   "order": "asc",
+   "prompt": "Range ces mots dans l’ordre alphabétique.",
+   "items": [
+    {
+     "text": "{w[0]}",
+     "key": "frAlphaRank(w[0], w)"
+    },
+    {
+     "text": "{w[1]}",
+     "key": "frAlphaRank(w[1], w)"
+    },
+    {
+     "text": "{w[2]}",
+     "key": "frAlphaRank(w[2], w)"
+    },
+    {
+     "text": "{w[3]}",
+     "key": "frAlphaRank(w[3], w)"
+    }
+   ]
+  },
+  {
+   "id": "f1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "alphabet"
+   ],
+   "vars": {},
+   "prompt": "Une phrase est fausse. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "L’alphabet français a vingt-six lettres.",
+      "truth": "true"
+     },
+     {
+      "text": "Le y est une voyelle.",
+      "truth": "true"
+     },
+     {
+      "text": "Le ç porte une cédille.",
+      "truth": "true"
+     },
+     {
+      "text": "Dans l’ordre alphabétique, « arbre » vient avant « livre ».",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le b est une voyelle.",
+      "truth": "false",
+      "explain": "Le b est une consonne."
+     },
+     {
+      "text": "« école » vient après « maison » dans l’ordre alphabétique.",
+      "truth": "false",
+      "explain": "e vient avant m : « école » vient avant « maison »."
+     },
+     {
+      "text": "Le « è » de « mère » porte un accent aigu.",
+      "truth": "false",
+      "explain": "C’est un accent grave."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 14,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "f14",
+   "name": "Copier des mots sans faute"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour bien copier un mot :\n1. Lis le mot en entier.\n2. Regarde chaque lettre, surtout les accents (é, è, ê, à, ù, ç, ï) et les lettres doubles (ll, tt, mm).\n3. Écris le mot sans regarder, en le disant dans ta tête.\n4. Compare avec le modèle, lettre par lettre, et corrige.\nUn accent oublié est une faute : « mère » et « mere » ne sont pas le même mot écrit.\nSur un téléphone, appuie longtemps sur une lettre (e, a, c, i) pour voir ses accents.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le modèle est « fenêtre ». Ewane écrit « fenetre ». Quelle faute a-t-il faite ?",
+  "steps": [
+   "On compare lettre par lettre : f-e-n-ê-t-r-e et f-e-n-e-t-r-e.",
+   "Le ê du modèle a un accent circonflexe ; Ewane l’a oublié."
+  ],
+  "answer": "Il a oublié l’accent circonflexe sur le ê.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc14-1",
+    "status": "draft",
+    "idea": "Pour copier, regarde chaque lettre et chaque accent, puis compare avec le modèle.",
+    "vars": {},
+    "example": [
+     "« élève » a deux accents différents : é puis è."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f14-which"
+    }
+   },
+   {
+    "id": "fc14-2",
+    "status": "draft",
+    "idea": "Un accent oublié ou changé est une faute.",
+    "vars": {},
+    "example": [
+     "« mère » (accent grave), pas « mére » ni « mere »."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f14-which"
+    }
+   },
+   {
+    "id": "fc14-3",
+    "status": "draft",
+    "idea": "Sur un téléphone, appuie longtemps sur une lettre pour trouver ses accents.",
+    "vars": {},
+    "example": [
+     "Appuie longtemps sur e pour é, è, ê, ë."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc14-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "ecriture"
+     ],
+     "vars": {},
+     "prompt": "Quel mot est bien copié ? Modèle : « garçon »",
+     "pool": {
+      "right": [
+       {
+        "text": "garçon",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "garcon",
+        "truth": "false",
+        "explain": "Il manque la cédille sous le c."
+       },
+       {
+        "text": "garçone",
+        "truth": "false",
+        "explain": "Il y a un e en trop."
+       },
+       {
+        "text": "garcçon",
+        "truth": "false",
+        "explain": "Il y a une lettre en trop."
+       },
+       {
+        "text": "gaçron",
+        "truth": "false",
+        "explain": "Les lettres ne sont pas dans l’ordre."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "type": "mcq",
+   "review": "authored",
+   "lang": "fr",
+   "id": "f14-which",
+   "level": 1,
+   "sources": [
+    "ecriture"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "w": "élève",
+       "a": "eleve",
+       "b": "élêve"
+      },
+      {
+       "w": "fenêtre",
+       "a": "fenetre",
+       "b": "fenétre"
+      },
+      {
+       "w": "garçon",
+       "a": "garcon",
+       "b": "garçone"
+      },
+      {
+       "w": "école",
+       "a": "ecole",
+       "b": "écolle"
+      },
+      {
+       "w": "forêt",
+       "a": "foret",
+       "b": "forèt"
+      },
+      {
+       "w": "mère",
+       "a": "mere",
+       "b": "mére"
+      },
+      {
+       "w": "hôpital",
+       "a": "hopital",
+       "b": "hôpitale"
+      },
+      {
+       "w": "maïs",
+       "a": "mais",
+       "b": "maîs"
+      },
+      {
+       "w": "frère",
+       "a": "frere",
+       "b": "frére"
+      },
+      {
+       "w": "téléphone",
+       "a": "telephone",
+       "b": "téléfone"
+      }
+     ]
+    }
+   },
+   "prompt": "Quel mot est bien copié ? Modèle : « {x.w} »",
+   "correct": "{x.w}",
+   "show": 3,
+   "distractors": [
+    {
+     "text": "{x.a}",
+     "misconception": "accent"
+    },
+    {
+     "text": "{x.b}",
+     "misconception": "autre"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "accent",
+     "explain": "Il manque un accent ou un signe : compare avec « {x.w} »."
+    },
+    {
+     "id": "autre",
+     "explain": "Une lettre ou un accent n’est pas comme le modèle « {x.w} »."
+    }
+   ],
+   "solution": [
+    "Compare lettre par lettre avec le modèle.",
+    "Le mot bien copié est « {answer} »."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "authored",
+   "lang": "fr",
+   "id": "f14-fault",
+   "level": 2,
+   "sources": [
+    "ecriture"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "w": "élève",
+       "a": "eleve",
+       "b": "élêve"
+      },
+      {
+       "w": "fenêtre",
+       "a": "fenetre",
+       "b": "fenétre"
+      },
+      {
+       "w": "garçon",
+       "a": "garcon",
+       "b": "garçone"
+      },
+      {
+       "w": "école",
+       "a": "ecole",
+       "b": "écolle"
+      },
+      {
+       "w": "forêt",
+       "a": "foret",
+       "b": "forèt"
+      },
+      {
+       "w": "mère",
+       "a": "mere",
+       "b": "mére"
+      },
+      {
+       "w": "hôpital",
+       "a": "hopital",
+       "b": "hôpitale"
+      },
+      {
+       "w": "maïs",
+       "a": "mais",
+       "b": "maîs"
+      },
+      {
+       "w": "frère",
+       "a": "frere",
+       "b": "frére"
+      },
+      {
+       "w": "téléphone",
+       "a": "telephone",
+       "b": "téléfone"
+      }
+     ]
+    }
+   },
+   "prompt": "Quel mot contient une faute de copie ? Modèle : « {x.w} »",
+   "correct": "{x.a}",
+   "show": 2,
+   "distractors": [
+    {
+     "text": "{x.w}",
+     "misconception": "bon"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "bon",
+     "explain": "Ce mot est exactement comme le modèle."
+    }
+   ],
+   "solution": [
+    "« {x.a} » n’est pas comme le modèle « {x.w} ».",
+    "La faute est dans « {answer} »."
+   ]
+  },
+  {
+   "id": "f14-type",
+   "type": "cloze",
+   "level": 3,
+   "lang": "fr",
+   "prompt": "Recopie le mot exactement, avec ses accents.",
+   "review": "authored",
+   "sources": [
+    "ecriture"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "w": "élève",
+       "a": "eleve",
+       "b": "élêve"
+      },
+      {
+       "w": "fenêtre",
+       "a": "fenetre",
+       "b": "fenétre"
+      },
+      {
+       "w": "garçon",
+       "a": "garcon",
+       "b": "garçone"
+      },
+      {
+       "w": "école",
+       "a": "ecole",
+       "b": "écolle"
+      },
+      {
+       "w": "forêt",
+       "a": "foret",
+       "b": "forèt"
+      },
+      {
+       "w": "mère",
+       "a": "mere",
+       "b": "mére"
+      },
+      {
+       "w": "hôpital",
+       "a": "hopital",
+       "b": "hôpitale"
+      },
+      {
+       "w": "maïs",
+       "a": "mais",
+       "b": "maîs"
+      },
+      {
+       "w": "frère",
+       "a": "frere",
+       "b": "frére"
+      },
+      {
+       "w": "téléphone",
+       "a": "telephone",
+       "b": "téléfone"
+      }
+     ]
+    }
+   },
+   "text": "Recopie le mot « {x.w} » : ___",
+   "answer": "x.w",
+   "misconceptions": [
+    {
+     "id": "accent",
+     "wrong": "x.a",
+     "explain": "Il manque un accent ou un signe : « {x.w} »."
+    }
+   ],
+   "solution": [
+    "Regarde chaque lettre et chaque accent.",
+    "On écrit : {answer}."
+   ]
+  }
+ ]
+}

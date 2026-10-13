@@ -1,0 +1,374 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 8,
+ "language": "fr",
+ "prerequisites": [
+  5,
+  7
+ ],
+ "skills": [
+  {
+   "id": "f8",
+   "name": "Présent des verbes en -er : travailler, laver"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Travailler et laver sont des verbes du 1er groupe (infinitif en -er). Au présent, on enlève -er et on ajoute les terminaisons :\n-e, -es, -e, -ons, -ez, -ent.\nTravailler : je travaille, tu travailles, il/elle travaille, nous travaillons, vous travaillez, ils/elles travaillent.\nLaver : je lave, tu laves, il/elle lave, nous lavons, vous lavez, ils/elles lavent.\nAttention : avec je, tu, il et ils, on n’entend pas la terminaison (travaille, travailles, travaillent sonnent pareil) : il faut bien regarder le sujet pour l’écrire.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Conjugue « laver » au présent avec « nous » et avec « elles ».",
+  "steps": [
+   "Radical : lav-.",
+   "Nous → -ons : nous lavons.",
+   "Elles → -ent : elles lavent."
+  ],
+  "answer": "nous lavons ; elles lavent",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc8-1",
+    "status": "draft",
+    "idea": "Verbes en -er au présent : radical + -e, -es, -e, -ons, -ez, -ent.",
+    "vars": {},
+    "example": [
+     "laver → lav- → je lave, nous lavons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f8-ending"
+    }
+   },
+   {
+    "id": "fc8-2",
+    "status": "draft",
+    "idea": "Chaque sujet a sa terminaison : tu → -es, nous → -ons, vous → -ez, ils → -ent.",
+    "vars": {},
+    "example": [
+     "tu travailles, vous travaillez"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f8-conj"
+    }
+   },
+   {
+    "id": "fc8-3",
+    "status": "draft",
+    "idea": "Avec je, tu, il et ils on n’entend pas la terminaison : il faut regarder le sujet.",
+    "vars": {},
+    "example": [
+     "« ils lavent » se dit comme « il lave »."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc8-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {},
+     "prompt": "Laquelle est correcte ?",
+     "pool": {
+      "right": [
+       {
+        "text": "Ils travaillent au champ.",
+        "truth": "true"
+       },
+       {
+        "text": "Tu laves ta chemise.",
+        "truth": "true"
+       },
+       {
+        "text": "Nous lavons les assiettes.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Ils travaille au champ.",
+        "truth": "false",
+        "explain": "Avec ils : -ent."
+       },
+       {
+        "text": "Tu lave ta chemise.",
+        "truth": "false",
+        "explain": "Avec tu : -es."
+       },
+       {
+        "text": "Nous lavez les assiettes.",
+        "truth": "false",
+        "explain": "Avec nous : -ons."
+       },
+       {
+        "text": "Vous travaillons bien.",
+        "truth": "false",
+        "explain": "Avec vous : -ez."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f8-ending",
+   "level": 1,
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Quelle terminaison prend un verbe en -er au présent avec « {frPronoun(p)} » ?",
+   "correct": "-{frEnding(p)}",
+   "distractors": [
+    {
+     "text": "-e",
+     "misconception": "term"
+    },
+    {
+     "text": "-es",
+     "misconception": "term"
+    },
+    {
+     "text": "-ons",
+     "misconception": "term"
+    },
+    {
+     "text": "-ez",
+     "misconception": "term"
+    },
+    {
+     "text": "-ent",
+     "misconception": "term"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "term",
+     "explain": "Les terminaisons : je -e, tu -es, il/elle -e, nous -ons, vous -ez, ils/elles -ent."
+    }
+   ],
+   "solution": [
+    "Je -e, tu -es, il/elle -e, nous -ons, vous -ez, ils/elles -ent.",
+    "Avec « {frPronoun(p)} » : {answer}."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f8-conj",
+   "level": 1,
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "v": {
+     "pick": [
+      "travailler",
+      "laver"
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {frPronoun(p)} ».",
+   "correct": "{frConj(v, p)}",
+   "distractors": [
+    {
+     "text": "{frPronoun(p)} {frForm(v, (p + 2) % 8)}",
+     "misconception": "term"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm(v, (p + 3) % 8)}",
+     "misconception": "term"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm(v, (p + 4) % 8)}",
+     "misconception": "term"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm(v, (p + 6) % 8)}",
+     "misconception": "term"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "term",
+     "explain": "Ce n’est pas la bonne terminaison pour « {frPronoun(p)} » : -{frEnding(p)}."
+    }
+   ],
+   "solution": [
+    "Radical + terminaison -{frEnding(p)}.",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "id": "f8-cloze",
+   "type": "cloze",
+   "level": 2,
+   "lang": "fr",
+   "prompt": "Complète avec le verbe « {v} » au présent.",
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "s": "Ma sœur",
+       "p": 3
+      },
+      {
+       "s": "Mes parents",
+       "p": 6
+      },
+      {
+       "s": "Toi, tu",
+       "p": 1
+      },
+      {
+       "s": "Nous",
+       "p": 4
+      },
+      {
+       "s": "Vous",
+       "p": 5
+      },
+      {
+       "s": "Paul",
+       "p": 2
+      },
+      {
+       "s": "Les filles",
+       "p": 7
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "travailler",
+      "laver"
+     ]
+    }
+   },
+   "text": "{x.s} ___ {v == 'laver' ? 'les assiettes.' : 'à la maison.'}",
+   "answer": "frForm(v, x.p)",
+   "choices": [
+    {
+     "text": "{frForm(v, 0)}",
+     "misconception": "term"
+    },
+    {
+     "text": "{frForm(v, 1)}",
+     "misconception": "term"
+    },
+    {
+     "text": "{frForm(v, 4)}",
+     "misconception": "term"
+    },
+    {
+     "text": "{frForm(v, 5)}",
+     "misconception": "term"
+    },
+    {
+     "text": "{frForm(v, 6)}",
+     "misconception": "term"
+    }
+   ],
+   "show": 3,
+   "misconceptions": [
+    {
+     "id": "term",
+     "explain": "Avec « {x.s} » ({frPronoun(x.p)}), la terminaison est -{frEnding(x.p)}."
+    }
+   ],
+   "solution": [
+    "Le sujet « {x.s} » va avec « {frPronoun(x.p)} » : terminaison -{frEnding(x.p)}.",
+    "Réponse : « {answer} »."
+   ]
+  },
+  {
+   "id": "f8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {},
+   "prompt": "Une phrase est fausse. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Je travaille le samedi.",
+      "truth": "true"
+     },
+     {
+      "text": "Vous lavez la voiture.",
+      "truth": "true"
+     },
+     {
+      "text": "Elles travaillent à l’hôpital.",
+      "truth": "true"
+     },
+     {
+      "text": "Tu laves tes mains.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nous lavont le linge.",
+      "truth": "false",
+      "explain": "Avec nous : nous lavons."
+     },
+     {
+      "text": "Il travaillent bien.",
+      "truth": "false",
+      "explain": "Avec il : il travaille."
+     },
+     {
+      "text": "Tu travaillez dur.",
+      "truth": "false",
+      "explain": "Avec tu : tu travailles."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

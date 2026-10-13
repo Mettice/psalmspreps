@@ -1,0 +1,295 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 9,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "f9",
+   "name": "Écrire les nombres de 1 à 50"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "De un à seize, chaque nombre a son mot : un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix, onze, douze, treize, quatorze, quinze, seize.\nEnsuite : dix-sept, dix-huit, dix-neuf.\nLes dizaines : vingt, trente, quarante, cinquante.\nRègles :\n• avec 1, on écrit « et » sans trait d’union : vingt et un, trente et un, quarante et un ;\n• avec 2 à 9, on met un trait d’union : vingt-deux, trente-cinq, quarante-huit.\nDepuis 1990, on peut aussi mettre des traits d’union partout (vingt-et-un) ; ton professeur te dira quelle écriture utiliser.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 31,
+   "b": 47
+  },
+  "problem": "Écris en lettres : {a} et {b}.",
+  "steps": [
+   "{a} = trente + un : avec un, on écrit « et ».",
+   "{b} = quarante + sept : trait d’union."
+  ],
+  "answer": "{frNumber(a)} ; {frNumber(b)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc9-1",
+    "status": "draft",
+    "idea": "De un à seize, chaque nombre a son mot ; puis dix-sept, dix-huit, dix-neuf.",
+    "vars": {
+     "a": 14,
+     "b": 17,
+     "c": 19
+    },
+    "example": [
+     "{frNumber(a)}, {frNumber(b)}, {frNumber(c)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f9-word"
+    }
+   },
+   {
+    "id": "fc9-2",
+    "status": "draft",
+    "idea": "Avec un, on écrit « et » : vingt et un, trente et un, quarante et un.",
+    "vars": {
+     "a": 41,
+     "b": 42
+    },
+    "example": [
+     "{frNumber(a)}, mais {frNumber(b)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f9-digits"
+    }
+   },
+   {
+    "id": "fc9-3",
+    "status": "draft",
+    "idea": "De deux à neuf après une dizaine, on met un trait d’union : vingt-deux, trente-six.",
+    "vars": {
+     "a": 26,
+     "b": 38
+    },
+    "example": [
+     "{frNumber(a)}, {frNumber(b)}"
+    ],
+    "checks": [],
+    "check": {
+     "type": "mcq",
+     "review": "rule",
+     "lang": "fr",
+     "id": "fc9-3-check",
+     "level": 1,
+     "sources": [
+      "nombres"
+     ],
+     "vars": {
+      "t": {
+       "pick": [
+        20,
+        30,
+        40
+       ]
+      },
+      "u": {
+       "int": [
+        2,
+        9
+       ]
+      }
+     },
+     "prompt": "Comment écrit-on {t + u} en lettres ?",
+     "correct": "{frNumber(t + u)}",
+     "distractors": [
+      {
+       "text": "{frNumberSpaces(t + u)}",
+       "misconception": "trait"
+      },
+      {
+       "text": "{frNumber(t + u + 1)}",
+       "misconception": "autre"
+      },
+      {
+       "text": "{frNumber(t + u - 1)}",
+       "misconception": "autre"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "trait",
+       "explain": "Il faut un trait d’union entre la dizaine et l’unité."
+      },
+      {
+       "id": "autre",
+       "explain": "Ce n’est pas le même nombre."
+      }
+     ],
+     "solution": [
+      "{t + u} = {frNumber(t)} + {frNumber(u)}, avec un trait d’union.",
+      "Réponse : {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f9-word",
+   "level": 1,
+   "sources": [
+    "nombres"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      1,
+      50
+     ]
+    }
+   },
+   "prompt": "Comment écrit-on {n} en lettres ?",
+   "correct": "{frNumber(n)}",
+   "distractors": [
+    {
+     "text": "{frNumber(n + 1)}",
+     "misconception": "autre"
+    },
+    {
+     "text": "{frNumber(n == 1 ? 3 : n - 1)}",
+     "misconception": "autre"
+    },
+    {
+     "text": "{frNumber(n <= 40 ? n + 10 : n - 10)}",
+     "misconception": "dizaine"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "autre",
+     "explain": "Ce mot écrit un autre nombre."
+    },
+    {
+     "id": "dizaine",
+     "explain": "Regarde bien la dizaine : {frNumber(n - n % 10 == 0 ? 10 : n - n % 10)}."
+    }
+   ],
+   "solution": [
+    "{n} s’écrit « {answer} »."
+   ]
+  },
+  {
+   "id": "f9-digits",
+   "type": "numeric",
+   "level": 1,
+   "lang": "fr",
+   "review": "rule",
+   "sources": [
+    "nombres"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      11,
+      50
+     ]
+    }
+   },
+   "prompt": "Écris ce nombre en chiffres : {frNumber(n)}",
+   "answer": "n",
+   "solution": [
+    "« {frNumber(n)} » = {answer}."
+   ]
+  },
+  {
+   "id": "f9-type",
+   "type": "cloze",
+   "level": 2,
+   "lang": "fr",
+   "prompt": "Écris ce nombre en lettres.",
+   "review": "rule",
+   "sources": [
+    "nombres"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      17,
+      50
+     ]
+    }
+   },
+   "where": "n % 10 != 0",
+   "text": "{n} s’écrit : ___",
+   "answer": "frNumber(n)",
+   "accept": [
+    "frNumber1990(n)"
+   ],
+   "misconceptions": [
+    {
+     "id": "et",
+     "wrong": "frNumberNoEt(n)",
+     "when": "n % 10 == 1",
+     "explain": "Avec un, on écrit « et » : {frNumber(n)}."
+    },
+    {
+     "id": "trait",
+     "wrong": "frNumberSpaces(n)",
+     "explain": "N’oublie pas le trait d’union : {frNumber(n)}."
+    }
+   ],
+   "solution": [
+    "{n} = {frNumber(n - n % 10)} + {frNumber(n % 10)}.",
+    "On écrit : {answer}."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f9-et",
+   "level": 3,
+   "sources": [
+    "nombres"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      21,
+      31,
+      41
+     ]
+    }
+   },
+   "prompt": "Quelle écriture est correcte pour {n} ?",
+   "correct": "{frNumber(n)}",
+   "show": 3,
+   "distractors": [
+    {
+     "text": "{frNumberNoEt(n)}",
+     "misconception": "et"
+    },
+    {
+     "text": "{frNumber(n - 1)} un",
+     "misconception": "et"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "et",
+     "explain": "Avec un, on écrit « et » : {frNumber(n)}."
+    }
+   ],
+   "solution": [
+    "Après vingt, trente, quarante, le un s’écrit avec « et ».",
+    "Réponse : {answer}."
+   ]
+  }
+ ]
+}

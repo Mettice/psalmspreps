@@ -1,0 +1,414 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 13,
+ "language": "fr",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "f13",
+   "name": "La phrase simple et ses constituants"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une phrase est une suite de mots en ordre, qui a un sens. Elle commence par une majuscule et se termine par un point (. ? !).\nLa phrase simple a un seul verbe conjugué.\nSes constituants :\n• le sujet : qui fait l’action ? (Paul) ;\n• le verbe : l’action (mange) ;\n• le complément : il complète le verbe (une mangue).\nExemple : « Paul / mange / une mangue. » sujet / verbe / complément.\nPour trouver le sujet, pose la question « Qui est-ce qui … ? » : Qui est-ce qui mange ? → Paul.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans la phrase « Ma mère lave le linge. », trouve le sujet, le verbe et le complément.",
+  "steps": [
+   "Le verbe (l’action) : lave.",
+   "Qui est-ce qui lave ? Ma mère : c’est le sujet.",
+   "Elle lave quoi ? le linge : c’est le complément."
+  ],
+  "answer": "Sujet : Ma mère ; verbe : lave ; complément : le linge.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc13-1",
+    "status": "draft",
+    "idea": "Une phrase commence par une majuscule, se termine par un point et a un sens.",
+    "vars": {},
+    "example": [
+     "« le chien la maison » n’est pas une phrase ; « Le chien garde la maison. » est une phrase."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f13-phrase"
+    }
+   },
+   {
+    "id": "fc13-2",
+    "status": "draft",
+    "idea": "Le sujet fait l’action : on le trouve avec « Qui est-ce qui … ? ».",
+    "vars": {},
+    "example": [
+     "Qui est-ce qui chante ? Les élèves."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f13-sujet"
+    }
+   },
+   {
+    "id": "fc13-3",
+    "status": "draft",
+    "idea": "Le verbe dit l’action ; le complément complète le verbe.",
+    "vars": {},
+    "example": [
+     "Lisette / lit / un livre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f13-verbe"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f13-phrase",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {},
+   "prompt": "Laquelle est une phrase correcte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le chien garde la maison.",
+      "truth": "true"
+     },
+     {
+      "text": "Paul mange une mangue.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous préparons le repas.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "le chien la maison",
+      "truth": "false",
+      "explain": "Il n’y a pas de verbe, pas de majuscule et pas de point."
+     },
+     {
+      "text": "Mange une Paul mangue.",
+      "truth": "false",
+      "explain": "Les mots ne sont pas dans l’ordre."
+     },
+     {
+      "text": "nous préparons le repas",
+      "truth": "false",
+      "explain": "Il manque la majuscule et le point."
+     },
+     {
+      "text": "Lisette un livre.",
+      "truth": "false",
+      "explain": "Il manque le verbe."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "type": "mcq",
+   "review": "authored",
+   "lang": "fr",
+   "id": "f13-sujet",
+   "level": 1,
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "p": "Paul mange une mangue.",
+       "s": "Paul",
+       "v": "mange",
+       "c": "une mangue"
+      },
+      {
+       "p": "Ma mère lave le linge.",
+       "s": "Ma mère",
+       "v": "lave",
+       "c": "le linge"
+      },
+      {
+       "p": "Les élèves chantent l’hymne national.",
+       "s": "Les élèves",
+       "v": "chantent",
+       "c": "l’hymne national"
+      },
+      {
+       "p": "Le chien garde la maison.",
+       "s": "Le chien",
+       "v": "garde",
+       "c": "la maison"
+      },
+      {
+       "p": "Lisette lit un livre.",
+       "s": "Lisette",
+       "v": "lit",
+       "c": "un livre"
+      },
+      {
+       "p": "Nous préparons le repas.",
+       "s": "Nous",
+       "v": "préparons",
+       "c": "le repas"
+      },
+      {
+       "p": "Le professeur corrige les cahiers.",
+       "s": "Le professeur",
+       "v": "corrige",
+       "c": "les cahiers"
+      }
+     ]
+    }
+   },
+   "prompt": "Quel est le sujet de la phrase « {x.p} » ?",
+   "correct": "{x.s}",
+   "show": 3,
+   "distractors": [
+    {
+     "text": "{x.v}",
+     "misconception": "verbe"
+    },
+    {
+     "text": "{x.c}",
+     "misconception": "comp"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "verbe",
+     "explain": "C’est le verbe (l’action)."
+    },
+    {
+     "id": "comp",
+     "explain": "C’est le complément. Demande : Qui est-ce qui {x.v} ?"
+    }
+   ],
+   "solution": [
+    "Qui est-ce qui {x.v} ? {x.s}.",
+    "Le sujet est « {answer} »."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "authored",
+   "lang": "fr",
+   "id": "f13-verbe",
+   "level": 1,
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "p": "Paul mange une mangue.",
+       "s": "Paul",
+       "v": "mange",
+       "c": "une mangue"
+      },
+      {
+       "p": "Ma mère lave le linge.",
+       "s": "Ma mère",
+       "v": "lave",
+       "c": "le linge"
+      },
+      {
+       "p": "Les élèves chantent l’hymne national.",
+       "s": "Les élèves",
+       "v": "chantent",
+       "c": "l’hymne national"
+      },
+      {
+       "p": "Le chien garde la maison.",
+       "s": "Le chien",
+       "v": "garde",
+       "c": "la maison"
+      },
+      {
+       "p": "Lisette lit un livre.",
+       "s": "Lisette",
+       "v": "lit",
+       "c": "un livre"
+      },
+      {
+       "p": "Nous préparons le repas.",
+       "s": "Nous",
+       "v": "préparons",
+       "c": "le repas"
+      },
+      {
+       "p": "Le professeur corrige les cahiers.",
+       "s": "Le professeur",
+       "v": "corrige",
+       "c": "les cahiers"
+      }
+     ]
+    }
+   },
+   "prompt": "Quel est le verbe de la phrase « {x.p} » ?",
+   "correct": "{x.v}",
+   "show": 3,
+   "distractors": [
+    {
+     "text": "{x.s}",
+     "misconception": "sujet"
+    },
+    {
+     "text": "{x.c}",
+     "misconception": "comp"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sujet",
+     "explain": "C’est le sujet (qui fait l’action)."
+    },
+    {
+     "id": "comp",
+     "explain": "C’est le complément. Le verbe dit l’action."
+    }
+   ],
+   "solution": [
+    "L’action de la phrase : {x.v}.",
+    "Le verbe est « {answer} »."
+   ]
+  },
+  {
+   "id": "f13-order",
+   "type": "word_order",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "p": "Paul mange une mangue.",
+       "s": "Paul",
+       "v": "mange",
+       "c": "une mangue"
+      },
+      {
+       "p": "Ma mère lave le linge.",
+       "s": "Ma mère",
+       "v": "lave",
+       "c": "le linge"
+      },
+      {
+       "p": "Les élèves chantent l’hymne national.",
+       "s": "Les élèves",
+       "v": "chantent",
+       "c": "l’hymne national"
+      },
+      {
+       "p": "Le chien garde la maison.",
+       "s": "Le chien",
+       "v": "garde",
+       "c": "la maison"
+      },
+      {
+       "p": "Lisette lit un livre.",
+       "s": "Lisette",
+       "v": "lit",
+       "c": "un livre"
+      },
+      {
+       "p": "Nous préparons le repas.",
+       "s": "Nous",
+       "v": "préparons",
+       "c": "le repas"
+      },
+      {
+       "p": "Le professeur corrige les cahiers.",
+       "s": "Le professeur",
+       "v": "corrige",
+       "c": "les cahiers"
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{x.p}"
+  },
+  {
+   "id": "f13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {},
+   "prompt": "Une phrase est fausse. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Une phrase commence par une majuscule.",
+      "truth": "true"
+     },
+     {
+      "text": "La phrase simple a un seul verbe conjugué.",
+      "truth": "true"
+     },
+     {
+      "text": "Le sujet fait l’action.",
+      "truth": "true"
+     },
+     {
+      "text": "Le complément complète le verbe.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le sujet est toujours le dernier mot de la phrase.",
+      "truth": "false",
+      "explain": "Le sujet est souvent au début : on le trouve avec « Qui est-ce qui … ? »."
+     },
+     {
+      "text": "Une phrase n’a pas besoin de point.",
+      "truth": "false",
+      "explain": "Une phrase se termine par un point."
+     },
+     {
+      "text": "Le verbe est la personne qui fait l’action.",
+      "truth": "false",
+      "explain": "Le verbe est l’action ; le sujet fait l’action."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

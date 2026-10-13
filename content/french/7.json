@@ -1,0 +1,375 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 7,
+ "language": "fr",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "f7",
+   "name": "Les pronoms personnels sujets"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le pronom personnel sujet remplace le nom du sujet.\n• Singulier : je (1re personne), tu (2e personne), il / elle (3e personne).\n• Pluriel : nous (1re personne), vous (2e personne), ils / elles (3e personne).\nRègles :\n• il remplace un nom masculin singulier (Paul, le chien) ; elle un nom féminin singulier (Lisette, la voiture) ;\n• ils remplace un groupe masculin ou mélangé (Paul et Lisette) ; elles un groupe tout féminin (ma mère et ma tante) ;\n• « toi et moi », « Eric et moi » = nous ; « toi et ton frère » = vous.\nVous sert aussi pour parler poliment à une seule personne.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Remplace le sujet par un pronom : « Paul et Lisette vont à l’école. »",
+  "steps": [
+   "Paul est un garçon, Lisette est une fille : le groupe est mélangé.",
+   "Un groupe mélangé prend « ils »."
+  ],
+  "answer": "Ils vont à l’école.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc7-1",
+    "status": "draft",
+    "idea": "Les pronoms sujets : je, tu, il, elle (singulier) ; nous, vous, ils, elles (pluriel).",
+    "vars": {},
+    "example": [
+     "« Ma mère cuisine » → « Elle cuisine »."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f7-replace"
+    }
+   },
+   {
+    "id": "fc7-2",
+    "status": "draft",
+    "idea": "Un groupe mélangé (garçons et filles) prend « ils ».",
+    "vars": {},
+    "example": [
+     "« Mon père et ma mère » → ils."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f7-sort"
+    }
+   },
+   {
+    "id": "fc7-3",
+    "status": "draft",
+    "idea": "« Toi et moi » = nous ; « toi et ton frère » = vous.",
+    "vars": {},
+    "example": [
+     "« Eric et moi jouons » → « Nous jouons »."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc7-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "pronoms"
+     ],
+     "vars": {},
+     "prompt": "Quel pronom remplace « toi et moi » ?",
+     "pool": {
+      "right": [
+       {
+        "text": "nous",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "vous",
+        "truth": "false",
+        "explain": "« Vous », c’est toi et une autre personne, sans moi."
+       },
+       {
+        "text": "ils",
+        "truth": "false",
+        "explain": "« Ils » ne contient pas « moi »."
+       },
+       {
+        "text": "je",
+        "truth": "false",
+        "explain": "« Je » est une seule personne."
+       },
+       {
+        "text": "elles",
+        "truth": "false",
+        "explain": "« Elles » ne contient pas « moi »."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f7-replace",
+   "type": "mcq",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "pronoms"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "t": "Paul",
+       "a": "il",
+       "why": "« Paul » se remplace par « il »."
+      },
+      {
+       "t": "Lisette",
+       "a": "elle",
+       "why": "« Lisette » se remplace par « elle »."
+      },
+      {
+       "t": "Paul et Lisette",
+       "a": "ils",
+       "why": "« Paul et Lisette » se remplace par « ils »."
+      },
+      {
+       "t": "ma mère et ma tante",
+       "a": "elles",
+       "why": "« ma mère et ma tante » se remplace par « elles »."
+      },
+      {
+       "t": "mon père et ma mère",
+       "a": "ils",
+       "why": "« mon père et ma mère » se remplace par « ils »."
+      },
+      {
+       "t": "toi et moi",
+       "a": "nous",
+       "why": "« toi et moi » se remplace par « nous »."
+      },
+      {
+       "t": "toi et ton frère",
+       "a": "vous",
+       "why": "« toi et ton frère » se remplace par « vous »."
+      },
+      {
+       "t": "le chien",
+       "a": "il",
+       "why": "« le chien » se remplace par « il »."
+      },
+      {
+       "t": "la voiture",
+       "a": "elle",
+       "why": "« la voiture » se remplace par « elle »."
+      },
+      {
+       "t": "les enfants",
+       "a": "ils",
+       "why": "« les enfants » se remplace par « ils »."
+      },
+      {
+       "t": "les filles",
+       "a": "elles",
+       "why": "« les filles » se remplace par « elles »."
+      },
+      {
+       "t": "Eric et moi",
+       "a": "nous",
+       "why": "« Eric et moi » se remplace par « nous »."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel pronom remplace « {x.t} » ?",
+   "correct": "{x.a}",
+   "distractors": [
+    {
+     "text": "il",
+     "misconception": "other"
+    },
+    {
+     "text": "elle",
+     "misconception": "other"
+    },
+    {
+     "text": "nous",
+     "misconception": "other"
+    },
+    {
+     "text": "vous",
+     "misconception": "other"
+    },
+    {
+     "text": "ils",
+     "misconception": "other"
+    },
+    {
+     "text": "elles",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Regarde : masculin ou féminin ? singulier ou pluriel ? Y a-t-il « moi » ou « toi » ?"
+    }
+   ],
+   "solution": [
+    "{x.why}",
+    "Réponse : {answer}."
+   ]
+  },
+  {
+   "id": "f7-sort",
+   "type": "matching",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "pronoms"
+   ],
+   "prompt": "Classe les pronoms : singulier ou pluriel ?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "singulier",
+    "pluriel"
+   ],
+   "pool": [
+    {
+     "left": "je",
+     "right": "singulier"
+    },
+    {
+     "left": "tu",
+     "right": "singulier"
+    },
+    {
+     "left": "il",
+     "right": "singulier"
+    },
+    {
+     "left": "elle",
+     "right": "singulier"
+    },
+    {
+     "left": "nous",
+     "right": "pluriel"
+    },
+    {
+     "left": "vous",
+     "right": "pluriel"
+    },
+    {
+     "left": "ils",
+     "right": "pluriel"
+    },
+    {
+     "left": "elles",
+     "right": "pluriel"
+    }
+   ]
+  },
+  {
+   "id": "f7-person",
+   "type": "matching",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "pronoms"
+   ],
+   "prompt": "Relie chaque pronom à sa personne.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "je",
+     "right": "1re personne du singulier"
+    },
+    {
+     "left": "tu",
+     "right": "2e personne du singulier"
+    },
+    {
+     "left": "il",
+     "right": "3e personne du singulier"
+    },
+    {
+     "left": "nous",
+     "right": "1re personne du pluriel"
+    },
+    {
+     "left": "vous",
+     "right": "2e personne du pluriel"
+    },
+    {
+     "left": "ils",
+     "right": "3e personne du pluriel"
+    }
+   ]
+  },
+  {
+   "id": "f7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "pronoms"
+   ],
+   "vars": {},
+   "prompt": "Une phrase est fausse. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "« Paul et Lisette » se remplace par « ils ».",
+      "truth": "true"
+     },
+     {
+      "text": "« Les filles » se remplace par « elles ».",
+      "truth": "true"
+     },
+     {
+      "text": "« Toi et moi » se remplace par « nous ».",
+      "truth": "true"
+     },
+     {
+      "text": "« La voiture » se remplace par « elle ».",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "« Mon père et ma mère » se remplace par « elles ».",
+      "truth": "false",
+      "explain": "Groupe mélangé : ils."
+     },
+     {
+      "text": "« Toi et ton frère » se remplace par « nous ».",
+      "truth": "false",
+      "explain": "Sans « moi » : vous."
+     },
+     {
+      "text": "« Le chien » se remplace par « elle ».",
+      "truth": "false",
+      "explain": "« chien » est masculin : il."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

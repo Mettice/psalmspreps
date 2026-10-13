@@ -199,3 +199,16 @@ were **released on 2026-10-07** (TR-S12): nine tabs, build limit raised to 1.3 M
   Ids `cs`, skills `cs1` … `cs18`. Review items TR-S.
 - Library order for each subject is every earlier library, then its own. A test now fails if a later library reuses a
   function name (TR-S10).
+
+## 16. French (2026-10-08)
+
+- `src/engine/lib/french.js` (all names start with `fr`, so nothing clashes with the English library): an authored noun
+  table (gender, plural, vowel start), articles and possessives with élision and h aspiré, subject pronouns, the present
+  of avoir, s’appeler and -er verbs, numbers 0–100 in words (traditional, and the 1990 spelling accepted when typed),
+  alphabetical order ignoring accents, and helpers that build typical mistakes for wrong options.
+- **French lessons are in French throughout.** A template with `lang: "fr"` makes the engine write its own working in
+  French (« … », “La bonne réponse est …”, “Le bon ordre est : …”); English templates are unchanged (tested).
+- Batch F1 = Lessons 1–15 (to the first integration row); ids `f`, skills `f1` … `f15`. Most answers are tapped, not
+  typed, because typing accents on a phone is slow (TR-F10). **Released on 2026-10-13** (TR-F14): a tenth tab; inside
+  French lessons the app’s own labels come from a small French table (`T()` in `app.js`), and `<html lang>` is set to
+  `fr`. The page is about 1263 KB of the 1.3 MB limit.

@@ -1,0 +1,320 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 12,
+ "language": "fr",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "f12",
+   "name": "Le vocabulaire de l’école"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les bâtiments et les lieux : le provisorat (bureau du proviseur), l’infirmerie, la bibliothèque, le laboratoire, les salles de classe, la cour, le terrain de sport, les toilettes.\nLe personnel : le proviseur dirige le lycée ; le censeur organise les cours ; le surveillant général s’occupe de la discipline ; l’intendant s’occupe de l’argent et du matériel ; les professeurs enseignent ; l’infirmière soigne.\nLes matières : le français, l’anglais, les mathématiques, l’histoire, la géographie, la biologie, la chimie, la physique, l’informatique, l’éducation physique (le sport).\nLe matériel : le cahier, le stylo, la règle, le livre, le cartable, la craie, le tableau.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Où vas-tu pour emprunter un livre ? Qui s’occupe de la discipline ?",
+  "steps": [
+   "On lit et emprunte des livres à la bibliothèque.",
+   "La discipline est le travail du surveillant général."
+  ],
+  "answer": "À la bibliothèque ; le surveillant général.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc12-1",
+    "status": "draft",
+    "idea": "Chaque lieu de l’école a un rôle : l’infirmerie soigne, la bibliothèque prête des livres.",
+    "vars": {},
+    "example": [
+     "Les expériences de sciences se font au laboratoire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f12-place"
+    }
+   },
+   {
+    "id": "fc12-2",
+    "status": "draft",
+    "idea": "Chaque membre du personnel a un rôle : le proviseur dirige, le censeur organise les cours.",
+    "vars": {},
+    "example": [
+     "Le surveillant général s’occupe de la discipline."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f12-staff"
+    }
+   },
+   {
+    "id": "fc12-3",
+    "status": "draft",
+    "idea": "Les matières : le français, l’anglais, les mathématiques, l’histoire, la géographie, les sciences …",
+    "vars": {},
+    "example": [
+     "La biologie, la chimie et la physique sont des sciences."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc12-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {},
+     "prompt": "Lequel est une matière scolaire ?",
+     "pool": {
+      "right": [
+       {
+        "text": "la géographie",
+        "truth": "true"
+       },
+       {
+        "text": "la chimie",
+        "truth": "true"
+       },
+       {
+        "text": "l’anglais",
+        "truth": "true"
+       },
+       {
+        "text": "l’histoire",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "la récréation",
+        "truth": "false",
+        "explain": "C’est une pause, pas une matière."
+       },
+       {
+        "text": "l’infirmerie",
+        "truth": "false",
+        "explain": "C’est un lieu."
+       },
+       {
+        "text": "le censeur",
+        "truth": "false",
+        "explain": "C’est une personne."
+       },
+       {
+        "text": "la cour",
+        "truth": "false",
+        "explain": "C’est un lieu."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "f12-place",
+   "type": "matching",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque lieu à sa définition.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "le provisorat",
+     "right": "le bureau du proviseur"
+    },
+    {
+     "left": "l’infirmerie",
+     "right": "la salle où l’on soigne les malades"
+    },
+    {
+     "left": "la bibliothèque",
+     "right": "la salle où l’on lit et emprunte des livres"
+    },
+    {
+     "left": "le laboratoire",
+     "right": "la salle des expériences de sciences"
+    },
+    {
+     "left": "la cour",
+     "right": "l’espace de la récréation et du lever des couleurs"
+    },
+    {
+     "left": "la salle de classe",
+     "right": "la salle où ont lieu les cours"
+    },
+    {
+     "left": "le terrain de sport",
+     "right": "l’endroit où l’on fait du sport"
+    }
+   ]
+  },
+  {
+   "id": "f12-staff",
+   "type": "matching",
+   "level": 1,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque personne à son rôle.",
+   "pick": 4,
+   "pool": [
+    {
+     "left": "le proviseur",
+     "right": "dirige le lycée"
+    },
+    {
+     "left": "le censeur",
+     "right": "organise les cours et les études"
+    },
+    {
+     "left": "le surveillant général",
+     "right": "s’occupe de la discipline"
+    },
+    {
+     "left": "l’intendant",
+     "right": "s’occupe de l’argent et du matériel"
+    },
+    {
+     "left": "le professeur",
+     "right": "enseigne une matière"
+    },
+    {
+     "left": "l’infirmière",
+     "right": "soigne les élèves malades"
+    }
+   ]
+  },
+  {
+   "id": "f12-sort",
+   "type": "matching",
+   "level": 2,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Classe les mots : lieu, personne ou matière ?",
+   "groups": true,
+   "pick": 6,
+   "group_order": [
+    "lieu",
+    "personne",
+    "matière"
+   ],
+   "pool": [
+    {
+     "left": "l’infirmerie",
+     "right": "lieu"
+    },
+    {
+     "left": "la bibliothèque",
+     "right": "lieu"
+    },
+    {
+     "left": "le laboratoire",
+     "right": "lieu"
+    },
+    {
+     "left": "le proviseur",
+     "right": "personne"
+    },
+    {
+     "left": "le censeur",
+     "right": "personne"
+    },
+    {
+     "left": "l’intendant",
+     "right": "personne"
+    },
+    {
+     "left": "la géographie",
+     "right": "matière"
+    },
+    {
+     "left": "la chimie",
+     "right": "matière"
+    },
+    {
+     "left": "l’anglais",
+     "right": "matière"
+    }
+   ]
+  },
+  {
+   "id": "f12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {},
+   "prompt": "Une phrase est fausse. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le proviseur dirige le lycée.",
+      "truth": "true"
+     },
+     {
+      "text": "On soigne les élèves malades à l’infirmerie.",
+      "truth": "true"
+     },
+     {
+      "text": "La chimie est une matière.",
+      "truth": "true"
+     },
+     {
+      "text": "On emprunte des livres à la bibliothèque.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’intendant enseigne les mathématiques.",
+      "truth": "false",
+      "explain": "L’intendant s’occupe de l’argent et du matériel."
+     },
+     {
+      "text": "Le laboratoire est la salle du proviseur.",
+      "truth": "false",
+      "explain": "Le bureau du proviseur est le provisorat."
+     },
+     {
+      "text": "La récréation est une matière.",
+      "truth": "false",
+      "explain": "La récréation est une pause."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

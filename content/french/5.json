@@ -1,0 +1,357 @@
+{
+ "subject": "french",
+ "class": "Form 1",
+ "lesson_no": 5,
+ "language": "fr",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "f5",
+   "name": "Présent de s’appeler et avoir"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le présent de l’indicatif dit ce qui se passe maintenant ou ce qui est vrai en général.\nAvoir : j’ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.\nS’appeler : je m’appelle, tu t’appelles, il/elle s’appelle, nous nous appelons, vous vous appelez, ils/elles s’appellent.\nAttention :\n• je devient j’ devant une voyelle : j’ai ;\n• s’appeler prend deux l quand la terminaison est muette : je m’appelle, ils s’appellent ; mais un seul l avec nous et vous : nous nous appelons.\nOn utilise avoir pour l’âge : j’ai onze ans.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : Mes cousins ___ (s’appeler) Eric et Joël. Ils ___ (avoir) douze ans.",
+  "steps": [
+   "« Mes cousins » = ils.",
+   "S’appeler avec ils : ils s’appellent (deux l).",
+   "Avoir avec ils : ils ont."
+  ],
+  "answer": "s’appellent ; ont",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fc5-1",
+    "status": "draft",
+    "idea": "Avoir au présent : j’ai, tu as, il a, nous avons, vous avez, ils ont.",
+    "vars": {},
+    "example": [
+     "J’ai un frère. Nous avons un chien."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f5-avoir"
+    }
+   },
+   {
+    "id": "fc5-2",
+    "status": "draft",
+    "idea": "S’appeler : je m’appelle, tu t’appelles, il s’appelle, nous nous appelons, vous vous appelez, ils s’appellent.",
+    "vars": {},
+    "example": [
+     "Deux l avec je, tu, il, ils ; un seul l avec nous et vous."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "f5-appeler"
+    }
+   },
+   {
+    "id": "fc5-3",
+    "status": "draft",
+    "idea": "Je devient j’ devant une voyelle : j’ai, j’habite.",
+    "vars": {},
+    "example": [
+     "On n’écrit pas « je ai »."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fc5-3-check",
+     "type": "mcq",
+     "level": 1,
+     "lang": "fr",
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {},
+     "prompt": "Laquelle est correcte ?",
+     "pool": {
+      "right": [
+       {
+        "text": "J’ai onze ans.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Je ai onze ans.",
+        "truth": "false",
+        "explain": "Devant une voyelle, je devient j’."
+       },
+       {
+        "text": "J’as onze ans.",
+        "truth": "false",
+        "explain": "Avec je : j’ai."
+       },
+       {
+        "text": "Je suis onze ans.",
+        "truth": "false",
+        "explain": "Pour l’âge, on utilise avoir : j’ai."
+       },
+       {
+        "text": "J’a onze ans.",
+        "truth": "false",
+        "explain": "Avec je : j’ai."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 3
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f5-avoir",
+   "level": 1,
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « avoir » au présent avec « {frPronoun(p)} ».",
+   "correct": "{frConj('avoir', p)}",
+   "distractors": [
+    {
+     "text": "{frPronoun(p)} {frForm('avoir', (p + 2) % 8)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm('avoir', (p + 3) % 8)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm('avoir', (p + 4) % 8)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm('avoir', (p + 6) % 8)}",
+     "misconception": "personne"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette forme ne va pas avec « {frPronoun(p)} ». Récite la conjugaison : je, tu, il/elle, nous, vous, ils/elles."
+    }
+   ],
+   "solution": [
+    "Au présent, « avoir » avec « {frPronoun(p)} » : {answer}."
+   ]
+  },
+  {
+   "type": "mcq",
+   "review": "rule",
+   "lang": "fr",
+   "id": "f5-appeler",
+   "level": 1,
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « s’appeler » au présent avec « {frPronoun(p)} ».",
+   "correct": "{frConj('s’appeler', p)}",
+   "distractors": [
+    {
+     "text": "{frPronoun(p)} {frForm('s’appeler', (p + 2) % 8)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm('s’appeler', (p + 3) % 8)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm('s’appeler', (p + 4) % 8)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frPronoun(p)} {frForm('s’appeler', (p + 6) % 8)}",
+     "misconception": "personne"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette forme ne va pas avec « {frPronoun(p)} ». Récite la conjugaison : je, tu, il/elle, nous, vous, ils/elles."
+    }
+   ],
+   "solution": [
+    "Au présent, « s’appeler » avec « {frPronoun(p)} » : {answer}."
+   ]
+  },
+  {
+   "id": "f5-cloze",
+   "type": "cloze",
+   "level": 2,
+   "lang": "fr",
+   "prompt": "Complète avec le verbe « {v} » au présent.",
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      {
+       "s": "Ma sœur",
+       "p": 3
+      },
+      {
+       "s": "Mes parents",
+       "p": 6
+      },
+      {
+       "s": "Toi, tu",
+       "p": 1
+      },
+      {
+       "s": "Nous",
+       "p": 4
+      },
+      {
+       "s": "Vous",
+       "p": 5
+      },
+      {
+       "s": "Paul",
+       "p": 2
+      },
+      {
+       "s": "Les filles",
+       "p": 7
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "avoir",
+      "s’appeler"
+     ]
+    }
+   },
+   "text": "{x.s} ___ {v == 'avoir' ? 'un vélo.' : 'Mbah.'}",
+   "answer": "frForm(v, x.p)",
+   "choices": [
+    {
+     "text": "{frForm(v, 0)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frForm(v, 1)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frForm(v, 2)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frForm(v, 4)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frForm(v, 5)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{frForm(v, 6)}",
+     "misconception": "personne"
+    }
+   ],
+   "show": 3,
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette forme ne va pas avec le sujet « {x.s} » ({frPronoun(x.p)})."
+    }
+   ],
+   "solution": [
+    "Le sujet « {x.s} » va avec « {frPronoun(x.p)} ».",
+    "{frConj(v, x.p)} : la réponse est « {answer} »."
+   ]
+  },
+  {
+   "id": "f5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "lang": "fr",
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {},
+   "prompt": "Une phrase est fausse. Laquelle ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Nous avons une maison.",
+      "truth": "true"
+     },
+     {
+      "text": "Elles s’appellent Lisette et Anne.",
+      "truth": "true"
+     },
+     {
+      "text": "Tu as un stylo bleu.",
+      "truth": "true"
+     },
+     {
+      "text": "Je m’appelle Paul.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nous nous appellons Paul et Eric.",
+      "truth": "false",
+      "explain": "Avec nous, un seul l : nous nous appelons."
+     },
+     {
+      "text": "Ils a trois chèvres.",
+      "truth": "false",
+      "explain": "Avec ils : ils ont."
+     },
+     {
+      "text": "Vous avons un ballon.",
+      "truth": "false",
+      "explain": "Avec vous : vous avez."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
