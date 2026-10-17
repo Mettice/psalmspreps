@@ -181,3 +181,11 @@ test("design: home with streak, stars and subject tiles; lesson path; forgiving 
   assert.match(html, /right >= 0\.8 \? 3 : right >= 0\.5 \? 2 : 1/, "stars from first tries");
   assert.match(html, /\.done-stars \.star \{[^}]*animation/);
 });
+
+test("installable app: the teacher review list works when only some subjects are on the phone", () => {
+  const core = pwaFile("index.html");
+  const text = core.slice(core.indexOf("function reviewText()"), core.indexOf("async function sendReview"));
+  assert.match(text, /Object\.keys\(SUBJECTS\)\.filter\(\(x\) => CONTENT\[x\]\)/, "review text skips subjects not loaded yet (bug of 2026-10-17)");
+  assert.match(core, /function reviewHome\(\) \{\r?\n  if \(!CONTENT\[RS\]\) return withSubject\(RS, reviewHome\);/);
+  assert.match(core, /function reviewLesson\(s, n\) \{\r?\n  if \(!CONTENT\[s\]\) return withSubject\(s, \(\) => reviewLesson\(s, n\)\);/);
+});

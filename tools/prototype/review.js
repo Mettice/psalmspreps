@@ -106,9 +106,11 @@ function reviewLesson(s, n) {
 /** The message a teacher sends: every problem with its comment, then the OKs counted per lesson. */
 function reviewText() {
   const out = [`Psalms Preps teacher review · ${review.name || "(name not given)"} · app ${BUILD} · ${new Date().toISOString().slice(0, 16).replace("T", " ")}`];
-  for (const s of Object.keys(SUBJECTS)) for (const n of LESSONS[s]) {
+  // In the installed app only the subjects opened so far are on the phone: skip the others (sendReview loads every
+  // subject that has marks before building the text).
+  for (const s of Object.keys(SUBJECTS).filter((x) => CONTENT[x])) for (const n of LESSONS[s]) {
     const items = reviewItems(s, n).map((it) => [it, review.marks[markKey(s, n, it.id)]]).filter(([, m]) => m);
-    if (!items.length || !CONTENT[s]) continue;
+    if (!items.length) continue;
     const ok = items.filter(([, m]) => m.ok);
     out.push("", `${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}): ${items.length} of ${reviewItems(s, n).length} checked, ${items.length - ok.length} problem(s)`);
     for (const [it, m] of items) if (!m.ok || m.note) out.push(`  ${m.ok ? "✓" : "✗"} ${s}:${n}:${it.id}${m.note ? ` — ${m.note}` : ""}`);
@@ -129,6 +131,9 @@ async function sendReview(status) {
 
 function reviewHome() {
   if (!CONTENT[RS]) return withSubject(RS, reviewHome);
+  // the subjects this teacher has marked are loaded too, so the review text below is complete
+  const missing = [...new Set(Object.keys(review.marks).map((k) => k.split(":")[0]))].find((s) => SUBJECTS[s] && !CONTENT[s]);
+  if (missing) return withSubject(missing, reviewHome);
   document.documentElement.lang = "en";
   const name = el("input", { type: "text", class: "rv-name", placeholder: "Your name", "aria-label": "Your name", autocomplete: "name" });
   name.value = review.name;
