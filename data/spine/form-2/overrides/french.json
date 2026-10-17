@@ -1,0 +1,31 @@
+{
+  "subject": "french",
+  "overrides": [
+    {
+      "id": "f2-fr-001",
+      "op": "delete",
+      "seqs": [
+        38
+      ],
+      "reason": "Row 38 repeats row 36 (adjective agreement, revision) (proposal 8).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    },
+    {
+      "id": "f2-fr-002",
+      "op": "delete",
+      "seqs": [
+        70,
+        71
+      ],
+      "expect": {
+        "70": {
+          "title": "Vocabulaire : Les loisirs et les jeux"
+        }
+      },
+      "reason": "Rows 70-71 repeat rows 49-50 exactly (same lessons, same numbers) (proposal 9).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    }
+  ]
+}

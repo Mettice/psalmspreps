@@ -159,6 +159,7 @@ def apply(spine, overrides):
             if r in rows:
                 rows[r].setdefault("overrides", []).append(ov["id"])
         log.append({k: ov[k] for k in ("id", "op", "reason", "approved_by", "approved_on") if k in ov})
+    out["terms"] = [t for t in out["terms"] if t["lessons"]]  # a term emptied by moves (Form 2 geography)
     seq = 0
     for t in out["terms"]:
         for l in t["lessons"]:

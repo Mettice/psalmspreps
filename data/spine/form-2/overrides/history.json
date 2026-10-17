@@ -1,0 +1,35 @@
+{
+  "subject": "history",
+  "overrides": [
+    {
+      "id": "f2-his-001",
+      "op": "move",
+      "seq": 8,
+      "before": 7,
+      "reason": "Row 8 is the second part of row 6 ('... continues and ends'); it goes straight after row 6 (proposal 12).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    },
+    {
+      "id": "f2-his-002",
+      "op": "swap",
+      "seqs": [
+        18,
+        19
+      ],
+      "reason": "Row 18 (Lesson 11) comes before row 19 (Lesson 10); swapped (proposal 13).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    },
+    {
+      "id": "f2-his-003",
+      "op": "set",
+      "seq": 22,
+      "field": "title",
+      "value": "The Americas: The Rise, Peak and Decline of the Inca, Maya and Aztec",
+      "reason": "Title starts with ';Lesson 14:' (proposal 14).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    }
+  ]
+}

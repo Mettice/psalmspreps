@@ -1,5 +1,7 @@
 # Official MINESEC progression sheets stay local (decision 2026-10-03); see data/sheets/README.md
 data/sheets/*.pdf
+# every class (data/form2/, …): all official PDFs stay local
+data/**/*.pdf
 
 # Built output (GitHub Actions rebuilds it on every push)
 /site/

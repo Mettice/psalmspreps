@@ -1,0 +1,18 @@
+{
+  "subject": "chemistry",
+  "overrides": [
+    {
+      "id": "f2-chem-001",
+      "op": "set",
+      "seq": 53,
+      "field": "kind",
+      "value": "remediation",
+      "expect": {
+        "title": "Techniques for separation: review"
+      },
+      "reason": "Row 53 repeats row 41 ('Techniques for separation: review') in Term 3: kept as a revision row, no new lesson (proposal 3).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    }
+  ]
+}

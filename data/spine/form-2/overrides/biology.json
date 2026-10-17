@@ -1,0 +1,26 @@
+{
+  "subject": "biology",
+  "overrides": [
+    {
+      "id": "f2-bio-001",
+      "op": "delete",
+      "seqs": [
+        38
+      ],
+      "reason": "Row 38 '1ST BREAK' marks the holiday; it is not a lesson (proposal 1).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    },
+    {
+      "id": "f2-bio-002",
+      "op": "resolve",
+      "seqs": [
+        39
+      ],
+      "check": "chapter-mismatch",
+      "reason": "Row 39 (solid wastes) is kept where the sheet dates it, 14-18 Dec; flagged for the Biology teacher (proposal 2).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    }
+  ]
+}

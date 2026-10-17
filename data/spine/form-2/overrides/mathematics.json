@@ -1,0 +1,20 @@
+{
+  "subject": "mathematics",
+  "overrides": [
+    {
+      "id": "f2-math-001",
+      "op": "delete",
+      "seqs": [
+        14
+      ],
+      "expect": {
+        "14": {
+          "title": "ordinate, origin,"
+        }
+      },
+      "reason": "Row 14 'ordinate, origin,' is a broken piece of row 13, which has the full title (proposal 15).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-17"
+    }
+  ]
+}
