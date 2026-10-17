@@ -1,0 +1,774 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "e2-15",
+   "name": "The Present Perfect tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Present Perfect for:\n• past actions whose result matters now: “It has rained, so the ground is wet.”\n• experiences, with ever and never: “Have you ever seen snow?” — “No, I have never seen snow.”\n• actions that started in the past and go on now, with since and for: “It has rained since Monday.” “I have lived here for two years.”\nForm: have / has + past participle. I have seen, she has seen. Participles: visit → visited, see → seen, eat → eaten, write → written, go → gone.\nNegative: haven't / hasn't: “He hasn't finished yet.” Questions: “Have you finished?” — “Yes, I have.”\nSince + a point in time (since Monday, since 2020); for + a length of time (for three days).\nDo not use it with a finished time: say “I saw him yesterday”, not “I have seen him yesterday”.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Bih",
+   "v": "lose",
+   "c": "her umbrella"
+  },
+  "problem": "Write in the Present Perfect, then make it negative and a question: {n} / {v} / {c}.",
+  "steps": [
+   "{n} is one person: has + the past participle of {v}, {participle(v)}: {n} has {participle(v)} {c}.",
+   "Negative: hasn't + participle: {n} hasn't {participle(v)} {c}.",
+   "Question: Has + subject + participle: Has {n} {participle(v)} {c}?"
+  ],
+  "answer": "{n} has {participle(v)} {c}. / {n} hasn't {participle(v)} {c}. / Has {n} {participle(v)} {c}?",
+  "checks": [
+   "participle(v) == 'lost'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "The Present Perfect is have or has + the past participle.",
+    "vars": {
+     "v": "see",
+     "c": "a rainbow"
+    },
+    "example": [
+     "I have {participle(v)} {c}.",
+     "She has {participle(v)} {c}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-15-form"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Since + a point in time; for + a length of time.",
+    "vars": {},
+    "example": [
+     "It has rained since Monday.",
+     "It has rained for three days."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-15-since"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Use ever in questions and never in negative answers about experiences.",
+    "vars": {},
+    "example": [
+     "Have you ever seen snow?",
+     "No, I have never seen snow."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-15-have"
+    }
+   },
+   {
+    "id": "c15-4",
+    "status": "draft",
+    "idea": "With a finished time (yesterday, last week, in {2020}), use the Simple Past, not the Present Perfect.",
+    "vars": {},
+    "example": [
+     "I saw the storm yesterday.",
+     "I have seen many storms. (no finished time)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-15-which"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-15-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "see",
+       "c": "a rainbow"
+      },
+      {
+       "v": "visit",
+       "c": "Kribi"
+      },
+      {
+       "v": "eat",
+       "c": "ndolé"
+      },
+      {
+       "v": "finish",
+       "c": "the homework"
+      },
+      {
+       "v": "lose",
+       "c": "the umbrella"
+      },
+      {
+       "v": "write",
+       "c": "the report"
+      },
+      {
+       "v": "break",
+       "c": "the window"
+      },
+      {
+       "v": "clean",
+       "c": "the gutter"
+      },
+      {
+       "v": "forget",
+       "c": "the key"
+      },
+      {
+       "v": "buy",
+       "c": "a raincoat"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in the Present Perfect.",
+   "text": "{S.t} ___ {V.c}. ({V.v})",
+   "answer": "haveFor(S.s) + ' ' + participle(V.v)",
+   "misconceptions": [
+    {
+     "id": "past",
+     "wrong": "past(V.v)",
+     "explain": "Use {haveFor(S.s)} + the past participle: {haveFor(S.s)} {participle(V.v)}.",
+     "when": "past(V.v) != participle(V.v)"
+    },
+    {
+     "id": "wrong-have",
+     "wrong": "(haveFor(S.s) == 'has' ? 'have' : 'has') + ' ' + participle(V.v)",
+     "explain": "With {S.m}, use {haveFor(S.s)}."
+    },
+    {
+     "id": "have-past",
+     "wrong": "haveFor(S.s) + ' ' + past(V.v)",
+     "explain": "After {haveFor(S.s)}, use the past participle: {participle(V.v)}.",
+     "when": "past(V.v) != participle(V.v)"
+    }
+   ]
+  },
+  {
+   "id": "e2-15-since",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "Monday",
+       "since"
+      ],
+      [
+       "three days",
+       "for"
+      ],
+      [
+       "last night",
+       "since"
+      ],
+      [
+       "a week",
+       "for"
+      ],
+      [
+       "2 o'clock",
+       "since"
+      ],
+      [
+       "two hours",
+       "for"
+      ],
+      [
+       "the beginning of the month",
+       "since"
+      ],
+      [
+       "a long time",
+       "for"
+      ],
+      [
+       "yesterday morning",
+       "since"
+      ],
+      [
+       "ten minutes",
+       "for"
+      ]
+     ]
+    },
+    "X": {
+     "expr": "P[0]"
+    },
+    "Y": {
+     "expr": "P[1]"
+    }
+   },
+   "prompt": "Choose since or for.",
+   "text": "It has rained ___ {X}.",
+   "answer": "Y",
+   "choices": [
+    {
+     "text": "since",
+     "misconception": "since"
+    },
+    {
+     "text": "for",
+     "misconception": "for"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "since",
+     "explain": "Since goes with a point in time; {X} is a length of time, so use for."
+    },
+    {
+     "id": "for",
+     "explain": "For goes with a length of time; {X} is a point in time, so use since."
+    }
+   ],
+   "show": 2
+  },
+  {
+   "id": "e2-15-have",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "see",
+       "c": "a rainbow"
+      },
+      {
+       "v": "visit",
+       "c": "Kribi"
+      },
+      {
+       "v": "eat",
+       "c": "ndolé"
+      },
+      {
+       "v": "finish",
+       "c": "the homework"
+      },
+      {
+       "v": "lose",
+       "c": "the umbrella"
+      },
+      {
+       "v": "write",
+       "c": "the report"
+      },
+      {
+       "v": "break",
+       "c": "the window"
+      },
+      {
+       "v": "clean",
+       "c": "the gutter"
+      },
+      {
+       "v": "forget",
+       "c": "the key"
+      },
+      {
+       "v": "buy",
+       "c": "a raincoat"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{S.t} ___ {participle(V.v)} {V.c}.",
+   "answer": "haveFor(S.s)",
+   "choices": [
+    {
+     "text": "have",
+     "misconception": "have"
+    },
+    {
+     "text": "has",
+     "misconception": "has"
+    },
+    {
+     "text": "is",
+     "misconception": "is"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "have",
+     "explain": "Have goes with I, you, we and they."
+    },
+    {
+     "id": "has",
+     "explain": "Has goes with he, she, it and one person or thing."
+    },
+    {
+     "id": "is",
+     "explain": "The Present Perfect uses have or has."
+    }
+   ],
+   "show": 3
+  },
+  {
+   "id": "e2-15-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Have you ever seen a rainbow?",
+       "b": "Have you ever seen a rainbow?"
+      },
+      {
+       "a": "It has rained since Monday.",
+       "b": "It has rained since Monday."
+      },
+      {
+       "a": "She hasn't finished her homework yet.",
+       "b": "She hasn't finished her homework yet."
+      },
+      {
+       "a": "We have lived in Limbe for two years.",
+       "b": "We have lived in Limbe for two years."
+      },
+      {
+       "a": "I have never eaten snails.",
+       "b": "I have never eaten snails."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-15-which",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "I ___ the film last Saturday.",
+       "a": "saw",
+       "w": [
+        "have seen",
+        "have saw"
+       ],
+       "e": [
+        "Last Saturday is a finished time: Simple Past.",
+        "That form does not exist."
+       ]
+      },
+      {
+       "s": "We ___ in Buea since 2019.",
+       "a": "have lived",
+       "w": [
+        "lived",
+        "live"
+       ],
+       "e": [
+        "Since 2019 goes on to now: Present Perfect.",
+        "Since needs the Present Perfect."
+       ]
+      },
+      {
+       "s": "___ you ever seen snow?",
+       "a": "Have",
+       "w": [
+        "Did",
+        "Has"
+       ],
+       "e": [
+        "Seen is a participle: Have you ever seen.",
+        "With you, use have."
+       ]
+      },
+      {
+       "s": "My brother ___ his umbrella yesterday.",
+       "a": "lost",
+       "w": [
+        "has lost",
+        "have lost"
+       ],
+       "e": [
+        "Yesterday is a finished time: Simple Past.",
+        "Yesterday needs the Simple Past."
+       ]
+      },
+      {
+       "s": "Look! Someone ___ the window.",
+       "a": "has broken",
+       "w": [
+        "broke",
+        "has broke"
+       ],
+       "e": [
+        "The result is here now: Present Perfect.",
+        "The participle is broken."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "I have never seen snow.",
+      "truth": "true"
+     },
+     {
+      "text": "It has rained since Monday.",
+      "truth": "true"
+     },
+     {
+      "text": "Have you finished your homework?",
+      "truth": "true"
+     },
+     {
+      "text": "She has lived here for two years.",
+      "truth": "true"
+     },
+     {
+      "text": "They haven't eaten yet.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "I have seen him yesterday.",
+      "truth": "false",
+      "explain": "Yesterday is a finished time: I saw him yesterday."
+     },
+     {
+      "text": "She has went to the market.",
+      "truth": "false",
+      "explain": "The participle of go is gone: She has gone."
+     },
+     {
+      "text": "It has rained for Monday.",
+      "truth": "false",
+      "explain": "Monday is a point in time: since Monday."
+     },
+     {
+      "text": "He have finished his work.",
+      "truth": "false",
+      "explain": "With he, use has."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

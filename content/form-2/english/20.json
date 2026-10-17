@@ -1,0 +1,310 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  18,
+  19
+ ],
+ "skills": [
+  {
+   "id": "e2-20",
+   "name": "Writing about online shopping"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Online shopping means buying goods on the internet, with a phone or a computer, and getting them delivered or collecting them.\nSteps: choose a shop or app, look at the products and prices, put what you want in the cart (basket), order, pay (by mobile money or card, or cash on delivery), and wait for the delivery.\nAdvantages: you can shop at any time, compare prices and avoid travelling.\nDangers: some sellers are dishonest; the goods may be different from the photo; never share your PIN or password.\nWriting good sentences: one idea per sentence, a capital letter and a full stop, linking words (first, then, but, because, so).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "a school bag"
+  },
+  "problem": "Write three sentences about ordering {s} online.",
+  "steps": [
+   "Say what you do first: First, I chose {s} on a shopping app and compared the prices.",
+   "Then: Then I ordered it and paid by mobile money.",
+   "Add an advantage or a warning with because or but: It was easy because I did not travel, but I checked that the seller was honest."
+  ],
+  "answer": "First, I chose {s} on a shopping app. Then I ordered it and paid by mobile money. It was easy because I did not travel.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "Online shopping: choose, put in the cart, order, pay, then receive the delivery.",
+    "vars": {},
+    "example": [
+     "I put a pair of shoes in the cart.",
+     "The delivery came two days later."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-20-steps"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "Shopping online has advantages and dangers. Never share your PIN or password.",
+    "vars": {},
+    "example": [
+     "Advantage: you can compare prices at home.",
+     "Danger: some sellers are dishonest."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-20-c2",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "writing-skills"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is an advantage of online shopping?",
+         "r": "You can compare prices without travelling.",
+         "w": [
+          "Some sellers are dishonest.",
+          "The goods may not look like the photo.",
+          "Thieves may ask for your PIN."
+         ],
+         "e": [
+          "That is a danger.",
+          "That is a danger.",
+          "That is a danger."
+         ],
+         "y": "Comparing prices at home is an advantage."
+        },
+        {
+         "q": "Which is a danger of online shopping?",
+         "r": "The goods may be different from the photo.",
+         "w": [
+          "You can shop at night.",
+          "You do not need to travel.",
+          "You can compare prices."
+         ],
+         "e": [
+          "That is an advantage.",
+          "That is an advantage.",
+          "That is an advantage."
+         ],
+         "y": "Goods that do not match the photo are a danger."
+        },
+        {
+         "q": "A message asks for your mobile money PIN to send you a prize. What should you do?",
+         "r": "Never share it.",
+         "w": [
+          "Send it quickly.",
+          "Send half of it.",
+          "Send it to a friend first."
+         ],
+         "e": [
+          "Thieves use PINs to steal money.",
+          "Never share any part of it.",
+          "Never share it with anyone."
+         ],
+         "y": "Your PIN is secret: never share it."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "Join ideas with linking words: first, then, but, because, so.",
+    "vars": {},
+    "example": [
+     "I ordered a book online because it was cheaper.",
+     "It came late, so I complained."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-20-link"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-20-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "prompt": "Put the steps of online shopping in order.",
+   "items": [
+    {
+     "text": "Choose a shop or an app"
+    },
+    {
+     "text": "Look at the products and prices"
+    },
+    {
+     "text": "Put what you want in the cart"
+    },
+    {
+     "text": "Order and pay"
+    },
+    {
+     "text": "Receive the delivery"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "e2-20-link",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "I bought the bag online ___ it was cheaper than in the market.",
+       "a": "because",
+       "w": [
+        "but",
+        "so"
+       ],
+       "e": [
+        "The second part gives a reason: because.",
+        "The second part gives a reason, not a result."
+       ]
+      },
+      {
+       "s": "The shoes were too small, ___ I sent them back.",
+       "a": "so",
+       "w": [
+        "because",
+        "but"
+       ],
+       "e": [
+        "Sending them back is a result: so.",
+        "Sending them back is a result, not a contrast."
+       ]
+      },
+      {
+       "s": "Online shopping is easy, ___ some sellers are dishonest.",
+       "a": "but",
+       "w": [
+        "so",
+        "because"
+       ],
+       "e": [
+        "The second part is a contrast: but.",
+        "The second part is a contrast: but."
+       ]
+      },
+      {
+       "s": "___, I chose the phone. Then I paid for it.",
+       "a": "First",
+       "w": [
+        "Finally",
+        "But"
+       ],
+       "e": [
+        "The first step: First.",
+        "But joins contrasting ideas."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the linking word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Write six sentences in your exercise book about online shopping: what you would buy, the steps you would follow, one advantage and one danger. Use at least three linking words (first, then, because, but, so).",
+  "model": [
+   "I would like to buy a dictionary online.",
+   "First, I would choose a trusted shopping app and compare the prices.",
+   "Then I would put the dictionary in the cart and order it.",
+   "I would pay by mobile money, but I would never share my PIN.",
+   "Online shopping is useful because I do not have to travel to the city.",
+   "However, the book may be late, so I would keep the seller's phone number."
+  ],
+  "checklist": [
+   "I wrote six sentences.",
+   "I said what I would buy.",
+   "I gave the steps in order.",
+   "I gave one advantage and one danger.",
+   "I used at least three linking words.",
+   "Each sentence has one main idea.",
+   "Each sentence starts with a capital letter and ends with a full stop."
+  ]
+ }
+}

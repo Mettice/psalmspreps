@@ -1,0 +1,497 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-9",
+   "name": "Talking about pandemics and contagious diseases; reading about an outbreak"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A contagious disease passes from one person to another, for example cholera, measles, tuberculosis and COVID-19. An epidemic is when many people in one area catch a disease at the same time; a pandemic is an epidemic that spreads across many countries, like COVID-19 in 2020.\nIn the text, cholera spread through dirty water and food. The sick lost water through diarrhoea and vomiting. They were treated with oral rehydration salts (ORS) and in hospital. Families boiled their water, washed their hands with soap and used latrines.\nMalaria is a serious illness, but it is not contagious: mosquitoes carry it from person to person, so we sleep under a mosquito net.\nTalking about illness: “What are the symptoms?” “How does it spread?” “How can we prevent it?”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": "cholera"
+  },
+  "problem": "Answer three questions about {d} from the text: How does it spread? What are the symptoms? How can we prevent it?",
+  "steps": [
+   "How it spreads: people drink dirty water or eat food that is not clean.",
+   "Symptoms: watery diarrhoea and vomiting, so the body loses water.",
+   "Prevention: boil or treat drinking water, wash hands with soap, use latrines."
+  ],
+  "answer": "It spreads through dirty water and food; it causes diarrhoea and vomiting; we prevent it with clean water, handwashing and latrines.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Read the text about a cholera outbreak.",
+    "vars": {},
+    "example": [
+     "Last rainy season there was an outbreak of cholera in a town near the coast. Cholera is a contagious disease: it spreads when people drink dirty water or eat food that is not clean.",
+     "The sick had watery diarrhoea and vomited, so their bodies lost a lot of water. Nurses gave them oral rehydration salts (ORS) mixed with clean water, and the very sick were treated in the hospital.",
+     "Health workers went from house to house. They told families to boil or treat their drinking water, to wash their hands with soap and to use latrines. After a few weeks, the outbreak ended."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-9-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How does cholera spread?",
+         "r": "through dirty water and food",
+         "w": [
+          "through mosquito bites",
+          "through the air only",
+          "through sunlight"
+         ],
+         "e": [
+          "Mosquitoes carry malaria, not cholera.",
+          "The text says dirty water and food.",
+          "The text says dirty water and food."
+         ],
+         "y": "The text says it spreads when people drink dirty water or eat food that is not clean."
+        },
+        {
+         "q": "What did nurses give the sick?",
+         "r": "oral rehydration salts",
+         "w": [
+          "mosquito nets",
+          "soft drinks",
+          "sweets"
+         ],
+         "e": [
+          "Mosquito nets protect against malaria.",
+          "The text says ORS mixed with clean water.",
+          "The text says ORS."
+         ],
+         "y": "Nurses gave ORS mixed with clean water."
+        },
+        {
+         "q": "Why did the sick need ORS?",
+         "r": "Their bodies lost a lot of water.",
+         "w": [
+          "They were hungry.",
+          "They had a cough.",
+          "They could not sleep."
+         ],
+         "e": [
+          "The text talks about losing water.",
+          "The text does not talk about a cough.",
+          "The text does not say that."
+         ],
+         "y": "Diarrhoea and vomiting made them lose water."
+        },
+        {
+         "q": "What did health workers tell families to do?",
+         "r": "boil or treat their drinking water",
+         "w": [
+          "stop eating",
+          "close the schools",
+          "drink less water"
+         ],
+         "e": [
+          "The text does not say that.",
+          "The text does not talk about schools.",
+          "They must drink clean water, not less."
+         ],
+         "y": "They told families to boil or treat their water, wash hands and use latrines."
+        }
+       ]
+      }
+     },
+     "prompt": "From the text about the cholera outbreak: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Contagious means it can pass from one person to another. An epidemic spreads in one area; a pandemic spreads across many countries.",
+    "vars": {},
+    "example": [
+     "Cholera, measles and {'COVID-19'} are contagious.",
+     "Malaria is not contagious: mosquitoes carry it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-9-words"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "To talk about an illness, ask about the symptoms, how it spreads, and how to prevent or treat it.",
+    "vars": {},
+    "example": [
+     "What are the symptoms? — A high fever and a cough.",
+     "How can we prevent it? — Wash your hands with soap."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-9-ask"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-9-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "contagious",
+     "right": "can pass from one person to another"
+    },
+    {
+     "left": "epidemic",
+     "right": "many people in one area catch a disease at the same time"
+    },
+    {
+     "left": "pandemic",
+     "right": "a disease that spreads across many countries"
+    },
+    {
+     "left": "outbreak",
+     "right": "the sudden start of a disease in a place"
+    },
+    {
+     "left": "symptom",
+     "right": "a sign of an illness, such as a fever"
+    },
+    {
+     "left": "prevention",
+     "right": "stopping something before it happens"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-9-ask",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "health-facts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are the symptoms of malaria?",
+       "r": "Fever, headache and shivering.",
+       "w": [
+        "By mosquito bites.",
+        "Sleep under a net.",
+        "In the rainy season."
+       ],
+       "e": [
+        "That answers How does it spread.",
+        "That answers How can we prevent it.",
+        "That answers When."
+       ],
+       "y": "Symptoms are the signs: fever, headache, shivering."
+      },
+      {
+       "q": "How does COVID-19 spread?",
+       "r": "Through droplets when sick people cough or sneeze.",
+       "w": [
+        "A fever and a cough.",
+        "Wear a mask.",
+        "In 2020."
+       ],
+       "e": [
+        "Those are symptoms.",
+        "That is prevention.",
+        "That answers When."
+       ],
+       "y": "How does it spread asks how it passes between people."
+      },
+      {
+       "q": "How can we prevent cholera?",
+       "r": "Drink clean water and wash our hands with soap.",
+       "w": [
+        "Diarrhoea and vomiting.",
+        "Through dirty water.",
+        "Near the coast."
+       ],
+       "e": [
+        "Those are symptoms.",
+        "That is how it spreads.",
+        "That answers Where."
+       ],
+       "y": "Prevent asks what we do to stop it."
+      },
+      {
+       "q": "How is cholera treated?",
+       "r": "With oral rehydration salts and care in hospital.",
+       "w": [
+        "With a mosquito net.",
+        "With sweets.",
+        "By going to school."
+       ],
+       "e": [
+        "Nets prevent malaria.",
+        "Sweets do not treat cholera.",
+        "That is not a treatment."
+       ],
+       "y": "The sick are given ORS and hospital care."
+      }
+     ]
+    }
+   },
+   "prompt": "Someone asks: “{X.q}” What is the best answer?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-9-facts",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "health-facts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which disease is NOT contagious?",
+       "r": "malaria",
+       "w": [
+        "cholera",
+        "measles",
+        "COVID-19"
+       ],
+       "e": [
+        "Cholera passes through dirty water and food from sick people.",
+        "Measles passes from person to person.",
+        "COVID-19 passes from person to person."
+       ],
+       "y": "Mosquitoes carry malaria; it does not pass directly from one person to another."
+      },
+      {
+       "q": "What protects us from malaria at night?",
+       "r": "a mosquito net",
+       "w": [
+        "oral rehydration salts",
+        "a face mask",
+        "boiled water"
+       ],
+       "e": [
+        "ORS treats water loss.",
+        "Masks are for illnesses spread by droplets.",
+        "Boiled water prevents cholera."
+       ],
+       "y": "A mosquito net keeps mosquitoes away while we sleep."
+      },
+      {
+       "q": "COVID-19 spread to many countries in 2020. It was …",
+       "r": "a pandemic",
+       "w": [
+        "a symptom",
+        "a vaccine",
+        "a treatment"
+       ],
+       "e": [
+        "A symptom is a sign of illness.",
+        "A vaccine protects against disease.",
+        "A treatment cures."
+       ],
+       "y": "A disease across many countries is a pandemic."
+      },
+      {
+       "q": "What is the best way to stop germs on our hands?",
+       "r": "wash them with soap and clean water",
+       "w": [
+        "wipe them on our clothes",
+        "blow on them",
+        "rinse them in a puddle"
+       ],
+       "e": [
+        "Clothes do not remove germs.",
+        "Blowing does not remove germs.",
+        "Dirty water spreads germs."
+       ],
+       "y": "Soap and clean water remove germs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "health-facts"
+   ],
+   "prompt": "One sentence is NOT true. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cholera spreads through dirty water.",
+      "truth": "true"
+     },
+     {
+      "text": "Washing hands with soap removes germs.",
+      "truth": "true"
+     },
+     {
+      "text": "Measles is contagious.",
+      "truth": "true"
+     },
+     {
+      "text": "ORS helps a body that has lost water.",
+      "truth": "true"
+     },
+     {
+      "text": "A pandemic spreads across many countries.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Malaria passes from person to person when they shake hands.",
+      "truth": "false",
+      "explain": "Malaria is carried by mosquitoes; it is not contagious."
+     },
+     {
+      "text": "An epidemic is a medicine against cholera.",
+      "truth": "false",
+      "explain": "An epidemic is many people catching a disease at the same time."
+     },
+     {
+      "text": "Cholera is treated with mosquito nets.",
+      "truth": "false",
+      "explain": "Nets prevent malaria; cholera is treated with ORS and hospital care."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

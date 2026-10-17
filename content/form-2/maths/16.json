@@ -1,0 +1,547 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "m2-16",
+   "name": "Variables, terms, constant and coefficients"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Look at the expression 5x + 3y − 7.\n• The variables are the letters, x and y: they stand for numbers that can change.\n• The terms are the parts joined by + and −: 5x, 3y and −7. The sign in front belongs to the term.\n• A coefficient is the number in front of a letter: the coefficient of x is 5 and the coefficient of y is 3.\n• The constant term has no letter: here it is −7.\nHidden ones: in x − y + 4, the coefficient of x is 1 (x = 1x) and the coefficient of y is −1 (−y = −1y).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 4,
+   "b": -2,
+   "c": 9,
+   "one": 1
+  },
+  "problem": "For the expression {poly([a, 'x'], [b, 'y'], [one, 'z'], [c, ''])}, name the variables, the terms, each coefficient and the constant term.",
+  "steps": [
+   "The variables are the letters: x, y and z.",
+   "The terms are {mono(a, 'x')}, {mono(b, 'y')}, z and {c}.",
+   "The coefficients: {a} for x, {b} for y, and {one} for z (z = {one}z).",
+   "The constant term is the term with no letter: {c}."
+  ],
+  "answer": "Variables x, y, z; coefficients {a}, {b}, {one}; constant term {c}.",
+  "checks": [
+   "b < 0"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "The variables of an expression are its letters.",
+    "vars": {
+     "a": 5,
+     "b": 3,
+     "c": -7
+    },
+    "example": [
+     "In {poly([a, 'x'], [b, 'y'], [c, ''])}, the variables are x and y."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-16-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-language"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "c": {
+       "int": [
+        -20,
+        20
+       ]
+      },
+      "V": {
+       "pick": [
+        [
+         "x",
+         "y"
+        ],
+        [
+         "a",
+         "b"
+        ],
+        [
+         "m",
+         "n"
+        ],
+        [
+         "p",
+         "q"
+        ]
+       ]
+      }
+     },
+     "prompt": "Which are the variables in {poly([a, V[0]], [b, V[1]], [c, ''])}?",
+     "correct": "{V[0]} and {V[1]}",
+     "distractors": [
+      {
+       "text": "{a} and {b}",
+       "misconception": "coef"
+      },
+      {
+       "text": "{c}",
+       "misconception": "const"
+      },
+      {
+       "text": "{mono(a, V[0])} and {mono(b, V[1])}",
+       "misconception": "terms"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "coef",
+       "explain": "{a} and {b} are the coefficients, the numbers in front of the letters."
+      },
+      {
+       "id": "const",
+       "explain": "{c} is the constant term: it has no letter."
+      },
+      {
+       "id": "terms",
+       "explain": "Those are terms. The variables are just the letters."
+      }
+     ],
+     "solution": [
+      "The variables are the letters.",
+      "In {poly([a, V[0]], [b, V[1]], [c, ''])} they are {answer}."
+     ],
+     "where": [
+      "a != 0 && b != 0 && c != 0",
+      "abs(a) != 1 && abs(b) != 1",
+      "a != b"
+     ]
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Terms are the parts of an expression joined by + and −. The sign in front belongs to the term.",
+    "vars": {
+     "a": 5,
+     "b": 3,
+     "c": -7
+    },
+    "example": [
+     "{poly([a, 'x'], [b, 'y'], [c, ''])} has three terms: {mono(a, 'x')}, {mono(b, 'y')} and {c}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-16-terms"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "The coefficient of a letter is the number in front of it, with its sign. x has coefficient {one} and −x has coefficient −{one}.",
+    "vars": {
+     "a": 5,
+     "b": -4,
+     "one": 1
+    },
+    "example": [
+     "In {poly([a, 'x'], [b, 'y'])}: the coefficient of x is {a}, of y is {b}.",
+     "In {poly([one, 'x'], [-one, 'y'])}: the coefficient of x is {one}, of y is {-one}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-16-coef"
+    }
+   },
+   {
+    "id": "c16-4",
+    "status": "draft",
+    "idea": "The constant term has no letter. Keep its sign.",
+    "vars": {
+     "a": 2,
+     "c": -9
+    },
+    "example": [
+     "In {poly([a, 'x'], [c, ''])}, the constant term is {c}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-16-const"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-16-terms",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "b": {
+     "pick": [
+      0,
+      -3,
+      2,
+      5,
+      -7
+     ]
+    },
+    "d": {
+     "pick": [
+      0,
+      0,
+      4,
+      -6
+     ]
+    },
+    "c": {
+     "pick": [
+      0,
+      -8,
+      3,
+      10
+     ]
+    }
+   },
+   "prompt": "How many terms are there in {poly([a, 'x'], [b, 'y'], [d, 'z'], [c, ''])}?",
+   "answer": "(a != 0 ? 1 : 0) + (b != 0 ? 1 : 0) + (d != 0 ? 1 : 0) + (c != 0 ? 1 : 0)",
+   "misconceptions": [
+    {
+     "id": "letters",
+     "wrong": "(b != 0 ? 1 : 0) + (d != 0 ? 1 : 0) + 1",
+     "explain": "Count every part joined by + or −, including the constant term.",
+     "when": "c != 0"
+    }
+   ],
+   "solution": [
+    "The terms are the parts joined by + and −.",
+    "{poly([a, 'x'], [b, 'y'], [d, 'z'], [c, ''])} has {answer} terms."
+   ],
+   "where": [
+    "a != 0"
+   ]
+  },
+  {
+   "id": "m2-16-coef",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -20,
+      20
+     ]
+    },
+    "V": {
+     "pick": [
+      [
+       "x",
+       "y"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "m",
+       "n"
+      ],
+      [
+       "p",
+       "q"
+      ]
+     ]
+    }
+   },
+   "prompt": "What is the coefficient of {V[1]} in {poly([a, V[0]], [b, V[1]], [c, ''])}?",
+   "answer": "b",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "-b",
+     "explain": "Keep the sign in front of the term: {mono(b, V[1])}."
+    },
+    {
+     "id": "other",
+     "wrong": "a",
+     "explain": "{a} is the coefficient of {V[0]}."
+    }
+   ],
+   "solution": [
+    "The coefficient is the number in front of {V[1]}, with its sign.",
+    "In {mono(b, V[1])} it is {answer}."
+   ],
+   "where": [
+    "a != 0 && b != 0 && c != 0",
+    "abs(a) != 1 && abs(b) != 1",
+    "a != b"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-16-const",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -20,
+      20
+     ]
+    },
+    "V": {
+     "pick": [
+      [
+       "x",
+       "y"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "m",
+       "n"
+      ],
+      [
+       "p",
+       "q"
+      ]
+     ]
+    }
+   },
+   "prompt": "What is the constant term of {poly([a, V[0]], [b, V[1]], [c, ''])}?",
+   "answer": "c",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "-c",
+     "explain": "Keep the sign in front of the number: the constant term is {c}."
+    },
+    {
+     "id": "coef",
+     "wrong": "a",
+     "explain": "{a} is a coefficient; the constant term has no letter."
+    }
+   ],
+   "solution": [
+    "The constant term is the term with no letter, with its sign.",
+    "It is {answer}."
+   ],
+   "where": [
+    "a != 0 && b != 0 && c != 0",
+    "abs(a) != 1 && abs(b) != 1",
+    "a != b"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-16-build",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -12,
+      12
+     ]
+    }
+   },
+   "prompt": "Which expression has coefficient of x equal to {k} and constant term {c}?",
+   "correct": "{poly([k, 'x'], [c, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([c, 'x'], [k, ''])}",
+     "misconception": "swapped"
+    },
+    {
+     "text": "{poly([k, 'x'], [-c, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{poly([-k, 'x'], [c, ''])}",
+     "misconception": "sign2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swapped",
+     "explain": "The coefficient goes in front of x and the constant term stands alone."
+    },
+    {
+     "id": "sign",
+     "explain": "The constant term is {c}: check its sign."
+    },
+    {
+     "id": "sign2",
+     "explain": "The coefficient of x is {k}: check its sign."
+    }
+   ],
+   "solution": [
+    "The coefficient of x is the number in front of x: {mono(k, 'x')}.",
+    "The constant term is {c}.",
+    "So the expression is {answer}."
+   ],
+   "where": [
+    "k != 0 && c != 0 && abs(k) != 1 && k != c && k != -c"
+   ]
+  },
+  {
+   "id": "m2-16-hidden",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -20,
+      20
+     ]
+    },
+    "V": {
+     "pick": [
+      [
+       "x",
+       "y"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "m",
+       "n"
+      ],
+      [
+       "p",
+       "q"
+      ]
+     ]
+    },
+    "s": {
+     "pick": [
+      1,
+      -1
+     ]
+    },
+    "one": 1,
+    "z": 0
+   },
+   "prompt": "What is the coefficient of {V[0]} in {poly([b, V[1]], [s, V[0]], [c, ''])}?",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "zero",
+     "wrong": "0",
+     "explain": "There is a term with {V[0]}, so the coefficient is not {z}: {mono(s, V[0])} = {s}{V[0]}.",
+     "when": "true"
+    },
+    {
+     "id": "sign",
+     "wrong": "-s",
+     "explain": "Keep the sign in front of the term."
+    }
+   ],
+   "solution": [
+    "{mono(s, V[0])} means {s} × {V[0]}: a letter on its own has coefficient {one}, with the sign in front of it.",
+    "So the coefficient of {V[0]} is {answer}."
+   ],
+   "where": [
+    "a != 0 && b != 0 && c != 0",
+    "abs(a) != 1 && abs(b) != 1",
+    "a != b"
+   ],
+   "signed": true
+  }
+ ]
+}

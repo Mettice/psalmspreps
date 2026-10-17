@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-134 P1 items: 132 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+147 P1 items: 145 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -163,6 +163,19 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-F07 | French reading texts (original) | open |
 | TR-F08 | French vocabulary: family, presentations, school | open |
 | TR-F09 | French statement pools, notes (15) and cards (45) | open |
+| TR-N01 | Form 2 Maths: integers, sign rules | open |
+| TR-N02 | Form 2 Maths: powers and laws of indices | open |
+| TR-N03 | Form 2 Maths: primes, HCF and LCM | open |
+| TR-N04 | Form 2 Maths: roots and sequences | open |
+| TR-N05 | Form 2 Maths: triangle inequality, segments, perpendicular bisector | open |
+| TR-N06 | Form 2 Maths: the coordinate plane | open |
+| TR-N07 | Form 2 Maths: algebraic expressions, substitution, expansion | open |
+| TR-N08 | Form 2 Maths: equations and inequalities | open |
+| TR-W01 | Form 2 English: reading texts and dialogues | open |
+| TR-W02 | Form 2 English: health facts | open |
+| TR-W03 | Form 2 English: public holidays | open |
+| TR-W04 | Form 2 English: grammar | open |
+| TR-W05 | Form 2 English: vocabulary | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -574,3 +587,51 @@ Reviewer: a French teacher (bilingual-system French), not the English reviewer.
 ### Added 2026-10-17 (installable app and new design)
 - [ ] **TR-R02 [P2] Rewards and streaks:** stars per lesson (3 for at least 80% right first time, 2 for at least half, else 1), 21 badges, and a streak that survives up to two days off in a row. Please say whether the thresholds feel fair for Form One, and whether any badge name should change. *Location:* `starsOf()`, `streak()`, `BADGES` in `tools/prototype/app.js`.
 - [ ] **TR-R03 [P3] Subject colours and icons:** 🔢 Maths, 📖 English, ⚡ Physics, 🧪 Chemistry, 🌍 Geography, 🍲 Home Economics, 🏛️ History, 🌱 Biology, 💻 Computer Science, 💬 French. *Location:* `STYLE` in `tools/prototype/app.js`.
+
+## N. Maths Form 2, Batch M2-1 (Term 1, rows 1–24), added 2026-10-17 (form-2 branch, not live)
+
+Built on the `form-2` branch at Dion's request (“start with maths and english term 1”); **not on the live site** until
+Dion merges it. Numbered by place in the year (proposal G1): Lesson n is row n of the Form 2 sheet, so the app's
+Lesson 2 is the sheet's “Lesson 1: Operations in the set of integers”. Row 1 (“Lesson 0: Diagnostic assessment”) is
+deferred. 23 lessons are taught with auto-marked practice: 23 notes, 88 teach cards, 125 practice templates and 36
+card-check templates; 13 have an **authored key**, 148 are **computed by rule**. Every question as the pupil sees it is
+in `content/form-2/maths/REVIEW.md` (drawings in `figures/`); every authored key in `content/form-2/maths/AUTHORED.md`.
+Reviewer: a Maths teacher.
+
+### P1: wrong maths here would mislead the pupil
+- [ ] **TR-N01 [P1] Integers (Lesson 2):** sign rules for +, −, ×, ÷; subtracting as adding the opposite; × and ÷ before + and −. Temperatures below zero on top of Mount Cameroon are used as a context. *Location:* `content/form-2/maths/2.json`.
+- [ ] **TR-N02 [P1] Powers and laws of indices (Lessons 3–4):** base, index, (−2)³ = −8 and (−2)⁴ = 16; aᵐ × aⁿ, aᵐ ÷ aⁿ, (aᵐ)ⁿ, a⁰ = 1; the laws need the same base. *Location:* `3.json`, `4.json`; `pw()`, `powExpand()` in `src/engine/lib/maths2.js`.
+- [ ] **TR-N03 [P1] Primes, HCF and LCM (Lessons 5–6):** 1 is not prime; factorisation by repeated division; index form; HCF with the lowest powers, LCM with the highest; HCF × LCM = product; the sorting card “HCF or LCM?” is authored. *Location:* `5.json`, `6.json`; `primeFactors()`, `hcf()`, `lcm()`.
+- [ ] **TR-N04 [P1] Roots and sequences (Lessons 7–8):** √ and ∛ by prime factors (halve the indices, or divide them by three); term n = first term + (n − 1) × difference. *Location:* `7.json`, `8.json`.
+- [ ] **TR-N05 [P1] Distances (Lessons 9–12):** the triangle inequality (the third side is strictly between the difference and the sum); M is on [AB] exactly when AM + MB = AB; the perpendicular bisector: definition, the four construction steps, PA = PB exactly when P is on it. *Location:* `9.json` to `12.json`.
+- [ ] **TR-N06 [P1] The coordinate plane (Lessons 13–14):** abscissa first, ordinate second; points on the axes; reading points from −5 to 5. *Location:* `13.json`, `14.json`; `coordPlane()`.
+- [ ] **TR-N07 [P1] Algebra (Lessons 15–20):** writing expressions from words (“5 less than x” is x − 5); variable, term, coefficient (x has coefficient 1, −x has −1), constant term; like terms (ab = ba; x and x² are unlike); simplifying; substitution with negative numbers in brackets; expanding a(b + c), including a negative factor. *Location:* `15.json` to `20.json`; `poly()`, `mono()`, `bracket()`.
+- [ ] **TR-N08 [P1] Equations and inequalities (Lessons 21–24):** solving by doing the same to both sides; dividing an inequality by a negative number turns the sign round; open circle for < and >, filled circle for ≤ and ≥. *Location:* `21.json` to `24.json`; `holds()`, `ineqLine()`.
+
+### P2: conventions and decisions
+- [ ] **TR-N09 [P2] Negative answers are typed with the full keyboard** (many phone number pads have no minus sign). Every variant of such a question gets the same keyboard, so the keyboard never gives away the sign. *Location:* `signed` in the templates; `inputModeFor()` in `src/engine/template.js`.
+- [ ] **TR-N10 [P2] The diagnostic test (row 1) is not in the app.** Should the app offer a Form One revision check there, like the Primary 6 readiness check before Form One? *Location:* `content/form-2/maths/1.json`.
+- [ ] **TR-N11 [P2] Notation:** as approved for Form One ((AB) line, [AB] segment, AB length); (Δ) for the perpendicular bisector; ℤ for the integers; “HCF (HCD)” as on the sheet.
+
+## W. English Form 2, Batch E2-1 (Term 1, rows 1–32), added 2026-10-17 (form-2 branch, not live)
+
+Numbered by place in the year (proposal G1). 29 lessons are taught; the 3 speech-work lessons (rows 8, 12, 22) are
+deferred as in Form One (they need audio). The 5 writing lessons (rows 4, 16, 20, 28, 32) end with a paper task (model
+answer and self-check list, not marked). 29 notes, 93 teach cards, 118 practice templates and 27 card-check templates;
+125 have an **authored key**, 20 are **computed by rule** (verb forms and spellings from the Form One English library).
+Everything is in `content/form-2/english/REVIEW.md` and `AUTHORED.md`. Reviewer: an English teacher.
+
+### P1: wrong English or facts here would mislead the pupil
+- [ ] **TR-W01 [P1] Reading texts, interviews and dialogues:** all original, written for the app: Ngwa's bus journey (row 1), the interview with a dentist (5), a cholera outbreak (9), the seasons and the harmattan (13), a telephone call (17), the village health centre (21), living together in a quarter (25), the National Day dialogue (29). Please check the English, the answers and that they suit Form Two. *Location:* the first card of each of those lessons.
+- [ ] **TR-W02 [P1] Health facts (rows 5, 9, 10):** cholera spreads through dirty water and food and is treated with ORS; malaria is carried by mosquitoes and is not contagious; COVID-19 spreads through droplets; which specialist treats what (dermatologist, ophthalmologist, paediatrician, cardiologist, ENT doctor). *Location:* `9.json`, `10.json`; source `health-facts`.
+- [ ] **TR-W03 [P1] Public holidays (row 29):** New Year's Day 1 January, Youth Day 11 February, Labour Day 1 May, National Day 20 May (unity), Assumption Day 15 August, Christmas 25 December; Good Friday, Ascension, Eid al-Fitr and Eid al-Adha on moving dates. *Location:* `29.json`; source `cameroon-holidays`.
+- [ ] **TR-W04 [P1] Grammar (rows 3, 7, 11, 15, 19, 24, 27, 31):** Simple Present (habits, facts, timetables, adverbs of frequency, state verbs), Present Continuous (now, fixed plans), Simple Past, Present Perfect (since and for, ever and never, not with a finished time), Simple Future (will, going to, shall), Past Perfect, regular and irregular verbs, modals. *Location:* those lessons.
+- [ ] **TR-W05 [P1] Vocabulary (rows 2, 6, 10, 14, 18, 23, 26, 30):** travel, dental care, pandemics and specialists, weather, telephone and shopping, humanitarian words, synonyms, prefixes and suffixes. *Location:* those lessons; `AUTHORED.md`.
+
+### P2: conventions and decisions
+- [ ] **TR-W06 [P2] Listening lessons (rows 17 and 25)** are taught with a written telephone call and a written talk, which the pupil reads (“In class you would listen to it”). Is that acceptable until audio is decided? *Location:* `17.json`, `25.json`.
+- [ ] **TR-W07 [P2] Picture talk (row 21):** there is no picture; the lesson teaches how to describe one (Present Continuous) with written examples.
+- [ ] **TR-W08 [P2] Telephone brands (row 17):** no brand is named; the lesson talks about price, battery, camera and memory instead.
+
+### Added 2026-10-17 (Form 2 in the app, form-2 branch)
+- [ ] **TR-R04 [P2] Two classes in one app:** a “Form One / Form Two” switch on the home screen (Form One stays the default, so a Form One pupil sees no change). Each class has its own subject tiles and progress (“f2-maths:5” never mixes with “maths:5”); streak, stars and badges count both. Each class has its own shareable file (Form One: `offline.html`, as before; Form Two: `offline-form-2.html`). In review mode the tabs read “Form Two Maths”, “Form Two English”. *Location:* `CLASSES`, `CLASS_OF` in `tools/prototype/build.mjs`; `form()`, `subjectName()` in `tools/prototype/app.js`.

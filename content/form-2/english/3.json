@@ -1,0 +1,933 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-3",
+   "name": "The Simple Present tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Simple Present for habits (“I walk to school”), facts (“Water boils at 100 °C”) and timetables (“The bus leaves at seven”).\nWith he, she, it or one person or thing, add -s or -es: he walks, she washes, it carries → carries, have → has.\nNegative: don't / doesn't + the verb without -s: “Tabe doesn't take the bus.”\nQuestions: Do / Does + subject + verb: “Does the bus stop here?” — “Yes, it does.”\nAdverbs of frequency (always, usually, often, sometimes, rarely, never) go before the main verb but after be: “She always takes a taxi.” “The bus is never late.”\nSome verbs are not used in the -ing form when they mean a state: know, like, want, need, believe. Say “I know him”, not “I am knowing him”.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Bih",
+   "v": "catch",
+   "c": "a taxi",
+   "f": "usually"
+  },
+  "problem": "Put the adverb in the right place, then make the sentence negative and a question: {n} {thirdPerson(v)} {c} to school. ({f})",
+  "steps": [
+   "The adverb goes before the main verb: {n} {f} {thirdPerson(v)} {c} to school.",
+   "Negative: doesn't + the verb without -s: {n} doesn't {f} {v} {c} to school.",
+   "Question: Does + subject + verb: Does {n} {f} {v} {c} to school?"
+  ],
+  "answer": "{n} {f} {thirdPerson(v)} {c} to school. / {n} doesn't {f} {v} {c} to school. / Does {n} {f} {v} {c} to school?",
+  "checks": [
+   "thirdPerson(v) == 'catches'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "With he, she, it or one person or thing, the Simple Present verb takes -s or -es.",
+    "vars": {
+     "v": "take",
+     "c": "the bus"
+    },
+    "example": [
+     "I {v} {c}.",
+     "My uncle {thirdPerson(v)} {c}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-3-form"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "Timetables and facts are in the Simple Present too.",
+    "vars": {},
+    "example": [
+     "The train to Douala leaves at nine.",
+     "The sun rises in the east."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-3-c2",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The bus leaves at six every morning.",
+         "r": "It is a timetable.",
+         "w": [
+          "It is happening now.",
+          "It happened yesterday.",
+          "It will happen once."
+         ],
+         "e": [
+          "“Every morning” shows a fixed time, not now.",
+          "Yesterday needs the past.",
+          "It happens every morning."
+         ],
+         "y": "A fixed time of a bus is a timetable."
+        },
+        {
+         "q": "Water boils at one hundred degrees.",
+         "r": "It is a fact.",
+         "w": [
+          "It is happening now.",
+          "It is a plan for tomorrow.",
+          "It happened last week."
+         ],
+         "e": [
+          "It is always true, not only now.",
+          "It is always true.",
+          "It is always true, not past."
+         ],
+         "y": "It is always true: a fact."
+        },
+        {
+         "q": "My sister walks to school every day.",
+         "r": "It is a habit.",
+         "w": [
+          "It is happening now.",
+          "It is a timetable.",
+          "It happened once."
+         ],
+         "e": [
+          "“Every day” shows a habit.",
+          "It is what a person does regularly.",
+          "“Every day” means many times."
+         ],
+         "y": "Something she does every day is a habit."
+        },
+        {
+         "q": "The market opens at seven on Saturdays.",
+         "r": "It is a timetable.",
+         "w": [
+          "It is a habit of one person.",
+          "It is happening now.",
+          "It happened yesterday."
+         ],
+         "e": [
+          "It is a fixed time for everyone.",
+          "It is a fixed time, not now.",
+          "It is not past."
+         ],
+         "y": "A fixed opening time is a timetable."
+        },
+        {
+         "q": "Cows eat grass.",
+         "r": "It is a fact.",
+         "w": [
+          "It is happening now.",
+          "It is a timetable.",
+          "It happened last year."
+         ],
+         "e": [
+          "It is always true.",
+          "There is no time in it.",
+          "It is always true."
+         ],
+         "y": "It is always true: a fact."
+        }
+       ]
+      }
+     },
+     "prompt": "Why is “{X.q}” in the Simple Present?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "Negative: don't or doesn't + the verb without -s. Question: Do or Does + subject + verb.",
+    "vars": {},
+    "example": [
+     "Tabe doesn't take the bus.",
+     "Does the bus stop here? — Yes, it does."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-3-neg"
+    }
+   },
+   {
+    "id": "c3-4",
+    "status": "draft",
+    "idea": "Adverbs of frequency go before the main verb, but after am, is, are.",
+    "vars": {},
+    "example": [
+     "She always takes a taxi.",
+     "The bus is never late."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-3-adverb"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-3-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "take",
+       "c": "the bus to school"
+      },
+      {
+       "v": "catch",
+       "c": "a taxi at the junction"
+      },
+      {
+       "v": "wash",
+       "c": "the car on Saturdays"
+      },
+      {
+       "v": "carry",
+       "c": "the luggage"
+      },
+      {
+       "v": "go",
+       "c": "to the market"
+      },
+      {
+       "v": "ride",
+       "c": "a bicycle"
+      },
+      {
+       "v": "watch",
+       "c": "the news"
+      },
+      {
+       "v": "study",
+       "c": "in the evening"
+      },
+      {
+       "v": "fix",
+       "c": "motorbikes"
+      },
+      {
+       "v": "pay",
+       "c": "the fare"
+      },
+      {
+       "v": "have",
+       "c": "breakfast at six"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in the Simple Present.",
+   "text": "{S.t} ___ {V.c} every day. ({V.v})",
+   "answer": "presentFor(S.s, V.v)",
+   "misconceptions": [
+    {
+     "id": "no-s",
+     "wrong": "V.v",
+     "explain": "With {S.m} the verb takes -s or -es: {presentFor(S.s, V.v)}.",
+     "when": "presentFor(S.s, V.v) != V.v"
+    },
+    {
+     "id": "extra-s",
+     "wrong": "thirdPerson(V.v)",
+     "explain": "With {S.m}, the verb has no -s: {V.v}.",
+     "when": "presentFor(S.s, V.v) == V.v"
+    }
+   ]
+  },
+  {
+   "id": "e2-3-neg",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "take",
+       "c": "the bus to school"
+      },
+      {
+       "v": "catch",
+       "c": "a taxi at the junction"
+      },
+      {
+       "v": "wash",
+       "c": "the car on Saturdays"
+      },
+      {
+       "v": "carry",
+       "c": "the luggage"
+      },
+      {
+       "v": "go",
+       "c": "to the market"
+      },
+      {
+       "v": "ride",
+       "c": "a bicycle"
+      },
+      {
+       "v": "watch",
+       "c": "the news"
+      },
+      {
+       "v": "study",
+       "c": "in the evening"
+      },
+      {
+       "v": "fix",
+       "c": "motorbikes"
+      },
+      {
+       "v": "pay",
+       "c": "the fare"
+      },
+      {
+       "v": "have",
+       "c": "breakfast at six"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{S.t} ___ {V.v} {V.c}.",
+   "answer": "dontFor(S.s)",
+   "choices": [
+    {
+     "text": "don't",
+     "misconception": "dont"
+    },
+    {
+     "text": "doesn't",
+     "misconception": "doesnt"
+    },
+    {
+     "text": "isn't",
+     "misconception": "isnt"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "dont",
+     "explain": "Don't goes with I, you, we and they."
+    },
+    {
+     "id": "doesnt",
+     "explain": "Doesn't goes with he, she and it (one person or thing)."
+    },
+    {
+     "id": "isnt",
+     "explain": "With an action verb like {V.v}, use don't or doesn't."
+    }
+   ],
+   "show": 3
+  },
+  {
+   "id": "e2-3-adverb",
+   "type": "word_order",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "She always takes a taxi to work.",
+       "b": "She always takes a taxi to work."
+      },
+      {
+       "a": "The bus is never late.",
+       "b": "The bus is never late."
+      },
+      {
+       "a": "We usually walk to school.",
+       "b": "We usually walk to school."
+      },
+      {
+       "a": "My father often travels to Yaoundé.",
+       "b": "My father often travels to Yaoundé."
+      },
+      {
+       "a": "They sometimes miss the bus.",
+       "b": "They sometimes miss the bus."
+      },
+      {
+       "a": "The train is always full on Fridays.",
+       "b": "The train is always full on Fridays."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order. Put the adverb in its place.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-3-does",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "take",
+       "c": "the bus to school"
+      },
+      {
+       "v": "catch",
+       "c": "a taxi at the junction"
+      },
+      {
+       "v": "wash",
+       "c": "the car on Saturdays"
+      },
+      {
+       "v": "carry",
+       "c": "the luggage"
+      },
+      {
+       "v": "go",
+       "c": "to the market"
+      },
+      {
+       "v": "ride",
+       "c": "a bicycle"
+      },
+      {
+       "v": "watch",
+       "c": "the news"
+      },
+      {
+       "v": "study",
+       "c": "in the evening"
+      },
+      {
+       "v": "fix",
+       "c": "motorbikes"
+      },
+      {
+       "v": "pay",
+       "c": "the fare"
+      },
+      {
+       "v": "have",
+       "c": "breakfast at six"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that starts the question.",
+   "text": "___ {S.m} {V.v} {V.c}?",
+   "answer": "doFor(S.s) == 'does' ? 'Does' : 'Do'",
+   "choices": [
+    {
+     "text": "Do",
+     "misconception": "do"
+    },
+    {
+     "text": "Does",
+     "misconception": "does"
+    },
+    {
+     "text": "Is",
+     "misconception": "is"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "do",
+     "explain": "Do goes with I, you, we and they."
+    },
+    {
+     "id": "does",
+     "explain": "Does goes with he, she and it."
+    },
+    {
+     "id": "is",
+     "explain": "With an action verb, the question uses do or does."
+    }
+   ],
+   "where": [
+    "S.t != 'I'"
+   ],
+   "show": 3
+  },
+  {
+   "id": "e2-3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "My brother takes the bus every day.",
+      "truth": "true"
+     },
+     {
+      "text": "The train leaves at nine.",
+      "truth": "true"
+     },
+     {
+      "text": "Does she walk to school?",
+      "truth": "true"
+     },
+     {
+      "text": "We never travel at night.",
+      "truth": "true"
+     },
+     {
+      "text": "I want a window seat.",
+      "truth": "true"
+     },
+     {
+      "text": "Mr Tanyi doesn't drive at night.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "She don't like long journeys.",
+      "truth": "false",
+      "explain": "With she, use doesn't."
+     },
+     {
+      "text": "Does he takes a taxi?",
+      "truth": "false",
+      "explain": "After does, the verb has no -s: Does he take a taxi?"
+     },
+     {
+      "text": "The bus late is never.",
+      "truth": "false",
+      "explain": "Never goes after is: The bus is never late."
+     },
+     {
+      "text": "I am knowing the driver.",
+      "truth": "false",
+      "explain": "Know is a state verb: I know the driver."
+     },
+     {
+      "text": "My uncle drive a lorry.",
+      "truth": "false",
+      "explain": "With one person, add -s: drives."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

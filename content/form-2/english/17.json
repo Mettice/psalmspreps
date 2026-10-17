@@ -1,0 +1,492 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-17",
+   "name": "Talking on the telephone"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Phones: a mobile phone (cell phone) can call, send text messages, take photos and use the internet; a landline stays in one place. People choose a phone for its price, battery, camera and memory.\nTelephone language:\n• Answer: “Hello, Mount Fako Clinic. How can I help you?”\n• Say who you are: “This is Ebai.” (not “I am Ebai” or “Here is Ebai”)\n• Ask for someone: “May I speak to Nurse Manyi, please?”\n• Wait: “Hold on, please.” / “Please hold.”\n• Messages: “Can I take a message?” “Could you tell her …?”\n• Mistakes: “Sorry, you have the wrong number.”\n• End: “I'll call back later. Goodbye.”\nOn the phone, speak clearly and politely, and do not shout.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Ngwa",
+   "p": "Mr Fon"
+  },
+  "problem": "{n} calls {p}'s office, but {p} is out. Write what {n} and the secretary say.",
+  "steps": [
+   "The secretary answers: “Good morning, Fon and Sons. How can I help you?”",
+   "{n} says who he is and asks: “This is {n}. May I speak to {p}, please?”",
+   "The secretary offers a message: “I'm sorry, he's out. Can I take a message?” — “Yes, please. Could you tell him I called?”"
+  ],
+  "answer": "“This is {n}. May I speak to {p}, please?” — “I'm sorry, he's out. Can I take a message?”",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "Read this telephone call. (In class you would listen to it.)",
+    "vars": {},
+    "example": [
+     "Receptionist: Good afternoon, Mount Fako Clinic. How can I help you?",
+     "Ebai: Good afternoon. May I speak to Nurse Manyi, please?",
+     "Receptionist: Hold on, please … I'm sorry, she's busy at the moment. Can I take a message?",
+     "Ebai: Yes, please. This is Ebai Tanyi. Could you tell her I can't come on Friday? I'll call back tomorrow.",
+     "Receptionist: Certainly. I'll give her the message. Goodbye.",
+     "Ebai: Thank you. Goodbye."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-17-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Who did Ebai want to speak to?",
+         "r": "Nurse Manyi",
+         "w": [
+          "the receptionist",
+          "the doctor",
+          "his mother"
+         ],
+         "e": [
+          "The receptionist answered the phone.",
+          "Ebai asked for Nurse Manyi.",
+          "Ebai asked for Nurse Manyi."
+         ],
+         "y": "Ebai said: May I speak to Nurse Manyi, please?"
+        },
+        {
+         "q": "Why couldn't Nurse Manyi come to the phone?",
+         "r": "She was busy.",
+         "w": [
+          "She was ill.",
+          "She was asleep.",
+          "She was on holiday."
+         ],
+         "e": [
+          "The receptionist said she was busy.",
+          "The receptionist said she was busy.",
+          "The receptionist said she was busy."
+         ],
+         "y": "The receptionist said: she's busy at the moment."
+        },
+        {
+         "q": "What was Ebai's message?",
+         "r": "He can't come on Friday.",
+         "w": [
+          "He is ill.",
+          "He wants a new phone.",
+          "He will come on Friday."
+         ],
+         "e": [
+          "He did not say that.",
+          "He did not say that.",
+          "He said he can't come on Friday."
+         ],
+         "y": "Ebai said: tell her I can't come on Friday."
+        },
+        {
+         "q": "When will Ebai call back?",
+         "r": "tomorrow",
+         "w": [
+          "on Friday",
+          "in an hour",
+          "next week"
+         ],
+         "e": [
+          "Friday is the day he can't come.",
+          "He said tomorrow.",
+          "He said tomorrow."
+         ],
+         "y": "Ebai said: I'll call back tomorrow."
+        }
+       ]
+      }
+     },
+     "prompt": "From the telephone call: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "On the phone, say “This is …” to give your name, and “May I speak to …, please?” to ask for someone.",
+    "vars": {},
+    "example": [
+     "“This is Bih. May I speak to Mr Ekwe, please?”",
+     "“Hold on, please.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-17-say"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "When the person is not there, offer or leave a message.",
+    "vars": {},
+    "example": [
+     "“Can I take a message?”",
+     "“Could you tell him I called?”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-17-reply"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-17-say",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "to give your name",
+       "r": "This is Ayuk.",
+       "w": [
+        "Here is Ayuk.",
+        "Me, Ayuk.",
+        "Who is Ayuk?"
+       ],
+       "e": [
+        "On the phone we say This is …",
+        "That is not polite or correct.",
+        "That is a question."
+       ],
+       "y": "On the phone we give our name with This is …"
+      },
+      {
+       "q": "to ask for Mrs Ewane",
+       "r": "May I speak to Mrs Ewane, please?",
+       "w": [
+        "Give me Mrs Ewane.",
+        "Mrs Ewane, come.",
+        "I am Mrs Ewane."
+       ],
+       "e": [
+        "That is not polite.",
+        "That is not polite.",
+        "That says who you are."
+       ],
+       "y": "May I speak to …, please? is polite."
+      },
+      {
+       "q": "when the caller must wait",
+       "r": "Hold on, please.",
+       "w": [
+        "Go away.",
+        "Call me never.",
+        "Speak louder!"
+       ],
+       "e": [
+        "That is rude.",
+        "That does not ask the caller to wait.",
+        "That does not ask the caller to wait."
+       ],
+       "y": "Hold on, please asks the caller to wait."
+      },
+      {
+       "q": "when someone has called the wrong person",
+       "r": "Sorry, you have the wrong number.",
+       "w": [
+        "Hold on, please.",
+        "Can I take a message?",
+        "This is the clinic."
+       ],
+       "e": [
+        "That asks the caller to wait.",
+        "That offers to pass a message.",
+        "That gives the place, not the mistake."
+       ],
+       "y": "Wrong number tells the caller about the mistake."
+      }
+     ]
+    }
+   },
+   "prompt": "On the phone, what do you say {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-17-reply",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "May I speak to Dr Nfor, please?",
+       "r": "Hold on, please. I'll get him.",
+       "w": [
+        "Yes, I am fine.",
+        "Goodbye.",
+        "It costs one thousand francs."
+       ],
+       "e": [
+        "That answers How are you.",
+        "That ends the call.",
+        "That is about a price."
+       ],
+       "y": "Ask the caller to wait while you get Dr Nfor."
+      },
+      {
+       "q": "Can I take a message?",
+       "r": "Yes, please. Tell her Bih called.",
+       "w": [
+        "Hold on, please.",
+        "This is the wrong number.",
+        "No, I am Bih."
+       ],
+       "e": [
+        "That asks the caller to wait.",
+        "That is about a mistake.",
+        "That does not answer."
+       ],
+       "y": "Accept and give the message."
+      },
+      {
+       "q": "Is that Mr Ekwe's office?",
+       "r": "No, sorry. You have the wrong number.",
+       "w": [
+        "Yes, I am fine.",
+        "Can I take a message?",
+        "Please hold the phone tight."
+       ],
+       "e": [
+        "That answers How are you.",
+        "That offers a message.",
+        "That does not answer."
+       ],
+       "y": "If it is not the right office, say it is the wrong number."
+      },
+      {
+       "q": "Thank you for calling. Goodbye.",
+       "r": "Goodbye.",
+       "w": [
+        "Hello.",
+        "Who is speaking?",
+        "Hold on, please."
+       ],
+       "e": [
+        "Hello starts a call.",
+        "That starts a conversation.",
+        "That asks the caller to wait."
+       ],
+       "y": "End politely: Goodbye."
+      }
+     ]
+    }
+   },
+   "prompt": "The caller says: “{X.q}” What is the best reply?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-17-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Put the telephone call in order.",
+   "items": [
+    {
+     "text": "Good morning, Bamenda Bookshop. How can I help you"
+    },
+    {
+     "text": "Good morning. This is Manka. May I speak to Mr Che, please"
+    },
+    {
+     "text": "I'm sorry, he's out. Can I take a message"
+    },
+    {
+     "text": "Yes, please. Could you ask him to call me back"
+    },
+    {
+     "text": "Certainly. Goodbye"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "e2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "One sentence is not good telephone English. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Hello, this is Ndi.",
+      "truth": "true"
+     },
+     {
+      "text": "May I speak to the headmaster, please?",
+      "truth": "true"
+     },
+     {
+      "text": "Hold on, please.",
+      "truth": "true"
+     },
+     {
+      "text": "Can I take a message?",
+      "truth": "true"
+     },
+     {
+      "text": "I'll call back later.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Hello, I am Ndi who is calling.",
+      "truth": "false",
+      "explain": "On the phone we say: This is Ndi."
+     },
+     {
+      "text": "Give me the headmaster now.",
+      "truth": "false",
+      "explain": "That is rude: May I speak to the headmaster, please?"
+     },
+     {
+      "text": "Here is Ndi speaking to you.",
+      "truth": "false",
+      "explain": "On the phone we say: This is Ndi."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

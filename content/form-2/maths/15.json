@@ -1,0 +1,535 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-15",
+   "name": "Writing symbolic expressions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In algebra a letter stands for a number we do not know yet, for example x.\nWriting words as an expression:\n• 3 more than x: x + 3   • 5 less than x: x − 5 (not 5 − x)\n• twice x, or 2 times x: 2x   • x times y: xy\n• x divided by 4: x ÷ 4, also written x/4   • the square of x: x² (x × x)\nRules for writing: put the number before the letter (3x, not x3), leave out the × sign (3 × x = 3x), and write x, not 1x.\nStories: Ashu has x francs and spends 200 francs: she has x − 200 francs left. Five books at x francs each cost 5x francs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 4,
+   "c": 150
+  },
+  "problem": "Mbah buys {n} exercise books at x francs each and a pen at {c} francs. Write an expression for the total cost.",
+  "steps": [
+   "{n} books at x francs each cost {n} × x = {n}x francs.",
+   "Add the pen: {n}x + {c}."
+  ],
+  "answer": "The total cost is {n}x + {c} francs.",
+  "checks": [
+   "n * 2 + c == 158"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "“More than” means add. “Less than” means subtract, starting from the unknown number.",
+    "vars": {
+     "k": 3,
+     "v": "x"
+    },
+    "example": [
+     "{k} more than {v}: {v} + {k}.",
+     "{k} less than {v}: {v} − {k} (not {k} − {v})."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-15-less"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "In a product, write the number first and leave out the × sign.",
+    "vars": {
+     "k": 3,
+     "v": "x"
+    },
+    "example": [
+     "{k} × {v} = {k}{v}",
+     "a × b = ab"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-15-c2",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-language"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "v": {
+       "pick": [
+        "x",
+        "y",
+        "n",
+        "a",
+        "p",
+        "t"
+       ]
+      }
+     },
+     "prompt": "How do we write {k} × {v} in algebra?",
+     "correct": "{k}{v}",
+     "distractors": [
+      {
+       "text": "{v}{k}",
+       "misconception": "letter-first"
+      },
+      {
+       "text": "{k} + {v}",
+       "misconception": "sum"
+      },
+      {
+       "text": "{v}{sup(k)}",
+       "misconception": "power"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "letter-first",
+       "explain": "The number goes before the letter: {k}{v}."
+      },
+      {
+       "id": "sum",
+       "explain": "{k} × {v} is a product, not a sum."
+      },
+      {
+       "id": "power",
+       "explain": "{v}{sup(k)} means {v} multiplied by itself {k} times, not {k} × {v}."
+      }
+     ],
+     "solution": [
+      "Write the number first and leave out the × sign.",
+      "{k} × {v} = {answer}"
+     ]
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Division can be written with ÷ or with a slash. The square of a number is the number times itself.",
+    "vars": {
+     "k": 4,
+     "v": "y",
+     "two": 2
+    },
+    "example": [
+     "{v} divided by {k}: {v} ÷ {k}, or {v}/{k}.",
+     "The square of {v}: {v}² = {v} × {v}, not {two}{v}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-15-square"
+    }
+   },
+   {
+    "id": "c15-4",
+    "status": "draft",
+    "idea": "To write a story as an expression, find the unknown number, then decide which operation the words describe.",
+    "vars": {
+     "v": "x",
+     "c": 200,
+     "n": 5
+    },
+    "example": [
+     "Ashu has {v} francs and spends {c} francs: she has {v} − {c} francs left.",
+     "{n} books at {v} francs each cost {n}{v} francs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-15-c4",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "algebra-language"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "x",
+        "y",
+        "n",
+        "a",
+        "p",
+        "t"
+       ]
+      },
+      "c": {
+       "pick": [
+        100,
+        150,
+        200,
+        250,
+        500,
+        1000
+       ]
+      }
+     },
+     "prompt": "Ayuk has {v} francs. His mother gives him {c} francs. How many francs does he have now?",
+     "correct": "{v} + {c}",
+     "distractors": [
+      {
+       "text": "{v} − {c}",
+       "misconception": "sub"
+      },
+      {
+       "text": "{c}{v}",
+       "misconception": "mul"
+      },
+      {
+       "text": "{c} − {v}",
+       "misconception": "back"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "sub",
+       "explain": "His mother gives him money, so he has more: add."
+      },
+      {
+       "id": "mul",
+       "explain": "{c}{v} means {c} × {v}; here he simply gets {c} more."
+      },
+      {
+       "id": "back",
+       "explain": "He has more than {v} now: add {c} to {v}."
+      }
+     ],
+     "solution": [
+      "He gets more money, so add {c} to {v}.",
+      "He has {answer} francs."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-15-less",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "n",
+      "a",
+      "p",
+      "t"
+     ]
+    }
+   },
+   "prompt": "Write “{k} less than {v}” as an expression.",
+   "correct": "{v} − {k}",
+   "distractors": [
+    {
+     "text": "{k} − {v}",
+     "misconception": "backwards"
+    },
+    {
+     "text": "{v} + {k}",
+     "misconception": "added"
+    },
+    {
+     "text": "{k}{v}",
+     "misconception": "times"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "backwards",
+     "explain": "Start from {v} and take {k} away: {v} − {k}."
+    },
+    {
+     "id": "added",
+     "explain": "“Less than” means subtract."
+    },
+    {
+     "id": "times",
+     "explain": "{k}{v} means {k} × {v}; “less than” means subtract."
+    }
+   ],
+   "solution": [
+    "“{k} less than {v}” means start from {v} and take away {k}.",
+    "So the expression is {answer}."
+   ]
+  },
+  {
+   "id": "m2-15-square",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "n",
+      "a",
+      "p",
+      "t"
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "Which expression means “the square of {v}”?",
+   "correct": "{v}²",
+   "distractors": [
+    {
+     "text": "{two}{v}",
+     "misconception": "double"
+    },
+    {
+     "text": "{v} + {two}",
+     "misconception": "plus"
+    },
+    {
+     "text": "{v} ÷ {two}",
+     "misconception": "half"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "double",
+     "explain": "{two}{v} means {two} × {v}, twice {v}. The square is {v} × {v}."
+    },
+    {
+     "id": "plus",
+     "explain": "The square is {v} × {v}, not {v} + {two}."
+    },
+    {
+     "id": "half",
+     "explain": "The square is {v} × {v}."
+    }
+   ],
+   "solution": [
+    "The square of {v} is {v} × {v}.",
+    "It is written {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-15-match",
+   "type": "matching",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "n",
+      "a",
+      "p",
+      "t"
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "Match each phrase to its expression.",
+   "pool": [
+    {
+     "left": "{k} more than {v}",
+     "right": "{v} + {k}"
+    },
+    {
+     "left": "{k} less than {v}",
+     "right": "{v} − {k}"
+    },
+    {
+     "left": "{k} times {v}",
+     "right": "{k}{v}"
+    },
+    {
+     "left": "{v} divided by {k}",
+     "right": "{v} ÷ {k}"
+    },
+    {
+     "left": "the square of {v}",
+     "right": "{v}²"
+    },
+    {
+     "left": "{k} more than twice {v}",
+     "right": "{two}{v} + {k}"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "m2-15-story",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "n",
+      "a",
+      "p",
+      "t"
+     ]
+    },
+    "n": {
+     "int": [
+      3,
+      12
+     ]
+    }
+   },
+   "prompt": "A teacher shares {v} pencils equally among {n} pupils. How many pencils does each pupil get?",
+   "correct": "{v} ÷ {n}",
+   "distractors": [
+    {
+     "text": "{n}{v}",
+     "misconception": "times"
+    },
+    {
+     "text": "{v} − {n}",
+     "misconception": "minus"
+    },
+    {
+     "text": "{n} ÷ {v}",
+     "misconception": "backwards"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "times",
+     "explain": "{n}{v} means {n} × {v}; sharing means dividing."
+    },
+    {
+     "id": "minus",
+     "explain": "Each pupil gets a share, so divide, do not subtract."
+    },
+    {
+     "id": "backwards",
+     "explain": "Divide the pencils, {v}, by the number of pupils, {n}: {v} ÷ {n}."
+    }
+   ],
+   "solution": [
+    "Sharing equally means dividing the {v} pencils by {n}.",
+    "Each pupil gets {answer} pencils."
+   ]
+  },
+  {
+   "id": "m2-15-perimeter",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "algebra-language"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "n",
+      "a",
+      "p",
+      "t"
+     ]
+    },
+    "w": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "A rectangle has length {v} cm and width {w} cm. Which expression gives its perimeter in cm?",
+   "correct": "{two}{v} + {2 * w}",
+   "distractors": [
+    {
+     "text": "{v} + {w}",
+     "misconception": "half"
+    },
+    {
+     "text": "{two}{v} + {w}",
+     "misconception": "one-width"
+    },
+    {
+     "text": "{w}{v}",
+     "misconception": "area"
+    },
+    {
+     "text": "{v} + {2 * w}",
+     "misconception": "one-length"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "half",
+     "explain": "That is only one length and one width; the perimeter goes all the way round."
+    },
+    {
+     "id": "one-width",
+     "explain": "There are two widths: {w} + {w} = {2 * w}."
+    },
+    {
+     "id": "area",
+     "explain": "{w}{v} is the area (length × width), not the perimeter."
+    },
+    {
+     "id": "one-length",
+     "explain": "There are two lengths: {v} + {v} = {two}{v}."
+    }
+   ],
+   "solution": [
+    "The perimeter is length + width + length + width.",
+    "{v} + {w} + {v} + {w} = {answer}"
+   ]
+  }
+ ]
+}

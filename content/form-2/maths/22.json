@@ -1,0 +1,556 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "m2-22",
+   "name": "Inequalities: the signs <, >, ≤ and ≥"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An inequality compares two numbers or expressions that may not be equal.\n• < means “is less than”: 3 < 7.   • > means “is greater than”: 7 > 3.\n• ≤ means “is less than or equal to”. • ≥ means “is greater than or equal to”.\nThe point of the sign always points to the smaller number.\nWith negative numbers, look at the number line: −5 < −2, because −5 is further left.\nx < 3 means x can be any number less than 3 (but not 3). x ≥ 3 means 3 or any number above it.\nWords: “at least 18” means ≥ 18; “at most 40” means ≤ 40; “more than 5” means > 5; “fewer than 10” means < 10.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": -4,
+   "b": -1,
+   "k": 3
+  },
+  "problem": "Put the right sign, < or >, between {a} and {b}. Then say whether x = {k} satisfies x ≥ {k}.",
+  "steps": [
+   "On the number line {a} is to the left of {b}, so {a} is smaller: {a} < {b}.",
+   "x ≥ {k} means “x is greater than or equal to {k}”. {k} is equal to {k}, so x = {k} satisfies it."
+  ],
+  "answer": "{a} < {b}, and yes, x = {k} satisfies x ≥ {k}.",
+  "checks": [
+   "a < b"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "The sign < means “is less than” and > means “is greater than”. The point always faces the smaller number.",
+    "vars": {
+     "a": 3,
+     "b": 7
+    },
+    "example": [
+     "{a} < {b}: {a} is less than {b}.",
+     "{b} > {a}: {b} is greater than {a}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-22-compare"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "≤ and ≥ also allow the two sides to be equal.",
+    "vars": {
+     "k": 5
+    },
+    "example": [
+     "x ≤ {k}: x can be {k}, or any number less than {k}.",
+     "x < {k}: x can be any number less than {k}, but not {k}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-22-c2",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "inequalities"
+     ],
+     "vars": {
+      "op": {
+       "pick": [
+        "<",
+        ">",
+        "≤",
+        "≥"
+       ]
+      },
+      "k": {
+       "int": [
+        -6,
+        8
+       ]
+      },
+      "v": {
+       "expr": "op == '<' ? k - 2 : (op == '>' ? k + 3 : k)"
+      },
+      "w": {
+       "expr": "op == '<' || op == '≤' ? k + 2 : k - 2"
+      },
+      "u": {
+       "expr": "op == '≤' ? k + 5 : k - 5"
+      }
+     },
+     "prompt": "Which value of x satisfies {ineq('x', op, k)}?",
+     "correct": "{v}",
+     "distractors": [
+      {
+       "text": "{w}",
+       "misconception": "other"
+      },
+      {
+       "text": "{op == '<' || op == '>' ? k : u}",
+       "misconception": "edge"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "other",
+       "explain": "{w} is not {opWords(op)} {k}."
+      },
+      {
+       "id": "edge",
+       "explain": "{op == '<' || op == '>' ? 'The sign ' + op + ' does not include ' + fmt(k) + ' itself.' : fmt(u) + ' is not ' + opWords(op) + ' ' + fmt(k) + '.'}"
+      }
+     ],
+     "solution": [
+      "{ineq('x', op, k)} means x is {opWords(op)} {k}.",
+      "{answer} is {opWords(op)} {k}, so it works."
+     ],
+     "show": 3
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "Words become signs: “at least” is ≥, “at most” is ≤, “more than” is >, “fewer than” or “less than” is <.",
+    "vars": {
+     "a": 18,
+     "b": 40
+    },
+    "example": [
+     "“At least {a} pupils”: number ≥ {a}.",
+     "“At most {b} kg”: mass ≤ {b}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-22-words"
+    }
+   },
+   {
+    "id": "c22-4",
+    "status": "draft",
+    "idea": "With negative numbers, the number further left on the number line is smaller.",
+    "vars": {
+     "a": -5,
+     "b": -2,
+     "c": 1
+    },
+    "example": [
+     "{a} < {b}: {a} is further left.",
+     "{c} > {a}: every positive number is greater than every negative number."
+    ],
+    "checks": [],
+    "figure": "numberLine(-6, 2, [['P', a], ['Q', b]])",
+    "check": {
+     "ref": "m2-22-negative"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-22-compare",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      0,
+      50
+     ]
+    },
+    "b": {
+     "int": [
+      0,
+      50
+     ]
+    }
+   },
+   "prompt": "Choose the sign that makes the statement true.",
+   "text": "{a} ___ {b}",
+   "answer": "a < b ? '<' : '>'",
+   "choices": [
+    {
+     "text": "<",
+     "misconception": "lt"
+    },
+    {
+     "text": ">",
+     "misconception": "gt"
+    },
+    {
+     "text": "=",
+     "misconception": "eq"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "lt",
+     "explain": "< means “is less than”, but {a} is greater than {b}."
+    },
+    {
+     "id": "gt",
+     "explain": "> means “is greater than”, but {a} is less than {b}."
+    },
+    {
+     "id": "eq",
+     "explain": "{a} and {b} are not equal."
+    }
+   ],
+   "where": [
+    "a != b"
+   ]
+  },
+  {
+   "id": "m2-22-negative",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -12,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -12,
+      5
+     ]
+    }
+   },
+   "prompt": "Choose the sign that makes the statement true.",
+   "text": "{a} ___ {b}",
+   "answer": "a < b ? '<' : '>'",
+   "choices": [
+    {
+     "text": "<",
+     "misconception": "lt"
+    },
+    {
+     "text": ">",
+     "misconception": "gt"
+    },
+    {
+     "text": "=",
+     "misconception": "eq"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "lt",
+     "explain": "On the number line {a} is to the right of {b}, so {a} is greater."
+    },
+    {
+     "id": "gt",
+     "explain": "On the number line {a} is to the left of {b}, so {a} is smaller."
+    },
+    {
+     "id": "eq",
+     "explain": "{a} and {b} are not equal."
+    }
+   ],
+   "where": [
+    "a != b",
+    "a < 0 && b < 0 || a * b < 0"
+   ]
+  },
+  {
+   "id": "m2-22-words",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      5,
+      60
+     ]
+    },
+    "W": {
+     "pick": [
+      [
+       "A class must have at least {k} pupils.",
+       "≥",
+       "at least"
+      ],
+      [
+       "A bag can hold at most {k} kg.",
+       "≤",
+       "at most"
+      ],
+      [
+       "More than {k} people came to the meeting.",
+       ">",
+       "more than"
+      ],
+      [
+       "Fewer than {k} cars were in the park.",
+       "<",
+       "fewer than"
+      ]
+     ]
+    }
+   },
+   "prompt": "{W[0]} Which inequality says this, with n for the number?",
+   "correct": "{ineq('n', W[1], k)}",
+   "distractors": [
+    {
+     "text": "{ineq('n', flipOp(W[1]), k)}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{ineq('n', W[1] == '≥' || W[1] == '≤' ? strictOp(W[1]) : looseOp(W[1]), k)}",
+     "misconception": "edge"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "The sign points the wrong way: “{W[2]}” means {opWords(W[1])}."
+    },
+    {
+     "id": "edge",
+     "explain": "{W[1] == '≥' || W[1] == '≤' ? 'The number ' + fmt(k) + ' itself is allowed, so use ' + W[1] + '.' : 'The number ' + fmt(k) + ' itself is not allowed, so use ' + W[1] + '.'}"
+    }
+   ],
+   "solution": [
+    "“{W[2]}” means {opWords(W[1])}.",
+    "So the inequality is {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-22-read",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    },
+    "k": {
+     "int": [
+      -10,
+      20
+     ]
+    }
+   },
+   "prompt": "How do you read {ineq('x', op, k)}?",
+   "correct": "x is {opWords(op)} {k}",
+   "distractors": [
+    {
+     "text": "x is {opWords(flipOp(op))} {k}",
+     "misconception": "flip"
+    },
+    {
+     "text": "x is {opWords(op == '<' || op == '>' ? looseOp(op) : strictOp(op))} {k}",
+     "misconception": "edge"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "The point of the sign faces the smaller side: {op} means {opWords(op)}."
+    },
+    {
+     "id": "edge",
+     "explain": "{op == '<' || op == '>' ? 'With ' + op + ' the number ' + fmt(k) + ' itself is not included.' : 'With ' + op + ' the number ' + fmt(k) + ' itself is included.'}"
+    }
+   ],
+   "solution": [
+    "The sign {op} means “{opWords(op)}”.",
+    "So {ineq('x', op, k)} reads: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-22-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    },
+    "k": {
+     "int": [
+      -8,
+      8
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "v": {
+     "expr": "op == '<' || op == '≤' ? k - d : k + d"
+    },
+    "w1": {
+     "expr": "op == '<' || op == '≤' ? k + d : k - d"
+    },
+    "w2": {
+     "expr": "op == '<' || op == '≤' ? k + d + 3 : k - d - 3"
+    },
+    "w3": {
+     "expr": "op == '<' || op == '≤' ? k + 1 : k - 1"
+    }
+   },
+   "prompt": "Which of these numbers satisfies {ineq('x', op, k)}?",
+   "correct": "{v}",
+   "distractors": [
+    {
+     "text": "{w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{op == '<' || op == '>' ? k : w3}",
+     "misconception": "edge"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{w1} is not {opWords(op)} {k}."
+    },
+    {
+     "id": "w2",
+     "explain": "{w2} is not {opWords(op)} {k}."
+    },
+    {
+     "id": "edge",
+     "explain": "{op == '<' || op == '>' ? 'The sign ' + op + ' leaves out ' + fmt(k) + ' itself.' : fmt(w3) + ' is not ' + opWords(op) + ' ' + fmt(k) + '.'}"
+    }
+   ],
+   "solution": [
+    "{ineq('x', op, k)} means x is {opWords(op)} {k}.",
+    "Only {answer} is {opWords(op)} {k}."
+   ],
+   "where": [
+    "w3 != w1 && w3 != w2"
+   ]
+  },
+  {
+   "id": "m2-22-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      -5
+     ]
+    },
+    "b": {
+     "int": [
+      -4,
+      -1
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Which statement is false?",
+   "pool": {
+    "right": [
+     {
+      "text": "{a} < {b}",
+      "truth": "a < b"
+     },
+     {
+      "text": "{c} > {a}",
+      "truth": "c > a"
+     },
+     {
+      "text": "{b} ≤ {b}",
+      "truth": "b <= b"
+     },
+     {
+      "text": "{c} ≥ {b}",
+      "truth": "c >= b"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "{a} > {b}",
+      "truth": "a > b",
+      "explain": "{a} is further left on the number line, so {a} < {b}."
+     },
+     {
+      "text": "{b} < {b}",
+      "truth": "b < b",
+      "explain": "A number is not less than itself; {b} ≤ {b} is true."
+     },
+     {
+      "text": "{a} ≥ {c}",
+      "truth": "a >= c",
+      "explain": "{a} is negative and {c} is positive, so {a} < {c}."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

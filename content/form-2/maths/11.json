@@ -1,0 +1,408 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "m2-11",
+   "name": "The perpendicular bisector of a line segment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The perpendicular bisector of a segment [AB] is the line that passes through the midpoint of [AB] and is perpendicular to (AB). We often call it (Δ) and write (Δ) ⊥ (AB). It cuts [AB] into two equal parts at a right angle (90°).\nTo construct it with ruler and compasses:\n1. Open the compasses to more than half of AB.\n2. With the point on A, draw an arc above [AB] and an arc below it.\n3. With the same opening and the point on B, draw arcs that cross the first two.\n4. Join the two crossing points with a ruler: this line is the perpendicular bisector.\nIf the compasses are opened to half of AB or less, the arcs do not cross.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "ab": 10,
+   "two": 2,
+   "r": 7,
+   "ninety": 90
+  },
+  "problem": "AB = {ab} cm. Explain how to construct the perpendicular bisector (Δ) of [AB], and say where it cuts [AB].",
+  "steps": [
+   "Half of AB is {ab} ÷ {two} = {ab / two} cm, so open the compasses to more than {ab / two} cm, for example {r} cm.",
+   "With the point on A, draw arcs above and below [AB]; with the same opening and the point on B, draw arcs that cross them.",
+   "Join the two crossing points: this is (Δ). It cuts [AB] at its midpoint M, with AM = MB = {ab / two} cm, at {ninety}°."
+  ],
+  "answer": "(Δ) passes through M, the midpoint of [AB], and (Δ) ⊥ (AB).",
+  "checks": [
+   "r > ab / two"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "The perpendicular bisector of [AB] does two things: it passes through the midpoint of [AB], and it is perpendicular to (AB).",
+    "vars": {},
+    "example": [
+     "(Δ) cuts [AB] at M with AM = MB.",
+     "The angle between (Δ) and (AB) is a right angle: (Δ) ⊥ (AB)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-11-def"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Open the compasses to more than half of AB, or the arcs from A and from B will not cross.",
+    "vars": {
+     "ab": 8,
+     "two": 2,
+     "r": 6
+    },
+    "example": [
+     "AB = {ab} cm: half of AB is {ab / two} cm.",
+     "Open the compasses to {r} cm, which is more than {ab / two} cm."
+    ],
+    "checks": [
+     "r > ab / two"
+    ],
+    "check": {
+     "id": "m2-11-c2",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "perpendicular-bisector"
+     ],
+     "vars": {
+      "h": {
+       "int": [
+        3,
+        8
+       ]
+      },
+      "ab": {
+       "expr": "2 * h"
+      },
+      "r": {
+       "expr": "h + 1 + (h % 3)"
+      },
+      "s": {
+       "expr": "h - 1 - (h % 2)"
+      },
+      "two": 2
+     },
+     "prompt": "AB = {ab} cm. To construct the perpendicular bisector of [AB], which compass opening works?",
+     "correct": "{r} cm",
+     "distractors": [
+      {
+       "text": "{h} cm",
+       "misconception": "half"
+      },
+      {
+       "text": "{s} cm",
+       "misconception": "short"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "half",
+       "explain": "With exactly half of AB, {h} cm, the arcs only touch on [AB]: they do not cross above and below."
+      },
+      {
+       "id": "short",
+       "explain": "{s} cm is less than half of AB ({h} cm): the arcs from A and from B do not meet."
+      }
+     ],
+     "solution": [
+      "The opening must be more than half of AB: more than {ab} ÷ {two} = {h} cm.",
+      "So {answer} works."
+     ],
+     "show": 3
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "The perpendicular bisector cuts the segment into two equal parts, at a right angle.",
+    "vars": {
+     "ab": 14,
+     "two": 2,
+     "ninety": 90
+    },
+    "example": [
+     "AB = {ab} cm: (Δ) cuts [AB] at M with AM = MB = {ab / two} cm.",
+     "The angle between (Δ) and (AB) is {ninety}°."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-11-mid"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-11-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "prompt": "Which line is the perpendicular bisector of [AB]?",
+   "pool": {
+    "right": [
+     {
+      "text": "the line through the midpoint of [AB] that is perpendicular to (AB)",
+      "truth": "true"
+     },
+     {
+      "text": "the line that cuts [AB] at its midpoint, at a right angle",
+      "truth": "true"
+     },
+     {
+      "text": "the line (Δ) through M, the midpoint of [AB], with (Δ) ⊥ (AB)",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "any line through the midpoint of [AB]",
+      "truth": "false",
+      "explain": "It must also be perpendicular to (AB)."
+     },
+     {
+      "text": "any line perpendicular to (AB)",
+      "truth": "false",
+      "explain": "It must also pass through the midpoint of [AB]."
+     },
+     {
+      "text": "the line (AB) itself",
+      "truth": "false",
+      "explain": "(AB) contains the segment; the perpendicular bisector crosses it at a right angle."
+     },
+     {
+      "text": "the line through A that is perpendicular to (AB)",
+      "truth": "false",
+      "explain": "It must pass through the midpoint of [AB], not through A."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  },
+  {
+   "id": "m2-11-mid",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "ab": {
+     "int": [
+      4,
+      30
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "(Δ) is the perpendicular bisector of [AB] and cuts it at M. AB = {ab} cm. Find AM.",
+   "answer": "ab / 2",
+   "misconceptions": [
+    {
+     "id": "whole",
+     "wrong": "ab",
+     "explain": "M is the midpoint, so AM is half of AB."
+    }
+   ],
+   "solution": [
+    "(Δ) passes through the midpoint of [AB], so M is the midpoint.",
+    "AM = {ab} ÷ {two} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-11-angle",
+   "type": "numeric",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "L": {
+     "pick": [
+      [
+       "A",
+       "B"
+      ],
+      [
+       "P",
+       "Q"
+      ],
+      [
+       "E",
+       "F"
+      ],
+      [
+       "K",
+       "L"
+      ],
+      [
+       "M",
+       "N"
+      ],
+      [
+       "R",
+       "S"
+      ]
+     ]
+    }
+   },
+   "prompt": "(Δ) is the perpendicular bisector of [{L[0]}{L[1]}]. What is the size of the angle between (Δ) and ({L[0]}{L[1]}), in degrees?",
+   "answer": "90",
+   "misconceptions": [
+    {
+     "id": "straight",
+     "wrong": "180",
+     "explain": "{180}° is a straight angle. Perpendicular lines make a right angle."
+    },
+    {
+     "id": "half",
+     "wrong": "45",
+     "explain": "Perpendicular means a right angle, not half of one."
+    }
+   ],
+   "solution": [
+    "The perpendicular bisector is perpendicular to the line ({L[0]}{L[1]}).",
+    "Perpendicular lines meet at a right angle: {answer}°."
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-11-steps",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "prompt": "Put the steps for constructing the perpendicular bisector of [AB] in order.",
+   "items": [
+    {
+     "text": "Open the compasses to more than half of AB"
+    },
+    {
+     "text": "With the point on A, draw an arc above [AB] and an arc below it"
+    },
+    {
+     "text": "With the same opening and the point on B, draw arcs that cross the first two"
+    },
+    {
+     "text": "Join the two crossing points with a ruler"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "m2-11-whole",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "mb": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "(Δ) is the perpendicular bisector of [AB] and cuts it at M. MB = {mb} cm. Find AB.",
+   "answer": "2 * mb",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "mb / 2",
+     "explain": "MB is half of AB, so AB is double MB."
+    }
+   ],
+   "solution": [
+    "M is the midpoint of [AB], so AM = MB = {mb} cm.",
+    "AB = {mb} + {mb} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "ab": {
+     "expr": "2 * h"
+    }
+   },
+   "prompt": "Ngwa wrote these sentences about constructing the perpendicular bisector of [AB], with AB = {ab} cm. Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "I open the compasses to {h + 2} cm",
+      "truth": "h + 2 > h"
+     },
+     {
+      "text": "The line I draw passes through the midpoint of [AB]",
+      "truth": "true"
+     },
+     {
+      "text": "The line I draw is perpendicular to (AB)",
+      "truth": "true"
+     },
+     {
+      "text": "I keep the same opening for the arcs from A and from B",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "I open the compasses to {h - 1} cm",
+      "truth": "h - 1 > h",
+      "explain": "{h - 1} cm is less than half of AB ({h} cm): the arcs would not cross."
+     },
+     {
+      "text": "I change the opening before drawing the arcs from B",
+      "truth": "false",
+      "explain": "The opening must stay the same for the arcs from A and from B."
+     },
+     {
+      "text": "The line I draw passes through A",
+      "truth": "false",
+      "explain": "The perpendicular bisector passes through the midpoint of [AB], not through A."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

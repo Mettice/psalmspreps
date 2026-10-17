@@ -1,0 +1,400 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  11,
+  15
+ ],
+ "skills": [
+  {
+   "id": "e2-27",
+   "name": "Regular and irregular verbs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Every verb has three main forms: the base (go), the simple past (went) and the past participle (gone), used after have, has and had.\nRegular verbs add -ed for both: visit, visited, visited. Spelling: stop → stopped, carry → carried, arrive → arrived, travel → travelled.\nIrregular verbs change in their own way, and must be learnt:\n• all three the same: put, put, put; cut, cut, cut;\n• past = participle: buy, bought, bought; bring, brought, brought; leave, left, left;\n• all three different: go, went, gone; see, saw, seen; write, wrote, written; begin, began, begun; speak, spoke, spoken.\nUse the simple past alone (I saw), and the participle after have, has or had (I have seen, she had gone).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "write",
+   "w": "visit"
+  },
+  "problem": "Give the three forms of {v} and {w}, and use the participle of {v} in a sentence.",
+  "steps": [
+   "{w} is regular: {w}, {past(w)}, {participle(w)}.",
+   "{v} is irregular: {v}, {past(v)}, {participle(v)}.",
+   "After has: “Bih has {participle(v)} a letter to her uncle.”"
+  ],
+  "answer": "{w}, {past(w)}, {participle(w)}; {v}, {past(v)}, {participle(v)}",
+  "checks": [
+   "participle(v) == 'written'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "Regular verbs add -ed for the simple past and the past participle.",
+    "vars": {
+     "v": "visit",
+     "w": "carry"
+    },
+    "example": [
+     "{v}, {past(v)}, {participle(v)}",
+     "{w}, {past(w)}, {participle(w)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-27-regular"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "Irregular verbs have their own forms. Learn them in groups.",
+    "vars": {},
+    "example": [
+     "buy, {past('buy')}, {participle('buy')} (past = participle)",
+     "go, {past('go')}, {participle('go')} (all different)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-27-past"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "Use the participle after have, has or had; use the simple past alone.",
+    "vars": {},
+    "example": [
+     "I {past('see')} the film yesterday.",
+     "I have {participle('see')} the film."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-27-part"
+    }
+   },
+   {
+    "id": "c27-4",
+    "status": "draft",
+    "idea": "Some verbs are regular and some irregular; check a verb list when you are not sure.",
+    "vars": {},
+    "example": [
+     "regular: play, {past('play')}",
+     "irregular: speak, {past('speak')}, {participle('speak')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-27-c4",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "visit",
+        "stop",
+        "carry",
+        "arrive",
+        "travel",
+        "plan",
+        "study",
+        "play",
+        "clean",
+        "hurry",
+        "go",
+        "see",
+        "take",
+        "write",
+        "eat",
+        "buy",
+        "bring",
+        "begin",
+        "speak",
+        "break",
+        "give",
+        "know",
+        "leave",
+        "sing",
+        "drink"
+       ]
+      }
+     },
+     "prompt": "Is the verb regular or irregular?",
+     "text": "{v} is ___.",
+     "answer": "isIrregular(v) ? 'irregular' : 'regular'",
+     "choices": [
+      {
+       "text": "regular",
+       "misconception": "reg"
+      },
+      {
+       "text": "irregular",
+       "misconception": "irr"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "reg",
+       "explain": "{v} does not add -ed: its past is {past(v)}."
+      },
+      {
+       "id": "irr",
+       "explain": "{v} just adds -ed: {past(v)}."
+      }
+     ],
+     "show": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-27-regular",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "visit",
+      "stop",
+      "carry",
+      "arrive",
+      "travel",
+      "plan",
+      "study",
+      "play",
+      "clean",
+      "hurry"
+     ]
+    }
+   },
+   "prompt": "Write the simple past.",
+   "text": "{v} → ___",
+   "answer": "past(v)",
+   "misconceptions": [
+    {
+     "id": "plain",
+     "wrong": "v + 'ed'",
+     "explain": "Check the spelling: {past(v)}."
+    }
+   ]
+  },
+  {
+   "id": "e2-27-past",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "go",
+      "see",
+      "take",
+      "write",
+      "eat",
+      "buy",
+      "bring",
+      "begin",
+      "speak",
+      "break",
+      "give",
+      "know",
+      "leave",
+      "sing",
+      "drink"
+     ]
+    }
+   },
+   "prompt": "Write the simple past.",
+   "text": "{v} → ___",
+   "answer": "past(v)",
+   "misconceptions": [
+    {
+     "id": "ed",
+     "wrong": "v + 'ed'",
+     "explain": "{v} is irregular: {past(v)}."
+    },
+    {
+     "id": "participle",
+     "wrong": "participle(v)",
+     "explain": "That is the participle; the simple past is {past(v)}.",
+     "when": "past(v) != participle(v)"
+    }
+   ]
+  },
+  {
+   "id": "e2-27-part",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "go",
+      "see",
+      "take",
+      "write",
+      "eat",
+      "buy",
+      "bring",
+      "begin",
+      "speak",
+      "break",
+      "give",
+      "know",
+      "leave",
+      "sing",
+      "drink"
+     ]
+    }
+   },
+   "prompt": "Write the past participle.",
+   "text": "I have ___ ({v})",
+   "answer": "participle(v)",
+   "misconceptions": [
+    {
+     "id": "past",
+     "wrong": "past(v)",
+     "explain": "After have, use the participle: {participle(v)}.",
+     "when": "past(v) != participle(v)"
+    },
+    {
+     "id": "ed",
+     "wrong": "v + 'ed'",
+     "explain": "{v} is irregular: {participle(v)}."
+    }
+   ]
+  },
+  {
+   "id": "e2-27-forms",
+   "type": "matching",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Match each verb to its past participle.",
+   "pool": [
+    {
+     "left": "go",
+     "right": "gone"
+    },
+    {
+     "left": "see",
+     "right": "seen"
+    },
+    {
+     "left": "write",
+     "right": "written"
+    },
+    {
+     "left": "begin",
+     "right": "begun"
+    },
+    {
+     "left": "eat",
+     "right": "eaten"
+    },
+    {
+     "left": "speak",
+     "right": "spoken"
+    },
+    {
+     "left": "break",
+     "right": "broken"
+    },
+    {
+     "left": "drink",
+     "right": "drunk"
+    },
+    {
+     "left": "give",
+     "right": "given"
+    }
+   ],
+   "pick": 5
+  },
+  {
+   "id": "e2-27-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a wrong verb form. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Mum saw a snake in the farm.",
+      "truth": "true"
+     },
+     {
+      "text": "She has written to her uncle.",
+      "truth": "true"
+     },
+     {
+      "text": "We sold all the oranges.",
+      "truth": "true"
+     },
+     {
+      "text": "The visitors had eaten.",
+      "truth": "true"
+     },
+     {
+      "text": "He brought his book.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "I have saw the match.",
+      "truth": "false",
+      "explain": "After have, use the participle: I have seen."
+     },
+     {
+      "text": "She writed a letter.",
+      "truth": "false",
+      "explain": "Write is irregular: she wrote."
+     },
+     {
+      "text": "We buyed some bread.",
+      "truth": "false",
+      "explain": "Buy is irregular: we bought."
+     },
+     {
+      "text": "They had went home.",
+      "truth": "false",
+      "explain": "After had, use the participle: had gone."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

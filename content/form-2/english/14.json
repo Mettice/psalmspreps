@@ -1,0 +1,411 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "e2-14",
+   "name": "Weather words"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Weather words:\n• Rain: a drizzle (light rain), a shower (short rain), a downpour (very heavy rain), a thunderstorm (rain with thunder and lightning).\n• Wind: a breeze (a gentle wind), a gale (a very strong wind), the harmattan (a dry, dusty wind).\n• Sky: clear, cloudy, overcast (completely grey), foggy or misty (you cannot see far).\n• Temperature: scorching (very hot), warm, cool, chilly (a little cold).\n• Humid means the air is warm and wet. A drought is a long time with no rain. A flood is when water covers dry land.\nNouns and adjectives: sun → sunny, cloud → cloudy, rain → rainy, wind → windy, fog → foggy, storm → stormy.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "sun",
+   "b": "fog",
+   "c": "wind"
+  },
+  "problem": "Make the weather adjectives from {a}, {b} and {c}, and use one in a sentence.",
+  "steps": [
+   "Add -y. A short word ending in one vowel + one consonant doubles it: {a} → sunny, {b} → foggy.",
+   "Otherwise just add -y: {c} → windy.",
+   "Sentence: It was so foggy on the mountain that we could not see the road."
+  ],
+  "answer": "sunny, foggy, windy",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "Rain can be light (a drizzle), short (a shower), very heavy (a downpour) or stormy (a thunderstorm).",
+    "vars": {},
+    "example": [
+     "A drizzle hardly wets your clothes.",
+     "In a downpour, the gutters overflow."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-14-rain"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Add -y to a weather noun to make an adjective: rain → rainy. Double a final consonant after one short vowel: sun → sunny.",
+    "vars": {},
+    "example": [
+     "cloud → cloudy, wind → windy",
+     "sun → sunny, fog → foggy"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-14-c2",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "It is very ___ today; take your hat.",
+         "a": "sunny",
+         "w": [
+          "suny",
+          "sunnie"
+         ],
+         "e": [
+          "Double the n: sunny.",
+          "Add -y: sunny."
+         ]
+        },
+        {
+         "s": "We could not see the road: it was ___.",
+         "a": "foggy",
+         "w": [
+          "fogy",
+          "fogged"
+         ],
+         "e": [
+          "Double the g: foggy.",
+          "The adjective is foggy."
+         ]
+        },
+        {
+         "s": "The sky is grey and ___.",
+         "a": "cloudy",
+         "w": [
+          "cloudly",
+          "clouddy"
+         ],
+         "e": [
+          "Add -y: cloudy.",
+          "Do not double the d: cloudy."
+         ]
+        },
+        {
+         "s": "It is ___; hold on to your umbrella.",
+         "a": "windy",
+         "w": [
+          "windly",
+          "winddy"
+         ],
+         "e": [
+          "Add -y: windy.",
+          "Do not double the d: windy."
+         ]
+        },
+        {
+         "s": "The night was ___, with thunder and lightning.",
+         "a": "stormy",
+         "w": [
+          "stormly",
+          "stormmy"
+         ],
+         "e": [
+          "Add -y: stormy.",
+          "Do not double the m: stormy."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct adjective.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Humid means warm and wet air. A drought is a long time with no rain; a flood is water over dry land.",
+    "vars": {},
+    "example": [
+     "Douala is hot and humid.",
+     "After the downpour there was a flood in the street."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-14-words"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-14-rain",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "drizzle",
+     "right": "very light rain"
+    },
+    {
+     "left": "downpour",
+     "right": "very heavy rain"
+    },
+    {
+     "left": "shower",
+     "right": "a short fall of rain"
+    },
+    {
+     "left": "thunderstorm",
+     "right": "rain with thunder and lightning"
+    },
+    {
+     "left": "breeze",
+     "right": "a gentle wind"
+    },
+    {
+     "left": "gale",
+     "right": "a very strong wind"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-14-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "humid",
+     "right": "warm and wet air"
+    },
+    {
+     "left": "drought",
+     "right": "a long time with no rain"
+    },
+    {
+     "left": "flood",
+     "right": "water covering dry land"
+    },
+    {
+     "left": "chilly",
+     "right": "a little cold"
+    },
+    {
+     "left": "scorching",
+     "right": "very hot"
+    },
+    {
+     "left": "overcast",
+     "right": "a sky that is completely grey"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-14-use",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "There was no rain for six months; the ___ killed the maize.",
+       "a": "drought",
+       "w": [
+        "flood",
+        "drizzle"
+       ],
+       "e": [
+        "A flood is too much water.",
+        "A drizzle is light rain."
+       ]
+      },
+      {
+       "s": "It's only a ___; you don't need an umbrella.",
+       "a": "drizzle",
+       "w": [
+        "downpour",
+        "gale"
+       ],
+       "e": [
+        "A downpour is very heavy rain.",
+        "A gale is a strong wind."
+       ]
+      },
+      {
+       "s": "A cool ___ came from the sea in the evening.",
+       "a": "breeze",
+       "w": [
+        "drought",
+        "gale"
+       ],
+       "e": [
+        "A drought is a time with no rain.",
+        "A gale is very strong, not cool and gentle."
+       ]
+      },
+      {
+       "s": "The river overflowed and caused a ___.",
+       "a": "flood",
+       "w": [
+        "drought",
+        "breeze"
+       ],
+       "e": [
+        "A drought means no water.",
+        "A breeze is a wind."
+       ]
+      },
+      {
+       "s": "Wear a sweater: the morning is ___.",
+       "a": "chilly",
+       "w": [
+        "scorching",
+        "humid"
+       ],
+       "e": [
+        "Scorching is very hot.",
+        "Humid is warm and wet."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "One sentence uses a weather word wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "The downpour flooded the road.",
+      "truth": "true"
+     },
+     {
+      "text": "A gentle breeze cooled the room.",
+      "truth": "true"
+     },
+     {
+      "text": "Douala is hot and humid.",
+      "truth": "true"
+     },
+     {
+      "text": "The drought dried the wells.",
+      "truth": "true"
+     },
+     {
+      "text": "It was foggy on the mountain.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The drizzle was so heavy that the bridge broke.",
+      "truth": "false",
+      "explain": "A drizzle is very light rain; heavy rain is a downpour."
+     },
+     {
+      "text": "We had a flood because it did not rain for months.",
+      "truth": "false",
+      "explain": "No rain for months is a drought."
+     },
+     {
+      "text": "It is scorching, so wear a warm sweater.",
+      "truth": "false",
+      "explain": "Scorching means very hot."
+     },
+     {
+      "text": "It is very suny today.",
+      "truth": "false",
+      "explain": "Double the n: sunny."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

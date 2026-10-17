@@ -1,0 +1,571 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "m2-20",
+   "name": "Expanding brackets: a(b + c)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To expand a bracket, multiply every term inside by the term outside: a(b + c) = ab + ac.\n3(x + 4) = 3 × x + 3 × 4 = 3x + 12. Do not stop after the first term: 3(x + 4) is not 3x + 4.\nWith a minus inside: 5(2y − 3) = 10y − 15.\nWith a negative number outside, every sign inside changes: −2(x − 3) = −2x + 6, because (−2) × (−3) = 6.\nWith a letter outside: x(x + 4) = x² + 4x.\nExpand, then simplify: 3(x + 2) + 2(x − 1) = 3x + 6 + 2x − 2 = 5x + 4.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": 2,
+   "c": 2,
+   "d": -1
+  },
+  "problem": "Expand and simplify {bracket(a, [1, 'x'], [b, ''])} + {bracket(c, [1, 'x'], [d, ''])}.",
+  "steps": [
+   "{bracket(a, [1, 'x'], [b, ''])} = {a} × x + {a} × {b} = {poly([a, 'x'], [a * b, ''])}.",
+   "{bracket(c, [1, 'x'], [d, ''])} = {c} × x + {c} × {br(d)} = {poly([c, 'x'], [c * d, ''])}.",
+   "Collect like terms: {poly([a, 'x'], [a * b, ''], [c, 'x'], [c * d, ''])} = {poly([a + c, 'x'], [a * b + c * d, ''])}."
+  ],
+  "answer": "{poly([a + c, 'x'], [a * b + c * d, ''])}",
+  "checks": [
+   "a * b + c * d == 4"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "Multiply every term inside the bracket by the number outside.",
+    "vars": {
+     "a": 3,
+     "b": 4
+    },
+    "example": [
+     "{bracket(a, [1, 'x'], [b, ''])} = {a} × x + {a} × {b} = {poly([a, 'x'], [a * b, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-20-pos"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "A minus sign inside the bracket stays: multiply, and keep the minus.",
+    "vars": {
+     "a": 5,
+     "b": 2,
+     "c": 3
+    },
+    "example": [
+     "{bracket(a, [b, 'y'], [-c, ''])} = {a} × {b}y − {a} × {c} = {poly([a * b, 'y'], [-a * c, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-20-minus"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "A negative number outside changes every sign inside.",
+    "vars": {
+     "a": -2,
+     "b": -3
+    },
+    "example": [
+     "{bracket(a, [1, 'x'], [b, ''])} = {br(a)} × x + {br(a)} × {br(b)} = {poly([a, 'x'], [a * b, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-20-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "expansion"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -9,
+        -2
+       ]
+      },
+      "b": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "v": {
+       "pick": [
+        "x",
+        "y",
+        "a",
+        "n"
+       ]
+      }
+     },
+     "prompt": "Expand {bracket(a, [1, v], [b, ''])}.",
+     "correct": "{poly([a, v], [a * b, ''])}",
+     "distractors": [
+      {
+       "text": "{poly([a, v], [-a * b, ''])}",
+       "misconception": "sign"
+      },
+      {
+       "text": "{poly([-a, v], [a * b, ''])}",
+       "misconception": "sign1"
+      },
+      {
+       "text": "{poly([a, v], [b, ''])}",
+       "misconception": "first-only"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "sign",
+       "explain": "{br(a)} × {br(b)} = {a * b}: check the sign of the second term."
+      },
+      {
+       "id": "sign1",
+       "explain": "{br(a)} × {v} = {mono(a, v)}: the first term is negative."
+      },
+      {
+       "id": "first-only",
+       "explain": "Multiply the second term too: {br(a)} × {br(b)} = {a * b}."
+      }
+     ],
+     "solution": [
+      "Multiply each term by {br(a)}: {br(a)} × {v} = {mono(a, v)} and {br(a)} × {br(b)} = {a * b}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "b != 0 && abs(b) != 1",
+      "a * b != b"
+     ]
+    }
+   },
+   {
+    "id": "c20-4",
+    "status": "draft",
+    "idea": "A letter outside multiplies each term too: x × x = x².",
+    "vars": {
+     "b": 4
+    },
+    "example": [
+     "{bracket('x', [1, 'x'], [b, ''])} = x × x + x × {b} = {poly([1, 'x²'], [b, 'x'])}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-20-c4",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "expansion"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "two": 2
+     },
+     "prompt": "Expand x(x + {b}).",
+     "correct": "{poly([1, 'x²'], [b, 'x'])}",
+     "distractors": [
+      {
+       "text": "{poly([1, 'x²'], [b, ''])}",
+       "misconception": "constant"
+      },
+      {
+       "text": "{poly([two, 'x'], [b, 'x'])}",
+       "misconception": "double"
+      },
+      {
+       "text": "{poly([1, 'x'], [b, 'x'])}",
+       "misconception": "no-square"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "constant",
+       "explain": "x × {b} = {b}x: the second term has the letter x."
+      },
+      {
+       "id": "double",
+       "explain": "x × x = x², not {two}x."
+      },
+      {
+       "id": "no-square",
+       "explain": "x × x = x², not x."
+      }
+     ],
+     "solution": [
+      "x × x = x² and x × {b} = {b}x.",
+      "So x(x + {b}) = {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-20-pos",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "a",
+      "n",
+      "p"
+     ]
+    }
+   },
+   "prompt": "Expand {bracket(a, [1, v], [b, ''])}.",
+   "correct": "{poly([a, v], [a * b, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([a, v], [b, ''])}",
+     "misconception": "first-only"
+    },
+    {
+     "text": "{poly([1, v], [a * b, ''])}",
+     "misconception": "second-only"
+    },
+    {
+     "text": "{mono(a + a * b, v)}",
+     "misconception": "joined"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "first-only",
+     "explain": "Multiply the second term too: {a} × {b} = {a * b}."
+    },
+    {
+     "id": "second-only",
+     "explain": "Multiply the first term too: {a} × {v} = {mono(a, v)}."
+    },
+    {
+     "id": "joined",
+     "explain": "{mono(a, v)} and {a * b} are unlike terms: they cannot be joined."
+    }
+   ],
+   "solution": [
+    "Multiply each term by {a}: {a} × {v} = {mono(a, v)} and {a} × {b} = {a * b}.",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m2-20-minus",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "a",
+      "t"
+     ]
+    }
+   },
+   "prompt": "Expand {bracket(a, [b, v], [-c, ''])}.",
+   "correct": "{poly([a * b, v], [-a * c, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([a * b, v], [a * c, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{poly([a * b, v], [-c, ''])}",
+     "misconception": "first-only"
+    },
+    {
+     "text": "{poly([a + b, v], [-a * c, ''])}",
+     "misconception": "added"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Keep the minus: {a} × ({-c}) = {-a * c}."
+    },
+    {
+     "id": "first-only",
+     "explain": "Multiply the second term too: {a} × {c} = {a * c}."
+    },
+    {
+     "id": "added",
+     "explain": "Multiply, do not add: {a} × {mono(b, v)} = {mono(a * b, v)}."
+    }
+   ],
+   "solution": [
+    "{a} × {mono(b, v)} = {mono(a * b, v)} and {a} × ({-c}) = {-a * c}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a * b != a + b"
+   ]
+  },
+  {
+   "id": "m2-20-neg",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -7,
+      -2
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Expand {bracket(a, [b, 'x'], [c, ''])}.",
+   "correct": "{poly([a * b, 'x'], [a * c, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([a * b, 'x'], [-a * c, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{poly([-a * b, 'x'], [a * c, ''])}",
+     "misconception": "sign1"
+    },
+    {
+     "text": "{poly([a * b, 'x'], [c, ''])}",
+     "misconception": "first-only"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "{br(a)} × {br(c)} = {a * c}: check the sign."
+    },
+    {
+     "id": "sign1",
+     "explain": "{br(a)} × {mono(b, 'x')} = {mono(a * b, 'x')}: check the sign."
+    },
+    {
+     "id": "first-only",
+     "explain": "Multiply the second term too."
+    }
+   ],
+   "solution": [
+    "{br(a)} × {mono(b, 'x')} = {mono(a * b, 'x')} and {br(a)} × {br(c)} = {a * c}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "c != 0 && abs(c) != 1"
+   ]
+  },
+  {
+   "id": "m2-20-letter",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "a"
+     ]
+    }
+   },
+   "prompt": "Expand {mono(k, v)}({v} + {b}).",
+   "correct": "{poly([k, v + '²'], [k * b, v])}",
+   "distractors": [
+    {
+     "text": "{poly([k, v + '²'], [k * b, ''])}",
+     "misconception": "constant"
+    },
+    {
+     "text": "{poly([k, v], [k * b, v])}",
+     "misconception": "no-square"
+    },
+    {
+     "text": "{poly([k, v + '²'], [b, v])}",
+     "misconception": "partly"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "constant",
+     "explain": "{mono(k, v)} × {b} = {mono(k * b, v)}: it keeps the letter."
+    },
+    {
+     "id": "no-square",
+     "explain": "{v} × {v} = {v}²."
+    },
+    {
+     "id": "partly",
+     "explain": "Multiply the number too: {mono(k, v)} × {b} = {mono(k * b, v)}."
+    }
+   ],
+   "solution": [
+    "{mono(k, v)} × {v} = {mono(k, v + '²')} and {mono(k, v)} × {b} = {mono(k * b, v)}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "k != b"
+   ]
+  },
+  {
+   "id": "m2-20-simplify",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "d": {
+     "int": [
+      -9,
+      -1
+     ]
+    }
+   },
+   "prompt": "Expand and simplify {bracket(a, [1, 'x'], [b, ''])} + {bracket(c, [1, 'x'], [d, ''])}.",
+   "correct": "{poly([a + c, 'x'], [a * b + c * d, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([a + c, 'x'], [b + d, ''])}",
+     "misconception": "first-only"
+    },
+    {
+     "text": "{poly([a + c, 'x'], [a * b - c * d, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{poly([a * c, 'x'], [a * b + c * d, ''])}",
+     "misconception": "times"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "first-only",
+     "explain": "Multiply each number inside by the number outside: {a} × {b} and {c} × {br(d)}."
+    },
+    {
+     "id": "sign",
+     "explain": "{c} × {br(d)} = {c * d}: keep the sign."
+    },
+    {
+     "id": "times",
+     "explain": "Add the x terms: {a}x + {c}x = {a + c}x."
+    }
+   ],
+   "solution": [
+    "{bracket(a, [1, 'x'], [b, ''])} = {poly([a, 'x'], [a * b, ''])} and {bracket(c, [1, 'x'], [d, ''])} = {poly([c, 'x'], [c * d, ''])}.",
+    "Collect: {poly([a, 'x'], [a * b, ''], [c, 'x'], [c * d, ''])} = {answer}."
+   ],
+   "where": [
+    "a * b + c * d != 0",
+    "a * c != a + c",
+    "c * d != 0"
+   ]
+  }
+ ]
+}

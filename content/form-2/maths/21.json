@@ -1,0 +1,502 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "m2-21",
+   "name": "Solving simple linear equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An equation says that two expressions are equal, for example 2x + 3 = 11. The solution is the value of x that makes it true.\nTo solve, do the same thing to both sides, to get x on its own:\n• x + 5 = 12: subtract 5 from both sides, x = 7.\n• x − 4 = 9: add 4 to both sides, x = 13.\n• 3x = 18: divide both sides by 3, x = 6.\n• x ÷ 4 = 3: multiply both sides by 4, x = 12.\nTwo steps: 2x + 3 = 11. Subtract 3: 2x = 8. Divide by 2: x = 4.\nAlways check: put your answer back in. 2 × 4 + 3 = 11 ✓.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": 7,
+   "c": 22
+  },
+  "problem": "Solve {poly([a, 'x'], [b, ''])} = {c}, and check the answer.",
+  "steps": [
+   "Subtract {b} from both sides: {mono(a, 'x')} = {c} − {b} = {c - b}.",
+   "Divide both sides by {a}: x = {c - b} ÷ {a} = {(c - b) / a}.",
+   "Check: {a} × {(c - b) / a} + {b} = {a * (c - b) / a} + {b} = {c} ✓"
+  ],
+  "answer": "x = {(c - b) / a}",
+  "checks": [
+   "(c - b) / a == 5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "The solution of an equation is the number that makes both sides equal.",
+    "vars": {
+     "a": 2,
+     "b": 3,
+     "s": 4
+    },
+    "example": [
+     "Is x = {s} a solution of {poly([a, 'x'], [b, ''])} = {a * s + b}? {a} × {s} + {b} = {a * s + b}: yes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-21-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "equations"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "b": {
+       "int": [
+        1,
+        12
+       ]
+      },
+      "s": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "e": {
+       "pick": [
+        0,
+        0,
+        1,
+        -1,
+        2
+       ]
+      },
+      "t": {
+       "expr": "s + e"
+      }
+     },
+     "prompt": "Is x = {t} a solution of {poly([a, 'x'], [b, ''])} = {a * s + b}?",
+     "correct": "{t == s ? 'Yes' : 'No'}",
+     "distractors": [
+      {
+       "text": "{t == s ? 'No' : 'Yes'}",
+       "misconception": "flip"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "flip",
+       "explain": "Put x = {t} in: {a} × {br(t)} + {b} = {a * t + b}, and the right side is {a * s + b}."
+      }
+     ],
+     "solution": [
+      "Put x = {t} in: {a} × {br(t)} + {b} = {a * t + b}.",
+      "{t == s ? 'That is equal to the right side' : 'That is not ' + fmt(a * s + b)}, so the answer is {answer}."
+     ],
+     "show": 2
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "To undo adding, subtract from both sides. To undo subtracting, add to both sides.",
+    "vars": {
+     "a": 5,
+     "b": 12,
+     "c": 9
+    },
+    "example": [
+     "x + {a} = {b}: subtract {a}, x = {b - a}.",
+     "x − {a} = {c}: add {a}, x = {c + a}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-21-add"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "To undo multiplying, divide both sides. To undo dividing, multiply both sides.",
+    "vars": {
+     "a": 3,
+     "s": 6
+    },
+    "example": [
+     "{mono(a, 'x')} = {a * s}: divide by {a}, x = {s}.",
+     "x ÷ {a} = {s}: multiply by {a}, x = {a * s}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-21-mul"
+    }
+   },
+   {
+    "id": "c21-4",
+    "status": "draft",
+    "idea": "With two steps, undo the adding or subtracting first, then the multiplying.",
+    "vars": {
+     "a": 2,
+     "b": 3,
+     "s": 4
+    },
+    "example": [
+     "{poly([a, 'x'], [b, ''])} = {a * s + b}: subtract {b}, {mono(a, 'x')} = {a * s}; divide by {a}, x = {s}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-21-c4",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "equations"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        5
+       ]
+      },
+      "b": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "s": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "prompt": "Solve {poly([a, 'x'], [b, ''])} = {a * s + b}.",
+     "answer": "s",
+     "misconceptions": [
+      {
+       "id": "divide-first",
+       "wrong": "(a * s + b) / a",
+       "explain": "Undo the + {b} first, then divide.",
+       "when": "isInt((a * s + b) / a)"
+      },
+      {
+       "id": "one-step",
+       "wrong": "a * s",
+       "explain": "That is {mono(a, 'x')}. Now divide by {a}."
+      }
+     ],
+     "solution": [
+      "Subtract {b} from both sides: {mono(a, 'x')} = {a * s}.",
+      "Divide both sides by {a}: x = {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-21-add",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -15,
+      15
+     ]
+    },
+    "s": {
+     "int": [
+      -10,
+      20
+     ]
+    }
+   },
+   "prompt": "Solve {poly([1, 'x'], [a, ''])} = {s + a}.",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "wrong-way",
+     "wrong": "s + 2 * a",
+     "explain": "Do the opposite: {a < 0 ? 'add' : 'subtract'} {abs(a)} to get x on its own."
+    }
+   ],
+   "solution": [
+    "{a < 0 ? 'Add ' + fmt(-a) + ' to' : 'Subtract ' + a + ' from'} both sides.",
+    "x = {s + a} {a < 0 ? '+' : '−'} {abs(a)} = {answer}"
+   ],
+   "where": [
+    "a != 0",
+    "s != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-21-mul",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "s": {
+     "int": [
+      -9,
+      12
+     ]
+    }
+   },
+   "prompt": "Solve {mono(a, 'x')} = {a * s}.",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "subtracted",
+     "wrong": "a * s - a",
+     "explain": "{mono(a, 'x')} means {a} × x: divide by {a}, do not subtract."
+    },
+    {
+     "id": "sign",
+     "wrong": "-s",
+     "explain": "Check the sign: {a * s} ÷ {br(a)} = {s}."
+    }
+   ],
+   "solution": [
+    "Divide both sides by {a}.",
+    "x = {a * s} ÷ {br(a)} = {answer}"
+   ],
+   "where": [
+    "abs(a) > 1",
+    "s != 0 && s != 1"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-21-div",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "s": {
+     "int": [
+      -9,
+      12
+     ]
+    }
+   },
+   "prompt": "Solve x ÷ {a} = {s}.",
+   "answer": "a * s",
+   "misconceptions": [
+    {
+     "id": "divided",
+     "wrong": "s / a",
+     "explain": "Undo dividing by multiplying both sides by {a}.",
+     "when": "isInt(s / a)"
+    }
+   ],
+   "solution": [
+    "Multiply both sides by {a}.",
+    "x = {s} × {a} = {answer}"
+   ],
+   "where": [
+    "s != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-21-two",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -20,
+      20
+     ]
+    },
+    "s": {
+     "int": [
+      -6,
+      12
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, ''])} = {a * s + b}.",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "one-step",
+     "wrong": "a * s",
+     "explain": "That is {mono(a, 'x')}: now divide by {a}."
+    },
+    {
+     "id": "wrong-way",
+     "wrong": "(a * s + 2 * b) / a",
+     "explain": "Do the opposite of {b < 0 ? '− ' + fmt(-b) : '+ ' + fmt(b)}.",
+     "when": "isInt((a * s + 2 * b) / a)"
+    }
+   ],
+   "solution": [
+    "{b < 0 ? 'Add ' + fmt(-b) + ' to' : 'Subtract ' + fmt(b) + ' from'} both sides: {mono(a, 'x')} = {a * s}.",
+    "Divide both sides by {a}: x = {answer}."
+   ],
+   "where": [
+    "b != 0 && s != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-21-story",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "s": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "Bih thinks of a number. She multiplies it by {a}, then subtracts {b}. The answer is {a * s - b}. What was her number?",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "backwards",
+     "wrong": "(a * s - b - b) / a",
+     "explain": "Undo − {b} by adding {b}, not subtracting.",
+     "when": "isInt((a * s - 2 * b) / a)"
+    },
+    {
+     "id": "one-step",
+     "wrong": "a * s",
+     "explain": "That is {a} times the number: divide by {a}."
+    }
+   ],
+   "solution": [
+    "Call the number x: {poly([a, 'x'], [-b, ''])} = {a * s - b}.",
+    "Add {b}: {mono(a, 'x')} = {a * s}.",
+    "Divide by {a}: x = {answer}."
+   ]
+  },
+  {
+   "id": "m2-21-both",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "equations"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      7
+     ]
+    },
+    "s": {
+     "int": [
+      -6,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -12,
+      12
+     ]
+    },
+    "d": {
+     "expr": "(a - c) * s + b"
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, ''])} = {poly([c, 'x'], [d, ''])}.",
+   "answer": "s",
+   "misconceptions": [
+    {
+     "id": "added-x",
+     "wrong": "(d - b) / (a + c)",
+     "explain": "Take the x terms to one side by subtracting {mono(c, 'x')}, not adding.",
+     "when": "isInt((d - b) / (a + c))"
+    }
+   ],
+   "solution": [
+    "Subtract {mono(c, 'x')} from both sides: {poly([a - c, 'x'], [b, ''])} = {d}.",
+    "{b < 0 ? 'Add ' + fmt(-b) + ' to' : 'Subtract ' + fmt(b) + ' from'} both sides: {mono(a - c, 'x')} = {d - b}.",
+    "Divide by {a - c}: x = {answer}."
+   ],
+   "where": [
+    "a > c",
+    "b != 0 && s != 0 && d != 0"
+   ],
+   "signed": true
+  }
+ ]
+}

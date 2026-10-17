@@ -1,0 +1,501 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-29",
+   "name": "Special days, national days and public holidays"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Public holidays in Cameroon include New Year's Day (1 January), Youth Day (11 February), Labour Day (1 May), National Day (20 May), Assumption Day (15 August) and Christmas Day (25 December), and religious holidays whose dates change: Good Friday, Ascension Day, Eid al-Fitr (the end of Ramadan) and Eid al-Adha (the Feast of the Ram).\nOn National Day we celebrate the unity of Cameroon; on Youth Day young people march; on Labour Day workers march.\nSpecial family days: birthdays, weddings, naming ceremonies.\nTalking about holidays: “What do you do on National Day?” — “I march with my school.” “Happy New Year!” “Merry Christmas!” “Happy birthday!”\nNames of holidays begin with capital letters.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": "Youth Day",
+   "m": "February"
+  },
+  "problem": "Write three sentences about {d}: when it is, what people do, and what you say.",
+  "steps": [
+   "When: {d} is in {m}.",
+   "What people do: Pupils and students march past the grandstand, and there are speeches and games.",
+   "What you say: “Happy {d}!”"
+  ],
+  "answer": "{d} is in {m}. Pupils march past the grandstand. People say “Happy {d}!”",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "Read the dialogue about National Day.",
+    "vars": {},
+    "example": [
+     "Tabe: Why is there no school on Thursday?",
+     "Manka: It's the twentieth of May, National Day. We celebrate the unity of Cameroon.",
+     "Tabe: Are you going to march?",
+     "Manka: Yes, our school will march past the grandstand. Then my family will have a big lunch.",
+     "Tabe: I marched on Youth Day in February. Which holiday do you like best?",
+     "Manka: Christmas! But I also enjoy the Feast of the Ram with my Muslim neighbours."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-29-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is there no school on Thursday?",
+         "r": "It is National Day.",
+         "w": [
+          "It is Christmas.",
+          "It is Youth Day.",
+          "The teachers are ill."
+         ],
+         "e": [
+          "Christmas is in December.",
+          "Youth Day was in February.",
+          "The dialogue says it is National Day."
+         ],
+         "y": "Manka says it is the twentieth of May, National Day."
+        },
+        {
+         "q": "What do people celebrate on National Day?",
+         "r": "the unity of Cameroon",
+         "w": [
+          "the New Year",
+          "the end of Ramadan",
+          "the workers"
+         ],
+         "e": [
+          "That is New Year's Day.",
+          "That is Eid al-Fitr.",
+          "That is Labour Day."
+         ],
+         "y": "Manka says we celebrate the unity of Cameroon."
+        },
+        {
+         "q": "When did Tabe march?",
+         "r": "on Youth Day",
+         "w": [
+          "on National Day",
+          "at Christmas",
+          "on Labour Day"
+         ],
+         "e": [
+          "Manka will march on National Day.",
+          "The dialogue does not say that.",
+          "The dialogue does not say that."
+         ],
+         "y": "Tabe says he marched on Youth Day in February."
+        },
+        {
+         "q": "Which holiday does Manka like best?",
+         "r": "Christmas",
+         "w": [
+          "Youth Day",
+          "National Day",
+          "Labour Day"
+         ],
+         "e": [
+          "Tabe marched on Youth Day.",
+          "She talks about it, but likes Christmas best.",
+          "She does not mention it."
+         ],
+         "y": "Manka says: Christmas!"
+        }
+       ]
+      }
+     },
+     "prompt": "From the dialogue: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "Each national day has its own date and meaning.",
+    "vars": {},
+    "example": [
+     "National Day, the {20} of May: the unity of Cameroon.",
+     "Youth Day, the {11} of February: young people march."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-29-days"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "Use the right greeting for each special day. Names of holidays start with capital letters.",
+    "vars": {},
+    "example": [
+     "“Merry Christmas!” “Happy New Year!”",
+     "“Happy birthday!” “Happy Youth Day!”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-29-greet"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-29-days",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cameroon-holidays"
+   ],
+   "prompt": "Match each holiday to its date.",
+   "pool": [
+    {
+     "left": "New Year's Day",
+     "right": "1 January"
+    },
+    {
+     "left": "Youth Day",
+     "right": "11 February"
+    },
+    {
+     "left": "Labour Day",
+     "right": "1 May"
+    },
+    {
+     "left": "National Day",
+     "right": "20 May"
+    },
+    {
+     "left": "Assumption Day",
+     "right": "15 August"
+    },
+    {
+     "left": "Christmas Day",
+     "right": "25 December"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-29-greet",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cameroon-holidays"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "on 25 December",
+       "r": "Merry Christmas!",
+       "w": [
+        "Happy birthday!",
+        "Good luck!",
+        "Get well soon!"
+       ],
+       "e": [
+        "That is for someone's birthday.",
+        "That is for an exam.",
+        "That is for someone who is ill."
+       ],
+       "y": "On Christmas Day we say Merry Christmas!"
+      },
+      {
+       "q": "on 1 January",
+       "r": "Happy New Year!",
+       "w": [
+        "Merry Christmas!",
+        "Congratulations on your wedding!",
+        "Good night!"
+       ],
+       "e": [
+        "That is for 25 December.",
+        "That is for a wedding.",
+        "That is at bedtime."
+       ],
+       "y": "On 1 January we say Happy New Year!"
+      },
+      {
+       "q": "to a friend on her birthday",
+       "r": "Happy birthday!",
+       "w": [
+        "Happy New Year!",
+        "Merry Christmas!",
+        "Rest in peace."
+       ],
+       "e": [
+        "That is for 1 January.",
+        "That is for 25 December.",
+        "That is for someone who has died."
+       ],
+       "y": "On a birthday we say Happy birthday!"
+      },
+      {
+       "q": "to Muslim neighbours on Eid al-Fitr",
+       "r": "Eid Mubarak! Happy feast!",
+       "w": [
+        "Merry Christmas!",
+        "Happy birthday!",
+        "Good luck in your exam!"
+       ],
+       "e": [
+        "Christmas is a Christian feast.",
+        "It is not a birthday.",
+        "That is for an exam."
+       ],
+       "y": "On Eid we wish a happy feast: Eid Mubarak!"
+      }
+     ]
+    }
+   },
+   "prompt": "What do you say {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-29-meaning",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cameroon-holidays"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "On which day do workers march?",
+       "r": "Labour Day",
+       "w": [
+        "Youth Day",
+        "National Day",
+        "Christmas Day"
+       ],
+       "e": [
+        "On Youth Day young people march.",
+        "National Day celebrates unity.",
+        "Christmas is a religious feast."
+       ],
+       "y": "Labour Day is the workers' day."
+      },
+      {
+       "q": "Which holiday celebrates the unity of Cameroon?",
+       "r": "National Day",
+       "w": [
+        "Labour Day",
+        "Assumption Day",
+        "New Year's Day"
+       ],
+       "e": [
+        "Labour Day is for workers.",
+        "Assumption Day is a Christian feast.",
+        "New Year's Day starts the year."
+       ],
+       "y": "National Day, 20 May, celebrates unity."
+      },
+      {
+       "q": "Which holiday marks the end of Ramadan?",
+       "r": "Eid al-Fitr",
+       "w": [
+        "Eid al-Adha",
+        "Good Friday",
+        "Youth Day"
+       ],
+       "e": [
+        "Eid al-Adha is the Feast of the Ram.",
+        "Good Friday is a Christian holiday.",
+        "Youth Day is a national holiday."
+       ],
+       "y": "Eid al-Fitr ends the fasting month of Ramadan."
+      },
+      {
+       "q": "Why do the dates of Good Friday and Eid change every year?",
+       "r": "They follow religious calendars.",
+       "w": [
+        "The government forgets them.",
+        "They are not real holidays.",
+        "Schools choose them."
+       ],
+       "e": [
+        "That is not the reason.",
+        "They are public holidays.",
+        "Schools do not choose them."
+       ],
+       "y": "Religious holidays follow the Christian and Islamic calendars."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-29-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cameroon-holidays"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "National Day is on 20 May.",
+      "truth": "true"
+     },
+     {
+      "text": "We say Merry Christmas on 25 December.",
+      "truth": "true"
+     },
+     {
+      "text": "Assumption Day is on 15 August.",
+      "truth": "true"
+     },
+     {
+      "text": "Workers march on Labour Day.",
+      "truth": "true"
+     },
+     {
+      "text": "Eid al-Fitr ends Ramadan.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "We celebrated national day with a march.",
+      "truth": "false",
+      "explain": "Names of holidays start with capital letters: National Day."
+     },
+     {
+      "text": "Youth Day is on 25 December.",
+      "truth": "false",
+      "explain": "Youth Day is on 11 February; 25 December is Christmas."
+     },
+     {
+      "text": "Labour Day is the feast of the Ram.",
+      "truth": "false",
+      "explain": "Labour Day is for workers; the Feast of the Ram is Eid al-Adha."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

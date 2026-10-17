@@ -1,0 +1,531 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-13",
+   "name": "Talking about the weather; reading about the seasons"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cameroon has a rainy season and a dry season. In the south the rains are heavy; a sunny morning may end with a thunderstorm. In the north the dry season is long and hot, and from about November to February a dry, dusty wind, the harmattan, blows from the Sahara.\nThe weather is unpredictable: we cannot always know what it will do.\nTalking about the weather:\n• What's the weather like today? — It's sunny / cloudy / rainy / windy / foggy.\n• It's raining. It's going to rain. The sky is clear.\n• What's the temperature? — About thirty degrees.\nUse it as the subject: “It is hot.” “It rained all night.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "Buea"
+  },
+  "problem": "Describe the weather in {t} on a day that changes: a bright morning and a stormy afternoon.",
+  "steps": [
+   "Use it as the subject: It was sunny and warm in the morning, and the sky was clear.",
+   "Say what changed: In the afternoon dark clouds came, and it began to rain heavily.",
+   "Add a detail: There was thunder and lightning, and the roads were muddy."
+  ],
+  "answer": "It was sunny in the morning, but in the afternoon it rained heavily, with thunder and lightning.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "Read the text about the seasons in Cameroon.",
+    "vars": {},
+    "example": [
+     "Cameroon has two main seasons: the rainy season and the dry season. In the south, the rains are heavy, and on some days a sunny morning ends with a thunderstorm in the afternoon.",
+     "In the north, the dry season is long and hot. From about November to February, a dry, dusty wind called the harmattan blows from the Sahara. The sky looks grey, and people's lips and skin become dry.",
+     "Farmers watch the weather closely. If the first rains come late, the crops suffer. That is why people say the weather is unpredictable: we cannot always know what it will do."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-13-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What are the two main seasons in Cameroon?",
+         "r": "the rainy season and the dry season",
+         "w": [
+          "summer and winter",
+          "spring and autumn",
+          "the hot season and the snowy season"
+         ],
+         "e": [
+          "The text does not talk about summer and winter.",
+          "The text names the rainy season and the dry season.",
+          "There is no snowy season in the text."
+         ],
+         "y": "The text says the rainy season and the dry season."
+        },
+        {
+         "q": "What is the harmattan?",
+         "r": "a dry, dusty wind",
+         "w": [
+          "a heavy rain",
+          "a kind of crop",
+          "a thunderstorm"
+         ],
+         "e": [
+          "The harmattan is dry.",
+          "It is a wind.",
+          "Thunderstorms come in the south in the rains."
+         ],
+         "y": "The text says the harmattan is a dry, dusty wind from the Sahara."
+        },
+        {
+         "q": "Where does the harmattan come from?",
+         "r": "the Sahara",
+         "w": [
+          "the sea",
+          "the mountains of the south",
+          "the forest"
+         ],
+         "e": [
+          "The text says the Sahara.",
+          "The text says the Sahara.",
+          "The text says the Sahara."
+         ],
+         "y": "It blows from the Sahara."
+        },
+        {
+         "q": "Why do farmers watch the weather closely?",
+         "r": "If the first rains come late, the crops suffer.",
+         "w": [
+          "They like the harmattan.",
+          "They want to travel.",
+          "The sky is grey."
+         ],
+         "e": [
+          "The text does not say that.",
+          "The text does not talk about travel.",
+          "That is about the harmattan, not the reason."
+         ],
+         "y": "Late rains make the crops suffer."
+        }
+       ]
+      }
+     },
+     "prompt": "From the text about the seasons: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Ask “What's the weather like?” and answer with It is + an adjective.",
+    "vars": {},
+    "example": [
+     "What's the weather like? — It's windy and cloudy.",
+     "It's raining now. It's going to rain later."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-13-reply"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "Unpredictable means we cannot always say what will happen.",
+    "vars": {},
+    "example": [
+     "The weather is unpredictable: a sunny morning can end with a storm.",
+     "A predictable bus comes at the same time every day."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-13-meaning"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-13-reply",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What's the weather like today?",
+       "r": "It's hot and sunny.",
+       "w": [
+        "I like the rain.",
+        "It's Monday.",
+        "Yes, it is."
+       ],
+       "e": [
+        "That is what you like, not the weather today.",
+        "That is the day.",
+        "That does not describe the weather."
+       ],
+       "y": "Describe the weather with It's + an adjective."
+      },
+      {
+       "q": "Is it going to rain?",
+       "r": "Yes, look at those dark clouds.",
+       "w": [
+        "It's thirty degrees.",
+        "The harmattan is dry.",
+        "I went to school."
+       ],
+       "e": [
+        "That is the temperature.",
+        "That is a fact, not an answer.",
+        "That does not answer."
+       ],
+       "y": "Dark clouds show rain is coming."
+      },
+      {
+       "q": "What's the temperature?",
+       "r": "About twenty-eight degrees.",
+       "w": [
+        "It's windy.",
+        "In the dry season.",
+        "By bus."
+       ],
+       "e": [
+        "That describes the wind.",
+        "That answers When.",
+        "That answers How."
+       ],
+       "y": "Temperature is a number of degrees."
+      },
+      {
+       "q": "Was it windy yesterday?",
+       "r": "No, it was calm.",
+       "w": [
+        "No, it isn't.",
+        "Yes, it will.",
+        "It's foggy today."
+       ],
+       "e": [
+        "Yesterday is past: it was.",
+        "Yesterday is past, not future.",
+        "The question is about yesterday."
+       ],
+       "y": "Answer in the past: it was calm."
+      }
+     ]
+    }
+   },
+   "prompt": "Someone asks: “{X.q}” What is the best answer?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-13-meaning",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The weather is ___: we never know if it will rain.",
+       "a": "unpredictable",
+       "w": [
+        "predictable",
+        "dusty"
+       ],
+       "e": [
+        "Predictable means we can know.",
+        "Dusty describes the air."
+       ]
+      },
+      {
+       "s": "In the north, the ___ makes the air dry and dusty.",
+       "a": "harmattan",
+       "w": [
+        "thunderstorm",
+        "rainy season"
+       ],
+       "e": [
+        "A thunderstorm brings rain.",
+        "The rainy season is wet."
+       ]
+      },
+      {
+       "s": "There was a ___ with thunder and lightning.",
+       "a": "storm",
+       "w": [
+        "harmattan",
+        "drought"
+       ],
+       "e": [
+        "The harmattan is a dry wind.",
+        "A drought is a long time with no rain."
+       ]
+      },
+      {
+       "s": "The farmers are sad: the ___ came late this year.",
+       "a": "rains",
+       "w": [
+        "winds",
+        "clouds"
+       ],
+       "e": [
+        "Crops need the rains.",
+        "Clouds alone do not water crops."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-13-detail",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What happens to people's lips and skin in the harmattan?",
+       "r": "They become dry.",
+       "w": [
+        "They become wet.",
+        "They become red.",
+        "Nothing happens."
+       ],
+       "e": [
+        "The harmattan is dry.",
+        "The text says dry.",
+        "The text says they become dry."
+       ],
+       "y": "The text says lips and skin become dry."
+      },
+      {
+       "q": "How does the sky look during the harmattan?",
+       "r": "grey",
+       "w": [
+        "blue and clear",
+        "dark with rain clouds",
+        "green"
+       ],
+       "e": [
+        "The dust makes it grey.",
+        "The harmattan is dry, without rain.",
+        "The text says grey."
+       ],
+       "y": "The text says the sky looks grey."
+      },
+      {
+       "q": "In the south, how can a sunny morning end?",
+       "r": "with a thunderstorm in the afternoon",
+       "w": [
+        "with snow",
+        "with the harmattan",
+        "with a long dry season"
+       ],
+       "e": [
+        "There is no snow in the text.",
+        "The harmattan blows in the north.",
+        "That is a season, not one afternoon."
+       ],
+       "y": "The text says a sunny morning may end with a thunderstorm."
+      }
+     ]
+    }
+   },
+   "prompt": "From the text about the seasons: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "It is raining heavily.",
+      "truth": "true"
+     },
+     {
+      "text": "It was windy yesterday.",
+      "truth": "true"
+     },
+     {
+      "text": "What's the weather like today?",
+      "truth": "true"
+     },
+     {
+      "text": "The harmattan is a dry wind.",
+      "truth": "true"
+     },
+     {
+      "text": "It's going to rain this afternoon.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It raining since morning.",
+      "truth": "false",
+      "explain": "The verb needs is or has been: It has been raining since morning."
+     },
+     {
+      "text": "How is the weather like?",
+      "truth": "false",
+      "explain": "Say: What is the weather like? or How is the weather?"
+     },
+     {
+      "text": "Yesterday it is very hot.",
+      "truth": "false",
+      "explain": "Yesterday is past: it was very hot."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

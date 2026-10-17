@@ -1,0 +1,472 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "e2-23",
+   "name": "Words about humanitarian concerns"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Humanitarian words:\n• a volunteer: a person who works for free to help;   • a donation: a gift of money, food or clothes; to donate;\n• a refugee: a person who has left their country to escape war or danger;   • a displaced person: someone forced to leave their home but still in their country;\n• shelter: a safe place to stay;   • relief: help such as food, water and medicine after a disaster;\n• a disaster: a sudden event that causes great damage (a flood, a fire, a landslide);\n• first aid: the first help given to a sick or injured person;   • a charity or an NGO: an organisation that helps people, for example the Red Cross.\nQualities of helpers: kind, generous, caring, patient, honest.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Mbah"
+  },
+  "problem": "Use three humanitarian words in sentences about a flood in {n}'s village.",
+  "steps": [
+   "Disaster: The flood was a disaster for the village.",
+   "Shelter: Families who lost their homes found shelter in the school.",
+   "Volunteers and donations: Volunteers gave out food and clothes that people had donated."
+  ],
+  "answer": "disaster, shelter, volunteers (and donations)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c23-1",
+    "status": "draft",
+    "idea": "A volunteer works for free; a donation is a gift to help people.",
+    "vars": {},
+    "example": [
+     "Volunteers cleaned the streets after the storm.",
+     "The church collected donations of rice and soap."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-23-words"
+    }
+   },
+   {
+    "id": "c23-2",
+    "status": "draft",
+    "idea": "A refugee has left their country; a displaced person had to leave home but is still in their country.",
+    "vars": {},
+    "example": [
+     "Refugees crossed the border to escape the war.",
+     "Displaced families stayed with relatives in the next town."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-23-which"
+    }
+   },
+   {
+    "id": "c23-3",
+    "status": "draft",
+    "idea": "Kind words describe helpers: generous (gives a lot), caring, patient, honest.",
+    "vars": {},
+    "example": [
+     "A generous trader gave free bread.",
+     "A patient nurse explains things calmly."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-23-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "gives a lot to others",
+         "r": "generous",
+         "w": [
+          "selfish",
+          "lazy",
+          "rude"
+         ],
+         "e": [
+          "Selfish people keep things for themselves.",
+          "Lazy is about work.",
+          "Rude is about bad manners."
+         ],
+         "y": "Generous means giving a lot."
+        },
+        {
+         "q": "stays calm and waits without getting angry",
+         "r": "patient",
+         "w": [
+          "impatient",
+          "noisy",
+          "careless"
+         ],
+         "e": [
+          "Impatient is the opposite.",
+          "Noisy is about sound.",
+          "Careless means not careful."
+         ],
+         "y": "Patient means calm while waiting."
+        },
+        {
+         "q": "always tells the truth",
+         "r": "honest",
+         "w": [
+          "dishonest",
+          "shy",
+          "proud"
+         ],
+         "e": [
+          "Dishonest is the opposite.",
+          "Shy is about being quiet with people.",
+          "Proud is not about the truth."
+         ],
+         "y": "Honest means telling the truth."
+        },
+        {
+         "q": "looks after others and thinks of their feelings",
+         "r": "caring",
+         "w": [
+          "careless",
+          "cruel",
+          "bossy"
+         ],
+         "e": [
+          "Careless means not careful.",
+          "Cruel is the opposite.",
+          "Bossy means giving orders."
+         ],
+         "y": "Caring means looking after others."
+        }
+       ]
+      }
+     },
+     "prompt": "Which word describes a person who {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-23-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "volunteer",
+     "right": "a person who works for free to help"
+    },
+    {
+     "left": "donation",
+     "right": "a gift of money, food or clothes"
+    },
+    {
+     "left": "shelter",
+     "right": "a safe place to stay"
+    },
+    {
+     "left": "relief",
+     "right": "help such as food, water and medicine after a disaster"
+    },
+    {
+     "left": "first aid",
+     "right": "the first help given to an injured person"
+    },
+    {
+     "left": "disaster",
+     "right": "a sudden event that causes great damage"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-23-which",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Thousands of ___ crossed the border to escape the war.",
+       "a": "refugees",
+       "w": [
+        "volunteers",
+        "donations"
+       ],
+       "e": [
+        "Volunteers help; they are not escaping.",
+        "Donations are gifts."
+       ]
+      },
+      {
+       "s": "The fire was a ___ for the whole market.",
+       "a": "disaster",
+       "w": [
+        "donation",
+        "shelter"
+       ],
+       "e": [
+        "A donation is a gift.",
+        "A shelter is a safe place."
+       ]
+      },
+      {
+       "s": "The school became a ___ for families who lost their homes.",
+       "a": "shelter",
+       "w": [
+        "refugee",
+        "disaster"
+       ],
+       "e": [
+        "A refugee is a person.",
+        "A disaster causes damage."
+       ]
+      },
+      {
+       "s": "My uncle gave a ___ of fifty bags of rice.",
+       "a": "donation",
+       "w": [
+        "relief",
+        "volunteer"
+       ],
+       "e": [
+        "Relief is all the help, not one gift.",
+        "A volunteer is a person."
+       ]
+      },
+      {
+       "s": "She knew ___, so she helped the injured boy until the ambulance came.",
+       "a": "first aid",
+       "w": [
+        "shelter",
+        "a disaster"
+       ],
+       "e": [
+        "Shelter is a place to stay.",
+        "A disaster is an event."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-23-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "People forced to leave their homes because of fighting, but still in Cameroon, are …",
+       "r": "displaced persons",
+       "w": [
+        "refugees",
+        "volunteers",
+        "tourists"
+       ],
+       "e": [
+        "Refugees have left their country.",
+        "Volunteers help.",
+        "Tourists travel for pleasure."
+       ],
+       "y": "They are still in their country: displaced persons."
+      },
+      {
+       "q": "An organisation like the Red Cross that helps people is …",
+       "r": "a charity",
+       "w": [
+        "a disaster",
+        "a shelter",
+        "a refugee"
+       ],
+       "e": [
+        "A disaster causes damage.",
+        "A shelter is a place.",
+        "A refugee is a person."
+       ],
+       "y": "An organisation that helps people is a charity (or an NGO)."
+      },
+      {
+       "q": "Food, water and medicine sent after an earthquake are called …",
+       "r": "relief",
+       "w": [
+        "first aid",
+        "a donation box",
+        "a shelter"
+       ],
+       "e": [
+        "First aid is the first help to one injured person.",
+        "That is a box.",
+        "A shelter is a place."
+       ],
+       "y": "Help sent after a disaster is relief."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-23-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "One sentence uses a word wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Volunteers gave out blankets.",
+      "truth": "true"
+     },
+     {
+      "text": "The landslide was a disaster.",
+      "truth": "true"
+     },
+     {
+      "text": "Refugees crossed the border.",
+      "truth": "true"
+     },
+     {
+      "text": "We donated old clothes.",
+      "truth": "true"
+     },
+     {
+      "text": "The nurse gave first aid.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A volunteer is paid a big salary.",
+      "truth": "false",
+      "explain": "A volunteer works for free."
+     },
+     {
+      "text": "The refugees never left their home town.",
+      "truth": "false",
+      "explain": "Refugees have left their country."
+     },
+     {
+      "text": "The flood was a donation for the village.",
+      "truth": "false",
+      "explain": "A flood causing damage is a disaster; a donation is a gift."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

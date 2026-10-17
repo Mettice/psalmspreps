@@ -1,0 +1,522 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "e2-10",
+   "name": "Words about pandemics; health specialists and diseases"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Words about pandemics: a vaccine (an injection that protects against a disease), vaccination, quarantine (keeping people apart who may be sick), isolation (keeping a sick person alone), a face mask, hand sanitiser, social distancing, infection, recovery (getting well again).\nSpecialists and what they treat:\n• a dentist: tooth decay and gum disease;   • an ophthalmologist: diseases of the eyes;\n• a dermatologist: skin diseases;   • a paediatrician: illnesses of children;\n• a cardiologist: heart disease;   • a gynaecologist: women's health and pregnancy;\n• an ENT doctor: the ear, nose and throat.\nMany specialist names end in -ist or -ian.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Mbah"
+  },
+  "problem": "{n}'s baby brother has a skin rash, and his grandmother has heart trouble. Which specialists should they see?",
+  "steps": [
+   "A skin rash is a skin disease: a dermatologist. (A paediatrician also treats babies.)",
+   "Heart trouble is treated by a cardiologist."
+  ],
+  "answer": "The baby: a dermatologist (or a paediatrician); the grandmother: a cardiologist.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "A vaccine protects us before we are sick. Quarantine and isolation keep a disease from spreading.",
+    "vars": {},
+    "example": [
+     "Children get a vaccine against measles.",
+     "A sick person stays in isolation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-10-words"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "Each specialist treats one part of the body or one group of people.",
+    "vars": {},
+    "example": [
+     "A dermatologist treats the skin.",
+     "A paediatrician treats children."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-10-who"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "Many names of specialists end in -ist or -ian: dentist, cardiologist, paediatrician, optician.",
+    "vars": {},
+    "example": [
+     "dent- (teeth) → dentist",
+     "paediatric- (children) → paediatrician"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-10-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "cardiologist",
+         "w": [
+          "cardiology",
+          "cardiac",
+          "heart"
+         ],
+         "e": [
+          "Cardiology is the subject, not the person.",
+          "Cardiac is an adjective (of the heart).",
+          "The heart is the body part."
+         ],
+         "y": "-ist names the person: cardiologist."
+        },
+        {
+         "r": "dermatologist",
+         "w": [
+          "dermatology",
+          "skin",
+          "rash"
+         ],
+         "e": [
+          "Dermatology is the subject.",
+          "Skin is the body part.",
+          "A rash is a symptom."
+         ],
+         "y": "-ist names the person: dermatologist."
+        },
+        {
+         "r": "paediatrician",
+         "w": [
+          "paediatrics",
+          "child",
+          "childhood"
+         ],
+         "e": [
+          "Paediatrics is the subject.",
+          "A child is the patient.",
+          "Childhood is a time of life."
+         ],
+         "y": "-ian names the person: paediatrician."
+        },
+        {
+         "r": "dentist",
+         "w": [
+          "dental",
+          "tooth",
+          "dentistry"
+         ],
+         "e": [
+          "Dental is an adjective.",
+          "A tooth is the body part.",
+          "Dentistry is the subject."
+         ],
+         "y": "-ist names the person: dentist."
+        }
+       ]
+      }
+     },
+     "prompt": "Which word names a person who treats people?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-10-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "vaccine",
+     "right": "an injection that protects against a disease"
+    },
+    {
+     "left": "quarantine",
+     "right": "keeping people apart who may have caught a disease"
+    },
+    {
+     "left": "isolation",
+     "right": "keeping a sick person alone"
+    },
+    {
+     "left": "recovery",
+     "right": "getting well again"
+    },
+    {
+     "left": "infection",
+     "right": "a disease caused by germs entering the body"
+    },
+    {
+     "left": "sanitiser",
+     "right": "a liquid that kills germs on the hands"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-10-who",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each specialist to what they treat.",
+   "pool": [
+    {
+     "left": "dermatologist",
+     "right": "skin diseases"
+    },
+    {
+     "left": "ophthalmologist",
+     "right": "diseases of the eyes"
+    },
+    {
+     "left": "cardiologist",
+     "right": "heart disease"
+    },
+    {
+     "left": "paediatrician",
+     "right": "illnesses of children"
+    },
+    {
+     "left": "dentist",
+     "right": "tooth decay"
+    },
+    {
+     "left": "ENT doctor",
+     "right": "ear, nose and throat problems"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-10-send",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk cannot see the board clearly and his eyes are red.",
+       "r": "an ophthalmologist",
+       "w": [
+        "a dermatologist",
+        "a cardiologist",
+        "a dentist"
+       ],
+       "e": [
+        "A dermatologist treats the skin.",
+        "A cardiologist treats the heart.",
+        "A dentist treats teeth."
+       ],
+       "y": "Eye diseases are treated by an ophthalmologist."
+      },
+      {
+       "q": "Grandpa has pains in his chest and his heart beats strangely.",
+       "r": "a cardiologist",
+       "w": [
+        "a paediatrician",
+        "a dentist",
+        "an optician"
+       ],
+       "e": [
+        "A paediatrician treats children.",
+        "A dentist treats teeth.",
+        "An optician tests eyes."
+       ],
+       "y": "Heart disease is treated by a cardiologist."
+      },
+      {
+       "q": "A baby has a high fever.",
+       "r": "a paediatrician",
+       "w": [
+        "a cardiologist",
+        "a dentist",
+        "a dermatologist"
+       ],
+       "e": [
+        "A cardiologist treats the heart.",
+        "A dentist treats teeth.",
+        "A dermatologist treats the skin."
+       ],
+       "y": "Illnesses of children are treated by a paediatrician."
+      },
+      {
+       "q": "Manka has an itchy rash on her arms.",
+       "r": "a dermatologist",
+       "w": [
+        "an ophthalmologist",
+        "a cardiologist",
+        "a midwife"
+       ],
+       "e": [
+        "An ophthalmologist treats eyes.",
+        "A cardiologist treats the heart.",
+        "A midwife helps women give birth."
+       ],
+       "y": "Skin diseases are treated by a dermatologist."
+      },
+      {
+       "q": "Tabe has a sore throat and earache.",
+       "r": "an ENT doctor",
+       "w": [
+        "a dentist",
+        "a dermatologist",
+        "a cardiologist"
+       ],
+       "e": [
+        "A dentist treats teeth.",
+        "A dermatologist treats the skin.",
+        "A cardiologist treats the heart."
+       ],
+       "y": "Ear, nose and throat problems are treated by an ENT doctor."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q} Which specialist should they see?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-10-use",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Every child should get the measles ___.",
+       "a": "vaccine",
+       "w": [
+        "symptom",
+        "isolation"
+       ],
+       "e": [
+        "A symptom is a sign of illness.",
+        "Isolation keeps a sick person alone."
+       ]
+      },
+      {
+       "s": "Travellers from the infected area stayed in ___ for two weeks.",
+       "a": "quarantine",
+       "w": [
+        "recovery",
+        "vaccine"
+       ],
+       "e": [
+        "Recovery is getting well.",
+        "A vaccine is an injection."
+       ]
+      },
+      {
+       "s": "After a week of rest, her ___ was complete.",
+       "a": "recovery",
+       "w": [
+        "infection",
+        "quarantine"
+       ],
+       "e": [
+        "Infection is catching the disease.",
+        "Quarantine keeps people apart."
+       ]
+      },
+      {
+       "s": "Rub ___ on your hands when there is no water.",
+       "a": "sanitiser",
+       "w": [
+        "vaccine",
+        "symptom"
+       ],
+       "e": [
+        "A vaccine is an injection.",
+        "A symptom is a sign of illness."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "One sentence uses a word wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A dermatologist treats skin diseases.",
+      "truth": "true"
+     },
+     {
+      "text": "The vaccine protects children against measles.",
+      "truth": "true"
+     },
+     {
+      "text": "The sick man was kept in isolation.",
+      "truth": "true"
+     },
+     {
+      "text": "A paediatrician looks after children.",
+      "truth": "true"
+     },
+     {
+      "text": "A cardiologist treats heart disease.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "I went to the dermatologist because my tooth hurt.",
+      "truth": "false",
+      "explain": "A dentist treats teeth; a dermatologist treats the skin."
+     },
+     {
+      "text": "The nurse gave my brother a quarantine in his arm.",
+      "truth": "false",
+      "explain": "An injection that protects is a vaccine; quarantine means keeping people apart."
+     },
+     {
+      "text": "A paediatrician treats only old people.",
+      "truth": "false",
+      "explain": "A paediatrician treats children."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

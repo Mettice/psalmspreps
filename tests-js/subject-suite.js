@@ -17,9 +17,10 @@ const literalDigits = (t) => t.replace(/(^|[^\d.,])1 (?=[A-Za-zµ°{])/g, "$1").
 const SVG = /^<svg [^>]*role="img"[\s\S]*<\/svg>$/;
 
 // numbering: "lesson" (the sheet's lesson numbers) or "seq" (the row's place in the year: Geography, whose practicals
-// PW1–PW5 have no lesson number and whose lessons come in parts that share one).
-export function subjectSuite({ subject, spine, lib, batch, prefix, numbering = "lesson" }) {
-  const DIR = new URL(`../content/${subject}/`, import.meta.url);
+// PW1–PW5 have no lesson number and whose lessons come in parts that share one; every Form 2 subject, proposal G1).
+// Form 2 (2026-10-17): dir "form-2/maths", cls "Form 2", spine "form-2/mathematics".
+export function subjectSuite({ subject, spine, lib, batch, prefix, numbering = "lesson", dir = subject, cls = "Form 1" }) {
+  const DIR = new URL(`../content/${dir}/`, import.meta.url);
   const lessons = Object.fromEntries(readdirSync(DIR).filter((f) => /^\d+\.json$/.test(f))
     .map((f) => JSON.parse(readFileSync(new URL(f, DIR), "utf8"))).map((l) => [l.lesson_no, l]));
   const spineLessons = JSON.parse(readFileSync(new URL(`../data/spine/${spine}.json`, import.meta.url), "utf8")).terms.flatMap((t) => t.lessons);
@@ -34,7 +35,7 @@ export function subjectSuite({ subject, spine, lib, batch, prefix, numbering = "
     assert.deepEqual(Object.keys(lessons).map(Number).sort((a, b) => a - b), batch);
     for (const l of Object.values(lessons)) {
       assert.equal(l.subject, subject);
-      assert.equal(l.class, "Form 1");
+      assert.equal(l.class, cls);
       const inSpine = numbering === "seq" ? spineLessons.some((s) => s.seq === l.lesson_no)
         : spineLessons.some((s) => s.lesson_no === l.lesson_no && s.kind === "lesson");
       assert.ok(inSpine, `lesson ${l.lesson_no} is not in the spine`);

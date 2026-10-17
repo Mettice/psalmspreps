@@ -1,0 +1,534 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-26",
+   "name": "Synonyms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Synonyms are words with the same or nearly the same meaning: big and large, start and begin, quick and fast, happy and glad.\nWe use synonyms so as not to repeat the same word, and to choose the best word for the situation.\nSome synonyms are more formal: buy → purchase, help → assist, enough → sufficient, end → finish or conclude.\nSynonyms are not always used in the same way: we say “a big brother”, not “a large brother”; “fast food”, not “quick food”.\nAntonyms are opposites: big and small, start and finish. Do not mix them up with synonyms.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "big",
+   "b": "large",
+   "c": "begin"
+  },
+  "problem": "Rewrite the sentence without repeating a word: “The big market has a big hall, and the market starts early.”",
+  "steps": [
+   "Replace the second big with its synonym: {b}.",
+   "Replace starts with a synonym: {thirdPerson(c)}.",
+   "“The big market has a {b} hall, and it {thirdPerson(c)} early.”"
+  ],
+  "answer": "The big market has a {b} hall, and it {thirdPerson(c)} early.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "Synonyms have the same or nearly the same meaning.",
+    "vars": {},
+    "example": [
+     "big = large; start = begin",
+     "happy = glad; quick = fast"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-26-match"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "Some synonyms are more formal, for letters and speeches.",
+    "vars": {},
+    "example": [
+     "buy → purchase; help → assist",
+     "enough → sufficient"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-26-pick"
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "Antonyms are opposites. Do not confuse them with synonyms.",
+    "vars": {},
+    "example": [
+     "Synonyms: big, large. Antonyms: big, small.",
+     "Synonyms: start, begin. Antonyms: start, finish."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-26-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "big – large",
+         "w": [
+          "big – small",
+          "hot – cold",
+          "start – finish"
+         ],
+         "e": [
+          "Those are opposites.",
+          "Those are opposites.",
+          "Those are opposites."
+         ],
+         "y": "Big and large mean the same."
+        },
+        {
+         "r": "happy – glad",
+         "w": [
+          "happy – sad",
+          "rich – poor",
+          "open – shut"
+         ],
+         "e": [
+          "Those are opposites.",
+          "Those are opposites.",
+          "Those are opposites."
+         ],
+         "y": "Happy and glad mean the same."
+        },
+        {
+         "r": "quick – fast",
+         "w": [
+          "quick – slow",
+          "up – down",
+          "early – late"
+         ],
+         "e": [
+          "Those are opposites.",
+          "Those are opposites.",
+          "Those are opposites."
+         ],
+         "y": "Quick and fast mean the same."
+        },
+        {
+         "r": "end – finish",
+         "w": [
+          "end – begin",
+          "buy – sell",
+          "give – take"
+         ],
+         "e": [
+          "Those are opposites.",
+          "Those are opposites.",
+          "Those are opposites."
+         ],
+         "y": "End and finish mean the same."
+        }
+       ]
+      }
+     },
+     "prompt": "Which pair are synonyms?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-26-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its synonym.",
+   "pool": [
+    {
+     "left": "big",
+     "right": "large"
+    },
+    {
+     "left": "start",
+     "right": "begin"
+    },
+    {
+     "left": "fast",
+     "right": "quick"
+    },
+    {
+     "left": "happy",
+     "right": "glad"
+    },
+    {
+     "left": "help",
+     "right": "assist"
+    },
+    {
+     "left": "end",
+     "right": "finish"
+    },
+    {
+     "left": "choose",
+     "right": "select"
+    },
+    {
+     "left": "rich",
+     "right": "wealthy"
+    },
+    {
+     "left": "buy",
+     "right": "purchase"
+    },
+    {
+     "left": "enough",
+     "right": "sufficient"
+    },
+    {
+     "left": "shut",
+     "right": "close"
+    },
+    {
+     "left": "smart",
+     "right": "clever"
+    },
+    {
+     "left": "afraid",
+     "right": "frightened"
+    },
+    {
+     "left": "tiny",
+     "right": "very small"
+    }
+   ],
+   "pick": 5
+  },
+  {
+   "id": "e2-26-pick",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "purchase",
+       "r": "buy",
+       "w": [
+        "sell",
+        "borrow",
+        "lend"
+       ],
+       "e": [
+        "Sell is the opposite.",
+        "Borrow means take for a time.",
+        "Lend means give for a time."
+       ],
+       "y": "Purchase means buy."
+      },
+      {
+       "q": "assist",
+       "r": "help",
+       "w": [
+        "stop",
+        "insult",
+        "watch"
+       ],
+       "e": [
+        "Stop is not help.",
+        "Insult is unkind.",
+        "Watch is only looking."
+       ],
+       "y": "Assist means help."
+      },
+      {
+       "q": "sufficient",
+       "r": "enough",
+       "w": [
+        "too little",
+        "nothing",
+        "empty"
+       ],
+       "e": [
+        "That is the opposite.",
+        "That is the opposite.",
+        "Empty is the opposite."
+       ],
+       "y": "Sufficient means enough."
+      },
+      {
+       "q": "wealthy",
+       "r": "rich",
+       "w": [
+        "poor",
+        "healthy",
+        "kind"
+       ],
+       "e": [
+        "Poor is the opposite.",
+        "Healthy is about health.",
+        "Kind is about behaviour."
+       ],
+       "y": "Wealthy means rich."
+      },
+      {
+       "q": "frightened",
+       "r": "afraid",
+       "w": [
+        "brave",
+        "angry",
+        "tired"
+       ],
+       "e": [
+        "Brave is the opposite.",
+        "Angry is a different feeling.",
+        "Tired is a different feeling."
+       ],
+       "y": "Frightened means afraid."
+      }
+     ]
+    }
+   },
+   "prompt": "Which word is a synonym of “{X.q}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-26-use",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Please ___ the door; it is cold. (close)",
+       "a": "shut",
+       "w": [
+        "open",
+        "paint"
+       ],
+       "e": [
+        "Open is the opposite.",
+        "Paint does not mean close."
+       ]
+      },
+      {
+       "s": "The meeting will ___ at nine o'clock. (start)",
+       "a": "begin",
+       "w": [
+        "finish",
+        "stop"
+       ],
+       "e": [
+        "Finish is the opposite.",
+        "Stop is the opposite."
+       ]
+      },
+      {
+       "s": "Ngwa is a very ___ pupil; he solves every problem. (clever)",
+       "a": "smart",
+       "w": [
+        "lazy",
+        "slow"
+       ],
+       "e": [
+        "Lazy is not a synonym.",
+        "Slow is not a synonym."
+       ]
+      },
+      {
+       "s": "We do not have ___ chairs for all the guests. (enough)",
+       "a": "sufficient",
+       "w": [
+        "many too",
+        "little"
+       ],
+       "e": [
+        "That is not correct English.",
+        "Little is not a synonym."
+       ]
+      },
+      {
+       "s": "She was ___ to see her grandmother again. (happy)",
+       "a": "glad",
+       "w": [
+        "sad",
+        "angry"
+       ],
+       "e": [
+        "Sad is the opposite.",
+        "Angry is not a synonym."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the synonym that fits the sentence.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-26-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "One pair is NOT a pair of synonyms. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "big – large",
+      "truth": "true"
+     },
+     {
+      "text": "start – begin",
+      "truth": "true"
+     },
+     {
+      "text": "buy – purchase",
+      "truth": "true"
+     },
+     {
+      "text": "help – assist",
+      "truth": "true"
+     },
+     {
+      "text": "rich – wealthy",
+      "truth": "true"
+     },
+     {
+      "text": "shut – close",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "happy – sad",
+      "truth": "false",
+      "explain": "Happy and sad are opposites (antonyms)."
+     },
+     {
+      "text": "fast – slow",
+      "truth": "false",
+      "explain": "Fast and slow are opposites."
+     },
+     {
+      "text": "give – take",
+      "truth": "false",
+      "explain": "Give and take are opposites."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

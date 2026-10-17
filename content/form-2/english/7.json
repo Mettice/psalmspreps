@@ -1,0 +1,794 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "e2-7",
+   "name": "The Present Continuous tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Present Continuous for actions happening now (“The nurse is checking my temperature”), for things happening around now (“I am reading a book about health this week”) and for plans already fixed (“I am seeing the dentist on Friday”).\nForm: am / is / are + verb-ing. I am waiting. She is waiting. They are waiting.\nSpelling: write → writing, sit → sitting, lie → lying.\nNegative: am not / isn't / aren't + -ing: “He isn't sleeping.”\nQuestion: Am / Is / Are + subject + -ing: “Are you coming?” — “Yes, I am.”\nState verbs (know, like, want, need, believe, own) are not used with -ing: say “I need a doctor”, not “I am needing”.\nSignal words: now, right now, at the moment, today, this week, Look!, Listen!",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "The nurse",
+   "v": "take",
+   "c": "my temperature"
+  },
+  "problem": "Write a sentence in the Present Continuous: {n} / {v} / {c} / now. Then make it negative and a question.",
+  "steps": [
+   "{n} is one person: is + {ing(v)}: {n} is {ing(v)} {c} now.",
+   "Negative: isn't + {ing(v)}: {n} isn't {ing(v)} {c} now.",
+   "Question: Is + subject + {ing(v)}: Is {low(n)} {ing(v)} {c} now?"
+  ],
+  "answer": "{n} is {ing(v)} {c} now. / {n} isn't {ing(v)} {c} now. / Is {low(n)} {ing(v)} {c} now?",
+  "checks": [
+   "ing(v) == 'taking'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "The Present Continuous is am, is or are + the verb with -ing.",
+    "vars": {
+     "v": "wait",
+     "c": "for the doctor"
+    },
+    "example": [
+     "I am {ing(v)} {c}.",
+     "She is {ing(v)} {c}. They are {ing(v)} {c}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-7-form"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "Use it for what is happening now, and for a plan already fixed.",
+    "vars": {},
+    "example": [
+     "Look! The doctor is coming.",
+     "I am seeing the dentist on Friday. (a fixed plan)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-7-c2",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Listen! The baby ___.",
+         "r": "is crying",
+         "w": [
+          "cries",
+          "cried",
+          "cry"
+         ],
+         "e": [
+          "Listen! shows it is happening now.",
+          "Listen! shows now, not the past.",
+          "With the baby (it), the form is is crying."
+         ],
+         "y": "Listen! shows an action happening now."
+        },
+        {
+         "q": "At the moment, Dr Fon ___ a patient.",
+         "r": "is examining",
+         "w": [
+          "examines",
+          "examined",
+          "examine"
+         ],
+         "e": [
+          "At the moment means now.",
+          "At the moment is now, not past.",
+          "With Dr Fon, use is examining."
+         ],
+         "y": "At the moment means now: Present Continuous."
+        },
+        {
+         "q": "Our class ___ the clinic next Tuesday; the visit is planned.",
+         "r": "is visiting",
+         "w": [
+          "visited",
+          "visit",
+          "was visiting"
+         ],
+         "e": [
+          "Next Tuesday is in the future.",
+          "With our class (it), use is visiting.",
+          "That is a past form."
+         ],
+         "y": "A fixed plan uses the Present Continuous."
+        },
+        {
+         "q": "Be quiet! The nurses ___.",
+         "r": "are working",
+         "w": [
+          "work",
+          "worked",
+          "is working"
+         ],
+         "e": [
+          "Be quiet! shows it is happening now.",
+          "It is happening now.",
+          "Nurses is plural: are working."
+         ],
+         "y": "Be quiet! shows an action happening now."
+        }
+       ]
+      }
+     },
+     "prompt": "Which tense is right? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Negative: am not, isn't, aren't + -ing. Question: Am, Is, Are + subject + -ing.",
+    "vars": {},
+    "example": [
+     "He isn't sleeping.",
+     "Are you coming to the clinic? — Yes, I am."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-7-be"
+    }
+   },
+   {
+    "id": "c7-4",
+    "status": "draft",
+    "idea": "State verbs like know, like, want, need and believe do not take -ing.",
+    "vars": {},
+    "example": [
+     "I need a doctor. (not: I am needing)",
+     "She knows the nurse. (not: she is knowing)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-7-state"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-7-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "brush",
+       "c": "his teeth"
+      },
+      {
+       "v": "wait",
+       "c": "for the doctor"
+      },
+      {
+       "v": "take",
+       "c": "a tablet"
+      },
+      {
+       "v": "run",
+       "c": "to the clinic"
+      },
+      {
+       "v": "clean",
+       "c": "the waiting room"
+      },
+      {
+       "v": "read",
+       "c": "a magazine"
+      },
+      {
+       "v": "sit",
+       "c": "near the door"
+      },
+      {
+       "v": "visit",
+       "c": "a sick friend"
+      },
+      {
+       "v": "make",
+       "c": "an appointment"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in the Present Continuous.",
+   "text": "{S.t} ___ {V.c} now. ({V.v})",
+   "answer": "beFor(S.s) + ' ' + ing(V.v)",
+   "misconceptions": [
+    {
+     "id": "no-be",
+     "wrong": "ing(V.v)",
+     "explain": "Add {beFor(S.s)} before the -ing form."
+    },
+    {
+     "id": "wrong-be",
+     "wrong": "(beFor(S.s) == 'is' ? 'are' : 'is') + ' ' + ing(V.v)",
+     "explain": "With {S.m}, use {beFor(S.s)}."
+    },
+    {
+     "id": "spelling",
+     "wrong": "beFor(S.s) + ' ' + V.v + 'ing'",
+     "explain": "Check the spelling: {ing(V.v)}.",
+     "when": "ing(V.v) != V.v + 'ing'"
+    }
+   ]
+  },
+  {
+   "id": "e2-7-be",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "write",
+       "c": "a letter"
+      },
+      {
+       "v": "brush",
+       "c": "his teeth"
+      },
+      {
+       "v": "wait",
+       "c": "for the doctor"
+      },
+      {
+       "v": "take",
+       "c": "a tablet"
+      },
+      {
+       "v": "run",
+       "c": "to the clinic"
+      },
+      {
+       "v": "clean",
+       "c": "the waiting room"
+      },
+      {
+       "v": "read",
+       "c": "a magazine"
+      },
+      {
+       "v": "sit",
+       "c": "near the door"
+      },
+      {
+       "v": "visit",
+       "c": "a sick friend"
+      },
+      {
+       "v": "make",
+       "c": "an appointment"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{S.t} ___ {ing(V.v)} {V.c}.",
+   "answer": "beFor(S.s)",
+   "choices": [
+    {
+     "text": "am",
+     "misconception": "am"
+    },
+    {
+     "text": "is",
+     "misconception": "is"
+    },
+    {
+     "text": "are",
+     "misconception": "are"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "am",
+     "explain": "Am goes only with I."
+    },
+    {
+     "id": "is",
+     "explain": "Is goes with he, she, it and one person or thing."
+    },
+    {
+     "id": "are",
+     "explain": "Are goes with you, we, they and more than one."
+    }
+   ],
+   "show": 3
+  },
+  {
+   "id": "e2-7-state",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "I ___ some medicine for my cough.",
+       "a": "need",
+       "w": [
+        "am needing",
+        "needing"
+       ],
+       "e": [
+        "Need is a state verb: no -ing.",
+        "Need is a state verb: I need."
+       ]
+      },
+      {
+       "s": "She ___ the answer to the question.",
+       "a": "knows",
+       "w": [
+        "is knowing",
+        "knowing"
+       ],
+       "e": [
+        "Know is a state verb: she knows.",
+        "Use the Simple Present: she knows."
+       ]
+      },
+      {
+       "s": "Look! The doctor ___ to the ward.",
+       "a": "is walking",
+       "w": [
+        "walks",
+        "walking"
+       ],
+       "e": [
+        "Look! shows now: is walking.",
+        "Add is: is walking."
+       ]
+      },
+      {
+       "s": "We ___ the nurse; she is very kind.",
+       "a": "like",
+       "w": [
+        "are liking",
+        "liking"
+       ],
+       "e": [
+        "Like is a state verb: we like.",
+        "Use the Simple Present: we like."
+       ]
+      },
+      {
+       "s": "Be quiet: the patient ___.",
+       "a": "is sleeping",
+       "w": [
+        "sleeps",
+        "sleeping"
+       ],
+       "e": [
+        "It is happening now: is sleeping.",
+        "Add is: is sleeping."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-7-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "The nurse is checking my temperature.",
+       "b": "The nurse is checking my temperature."
+      },
+      {
+       "a": "Are you waiting for the doctor?",
+       "b": "Are you waiting for the doctor?"
+      },
+      {
+       "a": "My brother isn't taking his medicine.",
+       "b": "My brother isn't taking his medicine."
+      },
+      {
+       "a": "We are visiting our aunt in hospital.",
+       "b": "We are visiting our aunt in hospital."
+      },
+      {
+       "a": "Is the dentist working today?",
+       "b": "Is the dentist working today?"
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Look! The ambulance is coming.",
+      "truth": "true"
+     },
+     {
+      "text": "I am reading a book about health.",
+      "truth": "true"
+     },
+     {
+      "text": "She isn't sleeping now.",
+      "truth": "true"
+     },
+     {
+      "text": "Are they waiting outside?",
+      "truth": "true"
+     },
+     {
+      "text": "We need a doctor.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "He are writing a prescription.",
+      "truth": "false",
+      "explain": "With he, use is: He is writing."
+     },
+     {
+      "text": "I am wanting some water.",
+      "truth": "false",
+      "explain": "Want is a state verb: I want some water."
+     },
+     {
+      "text": "They is sitting in the waiting room.",
+      "truth": "false",
+      "explain": "With they, use are."
+     },
+     {
+      "text": "She is siting near the window.",
+      "truth": "false",
+      "explain": "Double the t: sitting."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

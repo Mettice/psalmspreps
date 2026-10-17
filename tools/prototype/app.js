@@ -1,7 +1,7 @@
 // Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
 // practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, PAPER, MODE */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, CLASSES, CLASS_OF, BUILD, PAPER, MODE */
 const { libs, template, teach, readiness } = ENGINE;
 const { check, DONT_KNOW, renderWorked, normaliseInput, inputModeFor } = template;
 const L0 = () => CONTENT.maths[0];  // Maths is loaded before the readiness check starts
@@ -260,7 +260,15 @@ function readinessDone(rows) {
 // Design of 2026-10-17 (Dion: "colourful and interactive, with streaks"): a home screen with the streak, stars and
 // one coloured tile per subject; each subject shows its lessons as a path. Streaks are forgiving (ghost towns, power
 // cuts, no data): up to two days off in a row never break a streak.
-const subj = () => state.subject in SUBJECTS ? state.subject : "maths";
+const subj = () => state.subject in SUBJECTS ? state.subject : Object.keys(SUBJECTS)[0];
+// Classes (Form 2, 2026-10-17): Form One stays the default; a pupil picks a class on the home screen. A Form 2
+// subject's id starts with "f2-" and keeps its own progress ("f2-maths:5").
+const classOf = (s) => CLASS_OF[s] || "form-1";
+const classesHere = () => [...new Set(Object.keys(SUBJECTS).map(classOf))];
+const form = () => (classesHere().includes(state.form) ? state.form : classesHere()[0]);
+const inClass = (c) => Object.keys(SUBJECTS).filter((s) => classOf(s) === c);
+/** "Maths" for Form One (as before), "Form Two Maths" for another class. */
+const subjectName = (s) => (classOf(s) === "form-1" ? SUBJECTS[s] : `${CLASSES[classOf(s)]} ${SUBJECTS[s]}`);
 const nextLesson = (s) => LESSONS[s].find((n) => !state.lessons[lessonKey(s, n)]?.done);
 const inProgress = (s) => { const c = state.current[s]; return c && !teach.isDone(c.flow) ? c : null; };
 
@@ -269,8 +277,9 @@ const STYLE = {
   maths: ["#1d4ed8", "🔢"], english: ["#6d28d9", "📖"], physics: ["#b45309", "⚡"], chemistry: ["#0f766e", "🧪"], geography: ["#2e7d32", "🌍"],
   "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"],
 };
-const colourOf = (s) => (STYLE[s] || ["#1f6f4a"])[0];
-const iconOf = (s) => (STYLE[s] || ["", "📘"])[1];
+const styleOf = (s) => STYLE[s] || STYLE[s.replace(/^f2-/, "")];  // a Form 2 subject looks like its Form One subject
+const colourOf = (s) => (styleOf(s) || ["#1f6f4a"])[0];
+const iconOf = (s) => (styleOf(s) || ["", "📘"])[1];
 const tinted = (s, ...kids) => { const e = el(...kids); e.style.setProperty("--subj", colourOf(s)); return e; };
 
 // Lesson content is loaded one subject at a time in the installed app (subjects/<id>.js); the single-file copy has
@@ -289,8 +298,8 @@ function loadSubject(s) {
 }
 function withSubject(s, show) {
   if (CONTENT[s]) return show();
-  screen(header(`${iconOf(s)} ${SUBJECTS[s]}`, "Getting the lessons ready…"), para("This takes a moment the first time.", "muted"));
-  loadSubject(s).then(show, () => screen(header(`${iconOf(s)} ${SUBJECTS[s]}`, "No connection"),
+  screen(header(`${iconOf(s)} ${subjectName(s)}`, "Getting the lessons ready…"), para("This takes a moment the first time.", "muted"));
+  loadSubject(s).then(show, () => screen(header(`${iconOf(s)} ${subjectName(s)}`, "No connection"),
     para("These lessons are not saved on this phone yet. Connect to the internet once, then they will work offline.", "muted"),
     button("Try again", () => withSubject(s, show), "primary"), button("Back to all subjects", home, "link")));
 }
@@ -338,8 +347,8 @@ const BADGES = [
   ["streak14", "💪", "Two weeks", "A 14-day streak", () => streak() >= 14],
   ["stars30", "⭐", "Star collector", "Collect 30 stars", () => totalStars() >= 30],
   ["stars100", "🌠", "Star shower", "Collect 100 stars", () => totalStars() >= 100],
-  ["explorer", "🌈", "Explorer", "Finish a lesson in every subject", () => Object.keys(SUBJECTS).every((s) => doneIn(s).length)],
-  ...Object.keys(SUBJECTS).map((s) => [`all-${s}`, iconOf(s), `All of ${SUBJECTS[s]}`, `Finish every ${SUBJECTS[s]} lesson`, () => doneIn(s).length === LESSONS[s].length]),
+  ["explorer", "🌈", "Explorer", "Finish a lesson in every subject of your class", () => inClass(form()).every((s) => doneIn(s).length)],
+  ...Object.keys(SUBJECTS).map((s) => [`all-${s}`, iconOf(s), `All of ${subjectName(s)}`, `Finish every ${subjectName(s)} lesson`, () => doneIn(s).length === LESSONS[s].length]),
 ];
 /** Badges earned now that were not earned before; they are kept for ever once earned. */
 function newBadges() {
@@ -360,7 +369,11 @@ function home() {
   newBadges();
   const st = streak();
   const going = Object.keys(SUBJECTS).map((s) => [s, inProgress(s)]).filter(([, c]) => c).sort((a, b) => (b[1].at || "").localeCompare(a[1].at || ""))[0];
-  const tiles = Object.entries(SUBJECTS).map(([s, name]) => {
+  const f = form();
+  // The class switch shows only when this copy of the app has more than one class.
+  const switcher = classesHere().length > 1 ? el("div", { class: "subjects class-switch", role: "tablist", "aria-label": "Class" }, classesHere().map((c) =>
+    el("button", { type: "button", role: "tab", "aria-selected": String(c === f), class: `subject${c === f ? " on" : ""}`, onclick: () => { state.form = c; save(); home(); } }, CLASSES[c]))) : null;
+  const tiles = inClass(f).map((s) => [s, SUBJECTS[s]]).map(([s, name]) => {
     const done = doneIn(s).length, all = LESSONS[s].length;
     return tinted(s, "button", { type: "button", class: `tile-subject${done === all ? " complete" : ""}`, onclick: () => { state.subject = s; save(); menu(); } },
       el("span", { class: "ts-icon", "aria-hidden": "true" }, iconOf(s)), el("span", { class: "ts-name" }, name),
@@ -369,11 +382,12 @@ function home() {
   });
   const earned = Object.keys(state.badges || {}).length;
   screen(
-    el("header", { class: "hello" }, el("div", { class: "kicker" }, "Form One"), el("h1", {}, st ? "Welcome back! Keep it going" : "Hello! Ready to learn?")),
+    el("header", { class: "hello" }, el("div", { class: "kicker" }, CLASSES[f]), el("h1", {}, st ? "Welcome back! Keep it going" : "Hello! Ready to learn?")),
+    switcher,
     el("div", { class: "pills" }, statPill("🔥", st, st === 1 ? "day" : "days"), statPill("⭐", totalStars(), "stars"), statPill("✓", totalDone(), "lessons")),
     st ? para(st >= 2 ? `A ${st}-day streak. Up to two days off won't break it.` : "Your streak has started. Come back tomorrow!", "muted streak-note") : null,
     going ? tinted(going[0], "button", { type: "button", class: "primary continue", onclick: () => openLesson(going[0], going[1].lesson) },
-      `${iconOf(going[0])} Carry on: ${SUBJECTS[going[0]]} · Lesson ${going[1].lesson}`) : null,
+      `${iconOf(going[0])} Carry on: ${subjectName(going[0])} · Lesson ${going[1].lesson}`) : null,
     installPrompt ? button("📲 Install the app on this phone", async () => { installPrompt.prompt(); installPrompt = null; }, "") : null,
     el("div", { class: "tiles-subjects" }, tiles),
     button(`🏅 My badges (${earned} of ${BADGES.length})`, badgesScreen, "badges-link"),
@@ -419,9 +433,9 @@ function menu() {
     screen(tinted(s, "div", { class: "subject-page" },
       button("← All subjects", home, "link back"),
       el("header", { class: "subject-head" }, el("span", { class: "sh-icon", "aria-hidden": "true" }, iconOf(s)),
-        el("div", {}, el("div", { class: "kicker" }, `Form One ${SUBJECTS[s]}`), el("h1", {}, done ? `${done} of ${LESSONS[s].length} lessons done` : "Your lessons"))),
+        el("div", {}, el("div", { class: "kicker" }, `${CLASSES[classOf(s)]} ${SUBJECTS[s]}`), el("h1", {}, done ? `${done} of ${LESSONS[s].length} lessons done` : "Your lessons"))),
       progress(done, LESSONS[s].length),
-      stars ? para(`⭐ ${stars} stars in ${SUBJECTS[s]}`, "muted") : null,
+      stars ? para(`⭐ ${stars} stars in ${subjectName(s)}`, "muted") : null,
       lead,
       el("ol", { class: "path" }, LESSONS[s].map(row)),
       para("These lessons are drafts: a teacher has not checked them all yet.", "muted")));
@@ -439,7 +453,9 @@ function grownUp() {
       loadAll(Object.keys(SUBJECTS)).then(() => { status.textContent = "Every subject is saved on this phone. It works without internet now."; },
         () => { status.textContent = "Some subjects could not be saved. Connect to the internet and try again."; });
     }, "") : null,
-    MODE === "pwa" ? el("a", { class: "button-link", href: "offline.html", download: "psalmspreps-form-one.html" }, "Download one file to share by Bluetooth or a flash drive") : null,
+    // one file per class (Form One: offline.html, as before; Form Two: offline-form-2.html)
+    MODE === "pwa" ? el("a", { class: "button-link", href: form() === "form-1" ? "offline.html" : `offline-${form()}.html`, download: `psalmspreps-${CLASSES[form()].toLowerCase().replace(/ /g, "-")}.html` },
+      classesHere().length > 1 ? `Download one ${CLASSES[form()]} file to share by Bluetooth or a flash drive` : "Download one file to share by Bluetooth or a flash drive") : null,
     button("Do the readiness check again", start, ""),
     button("Clear all progress on this phone", () => {
       if (!confirm("Clear all saved progress on this phone? This cannot be undone.")) return;
@@ -604,7 +620,7 @@ function readinessText() {
 function lessonText(s, n, r) {
   const cards = r.rows.filter((x) => x.phase === "card"), practice = r.rows.filter((x) => x.phase === "practice");
   const secs = r.rows.reduce((t, x) => t + x.seconds, 0);
-  const out = [`${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}) · ${r.at.slice(0, 16).replace("T", " ")} · ${Math.round(secs)}s · "I don't know" ${count(r.rows, "idk")}`,
+  const out = [`${subjectName(s)} Lesson ${n} (${TITLES[s][n]}) · ${r.at.slice(0, 16).replace("T", " ")} · ${Math.round(secs)}s · "I don't know" ${count(r.rows, "idk")}`,
     `  cards: ${count(cards, "right")} right, ${count(cards, "wrong")} wrong, ${count(cards, "idk")} IDK · practice: ${count(practice, "right")} right, ${count(practice, "wrong")} wrong, ${count(practice, "idk")} IDK`,
     `  needs review (missed twice): ${r.review.join(", ") || "none"}`];
   if (r.paper) {
@@ -625,7 +641,7 @@ function allResultsText() {
   const tables = [...(state.readiness?.rows || []).map(row)];
   for (const s of Object.keys(SUBJECTS)) {
     const done = LESSONS[s].filter((n) => state.lessons[lessonKey(s, n)]?.done);
-    out.push(`${SUBJECTS[s]}: lessons done ${done.length} of ${LESSONS[s].length}`, ...done.flatMap((n) => lessonText(s, n, state.lessons[lessonKey(s, n)])));
+    out.push(`${subjectName(s)}: lessons done ${done.length} of ${LESSONS[s].length}`, ...done.flatMap((n) => lessonText(s, n, state.lessons[lessonKey(s, n)])));
     tables.push(...done.flatMap((n) => state.lessons[lessonKey(s, n)].rows.map(row)));
   }
   return [...out, "", TABLE_HEAD, ...tables].join("\n");
@@ -662,7 +678,7 @@ function results(flow) {
     para(Ln.paper_task ? `You completed ${completed} questions and a writing task.` : T("You completed {a} questions.", { a: completed }), "done-sub"),
     st ? para(T("🔥 {a}-day streak", { a: st }), "done-streak") : null),
     badges.map(([, icon, name]) => el("div", { class: "new-badge" }, el("span", { "aria-hidden": "true" }, icon), el("strong", {}, T("New badge: {a}", { a: name })))),
-    next ? button(T("Next: Lesson {a}", { a: next }), () => openLesson(s, next), "primary") : para(T("You have done every {a} lesson. Well done!", { a: SUBJECTS[s] }), "strong"),
+    next ? button(T("Next: Lesson {a}", { a: next }), () => openLesson(s, next), "primary") : para(T("You have done every {a} lesson. Well done!", { a: subjectName(s) }), "strong"),
     button(T("Back to the lessons"), menu, next ? "" : "primary"),
     button(T("All subjects"), home, "link"),
     para("For a grown-up: these results stay on this phone until you copy them.", "muted"),

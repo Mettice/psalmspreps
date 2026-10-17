@@ -1,0 +1,479 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-9",
+   "name": "The triangle inequality"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In any triangle ABC, each side is shorter than the sum of the other two sides: AB < AC + CB. Going from A to B straight is shorter than going through C.\nTo test three lengths, check that the longest one is less than the sum of the other two. 4 cm, 5 cm, 7 cm: 7 < 4 + 5, so these make a triangle. 3 cm, 4 cm, 8 cm: 8 > 3 + 4, so they do not.\nIf the longest side equals the sum of the other two, the three points are on one straight line: AB = AC + CB means C is on the segment [AB].\nIf two sides are 5 cm and 8 cm, the third side is more than 8 − 5 = 3 cm and less than 8 + 5 = 13 cm.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 6,
+   "b": 9,
+   "one": 1
+  },
+  "problem": "Two sides of a triangle are {a} cm and {b} cm. The third side is a whole number of centimetres. What are its smallest and largest possible lengths?",
+  "steps": [
+   "The third side must be less than the sum: less than {a} + {b} = {a + b} cm, so at most {a + b - one} cm.",
+   "The longest side {b} cm must be less than the other two together: the third side must be more than {b} − {a} = {b - a} cm, so at least {b - a + one} cm."
+  ],
+  "answer": "From {b - a + one} cm to {a + b - one} cm.",
+  "checks": [
+   "triangleOk(a, b, a + b - one) && triangleOk(a, b, b - a + one) && !triangleOk(a, b, a + b) && !triangleOk(a, b, b - a)"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "In a triangle, the straight path is the shortest: each side is shorter than the other two sides put together.",
+    "vars": {
+     "ab": 7,
+     "ac": 5,
+     "cb": 4
+    },
+    "example": [
+     "Triangle ABC with AB = {ab} cm, AC = {ac} cm, CB = {cb} cm.",
+     "Through C: {ac} + {cb} = {ac + cb} cm, which is more than AB = {ab} cm."
+    ],
+    "checks": [
+     "ab < ac + cb"
+    ],
+    "check": {
+     "id": "m2-9-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "triangle-inequality"
+     ],
+     "prompt": "Which statement is true for every triangle ABC?",
+     "pool": {
+      "right": [
+       {
+        "text": "AB < AC + CB",
+        "truth": "true"
+       },
+       {
+        "text": "BC < BA + AC",
+        "truth": "true"
+       },
+       {
+        "text": "AC < AB + BC",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "AB > AC + CB",
+        "truth": "false",
+        "explain": "The straight side AB is the shortest way from A to B, so it is less than AC + CB."
+       },
+       {
+        "text": "AB = AC + CB",
+        "truth": "false",
+        "explain": "That only happens when C is on the segment [AB]: then there is no triangle."
+       },
+       {
+        "text": "BC > BA + AC",
+        "truth": "false",
+        "explain": "The straight side BC is shorter than going through A: BC < BA + AC."
+       },
+       {
+        "text": "AC = AB + BC",
+        "truth": "false",
+        "explain": "That only happens when B is on the segment [AC]: then there is no triangle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 2
+     }
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Three lengths make a triangle only if the longest one is less than the sum of the other two.",
+    "vars": {
+     "a": 4,
+     "b": 5,
+     "c": 7,
+     "d": 3,
+     "e": 4,
+     "f": 8
+    },
+    "example": [
+     "{a} cm, {b} cm, {c} cm: {c} < {a} + {b} = {a + b}, so they make a triangle.",
+     "{d} cm, {e} cm, {f} cm: {f} > {d} + {e} = {d + e}, so they do not."
+    ],
+    "checks": [
+     "triangleOk(a, b, c) && !triangleOk(d, e, f)"
+    ],
+    "check": {
+     "ref": "m2-9-test"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "If the longest length equals the sum of the other two, the three points are on one straight line.",
+    "vars": {
+     "a": 4,
+     "b": 5
+    },
+    "example": [
+     "AC = {a} cm, CB = {b} cm, AB = {a + b} cm: AC + CB = AB.",
+     "So C is on the segment [AB], and there is no triangle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-9-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "triangle-inequality"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        12
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        12
+       ]
+      }
+     },
+     "prompt": "Points A, B and C have AC = {a} cm, CB = {b} cm and AB = {a + b} cm. What can you say?",
+     "correct": "C is on the segment [AB]",
+     "distractors": [
+      {
+       "text": "ABC is a triangle",
+       "misconception": "triangle"
+      },
+      {
+       "text": "C is the midpoint of [AB]",
+       "misconception": "mid"
+      },
+      {
+       "text": "C is outside the line (AB)",
+       "misconception": "outside"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "triangle",
+       "explain": "AC + CB is equal to AB, not more than AB, so there is no triangle: C is on [AB]."
+      },
+      {
+       "id": "mid",
+       "explain": "C is on [AB], but AC = {a} cm and CB = {b} cm are not equal, so it is not the midpoint."
+      },
+      {
+       "id": "outside",
+       "explain": "If C were off the line, AC + CB would be more than AB. Here AC + CB = AB."
+      }
+     ],
+     "solution": [
+      "AC + CB = {a} + {b} = {a + b} = AB.",
+      "The path through C is as short as the straight path, so {answer}."
+     ],
+     "where": [
+      "a != b"
+     ],
+     "show": 3
+    }
+   },
+   {
+    "id": "c9-4",
+    "status": "draft",
+    "idea": "The third side of a triangle is more than the difference of the other two sides and less than their sum.",
+    "vars": {
+     "a": 5,
+     "b": 8
+    },
+    "example": [
+     "Sides {a} cm and {b} cm: the third side is more than {b} − {a} = {b - a} cm and less than {b} + {a} = {a + b} cm."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-9-c4",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "triangle-inequality"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        3,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        5,
+        15
+       ]
+      },
+      "c": {
+       "int": [
+        3,
+        23
+       ]
+      },
+      "k": {
+       "int": [
+        1,
+        6
+       ]
+      }
+     },
+     "prompt": "Two sides of a triangle are {a} cm and {b} cm. Which length can the third side be?",
+     "correct": "{c} cm",
+     "distractors": [
+      {
+       "text": "{a + b} cm",
+       "misconception": "sum"
+      },
+      {
+       "text": "{a + b + k} cm",
+       "misconception": "long"
+      },
+      {
+       "text": "{b - a} cm",
+       "misconception": "difference"
+      },
+      {
+       "text": "{b - a - 1} cm",
+       "misconception": "short"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "sum",
+       "explain": "With {a + b} cm, the three points would be on one line: the third side must be less than {a + b} cm."
+      },
+      {
+       "id": "long",
+       "explain": "{a + b + k} cm is more than {a} + {b} = {a + b} cm, which is too long."
+      },
+      {
+       "id": "difference",
+       "explain": "With {b - a} cm, the three points would be on one line: the third side must be more than {b - a} cm."
+      },
+      {
+       "id": "short",
+       "explain": "{b - a - 1} cm is less than {b} − {a} = {b - a} cm, which is too short."
+      }
+     ],
+     "solution": [
+      "The third side must be more than {b} − {a} = {b - a} cm and less than {b} + {a} = {a + b} cm.",
+      "Only {answer} is in between."
+     ],
+     "where": [
+      "a < b",
+      "c > b - a && c < a + b",
+      "b - a >= 2"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-9-test",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangle-inequality"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      30
+     ]
+    }
+   },
+   "prompt": "Can {a} cm, {b} cm and {c} cm be the lengths of the sides of a triangle?",
+   "correct": "{triangleOk(a, b, c) ? 'Yes' : 'No'}",
+   "distractors": [
+    {
+     "text": "{triangleOk(a, b, c) ? 'No' : 'Yes'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "The longest length is {max(a, max(b, c))} cm and the other two add up to {a + b + c - max(a, max(b, c))} cm. {triangleOk(a, b, c) ? 'The longest is less than the sum of the other two' : 'The longest is not less than the sum of the other two'}."
+    }
+   ],
+   "solution": [
+    "The longest length is {max(a, max(b, c))} cm and the other two add up to {a + b + c - max(a, max(b, c))} cm.",
+    "{triangleOk(a, b, c) ? 'The longest is less than the sum of the other two' : 'The longest is not less than the sum of the other two'}, so the answer is {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "m2-9-longest",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "triangle-inequality"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "b": {
+     "int": [
+      3,
+      15
+     ]
+    }
+   },
+   "prompt": "Two sides of a triangle are {a} cm and {b} cm. The third side is a whole number of centimetres. What is the longest it can be?",
+   "answer": "a + b - 1",
+   "misconceptions": [
+    {
+     "id": "equal",
+     "wrong": "a + b",
+     "explain": "With {a + b} cm, the three points are on one line: the side must be less than {a + b} cm."
+    }
+   ],
+   "solution": [
+    "The third side must be less than {a} + {b} = {a + b} cm.",
+    "The largest whole number less than {a + b} is {answer}."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-9-shortest",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "triangle-inequality"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      5,
+      20
+     ]
+    }
+   },
+   "prompt": "Two sides of a triangle are {a} cm and {b} cm. The third side is a whole number of centimetres. What is the shortest it can be?",
+   "answer": "b - a + 1",
+   "misconceptions": [
+    {
+     "id": "equal",
+     "wrong": "b - a",
+     "explain": "With {b - a} cm, the three points are on one line: the side must be more than {b - a} cm."
+    },
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "The third side must be more than {b} − {a} = {b - a} cm."
+    }
+   ],
+   "solution": [
+    "The third side must be more than {b} − {a} = {b - a} cm.",
+    "The smallest whole number more than {b - a} is {answer}."
+   ],
+   "where": [
+    "b - a >= 2"
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-9-count",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "triangle-inequality"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "one": 1
+   },
+   "prompt": "Two sides of a triangle are {a} cm and {b} cm. How many different whole-number lengths can the third side have?",
+   "answer": "2 * a - 1",
+   "misconceptions": [
+    {
+     "id": "ends",
+     "wrong": "2 * a + 1",
+     "explain": "{b - a} cm and {a + b} cm are not allowed: the points would be on one line."
+    },
+    {
+     "id": "no-plus-one",
+     "wrong": "2 * a - 2",
+     "explain": "Counting from {b - a + 1} to {a + b - 1}, add one: there are {2 * a - 1} lengths."
+    }
+   ],
+   "solution": [
+    "The third side is more than {b} − {a} = {b - a} cm and less than {a + b} cm.",
+    "So it can be any whole number from {b - a + 1} to {a + b - 1}.",
+    "That is {a + b - 1} − {b - a + 1} + {one} = {answer} lengths."
+   ],
+   "where": [
+    "a < b"
+   ]
+  }
+ ]
+}

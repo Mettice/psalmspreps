@@ -1,0 +1,252 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1,
+  3
+ ],
+ "skills": [
+  {
+   "id": "e2-4",
+   "name": "Writing a paragraph about a bus journey"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A paragraph is a group of sentences about one main idea. It starts on a new line.\n• The topic sentence comes first and says what the paragraph is about: “Last December I travelled from Kumba to Douala by bus.”\n• The supporting sentences give the details in order: buying the ticket, the departure, what happened on the way, the arrival.\n• Use sequence words: first, then, after that, later, finally.\n• A story about the past is in the Simple Past: I went, I bought, the bus left, we arrived.\n• The last sentence closes the paragraph, for example with how you felt.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "Kumba",
+   "d": "Douala"
+  },
+  "problem": "Plan a paragraph about a bus journey from {t} to {d}.",
+  "steps": [
+   "Topic sentence: Last December I travelled from {t} to {d} by bus.",
+   "Details in order, with sequence words: First I bought my ticket. Then the bus left. After that we stopped at a checkpoint.",
+   "Closing sentence: Finally we arrived, and I was happy to see my cousins."
+  ],
+  "answer": "Topic sentence → details in order (first, then, after that) → closing sentence, all in the Simple Past.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "A paragraph starts with a topic sentence that says what it is about.",
+    "vars": {},
+    "example": [
+     "Topic sentence: “Last holiday I travelled to Bafoussam by bus.”",
+     "Not a topic sentence: “Then we stopped for food.” (a detail)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-4-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "writing-skills"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "Last holiday I travelled from Buea to Bamenda by bus.",
+         "w": [
+          "Then the bus stopped.",
+          "I like mangoes.",
+          "Finally we arrived."
+         ],
+         "e": [
+          "That is a detail in the middle.",
+          "That is not about the journey.",
+          "That closes the paragraph."
+         ],
+         "y": "It says what the whole paragraph is about."
+        },
+        {
+         "r": "My journey to Kribi by bus was long but exciting.",
+         "w": [
+          "After that we ate.",
+          "Kribi has a beach.",
+          "The driver was called Tanyi."
+         ],
+         "e": [
+          "That is a detail.",
+          "That is about the town, not the journey.",
+          "That is a small detail."
+         ],
+         "y": "It names the journey and gives the main idea."
+        },
+        {
+         "r": "Last month my family took a bus from Limbe to Yaoundé.",
+         "w": [
+          "First we bought tickets.",
+          "Yaoundé is the capital.",
+          "I was very tired at the end."
+         ],
+         "e": [
+          "That is the first detail, not the topic.",
+          "That is not about the journey.",
+          "That is a closing sentence."
+         ],
+         "y": "It tells who travelled, where and how."
+        }
+       ]
+      }
+     },
+     "prompt": "Which sentence is the best topic sentence for a paragraph about a bus journey?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Sequence words show the order of events: first, then, after that, later, finally.",
+    "vars": {},
+    "example": [
+     "First I bought a ticket. Then I found a seat.",
+     "After that the bus left. Finally we arrived."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-4-order"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "A story about a past journey is in the Simple Past.",
+    "vars": {},
+    "example": [
+     "I {past('go')} to the motor park and {past('buy')} a ticket.",
+     "The bus {past('leave')} at eight and we {past('arrive')} at noon."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-4-c3",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "go",
+        "travel",
+        "ride",
+        "drive",
+        "come",
+        "fly",
+        "walk",
+        "hurry"
+       ]
+      }
+     },
+     "prompt": "Write the verb in the Simple Past.",
+     "text": "Last week we ___ to Limbe by bus. ({v})",
+     "answer": "past(v)",
+     "misconceptions": [
+      {
+       "id": "present",
+       "wrong": "v",
+       "explain": "The journey was last week: use the past, {past(v)}."
+      },
+      {
+       "id": "ed",
+       "wrong": "v + 'ed'",
+       "explain": "Check the past form: {past(v)}."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-4-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "prompt": "Put the sentences of the paragraph in order.",
+   "items": [
+    {
+     "text": "Last Saturday I travelled to Bamenda by bus"
+    },
+    {
+     "text": "First I bought my ticket at the agency"
+    },
+    {
+     "text": "Then the conductor loaded my bag"
+    },
+    {
+     "text": "After that the bus left the park"
+    },
+    {
+     "text": "Finally we arrived in the afternoon"
+    }
+   ],
+   "order": "as_written"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Write one paragraph (six to eight sentences) in your exercise book about a journey you made by bus. Start with a topic sentence, give the events in order with sequence words, use the Simple Past, and end with how you felt.",
+  "model": [
+   "Last December I travelled from Kumba to Douala by bus. First my father took me to the motor park and bought my ticket. Then the conductor put my bag on the roof and I found a seat by the window. After that the bus left, and I watched the plantations go past. On the way we stopped at a checkpoint, and later at a market where I bought groundnuts. Finally we arrived in Douala in the evening. I was tired, but I was happy to see my cousins waiting for me."
+  ],
+  "checklist": [
+   "My paragraph starts with a topic sentence.",
+   "The events are in the order they happened.",
+   "I used sequence words (first, then, after that, finally).",
+   "My verbs are in the Simple Past.",
+   "I wrote by bus, by taxi (not by the bus).",
+   "My last sentence closes the paragraph.",
+   "Every sentence starts with a capital letter and ends with a full stop."
+  ]
+ }
+}

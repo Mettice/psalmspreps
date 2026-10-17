@@ -1,0 +1,504 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "m2-4",
+   "name": "Laws of indices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For powers of the same base:\nMultiplying: add the indices. a³ × a² = (a × a × a) × (a × a) = a⁵, so aᵐ × aⁿ = aᵐ⁺ⁿ.\nDividing: subtract the indices. a⁵ ÷ a² = a³, so aᵐ ÷ aⁿ = aᵐ⁻ⁿ.\nA power of a power: multiply the indices. (a²)³ = a² × a² × a² = a⁶, so (aᵐ)ⁿ = aᵐⁿ.\nIndex zero: a³ ÷ a³ = a⁰, and any number divided by itself is 1, so a⁰ = 1 (a not 0).\nThe laws only work when the bases are the same: 2³ × 5² cannot be written as one power.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 4,
+   "n": 3,
+   "k": 2
+  },
+  "problem": "Simplify {pw('x', m)} × {pw('x', n)} ÷ {pw('x', k)}, giving the answer as one power of x.",
+  "steps": [
+   "Multiplying: add the indices. {pw('x', m)} × {pw('x', n)} = {pw('x', m + n)}.",
+   "Dividing: subtract the indices. {pw('x', m + n)} ÷ {pw('x', k)} = {pw('x', m + n - k)}."
+  ],
+  "answer": "{pw('x', m + n - k)}",
+  "checks": [
+   "m + n - k == 5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "To multiply powers of the same base, add the indices.",
+    "vars": {
+     "m": 3,
+     "n": 2
+    },
+    "example": [
+     "{pw('a', m)} × {pw('a', n)} = ({powExpand('a', m)}) × ({powExpand('a', n)}) = {pw('a', m + n)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-4-mul"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "To divide powers of the same base, subtract the indices.",
+    "vars": {
+     "m": 5,
+     "n": 2,
+     "b": 2
+    },
+    "example": [
+     "{pw('a', m)} ÷ {pw('a', n)} = {pw('a', m - n)}",
+     "{pw(b, m)} ÷ {pw(b, n)} = {pw(b, m - n)} = {b ^ (m - n)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-4-div"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "For a power of a power, multiply the indices.",
+    "vars": {
+     "m": 2,
+     "n": 3
+    },
+    "example": [
+     "({pw('a', m)}){sup(n)} = {pw('a', m)} × {pw('a', m)} × {pw('a', m)} = {pw('a', m * n)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-4-pow"
+    }
+   },
+   {
+    "id": "c4-4",
+    "status": "draft",
+    "idea": "Any number (except zero) to the power zero is {one}.",
+    "vars": {
+     "m": 3,
+     "b": 7,
+     "z": 0,
+     "one": 1
+    },
+    "example": [
+     "{pw('a', m)} ÷ {pw('a', m)} = {pw('a', z)}, and anything divided by itself is {one}.",
+     "So {pw(b, z)} = {one}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-4-c4",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "laws-of-indices"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        2,
+        99
+       ]
+      },
+      "z": 0,
+      "one": 1
+     },
+     "prompt": "What is {pw(b, z)}?",
+     "correct": "{one}",
+     "distractors": [
+      {
+       "text": "{z}",
+       "misconception": "zero"
+      },
+      {
+       "text": "{b}",
+       "misconception": "base"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "zero",
+       "explain": "The index is zero, but the answer is not: {pw(b, z)} = {pw(b, one)} ÷ {pw(b, one)} = {one}."
+      },
+      {
+       "id": "base",
+       "explain": "{pw(b, one)} = {b}, but {pw(b, z)} = {one}."
+      }
+     ],
+     "solution": [
+      "Any number except zero to the power zero is {one}.",
+      "So {pw(b, z)} = {answer}."
+     ],
+     "show": 3
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-4-mul",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "laws-of-indices"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "a",
+      "x",
+      "y",
+      "p",
+      "m",
+      "t"
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "{pw(v, m)} × {pw(v, n)} = {v}ᵏ. What is k?",
+   "answer": "m + n",
+   "misconceptions": [
+    {
+     "id": "multiplied",
+     "wrong": "m * n",
+     "explain": "When you multiply powers, add the indices; you multiply them only for a power of a power."
+    }
+   ],
+   "solution": [
+    "Same base, multiplying: add the indices.",
+    "{m} + {n} = {answer}, so {pw(v, m)} × {pw(v, n)} = {pw(v, m + n)}."
+   ]
+  },
+  {
+   "id": "m2-4-div",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "laws-of-indices"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "a",
+      "x",
+      "y",
+      "p",
+      "m",
+      "t"
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "m": {
+     "expr": "n * q"
+    }
+   },
+   "prompt": "{pw(v, m)} ÷ {pw(v, n)} = {v}ᵏ. What is k?",
+   "answer": "m - n",
+   "misconceptions": [
+    {
+     "id": "divided",
+     "wrong": "m / n",
+     "explain": "When you divide powers, subtract the indices, do not divide them."
+    },
+    {
+     "id": "added",
+     "wrong": "m + n",
+     "explain": "Dividing powers: subtract the indices, do not add them."
+    }
+   ],
+   "solution": [
+    "Same base, dividing: subtract the indices.",
+    "{m} − {n} = {answer}, so {pw(v, m)} ÷ {pw(v, n)} = {pw(v, m - n)}."
+   ]
+  },
+  {
+   "id": "m2-4-pow",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "laws-of-indices"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "a",
+      "x",
+      "y",
+      "p",
+      "m",
+      "t"
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "({pw(v, m)}){sup(n)} = {v}ᵏ. What is k?",
+   "answer": "m * n",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "m + n",
+     "explain": "({pw(v, m)}){sup(n)} means {pw(v, m)} multiplied by itself {n} times, so multiply the indices."
+    }
+   ],
+   "solution": [
+    "A power of a power: multiply the indices.",
+    "{m} × {n} = {answer}, so ({pw(v, m)}){sup(n)} = {pw(v, m * n)}."
+   ],
+   "where": [
+    "m != n"
+   ]
+  },
+  {
+   "id": "m2-4-value",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "laws-of-indices"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3
+     ]
+    },
+    "m": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "Write {pw(b, m)} × {pw(b, n)} as one power of {b}, then work out its value.",
+   "answer": "b ^ (m + n)",
+   "misconceptions": [
+    {
+     "id": "multiplied",
+     "wrong": "b ^ (m * n)",
+     "explain": "Multiplying powers: add the indices ({m} + {n}), do not multiply them."
+    },
+    {
+     "id": "base-times",
+     "wrong": "(b * b) ^ (m + n)",
+     "explain": "The base stays {b}: only the indices are added."
+    }
+   ],
+   "solution": [
+    "Add the indices: {pw(b, m)} × {pw(b, n)} = {pw(b, m + n)}.",
+    "{pw(b, m + n)} = {powExpand(b, m + n)} = {answer}"
+   ],
+   "where": [
+    "b ^ (m + n) <= 800"
+   ]
+  },
+  {
+   "id": "m2-4-mixed",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "laws-of-indices"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "a",
+      "x",
+      "y",
+      "p",
+      "m",
+      "t"
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      8
+     ]
+    }
+   },
+   "prompt": "Simplify {pw(v, m)} × {pw(v, n)} ÷ {pw(v, k)} = {v}ᵖ. What is p?",
+   "answer": "m + n - k",
+   "misconceptions": [
+    {
+     "id": "all-added",
+     "wrong": "m + n + k",
+     "explain": "Dividing by {pw(v, k)} means subtracting {k} from the index."
+    },
+    {
+     "id": "multiplied",
+     "wrong": "m * n - k",
+     "explain": "Multiplying powers: add the indices {m} and {n}, do not multiply them."
+    }
+   ],
+   "solution": [
+    "Multiplying: {pw(v, m)} × {pw(v, n)} = {pw(v, m + n)}.",
+    "Dividing: {pw(v, m + n)} ÷ {pw(v, k)} = {pw(v, m + n - k)}, so p = {answer}."
+   ],
+   "where": [
+    "m + n - k >= 2",
+    "k != m && k != n"
+   ]
+  },
+  {
+   "id": "m2-4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "laws-of-indices"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "z": 0,
+    "one": 1
+   },
+   "prompt": "Which statement is false?",
+   "pool": {
+    "right": [
+     {
+      "text": "{pw('a', m)} × {pw('a', n)} = {pw('a', m + n)}",
+      "truth": "true"
+     },
+     {
+      "text": "{pw('a', m + n)} ÷ {pw('a', n)} = {pw('a', m)}",
+      "truth": "true"
+     },
+     {
+      "text": "({pw('a', m)}){sup(n)} = {pw('a', m * n)}",
+      "truth": "true"
+     },
+     {
+      "text": "{pw(b, z)} = {one}",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "{pw('a', m)} × {pw('a', n)} = {pw('a', m * n)}",
+      "truth": "false",
+      "explain": "When multiplying powers, add the indices: {pw('a', m)} × {pw('a', n)} = {pw('a', m + n)}."
+     },
+     {
+      "text": "({pw('a', m)}){sup(n)} = {pw('a', m + n)}",
+      "truth": "false",
+      "explain": "For a power of a power, multiply the indices: ({pw('a', m)}){sup(n)} = {pw('a', m * n)}."
+     },
+     {
+      "text": "{pw(b, z)} = {z}",
+      "truth": "false",
+      "explain": "Any number except zero to the power zero is {one}."
+     },
+     {
+      "text": "{pw(c, m)} × {pw(b, n)} = {pw(c * b, m + n)}",
+      "truth": "false",
+      "explain": "The laws only work when the bases are the same: {c} and {b} are different bases."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "where": [
+    "m != n",
+    "m + n != m * n",
+    "b != c"
+   ]
+  }
+ ]
+}

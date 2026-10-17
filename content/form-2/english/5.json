@@ -1,0 +1,485 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-5",
+   "name": "Health professionals; reading an interview with a dentist"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Health professionals are people trained to care for our health:\n• a doctor treats illnesses; a nurse cares for patients and helps the doctor;\n• a dentist cares for teeth and gums; an optician tests eyes for glasses;\n• a pharmacist prepares and sells medicines; a midwife helps women give birth;\n• a physiotherapist helps people move again after an injury.\nIn the interview, a journalist asked a dentist questions. The dentist said we should visit a dentist twice a year, that sugar causes tooth decay, and that we should brush in the morning and before we sleep.\nAt a clinic, say what is wrong: “I have a toothache.” “My eyes hurt when I read.” The professional may ask: “How long have you had it?”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Manka"
+  },
+  "problem": "{n} has a toothache. Write what she says to the receptionist, and what the dentist may ask her.",
+  "steps": [
+   "To the receptionist: “Good morning. I have a toothache. Can I see the dentist, please?”",
+   "The dentist asks where and how long: “Which tooth hurts? How long have you had the pain?”",
+   "{n} answers clearly: “The back tooth on the left. Since Monday.”"
+  ],
+  "answer": "“I have a toothache. Can I see the dentist, please?” — “Which tooth hurts? How long have you had the pain?”",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "Read the interview between a journalist and a dentist.",
+    "vars": {},
+    "example": [
+     "Journalist: Good morning, doctor. What does a dentist do?",
+     "Dentist: I take care of people's teeth and gums. I check them, clean them, fill holes and sometimes take out bad teeth.",
+     "Journalist: How often should we visit a dentist?",
+     "Dentist: Twice a year, even when nothing hurts. A small problem is easier to treat.",
+     "Journalist: What causes tooth decay?",
+     "Dentist: Sugar. Sweets and soft drinks feed the germs that make holes in our teeth. Brush in the morning and before you sleep."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-5-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How often should we visit a dentist?",
+         "r": "twice a year",
+         "w": [
+          "once a week",
+          "only when a tooth hurts",
+          "every day"
+         ],
+         "e": [
+          "The dentist did not say once a week.",
+          "The dentist said to go even when nothing hurts.",
+          "The dentist said twice a year."
+         ],
+         "y": "The dentist said twice a year."
+        },
+        {
+         "q": "What causes tooth decay?",
+         "r": "sugar",
+         "w": [
+          "water",
+          "brushing",
+          "fruit"
+         ],
+         "e": [
+          "The dentist did not talk about water.",
+          "Brushing protects teeth.",
+          "The dentist said sugar."
+         ],
+         "y": "The dentist said sugar feeds the germs that make holes."
+        },
+        {
+         "q": "When should we brush our teeth?",
+         "r": "in the morning and before we sleep",
+         "w": [
+          "only after lunch",
+          "once a week",
+          "only when they hurt"
+         ],
+         "e": [
+          "The dentist said morning and night.",
+          "The dentist said every morning and night.",
+          "We brush to keep them healthy."
+         ],
+         "y": "The dentist said in the morning and before you sleep."
+        },
+        {
+         "q": "Who asked the questions?",
+         "r": "the journalist",
+         "w": [
+          "the dentist",
+          "a nurse",
+          "a patient"
+         ],
+         "e": [
+          "The dentist answered.",
+          "There is no nurse in the interview.",
+          "There is no patient in the interview."
+         ],
+         "y": "The journalist asked; the dentist answered."
+        }
+       ]
+      }
+     },
+     "prompt": "From the interview: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "Each health professional has a special job.",
+    "vars": {},
+    "example": [
+     "A dentist cares for teeth; an optician tests eyes.",
+     "A pharmacist sells medicines; a midwife helps women give birth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-5-who"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "At a clinic, say clearly what is wrong, and answer the questions.",
+    "vars": {},
+    "example": [
+     "“I have a headache.” “My ear hurts.”",
+     "“How long have you had it?” — “Since yesterday.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-5-say"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-5-who",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each health professional to the job.",
+   "pool": [
+    {
+     "left": "dentist",
+     "right": "cares for teeth and gums"
+    },
+    {
+     "left": "optician",
+     "right": "tests eyes and makes glasses"
+    },
+    {
+     "left": "pharmacist",
+     "right": "prepares and sells medicines"
+    },
+    {
+     "left": "midwife",
+     "right": "helps women give birth"
+    },
+    {
+     "left": "nurse",
+     "right": "cares for patients and helps the doctor"
+    },
+    {
+     "left": "physiotherapist",
+     "right": "helps people move again after an injury"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-5-say",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Your tooth hurts.",
+       "r": "I have a toothache.",
+       "w": [
+        "I have a headache.",
+        "I have a stomach ache.",
+        "My ear is fine."
+       ],
+       "e": [
+        "A headache is in the head.",
+        "A stomach ache is in the stomach.",
+        "That does not say what is wrong."
+       ],
+       "y": "A pain in a tooth is a toothache."
+      },
+      {
+       "q": "The nurse asks how long you have had the pain.",
+       "r": "Since Monday.",
+       "w": [
+        "In my head.",
+        "Yes, please.",
+        "Two tablets."
+       ],
+       "e": [
+        "That answers Where.",
+        "That does not answer How long.",
+        "That is about medicine."
+       ],
+       "y": "How long asks about time: since Monday."
+      },
+      {
+       "q": "You want to see the dentist.",
+       "r": "Can I see the dentist, please?",
+       "w": [
+        "Give me the dentist.",
+        "Dentist, come here.",
+        "I want dentist now."
+       ],
+       "e": [
+        "That is not polite.",
+        "That is not polite.",
+        "That is not polite or correct."
+       ],
+       "y": "Can I …, please? is polite."
+      },
+      {
+       "q": "The doctor asks where it hurts. Your stomach hurts.",
+       "r": "Here, in my stomach.",
+       "w": [
+        "Since yesterday.",
+        "I am fine, thank you.",
+        "At the pharmacy."
+       ],
+       "e": [
+        "That answers How long.",
+        "That does not say where it hurts.",
+        "That is a place in town."
+       ],
+       "y": "Where asks about the place on your body."
+      }
+     ]
+    }
+   },
+   "prompt": "You are at the clinic. {X.q} What do you say?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-5-detail",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does a dentist do with a hole in a tooth?",
+       "r": "fills it",
+       "w": [
+        "paints it",
+        "leaves it",
+        "brushes it"
+       ],
+       "e": [
+        "The dentist said fill holes.",
+        "A small problem is easier to treat: it should not be left.",
+        "Brushing is what we do every day."
+       ],
+       "y": "The dentist said: I fill holes."
+      },
+      {
+       "q": "Why should we visit the dentist even when nothing hurts?",
+       "r": "A small problem is easier to treat.",
+       "w": [
+        "It is free.",
+        "Dentists are friendly.",
+        "We must buy toothpaste there."
+       ],
+       "e": [
+        "The interview does not talk about money.",
+        "That is not the reason given.",
+        "The interview does not say that."
+       ],
+       "y": "The dentist said a small problem is easier to treat."
+      },
+      {
+       "q": "What feeds the germs that make holes in teeth?",
+       "r": "sweets and soft drinks",
+       "w": [
+        "toothpaste",
+        "water",
+        "vegetables"
+       ],
+       "e": [
+        "Toothpaste cleans teeth.",
+        "The dentist did not mention water.",
+        "The dentist did not mention vegetables."
+       ],
+       "y": "The dentist said sweets and soft drinks feed the germs."
+      }
+     ]
+    }
+   },
+   "prompt": "From the interview: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "One sentence about health professionals is wrong. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "A dentist takes care of teeth.",
+      "truth": "true"
+     },
+     {
+      "text": "A pharmacist sells medicines.",
+      "truth": "true"
+     },
+     {
+      "text": "An optician tests people's eyes.",
+      "truth": "true"
+     },
+     {
+      "text": "A midwife helps women give birth.",
+      "truth": "true"
+     },
+     {
+      "text": "A nurse cares for patients.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An optician fills holes in teeth.",
+      "truth": "false",
+      "explain": "That is a dentist's job; an optician tests eyes."
+     },
+     {
+      "text": "A pharmacist helps women give birth.",
+      "truth": "false",
+      "explain": "That is a midwife's job."
+     },
+     {
+      "text": "A dentist makes glasses.",
+      "truth": "false",
+      "explain": "Glasses are made by an optician."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

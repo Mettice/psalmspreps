@@ -1,0 +1,458 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  11,
+  15
+ ],
+ "skills": [
+  {
+   "id": "e2-24",
+   "name": "The Past Perfect tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Past Perfect for an action that happened before another action in the past.\nForm: had + the past participle, the same for every person: I had finished, she had left, they had eaten.\n“When the ambulance arrived, the nurse had already stopped the bleeding.” (First the nurse stopped the bleeding; then the ambulance arrived.)\nSignal words: already, before, after, by the time, when.\nNegative: hadn't + participle: “We hadn't eaten.” Question: “Had you finished?” — “Yes, I had.”\nThe later action is in the Simple Past: “By the time we got there, the meeting had begun.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "stop",
+   "c": "the bleeding",
+   "a": "the ambulance arrived"
+  },
+  "problem": "Join the two actions in one sentence: First the nurse {past(v)} {c}. Then {a}.",
+  "steps": [
+   "The earlier action goes in the Past Perfect: had + {participle(v)}.",
+   "The later action stays in the Simple Past: {a}.",
+   "When {a}, the nurse had already {participle(v)} {c}."
+  ],
+  "answer": "When {a}, the nurse had already {participle(v)} {c}.",
+  "checks": [
+   "participle(v) == 'stopped'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "The Past Perfect is had + the past participle, for every person.",
+    "vars": {
+     "v": "eat",
+     "c": "lunch"
+    },
+    "example": [
+     "I had {participle(v)} {c}.",
+     "They had {participle(v)} {c}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-24-form"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "The Past Perfect shows which past action came first.",
+    "vars": {},
+    "example": [
+     "When we arrived, the film had started. (The film started first.)",
+     "When we arrived, the film started. (We arrived first.)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-24-first"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "By the time, already and before often go with the Past Perfect.",
+    "vars": {},
+    "example": [
+     "By the time the lorries came, the families had left.",
+     "She had already eaten before the visitors arrived."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-24-c3",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "By the time we reached the hospital, the baby ___ born.",
+         "a": "had been",
+         "w": [
+          "has been",
+          "is"
+         ],
+         "e": [
+          "It is a past story: had been.",
+          "It is a past story: had been."
+         ]
+        },
+        {
+         "s": "She ___ already cooked when her husband came home.",
+         "a": "had",
+         "w": [
+          "has",
+          "have"
+         ],
+         "e": [
+          "Earlier past action: had.",
+          "Earlier past action: had."
+         ]
+        },
+        {
+         "s": "The volunteers had left ___ the rain started.",
+         "a": "before",
+         "w": [
+          "since",
+          "for"
+         ],
+         "e": [
+          "Before shows which came first.",
+          "For goes with a length of time."
+         ]
+        },
+        {
+         "s": "When the fire brigade arrived, the fire ___ the roof.",
+         "a": "had destroyed",
+         "w": [
+          "has destroyed",
+          "destroys"
+         ],
+         "e": [
+          "Earlier past action: had destroyed.",
+          "It is a past story."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the form that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-24-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "the ambulance arrived",
+       "v": "stop",
+       "c": "the bleeding"
+      },
+      {
+       "a": "the volunteers came",
+       "v": "clean",
+       "c": "the market"
+      },
+      {
+       "a": "the rain started",
+       "v": "finish",
+       "c": "the shelter"
+      },
+      {
+       "a": "the doctor came",
+       "v": "give",
+       "c": "first aid"
+      },
+      {
+       "a": "the relief lorries reached the village",
+       "v": "leave",
+       "c": "their homes"
+      },
+      {
+       "a": "we got to the hall",
+       "v": "begin",
+       "c": "the meeting"
+      },
+      {
+       "a": "I phoned her",
+       "v": "go",
+       "c": "to bed"
+      },
+      {
+       "a": "the bus left",
+       "v": "buy",
+       "c": "the tickets"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in the Past Perfect.",
+   "text": "When {X.a}, they ___ {X.c}. ({X.v})",
+   "answer": "'had ' + participle(X.v)",
+   "misconceptions": [
+    {
+     "id": "past",
+     "wrong": "past(X.v)",
+     "explain": "This action came first: had + the past participle, had {participle(X.v)}."
+    },
+    {
+     "id": "had-past",
+     "wrong": "'had ' + past(X.v)",
+     "explain": "After had, use the past participle: {participle(X.v)}.",
+     "when": "past(X.v) != participle(X.v)"
+    },
+    {
+     "id": "have",
+     "wrong": "'have ' + participle(X.v)",
+     "explain": "It is in the past: had, not have."
+    }
+   ]
+  },
+  {
+   "id": "e2-24-first",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When I got to the stop, the bus had left.",
+       "r": "The bus left.",
+       "w": [
+        "I got to the stop.",
+        "Both at the same time.",
+        "Nothing happened."
+       ],
+       "e": [
+        "had left is the earlier action.",
+        "had left shows the bus left earlier.",
+        "Both actions happened."
+       ],
+       "y": "The Past Perfect (had left) is the earlier action."
+      },
+      {
+       "q": "The volunteers had cleaned the hall before the guests arrived.",
+       "r": "The volunteers cleaned the hall.",
+       "w": [
+        "The guests arrived.",
+        "Both at the same time.",
+        "The guests cleaned the hall."
+       ],
+       "e": [
+        "had cleaned is the earlier action.",
+        "before shows an order.",
+        "The volunteers cleaned it."
+       ],
+       "y": "had cleaned came first."
+      },
+      {
+       "q": "By the time the doctor came, the nurse had given first aid.",
+       "r": "The nurse gave first aid.",
+       "w": [
+        "The doctor came.",
+        "Both at the same time.",
+        "The doctor gave first aid."
+       ],
+       "e": [
+        "had given is the earlier action.",
+        "By the time shows an order.",
+        "The nurse gave it."
+       ],
+       "y": "had given came first."
+      },
+      {
+       "q": "We had eaten when Dad came home.",
+       "r": "We ate.",
+       "w": [
+        "Dad came home.",
+        "Both at the same time.",
+        "Dad ate."
+       ],
+       "e": [
+        "had eaten is the earlier action.",
+        "had eaten shows we ate first.",
+        "We ate."
+       ],
+       "y": "had eaten came first."
+      }
+     ]
+    }
+   },
+   "prompt": "“{X.q}” Which action happened first?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-24-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "The bus had left when we arrived.",
+       "b": "The bus had left when we arrived."
+      },
+      {
+       "a": "She had already eaten before the visitors came.",
+       "b": "She had already eaten before the visitors came."
+      },
+      {
+       "a": "Had you finished the work?",
+       "b": "Had you finished the work?"
+      },
+      {
+       "a": "By the time help came, the fire had spread.",
+       "b": "By the time help came, the fire had spread."
+      },
+      {
+       "a": "We hadn't seen the flood before.",
+       "b": "We hadn't seen the flood before."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-24-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "When we arrived, the film had started.",
+      "truth": "true"
+     },
+     {
+      "text": "She had already left.",
+      "truth": "true"
+     },
+     {
+      "text": "Had they eaten?",
+      "truth": "true"
+     },
+     {
+      "text": "We hadn't finished our work.",
+      "truth": "true"
+     },
+     {
+      "text": "By the time help came, the river had flooded the road.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "When we arrived, the meeting had began.",
+      "truth": "false",
+      "explain": "The participle of begin is begun: had begun."
+     },
+     {
+      "text": "She had already leave.",
+      "truth": "false",
+      "explain": "Use the participle: had left."
+     },
+     {
+      "text": "They has finished before we came.",
+      "truth": "false",
+      "explain": "The Past Perfect uses had for every person: They had finished."
+     },
+     {
+      "text": "We hadn't went home.",
+      "truth": "false",
+      "explain": "Use the participle: hadn't gone."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  28,
+  31
+ ],
+ "skills": [
+  {
+   "id": "e2-32",
+   "name": "Writing: how young people can improve their community"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Writing two paragraphs:\n• Paragraph one: the problems in the community and why young people should help (for example, dirty streets, blocked gutters, children who cannot read, lonely old people).\n• Paragraph two: what young people can do, with examples (clean-up campaigns, planting trees, helping younger children with homework, visiting the sick, avoiding drugs and violence).\nEach paragraph has a topic sentence and supporting sentences.\nUse should and can for suggestions: “Young people should …” “We can …”\nLinking words: first, also, in addition, for example, because, finally.\nEnd with a strong closing sentence.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "Kumba"
+  },
+  "problem": "Write the topic sentences of the two paragraphs about young people in {t}.",
+  "steps": [
+   "Paragraph one (problems): Our quarter in {t} has dirty gutters and many children who need help with school.",
+   "Paragraph two (actions): Young people can do a lot to make {t} a better place.",
+   "Each topic sentence is followed by examples and reasons, with should, can and linking words."
+  ],
+  "answer": "Problems and why we should help → what young people can do, with examples.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "Each paragraph starts with a topic sentence; the other sentences support it.",
+    "vars": {},
+    "example": [
+     "Topic: “Young people can make our town cleaner.”",
+     "Support: “For example, we can clean the gutters every month.”"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-32-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "writing-skills"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "Young people can do a lot to improve our community.",
+         "w": [
+          "For example, we can plant trees.",
+          "The gutters are blocked.",
+          "Finally, we went home."
+         ],
+         "e": [
+          "That is a supporting example.",
+          "That is a problem, not the topic of this paragraph.",
+          "That is not about the topic."
+         ],
+         "y": "It states the main idea of the paragraph."
+        },
+        {
+         "r": "There are many ways in which the youth can help our quarter.",
+         "w": [
+          "Also, we can help old people.",
+          "I like football.",
+          "Our school is big."
+         ],
+         "e": [
+          "That is a supporting idea.",
+          "That is off the topic.",
+          "That is off the topic."
+         ],
+         "y": "It states the main idea of the paragraph."
+        }
+       ]
+      }
+     },
+     "prompt": "Which sentence is the best topic sentence for a paragraph about what young people can do?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "Use should and can to make suggestions.",
+    "vars": {},
+    "example": [
+     "Young people should avoid drugs.",
+     "We can help younger children with their homework."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-32-modal"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "Linking words make the paragraph flow: first, also, in addition, for example, finally.",
+    "vars": {},
+    "example": [
+     "First, we can clean the market.",
+     "In addition, we can plant trees along the road."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-32-link"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-32-modal",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Young people ___ respect their elders.",
+       "a": "should",
+       "w": [
+        "shoulds",
+        "should to"
+       ],
+       "e": [
+        "Modals never take -s.",
+        "No to after should."
+       ]
+      },
+      {
+       "s": "We ___ organise a clean-up campaign every month.",
+       "a": "can",
+       "w": [
+        "cans",
+        "can to"
+       ],
+       "e": [
+        "Modals never take -s.",
+        "No to after can."
+       ]
+      },
+      {
+       "s": "Students ___ help younger children to read.",
+       "a": "could",
+       "w": [
+        "coulds",
+        "could to"
+       ],
+       "e": [
+        "Modals never take -s.",
+        "No to after could."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-32-link",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___, we can clean the gutters.",
+       "a": "First",
+       "w": [
+        "Because",
+        "However"
+       ],
+       "e": [
+        "The first idea: First.",
+        "However shows a contrast."
+       ]
+      },
+      {
+       "s": "We can plant trees. ___, we can visit the sick.",
+       "a": "In addition",
+       "w": [
+        "For example",
+        "Because"
+       ],
+       "e": [
+        "Another idea: In addition.",
+        "Because needs a reason."
+       ]
+      },
+      {
+       "s": "Young people can help, ___ by teaching children to read.",
+       "a": "for example",
+       "w": [
+        "finally",
+        "however"
+       ],
+       "e": [
+        "An example follows.",
+        "However shows a contrast."
+       ]
+      },
+      {
+       "s": "___, if we work together, our community will be better.",
+       "a": "Finally",
+       "w": [
+        "First",
+        "For example"
+       ],
+       "e": [
+        "This ends the paragraph: Finally.",
+        "No example follows."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the linking word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Write two paragraphs in your exercise book on the topic “How young people can improve life in their community”. In the first paragraph describe the problems; in the second, say what young people can do, with examples. Use should or can, and at least three linking words.",
+  "model": [
+   "Our community has many problems. The gutters are often blocked with rubbish, so the streets flood when it rains. Some children cannot read well because nobody helps them at home, and some old people live alone. Young people should help, because this is our home and our future.",
+   "There are many things young people can do. First, we can organise a clean-up campaign every month to clear the gutters and the market. In addition, older pupils can teach younger children to read after school. We can also visit old people and fetch water for them. Finally, we should avoid drugs and violence and be good examples. If we work together, our community will be cleaner, safer and happier."
+  ],
+  "checklist": [
+   "I wrote two paragraphs.",
+   "Each paragraph starts with a topic sentence.",
+   "Paragraph one describes problems; paragraph two gives actions with examples.",
+   "I used should or can.",
+   "I used at least three linking words.",
+   "I ended with a strong closing sentence.",
+   "I checked capital letters, full stops and spelling."
+  ]
+ }
+}

@@ -1,0 +1,587 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "m2-6",
+   "name": "HCF and LCM"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A common factor of two numbers divides both of them. The highest common factor (HCF, also called the highest common divisor, HCD) is the largest one. Factors of 12: 1, 2, 3, 4, 6, 12. Factors of 18: 1, 2, 3, 6, 9, 18. HCF = 6.\nA common multiple is in both times tables. The lowest common multiple (LCM) is the smallest one. Multiples of 4: 4, 8, 12, 16, … Multiples of 6: 6, 12, 18, … LCM = 12.\nWith prime factors: 24 = 2³ × 3 and 36 = 2² × 3². HCF: the common primes with the lowest powers, 2² × 3 = 12. LCM: every prime with the highest power, 2³ × 3² = 72.\nFor two numbers, HCF × LCM = the product of the numbers.\nUse the HCF to share into the largest equal groups; use the LCM to find when things happen together again.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 24,
+   "b": 36
+  },
+  "problem": "Find the HCF and the LCM of {a} and {b} using prime factors.",
+  "steps": [
+   "{a} = {factorise(a)} and {b} = {factorise(b)}.",
+   "HCF: take the primes in both, with the lowest power: {factorise(hcf(a, b))} = {hcf(a, b)}.",
+   "LCM: take every prime, with the highest power: {factorise(lcm(a, b))} = {lcm(a, b)}.",
+   "Check: {hcf(a, b)} × {lcm(a, b)} = {hcf(a, b) * lcm(a, b)} = {a} × {b}."
+  ],
+  "answer": "HCF = {hcf(a, b)} and LCM = {lcm(a, b)}.",
+  "checks": [
+   "hcf(a, b) == 12",
+   "lcm(a, b) == 72"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "The HCF of two numbers is the largest number that divides both. List the factors of each and find the largest in both lists.",
+    "vars": {
+     "a": 12,
+     "b": 18
+    },
+    "example": [
+     "Factors of {a}: {factorsOf(a)}.",
+     "Factors of {b}: {factorsOf(b)}.",
+     "HCF of {a} and {b} = {hcf(a, b)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-6-hcf"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "The LCM of two numbers is the smallest number in both times tables. List the multiples of each until one appears in both lists.",
+    "vars": {
+     "a": 4,
+     "b": 6,
+     "k": 4,
+     "j": 3
+    },
+    "example": [
+     "Multiples of {a}: {multiplesOf(a, k)}, …",
+     "Multiples of {b}: {multiplesOf(b, j)}, …",
+     "LCM of {a} and {b} = {lcm(a, b)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-6-lcm"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "With prime factors: the HCF uses the common primes with the lowest powers; the LCM uses every prime with the highest power.",
+    "vars": {
+     "a": 24,
+     "b": 36
+    },
+    "example": [
+     "{a} = {factorise(a)}, {b} = {factorise(b)}",
+     "HCF = {factorise(hcf(a, b))} = {hcf(a, b)}; LCM = {factorise(lcm(a, b))} = {lcm(a, b)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-6-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "hcf-lcm"
+     ],
+     "vars": {
+      "h": {
+       "int": [
+        2,
+        12
+       ]
+      },
+      "p": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "q": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "a": {
+       "expr": "h * p"
+      },
+      "b": {
+       "expr": "h * q"
+      }
+     },
+     "prompt": "{a} = {factorise(a)} and {b} = {factorise(b)}. What is the HCF of {a} and {b}?",
+     "correct": "{hcf(a, b)}",
+     "distractors": [
+      {
+       "text": "{lcm(a, b)}",
+       "misconception": "lcm"
+      },
+      {
+       "text": "{a * b}",
+       "misconception": "product"
+      },
+      {
+       "text": "{a}",
+       "misconception": "smaller"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "lcm",
+       "explain": "{lcm(a, b)} is the LCM: every prime with the highest power. The HCF uses the lowest powers."
+      },
+      {
+       "id": "product",
+       "explain": "{a * b} is the product of the numbers; the HCF divides both of them."
+      },
+      {
+       "id": "smaller",
+       "explain": "{a} does not divide {b}, so it is not a common factor."
+      }
+     ],
+     "solution": [
+      "The primes in both, with the lowest power: {factorise(hcf(a, b))}.",
+      "So the HCF is {answer}."
+     ],
+     "where": [
+      "p < q",
+      "hcf(p, q) == 1"
+     ]
+    }
+   },
+   {
+    "id": "c6-4",
+    "status": "draft",
+    "idea": "Sharing things into the largest equal groups needs the HCF. Finding when things happen together again needs the LCM.",
+    "vars": {
+     "a": 24,
+     "b": 36,
+     "c": 6,
+     "d": 8
+    },
+    "example": [
+     "{a} mangoes and {b} oranges into the most equal bags: HCF = {hcf(a, b)} bags.",
+     "Bells ringing every {c} and {d} minutes ring together again after LCM = {lcm(c, d)} minutes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-6-c4",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hcf-lcm"
+     ],
+     "prompt": "Sort each problem: do you need the HCF or the LCM?",
+     "pool": [
+      {
+       "left": "the largest number of equal bags you can make from 24 mangoes and 36 oranges",
+       "right": "HCF"
+      },
+      {
+       "left": "the longest equal pieces you can cut from ropes of 12 m and 18 m",
+       "right": "HCF"
+      },
+      {
+       "left": "the largest square tiles that exactly cover a floor 30 dm by 42 dm",
+       "right": "HCF"
+      },
+      {
+       "left": "the biggest equal teams you can make from 20 girls and 25 boys, girls and boys kept apart",
+       "right": "HCF"
+      },
+      {
+       "left": "when two buses that leave every 12 and 18 minutes next leave together",
+       "right": "LCM"
+      },
+      {
+       "left": "when two lights that flash every 4 and 6 seconds next flash together",
+       "right": "LCM"
+      },
+      {
+       "left": "the smallest number of sweets that can be shared equally among 4 children or among 6 children",
+       "right": "LCM"
+      },
+      {
+       "left": "when two pupils who visit the library every 3 and every 5 days are next there on the same day",
+       "right": "LCM"
+      }
+     ],
+     "pick": 4,
+     "groups": true,
+     "group_order": [
+      "HCF",
+      "LCM"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-6-hcf",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "hcf-lcm"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "p": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "a": {
+     "expr": "h * p"
+    },
+    "b": {
+     "expr": "h * q"
+    },
+    "one": 1
+   },
+   "prompt": "Find the HCF of {a} and {b}.",
+   "answer": "hcf(a, b)",
+   "misconceptions": [
+    {
+     "id": "lcm",
+     "wrong": "lcm(a, b)",
+     "explain": "That is the LCM, the lowest common multiple. The HCF is the largest common factor."
+    },
+    {
+     "id": "smaller",
+     "wrong": "a",
+     "explain": "{a} does not divide {b}, so it is not a common factor."
+    },
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "{one} is a common factor, but not the highest one."
+    }
+   ],
+   "solution": [
+    "Factors of {a}: {factorsOf(a)}.",
+    "Factors of {b}: {factorsOf(b)}.",
+    "The largest factor in both lists is {answer}."
+   ],
+   "where": [
+    "p < q",
+    "hcf(p, q) == 1"
+   ]
+  },
+  {
+   "id": "m2-6-lcm",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "hcf-lcm"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "one": 1
+   },
+   "prompt": "Find the LCM of {a} and {b}.",
+   "answer": "lcm(a, b)",
+   "misconceptions": [
+    {
+     "id": "product",
+     "wrong": "a * b",
+     "explain": "{a * b} is a common multiple, but not the lowest: {lcm(a, b)} comes first.",
+     "when": "a * b != lcm(a, b)"
+    },
+    {
+     "id": "hcf",
+     "wrong": "hcf(a, b)",
+     "explain": "That is the HCF. The LCM is the smallest number in both times tables."
+    }
+   ],
+   "solution": [
+    "Multiples of {a}: {multiplesOf(a, lcm(a, b) / a)}.",
+    "Multiples of {b}: {multiplesOf(b, lcm(a, b) / b)}.",
+    "The first number in both lists is {answer}."
+   ],
+   "where": [
+    "a < b",
+    "b % a != 0"
+   ]
+  },
+  {
+   "id": "m2-6-bags",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "hcf-lcm"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "p": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "a": {
+     "expr": "h * p"
+    },
+    "b": {
+     "expr": "h * q"
+    }
+   },
+   "prompt": "Mrs Ebai has {a} mangoes and {b} oranges. She packs them into bags so that every bag has the same number of mangoes and the same number of oranges, with nothing left over. What is the largest number of bags she can make?",
+   "answer": "hcf(a, b)",
+   "misconceptions": [
+    {
+     "id": "lcm",
+     "wrong": "lcm(a, b)",
+     "explain": "Sharing into equal groups needs the HCF, not the LCM."
+    },
+    {
+     "id": "sum",
+     "wrong": "a + b",
+     "explain": "That counts the fruit, not the bags. The number of bags must divide both {a} and {b}."
+    }
+   ],
+   "solution": [
+    "The number of bags must divide {a} and divide {b}: it is a common factor.",
+    "The largest common factor is HCF = {answer}, so she can make {answer} bags."
+   ],
+   "where": [
+    "p < q",
+    "hcf(p, q) == 1",
+    "a >= 12"
+   ],
+   "unit": "bags"
+  },
+  {
+   "id": "m2-6-buses",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "hcf-lcm"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      6,
+      8,
+      9,
+      10,
+      12,
+      15,
+      20
+     ]
+    },
+    "b": {
+     "pick": [
+      8,
+      10,
+      12,
+      15,
+      18,
+      20,
+      25,
+      30
+     ]
+    }
+   },
+   "prompt": "Two buses leave Mile 17 Motor Park in Buea together at 7 a.m. One leaves every {a} minutes and the other every {b} minutes. After how many minutes do they next leave together?",
+   "answer": "lcm(a, b)",
+   "misconceptions": [
+    {
+     "id": "hcf",
+     "wrong": "hcf(a, b)",
+     "explain": "Happening together again needs the LCM, not the HCF."
+    },
+    {
+     "id": "product",
+     "wrong": "a * b",
+     "explain": "They meet then too, but earlier as well: {lcm(a, b)} is the first common multiple.",
+     "when": "a * b != lcm(a, b)"
+    }
+   ],
+   "solution": [
+    "They leave together at a time in both lists of multiples: a common multiple of {a} and {b}.",
+    "Multiples of {a}: {multiplesOf(a, lcm(a, b) / a)}. Multiples of {b}: {multiplesOf(b, lcm(a, b) / b)}.",
+    "The first one is LCM = {answer} minutes."
+   ],
+   "where": [
+    "a < b",
+    "b % a != 0"
+   ],
+   "unit": "minutes"
+  },
+  {
+   "id": "m2-6-rule",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "hcf-lcm"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "p": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "a": {
+     "expr": "h * p"
+    },
+    "b": {
+     "expr": "h * q"
+    }
+   },
+   "prompt": "The HCF of two numbers is {h} and their product is {a * b}. What is their LCM?",
+   "answer": "a * b / h",
+   "misconceptions": [
+    {
+     "id": "multiplied",
+     "wrong": "a * b * h",
+     "explain": "HCF × LCM = product, so divide the product by the HCF."
+    },
+    {
+     "id": "subtracted",
+     "wrong": "a * b - h",
+     "explain": "HCF × LCM = product, so divide the product by the HCF."
+    }
+   ],
+   "solution": [
+    "For two numbers, HCF × LCM = the product of the numbers.",
+    "So LCM = {a * b} ÷ {h} = {answer}."
+   ],
+   "where": [
+    "p < q",
+    "hcf(p, q) == 1"
+   ]
+  },
+  {
+   "id": "m2-6-lights",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "hcf-lcm"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    "b": {
+     "pick": [
+      4,
+      6,
+      8,
+      9,
+      10
+     ]
+    },
+    "c": {
+     "pick": [
+      10,
+      12,
+      15,
+      18,
+      20
+     ]
+    }
+   },
+   "prompt": "Three lights flash together. Then one flashes every {a} seconds, one every {b} seconds and one every {c} seconds. After how many seconds do all three flash together again?",
+   "answer": "lcm3(a, b, c)",
+   "misconceptions": [
+    {
+     "id": "product",
+     "wrong": "a * b * c",
+     "explain": "They flash together then too, but earlier as well: the LCM is {lcm3(a, b, c)}.",
+     "when": "a * b * c != lcm3(a, b, c)"
+    },
+    {
+     "id": "two-only",
+     "wrong": "lcm(a, b)",
+     "explain": "That is when the first two flash together; the third must flash too.",
+     "when": "lcm(a, b) != lcm3(a, b, c)"
+    }
+   ],
+   "solution": [
+    "All three flash together at a common multiple of {a}, {b} and {c}.",
+    "{a} = {factorise(a)}, {b} = {factorise(b)}, {c} = {factorise(c)}.",
+    "LCM = {factorise(lcm3(a, b, c))} = {answer} seconds."
+   ],
+   "where": [
+    "a < b && b < c",
+    "lcm3(a, b, c) <= 360"
+   ],
+   "unit": "seconds"
+  }
+ ]
+}

@@ -1,0 +1,523 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-21",
+   "name": "Humanitarian and community services; reading an interview"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Humanitarian work helps people who suffer, for example after a flood, a fire or a war, or people who are poor or sick. Community service is work we do for free for the people around us: cleaning the market, visiting the sick, planting trees.\nPicture talk: describe what people are doing (“A nurse is giving an injection”), then say why it helps.\nIn the interview, Dr Nkeng works in a village health centre every Saturday. With volunteers, nurses, students and the Red Cross, he gives free check-ups and vaccinations. Mama Ndum could not pay, but he treated her leg, and she was grateful.\nUseful phrases: “I would like to help.” “Can I volunteer?” “Thank you for your help.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Tanyi"
+  },
+  "problem": "{n}'s class wants to help old people in their quarter. Write two sentences about what they can do and why.",
+  "steps": [
+   "Say the action: We can fetch water and clean the compound for old people who live alone.",
+   "Say why it helps: This is community service: it makes their life easier and shows we care."
+  ],
+  "answer": "We can fetch water and clean the compound for old people; it makes their life easier and shows we care.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "Read the interview at a village health centre.",
+    "vars": {},
+    "example": [
+     "Reporter: Doctor, why do you work in the village health centre every Saturday?",
+     "Dr Nkeng: Many people here cannot travel to town. Volunteers and I give free check-ups and vaccinations.",
+     "Reporter: Who helps you?",
+     "Dr Nkeng: Nurses, students and the Red Cross. Some families donate food for the patients.",
+     "Reporter: Mama Ndum, what did the doctor do for you?",
+     "Mama Ndum: He treated my leg after my fall. I could not pay, but he helped me anyway. I am very grateful."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-21-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "When does Dr Nkeng work in the village?",
+         "r": "every Saturday",
+         "w": [
+          "every day",
+          "once a year",
+          "only at night"
+         ],
+         "e": [
+          "He said every Saturday.",
+          "He said every Saturday.",
+          "He said every Saturday."
+         ],
+         "y": "He works there every Saturday."
+        },
+        {
+         "q": "Why does he work there?",
+         "r": "Many people cannot travel to town.",
+         "w": [
+          "He lives in the village.",
+          "He is paid a lot.",
+          "The town has no hospital."
+         ],
+         "e": [
+          "He did not say that.",
+          "The check-ups are free.",
+          "He did not say that."
+         ],
+         "y": "He said many people cannot travel to town."
+        },
+        {
+         "q": "Who donates food?",
+         "r": "some families",
+         "w": [
+          "the Red Cross",
+          "the reporter",
+          "Dr Nkeng"
+         ],
+         "e": [
+          "The Red Cross helps with the work.",
+          "The reporter asks questions.",
+          "He gives check-ups."
+         ],
+         "y": "He said some families donate food for the patients."
+        },
+        {
+         "q": "How does Mama Ndum feel?",
+         "r": "grateful",
+         "w": [
+          "angry",
+          "afraid",
+          "bored"
+         ],
+         "e": [
+          "She thanks the doctor.",
+          "She is thankful.",
+          "She is thankful."
+         ],
+         "y": "She said: I am very grateful."
+        }
+       ]
+      }
+     },
+     "prompt": "From the interview: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Humanitarian work helps people who suffer; community service is free work for the people around us.",
+    "vars": {},
+    "example": [
+     "After the flood, the Red Cross gave food and blankets.",
+     "Our class cleaned the market on Saturday."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-21-which"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "In a picture talk, say what people are doing, then why it helps.",
+    "vars": {},
+    "example": [
+     "“Volunteers are giving out food.”",
+     "“This helps families who lost their homes.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-21-picture"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-21-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Pupils clean the market every month for free. This is …",
+       "r": "community service",
+       "w": [
+        "a holiday",
+        "a business",
+        "a punishment"
+       ],
+       "e": [
+        "It is work, not a holiday.",
+        "They are not paid.",
+        "They do it to help."
+       ],
+       "y": "Free work for the people around us is community service."
+      },
+      {
+       "q": "The Red Cross gives tents to families after a flood. This is …",
+       "r": "humanitarian work",
+       "w": [
+        "a sport",
+        "a market",
+        "a school lesson"
+       ],
+       "e": [
+        "It is not a game.",
+        "Nothing is sold.",
+        "It is help, not a lesson."
+       ],
+       "y": "Helping people who suffer after a disaster is humanitarian work."
+      },
+      {
+       "q": "A doctor treats patients who cannot pay, for free. This is …",
+       "r": "helping people in need",
+       "w": [
+        "selling medicines",
+        "a holiday",
+        "a punishment"
+       ],
+       "e": [
+        "He does not sell anything.",
+        "It is work.",
+        "It is help."
+       ],
+       "y": "He helps people in need."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-21-picture",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "A nurse is giving a baby a vaccine.",
+       "w": [
+        "A nurse gives vaccines every Monday.",
+        "A nurse gave a vaccine yesterday.",
+        "A nurse will give a vaccine."
+       ],
+       "e": [
+        "That is a habit.",
+        "That is past.",
+        "That is future."
+       ],
+       "y": "Use the Present Continuous to describe a picture."
+      },
+      {
+       "r": "Volunteers are carrying bags of rice.",
+       "w": [
+        "Volunteers carried rice last year.",
+        "Volunteers will carry rice.",
+        "Volunteers carry rice on Saturdays."
+       ],
+       "e": [
+        "That is past.",
+        "That is future.",
+        "That is a habit."
+       ],
+       "y": "Use the Present Continuous to describe a picture."
+      },
+      {
+       "r": "Some pupils are planting trees.",
+       "w": [
+        "Some pupils planted trees.",
+        "Some pupils plant trees every year.",
+        "Some pupils are going to plant trees."
+       ],
+       "e": [
+        "That is past.",
+        "That is a habit.",
+        "That is a plan."
+       ],
+       "y": "Use the Present Continuous to describe a picture."
+      }
+     ]
+    }
+   },
+   "prompt": "In a picture talk, which sentence describes what is happening now?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-21-detail",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does Dr Nkeng give with the volunteers?",
+       "r": "free check-ups and vaccinations",
+       "w": [
+        "food and blankets",
+        "money",
+        "school books"
+       ],
+       "e": [
+        "Families donate food.",
+        "He did not give money.",
+        "He did not talk about books."
+       ],
+       "y": "He said: we give free check-ups and vaccinations."
+      },
+      {
+       "q": "What did the doctor do for Mama Ndum?",
+       "r": "He treated her leg.",
+       "w": [
+        "He gave her food.",
+        "He built her house.",
+        "He gave her money."
+       ],
+       "e": [
+        "Families donate food.",
+        "He did not do that.",
+        "She could not pay; he did not give money."
+       ],
+       "y": "She said: he treated my leg after my fall."
+      },
+      {
+       "q": "Which organisation helps Dr Nkeng?",
+       "r": "the Red Cross",
+       "w": [
+        "the police",
+        "a bank",
+        "a football club"
+       ],
+       "e": [
+        "He did not name the police.",
+        "He did not name a bank.",
+        "He did not name a club."
+       ],
+       "y": "He said nurses, students and the Red Cross help him."
+      }
+     ]
+    }
+   },
+   "prompt": "From the interview: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "One sentence is NOT true about the interview. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Dr Nkeng works in a village health centre.",
+      "truth": "true"
+     },
+     {
+      "text": "Volunteers help Dr Nkeng.",
+      "truth": "true"
+     },
+     {
+      "text": "Mama Ndum hurt her leg.",
+      "truth": "true"
+     },
+     {
+      "text": "Some families donate food.",
+      "truth": "true"
+     },
+     {
+      "text": "The check-ups are free.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mama Ndum paid a lot of money for her treatment.",
+      "truth": "false",
+      "explain": "She could not pay, but he helped her anyway."
+     },
+     {
+      "text": "Dr Nkeng works in the village every Monday.",
+      "truth": "false",
+      "explain": "He works there every Saturday."
+     },
+     {
+      "text": "The reporter treated Mama Ndum's leg.",
+      "truth": "false",
+      "explain": "The doctor treated her leg; the reporter asked questions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

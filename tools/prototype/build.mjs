@@ -10,18 +10,26 @@ import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
-const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "lib/homeeconomics.js", "lib/history.js", "lib/biology.js", "lib/computerscience.js", "lib/french.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
+const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/maths2.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "lib/homeeconomics.js", "lib/history.js", "lib/biology.js", "lib/computerscience.js", "lib/french.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
 // 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
 // The Phase 3 budget for the whole app is 2 MB.
 const MAX_BYTES = 1500 * 1024;  // the single shareable file; 1.3 MB until the installable app (2026-10-17)
 const SHELL_MAX = 400 * 1024;   // the installable app's core page (engine, screens, titles): content comes per subject  // 900 KB with Home Economics; 1.3 MB with History, Biology and Computer Science (Dion, 2026-10-07); app budget 2 MB
-const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography", "home-economics": "Home Economics", history: "History", biology: "Biology", "computer-science": "Computer Science", french: "French" };
-const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography", "home-economics": "home-economics", history: "history", biology: "biology", "computer-science": "computer-science", french: "french" };
+const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography", "home-economics": "Home Economics", history: "History", biology: "Biology", "computer-science": "Computer Science", french: "French",
+  "f2-maths": "Maths", "f2-english": "English" };
+// Classes (Form 2 from 2026-10-17, on the form-2 branch): a Form 2 subject id starts with "f2-"; its lessons are in
+// content/form-2/<subject>/ and its sheet in data/spine/form-2/. Form One stays the default class.
+const CLASSES = { "form-1": "Form One", "form-2": "Form Two" };
+const CLASS_OF = Object.fromEntries(Object.keys(SUBJECTS).map((s) => [s, s.startsWith("f2-") ? "form-2" : "form-1"]));
+const DIR = { "f2-maths": "form-2/maths", "f2-english": "form-2/english" };
+const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography", "home-economics": "home-economics", history: "history", biology: "biology", "computer-science": "computer-science", french: "french",
+  "f2-maths": "form-2/mathematics", "f2-english": "form-2/english-language" };
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
 const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10), "home-economics": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21],
-  history: upTo(10), biology: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21], "computer-science": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18], french: upTo(15) };  // released lessons per subject
+  history: upTo(10), biology: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21], "computer-science": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18], french: upTo(15),
+  "f2-maths": upTo(24), "f2-english": upTo(32) };  // released lessons per subject (Form 2: Term 1, Batches M2-1 and E2-1)
 // Geography is numbered by place in the year (spine seq): its practicals have no lesson number (TR-G14).
-const BY_SEQ = new Set(["geography", "history", "biology"]);  // biology: practicals have kind "practical" (numbers equal the rows)
+const BY_SEQ = new Set(["geography", "history", "biology", "f2-maths", "f2-english"]);  // biology: practicals have kind "practical" (numbers equal the rows); every Form 2 subject (proposal G1)
 
 function bundleModule(path) {
   const src = read(`src/engine/${path}`);
@@ -45,20 +53,22 @@ function bundleModule(path) {
 // "under- nutrition" → "under-nutrition".
 const tidy = (t) => t
   .replace(/(\p{L})- (?=\p{Ll})/gu, "$1-")  // a word split by the sheet: "under- nutrition" → "under-nutrition"
-  .replace(/^(Speaking|Reading|Writing|Vocabulary|Grammar|Listening)\s*[-:]?\s*/, "$1: ")
+  .replace(/^((?:Speaking|Reading|Writing|Vocabulary|Grammar|Listening)(?: and (?:Speaking|Reading|Writing|Listening))?)\s*[-:]?\s*/, "$1: ")  // "Speaking and Reading- Talking …" (Form 2) → "Speaking and Reading: Talking …"
   .replace(/\s*\.?\s*-\s+/g, ": ").replace(/\s*:\s*/g, ": ").replace(/[;\s]+$/, "").replace(/\s+/g, " ").trim();
 const titles = {}, content = {}, lessons = {};
 for (const s of Object.keys(SUBJECTS)) {
   const spine = JSON.parse(read(`data/spine/${SPINE[s]}.json`));
   const num = (l) => (BY_SEQ.has(s) ? l.seq : l.kind === "lesson" ? l.lesson_no : null);
   titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => BATCH[s].includes(num(l))).map((l) => [num(l), tidy(l.title)]));
-  const all = Object.fromEntries((s === "maths" ? [0, ...BATCH[s]] : BATCH[s]).map((n) => [n, JSON.parse(read(`content/${s}/${n}.json`))]));
+  const all = Object.fromEntries((s === "maths" ? [0, ...BATCH[s]] : BATCH[s]).map((n) => [n, JSON.parse(read(`content/${DIR[s] || s}/${n}.json`))]));
   // Deferred lessons (speech work: needs audio) are not shipped at all: hidden from the pupil (TR-E22).
   content[s] = Object.fromEntries(Object.entries(all).filter(([, l]) => l.status !== "deferred"));
   lessons[s] = BATCH[s].filter((n) => content[s][n]);
   titles[s] = Object.fromEntries(Object.entries(titles[s]).filter(([n]) => content[s][n]));
   for (const n of lessons[s]) if (!titles[s][n]) throw new Error(`no spine title for ${s} Lesson ${n}`);
 }
+// A subject with no released lesson yet is left out of the app.
+for (const s of Object.keys(SUBJECTS)) if (!lessons[s].length) for (const x of [SUBJECTS, CLASS_OF, titles, content, lessons]) delete x[s];
 const build = new Date().toISOString().slice(0, 10);
 const safeJson = (x) => JSON.stringify(x).replace(/</g, "\\u003c");
 
@@ -229,6 +239,7 @@ a.button-link { display: block; min-height: 48px; margin: 10px 0 0; padding: 12p
 `;
 
 const ENGINE_LIBS = `{ libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
+    "f2-maths": { ...__mods["lib/maths.js"], ...__mods["lib/maths2.js"] }, "f2-english": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },
     chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] },
     geography: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"] },
@@ -238,13 +249,16 @@ const ENGINE_LIBS = `{ libs: { maths: __mods["lib/maths.js"], english: { ...__mo
     "computer-science": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"] },
     french: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/french.js"] } }`;
 const paper = Object.fromEntries(Object.entries(content).map(([s, ls]) => [s, Object.values(ls).filter((l) => l.paper_task).map((l) => l.lesson_no)]));
-const page = ({ mode, contentJs, head = "", tail = "" }) => `<!doctype html>
+// `only`: the subjects a page carries (the single shareable file holds one class, so it stays small enough for
+// Bluetooth); the installable app's core page lists every subject and loads their lessons one at a time.
+const pick = (obj, only) => Object.fromEntries(Object.entries(obj).filter(([s]) => only.includes(s)));
+const page = ({ mode, contentJs, only = Object.keys(SUBJECTS), head = "", tail = "" }) => `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1f6f4a">
-<title>Form One Lessons</title>
+<title>${only.every((s) => CLASS_OF[s] === "form-2") ? "Form Two Lessons" : "Form One Lessons"}</title>
 ${head}<style>${css}</style>
 </head>
 <body>
@@ -256,10 +270,12 @@ ${ENGINE.map(bundleModule).join("\n")}
 const ENGINE = ${ENGINE_LIBS},
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${contentJs};
-const TITLES = ${safeJson(titles)};
-const LESSONS = ${safeJson(lessons)};
-const SUBJECTS = ${safeJson(SUBJECTS)};
-const PAPER = ${safeJson(paper)};
+const TITLES = ${safeJson(pick(titles, only))};
+const LESSONS = ${safeJson(pick(lessons, only))};
+const SUBJECTS = ${safeJson(pick(SUBJECTS, only))};
+const CLASSES = ${safeJson(CLASSES)};
+const CLASS_OF = ${safeJson(pick(CLASS_OF, only))};
+const PAPER = ${safeJson(pick(paper, only))};
 const MODE = ${JSON.stringify(mode)};
 const BUILD = ${JSON.stringify(build)};
 ${read("tools/prototype/app.js")}
@@ -268,11 +284,19 @@ ${read("tools/prototype/review.js")}
 ${tail}</body>
 </html>
 `;
-const html = page({ mode: "single", contentJs: safeJson(content) });
-const bytes = Buffer.byteLength(html, "utf8");
-if (bytes > MAX_BYTES) throw new Error(`prototype is ${bytes} bytes, over the ${MAX_BYTES} limit`);
+// One shareable file per class: form1.html (Form One) and form2.html (Form Two).
+const ofClass = (c) => Object.keys(SUBJECTS).filter((s) => CLASS_OF[s] === c);
+const single = (c) => {
+  const only = ofClass(c), html = page({ mode: "single", only, contentJs: safeJson(pick(content, only)) });
+  const bytes = Buffer.byteLength(html, "utf8");
+  if (bytes > MAX_BYTES) throw new Error(`${c} single file is ${bytes} bytes, over the ${MAX_BYTES} limit`);
+  console.log(`${c}: one file of ${(bytes / 1024).toFixed(1)} KB (limit ${MAX_BYTES / 1024} KB)`);
+  return html;
+};
+const html = single("form-1"), html2 = ofClass("form-2").length ? single("form-2") : null;
 writeFileSync(new URL("tools/prototype/form1.html", ROOT), html, "utf8");
-console.log(`wrote tools/prototype/form1.html (${(bytes / 1024).toFixed(1)} KB, limit ${MAX_BYTES / 1024} KB)`);
+if (html2) writeFileSync(new URL("tools/prototype/form2.html", ROOT), html2, "utf8");
+console.log(`wrote tools/prototype/form1.html${html2 ? " and form2.html" : ""}`);
 
 // ---- the installable app (2026-10-17): tools/prototype/pwa/ → published as the site's root
 const PWA = new URL("tools/prototype/pwa/", ROOT);
@@ -292,6 +316,7 @@ for (const s of Object.keys(SUBJECTS)) {
   sizes[s] = Buffer.byteLength(js, "utf8");
 }
 writeFileSync(new URL("offline.html", PWA), html, "utf8");
+if (html2) writeFileSync(new URL("offline-form-2.html", PWA), html2, "utf8");
 for (const f of ["icon-192.png", "icon-512.png", "maskable-192.png", "maskable-512.png", "apple-touch-icon.png"]) copyFileSync(new URL(`tools/prototype/icons/${f}`, ROOT), new URL(`icons/${f}`, PWA));
 writeFileSync(new URL("manifest.webmanifest", PWA), JSON.stringify({
   name: "Psalms Preps: Form One lessons", short_name: "Form One", description: "Form One lessons that work offline: Maths, English, sciences, humanities and French.",
@@ -314,7 +339,7 @@ self.addEventListener("activate", (e) => { e.waitUntil((async () => {
     if (name === CACHE) continue;
     const old = await caches.open(name);
     for (const req of await old.keys()) {
-      const m = new URL(req.url).pathname.match(/subjects\\/([a-z-]+)\\.js$/);
+      const m = new URL(req.url).pathname.match(/subjects\\/([a-z0-9-]+)\\.js$/);
       if (m) try { await keep.add(\`subjects/\${m[1]}.js?v=${build}\`); } catch { /* offline now: fetched again when opened */ }
     }
     await caches.delete(name);

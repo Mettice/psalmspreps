@@ -1,0 +1,422 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "e2-18",
+   "name": "Telephone and shopping words"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Telephone words: to dial (enter the number), to ring, a missed call, a text message (an SMS), voicemail, airtime or credit (money for calls), a SIM card, a charger, the battery, a network (the signal), to top up (add credit).\nShopping words: a customer (the buyer), a shop assistant, the price, a discount (money taken off the price), a bargain (a good price), a receipt (the paper that shows you paid), change (money given back), to order (ask to buy), delivery (bringing goods to you), cash or mobile money, out of stock (none left).\nUseful questions: “How much is this phone?” “Do you have a cheaper one?” “Can I pay by mobile money?” “Can I have a receipt, please?”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 45000,
+   "d": 5000,
+   "g": 50000
+  },
+  "problem": "A phone costs {p} francs, with a discount of {d} francs. Tabe pays with a note of {g} francs. Use shopping words to explain what happens.",
+  "steps": [
+   "The discount is taken off the price: {p} − {d} = {p - d} francs.",
+   "Tabe pays {g} francs, so he gets change: {g} − {p - d} = {g - p + d} francs.",
+   "He asks: “Can I have a receipt, please?” The receipt shows he paid."
+  ],
+  "answer": "He pays {p - d} francs, gets {g - p + d} francs change and a receipt.",
+  "checks": [
+   "g - p + d == 10000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "Telephone words: dial a number, top up your credit, charge the battery.",
+    "vars": {},
+    "example": [
+     "I topped up my credit to call my aunt.",
+     "My battery is low: where is the charger?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-18-phone"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "Shopping words: the price, a discount, change and a receipt.",
+    "vars": {},
+    "example": [
+     "The price was ten thousand, with a discount of one thousand.",
+     "The shop assistant gave me my change and a receipt."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-18-shop"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "Polite shopping questions start with How much, Do you have, Can I.",
+    "vars": {},
+    "example": [
+     "How much is this charger?",
+     "Can I pay by mobile money?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-18-ask"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-18-phone",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each telephone word to its meaning.",
+   "pool": [
+    {
+     "left": "dial",
+     "right": "enter a phone number"
+    },
+    {
+     "left": "missed call",
+     "right": "a call you did not answer"
+    },
+    {
+     "left": "credit",
+     "right": "money for calls on your phone"
+    },
+    {
+     "left": "charger",
+     "right": "it fills the battery with power"
+    },
+    {
+     "left": "network",
+     "right": "the signal your phone needs"
+    },
+    {
+     "left": "voicemail",
+     "right": "a spoken message left on the phone"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-18-shop",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each shopping word to its meaning.",
+   "pool": [
+    {
+     "left": "discount",
+     "right": "money taken off the price"
+    },
+    {
+     "left": "receipt",
+     "right": "a paper that shows you paid"
+    },
+    {
+     "left": "change",
+     "right": "money given back to you"
+    },
+    {
+     "left": "customer",
+     "right": "a person who buys"
+    },
+    {
+     "left": "delivery",
+     "right": "bringing goods to your home"
+    },
+    {
+     "left": "out of stock",
+     "right": "there are none left in the shop"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-18-ask",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "You want to know the price.",
+       "r": "How much is this phone?",
+       "w": [
+        "How many is this phone?",
+        "What is this phone money?",
+        "Give me the price now."
+       ],
+       "e": [
+        "Use How much for prices.",
+        "That is not correct English.",
+        "That is rude."
+       ],
+       "y": "We ask a price with How much."
+      },
+      {
+       "q": "The phone is too expensive.",
+       "r": "Do you have a cheaper one?",
+       "w": [
+        "Do you have a more cheap one?",
+        "It is cheap.",
+        "I want expensive."
+       ],
+       "e": [
+        "Cheap → cheaper.",
+        "You think it is expensive.",
+        "That says the opposite."
+       ],
+       "y": "Ask politely for a cheaper one."
+      },
+      {
+       "q": "You want to pay with your phone.",
+       "r": "Can I pay by mobile money?",
+       "w": [
+        "Can I pay by mobile credit card?",
+        "I pay you phone.",
+        "Can I top up?"
+       ],
+       "e": [
+        "You want mobile money.",
+        "That is not correct English.",
+        "Top up means adding credit."
+       ],
+       "y": "Ask: Can I pay by mobile money?"
+      },
+      {
+       "q": "You want proof that you paid.",
+       "r": "Can I have a receipt, please?",
+       "w": [
+        "Can I have a discount?",
+        "Can I have change?",
+        "Can I have a charger?"
+       ],
+       "e": [
+        "A discount lowers the price.",
+        "Change is money given back.",
+        "A charger is for the battery."
+       ],
+       "y": "A receipt shows you paid."
+      }
+     ]
+    }
+   },
+   "prompt": "You are in a phone shop. {X.q} What do you say?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-18-use",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "I can't call: I have no ___ left.",
+       "a": "credit",
+       "w": [
+        "receipt",
+        "discount"
+       ],
+       "e": [
+        "A receipt shows you paid.",
+        "A discount lowers a price."
+       ]
+      },
+      {
+       "s": "There is no ___ here, so my phone can't make calls.",
+       "a": "network",
+       "w": [
+        "charger",
+        "change"
+       ],
+       "e": [
+        "A charger fills the battery.",
+        "Change is money given back."
+       ]
+      },
+      {
+       "s": "The shop gave us a ___ of two thousand francs because we bought three phones.",
+       "a": "discount",
+       "w": [
+        "receipt",
+        "delivery"
+       ],
+       "e": [
+        "A receipt is a paper.",
+        "Delivery brings goods to you."
+       ]
+      },
+      {
+       "s": "Sorry, that model is ___; we will have more next week.",
+       "a": "out of stock",
+       "w": [
+        "on discount",
+        "a bargain"
+       ],
+       "e": [
+        "On discount means cheaper, not finished.",
+        "A bargain is a good price."
+       ]
+      },
+      {
+       "s": "I paid five thousand with a ten-thousand note, so I got five thousand in ___.",
+       "a": "change",
+       "w": [
+        "credit",
+        "network"
+       ],
+       "e": [
+        "Credit is for calls.",
+        "The network is the signal."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "One sentence uses a word wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "I topped up my credit.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep the receipt in case the phone is faulty.",
+      "truth": "true"
+     },
+     {
+      "text": "The customer asked for a discount.",
+      "truth": "true"
+     },
+     {
+      "text": "My battery is low.",
+      "truth": "true"
+     },
+     {
+      "text": "I had three missed calls.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The shop assistant gave me a receipt of five hundred francs back.",
+      "truth": "false",
+      "explain": "Money given back is change; a receipt is a paper."
+     },
+     {
+      "text": "I put the charger in my phone to make calls cheaper.",
+      "truth": "false",
+      "explain": "A charger fills the battery; credit pays for calls."
+     },
+     {
+      "text": "The phone is out of stock, so I bought two.",
+      "truth": "false",
+      "explain": "Out of stock means there are none left."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

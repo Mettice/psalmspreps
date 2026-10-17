@@ -1,0 +1,467 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-2",
+   "name": "Operations in the set of integers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The integers are the natural numbers and their opposites: …, −3, −2, −1, 0, 1, 2, 3, … The set of integers is written ℤ. On the number line, numbers get bigger to the right, so −2 > −5.\nAdding: same signs, add the sizes and keep the sign: −4 + (−3) = −7. Different signs, subtract the smaller size from the larger and keep the sign of the larger: −9 + 4 = −5.\nSubtracting a number is adding its opposite: 3 − (−5) = 3 + 5 = 8.\nMultiplying and dividing: same signs give a positive answer, different signs a negative one: (−6) × (−2) = 12, (−12) ÷ 3 = −4.\nMultiply and divide before you add and subtract.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": -3,
+   "f": 5,
+   "r": 2
+  },
+  "problem": "The temperature in a cold room is {t} °C. It falls by {f} °C, then rises by {r} °C. What is the final temperature?",
+  "steps": [
+   "Falling by {f} °C means subtracting: {t} − {f} = {t - f} °C.",
+   "Rising by {r} °C means adding: {t - f} + {r} = {t - f + r} °C."
+  ],
+  "answer": "The final temperature is {t - f + r} °C.",
+  "checks": [
+   "t - f + r == -6"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "The integers are the whole numbers and their opposites. On the number line, the number further to the right is greater.",
+    "vars": {
+     "a": 2,
+     "b": 7,
+     "z": 3,
+     "c": 8
+    },
+    "example": [
+     "−{a} is to the right of −{b}, so −{a} > −{b}.",
+     "{z} > −{c}: every positive number is greater than every negative number."
+    ],
+    "checks": [
+     "-a > -b",
+     "z > -c"
+    ],
+    "check": {
+     "id": "m2-2-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "integers"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -15,
+        15
+       ]
+      },
+      "b": {
+       "int": [
+        -15,
+        15
+       ]
+      }
+     },
+     "prompt": "Which number is greater?",
+     "where": [
+      "a != b",
+      "a < 0 || b < 0"
+     ],
+     "correct": "{max(a, b)}",
+     "distractors": [
+      {
+       "text": "{min(a, b)}",
+       "misconception": "size"
+      }
+     ],
+     "show": 2,
+     "misconceptions": [
+      {
+       "id": "size",
+       "explain": "On the number line {max(a, b)} is to the right of {min(a, b)}, so it is greater. Of two negative numbers, the one closer to zero is greater."
+      }
+     ],
+     "solution": [
+      "On the number line, {max(a, b)} is to the right of {min(a, b)}.",
+      "So {answer} is the greater number."
+     ]
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Adding integers: with the same signs, add the sizes and keep the sign. With different signs, subtract the smaller size from the larger and keep the sign of the larger.",
+    "vars": {
+     "a": -4,
+     "b": -3,
+     "c": -9,
+     "d": 4
+    },
+    "example": [
+     "{a} + {br(b)} = {a + b} (same signs).",
+     "{c} + {d} = {c + d} (different signs: {abs(c)} − {d} = {abs(c) - d}, and {abs(c)} is the larger size)."
+    ],
+    "checks": [
+     "a + b == -7",
+     "c + d == -5"
+    ],
+    "check": {
+     "ref": "m2-2-add"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Subtracting a number is the same as adding its opposite.",
+    "vars": {
+     "a": 3,
+     "b": -5,
+     "c": -2,
+     "d": 6
+    },
+    "example": [
+     "{a} − {br(b)} = {a} + {-b} = {a - b}.",
+     "{c} − {d} = {c} + {br(-d)} = {c - d}."
+    ],
+    "checks": [
+     "a - b == 8",
+     "c - d == -8"
+    ],
+    "check": {
+     "ref": "m2-2-sub"
+    }
+   },
+   {
+    "id": "c2-4",
+    "status": "draft",
+    "idea": "Multiplying or dividing two integers: same signs give a positive answer; different signs give a negative answer.",
+    "vars": {
+     "a": -6,
+     "b": -2,
+     "c": -12,
+     "d": 3
+    },
+    "example": [
+     "{br(a)} × {br(b)} = {a * b} (same signs).",
+     "{br(c)} ÷ {d} = {c / d} (different signs)."
+    ],
+    "checks": [
+     "a * b == 12",
+     "c / d == -4"
+    ],
+    "check": {
+     "ref": "m2-2-mul"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-2-add",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "integers"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -20,
+      20
+     ]
+    },
+    "b": {
+     "int": [
+      -20,
+      20
+     ]
+    }
+   },
+   "prompt": "Work out {a} + {br(b)}.",
+   "answer": "a + b",
+   "misconceptions": [
+    {
+     "id": "sizes-added",
+     "wrong": "abs(a) + abs(b)",
+     "explain": "The signs are different, so subtract the sizes: the answer is {a + b}.",
+     "when": "a < 0 != b < 0"
+    },
+    {
+     "id": "sign",
+     "wrong": "-(a + b)",
+     "explain": "Check the sign. {a < 0 == b < 0 ? 'Both numbers have the same sign, and the answer keeps it.' : 'The answer takes the sign of the number with the larger size.'}"
+    },
+    {
+     "id": "all-negative",
+     "wrong": "-(abs(a) + abs(b))",
+     "explain": "The signs are different, so subtract the sizes instead of adding them.",
+     "when": "a < 0 != b < 0"
+    }
+   ],
+   "solution": [
+    "{a < 0 == b < 0 ? 'Same signs: add the sizes and keep the sign.' : 'Different signs: subtract the smaller size from the larger, and keep the sign of the larger size.'}",
+    "{a} + {br(b)} = {answer}"
+   ],
+   "signed": true,
+   "where": [
+    "a != 0 && b != 0",
+    "a < 0 || b < 0",
+    "a + b != 0"
+   ]
+  },
+  {
+   "id": "m2-2-sub",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "integers"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -15,
+      15
+     ]
+    },
+    "b": {
+     "int": [
+      -15,
+      15
+     ]
+    }
+   },
+   "prompt": "Work out {a} − {br(b)}.",
+   "answer": "a - b",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "a + b",
+     "explain": "That is {a} + {br(b)}. Subtracting {br(b)} means adding {br(-b)}."
+    },
+    {
+     "id": "sign",
+     "wrong": "-(a - b)",
+     "explain": "Check the sign of your answer: {a} + {br(-b)} = {a - b}."
+    }
+   ],
+   "solution": [
+    "Subtracting {br(b)} is the same as adding its opposite, {br(-b)}.",
+    "{a} − {br(b)} = {a} + {br(-b)} = {answer}"
+   ],
+   "signed": true,
+   "where": [
+    "a != 0 && b != 0",
+    "b < 0 || a < 0",
+    "a != b"
+   ]
+  },
+  {
+   "id": "m2-2-mul",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "integers"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -12,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      -12,
+      12
+     ]
+    }
+   },
+   "prompt": "Work out {br(a)} × {br(b)}.",
+   "answer": "a * b",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "-(a * b)",
+     "explain": "Check the sign: {signWord(a)} × {signWord(b)} gives a {signWord(a * b)} answer."
+    }
+   ],
+   "solution": [
+    "{a < 0 == b < 0 ? 'Same signs, so the answer is positive.' : 'Different signs, so the answer is negative.'}",
+    "{abs(a)} × {abs(b)} = {abs(a * b)}, so {br(a)} × {br(b)} = {answer}."
+   ],
+   "signed": true,
+   "where": [
+    "abs(a) > 1 && abs(b) > 1",
+    "a < 0 || b < 0"
+   ]
+  },
+  {
+   "id": "m2-2-div",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "integers"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -12,
+      12
+     ]
+    },
+    "q": {
+     "int": [
+      -12,
+      12
+     ]
+    },
+    "c": {
+     "expr": "b * q"
+    }
+   },
+   "prompt": "Work out {c} ÷ {br(b)}.",
+   "answer": "q",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "-q",
+     "explain": "Check the sign: {signWord(c)} ÷ {signWord(b)} gives a {signWord(q)} answer."
+    }
+   ],
+   "solution": [
+    "{q < 0 ? 'Different signs, so the answer is negative.' : 'Same signs, so the answer is positive.'}",
+    "{abs(c)} ÷ {abs(b)} = {abs(q)}, so {c} ÷ {br(b)} = {answer}."
+   ],
+   "signed": true,
+   "where": [
+    "abs(b) > 1 && abs(q) > 1",
+    "b < 0 || q < 0"
+   ]
+  },
+  {
+   "id": "m2-2-story",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "integers"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      -6,
+      -1
+     ]
+    },
+    "r": {
+     "int": [
+      2,
+      14
+     ]
+    }
+   },
+   "prompt": "At 6 a.m. the temperature at the top of Mount Cameroon was {t} °C. By noon it had risen by {r} °C. What was the temperature at noon?",
+   "answer": "t + r",
+   "misconceptions": [
+    {
+     "id": "subtracted",
+     "wrong": "t - r",
+     "explain": "The temperature rose, so add {r}: {t} + {r} = {t + r}."
+    },
+    {
+     "id": "sizes",
+     "wrong": "abs(t) + r",
+     "explain": "{t} is below zero. Count up {r} from {t}: {t} + {r} = {t + r}."
+    }
+   ],
+   "solution": [
+    "Rising means adding: {t} + {r} = {answer}.",
+    "The temperature at noon was {answer} °C."
+   ],
+   "signed": true,
+   "unit": "°C",
+   "where": [
+    "t + r != 0"
+   ]
+  },
+  {
+   "id": "m2-2-mixed",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "integers"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "e": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "expr": "e * d"
+    }
+   },
+   "prompt": "Work out {a} × {br(b)} + {br(c)} ÷ {br(d)}.",
+   "answer": "a * b + e",
+   "misconceptions": [
+    {
+     "id": "left-to-right",
+     "wrong": "(a * b + c) / d",
+     "explain": "Multiplication and division come before addition: work out {a} × {br(b)} and {br(c)} ÷ {br(d)} first.",
+     "when": "isInt((a * b + c) / d)"
+    },
+    {
+     "id": "sign",
+     "wrong": "a * b - e",
+     "explain": "Check the sign of {br(c)} ÷ {br(d)}: it is {e}."
+    }
+   ],
+   "solution": [
+    "Multiply and divide first: {a} × {br(b)} = {a * b} and {br(c)} ÷ {br(d)} = {e}.",
+    "Then add: {a * b} + {br(e)} = {answer}."
+   ],
+   "signed": true,
+   "where": [
+    "abs(a) > 1 && abs(b) > 1 && abs(d) > 1 && abs(e) > 1",
+    "a < 0 || b < 0",
+    "d < 0 || e < 0"
+   ]
+  }
+ ]
+}

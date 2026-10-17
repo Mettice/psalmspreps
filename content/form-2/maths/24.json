@@ -1,0 +1,388 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  22,
+  23
+ ],
+ "skills": [
+  {
+   "id": "m2-24",
+   "name": "Showing inequalities on the number line"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The solutions of an inequality can be shown on a number line.\n• A circle marks the end number. A filled circle (●) means the end number is included (≤ or ≥). An open circle (○) means it is not included (< or >).\n• A thick line with an arrow shows all the other solutions: to the right for > and ≥, to the left for < and ≤.\nx > 2: open circle at 2, arrow to the right. x ≤ −1: filled circle at −1, arrow to the left.\nTo show the solutions of 2x + 1 ≥ 7, solve first (x ≥ 3), then draw a filled circle at 3 and an arrow to the right.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": -1,
+   "a": 2,
+   "b": 3
+  },
+  "problem": "Solve {poly([a, 'x'], [b, ''])} < {a * k + b} and describe how to show the solutions on a number line.",
+  "steps": [
+   "Subtract {b}: {mono(a, 'x')} < {a * k}. Divide by {a}: x < {k}.",
+   "The sign < does not include {k}: draw an open circle at {k}.",
+   "Less than means to the left: draw a thick line from the circle with an arrow to the left."
+  ],
+  "answer": "x < {k}: open circle at {k}, arrow to the left.",
+  "checks": [
+   "a * k + b == 1"
+  ],
+  "figure": "ineqLine('<', k)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "A filled circle means the end number is included (≤, ≥). An open circle means it is not (<, >).",
+    "vars": {
+     "k": 2
+    },
+    "example": [
+     "x ≥ {k}: filled circle at {k}.",
+     "x > {k}: open circle at {k}."
+    ],
+    "checks": [],
+    "figure": "ineqLine('≥', k)",
+    "check": {
+     "id": "m2-24-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "inequalities"
+     ],
+     "vars": {
+      "op": {
+       "pick": [
+        "<",
+        ">",
+        "≤",
+        "≥"
+       ]
+      },
+      "k": {
+       "int": [
+        -6,
+        6
+       ]
+      }
+     },
+     "prompt": "In the drawing of {ineq('x', op, k)} on a number line, what is the circle at {k} like?",
+     "correct": "{op == '≤' || op == '≥' ? 'filled' : 'open'}",
+     "distractors": [
+      {
+       "text": "{op == '≤' || op == '≥' ? 'open' : 'filled'}",
+       "misconception": "flip"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "flip",
+       "explain": "{op == '≤' || op == '≥' ? 'The sign ' + op + ' includes ' + fmt(k) + ', so the circle is filled.' : 'The sign ' + op + ' does not include ' + fmt(k) + ', so the circle is open.'}"
+      }
+     ],
+     "solution": [
+      "{op == '≤' || op == '≥' ? 'The sign ' + op + ' includes ' + fmt(k) : 'The sign ' + op + ' does not include ' + fmt(k)}.",
+      "So the circle is {answer}."
+     ],
+     "show": 2
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "The arrow points to the solutions: right for > and ≥, left for < and ≤.",
+    "vars": {
+     "k": 1
+    },
+    "example": [
+     "x > {k}: arrow to the right.",
+     "x ≤ {k}: arrow to the left."
+    ],
+    "checks": [],
+    "figure": "ineqLine('>', k)",
+    "check": {
+     "ref": "m2-24-read"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "To show the solutions of an inequality, solve it first, then draw the circle and the arrow.",
+    "vars": {
+     "a": 2,
+     "b": 1,
+     "k": 3
+    },
+    "example": [
+     "{poly([a, 'x'], [b, ''])} ≥ {a * k + b} gives x ≥ {k}: filled circle at {k}, arrow to the right."
+    ],
+    "checks": [],
+    "figure": "ineqLine('≥', k)",
+    "check": {
+     "ref": "m2-24-describe"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-24-read",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    },
+    "k": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "Which inequality is shown on the number line?",
+   "correct": "{ineq('x', op, k)}",
+   "distractors": [
+    {
+     "text": "{ineq('x', flipOp(op), k)}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{ineq('x', op == '<' || op == '>' ? looseOp(op) : strictOp(op), k)}",
+     "misconception": "edge"
+    },
+    {
+     "text": "{ineq('x', op == '<' || op == '>' ? looseOp(flipOp(op)) : strictOp(flipOp(op)), k)}",
+     "misconception": "both"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Look at the arrow: it points to the {op == '>' || op == '≥' ? 'right' : 'left'}."
+    },
+    {
+     "id": "edge",
+     "explain": "Look at the circle: it is {op == '≤' || op == '≥' ? 'filled' : 'open'}."
+    },
+    {
+     "id": "both",
+     "explain": "Look at the arrow and at the circle."
+    }
+   ],
+   "solution": [
+    "The circle at {k} is {op == '≤' || op == '≥' ? 'filled, so ' + fmt(k) + ' is included' : 'open, so ' + fmt(k) + ' is not included'}.",
+    "The arrow points to the {op == '>' || op == '≥' ? 'right (greater numbers)' : 'left (smaller numbers)'}.",
+    "So the drawing shows {answer}."
+   ],
+   "figure": "ineqLine(op, k)"
+  },
+  {
+   "id": "m2-24-integers",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    },
+    "k": {
+     "int": [
+      -4,
+      4
+     ]
+    }
+   },
+   "prompt": "The number line shows the solutions of an inequality. Which whole numbers from {k - 3} to {k + 3} are solutions?",
+   "correct": "{solutionsIn(k - 3, k + 3, op, k)}",
+   "distractors": [
+    {
+     "text": "{solutionsIn(k - 3, k + 3, op == '<' || op == '>' ? looseOp(op) : strictOp(op), k)}",
+     "misconception": "edge"
+    },
+    {
+     "text": "{solutionsIn(k - 3, k + 3, flipOp(op), k)}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "edge",
+     "explain": "Look at the circle at {k}: it is {op == '≤' || op == '≥' ? 'filled, so ' + fmt(k) + ' is a solution' : 'open, so ' + fmt(k) + ' is not a solution'}."
+    },
+    {
+     "id": "flip",
+     "explain": "The arrow points to the {op == '>' || op == '≥' ? 'right' : 'left'}: those are the solutions."
+    }
+   ],
+   "solution": [
+    "The drawing shows {ineq('x', op, k)}.",
+    "From {k - 3} to {k + 3}, these numbers satisfy it: {answer}."
+   ],
+   "figure": "ineqLine(op, k)",
+   "show": 3
+  },
+  {
+   "id": "m2-24-describe",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    },
+    "k": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "How do you show {ineq('x', op, k)} on a number line?",
+   "correct": "{(op == '≤' || op == '≥' ? 'a filled' : 'an open') + ' circle at ' + fmt(k) + ' and an arrow to the ' + (op == '>' || op == '≥' ? 'right' : 'left')}",
+   "distractors": [
+    {
+     "text": "{(op == '≤' || op == '≥' ? 'an open' : 'a filled') + ' circle at ' + fmt(k) + ' and an arrow to the ' + (op == '>' || op == '≥' ? 'right' : 'left')}",
+     "misconception": "circle"
+    },
+    {
+     "text": "{(op == '≤' || op == '≥' ? 'a filled' : 'an open') + ' circle at ' + fmt(k) + ' and an arrow to the ' + (op == '>' || op == '≥' ? 'left' : 'right')}",
+     "misconception": "arrow"
+    },
+    {
+     "text": "{(op == '≤' || op == '≥' ? 'an open' : 'a filled') + ' circle at ' + fmt(k) + ' and an arrow to the ' + (op == '>' || op == '≥' ? 'left' : 'right')}",
+     "misconception": "both"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "circle",
+     "explain": "The circle: {op == '≤' || op == '≥' ? 'filled, because ' + op + ' includes ' + fmt(k) : 'open, because ' + op + ' does not include ' + fmt(k)}."
+    },
+    {
+     "id": "arrow",
+     "explain": "The arrow points to the solutions: {op == '>' || op == '≥' ? 'right' : 'left'}."
+    },
+    {
+     "id": "both",
+     "explain": "Check both the circle and the arrow."
+    }
+   ],
+   "solution": [
+    "{op == '≤' || op == '≥' ? 'The sign includes ' + fmt(k) + ': filled circle' : 'The sign does not include ' + fmt(k) + ': open circle'}.",
+    "{op == '>' || op == '≥' ? 'Greater numbers are to the right' : 'Smaller numbers are to the left'}.",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "m2-24-solve",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    }
+   },
+   "prompt": "The number line shows the solutions of one of these inequalities. Which one?",
+   "correct": "{poly([a, 'x'], [b, ''])} {op} {a * k + b}",
+   "distractors": [
+    {
+     "text": "{poly([a, 'x'], [b, ''])} {flipOp(op)} {a * k + b}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{poly([a, 'x'], [b, ''])} {op} {a * (k + 1) + b}",
+     "misconception": "number"
+    },
+    {
+     "text": "{poly([a, 'x'], [b, ''])} {op == '<' || op == '>' ? looseOp(op) : strictOp(op)} {a * k + b}",
+     "misconception": "edge"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "That inequality solves to {ineq('x', flipOp(op), k)}: the arrow would point the other way."
+    },
+    {
+     "id": "number",
+     "explain": "That inequality solves to {ineq('x', op, k + 1)}: the circle would be at {k + 1}."
+    },
+    {
+     "id": "edge",
+     "explain": "Look at the circle: {op == '≤' || op == '≥' ? 'filled, so the sign must include ' + fmt(k) : 'open, so the sign must not include ' + fmt(k)}."
+    }
+   ],
+   "solution": [
+    "The drawing shows {ineq('x', op, k)}.",
+    "Solve {answer}: {b < 0 ? 'add ' + fmt(-b) : 'subtract ' + fmt(b)} and divide by {a} to get {ineq('x', op, k)}."
+   ],
+   "where": [
+    "b != 0"
+   ],
+   "figure": "ineqLine(op, k)"
+  }
+ ]
+}

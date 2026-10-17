@@ -1,0 +1,461 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "m2-3",
+   "name": "Whole number powers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A power is a short way to write a number multiplied by itself: 3⁴ = 3 × 3 × 3 × 3 = 81. In 3⁴, 3 is the base and 4 is the index (or exponent). Say “3 to the power 4”.\nSpecial powers: a² is “a squared”, a³ is “a cubed”, a¹ = a.\nPowers of 10: 10² = 100, 10³ = 1000, 10⁶ = 1 000 000: the index counts the zeros.\nA negative base needs brackets: (−2)³ = (−2) × (−2) × (−2) = −8 and (−2)⁴ = 16. With a negative base, an even index gives a positive answer and an odd index gives a negative answer.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 2,
+   "n": 5,
+   "c": -3,
+   "m": 3
+  },
+  "problem": "Work out {pw(b, n)} and {pw(c, m)}.",
+  "steps": [
+   "{pw(b, n)} = {powExpand(b, n)} = {b ^ n}.",
+   "{pw(c, m)} = {powExpand(c, m)}.",
+   "The base is negative and the index {m} is odd, so the answer is negative: {pw(c, m)} = {c ^ m}."
+  ],
+  "answer": "{pw(b, n)} = {b ^ n} and {pw(c, m)} = {c ^ m}.",
+  "checks": [
+   "b ^ n == 32",
+   "c ^ m == -27"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "A power is a number multiplied by itself several times. The index says how many times the base appears.",
+    "vars": {
+     "b": 3,
+     "n": 4
+    },
+    "example": [
+     "{pw(b, n)} = {powExpand(b, n)} = {b ^ n}."
+    ],
+    "checks": [
+     "b ^ n == 81"
+    ],
+    "check": {
+     "ref": "m2-3-value"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "In a power, the big number is the base and the small raised number is the index (or exponent).",
+    "vars": {
+     "b": 5,
+     "n": 3
+    },
+    "example": [
+     "In {pw(b, n)}, the base is {b} and the index is {n}.",
+     "Say “{b} to the power {n}”."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-3-c2",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "powers"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "n": {
+       "int": [
+        2,
+        5
+       ]
+      }
+     },
+     "prompt": "In {pw(b, n)}, which number is the index?",
+     "where": [
+      "b != n"
+     ],
+     "correct": "{n}",
+     "distractors": [
+      {
+       "text": "{b}",
+       "misconception": "base"
+      },
+      {
+       "text": "{b * n}",
+       "misconception": "product"
+      },
+      {
+       "text": "{b ^ n}",
+       "misconception": "value"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "base",
+       "explain": "{b} is the base: the number that is multiplied. The index is the small raised number."
+      },
+      {
+       "id": "product",
+       "explain": "The index is not worked out: it is the small raised number, {n}."
+      },
+      {
+       "id": "value",
+       "explain": "{b ^ n} is the value of the power. The index is the small raised number, {n}."
+      }
+     ],
+     "solution": [
+      "In {pw(b, n)} the small raised number is {n}.",
+      "So the index is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "A product of equal numbers can be written as a power: count how many times the number appears.",
+    "vars": {
+     "b": 5,
+     "n": 3,
+     "c": 7,
+     "m": 2
+    },
+    "example": [
+     "{powExpand(b, n)} = {pw(b, n)}",
+     "{powExpand(c, m)} = {pw(c, m)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-3-write"
+    }
+   },
+   {
+    "id": "c3-4",
+    "status": "draft",
+    "idea": "With a negative base, an even index gives a positive answer and an odd index gives a negative answer.",
+    "vars": {
+     "a": -2,
+     "n": 3,
+     "m": 4
+    },
+    "example": [
+     "{pw(a, n)} = {powExpand(a, n)} = {a ^ n}",
+     "{pw(a, m)} = {powExpand(a, m)} = {a ^ m}"
+    ],
+    "checks": [
+     "a ^ n == -8",
+     "a ^ m == 16"
+    ],
+    "check": {
+     "id": "m2-3-c4",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "powers"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -9,
+        -2
+       ]
+      },
+      "n": {
+       "int": [
+        2,
+        7
+       ]
+      }
+     },
+     "prompt": "Is {pw(a, n)} positive or negative?",
+     "correct": "{signWord(a ^ n)}",
+     "distractors": [
+      {
+       "text": "{signWord(-(a ^ n))}",
+       "misconception": "sign"
+      }
+     ],
+     "show": 2,
+     "misconceptions": [
+      {
+       "id": "sign",
+       "explain": "The base is negative and the index {n} is {n % 2 == 0 ? 'even' : 'odd'}, so the answer is {signWord(a ^ n)}."
+      }
+     ],
+     "solution": [
+      "The base {a} is negative and the index {n} is {n % 2 == 0 ? 'even' : 'odd'}.",
+      "So {pw(a, n)} is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-3-value",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "powers"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "Work out {pw(b, n)}.",
+   "answer": "b ^ n",
+   "misconceptions": [
+    {
+     "id": "times-index",
+     "wrong": "b * n",
+     "explain": "{pw(b, n)} is not {b} × {n}: it is {powExpand(b, n)}."
+    },
+    {
+     "id": "one-less",
+     "wrong": "b ^ (n - 1)",
+     "explain": "Count the factors: {b} must appear {n} times."
+    }
+   ],
+   "solution": [
+    "{pw(b, n)} = {powExpand(b, n)} = {answer}"
+   ],
+   "where": [
+    "b ^ n <= 2000"
+   ]
+  },
+  {
+   "id": "m2-3-write",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "powers"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "Write {powExpand(b, n)} as a power.",
+   "correct": "{pw(b, n)}",
+   "distractors": [
+    {
+     "text": "{pw(n, b)}",
+     "misconception": "swapped"
+    },
+    {
+     "text": "{b} × {n}",
+     "misconception": "times"
+    },
+    {
+     "text": "{pw(b, n + 1)}",
+     "misconception": "count"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swapped",
+     "explain": "The base is the number that is multiplied ({b}); the index counts how many times ({n})."
+    },
+    {
+     "id": "times",
+     "explain": "{b} × {n} is a multiplication, not a power. {b} appears {n} times: {pw(b, n)}."
+    },
+    {
+     "id": "count",
+     "explain": "Count again: {b} appears {n} times, not {n + 1}."
+    }
+   ],
+   "solution": [
+    "{b} appears {n} times, so the base is {b} and the index is {n}.",
+    "{powExpand(b, n)} = {answer}"
+   ],
+   "where": [
+    "b != n"
+   ]
+  },
+  {
+   "id": "m2-3-neg",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "powers"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      -2
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "Work out {pw(a, n)}.",
+   "answer": "a ^ n",
+   "misconceptions": [
+    {
+     "id": "no-sign",
+     "wrong": "powNoSign(a, n)",
+     "explain": "The base is negative and the index {n} is odd, so the answer is negative.",
+     "when": "n % 2 == 1"
+    },
+    {
+     "id": "always-negative",
+     "wrong": "-powNoSign(a, n)",
+     "explain": "The base is negative but the index {n} is even, so the answer is positive.",
+     "when": "n % 2 == 0"
+    },
+    {
+     "id": "times-index",
+     "wrong": "a * n",
+     "explain": "{pw(a, n)} is not {br(a)} × {n}: it is {powExpand(a, n)}."
+    }
+   ],
+   "solution": [
+    "{pw(a, n)} = {powExpand(a, n)}.",
+    "The index {n} is {n % 2 == 0 ? 'even, so the answer is positive' : 'odd, so the answer is negative'}: {pw(a, n)} = {answer}."
+   ],
+   "signed": true,
+   "where": [
+    "abs(a ^ n) <= 1300"
+   ]
+  },
+  {
+   "id": "m2-3-ten",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "powers"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "{fmt(10 ^ n)} = 10ⁿ. What is n?",
+   "answer": "n",
+   "misconceptions": [
+    {
+     "id": "digits",
+     "wrong": "n + 1",
+     "explain": "Count the zeros, not all the digits: {fmt(10 ^ n)} has {n} zeros."
+    }
+   ],
+   "solution": [
+    "{fmt(10 ^ n)} is {n} tens multiplied together: {powExpand(10, n)}.",
+    "So {fmt(10 ^ n)} = {pw(10, n)}, and n = {answer}."
+   ]
+  },
+  {
+   "id": "m2-3-mix",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "powers"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      -2
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      3
+     ]
+    }
+   },
+   "prompt": "Work out {pw(a, m)} + {pw(c, k)}.",
+   "answer": "a ^ m + c ^ k",
+   "misconceptions": [
+    {
+     "id": "no-sign",
+     "wrong": "a ^ m + powNoSign(c, k)",
+     "explain": "{pw(c, k)} has a negative base and an odd index, so it is negative: {c ^ k}.",
+     "when": "k % 2 == 1"
+    },
+    {
+     "id": "times-index",
+     "wrong": "a * m + c * k",
+     "explain": "A power is not base × index: {pw(a, m)} = {powExpand(a, m)}."
+    }
+   ],
+   "solution": [
+    "{pw(a, m)} = {powExpand(a, m)} = {a ^ m}.",
+    "{pw(c, k)} = {powExpand(c, k)} = {c ^ k}.",
+    "{a ^ m} + {br(c ^ k)} = {answer}"
+   ],
+   "signed": true,
+   "where": [
+    "a ^ m + c ^ k != 0"
+   ]
+  }
+ ]
+}

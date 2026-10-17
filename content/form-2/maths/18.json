@@ -1,0 +1,575 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "m2-18",
+   "name": "Simplifying expressions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To simplify an expression, collect the like terms:\n1. Find the like terms (underline each kind in a different way).\n2. Add or subtract their coefficients, keeping the sign in front of each term.\n3. Write the result with the letters in alphabetical order and the constant last.\nExample: 3x + 2y + 5x − y = 3x + 5x + 2y − y = 8x + y.\nWith numbers: 5x − 3 − 2x + 7 = 3x + 4. Terms that cancel disappear: 4y + 3 − 4y = 3.\nMultiplying terms: multiply the numbers, then the letters: 3 × 2x = 6x, 2a × 3b = 6ab, a × a = a².",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 5,
+   "b": 3,
+   "c": -2,
+   "d": -4,
+   "e": 7
+  },
+  "problem": "Simplify {mono(a, 'x')} + {mono(b, 'y')} {c < 0 ? '−' : '+'} {mono(abs(c), 'x')} + {e} {d < 0 ? '−' : '+'} {mono(abs(d), 'y')}.",
+  "steps": [
+   "The x terms: {mono(a, 'x')} and {mono(c, 'x')}. The y terms: {mono(b, 'y')} and {mono(d, 'y')}. The constant: {e}.",
+   "x: {a} + {br(c)} = {a + c}. y: {b} + {br(d)} = {b + d}.",
+   "Result: {poly([a + c, 'x'], [b + d, 'y'], [e, ''])}."
+  ],
+  "answer": "{poly([a + c, 'x'], [b + d, 'y'], [e, ''])}",
+  "checks": [
+   "b + d == -1"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "Collect the like terms: group them, then add their coefficients.",
+    "vars": {
+     "a": 3,
+     "b": 2,
+     "c": 5,
+     "d": -1
+    },
+    "example": [
+     "{poly([a, 'x'], [b, 'y'], [c, 'x'], [d, 'y'])} = {poly([a + c, 'x'], [b + d, 'y'])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-18-collect"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "Constants are like terms too. Take the sign in front of each term with it.",
+    "vars": {
+     "a": 5,
+     "b": -3,
+     "c": -2,
+     "d": 7
+    },
+    "example": [
+     "{poly([a, 'x'], [b, ''], [c, 'x'], [d, ''])} = {poly([a + c, 'x'], [b + d, ''])}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-18-const"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "To multiply terms, multiply the numbers, then put the letters together. A letter times itself is its square.",
+    "vars": {
+     "a": 3,
+     "b": 2
+    },
+    "example": [
+     "{a} × {mono(b, 'x')} = {mono(a * b, 'x')}",
+     "{mono(a, 'a')} × {mono(b, 'b')} = {mono(a * b, 'ab')}",
+     "a × a = a²"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-18-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "simplify"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "v": {
+       "pick": [
+        "a",
+        "m",
+        "p"
+       ]
+      },
+      "w": {
+       "pick": [
+        "b",
+        "n",
+        "q"
+       ]
+      }
+     },
+     "prompt": "Simplify {mono(a, v)} × {mono(b, w)}.",
+     "correct": "{mono(a * b, v + w)}",
+     "distractors": [
+      {
+       "text": "{mono(a + b, v + w)}",
+       "misconception": "added"
+      },
+      {
+       "text": "{a * b}",
+       "misconception": "drop"
+      },
+      {
+       "text": "{mono(a, v)}{mono(b, w)}",
+       "misconception": "together"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "added",
+       "explain": "Multiply the numbers, do not add them: {a} × {b} = {a * b}."
+      },
+      {
+       "id": "drop",
+       "explain": "Keep the letters: {v}{w}."
+      },
+      {
+       "id": "together",
+       "explain": "Multiply the numbers: {a} × {b} = {a * b}, and write the number first."
+      }
+     ],
+     "solution": [
+      "Multiply the numbers: {a} × {b} = {a * b}.",
+      "Put the letters together: {v}{w}. The answer is {answer}."
+     ],
+     "where": [
+      "a * b != a + b"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-18-collect",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Simplify {poly([a, 'x'], [b, 'y'], [c, 'x'], [d, 'y'])}.",
+   "correct": "{poly([a + c, 'x'], [b + d, 'y'])}",
+   "distractors": [
+    {
+     "text": "{mono(a + b + c + d, 'xy')}",
+     "misconception": "all"
+    },
+    {
+     "text": "{poly([a + c, 'x'], [b - d, 'y'])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{poly([a + b, 'x'], [c + d, 'y'])}",
+     "misconception": "order"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "all",
+     "explain": "x and y terms are unlike: they cannot be joined into one term."
+    },
+    {
+     "id": "sign",
+     "explain": "Keep the sign in front of each y term: {b} + {br(d)} = {b + d}."
+    },
+    {
+     "id": "order",
+     "explain": "Add only like terms: the x terms together and the y terms together."
+    }
+   ],
+   "solution": [
+    "x terms: {a} + {br(c)} = {a + c}.",
+    "y terms: {b} + {br(d)} = {b + d}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "c != 0 && d != 0",
+    "a + c != 0 && b + d != 0",
+    "d < 0 || c < 0",
+    "a + b != a + c",
+    "a + b + c + d != 0"
+   ]
+  },
+  {
+   "id": "m2-18-const",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "a",
+      "n"
+     ]
+    }
+   },
+   "prompt": "Simplify {poly([a, v], [b, ''], [c, v], [d, ''])}.",
+   "correct": "{poly([a + c, v], [b + d, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([a + c, v], [b - d, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{mono(a + b + c + d, v)}",
+     "misconception": "all"
+    },
+    {
+     "text": "{poly([a - c, v], [b + d, ''])}",
+     "misconception": "sign2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Keep the sign in front of each number: {b} + {br(d)} = {b + d}."
+    },
+    {
+     "id": "all",
+     "explain": "The numbers have no letter, so they are not like the {v} terms."
+    },
+    {
+     "id": "sign2",
+     "explain": "Keep the sign in front of each {v} term: {a} + {br(c)} = {a + c}."
+    }
+   ],
+   "solution": [
+    "{v} terms: {a} + {br(c)} = {a + c}.",
+    "Numbers: {b} + {br(d)} = {b + d}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0 && d != 0",
+    "a + c != 0 && b + d != 0",
+    "c != 0",
+    "b - d != b + d",
+    "a - c != a + c"
+   ]
+  },
+  {
+   "id": "m2-18-three",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "f": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Simplify {poly([a, 'a'], [b, 'b'], [c, ''], [d, 'a'], [e, 'b'], [f, ''])}.",
+   "correct": "{poly([a + d, 'a'], [b + e, 'b'], [c + f, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([a + d, 'a'], [b + e, 'b'], [c - f, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{poly([a + d, 'a'], [b - e, 'b'], [c + f, ''])}",
+     "misconception": "sign2"
+    },
+    {
+     "text": "{poly([a + d + b + e, 'ab'], [c + f, ''])}",
+     "misconception": "join"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Keep the sign in front of each number: {c} + {br(f)} = {c + f}."
+    },
+    {
+     "id": "sign2",
+     "explain": "Keep the sign in front of each b term: {b} + {br(e)} = {b + e}."
+    },
+    {
+     "id": "join",
+     "explain": "a terms and b terms are unlike: they cannot be joined."
+    }
+   ],
+   "solution": [
+    "a terms: {a} + {br(d)} = {a + d}. b terms: {b} + {br(e)} = {b + e}. Numbers: {c} + {br(f)} = {c + f}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0 && d != 0 && e != 0 && f != 0",
+    "a + d != 0 && b + e != 0 && c + f != 0",
+    "f != 0 && e != 0",
+    "a + d + b + e != 0"
+   ]
+  },
+  {
+   "id": "m2-18-mul",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "a",
+      "t"
+     ]
+    }
+   },
+   "prompt": "Simplify {mono(a, v)} × {mono(b, v)}.",
+   "correct": "{mono(a * b, v + '²')}",
+   "distractors": [
+    {
+     "text": "{mono(a * b, v)}",
+     "misconception": "power"
+    },
+    {
+     "text": "{mono(a + b, v + '²')}",
+     "misconception": "added"
+    },
+    {
+     "text": "{mono(a + b, v)}",
+     "misconception": "both"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "power",
+     "explain": "{v} × {v} is {v}², not {v}."
+    },
+    {
+     "id": "added",
+     "explain": "Multiply the numbers: {a} × {b} = {a * b}."
+    },
+    {
+     "id": "both",
+     "explain": "This is a product, not a sum."
+    }
+   ],
+   "solution": [
+    "Multiply the numbers: {a} × {b} = {a * b}.",
+    "{v} × {v} = {v}². The answer is {answer}."
+   ],
+   "where": [
+    "a * b != a + b"
+   ]
+  },
+  {
+   "id": "m2-18-perimeter",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "simplify"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "d": {
+     "int": [
+      -6,
+      -1
+     ]
+    },
+    "e": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "f": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "The sides of a triangle are ({poly([a, 'x'], [b, ''])}) cm, ({poly([c, 'x'], [d, ''])}) cm and ({poly([e, 'x'], [f, ''])}) cm. Which expression gives its perimeter?",
+   "correct": "({poly([a + c + e, 'x'], [b + d + f, ''])}) cm",
+   "distractors": [
+    {
+     "text": "({poly([a + c + e, 'x'], [b - d + f, ''])}) cm",
+     "misconception": "sign"
+    },
+    {
+     "text": "{mono(a + b + c + d + e + f, 'x')} cm",
+     "misconception": "all"
+    },
+    {
+     "text": "({poly([a * c * e, 'x'], [b + d + f, ''])}) cm",
+     "misconception": "times"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Keep the sign of each number: {b} + {br(d)} + {br(f)} = {b + d + f}."
+    },
+    {
+     "id": "all",
+     "explain": "The numbers are not like the x terms: keep them apart."
+    },
+    {
+     "id": "times",
+     "explain": "The perimeter adds the sides: add the coefficients, {a} + {c} + {e}."
+    }
+   ],
+   "solution": [
+    "Perimeter = the three sides added.",
+    "x terms: {a} + {c} + {e} = {a + c + e}. Numbers: {b} + {br(d)} + {br(f)} = {b + d + f}.",
+    "Perimeter = {answer}."
+   ],
+   "where": [
+    "b + d + f != 0",
+    "a * c * e != a + c + e",
+    "b - d + f != b + d + f"
+   ]
+  }
+ ]
+}

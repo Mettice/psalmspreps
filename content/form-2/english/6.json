@@ -1,0 +1,506 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "e2-6",
+   "name": "Dental healthcare words"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Parts of the mouth: teeth (one tooth), gums (the pink flesh around the teeth), the tongue.\nKinds of teeth: incisors (front teeth for cutting), canines (pointed teeth for tearing), molars (back teeth for chewing and grinding).\nCleaning: a toothbrush, toothpaste, dental floss (thread to clean between the teeth), mouthwash.\nProblems: tooth decay or a cavity (a hole in a tooth), toothache (pain), bleeding gums, bad breath.\nTreatment: a check-up (a visit to look at the teeth), a filling (the dentist fills the hole), an extraction (the dentist takes the tooth out), braces (wires that straighten teeth).\nPlural: one tooth, two teeth.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Ebai"
+  },
+  "problem": "{n} has a hole in a back tooth. Use the dental words to say what it is and what the dentist may do.",
+  "steps": [
+   "A back tooth is a molar. A hole in a tooth is a cavity, caused by tooth decay.",
+   "The dentist may clean the hole and put in a filling.",
+   "If the tooth is too damaged, the dentist does an extraction: he takes it out."
+  ],
+  "answer": "{n} has a cavity in a molar; the dentist may give a filling or do an extraction.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Teeth have different jobs: incisors cut, canines tear, molars grind.",
+    "vars": {},
+    "example": [
+     "We bite into a mango with our incisors.",
+     "We chew meat with our molars."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-6-teeth"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "We clean our teeth with a toothbrush and toothpaste, and between them with dental floss.",
+    "vars": {},
+    "example": [
+     "Brush every morning and every night.",
+     "Floss removes food between the teeth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-6-clean"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "A cavity is a hole made by tooth decay. The dentist may put in a filling or do an extraction.",
+    "vars": {},
+    "example": [
+     "A filling closes the hole.",
+     "An extraction takes the tooth out."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-6-treat"
+    }
+   },
+   {
+    "id": "c6-4",
+    "status": "draft",
+    "idea": "Tooth is singular; teeth is plural.",
+    "vars": {},
+    "example": [
+     "One tooth hurts.",
+     "All my teeth are clean."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-6-c4",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "My front ___ is loose.",
+         "a": "tooth",
+         "w": [
+          "teeth",
+          "tooths"
+         ],
+         "e": [
+          "One front tooth: singular.",
+          "There is no word tooths."
+         ]
+        },
+        {
+         "s": "Brush your ___ before you sleep.",
+         "a": "teeth",
+         "w": [
+          "tooth",
+          "tooths"
+         ],
+         "e": [
+          "You brush all of them: teeth.",
+          "The plural of tooth is teeth."
+         ]
+        },
+        {
+         "s": "A baby has no ___ at birth.",
+         "a": "teeth",
+         "w": [
+          "tooth",
+          "tooths"
+         ],
+         "e": [
+          "No teeth at all: plural.",
+          "The plural of tooth is teeth."
+         ]
+        },
+        {
+         "s": "The dentist took out one bad ___.",
+         "a": "tooth",
+         "w": [
+          "teeth",
+          "tooths"
+         ],
+         "e": [
+          "One bad tooth: singular.",
+          "There is no word tooths."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-6-teeth",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "incisors",
+     "right": "front teeth for cutting"
+    },
+    {
+     "left": "canines",
+     "right": "pointed teeth for tearing"
+    },
+    {
+     "left": "molars",
+     "right": "back teeth for chewing and grinding"
+    },
+    {
+     "left": "gums",
+     "right": "the pink flesh around the teeth"
+    },
+    {
+     "left": "braces",
+     "right": "wires that straighten teeth"
+    },
+    {
+     "left": "check-up",
+     "right": "a visit so the dentist can look at your teeth"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-6-clean",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Put a little ___ on your toothbrush.",
+       "a": "toothpaste",
+       "w": [
+        "floss",
+        "filling"
+       ],
+       "e": [
+        "Floss is a thread.",
+        "A filling is put in by the dentist."
+       ]
+      },
+      {
+       "s": "Use dental ___ to clean between your teeth.",
+       "a": "floss",
+       "w": [
+        "paste",
+        "braces"
+       ],
+       "e": [
+        "Paste goes on the brush.",
+        "Braces straighten teeth."
+       ]
+      },
+      {
+       "s": "Rinse your mouth with ___ to fight bad breath.",
+       "a": "mouthwash",
+       "w": [
+        "filling",
+        "gums"
+       ],
+       "e": [
+        "A filling closes a hole.",
+        "Gums are part of the mouth."
+       ]
+      },
+      {
+       "s": "Change your ___ when its bristles are worn.",
+       "a": "toothbrush",
+       "w": [
+        "toothache",
+        "tongue"
+       ],
+       "e": [
+        "A toothache is a pain.",
+        "The tongue is part of the mouth."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-6-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Brush your teeth every morning and night.",
+       "b": "Brush your teeth every morning and night."
+      },
+      {
+       "a": "The dentist put a filling in my molar.",
+       "b": "The dentist put a filling in my molar."
+      },
+      {
+       "a": "Sugar causes tooth decay.",
+       "b": "Sugar causes tooth decay."
+      },
+      {
+       "a": "Floss cleans between your teeth.",
+       "b": "Floss cleans between your teeth."
+      },
+      {
+       "a": "Visit the dentist twice a year.",
+       "b": "Visit the dentist twice a year."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-6-treat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The dentist closes a hole in a tooth. What is this called?",
+       "r": "a filling",
+       "w": [
+        "an extraction",
+        "braces",
+        "a check-up"
+       ],
+       "e": [
+        "An extraction takes the tooth out.",
+        "Braces straighten teeth.",
+        "A check-up is only looking."
+       ],
+       "y": "Closing a hole is a filling."
+      },
+      {
+       "q": "The dentist takes a bad tooth out. What is this called?",
+       "r": "an extraction",
+       "w": [
+        "a filling",
+        "floss",
+        "mouthwash"
+       ],
+       "e": [
+        "A filling closes a hole.",
+        "Floss cleans between teeth.",
+        "Mouthwash rinses the mouth."
+       ],
+       "y": "Taking a tooth out is an extraction."
+      },
+      {
+       "q": "What is a cavity?",
+       "r": "a hole in a tooth",
+       "w": [
+        "a kind of toothpaste",
+        "a front tooth",
+        "a pain in the ear"
+       ],
+       "e": [
+        "Toothpaste cleans teeth.",
+        "A front tooth is an incisor.",
+        "A cavity is in a tooth."
+       ],
+       "y": "A cavity is a hole made by tooth decay."
+      },
+      {
+       "q": "Your gums bleed when you brush. Who should you see?",
+       "r": "a dentist",
+       "w": [
+        "an optician",
+        "a midwife",
+        "a mechanic"
+       ],
+       "e": [
+        "An optician tests eyes.",
+        "A midwife helps women give birth.",
+        "A mechanic repairs cars."
+       ],
+       "y": "A dentist cares for teeth and gums."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "One sentence uses a dental word wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Molars grind our food.",
+      "truth": "true"
+     },
+     {
+      "text": "The dentist gave me a filling.",
+      "truth": "true"
+     },
+     {
+      "text": "I clean between my teeth with floss.",
+      "truth": "true"
+     },
+     {
+      "text": "Sugar causes tooth decay.",
+      "truth": "true"
+     },
+     {
+      "text": "My little sister has two new teeth.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "I cut my food with my molars at the front.",
+      "truth": "false",
+      "explain": "Molars are at the back; incisors cut at the front."
+     },
+     {
+      "text": "The dentist put an extraction in my tooth.",
+      "truth": "false",
+      "explain": "An extraction takes a tooth out; a filling goes in."
+     },
+     {
+      "text": "Two of my tooth are loose.",
+      "truth": "false",
+      "explain": "Two teeth: the plural of tooth is teeth."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

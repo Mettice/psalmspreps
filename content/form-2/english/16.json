@@ -1,0 +1,406 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  13,
+  14
+ ],
+ "skills": [
+  {
+   "id": "e2-16",
+   "name": "Writing: words for bright weather"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Descriptive words (adjectives) help the reader see, hear and feel the weather.\nWords for bright weather: sunny, bright, clear, cloudless, blue, warm, hot, scorching, dry, dazzling, golden, pleasant, calm, gentle (breeze), cheerful, sparkling.\nUse your senses: what you see (a clear blue sky), what you feel (the warm sun on my face), what you hear (birds singing).\nPut adjectives before a noun (a cloudless sky) or after be (The sky was cloudless).\nDo not repeat the same word: use a different one (hot, warm, scorching).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "the school field"
+  },
+  "problem": "Write two sentences about a bright morning on {t}, using at least four describing words.",
+  "steps": [
+   "Choose words: bright, clear, warm, golden.",
+   "Sentence about what you see: The bright sun rose in a clear blue sky over {t}.",
+   "Sentence about what you feel: The warm, golden light made everyone cheerful."
+  ],
+  "answer": "The bright sun rose in a clear blue sky over {t}. The warm, golden light made everyone cheerful.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "Adjectives describe nouns. Bright-weather adjectives tell us about the sun, the sky and the air.",
+    "vars": {},
+    "example": [
+     "a clear, cloudless sky",
+     "a warm, gentle breeze"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-16-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "sunny",
+         "w": [
+          "stormy",
+          "foggy",
+          "rainy"
+         ],
+         "e": [
+          "Stormy weather has storms.",
+          "Foggy weather is grey.",
+          "Rainy weather is wet."
+         ],
+         "y": "Sunny weather is bright."
+        },
+        {
+         "r": "cloudless",
+         "w": [
+          "overcast",
+          "misty",
+          "gloomy"
+         ],
+         "e": [
+          "Overcast is grey.",
+          "Misty means you cannot see far.",
+          "Gloomy is dark."
+         ],
+         "y": "A cloudless sky is bright and clear."
+        },
+        {
+         "r": "dazzling",
+         "w": [
+          "dull",
+          "chilly",
+          "wet"
+         ],
+         "e": [
+          "Dull is not bright.",
+          "Chilly is cold.",
+          "Wet is rainy."
+         ],
+         "y": "Dazzling light is very bright."
+        },
+        {
+         "r": "clear",
+         "w": [
+          "cloudy",
+          "dark",
+          "drizzly"
+         ],
+         "e": [
+          "Cloudy hides the sun.",
+          "Dark is not bright.",
+          "Drizzly is rainy."
+         ],
+         "y": "A clear sky has no clouds."
+        }
+       ]
+      }
+     },
+     "prompt": "Which word describes bright weather?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Use your senses: what you see, what you feel, what you hear.",
+    "vars": {},
+    "example": [
+     "See: the sparkling river. Feel: the warm sun on my face.",
+     "Hear: the birds singing in the mango tree."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-16-sense"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "Do not repeat a word: choose another word with a close meaning.",
+    "vars": {},
+    "example": [
+     "hot → warm, scorching",
+     "bright → sunny, dazzling"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-16-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "bright",
+         "r": "dazzling",
+         "w": [
+          "dull",
+          "foggy",
+          "wet"
+         ],
+         "e": [
+          "Dull is the opposite of bright.",
+          "Foggy is grey, not bright.",
+          "Wet is about rain."
+         ],
+         "y": "Dazzling means very bright."
+        },
+        {
+         "q": "hot",
+         "r": "scorching",
+         "w": [
+          "chilly",
+          "cool",
+          "misty"
+         ],
+         "e": [
+          "Chilly is a little cold.",
+          "Cool is the opposite of hot.",
+          "Misty is about fog."
+         ],
+         "y": "Scorching means very hot."
+        },
+        {
+         "q": "calm",
+         "r": "still",
+         "w": [
+          "stormy",
+          "windy",
+          "noisy"
+         ],
+         "e": [
+          "Stormy is the opposite of calm.",
+          "Windy is not calm.",
+          "Noisy is about sound, not calm."
+         ],
+         "y": "Still air is calm."
+        },
+        {
+         "q": "pleasant",
+         "r": "lovely",
+         "w": [
+          "awful",
+          "gloomy",
+          "harsh"
+         ],
+         "e": [
+          "Awful is the opposite.",
+          "Gloomy is dark and sad.",
+          "Harsh is unpleasant."
+         ],
+         "y": "Lovely weather is pleasant."
+        }
+       ]
+      }
+     },
+     "prompt": "Which word has a close meaning to “{X.q}”?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-16-sense",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which sentence tells what you FEEL on a bright day?",
+       "r": "The warm sun touched my face.",
+       "w": [
+        "The sky was blue.",
+        "Birds sang in the trees.",
+        "The river sparkled."
+       ],
+       "e": [
+        "That is what you see.",
+        "That is what you hear.",
+        "That is what you see."
+       ],
+       "y": "Warmth on your face is a feeling."
+      },
+      {
+       "q": "Which sentence tells what you HEAR on a bright day?",
+       "r": "Birds were singing in the mango tree.",
+       "w": [
+        "The sky was cloudless.",
+        "The air felt dry.",
+        "The sun was dazzling."
+       ],
+       "e": [
+        "That is what you see.",
+        "That is what you feel.",
+        "That is what you see."
+       ],
+       "y": "Singing is something you hear."
+      },
+      {
+       "q": "Which sentence tells what you SEE on a bright day?",
+       "r": "Golden light covered the hills.",
+       "w": [
+        "The breeze felt cool.",
+        "Children laughed outside.",
+        "The ground was warm under my feet."
+       ],
+       "e": [
+        "That is what you feel.",
+        "That is what you hear.",
+        "That is what you feel."
+       ],
+       "y": "Light on the hills is something you see."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "In your exercise book, write down twelve different words that describe bright weather. Then use at least six of them in four sentences about a bright day in your town or village.",
+  "model": [
+   "Words: sunny, bright, clear, cloudless, blue, warm, hot, dry, dazzling, golden, pleasant, calm.",
+   "It was a bright, sunny morning in Kumba, and the sky was clear and cloudless.",
+   "The warm sun dried the clothes on the line very quickly.",
+   "At noon the light was so dazzling that I had to close my eyes.",
+   "In the evening the air was calm and pleasant, and the sky turned golden."
+  ],
+  "checklist": [
+   "I wrote twelve different words.",
+   "Every word describes bright weather (no rainy or cloudy words).",
+   "I used at least six of the words in my sentences.",
+   "I wrote about what I see, feel or hear.",
+   "I did not repeat the same describing word.",
+   "My sentences start with a capital letter and end with a full stop.",
+   "I checked my spelling (sunny with two n's)."
+  ]
+ }
+}

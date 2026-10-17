@@ -1,0 +1,674 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-1",
+   "name": "Talking about means of transport; reading about a journey"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ngwa travelled from Buea to Bamenda last Saturday. He bought a ticket at the agency office in the motor park. The bus left at seven o'clock. The driver checked every passenger's seat belt and the conductor loaded the luggage. The bus stopped at a checkpoint and at a roadside market. They arrived in the afternoon, and Ngwa's uncle was waiting for him.\nTalking about transport:\n• How do you travel to Bamenda? — I travel by bus. (by bus, by taxi, by train, by plane; but on foot)\n• How long does the journey take? — About six hours.\n• How much is the fare? — Five thousand francs.\nPublic transport is transport everyone can pay to use: buses, taxis, trains, ferries, planes.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Bih",
+   "t": "taxi",
+   "p": "Limbe"
+  },
+  "problem": "{n} goes to {p} every Saturday by {t}. Write two questions about her journey and her answers.",
+  "steps": [
+   "To ask about the means of transport, use How: “How do you go to {p}?” — “I go by {t}.”",
+   "To ask about time, use How long: “How long does the journey take?” — “About half an hour.”",
+   "Remember: by + the means of transport, with no a or the (by {t}); but on foot."
+  ],
+  "answer": "“How do you go to {p}?” — “I go by {t}.” “How long does the journey take?” — “About half an hour.”",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "Read the text about Ngwa's journey. It answers: who, where, how, when and what happened.",
+    "vars": {},
+    "example": [
+     "Ngwa travelled from Buea to Bamenda last Saturday. He went to the motor park early in the morning and bought a ticket at the agency office.",
+     "The bus left at seven o'clock. The driver checked that every passenger wore a seat belt, and the conductor put the luggage on the roof.",
+     "The road was good, but the bus stopped at a police checkpoint and for a short break at a roadside market, where Ngwa bought roasted plantains.",
+     "They arrived in Bamenda in the afternoon. Ngwa was tired but happy: his uncle was waiting for him at the park."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-1-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Where did Ngwa buy his ticket?",
+         "r": "at the agency office",
+         "w": [
+          "on the bus",
+          "at the market",
+          "from his uncle"
+         ],
+         "e": [
+          "He bought it before the journey, at the agency office.",
+          "He bought roasted plantains at the market, not his ticket.",
+          "His uncle met him in Bamenda."
+         ],
+         "y": "The text says he bought a ticket at the agency office."
+        },
+        {
+         "q": "Who put the luggage on the roof?",
+         "r": "the conductor",
+         "w": [
+          "the driver",
+          "Ngwa",
+          "his uncle"
+         ],
+         "e": [
+          "The driver checked the seat belts.",
+          "Ngwa was a passenger.",
+          "His uncle waited in Bamenda."
+         ],
+         "y": "The text says the conductor put the luggage on the roof."
+        },
+        {
+         "q": "Why did the bus stop on the way?",
+         "r": "at a checkpoint and for a short break",
+         "w": [
+          "because it broke down",
+          "because it rained",
+          "to buy fuel"
+         ],
+         "e": [
+          "The text does not say the bus broke down.",
+          "The text does not talk about rain.",
+          "The text does not talk about fuel."
+         ],
+         "y": "It stopped at a police checkpoint and at a roadside market."
+        },
+        {
+         "q": "How did Ngwa feel when he arrived?",
+         "r": "tired but happy",
+         "w": [
+          "angry",
+          "afraid",
+          "sick"
+         ],
+         "e": [
+          "Nothing in the text shows he was angry.",
+          "Nothing in the text shows he was afraid.",
+          "He was tired, not sick."
+         ],
+         "y": "The text says he was tired but happy."
+        },
+        {
+         "q": "When did they arrive in Bamenda?",
+         "r": "in the afternoon",
+         "w": [
+          "at seven o'clock",
+          "at night",
+          "the next day"
+         ],
+         "e": [
+          "Seven o'clock is when the bus left.",
+          "The text says the afternoon.",
+          "They arrived the same day."
+         ],
+         "y": "The text says they arrived in the afternoon."
+        }
+       ]
+      }
+     },
+     "prompt": "From the text about Ngwa's journey: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "Say “by” + the means of transport, with no a or the: by bus, by taxi, by train, by plane. But: on foot.",
+    "vars": {},
+    "example": [
+     "I travel to Bamenda by bus.",
+     "Mih walks: she goes to school on foot."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-1-c2",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "We travelled to Douala ___ train.",
+         "a": "by",
+         "w": [
+          "on",
+          "with"
+         ],
+         "e": [
+          "We say by train.",
+          "We say by train, not with train."
+         ]
+        },
+        {
+         "s": "My brother goes to school ___ foot.",
+         "a": "on",
+         "w": [
+          "by",
+          "with"
+         ],
+         "e": [
+          "Walking is on foot, not by foot.",
+          "We say on foot."
+         ]
+        },
+        {
+         "s": "The minister flew to Garoua ___ plane.",
+         "a": "by",
+         "w": [
+          "in a",
+          "on"
+         ],
+         "e": [
+          "With by, there is no a: by plane.",
+          "We say by plane."
+         ]
+        },
+        {
+         "s": "Do you go to the market ___ taxi?",
+         "a": "by",
+         "w": [
+          "on",
+          "in"
+         ],
+         "e": [
+          "We say by taxi.",
+          "Without the, we say by taxi."
+         ]
+        },
+        {
+         "s": "Fishermen cross the river ___ canoe.",
+         "a": "by",
+         "w": [
+          "on",
+          "with"
+         ],
+         "e": [
+          "We say by canoe.",
+          "We say by canoe, not with canoe."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "Ask about a journey with How (which transport), How long (time), How much (money) and When (the day or the hour).",
+    "vars": {},
+    "example": [
+     "How much is the fare? — It is five thousand francs.",
+     "When does the bus leave? — At seven o'clock."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-1-ask"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-1-ask",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How do you travel to Kumba?",
+       "r": "I travel by bus.",
+       "w": [
+        "It takes two hours.",
+        "The fare is two thousand francs.",
+        "On Saturday."
+       ],
+       "e": [
+        "That answers How long.",
+        "That answers How much.",
+        "That answers When."
+       ],
+       "y": "How asks about the means of transport."
+      },
+      {
+       "q": "How long does the journey take?",
+       "r": "About three hours.",
+       "w": [
+        "By taxi.",
+        "Three thousand francs.",
+        "Every Monday."
+       ],
+       "e": [
+        "That answers How.",
+        "That answers How much.",
+        "That answers How often."
+       ],
+       "y": "How long asks about time."
+      },
+      {
+       "q": "How much is the fare?",
+       "r": "Two thousand five hundred francs.",
+       "w": [
+        "By train.",
+        "About an hour.",
+        "At six o'clock."
+       ],
+       "e": [
+        "That answers How.",
+        "That answers How long.",
+        "That answers When."
+       ],
+       "y": "How much asks about money."
+      },
+      {
+       "q": "When does the bus leave?",
+       "r": "At half past six.",
+       "w": [
+        "From Mile 17.",
+        "By bus.",
+        "Four hours."
+       ],
+       "e": [
+        "That answers Where.",
+        "That answers How.",
+        "That answers How long."
+       ],
+       "y": "When asks about the time."
+      },
+      {
+       "q": "Where does the bus to Limbe leave from?",
+       "r": "From the motor park in Mile 17.",
+       "w": [
+        "At noon.",
+        "It costs one thousand francs.",
+        "About an hour."
+       ],
+       "e": [
+        "That answers When.",
+        "That answers How much.",
+        "That answers How long."
+       ],
+       "y": "Where asks about the place."
+      }
+     ]
+    }
+   },
+   "prompt": "Someone asks: “{X.q}” What is the best answer?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-1-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word from the text to its meaning.",
+   "pool": [
+    {
+     "left": "passenger",
+     "right": "a person who travels in a vehicle but does not drive it"
+    },
+    {
+     "left": "conductor",
+     "right": "the person on a bus who takes the money and helps passengers"
+    },
+    {
+     "left": "luggage",
+     "right": "the bags and boxes you take on a journey"
+    },
+    {
+     "left": "fare",
+     "right": "the money you pay for a journey"
+    },
+    {
+     "left": "motor park",
+     "right": "the place where buses and taxis wait for passengers"
+    },
+    {
+     "left": "checkpoint",
+     "right": "a place on the road where the police stop vehicles"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-1-detail",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What did the driver check?",
+       "r": "that every passenger wore a seat belt",
+       "w": [
+        "the tickets",
+        "the luggage",
+        "the road"
+       ],
+       "e": [
+        "The text does not say who checked the tickets.",
+        "The conductor took care of the luggage.",
+        "The text says the road was good, not that he checked it."
+       ],
+       "y": "The driver checked every passenger's seat belt."
+      },
+      {
+       "q": "What did Ngwa buy at the roadside market?",
+       "r": "roasted plantains",
+       "w": [
+        "a ticket",
+        "a seat belt",
+        "bread"
+       ],
+       "e": [
+        "He bought his ticket at the agency office.",
+        "Seat belts are in the bus.",
+        "The text says roasted plantains."
+       ],
+       "y": "The text says he bought roasted plantains."
+      },
+      {
+       "q": "Who was waiting for Ngwa in Bamenda?",
+       "r": "his uncle",
+       "w": [
+        "the driver",
+        "his teacher",
+        "the conductor"
+       ],
+       "e": [
+        "The driver drove the bus.",
+        "The text says his uncle.",
+        "The conductor worked on the bus."
+       ],
+       "y": "His uncle was waiting for him at the park."
+      },
+      {
+       "q": "At what time did the bus leave?",
+       "r": "at seven o'clock",
+       "w": [
+        "in the afternoon",
+        "at noon",
+        "at night"
+       ],
+       "e": [
+        "That is when they arrived.",
+        "The text says seven o'clock.",
+        "The text says seven o'clock."
+       ],
+       "y": "The text says the bus left at seven o'clock."
+      }
+     ]
+    }
+   },
+   "prompt": "From the text about Ngwa's journey: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-1-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "How do you travel to Bamenda?",
+       "b": "How do you travel to Bamenda?"
+      },
+      {
+       "a": "I go to school on foot.",
+       "b": "I go to school on foot."
+      },
+      {
+       "a": "The bus leaves the park at seven.",
+       "b": "The bus leaves the park at seven."
+      },
+      {
+       "a": "How much is the fare to Kumba?",
+       "b": "How much is the fare to Kumba?"
+      },
+      {
+       "a": "The conductor loaded our luggage.",
+       "b": "The conductor loaded our luggage."
+      },
+      {
+       "a": "How long does the journey take?",
+       "b": "How long does the journey take?"
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "I travel to Limbe by bus.",
+      "truth": "true"
+     },
+     {
+      "text": "She goes to school on foot.",
+      "truth": "true"
+     },
+     {
+      "text": "How much is the fare?",
+      "truth": "true"
+     },
+     {
+      "text": "We travelled by train last year.",
+      "truth": "true"
+     },
+     {
+      "text": "How long does the journey take?",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "He goes to school by foot.",
+      "truth": "false",
+      "explain": "Walking is on foot, not by foot."
+     },
+     {
+      "text": "We travelled to Douala by the train.",
+      "truth": "false",
+      "explain": "After by there is no the: by train."
+     },
+     {
+      "text": "How long is the fare?",
+      "truth": "false",
+      "explain": "The fare is money: How much is the fare?"
+     },
+     {
+      "text": "I came here with taxi.",
+      "truth": "false",
+      "explain": "We say by taxi."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  18,
+  2
+ ],
+ "skills": [
+  {
+   "id": "m2-19",
+   "name": "Substitution: finding the value of an expression"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To find the value of an expression, replace each letter by its number (substitute), then work it out. Multiply and divide before you add and subtract.\n3x + 2 when x = 4: 3 × 4 + 2 = 12 + 2 = 14.\nPut a negative number in brackets: 2a − b when a = 3 and b = −1: 2 × 3 − (−1) = 6 + 1 = 7.\nTwo letters next to each other are multiplied: 5xy when x = 2 and y = 3 is 5 × 2 × 3 = 30.\nPowers come first: x² when x = −3 is (−3)² = 9. And 3x² means 3 × x², so when x = 2 it is 3 × 4 = 12.\nSimplify first when you can: 3x + 2y − x + y = 2x + 3y.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": -2,
+   "c": 5
+  },
+  "problem": "Find the value of {mono(a, 'x²')} − {c}y when x = {b} and y = {b}.",
+  "steps": [
+   "Substitute, with brackets for the negative number: {a} × {br(b)}² − {c} × {br(b)}.",
+   "Power first: {br(b)}² = {b * b}, so {a} × {b * b} = {a * b * b}.",
+   "{c} × {br(b)} = {c * b}.",
+   "{a * b * b} − {br(c * b)} = {a * b * b} + {-c * b} = {a * b * b - c * b}."
+  ],
+  "answer": "The value is {a * b * b - c * b}.",
+  "checks": [
+   "a * b * b - c * b == 22"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "Substitute: replace the letter by its number, then work out, multiplying before adding.",
+    "vars": {
+     "a": 3,
+     "b": 2,
+     "x": 4
+    },
+    "example": [
+     "{mono(a, 'x')} + {b} when x = {x}: {a} × {x} + {b} = {a * x} + {b} = {a * x + b}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-19-one"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "When a letter stands for a negative number, put the number in brackets.",
+    "vars": {
+     "a": 4,
+     "b": 7,
+     "x": -3
+    },
+    "example": [
+     "{mono(a, 'x')} + {b} when x = {x}: {a} × {br(x)} + {b} = {a * x} + {b} = {a * x + b}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-19-neg"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "Letters written next to each other are multiplied.",
+    "vars": {
+     "k": 5,
+     "x": 2,
+     "y": 3
+    },
+    "example": [
+     "{k}xy when x = {x} and y = {y}: {k} × {x} × {y} = {k * x * y}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-19-c3",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "substitution"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "a": {
+       "int": [
+        -5,
+        6
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        6
+       ]
+      }
+     },
+     "prompt": "Find the value of {k}ab when a = {a} and b = {b}.",
+     "answer": "k * a * b",
+     "misconceptions": [
+      {
+       "id": "added",
+       "wrong": "k + a + b",
+       "explain": "ab means a × b: multiply, do not add."
+      },
+      {
+       "id": "sign",
+       "wrong": "-(k * a * b)",
+       "explain": "Check the sign: {k} × {br(a)} × {b} = {k * a * b}."
+      }
+     ],
+     "solution": [
+      "{k}ab means {k} × a × b.",
+      "{k} × {br(a)} × {br(b)} = {answer}"
+     ],
+     "where": [
+      "a != 0 && a != 1"
+     ],
+     "signed": true
+    }
+   },
+   {
+    "id": "c19-4",
+    "status": "draft",
+    "idea": "Work out powers before multiplying. A negative number squared is positive.",
+    "vars": {
+     "x": -3,
+     "a": 2
+    },
+    "example": [
+     "x² when x = {x}: {br(x)}² = {x * x}.",
+     "{a}x² when x = {x}: {a} × {x * x} = {a * x * x} (not ({a} × {br(x)})²)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-19-c4",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "substitution"
+     ],
+     "vars": {
+      "x": {
+       "int": [
+        -9,
+        -2
+       ]
+      },
+      "two": 2
+     },
+     "prompt": "Find the value of x² when x = {x}.",
+     "answer": "x * x",
+     "misconceptions": [
+      {
+       "id": "negative",
+       "wrong": "-(x * x)",
+       "explain": "A negative number times a negative number is positive: {br(x)} × {br(x)} = {x * x}."
+      },
+      {
+       "id": "double",
+       "wrong": "2 * x",
+       "explain": "x² means x × x, not {two} × x."
+      }
+     ],
+     "solution": [
+      "Substitute with brackets: {br(x)}².",
+      "{br(x)} × {br(x)} = {answer}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-19-one",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "substitution"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "x": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Find the value of {mono(a, 'x')} + {b} when x = {x}.",
+   "answer": "a * x + b",
+   "misconceptions": [
+    {
+     "id": "joined",
+     "wrong": "num(str(a) + str(x)) + b",
+     "explain": "{a}x means {a} × x, so {a} × {x} = {a * x}, not {a}{x}."
+    },
+    {
+     "id": "added-first",
+     "wrong": "a * (x + b)",
+     "explain": "Multiply first, then add: {a} × {x} = {a * x}, then + {b}."
+    }
+   ],
+   "solution": [
+    "Substitute: {a} × {x} + {b}.",
+    "{a * x} + {b} = {answer}"
+   ]
+  },
+  {
+   "id": "m2-19-neg",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "substitution"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -15,
+      15
+     ]
+    },
+    "x": {
+     "int": [
+      -9,
+      -1
+     ]
+    }
+   },
+   "prompt": "Find the value of {poly([a, 'x'], [b, ''])} when x = {x}.",
+   "answer": "a * x + b",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "a * -x + b",
+     "explain": "x is negative: {a} × {br(x)} = {a * x}."
+    }
+   ],
+   "solution": [
+    "Substitute, with brackets: {a} × {br(x)} {b < 0 ? '−' : '+'} {abs(b)}.",
+    "{a * x} {b < 0 ? '−' : '+'} {abs(b)} = {answer}"
+   ],
+   "where": [
+    "b != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-19-two",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "substitution"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "q": {
+     "int": [
+      -7,
+      7
+     ]
+    },
+    "a": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "Find the value of {poly([p, 'a'], [q, 'b'])} when a = {a} and b = {b}.",
+   "answer": "p * a + q * b",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "p * a - q * b",
+     "explain": "Keep the sign of each term and put negative numbers in brackets."
+    }
+   ],
+   "solution": [
+    "Substitute: {p} × {br(a)} {q < 0 ? '−' : '+'} {abs(q)} × {br(b)}.",
+    "{p * a} {q < 0 ? '−' : '+'} {abs(q * b)} = {answer}"
+   ],
+   "where": [
+    "q != 0 && abs(q) != 1 && a != 0 && b != 0",
+    "a < 0 || b < 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-19-square",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "substitution"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "x": {
+     "int": [
+      -6,
+      -2
+     ]
+    }
+   },
+   "prompt": "Find the value of {mono(a, 'x²')} + {c} when x = {x}.",
+   "answer": "a * x * x + c",
+   "misconceptions": [
+    {
+     "id": "square-all",
+     "wrong": "(a * x) * (a * x) + c",
+     "explain": "Only x is squared: {a}x² = {a} × x²."
+    },
+    {
+     "id": "negative",
+     "wrong": "-(a * x * x) + c",
+     "explain": "{br(x)}² is positive: {x * x}."
+    }
+   ],
+   "solution": [
+    "Power first: {br(x)}² = {x * x}.",
+    "{a} × {x * x} + {c} = {a * x * x} + {c} = {answer}"
+   ]
+  },
+  {
+   "id": "m2-19-formula",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "substitution"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      5,
+      30
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "The perimeter of a rectangle is P = 2(l + w). Find P when l = {l} cm and w = {w} cm.",
+   "answer": "2 * (l + w)",
+   "misconceptions": [
+    {
+     "id": "no-brackets",
+     "wrong": "2 * l + w",
+     "explain": "Work out the brackets first: {two} × ({l} + {w})."
+    },
+    {
+     "id": "area",
+     "wrong": "l * w",
+     "explain": "That is the area, l × w. The perimeter is {two}(l + w)."
+    }
+   ],
+   "solution": [
+    "Brackets first: l + w = {l} + {w} = {l + w}.",
+    "P = {two} × {l + w} = {answer} cm."
+   ],
+   "where": [
+    "w < l"
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-19-simplify",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "substitution"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "d": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "x": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -4,
+      5
+     ]
+    }
+   },
+   "prompt": "Simplify {poly([a, 'x'], [b, 'y'], [c, 'x'], [d, 'y'])}, then find its value when x = {x} and y = {y}.",
+   "answer": "(a + c) * x + (b + d) * y",
+   "misconceptions": [
+    {
+     "id": "no-signs",
+     "wrong": "(a + abs(c)) * x + (b + abs(d)) * y",
+     "explain": "Keep the sign in front of each term when you collect.",
+     "when": "c < 0 || d < 0"
+    }
+   ],
+   "solution": [
+    "Simplify: {poly([a, 'x'], [b, 'y'], [c, 'x'], [d, 'y'])} = {poly([a + c, 'x'], [b + d, 'y'])}.",
+    "Substitute: {a + c} × {br(x)} + {b + d} × {br(y)} = {(a + c) * x} + {br((b + d) * y)} = {answer}"
+   ],
+   "where": [
+    "c != 0 && d != 0 && a + c > 0 && b + d > 0",
+    "x != 0 && y != 0",
+    "x < 0 || y < 0"
+   ],
+   "signed": true
+  }
+ ]
+}

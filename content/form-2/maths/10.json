@@ -1,0 +1,427 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-10",
+   "name": "Characteristics of a line segment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A line segment [AB] is the part of the line (AB) between A and B. A and B are its end points. Its length is written AB, for example AB = 8 cm.\nNotation: (AB) is the line, [AB) the half line from A, [AB] the segment, AB its length.\nThe midpoint M of [AB] is on the segment, halfway between A and B: AM = MB = AB ÷ 2.\nA point M is on the segment [AB] exactly when AM + MB = AB. If AM + MB is more than AB, M is not on [AB].\nIf M is on [AB], then MB = AB − AM.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "ab": 12,
+   "two": 2
+  },
+  "problem": "M is the midpoint of [AB] and N is the midpoint of [AM]. AB = {ab} cm. Find AN and NB.",
+  "steps": [
+   "M is the midpoint of [AB], so AM = MB = {ab} ÷ {two} = {ab / two} cm.",
+   "N is the midpoint of [AM], so AN = NM = {ab / two} ÷ {two} = {ab / 4} cm.",
+   "NB = NM + MB = {ab / 4} + {ab / two} = {3 * ab / 4} cm."
+  ],
+  "answer": "AN = {ab / 4} cm and NB = {3 * ab / 4} cm.",
+  "checks": [
+   "ab / 4 + 3 * ab / 4 == ab"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "A segment is named with square brackets around its two end points. Its length is written with no brackets.",
+    "vars": {
+     "ab": 8
+    },
+    "example": [
+     "[AB] is the segment with end points A and B; AB = {ab} cm is its length.",
+     "(AB) is the whole line, and [AB) is the half line from A."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-10-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "segment"
+     ],
+     "vars": {
+      "L": {
+       "pick": [
+        [
+         "A",
+         "B"
+        ],
+        [
+         "P",
+         "Q"
+        ],
+        [
+         "E",
+         "F"
+        ],
+        [
+         "K",
+         "L"
+        ],
+        [
+         "M",
+         "N"
+        ],
+        [
+         "R",
+         "S"
+        ]
+       ]
+      }
+     },
+     "prompt": "Which one names the segment with end points {L[0]} and {L[1]}?",
+     "correct": "[{L[0]}{L[1]}]",
+     "distractors": [
+      {
+       "text": "({L[0]}{L[1]})",
+       "misconception": "line"
+      },
+      {
+       "text": "[{L[0]}{L[1]})",
+       "misconception": "half"
+      },
+      {
+       "text": "{L[0]}{L[1]}",
+       "misconception": "length"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "line",
+       "explain": "({L[0]}{L[1]}) with round brackets is the whole line, which has no end points."
+      },
+      {
+       "id": "half",
+       "explain": "[{L[0]}{L[1]}) is a half line: it starts at {L[0]} and never ends."
+      },
+      {
+       "id": "length",
+       "explain": "{L[0]}{L[1]} with no brackets is the length of the segment, a number of centimetres."
+      }
+     ],
+     "solution": [
+      "A segment is written with square brackets around both end points.",
+      "So the segment is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "The midpoint of a segment is on the segment, at the same distance from both end points: half of the length.",
+    "vars": {
+     "ab": 9,
+     "two": 2
+    },
+    "example": [
+     "AB = {ab} cm, M the midpoint of [AB]: AM = MB = {ab} ÷ {two} = {ab / two} cm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-10-mid"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "A point M is on the segment [AB] exactly when AM + MB = AB.",
+    "vars": {
+     "ab": 10,
+     "am": 4,
+     "mb": 6
+    },
+    "example": [
+     "AB = {ab} cm, AM = {am} cm, MB = {mb} cm: {am} + {mb} = {am + mb} = AB, so M is on [AB].",
+     "If AM + MB were more than AB, M would be off the segment."
+    ],
+    "checks": [
+     "am + mb == ab"
+    ],
+    "check": {
+     "ref": "m2-10-on"
+    }
+   },
+   {
+    "id": "c10-4",
+    "status": "draft",
+    "idea": "If M is on [AB], the two parts add up to the whole: MB = AB − AM.",
+    "vars": {
+     "ab": 11,
+     "am": 4
+    },
+    "example": [
+     "AB = {ab} cm and AM = {am} cm, so MB = {ab} − {am} = {ab - am} cm."
+    ],
+    "checks": [],
+    "figure": "segmentFig(am, '?')",
+    "check": {
+     "ref": "m2-10-part"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-10-mid",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "segment"
+   ],
+   "vars": {
+    "ab": {
+     "int": [
+      4,
+      24
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "AB = {ab} cm and M is the midpoint of [AB]. Find AM.",
+   "answer": "ab / 2",
+   "misconceptions": [
+    {
+     "id": "whole",
+     "wrong": "ab",
+     "explain": "AM is only half of AB."
+    },
+    {
+     "id": "double",
+     "wrong": "ab * 2",
+     "explain": "AM is half of AB, not double."
+    }
+   ],
+   "solution": [
+    "The midpoint is halfway: AM = AB ÷ {two}.",
+    "AM = {ab} ÷ {two} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-10-on",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "segment"
+   ],
+   "vars": {
+    "ab": {
+     "int": [
+      6,
+      15
+     ]
+    },
+    "am": {
+     "int": [
+      1,
+      14
+     ]
+    },
+    "e": {
+     "pick": [
+      0,
+      0,
+      1,
+      2,
+      3
+     ]
+    },
+    "mb": {
+     "expr": "ab - am + e"
+    }
+   },
+   "prompt": "AB = {ab} cm, AM = {am} cm and MB = {mb} cm. Is M on the segment [AB]?",
+   "correct": "{am + mb == ab ? 'Yes' : 'No'}",
+   "distractors": [
+    {
+     "text": "{am + mb == ab ? 'No' : 'Yes'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "AM + MB = {am} + {mb} = {am + mb} cm and AB = {ab} cm. {am + mb == ab ? 'AM + MB is equal to AB' : 'AM + MB is more than AB'}."
+    }
+   ],
+   "solution": [
+    "AM + MB = {am} + {mb} = {am + mb} cm and AB = {ab} cm.",
+    "{am + mb == ab ? 'AM + MB is equal to AB' : 'AM + MB is more than AB'}, so the answer is {answer}."
+   ],
+   "show": 2,
+   "where": [
+    "am < ab"
+   ]
+  },
+  {
+   "id": "m2-10-part",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "segment"
+   ],
+   "vars": {
+    "ab": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "am": {
+     "int": [
+      1,
+      19
+     ]
+    }
+   },
+   "prompt": "M is on the segment [AB]. AB = {ab} cm and AM = {am} cm. Find MB.",
+   "answer": "ab - am",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "ab + am",
+     "explain": "M is between A and B, so MB is shorter than AB: subtract."
+    }
+   ],
+   "solution": [
+    "The two parts make the whole: AM + MB = AB.",
+    "MB = {ab} − {am} = {answer} cm."
+   ],
+   "where": [
+    "am < ab"
+   ],
+   "unit": "cm",
+   "figure": "segmentFig(am, '?')"
+  },
+  {
+   "id": "m2-10-whole",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "segment"
+   ],
+   "vars": {
+    "am": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "M is the midpoint of [AB] and AM = {am} cm. Find AB.",
+   "answer": "2 * am",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "am / 2",
+     "explain": "AM is half of AB, so AB is double AM."
+    },
+    {
+     "id": "same",
+     "wrong": "am",
+     "explain": "AB is the whole segment: AM + MB."
+    }
+   ],
+   "solution": [
+    "M is the midpoint, so MB = AM = {am} cm.",
+    "AB = AM + MB = {am} + {am} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-10-chain",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "segment"
+   ],
+   "vars": {
+    "ab": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "bc": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "A, B and C are on a straight line, in that order. AB = {ab} cm and BC = {bc} cm. Find AC.",
+   "answer": "ab + bc",
+   "misconceptions": [
+    {
+     "id": "subtracted",
+     "wrong": "abs(ab - bc)",
+     "explain": "B is between A and C, so add the two parts."
+    }
+   ],
+   "solution": [
+    "B is between A and C, so B is on the segment [AC].",
+    "AC = AB + BC = {ab} + {bc} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-10-quarter",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "segment"
+   ],
+   "vars": {
+    "ab": {
+     "int": [
+      8,
+      40
+     ],
+     "step": 4
+    },
+    "two": 2
+   },
+   "prompt": "M is the midpoint of [AB] and N is the midpoint of [AM]. AB = {ab} cm. Find NB.",
+   "answer": "3 * ab / 4",
+   "misconceptions": [
+    {
+     "id": "an",
+     "wrong": "ab / 4",
+     "explain": "That is AN. NB goes from N to B: NM + MB."
+    },
+    {
+     "id": "half",
+     "wrong": "ab / 2",
+     "explain": "That is MB. NB = NM + MB."
+    }
+   ],
+   "solution": [
+    "AM = MB = {ab} ÷ {two} = {ab / 2} cm.",
+    "N is the midpoint of [AM], so NM = {ab / 2} ÷ {two} = {ab / 4} cm.",
+    "NB = NM + MB = {ab / 4} + {ab / 2} = {answer} cm."
+   ],
+   "unit": "cm"
+  }
+ ]
+}

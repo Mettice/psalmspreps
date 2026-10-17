@@ -721,6 +721,220 @@ function lineRule(r1, r2) {
 
 return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
 })();
+__mods["lib/maths2.js"] = (() => {
+// Vetted functions for Form 2 Maths content (Term 1: integers, powers, primes, HCF and LCM, roots, sequences,
+// distances, the coordinate plane, algebraic expressions, equations and inequalities). Used together with maths.js
+// (fmt, sup, …). Pure and deterministic, like every library the content may call.
+const { fmt, sup } = __mods["lib/maths.js"];
+const MINUS = "−";
+
+// ---------------------------------------------------------------- integers and powers
+/** An integer as it is written inside a calculation: negative numbers in brackets, "(−3)". */
+const br = (n) => (n < 0 ? `(${fmt(n)})` : fmt(n));
+/** A power: pw(2, 3) → "2³", pw(-2, 3) → "(−2)³", pw("a", 5) → "a⁵". */
+const pw = (a, n) => (typeof a === "string" ? a : br(a)) + sup(n);
+/** A power written out as a product: powExpand(-2, 3) → "(−2) × (−2) × (−2)". */
+const powExpand = (a, n) => Array.from({ length: n }, () => (typeof a === "string" ? a : br(a))).join(" × ");
+/** The sign of a product or quotient of integers, in words. */
+const signWord = (n) => (n > 0 ? "positive" : n < 0 ? "negative" : "zero");
+/** WRONG ON PURPOSE: −a² read as (−a)², or (−a)ⁿ always positive. */
+const powNoSign = (a, n) => Math.abs(a) ** n;
+
+// ---------------------------------------------------------------- primes, factors, HCF and LCM
+function isPrime(n) {
+  if (!Number.isInteger(n) || n < 2) return false;
+  for (let d = 2; d * d <= n; d++) if (n % d === 0) return false;
+  return true;
+}
+/** Prime factors in increasing order, with repeats: 60 → [2, 2, 3, 5]. */
+function primeFactors(n) {
+  const out = [];
+  let m = n;
+  for (let d = 2; d * d <= m; d++) while (m % d === 0) { out.push(d); m /= d; }
+  if (m > 1) out.push(m);
+  return out;
+}
+/** 60 → "2 × 2 × 3 × 5". */
+const factorProduct = (n) => primeFactors(n).join(" × ");
+/** 60 → "2² × 3 × 5" (index form). */
+function factorise(n) {
+  const f = primeFactors(n), seen = [...new Set(f)];
+  return seen.map((p) => { const k = f.filter((x) => x === p).length; return k > 1 ? `${p}${sup(k)}` : String(p); }).join(" × ");
+}
+/** The repeated divisions of the ladder method: 60 → ["60 ÷ 2 = 30", "30 ÷ 2 = 15", "15 ÷ 3 = 5", "5 ÷ 5 = 1"]. */
+function ladder(n) {
+  let m = n;
+  return primeFactors(n).map((p) => { const line = `${fmt(m)} ÷ ${p} = ${fmt(m / p)}`; m /= p; return line; });
+}
+const numFactors = (n) => Array.from({ length: n }, (_, i) => i + 1).filter((d) => n % d === 0).length;
+/** All factors of n, in order: 12 → "1, 2, 3, 4, 6, 12". */
+const factorsOf = (n) => Array.from({ length: n }, (_, i) => i + 1).filter((d) => n % d === 0).join(", ");
+/** The first k multiples of n: multiplesOf(4, 5) → "4, 8, 12, 16, 20". */
+const multiplesOf = (n, k) => Array.from({ length: k }, (_, i) => fmt(n * (i + 1))).join(", ");
+function hcf(a, b) {
+  let x = Math.abs(a), y = Math.abs(b);
+  while (y) [x, y] = [y, x % y];
+  return x;
+}
+const lcm = (a, b) => (a / hcf(a, b)) * b;
+const hcf3 = (a, b, c) => hcf(hcf(a, b), c);
+const lcm3 = (a, b, c) => lcm(lcm(a, b), c);
+
+const isSquare = (n) => Number.isInteger(n) && n >= 0 && Number.isInteger(Math.round(Math.sqrt(n))) && Math.round(Math.sqrt(n)) ** 2 === n;
+const isCube = (n) => Number.isInteger(n) && Math.round(Math.cbrt(n)) ** 3 === n;
+
+// ---------------------------------------------------------------- sequences
+/** The first k terms of the sequence that starts at a and adds d each time: "3, 7, 11, 15". */
+const seqTerms = (a, d, k) => Array.from({ length: k }, (_, i) => fmt(a + d * i)).join(", ");
+/** The first k terms of the sequence that starts at a and multiplies by r each time: "2, 6, 18, 54". */
+const geoTerms = (a, r, k) => Array.from({ length: k }, (_, i) => fmt(a * r ** i)).join(", ");
+/** The first k square numbers from 1² (squares), or cube numbers. */
+const squaresList = (k) => Array.from({ length: k }, (_, i) => fmt((i + 1) ** 2)).join(", ");
+const cubesList = (k) => Array.from({ length: k }, (_, i) => fmt((i + 1) ** 3)).join(", ");
+
+// ---------------------------------------------------------------- distances
+/** Three lengths make a triangle when each one is less than the sum of the other two. */
+const triangleOk = (a, b, c) => a < b + c && b < a + c && c < a + b;
+
+// ---------------------------------------------------------------- the coordinate plane
+/** A point's coordinates: pt(3, -2) → "(3, −2)". */
+const pt = (x, y) => `(${fmt(x)}, ${fmt(y)})`;
+
+// ---------------------------------------------------------------- algebra
+/** One term with its own sign: mono(-1, "x") → "−x", mono(3, "xy") → "3xy", mono(-5, "") → "−5". */
+function mono(c, v) {
+  if (v === "") return fmt(c);
+  if (c === 1) return v;
+  if (c === -1) return MINUS + v;
+  return fmt(c) + v;
+}
+/**
+ * An expression from [coefficient, letters] pairs, zero terms left out:
+ * poly([3, "x"], [-1, "y"], [5, ""]) → "3x − y + 5"; poly([0, "x"]) → "0".
+ */
+function poly(...terms) {
+  const kept = terms.filter(([c]) => c !== 0);
+  if (!kept.length) return "0";
+  return kept.map(([c, v], i) => {
+    const t = mono(Math.abs(c), v);
+    return i === 0 ? (c < 0 ? MINUS + t : t) : `${c < 0 ? ` ${MINUS} ` : " + "}${t}`;
+  }).join("");
+}
+/** a(b + c) written out: bracket(3, [2, "x"], [5, ""]) → "3(2x + 5)"; a negative a keeps its sign: "−2(x − 4)". */
+const bracket = (a, ...terms) => `${a === 1 ? "" : a === -1 ? MINUS : fmt(a)}(${poly(...terms)})`;
+
+// ---------------------------------------------------------------- inequalities
+const OPS = { "<": (x, k) => x < k, ">": (x, k) => x > k, "≤": (x, k) => x <= k, "≥": (x, k) => x >= k };
+const ineq = (v, op, k) => `${v} ${op} ${fmt(k)}`;
+function holds(x, op, k) {
+  if (!OPS[op]) throw new RangeError(`unknown inequality sign ${op}`);
+  return OPS[op](x, k);
+}
+/** The sign turned round, as when both sides are multiplied or divided by a negative number. */
+const flipOp = (op) => ({ "<": ">", ">": "<", "≤": "≥", "≥": "≤" })[op];
+/** The sign that includes or leaves out the end number: strictOp("≤") → "<". */
+const strictOp = (op) => ({ "<": "<", ">": ">", "≤": "<", "≥": ">" })[op];
+const looseOp = (op) => ({ "<": "≤", ">": "≥", "≤": "≤", "≥": "≥" })[op];
+/** In words: "less than", "greater than or equal to", … */
+const opWords = (op) => ({ "<": "less than", ">": "greater than", "≤": "less than or equal to", "≥": "greater than or equal to" })[op];
+/** The whole numbers from lo to hi that satisfy x op k, as a list ("−1, 0, 1, 2"), or "none". */
+function solutionsIn(lo, hi, op, k) {
+  const out = [];
+  for (let x = lo; x <= hi; x++) if (holds(x, op, k)) out.push(fmt(x));
+  return out.length ? out.join(", ") : "none";
+}
+
+// ---------------------------------------------------------------- SVG
+// Same drawing style as the other subjects: role="img", a label that does NOT give the answer, page colours.
+const r1 = (x) => Math.round(x * 10) / 10;
+const svg = (w, h, label, body) =>
+  `<svg class="fig" viewBox="0 0 ${w} ${h}" role="img" aria-label="${label}" xmlns="http://www.w3.org/2000/svg" ` +
+  `font-family="system-ui, sans-serif" font-size="11" fill="none" stroke="currentColor" stroke-width="1">${body}</svg>`;
+const line = (x1, y1, x2, y2, extra = "") => `<line x1="${r1(x1)}" y1="${r1(y1)}" x2="${r1(x2)}" y2="${r1(y2)}"${extra}/>`;
+const text = (x, y, s, extra = "") =>
+  `<text x="${r1(x)}" y="${r1(y)}" fill="currentColor" stroke="none"${/text-anchor/.test(extra) ? "" : ` text-anchor="middle"`}${extra}>${s}</text>`;
+const dot = (x, y, r = 4) => `<circle cx="${r1(x)}" cy="${r1(y)}" r="${r}" fill="currentColor"/>`;
+
+/**
+ * A coordinate plane from −5 to 5 on both axes, with lettered points: points is a list of [letter, x, y].
+ * The axes are labelled x and y and the origin O; every whole number is marked on both axes.
+ */
+function coordPlane(points) {
+  const N = 5, S = 26, c = 16 + N * S;
+  const X = (x) => c + x * S, Y = (y) => c - y * S;
+  let body = "";
+  for (let i = -N; i <= N; i++) {
+    body += line(X(i), Y(-N), X(i), Y(N), ` stroke-opacity="0.25"`) + line(X(-N), Y(i), X(N), Y(i), ` stroke-opacity="0.25"`);
+    if (i !== 0) body += text(X(i), Y(0) + 13, fmt(i), ` font-size="9"`) + text(X(0) - 4, Y(i) + 3, fmt(i), ` font-size="9" text-anchor="end"`);
+  }
+  body += line(X(-N) - 8, Y(0), X(N) + 8, Y(0), ` stroke-width="1.5"`) + line(X(0), Y(-N) - 8, X(0), Y(N) + 8, ` stroke-width="1.5"`);
+  body += text(X(N) + 10, Y(0) - 5, "x", ` font-style="italic"`) + text(X(0) + 9, Y(N) - 2, "y", ` font-style="italic"`) + text(X(0) - 7, Y(0) + 13, "O");
+  for (const [name, x, y] of points) {
+    if (Math.abs(x) > N || Math.abs(y) > N) throw new RangeError(`coordPlane: ${name} at ${x}, ${y} is off the grid`);
+    body += dot(X(x), Y(y), 3.5) + text(X(x) + 7, Y(y) - 6, name, ` text-anchor="start" font-weight="bold" font-size="12"`);
+  }
+  return svg(2 * c + 6, 2 * c, "A coordinate plane with lettered points", body);
+}
+
+/** A number line of whole numbers from lo to hi (at most 16 marks) with lettered points: marks is a list of [letter, value]. */
+function numberLine(lo, hi, marks) {
+  if (hi - lo > 16) throw new RangeError("numberLine: too many marks");
+  const S = 300 / (hi - lo), x0 = 20, y = 34;
+  const X = (v) => x0 + (v - lo) * S;
+  let body = line(X(lo) - 10, y, X(hi) + 10, y, ` stroke-width="1.5"`);
+  for (let v = lo; v <= hi; v++) body += line(X(v), y - 5, X(v), y + 5) + text(X(v), y + 19, fmt(v), ` font-size="10"`);
+  for (const [name, v] of marks) {
+    if (v < lo || v > hi) throw new RangeError(`numberLine: ${name} is off the line`);
+    body += dot(X(v), y, 4) + text(X(v), y - 10, name, ` font-weight="bold" font-size="12"`);
+  }
+  return svg(340, 62, "A number line with lettered points", body);
+}
+
+/**
+ * The solutions of x op k on a number line from k − 5 to k + 5: a filled circle when k is included (≤, ≥), an open
+ * one when it is not (<, >), and a thick line with an arrow towards the solutions.
+ */
+function ineqLine(op, k) {
+  if (!OPS[op]) throw new RangeError(`unknown inequality sign ${op}`);
+  const lo = k - 5, hi = k + 5, S = 28, x0 = 22, y = 30;
+  const X = (v) => x0 + (v - lo) * S;
+  let body = line(X(lo) - 10, y, X(hi) + 10, y);
+  for (let v = lo; v <= hi; v++) body += line(X(v), y - 4, X(v), y + 4) + text(X(v), y + 18, fmt(v), ` font-size="10"`);
+  const right = op === ">" || op === "≥", end = right ? X(hi) + 12 : X(lo) - 12;
+  body += line(X(k), y, end, y, ` stroke-width="4"`);
+  body += right ? `<path d="M${r1(end + 8)} ${y} l-10 -6 v12 z" fill="currentColor" stroke="none"/>` : `<path d="M${r1(end - 8)} ${y} l10 -6 v12 z" fill="currentColor" stroke="none"/>`;
+  body += `<circle cx="${r1(X(k))}" cy="${y}" r="6" stroke-width="2"${op === "≤" || op === "≥" ? ` fill="currentColor"` : ` fill="#fff" style="fill: var(--card, #fff)"`}/>`;
+  return svg(X(hi) + 32, 56, "A number line with a set of numbers shaded", body);
+}
+
+/**
+ * Segment [AB] with its perpendicular bisector (Δ) through the midpoint M, and a point P on (Δ) joined to A and B.
+ * `pa` is written on [PA]; [PB] is labelled with `pbLabel` (a number or "?").
+ */
+function bisectorFig(pa, pbLabel) {
+  const A = [50, 150], B = [250, 150], M = [150, 150], P = [150, 40];
+  let body = line(A[0], A[1], B[0], B[1], ` stroke-width="2"`) + dot(A[0], A[1], 3) + dot(B[0], B[1], 3) + dot(M[0], M[1], 3);
+  body += line(150, 18, 150, 185, ` stroke-dasharray="6 4"`) + text(160, 22, "(Δ)", ` text-anchor="start"`);
+  body += `<path d="M150 140 h10 v10" stroke-width="1"/>`;
+  body += line(P[0], P[1], A[0], A[1]) + line(P[0], P[1], B[0], B[1]) + dot(P[0], P[1], 3);
+  body += line(95, 152, 95, 148) + line(97, 155, 97, 145) + line(205, 155, 205, 145) + line(203, 155, 203, 145);
+  body += text(A[0] - 10, A[1] + 4, "A", ` font-weight="bold"`) + text(B[0] + 10, B[1] + 4, "B", ` font-weight="bold"`) +
+    text(M[0] + 8, M[1] + 16, "M", ` font-weight="bold"`) + text(P[0] - 10, P[1] - 4, "P", ` font-weight="bold"`);
+  body += text(88, 88, `${typeof pa === "number" ? fmt(pa) : pa} cm`, ` text-anchor="end"`) + text(212, 88, `${typeof pbLabel === "number" ? fmt(pbLabel) : pbLabel}${pbLabel === "?" ? "" : " cm"}`, ` text-anchor="start"`);
+  return svg(300, 195, "A segment AB, its perpendicular bisector and a point P on it", body);
+}
+
+/** Segment [AB] with a point M on it; the two parts are labelled (a number, or "?"). */
+function segmentFig(am, mb) {
+  const lab = (v) => (typeof v === "number" ? `${fmt(v)} cm` : v);
+  let body = line(30, 40, 290, 40, ` stroke-width="2"`) + dot(30, 40, 3) + dot(290, 40, 3) + dot(160, 40, 3);
+  body += text(30, 26, "A", ` font-weight="bold"`) + text(160, 26, "M", ` font-weight="bold"`) + text(290, 26, "B", ` font-weight="bold"`);
+  body += text(95, 60, lab(am)) + text(225, 60, lab(mb));
+  return svg(320, 70, "A segment AB with a point M on it", body);
+}
+
+return { br, pw, powExpand, signWord, powNoSign, isPrime, primeFactors, factorProduct, factorise, ladder, numFactors, factorsOf, multiplesOf, hcf, lcm, hcf3, lcm3, isSquare, isCube, seqTerms, geoTerms, squaresList, cubesList, triangleOk, pt, mono, poly, bracket, ineq, holds, flipOp, strictOp, looseOp, opWords, solutionsIn, coordPlane, numberLine, ineqLine, bisectorFig, segmentFig };
+})();
 __mods["lib/english.js"] = (() => {
 // English word forms for templates. Rules plus authored exception tables; the tables are facts a teacher
 // must check (docs/teacher-review.md, TR-E*), the rules are tested on known answers (tests-js/english.test.js).
@@ -1960,7 +2174,7 @@ __mods["template.js"] = (() => {
 // expressions, never stored as free text from an author or a model.
 //
 // Template types
-//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?
+//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?, signed? (answer may be negative)
 //   mcq         correct: tmpl + distractors: [tmpl | {text?, misconception}]   (computed values)
 //               or pool: {right: [stmt], wrong: [stmt]}, pick: {right, wrong}  (choose the true one)
 //   spot_error  pool + pick (choose the false statement), or steps: [stmt] with exactly one false
@@ -2136,6 +2350,7 @@ function instantiate(tpl, seed, lib, lesson = null) {
       const value = evaluate(tpl.answer, scope, lib);
       if (kind === "number" && (typeof value !== "number" || !Number.isFinite(value))) throw new ContentError(`${tpl.id}: answer is ${value}`);
       Object.assign(q, { answerKind: kind, answerValue: value, answer: show(lib)(value), unit: tpl.unit && R(tpl.unit, scope) });
+      if (tpl.signed) q.signed = true;  // the answer can be negative: the keyboard must have a minus sign
       q.misconceptions = (tpl.misconceptions || []).flatMap((m) => {
         if (m.when && !evaluate(m.when, scope, lib)) return [];
         const v = evaluate(m.wrong, scope, lib);
@@ -2298,7 +2513,9 @@ function normaliseInput(text, q) {
 
 /** Keyboard to show: the number pad for whole numbers and base numerals, decimal pad otherwise. */
 function inputModeFor(q) {
-  if (q.type === "cloze") return "text";
+  // Integers (Form 2): many phone number pads have no minus sign, so a question whose answer can be negative gets the
+  // full keyboard for every variant (the keyboard must not give away the sign).
+  if (q.type === "cloze" || q.signed) return "text";
   if (q.answerKind === "base" || (q.answerKind === "number" && Number.isInteger(q.answerValue))) return "numeric";
   return q.answerKind === "number" ? "decimal" : "text";
 }
@@ -2612,6 +2829,7 @@ function scoreReadiness(lesson0, results) {
 return { buildReadiness, scoreReadiness };
 })();
 const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
+    "f2-maths": { ...__mods["lib/maths.js"], ...__mods["lib/maths2.js"] }, "f2-english": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },
     chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] },
     geography: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"] },
@@ -2625,13 +2843,15 @@ const CONTENT = {"maths":{"0":{"subject":"mathematics","class":"Form 1","lesson_
 const TITLES = {"maths":{"1":"The history and evolution of numbers","2":"Egyptian and Roman numerals","3":"Hindu-Arabic numerals and place value","4":"Numbers in words and in figures","5":"Elements of ℕ and of ℕ*","6":"Cardinal, Ordinal and Nominal numbers","7":"Whole number powers and operations in the set ℕ","8":"Number bases: Convert numbers in base 10 to other bases and from one base to another","9":"Number bases: Addition and subtraction in other bases","10":"Number bases: Multiplication in other bases","11":"Points and notation of lines, half lines and line segments","12":"Collinear points","13":"Units of measuring length and distance: Converting from one unit to another","14":"Line segment: Midpoint property of a line segment and its converse","15":"Constructing the perpendicular bisector of a line segment","16":"Parallel, perpendicular and orthogonal lines: Notation and properties"},"english":{"1":"Speaking: Dialogue to introduce oneself and other persons","2":"Vocabulary: Words related to basic daily needs/respect spelling rules and conventions","3":"Grammar: The Simple Present tense (affirmative, negative and interrogative)","5":"Reading: Read brief accounts of school activities, school timetables and notices IRREGULAR VERBS","6":"Vocabulary: Numbers","7":"Grammar: The Present continuous tense","9":"Writing: Write a shopping list based on needs and priorities","10":"Vocabulary: countable and uncountable nouns","11":"Grammar: The Simple Past tense","13":"Speaking: Talk about and state the different means of transportation","14":"Vocabulary: Form new words by conversion and compounding methods/ means of transport","15":"Grammar: The Present Perfect tense","16":"Writing: Fill out simple forms, e.g. an invitation letter"},"physics":{"1":"Definition and branches of science","2":"Prominent scientists and discoveries and contributions to improvement in the lives of humans","3":"Definition of physics and some of its branches","4":"What physicists do and how. Observing nature and seeking comprehension","5":"Some basic equipment in the Physics laboratory","6":"Safety rules for working in the Physics laboratory","7":"Job opportunities for science students","8":"Concepts of simple measurements using measuring instruments","9":"Identifying physical and non-physical quantities","10":"Some Units of measurement and S.I units","11":"States of matter and differences between them","12":"Interconversion processes","13":"Length: Definition, Units and Measurement","14":"Mass: Definition, Units and Measurement","15":"Weight: Definition, Units and Measurement. Differences between weight and mass","16":"Define volume & state its units; Measurement of volumes of liquids, regular & irregular solids","17":"Density: Definition, Units, and Measurement","18":"Temperature: Definition, Units and Measurements","19":"Safety rules on products and materials. Using information on products"},"chemistry":{"1":"Introduction to Chemistry","2":"Importance of chemistry in everyday life","3":"Some basic equipment 1 used in the study of chemistry","4":"Some basic equipment 2 used in the study of chemistry","5":"Hazardous symbols on reagent bottles and their meanings","6":"Safety rules observed in the Laboratory","7":"Measurement of mass and volume","8":"Measurement of time and temperature","9":"Physical and Chemical Changes","10":"States of Matter and Change of States","11":"Simple kinetic theory of matter and change of state","12":"Mixtures and pure substances","13":"Types of mixtures and examples","14":"Methods of separating solid-solid mixtures","15":"Methods of separating solid-liquid mixtures","16":"Methods of separating liquid-liquid mixtures","17":"Methods of separating liquid-gas mixtures","18":"Methods of separating gas-gas mixtures","19":"Types of Pure substances: Composition of elements","20":"Composition of compounds","21":"Differences between mixtures and pure substances"},"geography":{"1":"Geography: Definition, branches and sub branches, methods and importance","2":"(Part 1): Our Planet The earth: (The solar system)","3":"(Part 2): Our Planet The earth: (Shape & dimensions,Locational references of the earth) Distribution of Landmasses and water bodies","4":"PW1: Representation of the earth’s shape and size (identification of marginal information on maps)","5":"Practical Work 2 (Part 1): Locate a place on a map","6":"PW 2 (Part 2): Locate a place on a map (Read geographical coordinates of a place on a map)","7":"(Part 1): The earth: A planet moving in space (Rotation & effects; Revolution & effects,)","8":"(Part 2): The earth: A planet moving in space (Local & standard time)","9":"PW3: Calculation of local time (calculation of local time of a place from GMT; Basis of carving out time zones)","10":"The notion of the environment (Definition of natural environment; Components; Ecosystem)"},"home-economics":{"1":"Basic terms used in Nutrition: Malnutrition (under-nutrition, over-nutrition, hidden hunger). Metabolism etc..)","2":"Factors associated with health (diet, exercise, recreation)","3":"Types of food and their nutrients.Food groups","4":"Functions of food. Dietary guidelines. Subjects related to food and nutrition,","5":"Careers associated with Food and Nutrition","6":"Diagram of a traditional kitchen","7":"Types of fire places used in a traditional kitchen","10":"Diagram of the different types of fire places in a traditional kitchen","11":"Advantages and disadvantages of a traditional kitchen","12":"Care of a traditional kitchen","13":"Kitchen planning and management","14":"Different shapes of modern kitchens","15":"Identify kitchen elements/Kitchen units","16":"Types of kitchen units","17":"Points to consider when planning a modern kitchen","20":"Advantages of time management in the kitchen","21":"Care of a modern kitchen"},"history":{"1":"Introduction to the study of history","2":"Further study 1: Collection and classification of Historical Relics","3":"Guided work 1: Enquiry on the system of periodization (counting dates in your region)","4":"The Early Man and his area and of settlements","5":"continues: The way of life of the early man and its implications","6":"Guided Work 2: The myth of creation","7":"Neolithic (New Stone Age Civilization)","8":"Further study 2: Humanization","9":"Further study 3: Cameroon Civilization in the Neolithic","10":"Guided work 3: The pygmies in Cameroon"},"biology":{"1":"Notion of Biology","2":"Characteristics of living things","3":"Differences between living and non-living things/plants and animals","4":"Studying living things: The scientific approach","5":"Studying living things: In the laboratory and their natural environment","6":"Experiment 1: Introduction to the laboratory: Safety rules, identification of equipment, uses and care","7":"Equipment used to study living things (five senses, hand lens, microscope, etc.)","8":"Experiment 2: Use of hand lens and compound light microscope","9":"The cell: Notion, discovery, types","13":"Observing cells: structure, functions of parts, differences between plant and animal cells","14":"Experiment 3: Observing plant and animal cells","15":"Notions, environmental factors (climatic and edaphic)","16":"Effects of Day and night/Seasons","17":"Interactions between living organisms: feeding, reproduction, etc","18":"Experiment 4: Collection of biological specimens","19":"Notion, formation, composition, types","20":"Qualities of good soils and improving soil quality","21":"Responsible farming practices"},"computer-science":{"1":"Introduction to Computer Science","2":"History of computers","3":"Classification of Computers","4":"Introduction to Artificial Intelligence","5":"Applications and Ethics of Artificial Intelligence","6":"The use of appropriate Prompts to generate AI responses","8":"Decomposition","9":"Pattern recognition","10":"Abstraction","11":"Introduction to algorithms","13":"Components of the computing environment and role","14":"Users of the computing environment and notions on data and information","16":"Computer laboratory equipment and devices","17":"Computer laboratory designs","18":"Behaviours to adopt in a computer laboratory"},"french":{"1":"Orthographe: L’alphabet français","2":"Lecture: Lecture d’un petit texte sur la famille nucléaire","3":"Vocabulaire: Lexique lié aux présentations, aux membres de la famille nucléaire et à leurs différents rôles","4":"Grammaire: Les articles définis et indéfinis","5":"Conjugaison: Le présent de l’indicatif des verbes s’appeler, avoir","6":"Expression orale: Prise de parole pour se présenter et présenter autrui","7":"Grammaire: Les pronoms personnels sujets: je, tu, il/elle, nous, vous, ils/elles","8":"Conjugaison: Présent de l’indicatif des verbes travailler, laver","9":"Orthographe: Les nombres de 1 à 50","10":"Lecture: Lecture d'un texte sur les activités familiales/communautaires","11":"Lecture: Lecture d’un texte sur l’école","12":"Vocabulaire: Lexique de l’école ( les bâtiments: provisorat, infirmerie ; les différentes matières: Français, Mathématiques; le personnel: proviseur, censeur, …)","13":"Grammaire: La phrase simple et ses constituants","14":"Expression écrite: Copie de mots","15":"Grammaire: Les adjectifs possessifs"}};
 const LESSONS = {"maths":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"english":[1,2,3,5,6,7,9,10,11,13,14,15,16],"physics":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],"chemistry":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],"geography":[1,2,3,4,5,6,7,8,9,10],"home-economics":[1,2,3,4,5,6,7,10,11,12,13,14,15,16,17,20,21],"history":[1,2,3,4,5,6,7,8,9,10],"biology":[1,2,3,4,5,6,7,8,9,13,14,15,16,17,18,19,20,21],"computer-science":[1,2,3,4,5,6,8,9,10,11,13,14,16,17,18],"french":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]};
 const SUBJECTS = {"maths":"Maths","english":"English","physics":"Physics","chemistry":"Chemistry","geography":"Geography","home-economics":"Home Economics","history":"History","biology":"Biology","computer-science":"Computer Science","french":"French"};
+const CLASSES = {"form-1":"Form One","form-2":"Form Two"};
+const CLASS_OF = {"maths":"form-1","english":"form-1","physics":"form-1","chemistry":"form-1","geography":"form-1","home-economics":"form-1","history":"form-1","biology":"form-1","computer-science":"form-1","french":"form-1"};
 const PAPER = {"maths":[],"english":[9,16],"physics":[],"chemistry":[],"geography":[],"home-economics":[],"history":[],"biology":[],"computer-science":[],"french":[]};
 const MODE = "single";
 const BUILD = "2026-10-17";
 // Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
 // practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, PAPER, MODE */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, CLASSES, CLASS_OF, BUILD, PAPER, MODE */
 const { libs, template, teach, readiness } = ENGINE;
 const { check, DONT_KNOW, renderWorked, normaliseInput, inputModeFor } = template;
 const L0 = () => CONTENT.maths[0];  // Maths is loaded before the readiness check starts
@@ -2890,7 +3110,15 @@ function readinessDone(rows) {
 // Design of 2026-10-17 (Dion: "colourful and interactive, with streaks"): a home screen with the streak, stars and
 // one coloured tile per subject; each subject shows its lessons as a path. Streaks are forgiving (ghost towns, power
 // cuts, no data): up to two days off in a row never break a streak.
-const subj = () => state.subject in SUBJECTS ? state.subject : "maths";
+const subj = () => state.subject in SUBJECTS ? state.subject : Object.keys(SUBJECTS)[0];
+// Classes (Form 2, 2026-10-17): Form One stays the default; a pupil picks a class on the home screen. A Form 2
+// subject's id starts with "f2-" and keeps its own progress ("f2-maths:5").
+const classOf = (s) => CLASS_OF[s] || "form-1";
+const classesHere = () => [...new Set(Object.keys(SUBJECTS).map(classOf))];
+const form = () => (classesHere().includes(state.form) ? state.form : classesHere()[0]);
+const inClass = (c) => Object.keys(SUBJECTS).filter((s) => classOf(s) === c);
+/** "Maths" for Form One (as before), "Form Two Maths" for another class. */
+const subjectName = (s) => (classOf(s) === "form-1" ? SUBJECTS[s] : `${CLASSES[classOf(s)]} ${SUBJECTS[s]}`);
 const nextLesson = (s) => LESSONS[s].find((n) => !state.lessons[lessonKey(s, n)]?.done);
 const inProgress = (s) => { const c = state.current[s]; return c && !teach.isDone(c.flow) ? c : null; };
 
@@ -2899,8 +3127,9 @@ const STYLE = {
   maths: ["#1d4ed8", "🔢"], english: ["#6d28d9", "📖"], physics: ["#b45309", "⚡"], chemistry: ["#0f766e", "🧪"], geography: ["#2e7d32", "🌍"],
   "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"],
 };
-const colourOf = (s) => (STYLE[s] || ["#1f6f4a"])[0];
-const iconOf = (s) => (STYLE[s] || ["", "📘"])[1];
+const styleOf = (s) => STYLE[s] || STYLE[s.replace(/^f2-/, "")];  // a Form 2 subject looks like its Form One subject
+const colourOf = (s) => (styleOf(s) || ["#1f6f4a"])[0];
+const iconOf = (s) => (styleOf(s) || ["", "📘"])[1];
 const tinted = (s, ...kids) => { const e = el(...kids); e.style.setProperty("--subj", colourOf(s)); return e; };
 
 // Lesson content is loaded one subject at a time in the installed app (subjects/<id>.js); the single-file copy has
@@ -2919,8 +3148,8 @@ function loadSubject(s) {
 }
 function withSubject(s, show) {
   if (CONTENT[s]) return show();
-  screen(header(`${iconOf(s)} ${SUBJECTS[s]}`, "Getting the lessons ready…"), para("This takes a moment the first time.", "muted"));
-  loadSubject(s).then(show, () => screen(header(`${iconOf(s)} ${SUBJECTS[s]}`, "No connection"),
+  screen(header(`${iconOf(s)} ${subjectName(s)}`, "Getting the lessons ready…"), para("This takes a moment the first time.", "muted"));
+  loadSubject(s).then(show, () => screen(header(`${iconOf(s)} ${subjectName(s)}`, "No connection"),
     para("These lessons are not saved on this phone yet. Connect to the internet once, then they will work offline.", "muted"),
     button("Try again", () => withSubject(s, show), "primary"), button("Back to all subjects", home, "link")));
 }
@@ -2968,8 +3197,8 @@ const BADGES = [
   ["streak14", "💪", "Two weeks", "A 14-day streak", () => streak() >= 14],
   ["stars30", "⭐", "Star collector", "Collect 30 stars", () => totalStars() >= 30],
   ["stars100", "🌠", "Star shower", "Collect 100 stars", () => totalStars() >= 100],
-  ["explorer", "🌈", "Explorer", "Finish a lesson in every subject", () => Object.keys(SUBJECTS).every((s) => doneIn(s).length)],
-  ...Object.keys(SUBJECTS).map((s) => [`all-${s}`, iconOf(s), `All of ${SUBJECTS[s]}`, `Finish every ${SUBJECTS[s]} lesson`, () => doneIn(s).length === LESSONS[s].length]),
+  ["explorer", "🌈", "Explorer", "Finish a lesson in every subject of your class", () => inClass(form()).every((s) => doneIn(s).length)],
+  ...Object.keys(SUBJECTS).map((s) => [`all-${s}`, iconOf(s), `All of ${subjectName(s)}`, `Finish every ${subjectName(s)} lesson`, () => doneIn(s).length === LESSONS[s].length]),
 ];
 /** Badges earned now that were not earned before; they are kept for ever once earned. */
 function newBadges() {
@@ -2990,7 +3219,11 @@ function home() {
   newBadges();
   const st = streak();
   const going = Object.keys(SUBJECTS).map((s) => [s, inProgress(s)]).filter(([, c]) => c).sort((a, b) => (b[1].at || "").localeCompare(a[1].at || ""))[0];
-  const tiles = Object.entries(SUBJECTS).map(([s, name]) => {
+  const f = form();
+  // The class switch shows only when this copy of the app has more than one class.
+  const switcher = classesHere().length > 1 ? el("div", { class: "subjects class-switch", role: "tablist", "aria-label": "Class" }, classesHere().map((c) =>
+    el("button", { type: "button", role: "tab", "aria-selected": String(c === f), class: `subject${c === f ? " on" : ""}`, onclick: () => { state.form = c; save(); home(); } }, CLASSES[c]))) : null;
+  const tiles = inClass(f).map((s) => [s, SUBJECTS[s]]).map(([s, name]) => {
     const done = doneIn(s).length, all = LESSONS[s].length;
     return tinted(s, "button", { type: "button", class: `tile-subject${done === all ? " complete" : ""}`, onclick: () => { state.subject = s; save(); menu(); } },
       el("span", { class: "ts-icon", "aria-hidden": "true" }, iconOf(s)), el("span", { class: "ts-name" }, name),
@@ -2999,11 +3232,12 @@ function home() {
   });
   const earned = Object.keys(state.badges || {}).length;
   screen(
-    el("header", { class: "hello" }, el("div", { class: "kicker" }, "Form One"), el("h1", {}, st ? "Welcome back! Keep it going" : "Hello! Ready to learn?")),
+    el("header", { class: "hello" }, el("div", { class: "kicker" }, CLASSES[f]), el("h1", {}, st ? "Welcome back! Keep it going" : "Hello! Ready to learn?")),
+    switcher,
     el("div", { class: "pills" }, statPill("🔥", st, st === 1 ? "day" : "days"), statPill("⭐", totalStars(), "stars"), statPill("✓", totalDone(), "lessons")),
     st ? para(st >= 2 ? `A ${st}-day streak. Up to two days off won't break it.` : "Your streak has started. Come back tomorrow!", "muted streak-note") : null,
     going ? tinted(going[0], "button", { type: "button", class: "primary continue", onclick: () => openLesson(going[0], going[1].lesson) },
-      `${iconOf(going[0])} Carry on: ${SUBJECTS[going[0]]} · Lesson ${going[1].lesson}`) : null,
+      `${iconOf(going[0])} Carry on: ${subjectName(going[0])} · Lesson ${going[1].lesson}`) : null,
     installPrompt ? button("📲 Install the app on this phone", async () => { installPrompt.prompt(); installPrompt = null; }, "") : null,
     el("div", { class: "tiles-subjects" }, tiles),
     button(`🏅 My badges (${earned} of ${BADGES.length})`, badgesScreen, "badges-link"),
@@ -3049,9 +3283,9 @@ function menu() {
     screen(tinted(s, "div", { class: "subject-page" },
       button("← All subjects", home, "link back"),
       el("header", { class: "subject-head" }, el("span", { class: "sh-icon", "aria-hidden": "true" }, iconOf(s)),
-        el("div", {}, el("div", { class: "kicker" }, `Form One ${SUBJECTS[s]}`), el("h1", {}, done ? `${done} of ${LESSONS[s].length} lessons done` : "Your lessons"))),
+        el("div", {}, el("div", { class: "kicker" }, `${CLASSES[classOf(s)]} ${SUBJECTS[s]}`), el("h1", {}, done ? `${done} of ${LESSONS[s].length} lessons done` : "Your lessons"))),
       progress(done, LESSONS[s].length),
-      stars ? para(`⭐ ${stars} stars in ${SUBJECTS[s]}`, "muted") : null,
+      stars ? para(`⭐ ${stars} stars in ${subjectName(s)}`, "muted") : null,
       lead,
       el("ol", { class: "path" }, LESSONS[s].map(row)),
       para("These lessons are drafts: a teacher has not checked them all yet.", "muted")));
@@ -3069,7 +3303,9 @@ function grownUp() {
       loadAll(Object.keys(SUBJECTS)).then(() => { status.textContent = "Every subject is saved on this phone. It works without internet now."; },
         () => { status.textContent = "Some subjects could not be saved. Connect to the internet and try again."; });
     }, "") : null,
-    MODE === "pwa" ? el("a", { class: "button-link", href: "offline.html", download: "psalmspreps-form-one.html" }, "Download one file to share by Bluetooth or a flash drive") : null,
+    // one file per class (Form One: offline.html, as before; Form Two: offline-form-2.html)
+    MODE === "pwa" ? el("a", { class: "button-link", href: form() === "form-1" ? "offline.html" : `offline-${form()}.html`, download: `psalmspreps-${CLASSES[form()].toLowerCase().replace(/ /g, "-")}.html` },
+      classesHere().length > 1 ? `Download one ${CLASSES[form()]} file to share by Bluetooth or a flash drive` : "Download one file to share by Bluetooth or a flash drive") : null,
     button("Do the readiness check again", start, ""),
     button("Clear all progress on this phone", () => {
       if (!confirm("Clear all saved progress on this phone? This cannot be undone.")) return;
@@ -3234,7 +3470,7 @@ function readinessText() {
 function lessonText(s, n, r) {
   const cards = r.rows.filter((x) => x.phase === "card"), practice = r.rows.filter((x) => x.phase === "practice");
   const secs = r.rows.reduce((t, x) => t + x.seconds, 0);
-  const out = [`${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}) · ${r.at.slice(0, 16).replace("T", " ")} · ${Math.round(secs)}s · "I don't know" ${count(r.rows, "idk")}`,
+  const out = [`${subjectName(s)} Lesson ${n} (${TITLES[s][n]}) · ${r.at.slice(0, 16).replace("T", " ")} · ${Math.round(secs)}s · "I don't know" ${count(r.rows, "idk")}`,
     `  cards: ${count(cards, "right")} right, ${count(cards, "wrong")} wrong, ${count(cards, "idk")} IDK · practice: ${count(practice, "right")} right, ${count(practice, "wrong")} wrong, ${count(practice, "idk")} IDK`,
     `  needs review (missed twice): ${r.review.join(", ") || "none"}`];
   if (r.paper) {
@@ -3255,7 +3491,7 @@ function allResultsText() {
   const tables = [...(state.readiness?.rows || []).map(row)];
   for (const s of Object.keys(SUBJECTS)) {
     const done = LESSONS[s].filter((n) => state.lessons[lessonKey(s, n)]?.done);
-    out.push(`${SUBJECTS[s]}: lessons done ${done.length} of ${LESSONS[s].length}`, ...done.flatMap((n) => lessonText(s, n, state.lessons[lessonKey(s, n)])));
+    out.push(`${subjectName(s)}: lessons done ${done.length} of ${LESSONS[s].length}`, ...done.flatMap((n) => lessonText(s, n, state.lessons[lessonKey(s, n)])));
     tables.push(...done.flatMap((n) => state.lessons[lessonKey(s, n)].rows.map(row)));
   }
   return [...out, "", TABLE_HEAD, ...tables].join("\n");
@@ -3292,7 +3528,7 @@ function results(flow) {
     para(Ln.paper_task ? `You completed ${completed} questions and a writing task.` : T("You completed {a} questions.", { a: completed }), "done-sub"),
     st ? para(T("🔥 {a}-day streak", { a: st }), "done-streak") : null),
     badges.map(([, icon, name]) => el("div", { class: "new-badge" }, el("span", { "aria-hidden": "true" }, icon), el("strong", {}, T("New badge: {a}", { a: name })))),
-    next ? button(T("Next: Lesson {a}", { a: next }), () => openLesson(s, next), "primary") : para(T("You have done every {a} lesson. Well done!", { a: SUBJECTS[s] }), "strong"),
+    next ? button(T("Next: Lesson {a}", { a: next }), () => openLesson(s, next), "primary") : para(T("You have done every {a} lesson. Well done!", { a: subjectName(s) }), "strong"),
     button(T("Back to the lessons"), menu, next ? "" : "primary"),
     button(T("All subjects"), home, "link"),
     para("For a grown-up: these results stay on this phone until you copy them.", "muted"),
@@ -3305,7 +3541,7 @@ function results(flow) {
 // shown, marks each part ✓ OK or ✗ Problem with an optional comment, then sends the review as one message
 // (WhatsApp or any app, through the phone's share sheet, or copied). Marks are kept on this phone only; nothing is sent
 // unless the teacher sends it. Pupils never see this mode. Every mark carries the item's id, so fixes are exact.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, MODE */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, MODE, subjectName */
 
 const REVIEW_KEY = "psalmspreps-review-v1";
 const loadReview = () => {
@@ -3400,7 +3636,7 @@ function reviewItem(s, n, it) {
 function reviewLesson(s, n) {
   if (!CONTENT[s]) return withSubject(s, () => reviewLesson(s, n));
   const c = lessonCounts(s, n);
-  screen(header(`Review · ${SUBJECTS[s]} · Lesson ${n}`, TITLES[s][n]),
+  screen(header(`Review · ${subjectName(s)} · Lesson ${n}`, TITLES[s][n]),
     para(`${c.done} of ${c.total} parts checked${c.problems ? ` · ${c.problems} problem${c.problems === 1 ? "" : "s"}` : ""}. Answers are shown. Mark each part, and add a comment when something is wrong.`, "muted"),
     reviewItems(s, n).map((it) => reviewItem(s, n, it)),
     button("Back to the review list", reviewHome, "primary"));
@@ -3415,7 +3651,7 @@ function reviewText() {
     const items = reviewItems(s, n).map((it) => [it, review.marks[markKey(s, n, it.id)]]).filter(([, m]) => m);
     if (!items.length) continue;
     const ok = items.filter(([, m]) => m.ok);
-    out.push("", `${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}): ${items.length} of ${reviewItems(s, n).length} checked, ${items.length - ok.length} problem(s)`);
+    out.push("", `${subjectName(s)} Lesson ${n} (${TITLES[s][n]}): ${items.length} of ${reviewItems(s, n).length} checked, ${items.length - ok.length} problem(s)`);
     for (const [it, m] of items) if (!m.ok || m.note) out.push(`  ${m.ok ? "✓" : "✗"} ${s}:${n}:${it.id}${m.note ? ` — ${m.note}` : ""}`);
   }
   return out.join("\n");
@@ -3441,8 +3677,8 @@ function reviewHome() {
   const name = el("input", { type: "text", class: "rv-name", placeholder: "Your name", "aria-label": "Your name", autocomplete: "name" });
   name.value = review.name;
   name.addEventListener("change", () => { review.name = name.value.trim(); saveReview(); });
-  const tabs = el("div", { class: "subjects", role: "tablist" }, Object.entries(SUBJECTS).map(([id, label]) =>
-    el("button", { type: "button", role: "tab", "aria-selected": String(id === RS), class: `subject${id === RS ? " on" : ""}`, onclick: () => { RS = id; reviewHome(); } }, label)));
+  const tabs = el("div", { class: "subjects", role: "tablist" }, Object.keys(SUBJECTS).map((id) =>
+    el("button", { type: "button", role: "tab", "aria-selected": String(id === RS), class: `subject${id === RS ? " on" : ""}`, onclick: () => { RS = id; reviewHome(); } }, subjectName(id))));
   const rows = LESSONS[RS].map((n) => {
     const c = lessonCounts(RS, n);
     const mark = c.done === c.total ? (c.problems ? "!" : "✓") : c.done ? "…" : String(n);

@@ -3,7 +3,7 @@
 // expressions, never stored as free text from an author or a model.
 //
 // Template types
-//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?
+//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?, signed? (answer may be negative)
 //   mcq         correct: tmpl + distractors: [tmpl | {text?, misconception}]   (computed values)
 //               or pool: {right: [stmt], wrong: [stmt]}, pick: {right, wrong}  (choose the true one)
 //   spot_error  pool + pick (choose the false statement), or steps: [stmt] with exactly one false
@@ -180,6 +180,7 @@ export function instantiate(tpl, seed, lib, lesson = null) {
       const value = evaluate(tpl.answer, scope, lib);
       if (kind === "number" && (typeof value !== "number" || !Number.isFinite(value))) throw new ContentError(`${tpl.id}: answer is ${value}`);
       Object.assign(q, { answerKind: kind, answerValue: value, answer: show(lib)(value), unit: tpl.unit && R(tpl.unit, scope) });
+      if (tpl.signed) q.signed = true;  // the answer can be negative: the keyboard must have a minus sign
       q.misconceptions = (tpl.misconceptions || []).flatMap((m) => {
         if (m.when && !evaluate(m.when, scope, lib)) return [];
         const v = evaluate(m.wrong, scope, lib);
@@ -342,7 +343,9 @@ export function normaliseInput(text, q) {
 
 /** Keyboard to show: the number pad for whole numbers and base numerals, decimal pad otherwise. */
 export function inputModeFor(q) {
-  if (q.type === "cloze") return "text";
+  // Integers (Form 2): many phone number pads have no minus sign, so a question whose answer can be negative gets the
+  // full keyboard for every variant (the keyboard must not give away the sign).
+  if (q.type === "cloze" || q.signed) return "text";
   if (q.answerKind === "base" || (q.answerKind === "number" && Number.isInteger(q.answerValue))) return "numeric";
   return q.answerKind === "number" ? "decimal" : "text";
 }

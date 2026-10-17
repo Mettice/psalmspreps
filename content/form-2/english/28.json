@@ -1,0 +1,303 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "e2-28",
+   "name": "Writing about cultural diversity and tolerance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cultural diversity means many different cultures living side by side: languages, religions, foods, dances, dress and festivals. Cameroon has more than two hundred ethnic groups, two official languages (English and French) and many religions.\nTolerance means accepting people whose ideas, beliefs or customs are different from ours, and treating them with respect.\nWriting a short composition:\n• Introduction: say what cultural diversity is.\n• Body: give examples, then explain why tolerance matters (peace, friendship, learning from each other).\n• Conclusion: say what we can do (learn a greeting in another language, share food, invite friends to our festivals).\nUse linking words: for example, also, however, because, so, in conclusion.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "my school"
+  },
+  "problem": "Plan three short paragraphs on cultural diversity in {t}.",
+  "steps": [
+   "Introduction: In {t} there are pupils from many tribes, who speak different languages and follow different religions.",
+   "Body: For example, we eat achu, ndolé and koki at the school fair. Tolerance matters because it keeps us friends.",
+   "Conclusion: In conclusion, we should learn from each other, for example by learning greetings in other languages."
+  ],
+  "answer": "Introduction (what diversity is) → body (examples and why tolerance matters) → conclusion (what we can do).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c28-1",
+    "status": "draft",
+    "idea": "Cultural diversity means many cultures together; tolerance means accepting and respecting differences.",
+    "vars": {},
+    "example": [
+     "Diversity: many languages, foods and festivals.",
+     "Tolerance: I respect my friend's religion even if it is not mine."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-28-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "writing-skills"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which sentence shows tolerance?",
+         "r": "I respect my friend's religion, even though it is not mine.",
+         "w": [
+          "My language is the only good one.",
+          "I laugh at people who dress differently.",
+          "I don't eat with people from other tribes."
+         ],
+         "e": [
+          "That rejects other languages.",
+          "Laughing at differences is not tolerance.",
+          "That excludes people."
+         ],
+         "y": "Respecting a different religion is tolerance."
+        },
+        {
+         "q": "Which sentence describes cultural diversity?",
+         "r": "Our class has pupils who speak eight different languages.",
+         "w": [
+          "Everybody in our town is the same.",
+          "We all eat the same food every day.",
+          "Nobody has a festival."
+         ],
+         "e": [
+          "Diversity means differences.",
+          "Diversity means variety.",
+          "Festivals are part of culture."
+         ],
+         "y": "Many languages in one class is cultural diversity."
+        },
+        {
+         "q": "Which is a good way to show tolerance?",
+         "r": "Learn a greeting in a classmate's language.",
+         "w": [
+          "Make fun of their accent.",
+          "Refuse to sit with them.",
+          "Tell them to change religion."
+         ],
+         "e": [
+          "That is mocking.",
+          "That excludes them.",
+          "That does not respect their beliefs."
+         ],
+         "y": "Learning their greeting shows respect."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c28-2",
+    "status": "draft",
+    "idea": "A composition has an introduction, a body and a conclusion.",
+    "vars": {},
+    "example": [
+     "Introduction: what the topic is.",
+     "Body: examples and reasons. Conclusion: what we should do."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-28-parts"
+    }
+   },
+   {
+    "id": "c28-3",
+    "status": "draft",
+    "idea": "Linking words join ideas: for example, also, however, because, so, in conclusion.",
+    "vars": {},
+    "example": [
+     "We eat different foods, for example achu and ndolé.",
+     "In conclusion, tolerance keeps the peace."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-28-link"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-28-parts",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "prompt": "Put the parts of the composition in order.",
+   "items": [
+    {
+     "text": "Cameroon has many cultures, languages and religions"
+    },
+    {
+     "text": "For example, in my class we speak Bakweri, Bamileke, Fulfulde and Pidgin"
+    },
+    {
+     "text": "Tolerance is important because it helps us live in peace"
+    },
+    {
+     "text": "In conclusion, we should respect and learn from each other"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "e2-28-link",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "We have many festivals, ___ the Ngondo and the Nguon.",
+       "a": "for example",
+       "w": [
+        "however",
+        "so"
+       ],
+       "e": [
+        "The festivals that follow are examples.",
+        "Examples follow, not a result."
+       ]
+      },
+      {
+       "s": "Our languages are different; ___, we understand each other in English.",
+       "a": "however",
+       "w": [
+        "for example",
+        "because"
+       ],
+       "e": [
+        "The idea is a contrast: however.",
+        "The idea is a contrast, not a reason."
+       ]
+      },
+      {
+       "s": "We respect each other ___ we want to live in peace.",
+       "a": "because",
+       "w": [
+        "however",
+        "for example"
+       ],
+       "e": [
+        "A reason follows: because.",
+        "A reason follows, not an example."
+       ]
+      },
+      {
+       "s": "___, diversity makes our country rich.",
+       "a": "In conclusion",
+       "w": [
+        "For example",
+        "Because"
+       ],
+       "e": [
+        "This sums up: in conclusion.",
+        "Because needs a reason after it."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the linking word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Write a short composition of three paragraphs (about one hundred and twenty words) on the topic “Cultural diversity and tolerance in my community”. Use an introduction, a body with examples, and a conclusion, and at least three linking words.",
+  "model": [
+   "My community is like a small Cameroon. People from many tribes live here: Bakweri, Bamileke, Bassa, Fulani and others. We speak different languages and follow different religions.",
+   "For example, at the end of the year our school holds a cultural day. Pupils wear their traditional dress, sing and share food such as achu, ndolé and kilishi. Tolerance is important because it helps us to live in peace. However, some people still laugh at other people's accents, and this hurts.",
+   "In conclusion, diversity makes us rich. We should respect each other's beliefs, learn new greetings and invite our friends to our festivals."
+  ],
+  "checklist": [
+   "My composition has three paragraphs: introduction, body, conclusion.",
+   "I explained what cultural diversity is.",
+   "I gave at least two examples from my community.",
+   "I explained why tolerance matters.",
+   "I used at least three linking words.",
+   "I did not insult or make fun of any group.",
+   "I checked my spelling and punctuation."
+  ]
+ }
+}

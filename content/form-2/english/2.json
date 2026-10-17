@@ -1,0 +1,487 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "e2-2",
+   "name": "Travel words and basic spelling rules"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Travel words: a journey (going from one place to another), the departure (leaving), the arrival (coming), the destination (the place you are going to), the timetable (the times of buses or trains), a passenger, the fare, a ticket, luggage, a delay (being late).\nSpelling rules when we add an ending:\n• A word ending in silent e drops the e before -ing: ride → riding, arrive → arriving (but not before -s: arrives).\n• One short vowel + one consonant, stressed at the end: double it: stop → stopping, plan → planned. British English also doubles l: travel → travelling.\n• Consonant + y changes y to i: carry → carries, carried; but vowel + y keeps the y: journey → journeys, delay → delayed.\n• A word ending in -ie changes ie to y before -ing: lie → lying.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "travel",
+   "b": "arrive",
+   "c": "journey"
+  },
+  "problem": "Add -ing to {a} and {b}, and write the plural of {c}.",
+  "steps": [
+   "{a} ends in one vowel + l: British English doubles the l: {ing(a)}.",
+   "{b} ends in a silent e: drop the e: {ing(b)}.",
+   "{c} ends in a vowel + y: keep the y and add s: {plural(c)}."
+  ],
+  "answer": "{ing(a)}, {ing(b)}, {plural(c)}",
+  "checks": [
+   "ing(a) == 'travelling' && ing(b) == 'arriving' && plural(c) == 'journeys'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "The words of a journey: you leave at the departure time and reach your destination at the arrival time.",
+    "vars": {},
+    "example": [
+     "Departure: seven o'clock, from Buea. Destination: Bamenda.",
+     "Arrival: two o'clock. A delay means the bus is late."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-2-words"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Drop a silent e before -ing: ride → riding.",
+    "vars": {
+     "v": "ride",
+     "w": "arrive"
+    },
+    "example": [
+     "{v} → {ing(v)}",
+     "{w} → {ing(w)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-2-c2",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "spelling-rules"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "ride",
+        "arrive",
+        "drive",
+        "leave",
+        "take",
+        "make",
+        "come",
+        "use",
+        "move",
+        "write"
+       ]
+      }
+     },
+     "prompt": "Write the -ing form of the verb.",
+     "text": "{v} → ___",
+     "answer": "ing(v)",
+     "misconceptions": [
+      {
+       "id": "kept-e",
+       "wrong": "v + 'ing'",
+       "explain": "Drop the silent e before -ing: {ing(v)}."
+      }
+     ]
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Double the last consonant after one short stressed vowel: stop → stopping, plan → planned. British English doubles l too: travel → travelling.",
+    "vars": {
+     "v": "stop",
+     "w": "travel"
+    },
+    "example": [
+     "{v} → {ing(v)}, {past(v)}",
+     "{w} → {ing(w)}, {past(w)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-2-double"
+    }
+   },
+   {
+    "id": "c2-4",
+    "status": "draft",
+    "idea": "Consonant + y: change y to i before -es or -ed. Vowel + y: keep the y.",
+    "vars": {},
+    "example": [
+     "carry → {thirdPerson('carry')}, {past('carry')}",
+     "journey → {plural('journey')}; delay → {past('delay')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-2-y"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-2-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each travel word to its meaning.",
+   "pool": [
+    {
+     "left": "departure",
+     "right": "the time a bus, train or plane leaves"
+    },
+    {
+     "left": "arrival",
+     "right": "the time a bus, train or plane comes in"
+    },
+    {
+     "left": "destination",
+     "right": "the place you are travelling to"
+    },
+    {
+     "left": "timetable",
+     "right": "a list of the times buses or trains leave and arrive"
+    },
+    {
+     "left": "delay",
+     "right": "a time when something is late"
+    },
+    {
+     "left": "journey",
+     "right": "going from one place to another"
+    },
+    {
+     "left": "ticket",
+     "right": "a paper that shows you have paid to travel"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-2-double",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "stop",
+      "plan",
+      "travel",
+      "run",
+      "sit",
+      "swim",
+      "shop",
+      "cancel",
+      "begin",
+      "get"
+     ]
+    }
+   },
+   "prompt": "Write the -ing form of the verb.",
+   "text": "{v} → ___",
+   "answer": "ing(v)",
+   "misconceptions": [
+    {
+     "id": "single",
+     "wrong": "v + 'ing'",
+     "explain": "Double the last consonant after one short stressed vowel: {ing(v)}."
+    }
+   ]
+  },
+  {
+   "id": "e2-2-y",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Tabe ___ his sister's bag.",
+       "a": "carries",
+       "w": [
+        "carrys",
+        "carryes"
+       ],
+       "e": [
+        "Consonant + y: change y to i and add -es.",
+        "Change the y to i: carries."
+       ]
+      },
+      {
+       "s": "The bus was ___ by the rain.",
+       "a": "delayed",
+       "w": [
+        "delaied",
+        "delayd"
+       ],
+       "e": [
+        "Vowel + y: keep the y and add -ed.",
+        "Add -ed: delayed."
+       ]
+      },
+      {
+       "s": "We made two long ___ last year.",
+       "a": "journeys",
+       "w": [
+        "journies",
+        "journeyes"
+       ],
+       "e": [
+        "Vowel + y: keep the y and add s.",
+        "Just add s: journeys."
+       ]
+      },
+      {
+       "s": "My mother ___ about the late bus.",
+       "a": "worries",
+       "w": [
+        "worrys",
+        "worryes"
+       ],
+       "e": [
+        "Consonant + y: change y to i and add -es.",
+        "Change the y to i: worries."
+       ]
+      },
+      {
+       "s": "She ___ at her aunt's house every holiday.",
+       "a": "stays",
+       "w": [
+        "staies",
+        "stayes"
+       ],
+       "e": [
+        "Vowel + y: keep the y: stays.",
+        "Just add s: stays."
+       ]
+      },
+      {
+       "s": "The children ___ to catch the bus.",
+       "a": "hurried",
+       "w": [
+        "hurryed",
+        "hurred"
+       ],
+       "e": [
+        "Consonant + y: change y to i before -ed.",
+        "Keep the i: hurried."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct spelling.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-2-use",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Our ___ is Kribi: that is where we are going.",
+       "a": "destination",
+       "w": [
+        "departure",
+        "fare"
+       ],
+       "e": [
+        "Departure is leaving.",
+        "The fare is the money you pay."
+       ]
+      },
+      {
+       "s": "Check the ___ to see when the next train leaves.",
+       "a": "timetable",
+       "w": [
+        "luggage",
+        "passenger"
+       ],
+       "e": [
+        "Luggage is bags.",
+        "A passenger is a traveller."
+       ]
+      },
+      {
+       "s": "There was a long ___ because of an accident on the road.",
+       "a": "delay",
+       "w": [
+        "arrival",
+        "ticket"
+       ],
+       "e": [
+        "Arrival is coming in.",
+        "A ticket shows you have paid."
+       ]
+      },
+      {
+       "s": "The ___ of the plane is at 10:30, so we must be at the airport by nine.",
+       "a": "departure",
+       "w": [
+        "destination",
+        "journey"
+       ],
+       "e": [
+        "The destination is the place you go to.",
+        "The journey is the whole trip."
+       ]
+      },
+      {
+       "s": "Put your ___ under the seat, please.",
+       "a": "luggage",
+       "w": [
+        "fare",
+        "timetable"
+       ],
+       "e": [
+        "The fare is money.",
+        "A timetable is a list of times."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "spelling-rules"
+   ],
+   "prompt": "One word is spelt wrongly. Which sentence has it?",
+   "pool": {
+    "right": [
+     {
+      "text": "We are travelling to Bamenda.",
+      "truth": "true"
+     },
+     {
+      "text": "The bus is arriving now.",
+      "truth": "true"
+     },
+     {
+      "text": "She carries a heavy bag.",
+      "truth": "true"
+     },
+     {
+      "text": "Our journeys were long.",
+      "truth": "true"
+     },
+     {
+      "text": "The ticket office is closing.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "We are traveling to Bamenda.",
+      "truth": "false",
+      "explain": "British English, used in Cameroon, doubles the l: travelling."
+     },
+     {
+      "text": "The bus is arriveing now.",
+      "truth": "false",
+      "explain": "Drop the silent e before -ing: arriving."
+     },
+     {
+      "text": "She carrys a heavy bag.",
+      "truth": "false",
+      "explain": "Consonant + y: carries."
+     },
+     {
+      "text": "Our journies were long.",
+      "truth": "false",
+      "explain": "Vowel + y keeps the y: journeys."
+     },
+     {
+      "text": "The driver stoped at the checkpoint.",
+      "truth": "false",
+      "explain": "Double the p: stopped."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

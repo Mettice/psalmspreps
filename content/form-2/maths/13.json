@@ -1,0 +1,518 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "m2-13",
+   "name": "The coordinate plane: ordered pair, abscissa, ordinate, origin"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A coordinate plane has two number lines that are perpendicular: the horizontal x-axis and the vertical y-axis. They cross at the origin, O.\nEvery point has two coordinates, written as an ordered pair (x, y):\n• the first number, x, is the abscissa: how far to go right (positive) or left (negative) from O;\n• the second number, y, is the ordinate: how far to go up (positive) or down (negative).\nThe origin is O(0, 0). The order matters: (2, 5) and (5, 2) are different points.\nA point on the x-axis has ordinate 0, for example (4, 0). A point on the y-axis has abscissa 0, for example (0, −3).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": 3,
+   "y": -2,
+   "z": 0
+  },
+  "problem": "Point P has coordinates {pt(x, y)}. Give its abscissa and its ordinate, and say how to reach P from the origin.",
+  "steps": [
+   "In an ordered pair the first number is the abscissa: {x}.",
+   "The second number is the ordinate: {y}.",
+   "From O, go {x} units to the right (the abscissa is positive), then {-y} units down (the ordinate is negative)."
+  ],
+  "answer": "Abscissa {x}, ordinate {y}.",
+  "checks": [
+   "x > z && y < z"
+  ],
+  "figure": "coordPlane([['P', x, y]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "The coordinate plane has a horizontal x-axis and a vertical y-axis. They are perpendicular and cross at the origin O.",
+    "vars": {
+     "z": 0
+    },
+    "example": [
+     "The origin is the point O{pt(z, z)}.",
+     "Numbers on the x-axis grow to the right; numbers on the y-axis grow upwards."
+    ],
+    "checks": [],
+    "figure": "coordPlane([])",
+    "check": {
+     "id": "m2-13-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "coordinates"
+     ],
+     "prompt": "Which statement is true?",
+     "pool": {
+      "right": [
+       {
+        "text": "The origin O has coordinates (0, 0)",
+        "truth": "true"
+       },
+       {
+        "text": "The x-axis is horizontal",
+        "truth": "true"
+       },
+       {
+        "text": "The y-axis is vertical",
+        "truth": "true"
+       },
+       {
+        "text": "The x-axis and the y-axis are perpendicular",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The origin O has coordinates (1, 1)",
+        "truth": "false",
+        "explain": "The origin is where the axes cross: both coordinates are 0."
+       },
+       {
+        "text": "The x-axis is vertical",
+        "truth": "false",
+        "explain": "The x-axis is the horizontal one."
+       },
+       {
+        "text": "The y-axis is horizontal",
+        "truth": "false",
+        "explain": "The y-axis is the vertical one."
+       },
+       {
+        "text": "The x-axis and the y-axis are parallel",
+        "truth": "false",
+        "explain": "The axes cross at the origin, at a right angle: they are perpendicular."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 2
+     }
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "A point is given by an ordered pair (x, y). The first number is the abscissa; the second is the ordinate.",
+    "vars": {
+     "x": 4,
+     "y": -1
+    },
+    "example": [
+     "In {pt(x, y)}, the abscissa is {x} and the ordinate is {y}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-13-abscissa"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "The order matters: swapping the two numbers gives a different point.",
+    "vars": {
+     "a": 2,
+     "b": 5
+    },
+    "example": [
+     "{pt(a, b)}: {a} along, {b} up.",
+     "{pt(b, a)}: {b} along, {a} up. It is another point."
+    ],
+    "checks": [],
+    "figure": "coordPlane([['A', a, b], ['B', b, a]])",
+    "check": {
+     "ref": "m2-13-ordinate"
+    }
+   },
+   {
+    "id": "c13-4",
+    "status": "draft",
+    "idea": "A point on the x-axis has ordinate {z}. A point on the y-axis has abscissa {z}.",
+    "vars": {
+     "a": 4,
+     "b": -3,
+     "z": 0
+    },
+    "example": [
+     "{pt(a, z)} is on the x-axis.",
+     "{pt(z, b)} is on the y-axis."
+    ],
+    "checks": [],
+    "figure": "coordPlane([['E', a, z], ['F', z, b]])",
+    "check": {
+     "ref": "m2-13-axis"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-13-abscissa",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "In the ordered pair {pt(x, y)}, what is the abscissa?",
+   "correct": "{x}",
+   "distractors": [
+    {
+     "text": "{y}",
+     "misconception": "ordinate"
+    },
+    {
+     "text": "{-x}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "ordinate",
+     "explain": "{y} is the ordinate, the second number. The abscissa is the first number."
+    },
+    {
+     "id": "sign",
+     "explain": "Keep the sign: the first number is {x}."
+    }
+   ],
+   "solution": [
+    "The abscissa is the first number of the ordered pair.",
+    "In {pt(x, y)} it is {answer}."
+   ],
+   "where": [
+    "x != 0 && y != 0",
+    "abs(x) != abs(y)"
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-13-ordinate",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "In the ordered pair {pt(x, y)}, what is the ordinate?",
+   "correct": "{y}",
+   "distractors": [
+    {
+     "text": "{x}",
+     "misconception": "abscissa"
+    },
+    {
+     "text": "{-y}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "abscissa",
+     "explain": "{x} is the abscissa, the first number. The ordinate is the second number."
+    },
+    {
+     "id": "sign",
+     "explain": "Keep the sign: the second number is {y}."
+    }
+   ],
+   "solution": [
+    "The ordinate is the second number of the ordered pair.",
+    "In {pt(x, y)} it is {answer}."
+   ],
+   "where": [
+    "x != 0 && y != 0",
+    "abs(x) != abs(y)"
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-13-axis",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      0,
+      1,
+      2
+     ]
+    },
+    "v": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "w": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "z": 0
+   },
+   "prompt": "Where is the point {pt(k == 0 ? v : (k == 1 ? z : v), k == 0 ? z : (k == 1 ? v : w))}?",
+   "correct": "{k == 0 ? 'on the x-axis' : (k == 1 ? 'on the y-axis' : 'on neither axis')}",
+   "distractors": [
+    {
+     "text": "on the x-axis",
+     "misconception": "x"
+    },
+    {
+     "text": "on the y-axis",
+     "misconception": "y"
+    },
+    {
+     "text": "on neither axis",
+     "misconception": "neither"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "x",
+     "explain": "On the x-axis the ordinate (the second number) is {z}. Here it is not."
+    },
+    {
+     "id": "y",
+     "explain": "On the y-axis the abscissa (the first number) is {z}. Here it is not."
+    },
+    {
+     "id": "neither",
+     "explain": "One of the coordinates is {z}, so the point is on an axis."
+    }
+   ],
+   "solution": [
+    "A point on the x-axis has ordinate {z}; a point on the y-axis has abscissa {z}.",
+    "So the point is {answer}."
+   ],
+   "where": [
+    "v != 0 && w != 0"
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-13-pair",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "A point has abscissa {x} and ordinate {y}. Which ordered pair is it?",
+   "correct": "{pt(x, y)}",
+   "distractors": [
+    {
+     "text": "{pt(y, x)}",
+     "misconception": "swapped"
+    },
+    {
+     "text": "{pt(-x, y)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{pt(x, -y)}",
+     "misconception": "sign2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swapped",
+     "explain": "The abscissa comes first: ({x}, …)."
+    },
+    {
+     "id": "sign",
+     "explain": "Keep the sign of the abscissa: {x}."
+    },
+    {
+     "id": "sign2",
+     "explain": "Keep the sign of the ordinate: {y}."
+    }
+   ],
+   "solution": [
+    "The abscissa comes first and the ordinate second.",
+    "So the point is {answer}."
+   ],
+   "where": [
+    "x != 0 && y != 0",
+    "abs(x) != abs(y)"
+   ]
+  },
+  {
+   "id": "m2-13-words",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "coordinates"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "abscissa",
+     "right": "the first number of an ordered pair"
+    },
+    {
+     "left": "ordinate",
+     "right": "the second number of an ordered pair"
+    },
+    {
+     "left": "origin",
+     "right": "the point (0, 0), where the axes cross"
+    },
+    {
+     "left": "x-axis",
+     "right": "the horizontal axis"
+    },
+    {
+     "left": "y-axis",
+     "right": "the vertical axis"
+    },
+    {
+     "left": "ordered pair",
+     "right": "two numbers in brackets, in a fixed order"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "m2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "z": 0
+   },
+   "prompt": "Which statement is false?",
+   "pool": {
+    "right": [
+     {
+      "text": "The abscissa of {pt(x, y)} is {x}",
+      "truth": "true"
+     },
+     {
+      "text": "The ordinate of {pt(x, y)} is {y}",
+      "truth": "true"
+     },
+     {
+      "text": "{pt(x, z)} is on the x-axis",
+      "truth": "true"
+     },
+     {
+      "text": "{pt(z, y)} is on the y-axis",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The abscissa of {pt(x, y)} is {y}",
+      "truth": "false",
+      "explain": "The abscissa is the first number, {x}."
+     },
+     {
+      "text": "{pt(x, z)} is on the y-axis",
+      "truth": "false",
+      "explain": "Its ordinate is {z}, so it is on the x-axis."
+     },
+     {
+      "text": "{pt(x, y)} and {pt(y, x)} are the same point",
+      "truth": "false",
+      "explain": "The order matters: {pt(x, y)} and {pt(y, x)} are different points."
+     },
+     {
+      "text": "The ordinate of {pt(x, y)} is {x}",
+      "truth": "false",
+      "explain": "The ordinate is the second number, {y}."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "where": [
+    "x != 0 && y != 0",
+    "abs(x) != abs(y)"
+   ]
+  }
+ ]
+}

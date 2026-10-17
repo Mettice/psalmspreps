@@ -2,7 +2,7 @@
 // shown, marks each part ✓ OK or ✗ Problem with an optional comment, then sends the review as one message
 // (WhatsApp or any app, through the phone's share sheet, or copied). Marks are kept on this phone only; nothing is sent
 // unless the teacher sends it. Pupils never see this mode. Every mark carries the item's id, so fixes are exact.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, MODE */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, MODE, subjectName */
 
 const REVIEW_KEY = "psalmspreps-review-v1";
 const loadReview = () => {
@@ -97,7 +97,7 @@ function reviewItem(s, n, it) {
 function reviewLesson(s, n) {
   if (!CONTENT[s]) return withSubject(s, () => reviewLesson(s, n));
   const c = lessonCounts(s, n);
-  screen(header(`Review · ${SUBJECTS[s]} · Lesson ${n}`, TITLES[s][n]),
+  screen(header(`Review · ${subjectName(s)} · Lesson ${n}`, TITLES[s][n]),
     para(`${c.done} of ${c.total} parts checked${c.problems ? ` · ${c.problems} problem${c.problems === 1 ? "" : "s"}` : ""}. Answers are shown. Mark each part, and add a comment when something is wrong.`, "muted"),
     reviewItems(s, n).map((it) => reviewItem(s, n, it)),
     button("Back to the review list", reviewHome, "primary"));
@@ -112,7 +112,7 @@ function reviewText() {
     const items = reviewItems(s, n).map((it) => [it, review.marks[markKey(s, n, it.id)]]).filter(([, m]) => m);
     if (!items.length) continue;
     const ok = items.filter(([, m]) => m.ok);
-    out.push("", `${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}): ${items.length} of ${reviewItems(s, n).length} checked, ${items.length - ok.length} problem(s)`);
+    out.push("", `${subjectName(s)} Lesson ${n} (${TITLES[s][n]}): ${items.length} of ${reviewItems(s, n).length} checked, ${items.length - ok.length} problem(s)`);
     for (const [it, m] of items) if (!m.ok || m.note) out.push(`  ${m.ok ? "✓" : "✗"} ${s}:${n}:${it.id}${m.note ? ` — ${m.note}` : ""}`);
   }
   return out.join("\n");
@@ -138,8 +138,8 @@ function reviewHome() {
   const name = el("input", { type: "text", class: "rv-name", placeholder: "Your name", "aria-label": "Your name", autocomplete: "name" });
   name.value = review.name;
   name.addEventListener("change", () => { review.name = name.value.trim(); saveReview(); });
-  const tabs = el("div", { class: "subjects", role: "tablist" }, Object.entries(SUBJECTS).map(([id, label]) =>
-    el("button", { type: "button", role: "tab", "aria-selected": String(id === RS), class: `subject${id === RS ? " on" : ""}`, onclick: () => { RS = id; reviewHome(); } }, label)));
+  const tabs = el("div", { class: "subjects", role: "tablist" }, Object.keys(SUBJECTS).map((id) =>
+    el("button", { type: "button", role: "tab", "aria-selected": String(id === RS), class: `subject${id === RS ? " on" : ""}`, onclick: () => { RS = id; reviewHome(); } }, subjectName(id))));
   const rows = LESSONS[RS].map((n) => {
     const c = lessonCounts(RS, n);
     const mark = c.done === c.total ? (c.problems ? "!" : "✓") : c.done ? "…" : String(n);

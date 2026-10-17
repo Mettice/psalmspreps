@@ -1,0 +1,393 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "m2-12",
+   "name": "The perpendicular bisector and distances"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Every point of the perpendicular bisector of [AB] is at the same distance from A and from B: if P is on it, then PA = PB.\nThe converse is also true: if a point P has PA = PB, then P is on the perpendicular bisector of [AB].\nSo the perpendicular bisector of [AB] is the set of all the points that are equidistant from A and B (at equal distances).\nIf PA is not equal to PB, P is not on the perpendicular bisector.\nTwo points that are each equidistant from A and B are enough to draw the perpendicular bisector: it is the line through them. That is why the construction works: the crossing points of the arcs are at the same distance from A and from B.\nA triangle PAB with P on the perpendicular bisector of [AB] is isosceles: PA = PB.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "pa": 7,
+   "ab": 6,
+   "two": 2
+  },
+  "problem": "P is on the perpendicular bisector of [AB]. PA = {pa} cm and AB = {ab} cm. Find PB and the perimeter of triangle PAB.",
+  "steps": [
+   "P is on the perpendicular bisector of [AB], so P is at the same distance from A and B: PB = PA = {pa} cm.",
+   "Perimeter = PA + PB + AB = {pa} + {pa} + {ab} = {two * pa + ab} cm."
+  ],
+  "answer": "PB = {pa} cm and the perimeter is {two * pa + ab} cm.",
+  "checks": [
+   "two * pa + ab == 20"
+  ],
+  "figure": "bisectorFig(pa, '?')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "Every point of the perpendicular bisector of [AB] is at the same distance from A and from B.",
+    "vars": {
+     "pa": 5
+    },
+    "example": [
+     "P is on (Δ) and PA = {pa} cm, so PB = {pa} cm too."
+    ],
+    "checks": [],
+    "figure": "bisectorFig(pa, '?')",
+    "check": {
+     "ref": "m2-12-pb"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "If a point is at the same distance from A and from B, it is on the perpendicular bisector of [AB]. If not, it is not.",
+    "vars": {
+     "x": 6,
+     "y": 4
+    },
+    "example": [
+     "QA = {x} cm and QB = {x} cm: Q is on the perpendicular bisector.",
+     "RA = {x} cm and RB = {y} cm: R is not on it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-12-on"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "Two points that are each equidistant from A and B fix the perpendicular bisector: it is the line through them.",
+    "vars": {},
+    "example": [
+     "CA = CB and DA = DB, so C and D are both on the perpendicular bisector of [AB].",
+     "The perpendicular bisector of [AB] is the line (CD)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-12-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "perpendicular-bisector"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        [
+         "C",
+         "D"
+        ],
+        [
+         "E",
+         "F"
+        ],
+        [
+         "K",
+         "L"
+        ],
+        [
+         "M",
+         "N"
+        ],
+        [
+         "P",
+         "Q"
+        ],
+        [
+         "R",
+         "S"
+        ]
+       ]
+      }
+     },
+     "prompt": "{P[0]}A = {P[0]}B and {P[1]}A = {P[1]}B. Which line is the perpendicular bisector of [AB]?",
+     "correct": "({P[0]}{P[1]})",
+     "distractors": [
+      {
+       "text": "(AB)",
+       "misconception": "ab"
+      },
+      {
+       "text": "({P[0]}A)",
+       "misconception": "pa"
+      },
+      {
+       "text": "({P[1]}B)",
+       "misconception": "pb"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "ab",
+       "explain": "(AB) contains the segment; the perpendicular bisector crosses it."
+      },
+      {
+       "id": "pa",
+       "explain": "The perpendicular bisector does not pass through A: A is not at the same distance from A and B."
+      },
+      {
+       "id": "pb",
+       "explain": "The perpendicular bisector does not pass through B: B is not at the same distance from A and B."
+      }
+     ],
+     "solution": [
+      "{P[0]} and {P[1]} are both equidistant from A and B, so both are on the perpendicular bisector.",
+      "The line through them is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-12-pb",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "pa": {
+     "int": [
+      3,
+      15
+     ]
+    }
+   },
+   "prompt": "P is on the perpendicular bisector of [AB] and PA = {pa} cm. Find PB.",
+   "answer": "pa",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "pa / 2",
+     "explain": "PB is not half of PA: P is at the same distance from A and B."
+    },
+    {
+     "id": "double",
+     "wrong": "pa * 2",
+     "explain": "P is at the same distance from A and B."
+    }
+   ],
+   "solution": [
+    "Every point of the perpendicular bisector is at the same distance from A and B.",
+    "So PB = PA = {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "bisectorFig(pa, '?')"
+  },
+  {
+   "id": "m2-12-on",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "e": {
+     "pick": [
+      0,
+      0,
+      1,
+      -1,
+      2
+     ]
+    },
+    "y": {
+     "expr": "x + e"
+    }
+   },
+   "prompt": "Point P has PA = {x} cm and PB = {y} cm. Is P on the perpendicular bisector of [AB]?",
+   "correct": "{x == y ? 'Yes' : 'No'}",
+   "distractors": [
+    {
+     "text": "{x == y ? 'No' : 'Yes'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "PA = {x} cm and PB = {y} cm. {x == y ? 'The two distances are equal' : 'The two distances are not equal'}."
+    }
+   ],
+   "solution": [
+    "PA = {x} cm and PB = {y} cm.",
+    "{x == y ? 'The two distances are equal' : 'The two distances are not equal'}, so the answer is {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "m2-12-perimeter",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "pa": {
+     "int": [
+      4,
+      15
+     ]
+    },
+    "ab": {
+     "int": [
+      3,
+      20
+     ]
+    }
+   },
+   "prompt": "P is on the perpendicular bisector of [AB]. PA = {pa} cm and AB = {ab} cm. Find the perimeter of triangle PAB.",
+   "answer": "2 * pa + ab",
+   "misconceptions": [
+    {
+     "id": "two-sides",
+     "wrong": "pa + ab",
+     "explain": "PB is a side too, and PB = PA = {pa} cm."
+    }
+   ],
+   "solution": [
+    "P is on the perpendicular bisector, so PB = PA = {pa} cm.",
+    "Perimeter = {pa} + {pa} + {ab} = {answer} cm."
+   ],
+   "where": [
+    "ab < 2 * pa"
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-12-find",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "pa": {
+     "int": [
+      4,
+      15
+     ]
+    },
+    "ab": {
+     "int": [
+      3,
+      20
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "P is on the perpendicular bisector of [AB]. The perimeter of triangle PAB is {2 * pa + ab} cm and AB = {ab} cm. Find PA.",
+   "answer": "pa",
+   "misconceptions": [
+    {
+     "id": "not-halved",
+     "wrong": "2 * pa",
+     "explain": "That is PA + PB. PA is half of it, because PA = PB."
+    }
+   ],
+   "solution": [
+    "PA = PB, so PA + PB = {2 * pa + ab} − {ab} = {2 * pa} cm.",
+    "PA = {2 * pa} ÷ {two} = {answer} cm."
+   ],
+   "where": [
+    "ab < 2 * pa"
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-12-which",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "perpendicular-bisector"
+   ],
+   "vars": {
+    "N": {
+     "sample": [
+      "['C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S']",
+      4
+     ]
+    },
+    "x": {
+     "int": [
+      3,
+      10
+     ]
+    },
+    "y": {
+     "int": [
+      3,
+      12
+     ]
+    }
+   },
+   "prompt": "Which point is on the perpendicular bisector of [AB]?",
+   "correct": "{N[0]}: {N[0]}A = {x} cm, {N[0]}B = {x} cm",
+   "distractors": [
+    {
+     "text": "{N[1]}: {N[1]}A = {x} cm, {N[1]}B = {x + 1} cm",
+     "misconception": "n1"
+    },
+    {
+     "text": "{N[2]}: {N[2]}A = {y} cm, {N[2]}B = {x} cm",
+     "misconception": "n2"
+    },
+    {
+     "text": "{N[3]}: {N[3]}A = {x + 2} cm, {N[3]}B = {y} cm",
+     "misconception": "n3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "n1",
+     "explain": "{N[1]}A = {x} cm and {N[1]}B = {x + 1} cm are not equal."
+    },
+    {
+     "id": "n2",
+     "explain": "{N[2]}A = {y} cm and {N[2]}B = {x} cm are not equal."
+    },
+    {
+     "id": "n3",
+     "explain": "{N[3]}A = {x + 2} cm and {N[3]}B = {y} cm are not equal."
+    }
+   ],
+   "solution": [
+    "A point is on the perpendicular bisector of [AB] exactly when it is at the same distance from A and B.",
+    "Only {N[0]} has equal distances, so the answer is {answer}."
+   ],
+   "where": [
+    "y != x && y != x + 2"
+   ]
+  }
+ ]
+}

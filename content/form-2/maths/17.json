@@ -1,0 +1,535 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "m2-17",
+   "name": "Like and unlike terms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Like terms have exactly the same letters, each with the same power. Only the coefficients may differ.\nLike: 3x and −5x; 2ab and 7ba (ab = ba: the order of the letters does not matter); 4x² and x².\nUnlike: 3x and 3y (different letters); 2x and 2x² (different powers); 5 and 5x (one has no letter).\nLike terms can be added or subtracted by adding or subtracting their coefficients: 3x + 5x = 8x, 7y − 2y = 5y.\nUnlike terms cannot be joined: 3x + 5y stays as it is (it is not 8xy).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 6,
+   "b": -4,
+   "c": 3
+  },
+  "problem": "Group the terms {mono(a, 'x')}, {mono(c, 'y')}, {mono(b, 'x')} and {mono(c, 'x²')} into like terms, and add the like terms.",
+  "steps": [
+   "{mono(a, 'x')} and {mono(b, 'x')} both have the letter x on its own: they are like terms.",
+   "{mono(c, 'y')} has a different letter, and {mono(c, 'x²')} has x squared: they are unlike the others.",
+   "{mono(a, 'x')} + {br(b)}x: add the coefficients, {a} + {br(b)} = {a + b}, so the sum is {mono(a + b, 'x')}."
+  ],
+  "answer": "{mono(a + b, 'x')}, {mono(c, 'y')} and {mono(c, 'x²')}",
+  "checks": [
+   "a + b == 2"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "Like terms have the same letters with the same powers. Only the numbers in front may change.",
+    "vars": {
+     "a": 3,
+     "b": -5
+    },
+    "example": [
+     "{mono(a, 'x')} and {mono(b, 'x')} are like terms.",
+     "{mono(a, 'x')} and {mono(a, 'y')} are unlike: the letters are different."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-17-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "like-terms"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "v": {
+       "pick": [
+        "x",
+        "y",
+        "p"
+       ]
+      },
+      "w": {
+       "pick": [
+        "a",
+        "b",
+        "q"
+       ]
+      }
+     },
+     "prompt": "Which term is a like term of {mono(a, v)}?",
+     "correct": "{mono(b, v)}",
+     "distractors": [
+      {
+       "text": "{mono(a, w)}",
+       "misconception": "letter"
+      },
+      {
+       "text": "{mono(a, v + '²')}",
+       "misconception": "power"
+      },
+      {
+       "text": "{a}",
+       "misconception": "number"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "letter",
+       "explain": "{mono(a, w)} has the letter {w}, not {v}."
+      },
+      {
+       "id": "power",
+       "explain": "{mono(a, v + '²')} has {v} squared: the power is different."
+      },
+      {
+       "id": "number",
+       "explain": "{a} has no letter, so it is not like {mono(a, v)}."
+      }
+     ],
+     "solution": [
+      "A like term has the same letter, {v}, with the same power.",
+      "{answer} has {v} on its own, so it is like {mono(a, v)}."
+     ],
+     "where": [
+      "b != a && b != 0 && abs(b) != 1"
+     ]
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "The power matters: x and x² are unlike terms, because x² means x × x.",
+    "vars": {
+     "a": 2,
+     "b": 7
+    },
+    "example": [
+     "{mono(a, 'x')} and {mono(a, 'x²')} are unlike.",
+     "{mono(a, 'x²')} and {mono(b, 'x²')} are like."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-17-sort"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "The order of the letters does not matter: ab and ba are the same, so {mono(a, 'ab')} and {mono(b, 'ba')} are like terms.",
+    "vars": {
+     "a": 2,
+     "b": 7
+    },
+    "example": [
+     "{mono(a, 'ab')} and {mono(b, 'ba')} are like terms.",
+     "{mono(a, 'ab')} and {mono(b, 'a')} are not."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-17-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "like-terms"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        9
+       ]
+      }
+     },
+     "prompt": "Which pair are like terms?",
+     "pool": {
+      "right": [
+       {
+        "text": "{mono(a, 'ab')} and {mono(b, 'ba')}",
+        "truth": "true"
+       },
+       {
+        "text": "{mono(a, 'xy')} and {mono(b, 'yx')}",
+        "truth": "true"
+       },
+       {
+        "text": "{mono(a, 'pq')} and {mono(b, 'qp')}",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "{mono(a, 'ab')} and {mono(b, 'a')}",
+        "truth": "false",
+        "explain": "{mono(b, 'a')} has only the letter a; {mono(a, 'ab')} has a and b."
+       },
+       {
+        "text": "{mono(a, 'xy')} and {mono(b, 'x²y')}",
+        "truth": "false",
+        "explain": "x²y has x squared; xy has x on its own."
+       },
+       {
+        "text": "{mono(a, 'pq')} and {mono(a, 'p')}",
+        "truth": "false",
+        "explain": "{mono(a, 'p')} has only the letter p."
+       },
+       {
+        "text": "{mono(a, 'x')} and {mono(a, 'y')}",
+        "truth": "false",
+        "explain": "The letters are different."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 2
+     },
+     "where": [
+      "a != b"
+     ]
+    }
+   },
+   {
+    "id": "c17-4",
+    "status": "draft",
+    "idea": "To add or subtract like terms, add or subtract their coefficients and keep the letters.",
+    "vars": {
+     "a": 3,
+     "b": 5,
+     "c": 7,
+     "d": 2
+    },
+    "example": [
+     "{mono(a, 'x')} + {mono(b, 'x')} = {mono(a + b, 'x')}",
+     "{mono(c, 'y')} − {mono(d, 'y')} = {mono(c - d, 'y')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-17-add"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-17-add",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "like-terms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "a",
+      "m",
+      "t"
+     ]
+    }
+   },
+   "prompt": "Simplify {mono(a, v)} + {mono(b, v)}.",
+   "correct": "{mono(a + b, v)}",
+   "distractors": [
+    {
+     "text": "{mono(a * b, v)}",
+     "misconception": "times"
+    },
+    {
+     "text": "{mono(a + b, v + '²')}",
+     "misconception": "power"
+    },
+    {
+     "text": "{a + b}",
+     "misconception": "drop"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "times",
+     "explain": "Add the coefficients, do not multiply them."
+    },
+    {
+     "id": "power",
+     "explain": "Adding does not change the power: {v} stays {v}."
+    },
+    {
+     "id": "drop",
+     "explain": "Keep the letter: {a + b}{v}."
+    }
+   ],
+   "solution": [
+    "{mono(a, v)} and {mono(b, v)} are like terms: add the coefficients.",
+    "{a} + {b} = {a + b}, so the answer is {answer}."
+   ],
+   "where": [
+    "a * b != a + b"
+   ]
+  },
+  {
+   "id": "m2-17-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "like-terms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Sort the terms into groups of like terms.",
+   "pool": [
+    {
+     "left": "{mono(a, 'x')}",
+     "right": "x terms"
+    },
+    {
+     "left": "{mono(-b, 'x')}",
+     "right": "x terms"
+    },
+    {
+     "left": "{mono(c, 'x')}",
+     "right": "x terms"
+    },
+    {
+     "left": "{mono(b, 'y')}",
+     "right": "y terms"
+    },
+    {
+     "left": "{mono(-a, 'y')}",
+     "right": "y terms"
+    },
+    {
+     "left": "{mono(c, 'y')}",
+     "right": "y terms"
+    },
+    {
+     "left": "{mono(a, 'x²')}",
+     "right": "x² terms"
+    },
+    {
+     "left": "{mono(b, 'x²')}",
+     "right": "x² terms"
+    },
+    {
+     "left": "{mono(-c, 'x²')}",
+     "right": "x² terms"
+    }
+   ],
+   "pick": 6,
+   "groups": true,
+   "group_order": [
+    "x terms",
+    "y terms",
+    "x² terms"
+   ],
+   "where": [
+    "a != b && b != c && a != c"
+   ]
+  },
+  {
+   "id": "m2-17-sub",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "like-terms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "v": {
+     "pick": [
+      "x",
+      "y",
+      "ab",
+      "p"
+     ]
+    }
+   },
+   "prompt": "Simplify {mono(a, v)} − {mono(b, v)}.",
+   "correct": "{mono(a - b, v)}",
+   "distractors": [
+    {
+     "text": "{mono(a + b, v)}",
+     "misconception": "added"
+    },
+    {
+     "text": "{mono(b - a, v)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{a - b}",
+     "misconception": "drop"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "added",
+     "explain": "It is a subtraction: {a} − {b}."
+    },
+    {
+     "id": "sign",
+     "explain": "Start from {a} and take away {b}: {a - b}."
+    },
+    {
+     "id": "drop",
+     "explain": "Keep the letters: {mono(a - b, v)}."
+    }
+   ],
+   "solution": [
+    "Like terms: subtract the coefficients.",
+    "{a} − {b} = {a - b}, so the answer is {answer}."
+   ],
+   "where": [
+    "a != b",
+    "a - b != 1 && a - b != -1"
+   ]
+  },
+  {
+   "id": "m2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "like-terms"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Which statement is false?",
+   "pool": {
+    "right": [
+     {
+      "text": "{mono(a, 'x')} + {mono(b, 'x')} = {mono(a + b, 'x')}",
+      "truth": "true"
+     },
+     {
+      "text": "{mono(a, 'ab')} + {mono(b, 'ba')} = {mono(a + b, 'ab')}",
+      "truth": "true"
+     },
+     {
+      "text": "{mono(a, 'x')} and {mono(b, 'x²')} are unlike terms",
+      "truth": "true"
+     },
+     {
+      "text": "{mono(a + b, 'y')} − {mono(b, 'y')} = {mono(a, 'y')}",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "{mono(a, 'x')} + {mono(b, 'y')} = {mono(a + b, 'xy')}",
+      "truth": "false",
+      "explain": "x and y are unlike terms: {mono(a, 'x')} + {mono(b, 'y')} cannot be joined."
+     },
+     {
+      "text": "{mono(a, 'x')} + {mono(b, 'x')} = {mono(a + b, 'x²')}",
+      "truth": "false",
+      "explain": "Adding like terms keeps the power: {mono(a + b, 'x')}."
+     },
+     {
+      "text": "{mono(a, 'x')} and {mono(b, 'x²')} are like terms",
+      "truth": "false",
+      "explain": "x and x² have different powers, so they are unlike."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "where": [
+    "a != b"
+   ]
+  }
+ ]
+}

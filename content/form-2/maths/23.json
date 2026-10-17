@@ -1,0 +1,619 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [
+  21,
+  22
+ ],
+ "skills": [
+  {
+   "id": "m2-23",
+   "name": "Solving linear inequalities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Solve an inequality like an equation, doing the same thing to both sides:\n• Adding or subtracting the same number keeps the sign: x + 3 < 7 gives x < 4.\n• Multiplying or dividing by a positive number keeps the sign: 2x ≥ 10 gives x ≥ 5.\n• Multiplying or dividing by a negative number turns the sign round: −3x < 6 gives x > −2. (Check: x = 0 works, because −3 × 0 = 0 < 6.)\nTwo steps: 2x + 1 > 9. Subtract 1: 2x > 8. Divide by 2: x > 4.\nThe whole-number solutions can be listed: if x < 4 and x is a natural number, x can be 0, 1, 2 or 3.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": 2,
+   "c": 14,
+   "one": 1
+  },
+  "problem": "Solve {poly([a, 'x'], [b, ''])} ≤ {c}, then list the natural numbers that satisfy it.",
+  "steps": [
+   "Subtract {b} from both sides: {mono(a, 'x')} ≤ {c - b}.",
+   "Divide both sides by {a}, a positive number, so the sign stays: x ≤ {(c - b) / a}.",
+   "The natural numbers that are less than or equal to {(c - b) / a}: {solutionsIn(0, (c - b) / a, '≤', (c - b) / a)}."
+  ],
+  "answer": "x ≤ {(c - b) / a}: x = {solutionsIn(0, (c - b) / a, '≤', (c - b) / a)}",
+  "checks": [
+   "(c - b) / a == 4"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c23-1",
+    "status": "draft",
+    "idea": "Adding or subtracting the same number on both sides keeps the inequality sign.",
+    "vars": {
+     "a": 3,
+     "b": 7
+    },
+    "example": [
+     "x + {a} < {b}: subtract {a}, x < {b - a}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-23-add"
+    }
+   },
+   {
+    "id": "c23-2",
+    "status": "draft",
+    "idea": "Dividing both sides by a positive number keeps the sign.",
+    "vars": {
+     "a": 2,
+     "k": 5
+    },
+    "example": [
+     "{mono(a, 'x')} ≥ {a * k}: divide by {a}, x ≥ {k}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-23-mul"
+    }
+   },
+   {
+    "id": "c23-3",
+    "status": "draft",
+    "idea": "Dividing both sides by a negative number turns the sign round.",
+    "vars": {
+     "a": -3,
+     "k": -2,
+     "one": 1
+    },
+    "example": [
+     "{mono(a, 'x')} < {a * k}: divide by {br(a)} and turn the sign: x > {k}.",
+     "Check with x = {k + one}: {a} × {br(k + one)} = {a * (k + one)}, which is less than {a * k}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-23-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "inequalities"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -6,
+        -2
+       ]
+      },
+      "k": {
+       "int": [
+        -6,
+        6
+       ]
+      },
+      "op": {
+       "pick": [
+        "<",
+        ">",
+        "≤",
+        "≥"
+       ]
+      }
+     },
+     "prompt": "Solve {mono(a, 'x')} {op} {a * k}.",
+     "correct": "{ineq('x', flipOp(op), k)}",
+     "distractors": [
+      {
+       "text": "{ineq('x', op, k)}",
+       "misconception": "kept"
+      },
+      {
+       "text": "{ineq('x', flipOp(op), -k)}",
+       "misconception": "sign"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "kept",
+       "explain": "You divided by a negative number, {br(a)}: the sign must turn round."
+      },
+      {
+       "id": "sign",
+       "explain": "{a * k} ÷ {br(a)} = {k}: check the sign of the number."
+      }
+     ],
+     "solution": [
+      "Divide both sides by {br(a)}, a negative number, so the sign turns round.",
+      "{answer}"
+     ],
+     "where": [
+      "k != 0"
+     ],
+     "show": 3
+    }
+   },
+   {
+    "id": "c23-4",
+    "status": "draft",
+    "idea": "The whole-number solutions of an inequality can be listed.",
+    "vars": {
+     "k": 4
+    },
+    "example": [
+     "x < {k} with x a natural number: x = {solutionsIn(0, k, '<', k)}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-23-c4",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "inequalities"
+     ],
+     "vars": {
+      "op": {
+       "pick": [
+        "<",
+        "≤"
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "z": 0
+     },
+     "prompt": "x is a natural number (0, 1, 2, …) and {ineq('x', op, k)}. Which list gives all the possible values of x?",
+     "correct": "{solutionsIn(0, k, op, k)}",
+     "distractors": [
+      {
+       "text": "{solutionsIn(0, k, op == '<' ? '≤' : '<', k)}",
+       "misconception": "edge"
+      },
+      {
+       "text": "{solutionsIn(1, k, op, k)}",
+       "misconception": "zero"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "edge",
+       "explain": "{op == '<' ? 'The sign < leaves out ' + fmt(k) + '.' : 'The sign ≤ includes ' + fmt(k) + '.'}"
+      },
+      {
+       "id": "zero",
+       "explain": "{z} is a natural number too, and it is {opWords(op)} {k}."
+      }
+     ],
+     "solution": [
+      "{ineq('x', op, k)} means x is {opWords(op)} {k}, and natural numbers start at {z}.",
+      "So x = {answer}."
+     ],
+     "show": 3
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-23-add",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -10,
+      15
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    }
+   },
+   "prompt": "Solve x {b < 0 ? '−' : '+'} {abs(b)} {op} {c}.",
+   "correct": "{ineq('x', op, c - b)}",
+   "distractors": [
+    {
+     "text": "{ineq('x', op, c + b)}",
+     "misconception": "wrong-way"
+    },
+    {
+     "text": "{ineq('x', flipOp(op), c - b)}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "wrong-way",
+     "explain": "Do the opposite: {b < 0 ? 'add ' + fmt(-b) : 'subtract ' + fmt(b)}."
+    },
+    {
+     "id": "flip",
+     "explain": "Adding or subtracting never turns the sign round."
+    }
+   ],
+   "solution": [
+    "{b < 0 ? 'Add ' + fmt(-b) + ' to' : 'Subtract ' + fmt(b) + ' from'} both sides; the sign stays.",
+    "{answer}"
+   ],
+   "where": [
+    "b != 0"
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-23-mul",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      -8,
+      10
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    }
+   },
+   "prompt": "Solve {mono(a, 'x')} {op} {a * k}.",
+   "correct": "{ineq('x', op, k)}",
+   "distractors": [
+    {
+     "text": "{ineq('x', flipOp(op), k)}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{ineq('x', op, a * k - a)}",
+     "misconception": "subtracted"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "{a} is positive, so the sign stays the same."
+    },
+    {
+     "id": "subtracted",
+     "explain": "{mono(a, 'x')} means {a} × x: divide by {a}."
+    }
+   ],
+   "solution": [
+    "Divide both sides by {a}, a positive number: the sign stays.",
+    "{answer}"
+   ],
+   "where": [
+    "k != 0"
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-23-two",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -12,
+      12
+     ]
+    },
+    "k": {
+     "int": [
+      -5,
+      9
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, ''])} {op} {a * k + b}.",
+   "correct": "{ineq('x', op, k)}",
+   "distractors": [
+    {
+     "text": "{ineq('x', flipOp(op), k)}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{ineq('x', op, a * k)}",
+     "misconception": "one-step"
+    },
+    {
+     "text": "{ineq('x', op, k + 2 * b / a)}",
+     "misconception": "wrong-way"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "You divided by a positive number: the sign stays."
+    },
+    {
+     "id": "one-step",
+     "explain": "That is {mono(a, 'x')}: now divide by {a}."
+    },
+    {
+     "id": "wrong-way",
+     "explain": "Undo {b < 0 ? '− ' + fmt(-b) : '+ ' + fmt(b)} by doing the opposite."
+    }
+   ],
+   "solution": [
+    "{b < 0 ? 'Add ' + fmt(-b) + ' to' : 'Subtract ' + fmt(b) + ' from'} both sides: {mono(a, 'x')} {op} {a * k}.",
+    "Divide by {a} (positive, the sign stays): {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "isInt(2 * b / a)",
+    "k + 2 * b / a != a * k"
+   ]
+  },
+  {
+   "id": "m2-23-neg",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      -2
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "k": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    }
+   },
+   "prompt": "Solve {mono(a, 'x')} + {b} {op} {a * k + b}.",
+   "correct": "{ineq('x', flipOp(op), k)}",
+   "distractors": [
+    {
+     "text": "{ineq('x', op, k)}",
+     "misconception": "kept"
+    },
+    {
+     "text": "{ineq('x', flipOp(op), -k)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{ineq('x', op, -k)}",
+     "misconception": "both"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "kept",
+     "explain": "Dividing by a negative number turns the sign round."
+    },
+    {
+     "id": "sign",
+     "explain": "{a * k} ÷ {br(a)} = {k}: check the sign."
+    },
+    {
+     "id": "both",
+     "explain": "Turn the sign round, and check the number: {a * k} ÷ {br(a)} = {k}."
+    }
+   ],
+   "solution": [
+    "Subtract {b}: {mono(a, 'x')} {op} {a * k}.",
+    "Divide by {br(a)}, a negative number, and turn the sign round: {answer}."
+   ],
+   "where": [
+    "k != 0"
+   ]
+  },
+  {
+   "id": "m2-23-list",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      -2,
+      3
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      ">",
+      "≤",
+      "≥"
+     ]
+    },
+    "lo": {
+     "expr": "k - 3"
+    },
+    "hi": {
+     "expr": "k + 3"
+    }
+   },
+   "prompt": "x is a whole number from {lo} to {hi}. Which values satisfy {poly([a, 'x'], [b, ''])} {op} {a * k + b}?",
+   "correct": "{solutionsIn(lo, hi, op, k)}",
+   "distractors": [
+    {
+     "text": "{solutionsIn(lo, hi, op == '<' || op == '>' ? looseOp(op) : strictOp(op), k)}",
+     "misconception": "edge"
+    },
+    {
+     "text": "{solutionsIn(lo, hi, flipOp(op), k)}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "edge",
+     "explain": "{op == '<' || op == '>' ? 'The sign ' + op + ' leaves out ' + fmt(k) + '.' : 'The sign ' + op + ' includes ' + fmt(k) + '.'}"
+    },
+    {
+     "id": "flip",
+     "explain": "Those are the values on the other side of {k}."
+    }
+   ],
+   "solution": [
+    "Solve: {mono(a, 'x')} {op} {a * k}, so {ineq('x', op, k)}.",
+    "From {lo} to {hi}, the values with {ineq('x', op, k)} are {answer}."
+   ],
+   "where": [
+    "b != 0"
+   ],
+   "show": 3
+  },
+  {
+   "id": "m2-23-largest",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -10,
+      10
+     ]
+    },
+    "c": {
+     "int": [
+      5,
+      40
+     ]
+    },
+    "ceil1": {
+     "expr": "isInt((c - b) / a) ? (c - b) / a - 1 : floor((c - b) / a)"
+    }
+   },
+   "prompt": "What is the largest whole number x such that {poly([a, 'x'], [b, ''])} < {c}?",
+   "answer": "ceil1",
+   "misconceptions": [
+    {
+     "id": "edge",
+     "wrong": "(c - b) / a",
+     "explain": "x must be less than {(c - b) / a}, so x cannot be {(c - b) / a} itself.",
+     "when": "isInt((c - b) / a)"
+    },
+    {
+     "id": "round-up",
+     "wrong": "floor((c - b) / a) + 1",
+     "explain": "x must be less than {round((c - b) / a, 2)}: round down.",
+     "when": "!isInt((c - b) / a)"
+    }
+   ],
+   "solution": [
+    "{b < 0 ? 'Add ' + fmt(-b) + ' to' : 'Subtract ' + fmt(b) + ' from'} both sides: {mono(a, 'x')} < {c - b}.",
+    "Divide by {a}: x < {(c - b) / a}.",
+    "The largest whole number less than {(c - b) / a} is {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "c - b > a"
+   ]
+  }
+ ]
+}

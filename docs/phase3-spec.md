@@ -252,3 +252,21 @@ were **released on 2026-10-07** (TR-S12): nine tabs, build limit raised to 1.3 M
   subject, and finishing each subject. Once earned, kept. New badges are announced at the end of a lesson.
 - Verified at 360 px in the installable app: all 154 lessons run with no errors, no "null" and no sideways scroll; every
   lesson ends with its stars; badges and the streak update; light and dark themes.
+
+## 19. Form 2, Term 1: Maths and English (2026-10-17, form-2 branch)
+
+Built on the `form-2` branch only, so the live app (from `main`) is unchanged until Dion merges it.
+- **Content:** `content/form-2/maths/` (rows 1–24; row 1, the diagnostic, deferred) and `content/form-2/english/`
+  (rows 1–32; speech work deferred, writing lessons as paper tasks). Numbered by place in the year (proposal G1).
+  New library `src/engine/lib/maths2.js` (integers, powers, primes, HCF and LCM, sequences, algebraic expressions,
+  inequalities, and drawings: coordinate plane, number line, inequality line, perpendicular bisector, segment).
+  Engine: a numeric template may be `signed`, which gives the full keyboard (with a minus sign) on every variant.
+- **Tests:** `tests-js/form2-maths-content.test.js`, `form2-english-content.test.js` (the shared subject suite, with
+  `dir` and `cls` options), `maths2.test.js`; the app tests check both classes.
+- **App:** subject ids `f2-maths` and `f2-english`; a class switch on the home screen (only when a copy has more than
+  one class); class names in headings, results and review mode; one shareable file per class (`form1.html` and
+  `offline.html`; `form2.html` and `offline-form-2.html`). The service worker's re-save on update now accepts ids with
+  digits (it would have missed `f2-maths`).
+- **Verified at 360 px:** every lesson of both classes runs from the first card to the stars with no errors, no
+  “null” and no sideways scroll.
+- Review files: `npm run review:f2-maths`, `npm run review:f2-english`; teacher items TR-N, TR-W and TR-R04.

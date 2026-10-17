@@ -1,0 +1,737 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "e2-19",
+   "name": "The Simple Future tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We talk about the future in several ways:\n• will + the base verb, for predictions, promises and decisions made now: “It will rain tomorrow.” “I'll call you tonight.” (I'll = I will)\n• am / is / are going to + the base verb, for plans already made and for what we can see coming: “I'm going to buy a phone on Saturday.” “Look at the clouds: it's going to rain.”\n• Shall I / Shall we, for offers and suggestions: “Shall I carry your bag?” “Shall we go?”\nWill is the same for every person: I will, she will, they will.\nNegative: will not = won't: “He won't come.” Questions: “Will you help me?” — “Yes, I will.”\nAfter will, use the base verb: “She will buy”, not “She will buys”.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Manyi",
+   "v": "buy",
+   "c": "a new phone",
+   "t": "next month"
+  },
+  "problem": "Write in the future with will, then make it negative and a question: {n} / {v} / {c} / {t}.",
+  "steps": [
+   "will + the base verb, the same for every person: {n} will {v} {c} {t}.",
+   "Negative: won't + the base verb: {n} won't {v} {c} {t}.",
+   "Question: Will + subject + the base verb: Will {n} {v} {c} {t}?"
+  ],
+  "answer": "{n} will {v} {c} {t}. / {n} won't {v} {c} {t}. / Will {n} {v} {c} {t}?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "The Simple Future is will + the base verb, the same for every person.",
+    "vars": {},
+    "example": [
+     "I will call you tonight.",
+     "She will call you tonight. (not: will calls)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-19-will"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "Use going to for a plan already made, or for something we can see coming.",
+    "vars": {},
+    "example": [
+     "I'm going to visit my aunt on Saturday. (a plan)",
+     "Look at those clouds! It's going to rain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-19-which"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "Shall I and Shall we make offers and suggestions.",
+    "vars": {},
+    "example": [
+     "Shall I open the window?",
+     "Shall we go to the market together?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-19-c3",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "Shall I carry your bag?",
+         "w": [
+          "Will it rain tomorrow?",
+          "I'm going to buy a phone.",
+          "She won't come."
+         ],
+         "e": [
+          "That asks about the weather.",
+          "That is a plan.",
+          "That is a negative statement."
+         ],
+         "y": "Shall I …? offers help."
+        },
+        {
+         "r": "Shall I call a taxi for you?",
+         "w": [
+          "The taxi will be late.",
+          "Is the taxi coming?",
+          "I'm going to take a taxi."
+         ],
+         "e": [
+          "That is a prediction.",
+          "That is a question about the taxi.",
+          "That is a plan."
+         ],
+         "y": "Shall I …? offers help."
+        },
+        {
+         "r": "Shall I lend you my charger?",
+         "w": [
+          "My charger is broken.",
+          "Will you buy a charger?",
+          "I won't lend it."
+         ],
+         "e": [
+          "That is a statement.",
+          "That asks about the other person.",
+          "That is a refusal."
+         ],
+         "y": "Shall I …? offers help."
+        }
+       ]
+      }
+     },
+     "prompt": "Which sentence is an offer to help?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-19-will",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "call",
+       "c": "you tonight"
+      },
+      {
+       "v": "buy",
+       "c": "a new phone"
+      },
+      {
+       "v": "visit",
+       "c": "Grandma on Sunday"
+      },
+      {
+       "v": "send",
+       "c": "the message later"
+      },
+      {
+       "v": "pay",
+       "c": "by mobile money"
+      },
+      {
+       "v": "help",
+       "c": "you with your bag"
+      },
+      {
+       "v": "travel",
+       "c": "to Kumba next week"
+      },
+      {
+       "v": "finish",
+       "c": "the work tomorrow"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb with will.",
+   "text": "{S.t} ___ {V.c}. ({V.v})",
+   "answer": "'will ' + V.v",
+   "misconceptions": [
+    {
+     "id": "will-s",
+     "wrong": "'will ' + thirdPerson(V.v)",
+     "explain": "After will, use the base verb: will {V.v}.",
+     "when": "thirdPerson(V.v) != V.v"
+    },
+    {
+     "id": "present",
+     "wrong": "presentFor(S.s, V.v)",
+     "explain": "This is about the future: use will {V.v}."
+    }
+   ]
+  },
+  {
+   "id": "e2-19-going",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "call",
+       "c": "you tonight"
+      },
+      {
+       "v": "buy",
+       "c": "a new phone"
+      },
+      {
+       "v": "visit",
+       "c": "Grandma on Sunday"
+      },
+      {
+       "v": "send",
+       "c": "the message later"
+      },
+      {
+       "v": "pay",
+       "c": "by mobile money"
+      },
+      {
+       "v": "help",
+       "c": "you with your bag"
+      },
+      {
+       "v": "travel",
+       "c": "to Kumba next week"
+      },
+      {
+       "v": "finish",
+       "c": "the work tomorrow"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{S.t} ___ going to {V.v} {V.c}.",
+   "answer": "beFor(S.s)",
+   "choices": [
+    {
+     "text": "am",
+     "misconception": "am"
+    },
+    {
+     "text": "is",
+     "misconception": "is"
+    },
+    {
+     "text": "are",
+     "misconception": "are"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "am",
+     "explain": "Am goes only with I."
+    },
+    {
+     "id": "is",
+     "explain": "Is goes with he, she, it and one person or thing."
+    },
+    {
+     "id": "are",
+     "explain": "Are goes with you, we, they and more than one."
+    }
+   ],
+   "show": 3
+  },
+  {
+   "id": "e2-19-which",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Look at those black clouds! It ___ rain.",
+       "a": "is going to",
+       "w": [
+        "rains",
+        "rained"
+       ],
+       "e": [
+        "We can see it coming: is going to.",
+        "That is past."
+       ]
+      },
+      {
+       "s": "I've already decided: I ___ study medicine.",
+       "a": "am going to",
+       "w": [
+        "studied",
+        "study now"
+       ],
+       "e": [
+        "A plan already made: am going to.",
+        "It is a future plan."
+       ]
+      },
+      {
+       "s": "The phone is ringing. — I ___ answer it!",
+       "a": "will",
+       "w": [
+        "am going",
+        "was"
+       ],
+       "e": [
+        "A decision made now: I'll answer it.",
+        "Was is past."
+       ]
+      },
+      {
+       "s": "Don't worry, I ___ tell anybody your secret.",
+       "a": "won't",
+       "w": [
+        "don't will",
+        "not will"
+       ],
+       "e": [
+        "The negative of will is won't.",
+        "The negative of will is won't."
+       ]
+      },
+      {
+       "s": "___ I help you with your homework?",
+       "a": "Shall",
+       "w": [
+        "Am",
+        "Do"
+       ],
+       "e": [
+        "An offer: Shall I …?",
+        "An offer: Shall I …?"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the best form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-19-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "I will call you tonight.",
+       "b": "I will call you tonight."
+      },
+      {
+       "a": "Will you lend me your charger?",
+       "b": "Will you lend me your charger?"
+      },
+      {
+       "a": "She won't come to the party.",
+       "b": "She won't come to the party."
+      },
+      {
+       "a": "We are going to visit Kribi.",
+       "b": "We are going to visit Kribi."
+      },
+      {
+       "a": "Shall I carry your bag?",
+       "b": "Shall I carry your bag?"
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "It will rain tomorrow.",
+      "truth": "true"
+     },
+     {
+      "text": "I'm going to buy a new phone.",
+      "truth": "true"
+     },
+     {
+      "text": "Shall we go now?",
+      "truth": "true"
+     },
+     {
+      "text": "He won't call today.",
+      "truth": "true"
+     },
+     {
+      "text": "Will you help me?",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "She will buys a phone tomorrow.",
+      "truth": "false",
+      "explain": "After will, use the base verb: will buy."
+     },
+     {
+      "text": "I will to call you later.",
+      "truth": "false",
+      "explain": "No to after will: I will call you."
+     },
+     {
+      "text": "They is going to travel next week.",
+      "truth": "false",
+      "explain": "With they, use are: They are going to travel."
+     },
+     {
+      "text": "He don't will come.",
+      "truth": "false",
+      "explain": "The negative is won't: He won't come."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

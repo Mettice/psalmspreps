@@ -1,0 +1,546 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "e2-11",
+   "name": "The Simple Past tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We use the Simple Past for finished actions at a time in the past: yesterday, last week, in 2020, two days ago.\nRegular verbs add -ed: visit → visited, stay → stayed, stop → stopped, carry → carried, arrive → arrived.\nIrregular verbs have their own past forms: go → went, take → took, see → saw, feel → felt, buy → bought, catch → caught, drink → drank.\nThe past form is the same for every person: I went, she went, they went.\nNegative: didn't + the base verb: “She didn't go to school.” (not: didn't went)\nQuestions: Did + subject + base verb: “Did you take the medicine?” — “Yes, I did.”\nBe: I/he/she/it was; you/we/they were.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Ndi",
+   "v": "catch",
+   "c": "malaria",
+   "t": "last month"
+  },
+  "problem": "Write in the Simple Past, then make it negative and a question: {n} / {v} / {c} / {t}.",
+  "steps": [
+   "{v} is irregular: its past is {past(v)}. {n} {past(v)} {c} {t}.",
+   "Negative: didn't + the base verb: {n} didn't {v} {c} {t}.",
+   "Question: Did + subject + base verb: Did {n} {v} {c} {t}?"
+  ],
+  "answer": "{n} {past(v)} {c} {t}. / {n} didn't {v} {c} {t}. / Did {n} {v} {c} {t}?",
+  "checks": [
+   "past(v) == 'caught'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "Regular verbs add -ed in the Simple Past. Mind the spelling: stop → stopped, carry → carried.",
+    "vars": {},
+    "example": [
+     "visit → {past('visit')}, stop → {past('stop')}",
+     "carry → {past('carry')}, arrive → {past('arrive')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-11-regular"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Irregular verbs have their own past forms. Learn them by heart.",
+    "vars": {},
+    "example": [
+     "go → {past('go')}, take → {past('take')}, see → {past('see')}",
+     "feel → {past('feel')}, buy → {past('buy')}, drink → {past('drink')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-11-form"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "Negative: didn't + the base verb. Question: Did + subject + the base verb.",
+    "vars": {},
+    "example": [
+     "She didn't go to school. (not: didn't went)",
+     "Did you take the medicine? — Yes, I did."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-11-did"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-11-regular",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "V": {
+     "pick": [
+      {
+       "v": "visit",
+       "c": "the patients"
+      },
+      {
+       "v": "stop",
+       "c": "the bleeding"
+      },
+      {
+       "v": "carry",
+       "c": "the baby to the ward"
+      },
+      {
+       "v": "arrive",
+       "c": "at the clinic early"
+      },
+      {
+       "v": "clean",
+       "c": "the wound"
+      },
+      {
+       "v": "hurry",
+       "c": "to the ward"
+      },
+      {
+       "v": "stay",
+       "c": "with the patient"
+      },
+      {
+       "v": "plan",
+       "c": "the vaccination day"
+      },
+      {
+       "v": "travel",
+       "c": "to the village"
+      },
+      {
+       "v": "worry",
+       "c": "about the sick child"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in the Simple Past.",
+   "text": "Yesterday the nurse ___ {V.c}. ({V.v})",
+   "answer": "past(V.v)",
+   "misconceptions": [
+    {
+     "id": "present",
+     "wrong": "thirdPerson(V.v)",
+     "explain": "It was yesterday: use the past, {past(V.v)}."
+    },
+    {
+     "id": "plain-ed",
+     "wrong": "V.v + 'ed'",
+     "explain": "Check the spelling: {past(V.v)}."
+    }
+   ]
+  },
+  {
+   "id": "e2-11-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "visit",
+       "c": "the clinic"
+      },
+      {
+       "v": "catch",
+       "c": "malaria"
+      },
+      {
+       "v": "take",
+       "c": "the medicine"
+      },
+      {
+       "v": "feel",
+       "c": "much better"
+      },
+      {
+       "v": "stay",
+       "c": "in bed"
+      },
+      {
+       "v": "go",
+       "c": "to the hospital"
+      },
+      {
+       "v": "drink",
+       "c": "a lot of water"
+      },
+      {
+       "v": "wash",
+       "c": "our hands"
+      },
+      {
+       "v": "see",
+       "c": "the doctor"
+      },
+      {
+       "v": "carry",
+       "c": "the patient"
+      },
+      {
+       "v": "stop",
+       "c": "the bleeding"
+      },
+      {
+       "v": "buy",
+       "c": "some tablets"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in the Simple Past.",
+   "text": "Last week {S.m} ___ {V.c}. ({V.v})",
+   "answer": "past(V.v)",
+   "misconceptions": [
+    {
+     "id": "present",
+     "wrong": "presentFor(S.s, V.v)",
+     "explain": "It was last week: use the past, {past(V.v)}."
+    },
+    {
+     "id": "ed",
+     "wrong": "V.v + 'ed'",
+     "explain": "Check the past form: {past(V.v)}.",
+     "when": "isIrregular(V.v)"
+    }
+   ]
+  },
+  {
+   "id": "e2-11-did",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ayuk didn't ___ his medicine yesterday.",
+       "a": "take",
+       "w": [
+        "took",
+        "takes"
+       ],
+       "e": [
+        "After didn't, use the base verb: take.",
+        "After didn't, use the base verb: take."
+       ]
+      },
+      {
+       "s": "Did you ___ the doctor last week?",
+       "a": "see",
+       "w": [
+        "saw",
+        "seen"
+       ],
+       "e": [
+        "After Did, use the base verb: see.",
+        "After Did, use the base verb: see."
+       ]
+      },
+      {
+       "s": "We ___ to school on Monday because of the rain.",
+       "a": "didn't go",
+       "w": [
+        "didn't went",
+        "not went"
+       ],
+       "e": [
+        "After didn't, use the base verb: go.",
+        "The negative is didn't go."
+       ]
+      },
+      {
+       "s": "___ the nurse give you an injection?",
+       "a": "Did",
+       "w": [
+        "Does",
+        "Was"
+       ],
+       "e": [
+        "It happened in the past: Did.",
+        "With a verb like give, the question uses Did."
+       ]
+      },
+      {
+       "s": "My father ___ in hospital last year.",
+       "a": "was",
+       "w": [
+        "were",
+        "is"
+       ],
+       "e": [
+        "With one person, use was.",
+        "Last year is in the past: was."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-11-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "The doctor gave me some tablets.",
+       "b": "The doctor gave me some tablets."
+      },
+      {
+       "a": "Did you drink enough water?",
+       "b": "Did you drink enough water?"
+      },
+      {
+       "a": "She didn't feel well yesterday.",
+       "b": "She didn't feel well yesterday."
+      },
+      {
+       "a": "We washed our hands with soap.",
+       "b": "We washed our hands with soap."
+      },
+      {
+       "a": "My brother caught a cold last week.",
+       "b": "My brother caught a cold last week."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "I visited my aunt in hospital.",
+      "truth": "true"
+     },
+     {
+      "text": "Did you see the nurse?",
+      "truth": "true"
+     },
+     {
+      "text": "We bought some medicine.",
+      "truth": "true"
+     },
+     {
+      "text": "They were at the clinic yesterday.",
+      "truth": "true"
+     },
+     {
+      "text": "My sister felt better on Sunday.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "She didn't took the tablets.",
+      "truth": "false",
+      "explain": "After didn't, use the base verb: didn't take."
+     },
+     {
+      "text": "Yesterday I goed to the clinic.",
+      "truth": "false",
+      "explain": "Go is irregular: went."
+     },
+     {
+      "text": "The bus stoped near the hospital.",
+      "truth": "false",
+      "explain": "Double the p: stopped."
+     },
+     {
+      "text": "We was very tired after the journey.",
+      "truth": "false",
+      "explain": "With we, use were."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

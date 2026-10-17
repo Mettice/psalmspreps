@@ -1,0 +1,567 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "m2-14",
+   "name": "Coordinates of points"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To read the coordinates of a point, start at the origin O. Count along the x-axis to below or above the point: that is the abscissa (positive to the right, negative to the left). Then count up or down to the point: that is the ordinate (positive up, negative down).\nTo plot a point, for example (−3, 2): from O go 3 units left, then 2 units up.\nMoving a point right adds to the abscissa; left subtracts. Moving up adds to the ordinate; down subtracts.\nTwo points with the same ordinate are on a horizontal line: their distance is the difference of their abscissas. (−2, 3) and (4, 3) are 4 − (−2) = 6 units apart.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": -3,
+   "y": 2,
+   "r": 5,
+   "d": 4
+  },
+  "problem": "Start at the point A{pt(x, y)}. Move {r} units to the right, then {d} units down. What are the coordinates of the new point B?",
+  "steps": [
+   "Moving right adds to the abscissa: {x} + {r} = {x + r}.",
+   "Moving down subtracts from the ordinate: {y} − {d} = {y - d}."
+  ],
+  "answer": "B{pt(x + r, y - d)}",
+  "checks": [
+   "x + r == 2 && y - d == -2"
+  ],
+  "figure": "coordPlane([['A', x, y], ['B', x + r, y - d]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "To read a point: from O, count along the x-axis first (the abscissa), then up or down (the ordinate).",
+    "vars": {
+     "a": 3,
+     "b": 2
+    },
+    "example": [
+     "P is {a} units right and {b} units up from O, so P = {pt(a, b)}."
+    ],
+    "checks": [],
+    "figure": "coordPlane([['P', a, b]])",
+    "check": {
+     "ref": "m2-14-read"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Left of the y-axis the abscissa is negative; below the x-axis the ordinate is negative.",
+    "vars": {
+     "a": -4,
+     "b": -1
+    },
+    "example": [
+     "Q is {-a} units left and {-b} units down from O, so Q = {pt(a, b)}."
+    ],
+    "checks": [],
+    "figure": "coordPlane([['Q', a, b]])",
+    "check": {
+     "ref": "m2-14-plot"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Two points with the same ordinate are on a horizontal line. Their distance is the larger abscissa minus the smaller.",
+    "vars": {
+     "a": -2,
+     "b": 4,
+     "y": 3
+    },
+    "example": [
+     "{pt(a, y)} and {pt(b, y)}: {b} − {br(a)} = {b - a} units apart."
+    ],
+    "checks": [],
+    "figure": "coordPlane([['A', a, y], ['B', b, y]])",
+    "check": {
+     "ref": "m2-14-dist"
+    }
+   },
+   {
+    "id": "c14-4",
+    "status": "draft",
+    "idea": "Moving a point right or left changes only the abscissa. Moving it up or down changes only the ordinate.",
+    "vars": {
+     "x": 1,
+     "y": 2,
+     "r": 3
+    },
+    "example": [
+     "{pt(x, y)} moved {r} units right: {pt(x + r, y)}.",
+     "{pt(x, y)} moved {r} units down: {pt(x, y - r)}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-14-c4",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "coordinates"
+     ],
+     "vars": {
+      "x": {
+       "int": [
+        -3,
+        3
+       ]
+      },
+      "y": {
+       "int": [
+        -4,
+        4
+       ]
+      },
+      "r": {
+       "int": [
+        1,
+        2
+       ]
+      },
+      "right": {
+       "pick": [
+        true,
+        false
+       ]
+      }
+     },
+     "prompt": "Start at {pt(x, y)} and move {plural(r, 'unit', 'units')} to the {right ? 'right' : 'left'}. Where are you?",
+     "correct": "{pt(right ? x + r : x - r, y)}",
+     "distractors": [
+      {
+       "text": "{pt(x, right ? y + r : y - r)}",
+       "misconception": "updown"
+      },
+      {
+       "text": "{pt(right ? x - r : x + r, y)}",
+       "misconception": "wrongway"
+      },
+      {
+       "text": "{pt(right ? x + r : x - r, right ? y + r : y - r)}",
+       "misconception": "both"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "updown",
+       "explain": "Moving {right ? 'right' : 'left'} changes the abscissa, not the ordinate."
+      },
+      {
+       "id": "wrongway",
+       "explain": "{right ? 'Right adds to the abscissa' : 'Left subtracts from the abscissa'}."
+      },
+      {
+       "id": "both",
+       "explain": "Only the abscissa changes: the ordinate stays {y}."
+      }
+     ],
+     "solution": [
+      "Moving {right ? 'right adds' : 'left subtracts'} {r} to the abscissa; the ordinate stays {y}.",
+      "So you are at {answer}."
+     ],
+     "where": [
+      "y != 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-14-read",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "What are the coordinates of point P?",
+   "correct": "{pt(x, y)}",
+   "distractors": [
+    {
+     "text": "{pt(y, x)}",
+     "misconception": "swapped"
+    },
+    {
+     "text": "{pt(-x, y)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{pt(x, -y)}",
+     "misconception": "sign2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swapped",
+     "explain": "The abscissa (along) comes first, then the ordinate (up or down)."
+    },
+    {
+     "id": "sign",
+     "explain": "P is {x > 0 ? 'right' : 'left'} of the y-axis, so its abscissa is {x > 0 ? 'positive' : 'negative'}."
+    },
+    {
+     "id": "sign2",
+     "explain": "P is {y > 0 ? 'above' : 'below'} the x-axis, so its ordinate is {y > 0 ? 'positive' : 'negative'}."
+    }
+   ],
+   "solution": [
+    "From O, P is {abs(x)} units {x > 0 ? 'right' : 'left'} and {abs(y)} units {y > 0 ? 'up' : 'down'}.",
+    "So P = {answer}."
+   ],
+   "where": [
+    "x != 0 && y != 0",
+    "abs(x) != abs(y)"
+   ],
+   "figure": "coordPlane([['P', x, y]])"
+  },
+  {
+   "id": "m2-14-plot",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "N": {
+     "sample": [
+      "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S']",
+      4
+     ]
+    }
+   },
+   "prompt": "Which point has coordinates {pt(x, y)}?",
+   "correct": "{N[0]}",
+   "distractors": [
+    {
+     "text": "{N[1]}",
+     "misconception": "swapped"
+    },
+    {
+     "text": "{N[2]}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{N[3]}",
+     "misconception": "sign2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swapped",
+     "explain": "{N[1]} is at {pt(y, x)}: the numbers are the other way round. Go along first, then up or down."
+    },
+    {
+     "id": "sign",
+     "explain": "{N[2]} is at {pt(-x, y)}: it is on the other side of the y-axis."
+    },
+    {
+     "id": "sign2",
+     "explain": "{N[3]} is at {pt(x, -y)}: it is on the other side of the x-axis."
+    }
+   ],
+   "solution": [
+    "{pt(x, y)}: from O go {abs(x)} units {x > 0 ? 'right' : 'left'}, then {abs(y)} units {y > 0 ? 'up' : 'down'}.",
+    "That is point {answer}."
+   ],
+   "where": [
+    "x != 0 && y != 0",
+    "abs(x) != abs(y)"
+   ],
+   "figure": "coordPlane([[N[0], x, y], [N[1], y, x], [N[2], -x, y], [N[3], x, -y]])"
+  },
+  {
+   "id": "m2-14-dist",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "A = {pt(a, y)} and B = {pt(b, y)}. How many units apart are A and B?",
+   "answer": "b - a",
+   "misconceptions": [
+    {
+     "id": "sizes",
+     "wrong": "abs(abs(b) - abs(a))",
+     "explain": "Count the units from A to B across the y-axis: {b} − {br(a)} = {b - a}.",
+     "when": "a < 0 && b > 0"
+    }
+   ],
+   "solution": [
+    "A and B have the same ordinate, {y}, so they are on a horizontal line.",
+    "Distance = {b} − {br(a)} = {answer} units."
+   ],
+   "where": [
+    "a < b",
+    "a < 0 || b < 0"
+   ],
+   "figure": "coordPlane([['A', a, y], ['B', b, y]])"
+  },
+  {
+   "id": "m2-14-vert",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -5,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "C = {pt(x, a)} and D = {pt(x, b)}. How many units apart are C and D?",
+   "answer": "b - a",
+   "misconceptions": [
+    {
+     "id": "sizes",
+     "wrong": "abs(abs(b) - abs(a))",
+     "explain": "Count the units from C to D across the x-axis: {b} − {br(a)} = {b - a}.",
+     "when": "a < 0 && b > 0"
+    }
+   ],
+   "solution": [
+    "C and D have the same abscissa, {x}, so they are on a vertical line.",
+    "Distance = {b} − {br(a)} = {answer} units."
+   ],
+   "where": [
+    "a < b",
+    "a < 0 || b < 0"
+   ]
+  },
+  {
+   "id": "m2-14-move",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "y": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "r": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "u": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "right": {
+     "pick": [
+      true,
+      false
+     ]
+    },
+    "up": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Start at A{pt(x, y)}. Move {plural(r, 'unit', 'units')} to the {right ? 'right' : 'left'} and {plural(u, 'unit', 'units')} {up ? 'up' : 'down'}. Where are you?",
+   "correct": "{pt(right ? x + r : x - r, up ? y + u : y - u)}",
+   "distractors": [
+    {
+     "text": "{pt(right ? x - r : x + r, up ? y + u : y - u)}",
+     "misconception": "lr"
+    },
+    {
+     "text": "{pt(right ? x + r : x - r, up ? y - u : y + u)}",
+     "misconception": "ud"
+    },
+    {
+     "text": "{pt(up ? y + u : y - u, right ? x + r : x - r)}",
+     "misconception": "swapped"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "lr",
+     "explain": "{right ? 'Right adds to' : 'Left subtracts from'} the abscissa."
+    },
+    {
+     "id": "ud",
+     "explain": "{up ? 'Up adds to' : 'Down subtracts from'} the ordinate."
+    },
+    {
+     "id": "swapped",
+     "explain": "The abscissa comes first in the ordered pair."
+    }
+   ],
+   "solution": [
+    "Abscissa: {x} {right ? '+' : '−'} {r} = {right ? x + r : x - r}.",
+    "Ordinate: {y} {up ? '+' : '−'} {u} = {up ? y + u : y - u}.",
+    "You are at {answer}."
+   ],
+   "where": [
+    "r != u"
+   ]
+  },
+  {
+   "id": "m2-14-rect",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "coordinates"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -4,
+      0
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "d": {
+     "int": [
+      -4,
+      -1
+     ]
+    }
+   },
+   "prompt": "A{pt(a, b)}, B{pt(c, b)} and C{pt(c, d)} are three corners of the rectangle ABCD. What are the coordinates of D?",
+   "correct": "{pt(a, d)}",
+   "distractors": [
+    {
+     "text": "{pt(d, a)}",
+     "misconception": "swapped"
+    },
+    {
+     "text": "{pt(c, a)}",
+     "misconception": "mixed"
+    },
+    {
+     "text": "{pt(a, b)}",
+     "misconception": "repeat"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swapped",
+     "explain": "The abscissa comes first: D is level with A across, so its abscissa is {a}."
+    },
+    {
+     "id": "mixed",
+     "explain": "D is under or over A, so it has A's abscissa, {a}."
+    },
+    {
+     "id": "repeat",
+     "explain": "That is A itself."
+    }
+   ],
+   "solution": [
+    "In a rectangle with sides along the grid, D is below or above A and level with C.",
+    "D has the abscissa of A, {a}, and the ordinate of C, {d}: D = {answer}."
+   ],
+   "where": [
+    "a != d && c != a && a != 0"
+   ],
+   "figure": "coordPlane([['A', a, b], ['B', c, b], ['C', c, d]])"
+  }
+ ]
+}

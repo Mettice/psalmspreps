@@ -1,0 +1,511 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-31",
+   "name": "Modals and polite expressions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Modal verbs go before a base verb and add a meaning:\n• can: ability or permission — “I can swim.” “Can I go out?”\n• could: a more polite request, or past ability — “Could you help me, please?” “I could read at five.”\n• may: polite permission or possibility — “May I come in?” “It may rain.”\n• must: strong obligation — “You must wear a uniform.” mustn't: it is forbidden.\n• should: advice — “You should rest.”\n• would: polite offers and requests — “Would you like some tea?” “Would you open the window, please?”\nAfter a modal, use the base verb with no to and no -s: “She can swim” (not “she cans” or “can to swim”).\nPolite expressions: please, thank you, excuse me, I'm sorry, “Would you mind …?”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "the principal"
+  },
+  "problem": "Make three polite requests to {n}: to come in, to borrow a book, and to leave early.",
+  "steps": [
+   "Permission to enter: “May I come in, please?”",
+   "Borrowing: “Could I borrow this book, please?”",
+   "Leaving early, with a reason: “Would it be possible for me to leave early? My mother is ill.”"
+  ],
+  "answer": "May I come in, please? / Could I borrow this book, please? / Would it be possible for me to leave early?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "After a modal (can, could, may, must, should, would), use the base verb: no to, no -s.",
+    "vars": {},
+    "example": [
+     "She can sing. (not: cans sing, can to sing)",
+     "You should rest."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-31-form"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "Each modal has its own meaning: must for obligation, should for advice, may for permission.",
+    "vars": {},
+    "example": [
+     "You must wear a uniform. (rule)",
+     "You should drink water. (advice)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-31-which"
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "Could, may and would make requests and offers more polite.",
+    "vars": {},
+    "example": [
+     "Could you help me, please?",
+     "Would you like some tea?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-31-polite"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-31-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "My sister can ___ very well.",
+       "a": "sing",
+       "w": [
+        "sings",
+        "to sing"
+       ],
+       "e": [
+        "After can, no -s: sing.",
+        "After can, no to: sing."
+       ]
+      },
+      {
+       "s": "You should ___ your homework now.",
+       "a": "do",
+       "w": [
+        "to do",
+        "does"
+       ],
+       "e": [
+        "After should, no to: do.",
+        "After should, use the base verb: do."
+       ]
+      },
+      {
+       "s": "Pupils must ___ on time.",
+       "a": "arrive",
+       "w": [
+        "arrives",
+        "to arrive"
+       ],
+       "e": [
+        "After must, use the base verb: arrive.",
+        "After must, no to."
+       ]
+      },
+      {
+       "s": "He may ___ late today.",
+       "a": "come",
+       "w": [
+        "comes",
+        "coming"
+       ],
+       "e": [
+        "After may, use the base verb: come.",
+        "After may, use the base verb: come."
+       ]
+      },
+      {
+       "s": "Would you ___ the door, please?",
+       "a": "open",
+       "w": [
+        "opening",
+        "to open"
+       ],
+       "e": [
+        "After would, use the base verb: open.",
+        "After would, no to."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-31-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "“You ___ wear your uniform to school. It is the rule.”",
+       "r": "must",
+       "w": [
+        "may",
+        "could",
+        "would"
+       ],
+       "e": [
+        "May is permission, not a rule.",
+        "Could is a polite request.",
+        "Would is for offers."
+       ],
+       "y": "A rule is an obligation: must."
+      },
+      {
+       "q": "“You look tired. You ___ go to bed early.”",
+       "r": "should",
+       "w": [
+        "must not",
+        "may not",
+        "can't"
+       ],
+       "e": [
+        "That forbids it.",
+        "That refuses permission.",
+        "That says it is impossible."
+       ],
+       "y": "Advice uses should."
+      },
+      {
+       "q": "“___ I come in, sir?”",
+       "r": "May",
+       "w": [
+        "Must",
+        "Should",
+        "Would"
+       ],
+       "e": [
+        "Must is obligation.",
+        "Should is advice.",
+        "Would is for offers."
+       ],
+       "y": "Polite permission: May I …?"
+      },
+      {
+       "q": "“You ___ smoke in the hospital. It is forbidden.”",
+       "r": "mustn't",
+       "w": [
+        "should",
+        "can",
+        "may"
+       ],
+       "e": [
+        "Should gives advice to do it.",
+        "Can allows it.",
+        "May allows it."
+       ],
+       "y": "Forbidden: mustn't."
+      },
+      {
+       "q": "“I ___ swim when I was six.”",
+       "r": "could",
+       "w": [
+        "must",
+        "should",
+        "may"
+       ],
+       "e": [
+        "Must is obligation.",
+        "Should is advice.",
+        "May is permission."
+       ],
+       "y": "Past ability: could."
+      }
+     ]
+    }
+   },
+   "prompt": "Which modal fits? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-31-polite",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "ask a teacher to repeat",
+       "r": "Could you repeat that, please?",
+       "w": [
+        "Repeat!",
+        "What? Say it again.",
+        "You must repeat."
+       ],
+       "e": [
+        "That is an order.",
+        "That is rude.",
+        "That orders a teacher."
+       ],
+       "y": "Could you …, please? is polite."
+      },
+      {
+       "q": "offer a visitor a drink",
+       "r": "Would you like something to drink?",
+       "w": [
+        "Drink this.",
+        "You want drink?",
+        "Must you drink?"
+       ],
+       "e": [
+        "That is an order.",
+        "That is not correct English.",
+        "That is not an offer."
+       ],
+       "y": "Would you like …? is a polite offer."
+      },
+      {
+       "q": "ask to borrow a pen",
+       "r": "May I borrow your pen, please?",
+       "w": [
+        "Give me your pen.",
+        "Your pen, now.",
+        "I take your pen."
+       ],
+       "e": [
+        "That is an order.",
+        "That is rude.",
+        "That does not ask."
+       ],
+       "y": "May I …, please? asks politely."
+      },
+      {
+       "q": "pass someone in a crowded corridor",
+       "r": "Excuse me, please.",
+       "w": [
+        "Move!",
+        "Get out of my way.",
+        "I'm going, you stop."
+       ],
+       "e": [
+        "That is rude.",
+        "That is rude.",
+        "That is rude."
+       ],
+       "y": "Excuse me is polite."
+      }
+     ]
+    }
+   },
+   "prompt": "Which is the most polite way to {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-31-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Could you help me, please?",
+       "b": "Could you help me, please?"
+      },
+      {
+       "a": "You should drink more water.",
+       "b": "You should drink more water."
+      },
+      {
+       "a": "May I come in?",
+       "b": "May I come in?"
+      },
+      {
+       "a": "We must respect our elders.",
+       "b": "We must respect our elders."
+      },
+      {
+       "a": "Would you like some tea?",
+       "b": "Would you like some tea?"
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-31-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "One sentence has a mistake. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "He can ride a bicycle.",
+      "truth": "true"
+     },
+     {
+      "text": "You should drink more water.",
+      "truth": "true"
+     },
+     {
+      "text": "May I use your phone?",
+      "truth": "true"
+     },
+     {
+      "text": "We must leave now.",
+      "truth": "true"
+     },
+     {
+      "text": "Would you like some bread?",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "She cans speak French.",
+      "truth": "false",
+      "explain": "Modals never take -s: she can."
+     },
+     {
+      "text": "You should to see a doctor.",
+      "truth": "false",
+      "explain": "No to after should."
+     },
+     {
+      "text": "He must goes to school.",
+      "truth": "false",
+      "explain": "After must, use the base verb: must go."
+     },
+     {
+      "text": "Could you to help me?",
+      "truth": "false",
+      "explain": "No to after could."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,433 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "m2-8",
+   "name": "Elementary sequences"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A sequence is a list of numbers that follow a rule. Each number is a term.\nAdding the same number each time: 3, 7, 11, 15, … (add 4). The number added is the common difference. It can be negative: 20, 17, 14, 11, … (subtract 3).\nMultiplying by the same number each time: 2, 6, 18, 54, … (multiply by 3).\nSpecial sequences: square numbers 1, 4, 9, 16, …; cube numbers 1, 8, 27, …\nTo find a term far along a sequence that adds d each time, start from the first term and add d one time fewer than the term number: term 10 of 3, 7, 11, … is 3 + 9 × 4 = 39.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 5,
+   "d": 3,
+   "n": 20,
+   "one": 1
+  },
+  "problem": "The sequence {seqTerms(a, d, 4)}, … adds the same number each time. Find term number {n}.",
+  "steps": [
+   "The common difference is {a + d} − {a} = {d}.",
+   "Term {n} is the first term with {d} added {n - one} times.",
+   "{a} + {n - one} × {d} = {a} + {(n - one) * d} = {a + (n - one) * d}."
+  ],
+  "answer": "Term {n} is {a + (n - one) * d}.",
+  "checks": [
+   "a + (n - one) * d == 62"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "In a sequence that adds the same number each time, find the common difference, then add it to the last term.",
+    "vars": {
+     "a": 3,
+     "d": 4
+    },
+    "example": [
+     "{seqTerms(a, d, 4)}, …: the difference is {d}.",
+     "The next term is {a + 3 * d} + {d} = {a + 4 * d}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-8-next"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "The common difference can be negative: then the terms go down.",
+    "vars": {
+     "a": 20,
+     "d": -3
+    },
+    "example": [
+     "{seqTerms(a, d, 4)}, …: the difference is {d}.",
+     "The next term is {a + 3 * d} − {-d} = {a + 4 * d}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-8-c2",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sequences"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        10,
+        60
+       ]
+      },
+      "d": {
+       "int": [
+        -9,
+        -2
+       ]
+      }
+     },
+     "prompt": "What is the next term of the sequence {seqTerms(a, d, 4)}, …?",
+     "answer": "a + 4 * d",
+     "misconceptions": [
+      {
+       "id": "up",
+       "wrong": "a + 3 * d - d",
+       "explain": "The terms go down: subtract {-d}, do not add it."
+      }
+     ],
+     "solution": [
+      "The difference is {a + d} − {a} = {d}: the terms go down.",
+      "{a + 3 * d} + {br(d)} = {answer}"
+     ],
+     "signed": true
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Some sequences multiply by the same number each time.",
+    "vars": {
+     "a": 2,
+     "r": 3
+    },
+    "example": [
+     "{geoTerms(a, r, 4)}, …: each term is {r} times the one before.",
+     "The next term is {a * r ^ 3} × {r} = {a * r ^ 4}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-8-geo"
+    }
+   },
+   {
+    "id": "c8-4",
+    "status": "draft",
+    "idea": "To find a term far along, start from the first term and add the difference one time fewer than the term number.",
+    "vars": {
+     "a": 3,
+     "d": 4,
+     "n": 10,
+     "one": 1
+    },
+    "example": [
+     "{seqTerms(a, d, 3)}, …: term {n} = {a} + {n - one} × {d} = {a + (n - one) * d}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-8-c4",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sequences"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        1,
+        20
+       ]
+      },
+      "d": {
+       "int": [
+        2,
+        9
+       ]
+      },
+      "n": {
+       "int": [
+        5,
+        8
+       ]
+      },
+      "one": 1
+     },
+     "prompt": "The sequence {seqTerms(a, d, 3)}, … adds {d} each time. What is term number {n}?",
+     "answer": "a + (n - 1) * d",
+     "misconceptions": [
+      {
+       "id": "n-times",
+       "wrong": "a + n * d",
+       "explain": "Term {one} has no difference added, so term {n} has {d} added {n - 1} times, not {n} times."
+      }
+     ],
+     "solution": [
+      "Term {n} is the first term with {d} added {n - 1} times.",
+      "{a} + {n - 1} × {d} = {answer}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-8-next",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sequences"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -10,
+      30
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "What is the next term of the sequence {seqTerms(a, d, 4)}, …?",
+   "answer": "a + 4 * d",
+   "misconceptions": [
+    {
+     "id": "difference",
+     "wrong": "d",
+     "explain": "{d} is the common difference; add it to the last term."
+    }
+   ],
+   "solution": [
+    "The difference is {a + d} − {br(a)} = {d}.",
+    "{a + 3 * d} + {d} = {answer}"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-8-diff",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sequences"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -10,
+      50
+     ]
+    },
+    "d": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "What is the common difference of the sequence {seqTerms(a, d, 4)}, …?",
+   "answer": "d",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "-d",
+     "explain": "The terms go {d > 0 ? 'up' : 'down'}, so the difference is {d > 0 ? 'positive' : 'negative'}: {d}."
+    }
+   ],
+   "solution": [
+    "Subtract a term from the next one: {a + d} − {br(a)} = {answer}.",
+    "Check: {a + 2 * d} − {br(a + d)} = {d}."
+   ],
+   "where": [
+    "abs(d) >= 2"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-8-geo",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sequences"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "r": {
+     "int": [
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "What is the next term of the sequence {geoTerms(a, r, 4)}, …?",
+   "answer": "a * r ^ 4",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "a * r ^ 3 + (a * r ^ 3 - a * r ^ 2)",
+     "explain": "This sequence multiplies by {r}; it does not add the same number."
+    }
+   ],
+   "solution": [
+    "Each term is {r} times the one before: {a * r} ÷ {a} = {r}.",
+    "{a * r ^ 3} × {r} = {answer}"
+   ],
+   "where": [
+    "a * r ^ 4 <= 2000"
+   ]
+  },
+  {
+   "id": "m2-8-missing",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sequences"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -20,
+      40
+     ]
+    },
+    "d": {
+     "int": [
+      -11,
+      11
+     ]
+    }
+   },
+   "prompt": "Find the missing term: {a}, {a + d}, ___, {a + 3 * d}, {a + 4 * d}",
+   "answer": "a + 2 * d",
+   "solution": [
+    "The common difference is {a + d} − {br(a)} = {d}.",
+    "{a + d} + {br(d)} = {answer}. Check: {answer} + {br(d)} = {a + 3 * d}."
+   ],
+   "where": [
+    "abs(d) >= 3"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m2-8-term",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sequences"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      30
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "n": {
+     "int": [
+      10,
+      40
+     ]
+    }
+   },
+   "prompt": "The sequence {seqTerms(a, d, 4)}, … adds the same number each time. What is term number {n}?",
+   "answer": "a + (n - 1) * d",
+   "misconceptions": [
+    {
+     "id": "n-times",
+     "wrong": "a + n * d",
+     "explain": "Term {n} has the difference added {n - 1} times, not {n} times."
+    },
+    {
+     "id": "times-only",
+     "wrong": "n * d",
+     "explain": "Start from the first term, {a}, then add {n - 1} × {d}."
+    }
+   ],
+   "solution": [
+    "The common difference is {d}.",
+    "Term {n} = {a} + {n - 1} × {d} = {a} + {(n - 1) * d} = {answer}"
+   ]
+  },
+  {
+   "id": "m2-8-which",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sequences"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      30
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      8,
+      40
+     ]
+    },
+    "one": 1
+   },
+   "prompt": "In the sequence {seqTerms(a, d, 4)}, …, which term is equal to {a + (n - 1) * d}?",
+   "answer": "n",
+   "misconceptions": [
+    {
+     "id": "one-less",
+     "wrong": "n - 1",
+     "explain": "Add one: term {one} has no difference added, so the difference added {n - 1} times gives term {n}."
+    },
+    {
+     "id": "divided",
+     "wrong": "(a + (n - 1) * d) / d",
+     "explain": "Take away the first term before dividing by the difference.",
+     "when": "isInt((a + (n - 1) * d) / d)"
+    }
+   ],
+   "solution": [
+    "{a + (n - 1) * d} − {a} = {(n - 1) * d}, and {(n - 1) * d} ÷ {d} = {n - 1}: the difference is added {n - 1} times.",
+    "So {a + (n - 1) * d} is term number {n - 1} + {one} = {answer}."
+   ]
+  }
+ ]
+}

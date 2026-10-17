@@ -1,4 +1,5 @@
-// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1 + French F1) builds from the real engine and content, offline, under 1.3 MB.
+// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1 + French F1) builds from the real engine and content, offline, under 1.5 MB.
+// Form 2 (2026-10-17, form-2 branch): its own shareable file, form2.html; the installable app has both classes.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
@@ -8,11 +9,13 @@ const ROOT = new URL("../", import.meta.url);
 const FILE = new URL("tools/prototype/form1.html", ROOT);
 const page = () => readFileSync(FILE, "utf8");
 const constant = (html, name) => JSON.parse(html.match(new RegExp(`const ${name} = (.*);\\n`))[1]);
+const FORM1 = ["maths", "english", "physics", "chemistry", "geography", "home-economics", "history", "biology", "computer-science", "french"];
+const FORM2 = ["f2-maths", "f2-english"];
 
-test("prototype: builds under 1.3 MB, no external resources, engine runs", () => {
+test("prototype: builds under 1.5 MB, no external resources, engine runs", () => {
   execFileSync(process.execPath, [new URL("tools/prototype/build.mjs", ROOT).pathname.replace(/^\/([A-Za-z]:)/, "$1")]);
   const html = page();
-  assert.ok(Buffer.byteLength(html) < 1300 * 1024, `${Buffer.byteLength(html)} bytes`);
+  assert.ok(Buffer.byteLength(html) < 1500 * 1024, `${Buffer.byteLength(html)} bytes`);
   assert.doesNotMatch(html, /<script[^>]+src=|<link[^>]+href=|https?:\/\/(?!www\.w3\.org)/, "must not load anything from the network");
   assert.doesNotMatch(html, /indexedDB|fetch\(|XMLHttpRequest|sendBeacon|WebSocket/, "must not send data");
   // Progress is saved in this browser only (2026-10-05): one key, every access wrapped in try/catch.
@@ -146,7 +149,7 @@ test("installable app: the core page has the engine and screens but no lesson co
   assert.doesNotMatch(core, /"worked_example":{/, "no lesson content in the core page");
   assert.doesNotMatch(core, /https?:\/\/(?!www\.w3\.org)/, "loads nothing from other sites");
   const lessons = constant(core, "LESSONS"), titles = constant(core, "TITLES");
-  assert.equal(Object.keys(lessons).length, 10);
+  assert.deepEqual(Object.keys(lessons), [...FORM1, ...FORM2]);
   for (const s of Object.keys(lessons)) for (const n of lessons[s]) assert.ok(titles[s][n], `${s} ${n} title in the core page`);
 });
 
@@ -154,7 +157,7 @@ test("installable app: one file per subject defines exactly that subject's lesso
   const core = pwaFile("index.html"), lessons = constant(core, "LESSONS");
   for (const s of Object.keys(lessons)) {
     const js = pwaFile(`subjects/${s}.js`);
-    const m = js.match(/^CONTENT\[("[a-z-]+")\] = (.*);\n$/s);
+    const m = js.match(/^CONTENT\[("[a-z0-9-]+")\] = (.*);\n$/s);
     assert.ok(m, `${s}: subject file format`);
     assert.equal(JSON.parse(m[1]), s);
     const content = JSON.parse(m[2]);
@@ -171,6 +174,8 @@ test("installable app: manifest, icons, service worker and the shareable single 
   const sw = pwaFile("sw.js");
   for (const part of ['addEventListener("install"', 'addEventListener("activate"', 'addEventListener("fetch"', 'req.mode === "navigate"', "caches.match"]) assert.ok(sw.includes(part), part);
   assert.equal(pwaFile("offline.html"), page(), "the shareable file is the single-file app");
+  assert.equal(pwaFile("offline-form-2.html"), readFileSync(new URL("tools/prototype/form2.html", ROOT), "utf8"), "Form Two has its own shareable file");
+  assert.ok(sw.includes(String.raw`subjects\/([a-z0-9-]+)\.js$`),"saved subjects are fetched again after an update, Form 2 ids (f2-maths) included");
 });
 
 test("design: home with streak, stars and subject tiles; lesson path; forgiving streak; stars and badges at the end", () => {
@@ -188,4 +193,20 @@ test("installable app: the teacher review list works when only some subjects are
   assert.match(text, /Object\.keys\(SUBJECTS\)\.filter\(\(x\) => CONTENT\[x\]\)/, "review text skips subjects not loaded yet (bug of 2026-10-17)");
   assert.match(core, /function reviewHome\(\) \{\r?\n  if \(!CONTENT\[RS\]\) return withSubject\(RS, reviewHome\);/);
   assert.match(core, /function reviewLesson\(s, n\) \{\r?\n  if \(!CONTENT\[s\]\) return withSubject\(s, \(\) => reviewLesson\(s, n\)\);/);
+});
+
+test("classes: Form One stays the default; Form Two has its own subjects, file and progress keys", () => {
+  const one = page(), two = readFileSync(new URL("tools/prototype/form2.html", ROOT), "utf8"), core = pwaFile("index.html");
+  assert.deepEqual(Object.keys(constant(one, "SUBJECTS")), FORM1, "the Form One file has only Form One");
+  assert.deepEqual(Object.keys(constant(two, "SUBJECTS")), FORM2, "the Form Two file has only Form Two");
+  assert.deepEqual(Object.keys(constant(two, "CONTENT")), FORM2);
+  assert.ok(Buffer.byteLength(two) < 1500 * 1024);
+  const classOf = constant(core, "CLASS_OF");
+  for (const s of FORM1) assert.equal(classOf[s], "form-1");
+  for (const s of FORM2) assert.equal(classOf[s], "form-2");
+  assert.deepEqual(constant(core, "CLASSES"), { "form-1": "Form One", "form-2": "Form Two" });
+  const app = readFileSync(new URL("tools/prototype/app.js", ROOT), "utf8");
+  assert.ok(app.includes("const form = () => (classesHere().includes(state.form) ? state.form : classesHere()[0]);"), "no saved class: the first class, Form One");
+  assert.ok(app.includes('classesHere().length > 1 ? el("div", { class: "subjects class-switch"'), "the switch shows only when there are two classes");
+  assert.ok(app.includes("const lessonKey = (subject, n) => `${subject}:${n}`;"), "progress is kept per subject id, so f2-maths:5 never mixes with maths:5");
 });

@@ -1,0 +1,540 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-25",
+   "name": "Living together in peace"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Peaceful coexistence means people who are different (in religion, language, tribe or culture) living together without violence and with respect.\nIts advantages: people feel safe, children go to school, trade grows, and the community works together.\nIn the talk, Christians and Muslims, Anglophones and Francophones share the same market, school and water point. When two families quarrelled about a fence, the quarter head helped them talk; they apologised and shared the cost.\nUseful phrases:\n• Disagreeing politely: “I see your point, but …” “I'm afraid I don't agree.”\n• Apologising: “I'm sorry. It was my fault.” Accepting: “That's all right.”\n• Solving a problem: “Let's talk about it calmly.” “Why don't we share it?”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Ayuk",
+   "m": "Bih"
+  },
+  "problem": "{n} and {m} both want the same seat in class. Write what they can say to solve the problem peacefully.",
+  "steps": [
+   "{n} disagrees politely: “I see your point, but I sat here first.”",
+   "{m} suggests a solution: “Why don't we take turns? You today, me tomorrow.”",
+   "They agree and apologise: “That's fair. Sorry I shouted.” — “That's all right.”"
+  ],
+  "answer": "They speak calmly, disagree politely, suggest taking turns and apologise.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "Read this short talk. (In class you would listen to it.)",
+    "vars": {},
+    "example": [
+     "In our quarter live Christians and Muslims, Anglophones and Francophones, and people from many tribes. We speak different languages at home, but we share the same market, school and water point.",
+     "Living together in peace means respecting other people's beliefs and customs, even when they are different from ours. When we disagree, we talk calmly and listen to each other.",
+     "Last year two families quarrelled about a fence. The quarter head invited them to talk. Each family explained, they apologised to each other, and they agreed to share the cost of a new fence."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-25-c1",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What do the people of the quarter share?",
+         "r": "the same market, school and water point",
+         "w": [
+          "the same language at home",
+          "the same religion",
+          "the same tribe"
+         ],
+         "e": [
+          "They speak different languages at home.",
+          "They are Christians and Muslims.",
+          "They come from many tribes."
+         ],
+         "y": "The talk says they share the market, school and water point."
+        },
+        {
+         "q": "What did the two families quarrel about?",
+         "r": "a fence",
+         "w": [
+          "a goat",
+          "the water point",
+          "a football"
+         ],
+         "e": [
+          "The talk says a fence.",
+          "The talk says a fence.",
+          "The talk says a fence."
+         ],
+         "y": "They quarrelled about a fence."
+        },
+        {
+         "q": "Who helped the two families to talk?",
+         "r": "the quarter head",
+         "w": [
+          "the police",
+          "a teacher",
+          "the market women"
+         ],
+         "e": [
+          "The talk says the quarter head.",
+          "The talk says the quarter head.",
+          "The talk says the quarter head."
+         ],
+         "y": "The quarter head invited them to talk."
+        },
+        {
+         "q": "How did the quarrel end?",
+         "r": "They agreed to share the cost of a new fence.",
+         "w": [
+          "One family moved away.",
+          "They went to court.",
+          "They stopped speaking."
+         ],
+         "e": [
+          "The talk does not say that.",
+          "They solved it by talking.",
+          "They talked and apologised."
+         ],
+         "y": "They apologised and agreed to share the cost."
+        }
+       ]
+      }
+     },
+     "prompt": "From the talk: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Disagree politely: say you understand, then give your view.",
+    "vars": {},
+    "example": [
+     "“I see your point, but I think we should wait.”",
+     "“I'm afraid I don't agree.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-25-say"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "Apologise when you are wrong, and accept an apology kindly.",
+    "vars": {},
+    "example": [
+     "“I'm sorry. It was my fault.”",
+     "“That's all right. Let's forget it.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-25-reply"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-25-say",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "disagree",
+       "r": "I see your point, but I don't agree.",
+       "w": [
+        "You are stupid.",
+        "Shut up!",
+        "That is rubbish."
+       ],
+       "e": [
+        "That insults the person.",
+        "That is rude.",
+        "That is rude."
+       ],
+       "y": "Say you understand, then give your view."
+      },
+      {
+       "q": "apologise",
+       "r": "I'm sorry. It was my fault.",
+       "w": [
+        "It's your problem.",
+        "I don't care.",
+        "You started it."
+       ],
+       "e": [
+        "That blames the other person.",
+        "That is not an apology.",
+        "That blames the other person."
+       ],
+       "y": "Say sorry and accept that you were wrong."
+      },
+      {
+       "q": "suggest a solution",
+       "r": "Why don't we share it?",
+       "w": [
+        "Give it to me now!",
+        "I'll take it, end of story.",
+        "Go away."
+       ],
+       "e": [
+        "That is an order.",
+        "That does not solve the problem fairly.",
+        "That is rude."
+       ],
+       "y": "Why don't we …? suggests a fair solution."
+      },
+      {
+       "q": "ask someone to calm down",
+       "r": "Let's talk about it calmly.",
+       "w": [
+        "Stop shouting, idiot!",
+        "Fight me!",
+        "Leave my quarter!"
+       ],
+       "e": [
+        "That insults the person.",
+        "That makes things worse.",
+        "That is unkind."
+       ],
+       "y": "Invite the person to talk calmly."
+      }
+     ]
+    }
+   },
+   "prompt": "Which is the most polite way to {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-25-reply",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "I'm sorry I broke your pen.",
+       "r": "That's all right. Accidents happen.",
+       "w": [
+        "You must pay me now!",
+        "I will break yours.",
+        "Go away."
+       ],
+       "e": [
+        "That refuses the apology.",
+        "That causes a new problem.",
+        "That is unkind."
+       ],
+       "y": "Accept the apology kindly."
+      },
+      {
+       "q": "I don't agree with you.",
+       "r": "That's fine. Tell me what you think.",
+       "w": [
+        "You are wrong, keep quiet.",
+        "Then we are enemies.",
+        "Nobody asked you."
+       ],
+       "e": [
+        "That stops the conversation.",
+        "Disagreeing does not make enemies.",
+        "That is rude."
+       ],
+       "y": "Listen to the other view."
+      },
+      {
+       "q": "Why don't we take turns?",
+       "r": "Good idea. You go first.",
+       "w": [
+        "No, it's mine.",
+        "I'll tell the teacher.",
+        "Turns are for babies."
+       ],
+       "e": [
+        "That refuses a fair solution.",
+        "That is not needed for a fair idea.",
+        "That is unkind."
+       ],
+       "y": "Accept a fair solution."
+      }
+     ]
+    }
+   },
+   "prompt": "Someone says: “{X.q}” What is the kindest reply?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-25-ideas",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of living together in peace?",
+       "r": "Trade grows because people feel safe.",
+       "w": [
+        "Everyone speaks the same language.",
+        "There are no festivals.",
+        "Schools close."
+       ],
+       "e": [
+        "People can keep different languages.",
+        "Peace does not stop festivals.",
+        "Schools stay open in peace."
+       ],
+       "y": "When people feel safe, trade grows."
+      },
+      {
+       "q": "What does it mean to respect someone's customs?",
+       "r": "To accept them even if they are different from ours.",
+       "w": [
+        "To copy them all.",
+        "To laugh at them.",
+        "To stop them."
+       ],
+       "e": [
+        "Respect does not mean copying.",
+        "Laughing at them is disrespectful.",
+        "Stopping them is not respect."
+       ],
+       "y": "Respect means accepting, not mocking or stopping."
+      },
+      {
+       "q": "Two neighbours quarrel about a goat. What is the best first step?",
+       "r": "Talk calmly and listen to each other.",
+       "w": [
+        "Fight",
+        "Kill the goat",
+        "Insult each other"
+       ],
+       "e": [
+        "Fighting makes it worse.",
+        "That makes it worse.",
+        "Insults make it worse."
+       ],
+       "y": "Talking calmly is the first step to peace."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-25-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "One sentence goes AGAINST peaceful coexistence. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "We respect our neighbours' religion.",
+      "truth": "true"
+     },
+     {
+      "text": "When we disagree, we talk calmly.",
+      "truth": "true"
+     },
+     {
+      "text": "We share the water point.",
+      "truth": "true"
+     },
+     {
+      "text": "I apologised for my mistake.",
+      "truth": "true"
+     },
+     {
+      "text": "Our club welcomes pupils from every tribe.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "We don't play with children from other tribes.",
+      "truth": "false",
+      "explain": "Excluding people because of their tribe goes against living together in peace."
+     },
+     {
+      "text": "I laughed at my classmate's language.",
+      "truth": "false",
+      "explain": "Mocking someone's language is disrespectful."
+     },
+     {
+      "text": "We shouted until they left the meeting.",
+      "truth": "false",
+      "explain": "Shouting people down goes against peaceful talk."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

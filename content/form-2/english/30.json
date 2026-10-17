@@ -1,0 +1,586 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-30",
+   "name": "Word formation: prefixes and suffixes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "We can make new words by adding a part at the beginning (a prefix) or at the end (a suffix).\nPrefixes change the meaning: un- (unhappy), dis- (disagree), im- (impossible, before m and p), in- (incorrect), re- (rewrite: write again), mis- (misunderstand: understand wrongly).\nSuffixes change the kind of word:\n• verb → noun: celebrate → celebration, govern → government, decorate → decoration, enjoy → enjoyment, sing → singer;\n• adjective → noun: happy → happiness, kind → kindness, free → freedom;\n• noun → adjective: care → careful (with care) or careless (without care), peace → peaceful, joy → joyful, nation → national;\n• adjective → adverb: quick → quickly, happy → happily.\nSpelling: y after a consonant becomes i (happy → happiness), and a final e often drops before -ion (celebrate → celebration).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "celebrate",
+   "b": "peace",
+   "c": "kind"
+  },
+  "problem": "Make a noun from {a}, an adjective from {b} and a noun from {c}, and use them in one sentence.",
+  "steps": [
+   "{a} + -ion, dropping the e: celebration.",
+   "{b} + -ful: peaceful. {c} + -ness: kindness.",
+   "“The National Day celebration was peaceful, and everyone showed kindness.”"
+  ],
+  "answer": "celebration, peaceful, kindness",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "A prefix goes at the beginning and changes the meaning: un-, dis-, im-, re-, mis-.",
+    "vars": {},
+    "example": [
+     "happy → unhappy; agree → disagree",
+     "possible → impossible; write → rewrite"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-30-prefix"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "Suffixes -ion, -ment and -ness make nouns.",
+    "vars": {},
+    "example": [
+     "celebrate → celebration; govern → government",
+     "kind → kindness; happy → happiness"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-30-noun"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "Suffixes -ful, -less and -al make adjectives; -ly makes adverbs.",
+    "vars": {},
+    "example": [
+     "care → careful, careless; nation → national",
+     "quick → quickly"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-30-adj"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-30-prefix",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "word-formation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "not happy",
+       "r": "unhappy",
+       "w": [
+        "dishappy",
+        "imhappy",
+        "rehappy"
+       ],
+       "e": [
+        "Happy takes un-.",
+        "Im- goes before m and p.",
+        "Re- means again."
+       ],
+       "y": "un- + happy = unhappy."
+      },
+      {
+       "q": "not agree",
+       "r": "disagree",
+       "w": [
+        "unagree",
+        "imagree",
+        "misagree"
+       ],
+       "e": [
+        "Agree takes dis-.",
+        "Im- goes before m and p.",
+        "Mis- means wrongly."
+       ],
+       "y": "dis- + agree = disagree."
+      },
+      {
+       "q": "not possible",
+       "r": "impossible",
+       "w": [
+        "unpossible",
+        "dispossible",
+        "inpossible"
+       ],
+       "e": [
+        "Before p we use im-.",
+        "Possible takes im-.",
+        "Before p, in- becomes im-."
+       ],
+       "y": "im- + possible = impossible."
+      },
+      {
+       "q": "write again",
+       "r": "rewrite",
+       "w": [
+        "miswrite",
+        "unwrite",
+        "diswrite"
+       ],
+       "e": [
+        "Mis- means wrongly.",
+        "Un- means not.",
+        "Dis- means not."
+       ],
+       "y": "re- means again: rewrite."
+      },
+      {
+       "q": "understand wrongly",
+       "r": "misunderstand",
+       "w": [
+        "disunderstand",
+        "reunderstand",
+        "ununderstand"
+       ],
+       "e": [
+        "Dis- means not.",
+        "Re- means again.",
+        "That is not a word."
+       ],
+       "y": "mis- means wrongly: misunderstand."
+      },
+      {
+       "q": "not correct",
+       "r": "incorrect",
+       "w": [
+        "uncorrect",
+        "discorrect",
+        "imcorrect"
+       ],
+       "e": [
+        "Correct takes in-.",
+        "Correct takes in-.",
+        "Im- goes before m and p."
+       ],
+       "y": "in- + correct = incorrect."
+      }
+     ]
+    }
+   },
+   "prompt": "Which word means “{X.q}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-30-noun",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "word-formation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The Youth Day ___ was colourful. (celebrate)",
+       "a": "celebration",
+       "w": [
+        "celebrate",
+        "celebrated"
+       ],
+       "e": [
+        "After the, we need a noun: celebration.",
+        "That is a verb form."
+       ]
+      },
+      {
+       "s": "The ___ built a new road. (govern)",
+       "a": "government",
+       "w": [
+        "governing",
+        "governed"
+       ],
+       "e": [
+        "We need a noun: government.",
+        "That is a verb form."
+       ]
+      },
+      {
+       "s": "Her ___ made everyone smile. (kind)",
+       "a": "kindness",
+       "w": [
+        "kindly",
+        "kinder"
+       ],
+       "e": [
+        "Kindly is an adverb.",
+        "Kinder compares; we need a noun."
+       ]
+      },
+      {
+       "s": "We fought for our ___. (free)",
+       "a": "freedom",
+       "w": [
+        "freely",
+        "freeness"
+       ],
+       "e": [
+        "Freely is an adverb.",
+        "The noun is freedom."
+       ]
+      },
+      {
+       "s": "The children's ___ filled the hall. (happy)",
+       "a": "happiness",
+       "w": [
+        "happyness",
+        "happily"
+       ],
+       "e": [
+        "Y becomes i: happiness.",
+        "Happily is an adverb."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the noun that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-30-kind",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "word-formation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a noun",
+       "r": "celebration",
+       "w": [
+        "celebrate",
+        "peaceful",
+        "quickly"
+       ],
+       "e": [
+        "Celebrate is a verb.",
+        "Peaceful is an adjective.",
+        "Quickly is an adverb."
+       ],
+       "y": "-ion makes a noun."
+      },
+      {
+       "q": "an adjective",
+       "r": "careless",
+       "w": [
+        "carelessly",
+        "care",
+        "carelessness"
+       ],
+       "e": [
+        "-ly makes an adverb.",
+        "Care is a noun or a verb.",
+        "-ness makes a noun."
+       ],
+       "y": "-less makes an adjective."
+      },
+      {
+       "q": "an adverb",
+       "r": "happily",
+       "w": [
+        "happiness",
+        "happy",
+        "unhappy"
+       ],
+       "e": [
+        "-ness makes a noun.",
+        "Happy is an adjective.",
+        "Unhappy is an adjective."
+       ],
+       "y": "-ly makes an adverb."
+      },
+      {
+       "q": "a noun",
+       "r": "government",
+       "w": [
+        "govern",
+        "governed",
+        "national"
+       ],
+       "e": [
+        "Govern is a verb.",
+        "Governed is a verb form.",
+        "National is an adjective."
+       ],
+       "y": "-ment makes a noun."
+      }
+     ]
+    }
+   },
+   "prompt": "Which word is {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-30-adj",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "word-formation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Be ___ when you cross the road. (care)",
+       "a": "careful",
+       "w": [
+        "careless",
+        "carefully"
+       ],
+       "e": [
+        "Careless means without care.",
+        "After be, use an adjective: careful."
+       ]
+      },
+      {
+       "s": "He lost his keys again; he is so ___. (care)",
+       "a": "careless",
+       "w": [
+        "careful",
+        "caring"
+       ],
+       "e": [
+        "Losing keys shows no care: careless.",
+        "Caring means kind to others."
+       ]
+      },
+      {
+       "s": "We want a ___ country. (peace)",
+       "a": "peaceful",
+       "w": [
+        "peaceless",
+        "peacefully"
+       ],
+       "e": [
+        "Peaceless is not used.",
+        "Before a noun, use an adjective: peaceful."
+       ]
+      },
+      {
+       "s": "The ___ anthem is sung on 20 May. (nation)",
+       "a": "national",
+       "w": [
+        "nationful",
+        "nationly"
+       ],
+       "e": [
+        "The adjective is national.",
+        "The adjective is national."
+       ]
+      },
+      {
+       "s": "She ran ___ to catch the bus. (quick)",
+       "a": "quickly",
+       "w": [
+        "quick",
+        "quickness"
+       ],
+       "e": [
+        "To say how she ran, use the adverb quickly.",
+        "Quickness is a noun."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "word-formation"
+   ],
+   "prompt": "One word is formed wrongly. Which sentence has it?",
+   "pool": {
+    "right": [
+     {
+      "text": "The celebration was peaceful.",
+      "truth": "true"
+     },
+     {
+      "text": "I disagree with you.",
+      "truth": "true"
+     },
+     {
+      "text": "That answer is incorrect.",
+      "truth": "true"
+     },
+     {
+      "text": "Her kindness helped us.",
+      "truth": "true"
+     },
+     {
+      "text": "Please rewrite your essay.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The test was unpossible.",
+      "truth": "false",
+      "explain": "Before p we use im-: impossible."
+     },
+     {
+      "text": "We enjoyed the decorateion.",
+      "truth": "false",
+      "explain": "Drop the e: decoration."
+     },
+     {
+      "text": "His happyness was clear.",
+      "truth": "false",
+      "explain": "Y becomes i: happiness."
+     },
+     {
+      "text": "I misagree with your idea.",
+      "truth": "false",
+      "explain": "The opposite of agree is disagree."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
