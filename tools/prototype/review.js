@@ -2,7 +2,7 @@
 // shown, marks each part ✓ OK or ✗ Problem with an optional comment, then sends the review as one message
 // (WhatsApp or any app, through the phone's share sheet, or copied). Marks are kept on this phone only; nothing is sent
 // unless the teacher sends it. Pupils never see this mode. Every mark carries the item's id, so fixes are exact.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, MODE */
 
 const REVIEW_KEY = "psalmspreps-review-v1";
 const loadReview = () => {
@@ -95,6 +95,7 @@ function reviewItem(s, n, it) {
 }
 
 function reviewLesson(s, n) {
+  if (!CONTENT[s]) return withSubject(s, () => reviewLesson(s, n));
   const c = lessonCounts(s, n);
   screen(header(`Review · ${SUBJECTS[s]} · Lesson ${n}`, TITLES[s][n]),
     para(`${c.done} of ${c.total} parts checked${c.problems ? ` · ${c.problems} problem${c.problems === 1 ? "" : "s"}` : ""}. Answers are shown. Mark each part, and add a comment when something is wrong.`, "muted"),
@@ -107,7 +108,7 @@ function reviewText() {
   const out = [`Psalms Preps teacher review · ${review.name || "(name not given)"} · app ${BUILD} · ${new Date().toISOString().slice(0, 16).replace("T", " ")}`];
   for (const s of Object.keys(SUBJECTS)) for (const n of LESSONS[s]) {
     const items = reviewItems(s, n).map((it) => [it, review.marks[markKey(s, n, it.id)]]).filter(([, m]) => m);
-    if (!items.length) continue;
+    if (!items.length || !CONTENT[s]) continue;
     const ok = items.filter(([, m]) => m.ok);
     out.push("", `${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}): ${items.length} of ${reviewItems(s, n).length} checked, ${items.length - ok.length} problem(s)`);
     for (const [it, m] of items) if (!m.ok || m.note) out.push(`  ${m.ok ? "✓" : "✗"} ${s}:${n}:${it.id}${m.note ? ` — ${m.note}` : ""}`);
@@ -116,6 +117,8 @@ function reviewText() {
 }
 
 async function sendReview(status) {
+  const marked = [...new Set(Object.keys(review.marks).map((k) => k.split(":")[0]))].filter((s) => SUBJECTS[s]);
+  try { await loadAll(marked); } catch { status.textContent = "Connect to the internet once, then send again."; return; }
   const text = reviewText();
   try {
     if (navigator.share) { await navigator.share({ title: "Teacher review", text }); status.textContent = "Shared."; return; }
@@ -125,6 +128,7 @@ async function sendReview(status) {
 }
 
 function reviewHome() {
+  if (!CONTENT[RS]) return withSubject(RS, reviewHome);
   document.documentElement.lang = "en";
   const name = el("input", { type: "text", class: "rv-name", placeholder: "Your name", "aria-label": "Your name", autocomplete: "name" });
   name.value = review.name;
@@ -151,4 +155,4 @@ function reviewHome() {
 }
 
 // Start: teachers open the link with ?review; everyone else gets the pupil's lesson menu.
-if (new URLSearchParams(location.search).has("review")) reviewHome(); else menu();
+if (new URLSearchParams(location.search).has("review")) reviewHome(); else home();

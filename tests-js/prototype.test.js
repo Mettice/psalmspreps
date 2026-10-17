@@ -105,7 +105,8 @@ test("prototype: motion off under prefers-reduced-motion; 48px tap targets; text
   assert.doesNotMatch(html, /replaceChildren\(\.\.\.[^;]*\? null/);
   // the app opens on the lesson menu; the readiness check is offered on the Maths tab only, until done (2026-10-07)
   // (since 2026-10-17 the last line also sends teachers with ?review to the review list)
-  assert.match(html, /\nif \(new URLSearchParams\(location\.search\)\.has\("review"\)\) reviewHome\(\); else menu\(\);\s*<\/script>/);
+  // (since 2026-10-17 pupils start on the home screen: streak, stars, one tile per subject)
+  assert.match(html, /\nif \(new URLSearchParams\(location\.search\)\.has\("review"\)\) reviewHome\(\); else home\(\);\s*<\/script>/);
   assert.match(html, /const check = s === "maths" && !state\.readiness;/);
   // readiness must stay neutral: no flash, shake or check icon on that path
   const readinessCode = html.slice(html.indexOf("function readinessQ"), html.indexOf("function readinessDone"));
@@ -127,6 +128,56 @@ test("prototype: inside French lessons the pupil's labels are French; elsewhere 
 
 test("prototype: teacher review mode opens with ?review, shows answers and builds the message from marks", () => {
   const html = page();
-  assert.ok(html.includes('if (new URLSearchParams(location.search).has("review")) reviewHome(); else menu();'), "start-up chooses review or menu");
+  assert.ok(html.includes('if (new URLSearchParams(location.search).has("review")) reviewHome(); else home();'), "start-up chooses review or home");
   for (const t of ["Teacher review", "✓ OK", "✗ Problem", "Send my review", "Answer written by a person: please check it."]) assert.ok(html.includes(t), t);
+});
+
+// ---- the installable app (2026-10-17): a small core page, one file per subject, a service worker, a manifest
+const PWA = new URL("tools/prototype/pwa/", ROOT);
+const pwaFile = (p) => readFileSync(new URL(p, PWA), "utf8");
+
+test("installable app: the core page has the engine and screens but no lesson content, and registers the service worker", () => {
+  const core = pwaFile("index.html");
+  assert.ok(Buffer.byteLength(core) < 400 * 1024, `${Buffer.byteLength(core)} bytes`);
+  assert.match(core, /const CONTENT = \{\};/);
+  assert.match(core, /const MODE = "pwa";/);
+  assert.match(core, /<link rel="manifest" href="manifest\.webmanifest">/);
+  assert.match(core, /navigator\.serviceWorker\.register\("sw\.js"\)/);
+  assert.doesNotMatch(core, /"worked_example":{/, "no lesson content in the core page");
+  assert.doesNotMatch(core, /https?:\/\/(?!www\.w3\.org)/, "loads nothing from other sites");
+  const lessons = constant(core, "LESSONS"), titles = constant(core, "TITLES");
+  assert.equal(Object.keys(lessons).length, 10);
+  for (const s of Object.keys(lessons)) for (const n of lessons[s]) assert.ok(titles[s][n], `${s} ${n} title in the core page`);
+});
+
+test("installable app: one file per subject defines exactly that subject's lessons", () => {
+  const core = pwaFile("index.html"), lessons = constant(core, "LESSONS");
+  for (const s of Object.keys(lessons)) {
+    const js = pwaFile(`subjects/${s}.js`);
+    const m = js.match(/^CONTENT\[("[a-z-]+")\] = (.*);\n$/s);
+    assert.ok(m, `${s}: subject file format`);
+    assert.equal(JSON.parse(m[1]), s);
+    const content = JSON.parse(m[2]);
+    for (const n of lessons[s]) assert.equal(content[n]?.lesson_no, n, `${s} ${n}`);
+  }
+});
+
+test("installable app: manifest, icons, service worker and the shareable single file", () => {
+  const manifest = JSON.parse(pwaFile("manifest.webmanifest"));
+  assert.equal(manifest.display, "standalone");
+  assert.equal(manifest.start_url, "./");
+  for (const icon of manifest.icons) assert.ok(readFileSync(new URL(icon.src, PWA)).length > 500, icon.src);
+  assert.ok(manifest.icons.some((i) => i.sizes === "512x512" && i.purpose === "any") && manifest.icons.some((i) => i.purpose === "maskable"));
+  const sw = pwaFile("sw.js");
+  for (const part of ['addEventListener("install"', 'addEventListener("activate"', 'addEventListener("fetch"', 'req.mode === "navigate"', "caches.match"]) assert.ok(sw.includes(part), part);
+  assert.equal(pwaFile("offline.html"), page(), "the shareable file is the single-file app");
+});
+
+test("design: home with streak, stars and subject tiles; lesson path; forgiving streak; stars and badges at the end", () => {
+  const html = page();
+  for (const t of ["function home()", "function badgesScreen()", "function streak()", "function starsOf(", "function newBadges()", 'class: "path"', "tile-subject", "Up to two days off won't break it."])
+    assert.ok(html.includes(t), t);
+  assert.match(html, /dayNum\(dayOf\(\)\) - days\[days\.length - 1\] > 3/, "a streak survives two days off");
+  assert.match(html, /right >= 0\.8 \? 3 : right >= 0\.5 \? 2 : 1/, "stars from first tries");
+  assert.match(html, /\.done-stars \.star \{[^}]*animation/);
 });

@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1f6f4a">
 <title>Form One Lessons</title>
 <style>
 :root { --bg:#fbfaf7; --fg:#1d1c1a; --muted:#5f5b53; --card:#ffffff; --line:#d9d4c9; --accent:#1f6f4a; --accent-press:#185a3c; --accent-fg:#ffffff;
@@ -122,6 +123,47 @@ button.lesson.is-done .mark { background: var(--good-bg); color: var(--good); }
 button.lesson .lt { display: flex; flex-direction: column; min-width: 0; overflow-wrap: anywhere; }
 button.lesson .ln { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 button.lesson .sub { font-size: .9rem; color: var(--muted); }
+/* ---- design of 2026-10-17: home, subject colours, lesson path, streak, stars, badges ---- */
+.hello { margin: 4px 0 12px; } .hello h1 { font-size: 1.5rem; }
+.pills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 8px; }
+.pill { display: flex; flex-direction: column; align-items: center; padding: 10px 4px; border-radius: 14px; background: var(--card); border: 1px solid var(--line); }
+.pill strong { font-size: 1.4rem; line-height: 1.1; } .pill span:last-child { font-size: .8rem; color: var(--muted); } .pill-icon { font-size: 1.2rem; }
+.streak-note { text-align: center; }
+button.continue { background: var(--subj, var(--accent)); border-color: var(--subj, var(--accent)); color: #fff; box-shadow: 0 3px 0 rgba(0,0,0,.25); }
+.tiles-subjects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 14px 0 6px; }
+button.tile-subject { margin: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; min-height: 112px; padding: 12px;
+  border: 2px solid var(--subj); border-radius: 16px; background: var(--card); background: color-mix(in srgb, var(--subj) 12%, var(--card)); }
+button.tile-subject:active { transform: scale(.96); }
+.ts-icon { font-size: 1.8rem; line-height: 1; } .ts-name { font-weight: 800; line-height: 1.2; } .ts-count { font-size: .85rem; color: var(--muted); }
+.ts-bar { display: block; width: 100%; height: 8px; border-radius: 4px; background: var(--track); overflow: hidden; margin-top: auto; }
+.ts-bar span { display: block; height: 100%; background: var(--subj); border-radius: 4px; }
+button.tile-subject.complete .ts-count { color: var(--subj); font-weight: 700; }
+button.badges-link { text-align: center; font-weight: 700; margin-top: 14px; }
+.badges { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 14px; }
+.badge-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px; padding: 14px 8px; border-radius: 16px;
+  border: 1px dashed var(--line); background: var(--soft); opacity: .75; }
+.badge-card.got { opacity: 1; border: 2px solid #e0a526; background: var(--card); }
+.badge-card .b-icon { font-size: 2rem; } .badge-card .muted { font-size: .8rem; }
+.subject-head { display: flex; gap: 12px; align-items: center; margin: 4px 0 12px; } .sh-icon { font-size: 2.4rem; line-height: 1; }
+.subject-page .progress .fill { background: var(--subj); }
+button.link.back { text-align: left; margin: 0 0 6px; padding-left: 0; }
+.path { list-style: none; padding: 0; margin: 14px 0; position: relative; }
+.path::before { content: ""; position: absolute; left: 25px; top: 18px; bottom: 18px; width: 4px; border-radius: 2px; background: var(--track); }
+.path .step { position: relative; }
+.path button.lesson .mark { position: relative; z-index: 1; width: 40px; height: 40px; border: 3px solid var(--subj); background: var(--card); color: var(--subj); }
+.path .is-done button.lesson .mark { background: var(--subj); color: #fff; }
+.path .is-next button.lesson { border: 2px solid var(--subj); background: color-mix(in srgb, var(--subj) 10%, var(--card)); }
+.path .is-next button.lesson .mark { animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--subj) 45%, transparent); } 50% { box-shadow: 0 0 0 8px transparent; } }
+.done-stars { display: flex; justify-content: center; gap: 10px; margin: 10px 0; }
+.done-stars .star { font-size: 2.6rem; color: var(--track); animation: starpop 420ms cubic-bezier(.2,.9,.3,1.4) calc(var(--k) * 180ms) both; }
+.done-stars .star.on { color: #e0a526; }
+@keyframes starpop { from { transform: scale(0) rotate(-40deg); opacity: 0; } to { transform: none; opacity: 1; } }
+.done-streak { font-weight: 700; }
+.new-badge { display: flex; gap: 10px; align-items: center; justify-content: center; padding: 10px; margin: 8px 0; border-radius: 14px;
+  border: 2px solid #e0a526; background: var(--card); animation: starpop 420ms ease-out 700ms both; } .new-badge span { font-size: 1.6rem; }
+a.button-link { display: block; min-height: 48px; margin: 10px 0 0; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--card); color: var(--fg); text-align: center; text-decoration: none; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .confetti { display: none; }
@@ -2583,14 +2625,16 @@ const CONTENT = {"maths":{"0":{"subject":"mathematics","class":"Form 1","lesson_
 const TITLES = {"maths":{"1":"The history and evolution of numbers","2":"Egyptian and Roman numerals","3":"Hindu-Arabic numerals and place value","4":"Numbers in words and in figures","5":"Elements of ℕ and of ℕ*","6":"Cardinal, Ordinal and Nominal numbers","7":"Whole number powers and operations in the set ℕ","8":"Number bases: Convert numbers in base 10 to other bases and from one base to another","9":"Number bases: Addition and subtraction in other bases","10":"Number bases: Multiplication in other bases","11":"Points and notation of lines, half lines and line segments","12":"Collinear points","13":"Units of measuring length and distance: Converting from one unit to another","14":"Line segment: Midpoint property of a line segment and its converse","15":"Constructing the perpendicular bisector of a line segment","16":"Parallel, perpendicular and orthogonal lines: Notation and properties"},"english":{"1":"Speaking: Dialogue to introduce oneself and other persons","2":"Vocabulary: Words related to basic daily needs/respect spelling rules and conventions","3":"Grammar: The Simple Present tense (affirmative, negative and interrogative)","5":"Reading: Read brief accounts of school activities, school timetables and notices IRREGULAR VERBS","6":"Vocabulary: Numbers","7":"Grammar: The Present continuous tense","9":"Writing: Write a shopping list based on needs and priorities","10":"Vocabulary: countable and uncountable nouns","11":"Grammar: The Simple Past tense","13":"Speaking: Talk about and state the different means of transportation","14":"Vocabulary: Form new words by conversion and compounding methods/ means of transport","15":"Grammar: The Present Perfect tense","16":"Writing: Fill out simple forms, e.g. an invitation letter"},"physics":{"1":"Definition and branches of science","2":"Prominent scientists and discoveries and contributions to improvement in the lives of humans","3":"Definition of physics and some of its branches","4":"What physicists do and how. Observing nature and seeking comprehension","5":"Some basic equipment in the Physics laboratory","6":"Safety rules for working in the Physics laboratory","7":"Job opportunities for science students","8":"Concepts of simple measurements using measuring instruments","9":"Identifying physical and non-physical quantities","10":"Some Units of measurement and S.I units","11":"States of matter and differences between them","12":"Interconversion processes","13":"Length: Definition, Units and Measurement","14":"Mass: Definition, Units and Measurement","15":"Weight: Definition, Units and Measurement. Differences between weight and mass","16":"Define volume & state its units; Measurement of volumes of liquids, regular & irregular solids","17":"Density: Definition, Units, and Measurement","18":"Temperature: Definition, Units and Measurements","19":"Safety rules on products and materials. Using information on products"},"chemistry":{"1":"Introduction to Chemistry","2":"Importance of chemistry in everyday life","3":"Some basic equipment 1 used in the study of chemistry","4":"Some basic equipment 2 used in the study of chemistry","5":"Hazardous symbols on reagent bottles and their meanings","6":"Safety rules observed in the Laboratory","7":"Measurement of mass and volume","8":"Measurement of time and temperature","9":"Physical and Chemical Changes","10":"States of Matter and Change of States","11":"Simple kinetic theory of matter and change of state","12":"Mixtures and pure substances","13":"Types of mixtures and examples","14":"Methods of separating solid-solid mixtures","15":"Methods of separating solid-liquid mixtures","16":"Methods of separating liquid-liquid mixtures","17":"Methods of separating liquid-gas mixtures","18":"Methods of separating gas-gas mixtures","19":"Types of Pure substances: Composition of elements","20":"Composition of compounds","21":"Differences between mixtures and pure substances"},"geography":{"1":"Geography: Definition, branches and sub branches, methods and importance","2":"(Part 1): Our Planet The earth: (The solar system)","3":"(Part 2): Our Planet The earth: (Shape & dimensions,Locational references of the earth) Distribution of Landmasses and water bodies","4":"PW1: Representation of the earth’s shape and size (identification of marginal information on maps)","5":"Practical Work 2 (Part 1): Locate a place on a map","6":"PW 2 (Part 2): Locate a place on a map (Read geographical coordinates of a place on a map)","7":"(Part 1): The earth: A planet moving in space (Rotation & effects; Revolution & effects,)","8":"(Part 2): The earth: A planet moving in space (Local & standard time)","9":"PW3: Calculation of local time (calculation of local time of a place from GMT; Basis of carving out time zones)","10":"The notion of the environment (Definition of natural environment; Components; Ecosystem)"},"home-economics":{"1":"Basic terms used in Nutrition: Malnutrition (under-nutrition, over-nutrition, hidden hunger). Metabolism etc..)","2":"Factors associated with health (diet, exercise, recreation)","3":"Types of food and their nutrients.Food groups","4":"Functions of food. Dietary guidelines. Subjects related to food and nutrition,","5":"Careers associated with Food and Nutrition","6":"Diagram of a traditional kitchen","7":"Types of fire places used in a traditional kitchen","10":"Diagram of the different types of fire places in a traditional kitchen","11":"Advantages and disadvantages of a traditional kitchen","12":"Care of a traditional kitchen","13":"Kitchen planning and management","14":"Different shapes of modern kitchens","15":"Identify kitchen elements/Kitchen units","16":"Types of kitchen units","17":"Points to consider when planning a modern kitchen","20":"Advantages of time management in the kitchen","21":"Care of a modern kitchen"},"history":{"1":"Introduction to the study of history","2":"Further study 1: Collection and classification of Historical Relics","3":"Guided work 1: Enquiry on the system of periodization (counting dates in your region)","4":"The Early Man and his area and of settlements","5":"continues: The way of life of the early man and its implications","6":"Guided Work 2: The myth of creation","7":"Neolithic (New Stone Age Civilization)","8":"Further study 2: Humanization","9":"Further study 3: Cameroon Civilization in the Neolithic","10":"Guided work 3: The pygmies in Cameroon"},"biology":{"1":"Notion of Biology","2":"Characteristics of living things","3":"Differences between living and non-living things/plants and animals","4":"Studying living things: The scientific approach","5":"Studying living things: In the laboratory and their natural environment","6":"Experiment 1: Introduction to the laboratory: Safety rules, identification of equipment, uses and care","7":"Equipment used to study living things (five senses, hand lens, microscope, etc.)","8":"Experiment 2: Use of hand lens and compound light microscope","9":"The cell: Notion, discovery, types","13":"Observing cells: structure, functions of parts, differences between plant and animal cells","14":"Experiment 3: Observing plant and animal cells","15":"Notions, environmental factors (climatic and edaphic)","16":"Effects of Day and night/Seasons","17":"Interactions between living organisms: feeding, reproduction, etc","18":"Experiment 4: Collection of biological specimens","19":"Notion, formation, composition, types","20":"Qualities of good soils and improving soil quality","21":"Responsible farming practices"},"computer-science":{"1":"Introduction to Computer Science","2":"History of computers","3":"Classification of Computers","4":"Introduction to Artificial Intelligence","5":"Applications and Ethics of Artificial Intelligence","6":"The use of appropriate Prompts to generate AI responses","8":"Decomposition","9":"Pattern recognition","10":"Abstraction","11":"Introduction to algorithms","13":"Components of the computing environment and role","14":"Users of the computing environment and notions on data and information","16":"Computer laboratory equipment and devices","17":"Computer laboratory designs","18":"Behaviours to adopt in a computer laboratory"},"french":{"1":"Orthographe: L’alphabet français","2":"Lecture: Lecture d’un petit texte sur la famille nucléaire","3":"Vocabulaire: Lexique lié aux présentations, aux membres de la famille nucléaire et à leurs différents rôles","4":"Grammaire: Les articles définis et indéfinis","5":"Conjugaison: Le présent de l’indicatif des verbes s’appeler, avoir","6":"Expression orale: Prise de parole pour se présenter et présenter autrui","7":"Grammaire: Les pronoms personnels sujets: je, tu, il/elle, nous, vous, ils/elles","8":"Conjugaison: Présent de l’indicatif des verbes travailler, laver","9":"Orthographe: Les nombres de 1 à 50","10":"Lecture: Lecture d'un texte sur les activités familiales/communautaires","11":"Lecture: Lecture d’un texte sur l’école","12":"Vocabulaire: Lexique de l’école ( les bâtiments: provisorat, infirmerie ; les différentes matières: Français, Mathématiques; le personnel: proviseur, censeur, …)","13":"Grammaire: La phrase simple et ses constituants","14":"Expression écrite: Copie de mots","15":"Grammaire: Les adjectifs possessifs"}};
 const LESSONS = {"maths":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"english":[1,2,3,5,6,7,9,10,11,13,14,15,16],"physics":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],"chemistry":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],"geography":[1,2,3,4,5,6,7,8,9,10],"home-economics":[1,2,3,4,5,6,7,10,11,12,13,14,15,16,17,20,21],"history":[1,2,3,4,5,6,7,8,9,10],"biology":[1,2,3,4,5,6,7,8,9,13,14,15,16,17,18,19,20,21],"computer-science":[1,2,3,4,5,6,8,9,10,11,13,14,16,17,18],"french":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]};
 const SUBJECTS = {"maths":"Maths","english":"English","physics":"Physics","chemistry":"Chemistry","geography":"Geography","home-economics":"Home Economics","history":"History","biology":"Biology","computer-science":"Computer Science","french":"French"};
+const PAPER = {"maths":[],"english":[9,16],"physics":[],"chemistry":[],"geography":[],"home-economics":[],"history":[],"biology":[],"computer-science":[],"french":[]};
+const MODE = "single";
 const BUILD = "2026-10-17";
-// Prototype UI: Lesson 0 readiness (once) → lesson menu (Maths and English) → teach mode (cards, worked example,
-// practice or a paper task, note) → results. Uses the real engine (inlined by build.mjs).
+// Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
+// practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, PAPER, MODE */
 const { libs, template, teach, readiness } = ENGINE;
 const { check, DONT_KNOW, renderWorked, normaliseInput, inputModeFor } = template;
-const L0 = CONTENT.maths[0];
+const L0 = () => CONTENT.maths[0];  // Maths is loaded before the readiness check starts
 
 // ---------------------------------------------------------------- saved progress (this browser only)
 // v2 { readiness: {score, rows, at} | null, subject,
@@ -2676,7 +2720,7 @@ const FR = {
   "Try a new question": "Essayer une nouvelle question", "Here are the right answers.": "Voici les bonnes réponses.", "The answer is: {a}": "La réponse est : {a}",
   "Here is how to do it": "Voici comment faire", "Full working": "La solution complète", "We will come back to this one later.": "Nous reviendrons sur cette question plus tard.",
   "Continue": "Continuer", "Lesson {n} done": "Leçon {n} terminée", "You completed {a} questions.": "Tu as répondu à {a} questions.",
-  "Next: Lesson {a}": "Suivant : Leçon {a}", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
+  "Next: Lesson {a}": "Suivant : Leçon {a}", "🔥 {a}-day streak": "🔥 {a} jours d’affilée", "New badge: {a}": "Nouveau badge : {a}", "All subjects": "Toutes les matières", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
 };
 /** A label for the pupil: in French inside a French lesson, otherwise English. {x} are filled from v. */
 const T = (text, v = {}) => ((S === "french" && FR[text]) || text).replace(/\{(\w)\}/g, (_, k) => v[k]);
@@ -2810,13 +2854,13 @@ const toMenu = () => button(T("Back to the lessons"), menu, "link");
 
 // ---------------------------------------------------------------- 1. first visit: readiness check (Primary 6 maths)
 function start() {
-  screen(
+  withSubject("maths", () => screen(
     header("Form One", "Before we start"),
-    ...lines(L0.note.text),
+    ...lines(L0().note.text),
     para("Nothing you type leaves this phone. There is no name to enter.", "muted"),
-    button("Start the check", () => readinessQ(readiness.buildReadiness(L0, newSeed(), libs.maths), 0, []), "primary"),
+    button("Start the check", () => readinessQ(readiness.buildReadiness(L0(), newSeed(), libs.maths), 0, []), "primary"),
     toMenu(),
-  );
+  ));
 }
 
 // No feedback during the check, and no score at the end (TR-C19, approved 2026-10-03):
@@ -2833,7 +2877,7 @@ function readinessQ(qs, i, rows) {
 }
 
 function readinessDone(rows) {
-  state.readiness = { score: readiness.scoreReadiness(L0, rows), rows, at: new Date().toISOString() };
+  state.readiness = { score: readiness.scoreReadiness(L0(), rows), rows, at: new Date().toISOString() };
   save();
   screen(
     header("Thank you", "Let's start"),
@@ -2842,48 +2886,190 @@ function readinessDone(rows) {
   );
 }
 
-// ---------------------------------------------------------------- 2. lesson menu (one subject at a time)
+// ---------------------------------------------------------------- 2. home, subjects, streaks, stars and badges
+// Design of 2026-10-17 (Dion: "colourful and interactive, with streaks"): a home screen with the streak, stars and
+// one coloured tile per subject; each subject shows its lessons as a path. Streaks are forgiving (ghost towns, power
+// cuts, no data): up to two days off in a row never break a streak.
 const subj = () => state.subject in SUBJECTS ? state.subject : "maths";
 const nextLesson = (s) => LESSONS[s].find((n) => !state.lessons[lessonKey(s, n)]?.done);
 const inProgress = (s) => { const c = state.current[s]; return c && !teach.isDone(c.flow) ? c : null; };
 
-function menu() {
+// Each subject's colour (dark enough for white text: contrast 4.5:1 or more) and icon.
+const STYLE = {
+  maths: ["#1d4ed8", "🔢"], english: ["#6d28d9", "📖"], physics: ["#b45309", "⚡"], chemistry: ["#0f766e", "🧪"], geography: ["#2e7d32", "🌍"],
+  "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"],
+};
+const colourOf = (s) => (STYLE[s] || ["#1f6f4a"])[0];
+const iconOf = (s) => (STYLE[s] || ["", "📘"])[1];
+const tinted = (s, ...kids) => { const e = el(...kids); e.style.setProperty("--subj", colourOf(s)); return e; };
+
+// Lesson content is loaded one subject at a time in the installed app (subjects/<id>.js); the single-file copy has
+// everything already. withSubject() shows the screen as soon as the subject is ready.
+const loading = {};
+function loadSubject(s) {
+  if (CONTENT[s]) return Promise.resolve();
+  if (!loading[s]) loading[s] = new Promise((ok, fail) => {
+    const tag = document.createElement("script");
+    tag.src = `subjects/${s}.js?v=${BUILD}`;
+    tag.onload = () => (CONTENT[s] ? ok() : fail(new Error("empty")));
+    tag.onerror = () => { delete loading[s]; tag.remove(); fail(new Error("offline")); };
+    document.head.append(tag);
+  });
+  return loading[s];
+}
+function withSubject(s, show) {
+  if (CONTENT[s]) return show();
+  screen(header(`${iconOf(s)} ${SUBJECTS[s]}`, "Getting the lessons ready…"), para("This takes a moment the first time.", "muted"));
+  loadSubject(s).then(show, () => screen(header(`${iconOf(s)} ${SUBJECTS[s]}`, "No connection"),
+    para("These lessons are not saved on this phone yet. Connect to the internet once, then they will work offline.", "muted"),
+    button("Try again", () => withSubject(s, show), "primary"), button("Back to all subjects", home, "link")));
+}
+const loadAll = (list) => Promise.all(list.map(loadSubject));
+
+// ---- days, streak, stars, badges (all on this phone only)
+const dayOf = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+const dayNum = (s) => Math.round(Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10)) / 86400000);
+/** Marks today as a learning day (called on every answer in a lesson). */
+function recordDay() {
+  state.days = state.days || [];
+  const t = dayOf();
+  if (state.days[state.days.length - 1] !== t) state.days.push(t);
+}
+/** Learning days in the current run; a run survives up to two days off in a row. 0 if the last learning day was too long ago. */
+function streak() {
+  const days = [...new Set(state.days || [])].map(dayNum).sort((a, b) => a - b);
+  if (!days.length || dayNum(dayOf()) - days[days.length - 1] > 3) return 0;
+  let n = 1;
+  for (let i = days.length - 1; i > 0 && days[i] - days[i - 1] <= 3; i--) n++;
+  return n;
+}
+/** Stars for a finished lesson: 3 if at least 80% of first tries were right, 2 if at least half, otherwise 1. */
+function starsOf(r) {
+  if (!r?.done) return 0;
+  if (r.stars) return r.stars;
+  const first = r.rows.filter((x) => x.phase === "practice" && x.attempt === 1);
+  const asked = first.length || r.rows.filter((x) => x.attempt === 1).length;
+  if (!asked) return 3;
+  const right = (first.length ? first : r.rows.filter((x) => x.attempt === 1)).filter((x) => x.result === "right").length / asked;
+  return right >= 0.8 ? 3 : right >= 0.5 ? 2 : 1;
+}
+const doneIn = (s) => LESSONS[s].filter((n) => state.lessons[lessonKey(s, n)]?.done);
+const totalDone = () => Object.keys(SUBJECTS).reduce((t, s) => t + doneIn(s).length, 0);
+const totalStars = () => Object.keys(SUBJECTS).reduce((t, s) => t + doneIn(s).reduce((u, n) => u + starsOf(state.lessons[lessonKey(s, n)]), 0), 0);
+const starText = (k) => "★".repeat(k) + "☆".repeat(3 - k);
+const BADGES = [
+  ["first", "🎉", "First lesson", "Finish one lesson", () => totalDone() >= 1],
+  ["five", "📚", "Bookworm", "Finish 5 lessons", () => totalDone() >= 5],
+  ["ten", "🏅", "Ten lessons", "Finish 10 lessons", () => totalDone() >= 10],
+  ["twentyfive", "🏆", "Champion", "Finish 25 lessons", () => totalDone() >= 25],
+  ["fifty", "👑", "Fifty!", "Finish 50 lessons", () => totalDone() >= 50],
+  ["streak3", "🔥", "On fire", "A 3-day streak", () => streak() >= 3],
+  ["streak7", "🌟", "One week", "A 7-day streak", () => streak() >= 7],
+  ["streak14", "💪", "Two weeks", "A 14-day streak", () => streak() >= 14],
+  ["stars30", "⭐", "Star collector", "Collect 30 stars", () => totalStars() >= 30],
+  ["stars100", "🌠", "Star shower", "Collect 100 stars", () => totalStars() >= 100],
+  ["explorer", "🌈", "Explorer", "Finish a lesson in every subject", () => Object.keys(SUBJECTS).every((s) => doneIn(s).length)],
+  ...Object.keys(SUBJECTS).map((s) => [`all-${s}`, iconOf(s), `All of ${SUBJECTS[s]}`, `Finish every ${SUBJECTS[s]} lesson`, () => doneIn(s).length === LESSONS[s].length]),
+];
+/** Badges earned now that were not earned before; they are kept for ever once earned. */
+function newBadges() {
+  state.badges = state.badges || {};
+  const fresh = BADGES.filter(([id, , , , ok]) => !state.badges[id] && ok());
+  for (const [id] of fresh) state.badges[id] = dayOf();
+  if (fresh.length) save();
+  return fresh;
+}
+
+// ---- screens
+const statPill = (icon, value, label) => el("div", { class: "pill" }, el("span", { class: "pill-icon", "aria-hidden": "true" }, icon), el("strong", {}, String(value)), el("span", {}, label));
+let installPrompt = null;  // Android: the browser's "Install app" prompt, kept until the pupil taps Install
+addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); installPrompt = e; });
+
+function home() {
   document.documentElement.lang = "en";
-  const s = subj(), cur = inProgress(s), next = nextLesson(s);
-  const done = LESSONS[s].filter((n) => state.lessons[lessonKey(s, n)]?.done).length;
-  const tabs = el("div", { class: "subjects", role: "tablist" }, Object.entries(SUBJECTS).map(([id, name]) =>
-    el("button", { type: "button", role: "tab", "aria-selected": String(id === s), class: `subject${id === s ? " on" : ""}`,
-      onclick: () => { state.subject = id; save(); menu(); } }, name)));
-  const row = (n) => {
-    const r = state.lessons[lessonKey(s, n)], going = cur?.lesson === n;
-    const mark = r?.done ? "✓" : going ? "…" : String(n);
-    const sub = r?.done ? "Done · tap to practise again" : going ? "Started · tap to carry on" : CONTENT[s][n].paper_task ? "Writing on paper" : "";
-    return el("button", { type: "button", class: `lesson${r?.done ? " is-done" : ""}`, onclick: () => openLesson(s, n) },
-      el("span", { class: "mark", "aria-hidden": "true" }, mark),
-      el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[s][n], sub ? el("span", { class: "sub" }, sub) : null));
-  };
-  // The Primary 6 readiness check belongs to Maths only: it is offered first on the Maths tab until it is done
-  // (2026-10-07; before, it blocked the whole app on a first visit). It never blocks a lesson or the English tab.
-  const check = s === "maths" && !state.readiness;
-  const lead = check ? [button("Before Maths: a short check (13 questions)", start, "primary"),
-      para("It looks at the Primary School maths you need. About 10 minutes, no marks.", "muted")]
-    : cur ? button(`Carry on with Lesson ${cur.lesson}`, () => openLesson(s, cur.lesson), "primary")
-    : next ? button(`Start Lesson ${next}: ${TITLES[s][next]}`, () => openLesson(s, next), "primary") : null;
+  newBadges();
+  const st = streak();
+  const going = Object.keys(SUBJECTS).map((s) => [s, inProgress(s)]).filter(([, c]) => c).sort((a, b) => (b[1].at || "").localeCompare(a[1].at || ""))[0];
+  const tiles = Object.entries(SUBJECTS).map(([s, name]) => {
+    const done = doneIn(s).length, all = LESSONS[s].length;
+    return tinted(s, "button", { type: "button", class: `tile-subject${done === all ? " complete" : ""}`, onclick: () => { state.subject = s; save(); menu(); } },
+      el("span", { class: "ts-icon", "aria-hidden": "true" }, iconOf(s)), el("span", { class: "ts-name" }, name),
+      el("span", { class: "ts-bar", "aria-hidden": "true" }, el("span", { style: `width:${Math.round((100 * done) / all)}%` })),
+      el("span", { class: "ts-count" }, done === all ? "All done ✓" : `${done} of ${all}`));
+  });
+  const earned = Object.keys(state.badges || {}).length;
   screen(
-    tabs,
-    header(`Form One ${SUBJECTS[s]}`, done ? `${done} of ${LESSONS[s].length} lessons done` : "Your lessons"),
-    lead,
-    el("div", { class: "lessons" }, LESSONS[s].map(row)),
+    el("header", { class: "hello" }, el("div", { class: "kicker" }, "Form One"), el("h1", {}, st ? "Welcome back! Keep it going" : "Hello! Ready to learn?")),
+    el("div", { class: "pills" }, statPill("🔥", st, st === 1 ? "day" : "days"), statPill("⭐", totalStars(), "stars"), statPill("✓", totalDone(), "lessons")),
+    st ? para(st >= 2 ? `A ${st}-day streak. Up to two days off won't break it.` : "Your streak has started. Come back tomorrow!", "muted streak-note") : null,
+    going ? tinted(going[0], "button", { type: "button", class: "primary continue", onclick: () => openLesson(going[0], going[1].lesson) },
+      `${iconOf(going[0])} Carry on: ${SUBJECTS[going[0]]} · Lesson ${going[1].lesson}`) : null,
+    installPrompt ? button("📲 Install the app on this phone", async () => { installPrompt.prompt(); installPrompt = null; }, "") : null,
+    el("div", { class: "tiles-subjects" }, tiles),
+    button(`🏅 My badges (${earned} of ${BADGES.length})`, badgesScreen, "badges-link"),
     para("These lessons are drafts: a teacher has not checked them all yet.", "muted"),
     el("details", { class: "grownup" }, el("summary", {}, "For a grown-up"), grownUp()),
   );
 }
 
+function badgesScreen() {
+  newBadges();
+  screen(header("My badges", `${Object.keys(state.badges || {}).length} of ${BADGES.length} earned`),
+    el("div", { class: "badges" }, BADGES.map(([id, icon, name, how]) => {
+      const got = state.badges?.[id];
+      return el("div", { class: `badge-card${got ? " got" : ""}` }, el("span", { class: "b-icon", "aria-hidden": "true" }, got ? icon : "🔒"),
+        el("strong", {}, name), el("span", { class: "muted" }, got ? `Earned ${got}` : how));
+    })),
+    button("Back to all subjects", home, "primary"));
+}
+
+/** One subject: its lessons as a path, the next one highlighted. (Called "menu" since the first prototype.) */
+function menu() {
+  document.documentElement.lang = "en";
+  const s = subj();
+  withSubject(s, () => {
+    const cur = inProgress(s), next = nextLesson(s);
+    const done = doneIn(s).length, stars = doneIn(s).reduce((t, n) => t + starsOf(state.lessons[lessonKey(s, n)]), 0);
+    const row = (n) => {
+      const r = state.lessons[lessonKey(s, n)], going = cur?.lesson === n, isNext = !cur && n === next;
+      const mark = r?.done ? "✓" : going ? "…" : String(n);
+      const sub = r?.done ? `${starText(starsOf(r))} · tap to practise again` : going ? "Started · tap to carry on" : PAPER[s]?.includes(n) ? "Writing on paper" : "";
+      return el("li", { class: `step${r?.done ? " is-done" : ""}${going || isNext ? " is-next" : ""}` },
+        el("button", { type: "button", class: `lesson${r?.done ? " is-done" : ""}`, onclick: () => openLesson(s, n) },
+          el("span", { class: "mark", "aria-hidden": "true" }, mark),
+          el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[s][n], sub ? el("span", { class: "sub" }, sub) : null)));
+    };
+    // The Primary 6 readiness check belongs to Maths only: it is offered first on the Maths tab until it is done
+    // (2026-10-07; before, it blocked the whole app on a first visit). It never blocks a lesson or the English tab.
+    const check = s === "maths" && !state.readiness;
+    const lead = check ? [button("Before Maths: a short check (13 questions)", start, "primary"),
+        para("It looks at the Primary School maths you need. About 10 minutes, no marks.", "muted")]
+      : cur ? button(`Carry on with Lesson ${cur.lesson}`, () => openLesson(s, cur.lesson), "primary")
+      : next ? button(`Start Lesson ${next}: ${TITLES[s][next]}`, () => openLesson(s, next), "primary") : null;
+    screen(tinted(s, "div", { class: "subject-page" },
+      button("← All subjects", home, "link back"),
+      el("header", { class: "subject-head" }, el("span", { class: "sh-icon", "aria-hidden": "true" }, iconOf(s)),
+        el("div", {}, el("div", { class: "kicker" }, `Form One ${SUBJECTS[s]}`), el("h1", {}, done ? `${done} of ${LESSONS[s].length} lessons done` : "Your lessons"))),
+      progress(done, LESSONS[s].length),
+      stars ? para(`⭐ ${stars} stars in ${SUBJECTS[s]}`, "muted") : null,
+      lead,
+      el("ol", { class: "path" }, LESSONS[s].map(row)),
+      para("These lessons are drafts: a teacher has not checked them all yet.", "muted")));
+  });
+}
+
 function grownUp() {
   const status = para("", "muted");
+  const subjectsWithWork = () => Object.keys(SUBJECTS).filter((s) => doneIn(s).length);
   return el("div", {},
     para("Results stay on this phone until you copy them.", "muted"),
-    button("Copy all results", () => copyText(allResultsText(), status), "primary"), status,
+    button("Copy all results", () => loadAll(subjectsWithWork()).then(() => copyText(allResultsText(), status), () => { status.textContent = "Connect to the internet once to copy every result."; }), "primary"), status,
+    MODE === "pwa" ? button("Save every subject for offline use", () => {
+      status.textContent = "Saving…";
+      loadAll(Object.keys(SUBJECTS)).then(() => { status.textContent = "Every subject is saved on this phone. It works without internet now."; },
+        () => { status.textContent = "Some subjects could not be saved. Connect to the internet and try again."; });
+    }, "") : null,
+    MODE === "pwa" ? el("a", { class: "button-link", href: "offline.html", download: "psalmspreps-form-one.html" }, "Download one file to share by Bluetooth or a flash drive") : null,
     button("Do the readiness check again", start, ""),
     button("Clear all progress on this phone", () => {
       if (!confirm("Clear all saved progress on this phone? This cannot be undone.")) return;
@@ -2901,13 +3087,15 @@ const LIB = () => libs[S];
 
 /** Opens lesson n: carries on a saved, unfinished flow, otherwise starts it fresh. */
 function openLesson(s, n) {
-  S = s;
-  document.documentElement.lang = s === "french" ? "fr" : "en";  // screen readers read French lessons in French
-  const cur = state.current[s];
-  if (cur?.lesson === n && !teach.isDone(cur.flow)) return lesson(resumable(cur.flow));
-  state.current[s] = { lesson: n, flow: teach.startTeach(CONTENT[s][n], newSeed()), rows: [] };
-  save();
-  lesson(state.current[s].flow);
+  withSubject(s, () => {
+    S = s;
+    document.documentElement.lang = s === "french" ? "fr" : "en";  // screen readers read French lessons in French
+    const cur = state.current[s];
+    if (cur?.lesson === n && !teach.isDone(cur.flow)) { cur.at = new Date().toISOString(); return lesson(resumable(cur.flow)); }
+    state.current[s] = { lesson: n, flow: teach.startTeach(CONTENT[s][n], newSeed()), rows: [], at: new Date().toISOString() };
+    save();
+    lesson(state.current[s].flow);
+  });
 }
 /** A flow saved mid-feedback resumes on a question: "retry" → the fresh variant, "reveal" → the next step. */
 const resumable = (flow) => (flow.phase === "retry" || flow.phase === "reveal" ? teach.nextPhase(flow) : flow);
@@ -2945,6 +3133,7 @@ function lesson(flow, previous = null) {
       bar, kicker, back: toMenu(), title: flow.attempt ? T("A new question") : step.kind === "card" ? T("Quick check") : T("Level {a}", { a: q.level }),
       onAnswer: ({ result, ms }) => {
         C().rows.push({ ...recordOf(q, result, ms, step.kind), card: step.kind === "card" ? Ln.teach.cards[step.card].id : "", attempt: flow.attempt + 1 });
+        recordDay();
         const next = teach.answerItem(flow, result, ms);
         C().flow = next;
         save();
@@ -3084,7 +3273,9 @@ function results(flow) {
   const s = S, n = N(), Ln = L();
   const review = teach.needsReview(flow).map((x) => (x.kind === "card" ? Ln.teach.cards[x.card].id : x.template));
   // The latest finished run of a lesson replaces the previous one.
-  state.lessons[lessonKey(s, n)] = { done: true, at: new Date().toISOString(), rows: C().rows, review, ...(C().paper ? { paper: C().paper } : {}) };
+  const record = { done: true, at: new Date().toISOString(), rows: C().rows, review, ...(C().paper ? { paper: C().paper } : {}) };
+  record.stars = starsOf(record);
+  state.lessons[lessonKey(s, n)] = record;
   delete state.current[s];
   save();
   const text = lessonResultsText(s, n);
@@ -3095,10 +3286,15 @@ function results(flow) {
   const status = para("", "muted");
   const completed = flow.steps.filter((x) => x.kind === "card" || x.kind === "practice").length;
   const next = nextLesson(s);
+  const badges = newBadges(), st = streak();
   screen(confetti(), el("div", { class: "done" }, el("div", { class: "done-title" }, T("Lesson {n} done", { n })),
-    para(Ln.paper_task ? `You completed ${completed} questions and a writing task.` : T("You completed {a} questions.", { a: completed }), "done-sub")),
+    el("div", { class: "done-stars", "aria-label": `${record.stars} of 3 stars` }, [1, 2, 3].map((k) => el("span", { class: k <= record.stars ? "star on" : "star", style: `--k:${k}` }, "★"))),
+    para(Ln.paper_task ? `You completed ${completed} questions and a writing task.` : T("You completed {a} questions.", { a: completed }), "done-sub"),
+    st ? para(T("🔥 {a}-day streak", { a: st }), "done-streak") : null),
+    badges.map(([, icon, name]) => el("div", { class: "new-badge" }, el("span", { "aria-hidden": "true" }, icon), el("strong", {}, T("New badge: {a}", { a: name })))),
     next ? button(T("Next: Lesson {a}", { a: next }), () => openLesson(s, next), "primary") : para(T("You have done every {a} lesson. Well done!", { a: SUBJECTS[s] }), "strong"),
     button(T("Back to the lessons"), menu, next ? "" : "primary"),
+    button(T("All subjects"), home, "link"),
     para("For a grown-up: these results stay on this phone until you copy them.", "muted"),
     button("Copy results", () => copyText(text, status, details, area), ""), status, details);
 }
@@ -3109,7 +3305,7 @@ function results(flow) {
 // shown, marks each part ✓ OK or ✗ Problem with an optional comment, then sends the review as one message
 // (WhatsApp or any app, through the phone's share sheet, or copied). Marks are kept on this phone only; nothing is sent
 // unless the teacher sends it. Pupils never see this mode. Every mark carries the item's id, so fixes are exact.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, MODE */
 
 const REVIEW_KEY = "psalmspreps-review-v1";
 const loadReview = () => {
@@ -3202,6 +3398,7 @@ function reviewItem(s, n, it) {
 }
 
 function reviewLesson(s, n) {
+  if (!CONTENT[s]) return withSubject(s, () => reviewLesson(s, n));
   const c = lessonCounts(s, n);
   screen(header(`Review · ${SUBJECTS[s]} · Lesson ${n}`, TITLES[s][n]),
     para(`${c.done} of ${c.total} parts checked${c.problems ? ` · ${c.problems} problem${c.problems === 1 ? "" : "s"}` : ""}. Answers are shown. Mark each part, and add a comment when something is wrong.`, "muted"),
@@ -3214,7 +3411,7 @@ function reviewText() {
   const out = [`Psalms Preps teacher review · ${review.name || "(name not given)"} · app ${BUILD} · ${new Date().toISOString().slice(0, 16).replace("T", " ")}`];
   for (const s of Object.keys(SUBJECTS)) for (const n of LESSONS[s]) {
     const items = reviewItems(s, n).map((it) => [it, review.marks[markKey(s, n, it.id)]]).filter(([, m]) => m);
-    if (!items.length) continue;
+    if (!items.length || !CONTENT[s]) continue;
     const ok = items.filter(([, m]) => m.ok);
     out.push("", `${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}): ${items.length} of ${reviewItems(s, n).length} checked, ${items.length - ok.length} problem(s)`);
     for (const [it, m] of items) if (!m.ok || m.note) out.push(`  ${m.ok ? "✓" : "✗"} ${s}:${n}:${it.id}${m.note ? ` — ${m.note}` : ""}`);
@@ -3223,6 +3420,8 @@ function reviewText() {
 }
 
 async function sendReview(status) {
+  const marked = [...new Set(Object.keys(review.marks).map((k) => k.split(":")[0]))].filter((s) => SUBJECTS[s]);
+  try { await loadAll(marked); } catch { status.textContent = "Connect to the internet once, then send again."; return; }
   const text = reviewText();
   try {
     if (navigator.share) { await navigator.share({ title: "Teacher review", text }); status.textContent = "Shared."; return; }
@@ -3232,6 +3431,7 @@ async function sendReview(status) {
 }
 
 function reviewHome() {
+  if (!CONTENT[RS]) return withSubject(RS, reviewHome);
   document.documentElement.lang = "en";
   const name = el("input", { type: "text", class: "rv-name", placeholder: "Your name", "aria-label": "Your name", autocomplete: "name" });
   name.value = review.name;
@@ -3258,7 +3458,7 @@ function reviewHome() {
 }
 
 // Start: teachers open the link with ?review; everyone else gets the pupil's lesson menu.
-if (new URLSearchParams(location.search).has("review")) reviewHome(); else menu();
+if (new URLSearchParams(location.search).has("review")) reviewHome(); else home();
 
 </script>
 </body>

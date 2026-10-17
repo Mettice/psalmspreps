@@ -1,10 +1,11 @@
-// Builds tools/prototype/form1.html: one self-contained file (engine + content + UI), works offline.
+// Builds tools/prototype/form1.html: one self-contained file (engine + content + UI), works offline; and
+// tools/prototype/pwa/: the installable app (core page, one file per subject, service worker, manifest, icons).
 // Maths: Lesson 0 (readiness) and Lessons 1–16. English: Batch E1 (Lessons 1–16, speech work left out).
 // Progress is saved in the browser.
 //   node tools/prototype/build.mjs
 // The engine modules are inlined unchanged except for import/export lines, so the prototype runs
 // exactly the code the tests cover.
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync } from "node:fs";
 import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
@@ -12,7 +13,8 @@ const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
 const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "lib/homeeconomics.js", "lib/history.js", "lib/biology.js", "lib/computerscience.js", "lib/french.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
 // 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
 // The Phase 3 budget for the whole app is 2 MB.
-const MAX_BYTES = 1300 * 1024;  // 900 KB with Home Economics; 1.3 MB with History, Biology and Computer Science (Dion, 2026-10-07); app budget 2 MB
+const MAX_BYTES = 1500 * 1024;  // the single shareable file; 1.3 MB until the installable app (2026-10-17)
+const SHELL_MAX = 400 * 1024;   // the installable app's core page (engine, screens, titles): content comes per subject  // 900 KB with Home Economics; 1.3 MB with History, Biology and Computer Science (Dion, 2026-10-07); app budget 2 MB
 const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography", "home-economics": "Home Economics", history: "History", biology: "Biology", "computer-science": "Computer Science", french: "French" };
 const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography", "home-economics": "home-economics", history: "history", biology: "biology", "computer-science": "computer-science", french: "french" };
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
@@ -178,6 +180,47 @@ button.lesson.is-done .mark { background: var(--good-bg); color: var(--good); }
 button.lesson .lt { display: flex; flex-direction: column; min-width: 0; overflow-wrap: anywhere; }
 button.lesson .ln { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 button.lesson .sub { font-size: .9rem; color: var(--muted); }
+/* ---- design of 2026-10-17: home, subject colours, lesson path, streak, stars, badges ---- */
+.hello { margin: 4px 0 12px; } .hello h1 { font-size: 1.5rem; }
+.pills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 8px; }
+.pill { display: flex; flex-direction: column; align-items: center; padding: 10px 4px; border-radius: 14px; background: var(--card); border: 1px solid var(--line); }
+.pill strong { font-size: 1.4rem; line-height: 1.1; } .pill span:last-child { font-size: .8rem; color: var(--muted); } .pill-icon { font-size: 1.2rem; }
+.streak-note { text-align: center; }
+button.continue { background: var(--subj, var(--accent)); border-color: var(--subj, var(--accent)); color: #fff; box-shadow: 0 3px 0 rgba(0,0,0,.25); }
+.tiles-subjects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 14px 0 6px; }
+button.tile-subject { margin: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; min-height: 112px; padding: 12px;
+  border: 2px solid var(--subj); border-radius: 16px; background: var(--card); background: color-mix(in srgb, var(--subj) 12%, var(--card)); }
+button.tile-subject:active { transform: scale(.96); }
+.ts-icon { font-size: 1.8rem; line-height: 1; } .ts-name { font-weight: 800; line-height: 1.2; } .ts-count { font-size: .85rem; color: var(--muted); }
+.ts-bar { display: block; width: 100%; height: 8px; border-radius: 4px; background: var(--track); overflow: hidden; margin-top: auto; }
+.ts-bar span { display: block; height: 100%; background: var(--subj); border-radius: 4px; }
+button.tile-subject.complete .ts-count { color: var(--subj); font-weight: 700; }
+button.badges-link { text-align: center; font-weight: 700; margin-top: 14px; }
+.badges { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 14px; }
+.badge-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px; padding: 14px 8px; border-radius: 16px;
+  border: 1px dashed var(--line); background: var(--soft); opacity: .75; }
+.badge-card.got { opacity: 1; border: 2px solid #e0a526; background: var(--card); }
+.badge-card .b-icon { font-size: 2rem; } .badge-card .muted { font-size: .8rem; }
+.subject-head { display: flex; gap: 12px; align-items: center; margin: 4px 0 12px; } .sh-icon { font-size: 2.4rem; line-height: 1; }
+.subject-page .progress .fill { background: var(--subj); }
+button.link.back { text-align: left; margin: 0 0 6px; padding-left: 0; }
+.path { list-style: none; padding: 0; margin: 14px 0; position: relative; }
+.path::before { content: ""; position: absolute; left: 25px; top: 18px; bottom: 18px; width: 4px; border-radius: 2px; background: var(--track); }
+.path .step { position: relative; }
+.path button.lesson .mark { position: relative; z-index: 1; width: 40px; height: 40px; border: 3px solid var(--subj); background: var(--card); color: var(--subj); }
+.path .is-done button.lesson .mark { background: var(--subj); color: #fff; }
+.path .is-next button.lesson { border: 2px solid var(--subj); background: color-mix(in srgb, var(--subj) 10%, var(--card)); }
+.path .is-next button.lesson .mark { animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--subj) 45%, transparent); } 50% { box-shadow: 0 0 0 8px transparent; } }
+.done-stars { display: flex; justify-content: center; gap: 10px; margin: 10px 0; }
+.done-stars .star { font-size: 2.6rem; color: var(--track); animation: starpop 420ms cubic-bezier(.2,.9,.3,1.4) calc(var(--k) * 180ms) both; }
+.done-stars .star.on { color: #e0a526; }
+@keyframes starpop { from { transform: scale(0) rotate(-40deg); opacity: 0; } to { transform: none; opacity: 1; } }
+.done-streak { font-weight: 700; }
+.new-badge { display: flex; gap: 10px; align-items: center; justify-content: center; padding: 10px; margin: 8px 0; border-radius: 14px;
+  border: 2px solid #e0a526; background: var(--card); animation: starpop 420ms ease-out 700ms both; } .new-badge span { font-size: 1.6rem; }
+a.button-link { display: block; min-height: 48px; margin: 10px 0 0; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--card); color: var(--fg); text-align: center; text-decoration: none; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .confetti { display: none; }
@@ -185,21 +228,7 @@ button.lesson .sub { font-size: .9rem; color: var(--muted); }
 }
 `;
 
-const html = `<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Form One Lessons</title>
-<style>${css}</style>
-</head>
-<body>
-<main id="app"><noscript>This page needs JavaScript.</noscript></main>
-<script>
-"use strict";
-const __mods = {};
-${ENGINE.map(bundleModule).join("\n")}
-const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
+const ENGINE_LIBS = `{ libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },
     chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] },
     geography: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"] },
@@ -207,21 +236,103 @@ const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["li
     history: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"] },
     biology: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"] },
     "computer-science": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"] },
-    french: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/french.js"] } },
+    french: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/french.js"] } }`;
+const paper = Object.fromEntries(Object.entries(content).map(([s, ls]) => [s, Object.values(ls).filter((l) => l.paper_task).map((l) => l.lesson_no)]));
+const page = ({ mode, contentJs, head = "", tail = "" }) => `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1f6f4a">
+<title>Form One Lessons</title>
+${head}<style>${css}</style>
+</head>
+<body>
+<main id="app"><noscript>This page needs JavaScript.</noscript></main>
+<script>
+"use strict";
+const __mods = {};
+${ENGINE.map(bundleModule).join("\n")}
+const ENGINE = ${ENGINE_LIBS},
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
-const CONTENT = ${safeJson(content)};
+const CONTENT = ${contentJs};
 const TITLES = ${safeJson(titles)};
 const LESSONS = ${safeJson(lessons)};
 const SUBJECTS = ${safeJson(SUBJECTS)};
+const PAPER = ${safeJson(paper)};
+const MODE = ${JSON.stringify(mode)};
 const BUILD = ${JSON.stringify(build)};
 ${read("tools/prototype/app.js")}
 ${read("tools/prototype/review.js")}
 </script>
-</body>
+${tail}</body>
 </html>
 `;
-
+const html = page({ mode: "single", contentJs: safeJson(content) });
 const bytes = Buffer.byteLength(html, "utf8");
 if (bytes > MAX_BYTES) throw new Error(`prototype is ${bytes} bytes, over the ${MAX_BYTES} limit`);
 writeFileSync(new URL("tools/prototype/form1.html", ROOT), html, "utf8");
 console.log(`wrote tools/prototype/form1.html (${(bytes / 1024).toFixed(1)} KB, limit ${MAX_BYTES / 1024} KB)`);
+
+// ---- the installable app (2026-10-17): tools/prototype/pwa/ → published as the site's root
+const PWA = new URL("tools/prototype/pwa/", ROOT);
+rmSync(PWA, { recursive: true, force: true });
+mkdirSync(new URL("subjects/", PWA), { recursive: true });
+mkdirSync(new URL("icons/", PWA), { recursive: true });
+const register = `<script>if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("sw.js"));</script>\n`;
+const shell = page({ mode: "pwa", contentJs: "{}", tail: register,
+  head: `<link rel="manifest" href="manifest.webmanifest">\n<link rel="icon" href="icons/icon-192.png">\n<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">\n` });
+const shellBytes = Buffer.byteLength(shell, "utf8");
+if (shellBytes > SHELL_MAX) throw new Error(`app core is ${shellBytes} bytes, over the ${SHELL_MAX} limit`);
+writeFileSync(new URL("index.html", PWA), shell, "utf8");
+const sizes = {};
+for (const s of Object.keys(SUBJECTS)) {
+  const js = `CONTENT[${JSON.stringify(s)}] = ${safeJson(content[s])};\n`;
+  writeFileSync(new URL(`subjects/${s}.js`, PWA), js, "utf8");
+  sizes[s] = Buffer.byteLength(js, "utf8");
+}
+writeFileSync(new URL("offline.html", PWA), html, "utf8");
+for (const f of ["icon-192.png", "icon-512.png", "maskable-192.png", "maskable-512.png", "apple-touch-icon.png"]) copyFileSync(new URL(`tools/prototype/icons/${f}`, ROOT), new URL(`icons/${f}`, PWA));
+writeFileSync(new URL("manifest.webmanifest", PWA), JSON.stringify({
+  name: "Psalms Preps: Form One lessons", short_name: "Form One", description: "Form One lessons that work offline: Maths, English, sciences, humanities and French.",
+  start_url: "./", scope: "./", display: "standalone", orientation: "portrait", background_color: "#fbfaf7", theme_color: "#1f6f4a",
+  icons: [
+    { src: "icons/icon-192.png", sizes: "192x192", type: "image/png", purpose: "any" }, { src: "icons/icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
+    { src: "icons/maskable-192.png", sizes: "192x192", type: "image/png", purpose: "maskable" }, { src: "icons/maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
+  ],
+}, null, 2), "utf8");
+// The service worker keeps the app working offline. The core page is checked online first (so updates arrive) and
+// falls back to the saved copy; subject files are versioned by build and served from the phone once saved.
+// On an update, the subjects already saved are fetched again in their new version, so they stay offline.
+writeFileSync(new URL("sw.js", PWA), `// Psalms Preps service worker, build ${build} (generated by tools/prototype/build.mjs)
+const CACHE = "psalmspreps-${build}-${shellBytes}";
+const SHELL = ["./", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-192.png", "icons/apple-touch-icon.png"];
+self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
+self.addEventListener("activate", (e) => { e.waitUntil((async () => {
+  const keep = await caches.open(CACHE);
+  for (const name of await caches.keys()) {
+    if (name === CACHE) continue;
+    const old = await caches.open(name);
+    for (const req of await old.keys()) {
+      const m = new URL(req.url).pathname.match(/subjects\\/([a-z-]+)\\.js$/);
+      if (m) try { await keep.add(\`subjects/\${m[1]}.js?v=${build}\`); } catch { /* offline now: fetched again when opened */ }
+    }
+    await caches.delete(name);
+  }
+  await self.clients.claim();
+})()); });
+self.addEventListener("fetch", (e) => {
+  const req = e.request;
+  if (req.method !== "GET" || new URL(req.url).origin !== location.origin) return;
+  if (req.mode === "navigate") {
+    e.respondWith(fetch(req).then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put("./", copy)); return res; })
+      .catch(() => caches.match("./")));
+    return;
+  }
+  e.respondWith(caches.match(req).then((hit) => hit || fetch(req).then((res) => {
+    if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); }
+    return res;
+  })));
+});
+`, "utf8");
+console.log(`wrote tools/prototype/pwa/ (core ${(shellBytes / 1024).toFixed(1)} KB, limit ${SHELL_MAX / 1024} KB; subjects ${Object.entries(sizes).map(([s, b]) => `${s} ${(b / 1024).toFixed(0)} KB`).join(", ")})`);

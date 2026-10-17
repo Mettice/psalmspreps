@@ -224,3 +224,31 @@ were **released on 2026-10-07** (TR-S12): nine tabs, build limit raised to 1.3 M
 - Verified at 360 px: all 154 lessons (1501 parts) render in review mode with no errors and no sideways scroll.
 - Decided with Dion (2026-10-17): Term 1 stays free; money comes later. Next: an installable offline app with
   per-subject loading, together with a more colourful design and forgiving streaks.
+
+## 18. Installable app and new design (2026-10-17)
+
+**Installable, offline, one subject at a time.** The main link is now an installable web app (`site/` from
+`tools/prototype/pwa/`):
+- `index.html`: the core page (engine, screens, lesson titles; about 221 KB, limit 400 KB). `CONTENT` starts empty.
+- `subjects/<id>.js`: one file per subject (66–131 KB), loaded the first time the subject is opened (`withSubject()`).
+- `sw.js`: a service worker. The core page is checked online first (so updates arrive) and falls back to the saved copy;
+  subject files are versioned by build and served from the phone once saved. On an update, subjects already saved are
+  fetched again in their new version. Tested: with the server stopped, the app opened and a saved subject loaded.
+- `manifest.webmanifest` and icons (an open book under a star, in the app's green; maskable versions for Android).
+- “For a grown-up” offers “Save every subject for offline use” and “Download one file to share” (`offline.html`, the
+  single-file app, kept for Bluetooth or a flash drive; size limit 1.5 MB). `/lesson3/` now redirects to the app.
+- Progress is under the same browser key as before, so pupils keep their progress.
+
+**Design (Dion: colourful, interactive, streaks):**
+- Home: a greeting, three counters (🔥 streak days, ⭐ stars, ✓ lessons), “Carry on” for the latest unfinished lesson,
+  one coloured tile per subject with its icon and progress bar, “My badges”, and the grown-up section.
+- Each subject has a colour (dark enough for white text) and an icon. Its lessons appear as a path: done lessons
+  filled with the subject colour, the next lesson highlighted and gently pulsing (off under reduced motion).
+- **Streaks are forgiving** (ghost towns, power cuts, no data): a day counts when the pupil answers a question in a
+  lesson, and up to two days off in a row never break a streak. Checked: two days off keep it, three end it.
+- **Stars** for each finished lesson: 3 if at least 80% of first tries were right, 2 if at least half, otherwise 1;
+  they pop in on the results screen.
+- **Badges** (21): lesson counts (1, 5, 10, 25, 50), streaks (3, 7, 14 days), stars (30, 100), a lesson in every
+  subject, and finishing each subject. Once earned, kept. New badges are announced at the end of a lesson.
+- Verified at 360 px in the installable app: all 154 lessons run with no errors, no "null" and no sideways scroll; every
+  lesson ends with its stars; badges and the streak update; light and dark themes.

@@ -4,6 +4,12 @@ An offline-first learning app for Cameroonian secondary students (English sub-sy
 Form 1 Mathematics, English, Physics, Chemistry, Geography, Home Economics, History, Biology, Computer Science and French. It is built for pupils who lose school days, so it **teaches** missed lessons
 (idea cards, worked examples, practice with full working) instead of only quizzing on them.
 
+
+**Install it:** open https://psalmspreps.vercel.app on an Android phone, then tap “Install the app” (or the browser menu →
+“Add to Home screen”). After a subject is opened once, it works without internet. “For a grown-up” can save every
+subject at once, or download one file to share by Bluetooth or a flash drive. Teachers review at
+https://psalmspreps.vercel.app/?review.
+
 ## Try it
 
 **https://psalmspreps.vercel.app/** (also https://mettice.github.io/psalmspreps/)
