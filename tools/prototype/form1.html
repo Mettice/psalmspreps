@@ -71,6 +71,16 @@ details.grownup { margin-top: 12px; } details.grownup summary { min-height: 48px
 /* subjects */
 .subjects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 0 0 14px; }  /* two per row at 360px */
 .subjects > :last-child:nth-child(odd) { grid-column: 1 / -1; }  /* an odd last tab takes the whole row */
+/* teacher review mode (?review) */
+.rv-item { border: 2px solid var(--line); border-radius: 14px; padding: 12px; margin: 0 0 14px; background: var(--card); overflow-wrap: anywhere; }
+.rv-item.rv-is-ok { border-color: var(--accent); } .rv-item.rv-is-bad { border-color: var(--bad); background: var(--bad-bg); }
+.rv-head { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; margin-bottom: 6px; } .rv-head code { font-size: .8rem; color: var(--muted); }
+.rv-options { padding-left: 0; list-style: none; margin: 6px 0 10px; } .rv-options li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.rv-options li.rv-right { font-weight: 700; color: var(--good); }
+.rv-tag { font-size: .85rem; color: var(--muted); font-style: italic; }
+.rv-note, .rv-name { width: 100%; font: inherit; padding: 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--fg); margin: 8px 0; }
+.rv-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; } .rv-buttons button { margin: 0; }
+button.rv-bad-on { background: var(--bad); color: #fff; border-color: var(--bad); font-weight: 700; }
 button.subject { padding: 10px 6px; }
 button.subject { margin: 0; text-align: center; font-weight: 700; }
 button.subject.on { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
@@ -2573,7 +2583,7 @@ const CONTENT = {"maths":{"0":{"subject":"mathematics","class":"Form 1","lesson_
 const TITLES = {"maths":{"1":"The history and evolution of numbers","2":"Egyptian and Roman numerals","3":"Hindu-Arabic numerals and place value","4":"Numbers in words and in figures","5":"Elements of ℕ and of ℕ*","6":"Cardinal, Ordinal and Nominal numbers","7":"Whole number powers and operations in the set ℕ","8":"Number bases: Convert numbers in base 10 to other bases and from one base to another","9":"Number bases: Addition and subtraction in other bases","10":"Number bases: Multiplication in other bases","11":"Points and notation of lines, half lines and line segments","12":"Collinear points","13":"Units of measuring length and distance: Converting from one unit to another","14":"Line segment: Midpoint property of a line segment and its converse","15":"Constructing the perpendicular bisector of a line segment","16":"Parallel, perpendicular and orthogonal lines: Notation and properties"},"english":{"1":"Speaking: Dialogue to introduce oneself and other persons","2":"Vocabulary: Words related to basic daily needs/respect spelling rules and conventions","3":"Grammar: The Simple Present tense (affirmative, negative and interrogative)","5":"Reading: Read brief accounts of school activities, school timetables and notices IRREGULAR VERBS","6":"Vocabulary: Numbers","7":"Grammar: The Present continuous tense","9":"Writing: Write a shopping list based on needs and priorities","10":"Vocabulary: countable and uncountable nouns","11":"Grammar: The Simple Past tense","13":"Speaking: Talk about and state the different means of transportation","14":"Vocabulary: Form new words by conversion and compounding methods/ means of transport","15":"Grammar: The Present Perfect tense","16":"Writing: Fill out simple forms, e.g. an invitation letter"},"physics":{"1":"Definition and branches of science","2":"Prominent scientists and discoveries and contributions to improvement in the lives of humans","3":"Definition of physics and some of its branches","4":"What physicists do and how. Observing nature and seeking comprehension","5":"Some basic equipment in the Physics laboratory","6":"Safety rules for working in the Physics laboratory","7":"Job opportunities for science students","8":"Concepts of simple measurements using measuring instruments","9":"Identifying physical and non-physical quantities","10":"Some Units of measurement and S.I units","11":"States of matter and differences between them","12":"Interconversion processes","13":"Length: Definition, Units and Measurement","14":"Mass: Definition, Units and Measurement","15":"Weight: Definition, Units and Measurement. Differences between weight and mass","16":"Define volume & state its units; Measurement of volumes of liquids, regular & irregular solids","17":"Density: Definition, Units, and Measurement","18":"Temperature: Definition, Units and Measurements","19":"Safety rules on products and materials. Using information on products"},"chemistry":{"1":"Introduction to Chemistry","2":"Importance of chemistry in everyday life","3":"Some basic equipment 1 used in the study of chemistry","4":"Some basic equipment 2 used in the study of chemistry","5":"Hazardous symbols on reagent bottles and their meanings","6":"Safety rules observed in the Laboratory","7":"Measurement of mass and volume","8":"Measurement of time and temperature","9":"Physical and Chemical Changes","10":"States of Matter and Change of States","11":"Simple kinetic theory of matter and change of state","12":"Mixtures and pure substances","13":"Types of mixtures and examples","14":"Methods of separating solid-solid mixtures","15":"Methods of separating solid-liquid mixtures","16":"Methods of separating liquid-liquid mixtures","17":"Methods of separating liquid-gas mixtures","18":"Methods of separating gas-gas mixtures","19":"Types of Pure substances: Composition of elements","20":"Composition of compounds","21":"Differences between mixtures and pure substances"},"geography":{"1":"Geography: Definition, branches and sub branches, methods and importance","2":"(Part 1): Our Planet The earth: (The solar system)","3":"(Part 2): Our Planet The earth: (Shape & dimensions,Locational references of the earth) Distribution of Landmasses and water bodies","4":"PW1: Representation of the earth’s shape and size (identification of marginal information on maps)","5":"Practical Work 2 (Part 1): Locate a place on a map","6":"PW 2 (Part 2): Locate a place on a map (Read geographical coordinates of a place on a map)","7":"(Part 1): The earth: A planet moving in space (Rotation & effects; Revolution & effects,)","8":"(Part 2): The earth: A planet moving in space (Local & standard time)","9":"PW3: Calculation of local time (calculation of local time of a place from GMT; Basis of carving out time zones)","10":"The notion of the environment (Definition of natural environment; Components; Ecosystem)"},"home-economics":{"1":"Basic terms used in Nutrition: Malnutrition (under-nutrition, over-nutrition, hidden hunger). Metabolism etc..)","2":"Factors associated with health (diet, exercise, recreation)","3":"Types of food and their nutrients.Food groups","4":"Functions of food. Dietary guidelines. Subjects related to food and nutrition,","5":"Careers associated with Food and Nutrition","6":"Diagram of a traditional kitchen","7":"Types of fire places used in a traditional kitchen","10":"Diagram of the different types of fire places in a traditional kitchen","11":"Advantages and disadvantages of a traditional kitchen","12":"Care of a traditional kitchen","13":"Kitchen planning and management","14":"Different shapes of modern kitchens","15":"Identify kitchen elements/Kitchen units","16":"Types of kitchen units","17":"Points to consider when planning a modern kitchen","20":"Advantages of time management in the kitchen","21":"Care of a modern kitchen"},"history":{"1":"Introduction to the study of history","2":"Further study 1: Collection and classification of Historical Relics","3":"Guided work 1: Enquiry on the system of periodization (counting dates in your region)","4":"The Early Man and his area and of settlements","5":"continues: The way of life of the early man and its implications","6":"Guided Work 2: The myth of creation","7":"Neolithic (New Stone Age Civilization)","8":"Further study 2: Humanization","9":"Further study 3: Cameroon Civilization in the Neolithic","10":"Guided work 3: The pygmies in Cameroon"},"biology":{"1":"Notion of Biology","2":"Characteristics of living things","3":"Differences between living and non-living things/plants and animals","4":"Studying living things: The scientific approach","5":"Studying living things: In the laboratory and their natural environment","6":"Experiment 1: Introduction to the laboratory: Safety rules, identification of equipment, uses and care","7":"Equipment used to study living things (five senses, hand lens, microscope, etc.)","8":"Experiment 2: Use of hand lens and compound light microscope","9":"The cell: Notion, discovery, types","13":"Observing cells: structure, functions of parts, differences between plant and animal cells","14":"Experiment 3: Observing plant and animal cells","15":"Notions, environmental factors (climatic and edaphic)","16":"Effects of Day and night/Seasons","17":"Interactions between living organisms: feeding, reproduction, etc","18":"Experiment 4: Collection of biological specimens","19":"Notion, formation, composition, types","20":"Qualities of good soils and improving soil quality","21":"Responsible farming practices"},"computer-science":{"1":"Introduction to Computer Science","2":"History of computers","3":"Classification of Computers","4":"Introduction to Artificial Intelligence","5":"Applications and Ethics of Artificial Intelligence","6":"The use of appropriate Prompts to generate AI responses","8":"Decomposition","9":"Pattern recognition","10":"Abstraction","11":"Introduction to algorithms","13":"Components of the computing environment and role","14":"Users of the computing environment and notions on data and information","16":"Computer laboratory equipment and devices","17":"Computer laboratory designs","18":"Behaviours to adopt in a computer laboratory"},"french":{"1":"Orthographe: L’alphabet français","2":"Lecture: Lecture d’un petit texte sur la famille nucléaire","3":"Vocabulaire: Lexique lié aux présentations, aux membres de la famille nucléaire et à leurs différents rôles","4":"Grammaire: Les articles définis et indéfinis","5":"Conjugaison: Le présent de l’indicatif des verbes s’appeler, avoir","6":"Expression orale: Prise de parole pour se présenter et présenter autrui","7":"Grammaire: Les pronoms personnels sujets: je, tu, il/elle, nous, vous, ils/elles","8":"Conjugaison: Présent de l’indicatif des verbes travailler, laver","9":"Orthographe: Les nombres de 1 à 50","10":"Lecture: Lecture d'un texte sur les activités familiales/communautaires","11":"Lecture: Lecture d’un texte sur l’école","12":"Vocabulaire: Lexique de l’école ( les bâtiments: provisorat, infirmerie ; les différentes matières: Français, Mathématiques; le personnel: proviseur, censeur, …)","13":"Grammaire: La phrase simple et ses constituants","14":"Expression écrite: Copie de mots","15":"Grammaire: Les adjectifs possessifs"}};
 const LESSONS = {"maths":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"english":[1,2,3,5,6,7,9,10,11,13,14,15,16],"physics":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],"chemistry":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],"geography":[1,2,3,4,5,6,7,8,9,10],"home-economics":[1,2,3,4,5,6,7,10,11,12,13,14,15,16,17,20,21],"history":[1,2,3,4,5,6,7,8,9,10],"biology":[1,2,3,4,5,6,7,8,9,13,14,15,16,17,18,19,20,21],"computer-science":[1,2,3,4,5,6,8,9,10,11,13,14,16,17,18],"french":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]};
 const SUBJECTS = {"maths":"Maths","english":"English","physics":"Physics","chemistry":"Chemistry","geography":"Geography","home-economics":"Home Economics","history":"History","biology":"Biology","computer-science":"Computer Science","french":"French"};
-const BUILD = "2026-10-13";
+const BUILD = "2026-10-17";
 // Prototype UI: Lesson 0 readiness (once) → lesson menu (Maths and English) → teach mode (cards, worked example,
 // practice or a paper task, note) → results. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
@@ -3093,8 +3103,162 @@ function results(flow) {
     button("Copy results", () => copyText(text, status, details, area), ""), status, details);
 }
 
-// Always open on the lesson menu; the readiness check is offered on the Maths tab until it is done.
-menu();
+// Start-up is at the end of review.js (pupils: the lesson menu; teachers with ?review: the review list).
+
+// Teacher review mode (2026-10-17): open the app with ?review in the link. A teacher sees every lesson with its answers
+// shown, marks each part ✓ OK or ✗ Problem with an optional comment, then sends the review as one message
+// (WhatsApp or any app, through the phone's share sheet, or copied). Marks are kept on this phone only; nothing is sent
+// unless the teacher sends it. Pupils never see this mode. Every mark carries the item's id, so fixes are exact.
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD */
+
+const REVIEW_KEY = "psalmspreps-review-v1";
+const loadReview = () => {
+  try { return { name: "", marks: {}, ...JSON.parse(localStorage.getItem(REVIEW_KEY)) }; } catch { return { name: "", marks: {} }; }
+};
+const review = loadReview();
+const saveReview = () => { try { localStorage.setItem(REVIEW_KEY, JSON.stringify(review)); } catch { /* still works, just forgets */ } };
+const markKey = (s, n, id) => `${s}:${n}:${id}`;
+let RS = Object.keys(SUBJECTS)[0];  // subject shown in review mode
+
+/** Every reviewable part of a lesson, in teaching order: note, cards (with their check), worked example, practice. */
+function reviewItems(s, n) {
+  const l = CONTENT[s][n];
+  const items = [{ id: "note", kind: "Note (summary)" }];
+  for (const c of l.teach.cards) items.push({ id: c.id, kind: "Teach card", card: c });
+  items.push({ id: "worked", kind: "Worked example" });
+  if (l.paper_task) items.push({ id: "paper", kind: "Writing task" });
+  for (const t of l.questions || []) items.push({ id: t.id, kind: `Practice · level ${t.level}`, tpl: t });
+  return items;
+}
+const lessonCounts = (s, n) => {
+  const items = reviewItems(s, n), marks = items.map((it) => review.marks[markKey(s, n, it.id)]).filter(Boolean);
+  return { total: items.length, done: marks.length, problems: marks.filter((m) => !m.ok).length };
+};
+
+/** One generated question with its answer and working shown. */
+function shownQuestion(q, tpl) {
+  const out = [el("div", { class: "prompt pre" }, q.prompt || ""), figureBox(q.figure)];
+  if (q.sentence) out.push(el("div", { class: "sentence" }, q.sentence));
+  if (q.options) {
+    out.push(el("ul", { class: "rv-options" }, q.options.map((o, i) => el("li", { class: i === q.correctIndex ? "rv-right" : "" },
+      `${i === q.correctIndex ? (q.type === "spot_error" ? "✗ (the wrong one) " : "✓ ") : "• "}${o.text}`,
+      o.explain && i !== q.correctIndex ? el("div", { class: "muted" }, `Feedback if chosen: ${o.explain}`) : null))));
+  } else if (q.type === "numeric") {
+    out.push(para(`Answer: ${q.answer}${q.unit ? " " + q.unit : ""}`, "strong"),
+      ...q.misconceptions.map((m) => para(`If the pupil types ${m.value}: ${m.explain}`, "muted")));
+  } else if (q.type === "cloze") {
+    out.push(para(`Accepted answer: ${q.accept.join(" or ")}`, "strong"), ...q.misconceptions.map((m) => para(`If the pupil types ${m.value}: ${m.explain}`, "muted")));
+  } else if (q.type === "ordering" || q.type === "word_order") {
+    out.push(para(`Shown mixed up: ${q.items.join(" · ")}`, "muted"), para(`Right answer: ${q.answer}`, "strong"));
+  }
+  out.push(el("div", { class: "example" }, el("div", { class: "kicker" }, "Working shown after a second miss"), el("ol", {}, q.solution.map((x) => el("li", {}, x)))));
+  out.push(para(tpl.review === "rule" ? "Answer computed by the app’s rules." : "Answer written by a person: please check it.", "rv-tag"));
+  return out;
+}
+
+/** The content of one item, generated with `seed` (a new seed shows another example of the same question). */
+function itemBody(s, n, it, seed) {
+  const l = CONTENT[s][n], lib = libs[s];
+  if (it.id === "note") return [el("div", { class: "note" }, ...lines(l.note.text))];
+  if (it.id === "worked") {
+    const w = renderWorked(l.worked_example, lib);
+    return [el("div", { class: "strong pre" }, w.problem), figureBox(w.figure), el("ol", {}, w.steps.map((x) => el("li", {}, x))), para(`Answer: ${w.answer}`, "strong")];
+  }
+  if (it.id === "paper") {
+    const p = teach.renderPaper(l, lib);
+    return [el("div", { class: "pre" }, p.prompt), el("div", { class: "kicker" }, "Model answer"), ...p.model.map((m) => para(m)),
+      el("div", { class: "kicker" }, "Self-check list"), el("ul", {}, p.checklist.map((c) => el("li", {}, c)))];
+  }
+  if (it.card) {
+    const c = teach.renderCard(it.card, lib), tpl = teach.cardCheckTemplate(l, it.card);
+    return [el("div", { class: "idea" }, c.idea), cardExample(c), el("div", { class: "kicker" }, `Check question (${tpl.id})`),
+      ...shownQuestion(template.instantiate(tpl, seed, lib, n), tpl)];
+  }
+  return shownQuestion(template.instantiate(it.tpl, seed, lib, n), it.tpl);
+}
+
+function reviewItem(s, n, it) {
+  const key = markKey(s, n, it.id);
+  let seed = 1;
+  const box = el("section", { class: "rv-item" });
+  const draw = () => {
+    const m = review.marks[key];
+    const note = el("textarea", { rows: "2", class: "rv-note", placeholder: "Comment (what is wrong, or the correction)", "aria-label": `Comment on ${it.id}` });
+    note.value = m?.note || "";
+    const mark = (ok) => { review.marks[key] = { ok, note: note.value.trim(), at: new Date().toISOString() }; saveReview(); draw(); };
+    note.addEventListener("change", () => { if (review.marks[key]) { review.marks[key].note = note.value.trim(); saveReview(); } });
+    box.className = `rv-item${m ? (m.ok ? " rv-is-ok" : " rv-is-bad") : ""}`;
+    fill(box, [
+      el("div", { class: "rv-head" }, el("span", { class: "kicker" }, it.kind), el("code", {}, it.id)),
+      ...itemBody(s, n, it, seed),
+      it.tpl || it.card ? button("Show another example", () => { seed += 1; draw(); }, "link") : null,
+      note,
+      el("div", { class: "rv-buttons" }, button("✓ OK", () => mark(true), m?.ok === true ? "primary" : ""), button("✗ Problem", () => mark(false), m?.ok === false ? "rv-bad-on" : "")),
+      m ? para(m.ok ? "Marked OK." : "Marked as a problem.", "muted") : null,
+    ]);
+  };
+  draw();
+  return box;
+}
+
+function reviewLesson(s, n) {
+  const c = lessonCounts(s, n);
+  screen(header(`Review · ${SUBJECTS[s]} · Lesson ${n}`, TITLES[s][n]),
+    para(`${c.done} of ${c.total} parts checked${c.problems ? ` · ${c.problems} problem${c.problems === 1 ? "" : "s"}` : ""}. Answers are shown. Mark each part, and add a comment when something is wrong.`, "muted"),
+    reviewItems(s, n).map((it) => reviewItem(s, n, it)),
+    button("Back to the review list", reviewHome, "primary"));
+}
+
+/** The message a teacher sends: every problem with its comment, then the OKs counted per lesson. */
+function reviewText() {
+  const out = [`Psalms Preps teacher review · ${review.name || "(name not given)"} · app ${BUILD} · ${new Date().toISOString().slice(0, 16).replace("T", " ")}`];
+  for (const s of Object.keys(SUBJECTS)) for (const n of LESSONS[s]) {
+    const items = reviewItems(s, n).map((it) => [it, review.marks[markKey(s, n, it.id)]]).filter(([, m]) => m);
+    if (!items.length) continue;
+    const ok = items.filter(([, m]) => m.ok);
+    out.push("", `${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}): ${items.length} of ${reviewItems(s, n).length} checked, ${items.length - ok.length} problem(s)`);
+    for (const [it, m] of items) if (!m.ok || m.note) out.push(`  ${m.ok ? "✓" : "✗"} ${s}:${n}:${it.id}${m.note ? ` — ${m.note}` : ""}`);
+  }
+  return out.join("\n");
+}
+
+async function sendReview(status) {
+  const text = reviewText();
+  try {
+    if (navigator.share) { await navigator.share({ title: "Teacher review", text }); status.textContent = "Shared."; return; }
+  } catch { /* cancelled or not allowed: fall back to copying */ }
+  try { await navigator.clipboard.writeText(text); status.textContent = "Copied. Paste it into WhatsApp or a message to Dion."; }
+  catch { status.textContent = "Could not copy: select the text below and copy it."; }
+}
+
+function reviewHome() {
+  document.documentElement.lang = "en";
+  const name = el("input", { type: "text", class: "rv-name", placeholder: "Your name", "aria-label": "Your name", autocomplete: "name" });
+  name.value = review.name;
+  name.addEventListener("change", () => { review.name = name.value.trim(); saveReview(); });
+  const tabs = el("div", { class: "subjects", role: "tablist" }, Object.entries(SUBJECTS).map(([id, label]) =>
+    el("button", { type: "button", role: "tab", "aria-selected": String(id === RS), class: `subject${id === RS ? " on" : ""}`, onclick: () => { RS = id; reviewHome(); } }, label)));
+  const rows = LESSONS[RS].map((n) => {
+    const c = lessonCounts(RS, n);
+    const mark = c.done === c.total ? (c.problems ? "!" : "✓") : c.done ? "…" : String(n);
+    return el("button", { type: "button", class: `lesson${c.done === c.total && !c.problems ? " is-done" : ""}`, onclick: () => reviewLesson(RS, n) },
+      el("span", { class: "mark", "aria-hidden": "true" }, mark),
+      el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[RS][n],
+        el("span", { class: "sub" }, `${c.done} of ${c.total} checked${c.problems ? ` · ${c.problems} problem${c.problems === 1 ? "" : "s"}` : ""}`)));
+  });
+  const status = para("", "muted");
+  const area = el("textarea", { readonly: "", rows: "8", "aria-label": "Review text" });
+  area.value = reviewText();
+  screen(header("Teacher review", "Check the lessons"),
+    para("Thank you for reviewing. Open a lesson: every answer is shown. Mark each part ✓ OK or ✗ Problem, and write a comment when something is wrong. Your marks stay on this phone until you send them.", "muted"),
+    name, tabs, el("div", { class: "lessons" }, rows),
+    button("Send my review", () => sendReview(status), "primary"), status,
+    el("details", { class: "grownup" }, el("summary", {}, "Show the review text"), area),
+    button("Open the app as a pupil", () => { location.href = location.pathname; }, "link"));
+}
+
+// Start: teachers open the link with ?review; everyone else gets the pupil's lesson menu.
+if (new URLSearchParams(location.search).has("review")) reviewHome(); else menu();
 
 </script>
 </body>

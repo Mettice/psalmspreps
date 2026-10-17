@@ -6,6 +6,8 @@ approved yet). Each item has an ID to quote, a location, and a checkbox.
 
 **Priorities:** every item is tagged [P1] wrong maths or facts would mislead the pupil, [P2] conventions and wording, [P3] cosmetic.
 
+**Reviewing on a phone (from 2026-10-17):** open the app link with `?review` at the end (for example https://psalmspreps.vercel.app/?review). Every lesson is shown with its answers; mark each part ✓ OK or ✗ Problem, add a comment, then tap “Send my review”. Each comment carries the item’s id (for example `french:4:f4-def`), so it can be fixed exactly.
+
 **How to use:** tick `[x]` to approve, or write a correction under the item. This file is append-only:
 new items are added at the end of the right section with the date, and nothing is deleted. A changed
 decision gets a new item that refers to the old ID.
@@ -563,3 +565,8 @@ Reviewer: a French teacher (bilingual-system French), not the English reviewer.
 
 ### Added 2026-10-13 (French released in the app)
 - [ ] **TR-F14 [P2] French F1 released in the app on 2026-10-13 at Dion’s request (“release french and push it”),** before the TR-F items above were checked by a French teacher; the lessons show the usual "drafts" line. Ten tabs now, two per row at 360 px. **Inside a French lesson every label the pupil sees is in French** (Vérifier, Je ne sais pas, Petite vérification, Leçon 4 · Idée 1 sur 3, Bravo !, Voici comment faire …) and the page language is set to French for screen readers; the menu and the grown-up results text stay in English. A walkthrough of all 154 lessons found no English label in a French lesson and no French label elsewhere. The page is about 1263 KB of the 1.3 MB build limit, so the next batch (French 16–30) needs the move to loading one subject at a time, or a higher limit within the 2 MB budget. Supersedes TR-F12 and TR-F13. *Location:* `FR`, `T()` in `tools/prototype/app.js`; `SUBJECTS`, `BATCH` in `tools/prototype/build.mjs`.
+
+## R. Review process
+
+### Added 2026-10-17 (teacher review mode in the app)
+- [ ] **TR-R01 [P2] Teacher review mode:** opening the app with `?review` shows a review list for every subject and lesson. Each lesson lists its note, cards (with their check question), worked example and every practice question, generated with the answer shown, the feedback for each wrong choice, the working, and whether the answer is computed by the app or written by a person; “Show another example” draws a new variant. The teacher marks each part ✓ OK or ✗ Problem with an optional comment; marks stay on the phone (`psalmspreps-review-v1`) until “Send my review”, which opens the phone’s share sheet (WhatsApp …) or copies the text. Nothing is sent automatically, no account is needed, and pupils never see this mode. Reviews are organised by Dion’s brother (a principal), who sends the link to teachers; one teacher can review a subject across classes. *Location:* `tools/prototype/review.js`; styles `.rv-*` in `tools/prototype/build.mjs`.

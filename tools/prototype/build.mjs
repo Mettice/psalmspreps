@@ -127,6 +127,16 @@ details.grownup { margin-top: 12px; } details.grownup summary { min-height: 48px
 /* subjects */
 .subjects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 0 0 14px; }  /* two per row at 360px */
 .subjects > :last-child:nth-child(odd) { grid-column: 1 / -1; }  /* an odd last tab takes the whole row */
+/* teacher review mode (?review) */
+.rv-item { border: 2px solid var(--line); border-radius: 14px; padding: 12px; margin: 0 0 14px; background: var(--card); overflow-wrap: anywhere; }
+.rv-item.rv-is-ok { border-color: var(--accent); } .rv-item.rv-is-bad { border-color: var(--bad); background: var(--bad-bg); }
+.rv-head { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; margin-bottom: 6px; } .rv-head code { font-size: .8rem; color: var(--muted); }
+.rv-options { padding-left: 0; list-style: none; margin: 6px 0 10px; } .rv-options li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.rv-options li.rv-right { font-weight: 700; color: var(--good); }
+.rv-tag { font-size: .85rem; color: var(--muted); font-style: italic; }
+.rv-note, .rv-name { width: 100%; font: inherit; padding: 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--fg); margin: 8px 0; }
+.rv-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; } .rv-buttons button { margin: 0; }
+button.rv-bad-on { background: var(--bad); color: #fff; border-color: var(--bad); font-weight: 700; }
 button.subject { padding: 10px 6px; }
 button.subject { margin: 0; text-align: center; font-weight: 700; }
 button.subject.on { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
@@ -205,6 +215,7 @@ const LESSONS = ${safeJson(lessons)};
 const SUBJECTS = ${safeJson(SUBJECTS)};
 const BUILD = ${JSON.stringify(build)};
 ${read("tools/prototype/app.js")}
+${read("tools/prototype/review.js")}
 </script>
 </body>
 </html>

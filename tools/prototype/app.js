@@ -517,5 +517,4 @@ function results(flow) {
     button("Copy results", () => copyText(text, status, details, area), ""), status, details);
 }
 
-// Always open on the lesson menu; the readiness check is offered on the Maths tab until it is done.
-menu();
+// Start-up is at the end of review.js (pupils: the lesson menu; teachers with ?review: the review list).

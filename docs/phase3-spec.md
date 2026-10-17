@@ -212,3 +212,15 @@ were **released on 2026-10-07** (TR-S12): nine tabs, build limit raised to 1.3 M
   typed, because typing accents on a phone is slow (TR-F10). **Released on 2026-10-13** (TR-F14): a tenth tab; inside
   French lessons the app’s own labels come from a small French table (`T()` in `app.js`), and `<html lang>` is set to
   `fr`. The page is about 1263 KB of the 1.3 MB limit.
+
+## 17. Teacher review mode (2026-10-17)
+
+- `tools/prototype/review.js`, bundled after `app.js`. The page's last line chooses: `?review` → the review list;
+  otherwise the pupil's lesson menu. Review marks are kept under their own key (`psalmspreps-review-v1`); the test allows
+  exactly that key and the pupil's key.
+- Every part of a lesson is shown with its answer (cards, check questions, worked example, practice, writing task,
+  note). Marks are ✓/✗ plus a comment, keyed `subject:lesson:id`. “Send my review” uses the phone's share sheet, or
+  copies the text; the message lists every problem with its comment, and counts the OKs per lesson.
+- Verified at 360 px: all 154 lessons (1501 parts) render in review mode with no errors and no sideways scroll.
+- Decided with Dion (2026-10-17): Term 1 stays free; money comes later. Next: an installable offline app with
+  per-subject loading, together with a more colourful design and forgiving streaks.

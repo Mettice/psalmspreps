@@ -18,7 +18,8 @@ test("prototype: builds under 1.3 MB, no external resources, engine runs", () =>
   // Progress is saved in this browser only (2026-10-05): one key, every access wrapped in try/catch.
   const uses = html.match(/localStorage\.\w+\([^)]*\)/g) || [];
   assert.ok(uses.length >= 2, "saves and loads progress");
-  for (const u of uses) assert.match(u, /^localStorage\.(getItem|setItem|removeItem)\(KEY(, JSON\.stringify\(state)?\)$/, u);
+  // Teacher review mode keeps its marks under its own key (2026-10-17).
+  for (const u of uses) assert.match(u, /^localStorage\.(getItem|setItem|removeItem)\((KEY(, JSON\.stringify\(state)?|REVIEW_KEY(, JSON\.stringify\(review)?)\)$/, u);
   // Run the inlined engine (everything before the content) and build the readiness check with it.
   const script = html.split("<script>")[1].split("const CONTENT")[0];
   const ENGINE = new Function(`${script}; return ENGINE;`)();
@@ -103,7 +104,8 @@ test("prototype: motion off under prefers-reduced-motion; 48px tap targets; text
   // (that showed the word "null" in ordering questions until 2026-10-06)
   assert.doesNotMatch(html, /replaceChildren\(\.\.\.[^;]*\? null/);
   // the app opens on the lesson menu; the readiness check is offered on the Maths tab only, until done (2026-10-07)
-  assert.match(html, /\nmenu\(\);\s*<\/script>/);
+  // (since 2026-10-17 the last line also sends teachers with ?review to the review list)
+  assert.match(html, /\nif \(new URLSearchParams\(location\.search\)\.has\("review"\)\) reviewHome\(\); else menu\(\);\s*<\/script>/);
   assert.match(html, /const check = s === "maths" && !state\.readiness;/);
   // readiness must stay neutral: no flash, shake or check icon on that path
   const readinessCode = html.slice(html.indexOf("function readinessQ"), html.indexOf("function readinessDone"));
@@ -121,4 +123,10 @@ test("prototype: inside French lessons the pupil's labels are French; elsewhere 
   assert.ok(html.includes('const T = (text, v = {}) => ((S === "french" && FR[text]) || text)'), "the label helper is in the page");
   for (const fr of ["Vérifier", "Je ne sais pas", "Retour aux leçons", "Leçon {n} · Idée {a} sur {b}", "Bravo !"]) assert.ok(html.includes(fr), fr);
   for (const en of ['button("Check"', "button(\"I don't know\"", '{}, "Correct!")']) assert.ok(!html.includes(en), `still hard-coded: ${en}`);
+});
+
+test("prototype: teacher review mode opens with ?review, shows answers and builds the message from marks", () => {
+  const html = page();
+  assert.ok(html.includes('if (new URLSearchParams(location.search).has("review")) reviewHome(); else menu();'), "start-up chooses review or menu");
+  for (const t of ["Teacher review", "✓ OK", "✗ Problem", "Send my review", "Answer written by a person: please check it."]) assert.ok(html.includes(t), t);
 });
