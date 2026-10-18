@@ -1,0 +1,429 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "a2-5",
+   "name": "Accounting analysis and economic flows"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A business exchanges with partners (suppliers, customers, employees, the bank, the State). Each exchange is an economic flow: something moving from one partner to another.\n• Real (physical) flows: goods or services (goods delivered, work done, a repair).\n• Financial (monetary) flows: money (cash, cheques, transfers, loans).\nMost transactions have two flows in opposite directions: when a shop buys goods for cash, goods flow in (real) and money flows out (financial).\nSome flows have no counterpart at once (a credit purchase creates a debt; the payment comes later).\nAccounting analysis means studying each transaction to find its flows, the partners involved, and the accounts affected.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "a shop buys goods worth 200 000 FCFA from a supplier and pays cash"
+  },
+  "problem": "Analyse the flows when {t}.",
+  "steps": [
+   "Real flow: goods move from the supplier into the shop.",
+   "Financial flow: cash moves from the shop to the supplier.",
+   "Two flows in opposite directions, of equal value."
+  ],
+  "answer": "Goods in (real), cash out (financial).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "An economic flow is something moving between the business and a partner.",
+    "vars": {},
+    "example": [
+     "Partners: suppliers, customers, employees, bank, State."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-5-kind"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "Real flows are goods and services; financial flows are money.",
+    "vars": {},
+    "example": [
+     "Goods delivered: real. Cash paid: financial."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-5-pair"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "Most transactions have two opposite flows of equal value.",
+    "vars": {},
+    "example": [
+     "Goods in, money out."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-5-analyse-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "economic-flows"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Goods are bought on credit. What is special about this transaction?",
+         "r": "The goods come in now, but the payment comes later: a debt is created.",
+         "w": [
+          "Money comes in now.",
+          "No goods move.",
+          "It is not a transaction."
+         ],
+         "e": [
+          "No money moves now.",
+          "Goods come in.",
+          "It is a transaction."
+         ],
+         "y": "The financial flow is delayed."
+        },
+        {
+         "q": "What does accounting analysis of a transaction find?",
+         "r": "its flows, the partners and the accounts affected",
+         "w": [
+          "the owner's age",
+          "the colour of the goods",
+          "the weather that day"
+         ],
+         "e": [
+          "Not relevant.",
+          "Not relevant.",
+          "Not relevant."
+         ],
+         "y": "Analysis prepares the recording."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-5-kind",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "economic-flows"
+   ],
+   "prompt": "Sort the flows: real or financial?",
+   "pool": [
+    {
+     "left": "goods delivered by a supplier",
+     "right": "real flow"
+    },
+    {
+     "left": "a service received (repairs)",
+     "right": "real flow"
+    },
+    {
+     "left": "goods sold to a customer",
+     "right": "real flow"
+    },
+    {
+     "left": "work done by an employee",
+     "right": "real flow"
+    },
+    {
+     "left": "cash paid to a supplier",
+     "right": "financial flow"
+    },
+    {
+     "left": "a cheque received from a customer",
+     "right": "financial flow"
+    },
+    {
+     "left": "salary paid to an employee",
+     "right": "financial flow"
+    },
+    {
+     "left": "a bank loan received",
+     "right": "financial flow"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "real flow",
+    "financial flow"
+   ]
+  },
+  {
+   "id": "a2-5-pair",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "economic-flows"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A customer buys goods and pays cash. Which flows are there?",
+       "r": "goods out to the customer and cash in to the business",
+       "w": [
+        "only goods out",
+        "only cash out",
+        "goods in and cash in"
+       ],
+       "e": [
+        "Money also moves.",
+        "Cash comes in.",
+        "Goods go out."
+       ],
+       "y": "A real flow out, a financial flow in."
+      },
+      {
+       "q": "An employee is paid her salary. Which flow is the payment?",
+       "r": "a financial flow",
+       "w": [
+        "a real flow",
+        "no flow",
+        "a flow of goods"
+       ],
+       "e": [
+        "Money is financial.",
+        "Money moves.",
+        "No goods move."
+       ],
+       "y": "Salary is money."
+      },
+      {
+       "q": "Who are the partners of a business?",
+       "r": "suppliers, customers, employees, the bank and the State",
+       "w": [
+        "only the owner",
+        "only customers",
+        "only the bank"
+       ],
+       "e": [
+        "There are others.",
+        "There are others.",
+        "There are others."
+       ],
+       "y": "Many partners exchange with the business."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-5-analyse",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "economic-flows"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Goods are bought on credit. What is special about this transaction?",
+       "r": "The goods come in now, but the payment comes later: a debt is created.",
+       "w": [
+        "Money comes in now.",
+        "No goods move.",
+        "It is not a transaction."
+       ],
+       "e": [
+        "No money moves now.",
+        "Goods come in.",
+        "It is a transaction."
+       ],
+       "y": "The financial flow is delayed."
+      },
+      {
+       "q": "What does accounting analysis of a transaction find?",
+       "r": "its flows, the partners and the accounts affected",
+       "w": [
+        "the owner's age",
+        "the colour of the goods",
+        "the weather that day"
+       ],
+       "e": [
+        "Not relevant.",
+        "Not relevant.",
+        "Not relevant."
+       ],
+       "y": "Analysis prepares the recording."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "economic-flows"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Goods delivered are a real flow.",
+      "truth": "true"
+     },
+     {
+      "text": "Cash paid is a financial flow.",
+      "truth": "true"
+     },
+     {
+      "text": "The bank is a partner.",
+      "truth": "true"
+     },
+     {
+      "text": "A credit purchase creates a debt.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A cheque is a real flow.",
+      "truth": "false",
+      "explain": "A cheque is money: a financial flow."
+     },
+     {
+      "text": "Work done by an employee is a financial flow.",
+      "truth": "false",
+      "explain": "Work is a service: a real flow."
+     },
+     {
+      "text": "Every transaction has only one flow.",
+      "truth": "false",
+      "explain": "Most have two opposite flows."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

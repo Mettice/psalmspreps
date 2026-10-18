@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests-js/engine.test.js tests-js/content.test.js tests-js/state.test.js tests-js/prototype.test.js tests-js/english.test.js tests-js/english-content.test.js tests-js/physics.test.js tests-js/physics-content.test.js tests-js/chemistry.test.js tests-js/chemistry-content.test.js tests-js/geography.test.js tests-js/geography-content.test.js tests-js/homeeconomics.test.js tests-js/homeeconomics-content.test.js tests-js/history.test.js tests-js/history-content.test.js tests-js/biology.test.js tests-js/biology-content.test.js tests-js/computerscience.test.js tests-js/computerscience-content.test.js tests-js/french.test.js tests-js/french-content.test.js tests-js/maths2.test.js tests-js/form2-maths-content.test.js tests-js/form2-english-content.test.js tests-js/form2-physics-content.test.js tests-js/form2-chemistry-content.test.js tests-js/form2-biology-content.test.js",
+    "test": "node --test tests-js/engine.test.js tests-js/content.test.js tests-js/state.test.js tests-js/prototype.test.js tests-js/english.test.js tests-js/english-content.test.js tests-js/physics.test.js tests-js/physics-content.test.js tests-js/chemistry.test.js tests-js/chemistry-content.test.js tests-js/geography.test.js tests-js/geography-content.test.js tests-js/homeeconomics.test.js tests-js/homeeconomics-content.test.js tests-js/history.test.js tests-js/history-content.test.js tests-js/biology.test.js tests-js/biology-content.test.js tests-js/computerscience.test.js tests-js/computerscience-content.test.js tests-js/french.test.js tests-js/french-content.test.js tests-js/maths2.test.js tests-js/form2-maths-content.test.js tests-js/form2-english-content.test.js tests-js/form2-physics-content.test.js tests-js/form2-chemistry-content.test.js tests-js/form2-biology-content.test.js tests-js/form2-homeeconomics-content.test.js tests-js/form2-geography-content.test.js tests-js/form2-history-content.test.js tests-js/form2-computerscience-content.test.js tests-js/form2-accounting-content.test.js",
     "review": "node tools/content/render_review.mjs",
     "build:site": "node tools/site/build.mjs",
     "review:english": "node tools/content/render_subject.mjs english",
@@ -19,6 +19,11 @@
     "review:f2-english": "node tools/content/render_subject.mjs f2-english",
     "review:f2-physics": "node tools/content/render_subject.mjs f2-physics",
     "review:f2-chemistry": "node tools/content/render_subject.mjs f2-chemistry",
-    "review:f2-biology": "node tools/content/render_subject.mjs f2-biology"
+    "review:f2-biology": "node tools/content/render_subject.mjs f2-biology",
+    "review:f2-home-economics": "node tools/content/render_subject.mjs f2-home-economics",
+    "review:f2-geography": "node tools/content/render_subject.mjs f2-geography",
+    "review:f2-history": "node tools/content/render_subject.mjs f2-history",
+    "review:f2-computer-science": "node tools/content/render_subject.mjs f2-computer-science",
+    "review:f2-accounting": "node tools/content/render_subject.mjs f2-accounting"
   }
 }

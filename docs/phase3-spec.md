@@ -283,3 +283,13 @@ Built on the `form-2` branch only, so the live app (from `main`) is unchanged un
 - **App:** subjects `f2-physics`, `f2-chemistry`, `f2-biology` under Form Two. The Form Two shareable file is about 956 KB
   (limit 1.5 MB); the Form One file is unchanged in content.
 - Review files: `npm run review:f2-physics`, `review:f2-chemistry`, `review:f2-biology`; teacher items TR-Q, TR-J, TR-V.
+
+## 21. Form 2, Term 1: Home Economics, Geography, History, Computer Science, Accounting (2026-10-18, form-2 branch)
+
+- 64 lessons: `content/form-2/{home-economics,geography,history,computer-science,accounting}/`. Integration, evaluation and
+  remediation rows are not lessons; practicals, guided work and further study are taught.
+- `science2.js` gains hexadecimal, 8-bit binary, ASCII codes and storage units (1 KB = 1024 bytes, TR-T05).
+- Accounting is new: colour #556b2f and the 🧾 icon. Form Two now has ten subjects.
+- The Form Two shareable file is about 1.34 MB (limit 1.5 MB). French and Français intensif will not fit: before they
+  are added, the Form Two file must be split (for example sciences and languages) or the limit raised within the 2 MB budget.
+

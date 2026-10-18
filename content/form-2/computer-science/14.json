@@ -1,0 +1,287 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-14",
+   "name": "Introduction to number systems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A number system (base) uses a fixed set of digits; each place is worth base × the place to its right.\n• Decimal (base 10): digits 0–9; places 1, 10, 100, …\n• Binary (base 2): digits 0 and 1; places 1, 2, 4, 8, 16, … Computers use binary because their circuits have two states (on/off).\n• Octal (base 8): digits 0–7; places 1, 8, 64, …\n• Hexadecimal (base 16): digits 0–9 and A–F (A = 10, B = 11, C = 12, D = 13, E = 14, F = 15); places 1, 16, 256, … Used for colours and memory addresses.\nWrite the base as a small number: 1011₂, 17₈, 2F₁₆.\nValue of a numeral: multiply each digit by its place value and add: 1011₂ = 8 + 0 + 2 + 1 = 11.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "1101",
+   "b": 2
+  },
+  "problem": "Find the decimal value of {s}{sub(b)}.",
+  "steps": [
+   "Place values in base {b}: {'8, 4, 2, 1'}.",
+   "{placeSum(s, b)}"
+  ],
+  "answer": "{fromBase(s, b)}",
+  "checks": [
+   "fromBase(s, b) == 13"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "Binary uses only {'0'} and {'1'}, because computer circuits are on or off.",
+    "vars": {},
+    "example": [
+     "Binary places: {'1, 2, 4, 8, 16'}, …"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-14-digits"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Hexadecimal uses {'0–9'} and A–F; A is {10} and F is {15}.",
+    "vars": {},
+    "example": [
+     "B = {hexValue('B')}, E = {hexValue('E')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-14-hex"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "To find a numeral's value, multiply each digit by its place value and add.",
+    "vars": {
+     "s": "101",
+     "b": 2
+    },
+    "example": [
+     "{placeSum(s, b)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-14-value-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "number-systems"
+     ],
+     "vars": {
+      "n": {
+       "int": [
+        5,
+        31
+       ]
+      },
+      "s": {
+       "expr": "toBase(n, 2)"
+      },
+      "two": 2
+     },
+     "prompt": "What is the decimal value of {s}{sub(two)}?",
+     "answer": "fromBase(s, 2)",
+     "misconceptions": [
+      {
+       "id": "digits",
+       "wrong": "num(s)",
+       "explain": "{s} in binary is not the decimal number {s}: use the place values."
+      }
+     ],
+     "solution": [
+      "{placeSum(s, two)}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-14-digits",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "number-systems"
+   ],
+   "prompt": "Match each number system to its digits.",
+   "pool": [
+    {
+     "left": "binary (base 2)",
+     "right": "0 and 1"
+    },
+    {
+     "left": "octal (base 8)",
+     "right": "0 to 7"
+    },
+    {
+     "left": "decimal (base 10)",
+     "right": "0 to 9"
+    },
+    {
+     "left": "hexadecimal (base 16)",
+     "right": "0 to 9 and A to F"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-14-hex",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+     ]
+    }
+   },
+   "prompt": "What is the value of the hexadecimal digit {c}?",
+   "answer": "hexValue(c)",
+   "misconceptions": [
+    {
+     "id": "letter",
+     "wrong": "hexValue(c) - 9",
+     "explain": "A is 10, not 1: count on from 10."
+    }
+   ],
+   "solution": [
+    "{'A = 10, B = 11, C = 12, D = 13, E = 14, F = 15'}.",
+    "So {c} = {answer}."
+   ]
+  },
+  {
+   "id": "s2-14-value",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      5,
+      31
+     ]
+    },
+    "s": {
+     "expr": "toBase(n, 2)"
+    },
+    "two": 2
+   },
+   "prompt": "What is the decimal value of {s}{sub(two)}?",
+   "answer": "fromBase(s, 2)",
+   "misconceptions": [
+    {
+     "id": "digits",
+     "wrong": "num(s)",
+     "explain": "{s} in binary is not the decimal number {s}: use the place values."
+    }
+   ],
+   "solution": [
+    "{placeSum(s, two)}"
+   ]
+  },
+  {
+   "id": "s2-14-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do computers use binary?",
+       "r": "Their circuits have two states, on and off.",
+       "w": [
+        "Binary numbers are shorter.",
+        "Ten is too big for a computer.",
+        "Programmers like the number two."
+       ],
+       "e": [
+        "Binary numbers are longer.",
+        "That is not the reason.",
+        "That is not the reason."
+       ],
+       "y": "Two states fit the two digits 0 and 1."
+      },
+      {
+       "q": "Which number system is often used for colours on web pages?",
+       "r": "hexadecimal",
+       "w": [
+        "Roman numerals",
+        "binary only",
+        "decimal only"
+       ],
+       "e": [
+        "Roman numerals are not used.",
+        "Colours are written in hex, e.g. #FF0000.",
+        "Colours are written in hex."
+       ],
+       "y": "Colours are written like #FF0000."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

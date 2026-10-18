@@ -1,0 +1,362 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "s2-15",
+   "name": "Encoding numbers in binary"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Computers store numbers in binary, using bits (binary digits, 0 or 1). A group of 8 bits is a byte.\nDecimal → binary: divide by 2 again and again, writing the remainders, then read the remainders from the bottom up. Or subtract place values 128, 64, 32, 16, 8, 4, 2, 1.\nExample: 13 = 8 + 4 + 1 = 1101₂; as an 8-bit byte: 00001101.\nBinary → decimal: add the place values where there is a 1.\nWith n bits you can store 2ⁿ different values: 8 bits store 256 values, from 0 to 255.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 22,
+   "two": 2
+  },
+  "problem": "Convert {n} to binary and write it as an {8}-bit byte.",
+  "steps": [
+   "{divSteps(n, two)}",
+   "As {8} bits, add zeros in front: {bits8(n)}."
+  ],
+  "answer": "{toBase(n, two)}{sub(two)} = {bits8(n)}",
+  "checks": [
+   "toBase(n, two) == '10110'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "A bit is a binary digit; eight bits make a byte.",
+    "vars": {
+     "z": 0,
+     "top": 255
+    },
+    "example": [
+     "A byte can hold numbers from {z} to {top}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-15-bits"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Decimal to binary: divide by two repeatedly and read the remainders from the bottom up.",
+    "vars": {
+     "n": 6,
+     "two": 2
+    },
+    "example": [
+     "{divSteps(n, two)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-15-tobin"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "With n bits you can store two to the power n values.",
+    "vars": {
+     "k": 4
+    },
+    "example": [
+     "{k} bits: {2 ^ k} values."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-15-range-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "number-systems"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        10
+       ]
+      },
+      "two": 2
+     },
+     "prompt": "How many different values can be stored with {k} bits?",
+     "answer": "2 ^ k",
+     "misconceptions": [
+      {
+       "id": "times",
+       "wrong": "2 * k",
+       "explain": "Each extra bit doubles the values: two to the power {k}, not two times {k}."
+      },
+      {
+       "id": "minus",
+       "wrong": "2 ^ k - 1",
+       "explain": "That is the largest value; count zero too."
+      }
+     ],
+     "solution": [
+      "Each bit doubles the number of values.",
+      "{two} to the power {k} = {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-15-bits",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How many bits are in a byte?",
+       "r": "8",
+       "w": [
+        "2",
+        "10",
+        "1024"
+       ],
+       "e": [
+        "That is too few.",
+        "A byte is 8 bits.",
+        "That is the bytes in a kilobyte."
+       ],
+       "y": "1 byte = 8 bits."
+      },
+      {
+       "q": "What is a bit?",
+       "r": "a binary digit, 0 or 1",
+       "w": [
+        "a group of 8 bytes",
+        "a letter",
+        "a decimal number"
+       ],
+       "e": [
+        "That is backwards.",
+        "A letter needs a byte or more.",
+        "A bit is binary."
+       ],
+       "y": "Bit = binary digit."
+      },
+      {
+       "q": "What is the largest number one byte can store?",
+       "r": "255",
+       "w": [
+        "256",
+        "8",
+        "100"
+       ],
+       "e": [
+        "There are 256 values, from 0 to 255.",
+        "That is the number of bits.",
+        "It is 255."
+       ],
+       "y": "11111111₂ = 255."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-15-tobin",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      5,
+      60
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "What is {n} in binary?",
+   "correct": "{toBase(n, 2)}",
+   "distractors": [
+    {
+     "text": "{toBase(n + 1, 2)}",
+     "misconception": "plus"
+    },
+    {
+     "text": "{toBase(n - 1, 2)}",
+     "misconception": "minus"
+    },
+    {
+     "text": "{reverse(toBase(n, 2))}",
+     "misconception": "reverse"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "plus",
+     "explain": "That is {n + 1}."
+    },
+    {
+     "id": "minus",
+     "explain": "That is {n - 1}."
+    },
+    {
+     "id": "reverse",
+     "explain": "Read the remainders from the bottom up, not the top down."
+    }
+   ],
+   "solution": [
+    "{divSteps(n, two)}"
+   ],
+   "where": [
+    "reverse(toBase(n, 2)) != toBase(n, 2)"
+   ]
+  },
+  {
+   "id": "s2-15-byte",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      3,
+      120
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "Write {n} as an 8-bit byte.",
+   "correct": "{bits8(n)}",
+   "distractors": [
+    {
+     "text": "{bits8(n * 2 % 256)}",
+     "misconception": "shift"
+    },
+    {
+     "text": "{reverse(bits8(n))}",
+     "misconception": "reverse"
+    },
+    {
+     "text": "{bits8(255 - n)}",
+     "misconception": "invert"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "shift",
+     "explain": "That is {n * 2 % 256}: check your conversion."
+    },
+    {
+     "id": "reverse",
+     "explain": "Zeros go in front, and the bits stay in order."
+    },
+    {
+     "id": "invert",
+     "explain": "Every 0 and 1 is swapped: that is {255 - n}."
+    }
+   ],
+   "solution": [
+    "{n} in binary is {toBase(n, two)}.",
+    "Add zeros in front to make {8} bits: {answer}."
+   ],
+   "where": [
+    "reverse(bits8(n)) != bits8(n)",
+    "n * 2 % 256 != 255 - n"
+   ]
+  },
+  {
+   "id": "s2-15-range",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "How many different values can be stored with {k} bits?",
+   "answer": "2 ^ k",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "2 * k",
+     "explain": "Each extra bit doubles the values: two to the power {k}, not two times {k}."
+    },
+    {
+     "id": "minus",
+     "wrong": "2 ^ k - 1",
+     "explain": "That is the largest value; count zero too."
+    }
+   ],
+   "solution": [
+    "Each bit doubles the number of values.",
+    "{two} to the power {k} = {answer}."
+   ]
+  }
+ ]
+}

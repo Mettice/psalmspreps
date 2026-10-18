@@ -1,0 +1,371 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "s2-11",
+   "name": "Operating systems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "System software runs the computer itself; application software does tasks for the user (word processor, browser, games).\nThe operating system (OS) is the most important system software. It starts when the computer is switched on and manages everything:\n• memory (RAM) and the processor (running programs);\n• files and folders;\n• devices (printer, keyboard, screen);\n• security (user accounts, passwords);\n• the user interface.\nInterfaces: a graphical user interface (GUI) with windows, icons, menus and a pointer; a command-line interface (CLI) where commands are typed.\nExamples: Windows, macOS and Linux (computers); Android and iOS (phones and tablets).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "o": "Android"
+  },
+  "problem": "Is {o} system software or application software? Explain.",
+  "steps": [
+   "{o} is an operating system: it manages the phone's memory, files, devices and screen.",
+   "Apps such as WhatsApp run on top of it."
+  ],
+  "answer": "System software (an operating system).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "The operating system manages the computer: memory, files, devices, security, interface.",
+    "vars": {},
+    "example": [
+     "It starts when the computer is switched on."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-11-job"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Examples: Windows, macOS, Linux; Android and iOS on phones.",
+    "vars": {},
+    "example": [
+     "A word processor is application software."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-11-kind"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "A GUI uses windows and icons; a CLI uses typed commands.",
+    "vars": {},
+    "example": [
+     "Most phones use a GUI with touch."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-11-gui-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "system-software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does GUI stand for?",
+         "r": "graphical user interface",
+         "w": [
+          "general unit of information",
+          "great unknown internet",
+          "graphic upload index"
+         ],
+         "e": [
+          "That is not it.",
+          "That is not it.",
+          "That is not it."
+         ],
+         "y": "Windows, icons, menus, pointer."
+        },
+        {
+         "q": "In which interface do you type commands?",
+         "r": "a command-line interface (CLI)",
+         "w": [
+          "a graphical user interface",
+          "a touch screen menu",
+          "an icon"
+         ],
+         "e": [
+          "A GUI uses icons and windows.",
+          "That is a GUI.",
+          "An icon is clicked, not typed."
+         ],
+         "y": "A CLI takes typed commands."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-11-job",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "system-software"
+   ],
+   "prompt": "Match each function of the operating system to what it does.",
+   "pool": [
+    {
+     "left": "managing memory",
+     "right": "decides which program uses which part of RAM"
+    },
+    {
+     "left": "managing files",
+     "right": "creates, saves, copies and deletes files and folders"
+    },
+    {
+     "left": "managing devices",
+     "right": "controls the printer, keyboard and screen"
+    },
+    {
+     "left": "user interface",
+     "right": "lets the user give commands with icons, windows or text"
+    },
+    {
+     "left": "security",
+     "right": "uses passwords and user accounts"
+    },
+    {
+     "left": "managing processes",
+     "right": "shares the CPU between running programs"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-11-kind",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "system-software"
+   ],
+   "prompt": "Sort: operating system or application software?",
+   "pool": [
+    {
+     "left": "Windows",
+     "right": "operating system"
+    },
+    {
+     "left": "Linux",
+     "right": "operating system"
+    },
+    {
+     "left": "Android",
+     "right": "operating system"
+    },
+    {
+     "left": "iOS",
+     "right": "operating system"
+    },
+    {
+     "left": "a word processor",
+     "right": "application"
+    },
+    {
+     "left": "a web browser",
+     "right": "application"
+    },
+    {
+     "left": "a game",
+     "right": "application"
+    },
+    {
+     "left": "a spreadsheet",
+     "right": "application"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "operating system",
+    "application"
+   ]
+  },
+  {
+   "id": "s2-11-gui",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "system-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does GUI stand for?",
+       "r": "graphical user interface",
+       "w": [
+        "general unit of information",
+        "great unknown internet",
+        "graphic upload index"
+       ],
+       "e": [
+        "That is not it.",
+        "That is not it.",
+        "That is not it."
+       ],
+       "y": "Windows, icons, menus, pointer."
+      },
+      {
+       "q": "In which interface do you type commands?",
+       "r": "a command-line interface (CLI)",
+       "w": [
+        "a graphical user interface",
+        "a touch screen menu",
+        "an icon"
+       ],
+       "e": [
+        "A GUI uses icons and windows.",
+        "That is a GUI.",
+        "An icon is clicked, not typed."
+       ],
+       "y": "A CLI takes typed commands."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "system-software"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Windows is an operating system.",
+      "truth": "true"
+     },
+     {
+      "text": "The OS manages memory.",
+      "truth": "true"
+     },
+     {
+      "text": "A GUI uses icons and windows.",
+      "truth": "true"
+     },
+     {
+      "text": "Android runs on phones.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A web browser is an operating system.",
+      "truth": "false",
+      "explain": "A browser is application software."
+     },
+     {
+      "text": "The OS starts only after you open a game.",
+      "truth": "false",
+      "explain": "The OS starts when the computer is switched on."
+     },
+     {
+      "text": "A CLI uses icons and a mouse only.",
+      "truth": "false",
+      "explain": "A CLI uses typed commands."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

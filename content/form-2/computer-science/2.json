@@ -1,0 +1,374 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "s2-2",
+   "name": "Processing devices and storage devices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Processing: the central processing unit (CPU, the processor) is the “brain” of the computer. It has:\n• the control unit, which fetches and decodes instructions and directs the other parts;\n• the arithmetic and logic unit (ALU), which does calculations and comparisons;\n• registers, tiny very fast memories. Its speed is measured in gigahertz (GHz). The graphics processing unit (GPU) handles images. All are fixed on the motherboard.\nStorage:\n• primary (main) memory: RAM (holds programs and data in use; volatile: loses its contents when the power goes off) and ROM (holds start-up instructions; non-volatile, read only);\n• secondary storage keeps data permanently: hard disk drive (HDD), solid-state drive (SSD), USB flash drive, memory card, CD/DVD, cloud storage.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "a pupil typing a report when the power goes off"
+  },
+  "problem": "Explain what happens to the work of {s} if it was not saved.",
+  "steps": [
+   "While typing, the work is held in RAM.",
+   "RAM is volatile: it loses its contents when the power goes off, so unsaved work is lost.",
+   "Saving copies it to secondary storage (a disk or flash drive), which keeps it."
+  ],
+  "answer": "It is lost, because RAM is volatile; save often to secondary storage.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "The CPU is the brain: the control unit directs, the ALU calculates.",
+    "vars": {},
+    "example": [
+     "Speed is measured in GHz."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-2-cpu"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "RAM is volatile (loses data when power is off); ROM keeps its start-up instructions.",
+    "vars": {},
+    "example": [
+     "Save work so it is not lost."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-2-ram"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Secondary storage keeps data permanently: HDD, SSD, flash drive, memory card, cloud.",
+    "vars": {},
+    "example": [
+     "A USB flash drive is easy to carry."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-2-store-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hardware"
+     ],
+     "prompt": "Match each storage to its description.",
+     "pool": [
+      {
+       "left": "RAM",
+       "right": "primary storage, loses data when power is off"
+      },
+      {
+       "left": "ROM",
+       "right": "primary storage, keeps start-up instructions"
+      },
+      {
+       "left": "hard disk drive (HDD)",
+       "right": "secondary storage with spinning disks"
+      },
+      {
+       "left": "solid-state drive (SSD)",
+       "right": "secondary storage with no moving parts"
+      },
+      {
+       "left": "USB flash drive",
+       "right": "small portable secondary storage"
+      },
+      {
+       "left": "cloud storage",
+       "right": "storage on servers reached through the internet"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-2-cpu",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part of the CPU does calculations and comparisons?",
+       "r": "the arithmetic and logic unit (ALU)",
+       "w": [
+        "the control unit",
+        "the monitor",
+        "the hard disk"
+       ],
+       "e": [
+        "The control unit directs.",
+        "The monitor is an output device.",
+        "The hard disk stores data."
+       ],
+       "y": "The ALU does arithmetic and logic."
+      },
+      {
+       "q": "In what unit is the speed of a processor measured?",
+       "r": "gigahertz (GHz)",
+       "w": [
+        "gigabytes (GB)",
+        "kilograms (kg)",
+        "metres (m)"
+       ],
+       "e": [
+        "GB measures storage.",
+        "kg measures mass.",
+        "m measures length."
+       ],
+       "y": "Clock speed is in GHz."
+      },
+      {
+       "q": "What does the control unit do?",
+       "r": "fetches and decodes instructions and directs the other parts",
+       "w": [
+        "stores files for ever",
+        "prints documents",
+        "shows images"
+       ],
+       "e": [
+        "That is storage.",
+        "That is a printer.",
+        "That is a monitor."
+       ],
+       "y": "The control unit directs the computer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-2-ram",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What happens to the contents of RAM when the power goes off?",
+       "r": "They are lost.",
+       "w": [
+        "They are printed.",
+        "They move to ROM.",
+        "Nothing happens."
+       ],
+       "e": [
+        "Nothing is printed.",
+        "ROM is read only.",
+        "RAM is volatile."
+       ],
+       "y": "RAM is volatile."
+      },
+      {
+       "q": "Which memory holds the start-up instructions?",
+       "r": "ROM",
+       "w": [
+        "RAM",
+        "a flash drive",
+        "the cloud"
+       ],
+       "e": [
+        "RAM is erased at power-off.",
+        "That is removable storage.",
+        "That is online storage."
+       ],
+       "y": "ROM keeps them permanently."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-2-store",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "prompt": "Match each storage to its description.",
+   "pool": [
+    {
+     "left": "RAM",
+     "right": "primary storage, loses data when power is off"
+    },
+    {
+     "left": "ROM",
+     "right": "primary storage, keeps start-up instructions"
+    },
+    {
+     "left": "hard disk drive (HDD)",
+     "right": "secondary storage with spinning disks"
+    },
+    {
+     "left": "solid-state drive (SSD)",
+     "right": "secondary storage with no moving parts"
+    },
+    {
+     "left": "USB flash drive",
+     "right": "small portable secondary storage"
+    },
+    {
+     "left": "cloud storage",
+     "right": "storage on servers reached through the internet"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The CPU is the brain of the computer.",
+      "truth": "true"
+     },
+     {
+      "text": "RAM is volatile.",
+      "truth": "true"
+     },
+     {
+      "text": "An SSD has no moving parts.",
+      "truth": "true"
+     },
+     {
+      "text": "The ALU does calculations.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "RAM keeps data after the power goes off.",
+      "truth": "false",
+      "explain": "RAM loses its data: it is volatile."
+     },
+     {
+      "text": "A USB flash drive is primary memory.",
+      "truth": "false",
+      "explain": "It is secondary storage."
+     },
+     {
+      "text": "The monitor is a storage device.",
+      "truth": "false",
+      "explain": "A monitor is an output device."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

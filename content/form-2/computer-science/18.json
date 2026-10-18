@@ -1,0 +1,266 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-18",
+   "name": "Converting between units of time"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Units of time: 1 minute = 60 seconds; 1 hour = 60 minutes = 3600 seconds; 1 day = 24 hours; 1 week = 7 days.\nTo change a big unit into a smaller one, multiply: 3 h = 3 × 60 = 180 min. To change a small unit into a bigger one, divide: 240 s = 240 ÷ 60 = 4 min.\nComputers also use very small units: a millisecond (ms) is a thousandth of a second (1 s = 1000 ms); a microsecond is a millionth.\nUses: how long a download takes, how long a video lasts, how long a battery works, and the time a program takes to run.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "h": 2,
+   "m": 15,
+   "sixty": 60
+  },
+  "problem": "A download takes {h} h {m} min. How many minutes is that?",
+  "steps": [
+   "Hours to minutes: multiply by {sixty}: {h} × {sixty} = {h * sixty} min.",
+   "Add the minutes: {h * sixty} + {m} = {h * sixty + m} min."
+  ],
+  "answer": "{h * sixty + m} minutes",
+  "checks": [
+   "h * sixty + m == 135"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "One minute is sixty seconds; one hour is sixty minutes.",
+    "vars": {
+     "h": 3,
+     "sixty": 60
+    },
+    "example": [
+     "{h} h = {h} × {sixty} = {h * sixty} min."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-18-convert"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "Big unit to small unit: multiply. Small to big: divide.",
+    "vars": {
+     "s": 240,
+     "sixty": 60
+    },
+    "example": [
+     "{s} s = {s} ÷ {sixty} = {s / sixty} min."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-18-divide"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "A millisecond is a thousandth of a second.",
+    "vars": {
+     "k": 1000
+    },
+    "example": [
+     "1 s = {k} ms."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-18-ms-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "units"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        500,
+        1500,
+        2500,
+        750,
+        4000,
+        250
+       ]
+      },
+      "k": 1000
+     },
+     "prompt": "A program takes {v} milliseconds to run. How many seconds is that?",
+     "answer": "v / 1000",
+     "misconceptions": [
+      {
+       "id": "times",
+       "wrong": "v * 1000",
+       "explain": "Milliseconds to seconds: divide by {k}."
+      }
+     ],
+     "solution": [
+      "1 s = {k} ms, so divide by {k}.",
+      "{v} ÷ {k} = {answer} s."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-18-convert",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "U": {
+     "pick": [
+      [
+       "h",
+       "min"
+      ],
+      [
+       "min",
+       "s"
+      ],
+      [
+       "h",
+       "s"
+      ]
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Convert {v} {U[0]} to {U[1]}.",
+   "answer": "convertUnit(v, U[0], U[1])",
+   "misconceptions": [
+    {
+     "id": "divide",
+     "wrong": "round(v / factor(U[0], U[1]), 3)",
+     "explain": "A big unit to a smaller one: multiply."
+    }
+   ],
+   "solution": [
+    "1 {U[0]} = {factor(U[0], U[1])} {U[1]}.",
+    "{v} × {factor(U[0], U[1])} = {answer} {U[1]}."
+   ]
+  },
+  {
+   "id": "s2-18-divide",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      2,
+      30
+     ]
+    },
+    "v": {
+     "expr": "m * 60"
+    },
+    "sixty": 60
+   },
+   "prompt": "A video lasts {v} seconds. How many minutes is that?",
+   "answer": "v / 60",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "v * 60",
+     "explain": "Seconds to minutes: divide by {sixty}."
+    }
+   ],
+   "solution": [
+    "Divide by {sixty}.",
+    "{v} ÷ {sixty} = {answer} min."
+   ]
+  },
+  {
+   "id": "s2-18-days",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "k": 24
+   },
+   "prompt": "A phone battery lasts {d} days. How many hours is that?",
+   "answer": "d * 24",
+   "misconceptions": [
+    {
+     "id": "sixty",
+     "wrong": "d * 60",
+     "explain": "A day has {k} hours, not 60."
+    }
+   ],
+   "solution": [
+    "One day has {k} hours.",
+    "{d} × {k} = {answer} h."
+   ]
+  },
+  {
+   "id": "s2-18-ms",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "units"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      500,
+      1500,
+      2500,
+      750,
+      4000,
+      250
+     ]
+    },
+    "k": 1000
+   },
+   "prompt": "A program takes {v} milliseconds to run. How many seconds is that?",
+   "answer": "v / 1000",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "v * 1000",
+     "explain": "Milliseconds to seconds: divide by {k}."
+    }
+   ],
+   "solution": [
+    "1 s = {k} ms, so divide by {k}.",
+    "{v} ÷ {k} = {answer} s."
+   ]
+  }
+ ]
+}

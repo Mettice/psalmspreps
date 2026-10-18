@@ -1,0 +1,285 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "s2-16",
+   "name": "Encoding characters"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Characters (letters, digits, punctuation, spaces) are stored as numbers, using a code that both computers agree on.\nASCII (American Standard Code for Information Interchange) gives each character a number from 0 to 127 (7 bits, usually stored in one byte):\n• “A” = 65, “B” = 66, … “Z” = 90;\n• “a” = 97, “b” = 98, … (each small letter is 32 more than its capital);\n• “0” = 48, “1” = 49, … “9” = 57; a space = 32.\nUnicode extends this to every writing system and to emoji (é, ç, Arabic, Chinese, 😀), using up to 4 bytes per character.\nText size: in ASCII each character takes one byte, so “HELLO” takes 5 bytes.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "w": "CAB"
+  },
+  "problem": "Write the ASCII codes of the word {w}.",
+  "steps": [
+   "“A” = {asciiOf('A')}; the capitals follow in order.",
+   "C = {asciiOf('C')}, A = {asciiOf('A')}, B = {asciiOf('B')}."
+  ],
+  "answer": "{asciiOf('C')}, {asciiOf('A')}, {asciiOf('B')}",
+  "checks": [
+   "asciiOf('C') == 67"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "ASCII gives each character a number: “A” is {asciiOf('A')}, “a” is {asciiOf('a')}.",
+    "vars": {},
+    "example": [
+     "“B” is {asciiOf('B')}, “C” is {asciiOf('C')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-16-code"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "A small letter's code is {d} more than its capital's.",
+    "vars": {
+     "d": 32
+    },
+    "example": [
+     "“m” = {asciiOf('M')} + {d} = {asciiOf('m')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-16-small"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "In ASCII each character takes one byte; Unicode covers all languages and emoji.",
+    "vars": {
+     "five": 5
+    },
+    "example": [
+     "“HELLO” takes {five} bytes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-16-size-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "number-systems"
+     ],
+     "vars": {
+      "T": {
+       "pick": [
+        "HELLO",
+        "GOOD DAY",
+        "FORM TWO",
+        "BUEA",
+        "I LOVE MATHS",
+        "CAMEROON"
+       ]
+      }
+     },
+     "prompt": "In ASCII, how many bytes does the text “{T}” take (spaces count too)?",
+     "answer": "len(T)",
+     "misconceptions": [
+      {
+       "id": "bits",
+       "wrong": "len(T) * 8",
+       "explain": "That is in bits; one character is one byte."
+      }
+     ],
+     "solution": [
+      "Each character, including spaces, takes one byte.",
+      "“{T}” has {answer} characters, so {answer} bytes."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-16-code",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "M",
+      "P",
+      "T",
+      "Z"
+     ]
+    }
+   },
+   "prompt": "The ASCII code of “A” is {asciiOf('A')}. What is the ASCII code of “{c}”?",
+   "answer": "asciiOf(c)",
+   "misconceptions": [
+    {
+     "id": "position",
+     "wrong": "asciiOf(c) - 64",
+     "explain": "That is its place in the alphabet; add it to 64."
+    }
+   ],
+   "solution": [
+    "The capitals follow in order from “A” = {asciiOf('A')}.",
+    "“{c}” is {asciiOf(c) - asciiOf('A')} letters after “A”: {asciiOf('A')} + {asciiOf(c) - asciiOf('A')} = {answer}."
+   ]
+  },
+  {
+   "id": "s2-16-small",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "C": {
+     "pick": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "G",
+      "M",
+      "R",
+      "T",
+      "Z"
+     ]
+    },
+    "d": 32
+   },
+   "prompt": "The ASCII code of “{C}” is {asciiOf(C)}. What is the code of the small letter “{lowerAll(C)}”?",
+   "answer": "asciiOf(C) + 32",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "asciiOf(C)",
+     "explain": "Capitals and small letters have different codes."
+    }
+   ],
+   "solution": [
+    "Small letters are {d} more than their capitals.",
+    "{asciiOf(C)} + {d} = {answer}."
+   ]
+  },
+  {
+   "id": "s2-16-char",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      "B",
+      "C",
+      "D",
+      "M",
+      "Y",
+      "b",
+      "d",
+      "m",
+      "y"
+     ]
+    }
+   },
+   "prompt": "Which character has the ASCII code {asciiOf(c)}?",
+   "correct": "{c}",
+   "distractors": [
+    {
+     "text": "{charOf(asciiOf(c) + 1)}",
+     "misconception": "next"
+    },
+    {
+     "text": "{charOf(asciiOf(c) - 1)}",
+     "misconception": "prev"
+    },
+    {
+     "text": "{charOf(asciiOf(c) < 91 ? asciiOf(c) + 32 : asciiOf(c) - 32)}",
+     "misconception": "case"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "next",
+     "explain": "That is code {asciiOf(c) + 1}."
+    },
+    {
+     "id": "prev",
+     "explain": "That is code {asciiOf(c) - 1}."
+    },
+    {
+     "id": "case",
+     "explain": "Capitals and small letters differ by 32."
+    }
+   ],
+   "solution": [
+    "Count from a known code: “A” = {asciiOf('A')}, “a” = {asciiOf('a')}, “{'0'}” = {asciiOf('0')}.",
+    "Code {asciiOf(c)} is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-16-size",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "number-systems"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      "HELLO",
+      "GOOD DAY",
+      "FORM TWO",
+      "BUEA",
+      "I LOVE MATHS",
+      "CAMEROON"
+     ]
+    }
+   },
+   "prompt": "In ASCII, how many bytes does the text “{T}” take (spaces count too)?",
+   "answer": "len(T)",
+   "misconceptions": [
+    {
+     "id": "bits",
+     "wrong": "len(T) * 8",
+     "explain": "That is in bits; one character is one byte."
+    }
+   ],
+   "solution": [
+    "Each character, including spaces, takes one byte.",
+    "“{T}” has {answer} characters, so {answer} bytes."
+   ]
+  }
+ ]
+}

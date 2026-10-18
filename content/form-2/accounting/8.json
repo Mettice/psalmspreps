@@ -1,0 +1,370 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "a2-8",
+   "name": "Recording transactions: how balance sheet accounts work"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Recording transactions in accounts lets the business know at any time how much it has in each item.\nBalance sheet accounts follow their side of the balance sheet:\n• Asset accounts (left side of the balance sheet): an increase is debited, a decrease is credited. Their opening balance is a debit.\n• Capital and liability accounts (right side): an increase is credited, a decrease is debited. Their opening balance is a credit.\nExamples: cash received → debit Cash; cash paid → credit Cash. A loan received → credit Bank loan; part of the loan repaid → debit Bank loan.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1000000
+  },
+  "problem": "Record: the business borrows {a} FCFA from the bank, paid into its bank account.",
+  "steps": [
+   "Bank (an asset) increases: debit Bank {a}.",
+   "Bank loan (a liability) increases: credit Bank loan {a}."
+  ],
+  "answer": "Debit Bank; credit Bank loan.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "Asset accounts: increase on the debit side, decrease on the credit side.",
+    "vars": {},
+    "example": [
+     "Cash received: debit Cash."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-8-asset"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "Capital and liability accounts: increase on the credit side, decrease on the debit side.",
+    "vars": {},
+    "example": [
+     "Loan received: credit Bank loan."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-8-liab"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Each account follows its side of the balance sheet.",
+    "vars": {},
+    "example": [
+     "Assets: left. Capital and liabilities: right."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-8-sort-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "recording"
+     ],
+     "prompt": "Sort the accounts: asset, or capital/liability?",
+     "pool": [
+      {
+       "left": "Cash",
+       "right": "asset"
+      },
+      {
+       "left": "Bank",
+       "right": "asset"
+      },
+      {
+       "left": "Equipment",
+       "right": "asset"
+      },
+      {
+       "left": "Stock",
+       "right": "asset"
+      },
+      {
+       "left": "Debtors",
+       "right": "asset"
+      },
+      {
+       "left": "Capital",
+       "right": "capital or liability"
+      },
+      {
+       "left": "Bank loan",
+       "right": "capital or liability"
+      },
+      {
+       "left": "Creditors",
+       "right": "capital or liability"
+      }
+     ],
+     "pick": 5,
+     "groups": true,
+     "group_order": [
+      "asset",
+      "capital or liability"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-8-asset",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Cash",
+       "asset"
+      ],
+      [
+       "Equipment",
+       "asset"
+      ],
+      [
+       "Stock",
+       "asset"
+      ],
+      [
+       "Bank",
+       "asset"
+      ],
+      [
+       "Capital",
+       "other"
+      ],
+      [
+       "Bank loan",
+       "other"
+      ],
+      [
+       "Creditors",
+       "other"
+      ]
+     ]
+    }
+   },
+   "prompt": "{X[0]} increases. On which side of its account is the increase recorded?",
+   "correct": "{X[1] == 'asset' ? 'debit' : 'credit'}",
+   "distractors": [
+    {
+     "text": "{X[1] == 'asset' ? 'credit' : 'debit'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Assets increase on the debit side; capital and liabilities increase on the credit side."
+    }
+   ],
+   "solution": [
+    "{X[0]} is {X[1] == 'asset' ? 'an asset: increases are debited' : 'a capital or liability account: increases are credited'}.",
+    "So the answer is {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "a2-8-liab",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Cash",
+       "asset"
+      ],
+      [
+       "Bank",
+       "asset"
+      ],
+      [
+       "Debtors",
+       "asset"
+      ],
+      [
+       "Bank loan",
+       "other"
+      ],
+      [
+       "Creditors",
+       "other"
+      ]
+     ]
+    }
+   },
+   "prompt": "{X[0]} decreases. On which side of its account is the decrease recorded?",
+   "correct": "{X[1] == 'asset' ? 'credit' : 'debit'}",
+   "distractors": [
+    {
+     "text": "{X[1] == 'asset' ? 'debit' : 'credit'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Assets decrease on the credit side; capital and liabilities decrease on the debit side."
+    }
+   ],
+   "solution": [
+    "{X[0]} is {X[1] == 'asset' ? 'an asset: decreases are credited' : 'a capital or liability account: decreases are debited'}.",
+    "So the answer is {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "a2-8-sort",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "prompt": "Sort the accounts: asset, or capital/liability?",
+   "pool": [
+    {
+     "left": "Cash",
+     "right": "asset"
+    },
+    {
+     "left": "Bank",
+     "right": "asset"
+    },
+    {
+     "left": "Equipment",
+     "right": "asset"
+    },
+    {
+     "left": "Stock",
+     "right": "asset"
+    },
+    {
+     "left": "Debtors",
+     "right": "asset"
+    },
+    {
+     "left": "Capital",
+     "right": "capital or liability"
+    },
+    {
+     "left": "Bank loan",
+     "right": "capital or liability"
+    },
+    {
+     "left": "Creditors",
+     "right": "capital or liability"
+    }
+   ],
+   "pick": 5,
+   "groups": true,
+   "group_order": [
+    "asset",
+    "capital or liability"
+   ]
+  },
+  {
+   "id": "a2-8-record",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A creditor is paid 80 000 FCFA in cash. Which entries are made?",
+       "r": "debit Creditors, credit Cash",
+       "w": [
+        "debit Cash, credit Creditors",
+        "credit both",
+        "debit both"
+       ],
+       "e": [
+        "Cash decreases (credit); the debt decreases (debit).",
+        "One debit, one credit.",
+        "One debit, one credit."
+       ],
+       "y": "The debt falls (debit) and cash falls (credit)."
+      },
+      {
+       "q": "The owner brings 500 000 FCFA in cash. Which entries are made?",
+       "r": "debit Cash, credit Capital",
+       "w": [
+        "debit Capital, credit Cash",
+        "debit Cash, credit Creditors",
+        "credit Cash, credit Capital"
+       ],
+       "e": [
+        "Cash increases (debit), capital increases (credit).",
+        "It is the owner, not a supplier.",
+        "One debit, one credit."
+       ],
+       "y": "An asset and capital both increase."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

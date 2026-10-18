@@ -1,0 +1,372 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "a2-1",
+   "name": "The financial position of a business: definition and evaluation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The financial position (financial situation) of a business is the state of what it owns and what it owes at a given date.\n• What it owns: its resources, called assets (premises, equipment, vehicles, goods, money owed by customers, cash and bank).\n• What it owes: to outsiders (liabilities, such as loans and unpaid suppliers) and to the owner (capital, or owner's equity).\nEvaluating the financial position means listing each asset and each debt and giving it a value in money (FCFA) at that date.\nThe financial position changes every time the business makes a transaction, so it is always stated on a particular date: “as at 31 December 2026”.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": 1200000,
+   "e": 800000,
+   "c": 300000,
+   "l": 500000
+  },
+  "problem": "Mme Ekwe's shop has goods worth {s} FCFA, equipment worth {e} FCFA and cash of {c} FCFA. She owes the bank {l} FCFA. Evaluate what she owns and what she owes.",
+  "steps": [
+   "What she owns (assets): {s} + {e} + {c} = {s + e + c} FCFA.",
+   "What she owes outsiders (liabilities): {l} FCFA.",
+   "The rest belongs to her (capital): {s + e + c} − {l} = {s + e + c - l} FCFA."
+  ],
+  "answer": "Owns {s + e + c} FCFA; owes {l} FCFA; capital {s + e + c - l} FCFA.",
+  "checks": [
+   "s + e + c - l == 1800000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "The financial position is what a business owns and what it owes, on a given date.",
+    "vars": {},
+    "example": [
+     "Owns: assets. Owes: liabilities and capital."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-1-own"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "Evaluating means giving each item a value in money (FCFA).",
+    "vars": {
+     "e": 450000
+    },
+    "example": [
+     "Equipment: {e} FCFA."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-1-value"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "The financial position is always stated at a particular date, because it changes with every transaction.",
+    "vars": {
+     "d": 31
+    },
+    "example": [
+     "“As at {d} December”."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-1-date-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "financial-position"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is the financial position always given at a particular date?",
+         "r": "It changes with every transaction.",
+         "w": [
+          "It never changes.",
+          "The law forbids dates.",
+          "Only the year matters."
+         ],
+         "e": [
+          "It changes all the time.",
+          "The date is required.",
+          "The exact date matters."
+         ],
+         "y": "Each sale or purchase changes it."
+        },
+        {
+         "q": "What does evaluating the financial position mean?",
+         "r": "listing what is owned and owed and giving each a money value",
+         "w": [
+          "counting the customers",
+          "painting the shop",
+          "choosing a new name"
+         ],
+         "e": [
+          "That is not evaluation.",
+          "That is not evaluation.",
+          "That is not evaluation."
+         ],
+         "y": "Each item gets a value in FCFA."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-1-own",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "prompt": "Sort the items: does the business own it, or owe it?",
+   "pool": [
+    {
+     "left": "delivery van",
+     "right": "owns"
+    },
+    {
+     "left": "stock of goods",
+     "right": "owns"
+    },
+    {
+     "left": "cash in hand",
+     "right": "owns"
+    },
+    {
+     "left": "money owed by customers",
+     "right": "owns"
+    },
+    {
+     "left": "bank loan",
+     "right": "owes"
+    },
+    {
+     "left": "money owed to suppliers",
+     "right": "owes"
+    },
+    {
+     "left": "unpaid electricity bill",
+     "right": "owes"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "owns",
+    "owes"
+   ]
+  },
+  {
+   "id": "a2-1-value",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1000000,
+      5000000
+     ],
+     "step": 50000
+    },
+    "g": {
+     "int": [
+      100000,
+      1000000
+     ],
+     "step": 50000
+    },
+    "c": {
+     "int": [
+      50000,
+      500000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "A business has premises worth {p} FCFA, goods worth {g} FCFA and cash of {c} FCFA. What is the total value of what it owns?",
+   "answer": "p + g + c",
+   "misconceptions": [
+    {
+     "id": "two",
+     "wrong": "p + g",
+     "explain": "Add the cash too."
+    }
+   ],
+   "solution": [
+    "Add the values of everything it owns.",
+    "{p} + {g} + {c} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-1-date",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is the financial position always given at a particular date?",
+       "r": "It changes with every transaction.",
+       "w": [
+        "It never changes.",
+        "The law forbids dates.",
+        "Only the year matters."
+       ],
+       "e": [
+        "It changes all the time.",
+        "The date is required.",
+        "The exact date matters."
+       ],
+       "y": "Each sale or purchase changes it."
+      },
+      {
+       "q": "What does evaluating the financial position mean?",
+       "r": "listing what is owned and owed and giving each a money value",
+       "w": [
+        "counting the customers",
+        "painting the shop",
+        "choosing a new name"
+       ],
+       "e": [
+        "That is not evaluation.",
+        "That is not evaluation.",
+        "That is not evaluation."
+       ],
+       "y": "Each item gets a value in FCFA."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-1-capital",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2000000,
+      9000000
+     ],
+     "step": 50000
+    },
+    "l": {
+     "int": [
+      200000,
+      1500000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "A business owns items worth {a} FCFA in total and owes outsiders {l} FCFA. How much belongs to the owner?",
+   "answer": "a - l",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "a + l",
+     "explain": "Subtract what is owed to outsiders."
+    }
+   ],
+   "solution": [
+    "What belongs to the owner is what is owned minus what is owed to outsiders.",
+    "{a} − {l} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

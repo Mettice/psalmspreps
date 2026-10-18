@@ -1,0 +1,404 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  8,
+  10
+ ],
+ "skills": [
+  {
+   "id": "a2-11",
+   "name": "Single entry and double entry"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Single entry: each transaction is recorded only once, usually in a cash book. It is simple, but incomplete: it does not show all assets and debts and makes errors hard to find.\nDouble entry: every transaction affects at least two accounts; it is recorded on the debit side of one account and on the credit side of another, for the same amount.\n“For every debit there is a corresponding credit.” So, at any time, total debits = total credits in the whole ledger.\nExamples:\n• Cash sale of 60 000: debit Cash 60 000, credit Sales 60 000.\n• Equipment bought by cheque for 400 000: debit Equipment 400 000, credit Bank 400 000.\nDouble entry is the system used by OHADA accounting and by businesses everywhere.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 250000
+  },
+  "problem": "Record by double entry: goods bought on credit from Fon Traders for {a} FCFA.",
+  "steps": [
+   "Purchases (goods received) is debited {a}.",
+   "Fon Traders, a creditor, is credited {a}.",
+   "Total debit = total credit = {a}."
+  ],
+  "answer": "Debit Purchases {a}; credit Fon Traders {a}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "Single entry records each transaction once; it is simple but incomplete.",
+    "vars": {},
+    "example": [
+     "Often a cash book only."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-11-kind"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Double entry: every debit has an equal credit in another account.",
+    "vars": {},
+    "example": [
+     "Cash sale: debit Cash, credit Sales."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-11-pair"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "In double entry, total debits always equal total credits.",
+    "vars": {},
+    "example": [
+     "This helps find errors."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-11-total-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "recording"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "In double entry, what is always true for the whole ledger?",
+         "r": "total debits = total credits",
+         "w": [
+          "debits are always bigger",
+          "credits are always bigger",
+          "there are no credits"
+         ],
+         "e": [
+          "They are equal.",
+          "They are equal.",
+          "Credits are needed."
+         ],
+         "y": "Each debit has an equal credit."
+        },
+        {
+         "q": "Equipment is bought by cheque for 400 000 FCFA. Which account is credited?",
+         "r": "Bank",
+         "w": [
+          "Equipment",
+          "Capital",
+          "Sales"
+         ],
+         "e": [
+          "Equipment is debited.",
+          "Not involved.",
+          "Not involved."
+         ],
+         "y": "Money leaves the bank: credit Bank."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-11-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is double entry?",
+       "r": "recording each transaction as a debit in one account and an equal credit in another",
+       "w": [
+        "recording each transaction twice in the same account",
+        "recording only cash",
+        "writing in two colours"
+       ],
+       "e": [
+        "Two different accounts.",
+        "All transactions.",
+        "Colour does not matter."
+       ],
+       "y": "Every debit has a matching credit."
+      },
+      {
+       "q": "What is a weakness of single entry?",
+       "r": "It is incomplete and errors are hard to find.",
+       "w": [
+        "It is too complicated.",
+        "It records everything twice.",
+        "It needs a computer."
+       ],
+       "e": [
+        "It is simple.",
+        "That is double entry.",
+        "It does not."
+       ],
+       "y": "Single entry gives an incomplete picture."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-11-pair",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "prompt": "A cash sale of 60 000 FCFA. Which double entry is correct?",
+   "pool": {
+    "right": [
+     {
+      "text": "debit Cash 60 000, credit Sales 60 000",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "debit Sales 60 000, credit Cash 60 000",
+      "truth": "false",
+      "explain": "Cash receives (debit); Sales is the revenue (credit)."
+     },
+     {
+      "text": "debit Cash 60 000 only",
+      "truth": "false",
+      "explain": "Double entry needs a credit too."
+     },
+     {
+      "text": "credit Cash 60 000, credit Sales 60 000",
+      "truth": "false",
+      "explain": "One debit and one credit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "a2-11-total",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In double entry, what is always true for the whole ledger?",
+       "r": "total debits = total credits",
+       "w": [
+        "debits are always bigger",
+        "credits are always bigger",
+        "there are no credits"
+       ],
+       "e": [
+        "They are equal.",
+        "They are equal.",
+        "Credits are needed."
+       ],
+       "y": "Each debit has an equal credit."
+      },
+      {
+       "q": "Equipment is bought by cheque for 400 000 FCFA. Which account is credited?",
+       "r": "Bank",
+       "w": [
+        "Equipment",
+        "Capital",
+        "Sales"
+       ],
+       "e": [
+        "Equipment is debited.",
+        "Not involved.",
+        "Not involved."
+       ],
+       "y": "Money leaves the bank: credit Bank."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "prompt": "Which double entry is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Owner brings cash: debit Cash, credit Capital.",
+      "truth": "true"
+     },
+     {
+      "text": "Rent paid in cash: debit Rent, credit Cash.",
+      "truth": "true"
+     },
+     {
+      "text": "Goods bought on credit: debit Purchases, credit Creditors.",
+      "truth": "true"
+     },
+     {
+      "text": "Cash sale: debit Cash, credit Sales.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Salaries paid in cash: debit Cash, credit Salaries.",
+      "truth": "false",
+      "explain": "Debit Salaries (expense), credit Cash."
+     },
+     {
+      "text": "Loan received in the bank: debit Bank loan, credit Bank.",
+      "truth": "false",
+      "explain": "Debit Bank, credit Bank loan."
+     },
+     {
+      "text": "Customer pays a debt by cheque: debit Debtors, credit Bank.",
+      "truth": "false",
+      "explain": "Debit Bank, credit Debtors."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

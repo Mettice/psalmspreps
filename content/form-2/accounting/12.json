@@ -1,0 +1,352 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "a2-12",
+   "name": "The trial balance and the reciprocity of accounts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Reciprocity of accounts: because of double entry, every transaction appears in two accounts: as a debit in one and as a credit in the other, for the same amount, each entry naming the other account. The Cash account shows “Sales” on its debit side, and the Sales account shows “Cash” on its credit side.\nThe trial balance is a list of all the account balances on a given date, debit balances in one column and credit balances in another.\nIf double entry has been done correctly, the two columns have the same total.\nUses: it checks the arithmetic of the ledger and helps to prepare the balance sheet and the result.\nLimits: it can agree even with some errors (an entry left out completely, or put in the wrong account on the right side).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 400000,
+   "b": 1100000,
+   "e": 900000,
+   "k": 2000000,
+   "s": 600000,
+   "r": 200000
+  },
+  "problem": "Balances: Cash {c} Dr, Bank {b} Dr, Equipment {e} Dr, Rent {r} Dr, Capital {k} Cr, Sales {s} Cr. Does the trial balance agree?",
+  "steps": [
+   "Debit column: {c} + {b} + {e} + {r} = {c + b + e + r}.",
+   "Credit column: {k} + {s} = {k + s}.",
+   "{c + b + e + r} {c + b + e + r == k + s ? '=' : '≠'} {k + s}: {c + b + e + r == k + s ? 'it agrees' : 'it does not agree'}."
+  ],
+  "answer": "{c + b + e + r == k + s ? 'Yes' : 'No'}: both totals are {k + s} FCFA.",
+  "checks": [
+   "c + b + e + r == k + s"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "Reciprocity: each transaction appears in two accounts, as a debit in one and a credit in the other.",
+    "vars": {},
+    "example": [
+     "Cash Dr “Sales”; Sales Cr “Cash”."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-12-recip"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "The trial balance lists all balances: debits in one column, credits in the other.",
+    "vars": {},
+    "example": [
+     "The two totals should be equal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-12-total"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "A trial balance can agree even with some errors.",
+    "vars": {},
+    "example": [
+     "An entry left out completely is not found."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-12-limit-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "recording"
+     ],
+     "prompt": "Which statement is wrong?",
+     "pool": {
+      "right": [
+       {
+        "text": "A trial balance lists all account balances.",
+        "truth": "true"
+       },
+       {
+        "text": "Its two totals should be equal.",
+        "truth": "true"
+       },
+       {
+        "text": "It helps prepare the balance sheet.",
+        "truth": "true"
+       },
+       {
+        "text": "Reciprocity comes from double entry.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "If a trial balance agrees, there can be no errors at all.",
+        "truth": "false",
+        "explain": "Some errors, such as an entry left out completely, are not shown."
+       },
+       {
+        "text": "A trial balance lists only cash.",
+        "truth": "false",
+        "explain": "It lists all balances."
+       },
+       {
+        "text": "Debit and credit columns are never equal.",
+        "truth": "false",
+        "explain": "They are equal when double entry is correct."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-12-recip",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Cash of 50 000 is received from Sales. What appears in the Sales account?",
+       "r": "“Cash 50 000” on the credit side",
+       "w": [
+        "“Sales 50 000” on the debit side",
+        "nothing",
+        "“Capital” on the debit side"
+       ],
+       "e": [
+        "Each entry names the other account.",
+        "Every transaction appears twice.",
+        "Capital is not involved."
+       ],
+       "y": "The Sales account is credited, naming Cash."
+      },
+      {
+       "q": "What is the reciprocity of accounts?",
+       "r": "each transaction appears as a debit in one account and a credit in another",
+       "w": [
+        "each account has a twin with the same name",
+        "accounts are opened in pairs",
+        "debit and credit are the same"
+       ],
+       "e": [
+        "Not that.",
+        "Not that.",
+        "They are opposite sides."
+       ],
+       "y": "Double entry makes accounts mirror each other."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-12-total",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      100000,
+      900000
+     ],
+     "step": 50000
+    },
+    "b": {
+     "int": [
+      100000,
+      900000
+     ],
+     "step": 50000
+    },
+    "c": {
+     "int": [
+      100000,
+      900000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "A trial balance has debit balances of {a}, {b} and {c} FCFA. What is the total of the debit column?",
+   "answer": "a + b + c",
+   "solution": [
+    "Add all the debit balances.",
+    "{a} + {b} + {c} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-12-missing",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1000000,
+      3000000
+     ],
+     "step": 50000
+    },
+    "s": {
+     "int": [
+      200000,
+      900000
+     ],
+     "step": 50000
+    },
+    "x": {
+     "int": [
+      50000,
+      400000
+     ],
+     "step": 50000
+    },
+    "d": {
+     "expr": "k + s + x"
+    }
+   },
+   "prompt": "A trial balance: debit column total {d} FCFA. Credit balances: Capital {k}, Sales {s} and Creditors (missing). If it agrees, what is the Creditors balance?",
+   "answer": "d - k - s",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "d + k + s",
+     "explain": "Subtract the known credits from the total."
+    }
+   ],
+   "solution": [
+    "The two columns must have the same total: {d}.",
+    "Creditors = {d} − {k} − {s} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-12-limit",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A trial balance lists all account balances.",
+      "truth": "true"
+     },
+     {
+      "text": "Its two totals should be equal.",
+      "truth": "true"
+     },
+     {
+      "text": "It helps prepare the balance sheet.",
+      "truth": "true"
+     },
+     {
+      "text": "Reciprocity comes from double entry.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "If a trial balance agrees, there can be no errors at all.",
+      "truth": "false",
+      "explain": "Some errors, such as an entry left out completely, are not shown."
+     },
+     {
+      "text": "A trial balance lists only cash.",
+      "truth": "false",
+      "explain": "It lists all balances."
+     },
+     {
+      "text": "Debit and credit columns are never equal.",
+      "truth": "false",
+      "explain": "They are equal when double entry is correct."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

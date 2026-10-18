@@ -1,0 +1,348 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-4",
+   "name": "Introduction to Artificial Intelligence"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Artificial Intelligence (AI) is the ability of computer systems to do tasks that normally need human intelligence: recognising speech and images, understanding and translating language, making predictions and decisions.\nMany AI systems use machine learning: instead of being given every rule, they learn patterns from large amounts of data (for example, many labelled photos of cassava leaves to recognise disease).\nExamples you may meet: voice assistants, chatbots that answer questions, translation apps, face unlock on phones, spam filters in email, map apps that choose a route, recommendations on video sites.\nAI is a tool made by people. It can be very useful, but it can also make mistakes.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "a phone that unlocks when it sees its owner's face"
+  },
+  "problem": "Explain how {a} uses AI.",
+  "steps": [
+   "The task, recognising a face, normally needs human intelligence.",
+   "The system has learned patterns from many face images (machine learning) and compares the camera image with the owner's face."
+  ],
+  "answer": "It recognises a face using patterns learned from data.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "AI lets computers do tasks that need human intelligence: seeing, listening, understanding language, predicting.",
+    "vars": {},
+    "example": [
+     "A translation app turns English into French."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-4-what"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Machine learning: the system learns patterns from lots of data instead of being given every rule.",
+    "vars": {},
+    "example": [
+     "Many labelled photos teach it to recognise leaves."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-4-learn"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "AI is everywhere: voice assistants, chatbots, face unlock, spam filters, map routes.",
+    "vars": {},
+    "example": [
+     "AI can be useful but can make mistakes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-4-example-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "artificial-intelligence"
+     ],
+     "prompt": "Match each AI application to what it does.",
+     "pool": [
+      {
+       "left": "spam filter",
+       "right": "moves junk emails out of the inbox"
+      },
+      {
+       "left": "face unlock",
+       "right": "recognises the owner's face"
+      },
+      {
+       "left": "map app",
+       "right": "chooses the fastest route"
+      },
+      {
+       "left": "chatbot",
+       "right": "answers questions in conversation"
+      },
+      {
+       "left": "translation app",
+       "right": "changes text from one language to another"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-4-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is artificial intelligence?",
+       "r": "computer systems doing tasks that normally need human intelligence",
+       "w": [
+        "a very fast keyboard",
+        "a type of printer",
+        "any machine with a battery"
+       ],
+       "e": [
+        "A keyboard is an input device.",
+        "A printer is an output device.",
+        "Batteries have nothing to do with it."
+       ],
+       "y": "AI imitates intelligent tasks like seeing and understanding."
+      },
+      {
+       "q": "Which of these uses AI?",
+       "r": "an app that translates spoken English into French",
+       "w": [
+        "a simple calculator adding two numbers",
+        "a light switch",
+        "a pencil"
+       ],
+       "e": [
+        "A calculator follows fixed rules, not AI.",
+        "A switch is not AI.",
+        "A pencil is not a computer."
+       ],
+       "y": "Understanding and translating speech needs AI."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-4-learn",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does machine learning work?",
+       "r": "The system learns patterns from lots of data.",
+       "w": [
+        "A person types every possible answer.",
+        "It guesses with no data.",
+        "It copies the internet word for word."
+       ],
+       "e": [
+        "It learns rules from data.",
+        "It needs data.",
+        "It learns patterns."
+       ],
+       "y": "Data teaches the system patterns."
+      },
+      {
+       "q": "To teach an AI to recognise sick cassava leaves, what is needed?",
+       "r": "many photos of healthy and sick leaves, labelled",
+       "w": [
+        "one photo",
+        "a loud speaker",
+        "a fast car"
+       ],
+       "e": [
+        "One photo is not enough.",
+        "That does not help.",
+        "That does not help."
+       ],
+       "y": "Many labelled examples train the system."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-4-example",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Match each AI application to what it does.",
+   "pool": [
+    {
+     "left": "spam filter",
+     "right": "moves junk emails out of the inbox"
+    },
+    {
+     "left": "face unlock",
+     "right": "recognises the owner's face"
+    },
+    {
+     "left": "map app",
+     "right": "chooses the fastest route"
+    },
+    {
+     "left": "chatbot",
+     "right": "answers questions in conversation"
+    },
+    {
+     "left": "translation app",
+     "right": "changes text from one language to another"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "AI can recognise speech.",
+      "truth": "true"
+     },
+     {
+      "text": "Machine learning uses data.",
+      "truth": "true"
+     },
+     {
+      "text": "A spam filter can use AI.",
+      "truth": "true"
+     },
+     {
+      "text": "AI can make mistakes.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "AI never makes mistakes.",
+      "truth": "false",
+      "explain": "AI can make mistakes; its results should be checked."
+     },
+     {
+      "text": "AI systems are not made by people.",
+      "truth": "false",
+      "explain": "People design and train AI systems."
+     },
+     {
+      "text": "Machine learning needs no data.",
+      "truth": "false",
+      "explain": "It learns from data."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

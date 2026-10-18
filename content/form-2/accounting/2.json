@@ -1,0 +1,348 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "a2-2",
+   "name": "Presenting the financial position: the balance sheet"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The balance sheet is a table showing the financial position on a given date. It has two sides:\n• Assets (left side): what the business owns. Fixed assets, kept for a long time (land, buildings, equipment, vehicles), come first; then current assets, which change quickly (stock, debtors, bank, cash).\n• Liabilities and owner's equity (right side): where the money came from. Owner's equity (capital) first; then debts: long-term (bank loans) and short-term (creditors).\nThe two totals are always equal: that is why it is called a balance sheet.\nHeading: the name of the business, “Balance sheet as at …” (the date). Amounts in FCFA.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": 2000000,
+   "s": 600000,
+   "c": 400000,
+   "k": 2500000,
+   "l": 500000
+  },
+  "problem": "Present a simple balance sheet: equipment {f}, stock {s}, cash {c}, capital {k}, bank loan {l} (FCFA).",
+  "steps": [
+   "Assets: equipment {f} + stock {s} + cash {c} = {f + s + c}.",
+   "Liabilities and equity: capital {k} + bank loan {l} = {k + l}.",
+   "Both totals are {f + s + c}: the balance sheet balances."
+  ],
+  "answer": "Assets {f + s + c} = Capital and liabilities {k + l} FCFA",
+  "checks": [
+   "f + s + c == k + l"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "The balance sheet has assets on one side and capital plus liabilities on the other.",
+    "vars": {},
+    "example": [
+     "Assets: what is owned.",
+     "Capital and liabilities: where the money came from."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-2-side"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Fixed assets come before current assets; capital before debts.",
+    "vars": {},
+    "example": [
+     "Fixed: buildings, equipment. Current: stock, cash."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-2-order"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "The two totals are always equal.",
+    "vars": {},
+    "example": [
+     "That is why it is called a balance sheet."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-2-total-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "financial-position"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        1000000,
+        6000000
+       ],
+       "step": 50000
+      },
+      "s": {
+       "int": [
+        100000,
+        900000
+       ],
+       "step": 50000
+      },
+      "c": {
+       "int": [
+        50000,
+        400000
+       ],
+       "step": 50000
+      }
+     },
+     "prompt": "A balance sheet shows: buildings {b}, stock {s}, cash {c} (all FCFA). What is the total of the assets side?",
+     "answer": "b + s + c",
+     "solution": [
+      "Add all the assets.",
+      "{b} + {s} + {c} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-2-side",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "prompt": "On which side of the balance sheet does each item go?",
+   "pool": [
+    {
+     "left": "land and buildings",
+     "right": "assets side"
+    },
+    {
+     "left": "equipment",
+     "right": "assets side"
+    },
+    {
+     "left": "delivery van",
+     "right": "assets side"
+    },
+    {
+     "left": "stock of goods",
+     "right": "assets side"
+    },
+    {
+     "left": "debtors (customers who owe)",
+     "right": "assets side"
+    },
+    {
+     "left": "cash in hand",
+     "right": "assets side"
+    },
+    {
+     "left": "money in the bank",
+     "right": "assets side"
+    },
+    {
+     "left": "bank loan",
+     "right": "capital and liabilities side"
+    },
+    {
+     "left": "creditors (suppliers to be paid)",
+     "right": "capital and liabilities side"
+    },
+    {
+     "left": "capital",
+     "right": "capital and liabilities side"
+    }
+   ],
+   "pick": 5,
+   "groups": true,
+   "group_order": [
+    "assets side",
+    "capital and liabilities side"
+   ]
+  },
+  {
+   "id": "a2-2-order",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "prompt": "Sort the assets: fixed or current?",
+   "pool": [
+    {
+     "left": "land",
+     "right": "fixed"
+    },
+    {
+     "left": "buildings",
+     "right": "fixed"
+    },
+    {
+     "left": "equipment",
+     "right": "fixed"
+    },
+    {
+     "left": "vehicles",
+     "right": "fixed"
+    },
+    {
+     "left": "stock",
+     "right": "current"
+    },
+    {
+     "left": "debtors",
+     "right": "current"
+    },
+    {
+     "left": "bank",
+     "right": "current"
+    },
+    {
+     "left": "cash",
+     "right": "current"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "fixed",
+    "current"
+   ]
+  },
+  {
+   "id": "a2-2-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      1000000,
+      6000000
+     ],
+     "step": 50000
+    },
+    "s": {
+     "int": [
+      100000,
+      900000
+     ],
+     "step": 50000
+    },
+    "c": {
+     "int": [
+      50000,
+      400000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "A balance sheet shows: buildings {b}, stock {s}, cash {c} (all FCFA). What is the total of the assets side?",
+   "answer": "b + s + c",
+   "solution": [
+    "Add all the assets.",
+    "{b} + {s} + {c} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-2-head",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What must the heading of a balance sheet contain?",
+       "r": "the name of the business and the date",
+       "w": [
+        "only the owner's age",
+        "the weather",
+        "the customers' names"
+       ],
+       "e": [
+        "That is not needed.",
+        "That is not needed.",
+        "That is not needed."
+       ],
+       "y": "“X Ltd, balance sheet as at 31 December 2026”."
+      },
+      {
+       "q": "Why must the two sides of a balance sheet be equal?",
+       "r": "Everything owned was financed by the owner or by debts.",
+       "w": [
+        "It is a coincidence.",
+        "To look nice.",
+        "Because the owner chooses it."
+       ],
+       "e": [
+        "It is always true.",
+        "It follows from the equation.",
+        "It is a rule of accounting."
+       ],
+       "y": "Assets = capital + liabilities."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

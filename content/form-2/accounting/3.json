@@ -1,0 +1,372 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "a2-3",
+   "name": "Assets, liabilities and owner's equity"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Assets are the resources owned by the business that have money value: land, buildings, equipment, furniture, vehicles, stock of goods, debtors (customers who owe money), bank and cash.\n• Liabilities are the debts of the business to outsiders: bank loans, creditors (suppliers not yet paid), unpaid bills.\n• Owner's equity (capital) is the owner's share in the business: what the owner put in, plus profits kept in the business, minus what the owner has taken out (drawings).\nDebtors are assets (they will pay the business); creditors are liabilities (the business will pay them). Do not mix them up!",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": "debtors",
+   "c": "creditors"
+  },
+  "problem": "Explain the difference between {d} and {c}.",
+  "steps": [
+   "{d}: customers who owe the business money; they will pay it, so they are an asset.",
+   "{c}: suppliers to whom the business owes money; the business must pay them, so they are a liability."
+  ],
+  "answer": "{d} = asset (they owe us); {c} = liability (we owe them).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "Assets are resources owned: buildings, equipment, stock, debtors, bank, cash.",
+    "vars": {},
+    "example": [
+     "A delivery van is an asset."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-3-kind"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "Liabilities are debts to outsiders: loans and creditors.",
+    "vars": {},
+    "example": [
+     "An unpaid supplier is a creditor."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-3-debt"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "Owner's equity (capital) is the owner's share: what was put in, plus profits, minus drawings.",
+    "vars": {},
+    "example": [
+     "Capital is owed to the owner."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-3-equity-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "financial-position"
+     ],
+     "vars": {
+      "i": {
+       "int": [
+        1000000,
+        5000000
+       ],
+       "step": 50000
+      },
+      "p": {
+       "int": [
+        100000,
+        1000000
+       ],
+       "step": 50000
+      },
+      "d": {
+       "int": [
+        50000,
+        400000
+       ],
+       "step": 50000
+      }
+     },
+     "prompt": "The owner put in {i} FCFA. The business made a profit of {p} FCFA and the owner took out {d} FCFA. What is the owner's equity now?",
+     "answer": "i + p - d",
+     "misconceptions": [
+      {
+       "id": "plus",
+       "wrong": "i + p + d",
+       "explain": "Drawings reduce the owner's equity: subtract them."
+      }
+     ],
+     "solution": [
+      "Owner's equity = capital put in + profit − drawings.",
+      "{i} + {p} − {d} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-3-kind",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "prompt": "Classify each item.",
+   "pool": [
+    {
+     "left": "land and buildings",
+     "right": "asset"
+    },
+    {
+     "left": "equipment",
+     "right": "asset"
+    },
+    {
+     "left": "delivery van",
+     "right": "asset"
+    },
+    {
+     "left": "stock of goods",
+     "right": "asset"
+    },
+    {
+     "left": "debtors (customers who owe)",
+     "right": "asset"
+    },
+    {
+     "left": "cash in hand",
+     "right": "asset"
+    },
+    {
+     "left": "money in the bank",
+     "right": "asset"
+    },
+    {
+     "left": "bank loan",
+     "right": "liability"
+    },
+    {
+     "left": "creditors (suppliers to be paid)",
+     "right": "liability"
+    },
+    {
+     "left": "capital",
+     "right": "owner's equity"
+    }
+   ],
+   "pick": 5,
+   "groups": true,
+   "group_order": [
+    "asset",
+    "liability",
+    "owner's equity"
+   ]
+  },
+  {
+   "id": "a2-3-debt",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Are debtors an asset or a liability?",
+       "r": "an asset",
+       "w": [
+        "a liability",
+        "owner's equity",
+        "neither"
+       ],
+       "e": [
+        "Debtors owe the business money.",
+        "Capital is the owner's share.",
+        "They are an asset."
+       ],
+       "y": "Debtors will pay the business."
+      },
+      {
+       "q": "Are creditors an asset or a liability?",
+       "r": "a liability",
+       "w": [
+        "an asset",
+        "owner's equity",
+        "neither"
+       ],
+       "e": [
+        "The business owes them.",
+        "Capital is the owner's share.",
+        "They are a liability."
+       ],
+       "y": "The business must pay creditors."
+      },
+      {
+       "q": "Which of these is a liability?",
+       "r": "a bank loan",
+       "w": [
+        "cash in hand",
+        "equipment",
+        "stock"
+       ],
+       "e": [
+        "Cash is an asset.",
+        "Equipment is an asset.",
+        "Stock is an asset."
+       ],
+       "y": "A loan must be repaid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-3-equity",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      1000000,
+      5000000
+     ],
+     "step": 50000
+    },
+    "p": {
+     "int": [
+      100000,
+      1000000
+     ],
+     "step": 50000
+    },
+    "d": {
+     "int": [
+      50000,
+      400000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "The owner put in {i} FCFA. The business made a profit of {p} FCFA and the owner took out {d} FCFA. What is the owner's equity now?",
+   "answer": "i + p - d",
+   "misconceptions": [
+    {
+     "id": "plus",
+     "wrong": "i + p + d",
+     "explain": "Drawings reduce the owner's equity: subtract them."
+    }
+   ],
+   "solution": [
+    "Owner's equity = capital put in + profit − drawings.",
+    "{i} + {p} − {d} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Equipment is an asset.",
+      "truth": "true"
+     },
+     {
+      "text": "A bank loan is a liability.",
+      "truth": "true"
+     },
+     {
+      "text": "Capital is the owner's equity.",
+      "truth": "true"
+     },
+     {
+      "text": "Debtors are assets.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Creditors are assets.",
+      "truth": "false",
+      "explain": "Creditors are liabilities: the business owes them."
+     },
+     {
+      "text": "Debtors are liabilities.",
+      "truth": "false",
+      "explain": "Debtors owe the business: they are assets."
+     },
+     {
+      "text": "Drawings increase capital.",
+      "truth": "false",
+      "explain": "Drawings reduce capital."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,399 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "s2-6",
+   "name": "Using good prompts to get AI responses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A prompt is the instruction or question you give to an AI system. The quality of the answer depends on the prompt.\nA good prompt is:\n• clear and specific: say exactly what you want (“Explain photosynthesis”, not “photosynthesis”);\n• with context: who it is for and why (“for a Form Two pupil”, “for a class talk”);\n• with a format: how long, what form (“in five sentences”, “as a table”, “three questions with answers”);\n• with limits: what to include or avoid.\nImprove step by step: if the answer is not right, add details and ask again.\nAlways check the response: it may contain mistakes. Do not include personal information in prompts.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "the water cycle"
+  },
+  "problem": "Improve the prompt “water cycle” to get useful revision help on {t}.",
+  "steps": [
+   "Say what you want: “Explain {t}”.",
+   "Add context and format: “for a Form Two pupil, in five short steps, then give two quiz questions with answers.”"
+  ],
+  "answer": "“Explain {t} for a Form Two pupil in five short steps, then give two quiz questions with answers.”",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "A prompt is the instruction you give to an AI.",
+    "vars": {},
+    "example": [
+     "Better prompts give better answers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-6-best"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "A good prompt is clear, specific, gives context and says the format.",
+    "vars": {},
+    "example": [
+     "“Explain gravity to a Form Two pupil in four sentences.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-6-part"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Refine your prompt if the answer is not right, and always check the response.",
+    "vars": {},
+    "example": [
+     "Add details and ask again."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-6-check-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "artificial-intelligence"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The AI's answer is too long and difficult. What should you do?",
+         "r": "Ask again, adding “in simple words, in five sentences”.",
+         "w": [
+          "Copy it anyway.",
+          "Give up.",
+          "Type the same prompt again unchanged."
+         ],
+         "e": [
+          "You will not understand it.",
+          "Refining usually works.",
+          "The same prompt gives a similar answer."
+         ],
+         "y": "Add details to refine the prompt."
+        },
+        {
+         "q": "Why must you check an AI response?",
+         "r": "It may contain mistakes.",
+         "w": [
+          "AI is never wrong.",
+          "Checking is cheating.",
+          "It is always too short."
+         ],
+         "e": [
+          "AI can be wrong.",
+          "Checking is good practice.",
+          "Length is not the reason."
+         ],
+         "y": "AI can give wrong information confidently."
+        },
+        {
+         "q": "What should you never put in a prompt?",
+         "r": "your personal information, such as your address or passwords",
+         "w": [
+          "the topic",
+          "the format you want",
+          "who the answer is for"
+         ],
+         "e": [
+          "The topic is needed.",
+          "The format helps.",
+          "Context helps."
+         ],
+         "y": "Protect your privacy."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-6-best",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Which is the best prompt?",
+   "pool": {
+    "right": [
+     {
+      "text": "Explain photosynthesis to a Form Two pupil in five short sentences.",
+      "truth": "true"
+     },
+     {
+      "text": "Give me three quiz questions on the water cycle, with answers.",
+      "truth": "true"
+     },
+     {
+      "text": "Summarise this paragraph in two sentences for a younger child.",
+      "truth": "true"
+     },
+     {
+      "text": "List four safety rules for using electricity at home.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Photosynthesis.",
+      "truth": "false",
+      "explain": "Too short: say what you want and for whom."
+     },
+     {
+      "text": "Tell me everything.",
+      "truth": "false",
+      "explain": "Too vague: say what topic and how much."
+     },
+     {
+      "text": "Do my homework.",
+      "truth": "false",
+      "explain": "Not specific, and it is dishonest: ask for explanations instead."
+     },
+     {
+      "text": "Stuff about water?",
+      "truth": "false",
+      "explain": "Unclear: say exactly what you need."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "s2-6-part",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Match each part of a good prompt to an example.",
+   "pool": [
+    {
+     "left": "task",
+     "right": "Explain the causes of floods"
+    },
+    {
+     "left": "context",
+     "right": "for a Form Two pupil in Douala"
+    },
+    {
+     "left": "format",
+     "right": "in a table with two columns"
+    },
+    {
+     "left": "limit",
+     "right": "in under 100 words"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-6-check",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The AI's answer is too long and difficult. What should you do?",
+       "r": "Ask again, adding “in simple words, in five sentences”.",
+       "w": [
+        "Copy it anyway.",
+        "Give up.",
+        "Type the same prompt again unchanged."
+       ],
+       "e": [
+        "You will not understand it.",
+        "Refining usually works.",
+        "The same prompt gives a similar answer."
+       ],
+       "y": "Add details to refine the prompt."
+      },
+      {
+       "q": "Why must you check an AI response?",
+       "r": "It may contain mistakes.",
+       "w": [
+        "AI is never wrong.",
+        "Checking is cheating.",
+        "It is always too short."
+       ],
+       "e": [
+        "AI can be wrong.",
+        "Checking is good practice.",
+        "Length is not the reason."
+       ],
+       "y": "AI can give wrong information confidently."
+      },
+      {
+       "q": "What should you never put in a prompt?",
+       "r": "your personal information, such as your address or passwords",
+       "w": [
+        "the topic",
+        "the format you want",
+        "who the answer is for"
+       ],
+       "e": [
+        "The topic is needed.",
+        "The format helps.",
+        "Context helps."
+       ],
+       "y": "Protect your privacy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Which advice about prompts is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Be clear and specific.",
+      "truth": "true"
+     },
+     {
+      "text": "Say who the answer is for.",
+      "truth": "true"
+     },
+     {
+      "text": "Ask for a format.",
+      "truth": "true"
+     },
+     {
+      "text": "Check the response.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Use one vague word as a prompt.",
+      "truth": "false",
+      "explain": "Vague prompts give poor answers."
+     },
+     {
+      "text": "Include your password so the AI knows you.",
+      "truth": "false",
+      "explain": "Never share passwords."
+     },
+     {
+      "text": "Never change your prompt.",
+      "truth": "false",
+      "explain": "Refining the prompt improves answers."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

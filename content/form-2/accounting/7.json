@@ -1,0 +1,449 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "a2-7",
+   "name": "The nature and layout of ledger accounts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An account is a record of all the changes in one item (Cash, Bank, Equipment, Sales, Capital …). All the accounts together form the ledger.\nThe simplest form is the T-account: the name of the account at the top, the left side for debits (Dr) and the right side for credits (Cr).\nEach entry shows the date, the details (the name of the other account, or a short description) and the amount.\nExample: Cash account. Debit side: 1 June, Capital, 500 000. Credit side: 3 June, Rent, 100 000.\nDebit means the left side; credit means the right side. The words do not mean good or bad.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 500000,
+   "r": 100000,
+   "d1": 1,
+   "d3": 3
+  },
+  "problem": "Show in a Cash T-account: on {d1} June the owner brought {c} FCFA in cash; on {d3} June rent of {r} FCFA was paid in cash.",
+  "steps": [
+   "Cash received ({c}, from Capital) goes on the debit (left) side.",
+   "Cash paid ({r}, for Rent) goes on the credit (right) side.",
+   "Each entry shows the date, the other account and the amount."
+  ],
+  "answer": "Dr: {d1} June Capital {c} | Cr: {d3} June Rent {r}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "An account records all the changes in one item; all accounts form the ledger.",
+    "vars": {},
+    "example": [
+     "Cash account, Bank account, Sales account …"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-7-what"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "In a T-account, the left side is debit (Dr) and the right side is credit (Cr).",
+    "vars": {},
+    "example": [
+     "Debit = left; credit = right."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-7-side"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Each entry has a date, details (the other account) and an amount.",
+    "vars": {
+     "r": 100000,
+     "d": 3
+    },
+    "example": [
+     "{d} June, Rent, {r}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-7-entry-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "recording"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does each entry in an account show?",
+         "r": "the date, the details and the amount",
+         "w": [
+          "only the amount",
+          "the owner's signature",
+          "the weather"
+         ],
+         "e": [
+          "More is needed.",
+          "Not needed.",
+          "Not needed."
+         ],
+         "y": "Date, details, amount."
+        },
+        {
+         "q": "In the Cash account, what is written in the details column when cash comes from the owner?",
+         "r": "Capital",
+         "w": [
+          "Cash",
+          "Rent",
+          "Sales"
+         ],
+         "e": [
+          "That is the account itself.",
+          "Rent is an expense.",
+          "Sales is not involved."
+         ],
+         "y": "Write the other account."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-7-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the ledger?",
+       "r": "the book (or file) containing all the accounts",
+       "w": [
+        "the owner's diary",
+        "a list of customers' phone numbers",
+        "the shop's sign"
+       ],
+       "e": [
+        "Not that.",
+        "Not that.",
+        "Not that."
+       ],
+       "y": "All the accounts together."
+      },
+      {
+       "q": "What is an account?",
+       "r": "a record of all the changes in one item",
+       "w": [
+        "a type of bank",
+        "the owner's money only",
+        "a receipt"
+       ],
+       "e": [
+        "Not that.",
+        "It can be any item.",
+        "A receipt is a document."
+       ],
+       "y": "One account for each item."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-7-side",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which side of a T-account is the debit side?",
+       "r": "the left side",
+       "w": [
+        "the right side",
+        "the top",
+        "the bottom"
+       ],
+       "e": [
+        "That is credit.",
+        "The name is at the top.",
+        "No."
+       ],
+       "y": "Debit = left."
+      },
+      {
+       "q": "What does “Cr” mean?",
+       "r": "credit, the right side",
+       "w": [
+        "cash received",
+        "creditor only",
+        "the left side"
+       ],
+       "e": [
+        "It is an abbreviation of credit.",
+        "Not only.",
+        "That is debit."
+       ],
+       "y": "Cr = credit = right."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-7-entry",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does each entry in an account show?",
+       "r": "the date, the details and the amount",
+       "w": [
+        "only the amount",
+        "the owner's signature",
+        "the weather"
+       ],
+       "e": [
+        "More is needed.",
+        "Not needed.",
+        "Not needed."
+       ],
+       "y": "Date, details, amount."
+      },
+      {
+       "q": "In the Cash account, what is written in the details column when cash comes from the owner?",
+       "r": "Capital",
+       "w": [
+        "Cash",
+        "Rent",
+        "Sales"
+       ],
+       "e": [
+        "That is the account itself.",
+        "Rent is an expense.",
+        "Sales is not involved."
+       ],
+       "y": "Write the other account."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The debit side is on the left.",
+      "truth": "true"
+     },
+     {
+      "text": "The credit side is on the right.",
+      "truth": "true"
+     },
+     {
+      "text": "All accounts form the ledger.",
+      "truth": "true"
+     },
+     {
+      "text": "Each entry has a date.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Debit means a bad entry.",
+      "truth": "false",
+      "explain": "Debit just means the left side."
+     },
+     {
+      "text": "The credit side is on the left.",
+      "truth": "false",
+      "explain": "Credit is the right side."
+     },
+     {
+      "text": "An entry needs no amount.",
+      "truth": "false",
+      "explain": "Every entry has an amount."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

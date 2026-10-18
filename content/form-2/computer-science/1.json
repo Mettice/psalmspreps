@@ -1,0 +1,485 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-1",
+   "name": "Types of input and output devices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A computer system takes in data (input), processes it, stores it and gives out results (output).\nInput devices send data into the computer: keyboard (text), mouse and touchpad (pointing), scanner (pictures of paper documents), microphone (sound), webcam (video), barcode reader (product codes), digital camera.\nOutput devices give results from the computer: monitor (screen), printer (paper copies), speakers and headphones (sound), projector (large image).\nSome devices do both (input/output): a touch screen (you touch it and it shows images), a headset with a microphone, a modem.\nChoose devices for the task: a cashier needs a barcode reader; a teacher showing slides needs a projector.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "a supermarket checkout"
+  },
+  "problem": "Name two input devices and two output devices used at {t}.",
+  "steps": [
+   "Input: a barcode reader reads the price codes; a keyboard or touch screen for corrections.",
+   "Output: a screen shows the prices; a small printer prints the receipt."
+  ],
+  "answer": "Input: barcode reader, keyboard. Output: screen, receipt printer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "Input devices send data into the computer; output devices give out results.",
+    "vars": {},
+    "example": [
+     "Input: keyboard, mouse, microphone.",
+     "Output: monitor, printer, speakers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-1-sort"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "Some devices are both input and output, such as a touch screen.",
+    "vars": {},
+    "example": [
+     "You touch it (input) and it shows images (output)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-1-both"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "Choose the device that fits the task.",
+    "vars": {},
+    "example": [
+     "Scanning a certificate: a scanner.",
+     "Showing slides to a class: a projector."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-1-task-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "hardware"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "making a paper copy of a letter",
+         "r": "a printer",
+         "w": [
+          "a scanner",
+          "a microphone",
+          "a webcam"
+         ],
+         "e": [
+          "A scanner copies paper into the computer.",
+          "A microphone records sound.",
+          "A webcam records video."
+         ],
+         "y": "A printer outputs on paper."
+        },
+        {
+         "q": "recording a voice message",
+         "r": "a microphone",
+         "w": [
+          "a speaker",
+          "a printer",
+          "a monitor"
+         ],
+         "e": [
+          "A speaker plays sound.",
+          "A printer prints.",
+          "A monitor shows images."
+         ],
+         "y": "A microphone inputs sound."
+        },
+        {
+         "q": "reading prices at a shop checkout",
+         "r": "a barcode reader",
+         "w": [
+          "a projector",
+          "headphones",
+          "a mouse"
+         ],
+         "e": [
+          "A projector shows images.",
+          "Headphones play sound.",
+          "A mouse points."
+         ],
+         "y": "A barcode reader inputs product codes."
+        },
+        {
+         "q": "a video call with a friend",
+         "r": "a webcam",
+         "w": [
+          "a printer",
+          "a scanner",
+          "a projector"
+         ],
+         "e": [
+          "A printer prints.",
+          "A scanner copies paper.",
+          "A projector shows big images."
+         ],
+         "y": "A webcam inputs live video."
+        }
+       ]
+      }
+     },
+     "prompt": "Which device is best for {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-1-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "prompt": "Sort the devices: input or output?",
+   "pool": [
+    {
+     "left": "keyboard",
+     "right": "input"
+    },
+    {
+     "left": "mouse",
+     "right": "input"
+    },
+    {
+     "left": "scanner",
+     "right": "input"
+    },
+    {
+     "left": "microphone",
+     "right": "input"
+    },
+    {
+     "left": "webcam",
+     "right": "input"
+    },
+    {
+     "left": "barcode reader",
+     "right": "input"
+    },
+    {
+     "left": "monitor",
+     "right": "output"
+    },
+    {
+     "left": "printer",
+     "right": "output"
+    },
+    {
+     "left": "speakers",
+     "right": "output"
+    },
+    {
+     "left": "projector",
+     "right": "output"
+    },
+    {
+     "left": "headphones",
+     "right": "output"
+    }
+   ],
+   "pick": 6,
+   "groups": true,
+   "group_order": [
+    "input",
+    "output"
+   ]
+  },
+  {
+   "id": "s2-1-both",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which device is both an input and an output device?",
+       "r": "a touch screen",
+       "w": [
+        "a keyboard",
+        "a printer",
+        "a speaker"
+       ],
+       "e": [
+        "A keyboard only inputs.",
+        "A printer only outputs.",
+        "A speaker only outputs."
+       ],
+       "y": "A touch screen takes touches and shows images."
+      },
+      {
+       "q": "Which device is an input device?",
+       "r": "a microphone",
+       "w": [
+        "a projector",
+        "a monitor",
+        "headphones"
+       ],
+       "e": [
+        "A projector outputs images.",
+        "A monitor outputs images.",
+        "Headphones output sound."
+       ],
+       "y": "A microphone sends sound into the computer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-1-task",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "making a paper copy of a letter",
+       "r": "a printer",
+       "w": [
+        "a scanner",
+        "a microphone",
+        "a webcam"
+       ],
+       "e": [
+        "A scanner copies paper into the computer.",
+        "A microphone records sound.",
+        "A webcam records video."
+       ],
+       "y": "A printer outputs on paper."
+      },
+      {
+       "q": "recording a voice message",
+       "r": "a microphone",
+       "w": [
+        "a speaker",
+        "a printer",
+        "a monitor"
+       ],
+       "e": [
+        "A speaker plays sound.",
+        "A printer prints.",
+        "A monitor shows images."
+       ],
+       "y": "A microphone inputs sound."
+      },
+      {
+       "q": "reading prices at a shop checkout",
+       "r": "a barcode reader",
+       "w": [
+        "a projector",
+        "headphones",
+        "a mouse"
+       ],
+       "e": [
+        "A projector shows images.",
+        "Headphones play sound.",
+        "A mouse points."
+       ],
+       "y": "A barcode reader inputs product codes."
+      },
+      {
+       "q": "a video call with a friend",
+       "r": "a webcam",
+       "w": [
+        "a printer",
+        "a scanner",
+        "a projector"
+       ],
+       "e": [
+        "A printer prints.",
+        "A scanner copies paper.",
+        "A projector shows big images."
+       ],
+       "y": "A webcam inputs live video."
+      }
+     ]
+    }
+   },
+   "prompt": "Which device is best for {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "hardware"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A keyboard is an input device.",
+      "truth": "true"
+     },
+     {
+      "text": "A monitor is an output device.",
+      "truth": "true"
+     },
+     {
+      "text": "A touch screen is both input and output.",
+      "truth": "true"
+     },
+     {
+      "text": "A scanner is an input device.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A printer is an input device.",
+      "truth": "false",
+      "explain": "A printer gives results on paper: output."
+     },
+     {
+      "text": "A microphone is an output device.",
+      "truth": "false",
+      "explain": "A microphone sends sound in: input."
+     },
+     {
+      "text": "Speakers are input devices.",
+      "truth": "false",
+      "explain": "Speakers give out sound: output."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

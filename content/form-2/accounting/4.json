@@ -1,0 +1,422 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "a2-4",
+   "name": "The balance sheet equation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The accounting (balance sheet) equation is: Assets = Liabilities + Owner's equity.\nIt can be turned round:\n• Owner's equity = Assets − Liabilities;\n• Liabilities = Assets − Owner's equity.\nExample: assets 5 000 000 FCFA, liabilities 1 500 000 FCFA, so owner's equity = 3 500 000 FCFA.\nEvery transaction changes the equation, but it always stays balanced: buying equipment with cash changes two assets (equipment up, cash down); buying goods on credit raises an asset (stock) and a liability (creditors) by the same amount.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 5000000,
+   "l": 1500000
+  },
+  "problem": "A business has assets of {a} FCFA and liabilities of {l} FCFA. Find the owner's equity.",
+  "steps": [
+   "Owner's equity = Assets − Liabilities.",
+   "{a} − {l} = {a - l} FCFA."
+  ],
+  "answer": "{a - l} FCFA",
+  "checks": [
+   "a - l == 3500000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "Assets = Liabilities + Owner's equity.",
+    "vars": {
+     "l": 800000,
+     "e": 2200000
+    },
+    "example": [
+     "{l} + {e} = {l + e} = assets."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-4-assets"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Owner's equity = Assets − Liabilities.",
+    "vars": {
+     "a": 4000000,
+     "l": 900000
+    },
+    "example": [
+     "{a} − {l} = {a - l}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-4-equity"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "Every transaction keeps the equation balanced.",
+    "vars": {},
+    "example": [
+     "Goods bought on credit: stock up, creditors up, by the same amount."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-4-change-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "financial-position"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Equipment is bought for cash.",
+         "r": "Equipment goes up and cash goes down by the same amount.",
+         "w": [
+          "Assets and liabilities both go up.",
+          "Capital goes down.",
+          "Nothing changes at all."
+         ],
+         "e": [
+          "No debt is created.",
+          "The owner's share is unchanged.",
+          "Two assets change."
+         ],
+         "y": "One asset replaces another."
+        },
+        {
+         "q": "Goods are bought on credit.",
+         "r": "Stock and creditors both go up by the same amount.",
+         "w": [
+          "Stock goes up and cash goes down.",
+          "Capital goes up.",
+          "Creditors go down."
+         ],
+         "e": [
+          "No cash was paid.",
+          "The owner put nothing in.",
+          "A new debt is created."
+         ],
+         "y": "An asset and a liability rise together."
+        },
+        {
+         "q": "The owner puts more cash into the business.",
+         "r": "Cash and capital both go up by the same amount.",
+         "w": [
+          "Cash goes up and creditors go up.",
+          "Cash goes down.",
+          "Equipment goes up."
+         ],
+         "e": [
+          "It is not a debt to outsiders.",
+          "Cash comes in.",
+          "No equipment is bought."
+         ],
+         "y": "An asset and owner's equity rise together."
+        },
+        {
+         "q": "A creditor is paid by cheque.",
+         "r": "Bank goes down and creditors go down by the same amount.",
+         "w": [
+          "Bank goes up.",
+          "Capital goes up.",
+          "Creditors go up."
+         ],
+         "e": [
+          "Money leaves the bank.",
+          "The owner's share is unchanged.",
+          "The debt is reduced."
+         ],
+         "y": "An asset and a liability fall together."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q} How does the equation change?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-4-assets",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      200000,
+      2000000
+     ],
+     "step": 50000
+    },
+    "e": {
+     "int": [
+      1000000,
+      6000000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "Liabilities are {l} FCFA and owner's equity is {e} FCFA. What are the total assets?",
+   "answer": "l + e",
+   "misconceptions": [
+    {
+     "id": "minus",
+     "wrong": "e - l",
+     "explain": "Assets = liabilities + equity: add."
+    }
+   ],
+   "solution": [
+    "Assets = Liabilities + Owner's equity.",
+    "{l} + {e} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-4-equity",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2000000,
+      9000000
+     ],
+     "step": 50000
+    },
+    "l": {
+     "int": [
+      200000,
+      1800000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "Assets are {a} FCFA and liabilities are {l} FCFA. What is the owner's equity?",
+   "answer": "a - l",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "a + l",
+     "explain": "Subtract the liabilities."
+    }
+   ],
+   "solution": [
+    "Owner's equity = Assets − Liabilities.",
+    "{a} − {l} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-4-liab",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "e": {
+     "int": [
+      1000000,
+      5000000
+     ],
+     "step": 50000
+    },
+    "l": {
+     "int": [
+      100000,
+      1500000
+     ],
+     "step": 50000
+    },
+    "a": {
+     "expr": "e + l"
+    }
+   },
+   "prompt": "Assets are {a} FCFA and owner's equity is {e} FCFA. What are the liabilities?",
+   "answer": "a - e",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "a + e",
+     "explain": "Subtract the owner's equity."
+    }
+   ],
+   "solution": [
+    "Liabilities = Assets − Owner's equity.",
+    "{a} − {e} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-4-change",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "financial-position"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Equipment is bought for cash.",
+       "r": "Equipment goes up and cash goes down by the same amount.",
+       "w": [
+        "Assets and liabilities both go up.",
+        "Capital goes down.",
+        "Nothing changes at all."
+       ],
+       "e": [
+        "No debt is created.",
+        "The owner's share is unchanged.",
+        "Two assets change."
+       ],
+       "y": "One asset replaces another."
+      },
+      {
+       "q": "Goods are bought on credit.",
+       "r": "Stock and creditors both go up by the same amount.",
+       "w": [
+        "Stock goes up and cash goes down.",
+        "Capital goes up.",
+        "Creditors go down."
+       ],
+       "e": [
+        "No cash was paid.",
+        "The owner put nothing in.",
+        "A new debt is created."
+       ],
+       "y": "An asset and a liability rise together."
+      },
+      {
+       "q": "The owner puts more cash into the business.",
+       "r": "Cash and capital both go up by the same amount.",
+       "w": [
+        "Cash goes up and creditors go up.",
+        "Cash goes down.",
+        "Equipment goes up."
+       ],
+       "e": [
+        "It is not a debt to outsiders.",
+        "Cash comes in.",
+        "No equipment is bought."
+       ],
+       "y": "An asset and owner's equity rise together."
+      },
+      {
+       "q": "A creditor is paid by cheque.",
+       "r": "Bank goes down and creditors go down by the same amount.",
+       "w": [
+        "Bank goes up.",
+        "Capital goes up.",
+        "Creditors go up."
+       ],
+       "e": [
+        "Money leaves the bank.",
+        "The owner's share is unchanged.",
+        "The debt is reduced."
+       ],
+       "y": "An asset and a liability fall together."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q} How does the equation change?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

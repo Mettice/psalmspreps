@@ -1,0 +1,400 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "s2-12",
+   "name": "Utility software and device drivers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Utility software helps to maintain, protect and tidy the computer:\n• antivirus: finds and removes malware (viruses, worms, spyware); keep it updated;\n• firewall: blocks unwanted network connections;\n• backup: copies files so they can be restored after loss or damage;\n• disk clean-up: removes unneeded temporary files to free space;\n• compression (zip): makes files smaller to save space or send them faster;\n• disk defragmenter: rearranges files on a hard disk so they load faster (not needed on an SSD).\nA device driver is a small program that lets the operating system communicate with a hardware device (a printer, a scanner, a graphics card). Without the right driver, a new printer may not work.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": "a new printer that the computer does not recognise"
+  },
+  "problem": "What should be installed to make {d} work, and why?",
+  "steps": [
+   "Install the printer's device driver (from the maker or the OS update).",
+   "The driver translates the OS's instructions into commands the printer understands."
+  ],
+  "answer": "Its device driver, so the OS can communicate with the printer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "Utilities maintain and protect the computer: antivirus, firewall, backup, clean-up, compression.",
+    "vars": {},
+    "example": [
+     "Keep the antivirus updated."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-12-util"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "A device driver lets the operating system talk to a hardware device.",
+    "vars": {},
+    "example": [
+     "A new printer needs its driver."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-12-driver"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "Back up important files so they can be restored.",
+    "vars": {},
+    "example": [
+     "Keep a copy on a flash drive or in the cloud."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-12-backup-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "system-software"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should you back up your files?",
+         "r": "so they can be restored if lost or damaged",
+         "w": [
+          "to make the computer slower",
+          "to delete them",
+          "to print them"
+         ],
+         "e": [
+          "That is not the aim.",
+          "Backup keeps copies.",
+          "Backup does not print."
+         ],
+         "y": "A backup copy protects against loss."
+        },
+        {
+         "q": "Which utility makes a file smaller to send by email?",
+         "r": "file compression (zip)",
+         "w": [
+          "antivirus",
+          "disk defragmenter",
+          "device driver"
+         ],
+         "e": [
+          "Antivirus removes malware.",
+          "It rearranges files on a disk.",
+          "A driver controls hardware."
+         ],
+         "y": "Compression reduces file size."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-12-util",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "system-software"
+   ],
+   "prompt": "Match each utility to what it does.",
+   "pool": [
+    {
+     "left": "antivirus",
+     "right": "finds and removes malware"
+    },
+    {
+     "left": "backup software",
+     "right": "makes copies of files to restore after a loss"
+    },
+    {
+     "left": "disk clean-up",
+     "right": "deletes unneeded temporary files"
+    },
+    {
+     "left": "file compression",
+     "right": "makes files smaller (zip)"
+    },
+    {
+     "left": "disk defragmenter",
+     "right": "rearranges files on a hard disk so they load faster"
+    },
+    {
+     "left": "firewall",
+     "right": "blocks unwanted network connections"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-12-driver",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "system-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a device driver?",
+       "r": "a program that lets the OS communicate with a hardware device",
+       "w": [
+        "a person who drives a computer",
+        "a type of keyboard",
+        "an antivirus"
+       ],
+       "e": [
+        "It is software.",
+        "A keyboard is hardware.",
+        "Antivirus removes malware."
+       ],
+       "y": "Drivers connect the OS and hardware."
+      },
+      {
+       "q": "A new scanner is plugged in but does not work. What is most likely missing?",
+       "r": "its device driver",
+       "w": [
+        "a bigger monitor",
+        "a new mouse",
+        "more paper"
+       ],
+       "e": [
+        "The monitor is not the problem.",
+        "The mouse is not the problem.",
+        "Scanners do not use paper."
+       ],
+       "y": "Without its driver, the OS cannot use the device."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-12-backup",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "system-software"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should you back up your files?",
+       "r": "so they can be restored if lost or damaged",
+       "w": [
+        "to make the computer slower",
+        "to delete them",
+        "to print them"
+       ],
+       "e": [
+        "That is not the aim.",
+        "Backup keeps copies.",
+        "Backup does not print."
+       ],
+       "y": "A backup copy protects against loss."
+      },
+      {
+       "q": "Which utility makes a file smaller to send by email?",
+       "r": "file compression (zip)",
+       "w": [
+        "antivirus",
+        "disk defragmenter",
+        "device driver"
+       ],
+       "e": [
+        "Antivirus removes malware.",
+        "It rearranges files on a disk.",
+        "A driver controls hardware."
+       ],
+       "y": "Compression reduces file size."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "system-software"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Antivirus removes malware.",
+      "truth": "true"
+     },
+     {
+      "text": "A driver lets the OS use a device.",
+      "truth": "true"
+     },
+     {
+      "text": "Backups protect against data loss.",
+      "truth": "true"
+     },
+     {
+      "text": "Compression makes files smaller.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An antivirus never needs updating.",
+      "truth": "false",
+      "explain": "It must be updated to catch new malware."
+     },
+     {
+      "text": "A device driver is a hardware part.",
+      "truth": "false",
+      "explain": "A driver is software."
+     },
+     {
+      "text": "Disk clean-up adds unneeded files.",
+      "truth": "false",
+      "explain": "It removes unneeded files."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

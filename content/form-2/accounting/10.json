@@ -1,0 +1,328 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "a2-10",
+   "name": "Expense and revenue accounts; opening, balancing and closing accounts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Expense (charge) accounts record costs: purchases of goods, rent, salaries, electricity, transport. Expenses are debited (they reduce the owner's equity).\nRevenue (income) accounts record earnings: sales, commission received, rent received. Revenues are credited (they increase the owner's equity).\nOpening an account: write its name and the opening balance on the correct side.\nBalancing an account: add each side; the difference is the balance. Write it on the smaller side as “balance c/d” so both totals are equal, then bring it down on the other side as “balance b/d”.\n• Debits greater than credits: a debit balance (normal for assets and expenses).\n• Credits greater than debits: a credit balance (normal for liabilities, capital and revenues).\nClosing: at the end of the period, expense and revenue accounts are closed (transferred to the result).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d1": 500000,
+   "d2": 300000,
+   "c1": 200000,
+   "c2": 150000
+  },
+  "problem": "A Cash account has debits of {d1} and {d2} and credits of {c1} and {c2} FCFA. Balance it.",
+  "steps": [
+   "Debit total: {d1} + {d2} = {d1 + d2}. Credit total: {c1} + {c2} = {c1 + c2}.",
+   "Balance: {d1 + d2} − {c1 + c2} = {d1 + d2 - c1 - c2}, a debit balance.",
+   "Write {d1 + d2 - c1 - c2} as balance c/d on the credit side, so both totals are {d1 + d2}; bring it down on the debit side."
+  ],
+  "answer": "Debit balance of {d1 + d2 - c1 - c2} FCFA",
+  "checks": [
+   "d1 + d2 - c1 - c2 == 450000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "Expenses are debited; revenues are credited.",
+    "vars": {},
+    "example": [
+     "Rent paid: debit Rent.",
+     "Sales: credit Sales."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-10-kind"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "The balance is the difference between the two sides.",
+    "vars": {
+     "d": 700000,
+     "c": 450000
+    },
+    "example": [
+     "Debits {d}, credits {c}: balance {d - c}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-10-balance"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "If debits are bigger, it is a debit balance; if credits are bigger, a credit balance.",
+    "vars": {},
+    "example": [
+     "Assets and expenses usually have debit balances."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-10-side-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "recording"
+     ],
+     "vars": {
+      "d": {
+       "int": [
+        100000,
+        900000
+       ],
+       "step": 50000
+      },
+      "c": {
+       "int": [
+        100000,
+        900000
+       ],
+       "step": 50000
+      }
+     },
+     "prompt": "An account has debits totalling {d} FCFA and credits totalling {c} FCFA. What kind of balance does it have?",
+     "correct": "{d > c ? 'a debit balance' : 'a credit balance'}",
+     "distractors": [
+      {
+       "text": "{d > c ? 'a credit balance' : 'a debit balance'}",
+       "misconception": "flip"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "flip",
+       "explain": "The balance is on the side with the bigger total."
+      }
+     ],
+     "solution": [
+      "The bigger side is the {d > c ? 'debit' : 'credit'} side.",
+      "So it has {answer} of {abs(d - c)} FCFA."
+     ],
+     "where": [
+      "d != c"
+     ],
+     "show": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-10-kind",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "recording"
+   ],
+   "prompt": "Sort the accounts: expense or revenue?",
+   "pool": [
+    {
+     "left": "rent paid",
+     "right": "expense"
+    },
+    {
+     "left": "salaries",
+     "right": "expense"
+    },
+    {
+     "left": "electricity",
+     "right": "expense"
+    },
+    {
+     "left": "purchases of goods",
+     "right": "expense"
+    },
+    {
+     "left": "sales",
+     "right": "revenue"
+    },
+    {
+     "left": "commission received",
+     "right": "revenue"
+    },
+    {
+     "left": "rent received",
+     "right": "revenue"
+    },
+    {
+     "left": "interest received",
+     "right": "revenue"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "expense",
+    "revenue"
+   ]
+  },
+  {
+   "id": "a2-10-balance",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "d1": {
+     "int": [
+      200000,
+      900000
+     ],
+     "step": 50000
+    },
+    "d2": {
+     "int": [
+      100000,
+      600000
+     ],
+     "step": 50000
+    },
+    "c1": {
+     "int": [
+      50000,
+      250000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "An account has debits of {d1} and {d2} FCFA and credits of {c1} FCFA. What is its balance?",
+   "answer": "d1 + d2 - c1",
+   "misconceptions": [
+    {
+     "id": "total",
+     "wrong": "d1 + d2 + c1",
+     "explain": "The balance is the difference between the sides."
+    }
+   ],
+   "solution": [
+    "Debit total: {d1} + {d2} = {d1 + d2}.",
+    "Balance: {d1 + d2} − {c1} = {answer} FCFA (a debit balance)."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-10-side",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "d": {
+     "int": [
+      100000,
+      900000
+     ],
+     "step": 50000
+    },
+    "c": {
+     "int": [
+      100000,
+      900000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "An account has debits totalling {d} FCFA and credits totalling {c} FCFA. What kind of balance does it have?",
+   "correct": "{d > c ? 'a debit balance' : 'a credit balance'}",
+   "distractors": [
+    {
+     "text": "{d > c ? 'a credit balance' : 'a debit balance'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "The balance is on the side with the bigger total."
+    }
+   ],
+   "solution": [
+    "The bigger side is the {d > c ? 'debit' : 'credit'} side.",
+    "So it has {answer} of {abs(d - c)} FCFA."
+   ],
+   "where": [
+    "d != c"
+   ],
+   "show": 2
+  },
+  {
+   "id": "a2-10-credit",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "recording"
+   ],
+   "vars": {
+    "c1": {
+     "int": [
+      100000,
+      500000
+     ],
+     "step": 50000
+    },
+    "c2": {
+     "int": [
+      100000,
+      500000
+     ],
+     "step": 50000
+    },
+    "c3": {
+     "int": [
+      50000,
+      300000
+     ],
+     "step": 50000
+    },
+    "d": {
+     "int": [
+      50000,
+      100000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "A Sales account has credits of {c1}, {c2} and {c3} FCFA and one debit (a return) of {d} FCFA. What is its credit balance?",
+   "answer": "c1 + c2 + c3 - d",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "c1 + c2 + c3 + d",
+     "explain": "Subtract the debit side."
+    }
+   ],
+   "solution": [
+    "Credit total: {c1} + {c2} + {c3} = {c1 + c2 + c3}.",
+    "Balance: {c1 + c2 + c3} − {d} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

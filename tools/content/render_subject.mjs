@@ -35,12 +35,17 @@ const CONF = {
   french: { name: "French", batch: "Batch F1", spine: "french", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french }, sample: 15, lessons: "1–15" },
   // Form 2 (2026-10-17, form-2 branch): its own folder, numbered by place in the year (proposal G1)
   "f2-maths": { name: "Maths", cls: "Form 2", dir: "form-2/maths", batch: "Batch M2-1", spine: "form-2/mathematics", lib: { ...maths, ...maths2 }, sample: 21, lessons: "1–24, Term 1", bySeq: true },
+  "f2-home-economics": { name: "Home Economics", cls: "Form 2", dir: "form-2/home-economics", batch: "Batch H2-1", spine: "form-2/home-economics", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 12–21, Term 1", bySeq: true },
+  "f2-geography": { name: "Geography", cls: "Form 2", dir: "form-2/geography", batch: "Batch G2-1", spine: "form-2/geography", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 7, lessons: "1–10, Term 1", bySeq: true },
+  "f2-history": { name: "History", cls: "Form 2", dir: "form-2/history", batch: "Batch Y2-1", spine: "form-2/history", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 9, lessons: "1–10, Term 1", bySeq: true },
+  "f2-computer-science": { name: "Computer Science", cls: "Form 2", dir: "form-2/computer-science", batch: "Batch S2-1", spine: "form-2/computer-science", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 15, lessons: "1, 2, 4–6, 8, 9, 11, 12, 14–16, 18, 19, Term 1", bySeq: true },
+  "f2-accounting": { name: "Accounting", cls: "Form 2", dir: "form-2/accounting", batch: "Batch A2-1", spine: "form-2/accounting", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 4, lessons: "1–8, 10–12, Term 1", bySeq: true },
   "f2-physics": { name: "Physics", cls: "Form 2", dir: "form-2/physics", batch: "Batch P2-1", spine: "form-2/physics", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 6, lessons: "1–15, Term 1", bySeq: true },
   "f2-chemistry": { name: "Chemistry", cls: "Form 2", dir: "form-2/chemistry", batch: "Batch C2-1", spine: "form-2/chemistry", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 10, lessons: "1–4, 6–11, 13–17, Term 1", bySeq: true },
   "f2-biology": { name: "Biology", cls: "Form 2", dir: "form-2/biology", batch: "Batch B2-1", spine: "form-2/biology", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 13–21, Term 1", bySeq: true },
   "f2-english": { name: "English", cls: "Form 2", dir: "form-2/english", batch: "Batch E2-1", spine: "form-2/english-language", lib: { ...maths, ...english }, sample: 3, lessons: "1–32, Term 1", bySeq: true },
 }[SUBJECT];
-if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science|french|f2-maths|f2-english|f2-physics|f2-chemistry|f2-biology");
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science|french|f2-maths|f2-english|f2-physics|f2-chemistry|f2-biology|f2-home-economics|f2-geography|f2-history|f2-computer-science|f2-accounting");
 const lib = CONF.lib;
 const FOLDER = CONF.dir || SUBJECT, CLS = CONF.cls || "Form 1";
 const DIR = new URL(`../../content/${FOLDER}/`, import.meta.url);
@@ -147,6 +152,15 @@ writeFileSync(new URL("REVIEW.md", DIR), R.join("\n") + "\n", "utf8");
 const show = (v) => (typeof v === "number" ? maths.fmt(v) : String(v));
 const rend = (t, scope = {}) => render(t, scope, lib, show);
 const PART1 = {
+  "f2-home-economics": () => ["## Part 1: rules and drawings (homeeconomics.js, as in Form One)", "", "- **Energy values (TR-U02)**: carbohydrate and protein 4 kcal (17 kJ) per gram, fat 9 kcal (37 kJ).",
+    "- **Kitchen drawings and the work triangle**: the Form One drawings and rule (TR-H01, TR-H02).", ""],
+  "f2-geography": () => ["## Part 1: formulae (computed by code)", "", "- BR = births ÷ population × 1000; DR likewise; NI = BR − DR (‰), ÷ 10 for %; density = population ÷ area.", ""],
+  "f2-history": () => ["## Part 1", "", "Every answer in History is authored: see Part 2 and the sources.", ""],
+  "f2-computer-science": () => ["## Part 1: rules the computed answers use (science2.js, maths.js)", "",
+    `- **Hexadecimal and binary**: ${[10, 15, 26, 255].map((n) => `${n} = ${science2.toHex(n)}₁₆`).join(", ")}; bytes as 8 bits (${science2.bits8(13)} = 13).`,
+    `- **ASCII**: A = ${science2.asciiOf("A")}, a = ${science2.asciiOf("a")}, 0 = ${science2.asciiOf("0")}, space = ${science2.asciiOf(" ")}.`,
+    `- **Storage (TR-T05 decision)**: 1 byte = 8 bits; 1 KB = ${science2.storageFactor("KB", "byte")} bytes; 1 MB = ${science2.storageFactor("MB", "KB")} KB; 1 GB = ${science2.storageFactor("GB", "MB")} MB.`, ""],
+  "f2-accounting": () => ["## Part 1: rules", "", "- Assets = Liabilities + Owner's equity (computed). Assets increase on the debit side; capital and liabilities on the credit side; expenses debited, revenues credited (authored).", ""],
   "f2-physics": () => ["## Part 1: rules the computed answers use (src/engine/lib/science2.js, physics.js)", "",
     `- **Speed**: v = d ÷ t; km/h ÷ 3.6 = m/s (${science2.kmhToMs(72)} m/s for 72 km/h). **Density**: mass ÷ volume, to 2 decimals. **Temperature**: T(K) = T(°C) + 273.`,
     "- **Data**: the mean of repeated readings; an anomalous reading is left out; graphs are drawn from the question's own numbers (lineGraph).", ""],

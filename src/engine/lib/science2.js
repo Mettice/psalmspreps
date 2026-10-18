@@ -158,3 +158,45 @@ export function beanSeed(k) {
     pointer(170, 110, 280, 100, L[4]) + pointer(150, 76, 40, 80, L[5]);
   return svg(310, 210, "A bean seed opened, with lettered parts", b);
 }
+
+// ---------------------------------------------------------------- Form 2 Computer Science: hexadecimal, characters, storage
+const HEX = "0123456789ABCDEF";
+/** n in base 16, capital letters: toHex(255) → "FF". */
+export function toHex(n) {
+  if (!Number.isInteger(n) || n < 0) throw new RangeError(`toHex(${n})`);
+  let s = "";
+  do { s = HEX[n % 16] + s; n = Math.floor(n / 16); } while (n > 0);
+  return s;
+}
+export function fromHex(s) {
+  let v = 0;
+  for (const c of String(s).toUpperCase()) { const d = HEX.indexOf(c); if (d < 0) return NaN; v = v * 16 + d; }
+  return v;
+}
+/** The value of one hexadecimal digit: hexValue("B") → 11. */
+export const hexValue = (c) => HEX.indexOf(String(c).toUpperCase());
+/** An 8-bit binary pattern: bits8(5) → "00000101". */
+export function bits8(n) {
+  if (!Number.isInteger(n) || n < 0 || n > 255) throw new RangeError(`bits8(${n})`);
+  return n.toString(2).padStart(8, "0");
+}
+/** ASCII code of a character, and the character of a code (printable ASCII only, 32 to 126). */
+export function asciiOf(c) {
+  const n = String(c).charCodeAt(0);
+  if (String(c).length !== 1 || n < 32 || n > 126) throw new RangeError(`asciiOf(${c})`);
+  return n;
+}
+export function charOf(n) {
+  if (!Number.isInteger(n) || n < 32 || n > 126) throw new RangeError(`charOf(${n})`);
+  return String.fromCharCode(n);
+}
+// Storage units (authored, TR-T05: the school convention of 1 KB = 1024 bytes). 1 byte = 8 bits.
+const STORE = { bit: 1 / 8, byte: 1, KB: 1024, MB: 1024 ** 2, GB: 1024 ** 3, TB: 1024 ** 4 };
+export const storageUnits = () => Object.keys(STORE);
+/** Converts between storage units: storageConvert(2, "KB", "byte") → 2048. */
+export function storageConvert(v, from, to) {
+  if (!(from in STORE) || !(to in STORE)) throw new RangeError(`storageConvert: ${from} → ${to}`);
+  return Number(((v * STORE[from]) / STORE[to]).toPrecision(12));
+}
+/** How many `to` units in one `from` unit: storageFactor("MB", "KB") → 1024. */
+export const storageFactor = (from, to) => storageConvert(1, from, to);

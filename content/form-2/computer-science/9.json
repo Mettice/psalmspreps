@@ -1,0 +1,308 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "s2-9",
+   "name": "Problem-solving strategies (2): representing and tracing algorithms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Algorithms can be written as:\n• pseudocode: short structured English, for example\n  INPUT mark\n  IF mark ≥ 10 THEN OUTPUT “pass” ELSE OUTPUT “fail”\n• a flowchart, with standard symbols: oval (start/end), parallelogram (input/output), rectangle (process), diamond (decision), arrows (flow).\nTracing (dry running) an algorithm means following it step by step with test values to find its output and check it is correct.\nExample: “Start with x = 3. Repeat 4 times: add 5 to x. Output x.” gives 3 + 4 × 5 = 23.\nTest with normal values and boundary values (exactly 10 in the pass/fail example).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": 4,
+   "b": 3,
+   "n": 5
+  },
+  "problem": "Trace: “Start with x = {x}. Repeat {n} times: add {b} to x. Output x.”",
+  "steps": [
+   "Each repeat adds {b}.",
+   "{n} repeats add {n} × {b} = {n * b}.",
+   "Output: {x} + {n * b} = {traceAdd(x, b, n)}."
+  ],
+  "answer": "{traceAdd(x, b, n)}",
+  "checks": [
+   "traceAdd(x, b, n) == 19"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Flowchart symbols: oval, parallelogram, rectangle, diamond, arrows.",
+    "vars": {},
+    "example": [
+     "A diamond asks a yes/no question."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-9-symbol"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Tracing means following the algorithm step by step with test values.",
+    "vars": {
+     "x": 2,
+     "b": 4,
+     "three": 3
+    },
+    "example": [
+     "Start {x}, add {b} three times: {traceAdd(x, b, three)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-9-trace"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "A decision chooses a path: IF … THEN … ELSE.",
+    "vars": {
+     "p": 10
+    },
+    "example": [
+     "IF mark ≥ {p} THEN “pass” ELSE “fail”."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-9-if-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "problem-solving"
+     ],
+     "vars": {
+      "p": {
+       "pick": [
+        10,
+        12,
+        50
+       ]
+      },
+      "d": {
+       "pick": [
+        -3,
+        -1,
+        0,
+        0,
+        1,
+        4
+       ]
+      },
+      "m": {
+       "expr": "p + d"
+      }
+     },
+     "prompt": "INPUT mark. IF mark ≥ {p} THEN OUTPUT “pass” ELSE OUTPUT “fail”. What is output when mark = {m}?",
+     "correct": "{m >= p ? 'pass' : 'fail'}",
+     "distractors": [
+      {
+       "text": "{m >= p ? 'fail' : 'pass'}",
+       "misconception": "flip"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "flip",
+       "explain": "Compare carefully: {m} ≥ {p} is {m >= p ? 'true' : 'false'} (equal counts as ≥)."
+      }
+     ],
+     "solution": [
+      "Is {m} ≥ {p}? {m >= p ? 'Yes' : 'No'}.",
+      "So the output is {answer}."
+     ],
+     "show": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-9-symbol",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "problem-solving"
+   ],
+   "prompt": "Match each flowchart symbol to its meaning.",
+   "pool": [
+    {
+     "left": "oval",
+     "right": "start or end"
+    },
+    {
+     "left": "parallelogram",
+     "right": "input or output"
+    },
+    {
+     "left": "rectangle",
+     "right": "a process (a calculation or action)"
+    },
+    {
+     "left": "diamond",
+     "right": "a decision (a yes/no question)"
+    },
+    {
+     "left": "arrow",
+     "right": "the direction of flow"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-9-trace",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "problem-solving"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      0,
+      20
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "Trace: “Start with x = {x}. Repeat {n} times: add {b} to x. Output x.” What is output?",
+   "answer": "traceAdd(x, b, n)",
+   "misconceptions": [
+    {
+     "id": "once",
+     "wrong": "x + b",
+     "explain": "The step is repeated {n} times, not once."
+    },
+    {
+     "id": "times",
+     "wrong": "x * b * n",
+     "explain": "Add, do not multiply."
+    }
+   ],
+   "solution": [
+    "Each repeat adds {b}: {n} × {b} = {n * b}.",
+    "{x} + {n * b} = {answer}."
+   ]
+  },
+  {
+   "id": "s2-9-if",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "problem-solving"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      10,
+      12,
+      50
+     ]
+    },
+    "d": {
+     "pick": [
+      -3,
+      -1,
+      0,
+      0,
+      1,
+      4
+     ]
+    },
+    "m": {
+     "expr": "p + d"
+    }
+   },
+   "prompt": "INPUT mark. IF mark ≥ {p} THEN OUTPUT “pass” ELSE OUTPUT “fail”. What is output when mark = {m}?",
+   "correct": "{m >= p ? 'pass' : 'fail'}",
+   "distractors": [
+    {
+     "text": "{m >= p ? 'fail' : 'pass'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Compare carefully: {m} ≥ {p} is {m >= p ? 'true' : 'false'} (equal counts as ≥)."
+    }
+   ],
+   "solution": [
+    "Is {m} ≥ {p}? {m >= p ? 'Yes' : 'No'}.",
+    "So the output is {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "s2-9-double",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "problem-solving"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "Trace: “Start with x = {x}. Repeat {n} times: double x. Output x.” What is output?",
+   "answer": "traceDouble(x, n)",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "x + 2 * n",
+     "explain": "Doubling multiplies by {two} each time; it does not add."
+    },
+    {
+     "id": "once",
+     "wrong": "x * 2",
+     "explain": "Double {n} times, not once."
+    }
+   ],
+   "solution": [
+    "Each repeat multiplies by {two}.",
+    "{x} × {two} {n} times = {answer}."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "s2-5",
+   "name": "Applications and ethics of Artificial Intelligence"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Applications: health (reading scans, spotting disease), agriculture (identifying crop diseases from phone photos, forecasting weather), education (tutoring apps), transport (route planning), business (answering customers), security (detecting fraud) and accessibility (reading text aloud for blind people).\nEthical problems:\n• bias: AI trained on unfair or one-sided data can treat some people unfairly;\n• privacy: AI uses personal data that must be protected;\n• misinformation: AI can produce false text and fake images or videos (deepfakes);\n• jobs: some tasks are automated;\n• over-reliance: people may stop thinking or checking.\nResponsible use: check facts with other sources, do not share personal data, say honestly when you used AI, and do not use it to cheat or to harm others.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "an AI chatbot"
+  },
+  "problem": "Bih asks {t} for the date of a historical event and copies the answer into her homework. What should she do differently?",
+  "steps": [
+   "AI can give wrong answers that sound confident, so she should check the date in her textbook or another reliable source.",
+   "She should also say honestly that she used AI, and write the answer in her own words."
+  ],
+  "answer": "Check the fact with another source, and be honest about using AI.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "AI helps in health, farming, education, transport and business.",
+    "vars": {},
+    "example": [
+     "A phone app can spot cassava disease from a photo."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-5-use"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "AI raises problems: bias, privacy, false information, jobs, over-reliance.",
+    "vars": {},
+    "example": [
+     "A deepfake is a fake video made with AI."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-5-ethic"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "Use AI responsibly: check facts, protect personal data, be honest, do not cheat.",
+    "vars": {},
+    "example": [
+     "AI answers can be wrong."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-5-rules-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "artificial-intelligence"
+     ],
+     "prompt": "Which is responsible use of AI?",
+     "pool": {
+      "right": [
+       {
+        "text": "checking AI answers with other sources",
+        "truth": "true"
+       },
+       {
+        "text": "saying honestly when you used AI",
+        "truth": "true"
+       },
+       {
+        "text": "keeping personal data private",
+        "truth": "true"
+       },
+       {
+        "text": "using AI to help you understand, then doing your own work",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "sharing your friends' phone numbers with a chatbot",
+        "truth": "false",
+        "explain": "That breaks their privacy."
+       },
+       {
+        "text": "handing in AI work as your own",
+        "truth": "false",
+        "explain": "That is dishonest."
+       },
+       {
+        "text": "making a fake video to embarrass someone",
+        "truth": "false",
+        "explain": "That is harmful."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 2
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-5-use",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Match each area to an AI application.",
+   "pool": [
+    {
+     "left": "health",
+     "right": "reading medical scans"
+    },
+    {
+     "left": "agriculture",
+     "right": "spotting crop disease from photos"
+    },
+    {
+     "left": "education",
+     "right": "a tutoring app"
+    },
+    {
+     "left": "transport",
+     "right": "planning the fastest route"
+    },
+    {
+     "left": "accessibility",
+     "right": "reading text aloud for blind people"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-5-ethic",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Match each ethical problem to an example.",
+   "pool": [
+    {
+     "left": "bias",
+     "right": "a system that treats some groups unfairly"
+    },
+    {
+     "left": "privacy",
+     "right": "personal data shared without permission"
+    },
+    {
+     "left": "misinformation",
+     "right": "a fake video of a real person"
+    },
+    {
+     "left": "over-reliance",
+     "right": "copying AI answers without thinking"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-5-rules",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Which is responsible use of AI?",
+   "pool": {
+    "right": [
+     {
+      "text": "checking AI answers with other sources",
+      "truth": "true"
+     },
+     {
+      "text": "saying honestly when you used AI",
+      "truth": "true"
+     },
+     {
+      "text": "keeping personal data private",
+      "truth": "true"
+     },
+     {
+      "text": "using AI to help you understand, then doing your own work",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "sharing your friends' phone numbers with a chatbot",
+      "truth": "false",
+      "explain": "That breaks their privacy."
+     },
+     {
+      "text": "handing in AI work as your own",
+      "truth": "false",
+      "explain": "That is dishonest."
+     },
+     {
+      "text": "making a fake video to embarrass someone",
+      "truth": "false",
+      "explain": "That is harmful."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "s2-5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "artificial-intelligence"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "AI can help doctors read scans.",
+      "truth": "true"
+     },
+     {
+      "text": "Deepfakes are fake images or videos.",
+      "truth": "true"
+     },
+     {
+      "text": "AI can be biased.",
+      "truth": "true"
+     },
+     {
+      "text": "Personal data must be protected.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "AI answers are always correct, so there is no need to check them.",
+      "truth": "false",
+      "explain": "AI can be wrong: check with other sources."
+     },
+     {
+      "text": "Bias means AI is always fair.",
+      "truth": "false",
+      "explain": "Bias means unfair treatment."
+     },
+     {
+      "text": "It is fine to share passwords with a chatbot.",
+      "truth": "false",
+      "explain": "Never share passwords or personal data."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

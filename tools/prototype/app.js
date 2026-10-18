@@ -275,7 +275,7 @@ const inProgress = (s) => { const c = state.current[s]; return c && !teach.isDon
 // Each subject's colour (dark enough for white text: contrast 4.5:1 or more) and icon.
 const STYLE = {
   maths: ["#1d4ed8", "🔢"], english: ["#6d28d9", "📖"], physics: ["#b45309", "⚡"], chemistry: ["#0f766e", "🧪"], geography: ["#2e7d32", "🌍"],
-  "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"],
+  "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"], accounting: ["#556b2f", "🧾"],
 };
 const styleOf = (s) => STYLE[s] || STYLE[s.replace(/^f2-/, "")];  // a Form 2 subject looks like its Form One subject
 const colourOf = (s) => (styleOf(s) || ["#1f6f4a"])[0];

@@ -2329,7 +2329,49 @@ function beanSeed(k) {
   return svg(310, 210, "A bean seed opened, with lettered parts", b);
 }
 
-return { mean, spread, readings, kmhToMs, msToKmh, atomicNumber, massNumber, neutrons, firstTwenty, shellList, shells, outerElectrons, groupOf, periodOf, familyOf, valency, isRadical, partName, positives, negatives, radicals, compoundFormula, unsimplified, needsSimplifying, compoundName, elementOf, lineGraph, barChart, bohr, FLOWER_PARTS, flowerPart, flower, SEED_PARTS, seedPart, beanSeed };
+// ---------------------------------------------------------------- Form 2 Computer Science: hexadecimal, characters, storage
+const HEX = "0123456789ABCDEF";
+/** n in base 16, capital letters: toHex(255) → "FF". */
+function toHex(n) {
+  if (!Number.isInteger(n) || n < 0) throw new RangeError(`toHex(${n})`);
+  let s = "";
+  do { s = HEX[n % 16] + s; n = Math.floor(n / 16); } while (n > 0);
+  return s;
+}
+function fromHex(s) {
+  let v = 0;
+  for (const c of String(s).toUpperCase()) { const d = HEX.indexOf(c); if (d < 0) return NaN; v = v * 16 + d; }
+  return v;
+}
+/** The value of one hexadecimal digit: hexValue("B") → 11. */
+const hexValue = (c) => HEX.indexOf(String(c).toUpperCase());
+/** An 8-bit binary pattern: bits8(5) → "00000101". */
+function bits8(n) {
+  if (!Number.isInteger(n) || n < 0 || n > 255) throw new RangeError(`bits8(${n})`);
+  return n.toString(2).padStart(8, "0");
+}
+/** ASCII code of a character, and the character of a code (printable ASCII only, 32 to 126). */
+function asciiOf(c) {
+  const n = String(c).charCodeAt(0);
+  if (String(c).length !== 1 || n < 32 || n > 126) throw new RangeError(`asciiOf(${c})`);
+  return n;
+}
+function charOf(n) {
+  if (!Number.isInteger(n) || n < 32 || n > 126) throw new RangeError(`charOf(${n})`);
+  return String.fromCharCode(n);
+}
+// Storage units (authored, TR-T05: the school convention of 1 KB = 1024 bytes). 1 byte = 8 bits.
+const STORE = { bit: 1 / 8, byte: 1, KB: 1024, MB: 1024 ** 2, GB: 1024 ** 3, TB: 1024 ** 4 };
+const storageUnits = () => Object.keys(STORE);
+/** Converts between storage units: storageConvert(2, "KB", "byte") → 2048. */
+function storageConvert(v, from, to) {
+  if (!(from in STORE) || !(to in STORE)) throw new RangeError(`storageConvert: ${from} → ${to}`);
+  return Number(((v * STORE[from]) / STORE[to]).toPrecision(12));
+}
+/** How many `to` units in one `from` unit: storageFactor("MB", "KB") → 1024. */
+const storageFactor = (from, to) => storageConvert(1, from, to);
+
+return { mean, spread, readings, kmhToMs, msToKmh, atomicNumber, massNumber, neutrons, firstTwenty, shellList, shells, outerElectrons, groupOf, periodOf, familyOf, valency, isRadical, partName, positives, negatives, radicals, compoundFormula, unsimplified, needsSimplifying, compoundName, elementOf, lineGraph, barChart, bohr, FLOWER_PARTS, flowerPart, flower, SEED_PARTS, seedPart, beanSeed, toHex, fromHex, hexValue, bits8, asciiOf, charOf, storageUnits, storageConvert, storageFactor };
 })();
 __mods["template.js"] = (() => {
 // Turns a JSON question template + a seed into a concrete question, and checks responses.
@@ -2993,6 +3035,8 @@ return { buildReadiness, scoreReadiness };
 })();
 const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     "f2-maths": { ...__mods["lib/maths.js"], ...__mods["lib/maths2.js"] }, "f2-english": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
+    
+    "f2-home-economics": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-geography": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-history": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-computer-science": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-accounting": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] },
     "f2-physics": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-chemistry": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-biology": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] },
     physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },
     chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] },
@@ -3289,7 +3333,7 @@ const inProgress = (s) => { const c = state.current[s]; return c && !teach.isDon
 // Each subject's colour (dark enough for white text: contrast 4.5:1 or more) and icon.
 const STYLE = {
   maths: ["#1d4ed8", "🔢"], english: ["#6d28d9", "📖"], physics: ["#b45309", "⚡"], chemistry: ["#0f766e", "🧪"], geography: ["#2e7d32", "🌍"],
-  "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"],
+  "home-economics": ["#b42318", "🍲"], history: ["#7c4a1e", "🏛️"], biology: ["#3f7d20", "🌱"], "computer-science": ["#334e9c", "💻"], french: ["#ad1457", "💬"], accounting: ["#556b2f", "🧾"],
 };
 const styleOf = (s) => STYLE[s] || STYLE[s.replace(/^f2-/, "")];  // a Form 2 subject looks like its Form One subject
 const colourOf = (s) => (styleOf(s) || ["#1f6f4a"])[0];

@@ -1,0 +1,285 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-8",
+   "name": "Problem-solving strategies (1)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Computer scientists solve problems in steps:\n1. Understand the problem: what is given (the inputs)? What is wanted (the output)?\n2. Plan a solution: break the problem into smaller parts (decomposition) and write the steps in order (an algorithm).\n3. Carry out the plan.\n4. Check (test) the result and improve it.\nAn algorithm is a finite list of clear steps, in order, that solves a problem. A recipe or the directions to a friend's house are everyday algorithms.\nGood steps are precise (no guessing), in the right order, and the algorithm stops.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "finding the average mark of a pupil in three subjects"
+  },
+  "problem": "Identify the inputs, the output and the steps for {t}.",
+  "steps": [
+   "Inputs: the three marks.",
+   "Output: the average mark.",
+   "Steps: add the three marks, divide the total by three, display the result."
+  ],
+  "answer": "Inputs: three marks; steps: add, divide by three, display; output: the average.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "Problem solving: understand, plan, carry out, check.",
+    "vars": {},
+    "example": [
+     "Understanding means finding the inputs and the output."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-8-steps"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "Decomposition breaks a big problem into smaller parts.",
+    "vars": {},
+    "example": [
+     "Planning a party: guests, food, music, place."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-8-decompose"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "An algorithm is a list of clear, ordered steps that ends.",
+    "vars": {},
+    "example": [
+     "A recipe is an algorithm."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-8-algo-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "problem-solving"
+     ],
+     "prompt": "Put the steps of an algorithm to make a cup of tea in order.",
+     "items": [
+      {
+       "text": "Boil the water"
+      },
+      {
+       "text": "Put a tea bag in the cup"
+      },
+      {
+       "text": "Pour the hot water into the cup"
+      },
+      {
+       "text": "Wait, then remove the tea bag"
+      },
+      {
+       "text": "Add sugar if wanted"
+      }
+     ],
+     "order": "as_written"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-8-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "problem-solving"
+   ],
+   "prompt": "Put the problem-solving steps in order.",
+   "items": [
+    {
+     "text": "Understand the problem"
+    },
+    {
+     "text": "Plan a solution"
+    },
+    {
+     "text": "Carry out the plan"
+    },
+    {
+     "text": "Check the result"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "s2-8-decompose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "problem-solving"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is decomposition?",
+       "r": "breaking a big problem into smaller parts",
+       "w": [
+        "throwing a computer away",
+        "making a problem bigger",
+        "printing a document"
+       ],
+       "e": [
+        "That is not it.",
+        "That is the opposite.",
+        "That is not it."
+       ],
+       "y": "Smaller parts are easier to solve."
+      },
+      {
+       "q": "In the problem “calculate the area of a rectangle”, what are the inputs?",
+       "r": "the length and the width",
+       "w": [
+        "the area",
+        "the printer",
+        "the colour of the rectangle"
+       ],
+       "e": [
+        "The area is the output.",
+        "That is a device.",
+        "Colour is not needed."
+       ],
+       "y": "Inputs are the given data."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-8-algo",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "problem-solving"
+   ],
+   "prompt": "Put the steps of an algorithm to make a cup of tea in order.",
+   "items": [
+    {
+     "text": "Boil the water"
+    },
+    {
+     "text": "Put a tea bag in the cup"
+    },
+    {
+     "text": "Pour the hot water into the cup"
+    },
+    {
+     "text": "Wait, then remove the tea bag"
+    },
+    {
+     "text": "Add sugar if wanted"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "s2-8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "problem-solving"
+   ],
+   "prompt": "Which statement about algorithms is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "An algorithm has steps in order.",
+      "truth": "true"
+     },
+     {
+      "text": "Its steps must be clear.",
+      "truth": "true"
+     },
+     {
+      "text": "An algorithm must stop.",
+      "truth": "true"
+     },
+     {
+      "text": "A recipe is an everyday algorithm.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An algorithm can go on for ever with no end.",
+      "truth": "false",
+      "explain": "An algorithm must stop."
+     },
+     {
+      "text": "The order of the steps does not matter.",
+      "truth": "false",
+      "explain": "The order matters."
+     },
+     {
+      "text": "Steps can be vague, like “do something nice”.",
+      "truth": "false",
+      "explain": "Steps must be precise."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

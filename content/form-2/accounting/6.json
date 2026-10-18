@@ -1,0 +1,467 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "a2-6",
+   "name": "Representing economic flows and analysing them"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Flows are drawn as arrows between boxes: the business in the middle, partners around it. A solid arrow for real flows and a dashed arrow for financial flows, each labelled with the amount.\nExample: goods (real) → from the supplier to the shop; cash (financial) → from the shop to the supplier.\nAccounting analysis then uses accounts. For each transaction ask:\n1. Which accounts are affected?\n2. Does each one increase or decrease?\n3. Which account is debited and which credited?\nRule for flows: the account that receives (the destination of the flow) is debited; the account that gives (the origin) is credited.\nExample: buying equipment for cash: Equipment receives (debit), Cash gives (credit).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": 100000
+  },
+  "problem": "Analyse: the business pays rent of {r} FCFA in cash.",
+  "steps": [
+   "Accounts affected: Rent (an expense) and Cash.",
+   "Rent receives the value (the service of the premises): debit Rent.",
+   "Cash gives the money: credit Cash."
+  ],
+  "answer": "Debit Rent {r}; credit Cash {r}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Draw flows as arrows between the business and its partners: solid for real flows, dashed for money.",
+    "vars": {},
+    "example": [
+     "Label each arrow with the amount."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-6-arrow"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "The account that receives is debited; the account that gives is credited.",
+    "vars": {},
+    "example": [
+     "Equipment bought for cash: debit Equipment, credit Cash."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-6-rule"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Analysis: which accounts, increase or decrease, debit or credit?",
+    "vars": {},
+    "example": [
+     "Two accounts, equal amounts."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-6-which-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "economic-flows"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Goods are bought on credit from Tabe Supplies.",
+         "r": "Purchases (goods)",
+         "w": [
+          "Tabe Supplies (creditor)",
+          "Cash",
+          "Capital"
+         ],
+         "e": [
+          "The supplier gives: credit.",
+          "No cash moves.",
+          "The owner is not involved."
+         ],
+         "y": "Goods are received: debit Purchases."
+        },
+        {
+         "q": "A customer pays 50 000 FCFA cash for goods.",
+         "r": "Cash",
+         "w": [
+          "Sales",
+          "Capital",
+          "Equipment"
+         ],
+         "e": [
+          "Sales is credited.",
+          "Not involved.",
+          "Not involved."
+         ],
+         "y": "Cash is received: debit Cash."
+        },
+        {
+         "q": "The owner brings 1 000 000 FCFA into the business bank account.",
+         "r": "Bank",
+         "w": [
+          "Capital",
+          "Creditors",
+          "Sales"
+         ],
+         "e": [
+          "Capital gives: credit.",
+          "Not involved.",
+          "Not involved."
+         ],
+         "y": "The bank receives: debit Bank."
+        },
+        {
+         "q": "Electricity bill paid in cash.",
+         "r": "Electricity (expense)",
+         "w": [
+          "Cash",
+          "Sales",
+          "Capital"
+         ],
+         "e": [
+          "Cash gives: credit.",
+          "Not involved.",
+          "Not involved."
+         ],
+         "y": "The expense receives the service: debit it."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q} Which account is debited?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-6-arrow",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "economic-flows"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In a flow diagram, what does an arrow show?",
+       "r": "the direction a flow moves, from one partner to another",
+       "w": [
+        "the owner's name",
+        "the date of the balance sheet",
+        "a profit"
+       ],
+       "e": [
+        "Not shown by arrows.",
+        "Not shown by arrows.",
+        "Not shown by arrows."
+       ],
+       "y": "Arrows show who gives and who receives."
+      },
+      {
+       "q": "Goods are sold for cash. In which direction does the cash arrow point?",
+       "r": "from the customer to the business",
+       "w": [
+        "from the business to the customer",
+        "from the bank to the State",
+        "there is no cash arrow"
+       ],
+       "e": [
+        "The goods go that way.",
+        "They are not involved.",
+        "Cash moves."
+       ],
+       "y": "The customer pays the business."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-6-rule",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "economic-flows"
+   ],
+   "prompt": "Equipment is bought for cash. Which analysis is correct?",
+   "pool": {
+    "right": [
+     {
+      "text": "Debit Equipment, credit Cash",
+      "truth": "true"
+     },
+     {
+      "text": "Equipment increases and cash decreases",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Debit Cash, credit Equipment",
+      "truth": "false",
+      "explain": "Equipment receives (debit); cash gives (credit)."
+     },
+     {
+      "text": "Credit both accounts",
+      "truth": "false",
+      "explain": "One account is debited and one credited."
+     },
+     {
+      "text": "Only the Cash account changes",
+      "truth": "false",
+      "explain": "Two accounts change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "a2-6-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "economic-flows"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Goods are bought on credit from Tabe Supplies.",
+       "r": "Purchases (goods)",
+       "w": [
+        "Tabe Supplies (creditor)",
+        "Cash",
+        "Capital"
+       ],
+       "e": [
+        "The supplier gives: credit.",
+        "No cash moves.",
+        "The owner is not involved."
+       ],
+       "y": "Goods are received: debit Purchases."
+      },
+      {
+       "q": "A customer pays 50 000 FCFA cash for goods.",
+       "r": "Cash",
+       "w": [
+        "Sales",
+        "Capital",
+        "Equipment"
+       ],
+       "e": [
+        "Sales is credited.",
+        "Not involved.",
+        "Not involved."
+       ],
+       "y": "Cash is received: debit Cash."
+      },
+      {
+       "q": "The owner brings 1 000 000 FCFA into the business bank account.",
+       "r": "Bank",
+       "w": [
+        "Capital",
+        "Creditors",
+        "Sales"
+       ],
+       "e": [
+        "Capital gives: credit.",
+        "Not involved.",
+        "Not involved."
+       ],
+       "y": "The bank receives: debit Bank."
+      },
+      {
+       "q": "Electricity bill paid in cash.",
+       "r": "Electricity (expense)",
+       "w": [
+        "Cash",
+        "Sales",
+        "Capital"
+       ],
+       "e": [
+        "Cash gives: credit.",
+        "Not involved.",
+        "Not involved."
+       ],
+       "y": "The expense receives the service: debit it."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q} Which account is debited?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "economic-flows"
+   ],
+   "prompt": "Which analysis is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cash sale: debit Cash, credit Sales.",
+      "truth": "true"
+     },
+     {
+      "text": "Rent paid in cash: debit Rent, credit Cash.",
+      "truth": "true"
+     },
+     {
+      "text": "Owner brings cash: debit Cash, credit Capital.",
+      "truth": "true"
+     },
+     {
+      "text": "Credit purchase: debit Purchases, credit Creditors.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cash sale: debit Sales, credit Cash.",
+      "truth": "false",
+      "explain": "Cash receives (debit); Sales gives (credit)."
+     },
+     {
+      "text": "Equipment bought for cash: debit Cash, credit Equipment.",
+      "truth": "false",
+      "explain": "Debit Equipment, credit Cash."
+     },
+     {
+      "text": "Paying a creditor by cheque: debit Bank, credit Creditors.",
+      "truth": "false",
+      "explain": "Debit Creditors (debt reduced), credit Bank (money leaves)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

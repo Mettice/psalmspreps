@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-162 P1 items: 160 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+182 P1 items: 180 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -191,6 +191,25 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-V04 | Form 2 Biology: pollination, fertilisation, seeds | open |
 | TR-V05 | Form 2 Biology: germination | open |
 | TR-V06 | Form 2 Biology: pests and diseases | open |
+| TR-U01 | Form 2 Home Economics: nutrients | open |
+| TR-U02 | Form 2 Home Economics: energy values | open |
+| TR-U03 | Form 2 Home Economics: water and water-borne diseases | open |
+| TR-U04 | Form 2 Home Economics: kitchens | open |
+| TR-O01 | Form 2 Geography: world population | open |
+| TR-O02 | Form 2 Geography: demographic indices | open |
+| TR-O03 | Form 2 Geography: Cameroon regions data | open |
+| TR-O04 | Form 2 Geography: equatorial zone, deforestation | open |
+| TR-I01 | Form 2 History: Sao and Pygmies | open |
+| TR-I02 | Form 2 History: migrations | open |
+| TR-I03 | Form 2 History: pre-colonial societies | open |
+| TR-I04 | Form 2 History: ancient Ghana | open |
+| TR-T01 | Form 2 Computer Science: hardware | open |
+| TR-T02 | Form 2 Computer Science: AI and prompts | open |
+| TR-T03 | Form 2 Computer Science: problem solving | open |
+| TR-T04 | Form 2 Computer Science: software, number systems | open |
+| TR-X01 | Form 2 Accounting: balance sheet | open |
+| TR-X02 | Form 2 Accounting: flows and analysis | open |
+| TR-X03 | Form 2 Accounting: recording | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -694,3 +713,61 @@ practicals (taught as the method, the results and the conclusion): 18 notes, 54 
 
 ### P2: decisions
 - [ ] **TR-V07 [P2] Practicals in the app:** the five experiments (rows 4, 5, 9, 18, 19) are taught on screen (method, observations, conclusion), not done. The pupil should still do them with a teacher or a grown-up. *Location:* those lessons.
+
+## U. Home Economics Form 2, Batch H2-1 (Term 1: rows 1–9, 12–21), added 2026-10-18 (form-2 branch, not live)
+
+19 lessons (integration and remediation rows 10, 11, 22, 23 are not lessons): 57 teach cards, 76 practice templates and 19
+card-check templates; 88 authored, 7 computed. Rows 16–21 repeat the Form One kitchen topics and reuse the Form One drawings.
+Everything is in `content/form-2/home-economics/REVIEW.md` and `AUTHORED.md`. Reviewer: a Home Economics teacher.
+
+### P1
+- [ ] **TR-U01 [P1] Nutrients (rows 1–4, 6–9, 13–14):** composition, sources, functions, deficiencies (marasmus, kwashiorkor, night blindness, beriberi, scurvy, rickets, anaemia, goitre), effects of heat (gelatinisation, dextrinisation, caramelisation, coagulation), vitamins and minerals, hidden hunger, fibre. *Location:* those lessons.
+- [ ] **TR-U02 [P1] Energy values:** carbohydrate and protein 4 kcal (17 kJ) per gram, fat 9 kcal (37 kJ); meal energy calculations. *Location:* `5.json`.
+- [ ] **TR-U03 [P1] Water and water-borne diseases (rows 9, 12, 15):** functions of water, dehydration, cholera, typhoid, dysentery, hepatitis A, bilharzia, ORS, prevention. *Location:* those lessons.
+- [ ] **TR-U04 [P1] Kitchens (rows 16–21):** traditional items and fuels, fireplaces (carbon monoxide warning for charcoal stoves), care, modern kitchen shapes, units, planning points, timing a meal. *Location:* those lessons.
+
+## O. Geography Form 2, Batch G2-1 (Term 1, rows 1–10), added 2026-10-18 (form-2 branch, not live)
+
+10 lessons including the two practicals and the further study: 30 cards, 40 practice and 10 card-check templates; 33
+authored, 17 computed. Reviewer: a Geography teacher.
+
+### P1
+- [ ] **TR-O01 [P1] World population (rows 1, 2, 5, 6):** milestones (1 billion about 1800 … 8 billion in 2022), factors of growth, effects on resources, densely and sparsely populated regions and the factors. *Location:* those lessons.
+- [ ] **TR-O02 [P1] Demographic indices (rows 3, 4):** BR, DR (per thousand), NI = BR − DR, conversion to %. *Location:* `3.json`, `4.json`.
+- [ ] **TR-O03 [P1] Cameroon regions (row 7):** the areas of the ten regions and the **rounded population estimates (to be checked against the latest BUCREP/INS figures)** used for density practice. *Location:* `REG` in the authoring data, `content/form-2/geography/7.json`.
+- [ ] **TR-O04 [P1] The equatorial zone and deforestation (rows 8–10):** location, climate figures, resources, problems and solutions; causes, signs and consequences of deforestation; Dja, Lobéké and Korup. *Location:* those lessons.
+
+## I. History Form 2, Batch Y2-1 (Term 1, rows 1–10), added 2026-10-18 (form-2 branch, not live)
+
+10 lessons, including two guided works and one further study (taught as enquiry method): 30 cards, 40 practice and 10
+card-check templates; 49 authored. Reviewer: a History teacher.
+
+### P1
+- [ ] **TR-I01 [P1] The Sao and the Pygmies (rows 1–2):** Pygmy groups and way of life; the Sao (dates given as approximate, about the 5th–6th to the 16th century), their towns, crafts and decline under Kanem-Bornu; the Kotoko. *Location:* `1.json`, `2.json`.
+- [ ] **TR-I02 [P1] Migrations (rows 3–4):** the groupings Bantu, semi-Bantu (Grassfields), Sudanese (Kirdi), Fulani (jihad of Modibo Adama from 1809), and the classification of each named people. *Location:* `3.json`, `4.json`.
+- [ ] **TR-I03 [P1] Pre-colonial societies (rows 6–8):** centralised (lamidates, Bamum, Grassfields chiefdoms, Mandara) and egalitarian (Beti, Bassa, Bakweri, Mafa) societies; Njoya (about 1886–1933) and Foumban. The sheet's “Equalisation states” is read as egalitarian societies: please confirm. *Location:* `6.json` to `8.json`.
+- [ ] **TR-I04 [P1] Ancient Ghana (row 9):** location (today's Mauritania and Mali), Soninke, Koumbi Saleh, gold and salt trade, the Almoravids in 1076. *Location:* `9.json`.
+- [ ] **TR-I05 [P2] Guided works (rows 5, 10):** taught as the method of a local enquiry, since the app cannot know the school's region. *Location:* `5.json`, `10.json`.
+
+## T. Computer Science Form 2, Batch S2-1 (Term 1: rows 1, 2, 4–6, 8, 9, 11, 12, 14–16, 18, 19), added 2026-10-18 (form-2 branch, not live)
+
+14 lessons (integration rows are not lessons): 42 cards, 56 practice and 14 card-check templates; 44 authored, 26
+computed. Reviewer: a Computer Science teacher.
+
+### P1
+- [ ] **TR-T01 [P1] Hardware (rows 1–2):** input, output, processing and storage devices; CPU parts; RAM and ROM. *Location:* `1.json`, `2.json`.
+- [ ] **TR-T02 [P1] Artificial intelligence (rows 4–6):** definition, machine learning, applications, ethics (bias, privacy, deepfakes, jobs, over-reliance), responsible use, good prompts. Written from general knowledge for this level: please check the examples and tone. *Location:* `4.json` to `6.json`.
+- [ ] **TR-T03 [P1] Problem solving (rows 8–9):** steps, decomposition, algorithms, flowchart symbols, tracing. *Location:* `8.json`, `9.json`.
+- [ ] **TR-T04 [P1] System software (rows 11–12) and number systems (rows 14–16):** OS functions and examples, utilities and drivers; binary, octal, decimal, hexadecimal, bytes, ASCII and Unicode. *Location:* those lessons.
+- [ ] **TR-T05 [P2] Storage units:** 1 KB = 1024 bytes (the usual school convention; some makers use 1000). Please confirm the convention your school uses. *Location:* `storageConvert()` in `src/engine/lib/science2.js`; `19.json`.
+
+## X. Accounting Form 2, Batch A2-1 (Term 1: rows 1–8, 10–12), added 2026-10-18 (form-2 branch, not live)
+
+A new subject in Form 2, with its own colour and icon in the app. 11 lessons (row 9, remedial activities, is not a lesson;
+row 1 is marked “evaluation” by the sheet reader but is the lesson “definition and evaluation of the financial position”):
+33 cards, 44 practice and 11 card-check templates; 38 authored, 17 computed. Reviewer: an Accounting teacher.
+
+### P1
+- [ ] **TR-X01 [P1] Financial position and the balance sheet (rows 1–4):** assets, liabilities, owner's equity (capital, drawings), fixed and current assets, presentation, the equation and how transactions change it. *Location:* `1.json` to `4.json`.
+- [ ] **TR-X02 [P1] Economic flows and analysis (rows 5–6):** real and financial flows, partners, the rule “the receiving account is debited, the giving account credited”. *Location:* `5.json`, `6.json`.
+- [ ] **TR-X03 [P1] Recording (rows 7, 8, 10–12):** T-accounts, how asset, capital/liability, expense and revenue accounts work, balancing (c/d, b/d), single and double entry, the trial balance and reciprocity. Terms are simplified from SYSCOHADA: please check they match the textbook. *Location:* those lessons.
