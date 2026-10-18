@@ -1,0 +1,365 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-4",
+   "name": "Base physical quantities, their units and instruments"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A physical quantity is something we can measure, with a number and a unit. The SI system has seven base quantities; in Form 2 we use five:\n• length: metre (m), measured with a ruler, metre rule or tape measure;\n• mass: kilogram (kg), measured with a balance;\n• time: second (s), measured with a stopwatch or clock;\n• temperature: kelvin (K), measured with a thermometer (we also use °C);\n• electric current: ampere (A), measured with an ammeter.\n(The other two are the amount of substance, mole, and luminous intensity, candela.)\nOther quantities are derived from these: area (m²), volume (m³), speed (m/s), density (kg/m³).\nPrefixes: kilo- = 1000 (1 km = 1000 m), centi- = one hundredth (100 cm = 1 m), milli- = one thousandth (1000 mm = 1 m).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2.5,
+   "b": 350
+  },
+  "problem": "Write {a} km in metres and {b} cm in metres.",
+  "steps": [
+   "Kilo means a thousand: {a} km = {a} × {factor('km', 'm')} = {convertUnit(a, 'km', 'm')} m.",
+   "Centi means one hundredth: {b} cm = {b} ÷ {factor('m', 'cm')} = {convertUnit(b, 'cm', 'm')} m."
+  ],
+  "answer": "{convertUnit(a, 'km', 'm')} m and {convertUnit(b, 'cm', 'm')} m",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "Each base quantity has an SI unit.",
+    "vars": {},
+    "example": [
+     "length: metre (m); mass: kilogram (kg); time: second (s)",
+     "temperature: kelvin (K); current: ampere (A)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-4-unit"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Each quantity has its instrument.",
+    "vars": {},
+    "example": [
+     "mass: a balance; time: a stopwatch",
+     "current: an ammeter; temperature: a thermometer"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-4-tool"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "Prefixes: kilo- is a thousand times; centi- a hundredth; milli- a thousandth.",
+    "vars": {},
+    "example": [
+     "1 km = {factor('km', 'm')} m; 1 m = {factor('m', 'cm')} cm",
+     "1 kg = {factor('kg', 'g')} g; 1 g = {factor('g', 'mg')} mg"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-4-convert"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-4-unit",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "prompt": "Match each base quantity to its SI unit.",
+   "pool": [
+    {
+     "left": "length",
+     "right": "metre (m)"
+    },
+    {
+     "left": "mass",
+     "right": "kilogram (kg)"
+    },
+    {
+     "left": "time",
+     "right": "second (s)"
+    },
+    {
+     "left": "temperature",
+     "right": "kelvin (K)"
+    },
+    {
+     "left": "electric current",
+     "right": "ampere (A)"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-4-tool",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "prompt": "Match each quantity to the instrument that measures it.",
+   "pool": [
+    {
+     "left": "mass",
+     "right": "a balance"
+    },
+    {
+     "left": "time",
+     "right": "a stopwatch"
+    },
+    {
+     "left": "electric current",
+     "right": "an ammeter"
+    },
+    {
+     "left": "temperature",
+     "right": "a thermometer"
+    },
+    {
+     "left": "length",
+     "right": "a metre rule"
+    },
+    {
+     "left": "volume of a liquid",
+     "right": "a measuring cylinder"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-4-convert",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "U": {
+     "pick": [
+      [
+       "km",
+       "m"
+      ],
+      [
+       "m",
+       "cm"
+      ],
+      [
+       "kg",
+       "g"
+      ],
+      [
+       "g",
+       "kg"
+      ],
+      [
+       "cm",
+       "m"
+      ],
+      [
+       "m",
+       "mm"
+      ],
+      [
+       "mm",
+       "cm"
+      ],
+      [
+       "g",
+       "mg"
+      ]
+     ]
+    },
+    "v": {
+     "pick": [
+      2,
+      3.5,
+      4,
+      12,
+      250,
+      750,
+      1500
+     ]
+    }
+   },
+   "prompt": "Convert {v} {U[0]} to {U[1]}.",
+   "answer": "convertUnit(v, U[0], U[1])",
+   "misconceptions": [
+    {
+     "id": "wrong-way",
+     "wrong": "convertUnit(v, U[1], U[0])",
+     "explain": "Check the direction: smaller units means a bigger number."
+    }
+   ],
+   "solution": [
+    "1 {U[0]} = {factor(U[0], U[1])} {U[1]}.",
+    "{v} {U[0]} = {v} × {factor(U[0], U[1])} = {answer} {U[1]}."
+   ]
+  },
+  {
+   "id": "p2-4-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is NOT a base quantity?",
+       "r": "speed",
+       "w": [
+        "length",
+        "mass",
+        "time"
+       ],
+       "e": [
+        "Length is a base quantity (metre).",
+        "Mass is a base quantity (kilogram).",
+        "Time is a base quantity (second)."
+       ],
+       "y": "Speed is derived: distance ÷ time."
+      },
+      {
+       "q": "Which unit is a derived unit?",
+       "r": "m/s",
+       "w": [
+        "kg",
+        "s",
+        "A"
+       ],
+       "e": [
+        "The kilogram is a base unit.",
+        "The second is a base unit.",
+        "The ampere is a base unit."
+       ],
+       "y": "m/s comes from metres and seconds: it is derived."
+      },
+      {
+       "q": "What is the SI unit of mass?",
+       "r": "the kilogram",
+       "w": [
+        "the gram",
+        "the newton",
+        "the litre"
+       ],
+       "e": [
+        "The gram is smaller; the SI base unit is the kilogram.",
+        "The newton measures force.",
+        "The litre measures volume."
+       ],
+       "y": "The SI unit of mass is the kilogram."
+      },
+      {
+       "q": "Which instrument measures electric current?",
+       "r": "an ammeter",
+       "w": [
+        "a thermometer",
+        "a balance",
+        "a stopwatch"
+       ],
+       "e": [
+        "A thermometer measures temperature.",
+        "A balance measures mass.",
+        "A stopwatch measures time."
+       ],
+       "y": "An ammeter measures current in amperes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-4-time",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      45,
+      90,
+      20,
+      15,
+      30
+     ]
+    },
+    "sixty": 60
+   },
+   "prompt": "A football match lasts {m} minutes. How many seconds is that?",
+   "answer": "m * 60",
+   "misconceptions": [
+    {
+     "id": "hundred",
+     "wrong": "m * 100",
+     "explain": "A minute has {sixty} seconds, not a hundred."
+    }
+   ],
+   "solution": [
+    "One minute is {sixty} seconds.",
+    "{m} × {sixty} = {answer} s."
+   ],
+   "unit": "s"
+  }
+ ]
+}

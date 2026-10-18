@@ -1,0 +1,314 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "p2-10",
+   "name": "Temperature: definition, units, measurement and effects"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Temperature tells how hot or cold something is. It is measured with a thermometer.\nUnits: degrees Celsius (°C) in daily life; the SI unit is the kelvin (K). T(K) = T(°C) + 273. Water freezes at 0 °C (273 K) and boils at 100 °C (373 K).\nA liquid-in-glass thermometer has mercury or coloured alcohol, which expands when warmed. Read it at eye level. A clinical thermometer measures body temperature (normal about 37 °C).\nEffects of temperature on matter: heating makes most things expand (get bigger) and cooling makes them contract; a big enough change in temperature changes the state (melting, boiling).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 37,
+   "k": 273
+  },
+  "problem": "Normal body temperature is {t} °C. Write it in kelvin.",
+  "steps": [
+   "T(K) = T(°C) + {k}.",
+   "{t} + {k} = {toKelvin(t)} K."
+  ],
+  "answer": "{toKelvin(t)} K",
+  "checks": [
+   "toKelvin(t) == 310"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "Temperature tells how hot or cold something is. We measure it with a thermometer.",
+    "vars": {
+     "t": 28
+    },
+    "example": [
+     "Read the level of the liquid at eye level.",
+     "This one reads {t} °C."
+    ],
+    "checks": [],
+    "figure": "thermometer(t)",
+    "check": {
+     "ref": "p2-10-read"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "Kelvin = degrees Celsius + {k}.",
+    "vars": {
+     "c": 25,
+     "k": 273,
+     "kk": 373
+    },
+    "example": [
+     "{c} °C = {c} + {k} = {toKelvin(c)} K.",
+     "{kk} K = {kk} − {k} = {toCelsius(kk)} °C."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-10-kelvin"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "Heating makes most substances expand; cooling makes them contract.",
+    "vars": {},
+    "example": [
+     "The liquid in a thermometer rises when it is warmed.",
+     "Electric wires sag on a hot day."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-10-effect"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-10-read",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      12,
+      46
+     ]
+    }
+   },
+   "prompt": "What temperature does the thermometer show?",
+   "answer": "t",
+   "solution": [
+    "Read the top of the red liquid against the scale.",
+    "It shows {answer} °C."
+   ],
+   "unit": "°C",
+   "figure": "thermometer(t)"
+  },
+  {
+   "id": "p2-10-kelvin",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "c": {
+     "int": [
+      -20,
+      120
+     ]
+    },
+    "k": 273
+   },
+   "prompt": "Convert {c} °C to kelvin.",
+   "answer": "toKelvin(c)",
+   "misconceptions": [
+    {
+     "id": "minus",
+     "wrong": "c - 273",
+     "explain": "Add {k} to go from °C to K."
+    }
+   ],
+   "solution": [
+    "T(K) = T(°C) + {k}.",
+    "{c} + {k} = {answer} K."
+   ],
+   "unit": "K"
+  },
+  {
+   "id": "p2-10-effect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do railway lines have small gaps between the rails?",
+       "r": "Heat makes the rails expand.",
+       "w": [
+        "To save metal.",
+        "To let water drain.",
+        "So trains are quieter."
+       ],
+       "e": [
+        "It is not about saving metal.",
+        "The gaps are for expansion.",
+        "Gaps actually make noise."
+       ],
+       "y": "In the heat the rails expand into the gaps instead of bending."
+      },
+      {
+       "q": "Why does the liquid in a thermometer rise when it is warmed?",
+       "r": "The liquid expands.",
+       "w": [
+        "The glass shrinks.",
+        "The liquid boils.",
+        "Air pushes it up."
+       ],
+       "e": [
+        "The glass hardly changes.",
+        "It does not boil.",
+        "It rises because it expands."
+       ],
+       "y": "Warmed liquid expands and moves up the tube."
+      },
+      {
+       "q": "What is the normal temperature of the human body?",
+       "r": "about 37 °C",
+       "w": [
+        "about 100 °C",
+        "about 0 °C",
+        "about 20 °C"
+       ],
+       "e": [
+        "That is boiling water.",
+        "That is freezing water.",
+        "That is a cool room."
+       ],
+       "y": "Normal body temperature is about 37 °C."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-10-celsius",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "kk": {
+     "int": [
+      250,
+      400
+     ]
+    },
+    "k": 273
+   },
+   "prompt": "Convert {kk} K to degrees Celsius.",
+   "answer": "toCelsius(kk)",
+   "misconceptions": [
+    {
+     "id": "plus",
+     "wrong": "kk + 273",
+     "explain": "Subtract {k} to go from K to °C."
+    }
+   ],
+   "solution": [
+    "T(°C) = T(K) − {k}.",
+    "{kk} − {k} = {answer} °C."
+   ],
+   "unit": "°C",
+   "signed": true
+  },
+  {
+   "id": "p2-10-change",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "b": {
+     "int": [
+      50,
+      100
+     ]
+    },
+    "one": 1,
+    "k": 273
+   },
+   "prompt": "Water is heated from {a} °C to {b} °C. By how many kelvin has its temperature risen?",
+   "answer": "b - a",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "b - a + 273",
+     "explain": "A temperature change is the same in °C and K: do not add {k}."
+    }
+   ],
+   "solution": [
+    "A change of {one} °C is a change of {one} K.",
+    "{b} − {a} = {answer} K."
+   ],
+   "unit": "K"
+  }
+ ]
+}

@@ -1,0 +1,462 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "b2-16",
+   "name": "Adaptations of seeds and fruits for dispersal"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Each method of dispersal needs special features (adaptations):\n• Wind: small and light; hairs or a parachute (kapok, Tridax); wings that spin (Combretum, mahogany). They are blown far.\n• Water: a light, fibrous, air-filled layer so the fruit floats, and a waterproof coat (coconut).\n• Animals (eaten): bright colour, scent, juicy sweet flesh; hard seed coats that pass through the gut unharmed (guava, tomato).\n• Animals (carried outside): hooks, spines or sticky surfaces (Bidens, Desmodium).\n• Self (explosive): pods with walls that dry unevenly, then twist and split, throwing the seeds (beans, castor, Bauhinia).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": "a coconut"
+  },
+  "problem": "Explain how {c} is adapted to dispersal by water.",
+  "steps": [
+   "Its thick fibrous husk is full of air, so the fruit floats.",
+   "Its hard waterproof shell keeps sea water out, so the seed survives long journeys and grows on a new beach."
+  ],
+  "answer": "Air-filled fibrous husk to float; hard waterproof shell.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "Wind-dispersed seeds are light, with hairs or wings.",
+    "vars": {},
+    "example": [
+     "Kapok: hairs.",
+     "Combretum: wings."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-16-match"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Water-dispersed fruits float and keep water out.",
+    "vars": {},
+    "example": [
+     "Coconut: air-filled husk."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-16-why"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "Animal-dispersed fruits are tasty or hooked; explosive pods split suddenly.",
+    "vars": {},
+    "example": [
+     "Guava: sweet flesh.",
+     "Beans: pods twist and split."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-16-which-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "seeds"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "many tiny hooks",
+         "r": "by animals carrying it on their fur",
+         "w": [
+          "by wind",
+          "by water",
+          "by exploding"
+         ],
+         "e": [
+          "Hooks are not for wind.",
+          "Hooks are not for floating.",
+          "Hooks are not for bursting."
+         ],
+         "y": "Hooks catch on fur."
+        },
+        {
+         "q": "a fluffy parachute of hairs",
+         "r": "by wind",
+         "w": [
+          "by animals eating it",
+          "by water",
+          "by exploding"
+         ],
+         "e": [
+          "It is not juicy.",
+          "Hairs help in air.",
+          "It does not burst."
+         ],
+         "y": "Hairs catch the wind."
+        },
+        {
+         "q": "a pod whose walls twist and split when dry",
+         "r": "by explosion (self-dispersal)",
+         "w": [
+          "by wind",
+          "by water",
+          "by animals eating it"
+         ],
+         "e": [
+          "The pod throws the seeds itself.",
+          "It does not float far.",
+          "It is not eaten."
+         ],
+         "y": "The drying pod splits and throws the seeds."
+        }
+       ]
+      }
+     },
+     "prompt": "A fruit has {X.q}. How is it most likely dispersed?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-16-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Match each adaptation to the agent of dispersal.",
+   "pool": [
+    {
+     "left": "light, with hairs or a parachute",
+     "right": "wind"
+    },
+    {
+     "left": "flat wings",
+     "right": "wind"
+    },
+    {
+     "left": "very small and light",
+     "right": "wind"
+    },
+    {
+     "left": "fibrous coat full of air, waterproof outside",
+     "right": "water"
+    },
+    {
+     "left": "brightly coloured, juicy and sweet",
+     "right": "animals"
+    },
+    {
+     "left": "hooks or spines",
+     "right": "animals"
+    },
+    {
+     "left": "hard seed coat that survives digestion",
+     "right": "animals"
+    },
+    {
+     "left": "pod that dries and splits suddenly",
+     "right": "self (explosive)"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "wind",
+    "water",
+    "animals",
+    "self (explosive)"
+   ]
+  },
+  {
+   "id": "b2-16-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does a coconut float?",
+       "r": "Its fibrous husk is full of air.",
+       "w": [
+        "It is very small.",
+        "It has hooks.",
+        "It is sweet."
+       ],
+       "e": [
+        "Coconuts are large.",
+        "Coconuts have no hooks.",
+        "Sweetness does not help floating."
+       ],
+       "y": "The air-filled husk makes it float."
+      },
+      {
+       "q": "Why do some seeds have a hard coat when inside sweet fruits?",
+       "r": "So they pass through an animal's gut unharmed.",
+       "w": [
+        "So they float.",
+        "So the wind carries them.",
+        "So they explode."
+       ],
+       "e": [
+        "That is for water dispersal.",
+        "Wind seeds are light.",
+        "That is a pod's job."
+       ],
+       "y": "The coat protects the seed during digestion."
+      },
+      {
+       "q": "What does a wing on a fruit help it to do?",
+       "r": "spin and travel far in the wind",
+       "w": [
+        "float on water",
+        "stick to fur",
+        "taste sweet"
+       ],
+       "e": [
+        "Wings work in air.",
+        "Hooks stick to fur.",
+        "Wings have no taste."
+       ],
+       "y": "Wings slow the fall so the wind carries the fruit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-16-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "many tiny hooks",
+       "r": "by animals carrying it on their fur",
+       "w": [
+        "by wind",
+        "by water",
+        "by exploding"
+       ],
+       "e": [
+        "Hooks are not for wind.",
+        "Hooks are not for floating.",
+        "Hooks are not for bursting."
+       ],
+       "y": "Hooks catch on fur."
+      },
+      {
+       "q": "a fluffy parachute of hairs",
+       "r": "by wind",
+       "w": [
+        "by animals eating it",
+        "by water",
+        "by exploding"
+       ],
+       "e": [
+        "It is not juicy.",
+        "Hairs help in air.",
+        "It does not burst."
+       ],
+       "y": "Hairs catch the wind."
+      },
+      {
+       "q": "a pod whose walls twist and split when dry",
+       "r": "by explosion (self-dispersal)",
+       "w": [
+        "by wind",
+        "by water",
+        "by animals eating it"
+       ],
+       "e": [
+        "The pod throws the seeds itself.",
+        "It does not float far.",
+        "It is not eaten."
+       ],
+       "y": "The drying pod splits and throws the seeds."
+      }
+     ]
+    }
+   },
+   "prompt": "A fruit has {X.q}. How is it most likely dispersed?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wind-dispersed seeds are light.",
+      "truth": "true"
+     },
+     {
+      "text": "Coconut husks are full of air.",
+      "truth": "true"
+     },
+     {
+      "text": "Hooked fruits stick to fur.",
+      "truth": "true"
+     },
+     {
+      "text": "Juicy fruits attract animals.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Wind-dispersed seeds are large and heavy.",
+      "truth": "false",
+      "explain": "They are small and light."
+     },
+     {
+      "text": "Fruits with hooks are dispersed by water.",
+      "truth": "false",
+      "explain": "Hooks are an adaptation for animals."
+     },
+     {
+      "text": "Explosive pods are sweet and juicy.",
+      "truth": "false",
+      "explain": "Explosive pods dry and split; juicy fruits are eaten."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

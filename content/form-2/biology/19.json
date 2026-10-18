@@ -1,0 +1,437 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "b2-19",
+   "name": "Experiment 5: the conditions needed for germination"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Aim: to show that seeds need water, oxygen and warmth to germinate.\nSet up four test tubes, each with a few soaked bean seeds:\n• A: moist cotton wool, open to the air, warm room (the control: every condition present);\n• B: dry cotton wool, warm room (no water);\n• C: seeds covered with boiled and cooled water and a layer of oil on top (no oxygen);\n• D: moist cotton wool, in a refrigerator (no warmth).\nLeave them for about a week.\nResults: only the seeds in A germinate.\nConclusion: seeds need water, oxygen and a suitable temperature. Each tube lacks one condition: comparing it with A shows that condition is needed.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "C"
+  },
+  "problem": "Why is the water in tube {t} boiled, and why is oil poured on top?",
+  "steps": [
+   "Boiling drives the dissolved air (oxygen) out of the water.",
+   "The layer of oil stops air from dissolving back in.",
+   "So tube {t} has water and warmth but no oxygen."
+  ],
+  "answer": "To remove oxygen and keep it out, so the tube tests whether oxygen is needed.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "Each test tube lacks one condition; tube A has all of them and is the control.",
+    "vars": {},
+    "example": [
+     "B: no water. C: no oxygen. D: too cold."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-19-tube"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "Only the seeds with water, oxygen and warmth germinate.",
+    "vars": {},
+    "example": [
+     "Only tube A germinates."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-19-result"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "The control shows that the seeds could germinate when nothing is missing.",
+    "vars": {},
+    "example": [
+     "Without a control, we could not tell whether the seeds were dead."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-19-control-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "seeds"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is tube A needed?",
+         "r": "It is the control: it shows the seeds can germinate when nothing is missing.",
+         "w": [
+          "It has no water.",
+          "It is kept cold.",
+          "It is not needed."
+         ],
+         "e": [
+          "A has water.",
+          "A is warm.",
+          "Without it we could not compare."
+         ],
+         "y": "The control is for comparison."
+        },
+        {
+         "q": "Why is oil poured on the water in tube C?",
+         "r": "To stop air dissolving back into the water.",
+         "w": [
+          "To feed the seeds.",
+          "To keep them warm.",
+          "To make them float."
+         ],
+         "e": [
+          "Oil is not food for them.",
+          "Oil does not warm them.",
+          "That is not the reason."
+         ],
+         "y": "The oil keeps oxygen out."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-19-tube",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      [
+       "A",
+       "moist cotton wool, open to the air, warm room",
+       "yes",
+       "it has water, oxygen and warmth (the control)"
+      ],
+      [
+       "B",
+       "dry cotton wool, open to the air, warm room",
+       "no",
+       "it has no water"
+      ],
+      [
+       "C",
+       "boiled cooled water with a layer of oil on top, warm room",
+       "no",
+       "it has no oxygen: boiling removed the air, the oil keeps it out"
+      ],
+      [
+       "D",
+       "moist cotton wool, open to the air, in a refrigerator",
+       "no",
+       "it is too cold"
+      ]
+     ]
+    }
+   },
+   "prompt": "Tube {T[0]}: {T[1]}. Do the seeds germinate?",
+   "correct": "{T[2] == 'yes' ? 'Yes' : 'No'}",
+   "distractors": [
+    {
+     "text": "{T[2] == 'yes' ? 'No' : 'Yes'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "In tube {T[0]}, {T[3]}."
+    }
+   ],
+   "solution": [
+    "In tube {T[0]}, {T[3]}.",
+    "So the answer is {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "b2-19-result",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which tube do the seeds germinate?",
+       "r": "A (moist, open to air, warm)",
+       "w": [
+        "B (dry)",
+        "C (boiled water and oil)",
+        "D (refrigerator)"
+       ],
+       "e": [
+        "B has no water.",
+        "C has no oxygen.",
+        "D is too cold."
+       ],
+       "y": "Only A has every condition."
+      },
+      {
+       "q": "Which tube shows that seeds need oxygen?",
+       "r": "C, compared with A",
+       "w": [
+        "B, compared with A",
+        "D, compared with A",
+        "A alone"
+       ],
+       "e": [
+        "B lacks water.",
+        "D lacks warmth.",
+        "A has everything; compare a tube lacking oxygen."
+       ],
+       "y": "C lacks only oxygen."
+      },
+      {
+       "q": "Which tube shows that seeds need warmth?",
+       "r": "D, compared with A",
+       "w": [
+        "B, compared with A",
+        "C, compared with A",
+        "A alone"
+       ],
+       "e": [
+        "B lacks water.",
+        "C lacks oxygen.",
+        "Compare a tube lacking warmth."
+       ],
+       "y": "D lacks only warmth."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-19-control",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is tube A needed?",
+       "r": "It is the control: it shows the seeds can germinate when nothing is missing.",
+       "w": [
+        "It has no water.",
+        "It is kept cold.",
+        "It is not needed."
+       ],
+       "e": [
+        "A has water.",
+        "A is warm.",
+        "Without it we could not compare."
+       ],
+       "y": "The control is for comparison."
+      },
+      {
+       "q": "Why is oil poured on the water in tube C?",
+       "r": "To stop air dissolving back into the water.",
+       "w": [
+        "To feed the seeds.",
+        "To keep them warm.",
+        "To make them float."
+       ],
+       "e": [
+        "Oil is not food for them.",
+        "Oil does not warm them.",
+        "That is not the reason."
+       ],
+       "y": "The oil keeps oxygen out."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Which conclusion is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Seeds need water to germinate.",
+      "truth": "true"
+     },
+     {
+      "text": "Seeds need oxygen to germinate.",
+      "truth": "true"
+     },
+     {
+      "text": "Seeds need a suitable temperature.",
+      "truth": "true"
+     },
+     {
+      "text": "Tube A is the control.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Seeds need light to germinate.",
+      "truth": "false",
+      "explain": "No tube tested light; and seeds germinate in the dark soil."
+     },
+     {
+      "text": "Seeds germinate best in a refrigerator.",
+      "truth": "false",
+      "explain": "Tube D was too cold: no germination."
+     },
+     {
+      "text": "Seeds germinate without water.",
+      "truth": "false",
+      "explain": "Tube B, without water, did not germinate."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

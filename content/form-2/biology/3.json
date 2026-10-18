@@ -1,0 +1,464 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "b2-3",
+   "name": "Artificial vegetative propagation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Farmers and gardeners use vegetative propagation on purpose:\n• Cuttings: a piece of stem is planted and grows roots (cassava, sugarcane, hibiscus, Irish potato pieces with an eye).\n• Grafting: a shoot (the scion) of a good variety is joined onto a rooted plant (the stock), and they grow together (mango, orange, avocado).\n• Budding: like grafting, but with a single bud (oranges, roses).\n• Layering: a low branch is bent and covered with soil; when it has roots it is cut off.\n• Marcotting (air layering): a ring of bark is removed and the place is wrapped in moist soil while still on the tree.\n• Tissue culture: tiny pieces are grown in a laboratory to make thousands of identical plants.\nThe scion gives the fruit quality; the stock gives strong roots.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "mango"
+  },
+  "problem": "A farmer has a {t} tree with big sweet fruits and a young {t} seedling with strong roots. How can he get the good fruits quickly on a strong plant?",
+  "steps": [
+   "Graft: cut a shoot (the scion) from the tree with good fruits.",
+   "Join it onto the seedling (the stock) and tie them so they grow together.",
+   "The plant will have the strong roots of the stock and the good fruits of the scion."
+  ],
+  "answer": "By grafting the good variety (scion) onto the seedling (stock).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "A cutting is a piece of stem planted to grow a new plant.",
+    "vars": {},
+    "example": [
+     "Cassava is grown from stem cuttings.",
+     "Sugarcane too."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-3-method"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "In grafting, a scion from a good plant is joined onto a stock with good roots.",
+    "vars": {},
+    "example": [
+     "Scion: gives the fruit.",
+     "Stock: gives the roots."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-3-graft"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "Layering and marcotting make a branch grow roots before it is cut off.",
+    "vars": {},
+    "example": [
+     "Layering: branch bent into the soil.",
+     "Marcotting: soil wrapped round the branch on the tree."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-3-crop-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "plant-reproduction"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "cassava",
+         "r": "stem cuttings",
+         "w": [
+          "grafting",
+          "seeds only",
+          "tissue culture only"
+         ],
+         "e": [
+          "Cassava is not grafted.",
+          "Farmers plant stem pieces.",
+          "Farmers plant stem pieces."
+         ],
+         "y": "Cassava stems are cut and planted."
+        },
+        {
+         "q": "improved mango varieties",
+         "r": "grafting",
+         "w": [
+          "stem cuttings",
+          "bulbs",
+          "rhizomes"
+         ],
+         "e": [
+          "Mango cuttings root poorly.",
+          "Mango has no bulbs.",
+          "Mango has no rhizomes."
+         ],
+         "y": "A good scion is grafted onto a stock."
+        },
+        {
+         "q": "sugarcane",
+         "r": "stem cuttings",
+         "w": [
+          "budding",
+          "bulbs",
+          "corms"
+         ],
+         "e": [
+          "Sugarcane is grown from stem pieces.",
+          "It has no bulbs.",
+          "It has no corms."
+         ],
+         "y": "Stem pieces with nodes are planted."
+        },
+        {
+         "q": "thousands of identical banana plantlets",
+         "r": "tissue culture",
+         "w": [
+          "layering",
+          "grafting",
+          "seeds"
+         ],
+         "e": [
+          "Layering makes only a few.",
+          "Bananas are not grafted.",
+          "Seeds give variation."
+         ],
+         "y": "Tissue culture makes many identical plants quickly."
+        }
+       ]
+      }
+     },
+     "prompt": "Which method is usually used to grow {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-3-method",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Match each method to what is done.",
+   "pool": [
+    {
+     "left": "cutting",
+     "right": "a piece of stem is planted and grows roots"
+    },
+    {
+     "left": "grafting",
+     "right": "a shoot (scion) is joined onto a rooted plant (stock)"
+    },
+    {
+     "left": "budding",
+     "right": "a single bud is joined onto a stock"
+    },
+    {
+     "left": "layering",
+     "right": "a branch is bent down and covered with soil until it roots"
+    },
+    {
+     "left": "marcotting",
+     "right": "a branch is wrapped in moist soil while still on the tree until it roots"
+    },
+    {
+     "left": "tissue culture",
+     "right": "tiny pieces of plant are grown on special food in a laboratory"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "b2-3-graft",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In grafting, what is the scion?",
+       "r": "the shoot from the good variety",
+       "w": [
+        "the rooted plant",
+        "the soil",
+        "the seed"
+       ],
+       "e": [
+        "That is the stock.",
+        "Soil is not part of the graft.",
+        "Grafting does not use seeds."
+       ],
+       "y": "The scion is the shoot joined on."
+      },
+      {
+       "q": "In grafting, what does the stock give?",
+       "r": "strong roots",
+       "w": [
+        "the fruits",
+        "the flowers",
+        "the seeds"
+       ],
+       "e": [
+        "The fruits come from the scion.",
+        "Flowers grow on the scion.",
+        "Seeds are not used."
+       ],
+       "y": "The stock is the rooted plant."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-3-crop",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "cassava",
+       "r": "stem cuttings",
+       "w": [
+        "grafting",
+        "seeds only",
+        "tissue culture only"
+       ],
+       "e": [
+        "Cassava is not grafted.",
+        "Farmers plant stem pieces.",
+        "Farmers plant stem pieces."
+       ],
+       "y": "Cassava stems are cut and planted."
+      },
+      {
+       "q": "improved mango varieties",
+       "r": "grafting",
+       "w": [
+        "stem cuttings",
+        "bulbs",
+        "rhizomes"
+       ],
+       "e": [
+        "Mango cuttings root poorly.",
+        "Mango has no bulbs.",
+        "Mango has no rhizomes."
+       ],
+       "y": "A good scion is grafted onto a stock."
+      },
+      {
+       "q": "sugarcane",
+       "r": "stem cuttings",
+       "w": [
+        "budding",
+        "bulbs",
+        "corms"
+       ],
+       "e": [
+        "Sugarcane is grown from stem pieces.",
+        "It has no bulbs.",
+        "It has no corms."
+       ],
+       "y": "Stem pieces with nodes are planted."
+      },
+      {
+       "q": "thousands of identical banana plantlets",
+       "r": "tissue culture",
+       "w": [
+        "layering",
+        "grafting",
+        "seeds"
+       ],
+       "e": [
+        "Layering makes only a few.",
+        "Bananas are not grafted.",
+        "Seeds give variation."
+       ],
+       "y": "Tissue culture makes many identical plants quickly."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method is usually used to grow {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cassava is grown from stem cuttings.",
+      "truth": "true"
+     },
+     {
+      "text": "Grafting joins a scion to a stock.",
+      "truth": "true"
+     },
+     {
+      "text": "Marcotting is done while the branch is on the tree.",
+      "truth": "true"
+     },
+     {
+      "text": "Tissue culture is done in a laboratory.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "In grafting, the stock gives the fruits.",
+      "truth": "false",
+      "explain": "The fruits come from the scion; the stock gives the roots."
+     },
+     {
+      "text": "Layering uses seeds.",
+      "truth": "false",
+      "explain": "Layering roots a branch; no seeds."
+     },
+     {
+      "text": "Artificial propagation gives offspring that all differ.",
+      "truth": "false",
+      "explain": "It gives identical offspring (clones)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

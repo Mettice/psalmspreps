@@ -1,0 +1,533 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-1",
+   "name": "Data: why we collect it and how"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Data are the facts and measurements we collect in an experiment. Scientists need data as evidence: a conclusion must be based on what was observed.\n• Qualitative data describe with words: colour, smell, “the water became cloudy”.\n• Quantitative data are numbers with units: 25 °C, 3.2 cm, 45 s.\nRecord data in a table. Each column heading gives the quantity and its unit, for example “Time (s)”, so the unit is not written in every box.\nRepeat each measurement (for example three times) and find the mean: add the readings and divide by how many there are. A reading that is very different from the others is anomalous: check it, repeat it, and leave it out of the mean.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 12.4,
+   "b": 12.6,
+   "c": 12.5,
+   "n": 3
+  },
+  "problem": "Bih times a ball rolling down a ramp three times: {a} s, {b} s and {c} s. Find the mean time.",
+  "steps": [
+   "Add the readings: {a} + {b} + {c} = {a + b + c} s.",
+   "Divide by the number of readings, {n}: {a + b + c} ÷ {n} = {mean([a, b, c])} s."
+  ],
+  "answer": "The mean time is {mean([a, b, c])} s.",
+  "checks": [
+   "mean([a, b, c]) == 12.5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "Qualitative data are descriptions in words; quantitative data are measurements with numbers and units.",
+    "vars": {
+     "t": 40
+    },
+    "example": [
+     "Qualitative: “the solution turned blue”.",
+     "Quantitative: “the temperature rose to {t} °C”."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-1-kind"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "To find the mean of repeated readings, add them and divide by how many there are.",
+    "vars": {
+     "a": 20,
+     "b": 22,
+     "c": 21,
+     "n": 3
+    },
+    "example": [
+     "Readings {readings([a, b, c])}: ({a} + {b} + {c}) ÷ {n} = {mean([a, b, c])}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-1-mean"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "An anomalous reading is very different from the others. Repeat it, and leave it out of the mean.",
+    "vars": {
+     "a": 15,
+     "b": 16,
+     "c": 14,
+     "d": 29
+    },
+    "example": [
+     "Readings {readings([a, b, c, d])}: {d} is anomalous.",
+     "Mean of the others: {mean([a, b, c])}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-1-odd"
+    }
+   },
+   {
+    "id": "c1-4",
+    "status": "draft",
+    "idea": "In a results table, put the unit in the column heading, not in every box.",
+    "vars": {
+     "a": 12,
+     "b": 13,
+     "c": 12
+    },
+    "example": [
+     "Heading: “Length (cm)”, then just the numbers.",
+     "Heading: “Time (s)”, then {a}, {b}, {c}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-1-c4",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "scientific-method"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "times measured in seconds",
+         "r": "Time (s)",
+         "w": [
+          "Seconds",
+          "Time",
+          "s (Time)"
+         ],
+         "e": [
+          "Give the quantity, then the unit in brackets.",
+          "Add the unit in brackets: Time (s).",
+          "Quantity first, then the unit: Time (s)."
+         ],
+         "y": "Quantity, then the unit in brackets."
+        },
+        {
+         "q": "masses measured in grams",
+         "r": "Mass (g)",
+         "w": [
+          "Grams",
+          "Mass",
+          "g"
+         ],
+         "e": [
+          "Give the quantity, then the unit.",
+          "Add the unit: Mass (g).",
+          "Give the quantity too: Mass (g)."
+         ],
+         "y": "Quantity, then the unit in brackets."
+        },
+        {
+         "q": "temperatures in degrees Celsius",
+         "r": "Temperature (°C)",
+         "w": [
+          "°C",
+          "Temperature",
+          "Hotness (°C)"
+         ],
+         "e": [
+          "Give the quantity too.",
+          "Add the unit: Temperature (°C).",
+          "The quantity is temperature."
+         ],
+         "y": "Quantity, then the unit in brackets."
+        },
+        {
+         "q": "lengths in centimetres",
+         "r": "Length (cm)",
+         "w": [
+          "cm",
+          "Length",
+          "Centimetres long"
+         ],
+         "e": [
+          "Give the quantity too.",
+          "Add the unit: Length (cm).",
+          "Quantity, then unit in brackets."
+         ],
+         "y": "Quantity, then the unit in brackets."
+        }
+       ]
+      }
+     },
+     "prompt": "Which is the best column heading for {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-1-kind",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientific-method"
+   ],
+   "prompt": "Sort the data: qualitative or quantitative?",
+   "pool": [
+    {
+     "left": "the liquid turned milky",
+     "right": "qualitative"
+    },
+    {
+     "left": "a strong smell of gas",
+     "right": "qualitative"
+    },
+    {
+     "left": "the leaf is dark green",
+     "right": "qualitative"
+    },
+    {
+     "left": "the metal felt rough",
+     "right": "qualitative"
+    },
+    {
+     "left": "a length of 15.2 cm",
+     "right": "quantitative"
+    },
+    {
+     "left": "a temperature of 37 °C",
+     "right": "quantitative"
+    },
+    {
+     "left": "a mass of 250 g",
+     "right": "quantitative"
+    },
+    {
+     "left": "a time of 45 s",
+     "right": "quantitative"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "qualitative",
+    "quantitative"
+   ]
+  },
+  {
+   "id": "p2-1-mean",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "d1": {
+     "int": [
+      -2,
+      2
+     ]
+    },
+    "d2": {
+     "int": [
+      -2,
+      2
+     ]
+    },
+    "b": {
+     "expr": "a + d1"
+    },
+    "c": {
+     "expr": "a + d2"
+    },
+    "n": 3
+   },
+   "prompt": "The readings are {readings([a, b, c])}. What is their mean?",
+   "answer": "mean([a, b, c])",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "a + b + c",
+     "explain": "That is the total. Divide it by {n}."
+    },
+    {
+     "id": "middle",
+     "wrong": "max(a, max(b, c))",
+     "explain": "The mean is not the largest reading: add them and divide by {n}.",
+     "when": "max(a, max(b, c)) != mean([a, b, c])"
+    }
+   ],
+   "solution": [
+    "Add: {a} + {b} + {c} = {a + b + c}.",
+    "Divide by the number of readings: {a + b + c} ÷ {n} = {answer}."
+   ],
+   "where": [
+    "isInt((a + b + c) / 3)"
+   ]
+  },
+  {
+   "id": "p2-1-odd",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      20,
+      40
+     ]
+    },
+    "b": {
+     "expr": "a + 1"
+    },
+    "c": {
+     "expr": "a - 1"
+    },
+    "x": {
+     "expr": "a + 9"
+    },
+    "R": {
+     "sample": [
+      "[a, b, c, x]",
+      4
+     ]
+    }
+   },
+   "prompt": "The readings are {readings(R)}. Which reading is anomalous?",
+   "correct": "{x}",
+   "distractors": [
+    {
+     "text": "{a}",
+     "misconception": "a"
+    },
+    {
+     "text": "{b}",
+     "misconception": "b"
+    },
+    {
+     "text": "{c}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "a",
+     "explain": "{a} is close to {b} and {c}."
+    },
+    {
+     "id": "b",
+     "explain": "{b} is close to {a} and {c}."
+    },
+    {
+     "id": "c",
+     "explain": "{c} is close to {a} and {b}."
+    }
+   ],
+   "solution": [
+    "{x} is far from the other readings ({a}, {b} and {c}).",
+    "So {answer} is the anomalous reading."
+   ]
+  },
+  {
+   "id": "p2-1-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do scientists repeat a measurement several times?",
+       "r": "To check it and make the result more reliable.",
+       "w": [
+        "To make the numbers bigger.",
+        "Because the first reading is always wrong.",
+        "To use up time."
+       ],
+       "e": [
+        "Repeating does not change the size of the result.",
+        "The first reading may be right; repeating checks it.",
+        "That is not a reason."
+       ],
+       "y": "Repeats show mistakes and give a more reliable mean."
+      },
+      {
+       "q": "Why is data needed in an experiment?",
+       "r": "It is the evidence for the conclusion.",
+       "w": [
+        "It makes the report longer.",
+        "Teachers like numbers.",
+        "It replaces the method."
+       ],
+       "e": [
+        "Length is not the reason.",
+        "That is not the reason.",
+        "The method is still needed."
+       ],
+       "y": "A conclusion must be based on data."
+      },
+      {
+       "q": "What should you do with an anomalous reading?",
+       "r": "Check it, repeat it, and leave it out of the mean.",
+       "w": [
+        "Keep it and make the others match.",
+        "Change it to look right.",
+        "Use only that reading."
+       ],
+       "e": [
+        "Never change good readings.",
+        "Never change data.",
+        "It is the odd one out."
+       ],
+       "y": "An anomalous reading is checked and left out of the mean."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-1-clean",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      20,
+      40
+     ]
+    },
+    "b": {
+     "expr": "a + 2"
+    },
+    "c": {
+     "expr": "a + 1"
+    },
+    "x": {
+     "expr": "a + 12"
+    },
+    "n": 3,
+    "R": {
+     "sample": [
+      "[a, b, c, x]",
+      4
+     ]
+    }
+   },
+   "prompt": "The readings are {readings(R)}. Leave out the anomalous reading and find the mean of the others.",
+   "answer": "mean([a, b, c])",
+   "misconceptions": [
+    {
+     "id": "with-odd",
+     "wrong": "mean([a, b, c, x])",
+     "explain": "That includes the anomalous reading {x}; leave it out."
+    }
+   ],
+   "solution": [
+    "{x} is anomalous: it is far from the others.",
+    "Mean of the others: ({a} + {b} + {c}) ÷ {n} = {answer}."
+   ]
+  }
+ ]
+}

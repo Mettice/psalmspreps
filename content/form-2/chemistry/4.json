@@ -1,0 +1,362 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  2,
+  3
+ ],
+ "skills": [
+  {
+   "id": "k2-4",
+   "name": "Atomic number and mass number"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The atomic number (Z) is the number of protons. It identifies the element: every atom with 6 protons is carbon.\nIn a neutral atom, the number of electrons = the atomic number.\nThe mass number (A) is the number of protons + neutrons (the particles in the nucleus).\nNumber of neutrons = A − Z.\nNotation: the mass number is written at the top left of the symbol and the atomic number at the bottom left, for example ²³₁₁Na: 11 protons, 11 electrons, 23 − 11 = 12 neutrons.\nIsotopes are atoms of the same element (same Z) with different numbers of neutrons (different A), such as chlorine-35 and chlorine-37.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "Cl"
+  },
+  "problem": "Chlorine has atomic number {atomicNumber(s)} and mass number {massNumber(s)}. Find its protons, electrons and neutrons.",
+  "steps": [
+   "Protons = atomic number = {atomicNumber(s)}.",
+   "Electrons = protons = {atomicNumber(s)} (a neutral atom).",
+   "Neutrons = {massNumber(s)} − {atomicNumber(s)} = {neutrons(s)}."
+  ],
+  "answer": "{atomicNumber(s)} protons, {atomicNumber(s)} electrons, {neutrons(s)} neutrons.",
+  "checks": [
+   "neutrons(s) == 18"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "The atomic number is the number of protons. Electrons = protons in a neutral atom.",
+    "vars": {
+     "s": "O"
+    },
+    "example": [
+     "Oxygen: atomic number {atomicNumber(s)}, so {atomicNumber(s)} protons and {atomicNumber(s)} electrons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-4-protons"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Mass number = protons + neutrons.",
+    "vars": {
+     "s": "Na"
+    },
+    "example": [
+     "Sodium: {atomicNumber(s)} protons + {neutrons(s)} neutrons = {massNumber(s)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-4-mass"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "Neutrons = mass number − atomic number.",
+    "vars": {
+     "s": "Al"
+    },
+    "example": [
+     "Aluminium: {massNumber(s)} − {atomicNumber(s)} = {neutrons(s)} neutrons."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-4-neutrons-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "atomic-structure"
+     ],
+     "vars": {
+      "s": {
+       "pick": [
+        "H",
+        "He",
+        "Li",
+        "Be",
+        "B",
+        "C",
+        "N",
+        "O",
+        "F",
+        "Ne",
+        "Na",
+        "Mg",
+        "Al",
+        "Si",
+        "P",
+        "S",
+        "Cl",
+        "Ar",
+        "K",
+        "Ca"
+       ]
+      }
+     },
+     "prompt": "{cap(nameOf(s))} has atomic number {atomicNumber(s)} and mass number {massNumber(s)}. How many neutrons are in its atom?",
+     "answer": "neutrons(s)",
+     "misconceptions": [
+      {
+       "id": "added",
+       "wrong": "massNumber(s) + atomicNumber(s)",
+       "explain": "Subtract the atomic number from the mass number."
+      }
+     ],
+     "solution": [
+      "Neutrons = mass number − atomic number.",
+      "{massNumber(s)} − {atomicNumber(s)} = {answer}."
+     ],
+     "where": [
+      "s != 'H'"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-4-protons",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "An atom of {nameOf(s)} has atomic number {atomicNumber(s)} and mass number {massNumber(s)}. How many protons does it have?",
+   "answer": "atomicNumber(s)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "massNumber(s)",
+     "explain": "The mass number counts protons and neutrons together; protons = atomic number."
+    }
+   ],
+   "solution": [
+    "Protons = atomic number.",
+    "So {answer} protons."
+   ]
+  },
+  {
+   "id": "k2-4-mass",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "An atom has {atomicNumber(s)} protons and {neutrons(s)} neutrons. What is its mass number?",
+   "answer": "massNumber(s)",
+   "misconceptions": [
+    {
+     "id": "protons",
+     "wrong": "atomicNumber(s)",
+     "explain": "Add the neutrons too."
+    }
+   ],
+   "solution": [
+    "Mass number = protons + neutrons.",
+    "{atomicNumber(s)} + {neutrons(s)} = {answer}."
+   ]
+  },
+  {
+   "id": "k2-4-neutrons",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "{cap(nameOf(s))} has atomic number {atomicNumber(s)} and mass number {massNumber(s)}. How many neutrons are in its atom?",
+   "answer": "neutrons(s)",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "massNumber(s) + atomicNumber(s)",
+     "explain": "Subtract the atomic number from the mass number."
+    }
+   ],
+   "solution": [
+    "Neutrons = mass number − atomic number.",
+    "{massNumber(s)} − {atomicNumber(s)} = {answer}."
+   ],
+   "where": [
+    "s != 'H'"
+   ]
+  },
+  {
+   "id": "k2-4-isotope",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chlorine-35 and chlorine-37 are isotopes. What is different between their atoms?",
+       "r": "the number of neutrons",
+       "w": [
+        "the number of protons",
+        "the number of electrons",
+        "the element"
+       ],
+       "e": [
+        "Both are chlorine: same protons.",
+        "Both are neutral chlorine atoms: same electrons.",
+        "Both are chlorine."
+       ],
+       "y": "Isotopes differ only in neutrons."
+      },
+      {
+       "q": "Which number tells you which element an atom is?",
+       "r": "the atomic number",
+       "w": [
+        "the mass number",
+        "the number of neutrons",
+        "the number of shells"
+       ],
+       "e": [
+        "Isotopes of one element have different mass numbers.",
+        "Neutrons can vary.",
+        "Many elements share the same number of shells."
+       ],
+       "y": "The number of protons identifies the element."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

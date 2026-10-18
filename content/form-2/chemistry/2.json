@@ -1,0 +1,382 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "k2-2",
+   "name": "The composition of the atom"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An atom has a tiny central nucleus and electrons around it.\n• Protons: in the nucleus, positive charge (+1), relative mass 1.\n• Neutrons: in the nucleus, no charge (0), relative mass 1.\n• Electrons: moving around the nucleus in shells, negative charge (−1), very small mass (about 1/1840).\nAlmost all the mass of an atom is in its nucleus; most of the atom is empty space.\nAn atom has as many electrons as protons, so the charges cancel: the atom is neutral (no overall charge).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 11,
+   "z": 0
+  },
+  "problem": "A sodium atom has {p} protons. How many electrons does it have, and what is its overall charge?",
+  "steps": [
+   "An atom is neutral: electrons = protons = {p}.",
+   "Charge: +{p} from the protons and −{p} from the electrons add up to {z}."
+  ],
+  "answer": "{p} electrons; the atom has no overall charge.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "Protons (+) and neutrons (no charge) are in the nucleus; electrons (−) move around it.",
+    "vars": {},
+    "example": [
+     "Nucleus: protons and neutrons.",
+     "Shells: electrons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-2-particle"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Protons and neutrons have about the same mass; an electron is about {n} times lighter.",
+    "vars": {
+     "n": 1840
+    },
+    "example": [
+     "So the mass of an atom is almost all in its nucleus."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-2-mass"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "An atom has equal numbers of protons and electrons, so it is neutral.",
+    "vars": {
+     "p": 6
+    },
+    "example": [
+     "{p} protons, {p} electrons: no overall charge."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-2-neutral"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-2-particle",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "prompt": "Match each particle to its charge.",
+   "pool": [
+    {
+     "left": "proton",
+     "right": "positive (+1)"
+    },
+    {
+     "left": "neutron",
+     "right": "no charge (0)"
+    },
+    {
+     "left": "electron",
+     "right": "negative (−1)"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k2-2-mass",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where is almost all the mass of an atom?",
+       "r": "in the nucleus",
+       "w": [
+        "in the electrons",
+        "spread evenly through the atom",
+        "in the empty space"
+       ],
+       "e": [
+        "Electrons are very light.",
+        "It is concentrated in the nucleus.",
+        "Empty space has no mass."
+       ],
+       "y": "Protons and neutrons, in the nucleus, carry the mass."
+      },
+      {
+       "q": "Which particle has the smallest mass?",
+       "r": "the electron",
+       "w": [
+        "the proton",
+        "the neutron",
+        "the nucleus"
+       ],
+       "e": [
+        "A proton is about 1840 times heavier.",
+        "A neutron is about as heavy as a proton.",
+        "The nucleus contains protons and neutrons."
+       ],
+       "y": "An electron is about 1840 times lighter than a proton."
+      },
+      {
+       "q": "Which particles are in the nucleus?",
+       "r": "protons and neutrons",
+       "w": [
+        "electrons only",
+        "protons and electrons",
+        "neutrons and electrons"
+       ],
+       "e": [
+        "Electrons are outside the nucleus.",
+        "Electrons are outside the nucleus.",
+        "Electrons are outside the nucleus."
+       ],
+       "y": "The nucleus has protons and neutrons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-2-neutral",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "A {nameOf(s)} atom has {atomicNumber(s)} protons. How many electrons does it have?",
+   "answer": "atomicNumber(s)",
+   "misconceptions": [
+    {
+     "id": "neutrons",
+     "wrong": "neutrons(s)",
+     "explain": "That is the number of neutrons. Electrons equal protons.",
+     "when": "neutrons(s) != atomicNumber(s)"
+    }
+   ],
+   "solution": [
+    "An atom is neutral: electrons = protons.",
+    "So it has {answer} electrons."
+   ]
+  },
+  {
+   "id": "k2-2-charge",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does an atom have no overall charge?",
+       "r": "It has the same number of protons and electrons.",
+       "w": [
+        "It has no protons.",
+        "Neutrons cancel the electrons.",
+        "Its electrons are positive."
+       ],
+       "e": [
+        "Every atom has protons.",
+        "Neutrons have no charge.",
+        "Electrons are negative."
+       ],
+       "y": "Equal + and − charges cancel."
+      },
+      {
+       "q": "What charge does the nucleus have?",
+       "r": "positive",
+       "w": [
+        "negative",
+        "none",
+        "it changes"
+       ],
+       "e": [
+        "Electrons are negative, but they are outside.",
+        "It contains positive protons.",
+        "It is always positive."
+       ],
+       "y": "The nucleus has positive protons and neutral neutrons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Protons are positive.",
+      "truth": "true"
+     },
+     {
+      "text": "Neutrons have no charge.",
+      "truth": "true"
+     },
+     {
+      "text": "Electrons move around the nucleus.",
+      "truth": "true"
+     },
+     {
+      "text": "An atom is neutral.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Electrons are found in the nucleus.",
+      "truth": "false",
+      "explain": "Electrons move in shells around the nucleus."
+     },
+     {
+      "text": "A neutron is negative.",
+      "truth": "false",
+      "explain": "A neutron has no charge."
+     },
+     {
+      "text": "An electron is heavier than a proton.",
+      "truth": "false",
+      "explain": "An electron is about 1840 times lighter."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

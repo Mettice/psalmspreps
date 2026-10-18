@@ -1,0 +1,446 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b2-20",
+   "name": "Preventing and eliminating plant pests and diseases"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pests are animals that damage crops: insects (aphids, locusts, caterpillars, weevils in stored grain), rodents (rats), birds, nematodes.\nPlant diseases are caused by germs: fungi (cocoa black pod), viruses (cassava mosaic, spread by whiteflies; maize streak, spread by leafhoppers) and bacteria.\nSigns: holes in leaves, wilting, yellow patterns (mosaic), rotting pods, poor yields.\nPrevention:\n• plant resistant varieties and clean, healthy seeds or cuttings;\n• crop rotation (do not plant the same crop on the same land every year);\n• weeding and good spacing; good drainage;\n• removing and burning infected plants (roguing), and harvesting black pods quickly;\n• drying and storing grain well.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": "cassava"
+  },
+  "problem": "A farmer's {c} leaves show yellow and green patches and are twisted. What is the disease, and how can he stop it spreading?",
+  "steps": [
+   "Yellow-green patches and twisted leaves are signs of cassava mosaic, a virus spread by whiteflies.",
+   "He should pull up and burn the infected plants and plant clean cuttings of a resistant variety next time."
+  ],
+  "answer": "Cassava mosaic; remove infected plants and use clean, resistant cuttings.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "Pests are animals that damage crops; diseases are caused by germs.",
+    "vars": {},
+    "example": [
+     "Pest: weevils in stored maize.",
+     "Disease: cocoa black pod (a fungus)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-20-sort"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "Prevent damage with resistant varieties, clean planting material and crop rotation.",
+    "vars": {},
+    "example": [
+     "Crop rotation breaks the life cycle of pests and germs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-20-prevent"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "Remove and burn infected plants so the disease does not spread.",
+    "vars": {},
+    "example": [
+     "Harvest black pods of cocoa quickly and destroy them."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-20-act-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "plant-pests"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What causes cassava mosaic disease?",
+         "r": "a virus spread by whiteflies",
+         "w": [
+          "too much rain",
+          "a lack of sunlight",
+          "rats"
+         ],
+         "e": [
+          "Rain is not the cause.",
+          "Light is not the cause.",
+          "Rats are pests, not the cause."
+         ],
+         "y": "A virus carried by whiteflies."
+        },
+        {
+         "q": "What should a farmer do with cocoa pods that have black pod disease?",
+         "r": "remove and destroy them quickly",
+         "w": [
+          "leave them on the tree",
+          "eat them",
+          "sell them as seeds"
+         ],
+         "e": [
+          "That spreads the fungus.",
+          "They are diseased.",
+          "That spreads the disease."
+         ],
+         "y": "Removing them stops the fungus spreading."
+        },
+        {
+         "q": "How can weevils in stored maize be prevented?",
+         "r": "dry the grain well and store it in clean, sealed containers",
+         "w": [
+          "store it wet",
+          "leave it open",
+          "mix it with old infested grain"
+         ],
+         "e": [
+          "Wet grain is easily attacked.",
+          "Open grain lets pests in.",
+          "That spreads the weevils."
+         ],
+         "y": "Dry, clean, sealed storage keeps weevils out."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-20-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-pests"
+   ],
+   "prompt": "Sort: pest or disease?",
+   "pool": [
+    {
+     "left": "aphids",
+     "right": "pest"
+    },
+    {
+     "left": "locusts",
+     "right": "pest"
+    },
+    {
+     "left": "weevils in stored maize",
+     "right": "pest"
+    },
+    {
+     "left": "rats in the barn",
+     "right": "pest"
+    },
+    {
+     "left": "caterpillars eating cabbage leaves",
+     "right": "pest"
+    },
+    {
+     "left": "cocoa black pod",
+     "right": "disease"
+    },
+    {
+     "left": "cassava mosaic",
+     "right": "disease"
+    },
+    {
+     "left": "maize streak",
+     "right": "disease"
+    },
+    {
+     "left": "leaf blight",
+     "right": "disease"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "pest",
+    "disease"
+   ]
+  },
+  {
+   "id": "b2-20-prevent",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-pests"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a good way to prevent plant diseases?",
+       "r": "planting resistant varieties",
+       "w": [
+        "planting the same crop every year",
+        "using cuttings from sick plants",
+        "leaving infected plants in the field"
+       ],
+       "e": [
+        "That helps pests and germs build up.",
+        "That passes on disease.",
+        "That spreads the disease."
+       ],
+       "y": "Resistant varieties are not easily infected."
+      },
+      {
+       "q": "Why is crop rotation useful?",
+       "r": "It breaks the life cycle of pests and germs.",
+       "w": [
+        "It makes the soil hotter.",
+        "It uses more fertiliser.",
+        "It spreads diseases."
+       ],
+       "e": [
+        "That is not the reason.",
+        "That is not the reason.",
+        "It reduces them."
+       ],
+       "y": "Pests of one crop find no food the next year."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-20-act",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "plant-pests"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What causes cassava mosaic disease?",
+       "r": "a virus spread by whiteflies",
+       "w": [
+        "too much rain",
+        "a lack of sunlight",
+        "rats"
+       ],
+       "e": [
+        "Rain is not the cause.",
+        "Light is not the cause.",
+        "Rats are pests, not the cause."
+       ],
+       "y": "A virus carried by whiteflies."
+      },
+      {
+       "q": "What should a farmer do with cocoa pods that have black pod disease?",
+       "r": "remove and destroy them quickly",
+       "w": [
+        "leave them on the tree",
+        "eat them",
+        "sell them as seeds"
+       ],
+       "e": [
+        "That spreads the fungus.",
+        "They are diseased.",
+        "That spreads the disease."
+       ],
+       "y": "Removing them stops the fungus spreading."
+      },
+      {
+       "q": "How can weevils in stored maize be prevented?",
+       "r": "dry the grain well and store it in clean, sealed containers",
+       "w": [
+        "store it wet",
+        "leave it open",
+        "mix it with old infested grain"
+       ],
+       "e": [
+        "Wet grain is easily attacked.",
+        "Open grain lets pests in.",
+        "That spreads the weevils."
+       ],
+       "y": "Dry, clean, sealed storage keeps weevils out."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "plant-pests"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Aphids are pests.",
+      "truth": "true"
+     },
+     {
+      "text": "Cassava mosaic is caused by a virus.",
+      "truth": "true"
+     },
+     {
+      "text": "Crop rotation helps control pests.",
+      "truth": "true"
+     },
+     {
+      "text": "Infected plants should be removed.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Planting the same crop every year reduces pests.",
+      "truth": "false",
+      "explain": "It lets pests and germs build up; rotation reduces them."
+     },
+     {
+      "text": "Cocoa black pod is caused by rats.",
+      "truth": "false",
+      "explain": "It is caused by a fungus."
+     },
+     {
+      "text": "Cuttings from diseased plants give healthy crops.",
+      "truth": "false",
+      "explain": "Diseases are passed on in cuttings."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

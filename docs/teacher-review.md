@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-147 P1 items: 145 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+162 P1 items: 160 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -176,6 +176,21 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-W03 | Form 2 English: public holidays | open |
 | TR-W04 | Form 2 English: grammar | open |
 | TR-W05 | Form 2 English: vocabulary | open |
+| TR-Q01 | Form 2 Physics: scientific method | open |
+| TR-Q02 | Form 2 Physics: measurement, speed, density | open |
+| TR-Q03 | Form 2 Physics: matter and temperature | open |
+| TR-Q04 | Form 2 Physics: heat and electricity | open |
+| TR-Q05 | Form 2 Physics: energy sources | open |
+| TR-J01 | Form 2 Chemistry: atomic structure | open |
+| TR-J02 | Form 2 Chemistry: mass numbers | open |
+| TR-J03 | Form 2 Chemistry: valency table, formulae, names | open |
+| TR-J04 | Form 2 Chemistry: the periodic table | open |
+| TR-V01 | Form 2 Biology: flower drawing | open |
+| TR-V02 | Form 2 Biology: bean seed drawing | open |
+| TR-V03 | Form 2 Biology: vegetative propagation | open |
+| TR-V04 | Form 2 Biology: pollination, fertilisation, seeds | open |
+| TR-V05 | Form 2 Biology: germination | open |
+| TR-V06 | Form 2 Biology: pests and diseases | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -635,3 +650,47 @@ Everything is in `content/form-2/english/REVIEW.md` and `AUTHORED.md`. Reviewer:
 
 ### Added 2026-10-17 (Form 2 in the app, form-2 branch)
 - [ ] **TR-R04 [P2] Two classes in one app:** a “Form One / Form Two” switch on the home screen (Form One stays the default, so a Form One pupil sees no change). Each class has its own subject tiles and progress (“f2-maths:5” never mixes with “maths:5”); streak, stars and badges count both. Each class has its own shareable file (Form One: `offline.html`, as before; Form Two: `offline-form-2.html`). In review mode the tabs read “Form Two Maths”, “Form Two English”. *Location:* `CLASSES`, `CLASS_OF` in `tools/prototype/build.mjs`; `form()`, `subjectName()` in `tools/prototype/app.js`.
+
+## Q. Physics Form 2, Batch P2-1 (Term 1, rows 1–15), added 2026-10-18 (form-2 branch, not live)
+
+15 lessons with auto-marked practice: 15 notes, 46 teach cards, 69 practice templates and 7 card-check templates; 48
+have an **authored key**, 28 are **computed by rule**. Everything is in `content/form-2/physics/REVIEW.md` (drawings in
+`figures/`) and `AUTHORED.md`. Reviewer: a Physics teacher.
+
+### P1: wrong physics here would mislead the pupil
+- [ ] **TR-Q01 [P1] Scientific method (rows 1–3):** qualitative and quantitative data; the mean; anomalous readings; reading line graphs; conclusions; independent, dependent and controlled variables; sources of error. *Location:* `content/form-2/physics/1.json` to `3.json`; `mean()`, `lineGraph()` in `src/engine/lib/science2.js`.
+- [ ] **TR-Q02 [P1] Measurement, speed and density (rows 4–7):** the five SI base quantities used, with units and instruments; v = d/t and its rearrangements; km/h ÷ 3.6 = m/s; average speed over a trip = total distance ÷ total time; density = m/V, volume by displacement; densities quoted (iron 7.9, aluminium 2.7, cork 0.25 g/cm³ …). *Location:* `4.json` to `7.json`.
+- [ ] **TR-Q03 [P1] Matter and temperature (rows 8–10):** states and particle model; names of the changes of state; T(K) = T(°C) + 273; expansion. *Location:* `8.json` to `10.json`.
+- [ ] **TR-Q04 [P1] Heat and electricity (rows 11–14):** conductors and insulators; effects of heat (expansion gaps, bimetallic strip, reversible and irreversible changes); the four effects of current with device examples; the conductor order copper > aluminium > iron > glass > wood. *Location:* `11.json` to `14.json`.
+- [ ] **TR-Q05 [P1] Energy sources (row 15):** fossil fuels and uranium are non-renewable; Edéa and Song Loulou named as hydroelectric dams. *Location:* `15.json`.
+
+## J. Chemistry Form 2, Batch C2-1 (Term 1: rows 1–4, 6–11, 13–17), added 2026-10-18 (form-2 branch, not live)
+
+The integration rows (5, 12, 19) and the review row (18) are not lessons. 15 lessons: 15 notes, 45 teach cards, 63
+practice templates and 12 card-check templates; 39 have an **authored key**, 36 are **computed by rule** (electron
+shells, particle numbers, formulae and names built from valencies). Everything is in `content/form-2/chemistry/REVIEW.md`
+and `AUTHORED.md`. Reviewer: a Chemistry teacher.
+
+### P1: wrong chemistry here would mislead the pupil
+- [ ] **TR-J01 [P1] Atomic structure (rows 1–4):** Dalton's five statements and the two later corrections; particle charges and masses (electron about 1/1840); shells filled 2, 8, 8, 2; neutrons = A − Z; isotopes. *Location:* `1.json` to `4.json`; `shellList()`, `bohr()` in `science2.js`.
+- [ ] **TR-J02 [P1] Mass numbers used:** the most common isotope of each of the first 20 elements (H 1 … Cl 35 … Ca 40). *Location:* `MASS` in `science2.js`.
+- [ ] **TR-J03 [P1] Valency table and formulae (rows 6–11):** valencies of H, Li, Na, K, Ag, NH₄ (1), Mg, Ca, Zn, Cu (2), Al (3), F, Cl, I, OH, NO₃, HCO₃ (1), O, S, SO₄, CO₃ (2), N, PO₄ (3); copper is given valency 2 only; formulae by swapping and simplifying; names with -ide and the radical names. *Location:* `POS`, `NEG`, `compoundFormula()`, `compoundName()` in `science2.js`.
+- [ ] **TR-J04 [P1] The periodic table (rows 13–17):** Döbereiner 1829, Newlands 1864, Mendeleev 1869, Moseley 1913; group = outer electrons (helium in group 8), period = shells; the four family names; properties and uses; reactivity trends and halogen displacement. *Location:* `13.json` to `17.json`.
+
+## V. Biology Form 2, Batch B2-1 (Term 1: rows 1–9, 13–21), added 2026-10-18 (form-2 branch, not live)
+
+The integration, evaluation and remediation rows (10–12, 22–24) are not lessons. 18 lessons, including the 5
+practicals (taught as the method, the results and the conclusion): 18 notes, 54 teach cards, 72 practice templates and
+18 card-check templates; **all 90 have an authored key**. Everything is in `content/form-2/biology/REVIEW.md` (drawings in
+`figures/`) and `AUTHORED.md`. Reviewer: a Biology teacher.
+
+### P1: wrong biology here would mislead the pupil
+- [ ] **TR-V01 [P1] The flower drawing:** eight lettered parts (petal, sepal, anther, filament, stigma, style, ovary, receptacle). Please check the drawing is clear enough. *Location:* `flower()` in `science2.js`; `content/form-2/biology/7.json`, `9.json`.
+- [ ] **TR-V02 [P1] The bean seed drawing:** testa, hilum, micropyle, cotyledon, plumule, radicle. *Location:* `beanSeed()`; `14.json`.
+- [ ] **TR-V03 [P1] Vegetative propagation (rows 1–6):** organs and crops (onion bulb, cocoyam corm, ginger rhizome, Irish potato stem tuber, sweet potato root tuber, banana and plantain suckers, Bryophyllum); artificial methods and the crops named; advantages and disadvantages; the two practicals. *Location:* `1.json` to `6.json`.
+- [ ] **TR-V04 [P1] Pollination, fertilisation, seeds (rows 7–9, 13–16):** insect- and wind-pollinated flowers; pollen tube and the fate of the parts; dispersal examples (kapok, Combretum, coconut, raffia, Bidens, castor). *Location:* `7.json` to `9.json`, `13.json` to `16.json`.
+- [ ] **TR-V05 [P1] Germination (rows 17–19):** water, oxygen and warmth needed, light not needed; bean, groundnut and pawpaw epigeal; maize, pea and mango hypogeal; the four-tube experiment. *Location:* `17.json` to `19.json`.
+- [ ] **TR-V06 [P1] Pests and diseases (rows 20–21):** cocoa black pod (fungus), cassava mosaic (virus carried by whiteflies), maize streak (virus carried by leafhoppers); prevention; biological and chemical control; pesticide safety. *Location:* `20.json`, `21.json`.
+
+### P2: decisions
+- [ ] **TR-V07 [P2] Practicals in the app:** the five experiments (rows 4, 5, 9, 18, 19) are taught on screen (method, observations, conclusion), not done. The pupil should still do them with a teacher or a grown-up. *Location:* those lessons.

@@ -1,0 +1,324 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "b2-13",
+   "name": "Sexual reproduction in plants: fertilisation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Fertilisation is the joining of a male sex cell with a female sex cell.\nIn a flowering plant:\n1. After pollination, a pollen grain on the stigma grows a pollen tube.\n2. The tube grows down through the style to the ovary and enters an ovule through the micropyle.\n3. A male nucleus from the pollen tube joins (fuses) with the egg cell nucleus in the ovule: this is fertilisation. The result is a zygote.\nAfter fertilisation (the fate of the parts):\n• the zygote grows into the embryo; the ovule becomes the seed; its coverings become the seed coat (testa);\n• the ovary becomes the fruit and its wall the fruit wall (pericarp);\n• petals, stamens, stigma and style wither and fall off.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "a bean flower"
+  },
+  "problem": "Describe what happens in {f} from the moment a pollen grain lands on the stigma until a seed forms.",
+  "steps": [
+   "The pollen grain grows a pollen tube down the style into the ovary.",
+   "The tube enters an ovule through the micropyle, and a male nucleus fuses with the egg nucleus: fertilisation, forming a zygote.",
+   "The zygote becomes the embryo, the ovule the seed, and the ovary the pod (fruit)."
+  ],
+  "answer": "Pollen tube → fusion of male and egg nuclei → zygote → embryo inside a seed, ovary → fruit.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "A pollen tube grows from the stigma down the style to an ovule.",
+    "vars": {},
+    "example": [
+     "It enters the ovule through the micropyle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-13-order"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Fertilisation is the fusion of a male nucleus with the egg nucleus, forming a zygote.",
+    "vars": {},
+    "example": [
+     "Pollination comes first; fertilisation follows."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-13-what"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "After fertilisation the ovule becomes a seed and the ovary a fruit.",
+    "vars": {},
+    "example": [
+     "Zygote → embryo.",
+     "Petals and stamens wither."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-13-fate-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "seeds"
+     ],
+     "prompt": "What does each part become after fertilisation?",
+     "pool": [
+      {
+       "left": "ovule",
+       "right": "seed"
+      },
+      {
+       "left": "ovary",
+       "right": "fruit"
+      },
+      {
+       "left": "ovary wall",
+       "right": "fruit wall (pericarp)"
+      },
+      {
+       "left": "zygote",
+       "right": "embryo"
+      },
+      {
+       "left": "integuments of the ovule",
+       "right": "seed coat (testa)"
+      },
+      {
+       "left": "petals and stamens",
+       "right": "wither and fall off"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-13-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Put the stages in order.",
+   "items": [
+    {
+     "text": "Pollen lands on the stigma"
+    },
+    {
+     "text": "A pollen tube grows down the style"
+    },
+    {
+     "text": "The tube enters an ovule through the micropyle"
+    },
+    {
+     "text": "A male nucleus fuses with the egg nucleus"
+    },
+    {
+     "text": "The ovule becomes a seed"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "b2-13-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is fertilisation in a flowering plant?",
+       "r": "the fusion of a male nucleus with the egg nucleus",
+       "w": [
+        "the transfer of pollen to a stigma",
+        "the spreading of seeds",
+        "the opening of the flower"
+       ],
+       "e": [
+        "That is pollination.",
+        "That is dispersal.",
+        "That is not fertilisation."
+       ],
+       "y": "Two sex cells join."
+      },
+      {
+       "q": "What is formed when the nuclei fuse?",
+       "r": "a zygote",
+       "w": [
+        "a pollen grain",
+        "a petal",
+        "a stigma"
+       ],
+       "e": [
+        "Pollen comes from anthers.",
+        "Petals are not formed by fusion.",
+        "The stigma was already there."
+       ],
+       "y": "The fertilised egg is a zygote."
+      },
+      {
+       "q": "Which happens first?",
+       "r": "pollination",
+       "w": [
+        "fertilisation",
+        "seed formation",
+        "fruit ripening"
+       ],
+       "e": [
+        "Fertilisation needs pollen first.",
+        "Seeds form after fertilisation.",
+        "That comes last."
+       ],
+       "y": "Pollen must arrive before fertilisation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-13-fate",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "What does each part become after fertilisation?",
+   "pool": [
+    {
+     "left": "ovule",
+     "right": "seed"
+    },
+    {
+     "left": "ovary",
+     "right": "fruit"
+    },
+    {
+     "left": "ovary wall",
+     "right": "fruit wall (pericarp)"
+    },
+    {
+     "left": "zygote",
+     "right": "embryo"
+    },
+    {
+     "left": "integuments of the ovule",
+     "right": "seed coat (testa)"
+    },
+    {
+     "left": "petals and stamens",
+     "right": "wither and fall off"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "b2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The pollen tube grows down the style.",
+      "truth": "true"
+     },
+     {
+      "text": "The zygote becomes the embryo.",
+      "truth": "true"
+     },
+     {
+      "text": "The ovary becomes the fruit.",
+      "truth": "true"
+     },
+     {
+      "text": "Petals wither after fertilisation.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The ovule becomes the fruit.",
+      "truth": "false",
+      "explain": "The ovule becomes the seed; the ovary becomes the fruit."
+     },
+     {
+      "text": "Fertilisation happens before pollination.",
+      "truth": "false",
+      "explain": "Pollination comes first."
+     },
+     {
+      "text": "The pollen tube enters the ovule through the anther.",
+      "truth": "false",
+      "explain": "It enters through the micropyle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

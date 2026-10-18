@@ -1,0 +1,459 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "b2-8",
+   "name": "Sexual reproduction in plants: pollination"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pollination is the transfer of pollen grains from an anther to a stigma.\n• Self-pollination: pollen goes to the stigma of the same flower or another flower on the same plant.\n• Cross-pollination: pollen goes to a flower on another plant of the same kind; it gives more variation.\nAgents of pollination: insects (bees, butterflies), wind, birds, bats, and people (hand pollination of vanilla or oil palm).\nInsect-pollinated flowers: large, colourful petals, scent and nectar, sticky or rough pollen, anthers and stigmas inside the flower (hibiscus, flamboyant).\nWind-pollinated flowers: small, dull, no scent or nectar, lots of light smooth pollen, long filaments and feathery stigmas hanging outside (maize, grasses).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "maize"
+  },
+  "problem": "{f} flowers are small and dull, with feathery stigmas (the silks) and anthers hanging outside. How are they pollinated? Explain.",
+  "steps": [
+   "These features suit the wind: there is no need to attract insects.",
+   "Anthers hanging out let the wind blow the light pollen away; feathery stigmas catch pollen from the air."
+  ],
+  "answer": "By wind: hanging anthers release pollen; feathery stigmas catch it.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "Pollination moves pollen from an anther to a stigma.",
+    "vars": {},
+    "example": [
+     "Self-pollination: within one plant.",
+     "Cross-pollination: between two plants."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-8-kind"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "Insect-pollinated flowers are colourful and scented, with nectar and sticky pollen.",
+    "vars": {},
+    "example": [
+     "Hibiscus attracts bees and butterflies."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-8-insect"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Wind-pollinated flowers are small and dull, with light pollen and feathery stigmas outside.",
+    "vars": {},
+    "example": [
+     "Maize tassels release pollen into the wind."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-8-agent-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "flower"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "a large red flower with scent and nectar",
+         "r": "by insects",
+         "w": [
+          "by wind",
+          "by water",
+          "it is never pollinated"
+         ],
+         "e": [
+          "Wind flowers are dull and scentless.",
+          "Few flowers use water.",
+          "All flowers need pollination to make seeds."
+         ],
+         "y": "Colour, scent and nectar attract insects."
+        },
+        {
+         "q": "maize, with tassels and silks",
+         "r": "by wind",
+         "w": [
+          "by bees only",
+          "by bats",
+          "by water"
+         ],
+         "e": [
+          "Maize flowers do not attract bees with nectar.",
+          "Bats visit large flowers.",
+          "Maize uses wind."
+         ],
+         "y": "Hanging anthers and feathery stigmas suit wind."
+        },
+        {
+         "q": "grass flowers with no petals",
+         "r": "by wind",
+         "w": [
+          "by butterflies",
+          "by birds",
+          "by people only"
+         ],
+         "e": [
+          "No petals: nothing attracts butterflies.",
+          "Birds visit large colourful flowers.",
+          "Grasses do not need people."
+         ],
+         "y": "Small, dull flowers are wind-pollinated."
+        }
+       ]
+      }
+     },
+     "prompt": "How is {X.q} most likely pollinated?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-8-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is pollination?",
+       "r": "the transfer of pollen from an anther to a stigma",
+       "w": [
+        "the joining of sex cells",
+        "the spreading of seeds",
+        "the growth of a seed"
+       ],
+       "e": [
+        "That is fertilisation.",
+        "That is dispersal.",
+        "That is germination."
+       ],
+       "y": "Pollination moves pollen."
+      },
+      {
+       "q": "Pollen from one maize plant lands on the stigma of another maize plant. This is …",
+       "r": "cross-pollination",
+       "w": [
+        "self-pollination",
+        "fertilisation",
+        "germination"
+       ],
+       "e": [
+        "Self is within one plant.",
+        "Fertilisation comes later.",
+        "Germination is a seed growing."
+       ],
+       "y": "Between two plants of the same kind: cross-pollination."
+      },
+      {
+       "q": "Which kind of pollination gives more variation?",
+       "r": "cross-pollination",
+       "w": [
+        "self-pollination",
+        "neither",
+        "both the same"
+       ],
+       "e": [
+        "Self uses one plant's cells only.",
+        "Cross gives more.",
+        "Cross gives more."
+       ],
+       "y": "Two different parent plants give more variation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-8-insect",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "prompt": "Sort the features: insect-pollinated or wind-pollinated flowers?",
+   "pool": [
+    {
+     "left": "large, colourful petals",
+     "right": "insect-pollinated"
+    },
+    {
+     "left": "scent and nectar",
+     "right": "insect-pollinated"
+    },
+    {
+     "left": "sticky or rough pollen",
+     "right": "insect-pollinated"
+    },
+    {
+     "left": "stigma inside the flower",
+     "right": "insect-pollinated"
+    },
+    {
+     "left": "small, dull petals or none",
+     "right": "wind-pollinated"
+    },
+    {
+     "left": "light, smooth pollen in large amounts",
+     "right": "wind-pollinated"
+    },
+    {
+     "left": "feathery stigmas hanging outside",
+     "right": "wind-pollinated"
+    },
+    {
+     "left": "anthers on long filaments hanging out",
+     "right": "wind-pollinated"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "insect-pollinated",
+    "wind-pollinated"
+   ]
+  },
+  {
+   "id": "b2-8-agent",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a large red flower with scent and nectar",
+       "r": "by insects",
+       "w": [
+        "by wind",
+        "by water",
+        "it is never pollinated"
+       ],
+       "e": [
+        "Wind flowers are dull and scentless.",
+        "Few flowers use water.",
+        "All flowers need pollination to make seeds."
+       ],
+       "y": "Colour, scent and nectar attract insects."
+      },
+      {
+       "q": "maize, with tassels and silks",
+       "r": "by wind",
+       "w": [
+        "by bees only",
+        "by bats",
+        "by water"
+       ],
+       "e": [
+        "Maize flowers do not attract bees with nectar.",
+        "Bats visit large flowers.",
+        "Maize uses wind."
+       ],
+       "y": "Hanging anthers and feathery stigmas suit wind."
+      },
+      {
+       "q": "grass flowers with no petals",
+       "r": "by wind",
+       "w": [
+        "by butterflies",
+        "by birds",
+        "by people only"
+       ],
+       "e": [
+        "No petals: nothing attracts butterflies.",
+        "Birds visit large colourful flowers.",
+        "Grasses do not need people."
+       ],
+       "y": "Small, dull flowers are wind-pollinated."
+      }
+     ]
+    }
+   },
+   "prompt": "How is {X.q} most likely pollinated?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Pollination moves pollen to a stigma.",
+      "truth": "true"
+     },
+     {
+      "text": "Insect-pollinated flowers have nectar.",
+      "truth": "true"
+     },
+     {
+      "text": "Maize is wind-pollinated.",
+      "truth": "true"
+     },
+     {
+      "text": "Cross-pollination gives more variation.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Wind-pollinated flowers have large colourful petals.",
+      "truth": "false",
+      "explain": "They are small and dull; colourful petals attract insects."
+     },
+     {
+      "text": "Pollination is the joining of sex cells.",
+      "truth": "false",
+      "explain": "That is fertilisation; pollination is the transfer of pollen."
+     },
+     {
+      "text": "Wind-pollinated flowers have sticky pollen.",
+      "truth": "false",
+      "explain": "Their pollen is light and smooth."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

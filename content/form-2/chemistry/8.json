@@ -1,0 +1,357 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  3,
+  7
+ ],
+ "skills": [
+  {
+   "id": "k2-8",
+   "name": "Valency of elements and radicals"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Valency is the combining power of an element or radical: the number of hydrogen atoms (or other atoms of valency 1) it can combine with.\nFor elements, the valency comes from the outer electrons:\n• groups 1, 2, 3 (metals): valency 1, 2, 3 (they lose these electrons);\n• group 4: valency 4;\n• groups 5, 6, 7 (non-metals): valency 3, 2, 1 (8 minus the outer electrons);\n• group 8 (noble gases): valency 0, they hardly combine.\nExamples: Na 1, Mg 2, Al 3, C 4, N 3, O 2, Cl 1. Hydrogen has valency 1.\nSome metals have more than one valency (iron 2 or 3; copper 1 or 2): the name shows it, iron(III) oxide.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 16,
+   "eight": 8
+  },
+  "problem": "Find the valency of sulfur (atomic number {z}) from its electron arrangement.",
+  "steps": [
+   "Arrangement: {shells(z)}, so {outerElectrons(z)} outer electrons (group {groupOf(z)}).",
+   "A non-metal: valency = {eight} − {outerElectrons(z)} = {eight - outerElectrons(z)}."
+  ],
+  "answer": "Valency {eight - outerElectrons(z)}.",
+  "checks": [
+   "eight - outerElectrons(z) == 2"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "Valency is the combining power: how many hydrogen atoms an atom can hold.",
+    "vars": {},
+    "example": [
+     "Oxygen holds two H: H₂O, valency {valency('O')}.",
+     "Chlorine holds one H: HCl, valency {valency('Cl')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-8-element"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "Metals in groups {'1, 2, 3'} have valency {'1, 2, 3'}; non-metals in groups {'5, 6, 7'} have valency {'3, 2, 1'}.",
+    "vars": {
+     "m": 12,
+     "n": 7
+    },
+    "example": [
+     "Mg (group {groupOf(m)}): valency {valency('Mg')}",
+     "N (group {groupOf(n)}): valency {valency('N')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-8-group"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Noble gases have a full outer shell: valency zero.",
+    "vars": {
+     "z": 10
+    },
+    "example": [
+     "Neon {shells(z)}: it does not combine."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-8-noble-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "symbols-valency"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why do noble gases hardly form compounds?",
+         "r": "Their outer shell is full.",
+         "w": [
+          "They are metals.",
+          "They have no electrons.",
+          "They are liquids."
+         ],
+         "e": [
+          "They are non-metals.",
+          "They have electrons.",
+          "They are gases."
+         ],
+         "y": "A full outer shell makes them stable: valency zero."
+        },
+        {
+         "q": "Iron(III) oxide: what does the (III) tell you?",
+         "r": "Iron has valency 3 in this compound.",
+         "w": [
+          "There are three oxygen atoms only.",
+          "Iron is in group 3.",
+          "It is the third oxide ever made."
+         ],
+         "e": [
+          "It is about iron's valency.",
+          "Iron is not in group 3.",
+          "It shows the valency."
+         ],
+         "y": "The Roman number gives the metal's valency."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-8-element",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      "H",
+      "Li",
+      "Na",
+      "K",
+      "Mg",
+      "Ca",
+      "Al",
+      "F",
+      "Cl",
+      "O",
+      "S",
+      "N"
+     ]
+    }
+   },
+   "prompt": "What is the valency of {nameOf(x)} ({x})?",
+   "answer": "valency(x)",
+   "solution": [
+    "{nameOf(x)} has valency {answer}."
+   ]
+  },
+  {
+   "id": "k2-8-group",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "g": {
+     "pick": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "An element is in group {g}. What is its valency?",
+   "correct": "{g <= 4 ? g : 8 - g}",
+   "distractors": [
+    {
+     "text": "{g <= 4 ? 8 - g : g}",
+     "misconception": "flip"
+    },
+    {
+     "text": "{g + 1}",
+     "misconception": "plus"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "{g <= 4 ? 'For groups 1 to 4, the valency is the group number' : 'For groups 5 to 7, the valency is 8 minus the group number'}."
+    },
+    {
+     "id": "plus",
+     "explain": "The valency is not the group number plus one."
+    }
+   ],
+   "solution": [
+    "{g <= 4 ? 'Groups 1 to 4: valency = the group number' : 'Groups 5 to 7: valency = 8 − the group number'}.",
+    "So the valency is {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "k2-8-noble",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do noble gases hardly form compounds?",
+       "r": "Their outer shell is full.",
+       "w": [
+        "They are metals.",
+        "They have no electrons.",
+        "They are liquids."
+       ],
+       "e": [
+        "They are non-metals.",
+        "They have electrons.",
+        "They are gases."
+       ],
+       "y": "A full outer shell makes them stable: valency zero."
+      },
+      {
+       "q": "Iron(III) oxide: what does the (III) tell you?",
+       "r": "Iron has valency 3 in this compound.",
+       "w": [
+        "There are three oxygen atoms only.",
+        "Iron is in group 3.",
+        "It is the third oxide ever made."
+       ],
+       "e": [
+        "It is about iron's valency.",
+        "Iron is not in group 3.",
+        "It shows the valency."
+       ],
+       "y": "The Roman number gives the metal's valency."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-8-hydrogen",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      "Cl",
+      "O",
+      "S",
+      "N",
+      "F"
+     ]
+    }
+   },
+   "prompt": "How many hydrogen atoms combine with one atom of {nameOf(x)}?",
+   "answer": "valency(x)",
+   "misconceptions": [
+    {
+     "id": "group",
+     "wrong": "groupOf(atomicNumber(x))",
+     "explain": "That is the group; the valency of a non-metal is 8 minus the group number."
+    }
+   ],
+   "solution": [
+    "{nameOf(x)} has valency {valency(x)}.",
+    "So one atom holds {answer} hydrogen atoms."
+   ]
+  }
+ ]
+}

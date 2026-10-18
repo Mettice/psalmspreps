@@ -1,0 +1,415 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "b2-14",
+   "name": "Sexual reproduction in plants: the seed"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A seed is a fertilised ovule. It contains a young plant (the embryo) and a store of food, inside a protective coat.\nStructure of a bean seed:\n• testa (seed coat): protects the seed;\n• hilum: the scar where the seed was attached to the pod;\n• micropyle: a tiny hole near the hilum that lets in water;\n• two cotyledons: seed leaves that store food;\n• embryo: the plumule (grows into the shoot) and the radicle (grows into the root).\nBean, groundnut: two cotyledons (dicotyledons). Maize: one cotyledon (monocotyledon), with food stored in the endosperm.\nImportance of seeds: they grow into new plants; they can wait (stay dormant) until conditions are good; they are food for people and animals (maize, beans, groundnuts) and give oils (palm kernel, groundnut).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 321
+  },
+  "problem": "Ayuk soaks a bean seed and opens it. Which parts form the embryo, and what does each become?",
+  "steps": [
+   "The embryo is the young plant between the cotyledons.",
+   "The plumule ({bioLetter(k, 6, 4)} in the drawing) grows into the shoot; the radicle ({bioLetter(k, 6, 5)}) grows into the root."
+  ],
+  "answer": "The plumule (shoot) and the radicle (root).",
+  "checks": [],
+  "figure": "beanSeed(k)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "A seed has a coat (testa), stored food (cotyledons) and an embryo (plumule and radicle).",
+    "vars": {
+     "k": 0
+    },
+    "example": [
+     "The testa protects.",
+     "The cotyledons feed the embryo."
+    ],
+    "checks": [],
+    "figure": "beanSeed(k)",
+    "check": {
+     "ref": "b2-14-label"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Each part of the seed has a job.",
+    "vars": {},
+    "example": [
+     "Micropyle: lets in water.",
+     "Radicle: becomes the root."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-14-job"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Bean has two cotyledons (a dicot); maize has one (a monocot), with an endosperm.",
+    "vars": {},
+    "example": [
+     "Groundnut: two cotyledons.",
+     "Maize: one cotyledon."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-14-kind-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "seeds"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How many cotyledons does a maize grain have?",
+         "r": "one",
+         "w": [
+          "two",
+          "three",
+          "none"
+         ],
+         "e": [
+          "Bean has two.",
+          "No common seed has three.",
+          "It has one."
+         ],
+         "y": "Maize is a monocotyledon."
+        },
+        {
+         "q": "Where is food stored in a bean seed?",
+         "r": "in the cotyledons",
+         "w": [
+          "in the testa",
+          "in the hilum",
+          "in the micropyle"
+         ],
+         "e": [
+          "The testa protects.",
+          "The hilum is a scar.",
+          "The micropyle is a hole."
+         ],
+         "y": "Bean cotyledons are thick with food."
+        },
+        {
+         "q": "Why are seeds important to people?",
+         "r": "They are food and grow into new crops.",
+         "w": [
+          "They make oxygen at night.",
+          "They clean water.",
+          "They are only for decoration."
+         ],
+         "e": [
+          "Seeds do not do that.",
+          "Seeds do not do that.",
+          "They are mainly food and new plants."
+         ],
+         "y": "Maize, beans and groundnuts are seeds we eat."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-14-label",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      719
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      5
+     ]
+    }
+   },
+   "prompt": "Which letter shows the {seedPart(i)}?",
+   "correct": "{bioLetter(k, 6, i)}",
+   "distractors": [
+    {
+     "text": "{bioLetter(k, 6, (i + 1) % 6)}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{bioLetter(k, 6, (i + 2) % 6)}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{bioLetter(k, 6, (i + 3) % 6)}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{bioLetter(k, 6, (i + 1) % 6)} is the {seedPart((i + 1) % 6)}."
+    },
+    {
+     "id": "w2",
+     "explain": "{bioLetter(k, 6, (i + 2) % 6)} is the {seedPart((i + 2) % 6)}."
+    },
+    {
+     "id": "w3",
+     "explain": "{bioLetter(k, 6, (i + 3) % 6)} is the {seedPart((i + 3) % 6)}."
+    }
+   ],
+   "solution": [
+    "The {seedPart(i)} is labelled {answer}."
+   ],
+   "figure": "beanSeed(k)"
+  },
+  {
+   "id": "b2-14-job",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Match each part of a bean seed to its job.",
+   "pool": [
+    {
+     "left": "testa",
+     "right": "protects the seed"
+    },
+    {
+     "left": "hilum",
+     "right": "scar where the seed was attached to the pod"
+    },
+    {
+     "left": "micropyle",
+     "right": "small hole that lets in water"
+    },
+    {
+     "left": "cotyledon",
+     "right": "stores food for the young plant"
+    },
+    {
+     "left": "plumule",
+     "right": "grows into the shoot"
+    },
+    {
+     "left": "radicle",
+     "right": "grows into the root"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "b2-14-kind",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How many cotyledons does a maize grain have?",
+       "r": "one",
+       "w": [
+        "two",
+        "three",
+        "none"
+       ],
+       "e": [
+        "Bean has two.",
+        "No common seed has three.",
+        "It has one."
+       ],
+       "y": "Maize is a monocotyledon."
+      },
+      {
+       "q": "Where is food stored in a bean seed?",
+       "r": "in the cotyledons",
+       "w": [
+        "in the testa",
+        "in the hilum",
+        "in the micropyle"
+       ],
+       "e": [
+        "The testa protects.",
+        "The hilum is a scar.",
+        "The micropyle is a hole."
+       ],
+       "y": "Bean cotyledons are thick with food."
+      },
+      {
+       "q": "Why are seeds important to people?",
+       "r": "They are food and grow into new crops.",
+       "w": [
+        "They make oxygen at night.",
+        "They clean water.",
+        "They are only for decoration."
+       ],
+       "e": [
+        "Seeds do not do that.",
+        "Seeds do not do that.",
+        "They are mainly food and new plants."
+       ],
+       "y": "Maize, beans and groundnuts are seeds we eat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The testa protects the seed.",
+      "truth": "true"
+     },
+     {
+      "text": "The radicle grows into the root.",
+      "truth": "true"
+     },
+     {
+      "text": "Bean has two cotyledons.",
+      "truth": "true"
+     },
+     {
+      "text": "The micropyle lets in water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The plumule grows into the root.",
+      "truth": "false",
+      "explain": "The plumule grows into the shoot; the radicle into the root."
+     },
+     {
+      "text": "Maize has two cotyledons.",
+      "truth": "false",
+      "explain": "Maize has one cotyledon."
+     },
+     {
+      "text": "The hilum stores food for the embryo.",
+      "truth": "false",
+      "explain": "The hilum is a scar; the cotyledons store food."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

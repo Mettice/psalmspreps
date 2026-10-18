@@ -1,0 +1,334 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  3,
+  13
+ ],
+ "skills": [
+  {
+   "id": "k2-14",
+   "name": "The modern periodic table"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In the modern periodic table:\n• Elements are in order of atomic number.\n• Columns are groups (1 to 8; group 8 is also called group 0). Elements in a group have the same number of outer electrons, so they react in similar ways.\n• Rows are periods. The period number is the number of electron shells.\nExample: sodium, 2, 8, 1: group 1 (one outer electron), period 3 (three shells).\nMetals are on the left and in the middle; non-metals are on the right; metalloids (silicon, boron) are between them.\nHydrogen is often placed on its own at the top.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 17
+  },
+  "problem": "Find the group and period of chlorine (atomic number {z}).",
+  "steps": [
+   "Arrangement: {shells(z)}.",
+   "Outer electrons: {outerElectrons(z)}, so group {groupOf(z)}.",
+   "Shells: {periodOf(z)}, so period {periodOf(z)}."
+  ],
+  "answer": "Group {groupOf(z)}, period {periodOf(z)}.",
+  "checks": [
+   "groupOf(z) == 7 && periodOf(z) == 3"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "The group number is the number of outer electrons.",
+    "vars": {
+     "z": 12
+    },
+    "example": [
+     "Magnesium {shells(z)}: group {groupOf(z)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-14-group"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "The period number is the number of shells.",
+    "vars": {
+     "z": 19
+    },
+    "example": [
+     "Potassium {shells(z)}: period {periodOf(z)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-14-period"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Metals are on the left, non-metals on the right.",
+    "vars": {},
+    "example": [
+     "Sodium (left): a metal.",
+     "Chlorine (right): a non-metal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-14-side"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-14-group",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "{cap(nameOf(s))} has the electron arrangement {shells(atomicNumber(s))}. In which group is it?",
+   "answer": "groupOf(atomicNumber(s))",
+   "misconceptions": [
+    {
+     "id": "period",
+     "wrong": "periodOf(atomicNumber(s))",
+     "explain": "That is the number of shells (the period).",
+     "when": "periodOf(atomicNumber(s)) != groupOf(atomicNumber(s))"
+    }
+   ],
+   "solution": [
+    "{atomicNumber(s) == 2 ? 'Helium has a full shell: it is a noble gas, group 8' : 'The outer shell has ' + outerElectrons(atomicNumber(s)) + ' electrons'}.",
+    "So it is in group {answer}."
+   ],
+   "where": [
+    "s != 'H'"
+   ]
+  },
+  {
+   "id": "k2-14-period",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "{cap(nameOf(s))} has the electron arrangement {shells(atomicNumber(s))}. In which period is it?",
+   "answer": "periodOf(atomicNumber(s))",
+   "misconceptions": [
+    {
+     "id": "group",
+     "wrong": "groupOf(atomicNumber(s))",
+     "explain": "That is the group (outer electrons); the period is the number of shells.",
+     "when": "periodOf(atomicNumber(s)) != groupOf(atomicNumber(s))"
+    }
+   ],
+   "solution": [
+    "Count the shells.",
+    "There are {answer}, so period {answer}."
+   ]
+  },
+  {
+   "id": "k2-14-side",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "Li",
+      "Na",
+      "Mg",
+      "K",
+      "Ca",
+      "Al",
+      "N",
+      "O",
+      "F",
+      "Cl",
+      "S",
+      "P"
+     ]
+    }
+   },
+   "prompt": "{cap(nameOf(s))} is on the {kindOf(s) == 'metal' ? 'left' : 'right'} of the periodic table. Is it a metal or a non-metal?",
+   "correct": "{kindOf(s)}",
+   "distractors": [
+    {
+     "text": "{kindOf(s) == 'metal' ? 'non-metal' : 'metal'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Metals are on the left and non-metals on the right."
+    }
+   ],
+   "solution": [
+    "Metals are on the left; non-metals on the right.",
+    "So {nameOf(s)} is a {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "k2-14-place",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "z": {
+     "int": [
+      4,
+      18
+     ]
+    },
+    "g": {
+     "expr": "groupOf(z)"
+    },
+    "p": {
+     "expr": "periodOf(z)"
+    }
+   },
+   "prompt": "An element is in group {g}, period {p}. Which element is it?",
+   "correct": "{nameOf(firstTwenty()[z - 1])}",
+   "distractors": [
+    {
+     "text": "{nameOf(firstTwenty()[z])}",
+     "misconception": "next"
+    },
+    {
+     "text": "{nameOf(firstTwenty()[z - 2])}",
+     "misconception": "before"
+    },
+    {
+     "text": "{nameOf(firstTwenty()[(z + 7) % 20])}",
+     "misconception": "row"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "next",
+     "explain": "That element has one more electron."
+    },
+    {
+     "id": "before",
+     "explain": "That element has one electron fewer."
+    },
+    {
+     "id": "row",
+     "explain": "Check the period: count the shells."
+    }
+   ],
+   "solution": [
+    "Period {p}: {p} shells. Group {g}: {g} outer electrons.",
+    "Arrangement {shells(z)}, atomic number {z}: {answer}."
+   ],
+   "where": [
+    "z != 10 && z != 18",
+    "(z + 7) % 20 != z - 1 && (z + 7) % 20 != z && (z + 7) % 20 != z - 2"
+   ]
+  },
+  {
+   "id": "k2-14-number",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "z": {
+     "int": [
+      3,
+      18
+     ]
+    },
+    "g": {
+     "expr": "groupOf(z)"
+    },
+    "p": {
+     "expr": "periodOf(z)"
+    }
+   },
+   "prompt": "An element is in period {p} and group {g}. What is its atomic number?",
+   "answer": "z",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "p + g",
+     "explain": "Do not add the group and period: build the arrangement shell by shell."
+    }
+   ],
+   "solution": [
+    "Period {p}: the inner shells are full, then {g} electrons in the outer shell.",
+    "Arrangement {shells(z)}: atomic number {answer}."
+   ],
+   "where": [
+    "z != 10 && z != 18 && z != 2"
+   ]
+  }
+ ]
+}

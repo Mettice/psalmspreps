@@ -1,0 +1,453 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "b2-7",
+   "name": "Sexual reproduction in plants: the flower"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The flower is the organ of sexual reproduction of flowering plants. Its parts, from outside to inside:\n• sepals (green): protect the flower bud; together they form the calyx;\n• petals (often coloured and scented): attract insects; together they form the corolla;\n• stamens, the male parts: each has a filament holding up an anther, which makes pollen grains (male sex cells);\n• carpels (pistil), the female part: the stigma receives pollen, the style joins it to the ovary, and the ovary contains ovules (with the female sex cells).\nAll these parts sit on the receptacle, at the top of the flower stalk.\nA flower with both stamens and carpels is bisexual (hibiscus); some flowers have only one sex (maize has separate male and female flowers).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 4057
+  },
+  "problem": "In the drawing, the anther is labelled {bioLetter(k, 8, 2)}. What does it do, and which part holds it up?",
+  "steps": [
+   "The anther is the top of the stamen: it makes pollen grains, the male sex cells.",
+   "It is held up by the filament, labelled {bioLetter(k, 8, 3)}."
+  ],
+  "answer": "It makes pollen; the filament ({bioLetter(k, 8, 3)}) holds it up.",
+  "checks": [],
+  "figure": "flower(k)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "The male part of a flower is the stamen: an anther on a filament. The anther makes pollen.",
+    "vars": {
+     "k": 0
+    },
+    "example": [
+     "Stamen = anther + filament.",
+     "Pollen grains carry the male sex cells."
+    ],
+    "checks": [],
+    "figure": "flower(k)",
+    "check": {
+     "ref": "b2-7-label"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "The female part is the carpel: stigma, style and ovary. The ovary contains the ovules.",
+    "vars": {},
+    "example": [
+     "The stigma receives pollen.",
+     "Ovules become seeds."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-7-job"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Sepals protect the bud; petals attract insects.",
+    "vars": {},
+    "example": [
+     "Sepals are usually green.",
+     "Petals are often brightly coloured and scented."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-7-sex-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "flower"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which parts are the male parts of a flower?",
+         "r": "the stamens (anthers and filaments)",
+         "w": [
+          "the carpels",
+          "the sepals",
+          "the petals"
+         ],
+         "e": [
+          "Carpels are female.",
+          "Sepals protect the bud.",
+          "Petals attract insects."
+         ],
+         "y": "Stamens make pollen."
+        },
+        {
+         "q": "Which parts form the carpel?",
+         "r": "stigma, style and ovary",
+         "w": [
+          "anther and filament",
+          "sepals and petals",
+          "receptacle and stalk"
+         ],
+         "e": [
+          "Those form the stamen.",
+          "Those are the outer parts.",
+          "Those hold the flower."
+         ],
+         "y": "The carpel is the female part."
+        },
+        {
+         "q": "What is a bisexual flower?",
+         "r": "a flower with both stamens and carpels",
+         "w": [
+          "a flower with only stamens",
+          "a flower with no petals",
+          "two flowers joined together"
+         ],
+         "e": [
+          "That is a male flower.",
+          "Petals do not decide it.",
+          "It is one flower."
+         ],
+         "y": "It has both male and female parts."
+        },
+        {
+         "q": "What do the ovules become after fertilisation?",
+         "r": "seeds",
+         "w": [
+          "petals",
+          "pollen",
+          "roots"
+         ],
+         "e": [
+          "Petals wither.",
+          "Pollen comes from anthers.",
+          "Roots grow from the seed later."
+         ],
+         "y": "Fertilised ovules become seeds."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-7-label",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      40319
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Which letter shows the {flowerPart(i)}?",
+   "correct": "{bioLetter(k, 8, i)}",
+   "distractors": [
+    {
+     "text": "{bioLetter(k, 8, (i + 1) % 8)}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{bioLetter(k, 8, (i + 2) % 8)}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{bioLetter(k, 8, (i + 3) % 8)}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{bioLetter(k, 8, (i + 1) % 8)} is the {flowerPart((i + 1) % 8)}."
+    },
+    {
+     "id": "w2",
+     "explain": "{bioLetter(k, 8, (i + 2) % 8)} is the {flowerPart((i + 2) % 8)}."
+    },
+    {
+     "id": "w3",
+     "explain": "{bioLetter(k, 8, (i + 3) % 8)} is the {flowerPart((i + 3) % 8)}."
+    }
+   ],
+   "solution": [
+    "The {flowerPart(i)} is labelled {answer}."
+   ],
+   "figure": "flower(k)"
+  },
+  {
+   "id": "b2-7-job",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "prompt": "Match each part of the flower to its job.",
+   "pool": [
+    {
+     "left": "petal",
+     "right": "attracts insects with its colour and scent"
+    },
+    {
+     "left": "sepal",
+     "right": "protects the flower when it is a bud"
+    },
+    {
+     "left": "anther",
+     "right": "makes pollen grains"
+    },
+    {
+     "left": "filament",
+     "right": "holds up the anther"
+    },
+    {
+     "left": "stigma",
+     "right": "receives pollen"
+    },
+    {
+     "left": "style",
+     "right": "joins the stigma to the ovary"
+    },
+    {
+     "left": "ovary",
+     "right": "contains the ovules, which become seeds"
+    },
+    {
+     "left": "receptacle",
+     "right": "holds all the parts of the flower"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "b2-7-sex",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which parts are the male parts of a flower?",
+       "r": "the stamens (anthers and filaments)",
+       "w": [
+        "the carpels",
+        "the sepals",
+        "the petals"
+       ],
+       "e": [
+        "Carpels are female.",
+        "Sepals protect the bud.",
+        "Petals attract insects."
+       ],
+       "y": "Stamens make pollen."
+      },
+      {
+       "q": "Which parts form the carpel?",
+       "r": "stigma, style and ovary",
+       "w": [
+        "anther and filament",
+        "sepals and petals",
+        "receptacle and stalk"
+       ],
+       "e": [
+        "Those form the stamen.",
+        "Those are the outer parts.",
+        "Those hold the flower."
+       ],
+       "y": "The carpel is the female part."
+      },
+      {
+       "q": "What is a bisexual flower?",
+       "r": "a flower with both stamens and carpels",
+       "w": [
+        "a flower with only stamens",
+        "a flower with no petals",
+        "two flowers joined together"
+       ],
+       "e": [
+        "That is a male flower.",
+        "Petals do not decide it.",
+        "It is one flower."
+       ],
+       "y": "It has both male and female parts."
+      },
+      {
+       "q": "What do the ovules become after fertilisation?",
+       "r": "seeds",
+       "w": [
+        "petals",
+        "pollen",
+        "roots"
+       ],
+       "e": [
+        "Petals wither.",
+        "Pollen comes from anthers.",
+        "Roots grow from the seed later."
+       ],
+       "y": "Fertilised ovules become seeds."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The anther makes pollen.",
+      "truth": "true"
+     },
+     {
+      "text": "The stigma receives pollen.",
+      "truth": "true"
+     },
+     {
+      "text": "Petals attract insects.",
+      "truth": "true"
+     },
+     {
+      "text": "The ovary contains ovules.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Sepals make pollen.",
+      "truth": "false",
+      "explain": "Pollen is made by the anthers."
+     },
+     {
+      "text": "The style contains the ovules.",
+      "truth": "false",
+      "explain": "The ovules are in the ovary."
+     },
+     {
+      "text": "The filament is part of the carpel.",
+      "truth": "false",
+      "explain": "The filament is part of the stamen."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

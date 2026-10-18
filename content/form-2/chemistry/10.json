@@ -1,0 +1,502 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  8,
+  9
+ ],
+ "skills": [
+  {
+   "id": "k2-10",
+   "name": "Using valencies to write chemical formulae"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To write the formula of a compound from a table of valencies:\n1. Write the symbols (metal or positive part first): Al O.\n2. Write each valency above its symbol: Al 3, O 2.\n3. Swap the valencies and write them as small numbers: Al₂O₃.\n4. Simplify if both numbers can be divided by the same number: Mg 2, O 2 → Mg₂O₂ → MgO.\n5. Put a radical in brackets when there is more than one of it: Ca 2, OH 1 → Ca(OH)₂.\nA number 1 is not written.\nCheck: the total valency of each part is the same (Al₂O₃: 2 × 3 = 6 and 3 × 2 = 6).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "Al",
+   "n": "SO4"
+  },
+  "problem": "Write the formula of {compoundName(p, n)} from the valencies.",
+  "steps": [
+   "Valencies: {p} {valency(p)}, {formula(n)} {valency(n)}.",
+   "Swap: {valency(n)} {p} and {valency(p)} {formula(n)}; the radical goes in brackets.",
+   "Formula: {formula(compoundFormula(p, n))}."
+  ],
+  "answer": "{formula(compoundFormula(p, n))}",
+  "checks": [
+   "compoundFormula(p, n) == 'Al2(SO4)3'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "Swap the valencies and write them as small numbers after the symbols.",
+    "vars": {
+     "p": "Al",
+     "n": "O"
+    },
+    "example": [
+     "{p} {valency(p)}, {n} {valency(n)} → {formula(compoundFormula(p, n))}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-10-two"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "Simplify when both numbers share a factor.",
+    "vars": {
+     "p": "Ca",
+     "n": "O"
+    },
+    "example": [
+     "{p} {valency(p)}, {n} {valency(n)} → {formula(unsimplified(p, n))} → {formula(compoundFormula(p, n))}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-10-simplify"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "Put a radical in brackets when there is more than one of it.",
+    "vars": {
+     "p": "Ca",
+     "n": "OH"
+    },
+    "example": [
+     "{p} {valency(p)}, {formula(n)} {valency(n)} → {formula(compoundFormula(p, n))}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-10-radical-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "symbols-valency"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Ca",
+         "OH"
+        ],
+        [
+         "Mg",
+         "NO3"
+        ],
+        [
+         "Al",
+         "OH"
+        ],
+        [
+         "Ca",
+         "NO3"
+        ],
+        [
+         "Al",
+         "SO4"
+        ],
+        [
+         "Al",
+         "NO3"
+        ],
+        [
+         "Ca",
+         "PO4"
+        ],
+        [
+         "Zn",
+         "NO3"
+        ],
+        [
+         "Mg",
+         "OH"
+        ],
+        [
+         "Zn",
+         "OH"
+        ]
+       ]
+      },
+      "p": {
+       "expr": "X[0]"
+      },
+      "n": {
+       "expr": "X[1]"
+      }
+     },
+     "prompt": "What is the formula of {compoundName(p, n)}?",
+     "correct": "{formula(compoundFormula(p, n))}",
+     "distractors": [
+      {
+       "text": "{formula(without(without(compoundFormula(p, n), '('), ')'))}",
+       "misconception": "nobracket"
+      },
+      {
+       "text": "{formula(p + n)}",
+       "misconception": "ones"
+      },
+      {
+       "text": "{formula(n + p)}",
+       "misconception": "order"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "nobracket",
+       "explain": "When a radical appears more than once, put it in brackets."
+      },
+      {
+       "id": "ones",
+       "explain": "The valencies are not both 1: swap them."
+      },
+      {
+       "id": "order",
+       "explain": "The metal is written first."
+      }
+     ],
+     "solution": [
+      "Valencies: {p} {valency(p)}, {formula(n)} {valency(n)}.",
+      "Swap, with brackets round a radical used more than once: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-10-two",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      "Na",
+      "K",
+      "Mg",
+      "Ca",
+      "Al",
+      "Li",
+      "Zn"
+     ]
+    },
+    "n": {
+     "pick": [
+      "Cl",
+      "O",
+      "S",
+      "N",
+      "F",
+      "I"
+     ]
+    }
+   },
+   "prompt": "Using valencies ({p} {valency(p)}, {n} {valency(n)}), what is the formula of {compoundName(p, n)}?",
+   "correct": "{formula(compoundFormula(p, n))}",
+   "distractors": [
+    {
+     "text": "{formula(n + p)}",
+     "misconception": "order"
+    },
+    {
+     "text": "{formula((p + (valency(p) > 1 ? valency(p) : '') + n + (valency(n) > 1 ? valency(n) : '')))}",
+     "misconception": "noswap"
+    },
+    {
+     "text": "{formula(p + n)}",
+     "misconception": "ones"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "order",
+     "explain": "The metal is written first."
+    },
+    {
+     "id": "noswap",
+     "explain": "Swap the valencies: each one goes to the other symbol."
+    },
+    {
+     "id": "ones",
+     "explain": "The valencies are not both 1: swap them."
+    }
+   ],
+   "solution": [
+    "Swap the valencies: {formula(unsimplified(p, n))}{needsSimplifying(p, n) ? ', then simplify' : ''}.",
+    "The formula is {answer}."
+   ],
+   "where": [
+    "!(valency(p) == 1 && valency(n) == 1)"
+   ]
+  },
+  {
+   "id": "k2-10-simplify",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Mg",
+       "O"
+      ],
+      [
+       "Ca",
+       "O"
+      ],
+      [
+       "Zn",
+       "O"
+      ],
+      [
+       "Mg",
+       "S"
+      ],
+      [
+       "Ca",
+       "S"
+      ],
+      [
+       "Cu",
+       "O"
+      ],
+      [
+       "Ca",
+       "SO4"
+      ],
+      [
+       "Mg",
+       "CO3"
+      ],
+      [
+       "Zn",
+       "SO4"
+      ],
+      [
+       "Ca",
+       "CO3"
+      ]
+     ]
+    },
+    "p": {
+     "expr": "X[0]"
+    },
+    "n": {
+     "expr": "X[1]"
+    }
+   },
+   "prompt": "Which is the correct formula of {compoundName(p, n)}?",
+   "correct": "{formula(compoundFormula(p, n))}",
+   "distractors": [
+    {
+     "text": "{formula(unsimplified(p, n))}",
+     "misconception": "unsimplified"
+    },
+    {
+     "text": "{formula(p + '2' + n)}",
+     "misconception": "half"
+    },
+    {
+     "text": "{formula(n + p)}",
+     "misconception": "order"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "unsimplified",
+     "explain": "Both numbers can be divided by {valency(p)}: simplify."
+    },
+    {
+     "id": "half",
+     "explain": "Swap and simplify the valencies of both parts."
+    },
+    {
+     "id": "order",
+     "explain": "The metal is written first."
+    }
+   ],
+   "solution": [
+    "Swap the valencies ({valency(p)} and {valency(n)}): {formula(unsimplified(p, n))}.",
+    "Simplify: {answer}."
+   ]
+  },
+  {
+   "id": "k2-10-radical",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Ca",
+       "OH"
+      ],
+      [
+       "Mg",
+       "NO3"
+      ],
+      [
+       "Al",
+       "OH"
+      ],
+      [
+       "Ca",
+       "NO3"
+      ],
+      [
+       "Al",
+       "SO4"
+      ],
+      [
+       "Al",
+       "NO3"
+      ],
+      [
+       "Ca",
+       "PO4"
+      ],
+      [
+       "Zn",
+       "NO3"
+      ],
+      [
+       "Mg",
+       "OH"
+      ],
+      [
+       "Zn",
+       "OH"
+      ]
+     ]
+    },
+    "p": {
+     "expr": "X[0]"
+    },
+    "n": {
+     "expr": "X[1]"
+    }
+   },
+   "prompt": "What is the formula of {compoundName(p, n)}?",
+   "correct": "{formula(compoundFormula(p, n))}",
+   "distractors": [
+    {
+     "text": "{formula(without(without(compoundFormula(p, n), '('), ')'))}",
+     "misconception": "nobracket"
+    },
+    {
+     "text": "{formula(p + n)}",
+     "misconception": "ones"
+    },
+    {
+     "text": "{formula(n + p)}",
+     "misconception": "order"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nobracket",
+     "explain": "When a radical appears more than once, put it in brackets."
+    },
+    {
+     "id": "ones",
+     "explain": "The valencies are not both 1: swap them."
+    },
+    {
+     "id": "order",
+     "explain": "The metal is written first."
+    }
+   ],
+   "solution": [
+    "Valencies: {p} {valency(p)}, {formula(n)} {valency(n)}.",
+    "Swap, with brackets round a radical used more than once: {answer}."
+   ]
+  },
+  {
+   "id": "k2-10-count",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Al",
+       "O"
+      ],
+      [
+       "Ca",
+       "OH"
+      ],
+      [
+       "Al",
+       "SO4"
+      ],
+      [
+       "Na",
+       "CO3"
+      ],
+      [
+       "Mg",
+       "NO3"
+      ],
+      [
+       "Ca",
+       "PO4"
+      ],
+      [
+       "NH4",
+       "SO4"
+      ],
+      [
+       "K",
+       "SO4"
+      ]
+     ]
+    },
+    "p": {
+     "expr": "X[0]"
+    },
+    "n": {
+     "expr": "X[1]"
+    }
+   },
+   "prompt": "In the formula of {compoundName(p, n)} written from the valencies, how many atoms are there in total?",
+   "answer": "totalAtoms(compoundFormula(p, n))",
+   "solution": [
+    "The formula is {formula(compoundFormula(p, n))}: {atomList(compoundFormula(p, n))}.",
+    "Total: {answer} atoms."
+   ]
+  }
+ ]
+}

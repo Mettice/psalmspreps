@@ -1,0 +1,460 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-15",
+   "name": "Non-renewable energy sources and their uses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An energy source is something from which we get energy. A non-renewable source is used up faster than nature can replace it: one day it will run out.\nNon-renewable sources:\n• fossil fuels, formed over millions of years from dead plants and animals: coal, crude oil (giving petrol, diesel, kerosene) and natural gas (cooking gas);\n• nuclear fuel: uranium.\nUses: petrol and diesel for cars, buses and generators; kerosene for lamps and stoves; cooking gas; thermal power stations that make electricity; Cameroon exports crude oil.\nProblems: they will run out; burning them gives smoke and carbon dioxide, which pollute the air and warm the Earth; oil spills harm the sea.\nRenewable sources (sun, wind, flowing water as at the Edéa and Song Loulou dams, trees that are replanted) do not run out.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "a petrol generator"
+  },
+  "problem": "A family uses {f} when there is no electricity. Name its energy source, say if it is renewable, and give one problem.",
+  "steps": [
+   "Petrol comes from crude oil, a fossil fuel.",
+   "Fossil fuels are non-renewable: they will run out.",
+   "Burning petrol gives smoke and carbon dioxide, which pollute the air."
+  ],
+  "answer": "Crude oil (petrol), non-renewable; it pollutes the air.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "Non-renewable sources will run out: coal, crude oil, natural gas and uranium.",
+    "vars": {},
+    "example": [
+     "Petrol and kerosene come from crude oil.",
+     "Cooking gas is natural gas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-15-sort"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Fossil fuels formed over millions of years from dead plants and animals.",
+    "vars": {},
+    "example": [
+     "Coal from ancient plants.",
+     "Crude oil and gas from tiny sea creatures."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-15-fossil"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Burning fossil fuels pollutes the air and adds carbon dioxide, which warms the Earth.",
+    "vars": {},
+    "example": [
+     "Generators give off smoke.",
+     "Renewable sources, like the sun, do not run out."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-15-problem-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "energy-sources"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are fossil fuels called non-renewable?",
+         "r": "They will run out: they form far more slowly than we use them.",
+         "w": [
+          "They are cheap.",
+          "They do not burn.",
+          "They come from the sun every day."
+         ],
+         "e": [
+          "Price is not the reason.",
+          "They do burn.",
+          "That describes solar energy."
+         ],
+         "y": "We use them much faster than they form."
+        },
+        {
+         "q": "Which is a problem of burning fossil fuels?",
+         "r": "It pollutes the air with smoke and carbon dioxide.",
+         "w": [
+          "It makes the air cleaner.",
+          "It makes more fuel.",
+          "It cools the Earth."
+         ],
+         "e": [
+          "It makes the air dirtier.",
+          "It uses fuel up.",
+          "Carbon dioxide warms the Earth."
+         ],
+         "y": "Burning releases smoke and carbon dioxide."
+        },
+        {
+         "q": "Which source of electricity in Cameroon is renewable?",
+         "r": "the hydroelectric dams at Edéa and Song Loulou",
+         "w": [
+          "a diesel generator",
+          "a thermal power station burning oil",
+          "a coal fire"
+         ],
+         "e": [
+          "Diesel comes from crude oil.",
+          "Oil is non-renewable.",
+          "Coal is non-renewable."
+         ],
+         "y": "Flowing water does not run out."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-15-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "prompt": "Sort the energy sources: renewable or non-renewable?",
+   "pool": [
+    {
+     "left": "coal",
+     "right": "non-renewable"
+    },
+    {
+     "left": "crude oil (petrol, kerosene)",
+     "right": "non-renewable"
+    },
+    {
+     "left": "natural gas (cooking gas)",
+     "right": "non-renewable"
+    },
+    {
+     "left": "uranium (nuclear fuel)",
+     "right": "non-renewable"
+    },
+    {
+     "left": "sunlight",
+     "right": "renewable"
+    },
+    {
+     "left": "wind",
+     "right": "renewable"
+    },
+    {
+     "left": "flowing water in a dam",
+     "right": "renewable"
+    },
+    {
+     "left": "firewood from new trees",
+     "right": "renewable"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "non-renewable",
+    "renewable"
+   ]
+  },
+  {
+   "id": "p2-15-fossil",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is a fossil fuel?",
+       "r": "coal",
+       "w": [
+        "sunlight",
+        "wind",
+        "uranium"
+       ],
+       "e": [
+        "Sunlight is renewable.",
+        "Wind is renewable.",
+        "Uranium is a nuclear fuel, not a fossil fuel."
+       ],
+       "y": "Coal formed from ancient plants."
+      },
+      {
+       "q": "Where does kerosene come from?",
+       "r": "crude oil",
+       "w": [
+        "coal",
+        "uranium",
+        "wind"
+       ],
+       "e": [
+        "Kerosene is refined from crude oil.",
+        "Uranium is a nuclear fuel.",
+        "Wind is not a fuel."
+       ],
+       "y": "Kerosene is made from crude oil."
+      },
+      {
+       "q": "How did fossil fuels form?",
+       "r": "from dead plants and animals over millions of years",
+       "w": [
+        "from rain last year",
+        "from sunlight in one day",
+        "from rocks melting quickly"
+       ],
+       "e": [
+        "It took millions of years.",
+        "It took millions of years.",
+        "They come from living things."
+       ],
+       "y": "They formed slowly from buried remains of living things."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-15-problem",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are fossil fuels called non-renewable?",
+       "r": "They will run out: they form far more slowly than we use them.",
+       "w": [
+        "They are cheap.",
+        "They do not burn.",
+        "They come from the sun every day."
+       ],
+       "e": [
+        "Price is not the reason.",
+        "They do burn.",
+        "That describes solar energy."
+       ],
+       "y": "We use them much faster than they form."
+      },
+      {
+       "q": "Which is a problem of burning fossil fuels?",
+       "r": "It pollutes the air with smoke and carbon dioxide.",
+       "w": [
+        "It makes the air cleaner.",
+        "It makes more fuel.",
+        "It cools the Earth."
+       ],
+       "e": [
+        "It makes the air dirtier.",
+        "It uses fuel up.",
+        "Carbon dioxide warms the Earth."
+       ],
+       "y": "Burning releases smoke and carbon dioxide."
+      },
+      {
+       "q": "Which source of electricity in Cameroon is renewable?",
+       "r": "the hydroelectric dams at Edéa and Song Loulou",
+       "w": [
+        "a diesel generator",
+        "a thermal power station burning oil",
+        "a coal fire"
+       ],
+       "e": [
+        "Diesel comes from crude oil.",
+        "Oil is non-renewable.",
+        "Coal is non-renewable."
+       ],
+       "y": "Flowing water does not run out."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Coal is a fossil fuel.",
+      "truth": "true"
+     },
+     {
+      "text": "Crude oil will run out one day.",
+      "truth": "true"
+     },
+     {
+      "text": "Cooking gas is natural gas.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning petrol produces carbon dioxide.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Wind is a non-renewable energy source.",
+      "truth": "false",
+      "explain": "Wind does not run out: it is renewable."
+     },
+     {
+      "text": "Fossil fuels form in a few days.",
+      "truth": "false",
+      "explain": "They took millions of years to form."
+     },
+     {
+      "text": "Burning coal makes the air cleaner.",
+      "truth": "false",
+      "explain": "It pollutes the air."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

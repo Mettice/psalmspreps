@@ -7,6 +7,7 @@
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import * as maths from "../../src/engine/lib/maths.js";
 import * as maths2 from "../../src/engine/lib/maths2.js";
+import * as science2 from "../../src/engine/lib/science2.js";
 import * as english from "../../src/engine/lib/english.js";
 import * as physics from "../../src/engine/lib/physics.js";
 import * as chemistry from "../../src/engine/lib/chemistry.js";
@@ -34,9 +35,12 @@ const CONF = {
   french: { name: "French", batch: "Batch F1", spine: "french", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french }, sample: 15, lessons: "1–15" },
   // Form 2 (2026-10-17, form-2 branch): its own folder, numbered by place in the year (proposal G1)
   "f2-maths": { name: "Maths", cls: "Form 2", dir: "form-2/maths", batch: "Batch M2-1", spine: "form-2/mathematics", lib: { ...maths, ...maths2 }, sample: 21, lessons: "1–24, Term 1", bySeq: true },
+  "f2-physics": { name: "Physics", cls: "Form 2", dir: "form-2/physics", batch: "Batch P2-1", spine: "form-2/physics", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 6, lessons: "1–15, Term 1", bySeq: true },
+  "f2-chemistry": { name: "Chemistry", cls: "Form 2", dir: "form-2/chemistry", batch: "Batch C2-1", spine: "form-2/chemistry", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 10, lessons: "1–4, 6–11, 13–17, Term 1", bySeq: true },
+  "f2-biology": { name: "Biology", cls: "Form 2", dir: "form-2/biology", batch: "Batch B2-1", spine: "form-2/biology", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 13–21, Term 1", bySeq: true },
   "f2-english": { name: "English", cls: "Form 2", dir: "form-2/english", batch: "Batch E2-1", spine: "form-2/english-language", lib: { ...maths, ...english }, sample: 3, lessons: "1–32, Term 1", bySeq: true },
 }[SUBJECT];
-if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science|french|f2-maths|f2-english");
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science|french|f2-maths|f2-english|f2-physics|f2-chemistry|f2-biology");
 const lib = CONF.lib;
 const FOLDER = CONF.dir || SUBJECT, CLS = CONF.cls || "Form 1";
 const DIR = new URL(`../../content/${FOLDER}/`, import.meta.url);
@@ -143,6 +147,15 @@ writeFileSync(new URL("REVIEW.md", DIR), R.join("\n") + "\n", "utf8");
 const show = (v) => (typeof v === "number" ? maths.fmt(v) : String(v));
 const rend = (t, scope = {}) => render(t, scope, lib, show);
 const PART1 = {
+  "f2-physics": () => ["## Part 1: rules the computed answers use (src/engine/lib/science2.js, physics.js)", "",
+    `- **Speed**: v = d ÷ t; km/h ÷ 3.6 = m/s (${science2.kmhToMs(72)} m/s for 72 km/h). **Density**: mass ÷ volume, to 2 decimals. **Temperature**: T(K) = T(°C) + 273.`,
+    "- **Data**: the mean of repeated readings; an anomalous reading is left out; graphs are drawn from the question's own numbers (lineGraph).", ""],
+  "f2-chemistry": () => ["## Part 1: tables and rules the computed answers use (src/engine/lib/science2.js, chemistry.js)", "",
+    `- **Electron shells (TR-J01)**: 2, 8, 8, 2 for atomic numbers 1–20 (sodium ${science2.shells(11)}, calcium ${science2.shells(20)}); group = outer electrons (helium in group 8), period = number of shells.`,
+    `- **Mass numbers (TR-J02, authored)**: ${science2.firstTwenty().map((s) => `${s} ${science2.massNumber(s)}`).join(", ")}.`,
+    `- **Valencies (TR-J03, authored)**: ${[...science2.positives(), ...science2.negatives()].map((x) => `${x} ${science2.valency(x)}`).join(", ")}. Formulae swap the valencies and simplify (${["Al-SO4", "Mg-O", "Ca-OH", "NH4-SO4"].map((p) => { const [a, b] = p.split("-"); return `${a} + ${b} → ${science2.compoundFormula(a, b)}`; }).join("; ")}).`, ""],
+  "f2-biology": () => ["## Part 1: drawings (src/engine/lib/science2.js)", "",
+    `- **Flower (TR-V01)**: eight lettered parts: ${science2.FLOWER_PARTS.join(", ")}. **Bean seed (TR-V02)**: ${science2.SEED_PARTS.join(", ")}. The letters are shuffled by the question's numbers; the code that draws a letter also gives the answer.`, ""],
   "f2-maths": () => ["## Part 1: rules the computed answers use (src/engine/lib/maths2.js, tested in tests-js/maths2.test.js)", "",
     `- **Integers**: negative numbers in brackets inside a calculation (${maths2.br(-3)} × ${maths2.br(4)}); same signs give a positive product or quotient, different signs a negative one. Answers that can be negative get the full keyboard (with a minus sign) on every variant.`,
     `- **Powers**: ${maths2.pw(-2, 3)} = ${maths2.powExpand(-2, 3)} = ${(-2) ** 3}; laws of indices for the same base only.`,

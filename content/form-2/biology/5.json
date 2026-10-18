@@ -1,0 +1,393 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "b2-5",
+   "name": "Experiment 2: practising artificial vegetative propagation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Aim: to grow new plants from stem cuttings.\nMaterials: healthy mature stems of cassava (or hibiscus), a sharp cutlass or knife, a nursery bed or pots with moist soil.\nMethod:\n1. Choose a healthy, mature stem from a good plant.\n2. Cut pieces about 20–25 cm long, each with several nodes (buds), with a slanting cut.\n3. Plant each piece the right way up (buds pointing up), slanted, with about two thirds in the soil.\n4. Water regularly and protect from animals.\n5. Observe for three to four weeks and record when roots and shoots appear.\nResults: roots grow from the nodes under the soil; shoots grow from the buds above it.\nConclusion: a piece of stem with nodes can grow into a whole new plant, identical to its parent.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": "cassava"
+  },
+  "problem": "Why must a {c} cutting have nodes, and why is it planted the right way up?",
+  "steps": [
+   "New roots and shoots grow from the nodes (buds); a piece without nodes cannot grow.",
+   "Buds pointing up grow into shoots towards the light; upside down, the cutting grows poorly or dies."
+  ],
+  "answer": "Nodes carry the buds; the right way up lets shoots grow upwards.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "Choose a healthy, mature stem, and cut pieces with several nodes.",
+    "vars": {},
+    "example": [
+     "The nodes carry buds.",
+     "Use a sharp blade and a slanting cut."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-5-steps"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "Plant the cutting the right way up, slanted, with most of it in the soil.",
+    "vars": {},
+    "example": [
+     "Buds point upwards.",
+     "Water regularly."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-5-plant"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "Roots grow from the nodes in the soil, shoots from the buds above.",
+    "vars": {},
+    "example": [
+     "The new plant is identical to the parent."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-5-result-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "plant-reproduction"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Where do the roots of a cassava cutting grow from?",
+         "r": "the nodes under the soil",
+         "w": [
+          "the cut top",
+          "the leaves",
+          "the seeds"
+         ],
+         "e": [
+          "The top stays above the soil.",
+          "The cutting has no leaves at first.",
+          "No seeds are involved."
+         ],
+         "y": "Roots grow from the buried nodes."
+        },
+        {
+         "q": "How will the new cassava plants compare with the parent?",
+         "r": "They will be identical to it.",
+         "w": [
+          "They will all be different.",
+          "They will be smaller for ever.",
+          "They will be a different crop."
+         ],
+         "e": [
+          "Vegetative propagation gives clones.",
+          "They grow normally.",
+          "They are cassava."
+         ],
+         "y": "Cuttings make clones of the parent."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-5-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Put the steps of growing cassava from cuttings in order.",
+   "items": [
+    {
+     "text": "Choose a healthy mature stem"
+    },
+    {
+     "text": "Cut pieces with several nodes"
+    },
+    {
+     "text": "Plant them the right way up, slanted"
+    },
+    {
+     "text": "Water regularly and protect them"
+    },
+    {
+     "text": "Observe roots and shoots appearing"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "b2-5-plant",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why must each cutting have nodes?",
+       "r": "Roots and shoots grow from the nodes.",
+       "w": [
+        "Nodes make it heavier.",
+        "Nodes store water only.",
+        "Nodes are not needed."
+       ],
+       "e": [
+        "Weight is not the reason.",
+        "They carry buds.",
+        "Without nodes, nothing grows."
+       ],
+       "y": "Nodes carry the buds."
+      },
+      {
+       "q": "Which stem should you choose for cuttings?",
+       "r": "a healthy, mature stem",
+       "w": [
+        "a diseased stem",
+        "a very young green tip",
+        "a dry dead stem"
+       ],
+       "e": [
+        "Disease is passed on.",
+        "It is too soft and rots.",
+        "It cannot grow."
+       ],
+       "y": "A healthy mature stem has stored food and good buds."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-5-result",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where do the roots of a cassava cutting grow from?",
+       "r": "the nodes under the soil",
+       "w": [
+        "the cut top",
+        "the leaves",
+        "the seeds"
+       ],
+       "e": [
+        "The top stays above the soil.",
+        "The cutting has no leaves at first.",
+        "No seeds are involved."
+       ],
+       "y": "Roots grow from the buried nodes."
+      },
+      {
+       "q": "How will the new cassava plants compare with the parent?",
+       "r": "They will be identical to it.",
+       "w": [
+        "They will all be different.",
+        "They will be smaller for ever.",
+        "They will be a different crop."
+       ],
+       "e": [
+        "Vegetative propagation gives clones.",
+        "They grow normally.",
+        "They are cassava."
+       ],
+       "y": "Cuttings make clones of the parent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Which step is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Choose a healthy, mature stem.",
+      "truth": "true"
+     },
+     {
+      "text": "Cut pieces with several nodes.",
+      "truth": "true"
+     },
+     {
+      "text": "Plant the cuttings slanted.",
+      "truth": "true"
+     },
+     {
+      "text": "Water them regularly.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plant the cuttings upside down.",
+      "truth": "false",
+      "explain": "Buds must point upwards."
+     },
+     {
+      "text": "Use pieces without any nodes.",
+      "truth": "false",
+      "explain": "Without nodes no roots or shoots grow."
+     },
+     {
+      "text": "Take cuttings from a diseased plant.",
+      "truth": "false",
+      "explain": "Diseases would be passed on."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

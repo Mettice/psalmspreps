@@ -44,7 +44,7 @@ test("drawings are SVG images with no repeated attributes", () => {
 
 test("subject libraries after English never reuse a function name (a later library would silently replace it)", async () => {
   const seen = {};
-  for (const n of ["maths", "english", "physics", "chemistry", "geography", "homeeconomics", "history", "biology", "computerscience", "french", "maths2"]) {
+  for (const n of ["maths", "english", "physics", "chemistry", "geography", "homeeconomics", "history", "biology", "computerscience", "french", "maths2", "science2"]) {
     const m = await import(`../src/engine/lib/${n}.js`);
     for (const k of Object.keys(m)) (seen[k] = seen[k] || []).push(n);
   }

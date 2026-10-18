@@ -270,3 +270,16 @@ Built on the `form-2` branch only, so the live app (from `main`) is unchanged un
 - **Verified at 360 px:** every lesson of both classes runs from the first card to the stars with no errors, no
   “null” and no sideways scroll.
 - Review files: `npm run review:f2-maths`, `npm run review:f2-english`; teacher items TR-N, TR-W and TR-R04.
+
+## 20. Form 2, Term 1: Physics, Chemistry and Biology (2026-10-18, form-2 branch)
+
+- **Content:** `content/form-2/physics/` (rows 1–15), `chemistry/` (rows 1–4, 6–11, 13–17) and `biology/` (rows 1–9,
+  13–21, practicals included). Integration, evaluation, remediation and review rows are not lessons, as in Form One.
+- **New library** `src/engine/lib/science2.js`: mean and graphs (line graph, bar chart), speed conversions; electron
+  shells, group and period, mass numbers, the valency table, formulae and names from valencies, the Bohr drawing; the
+  flower and bean-seed drawings with shuffled letters. All three Form 2 sciences use the same library chain.
+- A card whose check points at a harder practice question now gets its own level-1 copy (`id-card`), so card checks are
+  always level 1.
+- **App:** subjects `f2-physics`, `f2-chemistry`, `f2-biology` under Form Two. The Form Two shareable file is about 956 KB
+  (limit 1.5 MB); the Form One file is unchanged in content.
+- Review files: `npm run review:f2-physics`, `review:f2-chemistry`, `review:f2-biology`; teacher items TR-Q, TR-J, TR-V.

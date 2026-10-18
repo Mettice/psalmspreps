@@ -1,0 +1,392 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "b2-18",
+   "name": "Experiment 4: epigeal and hypogeal germination"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Aim: to compare epigeal and hypogeal germination.\nMaterials: bean seeds and maize grains soaked overnight, two pots or a box with moist soil, water, a ruler.\nMethod:\n1. Plant the bean seeds and the maize grains about 2 cm deep in moist soil, in two separate rows.\n2. Water lightly every day and keep the soil warm.\n3. After one week, then every two days, dig up one seedling of each and look where the cotyledons are.\n4. Measure the height of the shoots and draw the seedlings.\nResults: the bean's hook-shaped shoot pushes the cotyledons above the soil, where they turn green (epigeal). The maize shoot grows up straight inside a protective sheath (the coleoptile), and the grain stays under the soil (hypogeal).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": "bean",
+   "m": "maize"
+  },
+  "problem": "After ten days, where are the cotyledons of the {b} and the {m} seedlings, and what does this show?",
+  "steps": [
+   "The {b}'s cotyledons are above the soil and green: epigeal germination.",
+   "The {m} grain, with its cotyledon, is still under the soil: hypogeal germination."
+  ],
+  "answer": "{b}: epigeal; {m}: hypogeal.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "Plant soaked bean and maize seeds in moist soil and observe them every two days.",
+    "vars": {},
+    "example": [
+     "Dig up one seedling of each to look at it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-18-steps"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "In bean, the cotyledons come above the soil and turn green.",
+    "vars": {},
+    "example": [
+     "The shoot is hook-shaped as it pushes up."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-18-bean"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "In maize, the grain stays below the soil.",
+    "vars": {},
+    "example": [
+     "The shoot grows up inside a sheath (the coleoptile)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-18-maize-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "seeds"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Where is the maize grain after its shoot appears?",
+         "r": "still under the soil",
+         "w": [
+          "above the soil",
+          "on the leaf",
+          "it disappears at once"
+         ],
+         "e": [
+          "That would be epigeal.",
+          "It stays underground.",
+          "It stays and feeds the seedling."
+         ],
+         "y": "Maize germination is hypogeal."
+        },
+        {
+         "q": "What protects the young maize shoot as it grows up through the soil?",
+         "r": "a sheath (the coleoptile)",
+         "w": [
+          "the testa",
+          "the cotyledons above it",
+          "a flower"
+         ],
+         "e": [
+          "The testa stays with the grain.",
+          "The cotyledon stays below.",
+          "There is no flower."
+         ],
+         "y": "The coleoptile protects the shoot."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-18-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Put the steps of the experiment in order.",
+   "items": [
+    {
+     "text": "Soak the bean and maize seeds overnight"
+    },
+    {
+     "text": "Plant them in rows in moist soil"
+    },
+    {
+     "text": "Water lightly and keep them warm"
+    },
+    {
+     "text": "Dig up a seedling of each and look at the cotyledons"
+    },
+    {
+     "text": "Measure, draw and record"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "b2-18-bean",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where are the bean's cotyledons after germination?",
+       "r": "above the soil",
+       "w": [
+        "deep under the soil",
+        "inside the root",
+        "in the flower"
+       ],
+       "e": [
+        "That is maize (hypogeal).",
+        "Cotyledons are not in the root.",
+        "There is no flower yet."
+       ],
+       "y": "Bean germination is epigeal."
+      },
+      {
+       "q": "What colour do the bean's cotyledons turn above the soil?",
+       "r": "green",
+       "w": [
+        "black",
+        "white",
+        "red"
+       ],
+       "e": [
+        "They turn green in the light.",
+        "They turn green.",
+        "They turn green."
+       ],
+       "y": "In the light they make chlorophyll."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-18-maize",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where is the maize grain after its shoot appears?",
+       "r": "still under the soil",
+       "w": [
+        "above the soil",
+        "on the leaf",
+        "it disappears at once"
+       ],
+       "e": [
+        "That would be epigeal.",
+        "It stays underground.",
+        "It stays and feeds the seedling."
+       ],
+       "y": "Maize germination is hypogeal."
+      },
+      {
+       "q": "What protects the young maize shoot as it grows up through the soil?",
+       "r": "a sheath (the coleoptile)",
+       "w": [
+        "the testa",
+        "the cotyledons above it",
+        "a flower"
+       ],
+       "e": [
+        "The testa stays with the grain.",
+        "The cotyledon stays below.",
+        "There is no flower."
+       ],
+       "y": "The coleoptile protects the shoot."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Which observation is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The bean's cotyledons came above the soil.",
+      "truth": "true"
+     },
+     {
+      "text": "The maize grain stayed underground.",
+      "truth": "true"
+     },
+     {
+      "text": "The bean shoot was hook-shaped.",
+      "truth": "true"
+     },
+     {
+      "text": "The maize shoot grew inside a sheath.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The maize cotyledon came above the soil.",
+      "truth": "false",
+      "explain": "Maize is hypogeal: the grain stays underground."
+     },
+     {
+      "text": "The bean's cotyledons stayed underground.",
+      "truth": "false",
+      "explain": "Bean is epigeal: they come above the soil."
+     },
+     {
+      "text": "No roots grew in either seedling.",
+      "truth": "false",
+      "explain": "The radicle of each seed grew into a root."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

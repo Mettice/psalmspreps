@@ -1,0 +1,429 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  11,
+  13
+ ],
+ "skills": [
+  {
+   "id": "p2-14",
+   "name": "Transmission of heat and electricity by conduction"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Conduction is the transfer of heat (or electricity) through a material without the material itself moving.\nHeat conduction: the particles at the hot end vibrate faster and pass the energy to their neighbours. Metals conduct heat best, because they also have free electrons that carry energy.\nExperiment: fix drops of wax along rods of copper, aluminium, iron and glass and heat one end of each: the wax melts furthest along the copper rod first.\nOrder (best conductor first): copper, aluminium, iron, … glass, wood, plastic.\nElectrical conduction: a current flows only in a closed circuit made of conductors. In metals, electrons carry the current. Put a material in a circuit with a cell and a bulb: if the bulb lights, the material conducts.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "a steel spoon"
+  },
+  "problem": "Ngwa leaves {m} in a pot of hot soup. After a while the handle is hot. Explain.",
+  "steps": [
+   "The spoon touches the hot soup at one end.",
+   "Its particles there vibrate faster and pass the energy along the spoon: conduction.",
+   "Steel is a metal, a good conductor, so the handle soon gets hot."
+  ],
+  "answer": "Heat is conducted along the metal spoon to the handle.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "In conduction, energy passes from particle to particle; the material does not move.",
+    "vars": {},
+    "example": [
+     "The handle of a metal spoon in hot tea gets hot.",
+     "The spoon stays where it is."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-14-what"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Metals conduct heat best; copper is better than aluminium, which is better than iron.",
+    "vars": {},
+    "example": [
+     "Wax melts first along the copper rod.",
+     "Glass and wood conduct poorly."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-14-order"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Electric current flows only in a closed circuit of conductors.",
+    "vars": {},
+    "example": [
+     "A bulb lights when a metal key closes the circuit.",
+     "A plastic pen leaves the bulb off."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-14-circuit"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-14-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is conduction?",
+       "r": "heat passing through a material from particle to particle",
+       "w": [
+        "a material moving to carry heat",
+        "heat travelling as light",
+        "a material losing its mass"
+       ],
+       "e": [
+        "That is convection.",
+        "That is radiation.",
+        "Conduction does not change mass."
+       ],
+       "y": "Energy passes between particles; the material stays still."
+      },
+      {
+       "q": "Why do metals conduct heat well?",
+       "r": "They have free electrons that carry energy.",
+       "w": [
+        "They are heavy.",
+        "They are shiny.",
+        "They are cold."
+       ],
+       "e": [
+        "Weight is not the reason.",
+        "Shine is not the reason.",
+        "Temperature is not the reason."
+       ],
+       "y": "Free electrons carry energy quickly through a metal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-14-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Put these materials in order, best conductor of heat first.",
+   "items": [
+    {
+     "text": "copper"
+    },
+    {
+     "text": "aluminium"
+    },
+    {
+     "text": "iron"
+    },
+    {
+     "text": "glass"
+    },
+    {
+     "text": "wood"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "p2-14-circuit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The bulb lights. What does this show?",
+       "r": "The material conducts electricity.",
+       "w": [
+        "The material is an insulator.",
+        "The cell is flat.",
+        "The bulb is broken."
+       ],
+       "e": [
+        "Insulators stop the current.",
+        "A flat cell would not light the bulb.",
+        "A broken bulb would not light."
+       ],
+       "y": "The circuit is closed through a conductor."
+      },
+      {
+       "q": "Which of these would light the bulb?",
+       "r": "an iron nail",
+       "w": [
+        "a plastic ruler",
+        "a rubber band",
+        "a dry stick"
+       ],
+       "e": [
+        "Plastic is an insulator.",
+        "Rubber is an insulator.",
+        "Dry wood is an insulator."
+       ],
+       "y": "Metals conduct electricity."
+      },
+      {
+       "q": "The bulb stays off with a glass rod. What does this show?",
+       "r": "Glass is an electrical insulator.",
+       "w": [
+        "Glass conducts well.",
+        "The current is too big.",
+        "The bulb is too bright."
+       ],
+       "e": [
+        "The bulb would light.",
+        "There is no current.",
+        "It is off."
+       ],
+       "y": "No current flows through an insulator."
+      }
+     ]
+    }
+   },
+   "prompt": "A material is placed in a circuit with a cell and a bulb. {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-14-wax",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "On which rod does the wax melt furthest first?",
+       "r": "copper",
+       "w": [
+        "glass",
+        "wood",
+        "iron"
+       ],
+       "e": [
+        "Glass is a poor conductor.",
+        "Wood is an insulator.",
+        "Iron conducts, but less well than copper."
+       ],
+       "y": "Copper is the best conductor of the four."
+      },
+      {
+       "q": "What must be kept the same for a fair test?",
+       "r": "the length and thickness of the rods and the heat given",
+       "w": [
+        "nothing",
+        "only the colour of the rods",
+        "the material of the rods"
+       ],
+       "e": [
+        "A fair test keeps other variables the same.",
+        "Colour does not matter here.",
+        "The material is what we change."
+       ],
+       "y": "Only the material should change."
+      },
+      {
+       "q": "On which rod does the wax hardly melt?",
+       "r": "glass",
+       "w": [
+        "copper",
+        "aluminium",
+        "iron"
+       ],
+       "e": [
+        "Copper conducts best.",
+        "Aluminium conducts well.",
+        "Iron is a metal and conducts."
+       ],
+       "y": "Glass is a poor conductor of heat."
+      }
+     ]
+    }
+   },
+   "prompt": "Drops of wax are stuck along rods of different materials, and one end of each rod is heated. {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Copper conducts heat better than iron.",
+      "truth": "true"
+     },
+     {
+      "text": "Current needs a closed circuit.",
+      "truth": "true"
+     },
+     {
+      "text": "Wood is a poor conductor of heat.",
+      "truth": "true"
+     },
+     {
+      "text": "In conduction the material does not move.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "In conduction the hot material flows to the cold place.",
+      "truth": "false",
+      "explain": "That is convection; in conduction the material stays still."
+     },
+     {
+      "text": "Glass conducts heat better than copper.",
+      "truth": "false",
+      "explain": "Copper is a far better conductor."
+     },
+     {
+      "text": "A bulb lights in an open circuit.",
+      "truth": "false",
+      "explain": "Current flows only in a closed circuit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

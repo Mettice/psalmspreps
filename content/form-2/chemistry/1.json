@@ -1,0 +1,430 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k2-1",
+   "name": "Dalton's atomic theory"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In 1803–1808 the English chemist John Dalton proposed his atomic theory:\n1. All matter is made of very small particles called atoms.\n2. Atoms cannot be divided, created or destroyed.\n3. All the atoms of one element are identical (same mass, same properties); atoms of different elements are different.\n4. Atoms combine in simple whole-number ratios to form compounds (water: two hydrogen atoms to one oxygen atom).\n5. In a chemical reaction atoms are rearranged, not created or destroyed.\nLater discoveries changed two points: atoms CAN be divided (into protons, neutrons and electrons), and atoms of one element can have different masses (isotopes).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": "water"
+  },
+  "problem": "Use Dalton's theory to explain what happens to the atoms when hydrogen burns in oxygen to make {e}.",
+  "steps": [
+   "The hydrogen and oxygen atoms are not destroyed and no new atoms are made.",
+   "They are rearranged: they join in a simple whole-number ratio, two hydrogen atoms to one oxygen atom."
+  ],
+  "answer": "The atoms are rearranged into {e}, in the ratio two H to one O; none is created or destroyed.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "Dalton said that all matter is made of tiny atoms that cannot be divided, created or destroyed.",
+    "vars": {},
+    "example": [
+     "A grain of salt contains a huge number of atoms.",
+     "In a reaction the atoms are only rearranged."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-1-true"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "Atoms of one element are all alike; atoms of different elements are different. Atoms join in simple whole-number ratios.",
+    "vars": {},
+    "example": [
+     "All carbon atoms are carbon atoms.",
+     "Water: two H atoms to one O atom."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-1-ratio"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "Two of Dalton's ideas were later changed: atoms can be divided, and atoms of one element can have different masses.",
+    "vars": {},
+    "example": [
+     "Atoms contain protons, neutrons and electrons.",
+     "Atoms of one element with different masses are isotopes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-1-changed-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "atomic-structure"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which of Dalton's ideas is no longer accepted?",
+         "r": "Atoms cannot be divided.",
+         "w": [
+          "Matter is made of atoms.",
+          "Atoms join in whole-number ratios.",
+          "Atoms are rearranged in reactions."
+         ],
+         "e": [
+          "That is still accepted.",
+          "That is still accepted.",
+          "That is still accepted."
+         ],
+         "y": "Atoms are made of smaller particles."
+        },
+        {
+         "q": "What are atoms of one element with different masses called?",
+         "r": "isotopes",
+         "w": [
+          "compounds",
+          "molecules",
+          "ions"
+         ],
+         "e": [
+          "Compounds contain different elements.",
+          "Molecules are atoms joined together.",
+          "Ions are charged particles."
+         ],
+         "y": "Isotopes have the same number of protons but different numbers of neutrons."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-1-true",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "prompt": "Which statement is part of Dalton's atomic theory?",
+   "pool": {
+    "right": [
+     {
+      "text": "All matter is made of tiny particles called atoms.",
+      "truth": "true"
+     },
+     {
+      "text": "Atoms combine in simple whole-number ratios to form compounds.",
+      "truth": "true"
+     },
+     {
+      "text": "In a chemical reaction, atoms are rearranged.",
+      "truth": "true"
+     },
+     {
+      "text": "Atoms of different elements are different.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Atoms are made of protons, neutrons and electrons.",
+      "truth": "false",
+      "explain": "That was discovered later; Dalton thought atoms could not be divided."
+     },
+     {
+      "text": "Matter is a continuous substance with no particles.",
+      "truth": "false",
+      "explain": "Dalton said matter is made of atoms."
+     },
+     {
+      "text": "New atoms are created in every reaction.",
+      "truth": "false",
+      "explain": "Dalton said atoms are not created or destroyed."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "k2-1-ratio",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Water has two hydrogen atoms for every oxygen atom. Which idea of Dalton does this show?",
+       "r": "Atoms combine in simple whole-number ratios.",
+       "w": [
+        "Atoms can be divided.",
+        "Atoms are destroyed in reactions.",
+        "All atoms are the same."
+       ],
+       "e": [
+        "Dalton said they cannot be divided.",
+        "Dalton said they are not destroyed.",
+        "Atoms of different elements differ."
+       ],
+       "y": "Two to one is a simple whole-number ratio."
+      },
+      {
+       "q": "Who proposed the atomic theory in the early 1800s?",
+       "r": "John Dalton",
+       "w": [
+        "Isaac Newton",
+        "Dmitri Mendeleev",
+        "Charles Darwin"
+       ],
+       "e": [
+        "Newton worked on forces and motion.",
+        "Mendeleev made the periodic table later.",
+        "Darwin studied evolution."
+       ],
+       "y": "John Dalton, an English chemist."
+      },
+      {
+       "q": "According to Dalton, what happens to atoms in a chemical reaction?",
+       "r": "They are rearranged.",
+       "w": [
+        "They are destroyed.",
+        "New atoms are made.",
+        "They turn into energy."
+       ],
+       "e": [
+        "Dalton said atoms are not destroyed.",
+        "Dalton said atoms are not created.",
+        "That is not Dalton's idea."
+       ],
+       "y": "Atoms are only rearranged."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-1-changed",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of Dalton's ideas is no longer accepted?",
+       "r": "Atoms cannot be divided.",
+       "w": [
+        "Matter is made of atoms.",
+        "Atoms join in whole-number ratios.",
+        "Atoms are rearranged in reactions."
+       ],
+       "e": [
+        "That is still accepted.",
+        "That is still accepted.",
+        "That is still accepted."
+       ],
+       "y": "Atoms are made of smaller particles."
+      },
+      {
+       "q": "What are atoms of one element with different masses called?",
+       "r": "isotopes",
+       "w": [
+        "compounds",
+        "molecules",
+        "ions"
+       ],
+       "e": [
+        "Compounds contain different elements.",
+        "Molecules are atoms joined together.",
+        "Ions are charged particles."
+       ],
+       "y": "Isotopes have the same number of protons but different numbers of neutrons."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "atomic-structure"
+   ],
+   "prompt": "Which statement does NOT agree with Dalton's theory?",
+   "pool": {
+    "right": [
+     {
+      "text": "Matter is made of atoms.",
+      "truth": "true"
+     },
+     {
+      "text": "Atoms of one element are identical.",
+      "truth": "true"
+     },
+     {
+      "text": "Atoms combine in whole-number ratios.",
+      "truth": "true"
+     },
+     {
+      "text": "Atoms are not destroyed in reactions.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Half an atom of oxygen joins with one atom of hydrogen.",
+      "truth": "false",
+      "explain": "Dalton said atoms join in whole-number ratios; atoms cannot be split."
+     },
+     {
+      "text": "Atoms disappear when wood burns.",
+      "truth": "false",
+      "explain": "Dalton said atoms are rearranged, not destroyed."
+     },
+     {
+      "text": "Atoms of copper and gold are identical.",
+      "truth": "false",
+      "explain": "Atoms of different elements are different."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

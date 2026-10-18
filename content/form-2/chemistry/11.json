@@ -1,0 +1,515 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "k2-11",
+   "name": "Names of compounds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Naming a compound of two parts: the metal (or ammonium, or hydrogen) first, then the other part.\n• Two elements: the second name changes its ending to -ide: oxygen → oxide, chlorine → chloride, sulfur → sulfide, nitrogen → nitride, iodine → iodide. NaCl: sodium chloride. MgO: magnesium oxide.\n• With a radical, use the radical's name: Na₂CO₃ sodium carbonate, CuSO₄ copper sulfate, KNO₃ potassium nitrate, NaOH sodium hydroxide, (NH₄)₂SO₄ ammonium sulfate.\n• -ate names contain oxygen; -ide names (except hydroxide) contain only the two elements.\nSome common names: H₂O water, NH₃ ammonia, CH₄ methane.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "CaCl2",
+   "p": "Ca",
+   "n": "Cl"
+  },
+  "problem": "Name {formula(f)}.",
+  "steps": [
+   "The metal comes first: {p} is {nameOf(p)}.",
+   "The second element, {nameOf(n)}, changes its ending to -ide: {partName(n)}."
+  ],
+  "answer": "{compoundName(p, n)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "With two elements, the second name ends in -ide.",
+    "vars": {
+     "p": "Na",
+     "n": "Cl",
+     "q": "Mg",
+     "m": "O"
+    },
+    "example": [
+     "{formula(compoundFormula(p, n))}: {compoundName(p, n)}",
+     "{formula(compoundFormula(q, m))}: {compoundName(q, m)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-11-ide"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "With a radical, use the radical's name.",
+    "vars": {
+     "p": "Ca",
+     "n": "CO3",
+     "q": "K",
+     "m": "NO3"
+    },
+    "example": [
+     "{formula(compoundFormula(p, n))}: {compoundName(p, n)}",
+     "{formula(compoundFormula(q, m))}: {compoundName(q, m)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-11-radical"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "Some compounds have common names: water, ammonia, methane.",
+    "vars": {},
+    "example": [
+     "{formula('H2O')}: water",
+     "{formula('NH3')}: ammonia"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-11-common-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "symbols-valency"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is the common name of H₂O?",
+         "r": "water",
+         "w": [
+          "hydrogen oxide only",
+          "ammonia",
+          "methane"
+         ],
+         "e": [
+          "We call it water.",
+          "Ammonia is NH₃.",
+          "Methane is CH₄."
+         ],
+         "y": "H₂O is water."
+        },
+        {
+         "q": "What is the formula of ammonia?",
+         "r": "NH₃",
+         "w": [
+          "NH₄",
+          "N₂",
+          "H₂O"
+         ],
+         "e": [
+          "NH₄ is the ammonium radical.",
+          "N₂ is nitrogen gas.",
+          "H₂O is water."
+         ],
+         "y": "Ammonia is NH₃."
+        },
+        {
+         "q": "Which name contains oxygen?",
+         "r": "calcium carbonate",
+         "w": [
+          "calcium chloride",
+          "sodium sulfide",
+          "magnesium nitride"
+         ],
+         "e": [
+          "Chloride: no oxygen.",
+          "Sulfide: no oxygen.",
+          "Nitride: no oxygen."
+         ],
+         "y": "-ate radicals contain oxygen."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-11-ide",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      "Na",
+      "K",
+      "Mg",
+      "Ca",
+      "Al",
+      "Zn",
+      "Li"
+     ]
+    },
+    "n": {
+     "pick": [
+      "Cl",
+      "O",
+      "S",
+      "N",
+      "F",
+      "I"
+     ]
+    }
+   },
+   "prompt": "What is the name of {formula(compoundFormula(p, n))}?",
+   "correct": "{compoundName(p, n)}",
+   "distractors": [
+    {
+     "text": "{partName(p)} {elementOf(n)}",
+     "misconception": "element"
+    },
+    {
+     "text": "{partName(n)} {partName(p)}",
+     "misconception": "order"
+    },
+    {
+     "text": "{partName(p)} {elementOf(n)}ate",
+     "misconception": "ate"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "element",
+     "explain": "The second element's name changes to -ide: {partName(n)}."
+    },
+    {
+     "id": "order",
+     "explain": "The metal's name comes first."
+    },
+    {
+     "id": "ate",
+     "explain": "-ate names contain oxygen in a radical; here use -ide."
+    }
+   ],
+   "solution": [
+    "The metal first: {partName(p)}.",
+    "The second element ends in -ide: {partName(n)}. So: {answer}."
+   ]
+  },
+  {
+   "id": "k2-11-radical",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Na",
+       "CO3",
+       "carbonide"
+      ],
+      [
+       "Cu",
+       "SO4",
+       "sulfide"
+      ],
+      [
+       "K",
+       "NO3",
+       "nitride"
+      ],
+      [
+       "Na",
+       "OH",
+       "oxide"
+      ],
+      [
+       "Ca",
+       "CO3",
+       "carbide"
+      ],
+      [
+       "NH4",
+       "Cl",
+       "chlorate"
+      ],
+      [
+       "Mg",
+       "SO4",
+       "sulfite"
+      ],
+      [
+       "NH4",
+       "NO3",
+       "nitrite"
+      ]
+     ]
+    },
+    "p": {
+     "expr": "X[0]"
+    },
+    "n": {
+     "expr": "X[1]"
+    },
+    "W": {
+     "expr": "X[2]"
+    }
+   },
+   "prompt": "What is the name of {formula(compoundFormula(p, n))}?",
+   "correct": "{compoundName(p, n)}",
+   "distractors": [
+    {
+     "text": "{partName(p)} {W}",
+     "misconception": "wrong"
+    },
+    {
+     "text": "{partName(n)} {partName(p)}",
+     "misconception": "order"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "wrong",
+     "explain": "Use the name of the radical: {partName(n)}."
+    },
+    {
+     "id": "order",
+     "explain": "The positive part's name comes first."
+    }
+   ],
+   "solution": [
+    "The positive part first: {partName(p)}.",
+    "Then the radical: {partName(n)}. So: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "k2-11-common",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the common name of H₂O?",
+       "r": "water",
+       "w": [
+        "hydrogen oxide only",
+        "ammonia",
+        "methane"
+       ],
+       "e": [
+        "We call it water.",
+        "Ammonia is NH₃.",
+        "Methane is CH₄."
+       ],
+       "y": "H₂O is water."
+      },
+      {
+       "q": "What is the formula of ammonia?",
+       "r": "NH₃",
+       "w": [
+        "NH₄",
+        "N₂",
+        "H₂O"
+       ],
+       "e": [
+        "NH₄ is the ammonium radical.",
+        "N₂ is nitrogen gas.",
+        "H₂O is water."
+       ],
+       "y": "Ammonia is NH₃."
+      },
+      {
+       "q": "Which name contains oxygen?",
+       "r": "calcium carbonate",
+       "w": [
+        "calcium chloride",
+        "sodium sulfide",
+        "magnesium nitride"
+       ],
+       "e": [
+        "Chloride: no oxygen.",
+        "Sulfide: no oxygen.",
+        "Nitride: no oxygen."
+       ],
+       "y": "-ate radicals contain oxygen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-11-formula",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      "Mg",
+      "Ca",
+      "Al",
+      "Na",
+      "K",
+      "Zn"
+     ]
+    },
+    "n": {
+     "pick": [
+      "Cl",
+      "O",
+      "S",
+      "OH",
+      "NO3",
+      "SO4",
+      "CO3"
+     ]
+    }
+   },
+   "prompt": "What is the formula of {compoundName(p, n)}?",
+   "correct": "{formula(compoundFormula(p, n))}",
+   "distractors": [
+    {
+     "text": "{formula(unsimplified(p, n))}",
+     "misconception": "unsimplified"
+    },
+    {
+     "text": "{formula(p + n)}",
+     "misconception": "ones"
+    },
+    {
+     "text": "{formula(n + p)}",
+     "misconception": "order"
+    },
+    {
+     "text": "{formula((p + (valency(p) > 1 ? valency(p) : '') + n + (valency(n) > 1 ? valency(n) : '')))}",
+     "misconception": "noswap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "unsimplified",
+     "explain": "Simplify: both numbers can be divided by the same number."
+    },
+    {
+     "id": "ones",
+     "explain": "Swap the valencies."
+    },
+    {
+     "id": "order",
+     "explain": "The positive part comes first."
+    },
+    {
+     "id": "noswap",
+     "explain": "Swap the valencies: each one goes to the other part."
+    }
+   ],
+   "solution": [
+    "Valencies: {p} {valency(p)}, {n} {valency(n)}.",
+    "Swap{needsSimplifying(p, n) ? ' and simplify' : ''}: {answer}."
+   ],
+   "where": [
+    "!(p == 'H' && (n == 'OH' || n == 'HCO3' || n == 'N'))",
+    "!(p == 'NH4' && (n == 'OH' || n == 'N' || n == 'HCO3'))",
+    "!(valency(p) == 1 && valency(n) == 1)",
+    "compoundFormula(p, n) != unsimplified(p, n) || p != n"
+   ]
+  }
+ ]
+}

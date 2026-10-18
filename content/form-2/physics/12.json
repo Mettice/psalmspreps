@@ -1,0 +1,432 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  10,
+  11
+ ],
+ "skills": [
+  {
+   "id": "p2-12",
+   "name": "The action of heat on materials"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Heat can change materials in several ways:\n• Expansion: solids, liquids and gases get bigger when heated (gases expand the most). Engineers leave gaps in bridges and railway lines; a tight metal lid opens after it is warmed.\n• Change of state: heat melts solids and boils liquids.\n• Change of colour or burning: paper and wood burn and change into ash, smoke and gases; bread turns brown when toasted.\n• Decomposition: some substances break down into new ones (sugar heated strongly turns black: carbon).\nSome changes can be reversed (melting ice, expansion); others cannot (burning, cooking an egg).\nA bimetallic strip (two metals joined) bends when heated because the metals expand by different amounts: it is used in thermostats in irons and fridges.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "a tight metal lid"
+  },
+  "problem": "Explain why pouring hot water over {m} on a glass jar helps to open it.",
+  "steps": [
+   "The hot water heats the metal lid.",
+   "Metal expands more than glass when heated, so the lid becomes slightly bigger and loosens."
+  ],
+  "answer": "The metal lid expands more than the glass, so it loosens.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "Heating makes solids, liquids and gases expand; gases expand the most.",
+    "vars": {},
+    "example": [
+     "A football left in the sun becomes harder.",
+     "Bridges have expansion gaps."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-12-expand"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "Some changes caused by heat can be reversed; others cannot.",
+    "vars": {},
+    "example": [
+     "Reversible: melting shea butter.",
+     "Not reversible: burning wood, frying an egg."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-12-reverse"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "A bimetallic strip bends when heated, because its two metals expand by different amounts.",
+    "vars": {},
+    "example": [
+     "It switches off an electric iron when it is hot enough.",
+     "It is used in thermostats."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-12-bimetal-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "heat-electricity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does a bimetallic strip bend when heated?",
+         "r": "Its two metals expand by different amounts.",
+         "w": [
+          "It melts.",
+          "It loses mass.",
+          "Only one metal gets hot."
+         ],
+         "e": [
+          "It does not melt.",
+          "Its mass does not change.",
+          "Both are heated."
+         ],
+         "y": "Different expansion makes it bend."
+        },
+        {
+         "q": "Where is a bimetallic strip used?",
+         "r": "in the thermostat of an electric iron",
+         "w": [
+          "in a football",
+          "in a ruler",
+          "in a light bulb filament"
+         ],
+         "e": [
+          "A football has no thermostat.",
+          "A ruler measures length.",
+          "A filament is a thin wire that glows."
+         ],
+         "y": "It switches the iron off when hot."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-12-expand",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A football left in the hot sun becomes harder. Why?",
+       "r": "The air inside expands.",
+       "w": [
+        "The leather shrinks only.",
+        "The air leaks out.",
+        "The ball gets heavier."
+       ],
+       "e": [
+        "The main reason is the air expanding.",
+        "That would make it softer.",
+        "Its mass does not change."
+       ],
+       "y": "Heated air expands and presses harder on the ball."
+      },
+      {
+       "q": "Why are gaps left in a long concrete bridge?",
+       "r": "To let it expand in the heat without cracking.",
+       "w": [
+        "To let rain fall through.",
+        "To save concrete.",
+        "For decoration."
+       ],
+       "e": [
+        "The gaps are for expansion.",
+        "Saving material is not the reason.",
+        "They have a purpose."
+       ],
+       "y": "Expansion gaps stop cracking."
+      },
+      {
+       "q": "Which expands the most when heated by the same amount?",
+       "r": "a gas",
+       "w": [
+        "a solid",
+        "a liquid",
+        "they all expand the same"
+       ],
+       "e": [
+        "Solids expand the least.",
+        "Liquids expand less than gases.",
+        "They expand differently."
+       ],
+       "y": "Gases expand the most."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-12-reverse",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Sort the changes: can they be reversed?",
+   "pool": [
+    {
+     "left": "melting ice",
+     "right": "reversible"
+    },
+    {
+     "left": "melting candle wax",
+     "right": "reversible"
+    },
+    {
+     "left": "a rail expanding in the sun",
+     "right": "reversible"
+    },
+    {
+     "left": "boiling water",
+     "right": "reversible"
+    },
+    {
+     "left": "burning paper",
+     "right": "not reversible"
+    },
+    {
+     "left": "frying an egg",
+     "right": "not reversible"
+    },
+    {
+     "left": "toasting bread",
+     "right": "not reversible"
+    },
+    {
+     "left": "burning firewood",
+     "right": "not reversible"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "reversible",
+    "not reversible"
+   ]
+  },
+  {
+   "id": "p2-12-bimetal",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does a bimetallic strip bend when heated?",
+       "r": "Its two metals expand by different amounts.",
+       "w": [
+        "It melts.",
+        "It loses mass.",
+        "Only one metal gets hot."
+       ],
+       "e": [
+        "It does not melt.",
+        "Its mass does not change.",
+        "Both are heated."
+       ],
+       "y": "Different expansion makes it bend."
+      },
+      {
+       "q": "Where is a bimetallic strip used?",
+       "r": "in the thermostat of an electric iron",
+       "w": [
+        "in a football",
+        "in a ruler",
+        "in a light bulb filament"
+       ],
+       "e": [
+        "A football has no thermostat.",
+        "A ruler measures length.",
+        "A filament is a thin wire that glows."
+       ],
+       "y": "It switches the iron off when hot."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Heating makes most materials expand.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning wood cannot be reversed.",
+      "truth": "true"
+     },
+     {
+      "text": "Gases expand more than solids.",
+      "truth": "true"
+     },
+     {
+      "text": "A bimetallic strip bends when heated.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Heating makes solids contract.",
+      "truth": "false",
+      "explain": "Heating makes solids expand; cooling makes them contract."
+     },
+     {
+      "text": "Burning paper is easy to reverse.",
+      "truth": "false",
+      "explain": "Burning cannot be reversed."
+     },
+     {
+      "text": "Railways need no gaps because steel does not expand.",
+      "truth": "false",
+      "explain": "Steel expands in the heat: gaps are needed."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

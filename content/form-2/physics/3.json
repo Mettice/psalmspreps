@@ -1,0 +1,342 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "p2-3",
+   "name": "Predicting and evaluating"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Predicting: when data follow a pattern, we can predict new values.\n• Inside the range measured, read the value from the line (interpolation).\n• Beyond the range, continue the pattern (extrapolation), carefully: the pattern may change.\nA fair test changes one variable only:\n• the independent variable is the one we change;\n• the dependent variable is the one we measure;\n• the controlled variables are kept the same.\nEvaluating an experiment: Were the readings repeatable? Was the test fair? What could cause errors (reaction time with a stopwatch, reading a scale at an angle)? How could it be improved (repeat readings, use a more precise instrument, take more readings)?",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 3,
+   "n": 6,
+   "g": 100
+  },
+  "problem": "A spring stretches {k} cm for every {g} g hung on it, up to {5 * g} g. Predict the stretch for {n * g} g, and say why the prediction may be wrong.",
+  "steps": [
+   "Continue the pattern: {n} × {k} = {n * k} cm.",
+   "{n * g} g is beyond the range measured: the spring may stop stretching evenly, so this is only a prediction."
+  ],
+  "answer": "About {n * k} cm, but the pattern may change beyond the range measured.",
+  "checks": [
+   "n * k == 18"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "If the pattern adds the same amount each time, continue it to predict the next value.",
+    "vars": {
+     "a": 10,
+     "d": 5
+    },
+    "example": [
+     "{readings([a, a + d, a + 2 * d, a + 3 * d])} …: next {a + 4 * d}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-3-next"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "In a fair test, change one variable, measure one, and keep all the others the same.",
+    "vars": {},
+    "example": [
+     "Changed: the height of the ramp. Measured: the time.",
+     "Kept the same: the ball, the ramp length, the surface."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-3-var"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "To improve an experiment: repeat readings, use more precise instruments, take more readings.",
+    "vars": {},
+    "example": [
+     "Timing by hand has a reaction-time error.",
+     "Repeat and find the mean to reduce it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-3-improve"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-3-next",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      3,
+      20
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "A plant's height is measured each week: {readings([a, a + d, a + 2 * d, a + 3 * d])} cm. Predict the height next week if the pattern continues.",
+   "answer": "a + 4 * d",
+   "misconceptions": [
+    {
+     "id": "diff",
+     "wrong": "d",
+     "explain": "{d} cm is the growth each week; add it to the last height."
+    }
+   ],
+   "solution": [
+    "It grows {d} cm each week.",
+    "{a + 3 * d} + {d} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "p2-3-var",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientific-method"
+   ],
+   "prompt": "In an experiment on how the height of a ramp affects the time a ball takes to roll down it, sort the variables.",
+   "pool": [
+    {
+     "left": "the height of the ramp",
+     "right": "changed (independent)"
+    },
+    {
+     "left": "the time taken",
+     "right": "measured (dependent)"
+    },
+    {
+     "left": "the same ball each time",
+     "right": "kept the same (controlled)"
+    },
+    {
+     "left": "the same length of ramp",
+     "right": "kept the same (controlled)"
+    },
+    {
+     "left": "the same surface on the ramp",
+     "right": "kept the same (controlled)"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "changed (independent)",
+    "measured (dependent)",
+    "kept the same (controlled)"
+   ]
+  },
+  {
+   "id": "p2-3-between",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      2,
+      4,
+      6,
+      8,
+      10
+     ]
+    },
+    "m": {
+     "pick": [
+      100,
+      200,
+      400
+     ]
+    }
+   },
+   "prompt": "A spring stretches {k} cm with {m} g and {2 * k} cm with {2 * m} g, evenly. What is its stretch with {m + m / 2} g?",
+   "answer": "k + k / 2",
+   "solution": [
+    "The stretch is proportional: halfway between {m} g and {2 * m} g gives halfway between {k} cm and {2 * k} cm.",
+    "{k} + {k / 2} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "p2-3-improve",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk times one swing of a pendulum with a stopwatch. What is the best way to improve his result?",
+       "r": "Time 10 swings and divide by 10.",
+       "w": [
+        "Time it once very fast.",
+        "Guess the time.",
+        "Use a ruler."
+       ],
+       "e": [
+        "One quick reading has a large reaction-time error.",
+        "Guessing is not measuring.",
+        "A ruler measures length, not time."
+       ],
+       "y": "Timing many swings makes the reaction-time error small compared with the total."
+      },
+      {
+       "q": "Bih's three readings are very different from each other. What should she do?",
+       "r": "Repeat the measurement and check for mistakes.",
+       "w": [
+        "Keep only the biggest.",
+        "Make up a new reading.",
+        "Stop the experiment."
+       ],
+       "e": [
+        "Choosing the biggest is not fair.",
+        "Never make up data.",
+        "Find out why first."
+       ],
+       "y": "Readings that disagree must be checked and repeated."
+      },
+      {
+       "q": "A pupil reads a measuring cylinder from above. What error can this cause?",
+       "r": "a parallax error",
+       "w": [
+        "a zero error",
+        "a reaction-time error",
+        "no error"
+       ],
+       "e": [
+        "A zero error is when an instrument does not start at zero.",
+        "Reaction time is about timing.",
+        "Reading at an angle gives a wrong value."
+       ],
+       "y": "Reading at an angle gives a parallax error: read at eye level."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "scientific-method"
+   ],
+   "prompt": "Which statement about a fair test is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Change only one variable at a time.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep the controlled variables the same.",
+      "truth": "true"
+     },
+     {
+      "text": "Repeat readings and take the mean.",
+      "truth": "true"
+     },
+     {
+      "text": "Measure the dependent variable.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Change two variables at once to save time.",
+      "truth": "false",
+      "explain": "Then you cannot tell which change caused the result."
+     },
+     {
+      "text": "Use a different ball for each height of the ramp.",
+      "truth": "false",
+      "explain": "The ball must stay the same: it is a controlled variable."
+     },
+     {
+      "text": "Leave out readings you do not like.",
+      "truth": "false",
+      "explain": "Only anomalous readings, after checking, may be left out."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

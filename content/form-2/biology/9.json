@@ -1,0 +1,358 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "b2-9",
+   "name": "Experiment 3: dissecting a flower"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Aim: to identify the parts of a flower.\nMaterials: a large flower (hibiscus or flamboyant), a sharp razor blade or scalpel, a hand lens, white paper, glue or tape.\nMethod:\n1. Count and remove the sepals, from the outside.\n2. Remove the petals, one by one.\n3. Remove the stamens and look at an anther with the hand lens; touch it to see the pollen.\n4. Cut the ovary across (or along) with the blade and look at the ovules with the hand lens.\n5. Stick each kind of part on the paper and label it; draw the flower cut in half.\nSafety: cut away from your fingers; wash your hands afterwards.\nA good biological drawing: a title, clear single lines, no shading, label lines that do not cross, and the magnification.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 777
+  },
+  "problem": "After cutting a flower in half, Ngwa sees small round bodies inside a swollen part at the base of the style. What are they?",
+  "steps": [
+   "The swollen part at the base of the style is the ovary.",
+   "The small round bodies inside it are the ovules, which become seeds after fertilisation."
+  ],
+  "answer": "Ovules, inside the ovary.",
+  "checks": [],
+  "figure": "flower(k)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Remove the parts from the outside in: sepals, petals, stamens, then cut the ovary.",
+    "vars": {},
+    "example": [
+     "Count the parts as you remove them."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-9-steps"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Use a hand lens to see pollen on the anthers and ovules in the ovary.",
+    "vars": {},
+    "example": [
+     "Pollen looks like fine powder.",
+     "Ovules are small round bodies."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-9-see"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "A biological drawing has a title, clear lines, no shading and labels that do not cross.",
+    "vars": {},
+    "example": [
+     "Label lines are straight and drawn with a ruler."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-9-draw-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "flower"
+     ],
+     "prompt": "Which rule for a biological drawing is wrong?",
+     "pool": {
+      "right": [
+       {
+        "text": "Give the drawing a title.",
+        "truth": "true"
+       },
+       {
+        "text": "Use clear single lines.",
+        "truth": "true"
+       },
+       {
+        "text": "Label lines must not cross.",
+        "truth": "true"
+       },
+       {
+        "text": "State the magnification.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Shade the drawing heavily.",
+        "truth": "false",
+        "explain": "Do not shade a biological drawing."
+       },
+       {
+        "text": "Draw label lines that cross each other.",
+        "truth": "false",
+        "explain": "Label lines must not cross."
+       },
+       {
+        "text": "Use arrows with colours instead of labels.",
+        "truth": "false",
+        "explain": "Use straight label lines and words."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-9-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "prompt": "Put the steps of the flower dissection in order.",
+   "items": [
+    {
+     "text": "Remove the sepals"
+    },
+    {
+     "text": "Remove the petals"
+    },
+    {
+     "text": "Remove the stamens and look at an anther"
+    },
+    {
+     "text": "Cut the ovary and look at the ovules"
+    },
+    {
+     "text": "Stick, label and draw the parts"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "b2-9-see",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which tool helps you see pollen grains and ovules?",
+       "r": "a hand lens",
+       "w": [
+        "a thermometer",
+        "a ruler",
+        "a measuring cylinder"
+       ],
+       "e": [
+        "It measures temperature.",
+        "It measures length.",
+        "It measures volume."
+       ],
+       "y": "A hand lens magnifies."
+      },
+      {
+       "q": "Where will you find the ovules?",
+       "r": "inside the ovary",
+       "w": [
+        "on the anther",
+        "on the petals",
+        "in the sepals"
+       ],
+       "e": [
+        "The anther has pollen.",
+        "Petals have no ovules.",
+        "Sepals have no ovules."
+       ],
+       "y": "The ovary contains the ovules."
+      },
+      {
+       "q": "What is the powder on the anthers?",
+       "r": "pollen",
+       "w": [
+        "nectar",
+        "ovules",
+        "scent"
+       ],
+       "e": [
+        "Nectar is a sweet liquid.",
+        "Ovules are in the ovary.",
+        "Scent is a smell."
+       ],
+       "y": "Anthers make pollen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-9-label",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      40319
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "In the drawing, which letter shows the {flowerPart(i)}?",
+   "correct": "{bioLetter(k, 8, i)}",
+   "distractors": [
+    {
+     "text": "{bioLetter(k, 8, (i + 4) % 8)}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{bioLetter(k, 8, (i + 5) % 8)}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{bioLetter(k, 8, (i + 6) % 8)}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{bioLetter(k, 8, (i + 4) % 8)} is the {flowerPart((i + 4) % 8)}."
+    },
+    {
+     "id": "w2",
+     "explain": "{bioLetter(k, 8, (i + 5) % 8)} is the {flowerPart((i + 5) % 8)}."
+    },
+    {
+     "id": "w3",
+     "explain": "{bioLetter(k, 8, (i + 6) % 8)} is the {flowerPart((i + 6) % 8)}."
+    }
+   ],
+   "solution": [
+    "The {flowerPart(i)} is labelled {answer}."
+   ],
+   "figure": "flower(k)"
+  },
+  {
+   "id": "b2-9-draw",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "flower"
+   ],
+   "prompt": "Which rule for a biological drawing is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Give the drawing a title.",
+      "truth": "true"
+     },
+     {
+      "text": "Use clear single lines.",
+      "truth": "true"
+     },
+     {
+      "text": "Label lines must not cross.",
+      "truth": "true"
+     },
+     {
+      "text": "State the magnification.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Shade the drawing heavily.",
+      "truth": "false",
+      "explain": "Do not shade a biological drawing."
+     },
+     {
+      "text": "Draw label lines that cross each other.",
+      "truth": "false",
+      "explain": "Label lines must not cross."
+     },
+     {
+      "text": "Use arrows with colours instead of labels.",
+      "truth": "false",
+      "explain": "Use straight label lines and words."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

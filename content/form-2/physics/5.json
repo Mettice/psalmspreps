@@ -1,0 +1,345 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "p2-5",
+   "name": "Speed: definition, units and measurement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Speed is the distance travelled in one unit of time. Speed = distance ÷ time.\nUnits: metres per second (m/s), the SI unit, or kilometres per hour (km/h) for vehicles.\nA car at 60 km/h would travel 60 km in one hour.\nConverting: 1 km/h = 1000 m ÷ 3600 s, so divide km/h by 3.6 to get m/s: 72 km/h = 20 m/s. Multiply m/s by 3.6 to get km/h.\nMeasuring speed: mark a distance with a tape measure, time the object over it with a stopwatch, then divide. This gives the average speed: the object may go faster and slower along the way.\nA speedometer shows a vehicle's speed at each moment.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": 100,
+   "t": 20
+  },
+  "problem": "Ewane runs {d} m in {t} s. What is his average speed?",
+  "steps": [
+   "Speed = distance ÷ time.",
+   "Speed = {d} ÷ {t} = {d / t} m/s."
+  ],
+  "answer": "{d / t} m/s",
+  "checks": [
+   "d / t == 5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "Speed is the distance travelled each second (or each hour): distance ÷ time.",
+    "vars": {
+     "d": 60,
+     "t": 12
+    },
+    "example": [
+     "{d} m in {t} s: {d} ÷ {t} = {d / t} m/s."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-5-speed"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "Speed is in m/s or km/h. Divide km/h by {k} to get m/s.",
+    "vars": {
+     "v": 36,
+     "k": 3.6
+    },
+    "example": [
+     "{v} km/h = {v} ÷ {k} = {kmhToMs(v)} m/s."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-5-convert"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "To measure speed, measure a distance and the time taken, then divide. This gives the average speed.",
+    "vars": {},
+    "example": [
+     "Tape measure for the distance, stopwatch for the time.",
+     "A speedometer shows the speed at each moment."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-5-measure"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-5-speed",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "t": {
+     "int": [
+      5,
+      40
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "d": {
+     "expr": "t * v"
+    }
+   },
+   "prompt": "A cyclist travels {d} m in {t} s. What is the average speed?",
+   "answer": "d / t",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "d * t",
+     "explain": "Divide the distance by the time, do not multiply."
+    },
+    {
+     "id": "upside",
+     "wrong": "t / d",
+     "explain": "Speed is distance ÷ time, not time ÷ distance."
+    }
+   ],
+   "solution": [
+    "Speed = distance ÷ time.",
+    "{d} ÷ {t} = {answer} m/s."
+   ],
+   "unit": "m/s"
+  },
+  {
+   "id": "p2-5-convert",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      18,
+      36,
+      54,
+      72,
+      90,
+      108,
+      126,
+      144
+     ]
+    },
+    "k": 3.6
+   },
+   "prompt": "Convert {v} km/h to m/s.",
+   "answer": "kmhToMs(v)",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "msToKmh(v)",
+     "explain": "To go from km/h to m/s, divide by {k}."
+    }
+   ],
+   "solution": [
+    "Divide by {k}: 1 km/h = {1000} m ÷ {3600} s.",
+    "{v} ÷ {k} = {answer} m/s."
+   ],
+   "unit": "m/s"
+  },
+  {
+   "id": "p2-5-measure",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which two instruments do you need to measure the speed of a runner?",
+       "r": "a tape measure and a stopwatch",
+       "w": [
+        "a balance and a thermometer",
+        "a ruler and a balance",
+        "an ammeter and a clock"
+       ],
+       "e": [
+        "Those measure mass and temperature.",
+        "A balance measures mass.",
+        "An ammeter measures current."
+       ],
+       "y": "Speed needs a distance and a time."
+      },
+      {
+       "q": "What does a speedometer show?",
+       "r": "the speed at each moment",
+       "w": [
+        "the average speed of the whole trip",
+        "the distance only",
+        "the time only"
+       ],
+       "e": [
+        "Distance ÷ total time gives the average speed.",
+        "That is an odometer.",
+        "That is a clock."
+       ],
+       "y": "A speedometer shows the speed at that moment."
+      },
+      {
+       "q": "What is the SI unit of speed?",
+       "r": "metre per second (m/s)",
+       "w": [
+        "kilometre (km)",
+        "second (s)",
+        "kilogram (kg)"
+       ],
+       "e": [
+        "That is a unit of length.",
+        "That is a unit of time.",
+        "That is a unit of mass."
+       ],
+       "y": "Speed is distance per time: m/s."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-5-kmh",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "v": {
+     "pick": [
+      40,
+      45,
+      50,
+      60,
+      70,
+      80
+     ]
+    },
+    "d": {
+     "expr": "h * v"
+    }
+   },
+   "prompt": "A bus travels {d} km in {h} hours. What is its average speed in km/h?",
+   "answer": "d / h",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "d * h",
+     "explain": "Divide the distance by the time."
+    }
+   ],
+   "solution": [
+    "Speed = distance ÷ time.",
+    "{d} ÷ {h} = {answer} km/h."
+   ],
+   "unit": "km/h"
+  },
+  {
+   "id": "p2-5-back",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+     ]
+    },
+    "k": 3.6
+   },
+   "prompt": "A car moves at {v} m/s. What is its speed in km/h?",
+   "answer": "msToKmh(v)",
+   "misconceptions": [
+    {
+     "id": "divide",
+     "wrong": "kmhToMs(v)",
+     "explain": "From m/s to km/h, multiply by {k}."
+    }
+   ],
+   "solution": [
+    "Multiply m/s by {k} to get km/h.",
+    "{v} × {k} = {answer} km/h."
+   ],
+   "unit": "km/h"
+  }
+ ]
+}

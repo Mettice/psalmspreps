@@ -1,0 +1,469 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-8",
+   "name": "The physical states of matter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Matter is anything that has mass and takes up space. It exists in three main states:\n• solid: stone, ice, wood, iron, salt;\n• liquid: water, palm oil, petrol, milk, kerosene;\n• gas: air, oxygen, steam (water vapour), cooking gas, carbon dioxide.\nThe same substance can exist in all three states: ice (solid), water (liquid), steam (gas).\nA substance changes state when it is heated or cooled: melting (solid → liquid), evaporation or boiling (liquid → gas), condensation (gas → liquid), freezing (liquid → solid), sublimation (solid → gas, for example naphthalene balls).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "water"
+  },
+  "problem": "Name the three states of {s} and the change of state from each one to the next when it is heated.",
+  "steps": [
+   "Solid: ice. Heating it: melting, it becomes liquid water.",
+   "Liquid: water. Heating it more: boiling, it becomes steam.",
+   "Gas: steam (water vapour)."
+  ],
+  "answer": "ice → (melting) → water → (boiling) → steam",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "Matter has three main states: solid, liquid and gas.",
+    "vars": {},
+    "example": [
+     "Solid: stone. Liquid: palm oil.",
+     "Gas: the air we breathe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-8-sort"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "One substance can exist in all three states.",
+    "vars": {},
+    "example": [
+     "Ice, water and steam are all water.",
+     "Candle wax: solid, then liquid when it melts."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-8-same"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Heating or cooling changes the state: melting, boiling, condensation, freezing, sublimation.",
+    "vars": {},
+    "example": [
+     "solid → liquid: {processName('solid', 'liquid')}",
+     "gas → liquid: {processName('gas', 'liquid')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-8-change"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-8-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "prompt": "Sort each substance by its state at room temperature.",
+   "pool": [
+    {
+     "left": "stone",
+     "right": "solid"
+    },
+    {
+     "left": "salt",
+     "right": "solid"
+    },
+    {
+     "left": "iron nail",
+     "right": "solid"
+    },
+    {
+     "left": "ice cube",
+     "right": "solid"
+    },
+    {
+     "left": "palm oil",
+     "right": "liquid"
+    },
+    {
+     "left": "kerosene",
+     "right": "liquid"
+    },
+    {
+     "left": "milk",
+     "right": "liquid"
+    },
+    {
+     "left": "petrol",
+     "right": "liquid"
+    },
+    {
+     "left": "air",
+     "right": "gas"
+    },
+    {
+     "left": "oxygen",
+     "right": "gas"
+    },
+    {
+     "left": "steam",
+     "right": "gas"
+    },
+    {
+     "left": "cooking gas",
+     "right": "gas"
+    }
+   ],
+   "pick": 6,
+   "groups": true,
+   "group_order": [
+    "solid",
+    "liquid",
+    "gas"
+   ]
+  },
+  {
+   "id": "p2-8-same",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is water in the solid state called?",
+       "r": "ice",
+       "w": [
+        "steam",
+        "vapour",
+        "rain"
+       ],
+       "e": [
+        "Steam is water as a gas.",
+        "Vapour is water as a gas.",
+        "Rain is liquid water."
+       ],
+       "y": "Solid water is ice."
+      },
+      {
+       "q": "What is water in the gas state called?",
+       "r": "steam (water vapour)",
+       "w": [
+        "ice",
+        "dew",
+        "frost"
+       ],
+       "e": [
+        "Ice is solid.",
+        "Dew is liquid water.",
+        "Frost is solid ice."
+       ],
+       "y": "Water as a gas is steam or water vapour."
+      },
+      {
+       "q": "Candle wax that melts becomes …",
+       "r": "a liquid",
+       "w": [
+        "a gas",
+        "a harder solid",
+        "nothing"
+       ],
+       "e": [
+        "Melting gives a liquid.",
+        "Melting makes it liquid.",
+        "The wax is still there."
+       ],
+       "y": "Melting changes a solid into a liquid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-8-change",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "C": {
+     "pick": [
+      [
+       "solid",
+       "liquid"
+      ],
+      [
+       "liquid",
+       "solid"
+      ],
+      [
+       "liquid",
+       "gas"
+      ],
+      [
+       "gas",
+       "liquid"
+      ],
+      [
+       "solid",
+       "gas"
+      ]
+     ]
+    }
+   },
+   "prompt": "What is the change from {C[0]} to {C[1]} called?",
+   "correct": "{processName(C[0], C[1])}",
+   "distractors": [
+    {
+     "text": "melting",
+     "misconception": "w"
+    },
+    {
+     "text": "freezing",
+     "misconception": "w"
+    },
+    {
+     "text": "evaporation",
+     "misconception": "w"
+    },
+    {
+     "text": "condensation",
+     "misconception": "w"
+    },
+    {
+     "text": "sublimation",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "That is a different change: {C[0]} → {C[1]} is {processName(C[0], C[1])}."
+    }
+   ],
+   "solution": [
+    "{C[0]} → {C[1]} is {answer}."
+   ]
+  },
+  {
+   "id": "p2-8-life",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Wet clothes dry on a line.",
+       "r": "evaporation",
+       "w": [
+        "condensation",
+        "melting",
+        "freezing"
+       ],
+       "e": [
+        "Condensation turns gas into liquid.",
+        "Melting turns solid into liquid.",
+        "Freezing turns liquid into solid."
+       ],
+       "y": "The water in the clothes becomes vapour."
+      },
+      {
+       "q": "Drops form on the outside of a cold bottle of water.",
+       "r": "condensation",
+       "w": [
+        "evaporation",
+        "melting",
+        "sublimation"
+       ],
+       "e": [
+        "Evaporation turns liquid into gas.",
+        "Nothing solid melts here.",
+        "Sublimation turns solid into gas."
+       ],
+       "y": "Water vapour in the air cools and becomes liquid."
+      },
+      {
+       "q": "Shea butter becomes runny in the hot sun.",
+       "r": "melting",
+       "w": [
+        "freezing",
+        "condensation",
+        "boiling"
+       ],
+       "e": [
+        "Freezing is liquid → solid.",
+        "Condensation is gas → liquid.",
+        "Boiling is liquid → gas."
+       ],
+       "y": "A solid becomes liquid: melting."
+      },
+      {
+       "q": "Naphthalene balls in a wardrobe get smaller without becoming liquid.",
+       "r": "sublimation",
+       "w": [
+        "melting",
+        "evaporation",
+        "freezing"
+       ],
+       "e": [
+        "Melting would make a liquid.",
+        "Evaporation starts from a liquid.",
+        "Freezing makes a solid."
+       ],
+       "y": "Solid → gas directly is sublimation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q} Which change of state is this?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Matter has mass and takes up space.",
+      "truth": "true"
+     },
+     {
+      "text": "Ice, water and steam are the same substance.",
+      "truth": "true"
+     },
+     {
+      "text": "Air is a gas.",
+      "truth": "true"
+     },
+     {
+      "text": "Melting changes a solid into a liquid.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Steam is water in the solid state.",
+      "truth": "false",
+      "explain": "Steam is water as a gas; ice is the solid."
+     },
+     {
+      "text": "Condensation changes a liquid into a gas.",
+      "truth": "false",
+      "explain": "Condensation changes a gas into a liquid."
+     },
+     {
+      "text": "Air has no mass.",
+      "truth": "false",
+      "explain": "Air is matter: it has mass."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

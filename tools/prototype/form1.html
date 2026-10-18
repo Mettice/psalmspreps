@@ -2168,6 +2168,169 @@ const frFeminine = (i) => NOUNS[i][1] === "f";
 
 return { frNounCount, frNoun, frPlural, frGender, frVowel, frDef, frIndef, frDefArticle, frIndefArticle, frPoss, frPossWord, frOwner, FR_PRONOUNS, frPronoun, frForm, frConj, frWrongEnding, frNumber, frNumber1990, FR_VOWELS, frIsVowel, frLetter, frAlphaRank, frStartsH, frNumberNoEt, frNumberSpaces, frEnding, frPossWrongVowel, frFeminine };
 })();
+__mods["lib/science2.js"] = (() => {
+// Vetted functions for Form 2 Physics, Chemistry and Biology (Term 1): data and graphs, speed; atomic structure,
+// electron shells, valency and chemical formulae, the periodic table; drawings of a flower and a bean seed.
+// Used with maths.js, english.js, physics.js, chemistry.js and biology.js (bioArrangement for lettered parts).
+// Tables marked "authored" are facts a teacher must check (docs/teacher-review.md, TR-Q, TR-J, TR-V).
+const { fmt } = __mods["lib/maths.js"];
+const { nameOf, ELEMENTS } = __mods["lib/chemistry.js"];
+const { bioArrangement } = __mods["lib/biology.js"];
+// ---------------------------------------------------------------- data
+const mean = (xs) => Number((xs.reduce((a, b) => a + b, 0) / xs.length).toFixed(2));
+const spread = (xs) => Math.max(...xs) - Math.min(...xs);
+/** A list of readings as text: "12, 15, 11". */
+const readings = (xs) => xs.map(fmt).join(", ");
+
+// ---------------------------------------------------------------- speed
+const kmhToMs = (v) => Number((v / 3.6).toFixed(2));
+const msToKmh = (v) => Number((v * 3.6).toFixed(2));
+
+// ---------------------------------------------------------------- atoms (authored: mass number of the most common atom)
+const MASS = { H: 1, He: 4, Li: 7, Be: 9, B: 11, C: 12, N: 14, O: 16, F: 19, Ne: 20, Na: 23, Mg: 24, Al: 27, Si: 28, P: 31, S: 32,
+  Cl: 35, Ar: 40, K: 39, Ca: 40 };
+const Z = Object.fromEntries(ELEMENTS.map((e) => [e.symbol, e.z]));
+const atomicNumber = (s) => Z[s];
+const massNumber = (s) => { if (!MASS[s]) throw new RangeError(`no mass number for ${s}`); return MASS[s]; };
+const neutrons = (s) => massNumber(s) - Z[s];
+/** The first 20 elements' symbols, in order (for templates that pick one). */
+const firstTwenty = () => ELEMENTS.filter((e) => e.z <= 20).map((e) => e.symbol);
+/** Electrons in each shell, 2, 8, 8, 2 (the Form 2 rule, for atomic numbers 1 to 20). */
+function shellList(z) {
+  if (!Number.isInteger(z) || z < 1 || z > 20) throw new RangeError(`shells: atomic number ${z} is outside 1-20`);
+  const out = [];
+  let left = z;
+  for (const cap of [2, 8, 8, 2]) { if (left <= 0) break; const n = Math.min(cap, left); out.push(n); left -= n; }
+  return out;
+}
+const shells = (z) => shellList(z).join(", ");
+const outerElectrons = (z) => { const s = shellList(z); return s[s.length - 1]; };
+/** Group 1 to 8 (8 = the noble gases, also called group 0); helium is in group 8. Period = number of shells. */
+const groupOf = (z) => (z === 2 ? 8 : outerElectrons(z));
+const periodOf = (z) => shellList(z).length;
+const FAMILY = { 1: "alkali metals", 2: "alkaline earth metals", 7: "halogens", 8: "noble gases" };
+const familyOf = (z) => FAMILY[groupOf(z)] || "none of these families";
+
+// ---------------------------------------------------------------- valency and formulae (authored, TR-J)
+// Positive parts (metals, hydrogen, ammonium) and negative parts (non-metals, radicals), each with its valency.
+const POS = { H: [1, "hydrogen"], Li: [1, "lithium"], Na: [1, "sodium"], K: [1, "potassium"], Ag: [1, "silver"], NH4: [1, "ammonium"],
+  Mg: [2, "magnesium"], Ca: [2, "calcium"], Zn: [2, "zinc"], Cu: [2, "copper"], Al: [3, "aluminium"] };
+const NEG = { F: [1, "fluoride"], Cl: [1, "chloride"], I: [1, "iodide"], OH: [1, "hydroxide"], NO3: [1, "nitrate"], HCO3: [1, "hydrogencarbonate"],
+  O: [2, "oxide"], S: [2, "sulfide"], SO4: [2, "sulfate"], CO3: [2, "carbonate"], N: [3, "nitride"], PO4: [3, "phosphate"] };
+const RADICAL = new Set(["NH4", "OH", "NO3", "HCO3", "SO4", "CO3", "PO4"]);
+const valency = (x) => { const v = (POS[x] || NEG[x]); if (!v) throw new RangeError(`no valency for ${x}`); return v[0]; };
+const isRadical = (x) => RADICAL.has(x);
+const partName = (x) => { const v = (POS[x] || NEG[x]); if (!v) throw new RangeError(`unknown part ${x}`); return v[1]; };
+const positives = () => Object.keys(POS);
+const negatives = () => Object.keys(NEG);
+const radicals = () => [...RADICAL];
+const gcd = (a, b) => (b ? gcd(b, a % b) : a);
+const part = (x, n) => (n === 1 ? x : RADICAL.has(x) ? `(${x})${n}` : `${x}${n}`);
+/** The formula from the valencies (swap and simplify): compoundFormula("Al", "SO4") → "Al2(SO4)3". Plain digits; show with formula(). */
+function compoundFormula(p, n) {
+  const a = valency(p), b = valency(n), g = gcd(a, b);
+  return part(p, b / g) + part(n, a / g);
+}
+/** The swapped numbers before simplifying, as a pupil writes them first: Mg O → Mg2O2. */
+const unsimplified = (p, n) => part(p, valency(n)) + part(n, valency(p));
+const needsSimplifying = (p, n) => gcd(valency(p), valency(n)) > 1;
+/** The compound's name: compoundName("Na", "Cl") → "sodium chloride". */
+const compoundName = (p, n) => `${partName(p)} ${partName(n)}`;
+/** The element names of a compound's parts, for explanations: elementOf("Cl") → "chlorine". */
+const elementOf = (x) => nameOf(x);
+
+// ---------------------------------------------------------------- SVG
+const r1 = (x) => Math.round(x * 10) / 10;
+const svg = (w, h, label, body) =>
+  `<svg class="fig" viewBox="0 0 ${w} ${h}" role="img" aria-label="${label}" xmlns="http://www.w3.org/2000/svg" ` +
+  `font-family="system-ui, sans-serif" font-size="11" fill="none" stroke="currentColor" stroke-width="1">${body}</svg>`;
+const line = (x1, y1, x2, y2, extra = "") => `<line x1="${r1(x1)}" y1="${r1(y1)}" x2="${r1(x2)}" y2="${r1(y2)}"${extra}/>`;
+const text = (x, y, s, extra = "") =>
+  `<text x="${r1(x)}" y="${r1(y)}" fill="currentColor" stroke="none"${/text-anchor/.test(extra) ? "" : ` text-anchor="middle"`}${extra}>${s}</text>`;
+const dot = (x, y, r = 3.5) => `<circle cx="${r1(x)}" cy="${r1(y)}" r="${r}" fill="currentColor"/>`;
+const tag = (x, y, s) => `<circle cx="${r1(x)}" cy="${r1(y)}" r="10" style="fill: var(--card, #fff)"/>` + text(x, y + 4, s, ` font-weight="bold"`);
+const pointer = (px, py, tx, ty, s) => line(px, py, tx, ty, ` stroke-opacity="0.6"`) + `<circle cx="${r1(px)}" cy="${r1(py)}" r="2" fill="currentColor"/>` + tag(tx, ty, s);
+
+/** A line graph of readings: xs and ys are lists of the same length (ys ≥ 0); axes start at 0 with labelled ticks. */
+function lineGraph(xs, ys, xName, yName) {
+  if (xs.length !== ys.length || xs.length < 2) throw new RangeError("lineGraph: needs two lists of the same length");
+  const W = 250, H = 160, x0 = 46, y0 = 14, xMax = Math.max(...xs), yMax = Math.max(...ys);
+  const niceY = [5, 10, 20, 25, 50, 100, 200, 500].find((s) => s * 5 >= yMax) || yMax / 5;
+  const top = niceY * 5;
+  const X = (x) => x0 + (x / xMax) * W, Y = (y) => y0 + H - (y / top) * H;
+  let b = line(x0, y0, x0, y0 + H, ` stroke-width="1.5"`) + line(x0, y0 + H, x0 + W + 8, y0 + H, ` stroke-width="1.5"`);
+  for (let i = 0; i <= 5; i++) b += line(x0 - 4, Y(i * niceY), x0 + W, Y(i * niceY), ` stroke-opacity="${i ? 0.2 : 1}"`) + text(x0 - 7, Y(i * niceY) + 4, fmt(i * niceY), ` font-size="10" text-anchor="end"`);
+  for (const x of xs) b += line(X(x), y0 + H, X(x), y0 + H + 4) + text(X(x), y0 + H + 16, fmt(x), ` font-size="10"`);
+  b += `<polyline points="${xs.map((x, i) => `${r1(X(x))},${r1(Y(ys[i]))}`).join(" ")}" stroke-width="2"/>` + xs.map((x, i) => dot(X(x), Y(ys[i]))).join("");
+  b += text(x0 + W / 2, y0 + H + 32, xName, ` font-size="11"`) + text(12, y0 + H / 2, yName, ` font-size="11" transform="rotate(-90 12 ${r1(y0 + H / 2)})"`);
+  return svg(x0 + W + 20, y0 + H + 40, "A line graph of measured values", b);
+}
+
+/** A bar chart: labels and values (≥ 0). */
+function barChart(labels, values, yName) {
+  const n = labels.length, W = 260, H = 150, x0 = 46, y0 = 12, vMax = Math.max(...values);
+  const step = [1, 2, 5, 10, 20, 25, 50, 100, 200, 500].find((s) => s * 5 >= vMax) || vMax / 5, top = step * 5;
+  const bw = W / n, Y = (v) => y0 + H - (v / top) * H;
+  let b = line(x0, y0, x0, y0 + H, ` stroke-width="1.5"`) + line(x0, y0 + H, x0 + W, y0 + H, ` stroke-width="1.5"`);
+  for (let i = 0; i <= 5; i++) b += line(x0 - 4, Y(i * step), x0 + W, Y(i * step), ` stroke-opacity="${i ? 0.2 : 1}"`) + text(x0 - 7, Y(i * step) + 4, fmt(i * step), ` font-size="10" text-anchor="end"`);
+  labels.forEach((l, i) => {
+    b += `<rect x="${r1(x0 + i * bw + bw * 0.2)}" y="${r1(Y(values[i]))}" width="${r1(bw * 0.6)}" height="${r1(y0 + H - Y(values[i]))}" style="fill: var(--fig-liquid, #6aa9e9)" stroke="currentColor"/>`;
+    b += text(x0 + i * bw + bw / 2, y0 + H + 15, l, ` font-size="10"`);
+  });
+  b += text(12, y0 + H / 2, yName, ` font-size="11" transform="rotate(-90 12 ${r1(y0 + H / 2)})"`);
+  return svg(x0 + W + 12, y0 + H + 24, "A bar chart of measured values", b);
+}
+
+/** Bohr model of an atom (atomic number 1 to 20): the nucleus, then each shell with its electrons as dots. */
+function bohr(z) {
+  const s = shellList(z), cx = 130, cy = 130;
+  let b = `<circle cx="${cx}" cy="${cy}" r="18" style="fill: #f3c38b" stroke="currentColor"/>` + text(cx, cy + 4, "nucleus", ` font-size="8"`);
+  s.forEach((n, i) => {
+    const r = 34 + i * 26;
+    b += `<circle cx="${cx}" cy="${cy}" r="${r}" stroke-opacity="0.6"/>`;
+    for (let k = 0; k < n; k++) { const a = (2 * Math.PI * k) / n - Math.PI / 2; b += dot(cx + r * Math.cos(a), cy + r * Math.sin(a), 3.5); }
+  });
+  return svg(260, 260, "An atom drawn with its electron shells", b);
+}
+
+// A flower cut in half, eight lettered parts (authored names, TR-V).
+const FLOWER_PARTS = ["petal", "sepal", "anther", "filament", "stigma", "style", "ovary", "receptacle"];
+const flowerPart = (i) => FLOWER_PARTS[i];
+function flower(k) {
+  const L = bioArrangement(k, 8);
+  let b = `<path d="M160 250 v-70" stroke-width="5" style="stroke: #5b8c3a"/>`;                                                      // stalk
+  b += `<path d="M126 186 q34 -26 68 0 q-10 14 -34 14 q-24 0 -34 -14 z" style="fill: #9ccc65" stroke="currentColor"/>`;              // receptacle
+  b += `<path d="M126 186 q-34 -2 -48 -24 q30 -8 56 12 z" style="fill: #7cb342" stroke="currentColor"/>` +
+    `<path d="M194 186 q34 -2 48 -24 q-30 -8 -56 12 z" style="fill: #7cb342" stroke="currentColor"/>`;                               // sepals
+  b += `<path d="M132 176 q-60 -40 -52 -110 q46 24 64 96 z" style="fill: #f48fb1" stroke="currentColor"/>` +
+    `<path d="M188 176 q60 -40 52 -110 q-46 24 -64 96 z" style="fill: #f48fb1" stroke="currentColor"/>`;                              // petals
+  b += `<path d="M148 182 q-6 -20 4 -34 q8 -6 16 0 q10 14 4 34 z" style="fill: #ffe082" stroke="currentColor"/>`;                   // ovary
+  b += line(160, 148, 160, 78, ` stroke-width="3"`) + `<ellipse cx="160" cy="72" rx="12" ry="6" style="fill: #c5e1a5" stroke="currentColor"/>`; // style + stigma
+  for (const [x1, y1, x2, y2] of [[146, 176, 126, 104], [174, 176, 194, 104]]) {
+    b += line(x1, y1, x2, y2, ` stroke-width="1.5"`) + `<ellipse cx="${x2}" cy="${y2 - 6}" rx="6" ry="10" style="fill: #ffb300" stroke="currentColor"/>`; // stamens
+  }
+  b += pointer(96, 100, 40, 70, L[0]) + pointer(84, 166, 36, 196, L[1]) + pointer(126, 92, 96, 30, L[2]) + pointer(134, 130, 60, 130, L[3]) +
+    pointer(168, 72, 230, 30, L[4]) + pointer(160, 110, 280, 100, L[5]) + pointer(166, 166, 284, 150, L[6]) + pointer(178, 196, 270, 222, L[7]);
+  return svg(320, 260, "A flower cut in half, with lettered parts", b);
+}
+
+// A bean seed opened, six lettered parts (authored names, TR-V).
+const SEED_PARTS = ["testa", "hilum", "micropyle", "cotyledon", "plumule", "radicle"];
+const seedPart = (i) => SEED_PARTS[i];
+function beanSeed(k) {
+  const L = bioArrangement(k, 6);
+  let b = `<path d="M70 120 q0 -70 90 -74 q90 -2 96 74 q4 66 -96 70 q-92 2 -90 -70 z" style="fill: #e8c9a1" stroke="currentColor" stroke-width="3"/>`; // testa
+  b += `<path d="M84 120 q2 -58 78 -62 q78 0 82 62 q2 54 -82 58 q-80 2 -78 -58 z" style="fill: #f6e7c8" stroke="currentColor"/>`;                 // cotyledon
+  b += `<ellipse cx="160" cy="44" rx="16" ry="5" style="fill: #6d4c41" stroke="currentColor"/>`;                                               // hilum
+  b += `<circle cx="186" cy="48" r="2.5" fill="currentColor"/>`;                                                                                 // micropyle
+  b += `<path d="M150 64 q-4 30 6 50" stroke-width="5" style="stroke: #c0a46c"/>` + `<path d="M156 112 q10 -6 18 -2 q-6 8 -18 6 z" style="fill: #9ccc65" stroke="currentColor"/>`; // radicle + plumule
+  b += pointer(70, 150, 30, 180, L[0]) + pointer(150, 42, 110, 18, L[1]) + pointer(186, 48, 236, 20, L[2]) + pointer(210, 140, 280, 160, L[3]) +
+    pointer(170, 110, 280, 100, L[4]) + pointer(150, 76, 40, 80, L[5]);
+  return svg(310, 210, "A bean seed opened, with lettered parts", b);
+}
+
+return { mean, spread, readings, kmhToMs, msToKmh, atomicNumber, massNumber, neutrons, firstTwenty, shellList, shells, outerElectrons, groupOf, periodOf, familyOf, valency, isRadical, partName, positives, negatives, radicals, compoundFormula, unsimplified, needsSimplifying, compoundName, elementOf, lineGraph, barChart, bohr, FLOWER_PARTS, flowerPart, flower, SEED_PARTS, seedPart, beanSeed };
+})();
 __mods["template.js"] = (() => {
 // Turns a JSON question template + a seed into a concrete question, and checks responses.
 // Correctness is always decided here, by code: the answer is computed from the template's
@@ -2830,6 +2993,7 @@ return { buildReadiness, scoreReadiness };
 })();
 const ENGINE = { libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     "f2-maths": { ...__mods["lib/maths.js"], ...__mods["lib/maths2.js"] }, "f2-english": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
+    "f2-physics": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-chemistry": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-biology": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] },
     physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },
     chemistry: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"] },
     geography: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"] },
@@ -2847,7 +3011,7 @@ const CLASSES = {"form-1":"Form One","form-2":"Form Two"};
 const CLASS_OF = {"maths":"form-1","english":"form-1","physics":"form-1","chemistry":"form-1","geography":"form-1","home-economics":"form-1","history":"form-1","biology":"form-1","computer-science":"form-1","french":"form-1"};
 const PAPER = {"maths":[],"english":[9,16],"physics":[],"chemistry":[],"geography":[],"home-economics":[],"history":[],"biology":[],"computer-science":[],"french":[]};
 const MODE = "single";
-const BUILD = "2026-10-17";
+const BUILD = "2026-10-18";
 // Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
 // practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.

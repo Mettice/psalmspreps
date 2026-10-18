@@ -1,0 +1,325 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "p2-6",
+   "name": "Calculating distance, time and speed"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The formula v = d/t links speed (v), distance (d) and time (t).\n• Speed: v = d ÷ t.\n• Distance: d = v × t.\n• Time: t = d ÷ v.\nA triangle helps: d on top, v and t at the bottom. Cover the one you want.\nUse matching units: m and s give m/s; km and h give km/h. Convert first if they do not match (for example minutes to hours).\nExample: a bus at 60 km/h for 3 h travels 60 × 3 = 180 km. To travel 150 km at 50 km/h takes 150 ÷ 50 = 3 h.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": 60,
+   "t": 30,
+   "sixty": 60
+  },
+  "problem": "A taxi travels at {v} km/h for {t} minutes. How far does it go?",
+  "steps": [
+   "Units must match: {t} minutes = {t} ÷ {sixty} = {t / sixty} h.",
+   "d = v × t = {v} × {t / sixty} = {v * t / sixty} km."
+  ],
+  "answer": "{v * t / sixty} km",
+  "checks": [
+   "v * t / sixty == 30"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Distance = speed × time.",
+    "vars": {
+     "v": 8,
+     "t": 15
+    },
+    "example": [
+     "{v} m/s for {t} s: {v} × {t} = {v * t} m."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-6-distance"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "Time = distance ÷ speed.",
+    "vars": {
+     "d": 150,
+     "v": 50
+    },
+    "example": [
+     "{d} km at {v} km/h: {d} ÷ {v} = {d / v} h."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-6-time"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Make the units match before you calculate: change minutes to hours, or km to m.",
+    "vars": {
+     "m": 30,
+     "sixty": 60,
+     "k": 2
+    },
+    "example": [
+     "{m} minutes = {m / sixty} h.",
+     "{k} km = {convertUnit(k, 'km', 'm')} m."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-6-units-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "speed"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        30,
+        40,
+        60,
+        90,
+        120
+       ]
+      },
+      "m": {
+       "pick": [
+        15,
+        20,
+        30,
+        45
+       ]
+      },
+      "sixty": 60
+     },
+     "prompt": "A motorbike travels at {v} km/h for {m} minutes. How many kilometres does it travel?",
+     "answer": "v * m / 60",
+     "misconceptions": [
+      {
+       "id": "no-convert",
+       "wrong": "v * m",
+       "explain": "Change the minutes to hours first."
+      }
+     ],
+     "solution": [
+      "Change minutes to hours: {m} min = {m / sixty} h.",
+      "d = {v} × {m / sixty} = {answer} km."
+     ],
+     "where": [
+      "isInt(v * m / 60)"
+     ],
+     "unit": "km"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-6-distance",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      5,
+      30
+     ]
+    },
+    "t": {
+     "int": [
+      10,
+      60
+     ]
+    }
+   },
+   "prompt": "A train moves at {v} m/s for {t} s. How far does it travel?",
+   "answer": "v * t",
+   "misconceptions": [
+    {
+     "id": "divide",
+     "wrong": "v / t",
+     "explain": "Distance = speed × time: multiply."
+    }
+   ],
+   "solution": [
+    "d = v × t.",
+    "{v} × {t} = {answer} m."
+   ],
+   "unit": "m"
+  },
+  {
+   "id": "p2-6-time",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      40,
+      50,
+      60,
+      80
+     ]
+    },
+    "t": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "d": {
+     "expr": "v * t"
+    }
+   },
+   "prompt": "A bus travels {d} km at {v} km/h. How many hours does the journey take?",
+   "answer": "d / v",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "d * v",
+     "explain": "Time = distance ÷ speed."
+    }
+   ],
+   "solution": [
+    "t = d ÷ v.",
+    "{d} ÷ {v} = {answer} h."
+   ],
+   "unit": "h"
+  },
+  {
+   "id": "p2-6-units",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      30,
+      40,
+      60,
+      90,
+      120
+     ]
+    },
+    "m": {
+     "pick": [
+      15,
+      20,
+      30,
+      45
+     ]
+    },
+    "sixty": 60
+   },
+   "prompt": "A motorbike travels at {v} km/h for {m} minutes. How many kilometres does it travel?",
+   "answer": "v * m / 60",
+   "misconceptions": [
+    {
+     "id": "no-convert",
+     "wrong": "v * m",
+     "explain": "Change the minutes to hours first."
+    }
+   ],
+   "solution": [
+    "Change minutes to hours: {m} min = {m / sixty} h.",
+    "d = {v} × {m / sixty} = {answer} km."
+   ],
+   "where": [
+    "isInt(v * m / 60)"
+   ],
+   "unit": "km"
+  },
+  {
+   "id": "p2-6-trip",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "speed"
+   ],
+   "vars": {
+    "t1": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "t2": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "v1": {
+     "pick": [
+      40,
+      50,
+      60,
+      80
+     ]
+    },
+    "v2": {
+     "pick": [
+      40,
+      60,
+      70,
+      80
+     ]
+    },
+    "d1": {
+     "expr": "v1 * t1"
+    },
+    "d2": {
+     "expr": "v2 * t2"
+    }
+   },
+   "prompt": "Mrs Fon drives {d1} km in {t1} h, then {d2} km in {t2} h. What is her average speed for the whole trip?",
+   "answer": "(d1 + d2) / (t1 + t2)",
+   "misconceptions": [
+    {
+     "id": "mean-speeds",
+     "wrong": "(v1 + v2) / 2",
+     "explain": "Do not average the two speeds: divide the total distance by the total time.",
+     "when": "(v1 + v2) / 2 != (d1 + d2) / (t1 + t2)"
+    }
+   ],
+   "solution": [
+    "Total distance: {d1} + {d2} = {d1 + d2} km. Total time: {t1} + {t2} = {t1 + t2} h.",
+    "Average speed = {d1 + d2} ÷ {t1 + t2} = {answer} km/h."
+   ],
+   "where": [
+    "isInt((d1 + d2) / (t1 + t2))",
+    "v1 != v2"
+   ],
+   "unit": "km/h"
+  }
+ ]
+}

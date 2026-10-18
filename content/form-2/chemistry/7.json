@@ -1,0 +1,416 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "k2-7",
+   "name": "Names and formulae of radicals"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A radical is a group of atoms that stays together and acts like one unit in many compounds. It carries a charge.\nCommon radicals:\n• hydroxide OH (−1)   • nitrate NO₃ (−1)   • hydrogencarbonate HCO₃ (−1)\n• sulfate SO₄ (−2)   • carbonate CO₃ (−2)\n• phosphate PO₄ (−3)\n• ammonium NH₄ (+1), the only common positive radical.\nNames ending in -ate contain oxygen. When a compound has more than one radical, put the radical in brackets: Ca(OH)₂, Al₂(SO₄)₃.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "SO4",
+   "four": 4
+  },
+  "problem": "How many atoms of each element are in one {partName(r)} radical, {formula(r)}?",
+  "steps": [
+   "{formula(r)}: S has no number after it, so one sulfur atom.",
+   "O has the small number {four}: four oxygen atoms."
+  ],
+  "answer": "One sulfur atom and four oxygen atoms.",
+  "checks": [
+   "atomCount(r, 'O') == four"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "A radical is a group of atoms that acts as one unit.",
+    "vars": {
+     "r": "OH",
+     "t": "CO3"
+    },
+    "example": [
+     "{partName(r)}: {formula(r)}",
+     "{partName(t)}: {formula(t)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-7-match"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "Each radical has a charge, which is its valency.",
+    "vars": {
+     "r": "NO3",
+     "t": "PO4"
+    },
+    "example": [
+     "{partName(r)} {formula(r)}: valency {valency(r)}",
+     "{partName(t)} {formula(t)}: valency {valency(t)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-7-valency"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Names ending in -ate contain oxygen. Ammonium is the positive radical.",
+    "vars": {},
+    "example": [
+     "nitrate {formula('NO3')}, sulfate {formula('SO4')}",
+     "ammonium {formula('NH4')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-7-ate-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "symbols-valency"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which radical is positive?",
+         "r": "ammonium, NH₄",
+         "w": [
+          "nitrate, NO₃",
+          "sulfate, SO₄",
+          "hydroxide, OH"
+         ],
+         "e": [
+          "Nitrate is negative.",
+          "Sulfate is negative.",
+          "Hydroxide is negative."
+         ],
+         "y": "Ammonium is the common positive radical."
+        },
+        {
+         "q": "What do the radicals sulfate, nitrate and carbonate all contain?",
+         "r": "oxygen",
+         "w": [
+          "hydrogen",
+          "chlorine",
+          "sodium"
+         ],
+         "e": [
+          "They have no hydrogen.",
+          "They have no chlorine.",
+          "They have no sodium."
+         ],
+         "y": "Names ending in -ate contain oxygen."
+        },
+        {
+         "q": "Which formula needs brackets?",
+         "r": "Ca(OH)₂",
+         "w": [
+          "NaOH",
+          "KNO₃",
+          "CaCO₃"
+         ],
+         "e": [
+          "One hydroxide: no brackets.",
+          "One nitrate: no brackets.",
+          "One carbonate: no brackets."
+         ],
+         "y": "Two hydroxide radicals: (OH)₂."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-7-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "symbols-valency"
+   ],
+   "prompt": "Match each radical to its formula.",
+   "pool": [
+    {
+     "left": "hydroxide",
+     "right": "OH"
+    },
+    {
+     "left": "nitrate",
+     "right": "NO₃"
+    },
+    {
+     "left": "sulfate",
+     "right": "SO₄"
+    },
+    {
+     "left": "carbonate",
+     "right": "CO₃"
+    },
+    {
+     "left": "phosphate",
+     "right": "PO₄"
+    },
+    {
+     "left": "ammonium",
+     "right": "NH₄"
+    },
+    {
+     "left": "hydrogencarbonate",
+     "right": "HCO₃"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "k2-7-valency",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      "OH",
+      "NO3",
+      "HCO3",
+      "SO4",
+      "CO3",
+      "PO4",
+      "NH4"
+     ]
+    }
+   },
+   "prompt": "What is the valency of the {partName(r)} radical, {formula(r)}?",
+   "answer": "valency(r)",
+   "misconceptions": [
+    {
+     "id": "atoms",
+     "wrong": "totalAtoms(r)",
+     "explain": "Valency is the combining power, not the number of atoms.",
+     "when": "totalAtoms(r) != valency(r)"
+    }
+   ],
+   "solution": [
+    "The {partName(r)} radical has a charge of {valency(r)}.",
+    "So its valency is {answer}."
+   ]
+  },
+  {
+   "id": "k2-7-ate",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which radical is positive?",
+       "r": "ammonium, NH₄",
+       "w": [
+        "nitrate, NO₃",
+        "sulfate, SO₄",
+        "hydroxide, OH"
+       ],
+       "e": [
+        "Nitrate is negative.",
+        "Sulfate is negative.",
+        "Hydroxide is negative."
+       ],
+       "y": "Ammonium is the common positive radical."
+      },
+      {
+       "q": "What do the radicals sulfate, nitrate and carbonate all contain?",
+       "r": "oxygen",
+       "w": [
+        "hydrogen",
+        "chlorine",
+        "sodium"
+       ],
+       "e": [
+        "They have no hydrogen.",
+        "They have no chlorine.",
+        "They have no sodium."
+       ],
+       "y": "Names ending in -ate contain oxygen."
+      },
+      {
+       "q": "Which formula needs brackets?",
+       "r": "Ca(OH)₂",
+       "w": [
+        "NaOH",
+        "KNO₃",
+        "CaCO₃"
+       ],
+       "e": [
+        "One hydroxide: no brackets.",
+        "One nitrate: no brackets.",
+        "One carbonate: no brackets."
+       ],
+       "y": "Two hydroxide radicals: (OH)₂."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "symbols-valency"
+   ],
+   "prompt": "One radical is written with the wrong formula. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "hydroxide: OH",
+      "truth": "true"
+     },
+     {
+      "text": "nitrate: NO₃",
+      "truth": "true"
+     },
+     {
+      "text": "sulfate: SO₄",
+      "truth": "true"
+     },
+     {
+      "text": "carbonate: CO₃",
+      "truth": "true"
+     },
+     {
+      "text": "ammonium: NH₄",
+      "truth": "true"
+     },
+     {
+      "text": "phosphate: PO₄",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "sulfate: SO₃",
+      "truth": "false",
+      "explain": "Sulfate is SO₄."
+     },
+     {
+      "text": "nitrate: NO₄",
+      "truth": "false",
+      "explain": "Nitrate is NO₃."
+     },
+     {
+      "text": "carbonate: CO₄",
+      "truth": "false",
+      "explain": "Carbonate is CO₃."
+     },
+     {
+      "text": "ammonium: NH₃",
+      "truth": "false",
+      "explain": "NH₃ is ammonia; the ammonium radical is NH₄."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

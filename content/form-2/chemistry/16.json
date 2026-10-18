@@ -1,0 +1,405 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "k2-16",
+   "name": "Families of elements: properties"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Alkali metals (group 1): soft enough to cut with a knife, shiny when freshly cut, low density (lithium, sodium and potassium float on water). They react with water, giving hydrogen gas and an alkaline solution (sodium + water → sodium hydroxide + hydrogen). They are kept under oil.\nAlkaline earth metals (group 2): harder and less reactive than group 1; calcium reacts slowly with water; magnesium burns with a bright white flame.\nHalogens (group 7): coloured non-metals, poisonous, made of two-atom molecules (Cl₂). Chlorine is a green-yellow gas used to kill germs in water; iodine is a dark solid used as an antiseptic.\nNoble gases (group 8): colourless and very unreactive. Uses: helium in balloons, neon in advertising signs, argon in light bulbs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "sodium"
+  },
+  "problem": "Why is {m} kept under oil, and what happens when a small piece is put in water?",
+  "steps": [
+   "Sodium reacts quickly with air and water, so it is kept under oil.",
+   "In water it floats, moves about, fizzes and gives hydrogen gas; the water becomes alkaline (sodium hydroxide)."
+  ],
+  "answer": "It reacts with air and water; in water it gives hydrogen and sodium hydroxide.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "Alkali metals are soft, light and react with water to give hydrogen and an alkali.",
+    "vars": {},
+    "example": [
+     "They are stored under oil.",
+     "Sodium + water → sodium hydroxide + hydrogen."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-16-alkali"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Halogens are coloured, poisonous non-metals made of two-atom molecules.",
+    "vars": {},
+    "example": [
+     "Chlorine, {formula('Cl2')}, is a green-yellow gas.",
+     "Iodine is a dark solid."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-16-halogen"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "Noble gases are very unreactive and are used in balloons, signs and bulbs.",
+    "vars": {},
+    "example": [
+     "Helium fills balloons.",
+     "Neon glows in advertising signs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-16-noble-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "periodic-table"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are noble gases used in light bulbs and signs?",
+         "r": "They are very unreactive.",
+         "w": [
+          "They burn easily.",
+          "They are coloured solids.",
+          "They react with metals."
+         ],
+         "e": [
+          "They do not burn.",
+          "They are colourless gases.",
+          "They hardly react."
+         ],
+         "y": "They do not react with the hot filament."
+        },
+        {
+         "q": "Why is chlorine added to drinking water?",
+         "r": "It kills germs.",
+         "w": [
+          "It adds colour.",
+          "It makes the water sweet.",
+          "It makes the water heavier."
+         ],
+         "e": [
+          "Only a little is added, with no colour.",
+          "It does not sweeten.",
+          "That is not the reason."
+         ],
+         "y": "Chlorine kills germs."
+        },
+        {
+         "q": "Which family reacts with water to give an alkaline solution and hydrogen?",
+         "r": "the alkali metals",
+         "w": [
+          "the noble gases",
+          "the halogens",
+          "the alkaline earth metals only"
+         ],
+         "e": [
+          "They do not react.",
+          "Halogens are non-metals.",
+          "Group 2 reacts more slowly; group 1 is the family named for it."
+         ],
+         "y": "Group 1 metals are named for the alkalis they make."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-16-alkali",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Which statement about the alkali metals is true?",
+   "pool": {
+    "right": [
+     {
+      "text": "They are soft enough to cut with a knife.",
+      "truth": "true"
+     },
+     {
+      "text": "They react with water to give hydrogen.",
+      "truth": "true"
+     },
+     {
+      "text": "They are kept under oil.",
+      "truth": "true"
+     },
+     {
+      "text": "They form alkaline solutions with water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "They are hard and do not react with water.",
+      "truth": "false",
+      "explain": "Alkali metals are soft and react with water."
+     },
+     {
+      "text": "They are kept in water.",
+      "truth": "false",
+      "explain": "They react with water, so they are kept under oil."
+     },
+     {
+      "text": "They are coloured gases.",
+      "truth": "false",
+      "explain": "That describes the halogens."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "k2-16-halogen",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Match each element to a property or use.",
+   "pool": [
+    {
+     "left": "chlorine",
+     "right": "green-yellow gas that kills germs in water"
+    },
+    {
+     "left": "iodine",
+     "right": "dark solid used as an antiseptic"
+    },
+    {
+     "left": "helium",
+     "right": "light gas used to fill balloons"
+    },
+    {
+     "left": "neon",
+     "right": "glows in advertising signs"
+    },
+    {
+     "left": "argon",
+     "right": "fills light bulbs"
+    },
+    {
+     "left": "sodium",
+     "right": "soft metal kept under oil"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "k2-16-noble",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are noble gases used in light bulbs and signs?",
+       "r": "They are very unreactive.",
+       "w": [
+        "They burn easily.",
+        "They are coloured solids.",
+        "They react with metals."
+       ],
+       "e": [
+        "They do not burn.",
+        "They are colourless gases.",
+        "They hardly react."
+       ],
+       "y": "They do not react with the hot filament."
+      },
+      {
+       "q": "Why is chlorine added to drinking water?",
+       "r": "It kills germs.",
+       "w": [
+        "It adds colour.",
+        "It makes the water sweet.",
+        "It makes the water heavier."
+       ],
+       "e": [
+        "Only a little is added, with no colour.",
+        "It does not sweeten.",
+        "That is not the reason."
+       ],
+       "y": "Chlorine kills germs."
+      },
+      {
+       "q": "Which family reacts with water to give an alkaline solution and hydrogen?",
+       "r": "the alkali metals",
+       "w": [
+        "the noble gases",
+        "the halogens",
+        "the alkaline earth metals only"
+       ],
+       "e": [
+        "They do not react.",
+        "Halogens are non-metals.",
+        "Group 2 reacts more slowly; group 1 is the family named for it."
+       ],
+       "y": "Group 1 metals are named for the alkalis they make."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Chlorine is a halogen.",
+      "truth": "true"
+     },
+     {
+      "text": "Neon is used in advertising signs.",
+      "truth": "true"
+     },
+     {
+      "text": "Sodium is kept under oil.",
+      "truth": "true"
+     },
+     {
+      "text": "Halogen molecules have two atoms.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Noble gases react violently with water.",
+      "truth": "false",
+      "explain": "Noble gases are very unreactive."
+     },
+     {
+      "text": "Iodine is a green-yellow gas.",
+      "truth": "false",
+      "explain": "Chlorine is green-yellow; iodine is a dark solid."
+     },
+     {
+      "text": "Alkali metals are too hard to cut.",
+      "truth": "false",
+      "explain": "They are soft enough to cut with a knife."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

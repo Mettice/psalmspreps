@@ -1,0 +1,426 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "b2-15",
+   "name": "Seed and fruit dispersal"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dispersal is the spreading of seeds and fruits away from the parent plant.\nWhy it matters: it prevents overcrowding and competition for light, water and minerals; it lets plants colonise new places; it lowers the spread of disease between parent and young.\nAgents of dispersal:\n• wind: light seeds, hairs, wings (kapok, Combretum, orchids);\n• water: fruits that float, with fibrous or waterproof coats (coconut, raffia);\n• animals: fleshy, tasty fruits eaten and the seeds dropped or passed out (mango, guava, pawpaw), or hooks that stick to fur and clothes (Bidens, Desmodium);\n• self (explosive): pods that dry, split and throw the seeds (beans, pea, castor).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "a mango"
+  },
+  "problem": "How is the seed of {f} dispersed, and why is this useful?",
+  "steps": [
+   "Mango is a fleshy, sweet fruit: animals and people eat it and drop the stone far from the tree.",
+   "The new tree then grows away from the parent, without competing with it for light, water and minerals."
+  ],
+  "answer": "By animals (and people); it avoids overcrowding and competition.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "Dispersal spreads seeds away from the parent plant.",
+    "vars": {},
+    "example": [
+     "Seeds that fall under the parent compete with it.",
+     "Dispersed seeds can colonise new places."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-15-why"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "The agents of dispersal are wind, water, animals and the plant itself.",
+    "vars": {},
+    "example": [
+     "Kapok: wind. Coconut: water.",
+     "Mango: animals. Bean pods: self."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-15-agent"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Fleshy fruits are eaten by animals; hooked fruits stick to fur and clothes.",
+    "vars": {},
+    "example": [
+     "Birds eat guavas and drop the seeds.",
+     "Bidens fruits stick to socks."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-15-animal-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "seeds"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How do hooked fruits like Bidens get dispersed?",
+         "r": "They stick to animal fur and people's clothes.",
+         "w": [
+          "They float on rivers.",
+          "They are blown by wind.",
+          "They explode."
+         ],
+         "e": [
+          "They do not float well.",
+          "They are not winged or hairy.",
+          "They do not burst."
+         ],
+         "y": "Hooks catch on fur and clothes."
+        },
+        {
+         "q": "Why are many fruits fleshy and sweet?",
+         "r": "To attract animals that eat them and carry the seeds away.",
+         "w": [
+          "To protect them from animals.",
+          "To help them float.",
+          "To make them heavier so they stay."
+         ],
+         "e": [
+          "Sweetness attracts animals.",
+          "Flesh does not help floating.",
+          "Dispersal moves seeds away."
+         ],
+         "y": "Animals eat the fruit and drop or pass out the seeds."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-15-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is it useful for seeds to be dispersed?",
+       "r": "It prevents overcrowding and competition with the parent.",
+       "w": [
+        "It makes the seeds bigger.",
+        "It stops the seeds from growing.",
+        "It makes the parent grow faster."
+       ],
+       "e": [
+        "Dispersal does not change size.",
+        "Dispersed seeds can grow.",
+        "That is not the reason."
+       ],
+       "y": "Young plants need space, light, water and minerals."
+      },
+      {
+       "q": "What is dispersal?",
+       "r": "the spreading of seeds and fruits away from the parent",
+       "w": [
+        "the joining of sex cells",
+        "the growth of a seed",
+        "the transfer of pollen"
+       ],
+       "e": [
+        "That is fertilisation.",
+        "That is germination.",
+        "That is pollination."
+       ],
+       "y": "Dispersal carries seeds away."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-15-agent",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Sort the examples by their agent of dispersal.",
+   "pool": [
+    {
+     "left": "kapok fluff",
+     "right": "wind"
+    },
+    {
+     "left": "winged fruits of Combretum",
+     "right": "wind"
+    },
+    {
+     "left": "tiny light orchid seeds",
+     "right": "wind"
+    },
+    {
+     "left": "coconut",
+     "right": "water"
+    },
+    {
+     "left": "raffia palm fruits along rivers",
+     "right": "water"
+    },
+    {
+     "left": "mango eaten by people and animals",
+     "right": "animals"
+    },
+    {
+     "left": "hooked fruits of Bidens sticking to clothes",
+     "right": "animals"
+    },
+    {
+     "left": "guava eaten by birds",
+     "right": "animals"
+    },
+    {
+     "left": "pods of pea or beans that burst open",
+     "right": "self (explosive)"
+    },
+    {
+     "left": "castor fruits that split and throw seeds",
+     "right": "self (explosive)"
+    }
+   ],
+   "pick": 5,
+   "groups": true,
+   "group_order": [
+    "wind",
+    "water",
+    "animals",
+    "self (explosive)"
+   ]
+  },
+  {
+   "id": "b2-15-animal",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How do hooked fruits like Bidens get dispersed?",
+       "r": "They stick to animal fur and people's clothes.",
+       "w": [
+        "They float on rivers.",
+        "They are blown by wind.",
+        "They explode."
+       ],
+       "e": [
+        "They do not float well.",
+        "They are not winged or hairy.",
+        "They do not burst."
+       ],
+       "y": "Hooks catch on fur and clothes."
+      },
+      {
+       "q": "Why are many fruits fleshy and sweet?",
+       "r": "To attract animals that eat them and carry the seeds away.",
+       "w": [
+        "To protect them from animals.",
+        "To help them float.",
+        "To make them heavier so they stay."
+       ],
+       "e": [
+        "Sweetness attracts animals.",
+        "Flesh does not help floating.",
+        "Dispersal moves seeds away."
+       ],
+       "y": "Animals eat the fruit and drop or pass out the seeds."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Kapok seeds are dispersed by wind.",
+      "truth": "true"
+     },
+     {
+      "text": "Coconuts are dispersed by water.",
+      "truth": "true"
+     },
+     {
+      "text": "Birds disperse guava seeds.",
+      "truth": "true"
+     },
+     {
+      "text": "Bean pods burst to throw their seeds.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mango seeds are dispersed by wind.",
+      "truth": "false",
+      "explain": "Mango is fleshy: animals and people disperse it."
+     },
+     {
+      "text": "Dispersal increases overcrowding.",
+      "truth": "false",
+      "explain": "It reduces overcrowding."
+     },
+     {
+      "text": "Coconuts are dispersed by explosion.",
+      "truth": "false",
+      "explain": "Coconuts float: water disperses them."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

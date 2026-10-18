@@ -1,0 +1,405 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "k2-15",
+   "name": "Families of elements: names"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A group of elements with similar properties is called a family. Four families have special names:\n• group 1: the alkali metals (lithium, sodium, potassium …);\n• group 2: the alkaline earth metals (beryllium, magnesium, calcium …);\n• group 7: the halogens (fluorine, chlorine, bromine, iodine);\n• group 8 (or 0): the noble gases (helium, neon, argon, krypton …).\nThe elements of a family have the same number of outer electrons. Hydrogen is in group 1 but is not an alkali metal: it is a non-metal gas.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 19
+  },
+  "problem": "Which family does potassium (atomic number {z}) belong to? Explain.",
+  "steps": [
+   "Arrangement: {shells(z)}: one outer electron, so group {groupOf(z)}.",
+   "Group 1 metals are the alkali metals."
+  ],
+  "answer": "{familyOf(z)}",
+  "checks": [
+   "familyOf(z) == 'alkali metals'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "Group {1}: alkali metals; group {2}: alkaline earth metals.",
+    "vars": {},
+    "example": [
+     "Sodium is an alkali metal.",
+     "Calcium is an alkaline earth metal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-15-family"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Group {7}: halogens; group {8}: noble gases.",
+    "vars": {},
+    "example": [
+     "Chlorine is a halogen.",
+     "Neon is a noble gas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-15-group"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Hydrogen is in group 1 but it is not an alkali metal.",
+    "vars": {},
+    "example": [
+     "Hydrogen is a non-metal gas.",
+     "Alkali metals are soft, shiny metals."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-15-hydrogen-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "periodic-table"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is hydrogen not an alkali metal although it is in group 1?",
+         "r": "It is a non-metal gas.",
+         "w": [
+          "It has two outer electrons.",
+          "It is a liquid.",
+          "It is a noble gas."
+         ],
+         "e": [
+          "It has one electron.",
+          "It is a gas.",
+          "It reacts, unlike noble gases."
+         ],
+         "y": "Hydrogen is a non-metal."
+        },
+        {
+         "q": "What do the members of one family have in common?",
+         "r": "the same number of outer electrons",
+         "w": [
+          "the same mass",
+          "the same number of shells",
+          "the same colour"
+         ],
+         "e": [
+          "Their masses differ.",
+          "That would be a period.",
+          "Colour is not the rule."
+         ],
+         "y": "Same outer electrons, similar reactions."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-15-family",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Sort the elements into their families.",
+   "pool": [
+    {
+     "left": "lithium",
+     "right": "alkali metals"
+    },
+    {
+     "left": "sodium",
+     "right": "alkali metals"
+    },
+    {
+     "left": "potassium",
+     "right": "alkali metals"
+    },
+    {
+     "left": "magnesium",
+     "right": "alkaline earth metals"
+    },
+    {
+     "left": "calcium",
+     "right": "alkaline earth metals"
+    },
+    {
+     "left": "beryllium",
+     "right": "alkaline earth metals"
+    },
+    {
+     "left": "fluorine",
+     "right": "halogens"
+    },
+    {
+     "left": "chlorine",
+     "right": "halogens"
+    },
+    {
+     "left": "iodine",
+     "right": "halogens"
+    },
+    {
+     "left": "helium",
+     "right": "noble gases"
+    },
+    {
+     "left": "neon",
+     "right": "noble gases"
+    },
+    {
+     "left": "argon",
+     "right": "noble gases"
+    }
+   ],
+   "pick": 6,
+   "groups": true,
+   "group_order": [
+    "alkali metals",
+    "alkaline earth metals",
+    "halogens",
+    "noble gases"
+   ]
+  },
+  {
+   "id": "k2-15-group",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "Z": {
+     "pick": [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       12
+      ],
+      [
+       7,
+       17
+      ],
+      [
+       8,
+       10
+      ]
+     ]
+    },
+    "g": {
+     "expr": "Z[0]"
+    },
+    "z": {
+     "expr": "Z[1]"
+    }
+   },
+   "prompt": "Which family is group {g}?",
+   "correct": "{familyOf(z)}",
+   "distractors": [
+    {
+     "text": "alkali metals",
+     "misconception": "w"
+    },
+    {
+     "text": "alkaline earth metals",
+     "misconception": "w"
+    },
+    {
+     "text": "halogens",
+     "misconception": "w"
+    },
+    {
+     "text": "noble gases",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "Group {g} is the {familyOf(z)}."
+    }
+   ],
+   "solution": [
+    "Group {g} is the {answer}."
+   ]
+  },
+  {
+   "id": "k2-15-hydrogen",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is hydrogen not an alkali metal although it is in group 1?",
+       "r": "It is a non-metal gas.",
+       "w": [
+        "It has two outer electrons.",
+        "It is a liquid.",
+        "It is a noble gas."
+       ],
+       "e": [
+        "It has one electron.",
+        "It is a gas.",
+        "It reacts, unlike noble gases."
+       ],
+       "y": "Hydrogen is a non-metal."
+      },
+      {
+       "q": "What do the members of one family have in common?",
+       "r": "the same number of outer electrons",
+       "w": [
+        "the same mass",
+        "the same number of shells",
+        "the same colour"
+       ],
+       "e": [
+        "Their masses differ.",
+        "That would be a period.",
+        "Colour is not the rule."
+       ],
+       "y": "Same outer electrons, similar reactions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-15-outer",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      [
+       "alkali metals",
+       1
+      ],
+      [
+       "alkaline earth metals",
+       2
+      ],
+      [
+       "halogens",
+       7
+      ]
+     ]
+    }
+   },
+   "prompt": "How many outer electrons do the {F[0]} have?",
+   "answer": "F[1]",
+   "solution": [
+    "The {F[0]} are group {F[1]}.",
+    "So they have {answer} outer electrons."
+   ]
+  }
+ ]
+}

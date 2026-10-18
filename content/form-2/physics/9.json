@@ -1,0 +1,448 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "p2-9",
+   "name": "Characteristics of matter in the different states"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Matter is made of tiny particles. The states differ in how the particles are arranged and how they move:\n• Solid: particles packed close in a regular pattern; they only vibrate. A solid has a fixed shape and a fixed volume, and cannot be compressed.\n• Liquid: particles close together but able to slide past one another. A liquid has a fixed volume but takes the shape of its container; it is hardly compressible and it flows.\n• Gas: particles far apart, moving fast in all directions. A gas has no fixed shape and no fixed volume: it fills its container, and it is easy to compress.\nDiffusion (the spreading of a smell through a room) shows that gas particles move.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "cooking gas"
+  },
+  "problem": "Explain why {s} can be squeezed into a small cylinder, but water in a syringe cannot be squeezed.",
+  "steps": [
+   "In a gas the particles are far apart, with a lot of space between them: they can be pushed closer.",
+   "In a liquid the particles already touch: there is almost no space, so it is hardly compressible."
+  ],
+  "answer": "Gas particles are far apart; liquid particles are close together.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "A solid has a fixed shape and volume; a liquid has a fixed volume but no fixed shape; a gas has neither.",
+    "vars": {},
+    "example": [
+     "A stone keeps its shape.",
+     "Water takes the shape of the cup."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-9-props"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Particles: close and vibrating in a solid; close and sliding in a liquid; far apart and fast in a gas.",
+    "vars": {},
+    "example": [
+     "Solid: regular pattern.",
+     "Gas: lots of empty space."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-9-particles"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "Gases are easy to compress; liquids and solids are not.",
+    "vars": {},
+    "example": [
+     "Air in a bicycle pump can be squeezed.",
+     "Water in a closed syringe cannot."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-9-compress-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "matter"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is it easy to pump air into a tyre?",
+         "r": "Gas particles have spaces between them.",
+         "w": [
+          "Air has no particles.",
+          "Air is a liquid.",
+          "Tyres pull air in."
+         ],
+         "e": [
+          "Air is made of particles.",
+          "Air is a gas.",
+          "The pump pushes the air."
+         ],
+         "y": "There is space between gas particles, so gas compresses."
+        },
+        {
+         "q": "The smell of fried plantains reaches the whole house. What does this show?",
+         "r": "Gas particles move and spread out (diffusion).",
+         "w": [
+          "Smells are solids.",
+          "Liquids flow.",
+          "Particles do not move."
+         ],
+         "e": [
+          "Smells are gases.",
+          "This is about a gas.",
+          "It shows they do move."
+         ],
+         "y": "Spreading of a gas is diffusion."
+        },
+        {
+         "q": "Why does a stone keep its shape?",
+         "r": "Its particles are held in fixed places.",
+         "w": [
+          "It is very heavy.",
+          "It is cold.",
+          "Its particles are far apart."
+         ],
+         "e": [
+          "Weight does not fix shape.",
+          "Temperature is not the reason.",
+          "That describes a gas."
+         ],
+         "y": "In a solid the particles stay in a fixed pattern."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-9-props",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "prompt": "Match each description to the state of matter.",
+   "pool": [
+    {
+     "left": "fixed shape and fixed volume",
+     "right": "solid"
+    },
+    {
+     "left": "fixed volume, takes the shape of its container",
+     "right": "liquid"
+    },
+    {
+     "left": "no fixed shape and no fixed volume",
+     "right": "gas"
+    },
+    {
+     "left": "particles only vibrate in fixed places",
+     "right": "solid"
+    },
+    {
+     "left": "particles slide past one another",
+     "right": "liquid"
+    },
+    {
+     "left": "particles far apart, moving fast",
+     "right": "gas"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "p2-9-particles",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which state are the particles furthest apart?",
+       "r": "gas",
+       "w": [
+        "solid",
+        "liquid",
+        "all the same"
+       ],
+       "e": [
+        "Solid particles are packed close.",
+        "Liquid particles are close.",
+        "They differ."
+       ],
+       "y": "Gas particles are far apart."
+      },
+      {
+       "q": "In which state do the particles only vibrate?",
+       "r": "solid",
+       "w": [
+        "liquid",
+        "gas",
+        "none"
+       ],
+       "e": [
+        "Liquid particles slide.",
+        "Gas particles move fast everywhere.",
+        "Solid particles vibrate."
+       ],
+       "y": "Solid particles vibrate in fixed places."
+      },
+      {
+       "q": "Why does a liquid flow?",
+       "r": "Its particles can slide past one another.",
+       "w": [
+        "Its particles are far apart.",
+        "It has no mass.",
+        "Its particles do not move."
+       ],
+       "e": [
+        "That describes a gas.",
+        "Liquids have mass.",
+        "They move."
+       ],
+       "y": "Sliding particles let a liquid flow."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-9-compress",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is it easy to pump air into a tyre?",
+       "r": "Gas particles have spaces between them.",
+       "w": [
+        "Air has no particles.",
+        "Air is a liquid.",
+        "Tyres pull air in."
+       ],
+       "e": [
+        "Air is made of particles.",
+        "Air is a gas.",
+        "The pump pushes the air."
+       ],
+       "y": "There is space between gas particles, so gas compresses."
+      },
+      {
+       "q": "The smell of fried plantains reaches the whole house. What does this show?",
+       "r": "Gas particles move and spread out (diffusion).",
+       "w": [
+        "Smells are solids.",
+        "Liquids flow.",
+        "Particles do not move."
+       ],
+       "e": [
+        "Smells are gases.",
+        "This is about a gas.",
+        "It shows they do move."
+       ],
+       "y": "Spreading of a gas is diffusion."
+      },
+      {
+       "q": "Why does a stone keep its shape?",
+       "r": "Its particles are held in fixed places.",
+       "w": [
+        "It is very heavy.",
+        "It is cold.",
+        "Its particles are far apart."
+       ],
+       "e": [
+        "Weight does not fix shape.",
+        "Temperature is not the reason.",
+        "That describes a gas."
+       ],
+       "y": "In a solid the particles stay in a fixed pattern."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "matter"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A liquid takes the shape of its container.",
+      "truth": "true"
+     },
+     {
+      "text": "A gas fills its container.",
+      "truth": "true"
+     },
+     {
+      "text": "Solid particles vibrate.",
+      "truth": "true"
+     },
+     {
+      "text": "A gas is easy to compress.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A liquid has no fixed volume.",
+      "truth": "false",
+      "explain": "A liquid has a fixed volume; only its shape changes."
+     },
+     {
+      "text": "Solid particles move freely in all directions.",
+      "truth": "false",
+      "explain": "That describes a gas; solid particles only vibrate."
+     },
+     {
+      "text": "A solid is easy to compress.",
+      "truth": "false",
+      "explain": "A solid cannot be compressed: its particles touch."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

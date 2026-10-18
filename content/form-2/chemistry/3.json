@@ -1,0 +1,312 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "k2-3",
+   "name": "The structure of the atom: Bohr's model"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In Bohr's model, electrons move around the nucleus in fixed shells (energy levels).\nFor the first 20 elements, fill the shells in order: the first shell holds up to 2 electrons, the second up to 8, the third up to 8, then the fourth.\nElectron arrangement (configuration): sodium, 11 electrons: 2, 8, 1. Chlorine, 17: 2, 8, 7. Calcium, 20: 2, 8, 8, 2.\nThe electrons in the outer shell decide how an element reacts.\nDraw the model: the nucleus in the middle, a circle for each shell, and dots or crosses for the electrons.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 13
+  },
+  "problem": "Write the electron arrangement of aluminium (atomic number {z}) and draw its Bohr model.",
+  "steps": [
+   "{z} electrons. First shell: {2}. Second shell: {8}. That uses {10}.",
+   "The third shell gets the rest: {z} − {10} = {z - 10}.",
+   "Arrangement: {shells(z)}."
+  ],
+  "answer": "{shells(z)}",
+  "checks": [
+   "shells(z) == '2, 8, 3'"
+  ],
+  "figure": "bohr(z)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "Electrons fill shells in order: up to {2}, then up to {8}, then up to {8}.",
+    "vars": {
+     "a": 11,
+     "b": 17
+    },
+    "example": [
+     "Sodium, {a} electrons: {shells(a)}.",
+     "Chlorine, {b} electrons: {shells(b)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-3-config"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "A Bohr diagram shows the nucleus and each shell with its electrons.",
+    "vars": {
+     "z": 8
+    },
+    "example": [
+     "This is oxygen: {shells(z)}."
+    ],
+    "checks": [],
+    "figure": "bohr(z)",
+    "check": {
+     "ref": "k2-3-draw"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "The outer shell is the last shell; its electrons decide how the element reacts.",
+    "vars": {
+     "z": 12
+    },
+    "example": [
+     "Magnesium {shells(z)}: {outerElectrons(z)} outer electrons."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-3-outer-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "atomic-structure"
+     ],
+     "vars": {
+      "s": {
+       "pick": [
+        "H",
+        "He",
+        "Li",
+        "Be",
+        "B",
+        "C",
+        "N",
+        "O",
+        "F",
+        "Ne",
+        "Na",
+        "Mg",
+        "Al",
+        "Si",
+        "P",
+        "S",
+        "Cl",
+        "Ar",
+        "K",
+        "Ca"
+       ]
+      }
+     },
+     "prompt": "How many electrons are in the outer shell of {nameOf(s)} (atomic number {atomicNumber(s)})?",
+     "answer": "outerElectrons(atomicNumber(s))",
+     "misconceptions": [
+      {
+       "id": "shells",
+       "wrong": "periodOf(atomicNumber(s))",
+       "explain": "That is the number of shells; count the electrons in the last one.",
+       "when": "periodOf(atomicNumber(s)) != outerElectrons(atomicNumber(s))"
+      }
+     ],
+     "solution": [
+      "Arrangement: {shells(atomicNumber(s))}.",
+      "The last number is the outer shell: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-3-config",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "What is the electron arrangement of {nameOf(s)} (atomic number {atomicNumber(s)})?",
+   "correct": "{shells(atomicNumber(s))}",
+   "distractors": [
+    {
+     "text": "{shells(atomicNumber(s) == 20 ? 19 : atomicNumber(s) + 1)}",
+     "misconception": "count"
+    },
+    {
+     "text": "{shells(atomicNumber(s) - 1 > 0 ? atomicNumber(s) - 1 : 2)}",
+     "misconception": "count2"
+    },
+    {
+     "text": "{atomicNumber(s) > 2 ? '1, ' + shells(atomicNumber(s) - 1) : '1, 1'}",
+     "misconception": "first"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "count",
+     "explain": "Count again: {nameOf(s)} has {atomicNumber(s)} electrons."
+    },
+    {
+     "id": "count2",
+     "explain": "Count again: {nameOf(s)} has {atomicNumber(s)} electrons."
+    },
+    {
+     "id": "first",
+     "explain": "The first shell holds 2 electrons when the atom has more than 2."
+    }
+   ],
+   "solution": [
+    "{atomicNumber(s)} electrons: up to {2} in the first shell, up to {8} in the next, then up to {8}.",
+    "So the arrangement is {answer}."
+   ],
+   "where": [
+    "atomicNumber(s) > 2"
+   ]
+  },
+  {
+   "id": "k2-3-draw",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "z": {
+     "int": [
+      3,
+      20
+     ]
+    }
+   },
+   "prompt": "This Bohr model shows an atom. How many electrons does it have?",
+   "answer": "z",
+   "solution": [
+    "Count the dots on every shell: {shells(z)}.",
+    "Total: {answer} electrons."
+   ],
+   "figure": "bohr(z)"
+  },
+  {
+   "id": "k2-3-outer",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "How many electrons are in the outer shell of {nameOf(s)} (atomic number {atomicNumber(s)})?",
+   "answer": "outerElectrons(atomicNumber(s))",
+   "misconceptions": [
+    {
+     "id": "shells",
+     "wrong": "periodOf(atomicNumber(s))",
+     "explain": "That is the number of shells; count the electrons in the last one.",
+     "when": "periodOf(atomicNumber(s)) != outerElectrons(atomicNumber(s))"
+    }
+   ],
+   "solution": [
+    "Arrangement: {shells(atomicNumber(s))}.",
+    "The last number is the outer shell: {answer}."
+   ]
+  },
+  {
+   "id": "k2-3-shells",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "atomic-structure"
+   ],
+   "vars": {
+    "z": {
+     "int": [
+      3,
+      20
+     ]
+    }
+   },
+   "prompt": "An atom has the arrangement {shells(z)}. What is its atomic number?",
+   "answer": "z",
+   "misconceptions": [
+    {
+     "id": "outer",
+     "wrong": "outerElectrons(z)",
+     "explain": "That is only the outer shell; add all the shells."
+    }
+   ],
+   "solution": [
+    "Add the electrons in every shell.",
+    "The total is {answer}, and protons = electrons."
+   ]
+  }
+ ]
+}

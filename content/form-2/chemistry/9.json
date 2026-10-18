@@ -1,0 +1,295 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  6,
+  7
+ ],
+ "skills": [
+  {
+   "id": "k2-9",
+   "name": "Chemical symbols and formulae"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A chemical formula shows which elements are in a substance and how many atoms of each are in one unit of it.\n• The small number after a symbol counts the atoms of that element: H₂O has 2 hydrogen atoms and 1 oxygen atom.\n• No number means one atom.\n• A number after a bracket multiplies everything inside: Ca(OH)₂ has 1 Ca, 2 O and 2 H.\n• A big number in front counts whole units: 3H₂O means three water molecules (6 H and 3 O).\nElements: one kind of atom (O₂, Fe). Compounds: two or more elements joined (H₂O, NaCl).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "Al2(SO4)3"
+  },
+  "problem": "How many atoms of each element are in {formula(f)}, and how many atoms in total?",
+  "steps": [
+   "Al₂: {atomCount(f, 'Al')} aluminium atoms.",
+   "(SO₄) three times: {atomCount(f, 'S')} sulfur and {atomCount(f, 'O')} oxygen atoms.",
+   "Total: {totalAtoms(f)} atoms."
+  ],
+  "answer": "{atomList(f)}; {totalAtoms(f)} atoms in all.",
+  "checks": [
+   "totalAtoms(f) == 17"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "The small number after a symbol counts that element's atoms; no number means one.",
+    "vars": {
+     "f": "H2SO4"
+    },
+    "example": [
+     "{formula(f)}: {atomList(f)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-9-count"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "A number after a bracket multiplies everything inside the bracket.",
+    "vars": {
+     "f": "Ca(OH)2"
+    },
+    "example": [
+     "{formula(f)}: {atomList(f)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-9-bracket"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "An element has one kind of atom; a compound has two or more elements.",
+    "vars": {},
+    "example": [
+     "Element: {formula('O2')}.",
+     "Compound: {formula('CO2')}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-9-kind"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-9-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "CaCO3",
+      "H2SO4",
+      "NH3",
+      "C6H12O6",
+      "KNO3",
+      "Na2CO3",
+      "MgO",
+      "Al2O3"
+     ]
+    },
+    "e": {
+     "expr": "symbolsIn(f)[symbolsIn(f).length - 1]"
+    }
+   },
+   "prompt": "How many {nameOf(e)} atoms are in one unit of {formula(f)}?",
+   "answer": "atomCount(f, e)",
+   "solution": [
+    "{formula(f)}: {atomList(f)}.",
+    "So {answer} {nameOf(e)} atoms."
+   ]
+  },
+  {
+   "id": "k2-9-bracket",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      "Ca(OH)2",
+      "Al2(SO4)3",
+      "Mg(NO3)2",
+      "Ca3(PO4)2",
+      "(NH4)2SO4"
+     ]
+    },
+    "e": {
+     "pick": [
+      "O",
+      "H",
+      "N"
+     ]
+    }
+   },
+   "prompt": "How many {nameOf(e)} atoms are in one unit of {formula(f)}?",
+   "answer": "atomCount(f, e)",
+   "misconceptions": [
+    {
+     "id": "no-multiply",
+     "wrong": "atomCount(f, e) / (f == 'Al2(SO4)3' ? 3 : 2)",
+     "explain": "Multiply by the number after the bracket.",
+     "when": "isInt(atomCount(f, e) / (f == 'Al2(SO4)3' ? 3 : 2))"
+    }
+   ],
+   "solution": [
+    "The number after the bracket multiplies everything inside it.",
+    "{formula(f)}: {atomList(f)}, so {answer}."
+   ],
+   "where": [
+    "atomCount(f, e) > 0"
+   ]
+  },
+  {
+   "id": "k2-9-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      "O2",
+      "N2",
+      "Fe",
+      "Cu",
+      "H2",
+      "Cl2",
+      "H2O",
+      "NaCl",
+      "CO2",
+      "MgO",
+      "NH3"
+     ]
+    }
+   },
+   "prompt": "Is {formula(f)} an element or a compound?",
+   "correct": "{elementCount(f) == 1 ? 'an element' : 'a compound'}",
+   "distractors": [
+    {
+     "text": "{elementCount(f) == 1 ? 'a compound' : 'an element'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Count the different elements: one kind of atom is an element; two or more is a compound."
+    }
+   ],
+   "solution": [
+    "{formula(f)} contains {elementCount(f) == 1 ? 'only ' + nameOf(symbolsIn(f)[0]) : elementNames(f)}.",
+    "So it is {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "k2-9-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "NaCl",
+      "CaCO3",
+      "H2SO4",
+      "NaOH",
+      "Ca(OH)2",
+      "Al2O3",
+      "MgO",
+      "HCl",
+      "NH3",
+      "C6H12O6",
+      "Al2(SO4)3",
+      "KNO3",
+      "CuSO4",
+      "Na2CO3"
+     ]
+    }
+   },
+   "prompt": "How many atoms in total are in one unit of {formula(f)}?",
+   "answer": "totalAtoms(f)",
+   "misconceptions": [
+    {
+     "id": "elements",
+     "wrong": "elementCount(f)",
+     "explain": "That counts the elements; count every atom.",
+     "when": "elementCount(f) != totalAtoms(f)"
+    }
+   ],
+   "solution": [
+    "{formula(f)}: {atomList(f)}.",
+    "Total: {answer} atoms."
+   ]
+  },
+  {
+   "id": "k2-9-many",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "f": {
+     "pick": [
+      "H2O",
+      "NH3",
+      "CH4",
+      "H2SO4",
+      "HCl",
+      "NaOH"
+     ]
+    }
+   },
+   "prompt": "How many hydrogen atoms are in {n}{formula(f)}?",
+   "answer": "n * atomCount(f, 'H')",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "atomCount(f, 'H')",
+     "explain": "The big number {n} counts whole units: multiply."
+    }
+   ],
+   "solution": [
+    "One unit of {formula(f)} has {atomCount(f, 'H')} hydrogen atoms.",
+    "{n} units: {n} × {atomCount(f, 'H')} = {answer}."
+   ]
+  }
+ ]
+}

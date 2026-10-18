@@ -1,0 +1,359 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "p2-7",
+   "name": "Density: definition, units and measurement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Density is the mass of one unit of volume of a substance. Density = mass ÷ volume (ρ = m/V).\nUnits: g/cm³ (grams per cubic centimetre) or kg/m³. 1 g/cm³ = 1000 kg/m³. Water: 1 g/cm³.\nMeasuring density:\n• mass with a balance;\n• volume of a regular solid: length × width × height;\n• volume of an irregular solid (a stone): by displacement. Read the water in a measuring cylinder, put the stone in, read again: the volume of the stone is the difference.\nAn object less dense than water floats; a denser one sinks. Iron (7.9 g/cm³) sinks; wood (about 0.6 g/cm³) floats.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 60,
+   "a": 50,
+   "b": 70
+  },
+  "problem": "A stone has a mass of {m} g. Water in a measuring cylinder rises from {a} cm³ to {b} cm³ when the stone is put in. Find its density.",
+  "steps": [
+   "Volume of the stone = {b} − {a} = {b - a} cm³.",
+   "Density = {m} ÷ {b - a} = {density(m, b - a)} g/cm³."
+  ],
+  "answer": "{density(m, b - a)} g/cm³: it sinks in water.",
+  "checks": [
+   "density(m, b - a) == 3"
+  ],
+  "figure": "displacement(a, b)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "Density = mass ÷ volume.",
+    "vars": {
+     "m": 80,
+     "v": 40
+    },
+    "example": [
+     "{m} g in {v} cm³: {m} ÷ {v} = {density(m, v)} g/cm³."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-7-density"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "The volume of an irregular solid is found by displacement: the rise of the water level.",
+    "vars": {
+     "a": 40,
+     "b": 56
+    },
+    "example": [
+     "Before {a} mL, after {b} mL: volume {b - a} cm³."
+    ],
+    "checks": [],
+    "figure": "displacement(a, b)",
+    "check": {
+     "ref": "p2-7-displace"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Less dense than water (1 g/cm³): it floats. Denser: it sinks.",
+    "vars": {
+     "c": 0.25,
+     "al": 2.7
+    },
+    "example": [
+     "Cork {c} g/cm³: floats.",
+     "Aluminium {al} g/cm³: sinks."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-7-float"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-7-density",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "v": {
+     "int": [
+      5,
+      40
+     ]
+    },
+    "d": {
+     "pick": [
+      0.5,
+      0.8,
+      1.5,
+      2,
+      2.5,
+      3,
+      4,
+      8
+     ]
+    },
+    "m": {
+     "expr": "round(v * d, 1)"
+    }
+   },
+   "prompt": "A block has a mass of {m} g and a volume of {v} cm³. What is its density?",
+   "answer": "density(m, v)",
+   "misconceptions": [
+    {
+     "id": "upside",
+     "wrong": "density(v, m)",
+     "explain": "Density is mass ÷ volume.",
+     "when": "density(v, m) != d"
+    },
+    {
+     "id": "times",
+     "wrong": "m * v",
+     "explain": "Divide the mass by the volume."
+    }
+   ],
+   "solution": [
+    "Density = mass ÷ volume.",
+    "{m} ÷ {v} = {answer} g/cm³."
+   ],
+   "where": [
+    "density(m, v) == d"
+   ],
+   "unit": "g/cm³"
+  },
+  {
+   "id": "p2-7-displace",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      30,
+      40,
+      50,
+      60
+     ]
+    },
+    "r": {
+     "pick": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      20
+     ]
+    },
+    "b": {
+     "expr": "a + r"
+    }
+   },
+   "prompt": "Water in a measuring cylinder is at {a} mL. A stone is put in and the level rises to {b} mL. What is the volume of the stone?",
+   "answer": "b - a",
+   "misconceptions": [
+    {
+     "id": "after",
+     "wrong": "b",
+     "explain": "That is the level with the stone; subtract the level before."
+    }
+   ],
+   "solution": [
+    "Volume of the stone = the rise in level.",
+    "{b} − {a} = {answer} cm³."
+   ],
+   "unit": "cm³",
+   "figure": "displacement(a, b)"
+  },
+  {
+   "id": "p2-7-float",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Cork",
+       0.25
+      ],
+      [
+       "Dry wood",
+       0.6
+      ],
+      [
+       "Ice",
+       0.92
+      ],
+      [
+       "Palm oil",
+       0.91
+      ],
+      [
+       "Iron",
+       7.9
+      ],
+      [
+       "Aluminium",
+       2.7
+      ],
+      [
+       "Glass",
+       2.5
+      ],
+      [
+       "Copper",
+       8.9
+      ],
+      [
+       "Stone",
+       2.6
+      ]
+     ]
+    },
+    "one": 1
+   },
+   "prompt": "{X[0]} has a density of {X[1]} g/cm³. In water it …",
+   "correct": "{X[1] < 1 ? 'floats' : 'sinks'}",
+   "distractors": [
+    {
+     "text": "{X[1] < 1 ? 'sinks' : 'floats'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Compare with water, {one} g/cm³: less dense floats, denser sinks."
+    }
+   ],
+   "solution": [
+    "Water has a density of {one} g/cm³.",
+    "{X[1]} is {X[1] < 1 ? 'less' : 'more'} than {one}, so it {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "p2-7-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "d": 7.9,
+    "v": {
+     "int": [
+      2,
+      20
+     ]
+    }
+   },
+   "prompt": "Iron has a density of {d} g/cm³. What is the mass of {v} cm³ of iron?",
+   "answer": "round(d * v, 1)",
+   "misconceptions": [
+    {
+     "id": "divide",
+     "wrong": "round(v / d, 2)",
+     "explain": "Mass = density × volume: multiply."
+    }
+   ],
+   "solution": [
+    "Mass = density × volume.",
+    "{d} × {v} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "p2-7-stone",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "measurement"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      30,
+      40,
+      50
+     ]
+    },
+    "r": {
+     "pick": [
+      10,
+      12,
+      15,
+      20,
+      25
+     ]
+    },
+    "b": {
+     "expr": "a + r"
+    },
+    "d": {
+     "pick": [
+      2,
+      2.4,
+      2.6,
+      3
+     ]
+    },
+    "m": {
+     "expr": "d * r"
+    }
+   },
+   "prompt": "A stone of mass {m} g is put in a cylinder of water. The level rises from {a} mL to {b} mL. What is the stone's density?",
+   "answer": "density(m, b - a)",
+   "misconceptions": [
+    {
+     "id": "level",
+     "wrong": "density(m, b)",
+     "explain": "Use the volume of the stone, {b - a} cm³, not the water level."
+    }
+   ],
+   "solution": [
+    "Volume = {b} − {a} = {b - a} cm³.",
+    "Density = {m} ÷ {b - a} = {answer} g/cm³."
+   ],
+   "where": [
+    "isInt(m)"
+   ],
+   "unit": "g/cm³",
+   "figure": "displacement(a, b)"
+  }
+ ]
+}

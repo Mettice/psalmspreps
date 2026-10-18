@@ -1,0 +1,396 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "b2-21",
+   "name": "Biological and chemical control of pests"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Biological control uses living things to control pests: a natural enemy (predator or parasite) eats or kills the pest. Examples: ladybirds eat aphids; cats and owls catch rats; tiny wasps lay their eggs in caterpillars.\nAdvantages: no poison on food or in water, cheap once started, lasts long. Disadvantages: slow, and the new animal may become a pest itself.\nChemical control uses pesticides: insecticides (insects), fungicides (fungi), herbicides (weeds), rodenticides (rats).\nAdvantages: fast and effective. Disadvantages: they can poison people, animals, bees and water; pests can become resistant; they cost money.\nSafe use: read the label; wear gloves, boots and a mask; do not spray in the wind; keep away from children and food; wash after use; never reuse pesticide containers for water or food.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "aphids on a vegetable farm"
+  },
+  "problem": "Give one biological and one chemical way to control {p}, with an advantage of each.",
+  "steps": [
+   "Biological: release ladybirds, which eat aphids; no poison is left on the vegetables.",
+   "Chemical: spray an insecticide; it kills the aphids quickly."
+  ],
+  "answer": "Ladybirds (no poison) or an insecticide (fast).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "Biological control uses natural enemies of the pest.",
+    "vars": {},
+    "example": [
+     "Ladybirds eat aphids.",
+     "Owls catch rats."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-21-sort"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Chemical control uses pesticides: insecticides, fungicides, herbicides, rodenticides.",
+    "vars": {},
+    "example": [
+     "A fungicide kills fungi.",
+     "A herbicide kills weeds."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-21-name"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Pesticides are poisons: use them safely.",
+    "vars": {},
+    "example": [
+     "Wear gloves and a mask.",
+     "Never reuse the containers for water."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-21-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "plant-pests"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a safe way to use a pesticide?",
+         "r": "Wear gloves and a mask, and read the label.",
+         "w": [
+          "Spray on a windy day.",
+          "Store it with food.",
+          "Use the empty container for drinking water."
+         ],
+         "e": [
+          "The wind blows the poison onto people.",
+          "It can poison the food.",
+          "Traces of poison remain."
+         ],
+         "y": "Protect yourself and follow the label."
+        },
+        {
+         "q": "Which is a disadvantage of chemical control?",
+         "r": "It can poison people, bees and water.",
+         "w": [
+          "It is very slow.",
+          "It uses natural enemies.",
+          "It never works."
+         ],
+         "e": [
+          "It is usually fast.",
+          "That is biological control.",
+          "It often works well."
+         ],
+         "y": "Pesticides are poisons."
+        },
+        {
+         "q": "Which is an advantage of biological control?",
+         "r": "No poison is left on food or in water.",
+         "w": [
+          "It works in one hour.",
+          "It kills every insect.",
+          "It needs strong chemicals."
+         ],
+         "e": [
+          "It is usually slow.",
+          "It targets the pest.",
+          "It uses living things."
+         ],
+         "y": "Natural enemies leave no poison."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-21-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-pests"
+   ],
+   "prompt": "Sort the methods: biological or chemical control?",
+   "pool": [
+    {
+     "left": "ladybirds released to eat aphids",
+     "right": "biological"
+    },
+    {
+     "left": "cats or owls to catch rats",
+     "right": "biological"
+    },
+    {
+     "left": "tiny wasps that lay eggs in pest caterpillars",
+     "right": "biological"
+    },
+    {
+     "left": "ducks eating insects in rice fields",
+     "right": "biological"
+    },
+    {
+     "left": "spraying an insecticide on cabbages",
+     "right": "chemical"
+    },
+    {
+     "left": "spraying a fungicide on cocoa pods",
+     "right": "chemical"
+    },
+    {
+     "left": "putting rat poison in a barn",
+     "right": "chemical"
+    },
+    {
+     "left": "spraying a herbicide on weeds",
+     "right": "chemical"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "biological",
+    "chemical"
+   ]
+  },
+  {
+   "id": "b2-21-name",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-pests"
+   ],
+   "prompt": "Match each pesticide to what it kills.",
+   "pool": [
+    {
+     "left": "insecticide",
+     "right": "insects"
+    },
+    {
+     "left": "fungicide",
+     "right": "fungi"
+    },
+    {
+     "left": "herbicide",
+     "right": "weeds"
+    },
+    {
+     "left": "rodenticide",
+     "right": "rats and mice"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "b2-21-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "plant-pests"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a safe way to use a pesticide?",
+       "r": "Wear gloves and a mask, and read the label.",
+       "w": [
+        "Spray on a windy day.",
+        "Store it with food.",
+        "Use the empty container for drinking water."
+       ],
+       "e": [
+        "The wind blows the poison onto people.",
+        "It can poison the food.",
+        "Traces of poison remain."
+       ],
+       "y": "Protect yourself and follow the label."
+      },
+      {
+       "q": "Which is a disadvantage of chemical control?",
+       "r": "It can poison people, bees and water.",
+       "w": [
+        "It is very slow.",
+        "It uses natural enemies.",
+        "It never works."
+       ],
+       "e": [
+        "It is usually fast.",
+        "That is biological control.",
+        "It often works well."
+       ],
+       "y": "Pesticides are poisons."
+      },
+      {
+       "q": "Which is an advantage of biological control?",
+       "r": "No poison is left on food or in water.",
+       "w": [
+        "It works in one hour.",
+        "It kills every insect.",
+        "It needs strong chemicals."
+       ],
+       "e": [
+        "It is usually slow.",
+        "It targets the pest.",
+        "It uses living things."
+       ],
+       "y": "Natural enemies leave no poison."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "plant-pests"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ladybirds eat aphids.",
+      "truth": "true"
+     },
+     {
+      "text": "A fungicide kills fungi.",
+      "truth": "true"
+     },
+     {
+      "text": "Pesticides must be kept away from children.",
+      "truth": "true"
+     },
+     {
+      "text": "Biological control uses natural enemies.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A herbicide kills insects.",
+      "truth": "false",
+      "explain": "A herbicide kills weeds; an insecticide kills insects."
+     },
+     {
+      "text": "Empty pesticide containers are good for storing water.",
+      "truth": "false",
+      "explain": "Never reuse them: traces of poison remain."
+     },
+     {
+      "text": "Biological control leaves poison on food.",
+      "truth": "false",
+      "explain": "It uses living things, not poison."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,393 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "k2-13",
+   "name": "The periodic table: brief history and purpose"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Chemists looked for a way to classify the elements, to study them more easily and to predict their properties.\n• Döbereiner (1829) noticed groups of three similar elements (triads), such as lithium, sodium and potassium.\n• Newlands (1864) arranged elements by mass and saw that every eighth element was similar (the law of octaves).\n• Mendeleev (1869) arranged the elements in order of atomic mass, put elements with similar properties in the same column, and left gaps for elements not yet discovered. He predicted their properties, and when they were found (such as gallium and germanium) he was right.\n• Today the elements are arranged in order of atomic number (Moseley, 1913).\nPurpose: to classify elements and to predict their properties and reactions.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "Mendeleev"
+  },
+  "problem": "Why was {m}'s table so useful?",
+  "steps": [
+   "He put elements with similar properties in the same column.",
+   "He left gaps for unknown elements and predicted their properties; later discoveries matched his predictions."
+  ],
+  "answer": "It classified the elements and correctly predicted elements not yet discovered.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "The periodic table classifies the elements, so we can study them and predict their properties.",
+    "vars": {},
+    "example": [
+     "Similar elements are in the same column.",
+     "Lithium, sodium and potassium are alike."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-13-purpose"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Mendeleev arranged elements by atomic mass and left gaps for undiscovered elements.",
+    "vars": {},
+    "example": [
+     "He predicted the properties of gallium and germanium before they were found."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-13-who"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "The modern table is in order of atomic number, not atomic mass.",
+    "vars": {},
+    "example": [
+     "Moseley showed the order by atomic number."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-13-order-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "periodic-table"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How are the elements arranged in the modern periodic table?",
+         "r": "in order of atomic number",
+         "w": [
+          "in order of atomic mass",
+          "in alphabetical order",
+          "in order of discovery"
+         ],
+         "e": [
+          "That was Mendeleev's order.",
+          "Names do not decide the order.",
+          "Dates do not decide the order."
+         ],
+         "y": "Today's order is by atomic number."
+        },
+        {
+         "q": "Why did Mendeleev leave gaps in his table?",
+         "r": "for elements not yet discovered",
+         "w": [
+          "because he made mistakes",
+          "to make it look nicer",
+          "for compounds"
+         ],
+         "e": [
+          "The gaps were deliberate.",
+          "They had a scientific reason.",
+          "The table is for elements."
+         ],
+         "y": "He predicted elements that were found later."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-13-purpose",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the main purpose of the periodic table?",
+       "r": "to classify the elements and predict their properties",
+       "w": [
+        "to list elements by colour",
+        "to show the price of elements",
+        "to name compounds"
+       ],
+       "e": [
+        "Colour is not the basis.",
+        "It has nothing to do with price.",
+        "That is not its main purpose."
+       ],
+       "y": "It groups similar elements and allows predictions."
+      },
+      {
+       "q": "In the periodic table, where are elements with similar properties?",
+       "r": "in the same column (group)",
+       "w": [
+        "in random places",
+        "always next to hydrogen",
+        "in the same row only"
+       ],
+       "e": [
+        "They are placed by a rule.",
+        "That is not the rule.",
+        "Similar properties are in columns."
+       ],
+       "y": "Similar elements share a group."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-13-who",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Match each scientist to the work.",
+   "pool": [
+    {
+     "left": "Döbereiner",
+     "right": "triads: groups of three similar elements"
+    },
+    {
+     "left": "Newlands",
+     "right": "the law of octaves"
+    },
+    {
+     "left": "Mendeleev",
+     "right": "a table by atomic mass with gaps for unknown elements"
+    },
+    {
+     "left": "Moseley",
+     "right": "order by atomic number"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k2-13-order",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How are the elements arranged in the modern periodic table?",
+       "r": "in order of atomic number",
+       "w": [
+        "in order of atomic mass",
+        "in alphabetical order",
+        "in order of discovery"
+       ],
+       "e": [
+        "That was Mendeleev's order.",
+        "Names do not decide the order.",
+        "Dates do not decide the order."
+       ],
+       "y": "Today's order is by atomic number."
+      },
+      {
+       "q": "Why did Mendeleev leave gaps in his table?",
+       "r": "for elements not yet discovered",
+       "w": [
+        "because he made mistakes",
+        "to make it look nicer",
+        "for compounds"
+       ],
+       "e": [
+        "The gaps were deliberate.",
+        "They had a scientific reason.",
+        "The table is for elements."
+       ],
+       "y": "He predicted elements that were found later."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Mendeleev left gaps for undiscovered elements.",
+      "truth": "true"
+     },
+     {
+      "text": "The modern table is in order of atomic number.",
+      "truth": "true"
+     },
+     {
+      "text": "Similar elements are in the same group.",
+      "truth": "true"
+     },
+     {
+      "text": "Mendeleev predicted properties of unknown elements.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mendeleev arranged elements in alphabetical order.",
+      "truth": "false",
+      "explain": "He arranged them by atomic mass and properties."
+     },
+     {
+      "text": "The modern table is in order of atomic mass.",
+      "truth": "false",
+      "explain": "The modern table uses atomic number."
+     },
+     {
+      "text": "The periodic table was made to show the prices of metals.",
+      "truth": "false",
+      "explain": "It classifies elements and predicts properties."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

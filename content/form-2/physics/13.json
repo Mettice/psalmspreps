@@ -1,0 +1,486 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "p2-13",
+   "name": "The action of electrical energy on materials"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "When an electric current passes through a material it can produce:\n• a heating effect: the wire gets hot (electric iron, hot plate, kettle, water heater, fuse);\n• a lighting effect: a thin wire glows (filament bulb), or a lamp gives light (LED, fluorescent tube);\n• a magnetic effect: a coil of wire with current becomes a magnet (electromagnet, electric bell, motor, loudspeaker);\n• a chemical effect: current breaks down some liquids (electrolysis); it is used for electroplating and for charging batteries.\nA fuse is a thin wire that melts if the current is too big, to protect the circuit.\nElectrical energy is converted into other forms: heat, light, movement, sound.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": "an electric kettle"
+  },
+  "problem": "Which effect of electric current does {d} use, and what energy change happens?",
+  "steps": [
+   "The current passes through a heating element, which gets very hot: the heating effect.",
+   "Electrical energy is changed into heat energy, which boils the water."
+  ],
+  "answer": "The heating effect: electrical energy → heat.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "Current can heat, give light, make a magnet, or cause chemical change.",
+    "vars": {},
+    "example": [
+     "An iron uses the heating effect.",
+     "A bell uses the magnetic effect."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-13-effect"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "A fuse melts when the current is too big, and so protects the circuit.",
+    "vars": {},
+    "example": [
+     "A fuse is a thin wire.",
+     "Too much current heats it until it melts."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-13-fuse"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "Devices change electrical energy into other forms: heat, light, movement, sound.",
+    "vars": {},
+    "example": [
+     "Fan: electrical → movement.",
+     "Radio: electrical → sound."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-13-energy-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "energy-sources"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "an electric fan",
+         "r": "electrical → movement",
+         "w": [
+          "electrical → light",
+          "heat → electrical",
+          "sound → electrical"
+         ],
+         "e": [
+          "A fan's main output is movement.",
+          "A fan uses electricity.",
+          "A fan uses electricity."
+         ],
+         "y": "The motor turns the blades: movement."
+        },
+        {
+         "q": "a radio",
+         "r": "electrical → sound",
+         "w": [
+          "sound → electrical",
+          "electrical → heat only",
+          "light → electrical"
+         ],
+         "e": [
+          "A radio makes sound.",
+          "Its main output is sound.",
+          "It uses electrical energy."
+         ],
+         "y": "The loudspeaker gives sound."
+        },
+        {
+         "q": "a light bulb",
+         "r": "electrical → light (and heat)",
+         "w": [
+          "light → electrical",
+          "electrical → movement",
+          "electrical → sound"
+         ],
+         "e": [
+          "It uses electricity.",
+          "It does not move.",
+          "It does not make sound."
+         ],
+         "y": "A bulb gives light and some heat."
+        },
+        {
+         "q": "an electric iron",
+         "r": "electrical → heat",
+         "w": [
+          "heat → electrical",
+          "electrical → sound",
+          "electrical → movement"
+         ],
+         "e": [
+          "It uses electricity.",
+          "It does not make sound.",
+          "It does not move by itself."
+         ],
+         "y": "An iron's plate gets hot."
+        }
+       ]
+      }
+     },
+     "prompt": "Which energy change happens in {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-13-effect",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Match each device to the effect of current it uses.",
+   "pool": [
+    {
+     "left": "an electric iron",
+     "right": "heating effect"
+    },
+    {
+     "left": "a hot plate",
+     "right": "heating effect"
+    },
+    {
+     "left": "a water heater",
+     "right": "heating effect"
+    },
+    {
+     "left": "a light bulb",
+     "right": "lighting effect"
+    },
+    {
+     "left": "a torch",
+     "right": "lighting effect"
+    },
+    {
+     "left": "an electric bell",
+     "right": "magnetic effect"
+    },
+    {
+     "left": "an electric motor in a fan",
+     "right": "magnetic effect"
+    },
+    {
+     "left": "an electromagnet in a scrapyard crane",
+     "right": "magnetic effect"
+    },
+    {
+     "left": "silver-plating a spoon",
+     "right": "chemical effect"
+    },
+    {
+     "left": "charging a car battery",
+     "right": "chemical effect"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "heating effect",
+    "lighting effect",
+    "magnetic effect",
+    "chemical effect"
+   ]
+  },
+  {
+   "id": "p2-13-fuse",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does a fuse do when the current is too big?",
+       "r": "It melts and breaks the circuit.",
+       "w": [
+        "It makes the current bigger.",
+        "It lights up.",
+        "It becomes a magnet."
+       ],
+       "e": [
+        "It stops the current.",
+        "It is not a lamp.",
+        "It works by heating."
+       ],
+       "y": "The thin wire melts and protects the circuit."
+      },
+      {
+       "q": "Which effect of current does a fuse use?",
+       "r": "the heating effect",
+       "w": [
+        "the magnetic effect",
+        "the chemical effect",
+        "the lighting effect"
+       ],
+       "e": [
+        "A fuse is not a magnet.",
+        "It does not break down liquids.",
+        "It does not give light."
+       ],
+       "y": "Too much current heats the fuse wire until it melts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-13-energy",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "an electric fan",
+       "r": "electrical → movement",
+       "w": [
+        "electrical → light",
+        "heat → electrical",
+        "sound → electrical"
+       ],
+       "e": [
+        "A fan's main output is movement.",
+        "A fan uses electricity.",
+        "A fan uses electricity."
+       ],
+       "y": "The motor turns the blades: movement."
+      },
+      {
+       "q": "a radio",
+       "r": "electrical → sound",
+       "w": [
+        "sound → electrical",
+        "electrical → heat only",
+        "light → electrical"
+       ],
+       "e": [
+        "A radio makes sound.",
+        "Its main output is sound.",
+        "It uses electrical energy."
+       ],
+       "y": "The loudspeaker gives sound."
+      },
+      {
+       "q": "a light bulb",
+       "r": "electrical → light (and heat)",
+       "w": [
+        "light → electrical",
+        "electrical → movement",
+        "electrical → sound"
+       ],
+       "e": [
+        "It uses electricity.",
+        "It does not move.",
+        "It does not make sound."
+       ],
+       "y": "A bulb gives light and some heat."
+      },
+      {
+       "q": "an electric iron",
+       "r": "electrical → heat",
+       "w": [
+        "heat → electrical",
+        "electrical → sound",
+        "electrical → movement"
+       ],
+       "e": [
+        "It uses electricity.",
+        "It does not make sound.",
+        "It does not move by itself."
+       ],
+       "y": "An iron's plate gets hot."
+      }
+     ]
+    }
+   },
+   "prompt": "Which energy change happens in {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "An electric iron uses the heating effect of current.",
+      "truth": "true"
+     },
+     {
+      "text": "An electric bell uses the magnetic effect.",
+      "truth": "true"
+     },
+     {
+      "text": "Electroplating uses the chemical effect.",
+      "truth": "true"
+     },
+     {
+      "text": "A fuse melts if the current is too big.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A light bulb uses the chemical effect of current.",
+      "truth": "false",
+      "explain": "A bulb uses the lighting (and heating) effect."
+     },
+     {
+      "text": "A fuse is a thick wire that never melts.",
+      "truth": "false",
+      "explain": "A fuse is a thin wire made to melt."
+     },
+     {
+      "text": "An electric fan changes movement into electrical energy.",
+      "truth": "false",
+      "explain": "A fan changes electrical energy into movement."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

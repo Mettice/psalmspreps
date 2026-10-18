@@ -1,0 +1,409 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "b2-4",
+   "name": "Experiment 1: practising natural vegetative propagation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Aim: to observe new plants growing from natural vegetative organs.\nMaterials: an onion bulb, an Irish potato with eyes, a Bryophyllum leaf, pots or tins with moist soil, water.\nMethod:\n1. Fill the pots with moist soil.\n2. Plant the onion with its base (the flat stem) in the soil, the potato a few centimetres deep, and lay the Bryophyllum leaf on the soil.\n3. Water lightly every day and keep the pots in a warm place out of direct sun.\n4. Observe every two days for two to three weeks, and record what you see in a table with dates.\nResults: roots grow from the onion's base and green leaves from its top; shoots grow from the potato's eyes; plantlets grow from the notches of the Bryophyllum leaf.\nConclusion: new plants grow from the plant's own organs, without seeds.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "o": "the onion bulb"
+  },
+  "problem": "After a week, what will you see on {o}, and what does it show?",
+  "steps": [
+   "Roots grow from the flat base (the stem plate) into the soil.",
+   "Green leaves grow from the top, using the food stored in the fleshy leaves.",
+   "A new plant grows without a seed: natural vegetative propagation."
+  ],
+  "answer": "Roots at the base, leaves at the top: a new plant from the bulb.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "Plant each organ the right way: the onion's base in the soil, the potato buried, the Bryophyllum leaf on the soil.",
+    "vars": {},
+    "example": [
+     "Keep the soil moist, not flooded.",
+     "Keep the pots warm, out of direct sun."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-4-steps"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Record observations every two days in a table with the date.",
+    "vars": {},
+    "example": [
+     "Day {2}: no change. Day {6}: roots on the onion.",
+     "Day {10}: shoots from the potato eyes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-4-see"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "The conclusion: new plants can grow from stems, roots or leaves, without seeds.",
+    "vars": {},
+    "example": [
+     "The onion, potato and Bryophyllum all made new plants."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-4-why-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "plant-reproduction"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are the pots watered lightly and not flooded?",
+         "r": "Too much water stops air reaching the roots and makes the organs rot.",
+         "w": [
+          "Water kills all plants.",
+          "The plants do not need water.",
+          "To make them grow seeds."
+         ],
+         "e": [
+          "Plants need some water.",
+          "They need water.",
+          "No seeds are involved."
+         ],
+         "y": "Roots and organs need air too."
+        },
+        {
+         "q": "What does this experiment show?",
+         "r": "New plants can grow from stems, roots or leaves without seeds.",
+         "w": [
+          "Plants need seeds to reproduce.",
+          "Onions are seeds.",
+          "Plants grow only in the dark."
+         ],
+         "e": [
+          "The experiment shows the opposite.",
+          "An onion is a bulb.",
+          "That is not what it shows."
+         ],
+         "y": "That is natural vegetative propagation."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-4-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Put the steps of the experiment in order.",
+   "items": [
+    {
+     "text": "Fill the pots with moist soil"
+    },
+    {
+     "text": "Plant the onion, the potato and the Bryophyllum leaf"
+    },
+    {
+     "text": "Water lightly every day and keep the pots warm"
+    },
+    {
+     "text": "Observe and record every two days"
+    },
+    {
+     "text": "Write a conclusion"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "b2-4-see",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where do new shoots grow on an Irish potato?",
+       "r": "from the eyes (buds)",
+       "w": [
+        "from the skin everywhere",
+        "from the roots of the old plant",
+        "from seeds inside it"
+       ],
+       "e": [
+        "They grow only from the eyes.",
+        "The tuber has no old roots here.",
+        "A potato tuber has no seeds."
+       ],
+       "y": "The eyes are buds."
+      },
+      {
+       "q": "Where do new plantlets grow on a Bryophyllum leaf?",
+       "r": "in the notches on the leaf edge",
+       "w": [
+        "from the leaf stalk only",
+        "from flowers",
+        "from the middle of the leaf"
+       ],
+       "e": [
+        "They grow on the edges.",
+        "No flowers are involved.",
+        "They grow on the edges."
+       ],
+       "y": "Buds in the notches grow into plantlets."
+      },
+      {
+       "q": "From which part of an onion do the roots grow?",
+       "r": "the flat base (stem plate)",
+       "w": [
+        "the top",
+        "the dry outer skin",
+        "the fleshy leaves"
+       ],
+       "e": [
+        "Leaves grow from the top.",
+        "The skin is dead.",
+        "They store food."
+       ],
+       "y": "Roots grow from the stem plate at the base."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-4-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are the pots watered lightly and not flooded?",
+       "r": "Too much water stops air reaching the roots and makes the organs rot.",
+       "w": [
+        "Water kills all plants.",
+        "The plants do not need water.",
+        "To make them grow seeds."
+       ],
+       "e": [
+        "Plants need some water.",
+        "They need water.",
+        "No seeds are involved."
+       ],
+       "y": "Roots and organs need air too."
+      },
+      {
+       "q": "What does this experiment show?",
+       "r": "New plants can grow from stems, roots or leaves without seeds.",
+       "w": [
+        "Plants need seeds to reproduce.",
+        "Onions are seeds.",
+        "Plants grow only in the dark."
+       ],
+       "e": [
+        "The experiment shows the opposite.",
+        "An onion is a bulb.",
+        "That is not what it shows."
+       ],
+       "y": "That is natural vegetative propagation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Which step or result is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Plant the onion with its base in the soil.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep the soil moist.",
+      "truth": "true"
+     },
+     {
+      "text": "Shoots grow from the potato's eyes.",
+      "truth": "true"
+     },
+     {
+      "text": "Record observations with dates.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plant the onion upside down, with its leaves in the soil.",
+      "truth": "false",
+      "explain": "The base (stem plate) goes in the soil; leaves grow upwards."
+     },
+     {
+      "text": "Flood the pots with water every hour.",
+      "truth": "false",
+      "explain": "Water lightly: flooding makes the organs rot."
+     },
+     {
+      "text": "Plantlets grow from the Bryophyllum leaf stalk only.",
+      "truth": "false",
+      "explain": "They grow from the notches on the leaf edge."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

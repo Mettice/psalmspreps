@@ -1,0 +1,415 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  2,
+  3
+ ],
+ "skills": [
+  {
+   "id": "b2-6",
+   "name": "Advantages and disadvantages of vegetative propagation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Advantages:\n• The new plants are identical to the parent, so good qualities (big fruits, sweetness, resistance) are kept.\n• It is faster: plants mature and bear fruit sooner than from seeds.\n• It works for plants with no good seeds (banana, plantain, cassava).\n• The stored food helps the new plant survive bad conditions.\nDisadvantages:\n• No variation: if a disease attacks, all the plants may be destroyed.\n• Diseases of the parent are passed on (cassava mosaic in cuttings).\n• New plants grow close to the parent: overcrowding and competition.\n• Organs are bulky and heavy to store and carry, and they can rot.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": "cassava"
+  },
+  "problem": "A farmer grows all his {c} from cuttings of one plant. Give one advantage and one danger.",
+  "steps": [
+   "Advantage: all the plants keep the good qualities of the parent and grow quickly.",
+   "Danger: they are identical, so a disease such as cassava mosaic could destroy them all, and an infected parent passes it on."
+  ],
+  "answer": "Advantage: good qualities kept; danger: no variation, diseases spread to all.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Vegetative propagation keeps the parent's good qualities and is faster than seeds.",
+    "vars": {},
+    "example": [
+     "A grafted orange tree bears fruit sooner.",
+     "Its fruits are as sweet as the parent's."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-6-sort"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "Its main danger is no variation: one disease can destroy every plant.",
+    "vars": {},
+    "example": [
+     "Diseases in the parent are passed on in cuttings."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-6-why"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "New plants grow close to the parent, so they compete for light, water and minerals.",
+    "vars": {},
+    "example": [
+     "Suckers crowd round a banana plant."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-6-crowd-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "plant-reproduction"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should a farmer separate banana suckers from the parent plant?",
+         "r": "To avoid overcrowding and competition.",
+         "w": [
+          "To make them identical.",
+          "To give them seeds.",
+          "To stop photosynthesis."
+         ],
+         "e": [
+          "They are already identical.",
+          "Bananas do not need seeds.",
+          "Plants need photosynthesis."
+         ],
+         "y": "Crowded plants compete for light, water and minerals."
+        },
+        {
+         "q": "Why should cuttings be taken only from healthy plants?",
+         "r": "Diseases of the parent are passed on.",
+         "w": [
+          "Healthy plants have no nodes.",
+          "Diseased plants grow faster.",
+          "It does not matter."
+         ],
+         "e": [
+          "Healthy plants have nodes.",
+          "Diseased plants do not grow better.",
+          "It matters a lot."
+         ],
+         "y": "A sick parent gives sick offspring."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-6-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Sort: advantage or disadvantage of vegetative propagation?",
+   "pool": [
+    {
+     "left": "good qualities of the parent are kept",
+     "right": "advantage"
+    },
+    {
+     "left": "plants mature faster than from seeds",
+     "right": "advantage"
+    },
+    {
+     "left": "works for plants without good seeds",
+     "right": "advantage"
+    },
+    {
+     "left": "stored food helps the young plant",
+     "right": "advantage"
+    },
+    {
+     "left": "no variation in the offspring",
+     "right": "disadvantage"
+    },
+    {
+     "left": "diseases are passed on from the parent",
+     "right": "disadvantage"
+    },
+    {
+     "left": "overcrowding near the parent",
+     "right": "disadvantage"
+    },
+    {
+     "left": "organs are bulky and may rot",
+     "right": "disadvantage"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "advantage",
+    "disadvantage"
+   ]
+  },
+  {
+   "id": "b2-6-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why can one disease destroy a whole field of plants grown from cuttings of one plant?",
+       "r": "They are all identical, with no variation.",
+       "w": [
+        "They are too tall.",
+        "They have too many seeds.",
+        "They grow too slowly."
+       ],
+       "e": [
+        "Height is not the reason.",
+        "Cuttings do not involve seeds.",
+        "Speed is not the reason."
+       ],
+       "y": "Identical plants have the same weaknesses."
+      },
+      {
+       "q": "Why do farmers grow plantain from suckers?",
+       "r": "Plantain has no good seeds, and suckers grow fast.",
+       "w": [
+        "Suckers give variation.",
+        "Plantain seeds are too big.",
+        "Suckers need no water."
+       ],
+       "e": [
+        "Suckers give identical plants.",
+        "Plantain has no good seeds.",
+        "They need water."
+       ],
+       "y": "Suckers are quick and keep the variety."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-6-crowd",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should a farmer separate banana suckers from the parent plant?",
+       "r": "To avoid overcrowding and competition.",
+       "w": [
+        "To make them identical.",
+        "To give them seeds.",
+        "To stop photosynthesis."
+       ],
+       "e": [
+        "They are already identical.",
+        "Bananas do not need seeds.",
+        "Plants need photosynthesis."
+       ],
+       "y": "Crowded plants compete for light, water and minerals."
+      },
+      {
+       "q": "Why should cuttings be taken only from healthy plants?",
+       "r": "Diseases of the parent are passed on.",
+       "w": [
+        "Healthy plants have no nodes.",
+        "Diseased plants grow faster.",
+        "It does not matter."
+       ],
+       "e": [
+        "Healthy plants have nodes.",
+        "Diseased plants do not grow better.",
+        "It matters a lot."
+       ],
+       "y": "A sick parent gives sick offspring."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Vegetative propagation keeps good qualities.",
+      "truth": "true"
+     },
+     {
+      "text": "It is faster than growing from seeds.",
+      "truth": "true"
+     },
+     {
+      "text": "It gives no variation.",
+      "truth": "true"
+     },
+     {
+      "text": "It can pass on diseases.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Vegetative propagation gives a lot of variation.",
+      "truth": "false",
+      "explain": "It gives identical plants: no variation."
+     },
+     {
+      "text": "Plants from cuttings take longer to fruit than from seeds.",
+      "truth": "false",
+      "explain": "They usually fruit sooner."
+     },
+     {
+      "text": "A diseased parent always gives healthy cuttings.",
+      "truth": "false",
+      "explain": "Diseases are passed on in cuttings."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

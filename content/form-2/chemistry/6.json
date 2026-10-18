@@ -1,0 +1,439 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k2-6",
+   "name": "Chemical symbols and names of elements"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Every element has a symbol of one or two letters. The first letter is a capital; the second is small: H hydrogen, He helium, C carbon, Ca calcium, Cl chlorine.\nMost symbols come from the English name. Some come from the Latin name: Na sodium (natrium), K potassium (kalium), Fe iron (ferrum), Cu copper (cuprum), Ag silver (argentum), Pb lead (plumbum), Au gold (aurum), Hg mercury (hydrargyrum), Sn tin (stannum).\nThe first 20 elements, in order: H, He, Li, Be, B, C, N, O, F, Ne, Na, Mg, Al, Si, P, S, Cl, Ar, K, Ca.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "Co",
+   "b": "CO"
+  },
+  "problem": "Explain the difference between {a} and {b}.",
+  "steps": [
+   "{a}: one capital and one small letter, so one symbol: cobalt, an element.",
+   "{b}: two capitals, so two symbols: C (carbon) and O (oxygen), the compound carbon monoxide."
+  ],
+  "answer": "{a} is the element cobalt; {b} is a compound of carbon and oxygen.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "A symbol has one capital letter, sometimes followed by one small letter.",
+    "vars": {
+     "s": "Mg",
+     "t": "Cl"
+    },
+    "example": [
+     "{s}: {nameOf(s)}",
+     "{t}: {nameOf(t)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-6-name"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "Some symbols come from Latin names.",
+    "vars": {
+     "s": "Na",
+     "t": "Fe"
+    },
+    "example": [
+     "{s}: {nameOf(s)} (Latin {latinName(s)})",
+     "{t}: {nameOf(t)} (Latin {latinName(t)})"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-6-latin"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Learn the first twenty elements in order of atomic number.",
+    "vars": {},
+    "example": [
+     "{join(firstTwenty(), ', ')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-6-order-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "symbols-valency"
+     ],
+     "vars": {
+      "A": {
+       "sample": [
+        "firstTwenty()",
+        4
+       ]
+      }
+     },
+     "prompt": "Put these elements in order of atomic number, smallest first.",
+     "items": [
+      {
+       "text": "{nameOf(A[0])}",
+       "key": "atomicNumber(A[0])"
+      },
+      {
+       "text": "{nameOf(A[1])}",
+       "key": "atomicNumber(A[1])"
+      },
+      {
+       "text": "{nameOf(A[2])}",
+       "key": "atomicNumber(A[2])"
+      },
+      {
+       "text": "{nameOf(A[3])}",
+       "key": "atomicNumber(A[3])"
+      }
+     ],
+     "order": "asc"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-6-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "a": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "b": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    },
+    "c": {
+     "pick": [
+      "H",
+      "He",
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Ne",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "Ar",
+      "K",
+      "Ca"
+     ]
+    }
+   },
+   "prompt": "What is the name of the element with symbol {s}?",
+   "correct": "{nameOf(s)}",
+   "distractors": [
+    {
+     "text": "{nameOf(a)}",
+     "misconception": "a"
+    },
+    {
+     "text": "{nameOf(b)}",
+     "misconception": "b"
+    },
+    {
+     "text": "{nameOf(c)}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "a",
+     "explain": "{nameOf(a)} has the symbol {a}."
+    },
+    {
+     "id": "b",
+     "explain": "{nameOf(b)} has the symbol {b}."
+    },
+    {
+     "id": "c",
+     "explain": "{nameOf(c)} has the symbol {c}."
+    }
+   ],
+   "solution": [
+    "{s} is the symbol of {answer}."
+   ],
+   "where": [
+    "a != s && b != s && c != s && a != b && b != c && a != c"
+   ]
+  },
+  {
+   "id": "k2-6-latin",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Na",
+       "So"
+      ],
+      [
+       "Fe",
+       "Ir"
+      ],
+      [
+       "Cu",
+       "Co"
+      ],
+      [
+       "Ag",
+       "Si"
+      ],
+      [
+       "Sn",
+       "Ti"
+      ],
+      [
+       "Pb",
+       "Le"
+      ],
+      [
+       "Au",
+       "Go"
+      ]
+     ]
+    },
+    "s": {
+     "expr": "X[0]"
+    },
+    "E": {
+     "expr": "X[1]"
+    }
+   },
+   "prompt": "What is the symbol of {nameOf(s)}?",
+   "correct": "{s}",
+   "distractors": [
+    {
+     "text": "{E}",
+     "misconception": "english"
+    },
+    {
+     "text": "{upper(s)}",
+     "misconception": "caps"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "english",
+     "explain": "This symbol comes from the Latin name, {latinName(s)}, not the English name."
+    },
+    {
+     "id": "caps",
+     "explain": "Only the first letter is a capital."
+    }
+   ],
+   "solution": [
+    "{nameOf(s)} comes from the Latin {latinName(s)}.",
+    "Its symbol is {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "k2-6-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "symbols-valency"
+   ],
+   "vars": {
+    "A": {
+     "sample": [
+      "firstTwenty()",
+      4
+     ]
+    }
+   },
+   "prompt": "Put these elements in order of atomic number, smallest first.",
+   "items": [
+    {
+     "text": "{nameOf(A[0])}",
+     "key": "atomicNumber(A[0])"
+    },
+    {
+     "text": "{nameOf(A[1])}",
+     "key": "atomicNumber(A[1])"
+    },
+    {
+     "text": "{nameOf(A[2])}",
+     "key": "atomicNumber(A[2])"
+    },
+    {
+     "text": "{nameOf(A[3])}",
+     "key": "atomicNumber(A[3])"
+    }
+   ],
+   "order": "asc"
+  },
+  {
+   "id": "k2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "symbols-valency"
+   ],
+   "prompt": "One symbol is written wrongly. Which one?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ca for calcium",
+      "truth": "true"
+     },
+     {
+      "text": "Cl for chlorine",
+      "truth": "true"
+     },
+     {
+      "text": "Na for sodium",
+      "truth": "true"
+     },
+     {
+      "text": "Fe for iron",
+      "truth": "true"
+     },
+     {
+      "text": "Mg for magnesium",
+      "truth": "true"
+     },
+     {
+      "text": "K for potassium",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "CA for calcium",
+      "truth": "false",
+      "explain": "Only the first letter is a capital: Ca."
+     },
+     {
+      "text": "So for sodium",
+      "truth": "false",
+      "explain": "Sodium's symbol comes from Latin natrium: Na."
+     },
+     {
+      "text": "Ir for iron",
+      "truth": "false",
+      "explain": "Iron's symbol comes from Latin ferrum: Fe."
+     },
+     {
+      "text": "mg for magnesium",
+      "truth": "false",
+      "explain": "The first letter is a capital: Mg."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

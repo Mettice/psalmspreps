@@ -1,0 +1,464 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "b2-2",
+   "name": "Natural vegetative multiplication"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Vegetative propagation is asexual reproduction from a part of the plant that is not a flower (a stem, root or leaf). It happens naturally through special organs:\n• bulb: a short stem with fleshy leaves storing food (onion, garlic);\n• corm: a short swollen underground stem (cocoyam);\n• rhizome: a horizontal underground stem (ginger, spear grass);\n• stem tuber: a swollen underground stem tip with buds called eyes (Irish potato);\n• root tuber: a swollen root (sweet potato);\n• sucker: a shoot from the base of the stem (banana, plantain);\n• runner (stolon): a stem growing along the ground (some grasses);\n• leaves: buds on the leaf edge grow into plantlets (Bryophyllum).\nMost of these organs store food, which feeds the new plant.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "Irish potato"
+  },
+  "problem": "How does an {p} reproduce naturally without seeds?",
+  "steps": [
+   "An Irish potato is a stem tuber: a swollen underground stem full of stored food.",
+   "Its buds (eyes) grow into new shoots, using the stored food, and each forms a new plant."
+  ],
+  "answer": "By stem tubers: the buds (eyes) grow into new plants.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "Vegetative propagation grows new plants from stems, roots or leaves, not from seeds.",
+    "vars": {},
+    "example": [
+     "A banana sucker becomes a new banana plant.",
+     "A ginger rhizome grows new shoots."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-2-organ"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Underground storage organs feed the new plant: bulbs, corms, rhizomes, tubers.",
+    "vars": {},
+    "example": [
+     "Onion: bulb. Cocoyam: corm.",
+     "Irish potato: stem tuber. Sweet potato: root tuber."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-2-store"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Some plants make new plants from their leaves or from runners.",
+    "vars": {},
+    "example": [
+     "Bryophyllum: plantlets on the leaf edges.",
+     "Some grasses: runners along the ground."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-2-leaf-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "plant-reproduction"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which plant forms new plantlets on the edges of its leaves?",
+         "r": "Bryophyllum",
+         "w": [
+          "maize",
+          "mango",
+          "groundnut"
+         ],
+         "e": [
+          "Maize grows from seeds.",
+          "Mango grows from seeds or grafts.",
+          "Groundnut grows from seeds."
+         ],
+         "y": "Bryophyllum has buds on its leaf edges."
+        },
+        {
+         "q": "Banana and plantain reproduce naturally by …",
+         "r": "suckers",
+         "w": [
+          "seeds",
+          "bulbs",
+          "leaves"
+         ],
+         "e": [
+          "Cultivated bananas have no good seeds.",
+          "They have no bulbs.",
+          "Their leaves do not make plantlets."
+         ],
+         "y": "Suckers grow from the base of the stem."
+        },
+        {
+         "q": "Spear grass is hard to get rid of because it spreads by …",
+         "r": "underground rhizomes",
+         "w": [
+          "bulbs",
+          "fruits",
+          "flowers only"
+         ],
+         "e": [
+          "It has no bulbs.",
+          "It spreads mainly by rhizomes.",
+          "Its rhizomes spread it."
+         ],
+         "y": "Pieces of rhizome left in the soil grow again."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-2-organ",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Match each plant to the organ it uses for natural vegetative propagation.",
+   "pool": [
+    {
+     "left": "onion",
+     "right": "bulb"
+    },
+    {
+     "left": "garlic",
+     "right": "bulb"
+    },
+    {
+     "left": "cocoyam",
+     "right": "corm"
+    },
+    {
+     "left": "ginger",
+     "right": "rhizome"
+    },
+    {
+     "left": "Irish potato",
+     "right": "stem tuber"
+    },
+    {
+     "left": "sweet potato",
+     "right": "root tuber"
+    },
+    {
+     "left": "banana",
+     "right": "sucker"
+    },
+    {
+     "left": "plantain",
+     "right": "sucker"
+    },
+    {
+     "left": "Bryophyllum",
+     "right": "leaf buds"
+    },
+    {
+     "left": "spear grass",
+     "right": "rhizome"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "b2-2-store",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is an Irish potato?",
+       "r": "a stem tuber",
+       "w": [
+        "a root tuber",
+        "a bulb",
+        "a seed"
+       ],
+       "e": [
+        "A root tuber is a swollen root, like sweet potato.",
+        "A bulb has fleshy leaves, like onion.",
+        "It is not a seed."
+       ],
+       "y": "It is a swollen stem with buds (eyes)."
+      },
+      {
+       "q": "What is a sweet potato?",
+       "r": "a root tuber",
+       "w": [
+        "a stem tuber",
+        "a corm",
+        "a rhizome"
+       ],
+       "e": [
+        "Sweet potato is a swollen root.",
+        "A corm is a short swollen stem.",
+        "A rhizome is a horizontal stem."
+       ],
+       "y": "It is a swollen root."
+      },
+      {
+       "q": "Why do most vegetative organs contain stored food?",
+       "r": "to feed the new plant until it can make its own food",
+       "w": [
+        "to attract insects",
+        "to make seeds",
+        "to keep the soil wet"
+       ],
+       "e": [
+        "That is the job of petals.",
+        "Seeds come from flowers.",
+        "That is not their job."
+       ],
+       "y": "Stored food feeds the young shoots."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-2-leaf",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which plant forms new plantlets on the edges of its leaves?",
+       "r": "Bryophyllum",
+       "w": [
+        "maize",
+        "mango",
+        "groundnut"
+       ],
+       "e": [
+        "Maize grows from seeds.",
+        "Mango grows from seeds or grafts.",
+        "Groundnut grows from seeds."
+       ],
+       "y": "Bryophyllum has buds on its leaf edges."
+      },
+      {
+       "q": "Banana and plantain reproduce naturally by …",
+       "r": "suckers",
+       "w": [
+        "seeds",
+        "bulbs",
+        "leaves"
+       ],
+       "e": [
+        "Cultivated bananas have no good seeds.",
+        "They have no bulbs.",
+        "Their leaves do not make plantlets."
+       ],
+       "y": "Suckers grow from the base of the stem."
+      },
+      {
+       "q": "Spear grass is hard to get rid of because it spreads by …",
+       "r": "underground rhizomes",
+       "w": [
+        "bulbs",
+        "fruits",
+        "flowers only"
+       ],
+       "e": [
+        "It has no bulbs.",
+        "It spreads mainly by rhizomes.",
+        "Its rhizomes spread it."
+       ],
+       "y": "Pieces of rhizome left in the soil grow again."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "plant-reproduction"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Onion reproduces by bulbs.",
+      "truth": "true"
+     },
+     {
+      "text": "Ginger has a rhizome.",
+      "truth": "true"
+     },
+     {
+      "text": "Cocoyam has a corm.",
+      "truth": "true"
+     },
+     {
+      "text": "Plantain reproduces by suckers.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Sweet potato is a stem tuber.",
+      "truth": "false",
+      "explain": "Sweet potato is a root tuber; Irish potato is a stem tuber."
+     },
+     {
+      "text": "Vegetative propagation uses flowers.",
+      "truth": "false",
+      "explain": "It uses stems, roots or leaves, not flowers."
+     },
+     {
+      "text": "A bulb is a swollen root.",
+      "truth": "false",
+      "explain": "A bulb is a short stem with fleshy leaves."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

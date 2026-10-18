@@ -1,0 +1,471 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-11",
+   "name": "Thermal and electrical insulation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A conductor lets heat or electricity pass through it easily. Metals are good conductors of both: copper, aluminium, iron, silver.\nAn insulator does not let heat or electricity pass easily: plastic, wood, rubber, glass, dry cloth, air.\nThermal insulation keeps heat in or out: wooden or plastic handles on pots, a flask with a vacuum, woollen clothes, ceilings under a tin roof, cold boxes for fish.\nElectrical insulation keeps us safe: plastic covering on wires, rubber gloves and boots for electricians, plastic plugs and switches.\nWater with salts in it conducts electricity: never touch switches with wet hands.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "a cooking pot"
+  },
+  "problem": "Explain why {p} is made of aluminium but has a plastic handle.",
+  "steps": [
+   "Aluminium is a good conductor of heat: it carries heat from the fire to the food.",
+   "Plastic is an insulator: the handle stays cool enough to hold."
+  ],
+  "answer": "The metal conducts heat to the food; the plastic handle insulates the hand.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "Metals conduct heat and electricity. Plastic, wood, rubber and glass are insulators.",
+    "vars": {},
+    "example": [
+     "Copper wire carries current.",
+     "Its plastic covering is an insulator."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-11-sort"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Thermal insulators keep heat in or out.",
+    "vars": {},
+    "example": [
+     "A flask keeps tea hot.",
+     "A ceiling keeps a house cool under a tin roof."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-11-thermal"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "Electrical insulators protect us from electric shocks.",
+    "vars": {},
+    "example": [
+     "Plastic covers wires and plugs.",
+     "Electricians wear rubber gloves and boots."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-11-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "heat-electricity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are electric wires covered with plastic?",
+         "r": "Plastic is an electrical insulator and protects us from shocks.",
+         "w": [
+          "Plastic makes the current faster.",
+          "Plastic is a conductor.",
+          "Plastic makes the wire heavier."
+         ],
+         "e": [
+          "Plastic does not speed up current.",
+          "Plastic is an insulator.",
+          "Weight is not the reason."
+         ],
+         "y": "The plastic insulates the wire."
+        },
+        {
+         "q": "Why must you not touch a switch with wet hands?",
+         "r": "Water with salts conducts electricity.",
+         "w": [
+          "Water is an insulator.",
+          "The switch will rust at once.",
+          "Wet hands are slippery only."
+         ],
+         "e": [
+          "Tap water and sweat conduct.",
+          "That is not the danger.",
+          "The danger is an electric shock."
+         ],
+         "y": "Wet hands can let current pass through the body."
+        },
+        {
+         "q": "What should an electrician wear?",
+         "r": "rubber gloves and boots",
+         "w": [
+          "metal gloves",
+          "wet clothes",
+          "a copper bracelet"
+         ],
+         "e": [
+          "Metal conducts.",
+          "Wet clothes conduct.",
+          "Copper conducts."
+         ],
+         "y": "Rubber is an electrical insulator."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-11-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Sort the materials: conductor or insulator?",
+   "pool": [
+    {
+     "left": "copper",
+     "right": "conductor"
+    },
+    {
+     "left": "aluminium",
+     "right": "conductor"
+    },
+    {
+     "left": "iron",
+     "right": "conductor"
+    },
+    {
+     "left": "silver",
+     "right": "conductor"
+    },
+    {
+     "left": "steel spoon",
+     "right": "conductor"
+    },
+    {
+     "left": "plastic",
+     "right": "insulator"
+    },
+    {
+     "left": "wood",
+     "right": "insulator"
+    },
+    {
+     "left": "rubber",
+     "right": "insulator"
+    },
+    {
+     "left": "glass",
+     "right": "insulator"
+    },
+    {
+     "left": "dry cloth",
+     "right": "insulator"
+    },
+    {
+     "left": "air",
+     "right": "insulator"
+    }
+   ],
+   "pick": 6,
+   "groups": true,
+   "group_order": [
+    "conductor",
+    "insulator"
+   ]
+  },
+  {
+   "id": "p2-11-thermal",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do pots have wooden or plastic handles?",
+       "r": "Wood and plastic are thermal insulators.",
+       "w": [
+        "They are cheaper than metal.",
+        "They conduct heat well.",
+        "They look nice."
+       ],
+       "e": [
+        "Cost is not the reason given.",
+        "They do the opposite.",
+        "The reason is safety from heat."
+       ],
+       "y": "Insulating handles stay cool."
+      },
+      {
+       "q": "Why do fish sellers keep fish in a cold box?",
+       "r": "The box insulates the fish from the heat outside.",
+       "w": [
+        "The box makes the fish heavier.",
+        "The box conducts heat in.",
+        "The box cooks the fish."
+       ],
+       "e": [
+        "Weight is not the reason.",
+        "It does the opposite.",
+        "It keeps them cold."
+       ],
+       "y": "An insulated box keeps heat out."
+      },
+      {
+       "q": "Which keeps a drink hot longest?",
+       "r": "a vacuum flask",
+       "w": [
+        "a metal cup",
+        "a glass bottle in the sun",
+        "an open bowl"
+       ],
+       "e": [
+        "Metal conducts heat away.",
+        "Glass loses heat and the sun is not insulation.",
+        "An open bowl loses heat quickly."
+       ],
+       "y": "A vacuum flask is a good thermal insulator."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-11-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are electric wires covered with plastic?",
+       "r": "Plastic is an electrical insulator and protects us from shocks.",
+       "w": [
+        "Plastic makes the current faster.",
+        "Plastic is a conductor.",
+        "Plastic makes the wire heavier."
+       ],
+       "e": [
+        "Plastic does not speed up current.",
+        "Plastic is an insulator.",
+        "Weight is not the reason."
+       ],
+       "y": "The plastic insulates the wire."
+      },
+      {
+       "q": "Why must you not touch a switch with wet hands?",
+       "r": "Water with salts conducts electricity.",
+       "w": [
+        "Water is an insulator.",
+        "The switch will rust at once.",
+        "Wet hands are slippery only."
+       ],
+       "e": [
+        "Tap water and sweat conduct.",
+        "That is not the danger.",
+        "The danger is an electric shock."
+       ],
+       "y": "Wet hands can let current pass through the body."
+      },
+      {
+       "q": "What should an electrician wear?",
+       "r": "rubber gloves and boots",
+       "w": [
+        "metal gloves",
+        "wet clothes",
+        "a copper bracelet"
+       ],
+       "e": [
+        "Metal conducts.",
+        "Wet clothes conduct.",
+        "Copper conducts."
+       ],
+       "y": "Rubber is an electrical insulator."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Copper is a good conductor of electricity.",
+      "truth": "true"
+     },
+     {
+      "text": "Rubber is an electrical insulator.",
+      "truth": "true"
+     },
+     {
+      "text": "Air is a poor conductor of heat.",
+      "truth": "true"
+     },
+     {
+      "text": "Metals conduct heat well.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plastic is a good conductor of electricity.",
+      "truth": "false",
+      "explain": "Plastic is an insulator."
+     },
+     {
+      "text": "Wood conducts heat better than iron.",
+      "truth": "false",
+      "explain": "Iron, a metal, conducts heat much better."
+     },
+     {
+      "text": "Wet hands make it safe to touch switches.",
+      "truth": "false",
+      "explain": "Water conducts electricity: it is dangerous."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

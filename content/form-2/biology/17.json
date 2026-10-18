@@ -1,0 +1,339 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "b2-17",
+   "name": "Seed germination"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Germination is the growth of a seed into a seedling. The seed takes in water through the micropyle, swells, the testa splits, the radicle grows down and the plumule grows up.\nConditions needed:\n• water (to soften the testa and start the enzymes that use the stored food);\n• oxygen (air), for respiration to release energy;\n• a suitable temperature (warmth), for the enzymes to work.\nLight is not needed for germination (seeds germinate in the dark soil), but the seedling needs it later to make food.\nTypes of germination:\n• epigeal: the cotyledons are carried above the ground (bean, groundnut, pawpaw);\n• hypogeal: the cotyledons stay below the ground (maize, pea, mango).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "maize"
+  },
+  "problem": "Seeds of {s} are planted in dry sand in a warm room. They do not germinate. Explain, and say what must be added.",
+  "steps": [
+   "Germination needs water, oxygen and warmth.",
+   "The sand is dry, so the seeds cannot take in water and start using their stored food.",
+   "Water must be added (with air in the soil and warmth already there)."
+  ],
+  "answer": "No water; add water.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "Germination is the growth of a seed into a seedling.",
+    "vars": {},
+    "example": [
+     "The radicle comes out first and grows down.",
+     "Then the plumule grows up."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-17-what"
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "A seed needs water, oxygen and warmth to germinate. It does not need light.",
+    "vars": {},
+    "example": [
+     "Seeds germinate in the dark soil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-17-need"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "Epigeal: cotyledons above the ground. Hypogeal: cotyledons below.",
+    "vars": {},
+    "example": [
+     "Bean: epigeal.",
+     "Maize: hypogeal."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-17-type-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "seeds"
+     ],
+     "prompt": "Sort the seeds by their type of germination.",
+     "pool": [
+      {
+       "left": "bean",
+       "right": "epigeal"
+      },
+      {
+       "left": "groundnut",
+       "right": "epigeal"
+      },
+      {
+       "left": "pawpaw",
+       "right": "epigeal"
+      },
+      {
+       "left": "maize",
+       "right": "hypogeal"
+      },
+      {
+       "left": "pea",
+       "right": "hypogeal"
+      },
+      {
+       "left": "mango",
+       "right": "hypogeal"
+      }
+     ],
+     "pick": 4,
+     "groups": true,
+     "group_order": [
+      "epigeal",
+      "hypogeal"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-17-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is germination?",
+       "r": "the growth of a seed into a seedling",
+       "w": [
+        "the spreading of seeds",
+        "the making of pollen",
+        "the ripening of fruit"
+       ],
+       "e": [
+        "That is dispersal.",
+        "Anthers make pollen.",
+        "That is ripening."
+       ],
+       "y": "A seed starts to grow."
+      },
+      {
+       "q": "Which part comes out of the seed first?",
+       "r": "the radicle",
+       "w": [
+        "the plumule",
+        "the leaves",
+        "the flower"
+       ],
+       "e": [
+        "The plumule comes after.",
+        "Leaves come later.",
+        "Flowers come much later."
+       ],
+       "y": "The radicle grows out first and anchors the seedling."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-17-need",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Which condition does a seed need to germinate?",
+   "pool": {
+    "right": [
+     {
+      "text": "water",
+      "truth": "true"
+     },
+     {
+      "text": "oxygen",
+      "truth": "true"
+     },
+     {
+      "text": "a suitable temperature",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "light",
+      "truth": "false",
+      "explain": "Seeds germinate in the dark soil; the seedling needs light later."
+     },
+     {
+      "text": "fertiliser",
+      "truth": "false",
+      "explain": "The seed uses its stored food."
+     },
+     {
+      "text": "darkness only",
+      "truth": "false",
+      "explain": "Darkness is not needed either; water, oxygen and warmth are."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "b2-17-type",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Sort the seeds by their type of germination.",
+   "pool": [
+    {
+     "left": "bean",
+     "right": "epigeal"
+    },
+    {
+     "left": "groundnut",
+     "right": "epigeal"
+    },
+    {
+     "left": "pawpaw",
+     "right": "epigeal"
+    },
+    {
+     "left": "maize",
+     "right": "hypogeal"
+    },
+    {
+     "left": "pea",
+     "right": "hypogeal"
+    },
+    {
+     "left": "mango",
+     "right": "hypogeal"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "epigeal",
+    "hypogeal"
+   ]
+  },
+  {
+   "id": "b2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "seeds"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Seeds need water to germinate.",
+      "truth": "true"
+     },
+     {
+      "text": "Seeds need oxygen to germinate.",
+      "truth": "true"
+     },
+     {
+      "text": "Bean germination is epigeal.",
+      "truth": "true"
+     },
+     {
+      "text": "The radicle grows downwards.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Seeds need light to germinate.",
+      "truth": "false",
+      "explain": "They germinate in the dark; light is needed later."
+     },
+     {
+      "text": "Maize germination is epigeal.",
+      "truth": "false",
+      "explain": "Maize is hypogeal: its cotyledon stays underground."
+     },
+     {
+      "text": "The plumule grows into the root.",
+      "truth": "false",
+      "explain": "The plumule becomes the shoot."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

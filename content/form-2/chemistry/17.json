@@ -1,0 +1,366 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "k2-17",
+   "name": "Reactivity of families"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Within a family, reactivity changes in a regular way going down the group:\n• Alkali metals become MORE reactive down the group: lithium < sodium < potassium. The outer electron is further from the nucleus and is lost more easily. Lithium fizzes gently in water; potassium burns with a lilac flame.\n• Halogens become LESS reactive down the group: fluorine > chlorine > bromine > iodine. A more reactive halogen displaces a less reactive one from its compounds (chlorine + potassium iodide → potassium chloride + iodine).\n• Noble gases are unreactive because their outer shell is full.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "lithium",
+   "b": "potassium"
+  },
+  "problem": "Put {a}, sodium and {b} in order of reactivity with water, most reactive first, and explain.",
+  "steps": [
+   "Reactivity of alkali metals increases down the group.",
+   "Order: {b}, sodium, {a}.",
+   "Down the group the outer electron is further from the nucleus, so it is lost more easily."
+  ],
+  "answer": "{b} > sodium > {a}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "Alkali metals get more reactive down the group.",
+    "vars": {},
+    "example": [
+     "Lithium: gentle fizzing in water.",
+     "Potassium: bursts into a lilac flame."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-17-alkali"
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "Halogens get less reactive down the group.",
+    "vars": {},
+    "example": [
+     "Fluorine is the most reactive.",
+     "Iodine is the least reactive of the four."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-17-halogen"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "A more reactive halogen pushes a less reactive one out of its compound.",
+    "vars": {},
+    "example": [
+     "Chlorine + potassium iodide → potassium chloride + iodine.",
+     "Iodine cannot push out chlorine."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-17-displace-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "periodic-table"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Chlorine is bubbled into potassium iodide solution. What happens?",
+         "r": "Iodine is pushed out, because chlorine is more reactive.",
+         "w": [
+          "Nothing, because iodine is more reactive.",
+          "Chlorine is pushed out.",
+          "Potassium becomes a gas."
+         ],
+         "e": [
+          "Chlorine is more reactive than iodine.",
+          "Chlorine displaces iodine, not the reverse.",
+          "Potassium stays in the compound."
+         ],
+         "y": "A more reactive halogen displaces a less reactive one."
+        },
+        {
+         "q": "Why is potassium more reactive than sodium?",
+         "r": "Its outer electron is further from the nucleus, so it is lost more easily.",
+         "w": [
+          "It has fewer shells.",
+          "It is a halogen.",
+          "It has a full outer shell."
+         ],
+         "e": [
+          "It has more shells.",
+          "It is an alkali metal.",
+          "It has one outer electron."
+         ],
+         "y": "Further from the nucleus, the electron is held less tightly."
+        },
+        {
+         "q": "Why do noble gases not react?",
+         "r": "Their outer shell is full.",
+         "w": [
+          "They are too heavy.",
+          "They are metals.",
+          "They have no electrons."
+         ],
+         "e": [
+          "Mass is not the reason.",
+          "They are non-metals.",
+          "They have electrons."
+         ],
+         "y": "A full outer shell is stable."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-17-alkali",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Put the alkali metals in order of reactivity, MOST reactive first.",
+   "items": [
+    {
+     "text": "potassium"
+    },
+    {
+     "text": "sodium"
+    },
+    {
+     "text": "lithium"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "k2-17-halogen",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Put the halogens in order of reactivity, MOST reactive first.",
+   "items": [
+    {
+     "text": "fluorine"
+    },
+    {
+     "text": "chlorine"
+    },
+    {
+     "text": "bromine"
+    },
+    {
+     "text": "iodine"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "k2-17-displace",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chlorine is bubbled into potassium iodide solution. What happens?",
+       "r": "Iodine is pushed out, because chlorine is more reactive.",
+       "w": [
+        "Nothing, because iodine is more reactive.",
+        "Chlorine is pushed out.",
+        "Potassium becomes a gas."
+       ],
+       "e": [
+        "Chlorine is more reactive than iodine.",
+        "Chlorine displaces iodine, not the reverse.",
+        "Potassium stays in the compound."
+       ],
+       "y": "A more reactive halogen displaces a less reactive one."
+      },
+      {
+       "q": "Why is potassium more reactive than sodium?",
+       "r": "Its outer electron is further from the nucleus, so it is lost more easily.",
+       "w": [
+        "It has fewer shells.",
+        "It is a halogen.",
+        "It has a full outer shell."
+       ],
+       "e": [
+        "It has more shells.",
+        "It is an alkali metal.",
+        "It has one outer electron."
+       ],
+       "y": "Further from the nucleus, the electron is held less tightly."
+      },
+      {
+       "q": "Why do noble gases not react?",
+       "r": "Their outer shell is full.",
+       "w": [
+        "They are too heavy.",
+        "They are metals.",
+        "They have no electrons."
+       ],
+       "e": [
+        "Mass is not the reason.",
+        "They are non-metals.",
+        "They have electrons."
+       ],
+       "y": "A full outer shell is stable."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "periodic-table"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Potassium is more reactive than lithium.",
+      "truth": "true"
+     },
+     {
+      "text": "Fluorine is more reactive than iodine.",
+      "truth": "true"
+     },
+     {
+      "text": "Chlorine displaces iodine from potassium iodide.",
+      "truth": "true"
+     },
+     {
+      "text": "Noble gases are unreactive.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Lithium is more reactive than potassium.",
+      "truth": "false",
+      "explain": "Alkali metals get more reactive down the group: potassium is more reactive."
+     },
+     {
+      "text": "Iodine is the most reactive halogen.",
+      "truth": "false",
+      "explain": "Fluorine is the most reactive; iodine the least of the four."
+     },
+     {
+      "text": "Iodine displaces chlorine from potassium chloride.",
+      "truth": "false",
+      "explain": "Iodine is less reactive, so it cannot displace chlorine."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

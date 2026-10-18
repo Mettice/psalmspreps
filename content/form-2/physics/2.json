@@ -1,0 +1,328 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p2-2",
+   "name": "Interpreting data and drawing conclusions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To interpret data, look for a pattern, often on a graph.\n• The quantity we change goes along the bottom (x-axis); the quantity we measure goes up the side (y-axis).\n• Read a value: go up from the x value to the line, then across to the y-axis.\n• The trend: as x increases, y increases, decreases or stays the same. A straight line through 0 means y is proportional to x: double x, double y.\n• The rate of increase is how much y goes up for each 1 unit of x.\nA conclusion answers the question of the experiment using the data: “As the time increases, the distance increases steadily.” It must not claim more than the data show.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 4,
+   "x": 3
+  },
+  "problem": "A trolley's distance is measured every second: {readings([0, k, 2 * k, 3 * k, 4 * k])} m at the times {readings([0, 1, 2, 3, 4])} s. Describe the trend and find the distance at {x} s.",
+  "steps": [
+   "Each second the distance increases by the same amount, {k} m: the trend is a steady increase.",
+   "At {x} s the distance is {x} × {k} = {x * k} m."
+  ],
+  "answer": "Steady increase of {k} m each second; {x * k} m at {x} s.",
+  "checks": [
+   "x * k == 12"
+  ],
+  "figure": "lineGraph([0, 1, 2, 3, 4], [0, k, 2 * k, 3 * k, 4 * k], 'time (s)', 'distance (m)')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "To read a graph, go up from the x value to the line, then across to the y-axis.",
+    "vars": {
+     "k": 5,
+     "x": 2
+    },
+    "example": [
+     "At {x} s, go up to the line and across: {x * k} m."
+    ],
+    "checks": [],
+    "figure": "lineGraph([0, 1, 2, 3, 4], [0, k, 2 * k, 3 * k, 4 * k], 'time (s)', 'distance (m)')",
+    "check": {
+     "ref": "p2-2-read"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "The trend tells what happens to y as x increases: it increases, decreases or stays the same.",
+    "vars": {},
+    "example": [
+     "A line going up from left to right: y increases.",
+     "A line going down: y decreases."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-2-trend"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "A conclusion uses the data to answer the question, without claiming more than the data show.",
+    "vars": {},
+    "example": [
+     "Good: “As the mass increases, the stretch increases.”",
+     "Too much: “Every spring in the world stretches the same.”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-2-conclude"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-2-read",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      2,
+      3,
+      4,
+      5,
+      10
+     ]
+    },
+    "xs": {
+     "expr": "[0, 1, 2, 3, 4, 5]"
+    },
+    "x": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "The graph shows the distance travelled by a trolley. What distance has it travelled after {x} s?",
+   "answer": "x * k",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "x",
+     "explain": "{x} is the time; read the distance on the side axis."
+    }
+   ],
+   "solution": [
+    "Go up from {x} s to the line, then across to the distance axis.",
+    "The distance is {answer} m."
+   ],
+   "unit": "m",
+   "figure": "lineGraph(xs, [0, k, 2 * k, 3 * k, 4 * k, 5 * k], 'time (s)', 'distance (m)')"
+  },
+  {
+   "id": "p2-2-trend",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      [
+       "The longer a pot of water is heated, the higher its temperature.",
+       "the temperature increases with time",
+       "the temperature decreases with time",
+       "the temperature stays the same",
+       "The temperature goes up as time goes on."
+      ],
+      [
+       "The further a torch is from a wall, the dimmer the light on the wall.",
+       "the brightness decreases with distance",
+       "the brightness increases with distance",
+       "the brightness stays the same",
+       "The light gets dimmer as the distance grows."
+      ],
+      [
+       "The more mass hung on a spring, the longer the spring.",
+       "the length increases with mass",
+       "the length decreases with mass",
+       "the length stays the same",
+       "The spring gets longer as the mass grows."
+      ],
+      [
+       "As a hot drink cools in a room, its temperature falls.",
+       "the temperature decreases with time",
+       "the temperature increases with time",
+       "the temperature stays the same",
+       "The temperature goes down as time goes on."
+      ]
+     ]
+    }
+   },
+   "prompt": "{T[0]} What is the trend?",
+   "correct": "{T[1]}",
+   "distractors": [
+    {
+     "text": "{T[2]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{T[3]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "Read the description again: {T[4]}"
+    },
+    {
+     "id": "w2",
+     "explain": "Something changes: {T[4]}"
+    }
+   ],
+   "solution": [
+    "{T[4]}",
+    "So the trend is: {answer}."
+   ],
+   "show": 3
+  },
+  {
+   "id": "p2-2-rate",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      2,
+      3,
+      4,
+      5,
+      10
+     ]
+    },
+    "xs": {
+     "expr": "[0, 1, 2, 3, 4, 5]"
+    },
+    "one": 1,
+    "two": 2
+   },
+   "prompt": "From the graph, by how many metres does the distance increase each second?",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "total",
+     "wrong": "5 * k",
+     "explain": "That is the total after five seconds; the increase each second is {k} m."
+    }
+   ],
+   "solution": [
+    "Read two points: at {one} s the distance is {k} m, at {two} s it is {2 * k} m.",
+    "The increase each second is {2 * k} − {k} = {answer} m."
+   ],
+   "unit": "m",
+   "figure": "lineGraph(xs, [0, k, 2 * k, 3 * k, 4 * k, 5 * k], 'time (s)', 'distance (m)')"
+  },
+  {
+   "id": "p2-2-conclude",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "scientific-method"
+   ],
+   "prompt": "A pupil heated water and recorded that its temperature rose by the same amount every minute. Which conclusion is best?",
+   "pool": {
+    "right": [
+     {
+      "text": "As the heating time increases, the temperature of the water increases steadily.",
+      "truth": "true"
+     },
+     {
+      "text": "The temperature of the water rose at a steady rate while it was heated.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Water boils at every temperature.",
+      "truth": "false",
+      "explain": "The data do not show that."
+     },
+     {
+      "text": "All liquids heat up at the same rate as water.",
+      "truth": "false",
+      "explain": "Only water was tested: the data cannot say that."
+     },
+     {
+      "text": "The temperature went down while heating.",
+      "truth": "false",
+      "explain": "The data show it went up."
+     },
+     {
+      "text": "Heating water is dangerous.",
+      "truth": "false",
+      "explain": "That does not answer the question from the data."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "p2-2-proportional",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "scientific-method"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "t": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "Distance is proportional to time in this experiment: in {t} s the trolley goes {t * k} m. How far does it go in {2 * t} s?",
+   "answer": "2 * t * k",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "t * k + 2",
+     "explain": "Proportional means multiply: double the time gives double the distance."
+    }
+   ],
+   "solution": [
+    "Proportional: double the time, double the distance.",
+    "{t * k} × {two} = {answer} m."
+   ],
+   "unit": "m"
+  }
+ ]
+}
