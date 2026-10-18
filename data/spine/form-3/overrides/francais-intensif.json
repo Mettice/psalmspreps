@@ -1,0 +1,83 @@
+{
+  "subject": "francais-intensif",
+  "overrides": [
+    {
+      "id": "f3-fi-001",
+      "op": "resolve",
+      "seqs": [
+        3,
+        5,
+        9,
+        19,
+        23,
+        24,
+        30,
+        31,
+        39,
+        41,
+        42,
+        46,
+        48,
+        49,
+        57,
+        61,
+        62,
+        66,
+        68,
+        71,
+        72,
+        75,
+        76,
+        82,
+        83,
+        87,
+        92,
+        93,
+        97,
+        98,
+        103,
+        104,
+        109,
+        110,
+        114,
+        115,
+        119,
+        120,
+        125,
+        129,
+        130
+      ],
+      "check": "duplicate-title",
+      "reason": "The set-book reading slot repeats every week on purpose; every row is kept (proposal 1).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-fi-002",
+      "op": "resolve",
+      "seqs": [
+        88,
+        101
+      ],
+      "check": "duplicate-title",
+      "reason": "Two drama sessions (saynètes), both kept (proposal 2).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-fi-003",
+      "op": "set",
+      "seq": 24,
+      "field": "title",
+      "value": "Initiation à la littérature : lecture suivie d’une œuvre au programme",
+      "expect": {
+        "24": {
+          "title": "initiation à la littérature: Lecture suivie d'une œuvre au"
+        }
+      },
+      "reason": "Title cut off on the sheet; completed as on row 23 (proposal 5).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ]
+}

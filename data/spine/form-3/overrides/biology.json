@@ -1,0 +1,23 @@
+{
+  "subject": "biology",
+  "overrides": [
+    {
+      "id": "f3-bio-001",
+      "op": "set",
+      "seq": 22,
+      "field": "title",
+      "value": "Classification: Integration",
+      "expect": {
+        "22": {
+          "title": "Claasification: Integration"
+        }
+      },
+      "resolves": [
+        "assessment-target-unknown"
+      ],
+      "reason": "Typo 'Claasification' (proposal 8).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ]
+}

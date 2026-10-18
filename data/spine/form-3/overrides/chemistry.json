@@ -1,0 +1,29 @@
+{
+  "subject": "chemistry",
+  "overrides": [
+    {
+      "id": "f3-chem-001",
+      "op": "set",
+      "seq": 13,
+      "field": "title",
+      "value": "Electronic Configuration and Chemical Properties (Alkaline earth metals and halogens)",
+      "resolves": [
+        "near-duplicate-title"
+      ],
+      "reason": "Two lessons: alkali metals (row 12) and alkaline earth metals (row 13), written with the usual name (proposal 9).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-chem-002",
+      "op": "resolve",
+      "seqs": [
+        12
+      ],
+      "check": "near-duplicate-title",
+      "reason": "Two different lessons (proposal 9).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ]
+}

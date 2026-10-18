@@ -1,6 +1,6 @@
 # Form 3 curriculum (and Form 2 Home Economics): fixes to the sheets
 
-**Status: waiting for Dion's approval.** Nothing below has been applied. Each approved fix becomes a logged override
+**Status: approved by Dion on 2026-10-18 (“approve all”) and applied.** Every Form 3 subject now has 0 errors. Each fix is a logged override
 (reason + approved by Dion) in `data/spine/form-3/overrides/`; the sheets themselves stay untouched.
 
 The 13 Form 3 progression sheets were read by `python tools/spine/build.py --class form-3` into `data/spine/form-3/`

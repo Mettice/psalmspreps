@@ -87,7 +87,10 @@
             "chapter_cell": "",
             "title": "Leçon5. Lecture : Texte adossé au module",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-002"
+          ]
         },
         {
           "seq": 6,
@@ -183,7 +186,10 @@
             "chapter_cell": "",
             "title": "Leçon11. Expression orale : Sketches adossés au module",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-002"
+          ]
         },
         {
           "seq": 12,
@@ -360,7 +366,10 @@
             "chapter_cell": "",
             "title": "Leçon21. Lecture : Textes adossés au module",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-002"
+          ]
         },
         {
           "seq": 23,
@@ -622,7 +631,10 @@
             "chapter_cell": "",
             "title": "Leçon36. Expression orale : Interprétation d’images",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-001"
+          ]
         },
         {
           "seq": 39,
@@ -638,7 +650,10 @@
             "chapter_cell": "",
             "title": "Leçon37. Lecture : Textes adossés au module",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-002"
+          ]
         },
         {
           "seq": 40,
@@ -718,7 +733,10 @@
             "chapter_cell": "",
             "title": "Leçon42. Lecture : Texte adossé au module",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-002"
+          ]
         },
         {
           "seq": 45,
@@ -766,7 +784,10 @@
             "chapter_cell": "",
             "title": "Leçon45. Expression orale : Interprétation d'images",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-001"
+          ]
         },
         {
           "seq": 48,
@@ -1157,7 +1178,10 @@
             "chapter_cell": "",
             "title": "Leçon67. Expression orale : Chansons récitations, jeux de rôle, dialogues, interprétation d’images",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-001"
+          ]
         },
         {
           "seq": 72,
@@ -1173,7 +1197,10 @@
             "chapter_cell": "",
             "title": "Leçon68. Lecture : Textes adossés au module",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-fr-002"
+          ]
         },
         {
           "seq": 73,
@@ -1291,7 +1318,22 @@
       ]
     }
   ],
-  "overrides_applied": [],
+  "overrides_applied": [
+    {
+      "id": "f3-fr-001",
+      "op": "resolve",
+      "reason": "The same kind of activity with different material, both kept (proposal 3).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-fr-002",
+      "op": "resolve",
+      "reason": "The same kind of activity with different material, both kept (proposal 3).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ],
   "breaks": [
     {
       "type": "evaluation",

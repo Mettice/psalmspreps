@@ -352,7 +352,7 @@
           "seq": 22,
           "lesson_no": 22,
           "chapter": "Classification(Nature and Variety of life forms)",
-          "title": "Claasification: Integration",
+          "title": "Classification: Integration",
           "start": "2026-10-05",
           "end": "2026-11-27",
           "kind": "integration",
@@ -363,7 +363,10 @@
             "title": "Lesson 22: Claasification: Integration",
             "separator": ":"
           },
-          "assesses": null
+          "overrides": [
+            "f3-bio-001"
+          ],
+          "assesses": "Classes of food"
         },
         {
           "seq": 23,
@@ -1094,7 +1097,15 @@
       ]
     }
   ],
-  "overrides_applied": [],
+  "overrides_applied": [
+    {
+      "id": "f3-bio-001",
+      "op": "set",
+      "reason": "Typo 'Claasification' (proposal 8).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ],
   "breaks": [
     {
       "type": "holiday",

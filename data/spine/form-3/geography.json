@@ -1,6 +1,6 @@
 {
-  "subject": "geography ok",
-  "subject_label": "Geography Ok",
+  "subject": "geography",
+  "subject_label": "Geography",
   "class": "Form 3",
   "year": "2026-27",
   "source": "progression_form-3_geography-ok_annuel.pdf",
@@ -98,7 +98,7 @@
           "seq": 6,
           "lesson_no": null,
           "chapter": "The Earth as a Planet of the Solar System",
-          "title": "PW1: Locate a place on a map",
+          "title": "PW 1 (continued): Locate a place on a map",
           "start": "2026-09-07",
           "end": "2026-10-23",
           "kind": "practical",
@@ -109,7 +109,10 @@
             "title": "TU 6. PW1: Locate a place on a map",
             "separator": null
           },
-          "tu": 6
+          "tu": 6,
+          "overrides": [
+            "f3-geo-002"
+          ]
         },
         {
           "seq": 7,
@@ -820,7 +823,22 @@
       ]
     }
   ],
-  "overrides_applied": [],
+  "overrides_applied": [
+    {
+      "id": "f3-geo-001",
+      "op": "set_meta",
+      "reason": "Header reads 'Geography Ok' (an editing note), as in Forms 1 and 2 (proposal 7).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-geo-002",
+      "op": "set",
+      "reason": "Row 6 repeats PW 1 with the same task: the practical continued (proposal 7).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ],
   "breaks": [
     {
       "type": "evaluation",

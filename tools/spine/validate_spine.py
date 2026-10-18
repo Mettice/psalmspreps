@@ -22,7 +22,8 @@ REPEATING_KINDS = {"integration", "evaluation", "remediation", "catch_up"}
 SPLIT_RE = re.compile(r"\(part\s*\d+\)|\bcontinue[sd]?\b|\bsuite\b", re.I)
 KNOWN_SUBJECTS = {"mathematics", "english language", "french", "biology", "chemistry", "physics",
                   "computer science", "history", "geography", "citizenship", "literature in english",
-                  "religious studies", "economics", "food science", "manual labour", "sports", "home economics"}
+                  "religious studies", "economics", "food science", "manual labour", "sports", "home economics",
+                  "accounting", "logic", "français intensif"}  # Form 2 and 3 subjects (approved by Dion 2026-10-18)
 # Activity series numbered independently of lessons; PW and "Practical Work" are the same series.
 SERIES_RE = re.compile(r"\b(further stud(?:y|ies)|guided work|practical work|pw|experiment|gw|fs)\s*(\d+)", re.I)
 SERIES_NAME = {"further study": "Further study", "further studies": "Further study", "guided work": "Guided work",

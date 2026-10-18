@@ -1,0 +1,31 @@
+{
+  "subject": "mathematics",
+  "overrides": [
+    {
+      "id": "f3-math-001",
+      "op": "set",
+      "seq": 50,
+      "field": "title",
+      "value": "Cartesian product A×B",
+      "expect": {
+        "50": {
+          "title": "Cartesian product A×B and"
+        }
+      },
+      "reason": "Title cut off on the sheet ('Cartesian product A×B and') (proposal 6).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-math-002",
+      "op": "resolve",
+      "seqs": [
+        43
+      ],
+      "check": "dropped-ligatures",
+      "reason": "'singleton' is a real word, not a word with lost letters (note under proposal 10).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ]
+}

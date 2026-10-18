@@ -200,13 +200,16 @@
             "chapter_cell": "",
             "title": "Lesson 11. Electronic Configuration and Chemical Properties (Alkali metals and halogens)",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-chem-002"
+          ]
         },
         {
           "seq": 13,
           "lesson_no": 12,
           "chapter": "Structure of the atom in relation to the Periodic Table",
-          "title": "Electronic Configuration and Chemical Properties ( Alkaline metals and Halogens)",
+          "title": "Electronic Configuration and Chemical Properties (Alkaline earth metals and halogens)",
           "start": "2026-09-28",
           "end": "2026-10-08",
           "kind": "lesson",
@@ -216,7 +219,10 @@
             "chapter_cell": "",
             "title": "Lesson 12. Electronic Configuration and Chemical Properties ( Alkaline metals and Halogens)",
             "separator": "."
-          }
+          },
+          "overrides": [
+            "f3-chem-001"
+          ]
         },
         {
           "seq": 14,
@@ -1135,7 +1141,22 @@
       ]
     }
   ],
-  "overrides_applied": [],
+  "overrides_applied": [
+    {
+      "id": "f3-chem-001",
+      "op": "set",
+      "reason": "Two lessons: alkali metals (row 12) and alkaline earth metals (row 13), written with the usual name (proposal 9).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-chem-002",
+      "op": "resolve",
+      "reason": "Two different lessons (proposal 9).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ],
   "breaks": [
     {
       "type": "evaluation",

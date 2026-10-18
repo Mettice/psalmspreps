@@ -1,0 +1,34 @@
+{
+  "subject": "geography-ok",
+  "overrides": [
+    {
+      "id": "f3-geo-001",
+      "op": "set_meta",
+      "values": {
+        "subject": "geography",
+        "subject_label": "Geography"
+      },
+      "reason": "Header reads 'Geography Ok' (an editing note), as in Forms 1 and 2 (proposal 7).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-geo-002",
+      "op": "set",
+      "seq": 6,
+      "field": "title",
+      "value": "PW 1 (continued): Locate a place on a map",
+      "expect": {
+        "6": {
+          "title": "PW1: Locate a place on a map"
+        }
+      },
+      "resolves": [
+        "activity-numbering"
+      ],
+      "reason": "Row 6 repeats PW 1 with the same task: the practical continued (proposal 7).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ]
+}

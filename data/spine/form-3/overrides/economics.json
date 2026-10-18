@@ -1,0 +1,35 @@
+{
+  "subject": "economics",
+  "overrides": [
+    {
+      "id": "f3-eco-001",
+      "op": "set",
+      "seq": 3,
+      "field": "title",
+      "value": "Introduction to the tools of economic analysis: Part 1",
+      "expect": {
+        "3": {
+          "title": "Introduction to the tools of economic analysis"
+        }
+      },
+      "reason": "Row 4 repeats row 3 with the same dates: kept as two periods, Part 1 (proposal 4).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-eco-002",
+      "op": "set",
+      "seq": 4,
+      "field": "title",
+      "value": "Introduction to the tools of economic analysis: Part 2",
+      "expect": {
+        "4": {
+          "title": "Introduction to the tools of economic analysis"
+        }
+      },
+      "reason": "Row 4 repeats row 3 with the same dates: kept as two periods, Part 2 (proposal 4).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ]
+}

@@ -700,7 +700,10 @@
             "chapter_cell": "",
             "title": "Lesson 41 : Types of sets (Finite, infinite, null, singleton, equal and equivalent sets)",
             "separator": ":"
-          }
+          },
+          "overrides": [
+            "f3-math-002"
+          ]
         },
         {
           "seq": 44,
@@ -802,7 +805,7 @@
           "seq": 50,
           "lesson_no": 48,
           "chapter": "Relations and functions",
-          "title": "Cartesian product A×B and",
+          "title": "Cartesian product A×B",
           "start": "2027-01-11",
           "end": "2027-02-05",
           "kind": "lesson",
@@ -812,7 +815,10 @@
             "chapter_cell": "",
             "title": "Lesson 48 :Cartesian product A×B and",
             "separator": ":"
-          }
+          },
+          "overrides": [
+            "f3-math-001"
+          ]
         },
         {
           "seq": 51,
@@ -1238,7 +1244,22 @@
       ]
     }
   ],
-  "overrides_applied": [],
+  "overrides_applied": [
+    {
+      "id": "f3-math-001",
+      "op": "set",
+      "reason": "Title cut off on the sheet ('Cartesian product A×B and') (proposal 6).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    },
+    {
+      "id": "f3-math-002",
+      "op": "resolve",
+      "reason": "'singleton' is a real word, not a word with lost letters (note under proposal 10).",
+      "approved_by": "Dion",
+      "approved_on": "2026-10-18"
+    }
+  ],
   "breaks": [
     {
       "type": "evaluation",
