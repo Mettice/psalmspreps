@@ -1,0 +1,472 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "fr",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "fr2-29",
+   "name": "Le son [p] : p, pp ; et « ph » qui se lit [f]"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [p] s’écrit :\n• p : le paludisme, un papa, la pluie, une soupe ;\n• pp (souvent après a- ou o- au début du mot) : appeler, apporter, apprendre, une opposition, frapper, une nappe.\nAttention : les lettres ph ne se lisent pas [p] mais [f] : la pharmacie, une photo, un éléphant.\nLe p ne s’entend pas toujours : à la fin de « trop », « beaucoup », « un drap », « un loup » ; dans « compter » et « sept ».",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Mon ___apa m’a ___ris à ___ompter. » Comment se lit « pharmacie » ?",
+  "steps": [
+   "« papa », « appris », « compter » : le son [p] ; « appris » vient de « apprendre » (pp après a-).",
+   "Dans « pharmacie », ph se lit [f]."
+  ],
+  "answer": "Mon papa m’a appris à compter ; « pharmacie » se lit avec le son [f].",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "Le son [p] s’écrit p ou pp : papa, pluie, appeler, frapper.",
+    "vars": {},
+    "example": [
+     "J’apporte la nappe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-29-pp"
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "Les lettres ph se lisent [f], pas [p].",
+    "vars": {},
+    "example": [
+     "la pharmacie, un éléphant"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-29-ph"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "Le p ne s’entend pas à la fin de trop, beaucoup, un drap.",
+    "vars": {},
+    "example": [
+     "Il mange beaucoup de prunes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-29-muet-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans quel mot le p ne s’entend pas ?",
+         "r": "beaucoup",
+         "w": [
+          "la pluie",
+          "apporter",
+          "la soupe"
+         ],
+         "e": [
+          "On entend [p].",
+          "On entend [p].",
+          "On entend [p]."
+         ],
+         "y": "Le p final de « beaucoup » est muet."
+        },
+        {
+         "q": "Dans quel mot le p ne s’entend pas ?",
+         "r": "compter",
+         "w": [
+          "un papa",
+          "frapper",
+          "une nappe"
+         ],
+         "e": [
+          "On entend [p].",
+          "On entend [p].",
+          "On entend [p]."
+         ],
+         "y": "On dit « conter » : le p est muet."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-29-pp",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma mère m’___ pour le repas.",
+       "a": "appelle",
+       "w": [
+        "apelle",
+        "aphelle"
+       ],
+       "e": [
+        "« appeler » prend deux p.",
+        "ph se lit [f], pas [p]."
+       ]
+      },
+      {
+       "s": "Nous ___ à lire et à écrire.",
+       "a": "apprenons",
+       "w": [
+        "aprenons",
+        "aphrenons"
+       ],
+       "e": [
+        "« apprendre » prend deux p.",
+        "ph se lit [f]."
+       ]
+      },
+      {
+       "s": "Quelqu’un ___ à la porte.",
+       "a": "frappe",
+       "w": [
+        "frape",
+        "fraphe"
+       ],
+       "e": [
+        "« frapper » prend deux p.",
+        "ph se lit [f]."
+       ]
+      },
+      {
+       "s": "Le ___ est transmis par le moustique.",
+       "a": "paludisme",
+       "w": [
+        "ppaludisme",
+        "phaludisme"
+       ],
+       "e": [
+        "Au début du mot, un seul p.",
+        "ph se lit [f]."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-29-ph",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel mot entend-on le son [p] ?",
+       "r": "la soupe",
+       "w": [
+        "la pharmacie",
+        "une photo",
+        "un éléphant"
+       ],
+       "e": [
+        "ph se lit [f].",
+        "ph se lit [f].",
+        "ph se lit [f]."
+       ],
+       "y": "Dans « soupe », p se lit [p]."
+      },
+      {
+       "q": "Comment se lit « ph » dans « téléphone » ?",
+       "r": "[f]",
+       "w": [
+        "[p]",
+        "[h]",
+        "il ne se lit pas"
+       ],
+       "e": [
+        "ph ne se lit pas [p].",
+        "Le h ne se prononce pas seul ici.",
+        "On l’entend : [f]."
+       ],
+       "y": "ph se lit [f]."
+      },
+      {
+       "q": "Dans quel mot entend-on le son [f] ?",
+       "r": "une photo",
+       "w": [
+        "une pomme",
+        "la pluie",
+        "un papa"
+       ],
+       "e": [
+        "p se lit [p].",
+        "p se lit [p].",
+        "p se lit [p]."
+       ],
+       "y": "ph se lit [f]."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-29-muet",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel mot le p ne s’entend pas ?",
+       "r": "beaucoup",
+       "w": [
+        "la pluie",
+        "apporter",
+        "la soupe"
+       ],
+       "e": [
+        "On entend [p].",
+        "On entend [p].",
+        "On entend [p]."
+       ],
+       "y": "Le p final de « beaucoup » est muet."
+      },
+      {
+       "q": "Dans quel mot le p ne s’entend pas ?",
+       "r": "compter",
+       "w": [
+        "un papa",
+        "frapper",
+        "une nappe"
+       ],
+       "e": [
+        "On entend [p].",
+        "On entend [p].",
+        "On entend [p]."
+       ],
+       "y": "On dit « conter » : le p est muet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-29-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute d’orthographe ?",
+   "pool": {
+    "right": [
+     {
+      "text": "J’apporte la nappe.",
+      "truth": "true"
+     },
+     {
+      "text": "Le paludisme est dangereux.",
+      "truth": "true"
+     },
+     {
+      "text": "Mon frère m’appelle.",
+      "truth": "true"
+     },
+     {
+      "text": "Il pleut beaucoup.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mon oncle m’apelle chaque soir.",
+      "truth": "false",
+      "explain": "« appeler » prend deux p : appelle."
+     },
+     {
+      "text": "Nous aprenons la leçon.",
+      "truth": "false",
+      "explain": "« apprendre » prend deux p : apprenons."
+     },
+     {
+      "text": "La pluie tombe beaucoupe.",
+      "truth": "false",
+      "explain": "« beaucoup » finit par un p muet, sans e."
+     },
+     {
+      "text": "Le phaludisme est transmis par le moustique.",
+      "truth": "false",
+      "explain": "« paludisme » s’écrit avec p ; ph se lirait [f]."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,634 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-21",
+   "name": "L’accord des adjectifs en -al"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’adjectif s’accorde en genre et en nombre avec le nom qu’il accompagne.\nLes adjectifs en -al :\n• au féminin, on ajoute -e : national → nationale ; au féminin pluriel -es : nationales ;\n• au masculin pluriel, -al devient -aux : un jeu national → des jeux nationaux ; un cas spécial → des cas spéciaux ; un conseil amical → des conseils amicaux.\nExceptions : banal, final, natal, naval prennent -s au masculin pluriel : des matchs finals, des propos banals, mes villages natals, des chantiers navals.\nLe féminin pluriel ne change jamais en -aux : des fêtes nationales.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "X": {
+    "pick": [
+     {
+      "n": "les problèmes",
+      "g": "m",
+      "pl": true,
+      "a": "principal"
+     }
+    ]
+   }
+  },
+  "problem": "Accorde l’adjectif « {X.a} » avec « {X.n} ».",
+  "steps": [
+   "« problèmes » est masculin pluriel.",
+   "Au masculin pluriel, -al devient -aux.",
+   "On écrit : les problèmes {fr2Adj(X.a, X.g, X.pl)}."
+  ],
+  "answer": "les problèmes {fr2Adj(X.a, X.g, X.pl)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "Au masculin pluriel, les adjectifs en -al finissent par -aux.",
+    "vars": {},
+    "example": [
+     "des jeux nationaux, des cas spéciaux"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-21-mp"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Au féminin, on ajoute -e ou -es : pas de -aux.",
+    "vars": {},
+    "example": [
+     "une fête nationale, des fêtes nationales"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-21-f"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Banal, final, natal, naval prennent -s au masculin pluriel.",
+    "vars": {},
+    "example": [
+     "des matchs finals, mes villages natals"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-21-exc-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "n": "les matchs",
+         "g": "m",
+         "pl": true,
+         "a": "final"
+        },
+        {
+         "n": "des propos",
+         "g": "m",
+         "pl": true,
+         "a": "banal"
+        },
+        {
+         "n": "les villages",
+         "g": "m",
+         "pl": true,
+         "a": "natal"
+        },
+        {
+         "n": "les chantiers",
+         "g": "m",
+         "pl": true,
+         "a": "naval"
+        },
+        {
+         "n": "les matchs",
+         "g": "m",
+         "pl": true,
+         "a": "final"
+        },
+        {
+         "n": "des propos",
+         "g": "m",
+         "pl": true,
+         "a": "banal"
+        },
+        {
+         "n": "les villages",
+         "g": "m",
+         "pl": true,
+         "a": "natal"
+        },
+        {
+         "n": "les chantiers",
+         "g": "m",
+         "pl": true,
+         "a": "naval"
+        },
+        {
+         "n": "les jeux",
+         "g": "m",
+         "pl": true,
+         "a": "national"
+        },
+        {
+         "n": "les problèmes",
+         "g": "m",
+         "pl": true,
+         "a": "principal"
+        },
+        {
+         "n": "les cas",
+         "g": "m",
+         "pl": true,
+         "a": "spécial"
+        },
+        {
+         "n": "les matchs",
+         "g": "m",
+         "pl": true,
+         "a": "amical"
+        }
+       ]
+      }
+     },
+     "prompt": "Accorde l’adjectif « {X.a} » avec « {X.n} ».",
+     "correct": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+     "distractors": [
+      {
+       "text": "{X.n} {fr2AlAux(X.a)}",
+       "misconception": "aux"
+      },
+      {
+       "text": "{X.n} {X.a}",
+       "misconception": "none"
+      },
+      {
+       "text": "{X.n} {fr2Adj(X.a, 'f', true)}",
+       "misconception": "gender"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "aux",
+       "explain": "« {X.a} » est une exception : il prend -s au masculin pluriel."
+      },
+      {
+       "id": "none",
+       "explain": "L’adjectif s’accorde avec le nom pluriel."
+      },
+      {
+       "id": "gender",
+       "explain": "Le nom est masculin."
+      }
+     ],
+     "solution": [
+      "{fr2Adj(X.a, 'm', true) == fr2AlAux(X.a) ? '« ' + X.a + ' » suit la règle : -aux au masculin pluriel' : '« ' + X.a + ' » est une exception (banal, final, natal, naval) : -s au masculin pluriel'}.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-21-mp",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "les jeux",
+       "g": "m",
+       "pl": true,
+       "a": "national"
+      },
+      {
+       "n": "les problèmes",
+       "g": "m",
+       "pl": true,
+       "a": "principal"
+      },
+      {
+       "n": "les cas",
+       "g": "m",
+       "pl": true,
+       "a": "spécial"
+      },
+      {
+       "n": "les matchs",
+       "g": "m",
+       "pl": true,
+       "a": "amical"
+      },
+      {
+       "n": "les conseils",
+       "g": "m",
+       "pl": true,
+       "a": "amical"
+      },
+      {
+       "n": "les hôpitaux",
+       "g": "m",
+       "pl": true,
+       "a": "général"
+      },
+      {
+       "n": "les résultats",
+       "g": "m",
+       "pl": true,
+       "a": "normal"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde l’adjectif « {X.a} » avec « {X.n} ».",
+   "correct": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+   "distractors": [
+    {
+     "text": "{X.n} {fr2AdjNaive(X.a, X.g, X.pl)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "{X.n} {X.a}",
+     "misconception": "none"
+    },
+    {
+     "text": "{X.n} {fr2Adj(X.a, 'f', true)}",
+     "misconception": "gender"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "Au masculin pluriel, -al devient -aux."
+    },
+    {
+     "id": "none",
+     "explain": "L’adjectif s’accorde avec le nom pluriel."
+    },
+    {
+     "id": "gender",
+     "explain": "Le nom est masculin : pas de -es."
+    }
+   ],
+   "solution": [
+    "« {X.n} » est {fr2GenderNumber(X.g, X.pl)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-21-f",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "la fête",
+       "g": "f",
+       "pl": false,
+       "a": "national"
+      },
+      {
+       "n": "les routes",
+       "g": "f",
+       "pl": true,
+       "a": "national"
+      },
+      {
+       "n": "la porte",
+       "g": "f",
+       "pl": false,
+       "a": "principal"
+      },
+      {
+       "n": "une réunion",
+       "g": "f",
+       "pl": false,
+       "a": "amical"
+      },
+      {
+       "n": "les fêtes",
+       "g": "f",
+       "pl": true,
+       "a": "spécial"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde l’adjectif « {X.a} » avec « {X.n} ».",
+   "correct": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+   "distractors": [
+    {
+     "text": "{X.n} {fr2AlAux(X.a)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{X.n} {X.a}",
+     "misconception": "none"
+    },
+    {
+     "text": "{X.n} {fr2Adj(X.a, 'm', !X.pl)}",
+     "misconception": "gender"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "aux",
+     "explain": "-aux est seulement pour le masculin pluriel."
+    },
+    {
+     "id": "none",
+     "explain": "Au féminin, on ajoute -e."
+    },
+    {
+     "id": "gender",
+     "explain": "Le nom est féminin."
+    }
+   ],
+   "solution": [
+    "« {X.n} » est {fr2GenderNumber(X.g, X.pl)} : on ajoute {X.pl ? '-es' : '-e'}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-21-exc",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "les matchs",
+       "g": "m",
+       "pl": true,
+       "a": "final"
+      },
+      {
+       "n": "des propos",
+       "g": "m",
+       "pl": true,
+       "a": "banal"
+      },
+      {
+       "n": "les villages",
+       "g": "m",
+       "pl": true,
+       "a": "natal"
+      },
+      {
+       "n": "les chantiers",
+       "g": "m",
+       "pl": true,
+       "a": "naval"
+      },
+      {
+       "n": "les matchs",
+       "g": "m",
+       "pl": true,
+       "a": "final"
+      },
+      {
+       "n": "des propos",
+       "g": "m",
+       "pl": true,
+       "a": "banal"
+      },
+      {
+       "n": "les villages",
+       "g": "m",
+       "pl": true,
+       "a": "natal"
+      },
+      {
+       "n": "les chantiers",
+       "g": "m",
+       "pl": true,
+       "a": "naval"
+      },
+      {
+       "n": "les jeux",
+       "g": "m",
+       "pl": true,
+       "a": "national"
+      },
+      {
+       "n": "les problèmes",
+       "g": "m",
+       "pl": true,
+       "a": "principal"
+      },
+      {
+       "n": "les cas",
+       "g": "m",
+       "pl": true,
+       "a": "spécial"
+      },
+      {
+       "n": "les matchs",
+       "g": "m",
+       "pl": true,
+       "a": "amical"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde l’adjectif « {X.a} » avec « {X.n} ».",
+   "correct": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+   "distractors": [
+    {
+     "text": "{X.n} {fr2AlAux(X.a)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{X.n} {X.a}",
+     "misconception": "none"
+    },
+    {
+     "text": "{X.n} {fr2Adj(X.a, 'f', true)}",
+     "misconception": "gender"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "aux",
+     "explain": "« {X.a} » est une exception : il prend -s au masculin pluriel."
+    },
+    {
+     "id": "none",
+     "explain": "L’adjectif s’accorde avec le nom pluriel."
+    },
+    {
+     "id": "gender",
+     "explain": "Le nom est masculin."
+    }
+   ],
+   "solution": [
+    "{fr2Adj(X.a, 'm', true) == fr2AlAux(X.a) ? '« ' + X.a + ' » suit la règle : -aux au masculin pluriel' : '« ' + X.a + ' » est une exception (banal, final, natal, naval) : -s au masculin pluriel'}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-21-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "les jeux",
+       "g": "m",
+       "pl": true,
+       "a": "national"
+      },
+      {
+       "n": "la fête",
+       "g": "f",
+       "pl": false,
+       "a": "national"
+      },
+      {
+       "n": "les routes",
+       "g": "f",
+       "pl": true,
+       "a": "national"
+      },
+      {
+       "n": "les problèmes",
+       "g": "m",
+       "pl": true,
+       "a": "principal"
+      },
+      {
+       "n": "la porte",
+       "g": "f",
+       "pl": false,
+       "a": "principal"
+      },
+      {
+       "n": "les cas",
+       "g": "m",
+       "pl": true,
+       "a": "spécial"
+      },
+      {
+       "n": "les matchs",
+       "g": "m",
+       "pl": true,
+       "a": "amical"
+      },
+      {
+       "n": "les conseils",
+       "g": "m",
+       "pl": true,
+       "a": "amical"
+      },
+      {
+       "n": "les hôpitaux",
+       "g": "m",
+       "pl": true,
+       "a": "général"
+      },
+      {
+       "n": "les résultats",
+       "g": "m",
+       "pl": true,
+       "a": "normal"
+      },
+      {
+       "n": "une réunion",
+       "g": "f",
+       "pl": false,
+       "a": "amical"
+      },
+      {
+       "n": "les fêtes",
+       "g": "f",
+       "pl": true,
+       "a": "spécial"
+      },
+      {
+       "n": "les matchs",
+       "g": "m",
+       "pl": true,
+       "a": "final"
+      },
+      {
+       "n": "des propos",
+       "g": "m",
+       "pl": true,
+       "a": "banal"
+      },
+      {
+       "n": "les villages",
+       "g": "m",
+       "pl": true,
+       "a": "natal"
+      },
+      {
+       "n": "les chantiers",
+       "g": "m",
+       "pl": true,
+       "a": "naval"
+      }
+     ]
+    }
+   },
+   "prompt": "Écris l’adjectif entre parenthèses bien accordé.",
+   "text": "Accorde : {X.n} ___ ({X.a}).",
+   "answer": "fr2Adj(X.a, X.g, X.pl)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2AdjNaive(X.a, X.g, X.pl)",
+     "explain": "Au masculin pluriel, -al devient -aux (sauf banal, final, natal, naval)."
+    },
+    {
+     "id": "aux",
+     "wrong": "fr2AlAux(X.a)",
+     "explain": "« {X.a} » ne prend pas -aux ici."
+    }
+   ],
+   "solution": [
+    "« {X.n} » est {fr2GenderNumber(X.g, X.pl)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

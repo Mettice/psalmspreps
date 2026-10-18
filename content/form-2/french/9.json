@@ -1,0 +1,466 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "fr",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "fr2-9",
+   "name": "Le passé composé : emploi"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "On emploie le passé composé pour une action passée et terminée, souvent à un moment précis.\nLes mots qui l’annoncent : hier, avant-hier, ce matin, la semaine dernière, l’année dernière, dimanche dernier, il y a deux jours, soudain, un jour.\nOn emploie le présent pour ce qui se passe maintenant ou ce qui se répète (aujourd’hui, maintenant, chaque jour, souvent).\nExemple : Chaque matin, je balaie la cour (présent). Hier, j’ai balayé la cour (passé composé).\nDans un récit au passé, les actions qui se suivent sont au passé composé : Je suis rentré, j’ai mangé, puis j’ai fait mes devoirs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Présent ou passé composé ? « Hier, ma tante (venir) nous voir. »",
+  "steps": [
+   "Le mot « hier » montre une action passée et terminée.",
+   "On emploie le passé composé.",
+   "« venir » se conjugue avec être et s’accorde : ma tante est venue."
+  ],
+  "answer": "Hier, ma tante est venue nous voir.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Le passé composé raconte une action passée et terminée.",
+    "vars": {},
+    "example": [
+     "Hier, j’ai lavé mes habits."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-9-temps"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Hier, la semaine dernière, il y a deux jours annoncent le passé composé ; chaque jour, maintenant annoncent le présent.",
+    "vars": {},
+    "example": [
+     "Maintenant, je lis. Hier, j’ai lu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-9-mot"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "Dans un récit, les actions qui se suivent sont au passé composé.",
+    "vars": {},
+    "example": [
+     "Il est arrivé, il a salué, puis il est reparti."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-9-recit-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Hier, je suis rentré de l’école, ___ mes mains, puis j’ai mangé.",
+         "a": "j’ai lavé",
+         "w": [
+          "je lave",
+          "je laverai"
+         ],
+         "e": [
+          "Le récit est au passé composé.",
+          "Le récit est au passé, pas au futur."
+         ]
+        },
+        {
+         "s": "Dimanche dernier, nous sommes allés chez grand-mère et nous ___ des contes.",
+         "a": "avons écouté",
+         "w": [
+          "écoutons",
+          "écouterons"
+         ],
+         "e": [
+          "Le récit est au passé composé.",
+          "Le récit est au passé."
+         ]
+        },
+        {
+         "s": "Ce matin, Marie s’est levée tôt et elle ___ de l’eau.",
+         "a": "a puisé",
+         "w": [
+          "puise",
+          "puisera"
+         ],
+         "e": [
+          "Le récit est au passé composé.",
+          "Le récit est au passé."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la forme qui convient dans ce récit.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-9-temps",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Hier, nous (jouer) au football.",
+       "r": "le passé composé : nous avons joué",
+       "w": [
+        "le présent : nous jouons",
+        "le futur : nous jouerons",
+        "l’infinitif : jouer"
+       ],
+       "e": [
+        "« Hier » montre le passé.",
+        "« Hier » montre le passé.",
+        "Il faut un verbe conjugué."
+       ],
+       "y": "« Hier » annonce une action passée et terminée."
+      },
+      {
+       "q": "Chaque matin, ma mère (balayer) la cour.",
+       "r": "le présent : ma mère balaie",
+       "w": [
+        "le passé composé : ma mère a balayé",
+        "le futur : ma mère balaiera",
+        "l’infinitif : balayer"
+       ],
+       "e": [
+        "« Chaque matin » montre une habitude d’aujourd’hui.",
+        "Rien n’annonce le futur.",
+        "Il faut un verbe conjugué."
+       ],
+       "y": "« Chaque matin » annonce une habitude : présent."
+      },
+      {
+       "q": "La semaine dernière, mon oncle (partir) à Garoua.",
+       "r": "le passé composé : mon oncle est parti",
+       "w": [
+        "le présent : mon oncle part",
+        "le futur : mon oncle partira",
+        "l’infinitif : partir"
+       ],
+       "e": [
+        "« La semaine dernière » montre le passé.",
+        "« La semaine dernière » montre le passé.",
+        "Il faut un verbe conjugué."
+       ],
+       "y": "« La semaine dernière » annonce le passé composé."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel temps faut-il ? « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-9-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot annonce le passé composé ?",
+       "r": "hier",
+       "w": [
+        "maintenant",
+        "chaque jour",
+        "demain"
+       ],
+       "e": [
+        "« maintenant » annonce le présent.",
+        "« chaque jour » annonce une habitude : présent.",
+        "« demain » annonce le futur."
+       ],
+       "y": "« hier » parle d’un moment passé."
+      },
+      {
+       "q": "Quel mot annonce le passé composé ?",
+       "r": "il y a deux jours",
+       "w": [
+        "aujourd’hui",
+        "souvent",
+        "la semaine prochaine"
+       ],
+       "e": [
+        "« aujourd’hui » annonce le présent.",
+        "« souvent » annonce une habitude.",
+        "« prochaine » annonce le futur."
+       ],
+       "y": "« il y a deux jours » parle du passé."
+      },
+      {
+       "q": "Quel mot annonce le présent ?",
+       "r": "en ce moment",
+       "w": [
+        "hier soir",
+        "l’année dernière",
+        "avant-hier"
+       ],
+       "e": [
+        "« hier soir » est passé.",
+        "« l’année dernière » est passé.",
+        "« avant-hier » est passé."
+       ],
+       "y": "« en ce moment » parle de maintenant."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-9-recit",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Hier, je suis rentré de l’école, ___ mes mains, puis j’ai mangé.",
+       "a": "j’ai lavé",
+       "w": [
+        "je lave",
+        "je laverai"
+       ],
+       "e": [
+        "Le récit est au passé composé.",
+        "Le récit est au passé, pas au futur."
+       ]
+      },
+      {
+       "s": "Dimanche dernier, nous sommes allés chez grand-mère et nous ___ des contes.",
+       "a": "avons écouté",
+       "w": [
+        "écoutons",
+        "écouterons"
+       ],
+       "e": [
+        "Le récit est au passé composé.",
+        "Le récit est au passé."
+       ]
+      },
+      {
+       "s": "Ce matin, Marie s’est levée tôt et elle ___ de l’eau.",
+       "a": "a puisé",
+       "w": [
+        "puise",
+        "puisera"
+       ],
+       "e": [
+        "Le récit est au passé composé.",
+        "Le récit est au passé."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la forme qui convient dans ce récit.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase emploie mal le temps ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Hier, nous avons nettoyé la classe.",
+      "truth": "true"
+     },
+     {
+      "text": "Chaque jour, je range mon lit.",
+      "truth": "true"
+     },
+     {
+      "text": "La semaine dernière, elle est partie à Kribi.",
+      "truth": "true"
+     },
+     {
+      "text": "Maintenant, il fait ses devoirs.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Hier, je range ma chambre.",
+      "truth": "false",
+      "explain": "« Hier » demande le passé composé : j’ai rangé."
+     },
+     {
+      "text": "Chaque matin, il a balayé la cour.",
+      "truth": "false",
+      "explain": "« Chaque matin » est une habitude : il balaie."
+     },
+     {
+      "text": "L’année dernière, nous habitons à Kumba.",
+      "truth": "false",
+      "explain": "« L’année dernière » demande le passé composé : nous avons habité."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -10,7 +10,7 @@ const FILE = new URL("tools/prototype/form1.html", ROOT);
 const page = () => readFileSync(FILE, "utf8");
 const constant = (html, name) => JSON.parse(html.match(new RegExp(`const ${name} = (.*);\\n`))[1]);
 const FORM1 = ["maths", "english", "physics", "chemistry", "geography", "home-economics", "history", "biology", "computer-science", "french"];
-const FORM2 = ["f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-geography", "f2-home-economics", "f2-history", "f2-biology", "f2-computer-science", "f2-accounting"];
+const FORM2 = ["f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-geography", "f2-home-economics", "f2-history", "f2-biology", "f2-computer-science", "f2-french", "f2-accounting"];
 
 test("prototype: builds under 1.5 MB, no external resources, engine runs", () => {
   execFileSync(process.execPath, [new URL("tools/prototype/build.mjs", ROOT).pathname.replace(/^\/([A-Za-z]:)/, "$1")]);
@@ -124,7 +124,8 @@ test("prototype: motion off under prefers-reduced-motion; 48px tap targets; text
 
 test("prototype: inside French lessons the pupil's labels are French; elsewhere English", () => {
   const html = page();
-  assert.ok(html.includes('const T = (text, v = {}) => ((S === "french" && FR[text]) || text)'), "the label helper is in the page");
+  assert.ok(html.includes("const T = (text, v = {}) => ((inFrench(S) && FR[text]) || text)"), "the label helper is in the page");
+  assert.ok(html.includes(`const inFrench = (s) => s === "french" || s === "f2-french" || s === "f2-francais-intensif";`), "Form Two French lessons use the French labels too");
   for (const fr of ["Vérifier", "Je ne sais pas", "Retour aux leçons", "Leçon {n} · Idée {a} sur {b}", "Bravo !"]) assert.ok(html.includes(fr), fr);
   for (const en of ['button("Check"', "button(\"I don't know\"", '{}, "Correct!")']) assert.ok(!html.includes(en), `still hard-coded: ${en}`);
 });
@@ -200,7 +201,7 @@ test("classes: Form One stays the default; Form Two has its own subjects, file a
   assert.deepEqual(Object.keys(constant(one, "SUBJECTS")), FORM1, "the Form One file has only Form One");
   assert.deepEqual(Object.keys(constant(two, "SUBJECTS")), FORM2, "the Form Two file has only Form Two");
   assert.deepEqual(Object.keys(constant(two, "CONTENT")), FORM2);
-  assert.ok(Buffer.byteLength(two) < 1500 * 1024);
+  assert.ok(Buffer.byteLength(two) < 2048 * 1024, "Form Two file within the 2 MB budget");
   const classOf = constant(core, "CLASS_OF");
   for (const s of FORM1) assert.equal(classOf[s], "form-1");
   for (const s of FORM2) assert.equal(classOf[s], "form-2");

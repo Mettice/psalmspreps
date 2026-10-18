@@ -1,0 +1,475 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "fr2-4",
+   "name": "Lire un texte sur les travaux de la maison"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les occupations domestiques sont les travaux de la maison : balayer, faire la vaisselle, laver le linge, repasser, faire la cuisine, puiser de l’eau, ranger la chambre, nettoyer la cour, faire les courses.\n\nTexte : Le samedi chez les Etoundi\nLe samedi, chez les Etoundi, tout le monde travaille. Dès six heures, Paul puise de l’eau à la borne-fontaine. Sa sœur Marie balaie la cour et lave les assiettes de la veille. Leur mère prépare le repas pendant que le père répare la porte de la cuisine. Le petit Junior range les chaussures. À midi, la maison est propre. Le père dit : « Quand chacun fait sa part, le travail est vite fini. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans le texte, relève deux travaux faits par Marie et dis ce que pense le père.",
+  "steps": [
+   "On cherche le nom « Marie » : « Marie balaie la cour et lave les assiettes ».",
+   "On cherche ce que dit le père : « Quand chacun fait sa part, le travail est vite fini. »"
+  ],
+  "answer": "Marie balaie la cour et lave les assiettes ; le père pense que le travail va vite quand chacun aide.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "Les occupations domestiques sont les travaux de la maison : balayer, laver, ranger, cuisiner …",
+    "vars": {},
+    "example": [
+     "Faire la vaisselle, c’est laver les assiettes et les casseroles."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-4-mot"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Pour répondre, on retrouve dans le texte la phrase qui parle de la personne demandée.",
+    "vars": {},
+    "example": [
+     "« Paul puise de l’eau » : c’est le travail de Paul."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-4-qui"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "L’idée principale d’un texte est ce que l’auteur veut surtout dire.",
+    "vars": {},
+    "example": [
+     "Ici : quand chacun aide, le travail est vite fini."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-4-idee-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est l’idée principale du texte ?",
+         "r": "quand chacun aide, le travail de la maison est vite fini",
+         "w": [
+          "le père n’aime pas travailler",
+          "Marie fait tout le travail seule",
+          "la famille va au marché le samedi"
+         ],
+         "e": [
+          "Le père travaille aussi.",
+          "Tout le monde travaille.",
+          "Le texte ne parle pas du marché."
+         ],
+         "y": "Le père le dit à la fin du texte."
+        },
+        {
+         "q": "à quelle heure la maison est-elle propre ?",
+         "r": "à midi",
+         "w": [
+          "à six heures",
+          "le soir",
+          "le dimanche"
+         ],
+         "e": [
+          "À six heures, le travail commence.",
+          "Le texte dit « à midi ».",
+          "Le texte parle du samedi."
+         ],
+         "y": "« À midi, la maison est propre »."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « Le samedi chez les Etoundi » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-4-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que fait-on quand on « fait la vaisselle » ?",
+       "r": "on lave les assiettes et les casseroles",
+       "w": [
+        "on lave les habits",
+        "on balaie la cour",
+        "on fait les courses"
+       ],
+       "e": [
+        "Laver les habits, c’est faire la lessive.",
+        "Balayer est un autre travail.",
+        "Faire les courses, c’est acheter au marché."
+       ],
+       "y": "La vaisselle, ce sont les assiettes, les verres, les casseroles."
+      },
+      {
+       "q": "Que fait-on quand on « repasse » le linge ?",
+       "r": "on enlève les plis avec un fer chaud",
+       "w": [
+        "on lave le linge",
+        "on plie le linge mouillé",
+        "on achète du linge"
+       ],
+       "e": [
+        "Laver vient avant.",
+        "Le linge doit être sec.",
+        "Ce n’est pas un travail de maison."
+       ],
+       "y": "Repasser, c’est passer le fer sur le linge."
+      },
+      {
+       "q": "Que fait-on quand on « puise de l’eau » ?",
+       "r": "on prend de l’eau au puits ou à la borne-fontaine",
+       "w": [
+        "on boit de l’eau",
+        "on jette de l’eau sale",
+        "on chauffe de l’eau"
+       ],
+       "e": [
+        "Boire n’est pas puiser.",
+        "C’est le contraire.",
+        "Chauffer est un autre travail."
+       ],
+       "y": "Puiser, c’est aller chercher de l’eau."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-4-qui",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que fait Paul ?",
+       "r": "il puise de l’eau",
+       "w": [
+        "il balaie la cour",
+        "il range les chaussures",
+        "il répare la porte"
+       ],
+       "e": [
+        "C’est Marie qui balaie.",
+        "C’est Junior.",
+        "C’est le père."
+       ],
+       "y": "« Paul puise de l’eau à la borne-fontaine »."
+      },
+      {
+       "q": "que fait le père ?",
+       "r": "il répare la porte de la cuisine",
+       "w": [
+        "il prépare le repas",
+        "il lave les assiettes",
+        "il puise de l’eau"
+       ],
+       "e": [
+        "C’est la mère.",
+        "C’est Marie.",
+        "C’est Paul."
+       ],
+       "y": "« le père répare la porte de la cuisine »."
+      },
+      {
+       "q": "que fait Junior ?",
+       "r": "il range les chaussures",
+       "w": [
+        "il balaie la cour",
+        "il prépare le repas",
+        "il puise de l’eau"
+       ],
+       "e": [
+        "C’est Marie.",
+        "C’est la mère.",
+        "C’est Paul."
+       ],
+       "y": "« Le petit Junior range les chaussures »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le samedi chez les Etoundi » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-4-idee",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est l’idée principale du texte ?",
+       "r": "quand chacun aide, le travail de la maison est vite fini",
+       "w": [
+        "le père n’aime pas travailler",
+        "Marie fait tout le travail seule",
+        "la famille va au marché le samedi"
+       ],
+       "e": [
+        "Le père travaille aussi.",
+        "Tout le monde travaille.",
+        "Le texte ne parle pas du marché."
+       ],
+       "y": "Le père le dit à la fin du texte."
+      },
+      {
+       "q": "à quelle heure la maison est-elle propre ?",
+       "r": "à midi",
+       "w": [
+        "à six heures",
+        "le soir",
+        "le dimanche"
+       ],
+       "e": [
+        "À six heures, le travail commence.",
+        "Le texte dit « à midi ».",
+        "Le texte parle du samedi."
+       ],
+       "y": "« À midi, la maison est propre »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le samedi chez les Etoundi » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Texte « Le samedi chez les Etoundi ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Marie balaie la cour.",
+      "truth": "true"
+     },
+     {
+      "text": "La mère prépare le repas.",
+      "truth": "true"
+     },
+     {
+      "text": "Junior range les chaussures.",
+      "truth": "true"
+     },
+     {
+      "text": "Le travail commence tôt le matin.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le père prépare le repas.",
+      "truth": "false",
+      "explain": "C’est la mère qui prépare le repas ; le père répare la porte."
+     },
+     {
+      "text": "Paul lave les assiettes.",
+      "truth": "false",
+      "explain": "C’est Marie ; Paul puise de l’eau."
+     },
+     {
+      "text": "Le travail se fait le dimanche.",
+      "truth": "false",
+      "explain": "Le texte parle du samedi."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

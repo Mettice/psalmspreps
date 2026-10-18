@@ -1,0 +1,477 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "fr",
+ "prerequisites": [
+  27
+ ],
+ "skills": [
+  {
+   "id": "fr2-30",
+   "name": "L’accord des adjectifs de couleur (suite)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les couleurs composées restent invariables :\n• couleur + adjectif (clair, foncé, vif, pâle) : des robes bleu clair, des pagnes vert foncé, des chemises rouge vif ;\n• quand chaque objet porte plusieurs couleurs, elles restent au singulier : des drapeaux vert, rouge et jaune (chaque drapeau a les trois couleurs) ;\n• des yeux bleu-vert (une couleur entre le bleu et le vert).\nRappel : une seule couleur simple s’accorde (des robes bleues) ; une couleur nom de chose reste invariable (des sacs orange).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Accorde : « des chemises (bleu clair) » et « des chemises (bleu) ».",
+  "steps": [
+   "« bleu clair » est une couleur composée (couleur + clair) : invariable : des chemises bleu clair.",
+   "« bleu » seul est une couleur simple : il s’accorde : des chemises bleues."
+  ],
+  "answer": "des chemises bleu clair ; des chemises bleues",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "Une couleur composée (bleu clair, vert foncé, rouge vif) reste invariable.",
+    "vars": {},
+    "example": [
+     "des robes vert foncé"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-30-comp"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "Une couleur simple seule s’accorde : des robes vertes.",
+    "vars": {},
+    "example": [
+     "des pagnes rouges"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-30-simple"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "Quand chaque objet porte plusieurs couleurs, elles restent au singulier : des drapeaux vert, rouge et jaune.",
+    "vars": {},
+    "example": [
+     "Le drapeau du Cameroun est vert, rouge et jaune."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-30-mix-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle écriture est correcte ?",
+         "r": "des sacs orange et des robes vertes",
+         "w": [
+          "des sacs oranges et des robes vertes",
+          "des sacs orange et des robes vert",
+          "des sacs oranges et des robes vert"
+         ],
+         "e": [
+          "« orange » est un nom de fruit : invariable.",
+          "« vert » seul s’accorde.",
+          "Les deux accords sont faux."
+         ],
+         "y": "orange : invariable ; vert : s’accorde."
+        },
+        {
+         "q": "Quelle écriture est correcte ?",
+         "r": "des blouses bleu clair et des pagnes rouges",
+         "w": [
+          "des blouses bleues claires et des pagnes rouges",
+          "des blouses bleu clair et des pagnes rouge",
+          "des blouses bleus clairs et des pagnes rouges"
+         ],
+         "e": [
+          "Une couleur composée reste invariable.",
+          "« rouge » seul s’accorde.",
+          "Une couleur composée reste invariable."
+         ],
+         "y": "bleu clair : invariable ; rouge : s’accorde."
+        },
+        {
+         "q": "Quelle écriture est correcte ?",
+         "r": "des robes roses et des chemises marron",
+         "w": [
+          "des robes rose et des chemises marron",
+          "des robes roses et des chemises marrons",
+          "des robes rose et des chemises marrons"
+         ],
+         "e": [
+          "« rose » s’accorde (exception).",
+          "« marron » est un nom de fruit : invariable.",
+          "Les deux accords sont faux."
+         ],
+         "y": "rose s’accorde ; marron reste invariable."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-30-comp",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma cousine porte des robes ___.",
+       "a": "bleu clair",
+       "w": [
+        "bleues claires",
+        "bleus clairs"
+       ],
+       "e": [
+        "Une couleur composée reste invariable.",
+        "Une couleur composée reste invariable."
+       ]
+      },
+      {
+       "s": "Les infirmières ont des blouses ___.",
+       "a": "vert pâle",
+       "w": [
+        "vertes pâles",
+        "verts pâles"
+       ],
+       "e": [
+        "Une couleur composée reste invariable.",
+        "Une couleur composée reste invariable."
+       ]
+      },
+      {
+       "s": "Il a acheté des pagnes ___.",
+       "a": "rouge vif",
+       "w": [
+        "rouges vifs",
+        "rouges vives"
+       ],
+       "e": [
+        "Une couleur composée reste invariable.",
+        "Une couleur composée reste invariable."
+       ]
+      },
+      {
+       "s": "Les élèves portent des pantalons ___.",
+       "a": "bleu foncé",
+       "w": [
+        "bleus foncés",
+        "bleues foncées"
+       ],
+       "e": [
+        "Une couleur composée reste invariable.",
+        "Une couleur composée reste invariable."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-30-simple",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma tante a des robes ___.",
+       "a": "vertes",
+       "w": [
+        "vert",
+        "verts"
+       ],
+       "e": [
+        "Une couleur simple s’accorde avec « robes ».",
+        "« robes » est féminin."
+       ]
+      },
+      {
+       "s": "Les feuilles sont ___ en saison sèche.",
+       "a": "jaunes",
+       "w": [
+        "jaune",
+        "jaunis"
+       ],
+       "e": [
+        "Une couleur simple s’accorde avec « feuilles ».",
+        "« feuilles » est féminin, et l’adjectif est « jaune »."
+       ]
+      },
+      {
+       "s": "Mon frère a des chaussures ___.",
+       "a": "noires",
+       "w": [
+        "noir",
+        "noirs"
+       ],
+       "e": [
+        "Une couleur simple s’accorde.",
+        "« chaussures » est féminin."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-30-mix",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle écriture est correcte ?",
+       "r": "des sacs orange et des robes vertes",
+       "w": [
+        "des sacs oranges et des robes vertes",
+        "des sacs orange et des robes vert",
+        "des sacs oranges et des robes vert"
+       ],
+       "e": [
+        "« orange » est un nom de fruit : invariable.",
+        "« vert » seul s’accorde.",
+        "Les deux accords sont faux."
+       ],
+       "y": "orange : invariable ; vert : s’accorde."
+      },
+      {
+       "q": "Quelle écriture est correcte ?",
+       "r": "des blouses bleu clair et des pagnes rouges",
+       "w": [
+        "des blouses bleues claires et des pagnes rouges",
+        "des blouses bleu clair et des pagnes rouge",
+        "des blouses bleus clairs et des pagnes rouges"
+       ],
+       "e": [
+        "Une couleur composée reste invariable.",
+        "« rouge » seul s’accorde.",
+        "Une couleur composée reste invariable."
+       ],
+       "y": "bleu clair : invariable ; rouge : s’accorde."
+      },
+      {
+       "q": "Quelle écriture est correcte ?",
+       "r": "des robes roses et des chemises marron",
+       "w": [
+        "des robes rose et des chemises marron",
+        "des robes roses et des chemises marrons",
+        "des robes rose et des chemises marrons"
+       ],
+       "e": [
+        "« rose » s’accorde (exception).",
+        "« marron » est un nom de fruit : invariable.",
+        "Les deux accords sont faux."
+       ],
+       "y": "rose s’accorde ; marron reste invariable."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute d’accord ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Elle porte des robes bleu clair.",
+      "truth": "true"
+     },
+     {
+      "text": "Les drapeaux sont vert, rouge et jaune.",
+      "truth": "true"
+     },
+     {
+      "text": "J’ai des chaussures noires.",
+      "truth": "true"
+     },
+     {
+      "text": "Il a des sacs orange.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Elle a des pagnes verts foncés.",
+      "truth": "false",
+      "explain": "Une couleur composée reste invariable : vert foncé."
+     },
+     {
+      "text": "Il porte des chemises marrons.",
+      "truth": "false",
+      "explain": "« marron » est un nom de fruit : invariable."
+     },
+     {
+      "text": "Elles ont des jupes rouge.",
+      "truth": "false",
+      "explain": "« rouge » seul s’accorde : rouges."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

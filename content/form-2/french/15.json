@@ -1,0 +1,389 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "fr",
+ "prerequisites": [
+  7,
+  12
+ ],
+ "skills": [
+  {
+   "id": "fr2-15",
+   "name": "Préparer un sketch sur une activité communautaire"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un sketch est une petite scène jouée devant la classe. Pour le préparer :\n• choisir une situation (organiser le nettoyage du quartier, réparer le pont, accueillir un nouveau voisin) ;\n• choisir les personnages (le chef de quartier, des jeunes, une mère …) ;\n• écrire le dialogue : une ligne par personnage, avec le nom suivi de deux points ;\n• le sketch a un début (on salue, on présente le problème), un milieu (on discute, on propose) et une fin (on décide, on remercie).\nOn parle fort, lentement, on regarde le public et on emploie les formules de politesse.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mets dans l’ordre le début d’un sketch : « Que se passe-t-il ? » / « Bonjour, Chef. » / « Les caniveaux sont bouchés, l’eau entre dans les maisons. »",
+  "steps": [
+   "Un dialogue commence par la salutation : « Bonjour, Chef. »",
+   "Puis la question : « Que se passe-t-il ? »",
+   "Puis on présente le problème : « Les caniveaux sont bouchés … »"
+  ],
+  "answer": "Bonjour, Chef. → Que se passe-t-il ? → Les caniveaux sont bouchés, l’eau entre dans les maisons.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "Un sketch a un début (saluer, présenter le problème), un milieu (discuter) et une fin (décider, remercier).",
+    "vars": {},
+    "example": [
+     "Début : « Bonjour à tous. Nous avons un problème au quartier. »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-15-plan"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Pour proposer, on dit : « Je propose que … », « Et si nous … ? », « Pourquoi ne pas … ? ».",
+    "vars": {},
+    "example": [
+     "Et si nous curions les caniveaux samedi ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-15-prop"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "On parle fort et lentement, et on regarde le public.",
+    "vars": {},
+    "example": [
+     "On ne tourne pas le dos aux spectateurs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-15-spot-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "prompt": "Quel conseil pour jouer un sketch est faux ?",
+     "pool": {
+      "right": [
+       {
+        "text": "Parle fort pour que tout le monde entende.",
+        "truth": "true"
+       },
+       {
+        "text": "Regarde le public.",
+        "truth": "true"
+       },
+       {
+        "text": "Parle lentement.",
+        "truth": "true"
+       },
+       {
+        "text": "Emploie les formules de politesse.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tourne le dos au public pour mieux jouer.",
+        "truth": "false",
+        "explain": "Il faut regarder le public."
+       },
+       {
+        "text": "Parle très vite pour finir tôt.",
+        "truth": "false",
+        "explain": "On parle lentement pour être compris."
+       },
+       {
+        "text": "Parle tout bas pour ne pas déranger.",
+        "truth": "false",
+        "explain": "On parle fort pour être entendu."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-15-plan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Par quoi commence un sketch ?",
+       "r": "par une salutation et la présentation du problème",
+       "w": [
+        "par la décision finale",
+        "par les remerciements",
+        "par le départ des personnages"
+       ],
+       "e": [
+        "La décision vient à la fin.",
+        "On remercie à la fin.",
+        "Les personnages partent à la fin."
+       ],
+       "y": "Au début, on salue et on présente la situation."
+      },
+      {
+       "q": "Comment finit un sketch sur le nettoyage du quartier ?",
+       "r": "on décide du jour du travail et on se remercie",
+       "w": [
+        "on présente le problème",
+        "on salue les voisins",
+        "on pose la première question"
+       ],
+       "e": [
+        "Cela se fait au début.",
+        "Cela se fait au début.",
+        "Cela se fait au début."
+       ],
+       "y": "À la fin, on décide et on remercie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-15-prop",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase sert à proposer une idée ?",
+       "r": "Et si nous réparions le pont samedi ?",
+       "w": [
+        "Le pont est cassé.",
+        "Bonjour, Chef.",
+        "Merci à tous."
+       ],
+       "e": [
+        "Cette phrase présente le problème.",
+        "Cette phrase salue.",
+        "Cette phrase remercie."
+       ],
+       "y": "« Et si nous … ? » propose une idée."
+      },
+      {
+       "q": "Quelle phrase sert à proposer une idée ?",
+       "r": "Je propose que chaque famille apporte une houe.",
+       "w": [
+        "Nous avons fini le travail.",
+        "Au revoir, Madame.",
+        "Que se passe-t-il ?"
+       ],
+       "e": [
+        "Cette phrase dit que c’est fini.",
+        "Cette phrase prend congé.",
+        "Cette phrase pose une question."
+       ],
+       "y": "« Je propose que … » propose une idée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-15-ordre",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Chef : Bonjour à tous, merci d’être venus.",
+       "Chef : Le marché est très sale.",
+       "Jeune : Et si nous le nettoyions samedi ?",
+       "Chef : Bonne idée ! Rendez-vous samedi à sept heures."
+      ],
+      [
+       "Mère : Bonsoir, voisine.",
+       "Voisine : Bonsoir. Il y a un problème ?",
+       "Mère : L’eau du caniveau entre chez nous.",
+       "Voisine : Je propose que nous le curions demain."
+      ],
+      [
+       "Délégué : Bonjour, camarades.",
+       "Délégué : La cour de l’école est pleine d’herbe.",
+       "Élève : Pourquoi ne pas la désherber ensemble ?",
+       "Délégué : D’accord. Merci à tous !"
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les répliques du sketch dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour jouer un sketch est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Parle fort pour que tout le monde entende.",
+      "truth": "true"
+     },
+     {
+      "text": "Regarde le public.",
+      "truth": "true"
+     },
+     {
+      "text": "Parle lentement.",
+      "truth": "true"
+     },
+     {
+      "text": "Emploie les formules de politesse.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tourne le dos au public pour mieux jouer.",
+      "truth": "false",
+      "explain": "Il faut regarder le public."
+     },
+     {
+      "text": "Parle très vite pour finir tôt.",
+      "truth": "false",
+      "explain": "On parle lentement pour être compris."
+     },
+     {
+      "text": "Parle tout bas pour ne pas déranger.",
+      "truth": "false",
+      "explain": "On parle fort pour être entendu."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

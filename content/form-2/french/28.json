@@ -1,0 +1,386 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 28,
+ "language": "fr",
+ "prerequisites": [
+  11,
+  24
+ ],
+ "skills": [
+  {
+   "id": "fr2-28",
+   "name": "Écrire des phrases sur le temps, le climat, l’environnement, la maladie"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour parler du temps qu’il fait, on emploie « il » impersonnel : il pleut, il fait chaud, il fait froid, il y a du vent, il fait beau.\nPour le climat (le temps habituel d’une région) : « Au Cameroun, il y a une saison sèche et une saison des pluies. Dans le Nord, il fait très chaud. »\nPour l’environnement : « Les arbres protègent le sol. Il faut jeter les ordures dans la poubelle. »\nPour la maladie : « Mon frère a le paludisme. Il a de la fièvre. Il doit prendre ses médicaments. »\nPour relier deux idées : et, mais, car, donc : « Il pleut beaucoup, donc les moustiques se multiplient. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris une phrase qui relie ces deux idées : « Il a plu toute la nuit. » / « Les caniveaux ont débordé. »",
+  "steps": [
+   "La deuxième idée est la conséquence de la première.",
+   "On les relie avec « donc » : « Il a plu toute la nuit, donc les caniveaux ont débordé. »"
+  ],
+  "answer": "Il a plu toute la nuit, donc les caniveaux ont débordé.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c28-1",
+    "status": "draft",
+    "idea": "Pour le temps qu’il fait : il pleut, il fait chaud, il y a du vent.",
+    "vars": {},
+    "example": [
+     "Ce matin, il fait frais."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-28-temps"
+    }
+   },
+   {
+    "id": "c28-2",
+    "status": "draft",
+    "idea": "On relie deux idées avec et, mais, car, donc.",
+    "vars": {},
+    "example": [
+     "Il fait chaud, donc je bois beaucoup d’eau."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-28-lien"
+    }
+   },
+   {
+    "id": "c28-3",
+    "status": "draft",
+    "idea": "Une phrase commence par une majuscule, a un verbe conjugué et finit par un point.",
+    "vars": {},
+    "example": [
+     "Les arbres protègent le sol."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-28-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "Il fait très chaud dans le Nord.",
+         "b": "Il fait très chaud dans le Nord."
+        },
+        {
+         "a": "Les arbres protègent le sol contre l’érosion.",
+         "b": "Les arbres protègent le sol contre l’érosion."
+        },
+        {
+         "a": "Il pleut beaucoup, donc la route est glissante.",
+         "b": "Il pleut beaucoup, donc la route est glissante."
+        },
+        {
+         "a": "Mon cousin a de la fièvre car il a le paludisme.",
+         "b": "Mon cousin a de la fièvre car il a le paludisme."
+        },
+        {
+         "a": "Il faut jeter les ordures dans la poubelle.",
+         "b": "Il faut jeter les ordures dans la poubelle."
+        }
+       ]
+      }
+     },
+     "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-28-temps",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Prends ton parapluie : il ___ beaucoup.",
+       "a": "pleut",
+       "w": [
+        "fait",
+        "a"
+       ],
+       "e": [
+        "« il fait » demande un adjectif : il fait chaud.",
+        "On dit « il pleut »."
+       ]
+      },
+      {
+       "s": "En saison sèche, il ___ très chaud à Maroua.",
+       "a": "fait",
+       "w": [
+        "pleut",
+        "est"
+       ],
+       "e": [
+        "On ne dit pas « il pleut chaud ».",
+        "Pour le temps, on dit « il fait chaud »."
+       ]
+      },
+      {
+       "s": "Aujourd’hui, il y a du ___ : les feuilles bougent.",
+       "a": "vent",
+       "w": [
+        "chaud",
+        "beau"
+       ],
+       "e": [
+        "On dit « il fait chaud ».",
+        "On dit « il fait beau »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-28-lien",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il pleut beaucoup, ___ les moustiques se multiplient.",
+       "a": "donc",
+       "w": [
+        "mais",
+        "car"
+       ],
+       "e": [
+        "« mais » oppose deux idées.",
+        "« car » donne une cause ; ici c’est une conséquence."
+       ]
+      },
+      {
+       "s": "Mon frère reste à la maison ___ il a de la fièvre.",
+       "a": "car",
+       "w": [
+        "donc",
+        "mais"
+       ],
+       "e": [
+        "La fièvre est la cause : on emploie « car ».",
+        "Il n’y a pas d’opposition."
+       ]
+      },
+      {
+       "s": "Il fait chaud, ___ il ne pleut pas.",
+       "a": "mais",
+       "w": [
+        "car",
+        "donc"
+       ],
+       "e": [
+        "Ce n’est pas une cause.",
+        "Ce n’est pas une conséquence."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui relie les deux idées.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-28-phrase",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase sur le climat est bien construite ?",
+       "r": "Au Cameroun, il y a une saison sèche et une saison des pluies.",
+       "w": [
+        "Au Cameroun, une saison sèche et une saison des pluies.",
+        "il y a au Cameroun une saison sèche",
+        "Au Cameroun il y a une saison sèche, et."
+       ],
+       "e": [
+        "Il manque le verbe.",
+        "Il manque la majuscule et le point.",
+        "La phrase est mal terminée."
+       ],
+       "y": "Elle a un verbe, une majuscule et un point."
+      },
+      {
+       "q": "Quelle phrase sur la maladie est bien construite ?",
+       "r": "Ma sœur a le paludisme, donc elle prend ses médicaments.",
+       "w": [
+        "Ma sœur le paludisme, donc médicaments.",
+        "ma sœur a le paludisme donc elle prend ses médicaments",
+        "Ma sœur a le paludisme, car elle prend ses médicaments."
+       ],
+       "e": [
+        "Il manque des verbes.",
+        "Il manque la majuscule et le point.",
+        "« car » donne une cause ; les médicaments ne sont pas la cause du paludisme."
+       ],
+       "y": "Deux idées bien reliées par « donc »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-28-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Il fait très chaud dans le Nord.",
+       "b": "Il fait très chaud dans le Nord."
+      },
+      {
+       "a": "Les arbres protègent le sol contre l’érosion.",
+       "b": "Les arbres protègent le sol contre l’érosion."
+      },
+      {
+       "a": "Il pleut beaucoup, donc la route est glissante.",
+       "b": "Il pleut beaucoup, donc la route est glissante."
+      },
+      {
+       "a": "Mon cousin a de la fièvre car il a le paludisme.",
+       "b": "Mon cousin a de la fièvre car il a le paludisme."
+      },
+      {
+       "a": "Il faut jeter les ordures dans la poubelle.",
+       "b": "Il faut jeter les ordures dans la poubelle."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

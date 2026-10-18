@@ -1,0 +1,510 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "fr2-2",
+   "name": "La famille élargie et le dictionnaire"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La famille élargie (au-delà des parents et des enfants) :\n• l’oncle, la tante : le frère, la sœur d’un parent ; le cousin, la cousine : leurs enfants ;\n• le neveu, la nièce : l’enfant de mon frère ou de ma sœur ;\n• le grand-père, la grand-mère ; le petit-fils, la petite-fille ;\n• le beau-frère, la belle-sœur : le frère ou la sœur de mon mari ou de ma femme, ou le mari de ma sœur, la femme de mon frère ;\n• le beau-père, la belle-mère : le père, la mère de mon mari ou de ma femme.\n\nLe dictionnaire : les mots sont rangés dans l’ordre alphabétique (on compare la première lettre, puis la deuxième …). Chaque article donne la nature du mot en abrégé : n. m. (nom masculin), n. f. (nom féminin), v. (verbe), adj. (adjectif), adv. (adverbe), puis le ou les sens, souvent avec un exemple.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Qui est la fille de ma tante ? Et comment cherche-t-on « nièce » dans le dictionnaire ?",
+  "steps": [
+   "La fille de ma tante est ma cousine.",
+   "Pour « nièce », on va à la lettre n, puis on cherche ni-, puis niè-.",
+   "L’article dit : n. f. (nom féminin) : la fille du frère ou de la sœur."
+  ],
+  "answer": "Ma cousine ; « nièce » est un nom féminin, rangé à la lettre n.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "Les enfants de mon oncle ou de ma tante sont mes cousins et mes cousines.",
+    "vars": {},
+    "example": [
+     "Le fils de ma tante est mon cousin."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-2-lien"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "L’enfant de mon frère ou de ma sœur est mon neveu (garçon) ou ma nièce (fille).",
+    "vars": {},
+    "example": [
+     "La fille de mon frère est ma nièce."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-2-neveu"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Dans le dictionnaire, n. m. veut dire nom masculin, n. f. nom féminin, v. verbe, adj. adjectif.",
+    "vars": {},
+    "example": [
+     "« cousin, n. m. » : cousin est un nom masculin."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-2-abr-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans le dictionnaire : « tante, n. f. ». Que veut dire « n. f. » ?",
+         "r": "nom féminin",
+         "w": [
+          "nom familial",
+          "verbe",
+          "adjectif"
+         ],
+         "e": [
+          "Il n’y a pas de « nom familial » en grammaire.",
+          "Le verbe s’écrit « v. ».",
+          "L’adjectif s’écrit « adj. »."
+         ],
+         "y": "« n. » = nom, « f. » = féminin."
+        },
+        {
+         "q": "Quel mot vient en premier dans le dictionnaire ?",
+         "r": "cousin",
+         "w": [
+          "nièce",
+          "oncle",
+          "tante"
+         ],
+         "e": [
+          "n vient après c.",
+          "o vient après c.",
+          "t vient après c."
+         ],
+         "y": "c vient avant n, o et t."
+        },
+        {
+         "q": "Quel mot vient en premier dans le dictionnaire ?",
+         "r": "neveu",
+         "w": [
+          "nièce",
+          "oncle",
+          "petit-fils"
+         ],
+         "e": [
+          "On compare la deuxième lettre : e vient avant i.",
+          "o vient après n.",
+          "p vient après n."
+         ],
+         "y": "neveu et nièce commencent par n ; e vient avant i."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-2-lien",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui est le fils de mon oncle ?",
+       "r": "mon cousin",
+       "w": [
+        "mon neveu",
+        "mon frère",
+        "mon petit-fils"
+       ],
+       "e": [
+        "Le neveu est le fils de mon frère ou de ma sœur.",
+        "Mon frère a les mêmes parents que moi.",
+        "Le petit-fils est l’enfant de mon enfant."
+       ],
+       "y": "Les enfants de l’oncle sont les cousins."
+      },
+      {
+       "q": "Qui est la sœur de mon père ?",
+       "r": "ma tante",
+       "w": [
+        "ma cousine",
+        "ma nièce",
+        "ma belle-sœur"
+       ],
+       "e": [
+        "La cousine est la fille de la tante.",
+        "La nièce est la fille de mon frère ou de ma sœur.",
+        "La belle-sœur est de la famille de mon mari ou de ma femme."
+       ],
+       "y": "La sœur d’un parent est une tante."
+      },
+      {
+       "q": "Qui est le père de ma mère ?",
+       "r": "mon grand-père",
+       "w": [
+        "mon oncle",
+        "mon beau-père",
+        "mon cousin"
+       ],
+       "e": [
+        "L’oncle est le frère d’un parent.",
+        "Le beau-père est le père de mon mari ou de ma femme.",
+        "Le cousin est l’enfant de l’oncle."
+       ],
+       "y": "Le père d’un parent est le grand-père."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-2-neveu",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui est la fille de mon frère ?",
+       "r": "ma nièce",
+       "w": [
+        "ma cousine",
+        "ma tante",
+        "ma petite-fille"
+       ],
+       "e": [
+        "La cousine est la fille de l’oncle ou de la tante.",
+        "La tante est la sœur d’un parent.",
+        "La petite-fille est la fille de mon enfant."
+       ],
+       "y": "L’enfant de mon frère est mon neveu ou ma nièce."
+      },
+      {
+       "q": "Qui est le fils de ma sœur ?",
+       "r": "mon neveu",
+       "w": [
+        "mon cousin",
+        "mon oncle",
+        "mon beau-frère"
+       ],
+       "e": [
+        "Le cousin est le fils de l’oncle ou de la tante.",
+        "L’oncle est le frère d’un parent.",
+        "Le beau-frère est le mari de ma sœur."
+       ],
+       "y": "Le fils de ma sœur est mon neveu."
+      },
+      {
+       "q": "Qui est le mari de ma sœur ?",
+       "r": "mon beau-frère",
+       "w": [
+        "mon neveu",
+        "mon cousin",
+        "mon oncle"
+       ],
+       "e": [
+        "Le neveu est le fils de ma sœur.",
+        "Le cousin est le fils de l’oncle.",
+        "L’oncle est le frère d’un parent."
+       ],
+       "y": "Le mari de ma sœur est mon beau-frère."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-2-abr",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans le dictionnaire : « tante, n. f. ». Que veut dire « n. f. » ?",
+       "r": "nom féminin",
+       "w": [
+        "nom familial",
+        "verbe",
+        "adjectif"
+       ],
+       "e": [
+        "Il n’y a pas de « nom familial » en grammaire.",
+        "Le verbe s’écrit « v. ».",
+        "L’adjectif s’écrit « adj. »."
+       ],
+       "y": "« n. » = nom, « f. » = féminin."
+      },
+      {
+       "q": "Quel mot vient en premier dans le dictionnaire ?",
+       "r": "cousin",
+       "w": [
+        "nièce",
+        "oncle",
+        "tante"
+       ],
+       "e": [
+        "n vient après c.",
+        "o vient après c.",
+        "t vient après c."
+       ],
+       "y": "c vient avant n, o et t."
+      },
+      {
+       "q": "Quel mot vient en premier dans le dictionnaire ?",
+       "r": "neveu",
+       "w": [
+        "nièce",
+        "oncle",
+        "petit-fils"
+       ],
+       "e": [
+        "On compare la deuxième lettre : e vient avant i.",
+        "o vient après n.",
+        "p vient après n."
+       ],
+       "y": "neveu et nièce commencent par n ; e vient avant i."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-2-ordre",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "belle-sœur",
+       "cousin",
+       "neveu",
+       "oncle"
+      ],
+      [
+       "cousine",
+       "grand-mère",
+       "nièce",
+       "tante"
+      ],
+      [
+       "beau-père",
+       "frère",
+       "neveu",
+       "nièce"
+      ],
+      [
+       "cousin",
+       "cousine",
+       "oncle",
+       "tante"
+      ]
+     ]
+    }
+   },
+   "prompt": "Range ces mots dans l’ordre du dictionnaire.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  }
+ ]
+}

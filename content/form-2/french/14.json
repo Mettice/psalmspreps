@@ -1,0 +1,490 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "fr",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "fr2-14",
+   "name": "Le son [f] : f, ff, ph"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [f] s’écrit de trois façons :\n• f : une fille, la famille, un fruit, neuf ;\n• ff : une affiche, difficile, un coiffeur, offrir, souffler, effacer (mais une girafe, avec un seul f) ;\n• ph (dans des mots venus du grec) : la pharmacie, une photo, le téléphone, l’alphabet, un éléphant, une phrase.\nAstuce : beaucoup de mots qui commencent par af-, ef-, of- doublent le f : affaire, effort, offrir (mais : afin, Afrique).\nEn cas de doute, on vérifie dans le dictionnaire.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Le ___armacien a vendu un sirop à mon ___rère. »",
+  "steps": [
+   "« pharmacien » vient de « pharmacie », un mot écrit avec ph.",
+   "« frère » s’écrit avec un simple f."
+  ],
+  "answer": "Le pharmacien a vendu un sirop à mon frère.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "Le son [f] s’écrit souvent f : famille, fille, fruit.",
+    "vars": {},
+    "example": [
+     "La famille de ma tante est grande."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-14-f"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Il s’écrit ph dans des mots savants : pharmacie, photo, téléphone, éléphant.",
+    "vars": {},
+    "example": [
+     "Mon oncle a un nouveau téléphone."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-14-ph"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Après af-, ef-, of- au début d’un mot, le f est souvent doublé : affiche, effort, offrir.",
+    "vars": {},
+    "example": [
+     "J’efface le tableau."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-14-ff-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le délégué colle une ___ au mur.",
+         "a": "affiche",
+         "w": [
+          "afiche",
+          "aphiche"
+         ],
+         "e": [
+          "Après af- au début, on double le f.",
+          "« affiche » ne s’écrit pas avec ph."
+         ]
+        },
+        {
+         "s": "J’___ le tableau après le cours.",
+         "a": "efface",
+         "w": [
+          "éface",
+          "ephace"
+         ],
+         "e": [
+          "Après ef- au début, on double le f.",
+          "« effacer » ne s’écrit pas avec ph."
+         ]
+        },
+        {
+         "s": "Mon oncle va m’___ un livre.",
+         "a": "offrir",
+         "w": [
+          "ofrir",
+          "ophrir"
+         ],
+         "e": [
+          "Après of- au début, on double le f.",
+          "« offrir » ne s’écrit pas avec ph."
+         ]
+        },
+        {
+         "s": "Ce problème est ___.",
+         "a": "difficile",
+         "w": [
+          "dificile",
+          "diphicile"
+         ],
+         "e": [
+          "« difficile » prend deux f.",
+          "« difficile » ne s’écrit pas avec ph."
+         ]
+        },
+        {
+         "s": "Le ___ coupe les cheveux de mon père.",
+         "a": "coiffeur",
+         "w": [
+          "coifeur",
+          "coipheur"
+         ],
+         "e": [
+          "« coiffeur » prend deux f.",
+          "« coiffeur » ne s’écrit pas avec ph."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne écriture.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-14-f",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma ___ aide ma mère à la cuisine.",
+       "a": "fille",
+       "w": [
+        "phille",
+        "ffille"
+       ],
+       "e": [
+        "« fille » s’écrit avec f.",
+        "Au début d’un mot, on ne double pas ici."
+       ]
+      },
+      {
+       "s": "Le manguier donne beaucoup de ___.",
+       "a": "fruits",
+       "w": [
+        "phruits",
+        "ffruits"
+       ],
+       "e": [
+        "« fruit » s’écrit avec f.",
+        "On ne double pas le f au début."
+       ]
+      },
+      {
+       "s": "Toute la ___ est réunie pour la fête.",
+       "a": "famille",
+       "w": [
+        "phamille",
+        "ffamille"
+       ],
+       "e": [
+        "« famille » s’écrit avec f.",
+        "On ne double pas le f au début."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-14-ph",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Nous achetons des médicaments à la ___.",
+       "a": "pharmacie",
+       "w": [
+        "farmacie",
+        "ffarmacie"
+       ],
+       "e": [
+        "« pharmacie » s’écrit avec ph.",
+        "« pharmacie » s’écrit avec ph."
+       ]
+      },
+      {
+       "s": "L’___ est le plus gros animal de la forêt.",
+       "a": "éléphant",
+       "w": [
+        "éléfant",
+        "éléffant"
+       ],
+       "e": [
+        "« éléphant » s’écrit avec ph.",
+        "« éléphant » s’écrit avec ph."
+       ]
+      },
+      {
+       "s": "Ma tante m’appelle au ___.",
+       "a": "téléphone",
+       "w": [
+        "téléfone",
+        "téléffone"
+       ],
+       "e": [
+        "« téléphone » s’écrit avec ph.",
+        "« téléphone » s’écrit avec ph."
+       ]
+      },
+      {
+       "s": "Recopie la ___ au tableau.",
+       "a": "phrase",
+       "w": [
+        "frase",
+        "ffrase"
+       ],
+       "e": [
+        "« phrase » s’écrit avec ph.",
+        "« phrase » s’écrit avec ph."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-14-ff",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le délégué colle une ___ au mur.",
+       "a": "affiche",
+       "w": [
+        "afiche",
+        "aphiche"
+       ],
+       "e": [
+        "Après af- au début, on double le f.",
+        "« affiche » ne s’écrit pas avec ph."
+       ]
+      },
+      {
+       "s": "J’___ le tableau après le cours.",
+       "a": "efface",
+       "w": [
+        "éface",
+        "ephace"
+       ],
+       "e": [
+        "Après ef- au début, on double le f.",
+        "« effacer » ne s’écrit pas avec ph."
+       ]
+      },
+      {
+       "s": "Mon oncle va m’___ un livre.",
+       "a": "offrir",
+       "w": [
+        "ofrir",
+        "ophrir"
+       ],
+       "e": [
+        "Après of- au début, on double le f.",
+        "« offrir » ne s’écrit pas avec ph."
+       ]
+      },
+      {
+       "s": "Ce problème est ___.",
+       "a": "difficile",
+       "w": [
+        "dificile",
+        "diphicile"
+       ],
+       "e": [
+        "« difficile » prend deux f.",
+        "« difficile » ne s’écrit pas avec ph."
+       ]
+      },
+      {
+       "s": "Le ___ coupe les cheveux de mon père.",
+       "a": "coiffeur",
+       "w": [
+        "coifeur",
+        "coipheur"
+       ],
+       "e": [
+        "« coiffeur » prend deux f.",
+        "« coiffeur » ne s’écrit pas avec ph."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute d’orthographe ?",
+   "pool": {
+    "right": [
+     {
+      "text": "La pharmacie est fermée le dimanche.",
+      "truth": "true"
+     },
+     {
+      "text": "Mon frère prend une photo.",
+      "truth": "true"
+     },
+     {
+      "text": "La girafe mange des feuilles.",
+      "truth": "true"
+     },
+     {
+      "text": "Il fait un gros effort.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’éléfant traverse la rivière.",
+      "truth": "false",
+      "explain": "« éléphant » s’écrit avec ph."
+     },
+     {
+      "text": "Ma cousine colle une afiche.",
+      "truth": "false",
+      "explain": "« affiche » prend deux f."
+     },
+     {
+      "text": "Le pharmacien vend des phruits.",
+      "truth": "false",
+      "explain": "« fruits » s’écrit avec f."
+     },
+     {
+      "text": "Nous écrivons une frase.",
+      "truth": "false",
+      "explain": "« phrase » s’écrit avec ph."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

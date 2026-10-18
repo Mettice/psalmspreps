@@ -1,0 +1,400 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "fr",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "fr2-6",
+   "name": "Le passé composé : formation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé composé se forme avec deux mots : l’auxiliaire avoir ou être au présent + le participe passé du verbe.\n• Participe passé : verbes en -er → -é (mangé) ; deuxième groupe → -i (fini) ; autres : fait, pris, lu, écrit, vu, venu, parti …\n• Avec avoir (la plupart des verbes) : j’ai mangé, nous avons fini, ils ont fait.\n• Avec être : aller, venir, partir, arriver, entrer, sortir, rester, tomber, monter, descendre, naître, mourir … : je suis allé, elle est venue.\n• Avec être, le participe s’accorde avec le sujet : elle est partie (e), ils sont partis (s), elles sont parties (es).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "aller",
+   "p": 7
+  },
+  "problem": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "« aller » se conjugue avec être : elles sont.",
+   "Le participe passé est « allé ».",
+   "Avec être, on accorde avec le sujet (féminin pluriel) : allées."
+  ],
+  "answer": "{fr2PasseCompose(v, p)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Passé composé = avoir ou être au présent + participe passé.",
+    "vars": {},
+    "example": [
+     "j’ai mangé, tu as fini, il est venu"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-6-form"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "Aller, venir, partir, arriver, entrer, rester, tomber se conjuguent avec être.",
+    "vars": {},
+    "example": [
+     "je suis arrivé, nous sommes restés"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-6-aux"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Avec être, le participe passé s’accorde avec le sujet.",
+    "vars": {},
+    "example": [
+     "elle est partie, ils sont partis, elles sont parties"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-6-accord-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "aller",
+        "venir",
+        "partir",
+        "arriver",
+        "tomber",
+        "rester",
+        "entrer"
+       ]
+      },
+      "p": {
+       "pick": [
+        3,
+        4,
+        6,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2PasseCompose(v, p)}",
+     "distractors": [
+      {
+       "text": "{fr2PcNoAgree(v, p)}",
+       "misconception": "agree"
+      },
+      {
+       "text": "{fr2PcOtherAux(v, p)}",
+       "misconception": "aux"
+      },
+      {
+       "text": "{fr2PcInfinitive(v, p)}",
+       "misconception": "inf"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "agree",
+       "explain": "Avec être, le participe s’accorde avec le sujet « {fr2Pronoun(p)} »."
+      },
+      {
+       "id": "aux",
+       "explain": "« {v} » se conjugue avec être."
+      },
+      {
+       "id": "inf",
+       "explain": "Après l’auxiliaire, on met le participe passé."
+      }
+     ],
+     "solution": [
+      "« {v} » se conjugue avec être : le participe s’accorde avec « {fr2Pronoun(p)} ».",
+      "Donc : {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-6-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "manger",
+      "parler",
+      "finir",
+      "choisir",
+      "faire",
+      "prendre",
+      "lire",
+      "écrire",
+      "voir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcInfinitive(v, p)}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2PcOtherAux(v, p)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, p))}",
+     "misconception": "pres"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "inf",
+     "explain": "Après l’auxiliaire, on met le participe passé (« {fr2Participle(v)} »), pas l’infinitif."
+    },
+    {
+     "id": "aux",
+     "explain": "« {v} » se conjugue avec {fr2Aux(v)}."
+    },
+    {
+     "id": "pres",
+     "explain": "Cette forme est au présent ; le passé composé a deux mots."
+    }
+   ],
+   "solution": [
+    "« {v} » se conjugue avec {fr2Aux(v)} ; son participe passé est « {fr2Participle(v)} ».",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-6-aux",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "manger",
+      "parler",
+      "finir",
+      "choisir",
+      "faire",
+      "prendre",
+      "lire",
+      "écrire",
+      "voir",
+      "aller",
+      "venir",
+      "partir",
+      "arriver",
+      "tomber",
+      "rester",
+      "entrer"
+     ]
+    }
+   },
+   "prompt": "Avec quel auxiliaire se conjugue « {v} » au passé composé ?",
+   "correct": "{fr2Aux(v)}",
+   "distractors": [
+    {
+     "text": "{fr2Aux(v) == 'être' ? 'avoir' : 'être'}",
+     "misconception": "aux"
+    },
+    {
+     "text": "aller",
+     "misconception": "aller"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "aux",
+     "explain": "Ce n’est pas le bon auxiliaire : on dit « {fr2PasseCompose(v, 0)} »."
+    },
+    {
+     "id": "aller",
+     "explain": "« aller » sert au futur proche (je vais manger) ; les auxiliaires du passé composé sont avoir et être."
+    }
+   ],
+   "solution": [
+    "« {v} » se conjugue avec {answer} : {fr2PasseCompose(v, 0)}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-6-accord",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aller",
+      "venir",
+      "partir",
+      "arriver",
+      "tomber",
+      "rester",
+      "entrer"
+     ]
+    },
+    "p": {
+     "pick": [
+      3,
+      4,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcNoAgree(v, p)}",
+     "misconception": "agree"
+    },
+    {
+     "text": "{fr2PcOtherAux(v, p)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{fr2PcInfinitive(v, p)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "agree",
+     "explain": "Avec être, le participe s’accorde avec le sujet « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "aux",
+     "explain": "« {v} » se conjugue avec être."
+    },
+    {
+     "id": "inf",
+     "explain": "Après l’auxiliaire, on met le participe passé."
+    }
+   ],
+   "solution": [
+    "« {v} » se conjugue avec être : le participe s’accorde avec « {fr2Pronoun(p)} ».",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-6-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Hier, ___ (je, manger) du ndolé chez ma tante.",
+       "v": "manger",
+       "p": 0
+      },
+      {
+       "s": "Samedi, ___ (nous, finir) le travail à midi.",
+       "v": "finir",
+       "p": 4
+      },
+      {
+       "s": "Ce matin, ___ (elle, aller) au marché avec sa mère.",
+       "v": "aller",
+       "p": 3
+      },
+      {
+       "s": "La semaine dernière, ___ (ils, venir) voir leur grand-père.",
+       "v": "venir",
+       "p": 6
+      },
+      {
+       "s": "Dimanche, ___ (elles, partir) très tôt.",
+       "v": "partir",
+       "p": 7
+      },
+      {
+       "s": "Hier soir, ___ (il, lire) un conte à sa nièce.",
+       "v": "lire",
+       "p": 2
+      },
+      {
+       "s": "L’année dernière, ___ (nous, arriver) à Bafia en juin.",
+       "v": "arriver",
+       "p": 4
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au passé composé.",
+   "text": "{X.s}",
+   "answer": "fr2PasseCompose(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "agree",
+     "wrong": "fr2PcNoAgree(X.v, X.p)",
+     "explain": "Avec être, le participe s’accorde avec le sujet."
+    },
+    {
+     "id": "aux",
+     "wrong": "fr2PcOtherAux(X.v, X.p)",
+     "explain": "« {X.v} » se conjugue avec {fr2Aux(X.v)}."
+    }
+   ],
+   "solution": [
+    "« {X.v} » : auxiliaire {fr2Aux(X.v)}, participe « {fr2Participle(X.v)} ».",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,372 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-3",
+   "name": "Le présent des verbes en -ger, -cer, -eler, -eter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Certains verbes du premier groupe changent un peu leur radical au présent, pour garder le même son.\n• Verbes en -ger : on garde le e devant -ons : nous mangeons, nous nageons, nous rangeons.\n• Verbes en -cer : le c devient ç devant -ons : nous commençons, nous lançons, nous avançons.\n• Verbes en -eler et -eter : la consonne double devant un e muet : j’appelle, tu jettes, ils appellent (mais nous appelons, vous jetez).\n• Acheter, lever, peser : le e prend un accent grave devant un e muet : j’achète, il lève (mais nous achetons).\n• Préférer, espérer, répéter : le é devient è devant un e muet : je préfère, ils répètent (mais vous préférez).\nLes terminaisons restent celles du premier groupe : -e, -es, -e, -ons, -ez, -ent.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "commencer"
+  },
+  "problem": "Conjugue « {v} » au présent avec « nous » et avec « ils ».",
+  "steps": [
+   "C’est un verbe en -cer.",
+   "Devant -ons, le c devient ç : nous {fr2Present(v, 4)}.",
+   "Devant -ent, pas de changement : ils {fr2Present(v, 6)}."
+  ],
+  "answer": "nous {fr2Present(v, 4)}, ils {fr2Present(v, 6)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "Verbes en -ger : on garde le e devant -ons.",
+    "vars": {},
+    "example": [
+     "nous mangeons, nous rangeons"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-3-nous"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "Verbes en -cer : le c devient ç devant -ons.",
+    "vars": {},
+    "example": [
+     "nous commençons, nous lançons"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-3-cer"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "Appeler et jeter doublent la consonne devant un e muet ; acheter et préférer prennent un accent grave.",
+    "vars": {},
+    "example": [
+     "j’appelle, je jette, j’achète, je préfère"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-3-double-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "appeler",
+        "jeter",
+        "acheter",
+        "lever",
+        "préférer",
+        "répéter"
+       ]
+      },
+      "p": {
+       "pick": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2With(p, fr2Present(v, p))}",
+     "distractors": [
+      {
+       "text": "{fr2With(p, fr2PlainPresent(v, p))}",
+       "misconception": "change"
+      },
+      {
+       "text": "{fr2With(p, fr2Present(v, 4))}",
+       "misconception": "pers"
+      },
+      {
+       "text": "{fr2With(p, fr2Present(v, 5))}",
+       "misconception": "pers"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "change",
+       "explain": "Devant un e muet, ce verbe change : {fr2Change(v)}."
+      },
+      {
+       "id": "pers",
+       "explain": "Cette terminaison ne va pas avec « {fr2Pronoun(p)} »."
+      }
+     ],
+     "solution": [
+      "{fr2Change(v)}.",
+      "Donc : {answer}."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-3-nous",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "manger",
+      "nager",
+      "ranger",
+      "partager"
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « nous ».",
+   "correct": "nous {fr2Present(v, 4)}",
+   "distractors": [
+    {
+     "text": "nous {fr2PlainPresent(v, 4)}",
+     "misconception": "change"
+    },
+    {
+     "text": "nous {fr2Present(v, 5)}",
+     "misconception": "pers"
+    },
+    {
+     "text": "nous {fr2Present(v, 6)}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "change",
+     "explain": "Sans le e, le g se prononcerait comme dans « gomme ». On écrit « nous {fr2Present(v, 4)} »."
+    },
+    {
+     "id": "pers",
+     "explain": "Avec « nous », la terminaison est -ons."
+    }
+   ],
+   "solution": [
+    "{fr2Change(v)}.",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-3-cer",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "commencer",
+      "lancer",
+      "avancer"
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « nous ».",
+   "correct": "nous {fr2Present(v, 4)}",
+   "distractors": [
+    {
+     "text": "nous {fr2PlainPresent(v, 4)}",
+     "misconception": "change"
+    },
+    {
+     "text": "nous {fr2Present(v, 5)}",
+     "misconception": "pers"
+    },
+    {
+     "text": "nous {fr2Present(v, 6)}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "change",
+     "explain": "Sans cédille, le c se prononcerait comme dans « col ». On écrit « nous {fr2Present(v, 4)} »."
+    },
+    {
+     "id": "pers",
+     "explain": "Avec « nous », la terminaison est -ons."
+    }
+   ],
+   "solution": [
+    "{fr2Change(v)}.",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-3-double",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "appeler",
+      "jeter",
+      "acheter",
+      "lever",
+      "préférer",
+      "répéter"
+     ]
+    },
+    "p": {
+     "pick": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2Present(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2PlainPresent(v, p))}",
+     "misconception": "change"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, 4))}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, 5))}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "change",
+     "explain": "Devant un e muet, ce verbe change : {fr2Change(v)}."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette terminaison ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "{fr2Change(v)}.",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-3-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Nous ___ (manger) du couscous le dimanche.",
+       "v": "manger",
+       "p": 4
+      },
+      {
+       "s": "Nous ___ (commencer) les cours à sept heures et demie.",
+       "v": "commencer",
+       "p": 4
+      },
+      {
+       "s": "Nous ___ (ranger) nos livres après la classe.",
+       "v": "ranger",
+       "p": 4
+      },
+      {
+       "s": "Nous ___ (partager) le repas avec nos voisins.",
+       "v": "partager",
+       "p": 4
+      },
+      {
+       "s": "Nous ___ (lancer) le ballon à Mbarga.",
+       "v": "lancer",
+       "p": 4
+      },
+      {
+       "s": "Ma mère ___ (appeler) les enfants pour le repas.",
+       "v": "appeler",
+       "p": 3
+      },
+      {
+       "s": "Les élèves ___ (jeter) les papiers dans la poubelle.",
+       "v": "jeter",
+       "p": 6
+      },
+      {
+       "s": "Mon oncle ___ (acheter) du pain chaque matin.",
+       "v": "acheter",
+       "p": 2
+      },
+      {
+       "s": "Tu ___ (préférer) le riz ou le plantain ?",
+       "v": "préférer",
+       "p": 1
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au présent.",
+   "text": "{X.s}",
+   "answer": "fr2Present(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "change",
+     "wrong": "fr2PlainPresent(X.v, X.p)",
+     "explain": "Attention au changement du radical : {fr2Change(X.v)}."
+    }
+   ],
+   "solution": [
+    "{fr2Change(X.v)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

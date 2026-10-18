@@ -1,0 +1,386 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "fr",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "fr2-19",
+   "name": "Le présent de sentir, choisir, lire, désinfecter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Au présent, chaque groupe a ses terminaisons.\n• Premier groupe (-er) : désinfecter → je désinfecte, nous désinfectons, ils désinfectent.\n• Deuxième groupe (-ir, nous -issons) : choisir, finir, grandir, réussir → je choisis, il choisit, nous choisissons, ils choisissent.\n• Troisième groupe : sentir, partir, dormir n’ont pas -iss- : je sens, il sent, nous sentons, ils sentent ;\n  lire : je lis, nous lisons, vous lisez ; dire : je dis, nous disons, vous dites ; écrire : j’écris, nous écrivons.\nPour savoir si un verbe en -ir est du deuxième groupe, on regarde le participe présent : choisissant (oui), sentant (non).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "choisir"
+  },
+  "problem": "Conjugue « {v} » avec « nous » et « ils » au présent.",
+  "steps": [
+   "On dit « en choisissant » : c’est un verbe du deuxième groupe.",
+   "Il prend -iss- au pluriel : nous {fr2Present(v, 4)}, ils {fr2Present(v, 6)}."
+  ],
+  "answer": "nous {fr2Present(v, 4)}, ils {fr2Present(v, 6)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "Les verbes du deuxième groupe (choisir, finir) prennent -iss- au pluriel.",
+    "vars": {},
+    "example": [
+     "nous choisissons, ils finissent"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-19-iss"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "Sentir, partir, dormir n’ont pas -iss- : nous sentons, ils partent.",
+    "vars": {},
+    "example": [
+     "je sens, tu sens, il sent"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-19-sentir"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "Lire, dire, écrire sont irréguliers : nous lisons, vous dites, nous écrivons.",
+    "vars": {},
+    "example": [
+     "Je lis un conte. Nous écrivons une lettre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-19-irr-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "lire",
+        "dire",
+        "écrire",
+        "désinfecter"
+       ]
+      },
+      "p": {
+       "int": [
+        0,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2With(p, fr2Present(v, p))}",
+     "distractors": [
+      {
+       "text": "{fr2With(p, fr2Present(v, (p + 2) % 8))}",
+       "misconception": "pers"
+      },
+      {
+       "text": "{fr2With(p, fr2Present(v, (p + 4) % 8))}",
+       "misconception": "pers"
+      },
+      {
+       "text": "{fr2With(p, v)}",
+       "misconception": "inf"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "pers",
+       "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+      },
+      {
+       "id": "inf",
+       "explain": "Il faut conjuguer le verbe."
+      }
+     ],
+     "solution": [
+      "Au présent, « {v} » : {fr2With(0, fr2Present(v, 0))}, nous {fr2Present(v, 4)}, vous {fr2Present(v, 5)}, ils {fr2Present(v, 6)}.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-19-iss",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "choisir",
+      "finir",
+      "grandir",
+      "réussir",
+      "remplir"
+     ]
+    },
+    "p": {
+     "pick": [
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2Present(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2WrongGroup(v, p))}",
+     "misconception": "group"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "group",
+     "explain": "« {v} » est du deuxième groupe : il prend -iss- au pluriel."
+    },
+    {
+     "id": "inf",
+     "explain": "Il faut conjuguer le verbe, pas laisser l’infinitif."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "« {v} » est du deuxième groupe (en {fr2ParticipePresent(v)}).",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-19-sentir",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "sentir",
+      "partir",
+      "dormir",
+      "sortir"
+     ]
+    },
+    "p": {
+     "pick": [
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2Present(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2WrongGroup(v, p))}",
+     "misconception": "group"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "group",
+     "explain": "« {v} » n’est pas du deuxième groupe : il ne prend pas -iss-."
+    },
+    {
+     "id": "inf",
+     "explain": "Il faut conjuguer le verbe."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "« {v} » est du troisième groupe : pas de -iss- (en {fr2ParticipePresent(v)}).",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-19-irr",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "lire",
+      "dire",
+      "écrire",
+      "désinfecter"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2Present(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2Present(v, (p + 2) % 8))}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Il faut conjuguer le verbe."
+    }
+   ],
+   "solution": [
+    "Au présent, « {v} » : {fr2With(0, fr2Present(v, 0))}, nous {fr2Present(v, 4)}, vous {fr2Present(v, 5)}, ils {fr2Present(v, 6)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-19-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Nous ___ (choisir) les meilleurs fruits au marché.",
+       "v": "choisir",
+       "p": 4
+      },
+      {
+       "s": "Les infirmiers ___ (désinfecter) la salle chaque matin.",
+       "v": "désinfecter",
+       "p": 6
+      },
+      {
+       "s": "Vous ___ (lire) les consignes avant de commencer.",
+       "v": "lire",
+       "p": 5
+      },
+      {
+       "s": "Les ordures ___ (sentir) mauvais près du marché.",
+       "v": "sentir",
+       "p": 6
+      },
+      {
+       "s": "Vous ___ (dire) toujours la vérité.",
+       "v": "dire",
+       "p": 5
+      },
+      {
+       "s": "Nous ___ (écrire) une affiche pour le club santé.",
+       "v": "écrire",
+       "p": 4
+      },
+      {
+       "s": "Les enfants ___ (grandir) vite quand ils mangent bien.",
+       "v": "grandir",
+       "p": 6
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au présent.",
+   "text": "{X.s}",
+   "answer": "fr2Present(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "pers",
+     "wrong": "fr2Present(X.v, 2)",
+     "explain": "Le sujet est pluriel : la terminaison change."
+    },
+    {
+     "id": "inf",
+     "wrong": "X.v",
+     "explain": "Il faut conjuguer le verbe."
+    }
+   ],
+   "solution": [
+    "« {X.v} » au présent : nous {fr2Present(X.v, 4)}, vous {fr2Present(X.v, 5)}, ils {fr2Present(X.v, 6)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

@@ -17,6 +17,7 @@ import * as history from "../../src/engine/lib/history.js";
 import * as biology from "../../src/engine/lib/biology.js";
 import * as computerscience from "../../src/engine/lib/computerscience.js";
 import * as french from "../../src/engine/lib/french.js";
+import * as french2 from "../../src/engine/lib/french2.js";
 import { render } from "../../src/engine/expr.js";
 import { instantiate, renderWorked } from "../../src/engine/template.js";
 import { renderCard, cardCheckTemplate, practicePlan, renderPaper, isDeferred } from "../../src/engine/teach.js";
@@ -35,6 +36,7 @@ const CONF = {
   french: { name: "French", batch: "Batch F1", spine: "french", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french }, sample: 15, lessons: "1–15" },
   // Form 2 (2026-10-17, form-2 branch): its own folder, numbered by place in the year (proposal G1)
   "f2-maths": { name: "Maths", cls: "Form 2", dir: "form-2/maths", batch: "Batch M2-1", spine: "form-2/mathematics", lib: { ...maths, ...maths2 }, sample: 21, lessons: "1–24, Term 1", bySeq: true },
+  "f2-french": { name: "French", cls: "Form 2", dir: "form-2/french", batch: "Batch FR2-1", spine: "form-2/french", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french, ...french2 }, sample: 21, lessons: "1–15, 18–32, Term 1", bySeq: true },
   "f2-home-economics": { name: "Home Economics", cls: "Form 2", dir: "form-2/home-economics", batch: "Batch H2-1", spine: "form-2/home-economics", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 12–21, Term 1", bySeq: true },
   "f2-geography": { name: "Geography", cls: "Form 2", dir: "form-2/geography", batch: "Batch G2-1", spine: "form-2/geography", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 7, lessons: "1–10, Term 1", bySeq: true },
   "f2-history": { name: "History", cls: "Form 2", dir: "form-2/history", batch: "Batch Y2-1", spine: "form-2/history", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 9, lessons: "1–10, Term 1", bySeq: true },
@@ -45,7 +47,7 @@ const CONF = {
   "f2-biology": { name: "Biology", cls: "Form 2", dir: "form-2/biology", batch: "Batch B2-1", spine: "form-2/biology", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 13–21, Term 1", bySeq: true },
   "f2-english": { name: "English", cls: "Form 2", dir: "form-2/english", batch: "Batch E2-1", spine: "form-2/english-language", lib: { ...maths, ...english }, sample: 3, lessons: "1–32, Term 1", bySeq: true },
 }[SUBJECT];
-if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science|french|f2-maths|f2-english|f2-physics|f2-chemistry|f2-biology|f2-home-economics|f2-geography|f2-history|f2-computer-science|f2-accounting");
+if (!CONF) throw new Error("usage: node tools/content/render_subject.mjs english|physics|chemistry|geography|home-economics|history|biology|computer-science|french|f2-maths|f2-english|f2-physics|f2-chemistry|f2-biology|f2-home-economics|f2-geography|f2-history|f2-computer-science|f2-accounting|f2-french");
 const lib = CONF.lib;
 const FOLDER = CONF.dir || SUBJECT, CLS = CONF.cls || "Form 1";
 const DIR = new URL(`../../content/${FOLDER}/`, import.meta.url);
@@ -152,6 +154,10 @@ writeFileSync(new URL("REVIEW.md", DIR), R.join("\n") + "\n", "utf8");
 const show = (v) => (typeof v === "number" ? maths.fmt(v) : String(v));
 const rend = (t, scope = {}) => render(t, scope, lib, show);
 const PART1 = {
+  "f2-french": () => ["## Part 1 : règles calculées (french2.js, TR-Z01 et TR-Z02)", "",
+    `- **Présent** : nous ${french2.fr2Present("manger", 4)}, nous ${french2.fr2Present("commencer", 4)}, j’${french2.fr2Present("appeler", 0)}, j’${french2.fr2Present("acheter", 0)}, je ${french2.fr2Present("préférer", 0)} ; nous ${french2.fr2Present("choisir", 4)}, nous ${french2.fr2Present("sentir", 4)}, vous ${french2.fr2Present("dire", 5)}.`,
+    `- **Passé composé** : ${french2.fr2PasseCompose("manger", 0)}, ${french2.fr2PasseCompose("aller", 7)}, ${french2.fr2PasseCompose("venir", 3)}, ${french2.fr2PasseCompose("prendre", 6)}.`,
+    `- **Adjectifs** : des jeux ${french2.fr2Adj("national", "m", true)}, des matchs ${french2.fr2Adj("final", "m", true)}, des fêtes ${french2.fr2Adj("national", "f", true)} ; des robes ${french2.fr2Adj("vert", "f", true)}, des chemises ${french2.fr2Adj("orange", "f", true)}, des robes ${french2.fr2Adj("rose", "f", true)}.`, ""],
   "f2-home-economics": () => ["## Part 1: rules and drawings (homeeconomics.js, as in Form One)", "", "- **Energy values (TR-U02)**: carbohydrate and protein 4 kcal (17 kJ) per gram, fat 9 kcal (37 kJ).",
     "- **Kitchen drawings and the work triangle**: the Form One drawings and rule (TR-H01, TR-H02).", ""],
   "f2-geography": () => ["## Part 1: formulae (computed by code)", "", "- BR = births ÷ population × 1000; DR likewise; NI = BR − DR (‰), ÷ 10 for %; density = population ÷ area.", ""],

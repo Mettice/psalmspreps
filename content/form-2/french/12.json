@@ -1,0 +1,369 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "fr",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "fr2-12",
+   "name": "Les interactions à l’école"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "À l’école, on parle avec respect.\n• Saluer : « Bonjour, Madame. », « Bonsoir, Monsieur le Proviseur. »\n• Demander la permission : « Puis-je sortir, s’il vous plaît ? », « Madame, est-ce que je peux poser une question ? »\n• S’excuser : « Excusez-moi d’être en retard. », « Pardon. »\n• Remercier : « Merci beaucoup, Monsieur. »\n• On vouvoie les adultes (le professeur, le surveillant général, le censeur) : « vous » ; on tutoie un camarade : « tu ».\nLes personnes de l’école : le proviseur (dirige le lycée), le censeur (s’occupe des études), le surveillant général (la discipline), l’intendant (l’argent et le matériel), le professeur principal, le délégué de classe.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Tu arrives en retard en classe. Que dis-tu au professeur ?",
+  "steps": [
+   "On salue : « Bonjour, Monsieur. »",
+   "On s’excuse en vouvoyant : « Excusez-moi d’être en retard. »",
+   "On demande la permission : « Puis-je entrer, s’il vous plaît ? »"
+  ],
+  "answer": "Bonjour, Monsieur. Excusez-moi d’être en retard. Puis-je entrer, s’il vous plaît ?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "On vouvoie les adultes de l’école et on tutoie ses camarades.",
+    "vars": {},
+    "example": [
+     "« Madame, vous pouvez répéter ? » ; « Ewane, tu me prêtes ta règle ? »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-12-vous"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "Pour demander poliment : « Puis-je … , s’il vous plaît ? ».",
+    "vars": {},
+    "example": [
+     "Puis-je aller aux toilettes, s’il vous plaît ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-12-poli"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "Le proviseur dirige le lycée ; le surveillant général s’occupe de la discipline.",
+    "vars": {},
+    "example": [
+     "Le délégué représente sa classe."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-12-qui-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "prompt": "Relie chaque personne à son rôle.",
+     "pool": [
+      {
+       "left": "le proviseur",
+       "right": "dirige le lycée"
+      },
+      {
+       "left": "le censeur",
+       "right": "s’occupe des études"
+      },
+      {
+       "left": "le surveillant général",
+       "right": "s’occupe de la discipline"
+      },
+      {
+       "left": "l’intendant",
+       "right": "gère l’argent et le matériel"
+      },
+      {
+       "left": "le délégué de classe",
+       "right": "représente les élèves de sa classe"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-12-vous",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que dis-tu au surveillant général ?",
+       "r": "Bonjour, Monsieur, pouvez-vous m’aider ?",
+       "w": [
+        "Salut, tu peux m’aider ?",
+        "Hé, aide-moi !",
+        "Bonjour, toi, aide-moi."
+       ],
+       "e": [
+        "On vouvoie un adulte de l’école.",
+        "Ce n’est pas poli.",
+        "On ne tutoie pas un adulte de l’école."
+       ],
+       "y": "On salue poliment et on vouvoie."
+      },
+      {
+       "q": "Que dis-tu à ton camarade de classe ?",
+       "r": "Tu me prêtes ta gomme, s’il te plaît ?",
+       "w": [
+        "Vous me prêtez votre gomme, Monsieur ?",
+        "Donne ta gomme !",
+        "Prête-moi ta gomme, sinon …"
+       ],
+       "e": [
+        "On tutoie un camarade.",
+        "Ce n’est pas poli.",
+        "Ce n’est pas poli."
+       ],
+       "y": "Avec un camarade : tu et « s’il te plaît »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-12-poli",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase est la plus polie pour sortir de la classe ?",
+       "r": "Puis-je sortir, s’il vous plaît ?",
+       "w": [
+        "Je sors.",
+        "Laissez-moi sortir !",
+        "Je veux sortir maintenant."
+       ],
+       "e": [
+        "On ne demande pas la permission.",
+        "C’est un ordre.",
+        "Ce n’est pas une demande polie."
+       ],
+       "y": "On demande la permission avec « Puis-je … , s’il vous plaît ? »."
+      },
+      {
+       "q": "Le professeur t’a aidé. Que dis-tu ?",
+       "r": "Merci beaucoup, Monsieur.",
+       "w": [
+        "Pardon, Monsieur.",
+        "Bonsoir, Monsieur.",
+        "Excusez-moi, Monsieur."
+       ],
+       "e": [
+        "« Pardon » sert à s’excuser.",
+        "« Bonsoir » sert à saluer.",
+        "« Excusez-moi » sert à s’excuser."
+       ],
+       "y": "On remercie."
+      },
+      {
+       "q": "Tu as marché sur le pied d’une camarade. Que dis-tu ?",
+       "r": "Pardon, excuse-moi.",
+       "w": [
+        "Merci beaucoup.",
+        "Bonjour.",
+        "Puis-je sortir ?"
+       ],
+       "e": [
+        "On ne remercie pas ici.",
+        "On ne salue pas ici.",
+        "Ce n’est pas le moment."
+       ],
+       "y": "On s’excuse."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-12-qui",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque personne à son rôle.",
+   "pool": [
+    {
+     "left": "le proviseur",
+     "right": "dirige le lycée"
+    },
+    {
+     "left": "le censeur",
+     "right": "s’occupe des études"
+    },
+    {
+     "left": "le surveillant général",
+     "right": "s’occupe de la discipline"
+    },
+    {
+     "left": "l’intendant",
+     "right": "gère l’argent et le matériel"
+    },
+    {
+     "left": "le délégué de classe",
+     "right": "représente les élèves de sa classe"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase n’est pas polie ou n’est pas correcte ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Bonjour, Monsieur le Censeur.",
+      "truth": "true"
+     },
+     {
+      "text": "Excusez-moi d’être en retard, Monsieur.",
+      "truth": "true"
+     },
+     {
+      "text": "Puis-je poser une question, s’il vous plaît ?",
+      "truth": "true"
+     },
+     {
+      "text": "Merci, Ewane, tu es gentil.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Toi, le proviseur, viens ici !",
+      "truth": "false",
+      "explain": "On vouvoie le proviseur et on parle avec respect."
+     },
+     {
+      "text": "Madame, tu peux répéter ?",
+      "truth": "false",
+      "explain": "On vouvoie un professeur : « pouvez-vous répéter ? »."
+     },
+     {
+      "text": "Je sors, Monsieur.",
+      "truth": "false",
+      "explain": "Il faut demander la permission : « Puis-je sortir, s’il vous plaît ? »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,460 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "fr",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "fr2-11",
+   "name": "Écrire des phrases sur la famille, l’école et la communauté"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une phrase simple a au moins un sujet et un verbe conjugué, et souvent un complément : Ma tante (sujet) vend (verbe) des légumes (complément).\nElle commence par une majuscule et finit par un point (. ? !).\nPour présenter un membre de sa famille : nom, lien de parenté, âge, métier, une qualité : « Mon oncle s’appelle Fouda. Il est infirmier. Il est généreux. »\nPour parler de l’école : « Mon école s’appelle … Elle se trouve à … Nous avons … salles de classe. »\nPour parler de la communauté : « Dans mon quartier, les voisins s’entraident. Le samedi, nous nettoyons le marché. »\nOn évite de répéter le nom : on le remplace par il, elle, ils, elles.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Écris deux phrases simples pour présenter ta grand-mère.",
+  "steps": [
+   "Première phrase : le nom et le lien : « Ma grand-mère s’appelle Mama Ngo. »",
+   "Deuxième phrase : on remplace le nom par « elle » et on donne une activité ou une qualité : « Elle cultive du manioc et elle est très patiente. »"
+  ],
+  "answer": "Ma grand-mère s’appelle Mama Ngo. Elle cultive du manioc et elle est très patiente.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "Une phrase simple a un sujet, un verbe conjugué et souvent un complément.",
+    "vars": {},
+    "example": [
+     "Mon père répare les chaises."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-11-phrase"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Une phrase commence par une majuscule et finit par un point.",
+    "vars": {},
+    "example": [
+     "Notre école est propre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-11-ponct"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "Pour ne pas répéter le nom, on emploie il, elle, ils ou elles.",
+    "vars": {},
+    "example": [
+     "Ma sœur est couturière. Elle coud des robes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-11-pron-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Mon frère s’appelle Biya.",
+         "r": "Il est élève au lycée de Buea.",
+         "w": [
+          "Mon frère s’appelle Biya est élève.",
+          "Elle est élève au lycée de Buea.",
+          "Biya Biya est élève."
+         ],
+         "e": [
+          "On ne répète pas toute la phrase.",
+          "« mon frère » est masculin : il.",
+          "On ne répète pas le nom."
+         ],
+         "y": "« Il » remplace « mon frère »."
+        },
+        {
+         "q": "Ma cousine est couturière.",
+         "r": "Elle coud de belles robes.",
+         "w": [
+          "Il coud de belles robes.",
+          "Ma cousine ma cousine coud.",
+          "Ils cousent de belles robes."
+         ],
+         "e": [
+          "« ma cousine » est féminin : elle.",
+          "On ne répète pas le nom.",
+          "« ma cousine » est singulier."
+         ],
+         "y": "« Elle » remplace « ma cousine »."
+        },
+        {
+         "q": "Mes voisins sont très gentils.",
+         "r": "Ils nous aident souvent.",
+         "w": [
+          "Il nous aide souvent.",
+          "Elles nous aident souvent.",
+          "Mes voisins mes voisins aident."
+         ],
+         "e": [
+          "« mes voisins » est pluriel.",
+          "« mes voisins » est masculin.",
+          "On ne répète pas le nom."
+         ],
+         "y": "« Ils » remplace « mes voisins »."
+        }
+       ]
+      }
+     },
+     "prompt": "Quelle est la meilleure deuxième phrase ? « {X.q} »",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-11-phrase",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle suite de mots est une phrase simple correcte ?",
+       "r": "Mon oncle vend du poisson.",
+       "w": [
+        "Mon oncle du poisson.",
+        "Vend du poisson le marché.",
+        "mon oncle vend du poisson"
+       ],
+       "e": [
+        "Il manque le verbe.",
+        "Il manque un sujet clair, et l’ordre est mauvais.",
+        "Il manque la majuscule et le point."
+       ],
+       "y": "Sujet + verbe + complément, majuscule et point."
+      },
+      {
+       "q": "Quelle suite de mots est une phrase simple correcte ?",
+       "r": "Les voisins nettoient le marché.",
+       "w": [
+        "Les voisins le marché.",
+        "Nettoient les voisins marché le.",
+        "les voisins nettoient le marché"
+       ],
+       "e": [
+        "Il manque le verbe.",
+        "L’ordre des mots est mauvais.",
+        "Il manque la majuscule et le point."
+       ],
+       "y": "Sujet + verbe + complément."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-11-ponct",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase est bien écrite ?",
+       "r": "Notre école se trouve à Bertoua.",
+       "w": [
+        "notre école se trouve à Bertoua.",
+        "Notre école se trouve à Bertoua",
+        "notre école se trouve à bertoua"
+       ],
+       "e": [
+        "Il faut une majuscule au début.",
+        "Il faut un point à la fin.",
+        "Il faut des majuscules au début et au nom de ville, et un point."
+       ],
+       "y": "Majuscule au début et au nom de ville, point à la fin."
+      },
+      {
+       "q": "Quelle phrase est bien écrite ?",
+       "r": "Ma tante s’appelle Aïcha.",
+       "w": [
+        "ma tante s’appelle Aïcha.",
+        "Ma tante s’appelle aïcha.",
+        "Ma tante s’appelle Aïcha"
+       ],
+       "e": [
+        "Il faut une majuscule au début.",
+        "Un prénom prend une majuscule.",
+        "Il faut un point à la fin."
+       ],
+       "y": "Majuscule au début et au prénom, point à la fin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-11-pron",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Mon frère s’appelle Biya.",
+       "r": "Il est élève au lycée de Buea.",
+       "w": [
+        "Mon frère s’appelle Biya est élève.",
+        "Elle est élève au lycée de Buea.",
+        "Biya Biya est élève."
+       ],
+       "e": [
+        "On ne répète pas toute la phrase.",
+        "« mon frère » est masculin : il.",
+        "On ne répète pas le nom."
+       ],
+       "y": "« Il » remplace « mon frère »."
+      },
+      {
+       "q": "Ma cousine est couturière.",
+       "r": "Elle coud de belles robes.",
+       "w": [
+        "Il coud de belles robes.",
+        "Ma cousine ma cousine coud.",
+        "Ils cousent de belles robes."
+       ],
+       "e": [
+        "« ma cousine » est féminin : elle.",
+        "On ne répète pas le nom.",
+        "« ma cousine » est singulier."
+       ],
+       "y": "« Elle » remplace « ma cousine »."
+      },
+      {
+       "q": "Mes voisins sont très gentils.",
+       "r": "Ils nous aident souvent.",
+       "w": [
+        "Il nous aide souvent.",
+        "Elles nous aident souvent.",
+        "Mes voisins mes voisins aident."
+       ],
+       "e": [
+        "« mes voisins » est pluriel.",
+        "« mes voisins » est masculin.",
+        "On ne répète pas le nom."
+       ],
+       "y": "« Ils » remplace « mes voisins »."
+      }
+     ]
+    }
+   },
+   "prompt": "Quelle est la meilleure deuxième phrase ? « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-11-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Mon oncle répare les vélos du quartier.",
+       "b": "Mon oncle répare les vélos du quartier."
+      },
+      {
+       "a": "Notre école a un grand terrain de sport.",
+       "b": "Notre école a un grand terrain de sport."
+      },
+      {
+       "a": "Le samedi, les voisins nettoient le marché.",
+       "b": "Le samedi, les voisins nettoient le marché."
+      },
+      {
+       "a": "Ma grand-mère raconte des contes le soir.",
+       "b": "Ma grand-mère raconte des contes le soir."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

@@ -93,7 +93,8 @@ const FR = {
   "Next: Lesson {a}": "Suivant : Leçon {a}", "🔥 {a}-day streak": "🔥 {a} jours d’affilée", "New badge: {a}": "Nouveau badge : {a}", "All subjects": "Toutes les matières", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
 };
 /** A label for the pupil: in French inside a French lesson, otherwise English. {x} are filled from v. */
-const T = (text, v = {}) => ((S === "french" && FR[text]) || text).replace(/\{(\w)\}/g, (_, k) => v[k]);
+const inFrench = (s) => s === "french" || s === "f2-french" || s === "f2-francais-intensif";
+const T = (text, v = {}) => ((inFrench(S) && FR[text]) || text).replace(/\{(\w)\}/g, (_, k) => v[k]);
 
 // ---------------------------------------------------------------- one question, any type
 /** A typed answer box (numbers or words): Enter or "Check" submits; the engine picks the keyboard. */
@@ -475,7 +476,7 @@ const LIB = () => libs[S];
 function openLesson(s, n) {
   withSubject(s, () => {
     S = s;
-    document.documentElement.lang = s === "french" ? "fr" : "en";  // screen readers read French lessons in French
+    document.documentElement.lang = inFrench(s) ? "fr" : "en";  // screen readers read French lessons in French
     const cur = state.current[s];
     if (cur?.lesson === n && !teach.isDone(cur.flow)) { cur.at = new Date().toISOString(); return lesson(resumable(cur.flow)); }
     state.current[s] = { lesson: n, flow: teach.startTeach(CONTENT[s][n], newSeed()), rows: [], at: new Date().toISOString() };

@@ -1,0 +1,461 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  7
+ ],
+ "skills": [
+  {
+   "id": "fr2-13",
+   "name": "Lire un texte sur la vie en famille et dans la communauté"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour bien lire un texte : on lit le titre, on lit tout le texte une fois, puis on relit pour répondre aux questions. On cherche le sens d’un mot difficile grâce aux mots qui l’entourent (le contexte).\n\nTexte : La fête du village\nChaque année, en décembre, le village de Mme Ndongo organise une grande fête. Les familles venues de la ville retrouvent leurs parents. Les jeunes réparent le pont et désherbent la place du marché ; les femmes préparent le repas commun. Le chef réunit les anciens sous l’arbre à palabres. On y règle les disputes et on décide des travaux de l’année. Le soir, on danse au son du tam-tam. Mme Ndongo dit à ses enfants : « Le village, c’est notre racine. Sans lui, un arbre ne tient pas debout. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que veut dire « l’arbre à palabres » ? Aide-toi du texte.",
+  "steps": [
+   "On lit la phrase : le chef y réunit les anciens ; on y règle les disputes et on décide des travaux.",
+   "C’est donc le lieu où l’on se réunit pour discuter."
+  ],
+  "answer": "C’est l’arbre sous lequel les anciens se réunissent pour discuter et régler les problèmes.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "On lit le titre, puis tout le texte, puis on relit pour répondre.",
+    "vars": {},
+    "example": [
+     "Le titre « La fête du village » annonce le sujet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-13-titre"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Le contexte (les mots autour) aide à comprendre un mot difficile.",
+    "vars": {},
+    "example": [
+     "« la place du marché » : on y vend et on y achète."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-13-mot"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "Une image dans un texte (une comparaison) dit une idée d’une autre façon.",
+    "vars": {},
+    "example": [
+     "« Le village, c’est notre racine » : le village est l’origine de la famille."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-13-image-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "que veut dire Mme Ndongo par « Le village, c’est notre racine » ?",
+         "r": "le village est l’origine de la famille, ce qui la tient",
+         "w": [
+          "il y a beaucoup d’arbres au village",
+          "il faut planter des racines",
+          "le village est loin de la ville"
+         ],
+         "e": [
+          "C’est une image, pas une description.",
+          "Ce n’est pas un conseil d’agriculture.",
+          "Ce n’est pas l’idée de la phrase."
+         ],
+         "y": "Comme la racine tient l’arbre, le village tient la famille."
+        },
+        {
+         "q": "quelle est l’idée principale du texte ?",
+         "r": "la fête réunit la communauté pour travailler, décider et se réjouir ensemble",
+         "w": [
+          "les jeunes n’aiment pas le village",
+          "la fête dure toute l’année",
+          "le chef travaille seul"
+         ],
+         "e": [
+          "Ils travaillent pour le village.",
+          "Elle a lieu en décembre.",
+          "Il réunit les anciens."
+         ],
+         "y": "Tout le village participe à la fête."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « La fête du village » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-13-titre",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quand a lieu la fête ?",
+       "r": "chaque année, en décembre",
+       "w": [
+        "chaque samedi",
+        "en juin",
+        "le jour de la rentrée"
+       ],
+       "e": [
+        "Le texte dit « chaque année ».",
+        "Le texte dit « décembre ».",
+        "Le texte ne parle pas de la rentrée."
+       ],
+       "y": "« Chaque année, en décembre »."
+      },
+      {
+       "q": "que font les jeunes ?",
+       "r": "ils réparent le pont et désherbent la place du marché",
+       "w": [
+        "ils préparent le repas commun",
+        "ils règlent les disputes",
+        "ils jouent du tam-tam toute la journée"
+       ],
+       "e": [
+        "Ce sont les femmes.",
+        "Ce sont le chef et les anciens.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« Les jeunes réparent le pont et désherbent la place du marché »."
+      },
+      {
+       "q": "où le chef réunit-il les anciens ?",
+       "r": "sous l’arbre à palabres",
+       "w": [
+        "au marché",
+        "dans la case du chef",
+        "à l’école"
+       ],
+       "e": [
+        "Le marché est désherbé par les jeunes.",
+        "Le texte dit « sous l’arbre à palabres ».",
+        "Le texte ne parle pas d’école."
+       ],
+       "y": "« sous l’arbre à palabres »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « La fête du village » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-13-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "dans « le repas commun », que veut dire « commun » ?",
+       "r": "partagé par tout le monde",
+       "w": [
+        "mauvais",
+        "petit",
+        "secret"
+       ],
+       "e": [
+        "Le texte ne juge pas le repas.",
+        "Le texte ne parle pas de la taille.",
+        "Toute la fête est publique."
+       ],
+       "y": "Toutes les familles mangent ensemble."
+      },
+      {
+       "q": "dans « on règle les disputes », que veut dire « régler » ?",
+       "r": "trouver une solution",
+       "w": [
+        "commencer",
+        "payer",
+        "mesurer avec une règle"
+       ],
+       "e": [
+        "On met fin aux disputes.",
+        "Ce n’est pas une question d’argent ici.",
+        "Ce n’est pas le sens ici."
+       ],
+       "y": "Régler une dispute, c’est la résoudre."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « La fête du village » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-13-image",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que veut dire Mme Ndongo par « Le village, c’est notre racine » ?",
+       "r": "le village est l’origine de la famille, ce qui la tient",
+       "w": [
+        "il y a beaucoup d’arbres au village",
+        "il faut planter des racines",
+        "le village est loin de la ville"
+       ],
+       "e": [
+        "C’est une image, pas une description.",
+        "Ce n’est pas un conseil d’agriculture.",
+        "Ce n’est pas l’idée de la phrase."
+       ],
+       "y": "Comme la racine tient l’arbre, le village tient la famille."
+      },
+      {
+       "q": "quelle est l’idée principale du texte ?",
+       "r": "la fête réunit la communauté pour travailler, décider et se réjouir ensemble",
+       "w": [
+        "les jeunes n’aiment pas le village",
+        "la fête dure toute l’année",
+        "le chef travaille seul"
+       ],
+       "e": [
+        "Ils travaillent pour le village.",
+        "Elle a lieu en décembre.",
+        "Il réunit les anciens."
+       ],
+       "y": "Tout le village participe à la fête."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « La fête du village » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Texte « La fête du village ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Les familles de la ville retrouvent leurs parents.",
+      "truth": "true"
+     },
+     {
+      "text": "Les femmes préparent le repas commun.",
+      "truth": "true"
+     },
+     {
+      "text": "Le soir, on danse au son du tam-tam.",
+      "truth": "true"
+     },
+     {
+      "text": "Les anciens règlent les disputes.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Les jeunes préparent le repas commun.",
+      "truth": "false",
+      "explain": "Ce sont les femmes ; les jeunes réparent le pont."
+     },
+     {
+      "text": "La fête a lieu chaque mois.",
+      "truth": "false",
+      "explain": "Elle a lieu chaque année, en décembre."
+     },
+     {
+      "text": "Le chef réunit les jeunes au marché.",
+      "truth": "false",
+      "explain": "Il réunit les anciens sous l’arbre à palabres."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

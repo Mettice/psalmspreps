@@ -1,0 +1,523 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-5",
+   "name": "La phrase affirmative et les pronoms le, la, les, l’"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La phrase affirmative dit que quelque chose est vrai : « Marie lave la voiture. » Elle commence par une majuscule et finit par un point.\nLe complément d’objet direct (COD) répond à la question « quoi ? » ou « qui ? » posée juste après le verbe : Marie lave quoi ? la voiture.\nPour ne pas répéter le COD, on le remplace par un pronom placé devant le verbe :\n• le pour un nom masculin singulier : Je range le livre → Je le range.\n• la pour un nom féminin singulier : Je lave la robe → Je la lave.\n• les pour un nom pluriel : J’aide mes parents → Je les aide.\n• l’ devant une voyelle ou un h muet : J’appelle Marie → Je l’appelle.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Remplace le COD par un pronom : « Paul balaie la cour. »",
+  "steps": [
+   "Paul balaie quoi ? la cour : c’est le COD.",
+   "« la cour » est féminin singulier : le pronom est « la ».",
+   "Le pronom se place devant le verbe : Paul la balaie."
+  ],
+  "answer": "Paul la balaie.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "Le COD répond à « quoi ? » ou « qui ? » après le verbe.",
+    "vars": {},
+    "example": [
+     "Il mange quoi ? une mangue : « une mangue » est le COD."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-5-cod"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "On remplace le COD par le, la, les ou l’, selon son genre et son nombre.",
+    "vars": {},
+    "example": [
+     "les cahiers → les ; la porte → la"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-5-pron"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "Le pronom COD se place devant le verbe.",
+    "vars": {},
+    "example": [
+     "Je ferme la porte → Je la ferme."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-5-place-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "J’appelle mon oncle.",
+         "r": "Je l’appelle.",
+         "w": [
+          "J’appelle le.",
+          "Je le appelle.",
+          "Je les appelle."
+         ],
+         "e": [
+          "Le pronom se place devant le verbe.",
+          "Devant une voyelle, le devient l’.",
+          "« mon oncle » est singulier."
+         ],
+         "y": "Devant « appelle » (voyelle), on écrit l’."
+        },
+        {
+         "q": "Tu ranges tes chaussures.",
+         "r": "Tu les ranges.",
+         "w": [
+          "Tu ranges les.",
+          "Tu la ranges.",
+          "Tu le ranges."
+         ],
+         "e": [
+          "Le pronom se place devant le verbe.",
+          "« tes chaussures » est pluriel.",
+          "« tes chaussures » est pluriel."
+         ],
+         "y": "Pluriel : les, devant le verbe."
+        },
+        {
+         "q": "Nous lavons la voiture.",
+         "r": "Nous la lavons.",
+         "w": [
+          "Nous lavons la.",
+          "Nous le lavons.",
+          "Nous les lavons."
+         ],
+         "e": [
+          "Le pronom se place devant le verbe.",
+          "« voiture » est féminin.",
+          "« la voiture » est singulier."
+         ],
+         "y": "Féminin singulier : la, devant le verbe."
+        },
+        {
+         "q": "Elle écoute la radio.",
+         "r": "Elle l’écoute.",
+         "w": [
+          "Elle la écoute.",
+          "Elle écoute la.",
+          "Elle les écoute."
+         ],
+         "e": [
+          "Devant une voyelle, la devient l’.",
+          "Le pronom se place devant le verbe.",
+          "« la radio » est singulier."
+         ],
+         "y": "Devant « écoute » (voyelle), on écrit l’."
+        }
+       ]
+      }
+     },
+     "prompt": "Remplace le COD par un pronom : « {X.q} »",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-5-pron",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma sœur ___ lave tous les jours. (la robe)",
+       "a": "la",
+       "w": [
+        "le",
+        "les"
+       ],
+       "e": [
+        "« robe » est féminin.",
+        "« la robe » est singulier."
+       ]
+      },
+      {
+       "s": "Le maître ___ corrige le soir. (les cahiers)",
+       "a": "les",
+       "w": [
+        "le",
+        "la"
+       ],
+       "e": [
+        "« les cahiers » est pluriel.",
+        "« les cahiers » est masculin pluriel."
+       ]
+      },
+      {
+       "s": "Junior ___ range dans le placard. (le ballon)",
+       "a": "le",
+       "w": [
+        "la",
+        "les"
+       ],
+       "e": [
+        "« ballon » est masculin.",
+        "« le ballon » est singulier."
+       ]
+      },
+      {
+       "s": "Nous ___ aidons au champ. (nos parents)",
+       "a": "les",
+       "w": [
+        "le",
+        "la"
+       ],
+       "e": [
+        "« nos parents » est pluriel.",
+        "« nos parents » est pluriel."
+       ]
+      },
+      {
+       "s": "Maman ___ prépare pour le repas. (la sauce)",
+       "a": "la",
+       "w": [
+        "le",
+        "les"
+       ],
+       "e": [
+        "« sauce » est féminin.",
+        "« la sauce » est singulier."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le pronom qui remplace le mot entre parenthèses.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-5-cod",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel est le COD dans « Paul répare la porte » ?",
+       "r": "la porte",
+       "w": [
+        "Paul",
+        "répare",
+        "il n’y en a pas"
+       ],
+       "e": [
+        "Paul fait l’action : c’est le sujet.",
+        "« répare » est le verbe.",
+        "Paul répare quoi ? la porte."
+       ],
+       "y": "Paul répare quoi ? la porte."
+      },
+      {
+       "q": "Quel est le COD dans « Les enfants aident leur grand-mère » ?",
+       "r": "leur grand-mère",
+       "w": [
+        "Les enfants",
+        "aident",
+        "il n’y en a pas"
+       ],
+       "e": [
+        "C’est le sujet.",
+        "C’est le verbe.",
+        "Ils aident qui ? leur grand-mère."
+       ],
+       "y": "Ils aident qui ? leur grand-mère."
+      },
+      {
+       "q": "Quel est le COD dans « Marie mange une mangue » ?",
+       "r": "une mangue",
+       "w": [
+        "Marie",
+        "mange",
+        "il n’y en a pas"
+       ],
+       "e": [
+        "C’est le sujet.",
+        "C’est le verbe.",
+        "Marie mange quoi ? une mangue."
+       ],
+       "y": "Marie mange quoi ? une mangue."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-5-place",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "J’appelle mon oncle.",
+       "r": "Je l’appelle.",
+       "w": [
+        "J’appelle le.",
+        "Je le appelle.",
+        "Je les appelle."
+       ],
+       "e": [
+        "Le pronom se place devant le verbe.",
+        "Devant une voyelle, le devient l’.",
+        "« mon oncle » est singulier."
+       ],
+       "y": "Devant « appelle » (voyelle), on écrit l’."
+      },
+      {
+       "q": "Tu ranges tes chaussures.",
+       "r": "Tu les ranges.",
+       "w": [
+        "Tu ranges les.",
+        "Tu la ranges.",
+        "Tu le ranges."
+       ],
+       "e": [
+        "Le pronom se place devant le verbe.",
+        "« tes chaussures » est pluriel.",
+        "« tes chaussures » est pluriel."
+       ],
+       "y": "Pluriel : les, devant le verbe."
+      },
+      {
+       "q": "Nous lavons la voiture.",
+       "r": "Nous la lavons.",
+       "w": [
+        "Nous lavons la.",
+        "Nous le lavons.",
+        "Nous les lavons."
+       ],
+       "e": [
+        "Le pronom se place devant le verbe.",
+        "« voiture » est féminin.",
+        "« la voiture » est singulier."
+       ],
+       "y": "Féminin singulier : la, devant le verbe."
+      },
+      {
+       "q": "Elle écoute la radio.",
+       "r": "Elle l’écoute.",
+       "w": [
+        "Elle la écoute.",
+        "Elle écoute la.",
+        "Elle les écoute."
+       ],
+       "e": [
+        "Devant une voyelle, la devient l’.",
+        "Le pronom se place devant le verbe.",
+        "« la radio » est singulier."
+       ],
+       "y": "Devant « écoute » (voyelle), on écrit l’."
+      }
+     ]
+    }
+   },
+   "prompt": "Remplace le COD par un pronom : « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-5-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Mon frère la balaie chaque matin.",
+       "b": "Mon frère la balaie chaque matin."
+      },
+      {
+       "a": "Les élèves les ramassent dans la cour.",
+       "b": "Les élèves les ramassent dans la cour."
+      },
+      {
+       "a": "Ma tante le prépare pour la fête.",
+       "b": "Ma tante le prépare pour la fête."
+      },
+      {
+       "a": "Nous l’aidons au champ le samedi.",
+       "b": "Nous l’aidons au champ le samedi."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase affirmative.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

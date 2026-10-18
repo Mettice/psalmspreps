@@ -1,0 +1,440 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "fr",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "fr2-25",
+   "name": "L’accord de l’adjectif avec plusieurs noms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Quand un adjectif se rapporte à plusieurs noms, il se met au pluriel.\n• Si tous les noms sont féminins, l’adjectif est au féminin pluriel : une jupe et une robe noires.\n• Si les noms sont masculins, ou s’il y a au moins un nom masculin, l’adjectif est au masculin pluriel : un pantalon et une chemise blancs ; le garçon et la fille sont petits.\nConseil : quand on mélange masculin et féminin, on place de préférence le nom masculin près de l’adjectif : une chemise et un pantalon blancs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "X": {
+    "pick": [
+     {
+      "s": "Ma tante et mon oncle sont",
+      "g": "m",
+      "a": "grand"
+     }
+    ]
+   }
+  },
+  "problem": "Accorde : « {X.s} ___ ({X.a}). »",
+  "steps": [
+   "L’adjectif se rapporte à deux noms : il est au pluriel.",
+   "« ma tante » est féminin, « mon oncle » est masculin : il y a un masculin.",
+   "Donc masculin pluriel : {fr2Adj(X.a, X.g, true)}."
+  ],
+  "answer": "{X.s} {fr2Adj(X.a, X.g, true)}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "Un adjectif qui se rapporte à plusieurs noms se met au pluriel.",
+    "vars": {},
+    "example": [
+     "Le livre et le cahier sont neufs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-25-pl"
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Si tous les noms sont féminins, l’adjectif est au féminin pluriel.",
+    "vars": {},
+    "example": [
+     "Ma sœur et ma cousine sont malades."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-25-f"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "S’il y a au moins un nom masculin, l’adjectif est au masculin pluriel.",
+    "vars": {},
+    "example": [
+     "Ma tante et mon oncle sont grands."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-25-m-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le garçon et la fille sont",
+         "g": "m",
+         "a": "petit"
+        },
+        {
+         "s": "Il achète un pantalon et une chemise",
+         "g": "m",
+         "a": "blanc"
+        },
+        {
+         "s": "Ma tante et mon oncle sont",
+         "g": "m",
+         "a": "grand"
+        },
+        {
+         "s": "Le livre et le cahier sont",
+         "g": "m",
+         "a": "nouveau"
+        },
+        {
+         "s": "Nous avons une maison et un jardin",
+         "g": "m",
+         "a": "beau"
+        }
+       ]
+      }
+     },
+     "prompt": "Accorde l’adjectif : « {X.s} … ({X.a}) »",
+     "correct": "{fr2Adj(X.a, X.g, true)}",
+     "distractors": [
+      {
+       "text": "{fr2Adj(X.a, 'f', true)}",
+       "misconception": "gender"
+      },
+      {
+       "text": "{fr2Adj(X.a, X.g, false)}",
+       "misconception": "sing"
+      },
+      {
+       "text": "{fr2Adj(X.a, 'f', false)}",
+       "misconception": "gender"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "gender",
+       "explain": "Il y a au moins un nom masculin : l’adjectif est au masculin."
+      },
+      {
+       "id": "sing",
+       "explain": "Il y a deux noms : le pluriel."
+      }
+     ],
+     "solution": [
+      "Il y a au moins un nom masculin : masculin pluriel.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-25-pl",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le garçon et la fille sont",
+       "g": "m",
+       "a": "petit"
+      },
+      {
+       "s": "Elle porte une jupe et une robe",
+       "g": "f",
+       "a": "noir"
+      },
+      {
+       "s": "Il achète un pantalon et une chemise",
+       "g": "m",
+       "a": "blanc"
+      },
+      {
+       "s": "Ma tante et mon oncle sont",
+       "g": "m",
+       "a": "grand"
+      },
+      {
+       "s": "La table et la chaise sont",
+       "g": "f",
+       "a": "vieux"
+      },
+      {
+       "s": "Le livre et le cahier sont",
+       "g": "m",
+       "a": "nouveau"
+      },
+      {
+       "s": "Nous avons une maison et un jardin",
+       "g": "m",
+       "a": "beau"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde l’adjectif : « {X.s} … ({X.a}) »",
+   "correct": "{fr2Adj(X.a, X.g, true)}",
+   "distractors": [
+    {
+     "text": "{fr2Adj(X.a, X.g, false)}",
+     "misconception": "sing"
+    },
+    {
+     "text": "{X.a}",
+     "misconception": "sing"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sing",
+     "explain": "L’adjectif se rapporte à deux noms : il faut le pluriel."
+    }
+   ],
+   "solution": [
+    "Il y a deux noms : l’adjectif est au pluriel.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 1,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-25-f",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Elle porte une jupe et une robe",
+       "g": "f",
+       "a": "noir"
+      },
+      {
+       "s": "La table et la chaise sont",
+       "g": "f",
+       "a": "vieux"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde l’adjectif : « {X.s} … ({X.a}) »",
+   "correct": "{fr2Adj(X.a, X.g, true)}",
+   "distractors": [
+    {
+     "text": "{fr2Adj(X.a, 'm', true)}",
+     "misconception": "gender"
+    },
+    {
+     "text": "{fr2Adj(X.a, X.g, false)}",
+     "misconception": "sing"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "gender",
+     "explain": "Tous les noms sont féminins : l’adjectif est au féminin."
+    },
+    {
+     "id": "sing",
+     "explain": "Il y a deux noms : le pluriel."
+    }
+   ],
+   "solution": [
+    "Tous les noms sont féminins : féminin pluriel.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-25-m",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le garçon et la fille sont",
+       "g": "m",
+       "a": "petit"
+      },
+      {
+       "s": "Il achète un pantalon et une chemise",
+       "g": "m",
+       "a": "blanc"
+      },
+      {
+       "s": "Ma tante et mon oncle sont",
+       "g": "m",
+       "a": "grand"
+      },
+      {
+       "s": "Le livre et le cahier sont",
+       "g": "m",
+       "a": "nouveau"
+      },
+      {
+       "s": "Nous avons une maison et un jardin",
+       "g": "m",
+       "a": "beau"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde l’adjectif : « {X.s} … ({X.a}) »",
+   "correct": "{fr2Adj(X.a, X.g, true)}",
+   "distractors": [
+    {
+     "text": "{fr2Adj(X.a, 'f', true)}",
+     "misconception": "gender"
+    },
+    {
+     "text": "{fr2Adj(X.a, X.g, false)}",
+     "misconception": "sing"
+    },
+    {
+     "text": "{fr2Adj(X.a, 'f', false)}",
+     "misconception": "gender"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "gender",
+     "explain": "Il y a au moins un nom masculin : l’adjectif est au masculin."
+    },
+    {
+     "id": "sing",
+     "explain": "Il y a deux noms : le pluriel."
+    }
+   ],
+   "solution": [
+    "Il y a au moins un nom masculin : masculin pluriel.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-25-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma sœur et ma cousine sont",
+       "g": "f",
+       "a": "malade"
+      },
+      {
+       "s": "Le garçon et la fille sont",
+       "g": "m",
+       "a": "petit"
+      },
+      {
+       "s": "Elle porte une jupe et une robe",
+       "g": "f",
+       "a": "noir"
+      },
+      {
+       "s": "Il achète un pantalon et une chemise",
+       "g": "m",
+       "a": "blanc"
+      },
+      {
+       "s": "Ma tante et mon oncle sont",
+       "g": "m",
+       "a": "grand"
+      },
+      {
+       "s": "La table et la chaise sont",
+       "g": "f",
+       "a": "vieux"
+      },
+      {
+       "s": "Le livre et le cahier sont",
+       "g": "m",
+       "a": "nouveau"
+      },
+      {
+       "s": "La cour et la cuisine sont",
+       "g": "f",
+       "a": "propre"
+      },
+      {
+       "s": "Nous avons une maison et un jardin",
+       "g": "m",
+       "a": "beau"
+      },
+      {
+       "s": "La route et la rivière sont",
+       "g": "f",
+       "a": "sale"
+      }
+     ]
+    }
+   },
+   "prompt": "Écris l’adjectif entre parenthèses bien accordé.",
+   "text": "{X.s} ___ ({X.a}).",
+   "answer": "fr2Adj(X.a, X.g, true)",
+   "misconceptions": [
+    {
+     "id": "sing",
+     "wrong": "fr2Adj(X.a, X.g, false)",
+     "explain": "Il y a deux noms : l’adjectif est au pluriel."
+    },
+    {
+     "id": "gender",
+     "wrong": "fr2Adj(X.a, fr2OtherGender(X.g), true)",
+     "explain": "Regarde le genre des noms : {X.g == 'm' ? 'il y a un nom masculin' : 'tous les noms sont féminins'}."
+    }
+   ],
+   "solution": [
+    "Deux noms : pluriel ; {X.g == 'm' ? 'au moins un masculin : masculin pluriel' : 'tous féminins : féminin pluriel'}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,488 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-18",
+   "name": "Le vocabulaire de l’hygiène et de la salubrité"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’hygiène, ce sont les gestes qui protègent la santé.\n• Hygiène du corps : se laver chaque jour avec du savon, se brosser les dents, se couper les ongles, porter des habits propres, se laver les mains avant de manger et après les toilettes.\n• Hygiène alimentaire : boire de l’eau potable (bonne à boire), laver les fruits, couvrir les aliments.\nLa salubrité est la propreté des lieux où l’on vit. Un lieu insalubre (sale, dangereux pour la santé) attire les mouches, les rats et les moustiques.\nMots utiles : les ordures ménagères, la poubelle, les latrines, les eaux stagnantes (qui ne coulent pas), le caniveau, désinfecter (tuer les microbes), un désinfectant, l’eau de Javel, les microbes.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explique pourquoi une flaque d’eau stagnante près de la maison est insalubre.",
+  "steps": [
+   "« Stagnante » : l’eau ne coule pas, elle reste là.",
+   "Les moustiques pondent leurs œufs dans cette eau.",
+   "Le moustique transmet le paludisme : le lieu est dangereux pour la santé."
+  ],
+  "answer": "Elle attire les moustiques, qui transmettent le paludisme : le lieu devient insalubre.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "L’hygiène, ce sont les gestes qui protègent la santé : se laver, se brosser les dents, se laver les mains.",
+    "vars": {},
+    "example": [
+     "On se lave les mains avec du savon avant de manger."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-18-geste"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "La salubrité est la propreté des lieux ; un lieu insalubre est sale et dangereux pour la santé.",
+    "vars": {},
+    "example": [
+     "Un tas d’ordures près du marché rend le lieu insalubre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-18-mot"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "Désinfecter, c’est tuer les microbes avec un produit (un désinfectant).",
+    "vars": {},
+    "example": [
+     "On désinfecte les latrines avec de l’eau de Javel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-18-def-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "On ___ la plaie avec de l’alcool pour tuer les microbes.",
+         "a": "désinfecte",
+         "w": [
+          "salit",
+          "décore"
+         ],
+         "e": [
+          "C’est le contraire de ce qu’on veut.",
+          "Ce n’est pas le sens."
+         ]
+        },
+        {
+         "s": "Les déchets de la maison vont dans la ___.",
+         "a": "poubelle",
+         "w": [
+          "cuisine",
+          "rivière"
+         ],
+         "e": [
+          "On n’y garde pas les déchets.",
+          "Jeter les déchets dans la rivière pollue l’eau."
+         ]
+        },
+        {
+         "s": "L’eau de pluie s’écoule par le ___.",
+         "a": "caniveau",
+         "w": [
+          "savon",
+          "plafond"
+         ],
+         "e": [
+          "Ce n’est pas un passage pour l’eau.",
+          "Ce n’est pas un passage pour l’eau."
+         ]
+        },
+        {
+         "s": "Le ___ et l’eau enlèvent les microbes des mains.",
+         "a": "savon",
+         "w": [
+          "sable",
+          "sel"
+         ],
+         "e": [
+          "Le sable ne lave pas les mains.",
+          "Le sel ne lave pas les mains."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-18-geste",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel geste est un geste d’hygiène du corps ?",
+       "r": "se brosser les dents après le repas",
+       "w": [
+        "jeter les ordures dans le caniveau",
+        "boire l’eau de la rivière",
+        "manger avec des mains sales"
+       ],
+       "e": [
+        "C’est un geste qui rend le lieu insalubre.",
+        "Cette eau n’est pas potable.",
+        "C’est le contraire de l’hygiène."
+       ],
+       "y": "Se brosser les dents protège la santé."
+      },
+      {
+       "q": "Quand doit-on se laver les mains ?",
+       "r": "avant de manger et après les toilettes",
+       "w": [
+        "seulement le dimanche",
+        "seulement quand elles sont noires",
+        "jamais"
+       ],
+       "e": [
+        "Il faut le faire chaque jour.",
+        "Les microbes ne se voient pas.",
+        "C’est un geste important."
+       ],
+       "y": "Les microbes passent des mains à la bouche."
+      },
+      {
+       "q": "Quelle eau peut-on boire sans danger ?",
+       "r": "l’eau potable",
+       "w": [
+        "l’eau stagnante",
+        "l’eau du caniveau",
+        "l’eau de Javel"
+       ],
+       "e": [
+        "Elle est pleine de microbes et de moustiques.",
+        "Elle est sale.",
+        "C’est un produit dangereux à boire."
+       ],
+       "y": "« Potable » veut dire bonne à boire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-18-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que veut dire « insalubre » ?",
+       "r": "sale et dangereux pour la santé",
+       "w": [
+        "très propre",
+        "plein de fleurs",
+        "fermé à clé"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Le préfixe in- donne le contraire de « salubre » (sain)."
+      },
+      {
+       "q": "Que sont « les ordures ménagères » ?",
+       "r": "les déchets de la maison",
+       "w": [
+        "les produits pour laver",
+        "les meubles de la maison",
+        "les travaux de la maison"
+       ],
+       "e": [
+        "Ce sont des désinfectants.",
+        "Les meubles ne sont pas des déchets.",
+        "Ce sont les occupations domestiques."
+       ],
+       "y": "Ce sont les déchets qu’on jette chaque jour à la maison."
+      },
+      {
+       "q": "Que sont « les eaux stagnantes » ?",
+       "r": "des eaux qui ne coulent pas",
+       "w": [
+        "des eaux très propres",
+        "l’eau de pluie qui tombe",
+        "l’eau du robinet"
+       ],
+       "e": [
+        "Elles sont souvent sales.",
+        "Celle-ci coule.",
+        "Celle-ci coule."
+       ],
+       "y": "« Stagner », c’est rester sans bouger."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-18-def",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "On ___ la plaie avec de l’alcool pour tuer les microbes.",
+       "a": "désinfecte",
+       "w": [
+        "salit",
+        "décore"
+       ],
+       "e": [
+        "C’est le contraire de ce qu’on veut.",
+        "Ce n’est pas le sens."
+       ]
+      },
+      {
+       "s": "Les déchets de la maison vont dans la ___.",
+       "a": "poubelle",
+       "w": [
+        "cuisine",
+        "rivière"
+       ],
+       "e": [
+        "On n’y garde pas les déchets.",
+        "Jeter les déchets dans la rivière pollue l’eau."
+       ]
+      },
+      {
+       "s": "L’eau de pluie s’écoule par le ___.",
+       "a": "caniveau",
+       "w": [
+        "savon",
+        "plafond"
+       ],
+       "e": [
+        "Ce n’est pas un passage pour l’eau.",
+        "Ce n’est pas un passage pour l’eau."
+       ]
+      },
+      {
+       "s": "Le ___ et l’eau enlèvent les microbes des mains.",
+       "a": "savon",
+       "w": [
+        "sable",
+        "sel"
+       ],
+       "e": [
+        "Le sable ne lave pas les mains.",
+        "Le sel ne lave pas les mains."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quel conseil d’hygiène est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Couvre les aliments pour les protéger des mouches.",
+      "truth": "true"
+     },
+     {
+      "text": "Vide la poubelle souvent.",
+      "truth": "true"
+     },
+     {
+      "text": "Lave les fruits avant de les manger.",
+      "truth": "true"
+     },
+     {
+      "text": "Désinfecte les latrines.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Laisse l’eau stagner près de la maison.",
+      "truth": "false",
+      "explain": "L’eau stagnante attire les moustiques."
+     },
+     {
+      "text": "Bois l’eau du caniveau quand tu as soif.",
+      "truth": "false",
+      "explain": "Cette eau est sale ; on boit de l’eau potable."
+     },
+     {
+      "text": "Lave-toi les mains seulement une fois par semaine.",
+      "truth": "false",
+      "explain": "On se lave les mains chaque jour, avant de manger et après les toilettes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

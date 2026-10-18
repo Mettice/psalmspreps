@@ -1,0 +1,483 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "fr",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "fr2-8",
+   "name": "La phrase négative"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La phrase négative dit que quelque chose n’est pas vrai. La négation a deux mots qui entourent le verbe conjugué :\n• ne … pas : Il ne travaille pas.\n• ne … jamais (à aucun moment) : Elle ne ment jamais.\n• ne … plus (c’est fini) : Je ne joue plus.\n• ne … rien (aucune chose) : Nous ne voyons rien.\n• ne … personne (aucune personne) : Il n’appelle personne.\nDevant une voyelle ou un h muet, ne devient n’ : Je n’aime pas. Au passé composé, la négation entoure l’auxiliaire : Je n’ai pas mangé.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mets à la forme négative avec « ne … jamais » : « Paul arrive en retard. »",
+  "steps": [
+   "Le verbe conjugué est « arrive ».",
+   "« arrive » commence par une voyelle : ne devient n’.",
+   "On entoure le verbe : Paul n’arrive jamais en retard."
+  ],
+  "answer": "Paul n’arrive jamais en retard.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "La négation entoure le verbe : ne … pas, ne … jamais, ne … plus, ne … rien, ne … personne.",
+    "vars": {},
+    "example": [
+     "Il ne dort pas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-8-mot"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "Devant une voyelle ou un h muet, ne devient n’.",
+    "vars": {},
+    "example": [
+     "Elle n’écoute pas. Nous n’habitons plus ici."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-8-elision"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Au passé composé, la négation entoure l’auxiliaire.",
+    "vars": {},
+    "example": [
+     "Je n’ai pas fini. Elle n’est pas venue."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-8-pc-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "J’ai fini mes devoirs.",
+         "r": "Je n’ai pas fini mes devoirs.",
+         "w": [
+          "Je n’ai fini pas mes devoirs.",
+          "Je ne ai pas fini mes devoirs.",
+          "J’ai ne pas fini mes devoirs."
+         ],
+         "e": [
+          "La négation entoure l’auxiliaire « ai ».",
+          "Devant « ai », ne devient n’.",
+          "« ne » se place devant l’auxiliaire."
+         ],
+         "y": "Au passé composé, on entoure l’auxiliaire."
+        },
+        {
+         "q": "Elle est venue à l’école.",
+         "r": "Elle n’est pas venue à l’école.",
+         "w": [
+          "Elle n’est venue pas à l’école.",
+          "Elle ne est pas venue à l’école.",
+          "Elle est ne pas venue à l’école."
+         ],
+         "e": [
+          "La négation entoure l’auxiliaire « est ».",
+          "Devant « est », ne devient n’.",
+          "« ne » se place devant l’auxiliaire."
+         ],
+         "y": "On entoure l’auxiliaire « est »."
+        },
+        {
+         "q": "Nous avons vu le film.",
+         "r": "Nous n’avons pas vu le film.",
+         "w": [
+          "Nous n’avons vu pas le film.",
+          "Nous ne avons pas vu le film.",
+          "Nous avons ne pas vu le film."
+         ],
+         "e": [
+          "La négation entoure l’auxiliaire.",
+          "Devant « avons », ne devient n’.",
+          "« ne » se place devant l’auxiliaire."
+         ],
+         "y": "On entoure l’auxiliaire « avons »."
+        }
+       ]
+      }
+     },
+     "prompt": "Mets la phrase à la forme négative avec « ne … pas » : « {X.q} »",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-8-mot",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Mon grand-père est malade : il ___ travaille plus au champ.",
+       "a": "ne",
+       "w": [
+        "n’",
+        "pas"
+       ],
+       "e": [
+        "« travaille » commence par une consonne : on écrit ne.",
+        "La négation commence par ne."
+       ]
+      },
+      {
+       "s": "Elle ___ aime pas le poisson.",
+       "a": "n’",
+       "w": [
+        "ne",
+        "pas"
+       ],
+       "e": [
+        "« aime » commence par une voyelle : ne devient n’.",
+        "La négation commence par ne."
+       ]
+      },
+      {
+       "s": "Nous ne voyons ___ dans le noir.",
+       "a": "rien",
+       "w": [
+        "jamais pas",
+        "personne pas"
+       ],
+       "e": [
+        "On n’emploie qu’un seul deuxième mot.",
+        "On n’emploie qu’un seul deuxième mot."
+       ]
+      },
+      {
+       "s": "Il est seul : il n’appelle ___.",
+       "a": "personne",
+       "w": [
+        "rien",
+        "pas personne"
+       ],
+       "e": [
+        "« rien » parle des choses ; ici on parle des gens.",
+        "On n’ajoute pas « pas »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la négation qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-8-elision",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Elle écoute la radio.",
+       "r": "Elle n’écoute pas la radio.",
+       "w": [
+        "Elle ne écoute pas la radio.",
+        "Elle écoute pas la radio.",
+        "Elle n’écoute la radio pas."
+       ],
+       "e": [
+        "Devant une voyelle, ne devient n’.",
+        "À l’écrit, il faut ne (n’) et pas.",
+        "« pas » se place juste après le verbe."
+       ],
+       "y": "« écoute » commence par une voyelle."
+      },
+      {
+       "q": "Tu habites à Douala.",
+       "r": "Tu n’habites pas à Douala.",
+       "w": [
+        "Tu ne habites pas à Douala.",
+        "Tu habites pas à Douala.",
+        "Tu n’habites à Douala pas."
+       ],
+       "e": [
+        "Devant un h muet, ne devient n’.",
+        "À l’écrit, il faut ne (n’) et pas.",
+        "« pas » se place juste après le verbe."
+       ],
+       "y": "« habites » commence par un h muet."
+      },
+      {
+       "q": "Il mange le matin.",
+       "r": "Il ne mange pas le matin.",
+       "w": [
+        "Il n’mange pas le matin.",
+        "Il mange pas le matin.",
+        "Il ne pas mange le matin."
+       ],
+       "e": [
+        "Devant une consonne, on garde ne.",
+        "À l’écrit, il faut ne et pas.",
+        "« pas » se place après le verbe."
+       ],
+       "y": "La négation entoure le verbe « mange »."
+      }
+     ]
+    }
+   },
+   "prompt": "Mets la phrase à la forme négative avec « ne … pas » : « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-8-pc",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "J’ai fini mes devoirs.",
+       "r": "Je n’ai pas fini mes devoirs.",
+       "w": [
+        "Je n’ai fini pas mes devoirs.",
+        "Je ne ai pas fini mes devoirs.",
+        "J’ai ne pas fini mes devoirs."
+       ],
+       "e": [
+        "La négation entoure l’auxiliaire « ai ».",
+        "Devant « ai », ne devient n’.",
+        "« ne » se place devant l’auxiliaire."
+       ],
+       "y": "Au passé composé, on entoure l’auxiliaire."
+      },
+      {
+       "q": "Elle est venue à l’école.",
+       "r": "Elle n’est pas venue à l’école.",
+       "w": [
+        "Elle n’est venue pas à l’école.",
+        "Elle ne est pas venue à l’école.",
+        "Elle est ne pas venue à l’école."
+       ],
+       "e": [
+        "La négation entoure l’auxiliaire « est ».",
+        "Devant « est », ne devient n’.",
+        "« ne » se place devant l’auxiliaire."
+       ],
+       "y": "On entoure l’auxiliaire « est »."
+      },
+      {
+       "q": "Nous avons vu le film.",
+       "r": "Nous n’avons pas vu le film.",
+       "w": [
+        "Nous n’avons vu pas le film.",
+        "Nous ne avons pas vu le film.",
+        "Nous avons ne pas vu le film."
+       ],
+       "e": [
+        "La négation entoure l’auxiliaire.",
+        "Devant « avons », ne devient n’.",
+        "« ne » se place devant l’auxiliaire."
+       ],
+       "y": "On entoure l’auxiliaire « avons »."
+      }
+     ]
+    }
+   },
+   "prompt": "Mets la phrase à la forme négative avec « ne … pas » : « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-8-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Mon frère ne range jamais sa chambre.",
+       "b": "Mon frère ne range jamais sa chambre."
+      },
+      {
+       "a": "Nous n’avons rien vu au marché.",
+       "b": "Nous n’avons rien vu au marché."
+      },
+      {
+       "a": "Ma cousine n’habite plus à Ebolowa.",
+       "b": "Ma cousine n’habite plus à Ebolowa."
+      },
+      {
+       "a": "Les enfants ne sont pas allés au champ.",
+       "b": "Les enfants ne sont pas allés au champ."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase négative.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

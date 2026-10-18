@@ -1,0 +1,548 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "fr",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "fr2-10",
+   "name": "La cédille, les homonymes et les antonymes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La cédille (ç) se met sous le c devant a, o, u pour qu’il se prononce [s] : un garçon, une leçon, il a reçu, nous commençons. Devant e et i, le c se prononce déjà [s] : pas de cédille (ceci, une cigale).\nLes homonymes se prononcent de la même façon mais ont des sens différents : le ver (de terre), le verre (pour boire), vert (la couleur), vers (la ville) ; la mer, la mère, le maire ; le sel, la selle ; le cou, le coup, le coût.\nLes antonymes sont des mots de sens contraire : grand / petit, propre / sale, entrer / sortir, toujours / jamais, poli / impoli, possible / impossible.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Faut-il une cédille dans « nous re_evons » et dans « une fa_ade » ?",
+  "steps": [
+   "« re_evons » : le c est devant e ; il se prononce déjà [s] : pas de cédille, « recevons ».",
+   "« fa_ade » : le c est devant a ; pour avoir [s], il faut une cédille : « façade »."
+  ],
+  "answer": "nous recevons ; une façade",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "On met une cédille sous le c devant a, o, u pour avoir le son [s].",
+    "vars": {},
+    "example": [
+     "un garçon, une leçon, un reçu"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-10-ced"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "Les homonymes se prononcent pareil mais ont des sens différents.",
+    "vars": {},
+    "example": [
+     "la mère (la maman), la mer (l’eau salée)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-10-homo"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "Les antonymes sont des mots de sens contraire.",
+    "vars": {},
+    "example": [
+     "propre / sale, entrer / sortir"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-10-anto-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "propre",
+         "r": "sale",
+         "w": [
+          "net",
+          "beau",
+          "neuf"
+         ],
+         "e": [
+          "« net » veut presque dire la même chose (synonyme).",
+          "« beau » n’est pas le contraire de propre.",
+          "Le contraire de « neuf » est « vieux »."
+         ],
+         "y": "propre / sale"
+        },
+        {
+         "q": "entrer",
+         "r": "sortir",
+         "w": [
+          "rentrer",
+          "venir",
+          "arriver"
+         ],
+         "e": [
+          "« rentrer » veut dire entrer de nouveau.",
+          "« venir » n’est pas le contraire.",
+          "« arriver » est presque un synonyme."
+         ],
+         "y": "entrer / sortir"
+        },
+        {
+         "q": "toujours",
+         "r": "jamais",
+         "w": [
+          "souvent",
+          "encore",
+          "parfois"
+         ],
+         "e": [
+          "« souvent » est proche de toujours.",
+          "« encore » n’est pas le contraire.",
+          "« parfois » est entre les deux."
+         ],
+         "y": "toujours / jamais"
+        },
+        {
+         "q": "possible",
+         "r": "impossible",
+         "w": [
+          "passable",
+          "possiblement",
+          "imposable"
+         ],
+         "e": [
+          "Ce mot a un autre sens.",
+          "C’est un adverbe de la même famille.",
+          "« imposable » veut dire qui paie l’impôt."
+         ],
+         "y": "Le préfixe im- donne le contraire."
+        }
+       ]
+      }
+     },
+     "prompt": "Quel est l’antonyme (le contraire) de « {X.q} » ?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-10-ced",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le ___ de ma tante s’appelle Ewane.",
+       "a": "garçon",
+       "w": [
+        "garcon",
+        "garsson"
+       ],
+       "e": [
+        "Devant o, il faut une cédille pour le son [s].",
+        "Le son [s] s’écrit ici avec ç."
+       ]
+      },
+      {
+       "s": "Nous avons appris la ___ par cœur.",
+       "a": "leçon",
+       "w": [
+        "lecon",
+        "lesson"
+       ],
+       "e": [
+        "Devant o, il faut une cédille.",
+        "En français, « leçon » s’écrit avec ç."
+       ]
+      },
+      {
+       "s": "Ma cousine a ___ une lettre de Yaoundé.",
+       "a": "reçu",
+       "w": [
+        "recu",
+        "ressu"
+       ],
+       "e": [
+        "Devant u, il faut une cédille.",
+        "Le son [s] s’écrit ici avec ç."
+       ]
+      },
+      {
+       "s": "Nous ___ toujours par une prière.",
+       "a": "commençons",
+       "w": [
+        "commencons",
+        "commenssons"
+       ],
+       "e": [
+        "Devant o, il faut une cédille.",
+        "Le son [s] s’écrit ici avec ç."
+       ]
+      },
+      {
+       "s": "Le maître écrit ___ au tableau.",
+       "a": "ceci",
+       "w": [
+        "çeci",
+        "sesi"
+       ],
+       "e": [
+        "Devant e et i, le c se prononce déjà [s] : pas de cédille.",
+        "« ceci » s’écrit avec c."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-10-homo",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le pêcheur part sur la ___ dans sa pirogue.",
+       "a": "mer",
+       "w": [
+        "mère",
+        "maire"
+       ],
+       "e": [
+        "« la mère » est la maman.",
+        "« le maire » dirige la commune."
+       ]
+      },
+      {
+       "s": "Ma ___ prépare du ndolé.",
+       "a": "mère",
+       "w": [
+        "mer",
+        "maire"
+       ],
+       "e": [
+        "« la mer » est l’eau salée.",
+        "« le maire » dirige la commune."
+       ]
+      },
+      {
+       "s": "Il boit de l’eau dans un ___.",
+       "a": "verre",
+       "w": [
+        "ver",
+        "vert"
+       ],
+       "e": [
+        "« le ver » est un petit animal.",
+        "« vert » est une couleur."
+       ]
+      },
+      {
+       "s": "La feuille du manguier est ___.",
+       "a": "verte",
+       "w": [
+        "verre",
+        "vers"
+       ],
+       "e": [
+        "« le verre » sert à boire.",
+        "« vers » indique une direction."
+       ]
+      },
+      {
+       "s": "La girafe a un long ___.",
+       "a": "cou",
+       "w": [
+        "coup",
+        "coût"
+       ],
+       "e": [
+        "« un coup » est un choc.",
+        "« le coût » est le prix."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis l’homonyme qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-10-anto",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "propre",
+       "r": "sale",
+       "w": [
+        "net",
+        "beau",
+        "neuf"
+       ],
+       "e": [
+        "« net » veut presque dire la même chose (synonyme).",
+        "« beau » n’est pas le contraire de propre.",
+        "Le contraire de « neuf » est « vieux »."
+       ],
+       "y": "propre / sale"
+      },
+      {
+       "q": "entrer",
+       "r": "sortir",
+       "w": [
+        "rentrer",
+        "venir",
+        "arriver"
+       ],
+       "e": [
+        "« rentrer » veut dire entrer de nouveau.",
+        "« venir » n’est pas le contraire.",
+        "« arriver » est presque un synonyme."
+       ],
+       "y": "entrer / sortir"
+      },
+      {
+       "q": "toujours",
+       "r": "jamais",
+       "w": [
+        "souvent",
+        "encore",
+        "parfois"
+       ],
+       "e": [
+        "« souvent » est proche de toujours.",
+        "« encore » n’est pas le contraire.",
+        "« parfois » est entre les deux."
+       ],
+       "y": "toujours / jamais"
+      },
+      {
+       "q": "possible",
+       "r": "impossible",
+       "w": [
+        "passable",
+        "possiblement",
+        "imposable"
+       ],
+       "e": [
+        "Ce mot a un autre sens.",
+        "C’est un adverbe de la même famille.",
+        "« imposable » veut dire qui paie l’impôt."
+       ],
+       "y": "Le préfixe im- donne le contraire."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel est l’antonyme (le contraire) de « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le garçon a reçu une leçon.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous commençons à huit heures.",
+      "truth": "true"
+     },
+     {
+      "text": "Ma mère est au marché.",
+      "truth": "true"
+     },
+     {
+      "text": "Il boit dans un verre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le garcon joue dans la cour.",
+      "truth": "false",
+      "explain": "Devant o, il faut une cédille : garçon."
+     },
+     {
+      "text": "Le pêcheur part sur la mère.",
+      "truth": "false",
+      "explain": "Il faut « la mer » (l’eau salée)."
+     },
+     {
+      "text": "Nous lancons le ballon.",
+      "truth": "false",
+      "explain": "Devant o, il faut une cédille : nous lançons."
+     },
+     {
+      "text": "Ma tante a perdu son verre de terre.",
+      "truth": "false",
+      "explain": "Il faut « ver de terre » (le petit animal)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,544 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "fr",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "fr2-27",
+   "name": "L’accord des adjectifs de couleur"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un adjectif de couleur simple s’accorde avec le nom, comme les autres adjectifs : une robe verte, des pagnes bleus, des chaussures noires, une chemise blanche.\nMais quand la couleur est un nom de chose (un fruit, une fleur, une matière …), elle reste invariable : des chemises orange (la couleur de l’orange), des pantalons marron (le marron est un fruit), des tenues kaki.\nExceptions : rose, mauve, pourpre, fauve s’accordent : des robes roses.\nPour savoir : on se demande si la couleur est d’abord un nom d’objet (orange, marron, crème, olive …).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Accorde : « des chemises ___ (orange) » et « des fleurs ___ (jaune) ».",
+  "steps": [
+   "« orange » est d’abord un fruit : il reste invariable : des chemises orange.",
+   "« jaune » est un adjectif de couleur simple : il s’accorde : des fleurs jaunes."
+  ],
+  "answer": "des chemises orange ; des fleurs jaunes",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "Un adjectif de couleur simple s’accorde : des robes vertes, des pagnes bleus.",
+    "vars": {},
+    "example": [
+     "une chemise blanche, des chemises blanches"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-27-simple"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "Une couleur qui est un nom (orange, marron, kaki) reste invariable.",
+    "vars": {},
+    "example": [
+     "des chemises orange, des pantalons marron"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-27-inv"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "Rose, mauve, pourpre, fauve s’accordent quand même.",
+    "vars": {},
+    "example": [
+     "des robes roses"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-27-rose-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "n": "des robes",
+         "g": "f",
+         "pl": true,
+         "a": "rose"
+        },
+        {
+         "n": "des fleurs",
+         "g": "f",
+         "pl": true,
+         "a": "rose"
+        },
+        {
+         "n": "des pagnes",
+         "g": "m",
+         "pl": true,
+         "a": "rose"
+        }
+       ]
+      }
+     },
+     "prompt": "Accorde la couleur : « {X.n} … ({X.a}) »",
+     "correct": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+     "distractors": [
+      {
+       "text": "{X.n} {X.a}",
+       "misconception": "none"
+      },
+      {
+       "text": "{X.n} {fr2Adj(X.a, fr2OtherGender(X.g), X.pl)}",
+       "misconception": "gender"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "none",
+       "explain": "« rose » est une exception : il s’accorde avec le nom."
+      },
+      {
+       "id": "gender",
+       "explain": "Regarde le genre du nom."
+      }
+     ],
+     "solution": [
+      "« rose » est une exception : il s’accorde.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 1,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-27-simple",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "des robes",
+       "g": "f",
+       "pl": true,
+       "a": "vert"
+      },
+      {
+       "n": "des pagnes",
+       "g": "m",
+       "pl": true,
+       "a": "bleu"
+      },
+      {
+       "n": "une chemise",
+       "g": "f",
+       "pl": false,
+       "a": "blanc"
+      },
+      {
+       "n": "des chaussures",
+       "g": "f",
+       "pl": true,
+       "a": "noir"
+      },
+      {
+       "n": "une jupe",
+       "g": "f",
+       "pl": false,
+       "a": "gris"
+      },
+      {
+       "n": "des fleurs",
+       "g": "f",
+       "pl": true,
+       "a": "jaune"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde la couleur : « {X.n} … ({X.a}) »",
+   "correct": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+   "distractors": [
+    {
+     "text": "{X.n} {X.a}",
+     "misconception": "none"
+    },
+    {
+     "text": "{X.n} {fr2Adj(X.a, fr2OtherGender(X.g), X.pl)}",
+     "misconception": "gender"
+    },
+    {
+     "text": "{X.n} {fr2Adj(X.a, X.g, !X.pl)}",
+     "misconception": "number"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "none",
+     "explain": "Un adjectif de couleur simple s’accorde avec le nom."
+    },
+    {
+     "id": "gender",
+     "explain": "Regarde le genre du nom."
+    },
+    {
+     "id": "number",
+     "explain": "Regarde le nombre du nom."
+    }
+   ],
+   "solution": [
+    "« {X.a} » est un adjectif de couleur simple : il s’accorde ; « {X.n} » est {fr2GenderNumber(X.g, X.pl)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-27-inv",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "des chemises",
+       "g": "f",
+       "pl": true,
+       "a": "orange"
+      },
+      {
+       "n": "des pantalons",
+       "g": "m",
+       "pl": true,
+       "a": "marron"
+      },
+      {
+       "n": "des tenues",
+       "g": "f",
+       "pl": true,
+       "a": "kaki"
+      },
+      {
+       "n": "des sacs",
+       "g": "m",
+       "pl": true,
+       "a": "orange"
+      },
+      {
+       "n": "des chaussures",
+       "g": "f",
+       "pl": true,
+       "a": "marron"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde la couleur : « {X.n} … ({X.a}) »",
+   "correct": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+   "distractors": [
+    {
+     "text": "{X.n} {fr2AdjNaive(X.a, X.g, X.pl)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "{X.n} {X.a}s",
+     "misconception": "naive"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "« {X.a} » est un nom de chose (fruit, matière) : la couleur reste invariable."
+    }
+   ],
+   "solution": [
+    "« {X.a} » est d’abord un nom : il reste invariable.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 1,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-27-rose",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "des robes",
+       "g": "f",
+       "pl": true,
+       "a": "vert"
+      },
+      {
+       "n": "des pagnes",
+       "g": "m",
+       "pl": true,
+       "a": "bleu"
+      },
+      {
+       "n": "une chemise",
+       "g": "f",
+       "pl": false,
+       "a": "blanc"
+      },
+      {
+       "n": "des chaussures",
+       "g": "f",
+       "pl": true,
+       "a": "noir"
+      },
+      {
+       "n": "une jupe",
+       "g": "f",
+       "pl": false,
+       "a": "gris"
+      },
+      {
+       "n": "des fleurs",
+       "g": "f",
+       "pl": true,
+       "a": "jaune"
+      },
+      {
+       "n": "des chemises",
+       "g": "f",
+       "pl": true,
+       "a": "orange"
+      },
+      {
+       "n": "des pantalons",
+       "g": "m",
+       "pl": true,
+       "a": "marron"
+      },
+      {
+       "n": "des tenues",
+       "g": "f",
+       "pl": true,
+       "a": "kaki"
+      },
+      {
+       "n": "des robes",
+       "g": "f",
+       "pl": true,
+       "a": "rose"
+      },
+      {
+       "n": "des fleurs",
+       "g": "f",
+       "pl": true,
+       "a": "rose"
+      },
+      {
+       "n": "des pagnes",
+       "g": "m",
+       "pl": true,
+       "a": "rose"
+      },
+      {
+       "n": "des sacs",
+       "g": "m",
+       "pl": true,
+       "a": "orange"
+      },
+      {
+       "n": "des chaussures",
+       "g": "f",
+       "pl": true,
+       "a": "marron"
+      }
+     ]
+    }
+   },
+   "prompt": "Accorde la couleur : « {X.n} … ({X.a}) »",
+   "correct": "{X.n} {fr2Adj(X.a, X.g, X.pl)}",
+   "distractors": [
+    {
+     "text": "{X.n} {X.a}",
+     "misconception": "none"
+    },
+    {
+     "text": "{X.n} {fr2AdjNaive(X.a, X.g, X.pl)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "{X.n} {fr2Adj(X.a, X.g, !X.pl)}",
+     "misconception": "number"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "none",
+     "explain": "Cette couleur s’accorde avec le nom."
+    },
+    {
+     "id": "naive",
+     "explain": "Cette couleur est un nom de chose : elle reste invariable."
+    },
+    {
+     "id": "number",
+     "explain": "Regarde le nombre du nom."
+    }
+   ],
+   "solution": [
+    "{X.a == 'rose' ? 'rose est une exception : il s’accorde' : (fr2Adj(X.a, X.g, X.pl) == X.a ? X.a + ' est un nom de chose : invariable' : X.a + ' est une couleur simple : il s’accorde')}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 1,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-27-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "des robes",
+       "g": "f",
+       "pl": true,
+       "a": "vert"
+      },
+      {
+       "n": "des pagnes",
+       "g": "m",
+       "pl": true,
+       "a": "bleu"
+      },
+      {
+       "n": "une chemise",
+       "g": "f",
+       "pl": false,
+       "a": "blanc"
+      },
+      {
+       "n": "des chaussures",
+       "g": "f",
+       "pl": true,
+       "a": "noir"
+      },
+      {
+       "n": "une jupe",
+       "g": "f",
+       "pl": false,
+       "a": "gris"
+      },
+      {
+       "n": "des fleurs",
+       "g": "f",
+       "pl": true,
+       "a": "jaune"
+      },
+      {
+       "n": "des chemises",
+       "g": "f",
+       "pl": true,
+       "a": "orange"
+      },
+      {
+       "n": "des pantalons",
+       "g": "m",
+       "pl": true,
+       "a": "marron"
+      },
+      {
+       "n": "des tenues",
+       "g": "f",
+       "pl": true,
+       "a": "kaki"
+      },
+      {
+       "n": "des robes",
+       "g": "f",
+       "pl": true,
+       "a": "rose"
+      },
+      {
+       "n": "des fleurs",
+       "g": "f",
+       "pl": true,
+       "a": "rose"
+      },
+      {
+       "n": "des pagnes",
+       "g": "m",
+       "pl": true,
+       "a": "rose"
+      },
+      {
+       "n": "des sacs",
+       "g": "m",
+       "pl": true,
+       "a": "orange"
+      },
+      {
+       "n": "des chaussures",
+       "g": "f",
+       "pl": true,
+       "a": "marron"
+      }
+     ]
+    }
+   },
+   "prompt": "Écris la couleur entre parenthèses bien accordée.",
+   "text": "Ma tante a acheté {X.n} ___ ({X.a}).",
+   "answer": "fr2Adj(X.a, X.g, X.pl)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2AdjNaive(X.a, X.g, X.pl)",
+     "explain": "« {X.a} » est un nom de chose : la couleur reste invariable."
+    },
+    {
+     "id": "none",
+     "wrong": "X.a",
+     "explain": "Cette couleur s’accorde avec « {X.n} »."
+    }
+   ],
+   "solution": [
+    "« {X.n} » est {fr2GenderNumber(X.g, X.pl)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

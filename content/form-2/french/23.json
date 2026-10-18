@@ -1,0 +1,410 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 23,
+ "language": "fr",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "fr2-23",
+   "name": "Le vocabulaire des maladies"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Quelques maladies et leurs causes :\n• le paludisme : transmis par la piqûre du moustique (l’anophèle) ;\n• le choléra, la typhoïde, la diarrhée : causés par l’eau ou les aliments sales ;\n• la rougeole : maladie contagieuse des enfants (on s’en protège par un vaccin) ;\n• la tuberculose : maladie des poumons ; on tousse longtemps.\nLes symptômes (les signes) : la fièvre (le corps est chaud), les frissons, la toux, les maux de tête, les vomissements, la fatigue.\nPour se soigner : aller au centre de santé ou à l’hôpital ; le médecin examine le malade, fait un diagnostic et écrit une ordonnance ; on achète les médicaments (comprimés, sirop) à la pharmacie.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ton petit frère a de la fièvre, des frissons et mal à la tête après des piqûres de moustique. De quelle maladie parle-t-on, et que faut-il faire ?",
+  "steps": [
+   "Fièvre, frissons, maux de tête : ce sont des symptômes.",
+   "Avec les piqûres de moustique, on pense au paludisme.",
+   "Il faut aller au centre de santé pour un test et un traitement."
+  ],
+  "answer": "Sans doute le paludisme : il faut aller au centre de santé.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c23-1",
+    "status": "draft",
+    "idea": "Le paludisme est transmis par la piqûre du moustique.",
+    "vars": {},
+    "example": [
+     "On se protège en dormant sous moustiquaire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-23-cause"
+    }
+   },
+   {
+    "id": "c23-2",
+    "status": "draft",
+    "idea": "Les symptômes sont les signes d’une maladie : fièvre, toux, frissons, maux de tête.",
+    "vars": {},
+    "example": [
+     "La toux est un symptôme de la tuberculose."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-23-symp"
+    }
+   },
+   {
+    "id": "c23-3",
+    "status": "draft",
+    "idea": "Le médecin écrit une ordonnance ; on achète les médicaments à la pharmacie.",
+    "vars": {},
+    "example": [
+     "Un comprimé matin et soir, pendant trois jours."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-23-soin-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le médecin écrit les médicaments sur une ___.",
+         "a": "ordonnance",
+         "w": [
+          "affiche",
+          "poubelle"
+         ],
+         "e": [
+          "Une affiche se colle au mur.",
+          "On y met les déchets."
+         ]
+        },
+        {
+         "s": "On achète les médicaments à la ___.",
+         "a": "pharmacie",
+         "w": [
+          "boulangerie",
+          "boucherie"
+         ],
+         "e": [
+          "On y achète le pain.",
+          "On y achète la viande."
+         ]
+        },
+        {
+         "s": "Pour éviter la rougeole, l’enfant reçoit un ___.",
+         "a": "vaccin",
+         "w": [
+          "sirop",
+          "repas"
+         ],
+         "e": [
+          "Le sirop soigne la toux.",
+          "Ce n’est pas un moyen de protection."
+         ]
+        },
+        {
+         "s": "Le médecin examine le malade et fait un ___.",
+         "a": "diagnostic",
+         "w": [
+          "dessin",
+          "voyage"
+         ],
+         "e": [
+          "Ce n’est pas le travail du médecin.",
+          "Ce n’est pas le sens."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-23-cause",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque maladie à sa cause ou à son signe.",
+   "pool": [
+    {
+     "left": "le paludisme",
+     "right": "la piqûre du moustique"
+    },
+    {
+     "left": "le choléra",
+     "right": "l’eau ou les aliments sales"
+    },
+    {
+     "left": "la tuberculose",
+     "right": "une toux qui dure longtemps"
+    },
+    {
+     "left": "la rougeole",
+     "right": "une maladie contagieuse des enfants"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-23-symp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce qu’un symptôme ?",
+       "r": "un signe de la maladie",
+       "w": [
+        "un médicament",
+        "un médecin",
+        "un hôpital"
+       ],
+       "e": [
+        "Le médicament soigne.",
+        "Le médecin soigne.",
+        "C’est un lieu de soins."
+       ],
+       "y": "La fièvre, la toux sont des symptômes."
+      },
+      {
+       "q": "Quand on a « de la fièvre », que se passe-t-il ?",
+       "r": "le corps est plus chaud que d’habitude",
+       "w": [
+        "on a faim",
+        "on tousse",
+        "on dort bien"
+       ],
+       "e": [
+        "Ce n’est pas la fièvre.",
+        "C’est la toux.",
+        "Ce n’est pas un symptôme."
+       ],
+       "y": "La fièvre, c’est une température trop haute."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-23-soin",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le médecin écrit les médicaments sur une ___.",
+       "a": "ordonnance",
+       "w": [
+        "affiche",
+        "poubelle"
+       ],
+       "e": [
+        "Une affiche se colle au mur.",
+        "On y met les déchets."
+       ]
+      },
+      {
+       "s": "On achète les médicaments à la ___.",
+       "a": "pharmacie",
+       "w": [
+        "boulangerie",
+        "boucherie"
+       ],
+       "e": [
+        "On y achète le pain.",
+        "On y achète la viande."
+       ]
+      },
+      {
+       "s": "Pour éviter la rougeole, l’enfant reçoit un ___.",
+       "a": "vaccin",
+       "w": [
+        "sirop",
+        "repas"
+       ],
+       "e": [
+        "Le sirop soigne la toux.",
+        "Ce n’est pas un moyen de protection."
+       ]
+      },
+      {
+       "s": "Le médecin examine le malade et fait un ___.",
+       "a": "diagnostic",
+       "w": [
+        "dessin",
+        "voyage"
+       ],
+       "e": [
+        "Ce n’est pas le travail du médecin.",
+        "Ce n’est pas le sens."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-23-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le moustique transmet le paludisme.",
+      "truth": "true"
+     },
+     {
+      "text": "Le choléra vient souvent de l’eau sale.",
+      "truth": "true"
+     },
+     {
+      "text": "La toux est un symptôme.",
+      "truth": "true"
+     },
+     {
+      "text": "Le médecin écrit une ordonnance.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On attrape le paludisme en buvant du lait.",
+      "truth": "false",
+      "explain": "Le paludisme est transmis par la piqûre du moustique."
+     },
+     {
+      "text": "La fièvre est un médicament.",
+      "truth": "false",
+      "explain": "La fièvre est un symptôme."
+     },
+     {
+      "text": "On achète les médicaments à la boulangerie.",
+      "truth": "false",
+      "explain": "On les achète à la pharmacie."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

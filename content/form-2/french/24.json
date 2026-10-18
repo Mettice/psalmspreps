@@ -1,0 +1,450 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "fr",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "fr2-24",
+   "name": "Le vocabulaire de la protection de l’environnement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’environnement est le milieu où nous vivons : l’air, l’eau, le sol, les plantes, les animaux.\nCe qui l’abîme : la pollution (de l’air, de l’eau, du sol), les déchets jetés partout, les sachets plastiques, la déforestation (on coupe les arbres sans en replanter), les feux de brousse.\nCe qui le protège : reboiser (replanter des arbres), trier et recycler les déchets (les transformer pour les réutiliser), utiliser une poubelle, économiser l’eau, préférer les sacs réutilisables.\nUn déchet biodégradable se décompose dans la nature (les épluchures) ; le plastique ne se décompose pas : il reste des centaines d’années.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Classe ces actions : planter des arbres ; brûler la brousse ; jeter les sachets dans la rivière ; recycler les bouteilles.",
+  "steps": [
+   "Protègent l’environnement : planter des arbres (reboiser), recycler les bouteilles.",
+   "Abîment l’environnement : brûler la brousse, jeter les sachets dans la rivière (pollution)."
+  ],
+  "answer": "Protègent : reboiser, recycler. Abîment : feux de brousse, pollution de la rivière.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "La déforestation, c’est couper les arbres sans en replanter ; reboiser, c’est en replanter.",
+    "vars": {},
+    "example": [
+     "Le club environnement reboise la colline."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-24-mot"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "Recycler un déchet, c’est le transformer pour le réutiliser.",
+    "vars": {},
+    "example": [
+     "Avec des bouteilles recyclées, on fabrique d’autres objets."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-24-rec"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "Un déchet biodégradable se décompose dans la nature ; le plastique, non.",
+    "vars": {},
+    "example": [
+     "Les épluchures de manioc sont biodégradables."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-24-bio-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Les épluchures de banane sont ___ : elles pourrissent vite.",
+         "a": "biodégradables",
+         "w": [
+          "recyclées",
+          "plastiques"
+         ],
+         "e": [
+          "On ne les transforme pas en usine.",
+          "Ce ne sont pas des plastiques."
+         ]
+        },
+        {
+         "s": "Les sachets ___ restent des centaines d’années dans le sol.",
+         "a": "plastiques",
+         "w": [
+          "biodégradables",
+          "verts"
+         ],
+         "e": [
+          "Ce qui est biodégradable disparaît vite.",
+          "La couleur ne compte pas."
+         ]
+        },
+        {
+         "s": "Le club environnement va ___ la colline avec des manguiers.",
+         "a": "reboiser",
+         "w": [
+          "polluer",
+          "brûler"
+         ],
+         "e": [
+          "Polluer abîme le milieu.",
+          "Brûler détruit les arbres."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-24-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que veut dire « reboiser » ?",
+       "r": "replanter des arbres",
+       "w": [
+        "couper des arbres",
+        "brûler la brousse",
+        "construire des maisons"
+       ],
+       "e": [
+        "C’est la déforestation.",
+        "Ce sont les feux de brousse.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "Re- (de nouveau) + bois."
+      },
+      {
+       "q": "Qu’est-ce que la déforestation ?",
+       "r": "la destruction des forêts",
+       "w": [
+        "la plantation d’arbres",
+        "le nettoyage des rues",
+        "la protection des animaux"
+       ],
+       "e": [
+        "C’est le reboisement.",
+        "C’est un investissement humain.",
+        "C’est le contraire."
+       ],
+       "y": "On coupe les arbres sans en replanter."
+      },
+      {
+       "q": "Qu’est-ce que la pollution ?",
+       "r": "le fait de salir l’air, l’eau ou le sol",
+       "w": [
+        "le fait de planter des fleurs",
+        "le fait de recycler",
+        "le fait de balayer"
+       ],
+       "e": [
+        "Cela embellit l’environnement.",
+        "Cela protège l’environnement.",
+        "Cela nettoie."
+       ],
+       "y": "Polluer, c’est salir le milieu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-24-rec",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle action protège l’environnement ?",
+       "r": "recycler les bouteilles en plastique",
+       "w": [
+        "jeter les sachets dans la rivière",
+        "brûler les pneus",
+        "couper les arbres du quartier"
+       ],
+       "e": [
+        "Cela pollue l’eau.",
+        "Cela pollue l’air.",
+        "C’est la déforestation."
+       ],
+       "y": "Recycler évite les déchets."
+      },
+      {
+       "q": "Quelle action abîme l’environnement ?",
+       "r": "faire des feux de brousse",
+       "w": [
+        "planter des arbres",
+        "utiliser une poubelle",
+        "économiser l’eau"
+       ],
+       "e": [
+        "Cela protège.",
+        "Cela protège.",
+        "Cela protège."
+       ],
+       "y": "Les feux de brousse détruisent les plantes et les animaux."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-24-bio",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les épluchures de banane sont ___ : elles pourrissent vite.",
+       "a": "biodégradables",
+       "w": [
+        "recyclées",
+        "plastiques"
+       ],
+       "e": [
+        "On ne les transforme pas en usine.",
+        "Ce ne sont pas des plastiques."
+       ]
+      },
+      {
+       "s": "Les sachets ___ restent des centaines d’années dans le sol.",
+       "a": "plastiques",
+       "w": [
+        "biodégradables",
+        "verts"
+       ],
+       "e": [
+        "Ce qui est biodégradable disparaît vite.",
+        "La couleur ne compte pas."
+       ]
+      },
+      {
+       "s": "Le club environnement va ___ la colline avec des manguiers.",
+       "a": "reboiser",
+       "w": [
+        "polluer",
+        "brûler"
+       ],
+       "e": [
+        "Polluer abîme le milieu.",
+        "Brûler détruit les arbres."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-24-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le plastique ne se décompose pas vite.",
+      "truth": "true"
+     },
+     {
+      "text": "Reboiser, c’est replanter des arbres.",
+      "truth": "true"
+     },
+     {
+      "text": "Les feux de brousse abîment l’environnement.",
+      "truth": "true"
+     },
+     {
+      "text": "On peut recycler les bouteilles.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La déforestation protège les forêts.",
+      "truth": "false",
+      "explain": "La déforestation détruit les forêts."
+     },
+     {
+      "text": "Les sachets plastiques sont biodégradables.",
+      "truth": "false",
+      "explain": "Ils restent des centaines d’années."
+     },
+     {
+      "text": "Jeter les ordures dans la rivière protège l’eau.",
+      "truth": "false",
+      "explain": "Cela pollue l’eau."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

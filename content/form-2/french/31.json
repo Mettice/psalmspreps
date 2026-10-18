@@ -1,0 +1,429 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "fr",
+ "prerequisites": [
+  23
+ ],
+ "skills": [
+  {
+   "id": "fr2-31",
+   "name": "Les maladies (suite) : contagion et prévention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une maladie contagieuse passe d’une personne à une autre (par la toux, les mains, l’eau sale …) : la rougeole, la tuberculose, le choléra, la grippe.\nUne épidémie : beaucoup de personnes tombent malades en même temps dans une région (une épidémie de choléra).\nUne endémie : une maladie toujours présente dans une région (le paludisme est endémique au Cameroun).\nUne pandémie : une épidémie qui touche plusieurs pays ou le monde entier.\nPrévenir (éviter la maladie) : se faire vacciner, dormir sous moustiquaire imprégnée, faire bouillir ou traiter l’eau, se laver les mains, tousser dans son coude, vider les eaux stagnantes. Prévenir vaut mieux que guérir.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans une ville, cinq cents personnes ont le choléra la même semaine. Est-ce une épidémie, une endémie ou une pandémie ? Que faut-il faire ?",
+  "steps": [
+   "Beaucoup de malades en même temps dans une région : c’est une épidémie.",
+   "Le choléra vient de l’eau sale : il faut faire bouillir l’eau et se laver les mains."
+  ],
+  "answer": "Une épidémie ; faire bouillir l’eau et se laver les mains.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "Une maladie contagieuse passe d’une personne à une autre.",
+    "vars": {},
+    "example": [
+     "La rougeole est contagieuse."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-31-cont"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "Épidémie : beaucoup de malades en même temps ; pandémie : dans le monde entier ; endémie : toujours présente.",
+    "vars": {},
+    "example": [
+     "Le paludisme est endémique au Cameroun."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-31-mot"
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "Prévenir, c’est éviter la maladie : vaccin, moustiquaire, eau bouillie, mains propres.",
+    "vars": {},
+    "example": [
+     "Prévenir vaut mieux que guérir."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-31-prev-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel geste prévient le paludisme ?",
+         "r": "dormir sous moustiquaire imprégnée",
+         "w": [
+          "boire beaucoup de jus",
+          "manger du sel",
+          "porter des chaussures"
+         ],
+         "e": [
+          "Cela ne protège pas des moustiques.",
+          "Cela ne protège pas des moustiques.",
+          "Cela ne protège pas des moustiques."
+         ],
+         "y": "La moustiquaire empêche la piqûre du moustique."
+        },
+        {
+         "q": "Quel geste prévient le choléra ?",
+         "r": "faire bouillir l’eau de boisson",
+         "w": [
+          "dormir sous moustiquaire",
+          "tousser dans son coude",
+          "porter un chapeau"
+         ],
+         "e": [
+          "Cela protège du paludisme.",
+          "Cela protège des maladies de la toux.",
+          "Ce n’est pas un moyen de prévention."
+         ],
+         "y": "Le choléra vient de l’eau sale."
+        },
+        {
+         "q": "Quel geste empêche les microbes de la toux de passer aux autres ?",
+         "r": "tousser dans son coude",
+         "w": [
+          "tousser dans ses mains puis serrer la main",
+          "tousser vers les autres",
+          "boire de l’eau stagnante"
+         ],
+         "e": [
+          "Les mains transmettent les microbes.",
+          "Cela transmet les microbes.",
+          "C’est dangereux."
+         ],
+         "y": "Le coude retient les gouttelettes."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-31-cont",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que veut dire « contagieux » ?",
+       "r": "qui passe d’une personne à une autre",
+       "w": [
+        "qui ne se soigne pas",
+        "qui touche seulement les animaux",
+        "qui donne faim"
+       ],
+       "e": [
+        "Beaucoup de maladies contagieuses se soignent.",
+        "Ce n’est pas le sens.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "La contagion est le passage de la maladie."
+      },
+      {
+       "q": "Quelle maladie est contagieuse ?",
+       "r": "la rougeole",
+       "w": [
+        "une fracture du bras",
+        "une brûlure",
+        "un mal de dents"
+       ],
+       "e": [
+        "Une fracture ne se transmet pas.",
+        "Une brûlure ne se transmet pas.",
+        "Un mal de dents ne se transmet pas."
+       ],
+       "y": "La rougeole passe d’un enfant à l’autre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-31-mot",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "une épidémie",
+     "right": "beaucoup de malades en même temps dans une région"
+    },
+    {
+     "left": "une pandémie",
+     "right": "une épidémie dans le monde entier"
+    },
+    {
+     "left": "une endémie",
+     "right": "une maladie toujours présente dans une région"
+    },
+    {
+     "left": "prévenir",
+     "right": "éviter la maladie avant qu’elle arrive"
+    },
+    {
+     "left": "guérir",
+     "right": "retrouver la santé"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-31-prev",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel geste prévient le paludisme ?",
+       "r": "dormir sous moustiquaire imprégnée",
+       "w": [
+        "boire beaucoup de jus",
+        "manger du sel",
+        "porter des chaussures"
+       ],
+       "e": [
+        "Cela ne protège pas des moustiques.",
+        "Cela ne protège pas des moustiques.",
+        "Cela ne protège pas des moustiques."
+       ],
+       "y": "La moustiquaire empêche la piqûre du moustique."
+      },
+      {
+       "q": "Quel geste prévient le choléra ?",
+       "r": "faire bouillir l’eau de boisson",
+       "w": [
+        "dormir sous moustiquaire",
+        "tousser dans son coude",
+        "porter un chapeau"
+       ],
+       "e": [
+        "Cela protège du paludisme.",
+        "Cela protège des maladies de la toux.",
+        "Ce n’est pas un moyen de prévention."
+       ],
+       "y": "Le choléra vient de l’eau sale."
+      },
+      {
+       "q": "Quel geste empêche les microbes de la toux de passer aux autres ?",
+       "r": "tousser dans son coude",
+       "w": [
+        "tousser dans ses mains puis serrer la main",
+        "tousser vers les autres",
+        "boire de l’eau stagnante"
+       ],
+       "e": [
+        "Les mains transmettent les microbes.",
+        "Cela transmet les microbes.",
+        "C’est dangereux."
+       ],
+       "y": "Le coude retient les gouttelettes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-31-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le paludisme est endémique au Cameroun.",
+      "truth": "true"
+     },
+     {
+      "text": "Le vaccin protège de la rougeole.",
+      "truth": "true"
+     },
+     {
+      "text": "Prévenir vaut mieux que guérir.",
+      "truth": "true"
+     },
+     {
+      "text": "Une pandémie touche plusieurs pays.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une épidémie touche une seule personne.",
+      "truth": "false",
+      "explain": "Une épidémie touche beaucoup de personnes en même temps."
+     },
+     {
+      "text": "La moustiquaire protège du choléra.",
+      "truth": "false",
+      "explain": "Elle protège du paludisme ; le choléra vient de l’eau sale."
+     },
+     {
+      "text": "Une maladie contagieuse ne passe jamais d’une personne à une autre.",
+      "truth": "false",
+      "explain": "C’est justement le sens de contagieux."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-182 P1 items: 180 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+185 P1 items: 183 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -210,6 +210,9 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-X01 | Form 2 Accounting: balance sheet | open |
 | TR-X02 | Form 2 Accounting: flows and analysis | open |
 | TR-X03 | Form 2 Accounting: recording | open |
+| TR-Z01 | Form 2 French: verb table (french2.js) | open |
+| TR-Z02 | Form 2 French: adjective agreement | open |
+| TR-Z03 | Form 2 French: texts and vocabulary | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -771,3 +774,19 @@ row 1 is marked “evaluation” by the sheet reader but is the lesson “defini
 - [ ] **TR-X01 [P1] Financial position and the balance sheet (rows 1–4):** assets, liabilities, owner's equity (capital, drawings), fixed and current assets, presentation, the equation and how transactions change it. *Location:* `1.json` to `4.json`.
 - [ ] **TR-X02 [P1] Economic flows and analysis (rows 5–6):** real and financial flows, partners, the rule “the receiving account is debited, the giving account credited”. *Location:* `5.json`, `6.json`.
 - [ ] **TR-X03 [P1] Recording (rows 7, 8, 10–12):** T-accounts, how asset, capital/liability, expense and revenue accounts work, balancing (c/d, b/d), single and double entry, the trial balance and reciprocity. Terms are simplified from SYSCOHADA: please check they match the textbook. *Location:* those lessons.
+
+## Z. French Form 2, Batch FR2-1 (Term 1: rows 1–15, 18–32), added 2026-10-18 (form-2 branch, not live)
+
+30 lessons (integration rows 16, 17 and 33–35 are not lessons), written entirely in French: 90 cards, 120 practice templates (96 authored, 24 computed) and 30
+card-check templates. Verb forms and agreements are computed by `src/engine/lib/french2.js` from an authored table
+(checked in `tests-js/french2.test.js`); everything else is authored. The reading texts are original, written for the app.
+Everything is in `content/form-2/french/REVIEW.md` and `AUTHORED.md`. Reviewer: a French teacher.
+
+### P1
+- [ ] **TR-Z01 [P1] The verb table:** présent (‑ger, ‑cer, ‑eler/‑eter doubling for appeler, jeter; è for acheter, lever, préférer, répéter), the 2nd group (‑iss‑) and sentir, partir, dormir, sortir, lire, dire, écrire; passé composé with avoir or être (arriver, entrer, rester, tomber, monter, aller, venir, partir, sortir take être) and agreement with être. The table also holds imparfait, passé simple and participe présent for Français intensif. *Location:* `IRR`, `SECOND`, `DOUBLE`, `GRAVE`, `ETRE_ER` in `src/engine/lib/french2.js`; lessons 3, 6, 9, 19.
+- [ ] **TR-Z02 [P1] Agreement of adjectives:** ‑al → ‑aux (exceptions banal, final, natal, naval → ‑s); several nouns (masculine plural if one noun is masculine); colours: simple colours agree; orange, marron, kaki invariable; rose agrees; compound colours (bleu clair, vert foncé) invariable. *Location:* `ADJ` in `french2.js`; lessons 21, 25, 27, 30.
+- [ ] **TR-Z03 [P1] Texts and vocabulary:** the six original reading texts (lessons 1, 4, 7, 13, 20 and the questions on them), the family words (beau-frère, belle-sœur …), school staff (proviseur, censeur, surveillant général, intendant), hygiene, diseases (paludisme, choléra, typhoïde, rougeole, tuberculose; épidémie, endémie, pandémie) and environment words. *Location:* lessons 1, 2, 4, 7, 12, 13, 18, 20, 23, 24, 31.
+
+### P2
+- [ ] **TR-Z04 [P2] Row 29 “Le son /p/ et /φ/”:** read as the sound [p] (p, pp) against ph, which is read [f]. This is an inference from the sheet: please say if the teacher meant something else. *Location:* `content/form-2/french/29.json`.
+- [ ] **TR-Z05 [P2] Listening and speaking rows (1, 4, 7 “Lecture / Écoute”; 15, 26, 32 “Expression orale”):** the app cannot play or hear speech, so these are taught as reading, and as preparing a sketch, presenting an image and describing an illness. The oral performance itself stays with the teacher. *Location:* those lessons.

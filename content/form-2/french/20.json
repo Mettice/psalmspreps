@@ -1,0 +1,446 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "fr",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "fr2-20",
+   "name": "Lire un texte sur l’environnement et la santé"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte : Le quartier de Mbango\nL’année dernière, le quartier de Mbango était très sale. Les habitants jetaient les ordures dans le caniveau ; quand il pleuvait, l’eau débordait et entrait dans les maisons. Beaucoup d’enfants avaient le paludisme et la diarrhée. Un jour, Dr Mballa, l’infirmière du centre de santé, a réuni les habitants. « Votre santé dépend de votre environnement », leur a-t-elle dit. Depuis, chaque famille a une poubelle, les jeunes curent les caniveaux tous les mois et l’on dort sous moustiquaire. Cette année, le centre de santé reçoit deux fois moins de malades.\n\nPour comprendre un texte, on cherche la situation de départ, ce qui change, et la situation finale.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelle est la situation de départ du quartier, et quelle est la situation finale ?",
+  "steps": [
+   "Départ : le quartier est sale, les caniveaux débordent, beaucoup d’enfants sont malades.",
+   "Ce qui change : l’infirmière réunit les habitants ; poubelles, caniveaux curés, moustiquaires.",
+   "Fin : il y a deux fois moins de malades."
+  ],
+  "answer": "Au départ, le quartier est sale et les enfants malades ; à la fin, le quartier est propre et il y a moins de malades.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "Un récit a une situation de départ, un changement et une situation finale.",
+    "vars": {},
+    "example": [
+     "Départ : le quartier est sale. Fin : il est propre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-20-plan"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "On retrouve dans le texte la phrase qui répond à la question.",
+    "vars": {},
+    "example": [
+     "« chaque famille a une poubelle » : une solution."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-20-sol"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "La morale (ou l’idée principale) est la leçon que le texte veut donner.",
+    "vars": {},
+    "example": [
+     "Ici : notre santé dépend de notre environnement."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-20-idee-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est l’idée principale du texte ?",
+         "r": "notre santé dépend de la propreté de notre environnement",
+         "w": [
+          "les infirmières n’aiment pas les quartiers",
+          "la pluie est toujours dangereuse",
+          "il faut quitter les quartiers sales"
+         ],
+         "e": [
+          "L’infirmière aide le quartier.",
+          "Le problème, ce sont les caniveaux bouchés.",
+          "Les habitants ont nettoyé leur quartier."
+         ],
+         "y": "Dr Mballa le dit : « Votre santé dépend de votre environnement »."
+        },
+        {
+         "q": "pourquoi l’eau entrait-elle dans les maisons ?",
+         "r": "parce que les caniveaux étaient bouchés par les ordures",
+         "w": [
+          "parce que les maisons n’avaient pas de toit",
+          "parce que les jeunes curaient les caniveaux",
+          "parce qu’il y avait des moustiquaires"
+         ],
+         "e": [
+          "Le texte ne le dit pas.",
+          "Cela se fait après, et cela aide.",
+          "Les moustiquaires protègent des moustiques."
+         ],
+         "y": "Les ordures bouchaient le caniveau, l’eau débordait."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « Le quartier de Mbango » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-20-plan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "comment était le quartier au départ ?",
+       "r": "très sale",
+       "w": [
+        "très propre",
+        "sans habitants",
+        "plein d’arbres fruitiers"
+       ],
+       "e": [
+        "C’est la situation finale.",
+        "Le texte parle des habitants.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« le quartier de Mbango était très sale »."
+      },
+      {
+       "q": "qui a réuni les habitants ?",
+       "r": "Dr Mballa, l’infirmière",
+       "w": [
+        "le chef du quartier",
+        "les jeunes",
+        "le maire"
+       ],
+       "e": [
+        "Le texte ne parle pas du chef.",
+        "Les jeunes curent les caniveaux.",
+        "Le texte ne parle pas du maire."
+       ],
+       "y": "« Dr Mballa, l’infirmière du centre de santé, a réuni les habitants »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le quartier de Mbango » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-20-sol",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle solution a été trouvée contre le paludisme ?",
+       "r": "dormir sous moustiquaire",
+       "w": [
+        "jeter les ordures dans le caniveau",
+        "fermer le centre de santé",
+        "boire de l’eau de pluie"
+       ],
+       "e": [
+        "C’était la cause du problème.",
+        "Le centre de santé soigne les malades.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« l’on dort sous moustiquaire »."
+      },
+      {
+       "q": "que font les jeunes tous les mois ?",
+       "r": "ils curent les caniveaux",
+       "w": [
+        "ils vendent des poubelles",
+        "ils soignent les malades",
+        "ils jettent les ordures"
+       ],
+       "e": [
+        "Le texte ne le dit pas.",
+        "C’est le travail du centre de santé.",
+        "C’est ce qu’on faisait avant."
+       ],
+       "y": "« les jeunes curent les caniveaux tous les mois »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le quartier de Mbango » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-20-idee",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est l’idée principale du texte ?",
+       "r": "notre santé dépend de la propreté de notre environnement",
+       "w": [
+        "les infirmières n’aiment pas les quartiers",
+        "la pluie est toujours dangereuse",
+        "il faut quitter les quartiers sales"
+       ],
+       "e": [
+        "L’infirmière aide le quartier.",
+        "Le problème, ce sont les caniveaux bouchés.",
+        "Les habitants ont nettoyé leur quartier."
+       ],
+       "y": "Dr Mballa le dit : « Votre santé dépend de votre environnement »."
+      },
+      {
+       "q": "pourquoi l’eau entrait-elle dans les maisons ?",
+       "r": "parce que les caniveaux étaient bouchés par les ordures",
+       "w": [
+        "parce que les maisons n’avaient pas de toit",
+        "parce que les jeunes curaient les caniveaux",
+        "parce qu’il y avait des moustiquaires"
+       ],
+       "e": [
+        "Le texte ne le dit pas.",
+        "Cela se fait après, et cela aide.",
+        "Les moustiquaires protègent des moustiques."
+       ],
+       "y": "Les ordures bouchaient le caniveau, l’eau débordait."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le quartier de Mbango » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Texte « Le quartier de Mbango ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Les habitants jetaient les ordures dans le caniveau.",
+      "truth": "true"
+     },
+     {
+      "text": "Beaucoup d’enfants avaient le paludisme.",
+      "truth": "true"
+     },
+     {
+      "text": "Chaque famille a maintenant une poubelle.",
+      "truth": "true"
+     },
+     {
+      "text": "Le centre de santé reçoit moins de malades.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le centre de santé reçoit plus de malades cette année.",
+      "truth": "false",
+      "explain": "Il en reçoit deux fois moins."
+     },
+     {
+      "text": "L’infirmière a conseillé de jeter les ordures dans le caniveau.",
+      "truth": "false",
+      "explain": "Elle a montré que l’environnement sale rend malade."
+     },
+     {
+      "text": "Les jeunes curent les caniveaux chaque année.",
+      "truth": "false",
+      "explain": "Ils les curent tous les mois."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "fr",
+ "prerequisites": [
+  23,
+  26
+ ],
+ "skills": [
+  {
+   "id": "fr2-32",
+   "name": "Parler d’une maladie ou d’un malade"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour dire où l’on a mal : avoir mal à + la partie du corps, avec les contractions :\n• à + le = au : j’ai mal au ventre, au dos, au pied ;\n• à + la = à la : j’ai mal à la tête, à la gorge ;\n• à + l’ = à l’ : j’ai mal à l’oreille, à l’œil ;\n• à + les = aux : j’ai mal aux dents, aux yeux.\nAutres phrases : « J’ai de la fièvre. », « Je tousse. », « J’ai des vertiges. », « Je suis fatigué(e). »\nChez le médecin : le médecin demande « Qu’est-ce qui ne va pas ? », « Depuis quand ? » ; le malade répond : « Depuis deux jours, j’ai mal à la tête. »\nPour parler d’un malade : « Mon frère est malade : il a de la fièvre depuis hier. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dis au médecin que tu as mal (le ventre) et (les dents) depuis hier.",
+  "steps": [
+   "« le ventre » : à + le = au : mal au ventre.",
+   "« les dents » : à + les = aux : mal aux dents.",
+   "On ajoute « depuis » : « Depuis hier, j’ai mal au ventre et aux dents. »"
+  ],
+  "answer": "Depuis hier, j’ai mal au ventre et aux dents.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "à + le = au ; à + les = aux : mal au ventre, mal aux dents.",
+    "vars": {},
+    "example": [
+     "J’ai mal au pied."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-32-au"
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "à + la et à + l’ ne changent pas : mal à la tête, mal à l’oreille.",
+    "vars": {},
+    "example": [
+     "Elle a mal à la gorge."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-32-ala"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "Chez le médecin, on dit ce qui ne va pas et depuis quand.",
+    "vars": {},
+    "example": [
+     "Depuis trois jours, je tousse."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-32-dial-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Médecin : Bonjour. Qu’est-ce qui ne va pas ?",
+         "Malade : J’ai mal à la tête et j’ai de la fièvre.",
+         "Médecin : Depuis quand ?",
+         "Malade : Depuis deux jours, docteur."
+        ],
+        [
+         "Infirmière : Bonjour, Madame. Que se passe-t-il ?",
+         "Mère : Mon fils tousse beaucoup.",
+         "Infirmière : Depuis combien de temps ?",
+         "Mère : Depuis une semaine."
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets le dialogue chez le médecin dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-32-au",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "J’ai mal ___ ventre.",
+       "a": "au",
+       "w": [
+        "à le",
+        "aux"
+       ],
+       "e": [
+        "à + le se contracte en au.",
+        "« ventre » est singulier."
+       ]
+      },
+      {
+       "s": "Mon petit frère a mal ___ dents.",
+       "a": "aux",
+       "w": [
+        "à les",
+        "au"
+       ],
+       "e": [
+        "à + les se contracte en aux.",
+        "« dents » est pluriel."
+       ]
+      },
+      {
+       "s": "Mon oncle a mal ___ dos.",
+       "a": "au",
+       "w": [
+        "à le",
+        "à la"
+       ],
+       "e": [
+        "à + le se contracte en au.",
+        "« dos » est masculin."
+       ]
+      },
+      {
+       "s": "Ma cousine a mal ___ yeux.",
+       "a": "aux",
+       "w": [
+        "à les",
+        "au"
+       ],
+       "e": [
+        "à + les se contracte en aux.",
+        "« yeux » est pluriel."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-32-ala",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Elle a mal ___ tête.",
+       "a": "à la",
+       "w": [
+        "au",
+        "aux"
+       ],
+       "e": [
+        "« tête » est féminin : à la.",
+        "« tête » est singulier."
+       ]
+      },
+      {
+       "s": "J’ai mal ___ oreille.",
+       "a": "à l’",
+       "w": [
+        "au",
+        "à la"
+       ],
+       "e": [
+        "Devant une voyelle : à l’.",
+        "Devant une voyelle : à l’."
+       ]
+      },
+      {
+       "s": "Il a mal ___ gorge.",
+       "a": "à la",
+       "w": [
+        "au",
+        "à l’"
+       ],
+       "e": [
+        "« gorge » est féminin.",
+        "« gorge » commence par une consonne."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-32-dial",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Médecin : Bonjour. Qu’est-ce qui ne va pas ?",
+       "Malade : J’ai mal à la tête et j’ai de la fièvre.",
+       "Médecin : Depuis quand ?",
+       "Malade : Depuis deux jours, docteur."
+      ],
+      [
+       "Infirmière : Bonjour, Madame. Que se passe-t-il ?",
+       "Mère : Mon fils tousse beaucoup.",
+       "Infirmière : Depuis combien de temps ?",
+       "Mère : Depuis une semaine."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le dialogue chez le médecin dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-32-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "J’ai mal au ventre.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle a mal à la tête.",
+      "truth": "true"
+     },
+     {
+      "text": "Il a mal aux dents.",
+      "truth": "true"
+     },
+     {
+      "text": "J’ai mal à l’oreille.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "J’ai mal à le pied.",
+      "truth": "false",
+      "explain": "à + le se contracte : au pied."
+     },
+     {
+      "text": "Il a mal à les yeux.",
+      "truth": "false",
+      "explain": "à + les se contracte : aux yeux."
+     },
+     {
+      "text": "Elle a mal au tête.",
+      "truth": "false",
+      "explain": "« tête » est féminin : à la tête."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,505 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-1",
+   "name": "Lire une image et un texte sur la famille"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour interpréter une image, on se pose des questions :\n• Qui ? (les personnes : un père, une mère, des enfants …)\n• Où ? (le lieu : la cour, la cuisine, le salon …)\n• Que font-elles ? (les actions)\n• Quand ? (le moment : le matin, un jour de fête …)\nPuis on dit ce que l’image montre en une phrase.\n\nTexte : La famille de Ngono\nNgono habite à Bafia avec son père, sa mère et ses deux petits frères. Son père est menuisier ; sa mère vend des beignets au marché. Le dimanche, toute la famille va chez les grands-parents. Grand-mère prépare du ndolé, grand-père raconte des contes aux enfants. Ngono aime ces dimanches : « Chez grand-père, dit-elle, j’apprends l’histoire de notre famille. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une image montre une femme qui pile du maïs dans la cour pendant que deux enfants balaient. Interprète-la.",
+  "steps": [
+   "Qui ? une femme (sans doute la mère) et deux enfants.",
+   "Où ? dans la cour de la maison.",
+   "Que font-ils ? la femme pile du maïs, les enfants balaient.",
+   "En une phrase : l’image montre une famille qui fait les travaux de la maison ensemble."
+  ],
+  "answer": "Une famille fait les travaux de la maison ensemble, dans la cour.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "Pour lire une image, on se demande : qui ? où ? que font-ils ? quand ?",
+    "vars": {},
+    "example": [
+     "Qui ? un père et son fils. Où ? au champ. Que font-ils ? ils plantent du maïs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-1-image"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "Pour comprendre un texte, on cherche les personnages, le lieu et ce qui se passe.",
+    "vars": {},
+    "example": [
+     "Dans « La famille de Ngono », le lieu est Bafia et la maison des grands-parents."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-1-texte"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "Une bonne réponse reprend les mots du texte et répond exactement à la question.",
+    "vars": {},
+    "example": [
+     "Question : Que fait la mère ? Réponse : Elle vend des beignets au marché."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-1-rep-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "pourquoi Ngono aime-t-elle les dimanches ?",
+         "r": "parce qu’elle apprend l’histoire de sa famille chez grand-père",
+         "w": [
+          "parce qu’il n’y a pas d’école",
+          "parce qu’elle vend des beignets",
+          "parce qu’elle reste seule à la maison"
+         ],
+         "e": [
+          "Le texte ne donne pas cette raison.",
+          "C’est sa mère qui vend des beignets.",
+          "Toute la famille sort le dimanche."
+         ],
+         "y": "Elle le dit : « j’apprends l’histoire de notre famille »."
+        },
+        {
+         "q": "combien de frères a Ngono ?",
+         "r": "deux petits frères",
+         "w": [
+          "un grand frère",
+          "trois frères",
+          "aucun frère"
+         ],
+         "e": [
+          "Ses frères sont plus petits qu’elle.",
+          "Le texte dit « deux ».",
+          "Le texte parle de ses frères."
+         ],
+         "y": "« ses deux petits frères »."
+        },
+        {
+         "q": "chez qui la famille va-t-elle le dimanche ?",
+         "r": "chez les grands-parents",
+         "w": [
+          "chez l’oncle",
+          "chez le menuisier",
+          "chez les voisins"
+         ],
+         "e": [
+          "Le texte ne parle pas d’un oncle.",
+          "Le menuisier, c’est le père.",
+          "Le texte ne parle pas des voisins."
+         ],
+         "y": "« toute la famille va chez les grands-parents »."
+        }
+       ]
+      }
+     },
+     "prompt": "D’après le texte « La famille de Ngono » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-1-image",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Sur une image, on voit un homme qui répare une table dans un atelier. Quelle question nous fait dire « dans un atelier » ?",
+       "r": "Où ?",
+       "w": [
+        "Qui ?",
+        "Quand ?",
+        "Combien ?"
+       ],
+       "e": [
+        "« Qui ? » donne la personne : un homme.",
+        "« Quand ? » donne le moment.",
+        "Cette question donne un nombre."
+       ],
+       "y": "« Dans un atelier » est le lieu : on répond à « Où ? »."
+      },
+      {
+       "q": "Sur une image, une grand-mère raconte un conte à des enfants le soir. Quelle question nous fait dire « une grand-mère et des enfants » ?",
+       "r": "Qui ?",
+       "w": [
+        "Où ?",
+        "Quand ?",
+        "Pourquoi ?"
+       ],
+       "e": [
+        "« Où ? » donne le lieu.",
+        "« Quand ? » donne le moment : le soir.",
+        "On ne cherche pas encore la raison."
+       ],
+       "y": "Les personnes répondent à « Qui ? »."
+      },
+      {
+       "q": "Sur une image, des enfants jouent au football dans la cour après l’école. Quelle question nous fait dire « après l’école » ?",
+       "r": "Quand ?",
+       "w": [
+        "Qui ?",
+        "Où ?",
+        "Que font-ils ?"
+       ],
+       "e": [
+        "« Qui ? » donne les enfants.",
+        "« Où ? » donne la cour.",
+        "« Que font-ils ? » donne l’action : jouer."
+       ],
+       "y": "Le moment répond à « Quand ? »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-1-texte",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "où habite Ngono ?",
+       "r": "à Bafia",
+       "w": [
+        "à Douala",
+        "chez ses grands-parents",
+        "au marché"
+       ],
+       "e": [
+        "Le texte ne parle pas de Douala.",
+        "Elle y va seulement le dimanche.",
+        "C’est là que sa mère travaille."
+       ],
+       "y": "« Ngono habite à Bafia »."
+      },
+      {
+       "q": "quel est le métier du père ?",
+       "r": "menuisier",
+       "w": [
+        "commerçant",
+        "cultivateur",
+        "enseignant"
+       ],
+       "e": [
+        "C’est la mère qui vend au marché.",
+        "Le texte ne le dit pas.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« Son père est menuisier »."
+      },
+      {
+       "q": "que fait grand-père le dimanche ?",
+       "r": "il raconte des contes aux enfants",
+       "w": [
+        "il prépare du ndolé",
+        "il vend des beignets",
+        "il va au marché"
+       ],
+       "e": [
+        "C’est grand-mère qui prépare le ndolé.",
+        "C’est la mère qui vend des beignets.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« Grand-père raconte des contes aux enfants »."
+      }
+     ]
+    }
+   },
+   "prompt": "D’après le texte « La famille de Ngono » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-1-rep",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "pourquoi Ngono aime-t-elle les dimanches ?",
+       "r": "parce qu’elle apprend l’histoire de sa famille chez grand-père",
+       "w": [
+        "parce qu’il n’y a pas d’école",
+        "parce qu’elle vend des beignets",
+        "parce qu’elle reste seule à la maison"
+       ],
+       "e": [
+        "Le texte ne donne pas cette raison.",
+        "C’est sa mère qui vend des beignets.",
+        "Toute la famille sort le dimanche."
+       ],
+       "y": "Elle le dit : « j’apprends l’histoire de notre famille »."
+      },
+      {
+       "q": "combien de frères a Ngono ?",
+       "r": "deux petits frères",
+       "w": [
+        "un grand frère",
+        "trois frères",
+        "aucun frère"
+       ],
+       "e": [
+        "Ses frères sont plus petits qu’elle.",
+        "Le texte dit « deux ».",
+        "Le texte parle de ses frères."
+       ],
+       "y": "« ses deux petits frères »."
+      },
+      {
+       "q": "chez qui la famille va-t-elle le dimanche ?",
+       "r": "chez les grands-parents",
+       "w": [
+        "chez l’oncle",
+        "chez le menuisier",
+        "chez les voisins"
+       ],
+       "e": [
+        "Le texte ne parle pas d’un oncle.",
+        "Le menuisier, c’est le père.",
+        "Le texte ne parle pas des voisins."
+       ],
+       "y": "« toute la famille va chez les grands-parents »."
+      }
+     ]
+    }
+   },
+   "prompt": "D’après le texte « La famille de Ngono » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Texte « La famille de Ngono ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ngono a deux petits frères.",
+      "truth": "true"
+     },
+     {
+      "text": "La mère vend des beignets.",
+      "truth": "true"
+     },
+     {
+      "text": "Grand-mère prépare du ndolé.",
+      "truth": "true"
+     },
+     {
+      "text": "La famille va chez les grands-parents le dimanche.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le père de Ngono vend des beignets.",
+      "truth": "false",
+      "explain": "C’est la mère qui vend des beignets ; le père est menuisier."
+     },
+     {
+      "text": "Ngono habite chez ses grands-parents.",
+      "truth": "false",
+      "explain": "Elle habite à Bafia avec ses parents ; elle va chez ses grands-parents le dimanche."
+     },
+     {
+      "text": "Grand-père prépare du ndolé.",
+      "truth": "false",
+      "explain": "C’est grand-mère qui prépare le ndolé ; grand-père raconte des contes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

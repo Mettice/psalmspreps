@@ -10,32 +10,33 @@ import { posix } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url);
 const read = (p) => readFileSync(new URL(p, ROOT), "utf8");
-const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/maths2.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "lib/homeeconomics.js", "lib/history.js", "lib/biology.js", "lib/computerscience.js", "lib/french.js", "lib/science2.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
+const ENGINE = ["rng.js", "expr.js", "lib/maths.js", "lib/maths2.js", "lib/english.js", "lib/physics.js", "lib/chemistry.js", "lib/geography.js", "lib/homeeconomics.js", "lib/history.js", "lib/biology.js", "lib/computerscience.js", "lib/french.js", "lib/french2.js", "lib/science2.js", "template.js", "state.js", "teach.js", "readiness.js"];  // dependency order
 // 120 KB for Lesson 3 alone (2026-10-03); 256 KB for Maths 1–16 (2026-10-05); 448 KB with English E1 (2026-10-06).
 // The Phase 3 budget for the whole app is 2 MB.
-const MAX_BYTES = 1500 * 1024;  // the single shareable file; 1.3 MB until the installable app (2026-10-17)
+const MAX_BYTES = 2048 * 1024;  // the single shareable file, one per class: within the 2 MB Bluetooth budget (Form Two with French, 2026-10-18)
 const SHELL_MAX = 400 * 1024;   // the installable app's core page (engine, screens, titles): content comes per subject  // 900 KB with Home Economics; 1.3 MB with History, Biology and Computer Science (Dion, 2026-10-07); app budget 2 MB
 const SUBJECTS = { maths: "Maths", english: "English", physics: "Physics", chemistry: "Chemistry", geography: "Geography", "home-economics": "Home Economics", history: "History", biology: "Biology", "computer-science": "Computer Science", french: "French",
   "f2-maths": "Maths", "f2-english": "English", "f2-physics": "Physics", "f2-chemistry": "Chemistry", "f2-geography": "Geography", "f2-home-economics": "Home Economics",
-  "f2-history": "History", "f2-biology": "Biology", "f2-computer-science": "Computer Science", "f2-accounting": "Accounting" };
+  "f2-history": "History", "f2-biology": "Biology", "f2-computer-science": "Computer Science", "f2-french": "French", "f2-accounting": "Accounting" };
 // Classes (Form 2 from 2026-10-17, on the form-2 branch): a Form 2 subject id starts with "f2-"; its lessons are in
 // content/form-2/<subject>/ and its sheet in data/spine/form-2/. Form One stays the default class.
 const CLASSES = { "form-1": "Form One", "form-2": "Form Two" };
 const CLASS_OF = Object.fromEntries(Object.keys(SUBJECTS).map((s) => [s, s.startsWith("f2-") ? "form-2" : "form-1"]));
 const DIR = { "f2-maths": "form-2/maths", "f2-english": "form-2/english", "f2-physics": "form-2/physics", "f2-chemistry": "form-2/chemistry", "f2-biology": "form-2/biology",
-  "f2-home-economics": "form-2/home-economics", "f2-geography": "form-2/geography", "f2-history": "form-2/history", "f2-computer-science": "form-2/computer-science", "f2-accounting": "form-2/accounting" };
+  "f2-home-economics": "form-2/home-economics", "f2-geography": "form-2/geography", "f2-history": "form-2/history", "f2-computer-science": "form-2/computer-science", "f2-french": "form-2/french", "f2-accounting": "form-2/accounting" };
 const SPINE = { maths: "mathematics", english: "english-language", physics: "physics", chemistry: "chemistry", geography: "geography", "home-economics": "home-economics", history: "history", biology: "biology", "computer-science": "computer-science", french: "french",
   "f2-maths": "form-2/mathematics", "f2-english": "form-2/english-language", "f2-physics": "form-2/physics", "f2-chemistry": "form-2/chemistry", "f2-biology": "form-2/biology",
-  "f2-home-economics": "form-2/home-economics", "f2-geography": "form-2/geography", "f2-history": "form-2/history", "f2-computer-science": "form-2/computer-science", "f2-accounting": "form-2/accounting" };
+  "f2-home-economics": "form-2/home-economics", "f2-geography": "form-2/geography", "f2-history": "form-2/history", "f2-computer-science": "form-2/computer-science", "f2-french": "form-2/french", "f2-accounting": "form-2/accounting" };
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
 const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10), "home-economics": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21],
   history: upTo(10), biology: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21], "computer-science": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18], french: upTo(15),
   "f2-maths": upTo(24), "f2-english": upTo(32), "f2-physics": upTo(15), "f2-chemistry": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17],
   "f2-biology": [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21],
   "f2-home-economics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "f2-geography": upTo(10), "f2-history": upTo(10),
-  "f2-computer-science": [1, 2, 4, 5, 6, 8, 9, 11, 12, 14, 15, 16, 18, 19], "f2-accounting": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12] };  // Form 2 sciences: integration, evaluation, remediation and review rows are not lessons  // released lessons per subject (Form 2: Term 1, Batches M2-1 and E2-1)
+  "f2-computer-science": [1, 2, 4, 5, 6, 8, 9, 11, 12, 14, 15, 16, 18, 19], "f2-accounting": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12],
+  "f2-french": [...upTo(15), ...Array.from({ length: 15 }, (_, i) => i + 18)] };  // Form 2 sciences: integration, evaluation, remediation and review rows are not lessons  // released lessons per subject (Form 2: Term 1, Batches M2-1 and E2-1)
 // Geography is numbered by place in the year (spine seq): its practicals have no lesson number (TR-G14).
-const BY_SEQ = new Set(["geography", "history", "biology", "f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-biology", "f2-home-economics", "f2-geography", "f2-history", "f2-computer-science", "f2-accounting"]);  // biology: practicals have kind "practical" (numbers equal the rows); every Form 2 subject (proposal G1)
+const BY_SEQ = new Set(["geography", "history", "biology", "f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-biology", "f2-home-economics", "f2-geography", "f2-history", "f2-computer-science", "f2-french", "f2-accounting"]);  // biology: practicals have kind "practical" (numbers equal the rows); every Form 2 subject (proposal G1)
 
 function bundleModule(path) {
   const src = read(`src/engine/${path}`);
@@ -61,11 +62,18 @@ const tidy = (t) => t
   .replace(/(\p{L})- (?=\p{Ll})/gu, "$1-")  // a word split by the sheet: "under- nutrition" → "under-nutrition"
   .replace(/^((?:Speaking|Reading|Writing|Vocabulary|Grammar|Listening)(?: and (?:Speaking|Reading|Writing|Listening))?)\s*[-:]?\s*/, "$1: ")  // "Speaking and Reading- Talking …" (Form 2) → "Speaking and Reading: Talking …"
   .replace(/\s*\.?\s*-\s+/g, ": ").replace(/\s*:\s*/g, ": ").replace(/[;\s]+$/, "").replace(/\s+/g, " ").trim();
+// Form Two French titles keep French typography (a space before the colon); Form One titles are unchanged.
+const FR_TITLES = new Set(["f2-french", "f2-francais-intensif"]);
+const frSpace = (t) => t
+  .replace(/(^|[:;.]\s*)-\s*/g, "$1").replace(/\s-(?=\p{Lu})/gu, ", ")    // the sheet's list dashes: "Ecoute :-Textes", ". -Texte"
+  .replace(/\s*;\s*/g, " ; ").replace(/\s+,/g, ",").replace(/(\S)\(\s*/g, "$1 (")  // French spacing around ; , (
+  .replace(/\/(\S+?)\s+\//g, "/$1/").replace(/\/et\//g, "/ et /").replace(/'/g, "’").replace(/\bEcoute\b/g, "Écoute")
+  .replace(/: /g, " : ");
 const titles = {}, content = {}, lessons = {};
 for (const s of Object.keys(SUBJECTS)) {
   const spine = JSON.parse(read(`data/spine/${SPINE[s]}.json`));
   const num = (l) => (BY_SEQ.has(s) ? l.seq : l.kind === "lesson" ? l.lesson_no : null);
-  titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => BATCH[s].includes(num(l))).map((l) => [num(l), tidy(l.title)]));
+  titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => BATCH[s].includes(num(l))).map((l) => [num(l), FR_TITLES.has(s) ? frSpace(tidy(l.title)) : tidy(l.title)]));
   const all = Object.fromEntries((s === "maths" ? [0, ...BATCH[s]] : BATCH[s]).map((n) => [n, JSON.parse(read(`content/${DIR[s] || s}/${n}.json`))]));
   // Deferred lessons (speech work: needs audio) are not shipped at all: hidden from the pupil (TR-E22).
   content[s] = Object.fromEntries(Object.entries(all).filter(([, l]) => l.status !== "deferred"));
@@ -247,6 +255,7 @@ a.button-link { display: block; min-height: 48px; margin: 10px 0 0; padding: 12p
 const ENGINE_LIBS = `{ libs: { maths: __mods["lib/maths.js"], english: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     "f2-maths": { ...__mods["lib/maths.js"], ...__mods["lib/maths2.js"] }, "f2-english": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"] },
     
+    "f2-french": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/french.js"], ...__mods["lib/french2.js"] },
     "f2-home-economics": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-geography": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-history": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-computer-science": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-accounting": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] },
     "f2-physics": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-chemistry": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] }, "f2-biology": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/biology.js"], ...__mods["lib/maths2.js"], ...__mods["lib/science2.js"] },
     physics: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"] },

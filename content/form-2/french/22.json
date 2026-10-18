@@ -1,0 +1,466 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "fr",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "fr2-22",
+   "name": "Les homophones quel(s), quelle(s), qu’elle(s) ; son, sont"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Des homophones se prononcent de la même façon mais s’écrivent différemment.\n• quel, quels, quelle, quelles : déterminant qui s’accorde avec le nom : Quel livre ? Quels enfants ? Quelle robe ? Quelles fêtes ?\n• qu’elle, qu’elles = que + elle(s) : on peut dire « qu’il(s) » à la place : Je pense qu’elles viendront (qu’ils viendront).\n• son : déterminant possessif (on peut dire « mon ») : Paul range son cahier (mon cahier).\n• sont : verbe être au présent (on peut dire « étaient ») : Les élèves sont en classe (étaient en classe).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Les filles ___ dans la cour avec ___ amie. » (son / sont)",
+  "steps": [
+   "Premier blanc : on peut dire « étaient dans la cour » : c’est le verbe être : sont.",
+   "Deuxième blanc : on peut dire « mon amie » : c’est le possessif : son."
+  ],
+  "answer": "Les filles sont dans la cour avec son amie.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "« sont » est le verbe être : on peut le remplacer par « étaient ».",
+    "vars": {},
+    "example": [
+     "Mes cousins sont malades (étaient malades)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-22-son"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "« qu’elle(s) » = que + elle(s) : on peut dire « qu’il(s) ».",
+    "vars": {},
+    "example": [
+     "Je crois qu’elle est partie (qu’il est parti)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-22-qu"
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "« quel » s’accorde avec le nom : quel, quels, quelle, quelles.",
+    "vars": {},
+    "example": [
+     "Quelle maladie ? Quels médicaments ?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-22-quel-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "___ maladie as-tu eue ?",
+         "a": "Quelle",
+         "w": [
+          "Quel",
+          "Qu’elle"
+         ],
+         "e": [
+          "« maladie » est féminin.",
+          "On ne peut pas dire « qu’il maladie » : c’est le déterminant."
+         ]
+        },
+        {
+         "s": "___ médicaments faut-il acheter ?",
+         "a": "Quels",
+         "w": [
+          "Quelles",
+          "Qu’elles"
+         ],
+         "e": [
+          "« médicaments » est masculin pluriel.",
+          "On ne peut pas dire « qu’ils médicaments »."
+         ]
+        },
+        {
+         "s": "___ fêtes préfères-tu ?",
+         "a": "Quelles",
+         "w": [
+          "Quels",
+          "Qu’elles"
+         ],
+         "e": [
+          "« fêtes » est féminin pluriel.",
+          "On ne peut pas dire « qu’ils fêtes »."
+         ]
+        },
+        {
+         "s": "___ jour sommes-nous ?",
+         "a": "Quel",
+         "w": [
+          "Quelle",
+          "Qu’elle"
+         ],
+         "e": [
+          "« jour » est masculin.",
+          "On ne peut pas dire « qu’il jour »."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne forme de « quel ».",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-22-son",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les enfants ___ partis au marché.",
+       "a": "sont",
+       "w": [
+        "son",
+        "sons"
+       ],
+       "e": [
+        "On peut dire « étaient partis » : c’est le verbe être.",
+        "« sons » est un nom (les sons de la musique)."
+       ]
+      },
+      {
+       "s": "Mon oncle lave ___ vélo.",
+       "a": "son",
+       "w": [
+        "sont",
+        "sons"
+       ],
+       "e": [
+        "On peut dire « mon vélo » : c’est le possessif.",
+        "« sons » ne va pas ici."
+       ]
+      },
+      {
+       "s": "Ses frères ___ à l’école.",
+       "a": "sont",
+       "w": [
+        "son",
+        "sons"
+       ],
+       "e": [
+        "On peut dire « étaient » : c’est le verbe être.",
+        "« sons » ne va pas ici."
+       ]
+      },
+      {
+       "s": "Marie cherche ___ cahier de français.",
+       "a": "son",
+       "w": [
+        "sont",
+        "sons"
+       ],
+       "e": [
+        "On peut dire « mon cahier » : c’est le possessif.",
+        "« sons » ne va pas ici."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis « son » ou « sont ».",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-22-qu",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma mère dit ___ arrivera ce soir.",
+       "a": "qu’elle",
+       "w": [
+        "quelle",
+        "quel"
+       ],
+       "e": [
+        "On peut dire « qu’il arrivera » : c’est que + elle.",
+        "On peut dire « qu’il arrivera » : c’est que + elle."
+       ]
+      },
+      {
+       "s": "Les filles disent ___ ont fini le travail.",
+       "a": "qu’elles",
+       "w": [
+        "quelles",
+        "quels"
+       ],
+       "e": [
+        "On peut dire « qu’ils ont fini » : c’est que + elles.",
+        "On peut dire « qu’ils ont fini » : c’est que + elles."
+       ]
+      },
+      {
+       "s": "Je pense ___ est malade.",
+       "a": "qu’elle",
+       "w": [
+        "quelle",
+        "quelles"
+       ],
+       "e": [
+        "On peut dire « qu’il est malade ».",
+        "On peut dire « qu’il est malade »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-22-quel",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ maladie as-tu eue ?",
+       "a": "Quelle",
+       "w": [
+        "Quel",
+        "Qu’elle"
+       ],
+       "e": [
+        "« maladie » est féminin.",
+        "On ne peut pas dire « qu’il maladie » : c’est le déterminant."
+       ]
+      },
+      {
+       "s": "___ médicaments faut-il acheter ?",
+       "a": "Quels",
+       "w": [
+        "Quelles",
+        "Qu’elles"
+       ],
+       "e": [
+        "« médicaments » est masculin pluriel.",
+        "On ne peut pas dire « qu’ils médicaments »."
+       ]
+      },
+      {
+       "s": "___ fêtes préfères-tu ?",
+       "a": "Quelles",
+       "w": [
+        "Quels",
+        "Qu’elles"
+       ],
+       "e": [
+        "« fêtes » est féminin pluriel.",
+        "On ne peut pas dire « qu’ils fêtes »."
+       ]
+      },
+      {
+       "s": "___ jour sommes-nous ?",
+       "a": "Quel",
+       "w": [
+        "Quelle",
+        "Qu’elle"
+       ],
+       "e": [
+        "« jour » est masculin.",
+        "On ne peut pas dire « qu’il jour »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme de « quel ».",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-22-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute d’homophone ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Les élèves sont dans la cour.",
+      "truth": "true"
+     },
+     {
+      "text": "Paul range son livre.",
+      "truth": "true"
+     },
+     {
+      "text": "Quelle robe vas-tu porter ?",
+      "truth": "true"
+     },
+     {
+      "text": "Elle dit qu’elle viendra.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Les enfants son malades.",
+      "truth": "false",
+      "explain": "On peut dire « étaient malades » : il faut « sont »."
+     },
+     {
+      "text": "Marie lave sont pagne.",
+      "truth": "false",
+      "explain": "On peut dire « mon pagne » : il faut « son »."
+     },
+     {
+      "text": "Je sais quelle est partie.",
+      "truth": "false",
+      "explain": "On peut dire « qu’il est parti » : il faut « qu’elle »."
+     },
+     {
+      "text": "Qu’elles fleurs aimes-tu ?",
+      "truth": "false",
+      "explain": "C’est le déterminant : « Quelles fleurs »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,490 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "fr2-7",
+   "name": "Lire un texte sur les clubs et l’investissement humain"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un club scolaire réunit des élèves qui ont le même centre d’intérêt : club santé, club environnement, club journal, club théâtre, club bilingue.\nL’investissement humain est un travail fait ensemble, sans salaire, pour le bien de tous : nettoyer le quartier, désherber la cour de l’école, curer les caniveaux, planter des arbres.\n\nTexte : Le club environnement\nAu lycée de Mbalmayo, le club environnement compte trente élèves. Chaque premier samedi du mois, il organise un investissement humain. Les élèves désherbent la cour, ramassent les sachets plastiques et curent les caniveaux. Le mois dernier, ils ont planté dix manguiers près du terrain de sport. Le président du club, Abena, explique : « Une école propre, c’est une école où l’on apprend mieux. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Relève dans le texte trois actions de l’investissement humain.",
+  "steps": [
+   "On cherche ce que font les élèves pendant l’investissement humain.",
+   "« Les élèves désherbent la cour, ramassent les sachets plastiques et curent les caniveaux. »"
+  ],
+  "answer": "désherber la cour, ramasser les sachets, curer les caniveaux",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "Un club scolaire réunit des élèves autour d’un même intérêt.",
+    "vars": {},
+    "example": [
+     "Le club journal écrit et publie un petit journal de l’école."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-7-club"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "L’investissement humain est un travail collectif, sans salaire, pour le bien de tous.",
+    "vars": {},
+    "example": [
+     "Nettoyer le marché du quartier un samedi matin."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-7-inv"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "On répond aux questions en cherchant les mots exacts du texte.",
+    "vars": {},
+    "example": [
+     "« trente élèves » répond à « Combien d’élèves ? »."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-7-texte-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quand le club organise-t-il l’investissement humain ?",
+         "r": "chaque premier samedi du mois",
+         "w": [
+          "chaque dimanche",
+          "à la fin de l’année",
+          "chaque soir"
+         ],
+         "e": [
+          "Le texte dit « samedi ».",
+          "Le texte dit « chaque mois ».",
+          "Le texte dit « samedi »."
+         ],
+         "y": "« Chaque premier samedi du mois »."
+        },
+        {
+         "q": "qu’ont planté les élèves le mois dernier ?",
+         "r": "dix manguiers",
+         "w": [
+          "des fleurs",
+          "du maïs",
+          "dix palmiers"
+         ],
+         "e": [
+          "Le texte parle d’arbres fruitiers.",
+          "Ils n’ont pas fait de champ.",
+          "Ce sont des manguiers."
+         ],
+         "y": "« ils ont planté dix manguiers »."
+        },
+        {
+         "q": "que pense Abena ?",
+         "r": "qu’on apprend mieux dans une école propre",
+         "w": [
+          "que le club est inutile",
+          "que les élèves doivent être payés",
+          "qu’il faut couper les arbres"
+         ],
+         "e": [
+          "Il préside le club.",
+          "L’investissement humain est sans salaire.",
+          "Ils plantent des arbres."
+         ],
+         "y": "« Une école propre, c’est une école où l’on apprend mieux. »"
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « Le club environnement » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-7-club",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel club s’occupe de la propreté et des arbres de l’école ?",
+       "r": "le club environnement",
+       "w": [
+        "le club théâtre",
+        "le club journal",
+        "le club bilingue"
+       ],
+       "e": [
+        "Le club théâtre joue des pièces.",
+        "Le club journal écrit un journal.",
+        "Le club bilingue pratique l’anglais et le français."
+       ],
+       "y": "L’environnement, c’est le milieu où l’on vit."
+      },
+      {
+       "q": "Quel club écrit des articles sur la vie de l’école ?",
+       "r": "le club journal",
+       "w": [
+        "le club santé",
+        "le club environnement",
+        "le club théâtre"
+       ],
+       "e": [
+        "Le club santé parle d’hygiène et de maladies.",
+        "Il s’occupe de la propreté.",
+        "Il joue des pièces."
+       ],
+       "y": "Un journal publie des articles."
+      },
+      {
+       "q": "Quel club apprend aux élèves à se laver les mains et à éviter les maladies ?",
+       "r": "le club santé",
+       "w": [
+        "le club journal",
+        "le club théâtre",
+        "le club bilingue"
+       ],
+       "e": [
+        "Il écrit des articles.",
+        "Il joue des pièces.",
+        "Il pratique les deux langues."
+       ],
+       "y": "Le club santé s’occupe de l’hygiène."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-7-inv",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce qu’un investissement humain ?",
+       "r": "un travail fait ensemble, sans salaire, pour le bien de tous",
+       "w": [
+        "un travail payé par l’État",
+        "un devoir de mathématiques",
+        "un match de football"
+       ],
+       "e": [
+        "On n’est pas payé.",
+        "Ce n’est pas un devoir.",
+        "Ce n’est pas un jeu."
+       ],
+       "y": "C’est un travail collectif et bénévole."
+      },
+      {
+       "q": "Quelle action est un investissement humain ?",
+       "r": "curer les caniveaux du quartier",
+       "w": [
+        "vendre des beignets",
+        "regarder la télévision",
+        "faire ses devoirs"
+       ],
+       "e": [
+        "C’est un commerce.",
+        "C’est un loisir.",
+        "C’est un travail personnel."
+       ],
+       "y": "Curer les caniveaux sert à tout le quartier."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-7-texte",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quand le club organise-t-il l’investissement humain ?",
+       "r": "chaque premier samedi du mois",
+       "w": [
+        "chaque dimanche",
+        "à la fin de l’année",
+        "chaque soir"
+       ],
+       "e": [
+        "Le texte dit « samedi ».",
+        "Le texte dit « chaque mois ».",
+        "Le texte dit « samedi »."
+       ],
+       "y": "« Chaque premier samedi du mois »."
+      },
+      {
+       "q": "qu’ont planté les élèves le mois dernier ?",
+       "r": "dix manguiers",
+       "w": [
+        "des fleurs",
+        "du maïs",
+        "dix palmiers"
+       ],
+       "e": [
+        "Le texte parle d’arbres fruitiers.",
+        "Ils n’ont pas fait de champ.",
+        "Ce sont des manguiers."
+       ],
+       "y": "« ils ont planté dix manguiers »."
+      },
+      {
+       "q": "que pense Abena ?",
+       "r": "qu’on apprend mieux dans une école propre",
+       "w": [
+        "que le club est inutile",
+        "que les élèves doivent être payés",
+        "qu’il faut couper les arbres"
+       ],
+       "e": [
+        "Il préside le club.",
+        "L’investissement humain est sans salaire.",
+        "Ils plantent des arbres."
+       ],
+       "y": "« Une école propre, c’est une école où l’on apprend mieux. »"
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le club environnement » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Texte « Le club environnement ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le club compte trente élèves.",
+      "truth": "true"
+     },
+     {
+      "text": "Les élèves ramassent les sachets plastiques.",
+      "truth": "true"
+     },
+     {
+      "text": "Abena est le président du club.",
+      "truth": "true"
+     },
+     {
+      "text": "Les élèves ont planté des manguiers.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Les élèves sont payés pour leur travail.",
+      "truth": "false",
+      "explain": "L’investissement humain est sans salaire."
+     },
+     {
+      "text": "Le club se réunit chaque dimanche.",
+      "truth": "false",
+      "explain": "C’est le premier samedi du mois."
+     },
+     {
+      "text": "Les manguiers sont plantés près de la cuisine.",
+      "truth": "false",
+      "explain": "Ils sont plantés près du terrain de sport."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

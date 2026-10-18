@@ -293,3 +293,14 @@ Built on the `form-2` branch only, so the live app (from `main`) is unchanged un
 - The Form Two shareable file is about 1.34 MB (limit 1.5 MB). French and Français intensif will not fit: before they
   are added, the Form Two file must be split (for example sciences and languages) or the limit raised within the 2 MB budget.
 
+## 22. Form 2, Term 1: French (2026-10-18, form-2 branch)
+
+- 30 lessons in `content/form-2/french/` (rows 1–15 and 18–32; integration rows are not lessons), in French, every
+  template marked `lang: "fr"`. Listening and speaking rows are taught as reading and preparation (TR-Z05).
+- New library `src/engine/lib/french2.js` (names start with `fr2`): présent with the spelling changes, passé composé,
+  imparfait, passé simple, participe présent and gérondif from one authored verb table; adjective agreement (‑al,
+  colours) and plurals in ‑al / ‑ail; “wrong on purpose” forms for feedback only.
+- The app uses its French labels and `lang="fr"` for `french`, `f2-french` and `f2-francais-intensif` (`inFrench()`).
+- The shareable single file limit is now 2 MB (the Bluetooth budget): Form Two is about 1.57 MB with French; the Form One
+  file stays under 1.5 MB (tested).
+
