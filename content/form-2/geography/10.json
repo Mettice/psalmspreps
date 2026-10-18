@@ -1,0 +1,414 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  8,
+  9
+ ],
+ "skills": [
+  {
+   "id": "g2-10",
+   "name": "Further study 1: deforestation in Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Deforestation is the clearing of forest without replacing it. Cameroon's southern forests, part of the Congo basin, are losing trees.\nCauses: logging for timber exports; clearing for farms (shifting cultivation) and plantations (oil palm, rubber, cocoa); cutting firewood and making charcoal; growth of towns and roads; mining; bush fires.\nManifestations (how we see it): shrinking forest areas, fewer large trees, logging roads and timber lorries, bare or eroded land, loss of wildlife (gorillas, elephants), rivers silting up.\nConsequences: soil erosion, loss of biodiversity and medicinal plants, less rain locally, climate change (trees store carbon), loss of livelihoods for forest peoples.\nSolutions: reforestation, controlled and selective logging, national parks (Dja, Lobéké, Korup), improved stoves, agroforestry, education.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "the forest near a village"
+  },
+  "problem": "Give two causes of deforestation of {f} and one solution.",
+  "steps": [
+   "Causes: clearing land for farms, and cutting firewood and making charcoal.",
+   "Solution: plant new trees and use improved stoves that need less wood."
+  ],
+  "answer": "Farming and firewood; solution: reforestation and improved stoves.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "Deforestation is clearing forest without replacing it.",
+    "vars": {},
+    "example": [
+     "Causes: logging, farming, firewood, towns, mining."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-10-cause"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "We see deforestation in shrinking forests, logging lorries, bare land and lost wildlife.",
+    "vars": {},
+    "example": [
+     "Gorillas and elephants lose their homes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-10-see"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "Solutions: replanting, controlled logging, national parks, improved stoves.",
+    "vars": {},
+    "example": [
+     "Dja, Lobéké and Korup are protected areas."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-10-solve-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cameroon-regions"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a protected area in Cameroon?",
+         "r": "the Dja reserve",
+         "w": [
+          "Douala port",
+          "the Sahara",
+          "Lake Chad's dry bed"
+         ],
+         "e": [
+          "That is a port.",
+          "That is not in Cameroon.",
+          "That is not a forest reserve."
+         ],
+         "y": "Dja, Lobéké and Korup protect forests."
+        },
+        {
+         "q": "How do improved stoves help the forest?",
+         "r": "They use less firewood.",
+         "w": [
+          "They burn more wood.",
+          "They plant trees.",
+          "They stop logging companies."
+         ],
+         "e": [
+          "They use less.",
+          "Stoves do not plant trees.",
+          "They do not affect logging."
+         ],
+         "y": "Less fuelwood means fewer trees cut."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-10-cause",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cameroon-regions"
+   ],
+   "prompt": "Sort: cause or consequence of deforestation?",
+   "pool": [
+    {
+     "left": "logging for timber",
+     "right": "cause"
+    },
+    {
+     "left": "clearing land for farms",
+     "right": "cause"
+    },
+    {
+     "left": "cutting firewood",
+     "right": "cause"
+    },
+    {
+     "left": "mining",
+     "right": "cause"
+    },
+    {
+     "left": "soil erosion",
+     "right": "consequence"
+    },
+    {
+     "left": "loss of wildlife",
+     "right": "consequence"
+    },
+    {
+     "left": "rivers silting up",
+     "right": "consequence"
+    },
+    {
+     "left": "climate change",
+     "right": "consequence"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "cause",
+    "consequence"
+   ]
+  },
+  {
+   "id": "g2-10-see",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cameroon-regions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a sign (manifestation) of deforestation?",
+       "r": "timber lorries and shrinking forest",
+       "w": [
+        "more large trees",
+        "more gorillas",
+        "clearer rivers"
+       ],
+       "e": [
+        "There are fewer.",
+        "Wildlife declines.",
+        "Rivers silt up."
+       ],
+       "y": "These show forest being removed."
+      },
+      {
+       "q": "Why does deforestation contribute to climate change?",
+       "r": "Trees store carbon; when they are cut and burned, carbon dioxide is released.",
+       "w": [
+        "Trees make the Earth colder at night only.",
+        "Cutting trees makes rain heavier everywhere.",
+        "Forests have nothing to do with climate."
+       ],
+       "e": [
+        "That is not the reason.",
+        "It often reduces rain locally.",
+        "Forests strongly affect climate."
+       ],
+       "y": "Lost forests release carbon dioxide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-10-solve",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "cameroon-regions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a protected area in Cameroon?",
+       "r": "the Dja reserve",
+       "w": [
+        "Douala port",
+        "the Sahara",
+        "Lake Chad's dry bed"
+       ],
+       "e": [
+        "That is a port.",
+        "That is not in Cameroon.",
+        "That is not a forest reserve."
+       ],
+       "y": "Dja, Lobéké and Korup protect forests."
+      },
+      {
+       "q": "How do improved stoves help the forest?",
+       "r": "They use less firewood.",
+       "w": [
+        "They burn more wood.",
+        "They plant trees.",
+        "They stop logging companies."
+       ],
+       "e": [
+        "They use less.",
+        "Stoves do not plant trees.",
+        "They do not affect logging."
+       ],
+       "y": "Less fuelwood means fewer trees cut."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "cameroon-regions"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Logging causes deforestation.",
+      "truth": "true"
+     },
+     {
+      "text": "Reforestation helps the forest recover.",
+      "truth": "true"
+     },
+     {
+      "text": "Deforestation threatens gorillas.",
+      "truth": "true"
+     },
+     {
+      "text": "Bush fires destroy forest.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Deforestation reduces soil erosion.",
+      "truth": "false",
+      "explain": "Deforestation increases soil erosion."
+     },
+     {
+      "text": "National parks speed up deforestation.",
+      "truth": "false",
+      "explain": "Parks protect the forest."
+     },
+     {
+      "text": "Cutting trees increases biodiversity.",
+      "truth": "false",
+      "explain": "It reduces biodiversity."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

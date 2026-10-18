@@ -1,0 +1,384 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "h2-8",
+   "name": "Minerals: types, sources and functions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Minerals are elements the body needs in small amounts. Some are needed in larger amounts (calcium, phosphorus, sodium, potassium), others in tiny traces (iron, iodine, fluoride, zinc).\n• Iron: liver, red meat, fish, beans, green leaves; forms the haemoglobin of red blood cells, which carries oxygen. Lack: anaemia. Vitamin C helps the body absorb iron.\n• Calcium: milk, small fish eaten with their bones, green leaves; strong bones and teeth, blood clotting, muscles. Lack: rickets, weak bones.\n• Iodine: iodised salt, sea fish, crayfish; thyroid hormones. Lack: goitre.\n• Sodium (in salt): water balance and nerves. Too much salt raises blood pressure.\n• Fluoride: hard tooth enamel, less tooth decay.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "a pregnant woman"
+  },
+  "problem": "Why does {n} need extra iron and calcium?",
+  "steps": [
+   "Iron: her blood volume increases and the baby needs blood, so she needs more iron to avoid anaemia.",
+   "Calcium: the baby's bones and teeth are forming."
+  ],
+  "answer": "Iron for her blood and the baby's; calcium for the baby's bones and teeth.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "Iron forms red blood cells. Lack of iron causes anaemia.",
+    "vars": {},
+    "example": [
+     "Sources: liver, red meat, beans, green leaves."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-8-job"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "Calcium builds strong bones and teeth.",
+    "vars": {},
+    "example": [
+     "Sources: milk, small fish eaten with their bones."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-8-source"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Iodine is needed for the thyroid; too much sodium raises blood pressure.",
+    "vars": {},
+    "example": [
+     "Use iodised salt, but not too much."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-8-salt-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which vitamin helps the body absorb iron?",
+         "r": "vitamin C",
+         "w": [
+          "vitamin D",
+          "vitamin K",
+          "vitamin A"
+         ],
+         "e": [
+          "Vitamin D helps with calcium.",
+          "Vitamin K helps clotting.",
+          "Vitamin A is for eyesight."
+         ],
+         "y": "Eat oranges or green leaves with iron-rich food."
+        },
+        {
+         "q": "What does too much salt in the diet cause?",
+         "r": "high blood pressure",
+         "w": [
+          "goitre",
+          "night blindness",
+          "scurvy"
+         ],
+         "e": [
+          "Goitre is lack of iodine.",
+          "That is lack of vitamin A.",
+          "That is lack of vitamin C."
+         ],
+         "y": "Excess sodium raises blood pressure."
+        },
+        {
+         "q": "Why is it good to eat small fish whole, with their bones?",
+         "r": "The bones give calcium.",
+         "w": [
+          "The bones give vitamin C.",
+          "The bones give sugar.",
+          "The bones give fibre."
+         ],
+         "e": [
+          "Bones have no vitamin C.",
+          "Bones have no sugar.",
+          "Bones are not fibre."
+         ],
+         "y": "Fish bones are rich in calcium."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-8-job",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Match each mineral to its function.",
+   "pool": [
+    {
+     "left": "iron",
+     "right": "forming red blood cells"
+    },
+    {
+     "left": "calcium",
+     "right": "strong bones and teeth"
+    },
+    {
+     "left": "iodine",
+     "right": "making thyroid hormones"
+    },
+    {
+     "left": "sodium",
+     "right": "balance of water in the body"
+    },
+    {
+     "left": "fluoride",
+     "right": "hard tooth enamel"
+    },
+    {
+     "left": "phosphorus",
+     "right": "bones, teeth and energy release"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-8-source",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Match each mineral to good sources.",
+   "pool": [
+    {
+     "left": "iron",
+     "right": "liver, red meat, green leaves, beans"
+    },
+    {
+     "left": "calcium",
+     "right": "milk, small fish eaten with bones, green leaves"
+    },
+    {
+     "left": "iodine",
+     "right": "iodised salt, sea fish, crayfish"
+    },
+    {
+     "left": "sodium",
+     "right": "table salt"
+    },
+    {
+     "left": "fluoride",
+     "right": "fluoride toothpaste, some drinking water"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-8-salt",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which vitamin helps the body absorb iron?",
+       "r": "vitamin C",
+       "w": [
+        "vitamin D",
+        "vitamin K",
+        "vitamin A"
+       ],
+       "e": [
+        "Vitamin D helps with calcium.",
+        "Vitamin K helps clotting.",
+        "Vitamin A is for eyesight."
+       ],
+       "y": "Eat oranges or green leaves with iron-rich food."
+      },
+      {
+       "q": "What does too much salt in the diet cause?",
+       "r": "high blood pressure",
+       "w": [
+        "goitre",
+        "night blindness",
+        "scurvy"
+       ],
+       "e": [
+        "Goitre is lack of iodine.",
+        "That is lack of vitamin A.",
+        "That is lack of vitamin C."
+       ],
+       "y": "Excess sodium raises blood pressure."
+      },
+      {
+       "q": "Why is it good to eat small fish whole, with their bones?",
+       "r": "The bones give calcium.",
+       "w": [
+        "The bones give vitamin C.",
+        "The bones give sugar.",
+        "The bones give fibre."
+       ],
+       "e": [
+        "Bones have no vitamin C.",
+        "Bones have no sugar.",
+        "Bones are not fibre."
+       ],
+       "y": "Fish bones are rich in calcium."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Iron is needed for red blood cells.",
+      "truth": "true"
+     },
+     {
+      "text": "Calcium builds bones.",
+      "truth": "true"
+     },
+     {
+      "text": "Iodine prevents goitre.",
+      "truth": "true"
+     },
+     {
+      "text": "Fluoride hardens tooth enamel.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Calcium is needed to prevent goitre.",
+      "truth": "false",
+      "explain": "Iodine prevents goitre; calcium builds bones."
+     },
+     {
+      "text": "Too much salt lowers blood pressure.",
+      "truth": "false",
+      "explain": "Too much salt raises blood pressure."
+     },
+     {
+      "text": "Iron is found mainly in sugar.",
+      "truth": "false",
+      "explain": "Iron is in liver, meat, beans and green leaves."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

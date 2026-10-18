@@ -1,0 +1,455 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "y2-1",
+   "name": "The Sao and the Pygmies"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Pygmies (the Baka, the Bagyeli or Bakola and the Bedzan) are thought to be among the earliest inhabitants of Cameroon. They live in the forests of the South, East and Centre. Traditionally they are hunters and gatherers who move through the forest, living in small groups in huts made of branches and leaves, and they know the forest's plants, animals and medicines very well.\nThe Sao lived south of Lake Chad (in today's Far North Region, and in Chad and Nigeria). Their civilisation flourished for many centuries, from about the 5th or 6th century AD to about the 16th century. They built walled towns, farmed and fished, and were skilled potters and metal workers (bronze and copper): archaeologists have found their clay statues, pots, jewellery and large burial jars.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "the Sao"
+  },
+  "problem": "How do historians know about {p}, who left no written records?",
+  "steps": [
+   "Archaeology: excavations near Lake Chad found pots, clay statues, bronze objects and burial jars.",
+   "Oral traditions: legends of the peoples of the area, such as the Kotoko, tell of the Sao."
+  ],
+  "answer": "From archaeology (objects dug up) and oral traditions.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "The Pygmies (Baka, Bagyeli, Bedzan) are among Cameroon's earliest inhabitants. They live in the southern and eastern forests.",
+    "vars": {},
+    "example": [
+     "Traditionally they hunt and gather in the forest."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-1-pygmy"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "The Sao lived south of Lake Chad and built walled towns.",
+    "vars": {},
+    "example": [
+     "They were skilled potters and bronze workers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-1-sao"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "We know about the Sao from archaeology and oral traditions.",
+    "vars": {},
+    "example": [
+     "Clay statues and burial jars have been dug up."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-1-source-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "historical-enquiry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How do historians know about the Sao?",
+         "r": "from archaeology and oral traditions",
+         "w": [
+          "from their own written books",
+          "from photographs",
+          "from radio broadcasts"
+         ],
+         "e": [
+          "They left no writing.",
+          "They lived long before cameras.",
+          "They lived long before radio."
+         ],
+         "y": "Objects dug up and legends tell their story."
+        },
+        {
+         "q": "What is archaeology?",
+         "r": "the study of the past from objects people left behind",
+         "w": [
+          "the study of the stars",
+          "the study of rocks only",
+          "the study of plants"
+         ],
+         "e": [
+          "That is astronomy.",
+          "That is geology.",
+          "That is botany."
+         ],
+         "y": "Archaeologists dig up and study old objects."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-1-pygmy",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-peoples"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where do the Pygmies of Cameroon mainly live?",
+       "r": "in the forests of the South, East and Centre",
+       "w": [
+        "around Lake Chad",
+        "in the Sahara",
+        "on Mount Cameroon's summit"
+       ],
+       "e": [
+        "That is where the Sao lived.",
+        "That is not in Cameroon.",
+        "They live in the forest."
+       ],
+       "y": "The Pygmies are forest peoples."
+      },
+      {
+       "q": "What was the traditional way of life of the Pygmies?",
+       "r": "hunting and gathering in the forest",
+       "w": [
+        "building walled towns",
+        "herding cattle in the savanna",
+        "trading across the Sahara"
+       ],
+       "e": [
+        "That was the Sao.",
+        "That describes the Fulani.",
+        "That was in West Africa."
+       ],
+       "y": "They hunt and gather in the forest."
+      },
+      {
+       "q": "Which of these is a Pygmy group of Cameroon?",
+       "r": "the Baka",
+       "w": [
+        "the Kotoko",
+        "the Fulani",
+        "the Duala"
+       ],
+       "e": [
+        "The Kotoko live near Lake Chad.",
+        "The Fulani are herders from the north.",
+        "The Duala are a Bantu people of the coast."
+       ],
+       "y": "The Baka live in the eastern forests."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-1-sao",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-peoples"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where did the Sao live?",
+       "r": "south of Lake Chad",
+       "w": [
+        "in the coastal forests",
+        "in the Bamenda Grassfields",
+        "on the island of Bioko"
+       ],
+       "e": [
+        "That is far from their home.",
+        "That is in the west.",
+        "That is in the sea."
+       ],
+       "y": "Their home was south of Lake Chad."
+      },
+      {
+       "q": "What were the Sao known for?",
+       "r": "walled towns, pottery and bronze work",
+       "w": [
+        "building pyramids",
+        "large sailing ships",
+        "writing books"
+       ],
+       "e": [
+        "That was Egypt.",
+        "They lived inland.",
+        "They left no writing."
+       ],
+       "y": "Archaeology shows their towns, pots and bronze."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-1-source",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How do historians know about the Sao?",
+       "r": "from archaeology and oral traditions",
+       "w": [
+        "from their own written books",
+        "from photographs",
+        "from radio broadcasts"
+       ],
+       "e": [
+        "They left no writing.",
+        "They lived long before cameras.",
+        "They lived long before radio."
+       ],
+       "y": "Objects dug up and legends tell their story."
+      },
+      {
+       "q": "What is archaeology?",
+       "r": "the study of the past from objects people left behind",
+       "w": [
+        "the study of the stars",
+        "the study of rocks only",
+        "the study of plants"
+       ],
+       "e": [
+        "That is astronomy.",
+        "That is geology.",
+        "That is botany."
+       ],
+       "y": "Archaeologists dig up and study old objects."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "early-peoples"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Baka are a Pygmy people.",
+      "truth": "true"
+     },
+     {
+      "text": "The Sao lived near Lake Chad.",
+      "truth": "true"
+     },
+     {
+      "text": "The Sao made clay statues.",
+      "truth": "true"
+     },
+     {
+      "text": "Pygmies traditionally hunt and gather.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Sao lived in the coastal forests of the South.",
+      "truth": "false",
+      "explain": "They lived south of Lake Chad, in the north."
+     },
+     {
+      "text": "The Sao left many written books.",
+      "truth": "false",
+      "explain": "They left no writing; we know them from archaeology and oral traditions."
+     },
+     {
+      "text": "The Pygmies came to Cameroon in the 20th century.",
+      "truth": "false",
+      "explain": "They are thought to be among the earliest inhabitants."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "y2-7",
+   "name": "Egalitarian (stateless) societies of pre-colonial Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Egalitarian (segmentary or stateless) societies had no single ruler over everyone. Authority was shared:\n• each family or clan was led by its head (often the eldest man);\n• councils of elders settled disputes and decided important matters;\n• age groups, secret societies and diviners also had roles;\n• villages were independent but linked by family ties and marriage.\nExamples: the Beti (Ewondo, Bulu, Eton), the Bassa, the Bakweri and many coastal and forest peoples; the Mafa and other peoples of the northern mountains.\nComparison: centralised societies have one strong ruler, taxes and an army; egalitarian societies share power among family heads and elders, with no taxes or standing army.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "a Beti village"
+  },
+  "problem": "How was a dispute settled in {s} without a king?",
+  "steps": [
+   "The heads of the families involved met in a council of elders.",
+   "The elders listened to both sides and decided, using custom; the decision was respected because of the elders' authority."
+  ],
+  "answer": "By the council of elders, following custom.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "Egalitarian societies had no single ruler; family heads and elders shared authority.",
+    "vars": {},
+    "example": [
+     "Councils of elders settled disputes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-7-what"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "Examples: the Beti, the Bassa, the Bakweri, the Mafa.",
+    "vars": {},
+    "example": [
+     "Many forest and coastal peoples were egalitarian."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-7-example"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Centralised societies had a strong ruler, taxes and an army; egalitarian ones did not.",
+    "vars": {},
+    "example": [
+     "Bamum: centralised. Beti: egalitarian."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-7-compare-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "precolonial-societies"
+     ],
+     "prompt": "Match each feature to the kind of society.",
+     "pool": [
+      {
+       "left": "one powerful ruler",
+       "right": "centralised"
+      },
+      {
+       "left": "tribute and taxes",
+       "right": "centralised"
+      },
+      {
+       "left": "a standing army",
+       "right": "centralised"
+      },
+      {
+       "left": "councils of elders decide",
+       "right": "egalitarian"
+      },
+      {
+       "left": "family heads lead",
+       "right": "egalitarian"
+      },
+      {
+       "left": "independent villages linked by kinship",
+       "right": "egalitarian"
+      }
+     ],
+     "pick": 4,
+     "groups": true,
+     "group_order": [
+      "centralised",
+      "egalitarian"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-7-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Who settled disputes in an egalitarian society?",
+       "r": "a council of elders",
+       "w": [
+        "a powerful king",
+        "a colonial governor",
+        "the army"
+       ],
+       "e": [
+        "There was no king.",
+        "That came later.",
+        "There was no standing army."
+       ],
+       "y": "Elders decided according to custom."
+      },
+      {
+       "q": "What is an egalitarian (stateless) society?",
+       "r": "a society without a single central ruler",
+       "w": [
+        "a society ruled by a sultan",
+        "a kingdom with an army",
+        "a colony"
+       ],
+       "e": [
+        "That is centralised.",
+        "That is centralised.",
+        "That is colonial rule."
+       ],
+       "y": "Authority was shared among family heads and elders."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-7-example",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "prompt": "Sort the societies: centralised or egalitarian?",
+   "pool": [
+    {
+     "left": "Bamum",
+     "right": "centralised"
+    },
+    {
+     "left": "Nso",
+     "right": "centralised"
+    },
+    {
+     "left": "Ngaoundéré lamidate",
+     "right": "centralised"
+    },
+    {
+     "left": "Mandara",
+     "right": "centralised"
+    },
+    {
+     "left": "Beti",
+     "right": "egalitarian"
+    },
+    {
+     "left": "Bassa",
+     "right": "egalitarian"
+    },
+    {
+     "left": "Bakweri",
+     "right": "egalitarian"
+    },
+    {
+     "left": "Mafa",
+     "right": "egalitarian"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "centralised",
+    "egalitarian"
+   ]
+  },
+  {
+   "id": "y2-7-compare",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "prompt": "Match each feature to the kind of society.",
+   "pool": [
+    {
+     "left": "one powerful ruler",
+     "right": "centralised"
+    },
+    {
+     "left": "tribute and taxes",
+     "right": "centralised"
+    },
+    {
+     "left": "a standing army",
+     "right": "centralised"
+    },
+    {
+     "left": "councils of elders decide",
+     "right": "egalitarian"
+    },
+    {
+     "left": "family heads lead",
+     "right": "egalitarian"
+    },
+    {
+     "left": "independent villages linked by kinship",
+     "right": "egalitarian"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "centralised",
+    "egalitarian"
+   ]
+  },
+  {
+   "id": "y2-7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Beti were an egalitarian society.",
+      "truth": "true"
+     },
+     {
+      "text": "Elders settled disputes in egalitarian societies.",
+      "truth": "true"
+     },
+     {
+      "text": "Bamum was a centralised kingdom.",
+      "truth": "true"
+     },
+     {
+      "text": "Egalitarian villages were linked by kinship.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Egalitarian societies had a sultan and a large army.",
+      "truth": "false",
+      "explain": "They had no single ruler or standing army."
+     },
+     {
+      "text": "The Beti were ruled by a lamido.",
+      "truth": "false",
+      "explain": "The Beti had no central ruler."
+     },
+     {
+      "text": "Centralised societies had no taxes.",
+      "truth": "false",
+      "explain": "They collected tribute and taxes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

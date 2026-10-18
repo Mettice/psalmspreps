@@ -1,0 +1,335 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "h2-21",
+   "name": "Time management and care of a modern kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Time management in the kitchen means planning so that a meal is ready on time, with less stress and less wasted fuel.\nAdvantages: meals are ready on time; less fuel and energy wasted; less tiredness; food is served hot and fresh; time is left for other work.\nSteps in timing a meal:\n1. Plan the menu and list what is needed.\n2. Find out how long each dish takes.\n3. Start with the dish that takes longest (beans or meat), then the others.\n4. Do the preparation (washing, cutting) while something is cooking.\n5. Finish all dishes together and serve.\nCare of a modern kitchen: wipe spills at once; wash up after each meal; clean the cooker, sink and worktop daily; defrost and clean the fridge regularly; empty the bin daily; keep the floor dry; check gas and electrical appliances for safety.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 90,
+   "r": 20,
+   "s": 30,
+   "t": 12,
+   "one": 1,
+   "two": 2
+  },
+  "problem": "Beans take {b} minutes, rice {r} minutes and the stew {s} minutes. Lunch is at {t} o'clock. When should each be started?",
+  "steps": [
+   "Start the longest first: beans {b} minutes before {t}:{'00'}, at {t - two}:{2 * 60 - b}.",
+   "The stew {s} minutes before: at {t - one}:{60 - s}.",
+   "The rice {r} minutes before: at {t - one}:{60 - r}."
+  ],
+  "answer": "Beans at {t - two}:{2 * 60 - b}, stew at {t - one}:{60 - s}, rice at {t - one}:{60 - r}.",
+  "checks": [
+   "b - 60 == 30"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "Time management saves fuel and stress, and gets meals ready on time.",
+    "vars": {},
+    "example": [
+     "Food is served hot and fresh."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-21-why"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Start the dish that takes longest first, and prepare other things while it cooks.",
+    "vars": {},
+    "example": [
+     "Beans first, then stew, then rice."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-21-steps"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Care: wipe spills at once, wash up after meals, clean the fridge and empty the bin.",
+    "vars": {},
+    "example": [
+     "Keep the floor dry to prevent falls."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-21-care-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchens"
+     ],
+     "prompt": "Which care habit is wrong?",
+     "pool": {
+      "right": [
+       {
+        "text": "Wipe spills at once.",
+        "truth": "true"
+       },
+       {
+        "text": "Empty the bin daily.",
+        "truth": "true"
+       },
+       {
+        "text": "Clean the sink and worktop daily.",
+        "truth": "true"
+       },
+       {
+        "text": "Defrost the fridge regularly.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Leave greasy pots until the end of the week.",
+        "truth": "false",
+        "explain": "Wash up after each meal."
+       },
+       {
+        "text": "Leave water on the floor to dry by itself.",
+        "truth": "false",
+        "explain": "Wipe it at once to prevent falls."
+       },
+       {
+        "text": "Never check the gas pipes.",
+        "truth": "false",
+        "explain": "Check gas appliances regularly for safety."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-21-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an advantage of time management in the kitchen?",
+       "r": "Meals are ready on time with less fuel wasted.",
+       "w": [
+        "It makes food colder.",
+        "It uses more fuel.",
+        "It makes cooking slower."
+       ],
+       "e": [
+        "Food is served hot.",
+        "It saves fuel.",
+        "It saves time."
+       ],
+       "y": "Planning saves time, fuel and stress."
+      },
+      {
+       "q": "Which dish should you start first?",
+       "r": "the one that takes the longest to cook",
+       "w": [
+        "the quickest one",
+        "the coldest one",
+        "any one, it does not matter"
+       ],
+       "e": [
+        "It would get cold waiting.",
+        "That is not the rule.",
+        "It matters for timing."
+       ],
+       "y": "Start the longest so everything finishes together."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-21-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Put the steps of timing a meal in order.",
+   "items": [
+    {
+     "text": "Plan the menu and list what is needed"
+    },
+    {
+     "text": "Find out how long each dish takes"
+    },
+    {
+     "text": "Start the dish that takes longest"
+    },
+    {
+     "text": "Prepare other dishes while it cooks"
+    },
+    {
+     "text": "Finish together and serve"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "h2-21-start",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45
+     ]
+    },
+    "h": {
+     "int": [
+      11,
+      19
+     ]
+    }
+   },
+   "prompt": "A dish takes {m} minutes to cook and must be ready at {h}:{'00'}. At how many minutes past {h - 1} should it start?",
+   "answer": "60 - m",
+   "misconceptions": [
+    {
+     "id": "m",
+     "wrong": "m",
+     "explain": "That is the cooking time. Count back from {h}:{'00'}."
+    }
+   ],
+   "solution": [
+    "Count back {m} minutes from {h}:{'00'}.",
+    "{h}:{'00'} − {m} minutes = {h - 1}:{answer}."
+   ],
+   "unit": "minutes"
+  },
+  {
+   "id": "h2-21-care",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Which care habit is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wipe spills at once.",
+      "truth": "true"
+     },
+     {
+      "text": "Empty the bin daily.",
+      "truth": "true"
+     },
+     {
+      "text": "Clean the sink and worktop daily.",
+      "truth": "true"
+     },
+     {
+      "text": "Defrost the fridge regularly.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Leave greasy pots until the end of the week.",
+      "truth": "false",
+      "explain": "Wash up after each meal."
+     },
+     {
+      "text": "Leave water on the floor to dry by itself.",
+      "truth": "false",
+      "explain": "Wipe it at once to prevent falls."
+     },
+     {
+      "text": "Never check the gas pipes.",
+      "truth": "false",
+      "explain": "Check gas appliances regularly for safety."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

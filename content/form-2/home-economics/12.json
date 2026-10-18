@@ -1,0 +1,401 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "h2-12",
+   "name": "Water-borne diseases"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Water-borne diseases are caused by germs (bacteria, viruses, parasites) carried in dirty water, or in food washed or prepared with it.\nHow the water gets dirty: human and animal faeces near streams and wells, open defecation, dirty containers, floods.\nCommon water-borne diseases:\n• cholera: severe watery diarrhoea and vomiting;\n• typhoid fever: long high fever, headache, stomach pain;\n• dysentery: diarrhoea with blood;\n• diarrhoeal diseases in children, the main danger being loss of water;\n• hepatitis A: jaundice (yellow eyes and skin);\n• bilharzia: caught by bathing or wading in infected streams; blood in the urine.\nTreatment: see a health worker; for diarrhoea, give oral rehydration solution (ORS) to replace lost water and salts.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": "a stream near the village latrines"
+  },
+  "problem": "Families drink untreated water from {c}. Which diseases might they catch, and why?",
+  "steps": [
+   "Germs from faeces in the latrines can get into the stream.",
+   "Drinking the water can cause cholera, typhoid, dysentery or hepatitis A; bathing in it can spread bilharzia."
+  ],
+  "answer": "Cholera, typhoid, dysentery, hepatitis A (and bilharzia), from germs in faeces.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "Water-borne diseases come from germs in dirty water.",
+    "vars": {},
+    "example": [
+     "Faeces near water sources are the main cause."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-12-what"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "Each disease has its main signs.",
+    "vars": {},
+    "example": [
+     "Cholera: watery diarrhoea and vomiting.",
+     "Dysentery: diarrhoea with blood."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-12-sign"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "For diarrhoea, give ORS to replace lost water and salts, and see a health worker.",
+    "vars": {},
+    "example": [
+     "ORS: oral rehydration solution."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-12-ors-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "water-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is ORS given for diarrhoea?",
+         "r": "to replace the water and salts the body has lost",
+         "w": [
+          "to kill all germs at once",
+          "to stop the person eating",
+          "to cause vomiting"
+         ],
+         "e": [
+          "ORS does not kill germs.",
+          "The person should keep eating.",
+          "It does the opposite."
+         ],
+         "y": "Losing water is the main danger in diarrhoea."
+        },
+        {
+         "q": "How is bilharzia caught?",
+         "r": "by bathing or wading in infected fresh water",
+         "w": [
+          "by mosquito bites",
+          "by shaking hands",
+          "by eating rice"
+         ],
+         "e": [
+          "That is malaria.",
+          "Bilharzia is not spread that way.",
+          "Rice does not carry it."
+         ],
+         "y": "The parasite enters through the skin in infected water."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-12-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What causes water-borne diseases?",
+       "r": "germs carried in dirty water",
+       "w": [
+        "drinking too much clean water",
+        "eating fruit",
+        "cold weather"
+       ],
+       "e": [
+        "Clean water is safe.",
+        "Washed fruit is safe.",
+        "Weather does not cause them."
+       ],
+       "y": "Germs from faeces get into the water."
+      },
+      {
+       "q": "What is the main way water sources become contaminated?",
+       "r": "faeces near streams and wells",
+       "w": [
+        "sunlight",
+        "leaves falling",
+        "fish living in the water"
+       ],
+       "e": [
+        "Sunlight helps kill germs.",
+        "Leaves are not the main cause.",
+        "Fish are not the main cause."
+       ],
+       "y": "Human and animal faeces carry the germs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-12-sign",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "prompt": "Match each water-borne disease to its main sign.",
+   "pool": [
+    {
+     "left": "cholera",
+     "right": "severe watery diarrhoea and vomiting"
+    },
+    {
+     "left": "typhoid fever",
+     "right": "long high fever, headache, stomach pain"
+    },
+    {
+     "left": "dysentery",
+     "right": "diarrhoea with blood"
+    },
+    {
+     "left": "bilharzia (schistosomiasis)",
+     "right": "blood in urine; caught by contact with infected fresh water"
+    },
+    {
+     "left": "hepatitis A",
+     "right": "yellow eyes and skin (jaundice)"
+    },
+    {
+     "left": "guinea worm",
+     "right": "a long worm coming out of a painful blister"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-12-ors",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is ORS given for diarrhoea?",
+       "r": "to replace the water and salts the body has lost",
+       "w": [
+        "to kill all germs at once",
+        "to stop the person eating",
+        "to cause vomiting"
+       ],
+       "e": [
+        "ORS does not kill germs.",
+        "The person should keep eating.",
+        "It does the opposite."
+       ],
+       "y": "Losing water is the main danger in diarrhoea."
+      },
+      {
+       "q": "How is bilharzia caught?",
+       "r": "by bathing or wading in infected fresh water",
+       "w": [
+        "by mosquito bites",
+        "by shaking hands",
+        "by eating rice"
+       ],
+       "e": [
+        "That is malaria.",
+        "Bilharzia is not spread that way.",
+        "Rice does not carry it."
+       ],
+       "y": "The parasite enters through the skin in infected water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cholera causes watery diarrhoea.",
+      "truth": "true"
+     },
+     {
+      "text": "Dysentery causes diarrhoea with blood.",
+      "truth": "true"
+     },
+     {
+      "text": "ORS replaces lost water and salts.",
+      "truth": "true"
+     },
+     {
+      "text": "Faeces can contaminate streams.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bilharzia is spread by mosquitoes.",
+      "truth": "false",
+      "explain": "It is caught in infected fresh water."
+     },
+     {
+      "text": "Typhoid is caused by eating fruit.",
+      "truth": "false",
+      "explain": "Typhoid comes from germs in dirty water or food."
+     },
+     {
+      "text": "Clean boiled water spreads cholera.",
+      "truth": "false",
+      "explain": "Boiling kills the germs."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

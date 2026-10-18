@@ -1,0 +1,414 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "h2-13",
+   "name": "Fibre (non-starch polysaccharides): notion and sources"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dietary fibre, also called non-starch polysaccharides (NSP), is the part of plant food that the body cannot digest. It is mainly the walls of plant cells (cellulose).\nIt is found only in plant foods; animal foods (meat, fish, eggs, milk) contain none.\nGood sources: whole grains (maize, millet, brown rice, whole-wheat bread), beans and other legumes, vegetables (green leaves, okra, carrots), fruits with their skins (guava, mango, oranges with the pith), roots (cassava, cocoyam) and nuts.\nRefining removes fibre: white rice and white flour have much less than brown rice and whole flour; peeling fruit removes some.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "white rice and stew"
+  },
+  "problem": "How can a meal of {m} be given more fibre?",
+  "steps": [
+   "Choose brown rice instead of white rice (refining removes fibre).",
+   "Add vegetables or beans to the stew, and eat fruit for dessert."
+  ],
+  "answer": "Brown rice, vegetables or beans in the stew, and fruit.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "Fibre is the part of plant food the body cannot digest.",
+    "vars": {},
+    "example": [
+     "It comes from plant cell walls (cellulose)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-13-what"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Fibre is found only in plant foods.",
+    "vars": {},
+    "example": [
+     "Beans, vegetables, fruits, whole grains.",
+     "Meat, fish and eggs have none."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-13-source"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "Refining removes fibre: brown rice has more than white rice.",
+    "vars": {},
+    "example": [
+     "Whole-wheat bread has more than white bread."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-13-refine-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which contains more fibre?",
+         "r": "brown rice",
+         "w": [
+          "white rice",
+          "sugar",
+          "palm oil"
+         ],
+         "e": [
+          "Refining removed its fibre.",
+          "Sugar has none.",
+          "Oil has none."
+         ],
+         "y": "Brown rice keeps its outer layers."
+        },
+        {
+         "q": "Why does white flour have less fibre than whole-wheat flour?",
+         "r": "The outer layers of the grain are removed when it is refined.",
+         "w": [
+          "It has more water.",
+          "It is cooked longer.",
+          "It contains meat."
+         ],
+         "e": [
+          "Water is not the reason.",
+          "Cooking is not the reason.",
+          "Flour has no meat."
+         ],
+         "y": "Refining removes the bran, where the fibre is."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-13-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is dietary fibre?",
+       "r": "the part of plant food the body cannot digest",
+       "w": [
+        "the fat in meat",
+        "a kind of protein",
+        "a vitamin"
+       ],
+       "e": [
+        "Fibre is not fat.",
+        "Fibre is not protein.",
+        "Fibre is not a vitamin."
+       ],
+       "y": "Fibre is undigested plant material."
+      },
+      {
+       "q": "What is another name for dietary fibre?",
+       "r": "non-starch polysaccharides (NSP)",
+       "w": [
+        "amino acids",
+        "fatty acids",
+        "minerals"
+       ],
+       "e": [
+        "Those make proteins.",
+        "Those make fats.",
+        "Those are elements."
+       ],
+       "y": "Fibre is NSP."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-13-source",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Sort the foods: does it contain fibre?",
+   "pool": [
+    {
+     "left": "beans",
+     "right": "contains fibre"
+    },
+    {
+     "left": "okra",
+     "right": "contains fibre"
+    },
+    {
+     "left": "guava",
+     "right": "contains fibre"
+    },
+    {
+     "left": "maize",
+     "right": "contains fibre"
+    },
+    {
+     "left": "fish",
+     "right": "no fibre"
+    },
+    {
+     "left": "eggs",
+     "right": "no fibre"
+    },
+    {
+     "left": "milk",
+     "right": "no fibre"
+    },
+    {
+     "left": "meat",
+     "right": "no fibre"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "contains fibre",
+    "no fibre"
+   ]
+  },
+  {
+   "id": "h2-13-refine",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which contains more fibre?",
+       "r": "brown rice",
+       "w": [
+        "white rice",
+        "sugar",
+        "palm oil"
+       ],
+       "e": [
+        "Refining removed its fibre.",
+        "Sugar has none.",
+        "Oil has none."
+       ],
+       "y": "Brown rice keeps its outer layers."
+      },
+      {
+       "q": "Why does white flour have less fibre than whole-wheat flour?",
+       "r": "The outer layers of the grain are removed when it is refined.",
+       "w": [
+        "It has more water.",
+        "It is cooked longer.",
+        "It contains meat."
+       ],
+       "e": [
+        "Water is not the reason.",
+        "Cooking is not the reason.",
+        "Flour has no meat."
+       ],
+       "y": "Refining removes the bran, where the fibre is."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-13-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Beans contain fibre.",
+      "truth": "true"
+     },
+     {
+      "text": "Fibre comes from plant cell walls.",
+      "truth": "true"
+     },
+     {
+      "text": "Brown rice has more fibre than white rice.",
+      "truth": "true"
+     },
+     {
+      "text": "The body cannot digest fibre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Meat is a good source of fibre.",
+      "truth": "false",
+      "explain": "Animal foods contain no fibre."
+     },
+     {
+      "text": "Refining adds fibre to flour.",
+      "truth": "false",
+      "explain": "Refining removes fibre."
+     },
+     {
+      "text": "Fibre is digested into sugar.",
+      "truth": "false",
+      "explain": "Fibre is not digested."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

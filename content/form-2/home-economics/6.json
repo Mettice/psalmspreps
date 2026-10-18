@@ -1,0 +1,398 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "h2-6",
+   "name": "Micronutrients and their deficiencies"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Micronutrients are vitamins and minerals, needed in very small amounts but essential for health.\nHidden hunger is a lack of micronutrients: a person may eat enough food (and not feel hungry) but still lack vitamins and minerals. It is common where meals are mostly starchy staples (cassava, maize, rice) with few vegetables, fruits or animal foods.\nCommon deficiencies:\n• iron: anaemia (tiredness, pale eyelids and palms);\n• iodine: goitre (a swollen neck) and poor mental development;\n• vitamin A: night blindness, infections;\n• vitamin C: scurvy (bleeding gums);\n• vitamin D or calcium: rickets (soft, bent bones).\nPrevention: a varied diet with fruits, vegetables and animal foods; iodised salt; fortified foods.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Bih"
+  },
+  "problem": "{n} eats garri and fufu every day, rarely vegetables, fruit or meat. She feels tired and her eyelids are pale. What may be wrong, and what should she eat?",
+  "steps": [
+   "Her meals are mostly starch: she may have hidden hunger.",
+   "Tiredness and pale eyelids are signs of anaemia, a lack of iron.",
+   "She should add iron-rich foods: green leaves (huckleberry, njama njama), beans, liver, meat, fish."
+  ],
+  "answer": "Probably anaemia (lack of iron); eat green leaves, beans, liver, meat or fish.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Hidden hunger is a lack of vitamins and minerals, even when a person eats enough.",
+    "vars": {},
+    "example": [
+     "Meals of only cassava or maize can cause it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-6-hidden"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "Each micronutrient deficiency has its own disease.",
+    "vars": {},
+    "example": [
+     "Iron: anaemia. Iodine: goitre.",
+     "Vitamin A: night blindness. Vitamin C: scurvy."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-6-match"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Prevent deficiencies with a varied diet, iodised salt and fortified foods.",
+    "vars": {},
+    "example": [
+     "Add vegetables, fruit and animal foods to starchy meals."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-6-prevent-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How can goitre be prevented?",
+         "r": "by using iodised salt",
+         "w": [
+          "by eating more sugar",
+          "by drinking more water only",
+          "by eating less salt of all kinds"
+         ],
+         "e": [
+          "Sugar has no iodine.",
+          "Water alone has little iodine.",
+          "The salt should be iodised."
+         ],
+         "y": "Iodised salt supplies iodine."
+        },
+        {
+         "q": "What are the signs of anaemia?",
+         "r": "tiredness and pale eyelids and palms",
+         "w": [
+          "a swollen neck",
+          "bleeding gums",
+          "bent legs"
+         ],
+         "e": [
+          "That is goitre.",
+          "That is scurvy.",
+          "That is rickets."
+         ],
+         "y": "Lack of iron gives too little blood colour."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-6-hidden",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is hidden hunger?",
+       "r": "a lack of vitamins and minerals even when a person eats enough",
+       "w": [
+        "not eating for a day",
+        "eating too much sugar",
+        "a stomach ache"
+       ],
+       "e": [
+        "That is ordinary hunger.",
+        "That is excess sugar.",
+        "That is a pain."
+       ],
+       "y": "The body lacks micronutrients."
+      },
+      {
+       "q": "Which diet can cause hidden hunger?",
+       "r": "only cassava, fufu or garri every day",
+       "w": [
+        "rice, fish, vegetables and fruit",
+        "beans, maize and greens",
+        "a varied diet"
+       ],
+       "e": [
+        "That diet is varied.",
+        "That diet is varied.",
+        "A varied diet prevents it."
+       ],
+       "y": "Starchy staples alone lack many micronutrients."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-6-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Match each deficiency to its disease.",
+   "pool": [
+    {
+     "left": "iron",
+     "right": "anaemia"
+    },
+    {
+     "left": "iodine",
+     "right": "goitre"
+    },
+    {
+     "left": "vitamin A",
+     "right": "night blindness"
+    },
+    {
+     "left": "vitamin C",
+     "right": "scurvy"
+    },
+    {
+     "left": "vitamin D",
+     "right": "rickets"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-6-prevent",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How can goitre be prevented?",
+       "r": "by using iodised salt",
+       "w": [
+        "by eating more sugar",
+        "by drinking more water only",
+        "by eating less salt of all kinds"
+       ],
+       "e": [
+        "Sugar has no iodine.",
+        "Water alone has little iodine.",
+        "The salt should be iodised."
+       ],
+       "y": "Iodised salt supplies iodine."
+      },
+      {
+       "q": "What are the signs of anaemia?",
+       "r": "tiredness and pale eyelids and palms",
+       "w": [
+        "a swollen neck",
+        "bleeding gums",
+        "bent legs"
+       ],
+       "e": [
+        "That is goitre.",
+        "That is scurvy.",
+        "That is rickets."
+       ],
+       "y": "Lack of iron gives too little blood colour."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Lack of iron causes anaemia.",
+      "truth": "true"
+     },
+     {
+      "text": "Lack of iodine causes goitre.",
+      "truth": "true"
+     },
+     {
+      "text": "Iodised salt prevents goitre.",
+      "truth": "true"
+     },
+     {
+      "text": "A varied diet prevents hidden hunger.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Hidden hunger only happens when people eat nothing.",
+      "truth": "false",
+      "explain": "It happens even when people eat enough, if they lack micronutrients."
+     },
+     {
+      "text": "Lack of vitamin C causes goitre.",
+      "truth": "false",
+      "explain": "Lack of vitamin C causes scurvy."
+     },
+     {
+      "text": "Micronutrients are needed in large amounts.",
+      "truth": "false",
+      "explain": "They are needed in small amounts."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

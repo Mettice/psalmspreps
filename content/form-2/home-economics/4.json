@@ -1,0 +1,429 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "h2-4",
+   "name": "Fats and oils"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Composition: carbon, hydrogen and oxygen, with less oxygen than carbohydrates. Fats are made of fatty acids and glycerol.\nFats are solid at room temperature (butter, lard, shea butter); oils are liquid (palm oil, groundnut oil, cotton-seed oil).\nSources: animal (butter, lard, meat fat, egg yolk, fish oil) and plant (palm oil, groundnuts, avocado, coconut, egusi).\nFunctions: a concentrated source of energy (more than twice as much as carbohydrate, gram for gram); a store of energy; warmth (insulation under the skin); protection of organs; they carry the vitamins A, D, E and K.\nDeficiency: lack of energy and of the fat-soluble vitamins. Too much fat: obesity and heart disease.\nEffects of heat: solid fats melt; very hot oil smokes (smoke point) and can catch fire; reused oil turns dark and unhealthy.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "o": "palm oil"
+  },
+  "problem": "Why must a pan of {o} never be left on a high fire unattended?",
+  "steps": [
+   "Heated oil reaches its smoke point and gives off harmful smoke.",
+   "If heated further it can catch fire, and burning oil is dangerous: never pour water on it, cover the pan instead."
+  ],
+  "answer": "Very hot oil smokes and can catch fire.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "Fats are solid at room temperature; oils are liquid. Both are lipids.",
+    "vars": {},
+    "example": [
+     "Solid: butter, shea butter.",
+     "Liquid: palm oil, groundnut oil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-4-kind"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Fats give concentrated energy, keep the body warm and carry vitamins A, D, E and K.",
+    "vars": {},
+    "example": [
+     "Fat gives more than twice the energy of the same mass of starch."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-4-job"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "Very hot oil smokes and can catch fire. Cover a burning pan; never pour water on it.",
+    "vars": {},
+    "example": [
+     "Do not reuse dark, old oil."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-4-heat-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A pan of oil catches fire. What should you do?",
+         "r": "Cover the pan with a lid or a damp cloth and turn off the heat.",
+         "w": [
+          "Pour water on it.",
+          "Carry it outside quickly.",
+          "Blow on it."
+         ],
+         "e": [
+          "Water makes burning oil explode.",
+          "You may spill burning oil.",
+          "Blowing feeds the fire."
+         ],
+         "y": "Cutting off the air puts the fire out."
+        },
+        {
+         "q": "Why should old dark frying oil not be reused many times?",
+         "r": "It breaks down and becomes unhealthy.",
+         "w": [
+          "It becomes a protein.",
+          "It turns into water.",
+          "It gains vitamins."
+         ],
+         "e": [
+          "Oil does not become protein.",
+          "It does not turn into water.",
+          "It loses quality, not gains."
+         ],
+         "y": "Overheated oil breaks down into harmful substances."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-4-kind",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Sort: fat (solid) or oil (liquid) at room temperature?",
+   "pool": [
+    {
+     "left": "butter",
+     "right": "fat"
+    },
+    {
+     "left": "lard",
+     "right": "fat"
+    },
+    {
+     "left": "shea butter",
+     "right": "fat"
+    },
+    {
+     "left": "margarine",
+     "right": "fat"
+    },
+    {
+     "left": "palm oil",
+     "right": "oil"
+    },
+    {
+     "left": "groundnut oil",
+     "right": "oil"
+    },
+    {
+     "left": "cotton-seed oil",
+     "right": "oil"
+    },
+    {
+     "left": "olive oil",
+     "right": "oil"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "fat",
+    "oil"
+   ]
+  },
+  {
+   "id": "h2-4-job",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which vitamins are carried by fats?",
+       "r": "A, D, E and K",
+       "w": [
+        "B and C",
+        "C only",
+        "none"
+       ],
+       "e": [
+        "B and C dissolve in water.",
+        "Vitamin C dissolves in water.",
+        "Fats carry A, D, E and K."
+       ],
+       "y": "These are the fat-soluble vitamins."
+      },
+      {
+       "q": "Which gives the most energy, gram for gram?",
+       "r": "fat",
+       "w": [
+        "carbohydrate",
+        "protein",
+        "water"
+       ],
+       "e": [
+        "Fat gives more than twice as much.",
+        "Fat gives more than twice as much.",
+        "Water gives no energy."
+       ],
+       "y": "Fat is the most concentrated energy source."
+      },
+      {
+       "q": "What can too much fat in the diet cause?",
+       "r": "obesity and heart disease",
+       "w": [
+        "scurvy",
+        "goitre",
+        "night blindness"
+       ],
+       "e": [
+        "Scurvy: lack of vitamin C.",
+        "Goitre: lack of iodine.",
+        "Night blindness: lack of vitamin A."
+       ],
+       "y": "Excess fat leads to obesity and heart disease."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-4-heat",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A pan of oil catches fire. What should you do?",
+       "r": "Cover the pan with a lid or a damp cloth and turn off the heat.",
+       "w": [
+        "Pour water on it.",
+        "Carry it outside quickly.",
+        "Blow on it."
+       ],
+       "e": [
+        "Water makes burning oil explode.",
+        "You may spill burning oil.",
+        "Blowing feeds the fire."
+       ],
+       "y": "Cutting off the air puts the fire out."
+      },
+      {
+       "q": "Why should old dark frying oil not be reused many times?",
+       "r": "It breaks down and becomes unhealthy.",
+       "w": [
+        "It becomes a protein.",
+        "It turns into water.",
+        "It gains vitamins."
+       ],
+       "e": [
+        "Oil does not become protein.",
+        "It does not turn into water.",
+        "It loses quality, not gains."
+       ],
+       "y": "Overheated oil breaks down into harmful substances."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Palm oil is liquid at room temperature.",
+      "truth": "true"
+     },
+     {
+      "text": "Fats keep the body warm.",
+      "truth": "true"
+     },
+     {
+      "text": "Fats carry vitamin A.",
+      "truth": "true"
+     },
+     {
+      "text": "Butter is an animal fat.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Fats give less energy than carbohydrates.",
+      "truth": "false",
+      "explain": "Fats give more than twice as much energy, gram for gram."
+     },
+     {
+      "text": "Water should be poured on burning oil.",
+      "truth": "false",
+      "explain": "Never: cover the pan instead."
+     },
+     {
+      "text": "Fats are made of amino acids.",
+      "truth": "false",
+      "explain": "Fats are made of fatty acids and glycerol; proteins are made of amino acids."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

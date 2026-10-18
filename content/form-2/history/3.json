@@ -1,0 +1,456 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "y2-3",
+   "name": "Migration waves in Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cameroon's peoples came from several waves of migration over many centuries. Historians group them as:\n• Bantu peoples, mostly in the South and along the coast (Duala, Bakweri, Bassa, Beti, Bulu, Ewondo, Maka);\n• semi-Bantu (Grassfields) peoples in the western highlands (Bamileke, Tikar, Bamum, Bali, Nso, Mankon);\n• Sudanese peoples in the north (Mafa, Massa, Musgum, Fali, often called Kirdi), many of whom took refuge in the Mandara mountains;\n• the Fulani (Fulbe), cattle herders who arrived mainly in the 18th and 19th centuries and spread south during the jihad led by Modibo Adama (from 1809);\n• the Shuwa Arabs and Hausa traders in the north.\nCauses of migration: search for fertile land and pasture, wars and slave raids, the Fulani jihad, population pressure, famine and trade.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "the Fulani"
+  },
+  "problem": "Explain why {p} moved into northern Cameroon.",
+  "steps": [
+   "They were cattle herders looking for good pasture and water.",
+   "In the {'19th'} century the jihad led by Modibo Adama spread Islam and Fulani rule southwards, creating the Adamawa emirate."
+  ],
+  "answer": "Pasture for their cattle, and the {'19th'}-century jihad of Modibo Adama.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "Bantu peoples live mostly in the South and along the coast.",
+    "vars": {},
+    "example": [
+     "Duala, Bakweri, Beti, Bulu, Bassa."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-3-group"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "Semi-Bantu peoples live in the Grassfields; Sudanese peoples and the Fulani in the north.",
+    "vars": {},
+    "example": [
+     "Grassfields: Bamileke, Bamum, Tikar.",
+     "North: Mafa, Massa, Fulani."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-3-where"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "People migrated to find land and pasture, to escape wars, and during the Fulani jihad.",
+    "vars": {
+     "y": 1809
+    },
+    "example": [
+     "Modibo Adama led the jihad from {y}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-3-cause-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "migrations"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Who led the Fulani jihad in northern Cameroon from 1809?",
+         "r": "Modibo Adama",
+         "w": [
+          "Sultan Njoya",
+          "King Bell",
+          "Usman dan Fodio's enemies"
+         ],
+         "e": [
+          "Njoya was a later Bamum ruler.",
+          "King Bell was a Duala chief.",
+          "Adama was a follower of Usman dan Fodio."
+         ],
+         "y": "Modibo Adama founded the Adamawa emirate."
+        },
+        {
+         "q": "Which was a cause of migration in Cameroon?",
+         "r": "the search for fertile land and pasture",
+         "w": [
+          "the building of railways",
+          "television",
+          "mobile phones"
+         ],
+         "e": [
+          "Railways came much later.",
+          "Television is modern.",
+          "Phones are modern."
+         ],
+         "y": "Land, pasture, wars and the jihad moved people."
+        },
+        {
+         "q": "Why did many Sudanese peoples settle in the Mandara mountains?",
+         "r": "to take refuge from Fulani and slave raids",
+         "w": [
+          "to find the sea",
+          "to work in factories",
+          "to fish in rivers"
+         ],
+         "e": [
+          "The mountains are far from the sea.",
+          "There were no factories.",
+          "They went for safety."
+         ],
+         "y": "The mountains were easier to defend."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-3-group",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "migrations"
+   ],
+   "prompt": "Match each people to its migration group.",
+   "pool": [
+    {
+     "left": "Duala",
+     "right": "Bantu"
+    },
+    {
+     "left": "Bakweri",
+     "right": "Bantu"
+    },
+    {
+     "left": "Beti",
+     "right": "Bantu"
+    },
+    {
+     "left": "Bulu",
+     "right": "Bantu"
+    },
+    {
+     "left": "Bamileke",
+     "right": "semi-Bantu (Grassfields)"
+    },
+    {
+     "left": "Tikar",
+     "right": "semi-Bantu (Grassfields)"
+    },
+    {
+     "left": "Bamum",
+     "right": "semi-Bantu (Grassfields)"
+    },
+    {
+     "left": "Fulani (Fulbe)",
+     "right": "Fulani"
+    },
+    {
+     "left": "Mafa",
+     "right": "Sudanese (Kirdi)"
+    },
+    {
+     "left": "Massa",
+     "right": "Sudanese (Kirdi)"
+    }
+   ],
+   "pick": 5,
+   "groups": true,
+   "group_order": [
+    "Bantu",
+    "semi-Bantu (Grassfields)",
+    "Sudanese (Kirdi)",
+    "Fulani"
+   ]
+  },
+  {
+   "id": "y2-3-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "migrations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where do most Bantu peoples of Cameroon live?",
+       "r": "in the South and along the coast",
+       "w": [
+        "around Lake Chad",
+        "in the Mandara mountains only",
+        "in the Sahara"
+       ],
+       "e": [
+        "That is the far north.",
+        "That is where Sudanese peoples took refuge.",
+        "That is not in Cameroon."
+       ],
+       "y": "Duala, Beti, Bulu and others live in the South."
+      },
+      {
+       "q": "Which peoples live in the western highlands (Grassfields)?",
+       "r": "the Bamileke, Bamum and Tikar",
+       "w": [
+        "the Baka and Bagyeli",
+        "the Kotoko and Shuwa Arabs",
+        "the Duala and Bakweri"
+       ],
+       "e": [
+        "They are forest Pygmies.",
+        "They live in the far north.",
+        "They are coastal Bantu."
+       ],
+       "y": "These are semi-Bantu Grassfields peoples."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-3-cause",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "migrations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Who led the Fulani jihad in northern Cameroon from 1809?",
+       "r": "Modibo Adama",
+       "w": [
+        "Sultan Njoya",
+        "King Bell",
+        "Usman dan Fodio's enemies"
+       ],
+       "e": [
+        "Njoya was a later Bamum ruler.",
+        "King Bell was a Duala chief.",
+        "Adama was a follower of Usman dan Fodio."
+       ],
+       "y": "Modibo Adama founded the Adamawa emirate."
+      },
+      {
+       "q": "Which was a cause of migration in Cameroon?",
+       "r": "the search for fertile land and pasture",
+       "w": [
+        "the building of railways",
+        "television",
+        "mobile phones"
+       ],
+       "e": [
+        "Railways came much later.",
+        "Television is modern.",
+        "Phones are modern."
+       ],
+       "y": "Land, pasture, wars and the jihad moved people."
+      },
+      {
+       "q": "Why did many Sudanese peoples settle in the Mandara mountains?",
+       "r": "to take refuge from Fulani and slave raids",
+       "w": [
+        "to find the sea",
+        "to work in factories",
+        "to fish in rivers"
+       ],
+       "e": [
+        "The mountains are far from the sea.",
+        "There were no factories.",
+        "They went for safety."
+       ],
+       "y": "The mountains were easier to defend."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "migrations"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Duala are a Bantu people.",
+      "truth": "true"
+     },
+     {
+      "text": "The Bamileke live in the Grassfields.",
+      "truth": "true"
+     },
+     {
+      "text": "The Fulani were cattle herders.",
+      "truth": "true"
+     },
+     {
+      "text": "The Mafa live in the north.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Fulani arrived in the 20th century.",
+      "truth": "false",
+      "explain": "They arrived mainly in the 18th and 19th centuries."
+     },
+     {
+      "text": "The Bakweri are a Sudanese people of the far north.",
+      "truth": "false",
+      "explain": "The Bakweri are a Bantu people of the coast."
+     },
+     {
+      "text": "Modibo Adama led the Bamum kingdom.",
+      "truth": "false",
+      "explain": "He led the Fulani jihad; Bamum rulers were sultans such as Njoya."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

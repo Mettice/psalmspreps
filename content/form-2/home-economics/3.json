@@ -1,0 +1,429 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "h2-3",
+   "name": "Proteins"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Composition: carbon, hydrogen, oxygen and nitrogen (some also sulfur and phosphorus). Proteins are made of units called amino acids.\nSources:\n• animal (high biological value, all the essential amino acids): meat, fish, eggs, milk, snails, crayfish;\n• plant: beans, groundnuts, soya beans, egusi, cowpeas. Mixing plant proteins (beans and maize, as in corn chaff) gives a better mix.\nFunctions: growth, repair of worn tissues, making enzymes, hormones and antibodies; spare protein can give energy.\nDeficiency: kwashiorkor in young children (swollen belly and feet, change of hair colour, poor growth).\nEffects of heat: proteins coagulate (set and harden): egg white becomes white and firm; meat shrinks and hardens if overcooked.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": "an egg"
+  },
+  "problem": "What happens to the protein in {e} when it is boiled?",
+  "steps": [
+   "The egg white and yolk contain protein.",
+   "Heat makes the protein coagulate: the clear white becomes white and firm."
+  ],
+  "answer": "It coagulates: the egg white sets.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "Proteins contain nitrogen, and are made of amino acids.",
+    "vars": {},
+    "example": [
+     "Animal protein: fish, eggs, milk.",
+     "Plant protein: beans, groundnuts, soya."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-3-source"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "Proteins are for growth and repair. Lack of protein in young children causes kwashiorkor.",
+    "vars": {},
+    "example": [
+     "Kwashiorkor: swollen belly and feet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-3-job"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "Heat makes proteins coagulate (set).",
+    "vars": {},
+    "example": [
+     "A boiled egg's white becomes firm."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-3-heat-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is it called when heat makes protein set?",
+         "r": "coagulation",
+         "w": [
+          "caramelisation",
+          "gelatinisation",
+          "evaporation"
+         ],
+         "e": [
+          "That is sugar browning.",
+          "That is starch thickening.",
+          "That is water turning to vapour."
+         ],
+         "y": "Proteins coagulate."
+        },
+        {
+         "q": "Why does meat become hard and tough when overcooked?",
+         "r": "Its proteins coagulate too much and shrink.",
+         "w": [
+          "Its sugar caramelises.",
+          "Its starch thickens.",
+          "It gains water."
+         ],
+         "e": [
+          "Meat has little sugar.",
+          "Meat has little starch.",
+          "It loses water."
+         ],
+         "y": "Over-coagulated protein shrinks and toughens."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-3-source",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Sort the protein foods: animal or plant source?",
+   "pool": [
+    {
+     "left": "fish",
+     "right": "animal"
+    },
+    {
+     "left": "eggs",
+     "right": "animal"
+    },
+    {
+     "left": "milk",
+     "right": "animal"
+    },
+    {
+     "left": "snails",
+     "right": "animal"
+    },
+    {
+     "left": "beans",
+     "right": "plant"
+    },
+    {
+     "left": "groundnuts",
+     "right": "plant"
+    },
+    {
+     "left": "soya beans",
+     "right": "plant"
+    },
+    {
+     "left": "egusi",
+     "right": "plant"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "animal",
+    "plant"
+   ]
+  },
+  {
+   "id": "h2-3-job",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the main function of proteins?",
+       "r": "growth and repair of the body",
+       "w": [
+        "giving most of our energy",
+        "preventing night blindness",
+        "keeping teeth white"
+       ],
+       "e": [
+        "Carbohydrates give most energy.",
+        "That is vitamin A.",
+        "That is not their job."
+       ],
+       "y": "Proteins build and repair tissues."
+      },
+      {
+       "q": "Which disease is caused by a lack of protein in young children?",
+       "r": "kwashiorkor",
+       "w": [
+        "marasmus",
+        "scurvy",
+        "anaemia"
+       ],
+       "e": [
+        "Marasmus: lack of energy food.",
+        "Scurvy: lack of vitamin C.",
+        "Anaemia: lack of iron."
+       ],
+       "y": "Kwashiorkor: swollen belly and feet."
+      },
+      {
+       "q": "Which element is found in proteins but not in carbohydrates?",
+       "r": "nitrogen",
+       "w": [
+        "carbon",
+        "oxygen",
+        "hydrogen"
+       ],
+       "e": [
+        "Both have carbon.",
+        "Both have oxygen.",
+        "Both have hydrogen."
+       ],
+       "y": "Proteins contain nitrogen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-3-heat",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is it called when heat makes protein set?",
+       "r": "coagulation",
+       "w": [
+        "caramelisation",
+        "gelatinisation",
+        "evaporation"
+       ],
+       "e": [
+        "That is sugar browning.",
+        "That is starch thickening.",
+        "That is water turning to vapour."
+       ],
+       "y": "Proteins coagulate."
+      },
+      {
+       "q": "Why does meat become hard and tough when overcooked?",
+       "r": "Its proteins coagulate too much and shrink.",
+       "w": [
+        "Its sugar caramelises.",
+        "Its starch thickens.",
+        "It gains water."
+       ],
+       "e": [
+        "Meat has little sugar.",
+        "Meat has little starch.",
+        "It loses water."
+       ],
+       "y": "Over-coagulated protein shrinks and toughens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Beans are a plant source of protein.",
+      "truth": "true"
+     },
+     {
+      "text": "Proteins are made of amino acids.",
+      "truth": "true"
+     },
+     {
+      "text": "Kwashiorkor is caused by lack of protein.",
+      "truth": "true"
+     },
+     {
+      "text": "Egg white coagulates when heated.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Proteins contain no nitrogen.",
+      "truth": "false",
+      "explain": "Proteins always contain nitrogen."
+     },
+     {
+      "text": "Palm oil is a good source of protein.",
+      "truth": "false",
+      "explain": "Palm oil is mainly fat."
+     },
+     {
+      "text": "Kwashiorkor is caused by too much protein.",
+      "truth": "false",
+      "explain": "It is caused by a lack of protein."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

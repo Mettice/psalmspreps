@@ -1,0 +1,588 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "g2-7",
+   "name": "Practical work 2: population densities of Cameroon's regions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cameroon has ten regions. To compare how crowded they are, calculate each region's population density: population ÷ area.\nAreas are in km². The populations used here are rounded estimates (in thousands) for practice; the latest census figures may differ.\nThe West, Littoral and North-West regions are the most densely populated (small areas, many people, fertile highlands, towns and industries). The East and South are the least dense (large forested areas, few people).\nSteps: (1) change the population in thousands to people (× 1000); (2) divide by the area; (3) round to a whole number; (4) rank the regions.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "West",
+   "a": 13892,
+   "t": 1900,
+   "k": 1000
+  },
+  "problem": "The {n} Region has an area of {a} km² and about {t} thousand people. Calculate its density.",
+  "steps": [
+   "Population: {t} × {k} = {t * k} people.",
+   "Density: {t * k} ÷ {a} = {round(t * k / a, 1)}, about {round(t * k / a)} people per km²."
+  ],
+  "answer": "About {round(t * k / a)} people per km²",
+  "checks": [
+   "round(t * k / a) == 137"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "Density of a region = its population ÷ its area.",
+    "vars": {
+     "k": 1000
+    },
+    "example": [
+     "Change thousands to people first: × {k}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-7-calc"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "The West, Littoral and North-West are the most densely populated regions.",
+    "vars": {},
+    "example": [
+     "Small areas with many people."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-7-most"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "The East and South are the least densely populated.",
+    "vars": {},
+    "example": [
+     "Large forests and few people."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-7-least-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "cameroon-regions"
+     ],
+     "vars": {
+      "A": {
+       "pick": [
+        [
+         "Adamawa",
+         63701,
+         1200
+        ],
+        [
+         "Centre",
+         68953,
+         4200
+        ],
+        [
+         "East",
+         109002,
+         840
+        ],
+        [
+         "Far North",
+         34263,
+         4000
+        ],
+        [
+         "Littoral",
+         20248,
+         3400
+        ],
+        [
+         "North",
+         66090,
+         2400
+        ],
+        [
+         "North-West",
+         17300,
+         2000
+        ],
+        [
+         "South",
+         47191,
+         750
+        ],
+        [
+         "South-West",
+         25410,
+         1500
+        ],
+        [
+         "West",
+         13892,
+         1900
+        ]
+       ]
+      },
+      "B": {
+       "pick": [
+        [
+         "Adamawa",
+         63701,
+         1200
+        ],
+        [
+         "Centre",
+         68953,
+         4200
+        ],
+        [
+         "East",
+         109002,
+         840
+        ],
+        [
+         "Far North",
+         34263,
+         4000
+        ],
+        [
+         "Littoral",
+         20248,
+         3400
+        ],
+        [
+         "North",
+         66090,
+         2400
+        ],
+        [
+         "North-West",
+         17300,
+         2000
+        ],
+        [
+         "South",
+         47191,
+         750
+        ],
+        [
+         "South-West",
+         25410,
+         1500
+        ],
+        [
+         "West",
+         13892,
+         1900
+        ]
+       ]
+      },
+      "k": 1000
+     },
+     "prompt": "Which of these two regions is more densely populated: {A[0]} or {B[0]}?",
+     "correct": "{A[2] / A[1] > B[2] / B[1] ? A[0] : B[0]}",
+     "distractors": [
+      {
+       "text": "{A[2] / A[1] > B[2] / B[1] ? B[0] : A[0]}",
+       "misconception": "flip"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "flip",
+       "explain": "Work out both densities: population ÷ area."
+      }
+     ],
+     "solution": [
+      "{A[0]}: {A[2] * k} ÷ {A[1]} ≈ {round(A[2] * k / A[1])} per km². {B[0]}: {B[2] * k} ÷ {B[1]} ≈ {round(B[2] * k / B[1])} per km².",
+      "So {answer} is more densely populated."
+     ],
+     "where": [
+      "A[0] != B[0]",
+      "abs(A[2] / A[1] - B[2] / B[1]) > 0.005"
+     ],
+     "show": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-7-calc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "cameroon-regions"
+   ],
+   "vars": {
+    "R": {
+     "pick": [
+      [
+       "Adamawa",
+       63701,
+       1200
+      ],
+      [
+       "Centre",
+       68953,
+       4200
+      ],
+      [
+       "East",
+       109002,
+       840
+      ],
+      [
+       "Far North",
+       34263,
+       4000
+      ],
+      [
+       "Littoral",
+       20248,
+       3400
+      ],
+      [
+       "North",
+       66090,
+       2400
+      ],
+      [
+       "North-West",
+       17300,
+       2000
+      ],
+      [
+       "South",
+       47191,
+       750
+      ],
+      [
+       "South-West",
+       25410,
+       1500
+      ],
+      [
+       "West",
+       13892,
+       1900
+      ]
+     ]
+    },
+    "k": 1000
+   },
+   "prompt": "The {R[0]} Region has an area of {R[1]} km² and about {R[2]} thousand people. What is its population density, to the nearest whole number?",
+   "answer": "round(R[2] * 1000 / R[1])",
+   "misconceptions": [
+    {
+     "id": "thousands",
+     "wrong": "round(R[2] / R[1], 2)",
+     "explain": "Change thousands to people first (× {k})."
+    },
+    {
+     "id": "upside",
+     "wrong": "round(R[1] / (R[2] * 1000), 2)",
+     "explain": "Divide the population by the area."
+    }
+   ],
+   "solution": [
+    "Population: {R[2]} × {k} = {R[2] * k} people.",
+    "Density: {R[2] * k} ÷ {R[1]} ≈ {answer} people per km²."
+   ],
+   "unit": "people per km²"
+  },
+  {
+   "id": "g2-7-most",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "cameroon-regions"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which region is among the most densely populated?",
+       "r": "West",
+       "w": [
+        "East",
+        "South",
+        "Adamawa"
+       ],
+       "e": [
+        "The East is the least dense.",
+        "The South is sparsely populated.",
+        "Adamawa is sparsely populated."
+       ],
+       "y": "The West has a small area and many people."
+      },
+      {
+       "q": "Which region has the largest area?",
+       "r": "East",
+       "w": [
+        "West",
+        "Littoral",
+        "North-West"
+       ],
+       "e": [
+        "The West is small.",
+        "The Littoral is small.",
+        "The North-West is small."
+       ],
+       "y": "The East is the largest region."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-7-least",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "cameroon-regions"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      [
+       "Adamawa",
+       63701,
+       1200
+      ],
+      [
+       "Centre",
+       68953,
+       4200
+      ],
+      [
+       "East",
+       109002,
+       840
+      ],
+      [
+       "Far North",
+       34263,
+       4000
+      ],
+      [
+       "Littoral",
+       20248,
+       3400
+      ],
+      [
+       "North",
+       66090,
+       2400
+      ],
+      [
+       "North-West",
+       17300,
+       2000
+      ],
+      [
+       "South",
+       47191,
+       750
+      ],
+      [
+       "South-West",
+       25410,
+       1500
+      ],
+      [
+       "West",
+       13892,
+       1900
+      ]
+     ]
+    },
+    "B": {
+     "pick": [
+      [
+       "Adamawa",
+       63701,
+       1200
+      ],
+      [
+       "Centre",
+       68953,
+       4200
+      ],
+      [
+       "East",
+       109002,
+       840
+      ],
+      [
+       "Far North",
+       34263,
+       4000
+      ],
+      [
+       "Littoral",
+       20248,
+       3400
+      ],
+      [
+       "North",
+       66090,
+       2400
+      ],
+      [
+       "North-West",
+       17300,
+       2000
+      ],
+      [
+       "South",
+       47191,
+       750
+      ],
+      [
+       "South-West",
+       25410,
+       1500
+      ],
+      [
+       "West",
+       13892,
+       1900
+      ]
+     ]
+    },
+    "k": 1000
+   },
+   "prompt": "Which of these two regions is more densely populated: {A[0]} or {B[0]}?",
+   "correct": "{A[2] / A[1] > B[2] / B[1] ? A[0] : B[0]}",
+   "distractors": [
+    {
+     "text": "{A[2] / A[1] > B[2] / B[1] ? B[0] : A[0]}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Work out both densities: population ÷ area."
+    }
+   ],
+   "solution": [
+    "{A[0]}: {A[2] * k} ÷ {A[1]} ≈ {round(A[2] * k / A[1])} per km². {B[0]}: {B[2] * k} ÷ {B[1]} ≈ {round(B[2] * k / B[1])} per km².",
+    "So {answer} is more densely populated."
+   ],
+   "where": [
+    "A[0] != B[0]",
+    "abs(A[2] / A[1] - B[2] / B[1]) > 0.005"
+   ],
+   "show": 2
+  },
+  {
+   "id": "g2-7-rank",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "cameroon-regions"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      [
+       "West",
+       13892,
+       1900
+      ],
+      [
+       "Littoral",
+       20248,
+       3400
+      ],
+      [
+       "North-West",
+       17300,
+       2000
+      ]
+     ]
+    },
+    "B": {
+     "pick": [
+      [
+       "East",
+       109002,
+       840
+      ],
+      [
+       "South",
+       47191,
+       750
+      ],
+      [
+       "Adamawa",
+       63701,
+       1200
+      ]
+     ]
+    },
+    "k": 1000
+   },
+   "prompt": "The {A[0]} Region is about how many times as densely populated as the {B[0]} Region? Give a whole number.",
+   "answer": "round((A[2] / A[1]) / (B[2] / B[1]))",
+   "solution": [
+    "{A[0]}: about {round(A[2] * k / A[1])} per km². {B[0]}: about {round(B[2] * k / B[1])} per km².",
+    "{round(A[2] * k / A[1])} ÷ {round(B[2] * k / B[1])} ≈ {answer}."
+   ]
+  }
+ ]
+}

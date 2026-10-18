@@ -1,0 +1,397 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "h2-20",
+   "name": "Kitchen units and points to consider in planning"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Kitchen elements (units):\n• base units: stand on the floor under the worktop, for heavy pots and pans;\n• wall units: fixed on the wall above the worktop, for light things (cups, plates, spices);\n• tall units: from the floor almost to the ceiling, for brooms or food in bulk;\n• the worktop (where food is prepared), the sink, the cooker and the fridge.\nPoints to consider when planning a modern kitchen: the size and shape of the room; the work triangle; good lighting and ventilation (a window, an extractor); water supply and drainage; safe electrical sockets away from the sink; easy-to-clean surfaces; enough storage; safety (no cooker under a window with curtains, no cooker by a door); the budget.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 10
+  },
+  "problem": "In the drawing of the kitchen front, part {letterOf(k, 6, 0)} is fixed above the worktop. What is it and what should be stored in it?",
+  "steps": [
+   "It is a wall unit.",
+   "Store light things in it, such as cups, plates and spices, which are easy to lift down."
+  ],
+  "answer": "A wall unit: light things like cups and spices.",
+  "checks": [],
+  "figure": "kitchenUnits(k)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "Base units hold heavy things; wall units hold light things; tall units hold brooms or bulk food.",
+    "vars": {
+     "k": 0
+    },
+    "example": [
+     "Heavy pots: base unit.",
+     "Spices: wall unit."
+    ],
+    "checks": [],
+    "figure": "kitchenUnits(k)",
+    "check": {
+     "ref": "h2-20-label"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "Plan for light, air, water, safe sockets, storage and easy cleaning.",
+    "vars": {},
+    "example": [
+     "Keep sockets away from the sink."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-20-plan"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "Never put the cooker under a window with curtains or next to a door.",
+    "vars": {},
+    "example": [
+     "Curtains can catch fire; a door can knock pots."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-20-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchens"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Where should heavy pots be stored?",
+         "r": "in a base unit",
+         "w": [
+          "in a wall unit",
+          "on top of the fridge",
+          "on the window sill"
+         ],
+         "e": [
+          "Lifting heavy pots from high up is dangerous.",
+          "That is not safe.",
+          "That is not safe."
+         ],
+         "y": "Heavy things go low, in base units."
+        },
+        {
+         "q": "Why should the cooker not be next to a door?",
+         "r": "Someone opening the door could knock a hot pot.",
+         "w": [
+          "The door would get dirty.",
+          "The cooker would get cold.",
+          "It looks untidy."
+         ],
+         "e": [
+          "That is not the main reason.",
+          "That is not the reason.",
+          "Safety is the reason."
+         ],
+         "y": "Accidents with hot pots are the danger."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-20-label",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      719
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      5
+     ]
+    }
+   },
+   "prompt": "Which letter shows the {unitPart(i)}?",
+   "correct": "{letterOf(k, 6, i)}",
+   "distractors": [
+    {
+     "text": "{letterOf(k, 6, (i + 1) % 6)}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{letterOf(k, 6, (i + 2) % 6)}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{letterOf(k, 6, (i + 3) % 6)}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{letterOf(k, 6, (i + 1) % 6)} is the {unitPart((i + 1) % 6)}."
+    },
+    {
+     "id": "w2",
+     "explain": "{letterOf(k, 6, (i + 2) % 6)} is the {unitPart((i + 2) % 6)}."
+    },
+    {
+     "id": "w3",
+     "explain": "{letterOf(k, 6, (i + 3) % 6)} is the {unitPart((i + 3) % 6)}."
+    }
+   ],
+   "solution": [
+    "The {unitPart(i)} is labelled {answer}."
+   ],
+   "figure": "kitchenUnits(k)"
+  },
+  {
+   "id": "h2-20-plan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Which is a good point when planning a modern kitchen?",
+   "pool": {
+    "right": [
+     {
+      "text": "good lighting and ventilation",
+      "truth": "true"
+     },
+     {
+      "text": "electrical sockets away from the sink",
+      "truth": "true"
+     },
+     {
+      "text": "surfaces that are easy to clean",
+      "truth": "true"
+     },
+     {
+      "text": "enough storage space",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "the cooker under a window with curtains",
+      "truth": "false",
+      "explain": "Curtains can catch fire."
+     },
+     {
+      "text": "sockets right next to the sink",
+      "truth": "false",
+      "explain": "Water and electricity together are dangerous."
+     },
+     {
+      "text": "no window or extractor",
+      "truth": "false",
+      "explain": "Smoke and steam need to escape."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "h2-20-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where should heavy pots be stored?",
+       "r": "in a base unit",
+       "w": [
+        "in a wall unit",
+        "on top of the fridge",
+        "on the window sill"
+       ],
+       "e": [
+        "Lifting heavy pots from high up is dangerous.",
+        "That is not safe.",
+        "That is not safe."
+       ],
+       "y": "Heavy things go low, in base units."
+      },
+      {
+       "q": "Why should the cooker not be next to a door?",
+       "r": "Someone opening the door could knock a hot pot.",
+       "w": [
+        "The door would get dirty.",
+        "The cooker would get cold.",
+        "It looks untidy."
+       ],
+       "e": [
+        "That is not the main reason.",
+        "That is not the reason.",
+        "Safety is the reason."
+       ],
+       "y": "Accidents with hot pots are the danger."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wall units hold light things.",
+      "truth": "true"
+     },
+     {
+      "text": "Base units hold heavy pots.",
+      "truth": "true"
+     },
+     {
+      "text": "A kitchen needs good ventilation.",
+      "truth": "true"
+     },
+     {
+      "text": "Sockets must be away from the sink.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Heavy pots belong in the highest wall unit.",
+      "truth": "false",
+      "explain": "Heavy things go in base units."
+     },
+     {
+      "text": "A kitchen needs no window or extractor.",
+      "truth": "false",
+      "explain": "Smoke and steam must escape."
+     },
+     {
+      "text": "The cooker is best under a curtained window.",
+      "truth": "false",
+      "explain": "Curtains can catch fire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,414 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "y2-4",
+   "name": "Migration waves in Cameroon (continued)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Effects of the migrations:\n• Cameroon became home to over 250 ethnic groups and languages, which is why it is called “Africa in miniature”;\n• peoples mixed through marriage, trade and conquest, and some were pushed into forests or mountains;\n• new states were formed: the Fulani lamidates (Ngaoundéré, Garoua, Maroua), the Bamum kingdom, the Grassfields chiefdoms;\n• new religions and cultures spread (Islam in the north);\n• conflicts over land and pasture, but also cooperation.\nSources for studying migrations: oral traditions (stories of origin), languages (related words), archaeology, and written accounts by Arab and European travellers.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": "Ngaoundéré"
+  },
+  "problem": "How did migration lead to the founding of {e}?",
+  "steps": [
+   "During the Fulani jihad of the {'19th'} century, Fulani groups moved south into the Adamawa plateau.",
+   "They conquered local peoples and founded lamidates ruled by a lamido, such as {e}."
+  ],
+  "answer": "The Fulani jihad led to Fulani lamidates such as {e}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "Migrations made Cameroon home to over two hundred and fifty ethnic groups: “Africa in miniature”.",
+    "vars": {},
+    "example": [
+     "Many languages, cultures and religions live side by side."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-4-effect"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Migrations created new states: Fulani lamidates, the Bamum kingdom, Grassfields chiefdoms.",
+    "vars": {},
+    "example": [
+     "A lamido rules a Fulani lamidate."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-4-state"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "We study migrations through oral traditions, languages, archaeology and travellers' accounts.",
+    "vars": {},
+    "example": [
+     "Stories of origin are passed down by elders."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-4-source-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "historical-enquiry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a source for studying old migrations?",
+         "r": "oral traditions told by elders",
+         "w": [
+          "today's football results",
+          "a mobile phone bill",
+          "a weather forecast"
+         ],
+         "e": [
+          "That is not history.",
+          "That is not a historical source.",
+          "That is not a historical source."
+         ],
+         "y": "Stories of origin keep the memory of migrations."
+        },
+        {
+         "q": "How can languages help historians study migrations?",
+         "r": "Related words show which peoples were once together.",
+         "w": [
+          "They show the weather.",
+          "They show the price of food.",
+          "They cannot help at all."
+         ],
+         "e": [
+          "That is not linguistics.",
+          "That is not it.",
+          "They do help."
+         ],
+         "y": "Similar languages suggest a shared origin."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-4-effect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "migrations"
+   ],
+   "prompt": "Which is an effect of the migrations into Cameroon?",
+   "pool": {
+    "right": [
+     {
+      "text": "many ethnic groups and languages",
+      "truth": "true"
+     },
+     {
+      "text": "the founding of new states",
+      "truth": "true"
+     },
+     {
+      "text": "the spread of Islam in the north",
+      "truth": "true"
+     },
+     {
+      "text": "mixing of peoples through marriage and trade",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "everyone in Cameroon speaks one language",
+      "truth": "false",
+      "explain": "There are over 250 languages."
+     },
+     {
+      "text": "no new states were formed",
+      "truth": "false",
+      "explain": "Lamidates and kingdoms were formed."
+     },
+     {
+      "text": "all peoples stayed where they were",
+      "truth": "false",
+      "explain": "Migration means moving."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "y2-4-state",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "migrations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the ruler of a Fulani lamidate called?",
+       "r": "a lamido",
+       "w": [
+        "a fon",
+        "a sultan of Bamum",
+        "a governor"
+       ],
+       "e": [
+        "A fon rules a Grassfields chiefdom.",
+        "That is the Bamum ruler.",
+        "That is a modern title."
+       ],
+       "y": "Lamidates are ruled by lamidos."
+      },
+      {
+       "q": "Why is Cameroon called “Africa in miniature”?",
+       "r": "It has many peoples, languages and landscapes, like Africa as a whole.",
+       "w": [
+        "It is very small.",
+        "It has one people only.",
+        "It has no forests."
+       ],
+       "e": [
+        "It is a large country.",
+        "It has many peoples.",
+        "It has large forests."
+       ],
+       "y": "Its variety mirrors the continent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-4-source",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a source for studying old migrations?",
+       "r": "oral traditions told by elders",
+       "w": [
+        "today's football results",
+        "a mobile phone bill",
+        "a weather forecast"
+       ],
+       "e": [
+        "That is not history.",
+        "That is not a historical source.",
+        "That is not a historical source."
+       ],
+       "y": "Stories of origin keep the memory of migrations."
+      },
+      {
+       "q": "How can languages help historians study migrations?",
+       "r": "Related words show which peoples were once together.",
+       "w": [
+        "They show the weather.",
+        "They show the price of food.",
+        "They cannot help at all."
+       ],
+       "e": [
+        "That is not linguistics.",
+        "That is not it.",
+        "They do help."
+       ],
+       "y": "Similar languages suggest a shared origin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "migrations"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cameroon has over 250 ethnic groups.",
+      "truth": "true"
+     },
+     {
+      "text": "The Fulani founded lamidates.",
+      "truth": "true"
+     },
+     {
+      "text": "Oral traditions help us study migrations.",
+      "truth": "true"
+     },
+     {
+      "text": "Islam spread in the north.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Migrations made Cameroon a country of one language.",
+      "truth": "false",
+      "explain": "They gave it many languages."
+     },
+     {
+      "text": "A lamido rules a Grassfields chiefdom.",
+      "truth": "false",
+      "explain": "A fon rules a Grassfields chiefdom; a lamido rules a lamidate."
+     },
+     {
+      "text": "Archaeology cannot help the study of the past.",
+      "truth": "false",
+      "explain": "Archaeology is a key source."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

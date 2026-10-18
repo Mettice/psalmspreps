@@ -1,0 +1,388 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  2,
+  3,
+  4
+ ],
+ "skills": [
+  {
+   "id": "h2-5",
+   "name": "Energy: types, uses and energy values"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Energy is the ability to do work. The body gets chemical energy from food and turns it into heat (to keep warm) and movement (muscles), and uses it for growth and for the work of the organs (heartbeat, breathing).\nBasal metabolism is the energy used at complete rest just to stay alive. Active people, growing children and pregnant women need more energy.\nFood energy is measured in kilocalories (kcal) or kilojoules (kJ); 1 kcal is about 4.2 kJ.\nEnergy values of the macronutrients (per gram):\n• carbohydrate: 4 kcal (17 kJ)   • protein: 4 kcal (17 kJ)   • fat: 9 kcal (37 kJ).\nExample: a snack with 20 g carbohydrate, 5 g protein and 10 g fat gives 20 × 4 + 5 × 4 + 10 × 9 = 80 + 20 + 90 = 190 kcal.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 30,
+   "p": 10,
+   "f": 8,
+   "four": 4,
+   "nine": 9
+  },
+  "problem": "A plate of food contains {c} g carbohydrate, {p} g protein and {f} g fat. How many kilocalories does it give?",
+  "steps": [
+   "Carbohydrate: {c} × {four} = {c * four} kcal.",
+   "Protein: {p} × {four} = {p * four} kcal.",
+   "Fat: {f} × {nine} = {f * nine} kcal.",
+   "Total: {c * four} + {p * four} + {f * nine} = {c * four + p * four + f * nine} kcal."
+  ],
+  "answer": "{c * four + p * four + f * nine} kcal",
+  "checks": [
+   "c * four + p * four + f * nine == 232"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "The body uses food energy for heat, movement, growth and the work of its organs.",
+    "vars": {},
+    "example": [
+     "Basal metabolism: energy used at rest just to stay alive."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-5-use"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "One gram of carbohydrate or protein gives {four} kcal; one gram of fat gives {nine} kcal.",
+    "vars": {
+     "four": 4,
+     "nine": 9,
+     "g": 5
+    },
+    "example": [
+     "{g} g fat: {g} × {nine} = {g * nine} kcal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-5-one"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "To find the energy of a food, multiply each nutrient's grams by its value and add.",
+    "vars": {
+     "c": 20,
+     "f": 10,
+     "four": 4,
+     "nine": 9
+    },
+    "example": [
+     "{c} g carbohydrate + {f} g fat: {c} × {four} + {f} × {nine} = {c * four + f * nine} kcal."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-5-meal-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "food-energy"
+     ],
+     "vars": {
+      "c": {
+       "int": [
+        20,
+        120
+       ]
+      },
+      "p": {
+       "int": [
+        5,
+        40
+       ]
+      },
+      "f": {
+       "int": [
+        5,
+        30
+       ]
+      },
+      "four": 4,
+      "nine": 9
+     },
+     "prompt": "A meal contains {c} g carbohydrate, {p} g protein and {f} g fat. How many kilocalories does it give?",
+     "answer": "c * 4 + p * 4 + f * 9",
+     "misconceptions": [
+      {
+       "id": "all-four",
+       "wrong": "(c + p + f) * 4",
+       "explain": "Fat gives {nine} kcal per gram, not {four}."
+      },
+      {
+       "id": "grams",
+       "wrong": "c + p + f",
+       "explain": "That is the mass in grams; multiply each by its energy value."
+      }
+     ],
+     "solution": [
+      "Carbohydrate: {c} × {four} = {c * 4} kcal; protein: {p} × {four} = {p * 4} kcal; fat: {f} × {nine} = {f * 9} kcal.",
+      "Total: {answer} kcal."
+     ],
+     "unit": "kcal"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-5-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-energy"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is basal metabolism?",
+       "r": "the energy used at rest just to stay alive",
+       "w": [
+        "the energy used for running",
+        "the energy in one meal",
+        "the energy lost as sweat"
+       ],
+       "e": [
+        "That is activity.",
+        "That is food energy.",
+        "That is not it."
+       ],
+       "y": "Basal metabolism keeps the heart, breathing and organs working at rest."
+      },
+      {
+       "q": "Who needs the most energy?",
+       "r": "a farmer doing heavy work all day",
+       "w": [
+        "a baby sleeping",
+        "an old person resting",
+        "a pupil watching television"
+       ],
+       "e": [
+        "Sleeping uses little energy.",
+        "Resting uses little energy.",
+        "Watching uses little energy."
+       ],
+       "y": "Heavy physical work needs the most energy."
+      },
+      {
+       "q": "In which unit is food energy measured?",
+       "r": "kilocalories or kilojoules",
+       "w": [
+        "kilograms",
+        "litres",
+        "metres"
+       ],
+       "e": [
+        "That is mass.",
+        "That is volume.",
+        "That is length."
+       ],
+       "y": "kcal or kJ."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-5-one",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "food-energy"
+   ],
+   "vars": {
+    "N": {
+     "pick": [
+      [
+       "carbohydrate",
+       4,
+       17
+      ],
+      [
+       "protein",
+       4,
+       17
+      ],
+      [
+       "fat",
+       9,
+       37
+      ]
+     ]
+    },
+    "g": {
+     "int": [
+      5,
+      60
+     ]
+    }
+   },
+   "prompt": "How many kilocalories are in {g} g of {N[0]}?",
+   "answer": "g * N[1]",
+   "misconceptions": [
+    {
+     "id": "wrong-factor",
+     "wrong": "g * (N[1] == 9 ? 4 : 9)",
+     "explain": "Check the value: {N[0]} gives {N[1]} kcal per gram."
+    }
+   ],
+   "solution": [
+    "One gram of {N[0]} gives {N[1]} kcal.",
+    "{g} × {N[1]} = {answer} kcal."
+   ],
+   "unit": "kcal"
+  },
+  {
+   "id": "h2-5-kj",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "food-energy"
+   ],
+   "vars": {
+    "N": {
+     "pick": [
+      [
+       "carbohydrate",
+       4,
+       17
+      ],
+      [
+       "protein",
+       4,
+       17
+      ],
+      [
+       "fat",
+       9,
+       37
+      ]
+     ]
+    },
+    "g": {
+     "int": [
+      5,
+      40
+     ]
+    }
+   },
+   "prompt": "How many kilojoules are in {g} g of {N[0]}?",
+   "answer": "g * N[2]",
+   "misconceptions": [
+    {
+     "id": "kcal",
+     "wrong": "g * N[1]",
+     "explain": "That is in kilocalories. In kilojoules {N[0]} gives {N[2]} per gram."
+    }
+   ],
+   "solution": [
+    "One gram of {N[0]} gives {N[2]} kJ.",
+    "{g} × {N[2]} = {answer} kJ."
+   ],
+   "unit": "kJ"
+  },
+  {
+   "id": "h2-5-meal",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "food-energy"
+   ],
+   "vars": {
+    "c": {
+     "int": [
+      20,
+      120
+     ]
+    },
+    "p": {
+     "int": [
+      5,
+      40
+     ]
+    },
+    "f": {
+     "int": [
+      5,
+      30
+     ]
+    },
+    "four": 4,
+    "nine": 9
+   },
+   "prompt": "A meal contains {c} g carbohydrate, {p} g protein and {f} g fat. How many kilocalories does it give?",
+   "answer": "c * 4 + p * 4 + f * 9",
+   "misconceptions": [
+    {
+     "id": "all-four",
+     "wrong": "(c + p + f) * 4",
+     "explain": "Fat gives {nine} kcal per gram, not {four}."
+    },
+    {
+     "id": "grams",
+     "wrong": "c + p + f",
+     "explain": "That is the mass in grams; multiply each by its energy value."
+    }
+   ],
+   "solution": [
+    "Carbohydrate: {c} × {four} = {c * 4} kcal; protein: {p} × {four} = {p * 4} kcal; fat: {f} × {nine} = {f * 9} kcal.",
+    "Total: {answer} kcal."
+   ],
+   "unit": "kcal"
+  }
+ ]
+}

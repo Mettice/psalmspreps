@@ -1,0 +1,343 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "h2-14",
+   "name": "Functions of fibre in the diet"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Although it is not digested, fibre is important:\n• It adds bulk and holds water, so faeces are soft and pass easily: it prevents constipation.\n• It helps to prevent piles (haemorrhoids), diverticular disease and cancer of the bowel.\n• It makes us feel full, which helps to control body weight.\n• It slows the absorption of sugar (helpful in diabetes) and helps lower blood cholesterol (protecting the heart).\n• It feeds useful bacteria in the large intestine.\nEat fibre with plenty of water. Too little fibre in a diet of refined foods leads to constipation.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "Ayuk"
+  },
+  "problem": "{n} eats white bread, white rice and meat, and often has constipation. Explain and advise him.",
+  "steps": [
+   "His diet is low in fibre: white bread and white rice are refined, and meat has no fibre.",
+   "Fibre adds bulk and holds water, keeping faeces soft.",
+   "He should eat whole grains, beans, vegetables and fruit, and drink enough water."
+  ],
+  "answer": "Too little fibre; eat whole grains, beans, vegetables, fruit, and drink water.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "Fibre adds bulk and holds water, so faeces are soft: it prevents constipation.",
+    "vars": {},
+    "example": [
+     "Drink water with fibre-rich food."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-14-job"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Fibre makes us feel full and helps control weight.",
+    "vars": {},
+    "example": [
+     "Fibre slows the absorption of sugar."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-14-why"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Fibre helps prevent bowel diseases and lowers cholesterol.",
+    "vars": {},
+    "example": [
+     "It protects the heart and the bowel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-14-disease-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "prompt": "Match each benefit of fibre to its explanation.",
+     "pool": [
+      {
+       "left": "prevents constipation",
+       "right": "keeps faeces soft and bulky"
+      },
+      {
+       "left": "controls weight",
+       "right": "makes us feel full"
+      },
+      {
+       "left": "protects the heart",
+       "right": "lowers blood cholesterol"
+      },
+      {
+       "left": "helps in diabetes",
+       "right": "slows the absorption of sugar"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-14-job",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which problem does fibre prevent?",
+       "r": "constipation",
+       "w": [
+        "scurvy",
+        "goitre",
+        "night blindness"
+       ],
+       "e": [
+        "That is vitamin C.",
+        "That is iodine.",
+        "That is vitamin A."
+       ],
+       "y": "Fibre keeps faeces soft and moving."
+      },
+      {
+       "q": "How does fibre prevent constipation?",
+       "r": "It adds bulk and holds water, keeping faeces soft.",
+       "w": [
+        "It is digested into energy.",
+        "It kills germs.",
+        "It dries the gut."
+       ],
+       "e": [
+        "Fibre is not digested.",
+        "It does not kill germs.",
+        "It keeps things moist."
+       ],
+       "y": "Bulk and water make faeces soft."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-14-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How can fibre help people control their weight?",
+       "r": "It makes them feel full.",
+       "w": [
+        "It burns fat directly.",
+        "It gives a lot of energy.",
+        "It stops digestion."
+       ],
+       "e": [
+        "It does not burn fat.",
+        "It gives very little energy.",
+        "It does not stop digestion."
+       ],
+       "y": "Feeling full means eating less."
+      },
+      {
+       "q": "Why is fibre helpful for people with diabetes?",
+       "r": "It slows the absorption of sugar.",
+       "w": [
+        "It is sweet.",
+        "It contains insulin.",
+        "It speeds up sugar absorption."
+       ],
+       "e": [
+        "Fibre is not sweet.",
+        "It contains no insulin.",
+        "It slows it."
+       ],
+       "y": "Sugar enters the blood more slowly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-14-disease",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Match each benefit of fibre to its explanation.",
+   "pool": [
+    {
+     "left": "prevents constipation",
+     "right": "keeps faeces soft and bulky"
+    },
+    {
+     "left": "controls weight",
+     "right": "makes us feel full"
+    },
+    {
+     "left": "protects the heart",
+     "right": "lowers blood cholesterol"
+    },
+    {
+     "left": "helps in diabetes",
+     "right": "slows the absorption of sugar"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Fibre prevents constipation.",
+      "truth": "true"
+     },
+     {
+      "text": "Fibre makes us feel full.",
+      "truth": "true"
+     },
+     {
+      "text": "Fibre lowers cholesterol.",
+      "truth": "true"
+     },
+     {
+      "text": "Eat fibre with plenty of water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Fibre gives the body a lot of energy.",
+      "truth": "false",
+      "explain": "Fibre gives very little energy: it is not digested."
+     },
+     {
+      "text": "A diet of refined foods is rich in fibre.",
+      "truth": "false",
+      "explain": "Refining removes fibre."
+     },
+     {
+      "text": "Fibre causes constipation.",
+      "truth": "false",
+      "explain": "Fibre prevents constipation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

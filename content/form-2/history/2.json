@@ -1,0 +1,442 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "y2-2",
+   "name": "The Sao and the Pygmies (continued)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Sao were organised in small kingdoms or city-states, each with walled towns ruled by a chief. They believed in spirits and ancestors, and buried their dead in large jars.\nDecline of the Sao: from about the 15th and 16th centuries they were conquered and absorbed by the Kanem-Bornu empire, and Islam spread in the region. Their descendants mixed with other peoples; the Kotoko are thought to be among them.\nThe Pygmies today: their forest is shrinking because of logging and farming; many have been encouraged to settle in villages along roads. They face problems of land rights, health and schooling, while trying to keep their culture and knowledge of the forest.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "e": "Kanem-Bornu"
+  },
+  "problem": "Explain the decline of the Sao.",
+  "steps": [
+   "From about the {'15th–16th'} centuries the powerful {e} empire attacked and conquered the Sao towns.",
+   "The Sao were absorbed, Islam spread, and their descendants mixed with other peoples such as the Kotoko."
+  ],
+  "answer": "Conquest and absorption by {e}, and the spread of Islam.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "The Sao lived in walled city-states ruled by chiefs, and buried their dead in jars.",
+    "vars": {},
+    "example": [
+     "Walls protected their towns from attack."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-2-life"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "The Sao declined when the Kanem-Bornu empire conquered and absorbed them.",
+    "vars": {},
+    "example": [
+     "The Kotoko are thought to descend partly from the Sao."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-2-decline"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Today the Pygmies face a shrinking forest and pressure to settle in villages.",
+    "vars": {},
+    "example": [
+     "Logging and farming destroy their forest home."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-2-today-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "early-peoples"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which problem do the Pygmies face today?",
+         "r": "the loss of their forest to logging and farming",
+         "w": [
+          "too much snow",
+          "the rise of the Sao",
+          "a shortage of sea water"
+         ],
+         "e": [
+          "Cameroon's forests have no snow.",
+          "The Sao declined long ago.",
+          "That is not their problem."
+         ],
+         "y": "Their forest home is shrinking."
+        },
+        {
+         "q": "In which centuries did the Sao decline?",
+         "r": "about the 15th and 16th centuries",
+         "w": [
+          "the 20th century",
+          "the 1st century BC",
+          "the 19th century"
+         ],
+         "e": [
+          "Too late.",
+          "Too early.",
+          "Too late."
+         ],
+         "y": "Kanem-Bornu conquered them around the 15th–16th centuries."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-2-life",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-peoples"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why did the Sao build walls round their towns?",
+       "r": "to protect them from attack",
+       "w": [
+        "to keep out the rain",
+        "to grow crops on them",
+        "for decoration only"
+       ],
+       "e": [
+        "Walls do not stop rain.",
+        "Crops were grown in fields.",
+        "They had a defensive purpose."
+       ],
+       "y": "Walls defended the towns."
+      },
+      {
+       "q": "How did the Sao bury their dead?",
+       "r": "in large clay jars",
+       "w": [
+        "in pyramids",
+        "in the sea",
+        "they did not bury them"
+       ],
+       "e": [
+        "That was Egypt.",
+        "That is not recorded.",
+        "They buried them in jars."
+       ],
+       "y": "Burial jars have been found by archaeologists."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-2-decline",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "early-peoples"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which empire conquered the Sao?",
+       "r": "Kanem-Bornu",
+       "w": [
+        "Ghana",
+        "the Roman Empire",
+        "the British Empire"
+       ],
+       "e": [
+        "Ghana was in West Africa, far away.",
+        "The Romans did not reach Lake Chad.",
+        "That came much later."
+       ],
+       "y": "Kanem-Bornu absorbed the Sao."
+      },
+      {
+       "q": "Which people are thought to descend partly from the Sao?",
+       "r": "the Kotoko",
+       "w": [
+        "the Baka",
+        "the Duala",
+        "the Bamum"
+       ],
+       "e": [
+        "The Baka are Pygmies.",
+        "The Duala are coastal Bantu.",
+        "The Bamum are a Grassfields people."
+       ],
+       "y": "The Kotoko live in the old Sao area."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-2-today",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "early-peoples"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which problem do the Pygmies face today?",
+       "r": "the loss of their forest to logging and farming",
+       "w": [
+        "too much snow",
+        "the rise of the Sao",
+        "a shortage of sea water"
+       ],
+       "e": [
+        "Cameroon's forests have no snow.",
+        "The Sao declined long ago.",
+        "That is not their problem."
+       ],
+       "y": "Their forest home is shrinking."
+      },
+      {
+       "q": "In which centuries did the Sao decline?",
+       "r": "about the 15th and 16th centuries",
+       "w": [
+        "the 20th century",
+        "the 1st century BC",
+        "the 19th century"
+       ],
+       "e": [
+        "Too late.",
+        "Too early.",
+        "Too late."
+       ],
+       "y": "Kanem-Bornu conquered them around the 15th–16th centuries."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "early-peoples"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Sao lived in city-states.",
+      "truth": "true"
+     },
+     {
+      "text": "Kanem-Bornu conquered the Sao.",
+      "truth": "true"
+     },
+     {
+      "text": "Islam spread in the Sao area.",
+      "truth": "true"
+     },
+     {
+      "text": "The Pygmies' forest is shrinking.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Sao conquered Kanem-Bornu.",
+      "truth": "false",
+      "explain": "Kanem-Bornu conquered the Sao."
+     },
+     {
+      "text": "The Sao still rule Lake Chad today.",
+      "truth": "false",
+      "explain": "They were absorbed centuries ago."
+     },
+     {
+      "text": "Logging protects the Pygmies' forest.",
+      "truth": "false",
+      "explain": "Logging destroys it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

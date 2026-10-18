@@ -1,0 +1,364 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  16,
+  17
+ ],
+ "skills": [
+  {
+   "id": "h2-18",
+   "name": "Advantages, disadvantages and care of a traditional kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Advantages: built with cheap local materials; uses local fuels; the smoke rack preserves food; a separate hut keeps smoke and fire away from the house; a place where the family gathers.\nDisadvantages: smoke irritates the eyes and lungs; walls and pots get dirty with soot; risk of fire (thatched roofs); hard work fetching firewood; cutting trees harms the environment; less hygienic floors.\nCare of a traditional kitchen:\n• sweep daily and remove ashes when the fire is cold;\n• keep firewood dry and stacked away from the fire;\n• wash pots and utensils after use and store them on a shelf;\n• cover food and water; keep animals out;\n• clean soot from walls and the smoke rack regularly;\n• put the fire out after cooking and keep water or sand near for emergencies.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "a thatched roof"
+  },
+  "problem": "A traditional kitchen has {r}. Give two safety rules.",
+  "steps": [
+   "Never leave the fire burning when nobody is in the kitchen, and put it out after cooking.",
+   "Keep a bucket of water or sand near, and keep the fire low under the roof."
+  ],
+  "answer": "Put the fire out after cooking; keep water or sand nearby.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "A traditional kitchen is cheap and preserves food, but is smoky and risky.",
+    "vars": {},
+    "example": [
+     "Advantage: local materials.",
+     "Disadvantage: smoke."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-18-sort"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "Care: sweep daily, remove cold ashes, keep firewood dry, wash and store utensils.",
+    "vars": {},
+    "example": [
+     "Clean soot from the walls regularly."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-18-care"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "Safety: put the fire out after cooking; keep water or sand nearby.",
+    "vars": {},
+    "example": [
+     "Keep children away from the fire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-18-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchens"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should ashes be removed only when they are cold?",
+         "r": "Hot ashes can start a fire or burn you.",
+         "w": [
+          "Cold ashes are heavier.",
+          "Hot ashes are cleaner.",
+          "It does not matter."
+         ],
+         "e": [
+          "Weight is not the reason.",
+          "That is not the reason.",
+          "It matters for safety."
+         ],
+         "y": "Hot ashes are a fire and burn risk."
+        },
+        {
+         "q": "Why should firewood be kept dry?",
+         "r": "Dry wood burns well with less smoke.",
+         "w": [
+          "Wet wood burns hotter.",
+          "Dry wood rots.",
+          "Wet wood gives no smoke."
+         ],
+         "e": [
+          "Wet wood burns poorly.",
+          "Wet wood rots.",
+          "Wet wood gives more smoke."
+         ],
+         "y": "Dry wood burns cleanly."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-18-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Sort: advantage or disadvantage of a traditional kitchen?",
+   "pool": [
+    {
+     "left": "cheap local materials",
+     "right": "advantage"
+    },
+    {
+     "left": "smoke rack preserves food",
+     "right": "advantage"
+    },
+    {
+     "left": "uses local fuels",
+     "right": "advantage"
+    },
+    {
+     "left": "separate from the house",
+     "right": "advantage"
+    },
+    {
+     "left": "smoke harms eyes and lungs",
+     "right": "disadvantage"
+    },
+    {
+     "left": "soot makes walls dirty",
+     "right": "disadvantage"
+    },
+    {
+     "left": "risk of fire",
+     "right": "disadvantage"
+    },
+    {
+     "left": "cutting trees for firewood",
+     "right": "disadvantage"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "advantage",
+    "disadvantage"
+   ]
+  },
+  {
+   "id": "h2-18-care",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Put the cleaning routine after cooking in order.",
+   "items": [
+    {
+     "text": "Put out the fire"
+    },
+    {
+     "text": "Wash the pots and utensils"
+    },
+    {
+     "text": "Store them on the shelf"
+    },
+    {
+     "text": "Sweep the floor"
+    },
+    {
+     "text": "Remove the ashes when they are cold"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "h2-18-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should ashes be removed only when they are cold?",
+       "r": "Hot ashes can start a fire or burn you.",
+       "w": [
+        "Cold ashes are heavier.",
+        "Hot ashes are cleaner.",
+        "It does not matter."
+       ],
+       "e": [
+        "Weight is not the reason.",
+        "That is not the reason.",
+        "It matters for safety."
+       ],
+       "y": "Hot ashes are a fire and burn risk."
+      },
+      {
+       "q": "Why should firewood be kept dry?",
+       "r": "Dry wood burns well with less smoke.",
+       "w": [
+        "Wet wood burns hotter.",
+        "Dry wood rots.",
+        "Wet wood gives no smoke."
+       ],
+       "e": [
+        "Wet wood burns poorly.",
+        "Wet wood rots.",
+        "Wet wood gives more smoke."
+       ],
+       "y": "Dry wood burns cleanly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Sweep the kitchen daily.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep firewood dry.",
+      "truth": "true"
+     },
+     {
+      "text": "Put the fire out after cooking.",
+      "truth": "true"
+     },
+     {
+      "text": "Smoke can harm the eyes.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Leave the fire burning all night with nobody watching.",
+      "truth": "false",
+      "explain": "Never leave a fire unattended."
+     },
+     {
+      "text": "Store pots on the dirty floor.",
+      "truth": "false",
+      "explain": "Store them clean on a shelf."
+     },
+     {
+      "text": "Throw hot ashes onto the thatched roof.",
+      "truth": "false",
+      "explain": "That can start a fire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

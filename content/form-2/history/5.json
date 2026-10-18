@@ -1,0 +1,393 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  3,
+  4
+ ],
+ "skills": [
+  {
+   "id": "y2-5",
+   "name": "Guided work 1: the people of your school's region"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In this guided work you find out about the peoples of the region where your school is, by carrying out a small enquiry.\nSteps of an enquiry:\n1. Choose your questions: Which peoples live here? Where did they come from, and when? Why did they come? How are they organised? What are their main customs?\n2. Find sources: elders and traditional rulers (oral traditions), local books and museums, the council, teachers.\n3. Collect information politely: ask permission, note the person's name and the date, write carefully.\n4. Compare sources: do they agree? Oral traditions can differ from family to family.\n5. Write a short report with a title, an introduction, your findings and your sources.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "the South-West"
+  },
+  "problem": "Plan three questions for an elder about the peoples of {r}.",
+  "steps": [
+   "Origin: Where did your people come from, and how long ago?",
+   "Reasons: Why did they leave their first home?",
+   "Organisation: Who ruled the village, and how were decisions made?"
+  ],
+  "answer": "Questions on origin, reasons for migrating, and organisation.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "An enquiry starts with clear questions about origin, reasons, organisation and customs.",
+    "vars": {},
+    "example": [
+     "Where did your people come from?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-5-steps"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "Oral traditions from elders and traditional rulers are key sources.",
+    "vars": {},
+    "example": [
+     "Note the person's name and the date."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-5-source"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "Compare your sources and write a short report.",
+    "vars": {},
+    "example": [
+     "Different families may tell different versions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-5-report-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "historical-enquiry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Two elders tell different versions of a village's origin. What should you do?",
+         "r": "Record both and say that the sources differ.",
+         "w": [
+          "Choose one at random.",
+          "Invent a third version.",
+          "Leave the topic out."
+         ],
+         "e": [
+          "That is not fair to the sources.",
+          "Never invent history.",
+          "The difference is useful information."
+         ],
+         "y": "Historians compare sources and note disagreements."
+        },
+        {
+         "q": "What should the report include?",
+         "r": "a title, an introduction, findings and sources",
+         "w": [
+          "only pictures",
+          "only your name",
+          "only the questions"
+         ],
+         "e": [
+          "Words are needed too.",
+          "That is not enough.",
+          "The answers matter."
+         ],
+         "y": "A report presents findings and their sources."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-5-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "prompt": "Put the steps of the enquiry in order.",
+   "items": [
+    {
+     "text": "Choose your questions"
+    },
+    {
+     "text": "Find sources"
+    },
+    {
+     "text": "Collect information politely"
+    },
+    {
+     "text": "Compare the sources"
+    },
+    {
+     "text": "Write a short report"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "y2-5-source",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is the best source about the origins of a village?",
+       "r": "the elders and the traditional ruler",
+       "w": [
+        "a cartoon",
+        "a football magazine",
+        "a shop price list"
+       ],
+       "e": [
+        "That is fiction.",
+        "That is not about history.",
+        "That is not about history."
+       ],
+       "y": "Elders keep the oral traditions."
+      },
+      {
+       "q": "When you interview an elder, what should you note?",
+       "r": "the person's name, the date and what they said",
+       "w": [
+        "nothing, just listen",
+        "only the weather",
+        "only your own opinion"
+       ],
+       "e": [
+        "Notes are needed for the report.",
+        "That is not relevant.",
+        "Record the source's words."
+       ],
+       "y": "A good source note names the person and the date."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-5-report",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Two elders tell different versions of a village's origin. What should you do?",
+       "r": "Record both and say that the sources differ.",
+       "w": [
+        "Choose one at random.",
+        "Invent a third version.",
+        "Leave the topic out."
+       ],
+       "e": [
+        "That is not fair to the sources.",
+        "Never invent history.",
+        "The difference is useful information."
+       ],
+       "y": "Historians compare sources and note disagreements."
+      },
+      {
+       "q": "What should the report include?",
+       "r": "a title, an introduction, findings and sources",
+       "w": [
+        "only pictures",
+        "only your name",
+        "only the questions"
+       ],
+       "e": [
+        "Words are needed too.",
+        "That is not enough.",
+        "The answers matter."
+       ],
+       "y": "A report presents findings and their sources."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "prompt": "Which step is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ask permission before an interview.",
+      "truth": "true"
+     },
+     {
+      "text": "Note the date of each interview.",
+      "truth": "true"
+     },
+     {
+      "text": "Compare different sources.",
+      "truth": "true"
+     },
+     {
+      "text": "Write a short report.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Change what the elder said if you prefer another story.",
+      "truth": "false",
+      "explain": "Record what was said honestly."
+     },
+     {
+      "text": "Never note who told you the information.",
+      "truth": "false",
+      "explain": "Always note your sources."
+     },
+     {
+      "text": "Use only one source and ignore the others.",
+      "truth": "false",
+      "explain": "Compare several sources."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

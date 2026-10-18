@@ -1,0 +1,365 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "h2-17",
+   "name": "Types of fireplaces in a traditional kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Three common fireplaces:\n• Three-stone fireplace: three stones (or three mounds of earth) hold the pot, with firewood pushed in between. Cheap and simple, but it wastes heat and wood and makes a lot of smoke.\n• Improved (mud) stove: a block of mud or clay round the fire with an opening for wood and a hole for the pot, sometimes with a chimney. It keeps the heat in, uses less wood and gives less smoke.\n• Charcoal stove (charcoal pot): a metal or clay pot on legs that burns charcoal. Little smoke, easy to carry, but charcoal costs money; never use it in a closed room (carbon monoxide).\nDiagrams show how each holds the pot and where the fuel goes.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 3
+  },
+  "problem": "In the drawing, which fireplace is labelled B, and how does it save firewood?",
+  "steps": [
+   "B is the {fireAt(k, 'B')}.",
+   "{fireAt(k, 'B') == 'improved (mud) stove' ? 'The mud walls keep the heat round the pot, so less wood is needed' : (fireAt(k, 'B') == 'charcoal stove' ? 'It burns charcoal, not firewood, and keeps the heat under the pot' : 'It does not save wood: heat escapes on all sides')}."
+  ],
+  "answer": "{fireAt(k, 'B')}",
+  "checks": [],
+  "figure": "fireplaces(k)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "A three-stone fireplace is cheap and simple but wastes heat and gives a lot of smoke.",
+    "vars": {
+     "k": 0
+    },
+    "example": [
+     "Three stones hold the pot."
+    ],
+    "checks": [],
+    "figure": "fireplaces(k)",
+    "check": {
+     "ref": "h2-17-name"
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "An improved mud stove keeps the heat in, uses less wood and gives less smoke.",
+    "vars": {},
+    "example": [
+     "It may have a chimney."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-17-compare"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "A charcoal stove gives little smoke, but never use it in a closed room.",
+    "vars": {},
+    "example": [
+     "Burning charcoal gives off carbon monoxide, a deadly gas."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-17-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchens"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why must a charcoal stove never be used in a closed room?",
+         "r": "It gives off carbon monoxide, a deadly gas.",
+         "w": [
+          "It gets too cold.",
+          "It makes the room wet.",
+          "It smells of flowers."
+         ],
+         "e": [
+          "It gives heat.",
+          "It does not wet the room.",
+          "That is not the danger."
+         ],
+         "y": "Carbon monoxide can kill without warning."
+        },
+        {
+         "q": "Why is an improved stove better for health than a three-stone fire?",
+         "r": "It gives less smoke in the kitchen.",
+         "w": [
+          "It gives more smoke.",
+          "It needs more wood.",
+          "It is louder."
+         ],
+         "e": [
+          "It gives less.",
+          "It needs less.",
+          "Noise is not the reason."
+         ],
+         "y": "Less smoke means healthier lungs and eyes."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-17-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      5
+     ]
+    },
+    "L": {
+     "pick": [
+      "A",
+      "B",
+      "C"
+     ]
+    }
+   },
+   "prompt": "What is fireplace {L}?",
+   "correct": "{fireAt(k, L)}",
+   "distractors": [
+    {
+     "text": "three-stone fireplace",
+     "misconception": "other"
+    },
+    {
+     "text": "improved (mud) stove",
+     "misconception": "other"
+    },
+    {
+     "text": "charcoal stove",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Three stones: three-stone fireplace. A block of mud with an opening: improved stove. Metal pot on legs with charcoal: charcoal stove."
+    }
+   ],
+   "solution": [
+    "Look at what holds the pot and what burns.",
+    "Fireplace {L} is the {answer}."
+   ],
+   "figure": "fireplaces(k)",
+   "show": 3
+  },
+  {
+   "id": "h2-17-compare",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Match each fireplace to a feature.",
+   "pool": [
+    {
+     "left": "three-stone fireplace",
+     "right": "cheap but wastes heat and wood"
+    },
+    {
+     "left": "improved (mud) stove",
+     "right": "keeps the heat in and uses less wood"
+    },
+    {
+     "left": "charcoal stove",
+     "right": "little smoke, easy to carry, burns charcoal"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "h2-17-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why must a charcoal stove never be used in a closed room?",
+       "r": "It gives off carbon monoxide, a deadly gas.",
+       "w": [
+        "It gets too cold.",
+        "It makes the room wet.",
+        "It smells of flowers."
+       ],
+       "e": [
+        "It gives heat.",
+        "It does not wet the room.",
+        "That is not the danger."
+       ],
+       "y": "Carbon monoxide can kill without warning."
+      },
+      {
+       "q": "Why is an improved stove better for health than a three-stone fire?",
+       "r": "It gives less smoke in the kitchen.",
+       "w": [
+        "It gives more smoke.",
+        "It needs more wood.",
+        "It is louder."
+       ],
+       "e": [
+        "It gives less.",
+        "It needs less.",
+        "Noise is not the reason."
+       ],
+       "y": "Less smoke means healthier lungs and eyes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A three-stone fire wastes heat.",
+      "truth": "true"
+     },
+     {
+      "text": "An improved stove uses less wood.",
+      "truth": "true"
+     },
+     {
+      "text": "A charcoal stove is easy to carry.",
+      "truth": "true"
+     },
+     {
+      "text": "Smoke harms the eyes and lungs.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A charcoal stove is safe in a closed bedroom.",
+      "truth": "false",
+      "explain": "Carbon monoxide makes it deadly in a closed room."
+     },
+     {
+      "text": "An improved stove uses more wood than a three-stone fire.",
+      "truth": "false",
+      "explain": "It uses less wood."
+     },
+     {
+      "text": "A three-stone fire gives no smoke.",
+      "truth": "false",
+      "explain": "It gives a lot of smoke."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

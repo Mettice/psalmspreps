@@ -1,0 +1,434 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g2-1",
+   "name": "The rapid growth of the world's population"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For most of history the world's population grew slowly. It reached about 1 billion people around 1800, 2 billion around 1927, 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999, 7 billion in 2011 and 8 billion in 2022. This very fast growth is sometimes called the population explosion.\nFactors of rapid growth:\n• falling death rates: better medicine, vaccination, clean water and hygiene;\n• more food: better farming methods and transport;\n• high birth rates in many developing countries: early marriage, the value placed on large families, children helping on farms, little use of family planning;\n• longer life expectancy.\nToday growth is fastest in Africa and slowest in Europe.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1960,
+   "b": 1999,
+   "x": 3,
+   "y": 6
+  },
+  "problem": "The world had {x} billion people in {a} and {y} billion in {b}. How long did it take to double?",
+  "steps": [
+   "Doubling: from {x} billion to {y} billion.",
+   "{b} − {a} = {b - a} years."
+  ],
+  "answer": "{b - a} years.",
+  "checks": [
+   "b - a == 39"
+  ],
+  "figure": "barChart(['1800', '1927', '1960', '1974', '1987', '1999', '2011', '2022'], [1, 2, 3, 4, 5, 6, 7, 8], 'people (billions)')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "The world's population grew slowly for centuries, then very fast after about {y}.",
+    "vars": {
+     "y": 1900,
+     "one": 1,
+     "a": 1800,
+     "eight": 8,
+     "b": 2022
+    },
+    "example": [
+     "About {one} billion around {a}; about {eight} billion in {b}."
+    ],
+    "checks": [],
+    "figure": "barChart(['1800', '1927', '1960', '1974', '1987', '1999', '2011', '2022'], [1, 2, 3, 4, 5, 6, 7, 8], 'people (billions)')",
+    "check": {
+     "ref": "g2-1-read"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "Falling death rates, thanks to medicine, vaccines and clean water, are the main cause of rapid growth.",
+    "vars": {},
+    "example": [
+     "More babies survive and people live longer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-1-factor"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "High birth rates continue in many developing countries.",
+    "vars": {},
+    "example": [
+     "Early marriage and the value of large families keep birth rates high."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-1-where-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "world-population"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Where is the population growing fastest today?",
+         "r": "Africa",
+         "w": [
+          "Europe",
+          "North America",
+          "Australia"
+         ],
+         "e": [
+          "Europe grows slowest.",
+          "Growth there is slow.",
+          "Growth there is slow."
+         ],
+         "y": "Africa has the highest birth rates."
+        },
+        {
+         "q": "Why do falling death rates make a population grow?",
+         "r": "More people survive while births stay high.",
+         "w": [
+          "Fewer babies are born.",
+          "People move to other planets.",
+          "Births stop."
+         ],
+         "e": [
+          "Births stay high.",
+          "That is not true.",
+          "Births continue."
+         ],
+         "y": "Births minus deaths gets bigger."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-1-read",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "About how many people lived in the world in 2022?",
+       "r": "8 billion",
+       "w": [
+        "1 billion",
+        "3 billion",
+        "80 million"
+       ],
+       "e": [
+        "That was around 1800.",
+        "That was in 1960.",
+        "That is far too few."
+       ],
+       "y": "The world reached 8 billion in 2022."
+      },
+      {
+       "q": "When did the world reach about 1 billion people?",
+       "r": "around 1800",
+       "w": [
+        "around 1960",
+        "around 2011",
+        "around the year 1000"
+       ],
+       "e": [
+        "It was 3 billion in 1960.",
+        "It was 7 billion in 2011.",
+        "It was much less then."
+       ],
+       "y": "About 1 billion around 1800."
+      },
+      {
+       "q": "Between 1960 and 1999 the world's population …",
+       "r": "doubled from 3 to 6 billion",
+       "w": [
+        "stayed the same",
+        "fell",
+        "grew by only a little"
+       ],
+       "e": [
+        "It grew a lot.",
+        "It grew.",
+        "It doubled."
+       ],
+       "y": "3 billion to 6 billion is doubling."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-1-factor",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "prompt": "Which is a factor of the rapid growth of the world's population?",
+   "pool": {
+    "right": [
+     {
+      "text": "better medicine and vaccination",
+      "truth": "true"
+     },
+     {
+      "text": "clean water and better hygiene",
+      "truth": "true"
+     },
+     {
+      "text": "more food from better farming",
+      "truth": "true"
+     },
+     {
+      "text": "high birth rates in developing countries",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "more wars and famines",
+      "truth": "false",
+      "explain": "Wars and famines raise death rates and slow growth."
+     },
+     {
+      "text": "fewer babies surviving",
+      "truth": "false",
+      "explain": "More babies survive today."
+     },
+     {
+      "text": "shorter lives",
+      "truth": "false",
+      "explain": "People live longer today."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "g2-1-where",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where is the population growing fastest today?",
+       "r": "Africa",
+       "w": [
+        "Europe",
+        "North America",
+        "Australia"
+       ],
+       "e": [
+        "Europe grows slowest.",
+        "Growth there is slow.",
+        "Growth there is slow."
+       ],
+       "y": "Africa has the highest birth rates."
+      },
+      {
+       "q": "Why do falling death rates make a population grow?",
+       "r": "More people survive while births stay high.",
+       "w": [
+        "Fewer babies are born.",
+        "People move to other planets.",
+        "Births stop."
+       ],
+       "e": [
+        "Births stay high.",
+        "That is not true.",
+        "Births continue."
+       ],
+       "y": "Births minus deaths gets bigger."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-1-double",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "world-population"
+   ],
+   "vars": {
+    "d": {
+     "pick": [
+      20,
+      25,
+      30,
+      35
+     ]
+    },
+    "p": {
+     "int": [
+      3,
+      30
+     ]
+    },
+    "two": 2
+   },
+   "prompt": "A country's population doubles every {d} years. It has {p} million people today. How many millions will it have in {2 * d} years?",
+   "answer": "p * 4",
+   "misconceptions": [
+    {
+     "id": "once",
+     "wrong": "p * 2",
+     "explain": "That is after {d} years. In {2 * d} years it doubles twice."
+    },
+    {
+     "id": "added",
+     "wrong": "p * 3",
+     "explain": "Doubling twice multiplies by four, not three."
+    }
+   ],
+   "solution": [
+    "In {d} years it doubles: {p} × {two} = {p * 2} million.",
+    "In another {d} years it doubles again: {p * 2} × {two} = {answer} million."
+   ],
+   "unit": "million"
+  }
+ ]
+}

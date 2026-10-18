@@ -1,0 +1,294 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-19",
+   "name": "The modern kitchen: planning, management and shapes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A modern kitchen is inside the house, with running water, electricity or gas, fitted units and a sink.\nPlanning: the work triangle joins the sink, the cooker and the fridge. Each side should be about 1.2 m to 2.7 m, and the total 4 m to 7.9 m, so the cook does not walk too far.\nManagement: keep work flowing in order (store → prepare → cook → serve → wash), keep surfaces clear, store things near where they are used.\nShapes (seen from above):\n• one-wall (single-line): everything along one wall; small kitchens;\n• galley (corridor): two parallel rows;\n• L-shaped: two walls meeting at a corner;\n• U-shaped: three walls; much storage;\n• island: an extra free-standing counter in the middle; needs a big room.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1.8,
+   "b": 2.1,
+   "c": 2.4
+  },
+  "problem": "In a kitchen the sink–cooker side is {a} m, cooker–fridge {b} m and fridge–sink {c} m. Is the work triangle well planned?",
+  "steps": [
+   "Total = {a} + {b} + {c} = {triangleTotal(a, b, c)} m.",
+   "Each side is between {sideMin()} m and {sideMax()} m, and the total is between {totalMin()} m and {totalMax()} m.",
+   "{triangleVerdict(a, b, c)}"
+  ],
+  "answer": "{goodTriangle(a, b, c) ? 'Yes' : 'No'}",
+  "checks": [
+   "goodTriangle(a, b, c)"
+  ],
+  "figure": "workTriangle(a, b, c)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "The work triangle joins the sink, the cooker and the fridge.",
+    "vars": {
+     "a": 1.8,
+     "b": 2.1,
+     "c": 2.4
+    },
+    "example": [
+     "Short sides save steps; very short sides make the kitchen cramped."
+    ],
+    "checks": [],
+    "figure": "workTriangle(a, b, c)",
+    "check": {
+     "ref": "h2-19-total"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "Kitchen shapes: one-wall, galley, L-shaped, U-shaped, island.",
+    "vars": {},
+    "example": [
+     "U-shaped: counters on three walls."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-19-shape"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "Good management follows the order of work: store, prepare, cook, serve, wash.",
+    "vars": {},
+    "example": [
+     "Keep things near where they are used."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-19-order-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchens"
+     ],
+     "prompt": "Put the order of work in a kitchen in order.",
+     "items": [
+      {
+       "text": "Store"
+      },
+      {
+       "text": "Prepare"
+      },
+      {
+       "text": "Cook"
+      },
+      {
+       "text": "Serve"
+      },
+      {
+       "text": "Wash up"
+      }
+     ],
+     "order": "as_written"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-19-total",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      12,
+      27
+     ]
+    },
+    "y": {
+     "int": [
+      12,
+      27
+     ]
+    },
+    "z": {
+     "int": [
+      12,
+      27
+     ]
+    },
+    "a": {
+     "expr": "x / 10"
+    },
+    "b": {
+     "expr": "y / 10"
+    },
+    "c": {
+     "expr": "z / 10"
+    }
+   },
+   "prompt": "The sides of a work triangle are {a} m, {b} m and {c} m. What is its total length?",
+   "answer": "triangleTotal(a, b, c)",
+   "solution": [
+    "Add the three sides.",
+    "{a} + {b} + {c} = {answer} m."
+   ],
+   "unit": "m",
+   "figure": "workTriangle(a, b, c)",
+   "where": [
+    "isTriangle(a, b, c)"
+   ]
+  },
+  {
+   "id": "h2-19-shape",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      4
+     ]
+    }
+   },
+   "prompt": "The counters are shaded. Which kitchen shape is this?",
+   "correct": "{shapeName(i)}",
+   "distractors": [
+    {
+     "text": "{shapeName((i + 1) % 5)}",
+     "misconception": "w"
+    },
+    {
+     "text": "{shapeName((i + 2) % 5)}",
+     "misconception": "w"
+    },
+    {
+     "text": "{shapeName((i + 3) % 5)}",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "One wall: one-wall. Two facing rows: galley. Two walls at a corner: L. Three walls: U. A counter in the middle: island."
+    }
+   ],
+   "solution": [
+    "Look at which walls have counters.",
+    "This is the {answer} kitchen."
+   ],
+   "figure": "kitchenPlan(i)"
+  },
+  {
+   "id": "h2-19-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Put the order of work in a kitchen in order.",
+   "items": [
+    {
+     "text": "Store"
+    },
+    {
+     "text": "Prepare"
+    },
+    {
+     "text": "Cook"
+    },
+    {
+     "text": "Serve"
+    },
+    {
+     "text": "Wash up"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "h2-19-verdict",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "y": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "z": {
+     "int": [
+      9,
+      32
+     ]
+    },
+    "a": {
+     "expr": "x / 10"
+    },
+    "b": {
+     "expr": "y / 10"
+    },
+    "c": {
+     "expr": "z / 10"
+    }
+   },
+   "prompt": "A work triangle has sides {a} m, {b} m and {c} m. Is it well planned?",
+   "correct": "{goodTriangle(a, b, c) ? 'Yes' : 'No'}",
+   "distractors": [
+    {
+     "text": "{goodTriangle(a, b, c) ? 'No' : 'Yes'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "{triangleVerdict(a, b, c)}"
+    }
+   ],
+   "solution": [
+    "Total = {triangleTotal(a, b, c)} m. Sides should be {sideMin()} m to {sideMax()} m and the total {totalMin()} m to {totalMax()} m.",
+    "{triangleVerdict(a, b, c)} So: {answer}."
+   ],
+   "where": [
+    "isTriangle(a, b, c)"
+   ],
+   "figure": "workTriangle(a, b, c)",
+   "show": 2
+  }
+ ]
+}

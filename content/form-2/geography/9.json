@@ -1,0 +1,368 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "g2-9",
+   "name": "Man in the equatorial zone: problems and solutions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Problems faced by people in the equatorial zone:\n• dense forest that is hard and costly to clear; trees hard to transport;\n• heavy rain that washes nutrients out of the soil (leaching), so soils become poor once the forest is cleared; soil erosion;\n• poor roads that become muddy in the rains; few railways;\n• pests and diseases: malaria (mosquitoes), sleeping sickness (tsetse flies), crop pests and fungi in the humid air;\n• high humidity that makes hard work tiring and food rot quickly;\n• deforestation and loss of wildlife.\nProposed solutions: build and maintain roads and bridges; use fertilisers, crop rotation and agroforestry; replant trees after logging and protect national parks; fight diseases with nets, vaccines and spraying; preserve and process crops quickly.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "a farmer who cleared forest three years ago"
+  },
+  "problem": "Why do the crops of {p} grow worse each year?",
+  "steps": [
+   "Once the forest is cleared, heavy rain falls directly on the soil.",
+   "It washes the nutrients down out of reach (leaching) and erodes the topsoil, so the soil becomes poor."
+  ],
+  "answer": "Leaching and erosion make the soil poor after the forest is cleared.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Heavy rain leaches nutrients from cleared soils and causes erosion.",
+    "vars": {},
+    "example": [
+     "Soils become poor after a few years of farming."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-9-problem"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Diseases such as malaria and sleeping sickness are common in the hot, wet forest.",
+    "vars": {},
+    "example": [
+     "Mosquitoes and tsetse flies thrive there."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-9-match"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "Solutions: roads, fertilisers, replanting, parks and disease control.",
+    "vars": {},
+    "example": [
+     "Agroforestry mixes crops with trees."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-9-solve-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "equatorial-zone"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is leaching?",
+         "r": "rain water washing nutrients down out of the soil",
+         "w": [
+          "wind blowing sand",
+          "the soil getting hotter",
+          "trees growing faster"
+         ],
+         "e": [
+          "That is wind erosion.",
+          "That is not it.",
+          "That is not it."
+         ],
+         "y": "Heavy rain carries nutrients down beyond the roots."
+        },
+        {
+         "q": "Why does food rot quickly in the equatorial zone?",
+         "r": "The high heat and humidity help moulds and bacteria grow.",
+         "w": [
+          "It is too cold.",
+          "There is no rain.",
+          "The air is dry."
+         ],
+         "e": [
+          "It is hot.",
+          "It rains a lot.",
+          "The air is humid."
+         ],
+         "y": "Warm, damp conditions speed up decay."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-9-problem",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equatorial-zone"
+   ],
+   "prompt": "Which is a problem faced by people in the equatorial zone?",
+   "pool": {
+    "right": [
+     {
+      "text": "leaching of soils by heavy rain",
+      "truth": "true"
+     },
+     {
+      "text": "dense forest that is hard to clear",
+      "truth": "true"
+     },
+     {
+      "text": "roads that become muddy in the rains",
+      "truth": "true"
+     },
+     {
+      "text": "diseases such as malaria",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "very little rain all year",
+      "truth": "false",
+      "explain": "It rains heavily all year."
+     },
+     {
+      "text": "snow blocking the roads",
+      "truth": "false",
+      "explain": "It never snows; it is hot."
+     },
+     {
+      "text": "too few trees",
+      "truth": "false",
+      "explain": "The problem is dense forest, though deforestation is growing."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "g2-9-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equatorial-zone"
+   ],
+   "prompt": "Match each problem to a solution.",
+   "pool": [
+    {
+     "left": "muddy, poor roads",
+     "right": "build and maintain roads and bridges"
+    },
+    {
+     "left": "leached, poor soils",
+     "right": "use fertilisers and crop rotation"
+    },
+    {
+     "left": "deforestation",
+     "right": "replant trees and protect national parks"
+    },
+    {
+     "left": "malaria",
+     "right": "use mosquito nets and clear stagnant water"
+    },
+    {
+     "left": "crops rotting quickly",
+     "right": "process and preserve crops quickly"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "g2-9-solve",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "equatorial-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is leaching?",
+       "r": "rain water washing nutrients down out of the soil",
+       "w": [
+        "wind blowing sand",
+        "the soil getting hotter",
+        "trees growing faster"
+       ],
+       "e": [
+        "That is wind erosion.",
+        "That is not it.",
+        "That is not it."
+       ],
+       "y": "Heavy rain carries nutrients down beyond the roots."
+      },
+      {
+       "q": "Why does food rot quickly in the equatorial zone?",
+       "r": "The high heat and humidity help moulds and bacteria grow.",
+       "w": [
+        "It is too cold.",
+        "There is no rain.",
+        "The air is dry."
+       ],
+       "e": [
+        "It is hot.",
+        "It rains a lot.",
+        "The air is humid."
+       ],
+       "y": "Warm, damp conditions speed up decay."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "equatorial-zone"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Heavy rain causes leaching.",
+      "truth": "true"
+     },
+     {
+      "text": "Tsetse flies spread sleeping sickness.",
+      "truth": "true"
+     },
+     {
+      "text": "Replanting trees helps after logging.",
+      "truth": "true"
+     },
+     {
+      "text": "Roads become muddy in the rains.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cleared equatorial soils stay fertile for ever.",
+      "truth": "false",
+      "explain": "They become poor after a few years because of leaching."
+     },
+     {
+      "text": "Malaria is spread by tsetse flies.",
+      "truth": "false",
+      "explain": "Malaria is spread by mosquitoes."
+     },
+     {
+      "text": "The equatorial zone is cold and dry.",
+      "truth": "false",
+      "explain": "It is hot and wet."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

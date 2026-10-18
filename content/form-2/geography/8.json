@@ -1,0 +1,382 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g2-8",
+   "name": "Man in the equatorial zone: location, climate and resources"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Location: the equatorial zone lies within about 5° to 10° north and south of the equator: the Congo basin (including southern Cameroon), the coast of West Africa, the Amazon basin, and South-East Asia (Indonesia, Malaysia).\nClimate: hot all year (about 26–27 °C), with a very small annual range of temperature (2–3 °C); heavy rain all year (over 1500–2000 mm), mostly convectional rain in the afternoons, with two peaks; high humidity.\nNatural vegetation: dense evergreen rainforest with tall trees in layers.\nResources: timber (mahogany, ebony, iroko, sapele), cash crops (cocoa, coffee, oil palm, rubber, bananas), food crops (cassava, plantains, cocoyams), minerals (oil, iron ore, gold), wildlife and rivers.\nMethods of exploitation: lumbering, plantation agriculture, shifting cultivation and bush fallowing, hunting and gathering (the Baka and other forest peoples), mining.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 26,
+   "r": 2,
+   "mm": 2000
+  },
+  "problem": "A town has temperatures of about {t} °C all year (range {r} °C) and {mm} mm of rain spread over the year. Which climate zone is it in? Explain.",
+  "steps": [
+   "Hot all year with a very small temperature range: typical of the equatorial zone.",
+   "Heavy rain all year (over {mm} mm) confirms it."
+  ],
+  "answer": "The equatorial zone: hot, wet all year, small range.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "The equatorial zone lies near the equator: the Congo basin, the Amazon, South-East Asia.",
+    "vars": {},
+    "example": [
+     "Southern Cameroon is in the equatorial zone."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-8-where"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "The equatorial climate is hot and wet all year, with a small temperature range.",
+    "vars": {
+     "t": 27
+    },
+    "example": [
+     "About {t} °C all year; heavy afternoon rain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-8-climate"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Resources: timber, cash crops, food crops, minerals, wildlife.",
+    "vars": {},
+    "example": [
+     "Mahogany and ebony are valuable timbers."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-8-resource-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "equatorial-zone"
+     ],
+     "prompt": "Match each resource to its type.",
+     "pool": [
+      {
+       "left": "mahogany",
+       "right": "timber"
+      },
+      {
+       "left": "ebony",
+       "right": "timber"
+      },
+      {
+       "left": "cocoa",
+       "right": "cash crop"
+      },
+      {
+       "left": "rubber",
+       "right": "cash crop"
+      },
+      {
+       "left": "cassava",
+       "right": "food crop"
+      },
+      {
+       "left": "plantain",
+       "right": "food crop"
+      },
+      {
+       "left": "crude oil",
+       "right": "mineral"
+      }
+     ],
+     "pick": 4,
+     "groups": true,
+     "group_order": [
+      "timber",
+      "cash crop",
+      "food crop",
+      "mineral"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-8-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equatorial-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these areas is in the equatorial zone?",
+       "r": "the Congo basin",
+       "w": [
+        "the Sahara",
+        "Greenland",
+        "the Mediterranean coast"
+       ],
+       "e": [
+        "That is a hot desert.",
+        "That is a cold land.",
+        "That has a Mediterranean climate."
+       ],
+       "y": "The Congo basin lies on the equator."
+      },
+      {
+       "q": "About how far from the equator does the equatorial zone extend?",
+       "r": "about 5° to 10° north and south",
+       "w": [
+        "about 40° north and south",
+        "only at the poles",
+        "about 23° north only"
+       ],
+       "e": [
+        "That is too far.",
+        "The poles are cold.",
+        "It is on both sides of the equator."
+       ],
+       "y": "It lies close to the equator."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-8-climate",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "equatorial-zone"
+   ],
+   "prompt": "Which is a feature of the equatorial climate?",
+   "pool": {
+    "right": [
+     {
+      "text": "hot all year",
+      "truth": "true"
+     },
+     {
+      "text": "heavy rain all year",
+      "truth": "true"
+     },
+     {
+      "text": "a small annual range of temperature",
+      "truth": "true"
+     },
+     {
+      "text": "high humidity",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a long dry season with no rain",
+      "truth": "false",
+      "explain": "Rain falls all year."
+     },
+     {
+      "text": "a large annual range of temperature",
+      "truth": "false",
+      "explain": "The range is very small, 2–3 °C."
+     },
+     {
+      "text": "snow in the cool season",
+      "truth": "false",
+      "explain": "It is hot all year."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "g2-8-resource",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "equatorial-zone"
+   ],
+   "prompt": "Match each resource to its type.",
+   "pool": [
+    {
+     "left": "mahogany",
+     "right": "timber"
+    },
+    {
+     "left": "ebony",
+     "right": "timber"
+    },
+    {
+     "left": "cocoa",
+     "right": "cash crop"
+    },
+    {
+     "left": "rubber",
+     "right": "cash crop"
+    },
+    {
+     "left": "cassava",
+     "right": "food crop"
+    },
+    {
+     "left": "plantain",
+     "right": "food crop"
+    },
+    {
+     "left": "crude oil",
+     "right": "mineral"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "timber",
+    "cash crop",
+    "food crop",
+    "mineral"
+   ]
+  },
+  {
+   "id": "g2-8-method",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "equatorial-zone"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is shifting cultivation?",
+       "r": "clearing a plot, farming it for a few years, then moving to a new plot",
+       "w": [
+        "farming one plot for ever",
+        "growing crops in glass houses",
+        "fishing at sea"
+       ],
+       "e": [
+        "That is permanent farming.",
+        "That is not it.",
+        "That is fishing."
+       ],
+       "y": "The old plot is left to recover."
+      },
+      {
+       "q": "Which method of exploitation produces timber?",
+       "r": "lumbering",
+       "w": [
+        "fishing",
+        "plantation agriculture",
+        "mining"
+       ],
+       "e": [
+        "Fishing produces fish.",
+        "Plantations produce crops.",
+        "Mining produces minerals."
+       ],
+       "y": "Lumbering is cutting trees for timber."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

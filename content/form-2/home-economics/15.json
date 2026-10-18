@@ -1,0 +1,392 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "h2-15",
+   "name": "Preventing water-borne diseases"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Water-borne diseases are prevented by keeping germs out of water and food:\n• Treat drinking water: boil it (rolling boil for at least one minute), filter it, or add chlorine (water-treatment tablets or a few drops of bleach as instructed).\n• Store treated water in clean, covered containers and use a clean cup or tap to take it out.\n• Use latrines or toilets; never defecate near streams or wells; keep latrines away from water sources.\n• Wash hands with soap and water after using the toilet and before cooking or eating.\n• Wash fruits and vegetables with clean water; cook food well; cover food from flies.\n• Protect wells and springs; clear stagnant water; do not bathe or wade in streams where bilharzia is common.\n• Vaccination is available for some (cholera, typhoid, hepatitis A).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "a village with one stream"
+  },
+  "problem": "Give three ways that {v} can reduce water-borne diseases.",
+  "steps": [
+   "Build latrines away from the stream so faeces do not reach it.",
+   "Boil or chlorinate drinking water and store it covered.",
+   "Wash hands with soap after the toilet and before eating."
+  ],
+  "answer": "Latrines away from the stream, treated and covered water, handwashing with soap.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "Make drinking water safe by boiling, filtering or chlorinating it.",
+    "vars": {},
+    "example": [
+     "Store it covered, in a clean container."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-15-water"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Use latrines, and wash hands with soap after the toilet and before eating.",
+    "vars": {},
+    "example": [
+     "Keep latrines away from water sources."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-15-hygiene"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "Wash fruits and vegetables, cook food well and cover it from flies.",
+    "vars": {},
+    "example": [
+     "Flies carry germs from faeces to food."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-15-food-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "water-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should food be covered?",
+         "r": "Flies carry germs from faeces to food.",
+         "w": [
+          "To keep it cold.",
+          "To make it sweeter.",
+          "To add vitamins."
+         ],
+         "e": [
+          "Covering does not cool it.",
+          "It does not change taste.",
+          "It adds no vitamins."
+         ],
+         "y": "Covering keeps flies off."
+        },
+        {
+         "q": "Which method makes water safe by killing germs with a chemical?",
+         "r": "chlorination",
+         "w": [
+          "boiling",
+          "settling",
+          "filtering through cloth"
+         ],
+         "e": [
+          "Boiling uses heat.",
+          "Settling only lets dirt sink.",
+          "Cloth removes dirt, not all germs."
+         ],
+         "y": "Chlorine kills germs."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-15-water",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "prompt": "Put the steps for making stream water safe to drink in order.",
+   "items": [
+    {
+     "text": "Fetch the water in a clean container"
+    },
+    {
+     "text": "Let it settle and filter it through a clean cloth"
+    },
+    {
+     "text": "Boil it for at least one minute"
+    },
+    {
+     "text": "Let it cool with the lid on"
+    },
+    {
+     "text": "Store it covered and pour it out with a clean cup"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "h2-15-hygiene",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When should you wash your hands with soap?",
+       "r": "after using the toilet and before eating or cooking",
+       "w": [
+        "only once a week",
+        "only after eating",
+        "never, water is enough"
+       ],
+       "e": [
+        "Hands get dirty every day.",
+        "Before eating is just as important.",
+        "Soap removes germs that water alone leaves."
+       ],
+       "y": "These are the key times to remove germs."
+      },
+      {
+       "q": "Where should a latrine be built?",
+       "r": "far from wells and streams",
+       "w": [
+        "next to the well",
+        "in the stream",
+        "near the kitchen water pot"
+       ],
+       "e": [
+        "Germs would reach the well.",
+        "That pollutes the stream.",
+        "That is dangerous."
+       ],
+       "y": "Distance keeps faeces out of water sources."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-15-food",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should food be covered?",
+       "r": "Flies carry germs from faeces to food.",
+       "w": [
+        "To keep it cold.",
+        "To make it sweeter.",
+        "To add vitamins."
+       ],
+       "e": [
+        "Covering does not cool it.",
+        "It does not change taste.",
+        "It adds no vitamins."
+       ],
+       "y": "Covering keeps flies off."
+      },
+      {
+       "q": "Which method makes water safe by killing germs with a chemical?",
+       "r": "chlorination",
+       "w": [
+        "boiling",
+        "settling",
+        "filtering through cloth"
+       ],
+       "e": [
+        "Boiling uses heat.",
+        "Settling only lets dirt sink.",
+        "Cloth removes dirt, not all germs."
+       ],
+       "y": "Chlorine kills germs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-15-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Boiling water kills germs.",
+      "truth": "true"
+     },
+     {
+      "text": "Latrines should be far from wells.",
+      "truth": "true"
+     },
+     {
+      "text": "Hands should be washed with soap.",
+      "truth": "true"
+     },
+     {
+      "text": "Treated water should be kept covered.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Drinking water straight from the stream is always safe.",
+      "truth": "false",
+      "explain": "Stream water may carry germs: treat it first."
+     },
+     {
+      "text": "Flies keep food clean.",
+      "truth": "false",
+      "explain": "Flies carry germs to food."
+     },
+     {
+      "text": "Putting a dirty hand into the water pot is fine.",
+      "truth": "false",
+      "explain": "Use a clean cup or tap to take water out."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

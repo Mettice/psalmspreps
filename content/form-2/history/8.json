@@ -1,0 +1,396 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  6,
+  7
+ ],
+ "skills": [
+  {
+   "id": "y2-8",
+   "name": "Further study 1: a centralised and an egalitarian society"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "This further study compares one centralised and one egalitarian society, for example the Bamum kingdom and the Beti.\nBamum (centralised): capital Foumban; ruled by a sultan (mfon) from a large palace; officials and secret societies; an army; tribute; King Njoya (ruled about 1886–1933) invented a script, a religion and a map of his kingdom and built a new palace.\nBeti (egalitarian): in the Centre and South; independent villages; authority of family heads (nkukuma, rich and respected men) and councils of elders; the so ceremony (initiation) and other rites united them; no central army or taxes.\nTo compare, use headings: political organisation, economy, religion, culture and achievements.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "Bamum",
+   "b": "Beti"
+  },
+  "problem": "Compare the political organisation of the {a} and the {b}.",
+  "steps": [
+   "{a}: one powerful sultan with a palace, officials, an army and tribute.",
+   "{b}: no single ruler; family heads and councils of elders shared authority, villages were independent."
+  ],
+  "answer": "{a}: centralised under a sultan; {b}: egalitarian, with elders and family heads.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "Compare societies under headings: politics, economy, religion, culture, achievements.",
+    "vars": {},
+    "example": [
+     "A table makes the comparison clear."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-8-heading"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "Bamum: capital Foumban, a sultan, a palace, a script invented by Njoya.",
+    "vars": {
+     "a": 1886,
+     "b": 1933
+    },
+    "example": [
+     "Njoya ruled from about {a} to {b}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-8-bamum"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "Beti: independent villages led by family heads and elders, united by rites.",
+    "vars": {},
+    "example": [
+     "No central army or taxes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-8-beti-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "precolonial-societies"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Who held authority in a Beti village?",
+         "r": "family heads and councils of elders",
+         "w": [
+          "a sultan",
+          "a lamido",
+          "a colonial officer"
+         ],
+         "e": [
+          "That was Bamum.",
+          "That was the Fulani.",
+          "That came later."
+         ],
+         "y": "Beti society was egalitarian."
+        },
+        {
+         "q": "What united the independent Beti villages?",
+         "r": "family ties, marriage and shared rites",
+         "w": [
+          "a central army",
+          "taxes paid to a king",
+          "a written constitution"
+         ],
+         "e": [
+          "They had no central army.",
+          "They had no king.",
+          "They had no written constitution."
+         ],
+         "y": "Kinship and rites linked the villages."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-8-heading",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "prompt": "Put the headings of a comparison in a sensible order.",
+   "items": [
+    {
+     "text": "Introduction: the two societies and where they lived"
+    },
+    {
+     "text": "Political organisation"
+    },
+    {
+     "text": "Economy"
+    },
+    {
+     "text": "Religion and culture"
+    },
+    {
+     "text": "Conclusion: main similarities and differences"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "y2-8-bamum",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What was the capital of the Bamum kingdom?",
+       "r": "Foumban",
+       "w": [
+        "Yaoundé",
+        "Garoua",
+        "Buea"
+       ],
+       "e": [
+        "Yaoundé is in Beti country.",
+        "Garoua is a Fulani lamidate.",
+        "Buea is in the South-West."
+       ],
+       "y": "Foumban was the Bamum capital."
+      },
+      {
+       "q": "Which achievement is linked to King Njoya?",
+       "r": "inventing a script for the Bamum language",
+       "w": [
+        "leading the Fulani jihad",
+        "founding Douala port",
+        "building the Sao towns"
+       ],
+       "e": [
+        "That was Modibo Adama.",
+        "Douala's port grew under the Duala and later colonists.",
+        "The Sao were much earlier."
+       ],
+       "y": "Njoya created the Bamum script."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-8-beti",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Who held authority in a Beti village?",
+       "r": "family heads and councils of elders",
+       "w": [
+        "a sultan",
+        "a lamido",
+        "a colonial officer"
+       ],
+       "e": [
+        "That was Bamum.",
+        "That was the Fulani.",
+        "That came later."
+       ],
+       "y": "Beti society was egalitarian."
+      },
+      {
+       "q": "What united the independent Beti villages?",
+       "r": "family ties, marriage and shared rites",
+       "w": [
+        "a central army",
+        "taxes paid to a king",
+        "a written constitution"
+       ],
+       "e": [
+        "They had no central army.",
+        "They had no king.",
+        "They had no written constitution."
+       ],
+       "y": "Kinship and rites linked the villages."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Foumban was the Bamum capital.",
+      "truth": "true"
+     },
+     {
+      "text": "Njoya invented a script.",
+      "truth": "true"
+     },
+     {
+      "text": "The Beti had councils of elders.",
+      "truth": "true"
+     },
+     {
+      "text": "Bamum had a sultan.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Beti were ruled by King Njoya.",
+      "truth": "false",
+      "explain": "Njoya ruled Bamum; the Beti had no king."
+     },
+     {
+      "text": "Bamum had no central ruler.",
+      "truth": "false",
+      "explain": "Bamum had a sultan."
+     },
+     {
+      "text": "Foumban was the Beti capital.",
+      "truth": "false",
+      "explain": "Foumban was the Bamum capital."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

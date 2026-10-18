@@ -1,0 +1,389 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-16",
+   "name": "Items found in a traditional kitchen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A traditional kitchen is usually a separate hut with a fireplace, using local materials and fuels.\nCommon items and their uses:\n• fireplace (three stones), firewood store;\n• clay pots: cooking and keeping water cool;\n• grinding stone: grinding pepper, egusi and spices;\n• mortar and pestle: pounding fufu, yams and cocoyams;\n• smoke rack above the fire: drying and smoking fish, meat and maize;\n• calabashes: serving drinks, storing grains;\n• charcoal pots and sawdust stoves: cooking with charcoal or sawdust;\n• wooden spoons and baskets.\nFuels: firewood, charcoal, sawdust, dried palm fronds and kernel shells.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 100
+  },
+  "problem": "Look at the drawing of a traditional kitchen. The part labelled {letterOf(k, 6, 1)} hangs above the fire. What is it and what is it used for?",
+  "steps": [
+   "It is the smoke rack.",
+   "Fish, meat and maize placed on it are dried and preserved by the smoke and heat."
+  ],
+  "answer": "The smoke rack: for drying and smoking food.",
+  "checks": [],
+  "figure": "traditionalKitchen(k)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "A traditional kitchen uses local items: clay pots, a grinding stone, a mortar and pestle, calabashes.",
+    "vars": {},
+    "example": [
+     "Mortar and pestle: pounding fufu.",
+     "Grinding stone: grinding pepper."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-16-use"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "The smoke rack above the fire dries and preserves food.",
+    "vars": {
+     "k": 0
+    },
+    "example": [
+     "Smoked fish keeps for many days."
+    ],
+    "checks": [],
+    "figure": "traditionalKitchen(k)",
+    "check": {
+     "ref": "h2-16-label"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "Traditional fuels: firewood, charcoal, sawdust, palm kernel shells.",
+    "vars": {},
+    "example": [
+     "A sawdust stove burns sawdust packed round a central hole."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-16-fuel-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "kitchens"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which of these is a traditional kitchen fuel?",
+         "r": "firewood",
+         "w": [
+          "electricity",
+          "cooking gas",
+          "solar panels"
+         ],
+         "e": [
+          "That is a modern fuel.",
+          "That is a modern fuel.",
+          "That is not a traditional fuel."
+         ],
+         "y": "Firewood is the main traditional fuel."
+        },
+        {
+         "q": "What fuel does a sawdust stove use?",
+         "r": "sawdust from sawmills",
+         "w": [
+          "kerosene",
+          "cooking gas",
+          "palm oil"
+         ],
+         "e": [
+          "That is for lamps and stoves.",
+          "That is for gas cookers.",
+          "That is food."
+         ],
+         "y": "Packed sawdust burns slowly."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-16-use",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Match each item to its use.",
+   "pool": [
+    {
+     "left": "grinding stone",
+     "right": "grinding pepper, egusi and spices"
+    },
+    {
+     "left": "mortar and pestle",
+     "right": "pounding fufu, yams and cocoyams"
+    },
+    {
+     "left": "clay pot",
+     "right": "cooking and storing water"
+    },
+    {
+     "left": "smoke rack",
+     "right": "drying and smoking fish, meat and maize"
+    },
+    {
+     "left": "calabash",
+     "right": "serving drinks and storing grains"
+    },
+    {
+     "left": "charcoal pot",
+     "right": "cooking with charcoal"
+    },
+    {
+     "left": "sawdust stove",
+     "right": "cooking with sawdust as fuel"
+    },
+    {
+     "left": "wooden spoon",
+     "right": "stirring food"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-16-label",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      0,
+      719
+     ]
+    },
+    "i": {
+     "int": [
+      0,
+      5
+     ]
+    }
+   },
+   "prompt": "Which letter shows the {tradPart(i)}?",
+   "correct": "{letterOf(k, 6, i)}",
+   "distractors": [
+    {
+     "text": "{letterOf(k, 6, (i + 1) % 6)}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{letterOf(k, 6, (i + 2) % 6)}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{letterOf(k, 6, (i + 3) % 6)}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{letterOf(k, 6, (i + 1) % 6)} is the {tradPart((i + 1) % 6)}."
+    },
+    {
+     "id": "w2",
+     "explain": "{letterOf(k, 6, (i + 2) % 6)} is the {tradPart((i + 2) % 6)}."
+    },
+    {
+     "id": "w3",
+     "explain": "{letterOf(k, 6, (i + 3) % 6)} is the {tradPart((i + 3) % 6)}."
+    }
+   ],
+   "solution": [
+    "The {tradPart(i)} is labelled {answer}."
+   ],
+   "figure": "traditionalKitchen(k)"
+  },
+  {
+   "id": "h2-16-fuel",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is a traditional kitchen fuel?",
+       "r": "firewood",
+       "w": [
+        "electricity",
+        "cooking gas",
+        "solar panels"
+       ],
+       "e": [
+        "That is a modern fuel.",
+        "That is a modern fuel.",
+        "That is not a traditional fuel."
+       ],
+       "y": "Firewood is the main traditional fuel."
+      },
+      {
+       "q": "What fuel does a sawdust stove use?",
+       "r": "sawdust from sawmills",
+       "w": [
+        "kerosene",
+        "cooking gas",
+        "palm oil"
+       ],
+       "e": [
+        "That is for lamps and stoves.",
+        "That is for gas cookers.",
+        "That is food."
+       ],
+       "y": "Packed sawdust burns slowly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "kitchens"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The smoke rack is above the fire.",
+      "truth": "true"
+     },
+     {
+      "text": "A grinding stone grinds pepper.",
+      "truth": "true"
+     },
+     {
+      "text": "Clay pots keep water cool.",
+      "truth": "true"
+     },
+     {
+      "text": "Firewood is a traditional fuel.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A mortar and pestle is used for cooling water.",
+      "truth": "false",
+      "explain": "It is used for pounding food."
+     },
+     {
+      "text": "A calabash is a kind of fuel.",
+      "truth": "false",
+      "explain": "A calabash is a container."
+     },
+     {
+      "text": "The smoke rack is under the floor.",
+      "truth": "false",
+      "explain": "It hangs above the fireplace."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,403 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "y2-9",
+   "name": "Ancient Ghana from the 9th to the 10th centuries"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ancient Ghana (called Wagadu by its people, the Soninke) was a great empire of West Africa, in the area of today's south-east Mauritania and western Mali, not in the modern country of Ghana, which later took its name.\nIt flourished from about the 8th century and was at its height in the 9th–11th centuries.\nThe king had the title “Ghana” (war chief) and was also called Kaya Maghan, “lord of gold”. The capital, Koumbi Saleh, had two towns: one for the king and one for Muslim traders.\nWealth came from the trans-Saharan trade: gold from the south (Bambuk, Bure) was exchanged for salt from the Sahara (Taghaza), carried by camel caravans. The king taxed goods entering and leaving and kept all gold nuggets.\nDecline: attacks by the Almoravids (who took Koumbi Saleh in 1076), drought, loss of trade, and the rise of Sosso and then Mali.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "y": 1076
+  },
+  "problem": "The Almoravids took Koumbi Saleh in {y}. In which century was this?",
+  "steps": [
+   "The century is found by rounding up the hundreds: {y} is between {centuryStart(centuryOf(y))} and {centuryEnd(centuryOf(y))}.",
+   "So it was the {century(y)}."
+  ],
+  "answer": "the {century(y)}",
+  "checks": [
+   "centuryOf(y) == 11"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Ancient Ghana was in today's Mauritania and Mali, not in modern Ghana.",
+    "vars": {},
+    "example": [
+     "Its people were the Soninke."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-9-where"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Ghana grew rich from the trans-Saharan trade: gold from the south for salt from the Sahara.",
+    "vars": {},
+    "example": [
+     "Camel caravans crossed the desert."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-9-trade"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "Ghana declined after Almoravid attacks, drought and the rise of new states.",
+    "vars": {
+     "y": 1076
+    },
+    "example": [
+     "Koumbi Saleh fell in {y}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-9-decline-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "ancient-ghana"
+     ],
+     "prompt": "Which statement is wrong?",
+     "pool": {
+      "right": [
+       {
+        "text": "The Almoravids attacked Ghana.",
+        "truth": "true"
+       },
+       {
+        "text": "Drought weakened Ghana.",
+        "truth": "true"
+       },
+       {
+        "text": "Mali rose after Ghana.",
+        "truth": "true"
+       },
+       {
+        "text": "Gold was traded for salt.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Ancient Ghana was in the same place as modern Ghana.",
+        "truth": "false",
+        "explain": "Ancient Ghana lay in today's Mauritania and Mali."
+       },
+       {
+        "text": "Ghana grew rich from selling oil.",
+        "truth": "false",
+        "explain": "It grew rich from the gold and salt trade."
+       },
+       {
+        "text": "Koumbi Saleh fell in the 19th century.",
+        "truth": "false",
+        "explain": "It fell in 1076, in the 11th century."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-9-where",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ancient-ghana"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where was ancient Ghana?",
+       "r": "in today's Mauritania and Mali",
+       "w": [
+        "in today's Ghana",
+        "in Cameroon",
+        "in Egypt"
+       ],
+       "e": [
+        "Modern Ghana only took its name.",
+        "It was in West Africa's Sahel.",
+        "Egypt is in North-East Africa."
+       ],
+       "y": "Ancient Ghana lay north-west of modern Ghana."
+      },
+      {
+       "q": "What was the capital of ancient Ghana?",
+       "r": "Koumbi Saleh",
+       "w": [
+        "Timbuktu",
+        "Accra",
+        "Foumban"
+       ],
+       "e": [
+        "Timbuktu grew later, under Mali.",
+        "Accra is the capital of modern Ghana.",
+        "Foumban was the Bamum capital."
+       ],
+       "y": "Koumbi Saleh had a royal town and a traders' town."
+      },
+      {
+       "q": "Which people founded ancient Ghana?",
+       "r": "the Soninke",
+       "w": [
+        "the Fulani",
+        "the Bamum",
+        "the Duala"
+       ],
+       "e": [
+        "The Fulani did not found it.",
+        "The Bamum are in Cameroon.",
+        "The Duala are in Cameroon."
+       ],
+       "y": "The Soninke called their land Wagadu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-9-trade",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "ancient-ghana"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which two goods were exchanged in the trans-Saharan trade?",
+       "r": "gold and salt",
+       "w": [
+        "cocoa and coffee",
+        "oil and rubber",
+        "cars and phones"
+       ],
+       "e": [
+        "Those are later cash crops.",
+        "Those came much later.",
+        "Those are modern."
+       ],
+       "y": "Gold from the south, salt from the Sahara."
+      },
+      {
+       "q": "How were goods carried across the Sahara?",
+       "r": "by camel caravans",
+       "w": [
+        "by lorries",
+        "by railway",
+        "by aeroplane"
+       ],
+       "e": [
+        "There were no lorries.",
+        "There was no railway.",
+        "There were no planes."
+       ],
+       "y": "Camels can cross the desert."
+      },
+      {
+       "q": "How did the king of Ghana grow rich?",
+       "r": "by taxing trade and keeping the gold nuggets",
+       "w": [
+        "by selling oil",
+        "by printing money",
+        "by tourism"
+       ],
+       "e": [
+        "Not oil.",
+        "There was no paper money.",
+        "There was no tourism."
+       ],
+       "y": "Trade taxes and gold made the king rich."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-9-years",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "ancient-ghana"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      800,
+      850,
+      900,
+      950,
+      990
+     ]
+    },
+    "y": 1076,
+    "ORD": "9th–11th"
+   },
+   "prompt": "Ghana was at its height in the {ORD} century and Koumbi Saleh fell in {y}. How many years separate the year {a} from {y}?",
+   "answer": "y - a",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "y + a",
+     "explain": "Subtract the earlier year from the later one."
+    }
+   ],
+   "solution": [
+    "Both years are AD, so subtract.",
+    "{y} − {a} = {answer} years."
+   ],
+   "unit": "years"
+  },
+  {
+   "id": "y2-9-decline",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "ancient-ghana"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Almoravids attacked Ghana.",
+      "truth": "true"
+     },
+     {
+      "text": "Drought weakened Ghana.",
+      "truth": "true"
+     },
+     {
+      "text": "Mali rose after Ghana.",
+      "truth": "true"
+     },
+     {
+      "text": "Gold was traded for salt.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ancient Ghana was in the same place as modern Ghana.",
+      "truth": "false",
+      "explain": "Ancient Ghana lay in today's Mauritania and Mali."
+     },
+     {
+      "text": "Ghana grew rich from selling oil.",
+      "truth": "false",
+      "explain": "It grew rich from the gold and salt trade."
+     },
+     {
+      "text": "Koumbi Saleh fell in the 19th century.",
+      "truth": "false",
+      "explain": "It fell in 1076, in the 11th century."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

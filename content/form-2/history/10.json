@@ -1,0 +1,417 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "y2-10",
+   "name": "Guided work 2: an enquiry on traditional rites of the region"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rites are ceremonies that mark important moments in life and in the community. Common traditional rites in Cameroon:\n• birth: naming ceremonies, presenting the baby;\n• initiation: entry of young people into adulthood or into societies;\n• marriage: introductions, bride price (dowry), the wedding;\n• death: funerals and death celebrations (cry-die), often months or years later;\n• enthronement of a chief or fon; harvest and planting festivals; purification rites.\nEnquiry: choose one rite in your region; ask elders and participants what is done, who takes part, what objects, songs or dances are used, and what it means. Respect secrets that may not be shared, ask permission before taking photos, and write a short report.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "a death celebration (cry-die)"
+  },
+  "problem": "Plan an enquiry on {r} in your area.",
+  "steps": [
+   "Questions: When is it held? Who takes part? What is done (songs, dances, food, rituals)? What does it mean?",
+   "Sources: elders, the family, a traditional ruler; note names and dates.",
+   "Respect: ask permission, respect what may not be shared, write a short report."
+  ],
+  "answer": "Clear questions, respectful interviews with elders, a short report.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "Rites mark important moments: birth, initiation, marriage, death, enthronement.",
+    "vars": {},
+    "example": [
+     "A naming ceremony welcomes a baby."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-10-sort"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "Ask elders and participants what is done, who takes part and what it means.",
+    "vars": {},
+    "example": [
+     "Note songs, dances, objects and food."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-10-ask"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "Respect secrets and ask permission before taking photographs.",
+    "vars": {},
+    "example": [
+     "Some rites may not be shown to outsiders."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-10-respect-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "historical-enquiry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "An elder says part of a rite is secret. What should you do?",
+         "r": "Respect it and not include it.",
+         "w": [
+          "Insist until he tells you.",
+          "Invent what it might be.",
+          "Film it secretly."
+         ],
+         "e": [
+          "That is disrespectful.",
+          "Never invent.",
+          "That is wrong."
+         ],
+         "y": "Respect what may not be shared."
+        },
+        {
+         "q": "What must you do before photographing a ceremony?",
+         "r": "ask permission",
+         "w": [
+          "nothing",
+          "pay a stranger",
+          "hide your camera"
+         ],
+         "e": [
+          "Permission is needed.",
+          "That is not the rule.",
+          "That is dishonest."
+         ],
+         "y": "Always ask permission."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-10-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "prompt": "Sort the ceremonies by the life event they mark.",
+   "pool": [
+    {
+     "left": "naming ceremony",
+     "right": "birth"
+    },
+    {
+     "left": "presenting a newborn to the family",
+     "right": "birth"
+    },
+    {
+     "left": "initiation of young people into adulthood",
+     "right": "initiation"
+    },
+    {
+     "left": "circumcision ceremony",
+     "right": "initiation"
+    },
+    {
+     "left": "paying the bride price",
+     "right": "marriage"
+    },
+    {
+     "left": "traditional wedding feast",
+     "right": "marriage"
+    },
+    {
+     "left": "funeral and death celebration",
+     "right": "death"
+    },
+    {
+     "left": "enthronement of a new chief",
+     "right": "enthronement"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "birth",
+    "initiation",
+    "marriage",
+    "death",
+    "enthronement"
+   ]
+  },
+  {
+   "id": "y2-10-ask",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which question helps you understand the meaning of a rite?",
+       "r": "Why is this ceremony performed?",
+       "w": [
+        "What is your phone number?",
+        "How much does a car cost?",
+        "Do you like football?"
+       ],
+       "e": [
+        "That is personal.",
+        "That is unrelated.",
+        "That is unrelated."
+       ],
+       "y": "Ask what the rite means."
+      },
+      {
+       "q": "Who is a good source on a traditional rite?",
+       "r": "an elder who has taken part in it",
+       "w": [
+        "a tourist passing by",
+        "an advert",
+        "a child who has never seen it"
+       ],
+       "e": [
+        "A tourist may not understand it.",
+        "Adverts are not sources.",
+        "They lack knowledge."
+       ],
+       "y": "Participants and elders know the rite."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-10-respect",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An elder says part of a rite is secret. What should you do?",
+       "r": "Respect it and not include it.",
+       "w": [
+        "Insist until he tells you.",
+        "Invent what it might be.",
+        "Film it secretly."
+       ],
+       "e": [
+        "That is disrespectful.",
+        "Never invent.",
+        "That is wrong."
+       ],
+       "y": "Respect what may not be shared."
+      },
+      {
+       "q": "What must you do before photographing a ceremony?",
+       "r": "ask permission",
+       "w": [
+        "nothing",
+        "pay a stranger",
+        "hide your camera"
+       ],
+       "e": [
+        "Permission is needed.",
+        "That is not the rule.",
+        "That is dishonest."
+       ],
+       "y": "Always ask permission."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-10-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "historical-enquiry"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A naming ceremony marks a birth.",
+      "truth": "true"
+     },
+     {
+      "text": "Bride price is part of marriage rites.",
+      "truth": "true"
+     },
+     {
+      "text": "Elders are good sources.",
+      "truth": "true"
+     },
+     {
+      "text": "Ask permission before photographs.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A death celebration marks a birth.",
+      "truth": "false",
+      "explain": "It marks a death."
+     },
+     {
+      "text": "Secret parts of a rite must always be published.",
+      "truth": "false",
+      "explain": "Respect secrets."
+     },
+     {
+      "text": "Enthronement is a rite for newborn babies.",
+      "truth": "false",
+      "explain": "Enthronement installs a new chief."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

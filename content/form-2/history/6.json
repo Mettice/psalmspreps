@@ -1,0 +1,333 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "y2-6",
+   "name": "State-like (centralised) societies of pre-colonial Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Before colonisation Cameroon had two main kinds of society.\nState-like (centralised) societies had a central ruler with great power, helped by a court and officials:\n• Fulani lamidates in the north (Ngaoundéré, Garoua, Maroua), ruled by a lamido;\n• the Bamum kingdom, ruled by a sultan (mfon), such as King Njoya (late 19th–early 20th century), who invented the Bamum script;\n• the Grassfields chiefdoms (Nso, Bali, Mankon, Bafut, Bamileke chiefdoms), ruled by a fon or chief with secret societies and councils;\n• the Mandara kingdom and the Kotoko city-states in the north.\nFeatures: a hereditary ruler, a palace and court, officials and councils, an army, tribute and taxes, laws and courts, and royal rituals.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": "the Bamum kingdom"
+  },
+  "problem": "Give three features that show {k} was a centralised state.",
+  "steps": [
+   "A powerful ruler, the sultan, such as Njoya, lived in a palace.",
+   "Officials and councils helped him govern; there was an army.",
+   "People paid tribute, and laws were applied by the ruler's courts."
+  ],
+  "answer": "A sultan in a palace, officials and an army, tribute and laws.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "A centralised society has a powerful central ruler, helped by a court and officials.",
+    "vars": {},
+    "example": [
+     "Lamido, sultan, fon: different titles for rulers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-6-ruler"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "Examples: Fulani lamidates, the Bamum kingdom, the Grassfields chiefdoms, Mandara.",
+    "vars": {},
+    "example": [
+     "King Njoya of Bamum invented a script."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-6-example"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Features: hereditary ruler, palace, officials, army, tribute, laws.",
+    "vars": {},
+    "example": [
+     "People paid tribute to the ruler."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-6-feature-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "precolonial-societies"
+     ],
+     "prompt": "Which is a feature of a centralised society?",
+     "pool": {
+      "right": [
+       {
+        "text": "a powerful hereditary ruler",
+        "truth": "true"
+       },
+       {
+        "text": "a palace and a court",
+        "truth": "true"
+       },
+       {
+        "text": "officials and an army",
+        "truth": "true"
+       },
+       {
+        "text": "tribute paid to the ruler",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "no ruler at all",
+        "truth": "false",
+        "explain": "That describes an egalitarian society."
+       },
+       {
+        "text": "decisions only by each family alone",
+        "truth": "false",
+        "explain": "A central ruler makes key decisions."
+       },
+       {
+        "text": "no laws",
+        "truth": "false",
+        "explain": "Centralised states had laws and courts."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 2
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-6-ruler",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "prompt": "Match each state to its ruler's title.",
+   "pool": [
+    {
+     "left": "Fulani lamidate",
+     "right": "lamido"
+    },
+    {
+     "left": "Bamum kingdom",
+     "right": "sultan (mfon)"
+    },
+    {
+     "left": "Nso chiefdom",
+     "right": "fon"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "y2-6-example",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which ruler invented the Bamum script?",
+       "r": "King Njoya",
+       "w": [
+        "Modibo Adama",
+        "King Bell",
+        "Rudolf Duala Manga Bell"
+       ],
+       "e": [
+        "Adama led the Fulani jihad.",
+        "King Bell was a Duala chief.",
+        "He was a Duala leader in the colonial period."
+       ],
+       "y": "Njoya created a script for the Bamum language."
+      },
+      {
+       "q": "Which of these was a centralised (state-like) society?",
+       "r": "the Bamum kingdom",
+       "w": [
+        "a Baka hunting band",
+        "a family of herders on the move",
+        "a group of fishermen with no ruler"
+       ],
+       "e": [
+        "A small band has no central ruler.",
+        "That is not a state.",
+        "That has no central ruler."
+       ],
+       "y": "Bamum had a sultan and a court."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-6-feature",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "prompt": "Which is a feature of a centralised society?",
+   "pool": {
+    "right": [
+     {
+      "text": "a powerful hereditary ruler",
+      "truth": "true"
+     },
+     {
+      "text": "a palace and a court",
+      "truth": "true"
+     },
+     {
+      "text": "officials and an army",
+      "truth": "true"
+     },
+     {
+      "text": "tribute paid to the ruler",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "no ruler at all",
+      "truth": "false",
+      "explain": "That describes an egalitarian society."
+     },
+     {
+      "text": "decisions only by each family alone",
+      "truth": "false",
+      "explain": "A central ruler makes key decisions."
+     },
+     {
+      "text": "no laws",
+      "truth": "false",
+      "explain": "Centralised states had laws and courts."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "y2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "precolonial-societies"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A lamido ruled a Fulani lamidate.",
+      "truth": "true"
+     },
+     {
+      "text": "Njoya ruled the Bamum kingdom.",
+      "truth": "true"
+     },
+     {
+      "text": "Grassfields chiefdoms were ruled by a fon.",
+      "truth": "true"
+     },
+     {
+      "text": "Centralised states collected tribute.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Centralised societies had no rulers.",
+      "truth": "false",
+      "explain": "They had powerful central rulers."
+     },
+     {
+      "text": "King Njoya led the Fulani jihad.",
+      "truth": "false",
+      "explain": "Modibo Adama led the jihad; Njoya ruled Bamum."
+     },
+     {
+      "text": "A fon rules a Fulani lamidate.",
+      "truth": "false",
+      "explain": "A lamido rules a lamidate."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

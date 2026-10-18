@@ -1,0 +1,368 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "g2-2",
+   "name": "Rapid population growth and natural resources"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "More people need more land, food, water, wood, energy and minerals. Rapid growth puts pressure on natural resources:\n• forests: cleared for farms, firewood and towns (deforestation);\n• soils: overcultivated and overgrazed, so they lose fertility and erode;\n• water: shortages, and rivers polluted by waste;\n• wildlife: hunted and its habitats destroyed;\n• minerals and fuels: used up faster;\n• towns: overcrowding, slums, unemployment.\nSolutions: family planning and education (especially of girls), better farming methods, reforestation, protected areas, recycling, and using resources sustainably (so that future generations still have them).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "a village whose population has doubled"
+  },
+  "problem": "Explain two effects on natural resources in {v}.",
+  "steps": [
+   "More land is needed for farms, so forest is cleared (deforestation).",
+   "Farms are used every year without rest, so the soil loses its fertility and erodes."
+  ],
+  "answer": "Deforestation and soil exhaustion (also water shortage, fuelwood scarcity).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "More people need more land, food, water, wood and energy.",
+    "vars": {},
+    "example": [
+     "Forests are cleared for farms and firewood."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-2-effect"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Overuse damages soils, water and wildlife.",
+    "vars": {},
+    "example": [
+     "Overgrazing leaves bare soil that erodes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-2-match"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Solutions include family planning, better farming, reforestation and sustainable use.",
+    "vars": {},
+    "example": [
+     "Plant trees to replace those cut down."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-2-solve-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "world-population"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a solution to the pressure on forests?",
+         "r": "reforestation (planting trees)",
+         "w": [
+          "cutting more trees",
+          "burning the bush",
+          "more logging roads"
+         ],
+         "e": [
+          "That worsens it.",
+          "That destroys forest.",
+          "That opens more forest to logging."
+         ],
+         "y": "Replanting replaces lost trees."
+        },
+        {
+         "q": "What does sustainable use of resources mean?",
+         "r": "using them so that future generations still have them",
+         "w": [
+          "using them all up quickly",
+          "never using them at all",
+          "selling them abroad"
+         ],
+         "e": [
+          "That is the opposite.",
+          "Resources can be used carefully.",
+          "That is not the meaning."
+         ],
+         "y": "Sustainable means it can go on."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-2-effect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "prompt": "Which is an effect of rapid population growth on natural resources?",
+   "pool": {
+    "right": [
+     {
+      "text": "forests cleared for farms",
+      "truth": "true"
+     },
+     {
+      "text": "soils losing their fertility",
+      "truth": "true"
+     },
+     {
+      "text": "water shortages",
+      "truth": "true"
+     },
+     {
+      "text": "wildlife losing its habitat",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "more forest everywhere",
+      "truth": "false",
+      "explain": "More people usually means less forest."
+     },
+     {
+      "text": "cleaner rivers",
+      "truth": "false",
+      "explain": "More waste often pollutes rivers."
+     },
+     {
+      "text": "more wild animals",
+      "truth": "false",
+      "explain": "Habitats shrink, so wildlife declines."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "g2-2-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "prompt": "Match each resource to the pressure on it.",
+   "pool": [
+    {
+     "left": "forest",
+     "right": "cut for farms and firewood"
+    },
+    {
+     "left": "soil",
+     "right": "overcultivated and overgrazed"
+    },
+    {
+     "left": "water",
+     "right": "shortages and pollution"
+    },
+    {
+     "left": "wildlife",
+     "right": "hunting and loss of habitat"
+    },
+    {
+     "left": "minerals",
+     "right": "used up faster"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "g2-2-solve",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a solution to the pressure on forests?",
+       "r": "reforestation (planting trees)",
+       "w": [
+        "cutting more trees",
+        "burning the bush",
+        "more logging roads"
+       ],
+       "e": [
+        "That worsens it.",
+        "That destroys forest.",
+        "That opens more forest to logging."
+       ],
+       "y": "Replanting replaces lost trees."
+      },
+      {
+       "q": "What does sustainable use of resources mean?",
+       "r": "using them so that future generations still have them",
+       "w": [
+        "using them all up quickly",
+        "never using them at all",
+        "selling them abroad"
+       ],
+       "e": [
+        "That is the opposite.",
+        "Resources can be used carefully.",
+        "That is not the meaning."
+       ],
+       "y": "Sustainable means it can go on."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Rapid growth increases pressure on forests.",
+      "truth": "true"
+     },
+     {
+      "text": "Overgrazing can cause soil erosion.",
+      "truth": "true"
+     },
+     {
+      "text": "Reforestation helps replace lost trees.",
+      "truth": "true"
+     },
+     {
+      "text": "Family planning can slow population growth.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Rapid population growth always makes soils more fertile.",
+      "truth": "false",
+      "explain": "Overuse usually makes soils less fertile."
+     },
+     {
+      "text": "More people means less need for water.",
+      "truth": "false",
+      "explain": "More people need more water."
+     },
+     {
+      "text": "Deforestation increases wildlife.",
+      "truth": "false",
+      "explain": "It destroys habitats and reduces wildlife."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

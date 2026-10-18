@@ -1,0 +1,273 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "h2-7",
+   "name": "Vitamins: types, sources and functions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Vitamins are micronutrients needed for growth and health. Two groups:\n• Fat-soluble: A, D, E, K (stored in the body).\n• Water-soluble: B group and C (not stored; needed every day; easily lost in cooking water).\nSources and functions:\n• A: carrots, palm oil, liver, mangoes, green leaves; eyesight in dim light, healthy skin. Lack: night blindness.\n• B1 (thiamine): whole grains, beans, groundnuts; releasing energy. Lack: beriberi.\n• C: oranges, guavas, pawpaw, green leaves; healthy gums, healing wounds, absorbing iron. Lack: scurvy.\n• D: sunlight on the skin, fish oil, eggs; strong bones and teeth. Lack: rickets.\n• K: green leafy vegetables; blood clotting.\nCook vegetables quickly in little water, with the lid on, to keep vitamin C.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "huckleberry (njama njama)"
+  },
+  "problem": "How should {v} be cooked to keep most of its vitamin C?",
+  "steps": [
+   "Vitamin C dissolves in water and is destroyed by long heating.",
+   "Wash before cutting, cook quickly in a little water with the lid on, and serve at once."
+  ],
+  "answer": "Quickly, in little water, with a lid, and eaten at once.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "Vitamins A, D, E and K dissolve in fat; B and C dissolve in water.",
+    "vars": {},
+    "example": [
+     "Water-soluble vitamins are lost in cooking water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-7-group"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "Each vitamin has its main sources.",
+    "vars": {},
+    "example": [
+     "Vitamin A: palm oil, carrots.",
+     "Vitamin C: oranges, guavas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-7-source"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Each vitamin has its job.",
+    "vars": {},
+    "example": [
+     "Vitamin D: strong bones.",
+     "Vitamin K: blood clotting."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-7-job-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "prompt": "Match each vitamin to its function.",
+     "pool": [
+      {
+       "left": "vitamin A",
+       "right": "good eyesight in dim light"
+      },
+      {
+       "left": "vitamin B1",
+       "right": "releasing energy from food"
+      },
+      {
+       "left": "vitamin C",
+       "right": "healthy gums and healing wounds"
+      },
+      {
+       "left": "vitamin D",
+       "right": "strong bones and teeth"
+      },
+      {
+       "left": "vitamin K",
+       "right": "clotting of blood"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-7-group",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Sort the vitamins: fat-soluble or water-soluble?",
+   "pool": [
+    {
+     "left": "vitamin A",
+     "right": "fat-soluble"
+    },
+    {
+     "left": "vitamin D",
+     "right": "fat-soluble"
+    },
+    {
+     "left": "vitamin E",
+     "right": "fat-soluble"
+    },
+    {
+     "left": "vitamin K",
+     "right": "fat-soluble"
+    },
+    {
+     "left": "vitamin C",
+     "right": "water-soluble"
+    },
+    {
+     "left": "vitamin B1",
+     "right": "water-soluble"
+    },
+    {
+     "left": "vitamin B2",
+     "right": "water-soluble"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "fat-soluble",
+    "water-soluble"
+   ]
+  },
+  {
+   "id": "h2-7-source",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Match each vitamin to good sources.",
+   "pool": [
+    {
+     "left": "vitamin A",
+     "right": "carrots, palm oil, liver, mangoes"
+    },
+    {
+     "left": "vitamin B1 (thiamine)",
+     "right": "whole grains, beans, groundnuts"
+    },
+    {
+     "left": "vitamin C",
+     "right": "oranges, guavas, pawpaw, green leaves"
+    },
+    {
+     "left": "vitamin D",
+     "right": "sunlight on the skin, fish oil, eggs"
+    },
+    {
+     "left": "vitamin K",
+     "right": "green leafy vegetables"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-7-job",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Match each vitamin to its function.",
+   "pool": [
+    {
+     "left": "vitamin A",
+     "right": "good eyesight in dim light"
+    },
+    {
+     "left": "vitamin B1",
+     "right": "releasing energy from food"
+    },
+    {
+     "left": "vitamin C",
+     "right": "healthy gums and healing wounds"
+    },
+    {
+     "left": "vitamin D",
+     "right": "strong bones and teeth"
+    },
+    {
+     "left": "vitamin K",
+     "right": "clotting of blood"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Vitamin C is found in oranges.",
+      "truth": "true"
+     },
+     {
+      "text": "Vitamin D is made in the skin in sunlight.",
+      "truth": "true"
+     },
+     {
+      "text": "Vitamin A helps us see in dim light.",
+      "truth": "true"
+     },
+     {
+      "text": "Vitamin K helps blood to clot.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Vitamin C is a fat-soluble vitamin.",
+      "truth": "false",
+      "explain": "Vitamin C dissolves in water."
+     },
+     {
+      "text": "Long boiling in a lot of water keeps vitamin C.",
+      "truth": "false",
+      "explain": "Long boiling destroys and washes away vitamin C."
+     },
+     {
+      "text": "Lack of vitamin D causes scurvy.",
+      "truth": "false",
+      "explain": "Lack of vitamin D causes rickets; scurvy is lack of vitamin C."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

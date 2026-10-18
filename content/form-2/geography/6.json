@@ -1,0 +1,384 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "g2-6",
+   "name": "Factors of the uneven distribution of population"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Physical factors:\n• relief: lowlands and gentle slopes attract people; steep, high mountains repel them;\n• climate: mild climates with enough rain attract; very hot, very cold or very dry climates repel;\n• soils: fertile soils (river valleys, volcanic soils such as on Mount Cameroon) attract farmers;\n• water: rivers, lakes and springs attract people;\n• vegetation and diseases: dense forests and areas with tsetse flies or malaria repel.\nHuman factors:\n• economic activities: mines, industries, ports, plantations and trade attract people;\n• towns, roads and services (schools, hospitals);\n• history and politics: wars push people away; government policies can move people.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "the Mount Cameroon area"
+  },
+  "problem": "Give two reasons why {p} is densely populated.",
+  "steps": [
+   "Physical: the volcanic soils are very fertile, good for farming.",
+   "Human: plantations (tea, rubber, oil palm, bananas) and towns such as Buea and Limbe give jobs."
+  ],
+  "answer": "Fertile volcanic soils; plantations and towns give jobs.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Physical factors: relief, climate, soils, water, vegetation and diseases.",
+    "vars": {},
+    "example": [
+     "Fertile volcanic soils attract farmers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-6-sort"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "Human factors: jobs in mines, industries, ports and plantations; towns and services.",
+    "vars": {},
+    "example": [
+     "Douala grew around its port and industries."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-6-kind"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "Wars and government policies can also move people.",
+    "vars": {},
+    "example": [
+     "People flee areas of conflict."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-6-case-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "world-population"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is Douala densely populated?",
+         "r": "Its port and industries give many jobs.",
+         "w": [
+          "It is very cold.",
+          "It is a desert.",
+          "It has steep mountains."
+         ],
+         "e": [
+          "Douala is hot and humid.",
+          "It is not a desert.",
+          "It is on a coastal plain."
+         ],
+         "y": "Economic activity attracts people."
+        },
+        {
+         "q": "Why is much of the East Region of Cameroon sparsely populated?",
+         "r": "It is covered by dense equatorial forest with few roads.",
+         "w": [
+          "It is a cold desert.",
+          "It is full of factories.",
+          "It has the biggest port."
+         ],
+         "e": [
+          "It is hot and wet.",
+          "It has few industries.",
+          "The port is Douala."
+         ],
+         "y": "Dense forest and poor communications repel people."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-6-sort",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "prompt": "Sort the factors: does each attract or repel people?",
+   "pool": [
+    {
+     "left": "flat, fertile river valleys",
+     "right": "attracts people"
+    },
+    {
+     "left": "a mild climate with enough rain",
+     "right": "attracts people"
+    },
+    {
+     "left": "mines and industries",
+     "right": "attracts people"
+    },
+    {
+     "left": "good roads and ports",
+     "right": "attracts people"
+    },
+    {
+     "left": "very cold climate",
+     "right": "repels people"
+    },
+    {
+     "left": "hot desert with little water",
+     "right": "repels people"
+    },
+    {
+     "left": "steep, high mountains",
+     "right": "repels people"
+    },
+    {
+     "left": "areas with tsetse flies and disease",
+     "right": "repels people"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "attracts people",
+    "repels people"
+   ]
+  },
+  {
+   "id": "g2-6-kind",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "prompt": "Sort the factors: physical or human?",
+   "pool": [
+    {
+     "left": "relief",
+     "right": "physical"
+    },
+    {
+     "left": "climate",
+     "right": "physical"
+    },
+    {
+     "left": "soils",
+     "right": "physical"
+    },
+    {
+     "left": "water supply",
+     "right": "physical"
+    },
+    {
+     "left": "industries",
+     "right": "human"
+    },
+    {
+     "left": "roads and ports",
+     "right": "human"
+    },
+    {
+     "left": "government policy",
+     "right": "human"
+    },
+    {
+     "left": "schools and hospitals",
+     "right": "human"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "physical",
+    "human"
+   ]
+  },
+  {
+   "id": "g2-6-case",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is Douala densely populated?",
+       "r": "Its port and industries give many jobs.",
+       "w": [
+        "It is very cold.",
+        "It is a desert.",
+        "It has steep mountains."
+       ],
+       "e": [
+        "Douala is hot and humid.",
+        "It is not a desert.",
+        "It is on a coastal plain."
+       ],
+       "y": "Economic activity attracts people."
+      },
+      {
+       "q": "Why is much of the East Region of Cameroon sparsely populated?",
+       "r": "It is covered by dense equatorial forest with few roads.",
+       "w": [
+        "It is a cold desert.",
+        "It is full of factories.",
+        "It has the biggest port."
+       ],
+       "e": [
+        "It is hot and wet.",
+        "It has few industries.",
+        "The port is Douala."
+       ],
+       "y": "Dense forest and poor communications repel people."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Fertile soils attract farmers.",
+      "truth": "true"
+     },
+     {
+      "text": "Industries attract workers.",
+      "truth": "true"
+     },
+     {
+      "text": "Very dry deserts repel people.",
+      "truth": "true"
+     },
+     {
+      "text": "Wars push people away.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Steep high mountains attract dense populations.",
+      "truth": "false",
+      "explain": "They usually repel people."
+     },
+     {
+      "text": "Tsetse flies attract settlers.",
+      "truth": "false",
+      "explain": "Tsetse flies and disease repel people."
+     },
+     {
+      "text": "Good roads repel people.",
+      "truth": "false",
+      "explain": "Good roads attract people."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

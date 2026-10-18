@@ -1,0 +1,392 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "h2-9",
+   "name": "Water in food and in the body"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Water makes up more than half of the body's weight.\nSources: drinking water and other drinks; foods with a lot of water: oranges, watermelon, pawpaw, pineapple, tomatoes, cucumber, leafy vegetables, soups and milk. The body also makes a little water when it uses food.\nUses of water in food preparation: cooking (boiling, steaming), washing food, making drinks, dissolving salt and sugar, softening dry foods (soaking beans, garri).\nFunctions of water in the body:\n• a part of every cell, blood and body fluids;\n• transports nutrients and oxygen in the blood;\n• removes wastes (urine, sweat);\n• controls body temperature (sweating);\n• helps digestion and prevents constipation; lubricates the joints.\nWe lose water in urine, sweat and breath, so we should drink clean water regularly, more in hot weather and after exercise. Too little water causes dehydration (thirst, headache, dark urine).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "an orange"
+  },
+  "problem": "Give two ways in which eating {f} helps the body.",
+  "steps": [
+   "An orange is mostly water, so it helps to replace the water we lose in sweat and urine.",
+   "It also gives vitamin C."
+  ],
+  "answer": "It supplies water (and vitamin C).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Water comes from drinks and from watery foods such as oranges, watermelon and soups.",
+    "vars": {},
+    "example": [
+     "An orange is mostly water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-9-source"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "Water carries nutrients, removes wastes and cools the body by sweating.",
+    "vars": {},
+    "example": [
+     "Blood is mostly water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-9-job"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "Too little water causes dehydration: thirst, headache, dark urine.",
+    "vars": {},
+    "example": [
+     "Drink more in hot weather and after exercise."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-9-dehyd-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "water-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a sign of dehydration?",
+         "r": "dark urine and a headache",
+         "w": [
+          "pale eyelids",
+          "swollen neck",
+          "bleeding gums"
+         ],
+         "e": [
+          "That is anaemia.",
+          "That is goitre.",
+          "That is scurvy."
+         ],
+         "y": "Too little water gives dark urine, thirst and headache."
+        },
+        {
+         "q": "When does the body need more water?",
+         "r": "in hot weather and after exercise",
+         "w": [
+          "only when sleeping",
+          "only in the rainy season",
+          "never"
+         ],
+         "e": [
+          "Sleep uses little.",
+          "Hot weather needs more.",
+          "The body always needs water."
+         ],
+         "y": "Sweating loses water."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-9-source",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which food contains the most water?",
+       "r": "watermelon",
+       "w": [
+        "groundnuts",
+        "dry garri",
+        "biscuits"
+       ],
+       "e": [
+        "Groundnuts are dry and oily.",
+        "Garri is dry.",
+        "Biscuits are dry."
+       ],
+       "y": "Watermelon is mostly water."
+      },
+      {
+       "q": "Which of these is a use of water in preparing food?",
+       "r": "soaking beans to soften them",
+       "w": [
+        "frying plantains in oil",
+        "roasting maize on fire",
+        "grinding pepper dry"
+       ],
+       "e": [
+        "Frying uses oil.",
+        "Roasting uses dry heat.",
+        "Dry grinding uses no water."
+       ],
+       "y": "Water softens dry foods."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-9-job",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "prompt": "Match each function of water to an example.",
+   "pool": [
+    {
+     "left": "transport",
+     "right": "blood carries nutrients to the cells"
+    },
+    {
+     "left": "removing wastes",
+     "right": "urine takes waste out of the body"
+    },
+    {
+     "left": "cooling",
+     "right": "sweat evaporates and cools the skin"
+    },
+    {
+     "left": "digestion",
+     "right": "water helps food move through the gut"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-9-dehyd",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a sign of dehydration?",
+       "r": "dark urine and a headache",
+       "w": [
+        "pale eyelids",
+        "swollen neck",
+        "bleeding gums"
+       ],
+       "e": [
+        "That is anaemia.",
+        "That is goitre.",
+        "That is scurvy."
+       ],
+       "y": "Too little water gives dark urine, thirst and headache."
+      },
+      {
+       "q": "When does the body need more water?",
+       "r": "in hot weather and after exercise",
+       "w": [
+        "only when sleeping",
+        "only in the rainy season",
+        "never"
+       ],
+       "e": [
+        "Sleep uses little.",
+        "Hot weather needs more.",
+        "The body always needs water."
+       ],
+       "y": "Sweating loses water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "water-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Water carries nutrients in the blood.",
+      "truth": "true"
+     },
+     {
+      "text": "Sweating cools the body.",
+      "truth": "true"
+     },
+     {
+      "text": "Oranges contain a lot of water.",
+      "truth": "true"
+     },
+     {
+      "text": "We lose water in urine.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The body does not need water if we eat food.",
+      "truth": "false",
+      "explain": "The body always needs water."
+     },
+     {
+      "text": "Water gives the body a lot of energy.",
+      "truth": "false",
+      "explain": "Water gives no energy."
+     },
+     {
+      "text": "Dehydration makes urine very pale.",
+      "truth": "false",
+      "explain": "Dehydration makes urine dark."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

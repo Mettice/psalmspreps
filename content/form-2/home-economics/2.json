@@ -1,0 +1,323 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "h2-2",
+   "name": "Carbohydrates"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Composition: carbon, hydrogen and oxygen (C, H, O).\nTypes: sugars (glucose, sucrose in sugar cane, lactose in milk), starch (in cassava, yam, rice, maize, plantain, cocoyam, bread) and fibre.\nFunctions: the main source of energy for the body; spare carbohydrate is stored as fat.\nDeficiency: tiredness, weight loss; in children, lack of energy food causes marasmus (very thin, wasted body).\nToo much: overweight (obesity) and tooth decay (sugar).\nEffects of heat: starch grains swell and burst in hot water and thicken liquids (gelatinisation: thickening a sauce or making garri soften); dry heat turns starch brown (dextrinisation: toast, grilled plantain); sugar melts and turns brown (caramelisation).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "garri"
+  },
+  "problem": "Explain why hot water makes {f} swell into eba.",
+  "steps": [
+   "Garri is mainly starch, from cassava.",
+   "In hot water the starch grains take in water, swell and burst: gelatinisation.",
+   "This makes the mixture thick and soft."
+  ],
+  "answer": "The starch gelatinises: its grains swell and thicken in hot water.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "Carbohydrates contain carbon, hydrogen and oxygen. They are sugars, starches and fibre.",
+    "vars": {},
+    "example": [
+     "Sugar cane: sucrose.",
+     "Cassava and yam: starch."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-2-source"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Carbohydrates give energy. Lack of energy food in children causes marasmus.",
+    "vars": {},
+    "example": [
+     "A child with marasmus is very thin and wasted."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-2-job"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "Heat changes carbohydrates: moist heat thickens starch, dry heat browns it, and sugar caramelises.",
+    "vars": {},
+    "example": [
+     "Gelatinisation: thickening a sauce.",
+     "Caramelisation: browning sugar."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-2-heat-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "prompt": "Match each change to its name.",
+     "pool": [
+      {
+       "left": "starch thickens a hot sauce",
+       "right": "gelatinisation"
+      },
+      {
+       "left": "bread turns brown when toasted",
+       "right": "dextrinisation"
+      },
+      {
+       "left": "sugar melts and turns brown",
+       "right": "caramelisation"
+      }
+     ],
+     "pick": 3
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-2-source",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Sort the foods: is the carbohydrate mainly sugar or starch?",
+   "pool": [
+    {
+     "left": "cassava",
+     "right": "starch"
+    },
+    {
+     "left": "yam",
+     "right": "starch"
+    },
+    {
+     "left": "rice",
+     "right": "starch"
+    },
+    {
+     "left": "plantain",
+     "right": "starch"
+    },
+    {
+     "left": "sugar cane",
+     "right": "sugar"
+    },
+    {
+     "left": "honey",
+     "right": "sugar"
+    },
+    {
+     "left": "ripe pawpaw",
+     "right": "sugar"
+    },
+    {
+     "left": "sweets",
+     "right": "sugar"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "starch",
+    "sugar"
+   ]
+  },
+  {
+   "id": "h2-2-job",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the main function of carbohydrates?",
+       "r": "to give energy",
+       "w": [
+        "to build muscles",
+        "to prevent scurvy",
+        "to make bones strong"
+       ],
+       "e": [
+        "That is protein's job.",
+        "That is vitamin C's job.",
+        "That is calcium's job."
+       ],
+       "y": "Carbohydrates are the main energy food."
+      },
+      {
+       "q": "Which disease is caused by a lack of energy food in children?",
+       "r": "marasmus",
+       "w": [
+        "scurvy",
+        "goitre",
+        "rickets"
+       ],
+       "e": [
+        "Scurvy: lack of vitamin C.",
+        "Goitre: lack of iodine.",
+        "Rickets: lack of vitamin D or calcium."
+       ],
+       "y": "Marasmus: a very thin, wasted child."
+      },
+      {
+       "q": "Which elements make up carbohydrates?",
+       "r": "carbon, hydrogen and oxygen",
+       "w": [
+        "carbon, hydrogen, oxygen and nitrogen",
+        "iron and calcium",
+        "sodium and chlorine"
+       ],
+       "e": [
+        "Nitrogen is in proteins.",
+        "Those are minerals.",
+        "That is salt."
+       ],
+       "y": "C, H and O."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-2-heat",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Match each change to its name.",
+   "pool": [
+    {
+     "left": "starch thickens a hot sauce",
+     "right": "gelatinisation"
+    },
+    {
+     "left": "bread turns brown when toasted",
+     "right": "dextrinisation"
+    },
+    {
+     "left": "sugar melts and turns brown",
+     "right": "caramelisation"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "h2-2-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cassava is rich in starch.",
+      "truth": "true"
+     },
+     {
+      "text": "Carbohydrates give energy.",
+      "truth": "true"
+     },
+     {
+      "text": "Sugar caramelises when heated.",
+      "truth": "true"
+     },
+     {
+      "text": "Too much sugar causes tooth decay.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Carbohydrates contain nitrogen.",
+      "truth": "false",
+      "explain": "They contain carbon, hydrogen and oxygen only."
+     },
+     {
+      "text": "Marasmus is caused by too much energy food.",
+      "truth": "false",
+      "explain": "It is caused by a lack of energy food."
+     },
+     {
+      "text": "Starch thins a sauce when heated.",
+      "truth": "false",
+      "explain": "Starch thickens a hot sauce (gelatinisation)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

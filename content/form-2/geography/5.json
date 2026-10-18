@@ -1,0 +1,381 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "g2-5",
+   "name": "Uneven distribution of the world's population: density"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "People are not spread evenly over the Earth. Population density is the average number of people per square kilometre:\ndensity = population ÷ area (people per km²).\nDensely populated areas: East Asia (eastern China, Japan), South Asia (India, Bangladesh), Western Europe, the north-east of the USA, the Nile valley, the coast of West Africa (southern Nigeria).\nSparsely populated areas: hot deserts (Sahara), cold lands (Greenland, Siberia, Antarctica, which has no permanent population), high mountains, dense equatorial forests (Amazon, Congo basin).\nMost people live in the Northern Hemisphere and less than a third of the land holds most of the people.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 600000,
+   "a": 4000
+  },
+  "problem": "A district has {p} people and an area of {a} km². What is its population density?",
+  "steps": [
+   "Density = population ÷ area.",
+   "{p} ÷ {a} = {p / a} people per km²."
+  ],
+  "answer": "{p / a} people per km²",
+  "checks": [
+   "p / a == 150"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "Population density = population ÷ area, in people per km².",
+    "vars": {
+     "p": 50000,
+     "a": 500
+    },
+    "example": [
+     "{p} people on {a} km²: {p / a} per km²."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-5-density"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "Dense areas: East and South Asia, Western Europe, the Nile valley.",
+    "vars": {},
+    "example": [
+     "Bangladesh is one of the most densely populated countries."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-5-where"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "Sparse areas: deserts, cold lands, high mountains, dense equatorial forests.",
+    "vars": {},
+    "example": [
+     "The Sahara and Greenland have very few people."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-5-sparse-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "world-population"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does Antarctica have no permanent population?",
+         "r": "It is far too cold and covered in ice.",
+         "w": [
+          "It is too hot.",
+          "It has too many cities.",
+          "It is too crowded."
+         ],
+         "e": [
+          "It is the coldest continent.",
+          "It has no cities.",
+          "It has no permanent people."
+         ],
+         "y": "Extreme cold makes life very hard."
+        },
+        {
+         "q": "Which hemisphere holds most of the world's people?",
+         "r": "the Northern Hemisphere",
+         "w": [
+          "the Southern Hemisphere",
+          "both equally",
+          "neither"
+         ],
+         "e": [
+          "It holds far fewer.",
+          "Most live in the north.",
+          "Most live in the north."
+         ],
+         "y": "Most land and most people are north of the equator."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-5-density",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "world-population"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      100,
+      200,
+      250,
+      400,
+      500,
+      800,
+      1000,
+      2000
+     ]
+    },
+    "d": {
+     "int": [
+      5,
+      400
+     ]
+    },
+    "p": {
+     "expr": "a * d"
+    }
+   },
+   "prompt": "An area of {a} km² has {p} people. What is its population density (people per km²)?",
+   "answer": "p / a",
+   "misconceptions": [
+    {
+     "id": "upside",
+     "wrong": "a / p",
+     "explain": "Divide the population by the area, not the area by the population.",
+     "when": "a / p != p / a"
+    },
+    {
+     "id": "times",
+     "wrong": "p * a",
+     "explain": "Divide, do not multiply."
+    }
+   ],
+   "solution": [
+    "Density = population ÷ area.",
+    "{p} ÷ {a} = {answer} per km²."
+   ],
+   "unit": "people per km²"
+  },
+  {
+   "id": "g2-5-where",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "prompt": "Sort the areas: densely or sparsely populated?",
+   "pool": [
+    {
+     "left": "eastern China",
+     "right": "dense"
+    },
+    {
+     "left": "Bangladesh",
+     "right": "dense"
+    },
+    {
+     "left": "the Nile valley",
+     "right": "dense"
+    },
+    {
+     "left": "Western Europe",
+     "right": "dense"
+    },
+    {
+     "left": "the Sahara",
+     "right": "sparse"
+    },
+    {
+     "left": "Greenland",
+     "right": "sparse"
+    },
+    {
+     "left": "the Amazon forest",
+     "right": "sparse"
+    },
+    {
+     "left": "Antarctica",
+     "right": "sparse"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "dense",
+    "sparse"
+   ]
+  },
+  {
+   "id": "g2-5-pop",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "world-population"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      120,
+      250,
+      300,
+      500,
+      1200
+     ]
+    },
+    "d": {
+     "int": [
+      10,
+      300
+     ]
+    }
+   },
+   "prompt": "A district has a density of {d} people per km² and an area of {a} km². How many people live there?",
+   "answer": "d * a",
+   "misconceptions": [
+    {
+     "id": "divide",
+     "wrong": "d / a",
+     "explain": "Population = density × area: multiply."
+    }
+   ],
+   "solution": [
+    "Population = density × area.",
+    "{d} × {a} = {answer} people."
+   ],
+   "unit": "people"
+  },
+  {
+   "id": "g2-5-sparse",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "world-population"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does Antarctica have no permanent population?",
+       "r": "It is far too cold and covered in ice.",
+       "w": [
+        "It is too hot.",
+        "It has too many cities.",
+        "It is too crowded."
+       ],
+       "e": [
+        "It is the coldest continent.",
+        "It has no cities.",
+        "It has no permanent people."
+       ],
+       "y": "Extreme cold makes life very hard."
+      },
+      {
+       "q": "Which hemisphere holds most of the world's people?",
+       "r": "the Northern Hemisphere",
+       "w": [
+        "the Southern Hemisphere",
+        "both equally",
+        "neither"
+       ],
+       "e": [
+        "It holds far fewer.",
+        "Most live in the north.",
+        "Most live in the north."
+       ],
+       "y": "Most land and most people are north of the equator."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

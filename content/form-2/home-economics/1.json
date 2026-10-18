@@ -1,0 +1,358 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-1",
+   "name": "Types of food nutrients; macronutrients"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Nutrients are the substances in food that the body needs to live, grow and stay healthy. There are six classes:\ncarbohydrates, proteins, fats (lipids), vitamins, minerals and water. (Fibre is also needed, though it is not digested.)\n• Macronutrients are needed in large amounts (grams each day): carbohydrates, proteins and fats. They give energy and build the body.\n• Micronutrients are needed in small amounts (milligrams or micrograms): vitamins and minerals. They protect the body and control its work.\nMost foods contain several nutrients, but one usually stands out: rice and cassava are mainly carbohydrate; fish and beans are rich in protein; palm oil is fat.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "rice, fish stew and an orange"
+  },
+  "problem": "Name the main nutrient in each part of a meal of {m}.",
+  "steps": [
+   "Rice: mainly carbohydrate (starch).",
+   "Fish: mainly protein; the oil in the stew: fat.",
+   "Orange: vitamin C and water."
+  ],
+  "answer": "Rice: carbohydrate; fish: protein; oil: fat; orange: vitamin C and water.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "There are six classes of nutrients: carbohydrates, proteins, fats, vitamins, minerals and water.",
+    "vars": {},
+    "example": [
+     "Fibre is also needed for a healthy gut."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-1-classes"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "Macronutrients are needed in large amounts; micronutrients in small amounts.",
+    "vars": {},
+    "example": [
+     "Macro: carbohydrates, proteins, fats.",
+     "Micro: vitamins, minerals."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-1-macro"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "Each food has a main nutrient.",
+    "vars": {},
+    "example": [
+     "Cassava: carbohydrate. Beans: protein.",
+     "Palm oil: fat. Oranges: vitamin C."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-1-food-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrients"
+     ],
+     "prompt": "Match each food to its main nutrient.",
+     "pool": [
+      {
+       "left": "cassava",
+       "right": "carbohydrate"
+      },
+      {
+       "left": "rice",
+       "right": "carbohydrate"
+      },
+      {
+       "left": "beans",
+       "right": "protein"
+      },
+      {
+       "left": "fish",
+       "right": "protein"
+      },
+      {
+       "left": "palm oil",
+       "right": "fat"
+      },
+      {
+       "left": "groundnut oil",
+       "right": "fat"
+      },
+      {
+       "left": "oranges",
+       "right": "vitamin C"
+      },
+      {
+       "left": "milk",
+       "right": "calcium"
+      }
+     ],
+     "pick": 4,
+     "groups": true,
+     "group_order": [
+      "carbohydrate",
+      "protein",
+      "fat",
+      "vitamin C",
+      "calcium"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-1-classes",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is NOT one of the six classes of nutrients?",
+       "r": "salt and pepper",
+       "w": [
+        "proteins",
+        "vitamins",
+        "water"
+       ],
+       "e": [
+        "Proteins are a class.",
+        "Vitamins are a class.",
+        "Water is a class."
+       ],
+       "y": "The six classes are carbohydrates, proteins, fats, vitamins, minerals and water."
+      },
+      {
+       "q": "What are nutrients?",
+       "r": "substances in food that the body needs",
+       "w": [
+        "any food that tastes good",
+        "medicines from the pharmacy",
+        "the colours of food"
+       ],
+       "e": [
+        "Taste does not decide it.",
+        "Medicines are not nutrients.",
+        "Colour is not a nutrient."
+       ],
+       "y": "Nutrients are what the body uses from food."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-1-macro",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Sort the nutrients: macronutrient or micronutrient?",
+   "pool": [
+    {
+     "left": "carbohydrates",
+     "right": "macronutrient"
+    },
+    {
+     "left": "proteins",
+     "right": "macronutrient"
+    },
+    {
+     "left": "fats",
+     "right": "macronutrient"
+    },
+    {
+     "left": "vitamins",
+     "right": "micronutrient"
+    },
+    {
+     "left": "minerals",
+     "right": "micronutrient"
+    },
+    {
+     "left": "iron",
+     "right": "micronutrient"
+    },
+    {
+     "left": "vitamin A",
+     "right": "micronutrient"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "macronutrient",
+    "micronutrient"
+   ]
+  },
+  {
+   "id": "h2-1-food",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Match each food to its main nutrient.",
+   "pool": [
+    {
+     "left": "cassava",
+     "right": "carbohydrate"
+    },
+    {
+     "left": "rice",
+     "right": "carbohydrate"
+    },
+    {
+     "left": "beans",
+     "right": "protein"
+    },
+    {
+     "left": "fish",
+     "right": "protein"
+    },
+    {
+     "left": "palm oil",
+     "right": "fat"
+    },
+    {
+     "left": "groundnut oil",
+     "right": "fat"
+    },
+    {
+     "left": "oranges",
+     "right": "vitamin C"
+    },
+    {
+     "left": "milk",
+     "right": "calcium"
+    }
+   ],
+   "pick": 4,
+   "groups": true,
+   "group_order": [
+    "carbohydrate",
+    "protein",
+    "fat",
+    "vitamin C",
+    "calcium"
+   ]
+  },
+  {
+   "id": "h2-1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrients"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Carbohydrates are macronutrients.",
+      "truth": "true"
+     },
+     {
+      "text": "Vitamins are micronutrients.",
+      "truth": "true"
+     },
+     {
+      "text": "Water is a nutrient.",
+      "truth": "true"
+     },
+     {
+      "text": "Fish is rich in protein.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Vitamins are needed in large amounts every day.",
+      "truth": "false",
+      "explain": "Vitamins are needed in small amounts: they are micronutrients."
+     },
+     {
+      "text": "Palm oil is mainly protein.",
+      "truth": "false",
+      "explain": "Palm oil is mainly fat."
+     },
+     {
+      "text": "Minerals are macronutrients.",
+      "truth": "false",
+      "explain": "Minerals are micronutrients."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

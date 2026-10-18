@@ -1,0 +1,331 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "g2-3",
+   "name": "Practical work 1: calculating the birth rate"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Demographic indices describe a population with numbers.\nThe crude birth rate (BR) is the number of live births in a year for every 1000 people:\nBR = (number of births ÷ total population) × 1000. It is written in ‰ (per thousand).\nExample: a town of 50 000 people had 2000 births in a year. BR = 2000 ÷ 50 000 × 1000 = 40 ‰.\nBirth rates above 30 ‰ are high (many African countries); below 15 ‰ are low (Europe).\nSteps: (1) divide the births by the population; (2) multiply by 1000; (3) write ‰.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 1800,
+   "p": 45000,
+   "k": 1000
+  },
+  "problem": "A town of {p} people recorded {b} births last year. Calculate its birth rate.",
+  "steps": [
+   "Divide the births by the population: {b} ÷ {p} = {b / p}.",
+   "Multiply by {k}: {b / p} × {k} = {b / p * k}."
+  ],
+  "answer": "BR = {b / p * k} ‰",
+  "checks": [
+   "b / p * k == 40"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "The birth rate is births per thousand people in a year.",
+    "vars": {
+     "k": 1000
+    },
+    "example": [
+     "BR = births ÷ population × {k}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-3-br"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "Multiply by a thousand and write ‰ (per thousand).",
+    "vars": {
+     "b": 600,
+     "p": 20000,
+     "k": 1000
+    },
+    "example": [
+     "{b} births, {p} people: {b} ÷ {p} × {k} = {b / p * k} ‰."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-3-births-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "demographic-indices"
+     ],
+     "vars": {
+      "p": {
+       "pick": [
+        10000,
+        20000,
+        30000,
+        50000,
+        80000
+       ]
+      },
+      "r": {
+       "int": [
+        15,
+        45
+       ]
+      },
+      "k": 1000
+     },
+     "prompt": "A town has {p} people and a birth rate of {r} ‰. How many babies were born there in the year?",
+     "answer": "p * r / 1000",
+     "misconceptions": [
+      {
+       "id": "times",
+       "wrong": "p * r",
+       "explain": "Divide by {k}: the rate is per thousand."
+      }
+     ],
+     "solution": [
+      "Births = BR × population ÷ {k}.",
+      "{r} × {p} ÷ {k} = {answer}."
+     ],
+     "unit": "births"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "Above about {h} ‰ is a high birth rate; below about {lo} ‰ is low.",
+    "vars": {
+     "h": 30,
+     "lo": 15
+    },
+    "example": [
+     "Many African countries: high.",
+     "European countries: low."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-3-level"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-3-br",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "demographic-indices"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      5000,
+      8000,
+      10000,
+      20000,
+      25000,
+      40000,
+      50000
+     ]
+    },
+    "r": {
+     "int": [
+      12,
+      48
+     ]
+    },
+    "b": {
+     "expr": "p * r / 1000"
+    },
+    "k": 1000
+   },
+   "prompt": "A village of {p} people had {b} births in a year. What is its birth rate (in ‰)?",
+   "answer": "b / p * 1000",
+   "misconceptions": [
+    {
+     "id": "no-thousand",
+     "wrong": "b / p",
+     "explain": "Multiply by {k} to get births per thousand."
+    },
+    {
+     "id": "percent",
+     "wrong": "b / p * 100",
+     "explain": "Per thousand: multiply by {k}, not 100."
+    }
+   ],
+   "solution": [
+    "BR = births ÷ population × {k}.",
+    "{b} ÷ {p} × {k} = {answer} ‰."
+   ],
+   "where": [
+    "isInt(b)"
+   ],
+   "unit": "‰"
+  },
+  {
+   "id": "g2-3-level",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "demographic-indices"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      34,
+      36,
+      38,
+      40,
+      42,
+      45
+     ]
+    },
+    "h": 30,
+    "lo": 15
+   },
+   "prompt": "A country has a birth rate of {r} ‰. Is this high or low?",
+   "correct": "{r >= 30 ? 'high' : 'low'}",
+   "distractors": [
+    {
+     "text": "{r >= 30 ? 'low' : 'high'}",
+     "misconception": "flip"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Compare {r} ‰ with about {h} ‰ (high) and {lo} ‰ (low)."
+    }
+   ],
+   "solution": [
+    "Above about {h} ‰ is high; below about {lo} ‰ is low.",
+    "{r} ‰ is {answer}."
+   ],
+   "show": 2
+  },
+  {
+   "id": "g2-3-births",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "demographic-indices"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      10000,
+      20000,
+      30000,
+      50000,
+      80000
+     ]
+    },
+    "r": {
+     "int": [
+      15,
+      45
+     ]
+    },
+    "k": 1000
+   },
+   "prompt": "A town has {p} people and a birth rate of {r} ‰. How many babies were born there in the year?",
+   "answer": "p * r / 1000",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "p * r",
+     "explain": "Divide by {k}: the rate is per thousand."
+    }
+   ],
+   "solution": [
+    "Births = BR × population ÷ {k}.",
+    "{r} × {p} ÷ {k} = {answer}."
+   ],
+   "unit": "births"
+  },
+  {
+   "id": "g2-3-compare",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "demographic-indices"
+   ],
+   "vars": {
+    "p1": {
+     "pick": [
+      10000,
+      20000,
+      40000
+     ]
+    },
+    "p2": {
+     "pick": [
+      10000,
+      25000,
+      50000
+     ]
+    },
+    "r1": {
+     "int": [
+      30,
+      48
+     ]
+    },
+    "r2": {
+     "int": [
+      10,
+      25
+     ]
+    },
+    "b1": {
+     "expr": "p1 * r1 / 1000"
+    },
+    "b2": {
+     "expr": "p2 * r2 / 1000"
+    },
+    "k": 1000
+   },
+   "prompt": "Town A has {p1} people and {b1} births; town B has {p2} people and {b2} births. By how many ‰ is A's birth rate higher than B's?",
+   "answer": "b1 / p1 * 1000 - b2 / p2 * 1000",
+   "misconceptions": [
+    {
+     "id": "births",
+     "wrong": "b1 - b2",
+     "explain": "Compare the rates, not the numbers of births."
+    }
+   ],
+   "solution": [
+    "A: {b1} ÷ {p1} × {k} = {b1 / p1 * k} ‰. B: {b2} ÷ {p2} × {k} = {b2 / p2 * k} ‰.",
+    "Difference: {b1 / p1 * k} − {b2 / p2 * k} = {answer} ‰."
+   ],
+   "unit": "‰"
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "g2-4",
+   "name": "Practical work 1: death rate and natural increase"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The crude death rate (DR) is the number of deaths in a year for every 1000 people: DR = (deaths ÷ population) × 1000, in ‰.\nThe rate of natural increase (NI) is the birth rate minus the death rate: NI = BR − DR, in ‰. Divide by 10 to give it as a percentage: 25 ‰ = 2.5 %.\nNatural increase in numbers = births − deaths (migration is not counted).\nIf BR is greater than DR the population grows; if they are equal it stays the same; if DR is greater it falls (natural decrease).\nExample: BR = 38 ‰, DR = 12 ‰, so NI = 26 ‰ = 2.6 % a year.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "br": 38,
+   "dr": 12,
+   "ten": 10
+  },
+  "problem": "A country has a birth rate of {br} ‰ and a death rate of {dr} ‰. Find its rate of natural increase in ‰ and in %.",
+  "steps": [
+   "NI = BR − DR = {br} − {dr} = {br - dr} ‰.",
+   "As a percentage: {br - dr} ÷ {ten} = {(br - dr) / ten} %."
+  ],
+  "answer": "{br - dr} ‰, or {(br - dr) / ten} %",
+  "checks": [
+   "br - dr == 26"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "The death rate is deaths per thousand people in a year.",
+    "vars": {
+     "d": 300,
+     "p": 25000,
+     "k": 1000
+    },
+    "example": [
+     "{d} deaths, {p} people: {d} ÷ {p} × {k} = {d / p * k} ‰."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-4-dr"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "Natural increase = birth rate − death rate.",
+    "vars": {
+     "br": 40,
+     "dr": 15
+    },
+    "example": [
+     "{br} ‰ − {dr} ‰ = {br - dr} ‰."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-4-ni"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "Divide a rate in ‰ by ten to give it as a percentage.",
+    "vars": {
+     "n": 25,
+     "ten": 10
+    },
+    "example": [
+     "{n} ‰ = {n / ten} %."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-4-percent-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "demographic-indices"
+     ],
+     "vars": {
+      "n": {
+       "int": [
+        5,
+        35
+       ]
+      },
+      "ten": 10
+     },
+     "prompt": "A country's rate of natural increase is {n} ‰. What is it as a percentage?",
+     "answer": "n / 10",
+     "misconceptions": [
+      {
+       "id": "times",
+       "wrong": "n * 10",
+       "explain": "Divide by {ten}: a percentage is per hundred."
+      }
+     ],
+     "solution": [
+      "Divide by {ten}.",
+      "{n} ÷ {ten} = {answer} %."
+     ],
+     "unit": "%"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-4-dr",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "demographic-indices"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      5000,
+      10000,
+      20000,
+      25000,
+      40000,
+      50000
+     ]
+    },
+    "r": {
+     "int": [
+      5,
+      20
+     ]
+    },
+    "d": {
+     "expr": "p * r / 1000"
+    },
+    "k": 1000
+   },
+   "prompt": "A town of {p} people had {d} deaths in a year. What is its death rate (in ‰)?",
+   "answer": "d / p * 1000",
+   "misconceptions": [
+    {
+     "id": "no-thousand",
+     "wrong": "d / p",
+     "explain": "Multiply by {k} to get deaths per thousand."
+    }
+   ],
+   "solution": [
+    "DR = deaths ÷ population × {k}.",
+    "{d} ÷ {p} × {k} = {answer} ‰."
+   ],
+   "where": [
+    "isInt(d)"
+   ],
+   "unit": "‰"
+  },
+  {
+   "id": "g2-4-ni",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "demographic-indices"
+   ],
+   "vars": {
+    "br": {
+     "int": [
+      10,
+      48
+     ]
+    },
+    "dr": {
+     "int": [
+      5,
+      20
+     ]
+    }
+   },
+   "prompt": "A country has BR = {br} ‰ and DR = {dr} ‰. What is its rate of natural increase (in ‰)?",
+   "answer": "br - dr",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "br + dr",
+     "explain": "Natural increase is births minus deaths: subtract."
+    },
+    {
+     "id": "reversed",
+     "wrong": "dr - br",
+     "explain": "Subtract the death rate from the birth rate."
+    }
+   ],
+   "solution": [
+    "NI = BR − DR.",
+    "{br} − {dr} = {answer} ‰."
+   ],
+   "unit": "‰",
+   "signed": true
+  },
+  {
+   "id": "g2-4-percent",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "demographic-indices"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      5,
+      35
+     ]
+    },
+    "ten": 10
+   },
+   "prompt": "A country's rate of natural increase is {n} ‰. What is it as a percentage?",
+   "answer": "n / 10",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "n * 10",
+     "explain": "Divide by {ten}: a percentage is per hundred."
+    }
+   ],
+   "solution": [
+    "Divide by {ten}.",
+    "{n} ÷ {ten} = {answer} %."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "g2-4-full",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "demographic-indices"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      10000,
+      20000,
+      25000,
+      50000
+     ]
+    },
+    "rb": {
+     "int": [
+      20,
+      45
+     ]
+    },
+    "rd": {
+     "int": [
+      6,
+      18
+     ]
+    },
+    "b": {
+     "expr": "p * rb / 1000"
+    },
+    "d": {
+     "expr": "p * rd / 1000"
+    },
+    "k": 1000
+   },
+   "prompt": "A town of {p} people had {b} births and {d} deaths in a year. What is its rate of natural increase (in ‰)?",
+   "answer": "(b - d) / p * 1000",
+   "misconceptions": [
+    {
+     "id": "numbers",
+     "wrong": "b - d",
+     "explain": "That is the increase in people; give it per thousand."
+    }
+   ],
+   "solution": [
+    "BR = {b} ÷ {p} × {k} = {b / p * k} ‰; DR = {d} ÷ {p} × {k} = {d / p * k} ‰.",
+    "NI = {b / p * k} − {d / p * k} = {answer} ‰."
+   ],
+   "unit": "‰"
+  }
+ ]
+}
