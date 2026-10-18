@@ -1,0 +1,381 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 4,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-4",
+   "name": "Le lexique de la famille élargie"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La famille élargie comprend plusieurs générations :\n• les arrière-grands-parents (les parents des grands-parents), les grands-parents, les parents, les enfants, les petits-enfants ;\n• l’oncle, la tante, le cousin, la cousine, le neveu, la nièce ;\n• par le mariage : le beau-père, la belle-mère, le gendre (le mari de ma fille), la belle-fille ou la bru (la femme de mon fils), le beau-frère, la belle-sœur ;\n• le demi-frère, la demi-sœur : ils ont un seul parent en commun avec moi ;\n• l’aîné (le plus âgé des enfants), le cadet (le plus jeune), les jumeaux (nés le même jour de la même mère) ;\n• un orphelin a perdu ses parents ; un veuf a perdu sa femme, une veuve a perdu son mari ;\n• le parrain, la marraine, le filleul.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mon père s’est marié une deuxième fois et a eu un fils avec sa nouvelle femme. Qui est ce garçon pour moi ?",
+  "steps": [
+   "Nous avons le même père, mais pas la même mère.",
+   "Un seul parent en commun : c’est mon demi-frère."
+  ],
+  "answer": "C’est mon demi-frère.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4-1",
+    "status": "draft",
+    "idea": "Le gendre est le mari de ma fille ; la belle-fille (la bru) est la femme de mon fils.",
+    "vars": {},
+    "example": [
+     "Le mari de ma sœur aînée est le gendre de mes parents."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-4-mariage"
+    }
+   },
+   {
+    "id": "c4-2",
+    "status": "draft",
+    "idea": "L’aîné est l’enfant le plus âgé ; le cadet est le plus jeune.",
+    "vars": {},
+    "example": [
+     "Ewane, quinze ans, est l’aîné ; Tabi, huit ans, est le cadet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-4-age"
+    }
+   },
+   {
+    "id": "c4-3",
+    "status": "draft",
+    "idea": "Un orphelin a perdu ses parents ; une veuve a perdu son mari.",
+    "vars": {},
+    "example": [
+     "Après la mort de son mari, ma tante est veuve."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-4-mots-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "prompt": "Relie chaque mot à sa définition.",
+     "pool": [
+      {
+       "left": "un orphelin",
+       "right": "un enfant qui a perdu ses parents"
+      },
+      {
+       "left": "une veuve",
+       "right": "une femme qui a perdu son mari"
+      },
+      {
+       "left": "un demi-frère",
+       "right": "un frère avec un seul parent en commun"
+      },
+      {
+       "left": "une marraine",
+       "right": "une femme qui s’engage à aider un enfant, son filleul"
+      },
+      {
+       "left": "un veuf",
+       "right": "un homme qui a perdu sa femme"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-4-mariage",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui est le mari de ma fille ?",
+       "r": "mon gendre",
+       "w": [
+        "mon neveu",
+        "mon beau-père",
+        "mon petit-fils"
+       ],
+       "e": [
+        "Le neveu est le fils de mon frère ou de ma sœur.",
+        "Le beau-père est le père de mon mari ou de ma femme.",
+        "Le petit-fils est l’enfant de mon enfant."
+       ],
+       "y": "Le mari de ma fille est mon gendre."
+      },
+      {
+       "q": "Qui est la femme de mon fils ?",
+       "r": "ma belle-fille",
+       "w": [
+        "ma nièce",
+        "ma belle-mère",
+        "ma petite-fille"
+       ],
+       "e": [
+        "La nièce est la fille de mon frère ou de ma sœur.",
+        "La belle-mère est la mère de mon mari ou de ma femme.",
+        "La petite-fille est l’enfant de mon enfant."
+       ],
+       "y": "La femme de mon fils est ma belle-fille (ma bru)."
+      },
+      {
+       "q": "Qui sont les parents de mes grands-parents ?",
+       "r": "mes arrière-grands-parents",
+       "w": [
+        "mes oncles",
+        "mes beaux-parents",
+        "mes petits-enfants"
+       ],
+       "e": [
+        "Les oncles sont les frères de mes parents.",
+        "Les beaux-parents sont les parents de mon mari ou de ma femme.",
+        "C’est le contraire."
+       ],
+       "y": "Arrière- : une génération plus haut."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-4-age",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment appelle-t-on l’enfant le plus âgé d’une famille ?",
+       "r": "l’aîné",
+       "w": [
+        "le cadet",
+        "le jumeau",
+        "le filleul"
+       ],
+       "e": [
+        "Le cadet est le plus jeune.",
+        "Les jumeaux sont nés le même jour.",
+        "Le filleul a un parrain."
+       ],
+       "y": "L’aîné est le premier né."
+      },
+      {
+       "q": "Comment appelle-t-on l’enfant le plus jeune ?",
+       "r": "le cadet",
+       "w": [
+        "l’aîné",
+        "le parrain",
+        "l’orphelin"
+       ],
+       "e": [
+        "L’aîné est le plus âgé.",
+        "Le parrain est un adulte.",
+        "Un orphelin a perdu ses parents."
+       ],
+       "y": "Le cadet est le plus jeune."
+      },
+      {
+       "q": "Comment appelle-t-on deux enfants nés le même jour de la même mère ?",
+       "r": "des jumeaux",
+       "w": [
+        "des cousins",
+        "des demi-frères",
+        "des neveux"
+       ],
+       "e": [
+        "Les cousins n’ont pas les mêmes parents.",
+        "Les demi-frères n’ont qu’un parent en commun.",
+        "Les neveux sont les enfants de mon frère ou de ma sœur."
+       ],
+       "y": "Les jumeaux naissent ensemble."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-4-mots",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "un orphelin",
+     "right": "un enfant qui a perdu ses parents"
+    },
+    {
+     "left": "une veuve",
+     "right": "une femme qui a perdu son mari"
+    },
+    {
+     "left": "un demi-frère",
+     "right": "un frère avec un seul parent en commun"
+    },
+    {
+     "left": "une marraine",
+     "right": "une femme qui s’engage à aider un enfant, son filleul"
+    },
+    {
+     "left": "un veuf",
+     "right": "un homme qui a perdu sa femme"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-4-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le gendre est le mari de ma fille.",
+      "truth": "true"
+     },
+     {
+      "text": "Le cadet est le plus jeune.",
+      "truth": "true"
+     },
+     {
+      "text": "Une veuve a perdu son mari.",
+      "truth": "true"
+     },
+     {
+      "text": "Les arrière-grands-parents sont les parents des grands-parents.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le gendre est le fils de mon oncle.",
+      "truth": "false",
+      "explain": "Le fils de mon oncle est mon cousin ; le gendre est le mari de ma fille."
+     },
+     {
+      "text": "L’aîné est le plus jeune des enfants.",
+      "truth": "false",
+      "explain": "L’aîné est le plus âgé."
+     },
+     {
+      "text": "Un orphelin a deux parents vivants.",
+      "truth": "false",
+      "explain": "Un orphelin a perdu ses parents."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

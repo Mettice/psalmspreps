@@ -1,0 +1,426 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "fr",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "fi2-24",
+   "name": "La lecture expressive"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Lire de façon expressive, c’est lire pour que les auditeurs comprennent et ressentent le texte.\n• Articuler : prononcer chaque syllabe clairement ; faire les liaisons obligatoires.\n• Le débit : ni trop vite ni trop lentement.\n• Le volume : assez fort pour être entendu.\n• Les pauses : courte à la virgule, plus longue au point.\n• L’intonation : la voix monte à la fin d’une question (?), descend à la fin d’une phrase déclarative (.), devient forte et vive à l’exclamation (!).\n• Le ton : joyeux, triste, en colère … selon le sentiment ; dans un dialogue, on change un peu de voix pour chaque personnage.\nAvant de lire à voix haute, on lit le texte une fois en silence pour bien le comprendre.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Comment lire : « Tu es encore en retard ? cria le maître. Sors d’ici ! »",
+  "steps": [
+   "« Tu es encore en retard ? » : la voix monte (question).",
+   "« cria le maître » : voix normale, c’est le narrateur.",
+   "« Sors d’ici ! » : voix forte, ton de colère (exclamation)."
+  ],
+  "answer": "Voix qui monte pour la question, voix normale pour le narrateur, voix forte et fâchée pour l’ordre.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "La voix monte à la fin d’une question et descend à la fin d’une phrase déclarative.",
+    "vars": {},
+    "example": [
+     "Tu viens ? (la voix monte) Je viens. (la voix descend)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-24-into"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "On fait une pause courte à la virgule et plus longue au point.",
+    "vars": {},
+    "example": [
+     "Le matin, (courte) je me lève tôt. (longue)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-24-pause"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "Le ton change selon le sentiment : joie, tristesse, colère.",
+    "vars": {},
+    "example": [
+     "« Quelle belle surprise ! » se lit avec joie."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-24-ton-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Mon chien est mort ce matin…",
+         "r": "un ton triste, voix douce",
+         "w": [
+          "un ton joyeux",
+          "un ton de colère",
+          "un ton de question"
+         ],
+         "e": [
+          "La phrase est triste.",
+          "Il n’y a pas de colère.",
+          "Ce n’est pas une question."
+         ],
+         "y": "La phrase exprime la tristesse."
+        },
+        {
+         "q": "Hourra ! Nous avons gagné le match !",
+         "r": "un ton joyeux, voix forte",
+         "w": [
+          "un ton triste",
+          "un ton calme et bas",
+          "un ton de question"
+         ],
+         "e": [
+          "La phrase exprime la joie.",
+          "L’exclamation demande une voix vive.",
+          "Ce n’est pas une question."
+         ],
+         "y": "« Hourra ! » exprime la joie."
+        },
+        {
+         "q": "Qui a cassé ma calebasse ? Répondez immédiatement !",
+         "r": "un ton de colère, voix forte",
+         "w": [
+          "un ton triste et lent",
+          "un ton joyeux",
+          "un ton timide"
+         ],
+         "e": [
+          "La personne est fâchée.",
+          "Elle n’est pas contente.",
+          "Elle donne un ordre."
+         ],
+         "y": "La question et l’ordre montrent la colère."
+        }
+       ]
+      }
+     },
+     "prompt": "Quel ton faut-il pour lire : « {X.q} » ?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-24-into",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Relie chaque signe à la façon de lire.",
+   "pool": [
+    {
+     "left": "le point d’interrogation (?)",
+     "right": "la voix monte"
+    },
+    {
+     "left": "le point (.)",
+     "right": "la voix descend, longue pause"
+    },
+    {
+     "left": "le point d’exclamation (!)",
+     "right": "la voix est forte et vive"
+    },
+    {
+     "left": "la virgule (,)",
+     "right": "une courte pause"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-24-pause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Où fait-on une courte pause en lisant ?",
+       "r": "à la virgule",
+       "w": [
+        "au milieu d’un mot",
+        "entre chaque lettre",
+        "jamais"
+       ],
+       "e": [
+        "On ne coupe pas les mots.",
+        "Cela casse la lecture.",
+        "On respecte la ponctuation."
+       ],
+       "y": "La virgule marque une courte pause."
+      },
+      {
+       "q": "Que faire avant de lire un texte à voix haute ?",
+       "r": "le lire une fois en silence pour le comprendre",
+       "w": [
+        "le lire le plus vite possible",
+        "sauter les mots difficiles",
+        "fermer le livre"
+       ],
+       "e": [
+        "On lit à un débit normal.",
+        "On prépare les mots difficiles.",
+        "On a besoin du texte."
+       ],
+       "y": "Comprendre aide à bien lire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-24-ton",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Mon chien est mort ce matin…",
+       "r": "un ton triste, voix douce",
+       "w": [
+        "un ton joyeux",
+        "un ton de colère",
+        "un ton de question"
+       ],
+       "e": [
+        "La phrase est triste.",
+        "Il n’y a pas de colère.",
+        "Ce n’est pas une question."
+       ],
+       "y": "La phrase exprime la tristesse."
+      },
+      {
+       "q": "Hourra ! Nous avons gagné le match !",
+       "r": "un ton joyeux, voix forte",
+       "w": [
+        "un ton triste",
+        "un ton calme et bas",
+        "un ton de question"
+       ],
+       "e": [
+        "La phrase exprime la joie.",
+        "L’exclamation demande une voix vive.",
+        "Ce n’est pas une question."
+       ],
+       "y": "« Hourra ! » exprime la joie."
+      },
+      {
+       "q": "Qui a cassé ma calebasse ? Répondez immédiatement !",
+       "r": "un ton de colère, voix forte",
+       "w": [
+        "un ton triste et lent",
+        "un ton joyeux",
+        "un ton timide"
+       ],
+       "e": [
+        "La personne est fâchée.",
+        "Elle n’est pas contente.",
+        "Elle donne un ordre."
+       ],
+       "y": "La question et l’ordre montrent la colère."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel ton faut-il pour lire : « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-24-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil de lecture expressive est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On articule chaque syllabe.",
+      "truth": "true"
+     },
+     {
+      "text": "On fait les liaisons obligatoires.",
+      "truth": "true"
+     },
+     {
+      "text": "La voix monte à la fin d’une question.",
+      "truth": "true"
+     },
+     {
+      "text": "On change un peu de voix pour chaque personnage.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On lit le plus vite possible.",
+      "truth": "false",
+      "explain": "Le débit doit être ni trop rapide ni trop lent."
+     },
+     {
+      "text": "On ne fait jamais de pause.",
+      "truth": "false",
+      "explain": "On fait des pauses aux virgules et aux points."
+     },
+     {
+      "text": "La voix monte à la fin d’une phrase déclarative.",
+      "truth": "false",
+      "explain": "Elle descend à la fin d’une phrase déclarative."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

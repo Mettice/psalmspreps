@@ -1,0 +1,490 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 11,
+ "language": "fr",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "fi2-11",
+   "name": "Les doubles consonnes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Certains mots doublent une consonne. Quelques repères :\n• après ac-, af-, ap-, at-, ef-, of- au début du mot, la consonne est souvent doublée : accrocher, affaire, apporter, attendre, effort, offrir (mais : acheter, afin, après, atelier) ;\n• les mots qui commencent par ill-, imm-, irr- : illisible, immense, irrégulier ;\n• au féminin, -el, -en, -on doublent la consonne : cruel → cruelle, ancien → ancienne, bon → bonne ; et on écrit -ette, -elle : une fillette, une poubelle ;\n• entre deux voyelles, deux s donnent le son [s] : une tasse, un poisson (un seul s se lit [z] : une rose).\nEn cas de doute, on vérifie dans le dictionnaire.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Le chien a___endu son maître devant la ma___on ; il est bo_ et fidèle. »",
+  "steps": [
+   "« attendre » : après at- au début, on double le t.",
+   "« maison » : un seul s entre deux voyelles pour le son [z].",
+   "« bon » au masculin : un seul n."
+  ],
+  "answer": "Le chien a attendu son maître devant la maison ; il est bon et fidèle.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c11-1",
+    "status": "draft",
+    "idea": "Après ac-, af-, ap-, at- au début du mot, la consonne est souvent doublée.",
+    "vars": {},
+    "example": [
+     "accrocher, apporter, attendre"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-11-debut"
+    }
+   },
+   {
+    "id": "c11-2",
+    "status": "draft",
+    "idea": "Au féminin, -el, -en, -on doublent la consonne : cruelle, ancienne, bonne.",
+    "vars": {},
+    "example": [
+     "un bon repas, une bonne soupe"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-11-fem"
+    }
+   },
+   {
+    "id": "c11-3",
+    "status": "draft",
+    "idea": "Entre deux voyelles, ss se lit [s] ; un seul s se lit [z].",
+    "vars": {},
+    "example": [
+     "un poisson (son [s]), un poison (son [z])"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-11-ss-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans quel mot entend-on [z] ?",
+         "r": "une rose",
+         "w": [
+          "une tasse",
+          "un poisson",
+          "une brosse"
+         ],
+         "e": [
+          "ss se lit [s].",
+          "ss se lit [s].",
+          "ss se lit [s]."
+         ],
+         "y": "Un seul s entre deux voyelles se lit [z]."
+        },
+        {
+         "q": "Quel mot désigne un animal qui vit dans l’eau ?",
+         "r": "un poisson",
+         "w": [
+          "un poison",
+          "un poisone",
+          "un poissson"
+         ],
+         "e": [
+          "Un poison est un produit dangereux.",
+          "Ce mot n’existe pas.",
+          "Il y a trop de s."
+         ],
+         "y": "poisson : ss pour le son [s]."
+        },
+        {
+         "q": "Comment s’écrit le mot qui veut dire « très grand » ?",
+         "r": "immense",
+         "w": [
+          "imense",
+          "immence",
+          "immanse"
+         ],
+         "e": [
+          "Les mots en imm- doublent le m.",
+          "Le son [s] s’écrit ici se.",
+          "Le son s’écrit en."
+         ],
+         "y": "immense : imm- au début."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-11-debut",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "J’___ mon frère devant l’école.",
+       "a": "attends",
+       "w": [
+        "atends",
+        "attands"
+       ],
+       "e": [
+        "Après at- au début, on double le t.",
+        "Le son [ɑ̃] s’écrit ici en."
+       ]
+      },
+      {
+       "s": "Peux-tu ___ ce tableau au mur ?",
+       "a": "accrocher",
+       "w": [
+        "acrocher",
+        "akrocher"
+       ],
+       "e": [
+        "Après ac- au début, on double le c.",
+        "On écrit cc."
+       ]
+      },
+      {
+       "s": "Ma mère ___ des fruits du marché.",
+       "a": "apporte",
+       "w": [
+        "aporte",
+        "apportte"
+       ],
+       "e": [
+        "Après ap- au début, on double le p.",
+        "Le t n’est pas doublé."
+       ]
+      },
+      {
+       "s": "Ce texte est ___ : on ne peut pas le lire.",
+       "a": "illisible",
+       "w": [
+        "ilisible",
+        "illissible"
+       ],
+       "e": [
+        "Les mots en ill- doublent le l.",
+        "Un seul s ici."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-11-fem",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma grand-mère prépare une ___ soupe.",
+       "a": "bonne",
+       "w": [
+        "bone",
+        "bonnes"
+       ],
+       "e": [
+        "Au féminin, bon devient bonne (nn).",
+        "« soupe » est singulier."
+       ]
+      },
+      {
+       "s": "C’est une maison très ___.",
+       "a": "ancienne",
+       "w": [
+        "anciene",
+        "anciènne"
+       ],
+       "e": [
+        "Au féminin, ancien devient ancienne (nn).",
+        "Pas d’accent ici."
+       ]
+      },
+      {
+       "s": "La sorcière du conte est ___.",
+       "a": "cruelle",
+       "w": [
+        "cruele",
+        "cruèle"
+       ],
+       "e": [
+        "Au féminin, cruel devient cruelle (ll).",
+        "Pas d’accent, on double le l."
+       ]
+      },
+      {
+       "s": "Ma tante est une femme ___.",
+       "a": "gentille",
+       "w": [
+        "gentile",
+        "gentiye"
+       ],
+       "e": [
+        "Au féminin, gentil devient gentille (ll).",
+        "On écrit -ille."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne forme au féminin.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-11-ss",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quel mot entend-on [z] ?",
+       "r": "une rose",
+       "w": [
+        "une tasse",
+        "un poisson",
+        "une brosse"
+       ],
+       "e": [
+        "ss se lit [s].",
+        "ss se lit [s].",
+        "ss se lit [s]."
+       ],
+       "y": "Un seul s entre deux voyelles se lit [z]."
+      },
+      {
+       "q": "Quel mot désigne un animal qui vit dans l’eau ?",
+       "r": "un poisson",
+       "w": [
+        "un poison",
+        "un poisone",
+        "un poissson"
+       ],
+       "e": [
+        "Un poison est un produit dangereux.",
+        "Ce mot n’existe pas.",
+        "Il y a trop de s."
+       ],
+       "y": "poisson : ss pour le son [s]."
+      },
+      {
+       "q": "Comment s’écrit le mot qui veut dire « très grand » ?",
+       "r": "immense",
+       "w": [
+        "imense",
+        "immence",
+        "immanse"
+       ],
+       "e": [
+        "Les mots en imm- doublent le m.",
+        "Le son [s] s’écrit ici se.",
+        "Le son s’écrit en."
+       ],
+       "y": "immense : imm- au début."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-11-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Nous attendons le car.",
+      "truth": "true"
+     },
+     {
+      "text": "C’est une bonne idée.",
+      "truth": "true"
+     },
+     {
+      "text": "Il boit une tasse de thé.",
+      "truth": "true"
+     },
+     {
+      "text": "Ce devoir est irrégulier.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ma grand-mère est une femme bone.",
+      "truth": "false",
+      "explain": "Au féminin : bonne."
+     },
+     {
+      "text": "J’aporte mon cahier.",
+      "truth": "false",
+      "explain": "Après ap- au début : apporte."
+     },
+     {
+      "text": "Le pêcheur a pris un gros poison.",
+      "truth": "false",
+      "explain": "L’animal s’écrit poisson (ss)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

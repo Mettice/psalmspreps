@@ -1,0 +1,385 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 14,
+ "language": "fr",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "fi2-14",
+   "name": "Écrire un court paragraphe"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un paragraphe est un groupe de phrases qui parlent d’une même idée. Il commence par un alinéa (un retrait au début de la ligne).\nPlan d’un paragraphe :\n• une phrase d’introduction qui annonce l’idée principale ;\n• deux ou trois phrases qui donnent des détails ou des exemples ;\n• une phrase de conclusion.\nLes mots de liaison organisent les idées : d’abord, ensuite, puis, de plus, enfin, en conclusion.\nExemple : Mon quartier est très animé. D’abord, le marché attire beaucoup de monde le matin. Ensuite, les enfants jouent au football dans la rue. Enfin, le soir, les voisins causent devant les maisons. J’aime vivre dans ce quartier.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelle est la phrase d’introduction du paragraphe-exemple, et quels mots de liaison emploie-t-il ?",
+  "steps": [
+   "La première phrase annonce l’idée : « Mon quartier est très animé. »",
+   "Mots de liaison : d’abord, ensuite, enfin."
+  ],
+  "answer": "« Mon quartier est très animé. » ; d’abord, ensuite, enfin.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c14-1",
+    "status": "draft",
+    "idea": "Un paragraphe parle d’une seule idée et commence par un alinéa.",
+    "vars": {},
+    "example": [
+     "Idée : mon école est belle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-14-mot"
+    }
+   },
+   {
+    "id": "c14-2",
+    "status": "draft",
+    "idea": "Plan : une phrase d’introduction, des détails, une conclusion.",
+    "vars": {},
+    "example": [
+     "Conclusion : « J’aime vivre dans ce quartier. »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-14-plan"
+    }
+   },
+   {
+    "id": "c14-3",
+    "status": "draft",
+    "idea": "Les mots de liaison : d’abord, ensuite, puis, enfin.",
+    "vars": {},
+    "example": [
+     "D’abord je me lave, ensuite je m’habille."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-14-ordre-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Mon quartier est très animé.",
+         "D’abord, le marché attire beaucoup de monde le matin.",
+         "Ensuite, les enfants jouent au football dans la rue.",
+         "Enfin, le soir, les voisins causent devant les maisons."
+        ],
+        [
+         "Ma grand-mère est une femme courageuse.",
+         "D’abord, elle se lève avant le soleil.",
+         "Ensuite, elle travaille au champ toute la matinée.",
+         "Enfin, le soir, elle prépare le repas pour toute la famille."
+        ],
+        [
+         "Le samedi est un jour de travail chez nous.",
+         "D’abord, nous balayons la cour.",
+         "Ensuite, nous lavons le linge.",
+         "Enfin, nous rangeons la maison."
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets les phrases du paragraphe dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-14-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce qu’un paragraphe ?",
+       "r": "un groupe de phrases sur une même idée",
+       "w": [
+        "un seul mot",
+        "une liste de verbes",
+        "une ligne de poème"
+       ],
+       "e": [
+        "Un paragraphe a plusieurs phrases.",
+        "Ce n’est pas une liste.",
+        "C’est un vers."
+       ],
+       "y": "Un paragraphe développe une idée."
+      },
+      {
+       "q": "Comment commence un paragraphe ?",
+       "r": "par un alinéa (un retrait au début de la ligne)",
+       "w": [
+        "par un titre en couleur",
+        "par un point",
+        "par une virgule"
+       ],
+       "e": [
+        "Ce n’est pas obligatoire.",
+        "Le point termine la phrase.",
+        "La virgule ne commence pas un paragraphe."
+       ],
+       "y": "On laisse un petit espace au début."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-14-plan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase peut être une phrase d’introduction ?",
+       "r": "Mon école est très agréable.",
+       "w": [
+        "Enfin, je rentre à la maison.",
+        "Ensuite, la cloche sonne.",
+        "C’est pourquoi j’aime mon école."
+       ],
+       "e": [
+        "« Enfin » annonce la fin.",
+        "« Ensuite » annonce un détail.",
+        "C’est une conclusion."
+       ],
+       "y": "Elle annonce l’idée principale."
+      },
+      {
+       "q": "Quelle phrase peut être une conclusion ?",
+       "r": "Voilà pourquoi j’aime ma famille.",
+       "w": [
+        "D’abord, mon père est gentil.",
+        "Ma famille est grande.",
+        "Ensuite, ma mère cuisine bien."
+       ],
+       "e": [
+        "« D’abord » annonce un premier détail.",
+        "C’est une introduction.",
+        "« Ensuite » annonce un détail."
+       ],
+       "y": "« Voilà pourquoi » conclut."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-14-ordre",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Mon quartier est très animé.",
+       "D’abord, le marché attire beaucoup de monde le matin.",
+       "Ensuite, les enfants jouent au football dans la rue.",
+       "Enfin, le soir, les voisins causent devant les maisons."
+      ],
+      [
+       "Ma grand-mère est une femme courageuse.",
+       "D’abord, elle se lève avant le soleil.",
+       "Ensuite, elle travaille au champ toute la matinée.",
+       "Enfin, le soir, elle prépare le repas pour toute la famille."
+      ],
+      [
+       "Le samedi est un jour de travail chez nous.",
+       "D’abord, nous balayons la cour.",
+       "Ensuite, nous lavons le linge.",
+       "Enfin, nous rangeons la maison."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les phrases du paragraphe dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-14-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour écrire un paragraphe est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Un paragraphe parle d’une seule idée.",
+      "truth": "true"
+     },
+     {
+      "text": "On commence par un alinéa.",
+      "truth": "true"
+     },
+     {
+      "text": "On organise les idées avec d’abord, ensuite, enfin.",
+      "truth": "true"
+     },
+     {
+      "text": "On termine par une phrase de conclusion.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On met une idée différente dans chaque phrase sans lien.",
+      "truth": "false",
+      "explain": "Toutes les phrases parlent de la même idée."
+     },
+     {
+      "text": "On commence le paragraphe par « enfin ».",
+      "truth": "false",
+      "explain": "« Enfin » annonce la dernière idée."
+     },
+     {
+      "text": "Un paragraphe n’a jamais de phrase d’introduction.",
+      "truth": "false",
+      "explain": "La phrase d’introduction annonce l’idée."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

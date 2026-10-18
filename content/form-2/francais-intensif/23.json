@@ -1,0 +1,461 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 23,
+ "language": "fr",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "fi2-23",
+   "name": "Lire un conte"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le conte est un récit ancien, souvent oral, qui commence par une formule (« Il était une fois », « Un jour »). Schéma : situation initiale, élément perturbateur, péripéties, dénouement, situation finale. Beaucoup de contes expliquent l’origine d’une chose.\n\nTexte : Pourquoi la carapace de la tortue est craquelée\nIl était une fois, au temps où les animaux parlaient, une grande fête chez les oiseaux, dans le ciel. La tortue voulait y aller. « Prêtez-moi chacun une plume », supplia-t-elle. Les oiseaux, généreux, lui donnèrent des plumes et elle s’envola avec eux. Mais, au festin, la tortue mangea tout, sans rien laisser aux autres. Fâchés, les oiseaux reprirent leurs plumes. La tortue tomba du ciel sur des pierres, et sa carapace se brisa en morceaux. Les fourmis la recollèrent, mais depuis ce jour, sa carapace est couverte de fissures.\n(version écrite pour l’application d’un conte traditionnel)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel est le problème (l’élément perturbateur) dans ce conte, et quelle leçon donne-t-il ?",
+  "steps": [
+   "Problème : la tortue veut aller à la fête dans le ciel, mais elle ne sait pas voler.",
+   "Elle se montre gourmande et égoïste : les oiseaux reprennent leurs plumes et elle tombe.",
+   "Leçon : la gourmandise et l’égoïsme sont punis."
+  ],
+  "answer": "La tortue veut aller à la fête sans savoir voler ; la gourmandise et l’égoïsme sont punis.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c23-1",
+    "status": "draft",
+    "idea": "Le conte commence par une formule : « Il était une fois », « Un jour ».",
+    "vars": {},
+    "example": [
+     "« Il était une fois, au temps où les animaux parlaient … »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-23-conte"
+    }
+   },
+   {
+    "id": "c23-2",
+    "status": "draft",
+    "idea": "Schéma du récit : situation initiale, problème, péripéties, dénouement, situation finale.",
+    "vars": {},
+    "example": [
+     "Dénouement : les oiseaux reprennent leurs plumes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-23-schema"
+    }
+   },
+   {
+    "id": "c23-3",
+    "status": "draft",
+    "idea": "Beaucoup de contes expliquent l’origine d’une chose et donnent une leçon.",
+    "vars": {},
+    "example": [
+     "Ce conte explique les fissures de la carapace de la tortue."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-23-lecon-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quel défaut de la tortue est puni ?",
+         "r": "la gourmandise et l’égoïsme",
+         "w": [
+          "la lenteur",
+          "la timidité",
+          "la paresse au travail"
+         ],
+         "e": [
+          "Le conte ne parle pas de sa lenteur.",
+          "Elle n’est pas timide.",
+          "Elle ne refuse pas de travailler."
+         ],
+         "y": "Elle mange tout sans rien laisser aux autres."
+        },
+        {
+         "q": "qu’explique ce conte ?",
+         "r": "pourquoi la carapace de la tortue est craquelée",
+         "w": [
+          "pourquoi les oiseaux volent",
+          "pourquoi les fourmis sont petites",
+          "pourquoi il pleut"
+         ],
+         "e": [
+          "Ce n’est pas le sujet.",
+          "Ce n’est pas le sujet.",
+          "Ce n’est pas le sujet."
+         ],
+         "y": "Le titre le dit."
+        }
+       ]
+      }
+     },
+     "prompt": "Conte de la tortue : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-23-conte",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle formule commence le conte ?",
+       "r": "Il était une fois",
+       "w": [
+        "Depuis ce jour",
+        "Fâchés, les oiseaux",
+        "Les fourmis la recollèrent"
+       ],
+       "e": [
+        "C’est la fin du conte.",
+        "C’est le dénouement.",
+        "C’est la situation finale."
+       ],
+       "y": "C’est la formule traditionnelle des contes."
+      },
+      {
+       "q": "que demande la tortue aux oiseaux ?",
+       "r": "une plume chacun",
+       "w": [
+        "de la nourriture",
+        "une maison",
+        "un bateau"
+       ],
+       "e": [
+        "Elle veut aller à la fête.",
+        "Elle veut voler.",
+        "La fête est dans le ciel."
+       ],
+       "y": "« Prêtez-moi chacun une plume »."
+      },
+      {
+       "q": "qui recolle la carapace ?",
+       "r": "les fourmis",
+       "w": [
+        "les oiseaux",
+        "la tortue elle-même",
+        "un chasseur"
+       ],
+       "e": [
+        "Ils sont fâchés.",
+        "Elle est blessée.",
+        "Il n’y a pas de chasseur."
+       ],
+       "y": "« Les fourmis la recollèrent »."
+      }
+     ]
+    }
+   },
+   "prompt": "Conte de la tortue : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-23-schema",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel est le dénouement ?",
+       "r": "les oiseaux reprennent leurs plumes et la tortue tombe",
+       "w": [
+        "la tortue veut aller à la fête",
+        "il y a une fête dans le ciel",
+        "les oiseaux prêtent des plumes"
+       ],
+       "e": [
+        "C’est le problème.",
+        "C’est la situation initiale.",
+        "C’est une péripétie."
+       ],
+       "y": "Le dénouement règle le problème."
+      },
+      {
+       "q": "quelle est la situation finale ?",
+       "r": "la carapace de la tortue est couverte de fissures",
+       "w": [
+        "la tortue va à la fête",
+        "les oiseaux sont généreux",
+        "la tortue mange tout"
+       ],
+       "e": [
+        "C’est une péripétie.",
+        "C’est au début.",
+        "C’est une péripétie."
+       ],
+       "y": "« depuis ce jour, sa carapace est couverte de fissures »."
+      }
+     ]
+    }
+   },
+   "prompt": "Conte de la tortue : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-23-lecon",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel défaut de la tortue est puni ?",
+       "r": "la gourmandise et l’égoïsme",
+       "w": [
+        "la lenteur",
+        "la timidité",
+        "la paresse au travail"
+       ],
+       "e": [
+        "Le conte ne parle pas de sa lenteur.",
+        "Elle n’est pas timide.",
+        "Elle ne refuse pas de travailler."
+       ],
+       "y": "Elle mange tout sans rien laisser aux autres."
+      },
+      {
+       "q": "qu’explique ce conte ?",
+       "r": "pourquoi la carapace de la tortue est craquelée",
+       "w": [
+        "pourquoi les oiseaux volent",
+        "pourquoi les fourmis sont petites",
+        "pourquoi il pleut"
+       ],
+       "e": [
+        "Ce n’est pas le sujet.",
+        "Ce n’est pas le sujet.",
+        "Ce n’est pas le sujet."
+       ],
+       "y": "Le titre le dit."
+      }
+     ]
+    }
+   },
+   "prompt": "Conte de la tortue : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-23-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Conte de la tortue. Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "La tortue ne savait pas voler.",
+      "truth": "true"
+     },
+     {
+      "text": "Les oiseaux étaient d’abord généreux.",
+      "truth": "true"
+     },
+     {
+      "text": "La tortue mangea tout au festin.",
+      "truth": "true"
+     },
+     {
+      "text": "La carapace se brisa sur des pierres.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La tortue partagea le repas avec les oiseaux.",
+      "truth": "false",
+      "explain": "Elle mangea tout sans rien laisser."
+     },
+     {
+      "text": "Les oiseaux recollèrent la carapace.",
+      "truth": "false",
+      "explain": "Ce sont les fourmis."
+     },
+     {
+      "text": "Le conte commence par « Depuis ce jour ».",
+      "truth": "false",
+      "explain": "Il commence par « Il était une fois »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

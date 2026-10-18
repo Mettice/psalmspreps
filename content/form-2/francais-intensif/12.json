@@ -1,0 +1,490 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 12,
+ "language": "fr",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "fi2-12",
+   "name": "L’arbre généalogique"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un arbre généalogique montre les membres d’une famille sur plusieurs générations. Les plus anciens (les ancêtres) sont en haut ; leurs descendants sont en dessous.\nUne génération est un « étage » de l’arbre : les grands-parents, puis les parents, puis les enfants.\nLire un arbre : deux personnes sur la même ligne, reliées à un même parent, sont frères et sœurs ; les enfants de frères et sœurs sont cousins.\n\nExemple : Dans la famille Ewane : Papa Ewane et Mama Enanga ont deux enfants, Paul et Rose. Paul a une fille, Linda. Rose a un fils, Tom.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "D’après l’exemple, combien de générations y a-t-il, et qui est Tom pour Linda ?",
+  "steps": [
+   "Génération des grands-parents : Papa Ewane et Mama Enanga ; des parents : Paul et Rose ; des petits-enfants : Linda et Tom.",
+   "Linda est la fille de Paul, Tom le fils de Rose ; Paul et Rose sont frère et sœur."
+  ],
+  "answer": "Trois générations ; Tom est le cousin de Linda.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c12-1",
+    "status": "draft",
+    "idea": "Un arbre généalogique montre une famille sur plusieurs générations ; les ancêtres sont en haut.",
+    "vars": {},
+    "example": [
+     "Grands-parents en haut, petits-enfants en bas."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-12-mot"
+    }
+   },
+   {
+    "id": "c12-2",
+    "status": "draft",
+    "idea": "Les enfants de deux frères et sœurs sont cousins.",
+    "vars": {},
+    "example": [
+     "Linda et Tom sont cousins."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-12-lire"
+    }
+   },
+   {
+    "id": "c12-3",
+    "status": "draft",
+    "idea": "Une génération est un étage de l’arbre.",
+    "vars": {},
+    "example": [
+     "Paul et Rose sont de la même génération."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-12-gen-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Qui est de la même génération que Paul ?",
+         "r": "Rose",
+         "w": [
+          "Linda",
+          "Papa Ewane",
+          "Tom"
+         ],
+         "e": [
+          "Linda est la fille de Paul.",
+          "C’est le père de Paul.",
+          "Tom est le fils de Rose."
+         ],
+         "y": "Paul et Rose sont frère et sœur."
+        },
+        {
+         "q": "Qui est Paul pour Tom ?",
+         "r": "son oncle",
+         "w": [
+          "son père",
+          "son cousin",
+          "son grand-père"
+         ],
+         "e": [
+          "Le fils de Rose a un autre père.",
+          "Paul est de la génération des parents.",
+          "Le grand-père est Papa Ewane."
+         ],
+         "y": "Paul est le frère de Rose, la mère de Tom."
+        },
+        {
+         "q": "Combien de générations y a-t-il dans cet arbre ?",
+         "r": "trois",
+         "w": [
+          "deux",
+          "quatre",
+          "cinq"
+         ],
+         "e": [
+          "Il y a aussi les petits-enfants.",
+          "Il n’y a pas d’arrière-grands-parents.",
+          "Il n’y en a pas autant."
+         ],
+         "y": "Grands-parents, parents, petits-enfants."
+        }
+       ]
+      }
+     },
+     "prompt": "Dans la famille Ewane : Papa Ewane et Mama Enanga ont deux enfants, Paul et Rose. Paul a une fille, Linda. Rose a un fils, Tom. {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-12-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que montre un arbre généalogique ?",
+       "r": "les membres d’une famille sur plusieurs générations",
+       "w": [
+        "les arbres d’une forêt",
+        "les élèves d’une classe",
+        "les rues d’un quartier"
+       ],
+       "e": [
+        "Ce n’est pas un vrai arbre.",
+        "Il montre une famille.",
+        "Il montre une famille."
+       ],
+       "y": "Il montre les liens de parenté."
+      },
+      {
+       "q": "Comment appelle-t-on les personnes d’une famille qui ont vécu avant nous ?",
+       "r": "les ancêtres",
+       "w": [
+        "les descendants",
+        "les voisins",
+        "les jumeaux"
+       ],
+       "e": [
+        "Les descendants viennent après.",
+        "Les voisins ne sont pas de la famille.",
+        "Les jumeaux naissent ensemble."
+       ],
+       "y": "Les ancêtres sont en haut de l’arbre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-12-lire",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui est Tom pour Linda ?",
+       "r": "son cousin",
+       "w": [
+        "son frère",
+        "son oncle",
+        "son neveu"
+       ],
+       "e": [
+        "Ils n’ont pas les mêmes parents.",
+        "L’oncle de Linda est de la génération de Paul.",
+        "Le neveu de Linda serait l’enfant de son frère ou de sa sœur."
+       ],
+       "y": "Leurs parents, Paul et Rose, sont frère et sœur."
+      },
+      {
+       "q": "Qui est Rose pour Linda ?",
+       "r": "sa tante",
+       "w": [
+        "sa mère",
+        "sa cousine",
+        "sa grand-mère"
+       ],
+       "e": [
+        "La mère de Linda n’est pas nommée ; son père est Paul.",
+        "Rose est de la génération des parents.",
+        "La grand-mère est Mama Enanga."
+       ],
+       "y": "Rose est la sœur de Paul, le père de Linda."
+      },
+      {
+       "q": "Qui est Papa Ewane pour Tom ?",
+       "r": "son grand-père",
+       "w": [
+        "son père",
+        "son oncle",
+        "son cousin"
+       ],
+       "e": [
+        "Le père de Tom n’est pas nommé ; sa mère est Rose.",
+        "Papa Ewane est le père de Rose.",
+        "Il est deux générations plus haut."
+       ],
+       "y": "Papa Ewane est le père de Rose, la mère de Tom."
+      }
+     ]
+    }
+   },
+   "prompt": "Dans la famille Ewane : Papa Ewane et Mama Enanga ont deux enfants, Paul et Rose. Paul a une fille, Linda. Rose a un fils, Tom. {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-12-gen",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui est de la même génération que Paul ?",
+       "r": "Rose",
+       "w": [
+        "Linda",
+        "Papa Ewane",
+        "Tom"
+       ],
+       "e": [
+        "Linda est la fille de Paul.",
+        "C’est le père de Paul.",
+        "Tom est le fils de Rose."
+       ],
+       "y": "Paul et Rose sont frère et sœur."
+      },
+      {
+       "q": "Qui est Paul pour Tom ?",
+       "r": "son oncle",
+       "w": [
+        "son père",
+        "son cousin",
+        "son grand-père"
+       ],
+       "e": [
+        "Le fils de Rose a un autre père.",
+        "Paul est de la génération des parents.",
+        "Le grand-père est Papa Ewane."
+       ],
+       "y": "Paul est le frère de Rose, la mère de Tom."
+      },
+      {
+       "q": "Combien de générations y a-t-il dans cet arbre ?",
+       "r": "trois",
+       "w": [
+        "deux",
+        "quatre",
+        "cinq"
+       ],
+       "e": [
+        "Il y a aussi les petits-enfants.",
+        "Il n’y a pas d’arrière-grands-parents.",
+        "Il n’y en a pas autant."
+       ],
+       "y": "Grands-parents, parents, petits-enfants."
+      }
+     ]
+    }
+   },
+   "prompt": "Dans la famille Ewane : Papa Ewane et Mama Enanga ont deux enfants, Paul et Rose. Paul a une fille, Linda. Rose a un fils, Tom. {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-12-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Dans la famille Ewane : Papa Ewane et Mama Enanga ont deux enfants, Paul et Rose. Paul a une fille, Linda. Rose a un fils, Tom. Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Linda est la petite-fille de Mama Enanga.",
+      "truth": "true"
+     },
+     {
+      "text": "Paul est l’oncle de Tom.",
+      "truth": "true"
+     },
+     {
+      "text": "Rose est la tante de Linda.",
+      "truth": "true"
+     },
+     {
+      "text": "Tom et Linda sont cousins.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tom est le frère de Linda.",
+      "truth": "false",
+      "explain": "Ils sont cousins : leurs parents sont frère et sœur."
+     },
+     {
+      "text": "Paul est le grand-père de Linda.",
+      "truth": "false",
+      "explain": "Paul est le père de Linda."
+     },
+     {
+      "text": "Linda et Rose sont de la même génération.",
+      "truth": "false",
+      "explain": "Rose est de la génération des parents."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

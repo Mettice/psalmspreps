@@ -1,0 +1,410 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 45,
+ "language": "fr",
+ "prerequisites": [
+  19,
+  43
+ ],
+ "skills": [
+  {
+   "id": "fi2-45",
+   "name": "Écrire un court texte à partir d’images : la carte postale"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une carte postale a une image (un site) d’un côté ; de l’autre, un court texte et l’adresse.\nLe texte de la carte postale : le lieu et la date ; une formule d’appel (Chère maman, Cher Paul) ; quelques phrases sur ce que l’on voit et ce que l’on fait (au présent ou au passé composé, à la première personne : je, nous) ; ses impressions (c’est magnifique, je m’amuse beaucoup) ; une formule de fin (Bises, À bientôt) ; la signature.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "À partir d’une image des chutes de la Lobé, écris le corps d’une carte postale en deux phrases.",
+  "steps": [
+   "Ce que l’on voit, au présent : « Je suis devant les chutes de la Lobé : l’eau tombe directement dans la mer. »",
+   "Ses impressions : « C’est magnifique et je m’amuse beaucoup. »"
+  ],
+  "answer": "Je suis devant les chutes de la Lobé : l’eau tombe directement dans la mer. C’est magnifique et je m’amuse beaucoup.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c45-1",
+    "status": "draft",
+    "idea": "Une carte postale : lieu et date, formule d’appel, texte, formule de fin, signature.",
+    "vars": {},
+    "example": [
+     "« Chère maman, … Bises, Ewane »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-45-plan"
+    }
+   },
+   {
+    "id": "c45-2",
+    "status": "draft",
+    "idea": "On écrit à la première personne (je, nous), au présent ou au passé composé.",
+    "vars": {},
+    "example": [
+     "Hier, nous avons visité le palais de Foumban."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-45-temps"
+    }
+   },
+   {
+    "id": "c45-3",
+    "status": "draft",
+    "idea": "On donne ses impressions : c’est magnifique, je m’amuse beaucoup.",
+    "vars": {},
+    "example": [
+     "Cette plage est un vrai paradis !"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-45-impr-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase donne une impression ?",
+         "r": "C’est magnifique, je ne veux plus rentrer !",
+         "w": [
+          "Je suis arrivé à Kribi.",
+          "Kribi, le 20 décembre",
+          "Ewane"
+         ],
+         "e": [
+          "C’est un fait.",
+          "C’est le lieu et la date.",
+          "C’est la signature."
+         ],
+         "y": "Elle dit ce que l’on ressent."
+        },
+        {
+         "q": "Quelle phrase est une formule de fin ?",
+         "r": "Je t’embrasse. À bientôt !",
+         "w": [
+          "Chère tante,",
+          "Hier, nous avons nagé.",
+          "Limbé, le 2 avril"
+         ],
+         "e": [
+          "C’est la formule d’appel.",
+          "C’est le texte.",
+          "C’est le lieu et la date."
+         ],
+         "y": "On prend congé avant de signer."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-45-plan",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Kribi, le 20 décembre",
+       "Chère maman,",
+       "Je suis devant les chutes de la Lobé : c’est magnifique !",
+       "Bises,",
+       "Ewane"
+      ],
+      [
+       "Limbé, le 2 avril",
+       "Cher Paul,",
+       "Hier, nous avons nagé sur une plage de sable noir.",
+       "À bientôt,",
+       "Linda"
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les parties de la carte postale dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-45-temps",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Hier, nous ___ le palais de Foumban.",
+       "a": "avons visité",
+       "w": [
+        "visitons",
+        "visiterons"
+       ],
+       "e": [
+        "« Hier » demande le passé composé.",
+        "« Hier » parle du passé."
+       ]
+      },
+      {
+       "s": "En ce moment, je ___ sur la plage.",
+       "a": "suis",
+       "w": [
+        "étais",
+        "serai"
+       ],
+       "e": [
+        "« En ce moment » demande le présent.",
+        "« En ce moment » demande le présent."
+       ]
+      },
+      {
+       "s": "Ce matin, nous ___ des éléphants au parc de Waza.",
+       "a": "avons vu",
+       "w": [
+        "voyons",
+        "verrons"
+       ],
+       "e": [
+        "« Ce matin » (passé) demande le passé composé.",
+        "L’action est passée."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le verbe qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-45-impr",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase donne une impression ?",
+       "r": "C’est magnifique, je ne veux plus rentrer !",
+       "w": [
+        "Je suis arrivé à Kribi.",
+        "Kribi, le 20 décembre",
+        "Ewane"
+       ],
+       "e": [
+        "C’est un fait.",
+        "C’est le lieu et la date.",
+        "C’est la signature."
+       ],
+       "y": "Elle dit ce que l’on ressent."
+      },
+      {
+       "q": "Quelle phrase est une formule de fin ?",
+       "r": "Je t’embrasse. À bientôt !",
+       "w": [
+        "Chère tante,",
+        "Hier, nous avons nagé.",
+        "Limbé, le 2 avril"
+       ],
+       "e": [
+        "C’est la formule d’appel.",
+        "C’est le texte.",
+        "C’est le lieu et la date."
+       ],
+       "y": "On prend congé avant de signer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-45-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour écrire une carte postale est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On commence par une formule d’appel.",
+      "truth": "true"
+     },
+     {
+      "text": "On écrit à la première personne.",
+      "truth": "true"
+     },
+     {
+      "text": "On donne ses impressions.",
+      "truth": "true"
+     },
+     {
+      "text": "On signe à la fin.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On écrit un roman de vingt pages.",
+      "truth": "false",
+      "explain": "Le texte d’une carte postale est court."
+     },
+     {
+      "text": "On ne dit pas où l’on se trouve.",
+      "truth": "false",
+      "explain": "On indique le lieu et la date."
+     },
+     {
+      "text": "On met la signature avant la formule d’appel.",
+      "truth": "false",
+      "explain": "La signature vient à la fin."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

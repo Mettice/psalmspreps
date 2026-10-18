@@ -1,0 +1,306 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 43,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-43",
+   "name": "Le lexique du tourisme"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le tourisme, c’est voyager pour découvrir des lieux et se détendre. Le touriste visite des sites touristiques ; il fait une excursion (une courte sortie) avec un guide ; il dort à l’hôtel ou à l’auberge, après une réservation ; il achète des souvenirs (objets d’artisanat) ; l’agence de voyages organise le séjour.\nQuelques sites du Cameroun : les chutes de la Lobé près de Kribi (elles tombent directement dans la mer), les plages de sable noir de Limbé, le mont Cameroun près de Buea, le parc national de Waza (Extrême-Nord : éléphants, girafes, lions), le palais des rois bamoun à Foumban.\nLe tourisme fait vivre beaucoup de gens (guides, hôteliers, artisans) ; le touriste responsable respecte la nature et les traditions.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un groupe d’élèves part une journée voir les chutes de la Lobé avec un guide. Relève les mots du tourisme.",
+  "steps": [
+   "Partir une journée pour visiter : une excursion.",
+   "Les chutes de la Lobé : un site touristique.",
+   "La personne qui explique : un guide."
+  ],
+  "answer": "excursion, site touristique, guide",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c43-1",
+    "status": "draft",
+    "idea": "Le touriste visite des sites touristiques ; une excursion est une courte sortie.",
+    "vars": {},
+    "example": [
+     "Nous avons fait une excursion à Limbé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-43-mots"
+    }
+   },
+   {
+    "id": "c43-2",
+    "status": "draft",
+    "idea": "Le guide fait visiter ; l’agence de voyages organise le séjour ; on réserve une chambre d’hôtel.",
+    "vars": {},
+    "example": [
+     "J’ai fait une réservation à l’hôtel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-43-metier"
+    }
+   },
+   {
+    "id": "c43-3",
+    "status": "draft",
+    "idea": "Sites du Cameroun : chutes de la Lobé, plages de Limbé, mont Cameroun, parc de Waza, palais de Foumban.",
+    "vars": {},
+    "example": [
+     "Au parc de Waza, on voit des éléphants."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-43-sites-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "prompt": "Relie chaque site à ce qu’on y découvre.",
+     "pool": [
+      {
+       "left": "les chutes de la Lobé",
+       "right": "des chutes qui tombent dans la mer, près de Kribi"
+      },
+      {
+       "left": "le parc national de Waza",
+       "right": "des éléphants, des girafes et des lions"
+      },
+      {
+       "left": "le mont Cameroun",
+       "right": "une haute montagne, près de Buea"
+      },
+      {
+       "left": "Foumban",
+       "right": "le palais des rois bamoun"
+      },
+      {
+       "left": "Limbé",
+       "right": "des plages de sable noir"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-43-mots",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment appelle-t-on une courte sortie pour visiter un lieu ?",
+       "r": "une excursion",
+       "w": [
+        "une réservation",
+        "une ordonnance",
+        "une composition"
+       ],
+       "e": [
+        "La réservation retient une place.",
+        "L’ordonnance vient du médecin.",
+        "La composition est un examen."
+       ],
+       "y": "L’excursion dure peu de temps."
+      },
+      {
+       "q": "Comment appelle-t-on les petits objets qu’un touriste rapporte de son voyage ?",
+       "r": "des souvenirs",
+       "w": [
+        "des bagages",
+        "des billets",
+        "des déchets"
+       ],
+       "e": [
+        "Les bagages contiennent ses affaires.",
+        "Les billets servent à voyager.",
+        "Ce ne sont pas des déchets."
+       ],
+       "y": "Les souvenirs rappellent le voyage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-43-metier",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque personne ou lieu à son rôle.",
+   "pool": [
+    {
+     "left": "le guide",
+     "right": "fait visiter et explique le site"
+    },
+    {
+     "left": "l’agence de voyages",
+     "right": "organise les voyages et les séjours"
+    },
+    {
+     "left": "l’hôtel",
+     "right": "loge les voyageurs"
+    },
+    {
+     "left": "l’artisan",
+     "right": "fabrique des objets d’art à la main"
+    },
+    {
+     "left": "le touriste",
+     "right": "voyage pour découvrir et se détendre"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-43-sites",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque site à ce qu’on y découvre.",
+   "pool": [
+    {
+     "left": "les chutes de la Lobé",
+     "right": "des chutes qui tombent dans la mer, près de Kribi"
+    },
+    {
+     "left": "le parc national de Waza",
+     "right": "des éléphants, des girafes et des lions"
+    },
+    {
+     "left": "le mont Cameroun",
+     "right": "une haute montagne, près de Buea"
+    },
+    {
+     "left": "Foumban",
+     "right": "le palais des rois bamoun"
+    },
+    {
+     "left": "Limbé",
+     "right": "des plages de sable noir"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-43-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le guide fait visiter le site.",
+      "truth": "true"
+     },
+     {
+      "text": "On réserve une chambre à l’hôtel.",
+      "truth": "true"
+     },
+     {
+      "text": "Le parc de Waza est dans l’Extrême-Nord.",
+      "truth": "true"
+     },
+     {
+      "text": "Le touriste responsable respecte la nature.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une excursion est un voyage de plusieurs années.",
+      "truth": "false",
+      "explain": "C’est une courte sortie."
+     },
+     {
+      "text": "Les chutes de la Lobé sont dans le parc de Waza.",
+      "truth": "false",
+      "explain": "Elles sont près de Kribi."
+     },
+     {
+      "text": "Un touriste responsable jette ses déchets sur la plage.",
+      "truth": "false",
+      "explain": "Il respecte la nature et garde les lieux propres."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

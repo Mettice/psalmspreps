@@ -1,0 +1,446 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 3,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-3",
+   "name": "La ponctuation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les signes de ponctuation aident à lire et à comprendre.\n• Le point (.) termine une phrase déclarative. • Le point d’interrogation (?) termine une question. • Le point d’exclamation (!) exprime un sentiment fort ou un ordre.\n• La virgule (,) sépare les éléments d’une liste ou marque une petite pause : J’achète du riz, des tomates et du sel.\n• Le point-virgule (;) sépare deux parties d’une phrase liées par le sens. • Les deux-points (:) annoncent une explication ou une liste.\n• Les guillemets (« ») encadrent les paroles d’un personnage ; le tiret (—) marque le changement de personne qui parle dans un dialogue.\nAprès . ? ! on met une majuscule.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ponctue : « maman demande as tu fini tes devoirs »",
+  "steps": [
+   "Une majuscule au début : Maman.",
+   "« demande » annonce les paroles : deux-points et guillemets.",
+   "Les paroles sont une question : point d’interrogation.",
+   "Maman demande : « As-tu fini tes devoirs ? »"
+  ],
+  "answer": "Maman demande : « As-tu fini tes devoirs ? »",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c3-1",
+    "status": "draft",
+    "idea": "Le point termine une phrase ; le point d’interrogation termine une question ; le point d’exclamation dit un sentiment fort.",
+    "vars": {},
+    "example": [
+     "Il pleut. Pleut-il ? Quelle pluie !"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-3-fin"
+    }
+   },
+   {
+    "id": "c3-2",
+    "status": "draft",
+    "idea": "La virgule sépare les éléments d’une liste.",
+    "vars": {},
+    "example": [
+     "J’ai un cahier, un stylo et une règle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-3-virg"
+    }
+   },
+   {
+    "id": "c3-3",
+    "status": "draft",
+    "idea": "Les deux-points et les guillemets annoncent et encadrent les paroles.",
+    "vars": {},
+    "example": [
+     "Il dit : « Bonjour ! »"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-3-paroles-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "Le maître dit : « Sortez vos cahiers. »",
+         "w": [
+          "Le maître dit « Sortez vos cahiers ».",
+          "Le maître dit : Sortez vos cahiers.",
+          "Le maître dit, « sortez vos cahiers ? »"
+         ],
+         "e": [
+          "Il manque les deux-points.",
+          "Il manque les guillemets.",
+          "Ce n’est pas une question, et il faut deux-points."
+         ],
+         "y": "Deux-points, puis les paroles entre guillemets."
+        },
+        {
+         "r": "Ma tante demande : « Qui a cassé le verre ? »",
+         "w": [
+          "Ma tante demande « Qui a cassé le verre. »",
+          "Ma tante demande : Qui a cassé le verre ?",
+          "Ma tante demande ? « qui a cassé le verre »"
+         ],
+         "e": [
+          "Il manque les deux-points, et c’est une question.",
+          "Il manque les guillemets.",
+          "Le point d’interrogation est mal placé."
+         ],
+         "y": "Les paroles sont une question entre guillemets."
+        }
+       ]
+      }
+     },
+     "prompt": "Quelle phrase est bien ponctuée ?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-3-fin",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Où habites-tu ___",
+       "a": "?",
+       "w": [
+        ".",
+        "!"
+       ],
+       "e": [
+        "C’est une question : il faut un point d’interrogation.",
+        "C’est une question, pas une exclamation."
+       ]
+      },
+      {
+       "s": "Quelle belle fête ___",
+       "a": "!",
+       "w": [
+        ".",
+        "?"
+       ],
+       "e": [
+        "La phrase exprime un sentiment fort.",
+        "Ce n’est pas une question."
+       ]
+      },
+      {
+       "s": "Mon frère va à l’école ___",
+       "a": ".",
+       "w": [
+        "?",
+        "!"
+       ],
+       "e": [
+        "Ce n’est pas une question.",
+        "Il n’y a pas de sentiment fort."
+       ]
+      },
+      {
+       "s": "Comment s’appelle ta tante ___",
+       "a": "?",
+       "w": [
+        ".",
+        "!"
+       ],
+       "e": [
+        "C’est une question.",
+        "C’est une question."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le signe qui termine la phrase.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-3-virg",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "Au marché, j’achète du riz, des tomates et du sel.",
+       "w": [
+        "Au marché j’achète, du riz des tomates, et du sel.",
+        "Au marché. j’achète du riz des tomates et du sel",
+        "Au marché, j’achète du riz ; des tomates ; et du sel ?"
+       ],
+       "e": [
+        "Les virgules sont mal placées.",
+        "Le point coupe la phrase.",
+        "Ce n’est pas une question."
+       ],
+       "y": "Les virgules séparent les éléments de la liste."
+      },
+      {
+       "r": "Le matin, Paul balaie, Marie lave et Junior range.",
+       "w": [
+        "Le matin Paul, balaie Marie, lave et Junior range.",
+        "Le matin, Paul balaie. Marie lave et Junior range ?",
+        "Le matin Paul balaie Marie lave et Junior range"
+       ],
+       "e": [
+        "Les virgules sont mal placées.",
+        "Ce n’est pas une question.",
+        "Il manque les virgules et le point."
+       ],
+       "y": "Les virgules séparent les actions."
+      }
+     ]
+    }
+   },
+   "prompt": "Quelle phrase est bien ponctuée ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-3-paroles",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "Le maître dit : « Sortez vos cahiers. »",
+       "w": [
+        "Le maître dit « Sortez vos cahiers ».",
+        "Le maître dit : Sortez vos cahiers.",
+        "Le maître dit, « sortez vos cahiers ? »"
+       ],
+       "e": [
+        "Il manque les deux-points.",
+        "Il manque les guillemets.",
+        "Ce n’est pas une question, et il faut deux-points."
+       ],
+       "y": "Deux-points, puis les paroles entre guillemets."
+      },
+      {
+       "r": "Ma tante demande : « Qui a cassé le verre ? »",
+       "w": [
+        "Ma tante demande « Qui a cassé le verre. »",
+        "Ma tante demande : Qui a cassé le verre ?",
+        "Ma tante demande ? « qui a cassé le verre »"
+       ],
+       "e": [
+        "Il manque les deux-points, et c’est une question.",
+        "Il manque les guillemets.",
+        "Le point d’interrogation est mal placé."
+       ],
+       "y": "Les paroles sont une question entre guillemets."
+      }
+     ]
+    }
+   },
+   "prompt": "Quelle phrase est bien ponctuée ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-3-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase est mal ponctuée ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Il pleut beaucoup aujourd’hui.",
+      "truth": "true"
+     },
+     {
+      "text": "As-tu vu mon cahier ?",
+      "truth": "true"
+     },
+     {
+      "text": "Quelle chaleur !",
+      "truth": "true"
+     },
+     {
+      "text": "J’ai deux frères : Ewane et Tabi.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Où vas-tu.",
+      "truth": "false",
+      "explain": "C’est une question : il faut « ? »."
+     },
+     {
+      "text": "Ma mère dit « viens ici ».",
+      "truth": "false",
+      "explain": "Il faut les deux-points et une majuscule : Ma mère dit : « Viens ici. »"
+     },
+     {
+      "text": "J’achète du riz des tomates, et, du sel.",
+      "truth": "false",
+      "explain": "Les virgules séparent les éléments de la liste : du riz, des tomates et du sel."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

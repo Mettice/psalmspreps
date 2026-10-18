@@ -1,0 +1,526 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 47,
+ "language": "fr",
+ "prerequisites": [
+  2,
+  10,
+  28,
+  36
+ ],
+ "skills": [
+  {
+   "id": "fi2-47",
+   "name": "Identifier les points grammaticaux et les temps verbaux étudiés"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour reconnaître le temps d’un verbe, on regarde sa forme :\n• présent : je chante, nous finissons, il fait ;\n• imparfait : terminaisons -ais, -ais, -ait, -ions, -iez, -aient (je chantais, nous finissions) ;\n• passé composé : deux mots, avoir ou être au présent + participe passé (j’ai chanté, elle est venue) ;\n• passé simple : -a, -èrent (il chanta, ils chantèrent) ; -it, -irent (il finit, ils finirent) ; formes irrégulières (il fut, il eut, il fit, il vint).\nRappel des points de grammaire : adjectif épithète ou attribut ; conjonctions de coordination ; expansions du nom ; participe présent et gérondif (en + -ant) ; adverbes de lieu et de manière.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "venir",
+   "p": 6
+  },
+  "problem": "À quel temps est « {fr2Form(v, p, 'passé simple')} » ?",
+  "steps": [
+   "Un seul mot : ce n’est pas le passé composé.",
+   "La terminaison n’est pas -aient : ce n’est pas l’imparfait.",
+   "« vinrent » est la forme irrégulière de « venir » au passé simple."
+  ],
+  "answer": "au passé simple",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c47-1",
+    "status": "draft",
+    "idea": "Imparfait : -ais, -ait, -ions, -iez, -aient ; passé composé : deux mots.",
+    "vars": {},
+    "example": [
+     "je mangeais (imparfait), j’ai mangé (passé composé)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-47-temps"
+    }
+   },
+   {
+    "id": "c47-2",
+    "status": "draft",
+    "idea": "Passé simple : il chanta, ils chantèrent ; il finit, ils finirent ; il fut, il fit.",
+    "vars": {},
+    "example": [
+     "Le roi parla ; les soldats partirent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-47-ps"
+    }
+   },
+   {
+    "id": "c47-3",
+    "status": "draft",
+    "idea": "On reconnaît aussi les points de grammaire par leur forme : en + -ant est un gérondif ; -ment est souvent un adverbe.",
+    "vars": {},
+    "example": [
+     "en courant (gérondif), lentement (adverbe)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-47-gram-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans « Il chante en travaillant », que sont les mots « en travaillant » ?",
+         "r": "un gérondif",
+         "w": [
+          "un adverbe de lieu",
+          "un adjectif attribut",
+          "une conjonction"
+         ],
+         "e": [
+          "Il ne dit pas où.",
+          "Il n’y a pas de verbe d’état.",
+          "Ce n’est pas mais, ou, et, donc, or, ni, car."
+         ],
+         "y": "en + participe présent = gérondif."
+        },
+        {
+         "q": "Dans « Elle marche lentement », quelle est la nature de « lentement » ?",
+         "r": "un adverbe de manière",
+         "w": [
+          "un adjectif épithète",
+          "un verbe",
+          "un nom"
+         ],
+         "e": [
+          "Il ne qualifie pas un nom.",
+          "Le verbe est « marche ».",
+          "Ce n’est pas un nom."
+         ],
+         "y": "Comment marche-t-elle ? lentement."
+        },
+        {
+         "q": "Dans « Le bus qui part à six heures est plein », que sont les mots « qui part à six heures » ?",
+         "r": "une proposition relative",
+         "w": [
+          "un complément du nom",
+          "un adjectif épithète",
+          "un gérondif"
+         ],
+         "e": [
+          "Il n’y a pas de préposition au début.",
+          "Elle contient un verbe.",
+          "Il n’y a pas de « en … -ant »."
+         ],
+         "y": "Elle commence par « qui »."
+        },
+        {
+         "q": "Dans « Ma tante semble heureuse », quelle est la fonction de « heureuse » ?",
+         "r": "attribut du sujet",
+         "w": [
+          "épithète",
+          "complément du nom",
+          "adverbe"
+         ],
+         "e": [
+          "Il y a un verbe d’état entre les deux.",
+          "Il n’y a pas de préposition.",
+          "C’est un adjectif."
+         ],
+         "y": "Il est relié au sujet par « semble »."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-47-temps",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "manger",
+      "finir",
+      "choisir",
+      "faire",
+      "prendre",
+      "venir",
+      "aller",
+      "être",
+      "avoir",
+      "commencer"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "t": {
+     "pick": [
+      "présent",
+      "imparfait",
+      "passé composé"
+     ]
+    }
+   },
+   "prompt": "À quel temps est « {fr2Form(v, p, t)} » ?",
+   "correct": "{t}",
+   "distractors": [
+    {
+     "text": "présent",
+     "misconception": "pres"
+    },
+    {
+     "text": "imparfait",
+     "misconception": "imp"
+    },
+    {
+     "text": "passé composé",
+     "misconception": "pc"
+    },
+    {
+     "text": "passé simple",
+     "misconception": "ps"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pres",
+     "explain": "Au présent, on aurait : {fr2Form(v, p, 'présent')}."
+    },
+    {
+     "id": "imp",
+     "explain": "À l’imparfait, on aurait : {fr2Form(v, p, 'imparfait')} (-ais, -ait, -ions …)."
+    },
+    {
+     "id": "pc",
+     "explain": "Au passé composé, on aurait deux mots : {fr2Form(v, p, 'passé composé')}."
+    },
+    {
+     "id": "ps",
+     "explain": "Au passé simple, on aurait : {fr2Form(v, p, 'passé simple')}."
+    }
+   ],
+   "solution": [
+    "Regarde la forme : {fr2Form(v, p, t)}.",
+    "Donc : {answer}."
+   ],
+   "where": "!fr2Ambiguous(v, p)",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-47-ps",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "manger",
+      "finir",
+      "choisir",
+      "faire",
+      "prendre",
+      "venir",
+      "aller",
+      "être",
+      "avoir",
+      "commencer"
+     ]
+    },
+    "p": {
+     "pick": [
+      2,
+      3,
+      6,
+      7
+     ]
+    },
+    "t": {
+     "pick": [
+      "passé simple",
+      "passé simple",
+      "imparfait",
+      "présent"
+     ]
+    }
+   },
+   "prompt": "À quel temps est « {fr2Form(v, p, t)} » ?",
+   "correct": "{t}",
+   "distractors": [
+    {
+     "text": "présent",
+     "misconception": "pres"
+    },
+    {
+     "text": "imparfait",
+     "misconception": "imp"
+    },
+    {
+     "text": "passé composé",
+     "misconception": "pc"
+    },
+    {
+     "text": "passé simple",
+     "misconception": "ps"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pres",
+     "explain": "Au présent, on aurait : {fr2Form(v, p, 'présent')}."
+    },
+    {
+     "id": "imp",
+     "explain": "À l’imparfait, on aurait : {fr2Form(v, p, 'imparfait')} (-ais, -ait, -ions …)."
+    },
+    {
+     "id": "pc",
+     "explain": "Au passé composé, on aurait deux mots : {fr2Form(v, p, 'passé composé')}."
+    },
+    {
+     "id": "ps",
+     "explain": "Au passé simple, on aurait : {fr2Form(v, p, 'passé simple')}."
+    }
+   ],
+   "solution": [
+    "Regarde la forme : {fr2Form(v, p, t)}.",
+    "Donc : {answer}."
+   ],
+   "where": "!fr2Ambiguous(v, p)",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-47-gram",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Il chante en travaillant », que sont les mots « en travaillant » ?",
+       "r": "un gérondif",
+       "w": [
+        "un adverbe de lieu",
+        "un adjectif attribut",
+        "une conjonction"
+       ],
+       "e": [
+        "Il ne dit pas où.",
+        "Il n’y a pas de verbe d’état.",
+        "Ce n’est pas mais, ou, et, donc, or, ni, car."
+       ],
+       "y": "en + participe présent = gérondif."
+      },
+      {
+       "q": "Dans « Elle marche lentement », quelle est la nature de « lentement » ?",
+       "r": "un adverbe de manière",
+       "w": [
+        "un adjectif épithète",
+        "un verbe",
+        "un nom"
+       ],
+       "e": [
+        "Il ne qualifie pas un nom.",
+        "Le verbe est « marche ».",
+        "Ce n’est pas un nom."
+       ],
+       "y": "Comment marche-t-elle ? lentement."
+      },
+      {
+       "q": "Dans « Le bus qui part à six heures est plein », que sont les mots « qui part à six heures » ?",
+       "r": "une proposition relative",
+       "w": [
+        "un complément du nom",
+        "un adjectif épithète",
+        "un gérondif"
+       ],
+       "e": [
+        "Il n’y a pas de préposition au début.",
+        "Elle contient un verbe.",
+        "Il n’y a pas de « en … -ant »."
+       ],
+       "y": "Elle commence par « qui »."
+      },
+      {
+       "q": "Dans « Ma tante semble heureuse », quelle est la fonction de « heureuse » ?",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète",
+        "complément du nom",
+        "adverbe"
+       ],
+       "e": [
+        "Il y a un verbe d’état entre les deux.",
+        "Il n’y a pas de préposition.",
+        "C’est un adjectif."
+       ],
+       "y": "Il est relié au sujet par « semble »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-47-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "« nous mangions » est à l’imparfait.",
+      "truth": "true"
+     },
+     {
+      "text": "« ils partirent » est au passé simple.",
+      "truth": "true"
+     },
+     {
+      "text": "« elle est venue » est au passé composé.",
+      "truth": "true"
+     },
+     {
+      "text": "« en lisant » est un gérondif.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "« il chanta » est à l’imparfait.",
+      "truth": "false",
+      "explain": "« il chanta » est au passé simple ; à l’imparfait, on dit « il chantait »."
+     },
+     {
+      "text": "« j’ai fini » est au passé simple.",
+      "truth": "false",
+      "explain": "Deux mots avec l’auxiliaire : passé composé."
+     },
+     {
+      "text": "« ils finissaient » est au présent.",
+      "truth": "false",
+      "explain": "-aient : c’est l’imparfait."
+     },
+     {
+      "text": "« lentement » est un adjectif.",
+      "truth": "false",
+      "explain": "C’est un adverbe de manière."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

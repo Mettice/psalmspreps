@@ -1,0 +1,369 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-27",
+   "name": "Le pluriel des noms en -al, -ail, -ou, -eau, -eu"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "En général, on forme le pluriel d’un nom en ajoutant -s. Mais :\n• les noms en -al font -aux : un cheval → des chevaux, un journal → des journaux (sauf bal, carnaval, festival, chacal, récital, régal : -s) ;\n• les noms en -ail prennent -s : des détails, des éventails, des rails (sauf bail, corail, émail, soupirail, travail, vitrail : -aux) ;\n• les noms en -ou prennent -s : des trous, des clous (sauf sept noms qui prennent -x : bijou, caillou, chou, genou, hibou, joujou, pou) ;\n• les noms en -au, -eau, -eu prennent -x : des tuyaux, des bateaux, des cheveux (sauf landau, sarrau, pneu, bleu : -s).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": "travail"
+  },
+  "problem": "Quel est le pluriel de « {n} » ?",
+  "steps": [
+   "« travail » est un nom en -ail ; en général, ils prennent -s.",
+   "Mais « travail » est une exception : il fait -aux."
+  ],
+  "answer": "des {fr2NounPlural(n)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "Les noms en -al font -aux, sauf bal, carnaval, festival … qui prennent -s.",
+    "vars": {},
+    "example": [
+     "un hôpital → des hôpitaux ; un festival → des festivals"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-27-al"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "Les noms en -au, -eau, -eu prennent -x ; les noms en -ou prennent -s, sauf sept.",
+    "vars": {},
+    "example": [
+     "des bateaux, des jeux, des trous ; mais des bijoux, des genoux"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-27-ou"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "Travail, corail, vitrail font -aux ; pneu et landau prennent -s.",
+    "vars": {},
+    "example": [
+     "des travaux, des pneus"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-27-exc-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "n": {
+       "pick": [
+        "festival",
+        "bal",
+        "carnaval",
+        "travail",
+        "corail",
+        "vitrail",
+        "bijou",
+        "caillou",
+        "chou",
+        "genou",
+        "hibou",
+        "pou",
+        "pneu",
+        "landau"
+       ]
+      }
+     },
+     "prompt": "Quel est le pluriel de « un {n} » ?",
+     "correct": "des {fr2NounPlural(n)}",
+     "distractors": [
+      {
+       "text": "des {fr2NounNaive(n)}",
+       "misconception": "naive"
+      },
+      {
+       "text": "des {n}",
+       "misconception": "same"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "naive",
+       "explain": "{fr2NounRule(n)}."
+      },
+      {
+       "id": "same",
+       "explain": "Au pluriel, le nom change : {fr2NounRule(n)}."
+      }
+     ],
+     "solution": [
+      "{fr2NounRule(n)}.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-27-al",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "cheval",
+      "journal",
+      "animal",
+      "hôpital",
+      "canal",
+      "signal",
+      "festival",
+      "bal",
+      "carnaval",
+      "travail",
+      "corail",
+      "vitrail",
+      "détail",
+      "éventail",
+      "rail"
+     ]
+    }
+   },
+   "prompt": "Quel est le pluriel de « un {n} » ?",
+   "correct": "des {fr2NounPlural(n)}",
+   "distractors": [
+    {
+     "text": "des {fr2NounNaive(n)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "des {n}",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "{fr2NounRule(n)}."
+    },
+    {
+     "id": "same",
+     "explain": "Au pluriel, le nom change : {fr2NounRule(n)}."
+    }
+   ],
+   "solution": [
+    "{fr2NounRule(n)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-27-ou",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "bijou",
+      "caillou",
+      "chou",
+      "genou",
+      "hibou",
+      "pou",
+      "trou",
+      "clou",
+      "cou",
+      "bateau",
+      "gâteau",
+      "oiseau",
+      "tuyau",
+      "cheveu",
+      "jeu",
+      "feu",
+      "pneu",
+      "landau"
+     ]
+    }
+   },
+   "prompt": "Quel est le pluriel de « un {n} » ?",
+   "correct": "des {fr2NounPlural(n)}",
+   "distractors": [
+    {
+     "text": "des {fr2NounNaive(n)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "des {n}",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "{fr2NounRule(n)}."
+    },
+    {
+     "id": "same",
+     "explain": "Au pluriel, le nom change : {fr2NounRule(n)}."
+    }
+   ],
+   "solution": [
+    "{fr2NounRule(n)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-27-exc",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "festival",
+      "bal",
+      "carnaval",
+      "travail",
+      "corail",
+      "vitrail",
+      "bijou",
+      "caillou",
+      "chou",
+      "genou",
+      "hibou",
+      "pou",
+      "pneu",
+      "landau"
+     ]
+    }
+   },
+   "prompt": "Quel est le pluriel de « un {n} » ?",
+   "correct": "des {fr2NounPlural(n)}",
+   "distractors": [
+    {
+     "text": "des {fr2NounNaive(n)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "des {n}",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "{fr2NounRule(n)}."
+    },
+    {
+     "id": "same",
+     "explain": "Au pluriel, le nom change : {fr2NounRule(n)}."
+    }
+   ],
+   "solution": [
+    "{fr2NounRule(n)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-27-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "cheval",
+      "journal",
+      "animal",
+      "hôpital",
+      "canal",
+      "signal",
+      "festival",
+      "bal",
+      "carnaval",
+      "travail",
+      "corail",
+      "vitrail",
+      "détail",
+      "éventail",
+      "rail",
+      "bijou",
+      "caillou",
+      "chou",
+      "genou",
+      "hibou",
+      "pou",
+      "trou",
+      "clou",
+      "cou",
+      "bateau",
+      "gâteau",
+      "oiseau",
+      "tuyau",
+      "cheveu",
+      "jeu",
+      "feu",
+      "pneu",
+      "landau"
+     ]
+    }
+   },
+   "prompt": "Écris le nom au pluriel.",
+   "text": "Mets au pluriel : un {n} → des ___",
+   "answer": "fr2NounPlural(n)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2NounNaive(n)",
+     "explain": "{fr2NounRule(n)}."
+    }
+   ],
+   "solution": [
+    "{fr2NounRule(n)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

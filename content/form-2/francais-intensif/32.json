@@ -1,0 +1,460 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "fr",
+ "prerequisites": [
+  30
+ ],
+ "skills": [
+  {
+   "id": "fi2-32",
+   "name": "Lire un texte sur une épidémie"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte : Le choléra à Bénakuma\nEn août, la rivière de Bénakuma, un village imaginaire, déborda. Quelques jours plus tard, plusieurs habitants eurent de fortes diarrhées et des vomissements. L’infirmier du centre de santé reconnut le choléra et alerta les autorités. Une équipe arriva aussitôt : elle soigna les malades avec des sels de réhydratation, désinfecta les puits et distribua des comprimés pour traiter l’eau. Le crieur du village passa de case en case : « Faites bouillir l’eau ! Lavez-vous les mains ! Utilisez les latrines ! » En trois semaines, l’épidémie fut arrêtée. Le chef réunit le village : « Cette fois, nous avons eu de la chance. Désormais, chaque famille gardera son eau propre. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Relève la cause probable de l’épidémie et deux mesures de la riposte.",
+  "steps": [
+   "Cause : la rivière déborde ; l’eau des puits est salie.",
+   "Mesures : soigner les malades avec des sels de réhydratation, désinfecter les puits, traiter l’eau, faire passer des conseils."
+  ],
+  "answer": "L’eau salie par l’inondation ; soins avec des sels de réhydratation et désinfection des puits.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "On cherche dans le texte la cause d’un problème et les solutions.",
+    "vars": {},
+    "example": [
+     "Cause : l’eau est salie. Solution : traiter l’eau."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-32-cause"
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "Les mots du texte aident à comprendre : « aussitôt » veut dire tout de suite.",
+    "vars": {},
+    "example": [
+     "« désinfecta les puits » : tua les microbes des puits."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-32-mot"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "Le message du texte est ce qu’il veut nous apprendre.",
+    "vars": {},
+    "example": [
+     "Une eau propre protège du choléra."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-32-msg-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quel est le message du texte ?",
+         "r": "une eau propre et l’hygiène protègent du choléra",
+         "w": [
+          "les rivières sont toujours dangereuses",
+          "il ne faut jamais aller au centre de santé",
+          "le choléra ne se soigne pas"
+         ],
+         "e": [
+          "Le texte parle de l’eau salie.",
+          "L’infirmier a donné l’alerte.",
+          "Les malades sont soignés."
+         ],
+         "y": "Le chef le dit : chaque famille gardera son eau propre."
+        },
+        {
+         "q": "en combien de temps l’épidémie est-elle arrêtée ?",
+         "r": "en trois semaines",
+         "w": [
+          "en un jour",
+          "en trois ans",
+          "elle n’est pas arrêtée"
+         ],
+         "e": [
+          "Le texte dit « trois semaines ».",
+          "Le texte dit « trois semaines ».",
+          "Elle fut arrêtée."
+         ],
+         "y": "« En trois semaines, l’épidémie fut arrêtée »."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « Le choléra à Bénakuma » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-32-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quels symptômes ont les malades ?",
+       "r": "de fortes diarrhées et des vomissements",
+       "w": [
+        "une toux sèche",
+        "des boutons rouges",
+        "mal aux dents"
+       ],
+       "e": [
+        "Le texte ne parle pas de toux.",
+        "Le texte ne parle pas de boutons.",
+        "Le texte n’en parle pas."
+       ],
+       "y": "« de fortes diarrhées et des vomissements »."
+      },
+      {
+       "q": "qui reconnaît la maladie ?",
+       "r": "l’infirmier du centre de santé",
+       "w": [
+        "le chef du village",
+        "le crieur",
+        "les enfants"
+       ],
+       "e": [
+        "Il réunit le village à la fin.",
+        "Il passe les conseils.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« L’infirmier du centre de santé reconnut le choléra »."
+      },
+      {
+       "q": "quelle est la cause probable de l’épidémie ?",
+       "r": "l’eau salie après le débordement de la rivière",
+       "w": [
+        "les moustiques",
+        "le froid",
+        "un repas de fête"
+       ],
+       "e": [
+        "Les moustiques donnent le paludisme.",
+        "Le texte ne parle pas du froid.",
+        "Le texte ne parle pas de fête."
+       ],
+       "y": "La rivière a débordé, l’eau a été salie."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le choléra à Bénakuma » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-32-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que veut dire « aussitôt » ?",
+       "r": "tout de suite",
+       "w": [
+        "très tard",
+        "jamais",
+        "lentement"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "L’équipe est venue.",
+        "C’est le contraire."
+       ],
+       "y": "L’équipe arriva tout de suite."
+      },
+      {
+       "q": "que fait le crieur du village ?",
+       "r": "il passe de case en case pour donner les conseils",
+       "w": [
+        "il soigne les malades",
+        "il désinfecte les puits",
+        "il ferme le centre de santé"
+       ],
+       "e": [
+        "C’est l’équipe de santé.",
+        "C’est l’équipe de santé.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "Il annonce les conseils à tout le village."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le choléra à Bénakuma » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-32-msg",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel est le message du texte ?",
+       "r": "une eau propre et l’hygiène protègent du choléra",
+       "w": [
+        "les rivières sont toujours dangereuses",
+        "il ne faut jamais aller au centre de santé",
+        "le choléra ne se soigne pas"
+       ],
+       "e": [
+        "Le texte parle de l’eau salie.",
+        "L’infirmier a donné l’alerte.",
+        "Les malades sont soignés."
+       ],
+       "y": "Le chef le dit : chaque famille gardera son eau propre."
+      },
+      {
+       "q": "en combien de temps l’épidémie est-elle arrêtée ?",
+       "r": "en trois semaines",
+       "w": [
+        "en un jour",
+        "en trois ans",
+        "elle n’est pas arrêtée"
+       ],
+       "e": [
+        "Le texte dit « trois semaines ».",
+        "Le texte dit « trois semaines ».",
+        "Elle fut arrêtée."
+       ],
+       "y": "« En trois semaines, l’épidémie fut arrêtée »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le choléra à Bénakuma » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-32-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Texte « Le choléra à Bénakuma ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "La rivière a débordé en août.",
+      "truth": "true"
+     },
+     {
+      "text": "L’infirmier a alerté les autorités.",
+      "truth": "true"
+     },
+     {
+      "text": "L’équipe a désinfecté les puits.",
+      "truth": "true"
+     },
+     {
+      "text": "Le crieur a conseillé de faire bouillir l’eau.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le choléra a été causé par les moustiques.",
+      "truth": "false",
+      "explain": "Il vient de l’eau salie."
+     },
+     {
+      "text": "L’épidémie a duré trois ans.",
+      "truth": "false",
+      "explain": "Elle a été arrêtée en trois semaines."
+     },
+     {
+      "text": "Le chef a dit que l’eau n’était pas importante.",
+      "truth": "false",
+      "explain": "Il a dit que chaque famille garderait son eau propre."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

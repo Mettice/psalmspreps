@@ -1,0 +1,440 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "fr",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "fi2-20",
+   "name": "L’accord du participe passé"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Avec être, le participe passé s’accorde avec le sujet : il est parti, elle est partie, ils sont partis, elles sont parties.\n• Avec avoir, le participe passé ne s’accorde pas avec le sujet : elle a mangé, elles ont fini.\n• Mais avec avoir, il s’accorde avec le complément d’objet direct (COD) quand celui-ci est placé avant le verbe : J’ai mangé les mangues (COD après : pas d’accord). Les mangues que j’ai mangées étaient bonnes (COD « que » = les mangues, avant : accord). Je les ai mangées.\nPour trouver le COD : on pose la question « quoi ? » ou « qui ? » après le verbe.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Accorde : « Les robes que ma tante a (coudre) sont belles. »",
+  "steps": [
+   "Le verbe est avec avoir : a cousu.",
+   "COD : a cousu quoi ? « que », qui remplace « les robes » (féminin pluriel).",
+   "Le COD est placé avant le verbe : on accorde : cousues."
+  ],
+  "answer": "Les robes que ma tante a cousues sont belles.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "Avec être, le participe passé s’accorde avec le sujet.",
+    "vars": {},
+    "example": [
+     "Elles sont arrivées."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-20-etre"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "Avec avoir, le participe passé ne s’accorde pas avec le sujet.",
+    "vars": {},
+    "example": [
+     "Elles ont mangé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-20-avoir"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "Avec avoir, on accorde avec le COD s’il est placé avant le verbe.",
+    "vars": {},
+    "example": [
+     "La lettre que j’ai écrite."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-20-cod-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Les mangues que j’ai ___ étaient sucrées.",
+         "a": "mangées",
+         "w": [
+          "mangé",
+          "mangés"
+         ],
+         "e": [
+          "Le COD « que » (les mangues) est avant le verbe : on accorde.",
+          "« mangues » est féminin."
+         ]
+        },
+        {
+         "s": "J’ai ___ les mangues du jardin.",
+         "a": "mangé",
+         "w": [
+          "mangées",
+          "mangés"
+         ],
+         "e": [
+          "Le COD est après le verbe : pas d’accord.",
+          "Le COD est après le verbe : pas d’accord."
+         ]
+        },
+        {
+         "s": "La lettre que Biloa a ___ est longue.",
+         "a": "écrite",
+         "w": [
+          "écrit",
+          "écrits"
+         ],
+         "e": [
+          "Le COD « que » (la lettre) est avant : on accorde.",
+          "« lettre » est féminin singulier."
+         ]
+        },
+        {
+         "s": "Mes cahiers ? Je les ai ___ dans mon cartable.",
+         "a": "rangés",
+         "w": [
+          "rangé",
+          "rangées"
+         ],
+         "e": [
+          "Le COD « les » (mes cahiers) est avant : on accorde.",
+          "« cahiers » est masculin."
+         ]
+        },
+        {
+         "s": "Ma sœur a ___ ses chaussures.",
+         "a": "lavé",
+         "w": [
+          "lavées",
+          "lavés"
+         ],
+         "e": [
+          "Le COD est après le verbe : pas d’accord.",
+          "Pas d’accord avec avoir quand le COD est après."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le participe passé bien accordé.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-20-etre",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aller",
+      "venir",
+      "partir",
+      "arriver",
+      "tomber",
+      "rester",
+      "entrer",
+      "sortir"
+     ]
+    },
+    "p": {
+     "pick": [
+      3,
+      4,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcNoAgree(v, p)}",
+     "misconception": "agree"
+    },
+    {
+     "text": "{fr2PcOtherAux(v, p)}",
+     "misconception": "aux"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "agree",
+     "explain": "Avec être, le participe s’accorde avec le sujet « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "aux",
+     "explain": "« {v} » se conjugue avec être."
+    }
+   ],
+   "solution": [
+    "« {v} » se conjugue avec être : le participe s’accorde avec « {fr2Pronoun(p)} ».",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-20-avoir",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "manger",
+      "finir",
+      "choisir",
+      "jouer",
+      "laver",
+      "parler",
+      "travailler"
+     ]
+    },
+    "p": {
+     "pick": [
+      3,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcNoAgree(v, p) + (p == 3 ? 'e' : p == 6 ? 's' : 'es')}",
+     "misconception": "agree"
+    },
+    {
+     "text": "{fr2PcOtherAux(v, p)}",
+     "misconception": "aux"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "agree",
+     "explain": "Avec avoir, le participe passé ne s’accorde pas avec le sujet."
+    },
+    {
+     "id": "aux",
+     "explain": "« {v} » se conjugue avec avoir."
+    }
+   ],
+   "solution": [
+    "« {v} » se conjugue avec avoir : pas d’accord avec le sujet.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-20-cod",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les mangues que j’ai ___ étaient sucrées.",
+       "a": "mangées",
+       "w": [
+        "mangé",
+        "mangés"
+       ],
+       "e": [
+        "Le COD « que » (les mangues) est avant le verbe : on accorde.",
+        "« mangues » est féminin."
+       ]
+      },
+      {
+       "s": "J’ai ___ les mangues du jardin.",
+       "a": "mangé",
+       "w": [
+        "mangées",
+        "mangés"
+       ],
+       "e": [
+        "Le COD est après le verbe : pas d’accord.",
+        "Le COD est après le verbe : pas d’accord."
+       ]
+      },
+      {
+       "s": "La lettre que Biloa a ___ est longue.",
+       "a": "écrite",
+       "w": [
+        "écrit",
+        "écrits"
+       ],
+       "e": [
+        "Le COD « que » (la lettre) est avant : on accorde.",
+        "« lettre » est féminin singulier."
+       ]
+      },
+      {
+       "s": "Mes cahiers ? Je les ai ___ dans mon cartable.",
+       "a": "rangés",
+       "w": [
+        "rangé",
+        "rangées"
+       ],
+       "e": [
+        "Le COD « les » (mes cahiers) est avant : on accorde.",
+        "« cahiers » est masculin."
+       ]
+      },
+      {
+       "s": "Ma sœur a ___ ses chaussures.",
+       "a": "lavé",
+       "w": [
+        "lavées",
+        "lavés"
+       ],
+       "e": [
+        "Le COD est après le verbe : pas d’accord.",
+        "Pas d’accord avec avoir quand le COD est après."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le participe passé bien accordé.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute d’accord ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Elles sont parties tôt.",
+      "truth": "true"
+     },
+     {
+      "text": "Elles ont fini leurs devoirs.",
+      "truth": "true"
+     },
+     {
+      "text": "La robe que j’ai achetée est rouge.",
+      "truth": "true"
+     },
+     {
+      "text": "Nous sommes arrivés à midi.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Mes sœurs ont mangées du riz.",
+      "truth": "false",
+      "explain": "Avec avoir, pas d’accord avec le sujet : ont mangé."
+     },
+     {
+      "text": "Ma tante est venu hier.",
+      "truth": "false",
+      "explain": "Avec être, on accorde : est venue."
+     },
+     {
+      "text": "Les lettres que j’ai écrit sont longues.",
+      "truth": "false",
+      "explain": "Le COD « que » (les lettres) est avant : écrites."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

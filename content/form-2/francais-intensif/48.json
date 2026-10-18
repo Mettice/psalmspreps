@@ -1,0 +1,491 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 48,
+ "language": "fr",
+ "prerequisites": [
+  23,
+  40
+ ],
+ "skills": [
+  {
+   "id": "fi2-48",
+   "name": "Lecture suivie d’un court texte littéraire"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’auteur choisit ses mots pour faire voir et ressentir : comparaisons (« comme »), images, paroles entre guillemets.\n\nTexte : Le vieux pêcheur de Kribi\nChaque matin, avant le lever du soleil, le vieux Mbappé poussait sa pirogue vers la mer. Ses bras, secs comme des branches, ramaient sans bruit. Ce jour-là, la mer était grise et le vent soufflait fort. « Grand-père, n’y va pas ! » supplia son petit-fils Junior. Le vieil homme sourit : « La mer est ma mère ; elle me gronde, mais elle ne me trahit pas. » Il partit. Toute la journée, Junior attendit sur la plage, le cœur serré. Au coucher du soleil, une petite tache apparut sur l’horizon : c’était la pirogue, pleine de poissons. Junior courut dans l’eau en criant de joie.\n(texte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Relève une comparaison et dis ce qu’elle montre.",
+  "steps": [
+   "« Ses bras, secs comme des branches » : le mot « comme » relie les bras et les branches.",
+   "Elle montre que le pêcheur est vieux et maigre, mais solide."
+  ],
+  "answer": "« secs comme des branches » : le pêcheur est vieux, maigre et solide.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c48-1",
+    "status": "draft",
+    "idea": "On repère les personnages, le lieu et le moment du récit.",
+    "vars": {},
+    "example": [
+     "Personnages : Mbappé et son petit-fils Junior."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-48-qui"
+    }
+   },
+   {
+    "id": "c48-2",
+    "status": "draft",
+    "idea": "Une comparaison rapproche deux choses avec « comme ».",
+    "vars": {},
+    "example": [
+     "« secs comme des branches »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-48-image"
+    }
+   },
+   {
+    "id": "c48-3",
+    "status": "draft",
+    "idea": "On remarque les sentiments des personnages : la peur, la joie …",
+    "vars": {},
+    "example": [
+     "« le cœur serré » montre l’inquiétude de Junior."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-48-sent-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "que ressent Junior pendant la journée ?",
+         "r": "de l’inquiétude",
+         "w": [
+          "de la colère",
+          "de l’ennui seulement",
+          "de la joie"
+         ],
+         "e": [
+          "Il n’est pas fâché.",
+          "« le cœur serré » montre la peur.",
+          "La joie vient à la fin."
+         ],
+         "y": "« le cœur serré » montre l’inquiétude."
+        },
+        {
+         "q": "que ressent Junior à la fin ?",
+         "r": "une grande joie",
+         "w": [
+          "de la peur",
+          "de la tristesse",
+          "de la honte"
+         ],
+         "e": [
+          "Son grand-père est revenu.",
+          "Il crie de joie.",
+          "Ce n’est pas le sens."
+         ],
+         "y": "« en criant de joie »."
+        },
+        {
+         "q": "quel trait de caractère montre le pêcheur ?",
+         "r": "le courage et la confiance",
+         "w": [
+          "la paresse",
+          "la peur",
+          "la méchanceté"
+         ],
+         "e": [
+          "Il part chaque matin.",
+          "Il part malgré le vent.",
+          "Il sourit à son petit-fils."
+         ],
+         "y": "Il part malgré la mer grise et revient avec du poisson."
+        }
+       ]
+      }
+     },
+     "prompt": "Texte « Le vieux pêcheur de Kribi » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-48-qui",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "qui est Junior ?",
+       "r": "le petit-fils du pêcheur",
+       "w": [
+        "le fils du pêcheur",
+        "un autre pêcheur",
+        "le frère du pêcheur"
+       ],
+       "e": [
+        "Le texte dit « son petit-fils ».",
+        "Il attend sur la plage.",
+        "Le texte dit « petit-fils »."
+       ],
+       "y": "« son petit-fils Junior »."
+      },
+      {
+       "q": "quand le pêcheur part-il chaque jour ?",
+       "r": "chaque matin, avant le lever du soleil",
+       "w": [
+        "le soir",
+        "à midi",
+        "la nuit, après le coucher du soleil"
+       ],
+       "e": [
+        "Il revient au coucher du soleil ce jour-là.",
+        "Le texte dit « avant le lever du soleil ».",
+        "C’est le moment de son retour."
+       ],
+       "y": "« Chaque matin, avant le lever du soleil »."
+      },
+      {
+       "q": "comment est la mer ce jour-là ?",
+       "r": "grise, avec un vent fort",
+       "w": [
+        "calme et bleue",
+        "gelée",
+        "vide de poissons"
+       ],
+       "e": [
+        "Le texte dit le contraire.",
+        "Il n’y a pas de glace à Kribi.",
+        "La pirogue revient pleine."
+       ],
+       "y": "« la mer était grise et le vent soufflait fort »."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le vieux pêcheur de Kribi » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-48-image",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que veut dire le pêcheur par « La mer est ma mère » ?",
+       "r": "la mer le nourrit et il la connaît bien, comme une mère",
+       "w": [
+        "sa mère vit dans la mer",
+        "il a peur de la mer",
+        "il veut vendre la mer"
+       ],
+       "e": [
+        "C’est une image, pas une réalité.",
+        "Il n’a pas peur : il part.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "C’est une image de confiance et d’attachement."
+      },
+      {
+       "q": "quelle phrase contient une comparaison ?",
+       "r": "Ses bras, secs comme des branches, ramaient sans bruit.",
+       "w": [
+        "Il partit.",
+        "Junior courut dans l’eau.",
+        "Le vent soufflait fort."
+       ],
+       "e": [
+        "Il n’y a pas de comparaison.",
+        "Il n’y a pas de comparaison.",
+        "Il n’y a pas de comparaison."
+       ],
+       "y": "« comme » relie les bras et les branches."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le vieux pêcheur de Kribi » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-48-sent",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "que ressent Junior pendant la journée ?",
+       "r": "de l’inquiétude",
+       "w": [
+        "de la colère",
+        "de l’ennui seulement",
+        "de la joie"
+       ],
+       "e": [
+        "Il n’est pas fâché.",
+        "« le cœur serré » montre la peur.",
+        "La joie vient à la fin."
+       ],
+       "y": "« le cœur serré » montre l’inquiétude."
+      },
+      {
+       "q": "que ressent Junior à la fin ?",
+       "r": "une grande joie",
+       "w": [
+        "de la peur",
+        "de la tristesse",
+        "de la honte"
+       ],
+       "e": [
+        "Son grand-père est revenu.",
+        "Il crie de joie.",
+        "Ce n’est pas le sens."
+       ],
+       "y": "« en criant de joie »."
+      },
+      {
+       "q": "quel trait de caractère montre le pêcheur ?",
+       "r": "le courage et la confiance",
+       "w": [
+        "la paresse",
+        "la peur",
+        "la méchanceté"
+       ],
+       "e": [
+        "Il part chaque matin.",
+        "Il part malgré le vent.",
+        "Il sourit à son petit-fils."
+       ],
+       "y": "Il part malgré la mer grise et revient avec du poisson."
+      }
+     ]
+    }
+   },
+   "prompt": "Texte « Le vieux pêcheur de Kribi » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-48-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Texte « Le vieux pêcheur de Kribi ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Junior supplie son grand-père de ne pas partir.",
+      "truth": "true"
+     },
+     {
+      "text": "Le pêcheur part malgré le vent.",
+      "truth": "true"
+     },
+     {
+      "text": "La pirogue revient pleine de poissons.",
+      "truth": "true"
+     },
+     {
+      "text": "Junior attend sur la plage.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le pêcheur reste à la maison à cause du vent.",
+      "truth": "false",
+      "explain": "Il part malgré le vent."
+     },
+     {
+      "text": "La pirogue revient vide.",
+      "truth": "false",
+      "explain": "Elle revient pleine de poissons."
+     },
+     {
+      "text": "Junior accompagne son grand-père en mer.",
+      "truth": "false",
+      "explain": "Il attend sur la plage."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

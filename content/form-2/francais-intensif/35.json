@@ -1,0 +1,378 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 35,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "fi2-35",
+   "name": "Les adverbes de lieu et de manière"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’adverbe est un mot invariable qui précise le sens d’un verbe, d’un adjectif ou d’un autre adverbe.\n• Adverbes de lieu (où ?) : ici, là, là-bas, partout, ailleurs, dehors, dedans, loin, près, devant, derrière, dessus, dessous.\n• Adverbes de manière (comment ?) : bien, mal, vite, ensemble, et beaucoup d’adverbes en -ment.\nFormer un adverbe en -ment : on ajoute -ment au féminin de l’adjectif (lent → lente → lentement ; doux → douce → doucement ; heureux → heureusement) ; après une voyelle, on ajoute -ment au masculin (poli → poliment, vrai → vraiment) ; -ant → -amment (bruyant → bruyamment), -ent → -emment (prudent → prudemment). Exception : gentil → gentiment.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "patient"
+  },
+  "problem": "Forme l’adverbe en -ment de « {a} ».",
+  "steps": [
+   "« {a} » se termine par -ent.",
+   "-ent devient -emment."
+  ],
+  "answer": "{fr2Adverb(a)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c35-1",
+    "status": "draft",
+    "idea": "Les adverbes de lieu répondent à « où ? » : ici, là-bas, partout, dehors, loin.",
+    "vars": {},
+    "example": [
+     "Les enfants jouent dehors."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-35-lieu"
+    }
+   },
+   {
+    "id": "c35-2",
+    "status": "draft",
+    "idea": "Pour former un adverbe de manière, on ajoute -ment au féminin de l’adjectif.",
+    "vars": {},
+    "example": [
+     "lent → lente → lentement"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-35-ment"
+    }
+   },
+   {
+    "id": "c35-3",
+    "status": "draft",
+    "idea": "-ant devient -amment, -ent devient -emment.",
+    "vars": {},
+    "example": [
+     "bruyamment, prudemment"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-35-ent-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        "prudent",
+        "patient",
+        "bruyant",
+        "courant"
+       ]
+      }
+     },
+     "prompt": "Quel est l’adverbe en -ment formé sur « {a} » ?",
+     "correct": "{fr2Adverb(a)}",
+     "distractors": [
+      {
+       "text": "{fr2AdvNaive(a)}",
+       "misconception": "naive"
+      },
+      {
+       "text": "{a}ement",
+       "misconception": "fem"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "naive",
+       "explain": "{fr2AdvRule(a)}."
+      },
+      {
+       "id": "fem",
+       "explain": "{fr2AdvRule(a)} : on n’ajoute pas -ement."
+      }
+     ],
+     "solution": [
+      "{fr2AdvRule(a)}.",
+      "Donc : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-35-lieu",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Les enfants jouent dehors.",
+       "r": "dehors : le lieu",
+       "w": [
+        "dehors : la manière",
+        "jouent : le lieu",
+        "enfants : la manière"
+       ],
+       "e": [
+        "« dehors » répond à « où ? ».",
+        "« jouent » est le verbe.",
+        "« enfants » est un nom."
+       ],
+       "y": "Où jouent-ils ? dehors."
+      },
+      {
+       "q": "Ma tante marche lentement.",
+       "r": "lentement : la manière",
+       "w": [
+        "lentement : le lieu",
+        "marche : la manière",
+        "tante : le lieu"
+       ],
+       "e": [
+        "« lentement » répond à « comment ? ».",
+        "« marche » est le verbe.",
+        "« tante » est un nom."
+       ],
+       "y": "Comment marche-t-elle ? lentement."
+      },
+      {
+       "q": "Mon cousin habite loin.",
+       "r": "loin : le lieu",
+       "w": [
+        "loin : la manière",
+        "habite : le lieu",
+        "cousin : le lieu"
+       ],
+       "e": [
+        "« loin » répond à « où ? ».",
+        "« habite » est le verbe.",
+        "« cousin » est un nom."
+       ],
+       "y": "Où habite-t-il ? loin."
+      }
+     ]
+    }
+   },
+   "prompt": "Dans « {X.q} », quel est l’adverbe et que précise-t-il ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-35-ment",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "lent",
+      "doux",
+      "heureux",
+      "sérieux",
+      "attentif",
+      "poli",
+      "vrai",
+      "absolu",
+      "gentil"
+     ]
+    }
+   },
+   "prompt": "Quel est l’adverbe en -ment formé sur « {a} » ?",
+   "correct": "{fr2Adverb(a)}",
+   "distractors": [
+    {
+     "text": "{fr2AdvNaive(a)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "{a}s",
+     "misconception": "plural"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "Attention à la formation : {fr2AdvRule(a)}."
+    },
+    {
+     "id": "plural",
+     "explain": "Ce n’est pas un adverbe : un adverbe en -ment se termine par -ment."
+    }
+   ],
+   "solution": [
+    "{fr2AdvRule(a)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-35-ent",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "prudent",
+      "patient",
+      "bruyant",
+      "courant"
+     ]
+    }
+   },
+   "prompt": "Quel est l’adverbe en -ment formé sur « {a} » ?",
+   "correct": "{fr2Adverb(a)}",
+   "distractors": [
+    {
+     "text": "{fr2AdvNaive(a)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "{a}ement",
+     "misconception": "fem"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "{fr2AdvRule(a)}."
+    },
+    {
+     "id": "fem",
+     "explain": "{fr2AdvRule(a)} : on n’ajoute pas -ement."
+    }
+   ],
+   "solution": [
+    "{fr2AdvRule(a)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-35-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le malade marche ___ (lent).",
+       "a": "lent"
+      },
+      {
+       "s": "Le chauffeur conduit ___ (prudent).",
+       "a": "prudent"
+      },
+      {
+       "s": "Elle parle ___ (doux) au bébé.",
+       "a": "doux"
+      },
+      {
+       "s": "Les enfants jouent ___ (bruyant) dans la cour.",
+       "a": "bruyant"
+      },
+      {
+       "s": "Il répond ___ (poli) au professeur.",
+       "a": "poli"
+      },
+      {
+       "s": "Ma sœur parle ___ (courant) anglais.",
+       "a": "courant"
+      },
+      {
+       "s": "Écoute ___ (attentif) la consigne.",
+       "a": "attentif"
+      },
+      {
+       "s": "Il attend ___ (patient) son tour.",
+       "a": "patient"
+      }
+     ]
+    }
+   },
+   "prompt": "Écris l’adverbe en -ment formé sur l’adjectif entre parenthèses.",
+   "text": "{X.s}",
+   "answer": "fr2Adverb(X.a)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2AdvNaive(X.a)",
+     "explain": "{fr2AdvRule(X.a)}."
+    }
+   ],
+   "solution": [
+    "{fr2AdvRule(X.a)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

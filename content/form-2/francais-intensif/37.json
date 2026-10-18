@@ -1,0 +1,468 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 37,
+ "language": "fr",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "fi2-37",
+   "name": "Le son [ø] : eu, œu"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [ø] (comme dans « feu ») s’écrit :\n• eu : le feu, deux, bleu, un cheveu, peu, heureux, le jeu, creux ;\n• œu : un nœud, un vœu, des œufs (au pluriel) ;\n• eû : le jeûne.\nIl ressemble au son [œ] (plus ouvert) de « peur », « fleur », « cœur », « œuf » (au singulier), qui s’écrit aussi eu ou œu.\nHomophones : un vœu (un souhait) / il veut (vouloir) ; deux (le nombre) / d’eux (de + eux) ; peu (pas beaucoup) / il peut (pouvoir).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Je fais un ___ (souhait) devant le ___ ; il ___ (pouvoir) venir, mais il reste ___ (pas beaucoup) de temps. »",
+  "steps": [
+   "un souhait : un vœu (œu).",
+   "le feu (eu).",
+   "il peut, du verbe pouvoir.",
+   "pas beaucoup : peu."
+  ],
+  "answer": "Je fais un vœu devant le feu ; il peut venir, mais il reste peu de temps.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c37-1",
+    "status": "draft",
+    "idea": "Le son [ø] s’écrit souvent eu : feu, deux, bleu, heureux.",
+    "vars": {},
+    "example": [
+     "Le ciel est bleu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-37-eu"
+    }
+   },
+   {
+    "id": "c37-2",
+    "status": "draft",
+    "idea": "Il s’écrit œu dans un nœud, un vœu, des œufs.",
+    "vars": {},
+    "example": [
+     "Fais un nœud à ta corde."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-37-oeu"
+    }
+   },
+   {
+    "id": "c37-3",
+    "status": "draft",
+    "idea": "peu / il peut ; un vœu / il veut ; deux / d’eux sont des homophones.",
+    "vars": {},
+    "example": [
+     "Il peut manger un peu."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-37-homo-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Il reste un ___ de riz.",
+         "a": "peu",
+         "w": [
+          "peut",
+          "peux"
+         ],
+         "e": [
+          "« peut » est le verbe pouvoir.",
+          "« peux » va avec je ou tu."
+         ]
+        },
+        {
+         "s": "Mon frère ___ venir demain.",
+         "a": "peut",
+         "w": [
+          "peu",
+          "peux"
+         ],
+         "e": [
+          "« peu » veut dire pas beaucoup ; ici c’est le verbe pouvoir.",
+          "Avec « mon frère », on écrit « peut »."
+         ]
+        },
+        {
+         "s": "Il ___ devenir médecin.",
+         "a": "veut",
+         "w": [
+          "vœu",
+          "veux"
+         ],
+         "e": [
+          "« vœu » est un nom ; ici c’est le verbe vouloir.",
+          "Avec « il », on écrit « veut »."
+         ]
+        },
+        {
+         "s": "Je parle souvent ___ à ma mère.",
+         "a": "d’eux",
+         "w": [
+          "deux",
+          "deu"
+         ],
+         "e": [
+          "On parle de eux : d’eux.",
+          "Ce mot n’existe pas."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis l’homophone qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-37-eu",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le ___ brûle dans la cuisine.",
+       "a": "feu",
+       "w": [
+        "fœu",
+        "feû"
+       ],
+       "e": [
+        "« feu » s’écrit eu.",
+        "Pas d’accent dans « feu »."
+       ]
+      },
+      {
+       "s": "J’ai ___ frères.",
+       "a": "deux",
+       "w": [
+        "deu",
+        "d’eux"
+       ],
+       "e": [
+        "Le nombre s’écrit avec un x.",
+        "« d’eux » = de eux."
+       ]
+      },
+      {
+       "s": "Ma sœur est très ___ aujourd’hui.",
+       "a": "heureuse",
+       "w": [
+        "heureuze",
+        "hœureuse"
+       ],
+       "e": [
+        "Le féminin s’écrit -euse.",
+        "On écrit eu."
+       ]
+      },
+      {
+       "s": "Le ciel est ___.",
+       "a": "bleu",
+       "w": [
+        "bleux",
+        "blœu"
+       ],
+       "e": [
+        "Au singulier, « bleu » n’a pas de x.",
+        "On écrit eu."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-37-oeu",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Fais un ___ à tes lacets.",
+       "a": "nœud",
+       "w": [
+        "neud",
+        "nœu"
+       ],
+       "e": [
+        "« nœud » s’écrit avec œu.",
+        "« nœud » finit par un d muet."
+       ]
+      },
+      {
+       "s": "À la nouvelle année, on fait un ___.",
+       "a": "vœu",
+       "w": [
+        "veu",
+        "vœux"
+       ],
+       "e": [
+        "« vœu » s’écrit avec œu.",
+        "Au singulier, pas de x."
+       ]
+      },
+      {
+       "s": "La poule a pondu deux ___.",
+       "a": "œufs",
+       "w": [
+        "eufs",
+        "œuf"
+       ],
+       "e": [
+        "« œuf » s’écrit avec œ.",
+        "Il y en a deux : pluriel."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-37-homo",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il reste un ___ de riz.",
+       "a": "peu",
+       "w": [
+        "peut",
+        "peux"
+       ],
+       "e": [
+        "« peut » est le verbe pouvoir.",
+        "« peux » va avec je ou tu."
+       ]
+      },
+      {
+       "s": "Mon frère ___ venir demain.",
+       "a": "peut",
+       "w": [
+        "peu",
+        "peux"
+       ],
+       "e": [
+        "« peu » veut dire pas beaucoup ; ici c’est le verbe pouvoir.",
+        "Avec « mon frère », on écrit « peut »."
+       ]
+      },
+      {
+       "s": "Il ___ devenir médecin.",
+       "a": "veut",
+       "w": [
+        "vœu",
+        "veux"
+       ],
+       "e": [
+        "« vœu » est un nom ; ici c’est le verbe vouloir.",
+        "Avec « il », on écrit « veut »."
+       ]
+      },
+      {
+       "s": "Je parle souvent ___ à ma mère.",
+       "a": "d’eux",
+       "w": [
+        "deux",
+        "deu"
+       ],
+       "e": [
+        "On parle de eux : d’eux.",
+        "Ce mot n’existe pas."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis l’homophone qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-37-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le feu brûle.",
+      "truth": "true"
+     },
+     {
+      "text": "Il fait un nœud.",
+      "truth": "true"
+     },
+     {
+      "text": "Il peut venir.",
+      "truth": "true"
+     },
+     {
+      "text": "J’ai deux cahiers.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Il reste un peut de sel.",
+      "truth": "false",
+      "explain": "« un peu » = pas beaucoup."
+     },
+     {
+      "text": "Le ciel est bleux.",
+      "truth": "false",
+      "explain": "Au singulier : bleu."
+     },
+     {
+      "text": "Je fais un veu.",
+      "truth": "false",
+      "explain": "« vœu » s’écrit avec œu."
+     },
+     {
+      "text": "Il peu nager.",
+      "truth": "false",
+      "explain": "C’est le verbe pouvoir : il peut."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

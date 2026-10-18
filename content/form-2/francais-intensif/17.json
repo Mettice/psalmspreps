@@ -1,0 +1,412 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-17",
+   "name": "Le vocabulaire de l’école et du voisinage"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "À l’école : la salle de classe, le tableau, la craie, l’éponge, la table-banc, le cartable, la trousse, le cahier de textes, le bulletin (les notes du trimestre), la cour de récréation, la bibliothèque, le laboratoire, l’emploi du temps, la sonnerie, la composition (l’examen du trimestre).\nLe voisinage, ce sont les gens et les lieux autour de chez nous : les voisins, le quartier, la boutique, le carrefour, la borne-fontaine, le chef de quartier, la pharmacie, le centre de santé, le lieu de culte.\nBon voisinage : saluer ses voisins, s’entraider, ne pas faire de bruit la nuit, garder propre le devant de sa maison.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Classe ces mots : la craie, le carrefour, le cartable, la borne-fontaine.",
+  "steps": [
+   "École : la craie (pour écrire au tableau), le cartable (pour porter ses affaires).",
+   "Voisinage : le carrefour (où les routes se croisent), la borne-fontaine (où l’on puise l’eau)."
+  ],
+  "answer": "École : craie, cartable ; voisinage : carrefour, borne-fontaine.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "À l’école : le tableau, la craie, la table-banc, le cartable, le bulletin.",
+    "vars": {},
+    "example": [
+     "Le bulletin donne les notes du trimestre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-17-ecole"
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "Le voisinage : les voisins et les lieux autour de chez nous.",
+    "vars": {},
+    "example": [
+     "La boutique du coin, le carrefour, la borne-fontaine."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-17-quartier"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "Un bon voisin salue, aide et respecte le calme des autres.",
+    "vars": {},
+    "example": [
+     "On ne met pas la musique fort la nuit."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-17-voisin-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel comportement est celui d’un bon voisin ?",
+         "r": "aider son voisin malade à aller au centre de santé",
+         "w": [
+          "jeter ses ordures devant la porte du voisin",
+          "mettre la musique très fort à minuit",
+          "ne jamais saluer ses voisins"
+         ],
+         "e": [
+          "Cela salit et fâche le voisin.",
+          "Cela empêche les autres de dormir.",
+          "Ce n’est pas poli."
+         ],
+         "y": "Un bon voisin aide les autres."
+        },
+        {
+         "q": "Quel comportement est celui d’un bon élève ?",
+         "r": "écouter le professeur et respecter ses camarades",
+         "w": [
+          "écrire sur la table-banc",
+          "arriver en retard chaque jour",
+          "déchirer son cahier de textes"
+         ],
+         "e": [
+          "On abîme le matériel de l’école.",
+          "Il faut être ponctuel.",
+          "On en prend soin."
+         ],
+         "y": "Il écoute et respecte les autres."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-17-ecole",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "le bulletin",
+     "right": "les notes du trimestre"
+    },
+    {
+     "left": "l’emploi du temps",
+     "right": "l’horaire des cours de la semaine"
+    },
+    {
+     "left": "le cartable",
+     "right": "le sac où l’élève range ses affaires"
+    },
+    {
+     "left": "la composition",
+     "right": "l’examen du trimestre"
+    },
+    {
+     "left": "la trousse",
+     "right": "la petite pochette des stylos et crayons"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-17-quartier",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment appelle-t-on l’endroit où deux routes se croisent ?",
+       "r": "le carrefour",
+       "w": [
+        "la borne-fontaine",
+        "la boutique",
+        "le trottoir"
+       ],
+       "e": [
+        "On y puise l’eau.",
+        "On y achète des choses.",
+        "C’est le bord de la route pour les piétons."
+       ],
+       "y": "Au carrefour, les routes se croisent."
+      },
+      {
+       "q": "Où les habitants du quartier puisent-ils l’eau ?",
+       "r": "à la borne-fontaine",
+       "w": [
+        "au carrefour",
+        "à la boutique",
+        "à la pharmacie"
+       ],
+       "e": [
+        "C’est un croisement de routes.",
+        "On y achète des choses.",
+        "On y achète des médicaments."
+       ],
+       "y": "La borne-fontaine donne de l’eau."
+      },
+      {
+       "q": "Qui représente l’autorité dans un quartier ?",
+       "r": "le chef de quartier",
+       "w": [
+        "le boutiquier",
+        "le délégué de classe",
+        "le voisin d’en face"
+       ],
+       "e": [
+        "Il vend des produits.",
+        "Il représente une classe.",
+        "Ce n’est pas une autorité."
+       ],
+       "y": "Le chef de quartier règle les problèmes du quartier."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-17-voisin",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel comportement est celui d’un bon voisin ?",
+       "r": "aider son voisin malade à aller au centre de santé",
+       "w": [
+        "jeter ses ordures devant la porte du voisin",
+        "mettre la musique très fort à minuit",
+        "ne jamais saluer ses voisins"
+       ],
+       "e": [
+        "Cela salit et fâche le voisin.",
+        "Cela empêche les autres de dormir.",
+        "Ce n’est pas poli."
+       ],
+       "y": "Un bon voisin aide les autres."
+      },
+      {
+       "q": "Quel comportement est celui d’un bon élève ?",
+       "r": "écouter le professeur et respecter ses camarades",
+       "w": [
+        "écrire sur la table-banc",
+        "arriver en retard chaque jour",
+        "déchirer son cahier de textes"
+       ],
+       "e": [
+        "On abîme le matériel de l’école.",
+        "Il faut être ponctuel.",
+        "On en prend soin."
+       ],
+       "y": "Il écoute et respecte les autres."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le bulletin donne les notes du trimestre.",
+      "truth": "true"
+     },
+     {
+      "text": "On écrit au tableau avec la craie.",
+      "truth": "true"
+     },
+     {
+      "text": "Le chef de quartier représente l’autorité du quartier.",
+      "truth": "true"
+     },
+     {
+      "text": "On puise l’eau à la borne-fontaine.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le carrefour est l’endroit où l’on achète des médicaments.",
+      "truth": "false",
+      "explain": "C’est la pharmacie ; le carrefour est un croisement de routes."
+     },
+     {
+      "text": "Le cartable est l’examen du trimestre.",
+      "truth": "false",
+      "explain": "C’est la composition ; le cartable est un sac."
+     },
+     {
+      "text": "Un bon voisin fait du bruit toute la nuit.",
+      "truth": "false",
+      "explain": "Un bon voisin respecte le calme des autres."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

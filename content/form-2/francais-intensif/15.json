@@ -1,0 +1,456 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 15,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  9
+ ],
+ "skills": [
+  {
+   "id": "fi2-15",
+   "name": "L’expansion du groupe nominal"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le groupe nominal minimal est un déterminant + un nom : un village. On peut l’enrichir (l’« étendre ») avec des expansions :\n• un adjectif épithète : un petit village, un village calme ;\n• un complément du nom, introduit par une préposition (de, à, en …) : un village de pêcheurs, une tasse à café, une chaise en bois ;\n• une proposition relative, introduite par qui ou que : un village qui se trouve au bord de la mer ; le village que j’aime.\n« qui » est sujet du verbe qui suit (le garçon qui chante) ; « que » est complément (le garçon que je vois).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelles expansions enrichissent « un village » dans « un petit village de pêcheurs qui vit de la mer » ?",
+  "steps": [
+   "« petit » : adjectif épithète.",
+   "« de pêcheurs » : complément du nom.",
+   "« qui vit de la mer » : proposition relative."
+  ],
+  "answer": "un adjectif (petit), un complément du nom (de pêcheurs), une relative (qui vit de la mer).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c15-1",
+    "status": "draft",
+    "idea": "On enrichit un nom avec un adjectif, un complément du nom ou une proposition relative.",
+    "vars": {},
+    "example": [
+     "une maison en terre qui a un toit de paille"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-15-type"
+    }
+   },
+   {
+    "id": "c15-2",
+    "status": "draft",
+    "idea": "Le complément du nom est introduit par une préposition : de, à, en.",
+    "vars": {},
+    "example": [
+     "une chaise en bois, une machine à coudre"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-15-cdn"
+    }
+   },
+   {
+    "id": "c15-3",
+    "status": "draft",
+    "idea": "« qui » est sujet du verbe qui suit ; « que » est complément.",
+    "vars": {},
+    "example": [
+     "le livre qui est sur la table ; le livre que je lis"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-15-qui-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le livre ___ je lis parle d’un chasseur.",
+         "a": "que",
+         "w": [
+          "qui",
+          "quoi"
+         ],
+         "e": [
+          "Le sujet de « lis » est « je » : il faut « que ».",
+          "« quoi » ne convient pas ici."
+         ]
+        },
+        {
+         "s": "La fille ___ chante est ma cousine.",
+         "a": "qui",
+         "w": [
+          "que",
+          "quoi"
+         ],
+         "e": [
+          "« qui » est sujet de « chante ».",
+          "« quoi » ne convient pas ici."
+         ]
+        },
+        {
+         "s": "Le manguier ___ mon grand-père a planté donne beaucoup de fruits.",
+         "a": "que",
+         "w": [
+          "qui",
+          "quoi"
+         ],
+         "e": [
+          "Le sujet de « a planté » est « mon grand-père » : il faut « que ».",
+          "« quoi » ne convient pas ici."
+         ]
+        },
+        {
+         "s": "Le bus ___ va à Bafoussam part à six heures.",
+         "a": "qui",
+         "w": [
+          "que",
+          "quoi"
+         ],
+         "e": [
+          "« qui » est sujet de « va ».",
+          "« quoi » ne convient pas ici."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis « qui » ou « que ».",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-15-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "une case ronde (ronde)",
+       "r": "un adjectif épithète",
+       "w": [
+        "un complément du nom",
+        "une proposition relative",
+        "un verbe"
+       ],
+       "e": [
+        "Il n’y a pas de préposition.",
+        "Il n’y a pas de qui ou que.",
+        "« ronde » dit comment est la case."
+       ],
+       "y": "« ronde » est un adjectif à côté du nom."
+      },
+      {
+       "q": "une tasse à café (à café)",
+       "r": "un complément du nom",
+       "w": [
+        "un adjectif épithète",
+        "une proposition relative",
+        "un sujet"
+       ],
+       "e": [
+        "« café » est un nom.",
+        "Il n’y a pas de qui ou que.",
+        "Ce n’est pas un sujet."
+       ],
+       "y": "Préposition « à » + nom : complément du nom."
+      },
+      {
+       "q": "le garçon qui chante (qui chante)",
+       "r": "une proposition relative",
+       "w": [
+        "un adjectif épithète",
+        "un complément du nom",
+        "un déterminant"
+       ],
+       "e": [
+        "Elle contient un verbe.",
+        "Il n’y a pas de préposition.",
+        "Le déterminant est « le »."
+       ],
+       "y": "Elle commence par « qui » et a un verbe."
+      }
+     ]
+    }
+   },
+   "prompt": "Quelle est la nature de l’expansion entre parenthèses ? « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-15-cdn",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Mon père a fabriqué une table ___ bois.",
+       "a": "en",
+       "w": [
+        "à",
+        "qui"
+       ],
+       "e": [
+        "Pour la matière, on dit « en » bois.",
+        "« qui » introduit une relative."
+       ]
+      },
+      {
+       "s": "Ma tante a acheté une machine ___ coudre.",
+       "a": "à",
+       "w": [
+        "en",
+        "que"
+       ],
+       "e": [
+        "Pour l’usage, on dit « à coudre ».",
+        "« que » introduit une relative."
+       ]
+      },
+      {
+       "s": "Nous visitons un village ___ pêcheurs.",
+       "a": "de",
+       "w": [
+        "en",
+        "qui"
+       ],
+       "e": [
+        "On dit « un village de pêcheurs ».",
+        "« qui » introduit une relative."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la préposition qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-15-qui",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le livre ___ je lis parle d’un chasseur.",
+       "a": "que",
+       "w": [
+        "qui",
+        "quoi"
+       ],
+       "e": [
+        "Le sujet de « lis » est « je » : il faut « que ».",
+        "« quoi » ne convient pas ici."
+       ]
+      },
+      {
+       "s": "La fille ___ chante est ma cousine.",
+       "a": "qui",
+       "w": [
+        "que",
+        "quoi"
+       ],
+       "e": [
+        "« qui » est sujet de « chante ».",
+        "« quoi » ne convient pas ici."
+       ]
+      },
+      {
+       "s": "Le manguier ___ mon grand-père a planté donne beaucoup de fruits.",
+       "a": "que",
+       "w": [
+        "qui",
+        "quoi"
+       ],
+       "e": [
+        "Le sujet de « a planté » est « mon grand-père » : il faut « que ».",
+        "« quoi » ne convient pas ici."
+       ]
+      },
+      {
+       "s": "Le bus ___ va à Bafoussam part à six heures.",
+       "a": "qui",
+       "w": [
+        "que",
+        "quoi"
+       ],
+       "e": [
+        "« qui » est sujet de « va ».",
+        "« quoi » ne convient pas ici."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis « qui » ou « que ».",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-15-wo",
+   "type": "word_order",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Mon oncle habite une grande maison en briques.",
+       "b": "Mon oncle habite une grande maison en briques."
+      },
+      {
+       "a": "Le garçon qui joue au ballon est mon frère.",
+       "b": "Le garçon qui joue au ballon est mon frère."
+      },
+      {
+       "a": "Ma mère vend des beignets de maïs au marché.",
+       "b": "Ma mère vend des beignets de maïs au marché."
+      },
+      {
+       "a": "La robe que ma tante a cousue est très belle.",
+       "b": "La robe que ma tante a cousue est très belle."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  }
+ ]
+}

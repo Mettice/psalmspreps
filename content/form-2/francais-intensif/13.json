@@ -1,0 +1,435 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 13,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-13",
+   "name": "Les jeux de rôle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans un jeu de rôle, chaque élève joue un personnage dans une situation de la vie (au marché, à l’hôpital, chez le chef, à la maison).\nPour bien jouer : connaître la situation et son personnage (son âge, son caractère) ; parler comme lui ; écouter l’autre pour répondre.\nFormules utiles :\n• accueillir : « Bonjour, soyez le bienvenu. Que puis-je faire pour vous ? »\n• demander poliment : « Pourriez-vous … ? », « Je voudrais … »\n• accepter : « D’accord, avec plaisir. » ; refuser poliment : « Je suis désolé, mais je ne peux pas. »\n• conclure : « Merci beaucoup. Au revoir. »",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Au marché, tu veux acheter des tomates. Écris deux répliques polies, une pour toi et une pour la vendeuse.",
+  "steps": [
+   "L’acheteur demande poliment : « Bonjour, Madame. Je voudrais un tas de tomates, s’il vous plaît. »",
+   "La vendeuse accueille et répond : « Bonjour, mon fils. Voilà, c’est cinq cents francs. »"
+  ],
+  "answer": "« Bonjour, Madame. Je voudrais un tas de tomates, s’il vous plaît. » — « Bonjour, mon fils. Voilà, c’est cinq cents francs. »",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c13-1",
+    "status": "draft",
+    "idea": "Dans un jeu de rôle, on joue un personnage dans une situation de la vie.",
+    "vars": {},
+    "example": [
+     "Un élève joue le médecin, un autre le malade."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-13-role"
+    }
+   },
+   {
+    "id": "c13-2",
+    "status": "draft",
+    "idea": "Pour demander poliment : « Je voudrais … », « Pourriez-vous … ? ».",
+    "vars": {},
+    "example": [
+     "Pourriez-vous m’aider, s’il vous plaît ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-13-formule"
+    }
+   },
+   {
+    "id": "c13-3",
+    "status": "draft",
+    "idea": "Pour refuser poliment : « Je suis désolé, mais je ne peux pas. »",
+    "vars": {},
+    "example": [
+     "Je suis désolée, mais je n’ai plus de pain."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-13-ordre-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase refuse poliment ?",
+         "r": "Je suis désolé, mais je ne peux pas venir.",
+         "w": [
+          "Non !",
+          "Jamais de la vie !",
+          "Laisse-moi tranquille."
+         ],
+         "e": [
+          "C’est trop sec.",
+          "Ce n’est pas poli.",
+          "Ce n’est pas poli."
+         ],
+         "y": "On s’excuse avant de refuser."
+        },
+        {
+         "q": "Quelle phrase termine poliment la scène ?",
+         "r": "Merci beaucoup, Madame. Au revoir.",
+         "w": [
+          "Bonjour, Madame.",
+          "Je voudrais des tomates.",
+          "Combien coûtent les tomates ?"
+         ],
+         "e": [
+          "C’est une salutation de début.",
+          "C’est une demande.",
+          "C’est une question."
+         ],
+         "y": "On remercie et on prend congé."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-13-role",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qu’est-ce qu’un jeu de rôle ?",
+       "r": "une scène où chacun joue un personnage dans une situation de la vie",
+       "w": [
+        "un match de football",
+        "une dictée",
+        "un poème appris par cœur"
+       ],
+       "e": [
+        "Ce n’est pas un sport.",
+        "Ce n’est pas un exercice d’écriture.",
+        "On ne récite pas, on improvise un dialogue."
+       ],
+       "y": "On joue un personnage."
+      },
+      {
+       "q": "Que faut-il faire pendant un jeu de rôle ?",
+       "r": "écouter l’autre pour lui répondre",
+       "w": [
+        "parler tous en même temps",
+        "tourner le dos au public",
+        "lire sa feuille sans regarder personne"
+       ],
+       "e": [
+        "On parle chacun son tour.",
+        "On regarde le public.",
+        "On regarde son partenaire."
+       ],
+       "y": "Un dialogue se construit en écoutant."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-13-formule",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase demande poliment ?",
+       "r": "Je voudrais un kilo de riz, s’il vous plaît.",
+       "w": [
+        "Donne-moi du riz !",
+        "Du riz, vite !",
+        "Je prends le riz, c’est tout."
+       ],
+       "e": [
+        "C’est un ordre.",
+        "Ce n’est pas poli.",
+        "Ce n’est pas une demande polie."
+       ],
+       "y": "« Je voudrais … s’il vous plaît »."
+      },
+      {
+       "q": "Quelle phrase accueille un client ?",
+       "r": "Bonjour, soyez le bienvenu. Que puis-je faire pour vous ?",
+       "w": [
+        "Partez d’ici.",
+        "Je suis fermé pour toujours.",
+        "Qu’est-ce que tu veux encore ?"
+       ],
+       "e": [
+        "Ce n’est pas accueillant.",
+        "Ce n’est pas un accueil.",
+        "Ce n’est pas poli."
+       ],
+       "y": "On salue et on propose son aide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-13-ordre",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase refuse poliment ?",
+       "r": "Je suis désolé, mais je ne peux pas venir.",
+       "w": [
+        "Non !",
+        "Jamais de la vie !",
+        "Laisse-moi tranquille."
+       ],
+       "e": [
+        "C’est trop sec.",
+        "Ce n’est pas poli.",
+        "Ce n’est pas poli."
+       ],
+       "y": "On s’excuse avant de refuser."
+      },
+      {
+       "q": "Quelle phrase termine poliment la scène ?",
+       "r": "Merci beaucoup, Madame. Au revoir.",
+       "w": [
+        "Bonjour, Madame.",
+        "Je voudrais des tomates.",
+        "Combien coûtent les tomates ?"
+       ],
+       "e": [
+        "C’est une salutation de début.",
+        "C’est une demande.",
+        "C’est une question."
+       ],
+       "y": "On remercie et on prend congé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-13-dial",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Vendeuse : Bonjour, mon fils. Que veux-tu ?",
+       "Client : Bonjour, Madame. Je voudrais des avocats, s’il vous plaît.",
+       "Vendeuse : Voilà, c’est trois cents francs.",
+       "Client : Merci beaucoup. Au revoir."
+      ],
+      [
+       "Infirmier : Bonjour. Soyez le bienvenu.",
+       "Malade : Bonjour. Pourriez-vous m’aider ? J’ai mal à la tête.",
+       "Infirmier : Asseyez-vous, je prends votre température.",
+       "Malade : Merci beaucoup."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les répliques du jeu de rôle dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  }
+ ]
+}

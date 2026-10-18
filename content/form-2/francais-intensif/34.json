@@ -1,0 +1,411 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 34,
+ "language": "fr",
+ "prerequisites": [
+  8,
+  23
+ ],
+ "skills": [
+  {
+   "id": "fi2-34",
+   "name": "Découvrir la littérature : l’auteur et l’œuvre"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une œuvre littéraire (un roman, une pièce de théâtre, un recueil de poèmes) est écrite par un auteur (un écrivain). Sur la couverture, on trouve le titre, le nom de l’auteur et l’éditeur.\nDans un récit, le personnage principal est celui dont on raconte surtout l’histoire ; le narrateur est celui qui raconte (il peut être un personnage : « je »).\nLe résumé dit en peu de mots l’essentiel de l’histoire.\nQuelques écrivains camerounais : Ferdinand Oyono (Une vie de boy, roman), Mongo Beti (Ville cruelle, roman, publié sous le nom d’Eza Boto), Guillaume Oyônô Mbia (Trois prétendants… un mari, théâtre), Francis Bebey (Le Fils d’Agatha Moudio, roman).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans « Une vie de boy », le héros, Toundi, écrit son journal. Qui est le narrateur ?",
+  "steps": [
+   "Le texte est un journal écrit à la première personne (« je »).",
+   "C’est donc Toundi lui-même qui raconte."
+  ],
+  "answer": "Le narrateur est Toundi, le personnage principal.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c34-1",
+    "status": "draft",
+    "idea": "Une œuvre a un titre, un auteur et un genre (roman, théâtre, poésie).",
+    "vars": {},
+    "example": [
+     "Trois prétendants… un mari est une pièce de théâtre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-34-oeuvre"
+    }
+   },
+   {
+    "id": "c34-2",
+    "status": "draft",
+    "idea": "Le narrateur est celui qui raconte ; le personnage principal est celui dont on raconte l’histoire.",
+    "vars": {},
+    "example": [
+     "Dans un journal, le narrateur dit « je »."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-34-narr"
+    }
+   },
+   {
+    "id": "c34-3",
+    "status": "draft",
+    "idea": "Le résumé dit l’essentiel de l’histoire en peu de mots.",
+    "vars": {},
+    "example": [
+     "Un résumé ne raconte pas tous les détails."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-34-genre-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "« Trois prétendants… un mari » est écrit pour être joué. Quel est son genre ?",
+         "r": "le théâtre",
+         "w": [
+          "le roman",
+          "la poésie",
+          "la fable"
+         ],
+         "e": [
+          "Un roman se lit, il n’est pas joué.",
+          "Ce n’est pas en vers.",
+          "Ce n’est pas une fable."
+         ],
+         "y": "Une pièce de théâtre est jouée sur une scène."
+        },
+        {
+         "q": "Quelle phrase est un bon résumé de la fable « La chèvre et le chien » ?",
+         "r": "Une chèvre se moque d’un chien qui veille, mais il lui sauve la vie contre un léopard.",
+         "w": [
+          "Il y a une chèvre.",
+          "Le chien aboie, le fermier a une lampe, il fait nuit, la chèvre dort, le léopard approche, le chien aboie encore.",
+          "Les léopards sont dangereux."
+         ],
+         "e": [
+          "C’est trop court : il manque l’histoire.",
+          "C’est trop long et il manque la fin.",
+          "Ce n’est pas l’histoire."
+         ],
+         "y": "Un résumé dit l’essentiel en peu de mots."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-34-oeuvre",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Relie chaque œuvre à son auteur.",
+   "pool": [
+    {
+     "left": "Une vie de boy",
+     "right": "Ferdinand Oyono"
+    },
+    {
+     "left": "Ville cruelle",
+     "right": "Mongo Beti (Eza Boto)"
+    },
+    {
+     "left": "Trois prétendants… un mari",
+     "right": "Guillaume Oyônô Mbia"
+    },
+    {
+     "left": "Le Fils d’Agatha Moudio",
+     "right": "Francis Bebey"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-34-narr",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment appelle-t-on celui qui raconte l’histoire ?",
+       "r": "le narrateur",
+       "w": [
+        "l’éditeur",
+        "le lecteur",
+        "l’imprimeur"
+       ],
+       "e": [
+        "L’éditeur publie le livre.",
+        "Le lecteur lit le livre.",
+        "L’imprimeur fabrique le livre."
+       ],
+       "y": "Le narrateur raconte."
+      },
+      {
+       "q": "Comment appelle-t-on la personne qui écrit un livre ?",
+       "r": "l’auteur",
+       "w": [
+        "le narrateur",
+        "le lecteur",
+        "le libraire"
+       ],
+       "e": [
+        "Le narrateur raconte dans le livre ; ce n’est pas toujours l’auteur.",
+        "Le lecteur lit.",
+        "Le libraire vend des livres."
+       ],
+       "y": "L’auteur écrit l’œuvre."
+      },
+      {
+       "q": "Comment appelle-t-on le personnage dont on raconte surtout l’histoire ?",
+       "r": "le personnage principal (le héros)",
+       "w": [
+        "l’éditeur",
+        "le personnage secondaire",
+        "le titre"
+       ],
+       "e": [
+        "L’éditeur publie le livre.",
+        "Il a un rôle moins important.",
+        "Le titre est le nom du livre."
+       ],
+       "y": "Le héros est au centre de l’histoire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-34-genre",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "« Trois prétendants… un mari » est écrit pour être joué. Quel est son genre ?",
+       "r": "le théâtre",
+       "w": [
+        "le roman",
+        "la poésie",
+        "la fable"
+       ],
+       "e": [
+        "Un roman se lit, il n’est pas joué.",
+        "Ce n’est pas en vers.",
+        "Ce n’est pas une fable."
+       ],
+       "y": "Une pièce de théâtre est jouée sur une scène."
+      },
+      {
+       "q": "Quelle phrase est un bon résumé de la fable « La chèvre et le chien » ?",
+       "r": "Une chèvre se moque d’un chien qui veille, mais il lui sauve la vie contre un léopard.",
+       "w": [
+        "Il y a une chèvre.",
+        "Le chien aboie, le fermier a une lampe, il fait nuit, la chèvre dort, le léopard approche, le chien aboie encore.",
+        "Les léopards sont dangereux."
+       ],
+       "e": [
+        "C’est trop court : il manque l’histoire.",
+        "C’est trop long et il manque la fin.",
+        "Ce n’est pas l’histoire."
+       ],
+       "y": "Un résumé dit l’essentiel en peu de mots."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-34-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ferdinand Oyono a écrit Une vie de boy.",
+      "truth": "true"
+     },
+     {
+      "text": "Le narrateur est celui qui raconte.",
+      "truth": "true"
+     },
+     {
+      "text": "Un résumé dit l’essentiel.",
+      "truth": "true"
+     },
+     {
+      "text": "Une pièce de théâtre est faite pour être jouée.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le narrateur est toujours l’éditeur du livre.",
+      "truth": "false",
+      "explain": "L’éditeur publie le livre ; le narrateur raconte."
+     },
+     {
+      "text": "Un résumé raconte tous les détails.",
+      "truth": "false",
+      "explain": "Il dit seulement l’essentiel."
+     },
+     {
+      "text": "Une vie de boy est une pièce de théâtre.",
+      "truth": "false",
+      "explain": "C’est un roman."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

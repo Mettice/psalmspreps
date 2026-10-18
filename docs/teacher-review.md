@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-185 P1 items: 183 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+188 P1 items: 186 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -213,6 +213,9 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-Z01 | Form 2 French: verb table (french2.js) | open |
 | TR-Z02 | Form 2 French: adjective agreement | open |
 | TR-Z03 | Form 2 French: texts and vocabulary | open |
+| TR-Z06 | Form 2 Français intensif: plurals | open |
+| TR-Z07 | Form 2 Français intensif: adverbs in -ment | open |
+| TR-Z08 | Form 2 Français intensif: literature and tourism facts | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -788,5 +791,20 @@ Everything is in `content/form-2/french/REVIEW.md` and `AUTHORED.md`. Reviewer: 
 - [ ] **TR-Z03 [P1] Texts and vocabulary:** the six original reading texts (lessons 1, 4, 7, 13, 20 and the questions on them), the family words (beau-frère, belle-sœur …), school staff (proviseur, censeur, surveillant général, intendant), hygiene, diseases (paludisme, choléra, typhoïde, rougeole, tuberculose; épidémie, endémie, pandémie) and environment words. *Location:* lessons 1, 2, 4, 7, 12, 13, 18, 20, 23, 24, 31.
 
 ### P2
-- [ ] **TR-Z04 [P2] Row 29 “Le son /p/ et /φ/”:** read as the sound [p] (p, pp) against ph, which is read [f]. This is an inference from the sheet: please say if the teacher meant something else. *Location:* `content/form-2/french/29.json`.
-- [ ] **TR-Z05 [P2] Listening and speaking rows (1, 4, 7 “Lecture / Écoute”; 15, 26, 32 “Expression orale”):** the app cannot play or hear speech, so these are taught as reading, and as preparing a sketch, presenting an image and describing an illness. The oral performance itself stays with the teacher. *Location:* those lessons.
+- [ ] **TR-Z04 [P2] Row 29 “Le son /p/ et /φ/”:** read as the sound [p] (p, pp) against ph, which is read [f]. This is an inference from the sheet: please say if the teacher meant something else. Likewise in Français intensif, the sheet’s “[3] (Juge, Gisèle)”, “/ᴓ/ Ex. feu” and “/ә/ Ex. côte” are read as [ʒ], [ø] and [o]. *Location:* `content/form-2/french/29.json`; `content/form-2/francais-intensif/21.json`, `37.json`, `42.json`.
+- [ ] **TR-Z05 [P2] Listening and speaking rows (1, 4, 7 “Lecture / Écoute”; 15, 26, 32 “Expression orale”):** the app cannot play or hear speech, so these are taught as reading, and as preparing a sketch, presenting an image and describing an illness. The oral performance itself stays with the teacher. *Location:* those lessons. Français intensif rows 5, 13, 18, 24, 31, 39, 44, 49 are taught the same way.
+
+## Z (continued). Français intensif Form 2, Batch FI2-1 (Term 1: rows 1–25, 27–51), added 2026-10-18 (form-2 branch, not live)
+
+50 lessons (row 26, integration, is not a lesson), all in French: 150 cards, 200 practice templates (177 authored, 23
+computed) and 50 card-check templates. Verb forms, plurals and adverbs come from `french2.js`; the texts (a letter, a
+fable, a poem, a song, a tale retold, two stories, an epidemic report) are original. Row 22 “Identification et utilisation
+des points” is read as a revision of the grammar points studied (inference). Everything is in
+`content/form-2/francais-intensif/REVIEW.md` and `AUTHORED.md`. Reviewer: a French teacher. TR-Z01 (verb table) also
+covers the imparfait, passé simple and participe présent used here.
+
+### P1
+- [ ] **TR-Z06 [P1] Plurals:** -al → -aux (bal, carnaval, festival … → -s); -ail → -s (bail, corail, émail, soupirail, travail, vitrail → -aux); -ou → -s (the seven in -oux); -au, -eau, -eu → -x (landau, pneu → -s). *Location:* `NOUN_PL` in `french2.js`; lesson 27.
+- [ ] **TR-Z07 [P1] Adverbs in -ment:** the table (lentement, doucement, heureusement, poliment, vraiment, prudemment, bruyamment, gentiment …) and the rules given. *Location:* `ADV` in `french2.js`; lesson 35.
+- [ ] **TR-Z08 [P1] Literature facts:** Ferdinand Oyono, *Une vie de boy* (roman, Toundi’s diary); Mongo Beti (as Eza Boto), *Ville cruelle*; Guillaume Oyônô Mbia, *Trois prétendants… un mari* (théâtre); Francis Bebey, *Le Fils d’Agatha Moudio*; and the tourist sites (chutes de la Lobé near Kribi, Limbé, mont Cameroun near Buea, parc de Waza, Foumban). *Location:* lessons 34, 43, 44.
+

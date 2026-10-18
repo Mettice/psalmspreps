@@ -1,0 +1,461 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 8,
+ "language": "fr",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "fi2-8",
+   "name": "Découvrir la littérature : le conte et la fable"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Genres littéraires : le conte (récit merveilleux, souvent oral), la fable (court récit avec des animaux et une morale), le poème, le roman (long récit), le théâtre (écrit pour être joué).\n\nTexte : La chèvre et le chien\nUne chèvre se moquait chaque jour du chien de la ferme : « Tu passes tes nuits à veiller, lui disait-elle, pendant que je dors bien au chaud. Quelle vie stupide ! » Le chien ne répondait pas. Une nuit, un léopard s’approcha de l’enclos. Le chien aboya si fort que le fermier sortit avec sa lampe et le léopard s’enfuit. Au matin, la chèvre tremblante vint remercier le chien. « Chacun a son travail, répondit-il ; le mien te paraissait inutile, il t’a sauvé la vie. »\n(texte original écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quels sont les personnages de « La chèvre et le chien », et quelle est la morale ?",
+  "steps": [
+   "Personnages : la chèvre, le chien, le léopard, le fermier.",
+   "Le chien, dont la chèvre se moquait, la sauve.",
+   "Morale : chaque travail est utile ; il ne faut pas se moquer des autres."
+  ],
+  "answer": "La chèvre, le chien, le léopard, le fermier ; morale : chaque travail est utile, il ne faut pas se moquer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c8-1",
+    "status": "draft",
+    "idea": "La fable est un court récit, souvent avec des animaux, qui donne une leçon : la morale.",
+    "vars": {},
+    "example": [
+     "Dans la fable, les animaux parlent comme des hommes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-8-genre"
+    }
+   },
+   {
+    "id": "c8-2",
+    "status": "draft",
+    "idea": "Pour lire un récit : les personnages, le lieu, le problème, la fin, la leçon.",
+    "vars": {},
+    "example": [
+     "Le problème : un léopard s’approche de l’enclos."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-8-recit"
+    }
+   },
+   {
+    "id": "c8-3",
+    "status": "draft",
+    "idea": "La morale est la leçon que l’auteur veut donner.",
+    "vars": {},
+    "example": [
+     "Il ne faut pas se moquer du travail des autres."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-8-morale-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "quelle est la morale ?",
+         "r": "chaque travail est utile ; il ne faut pas se moquer des autres",
+         "w": [
+          "il faut dormir beaucoup",
+          "les léopards sont gentils",
+          "les chiens n’aiment pas les chèvres"
+         ],
+         "e": [
+          "Ce n’est pas la leçon.",
+          "Le léopard est un danger.",
+          "Le chien sauve la chèvre."
+         ],
+         "y": "Le chien dit : « Chacun a son travail »."
+        },
+        {
+         "q": "pourquoi la chèvre tremble-t-elle au matin ?",
+         "r": "elle a eu peur du léopard",
+         "w": [
+          "elle a froid",
+          "elle est malade",
+          "elle est en colère contre le chien"
+         ],
+         "e": [
+          "Le texte parle de la peur du léopard.",
+          "Le texte ne le dit pas.",
+          "Elle vient le remercier."
+         ],
+         "y": "Le léopard a failli l’attaquer."
+        }
+       ]
+      }
+     },
+     "prompt": "Fable « La chèvre et le chien » : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-8-genre",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel genre est un court récit avec des animaux qui donne une leçon ?",
+       "r": "la fable",
+       "w": [
+        "le roman",
+        "le théâtre",
+        "la lettre"
+       ],
+       "e": [
+        "Le roman est un long récit.",
+        "Le théâtre est écrit pour être joué.",
+        "La lettre n’est pas un récit littéraire de ce type."
+       ],
+       "y": "La fable finit par une morale."
+      },
+      {
+       "q": "Quel genre est un texte écrit pour être joué sur une scène ?",
+       "r": "le théâtre",
+       "w": [
+        "la fable",
+        "le poème",
+        "le roman"
+       ],
+       "e": [
+        "La fable est un récit.",
+        "Le poème est en vers.",
+        "Le roman est un long récit."
+       ],
+       "y": "Les acteurs jouent les pièces de théâtre."
+      },
+      {
+       "q": "Quel genre est un long récit en prose, avec beaucoup de personnages ?",
+       "r": "le roman",
+       "w": [
+        "la comptine",
+        "la fable",
+        "le proverbe"
+       ],
+       "e": [
+        "Elle est courte et rythmée.",
+        "Elle est courte.",
+        "C’est une phrase courte."
+       ],
+       "y": "Le roman est un long récit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-8-recit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "de quoi la chèvre se moquait-elle ?",
+       "r": "des nuits de veille du chien",
+       "w": [
+        "de la lampe du fermier",
+        "du léopard",
+        "de son propre enclos"
+       ],
+       "e": [
+        "Le fermier sort à la fin.",
+        "Le léopard arrive plus tard.",
+        "Elle se moquait du chien."
+       ],
+       "y": "« Tu passes tes nuits à veiller »."
+      },
+      {
+       "q": "qui fait fuir le léopard ?",
+       "r": "le chien, en aboyant, puis le fermier",
+       "w": [
+        "la chèvre",
+        "personne",
+        "le léopard part tout seul"
+       ],
+       "e": [
+        "Elle dormait.",
+        "Le chien aboie.",
+        "Il s’enfuit à cause du bruit et du fermier."
+       ],
+       "y": "Le chien aboie, le fermier sort, le léopard s’enfuit."
+      }
+     ]
+    }
+   },
+   "prompt": "Fable « La chèvre et le chien » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-8-morale",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est la morale ?",
+       "r": "chaque travail est utile ; il ne faut pas se moquer des autres",
+       "w": [
+        "il faut dormir beaucoup",
+        "les léopards sont gentils",
+        "les chiens n’aiment pas les chèvres"
+       ],
+       "e": [
+        "Ce n’est pas la leçon.",
+        "Le léopard est un danger.",
+        "Le chien sauve la chèvre."
+       ],
+       "y": "Le chien dit : « Chacun a son travail »."
+      },
+      {
+       "q": "pourquoi la chèvre tremble-t-elle au matin ?",
+       "r": "elle a eu peur du léopard",
+       "w": [
+        "elle a froid",
+        "elle est malade",
+        "elle est en colère contre le chien"
+       ],
+       "e": [
+        "Le texte parle de la peur du léopard.",
+        "Le texte ne le dit pas.",
+        "Elle vient le remercier."
+       ],
+       "y": "Le léopard a failli l’attaquer."
+      }
+     ]
+    }
+   },
+   "prompt": "Fable « La chèvre et le chien » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-8-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Une fable donne une leçon.",
+      "truth": "true"
+     },
+     {
+      "text": "Le conte est souvent transmis oralement.",
+      "truth": "true"
+     },
+     {
+      "text": "Le théâtre est écrit pour être joué.",
+      "truth": "true"
+     },
+     {
+      "text": "Dans la fable, le chien sauve la chèvre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Dans la fable, la chèvre sauve le chien.",
+      "truth": "false",
+      "explain": "C’est le chien qui sauve la chèvre."
+     },
+     {
+      "text": "Le roman est toujours un poème de quatre vers.",
+      "truth": "false",
+      "explain": "Le roman est un long récit en prose."
+     },
+     {
+      "text": "La morale est le nom du personnage principal.",
+      "truth": "false",
+      "explain": "La morale est la leçon du texte."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

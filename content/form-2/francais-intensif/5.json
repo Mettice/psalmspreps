@@ -1,0 +1,474 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 5,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-5",
+   "name": "Réciter un poème, une comptine, un chant"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un poème est écrit en vers (les lignes) regroupés en strophes (les paragraphes). Les mots à la fin des vers ont souvent le même son : c’est la rime (douces / mousse).\nUne comptine est un petit poème rythmé pour les enfants ; un chant a souvent un refrain (des vers qui reviennent).\nPour bien réciter : apprendre strophe par strophe ; se tenir droit et regarder le public ; articuler ; respirer aux virgules et aux points ; mettre le ton (joie, tristesse).\n\nPoème : Ma grand-mère\nMa grand-mère a les mains douces,\nElle sent le feu et la citronnelle,\nSous le manguier, sur la mousse,\nElle conte des histoires belles.\n\nQuand vient la nuit et que tout dort,\nSa voix chante comme un ruisseau ;\nJe garde au cœur, comme un trésor,\nSes mots plus doux que le miel nouveau.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans le poème « Ma grand-mère », combien y a-t-il de strophes et de vers dans chaque strophe ? Donne une rime.",
+  "steps": [
+   "Les strophes sont séparées par une ligne blanche : il y en a deux.",
+   "Chaque strophe a quatre lignes : quatre vers.",
+   "Rime : « dort » et « trésor » finissent par le même son."
+  ],
+  "answer": "Deux strophes de quatre vers ; « dort » rime avec « trésor ».",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c5-1",
+    "status": "draft",
+    "idea": "Un poème est fait de vers (les lignes) regroupés en strophes.",
+    "vars": {},
+    "example": [
+     "Une strophe de quatre vers s’appelle un quatrain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-5-mots"
+    }
+   },
+   {
+    "id": "c5-2",
+    "status": "draft",
+    "idea": "La rime est le même son à la fin de deux vers.",
+    "vars": {},
+    "example": [
+     "nuit / bruit, dort / trésor"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-5-rime"
+    }
+   },
+   {
+    "id": "c5-3",
+    "status": "draft",
+    "idea": "Pour réciter : se tenir droit, regarder le public, articuler et respirer aux pauses.",
+    "vars": {},
+    "example": [
+     "On respire à la virgule et au point."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-5-dire-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel conseil aide à bien réciter ?",
+         "r": "regarder le public et articuler",
+         "w": [
+          "parler très vite",
+          "lire en regardant ses pieds",
+          "s’arrêter au milieu des mots"
+         ],
+         "e": [
+          "On parle à un rythme calme.",
+          "On regarde le public.",
+          "On respire aux virgules et aux points."
+         ],
+         "y": "On regarde le public et on articule."
+        },
+        {
+         "q": "Où respire-t-on quand on récite ?",
+         "r": "aux virgules et aux points",
+         "w": [
+          "au milieu de chaque mot",
+          "jamais",
+          "après chaque syllabe"
+         ],
+         "e": [
+          "Cela coupe les mots.",
+          "Il faut respirer.",
+          "Cela casse le rythme."
+         ],
+         "y": "La ponctuation montre les pauses."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-5-mots",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment appelle-t-on une ligne d’un poème ?",
+       "r": "un vers",
+       "w": [
+        "une strophe",
+        "une rime",
+        "un refrain"
+       ],
+       "e": [
+        "La strophe est un groupe de vers.",
+        "La rime est un son répété.",
+        "Le refrain revient dans un chant."
+       ],
+       "y": "Chaque ligne est un vers."
+      },
+      {
+       "q": "Comment appelle-t-on un groupe de vers ?",
+       "r": "une strophe",
+       "w": [
+        "un vers",
+        "une phrase",
+        "une rime"
+       ],
+       "e": [
+        "Le vers est une seule ligne.",
+        "On parle de strophe en poésie.",
+        "La rime est un son."
+       ],
+       "y": "Les vers sont regroupés en strophes."
+      },
+      {
+       "q": "Dans un chant, comment appelle-t-on les vers qui reviennent plusieurs fois ?",
+       "r": "le refrain",
+       "w": [
+        "la rime",
+        "le titre",
+        "la strophe"
+       ],
+       "e": [
+        "La rime est un son.",
+        "Le titre est au début.",
+        "Une strophe ne revient pas forcément."
+       ],
+       "y": "Le refrain revient."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-5-rime",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot rime avec « dort » ?",
+       "r": "trésor",
+       "w": [
+        "ruisseau",
+        "nuit",
+        "voix"
+       ],
+       "e": [
+        "Le son final est [o].",
+        "Le son final est [i].",
+        "Le son final est [wa]."
+       ],
+       "y": "dort / trésor : même son [ɔr]."
+      },
+      {
+       "q": "Quel mot rime avec « citronnelle » ?",
+       "r": "belle",
+       "w": [
+        "mousse",
+        "douces",
+        "feu"
+       ],
+       "e": [
+        "Le son final est [us].",
+        "Le son final est [us].",
+        "Le son final est [ø]."
+       ],
+       "y": "citronnelle / belle : même son [ɛl]."
+      },
+      {
+       "q": "Quel mot rime avec « ruisseau » ?",
+       "r": "nouveau",
+       "w": [
+        "miel",
+        "cœur",
+        "nuit"
+       ],
+       "e": [
+        "Le son final est [ɛl].",
+        "Le son final est [œr].",
+        "Le son final est [i]."
+       ],
+       "y": "ruisseau / nouveau : même son [o]."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-5-dire",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel conseil aide à bien réciter ?",
+       "r": "regarder le public et articuler",
+       "w": [
+        "parler très vite",
+        "lire en regardant ses pieds",
+        "s’arrêter au milieu des mots"
+       ],
+       "e": [
+        "On parle à un rythme calme.",
+        "On regarde le public.",
+        "On respire aux virgules et aux points."
+       ],
+       "y": "On regarde le public et on articule."
+      },
+      {
+       "q": "Où respire-t-on quand on récite ?",
+       "r": "aux virgules et aux points",
+       "w": [
+        "au milieu de chaque mot",
+        "jamais",
+        "après chaque syllabe"
+       ],
+       "e": [
+        "Cela coupe les mots.",
+        "Il faut respirer.",
+        "Cela casse le rythme."
+       ],
+       "y": "La ponctuation montre les pauses."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-5-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Poème « Ma grand-mère ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le poème a deux strophes.",
+      "truth": "true"
+     },
+     {
+      "text": "Chaque strophe a quatre vers.",
+      "truth": "true"
+     },
+     {
+      "text": "« dort » rime avec « trésor ».",
+      "truth": "true"
+     },
+     {
+      "text": "La grand-mère conte des histoires sous le manguier.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le poème a six strophes.",
+      "truth": "false",
+      "explain": "Il y a deux strophes."
+     },
+     {
+      "text": "« miel » rime avec « nuit ».",
+      "truth": "false",
+      "explain": "Les sons finaux sont différents."
+     },
+     {
+      "text": "La grand-mère conte des histoires le matin à l’école.",
+      "truth": "false",
+      "explain": "Elle conte sous le manguier ; la nuit, sa voix chante."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

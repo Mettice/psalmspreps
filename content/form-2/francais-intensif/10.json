@@ -1,0 +1,446 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 10,
+ "language": "fr",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "fi2-10",
+   "name": "Le passé composé : formation et emploi"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Formation : auxiliaire avoir ou être au présent + participe passé (j’ai mangé, nous avons fini, ils ont pris).\nAvec être se conjuguent aller, venir, partir, arriver, entrer, sortir, rester, tomber, monter, descendre, naître, mourir … ; le participe s’accorde alors avec le sujet : elle est sortie, ils sont venus.\nEmploi : le passé composé raconte une action passée, terminée, souvent à un moment précis (hier, ce matin, soudain).\nDans un récit, l’imparfait donne le décor et les habitudes ; le passé composé donne les actions principales : Il pleuvait (décor) ; soudain, la porte s’est ouverte (action).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "sortir",
+   "p": 7
+  },
+  "problem": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+  "steps": [
+   "« sortir » se conjugue avec être.",
+   "Le participe passé est « sorti » ; il s’accorde avec « elles » : sorties."
+  ],
+  "answer": "{fr2PasseCompose(v, p)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c10-1",
+    "status": "draft",
+    "idea": "Passé composé : avoir ou être au présent + participe passé.",
+    "vars": {},
+    "example": [
+     "nous avons dormi, tu as écrit"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-10-form"
+    }
+   },
+   {
+    "id": "c10-2",
+    "status": "draft",
+    "idea": "Avec être, le participe passé s’accorde avec le sujet.",
+    "vars": {},
+    "example": [
+     "elles sont sorties, il est tombé"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-10-etre"
+    }
+   },
+   {
+    "id": "c10-3",
+    "status": "draft",
+    "idea": "Dans un récit, l’imparfait décrit le décor ; le passé composé dit les actions principales.",
+    "vars": {},
+    "example": [
+     "Il pleuvait ; soudain, l’électricité s’est coupée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-10-emploi-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Il pleuvait depuis le matin. Soudain, la porte ___.",
+         "a": "s’est ouverte",
+         "w": [
+          "s’ouvrait",
+          "s’ouvre"
+         ],
+         "e": [
+          "« Soudain » annonce une action principale : passé composé.",
+          "Le récit est au passé."
+         ]
+        },
+        {
+         "s": "Quand j’étais petit, je ___ chaque soir chez ma grand-mère.",
+         "a": "dînais",
+         "w": [
+          "ai dîné",
+          "dînerai"
+         ],
+         "e": [
+          "« chaque soir » est une habitude : imparfait.",
+          "Le récit est au passé."
+         ]
+        },
+        {
+         "s": "Le ciel ___ gris et le vent soufflait.",
+         "a": "était",
+         "w": [
+          "a été",
+          "sera"
+         ],
+         "e": [
+          "C’est une description : imparfait.",
+          "Le récit est au passé."
+         ]
+        },
+        {
+         "s": "Je lisais quand mon oncle ___.",
+         "a": "est arrivé",
+         "w": [
+          "arrivait",
+          "arrive"
+         ],
+         "e": [
+          "L’arrivée est une action soudaine : passé composé.",
+          "Le récit est au passé."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le temps qui convient dans ce récit.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-10-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "dormir",
+      "écrire",
+      "voir",
+      "lire",
+      "dire",
+      "choisir",
+      "jouer",
+      "laver",
+      "travailler"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcInfinitive(v, p)}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2PcOtherAux(v, p)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{fr2With(p, fr2Imparfait(v, p))}",
+     "misconception": "imp"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "inf",
+     "explain": "Après l’auxiliaire, on met le participe passé (« {fr2Participle(v)} »)."
+    },
+    {
+     "id": "aux",
+     "explain": "« {v} » se conjugue avec {fr2Aux(v)}."
+    },
+    {
+     "id": "imp",
+     "explain": "Cette forme est à l’imparfait ; le passé composé a deux mots."
+    }
+   ],
+   "solution": [
+    "« {v} » se conjugue avec {fr2Aux(v)} ; son participe passé est « {fr2Participle(v)} ».",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-10-etre",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "sortir",
+      "partir",
+      "tomber",
+      "rester",
+      "entrer",
+      "arriver",
+      "venir"
+     ]
+    },
+    "p": {
+     "pick": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé composé avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseCompose(v, p)}",
+   "distractors": [
+    {
+     "text": "{fr2PcNoAgree(v, p)}",
+     "misconception": "agree"
+    },
+    {
+     "text": "{fr2PcOtherAux(v, p)}",
+     "misconception": "aux"
+    },
+    {
+     "text": "{fr2PcInfinitive(v, p)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "agree",
+     "explain": "Avec être, le participe s’accorde avec « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "aux",
+     "explain": "« {v} » se conjugue avec être."
+    },
+    {
+     "id": "inf",
+     "explain": "Après l’auxiliaire, on met le participe passé."
+    }
+   ],
+   "solution": [
+    "« {v} » se conjugue avec être : on accorde avec « {fr2Pronoun(p)} ».",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-10-emploi",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il pleuvait depuis le matin. Soudain, la porte ___.",
+       "a": "s’est ouverte",
+       "w": [
+        "s’ouvrait",
+        "s’ouvre"
+       ],
+       "e": [
+        "« Soudain » annonce une action principale : passé composé.",
+        "Le récit est au passé."
+       ]
+      },
+      {
+       "s": "Quand j’étais petit, je ___ chaque soir chez ma grand-mère.",
+       "a": "dînais",
+       "w": [
+        "ai dîné",
+        "dînerai"
+       ],
+       "e": [
+        "« chaque soir » est une habitude : imparfait.",
+        "Le récit est au passé."
+       ]
+      },
+      {
+       "s": "Le ciel ___ gris et le vent soufflait.",
+       "a": "était",
+       "w": [
+        "a été",
+        "sera"
+       ],
+       "e": [
+        "C’est une description : imparfait.",
+        "Le récit est au passé."
+       ]
+      },
+      {
+       "s": "Je lisais quand mon oncle ___.",
+       "a": "est arrivé",
+       "w": [
+        "arrivait",
+        "arrive"
+       ],
+       "e": [
+        "L’arrivée est une action soudaine : passé composé.",
+        "Le récit est au passé."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le temps qui convient dans ce récit.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-10-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Hier, ___ (nous, écrire) une lettre à notre tante.",
+       "v": "écrire",
+       "p": 4
+      },
+      {
+       "s": "Ce matin, ___ (elle, sortir) très tôt.",
+       "v": "sortir",
+       "p": 3
+      },
+      {
+       "s": "Soudain, ___ (ils, voir) un serpent.",
+       "v": "voir",
+       "p": 6
+      },
+      {
+       "s": "La semaine dernière, ___ (elles, partir) au village.",
+       "v": "partir",
+       "p": 7
+      },
+      {
+       "s": "Dimanche, ___ (je, dormir) jusqu’à huit heures.",
+       "v": "dormir",
+       "p": 0
+      },
+      {
+       "s": "Hier soir, ___ (tu, tomber) dans l’escalier.",
+       "v": "tomber",
+       "p": 1
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au passé composé.",
+   "text": "{X.s}",
+   "answer": "fr2PasseCompose(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "agree",
+     "wrong": "fr2PcNoAgree(X.v, X.p)",
+     "explain": "Avec être, le participe s’accorde avec le sujet."
+    },
+    {
+     "id": "aux",
+     "wrong": "fr2PcOtherAux(X.v, X.p)",
+     "explain": "« {X.v} » se conjugue avec {fr2Aux(X.v)}."
+    }
+   ],
+   "solution": [
+    "« {X.v} » : auxiliaire {fr2Aux(X.v)}, participe « {fr2Participle(X.v)} ».",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

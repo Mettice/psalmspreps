@@ -1,0 +1,411 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-30",
+   "name": "Le lexique des épidémies, endémies et pandémies"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Une épidémie : une maladie qui touche beaucoup de personnes en même temps dans une région (une épidémie de choléra, de rougeole).\n• Une endémie : une maladie toujours présente dans une région (le paludisme est endémique dans les régions chaudes et humides).\n• Une pandémie : une épidémie qui s’étend à plusieurs pays ou continents.\nMots utiles : un microbe, un virus, une bactérie ; la contamination (le passage du microbe) ; être contagieux ; un cas (une personne malade) ; le dépistage (le test pour savoir si on est malade) ; l’isolement, la quarantaine (on sépare les malades ou les personnes exposées) ; les gestes barrières (se laver les mains, tousser dans son coude, porter un masque, garder ses distances) ; la vaccination ; la riposte (la lutte organisée contre l’épidémie).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une maladie s’étend en quelques mois à tous les continents. Est-ce une épidémie, une endémie ou une pandémie ? Cite deux gestes barrières.",
+  "steps": [
+   "Elle touche plusieurs continents : c’est une pandémie.",
+   "Gestes barrières : se laver les mains, porter un masque (ou tousser dans son coude, garder ses distances)."
+  ],
+  "answer": "Une pandémie ; se laver les mains et porter un masque.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "Épidémie : beaucoup de malades en même temps ; pandémie : plusieurs pays ; endémie : toujours présente.",
+    "vars": {},
+    "example": [
+     "Le paludisme est une endémie au Cameroun."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-30-mots"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "Les gestes barrières empêchent la contamination : mains lavées, masque, coude, distance.",
+    "vars": {},
+    "example": [
+     "On tousse dans son coude."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-30-gestes"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "Le dépistage est un test ; la quarantaine sépare les personnes exposées.",
+    "vars": {},
+    "example": [
+     "Après le dépistage, les cas positifs sont soignés."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-30-def-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Le ___ permet de savoir si une personne est malade.",
+         "a": "dépistage",
+         "w": [
+          "festin",
+          "carrefour"
+         ],
+         "e": [
+          "Un festin est un grand repas.",
+          "C’est un croisement de routes."
+         ]
+        },
+        {
+         "s": "Les voyageurs exposés restent en ___ pendant quelques jours.",
+         "a": "quarantaine",
+         "w": [
+          "vacances",
+          "récréation"
+         ],
+         "e": [
+          "On ne part pas en vacances.",
+          "C’est une pause à l’école."
+         ]
+        },
+        {
+         "s": "Le choléra est une maladie très ___ : il passe vite d’une personne à une autre.",
+         "a": "contagieuse",
+         "w": [
+          "douce",
+          "endémique"
+         ],
+         "e": [
+          "Ce n’est pas le sens.",
+          "Endémique veut dire toujours présente."
+         ]
+        },
+        {
+         "s": "La ___ contre l’épidémie est organisée par le ministère de la Santé.",
+         "a": "riposte",
+         "w": [
+          "fête",
+          "récolte"
+         ],
+         "e": [
+          "Ce n’est pas une fête.",
+          "La récolte se fait au champ."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-30-mots",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "une épidémie",
+     "right": "beaucoup de malades en même temps dans une région"
+    },
+    {
+     "left": "une pandémie",
+     "right": "une épidémie qui touche plusieurs pays ou continents"
+    },
+    {
+     "left": "une endémie",
+     "right": "une maladie toujours présente dans une région"
+    },
+    {
+     "left": "la contamination",
+     "right": "le passage du microbe d’une personne à une autre"
+    },
+    {
+     "left": "la vaccination",
+     "right": "l’injection d’un vaccin pour se protéger"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-30-gestes",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel est un geste barrière ?",
+       "r": "tousser dans son coude",
+       "w": [
+        "serrer toutes les mains",
+        "partager son verre",
+        "tousser vers les autres"
+       ],
+       "e": [
+        "Les mains transmettent les microbes.",
+        "Le verre peut transmettre les microbes.",
+        "Cela contamine les autres."
+       ],
+       "y": "Le coude retient les gouttelettes."
+      },
+      {
+       "q": "Quel est un geste barrière ?",
+       "r": "se laver souvent les mains avec du savon",
+       "w": [
+        "se frotter les yeux",
+        "boire de l’eau sale",
+        "dormir à côté d’un malade contagieux"
+       ],
+       "e": [
+        "Cela fait entrer les microbes.",
+        "Cela donne des maladies.",
+        "Cela expose à la contamination."
+       ],
+       "y": "Le savon enlève les microbes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-30-def",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le ___ permet de savoir si une personne est malade.",
+       "a": "dépistage",
+       "w": [
+        "festin",
+        "carrefour"
+       ],
+       "e": [
+        "Un festin est un grand repas.",
+        "C’est un croisement de routes."
+       ]
+      },
+      {
+       "s": "Les voyageurs exposés restent en ___ pendant quelques jours.",
+       "a": "quarantaine",
+       "w": [
+        "vacances",
+        "récréation"
+       ],
+       "e": [
+        "On ne part pas en vacances.",
+        "C’est une pause à l’école."
+       ]
+      },
+      {
+       "s": "Le choléra est une maladie très ___ : il passe vite d’une personne à une autre.",
+       "a": "contagieuse",
+       "w": [
+        "douce",
+        "endémique"
+       ],
+       "e": [
+        "Ce n’est pas le sens.",
+        "Endémique veut dire toujours présente."
+       ]
+      },
+      {
+       "s": "La ___ contre l’épidémie est organisée par le ministère de la Santé.",
+       "a": "riposte",
+       "w": [
+        "fête",
+        "récolte"
+       ],
+       "e": [
+        "Ce n’est pas une fête.",
+        "La récolte se fait au champ."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Une pandémie touche plusieurs continents.",
+      "truth": "true"
+     },
+     {
+      "text": "Le paludisme est une endémie dans les régions chaudes et humides.",
+      "truth": "true"
+     },
+     {
+      "text": "Les gestes barrières limitent la contamination.",
+      "truth": "true"
+     },
+     {
+      "text": "Le dépistage est un test.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une endémie dure seulement une journée.",
+      "truth": "false",
+      "explain": "Une endémie est toujours présente dans une région."
+     },
+     {
+      "text": "La quarantaine est une fête de quarante jours.",
+      "truth": "false",
+      "explain": "C’est une période d’isolement."
+     },
+     {
+      "text": "Tousser vers les autres est un geste barrière.",
+      "truth": "false",
+      "explain": "On tousse dans son coude."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

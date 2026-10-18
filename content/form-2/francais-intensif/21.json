@@ -1,0 +1,467 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "fr",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "fi2-21",
+   "name": "Les sons [f], [ʒ] et [e]"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Le son [f] s’écrit f (une fée), ff (une affiche) ou ph (un trophée, une photo).\n• Le son [ʒ] (comme dans « juge », « Gisèle ») s’écrit j devant toutes les voyelles (jaune, joli, juge), g devant e, i, y (un genou, une girafe, la gymnastique), et ge devant a, o, u (nous mangeons, un pigeon, il mangea).\n• Le son [e] (comme dans « nez », « mangerai ») s’écrit é (l’été), er à la fin des infinitifs et de certains noms (manger, le boulanger), ez (le nez, vous chantez), et (le mot « et ») ; ai à la fin du futur et du passé simple avec « je » (je mangerai, je chantai).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Le pi___on mange des ___raines ; vous chant___ bien. »",
+  "steps": [
+   "« pigeon » : devant o, pour avoir [ʒ], on écrit ge.",
+   "« graines » : devant r, le g se lit [g].",
+   "« vous chantez » : -ez avec vous."
+  ],
+  "answer": "Le pigeon mange des graines ; vous chantez bien.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "Le son [f] s’écrit f, ff ou ph : fée, affiche, trophée.",
+    "vars": {},
+    "example": [
+     "Le capitaine soulève le trophée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-21-f"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Le son [ʒ] s’écrit j, g devant e, i, y, et ge devant a, o, u.",
+    "vars": {},
+    "example": [
+     "un juge, une girafe, un pigeon"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-21-j"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Le son [e] s’écrit é, er, ez, ai : l’été, manger, le nez, je mangerai.",
+    "vars": {},
+    "example": [
+     "Vous chantez. J’ai chanté."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-21-e-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Vous ___ très bien.",
+         "a": "chantez",
+         "w": [
+          "chanter",
+          "chanté"
+         ],
+         "e": [
+          "Avec « vous », la terminaison est -ez.",
+          "Avec « vous » au présent : -ez."
+         ]
+        },
+        {
+         "s": "Il faut ___ avant de jouer.",
+         "a": "manger",
+         "w": [
+          "mangez",
+          "mangé"
+         ],
+         "e": [
+          "Après « il faut », on met l’infinitif.",
+          "Après « il faut », on met l’infinitif."
+         ]
+        },
+        {
+         "s": "Hier, nous avons ___ au football.",
+         "a": "joué",
+         "w": [
+          "jouer",
+          "jouez"
+         ],
+         "e": [
+          "Après l’auxiliaire, on met le participe passé.",
+          "Après l’auxiliaire, on met le participe passé."
+         ]
+        },
+        {
+         "s": "Demain, je ___ chez ma tante.",
+         "a": "mangerai",
+         "w": [
+          "mangeré",
+          "mangerez"
+         ],
+         "e": [
+          "Au futur avec « je », on écrit -ai.",
+          "« -ez » va avec « vous »."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne terminaison.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-21-f",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Notre équipe a gagné le ___.",
+       "a": "trophée",
+       "w": [
+        "trofée",
+        "troffée"
+       ],
+       "e": [
+        "« trophée » s’écrit avec ph.",
+        "« trophée » s’écrit avec ph."
+       ]
+      },
+      {
+       "s": "Dans le conte, une ___ transforme la citrouille.",
+       "a": "fée",
+       "w": [
+        "phée",
+        "ffée"
+       ],
+       "e": [
+        "« fée » s’écrit avec f.",
+        "Au début du mot, un seul f."
+       ]
+      },
+      {
+       "s": "Le délégué lit l’___ au mur.",
+       "a": "affiche",
+       "w": [
+        "afiche",
+        "aphiche"
+       ],
+       "e": [
+        "« affiche » prend deux f.",
+        "« affiche » ne s’écrit pas avec ph."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-21-j",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Un ___ vole au-dessus de la cour.",
+       "a": "pigeon",
+       "w": [
+        "pigon",
+        "pijon"
+       ],
+       "e": [
+        "Devant o, g se lirait [g] : il faut ge.",
+        "Le son [ʒ] s’écrit ici ge."
+       ]
+      },
+      {
+       "s": "Le ___ écoute les deux parties.",
+       "a": "juge",
+       "w": [
+        "guge",
+        "jugue"
+       ],
+       "e": [
+        "Devant u, on écrit j pour [ʒ].",
+        "« juge » finit par -ge."
+       ]
+      },
+      {
+       "s": "La ___ a un long cou.",
+       "a": "girafe",
+       "w": [
+        "jirafe",
+        "guirafe"
+       ],
+       "e": [
+        "Devant i, g se lit [ʒ] : on écrit g.",
+        "gu se lit [g]."
+       ]
+      },
+      {
+       "s": "Hier, il ___ trop de piment.",
+       "a": "mangea",
+       "w": [
+        "manga",
+        "manjea"
+       ],
+       "e": [
+        "Devant a, il faut ge pour garder [ʒ].",
+        "On garde le g du verbe manger."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-21-e",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Vous ___ très bien.",
+       "a": "chantez",
+       "w": [
+        "chanter",
+        "chanté"
+       ],
+       "e": [
+        "Avec « vous », la terminaison est -ez.",
+        "Avec « vous » au présent : -ez."
+       ]
+      },
+      {
+       "s": "Il faut ___ avant de jouer.",
+       "a": "manger",
+       "w": [
+        "mangez",
+        "mangé"
+       ],
+       "e": [
+        "Après « il faut », on met l’infinitif.",
+        "Après « il faut », on met l’infinitif."
+       ]
+      },
+      {
+       "s": "Hier, nous avons ___ au football.",
+       "a": "joué",
+       "w": [
+        "jouer",
+        "jouez"
+       ],
+       "e": [
+        "Après l’auxiliaire, on met le participe passé.",
+        "Après l’auxiliaire, on met le participe passé."
+       ]
+      },
+      {
+       "s": "Demain, je ___ chez ma tante.",
+       "a": "mangerai",
+       "w": [
+        "mangeré",
+        "mangerez"
+       ],
+       "e": [
+        "Au futur avec « je », on écrit -ai.",
+        "« -ez » va avec « vous »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne terminaison.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le pigeon mange des graines.",
+      "truth": "true"
+     },
+     {
+      "text": "Vous chantez bien.",
+      "truth": "true"
+     },
+     {
+      "text": "Notre équipe a gagné le trophée.",
+      "truth": "true"
+     },
+     {
+      "text": "La girafe a un long cou.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le pigon picore le maïs.",
+      "truth": "false",
+      "explain": "Devant o, il faut ge : pigeon."
+     },
+     {
+      "text": "Il faut mangez des fruits.",
+      "truth": "false",
+      "explain": "Après « il faut » : l’infinitif manger."
+     },
+     {
+      "text": "La jirafe court vite.",
+      "truth": "false",
+      "explain": "Devant i, on écrit g : girafe."
+     },
+     {
+      "text": "Nous avons chantez à l’église.",
+      "truth": "false",
+      "explain": "Après l’auxiliaire : le participe chanté."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

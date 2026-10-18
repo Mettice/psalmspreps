@@ -1,0 +1,404 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 7,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "fi2-7",
+   "name": "Construire des phrases simples"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une phrase simple a un seul verbe conjugué. Elle est formée d’un sujet (qui fait l’action), d’un verbe et souvent d’un complément.\nIl y a quatre types de phrases :\n• déclarative : elle donne une information (Le soleil brille.) ;\n• interrogative : elle pose une question (Le soleil brille-t-il ?) ;\n• exclamative : elle exprime un sentiment fort (Comme le soleil brille !) ;\n• impérative (injonctive) : elle donne un ordre ou un conseil (Ferme la porte.).\nOn peut ajouter un complément de lieu, de temps ou de manière : Le matin, Paul balaie la cour avec soin.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Construis une phrase simple avec : la cour / balaie / chaque matin / ma sœur.",
+  "steps": [
+   "Le sujet : ma sœur ; le verbe : balaie ; le complément : la cour.",
+   "Le complément de temps peut aller au début : Chaque matin, ma sœur balaie la cour."
+  ],
+  "answer": "Chaque matin, ma sœur balaie la cour.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c7-1",
+    "status": "draft",
+    "idea": "Une phrase simple a un seul verbe conjugué : sujet + verbe (+ complément).",
+    "vars": {},
+    "example": [
+     "Les enfants jouent au ballon."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-7-sv"
+    }
+   },
+   {
+    "id": "c7-2",
+    "status": "draft",
+    "idea": "Il y a quatre types de phrases : déclarative, interrogative, exclamative, impérative.",
+    "vars": {},
+    "example": [
+     "Viens ici. (impérative)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-7-type"
+    }
+   },
+   {
+    "id": "c7-3",
+    "status": "draft",
+    "idea": "Un complément de temps ou de lieu peut se placer au début de la phrase, suivi d’une virgule.",
+    "vars": {},
+    "example": [
+     "Au marché, ma mère vend des légumes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-7-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "Chaque soir, ma grand-mère raconte un conte.",
+         "b": "Chaque soir, ma grand-mère raconte un conte."
+        },
+        {
+         "a": "Au marché, ma mère vend des légumes.",
+         "b": "Au marché, ma mère vend des légumes."
+        },
+        {
+         "a": "Mon cousin répare son vélo dans la cour.",
+         "b": "Mon cousin répare son vélo dans la cour."
+        },
+        {
+         "a": "Le dimanche, nous allons à l’église.",
+         "b": "Le dimanche, nous allons à l’église."
+        }
+       ]
+      }
+     },
+     "prompt": "Remets les mots dans l’ordre pour faire une phrase simple.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-7-sv",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Les enfants jouent au ballon.",
+       "r": "Les enfants",
+       "w": [
+        "jouent",
+        "au ballon",
+        "ballon"
+       ],
+       "e": [
+        "C’est le verbe.",
+        "C’est le complément.",
+        "C’est une partie du complément."
+       ],
+       "y": "Qui joue ? Les enfants."
+      },
+      {
+       "q": "Le matin, mon oncle ouvre sa boutique.",
+       "r": "mon oncle",
+       "w": [
+        "Le matin",
+        "ouvre",
+        "sa boutique"
+       ],
+       "e": [
+        "C’est un complément de temps.",
+        "C’est le verbe.",
+        "C’est le complément."
+       ],
+       "y": "Qui ouvre ? mon oncle."
+      },
+      {
+       "q": "Dans la cour, les poules picorent le maïs.",
+       "r": "les poules",
+       "w": [
+        "Dans la cour",
+        "picorent",
+        "le maïs"
+       ],
+       "e": [
+        "C’est un complément de lieu.",
+        "C’est le verbe.",
+        "C’est le complément."
+       ],
+       "y": "Qui picore ? les poules."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel est le sujet dans « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-7-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ferme la fenêtre.",
+       "r": "impérative",
+       "w": [
+        "interrogative",
+        "exclamative",
+        "déclarative"
+       ],
+       "e": [
+        "Ce n’est pas une question.",
+        "Elle n’exprime pas un sentiment fort.",
+        "Elle donne un ordre, pas une information."
+       ],
+       "y": "Elle donne un ordre."
+      },
+      {
+       "q": "Est-ce que tu viens demain ?",
+       "r": "interrogative",
+       "w": [
+        "impérative",
+        "exclamative",
+        "déclarative"
+       ],
+       "e": [
+        "Elle ne donne pas d’ordre.",
+        "Elle pose une question.",
+        "Elle pose une question."
+       ],
+       "y": "Elle pose une question."
+      },
+      {
+       "q": "Comme ce gâteau est bon !",
+       "r": "exclamative",
+       "w": [
+        "interrogative",
+        "impérative",
+        "déclarative"
+       ],
+       "e": [
+        "Ce n’est pas une question.",
+        "Ce n’est pas un ordre.",
+        "Elle exprime un sentiment fort."
+       ],
+       "y": "« Comme … ! » exprime un sentiment fort."
+      },
+      {
+       "q": "Le marché ouvre à six heures.",
+       "r": "déclarative",
+       "w": [
+        "interrogative",
+        "impérative",
+        "exclamative"
+       ],
+       "e": [
+        "Ce n’est pas une question.",
+        "Ce n’est pas un ordre.",
+        "Il n’y a pas de sentiment fort."
+       ],
+       "y": "Elle donne une information."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel est le type de la phrase : « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-7-wo",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Chaque soir, ma grand-mère raconte un conte.",
+       "b": "Chaque soir, ma grand-mère raconte un conte."
+      },
+      {
+       "a": "Au marché, ma mère vend des légumes.",
+       "b": "Au marché, ma mère vend des légumes."
+      },
+      {
+       "a": "Mon cousin répare son vélo dans la cour.",
+       "b": "Mon cousin répare son vélo dans la cour."
+      },
+      {
+       "a": "Le dimanche, nous allons à l’église.",
+       "b": "Le dimanche, nous allons à l’église."
+      }
+     ]
+    }
+   },
+   "prompt": "Remets les mots dans l’ordre pour faire une phrase simple.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-7-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "« Range ta chambre. » est une phrase impérative.",
+      "truth": "true"
+     },
+     {
+      "text": "Une phrase simple a un seul verbe conjugué.",
+      "truth": "true"
+     },
+     {
+      "text": "« Où vas-tu ? » est une phrase interrogative.",
+      "truth": "true"
+     },
+     {
+      "text": "Le sujet fait l’action.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "« Quelle belle journée ! » est une phrase interrogative.",
+      "truth": "false",
+      "explain": "Elle exprime un sentiment fort : exclamative."
+     },
+     {
+      "text": "Une phrase simple a toujours trois verbes conjugués.",
+      "truth": "false",
+      "explain": "Une phrase simple a un seul verbe conjugué."
+     },
+     {
+      "text": "Dans « Paul mange », le sujet est « mange ».",
+      "truth": "false",
+      "explain": "« mange » est le verbe ; le sujet est Paul."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

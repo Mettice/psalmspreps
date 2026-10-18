@@ -1,0 +1,432 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 40,
+ "language": "fr",
+ "prerequisites": [
+  23,
+  25
+ ],
+ "skills": [
+  {
+   "id": "fi2-40",
+   "name": "Initiation à la narration"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Raconter (la narration), c’est présenter des événements dans l’ordre. Un récit suit souvent le schéma narratif :\n1. la situation initiale : qui ? où ? quand ? tout est calme ;\n2. l’élément perturbateur : un problème arrive (Un jour …, Soudain …) ;\n3. les péripéties : les actions pour résoudre le problème ;\n4. le dénouement : le problème est réglé (ou non) ;\n5. la situation finale : la nouvelle situation.\nLe narrateur raconte à la première personne (je) ou à la troisième (il, elle). Les temps du récit : l’imparfait pour le décor ; le passé simple ou le passé composé pour les actions.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans quel ordre mettre : « Finalement, le chien fut récompensé. » / « Un soir, un voleur entra dans la cour. » / « Le chien aboya et réveilla le maître. » / « Le village dormait tranquillement. » ?",
+  "steps": [
+   "Situation initiale : « Le village dormait tranquillement. »",
+   "Élément perturbateur : « Un soir, un voleur entra dans la cour. »",
+   "Péripétie : « Le chien aboya et réveilla le maître. »",
+   "Situation finale : « Finalement, le chien fut récompensé. »"
+  ],
+  "answer": "Le village dormait … → Un soir, un voleur … → Le chien aboya … → Finalement, le chien …",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c40-1",
+    "status": "draft",
+    "idea": "Le schéma narratif : situation initiale, élément perturbateur, péripéties, dénouement, situation finale.",
+    "vars": {},
+    "example": [
+     "Élément perturbateur : « Soudain, l’orage éclata. »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-40-etape"
+    }
+   },
+   {
+    "id": "c40-2",
+    "status": "draft",
+    "idea": "« Un jour », « soudain » annoncent souvent l’élément perturbateur.",
+    "vars": {},
+    "example": [
+     "Un jour, la rivière déborda."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-40-ordre"
+    }
+   },
+   {
+    "id": "c40-3",
+    "status": "draft",
+    "idea": "Le narrateur raconte à la première personne (je) ou à la troisième (il, elle).",
+    "vars": {},
+    "example": [
+     "« Je marchais seul » : narrateur à la première personne."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-40-narr-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Je marchais seul dans la forêt quand j’entendis un cri.",
+         "r": "un narrateur à la première personne (je), qui est un personnage",
+         "w": [
+          "un narrateur à la troisième personne",
+          "il n’y a pas de narrateur",
+          "le lecteur"
+         ],
+         "e": [
+          "Le texte dit « je ».",
+          "Quelqu’un raconte.",
+          "Le lecteur lit, il ne raconte pas."
+         ],
+         "y": "Le narrateur dit « je »."
+        },
+        {
+         "q": "Le chasseur marchait seul dans la forêt quand il entendit un cri.",
+         "r": "un narrateur à la troisième personne",
+         "w": [
+          "un narrateur à la première personne",
+          "le chasseur parle de lui en disant « je »",
+          "il n’y a pas de narrateur"
+         ],
+         "e": [
+          "Il n’y a pas de « je ».",
+          "Le texte dit « il ».",
+          "Quelqu’un raconte."
+         ],
+         "y": "Le narrateur dit « il » : il raconte de l’extérieur."
+        }
+       ]
+      }
+     },
+     "prompt": "« {X.q} » : qui est le narrateur ?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-40-etape",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Il était une fois un village paisible au bord d’un fleuve.",
+       "r": "la situation initiale",
+       "w": [
+        "l’élément perturbateur",
+        "le dénouement",
+        "la situation finale"
+       ],
+       "e": [
+        "Aucun problème n’arrive encore.",
+        "Rien n’est encore réglé.",
+        "C’est le début."
+       ],
+       "y": "On présente le lieu, tout est calme."
+      },
+      {
+       "q": "Soudain, un incendie éclata dans le marché.",
+       "r": "l’élément perturbateur",
+       "w": [
+        "la situation initiale",
+        "la situation finale",
+        "le dénouement"
+       ],
+       "e": [
+        "Le calme est rompu.",
+        "Ce n’est pas la fin.",
+        "Le problème commence seulement."
+       ],
+       "y": "« Soudain » annonce le problème."
+      },
+      {
+       "q": "Depuis ce jour, les villageois vivent en paix.",
+       "r": "la situation finale",
+       "w": [
+        "la situation initiale",
+        "l’élément perturbateur",
+        "une péripétie"
+       ],
+       "e": [
+        "C’est la nouvelle situation, à la fin.",
+        "Le problème est fini.",
+        "C’est la fin."
+       ],
+       "y": "« Depuis ce jour » montre la nouvelle situation."
+      }
+     ]
+    }
+   },
+   "prompt": "À quelle étape du récit correspond : « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-40-ordre",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Le village dormait tranquillement.",
+       "Un soir, un voleur entra dans la cour.",
+       "Le chien aboya et réveilla le maître.",
+       "Le voleur s’enfuit sans rien emporter.",
+       "Finalement, le chien fut récompensé."
+      ],
+      [
+       "Ewane vivait heureux avec sa grand-mère.",
+       "Un jour, sa grand-mère tomba malade.",
+       "Ewane courut chercher l’infirmier.",
+       "L’infirmier la soigna à temps.",
+       "Depuis, Ewane veut devenir médecin."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les étapes du récit dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-40-narr",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Je marchais seul dans la forêt quand j’entendis un cri.",
+       "r": "un narrateur à la première personne (je), qui est un personnage",
+       "w": [
+        "un narrateur à la troisième personne",
+        "il n’y a pas de narrateur",
+        "le lecteur"
+       ],
+       "e": [
+        "Le texte dit « je ».",
+        "Quelqu’un raconte.",
+        "Le lecteur lit, il ne raconte pas."
+       ],
+       "y": "Le narrateur dit « je »."
+      },
+      {
+       "q": "Le chasseur marchait seul dans la forêt quand il entendit un cri.",
+       "r": "un narrateur à la troisième personne",
+       "w": [
+        "un narrateur à la première personne",
+        "le chasseur parle de lui en disant « je »",
+        "il n’y a pas de narrateur"
+       ],
+       "e": [
+        "Il n’y a pas de « je ».",
+        "Le texte dit « il ».",
+        "Quelqu’un raconte."
+       ],
+       "y": "Le narrateur dit « il » : il raconte de l’extérieur."
+      }
+     ]
+    }
+   },
+   "prompt": "« {X.q} » : qui est le narrateur ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-40-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "La situation initiale présente les personnages et le lieu.",
+      "truth": "true"
+     },
+     {
+      "text": "« Soudain » annonce souvent l’élément perturbateur.",
+      "truth": "true"
+     },
+     {
+      "text": "Le dénouement règle le problème.",
+      "truth": "true"
+     },
+     {
+      "text": "L’imparfait sert souvent pour le décor.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le récit commence par la situation finale.",
+      "truth": "false",
+      "explain": "Il commence par la situation initiale."
+     },
+     {
+      "text": "L’élément perturbateur est le moment où tout est calme.",
+      "truth": "false",
+      "explain": "C’est le moment où un problème arrive."
+     },
+     {
+      "text": "Le narrateur est toujours le lecteur.",
+      "truth": "false",
+      "explain": "Le narrateur raconte ; le lecteur lit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

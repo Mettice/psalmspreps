@@ -1,0 +1,430 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 38,
+ "language": "fr",
+ "prerequisites": [
+  30
+ ],
+ "skills": [
+  {
+   "id": "fi2-38",
+   "name": "Le lexique de l’hygiène, de la salubrité et de l’environnement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• L’assainissement : l’ensemble des actions qui rendent un lieu sain (évacuer les eaux usées, ramasser les ordures, curer les caniveaux).\n• Les eaux usées : l’eau sale qui sort des maisons ; la fosse septique les reçoit.\n• Un dépotoir : un endroit où l’on jette les ordures (souvent sauvage et dangereux).\n• La collecte des ordures : le ramassage ; le tri : séparer les déchets (plastique, verre, déchets de cuisine) ; le compost : engrais fait avec des déchets de cuisine et de jardin.\n• La pollution de l’air (fumée des ordures brûlées, des moteurs), de l’eau, du sol, et la pollution sonore (le bruit).\n• L’insalubrité : l’état d’un lieu sale et dangereux pour la santé.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Les habitants brûlent leurs ordures au bord de la route. Quels problèmes cela pose-t-il, et quelle solution proposer ?",
+  "steps": [
+   "La fumée pollue l’air et fait tousser.",
+   "Les restes salissent le sol.",
+   "Solution : trier les déchets, faire du compost avec les déchets de cuisine et organiser la collecte."
+  ],
+  "answer": "Pollution de l’air et du sol ; trier, faire du compost, organiser la collecte.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c38-1",
+    "status": "draft",
+    "idea": "L’assainissement rend un lieu sain : évacuer les eaux usées, ramasser les ordures.",
+    "vars": {},
+    "example": [
+     "Le curage des caniveaux fait partie de l’assainissement."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-38-mots"
+    }
+   },
+   {
+    "id": "c38-2",
+    "status": "draft",
+    "idea": "Trier les déchets, c’est les séparer ; le compost est un engrais fait avec des déchets de cuisine.",
+    "vars": {},
+    "example": [
+     "Les épluchures vont au compost."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-38-tri"
+    }
+   },
+   {
+    "id": "c38-3",
+    "status": "draft",
+    "idea": "La pollution peut être de l’air, de l’eau, du sol ou sonore (le bruit).",
+    "vars": {},
+    "example": [
+     "La musique trop forte la nuit est une pollution sonore."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-38-poll-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Une usine rejette de la fumée noire.",
+         "r": "la pollution de l’air",
+         "w": [
+          "la pollution sonore",
+          "la pollution de l’eau",
+          "aucune pollution"
+         ],
+         "e": [
+          "Il ne s’agit pas de bruit.",
+          "La fumée va dans l’air.",
+          "La fumée pollue."
+         ],
+         "y": "La fumée salit l’air."
+        },
+        {
+         "q": "Un bar met la musique à fond toute la nuit.",
+         "r": "la pollution sonore",
+         "w": [
+          "la pollution du sol",
+          "la pollution de l’air",
+          "aucune pollution"
+         ],
+         "e": [
+          "Il ne s’agit pas du sol.",
+          "Il ne s’agit pas de fumée.",
+          "Le bruit gêne et fatigue."
+         ],
+         "y": "Le bruit est une pollution sonore."
+        },
+        {
+         "q": "Un garage verse de l’huile de vidange dans le caniveau.",
+         "r": "la pollution de l’eau et du sol",
+         "w": [
+          "la pollution sonore",
+          "la pollution de l’air seulement",
+          "aucune pollution"
+         ],
+         "e": [
+          "Ce n’est pas du bruit.",
+          "L’huile va dans l’eau et le sol.",
+          "L’huile pollue."
+         ],
+         "y": "L’huile salit l’eau et le sol."
+        }
+       ]
+      }
+     },
+     "prompt": "Quelle sorte de pollution ? « {X.q} »",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-38-mots",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Relie chaque mot à sa définition.",
+   "pool": [
+    {
+     "left": "l’assainissement",
+     "right": "les actions qui rendent un lieu sain"
+    },
+    {
+     "left": "les eaux usées",
+     "right": "l’eau sale qui sort des maisons"
+    },
+    {
+     "left": "un dépotoir",
+     "right": "un endroit où l’on jette les ordures"
+    },
+    {
+     "left": "le compost",
+     "right": "un engrais fait avec des déchets de cuisine"
+    },
+    {
+     "left": "l’insalubrité",
+     "right": "l’état d’un lieu sale et dangereux pour la santé"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-38-tri",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que veut dire « trier les déchets » ?",
+       "r": "les séparer selon leur matière",
+       "w": [
+        "les brûler",
+        "les jeter dans la rivière",
+        "les cacher sous le lit"
+       ],
+       "e": [
+        "Cela pollue l’air.",
+        "Cela pollue l’eau.",
+        "Ce n’est pas une solution."
+       ],
+       "y": "On sépare plastique, verre, déchets de cuisine."
+      },
+      {
+       "q": "Quels déchets peut-on mettre au compost ?",
+       "r": "les épluchures et les restes de légumes",
+       "w": [
+        "les bouteilles en plastique",
+        "les piles",
+        "les morceaux de verre"
+       ],
+       "e": [
+        "Le plastique ne se décompose pas.",
+        "Les piles sont dangereuses.",
+        "Le verre ne se décompose pas."
+       ],
+       "y": "Les déchets de cuisine se décomposent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-38-poll",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une usine rejette de la fumée noire.",
+       "r": "la pollution de l’air",
+       "w": [
+        "la pollution sonore",
+        "la pollution de l’eau",
+        "aucune pollution"
+       ],
+       "e": [
+        "Il ne s’agit pas de bruit.",
+        "La fumée va dans l’air.",
+        "La fumée pollue."
+       ],
+       "y": "La fumée salit l’air."
+      },
+      {
+       "q": "Un bar met la musique à fond toute la nuit.",
+       "r": "la pollution sonore",
+       "w": [
+        "la pollution du sol",
+        "la pollution de l’air",
+        "aucune pollution"
+       ],
+       "e": [
+        "Il ne s’agit pas du sol.",
+        "Il ne s’agit pas de fumée.",
+        "Le bruit gêne et fatigue."
+       ],
+       "y": "Le bruit est une pollution sonore."
+      },
+      {
+       "q": "Un garage verse de l’huile de vidange dans le caniveau.",
+       "r": "la pollution de l’eau et du sol",
+       "w": [
+        "la pollution sonore",
+        "la pollution de l’air seulement",
+        "aucune pollution"
+       ],
+       "e": [
+        "Ce n’est pas du bruit.",
+        "L’huile va dans l’eau et le sol.",
+        "L’huile pollue."
+       ],
+       "y": "L’huile salit l’eau et le sol."
+      }
+     ]
+    }
+   },
+   "prompt": "Quelle sorte de pollution ? « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-38-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Les eaux usées sortent des maisons.",
+      "truth": "true"
+     },
+     {
+      "text": "Le compost est fait avec des déchets de cuisine.",
+      "truth": "true"
+     },
+     {
+      "text": "Le bruit peut être une pollution.",
+      "truth": "true"
+     },
+     {
+      "text": "Curer les caniveaux fait partie de l’assainissement.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Brûler les ordures ne pollue pas l’air.",
+      "truth": "false",
+      "explain": "La fumée pollue l’air."
+     },
+     {
+      "text": "Un dépotoir sauvage est un lieu très sain.",
+      "truth": "false",
+      "explain": "C’est un lieu insalubre."
+     },
+     {
+      "text": "On met les bouteilles en plastique au compost.",
+      "truth": "false",
+      "explain": "Le plastique ne se décompose pas."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 2,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "fi2-2",
+   "name": "L’imparfait de l’indicatif : formation et emploi"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Formation : on prend le radical de « nous » au présent et on ajoute -ais, -ais, -ait, -ions, -iez, -aient.\nnous parlons → je parlais ; nous finissons → je finissais ; nous faisons → je faisais ; nous avons → j’avais.\nSeule exception : être → j’étais, nous étions.\nAttention : manger → je mangeais (on garde le e devant a), mais nous mangions ; commencer → je commençais, mais nous commencions.\nEmploi : l’imparfait sert, dans le passé,\n• à décrire (le décor, les personnes) : Il faisait chaud, le ciel était bleu ;\n• à dire une habitude : Chaque soir, grand-père racontait un conte ;\n• à dire une action en train de se faire, quand une autre arrive (au passé composé) : Je mangeais quand l’orage a éclaté.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "finir"
+  },
+  "problem": "Conjugue « {v} » à l’imparfait avec « je » et « nous ».",
+  "steps": [
+   "Au présent : nous {fr2Present(v, 4)} ; on enlève -ons : le radical est « finiss- ».",
+   "On ajoute -ais et -ions."
+  ],
+  "answer": "je {fr2Imparfait(v, 0)}, nous {fr2Imparfait(v, 4)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c2-1",
+    "status": "draft",
+    "idea": "Imparfait : radical de « nous » au présent + -ais, -ais, -ait, -ions, -iez, -aient.",
+    "vars": {},
+    "example": [
+     "nous jouons → je jouais, ils jouaient"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-2-form"
+    }
+   },
+   {
+    "id": "c2-2",
+    "status": "draft",
+    "idea": "Manger, commencer : je mangeais, je commençais, mais nous mangions, nous commencions.",
+    "vars": {},
+    "example": [
+     "Il nageait. Vous commenciez."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-2-ger"
+    }
+   },
+   {
+    "id": "c2-3",
+    "status": "draft",
+    "idea": "L’imparfait décrit, dit une habitude passée ou une action en cours dans le passé.",
+    "vars": {},
+    "example": [
+     "Chaque matin, ma mère allait au marché."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-2-emploi-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Chaque soir, grand-père racontait un conte.",
+         "r": "c’est une habitude dans le passé",
+         "w": [
+          "c’est une action unique et terminée",
+          "c’est une action future",
+          "c’est un ordre"
+         ],
+         "e": [
+          "« Chaque soir » montre une habitude.",
+          "L’action est passée.",
+          "Ce n’est pas un ordre."
+         ],
+         "y": "« Chaque soir » annonce une habitude."
+        },
+        {
+         "q": "Il faisait chaud et le ciel était bleu.",
+         "r": "c’est une description",
+         "w": [
+          "c’est une action unique et terminée",
+          "c’est une habitude du futur",
+          "c’est un ordre"
+         ],
+         "e": [
+          "On décrit le décor.",
+          "Le texte est au passé.",
+          "Ce n’est pas un ordre."
+         ],
+         "y": "L’imparfait décrit le décor."
+        },
+        {
+         "q": "Je lisais quand le téléphone a sonné.",
+         "r": "c’est une action en cours quand une autre arrive",
+         "w": [
+          "c’est une habitude",
+          "c’est une description d’une personne",
+          "c’est une action future"
+         ],
+         "e": [
+          "Ce n’est pas répété.",
+          "On ne décrit pas une personne.",
+          "L’action est passée."
+         ],
+         "y": "« lisais » est en cours ; « a sonné » arrive soudain."
+        }
+       ]
+      }
+     },
+     "prompt": "Pourquoi le verbe est-il à l’imparfait ? « {X.q} »",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-2-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "jouer",
+      "manger",
+      "commencer",
+      "finir",
+      "choisir",
+      "faire",
+      "avoir",
+      "être",
+      "aller",
+      "lire",
+      "prendre"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » à l’imparfait avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2Imparfait(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2ImparfaitNaive(v, p))}",
+     "misconception": "stem"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, p))}",
+     "misconception": "pres"
+    },
+    {
+     "text": "{fr2With(p, fr2Imparfait(v, (p + 4) % 8))}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "stem",
+     "explain": "{v == 'être' ? '« être » est une exception : radical ét- (j’étais)' : 'Le radical vient de « nous » au présent : nous ' + fr2Present(v, 4)}."
+    },
+    {
+     "id": "pres",
+     "explain": "Cette forme est au présent ; l’imparfait finit par -ais, -ait, -ions …"
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "{v == 'être' ? '« être » est une exception : radical ét- (j’étais)' : 'Le radical vient de « nous » au présent : nous ' + fr2Present(v, 4)}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-2-ger",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "manger",
+      "nager",
+      "ranger",
+      "partager",
+      "commencer",
+      "lancer",
+      "avancer"
+     ]
+    },
+    "p": {
+     "pick": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » à l’imparfait avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2Imparfait(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2ImparfaitNaive(v, p))}",
+     "misconception": "change"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, p))}",
+     "misconception": "pres"
+    },
+    {
+     "text": "{fr2With(p, fr2Imparfait(v, 4))}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "change",
+     "explain": "Devant a, il faut garder le e (je mangeais) ou la cédille (je commençais), comme dans « nous {fr2Present(v, 4)} »."
+    },
+    {
+     "id": "pres",
+     "explain": "Cette forme est au présent."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "Le radical vient de « nous {fr2Present(v, 4)} » : on garde le e (ou la cédille) devant a, mais pas devant i (nous {fr2Imparfait(v, 4)}).",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-2-emploi",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chaque soir, grand-père racontait un conte.",
+       "r": "c’est une habitude dans le passé",
+       "w": [
+        "c’est une action unique et terminée",
+        "c’est une action future",
+        "c’est un ordre"
+       ],
+       "e": [
+        "« Chaque soir » montre une habitude.",
+        "L’action est passée.",
+        "Ce n’est pas un ordre."
+       ],
+       "y": "« Chaque soir » annonce une habitude."
+      },
+      {
+       "q": "Il faisait chaud et le ciel était bleu.",
+       "r": "c’est une description",
+       "w": [
+        "c’est une action unique et terminée",
+        "c’est une habitude du futur",
+        "c’est un ordre"
+       ],
+       "e": [
+        "On décrit le décor.",
+        "Le texte est au passé.",
+        "Ce n’est pas un ordre."
+       ],
+       "y": "L’imparfait décrit le décor."
+      },
+      {
+       "q": "Je lisais quand le téléphone a sonné.",
+       "r": "c’est une action en cours quand une autre arrive",
+       "w": [
+        "c’est une habitude",
+        "c’est une description d’une personne",
+        "c’est une action future"
+       ],
+       "e": [
+        "Ce n’est pas répété.",
+        "On ne décrit pas une personne.",
+        "L’action est passée."
+       ],
+       "y": "« lisais » est en cours ; « a sonné » arrive soudain."
+      }
+     ]
+    }
+   },
+   "prompt": "Pourquoi le verbe est-il à l’imparfait ? « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-2-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Quand j’étais petit, je ___ (jouer) au football tous les soirs.",
+       "v": "jouer",
+       "p": 0
+      },
+      {
+       "s": "Autrefois, nous ___ (manger) du couscous chaque dimanche.",
+       "v": "manger",
+       "p": 4
+      },
+      {
+       "s": "Ma grand-mère ___ (commencer) toujours sa journée par une prière.",
+       "v": "commencer",
+       "p": 3
+      },
+      {
+       "s": "Les enfants ___ (finir) leurs devoirs avant le repas.",
+       "v": "finir",
+       "p": 6
+      },
+      {
+       "s": "Il ___ (faire) très chaud ce jour-là.",
+       "v": "faire",
+       "p": 2
+      },
+      {
+       "s": "Vous ___ (être) fatigués après le match.",
+       "v": "être",
+       "p": 5
+      },
+      {
+       "s": "Tu ___ (avoir) peur du noir.",
+       "v": "avoir",
+       "p": 1
+      },
+      {
+       "s": "Elles ___ (aller) à la rivière chaque matin.",
+       "v": "aller",
+       "p": 7
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe à l’imparfait.",
+   "text": "{X.s}",
+   "answer": "fr2Imparfait(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "stem",
+     "wrong": "fr2ImparfaitNaive(X.v, X.p)",
+     "explain": "{X.v == 'être' ? '« être » est une exception : radical ét- (j’étais)' : 'Le radical vient de « nous » au présent : nous ' + fr2Present(X.v, 4)}."
+    },
+    {
+     "id": "pres",
+     "wrong": "fr2Present(X.v, X.p)",
+     "explain": "Cette forme est au présent ; il faut l’imparfait."
+    }
+   ],
+   "solution": [
+    "{X.v == 'être' ? '« être » : radical ét-' : 'Radical de « nous ' + fr2Present(X.v, 4) + ' », sans -ons'}, puis la terminaison de l’imparfait.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,443 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 46,
+ "language": "fr",
+ "prerequisites": [
+  42
+ ],
+ "skills": [
+  {
+   "id": "fi2-46",
+   "name": "Le son [p] : p, pp"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [p] (comme dans « paludisme ») s’écrit p (le paludisme, un pansement, une piqûre) ou pp (une nappe, frapper).\nRepère : au début des mots en ap-, op-, sup-, le p est souvent doublé : apporter, appeler, applaudir, approcher, opposer, supporter, supposer. Exceptions : apercevoir, apaiser, après, apostrophe, opéra.\nAttention : ph se lit [f] (une pharmacie) ; le p ne s’entend pas dans « beaucoup », « trop », « un drap », « compter », « sept ».",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « L’infirmière ___orte un ___ansement et ___roche le malade. »",
+  "steps": [
+   "« apporte » : ap- au début → pp.",
+   "« pansement » : un seul p au début.",
+   "« approche » : ap- au début → pp."
+  ],
+  "answer": "L’infirmière apporte un pansement et approche le malade.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c46-1",
+    "status": "draft",
+    "idea": "Le son [p] s’écrit p ou pp : paludisme, nappe.",
+    "vars": {},
+    "example": [
+     "Le paludisme se soigne."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-46-p"
+    }
+   },
+   {
+    "id": "c46-2",
+    "status": "draft",
+    "idea": "Après ap-, op-, sup- au début, le p est souvent doublé : apporter, opposer, supporter.",
+    "vars": {},
+    "example": [
+     "Les élèves applaudissent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-46-pp"
+    }
+   },
+   {
+    "id": "c46-3",
+    "status": "draft",
+    "idea": "Exceptions : apercevoir, apaiser, après.",
+    "vars": {},
+    "example": [
+     "J’aperçois la mer."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-46-exc-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Du haut de la colline, j’___ la mer.",
+         "a": "aperçois",
+         "w": [
+          "apperçois",
+          "aperçoie"
+         ],
+         "e": [
+          "« apercevoir » est une exception : un seul p.",
+          "Avec « je », on écrit -çois."
+         ]
+        },
+        {
+         "s": "La musique douce ___ le bébé.",
+         "a": "apaise",
+         "w": [
+          "appaise",
+          "apaisse"
+         ],
+         "e": [
+          "« apaiser » est une exception : un seul p.",
+          "Le son [z] s’écrit avec un seul s."
+         ]
+        },
+        {
+         "s": "Nous partirons ___ le repas.",
+         "a": "après",
+         "w": [
+          "apprès",
+          "aprè"
+         ],
+         "e": [
+          "« après » est une exception : un seul p.",
+          "« après » finit par un s."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la bonne écriture.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-46-p",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le ___ est transmis par le moustique.",
+       "a": "paludisme",
+       "w": [
+        "ppaludisme",
+        "phaludisme"
+       ],
+       "e": [
+        "Au début du mot, un seul p.",
+        "ph se lit [f]."
+       ]
+      },
+      {
+       "s": "L’infirmier fait un ___ sur la plaie.",
+       "a": "pansement",
+       "w": [
+        "ppansement",
+        "phansement"
+       ],
+       "e": [
+        "Au début du mot, un seul p.",
+        "ph se lit [f]."
+       ]
+      },
+      {
+       "s": "La ___ fait un peu mal.",
+       "a": "piqûre",
+       "w": [
+        "ppiqûre",
+        "phiqûre"
+       ],
+       "e": [
+        "Au début du mot, un seul p.",
+        "ph se lit [f]."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-46-pp",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les spectateurs ___ les danseurs.",
+       "a": "applaudissent",
+       "w": [
+        "aplaudissent",
+        "aplodissent"
+       ],
+       "e": [
+        "ap- au début : pp.",
+        "ap- au début : pp, et on écrit au."
+       ]
+      },
+      {
+       "s": "Il ne ___ pas le bruit.",
+       "a": "supporte",
+       "w": [
+        "suporte",
+        "supportte"
+       ],
+       "e": [
+        "sup- au début : pp.",
+        "Le t n’est pas doublé."
+       ]
+      },
+      {
+       "s": "Ne t’___ pas du feu !",
+       "a": "approche",
+       "w": [
+        "aproche",
+        "approchhe"
+       ],
+       "e": [
+        "ap- au début : pp.",
+        "Un seul h."
+       ]
+      },
+      {
+       "s": "Ma mère m’___ pour le repas.",
+       "a": "appelle",
+       "w": [
+        "apelle",
+        "appele"
+       ],
+       "e": [
+        "ap- au début : pp.",
+        "« appeler » double aussi le l devant un e muet."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-46-exc",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Du haut de la colline, j’___ la mer.",
+       "a": "aperçois",
+       "w": [
+        "apperçois",
+        "aperçoie"
+       ],
+       "e": [
+        "« apercevoir » est une exception : un seul p.",
+        "Avec « je », on écrit -çois."
+       ]
+      },
+      {
+       "s": "La musique douce ___ le bébé.",
+       "a": "apaise",
+       "w": [
+        "appaise",
+        "apaisse"
+       ],
+       "e": [
+        "« apaiser » est une exception : un seul p.",
+        "Le son [z] s’écrit avec un seul s."
+       ]
+      },
+      {
+       "s": "Nous partirons ___ le repas.",
+       "a": "après",
+       "w": [
+        "apprès",
+        "aprè"
+       ],
+       "e": [
+        "« après » est une exception : un seul p.",
+        "« après » finit par un s."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-46-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le paludisme est dangereux.",
+      "truth": "true"
+     },
+     {
+      "text": "Les élèves applaudissent.",
+      "truth": "true"
+     },
+     {
+      "text": "J’aperçois le bateau.",
+      "truth": "true"
+     },
+     {
+      "text": "L’infirmier apporte un pansement.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ma mère m’apelle.",
+      "truth": "false",
+      "explain": "ap- au début : appelle."
+     },
+     {
+      "text": "Il ne suporte pas la chaleur.",
+      "truth": "false",
+      "explain": "sup- au début : supporte."
+     },
+     {
+      "text": "J’apperçois la côte.",
+      "truth": "false",
+      "explain": "« apercevoir » est une exception : aperçois."
+     },
+     {
+      "text": "Le pharmacien vend un ppansement.",
+      "truth": "false",
+      "explain": "Au début du mot, un seul p : pansement."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

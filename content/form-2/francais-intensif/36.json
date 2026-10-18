@@ -1,0 +1,471 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 36,
+ "language": "fr",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "fi2-36",
+   "name": "Le participe présent et le gérondif"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le participe présent se forme sur le radical de « nous » au présent + -ant : nous chantons → chantant ; nous finissons → finissant ; nous faisons → faisant ; nous mangeons → mangeant ; nous commençons → commençant.\nExceptions : être → étant ; avoir → ayant ; savoir → sachant.\nLe participe présent est invariable : des enfants chantant dans la cour.\nLe gérondif = en + participe présent : en chantant, en finissant. Il dit qu’une action se passe en même temps qu’une autre, ou comment elle se fait. Le sujet des deux actions est le même : Paul siffle en marchant (c’est Paul qui siffle et qui marche).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "commencer"
+  },
+  "problem": "Forme le participe présent et le gérondif de « {v} ».",
+  "steps": [
+   "Au présent : nous {fr2Present(v, 4)}.",
+   "On remplace -ons par -ant : {fr2ParticipePresent(v)} (la cédille reste).",
+   "Gérondif : en + participe présent."
+  ],
+  "answer": "{fr2ParticipePresent(v)} ; {fr2Gerondif(v)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c36-1",
+    "status": "draft",
+    "idea": "Participe présent : radical de « nous » au présent + -ant.",
+    "vars": {},
+    "example": [
+     "nous finissons → finissant"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-36-ppr"
+    }
+   },
+   {
+    "id": "c36-2",
+    "status": "draft",
+    "idea": "Gérondif : en + participe présent.",
+    "vars": {},
+    "example": [
+     "en mangeant, en lisant"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-36-ger"
+    }
+   },
+   {
+    "id": "c36-3",
+    "status": "draft",
+    "idea": "Le gérondif dit qu’une action a lieu en même temps qu’une autre, ou comment elle se fait.",
+    "vars": {},
+    "example": [
+     "Elle chante en travaillant."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-36-emploi-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Paul siffle en marchant.",
+         "r": "Paul siffle pendant qu’il marche",
+         "w": [
+          "Paul siffle après avoir marché",
+          "quelqu’un d’autre marche",
+          "Paul ne marche pas"
+         ],
+         "e": [
+          "Les deux actions ont lieu en même temps.",
+          "Le sujet des deux actions est Paul.",
+          "Paul marche."
+         ],
+         "y": "Le gérondif dit que les deux actions ont lieu en même temps."
+        },
+        {
+         "q": "On devient fort en s’entraînant.",
+         "r": "c’est en s’entraînant (de cette manière) qu’on devient fort",
+         "w": [
+          "on devient fort sans s’entraîner",
+          "on s’entraîne après être devenu fort",
+          "quelqu’un d’autre s’entraîne"
+         ],
+         "e": [
+          "C’est le contraire.",
+          "L’entraînement vient avant.",
+          "Le sujet est le même : on."
+         ],
+         "y": "Le gérondif dit comment."
+        },
+        {
+         "q": "Elle s’est blessée en tombant.",
+         "r": "elle s’est blessée au moment où elle est tombée",
+         "w": [
+          "elle est tombée parce qu’elle était blessée",
+          "une autre personne est tombée",
+          "elle n’est pas tombée"
+         ],
+         "e": [
+          "La chute est la cause de la blessure.",
+          "Le sujet est le même : elle.",
+          "Elle est tombée."
+         ],
+         "y": "Les deux actions vont ensemble."
+        }
+       ]
+      }
+     },
+     "prompt": "Que veut dire le gérondif dans « {X.q} » ?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-36-ppr",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "manger",
+      "nager",
+      "commencer",
+      "lancer",
+      "finir",
+      "choisir",
+      "grandir",
+      "faire",
+      "lire",
+      "dire",
+      "écrire",
+      "prendre",
+      "voir",
+      "travailler",
+      "parler",
+      "être",
+      "avoir"
+     ]
+    }
+   },
+   "prompt": "Quel est le participe présent de « {v} » ?",
+   "correct": "{fr2ParticipePresent(v)}",
+   "distractors": [
+    {
+     "text": "{fr2PprNaive(v)}",
+     "misconception": "naive"
+    },
+    {
+     "text": "{fr2Present(v, 4)}",
+     "misconception": "nous"
+    },
+    {
+     "text": "{v}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naive",
+     "explain": "{v == 'être' || v == 'avoir' ? '« ' + v + ' » est une exception : ' + fr2ParticipePresent(v) : 'On part de « nous ' + fr2Present(v, 4) + ' » : ' + fr2ParticipePresent(v)}."
+    },
+    {
+     "id": "nous",
+     "explain": "Cette forme est le présent avec « nous » ; le participe présent finit par -ant."
+    },
+    {
+     "id": "inf",
+     "explain": "C’est l’infinitif ; le participe présent finit par -ant."
+    }
+   ],
+   "solution": [
+    "Au présent : nous {fr2Present(v, 4)} ; on remplace -ons par -ant{v == 'être' || v == 'avoir' ? ' (mais ' + v + ' est une exception)' : ''}.",
+    "Donc : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-36-ger",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Paul siffle … (marcher).",
+       "v": "marcher"
+      },
+      {
+       "s": "Ma mère chante … (travailler).",
+       "v": "travailler"
+      },
+      {
+       "s": "Ne parle pas … (manger) !",
+       "v": "manger"
+      },
+      {
+       "s": "On apprend … (lire) beaucoup.",
+       "v": "lire"
+      },
+      {
+       "s": "Il s’est blessé … (tomber).",
+       "v": "tomber"
+      },
+      {
+       "s": "Elle sourit … (finir) son travail.",
+       "v": "finir"
+      }
+     ]
+    }
+   },
+   "prompt": "Complète avec le gérondif du verbe entre parenthèses : « {X.s} »",
+   "correct": "{fr2Gerondif(X.v)}",
+   "distractors": [
+    {
+     "text": "en {X.v}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2ParticipePresent(X.v)}",
+     "misconception": "sansen"
+    },
+    {
+     "text": "en {fr2Present(X.v, 4)}",
+     "misconception": "nous"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "inf",
+     "explain": "Après « en », on met le participe présent (-ant), pas l’infinitif."
+    },
+    {
+     "id": "sansen",
+     "explain": "Le gérondif commence par « en »."
+    },
+    {
+     "id": "nous",
+     "explain": "Le gérondif finit par -ant."
+    }
+   ],
+   "solution": [
+    "Gérondif = en + participe présent ({fr2ParticipePresent(X.v)}).",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-36-emploi",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Paul siffle en marchant.",
+       "r": "Paul siffle pendant qu’il marche",
+       "w": [
+        "Paul siffle après avoir marché",
+        "quelqu’un d’autre marche",
+        "Paul ne marche pas"
+       ],
+       "e": [
+        "Les deux actions ont lieu en même temps.",
+        "Le sujet des deux actions est Paul.",
+        "Paul marche."
+       ],
+       "y": "Le gérondif dit que les deux actions ont lieu en même temps."
+      },
+      {
+       "q": "On devient fort en s’entraînant.",
+       "r": "c’est en s’entraînant (de cette manière) qu’on devient fort",
+       "w": [
+        "on devient fort sans s’entraîner",
+        "on s’entraîne après être devenu fort",
+        "quelqu’un d’autre s’entraîne"
+       ],
+       "e": [
+        "C’est le contraire.",
+        "L’entraînement vient avant.",
+        "Le sujet est le même : on."
+       ],
+       "y": "Le gérondif dit comment."
+      },
+      {
+       "q": "Elle s’est blessée en tombant.",
+       "r": "elle s’est blessée au moment où elle est tombée",
+       "w": [
+        "elle est tombée parce qu’elle était blessée",
+        "une autre personne est tombée",
+        "elle n’est pas tombée"
+       ],
+       "e": [
+        "La chute est la cause de la blessure.",
+        "Le sujet est le même : elle.",
+        "Elle est tombée."
+       ],
+       "y": "Les deux actions vont ensemble."
+      }
+     ]
+    }
+   },
+   "prompt": "Que veut dire le gérondif dans « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-36-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il travaille en ___ (chanter).",
+       "v": "chanter"
+      },
+      {
+       "s": "Elle s’est blessée en ___ (nager).",
+       "v": "nager"
+      },
+      {
+       "s": "Tu apprendras en ___ (commencer) tôt.",
+       "v": "commencer"
+      },
+      {
+       "s": "Nous révisons en ___ (lire) nos notes.",
+       "v": "lire"
+      },
+      {
+       "s": "Il a réussi en ___ (faire) des efforts.",
+       "v": "faire"
+      },
+      {
+       "s": "Elle sourit en ___ (finir) son devoir.",
+       "v": "finir"
+      },
+      {
+       "s": "En ___ (être) poli, on se fait des amis.",
+       "v": "être"
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le participe présent du verbe entre parenthèses.",
+   "text": "{X.s}",
+   "answer": "fr2ParticipePresent(X.v)",
+   "misconceptions": [
+    {
+     "id": "naive",
+     "wrong": "fr2PprNaive(X.v)",
+     "explain": "{X.v == 'être' ? '« être » est une exception : étant' : 'On part de « nous ' + fr2Present(X.v, 4) + ' »'}."
+    },
+    {
+     "id": "inf",
+     "wrong": "X.v",
+     "explain": "Après « en », on met le participe présent (-ant)."
+    }
+   ],
+   "solution": [
+    "Nous {fr2Present(X.v, 4)} → participe présent en -ant.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

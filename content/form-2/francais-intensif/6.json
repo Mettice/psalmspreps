@@ -1,0 +1,491 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 6,
+ "language": "fr",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "fi2-6",
+   "name": "Lire un texte sur la famille"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte : La lettre de Biloa\nYaoundé, le 3 octobre\nChère tante Ngo,\nJe t’écris pour te donner des nouvelles. Depuis que maman est partie travailler à Douala, j’habite chez grand-père avec mon cousin Eric. Grand-père est sévère mais juste : il veut que nous rentrions avant la nuit et que nos cahiers soient propres. Le soir, Eric m’aide en mathématiques et moi je l’aide en français. Le mois prochain, toute la famille se retrouvera pour le mariage de l’oncle Simon. J’ai hâte de te revoir !\nTa nièce qui t’aime,\nBiloa\n\nUne lettre a un lieu et une date, une formule d’appel (Chère tante), un corps (les nouvelles), une formule de fin et une signature.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Qui écrit la lettre, à qui, et pourquoi ?",
+  "steps": [
+   "La signature est « Biloa » : c’est elle qui écrit.",
+   "La formule d’appel est « Chère tante Ngo » : elle écrit à sa tante.",
+   "Elle écrit « pour te donner des nouvelles »."
+  ],
+  "answer": "Biloa écrit à sa tante Ngo pour lui donner des nouvelles.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c6-1",
+    "status": "draft",
+    "idea": "Une lettre a un lieu et une date, une formule d’appel, un corps, une formule de fin et une signature.",
+    "vars": {},
+    "example": [
+     "Formule d’appel : « Chère tante Ngo »."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-6-lettre"
+    }
+   },
+   {
+    "id": "c6-2",
+    "status": "draft",
+    "idea": "On répond aux questions avec les mots du texte.",
+    "vars": {},
+    "example": [
+     "« j’habite chez grand-père » : Biloa habite chez son grand-père."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-6-texte"
+    }
+   },
+   {
+    "id": "c6-3",
+    "status": "draft",
+    "idea": "On peut deviner les sentiments d’un personnage par ses mots.",
+    "vars": {},
+    "example": [
+     "« J’ai hâte de te revoir ! » : Biloa est impatiente."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-6-sent-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "comment est grand-père ?",
+         "r": "sévère mais juste",
+         "w": [
+          "méchant et injuste",
+          "toujours absent",
+          "très malade"
+         ],
+         "e": [
+          "Il est sévère mais juste.",
+          "Biloa habite chez lui.",
+          "Le texte ne le dit pas."
+         ],
+         "y": "« Grand-père est sévère mais juste »."
+        },
+        {
+         "q": "que montre la phrase « J’ai hâte de te revoir ! » ?",
+         "r": "Biloa est impatiente de revoir sa tante",
+         "w": [
+          "Biloa a peur de sa tante",
+          "Biloa ne veut pas aller au mariage",
+          "Biloa est fâchée"
+         ],
+         "e": [
+          "Le texte montre de l’affection.",
+          "Elle a hâte.",
+          "Le point d’exclamation montre la joie."
+         ],
+         "y": "« avoir hâte » veut dire être impatient."
+        },
+        {
+         "q": "comment Eric et Biloa s’entraident-ils ?",
+         "r": "Eric l’aide en mathématiques et elle l’aide en français",
+         "w": [
+          "ils ne s’aident pas",
+          "Eric fait tous les devoirs de Biloa",
+          "Biloa fait la cuisine pour Eric"
+         ],
+         "e": [
+          "Ils s’aident le soir.",
+          "Ils s’aident l’un l’autre.",
+          "Le texte ne le dit pas."
+         ],
+         "y": "Chacun aide l’autre dans sa matière forte."
+        }
+       ]
+      }
+     },
+     "prompt": "Lettre de Biloa : {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-6-lettre",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle est la formule d’appel ?",
+       "r": "Chère tante Ngo",
+       "w": [
+        "Ta nièce qui t’aime",
+        "Yaoundé, le 3 octobre",
+        "Biloa"
+       ],
+       "e": [
+        "C’est la formule de fin.",
+        "Ce sont le lieu et la date.",
+        "C’est la signature."
+       ],
+       "y": "La formule d’appel salue la personne au début."
+      },
+      {
+       "q": "quelle est la formule de fin ?",
+       "r": "Ta nièce qui t’aime",
+       "w": [
+        "Chère tante Ngo",
+        "J’ai hâte de te revoir",
+        "Yaoundé"
+       ],
+       "e": [
+        "C’est la formule d’appel.",
+        "C’est la dernière phrase du corps.",
+        "C’est le lieu."
+       ],
+       "y": "Elle vient juste avant la signature."
+      }
+     ]
+    }
+   },
+   "prompt": "Lettre de Biloa : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-6-texte",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "où est partie la maman de Biloa ?",
+       "r": "à Douala, pour travailler",
+       "w": [
+        "à Yaoundé, chez grand-père",
+        "au mariage de l’oncle Simon",
+        "chez tante Ngo"
+       ],
+       "e": [
+        "Biloa est à Yaoundé.",
+        "Le mariage est le mois prochain.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« maman est partie travailler à Douala »."
+      },
+      {
+       "q": "avec qui Biloa habite-t-elle ?",
+       "r": "avec grand-père et son cousin Eric",
+       "w": [
+        "avec sa maman",
+        "avec tante Ngo",
+        "avec l’oncle Simon"
+       ],
+       "e": [
+        "Sa maman est à Douala.",
+        "Elle lui écrit.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« j’habite chez grand-père avec mon cousin Eric »."
+      },
+      {
+       "q": "quelle fête réunira la famille ?",
+       "r": "le mariage de l’oncle Simon",
+       "w": [
+        "un anniversaire",
+        "la fête de Noël",
+        "la rentrée"
+       ],
+       "e": [
+        "Le texte parle d’un mariage.",
+        "Le texte parle d’un mariage.",
+        "Le texte parle d’un mariage."
+       ],
+       "y": "« pour le mariage de l’oncle Simon »."
+      }
+     ]
+    }
+   },
+   "prompt": "Lettre de Biloa : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-6-sent",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "comment est grand-père ?",
+       "r": "sévère mais juste",
+       "w": [
+        "méchant et injuste",
+        "toujours absent",
+        "très malade"
+       ],
+       "e": [
+        "Il est sévère mais juste.",
+        "Biloa habite chez lui.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "« Grand-père est sévère mais juste »."
+      },
+      {
+       "q": "que montre la phrase « J’ai hâte de te revoir ! » ?",
+       "r": "Biloa est impatiente de revoir sa tante",
+       "w": [
+        "Biloa a peur de sa tante",
+        "Biloa ne veut pas aller au mariage",
+        "Biloa est fâchée"
+       ],
+       "e": [
+        "Le texte montre de l’affection.",
+        "Elle a hâte.",
+        "Le point d’exclamation montre la joie."
+       ],
+       "y": "« avoir hâte » veut dire être impatient."
+      },
+      {
+       "q": "comment Eric et Biloa s’entraident-ils ?",
+       "r": "Eric l’aide en mathématiques et elle l’aide en français",
+       "w": [
+        "ils ne s’aident pas",
+        "Eric fait tous les devoirs de Biloa",
+        "Biloa fait la cuisine pour Eric"
+       ],
+       "e": [
+        "Ils s’aident le soir.",
+        "Ils s’aident l’un l’autre.",
+        "Le texte ne le dit pas."
+       ],
+       "y": "Chacun aide l’autre dans sa matière forte."
+      }
+     ]
+    }
+   },
+   "prompt": "Lettre de Biloa : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-6-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "prompt": "Lettre de Biloa. Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Biloa habite à Yaoundé.",
+      "truth": "true"
+     },
+     {
+      "text": "Eric est le cousin de Biloa.",
+      "truth": "true"
+     },
+     {
+      "text": "Biloa est la nièce de tante Ngo.",
+      "truth": "true"
+     },
+     {
+      "text": "La famille va se retrouver pour un mariage.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Biloa habite avec sa maman à Douala.",
+      "truth": "false",
+      "explain": "Sa maman est à Douala ; Biloa habite chez grand-père."
+     },
+     {
+      "text": "Grand-père laisse les enfants rentrer la nuit.",
+      "truth": "false",
+      "explain": "Il veut qu’ils rentrent avant la nuit."
+     },
+     {
+      "text": "Biloa écrit à son oncle Simon.",
+      "truth": "false",
+      "explain": "Elle écrit à sa tante Ngo."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

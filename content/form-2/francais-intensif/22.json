@@ -1,0 +1,479 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  9,
+  15,
+  20
+ ],
+ "skills": [
+  {
+   "id": "fi2-22",
+   "name": "Révision : identifier et utiliser les points étudiés"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Révision des points de grammaire et de conjugaison étudiés :\n• l’adjectif : épithète (à côté du nom) ou attribut (après un verbe d’état) ;\n• les conjonctions de coordination : mais, ou, et, donc, or, ni, car ;\n• l’expansion du nom : adjectif, complément du nom, proposition relative (qui, que) ;\n• l’imparfait (décor, habitude) et le passé composé (action terminée) ;\n• l’accord du participe passé avec être et avec avoir.\nMéthode : on lit la phrase, on cherche le mot demandé, on se rappelle la règle, puis on vérifie.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans « Le grand manguier que mon père a planté donne des fruits, mais ils sont acides », relève un adjectif épithète, une relative, une conjonction et un adjectif attribut.",
+  "steps": [
+   "Épithète : « grand » (à côté de « manguier »).",
+   "Relative : « que mon père a planté ».",
+   "Conjonction : « mais ».",
+   "Attribut : « acides » (après « sont »)."
+  ],
+  "answer": "grand ; que mon père a planté ; mais ; acides.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "Pour identifier un point, on se rappelle sa règle : l’épithète est à côté du nom, l’attribut après un verbe d’état.",
+    "vars": {},
+    "example": [
+     "La case est neuve : « neuve » est attribut."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-22-ident"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "Imparfait pour le décor et les habitudes ; passé composé pour les actions terminées.",
+    "vars": {},
+    "example": [
+     "Il pleuvait quand je suis sorti."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-22-temps"
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "On utilise les points étudiés pour écrire des phrases correctes.",
+    "vars": {},
+    "example": [
+     "Les fleurs que j’ai cueillies sont belles."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-22-util-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Les fleurs que ma sœur a ___ sont jaunes.",
+         "a": "cueillies",
+         "w": [
+          "cueilli",
+          "cueillis"
+         ],
+         "e": [
+          "Le COD « que » (les fleurs) est avant : on accorde.",
+          "« fleurs » est féminin."
+         ]
+        },
+        {
+         "s": "Le garçon ___ chante est mon cousin.",
+         "a": "qui",
+         "w": [
+          "que",
+          "car"
+         ],
+         "e": [
+          "« qui » est sujet de « chante ».",
+          "« car » est une conjonction."
+         ]
+        },
+        {
+         "s": "Mes tantes sont ___ du village hier.",
+         "a": "venues",
+         "w": [
+          "venu",
+          "venus"
+         ],
+         "e": [
+          "Avec être, on accorde avec « mes tantes » (féminin pluriel).",
+          "« tantes » est féminin."
+         ]
+        },
+        {
+         "s": "Je veux du riz ___ du plantain ?",
+         "a": "ou",
+         "w": [
+          "car",
+          "donc"
+         ],
+         "e": [
+          "C’est un choix : ou.",
+          "Ce n’est pas une conséquence."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la forme correcte.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-22-ident",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Le marché est bruyant », quelle est la fonction de « bruyant » ?",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète",
+        "conjonction",
+        "complément du nom"
+       ],
+       "e": [
+        "Il est après le verbe d’état « est ».",
+        "C’est un adjectif.",
+        "Il n’y a pas de préposition."
+       ],
+       "y": "Il est relié au sujet par « est »."
+      },
+      {
+       "q": "Dans « une machine à coudre », que sont les mots « à coudre » ?",
+       "r": "un complément du nom",
+       "w": [
+        "une proposition relative",
+        "un adjectif attribut",
+        "une conjonction"
+       ],
+       "e": [
+        "Il n’y a pas de qui ou que.",
+        "Il n’y a pas de verbe d’état.",
+        "« à » est une préposition."
+       ],
+       "y": "Préposition + mot : complément du nom."
+      },
+      {
+       "q": "Dans « Il est malade, donc il reste au lit », quel mot est une conjonction de coordination ?",
+       "r": "donc",
+       "w": [
+        "malade",
+        "reste",
+        "lit"
+       ],
+       "e": [
+        "C’est un adjectif.",
+        "C’est un verbe.",
+        "C’est un nom."
+       ],
+       "y": "donc fait partie de « mais, ou, et, donc, or, ni, car »."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-22-temps",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Autrefois, mon grand-père ___ à pied jusqu’au champ.",
+       "a": "allait",
+       "w": [
+        "est allé",
+        "va"
+       ],
+       "e": [
+        "« Autrefois » annonce une habitude passée : imparfait.",
+        "Le texte est au passé."
+       ]
+      },
+      {
+       "s": "Hier, nous ___ un serpent dans la cour.",
+       "a": "avons vu",
+       "w": [
+        "voyions",
+        "voyons"
+       ],
+       "e": [
+        "Une action unique et terminée : passé composé.",
+        "« Hier » annonce le passé."
+       ]
+      },
+      {
+       "s": "La nuit ___ calme quand l’orage a éclaté.",
+       "a": "était",
+       "w": [
+        "a été",
+        "est"
+       ],
+       "e": [
+        "C’est le décor : imparfait.",
+        "Le texte est au passé."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le temps qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-22-util",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Les fleurs que ma sœur a ___ sont jaunes.",
+       "a": "cueillies",
+       "w": [
+        "cueilli",
+        "cueillis"
+       ],
+       "e": [
+        "Le COD « que » (les fleurs) est avant : on accorde.",
+        "« fleurs » est féminin."
+       ]
+      },
+      {
+       "s": "Le garçon ___ chante est mon cousin.",
+       "a": "qui",
+       "w": [
+        "que",
+        "car"
+       ],
+       "e": [
+        "« qui » est sujet de « chante ».",
+        "« car » est une conjonction."
+       ]
+      },
+      {
+       "s": "Mes tantes sont ___ du village hier.",
+       "a": "venues",
+       "w": [
+        "venu",
+        "venus"
+       ],
+       "e": [
+        "Avec être, on accorde avec « mes tantes » (féminin pluriel).",
+        "« tantes » est féminin."
+       ]
+      },
+      {
+       "s": "Je veux du riz ___ du plantain ?",
+       "a": "ou",
+       "w": [
+        "car",
+        "donc"
+       ],
+       "e": [
+        "C’est un choix : ou.",
+        "Ce n’est pas une conséquence."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la forme correcte.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-22-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le vieux chef semble content.",
+      "truth": "true"
+     },
+     {
+      "text": "Il pleuvait quand je suis sorti.",
+      "truth": "true"
+     },
+     {
+      "text": "Les mangues que j’ai achetées sont mûres.",
+      "truth": "true"
+     },
+     {
+      "text": "Il est fatigué, car il a couru.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Elles sont parti au marché.",
+      "truth": "false",
+      "explain": "Avec être, on accorde : parties."
+     },
+     {
+      "text": "Le livre qui je lis est intéressant.",
+      "truth": "false",
+      "explain": "Le sujet de « lis » est « je » : il faut « que »."
+     },
+     {
+      "text": "Il a couru, car il est fatigué.",
+      "truth": "false",
+      "explain": "La fatigue est la conséquence : « donc il est fatigué »."
+     },
+     {
+      "text": "Hier, je lisais un livre et soudain je tombais.",
+      "truth": "false",
+      "explain": "Une action soudaine : je suis tombé."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,362 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 50,
+ "language": "fr",
+ "prerequisites": [
+  33,
+  40
+ ],
+ "skills": [
+  {
+   "id": "fi2-50",
+   "name": "Décrire, faire un portrait, raconter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• La description présente un lieu ou un objet : on situe (au centre, à gauche, au loin), on emploie des adjectifs et des verbes d’état ; temps : présent ou imparfait.\n• Le portrait décrit une personne : physique (taille, visage, vêtements) et moral (caractère).\n• La narration raconte des événements dans l’ordre : des verbes d’action, des mots de temps (un jour, soudain, ensuite, enfin) ; temps : passé simple ou passé composé avec l’imparfait.\nUn même texte peut mélanger les trois : un récit s’arrête pour décrire un lieu ou faire le portrait d’un personnage.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel type de texte : « Au centre du village se dresse un grand fromager ; à gauche, les cases sont rondes et couvertes de paille. » ?",
+  "steps": [
+   "On situe : « au centre », « à gauche ».",
+   "Les verbes ne racontent pas d’action qui se suit ; il y a des adjectifs (grand, rondes).",
+   "Il présente un lieu."
+  ],
+  "answer": "C’est une description (d’un lieu).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c50-1",
+    "status": "draft",
+    "idea": "La description présente un lieu ou un objet, avec des mots qui situent et des adjectifs.",
+    "vars": {},
+    "example": [
+     "Au loin, la colline est verte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-50-type"
+    }
+   },
+   {
+    "id": "c50-2",
+    "status": "draft",
+    "idea": "Le portrait décrit une personne : physique et caractère.",
+    "vars": {},
+    "example": [
+     "Le chef est grand et sage."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-50-portrait"
+    }
+   },
+   {
+    "id": "c50-3",
+    "status": "draft",
+    "idea": "La narration raconte des actions dans l’ordre avec des mots de temps.",
+    "vars": {},
+    "example": [
+     "Soudain, le pont céda ; ensuite, tout le monde courut."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-50-narr-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "prompt": "Relie chaque type de texte à ce qui le caractérise.",
+     "pool": [
+      {
+       "left": "la description",
+       "right": "des mots qui situent et des adjectifs pour un lieu"
+      },
+      {
+       "left": "le portrait",
+       "right": "l’apparence et le caractère d’une personne"
+      },
+      {
+       "left": "la narration",
+       "right": "des actions dans l’ordre et des mots de temps"
+      },
+      {
+       "left": "la carte postale",
+       "right": "une formule d’appel, des impressions de voyage et une signature"
+      }
+     ],
+     "pick": 4,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-50-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Au centre du marché se trouve un grand manguier ; tout autour, les étals sont couverts de fruits colorés.",
+       "r": "une description",
+       "w": [
+        "un portrait",
+        "une narration",
+        "une lettre"
+       ],
+       "e": [
+        "On ne décrit pas une personne.",
+        "Il n’y a pas d’actions qui se suivent.",
+        "Il n’y a pas de formule d’appel."
+       ],
+       "y": "On présente un lieu en situant."
+      },
+      {
+       "q": "Ma tante est petite et vive ; elle rit fort et aide tout le monde.",
+       "r": "un portrait",
+       "w": [
+        "une description de lieu",
+        "une narration",
+        "une recette"
+       ],
+       "e": [
+        "On décrit une personne.",
+        "Il n’y a pas d’événements qui se suivent.",
+        "Ce n’est pas une recette."
+       ],
+       "y": "On décrit une personne, physique et caractère."
+      },
+      {
+       "q": "Un jour, le lion sortit de la forêt ; soudain, il vit un chasseur et s’enfuit.",
+       "r": "une narration",
+       "w": [
+        "une description",
+        "un portrait",
+        "une affiche"
+       ],
+       "e": [
+        "Il y a des actions qui se suivent.",
+        "Il y a des actions, pas seulement un personnage décrit.",
+        "Ce n’est pas une affiche."
+       ],
+       "y": "Actions + mots de temps : narration."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel type de texte : « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-50-portrait",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase fait partie d’un portrait ?",
+       "r": "Il est grand et porte toujours un chapeau de paille.",
+       "w": [
+        "Soudain, le pont céda.",
+        "Au loin, on voit la colline.",
+        "Ensuite, nous sommes rentrés."
+       ],
+       "e": [
+        "C’est une action : narration.",
+        "C’est une description de lieu.",
+        "C’est une action : narration."
+       ],
+       "y": "Elle décrit une personne."
+      },
+      {
+       "q": "Quelle phrase fait partie d’une description de lieu ?",
+       "r": "À droite de la case, un petit ruisseau coule entre les pierres.",
+       "w": [
+        "Elle est timide et gentille.",
+        "Un jour, il partit à la chasse.",
+        "Enfin, ils arrivèrent au village."
+       ],
+       "e": [
+        "C’est un portrait moral.",
+        "C’est une narration.",
+        "C’est une narration."
+       ],
+       "y": "Elle situe un élément du lieu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-50-narr",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Relie chaque type de texte à ce qui le caractérise.",
+   "pool": [
+    {
+     "left": "la description",
+     "right": "des mots qui situent et des adjectifs pour un lieu"
+    },
+    {
+     "left": "le portrait",
+     "right": "l’apparence et le caractère d’une personne"
+    },
+    {
+     "left": "la narration",
+     "right": "des actions dans l’ordre et des mots de temps"
+    },
+    {
+     "left": "la carte postale",
+     "right": "une formule d’appel, des impressions de voyage et une signature"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-50-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "La narration emploie des mots de temps.",
+      "truth": "true"
+     },
+     {
+      "text": "Le portrait décrit une personne.",
+      "truth": "true"
+     },
+     {
+      "text": "La description situe les éléments.",
+      "truth": "true"
+     },
+     {
+      "text": "Un récit peut contenir une description.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La description raconte surtout des actions qui se suivent.",
+      "truth": "false",
+      "explain": "C’est la narration ; la description présente un lieu."
+     },
+     {
+      "text": "Le portrait décrit seulement un paysage.",
+      "truth": "false",
+      "explain": "Le portrait décrit une personne."
+     },
+     {
+      "text": "Une narration n’a jamais d’ordre.",
+      "truth": "false",
+      "explain": "Elle raconte les événements dans l’ordre."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

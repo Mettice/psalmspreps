@@ -1,0 +1,467 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 42,
+ "language": "fr",
+ "prerequisites": [
+  37
+ ],
+ "skills": [
+  {
+   "id": "fi2-42",
+   "name": "Le son [o] : o, ô, au, eau"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le son [o] (comme dans « côte », « beau ») s’écrit :\n• o : un vélo, une moto, un mot ;\n• ô : une côte, le rôle, un hôpital, bientôt ;\n• au : un tuyau, aussi, jaune, chaud ;\n• eau : un bateau, la peau, l’eau, beau.\nHomophones : au (à + le) / eau (le liquide) / haut (le contraire de bas) / oh ! ; un seau (pour l’eau) / un saut (on saute) / sot (bête) ; un mot / des maux ; un pot / la peau.\nLa côte : le bord de la mer (la côte de Kribi) ou un os de la poitrine ; un côté : un bord, une face.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Le pêcheur porte un ___ d’___ sur la ___ de Kribi. »",
+  "steps": [
+   "Le récipient pour l’eau : un seau.",
+   "Le liquide : eau.",
+   "Le bord de la mer : la côte (ô)."
+  ],
+  "answer": "Le pêcheur porte un seau d’eau sur la côte de Kribi.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c42-1",
+    "status": "draft",
+    "idea": "Le son [o] s’écrit o, ô, au, eau.",
+    "vars": {},
+    "example": [
+     "une moto, un hôpital, chaud, un bateau"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-42-ecr"
+    }
+   },
+   {
+    "id": "c42-2",
+    "status": "draft",
+    "idea": "au (à + le), eau (le liquide), haut (pas bas) se prononcent pareil.",
+    "vars": {},
+    "example": [
+     "Il va au marché chercher de l’eau en haut de la colline."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-42-homo"
+    }
+   },
+   {
+    "id": "c42-3",
+    "status": "draft",
+    "idea": "un seau (récipient), un saut (on saute), sot (bête).",
+    "vars": {},
+    "example": [
+     "Le seau est plein d’eau."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-42-seau-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Ma sœur remplit le ___ à la borne-fontaine.",
+         "a": "seau",
+         "w": [
+          "saut",
+          "sot"
+         ],
+         "e": [
+          "« saut » vient de sauter ; ici c’est le récipient.",
+          "« sot » veut dire bête."
+         ]
+        },
+        {
+         "s": "L’athlète a fait un grand ___.",
+         "a": "saut",
+         "w": [
+          "seau",
+          "sot"
+         ],
+         "e": [
+          "Le seau est un récipient.",
+          "« sot » veut dire bête."
+         ]
+        },
+        {
+         "s": "Il a mal à la ___ après sa chute.",
+         "a": "côte",
+         "w": [
+          "cote",
+          "côté"
+         ],
+         "e": [
+          "La côte (os) prend un accent circonflexe.",
+          "« côté » veut dire un bord."
+         ]
+        },
+        {
+         "s": "Le médecin soigne les ___ des malades.",
+         "a": "maux",
+         "w": [
+          "mots",
+          "mot"
+         ],
+         "e": [
+          "« mots » sont des mots écrits ou dits ; ici ce sont les douleurs.",
+          "Il faut le pluriel de « mal »."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis l’homophone qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-42-ecr",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le ___ traverse le fleuve.",
+       "a": "bateau",
+       "w": [
+        "batô",
+        "bato"
+       ],
+       "e": [
+        "« bateau » s’écrit avec eau.",
+        "« bateau » s’écrit avec eau."
+       ]
+      },
+      {
+       "s": "Ma tante travaille à l’___.",
+       "a": "hôpital",
+       "w": [
+        "hopital",
+        "haupital"
+       ],
+       "e": [
+        "« hôpital » prend un accent circonflexe.",
+        "On écrit ô."
+       ]
+      },
+      {
+       "s": "Il fait très ___ en saison sèche.",
+       "a": "chaud",
+       "w": [
+        "chô",
+        "cheau"
+       ],
+       "e": [
+        "« chaud » s’écrit avec au et un d muet.",
+        "« chaud » s’écrit avec au."
+       ]
+      },
+      {
+       "s": "Mon frère conduit une ___.",
+       "a": "moto",
+       "w": [
+        "motau",
+        "motô"
+       ],
+       "e": [
+        "« moto » s’écrit avec o.",
+        "Pas d’accent dans « moto »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la bonne écriture.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-42-homo",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Nous allons ___ marché.",
+       "a": "au",
+       "w": [
+        "eau",
+        "haut"
+       ],
+       "e": [
+        "« eau » est le liquide ; ici c’est à + le = au.",
+        "« haut » est le contraire de bas."
+       ]
+      },
+      {
+       "s": "Bois de l’___ potable.",
+       "a": "eau",
+       "w": [
+        "au",
+        "haut"
+       ],
+       "e": [
+        "« au » = à + le ; ici c’est le liquide.",
+        "« haut » est le contraire de bas."
+       ]
+      },
+      {
+       "s": "Le manguier est très ___.",
+       "a": "haut",
+       "w": [
+        "eau",
+        "au"
+       ],
+       "e": [
+        "On parle de la hauteur.",
+        "On parle de la hauteur."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis l’homophone qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-42-seau",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ma sœur remplit le ___ à la borne-fontaine.",
+       "a": "seau",
+       "w": [
+        "saut",
+        "sot"
+       ],
+       "e": [
+        "« saut » vient de sauter ; ici c’est le récipient.",
+        "« sot » veut dire bête."
+       ]
+      },
+      {
+       "s": "L’athlète a fait un grand ___.",
+       "a": "saut",
+       "w": [
+        "seau",
+        "sot"
+       ],
+       "e": [
+        "Le seau est un récipient.",
+        "« sot » veut dire bête."
+       ]
+      },
+      {
+       "s": "Il a mal à la ___ après sa chute.",
+       "a": "côte",
+       "w": [
+        "cote",
+        "côté"
+       ],
+       "e": [
+        "La côte (os) prend un accent circonflexe.",
+        "« côté » veut dire un bord."
+       ]
+      },
+      {
+       "s": "Le médecin soigne les ___ des malades.",
+       "a": "maux",
+       "w": [
+        "mots",
+        "mot"
+       ],
+       "e": [
+        "« mots » sont des mots écrits ou dits ; ici ce sont les douleurs.",
+        "Il faut le pluriel de « mal »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis l’homophone qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-42-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le bateau arrive sur la côte.",
+      "truth": "true"
+     },
+     {
+      "text": "Il va au marché.",
+      "truth": "true"
+     },
+     {
+      "text": "Le seau est plein d’eau.",
+      "truth": "true"
+     },
+     {
+      "text": "Il fait chaud.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ma tante travaille à l’hopital.",
+      "truth": "false",
+      "explain": "« hôpital » prend un accent circonflexe."
+     },
+     {
+      "text": "Nous buvons de l’au potable.",
+      "truth": "false",
+      "explain": "Le liquide s’écrit « eau »."
+     },
+     {
+      "text": "Le manguier est très eau.",
+      "truth": "false",
+      "explain": "Le contraire de bas s’écrit « haut »."
+     },
+     {
+      "text": "L’athlète a fait un grand seau.",
+      "truth": "false",
+      "explain": "Le mouvement s’écrit « saut »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,438 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 39,
+ "language": "fr",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "fi2-39",
+   "name": "Jeux de rôle : négocier, protester poliment, consoler"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans les jeux de rôle, on apprend à parler selon la situation.\n• Négocier au marché : « C’est combien ? », « C’est un peu cher ; vous pouvez me faire un petit prix ? », « Je vous en donne … »\n• Exprimer un désaccord poliment : « Je ne suis pas d’accord, parce que … », « Je comprends, mais … »\n• Signaler un problème : « Excusez-moi, Monsieur le Chef, je voudrais vous signaler que … »\n• Consoler : « Ne t’inquiète pas. », « Je suis désolé pour toi. », « Je suis là si tu as besoin. »\nOn reste poli même quand on n’est pas d’accord ; on laisse l’autre finir sa phrase.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ton voisin met la musique très fort la nuit. Que lui dis-tu poliment ?",
+  "steps": [
+   "On salue : « Bonsoir, voisin. »",
+   "On signale le problème sans crier : « Excusez-moi, la musique est un peu forte et les enfants doivent dormir. »",
+   "On propose : « Pourriez-vous baisser le volume, s’il vous plaît ? »"
+  ],
+  "answer": "« Bonsoir, voisin. Excusez-moi, la musique est un peu forte et les enfants doivent dormir. Pourriez-vous baisser le volume, s’il vous plaît ? »",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c39-1",
+    "status": "draft",
+    "idea": "Pour négocier : « C’est un peu cher ; vous pouvez me faire un petit prix ? »",
+    "vars": {},
+    "example": [
+     "« Je vous en donne mille francs. »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-39-neg"
+    }
+   },
+   {
+    "id": "c39-2",
+    "status": "draft",
+    "idea": "Pour dire son désaccord poliment : « Je comprends, mais … », « Je ne suis pas d’accord, parce que … »",
+    "vars": {},
+    "example": [
+     "Je comprends, mais je pense qu’il faut attendre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-39-desaccord"
+    }
+   },
+   {
+    "id": "c39-3",
+    "status": "draft",
+    "idea": "Pour consoler : « Ne t’inquiète pas », « Je suis là si tu as besoin ».",
+    "vars": {},
+    "example": [
+     "Je suis désolé pour ton grand-père."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-39-consoler-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Ton ami a perdu son grand-père. Que lui dis-tu ?",
+         "r": "Je suis désolé. Je suis là si tu as besoin.",
+         "w": [
+          "Ce n’est pas grave, oublie.",
+          "Tant mieux.",
+          "Moi, je m’en fiche."
+         ],
+         "e": [
+          "Ce n’est pas respectueux de sa peine.",
+          "C’est cruel.",
+          "Ce n’est pas gentil."
+         ],
+         "y": "On montre qu’on partage sa peine."
+        },
+        {
+         "q": "Ta camarade a eu une mauvaise note. Que lui dis-tu ?",
+         "r": "Ne t’inquiète pas, on va réviser ensemble.",
+         "w": [
+          "Tu es nulle.",
+          "C’est bien fait pour toi.",
+          "Je vais le dire à toute la classe."
+         ],
+         "e": [
+          "C’est blessant.",
+          "C’est méchant.",
+          "Ce n’est pas gentil."
+         ],
+         "y": "On console et on propose son aide."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-39-neg",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase sert à négocier poliment un prix ?",
+       "r": "C’est un peu cher ; vous pouvez me faire un petit prix ?",
+       "w": [
+        "Vous êtes un voleur !",
+        "Je prends et je ne paie pas.",
+        "Donnez-moi ça gratuitement."
+       ],
+       "e": [
+        "C’est une insulte.",
+        "Ce n’est pas honnête.",
+        "Ce n’est pas une négociation."
+       ],
+       "y": "On demande une réduction poliment."
+      },
+      {
+       "q": "Quelle phrase demande le prix ?",
+       "r": "C’est combien, s’il vous plaît ?",
+       "w": [
+        "Merci, au revoir.",
+        "Je suis désolé pour toi.",
+        "Je ne suis pas d’accord."
+       ],
+       "e": [
+        "On prend congé.",
+        "On console.",
+        "On exprime un désaccord."
+       ],
+       "y": "« C’est combien ? » demande le prix."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-39-desaccord",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase exprime un désaccord poliment ?",
+       "r": "Je comprends, mais je ne suis pas d’accord.",
+       "w": [
+        "Tais-toi, tu dis n’importe quoi !",
+        "Tu es bête.",
+        "Je m’en vais, tu m’énerves."
+       ],
+       "e": [
+        "Ce n’est pas poli.",
+        "C’est une insulte.",
+        "On quitte la discussion sans respect."
+       ],
+       "y": "On reconnaît l’avis de l’autre avant de dire le sien."
+      },
+      {
+       "q": "Quelle phrase signale poliment un problème ?",
+       "r": "Excusez-moi, je voudrais vous signaler que le caniveau est bouché.",
+       "w": [
+        "Le caniveau, c’est votre faute !",
+        "Venez vite, sinon …",
+        "Je ne dirai rien à personne."
+       ],
+       "e": [
+        "On accuse sans politesse.",
+        "C’est une menace.",
+        "On ne signale rien."
+       ],
+       "y": "On s’excuse et on explique le problème."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-39-consoler",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ton ami a perdu son grand-père. Que lui dis-tu ?",
+       "r": "Je suis désolé. Je suis là si tu as besoin.",
+       "w": [
+        "Ce n’est pas grave, oublie.",
+        "Tant mieux.",
+        "Moi, je m’en fiche."
+       ],
+       "e": [
+        "Ce n’est pas respectueux de sa peine.",
+        "C’est cruel.",
+        "Ce n’est pas gentil."
+       ],
+       "y": "On montre qu’on partage sa peine."
+      },
+      {
+       "q": "Ta camarade a eu une mauvaise note. Que lui dis-tu ?",
+       "r": "Ne t’inquiète pas, on va réviser ensemble.",
+       "w": [
+        "Tu es nulle.",
+        "C’est bien fait pour toi.",
+        "Je vais le dire à toute la classe."
+       ],
+       "e": [
+        "C’est blessant.",
+        "C’est méchant.",
+        "Ce n’est pas gentil."
+       ],
+       "y": "On console et on propose son aide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-39-dial",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Client : Bonjour, Madame. C’est combien, ce pagne ?",
+       "Vendeuse : Bonjour. C’est cinq mille francs.",
+       "Client : C’est un peu cher ; vous pouvez me faire un petit prix ?",
+       "Vendeuse : D’accord, quatre mille cinq cents, parce que c’est toi."
+      ],
+      [
+       "Paul : Excusez-moi, Monsieur le Chef. Je voudrais vous signaler un problème.",
+       "Chef : Je t’écoute, mon fils.",
+       "Paul : Le caniveau devant l’école est bouché.",
+       "Chef : Merci. Nous le curerons samedi."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le jeu de rôle dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  }
+ ]
+}

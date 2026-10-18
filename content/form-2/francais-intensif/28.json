@@ -1,0 +1,471 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 28,
+ "language": "fr",
+ "prerequisites": [
+  2,
+  10
+ ],
+ "skills": [
+  {
+   "id": "fi2-28",
+   "name": "Le passé simple"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé simple est le temps des récits écrits (contes, romans) : il raconte les actions principales, terminées, dans le passé. L’imparfait donne le décor.\n• Premier groupe (-er) : -ai, -as, -a, -âmes, -âtes, -èrent : il parla, ils parlèrent. Il mangea, il commença (le e et la cédille restent devant a).\n• Deuxième groupe : -is, -is, -it, -îmes, -îtes, -irent : il finit, ils finirent.\n• Quelques verbes irréguliers : être → il fut, ils furent ; avoir → il eut ; faire → il fit ; dire → il dit ; prendre → il prit ; voir → il vit ; venir → il vint, ils vinrent ; aller → il alla.\nOn l’emploie surtout à la troisième personne (il, elle, ils, elles).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "manger"
+  },
+  "problem": "Conjugue « {v} » au passé simple avec « il » et « ils ».",
+  "steps": [
+   "« manger » est du premier groupe : -a, -èrent.",
+   "Devant a, on garde le e : il {fr2PasseSimple(v, 2)}.",
+   "Devant è, pas besoin : ils {fr2PasseSimple(v, 6)}."
+  ],
+  "answer": "il {fr2PasseSimple(v, 2)}, ils {fr2PasseSimple(v, 6)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c28-1",
+    "status": "draft",
+    "idea": "Premier groupe au passé simple : il parla, ils parlèrent.",
+    "vars": {},
+    "example": [
+     "Il marcha longtemps ; ils arrivèrent le soir."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-28-er"
+    }
+   },
+   {
+    "id": "c28-2",
+    "status": "draft",
+    "idea": "Deuxième groupe : il finit, ils finirent ; être : il fut ; faire : il fit.",
+    "vars": {},
+    "example": [
+     "Elle choisit une robe ; ils firent la fête."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-28-ir"
+    }
+   },
+   {
+    "id": "c28-3",
+    "status": "draft",
+    "idea": "Le passé simple raconte les actions principales d’un récit écrit ; l’imparfait donne le décor.",
+    "vars": {},
+    "example": [
+     "Il faisait nuit. Le lion sortit de la forêt."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-28-emploi-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Il faisait nuit. Soudain, le lion sortit de la forêt. (sortit)",
+         "r": "passé simple : une action principale du récit",
+         "w": [
+          "imparfait : une description",
+          "présent : une habitude",
+          "imparfait : une habitude"
+         ],
+         "e": [
+          "« sortit » n’est pas à l’imparfait (ce serait « sortait »).",
+          "Le récit est au passé.",
+          "C’est une action unique."
+         ],
+         "y": "Le passé simple dit l’action soudaine."
+        },
+        {
+         "q": "Le village était calme et les enfants dormaient. (était)",
+         "r": "imparfait : le décor",
+         "w": [
+          "passé simple : une action principale",
+          "présent : maintenant",
+          "passé simple : une action soudaine"
+         ],
+         "e": [
+          "« était » décrit.",
+          "Le récit est au passé.",
+          "Il n’y a pas d’action soudaine."
+         ],
+         "y": "L’imparfait décrit le décor."
+        },
+        {
+         "q": "Le chasseur prit son fusil et partit dans la forêt. (prit)",
+         "r": "passé simple : une action principale du récit",
+         "w": [
+          "imparfait : une description",
+          "présent : une vérité générale",
+          "imparfait : une action en cours"
+         ],
+         "e": [
+          "C’est une action.",
+          "Le récit est au passé.",
+          "C’est une action terminée, au passé simple."
+         ],
+         "y": "« prit » est au passé simple de « prendre »."
+        }
+       ]
+      }
+     },
+     "prompt": "Pourquoi ce temps ? « {X.q} »",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-28-er",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "marcher",
+      "chanter",
+      "manger",
+      "commencer",
+      "arriver",
+      "regarder",
+      "lancer"
+     ]
+    },
+    "p": {
+     "pick": [
+      2,
+      3,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé simple avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2PasseSimple(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2PsWrongGroup(v, p))}",
+     "misconception": "group"
+    },
+    {
+     "text": "{fr2With(p, fr2Imparfait(v, p))}",
+     "misconception": "imp"
+    },
+    {
+     "text": "{fr2With(p, fr2PasseSimple(v, p > 5 ? 2 : 6))}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "group",
+     "explain": "« {v} » est du premier groupe : -a, -èrent (pas -it, -irent)."
+    },
+    {
+     "id": "imp",
+     "explain": "Cette forme est à l’imparfait."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "Premier groupe : -a avec il / elle, -èrent avec ils / elles.",
+    "Donc : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-28-ir",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "finir",
+      "choisir",
+      "être",
+      "avoir",
+      "faire",
+      "prendre",
+      "voir",
+      "venir"
+     ]
+    },
+    "p": {
+     "pick": [
+      2,
+      3,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé simple avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p, fr2PasseSimple(v, p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p, fr2Imparfait(v, p))}",
+     "misconception": "imp"
+    },
+    {
+     "text": "{fr2With(p, fr2Present(v, p))}",
+     "misconception": "pres"
+    },
+    {
+     "text": "{fr2With(p, fr2PasseSimple(v, p > 5 ? 2 : 6))}",
+     "misconception": "pers"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "imp",
+     "explain": "Cette forme est à l’imparfait."
+    },
+    {
+     "id": "pres",
+     "explain": "Cette forme est au présent."
+    },
+    {
+     "id": "pers",
+     "explain": "Cette forme ne va pas avec « {fr2Pronoun(p)} »."
+    }
+   ],
+   "solution": [
+    "Au passé simple, « {v} » fait : il {fr2PasseSimple(v, 2)}, ils {fr2PasseSimple(v, 6)}.",
+    "Donc : {answer}."
+   ],
+   "where": "fr2Present(v, p) != fr2PasseSimple(v, p)",
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-28-emploi",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Il faisait nuit. Soudain, le lion sortit de la forêt. (sortit)",
+       "r": "passé simple : une action principale du récit",
+       "w": [
+        "imparfait : une description",
+        "présent : une habitude",
+        "imparfait : une habitude"
+       ],
+       "e": [
+        "« sortit » n’est pas à l’imparfait (ce serait « sortait »).",
+        "Le récit est au passé.",
+        "C’est une action unique."
+       ],
+       "y": "Le passé simple dit l’action soudaine."
+      },
+      {
+       "q": "Le village était calme et les enfants dormaient. (était)",
+       "r": "imparfait : le décor",
+       "w": [
+        "passé simple : une action principale",
+        "présent : maintenant",
+        "passé simple : une action soudaine"
+       ],
+       "e": [
+        "« était » décrit.",
+        "Le récit est au passé.",
+        "Il n’y a pas d’action soudaine."
+       ],
+       "y": "L’imparfait décrit le décor."
+      },
+      {
+       "q": "Le chasseur prit son fusil et partit dans la forêt. (prit)",
+       "r": "passé simple : une action principale du récit",
+       "w": [
+        "imparfait : une description",
+        "présent : une vérité générale",
+        "imparfait : une action en cours"
+       ],
+       "e": [
+        "C’est une action.",
+        "Le récit est au passé.",
+        "C’est une action terminée, au passé simple."
+       ],
+       "y": "« prit » est au passé simple de « prendre »."
+      }
+     ]
+    }
+   },
+   "prompt": "Pourquoi ce temps ? « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-28-type",
+   "type": "cloze",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Soudain, le lion ___ (sauter) sur la gazelle.",
+       "v": "sauter",
+       "p": 2
+      },
+      {
+       "s": "Les chasseurs ___ (marcher) toute la nuit.",
+       "v": "marcher",
+       "p": 6
+      },
+      {
+       "s": "La tortue ___ (manger) tout le festin.",
+       "v": "manger",
+       "p": 3
+      },
+      {
+       "s": "Le chasseur ___ (prendre) son fusil.",
+       "v": "prendre",
+       "p": 2
+      },
+      {
+       "s": "Le roi ___ (finir) son discours et tout le monde applaudit.",
+       "v": "finir",
+       "p": 2
+      },
+      {
+       "s": "Ils ___ (faire) un grand feu.",
+       "v": "faire",
+       "p": 6
+      },
+      {
+       "s": "Le chef ___ (être) très content.",
+       "v": "être",
+       "p": 2
+      },
+      {
+       "s": "Elle ___ (commencer) à chanter.",
+       "v": "commencer",
+       "p": 3
+      }
+     ]
+    }
+   },
+   "prompt": "Écris le verbe au passé simple.",
+   "text": "{X.s}",
+   "answer": "fr2PasseSimple(X.v, X.p)",
+   "misconceptions": [
+    {
+     "id": "imp",
+     "wrong": "fr2Imparfait(X.v, X.p)",
+     "explain": "Cette forme est à l’imparfait ; il faut le passé simple."
+    }
+   ],
+   "solution": [
+    "Au passé simple, « {X.v} » : il {fr2PasseSimple(X.v, 2)}, ils {fr2PasseSimple(X.v, 6)}.",
+    "On écrit : {answer}."
+   ],
+   "lang": "fr"
+  }
+ ]
+}

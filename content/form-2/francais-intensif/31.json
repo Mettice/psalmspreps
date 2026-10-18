@@ -1,0 +1,445 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "fr",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "fi2-31",
+   "name": "Dire une comptine, un chant, un poème"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une comptine et un chant ont un rythme régulier, des rimes et souvent un refrain qui revient. Ils aident à retenir des conseils (se laver les mains, traverser la route …).\nPour bien les dire ou les chanter :\n• respecter le rythme (on peut taper dans les mains) ;\n• bien prononcer les fins de vers et les rimes ;\n• chanter le refrain plus fort, tous ensemble ;\n• mettre le ton qui convient (joyeux, sérieux).\n\nChant : Lave tes mains\n(Refrain) Lave tes mains, lave tes mains,\nAvec de l’eau et du savon,\nLave tes mains, lave tes mains,\nEt les microbes s’en iront !\n\nAvant de manger le plantain,\nAprès les toilettes, le matin,\nQuand tu reviens de la maison,\nN’oublie jamais le bon savon.\n(Refrain)\n(chant écrit pour l’application)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans le chant « Lave tes mains », quel est le refrain et quel conseil donne-t-il ?",
+  "steps": [
+   "Le refrain revient au début et à la fin : « Lave tes mains, lave tes mains, avec de l’eau et du savon … »",
+   "Il conseille de se laver les mains au savon pour chasser les microbes."
+  ],
+  "answer": "« Lave tes mains … avec de l’eau et du savon » : se laver les mains au savon chasse les microbes.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "Le refrain est la partie d’un chant qui revient plusieurs fois.",
+    "vars": {},
+    "example": [
+     "« Lave tes mains, lave tes mains » revient deux fois."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-31-refrain"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "Les rimes sont les mêmes sons à la fin des vers.",
+    "vars": {},
+    "example": [
+     "savon / iront ; plantain / matin"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-31-rime"
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "On respecte le rythme et on chante le refrain plus fort, ensemble.",
+    "vars": {},
+    "example": [
+     "On peut taper dans les mains."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-31-dire-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Comment chante-t-on le refrain ?",
+         "r": "plus fort, tous ensemble",
+         "w": [
+          "tout bas, seul",
+          "en le sautant",
+          "en lisant très vite"
+         ],
+         "e": [
+          "Le refrain se chante ensemble.",
+          "On ne le saute pas.",
+          "On respecte le rythme."
+         ],
+         "y": "Le refrain est repris par tous."
+        },
+        {
+         "q": "Qu’est-ce qui aide à garder le rythme ?",
+         "r": "taper dans les mains régulièrement",
+         "w": [
+          "changer de vitesse à chaque vers",
+          "s’arrêter au milieu des mots",
+          "parler sans pause"
+         ],
+         "e": [
+          "Le rythme doit être régulier.",
+          "On ne coupe pas les mots.",
+          "Il faut des pauses régulières."
+         ],
+         "y": "Le battement régulier garde le rythme."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-31-refrain",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quelle partie revient plusieurs fois ?",
+       "r": "le refrain",
+       "w": [
+        "le titre",
+        "la dernière strophe",
+        "la signature"
+       ],
+       "e": [
+        "Le titre est au début.",
+        "Elle n’apparaît qu’une fois.",
+        "Il n’y a pas de signature."
+       ],
+       "y": "Le refrain revient."
+      },
+      {
+       "q": "quel conseil donne le chant ?",
+       "r": "se laver les mains avec de l’eau et du savon",
+       "w": [
+        "manger beaucoup de plantain",
+        "rester à la maison",
+        "chanter le matin"
+       ],
+       "e": [
+        "Le plantain est un moment, pas le conseil.",
+        "Ce n’est pas le conseil.",
+        "Ce n’est pas le conseil."
+       ],
+       "y": "« Lave tes mains … avec de l’eau et du savon »."
+      }
+     ]
+    }
+   },
+   "prompt": "Chant « Lave tes mains » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-31-rime",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "quel mot rime avec « plantain » ?",
+       "r": "matin",
+       "w": [
+        "savon",
+        "maison",
+        "mains"
+       ],
+       "e": [
+        "Le son final est [ɔ̃].",
+        "Le son final est [ɔ̃].",
+        "On cherche le mot à la fin du vers suivant."
+       ],
+       "y": "plantain / matin : même son [ɛ̃]."
+      },
+      {
+       "q": "quel mot rime avec « maison » ?",
+       "r": "savon",
+       "w": [
+        "matin",
+        "plantain",
+        "mains"
+       ],
+       "e": [
+        "Le son final est [ɛ̃].",
+        "Le son final est [ɛ̃].",
+        "Le son final est [ɛ̃]."
+       ],
+       "y": "maison / savon : même son [ɔ̃]."
+      }
+     ]
+    }
+   },
+   "prompt": "Chant « Lave tes mains » : {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-31-dire",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment chante-t-on le refrain ?",
+       "r": "plus fort, tous ensemble",
+       "w": [
+        "tout bas, seul",
+        "en le sautant",
+        "en lisant très vite"
+       ],
+       "e": [
+        "Le refrain se chante ensemble.",
+        "On ne le saute pas.",
+        "On respecte le rythme."
+       ],
+       "y": "Le refrain est repris par tous."
+      },
+      {
+       "q": "Qu’est-ce qui aide à garder le rythme ?",
+       "r": "taper dans les mains régulièrement",
+       "w": [
+        "changer de vitesse à chaque vers",
+        "s’arrêter au milieu des mots",
+        "parler sans pause"
+       ],
+       "e": [
+        "Le rythme doit être régulier.",
+        "On ne coupe pas les mots.",
+        "Il faut des pauses régulières."
+       ],
+       "y": "Le battement régulier garde le rythme."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-31-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "prompt": "Chant « Lave tes mains ». Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Le chant a un refrain.",
+      "truth": "true"
+     },
+     {
+      "text": "Il conseille de se laver les mains.",
+      "truth": "true"
+     },
+     {
+      "text": "« plantain » rime avec « matin ».",
+      "truth": "true"
+     },
+     {
+      "text": "Le refrain revient à la fin.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le chant conseille de ne jamais utiliser de savon.",
+      "truth": "false",
+      "explain": "Il conseille le « bon savon »."
+     },
+     {
+      "text": "Le refrain n’apparaît qu’une fois.",
+      "truth": "false",
+      "explain": "Il apparaît au début et à la fin."
+     },
+     {
+      "text": "« savon » rime avec « matin ».",
+      "truth": "false",
+      "explain": "savon finit par [ɔ̃], matin par [ɛ̃]."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

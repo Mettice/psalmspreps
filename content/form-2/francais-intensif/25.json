@@ -1,0 +1,401 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "fr",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "fi2-25",
+   "name": "Raconter une histoire à partir d’images"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une suite d’images (comme une bande dessinée) raconte une histoire. Pour l’écrire :\n1. mettre les images dans l’ordre et dire ce qui se passe dans chacune ;\n2. écrire une ou deux phrases par image ;\n3. relier les phrases avec des mots de temps : d’abord, un jour, puis, ensuite, soudain, alors, enfin, finalement ;\n4. garder les mêmes temps : imparfait pour le décor, passé composé (ou passé simple) pour les actions ;\n5. donner un titre.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quatre images : Paul joue au ballon près de la route ; le ballon roule sur la route ; Paul s’arrête, regarde à gauche et à droite ; il récupère le ballon en sécurité. Écris le début avec des mots de temps.",
+  "steps": [
+   "Première image : « Un après-midi, Paul jouait au ballon près de la route. »",
+   "Deuxième image : « Soudain, le ballon a roulé sur la route. »",
+   "Troisième image : « Alors, Paul s’est arrêté et a regardé à gauche et à droite. »"
+  ],
+  "answer": "Un après-midi, Paul jouait au ballon près de la route. Soudain, le ballon a roulé sur la route. Alors, Paul s’est arrêté et a regardé à gauche et à droite.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "On met d’abord les images dans l’ordre de l’histoire.",
+    "vars": {},
+    "example": [
+     "Le ballon roule, puis Paul s’arrête, puis il le récupère."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-25-ordre"
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Les mots de temps relient les phrases : un jour, puis, soudain, alors, enfin.",
+    "vars": {},
+    "example": [
+     "Soudain, l’orage a éclaté."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-25-mots"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "Imparfait pour le décor, passé composé pour les actions.",
+    "vars": {},
+    "example": [
+     "Il faisait beau. Soudain, le ballon a roulé."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-25-temps-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Ce jour-là, il ___ très fort.",
+         "a": "pleuvait",
+         "w": [
+          "a plu",
+          "pleut"
+         ],
+         "e": [
+          "C’est le décor : imparfait.",
+          "Le récit est au passé."
+         ]
+        },
+        {
+         "s": "Soudain, le ballon ___ sur la route.",
+         "a": "a roulé",
+         "w": [
+          "roulait",
+          "roule"
+         ],
+         "e": [
+          "Une action soudaine : passé composé.",
+          "Le récit est au passé."
+         ]
+        },
+        {
+         "s": "Un petit chat ___ sous un arbre.",
+         "a": "tremblait",
+         "w": [
+          "a tremblé",
+          "tremble"
+         ],
+         "e": [
+          "On décrit la situation : imparfait.",
+          "Le récit est au passé."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le verbe qui convient dans le récit.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-25-ordre",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Un après-midi, Paul jouait au ballon près de la route.",
+       "Soudain, le ballon a roulé sur la route.",
+       "Alors, Paul s’est arrêté et a regardé à gauche et à droite.",
+       "Enfin, il a récupéré son ballon en sécurité."
+      ],
+      [
+       "Un matin, Aïcha allait au marché.",
+       "En chemin, elle a trouvé un porte-monnaie.",
+       "Elle l’a apporté au chef de quartier.",
+       "Le propriétaire l’a remerciée chaleureusement."
+      ],
+      [
+       "Ce jour-là, il pleuvait très fort.",
+       "Un petit chat tremblait sous un arbre.",
+       "Junior l’a pris dans ses bras.",
+       "Finalement, le chat s’est endormi près du feu."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets les phrases de l’histoire dans l’ordre des images.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-25-mots",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il faisait beau. ___, le ciel s’est couvert et l’orage a éclaté.",
+       "a": "Soudain",
+       "w": [
+        "Enfin",
+        "D’abord"
+       ],
+       "e": [
+        "« Enfin » annonce la fin de l’histoire.",
+        "« D’abord » annonce le début."
+       ]
+      },
+      {
+       "s": "___, après une longue journée, tout le monde est rentré à la maison.",
+       "a": "Enfin",
+       "w": [
+        "Soudain",
+        "D’abord"
+       ],
+       "e": [
+        "« Soudain » annonce un événement inattendu.",
+        "« D’abord » annonce le début."
+       ]
+      },
+      {
+       "s": "Le ballon a roulé sur la route. ___, Paul s’est arrêté.",
+       "a": "Alors",
+       "w": [
+        "Il était une fois",
+        "Enfin"
+       ],
+       "e": [
+        "C’est une formule de début de conte.",
+        "Ce n’est pas encore la fin."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot de temps qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-25-temps",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ce jour-là, il ___ très fort.",
+       "a": "pleuvait",
+       "w": [
+        "a plu",
+        "pleut"
+       ],
+       "e": [
+        "C’est le décor : imparfait.",
+        "Le récit est au passé."
+       ]
+      },
+      {
+       "s": "Soudain, le ballon ___ sur la route.",
+       "a": "a roulé",
+       "w": [
+        "roulait",
+        "roule"
+       ],
+       "e": [
+        "Une action soudaine : passé composé.",
+        "Le récit est au passé."
+       ]
+      },
+      {
+       "s": "Un petit chat ___ sous un arbre.",
+       "a": "tremblait",
+       "w": [
+        "a tremblé",
+        "tremble"
+       ],
+       "e": [
+        "On décrit la situation : imparfait.",
+        "Le récit est au passé."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le verbe qui convient dans le récit.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-25-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour raconter une histoire en images est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On met les images dans l’ordre.",
+      "truth": "true"
+     },
+     {
+      "text": "On relie les phrases avec des mots de temps.",
+      "truth": "true"
+     },
+     {
+      "text": "On donne un titre à l’histoire.",
+      "truth": "true"
+     },
+     {
+      "text": "On écrit une ou deux phrases par image.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On commence l’histoire par « Enfin ».",
+      "truth": "false",
+      "explain": "« Enfin » annonce la fin."
+     },
+     {
+      "text": "On mélange le présent et le passé dans chaque phrase.",
+      "truth": "false",
+      "explain": "On garde les mêmes temps."
+     },
+     {
+      "text": "On raconte les images dans le désordre.",
+      "truth": "false",
+      "explain": "On suit l’ordre de l’histoire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

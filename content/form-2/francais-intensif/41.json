@@ -1,0 +1,512 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 41,
+ "language": "fr",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "fi2-41",
+   "name": "La phrase exclamative"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La phrase exclamative exprime un sentiment fort (joie, surprise, colère, peur, admiration, tristesse). Elle se termine par un point d’exclamation (!).\nElle commence souvent par :\n• Quel, quelle, quels, quelles + nom (accordé) : Quelle belle robe ! Quels beaux enfants !\n• Comme, Que, Ce que + phrase : Comme il fait chaud ! Que tu es grand ! Ce que c’est bon !\n• une interjection : Oh ! Ah ! Hélas ! (tristesse) Bravo ! (admiration) Aïe ! (douleur) Ouf ! (soulagement) Chut ! (silence).\nTransformer : Il fait chaud. → Comme il fait chaud ! / Qu’il fait chaud !",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Transforme en phrase exclamative : « La mer est belle. »",
+  "steps": [
+   "On ajoute « Comme » ou « Que » au début.",
+   "On termine par un point d’exclamation."
+  ],
+  "answer": "Comme la mer est belle ! (ou : Que la mer est belle !)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c41-1",
+    "status": "draft",
+    "idea": "La phrase exclamative exprime un sentiment fort et finit par « ! ».",
+    "vars": {},
+    "example": [
+     "Quelle surprise !"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-41-sent"
+    }
+   },
+   {
+    "id": "c41-2",
+    "status": "draft",
+    "idea": "Quel, quelle, quels, quelles s’accordent avec le nom.",
+    "vars": {},
+    "example": [
+     "Quelle chaleur ! Quels beaux fruits !"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-41-quel"
+    }
+   },
+   {
+    "id": "c41-3",
+    "status": "draft",
+    "idea": "Les interjections : Hélas ! (tristesse), Bravo ! (admiration), Aïe ! (douleur), Ouf ! (soulagement).",
+    "vars": {},
+    "example": [
+     "Aïe ! Je me suis piqué."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-41-trans-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Ce gâteau est bon.",
+         "r": "Comme ce gâteau est bon !",
+         "w": [
+          "Ce gâteau est-il bon ?",
+          "Comme ce gâteau est bon.",
+          "Est-ce que ce gâteau est bon ?"
+         ],
+         "e": [
+          "C’est une question.",
+          "Il faut un point d’exclamation.",
+          "C’est une question."
+         ],
+         "y": "« Comme … ! »"
+        },
+        {
+         "q": "Tu as grandi.",
+         "r": "Que tu as grandi !",
+         "w": [
+          "As-tu grandi ?",
+          "Tu as grandi.",
+          "Grandis !"
+         ],
+         "e": [
+          "C’est une question.",
+          "C’est une phrase déclarative.",
+          "C’est un ordre."
+         ],
+         "y": "« Que … ! »"
+        },
+        {
+         "q": "La journée est belle.",
+         "r": "Quelle belle journée !",
+         "w": [
+          "Quel belle journée !",
+          "La journée est-elle belle ?",
+          "Quelle belle journée ?"
+         ],
+         "e": [
+          "« journée » est féminin : Quelle.",
+          "C’est une question.",
+          "Il faut un point d’exclamation."
+         ],
+         "y": "« Quelle + nom + ! »"
+        }
+       ]
+      }
+     },
+     "prompt": "Transforme en phrase exclamative : « {X.q} »",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-41-sent",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Hélas ! Notre équipe a perdu.",
+       "r": "la tristesse",
+       "w": [
+        "la joie",
+        "la douleur physique",
+        "le soulagement"
+       ],
+       "e": [
+        "« Hélas » exprime le regret.",
+        "Ce n’est pas une blessure.",
+        "Ce n’est pas un soulagement."
+       ],
+       "y": "« Hélas » exprime la tristesse."
+      },
+      {
+       "q": "Bravo ! Tu as eu la meilleure note !",
+       "r": "l’admiration",
+       "w": [
+        "la colère",
+        "la peur",
+        "la tristesse"
+       ],
+       "e": [
+        "On félicite.",
+        "Rien ne fait peur.",
+        "La nouvelle est bonne."
+       ],
+       "y": "« Bravo » félicite."
+      },
+      {
+       "q": "Ouf ! Le bus nous a attendus.",
+       "r": "le soulagement",
+       "w": [
+        "la colère",
+        "la tristesse",
+        "la douleur"
+       ],
+       "e": [
+        "La personne est contente.",
+        "La nouvelle est bonne.",
+        "Personne n’a mal."
+       ],
+       "y": "« Ouf » exprime le soulagement."
+      },
+      {
+       "q": "Aïe ! Une épine m’a piqué le pied.",
+       "r": "la douleur",
+       "w": [
+        "la joie",
+        "l’admiration",
+        "le soulagement"
+       ],
+       "e": [
+        "La piqûre fait mal.",
+        "Il n’y a rien d’admirable.",
+        "Ce n’est pas un soulagement."
+       ],
+       "y": "« Aïe » exprime la douleur."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel sentiment exprime : « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-41-quel",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ belle robe !",
+       "a": "Quelle",
+       "w": [
+        "Quel",
+        "Quels"
+       ],
+       "e": [
+        "« robe » est féminin.",
+        "« robe » est singulier."
+       ]
+      },
+      {
+       "s": "___ beaux fruits !",
+       "a": "Quels",
+       "w": [
+        "Quel",
+        "Quelles"
+       ],
+       "e": [
+        "« fruits » est pluriel.",
+        "« fruits » est masculin."
+       ]
+      },
+      {
+       "s": "___ il fait chaud aujourd’hui !",
+       "a": "Comme",
+       "w": [
+        "Quel",
+        "Quelle"
+       ],
+       "e": [
+        "Devant une phrase (il fait …), on met « Comme » ou « Que ».",
+        "« Quelle » va devant un nom."
+       ]
+      },
+      {
+       "s": "___ courage !",
+       "a": "Quel",
+       "w": [
+        "Quelle",
+        "Comme"
+       ],
+       "e": [
+        "« courage » est masculin.",
+        "Devant un nom seul, on met « Quel »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-41-trans",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ce gâteau est bon.",
+       "r": "Comme ce gâteau est bon !",
+       "w": [
+        "Ce gâteau est-il bon ?",
+        "Comme ce gâteau est bon.",
+        "Est-ce que ce gâteau est bon ?"
+       ],
+       "e": [
+        "C’est une question.",
+        "Il faut un point d’exclamation.",
+        "C’est une question."
+       ],
+       "y": "« Comme … ! »"
+      },
+      {
+       "q": "Tu as grandi.",
+       "r": "Que tu as grandi !",
+       "w": [
+        "As-tu grandi ?",
+        "Tu as grandi.",
+        "Grandis !"
+       ],
+       "e": [
+        "C’est une question.",
+        "C’est une phrase déclarative.",
+        "C’est un ordre."
+       ],
+       "y": "« Que … ! »"
+      },
+      {
+       "q": "La journée est belle.",
+       "r": "Quelle belle journée !",
+       "w": [
+        "Quel belle journée !",
+        "La journée est-elle belle ?",
+        "Quelle belle journée ?"
+       ],
+       "e": [
+        "« journée » est féminin : Quelle.",
+        "C’est une question.",
+        "Il faut un point d’exclamation."
+       ],
+       "y": "« Quelle + nom + ! »"
+      }
+     ]
+    }
+   },
+   "prompt": "Transforme en phrase exclamative : « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-41-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase exclamative contient une faute ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Quelle chaleur !",
+      "truth": "true"
+     },
+     {
+      "text": "Comme tu chantes bien !",
+      "truth": "true"
+     },
+     {
+      "text": "Quels beaux arbres !",
+      "truth": "true"
+     },
+     {
+      "text": "Hélas ! Il est parti.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Quel belle fête !",
+      "truth": "false",
+      "explain": "« fête » est féminin : Quelle."
+     },
+     {
+      "text": "Comme il fait froid ?",
+      "truth": "false",
+      "explain": "Une exclamation finit par « ! »."
+     },
+     {
+      "text": "Quelles beaux oiseaux !",
+      "truth": "false",
+      "explain": "« oiseaux » est masculin : Quels."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

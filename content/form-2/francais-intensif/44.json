@@ -1,0 +1,386 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 44,
+ "language": "fr",
+ "prerequisites": [
+  18,
+  43
+ ],
+ "skills": [
+  {
+   "id": "fi2-44",
+   "name": "Interpréter une affiche touristique"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une affiche touristique veut donner envie de visiter un lieu. Elle contient :\n• une belle image (photo ou dessin) du site ;\n• un slogan court qui interpelle (« Venez découvrir … », « Kribi vous attend ! ») ;\n• des informations pratiques (le lieu, un numéro, un site) ;\n• des couleurs vives et des mots positifs (magnifique, inoubliable, paradis).\nPour l’interpréter à l’oral : présenter l’affiche, décrire l’image, lire et expliquer le slogan, dire le but (donner envie, convaincre) et donner son avis.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une affiche montre une plage de sable noir au coucher du soleil avec le slogan « Limbé, le paradis au pied du mont Cameroun ». Interprète-la.",
+  "steps": [
+   "Présenter : c’est une affiche touristique sur Limbé.",
+   "Décrire : au premier plan une plage de sable noir ; au fond, le coucher du soleil.",
+   "Slogan : le mot « paradis » montre un lieu très beau.",
+   "But : donner envie aux touristes de venir à Limbé."
+  ],
+  "answer": "Une affiche touristique qui présente Limbé comme un paradis pour donner envie de la visiter.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c44-1",
+    "status": "draft",
+    "idea": "Une affiche touristique veut donner envie de visiter un lieu.",
+    "vars": {},
+    "example": [
+     "« Venez découvrir Foumban ! »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-44-but"
+    }
+   },
+   {
+    "id": "c44-2",
+    "status": "draft",
+    "idea": "Le slogan est court et emploie des mots positifs : magnifique, inoubliable, paradis.",
+    "vars": {},
+    "example": [
+     "« Waza, une aventure inoubliable »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-44-slogan"
+    }
+   },
+   {
+    "id": "c44-3",
+    "status": "draft",
+    "idea": "Pour présenter l’affiche : présenter, décrire, expliquer le slogan, dire le but, donner son avis.",
+    "vars": {},
+    "example": [
+     "À mon avis, cette affiche donne envie de voyager."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-44-ordre-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "C’est une affiche touristique sur Limbé.",
+         "Au premier plan, on voit une plage de sable noir.",
+         "Le slogan dit : « Limbé, le paradis au pied du mont Cameroun ».",
+         "Cette affiche veut donner envie aux touristes de venir à Limbé.",
+         "À mon avis, elle est réussie."
+        ],
+        [
+         "C’est une affiche touristique sur Foumban.",
+         "Au centre, on voit le palais des rois bamoun.",
+         "Le slogan dit : « Foumban, des siècles d’histoire vous attendent ».",
+         "Cette affiche invite à découvrir la culture bamoun.",
+         "Je pense qu’elle donne envie d’y aller."
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets la présentation de l’affiche dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      },
+      {
+       "text": "{X[4]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-44-but",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel est le but d’une affiche touristique ?",
+       "r": "donner envie de visiter un lieu",
+       "w": [
+        "vendre des médicaments",
+        "annoncer une épidémie",
+        "donner les notes du trimestre"
+       ],
+       "e": [
+        "C’est une publicité pour la santé.",
+        "C’est une affiche de santé.",
+        "C’est un bulletin."
+       ],
+       "y": "Elle attire les touristes."
+      },
+      {
+       "q": "Quels mots trouve-t-on souvent sur une affiche touristique ?",
+       "r": "magnifique, inoubliable, paradis",
+       "w": [
+        "fièvre, toux, vaccin",
+        "addition, division, fraction",
+        "sujet, verbe, complément"
+       ],
+       "e": [
+        "Ce sont des mots de la santé.",
+        "Ce sont des mots de mathématiques.",
+        "Ce sont des mots de grammaire."
+       ],
+       "y": "Des mots positifs qui donnent envie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-44-slogan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel slogan convient à une affiche touristique sur Kribi ?",
+       "r": "Kribi, la mer comme vous ne l’avez jamais vue !",
+       "w": [
+        "Lavez-vous les mains !",
+        "Attention, route glissante.",
+        "Fermé pour travaux."
+       ],
+       "e": [
+        "C’est un conseil d’hygiène.",
+        "C’est un panneau de sécurité.",
+        "Ce n’est pas engageant."
+       ],
+       "y": "Il donne envie de voir la mer à Kribi."
+      },
+      {
+       "q": "Quel slogan convient à une affiche sur le parc de Waza ?",
+       "r": "Waza : vivez l’aventure au milieu des éléphants !",
+       "w": [
+        "Interdit aux visiteurs.",
+        "Dormons sous moustiquaire.",
+        "Les éléphants sont dangereux, restez chez vous."
+       ],
+       "e": [
+        "Cela décourage la visite.",
+        "C’est un slogan de santé.",
+        "Cela décourage la visite."
+       ],
+       "y": "Il donne envie de visiter le parc."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-44-ordre",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "C’est une affiche touristique sur Limbé.",
+       "Au premier plan, on voit une plage de sable noir.",
+       "Le slogan dit : « Limbé, le paradis au pied du mont Cameroun ».",
+       "Cette affiche veut donner envie aux touristes de venir à Limbé.",
+       "À mon avis, elle est réussie."
+      ],
+      [
+       "C’est une affiche touristique sur Foumban.",
+       "Au centre, on voit le palais des rois bamoun.",
+       "Le slogan dit : « Foumban, des siècles d’histoire vous attendent ».",
+       "Cette affiche invite à découvrir la culture bamoun.",
+       "Je pense qu’elle donne envie d’y aller."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets la présentation de l’affiche dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-44-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quelle phrase sur l’affiche touristique est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Elle contient souvent un slogan.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle emploie des mots positifs.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle veut convaincre de visiter un lieu.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle montre une belle image du site.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Elle montre des images tristes pour faire fuir les visiteurs.",
+      "truth": "false",
+      "explain": "Elle montre de belles images pour attirer."
+     },
+     {
+      "text": "Le slogan est toujours très long, sur une page.",
+      "truth": "false",
+      "explain": "Le slogan est court."
+     },
+     {
+      "text": "Elle sert à donner les résultats des examens.",
+      "truth": "false",
+      "explain": "Elle sert à attirer les touristes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

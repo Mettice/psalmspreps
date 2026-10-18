@@ -115,3 +115,37 @@ test("helpers for adjectives and -ir verbs", () => {
   assert.equal(f.fr2Present("sentir", 4), "sentons");
   assert.equal(f.fr2Present("choisir", 4), "choisissons");
 });
+
+test("plurals in -ou, -au, -eau, -eu and their rules", () => {
+  assert.equal(f.fr2NounPlural("bijou"), "bijoux");
+  assert.equal(f.fr2NounPlural("trou"), "trous");
+  assert.equal(f.fr2NounPlural("bateau"), "bateaux");
+  assert.equal(f.fr2NounPlural("pneu"), "pneus");
+  assert.equal(f.fr2NounNaive("bijou"), "bijous");
+  assert.equal(f.fr2NounNaive("trou"), "troux");
+  assert.equal(f.fr2NounNaive("cheval"), "chevals");
+  assert.equal(f.fr2NounNaive("festival"), "festivaux");
+  assert.match(f.fr2NounRule("genou"), /sept noms en -ou/);
+  for (const n of f.fr2Nouns()) assert.notEqual(f.fr2NounNaive(n), f.fr2NounPlural(n), n);
+});
+
+test("intensif helpers: naive forms, tenses, adverbs", () => {
+  assert.equal(f.fr2ImparfaitNaive("manger", 0), "mangais");
+  assert.equal(f.fr2ImparfaitNaive("finir", 2), "finait");
+  assert.equal(f.fr2PsWrongGroup("parler", 2), "parlit");
+  assert.equal(f.fr2PsWrongGroup("finir", 2), "fina");
+  assert.equal(f.fr2PprNaive("commencer"), "commencant");
+  assert.equal(f.fr2Form("manger", 4, "imparfait"), "nous mangions");
+  assert.equal(f.fr2Form("aller", 3, "passé composé"), "elle est allée");
+  assert.equal(f.fr2Form("faire", 6, "passé simple"), "ils firent");
+  assert.equal(f.fr2Form("avoir", 0, "présent"), "j’ai");
+  assert.ok(f.fr2Ambiguous("finir", 0) && !f.fr2Ambiguous("manger", 2));
+  assert.equal(f.fr2Adverb("doux"), "doucement");
+  assert.equal(f.fr2Adverb("prudent"), "prudemment");
+  assert.equal(f.fr2AdvNaive("lent"), "lentment");
+  assert.equal(f.fr2AdvRule("bruyant"), "-ant devient -amment");
+  assert.equal(f.fr2AdvRule("lent"), "on ajoute -ment au féminin de l’adjectif");
+  assert.equal(f.fr2AdvRule("patient"), "-ent devient -emment");
+  for (const a of f.fr2AdvList().filter((a) => !a.endsWith("e"))) assert.notEqual(f.fr2AdvNaive(a), f.fr2Adverb(a), a);
+});
+

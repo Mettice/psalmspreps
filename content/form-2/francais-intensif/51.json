@@ -1,0 +1,406 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 51,
+ "language": "fr",
+ "prerequisites": [
+  25,
+  40,
+  50
+ ],
+ "skills": [
+  {
+   "id": "fi2-51",
+   "name": "Produire un récit à partir d’images"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour écrire un récit à partir d’une suite d’images :\n1. observer chaque image et trouver le problème (l’élément perturbateur) ;\n2. suivre le schéma narratif : situation initiale, problème, péripéties, dénouement, situation finale ;\n3. ajouter une courte description du lieu ou un portrait du personnage principal ;\n4. relier avec des mots de temps et garder les temps du récit (imparfait + passé composé ou passé simple) ;\n5. donner un titre et relire (accords, ponctuation).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Images : une famille en excursion à la plage de Limbé ; le petit Tom s’éloigne ; ses parents le cherchent ; un maître-nageur le ramène. Écris la situation initiale et l’élément perturbateur.",
+  "steps": [
+   "Situation initiale, avec une courte description : « Il faisait beau sur la plage de sable noir de Limbé ; la famille Ewane pique-niquait. »",
+   "Élément perturbateur : « Soudain, les parents s’aperçurent que le petit Tom avait disparu. »"
+  ],
+  "answer": "Il faisait beau sur la plage de sable noir de Limbé ; la famille Ewane pique-niquait. Soudain, les parents s’aperçurent que le petit Tom avait disparu.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c51-1",
+    "status": "draft",
+    "idea": "On suit le schéma narratif : situation initiale, problème, péripéties, dénouement, situation finale.",
+    "vars": {},
+    "example": [
+     "Problème : Tom a disparu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-51-ordre"
+    }
+   },
+   {
+    "id": "c51-2",
+    "status": "draft",
+    "idea": "On peut ajouter une courte description du lieu ou un portrait.",
+    "vars": {},
+    "example": [
+     "La plage de sable noir brillait sous le soleil."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-51-desc"
+    }
+   },
+   {
+    "id": "c51-3",
+    "status": "draft",
+    "idea": "On garde les temps du récit : imparfait pour le décor, passé simple ou composé pour les actions.",
+    "vars": {},
+    "example": [
+     "Il faisait beau. Soudain, Tom disparut."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-51-temps-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Il ___ beau sur la plage de Limbé.",
+         "a": "faisait",
+         "w": [
+          "fit",
+          "fait"
+         ],
+         "e": [
+          "C’est le décor : imparfait.",
+          "Le récit est au passé."
+         ]
+        },
+        {
+         "s": "Soudain, le car ___ en panne.",
+         "a": "tomba",
+         "w": [
+          "tombait",
+          "tombe"
+         ],
+         "e": [
+          "« Soudain » : action principale au passé simple.",
+          "Le récit est au passé."
+         ]
+        },
+        {
+         "s": "Les élèves ___ le chauffeur à pousser le car.",
+         "a": "aidèrent",
+         "w": [
+          "aidaient",
+          "aident"
+         ],
+         "e": [
+          "C’est une action du récit : passé simple.",
+          "Le récit est au passé."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le verbe qui convient dans le récit.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-51-ordre",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Il faisait beau sur la plage de Limbé ; la famille Ewane pique-niquait.",
+       "Soudain, les parents s’aperçurent que Tom avait disparu.",
+       "Ils le cherchèrent partout en criant son nom.",
+       "Un maître-nageur ramena enfin le petit garçon.",
+       "Depuis, Tom ne s’éloigne plus de ses parents."
+      ],
+      [
+       "Ce matin-là, la classe partait en excursion à Foumban.",
+       "En route, le car tomba en panne.",
+       "Les élèves aidèrent le chauffeur à pousser le car.",
+       "Le moteur redémarra sous les applaudissements.",
+       "Le soir, tous racontaient leur aventure avec fierté."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le récit dans l’ordre des images.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-51-desc",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase ajoute une description du lieu au récit ?",
+       "r": "La plage de sable noir brillait sous un soleil éclatant.",
+       "w": [
+        "Soudain, Tom disparut.",
+        "Ils cherchèrent partout.",
+        "Enfin, Tom revint."
+       ],
+       "e": [
+        "C’est une action.",
+        "C’est une action.",
+        "C’est une action."
+       ],
+       "y": "Elle décrit le lieu."
+      },
+      {
+       "q": "Quelle phrase fait le portrait du personnage principal ?",
+       "r": "Tom était un petit garçon curieux aux grands yeux vifs.",
+       "w": [
+        "Le car tomba en panne.",
+        "Il faisait beau.",
+        "Ils rentrèrent le soir."
+       ],
+       "e": [
+        "C’est une action.",
+        "C’est une description du temps.",
+        "C’est une action."
+       ],
+       "y": "Elle décrit Tom : physique et caractère."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-51-temps",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il ___ beau sur la plage de Limbé.",
+       "a": "faisait",
+       "w": [
+        "fit",
+        "fait"
+       ],
+       "e": [
+        "C’est le décor : imparfait.",
+        "Le récit est au passé."
+       ]
+      },
+      {
+       "s": "Soudain, le car ___ en panne.",
+       "a": "tomba",
+       "w": [
+        "tombait",
+        "tombe"
+       ],
+       "e": [
+        "« Soudain » : action principale au passé simple.",
+        "Le récit est au passé."
+       ]
+      },
+      {
+       "s": "Les élèves ___ le chauffeur à pousser le car.",
+       "a": "aidèrent",
+       "w": [
+        "aidaient",
+        "aident"
+       ],
+       "e": [
+        "C’est une action du récit : passé simple.",
+        "Le récit est au passé."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le verbe qui convient dans le récit.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-51-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour écrire un récit à partir d’images est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On trouve le problème dans les images.",
+      "truth": "true"
+     },
+     {
+      "text": "On suit le schéma narratif.",
+      "truth": "true"
+     },
+     {
+      "text": "On peut ajouter une courte description.",
+      "truth": "true"
+     },
+     {
+      "text": "On relit pour corriger.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On raconte les images dans le désordre.",
+      "truth": "false",
+      "explain": "On suit l’ordre des images et du récit."
+     },
+     {
+      "text": "On change de temps à chaque phrase sans raison.",
+      "truth": "false",
+      "explain": "On garde les temps du récit."
+     },
+     {
+      "text": "On ne met jamais de titre.",
+      "truth": "false",
+      "explain": "On donne un titre au récit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

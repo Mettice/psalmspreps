@@ -1,0 +1,481 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 9,
+ "language": "fr",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "fi2-9",
+   "name": "Les conjonctions de coordination"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les conjonctions de coordination relient deux mots ou deux propositions de même nature : mais, ou, et, donc, or, ni, car (« Mais où est donc Ornicar ? »).\n• et : ajoute (Paul lave et Marie essuie).\n• mais : oppose (Il est petit mais fort).\n• ou : propose un choix (Du riz ou du plantain ?).\n• donc : annonce une conséquence (Il pleut, donc je prends le parapluie).\n• car : donne une cause (Je reste à la maison, car je suis malade).\n• ni : relie deux éléments négatifs (Il n’aime ni le poisson ni la viande).\n• or : introduit un élément nouveau dans un raisonnement (Tous les élèves doivent venir ; or Paul est absent).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Relie les deux propositions avec la bonne conjonction : « Je n’irai pas au match » / « je suis malade ».",
+  "steps": [
+   "La deuxième proposition explique pourquoi : c’est une cause.",
+   "La cause est introduite par « car »."
+  ],
+  "answer": "Je n’irai pas au match, car je suis malade.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c9-1",
+    "status": "draft",
+    "idea": "Les conjonctions de coordination sont : mais, ou, et, donc, or, ni, car.",
+    "vars": {},
+    "example": [
+     "« Mais où est donc Ornicar ? » aide à les retenir."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-9-liste"
+    }
+   },
+   {
+    "id": "c9-2",
+    "status": "draft",
+    "idea": "car donne la cause ; donc donne la conséquence.",
+    "vars": {},
+    "example": [
+     "Il a faim, car il n’a pas mangé. Il n’a pas mangé, donc il a faim."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-9-sens"
+    }
+   },
+   {
+    "id": "c9-3",
+    "status": "draft",
+    "idea": "mais oppose ; ou propose un choix ; ni relie deux négations.",
+    "vars": {},
+    "example": [
+     "Il est petit mais rapide."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-9-choix-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Il n’aime ___ le poisson ni la viande.",
+         "a": "ni",
+         "w": [
+          "et",
+          "ou"
+         ],
+         "e": [
+          "Avec une négation, on emploie ni … ni.",
+          "Avec une négation, on emploie ni … ni."
+         ]
+        },
+        {
+         "s": "Ma sœur lave les assiettes ___ mon frère les essuie.",
+         "a": "et",
+         "w": [
+          "car",
+          "or"
+         ],
+         "e": [
+          "On ajoute une action : et.",
+          "« or » introduit un élément de raisonnement."
+         ]
+        },
+        {
+         "s": "Tous les élèves doivent venir ; ___ Paul est absent.",
+         "a": "or",
+         "w": [
+          "car",
+          "et"
+         ],
+         "e": [
+          "On introduit un fait nouveau qui pose problème : or.",
+          "« et » ajoute simplement."
+         ]
+        },
+        {
+         "s": "Il est petit ___ très fort.",
+         "a": "mais",
+         "w": [
+          "donc",
+          "car"
+         ],
+         "e": [
+          "On oppose deux idées.",
+          "Ce n’est pas une cause."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis la conjonction qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-9-liste",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot est une conjonction de coordination ?",
+       "r": "car",
+       "w": [
+        "quand",
+        "très",
+        "parce"
+       ],
+       "e": [
+        "« quand » est une conjonction de subordination.",
+        "« très » est un adverbe.",
+        "« parce » n’est pas un mot seul (on dit « parce que »)."
+       ],
+       "y": "car fait partie de « mais, ou, et, donc, or, ni, car »."
+      },
+      {
+       "q": "Quel mot est une conjonction de coordination ?",
+       "r": "donc",
+       "w": [
+        "si",
+        "bien",
+        "avec"
+       ],
+       "e": [
+        "« si » est une conjonction de subordination.",
+        "« bien » est un adverbe.",
+        "« avec » est une préposition."
+       ],
+       "y": "donc fait partie de la liste."
+      },
+      {
+       "q": "Quel mot est une conjonction de coordination ?",
+       "r": "ni",
+       "w": [
+        "ne",
+        "pas",
+        "non"
+       ],
+       "e": [
+        "« ne » fait partie de la négation.",
+        "« pas » fait partie de la négation.",
+        "« non » est un adverbe."
+       ],
+       "y": "ni fait partie de la liste."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-9-sens",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Je prends mon parapluie, ___ il pleut.",
+       "a": "car",
+       "w": [
+        "donc",
+        "ou"
+       ],
+       "e": [
+        "La pluie est la cause : car.",
+        "Ce n’est pas un choix."
+       ]
+      },
+      {
+       "s": "Il pleut, ___ je prends mon parapluie.",
+       "a": "donc",
+       "w": [
+        "car",
+        "ni"
+       ],
+       "e": [
+        "Prendre le parapluie est la conséquence : donc.",
+        "« ni » relie deux négations."
+       ]
+      },
+      {
+       "s": "Le léopard est fort, ___ le chien est courageux.",
+       "a": "mais",
+       "w": [
+        "donc",
+        "car"
+       ],
+       "e": [
+        "On oppose deux idées : mais.",
+        "Ce n’est pas une cause."
+       ]
+      },
+      {
+       "s": "Tu veux du riz ___ du plantain ?",
+       "a": "ou",
+       "w": [
+        "mais",
+        "car"
+       ],
+       "e": [
+        "C’est un choix : ou.",
+        "Ce n’est pas une cause."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la conjonction qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-9-choix",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Il n’aime ___ le poisson ni la viande.",
+       "a": "ni",
+       "w": [
+        "et",
+        "ou"
+       ],
+       "e": [
+        "Avec une négation, on emploie ni … ni.",
+        "Avec une négation, on emploie ni … ni."
+       ]
+      },
+      {
+       "s": "Ma sœur lave les assiettes ___ mon frère les essuie.",
+       "a": "et",
+       "w": [
+        "car",
+        "or"
+       ],
+       "e": [
+        "On ajoute une action : et.",
+        "« or » introduit un élément de raisonnement."
+       ]
+      },
+      {
+       "s": "Tous les élèves doivent venir ; ___ Paul est absent.",
+       "a": "or",
+       "w": [
+        "car",
+        "et"
+       ],
+       "e": [
+        "On introduit un fait nouveau qui pose problème : or.",
+        "« et » ajoute simplement."
+       ]
+      },
+      {
+       "s": "Il est petit ___ très fort.",
+       "a": "mais",
+       "w": [
+        "donc",
+        "car"
+       ],
+       "e": [
+        "On oppose deux idées.",
+        "Ce n’est pas une cause."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis la conjonction qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-9-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase emploie mal la conjonction ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Je suis fatigué, car j’ai beaucoup marché.",
+      "truth": "true"
+     },
+     {
+      "text": "Il fait nuit, donc j’allume la lampe.",
+      "truth": "true"
+     },
+     {
+      "text": "Il est riche mais il n’est pas heureux.",
+      "truth": "true"
+     },
+     {
+      "text": "Veux-tu du thé ou du café ?",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "J’ai beaucoup marché, car je suis fatigué.",
+      "truth": "false",
+      "explain": "La fatigue est la conséquence : « donc je suis fatigué »."
+     },
+     {
+      "text": "Il n’aime ni le riz et le plantain.",
+      "truth": "false",
+      "explain": "Avec ni, on répète ni : ni le riz ni le plantain."
+     },
+     {
+      "text": "J’allume la lampe, donc il fait nuit.",
+      "truth": "false",
+      "explain": "La nuit est la cause : « car il fait nuit »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

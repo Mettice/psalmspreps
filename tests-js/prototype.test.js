@@ -10,7 +10,7 @@ const FILE = new URL("tools/prototype/form1.html", ROOT);
 const page = () => readFileSync(FILE, "utf8");
 const constant = (html, name) => JSON.parse(html.match(new RegExp(`const ${name} = (.*);\\n`))[1]);
 const FORM1 = ["maths", "english", "physics", "chemistry", "geography", "home-economics", "history", "biology", "computer-science", "french"];
-const FORM2 = ["f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-geography", "f2-home-economics", "f2-history", "f2-biology", "f2-computer-science", "f2-french", "f2-accounting"];
+const FORM2 = ["f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-geography", "f2-home-economics", "f2-history", "f2-biology", "f2-computer-science", "f2-french", "f2-francais-intensif", "f2-accounting"];
 
 test("prototype: builds under 1.5 MB, no external resources, engine runs", () => {
   execFileSync(process.execPath, [new URL("tools/prototype/build.mjs", ROOT).pathname.replace(/^\/([A-Za-z]:)/, "$1")]);

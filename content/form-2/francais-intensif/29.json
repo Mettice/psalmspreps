@@ -1,0 +1,466 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-29",
+   "name": "Les homophones : quel(s), qu’elle(s), son, sont, a, à, et, est, ses, ces"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• quel(s), quelle(s) : déterminant qui s’accorde (Quelle robe ?) ; qu’elle(s) = que + elle(s), on peut dire qu’il(s).\n• son : possessif (on peut dire « mon ») ; sont : verbe être (on peut dire « étaient »).\n• a : verbe avoir (on peut dire « avait ») ; à : préposition (on ne peut pas dire « avait ») : Il a mal à la tête.\n• est : verbe être (on peut dire « était ») ; et : conjonction (on peut dire « et puis ») : Le ciel est bleu et le soleil brille.\n• ses : possessif (les siens : « ses livres » = les livres à lui) ; ces : démonstratif (on montre : « ces livres-là »).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : « Paul ___ (a/à) mal ___ (a/à) la tête ; il ___ (et/est) fatigué ___ (et/est) triste. »",
+  "steps": [
+   "« Paul avait mal » : verbe avoir → a.",
+   "« avait la tête » ne marche pas → à.",
+   "« il était fatigué » → est.",
+   "« fatigué et puis triste » → et."
+  ],
+  "answer": "Paul a mal à la tête ; il est fatigué et triste.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "a = avait (verbe avoir) ; à = préposition.",
+    "vars": {},
+    "example": [
+     "Il a un vélo. Il va à l’école."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-29-a"
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "est = était (verbe être) ; et = et puis (conjonction).",
+    "vars": {},
+    "example": [
+     "La case est propre et grande."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-29-et"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "ses = les siens ; ces = ceux-là (on montre).",
+    "vars": {},
+    "example": [
+     "Il range ses livres. Regarde ces nuages !"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-29-ses-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Paul range ___ livres dans son cartable.",
+         "a": "ses",
+         "w": [
+          "ces",
+          "c’est"
+         ],
+         "e": [
+          "Les livres sont à Paul : possessif « ses ».",
+          "« c’est » = cela est."
+         ]
+        },
+        {
+         "s": "Regarde ___ beaux oiseaux sur l’arbre !",
+         "a": "ces",
+         "w": [
+          "ses",
+          "sait"
+         ],
+         "e": [
+          "On montre les oiseaux : démonstratif « ces ».",
+          "« sait » est le verbe savoir."
+         ]
+        },
+        {
+         "s": "Les filles ___ dans la cour.",
+         "a": "sont",
+         "w": [
+          "son",
+          "ont"
+         ],
+         "e": [
+          "On peut dire « étaient » : verbe être.",
+          "« ont » est le verbe avoir ; il faut le verbe être."
+         ]
+        },
+        {
+         "s": "Je crois ___ vont revenir.",
+         "a": "qu’elles",
+         "w": [
+          "quelles",
+          "quel"
+         ],
+         "e": [
+          "On peut dire « qu’ils vont revenir » : que + elles.",
+          "On peut dire « qu’ils » : que + elles."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui convient.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-29-a",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Mon frère ___ un nouveau cartable.",
+       "a": "a",
+       "w": [
+        "à",
+        "as"
+       ],
+       "e": [
+        "On peut dire « avait » : c’est le verbe avoir.",
+        "Avec « mon frère », on écrit « a »."
+       ]
+      },
+      {
+       "s": "Nous allons ___ la rivière.",
+       "a": "à",
+       "w": [
+        "a",
+        "as"
+       ],
+       "e": [
+        "On ne peut pas dire « avait la rivière » : c’est la préposition.",
+        "« as » va avec « tu »."
+       ]
+      },
+      {
+       "s": "Ma tante ___ mal au dos.",
+       "a": "a",
+       "w": [
+        "à",
+        "as"
+       ],
+       "e": [
+        "On peut dire « avait mal » : verbe avoir.",
+        "« as » va avec « tu »."
+       ]
+      },
+      {
+       "s": "Il pense ___ ses vacances.",
+       "a": "à",
+       "w": [
+        "a",
+        "as"
+       ],
+       "e": [
+        "On ne peut pas dire « avait ses vacances » ici : préposition.",
+        "« as » va avec « tu »."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis « a » ou « à ».",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-29-et",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le marché ___ plein de monde.",
+       "a": "est",
+       "w": [
+        "et",
+        "ai"
+       ],
+       "e": [
+        "On peut dire « était » : verbe être.",
+        "« ai » va avec « je »."
+       ]
+      },
+      {
+       "s": "J’achète du riz ___ des tomates.",
+       "a": "et",
+       "w": [
+        "est",
+        "es"
+       ],
+       "e": [
+        "On peut dire « et puis » : conjonction.",
+        "« es » va avec « tu »."
+       ]
+      },
+      {
+       "s": "Ma sœur ___ malade depuis hier.",
+       "a": "est",
+       "w": [
+        "et",
+        "ait"
+       ],
+       "e": [
+        "On peut dire « était » : verbe être.",
+        "« ait » ne convient pas ici."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis « et » ou « est ».",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-29-ses",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Paul range ___ livres dans son cartable.",
+       "a": "ses",
+       "w": [
+        "ces",
+        "c’est"
+       ],
+       "e": [
+        "Les livres sont à Paul : possessif « ses ».",
+        "« c’est » = cela est."
+       ]
+      },
+      {
+       "s": "Regarde ___ beaux oiseaux sur l’arbre !",
+       "a": "ces",
+       "w": [
+        "ses",
+        "sait"
+       ],
+       "e": [
+        "On montre les oiseaux : démonstratif « ces ».",
+        "« sait » est le verbe savoir."
+       ]
+      },
+      {
+       "s": "Les filles ___ dans la cour.",
+       "a": "sont",
+       "w": [
+        "son",
+        "ont"
+       ],
+       "e": [
+        "On peut dire « étaient » : verbe être.",
+        "« ont » est le verbe avoir ; il faut le verbe être."
+       ]
+      },
+      {
+       "s": "Je crois ___ vont revenir.",
+       "a": "qu’elles",
+       "w": [
+        "quelles",
+        "quel"
+       ],
+       "e": [
+        "On peut dire « qu’ils vont revenir » : que + elles.",
+        "On peut dire « qu’ils » : que + elles."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui convient.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-29-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase contient une faute d’homophone ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Il a mal à la tête.",
+      "truth": "true"
+     },
+     {
+      "text": "Le ciel est bleu et le soleil brille.",
+      "truth": "true"
+     },
+     {
+      "text": "Elle range ses habits.",
+      "truth": "true"
+     },
+     {
+      "text": "Quelle belle journée !",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ma mère à un nouveau pagne.",
+      "truth": "false",
+      "explain": "On peut dire « avait » : il faut « a »."
+     },
+     {
+      "text": "Le chien et dans la cour.",
+      "truth": "false",
+      "explain": "On peut dire « était » : il faut « est »."
+     },
+     {
+      "text": "Paul lave ces mains avant de manger.",
+      "truth": "false",
+      "explain": "Ce sont ses mains à lui : « ses »."
+     },
+     {
+      "text": "Les enfants son au marché.",
+      "truth": "false",
+      "explain": "On peut dire « étaient » : il faut « sont »."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -156,11 +156,28 @@ export const fr2AdjNaive = (a, g, pl) => a + (g === "f" ? "e" : "") + (pl ? "s" 
 const NOUN_PL = { cheval: "chevaux", journal: "journaux", animal: "animaux", hôpital: "hôpitaux", canal: "canaux", métal: "métaux", signal: "signaux", général: "généraux",
   bal: "bals", carnaval: "carnavals", festival: "festivals", chacal: "chacals", récital: "récitals", régal: "régals",
   détail: "détails", éventail: "éventails", rail: "rails", gouvernail: "gouvernails", épouvantail: "épouvantails",
-  travail: "travaux", corail: "coraux", émail: "émaux", vitrail: "vitraux", bail: "baux", soupirail: "soupiraux" };
+  travail: "travaux", corail: "coraux", émail: "émaux", vitrail: "vitraux", bail: "baux", soupirail: "soupiraux",
+  // -ou → -ous, except the seven in -oux; -au, -eau, -eu → -x, except landau, sarrau, pneu, bleu (TR-Z06)
+  bijou: "bijoux", caillou: "cailloux", chou: "choux", genou: "genoux", hibou: "hiboux", joujou: "joujoux", pou: "poux",
+  trou: "trous", clou: "clous", cou: "cous", sou: "sous", fou: "fous",
+  bateau: "bateaux", gâteau: "gâteaux", oiseau: "oiseaux", tuyau: "tuyaux", noyau: "noyaux", cheveu: "cheveux", jeu: "jeux", feu: "feux",
+  pneu: "pneus", landau: "landaus" };
 export const fr2Nouns = () => Object.keys(NOUN_PL);
 export const fr2NounPlural = (n) => { if (!NOUN_PL[n]) throw new RangeError(`fr2NounPlural: ${n}`); return NOUN_PL[n]; };
 /** Wrong on purpose: always -aux (or always -s), for feedback only. */
-export const fr2NounNaive = (n) => (NOUN_PL[n].endsWith("aux") ? `${n}s` : n.replace(/(al|ail)$/, "aux"));
+export function fr2NounNaive(n) {
+  const pl = NOUN_PL[n];
+  if (pl.endsWith("x")) return `${n}s`;
+  return /(al|ail)$/.test(n) ? n.replace(/(al|ail)$/, "aux") : `${n}x`;
+}
+/** The rule that gives this plural, in words (for the working). */
+export function fr2NounRule(n) {
+  const x = NOUN_PL[n].endsWith("x");
+  if (n.endsWith("al")) return x ? "les noms en -al font leur pluriel en -aux" : `« ${n} » est une exception : il prend -s`;
+  if (n.endsWith("ail")) return x ? `« ${n} » est un des noms en -ail qui font -aux (bail, corail, émail, soupirail, travail, vitrail)` : "les noms en -ail prennent -s";
+  if (n.endsWith("ou")) return x ? `« ${n} » est un des sept noms en -ou qui prennent -x (bijou, caillou, chou, genou, hibou, joujou, pou)` : "les noms en -ou prennent -s";
+  return x ? "les noms en -au, -eau et -eu prennent -x" : `« ${n} » est une exception : il prend -s`;
+}
 /** Wrong on purpose: an adjective in -al always given -aux ("finaux" for final), for feedback only. */
 export const fr2AlAux = (a) => a.replace(/al$/, "aux");
 /** The other gender: "m" ↔ "f". */
@@ -173,4 +190,46 @@ export function fr2WrongGroup(v, p) {
   if (SECOND.has(v)) return v.slice(0, -2) + ["s", "s", "t", "ons", "ez", "ent"][k];
   if (v.endsWith("ir")) return v.slice(0, -2) + IR[k];
   throw new RangeError(`fr2WrongGroup: ${v}`);
+}
+
+// ---------------------------------------------------------------- Français intensif helpers
+/** Wrong on purpose: the imparfait built on the infinitive (je mangais, je commencais, je finais), for feedback only. */
+export const fr2ImparfaitNaive = (v, p) => v.slice(0, -2) + IMP[PERSON[p]];
+/** Wrong on purpose: the passé simple of the other group (il parlit, il finissa), for feedback only. */
+export function fr2PsWrongGroup(v, p) {
+  const k = PERSON[p];
+  if (SECOND.has(v)) return v.slice(0, -2) + PS_ER[k];
+  if (v.endsWith("er") && !IRR[v]) return v.slice(0, -2) + PS_IR[k];
+  throw new RangeError(`fr2PsWrongGroup: ${v}`);
+}
+/** Wrong on purpose: the participe présent without the spelling change or the -iss- (mangant, commencant, finant). */
+const PPR_NAIVE = { être: "êtant", avoir: "avoyant", faire: "fesant", prendre: "prendant", lire: "lirant", dire: "dirant", écrire: "écrirant", voir: "voirant",
+  venir: "venissant", partir: "partissant", sortir: "sortissant", sentir: "sentissant", dormir: "dormissant" };
+export const fr2PprNaive = (v) => PPR_NAIVE[v] || v.slice(0, -2) + "ant";
+/** A full form with its pronoun, in one of the four tenses taught: "présent", "imparfait", "passé composé", "passé simple". */
+export function fr2Form(v, p, t) {
+  if (t === "passé composé") return fr2PasseCompose(v, p);
+  const f = { présent: fr2Present, imparfait: fr2Imparfait, "passé simple": fr2PasseSimple }[t];
+  if (!f) throw new RangeError(`fr2Form: ${t}`);
+  return withPronoun(p, f(v, p));
+}
+export const FR2_TENSES = ["présent", "imparfait", "passé composé", "passé simple"];
+export const fr2Tenses = () => FR2_TENSES;
+/** True when two tenses give the same form here (je finis: présent and passé simple), so a "which tense?" question is ambiguous. */
+export const fr2Ambiguous = (v, p) => fr2Present(v, p) === fr2PasseSimple(v, p) || fr2Imparfait(v, p) === fr2PasseSimple(v, p);
+
+// Adverbs in -ment (authored, TR-Z07): adjective → adverb
+const ADV = { lent: "lentement", rapide: "rapidement", doux: "doucement", heureux: "heureusement", sérieux: "sérieusement", attentif: "attentivement",
+  facile: "facilement", calme: "calmement", poli: "poliment", vrai: "vraiment", absolu: "absolument", prudent: "prudemment", patient: "patiemment",
+  bruyant: "bruyamment", courant: "couramment", gentil: "gentiment" };
+export const fr2AdvList = () => Object.keys(ADV);
+export const fr2Adverb = (a) => { if (!ADV[a]) throw new RangeError(`fr2Adverb: ${a}`); return ADV[a]; };
+/** Wrong on purpose: the masculine + -ment (lentment, prudentment), or -ement after a vowel (vraiement), for feedback only. */
+export const fr2AdvNaive = (a) => (/[iéuy]$/.test(a) ? `${a}ement` : `${a}ment`);
+export function fr2AdvRule(a) {
+  if (a === "gentil") return "« gentil » est une exception : gentiment";
+  if (ADV[a].endsWith("amment")) return "-ant devient -amment";
+  if (ADV[a].endsWith("emment")) return "-ent devient -emment";  // lent is not one: lente → lentement
+  if (/[iéuy]$/.test(a)) return "après une voyelle, on ajoute -ment au masculin";
+  return "on ajoute -ment au féminin de l’adjectif";
 }

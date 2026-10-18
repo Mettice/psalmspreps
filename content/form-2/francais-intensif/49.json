@@ -1,0 +1,430 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 49,
+ "language": "fr",
+ "prerequisites": [
+  24
+ ],
+ "skills": [
+  {
+   "id": "fi2-49",
+   "name": "La lecture expressive d’un dialogue"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans un dialogue, les paroles des personnages sont entre guillemets ou après un tiret (—). Les verbes de parole indiquent comment lire :\n• murmurer, chuchoter : voix basse ; • crier, hurler : voix très forte ; • supplier : voix suppliante ; • répondre, dire : voix normale ;\n• demander : la voix monte (question) ; • s’exclamer : voix vive (exclamation) ; • gronder : voix sévère.\nPour bien lire un dialogue : on change un peu la voix pour chaque personnage ; on lit le narrateur d’une voix neutre ; on respecte la ponctuation et les sentiments.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Comment lire : « — Grand-père, n’y va pas ! supplia Junior. — La mer est ma mère, répondit le vieil homme en souriant. »",
+  "steps": [
+   "« supplia » : la voix de Junior est suppliante et inquiète.",
+   "« répondit … en souriant » : la voix du grand-père est calme et douce.",
+   "« supplia Junior » et « répondit le vieil homme » : voix neutre du narrateur."
+  ],
+  "answer": "Junior d’une voix suppliante, le grand-père d’une voix calme et souriante, le narrateur d’une voix neutre.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c49-1",
+    "status": "draft",
+    "idea": "Le verbe de parole dit comment lire : murmurer (bas), crier (fort), supplier (suppliant).",
+    "vars": {},
+    "example": [
+     "« Viens vite ! » cria-t-il. (voix forte)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-49-verbe"
+    }
+   },
+   {
+    "id": "c49-2",
+    "status": "draft",
+    "idea": "Le tiret (—) ou les guillemets marquent les paroles des personnages.",
+    "vars": {},
+    "example": [
+     "— Bonjour, dit Paul."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-49-signe"
+    }
+   },
+   {
+    "id": "c49-3",
+    "status": "draft",
+    "idea": "On change un peu de voix pour chaque personnage ; le narrateur a une voix neutre.",
+    "vars": {},
+    "example": [
+     "Le grand-père : voix grave ; l’enfant : voix vive."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-49-voix-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "« Chut, le bébé dort », chuchota maman.",
+         "r": "à voix très basse",
+         "w": [
+          "en criant",
+          "d’une voix joyeuse et forte",
+          "en faisant monter la voix comme une question"
+         ],
+         "e": [
+          "« chuchota » demande une voix basse.",
+          "Il faut être silencieux.",
+          "Ce n’est pas une question."
+         ],
+         "y": "« chuchota » : voix basse."
+        },
+        {
+         "q": "« Au feu ! Au feu ! » hurla le gardien.",
+         "r": "d’une voix très forte et affolée",
+         "w": [
+          "à voix basse",
+          "d’une voix calme",
+          "d’une voix triste et lente"
+         ],
+         "e": [
+          "« hurla » demande une voix forte.",
+          "C’est une urgence.",
+          "C’est une urgence."
+         ],
+         "y": "« hurla » : voix très forte."
+        },
+        {
+         "q": "« Tu as encore déchiré ton cahier ? » gronda le père.",
+         "r": "d’une voix sévère",
+         "w": [
+          "d’une voix joyeuse",
+          "en chuchotant",
+          "d’une voix suppliante"
+         ],
+         "e": [
+          "Il est mécontent.",
+          "« gronda » n’est pas chuchoter.",
+          "C’est le père qui gronde."
+         ],
+         "y": "« gronda » : voix sévère."
+        }
+       ]
+      }
+     },
+     "prompt": "Comment lire : « {X.q} » ?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-49-verbe",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Relie chaque verbe de parole à la façon de lire.",
+   "pool": [
+    {
+     "left": "murmurer",
+     "right": "à voix très basse"
+    },
+    {
+     "left": "crier",
+     "right": "à voix très forte"
+    },
+    {
+     "left": "supplier",
+     "right": "d’une voix qui implore"
+    },
+    {
+     "left": "gronder",
+     "right": "d’une voix sévère"
+    },
+    {
+     "left": "demander",
+     "right": "la voix monte à la fin"
+    }
+   ],
+   "pick": 4,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-49-signe",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel signe marque le changement de personnage dans un dialogue ?",
+       "r": "le tiret (—)",
+       "w": [
+        "le point-virgule",
+        "les parenthèses",
+        "le trait d’union dans un mot"
+       ],
+       "e": [
+        "Il sépare deux parties d’une phrase.",
+        "Elles ajoutent une précision.",
+        "Il relie deux mots."
+       ],
+       "y": "Chaque nouvelle réplique commence par un tiret."
+      },
+      {
+       "q": "Comment lit-on « dit le narrateur » dans un dialogue ?",
+       "r": "d’une voix neutre",
+       "w": [
+        "en criant",
+        "en chuchotant",
+        "en chantant"
+       ],
+       "e": [
+        "Le narrateur ne crie pas.",
+        "Le narrateur parle normalement.",
+        "On ne chante pas."
+       ],
+       "y": "Le narrateur a une voix neutre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-49-voix",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "« Chut, le bébé dort », chuchota maman.",
+       "r": "à voix très basse",
+       "w": [
+        "en criant",
+        "d’une voix joyeuse et forte",
+        "en faisant monter la voix comme une question"
+       ],
+       "e": [
+        "« chuchota » demande une voix basse.",
+        "Il faut être silencieux.",
+        "Ce n’est pas une question."
+       ],
+       "y": "« chuchota » : voix basse."
+      },
+      {
+       "q": "« Au feu ! Au feu ! » hurla le gardien.",
+       "r": "d’une voix très forte et affolée",
+       "w": [
+        "à voix basse",
+        "d’une voix calme",
+        "d’une voix triste et lente"
+       ],
+       "e": [
+        "« hurla » demande une voix forte.",
+        "C’est une urgence.",
+        "C’est une urgence."
+       ],
+       "y": "« hurla » : voix très forte."
+      },
+      {
+       "q": "« Tu as encore déchiré ton cahier ? » gronda le père.",
+       "r": "d’une voix sévère",
+       "w": [
+        "d’une voix joyeuse",
+        "en chuchotant",
+        "d’une voix suppliante"
+       ],
+       "e": [
+        "Il est mécontent.",
+        "« gronda » n’est pas chuchoter.",
+        "C’est le père qui gronde."
+       ],
+       "y": "« gronda » : voix sévère."
+      }
+     ]
+    }
+   },
+   "prompt": "Comment lire : « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-49-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour lire un dialogue est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On change un peu de voix pour chaque personnage.",
+      "truth": "true"
+     },
+     {
+      "text": "Le narrateur a une voix neutre.",
+      "truth": "true"
+     },
+     {
+      "text": "Les verbes de parole indiquent le ton.",
+      "truth": "true"
+     },
+     {
+      "text": "On respecte la ponctuation.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "« murmura » se lit en criant.",
+      "truth": "false",
+      "explain": "Murmurer, c’est parler très bas."
+     },
+     {
+      "text": "On lit tous les personnages exactement de la même façon.",
+      "truth": "false",
+      "explain": "On change un peu la voix pour chaque personnage."
+     },
+     {
+      "text": "On ne fait pas attention aux tirets.",
+      "truth": "false",
+      "explain": "Les tirets montrent qui parle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

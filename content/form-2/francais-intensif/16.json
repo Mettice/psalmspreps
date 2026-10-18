@@ -1,0 +1,512 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "fr",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "fi2-16",
+   "name": "Les liaisons"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "On fait une liaison quand la consonne finale d’un mot, muette d’habitude, se prononce devant un mot qui commence par une voyelle ou un h muet : les‿enfants [lezɑ̃fɑ̃].\nSons de liaison : s, x, z → [z] (les‿amis, deux‿heures, chez‿elle) ; t, d → [t] (petit‿ami, grand‿homme) ; n → [n] (un‿ami, on‿arrive).\nLiaisons obligatoires : déterminant + nom (les‿élèves, un‿oiseau) ; pronom + verbe (nous‿avons, ils‿ont) ; adjectif + nom (petit‿enfant) ; après des petits mots (dans‿un, en‿été, très‿utile).\nLiaisons interdites : après « et » (et | ensuite) ; devant un h aspiré (les | haricots, les | héros) ; après un nom singulier (un enfant | intelligent).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Où fait-on la liaison dans « Les enfants ont un ami » ?",
+  "steps": [
+   "« Les‿enfants » : déterminant + nom : liaison obligatoire en [z].",
+   "« enfants‿ont » : après un nom, on ne la fait pas d’habitude.",
+   "« un‿ami » : déterminant + nom : liaison en [n]."
+  ],
+  "answer": "Les‿enfants ont un‿ami : [z] et [n].",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "La liaison fait entendre la consonne finale devant une voyelle : les‿amis [z].",
+    "vars": {},
+    "example": [
+     "deux‿oranges [z], un‿ami [n]"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-16-son"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Liaison obligatoire entre le déterminant et le nom, et entre le pronom et le verbe.",
+    "vars": {},
+    "example": [
+     "les‿élèves, nous‿avons"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-16-oblig"
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "Pas de liaison après « et », ni devant un h aspiré : les | haricots.",
+    "vars": {},
+    "example": [
+     "les | héros, et | ensuite"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-16-interdit-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "et | ensuite",
+         "w": [
+          "les‿amis",
+          "nous‿allons",
+          "un‿oiseau"
+         ],
+         "e": [
+          "Liaison obligatoire.",
+          "Liaison obligatoire.",
+          "Liaison obligatoire."
+         ],
+         "y": "On ne fait jamais la liaison après « et »."
+        },
+        {
+         "r": "les | haricots",
+         "w": [
+          "les‿enfants",
+          "ils‿ont",
+          "dans‿un"
+         ],
+         "e": [
+          "Liaison obligatoire.",
+          "Liaison obligatoire.",
+          "Liaison obligatoire."
+         ],
+         "y": "« haricot » commence par un h aspiré."
+        },
+        {
+         "r": "les | héros",
+         "w": [
+          "les‿hommes",
+          "deux‿heures",
+          "un‿ami"
+         ],
+         "e": [
+          "« homme » a un h muet : liaison.",
+          "« heure » a un h muet : liaison.",
+          "Liaison obligatoire."
+         ],
+         "y": "« héros » commence par un h aspiré."
+        }
+       ]
+      }
+     },
+     "prompt": "Dans quel groupe la liaison est-elle interdite ?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-16-son",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "les amis",
+       "r": "[z]",
+       "w": [
+        "[t]",
+        "[n]",
+        "aucun"
+       ],
+       "e": [
+        "Le s de liaison se prononce [z].",
+        "Il n’y a pas de n.",
+        "On fait la liaison entre déterminant et nom."
+       ],
+       "y": "s → [z]."
+      },
+      {
+       "q": "un ami",
+       "r": "[n]",
+       "w": [
+        "[z]",
+        "[t]",
+        "aucun"
+       ],
+       "e": [
+        "Il n’y a pas de s.",
+        "Il n’y a pas de t.",
+        "On fait la liaison entre déterminant et nom."
+       ],
+       "y": "n → [n]."
+      },
+      {
+       "q": "un petit enfant",
+       "r": "[t]",
+       "w": [
+        "[z]",
+        "[n]",
+        "[d]"
+       ],
+       "e": [
+        "Il n’y a pas de s.",
+        "Le son entre « petit » et « enfant » est [t].",
+        "Le t se prononce [t]."
+       ],
+       "y": "t → [t]."
+      },
+      {
+       "q": "deux oranges",
+       "r": "[z]",
+       "w": [
+        "[t]",
+        "[n]",
+        "[s]"
+       ],
+       "e": [
+        "Il n’y a pas de t.",
+        "Il n’y a pas de n.",
+        "Le x de liaison se prononce [z]."
+       ],
+       "y": "x → [z]."
+      }
+     ]
+    }
+   },
+   "prompt": "Quel son de liaison entend-on dans « {X.q} » ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-16-oblig",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "nous avons",
+       "w": [
+        "et ensuite",
+        "les haricots",
+        "un enfant intelligent"
+       ],
+       "e": [
+        "Pas de liaison après « et ».",
+        "« haricot » commence par un h aspiré.",
+        "Pas de liaison après un nom singulier."
+       ],
+       "y": "Pronom + verbe : liaison obligatoire."
+      },
+      {
+       "r": "les élèves",
+       "w": [
+        "et un",
+        "les héros",
+        "un garçon heureux"
+       ],
+       "e": [
+        "Pas de liaison après « et ».",
+        "« héros » commence par un h aspiré.",
+        "« garçon » finit par un son de voyelle nasale ; on ne lie pas ici."
+       ],
+       "y": "Déterminant + nom : liaison obligatoire."
+      },
+      {
+       "r": "ils ont",
+       "w": [
+        "et alors",
+        "les hiboux",
+        "un livre ancien"
+       ],
+       "e": [
+        "Pas de liaison après « et ».",
+        "« hibou » commence par un h aspiré.",
+        "« livre » finit par une voyelle muette ; il n’y a pas de consonne de liaison."
+       ],
+       "y": "Pronom + verbe : liaison obligatoire."
+      }
+     ]
+    }
+   },
+   "prompt": "Dans quel groupe la liaison est-elle obligatoire ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-16-interdit",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "et | ensuite",
+       "w": [
+        "les‿amis",
+        "nous‿allons",
+        "un‿oiseau"
+       ],
+       "e": [
+        "Liaison obligatoire.",
+        "Liaison obligatoire.",
+        "Liaison obligatoire."
+       ],
+       "y": "On ne fait jamais la liaison après « et »."
+      },
+      {
+       "r": "les | haricots",
+       "w": [
+        "les‿enfants",
+        "ils‿ont",
+        "dans‿un"
+       ],
+       "e": [
+        "Liaison obligatoire.",
+        "Liaison obligatoire.",
+        "Liaison obligatoire."
+       ],
+       "y": "« haricot » commence par un h aspiré."
+      },
+      {
+       "r": "les | héros",
+       "w": [
+        "les‿hommes",
+        "deux‿heures",
+        "un‿ami"
+       ],
+       "e": [
+        "« homme » a un h muet : liaison.",
+        "« heure » a un h muet : liaison.",
+        "Liaison obligatoire."
+       ],
+       "y": "« héros » commence par un h aspiré."
+      }
+     ]
+    }
+   },
+   "prompt": "Dans quel groupe la liaison est-elle interdite ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Dans « les amis », on entend [z].",
+      "truth": "true"
+     },
+     {
+      "text": "On ne fait pas la liaison après « et ».",
+      "truth": "true"
+     },
+     {
+      "text": "Dans « un ami », on entend [n].",
+      "truth": "true"
+     },
+     {
+      "text": "On fait la liaison dans « nous avons ».",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On fait la liaison dans « les haricots ».",
+      "truth": "false",
+      "explain": "« haricot » a un h aspiré : pas de liaison."
+     },
+     {
+      "text": "Dans « petit ami », on entend [z].",
+      "truth": "false",
+      "explain": "Le t de liaison se prononce [t]."
+     },
+     {
+      "text": "La liaison se fait devant une consonne.",
+      "truth": "false",
+      "explain": "Elle se fait devant une voyelle ou un h muet."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

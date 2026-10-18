@@ -1,0 +1,441 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-18",
+   "name": "Interpréter une image"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Il existe plusieurs sortes d’images : la photo, le dessin, l’affiche (image + slogan, pour informer ou convaincre), la caricature (dessin qui exagère pour faire rire ou critiquer), la bande dessinée.\nPour l’interpréter à l’oral :\n1. dire de quel type d’image il s’agit et ce qui est écrit (le titre, la légende, le slogan) ;\n2. décrire en situant : au premier plan, à l’arrière-plan, à gauche, à droite, au centre ; remarquer les couleurs et les expressions des visages ;\n3. dire le message : « Cette affiche veut nous dire que … », « L’auteur dénonce / conseille … » ;\n4. donner son avis : « À mon avis … ».",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une affiche montre une main qui jette un sachet plastique dans une rivière ; le slogan dit : « La rivière n’est pas une poubelle ! » Interprète-la.",
+  "steps": [
+   "Type : une affiche avec un slogan.",
+   "Description : au centre, une main jette un sachet dans la rivière.",
+   "Message : l’affiche dénonce la pollution de l’eau et conseille de jeter les déchets dans la poubelle."
+  ],
+  "answer": "C’est une affiche qui dénonce la pollution de la rivière et conseille d’utiliser la poubelle.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "Une affiche associe une image et un slogan pour informer ou convaincre.",
+    "vars": {},
+    "example": [
+     "« Dormons sous moustiquaire ! »"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-18-type"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "La légende est le petit texte qui explique une photo ; le slogan est une phrase courte qui frappe.",
+    "vars": {},
+    "example": [
+     "Légende : « Le marché de Mokolo un samedi matin »."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-18-mot"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "Après la description, on dit le message de l’image : ce qu’elle dénonce ou conseille.",
+    "vars": {},
+    "example": [
+     "Cette affiche conseille de se laver les mains."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-18-msg-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Une affiche montre un enfant qui dort sous une moustiquaire ; slogan : « Une nuit sous moustiquaire, une vie sans paludisme ». Quel est le message ?",
+         "r": "dormir sous moustiquaire protège du paludisme",
+         "w": [
+          "les enfants dorment trop",
+          "il faut acheter un nouveau lit",
+          "le paludisme n’est pas dangereux"
+         ],
+         "e": [
+          "Ce n’est pas le message.",
+          "L’affiche parle de la moustiquaire.",
+          "C’est le contraire."
+         ],
+         "y": "Le slogan relie la moustiquaire et le paludisme."
+        },
+        {
+         "q": "Une caricature montre un homme énorme qui coupe tous les arbres d’une forêt avec un sourire. Que dénonce-t-elle ?",
+         "r": "la destruction des forêts",
+         "w": [
+          "le métier de bûcheron",
+          "les gens qui sourient",
+          "la plantation d’arbres"
+         ],
+         "e": [
+          "Elle critique l’excès, pas le métier.",
+          "Le sourire montre l’insouciance.",
+          "C’est le contraire."
+         ],
+         "y": "Elle exagère pour critiquer la déforestation."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-18-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel type d’image associe un dessin et un slogan pour convaincre ?",
+       "r": "une affiche",
+       "w": [
+        "une photo de famille",
+        "une carte géographique",
+        "un tableau de notes"
+       ],
+       "e": [
+        "Elle n’a pas de slogan.",
+        "Elle montre des lieux.",
+        "Ce n’est pas une image."
+       ],
+       "y": "L’affiche veut convaincre."
+      },
+      {
+       "q": "Quel type d’image exagère les traits d’une personne pour faire rire ou critiquer ?",
+       "r": "une caricature",
+       "w": [
+        "une photo d’identité",
+        "une affiche de santé",
+        "un plan de maison"
+       ],
+       "e": [
+        "Elle montre la personne telle qu’elle est.",
+        "Elle informe.",
+        "Ce n’est pas un portrait."
+       ],
+       "y": "La caricature exagère."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-18-mot",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment appelle-t-on le petit texte qui explique une photo ?",
+       "r": "la légende",
+       "w": [
+        "le slogan",
+        "le titre du livre",
+        "la signature"
+       ],
+       "e": [
+        "Le slogan est une phrase qui frappe, sur une affiche.",
+        "Ce n’est pas un livre.",
+        "La signature est un nom."
+       ],
+       "y": "La légende explique l’image."
+      },
+      {
+       "q": "Comment appelle-t-on la phrase courte et frappante d’une affiche ?",
+       "r": "le slogan",
+       "w": [
+        "la légende",
+        "la strophe",
+        "le paragraphe"
+       ],
+       "e": [
+        "La légende explique une photo.",
+        "La strophe est dans un poème.",
+        "Un paragraphe est plus long."
+       ],
+       "y": "Le slogan se retient facilement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-18-msg",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une affiche montre un enfant qui dort sous une moustiquaire ; slogan : « Une nuit sous moustiquaire, une vie sans paludisme ». Quel est le message ?",
+       "r": "dormir sous moustiquaire protège du paludisme",
+       "w": [
+        "les enfants dorment trop",
+        "il faut acheter un nouveau lit",
+        "le paludisme n’est pas dangereux"
+       ],
+       "e": [
+        "Ce n’est pas le message.",
+        "L’affiche parle de la moustiquaire.",
+        "C’est le contraire."
+       ],
+       "y": "Le slogan relie la moustiquaire et le paludisme."
+      },
+      {
+       "q": "Une caricature montre un homme énorme qui coupe tous les arbres d’une forêt avec un sourire. Que dénonce-t-elle ?",
+       "r": "la destruction des forêts",
+       "w": [
+        "le métier de bûcheron",
+        "les gens qui sourient",
+        "la plantation d’arbres"
+       ],
+       "e": [
+        "Elle critique l’excès, pas le métier.",
+        "Le sourire montre l’insouciance.",
+        "C’est le contraire."
+       ],
+       "y": "Elle exagère pour critiquer la déforestation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-18-ordre",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "C’est une affiche du club santé.",
+       "Au centre, on voit des enfants qui se lavent les mains.",
+       "Le slogan dit : « Des mains propres, une santé solide ».",
+       "Cette affiche conseille de se laver souvent les mains.",
+       "À mon avis, ce conseil est très utile."
+      ],
+      [
+       "C’est une caricature parue dans un journal.",
+       "Au premier plan, un homme énorme coupe des arbres.",
+       "À l’arrière-plan, la forêt a disparu.",
+       "Le dessinateur dénonce la déforestation.",
+       "Je pense qu’il a raison."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets la présentation de l’image dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  }
+ ]
+}

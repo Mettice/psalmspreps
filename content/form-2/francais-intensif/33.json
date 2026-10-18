@@ -1,0 +1,431 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 33,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  15
+ ],
+ "skills": [
+  {
+   "id": "fi2-33",
+   "name": "Décrire : le portrait"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Faire le portrait de quelqu’un, c’est le décrire.\n• Le portrait physique : la taille, la silhouette, le visage, les cheveux, les yeux, les vêtements.\n• Le portrait moral : le caractère et les qualités ou défauts (généreux, timide, courageux, patient, coléreux, paresseux).\nMéthode : aller du général au détail (d’abord la silhouette, puis le visage, puis un détail) ; employer des adjectifs précis et des comparaisons (« ses yeux brillent comme des étoiles ») ; donner un exemple d’action qui montre le caractère (« Elle partage toujours son goûter »).\nOn emploie surtout le présent (ou l’imparfait dans un récit au passé).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Fais en trois phrases le portrait de ta grand-mère : physique, moral et un exemple.",
+  "steps": [
+   "Physique : « Ma grand-mère est petite et mince ; elle porte toujours un foulard bleu. »",
+   "Moral : « Elle est patiente et généreuse. »",
+   "Exemple : « Elle partage toujours ses arachides avec les enfants du quartier. »"
+  ],
+  "answer": "Ma grand-mère est petite et mince ; elle porte toujours un foulard bleu. Elle est patiente et généreuse. Elle partage toujours ses arachides avec les enfants du quartier.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c33-1",
+    "status": "draft",
+    "idea": "Le portrait physique décrit l’apparence ; le portrait moral décrit le caractère.",
+    "vars": {},
+    "example": [
+     "grand, maigre (physique) ; courageux, timide (moral)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-33-type"
+    }
+   },
+   {
+    "id": "c33-2",
+    "status": "draft",
+    "idea": "On décrit du général au détail : la silhouette, puis le visage, puis un détail.",
+    "vars": {},
+    "example": [
+     "Il est grand ; son visage est rond ; il a une cicatrice au menton."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-33-ordre"
+    }
+   },
+   {
+    "id": "c33-3",
+    "status": "draft",
+    "idea": "Une comparaison rend le portrait vivant : « ses yeux brillent comme des étoiles ».",
+    "vars": {},
+    "example": [
+     "Il est fort comme un lion."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-33-comp-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Ses yeux brillent ___ des étoiles.",
+         "a": "comme",
+         "w": [
+          "mais",
+          "donc"
+         ],
+         "e": [
+          "« mais » oppose ; il faut un mot de comparaison.",
+          "« donc » donne une conséquence."
+         ]
+        },
+        {
+         "s": "Il est fort comme un ___.",
+         "a": "lion",
+         "w": [
+          "escargot",
+          "papillon"
+         ],
+         "e": [
+          "L’escargot n’est pas connu pour sa force.",
+          "Le papillon n’est pas connu pour sa force."
+         ]
+        },
+        {
+         "s": "Elle est douce comme le ___.",
+         "a": "miel",
+         "w": [
+          "piment",
+          "caillou"
+         ],
+         "e": [
+          "Le piment est fort, pas doux.",
+          "Le caillou est dur."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choisis le mot qui complète la comparaison.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-33-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Mon oncle est très généreux.",
+       "r": "moral",
+       "w": [
+        "physique",
+        "ni l’un ni l’autre",
+        "les deux"
+       ],
+       "e": [
+        "La générosité est une qualité du caractère.",
+        "C’est un trait de caractère.",
+        "Il ne parle pas de l’apparence."
+       ],
+       "y": "« généreux » décrit le caractère."
+      },
+      {
+       "q": "Ma cousine a de longues tresses.",
+       "r": "physique",
+       "w": [
+        "moral",
+        "ni l’un ni l’autre",
+        "les deux"
+       ],
+       "e": [
+        "Les tresses font partie de l’apparence.",
+        "C’est l’apparence.",
+        "Il ne parle pas du caractère."
+       ],
+       "y": "Les cheveux font partie du portrait physique."
+      },
+      {
+       "q": "Le maître est patient avec les élèves.",
+       "r": "moral",
+       "w": [
+        "physique",
+        "ni l’un ni l’autre",
+        "les deux"
+       ],
+       "e": [
+        "La patience est une qualité.",
+        "C’est un trait de caractère.",
+        "Il ne parle pas de l’apparence."
+       ],
+       "y": "« patient » décrit le caractère."
+      },
+      {
+       "q": "Le chef est grand et porte une longue barbe.",
+       "r": "physique",
+       "w": [
+        "moral",
+        "ni l’un ni l’autre",
+        "les deux"
+       ],
+       "e": [
+        "La taille et la barbe sont l’apparence.",
+        "C’est l’apparence.",
+        "Il ne parle pas du caractère."
+       ],
+       "y": "Taille et barbe : portrait physique."
+      }
+     ]
+    }
+   },
+   "prompt": "« {X.q} » : est-ce un trait physique ou moral ?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-33-ordre",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Mon grand-père est un homme grand et maigre.",
+       "Son visage est ridé et souriant.",
+       "Une petite cicatrice marque son menton.",
+       "Il est sage et tout le village l’écoute."
+      ],
+      [
+       "Ma voisine est une femme petite et ronde.",
+       "Ses joues sont pleines et son regard est vif.",
+       "Elle porte toujours un collier de perles.",
+       "Elle est joyeuse et rit pour un rien."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le portrait dans l’ordre, du général au détail.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-33-comp",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Ses yeux brillent ___ des étoiles.",
+       "a": "comme",
+       "w": [
+        "mais",
+        "donc"
+       ],
+       "e": [
+        "« mais » oppose ; il faut un mot de comparaison.",
+        "« donc » donne une conséquence."
+       ]
+      },
+      {
+       "s": "Il est fort comme un ___.",
+       "a": "lion",
+       "w": [
+        "escargot",
+        "papillon"
+       ],
+       "e": [
+        "L’escargot n’est pas connu pour sa force.",
+        "Le papillon n’est pas connu pour sa force."
+       ]
+      },
+      {
+       "s": "Elle est douce comme le ___.",
+       "a": "miel",
+       "w": [
+        "piment",
+        "caillou"
+       ],
+       "e": [
+        "Le piment est fort, pas doux.",
+        "Le caillou est dur."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le mot qui complète la comparaison.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-33-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour faire un portrait est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On décrit l’apparence et le caractère.",
+      "truth": "true"
+     },
+     {
+      "text": "On va du général au détail.",
+      "truth": "true"
+     },
+     {
+      "text": "On peut employer des comparaisons.",
+      "truth": "true"
+     },
+     {
+      "text": "On donne un exemple qui montre le caractère.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On décrit seulement les chaussures.",
+      "truth": "false",
+      "explain": "On décrit toute la personne : silhouette, visage, caractère."
+     },
+     {
+      "text": "On commence par un tout petit détail sans parler de la silhouette.",
+      "truth": "false",
+      "explain": "On va du général au détail."
+     },
+     {
+      "text": "Le portrait moral décrit la taille et les cheveux.",
+      "truth": "false",
+      "explain": "C’est le portrait physique ; le moral décrit le caractère."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

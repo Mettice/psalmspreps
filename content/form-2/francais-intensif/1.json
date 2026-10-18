@@ -1,0 +1,503 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 1,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-1",
+   "name": "L’adjectif qualificatif : épithète et attribut"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’adjectif qualificatif dit comment est un nom (une qualité, une couleur, une forme …). Il s’accorde avec ce nom.\n• Épithète : il est placé juste à côté du nom, sans verbe : une robe rouge, un petit village.\n• Attribut du sujet : il est relié au sujet par un verbe d’état (être, sembler, paraître, devenir, rester) : Le village est petit. Ma tante semble fatiguée.\nPlace de l’épithète : la plupart se placent après le nom (une maison propre, un élève sérieux). Quelques adjectifs courts se placent souvent avant : petit, grand, beau, joli, jeune, vieux, bon, mauvais, gros (un bon repas, une jolie case).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Dans « Le vieux chef semble content », quelle est la fonction de chaque adjectif ?",
+  "steps": [
+   "« vieux » est à côté du nom « chef », sans verbe : épithète.",
+   "« content » est relié au sujet par le verbe d’état « semble » : attribut du sujet."
+  ],
+  "answer": "vieux : épithète ; content : attribut du sujet.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c1-1",
+    "status": "draft",
+    "idea": "L’adjectif épithète est placé à côté du nom, sans verbe.",
+    "vars": {},
+    "example": [
+     "une cour propre, un grand arbre"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-1-epi"
+    }
+   },
+   {
+    "id": "c1-2",
+    "status": "draft",
+    "idea": "L’adjectif attribut est relié au sujet par un verbe d’état : être, sembler, paraître, devenir, rester.",
+    "vars": {},
+    "example": [
+     "Le ciel devient gris."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-1-attr"
+    }
+   },
+   {
+    "id": "c1-3",
+    "status": "draft",
+    "idea": "Petit, grand, beau, jeune, vieux, bon se placent souvent avant le nom.",
+    "vars": {},
+    "example": [
+     "un beau pagne, une jeune fille"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-1-place-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase place bien l’adjectif ?",
+         "r": "Mon oncle a une grande maison.",
+         "w": [
+          "Mon oncle a une maison grande.",
+          "Mon oncle a grande une maison.",
+          "Mon oncle grande a une maison."
+         ],
+         "e": [
+          "« grand » se place avant le nom.",
+          "L’adjectif ne se place pas avant le déterminant.",
+          "L’adjectif doit être à côté du nom."
+         ],
+         "y": "« grand » se place avant le nom."
+        },
+        {
+         "q": "Quelle phrase place bien l’adjectif ?",
+         "r": "Il porte une chemise blanche.",
+         "w": [
+          "Il porte une blanche chemise.",
+          "Il porte blanche une chemise.",
+          "Il blanche porte une chemise."
+         ],
+         "e": [
+          "Les couleurs se placent après le nom.",
+          "L’adjectif ne se place pas avant le déterminant.",
+          "L’adjectif doit être à côté du nom."
+         ],
+         "y": "Les couleurs se placent après le nom."
+        },
+        {
+         "q": "Quelle phrase place bien l’adjectif ?",
+         "r": "C’est un élève sérieux.",
+         "w": [
+          "C’est un sérieux élève.",
+          "C’est sérieux un élève.",
+          "C’est un élève sérieuse."
+         ],
+         "e": [
+          "« sérieux » se place ici après le nom.",
+          "L’adjectif doit être à côté du nom.",
+          "« élève » est ici masculin : sérieux."
+         ],
+         "y": "La plupart des adjectifs se placent après le nom."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "Donc la réponse est « {answer} »."
+     ],
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-1-epi",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ma mère a acheté une robe verte. (verte)",
+       "r": "épithète",
+       "w": [
+        "attribut du sujet",
+        "sujet",
+        "verbe"
+       ],
+       "e": [
+        "Il n’y a pas de verbe d’état entre « robe » et « verte ».",
+        "Le sujet est « Ma mère ».",
+        "Le verbe est « a acheté »."
+       ],
+       "y": "« verte » est à côté du nom « robe »."
+      },
+      {
+       "q": "Nous habitons un petit village. (petit)",
+       "r": "épithète",
+       "w": [
+        "attribut du sujet",
+        "complément",
+        "sujet"
+       ],
+       "e": [
+        "Il n’y a pas de verbe d’état.",
+        "C’est un adjectif, pas un complément.",
+        "Le sujet est « Nous »."
+       ],
+       "y": "« petit » est à côté du nom « village »."
+      },
+      {
+       "q": "Les élèves sérieux réussissent. (sérieux)",
+       "r": "épithète",
+       "w": [
+        "attribut du sujet",
+        "verbe",
+        "complément"
+       ],
+       "e": [
+        "« sérieux » n’est pas après un verbe d’état.",
+        "Le verbe est « réussissent ».",
+        "C’est un adjectif."
+       ],
+       "y": "« sérieux » est à côté du nom « élèves »."
+      }
+     ]
+    }
+   },
+   "prompt": "Quelle est la fonction de l’adjectif entre parenthèses ? « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-1-attr",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le marché est propre. (propre)",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète",
+        "sujet",
+        "verbe"
+       ],
+       "e": [
+        "Il est relié au sujet par le verbe « est ».",
+        "Le sujet est « Le marché ».",
+        "Le verbe est « est »."
+       ],
+       "y": "« propre » est relié au sujet par le verbe d’état « est »."
+      },
+      {
+       "q": "Ma grand-mère semble fatiguée. (fatiguée)",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète",
+        "complément",
+        "sujet"
+       ],
+       "e": [
+        "Il est relié au sujet par « semble ».",
+        "C’est un adjectif.",
+        "Le sujet est « Ma grand-mère »."
+       ],
+       "y": "« semble » est un verbe d’état."
+      },
+      {
+       "q": "Le ciel devient gris. (gris)",
+       "r": "attribut du sujet",
+       "w": [
+        "épithète",
+        "verbe",
+        "sujet"
+       ],
+       "e": [
+        "Il est relié au sujet par « devient ».",
+        "Le verbe est « devient ».",
+        "Le sujet est « Le ciel »."
+       ],
+       "y": "« devient » est un verbe d’état."
+      }
+     ]
+    }
+   },
+   "prompt": "Quelle est la fonction de l’adjectif entre parenthèses ? « {X.q} »",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-1-place",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase place bien l’adjectif ?",
+       "r": "Mon oncle a une grande maison.",
+       "w": [
+        "Mon oncle a une maison grande.",
+        "Mon oncle a grande une maison.",
+        "Mon oncle grande a une maison."
+       ],
+       "e": [
+        "« grand » se place avant le nom.",
+        "L’adjectif ne se place pas avant le déterminant.",
+        "L’adjectif doit être à côté du nom."
+       ],
+       "y": "« grand » se place avant le nom."
+      },
+      {
+       "q": "Quelle phrase place bien l’adjectif ?",
+       "r": "Il porte une chemise blanche.",
+       "w": [
+        "Il porte une blanche chemise.",
+        "Il porte blanche une chemise.",
+        "Il blanche porte une chemise."
+       ],
+       "e": [
+        "Les couleurs se placent après le nom.",
+        "L’adjectif ne se place pas avant le déterminant.",
+        "L’adjectif doit être à côté du nom."
+       ],
+       "y": "Les couleurs se placent après le nom."
+      },
+      {
+       "q": "Quelle phrase place bien l’adjectif ?",
+       "r": "C’est un élève sérieux.",
+       "w": [
+        "C’est un sérieux élève.",
+        "C’est sérieux un élève.",
+        "C’est un élève sérieuse."
+       ],
+       "e": [
+        "« sérieux » se place ici après le nom.",
+        "L’adjectif doit être à côté du nom.",
+        "« élève » est ici masculin : sérieux."
+       ],
+       "y": "La plupart des adjectifs se placent après le nom."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-1-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "prompt": "Quelle phrase est fausse ?",
+   "pool": {
+    "right": [
+     {
+      "text": "Dans « une jolie case », « jolie » est épithète.",
+      "truth": "true"
+     },
+     {
+      "text": "Dans « La case est jolie », « jolie » est attribut.",
+      "truth": "true"
+     },
+     {
+      "text": "« sembler » est un verbe d’état.",
+      "truth": "true"
+     },
+     {
+      "text": "L’adjectif s’accorde avec le nom.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Dans « Le chef paraît content », « content » est épithète.",
+      "truth": "false",
+      "explain": "Il est relié au sujet par « paraît » : attribut."
+     },
+     {
+      "text": "Un adjectif attribut est toujours placé avant le nom.",
+      "truth": "false",
+      "explain": "L’attribut suit un verbe d’état."
+     },
+     {
+      "text": "« manger » est un verbe d’état.",
+      "truth": "false",
+      "explain": "Les verbes d’état sont être, sembler, paraître, devenir, rester."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

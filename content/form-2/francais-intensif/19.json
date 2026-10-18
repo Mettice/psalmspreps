@@ -1,0 +1,369 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "fr",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "fi2-19",
+   "name": "Écrire un court texte à partir d’une image"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour écrire un court texte à partir d’une image :\n1. observer : qui ? où ? que se passe-t-il ? quand ?\n2. choisir le temps : le présent si on décrit l’image (« Une femme vend des fruits »), ou le passé si on raconte (imparfait pour le décor, passé composé pour les actions) ;\n3. écrire trois à cinq phrases : une pour situer, des phrases pour décrire ou raconter, une pour conclure (sentiment ou message) ;\n4. relire : majuscules, points, accords.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Image : au marché, une vieille femme fait tomber ses mangues ; un garçon l’aide à les ramasser. Écris trois phrases au présent.",
+  "steps": [
+   "Situer : « Nous sommes au marché, un matin. »",
+   "Décrire l’action : « Une vieille femme fait tomber ses mangues et un garçon l’aide à les ramasser. »",
+   "Conclure : « Ce garçon est serviable. »"
+  ],
+  "answer": "Nous sommes au marché, un matin. Une vieille femme fait tomber ses mangues et un garçon l’aide à les ramasser. Ce garçon est serviable.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "Avant d’écrire, on observe : qui ? où ? que se passe-t-il ?",
+    "vars": {},
+    "example": [
+     "Qui ? un garçon. Où ? au marché. Quoi ? il aide une vieille femme."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-19-obs"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "On garde le même temps dans tout le texte : présent pour décrire, passé pour raconter.",
+    "vars": {},
+    "example": [
+     "Le ciel est gris ; les enfants rentrent vite."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-19-temps"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "Le texte a une phrase pour situer, des phrases pour décrire, une phrase pour conclure.",
+    "vars": {},
+    "example": [
+     "Conclusion : « Cette scène me rend heureux. »"
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-19-plan-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         "Nous sommes au marché, un matin.",
+         "Une vieille femme fait tomber ses mangues.",
+         "Un garçon l’aide à les ramasser.",
+         "Ce garçon est serviable."
+        ],
+        [
+         "C’est la saison des pluies.",
+         "Devant l’école, des élèves plantent des arbres.",
+         "Le professeur leur montre comment faire.",
+         "Bientôt, l’école sera pleine d’ombre."
+        ]
+       ]
+      }
+     },
+     "prompt": "Remets le petit texte dans l’ordre.",
+     "items": [
+      {
+       "text": "{X[0]}"
+      },
+      {
+       "text": "{X[1]}"
+      },
+      {
+       "text": "{X[2]}"
+      },
+      {
+       "text": "{X[3]}"
+      }
+     ],
+     "order": "as_written",
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-19-obs",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase répond à « Où ? » ?",
+       "r": "devant l’école",
+       "w": [
+        "des enfants",
+        "ils plantent des arbres",
+        "sous la pluie fine"
+       ],
+       "e": [
+        "C’est « Qui ? ».",
+        "C’est « Que font-ils ? ».",
+        "C’est le temps qu’il fait."
+       ],
+       "y": "Le lieu répond à « Où ? »."
+      },
+      {
+       "q": "Quelle phrase répond à « Que font-ils ? » ?",
+       "r": "ils plantent des arbres",
+       "w": [
+        "devant l’école",
+        "des enfants",
+        "sous la pluie fine"
+       ],
+       "e": [
+        "C’est le lieu.",
+        "Ce sont les personnes.",
+        "C’est le temps qu’il fait."
+       ],
+       "y": "L’action répond à « Que font-ils ? »."
+      }
+     ]
+    }
+   },
+   "prompt": "Image : des enfants plantent des arbres devant l’école sous la pluie fine. {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-19-temps",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Une femme vend des fruits. Un enfant ___ des mangues.",
+       "a": "achète",
+       "w": [
+        "achetait",
+        "a acheté"
+       ],
+       "e": [
+        "Le texte est au présent.",
+        "Le texte est au présent."
+       ]
+      },
+      {
+       "s": "Le ciel est gris. Les enfants ___ vite à la maison.",
+       "a": "rentrent",
+       "w": [
+        "rentraient",
+        "sont rentrés"
+       ],
+       "e": [
+        "Le texte est au présent.",
+        "Le texte est au présent."
+       ]
+      },
+      {
+       "s": "Le soleil brille. Les pêcheurs ___ leurs filets.",
+       "a": "réparent",
+       "w": [
+        "réparaient",
+        "répareront"
+       ],
+       "e": [
+        "Le texte est au présent.",
+        "Le texte est au présent."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choisis le verbe qui garde le même temps (présent).",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-19-plan",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "Nous sommes au marché, un matin.",
+       "Une vieille femme fait tomber ses mangues.",
+       "Un garçon l’aide à les ramasser.",
+       "Ce garçon est serviable."
+      ],
+      [
+       "C’est la saison des pluies.",
+       "Devant l’école, des élèves plantent des arbres.",
+       "Le professeur leur montre comment faire.",
+       "Bientôt, l’école sera pleine d’ombre."
+      ]
+     ]
+    }
+   },
+   "prompt": "Remets le petit texte dans l’ordre.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    }
+   ],
+   "order": "as_written",
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "prompt": "Quel conseil pour écrire un texte à partir d’une image est faux ?",
+   "pool": {
+    "right": [
+     {
+      "text": "On observe l’image avant d’écrire.",
+      "truth": "true"
+     },
+     {
+      "text": "On garde le même temps dans le texte.",
+      "truth": "true"
+     },
+     {
+      "text": "On relit pour corriger les accords.",
+      "truth": "true"
+     },
+     {
+      "text": "On termine par une phrase de conclusion.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "On change de temps à chaque phrase.",
+      "truth": "false",
+      "explain": "On garde le même temps."
+     },
+     {
+      "text": "On écrit sans regarder l’image.",
+      "truth": "false",
+      "explain": "Il faut d’abord observer l’image."
+     },
+     {
+      "text": "On n’a pas besoin de majuscules ni de points.",
+      "truth": "false",
+      "explain": "Chaque phrase commence par une majuscule et finit par un point."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}
