@@ -1,7 +1,7 @@
 // Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
 // practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, PAPER, MODE */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, BUILD, VERSIONS, PAPER, MODE */
 const { libs, template, teach, readiness } = ENGINE;
 const { check, DONT_KNOW, renderWorked, normaliseInput, inputModeFor } = template;
 const L0 = () => CONTENT.maths[0];  // Maths is loaded before the readiness check starts
@@ -290,7 +290,7 @@ function loadSubject(s) {
   if (CONTENT[s]) return Promise.resolve();
   if (!loading[s]) loading[s] = new Promise((ok, fail) => {
     const tag = document.createElement("script");
-    tag.src = `subjects/${s}.js?v=${BUILD}`;
+    tag.src = `subjects/${s}.js?v=${VERSIONS[s] || BUILD}`;  // the file's content fingerprint: new lessons, new address
     tag.onload = () => (CONTENT[s] ? ok() : fail(new Error("empty")));
     tag.onerror = () => { delete loading[s]; tag.remove(); fail(new Error("offline")); };
     document.head.append(tag);
@@ -531,7 +531,10 @@ function lesson(flow, previous = null) {
         if (next.phase === "reveal") return reveal(q, next, kicker, bar, result);
         if (next.phase === "retry") return retry(q, result, next, kicker, bar);
         // Teach mode only: green flash + check icon (readiness shows no right/wrong cues).
-        return screen(bar, el("div", { class: "fb good flash", role: "status" }, checkIcon(), el("strong", {}, T("Correct!"))), button(T("Next"), go(next), "primary"));
+        return screen(bar, el("div", { class: "fb good flash", role: "status" }, checkIcon(), el("strong", {}, T("Correct!")),
+          // 517 typed for 51₇: right, with a gentle word that the base is not typed
+          result.baseTyped ? para(`Well done. You don't need to type the base: ${q.answer} is enough (the small ${q.base} only shows it is base ${q.base}).`) : null),
+          button(T("Next"), go(next), "primary"));
       },
     });
   }
@@ -612,7 +615,8 @@ function retry(q, result, flow, kicker, bar) {
 
 /** Second miss: the correct answer with full working, then move on (marked "needs review"). */
 function reveal(q, flow, kicker, bar, result) {
-  const shown = q.type === "matching" ? T("Here are the right answers.") : T("The answer is: {a}", { a: `${q.answer}${q.unit ? " " + q.unit : ""}` });
+  const shown = q.type === "matching" ? T("Here are the right answers.")
+    : T("The answer is: {a}", { a: `${q.answer}${q.base ? LIB().sub(q.base) : ""}${q.unit ? " " + q.unit : ""}` });  // 51₇, not 51
   screen(bar, header(kicker, T("Here is how to do it")),
     el("div", { class: result.dontKnow ? "fb soft" : "fb bad shake", role: "status" }, el("strong", {}, shown)),
     el("div", { class: "example" }, el("div", { class: "kicker" }, T("Full working")), el("ol", {}, q.solution.map((s) => el("li", {}, s)))),

@@ -3,7 +3,8 @@
 // expressions, never stored as free text from an author or a model.
 //
 // Template types
-//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?
+//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?, base?: expr (answer_kind base: the base, so
+//               an answer typed with its base after it, 517 for 51₇, is still right: on a phone ₇ can only be typed as 7)
 //   mcq         correct: tmpl + distractors: [tmpl | {text?, misconception}]   (computed values)
 //               or pool: {right: [stmt], wrong: [stmt]}, pick: {right, wrong}  (choose the true one)
 //   spot_error  pool + pick (choose the false statement), or steps: [stmt] with exactly one false
@@ -183,6 +184,7 @@ export function instantiate(tpl, seed, lib, lesson = null) {
       const value = evaluate(tpl.answer, scope, lib);
       if (kind === "number" && (typeof value !== "number" || !Number.isFinite(value))) throw new ContentError(`${tpl.id}: answer is ${value}`);
       Object.assign(q, { answerKind: kind, answerValue: value, answer: show(lib)(value), unit: tpl.unit && R(tpl.unit, scope) });
+      if (kind === "base" && tpl.base) q.base = evaluate(tpl.base, scope, lib);
       q.misconceptions = (tpl.misconceptions || []).flatMap((m) => {
         if (m.when && !evaluate(m.when, scope, lib)) return [];
         const v = evaluate(m.wrong, scope, lib);
@@ -373,6 +375,9 @@ export function check(q, response) {
   }
   if (q.type === "numeric") {
     if (same(response, q.answerValue, q.answerKind)) return { correct: true };
+    // 517 for 51₇: the base typed after the answer. The digit 7 does not exist in base 7, so this cannot be another number.
+    const typed = normalize(response, q.answerKind), b = q.base && String(q.base);
+    if (b && q.base <= 9 && typed.length > b.length && typed.endsWith(b) && same(typed.slice(0, -b.length), q.answerValue, "base")) return { correct: true, baseTyped: true };
     const m = q.misconceptions.find((x) => same(response, x.value, q.answerKind));
     return { correct: false, misconception: m ? { id: m.id, explain: m.explain } : null };
   }

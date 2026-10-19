@@ -191,7 +191,8 @@
           ],
           "solution": [
             "{divSteps(n, b)}"
-          ]
+          ],
+          "base": "b"
         }
       }
     ]
@@ -298,7 +299,8 @@
       ],
       "solution": [
         "{divSteps(n, b)}"
-      ]
+      ],
+      "base": "b"
     },
     {
       "id": "m8-to-ten",
@@ -415,7 +417,8 @@
         "First change to base ten: {placeSum(s, b1)}",
         "Then divide by {b2}:",
         "{divSteps(n, b2)}"
-      ]
+      ],
+      "base": "b2"
     },
     {
       "id": "m8-spot",

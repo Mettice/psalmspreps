@@ -1,4 +1,5 @@
-// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1 + French F1) builds from the real engine and content, offline, under 1.3 MB.
+// The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1 + French F1) builds from the real engine and content, offline, under 1.5 MB (the limit in build.mjs since the installable app, 2026-10-17).
+import { createHash } from "node:crypto";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
@@ -9,10 +10,10 @@ const FILE = new URL("tools/prototype/form1.html", ROOT);
 const page = () => readFileSync(FILE, "utf8");
 const constant = (html, name) => JSON.parse(html.match(new RegExp(`const ${name} = (.*);\\n`))[1]);
 
-test("prototype: builds under 1.3 MB, no external resources, engine runs", () => {
+test("prototype: builds under 1.5 MB, no external resources, engine runs", () => {
   execFileSync(process.execPath, [new URL("tools/prototype/build.mjs", ROOT).pathname.replace(/^\/([A-Za-z]:)/, "$1")]);
   const html = page();
-  assert.ok(Buffer.byteLength(html) < 1300 * 1024, `${Buffer.byteLength(html)} bytes`);
+  assert.ok(Buffer.byteLength(html) < 1500 * 1024, `${Buffer.byteLength(html)} bytes`);
   assert.doesNotMatch(html, /<script[^>]+src=|<link[^>]+href=|https?:\/\/(?!www\.w3\.org)/, "must not load anything from the network");
   assert.doesNotMatch(html, /indexedDB|fetch\(|XMLHttpRequest|sendBeacon|WebSocket/, "must not send data");
   // Progress is saved in this browser only (2026-10-05): one key, every access wrapped in try/catch.
@@ -179,6 +180,16 @@ test("installable app: manifest, icons, service worker and the shareable single 
   const sw = pwaFile("sw.js");
   for (const part of ['addEventListener("install"', 'addEventListener("activate"', 'addEventListener("fetch"', 'req.mode === "navigate"', "caches.match"]) assert.ok(sw.includes(part), part);
   assert.equal(pwaFile("offline.html"), page(), "the shareable file is the single-file app");
+});
+
+test("installable app: each subject file is addressed by its content fingerprint, so changed lessons arrive at once", () => {
+  const core = pwaFile("index.html"), sw = pwaFile("sw.js"), versions = constant(core, "VERSIONS");
+  assert.deepEqual(Object.keys(versions), Object.keys(constant(core, "SUBJECTS")));
+  const hash = (t) => createHash("sha256").update(t).digest("hex").slice(0, 12);
+  for (const [s, v] of Object.entries(versions)) assert.equal(v, hash(pwaFile(`subjects/${s}.js`)), s);
+  assert.ok(core.includes("tag.src = `subjects/${s}.js?v=${VERSIONS[s] || BUILD}`;"), "the app asks for the fingerprinted address");
+  assert.ok(sw.includes(`const VERSIONS = ${JSON.stringify(versions)};`) && sw.includes("?v=${VERSIONS[m[1]]}"), "an update saves the new files again");
+  assert.match(sw, /const CACHE = "psalmspreps-\d{4}-\d{2}-\d{2}-[0-9a-f]{12}";/, "a new core page gives a new cache, even on the same day");
 });
 
 test("design: home with streak, stars and subject tiles; lesson path; forgiving streak; stars and badges at the end", () => {

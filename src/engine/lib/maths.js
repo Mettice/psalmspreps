@@ -278,7 +278,7 @@ export function columnSub(xs, ys, b) {
   let borrow = 0;
   // Plain steps with no negative intermediates (TR-C31, Dion 2026-10-03).
   for (let i = 0; i < L; i++) {
-    const d = dig(xs, i), c = dig(ys, i);
+    const d = dig(xs, i), c = dig(ys, i), nothing = i >= String(ys).length;  // no digit below: nothing to take away
     const col = `Column ${i + 1} from the right: `;
     if (borrow && d === 0) {
       // Borrowing across a zero: the 0 has already lent 1, so it borrows b and gives back the 1.
@@ -292,7 +292,8 @@ export function columnSub(xs, ys, b) {
           `In base ${b}, borrowing gives ${b} more: ${top} + ${b} = ${top + b}. Then ${top + b} − ${c} = ${top + b - c}.`);
         borrow = 1;
       } else {
-        out.push(`${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Then ${top} − ${c} = ${top - c}.`);
+        out.push(nothing ? `${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Nothing to take away: write ${top}.`
+          : `${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Then ${top} − ${c} = ${top - c}.`);
         borrow = 0;
       }
     } else if (d < c) {
@@ -300,7 +301,7 @@ export function columnSub(xs, ys, b) {
         `In base ${b}, borrowing gives ${b} more: ${d} + ${b} = ${d + b}. Then ${d + b} − ${c} = ${d + b - c}.`);
       borrow = 1;
     } else {
-      out.push(`${col}${d} − ${c} = ${d - c}.`);
+      out.push(nothing ? `${col}Nothing to take away: write ${d}.` : `${col}${d} − ${c} = ${d - c}.`);
       borrow = 0;
     }
   }

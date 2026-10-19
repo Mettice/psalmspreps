@@ -87,6 +87,8 @@ test("column subtraction working: plain steps, no negative intermediates, correc
     assert.equal(lines.at(-1), `Answer: ${lib.toBase(a - c, b)}${lib.sub(b)}`);
   }
   assert.ok(acrossZero > 100, "borrowing across a zero must be exercised");
+  assert.deepEqual(lib.columnSub("10", "4", 5).split("\n").slice(1), ["Column 2 from the right: This 1 lent 1 to the right: 1 − 1 = 0. Nothing to take away: write 0.", "Answer: 1₅"]);
+  assert.equal(lib.columnSub("43", "2", 5).split("\n")[1], "Column 2 from the right: Nothing to take away: write 4.");
   assert.equal(lib.columnSub("1002", "3", 4).split("\n")[1],
     "Column 2 from the right: This 0 already lent 1 to the right and has nothing left, so it borrows from the next column. In base 4, borrowing gives 4. 4 − 1 (what it lent) = 3. Then 3 − 0 = 3.");
 });

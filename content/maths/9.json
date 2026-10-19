@@ -144,7 +144,8 @@
           "solution": [
             "{d} + {e} = {d + e} = {b} + {d + e - b}: one group of {b} and {d + e - b} more.",
             "In base {b}: {toBase(d + e, b)}{sub(b)}"
-          ]
+          ],
+          "base": "b"
         }
       },
       {
@@ -205,7 +206,8 @@
           ],
           "solution": [
             "{columnSub(x, str(q), b)}"
-          ]
+          ],
+          "base": "b"
         }
       }
     ]
@@ -300,7 +302,8 @@
       "solution": [
         "{columnAdd(x, y, b)}",
         "Check in base ten: {fromBase(x, b)} + {fromBase(y, b)} = {fromBase(x, b) + fromBase(y, b)}."
-      ]
+      ],
+      "base": "b"
     },
     {
       "id": "m9-subtract",
@@ -347,7 +350,8 @@
       "solution": [
         "{columnSub(x, y, b)}",
         "Check in base ten: {fromBase(x, b)} − {fromBase(y, b)} = {fromBase(x, b) - fromBase(y, b)}."
-      ]
+      ],
+      "base": "b"
     },
     {
       "id": "m9-spot",

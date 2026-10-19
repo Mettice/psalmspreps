@@ -104,3 +104,29 @@ test("templates without a scaffold or a computed answer are unchanged", () => {
   flow = teach.answerItem(flow, { correct: false }, 10);
   assert.equal(teach.exampleLike(lesson, flow, lib, null), null);
 });
+
+test("an answer in base b typed with its base after it (517 for 51₇) is right; nothing wrong is let through", () => {
+  const tpl = L8.teach.cards.find((c) => c.id === "c8-3").check;
+  const q = instantiate({ ...tpl, vars: { b: 7, n: 36 }, where: undefined }, 1, lib);
+  assert.equal(q.answer, "51");
+  assert.equal(q.base, 7);
+  for (const r of ["51", "51₇", "5 1", "0051"]) assert.deepEqual(check(q, r), { correct: true }, r);
+  assert.deepEqual(check(q, "517"), { correct: true, baseTyped: true });
+  assert.deepEqual(check(q, "51 7"), { correct: true, baseTyped: true });
+  for (const r of ["7", "57", "157", "5177", "52"]) assert.equal(check(q, r).correct, false, r);
+  assert.equal(check(q, "157").misconception?.id ?? null, null);
+  assert.equal(check(q, "15").misconception.id, "reversed-remainders");
+  // every base answer of Lessons 8-10, 1000 variants: the answer with its base after it is accepted, a wrong digit is not
+  for (const n of [8, 9, 10]) {
+    const l = JSON.parse(readFileSync(new URL(`../content/maths/${n}.json`, import.meta.url), "utf8"));
+    for (const t of [...l.questions, ...l.teach.cards.map((c) => c.check).filter((c) => !c.ref)].filter((t) => t.answer_kind === "base")) {
+      assert.ok(t.base, `${t.id} names its base`);
+      for (let seed = 0; seed < 1000; seed++) {
+        const x = instantiate(t, seed, lib);
+        assert.ok(check(x, x.answer + String(x.base)).correct, `${t.id} ${x.answer}`);
+        assert.equal(check(x, x.answer + "0" + String(x.base)).correct, x.answer === "0", `${t.id} ${x.answer}`);
+      }
+    }
+  }
+});
+
