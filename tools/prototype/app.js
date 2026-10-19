@@ -230,6 +230,7 @@ const recordOf = (q, r, ms, phase) => ({
   phase, id: q.id, level: q.level, result: r.correct ? "right" : r.dontKnow ? "idk" : "wrong",
   seconds: Math.round(ms / 100) / 10, misconception: r.misconception?.id || "",
 });
+// On every lesson screen, the answer screens included (2026-10-19), so the pupil can always leave; the flow is saved.
 const toMenu = () => button(T("Back to the lessons"), menu, "link");
 
 // ---------------------------------------------------------------- 1. first visit: readiness check (Primary 6 maths)
@@ -534,7 +535,7 @@ function lesson(flow, previous = null) {
         return screen(bar, el("div", { class: "fb good flash", role: "status" }, checkIcon(), el("strong", {}, T("Correct!")),
           // 517 typed for 51₇: right, with a gentle word that the base is not typed
           result.baseTyped ? para(`Well done. You don't need to type the base: ${q.answer} is enough (the small ${q.base} only shows it is base ${q.base}).`) : null),
-          button(T("Next"), go(next), "primary"));
+          button(T("Next"), go(next), "primary"), toMenu());
       },
     });
   }
@@ -596,7 +597,7 @@ function retry(q, result, flow, kicker, bar) {
     };
     screen(bar, header(kicker, T("Let's try again")),
       el("div", { class: "fb soft", role: "status" }, el("strong", {}, T("That's fine. Let's look at it together."))),
-      hintBlock(q), workingBox(T("Here is how to do this one"), q, list), tail);
+      hintBlock(q), workingBox(T("Here is how to do this one"), q, list), tail, toMenu());
     return more();
   }
   const wrongPairs = result.wrongPairs?.length
@@ -610,7 +611,7 @@ function retry(q, result, flow, kicker, bar) {
   const help = like ? [workingBox(T("Here is one like it"), like, el("ol", {}, like.solution.map((s) => el("li", {}, s))))]
     : step.kind === "card" ? [result.dontKnow ? hintBlock(q) : null, cardExample(teach.renderCard(L().teach.cards[step.card], LIB()))]
     : result.dontKnow ? [hintBlock(q), workedBlock()] : [];
-  screen(bar, header(kicker, T("Let's try again")), box, ...help, again(like ? [q, like] : q));
+  screen(bar, header(kicker, T("Let's try again")), box, ...help, again(like ? [q, like] : q), toMenu());
 }
 
 /** Second miss: the correct answer with full working, then move on (marked "needs review"). */
@@ -621,7 +622,7 @@ function reveal(q, flow, kicker, bar, result) {
     el("div", { class: result.dontKnow ? "fb soft" : "fb bad shake", role: "status" }, el("strong", {}, shown)),
     el("div", { class: "example" }, el("div", { class: "kicker" }, T("Full working")), el("ol", {}, q.solution.map((s) => el("li", {}, s)))),
     para(T("We will come back to this one later."), "muted"),
-    button(T("Continue"), () => lesson(teach.nextPhase(flow)), "primary"));
+    button(T("Continue"), () => lesson(teach.nextPhase(flow)), "primary"), toMenu());
 }
 
 // ---------------------------------------------------------------- 4. results + copy

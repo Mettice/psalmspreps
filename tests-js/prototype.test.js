@@ -127,6 +127,12 @@ test("prototype: inside French lessons the pupil's labels are French; elsewhere 
   for (const en of ['button("Check"', "button(\"I don't know\"", '{}, "Correct!")']) assert.ok(!html.includes(en), `still hard-coded: ${en}`);
 });
 
+test("prototype: every answer screen has a way back to the lessons", () => {
+  const html = page();
+  for (const t of ['button(T("Next"), go(next), "primary"), toMenu());', 'workingBox(T("Here is how to do this one"), q, list), tail, toMenu());',
+    'again(like ? [q, like] : q), toMenu());', 'button(T("Continue"), () => lesson(teach.nextPhase(flow)), "primary"), toMenu());']) assert.ok(html.includes(t), t);
+});
+
 test("prototype: a finished or started lesson can be reset after a confirmation", () => {
   const html = page();
   assert.ok(html.includes("function resetLesson(s, n)"), "the reset helper is in the page");
