@@ -150,6 +150,7 @@ button.link.back { text-align: left; margin: 0 0 6px; padding-left: 0; }
 .path { list-style: none; padding: 0; margin: 14px 0; position: relative; }
 .path::before { content: ""; position: absolute; left: 25px; top: 18px; bottom: 18px; width: 4px; border-radius: 2px; background: var(--track); }
 .path .step { position: relative; }
+.path button.reset { display: block; min-height: 36px; margin: -4px 0 6px 58px; padding: 4px 8px; font-size: .9rem; text-align: left; }
 .path button.lesson .mark { position: relative; z-index: 1; width: 40px; height: 40px; border: 3px solid var(--subj); background: var(--card); color: var(--subj); }
 .path .is-done button.lesson .mark { background: var(--subj); color: #fff; }
 .path .is-next button.lesson { border: 2px solid var(--subj); background: color-mix(in srgb, var(--subj) 10%, var(--card)); }
@@ -2627,7 +2628,7 @@ const LESSONS = {"maths":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"english":[1,2
 const SUBJECTS = {"maths":"Maths","english":"English","physics":"Physics","chemistry":"Chemistry","geography":"Geography","home-economics":"Home Economics","history":"History","biology":"Biology","computer-science":"Computer Science","french":"French"};
 const PAPER = {"maths":[],"english":[9,16],"physics":[],"chemistry":[],"geography":[],"home-economics":[],"history":[],"biology":[],"computer-science":[],"french":[]};
 const MODE = "single";
-const BUILD = "2026-10-17";
+const BUILD = "2026-10-19";
 // Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
 // practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
@@ -3037,7 +3038,9 @@ function menu() {
       return el("li", { class: `step${r?.done ? " is-done" : ""}${going || isNext ? " is-next" : ""}` },
         el("button", { type: "button", class: `lesson${r?.done ? " is-done" : ""}`, onclick: () => openLesson(s, n) },
           el("span", { class: "mark", "aria-hidden": "true" }, mark),
-          el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[s][n], sub ? el("span", { class: "sub" }, sub) : null)));
+          el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[s][n], sub ? el("span", { class: "sub" }, sub) : null)),
+        // a finished or started lesson can be reset, so the pupil starts it again from the first card
+        r?.done || going ? el("button", { type: "button", class: "link reset", "aria-label": `Start Lesson ${n} again from the beginning`, onclick: () => resetLesson(s, n) }, "↺ Start again") : null);
     };
     // The Primary 6 readiness check belongs to Maths only: it is offered first on the Maths tab until it is done
     // (2026-10-07; before, it blocked the whole app on a first visit). It never blocks a lesson or the English tab.
@@ -3096,6 +3099,15 @@ function openLesson(s, n) {
     save();
     lesson(state.current[s].flow);
   });
+}
+/** Starts lesson n again from its first card: clears its saved run (stars, answers) and any unfinished flow,
+ *  after the pupil confirms. Badges already earned and other lessons are kept. */
+function resetLesson(s, n) {
+  if (!confirm(`Start Lesson ${n} again from the beginning?\nYour stars and saved answers for this lesson will be cleared.`)) return;
+  delete state.lessons[lessonKey(s, n)];
+  if (state.current[s]?.lesson === n) delete state.current[s];
+  save();
+  openLesson(s, n);
 }
 /** A flow saved mid-feedback resumes on a question: "retry" → the fresh variant, "reveal" → the next step. */
 const resumable = (flow) => (flow.phase === "retry" || flow.phase === "reveal" ? teach.nextPhase(flow) : flow);
