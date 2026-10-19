@@ -1,5 +1,6 @@
 // The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1 + French F1) builds from the real engine and content, offline, under 1.5 MB.
 // Form 2 (2026-10-17, form-2 branch): its own shareable file, form2.html; the installable app has both classes.
+import { createHash } from "node:crypto";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
@@ -130,6 +131,12 @@ test("prototype: inside French lessons the pupil's labels are French; elsewhere 
   for (const en of ['button("Check"', "button(\"I don't know\"", '{}, "Correct!")']) assert.ok(!html.includes(en), `still hard-coded: ${en}`);
 });
 
+test("prototype: every answer screen has a way back to the lessons", () => {
+  const html = page();
+  for (const t of ['button(T("Next"), go(next), "primary"), toMenu());', 'workingBox(T("Here is how to do this one"), q, list), tail, toMenu());',
+    'again(like ? [q, like] : q), toMenu());', 'button(T("Continue"), () => lesson(teach.nextPhase(flow)), "primary"), toMenu());']) assert.ok(html.includes(t), t);
+});
+
 test("prototype: a finished or started lesson can be reset after a confirmation", () => {
   const html = page();
   assert.ok(html.includes("function resetLesson(s, n)"), "the reset helper is in the page");
@@ -185,6 +192,16 @@ test("installable app: manifest, icons, service worker and the shareable single 
   assert.equal(pwaFile("offline.html"), page(), "the shareable file is the single-file app");
   assert.equal(pwaFile("offline-form-2.html"), readFileSync(new URL("tools/prototype/form2.html", ROOT), "utf8"), "Form Two has its own shareable file");
   assert.ok(sw.includes(String.raw`subjects\/([a-z0-9-]+)\.js$`),"saved subjects are fetched again after an update, Form 2 ids (f2-maths) included");
+});
+
+test("installable app: each subject file is addressed by its content fingerprint, so changed lessons arrive at once", () => {
+  const core = pwaFile("index.html"), sw = pwaFile("sw.js"), versions = constant(core, "VERSIONS");
+  assert.deepEqual(Object.keys(versions), Object.keys(constant(core, "SUBJECTS")));
+  const hash = (t) => createHash("sha256").update(t).digest("hex").slice(0, 12);
+  for (const [s, v] of Object.entries(versions)) assert.equal(v, hash(pwaFile(`subjects/${s}.js`)), s);
+  assert.ok(core.includes("tag.src = `subjects/${s}.js?v=${VERSIONS[s] || BUILD}`;"), "the app asks for the fingerprinted address");
+  assert.ok(sw.includes(`const VERSIONS = ${JSON.stringify(versions)};`) && sw.includes("?v=${VERSIONS[m[1]]}"), "an update saves the new files again");
+  assert.match(sw, /const CACHE = "psalmspreps-\d{4}-\d{2}-\d{2}-[0-9a-f]{12}";/, "a new core page gives a new cache, even on the same day");
 });
 
 test("design: home with streak, stars and subject tiles; lesson path; forgiving streak; stars and badges at the end", () => {

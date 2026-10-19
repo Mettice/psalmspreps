@@ -69,15 +69,14 @@
         "status": "draft",
         "idea": "To change from base b to base ten, multiply each digit by its place value and add.",
         "vars": {
-          "b": 5,
-          "s": "123"
+          "b": 4,
+          "s": "31"
         },
         "example": [
-          "{s}{sub(b)} = {dig(s, 2)} × {b ^ 2} + {dig(s, 1)} × {b} + {dig(s, 0)} × {1}",
-          "= {dig(s, 2) * b ^ 2} + {dig(s, 1) * b} + {dig(s, 0)} = {fromBase(s, b)}"
+          "{s}{sub(b)} = {dig(s, 1)} × {b} + {dig(s, 0)} × {1} = {dig(s, 1) * b} + {dig(s, 0)} = {fromBase(s, b)}"
         ],
         "checks": [
-          "fromBase(s, b) == 1 * 25 + 2 * 5 + 3"
+          "fromBase(s, b) == 3 * 4 + 1"
         ],
         "check": {
           "id": "c8-2-check",
@@ -109,13 +108,36 @@
             {
               "id": "read-as-ten",
               "wrong": "num(s)",
-              "explain": "{s}{sub(b)} is not the base-ten number {s}: {dig(s, 1)} × {b} + {dig(s, 0)} = {n}."
+              "explain": "{s}{sub(b)} is not the base-ten number {s}. In base {b}, the left digit is worth {b}s, not {10}s."
+            },
+            {
+              "id": "added-digits",
+              "wrong": "digitSum(s)",
+              "explain": "You added the digits. Each digit gets multiplied by its place value first ({placeHeads(s, b)}), then you add the results."
+            },
+            {
+              "id": "multiplied-digits",
+              "wrong": "digitProduct(s)",
+              "explain": "You multiplied the digits together. Each digit gets multiplied by its place value first ({placeHeads(s, b)}), then you add the results."
+            },
+            {
+              "id": "places-reversed",
+              "wrong": "placeReversed(s, b)",
+              "explain": "Place values start from the right: the right digit is worth {1}s and the left digit is worth {b}s."
             }
           ],
           "solution": [
-            "{placeSum(s, b)}"
-          ]
-        }
+            "{placeSteps(s, b)}"
+          ],
+          "figure": "placeTable(s, b)",
+          "scaffold": {
+            "text": "{s}{sub(b)} = {placeBlanks(s)}",
+            "answers": "placeAnswers(s, b)",
+            "figure": "placeTable(s, b)",
+            "hint": "Under each digit write its place value ({placeHeads(s, b)}). Multiply each digit by its place value, then add."
+          }
+        },
+        "figure": "placeTable(s, b)"
       },
       {
         "id": "c8-3",
@@ -169,7 +191,8 @@
           ],
           "solution": [
             "{divSteps(n, b)}"
-          ]
+          ],
+          "base": "b"
         }
       }
     ]
@@ -276,7 +299,8 @@
       ],
       "solution": [
         "{divSteps(n, b)}"
-      ]
+      ],
+      "base": "b"
     },
     {
       "id": "m8-to-ten",
@@ -308,12 +332,33 @@
         {
           "id": "read-as-ten",
           "wrong": "num(s)",
-          "explain": "{s}{sub(b)} is not the base-ten number {s}. Multiply each digit by its place value in base {b} ({b}{sup(2)}, {b}, 1…) and add."
+          "explain": "{s}{sub(b)} is not the base-ten number {s}. In base {b} the places are worth {placeHeads(s, b)}, not ones, tens and hundreds."
+        },
+        {
+          "id": "added-digits",
+          "wrong": "digitSum(s)",
+          "explain": "You added the digits. Each digit gets multiplied by its place value first ({placeHeads(s, b)}), then you add the results."
+        },
+        {
+          "id": "multiplied-digits",
+          "wrong": "digitProduct(s)",
+          "explain": "You multiplied the digits together. Each digit gets multiplied by its place value first ({placeHeads(s, b)}), then you add the results."
+        },
+        {
+          "id": "places-reversed",
+          "wrong": "placeReversed(s, b)",
+          "explain": "Place values grow from the right: the right digit is worth {1}s, the next {b}s, then {b ^ 2}s, and so on."
         }
       ],
       "solution": [
-        "{placeSum(s, b)}"
-      ]
+        "{placeSteps(s, b)}"
+      ],
+      "scaffold": {
+        "text": "{s}{sub(b)} = {placeBlanks(s)}",
+        "answers": "placeAnswers(s, b)",
+        "figure": "placeTable(s, b)",
+        "hint": "Under each digit write its place value ({placeHeads(s, b)}). Multiply each digit by its place value, then add."
+      }
     },
     {
       "id": "m8-base-to-base",
@@ -372,7 +417,8 @@
         "First change to base ten: {placeSum(s, b1)}",
         "Then divide by {b2}:",
         "{divSteps(n, b2)}"
-      ]
+      ],
+      "base": "b2"
     },
     {
       "id": "m8-spot",

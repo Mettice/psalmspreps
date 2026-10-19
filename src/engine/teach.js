@@ -9,7 +9,7 @@
 // Pure functions; the UI holds the flow object.
 
 import { render, evaluate } from "./expr.js";
-import { sampleScope, instantiate } from "./template.js";
+import { sampleScope, instantiate, scaffoldTemplate } from "./template.js";
 import { makeRng } from "./rng.js";
 
 const show = (lib) => (v) => (typeof v === "number" ? lib.fmt(v) : String(v));
@@ -99,17 +99,34 @@ export const checkSeed = (flow) => flow.seed + flow.step * 1000 + flow.attempt *
 const signature = (q) => JSON.stringify([q.prompt, q.options?.map((o) => o.text), q.items]);
 
 /**
- * The question for the current card or practice step. On a retry, seeds are tried until the
- * question differs from the one just answered (templates with few variants could repeat it).
+ * The question for the current card or practice step. On a retry, seeds are tried until the question differs
+ * from the ones just seen (`previous`: one question or a list; templates with few variants could repeat them).
+ * On the retry of a template with a `scaffold`, the fresh question is asked step by step (2026-10-19).
  */
 export function itemQuestion(lesson, flow, lib, previous = null) {
-  const tpl = stepTemplate(lesson, flow.steps[flow.step]);
+  const base = stepTemplate(lesson, flow.steps[flow.step]);
+  const tpl = flow.attempt === 1 ? scaffoldTemplate(base) : base;
+  return freshVariant(tpl, checkSeed(flow), lib, lesson.lesson_no, previous);
+}
+function freshVariant(tpl, seed, lib, lessonNo, previous) {
+  const avoid = new Set((Array.isArray(previous) ? previous : previous ? [previous] : []).map(signature));
   let q;
   for (let k = 0; k < 50; k++) {
-    q = instantiate(tpl, checkSeed(flow) + k, lib, lesson.lesson_no);
-    if (!previous || signature(q) !== signature(previous)) return q;
+    q = instantiate(tpl, seed + k, lib, lessonNo);
+    if (!avoid.has(signature(q))) return q;
   }
   return q;  // a template with a single variant: same question, options reshuffled where possible
+}
+
+/**
+ * After a first wrong answer to a computed (numeric) question: another variant of the same shape with its full
+ * working, so the example the pupil looks at matches the question (2026-10-19). Null for other question types.
+ */
+export function exampleLike(lesson, flow, lib, answered) {
+  const tpl = stepTemplate(lesson, flow.steps[flow.step]);
+  if (tpl.type !== "numeric" || !tpl.solution) return null;
+  const shown = tpl.scaffold?.figure ? { ...tpl, figure: tpl.scaffold.figure } : tpl;  // e.g. the place-value table
+  return freshVariant(shown, checkSeed(flow) + 5000, lib, lesson.lesson_no, answered);
 }
 export const cardQuestion = itemQuestion;
 

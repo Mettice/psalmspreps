@@ -90,6 +90,7 @@ button:disabled { opacity: .45; cursor: default; box-shadow: none; }
 .sentence { font-size: 1.2rem; line-height: 2.1; margin: 0 0 14px; overflow-wrap: anywhere; }
 .blank { display: inline-block; min-width: 4.5em; border-bottom: 3px dotted var(--accent); line-height: 1.2; }
 input.blank-input { display: inline-block; width: 9em; max-width: 100%; min-height: 48px; padding: 6px 10px; font-size: 1.15rem; vertical-align: middle; }
+.sentence.blanks input.blank-input { width: 3.6em; margin: 2px 2px; text-align: center; }
 /* word tiles (word order, sorting): tap, never drag */
 .tiles { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
 button.tile { display: inline-flex; align-items: center; justify-content: center; width: auto; min-width: 48px; min-height: 48px; margin: 0; padding: 8px 14px; text-align: center; }
@@ -633,6 +634,42 @@ function placeSum(s, b) {
   const values = digits.map((d, i) => fmt(d * b ** (L - 1 - i)));
   return `${sb(s, b)} = ${terms.join(" + ")} = ${values.join(" + ")} = ${fmt(fromBase(s, b))}`;
 }
+// ---------------------------------------------------------------- base b → base ten: help after a miss (2026-10-19)
+/** The place values of a base-b numeral, from the left: "22", 4 → [4, 1]. */
+const placeValues = (s, b) => { const L = String(s).length; return range(0, L - 1).map((i) => b ** (L - 1 - i)); };
+/** The scaffold line "2 × ___ + 2 × ___ = ___": the pupil fills in each place value, then the total. */
+const placeBlanks = (s) => [...String(s)].map((d) => `${d} × ___`).join(" + ") + " = ___";
+/** The answers to placeBlanks, in order: each place value, then the base-ten value. */
+const placeAnswers = (s, b) => [...placeValues(s, b), fromBase(s, b)];
+/** Usual wrong answers: the digits added, the digits multiplied, the place values read from the left. */
+const digitSum = (s) => [...String(s)].reduce((a, d) => a + Number(d), 0);
+const digitProduct = (s) => [...String(s)].reduce((a, d) => a * Number(d), 1);
+const placeReversed = (s, b) => fromBase(reverse(s), b);
+/** "4s, 1s": the names of the places of a base-b numeral, from the left. */
+const placeHeads = (s, b) => placeValues(s, b).map((v) => `${fmt(v)}s`).join(", ");
+/** The same working as placeSum, one step per line (shown one step at a time after "I don't know"). */
+function placeSteps(s, b) {
+  s = String(s);
+  const digits = [...s].map(Number), places = placeValues(s, b), parts = digits.map((d, i) => d * places[i]);
+  return [`In base ${b} the places are worth ${placeHeads(s, b)}.`,
+    `Multiply each digit by its place value: ${digits.map((d, i) => `${d} × ${fmt(places[i])} = ${fmt(parts[i])}`).join(", ")}.`,
+    `Add: ${parts.map(fmt).join(" + ")} = ${fmt(fromBase(s, b))}.`,
+    `So ${sb(s, b)} = ${fmt(fromBase(s, b))} in base ten.`].join("\n");
+}
+/** A small place-value table: the value of each place above each digit ("4s | 1s" over "2 | 2"). */
+function placeTable(s, b) {
+  const digits = [...String(s)], heads = placeValues(s, b).map((v) => `${fmt(v)}s`);
+  const cw = 46, w = cw * digits.length + 2, h = 60;
+  const cells = digits.map((d, i) => {
+    const x = 1 + i * cw;
+    return `<rect x="${x}" y="1" width="${cw}" height="${h - 2}" rx="4"/>` +
+      `<text x="${x + cw / 2}" y="18" font-size="12" text-anchor="middle" fill="currentColor" stroke="none" opacity=".75">${heads[i]}</text>` +
+      `<text x="${x + cw / 2}" y="48" font-size="22" font-weight="700" text-anchor="middle" fill="currentColor" stroke="none">${d}</text>`;
+  }).join("");
+  return `<svg class="fig" viewBox="0 0 ${w} ${h}" style="max-width:${Math.round(w * 1.6)}px" role="img" aria-label="Place values in base ${b}: ${heads.join(", ")}" ` +
+    `xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif" fill="none" stroke="currentColor" stroke-width="1">` +
+    `${cells}<line x1="1" y1="26" x2="${w - 1}" y2="26"/></svg>`;
+}
 /** Column addition in base b, right to left, with carries. */
 function columnAdd(xs, ys, b) {
   const L = Math.max(String(xs).length, String(ys).length), out = [];
@@ -653,7 +690,7 @@ function columnSub(xs, ys, b) {
   let borrow = 0;
   // Plain steps with no negative intermediates (TR-C31, Dion 2026-10-03).
   for (let i = 0; i < L; i++) {
-    const d = dig(xs, i), c = dig(ys, i);
+    const d = dig(xs, i), c = dig(ys, i), nothing = i >= String(ys).length;  // no digit below: nothing to take away
     const col = `Column ${i + 1} from the right: `;
     if (borrow && d === 0) {
       // Borrowing across a zero: the 0 has already lent 1, so it borrows b and gives back the 1.
@@ -667,7 +704,8 @@ function columnSub(xs, ys, b) {
           `In base ${b}, borrowing gives ${b} more: ${top} + ${b} = ${top + b}. Then ${top + b} − ${c} = ${top + b - c}.`);
         borrow = 1;
       } else {
-        out.push(`${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Then ${top} − ${c} = ${top - c}.`);
+        out.push(nothing ? `${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Nothing to take away: write ${top}.`
+          : `${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Then ${top} − ${c} = ${top - c}.`);
         borrow = 0;
       }
     } else if (d < c) {
@@ -675,7 +713,7 @@ function columnSub(xs, ys, b) {
         `In base ${b}, borrowing gives ${b} more: ${d} + ${b} = ${d + b}. Then ${d + b} − ${c} = ${d + b - c}.`);
       borrow = 1;
     } else {
-      out.push(`${col}${d} − ${c} = ${d - c}.`);
+      out.push(nothing ? `${col}Nothing to take away: write ${d}.` : `${col}${d} − ${c} = ${d - c}.`);
       borrow = 0;
     }
   }
@@ -720,7 +758,7 @@ function lineRule(r1, r2) {
   return perp ? "⊥" : "//";
 }
 
-return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
+return { fmt, sup, sub, str, num, len, reverse, join, upper, abs, floor, min, max, idiv, round, isInt, sum, contains, distinct, inN, inNstar, plural, pad, rep, range, dig, placeName, numDigits, digitAt, placeValue, posOf, countDigit, groupDigits, stripZeros, addNoCarry, subSmallFromLarge, mulNoShift, words, fromWords, ordinal, roman, fromRoman, romanAdditive, romanAddAll, hasSubtractive, egyptianList, toBase, fromBase, isValidInBase, decAdd, decSub, decMul, divSteps, placeSum, placeValues, placeBlanks, placeAnswers, digitSum, digitProduct, placeReversed, placeHeads, placeSteps, placeTable, columnAdd, columnSub, columnMul, romanWorking, expanded, unitExp, convert, lineRule };
 })();
 __mods["lib/maths2.js"] = (() => {
 // Vetted functions for Form 2 Maths content (Term 1: integers, powers, primes, HCF and LCM, roots, sequences,
@@ -2619,7 +2657,9 @@ __mods["template.js"] = (() => {
 // expressions, never stored as free text from an author or a model.
 //
 // Template types
-//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?, signed? (answer may be negative)
+//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?, signed? (answer may be negative),
+//               base?: expr (answer_kind base: the base, so an answer typed with its base after it, 517 for 51₇,
+//               is still right: on a phone ₇ can only be typed as 7)
 //   mcq         correct: tmpl + distractors: [tmpl | {text?, misconception}]   (computed values)
 //               or pool: {right: [stmt], wrong: [stmt]}, pick: {right, wrong}  (choose the true one)
 //   spot_error  pool + pick (choose the false statement), or steps: [stmt] with exactly one false
@@ -2628,7 +2668,10 @@ __mods["template.js"] = (() => {
 //               choices: [tmpl | {text, misconception}] → pick one (shown like mcq); no choices → typed,
 //               checked against the accepted list (case- and space-insensitive), misconceptions: [{id, wrong: expr, explain}]
 //   word_order  answer: tmpl (the sentence), accept?: [tmpl] (other correct orders of the same words)
+//   blanks      text: tmpl with several ___, answers: expr giving one number per blank (a step-by-step line)
 // Any template may have figure: expr, an SVG string drawn by a library function from the question's numbers.
+// Any template may have scaffold: {text, answers, figure?, hint?}: after a first miss, the fresh question is asked as
+// blanks with the same vars (e.g. "2 × ___ + 2 × ___ = ___"), so the pupil does the step they skipped.
 //   matching    pool: [{left: tmpl, right: tmpl}], pick: n; with groups: true several lefts may share a right
 //               (sort into groups)
 // A stmt is {text: tmpl, truth: expr, explain?, misconception?}; the engine evaluates every truth.
@@ -2796,6 +2839,7 @@ function instantiate(tpl, seed, lib, lesson = null) {
       if (kind === "number" && (typeof value !== "number" || !Number.isFinite(value))) throw new ContentError(`${tpl.id}: answer is ${value}`);
       Object.assign(q, { answerKind: kind, answerValue: value, answer: show(lib)(value), unit: tpl.unit && R(tpl.unit, scope) });
       if (tpl.signed) q.signed = true;  // the answer can be negative: the keyboard must have a minus sign
+      if (kind === "base" && tpl.base) q.base = evaluate(tpl.base, scope, lib);
       q.misconceptions = (tpl.misconceptions || []).flatMap((m) => {
         if (m.when && !evaluate(m.when, scope, lib)) return [];
         const v = evaluate(m.wrong, scope, lib);
@@ -2803,6 +2847,17 @@ function instantiate(tpl, seed, lib, lesson = null) {
         return [{ id: m.id, value: show(lib)(v), explain: R(m.explain, scope) }];
       });
       q.verified = tpl.verify ? evaluate(tpl.verify, { ...scope, answer: value }, lib) === true : true;
+      return withSolution(q, scope);
+    }
+
+    if (tpl.type === "blanks") {
+      const parts = R(tpl.text, scope).split(BLANK);
+      const values = evaluate(tpl.answers, scope, lib);
+      if (!Array.isArray(values) || values.length !== parts.length - 1) throw new ContentError(`${tpl.id}: ${parts.length - 1} blanks but answers ${values}`);
+      const shown = values.map(show(lib));
+      Object.assign(q, { parts, answerKind: "number", answerValues: values, answers: shown,
+        answer: parts.map((p, i) => p + (i < shown.length ? shown[i] : "")).join("") });
+      q.verified = true;
       return withSolution(q, scope);
     }
 
@@ -2961,6 +3016,7 @@ function inputModeFor(q) {
   // Integers (Form 2): many phone number pads have no minus sign, so a question whose answer can be negative gets the
   // full keyboard for every variant (the keyboard must not give away the sign).
   if (q.type === "cloze" || q.signed) return "text";
+  if (q.type === "blanks") return "numeric";
   if (q.answerKind === "base" || (q.answerKind === "number" && Number.isInteger(q.answerValue))) return "numeric";
   return q.answerKind === "number" ? "decimal" : "text";
 }
@@ -2976,6 +3032,9 @@ function check(q, response) {
   }
   if (q.type === "numeric") {
     if (same(response, q.answerValue, q.answerKind)) return { correct: true };
+    // 517 for 51₇: the base typed after the answer. The digit 7 does not exist in base 7, so this cannot be another number.
+    const typed = normalize(response, q.answerKind), b = q.base && String(q.base);
+    if (b && q.base <= 9 && typed.length > b.length && typed.endsWith(b) && same(typed.slice(0, -b.length), q.answerValue, "base")) return { correct: true, baseTyped: true };
     const m = q.misconceptions.find((x) => same(response, x.value, q.answerKind));
     return { correct: false, misconception: m ? { id: m.id, explain: m.explain } : null };
   }
@@ -2983,6 +3042,11 @@ function check(q, response) {
     if (response === q.correctIndex) return { correct: true };
     const o = q.options[response];
     return { correct: false, misconception: o && (o.misconception || o.explain) ? { id: o.misconception || null, explain: o.explain } : null };
+  }
+  if (q.type === "blanks") {
+    // response: one typed value per blank. All must be right; the wrong ones are listed.
+    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], "number"));
+    return wrong.length ? { correct: false, wrongBlanks: wrong } : { correct: true };
   }
   if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
   if (q.type === "cloze") {
@@ -3019,7 +3083,15 @@ function renderWorked(we, lib) {
     ...(we.figure ? { figure: String(evaluate(we.figure, scope, lib)) } : {}) };
 }
 
-return { normaliseText, ContentError, sampleScope, parseNumber, normalize, instantiate, normaliseInput, inputModeFor, DONT_KNOW, check, renderWorked };
+/** The step-by-step form of a template (its `scaffold`), asked after a first miss: same vars, id, prompt and working. */
+function scaffoldTemplate(tpl) {
+  if (!tpl.scaffold) return tpl;
+  const { misconceptions, verify, answer, answer_kind, unit, scaffold, ...rest } = tpl;
+  return { ...rest, type: "blanks", text: scaffold.text, answers: scaffold.answers,
+    ...(scaffold.figure ? { figure: scaffold.figure } : {}), ...(scaffold.hint ? { hint: scaffold.hint } : {}) };
+}
+
+return { normaliseText, ContentError, sampleScope, parseNumber, normalize, instantiate, normaliseInput, inputModeFor, DONT_KNOW, check, renderWorked, scaffoldTemplate };
 })();
 __mods["state.js"] = (() => {
 // Pupil state for one subject (decisions 2026-10-02):
@@ -3094,7 +3166,7 @@ __mods["teach.js"] = (() => {
 // Pure functions; the UI holds the flow object.
 
 const { render, evaluate } = __mods["expr.js"];
-const { sampleScope, instantiate } = __mods["template.js"];
+const { sampleScope, instantiate, scaffoldTemplate } = __mods["template.js"];
 const { makeRng } = __mods["rng.js"];
 const show = (lib) => (v) => (typeof v === "number" ? lib.fmt(v) : String(v));
 
@@ -3183,17 +3255,34 @@ const checkSeed = (flow) => flow.seed + flow.step * 1000 + flow.attempt * 97;
 const signature = (q) => JSON.stringify([q.prompt, q.options?.map((o) => o.text), q.items]);
 
 /**
- * The question for the current card or practice step. On a retry, seeds are tried until the
- * question differs from the one just answered (templates with few variants could repeat it).
+ * The question for the current card or practice step. On a retry, seeds are tried until the question differs
+ * from the ones just seen (`previous`: one question or a list; templates with few variants could repeat them).
+ * On the retry of a template with a `scaffold`, the fresh question is asked step by step (2026-10-19).
  */
 function itemQuestion(lesson, flow, lib, previous = null) {
-  const tpl = stepTemplate(lesson, flow.steps[flow.step]);
+  const base = stepTemplate(lesson, flow.steps[flow.step]);
+  const tpl = flow.attempt === 1 ? scaffoldTemplate(base) : base;
+  return freshVariant(tpl, checkSeed(flow), lib, lesson.lesson_no, previous);
+}
+function freshVariant(tpl, seed, lib, lessonNo, previous) {
+  const avoid = new Set((Array.isArray(previous) ? previous : previous ? [previous] : []).map(signature));
   let q;
   for (let k = 0; k < 50; k++) {
-    q = instantiate(tpl, checkSeed(flow) + k, lib, lesson.lesson_no);
-    if (!previous || signature(q) !== signature(previous)) return q;
+    q = instantiate(tpl, seed + k, lib, lessonNo);
+    if (!avoid.has(signature(q))) return q;
   }
   return q;  // a template with a single variant: same question, options reshuffled where possible
+}
+
+/**
+ * After a first wrong answer to a computed (numeric) question: another variant of the same shape with its full
+ * working, so the example the pupil looks at matches the question (2026-10-19). Null for other question types.
+ */
+function exampleLike(lesson, flow, lib, answered) {
+  const tpl = stepTemplate(lesson, flow.steps[flow.step]);
+  if (tpl.type !== "numeric" || !tpl.solution) return null;
+  const shown = tpl.scaffold?.figure ? { ...tpl, figure: tpl.scaffold.figure } : tpl;  // e.g. the place-value table
+  return freshVariant(shown, checkSeed(flow) + 5000, lib, lesson.lesson_no, answered);
 }
 const cardQuestion = itemQuestion;
 
@@ -3231,7 +3320,7 @@ const isDone = (flow) => flow.step >= flow.steps.length;
 /** Steps the pupil missed twice, for the results and for later review. */
 const needsReview = (flow) => flow.log.filter((e) => e.needsReview).map((e) => flow.steps[e.step]);
 
-return { cardCheckTemplate, renderCard, practicePlan, lessonSteps, isDeferred, isAutoMarked, renderPaper, stepTemplate, startTeach, checkSeed, itemQuestion, cardQuestion, nextPhase, answerItem, answerCard, isDone, needsReview };
+return { cardCheckTemplate, renderCard, practicePlan, lessonSteps, isDeferred, isAutoMarked, renderPaper, stepTemplate, startTeach, checkSeed, itemQuestion, exampleLike, cardQuestion, nextPhase, answerItem, answerCard, isDone, needsReview };
 })();
 __mods["readiness.js"] = (() => {
 // Lesson 0: Primary 6 readiness check. Sets a readiness score and flags weak foundations.
@@ -3298,10 +3387,11 @@ const CLASS_OF = {"f2-maths":"form-2","f2-english":"form-2","f2-physics":"form-2
 const PAPER = {"f2-maths":[],"f2-english":[4,16,20,28,32],"f2-physics":[],"f2-chemistry":[],"f2-geography":[],"f2-home-economics":[],"f2-history":[],"f2-biology":[],"f2-computer-science":[],"f2-french":[],"f2-francais-intensif":[],"f2-accounting":[]};
 const MODE = "single";
 const BUILD = "2026-10-19";
+const VERSIONS = {};
 // Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
 // practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, CLASSES, CLASS_OF, BUILD, PAPER, MODE */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, CLASSES, CLASS_OF, BUILD, VERSIONS, PAPER, MODE */
 const { libs, template, teach, readiness } = ENGINE;
 const { check, DONT_KNOW, renderWorked, normaliseInput, inputModeFor } = template;
 const L0 = () => CONTENT.maths[0];  // Maths is loaded before the readiness check starts
@@ -3390,6 +3480,8 @@ const FR = {
   "Try a new question": "Essayer une nouvelle question", "Here are the right answers.": "Voici les bonnes réponses.", "The answer is: {a}": "La réponse est : {a}",
   "Here is how to do it": "Voici comment faire", "Full working": "La solution complète", "We will come back to this one later.": "Nous reviendrons sur cette question plus tard.",
   "Continue": "Continuer", "Lesson {n} done": "Leçon {n} terminée", "You completed {a} questions.": "Tu as répondu à {a} questions.",
+  "Here is one like it": "En voici un pareil", "Here is how to do this one": "Voici comment faire celui-ci", "Show the next step": "Voir l’étape suivante",
+  "Step by step": "Étape par étape", "Fill in each box, then check.": "Remplis chaque case, puis vérifie.", "Box {a}": "Case {a}",
   "Next: Lesson {a}": "Suivant : Leçon {a}", "🔥 {a}-day streak": "🔥 {a} jours d’affilée", "New badge: {a}": "Nouveau badge : {a}", "All subjects": "Toutes les matières", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
 };
 /** A label for the pupil: in French inside a French lesson, otherwise English. {x} are filled from v. */
@@ -3486,7 +3578,15 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const t0 = performance.now();
   const finish = (response) => onAnswer({ result: check(q, response), ms: Math.round(performance.now() - t0) });
   const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt), figureBox(q.figure)];
-  if (q.type === "numeric") {
+  if (q.type === "blanks") {
+    // a step-by-step line: one small box per blank, all checked together (2026-10-19)
+    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off", class: "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
+    const go = () => { const v = inputs.map((x) => normaliseInput(x.value, q)); if (v.every(Boolean)) finish(v); else inputs[v.findIndex((x) => !x)].focus(); };
+    inputs.forEach((x, i) => x.addEventListener("keydown", (e) => { if (e.key === "Enter") (i < inputs.length - 1 && !inputs[i + 1].value ? inputs[i + 1].focus() : go()); }));
+    setTimeout(() => inputs[0].focus(), 50);
+    body.push(para(T("Fill in each box, then check."), "muted"),
+      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i]] : [p]))), button(T("Check"), go, "primary"));
+  } else if (q.type === "numeric") {
     const { input, check: go } = answerBox(q, finish);
     body.push(el("div", { class: "answer" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null), go);
   } else if (q.type === "cloze" && q.mode === "type") {
@@ -3521,6 +3621,7 @@ const recordOf = (q, r, ms, phase) => ({
   phase, id: q.id, level: q.level, result: r.correct ? "right" : r.dontKnow ? "idk" : "wrong",
   seconds: Math.round(ms / 100) / 10, misconception: r.misconception?.id || "",
 });
+// On every lesson screen, the answer screens included (2026-10-19), so the pupil can always leave; the flow is saved.
 const toMenu = () => button(T("Back to the lessons"), menu, "link");
 
 // ---------------------------------------------------------------- 1. first visit: readiness check (Primary 6 maths)
@@ -3590,7 +3691,7 @@ function loadSubject(s) {
   if (CONTENT[s]) return Promise.resolve();
   if (!loading[s]) loading[s] = new Promise((ok, fail) => {
     const tag = document.createElement("script");
-    tag.src = `subjects/${s}.js?v=${BUILD}`;
+    tag.src = `subjects/${s}.js?v=${VERSIONS[s] || BUILD}`;  // the file's content fingerprint: new lessons, new address
     tag.onload = () => (CONTENT[s] ? ok() : fail(new Error("empty")));
     tag.onerror = () => { delete loading[s]; tag.remove(); fail(new Error("offline")); };
     document.head.append(tag);
@@ -3828,7 +3929,7 @@ function lesson(flow, previous = null) {
   if (step.kind === "card" || step.kind === "practice") {
     const q = teach.itemQuestion(Ln, flow, LIB(), previous);
     return askQuestion(q, {
-      bar, kicker, back: toMenu(), title: flow.attempt ? T("A new question") : step.kind === "card" ? T("Quick check") : T("Level {a}", { a: q.level }),
+      bar, kicker, back: toMenu(), title: q.type === "blanks" ? T("Step by step") : flow.attempt ? T("A new question") : step.kind === "card" ? T("Quick check") : T("Level {a}", { a: q.level }),
       onAnswer: ({ result, ms }) => {
         C().rows.push({ ...recordOf(q, result, ms, step.kind), card: step.kind === "card" ? Ln.teach.cards[step.card].id : "", attempt: flow.attempt + 1 });
         recordDay();
@@ -3838,7 +3939,10 @@ function lesson(flow, previous = null) {
         if (next.phase === "reveal") return reveal(q, next, kicker, bar, result);
         if (next.phase === "retry") return retry(q, result, next, kicker, bar);
         // Teach mode only: green flash + check icon (readiness shows no right/wrong cues).
-        return screen(bar, el("div", { class: "fb good flash", role: "status" }, checkIcon(), el("strong", {}, T("Correct!"))), button(T("Next"), go(next), "primary"));
+        return screen(bar, el("div", { class: "fb good flash", role: "status" }, checkIcon(), el("strong", {}, T("Correct!")),
+          // 517 typed for 51₇: right, with a gentle word that the base is not typed
+          result.baseTyped ? para(`Well done. You don't need to type the base: ${q.answer} is enough (the small ${q.base} only shows it is base ${q.base}).`) : null),
+          button(T("Next"), go(next), "primary"), toMenu());
       },
     });
   }
@@ -3881,30 +3985,51 @@ function paperTask(flow, bar) {
   return C().paper?.written ? review() : write();
 }
 
-/** First miss: feedback without the answer, then a fresh variant. */
+/**
+ * First miss, then a fresh variant (asked step by step when the template has a scaffold). Since 2026-10-19:
+ *  - "I don't know": the hint, then this question's own working, one step per tap, then a new question;
+ *  - a wrong answer: what the mistake was (a known misconception when the answer matches one), then for computed
+ *    questions "one like it": another variant of the same shape with its working, so the example fits the question.
+ */
 function retry(q, result, flow, kicker, bar) {
   const step = flow.steps[flow.step];
+  const again = (seen) => button(T("Try a new question"), () => lesson(teach.nextPhase(flow), seen), "primary");
+  const workingBox = (title, x, list) => el("div", { class: "example" }, el("div", { class: "kicker" }, title), el("div", { class: "strong pre" }, x.prompt), figureBox(x.figure), list);
+  if (result.dontKnow && q.solution?.length) {
+    const list = el("ol", { "aria-live": "polite" }), tail = el("div", {});
+    let shown = 0;
+    const more = () => {
+      list.append(el("li", {}, q.solution[shown++]));
+      fill(tail, [shown < q.solution.length ? button(T("Show the next step"), more, "primary") : again(q)]);
+    };
+    screen(bar, header(kicker, T("Let's try again")),
+      el("div", { class: "fb soft", role: "status" }, el("strong", {}, T("That's fine. Let's look at it together."))),
+      hintBlock(q), workingBox(T("Here is how to do this one"), q, list), tail, toMenu());
+    return more();
+  }
   const wrongPairs = result.wrongPairs?.length
     ? para(T(result.wrongPairs.length === 1 ? "This one is not right yet: {a}." : "These are not right yet: {a}.", { a: result.wrongPairs.map((i) => q.left[i]).join(", ") })) : null;
   const box = result.dontKnow
-    // "I don't know": no misconception feedback, only the hint and the worked example (spec §4)
+    // "I don't know" on a question without written working: the hint and the worked example (spec §4)
     ? el("div", { class: "fb soft", role: "status" }, el("strong", {}, T("That's fine. Let's look at it together.")))
     : el("div", { class: "fb bad shake", role: "status" }, el("strong", {}, T("✗ Not quite")),
       result.misconception?.explain ? para(result.misconception.explain) : wrongPairs || para(T("Look at the example again, then try a new question.")));
-  const help = step.kind === "card"
-    ? [result.dontKnow ? hintBlock(q) : null, cardExample(teach.renderCard(L().teach.cards[step.card], LIB()))]
+  const like = result.dontKnow ? null : teach.exampleLike(L(), flow, LIB(), q);
+  const help = like ? [workingBox(T("Here is one like it"), like, el("ol", {}, like.solution.map((s) => el("li", {}, s))))]
+    : step.kind === "card" ? [result.dontKnow ? hintBlock(q) : null, cardExample(teach.renderCard(L().teach.cards[step.card], LIB()))]
     : result.dontKnow ? [hintBlock(q), workedBlock()] : [];
-  screen(bar, header(kicker, T("Let's try again")), box, ...help, button(T("Try a new question"), () => lesson(teach.nextPhase(flow), q), "primary"));
+  screen(bar, header(kicker, T("Let's try again")), box, ...help, again(like ? [q, like] : q), toMenu());
 }
 
 /** Second miss: the correct answer with full working, then move on (marked "needs review"). */
 function reveal(q, flow, kicker, bar, result) {
-  const shown = q.type === "matching" ? T("Here are the right answers.") : T("The answer is: {a}", { a: `${q.answer}${q.unit ? " " + q.unit : ""}` });
+  const shown = q.type === "matching" ? T("Here are the right answers.")
+    : T("The answer is: {a}", { a: `${q.answer}${q.base ? LIB().sub(q.base) : ""}${q.unit ? " " + q.unit : ""}` });  // 51₇, not 51
   screen(bar, header(kicker, T("Here is how to do it")),
     el("div", { class: result.dontKnow ? "fb soft" : "fb bad shake", role: "status" }, el("strong", {}, shown)),
     el("div", { class: "example" }, el("div", { class: "kicker" }, T("Full working")), el("ol", {}, q.solution.map((s) => el("li", {}, s)))),
     para(T("We will come back to this one later."), "muted"),
-    button(T("Continue"), () => lesson(teach.nextPhase(flow)), "primary"));
+    button(T("Continue"), () => lesson(teach.nextPhase(flow)), "primary"), toMenu());
 }
 
 // ---------------------------------------------------------------- 4. results + copy

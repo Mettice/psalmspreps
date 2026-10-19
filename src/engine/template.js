@@ -3,7 +3,9 @@
 // expressions, never stored as free text from an author or a model.
 //
 // Template types
-//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?, signed? (answer may be negative)
+//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?, signed? (answer may be negative),
+//               base?: expr (answer_kind base: the base, so an answer typed with its base after it, 517 for 51₇,
+//               is still right: on a phone ₇ can only be typed as 7)
 //   mcq         correct: tmpl + distractors: [tmpl | {text?, misconception}]   (computed values)
 //               or pool: {right: [stmt], wrong: [stmt]}, pick: {right, wrong}  (choose the true one)
 //   spot_error  pool + pick (choose the false statement), or steps: [stmt] with exactly one false
@@ -12,7 +14,10 @@
 //               choices: [tmpl | {text, misconception}] → pick one (shown like mcq); no choices → typed,
 //               checked against the accepted list (case- and space-insensitive), misconceptions: [{id, wrong: expr, explain}]
 //   word_order  answer: tmpl (the sentence), accept?: [tmpl] (other correct orders of the same words)
+//   blanks      text: tmpl with several ___, answers: expr giving one number per blank (a step-by-step line)
 // Any template may have figure: expr, an SVG string drawn by a library function from the question's numbers.
+// Any template may have scaffold: {text, answers, figure?, hint?}: after a first miss, the fresh question is asked as
+// blanks with the same vars (e.g. "2 × ___ + 2 × ___ = ___"), so the pupil does the step they skipped.
 //   matching    pool: [{left: tmpl, right: tmpl}], pick: n; with groups: true several lefts may share a right
 //               (sort into groups)
 // A stmt is {text: tmpl, truth: expr, explain?, misconception?}; the engine evaluates every truth.
@@ -181,6 +186,7 @@ export function instantiate(tpl, seed, lib, lesson = null) {
       if (kind === "number" && (typeof value !== "number" || !Number.isFinite(value))) throw new ContentError(`${tpl.id}: answer is ${value}`);
       Object.assign(q, { answerKind: kind, answerValue: value, answer: show(lib)(value), unit: tpl.unit && R(tpl.unit, scope) });
       if (tpl.signed) q.signed = true;  // the answer can be negative: the keyboard must have a minus sign
+      if (kind === "base" && tpl.base) q.base = evaluate(tpl.base, scope, lib);
       q.misconceptions = (tpl.misconceptions || []).flatMap((m) => {
         if (m.when && !evaluate(m.when, scope, lib)) return [];
         const v = evaluate(m.wrong, scope, lib);
@@ -188,6 +194,17 @@ export function instantiate(tpl, seed, lib, lesson = null) {
         return [{ id: m.id, value: show(lib)(v), explain: R(m.explain, scope) }];
       });
       q.verified = tpl.verify ? evaluate(tpl.verify, { ...scope, answer: value }, lib) === true : true;
+      return withSolution(q, scope);
+    }
+
+    if (tpl.type === "blanks") {
+      const parts = R(tpl.text, scope).split(BLANK);
+      const values = evaluate(tpl.answers, scope, lib);
+      if (!Array.isArray(values) || values.length !== parts.length - 1) throw new ContentError(`${tpl.id}: ${parts.length - 1} blanks but answers ${values}`);
+      const shown = values.map(show(lib));
+      Object.assign(q, { parts, answerKind: "number", answerValues: values, answers: shown,
+        answer: parts.map((p, i) => p + (i < shown.length ? shown[i] : "")).join("") });
+      q.verified = true;
       return withSolution(q, scope);
     }
 
@@ -346,6 +363,7 @@ export function inputModeFor(q) {
   // Integers (Form 2): many phone number pads have no minus sign, so a question whose answer can be negative gets the
   // full keyboard for every variant (the keyboard must not give away the sign).
   if (q.type === "cloze" || q.signed) return "text";
+  if (q.type === "blanks") return "numeric";
   if (q.answerKind === "base" || (q.answerKind === "number" && Number.isInteger(q.answerValue))) return "numeric";
   return q.answerKind === "number" ? "decimal" : "text";
 }
@@ -361,6 +379,9 @@ export function check(q, response) {
   }
   if (q.type === "numeric") {
     if (same(response, q.answerValue, q.answerKind)) return { correct: true };
+    // 517 for 51₇: the base typed after the answer. The digit 7 does not exist in base 7, so this cannot be another number.
+    const typed = normalize(response, q.answerKind), b = q.base && String(q.base);
+    if (b && q.base <= 9 && typed.length > b.length && typed.endsWith(b) && same(typed.slice(0, -b.length), q.answerValue, "base")) return { correct: true, baseTyped: true };
     const m = q.misconceptions.find((x) => same(response, x.value, q.answerKind));
     return { correct: false, misconception: m ? { id: m.id, explain: m.explain } : null };
   }
@@ -368,6 +389,11 @@ export function check(q, response) {
     if (response === q.correctIndex) return { correct: true };
     const o = q.options[response];
     return { correct: false, misconception: o && (o.misconception || o.explain) ? { id: o.misconception || null, explain: o.explain } : null };
+  }
+  if (q.type === "blanks") {
+    // response: one typed value per blank. All must be right; the wrong ones are listed.
+    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], "number"));
+    return wrong.length ? { correct: false, wrongBlanks: wrong } : { correct: true };
   }
   if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
   if (q.type === "cloze") {
@@ -402,4 +428,12 @@ export function renderWorked(we, lib) {
   const failed = (we.checks || []).filter((c) => evaluate(c, scope, lib) !== true);
   return { problem: R(we.problem), steps: we.steps.map(R), answer: R(we.answer), failedChecks: failed,
     ...(we.figure ? { figure: String(evaluate(we.figure, scope, lib)) } : {}) };
+}
+
+/** The step-by-step form of a template (its `scaffold`), asked after a first miss: same vars, id, prompt and working. */
+export function scaffoldTemplate(tpl) {
+  if (!tpl.scaffold) return tpl;
+  const { misconceptions, verify, answer, answer_kind, unit, scaffold, ...rest } = tpl;
+  return { ...rest, type: "blanks", text: scaffold.text, answers: scaffold.answers,
+    ...(scaffold.figure ? { figure: scaffold.figure } : {}), ...(scaffold.hint ? { hint: scaffold.hint } : {}) };
 }

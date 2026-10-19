@@ -222,6 +222,42 @@ export function placeSum(s, b) {
   const values = digits.map((d, i) => fmt(d * b ** (L - 1 - i)));
   return `${sb(s, b)} = ${terms.join(" + ")} = ${values.join(" + ")} = ${fmt(fromBase(s, b))}`;
 }
+// ---------------------------------------------------------------- base b → base ten: help after a miss (2026-10-19)
+/** The place values of a base-b numeral, from the left: "22", 4 → [4, 1]. */
+export const placeValues = (s, b) => { const L = String(s).length; return range(0, L - 1).map((i) => b ** (L - 1 - i)); };
+/** The scaffold line "2 × ___ + 2 × ___ = ___": the pupil fills in each place value, then the total. */
+export const placeBlanks = (s) => [...String(s)].map((d) => `${d} × ___`).join(" + ") + " = ___";
+/** The answers to placeBlanks, in order: each place value, then the base-ten value. */
+export const placeAnswers = (s, b) => [...placeValues(s, b), fromBase(s, b)];
+/** Usual wrong answers: the digits added, the digits multiplied, the place values read from the left. */
+export const digitSum = (s) => [...String(s)].reduce((a, d) => a + Number(d), 0);
+export const digitProduct = (s) => [...String(s)].reduce((a, d) => a * Number(d), 1);
+export const placeReversed = (s, b) => fromBase(reverse(s), b);
+/** "4s, 1s": the names of the places of a base-b numeral, from the left. */
+export const placeHeads = (s, b) => placeValues(s, b).map((v) => `${fmt(v)}s`).join(", ");
+/** The same working as placeSum, one step per line (shown one step at a time after "I don't know"). */
+export function placeSteps(s, b) {
+  s = String(s);
+  const digits = [...s].map(Number), places = placeValues(s, b), parts = digits.map((d, i) => d * places[i]);
+  return [`In base ${b} the places are worth ${placeHeads(s, b)}.`,
+    `Multiply each digit by its place value: ${digits.map((d, i) => `${d} × ${fmt(places[i])} = ${fmt(parts[i])}`).join(", ")}.`,
+    `Add: ${parts.map(fmt).join(" + ")} = ${fmt(fromBase(s, b))}.`,
+    `So ${sb(s, b)} = ${fmt(fromBase(s, b))} in base ten.`].join("\n");
+}
+/** A small place-value table: the value of each place above each digit ("4s | 1s" over "2 | 2"). */
+export function placeTable(s, b) {
+  const digits = [...String(s)], heads = placeValues(s, b).map((v) => `${fmt(v)}s`);
+  const cw = 46, w = cw * digits.length + 2, h = 60;
+  const cells = digits.map((d, i) => {
+    const x = 1 + i * cw;
+    return `<rect x="${x}" y="1" width="${cw}" height="${h - 2}" rx="4"/>` +
+      `<text x="${x + cw / 2}" y="18" font-size="12" text-anchor="middle" fill="currentColor" stroke="none" opacity=".75">${heads[i]}</text>` +
+      `<text x="${x + cw / 2}" y="48" font-size="22" font-weight="700" text-anchor="middle" fill="currentColor" stroke="none">${d}</text>`;
+  }).join("");
+  return `<svg class="fig" viewBox="0 0 ${w} ${h}" style="max-width:${Math.round(w * 1.6)}px" role="img" aria-label="Place values in base ${b}: ${heads.join(", ")}" ` +
+    `xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif" fill="none" stroke="currentColor" stroke-width="1">` +
+    `${cells}<line x1="1" y1="26" x2="${w - 1}" y2="26"/></svg>`;
+}
 /** Column addition in base b, right to left, with carries. */
 export function columnAdd(xs, ys, b) {
   const L = Math.max(String(xs).length, String(ys).length), out = [];
@@ -242,7 +278,7 @@ export function columnSub(xs, ys, b) {
   let borrow = 0;
   // Plain steps with no negative intermediates (TR-C31, Dion 2026-10-03).
   for (let i = 0; i < L; i++) {
-    const d = dig(xs, i), c = dig(ys, i);
+    const d = dig(xs, i), c = dig(ys, i), nothing = i >= String(ys).length;  // no digit below: nothing to take away
     const col = `Column ${i + 1} from the right: `;
     if (borrow && d === 0) {
       // Borrowing across a zero: the 0 has already lent 1, so it borrows b and gives back the 1.
@@ -256,7 +292,8 @@ export function columnSub(xs, ys, b) {
           `In base ${b}, borrowing gives ${b} more: ${top} + ${b} = ${top + b}. Then ${top + b} − ${c} = ${top + b - c}.`);
         borrow = 1;
       } else {
-        out.push(`${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Then ${top} − ${c} = ${top - c}.`);
+        out.push(nothing ? `${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Nothing to take away: write ${top}.`
+          : `${col}This ${d} lent 1 to the right: ${d} − 1 = ${top}. Then ${top} − ${c} = ${top - c}.`);
         borrow = 0;
       }
     } else if (d < c) {
@@ -264,7 +301,7 @@ export function columnSub(xs, ys, b) {
         `In base ${b}, borrowing gives ${b} more: ${d} + ${b} = ${d + b}. Then ${d + b} − ${c} = ${d + b - c}.`);
       borrow = 1;
     } else {
-      out.push(`${col}${d} − ${c} = ${d - c}.`);
+      out.push(nothing ? `${col}Nothing to take away: write ${d}.` : `${col}${d} − ${c} = ${d - c}.`);
       borrow = 0;
     }
   }
