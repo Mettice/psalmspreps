@@ -12,7 +12,10 @@
 //               choices: [tmpl | {text, misconception}] → pick one (shown like mcq); no choices → typed,
 //               checked against the accepted list (case- and space-insensitive), misconceptions: [{id, wrong: expr, explain}]
 //   word_order  answer: tmpl (the sentence), accept?: [tmpl] (other correct orders of the same words)
+//   blanks      text: tmpl with several ___, answers: expr giving one number per blank (a step-by-step line)
 // Any template may have figure: expr, an SVG string drawn by a library function from the question's numbers.
+// Any template may have scaffold: {text, answers, figure?, hint?}: after a first miss, the fresh question is asked as
+// blanks with the same vars (e.g. "2 × ___ + 2 × ___ = ___"), so the pupil does the step they skipped.
 //   matching    pool: [{left: tmpl, right: tmpl}], pick: n; with groups: true several lefts may share a right
 //               (sort into groups)
 // A stmt is {text: tmpl, truth: expr, explain?, misconception?}; the engine evaluates every truth.
@@ -190,6 +193,17 @@ export function instantiate(tpl, seed, lib, lesson = null) {
       return withSolution(q, scope);
     }
 
+    if (tpl.type === "blanks") {
+      const parts = R(tpl.text, scope).split(BLANK);
+      const values = evaluate(tpl.answers, scope, lib);
+      if (!Array.isArray(values) || values.length !== parts.length - 1) throw new ContentError(`${tpl.id}: ${parts.length - 1} blanks but answers ${values}`);
+      const shown = values.map(show(lib));
+      Object.assign(q, { parts, answerKind: "number", answerValues: values, answers: shown,
+        answer: parts.map((p, i) => p + (i < shown.length ? shown[i] : "")).join("") });
+      q.verified = true;
+      return withSolution(q, scope);
+    }
+
     if (tpl.type === "mcq" && tpl.correct !== undefined) {
       const correct = R(tpl.correct, scope);
       const seen = new Set([correct]);
@@ -343,6 +357,7 @@ export function normaliseInput(text, q) {
 /** Keyboard to show: the number pad for whole numbers and base numerals, decimal pad otherwise. */
 export function inputModeFor(q) {
   if (q.type === "cloze") return "text";
+  if (q.type === "blanks") return "numeric";
   if (q.answerKind === "base" || (q.answerKind === "number" && Number.isInteger(q.answerValue))) return "numeric";
   return q.answerKind === "number" ? "decimal" : "text";
 }
@@ -365,6 +380,11 @@ export function check(q, response) {
     if (response === q.correctIndex) return { correct: true };
     const o = q.options[response];
     return { correct: false, misconception: o && (o.misconception || o.explain) ? { id: o.misconception || null, explain: o.explain } : null };
+  }
+  if (q.type === "blanks") {
+    // response: one typed value per blank. All must be right; the wrong ones are listed.
+    const wrong = q.answerValues.map((_, i) => i).filter((i) => !Array.isArray(response) || !same(response[i], q.answerValues[i], "number"));
+    return wrong.length ? { correct: false, wrongBlanks: wrong } : { correct: true };
   }
   if (q.type === "ordering") return { correct: Array.isArray(response) && response.every((r, i) => r === q.correctOrder[i]) && response.length === q.correctOrder.length };
   if (q.type === "cloze") {
@@ -399,4 +419,12 @@ export function renderWorked(we, lib) {
   const failed = (we.checks || []).filter((c) => evaluate(c, scope, lib) !== true);
   return { problem: R(we.problem), steps: we.steps.map(R), answer: R(we.answer), failedChecks: failed,
     ...(we.figure ? { figure: String(evaluate(we.figure, scope, lib)) } : {}) };
+}
+
+/** The step-by-step form of a template (its `scaffold`), asked after a first miss: same vars, id, prompt and working. */
+export function scaffoldTemplate(tpl) {
+  if (!tpl.scaffold) return tpl;
+  const { misconceptions, verify, answer, answer_kind, unit, scaffold, ...rest } = tpl;
+  return { ...rest, type: "blanks", text: scaffold.text, answers: scaffold.answers,
+    ...(scaffold.figure ? { figure: scaffold.figure } : {}), ...(scaffold.hint ? { hint: scaffold.hint } : {}) };
 }

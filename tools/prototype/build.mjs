@@ -147,6 +147,7 @@ button:disabled { opacity: .45; cursor: default; box-shadow: none; }
 .sentence { font-size: 1.2rem; line-height: 2.1; margin: 0 0 14px; overflow-wrap: anywhere; }
 .blank { display: inline-block; min-width: 4.5em; border-bottom: 3px dotted var(--accent); line-height: 1.2; }
 input.blank-input { display: inline-block; width: 9em; max-width: 100%; min-height: 48px; padding: 6px 10px; font-size: 1.15rem; vertical-align: middle; }
+.sentence.blanks input.blank-input { width: 3.6em; margin: 2px 2px; text-align: center; }
 /* word tiles (word order, sorting): tap, never drag */
 .tiles { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
 button.tile { display: inline-flex; align-items: center; justify-content: center; width: auto; min-width: 48px; min-height: 48px; margin: 0; padding: 8px 14px; text-align: center; }

@@ -90,6 +90,8 @@ const FR = {
   "Try a new question": "Essayer une nouvelle question", "Here are the right answers.": "Voici les bonnes réponses.", "The answer is: {a}": "La réponse est : {a}",
   "Here is how to do it": "Voici comment faire", "Full working": "La solution complète", "We will come back to this one later.": "Nous reviendrons sur cette question plus tard.",
   "Continue": "Continuer", "Lesson {n} done": "Leçon {n} terminée", "You completed {a} questions.": "Tu as répondu à {a} questions.",
+  "Here is one like it": "En voici un pareil", "Here is how to do this one": "Voici comment faire celui-ci", "Show the next step": "Voir l’étape suivante",
+  "Step by step": "Étape par étape", "Fill in each box, then check.": "Remplis chaque case, puis vérifie.", "Box {a}": "Case {a}",
   "Next: Lesson {a}": "Suivant : Leçon {a}", "🔥 {a}-day streak": "🔥 {a} jours d’affilée", "New badge: {a}": "Nouveau badge : {a}", "All subjects": "Toutes les matières", "You have done every {a} lesson. Well done!": "Tu as fini toutes les leçons de français. Bravo !",
 };
 /** A label for the pupil: in French inside a French lesson, otherwise English. {x} are filled from v. */
@@ -185,7 +187,15 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const t0 = performance.now();
   const finish = (response) => onAnswer({ result: check(q, response), ms: Math.round(performance.now() - t0) });
   const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt), figureBox(q.figure)];
-  if (q.type === "numeric") {
+  if (q.type === "blanks") {
+    // a step-by-step line: one small box per blank, all checked together (2026-10-19)
+    const inputs = q.answers.map((_, i) => el("input", { type: "text", inputmode: "numeric", autocomplete: "off", class: "blank-input", "aria-label": T("Box {a}", { a: i + 1 }) }));
+    const go = () => { const v = inputs.map((x) => normaliseInput(x.value, q)); if (v.every(Boolean)) finish(v); else inputs[v.findIndex((x) => !x)].focus(); };
+    inputs.forEach((x, i) => x.addEventListener("keydown", (e) => { if (e.key === "Enter") (i < inputs.length - 1 && !inputs[i + 1].value ? inputs[i + 1].focus() : go()); }));
+    setTimeout(() => inputs[0].focus(), 50);
+    body.push(para(T("Fill in each box, then check."), "muted"),
+      el("div", { class: "sentence blanks" }, q.parts.flatMap((p, i) => (i < inputs.length ? [p, inputs[i]] : [p]))), button(T("Check"), go, "primary"));
+  } else if (q.type === "numeric") {
     const { input, check: go } = answerBox(q, finish);
     body.push(el("div", { class: "answer" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null), go);
   } else if (q.type === "cloze" && q.mode === "type") {
@@ -511,7 +521,7 @@ function lesson(flow, previous = null) {
   if (step.kind === "card" || step.kind === "practice") {
     const q = teach.itemQuestion(Ln, flow, LIB(), previous);
     return askQuestion(q, {
-      bar, kicker, back: toMenu(), title: flow.attempt ? T("A new question") : step.kind === "card" ? T("Quick check") : T("Level {a}", { a: q.level }),
+      bar, kicker, back: toMenu(), title: q.type === "blanks" ? T("Step by step") : flow.attempt ? T("A new question") : step.kind === "card" ? T("Quick check") : T("Level {a}", { a: q.level }),
       onAnswer: ({ result, ms }) => {
         C().rows.push({ ...recordOf(q, result, ms, step.kind), card: step.kind === "card" ? Ln.teach.cards[step.card].id : "", attempt: flow.attempt + 1 });
         recordDay();
@@ -564,20 +574,40 @@ function paperTask(flow, bar) {
   return C().paper?.written ? review() : write();
 }
 
-/** First miss: feedback without the answer, then a fresh variant. */
+/**
+ * First miss, then a fresh variant (asked step by step when the template has a scaffold). Since 2026-10-19:
+ *  - "I don't know": the hint, then this question's own working, one step per tap, then a new question;
+ *  - a wrong answer: what the mistake was (a known misconception when the answer matches one), then for computed
+ *    questions "one like it": another variant of the same shape with its working, so the example fits the question.
+ */
 function retry(q, result, flow, kicker, bar) {
   const step = flow.steps[flow.step];
+  const again = (seen) => button(T("Try a new question"), () => lesson(teach.nextPhase(flow), seen), "primary");
+  const workingBox = (title, x, list) => el("div", { class: "example" }, el("div", { class: "kicker" }, title), el("div", { class: "strong pre" }, x.prompt), figureBox(x.figure), list);
+  if (result.dontKnow && q.solution?.length) {
+    const list = el("ol", { "aria-live": "polite" }), tail = el("div", {});
+    let shown = 0;
+    const more = () => {
+      list.append(el("li", {}, q.solution[shown++]));
+      fill(tail, [shown < q.solution.length ? button(T("Show the next step"), more, "primary") : again(q)]);
+    };
+    screen(bar, header(kicker, T("Let's try again")),
+      el("div", { class: "fb soft", role: "status" }, el("strong", {}, T("That's fine. Let's look at it together."))),
+      hintBlock(q), workingBox(T("Here is how to do this one"), q, list), tail);
+    return more();
+  }
   const wrongPairs = result.wrongPairs?.length
     ? para(T(result.wrongPairs.length === 1 ? "This one is not right yet: {a}." : "These are not right yet: {a}.", { a: result.wrongPairs.map((i) => q.left[i]).join(", ") })) : null;
   const box = result.dontKnow
-    // "I don't know": no misconception feedback, only the hint and the worked example (spec §4)
+    // "I don't know" on a question without written working: the hint and the worked example (spec §4)
     ? el("div", { class: "fb soft", role: "status" }, el("strong", {}, T("That's fine. Let's look at it together.")))
     : el("div", { class: "fb bad shake", role: "status" }, el("strong", {}, T("✗ Not quite")),
       result.misconception?.explain ? para(result.misconception.explain) : wrongPairs || para(T("Look at the example again, then try a new question.")));
-  const help = step.kind === "card"
-    ? [result.dontKnow ? hintBlock(q) : null, cardExample(teach.renderCard(L().teach.cards[step.card], LIB()))]
+  const like = result.dontKnow ? null : teach.exampleLike(L(), flow, LIB(), q);
+  const help = like ? [workingBox(T("Here is one like it"), like, el("ol", {}, like.solution.map((s) => el("li", {}, s))))]
+    : step.kind === "card" ? [result.dontKnow ? hintBlock(q) : null, cardExample(teach.renderCard(L().teach.cards[step.card], LIB()))]
     : result.dontKnow ? [hintBlock(q), workedBlock()] : [];
-  screen(bar, header(kicker, T("Let's try again")), box, ...help, button(T("Try a new question"), () => lesson(teach.nextPhase(flow), q), "primary"));
+  screen(bar, header(kicker, T("Let's try again")), box, ...help, again(like ? [q, like] : q));
 }
 
 /** Second miss: the correct answer with full working, then move on (marked "needs review"). */
