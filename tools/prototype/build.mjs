@@ -231,6 +231,7 @@ button.link.back { text-align: left; margin: 0 0 6px; padding-left: 0; }
 .path { list-style: none; padding: 0; margin: 14px 0; position: relative; }
 .path::before { content: ""; position: absolute; left: 25px; top: 18px; bottom: 18px; width: 4px; border-radius: 2px; background: var(--track); }
 .path .step { position: relative; }
+.path button.reset { display: block; min-height: 36px; margin: -4px 0 6px 58px; padding: 4px 8px; font-size: .9rem; text-align: left; }
 .path button.lesson .mark { position: relative; z-index: 1; width: 40px; height: 40px; border: 3px solid var(--subj); background: var(--card); color: var(--subj); }
 .path .is-done button.lesson .mark { background: var(--subj); color: #fff; }
 .path .is-next button.lesson { border: 2px solid var(--subj); background: color-mix(in srgb, var(--subj) 10%, var(--card)); }

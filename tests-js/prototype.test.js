@@ -130,6 +130,14 @@ test("prototype: inside French lessons the pupil's labels are French; elsewhere 
   for (const en of ['button("Check"', "button(\"I don't know\"", '{}, "Correct!")']) assert.ok(!html.includes(en), `still hard-coded: ${en}`);
 });
 
+test("prototype: a finished or started lesson can be reset after a confirmation", () => {
+  const html = page();
+  assert.ok(html.includes("function resetLesson(s, n)"), "the reset helper is in the page");
+  assert.ok(html.includes("Your stars and saved answers for this lesson will be cleared."), "the pupil is asked to confirm");
+  assert.ok(html.includes("delete state.lessons[lessonKey(s, n)];") && html.includes("if (state.current[s]?.lesson === n) delete state.current[s];"), "only that lesson's record and flow are cleared");
+  assert.ok(html.includes('r?.done || going ? el("button", { type: "button", class: "link reset"'), "the link shows only on finished or started lessons");
+});
+
 test("prototype: teacher review mode opens with ?review, shows answers and builds the message from marks", () => {
   const html = page();
   assert.ok(html.includes('if (new URLSearchParams(location.search).has("review")) reviewHome(); else home();'), "start-up chooses review or home");

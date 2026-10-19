@@ -422,7 +422,9 @@ function menu() {
       return el("li", { class: `step${r?.done ? " is-done" : ""}${going || isNext ? " is-next" : ""}` },
         el("button", { type: "button", class: `lesson${r?.done ? " is-done" : ""}`, onclick: () => openLesson(s, n) },
           el("span", { class: "mark", "aria-hidden": "true" }, mark),
-          el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[s][n], sub ? el("span", { class: "sub" }, sub) : null)));
+          el("span", { class: "lt" }, el("span", { class: "ln" }, `Lesson ${n}`), TITLES[s][n], sub ? el("span", { class: "sub" }, sub) : null)),
+        // a finished or started lesson can be reset, so the pupil starts it again from the first card
+        r?.done || going ? el("button", { type: "button", class: "link reset", "aria-label": `Start Lesson ${n} again from the beginning`, onclick: () => resetLesson(s, n) }, "↺ Start again") : null);
     };
     // The Primary 6 readiness check belongs to Maths only: it is offered first on the Maths tab until it is done
     // (2026-10-07; before, it blocked the whole app on a first visit). It never blocks a lesson or the English tab.
@@ -483,6 +485,15 @@ function openLesson(s, n) {
     save();
     lesson(state.current[s].flow);
   });
+}
+/** Starts lesson n again from its first card: clears its saved run (stars, answers) and any unfinished flow,
+ *  after the pupil confirms. Badges already earned and other lessons are kept. */
+function resetLesson(s, n) {
+  if (!confirm(`Start Lesson ${n} again from the beginning?\nYour stars and saved answers for this lesson will be cleared.`)) return;
+  delete state.lessons[lessonKey(s, n)];
+  if (state.current[s]?.lesson === n) delete state.current[s];
+  save();
+  openLesson(s, n);
 }
 /** A flow saved mid-feedback resumes on a question: "retry" → the fresh variant, "reveal" → the next step. */
 const resumable = (flow) => (flow.phase === "retry" || flow.phase === "reveal" ? teach.nextPhase(flow) : flow);
