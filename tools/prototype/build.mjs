@@ -70,11 +70,12 @@ const frSpace = (t) => t
   .replace(/\s*;\s*/g, " ; ").replace(/\s+,/g, ",").replace(/(\S)\(\s*/g, "$1 (")  // French spacing around ; , (
   .replace(/\/(\S+?)\s+\//g, "/$1/").replace(/\/et\//g, "/ et /").replace(/'/g, "’").replace(/\bEcoute\b/g, "Écoute")
   .replace(/: /g, " : ");
-const titles = {}, content = {}, lessons = {};
+const titles = {}, content = {}, lessons = {}, termOf = {};
 for (const s of Object.keys(SUBJECTS)) {
   const spine = JSON.parse(read(`data/spine/${SPINE[s]}.json`));
   const num = (l) => (BY_SEQ.has(s) ? l.seq : l.kind === "lesson" ? l.lesson_no : null);
   titles[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).filter((l) => BATCH[s].includes(num(l))).map((l) => [num(l), FR_TITLES.has(s) ? frSpace(tidy(l.title)) : tidy(l.title)]));
+  termOf[s] = Object.fromEntries(spine.terms.flatMap((t) => t.lessons.map((l) => [num(l), t.term])).filter(([n]) => n != null));
   const all = Object.fromEntries((s === "maths" ? [0, ...BATCH[s]] : BATCH[s]).map((n) => [n, JSON.parse(read(`content/${DIR[s] || s}/${n}.json`))]));
   // Deferred lessons (speech work: needs audio) are not shipped at all: hidden from the pupil (TR-E22).
   content[s] = Object.fromEntries(Object.entries(all).filter(([, l]) => l.status !== "deferred"));
@@ -83,7 +84,7 @@ for (const s of Object.keys(SUBJECTS)) {
   for (const n of lessons[s]) if (!titles[s][n]) throw new Error(`no spine title for ${s} Lesson ${n}`);
 }
 // A subject with no released lesson yet is left out of the app.
-for (const s of Object.keys(SUBJECTS)) if (!lessons[s].length) for (const x of [SUBJECTS, CLASS_OF, titles, content, lessons]) delete x[s];
+for (const s of Object.keys(SUBJECTS)) if (!lessons[s].length) for (const x of [SUBJECTS, CLASS_OF, titles, content, lessons, termOf]) delete x[s];
 const build = new Date().toISOString().slice(0, 10);
 const safeJson = (x) => JSON.stringify(x).replace(/</g, "\\u003c");
 
@@ -274,13 +275,13 @@ const paper = Object.fromEntries(Object.entries(content).map(([s, ls]) => [s, Ob
 // `only`: the subjects a page carries (the single shareable file holds one class, so it stays small enough for
 // Bluetooth); the installable app's core page lists every subject and loads their lessons one at a time.
 const pick = (obj, only) => Object.fromEntries(Object.entries(obj).filter(([s]) => only.includes(s)));
-const page = ({ mode, contentJs, only = Object.keys(SUBJECTS), head = "", tail = "", versions = {} }) => `<!doctype html>
+const page = ({ mode, contentJs, only = Object.keys(SUBJECTS), head = "", tail = "", versions = {}, term = null, lessonsJs = safeJson(pick(lessons, only)) }) => `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1f6f4a">
-<title>${only.every((s) => CLASS_OF[s] === "form-2") ? "Form Two Lessons" : "Form One Lessons"}</title>
+<title>${only.every((s) => CLASS_OF[s] === "form-2") ? "Form Two Lessons" : "Form One Lessons"}${term ? ` · Term ${term}` : ""}</title>
 ${head}<style>${css}</style>
 </head>
 <body>
@@ -293,7 +294,7 @@ const ENGINE = ${ENGINE_LIBS},
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${contentJs};
 const TITLES = ${safeJson(pick(titles, only))};
-const LESSONS = ${safeJson(pick(lessons, only))};
+const LESSONS = ${lessonsJs};
 const SUBJECTS = ${safeJson(pick(SUBJECTS, only))};
 const CLASSES = ${safeJson(CLASSES)};
 const CLASS_OF = ${safeJson(pick(CLASS_OF, only))};
@@ -301,25 +302,37 @@ const PAPER = ${safeJson(pick(paper, only))};
 const MODE = ${JSON.stringify(mode)};
 const BUILD = ${JSON.stringify(build)};
 const VERSIONS = ${safeJson(versions)};
+const SHARE = ${safeJson(share)};
+const TERM = ${JSON.stringify(term)};
 ${read("tools/prototype/app.js")}
 ${read("tools/prototype/review.js")}
 </script>
 ${tail}</body>
 </html>
 `;
-// One shareable file per class: form1.html (Form One) and form2.html (Form Two).
+// Shareable files (Bluetooth, flash drive): Form One is one file, form1.html, as before. From Form Two a whole year
+// does not fit in one file, so there is one file per term (2026-10-21): form2-term-1.html, form2-term-2.html …
+// Lesson numbers are the same in every file, so progress carries over in the installable app.
 const ofClass = (c) => Object.keys(SUBJECTS).filter((s) => CLASS_OF[s] === c);
-const single = (c) => {
-  const only = ofClass(c), html = page({ mode: "single", only, contentJs: safeJson(pick(content, only)) });
-  const bytes = Buffer.byteLength(html, "utf8");
-  if (bytes > MAX_BYTES) throw new Error(`${c} single file is ${bytes} bytes, over the ${MAX_BYTES} limit`);
-  console.log(`${c}: one file of ${(bytes / 1024).toFixed(1)} KB (limit ${MAX_BYTES / 1024} KB)`);
+const termsOf = (c) => [...new Set(ofClass(c).flatMap((s) => lessons[s].map((n) => termOf[s][n])))].sort();
+const share = { "form-1": [{ file: "offline.html" }],
+  ...Object.fromEntries(Object.keys(CLASSES).filter((c) => c !== "form-1" && ofClass(c).length)
+    .map((c) => [c, termsOf(c).map((t) => ({ term: t, file: `offline-${c}-term-${t}.html` }))])) };
+const single = (c, term = null) => {
+  const inTerm = (s) => lessons[s].filter((n) => term === null || termOf[s][n] === term);
+  const only = ofClass(c).filter((s) => inTerm(s).length);
+  const html = page({ mode: "single", only, term, lessonsJs: safeJson(Object.fromEntries(only.map((s) => [s, inTerm(s)]))),
+    contentJs: safeJson(Object.fromEntries(only.map((s) => [s, Object.fromEntries(inTerm(s).map((n) => [n, content[s][n]]))]))) });
+  const bytes = Buffer.byteLength(html, "utf8"), name = term ? `${c} term ${term}` : c;
+  if (bytes > MAX_BYTES) throw new Error(`${name} single file is ${bytes} bytes, over the ${MAX_BYTES} limit`);
+  console.log(`${name}: one file of ${(bytes / 1024).toFixed(1)} KB (limit ${MAX_BYTES / 1024} KB)`);
   return html;
 };
-const html = single("form-1"), html2 = ofClass("form-2").length ? single("form-2") : null;
+const html = single("form-1");
 writeFileSync(new URL("tools/prototype/form1.html", ROOT), html, "utf8");
-if (html2) writeFileSync(new URL("tools/prototype/form2.html", ROOT), html2, "utf8");
-console.log(`wrote tools/prototype/form1.html${html2 ? " and form2.html" : ""}`);
+const termFiles = Object.entries(share).filter(([c]) => c !== "form-1").flatMap(([c, files]) => files.map(({ term, file }) => ({ c, term, file, html: single(c, term) })));
+for (const f of termFiles) writeFileSync(new URL(`tools/prototype/${f.c.replace("-", "")}-term-${f.term}.html`, ROOT), f.html, "utf8");
+console.log(`wrote tools/prototype/form1.html${termFiles.map((f) => `, ${f.c.replace("-", "")}-term-${f.term}.html`).join("")}`);
 
 // ---- the installable app (2026-10-17): tools/prototype/pwa/ → published as the site's root
 const PWA = new URL("tools/prototype/pwa/", ROOT);
@@ -344,7 +357,7 @@ for (const [s, js] of Object.entries(subjectJs)) {
   sizes[s] = Buffer.byteLength(js, "utf8");
 }
 writeFileSync(new URL("offline.html", PWA), html, "utf8");
-if (html2) writeFileSync(new URL("offline-form-2.html", PWA), html2, "utf8");
+for (const f of termFiles) writeFileSync(new URL(f.file, PWA), f.html, "utf8");
 for (const f of ["icon-192.png", "icon-512.png", "maskable-192.png", "maskable-512.png", "apple-touch-icon.png"]) copyFileSync(new URL(`tools/prototype/icons/${f}`, ROOT), new URL(`icons/${f}`, PWA));
 writeFileSync(new URL("manifest.webmanifest", PWA), JSON.stringify({
   name: "Psalms Preps: Form One lessons", short_name: "Form One", description: "Form One lessons that work offline: Maths, English, sciences, humanities and French.",

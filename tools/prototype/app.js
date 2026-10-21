@@ -1,7 +1,7 @@
 // Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
 // practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, CLASSES, CLASS_OF, BUILD, VERSIONS, PAPER, MODE */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, CLASSES, CLASS_OF, BUILD, VERSIONS, SHARE, TERM, PAPER, MODE */
 const { libs, template, teach, readiness } = ENGINE;
 const { check, DONT_KNOW, renderWorked, normaliseInput, inputModeFor } = template;
 const L0 = () => CONTENT.maths[0];  // Maths is loaded before the readiness check starts
@@ -467,9 +467,10 @@ function grownUp() {
       loadAll(Object.keys(SUBJECTS)).then(() => { status.textContent = "Every subject is saved on this phone. It works without internet now."; },
         () => { status.textContent = "Some subjects could not be saved. Connect to the internet and try again."; });
     }, "") : null,
-    // one file per class (Form One: offline.html, as before; Form Two: offline-form-2.html)
-    MODE === "pwa" ? el("a", { class: "button-link", href: form() === "form-1" ? "offline.html" : `offline-${form()}.html`, download: `psalmspreps-${CLASSES[form()].toLowerCase().replace(/ /g, "-")}.html` },
-      classesHere().length > 1 ? `Download one ${CLASSES[form()]} file to share by Bluetooth or a flash drive` : "Download one file to share by Bluetooth or a flash drive") : null,
+    // shareable files: Form One is one file (offline.html, as before); Form Two onwards has one file per term
+    ...(MODE === "pwa" ? (SHARE[form()] || []).map(({ term, file }) => el("a", { class: "button-link", href: file,
+      download: `psalmspreps-${CLASSES[form()].toLowerCase().replace(/ /g, "-")}${term ? `-term-${term}` : ""}.html` },
+      `Download one ${classesHere().length > 1 ? CLASSES[form()] + " " : ""}${term ? `Term ${term} ` : ""}file to share by Bluetooth or a flash drive`)) : []),
     button("Do the readiness check again", start, ""),
     button("Clear all progress on this phone", () => {
       if (!confirm("Clear all saved progress on this phone? This cannot be undone.")) return;

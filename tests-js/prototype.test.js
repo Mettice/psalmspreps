@@ -1,5 +1,5 @@
 // The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1 + French F1) builds from the real engine and content, offline, under 1.5 MB.
-// Form 2 (2026-10-17, form-2 branch): its own shareable file, form2.html; the installable app has both classes.
+// Form 2 (2026-10-17, form-2 branch): one shareable file per term, form2-term-1.html …; the installable app has both classes.
 import { createHash } from "node:crypto";
 import { test } from "node:test";
 import assert from "node:assert/strict";
@@ -190,7 +190,7 @@ test("installable app: manifest, icons, service worker and the shareable single 
   const sw = pwaFile("sw.js");
   for (const part of ['addEventListener("install"', 'addEventListener("activate"', 'addEventListener("fetch"', 'req.mode === "navigate"', "caches.match"]) assert.ok(sw.includes(part), part);
   assert.equal(pwaFile("offline.html"), page(), "the shareable file is the single-file app");
-  assert.equal(pwaFile("offline-form-2.html"), readFileSync(new URL("tools/prototype/form2.html", ROOT), "utf8"), "Form Two has its own shareable file");
+  assert.equal(pwaFile("offline-form-2-term-1.html"), readFileSync(new URL("tools/prototype/form2-term-1.html", ROOT), "utf8"), "Form Two has its own shareable file");
   assert.ok(sw.includes(String.raw`subjects\/([a-z0-9-]+)\.js$`),"saved subjects are fetched again after an update, Form 2 ids (f2-maths) included");
 });
 
@@ -222,7 +222,7 @@ test("installable app: the teacher review list works when only some subjects are
 });
 
 test("classes: Form One stays the default; Form Two has its own subjects, file and progress keys", () => {
-  const one = page(), two = readFileSync(new URL("tools/prototype/form2.html", ROOT), "utf8"), core = pwaFile("index.html");
+  const one = page(), two = readFileSync(new URL("tools/prototype/form2-term-1.html", ROOT), "utf8"), core = pwaFile("index.html");
   assert.deepEqual(Object.keys(constant(one, "SUBJECTS")), FORM1, "the Form One file has only Form One");
   assert.deepEqual(Object.keys(constant(two, "SUBJECTS")), FORM2, "the Form Two file has only Form Two");
   assert.deepEqual(Object.keys(constant(two, "CONTENT")), FORM2);

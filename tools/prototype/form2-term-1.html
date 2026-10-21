@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1f6f4a">
-<title>Form Two Lessons</title>
+<title>Form Two Lessons · Term 1</title>
 <style>
 :root { --bg:#fbfaf7; --fg:#1d1c1a; --muted:#5f5b53; --card:#ffffff; --line:#d9d4c9; --accent:#1f6f4a; --accent-press:#185a3c; --accent-fg:#ffffff;
   --good-bg:#e7f4ec; --good:#1a6340; --flash:#9fe0bb; --bad-bg:#fdeceb; --bad:#a3322a; --soft:#f2efe8; --idk-border:#8a857b; --track:#e6e1d6;
@@ -3386,12 +3386,14 @@ const CLASSES = {"form-1":"Form One","form-2":"Form Two"};
 const CLASS_OF = {"f2-maths":"form-2","f2-english":"form-2","f2-physics":"form-2","f2-chemistry":"form-2","f2-geography":"form-2","f2-home-economics":"form-2","f2-history":"form-2","f2-biology":"form-2","f2-computer-science":"form-2","f2-french":"form-2","f2-francais-intensif":"form-2","f2-accounting":"form-2"};
 const PAPER = {"f2-maths":[],"f2-english":[4,16,20,28,32],"f2-physics":[],"f2-chemistry":[],"f2-geography":[],"f2-home-economics":[],"f2-history":[],"f2-biology":[],"f2-computer-science":[],"f2-french":[],"f2-francais-intensif":[],"f2-accounting":[]};
 const MODE = "single";
-const BUILD = "2026-10-19";
+const BUILD = "2026-10-21";
 const VERSIONS = {};
+const SHARE = {"form-1":[{"file":"offline.html"}],"form-2":[{"term":1,"file":"offline-form-2-term-1.html"}]};
+const TERM = 1;
 // Pupil UI: home (streak, stars, one tile per subject) → a subject's lesson path → teach mode (cards, worked example,
 // practice or a paper task, note) → results with stars and badges. Lesson 0 readiness is offered on the Maths path. Uses the real engine (inlined by build.mjs).
 // Progress is saved in this browser only (localStorage, decisions 2026-10-05 and 2026-10-06); nothing is sent anywhere.
-/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, CLASSES, CLASS_OF, BUILD, VERSIONS, PAPER, MODE */
+/* global ENGINE, CONTENT, TITLES, LESSONS, SUBJECTS, CLASSES, CLASS_OF, BUILD, VERSIONS, SHARE, TERM, PAPER, MODE */
 const { libs, template, teach, readiness } = ENGINE;
 const { check, DONT_KNOW, renderWorked, normaliseInput, inputModeFor } = template;
 const L0 = () => CONTENT.maths[0];  // Maths is loaded before the readiness check starts
@@ -3857,9 +3859,10 @@ function grownUp() {
       loadAll(Object.keys(SUBJECTS)).then(() => { status.textContent = "Every subject is saved on this phone. It works without internet now."; },
         () => { status.textContent = "Some subjects could not be saved. Connect to the internet and try again."; });
     }, "") : null,
-    // one file per class (Form One: offline.html, as before; Form Two: offline-form-2.html)
-    MODE === "pwa" ? el("a", { class: "button-link", href: form() === "form-1" ? "offline.html" : `offline-${form()}.html`, download: `psalmspreps-${CLASSES[form()].toLowerCase().replace(/ /g, "-")}.html` },
-      classesHere().length > 1 ? `Download one ${CLASSES[form()]} file to share by Bluetooth or a flash drive` : "Download one file to share by Bluetooth or a flash drive") : null,
+    // shareable files: Form One is one file (offline.html, as before); Form Two onwards has one file per term
+    ...(MODE === "pwa" ? (SHARE[form()] || []).map(({ term, file }) => el("a", { class: "button-link", href: file,
+      download: `psalmspreps-${CLASSES[form()].toLowerCase().replace(/ /g, "-")}${term ? `-term-${term}` : ""}.html` },
+      `Download one ${classesHere().length > 1 ? CLASSES[form()] + " " : ""}${term ? `Term ${term} ` : ""}file to share by Bluetooth or a flash drive`)) : []),
     button("Do the readiness check again", start, ""),
     button("Clear all progress on this phone", () => {
       if (!confirm("Clear all saved progress on this phone? This cannot be undone.")) return;
