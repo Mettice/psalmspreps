@@ -1,3 +1,4 @@
+// Term 3: rows 70–81; integration row 82 is excluded.
 // Form 2 French, Batches FR2-1 and FR2-2 content tests (Term 1, rows 1–15 and 18–32; Term 2, rows 36–52 and 54–68; integration rows 16, 17, 33–35 and 53 are not
 // lessons). Same rules as every subject, plus: every template is marked lang "fr".
 import { test } from "node:test";
@@ -16,7 +17,7 @@ import * as french from "../src/engine/lib/french.js";
 import * as french2 from "../src/engine/lib/french2.js";
 import { subjectSuite } from "./subject-suite.js";
 
-const BATCH = [...Array.from({ length: 15 }, (_, i) => i + 1), ...Array.from({ length: 15 }, (_, i) => i + 18), ...Array.from({ length: 17 }, (_, i) => i + 36), ...Array.from({ length: 15 }, (_, i) => i + 54)];
+const BATCH = [...Array.from({ length: 15 }, (_, i) => i + 1), ...Array.from({ length: 15 }, (_, i) => i + 18), ...Array.from({ length: 17 }, (_, i) => i + 36), ...Array.from({ length: 15 }, (_, i) => i + 54), ...Array.from({ length: 12 }, (_, i) => i + 70)];
 subjectSuite({
   subject: "french", dir: "form-2/french", cls: "Form 2", spine: "form-2/french", prefix: "fr2-", numbering: "seq",
   lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french, ...french2 },

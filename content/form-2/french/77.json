@@ -1,0 +1,373 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 77,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-77",
+   "name": "Ponctuer : point, virgule et deux-points"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le point termine une phrase déclarative. La phrase suivante commence par une majuscule. La virgule sépare les éléments d’une énumération ou détache un groupe : Le soir, Bih écrit. On ne sépare normalement pas le sujet de son verbe par une virgule. Les deux-points annoncent notamment une liste ou une explication : Elle utilise trois outils : un clavier, une souris et un écran.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelle phrase est bien ponctuée ?",
+  "steps": [
+   "La virgule sépare les éléments d’une liste.",
+   "La virgule sépare clavier et souris, sans séparer le sujet du verbe."
+  ],
+  "answer": "Bih utilise un clavier, une souris et un écran.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c77-1",
+    "status": "draft",
+    "idea": "Le point marque la fin d’une phrase déclarative.",
+    "vars": {},
+    "example": [
+     "Bih écrit. Nji lit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-77-etape-1"
+    }
+   },
+   {
+    "id": "c77-2",
+    "status": "draft",
+    "idea": "La virgule sépare les éléments d’une liste.",
+    "vars": {},
+    "example": [
+     "Je prends un cahier, un stylo et une règle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-77-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase est bien ponctuée ?",
+         "r": "Bih utilise un clavier, une souris et un écran.",
+         "w": [
+          "Bih, utilise un clavier une souris et un écran.",
+          "Bih utilise, un clavier une souris et un écran."
+         ],
+         "y": "La virgule sépare clavier et souris, sans séparer le sujet du verbe."
+        },
+        {
+         "q": "Quelle phrase détache correctement le moment ?",
+         "r": "Le soir, Bih écrit.",
+         "w": [
+          "Le soir Bih, écrit.",
+          "Le, soir Bih écrit."
+         ],
+         "y": "Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c77-3",
+    "status": "draft",
+    "idea": "Les deux-points peuvent annoncer une énumération.",
+    "vars": {},
+    "example": [
+     "Voici mes outils : un stylo et un cahier."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-77-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ?",
+         "r": "Les deux-points.",
+         "w": [
+          "Un point final seulement.",
+          "Une apostrophe."
+         ],
+         "y": "La liste précise les outils annoncés."
+        },
+        {
+         "q": "Quelle correction respecte sujet et verbe ?",
+         "r": "Nji envoie un message.",
+         "w": [
+          "Nji, envoie un message.",
+          "Nji envoie, un message."
+         ],
+         "y": "On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-77-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel signe termine « Bih écrit un message » ?",
+       "r": "Un point.",
+       "w": [
+        "Une virgule.",
+        "Une parenthèse seule."
+       ],
+       "y": "C’est une phrase déclarative complète."
+      },
+      {
+       "q": "Après un point, comment commence une nouvelle phrase ?",
+       "r": "Avec une majuscule.",
+       "w": [
+        "Toujours avec une virgule.",
+        "Sans aucune lettre."
+       ],
+       "y": "Une nouvelle phrase commence par une majuscule."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-77-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase est bien ponctuée ?",
+       "r": "Bih utilise un clavier, une souris et un écran.",
+       "w": [
+        "Bih, utilise un clavier une souris et un écran.",
+        "Bih utilise, un clavier une souris et un écran."
+       ],
+       "y": "La virgule sépare clavier et souris, sans séparer le sujet du verbe."
+      },
+      {
+       "q": "Quelle phrase détache correctement le moment ?",
+       "r": "Le soir, Bih écrit.",
+       "w": [
+        "Le soir Bih, écrit.",
+        "Le, soir Bih écrit."
+       ],
+       "y": "Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-77-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ?",
+       "r": "Les deux-points.",
+       "w": [
+        "Un point final seulement.",
+        "Une apostrophe."
+       ],
+       "y": "La liste précise les outils annoncés."
+      },
+      {
+       "q": "Quelle correction respecte sujet et verbe ?",
+       "r": "Nji envoie un message.",
+       "w": [
+        "Nji, envoie un message.",
+        "Nji envoie, un message."
+       ],
+       "y": "On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

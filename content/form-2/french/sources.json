@@ -1,11 +1,11 @@
 {
- "_note": "Sources for Form 2 French (Batches FR2-1 and FR2-2, Term 1 rows 1–15 and 18–32, Term 2 rows 36–52 and 54–68). Verb forms and agreements are computed by src/engine/lib/french2.js from an authored table; everything else is authored. A French teacher must check it (TR-Z items).",
+ "_note": "Sources for Form 2 French (Batches FR2-1 and FR2-2, Term 1 rows 1–15 and 18–32, Term 2 rows 36–52 and 54–68). Verb forms and agreements are computed by src/engine/lib/french2.js from an authored table; everything else is authored. A French teacher must check it (TR-Z items). Term 3 FR2-3: rows 70–81; integration row 82 is excluded. Original ICT reading and writing models; oral preparation is not assessed by microphone.",
  "lecture": {
-  "ref": "Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé)",
+  "ref": "Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text)",
   "checked": "Original texts, not copied from a book. Standard school French; not opened online for this batch (2026-10-18). A French teacher decides (TR-Z03)."
  },
  "vocabulaire": {
-  "ref": "Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement",
+  "ref": "Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel",
   "checked": "Standard school French and general health knowledge; not opened online for this batch (2026-10-18). A French teacher decides (TR-Z03)."
  },
  "conjugaison": {
@@ -15,14 +15,28 @@
  },
  "grammaire": {
   "ref": "Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables)",
-  "checked": "Standard French grammar rules (Grevisse, usage scolaire); the agreements are computed from the authored table in french2.js (TR-Z02)."
+  "checked": "Standard French grammar rules (Grevisse, usage scolaire); the agreements are computed from the authored table in french2.js (TR-Z02).",
+  "term3": {
+   "ref": "OQLF, pronom indéfini; personne; rien",
+   "urls": [
+    "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559770/pronom-indefini",
+    "https://vitrinelinguistique.oqlf.gouv.qc.ca/22893/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-personne",
+    "https://vitrinelinguistique.oqlf.gouv.qc.ca/23886/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-rien"
+   ],
+   "checked": "Official search-result summaries consulted 2026-10-21. Examples are original; subject-teacher review remains pending."
+  }
  },
  "orthographe": {
   "ref": "Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont",
-  "checked": "Standard school French; the row « Le son /p/ et /φ/ » is read as p and ph (inference, TR-Z04)."
+  "checked": "Standard school French; the row « Le son /p/ et /φ/ » is read as p and ph (inference, TR-Z04).",
+  "term3": {
+   "ref": "OQLF, traits articulatoires des voyelles",
+   "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22133/la-prononciation/notions-de-base-en-phonetique/les-traits-articulatoires-des-voyelles",
+   "checked": "Consulted 2026-10-21: nasal-vowel distinctions vary by accent; written recognition only, with teacher-led oral modelling. The sheet symbols are interpreted as [œ̃] and [ɛ̃] from its example words."
+  }
  },
  "expression": {
-  "ref": "Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux)",
+  "ref": "Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe",
   "checked": "Method lessons written for the app; oral rows are taught as preparation, since the app cannot hear the pupil (TR-Z05)."
  }
 }

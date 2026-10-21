@@ -1,0 +1,373 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 70,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-70",
+   "name": "Préparer une communication téléphonique"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Au téléphone, on salue, on se présente et on demande poliment son interlocuteur. On donne ensuite la raison de l’appel. Si la personne est absente, on peut laisser un message clair : nom, destinataire et objet. On vérifie que le message est compris, puis on remercie et on prend congé.\nPréparation écrite : lis les répliques, puis joue la scène avec un adulte si possible. L’application ne peut ni entendre ni noter ta voix.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Mme Nji est absente. Quel message peut-on transmettre ?",
+  "steps": [
+   "Un message précise pour qui tu appelles et pourquoi.",
+   "Le nom, l’objet de l’appel et la suite prévue rendent le message utile."
+  ],
+  "answer": "Bih a appelé au sujet du livre et rappellera demain.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c70-1",
+    "status": "draft",
+    "idea": "Présente-toi avant de demander ton interlocuteur.",
+    "vars": {},
+    "example": [
+     "Bonjour, je suis Bih. Puis-je parler à Mme Nji ?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-70-etape-1"
+    }
+   },
+   {
+    "id": "c70-2",
+    "status": "draft",
+    "idea": "Un message précise pour qui tu appelles et pourquoi.",
+    "vars": {},
+    "example": [
+     "Dites à Mme Nji que Bih rappellera pour le livre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-70-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Mme Nji est absente. Quel message peut-on transmettre ?",
+         "r": "Bih a appelé au sujet du livre et rappellera demain.",
+         "w": [
+          "Quelqu’un voulait quelque chose.",
+          "Elle connaît déjà mon message."
+         ],
+         "y": "Le nom, l’objet de l’appel et la suite prévue rendent le message utile."
+        },
+        {
+         "q": "L’interlocuteur n’a pas compris. Quelle réplique convient ?",
+         "r": "Je répète : je souhaite réserver un livre.",
+         "w": [
+          "Vous devriez deviner.",
+          "Je change de sujet sans prévenir."
+         ],
+         "y": "Reformuler calmement permet de clarifier la demande."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c70-3",
+    "status": "draft",
+    "idea": "Remercie et prends congé à la fin de l’appel.",
+    "vars": {},
+    "example": [
+     "Merci pour votre aide. Au revoir."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-70-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Le message a été compris. Comment terminer ?",
+         "r": "Merci de transmettre mon message. Au revoir.",
+         "w": [
+          "Je raccroche sans rien dire.",
+          "Je recommence la demande sans écouter."
+         ],
+         "y": "Une formule de remerciement et un au revoir ferment poliment l’échange."
+        },
+        {
+         "q": "Quelle suite respecte l’ordre d’un appel ?",
+         "r": "Saluer, se présenter, donner l’objet, remercier.",
+         "w": [
+          "Remercier, raccrocher, expliquer.",
+          "Demander, interrompre, oublier son nom."
+         ],
+         "y": "On ouvre l’échange avant de donner son objet, puis on prend congé."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-70-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Tu appelles la bibliothèque. Quelle ouverture est polie ?",
+       "r": "Bonjour, je suis Bih. Puis-je parler à la bibliothécaire ?",
+       "w": [
+        "Passez-moi quelqu’un !",
+        "Pourquoi ne répondez-vous pas ?"
+       ],
+       "y": "On salue, on se présente et on formule sa demande poliment."
+      },
+      {
+       "q": "Tu réponds à un appel à la maison. Que peux-tu dire ?",
+       "r": "Bonjour, qui est à l’appareil, s’il vous plaît ?",
+       "w": [
+        "Je ne veux rien savoir.",
+        "Parlez plus vite !"
+       ],
+       "y": "Une question polie permet d’identifier la personne qui appelle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-70-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Mme Nji est absente. Quel message peut-on transmettre ?",
+       "r": "Bih a appelé au sujet du livre et rappellera demain.",
+       "w": [
+        "Quelqu’un voulait quelque chose.",
+        "Elle connaît déjà mon message."
+       ],
+       "y": "Le nom, l’objet de l’appel et la suite prévue rendent le message utile."
+      },
+      {
+       "q": "L’interlocuteur n’a pas compris. Quelle réplique convient ?",
+       "r": "Je répète : je souhaite réserver un livre.",
+       "w": [
+        "Vous devriez deviner.",
+        "Je change de sujet sans prévenir."
+       ],
+       "y": "Reformuler calmement permet de clarifier la demande."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-70-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le message a été compris. Comment terminer ?",
+       "r": "Merci de transmettre mon message. Au revoir.",
+       "w": [
+        "Je raccroche sans rien dire.",
+        "Je recommence la demande sans écouter."
+       ],
+       "y": "Une formule de remerciement et un au revoir ferment poliment l’échange."
+      },
+      {
+       "q": "Quelle suite respecte l’ordre d’un appel ?",
+       "r": "Saluer, se présenter, donner l’objet, remercier.",
+       "w": [
+        "Remercier, raccrocher, expliquer.",
+        "Demander, interrompre, oublier son nom."
+       ],
+       "y": "On ouvre l’échange avant de donner son objet, puis on prend congé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 80,
+ "language": "fr",
+ "prerequisites": [
+  74
+ ],
+ "skills": [
+  {
+   "id": "fr2-80",
+   "name": "Le présent : communiquer aujourd’hui"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le présent exprime notamment une action en cours ou une habitude. On repère le sujet avant de conjuguer. Pour parler : je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. Attention aux verbes irréguliers : j’écris, nous écrivons ; je reçois, nous recevons. Envoyer donne j’envoie, nous envoyons. Une terminaison d’imparfait exprimerait ici un autre temps.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "parler",
+   "p": 4
+  },
+  "problem": "Conjugue « {v} » au présent avec nous.",
+  "steps": [
+   "Le sujet est nous.",
+   "La forme complète est {fr2Form2(v, p, 'présent')} ."
+  ],
+  "answer": "{fr2Form2(v, p, 'présent')}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c80-1",
+    "status": "draft",
+    "idea": "Le temps demandé est le présent.",
+    "vars": {},
+    "example": [
+     "Lis la consigne et repère le verbe à l’infinitif."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-80-simple"
+    }
+   },
+   {
+    "id": "c80-2",
+    "status": "draft",
+    "idea": "La terminaison dépend du sujet.",
+    "vars": {},
+    "example": [
+     "Avec nous, on emploie la première personne du pluriel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-80-forme-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "parler",
+        "finir",
+        "envoyer",
+        "téléphoner",
+        "écrire",
+        "recevoir",
+        "faire",
+        "avoir"
+       ]
+      },
+      "p": {
+       "int": [
+        0,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2Form2(v, p, 'présent')}",
+     "distractors": [
+      {
+       "text": "{fr2Form2(v, p, 'imparfait')}",
+       "misconception": "temps"
+      },
+      {
+       "text": "{fr2Form2(v, (p + 4) % 8, 'présent')}",
+       "misconception": "sujet"
+      },
+      {
+       "text": "{fr2With(p, v)}",
+       "misconception": "inf"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "temps",
+       "explain": "Cette forme est au imparfait, pas au présent."
+      },
+      {
+       "id": "sujet",
+       "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+      },
+      {
+       "id": "inf",
+       "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+      }
+     ],
+     "solution": [
+      "Le temps demandé est le présent.",
+      "Le sujet est « {fr2Pronoun(p)} ».",
+      "La forme complète est : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c80-3",
+    "status": "draft",
+    "idea": "Vérifie le temps et le sujet avant de valider.",
+    "vars": {},
+    "example": [
+     "Une forme correcte à un autre temps ne répond pas à la consigne."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-80-emploi-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "En ce moment, Bih fait cette action. Quelle phrase est au présent ?",
+         "r": "Bih écrit un message.",
+         "w": [
+          "Bih écrivait un message.",
+          "Bih écrira un message."
+         ],
+         "y": "Écrit est au présent ; écrivait est à l’imparfait et écrira au futur."
+        },
+        {
+         "q": "Quelle phrase exprime une habitude au présent ?",
+         "r": "Chaque matin, nous lisons les nouvelles.",
+         "w": [
+          "Hier, nous avons lu les nouvelles.",
+          "Demain, nous lirons les nouvelles."
+         ],
+         "y": "Lisons est au présent et chaque matin indique une habitude."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-80-simple",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "finir",
+      "envoyer"
+     ]
+    },
+    "p": {
+     "pick": [
+      2,
+      4,
+      6
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2Form2(v, p, 'présent')}",
+   "distractors": [
+    {
+     "text": "{fr2Form2(v, p, 'imparfait')}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2Form2(v, (p + 4) % 8, 'présent')}",
+     "misconception": "sujet"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette forme est au imparfait, pas au présent."
+    },
+    {
+     "id": "sujet",
+     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+    }
+   ],
+   "solution": [
+    "Le temps demandé est le présent.",
+    "Le sujet est « {fr2Pronoun(p)} ».",
+    "La forme complète est : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-80-forme",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "finir",
+      "envoyer",
+      "téléphoner",
+      "écrire",
+      "recevoir",
+      "faire",
+      "avoir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2Form2(v, p, 'présent')}",
+   "distractors": [
+    {
+     "text": "{fr2Form2(v, p, 'imparfait')}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2Form2(v, (p + 4) % 8, 'présent')}",
+     "misconception": "sujet"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette forme est au imparfait, pas au présent."
+    },
+    {
+     "id": "sujet",
+     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+    }
+   ],
+   "solution": [
+    "Le temps demandé est le présent.",
+    "Le sujet est « {fr2Pronoun(p)} ».",
+    "La forme complète est : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-80-emploi",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "En ce moment, Bih fait cette action. Quelle phrase est au présent ?",
+       "r": "Bih écrit un message.",
+       "w": [
+        "Bih écrivait un message.",
+        "Bih écrira un message."
+       ],
+       "y": "Écrit est au présent ; écrivait est à l’imparfait et écrira au futur."
+      },
+      {
+       "q": "Quelle phrase exprime une habitude au présent ?",
+       "r": "Chaque matin, nous lisons les nouvelles.",
+       "w": [
+        "Hier, nous avons lu les nouvelles.",
+        "Demain, nous lirons les nouvelles."
+       ],
+       "y": "Lisons est au présent et chaque matin indique une habitude."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

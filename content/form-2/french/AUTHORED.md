@@ -1,4 +1,4 @@
-# French Form 2, Batch FR2-1: authored answers for review
+# French Form 2, Batches FR2-1, FR2-2, FR2-3: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -267,6 +267,60 @@ Regenerate with `npm run review:f2-french`. Item IDs (TR-…) match `docs/teache
 | 251 | `fr2-68-inf` | 68 | fill the blank, 2 | conjugaison |
 | 252 | `fr2-68-wo` | 68 | word order, 3 | conjugaison |
 | 253 | `fr2-68-wo-card` (card c68-3) | 68 | word order, 1 | conjugaison |
+| 254 | `fr2-70-etape-1` | 70 | multiple choice, 1 | expression |
+| 255 | `fr2-70-etape-2` | 70 | multiple choice, 2 | expression |
+| 256 | `fr2-70-etape-3` | 70 | multiple choice, 3 | expression |
+| 257 | `fr2-70-etape-2-card` (card c70-2) | 70 | multiple choice, 1 | expression |
+| 258 | `fr2-70-etape-3-card` (card c70-3) | 70 | multiple choice, 1 | expression |
+| 259 | `fr2-71-etape-1` | 71 | multiple choice, 1 | lecture |
+| 260 | `fr2-71-etape-2` | 71 | multiple choice, 2 | lecture |
+| 261 | `fr2-71-etape-3` | 71 | multiple choice, 3 | lecture |
+| 262 | `fr2-71-etape-2-card` (card c71-2) | 71 | multiple choice, 1 | lecture |
+| 263 | `fr2-71-etape-3-card` (card c71-3) | 71 | multiple choice, 1 | lecture |
+| 264 | `fr2-72-etape-1` | 72 | multiple choice, 1 | grammaire |
+| 265 | `fr2-72-etape-2` | 72 | multiple choice, 2 | grammaire |
+| 266 | `fr2-72-etape-3` | 72 | multiple choice, 3 | grammaire |
+| 267 | `fr2-72-etape-2-card` (card c72-2) | 72 | multiple choice, 1 | grammaire |
+| 268 | `fr2-72-etape-3-card` (card c72-3) | 72 | multiple choice, 1 | grammaire |
+| 269 | `fr2-73-etape-1` | 73 | multiple choice, 1 | vocabulaire |
+| 270 | `fr2-73-etape-2` | 73 | multiple choice, 2 | vocabulaire |
+| 271 | `fr2-73-etape-3` | 73 | multiple choice, 3 | vocabulaire |
+| 272 | `fr2-73-etape-2-card` (card c73-2) | 73 | multiple choice, 1 | vocabulaire |
+| 273 | `fr2-73-etape-3-card` (card c73-3) | 73 | multiple choice, 1 | vocabulaire |
+| 274 | `fr2-74-emploi` | 74 | multiple choice, 3 | conjugaison |
+| 275 | `fr2-74-emploi-card` (card c74-3) | 74 | multiple choice, 1 | conjugaison |
+| 276 | `fr2-75-etape-1` | 75 | multiple choice, 1 | orthographe |
+| 277 | `fr2-75-etape-2` | 75 | multiple choice, 2 | orthographe |
+| 278 | `fr2-75-etape-3` | 75 | multiple choice, 3 | orthographe |
+| 279 | `fr2-75-etape-2-card` (card c75-2) | 75 | multiple choice, 1 | orthographe |
+| 280 | `fr2-75-etape-3-card` (card c75-3) | 75 | multiple choice, 1 | orthographe |
+| 281 | `fr2-76-etape-1` | 76 | multiple choice, 1 | grammaire |
+| 282 | `fr2-76-etape-2` | 76 | multiple choice, 2 | grammaire |
+| 283 | `fr2-76-etape-3` | 76 | multiple choice, 3 | grammaire |
+| 284 | `fr2-76-etape-2-card` (card c76-2) | 76 | multiple choice, 1 | grammaire |
+| 285 | `fr2-76-etape-3-card` (card c76-3) | 76 | multiple choice, 1 | grammaire |
+| 286 | `fr2-77-etape-1` | 77 | multiple choice, 1 | expression |
+| 287 | `fr2-77-etape-2` | 77 | multiple choice, 2 | expression |
+| 288 | `fr2-77-etape-3` | 77 | multiple choice, 3 | expression |
+| 289 | `fr2-77-etape-2-card` (card c77-2) | 77 | multiple choice, 1 | expression |
+| 290 | `fr2-77-etape-3-card` (card c77-3) | 77 | multiple choice, 1 | expression |
+| 291 | `fr2-78-etape-1` | 78 | multiple choice, 1 | vocabulaire |
+| 292 | `fr2-78-etape-2` | 78 | multiple choice, 2 | vocabulaire |
+| 293 | `fr2-78-etape-3` | 78 | multiple choice, 3 | vocabulaire |
+| 294 | `fr2-78-etape-2-card` (card c78-2) | 78 | multiple choice, 1 | vocabulaire |
+| 295 | `fr2-78-etape-3-card` (card c78-3) | 78 | multiple choice, 1 | vocabulaire |
+| 296 | `fr2-79-etape-1` | 79 | multiple choice, 1 | orthographe |
+| 297 | `fr2-79-etape-2` | 79 | multiple choice, 2 | orthographe |
+| 298 | `fr2-79-etape-3` | 79 | multiple choice, 3 | orthographe |
+| 299 | `fr2-79-etape-2-card` (card c79-2) | 79 | multiple choice, 1 | orthographe |
+| 300 | `fr2-79-etape-3-card` (card c79-3) | 79 | multiple choice, 1 | orthographe |
+| 301 | `fr2-80-emploi` | 80 | multiple choice, 3 | conjugaison |
+| 302 | `fr2-80-emploi-card` (card c80-3) | 80 | multiple choice, 1 | conjugaison |
+| 303 | `fr2-81-etape-1` | 81 | multiple choice, 1 | expression |
+| 304 | `fr2-81-etape-2` | 81 | multiple choice, 2 | expression |
+| 305 | `fr2-81-etape-3` | 81 | multiple choice, 3 | expression |
+| 306 | `fr2-81-etape-2-card` (card c81-2) | 81 | multiple choice, 1 | expression |
+| 307 | `fr2-81-etape-3-card` (card c81-3) | 81 | multiple choice, 1 | expression |
 
 ### `fr2-1-image` · Lesson 1 · multiple choice, level 1
 
@@ -333,7 +387,7 @@ Full working after a second miss:
 > Le moment répond à « Quand ? ».  
 > Donc la réponse est « Quand ? ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-1-texte` · Lesson 1 · multiple choice, level 1
 
@@ -400,7 +454,7 @@ Full working after a second miss:
 > « Ngono habite à Bafia ».  
 > Donc la réponse est « à Bafia ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-1-rep` · Lesson 1 · multiple choice, level 2
 
@@ -467,7 +521,7 @@ Full working after a second miss:
 > « ses deux petits frères ».  
 > Donc la réponse est « deux petits frères ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-1-spot` · Lesson 1 · spot the error, level 3
 
@@ -528,7 +582,7 @@ Full working after a second miss:
 > La phrase fausse est « Grand-père prépare du ndolé. ».  
 > C’est grand-mère qui prépare le ndolé ; grand-père raconte des contes.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-1-rep-card` · Lesson 1 · multiple choice, level 1
 
@@ -595,7 +649,7 @@ Full working after a second miss:
 > « ses deux petits frères ».  
 > Donc la réponse est « deux petits frères ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-2-lien` · Lesson 2 · multiple choice, level 1
 
@@ -662,7 +716,7 @@ Full working after a second miss:
 > Les enfants de l’oncle sont les cousins.  
 > Donc la réponse est « mon cousin ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-2-neveu` · Lesson 2 · multiple choice, level 1
 
@@ -729,7 +783,7 @@ Full working after a second miss:
 > L’enfant de mon frère est mon neveu ou ma nièce.  
 > Donc la réponse est « ma nièce ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-2-abr` · Lesson 2 · multiple choice, level 2
 
@@ -796,7 +850,7 @@ Full working after a second miss:
 > neveu et nièce commencent par n ; e vient avant i.  
 > Donc la réponse est « neveu ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-2-ordre` · Lesson 2 · ordering, level 3
 
@@ -848,7 +902,7 @@ Full working after a second miss:
 
 > Le bon ordre est : cousine → grand-mère → nièce → tante.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-2-abr-card` · Lesson 2 · multiple choice, level 1
 
@@ -915,7 +969,7 @@ Full working after a second miss:
 > c vient avant n, o et t.  
 > Donc la réponse est « cousin ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-4-mot` · Lesson 4 · multiple choice, level 1
 
@@ -982,7 +1036,7 @@ Full working after a second miss:
 > Puiser, c’est aller chercher de l’eau.  
 > Donc la réponse est « on prend de l’eau au puits ou à la borne-fontaine ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-4-qui` · Lesson 4 · multiple choice, level 1
 
@@ -1049,7 +1103,7 @@ Full working after a second miss:
 > « Paul puise de l’eau à la borne-fontaine ».  
 > Donc la réponse est « il puise de l’eau ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-4-idee` · Lesson 4 · multiple choice, level 2
 
@@ -1115,7 +1169,7 @@ Full working after a second miss:
 > « À midi, la maison est propre ».  
 > Donc la réponse est « à midi ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-4-spot` · Lesson 4 · spot the error, level 3
 
@@ -1176,7 +1230,7 @@ Full working after a second miss:
 > La phrase fausse est « Le père prépare le repas. ».  
 > C’est la mère qui prépare le repas ; le père répare la porte.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-4-idee-card` · Lesson 4 · multiple choice, level 1
 
@@ -1242,7 +1296,7 @@ Full working after a second miss:
 > Le père le dit à la fin du texte.  
 > Donc la réponse est « quand chacun aide, le travail de la maison est vite fini ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-5-pron` · Lesson 5 · fill the blank, level 1
 
@@ -1626,7 +1680,7 @@ Full working after a second miss:
 > L’environnement, c’est le milieu où l’on vit.  
 > Donc la réponse est « le club environnement ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-7-inv` · Lesson 7 · multiple choice, level 1
 
@@ -1692,7 +1746,7 @@ Full working after a second miss:
 > Curer les caniveaux sert à tout le quartier.  
 > Donc la réponse est « curer les caniveaux du quartier ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-7-texte` · Lesson 7 · multiple choice, level 2
 
@@ -1759,7 +1813,7 @@ Full working after a second miss:
 > « Chaque premier samedi du mois ».  
 > Donc la réponse est « chaque premier samedi du mois ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-7-spot` · Lesson 7 · spot the error, level 3
 
@@ -1820,7 +1874,7 @@ Full working after a second miss:
 > La phrase fausse est « Les élèves sont payés pour leur travail. ».  
 > L’investissement humain est sans salaire.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-7-texte-card` · Lesson 7 · multiple choice, level 1
 
@@ -1887,7 +1941,7 @@ Full working after a second miss:
 > « Une école propre, c’est une école où l’on apprend mieux. »  
 > Donc la réponse est « qu’on apprend mieux dans une école propre ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-8-mot` · Lesson 8 · fill the blank, level 1
 
@@ -2728,7 +2782,7 @@ Full working after a second miss:
 > toujours / jamais  
 > Donc la réponse est « jamais ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-10-spot` · Lesson 10 · spot the error, level 3
 
@@ -2859,7 +2913,7 @@ Full working after a second miss:
 > propre / sale  
 > Donc la réponse est « sale ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-11-phrase` · Lesson 11 · multiple choice, level 1
 
@@ -2925,7 +2979,7 @@ Full working after a second miss:
 > Sujet + verbe + complément.  
 > Donc la réponse est « Les voisins nettoient le marché. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-11-ponct` · Lesson 11 · multiple choice, level 1
 
@@ -2991,7 +3045,7 @@ Full working after a second miss:
 > Majuscule au début et au nom de ville, point à la fin.  
 > Donc la réponse est « Notre école se trouve à Bertoua. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-11-pron` · Lesson 11 · multiple choice, level 2
 
@@ -3058,7 +3112,7 @@ Full working after a second miss:
 > « Elle » remplace « ma cousine ».  
 > Donc la réponse est « Elle coud de belles robes. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-11-wo` · Lesson 11 · word order, level 3
 
@@ -3105,7 +3159,7 @@ Full working after a second miss:
 
 > La phrase est : Mon oncle répare les vélos du quartier.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-11-pron-card` · Lesson 11 · multiple choice, level 1
 
@@ -3172,7 +3226,7 @@ Full working after a second miss:
 > « Elle » remplace « ma cousine ».  
 > Donc la réponse est « Elle coud de belles robes. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-12-vous` · Lesson 12 · multiple choice, level 1
 
@@ -3238,7 +3292,7 @@ Full working after a second miss:
 > On salue poliment et on vouvoie.  
 > Donc la réponse est « Bonjour, Monsieur, pouvez-vous m’aider ? ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-12-poli` · Lesson 12 · multiple choice, level 1
 
@@ -3305,7 +3359,7 @@ Full working after a second miss:
 > On remercie.  
 > Donc la réponse est « Merci beaucoup, Monsieur. ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-12-qui` · Lesson 12 · matching, level 2
 
@@ -3370,7 +3424,7 @@ Full working after a second miss:
 > l’intendant → gère l’argent et le matériel  
 > le censeur → s’occupe des études  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-12-spot` · Lesson 12 · spot the error, level 3
 
@@ -3431,7 +3485,7 @@ Full working after a second miss:
 > La phrase fausse est « Je sors, Monsieur. ».  
 > Il faut demander la permission : « Puis-je sortir, s’il vous plaît ? ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-12-qui-card` · Lesson 12 · matching, level 1
 
@@ -3496,7 +3550,7 @@ Full working after a second miss:
 > le surveillant général → s’occupe de la discipline  
 > le censeur → s’occupe des études  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-13-titre` · Lesson 13 · multiple choice, level 1
 
@@ -3563,7 +3617,7 @@ Full working after a second miss:
 > « sous l’arbre à palabres ».  
 > Donc la réponse est « sous l’arbre à palabres ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-13-mot` · Lesson 13 · multiple choice, level 1
 
@@ -3629,7 +3683,7 @@ Full working after a second miss:
 > Toutes les familles mangent ensemble.  
 > Donc la réponse est « partagé par tout le monde ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-13-image` · Lesson 13 · multiple choice, level 2
 
@@ -3695,7 +3749,7 @@ Full working after a second miss:
 > Tout le village participe à la fête.  
 > Donc la réponse est « la fête réunit la communauté pour travailler, décider et se réjouir ensemble ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-13-spot` · Lesson 13 · spot the error, level 3
 
@@ -3756,7 +3810,7 @@ Full working after a second miss:
 > La phrase fausse est « Le chef réunit les jeunes au marché. ».  
 > Il réunit les anciens sous l’arbre à palabres.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-13-image-card` · Lesson 13 · multiple choice, level 1
 
@@ -3822,7 +3876,7 @@ Full working after a second miss:
 > Comme la racine tient l’arbre, le village tient la famille.  
 > Donc la réponse est « le village est l’origine de la famille, ce qui la tient ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-14-f` · Lesson 14 · fill the blank, level 1
 
@@ -4216,7 +4270,7 @@ Full working after a second miss:
 > Au début, on salue et on présente la situation.  
 > Donc la réponse est « par une salutation et la présentation du problème ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-15-prop` · Lesson 15 · multiple choice, level 1
 
@@ -4282,7 +4336,7 @@ Full working after a second miss:
 > « Et si nous … ? » propose une idée.  
 > Donc la réponse est « Et si nous réparions le pont samedi ? ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-15-ordre` · Lesson 15 · ordering, level 2
 
@@ -4333,7 +4387,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Délégué : Bonjour, camarades. → Délégué : La cour de l’école est pleine d’herbe. → Élève : Pourquoi ne pas la désherber ensemble ? → Délégué : D’accord. Merci à tous !.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-15-spot` · Lesson 15 · spot the error, level 3
 
@@ -4394,7 +4448,7 @@ Full working after a second miss:
 > La phrase fausse est « Tourne le dos au public pour mieux jouer. ».  
 > Il faut regarder le public.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-15-spot-card` · Lesson 15 · spot the error, level 1
 
@@ -4455,7 +4509,7 @@ Full working after a second miss:
 > La phrase fausse est « Tourne le dos au public pour mieux jouer. ».  
 > Il faut regarder le public.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-18-geste` · Lesson 18 · multiple choice, level 1
 
@@ -4522,7 +4576,7 @@ Full working after a second miss:
 > Se brosser les dents protège la santé.  
 > Donc la réponse est « se brosser les dents après le repas ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-18-mot` · Lesson 18 · multiple choice, level 1
 
@@ -4589,7 +4643,7 @@ Full working after a second miss:
 > « Stagner », c’est rester sans bouger.  
 > Donc la réponse est « des eaux qui ne coulent pas ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-18-def` · Lesson 18 · fill the blank, level 2
 
@@ -4655,7 +4709,7 @@ Full working after a second miss:
 > Le mot qui manque est « poubelle ».  
 > Les déchets de la maison vont dans la poubelle.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-18-spot` · Lesson 18 · spot the error, level 3
 
@@ -4716,7 +4770,7 @@ Full working after a second miss:
 > La phrase fausse est « Laisse l’eau stagner près de la maison. ».  
 > L’eau stagnante attire les moustiques.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-18-def-card` · Lesson 18 · fill the blank, level 1
 
@@ -4782,7 +4836,7 @@ Full working after a second miss:
 > Le mot qui manque est « caniveau ».  
 > L’eau de pluie s’écoule par le caniveau.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-20-plan` · Lesson 20 · multiple choice, level 1
 
@@ -4848,7 +4902,7 @@ Full working after a second miss:
 > « Dr Mballa, l’infirmière du centre de santé, a réuni les habitants ».  
 > Donc la réponse est « Dr Mballa, l’infirmière ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-20-sol` · Lesson 20 · multiple choice, level 1
 
@@ -4914,7 +4968,7 @@ Full working after a second miss:
 > « les jeunes curent les caniveaux tous les mois ».  
 > Donc la réponse est « ils curent les caniveaux ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-20-idee` · Lesson 20 · multiple choice, level 2
 
@@ -4980,7 +5034,7 @@ Full working after a second miss:
 > Dr Mballa le dit : « Votre santé dépend de votre environnement ».  
 > Donc la réponse est « notre santé dépend de la propreté de notre environnement ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-20-spot` · Lesson 20 · spot the error, level 3
 
@@ -5041,7 +5095,7 @@ Full working after a second miss:
 > La phrase fausse est « Le centre de santé reçoit plus de malades cette année. ».  
 > Il en reçoit deux fois moins.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-20-idee-card` · Lesson 20 · multiple choice, level 1
 
@@ -5107,7 +5161,7 @@ Full working after a second miss:
 > Dr Mballa le dit : « Votre santé dépend de votre environnement ».  
 > Donc la réponse est « notre santé dépend de la propreté de notre environnement ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-22-son` · Lesson 22 · fill the blank, level 1
 
@@ -5497,7 +5551,7 @@ Full working after a second miss:
 > la rougeole → une maladie contagieuse des enfants  
 > le paludisme → la piqûre du moustique  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-23-symp` · Lesson 23 · multiple choice, level 1
 
@@ -5563,7 +5617,7 @@ Full working after a second miss:
 > La fièvre, la toux sont des symptômes.  
 > Donc la réponse est « un signe de la maladie ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-23-soin` · Lesson 23 · fill the blank, level 2
 
@@ -5629,7 +5683,7 @@ Full working after a second miss:
 > Le mot qui manque est « ordonnance ».  
 > Le médecin écrit les médicaments sur une ordonnance.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-23-spot` · Lesson 23 · spot the error, level 3
 
@@ -5690,7 +5744,7 @@ Full working after a second miss:
 > La phrase fausse est « On achète les médicaments à la boulangerie. ».  
 > On les achète à la pharmacie.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-23-soin-card` · Lesson 23 · fill the blank, level 1
 
@@ -5756,7 +5810,7 @@ Full working after a second miss:
 > Le mot qui manque est « diagnostic ».  
 > Le médecin examine le malade et fait un diagnostic.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-24-mot` · Lesson 24 · multiple choice, level 1
 
@@ -5823,7 +5877,7 @@ Full working after a second miss:
 > Polluer, c’est salir le milieu.  
 > Donc la réponse est « le fait de salir l’air, l’eau ou le sol ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-24-rec` · Lesson 24 · multiple choice, level 1
 
@@ -5889,7 +5943,7 @@ Full working after a second miss:
 > Recycler évite les déchets.  
 > Donc la réponse est « recycler les bouteilles en plastique ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-24-bio` · Lesson 24 · fill the blank, level 2
 
@@ -5954,7 +6008,7 @@ Full working after a second miss:
 > Le mot qui manque est « reboiser ».  
 > Le club environnement va reboiser la colline avec des manguiers.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-24-spot` · Lesson 24 · spot the error, level 3
 
@@ -6015,7 +6069,7 @@ Full working after a second miss:
 > La phrase fausse est « Les sachets plastiques sont biodégradables. ».  
 > Ils restent des centaines d’années.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-24-bio-card` · Lesson 24 · fill the blank, level 1
 
@@ -6080,7 +6134,7 @@ Full working after a second miss:
 > Le mot qui manque est « biodégradables ».  
 > Les épluchures de banane sont biodégradables : elles pourrissent vite.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-26-plan` · Lesson 26 · multiple choice, level 1
 
@@ -6146,7 +6200,7 @@ Full working after a second miss:
 > Le premier plan est la partie la plus proche.  
 > Donc la réponse est « devant, le plus près de nous ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-26-msg` · Lesson 26 · multiple choice, level 1
 
@@ -6212,7 +6266,7 @@ Full working after a second miss:
 > « dénonce » donne le message de l’affiche.  
 > Donc la réponse est « Cette affiche dénonce la coupe des arbres. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-26-ordre` · Lesson 26 · ordering, level 2
 
@@ -6262,7 +6316,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Au premier plan, on voit des enfants qui se lavent les mains. → À droite, il y a un seau d’eau et du savon. → Cette image montre qu’il faut se laver les mains avec du savon. → À mon avis, c’est un bon conseil pour éviter les maladies..  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-26-spot` · Lesson 26 · spot the error, level 3
 
@@ -6323,7 +6377,7 @@ Full working after a second miss:
 > La phrase fausse est « On ne doit jamais dire le message de l’image. ».  
 > Interpréter, c’est dire le message.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-26-ordre-card` · Lesson 26 · ordering, level 1
 
@@ -6373,7 +6427,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Au centre, on voit un homme qui plante un arbre. → À l’arrière-plan, il y a une forêt. → Cette image conseille de reboiser. → Je pense que tout le monde devrait le faire..  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-28-temps` · Lesson 28 · fill the blank, level 1
 
@@ -6438,7 +6492,7 @@ Full working after a second miss:
 > Le mot qui manque est « vent ».  
 > Aujourd’hui, il y a du vent : les feuilles bougent.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-28-lien` · Lesson 28 · fill the blank, level 1
 
@@ -6503,7 +6557,7 @@ Full working after a second miss:
 > Le mot qui manque est « car ».  
 > Mon frère reste à la maison car il a de la fièvre.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-28-phrase` · Lesson 28 · multiple choice, level 2
 
@@ -6569,7 +6623,7 @@ Full working after a second miss:
 > Deux idées bien reliées par « donc ».  
 > Donc la réponse est « Ma sœur a le paludisme, donc elle prend ses médicaments. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-28-wo` · Lesson 28 · word order, level 3
 
@@ -6617,7 +6671,7 @@ Full working after a second miss:
 
 > La phrase est : Il faut jeter les ordures dans la poubelle.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-28-wo-card` · Lesson 28 · word order, level 1
 
@@ -6665,7 +6719,7 @@ Full working after a second miss:
 
 > La phrase est : Les arbres protègent le sol contre l’érosion.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-29-pp` · Lesson 29 · fill the blank, level 1
 
@@ -7385,7 +7439,7 @@ Full working after a second miss:
 > La contagion est le passage de la maladie.  
 > Donc la réponse est « qui passe d’une personne à une autre ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-31-mot` · Lesson 31 · matching, level 1
 
@@ -7450,7 +7504,7 @@ Full working after a second miss:
 > une pandémie → une épidémie dans le monde entier  
 > une épidémie → beaucoup de malades en même temps dans une région  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-31-prev` · Lesson 31 · multiple choice, level 2
 
@@ -7517,7 +7571,7 @@ Full working after a second miss:
 > Le coude retient les gouttelettes.  
 > Donc la réponse est « tousser dans son coude ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-31-spot` · Lesson 31 · spot the error, level 3
 
@@ -7578,7 +7632,7 @@ Full working after a second miss:
 > La phrase fausse est « Une maladie contagieuse ne passe jamais d’une personne à une autre. ».  
 > C’est justement le sens de contagieux.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-31-prev-card` · Lesson 31 · multiple choice, level 1
 
@@ -7645,7 +7699,7 @@ Full working after a second miss:
 > La moustiquaire empêche la piqûre du moustique.  
 > Donc la réponse est « dormir sous moustiquaire imprégnée ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-32-au` · Lesson 32 · fill the blank, level 1
 
@@ -7711,7 +7765,7 @@ Full working after a second miss:
 > Le mot qui manque est « aux ».  
 > Mon petit frère a mal aux dents.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-32-ala` · Lesson 32 · fill the blank, level 1
 
@@ -7776,7 +7830,7 @@ Full working after a second miss:
 > Les mots qui manquent sont « à l’ ».  
 > J’ai mal à l’ oreille.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-32-dial` · Lesson 32 · ordering, level 2
 
@@ -7826,7 +7880,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Infirmière : Bonjour, Madame. Que se passe-t-il ? → Mère : Mon fils tousse beaucoup. → Infirmière : Depuis combien de temps ? → Mère : Depuis une semaine..  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-32-spot` · Lesson 32 · spot the error, level 3
 
@@ -7887,7 +7941,7 @@ Full working after a second miss:
 > La phrase fausse est « Il a mal à les yeux. ».  
 > à + les se contracte : aux yeux.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-32-dial-card` · Lesson 32 · ordering, level 1
 
@@ -7937,7 +7991,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Infirmière : Bonjour, Madame. Que se passe-t-il ? → Mère : Mon fils tousse beaucoup. → Infirmière : Depuis combien de temps ? → Mère : Depuis une semaine..  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-36-al` · Lesson 36 · fill the blank, level 2
 
@@ -8194,7 +8248,7 @@ Full working after a second miss:
 > On y joue autour d’une table.  
 > Donc la réponse est « le ludo ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-37-jouer` · Lesson 37 · fill the blank, level 1
 
@@ -8260,7 +8314,7 @@ Full working after a second miss:
 > Le mot qui manque est « aux ».  
 > Nous jouons aux cartes le soir.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-37-def` · Lesson 37 · matching, level 2
 
@@ -8325,7 +8379,7 @@ Full working after a second miss:
 > un pion → une petite pièce d’un jeu de société  
 > l’adversaire → celui contre qui on joue  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-37-spot` · Lesson 37 · spot the error, level 3
 
@@ -8386,7 +8440,7 @@ Full working after a second miss:
 > La phrase fausse est « On joue du football. ».  
 > Pour un sport, on dit « jouer au football ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-37-def-card` · Lesson 37 · matching, level 1
 
@@ -8451,7 +8505,7 @@ Full working after a second miss:
 > l’adversaire → celui contre qui on joue  
 > un match nul → aucune équipe ne gagne  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-38-simple` · Lesson 38 · multiple choice, level 1
 
@@ -8517,7 +8571,7 @@ Full working after a second miss:
 > Sujet + verbe + complément.  
 > Donc la réponse est « Mon quartier est propre. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-38-mal` · Lesson 38 · fill the blank, level 1
 
@@ -8582,7 +8636,7 @@ Full working after a second miss:
 > Le mot qui manque est « tousse ».  
 > Mon père tousse beaucoup la nuit : il a la grippe.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-38-env` · Lesson 38 · multiple choice, level 2
 
@@ -8648,7 +8702,7 @@ Full working after a second miss:
 > Le paludisme est une maladie.  
 > Donc la réponse est « Mon petit frère a le paludisme. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-38-wo` · Lesson 38 · word order, level 3
 
@@ -8696,7 +8750,7 @@ Full working after a second miss:
 
 > La phrase est : Les enfants jouent dans la cour.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-38-wo-card` · Lesson 38 · word order, level 1
 
@@ -8744,7 +8798,7 @@ Full working after a second miss:
 
 > La phrase est : Notre quartier est très propre.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-39-x` · Lesson 39 · multiple choice, level 1
 
@@ -8919,7 +8973,7 @@ Full working after a second miss:
 
 > Le bon ordre est : la région → le département → l’arrondissement.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-40-chef` · Lesson 40 · matching, level 1
 
@@ -8983,7 +9037,7 @@ Full working after a second miss:
 > la commune → le maire  
 > le département → le préfet  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-40-mot` · Lesson 40 · multiple choice, level 2
 
@@ -9050,7 +9104,7 @@ Full working after a second miss:
 > Dix régions.  
 > Donc la réponse est « dix ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-40-spot` · Lesson 40 · spot the error, level 3
 
@@ -9111,7 +9165,7 @@ Full working after a second miss:
 > La phrase fausse est « Le gouverneur est élu par les habitants de la commune. ».  
 > Le maire est élu ; le gouverneur est nommé.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-40-mot-card` · Lesson 40 · multiple choice, level 1
 
@@ -9178,7 +9232,7 @@ Full working after a second miss:
 > Le maire est élu.  
 > Donc la réponse est « le maire ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-41-devoir` · Lesson 41 · fill the blank, level 1
 
@@ -9243,7 +9297,7 @@ Full working after a second miss:
 > Le mot qui manque est « devons ».  
 > Nous devons respecter les lois de notre pays.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-41-droit` · Lesson 41 · multiple choice, level 1
 
@@ -9309,7 +9363,7 @@ Full working after a second miss:
 > « avoir le droit de » exprime un droit.  
 > Donc la réponse est « Chaque enfant a le droit d’aller à l’école. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-41-lien` · Lesson 41 · fill the blank, level 2
 
@@ -9374,7 +9428,7 @@ Full working after a second miss:
 > Le mot qui manque est « mais ».  
 > Il connaît la loi, mais il ne la respecte pas.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-41-wo` · Lesson 41 · word order, level 3
 
@@ -9421,7 +9475,7 @@ Full working after a second miss:
 
 > La phrase est : Le citoyen paie l’impôt chaque année.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-41-wo-card` · Lesson 41 · word order, level 1
 
@@ -9468,7 +9522,7 @@ Full working after a second miss:
 
 > La phrase est : Le citoyen paie l’impôt chaque année.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-42-acte` · Lesson 42 · matching, level 1
 
@@ -9533,7 +9587,7 @@ Full working after a second miss:
 > la carte nationale d’identité → l’identité d’un adulte  
 > l’acte de naissance → la naissance et les parents  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-42-qui` · Lesson 42 · multiple choice, level 1
 
@@ -9599,7 +9653,7 @@ Full working after a second miss:
 > On déclare la naissance au centre d’état civil.  
 > Donc la réponse est « on déclare sa naissance ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-42-cni` · Lesson 42 · multiple choice, level 2
 
@@ -9665,7 +9719,7 @@ Full working after a second miss:
 > À la majorité.  
 > Donc la réponse est « dix-huit ans ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-42-spot` · Lesson 42 · spot the error, level 3
 
@@ -9726,7 +9780,7 @@ Full working after a second miss:
 > La phrase fausse est « La carte nationale d’identité est donnée aux bébés. ».  
 > Elle est délivrée à partir de dix-huit ans.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-42-cni-card` · Lesson 42 · multiple choice, level 1
 
@@ -9792,7 +9846,7 @@ Full working after a second miss:
 > À la majorité.  
 > Donc la réponse est « dix-huit ans ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-43-quoi` · Lesson 43 · multiple choice, level 1
 
@@ -10507,7 +10561,7 @@ Full working after a second miss:
 > « Jeunes citoyens, inscrivez-vous sur les listes électorales ! »  
 > Donc la réponse est « une affiche sur les listes électorales ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-45-mot` · Lesson 45 · multiple choice, level 1
 
@@ -10573,7 +10627,7 @@ Full working after a second miss:
 > Digital vient de « doigt ».  
 > Donc la réponse est « les marques des doigts ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-45-idee` · Lesson 45 · multiple choice, level 2
 
@@ -10639,7 +10693,7 @@ Full working after a second miss:
 > Le père le dit à la fin.  
 > Donc la réponse est « Devenir citoyen, c’est avoir des droits et des devoirs. ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-45-spot` · Lesson 45 · spot the error, level 3
 
@@ -10700,7 +10754,7 @@ Full working after a second miss:
 > La phrase fausse est « Le père dit que le citoyen n’a que des droits. ».  
 > Il dit qu’il a aussi des devoirs.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-45-idee-card` · Lesson 45 · multiple choice, level 1
 
@@ -10766,7 +10820,7 @@ Full working after a second miss:
 > Le père le dit à la fin.  
 > Donc la réponse est « Devenir citoyen, c’est avoir des droits et des devoirs. ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-46-feu` · Lesson 46 · matching, level 1
 
@@ -10830,7 +10884,7 @@ Full working after a second miss:
 > le feu orange → ralentir  
 > le panneau « sens interdit » → ne pas entrer dans la rue  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-46-pieton` · Lesson 46 · multiple choice, level 1
 
@@ -10896,7 +10950,7 @@ Full working after a second miss:
 > Les bandes blanches.  
 > Donc la réponse est « au passage pour piétons ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-46-regle` · Lesson 46 · multiple choice, level 2
 
@@ -10962,7 +11016,7 @@ Full working after a second miss:
 > Le téléphone distrait le conducteur.  
 > Donc la réponse est « téléphoner en conduisant ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-46-spot` · Lesson 46 · spot the error, level 3
 
@@ -11023,7 +11077,7 @@ Full working after a second miss:
 > La phrase fausse est « On peut conduire après avoir bu de l’alcool. ».  
 > L’alcool est interdit au volant.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-46-regle-card` · Lesson 46 · multiple choice, level 1
 
@@ -11089,7 +11143,7 @@ Full working after a second miss:
 > Le téléphone distrait le conducteur.  
 > Donc la réponse est « téléphoner en conduisant ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-47-quoi` · Lesson 47 · multiple choice, level 1
 
@@ -11282,7 +11336,7 @@ Full working after a second miss:
 > On les fait pour se détendre.  
 > Donc la réponse est « les activités du temps libre ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-48-verbe` · Lesson 48 · fill the blank, level 2
 
@@ -11347,7 +11401,7 @@ Full working after a second miss:
 > Le mot qui manque est « participer ».  
 > Notre équipe va participer au tournoi de handball.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-48-spot` · Lesson 48 · spot the error, level 3
 
@@ -11408,7 +11462,7 @@ Full working after a second miss:
 > La phrase fausse est « Les loisirs sont des travaux obligatoires. ».  
 > On les choisit librement.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-48-verbe-card` · Lesson 48 · fill the blank, level 1
 
@@ -11473,7 +11527,7 @@ Full working after a second miss:
 > Le mot qui manque est « s’amusent ».  
 > Les enfants s’amusent bien pendant la fête.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-49-diff` · Lesson 49 · multiple choice, level 1
 
@@ -11539,7 +11593,7 @@ Full working after a second miss:
 > C’est ce qu’il fait ce matin.  
 > Donc la réponse est « Ce matin, il y a du brouillard. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-49-il` · Lesson 49 · fill the blank, level 1
 
@@ -11604,7 +11658,7 @@ Full working after a second miss:
 > Le mot qui manque est « pleut ».  
 > Prends ton imperméable : il pleut depuis ce matin.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-49-comp` · Lesson 49 · fill the blank, level 2
 
@@ -11668,7 +11722,7 @@ Full working after a second miss:
 > Le mot qui manque est « qu’ ».  
 > Il fait plus chaud à Maroua qu’ à Buea.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-49-wo` · Lesson 49 · word order, level 3
 
@@ -11715,7 +11769,7 @@ Full working after a second miss:
 
 > La phrase est : Il pleut beaucoup à Debundscha.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-49-wo-card` · Lesson 49 · word order, level 1
 
@@ -11762,7 +11816,7 @@ Full working after a second miss:
 
 > La phrase est : Il pleut beaucoup à Debundscha.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-50-quoi` · Lesson 50 · multiple choice, level 1
 
@@ -12152,7 +12206,7 @@ Full working after a second miss:
 > Le prix se paie.  
 > Donc la réponse est « le prix ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-51-gros` · Lesson 51 · multiple choice, level 1
 
@@ -12218,7 +12272,7 @@ Full working after a second miss:
 > Le client achète.  
 > Donc la réponse est « le client ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-51-mot` · Lesson 51 · matching, level 2
 
@@ -12283,7 +12337,7 @@ Full working after a second miss:
 > le bénéfice → l’argent gagné  
 > la monnaie → l’argent rendu au client  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-51-spot` · Lesson 51 · spot the error, level 3
 
@@ -12344,7 +12398,7 @@ Full working after a second miss:
 > La phrase fausse est « Le détaillant vend seulement aux grossistes. ».  
 > Il vend par petites quantités aux clients.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-51-mot-card` · Lesson 51 · matching, level 1
 
@@ -12409,7 +12463,7 @@ Full working after a second miss:
 > la monnaie → l’argent rendu au client  
 > la facture → le papier qui donne le prix à payer  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-52-spot` · Lesson 52 · spot the error, level 3
 
@@ -12842,7 +12896,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Cette affiche présente une usine. → Au centre, des ouvriers travaillent sur des machines. → À droite, un chef d’équipe surveille. → Elle montre l’importance du travail en équipe..  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-55-plan` · Lesson 55 · multiple choice, level 1
 
@@ -12908,7 +12962,7 @@ Full working after a second miss:
 > Elle situe un élément.  
 > Donc la réponse est « Au premier plan, une vendeuse pèse des tomates. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-55-msg` · Lesson 55 · multiple choice, level 2
 
@@ -12974,7 +13028,7 @@ Full working after a second miss:
 > « À mon avis » introduit un avis.  
 > Donc la réponse est « À mon avis, tout travail honnête mérite respect. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-55-spot` · Lesson 55 · spot the error, level 3
 
@@ -13035,7 +13089,7 @@ Full working after a second miss:
 > La phrase fausse est « « Au premier plan » veut dire au fond de l’image. ».  
 > Cela veut dire devant.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-55-msg-card` · Lesson 55 · multiple choice, level 1
 
@@ -13101,7 +13155,7 @@ Full working after a second miss:
 > « À mon avis » introduit un avis.  
 > Donc la réponse est « À mon avis, tout travail honnête mérite respect. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-56-oe` · Lesson 56 · fill the blank, level 1
 
@@ -13488,7 +13542,7 @@ Full working after a second miss:
 > la couturière → coud les vêtements  
 > le pêcheur → attrape les poissons  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-57-lieu` · Lesson 57 · multiple choice, level 1
 
@@ -13555,7 +13609,7 @@ Full working after a second miss:
 > Il répare les véhicules au garage.  
 > Donc la réponse est « au garage ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-57-fem` · Lesson 57 · fill the blank, level 2
 
@@ -13620,7 +13674,7 @@ Full working after a second miss:
 > Le mot qui manque est « infirmière ».  
 > Ma mère est infirmière à l’hôpital de Buea.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-57-spot` · Lesson 57 · spot the error, level 3
 
@@ -13681,7 +13735,7 @@ Full working after a second miss:
 > La phrase fausse est « Le cordonnier soigne les malades. ».  
 > Il répare les chaussures.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-57-fem-card` · Lesson 57 · fill the blank, level 1
 
@@ -13746,7 +13800,7 @@ Full working after a second miss:
 > Le mot qui manque est « commerçante ».  
 > Ma tante est commerçante : elle vend du poisson.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-58-neg` · Lesson 58 · multiple choice, level 1
 
@@ -13923,7 +13977,7 @@ Full working after a second miss:
 
 > Le bon ordre est : J’aimerais devenir mécanicien. → D’abord, j’aime réparer les objets. → De plus, les voitures me passionnent. → C’est pourquoi je veux apprendre ce métier..  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-59-lien` · Lesson 59 · fill the blank, level 1
 
@@ -13988,7 +14042,7 @@ Full working after a second miss:
 > Les mots qui manquent sont « C’est pourquoi ».  
 > Mon père travaille dur. C’est pourquoi, notre famille vit bien.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-59-concl` · Lesson 59 · multiple choice, level 2
 
@@ -14054,7 +14108,7 @@ Full working after a second miss:
 > « C’est pourquoi » conclut.  
 > Donc la réponse est « C’est pourquoi les enseignants méritent notre respect. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-59-spot` · Lesson 59 · spot the error, level 3
 
@@ -14115,7 +14169,7 @@ Full working after a second miss:
 > La phrase fausse est « Un paragraphe doit parler de dix idées différentes. ».  
 > Il développe une seule idée.  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-59-concl-card` · Lesson 59 · multiple choice, level 1
 
@@ -14181,7 +14235,7 @@ Full working after a second miss:
 > « C’est pourquoi » conclut.  
 > Donc la réponse est « C’est pourquoi les enseignants méritent notre respect. ».  
 
-Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux))
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
 ### `fr2-60-bel` · Lesson 60 · fill the blank, level 1
 
@@ -14569,7 +14623,7 @@ Full working after a second miss:
 > L’employeur (le patron).  
 > Donc la réponse est « l’employeur ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-61-chef` · Lesson 61 · ordering, level 1
 
@@ -14619,7 +14673,7 @@ Full working after a second miss:
 
 > Le bon ordre est : le patron → le directeur → le chef d’équipe → l’ouvrier → le stagiaire.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-61-mot` · Lesson 61 · matching, level 2
 
@@ -14684,7 +14738,7 @@ Full working after a second miss:
 > une promotion → monter à un rang plus haut  
 > la grève → l’arrêt collectif du travail pour réclamer  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-61-spot` · Lesson 61 · spot the error, level 3
 
@@ -14745,7 +14799,7 @@ Full working after a second miss:
 > La phrase fausse est « Licencier veut dire engager. ».  
 > Licencier veut dire renvoyer.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-61-mot-card` · Lesson 61 · matching, level 1
 
@@ -14810,7 +14864,7 @@ Full working after a second miss:
 > le salaire → l’argent payé pour le travail  
 > licencier → renvoyer un travailleur  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-62-spot` · Lesson 62 · spot the error, level 3
 
@@ -14938,7 +14992,7 @@ Full working after a second miss:
 > La différence.  
 > Donc la réponse est « la différence ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-63-lire` · Lesson 63 · multiple choice, level 1
 
@@ -15005,7 +15059,7 @@ Full working after a second miss:
 > ÷ se lit « divisé par ».  
 > Donc la réponse est « divisé par ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-63-spot` · Lesson 63 · spot the error, level 3
 
@@ -15066,7 +15120,7 @@ Full working after a second miss:
 > La phrase fausse est « ÷ se lit « plus ». ».  
 > ÷ se lit « divisé par ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-64-comp` · Lesson 64 · multiple choice, level 1
 
@@ -15133,7 +15187,7 @@ Full working after a second miss:
 > Ils vont ouvrir un compte.  
 > Donc la réponse est « à la caisse d’épargne du quartier ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-64-mot` · Lesson 64 · multiple choice, level 1
 
@@ -15199,7 +15253,7 @@ Full working after a second miss:
 > Le dépôt ajoute de l’argent.  
 > Donc la réponse est « mettre de l’argent sur son compte ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-64-idee` · Lesson 64 · multiple choice, level 2
 
@@ -15265,7 +15319,7 @@ Full working after a second miss:
 > Elle achète du matériel grâce à l’épargne.  
 > Donc la réponse est « Garder son argent à la caisse d’épargne est plus sûr et aide à faire des projets. ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-64-spot` · Lesson 64 · spot the error, level 3
 
@@ -15326,7 +15380,7 @@ Full working after a second miss:
 > La phrase fausse est « Faire un retrait, c’est ajouter de l’argent. ».  
 > C’est reprendre de l’argent.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-64-idee-card` · Lesson 64 · multiple choice, level 1
 
@@ -15392,7 +15446,7 @@ Full working after a second miss:
 > Elle achète du matériel grâce à l’épargne.  
 > Donc la réponse est « Garder son argent à la caisse d’épargne est plus sûr et aide à faire des projets. ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
 ### `fr2-65-rep` · Lesson 65 · multiple choice, level 1
 
@@ -15458,7 +15512,7 @@ Full working after a second miss:
 > On commence par « Allô ».  
 > Donc la réponse est « Allô, bonjour ! ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-65-qui` · Lesson 65 · multiple choice, level 1
 
@@ -15524,7 +15578,7 @@ Full working after a second miss:
 > On demande poliment la personne.  
 > Donc la réponse est « Puis-je parler à M. Tabi, s’il vous plaît ? ».  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-65-ordre` · Lesson 65 · ordering, level 2
 
@@ -15575,7 +15629,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Allô, bonjour ! → Bonjour, puis-je parler à Mme Ngo ? → C’est de la part de qui ? → C’est M. Tabi. → Ne quittez pas, je l’appelle..  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-65-spot` · Lesson 65 · spot the error, level 3
 
@@ -15636,7 +15690,7 @@ Full working after a second miss:
 > La phrase fausse est « Raccrocher sans rien dire. ».  
 > On salue et on répond poliment.  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-65-ordre-card` · Lesson 65 · ordering, level 1
 
@@ -15687,7 +15741,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Allô, bonjour ! → Bonjour, puis-je parler à Mme Ngo ? → C’est de la part de qui ? → C’est M. Tabi. → Ne quittez pas, je l’appelle..  
 
-Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement)
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
 ### `fr2-66-spot` · Lesson 66 · spot the error, level 3
 
@@ -16297,4 +16351,3190 @@ Full working after a second miss:
 > La phrase est : L’usine va embaucher cent jeunes.  
 
 Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
+
+### `fr2-70-etape-1` · Lesson 70 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Tu appelles la bibliothèque. Quelle ouverture est polie ? | Bonjour, je suis Bih. Puis-je parler à la bibliothécaire ? | Passez-moi quelqu’un ! · Pourquoi ne répondez-vous pas ? | On salue, on se présente et on formule sa demande poliment. |
+| Tu réponds à un appel à la maison. Que peux-tu dire ? | Bonjour, qui est à l’appareil, s’il vous plaît ? | Je ne veux rien savoir. · Parlez plus vite ! | Une question polie permet d’identifier la personne qui appelle. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Tu réponds à un appel à la maison. Que peux-tu dire ?
+
+- ◻️ Je ne veux rien savoir.  
+  _↳ feedback if chosen: Une question polie permet d’identifier la personne qui appelle._
+- ✅ Bonjour, qui est à l’appareil, s’il vous plaît ?
+- ◻️ Parlez plus vite !  
+  _↳ feedback if chosen: Une question polie permet d’identifier la personne qui appelle._
+
+Full working after a second miss:
+
+> Une question polie permet d’identifier la personne qui appelle.  
+> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?.  
+
+> Tu réponds à un appel à la maison. Que peux-tu dire ?
+
+- ✅ Bonjour, qui est à l’appareil, s’il vous plaît ?
+- ◻️ Parlez plus vite !  
+  _↳ feedback if chosen: Une question polie permet d’identifier la personne qui appelle._
+- ◻️ Je ne veux rien savoir.  
+  _↳ feedback if chosen: Une question polie permet d’identifier la personne qui appelle._
+
+Full working after a second miss:
+
+> Une question polie permet d’identifier la personne qui appelle.  
+> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?.  
+
+> Tu réponds à un appel à la maison. Que peux-tu dire ?
+
+- ◻️ Je ne veux rien savoir.  
+  _↳ feedback if chosen: Une question polie permet d’identifier la personne qui appelle._
+- ✅ Bonjour, qui est à l’appareil, s’il vous plaît ?
+- ◻️ Parlez plus vite !  
+  _↳ feedback if chosen: Une question polie permet d’identifier la personne qui appelle._
+
+Full working after a second miss:
+
+> Une question polie permet d’identifier la personne qui appelle.  
+> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?.  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-70-etape-2` · Lesson 70 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Mme Nji est absente. Quel message peut-on transmettre ? | Bih a appelé au sujet du livre et rappellera demain. | Quelqu’un voulait quelque chose. · Elle connaît déjà mon message. | Le nom, l’objet de l’appel et la suite prévue rendent le message utile. |
+| L’interlocuteur n’a pas compris. Quelle réplique convient ? | Je répète : je souhaite réserver un livre. | Vous devriez deviner. · Je change de sujet sans prévenir. | Reformuler calmement permet de clarifier la demande. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> L’interlocuteur n’a pas compris. Quelle réplique convient ?
+
+- ◻️ Vous devriez deviner.  
+  _↳ feedback if chosen: Reformuler calmement permet de clarifier la demande._
+- ◻️ Je change de sujet sans prévenir.  
+  _↳ feedback if chosen: Reformuler calmement permet de clarifier la demande._
+- ✅ Je répète : je souhaite réserver un livre.
+
+Full working after a second miss:
+
+> Reformuler calmement permet de clarifier la demande.  
+> La réponse est : Je répète : je souhaite réserver un livre..  
+
+> L’interlocuteur n’a pas compris. Quelle réplique convient ?
+
+- ◻️ Je change de sujet sans prévenir.  
+  _↳ feedback if chosen: Reformuler calmement permet de clarifier la demande._
+- ✅ Je répète : je souhaite réserver un livre.
+- ◻️ Vous devriez deviner.  
+  _↳ feedback if chosen: Reformuler calmement permet de clarifier la demande._
+
+Full working after a second miss:
+
+> Reformuler calmement permet de clarifier la demande.  
+> La réponse est : Je répète : je souhaite réserver un livre..  
+
+> Mme Nji est absente. Quel message peut-on transmettre ?
+
+- ✅ Bih a appelé au sujet du livre et rappellera demain.
+- ◻️ Quelqu’un voulait quelque chose.  
+  _↳ feedback if chosen: Le nom, l’objet de l’appel et la suite prévue rendent le message utile._
+- ◻️ Elle connaît déjà mon message.  
+  _↳ feedback if chosen: Le nom, l’objet de l’appel et la suite prévue rendent le message utile._
+
+Full working after a second miss:
+
+> Le nom, l’objet de l’appel et la suite prévue rendent le message utile.  
+> La réponse est : Bih a appelé au sujet du livre et rappellera demain..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-70-etape-3` · Lesson 70 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Le message a été compris. Comment terminer ? | Merci de transmettre mon message. Au revoir. | Je raccroche sans rien dire. · Je recommence la demande sans écouter. | Une formule de remerciement et un au revoir ferment poliment l’échange. |
+| Quelle suite respecte l’ordre d’un appel ? | Saluer, se présenter, donner l’objet, remercier. | Remercier, raccrocher, expliquer. · Demander, interrompre, oublier son nom. | On ouvre l’échange avant de donner son objet, puis on prend congé. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Le message a été compris. Comment terminer ?
+
+- ◻️ Je raccroche sans rien dire.  
+  _↳ feedback if chosen: Une formule de remerciement et un au revoir ferment poliment l’échange._
+- ◻️ Je recommence la demande sans écouter.  
+  _↳ feedback if chosen: Une formule de remerciement et un au revoir ferment poliment l’échange._
+- ✅ Merci de transmettre mon message. Au revoir.
+
+Full working after a second miss:
+
+> Une formule de remerciement et un au revoir ferment poliment l’échange.  
+> La réponse est : Merci de transmettre mon message. Au revoir..  
+
+> Quelle suite respecte l’ordre d’un appel ?
+
+- ✅ Saluer, se présenter, donner l’objet, remercier.
+- ◻️ Demander, interrompre, oublier son nom.  
+  _↳ feedback if chosen: On ouvre l’échange avant de donner son objet, puis on prend congé._
+- ◻️ Remercier, raccrocher, expliquer.  
+  _↳ feedback if chosen: On ouvre l’échange avant de donner son objet, puis on prend congé._
+
+Full working after a second miss:
+
+> On ouvre l’échange avant de donner son objet, puis on prend congé.  
+> La réponse est : Saluer, se présenter, donner l’objet, remercier..  
+
+> Le message a été compris. Comment terminer ?
+
+- ◻️ Je recommence la demande sans écouter.  
+  _↳ feedback if chosen: Une formule de remerciement et un au revoir ferment poliment l’échange._
+- ◻️ Je raccroche sans rien dire.  
+  _↳ feedback if chosen: Une formule de remerciement et un au revoir ferment poliment l’échange._
+- ✅ Merci de transmettre mon message. Au revoir.
+
+Full working after a second miss:
+
+> Une formule de remerciement et un au revoir ferment poliment l’échange.  
+> La réponse est : Merci de transmettre mon message. Au revoir..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-70-etape-2-card` · Lesson 70 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Mme Nji est absente. Quel message peut-on transmettre ? | Bih a appelé au sujet du livre et rappellera demain. | Quelqu’un voulait quelque chose. · Elle connaît déjà mon message. | Le nom, l’objet de l’appel et la suite prévue rendent le message utile. |
+| L’interlocuteur n’a pas compris. Quelle réplique convient ? | Je répète : je souhaite réserver un livre. | Vous devriez deviner. · Je change de sujet sans prévenir. | Reformuler calmement permet de clarifier la demande. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> L’interlocuteur n’a pas compris. Quelle réplique convient ?
+
+- ◻️ Vous devriez deviner.  
+  _↳ feedback if chosen: Reformuler calmement permet de clarifier la demande._
+- ◻️ Je change de sujet sans prévenir.  
+  _↳ feedback if chosen: Reformuler calmement permet de clarifier la demande._
+- ✅ Je répète : je souhaite réserver un livre.
+
+Full working after a second miss:
+
+> Reformuler calmement permet de clarifier la demande.  
+> La réponse est : Je répète : je souhaite réserver un livre..  
+
+> Mme Nji est absente. Quel message peut-on transmettre ?
+
+- ✅ Bih a appelé au sujet du livre et rappellera demain.
+- ◻️ Elle connaît déjà mon message.  
+  _↳ feedback if chosen: Le nom, l’objet de l’appel et la suite prévue rendent le message utile._
+- ◻️ Quelqu’un voulait quelque chose.  
+  _↳ feedback if chosen: Le nom, l’objet de l’appel et la suite prévue rendent le message utile._
+
+Full working after a second miss:
+
+> Le nom, l’objet de l’appel et la suite prévue rendent le message utile.  
+> La réponse est : Bih a appelé au sujet du livre et rappellera demain..  
+
+> Mme Nji est absente. Quel message peut-on transmettre ?
+
+- ◻️ Quelqu’un voulait quelque chose.  
+  _↳ feedback if chosen: Le nom, l’objet de l’appel et la suite prévue rendent le message utile._
+- ◻️ Elle connaît déjà mon message.  
+  _↳ feedback if chosen: Le nom, l’objet de l’appel et la suite prévue rendent le message utile._
+- ✅ Bih a appelé au sujet du livre et rappellera demain.
+
+Full working after a second miss:
+
+> Le nom, l’objet de l’appel et la suite prévue rendent le message utile.  
+> La réponse est : Bih a appelé au sujet du livre et rappellera demain..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-70-etape-3-card` · Lesson 70 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Le message a été compris. Comment terminer ? | Merci de transmettre mon message. Au revoir. | Je raccroche sans rien dire. · Je recommence la demande sans écouter. | Une formule de remerciement et un au revoir ferment poliment l’échange. |
+| Quelle suite respecte l’ordre d’un appel ? | Saluer, se présenter, donner l’objet, remercier. | Remercier, raccrocher, expliquer. · Demander, interrompre, oublier son nom. | On ouvre l’échange avant de donner son objet, puis on prend congé. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle suite respecte l’ordre d’un appel ?
+
+- ◻️ Remercier, raccrocher, expliquer.  
+  _↳ feedback if chosen: On ouvre l’échange avant de donner son objet, puis on prend congé._
+- ◻️ Demander, interrompre, oublier son nom.  
+  _↳ feedback if chosen: On ouvre l’échange avant de donner son objet, puis on prend congé._
+- ✅ Saluer, se présenter, donner l’objet, remercier.
+
+Full working after a second miss:
+
+> On ouvre l’échange avant de donner son objet, puis on prend congé.  
+> La réponse est : Saluer, se présenter, donner l’objet, remercier..  
+
+> Le message a été compris. Comment terminer ?
+
+- ◻️ Je raccroche sans rien dire.  
+  _↳ feedback if chosen: Une formule de remerciement et un au revoir ferment poliment l’échange._
+- ✅ Merci de transmettre mon message. Au revoir.
+- ◻️ Je recommence la demande sans écouter.  
+  _↳ feedback if chosen: Une formule de remerciement et un au revoir ferment poliment l’échange._
+
+Full working after a second miss:
+
+> Une formule de remerciement et un au revoir ferment poliment l’échange.  
+> La réponse est : Merci de transmettre mon message. Au revoir..  
+
+> Quelle suite respecte l’ordre d’un appel ?
+
+- ◻️ Remercier, raccrocher, expliquer.  
+  _↳ feedback if chosen: On ouvre l’échange avant de donner son objet, puis on prend congé._
+- ◻️ Demander, interrompre, oublier son nom.  
+  _↳ feedback if chosen: On ouvre l’échange avant de donner son objet, puis on prend congé._
+- ✅ Saluer, se présenter, donner l’objet, remercier.
+
+Full working after a second miss:
+
+> On ouvre l’échange avant de donner son objet, puis on prend congé.  
+> La réponse est : Saluer, se présenter, donner l’objet, remercier..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-71-etape-1` · Lesson 71 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quel travail Bih prépare-t-elle ? | Un exposé sur les marchés. | Une recette de cuisine. · Un match de football. | Le texte annonce son sujet dès la première phrase. |
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Où travaille-t-elle ? | À la bibliothèque. | Au stade. · Dans un taxi. | Le lieu est donné dans la deuxième phrase. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quel travail Bih prépare-t-elle ?
+
+- ◻️ Un match de football.  
+  _↳ feedback if chosen: Le texte annonce son sujet dès la première phrase._
+- ✅ Un exposé sur les marchés.
+- ◻️ Une recette de cuisine.  
+  _↳ feedback if chosen: Le texte annonce son sujet dès la première phrase._
+
+Full working after a second miss:
+
+> Le texte annonce son sujet dès la première phrase.  
+> La réponse est : Un exposé sur les marchés..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quel travail Bih prépare-t-elle ?
+
+- ◻️ Une recette de cuisine.  
+  _↳ feedback if chosen: Le texte annonce son sujet dès la première phrase._
+- ✅ Un exposé sur les marchés.
+- ◻️ Un match de football.  
+  _↳ feedback if chosen: Le texte annonce son sujet dès la première phrase._
+
+Full working after a second miss:
+
+> Le texte annonce son sujet dès la première phrase.  
+> La réponse est : Un exposé sur les marchés..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Où travaille-t-elle ?
+
+- ◻️ Dans un taxi.  
+  _↳ feedback if chosen: Le lieu est donné dans la deuxième phrase._
+- ✅ À la bibliothèque.
+- ◻️ Au stade.  
+  _↳ feedback if chosen: Le lieu est donné dans la deuxième phrase._
+
+Full working after a second miss:
+
+> Le lieu est donné dans la deuxième phrase.  
+> La réponse est : À la bibliothèque..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
+
+### `fr2-71-etape-2` · Lesson 71 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ? | Le nom de l’auteur et la date. | La couleur de son écran. · Le nombre de publicités. | Ces éléments sont explicitement nommés. |
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ? | Une page n’indique aucune source. | Elle veut changer de sujet. · La bibliothèque est fermée. | L’absence de source est l’obstacle mentionné dans le texte. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?
+
+- ◻️ La couleur de son écran.  
+  _↳ feedback if chosen: Ces éléments sont explicitement nommés._
+- ✅ Le nom de l’auteur et la date.
+- ◻️ Le nombre de publicités.  
+  _↳ feedback if chosen: Ces éléments sont explicitement nommés._
+
+Full working after a second miss:
+
+> Ces éléments sont explicitement nommés.  
+> La réponse est : Le nom de l’auteur et la date..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?
+
+- ✅ Le nom de l’auteur et la date.
+- ◻️ Le nombre de publicités.  
+  _↳ feedback if chosen: Ces éléments sont explicitement nommés._
+- ◻️ La couleur de son écran.  
+  _↳ feedback if chosen: Ces éléments sont explicitement nommés._
+
+Full working after a second miss:
+
+> Ces éléments sont explicitement nommés.  
+> La réponse est : Le nom de l’auteur et la date..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?
+
+- ◻️ Le nombre de publicités.  
+  _↳ feedback if chosen: Ces éléments sont explicitement nommés._
+- ✅ Le nom de l’auteur et la date.
+- ◻️ La couleur de son écran.  
+  _↳ feedback if chosen: Ces éléments sont explicitement nommés._
+
+Full working after a second miss:
+
+> Ces éléments sont explicitement nommés.  
+> La réponse est : Le nom de l’auteur et la date..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
+
+### `fr2-71-etape-3` · Lesson 71 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ? | Il faut vérifier les informations avant de les utiliser. | Toute page en ligne est exacte. · Une publicité remplace une source. | Elle vérifie l’auteur, la date et les sources avant de conserver les informations. |
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ? | Non ; le texte dit seulement qu’elle doit être vérifiée. | Oui, sans autre vérification. · Oui, parce qu’elle est courte. | Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ?
+
+- ◻️ Oui, parce qu’elle est courte.  
+  _↳ feedback if chosen: Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse._
+- ◻️ Oui, sans autre vérification.  
+  _↳ feedback if chosen: Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse._
+- ✅ Non ; le texte dit seulement qu’elle doit être vérifiée.
+
+Full working after a second miss:
+
+> Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse.  
+> La réponse est : Non ; le texte dit seulement qu’elle doit être vérifiée..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?
+
+- ◻️ Une publicité remplace une source.  
+  _↳ feedback if chosen: Elle vérifie l’auteur, la date et les sources avant de conserver les informations._
+- ✅ Il faut vérifier les informations avant de les utiliser.
+- ◻️ Toute page en ligne est exacte.  
+  _↳ feedback if chosen: Elle vérifie l’auteur, la date et les sources avant de conserver les informations._
+
+Full working after a second miss:
+
+> Elle vérifie l’auteur, la date et les sources avant de conserver les informations.  
+> La réponse est : Il faut vérifier les informations avant de les utiliser..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?
+
+- ◻️ Une publicité remplace une source.  
+  _↳ feedback if chosen: Elle vérifie l’auteur, la date et les sources avant de conserver les informations._
+- ✅ Il faut vérifier les informations avant de les utiliser.
+- ◻️ Toute page en ligne est exacte.  
+  _↳ feedback if chosen: Elle vérifie l’auteur, la date et les sources avant de conserver les informations._
+
+Full working after a second miss:
+
+> Elle vérifie l’auteur, la date et les sources avant de conserver les informations.  
+> La réponse est : Il faut vérifier les informations avant de les utiliser..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
+
+### `fr2-71-etape-2-card` · Lesson 71 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ? | Le nom de l’auteur et la date. | La couleur de son écran. · Le nombre de publicités. | Ces éléments sont explicitement nommés. |
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ? | Une page n’indique aucune source. | Elle veut changer de sujet. · La bibliothèque est fermée. | L’absence de source est l’obstacle mentionné dans le texte. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?
+
+- ✅ Une page n’indique aucune source.
+- ◻️ La bibliothèque est fermée.  
+  _↳ feedback if chosen: L’absence de source est l’obstacle mentionné dans le texte._
+- ◻️ Elle veut changer de sujet.  
+  _↳ feedback if chosen: L’absence de source est l’obstacle mentionné dans le texte._
+
+Full working after a second miss:
+
+> L’absence de source est l’obstacle mentionné dans le texte.  
+> La réponse est : Une page n’indique aucune source..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?
+
+- ◻️ La bibliothèque est fermée.  
+  _↳ feedback if chosen: L’absence de source est l’obstacle mentionné dans le texte._
+- ✅ Une page n’indique aucune source.
+- ◻️ Elle veut changer de sujet.  
+  _↳ feedback if chosen: L’absence de source est l’obstacle mentionné dans le texte._
+
+Full working after a second miss:
+
+> L’absence de source est l’obstacle mentionné dans le texte.  
+> La réponse est : Une page n’indique aucune source..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?
+
+- ◻️ Elle veut changer de sujet.  
+  _↳ feedback if chosen: L’absence de source est l’obstacle mentionné dans le texte._
+- ◻️ La bibliothèque est fermée.  
+  _↳ feedback if chosen: L’absence de source est l’obstacle mentionné dans le texte._
+- ✅ Une page n’indique aucune source.
+
+Full working after a second miss:
+
+> L’absence de source est l’obstacle mentionné dans le texte.  
+> La réponse est : Une page n’indique aucune source..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
+
+### `fr2-71-etape-3-card` · Lesson 71 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ? | Il faut vérifier les informations avant de les utiliser. | Toute page en ligne est exacte. · Une publicité remplace une source. | Elle vérifie l’auteur, la date et les sources avant de conserver les informations. |
+| Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ? | Non ; le texte dit seulement qu’elle doit être vérifiée. | Oui, sans autre vérification. · Oui, parce qu’elle est courte. | Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?
+
+- ✅ Il faut vérifier les informations avant de les utiliser.
+- ◻️ Toute page en ligne est exacte.  
+  _↳ feedback if chosen: Elle vérifie l’auteur, la date et les sources avant de conserver les informations._
+- ◻️ Une publicité remplace une source.  
+  _↳ feedback if chosen: Elle vérifie l’auteur, la date et les sources avant de conserver les informations._
+
+Full working after a second miss:
+
+> Elle vérifie l’auteur, la date et les sources avant de conserver les informations.  
+> La réponse est : Il faut vérifier les informations avant de les utiliser..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ?
+
+- ◻️ Oui, parce qu’elle est courte.  
+  _↳ feedback if chosen: Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse._
+- ◻️ Oui, sans autre vérification.  
+  _↳ feedback if chosen: Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse._
+- ✅ Non ; le texte dit seulement qu’elle doit être vérifiée.
+
+Full working after a second miss:
+
+> Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse.  
+> La réponse est : Non ; le texte dit seulement qu’elle doit être vérifiée..  
+
+> Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?
+
+- ◻️ Toute page en ligne est exacte.  
+  _↳ feedback if chosen: Elle vérifie l’auteur, la date et les sources avant de conserver les informations._
+- ◻️ Une publicité remplace une source.  
+  _↳ feedback if chosen: Elle vérifie l’auteur, la date et les sources avant de conserver les informations._
+- ✅ Il faut vérifier les informations avant de les utiliser.
+
+Full working after a second miss:
+
+> Elle vérifie l’auteur, la date et les sources avant de conserver les informations.  
+> La réponse est : Il faut vérifier les informations avant de les utiliser..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
+
+### `fr2-72-etape-1` · Lesson 72 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans « Quelqu’un appelle », quel mot est un pronom indéfini ? | Quelqu’un | appelle · aucun mot | Quelqu’un désigne une personne non identifiée. |
+| Dans « Plusieurs répondent », quel mot remplace des personnes ? | Plusieurs | répondent · la ponctuation | Plusieurs désigne un nombre imprécis de personnes. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Dans « Quelqu’un appelle », quel mot est un pronom indéfini ?
+
+- ◻️ aucun mot  
+  _↳ feedback if chosen: Quelqu’un désigne une personne non identifiée._
+- ✅ Quelqu’un
+- ◻️ appelle  
+  _↳ feedback if chosen: Quelqu’un désigne une personne non identifiée._
+
+Full working after a second miss:
+
+> Quelqu’un désigne une personne non identifiée.  
+> La réponse est : Quelqu’un.  
+
+> Dans « Plusieurs répondent », quel mot remplace des personnes ?
+
+- ✅ Plusieurs
+- ◻️ répondent  
+  _↳ feedback if chosen: Plusieurs désigne un nombre imprécis de personnes._
+- ◻️ la ponctuation  
+  _↳ feedback if chosen: Plusieurs désigne un nombre imprécis de personnes._
+
+Full working after a second miss:
+
+> Plusieurs désigne un nombre imprécis de personnes.  
+> La réponse est : Plusieurs.  
+
+> Dans « Quelqu’un appelle », quel mot est un pronom indéfini ?
+
+- ◻️ aucun mot  
+  _↳ feedback if chosen: Quelqu’un désigne une personne non identifiée._
+- ✅ Quelqu’un
+- ◻️ appelle  
+  _↳ feedback if chosen: Quelqu’un désigne une personne non identifiée._
+
+Full working after a second miss:
+
+> Quelqu’un désigne une personne non identifiée.  
+> La réponse est : Quelqu’un.  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-72-etape-2` · Lesson 72 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Chacun ___ son message. | lit | lisent · lisez | Chacun est singulier : il commande lit. |
+| Complète : Plusieurs ___ au club. | participent | participe · participes | Plusieurs est pluriel : le verbe prend -ent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Chacun ___ son message.
+
+- ◻️ lisent  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+- ◻️ lisez  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+- ✅ lit
+
+Full working after a second miss:
+
+> Chacun est singulier : il commande lit.  
+> La réponse est : lit.  
+
+> Complète : Chacun ___ son message.
+
+- ◻️ lisez  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+- ✅ lit
+- ◻️ lisent  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+
+Full working after a second miss:
+
+> Chacun est singulier : il commande lit.  
+> La réponse est : lit.  
+
+> Complète : Chacun ___ son message.
+
+- ◻️ lisent  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+- ◻️ lisez  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+- ✅ lit
+
+Full working after a second miss:
+
+> Chacun est singulier : il commande lit.  
+> La réponse est : lit.  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-72-etape-3` · Lesson 72 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans quelle phrase « plusieurs » est-il pronom ? | Plusieurs ont répondu. | Plusieurs élèves ont répondu. · Plusieurs messages arrivent. | Employé sans nom après lui, plusieurs remplace un groupe nominal. |
+| Quelle phrase respecte l’accord ? | Chacun prend la parole. | Chacun prennent la parole. · Plusieurs prend la parole. | Chacun est singulier ; plusieurs est pluriel. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase respecte l’accord ?
+
+- ◻️ Chacun prennent la parole.  
+  _↳ feedback if chosen: Chacun est singulier ; plusieurs est pluriel._
+- ✅ Chacun prend la parole.
+- ◻️ Plusieurs prend la parole.  
+  _↳ feedback if chosen: Chacun est singulier ; plusieurs est pluriel._
+
+Full working after a second miss:
+
+> Chacun est singulier ; plusieurs est pluriel.  
+> La réponse est : Chacun prend la parole..  
+
+> Quelle phrase respecte l’accord ?
+
+- ✅ Chacun prend la parole.
+- ◻️ Chacun prennent la parole.  
+  _↳ feedback if chosen: Chacun est singulier ; plusieurs est pluriel._
+- ◻️ Plusieurs prend la parole.  
+  _↳ feedback if chosen: Chacun est singulier ; plusieurs est pluriel._
+
+Full working after a second miss:
+
+> Chacun est singulier ; plusieurs est pluriel.  
+> La réponse est : Chacun prend la parole..  
+
+> Dans quelle phrase « plusieurs » est-il pronom ?
+
+- ◻️ Plusieurs messages arrivent.  
+  _↳ feedback if chosen: Employé sans nom après lui, plusieurs remplace un groupe nominal._
+- ◻️ Plusieurs élèves ont répondu.  
+  _↳ feedback if chosen: Employé sans nom après lui, plusieurs remplace un groupe nominal._
+- ✅ Plusieurs ont répondu.
+
+Full working after a second miss:
+
+> Employé sans nom après lui, plusieurs remplace un groupe nominal.  
+> La réponse est : Plusieurs ont répondu..  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-72-etape-2-card` · Lesson 72 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Chacun ___ son message. | lit | lisent · lisez | Chacun est singulier : il commande lit. |
+| Complète : Plusieurs ___ au club. | participent | participe · participes | Plusieurs est pluriel : le verbe prend -ent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Plusieurs ___ au club.
+
+- ◻️ participes  
+  _↳ feedback if chosen: Plusieurs est pluriel : le verbe prend -ent._
+- ◻️ participe  
+  _↳ feedback if chosen: Plusieurs est pluriel : le verbe prend -ent._
+- ✅ participent
+
+Full working after a second miss:
+
+> Plusieurs est pluriel : le verbe prend -ent.  
+> La réponse est : participent.  
+
+> Complète : Chacun ___ son message.
+
+- ◻️ lisez  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+- ✅ lit
+- ◻️ lisent  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+
+Full working after a second miss:
+
+> Chacun est singulier : il commande lit.  
+> La réponse est : lit.  
+
+> Complète : Chacun ___ son message.
+
+- ✅ lit
+- ◻️ lisez  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+- ◻️ lisent  
+  _↳ feedback if chosen: Chacun est singulier : il commande lit._
+
+Full working after a second miss:
+
+> Chacun est singulier : il commande lit.  
+> La réponse est : lit.  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-72-etape-3-card` · Lesson 72 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans quelle phrase « plusieurs » est-il pronom ? | Plusieurs ont répondu. | Plusieurs élèves ont répondu. · Plusieurs messages arrivent. | Employé sans nom après lui, plusieurs remplace un groupe nominal. |
+| Quelle phrase respecte l’accord ? | Chacun prend la parole. | Chacun prennent la parole. · Plusieurs prend la parole. | Chacun est singulier ; plusieurs est pluriel. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase respecte l’accord ?
+
+- ✅ Chacun prend la parole.
+- ◻️ Plusieurs prend la parole.  
+  _↳ feedback if chosen: Chacun est singulier ; plusieurs est pluriel._
+- ◻️ Chacun prennent la parole.  
+  _↳ feedback if chosen: Chacun est singulier ; plusieurs est pluriel._
+
+Full working after a second miss:
+
+> Chacun est singulier ; plusieurs est pluriel.  
+> La réponse est : Chacun prend la parole..  
+
+> Quelle phrase respecte l’accord ?
+
+- ◻️ Plusieurs prend la parole.  
+  _↳ feedback if chosen: Chacun est singulier ; plusieurs est pluriel._
+- ◻️ Chacun prennent la parole.  
+  _↳ feedback if chosen: Chacun est singulier ; plusieurs est pluriel._
+- ✅ Chacun prend la parole.
+
+Full working after a second miss:
+
+> Chacun est singulier ; plusieurs est pluriel.  
+> La réponse est : Chacun prend la parole..  
+
+> Dans quelle phrase « plusieurs » est-il pronom ?
+
+- ◻️ Plusieurs messages arrivent.  
+  _↳ feedback if chosen: Employé sans nom après lui, plusieurs remplace un groupe nominal._
+- ✅ Plusieurs ont répondu.
+- ◻️ Plusieurs élèves ont répondu.  
+  _↳ feedback if chosen: Employé sans nom après lui, plusieurs remplace un groupe nominal._
+
+Full working after a second miss:
+
+> Employé sans nom après lui, plusieurs remplace un groupe nominal.  
+> La réponse est : Plusieurs ont répondu..  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-73-etape-1` · Lesson 73 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel outil affiche des pages Web ? | Un navigateur. | Une imprimante. · Un haut-parleur. | Le navigateur permet de consulter des pages Web. |
+| Surfer sur le Web, c’est… | passer d’une page à une autre en suivant des liens. | imprimer tous ses fichiers. · éteindre un ordinateur. | Surfer et naviguer décrivent la consultation des pages. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel outil affiche des pages Web ?
+
+- ◻️ Une imprimante.  
+  _↳ feedback if chosen: Le navigateur permet de consulter des pages Web._
+- ◻️ Un haut-parleur.  
+  _↳ feedback if chosen: Le navigateur permet de consulter des pages Web._
+- ✅ Un navigateur.
+
+Full working after a second miss:
+
+> Le navigateur permet de consulter des pages Web.  
+> La réponse est : Un navigateur..  
+
+> Surfer sur le Web, c’est…
+
+- ◻️ éteindre un ordinateur.  
+  _↳ feedback if chosen: Surfer et naviguer décrivent la consultation des pages._
+- ◻️ imprimer tous ses fichiers.  
+  _↳ feedback if chosen: Surfer et naviguer décrivent la consultation des pages._
+- ✅ passer d’une page à une autre en suivant des liens.
+
+Full working after a second miss:
+
+> Surfer et naviguer décrivent la consultation des pages.  
+> La réponse est : passer d’une page à une autre en suivant des liens..  
+
+> Surfer sur le Web, c’est…
+
+- ◻️ éteindre un ordinateur.  
+  _↳ feedback if chosen: Surfer et naviguer décrivent la consultation des pages._
+- ◻️ imprimer tous ses fichiers.  
+  _↳ feedback if chosen: Surfer et naviguer décrivent la consultation des pages._
+- ✅ passer d’une page à une autre en suivant des liens.
+
+Full working after a second miss:
+
+> Surfer et naviguer décrivent la consultation des pages.  
+> La réponse est : passer d’une page à une autre en suivant des liens..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-73-etape-2` · Lesson 73 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un document du site arrive sur ton appareil. Tu viens de… | le télécharger. | le supprimer. · l’imprimer. | Le transfert depuis un service distant vers l’appareil est un téléchargement. |
+| Tu envoies ton fichier vers un espace en ligne. Tu le… | téléverses. | déchires. · photocopies. | Le transfert de l’appareil vers le service distant est un téléversement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un document du site arrive sur ton appareil. Tu viens de…
+
+- ◻️ l’imprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+- ◻️ le supprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+- ✅ le télécharger.
+
+Full working after a second miss:
+
+> Le transfert depuis un service distant vers l’appareil est un téléchargement.  
+> La réponse est : le télécharger..  
+
+> Un document du site arrive sur ton appareil. Tu viens de…
+
+- ✅ le télécharger.
+- ◻️ le supprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+- ◻️ l’imprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+
+Full working after a second miss:
+
+> Le transfert depuis un service distant vers l’appareil est un téléchargement.  
+> La réponse est : le télécharger..  
+
+> Un document du site arrive sur ton appareil. Tu viens de…
+
+- ◻️ le supprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+- ◻️ l’imprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+- ✅ le télécharger.
+
+Full working after a second miss:
+
+> Le transfert depuis un service distant vers l’appareil est un téléchargement.  
+> La réponse est : le télécharger..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-73-etape-3` · Lesson 73 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel choix aide à rechercher un exposé sur les marchés ? | Des mots-clés précis et une vérification des sources. | Changer de page sans rien lire. · Croire la première publicité. | Une recherche utile combine sélection et vérification. |
+| Pourquoi zapper ne suffit-il pas pour préparer un exposé ? | Il faut lire et vérifier les informations retenues. | Une page courte est toujours fausse. · Un navigateur écrit l’exposé à notre place. | Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Pourquoi zapper ne suffit-il pas pour préparer un exposé ?
+
+- ◻️ Une page courte est toujours fausse.  
+  _↳ feedback if chosen: Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité._
+- ◻️ Un navigateur écrit l’exposé à notre place.  
+  _↳ feedback if chosen: Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité._
+- ✅ Il faut lire et vérifier les informations retenues.
+
+Full working after a second miss:
+
+> Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité.  
+> La réponse est : Il faut lire et vérifier les informations retenues..  
+
+> Quel choix aide à rechercher un exposé sur les marchés ?
+
+- ◻️ Croire la première publicité.  
+  _↳ feedback if chosen: Une recherche utile combine sélection et vérification._
+- ◻️ Changer de page sans rien lire.  
+  _↳ feedback if chosen: Une recherche utile combine sélection et vérification._
+- ✅ Des mots-clés précis et une vérification des sources.
+
+Full working after a second miss:
+
+> Une recherche utile combine sélection et vérification.  
+> La réponse est : Des mots-clés précis et une vérification des sources..  
+
+> Quel choix aide à rechercher un exposé sur les marchés ?
+
+- ◻️ Croire la première publicité.  
+  _↳ feedback if chosen: Une recherche utile combine sélection et vérification._
+- ✅ Des mots-clés précis et une vérification des sources.
+- ◻️ Changer de page sans rien lire.  
+  _↳ feedback if chosen: Une recherche utile combine sélection et vérification._
+
+Full working after a second miss:
+
+> Une recherche utile combine sélection et vérification.  
+> La réponse est : Des mots-clés précis et une vérification des sources..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-73-etape-2-card` · Lesson 73 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un document du site arrive sur ton appareil. Tu viens de… | le télécharger. | le supprimer. · l’imprimer. | Le transfert depuis un service distant vers l’appareil est un téléchargement. |
+| Tu envoies ton fichier vers un espace en ligne. Tu le… | téléverses. | déchires. · photocopies. | Le transfert de l’appareil vers le service distant est un téléversement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un document du site arrive sur ton appareil. Tu viens de…
+
+- ✅ le télécharger.
+- ◻️ le supprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+- ◻️ l’imprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+
+Full working after a second miss:
+
+> Le transfert depuis un service distant vers l’appareil est un téléchargement.  
+> La réponse est : le télécharger..  
+
+> Un document du site arrive sur ton appareil. Tu viens de…
+
+- ✅ le télécharger.
+- ◻️ le supprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+- ◻️ l’imprimer.  
+  _↳ feedback if chosen: Le transfert depuis un service distant vers l’appareil est un téléchargement._
+
+Full working after a second miss:
+
+> Le transfert depuis un service distant vers l’appareil est un téléchargement.  
+> La réponse est : le télécharger..  
+
+> Tu envoies ton fichier vers un espace en ligne. Tu le…
+
+- ◻️ photocopies.  
+  _↳ feedback if chosen: Le transfert de l’appareil vers le service distant est un téléversement._
+- ✅ téléverses.
+- ◻️ déchires.  
+  _↳ feedback if chosen: Le transfert de l’appareil vers le service distant est un téléversement._
+
+Full working after a second miss:
+
+> Le transfert de l’appareil vers le service distant est un téléversement.  
+> La réponse est : téléverses..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-73-etape-3-card` · Lesson 73 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel choix aide à rechercher un exposé sur les marchés ? | Des mots-clés précis et une vérification des sources. | Changer de page sans rien lire. · Croire la première publicité. | Une recherche utile combine sélection et vérification. |
+| Pourquoi zapper ne suffit-il pas pour préparer un exposé ? | Il faut lire et vérifier les informations retenues. | Une page courte est toujours fausse. · Un navigateur écrit l’exposé à notre place. | Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel choix aide à rechercher un exposé sur les marchés ?
+
+- ◻️ Croire la première publicité.  
+  _↳ feedback if chosen: Une recherche utile combine sélection et vérification._
+- ✅ Des mots-clés précis et une vérification des sources.
+- ◻️ Changer de page sans rien lire.  
+  _↳ feedback if chosen: Une recherche utile combine sélection et vérification._
+
+Full working after a second miss:
+
+> Une recherche utile combine sélection et vérification.  
+> La réponse est : Des mots-clés précis et une vérification des sources..  
+
+> Pourquoi zapper ne suffit-il pas pour préparer un exposé ?
+
+- ◻️ Un navigateur écrit l’exposé à notre place.  
+  _↳ feedback if chosen: Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité._
+- ✅ Il faut lire et vérifier les informations retenues.
+- ◻️ Une page courte est toujours fausse.  
+  _↳ feedback if chosen: Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité._
+
+Full working after a second miss:
+
+> Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité.  
+> La réponse est : Il faut lire et vérifier les informations retenues..  
+
+> Quel choix aide à rechercher un exposé sur les marchés ?
+
+- ✅ Des mots-clés précis et une vérification des sources.
+- ◻️ Croire la première publicité.  
+  _↳ feedback if chosen: Une recherche utile combine sélection et vérification._
+- ◻️ Changer de page sans rien lire.  
+  _↳ feedback if chosen: Une recherche utile combine sélection et vérification._
+
+Full working after a second miss:
+
+> Une recherche utile combine sélection et vérification.  
+> La réponse est : Des mots-clés précis et une vérification des sources..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-74-emploi` · Lesson 74 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Autrefois, c’était notre habitude. Quelle phrase convient ? | Nous téléphonions le soir. | Nous téléphonerons demain. · Nous téléphonons en ce moment. | L’imparfait convient à une habitude passée. |
+| Le récit décrit le matériel d’autrefois. Quelle phrase convient ? | L’écran était petit. | L’écran sera petit demain. · L’écran est petit aujourd’hui. | Était est l’imparfait de être ; il décrit une situation passée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Autrefois, c’était notre habitude. Quelle phrase convient ?
+
+- ◻️ Nous téléphonons en ce moment.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+- ✅ Nous téléphonions le soir.
+- ◻️ Nous téléphonerons demain.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+
+Full working after a second miss:
+
+> L’imparfait convient à une habitude passée.  
+> La réponse est : Nous téléphonions le soir..  
+
+> Autrefois, c’était notre habitude. Quelle phrase convient ?
+
+- ◻️ Nous téléphonons en ce moment.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+- ✅ Nous téléphonions le soir.
+- ◻️ Nous téléphonerons demain.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+
+Full working after a second miss:
+
+> L’imparfait convient à une habitude passée.  
+> La réponse est : Nous téléphonions le soir..  
+
+> Autrefois, c’était notre habitude. Quelle phrase convient ?
+
+- ◻️ Nous téléphonons en ce moment.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+- ✅ Nous téléphonions le soir.
+- ◻️ Nous téléphonerons demain.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+
+Full working after a second miss:
+
+> L’imparfait convient à une habitude passée.  
+> La réponse est : Nous téléphonions le soir..  
+
+Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
+
+### `fr2-74-emploi-card` · Lesson 74 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Autrefois, c’était notre habitude. Quelle phrase convient ? | Nous téléphonions le soir. | Nous téléphonerons demain. · Nous téléphonons en ce moment. | L’imparfait convient à une habitude passée. |
+| Le récit décrit le matériel d’autrefois. Quelle phrase convient ? | L’écran était petit. | L’écran sera petit demain. · L’écran est petit aujourd’hui. | Était est l’imparfait de être ; il décrit une situation passée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Le récit décrit le matériel d’autrefois. Quelle phrase convient ?
+
+- ◻️ L’écran sera petit demain.  
+  _↳ feedback if chosen: Était est l’imparfait de être ; il décrit une situation passée._
+- ◻️ L’écran est petit aujourd’hui.  
+  _↳ feedback if chosen: Était est l’imparfait de être ; il décrit une situation passée._
+- ✅ L’écran était petit.
+
+Full working after a second miss:
+
+> Était est l’imparfait de être ; il décrit une situation passée.  
+> La réponse est : L’écran était petit..  
+
+> Autrefois, c’était notre habitude. Quelle phrase convient ?
+
+- ◻️ Nous téléphonons en ce moment.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+- ✅ Nous téléphonions le soir.
+- ◻️ Nous téléphonerons demain.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+
+Full working after a second miss:
+
+> L’imparfait convient à une habitude passée.  
+> La réponse est : Nous téléphonions le soir..  
+
+> Autrefois, c’était notre habitude. Quelle phrase convient ?
+
+- ◻️ Nous téléphonons en ce moment.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+- ✅ Nous téléphonions le soir.
+- ◻️ Nous téléphonerons demain.  
+  _↳ feedback if chosen: L’imparfait convient à une habitude passée._
+
+Full working after a second miss:
+
+> L’imparfait convient à une habitude passée.  
+> La réponse est : Nous téléphonions le soir..  
+
+Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
+
+### `fr2-75-etape-1` · Lesson 75 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel mot suit le modèle un ? | brun | pain · nature | Le mot modèle est brun. On observe sa graphie et le son travaillé. |
+| Quel mot appartient à la série étudiée ? | parfum | nature · pain | parfum appartient aux exemples de cette leçon. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel mot suit le modèle un ?
+
+- ✅ brun
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot modèle est brun. On observe sa graphie et le son travaillé._
+- ◻️ pain  
+  _↳ feedback if chosen: Le mot modèle est brun. On observe sa graphie et le son travaillé._
+
+Full working after a second miss:
+
+> Le mot modèle est brun. On observe sa graphie et le son travaillé.  
+> La réponse est : brun.  
+
+> Quel mot suit le modèle un ?
+
+- ◻️ pain  
+  _↳ feedback if chosen: Le mot modèle est brun. On observe sa graphie et le son travaillé._
+- ✅ brun
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot modèle est brun. On observe sa graphie et le son travaillé._
+
+Full working after a second miss:
+
+> Le mot modèle est brun. On observe sa graphie et le son travaillé.  
+> La réponse est : brun.  
+
+> Quel mot appartient à la série étudiée ?
+
+- ◻️ pain  
+  _↳ feedback if chosen: parfum appartient aux exemples de cette leçon._
+- ✅ parfum
+- ◻️ nature  
+  _↳ feedback if chosen: parfum appartient aux exemples de cette leçon._
+
+Full working after a second miss:
+
+> parfum appartient aux exemples de cette leçon.  
+> La réponse est : parfum.  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-75-etape-2` · Lesson 75 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Comment vérifier ta prononciation ? | Avec un enseignant qui écoute ta lecture. | Avec le score écrit seul. · En comptant les lettres. | Un exercice écrit ne permet pas d’évaluer la réalisation d’un son. |
+| Que travaille l’exercice sans audio ? | Le repérage écrit des mots et de leurs graphies. | L’enregistrement de ta voix. · La mesure de ton accent. | L’application ne peut pas entendre le lecteur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que travaille l’exercice sans audio ?
+
+- ✅ Le repérage écrit des mots et de leurs graphies.
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+- ◻️ La mesure de ton accent.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+
+Full working after a second miss:
+
+> L’application ne peut pas entendre le lecteur.  
+> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+
+> Que travaille l’exercice sans audio ?
+
+- ◻️ La mesure de ton accent.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+- ✅ Le repérage écrit des mots et de leurs graphies.
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+
+Full working after a second miss:
+
+> L’application ne peut pas entendre le lecteur.  
+> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+
+> Que travaille l’exercice sans audio ?
+
+- ◻️ La mesure de ton accent.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+- ✅ Le repérage écrit des mots et de leurs graphies.
+
+Full working after a second miss:
+
+> L’application ne peut pas entendre le lecteur.  
+> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-75-etape-3` · Lesson 75 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient seulement des mots étudiés ici ? | brun, parfum | pain, nature · brun, pain | Les exemples retenus sont brun et parfum. |
+| Quel conseil respecte les différences d’accent ? | Demander au professeur le modèle de la classe. | Déclarer faux tout accent différent. · Faire noter sa voix par cet exercice écrit. | Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle série contient seulement des mots étudiés ici ?
+
+- ◻️ brun, pain  
+  _↳ feedback if chosen: Les exemples retenus sont brun et parfum._
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les exemples retenus sont brun et parfum._
+- ✅ brun, parfum
+
+Full working after a second miss:
+
+> Les exemples retenus sont brun et parfum.  
+> La réponse est : brun, parfum.  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+- ✅ Demander au professeur le modèle de la classe.
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+
+Full working after a second miss:
+
+> Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
+> La réponse est : Demander au professeur le modèle de la classe..  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ✅ Demander au professeur le modèle de la classe.
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+
+Full working after a second miss:
+
+> Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
+> La réponse est : Demander au professeur le modèle de la classe..  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-75-etape-2-card` · Lesson 75 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Comment vérifier ta prononciation ? | Avec un enseignant qui écoute ta lecture. | Avec le score écrit seul. · En comptant les lettres. | Un exercice écrit ne permet pas d’évaluer la réalisation d’un son. |
+| Que travaille l’exercice sans audio ? | Le repérage écrit des mots et de leurs graphies. | L’enregistrement de ta voix. · La mesure de ton accent. | L’application ne peut pas entendre le lecteur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que travaille l’exercice sans audio ?
+
+- ◻️ La mesure de ton accent.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+- ✅ Le repérage écrit des mots et de leurs graphies.
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+
+Full working after a second miss:
+
+> L’application ne peut pas entendre le lecteur.  
+> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+
+> Comment vérifier ta prononciation ?
+
+- ◻️ En comptant les lettres.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+- ✅ Avec un enseignant qui écoute ta lecture.
+- ◻️ Avec le score écrit seul.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+
+Full working after a second miss:
+
+> Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
+> La réponse est : Avec un enseignant qui écoute ta lecture..  
+
+> Comment vérifier ta prononciation ?
+
+- ✅ Avec un enseignant qui écoute ta lecture.
+- ◻️ Avec le score écrit seul.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+- ◻️ En comptant les lettres.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+
+Full working after a second miss:
+
+> Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
+> La réponse est : Avec un enseignant qui écoute ta lecture..  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-75-etape-3-card` · Lesson 75 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient seulement des mots étudiés ici ? | brun, parfum | pain, nature · brun, pain | Les exemples retenus sont brun et parfum. |
+| Quel conseil respecte les différences d’accent ? | Demander au professeur le modèle de la classe. | Déclarer faux tout accent différent. · Faire noter sa voix par cet exercice écrit. | Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle série contient seulement des mots étudiés ici ?
+
+- ✅ brun, parfum
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les exemples retenus sont brun et parfum._
+- ◻️ brun, pain  
+  _↳ feedback if chosen: Les exemples retenus sont brun et parfum._
+
+Full working after a second miss:
+
+> Les exemples retenus sont brun et parfum.  
+> La réponse est : brun, parfum.  
+
+> Quelle série contient seulement des mots étudiés ici ?
+
+- ✅ brun, parfum
+- ◻️ brun, pain  
+  _↳ feedback if chosen: Les exemples retenus sont brun et parfum._
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les exemples retenus sont brun et parfum._
+
+Full working after a second miss:
+
+> Les exemples retenus sont brun et parfum.  
+> La réponse est : brun, parfum.  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ✅ Demander au professeur le modèle de la classe.
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+
+Full working after a second miss:
+
+> Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
+> La réponse est : Demander au professeur le modèle de la classe..  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-76-etape-1` · Lesson 76 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Aucun être humain ne répond. Complète : ___ ne répond. | Personne | Rien · Plusieurs | Personne renvoie aux êtres humains ; rien aux choses. |
+| Il n’y a aucune chose à signaler. Complète : Je n’ai ___ à signaler. | rien | personne · chacun | Rien exprime ici l’absence de chose à signaler. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Aucun être humain ne répond. Complète : ___ ne répond.
+
+- ◻️ Plusieurs  
+  _↳ feedback if chosen: Personne renvoie aux êtres humains ; rien aux choses._
+- ◻️ Rien  
+  _↳ feedback if chosen: Personne renvoie aux êtres humains ; rien aux choses._
+- ✅ Personne
+
+Full working after a second miss:
+
+> Personne renvoie aux êtres humains ; rien aux choses.  
+> La réponse est : Personne.  
+
+> Aucun être humain ne répond. Complète : ___ ne répond.
+
+- ◻️ Rien  
+  _↳ feedback if chosen: Personne renvoie aux êtres humains ; rien aux choses._
+- ◻️ Plusieurs  
+  _↳ feedback if chosen: Personne renvoie aux êtres humains ; rien aux choses._
+- ✅ Personne
+
+Full working after a second miss:
+
+> Personne renvoie aux êtres humains ; rien aux choses.  
+> La réponse est : Personne.  
+
+> Il n’y a aucune chose à signaler. Complète : Je n’ai ___ à signaler.
+
+- ✅ rien
+- ◻️ personne  
+  _↳ feedback if chosen: Rien exprime ici l’absence de chose à signaler._
+- ◻️ chacun  
+  _↳ feedback if chosen: Rien exprime ici l’absence de chose à signaler._
+
+Full working after a second miss:
+
+> Rien exprime ici l’absence de chose à signaler.  
+> La réponse est : rien.  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-76-etape-2` · Lesson 76 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase convient à l’écrit scolaire ? | Personne ne répond. | Personne répond. · Personne ne répond pas. | Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas. |
+| Quelle phrase exprime l’absence de changement ? | Rien n’a changé. | Rien a changé. · Rien n’a pas changé. | Rien négatif s’accompagne de ne, élidé devant a. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase convient à l’écrit scolaire ?
+
+- ◻️ Personne répond.  
+  _↳ feedback if chosen: Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas._
+- ✅ Personne ne répond.
+- ◻️ Personne ne répond pas.  
+  _↳ feedback if chosen: Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas._
+
+Full working after a second miss:
+
+> Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas.  
+> La réponse est : Personne ne répond..  
+
+> Quelle phrase convient à l’écrit scolaire ?
+
+- ◻️ Personne ne répond pas.  
+  _↳ feedback if chosen: Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas._
+- ◻️ Personne répond.  
+  _↳ feedback if chosen: Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas._
+- ✅ Personne ne répond.
+
+Full working after a second miss:
+
+> Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas.  
+> La réponse est : Personne ne répond..  
+
+> Quelle phrase convient à l’écrit scolaire ?
+
+- ✅ Personne ne répond.
+- ◻️ Personne répond.  
+  _↳ feedback if chosen: Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas._
+- ◻️ Personne ne répond pas.  
+  _↳ feedback if chosen: Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas._
+
+Full working after a second miss:
+
+> Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas.  
+> La réponse est : Personne ne répond..  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-76-etape-3` · Lesson 76 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans quelle phrase « personne » est-il un nom ? | Une personne attend. | Personne ne parle. · Je ne vois personne. | Le déterminant une introduit ici le nom personne. |
+| Quelle phrase respecte l’accord du sujet ? | Chacune répond à son tour. | Chacune répondent à son tour. · Tous répond à son tour. | Chacune est singulier ; tous sujet pluriel commande répondent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Dans quelle phrase « personne » est-il un nom ?
+
+- ◻️ Je ne vois personne.  
+  _↳ feedback if chosen: Le déterminant une introduit ici le nom personne._
+- ◻️ Personne ne parle.  
+  _↳ feedback if chosen: Le déterminant une introduit ici le nom personne._
+- ✅ Une personne attend.
+
+Full working after a second miss:
+
+> Le déterminant une introduit ici le nom personne.  
+> La réponse est : Une personne attend..  
+
+> Quelle phrase respecte l’accord du sujet ?
+
+- ✅ Chacune répond à son tour.
+- ◻️ Chacune répondent à son tour.  
+  _↳ feedback if chosen: Chacune est singulier ; tous sujet pluriel commande répondent._
+- ◻️ Tous répond à son tour.  
+  _↳ feedback if chosen: Chacune est singulier ; tous sujet pluriel commande répondent._
+
+Full working after a second miss:
+
+> Chacune est singulier ; tous sujet pluriel commande répondent.  
+> La réponse est : Chacune répond à son tour..  
+
+> Dans quelle phrase « personne » est-il un nom ?
+
+- ◻️ Je ne vois personne.  
+  _↳ feedback if chosen: Le déterminant une introduit ici le nom personne._
+- ✅ Une personne attend.
+- ◻️ Personne ne parle.  
+  _↳ feedback if chosen: Le déterminant une introduit ici le nom personne._
+
+Full working after a second miss:
+
+> Le déterminant une introduit ici le nom personne.  
+> La réponse est : Une personne attend..  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-76-etape-2-card` · Lesson 76 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase convient à l’écrit scolaire ? | Personne ne répond. | Personne répond. · Personne ne répond pas. | Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas. |
+| Quelle phrase exprime l’absence de changement ? | Rien n’a changé. | Rien a changé. · Rien n’a pas changé. | Rien négatif s’accompagne de ne, élidé devant a. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase exprime l’absence de changement ?
+
+- ✅ Rien n’a changé.
+- ◻️ Rien n’a pas changé.  
+  _↳ feedback if chosen: Rien négatif s’accompagne de ne, élidé devant a._
+- ◻️ Rien a changé.  
+  _↳ feedback if chosen: Rien négatif s’accompagne de ne, élidé devant a._
+
+Full working after a second miss:
+
+> Rien négatif s’accompagne de ne, élidé devant a.  
+> La réponse est : Rien n’a changé..  
+
+> Quelle phrase convient à l’écrit scolaire ?
+
+- ◻️ Personne répond.  
+  _↳ feedback if chosen: Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas._
+- ◻️ Personne ne répond pas.  
+  _↳ feedback if chosen: Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas._
+- ✅ Personne ne répond.
+
+Full working after a second miss:
+
+> Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas.  
+> La réponse est : Personne ne répond..  
+
+> Quelle phrase exprime l’absence de changement ?
+
+- ◻️ Rien n’a pas changé.  
+  _↳ feedback if chosen: Rien négatif s’accompagne de ne, élidé devant a._
+- ✅ Rien n’a changé.
+- ◻️ Rien a changé.  
+  _↳ feedback if chosen: Rien négatif s’accompagne de ne, élidé devant a._
+
+Full working after a second miss:
+
+> Rien négatif s’accompagne de ne, élidé devant a.  
+> La réponse est : Rien n’a changé..  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-76-etape-3-card` · Lesson 76 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans quelle phrase « personne » est-il un nom ? | Une personne attend. | Personne ne parle. · Je ne vois personne. | Le déterminant une introduit ici le nom personne. |
+| Quelle phrase respecte l’accord du sujet ? | Chacune répond à son tour. | Chacune répondent à son tour. · Tous répond à son tour. | Chacune est singulier ; tous sujet pluriel commande répondent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase respecte l’accord du sujet ?
+
+- ✅ Chacune répond à son tour.
+- ◻️ Tous répond à son tour.  
+  _↳ feedback if chosen: Chacune est singulier ; tous sujet pluriel commande répondent._
+- ◻️ Chacune répondent à son tour.  
+  _↳ feedback if chosen: Chacune est singulier ; tous sujet pluriel commande répondent._
+
+Full working after a second miss:
+
+> Chacune est singulier ; tous sujet pluriel commande répondent.  
+> La réponse est : Chacune répond à son tour..  
+
+> Quelle phrase respecte l’accord du sujet ?
+
+- ◻️ Tous répond à son tour.  
+  _↳ feedback if chosen: Chacune est singulier ; tous sujet pluriel commande répondent._
+- ◻️ Chacune répondent à son tour.  
+  _↳ feedback if chosen: Chacune est singulier ; tous sujet pluriel commande répondent._
+- ✅ Chacune répond à son tour.
+
+Full working after a second miss:
+
+> Chacune est singulier ; tous sujet pluriel commande répondent.  
+> La réponse est : Chacune répond à son tour..  
+
+> Quelle phrase respecte l’accord du sujet ?
+
+- ◻️ Chacune répondent à son tour.  
+  _↳ feedback if chosen: Chacune est singulier ; tous sujet pluriel commande répondent._
+- ✅ Chacune répond à son tour.
+- ◻️ Tous répond à son tour.  
+  _↳ feedback if chosen: Chacune est singulier ; tous sujet pluriel commande répondent._
+
+Full working after a second miss:
+
+> Chacune est singulier ; tous sujet pluriel commande répondent.  
+> La réponse est : Chacune répond à son tour..  
+
+Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
+
+### `fr2-77-etape-1` · Lesson 77 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel signe termine « Bih écrit un message » ? | Un point. | Une virgule. · Une parenthèse seule. | C’est une phrase déclarative complète. |
+| Après un point, comment commence une nouvelle phrase ? | Avec une majuscule. | Toujours avec une virgule. · Sans aucune lettre. | Une nouvelle phrase commence par une majuscule. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel signe termine « Bih écrit un message » ?
+
+- ◻️ Une parenthèse seule.  
+  _↳ feedback if chosen: C’est une phrase déclarative complète._
+- ◻️ Une virgule.  
+  _↳ feedback if chosen: C’est une phrase déclarative complète._
+- ✅ Un point.
+
+Full working after a second miss:
+
+> C’est une phrase déclarative complète.  
+> La réponse est : Un point..  
+
+> Quel signe termine « Bih écrit un message » ?
+
+- ◻️ Une virgule.  
+  _↳ feedback if chosen: C’est une phrase déclarative complète._
+- ◻️ Une parenthèse seule.  
+  _↳ feedback if chosen: C’est une phrase déclarative complète._
+- ✅ Un point.
+
+Full working after a second miss:
+
+> C’est une phrase déclarative complète.  
+> La réponse est : Un point..  
+
+> Quel signe termine « Bih écrit un message » ?
+
+- ◻️ Une parenthèse seule.  
+  _↳ feedback if chosen: C’est une phrase déclarative complète._
+- ✅ Un point.
+- ◻️ Une virgule.  
+  _↳ feedback if chosen: C’est une phrase déclarative complète._
+
+Full working after a second miss:
+
+> C’est une phrase déclarative complète.  
+> La réponse est : Un point..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-77-etape-2` · Lesson 77 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase est bien ponctuée ? | Bih utilise un clavier, une souris et un écran. | Bih, utilise un clavier une souris et un écran. · Bih utilise, un clavier une souris et un écran. | La virgule sépare clavier et souris, sans séparer le sujet du verbe. |
+| Quelle phrase détache correctement le moment ? | Le soir, Bih écrit. | Le soir Bih, écrit. · Le, soir Bih écrit. | Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase détache correctement le moment ?
+
+- ✅ Le soir, Bih écrit.
+- ◻️ Le, soir Bih écrit.  
+  _↳ feedback if chosen: Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit._
+- ◻️ Le soir Bih, écrit.  
+  _↳ feedback if chosen: Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit._
+
+Full working after a second miss:
+
+> Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit.  
+> La réponse est : Le soir, Bih écrit..  
+
+> Quelle phrase est bien ponctuée ?
+
+- ◻️ Bih utilise, un clavier une souris et un écran.  
+  _↳ feedback if chosen: La virgule sépare clavier et souris, sans séparer le sujet du verbe._
+- ◻️ Bih, utilise un clavier une souris et un écran.  
+  _↳ feedback if chosen: La virgule sépare clavier et souris, sans séparer le sujet du verbe._
+- ✅ Bih utilise un clavier, une souris et un écran.
+
+Full working after a second miss:
+
+> La virgule sépare clavier et souris, sans séparer le sujet du verbe.  
+> La réponse est : Bih utilise un clavier, une souris et un écran..  
+
+> Quelle phrase détache correctement le moment ?
+
+- ◻️ Le, soir Bih écrit.  
+  _↳ feedback if chosen: Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit._
+- ◻️ Le soir Bih, écrit.  
+  _↳ feedback if chosen: Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit._
+- ✅ Le soir, Bih écrit.
+
+Full working after a second miss:
+
+> Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit.  
+> La réponse est : Le soir, Bih écrit..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-77-etape-3` · Lesson 77 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ? | Les deux-points. | Un point final seulement. · Une apostrophe. | La liste précise les outils annoncés. |
+| Quelle correction respecte sujet et verbe ? | Nji envoie un message. | Nji, envoie un message. · Nji envoie, un message. | On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ?
+
+- ◻️ Une apostrophe.  
+  _↳ feedback if chosen: La liste précise les outils annoncés._
+- ✅ Les deux-points.
+- ◻️ Un point final seulement.  
+  _↳ feedback if chosen: La liste précise les outils annoncés._
+
+Full working after a second miss:
+
+> La liste précise les outils annoncés.  
+> La réponse est : Les deux-points..  
+
+> Quelle correction respecte sujet et verbe ?
+
+- ◻️ Nji, envoie un message.  
+  _↳ feedback if chosen: On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément._
+- ✅ Nji envoie un message.
+- ◻️ Nji envoie, un message.  
+  _↳ feedback if chosen: On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément._
+
+Full working after a second miss:
+
+> On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément.  
+> La réponse est : Nji envoie un message..  
+
+> Quelle correction respecte sujet et verbe ?
+
+- ◻️ Nji envoie, un message.  
+  _↳ feedback if chosen: On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément._
+- ◻️ Nji, envoie un message.  
+  _↳ feedback if chosen: On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément._
+- ✅ Nji envoie un message.
+
+Full working after a second miss:
+
+> On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément.  
+> La réponse est : Nji envoie un message..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-77-etape-2-card` · Lesson 77 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase est bien ponctuée ? | Bih utilise un clavier, une souris et un écran. | Bih, utilise un clavier une souris et un écran. · Bih utilise, un clavier une souris et un écran. | La virgule sépare clavier et souris, sans séparer le sujet du verbe. |
+| Quelle phrase détache correctement le moment ? | Le soir, Bih écrit. | Le soir Bih, écrit. · Le, soir Bih écrit. | Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase est bien ponctuée ?
+
+- ◻️ Bih, utilise un clavier une souris et un écran.  
+  _↳ feedback if chosen: La virgule sépare clavier et souris, sans séparer le sujet du verbe._
+- ◻️ Bih utilise, un clavier une souris et un écran.  
+  _↳ feedback if chosen: La virgule sépare clavier et souris, sans séparer le sujet du verbe._
+- ✅ Bih utilise un clavier, une souris et un écran.
+
+Full working after a second miss:
+
+> La virgule sépare clavier et souris, sans séparer le sujet du verbe.  
+> La réponse est : Bih utilise un clavier, une souris et un écran..  
+
+> Quelle phrase détache correctement le moment ?
+
+- ◻️ Le, soir Bih écrit.  
+  _↳ feedback if chosen: Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit._
+- ✅ Le soir, Bih écrit.
+- ◻️ Le soir Bih, écrit.  
+  _↳ feedback if chosen: Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit._
+
+Full working after a second miss:
+
+> Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit.  
+> La réponse est : Le soir, Bih écrit..  
+
+> Quelle phrase est bien ponctuée ?
+
+- ◻️ Bih, utilise un clavier une souris et un écran.  
+  _↳ feedback if chosen: La virgule sépare clavier et souris, sans séparer le sujet du verbe._
+- ✅ Bih utilise un clavier, une souris et un écran.
+- ◻️ Bih utilise, un clavier une souris et un écran.  
+  _↳ feedback if chosen: La virgule sépare clavier et souris, sans séparer le sujet du verbe._
+
+Full working after a second miss:
+
+> La virgule sépare clavier et souris, sans séparer le sujet du verbe.  
+> La réponse est : Bih utilise un clavier, une souris et un écran..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-77-etape-3-card` · Lesson 77 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ? | Les deux-points. | Un point final seulement. · Une apostrophe. | La liste précise les outils annoncés. |
+| Quelle correction respecte sujet et verbe ? | Nji envoie un message. | Nji, envoie un message. · Nji envoie, un message. | On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ?
+
+- ✅ Les deux-points.
+- ◻️ Un point final seulement.  
+  _↳ feedback if chosen: La liste précise les outils annoncés._
+- ◻️ Une apostrophe.  
+  _↳ feedback if chosen: La liste précise les outils annoncés._
+
+Full working after a second miss:
+
+> La liste précise les outils annoncés.  
+> La réponse est : Les deux-points..  
+
+> Quelle correction respecte sujet et verbe ?
+
+- ◻️ Nji, envoie un message.  
+  _↳ feedback if chosen: On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément._
+- ✅ Nji envoie un message.
+- ◻️ Nji envoie, un message.  
+  _↳ feedback if chosen: On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément._
+
+Full working after a second miss:
+
+> On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément.  
+> La réponse est : Nji envoie un message..  
+
+> Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ?
+
+- ✅ Les deux-points.
+- ◻️ Une apostrophe.  
+  _↳ feedback if chosen: La liste précise les outils annoncés._
+- ◻️ Un point final seulement.  
+  _↳ feedback if chosen: La liste précise les outils annoncés._
+
+Full working after a second miss:
+
+> La liste précise les outils annoncés.  
+> La réponse est : Les deux-points..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-78-etape-1` · Lesson 78 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel élément est du matériel ? | Un clavier. | Un logiciel de dessin. · Un navigateur. | Le clavier est un objet physique. |
+| Quel élément est un logiciel ? | Un navigateur. | Un écran. · Une souris. | Le navigateur est un programme, contrairement aux objets matériels. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel élément est du matériel ?
+
+- ◻️ Un navigateur.  
+  _↳ feedback if chosen: Le clavier est un objet physique._
+- ◻️ Un logiciel de dessin.  
+  _↳ feedback if chosen: Le clavier est un objet physique._
+- ✅ Un clavier.
+
+Full working after a second miss:
+
+> Le clavier est un objet physique.  
+> La réponse est : Un clavier..  
+
+> Quel élément est un logiciel ?
+
+- ◻️ Une souris.  
+  _↳ feedback if chosen: Le navigateur est un programme, contrairement aux objets matériels._
+- ✅ Un navigateur.
+- ◻️ Un écran.  
+  _↳ feedback if chosen: Le navigateur est un programme, contrairement aux objets matériels._
+
+Full working after a second miss:
+
+> Le navigateur est un programme, contrairement aux objets matériels.  
+> La réponse est : Un navigateur..  
+
+> Quel élément est un logiciel ?
+
+- ◻️ Une souris.  
+  _↳ feedback if chosen: Le navigateur est un programme, contrairement aux objets matériels._
+- ✅ Un navigateur.
+- ◻️ Un écran.  
+  _↳ feedback if chosen: Le navigateur est un programme, contrairement aux objets matériels._
+
+Full working after a second miss:
+
+> Le navigateur est un programme, contrairement aux objets matériels.  
+> La réponse est : Un navigateur..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-78-etape-2` · Lesson 78 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un document ajouté à un courriel est… | une pièce jointe. | un clavier. · un mot de passe. | La pièce jointe est un fichier envoyé avec le message. |
+| Un élément cliquable mène vers une page : c’est… | un lien. | une imprimante. · un microphone. | Le lien permet d’ouvrir une ressource. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un élément cliquable mène vers une page : c’est…
+
+- ◻️ un microphone.  
+  _↳ feedback if chosen: Le lien permet d’ouvrir une ressource._
+- ✅ un lien.
+- ◻️ une imprimante.  
+  _↳ feedback if chosen: Le lien permet d’ouvrir une ressource._
+
+Full working after a second miss:
+
+> Le lien permet d’ouvrir une ressource.  
+> La réponse est : un lien..  
+
+> Un document ajouté à un courriel est…
+
+- ◻️ un clavier.  
+  _↳ feedback if chosen: La pièce jointe est un fichier envoyé avec le message._
+- ◻️ un mot de passe.  
+  _↳ feedback if chosen: La pièce jointe est un fichier envoyé avec le message._
+- ✅ une pièce jointe.
+
+Full working after a second miss:
+
+> La pièce jointe est un fichier envoyé avec le message.  
+> La réponse est : une pièce jointe..  
+
+> Un élément cliquable mène vers une page : c’est…
+
+- ◻️ un microphone.  
+  _↳ feedback if chosen: Le lien permet d’ouvrir une ressource._
+- ✅ un lien.
+- ◻️ une imprimante.  
+  _↳ feedback if chosen: Le lien permet d’ouvrir une ressource._
+
+Full working after a second miss:
+
+> Le lien permet d’ouvrir une ressource.  
+> La réponse est : un lien..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-78-etape-3` · Lesson 78 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Tu veux voir et entendre ton correspondant à distance. Quel terme convient ? | Une visioconférence. | Une photocopie. · Une pièce jointe imprimée. | La visioconférence transmet de l’image et du son. |
+| Un inconnu réclame ton mot de passe. Que faire ? | Ne pas le lui transmettre et demander conseil à un adulte de confiance. | Le publier dans un message public. · L’envoyer pour gagner du temps. | Un mot de passe protège le compte et ne se partage pas avec un inconnu. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un inconnu réclame ton mot de passe. Que faire ?
+
+- ✅ Ne pas le lui transmettre et demander conseil à un adulte de confiance.
+- ◻️ Le publier dans un message public.  
+  _↳ feedback if chosen: Un mot de passe protège le compte et ne se partage pas avec un inconnu._
+- ◻️ L’envoyer pour gagner du temps.  
+  _↳ feedback if chosen: Un mot de passe protège le compte et ne se partage pas avec un inconnu._
+
+Full working after a second miss:
+
+> Un mot de passe protège le compte et ne se partage pas avec un inconnu.  
+> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance..  
+
+> Un inconnu réclame ton mot de passe. Que faire ?
+
+- ◻️ L’envoyer pour gagner du temps.  
+  _↳ feedback if chosen: Un mot de passe protège le compte et ne se partage pas avec un inconnu._
+- ✅ Ne pas le lui transmettre et demander conseil à un adulte de confiance.
+- ◻️ Le publier dans un message public.  
+  _↳ feedback if chosen: Un mot de passe protège le compte et ne se partage pas avec un inconnu._
+
+Full working after a second miss:
+
+> Un mot de passe protège le compte et ne se partage pas avec un inconnu.  
+> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance..  
+
+> Un inconnu réclame ton mot de passe. Que faire ?
+
+- ✅ Ne pas le lui transmettre et demander conseil à un adulte de confiance.
+- ◻️ L’envoyer pour gagner du temps.  
+  _↳ feedback if chosen: Un mot de passe protège le compte et ne se partage pas avec un inconnu._
+- ◻️ Le publier dans un message public.  
+  _↳ feedback if chosen: Un mot de passe protège le compte et ne se partage pas avec un inconnu._
+
+Full working after a second miss:
+
+> Un mot de passe protège le compte et ne se partage pas avec un inconnu.  
+> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-78-etape-2-card` · Lesson 78 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un document ajouté à un courriel est… | une pièce jointe. | un clavier. · un mot de passe. | La pièce jointe est un fichier envoyé avec le message. |
+| Un élément cliquable mène vers une page : c’est… | un lien. | une imprimante. · un microphone. | Le lien permet d’ouvrir une ressource. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un document ajouté à un courriel est…
+
+- ◻️ un mot de passe.  
+  _↳ feedback if chosen: La pièce jointe est un fichier envoyé avec le message._
+- ◻️ un clavier.  
+  _↳ feedback if chosen: La pièce jointe est un fichier envoyé avec le message._
+- ✅ une pièce jointe.
+
+Full working after a second miss:
+
+> La pièce jointe est un fichier envoyé avec le message.  
+> La réponse est : une pièce jointe..  
+
+> Un document ajouté à un courriel est…
+
+- ◻️ un mot de passe.  
+  _↳ feedback if chosen: La pièce jointe est un fichier envoyé avec le message._
+- ◻️ un clavier.  
+  _↳ feedback if chosen: La pièce jointe est un fichier envoyé avec le message._
+- ✅ une pièce jointe.
+
+Full working after a second miss:
+
+> La pièce jointe est un fichier envoyé avec le message.  
+> La réponse est : une pièce jointe..  
+
+> Un élément cliquable mène vers une page : c’est…
+
+- ◻️ un microphone.  
+  _↳ feedback if chosen: Le lien permet d’ouvrir une ressource._
+- ◻️ une imprimante.  
+  _↳ feedback if chosen: Le lien permet d’ouvrir une ressource._
+- ✅ un lien.
+
+Full working after a second miss:
+
+> Le lien permet d’ouvrir une ressource.  
+> La réponse est : un lien..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-78-etape-3-card` · Lesson 78 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Tu veux voir et entendre ton correspondant à distance. Quel terme convient ? | Une visioconférence. | Une photocopie. · Une pièce jointe imprimée. | La visioconférence transmet de l’image et du son. |
+| Un inconnu réclame ton mot de passe. Que faire ? | Ne pas le lui transmettre et demander conseil à un adulte de confiance. | Le publier dans un message public. · L’envoyer pour gagner du temps. | Un mot de passe protège le compte et ne se partage pas avec un inconnu. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Tu veux voir et entendre ton correspondant à distance. Quel terme convient ?
+
+- ✅ Une visioconférence.
+- ◻️ Une photocopie.  
+  _↳ feedback if chosen: La visioconférence transmet de l’image et du son._
+- ◻️ Une pièce jointe imprimée.  
+  _↳ feedback if chosen: La visioconférence transmet de l’image et du son._
+
+Full working after a second miss:
+
+> La visioconférence transmet de l’image et du son.  
+> La réponse est : Une visioconférence..  
+
+> Un inconnu réclame ton mot de passe. Que faire ?
+
+- ◻️ L’envoyer pour gagner du temps.  
+  _↳ feedback if chosen: Un mot de passe protège le compte et ne se partage pas avec un inconnu._
+- ◻️ Le publier dans un message public.  
+  _↳ feedback if chosen: Un mot de passe protège le compte et ne se partage pas avec un inconnu._
+- ✅ Ne pas le lui transmettre et demander conseil à un adulte de confiance.
+
+Full working after a second miss:
+
+> Un mot de passe protège le compte et ne se partage pas avec un inconnu.  
+> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance..  
+
+> Tu veux voir et entendre ton correspondant à distance. Quel terme convient ?
+
+- ◻️ Une pièce jointe imprimée.  
+  _↳ feedback if chosen: La visioconférence transmet de l’image et du son._
+- ◻️ Une photocopie.  
+  _↳ feedback if chosen: La visioconférence transmet de l’image et du son._
+- ✅ Une visioconférence.
+
+Full working after a second miss:
+
+> La visioconférence transmet de l’image et du son.  
+> La réponse est : Une visioconférence..  
+
+Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
+
+### `fr2-79-etape-1` · Lesson 79 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel mot suit le modèle vin ? | pain | nature · navire | Le mot modèle est pain. On observe sa graphie et le son travaillé. |
+| Quel mot appartient à la série étudiée ? | matin | navire · nature | matin appartient aux exemples de cette leçon. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel mot suit le modèle vin ?
+
+- ◻️ navire  
+  _↳ feedback if chosen: Le mot modèle est pain. On observe sa graphie et le son travaillé._
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot modèle est pain. On observe sa graphie et le son travaillé._
+- ✅ pain
+
+Full working after a second miss:
+
+> Le mot modèle est pain. On observe sa graphie et le son travaillé.  
+> La réponse est : pain.  
+
+> Quel mot suit le modèle vin ?
+
+- ◻️ navire  
+  _↳ feedback if chosen: Le mot modèle est pain. On observe sa graphie et le son travaillé._
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot modèle est pain. On observe sa graphie et le son travaillé._
+- ✅ pain
+
+Full working after a second miss:
+
+> Le mot modèle est pain. On observe sa graphie et le son travaillé.  
+> La réponse est : pain.  
+
+> Quel mot appartient à la série étudiée ?
+
+- ◻️ nature  
+  _↳ feedback if chosen: matin appartient aux exemples de cette leçon._
+- ✅ matin
+- ◻️ navire  
+  _↳ feedback if chosen: matin appartient aux exemples de cette leçon._
+
+Full working after a second miss:
+
+> matin appartient aux exemples de cette leçon.  
+> La réponse est : matin.  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-79-etape-2` · Lesson 79 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Comment vérifier ta prononciation ? | Avec un enseignant qui écoute ta lecture. | Avec le score écrit seul. · En comptant les lettres. | Un exercice écrit ne permet pas d’évaluer la réalisation d’un son. |
+| Que travaille l’exercice sans audio ? | Le repérage écrit des mots et de leurs graphies. | L’enregistrement de ta voix. · La mesure de ton accent. | L’application ne peut pas entendre le lecteur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Comment vérifier ta prononciation ?
+
+- ◻️ Avec le score écrit seul.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+- ✅ Avec un enseignant qui écoute ta lecture.
+- ◻️ En comptant les lettres.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+
+Full working after a second miss:
+
+> Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
+> La réponse est : Avec un enseignant qui écoute ta lecture..  
+
+> Comment vérifier ta prononciation ?
+
+- ◻️ En comptant les lettres.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+- ✅ Avec un enseignant qui écoute ta lecture.
+- ◻️ Avec le score écrit seul.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+
+Full working after a second miss:
+
+> Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
+> La réponse est : Avec un enseignant qui écoute ta lecture..  
+
+> Comment vérifier ta prononciation ?
+
+- ✅ Avec un enseignant qui écoute ta lecture.
+- ◻️ En comptant les lettres.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+- ◻️ Avec le score écrit seul.  
+  _↳ feedback if chosen: Un exercice écrit ne permet pas d’évaluer la réalisation d’un son._
+
+Full working after a second miss:
+
+> Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
+> La réponse est : Avec un enseignant qui écoute ta lecture..  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-79-etape-3` · Lesson 79 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient seulement des mots étudiés ici ? | pain, matin | nature, navire · pain, nature | Les exemples retenus sont pain et matin. |
+| Quel conseil respecte les différences d’accent ? | Demander au professeur le modèle de la classe. | Déclarer faux tout accent différent. · Faire noter sa voix par cet exercice écrit. | Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel conseil respecte les différences d’accent ?
+
+- ✅ Demander au professeur le modèle de la classe.
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+
+Full working after a second miss:
+
+> Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
+> La réponse est : Demander au professeur le modèle de la classe..  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+- ✅ Demander au professeur le modèle de la classe.
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit._
+
+Full working after a second miss:
+
+> Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
+> La réponse est : Demander au professeur le modèle de la classe..  
+
+> Quelle série contient seulement des mots étudiés ici ?
+
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les exemples retenus sont pain et matin._
+- ✅ pain, matin
+- ◻️ nature, navire  
+  _↳ feedback if chosen: Les exemples retenus sont pain et matin._
+
+Full working after a second miss:
+
+> Les exemples retenus sont pain et matin.  
+> La réponse est : pain, matin.  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-79-etape-2-card` · Lesson 79 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Comment vérifier ta prononciation ? | Avec un enseignant qui écoute ta lecture. | Avec le score écrit seul. · En comptant les lettres. | Un exercice écrit ne permet pas d’évaluer la réalisation d’un son. |
+| Que travaille l’exercice sans audio ? | Le repérage écrit des mots et de leurs graphies. | L’enregistrement de ta voix. · La mesure de ton accent. | L’application ne peut pas entendre le lecteur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que travaille l’exercice sans audio ?
+
+- ✅ Le repérage écrit des mots et de leurs graphies.
+- ◻️ La mesure de ton accent.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+
+Full working after a second miss:
+
+> L’application ne peut pas entendre le lecteur.  
+> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+
+> Que travaille l’exercice sans audio ?
+
+- ✅ Le repérage écrit des mots et de leurs graphies.
+- ◻️ La mesure de ton accent.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+
+Full working after a second miss:
+
+> L’application ne peut pas entendre le lecteur.  
+> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+
+> Que travaille l’exercice sans audio ?
+
+- ✅ Le repérage écrit des mots et de leurs graphies.
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+- ◻️ La mesure de ton accent.  
+  _↳ feedback if chosen: L’application ne peut pas entendre le lecteur._
+
+Full working after a second miss:
+
+> L’application ne peut pas entendre le lecteur.  
+> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-79-etape-3-card` · Lesson 79 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient seulement des mots étudiés ici ? | pain, matin | nature, navire · pain, nature | Les exemples retenus sont pain et matin. |
+| Quel conseil respecte les différences d’accent ? | Demander au professeur le modèle de la classe. | Déclarer faux tout accent différent. · Faire noter sa voix par cet exercice écrit. | Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle série contient seulement des mots étudiés ici ?
+
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les exemples retenus sont pain et matin._
+- ◻️ nature, navire  
+  _↳ feedback if chosen: Les exemples retenus sont pain et matin._
+- ✅ pain, matin
+
+Full working after a second miss:
+
+> Les exemples retenus sont pain et matin.  
+> La réponse est : pain, matin.  
+
+> Quelle série contient seulement des mots étudiés ici ?
+
+- ◻️ nature, navire  
+  _↳ feedback if chosen: Les exemples retenus sont pain et matin._
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les exemples retenus sont pain et matin._
+- ✅ pain, matin
+
+Full working after a second miss:
+
+> Les exemples retenus sont pain et matin.  
+> La réponse est : pain, matin.  
+
+> Quelle série contient seulement des mots étudiés ici ?
+
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les exemples retenus sont pain et matin._
+- ◻️ nature, navire  
+  _↳ feedback if chosen: Les exemples retenus sont pain et matin._
+- ✅ pain, matin
+
+Full working after a second miss:
+
+> Les exemples retenus sont pain et matin.  
+> La réponse est : pain, matin.  
+
+Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
+
+### `fr2-80-emploi` · Lesson 80 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| En ce moment, Bih fait cette action. Quelle phrase est au présent ? | Bih écrit un message. | Bih écrivait un message. · Bih écrira un message. | Écrit est au présent ; écrivait est à l’imparfait et écrira au futur. |
+| Quelle phrase exprime une habitude au présent ? | Chaque matin, nous lisons les nouvelles. | Hier, nous avons lu les nouvelles. · Demain, nous lirons les nouvelles. | Lisons est au présent et chaque matin indique une habitude. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase exprime une habitude au présent ?
+
+- ✅ Chaque matin, nous lisons les nouvelles.
+- ◻️ Hier, nous avons lu les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+- ◻️ Demain, nous lirons les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+
+Full working after a second miss:
+
+> Lisons est au présent et chaque matin indique une habitude.  
+> La réponse est : Chaque matin, nous lisons les nouvelles..  
+
+> Quelle phrase exprime une habitude au présent ?
+
+- ◻️ Hier, nous avons lu les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+- ◻️ Demain, nous lirons les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+- ✅ Chaque matin, nous lisons les nouvelles.
+
+Full working after a second miss:
+
+> Lisons est au présent et chaque matin indique une habitude.  
+> La réponse est : Chaque matin, nous lisons les nouvelles..  
+
+> En ce moment, Bih fait cette action. Quelle phrase est au présent ?
+
+- ✅ Bih écrit un message.
+- ◻️ Bih écrira un message.  
+  _↳ feedback if chosen: Écrit est au présent ; écrivait est à l’imparfait et écrira au futur._
+- ◻️ Bih écrivait un message.  
+  _↳ feedback if chosen: Écrit est au présent ; écrivait est à l’imparfait et écrira au futur._
+
+Full working after a second miss:
+
+> Écrit est au présent ; écrivait est à l’imparfait et écrira au futur.  
+> La réponse est : Bih écrit un message..  
+
+Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
+
+### `fr2-80-emploi-card` · Lesson 80 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| En ce moment, Bih fait cette action. Quelle phrase est au présent ? | Bih écrit un message. | Bih écrivait un message. · Bih écrira un message. | Écrit est au présent ; écrivait est à l’imparfait et écrira au futur. |
+| Quelle phrase exprime une habitude au présent ? | Chaque matin, nous lisons les nouvelles. | Hier, nous avons lu les nouvelles. · Demain, nous lirons les nouvelles. | Lisons est au présent et chaque matin indique une habitude. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase exprime une habitude au présent ?
+
+- ✅ Chaque matin, nous lisons les nouvelles.
+- ◻️ Demain, nous lirons les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+- ◻️ Hier, nous avons lu les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+
+Full working after a second miss:
+
+> Lisons est au présent et chaque matin indique une habitude.  
+> La réponse est : Chaque matin, nous lisons les nouvelles..  
+
+> Quelle phrase exprime une habitude au présent ?
+
+- ✅ Chaque matin, nous lisons les nouvelles.
+- ◻️ Hier, nous avons lu les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+- ◻️ Demain, nous lirons les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+
+Full working after a second miss:
+
+> Lisons est au présent et chaque matin indique une habitude.  
+> La réponse est : Chaque matin, nous lisons les nouvelles..  
+
+> Quelle phrase exprime une habitude au présent ?
+
+- ✅ Chaque matin, nous lisons les nouvelles.
+- ◻️ Hier, nous avons lu les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+- ◻️ Demain, nous lirons les nouvelles.  
+  _↳ feedback if chosen: Lisons est au présent et chaque matin indique une habitude._
+
+Full working after a second miss:
+
+> Lisons est au présent et chaque matin indique une habitude.  
+> La réponse est : Chaque matin, nous lisons les nouvelles..  
+
+Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
+
+### `fr2-81-etape-1` · Lesson 81 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel début annonce un paragraphe sur une recherche ? | Je cherche des informations pour mon exposé. | Le ballon est rouge. · Mon repas est prêt. | Le début annonce le sujet de la recherche. |
+| Quel détail reste dans ce sujet ? | Je choisis des mots-clés précis. | Le gardien arrête un but. · Le riz cuit dans la marmite. | Les mots-clés concernent la recherche annoncée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel détail reste dans ce sujet ?
+
+- ◻️ Le riz cuit dans la marmite.  
+  _↳ feedback if chosen: Les mots-clés concernent la recherche annoncée._
+- ◻️ Le gardien arrête un but.  
+  _↳ feedback if chosen: Les mots-clés concernent la recherche annoncée._
+- ✅ Je choisis des mots-clés précis.
+
+Full working after a second miss:
+
+> Les mots-clés concernent la recherche annoncée.  
+> La réponse est : Je choisis des mots-clés précis..  
+
+> Quel détail reste dans ce sujet ?
+
+- ✅ Je choisis des mots-clés précis.
+- ◻️ Le riz cuit dans la marmite.  
+  _↳ feedback if chosen: Les mots-clés concernent la recherche annoncée._
+- ◻️ Le gardien arrête un but.  
+  _↳ feedback if chosen: Les mots-clés concernent la recherche annoncée._
+
+Full working after a second miss:
+
+> Les mots-clés concernent la recherche annoncée.  
+> La réponse est : Je choisis des mots-clés précis..  
+
+> Quel détail reste dans ce sujet ?
+
+- ◻️ Le gardien arrête un but.  
+  _↳ feedback if chosen: Les mots-clés concernent la recherche annoncée._
+- ◻️ Le riz cuit dans la marmite.  
+  _↳ feedback if chosen: Les mots-clés concernent la recherche annoncée._
+- ✅ Je choisis des mots-clés précis.
+
+Full working after a second miss:
+
+> Les mots-clés concernent la recherche annoncée.  
+> La réponse est : Je choisis des mots-clés précis..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-81-etape-2` · Lesson 81 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel mot annonce la première étape ? | D’abord | Enfin · Cependant | D’abord introduit le commencement. |
+| Quelle suite est logique ? | Chercher, vérifier, rédiger. | Rédiger sans lire, puis inventer une source. · Conclure avant de choisir son sujet. | On rassemble et vérifie les informations avant de rédiger. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel mot annonce la première étape ?
+
+- ◻️ Enfin  
+  _↳ feedback if chosen: D’abord introduit le commencement._
+- ◻️ Cependant  
+  _↳ feedback if chosen: D’abord introduit le commencement._
+- ✅ D’abord
+
+Full working after a second miss:
+
+> D’abord introduit le commencement.  
+> La réponse est : D’abord.  
+
+> Quelle suite est logique ?
+
+- ◻️ Rédiger sans lire, puis inventer une source.  
+  _↳ feedback if chosen: On rassemble et vérifie les informations avant de rédiger._
+- ✅ Chercher, vérifier, rédiger.
+- ◻️ Conclure avant de choisir son sujet.  
+  _↳ feedback if chosen: On rassemble et vérifie les informations avant de rédiger._
+
+Full working after a second miss:
+
+> On rassemble et vérifie les informations avant de rédiger.  
+> La réponse est : Chercher, vérifier, rédiger..  
+
+> Quel mot annonce la première étape ?
+
+- ◻️ Enfin  
+  _↳ feedback if chosen: D’abord introduit le commencement._
+- ◻️ Cependant  
+  _↳ feedback if chosen: D’abord introduit le commencement._
+- ✅ D’abord
+
+Full working after a second miss:
+
+> D’abord introduit le commencement.  
+> La réponse est : D’abord.  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-81-etape-3` · Lesson 81 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase conclut utilement ? | Enfin, je rédige avec les informations vérifiées. | Mon ballon est neuf. · Je change de sujet à chaque phrase. | Cette conclusion reprend le but de la recherche. |
+| Que vérifier à la relecture ? | Le lien des idées, les accords et la ponctuation. | Seulement le nombre de pages. · Seulement la couleur du stylo. | La qualité du paragraphe dépend de sa cohérence et de sa correction. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que vérifier à la relecture ?
+
+- ◻️ Seulement le nombre de pages.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+- ◻️ Seulement la couleur du stylo.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+- ✅ Le lien des idées, les accords et la ponctuation.
+
+Full working after a second miss:
+
+> La qualité du paragraphe dépend de sa cohérence et de sa correction.  
+> La réponse est : Le lien des idées, les accords et la ponctuation..  
+
+> Que vérifier à la relecture ?
+
+- ◻️ Seulement le nombre de pages.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+- ✅ Le lien des idées, les accords et la ponctuation.
+- ◻️ Seulement la couleur du stylo.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+
+Full working after a second miss:
+
+> La qualité du paragraphe dépend de sa cohérence et de sa correction.  
+> La réponse est : Le lien des idées, les accords et la ponctuation..  
+
+> Quelle phrase conclut utilement ?
+
+- ✅ Enfin, je rédige avec les informations vérifiées.
+- ◻️ Mon ballon est neuf.  
+  _↳ feedback if chosen: Cette conclusion reprend le but de la recherche._
+- ◻️ Je change de sujet à chaque phrase.  
+  _↳ feedback if chosen: Cette conclusion reprend le but de la recherche._
+
+Full working after a second miss:
+
+> Cette conclusion reprend le but de la recherche.  
+> La réponse est : Enfin, je rédige avec les informations vérifiées..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-81-etape-2-card` · Lesson 81 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel mot annonce la première étape ? | D’abord | Enfin · Cependant | D’abord introduit le commencement. |
+| Quelle suite est logique ? | Chercher, vérifier, rédiger. | Rédiger sans lire, puis inventer une source. · Conclure avant de choisir son sujet. | On rassemble et vérifie les informations avant de rédiger. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle suite est logique ?
+
+- ◻️ Rédiger sans lire, puis inventer une source.  
+  _↳ feedback if chosen: On rassemble et vérifie les informations avant de rédiger._
+- ✅ Chercher, vérifier, rédiger.
+- ◻️ Conclure avant de choisir son sujet.  
+  _↳ feedback if chosen: On rassemble et vérifie les informations avant de rédiger._
+
+Full working after a second miss:
+
+> On rassemble et vérifie les informations avant de rédiger.  
+> La réponse est : Chercher, vérifier, rédiger..  
+
+> Quelle suite est logique ?
+
+- ✅ Chercher, vérifier, rédiger.
+- ◻️ Rédiger sans lire, puis inventer une source.  
+  _↳ feedback if chosen: On rassemble et vérifie les informations avant de rédiger._
+- ◻️ Conclure avant de choisir son sujet.  
+  _↳ feedback if chosen: On rassemble et vérifie les informations avant de rédiger._
+
+Full working after a second miss:
+
+> On rassemble et vérifie les informations avant de rédiger.  
+> La réponse est : Chercher, vérifier, rédiger..  
+
+> Quel mot annonce la première étape ?
+
+- ✅ D’abord
+- ◻️ Cependant  
+  _↳ feedback if chosen: D’abord introduit le commencement._
+- ◻️ Enfin  
+  _↳ feedback if chosen: D’abord introduit le commencement._
+
+Full working after a second miss:
+
+> D’abord introduit le commencement.  
+> La réponse est : D’abord.  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
+
+### `fr2-81-etape-3-card` · Lesson 81 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase conclut utilement ? | Enfin, je rédige avec les informations vérifiées. | Mon ballon est neuf. · Je change de sujet à chaque phrase. | Cette conclusion reprend le but de la recherche. |
+| Que vérifier à la relecture ? | Le lien des idées, les accords et la ponctuation. | Seulement le nombre de pages. · Seulement la couleur du stylo. | La qualité du paragraphe dépend de sa cohérence et de sa correction. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que vérifier à la relecture ?
+
+- ◻️ Seulement le nombre de pages.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+- ◻️ Seulement la couleur du stylo.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+- ✅ Le lien des idées, les accords et la ponctuation.
+
+Full working after a second miss:
+
+> La qualité du paragraphe dépend de sa cohérence et de sa correction.  
+> La réponse est : Le lien des idées, les accords et la ponctuation..  
+
+> Que vérifier à la relecture ?
+
+- ✅ Le lien des idées, les accords et la ponctuation.
+- ◻️ Seulement la couleur du stylo.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+- ◻️ Seulement le nombre de pages.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+
+Full working after a second miss:
+
+> La qualité du paragraphe dépend de sa cohérence et de sa correction.  
+> La réponse est : Le lien des idées, les accords et la ponctuation..  
+
+> Que vérifier à la relecture ?
+
+- ◻️ Seulement le nombre de pages.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+- ◻️ Seulement la couleur du stylo.  
+  _↳ feedback if chosen: La qualité du paragraphe dépend de sa cohérence et de sa correction._
+- ✅ Le lien des idées, les accords et la ponctuation.
+
+Full working after a second miss:
+
+> La qualité du paragraphe dépend de sa cohérence et de sa correction.  
+> La réponse est : Le lien des idées, les accords et la ponctuation..  
+
+Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 

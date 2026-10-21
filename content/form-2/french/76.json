@@ -1,0 +1,375 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 76,
+ "language": "fr",
+ "prerequisites": [
+  72
+ ],
+ "skills": [
+  {
+   "id": "fr2-76",
+   "name": "Personne, rien, chacun : emploi des pronoms indéfinis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans une phrase déclarative négative à l’écrit, personne et rien s’emploient normalement avec ne, sans pas : Personne ne répond. Je ne vois rien. Rien n’a changé.\nPersonne désigne ici l’absence de personne ; rien désigne l’absence de chose. On distingue le pronom personne du nom une personne. Chacun et chacune sont singuliers ; tous et toutes peuvent être des sujets pluriels. Ces règles concernent les exemples affirmés ou niés de la leçon, pas tous les emplois possibles de ces mots.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelle phrase convient à l’écrit scolaire ?",
+  "steps": [
+   "À l’écrit, garde ne avec ces pronoms négatifs.",
+   "Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas."
+  ],
+  "answer": "Personne ne répond.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c76-1",
+    "status": "draft",
+    "idea": "Personne et rien ne désignent pas la même chose.",
+    "vars": {},
+    "example": [
+     "Personne n’appelle ; je ne vois rien."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-76-etape-1"
+    }
+   },
+   {
+    "id": "c76-2",
+    "status": "draft",
+    "idea": "À l’écrit, garde ne avec ces pronoms négatifs.",
+    "vars": {},
+    "example": [
+     "Personne ne répond."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-76-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase convient à l’écrit scolaire ?",
+         "r": "Personne ne répond.",
+         "w": [
+          "Personne répond.",
+          "Personne ne répond pas."
+         ],
+         "y": "Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas."
+        },
+        {
+         "q": "Quelle phrase exprime l’absence de changement ?",
+         "r": "Rien n’a changé.",
+         "w": [
+          "Rien a changé.",
+          "Rien n’a pas changé."
+         ],
+         "y": "Rien négatif s’accompagne de ne, élidé devant a."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c76-3",
+    "status": "draft",
+    "idea": "Reconnais la fonction du mot dans la phrase.",
+    "vars": {},
+    "example": [
+     "Une personne arrive : personne est un nom."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-76-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans quelle phrase « personne » est-il un nom ?",
+         "r": "Une personne attend.",
+         "w": [
+          "Personne ne parle.",
+          "Je ne vois personne."
+         ],
+         "y": "Le déterminant une introduit ici le nom personne."
+        },
+        {
+         "q": "Quelle phrase respecte l’accord du sujet ?",
+         "r": "Chacune répond à son tour.",
+         "w": [
+          "Chacune répondent à son tour.",
+          "Tous répond à son tour."
+         ],
+         "y": "Chacune est singulier ; tous sujet pluriel commande répondent."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-76-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Aucun être humain ne répond. Complète : ___ ne répond.",
+       "r": "Personne",
+       "w": [
+        "Rien",
+        "Plusieurs"
+       ],
+       "y": "Personne renvoie aux êtres humains ; rien aux choses."
+      },
+      {
+       "q": "Il n’y a aucune chose à signaler. Complète : Je n’ai ___ à signaler.",
+       "r": "rien",
+       "w": [
+        "personne",
+        "chacun"
+       ],
+       "y": "Rien exprime ici l’absence de chose à signaler."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-76-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase convient à l’écrit scolaire ?",
+       "r": "Personne ne répond.",
+       "w": [
+        "Personne répond.",
+        "Personne ne répond pas."
+       ],
+       "y": "Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas."
+      },
+      {
+       "q": "Quelle phrase exprime l’absence de changement ?",
+       "r": "Rien n’a changé.",
+       "w": [
+        "Rien a changé.",
+        "Rien n’a pas changé."
+       ],
+       "y": "Rien négatif s’accompagne de ne, élidé devant a."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-76-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quelle phrase « personne » est-il un nom ?",
+       "r": "Une personne attend.",
+       "w": [
+        "Personne ne parle.",
+        "Je ne vois personne."
+       ],
+       "y": "Le déterminant une introduit ici le nom personne."
+      },
+      {
+       "q": "Quelle phrase respecte l’accord du sujet ?",
+       "r": "Chacune répond à son tour.",
+       "w": [
+        "Chacune répondent à son tour.",
+        "Tous répond à son tour."
+       ],
+       "y": "Chacune est singulier ; tous sujet pluriel commande répondent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

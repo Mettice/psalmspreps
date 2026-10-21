@@ -1,0 +1,373 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 78,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-78",
+   "name": "Le vocabulaire des TIC"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les TIC sont les technologies de l’information et de la communication. Le matériel comprend les objets physiques : ordinateur, clavier, écran. Un logiciel est un programme. Le courriel est un message électronique. Une pièce jointe est un fichier ajouté au message. Un lien mène vers une ressource. Un mot de passe protège l’accès à un compte ; on ne le communique pas à un interlocuteur inconnu. Une visioconférence permet de se voir et de se parler à distance.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un document ajouté à un courriel est…",
+  "steps": [
+   "Une pièce jointe accompagne un courriel.",
+   "La pièce jointe est un fichier envoyé avec le message."
+  ],
+  "answer": "une pièce jointe.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c78-1",
+    "status": "draft",
+    "idea": "Distingue matériel et logiciel.",
+    "vars": {},
+    "example": [
+     "Le clavier est un objet ; le navigateur est un programme."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-78-etape-1"
+    }
+   },
+   {
+    "id": "c78-2",
+    "status": "draft",
+    "idea": "Une pièce jointe accompagne un courriel.",
+    "vars": {},
+    "example": [
+     "J’ajoute un document au message."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-78-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Un document ajouté à un courriel est…",
+         "r": "une pièce jointe.",
+         "w": [
+          "un clavier.",
+          "un mot de passe."
+         ],
+         "y": "La pièce jointe est un fichier envoyé avec le message."
+        },
+        {
+         "q": "Un élément cliquable mène vers une page : c’est…",
+         "r": "un lien.",
+         "w": [
+          "une imprimante.",
+          "un microphone."
+         ],
+         "y": "Le lien permet d’ouvrir une ressource."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c78-3",
+    "status": "draft",
+    "idea": "Choisis le mot qui convient à la situation.",
+    "vars": {},
+    "example": [
+     "Pour voir mon correspondant, j’utilise une visioconférence."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-78-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Tu veux voir et entendre ton correspondant à distance. Quel terme convient ?",
+         "r": "Une visioconférence.",
+         "w": [
+          "Une photocopie.",
+          "Une pièce jointe imprimée."
+         ],
+         "y": "La visioconférence transmet de l’image et du son."
+        },
+        {
+         "q": "Un inconnu réclame ton mot de passe. Que faire ?",
+         "r": "Ne pas le lui transmettre et demander conseil à un adulte de confiance.",
+         "w": [
+          "Le publier dans un message public.",
+          "L’envoyer pour gagner du temps."
+         ],
+         "y": "Un mot de passe protège le compte et ne se partage pas avec un inconnu."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-78-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel élément est du matériel ?",
+       "r": "Un clavier.",
+       "w": [
+        "Un logiciel de dessin.",
+        "Un navigateur."
+       ],
+       "y": "Le clavier est un objet physique."
+      },
+      {
+       "q": "Quel élément est un logiciel ?",
+       "r": "Un navigateur.",
+       "w": [
+        "Un écran.",
+        "Une souris."
+       ],
+       "y": "Le navigateur est un programme, contrairement aux objets matériels."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-78-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un document ajouté à un courriel est…",
+       "r": "une pièce jointe.",
+       "w": [
+        "un clavier.",
+        "un mot de passe."
+       ],
+       "y": "La pièce jointe est un fichier envoyé avec le message."
+      },
+      {
+       "q": "Un élément cliquable mène vers une page : c’est…",
+       "r": "un lien.",
+       "w": [
+        "une imprimante.",
+        "un microphone."
+       ],
+       "y": "Le lien permet d’ouvrir une ressource."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-78-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Tu veux voir et entendre ton correspondant à distance. Quel terme convient ?",
+       "r": "Une visioconférence.",
+       "w": [
+        "Une photocopie.",
+        "Une pièce jointe imprimée."
+       ],
+       "y": "La visioconférence transmet de l’image et du son."
+      },
+      {
+       "q": "Un inconnu réclame ton mot de passe. Que faire ?",
+       "r": "Ne pas le lui transmettre et demander conseil à un adulte de confiance.",
+       "w": [
+        "Le publier dans un message public.",
+        "L’envoyer pour gagner du temps."
+       ],
+       "y": "Un mot de passe protège le compte et ne se partage pas avec un inconnu."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

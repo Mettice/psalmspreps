@@ -1,0 +1,373 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 73,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-73",
+   "name": "Naviguer et chercher sur Internet"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Internet relie des réseaux d’ordinateurs. Sur le Web, un navigateur permet d’ouvrir des pages et de suivre des liens : naviguer ou surfer. Un moteur de recherche aide à trouver des pages à partir de mots-clés. Télécharger, c’est transférer un fichier vers son appareil. Envoyer un fichier vers un service distant, c’est le téléverser. Zapper signifie passer rapidement d’un contenu à un autre ; cela ne remplace pas une recherche attentive.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un document du site arrive sur ton appareil. Tu viens de…",
+  "steps": [
+   "Télécharger transfère un fichier vers ton appareil.",
+   "Le transfert depuis un service distant vers l’appareil est un téléchargement."
+  ],
+  "answer": "le télécharger.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c73-1",
+    "status": "draft",
+    "idea": "Un navigateur affiche les pages du Web.",
+    "vars": {},
+    "example": [
+     "J’ouvre une page dans mon navigateur."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-73-etape-1"
+    }
+   },
+   {
+    "id": "c73-2",
+    "status": "draft",
+    "idea": "Télécharger transfère un fichier vers ton appareil.",
+    "vars": {},
+    "example": [
+     "Je télécharge un document pour le lire hors ligne."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-73-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Un document du site arrive sur ton appareil. Tu viens de…",
+         "r": "le télécharger.",
+         "w": [
+          "le supprimer.",
+          "l’imprimer."
+         ],
+         "y": "Le transfert depuis un service distant vers l’appareil est un téléchargement."
+        },
+        {
+         "q": "Tu envoies ton fichier vers un espace en ligne. Tu le…",
+         "r": "téléverses.",
+         "w": [
+          "déchires.",
+          "photocopies."
+         ],
+         "y": "Le transfert de l’appareil vers le service distant est un téléversement."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c73-3",
+    "status": "draft",
+    "idea": "Cherche avec des mots-clés précis, puis vérifie la source.",
+    "vars": {},
+    "example": [
+     "Je cherche marchés Cameroun et je lis les sources."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-73-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel choix aide à rechercher un exposé sur les marchés ?",
+         "r": "Des mots-clés précis et une vérification des sources.",
+         "w": [
+          "Changer de page sans rien lire.",
+          "Croire la première publicité."
+         ],
+         "y": "Une recherche utile combine sélection et vérification."
+        },
+        {
+         "q": "Pourquoi zapper ne suffit-il pas pour préparer un exposé ?",
+         "r": "Il faut lire et vérifier les informations retenues.",
+         "w": [
+          "Une page courte est toujours fausse.",
+          "Un navigateur écrit l’exposé à notre place."
+         ],
+         "y": "Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-73-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel outil affiche des pages Web ?",
+       "r": "Un navigateur.",
+       "w": [
+        "Une imprimante.",
+        "Un haut-parleur."
+       ],
+       "y": "Le navigateur permet de consulter des pages Web."
+      },
+      {
+       "q": "Surfer sur le Web, c’est…",
+       "r": "passer d’une page à une autre en suivant des liens.",
+       "w": [
+        "imprimer tous ses fichiers.",
+        "éteindre un ordinateur."
+       ],
+       "y": "Surfer et naviguer décrivent la consultation des pages."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-73-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un document du site arrive sur ton appareil. Tu viens de…",
+       "r": "le télécharger.",
+       "w": [
+        "le supprimer.",
+        "l’imprimer."
+       ],
+       "y": "Le transfert depuis un service distant vers l’appareil est un téléchargement."
+      },
+      {
+       "q": "Tu envoies ton fichier vers un espace en ligne. Tu le…",
+       "r": "téléverses.",
+       "w": [
+        "déchires.",
+        "photocopies."
+       ],
+       "y": "Le transfert de l’appareil vers le service distant est un téléversement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-73-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel choix aide à rechercher un exposé sur les marchés ?",
+       "r": "Des mots-clés précis et une vérification des sources.",
+       "w": [
+        "Changer de page sans rien lire.",
+        "Croire la première publicité."
+       ],
+       "y": "Une recherche utile combine sélection et vérification."
+      },
+      {
+       "q": "Pourquoi zapper ne suffit-il pas pour préparer un exposé ?",
+       "r": "Il faut lire et vérifier les informations retenues.",
+       "w": [
+        "Une page courte est toujours fausse.",
+        "Un navigateur écrit l’exposé à notre place."
+       ],
+       "y": "Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,387 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 81,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-81",
+   "name": "Construire un court paragraphe"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un paragraphe rassemble des phrases liées à une même idée. Pour expliquer comment utiliser une ressource numérique, présente le but, indique les étapes dans l’ordre, puis termine par le résultat ou un conseil. Utilise des phrases simples, des mots de liaison et une ponctuation claire. Relis pour vérifier le sens, les accords et les répétitions. Les phrases doivent former un ensemble, pas une liste de sujets sans rapport.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel mot annonce la première étape ?",
+  "steps": [
+   "Range les étapes avec des mots de liaison.",
+   "D’abord introduit le commencement."
+  ],
+  "answer": "D’abord",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c81-1",
+    "status": "draft",
+    "idea": "Un paragraphe développe une même idée.",
+    "vars": {},
+    "example": [
+     "Je cherche un document pour mon exposé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-81-etape-1"
+    }
+   },
+   {
+    "id": "c81-2",
+    "status": "draft",
+    "idea": "Range les étapes avec des mots de liaison.",
+    "vars": {},
+    "example": [
+     "D’abord je cherche ; ensuite je vérifie."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-81-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel mot annonce la première étape ?",
+         "r": "D’abord",
+         "w": [
+          "Enfin",
+          "Cependant"
+         ],
+         "y": "D’abord introduit le commencement."
+        },
+        {
+         "q": "Quelle suite est logique ?",
+         "r": "Chercher, vérifier, rédiger.",
+         "w": [
+          "Rédiger sans lire, puis inventer une source.",
+          "Conclure avant de choisir son sujet."
+         ],
+         "y": "On rassemble et vérifie les informations avant de rédiger."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c81-3",
+    "status": "draft",
+    "idea": "Relis le texte pour vérifier son unité et sa ponctuation.",
+    "vars": {},
+    "example": [
+     "Chaque phrase apporte une étape utile."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-81-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase conclut utilement ?",
+         "r": "Enfin, je rédige avec les informations vérifiées.",
+         "w": [
+          "Mon ballon est neuf.",
+          "Je change de sujet à chaque phrase."
+         ],
+         "y": "Cette conclusion reprend le but de la recherche."
+        },
+        {
+         "q": "Que vérifier à la relecture ?",
+         "r": "Le lien des idées, les accords et la ponctuation.",
+         "w": [
+          "Seulement le nombre de pages.",
+          "Seulement la couleur du stylo."
+         ],
+         "y": "La qualité du paragraphe dépend de sa cohérence et de sa correction."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-81-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel début annonce un paragraphe sur une recherche ?",
+       "r": "Je cherche des informations pour mon exposé.",
+       "w": [
+        "Le ballon est rouge.",
+        "Mon repas est prêt."
+       ],
+       "y": "Le début annonce le sujet de la recherche."
+      },
+      {
+       "q": "Quel détail reste dans ce sujet ?",
+       "r": "Je choisis des mots-clés précis.",
+       "w": [
+        "Le gardien arrête un but.",
+        "Le riz cuit dans la marmite."
+       ],
+       "y": "Les mots-clés concernent la recherche annoncée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-81-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot annonce la première étape ?",
+       "r": "D’abord",
+       "w": [
+        "Enfin",
+        "Cependant"
+       ],
+       "y": "D’abord introduit le commencement."
+      },
+      {
+       "q": "Quelle suite est logique ?",
+       "r": "Chercher, vérifier, rédiger.",
+       "w": [
+        "Rédiger sans lire, puis inventer une source.",
+        "Conclure avant de choisir son sujet."
+       ],
+       "y": "On rassemble et vérifie les informations avant de rédiger."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-81-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase conclut utilement ?",
+       "r": "Enfin, je rédige avec les informations vérifiées.",
+       "w": [
+        "Mon ballon est neuf.",
+        "Je change de sujet à chaque phrase."
+       ],
+       "y": "Cette conclusion reprend le but de la recherche."
+      },
+      {
+       "q": "Que vérifier à la relecture ?",
+       "r": "Le lien des idées, les accords et la ponctuation.",
+       "w": [
+        "Seulement le nombre de pages.",
+        "Seulement la couleur du stylo."
+       ],
+       "y": "La qualité du paragraphe dépend de sa cohérence et de sa correction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Écris un court paragraphe expliquant comment tu prépares un exposé avec une bibliothèque ou Internet. Utilise d’abord, ensuite et enfin.",
+  "model": [
+   "Je prépare un exposé sur mon quartier. D’abord, je cherche des informations à la bibliothèque. Ensuite, je vérifie leur source avec mon professeur. Enfin, je rédige un paragraphe avec les informations retenues."
+  ],
+  "checklist": [
+   "Mon paragraphe garde la même idée.",
+   "Mes étapes sont dans un ordre logique.",
+   "J’ai relu les accords et la ponctuation."
+  ],
+  "checks": []
+ }
+}

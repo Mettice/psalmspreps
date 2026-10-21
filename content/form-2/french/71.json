@@ -1,0 +1,373 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 71,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-71",
+   "name": "Lire : préparer un exposé avec Internet"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier.\nLire, c’est repérer les informations explicites, relier les actions et justifier une réponse avec le texte. Une page trouvée sur Internet n’est pas automatiquement fiable.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?",
+  "steps": [
+   "Relève les indices précis du texte.",
+   "Ces éléments sont explicitement nommés."
+  ],
+  "answer": "Le nom de l’auteur et la date.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c71-1",
+    "status": "draft",
+    "idea": "Repère ce que fait le personnage.",
+    "vars": {},
+    "example": [
+     "Bih prépare un exposé sur les marchés."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-71-etape-1"
+    }
+   },
+   {
+    "id": "c71-2",
+    "status": "draft",
+    "idea": "Relève les indices précis du texte.",
+    "vars": {},
+    "example": [
+     "Bih note le nom de l’auteur et la date."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-71-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?",
+         "r": "Le nom de l’auteur et la date.",
+         "w": [
+          "La couleur de son écran.",
+          "Le nombre de publicités."
+         ],
+         "y": "Ces éléments sont explicitement nommés."
+        },
+        {
+         "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?",
+         "r": "Une page n’indique aucune source.",
+         "w": [
+          "Elle veut changer de sujet.",
+          "La bibliothèque est fermée."
+         ],
+         "y": "L’absence de source est l’obstacle mentionné dans le texte."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c71-3",
+    "status": "draft",
+    "idea": "Justifie une interprétation par une action du personnage.",
+    "vars": {},
+    "example": [
+     "Vérifier l’auteur montre que Bih cherche une information fiable."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-71-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?",
+         "r": "Il faut vérifier les informations avant de les utiliser.",
+         "w": [
+          "Toute page en ligne est exacte.",
+          "Une publicité remplace une source."
+         ],
+         "y": "Elle vérifie l’auteur, la date et les sources avant de conserver les informations."
+        },
+        {
+         "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ?",
+         "r": "Non ; le texte dit seulement qu’elle doit être vérifiée.",
+         "w": [
+          "Oui, sans autre vérification.",
+          "Oui, parce qu’elle est courte."
+         ],
+         "y": "Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-71-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quel travail Bih prépare-t-elle ?",
+       "r": "Un exposé sur les marchés.",
+       "w": [
+        "Une recette de cuisine.",
+        "Un match de football."
+       ],
+       "y": "Le texte annonce son sujet dès la première phrase."
+      },
+      {
+       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Où travaille-t-elle ?",
+       "r": "À la bibliothèque.",
+       "w": [
+        "Au stade.",
+        "Dans un taxi."
+       ],
+       "y": "Le lieu est donné dans la deuxième phrase."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-71-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?",
+       "r": "Le nom de l’auteur et la date.",
+       "w": [
+        "La couleur de son écran.",
+        "Le nombre de publicités."
+       ],
+       "y": "Ces éléments sont explicitement nommés."
+      },
+      {
+       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?",
+       "r": "Une page n’indique aucune source.",
+       "w": [
+        "Elle veut changer de sujet.",
+        "La bibliothèque est fermée."
+       ],
+       "y": "L’absence de source est l’obstacle mentionné dans le texte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-71-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?",
+       "r": "Il faut vérifier les informations avant de les utiliser.",
+       "w": [
+        "Toute page en ligne est exacte.",
+        "Une publicité remplace une source."
+       ],
+       "y": "Elle vérifie l’auteur, la date et les sources avant de conserver les informations."
+      },
+      {
+       "q": "Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ?",
+       "r": "Non ; le texte dit seulement qu’elle doit être vérifiée.",
+       "w": [
+        "Oui, sans autre vérification.",
+        "Oui, parce qu’elle est courte."
+       ],
+       "y": "Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

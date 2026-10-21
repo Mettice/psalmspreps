@@ -1,0 +1,373 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 72,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-72",
+   "name": "Les pronoms indéfinis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un pronom indéfini désigne une personne ou une chose sans préciser exactement son identité ou sa quantité : quelqu’un, quelque chose, chacun, plusieurs, personne, rien. Il peut remplacer un groupe nominal.\nQuelqu’un appelle : l’identité n’est pas précisée. Chacun répond à son tour : chaque personne est considérée séparément. Plusieurs participent : plus d’une personne. Le verbe s’accorde avec le sujet : chacun répond, plusieurs répondent.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : Chacun ___ son message.",
+  "steps": [
+   "Chacun commande un verbe au singulier.",
+   "Chacun est singulier : il commande lit."
+  ],
+  "answer": "lit",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c72-1",
+    "status": "draft",
+    "idea": "Un pronom indéfini ne donne pas une identité précise.",
+    "vars": {},
+    "example": [
+     "Quelqu’un appelle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-72-etape-1"
+    }
+   },
+   {
+    "id": "c72-2",
+    "status": "draft",
+    "idea": "Chacun commande un verbe au singulier.",
+    "vars": {},
+    "example": [
+     "Chacun lit son message."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-72-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Complète : Chacun ___ son message.",
+         "r": "lit",
+         "w": [
+          "lisent",
+          "lisez"
+         ],
+         "y": "Chacun est singulier : il commande lit."
+        },
+        {
+         "q": "Complète : Plusieurs ___ au club.",
+         "r": "participent",
+         "w": [
+          "participe",
+          "participes"
+         ],
+         "y": "Plusieurs est pluriel : le verbe prend -ent."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c72-3",
+    "status": "draft",
+    "idea": "Distingue le pronom du déterminant placé devant un nom.",
+    "vars": {},
+    "example": [
+     "Plusieurs élèves parlent ; plusieurs parlent."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-72-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans quelle phrase « plusieurs » est-il pronom ?",
+         "r": "Plusieurs ont répondu.",
+         "w": [
+          "Plusieurs élèves ont répondu.",
+          "Plusieurs messages arrivent."
+         ],
+         "y": "Employé sans nom après lui, plusieurs remplace un groupe nominal."
+        },
+        {
+         "q": "Quelle phrase respecte l’accord ?",
+         "r": "Chacun prend la parole.",
+         "w": [
+          "Chacun prennent la parole.",
+          "Plusieurs prend la parole."
+         ],
+         "y": "Chacun est singulier ; plusieurs est pluriel."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-72-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Quelqu’un appelle », quel mot est un pronom indéfini ?",
+       "r": "Quelqu’un",
+       "w": [
+        "appelle",
+        "aucun mot"
+       ],
+       "y": "Quelqu’un désigne une personne non identifiée."
+      },
+      {
+       "q": "Dans « Plusieurs répondent », quel mot remplace des personnes ?",
+       "r": "Plusieurs",
+       "w": [
+        "répondent",
+        "la ponctuation"
+       ],
+       "y": "Plusieurs désigne un nombre imprécis de personnes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-72-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : Chacun ___ son message.",
+       "r": "lit",
+       "w": [
+        "lisent",
+        "lisez"
+       ],
+       "y": "Chacun est singulier : il commande lit."
+      },
+      {
+       "q": "Complète : Plusieurs ___ au club.",
+       "r": "participent",
+       "w": [
+        "participe",
+        "participes"
+       ],
+       "y": "Plusieurs est pluriel : le verbe prend -ent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-72-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quelle phrase « plusieurs » est-il pronom ?",
+       "r": "Plusieurs ont répondu.",
+       "w": [
+        "Plusieurs élèves ont répondu.",
+        "Plusieurs messages arrivent."
+       ],
+       "y": "Employé sans nom après lui, plusieurs remplace un groupe nominal."
+      },
+      {
+       "q": "Quelle phrase respecte l’accord ?",
+       "r": "Chacun prend la parole.",
+       "w": [
+        "Chacun prennent la parole.",
+        "Plusieurs prend la parole."
+       ],
+       "y": "Chacun est singulier ; plusieurs est pluriel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

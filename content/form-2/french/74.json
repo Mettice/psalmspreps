@@ -1,0 +1,389 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 74,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-74",
+   "name": "L’imparfait : habitudes et descriptions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’imparfait exprime une habitude ou une description dans le passé : autrefois, nous téléphonions le soir ; l’écran était petit.\nOn part de nous au présent, on enlève -ons, puis on ajoute -ais, -ais, -ait, -ions, -iez, -aient. Exception : être utilise le radical ét-. Nous envoyons donne j’envoyais ; nous finissons donne je finissais. Avec -ger : je mangeais, mais nous mangions. Avec -cer : je commençais, mais nous commencions.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "parler",
+   "p": 4
+  },
+  "problem": "Conjugue « {v} » au imparfait avec nous.",
+  "steps": [
+   "Le sujet est nous.",
+   "La forme complète est {fr2Form2(v, p, 'imparfait')} ."
+  ],
+  "answer": "{fr2Form2(v, p, 'imparfait')}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c74-1",
+    "status": "draft",
+    "idea": "Le temps demandé est le imparfait.",
+    "vars": {},
+    "example": [
+     "Lis la consigne et repère le verbe à l’infinitif."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-74-simple"
+    }
+   },
+   {
+    "id": "c74-2",
+    "status": "draft",
+    "idea": "La terminaison dépend du sujet.",
+    "vars": {},
+    "example": [
+     "Avec nous, on emploie la première personne du pluriel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-74-forme-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "parler",
+        "finir",
+        "envoyer",
+        "téléphoner",
+        "être",
+        "avoir",
+        "faire",
+        "manger",
+        "commencer"
+       ]
+      },
+      "p": {
+       "int": [
+        0,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au imparfait avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2Form2(v, p, 'imparfait')}",
+     "distractors": [
+      {
+       "text": "{fr2Form2(v, p, 'présent')}",
+       "misconception": "temps"
+      },
+      {
+       "text": "{fr2Form2(v, (p + 4) % 8, 'imparfait')}",
+       "misconception": "sujet"
+      },
+      {
+       "text": "{fr2With(p, v)}",
+       "misconception": "inf"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "temps",
+       "explain": "Cette forme est au présent, pas au imparfait."
+      },
+      {
+       "id": "sujet",
+       "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+      },
+      {
+       "id": "inf",
+       "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+      }
+     ],
+     "solution": [
+      "Le temps demandé est le imparfait.",
+      "Le sujet est « {fr2Pronoun(p)} ».",
+      "La forme complète est : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c74-3",
+    "status": "draft",
+    "idea": "Vérifie le temps et le sujet avant de valider.",
+    "vars": {},
+    "example": [
+     "Une forme correcte à un autre temps ne répond pas à la consigne."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-74-emploi-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Autrefois, c’était notre habitude. Quelle phrase convient ?",
+         "r": "Nous téléphonions le soir.",
+         "w": [
+          "Nous téléphonerons demain.",
+          "Nous téléphonons en ce moment."
+         ],
+         "y": "L’imparfait convient à une habitude passée."
+        },
+        {
+         "q": "Le récit décrit le matériel d’autrefois. Quelle phrase convient ?",
+         "r": "L’écran était petit.",
+         "w": [
+          "L’écran sera petit demain.",
+          "L’écran est petit aujourd’hui."
+         ],
+         "y": "Était est l’imparfait de être ; il décrit une situation passée."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-74-simple",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "finir",
+      "envoyer"
+     ]
+    },
+    "p": {
+     "pick": [
+      2,
+      4,
+      6
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au imparfait avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2Form2(v, p, 'imparfait')}",
+   "distractors": [
+    {
+     "text": "{fr2Form2(v, p, 'présent')}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2Form2(v, (p + 4) % 8, 'imparfait')}",
+     "misconception": "sujet"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette forme est au présent, pas au imparfait."
+    },
+    {
+     "id": "sujet",
+     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+    }
+   ],
+   "solution": [
+    "Le temps demandé est le imparfait.",
+    "Le sujet est « {fr2Pronoun(p)} ».",
+    "La forme complète est : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-74-forme",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "finir",
+      "envoyer",
+      "téléphoner",
+      "être",
+      "avoir",
+      "faire",
+      "manger",
+      "commencer"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au imparfait avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2Form2(v, p, 'imparfait')}",
+   "distractors": [
+    {
+     "text": "{fr2Form2(v, p, 'présent')}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2Form2(v, (p + 4) % 8, 'imparfait')}",
+     "misconception": "sujet"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette forme est au présent, pas au imparfait."
+    },
+    {
+     "id": "sujet",
+     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+    }
+   ],
+   "solution": [
+    "Le temps demandé est le imparfait.",
+    "Le sujet est « {fr2Pronoun(p)} ».",
+    "La forme complète est : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-74-emploi",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Autrefois, c’était notre habitude. Quelle phrase convient ?",
+       "r": "Nous téléphonions le soir.",
+       "w": [
+        "Nous téléphonerons demain.",
+        "Nous téléphonons en ce moment."
+       ],
+       "y": "L’imparfait convient à une habitude passée."
+      },
+      {
+       "q": "Le récit décrit le matériel d’autrefois. Quelle phrase convient ?",
+       "r": "L’écran était petit.",
+       "w": [
+        "L’écran sera petit demain.",
+        "L’écran est petit aujourd’hui."
+       ],
+       "y": "Était est l’imparfait de être ; il décrit une situation passée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

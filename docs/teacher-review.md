@@ -1064,3 +1064,14 @@ Twelve draft pilots add ordered activities between the worked example and ordina
 ## Subject activity pilots: source/build reconciliation (2026-10-21, form-2 only)
 
 The twelve pilots listed in `docs/subject-activity-pilots.md` are now included in the lesson engine, review generators and content. Every wrong activity choice has feedback, and French activity templates carry `lang: fr`. Original writing remains on paper and self-checked. These are drafts requiring teacher review; the history source card is explicitly invented. Validation: all 4277 JavaScript tests passed; all 12 pilots completed in a real Edge browser at 360 × 800 with zero runtime errors and no horizontal overflow. No subject-teacher validation or checking of the separate biology legal questions was performed. Changes stay on form-2.
+
+
+## Z (Term 3). French Form 2, Batch FR2-3 (rows 70–81), added 2026-10-21 (form-2 branch)
+
+Twelve lessons finish French for the year: telephone communication, an original reading on researching an exposé, indefinite pronouns, Internet/TIC vocabulary, imparfait and present revision, nasal-vowel spelling preparation, punctuation and an original paragraph written on paper. Integration row 82 is excluded. Reviewer: a French teacher.
+
+- [ ] **TR-Z16 [P1] Indefinite pronouns:** verify personne/rien with ne in the negative declarative examples, singular chacun/chacune, plural plusieurs/tous and the pronoun/determiner distinction. OQLF reference summaries were consulted; classroom wording still needs review. *Location:* rows 72 and 76.
+- [ ] **TR-Z17 [P1] Sounds and oral preparation:** sheet examples parfum/un and vin/pain are interpreted as [œ̃] and [ɛ̃]; nature illustrates consonant [n]. Accent differences are acknowledged. No audio model, voice recognition or pronunciation scoring is supplied. Telephone conversation is written preparation and role rehearsal, not assessment of speech. Existing open questions about earlier rows 83 and 97 are unchanged. *Location:* rows 70, 75 and 79.
+- [ ] **TR-Z18 [P1] Reading and writing:** the original text about Bih researching markets, source-checking examples, telephone etiquette, punctuation and paragraph model. The paragraph is a paper task with a model and self-check; the app does not automatically mark original writing. *Location:* rows 70–71, 77–78 and 81.
+
+FR2-3 validation: 4337/4337 JavaScript tests passed; literal-digit and level checks passed; real Edge browser walk at 360 × 800 completed 12/12 new lessons with zero runtime errors or horizontal overflow. No subject-teacher or audio assessment was performed.

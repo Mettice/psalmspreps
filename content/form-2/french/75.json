@@ -1,0 +1,373 @@
+{
+ "subject": "french",
+ "class": "Form 2",
+ "lesson_no": 75,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr2-75",
+   "name": "Le son nasal [œ̃] : un, parfum"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cette leçon prépare le repérage écrit du son [œ̃]. Exemples : un, brun, parfum. La lettre n ou m contribue ici à noter une voyelle nasale ; on ne prononce pas séparément un n final. Les sons et leur réalisation peuvent varier selon l’accent.\nL’application ne produit pas de modèle audio et ne peut pas vérifier ta prononciation. Lis les mots avec un enseignant si possible. Ici, on vérifie les mots et leurs graphies, pas l’audition.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Comment vérifier ta prononciation ?",
+  "steps": [
+   "Une voyelle nasale ne se lit pas comme une voyelle suivie d’un n séparé.",
+   "Un exercice écrit ne permet pas d’évaluer la réalisation d’un son."
+  ],
+  "answer": "Avec un enseignant qui écoute ta lecture.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c75-1",
+    "status": "draft",
+    "idea": "Observe la graphie des mots modèles.",
+    "vars": {},
+    "example": [
+     "un, brun, parfum"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr2-75-etape-1"
+    }
+   },
+   {
+    "id": "c75-2",
+    "status": "draft",
+    "idea": "Une voyelle nasale ne se lit pas comme une voyelle suivie d’un n séparé.",
+    "vars": {},
+    "example": [
+     "Lis les exemples avec un enseignant."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-75-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Comment vérifier ta prononciation ?",
+         "r": "Avec un enseignant qui écoute ta lecture.",
+         "w": [
+          "Avec le score écrit seul.",
+          "En comptant les lettres."
+         ],
+         "y": "Un exercice écrit ne permet pas d’évaluer la réalisation d’un son."
+        },
+        {
+         "q": "Que travaille l’exercice sans audio ?",
+         "r": "Le repérage écrit des mots et de leurs graphies.",
+         "w": [
+          "L’enregistrement de ta voix.",
+          "La mesure de ton accent."
+         ],
+         "y": "L’application ne peut pas entendre le lecteur."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c75-3",
+    "status": "draft",
+    "idea": "Ne confonds pas les séries de graphies.",
+    "vars": {},
+    "example": [
+     "Compare brun et pain."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr2-75-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle série contient seulement des mots étudiés ici ?",
+         "r": "brun, parfum",
+         "w": [
+          "pain, nature",
+          "brun, pain"
+         ],
+         "y": "Les exemples retenus sont brun et parfum."
+        },
+        {
+         "q": "Quel conseil respecte les différences d’accent ?",
+         "r": "Demander au professeur le modèle de la classe.",
+         "w": [
+          "Déclarer faux tout accent différent.",
+          "Faire noter sa voix par cet exercice écrit."
+         ],
+         "y": "Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}."
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr2-75-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot suit le modèle un ?",
+       "r": "brun",
+       "w": [
+        "pain",
+        "nature"
+       ],
+       "y": "Le mot modèle est brun. On observe sa graphie et le son travaillé."
+      },
+      {
+       "q": "Quel mot appartient à la série étudiée ?",
+       "r": "parfum",
+       "w": [
+        "nature",
+        "pain"
+       ],
+       "y": "parfum appartient aux exemples de cette leçon."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-75-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment vérifier ta prononciation ?",
+       "r": "Avec un enseignant qui écoute ta lecture.",
+       "w": [
+        "Avec le score écrit seul.",
+        "En comptant les lettres."
+       ],
+       "y": "Un exercice écrit ne permet pas d’évaluer la réalisation d’un son."
+      },
+      {
+       "q": "Que travaille l’exercice sans audio ?",
+       "r": "Le repérage écrit des mots et de leurs graphies.",
+       "w": [
+        "L’enregistrement de ta voix.",
+        "La mesure de ton accent."
+       ],
+       "y": "L’application ne peut pas entendre le lecteur."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr2-75-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle série contient seulement des mots étudiés ici ?",
+       "r": "brun, parfum",
+       "w": [
+        "pain, nature",
+        "brun, pain"
+       ],
+       "y": "Les exemples retenus sont brun et parfum."
+      },
+      {
+       "q": "Quel conseil respecte les différences d’accent ?",
+       "r": "Demander au professeur le modèle de la classe.",
+       "w": [
+        "Déclarer faux tout accent différent.",
+        "Faire noter sa voix par cet exercice écrit."
+       ],
+       "y": "Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}."
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}
