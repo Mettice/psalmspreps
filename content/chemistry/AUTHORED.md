@@ -80,66 +80,69 @@ Regenerate with `npm run review:chemistry`. Item IDs (TR-…) match `docs/teache
 | 29 | `ch6-spot` | 6 | spot the error, 3 | safety-chem |
 | 30 | `chc6-2-check` (card chc6-2) | 6 | multiple choice, 1 | safety-chem |
 | 31 | `ch8-spot` | 8 | spot the error, 3 | measure-chem |
-| 32 | `ch9-sort` | 9 | matching, 1 | changes |
-| 33 | `ch9-which` | 9 | multiple choice, 1 | changes |
-| 34 | `ch9-sign` | 9 | multiple choice, 1 | changes |
-| 35 | `ch9-why` | 9 | multiple choice, 2 | changes |
-| 36 | `ch9-spot` | 9 | spot the error, 3 | changes |
-| 37 | `ch10-state` | 10 | multiple choice, 1 | states |
-| 38 | `ch10-example` | 10 | multiple choice, 2 | states |
-| 39 | `ch10-spot` | 10 | spot the error, 3 | states |
-| 40 | `chc10-3-check` (card chc10-3) | 10 | multiple choice, 1 | states |
-| 41 | `ch11-move` | 11 | multiple choice, 1 | kinetic |
-| 42 | `ch11-heat` | 11 | multiple choice, 1 | kinetic |
-| 43 | `ch11-diffusion` | 11 | multiple choice, 1 | kinetic |
-| 44 | `ch11-faster` | 11 | multiple choice, 2 | kinetic |
-| 45 | `ch11-spot` | 11 | spot the error, 3 | kinetic |
-| 46 | `ch12-sort` | 12 | matching, 1 | mixtures |
-| 47 | `ch12-which` | 12 | multiple choice, 1 | mixtures |
-| 48 | `ch12-why` | 12 | multiple choice, 2 | mixtures |
-| 49 | `ch12-spot` | 12 | spot the error, 3 | mixtures |
-| 50 | `chc12-3-check` (card chc12-3) | 12 | multiple choice, 1 | mixtures |
-| 51 | `ch13-type` | 13 | multiple choice, 1 | mixtures |
-| 52 | `ch13-misc` | 13 | matching, 1 | mixtures |
-| 53 | `ch13-solution` | 13 | matching, 2 | mixtures |
-| 54 | `ch13-spot` | 13 | spot the error, 3 | mixtures |
-| 55 | `chc13-3-check` (card chc13-3) | 13 | multiple choice, 1 | mixtures |
-| 56 | `ch14-method` | 14 | multiple choice, 1 | separation |
-| 57 | `ch14-match` | 14 | matching, 1 | separation |
-| 58 | `ch14-steps` | 14 | ordering, 1 | separation |
-| 59 | `ch14-why` | 14 | multiple choice, 2 | separation |
-| 60 | `ch14-spot` | 14 | spot the error, 3 | separation |
-| 61 | `ch15-method` | 15 | multiple choice, 1 | separation |
-| 62 | `ch15-match` | 15 | matching, 1 | separation |
-| 63 | `ch15-distil` | 15 | ordering, 2 | separation |
-| 64 | `ch15-words` | 15 | multiple choice, 2 | separation |
-| 65 | `ch15-spot` | 15 | spot the error, 3 | separation |
-| 66 | `chc15-3-check` (card chc15-3) | 15 | multiple choice, 1 | separation |
-| 67 | `ch16-method` | 16 | multiple choice, 1 | separation |
-| 68 | `ch16-funnel` | 16 | ordering, 2 | separation |
-| 69 | `ch16-spot` | 16 | spot the error, 3 | separation |
-| 70 | `chc16-3-check` (card chc16-3) | 16 | multiple choice, 1 | separation |
-| 71 | `ch17-which` | 17 | multiple choice, 1 | separation |
-| 72 | `ch17-heat` | 17 | multiple choice, 1 | separation |
-| 73 | `ch17-fish` | 17 | multiple choice, 2 | separation |
-| 74 | `ch17-spot` | 17 | spot the error, 3 | separation |
-| 75 | `chc17-3-check` (card chc17-3) | 17 | multiple choice, 1 | separation |
-| 76 | `ch18-air` | 18 | multiple choice, 1 | separation |
-| 77 | `ch18-method` | 18 | multiple choice, 1 | separation |
-| 78 | `ch18-why` | 18 | multiple choice, 2 | separation |
-| 79 | `ch18-spot` | 18 | spot the error, 3 | separation |
-| 80 | `chc18-3-check` (card chc18-3) | 18 | multiple choice, 1 | separation |
-| 81 | `ch19-match` | 19 | matching, 1 | elements |
-| 82 | `ch19-symbol` | 19 | multiple choice, 1 | elements |
-| 83 | `ch19-sort` | 19 | matching, 2 | elements |
-| 84 | `ch19-name` | 19 | fill the blank, 2 | elements |
-| 85 | `ch19-spot` | 19 | spot the error, 3 | elements |
-| 86 | `chc19-1-check` (card chc19-1) | 19 | multiple choice, 1 | elements |
-| 87 | `ch21-sort` | 21 | matching, 1 | compounds |
-| 88 | `ch21-which` | 21 | multiple choice, 1 | compounds |
-| 89 | `ch21-test` | 21 | multiple choice, 2 | compounds |
-| 90 | `ch21-spot` | 21 | spot the error, 3 | compounds |
-| 91 | `chc21-3-check` (card chc21-3) | 21 | multiple choice, 1 | compounds |
+| 32 | `pilot-chemistry-8-1` | 8 | multiple choice, 1 | measure-chem |
+| 33 | `pilot-chemistry-8-2` | 8 | number, 2 | measure-chem |
+| 34 | `pilot-chemistry-8-3` | 8 | multiple choice, 3 | measure-chem |
+| 35 | `ch9-sort` | 9 | matching, 1 | changes |
+| 36 | `ch9-which` | 9 | multiple choice, 1 | changes |
+| 37 | `ch9-sign` | 9 | multiple choice, 1 | changes |
+| 38 | `ch9-why` | 9 | multiple choice, 2 | changes |
+| 39 | `ch9-spot` | 9 | spot the error, 3 | changes |
+| 40 | `ch10-state` | 10 | multiple choice, 1 | states |
+| 41 | `ch10-example` | 10 | multiple choice, 2 | states |
+| 42 | `ch10-spot` | 10 | spot the error, 3 | states |
+| 43 | `chc10-3-check` (card chc10-3) | 10 | multiple choice, 1 | states |
+| 44 | `ch11-move` | 11 | multiple choice, 1 | kinetic |
+| 45 | `ch11-heat` | 11 | multiple choice, 1 | kinetic |
+| 46 | `ch11-diffusion` | 11 | multiple choice, 1 | kinetic |
+| 47 | `ch11-faster` | 11 | multiple choice, 2 | kinetic |
+| 48 | `ch11-spot` | 11 | spot the error, 3 | kinetic |
+| 49 | `ch12-sort` | 12 | matching, 1 | mixtures |
+| 50 | `ch12-which` | 12 | multiple choice, 1 | mixtures |
+| 51 | `ch12-why` | 12 | multiple choice, 2 | mixtures |
+| 52 | `ch12-spot` | 12 | spot the error, 3 | mixtures |
+| 53 | `chc12-3-check` (card chc12-3) | 12 | multiple choice, 1 | mixtures |
+| 54 | `ch13-type` | 13 | multiple choice, 1 | mixtures |
+| 55 | `ch13-misc` | 13 | matching, 1 | mixtures |
+| 56 | `ch13-solution` | 13 | matching, 2 | mixtures |
+| 57 | `ch13-spot` | 13 | spot the error, 3 | mixtures |
+| 58 | `chc13-3-check` (card chc13-3) | 13 | multiple choice, 1 | mixtures |
+| 59 | `ch14-method` | 14 | multiple choice, 1 | separation |
+| 60 | `ch14-match` | 14 | matching, 1 | separation |
+| 61 | `ch14-steps` | 14 | ordering, 1 | separation |
+| 62 | `ch14-why` | 14 | multiple choice, 2 | separation |
+| 63 | `ch14-spot` | 14 | spot the error, 3 | separation |
+| 64 | `ch15-method` | 15 | multiple choice, 1 | separation |
+| 65 | `ch15-match` | 15 | matching, 1 | separation |
+| 66 | `ch15-distil` | 15 | ordering, 2 | separation |
+| 67 | `ch15-words` | 15 | multiple choice, 2 | separation |
+| 68 | `ch15-spot` | 15 | spot the error, 3 | separation |
+| 69 | `chc15-3-check` (card chc15-3) | 15 | multiple choice, 1 | separation |
+| 70 | `ch16-method` | 16 | multiple choice, 1 | separation |
+| 71 | `ch16-funnel` | 16 | ordering, 2 | separation |
+| 72 | `ch16-spot` | 16 | spot the error, 3 | separation |
+| 73 | `chc16-3-check` (card chc16-3) | 16 | multiple choice, 1 | separation |
+| 74 | `ch17-which` | 17 | multiple choice, 1 | separation |
+| 75 | `ch17-heat` | 17 | multiple choice, 1 | separation |
+| 76 | `ch17-fish` | 17 | multiple choice, 2 | separation |
+| 77 | `ch17-spot` | 17 | spot the error, 3 | separation |
+| 78 | `chc17-3-check` (card chc17-3) | 17 | multiple choice, 1 | separation |
+| 79 | `ch18-air` | 18 | multiple choice, 1 | separation |
+| 80 | `ch18-method` | 18 | multiple choice, 1 | separation |
+| 81 | `ch18-why` | 18 | multiple choice, 2 | separation |
+| 82 | `ch18-spot` | 18 | spot the error, 3 | separation |
+| 83 | `chc18-3-check` (card chc18-3) | 18 | multiple choice, 1 | separation |
+| 84 | `ch19-match` | 19 | matching, 1 | elements |
+| 85 | `ch19-symbol` | 19 | multiple choice, 1 | elements |
+| 86 | `ch19-sort` | 19 | matching, 2 | elements |
+| 87 | `ch19-name` | 19 | fill the blank, 2 | elements |
+| 88 | `ch19-spot` | 19 | spot the error, 3 | elements |
+| 89 | `chc19-1-check` (card chc19-1) | 19 | multiple choice, 1 | elements |
+| 90 | `ch21-sort` | 21 | matching, 1 | compounds |
+| 91 | `ch21-which` | 21 | multiple choice, 1 | compounds |
+| 92 | `ch21-test` | 21 | multiple choice, 2 | compounds |
+| 93 | `ch21-spot` | 21 | spot the error, 3 | compounds |
+| 94 | `chc21-3-check` (card chc21-3) | 21 | multiple choice, 1 | compounds |
 
 ### `ch1-branch` · Lesson 1 · matching, level 1
 
@@ -2242,6 +2245,147 @@ Full working after a second miss:
 
 > The wrong statement is “One minute is 100 seconds.”.  
 > One minute is 60 seconds.  
+
+Sources: measure-chem (Measuring mass, volume, time and temperature; conversions computed by convertUnit())
+
+### `pilot-chemistry-8-1` · Lesson 8 · multiple choice, level 1
+
+Prompt: A liquid-in-glass thermometer is placed in water warmer than the thermometer. What happens as the thermometer warms up?
+
+Right answer: `Its liquid column rises.`; wrong choices: `Its liquid column falls.`, `Its scale markings move.`
+
+- Feedback `activity-choice-0`: “The thermometer liquid expands as it warms, so its column rises.”
+- Feedback `activity-choice-1`: “The thermometer liquid expands as it warms, so its column rises.”
+
+Three generated variants:
+
+> A liquid-in-glass thermometer is placed in water warmer than the thermometer. What happens as the thermometer warms up?
+
+- ✅ Its liquid column rises.
+- ◻️ Its scale markings move.  
+  _↳ feedback if chosen: The thermometer liquid expands as it warms, so its column rises._
+- ◻️ Its liquid column falls.  
+  _↳ feedback if chosen: The thermometer liquid expands as it warms, so its column rises._
+
+Full working after a second miss:
+
+> The thermometer liquid expands as it warms, so its column rises.  
+
+> A liquid-in-glass thermometer is placed in water warmer than the thermometer. What happens as the thermometer warms up?
+
+- ✅ Its liquid column rises.
+- ◻️ Its scale markings move.  
+  _↳ feedback if chosen: The thermometer liquid expands as it warms, so its column rises._
+- ◻️ Its liquid column falls.  
+  _↳ feedback if chosen: The thermometer liquid expands as it warms, so its column rises._
+
+Full working after a second miss:
+
+> The thermometer liquid expands as it warms, so its column rises.  
+
+> A liquid-in-glass thermometer is placed in water warmer than the thermometer. What happens as the thermometer warms up?
+
+- ✅ Its liquid column rises.
+- ◻️ Its liquid column falls.  
+  _↳ feedback if chosen: The thermometer liquid expands as it warms, so its column rises._
+- ◻️ Its scale markings move.  
+  _↳ feedback if chosen: The thermometer liquid expands as it warms, so its column rises._
+
+Full working after a second miss:
+
+> The thermometer liquid expands as it warms, so its column rises.  
+
+Sources: measure-chem (Measuring mass, volume, time and temperature; conversions computed by convertUnit())
+
+### `pilot-chemistry-8-2` · Lesson 8 · number, level 2
+
+Prompt: The reading has stopped changing. Read this thermometer.
+Right answer: `t`
+
+
+Three generated variants:
+
+> The reading has stopped changing. Read this thermometer.
+
+![drawing](figures/pilot-chemistry-8-2-10.svg)
+
+Answer: **36 °C**
+
+Full working after a second miss:
+
+> The scale is in degrees Celsius.  
+> The liquid column ends at 36 °C.  
+
+> The reading has stopped changing. Read this thermometer.
+
+![drawing](figures/pilot-chemistry-8-2-11.svg)
+
+Answer: **36 °C**
+
+Full working after a second miss:
+
+> The scale is in degrees Celsius.  
+> The liquid column ends at 36 °C.  
+
+> The reading has stopped changing. Read this thermometer.
+
+![drawing](figures/pilot-chemistry-8-2-12.svg)
+
+Answer: **36 °C**
+
+Full working after a second miss:
+
+> The scale is in degrees Celsius.  
+> The liquid column ends at 36 °C.  
+
+Sources: measure-chem (Measuring mass, volume, time and temperature; conversions computed by convertUnit())
+
+### `pilot-chemistry-8-3` · Lesson 8 · multiple choice, level 3
+
+Prompt: Why should your eye be level with the end of the thermometer column?
+
+Right answer: `To avoid an apparent shift in the reading when viewed at an angle.`; wrong choices: `To warm the liquid faster.`, `To change the distance between the scale marks.`
+
+- Feedback `activity-choice-0`: “Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level.”
+- Feedback `activity-choice-1`: “Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level.”
+
+Three generated variants:
+
+> Why should your eye be level with the end of the thermometer column?
+
+- ◻️ To warm the liquid faster.  
+  _↳ feedback if chosen: Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level._
+- ◻️ To change the distance between the scale marks.  
+  _↳ feedback if chosen: Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level._
+- ✅ To avoid an apparent shift in the reading when viewed at an angle.
+
+Full working after a second miss:
+
+> Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level.  
+
+> Why should your eye be level with the end of the thermometer column?
+
+- ◻️ To warm the liquid faster.  
+  _↳ feedback if chosen: Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level._
+- ◻️ To change the distance between the scale marks.  
+  _↳ feedback if chosen: Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level._
+- ✅ To avoid an apparent shift in the reading when viewed at an angle.
+
+Full working after a second miss:
+
+> Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level.  
+
+> Why should your eye be level with the end of the thermometer column?
+
+- ◻️ To warm the liquid faster.  
+  _↳ feedback if chosen: Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level._
+- ◻️ To change the distance between the scale marks.  
+  _↳ feedback if chosen: Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level._
+- ✅ To avoid an apparent shift in the reading when viewed at an angle.
+
+Full working after a second miss:
+
+> Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level.  
 
 Sources: measure-chem (Measuring mass, volume, time and temperature; conversions computed by convertUnit())
 

@@ -1059,3 +1059,8 @@ Twelve draft pilots add ordered activities between the worked example and ordina
 
 ### P1
 - [ ] **TR-X20 [P1] Entries, VAT and mark-up:** the entries (contribution 521/101, loans 162, fixed assets on credit 481, own production 72, subsidies 14 and 71, cash sale 571/701), VAT at 19.25%, mark-up on cost vs margin on sales, simple interest for loans. *Location:* rows 20–26.
+
+
+## Subject activity pilots: source/build reconciliation (2026-10-21, form-2 only)
+
+The twelve pilots listed in `docs/subject-activity-pilots.md` are now included in the lesson engine, review generators and content. Every wrong activity choice has feedback, and French activity templates carry `lang: fr`. Original writing remains on paper and self-checked. These are drafts requiring teacher review; the history source card is explicitly invented. Validation: all 4277 JavaScript tests passed; all 12 pilots completed in a real Edge browser at 360 × 800 with zero runtime errors and no horizontal overflow. No subject-teacher validation or checking of the separate biology legal questions was performed. Changes stay on form-2.

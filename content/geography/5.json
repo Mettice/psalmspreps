@@ -552,5 +552,134 @@
     "The same numbers were written the other way round. So: {answer}"
    ]
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Use a map to make a decision",
+  "stages": [
+   {
+    "title": "Read the map",
+    "question": {
+     "id": "pilot-geography-5-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grid-ref"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Find the school on the map. Which four-figure grid reference identifies its square?",
+     "correct": "{grid4(11,21)}",
+     "distractors": [
+      {
+       "text": "{grid4(21,11)}",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "{grid4(12,21)}",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "Read eastings first, then northings: {grid4(11,21)}."
+     ],
+     "figure": "gridMap(10, 20, [['school', 1.5, 1.5], ['well', 2.5, 1.5], ['market', 4.5, 1.5]])",
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Read eastings first, then northings: {grid4(11,21)}."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Read eastings first, then northings: {grid4(11,21)}."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Make a decision",
+    "question": {
+     "id": "pilot-geography-5-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "grid-ref"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "For this map exercise, assume straight paths along the horizontal grid line between the marked places. From the school, is the well or the market nearer?",
+     "correct": "The well.",
+     "distractors": [
+      {
+       "text": "The market.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "They are equally far away.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The well is one grid square east of the school; the market is three grid squares east."
+     ],
+     "figure": "gridMap(10, 20, [['school', 1.5, 1.5], ['well', 2.5, 1.5], ['market', 4.5, 1.5]])",
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The well is one grid square east of the school; the market is three grid squares east."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The well is one grid square east of the school; the market is three grid squares east."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Explain using map evidence",
+    "question": {
+     "id": "pilot-geography-5-3",
+     "level": 3,
+     "review": "authored",
+     "sources": [
+      "grid-ref"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Which map evidence supports choosing the well as the nearer destination?",
+     "correct": "It is one square from the school; the market is three squares away.",
+     "distractors": [
+      {
+       "text": "Its name is shorter.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "It lies west of the school.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice."
+     ],
+     "figure": "gridMap(10, 20, [['school', 1.5, 1.5], ['well', 2.5, 1.5], ['market', 4.5, 1.5]])",
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice."
+      }
+     ]
+    }
+   }
+  ]
+ }
 }

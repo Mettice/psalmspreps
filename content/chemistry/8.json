@@ -305,5 +305,116 @@
     "wrong": 1
    }
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Predict and read a thermometer",
+  "stages": [
+   {
+    "title": "Predict",
+    "question": {
+     "id": "pilot-chemistry-8-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "measure-chem"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "A liquid-in-glass thermometer is placed in water warmer than the thermometer. What happens as the thermometer warms up?",
+     "correct": "Its liquid column rises.",
+     "distractors": [
+      {
+       "text": "Its liquid column falls.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "Its scale markings move.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The thermometer liquid expands as it warms, so its column rises."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The thermometer liquid expands as it warms, so its column rises."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The thermometer liquid expands as it warms, so its column rises."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Inspect the diagram",
+    "question": {
+     "id": "pilot-chemistry-8-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "measure-chem"
+     ],
+     "status": "draft",
+     "type": "numeric",
+     "vars": {
+      "t": 36
+     },
+     "prompt": "The reading has stopped changing. Read this thermometer.",
+     "answer": "t",
+     "verify": "answer == (t)",
+     "solution": [
+      "The scale is in degrees Celsius.",
+      "The liquid column ends at {t} °C."
+     ],
+     "figure": "thermometer(t)",
+     "unit": "°C"
+    }
+   },
+   {
+    "title": "Explain the reading",
+    "question": {
+     "id": "pilot-chemistry-8-3",
+     "level": 3,
+     "review": "authored",
+     "sources": [
+      "measure-chem"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Why should your eye be level with the end of the thermometer column?",
+     "correct": "To avoid an apparent shift in the reading when viewed at an angle.",
+     "distractors": [
+      {
+       "text": "To warm the liquid faster.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "To change the distance between the scale marks.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level."
+      }
+     ]
+    }
+   }
+  ]
+ }
 }

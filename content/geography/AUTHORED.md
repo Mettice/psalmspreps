@@ -71,21 +71,24 @@ Regenerate with `npm run review:geography`. Item IDs (TR-…) match `docs/teache
 | 25 | `gc4-1-check` (card gc4-1) | 4 | multiple choice, 1 | maps |
 | 26 | `g5-rule` | 5 | multiple choice, 2 | grid-ref |
 | 27 | `g5-mistake` | 5 | multiple choice, 3 | grid-ref |
-| 28 | `gc5-1-check` (card gc5-1) | 5 | multiple choice, 1 | grid-ref |
-| 29 | `g7-sort` | 7 | matching, 1 | earth-movements |
-| 30 | `g7-spot` | 7 | spot the error, 3 | earth-movements |
-| 31 | `gc7-3-check` (card gc7-3) | 7 | multiple choice, 1 | earth-movements |
-| 32 | `gc7-4-check` (card gc7-4) | 7 | multiple choice, 1 | earth-movements |
-| 33 | `g9-facts` | 9 | multiple choice, 2 | time-zones |
-| 34 | `gc9-1-check` (card gc9-1) | 9 | multiple choice, 1 | time-zones |
-| 35 | `g10-sort` | 10 | matching, 1 | environment |
-| 36 | `g10-sphere` | 10 | matching, 1 | environment |
-| 37 | `g10-producer` | 10 | multiple choice, 1 | environment |
-| 38 | `g10-chain` | 10 | ordering, 2 | environment |
-| 39 | `g10-natural` | 10 | matching, 2 | environment |
-| 40 | `g10-eco` | 10 | multiple choice, 2 | environment |
-| 41 | `g10-spot` | 10 | spot the error, 3 | environment |
-| 42 | `gc10-1-check` (card gc10-1) | 10 | multiple choice, 1 | environment |
+| 28 | `pilot-geography-5-1` | 5 | multiple choice, 1 | grid-ref |
+| 29 | `pilot-geography-5-2` | 5 | multiple choice, 2 | grid-ref |
+| 30 | `pilot-geography-5-3` | 5 | multiple choice, 3 | grid-ref |
+| 31 | `gc5-1-check` (card gc5-1) | 5 | multiple choice, 1 | grid-ref |
+| 32 | `g7-sort` | 7 | matching, 1 | earth-movements |
+| 33 | `g7-spot` | 7 | spot the error, 3 | earth-movements |
+| 34 | `gc7-3-check` (card gc7-3) | 7 | multiple choice, 1 | earth-movements |
+| 35 | `gc7-4-check` (card gc7-4) | 7 | multiple choice, 1 | earth-movements |
+| 36 | `g9-facts` | 9 | multiple choice, 2 | time-zones |
+| 37 | `gc9-1-check` (card gc9-1) | 9 | multiple choice, 1 | time-zones |
+| 38 | `g10-sort` | 10 | matching, 1 | environment |
+| 39 | `g10-sphere` | 10 | matching, 1 | environment |
+| 40 | `g10-producer` | 10 | multiple choice, 1 | environment |
+| 41 | `g10-chain` | 10 | ordering, 2 | environment |
+| 42 | `g10-natural` | 10 | matching, 2 | environment |
+| 43 | `g10-eco` | 10 | multiple choice, 2 | environment |
+| 44 | `g10-spot` | 10 | spot the error, 3 | environment |
+| 45 | `gc10-1-check` (card gc10-1) | 10 | multiple choice, 1 | environment |
 
 ### `g1-which` · Lesson 1 · multiple choice, level 1
 
@@ -968,7 +971,7 @@ Three generated variants:
 
 > On the globe, which line is A?
 
-![drawing](figures/g3-line-32.svg)
+![drawing](figures/g3-line-35.svg)
 
 - ◻️ Antarctic Circle  
   _↳ feedback if chosen: Count the lines from the top: Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn, Antarctic Circle._
@@ -985,7 +988,7 @@ Full working after a second miss:
 
 > On the globe, which line is E?
 
-![drawing](figures/g3-line-33.svg)
+![drawing](figures/g3-line-36.svg)
 
 - ✅ Antarctic Circle
 - ◻️ Arctic Circle  
@@ -1002,7 +1005,7 @@ Full working after a second miss:
 
 > On the globe, which line is A?
 
-![drawing](figures/g3-line-34.svg)
+![drawing](figures/g3-line-37.svg)
 
 - ◻️ Tropic of Cancer  
   _↳ feedback if chosen: Count the lines from the top: Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn, Antarctic Circle._
@@ -1883,7 +1886,7 @@ Three generated variants:
 
 > A pupil says the school is in square 2724. What mistake was made?
 
-![drawing](figures/g5-mistake-35.svg)
+![drawing](figures/g5-mistake-38.svg)
 
 - ✅ The northing was given before the easting.
 - ◻️ There is no mistake: the answer is right.  
@@ -1900,7 +1903,7 @@ Full working after a second miss:
 
 > A pupil says the well is in square 3543. What mistake was made?
 
-![drawing](figures/g5-mistake-36.svg)
+![drawing](figures/g5-mistake-39.svg)
 
 - ◻️ There is no mistake: the answer is right.  
   _↳ feedback if chosen: The right answer is 4335: easting first, then northing._
@@ -1917,7 +1920,7 @@ Full working after a second miss:
 
 > A pupil says the bridge is in square 2737. What mistake was made?
 
-![drawing](figures/g5-mistake-37.svg)
+![drawing](figures/g5-mistake-40.svg)
 
 - ◻️ The northing above the square was used.  
   _↳ feedback if chosen: Look again: the right answer is 3727. The same two numbers were used, in the wrong order._
@@ -1931,6 +1934,171 @@ Full working after a second miss:
 
 > The bridge’s square has easting 37 and northing 27: 3727.  
 > The same numbers were written the other way round. So: The northing was given before the easting.  
+
+Sources: grid-ref (Four- and six-figure grid references, eastings first (grid map drawn by code))
+
+### `pilot-geography-5-1` · Lesson 5 · multiple choice, level 1
+
+Prompt: Find the school on the map. Which four-figure grid reference identifies its square?
+
+Right answer: `{grid4(11,21)}`; wrong choices: `{grid4(21,11)}`, `{grid4(12,21)}`
+
+- Feedback `activity-choice-0`: “Read eastings first, then northings: {grid4(11,21)}.”
+- Feedback `activity-choice-1`: “Read eastings first, then northings: {grid4(11,21)}.”
+
+Three generated variants:
+
+> Find the school on the map. Which four-figure grid reference identifies its square?
+
+![drawing](figures/pilot-geography-5-1-41.svg)
+
+- ◻️ 2111  
+  _↳ feedback if chosen: Read eastings first, then northings: 1121._
+- ✅ 1121
+- ◻️ 1221  
+  _↳ feedback if chosen: Read eastings first, then northings: 1121._
+
+Full working after a second miss:
+
+> Read eastings first, then northings: 1121.  
+
+> Find the school on the map. Which four-figure grid reference identifies its square?
+
+![drawing](figures/pilot-geography-5-1-42.svg)
+
+- ✅ 1121
+- ◻️ 1221  
+  _↳ feedback if chosen: Read eastings first, then northings: 1121._
+- ◻️ 2111  
+  _↳ feedback if chosen: Read eastings first, then northings: 1121._
+
+Full working after a second miss:
+
+> Read eastings first, then northings: 1121.  
+
+> Find the school on the map. Which four-figure grid reference identifies its square?
+
+![drawing](figures/pilot-geography-5-1-43.svg)
+
+- ✅ 1121
+- ◻️ 2111  
+  _↳ feedback if chosen: Read eastings first, then northings: 1121._
+- ◻️ 1221  
+  _↳ feedback if chosen: Read eastings first, then northings: 1121._
+
+Full working after a second miss:
+
+> Read eastings first, then northings: 1121.  
+
+Sources: grid-ref (Four- and six-figure grid references, eastings first (grid map drawn by code))
+
+### `pilot-geography-5-2` · Lesson 5 · multiple choice, level 2
+
+Prompt: For this map exercise, assume straight paths along the horizontal grid line between the marked places. From the school, is the well or the market nearer?
+
+Right answer: `The well.`; wrong choices: `The market.`, `They are equally far away.`
+
+- Feedback `activity-choice-0`: “The well is one grid square east of the school; the market is three grid squares east.”
+- Feedback `activity-choice-1`: “The well is one grid square east of the school; the market is three grid squares east.”
+
+Three generated variants:
+
+> For this map exercise, assume straight paths along the horizontal grid line between the marked places. From the school, is the well or the market nearer?
+
+![drawing](figures/pilot-geography-5-2-44.svg)
+
+- ◻️ The market.  
+  _↳ feedback if chosen: The well is one grid square east of the school; the market is three grid squares east._
+- ◻️ They are equally far away.  
+  _↳ feedback if chosen: The well is one grid square east of the school; the market is three grid squares east._
+- ✅ The well.
+
+Full working after a second miss:
+
+> The well is one grid square east of the school; the market is three grid squares east.  
+
+> For this map exercise, assume straight paths along the horizontal grid line between the marked places. From the school, is the well or the market nearer?
+
+![drawing](figures/pilot-geography-5-2-45.svg)
+
+- ◻️ The market.  
+  _↳ feedback if chosen: The well is one grid square east of the school; the market is three grid squares east._
+- ◻️ They are equally far away.  
+  _↳ feedback if chosen: The well is one grid square east of the school; the market is three grid squares east._
+- ✅ The well.
+
+Full working after a second miss:
+
+> The well is one grid square east of the school; the market is three grid squares east.  
+
+> For this map exercise, assume straight paths along the horizontal grid line between the marked places. From the school, is the well or the market nearer?
+
+![drawing](figures/pilot-geography-5-2-46.svg)
+
+- ◻️ They are equally far away.  
+  _↳ feedback if chosen: The well is one grid square east of the school; the market is three grid squares east._
+- ◻️ The market.  
+  _↳ feedback if chosen: The well is one grid square east of the school; the market is three grid squares east._
+- ✅ The well.
+
+Full working after a second miss:
+
+> The well is one grid square east of the school; the market is three grid squares east.  
+
+Sources: grid-ref (Four- and six-figure grid references, eastings first (grid map drawn by code))
+
+### `pilot-geography-5-3` · Lesson 5 · multiple choice, level 3
+
+Prompt: Which map evidence supports choosing the well as the nearer destination?
+
+Right answer: `It is one square from the school; the market is three squares away.`; wrong choices: `Its name is shorter.`, `It lies west of the school.`
+
+- Feedback `activity-choice-0`: “Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice.”
+- Feedback `activity-choice-1`: “Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice.”
+
+Three generated variants:
+
+> Which map evidence supports choosing the well as the nearer destination?
+
+![drawing](figures/pilot-geography-5-3-47.svg)
+
+- ◻️ Its name is shorter.  
+  _↳ feedback if chosen: Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice._
+- ✅ It is one square from the school; the market is three squares away.
+- ◻️ It lies west of the school.  
+  _↳ feedback if chosen: Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice._
+
+Full working after a second miss:
+
+> Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice.  
+
+> Which map evidence supports choosing the well as the nearer destination?
+
+![drawing](figures/pilot-geography-5-3-48.svg)
+
+- ✅ It is one square from the school; the market is three squares away.
+- ◻️ Its name is shorter.  
+  _↳ feedback if chosen: Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice._
+- ◻️ It lies west of the school.  
+  _↳ feedback if chosen: Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice._
+
+Full working after a second miss:
+
+> Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice.  
+
+> Which map evidence supports choosing the well as the nearer destination?
+
+![drawing](figures/pilot-geography-5-3-49.svg)
+
+- ◻️ Its name is shorter.  
+  _↳ feedback if chosen: Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice._
+- ✅ It is one square from the school; the market is three squares away.
+- ◻️ It lies west of the school.  
+  _↳ feedback if chosen: Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice._
+
+Full working after a second miss:
+
+> Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice.  
 
 Sources: grid-ref (Four- and six-figure grid references, eastings first (grid map drawn by code))
 

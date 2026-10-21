@@ -1533,6 +1533,28 @@ Full working after a second miss:
 
 </details>
 
+**Subject activity: Work it out, then try on your own** (draft)
+
+**Complete the working**
+
+**Complete the missing working.**
+Completed working: **6 + 4 × 3 = 6 + 12 = 18**
+
+Full working after a second miss:
+
+> Do the multiplication first: 4 × 3 = 12.  
+> Then add: 6 + 12 = 18.  
+
+**Solve independently**
+
+**Now solve this new calculation without the missing-step boxes: 8 + 2 × 2.**
+Answer: **12**
+
+Full working after a second miss:
+
+> Multiply first: 2 × 2 = 4.  
+> Add: 8 + 4 = 12.  
+
 ## Lesson 8: Number bases :Convert numbers in base 10 to other bases and from one base to another
 
 Chapter: The set of natural numbers and Number bases. Prerequisites: 3, 7.
@@ -1577,20 +1599,24 @@ Full working after a second miss:
 
 > To change from base b to base ten, multiply each digit by its place value and add.
 >
-> _123₅ = 1 × 25 + 2 × 5 + 3 × 1_  
-> _= 25 + 10 + 3 = 38_  
+> _31₄ = 3 × 4 + 1 × 1 = 12 + 1 = 13_  
 
 Check question (`c8-2-check`, level 1):
 
 **Convert 11₂ to base ten.**
 Answer: **3**
-- Wrong answer **11** (read-as-ten) → “11₂ is not the base-ten number 11: 1 × 2 + 1 = 3.”
+- Wrong answer **11** (read-as-ten) → “11₂ is not the base-ten number 11. In base 2, the left digit is worth 2s, not 10s.”
+- Wrong answer **2** (added-digits) → “You added the digits. Each digit gets multiplied by its place value first (2s, 1s), then you add the results.”
+- Wrong answer **1** (multiplied-digits) → “You multiplied the digits together. Each digit gets multiplied by its place value first (2s, 1s), then you add the results.”
 
 Hint (draft): Under the two digits, write the place values 2 and 1. Multiply and add.
 
 Full working after a second miss:
 
-> 11₂ = 1 × 2 + 1 × 1 = 2 + 1 = 3  
+> In base 2 the places are worth 2s, 1s.  
+> Multiply each digit by its place value: 1 × 2 = 2, 1 × 1 = 1.  
+> Add: 2 + 1 = 3.  
+> So 11₂ = 3 in base ten.  
 
 **Card c8-3** (draft)
 
@@ -1668,13 +1694,19 @@ Full working after a second miss:
 
 **Convert 168₉ to base ten.**
 Answer: **143**
-- Wrong answer **168** (read-as-ten) → “168₉ is not the base-ten number 168. Multiply each digit by its place value in base 9 (9², 9, 1…) and add.”
+- Wrong answer **168** (read-as-ten) → “168₉ is not the base-ten number 168. In base 9 the places are worth 81s, 9s, 1s, not ones, tens and hundreds.”
+- Wrong answer **15** (added-digits) → “You added the digits. Each digit gets multiplied by its place value first (81s, 9s, 1s), then you add the results.”
+- Wrong answer **48** (multiplied-digits) → “You multiplied the digits together. Each digit gets multiplied by its place value first (81s, 9s, 1s), then you add the results.”
+- Wrong answer **703** (places-reversed) → “Place values grow from the right: the right digit is worth 1s, the next 9s, then 81s, and so on.”
 
 Hint (draft): Under the digits of 168, write the place values of base 9, ending with …, 9, 1. Multiply each digit by its place value and add.
 
 Full working after a second miss:
 
-> 168₉ = 1 × 81 + 6 × 9 + 8 × 1 = 81 + 54 + 8 = 143  
+> In base 9 the places are worth 81s, 9s, 1s.  
+> Multiply each digit by its place value: 1 × 81 = 81, 6 × 9 = 54, 8 × 1 = 8.  
+> Add: 81 + 54 + 8 = 143.  
+> So 168₉ = 143 in base ten.  
 
 </details>
 
@@ -1797,7 +1829,7 @@ Answer: **5**
 Full working after a second miss:
 
 > Column 1 from the right: 4 is less than 5, so it borrows from the next column. In base 6, borrowing gives 6 more: 4 + 6 = 10. Then 10 − 5 = 5.  
-> Column 2 from the right: This 1 lent 1 to the right: 1 − 1 = 0. Then 0 − 0 = 0.  
+> Column 2 from the right: This 1 lent 1 to the right: 1 − 1 = 0. Nothing to take away: write 0.  
 > Answer: 5₆  
 
 **Worked example** (draft)
@@ -1857,7 +1889,7 @@ Full working after a second miss:
 
 > Column 1 from the right: 2 − 2 = 0.  
 > Column 2 from the right: 1 is less than 3, so it borrows from the next column. In base 4, borrowing gives 4 more: 1 + 4 = 5. Then 5 − 3 = 2.  
-> Column 3 from the right: This 1 lent 1 to the right: 1 − 1 = 0. Then 0 − 0 = 0.  
+> Column 3 from the right: This 1 lent 1 to the right: 1 − 1 = 0. Nothing to take away: write 0.  
 > Answer: 20₄  
 > Check in base ten: 22 − 14 = 8.  
 
@@ -1953,11 +1985,17 @@ Check question (`c10-3-check`, level 1):
 
 **To check a product, you first change 83₉ to base ten. What is it?**
 Answer: **75**
-- Wrong answer **83** (read-as-ten) → “83₉ = 8 × 9 + 3 = 75.”
+- Wrong answer **83** (read-as-ten) → “83₉ is not the base-ten number 83. In base 9, the left digit is worth 9s, not 10s.”
+- Wrong answer **11** (added-digits) → “You added the digits. Each digit gets multiplied by its place value first (9s, 1s), then you add the results.”
+- Wrong answer **24** (multiplied-digits) → “You multiplied the digits together. Each digit gets multiplied by its place value first (9s, 1s), then you add the results.”
+- Wrong answer **35** (places-reversed) → “Place values start from the right: the right digit is worth 1s and the left digit is worth 9s.”
 
 Full working after a second miss:
 
-> 83₉ = 8 × 9 + 3 × 1 = 72 + 3 = 75  
+> In base 9 the places are worth 9s, 1s.  
+> Multiply each digit by its place value: 8 × 9 = 72, 3 × 1 = 3.  
+> Add: 72 + 3 = 75.  
+> So 83₉ = 75 in base ten.  
 
 **Worked example** (draft)
 
@@ -2010,7 +2048,7 @@ Full working after a second miss:
 
 **In base 4, calculate 21₄ × 33₄. Give your answer in base 4. (Hint: you may go through base ten.)**
 Answer: **2013**
-- Wrong answer **693** (carried-ten) → “That is the base-ten product of the digits. In base 4: 21₄ = 9, 33₄ = 15, and 9 × 15 = 135 = 2013₄.”
+- Wrong answer **693** (carried-ten) → “You multiplied 21 × 33 as if they were base-ten numbers. In base 4: 21₄ = 9, 33₄ = 15, and 9 × 15 = 135 = 2013₄.”
 - Wrong answer **135** (answer-in-ten) → “135 is the answer in base ten. Convert it to base 4.”
 
 Full working after a second miss:

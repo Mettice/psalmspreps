@@ -95,12 +95,15 @@ Regenerate with `npm run review:home-economics`. Item IDs (TR-…) match `docs/t
 | 80 | `he20-how` | 20 | multiple choice, 1 | time-management |
 | 81 | `he20-order` | 20 | ordering, 2 | time-management |
 | 82 | `he20-spot` | 20 | spot the error, 3 | time-management |
-| 83 | `hec20-3-check` (card hec20-3) | 20 | multiple choice, 1 | time-management |
-| 84 | `he21-sort` | 21 | matching, 1 | kitchen-care |
-| 85 | `he21-why` | 21 | multiple choice, 1 | kitchen-care |
-| 86 | `he21-fridge` | 21 | multiple choice, 2 | kitchen-care |
-| 87 | `he21-spot` | 21 | spot the error, 3 | kitchen-care |
-| 88 | `hec21-3-check` (card hec21-3) | 21 | multiple choice, 1 | kitchen-care |
+| 83 | `pilot-home-economics-20-1` | 20 | multiple choice, 1 | time-management |
+| 84 | `pilot-home-economics-20-2` | 20 | multiple choice, 2 | time-management |
+| 85 | `pilot-home-economics-20-3` | 20 | multiple choice, 3 | time-management |
+| 86 | `hec20-3-check` (card hec20-3) | 20 | multiple choice, 1 | time-management |
+| 87 | `he21-sort` | 21 | matching, 1 | kitchen-care |
+| 88 | `he21-why` | 21 | multiple choice, 1 | kitchen-care |
+| 89 | `he21-fridge` | 21 | multiple choice, 2 | kitchen-care |
+| 90 | `he21-spot` | 21 | spot the error, 3 | kitchen-care |
+| 91 | `hec21-3-check` (card hec21-3) | 21 | multiple choice, 1 | kitchen-care |
 
 ### `he1-match` · Lesson 1 · matching, level 1
 
@@ -5790,6 +5793,153 @@ Full working after a second miss:
 
 > The wrong statement is “Time management wastes fuel.”.  
 > Good time management saves fuel.  
+
+Sources: time-management (Time management in the kitchen: advantages and methods (planning, dovetailing, preparing first, cleaning as you go))
+
+### `pilot-home-economics-20-1` · Lesson 20 · multiple choice, level 1
+
+Prompt: You need to sweep a room and pack a school bag before leaving. Books and clothes cover the floor. What should you do first?
+
+Right answer: `Clear and put away the things on the floor.`; wrong choices: `Sweep around every object and leave them there.`, `Pack the bag before finding the books.`
+
+- Feedback `activity-choice-0`: “Clearing the floor makes sweeping easier and helps locate the books needed for the bag.”
+- Feedback `activity-choice-1`: “Clearing the floor makes sweeping easier and helps locate the books needed for the bag.”
+
+Three generated variants:
+
+> You need to sweep a room and pack a school bag before leaving. Books and clothes cover the floor. What should you do first?
+
+- ✅ Clear and put away the things on the floor.
+- ◻️ Pack the bag before finding the books.  
+  _↳ feedback if chosen: Clearing the floor makes sweeping easier and helps locate the books needed for the bag._
+- ◻️ Sweep around every object and leave them there.  
+  _↳ feedback if chosen: Clearing the floor makes sweeping easier and helps locate the books needed for the bag._
+
+Full working after a second miss:
+
+> Clearing the floor makes sweeping easier and helps locate the books needed for the bag.  
+
+> You need to sweep a room and pack a school bag before leaving. Books and clothes cover the floor. What should you do first?
+
+- ◻️ Pack the bag before finding the books.  
+  _↳ feedback if chosen: Clearing the floor makes sweeping easier and helps locate the books needed for the bag._
+- ◻️ Sweep around every object and leave them there.  
+  _↳ feedback if chosen: Clearing the floor makes sweeping easier and helps locate the books needed for the bag._
+- ✅ Clear and put away the things on the floor.
+
+Full working after a second miss:
+
+> Clearing the floor makes sweeping easier and helps locate the books needed for the bag.  
+
+> You need to sweep a room and pack a school bag before leaving. Books and clothes cover the floor. What should you do first?
+
+- ◻️ Sweep around every object and leave them there.  
+  _↳ feedback if chosen: Clearing the floor makes sweeping easier and helps locate the books needed for the bag._
+- ◻️ Pack the bag before finding the books.  
+  _↳ feedback if chosen: Clearing the floor makes sweeping easier and helps locate the books needed for the bag._
+- ✅ Clear and put away the things on the floor.
+
+Full working after a second miss:
+
+> Clearing the floor makes sweeping easier and helps locate the books needed for the bag.  
+
+Sources: time-management (Time management in the kitchen: advantages and methods (planning, dovetailing, preparing first, cleaning as you go))
+
+### `pilot-home-economics-20-2` · Lesson 20 · multiple choice, level 2
+
+Prompt: The floor is now clear and the books are together. Which plan avoids repeating work?
+
+Right answer: `Sweep the room, then check and pack the school bag.`; wrong choices: `Pack the bag, empty it onto the floor, then sweep.`, `Sweep, scatter the books, then sweep again.`
+
+- Feedback `activity-choice-0`: “This order completes each task once and keeps the cleared floor free of the books.”
+- Feedback `activity-choice-1`: “This order completes each task once and keeps the cleared floor free of the books.”
+
+Three generated variants:
+
+> The floor is now clear and the books are together. Which plan avoids repeating work?
+
+- ✅ Sweep the room, then check and pack the school bag.
+- ◻️ Sweep, scatter the books, then sweep again.  
+  _↳ feedback if chosen: This order completes each task once and keeps the cleared floor free of the books._
+- ◻️ Pack the bag, empty it onto the floor, then sweep.  
+  _↳ feedback if chosen: This order completes each task once and keeps the cleared floor free of the books._
+
+Full working after a second miss:
+
+> This order completes each task once and keeps the cleared floor free of the books.  
+
+> The floor is now clear and the books are together. Which plan avoids repeating work?
+
+- ✅ Sweep the room, then check and pack the school bag.
+- ◻️ Sweep, scatter the books, then sweep again.  
+  _↳ feedback if chosen: This order completes each task once and keeps the cleared floor free of the books._
+- ◻️ Pack the bag, empty it onto the floor, then sweep.  
+  _↳ feedback if chosen: This order completes each task once and keeps the cleared floor free of the books._
+
+Full working after a second miss:
+
+> This order completes each task once and keeps the cleared floor free of the books.  
+
+> The floor is now clear and the books are together. Which plan avoids repeating work?
+
+- ◻️ Sweep, scatter the books, then sweep again.  
+  _↳ feedback if chosen: This order completes each task once and keeps the cleared floor free of the books._
+- ✅ Sweep the room, then check and pack the school bag.
+- ◻️ Pack the bag, empty it onto the floor, then sweep.  
+  _↳ feedback if chosen: This order completes each task once and keeps the cleared floor free of the books._
+
+Full working after a second miss:
+
+> This order completes each task once and keeps the cleared floor free of the books.  
+
+Sources: time-management (Time management in the kitchen: advantages and methods (planning, dovetailing, preparing first, cleaning as you go))
+
+### `pilot-home-economics-20-3` · Lesson 20 · multiple choice, level 3
+
+Prompt: Why is gathering the required books before packing useful?
+
+Right answer: `You can check what is needed and avoid repeatedly opening and emptying the bag.`; wrong choices: `It guarantees that no task will ever take longer than expected.`, `It removes the need to check the school timetable.`
+
+- Feedback `activity-choice-0`: “Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed.”
+- Feedback `activity-choice-1`: “Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed.”
+
+Three generated variants:
+
+> Why is gathering the required books before packing useful?
+
+- ◻️ It removes the need to check the school timetable.  
+  _↳ feedback if chosen: Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed._
+- ✅ You can check what is needed and avoid repeatedly opening and emptying the bag.
+- ◻️ It guarantees that no task will ever take longer than expected.  
+  _↳ feedback if chosen: Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed._
+
+Full working after a second miss:
+
+> Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed.  
+
+> Why is gathering the required books before packing useful?
+
+- ✅ You can check what is needed and avoid repeatedly opening and emptying the bag.
+- ◻️ It removes the need to check the school timetable.  
+  _↳ feedback if chosen: Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed._
+- ◻️ It guarantees that no task will ever take longer than expected.  
+  _↳ feedback if chosen: Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed._
+
+Full working after a second miss:
+
+> Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed.  
+
+> Why is gathering the required books before packing useful?
+
+- ✅ You can check what is needed and avoid repeatedly opening and emptying the bag.
+- ◻️ It removes the need to check the school timetable.  
+  _↳ feedback if chosen: Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed._
+- ◻️ It guarantees that no task will ever take longer than expected.  
+  _↳ feedback if chosen: Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed._
+
+Full working after a second miss:
+
+> Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed.  
 
 Sources: time-management (Time management in the kitchen: advantages and methods (planning, dovetailing, preparing first, cleaning as you go))
 

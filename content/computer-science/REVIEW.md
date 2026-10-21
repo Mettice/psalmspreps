@@ -2382,6 +2382,46 @@ Full working after a second miss:
 
 **Answer:** 13
 
+**Subject activity: Trace, predict, repair** (draft)
+
+**Trace each step**
+
+> Complete the missing working.
+
+Completed working: **Start with x = 4. Add 3, then add 3 again.
+After the first addition, x = 7.
+After the second addition, x = 10.**
+
+Full working after a second miss:
+
+> First addition: 4 + 3 = 7.  
+> Second addition: 7 + 3 = 10.  
+
+**Predict the output**
+
+> Start with x = 4. Add 3 three times in all. Output x. What is the output?
+
+Answer: **13**
+
+Full working after a second miss:
+
+> The values are 4, 7, 10, 13.  
+> Output 13.  
+
+**Repair an error**
+
+> The task is to add 3 three times to 4. A pupil writes: set x to 4; add 3 twice; output x. Which change repairs the algorithm?
+
+- ◻️ Output the starting value before the additions.  
+  _↳ feedback if chosen: The starting value is correct. The repetition count must be three to perform all three additions._
+- ◻️ Subtract instead of adding.  
+  _↳ feedback if chosen: The starting value is correct. The repetition count must be three to perform all three additions._
+- ✅ Repeat the addition three times instead of twice.
+
+Full working after a second miss:
+
+> The starting value is correct. The repetition count must be three to perform all three additions.  
+
 **Practice** `cs11-what` · multiple choice, level 1 · **authored key**
 
 > What is an algorithm?

@@ -2597,6 +2597,55 @@ Full working after a second miss:
 
 **Answer:** “How do you come to school?” — “I come by taxi.”
 
+**Subject activity: Read, practise, then write your own sentence** (draft)
+
+**Read the dialogue**
+
+> EWANE: How do you come to school?
+> AYUK: I come by bus.
+> EWANE: How long does it take?
+> AYUK: About twenty minutes.
+> Which phrase tells us Ayuk’s means of transport?
+
+- ◻️ How long  
+  _↳ feedback if chosen: “By bus” names the means of transport; “twenty minutes” tells us the duration._
+- ✅ by bus
+- ◻️ twenty minutes  
+  _↳ feedback if chosen: “By bus” names the means of transport; “twenty minutes” tells us the duration._
+
+Full working after a second miss:
+
+> “By bus” names the means of transport; “twenty minutes” tells us the duration.  
+
+**Practise the pattern**
+
+> undefined
+
+Sentence: **I travel to school ___ taxi.**
+- ◻️ on  
+  _↳ feedback if chosen: Use by + means of transport: by taxi. We say on foot for walking._
+- ◻️ with  
+  _↳ feedback if chosen: Use by + means of transport: by taxi. We say on foot for walking._
+- ✅ by
+
+Full working after a second miss:
+
+> Use by + means of transport: by taxi. We say on foot for walking.  
+
+**Paper task** (draft; not marked by the app, mastery stays unknown)
+
+> Write one original sentence about how you, or an imaginary pupil, travel to school. Use “by” with a means of transport, or “on foot” for walking.
+
+Model answer, shown after the pupil has written:
+
+> An example, not the only correct answer: I go to school by bicycle.  
+
+Self-check list:
+
+- [ ] I wrote a complete sentence of my own.
+- [ ] I used by + transport, or on foot.
+- [ ] I began with a capital letter and ended with a full stop.
+
 **Practice** `e13-sort` · matching, level 1 · **authored key**
 
 > How does each one travel? Sort them.

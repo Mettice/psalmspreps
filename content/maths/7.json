@@ -541,5 +541,72 @@
         }
       ]
     }
-  ]
+  ],
+  "activity": {
+    "status": "draft",
+    "title": "Work it out, then try on your own",
+    "stages": [
+      {
+        "title": "Complete the working",
+        "question": {
+          "id": "pilot-maths-7-1",
+          "level": 1,
+          "review": "rule",
+          "status": "draft",
+          "type": "blanks",
+          "vars": {
+            "a": 6,
+            "b": 4,
+            "c": 3
+          },
+          "text": "{a} + {b} × {c} = {a} + ___ = ___",
+          "prompt": "Complete the missing working.",
+          "answers": "[b * c, a + b * c]",
+          "solution": [
+            "Do the multiplication first: {b} × {c} = {b * c}.",
+            "Then add: {a} + {b * c} = {a + b * c}."
+          ],
+          "sources": []
+        }
+      },
+      {
+        "title": "Solve independently",
+        "question": {
+          "id": "pilot-maths-7-2",
+          "level": 2,
+          "review": "rule",
+          "status": "draft",
+          "type": "numeric",
+          "vars": {
+            "a": {
+              "int": [
+                2,
+                9
+              ]
+            },
+            "b": {
+              "int": [
+                2,
+                6
+              ]
+            },
+            "c": {
+              "int": [
+                2,
+                5
+              ]
+            }
+          },
+          "prompt": "Now solve this new calculation without the missing-step boxes: {a} + {b} × {c}.",
+          "answer": "a + b * c",
+          "verify": "answer == (a + b * c)",
+          "solution": [
+            "Multiply first: {b} × {c} = {b * c}.",
+            "Add: {a} + {b * c} = {a + b * c}."
+          ],
+          "sources": []
+        }
+      }
+    ]
+  }
 }

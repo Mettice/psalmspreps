@@ -804,6 +804,53 @@ Full working after a second miss:
 
 **Answer:** Ma tante ; mon cousin.
 
+**Subject activity: Lire, pratiquer et se présenter** (draft)
+
+**Lire un dialogue**
+
+> NGONO : Comment t’appelles-tu ?
+> BIH : Je m’appelle Bih. J’habite à Buea.
+> Quelle phrase donne le lieu où Bih habite ?
+
+- ✅ J’habite à Buea.
+- ◻️ Comment t’appelles-tu ?  
+  _↳ feedback if chosen: « J’habite à … » indique le lieu où l’on habite._
+- ◻️ Je m’appelle Bih.  
+  _↳ feedback if chosen: « J’habite à … » indique le lieu où l’on habite._
+
+Full working after a second miss:
+
+> « J’habite à … » indique le lieu où l’on habite.  
+
+**Pratiquer la structure**
+
+> undefined
+
+Sentence: **Pour dire mon nom : Je ___ Ngono.**
+- ◻️ suis  
+  _↳ feedback if chosen: Pour donner son nom, on dit : Je m’appelle Ngono._
+- ◻️ habite  
+  _↳ feedback if chosen: Pour donner son nom, on dit : Je m’appelle Ngono._
+- ✅ m’appelle
+
+Full working after a second miss:
+
+> Pour donner son nom, on dit : Je m’appelle Ngono.  
+
+**Paper task** (draft; not marked by the app, mastery stays unknown)
+
+> Écris une phrase originale pour présenter un personnage imaginaire. Utilise « Je m’appelle … » et choisis un prénom.
+
+Model answer, shown after the pupil has written:
+
+> Un exemple, pas la seule réponse possible : Je m’appelle Amina.  
+
+Self-check list:
+
+- [ ] J’ai choisi un prénom pour mon personnage.
+- [ ] J’ai utilisé Je m’appelle.
+- [ ] J’ai mis une majuscule et un point.
+
 **Practice** `f3-answer` · matching, level 1 · **authored key**
 
 > Relie chaque question à la bonne réponse.

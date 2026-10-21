@@ -578,6 +578,56 @@ Full working after a second miss:
 
 **Answer:** Hoe: farming. Pot: cooking. Necklace: money or decoration.
 
+**Subject activity: What does the evidence support?** (draft)
+
+**Examine a source**
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> Which observation is recorded on the source card?
+
+- ◻️ The pot was traded from another kingdom.  
+  _↳ feedback if chosen: The card records soot. It does not record an owner or a place of manufacture._
+- ◻️ The pot belonged to a chief.  
+  _↳ feedback if chosen: The card records soot. It does not record an owner or a place of manufacture._
+- ✅ The pot has soot on its outside.
+
+Full working after a second miss:
+
+> The card records soot. It does not record an owner or a place of manufacture.  
+
+**Choose a supported claim**
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> Which claim is best supported, while still allowing uncertainty?
+
+- ✅ The pot may have been used for cooking over a fire.
+- ◻️ The pot proves the exact year the settlement began.  
+  _↳ feedback if chosen: The hearth and soot support possible cooking use. They do not establish wealth or an exact date._
+- ◻️ The owner was certainly wealthy.  
+  _↳ feedback if chosen: The hearth and soot support possible cooking use. They do not establish wealth or an exact date._
+
+Full working after a second miss:
+
+> The hearth and soot support possible cooking use. They do not establish wealth or an exact date.  
+
+**Recognise a limit**
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> What extra evidence would help investigate when it was used?
+
+- ◻️ Guessing the age of its owner.  
+  _↳ feedback if chosen: A date needs relevant supporting evidence; neither colour alone nor a guess establishes it._
+- ◻️ Its clay colour alone gives the exact year.  
+  _↳ feedback if chosen: A date needs relevant supporting evidence; neither colour alone nor a guess establishes it._
+- ✅ A reliable dated record connected to the pot or its archaeological context.
+
+Full working after a second miss:
+
+> A date needs relevant supporting evidence; neither colour alone nor a guess establishes it.  
+
 **Practice** `hi2-which` · multiple choice, level 1 · **authored key**
 
 > Which of these is a historical relic?

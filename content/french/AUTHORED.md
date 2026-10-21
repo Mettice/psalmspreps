@@ -56,48 +56,50 @@ Everything the pupil reads in French lessons is in French, including the working
 | 11 | `f3-rel` | 3 | matching, 1 | vocabulaire |
 | 12 | `f3-who` | 3 | multiple choice, 2 | vocabulaire |
 | 13 | `f3-spot` | 3 | spot the error, 3 | vocabulaire |
-| 14 | `fc3-3-check` (card fc3-3) | 3 | multiple choice, 1 | vocabulaire |
-| 15 | `fc4-3-check` (card fc4-3) | 4 | multiple choice, 1 | articles |
-| 16 | `f5-spot` | 5 | spot the error, 3 | conjugaison |
-| 17 | `fc5-3-check` (card fc5-3) | 5 | multiple choice, 1 | conjugaison |
-| 18 | `f6-self` | 6 | multiple choice, 1 | oral |
-| 19 | `f6-other` | 6 | multiple choice, 1 | oral |
-| 20 | `f6-order` | 6 | word order, 2 | oral |
-| 21 | `f6-spot` | 6 | spot the error, 3 | oral |
-| 22 | `fc6-3-check` (card fc6-3) | 6 | multiple choice, 1 | oral |
-| 23 | `f7-replace` | 7 | multiple choice, 1 | pronoms |
-| 24 | `f7-sort` | 7 | matching, 1 | pronoms |
-| 25 | `f7-person` | 7 | matching, 2 | pronoms |
-| 26 | `f7-spot` | 7 | spot the error, 3 | pronoms |
-| 27 | `fc7-3-check` (card fc7-3) | 7 | multiple choice, 1 | pronoms |
-| 28 | `f8-spot` | 8 | spot the error, 3 | conjugaison |
-| 29 | `fc8-3-check` (card fc8-3) | 8 | multiple choice, 1 | conjugaison |
-| 30 | `f10-who` | 10 | multiple choice, 1 | lecture |
-| 31 | `f10-when` | 10 | multiple choice, 1 | lecture |
-| 32 | `f10-true` | 10 | multiple choice, 2 | lecture |
-| 33 | `f10-word` | 10 | multiple choice, 3 | lecture |
-| 34 | `fc10-3-check` (card fc10-3) | 10 | multiple choice, 1 | lecture |
-| 35 | `f11-what` | 11 | multiple choice, 1 | lecture |
-| 36 | `f11-true` | 11 | multiple choice, 1 | lecture |
-| 37 | `f11-subject` | 11 | multiple choice, 2 | lecture |
-| 38 | `f11-word` | 11 | multiple choice, 3 | lecture |
-| 39 | `fc11-3-check` (card fc11-3) | 11 | multiple choice, 1 | lecture |
-| 40 | `f12-place` | 12 | matching, 1 | vocabulaire |
-| 41 | `f12-staff` | 12 | matching, 1 | vocabulaire |
-| 42 | `f12-sort` | 12 | matching, 2 | vocabulaire |
-| 43 | `f12-spot` | 12 | spot the error, 3 | vocabulaire |
-| 44 | `fc12-3-check` (card fc12-3) | 12 | multiple choice, 1 | vocabulaire |
-| 45 | `f13-phrase` | 13 | multiple choice, 1 | grammaire |
-| 46 | `f13-sujet` | 13 | multiple choice, 1 | grammaire |
-| 47 | `f13-verbe` | 13 | multiple choice, 1 | grammaire |
-| 48 | `f13-order` | 13 | word order, 2 | grammaire |
-| 49 | `f13-spot` | 13 | spot the error, 3 | grammaire |
-| 50 | `f14-which` | 14 | multiple choice, 1 | ecriture |
-| 51 | `f14-fault` | 14 | multiple choice, 2 | ecriture |
-| 52 | `f14-type` | 14 | fill the blank, 3 | ecriture |
-| 53 | `fc14-3-check` (card fc14-3) | 14 | multiple choice, 1 | ecriture |
-| 54 | `f15-spot` | 15 | spot the error, 3 | possessifs |
-| 55 | `fc15-3-check` (card fc15-3) | 15 | multiple choice, 1 | possessifs |
+| 14 | `pilot-french-3-1` | 3 | multiple choice, 1 | vocabulaire |
+| 15 | `pilot-french-3-2` | 3 | fill the blank, 2 | vocabulaire |
+| 16 | `fc3-3-check` (card fc3-3) | 3 | multiple choice, 1 | vocabulaire |
+| 17 | `fc4-3-check` (card fc4-3) | 4 | multiple choice, 1 | articles |
+| 18 | `f5-spot` | 5 | spot the error, 3 | conjugaison |
+| 19 | `fc5-3-check` (card fc5-3) | 5 | multiple choice, 1 | conjugaison |
+| 20 | `f6-self` | 6 | multiple choice, 1 | oral |
+| 21 | `f6-other` | 6 | multiple choice, 1 | oral |
+| 22 | `f6-order` | 6 | word order, 2 | oral |
+| 23 | `f6-spot` | 6 | spot the error, 3 | oral |
+| 24 | `fc6-3-check` (card fc6-3) | 6 | multiple choice, 1 | oral |
+| 25 | `f7-replace` | 7 | multiple choice, 1 | pronoms |
+| 26 | `f7-sort` | 7 | matching, 1 | pronoms |
+| 27 | `f7-person` | 7 | matching, 2 | pronoms |
+| 28 | `f7-spot` | 7 | spot the error, 3 | pronoms |
+| 29 | `fc7-3-check` (card fc7-3) | 7 | multiple choice, 1 | pronoms |
+| 30 | `f8-spot` | 8 | spot the error, 3 | conjugaison |
+| 31 | `fc8-3-check` (card fc8-3) | 8 | multiple choice, 1 | conjugaison |
+| 32 | `f10-who` | 10 | multiple choice, 1 | lecture |
+| 33 | `f10-when` | 10 | multiple choice, 1 | lecture |
+| 34 | `f10-true` | 10 | multiple choice, 2 | lecture |
+| 35 | `f10-word` | 10 | multiple choice, 3 | lecture |
+| 36 | `fc10-3-check` (card fc10-3) | 10 | multiple choice, 1 | lecture |
+| 37 | `f11-what` | 11 | multiple choice, 1 | lecture |
+| 38 | `f11-true` | 11 | multiple choice, 1 | lecture |
+| 39 | `f11-subject` | 11 | multiple choice, 2 | lecture |
+| 40 | `f11-word` | 11 | multiple choice, 3 | lecture |
+| 41 | `fc11-3-check` (card fc11-3) | 11 | multiple choice, 1 | lecture |
+| 42 | `f12-place` | 12 | matching, 1 | vocabulaire |
+| 43 | `f12-staff` | 12 | matching, 1 | vocabulaire |
+| 44 | `f12-sort` | 12 | matching, 2 | vocabulaire |
+| 45 | `f12-spot` | 12 | spot the error, 3 | vocabulaire |
+| 46 | `fc12-3-check` (card fc12-3) | 12 | multiple choice, 1 | vocabulaire |
+| 47 | `f13-phrase` | 13 | multiple choice, 1 | grammaire |
+| 48 | `f13-sujet` | 13 | multiple choice, 1 | grammaire |
+| 49 | `f13-verbe` | 13 | multiple choice, 1 | grammaire |
+| 50 | `f13-order` | 13 | word order, 2 | grammaire |
+| 51 | `f13-spot` | 13 | spot the error, 3 | grammaire |
+| 52 | `f14-which` | 14 | multiple choice, 1 | ecriture |
+| 53 | `f14-fault` | 14 | multiple choice, 2 | ecriture |
+| 54 | `f14-type` | 14 | fill the blank, 3 | ecriture |
+| 55 | `fc14-3-check` (card fc14-3) | 14 | multiple choice, 1 | ecriture |
+| 56 | `f15-spot` | 15 | spot the error, 3 | possessifs |
+| 57 | `fc15-3-check` (card fc15-3) | 15 | multiple choice, 1 | possessifs |
 
 ### `f1-sort` · Lesson 1 · matching, level 1
 
@@ -993,6 +995,116 @@ Full working after a second miss:
 
 > La phrase fausse est « La sœur de mon père est ma cousine. ».  
 > La sœur de mon père est ma tante.  
+
+Sources: vocabulaire (Vocabulaire de la famille, des présentations et de l’école (lycée camerounais : provisorat, censeur, surveillant général, intendant))
+
+### `pilot-french-3-1` · Lesson 3 · multiple choice, level 1
+
+Prompt: NGONO : Comment t’appelles-tu ? / BIH : Je m’appelle Bih. J’habite à Buea. / Quelle phrase donne le lieu où Bih habite ?
+
+Right answer: `J’habite à Buea.`; wrong choices: `Je m’appelle Bih.`, `Comment t’appelles-tu ?`
+
+- Feedback `activity-choice-0`: “« J’habite à … » indique le lieu où l’on habite.”
+- Feedback `activity-choice-1`: “« J’habite à … » indique le lieu où l’on habite.”
+
+Three generated variants:
+
+> NGONO : Comment t’appelles-tu ?
+> BIH : Je m’appelle Bih. J’habite à Buea.
+> Quelle phrase donne le lieu où Bih habite ?
+
+- ◻️ Je m’appelle Bih.  
+  _↳ feedback if chosen: « J’habite à … » indique le lieu où l’on habite._
+- ◻️ Comment t’appelles-tu ?  
+  _↳ feedback if chosen: « J’habite à … » indique le lieu où l’on habite._
+- ✅ J’habite à Buea.
+
+Full working after a second miss:
+
+> « J’habite à … » indique le lieu où l’on habite.  
+
+> NGONO : Comment t’appelles-tu ?
+> BIH : Je m’appelle Bih. J’habite à Buea.
+> Quelle phrase donne le lieu où Bih habite ?
+
+- ✅ J’habite à Buea.
+- ◻️ Je m’appelle Bih.  
+  _↳ feedback if chosen: « J’habite à … » indique le lieu où l’on habite._
+- ◻️ Comment t’appelles-tu ?  
+  _↳ feedback if chosen: « J’habite à … » indique le lieu où l’on habite._
+
+Full working after a second miss:
+
+> « J’habite à … » indique le lieu où l’on habite.  
+
+> NGONO : Comment t’appelles-tu ?
+> BIH : Je m’appelle Bih. J’habite à Buea.
+> Quelle phrase donne le lieu où Bih habite ?
+
+- ✅ J’habite à Buea.
+- ◻️ Comment t’appelles-tu ?  
+  _↳ feedback if chosen: « J’habite à … » indique le lieu où l’on habite._
+- ◻️ Je m’appelle Bih.  
+  _↳ feedback if chosen: « J’habite à … » indique le lieu où l’on habite._
+
+Full working after a second miss:
+
+> « J’habite à … » indique le lieu où l’on habite.  
+
+Sources: vocabulaire (Vocabulaire de la famille, des présentations et de l’école (lycée camerounais : provisorat, censeur, surveillant général, intendant))
+
+### `pilot-french-3-2` · Lesson 3 · fill the blank, level 2
+
+Prompt: Pour dire mon nom : Je ___ Ngono.
+Sentence: Pour dire mon nom : Je ___ Ngono.
+Right answer: `'m’appelle'`
+
+Choices: `m’appelle`, `habite`, `suis`
+
+- Feedback `activity-choice-0`: “Pour donner son nom, on dit : Je m’appelle Ngono.”
+- Feedback `activity-choice-1`: “Pour donner son nom, on dit : Je m’appelle Ngono.”
+- Feedback `activity-choice-2`: “Pour donner son nom, on dit : Je m’appelle Ngono.”
+
+Three generated variants:
+
+> undefined
+
+Sentence: **Pour dire mon nom : Je ___ Ngono.**
+- ◻️ habite  
+  _↳ feedback if chosen: Pour donner son nom, on dit : Je m’appelle Ngono._
+- ✅ m’appelle
+- ◻️ suis  
+  _↳ feedback if chosen: Pour donner son nom, on dit : Je m’appelle Ngono._
+
+Full working after a second miss:
+
+> Pour donner son nom, on dit : Je m’appelle Ngono.  
+
+> undefined
+
+Sentence: **Pour dire mon nom : Je ___ Ngono.**
+- ✅ m’appelle
+- ◻️ suis  
+  _↳ feedback if chosen: Pour donner son nom, on dit : Je m’appelle Ngono._
+- ◻️ habite  
+  _↳ feedback if chosen: Pour donner son nom, on dit : Je m’appelle Ngono._
+
+Full working after a second miss:
+
+> Pour donner son nom, on dit : Je m’appelle Ngono.  
+
+> undefined
+
+Sentence: **Pour dire mon nom : Je ___ Ngono.**
+- ◻️ suis  
+  _↳ feedback if chosen: Pour donner son nom, on dit : Je m’appelle Ngono._
+- ◻️ habite  
+  _↳ feedback if chosen: Pour donner son nom, on dit : Je m’appelle Ngono._
+- ✅ m’appelle
+
+Full working after a second miss:
+
+> Pour donner son nom, on dit : Je m’appelle Ngono.  
 
 Sources: vocabulaire (Vocabulaire de la famille, des présentations et de l’école (lycée camerounais : provisorat, censeur, surveillant général, intendant))
 

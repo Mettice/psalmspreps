@@ -36,6 +36,10 @@ for (const [dir, n] of pilots) {
         assert.equal(q.verified, true);
         assert.doesNotMatch([q.prompt, q.answer, ...q.solution].join(" "), /undefined|NaN|Infinity|\{[^}]*\}/);
         assert.ok(q.solution.length);
+        if (lesson.language === "fr") assert.equal(tpl.lang, "fr");
+        if (q.options) for (const [i, option] of q.options.entries()) {
+          if (i !== q.correctIndex) assert.ok(option.explain, `${tpl.id}: every wrong choice needs feedback`);
+        }
         const answer = q.options ? q.correctIndex : q.type === "blanks" ? q.answers : q.answer;
         assert.equal(check(q, answer).correct, true);
         if (q.options) assert.equal(check(q, (q.correctIndex + 1) % q.options.length).correct, false);

@@ -127,16 +127,18 @@ Regenerate with `npm run review:english`. Item IDs (TR-…) match `docs/teacher-
 | 29 | `e13-reply` | 13 | multiple choice, 1 | transport |
 | 30 | `e13-build` | 13 | word order, 2 | transport |
 | 31 | `e13-spot` | 13 | spot the error, 3 | transport |
-| 32 | `e14-match` | 14 | matching, 1 | compounds |
-| 33 | `e14-written` | 14 | multiple choice, 1 | compounds |
-| 34 | `e14-class` | 14 | multiple choice, 1 | compounds |
-| 35 | `e14-join` | 14 | fill the blank, 2 | compounds |
-| 36 | `e14-convert` | 14 | fill the blank, 2 | compounds |
-| 37 | `e14-spot` | 14 | spot the error, 3 | compounds |
-| 38 | `e15-participle` | 15 | matching, 1 | irregular-verbs |
-| 39 | `e15-spot` | 15 | spot the error, 3 | present-perfect |
-| 40 | `c15-3-check` (card c15-3) | 15 | fill the blank, 1 | present-perfect |
-| 41 | `c16-1-check` (card c16-1) | 16 | matching, 1 | forms |
+| 32 | `pilot-english-13-1` | 13 | multiple choice, 1 | transport |
+| 33 | `pilot-english-13-2` | 13 | fill the blank, 2 | transport |
+| 34 | `e14-match` | 14 | matching, 1 | compounds |
+| 35 | `e14-written` | 14 | multiple choice, 1 | compounds |
+| 36 | `e14-class` | 14 | multiple choice, 1 | compounds |
+| 37 | `e14-join` | 14 | fill the blank, 2 | compounds |
+| 38 | `e14-convert` | 14 | fill the blank, 2 | compounds |
+| 39 | `e14-spot` | 14 | spot the error, 3 | compounds |
+| 40 | `e15-participle` | 15 | matching, 1 | irregular-verbs |
+| 41 | `e15-spot` | 15 | spot the error, 3 | present-perfect |
+| 42 | `c15-3-check` (card c15-3) | 15 | fill the blank, 1 | present-perfect |
+| 43 | `c16-1-check` (card c16-1) | 16 | matching, 1 | forms |
 
 ### `e1-reply` · Lesson 1 · multiple choice, level 1
 
@@ -2251,6 +2253,122 @@ Full working after a second miss:
 
 > The wrong statement is “I go to school by foot.”.  
 > We say “on foot”: I go to school on foot.  
+
+Sources: transport (by + transport, on foot (Cambridge English Grammar Today: by))
+
+### `pilot-english-13-1` · Lesson 13 · multiple choice, level 1
+
+Prompt: EWANE: How do you come to school? / AYUK: I come by bus. / EWANE: How long does it take? / AYUK: About twenty minutes. / Which phrase tells us Ayuk’s means of transport?
+
+Right answer: `by bus`; wrong choices: `twenty minutes`, `How long`
+
+- Feedback `activity-choice-0`: ““By bus” names the means of transport; “twenty minutes” tells us the duration.”
+- Feedback `activity-choice-1`: ““By bus” names the means of transport; “twenty minutes” tells us the duration.”
+
+Three generated variants:
+
+> EWANE: How do you come to school?
+> AYUK: I come by bus.
+> EWANE: How long does it take?
+> AYUK: About twenty minutes.
+> Which phrase tells us Ayuk’s means of transport?
+
+- ◻️ How long  
+  _↳ feedback if chosen: “By bus” names the means of transport; “twenty minutes” tells us the duration._
+- ◻️ twenty minutes  
+  _↳ feedback if chosen: “By bus” names the means of transport; “twenty minutes” tells us the duration._
+- ✅ by bus
+
+Full working after a second miss:
+
+> “By bus” names the means of transport; “twenty minutes” tells us the duration.  
+
+> EWANE: How do you come to school?
+> AYUK: I come by bus.
+> EWANE: How long does it take?
+> AYUK: About twenty minutes.
+> Which phrase tells us Ayuk’s means of transport?
+
+- ◻️ How long  
+  _↳ feedback if chosen: “By bus” names the means of transport; “twenty minutes” tells us the duration._
+- ◻️ twenty minutes  
+  _↳ feedback if chosen: “By bus” names the means of transport; “twenty minutes” tells us the duration._
+- ✅ by bus
+
+Full working after a second miss:
+
+> “By bus” names the means of transport; “twenty minutes” tells us the duration.  
+
+> EWANE: How do you come to school?
+> AYUK: I come by bus.
+> EWANE: How long does it take?
+> AYUK: About twenty minutes.
+> Which phrase tells us Ayuk’s means of transport?
+
+- ◻️ How long  
+  _↳ feedback if chosen: “By bus” names the means of transport; “twenty minutes” tells us the duration._
+- ✅ by bus
+- ◻️ twenty minutes  
+  _↳ feedback if chosen: “By bus” names the means of transport; “twenty minutes” tells us the duration._
+
+Full working after a second miss:
+
+> “By bus” names the means of transport; “twenty minutes” tells us the duration.  
+
+Sources: transport (by + transport, on foot (Cambridge English Grammar Today: by))
+
+### `pilot-english-13-2` · Lesson 13 · fill the blank, level 2
+
+Prompt: I travel to school ___ taxi.
+Sentence: I travel to school ___ taxi.
+Right answer: `'by'`
+
+Choices: `by`, `on`, `with`
+
+- Feedback `activity-choice-0`: “Use by + means of transport: by taxi. We say on foot for walking.”
+- Feedback `activity-choice-1`: “Use by + means of transport: by taxi. We say on foot for walking.”
+- Feedback `activity-choice-2`: “Use by + means of transport: by taxi. We say on foot for walking.”
+
+Three generated variants:
+
+> undefined
+
+Sentence: **I travel to school ___ taxi.**
+- ◻️ on  
+  _↳ feedback if chosen: Use by + means of transport: by taxi. We say on foot for walking._
+- ✅ by
+- ◻️ with  
+  _↳ feedback if chosen: Use by + means of transport: by taxi. We say on foot for walking._
+
+Full working after a second miss:
+
+> Use by + means of transport: by taxi. We say on foot for walking.  
+
+> undefined
+
+Sentence: **I travel to school ___ taxi.**
+- ✅ by
+- ◻️ on  
+  _↳ feedback if chosen: Use by + means of transport: by taxi. We say on foot for walking._
+- ◻️ with  
+  _↳ feedback if chosen: Use by + means of transport: by taxi. We say on foot for walking._
+
+Full working after a second miss:
+
+> Use by + means of transport: by taxi. We say on foot for walking.  
+
+> undefined
+
+Sentence: **I travel to school ___ taxi.**
+- ◻️ on  
+  _↳ feedback if chosen: Use by + means of transport: by taxi. We say on foot for walking._
+- ◻️ with  
+  _↳ feedback if chosen: Use by + means of transport: by taxi. We say on foot for walking._
+- ✅ by
+
+Full working after a second miss:
+
+> Use by + means of transport: by taxi. We say on foot for walking.  
 
 Sources: transport (by + transport, on foot (Cambridge English Grammar Today: by))
 

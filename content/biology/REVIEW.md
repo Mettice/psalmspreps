@@ -2375,11 +2375,59 @@ Full working after a second miss:
 
 **Answer:** A chloroplast: it makes food by photosynthesis.
 
+**Subject activity: Compare cells and connect structure to function** (draft)
+
+**Compare the structures**
+
+> This is a plant cell. Which labelled structure forms its supporting outer layer, outside the cell membrane?
+
+![drawing](figures/pilot-biology-13-1-15.svg)
+
+- ◻️ The cytoplasm.  
+  _↳ feedback if chosen: The cell wall is outside the membrane and supports the cell._
+- ◻️ The nucleus.  
+  _↳ feedback if chosen: The cell wall is outside the membrane and supports the cell._
+- ✅ The cell wall.
+
+Full working after a second miss:
+
+> The cell wall is outside the membrane and supports the cell.  
+
+**Connect a part to its function**
+
+> Look at this animal cell. What is the main role of its cell membrane?
+
+![drawing](figures/pilot-biology-13-2-16.svg)
+
+- ◻️ It forms a rigid cell wall.  
+  _↳ feedback if chosen: The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall._
+- ✅ It controls movement of substances into and out of the cell.
+- ◻️ It makes food using sunlight.  
+  _↳ feedback if chosen: The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall._
+
+Full working after a second miss:
+
+> The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall.  
+
+**Explain a difference**
+
+> Which statement correctly compares the plant cell shown with an animal cell?
+
+- ✅ The plant cell has chloroplasts for photosynthesis; the animal cell has none.
+- ◻️ The animal cell has a cell wall but the plant cell has none.  
+  _↳ feedback if chosen: Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts._
+- ◻️ Both cells have chloroplasts for photosynthesis.  
+  _↳ feedback if chosen: Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts._
+
+Full working after a second miss:
+
+> Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts.  
+
 **Practice** `b13-part` · multiple choice, level 1 · **authored key**
 
 > What is the part labelled B?
 
-![drawing](figures/b13-part-15.svg)
+![drawing](figures/b13-part-17.svg)
 
 - ◻️ nucleus  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -2396,7 +2444,7 @@ Full working after a second miss:
 
 > What is the part labelled F?
 
-![drawing](figures/b13-part-16.svg)
+![drawing](figures/b13-part-18.svg)
 
 - ◻️ chloroplast  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -2415,7 +2463,7 @@ Full working after a second miss:
 
 > Which letter shows the vacuole?
 
-![drawing](figures/b13-letter-17.svg)
+![drawing](figures/b13-letter-19.svg)
 
 - ◻️ F  
   _↳ feedback if chosen: That letter is next to a different part._
@@ -2431,7 +2479,7 @@ Full working after a second miss:
 
 > Which letter shows the chloroplast?
 
-![drawing](figures/b13-letter-18.svg)
+![drawing](figures/b13-letter-20.svg)
 
 - ✅ E
 - ◻️ D  
@@ -2449,7 +2497,7 @@ Full working after a second miss:
 
 > In this animal cell, which part is labelled C?
 
-![drawing](figures/b13-animal-19.svg)
+![drawing](figures/b13-animal-21.svg)
 
 - ✅ cytoplasm
 - ◻️ cell wall  
@@ -2463,7 +2511,7 @@ Full working after a second miss:
 
 > In this animal cell, which part is labelled B?
 
-![drawing](figures/b13-animal-20.svg)
+![drawing](figures/b13-animal-22.svg)
 
 - ◻️ cell membrane  
   _↳ feedback if chosen: Look again: the edge is the membrane, the jelly is the cytoplasm, the dark round part is the nucleus._
@@ -3789,7 +3837,7 @@ Check question: `b19-layer` · multiple choice, level 1 · **authored key**, reu
 
 > What is the part labelled A?
 
-![drawing](figures/b19-layer-21.svg)
+![drawing](figures/b19-layer-23.svg)
 
 - ◻️ bedrock  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -3829,7 +3877,7 @@ Full working after a second miss:
 
 > In the soil profile, which letter shows the layer where most plant roots and earthworms live, and why?
 
-![drawing](figures/worked-19-22.svg)
+![drawing](figures/worked-19-24.svg)
 
 1. The top layer is dark because it is rich in humus.
 2. Humus and air are food and shelter for roots and soil animals.
@@ -3877,7 +3925,7 @@ Full working after a second miss:
 
 > What is the part labelled A?
 
-![drawing](figures/b19-layer-23.svg)
+![drawing](figures/b19-layer-25.svg)
 
 - ◻️ subsoil  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -3894,7 +3942,7 @@ Full working after a second miss:
 
 > What is the part labelled B?
 
-![drawing](figures/b19-layer-24.svg)
+![drawing](figures/b19-layer-26.svg)
 
 - ◻️ weathered rock (parent material)  
   _↳ feedback if chosen: Look again at what the letter is next to._

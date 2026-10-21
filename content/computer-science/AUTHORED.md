@@ -59,31 +59,34 @@ Regenerate with `npm run review:computer-science`. Item IDs (TR-…) match `docs
 | 41 | `csc10-3-check` (card csc10-3) | 10 | multiple choice, 1 | comp-thinking |
 | 42 | `cs11-what` | 11 | multiple choice, 1 | algorithms |
 | 43 | `cs11-shape` | 11 | matching, 1 | algorithms |
-| 44 | `cs13-sort` | 13 | matching, 1 | computing-environment |
-| 45 | `cs13-soft` | 13 | multiple choice, 1 | computing-environment |
-| 46 | `cs13-match` | 13 | matching, 1 | computing-environment |
-| 47 | `cs13-need` | 13 | multiple choice, 2 | computing-environment |
-| 48 | `cs13-spot` | 13 | spot the error, 3 | computing-environment |
-| 49 | `cs14-who` | 14 | multiple choice, 1 | data-info |
-| 50 | `cs14-sort` | 14 | matching, 1 | data-info |
-| 51 | `cs14-turn` | 14 | multiple choice, 2 | data-info |
-| 52 | `cs14-spot` | 14 | spot the error, 3 | data-info |
-| 53 | `csc14-3-check` (card csc14-3) | 14 | multiple choice, 1 | data-info |
-| 54 | `cs16-match` | 16 | matching, 1 | computer-lab |
-| 55 | `cs16-which` | 16 | multiple choice, 1 | computer-lab |
-| 56 | `cs16-power` | 16 | multiple choice, 2 | computer-lab |
-| 57 | `cs16-spot` | 16 | spot the error, 3 | computer-lab |
-| 58 | `csc16-3-check` (card csc16-3) | 16 | multiple choice, 1 | computer-lab |
-| 59 | `cs17-name` | 17 | multiple choice, 1 | computer-lab |
-| 60 | `cs17-adv` | 17 | multiple choice, 1 | computer-lab |
-| 61 | `cs17-plan` | 17 | multiple choice, 2 | computer-lab |
-| 62 | `cs17-spot` | 17 | spot the error, 3 | computer-lab |
-| 63 | `csc17-3-check` (card csc17-3) | 17 | multiple choice, 1 | computer-lab |
-| 64 | `cs18-sort` | 18 | matching, 1 | computer-lab |
-| 65 | `cs18-fault` | 18 | multiple choice, 1 | computer-lab |
-| 66 | `cs18-why` | 18 | multiple choice, 2 | computer-lab |
-| 67 | `cs18-spot` | 18 | spot the error, 3 | computer-lab |
-| 68 | `csc18-3-check` (card csc18-3) | 18 | multiple choice, 1 | computer-lab |
+| 44 | `pilot-computer-science-11-1` | 11 | missing working, 1 | algorithms |
+| 45 | `pilot-computer-science-11-2` | 11 | number, 2 | algorithms |
+| 46 | `pilot-computer-science-11-3` | 11 | multiple choice, 3 | algorithms |
+| 47 | `cs13-sort` | 13 | matching, 1 | computing-environment |
+| 48 | `cs13-soft` | 13 | multiple choice, 1 | computing-environment |
+| 49 | `cs13-match` | 13 | matching, 1 | computing-environment |
+| 50 | `cs13-need` | 13 | multiple choice, 2 | computing-environment |
+| 51 | `cs13-spot` | 13 | spot the error, 3 | computing-environment |
+| 52 | `cs14-who` | 14 | multiple choice, 1 | data-info |
+| 53 | `cs14-sort` | 14 | matching, 1 | data-info |
+| 54 | `cs14-turn` | 14 | multiple choice, 2 | data-info |
+| 55 | `cs14-spot` | 14 | spot the error, 3 | data-info |
+| 56 | `csc14-3-check` (card csc14-3) | 14 | multiple choice, 1 | data-info |
+| 57 | `cs16-match` | 16 | matching, 1 | computer-lab |
+| 58 | `cs16-which` | 16 | multiple choice, 1 | computer-lab |
+| 59 | `cs16-power` | 16 | multiple choice, 2 | computer-lab |
+| 60 | `cs16-spot` | 16 | spot the error, 3 | computer-lab |
+| 61 | `csc16-3-check` (card csc16-3) | 16 | multiple choice, 1 | computer-lab |
+| 62 | `cs17-name` | 17 | multiple choice, 1 | computer-lab |
+| 63 | `cs17-adv` | 17 | multiple choice, 1 | computer-lab |
+| 64 | `cs17-plan` | 17 | multiple choice, 2 | computer-lab |
+| 65 | `cs17-spot` | 17 | spot the error, 3 | computer-lab |
+| 66 | `csc17-3-check` (card csc17-3) | 17 | multiple choice, 1 | computer-lab |
+| 67 | `cs18-sort` | 18 | matching, 1 | computer-lab |
+| 68 | `cs18-fault` | 18 | multiple choice, 1 | computer-lab |
+| 69 | `cs18-why` | 18 | multiple choice, 2 | computer-lab |
+| 70 | `cs18-spot` | 18 | spot the error, 3 | computer-lab |
+| 71 | `csc18-3-check` (card csc18-3) | 18 | multiple choice, 1 | computer-lab |
 
 ### `cs1-ipo` · Lesson 1 · multiple choice, level 1
 
@@ -2977,6 +2980,137 @@ Full working after a second miss:
 > parallelogram → input or output  
 > rectangle → a process (doing something)  
 > oval → start or end  
+
+Sources: algorithms (Algorithms in words, flowcharts (oval, rectangle, diamond, parallelogram) and pseudocode; tracing (computed))
+
+### `pilot-computer-science-11-1` · Lesson 11 · missing working, level 1
+
+Prompt: Complete the missing working.
+Sentence: Start with x = {a}. Add {b}, then add {b} again.
+After the first addition, x = ___.
+After the second addition, x = ___.
+
+
+Three generated variants:
+
+> Complete the missing working.
+
+Completed working: **Start with x = 4. Add 3, then add 3 again.
+After the first addition, x = 7.
+After the second addition, x = 10.**
+
+Full working after a second miss:
+
+> First addition: 4 + 3 = 7.  
+> Second addition: 7 + 3 = 10.  
+
+> Complete the missing working.
+
+Completed working: **Start with x = 4. Add 3, then add 3 again.
+After the first addition, x = 7.
+After the second addition, x = 10.**
+
+Full working after a second miss:
+
+> First addition: 4 + 3 = 7.  
+> Second addition: 7 + 3 = 10.  
+
+> Complete the missing working.
+
+Completed working: **Start with x = 4. Add 3, then add 3 again.
+After the first addition, x = 7.
+After the second addition, x = 10.**
+
+Full working after a second miss:
+
+> First addition: 4 + 3 = 7.  
+> Second addition: 7 + 3 = 10.  
+
+Sources: algorithms (Algorithms in words, flowcharts (oval, rectangle, diamond, parallelogram) and pseudocode; tracing (computed))
+
+### `pilot-computer-science-11-2` · Lesson 11 · number, level 2
+
+Prompt: Start with x = {a}. Add {b} three times in all. Output x. What is the output?
+Right answer: `a + 3 * b`
+
+
+Three generated variants:
+
+> Start with x = 4. Add 3 three times in all. Output x. What is the output?
+
+Answer: **13**
+
+Full working after a second miss:
+
+> The values are 4, 7, 10, 13.  
+> Output 13.  
+
+> Start with x = 4. Add 3 three times in all. Output x. What is the output?
+
+Answer: **13**
+
+Full working after a second miss:
+
+> The values are 4, 7, 10, 13.  
+> Output 13.  
+
+> Start with x = 4. Add 3 three times in all. Output x. What is the output?
+
+Answer: **13**
+
+Full working after a second miss:
+
+> The values are 4, 7, 10, 13.  
+> Output 13.  
+
+Sources: algorithms (Algorithms in words, flowcharts (oval, rectangle, diamond, parallelogram) and pseudocode; tracing (computed))
+
+### `pilot-computer-science-11-3` · Lesson 11 · multiple choice, level 3
+
+Prompt: The task is to add {b} three times to {a}. A pupil writes: set x to {a}; add {b} twice; output x. Which change repairs the algorithm?
+
+Right answer: `Repeat the addition three times instead of twice.`; wrong choices: `Subtract instead of adding.`, `Output the starting value before the additions.`
+
+- Feedback `activity-choice-0`: “The starting value is correct. The repetition count must be three to perform all three additions.”
+- Feedback `activity-choice-1`: “The starting value is correct. The repetition count must be three to perform all three additions.”
+
+Three generated variants:
+
+> The task is to add 3 three times to 4. A pupil writes: set x to 4; add 3 twice; output x. Which change repairs the algorithm?
+
+- ✅ Repeat the addition three times instead of twice.
+- ◻️ Subtract instead of adding.  
+  _↳ feedback if chosen: The starting value is correct. The repetition count must be three to perform all three additions._
+- ◻️ Output the starting value before the additions.  
+  _↳ feedback if chosen: The starting value is correct. The repetition count must be three to perform all three additions._
+
+Full working after a second miss:
+
+> The starting value is correct. The repetition count must be three to perform all three additions.  
+
+> The task is to add 3 three times to 4. A pupil writes: set x to 4; add 3 twice; output x. Which change repairs the algorithm?
+
+- ✅ Repeat the addition three times instead of twice.
+- ◻️ Output the starting value before the additions.  
+  _↳ feedback if chosen: The starting value is correct. The repetition count must be three to perform all three additions._
+- ◻️ Subtract instead of adding.  
+  _↳ feedback if chosen: The starting value is correct. The repetition count must be three to perform all three additions._
+
+Full working after a second miss:
+
+> The starting value is correct. The repetition count must be three to perform all three additions.  
+
+> The task is to add 3 three times to 4. A pupil writes: set x to 4; add 3 twice; output x. Which change repairs the algorithm?
+
+- ◻️ Output the starting value before the additions.  
+  _↳ feedback if chosen: The starting value is correct. The repetition count must be three to perform all three additions._
+- ◻️ Subtract instead of adding.  
+  _↳ feedback if chosen: The starting value is correct. The repetition count must be three to perform all three additions._
+- ✅ Repeat the addition three times instead of twice.
+
+Full working after a second miss:
+
+> The starting value is correct. The repetition count must be three to perform all three additions.  
 
 Sources: algorithms (Algorithms in words, flowcharts (oval, rectangle, diamond, parallelogram) and pseudocode; tracing (computed))
 

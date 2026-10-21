@@ -371,5 +371,131 @@
     "wrong": 1
    }
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "What does the evidence support?",
+  "stages": [
+   {
+    "title": "Examine a source",
+    "question": {
+     "id": "pilot-history-2-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "relics"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Classroom source card (invented for this activity):\nA clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.\nWhich observation is recorded on the source card?",
+     "correct": "The pot has soot on its outside.",
+     "distractors": [
+      {
+       "text": "The pot belonged to a chief.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "The pot was traded from another kingdom.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The card records soot. It does not record an owner or a place of manufacture."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The card records soot. It does not record an owner or a place of manufacture."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The card records soot. It does not record an owner or a place of manufacture."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Choose a supported claim",
+    "question": {
+     "id": "pilot-history-2-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "relics"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Classroom source card (invented for this activity):\nA clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.\nWhich claim is best supported, while still allowing uncertainty?",
+     "correct": "The pot may have been used for cooking over a fire.",
+     "distractors": [
+      {
+       "text": "The owner was certainly wealthy.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "The pot proves the exact year the settlement began.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The hearth and soot support possible cooking use. They do not establish wealth or an exact date."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The hearth and soot support possible cooking use. They do not establish wealth or an exact date."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The hearth and soot support possible cooking use. They do not establish wealth or an exact date."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Recognise a limit",
+    "question": {
+     "id": "pilot-history-2-3",
+     "level": 3,
+     "review": "authored",
+     "sources": [
+      "relics"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Classroom source card (invented for this activity):\nA clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.\nWhat extra evidence would help investigate when it was used?",
+     "correct": "A reliable dated record connected to the pot or its archaeological context.",
+     "distractors": [
+      {
+       "text": "Its clay colour alone gives the exact year.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "Guessing the age of its owner.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "A date needs relevant supporting evidence; neither colour alone nor a guess establishes it."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "A date needs relevant supporting evidence; neither colour alone nor a guess establishes it."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "A date needs relevant supporting evidence; neither colour alone nor a guess establishes it."
+      }
+     ]
+    }
+   }
+  ]
+ }
 }

@@ -1880,6 +1880,49 @@ Full working after a second miss:
 
 **Answer:** 155 s
 
+**Subject activity: Predict and read a thermometer** (draft)
+
+**Predict**
+
+> A liquid-in-glass thermometer is placed in water warmer than the thermometer. What happens as the thermometer warms up?
+
+- ✅ Its liquid column rises.
+- ◻️ Its liquid column falls.  
+  _↳ feedback if chosen: The thermometer liquid expands as it warms, so its column rises._
+- ◻️ Its scale markings move.  
+  _↳ feedback if chosen: The thermometer liquid expands as it warms, so its column rises._
+
+Full working after a second miss:
+
+> The thermometer liquid expands as it warms, so its column rises.  
+
+**Inspect the diagram**
+
+> The reading has stopped changing. Read this thermometer.
+
+![drawing](figures/pilot-chemistry-8-2-7.svg)
+
+Answer: **36 °C**
+
+Full working after a second miss:
+
+> The scale is in degrees Celsius.  
+> The liquid column ends at 36 °C.  
+
+**Explain the reading**
+
+> Why should your eye be level with the end of the thermometer column?
+
+- ◻️ To warm the liquid faster.  
+  _↳ feedback if chosen: Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level._
+- ◻️ To change the distance between the scale marks.  
+  _↳ feedback if chosen: Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level._
+- ✅ To avoid an apparent shift in the reading when viewed at an angle.
+
+Full working after a second miss:
+
+> Looking straight across the scale reduces parallax: the column and scale are compared at the same eye level.  
+
 **Practice** `ch8-time` · number, level 1 · computed by rule
 
 > A reaction takes 6 min 8 s. How many seconds is that?
@@ -1906,7 +1949,7 @@ Full working after a second miss:
 
 > What temperature does the thermometer show?
 
-![drawing](figures/ch8-read-7.svg)
+![drawing](figures/ch8-read-8.svg)
 
 Answer: **9 °C**
 - Typed **19** (next) → “Count the small marks after the last number: each one is 1 °C.”
@@ -1918,7 +1961,7 @@ Full working after a second miss:
 
 > What temperature does the thermometer show?
 
-![drawing](figures/ch8-read-8.svg)
+![drawing](figures/ch8-read-9.svg)
 
 Answer: **37 °C**
 - Typed **47** (next) → “Count the small marks after the last number: each one is 1 °C.”

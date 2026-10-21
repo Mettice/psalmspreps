@@ -726,6 +726,8 @@ Prompt: BIH : Regarde la cour propre ! / NJI : Oui, la cour est propre. / Dans �
 
 Right answer: `Épithète.`; wrong choices: `Attribut du sujet.`, `Verbe.`
 
+- Feedback `activity-choice-0`: “« Propre » est placé à côté du nom « cour », sans verbe : épithète.”
+- Feedback `activity-choice-1`: “« Propre » est placé à côté du nom « cour », sans verbe : épithète.”
 
 Three generated variants:
 
@@ -733,9 +735,11 @@ Three generated variants:
 > NJI : Oui, la cour est propre.
 > Dans « la cour propre », quelle est la fonction de « propre » ?
 
-- ◻️ Verbe.
+- ◻️ Verbe.  
+  _↳ feedback if chosen: « Propre » est placé à côté du nom « cour », sans verbe : épithète._
 - ✅ Épithète.
-- ◻️ Attribut du sujet.
+- ◻️ Attribut du sujet.  
+  _↳ feedback if chosen: « Propre » est placé à côté du nom « cour », sans verbe : épithète._
 
 Full working after a second miss:
 
@@ -745,8 +749,10 @@ Full working after a second miss:
 > NJI : Oui, la cour est propre.
 > Dans « la cour propre », quelle est la fonction de « propre » ?
 
-- ◻️ Verbe.
-- ◻️ Attribut du sujet.
+- ◻️ Verbe.  
+  _↳ feedback if chosen: « Propre » est placé à côté du nom « cour », sans verbe : épithète._
+- ◻️ Attribut du sujet.  
+  _↳ feedback if chosen: « Propre » est placé à côté du nom « cour », sans verbe : épithète._
 - ✅ Épithète.
 
 Full working after a second miss:
@@ -757,9 +763,11 @@ Full working after a second miss:
 > NJI : Oui, la cour est propre.
 > Dans « la cour propre », quelle est la fonction de « propre » ?
 
-- ◻️ Verbe.
+- ◻️ Verbe.  
+  _↳ feedback if chosen: « Propre » est placé à côté du nom « cour », sans verbe : épithète._
 - ✅ Épithète.
-- ◻️ Attribut du sujet.
+- ◻️ Attribut du sujet.  
+  _↳ feedback if chosen: « Propre » est placé à côté du nom « cour », sans verbe : épithète._
 
 Full working after a second miss:
 
@@ -773,14 +781,18 @@ Prompt: Dans « La cour est propre », pourquoi « propre » est-il attribut du 
 
 Right answer: `Il est relié au sujet par le verbe être.`; wrong choices: `Il est placé directement à côté du nom, sans verbe.`, `Il remplace le nom cour.`
 
+- Feedback `activity-choice-0`: “Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour ».”
+- Feedback `activity-choice-1`: “Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour ».”
 
 Three generated variants:
 
 > Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?
 
-- ◻️ Il remplace le nom cour.
+- ◻️ Il remplace le nom cour.  
+  _↳ feedback if chosen: Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »._
 - ✅ Il est relié au sujet par le verbe être.
-- ◻️ Il est placé directement à côté du nom, sans verbe.
+- ◻️ Il est placé directement à côté du nom, sans verbe.  
+  _↳ feedback if chosen: Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »._
 
 Full working after a second miss:
 
@@ -789,8 +801,10 @@ Full working after a second miss:
 > Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?
 
 - ✅ Il est relié au sujet par le verbe être.
-- ◻️ Il est placé directement à côté du nom, sans verbe.
-- ◻️ Il remplace le nom cour.
+- ◻️ Il est placé directement à côté du nom, sans verbe.  
+  _↳ feedback if chosen: Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »._
+- ◻️ Il remplace le nom cour.  
+  _↳ feedback if chosen: Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »._
 
 Full working after a second miss:
 
@@ -798,9 +812,11 @@ Full working after a second miss:
 
 > Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?
 
-- ◻️ Il est placé directement à côté du nom, sans verbe.
+- ◻️ Il est placé directement à côté du nom, sans verbe.  
+  _↳ feedback if chosen: Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »._
 - ✅ Il est relié au sujet par le verbe être.
-- ◻️ Il remplace le nom cour.
+- ◻️ Il remplace le nom cour.  
+  _↳ feedback if chosen: Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »._
 
 Full working after a second miss:
 

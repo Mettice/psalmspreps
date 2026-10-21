@@ -280,5 +280,102 @@
     "So the output is “{answer}”."
    ]
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Trace, predict, repair",
+  "stages": [
+   {
+    "title": "Trace each step",
+    "question": {
+     "id": "pilot-computer-science-11-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "algorithms"
+     ],
+     "status": "draft",
+     "type": "blanks",
+     "vars": {
+      "a": 4,
+      "b": 3
+     },
+     "text": "Start with x = {a}. Add {b}, then add {b} again.\nAfter the first addition, x = ___.\nAfter the second addition, x = ___.",
+     "prompt": "Complete the missing working.",
+     "answers": "[a + b, a + 2 * b]",
+     "solution": [
+      "First addition: {a} + {b} = {a + b}.",
+      "Second addition: {a + b} + {b} = {a + 2 * b}."
+     ]
+    }
+   },
+   {
+    "title": "Predict the output",
+    "question": {
+     "id": "pilot-computer-science-11-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "algorithms"
+     ],
+     "status": "draft",
+     "type": "numeric",
+     "vars": {
+      "a": 4,
+      "b": 3
+     },
+     "prompt": "Start with x = {a}. Add {b} three times in all. Output x. What is the output?",
+     "answer": "a + 3 * b",
+     "verify": "answer == (a + 3 * b)",
+     "solution": [
+      "The values are {a}, {a + b}, {a + 2 * b}, {a + 3 * b}.",
+      "Output {a + 3 * b}."
+     ]
+    }
+   },
+   {
+    "title": "Repair an error",
+    "question": {
+     "id": "pilot-computer-science-11-3",
+     "level": 3,
+     "review": "authored",
+     "sources": [
+      "algorithms"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {
+      "a": 4,
+      "b": 3
+     },
+     "prompt": "The task is to add {b} three times to {a}. A pupil writes: set x to {a}; add {b} twice; output x. Which change repairs the algorithm?",
+     "correct": "Repeat the addition three times instead of twice.",
+     "distractors": [
+      {
+       "text": "Subtract instead of adding.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "Output the starting value before the additions.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The starting value is correct. The repetition count must be three to perform all three additions."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The starting value is correct. The repetition count must be three to perform all three additions."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The starting value is correct. The repetition count must be three to perform all three additions."
+      }
+     ]
+    }
+   }
+  ]
+ }
 }

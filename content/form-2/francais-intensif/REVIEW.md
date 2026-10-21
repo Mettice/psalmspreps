@@ -364,9 +364,11 @@ Full working after a second miss:
 > NJI : Oui, la cour est propre.
 > Dans « la cour propre », quelle est la fonction de « propre » ?
 
-- ◻️ Verbe.
+- ◻️ Verbe.  
+  _↳ feedback if chosen: « Propre » est placé à côté du nom « cour », sans verbe : épithète._
 - ✅ Épithète.
-- ◻️ Attribut du sujet.
+- ◻️ Attribut du sujet.  
+  _↳ feedback if chosen: « Propre » est placé à côté du nom « cour », sans verbe : épithète._
 
 Full working after a second miss:
 
@@ -376,9 +378,11 @@ Full working after a second miss:
 
 > Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?
 
-- ◻️ Il est placé directement à côté du nom, sans verbe.
+- ◻️ Il est placé directement à côté du nom, sans verbe.  
+  _↳ feedback if chosen: Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »._
 - ✅ Il est relié au sujet par le verbe être.
-- ◻️ Il remplace le nom cour.
+- ◻️ Il remplace le nom cour.  
+  _↳ feedback if chosen: Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »._
 
 Full working after a second miss:
 

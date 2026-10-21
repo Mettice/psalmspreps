@@ -3862,6 +3862,49 @@ Full working after a second miss:
 
 **Answer:** 18 cm³
 
+**Subject activity: Predict, inspect, explain** (draft)
+
+**Predict**
+
+> A stone that sinks is lowered completely into water in a measuring cylinder, without spilling any water. What will happen to the reading?
+
+- ◻️ It will stay unchanged.  
+  _↳ feedback if chosen: The submerged stone takes up space and displaces water._
+- ✅ It will rise.
+- ◻️ It will fall.  
+  _↳ feedback if chosen: The submerged stone takes up space and displaces water._
+
+Full working after a second miss:
+
+> The submerged stone takes up space and displaces water.  
+
+**Inspect the diagram**
+
+> Read the before-and-after diagram. What is the volume of the stone?
+
+![drawing](figures/pilot-physics-16-2-27.svg)
+
+Answer: **16 cm³**
+
+Full working after a second miss:
+
+> Volume displaced = final reading − initial reading.  
+> 46 − 30 = 16 mL, which is 16 cm³.  
+
+**Explain**
+
+> Why do we subtract the first water reading from the second?
+
+- ✅ The rise measures the water displaced by the submerged stone.
+- ◻️ The final reading measures only the stone.  
+  _↳ feedback if chosen: The final reading includes both the original water and the displacement, so remove the original water reading._
+- ◻️ The first reading is the mass of the stone.  
+  _↳ feedback if chosen: The final reading includes both the original water and the displacement, so remove the original water reading._
+
+Full working after a second miss:
+
+> The final reading includes both the original water and the displacement, so remove the original water reading.  
+
 **Practice** `p16-convert1` · number, level 1 · computed by rule
 
 > 12.5 L = ? cm³
@@ -3888,7 +3931,7 @@ Full working after a second miss:
 
 > How much water is in the measuring cylinder?
 
-![drawing](figures/p16-cyl-27.svg)
+![drawing](figures/p16-cyl-28.svg)
 
 Answer: **80 mL**
 - Typed **82** (top) → “Read at the bottom of the curved surface, not at the edges.”
@@ -3902,7 +3945,7 @@ Full working after a second miss:
 
 > How much water is in the measuring cylinder?
 
-![drawing](figures/p16-cyl-28.svg)
+![drawing](figures/p16-cyl-29.svg)
 
 Answer: **76 mL**
 - Typed **78** (top) → “Read at the bottom of the curved surface, not at the edges.”
@@ -3940,7 +3983,7 @@ Full working after a second miss:
 
 > What is the volume of the stone, in cm³?
 
-![drawing](figures/p16-disp-29.svg)
+![drawing](figures/p16-disp-30.svg)
 
 Answer: **28 cm³**
 - Typed **58** (after) → “That is the water and the stone together. Subtract the reading before the stone went in.”
@@ -3954,7 +3997,7 @@ Full working after a second miss:
 
 > What is the volume of the stone, in cm³?
 
-![drawing](figures/p16-disp-30.svg)
+![drawing](figures/p16-disp-31.svg)
 
 Answer: **30 cm³**
 - Typed **82** (after) → “That is the water and the stone together. Subtract the reading before the stone went in.”
@@ -4253,13 +4296,13 @@ Prerequisites: 8 · Skill: p18 (Temperature)
 >
 > _The liquid rises when it gets warmer. This one shows 31 °C._  
 
-![drawing](figures/pc18-1-31.svg)
+![drawing](figures/pc18-1-32.svg)
 
 Check question: `p18-read` · number, level 1 · computed by rule, reused from practice
 
 > What temperature does the thermometer show?
 
-![drawing](figures/p18-read-32.svg)
+![drawing](figures/p18-read-33.svg)
 
 Answer: **24 °C**
 - Typed **34** (next) → “Count the small marks after the last number carefully: each one is 1 °C.”
@@ -4318,7 +4361,7 @@ Full working after a second miss:
 
 > Read the thermometer, then give the temperature in kelvin.
 
-![drawing](figures/worked-18-33.svg)
+![drawing](figures/worked-18-34.svg)
 
 1. Each small mark is 1 °C. The red liquid ends at 25 °C.
 2. T(K) = T(°C) + 273 = 25 + 273 = 298 K.
@@ -4329,7 +4372,7 @@ Full working after a second miss:
 
 > What temperature does the thermometer show?
 
-![drawing](figures/p18-read-34.svg)
+![drawing](figures/p18-read-35.svg)
 
 Answer: **18 °C**
 - Typed **28** (next) → “Count the small marks after the last number carefully: each one is 1 °C.”
@@ -4343,7 +4386,7 @@ Full working after a second miss:
 
 > What temperature does the thermometer show?
 
-![drawing](figures/p18-read-35.svg)
+![drawing](figures/p18-read-36.svg)
 
 Answer: **47 °C**
 - Typed **57** (next) → “Count the small marks after the last number carefully: each one is 1 °C.”

@@ -329,5 +329,131 @@
     "wrong": 1
    }
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Plan a household task and justify it",
+  "stages": [
+   {
+    "title": "Choose an action",
+    "question": {
+     "id": "pilot-home-economics-20-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "time-management"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "You need to sweep a room and pack a school bag before leaving. Books and clothes cover the floor. What should you do first?",
+     "correct": "Clear and put away the things on the floor.",
+     "distractors": [
+      {
+       "text": "Sweep around every object and leave them there.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "Pack the bag before finding the books.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "Clearing the floor makes sweeping easier and helps locate the books needed for the bag."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Clearing the floor makes sweeping easier and helps locate the books needed for the bag."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Clearing the floor makes sweeping easier and helps locate the books needed for the bag."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Plan the order",
+    "question": {
+     "id": "pilot-home-economics-20-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "time-management"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "The floor is now clear and the books are together. Which plan avoids repeating work?",
+     "correct": "Sweep the room, then check and pack the school bag.",
+     "distractors": [
+      {
+       "text": "Pack the bag, empty it onto the floor, then sweep.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "Sweep, scatter the books, then sweep again.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "This order completes each task once and keeps the cleared floor free of the books."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "This order completes each task once and keeps the cleared floor free of the books."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "This order completes each task once and keeps the cleared floor free of the books."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Justify your plan",
+    "question": {
+     "id": "pilot-home-economics-20-3",
+     "level": 3,
+     "review": "authored",
+     "sources": [
+      "time-management"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Why is gathering the required books before packing useful?",
+     "correct": "You can check what is needed and avoid repeatedly opening and emptying the bag.",
+     "distractors": [
+      {
+       "text": "It guarantees that no task will ever take longer than expected.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "It removes the need to check the school timetable.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed."
+      }
+     ]
+    }
+   }
+  ]
+ }
 }

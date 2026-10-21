@@ -3962,6 +3962,50 @@ Full working after a second miss:
 
 **Answer:** Wash the pots and make the stew while the rice boils.
 
+**Subject activity: Plan a household task and justify it** (draft)
+
+**Choose an action**
+
+> You need to sweep a room and pack a school bag before leaving. Books and clothes cover the floor. What should you do first?
+
+- ◻️ Sweep around every object and leave them there.  
+  _↳ feedback if chosen: Clearing the floor makes sweeping easier and helps locate the books needed for the bag._
+- ◻️ Pack the bag before finding the books.  
+  _↳ feedback if chosen: Clearing the floor makes sweeping easier and helps locate the books needed for the bag._
+- ✅ Clear and put away the things on the floor.
+
+Full working after a second miss:
+
+> Clearing the floor makes sweeping easier and helps locate the books needed for the bag.  
+
+**Plan the order**
+
+> The floor is now clear and the books are together. Which plan avoids repeating work?
+
+- ◻️ Sweep, scatter the books, then sweep again.  
+  _↳ feedback if chosen: This order completes each task once and keeps the cleared floor free of the books._
+- ✅ Sweep the room, then check and pack the school bag.
+- ◻️ Pack the bag, empty it onto the floor, then sweep.  
+  _↳ feedback if chosen: This order completes each task once and keeps the cleared floor free of the books._
+
+Full working after a second miss:
+
+> This order completes each task once and keeps the cleared floor free of the books.  
+
+**Justify your plan**
+
+> Why is gathering the required books before packing useful?
+
+- ✅ You can check what is needed and avoid repeatedly opening and emptying the bag.
+- ◻️ It removes the need to check the school timetable.  
+  _↳ feedback if chosen: Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed._
+- ◻️ It guarantees that no task will ever take longer than expected.  
+  _↳ feedback if chosen: Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed._
+
+Full working after a second miss:
+
+> Gathering and checking materials reduces repeated work. The timetable still tells you which books are needed.  
+
 **Practice** `he20-adv` · multiple choice, level 1 · **authored key**
 
 > Which is an advantage of managing time in the kitchen?

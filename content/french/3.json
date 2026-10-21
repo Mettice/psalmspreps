@@ -332,5 +332,114 @@
     "wrong": 1
    }
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Lire, pratiquer et se présenter",
+  "stages": [
+   {
+    "title": "Lire un dialogue",
+    "question": {
+     "id": "pilot-french-3-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "NGONO : Comment t’appelles-tu ?\nBIH : Je m’appelle Bih. J’habite à Buea.\nQuelle phrase donne le lieu où Bih habite ?",
+     "correct": "J’habite à Buea.",
+     "distractors": [
+      {
+       "text": "Je m’appelle Bih.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "Comment t’appelles-tu ?",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "« J’habite à … » indique le lieu où l’on habite."
+     ],
+     "show": 3,
+     "lang": "fr",
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "« J’habite à … » indique le lieu où l’on habite."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "« J’habite à … » indique le lieu où l’on habite."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Pratiquer la structure",
+    "question": {
+     "id": "pilot-french-3-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "status": "draft",
+     "type": "cloze",
+     "vars": {},
+     "text": "Pour dire mon nom : Je ___ Ngono.",
+     "answer": "'m’appelle'",
+     "choices": [
+      {
+       "text": "m’appelle",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "habite",
+       "misconception": "activity-choice-1"
+      },
+      {
+       "text": "suis",
+       "misconception": "activity-choice-2"
+      }
+     ],
+     "solution": [
+      "Pour donner son nom, on dit : Je m’appelle Ngono."
+     ],
+     "lang": "fr",
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Pour donner son nom, on dit : Je m’appelle Ngono."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Pour donner son nom, on dit : Je m’appelle Ngono."
+      },
+      {
+       "id": "activity-choice-2",
+       "explain": "Pour donner son nom, on dit : Je m’appelle Ngono."
+      }
+     ]
+    }
+   }
+  ],
+  "reflection": {
+   "status": "draft",
+   "vars": {},
+   "checks": [],
+   "prompt": "Écris une phrase originale pour présenter un personnage imaginaire. Utilise « Je m’appelle … » et choisis un prénom.",
+   "model": [
+    "Un exemple, pas la seule réponse possible : Je m’appelle Amina."
+   ],
+   "checklist": [
+    "J’ai choisi un prénom pour mon personnage.",
+    "J’ai utilisé Je m’appelle.",
+    "J’ai mis une majuscule et un point."
+   ]
+  }
+ }
 }

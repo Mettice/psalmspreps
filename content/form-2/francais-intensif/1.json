@@ -519,13 +519,30 @@
      "prompt": "BIH : Regarde la cour propre !\nNJI : Oui, la cour est propre.\nDans « la cour propre », quelle est la fonction de « propre » ?",
      "correct": "Épithète.",
      "distractors": [
-      "Attribut du sujet.",
-      "Verbe."
+      {
+       "text": "Attribut du sujet.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "Verbe.",
+       "misconception": "activity-choice-1"
+      }
      ],
      "solution": [
       "« Propre » est placé à côté du nom « cour », sans verbe : épithète."
      ],
-     "show": 3
+     "show": 3,
+     "lang": "fr",
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "« Propre » est placé à côté du nom « cour », sans verbe : épithète."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "« Propre » est placé à côté du nom « cour », sans verbe : épithète."
+      }
+     ]
     }
    },
    {
@@ -543,13 +560,30 @@
      "prompt": "Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?",
      "correct": "Il est relié au sujet par le verbe être.",
      "distractors": [
-      "Il est placé directement à côté du nom, sans verbe.",
-      "Il remplace le nom cour."
+      {
+       "text": "Il est placé directement à côté du nom, sans verbe.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "Il remplace le nom cour.",
+       "misconception": "activity-choice-1"
+      }
      ],
      "solution": [
       "Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »."
      ],
-     "show": 3
+     "show": 3,
+     "lang": "fr",
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »."
+      }
+     ]
     }
    }
   ],

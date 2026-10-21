@@ -24,6 +24,9 @@ What it does today (prototype):
 2. **Maths Lessons 1–16, English Lessons 1–16, Physics Lessons 1–19, Chemistry Lessons 1–21, Geography Lessons 1–10, Term 1 of Home Economics, History, Biology and Computer Science, and French Lessons 1–15** (ten tabs on the menu, a tick for each lesson done). Each lesson
    has 3–4 idea cards, a worked example, practice questions (levels 1 to 3) and a summary. A miss gets a fresh
    question; a second miss shows the full working. A lesson left part-way carries on where it stopped.
+   After a lesson, **Practise what was difficult** revisits the cards and questions missed twice, with the same
+   explanations and retry help. Review progress is saved; successful items leave the review list, while the original
+   lesson answers and stars are kept. Review is also available from the lesson menu, and its answers appear in copied results.
    English adds fill-the-blank, word-order and matching questions (all by tapping), and two writing lessons done on
    paper with a model answer and a self-check list. The three speech-work lessons (4, 8, 12) need audio and are left
    out for now. Physics measurement questions come with drawn rulers, measuring cylinders and thermometers; Geography map work comes with grid maps and latitude–longitude grids drawn by code.
@@ -74,3 +77,8 @@ Every push to `main` runs all the tests and, only if they pass, publishes the si
 | `docs/` | `teacher-review.md` (everything a teacher should check, P1 first) and `phase3-spec.md` |
 
 All lesson content is **draft** until a teacher has reviewed it: see `docs/teacher-review.md`.
+
+Twelve lessons pilot subject-specific activities after the worked example: guided calculations, prediction and
+diagrams, cell comparisons, source evidence, map decisions, dialogue and original writing, algorithm repair, and
+household planning. See [the pilot lesson list and content format](docs/subject-activity-pilots.md). Original writing
+is done on paper and self-checked; the app does not automatically mark it.

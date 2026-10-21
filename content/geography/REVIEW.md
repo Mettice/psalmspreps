@@ -1562,11 +1562,61 @@ Full working after a second miss:
 
 **Answer:** 2542
 
+**Subject activity: Use a map to make a decision** (draft)
+
+**Read the map**
+
+> Find the school on the map. Which four-figure grid reference identifies its square?
+
+![drawing](figures/pilot-geography-5-1-9.svg)
+
+- ✅ 1121
+- ◻️ 2111  
+  _↳ feedback if chosen: Read eastings first, then northings: 1121._
+- ◻️ 1221  
+  _↳ feedback if chosen: Read eastings first, then northings: 1121._
+
+Full working after a second miss:
+
+> Read eastings first, then northings: 1121.  
+
+**Make a decision**
+
+> For this map exercise, assume straight paths along the horizontal grid line between the marked places. From the school, is the well or the market nearer?
+
+![drawing](figures/pilot-geography-5-2-10.svg)
+
+- ◻️ They are equally far away.  
+  _↳ feedback if chosen: The well is one grid square east of the school; the market is three grid squares east._
+- ◻️ The market.  
+  _↳ feedback if chosen: The well is one grid square east of the school; the market is three grid squares east._
+- ✅ The well.
+
+Full working after a second miss:
+
+> The well is one grid square east of the school; the market is three grid squares east.  
+
+**Explain using map evidence**
+
+> Which map evidence supports choosing the well as the nearer destination?
+
+![drawing](figures/pilot-geography-5-3-11.svg)
+
+- ◻️ Its name is shorter.  
+  _↳ feedback if chosen: Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice._
+- ✅ It is one square from the school; the market is three squares away.
+- ◻️ It lies west of the school.  
+  _↳ feedback if chosen: Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice._
+
+Full working after a second miss:
+
+> Both destinations lie east on the same horizontal line. Comparing grid-square distances supports the choice.  
+
 **Practice** `g5-four` · number, level 1 · computed by rule
 
 > Give the 4-figure grid reference of the farm.
 
-![drawing](figures/g5-four-9.svg)
+![drawing](figures/g5-four-12.svg)
 
 Answer: **2930**
 - Typed **3029** (swap) → “You gave the northing first. Easting first: along the corridor, then up the stairs.”
@@ -1581,7 +1631,7 @@ Full working after a second miss:
 
 > Give the 4-figure grid reference of the bridge.
 
-![drawing](figures/g5-four-10.svg)
+![drawing](figures/g5-four-13.svg)
 
 Answer: **2522**
 - Typed **2225** (swap) → “You gave the northing first. Easting first: along the corridor, then up the stairs.”
@@ -1598,7 +1648,7 @@ Full working after a second miss:
 
 > Which place is in grid square 3317?
 
-![drawing](figures/g5-which-11.svg)
+![drawing](figures/g5-which-14.svg)
 
 - ✅ school
 - ◻️ church  
@@ -1613,7 +1663,7 @@ Full working after a second miss:
 
 > Which place is in grid square 3823?
 
-![drawing](figures/g5-which-12.svg)
+![drawing](figures/g5-which-15.svg)
 
 - ◻️ mosque  
   _↳ feedback if chosen: Go along to easting 38 first, then up to northing 23. The square is to the right of and above that corner._
@@ -1666,7 +1716,7 @@ Full working after a second miss:
 
 > Give the 6-figure grid reference of the church.
 
-![drawing](figures/g5-six-13.svg)
+![drawing](figures/g5-six-16.svg)
 
 - ◻️ 106413  
   _↳ feedback if chosen: That gives the northing first. Easting and its tenths first, then northing and its tenths._
@@ -1684,7 +1734,7 @@ Full working after a second miss:
 
 > Give the 6-figure grid reference of the bridge.
 
-![drawing](figures/g5-six-14.svg)
+![drawing](figures/g5-six-17.svg)
 
 - ✅ 134377
 - ◻️ 137374  
@@ -1704,7 +1754,7 @@ Full working after a second miss:
 
 > A pupil says the bridge is in square 2737. What mistake was made?
 
-![drawing](figures/g5-mistake-15.svg)
+![drawing](figures/g5-mistake-18.svg)
 
 - ◻️ The northing above the square was used.  
   _↳ feedback if chosen: Look again: the right answer is 3727. The same two numbers were used, in the wrong order._
@@ -1721,7 +1771,7 @@ Full working after a second miss:
 
 > A pupil says the mosque is in square 3441. What mistake was made?
 
-![drawing](figures/g5-mistake-16.svg)
+![drawing](figures/g5-mistake-19.svg)
 
 - ◻️ The northing above the square was used.  
   _↳ feedback if chosen: Look again: the right answer is 4134. The same two numbers were used, in the wrong order._
@@ -1761,7 +1811,7 @@ Check question: `g6-read` · multiple choice, level 1 · computed by rule, reuse
 
 > What is the position of place P?
 
-![drawing](figures/g6-read-17.svg)
+![drawing](figures/g6-read-20.svg)
 
 - ◻️ 8°N, 4°E  
   _↳ feedback if chosen: Latitude first: read the line going across through P, then the line going up and down._
@@ -1787,7 +1837,7 @@ Check question: `g6-lat` · multiple choice, level 1 · computed by rule, reused
 
 > What is the latitude of place P?
 
-![drawing](figures/g6-lat-18.svg)
+![drawing](figures/g6-lat-21.svg)
 
 - ✅ 4°N
 - ◻️ 6°E  
@@ -1829,7 +1879,7 @@ Full working after a second miss:
 
 > What is the position of place Y?
 
-![drawing](figures/worked-6-19.svg)
+![drawing](figures/worked-6-22.svg)
 
 1. The line of latitude through Y is 4°N: north of the Equator.
 2. The line of longitude through Y is 12°E: east of the Prime Meridian.
@@ -1841,7 +1891,7 @@ Full working after a second miss:
 
 > What is the position of place P?
 
-![drawing](figures/g6-read-20.svg)
+![drawing](figures/g6-read-23.svg)
 
 - ◻️ 8°N, 4°W  
   _↳ feedback if chosen: Latitude first: read the line going across through P, then the line going up and down._
@@ -1859,7 +1909,7 @@ Full working after a second miss:
 
 > What is the position of place P?
 
-![drawing](figures/g6-read-21.svg)
+![drawing](figures/g6-read-24.svg)
 
 - ◻️ 2°N, 6°W  
   _↳ feedback if chosen: Latitude first: read the line going across through P, then the line going up and down._
@@ -1879,7 +1929,7 @@ Full working after a second miss:
 
 > What is the latitude of place P?
 
-![drawing](figures/g6-lat-22.svg)
+![drawing](figures/g6-lat-25.svg)
 
 - ◻️ 2°W  
   _↳ feedback if chosen: That is the longitude. Latitude is read on the lines going across._
@@ -1896,7 +1946,7 @@ Full working after a second miss:
 
 > What is the latitude of place P?
 
-![drawing](figures/g6-lat-23.svg)
+![drawing](figures/g6-lat-26.svg)
 
 - ◻️ 12°N  
   _↳ feedback if chosen: That is the next line up. Read the line that passes through P._
@@ -1915,7 +1965,7 @@ Full working after a second miss:
 
 > Place R is halfway between grid lines. What is its position?
 
-![drawing](figures/g6-half-24.svg)
+![drawing](figures/g6-half-27.svg)
 
 - ◻️ 2°N, 6°E  
   _↳ feedback if chosen: That is the nearest crossing of lines. R is halfway between lines: take the middle values._
@@ -1933,7 +1983,7 @@ Full working after a second miss:
 
 > Place R is halfway between grid lines. What is its position?
 
-![drawing](figures/g6-half-25.svg)
+![drawing](figures/g6-half-28.svg)
 
 - ◻️ 5°N, 5°E  
   _↳ feedback if chosen: Check E or W against the Prime Meridian._
@@ -2031,7 +2081,7 @@ Check question: `g7-dn` · multiple choice, level 1 · computed by rule, reused 
 
 > The Sun’s rays come from the left. Is it day or night at town T?
 
-![drawing](figures/g7-dn-26.svg)
+![drawing](figures/g7-dn-29.svg)
 
 - ✅ day
 - ◻️ night  
@@ -2124,7 +2174,7 @@ Full working after a second miss:
 
 > In the drawing, is it day or night at town T?
 
-![drawing](figures/worked-7-27.svg)
+![drawing](figures/worked-7-30.svg)
 
 1. The Sun’s rays come from the left, so the left half of the Earth, facing the Sun, has day.
 2. The right half faces away from the Sun and has night.
@@ -2136,7 +2186,7 @@ Full working after a second miss:
 
 > The Sun’s rays come from the left. Is it day or night at town T?
 
-![drawing](figures/g7-dn-28.svg)
+![drawing](figures/g7-dn-31.svg)
 
 - ◻️ day  
   _↳ feedback if chosen: The half of the Earth facing the Sun (the left half here) has day; the other half has night._
@@ -2149,7 +2199,7 @@ Full working after a second miss:
 
 > The Sun’s rays come from the left. Is it day or night at town T?
 
-![drawing](figures/g7-dn-29.svg)
+![drawing](figures/g7-dn-32.svg)
 
 - ✅ day
 - ◻️ night  
@@ -2228,7 +2278,7 @@ Full working after a second miss:
 
 > The Earth turns in the direction of the arrow. Will town T soon have sunrise or sunset?
 
-![drawing](figures/g7-rs-30.svg)
+![drawing](figures/g7-rs-33.svg)
 
 - ◻️ sunrise  
   _↳ feedback if chosen: Follow the arrow: is T being carried from night into day (sunrise) or from day into night (sunset)?_
@@ -2241,7 +2291,7 @@ Full working after a second miss:
 
 > The Earth turns in the direction of the arrow. Will town T soon have sunrise or sunset?
 
-![drawing](figures/g7-rs-31.svg)
+![drawing](figures/g7-rs-34.svg)
 
 - ✅ sunrise
 - ◻️ sunset  

@@ -20,7 +20,7 @@ const deep = (x, scope) => (typeof x === "string" ? R(x, scope)
   : x && typeof x === "object" ? Object.fromEntries(Object.entries(x).map(([k, v]) => [k, deep(v, scope)])) : x);
 
 // Practice templates and inline teach-card check questions.
-const authored = lessons.flatMap((l) => [...(l.questions || []), ...(l.teach?.cards || []).filter((c) => !c.check.ref).map((c) => ({ ...c.check, card: c.id }))]
+const authored = lessons.flatMap((l) => [...(l.questions || []), ...(l.activity?.stages || []).map((s) => s.question), ...(l.teach?.cards || []).filter((c) => !c.check.ref).map((c) => ({ ...c.check, card: c.id }))]
   .filter((t) => t.review === "authored").map((t) => [l, t]));
 const out = [
   "# Authored answers for review (Maths Form 1, Lessons 1–16: practice and teach-card checks)", "",

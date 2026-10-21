@@ -1,7 +1,8 @@
 // Teach mode (decision 2026-10-02: the app is the pupil's main teacher).
 //
 //   cards (3-4: one idea + a tiny example + 1 level-1 check question each)
-//   → worked example → practice (one question per template, levels 1 to 3) → the note, as a summary.
+//   → worked example → optional subject activity (ordered questions + optional paper reflection)
+//   → practice (one question per template, levels 1 to 3) → the note, as a summary.
 //
 // Every card check and practice question follows the same two-try rule:
 //   1st miss (wrong or "I don't know") → feedback (cards: the card's example again) → a fresh variant
@@ -49,6 +50,8 @@ export function lessonSteps(lesson) {
   return [
     ...lesson.teach.cards.map((_, i) => ({ kind: "card", card: i })),
     ...(lesson.worked_example ? [{ kind: "worked_example" }] : []),
+    ...(lesson.activity?.stages || []).map((stage, i) => ({ kind: "activity", stage: i, template: stage.question.id })),
+    ...(lesson.activity?.reflection ? [{ kind: "activity_reflection" }] : []),
     ...(lesson.paper_task ? [{ kind: "paper" }] : practicePlan(lesson).map((id) => ({ kind: "practice", template: id }))),
     { kind: "note" },
   ];
@@ -70,10 +73,11 @@ export function renderPaper(lesson, lib) {
 /** The template behind a card or practice step. */
 export function stepTemplate(lesson, step) {
   return step.kind === "card" ? cardCheckTemplate(lesson, lesson.teach.cards[step.card])
+    : step.kind === "activity" ? lesson.activity.stages[step.stage].question
     : lesson.questions.find((t) => t.id === step.template);
 }
 
-const isItem = (step) => step?.kind === "card" || step?.kind === "practice";
+const isItem = (step) => step?.kind === "card" || step?.kind === "practice" || step?.kind === "activity";
 
 /**
  * phase:
@@ -87,9 +91,18 @@ export function startTeach(lesson, seed) {
   return { lesson: lesson.lesson_no, steps, step: 0, attempt: 0, phase: phaseFor(steps[0]), seed, log: [] };
 }
 
+/** Revisit only flagged cards/questions, keeping their explanations and two-try help. */
+export function startReview(lesson, ids, seed) {
+  const wanted = new Set(ids);
+  const steps = lessonSteps(lesson).filter((step) =>
+    step.kind === "card" ? wanted.has(lesson.teach.cards[step.card].id)
+      : (step.kind === "practice" || step.kind === "activity") && wanted.has(step.template));
+  return { lesson: lesson.lesson_no, steps, step: 0, attempt: 0, phase: phaseFor(steps[0]), seed, log: [] };
+}
+
 function phaseFor(step) {
   if (step?.kind === "card") return "idea";
-  if (step?.kind === "practice") return "check";
+  if (step?.kind === "practice" || step?.kind === "activity") return "check";
   return "read";
 }
 
@@ -145,7 +158,7 @@ export function nextPhase(flow) {
 }
 
 /**
- * Records the answer to the current card or practice question.
+ * Records the answer to the current card, activity or practice question.
  * result: {correct, dontKnow?}. The new flow's phase tells the UI what to show next:
  * the next step, "retry" (feedback then a fresh variant) or "reveal" (answer with full working).
  */

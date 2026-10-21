@@ -64,47 +64,50 @@ Regenerate with `npm run review:biology`. Item IDs (TR-…) match `docs/teacher-
 | 48 | `b13-sort` | 13 | matching, 2 | cells |
 | 49 | `b13-job` | 13 | multiple choice, 2 | cells |
 | 50 | `b13-spot` | 13 | spot the error, 3 | cells |
-| 51 | `b14-order` | 14 | ordering, 1 | cells |
-| 52 | `b14-see` | 14 | multiple choice, 1 | cells |
-| 53 | `b14-bubble` | 14 | multiple choice, 2 | cells |
-| 54 | `b14-green` | 14 | multiple choice, 2 | cells |
-| 55 | `b14-spot` | 14 | spot the error, 3 | cells |
-| 56 | `bc14-3-check` (card bc14-3) | 14 | multiple choice, 1 | cells |
-| 57 | `b15-habitat` | 15 | multiple choice, 1 | environment-factors |
-| 58 | `b15-sort` | 15 | matching, 1 | environment-factors |
-| 59 | `b15-north` | 15 | multiple choice, 2 | environment-factors |
-| 60 | `b15-spot` | 15 | spot the error, 3 | environment-factors |
-| 61 | `bc15-3-check` (card bc15-3) | 15 | multiple choice, 1 | environment-factors |
-| 62 | `b16-sort` | 16 | matching, 1 | day-seasons |
-| 63 | `b16-plant` | 16 | multiple choice, 1 | day-seasons |
-| 64 | `b16-season` | 16 | multiple choice, 2 | day-seasons |
-| 65 | `b16-spot` | 16 | spot the error, 3 | day-seasons |
-| 66 | `bc16-3-check` (card bc16-3) | 16 | multiple choice, 1 | day-seasons |
-| 67 | `b17-match` | 17 | matching, 1 | interactions |
-| 68 | `b17-which` | 17 | multiple choice, 1 | interactions |
-| 69 | `b17-weeds` | 17 | multiple choice, 2 | interactions |
-| 70 | `b17-spot` | 17 | spot the error, 3 | interactions |
-| 71 | `bc17-3-check` (card bc17-3) | 17 | multiple choice, 1 | interactions |
-| 72 | `b18-tool` | 18 | matching, 1 | specimens |
-| 73 | `b18-safe` | 18 | multiple choice, 1 | specimens |
-| 74 | `b18-sort` | 18 | matching, 2 | specimens |
-| 75 | `b18-spot` | 18 | spot the error, 3 | specimens |
-| 76 | `bc18-3-check` (card bc18-3) | 18 | multiple choice, 1 | specimens |
-| 77 | `b19-made` | 19 | multiple choice, 1 | soil |
-| 78 | `b19-layer` | 19 | multiple choice, 1 | soil |
-| 79 | `b19-type` | 19 | multiple choice, 1 | soil |
-| 80 | `b19-order` | 19 | ordering, 2 | soil |
-| 81 | `b19-spot` | 19 | spot the error, 3 | soil |
-| 82 | `b20-good` | 20 | multiple choice, 1 | soil |
-| 83 | `b20-improve` | 20 | matching, 1 | soil |
-| 84 | `b20-how` | 20 | multiple choice, 2 | soil |
-| 85 | `b20-spot` | 20 | spot the error, 3 | soil |
-| 86 | `bc20-3-check` (card bc20-3) | 20 | multiple choice, 1 | soil |
-| 87 | `b21-sort` | 21 | matching, 1 | farming |
-| 88 | `b21-slope` | 21 | multiple choice, 1 | farming |
-| 89 | `b21-why` | 21 | multiple choice, 2 | farming |
-| 90 | `b21-spot` | 21 | spot the error, 3 | farming |
-| 91 | `bc21-3-check` (card bc21-3) | 21 | multiple choice, 1 | farming |
+| 51 | `pilot-biology-13-1` | 13 | multiple choice, 1 | cells |
+| 52 | `pilot-biology-13-2` | 13 | multiple choice, 2 | cells |
+| 53 | `pilot-biology-13-3` | 13 | multiple choice, 3 | cells |
+| 54 | `b14-order` | 14 | ordering, 1 | cells |
+| 55 | `b14-see` | 14 | multiple choice, 1 | cells |
+| 56 | `b14-bubble` | 14 | multiple choice, 2 | cells |
+| 57 | `b14-green` | 14 | multiple choice, 2 | cells |
+| 58 | `b14-spot` | 14 | spot the error, 3 | cells |
+| 59 | `bc14-3-check` (card bc14-3) | 14 | multiple choice, 1 | cells |
+| 60 | `b15-habitat` | 15 | multiple choice, 1 | environment-factors |
+| 61 | `b15-sort` | 15 | matching, 1 | environment-factors |
+| 62 | `b15-north` | 15 | multiple choice, 2 | environment-factors |
+| 63 | `b15-spot` | 15 | spot the error, 3 | environment-factors |
+| 64 | `bc15-3-check` (card bc15-3) | 15 | multiple choice, 1 | environment-factors |
+| 65 | `b16-sort` | 16 | matching, 1 | day-seasons |
+| 66 | `b16-plant` | 16 | multiple choice, 1 | day-seasons |
+| 67 | `b16-season` | 16 | multiple choice, 2 | day-seasons |
+| 68 | `b16-spot` | 16 | spot the error, 3 | day-seasons |
+| 69 | `bc16-3-check` (card bc16-3) | 16 | multiple choice, 1 | day-seasons |
+| 70 | `b17-match` | 17 | matching, 1 | interactions |
+| 71 | `b17-which` | 17 | multiple choice, 1 | interactions |
+| 72 | `b17-weeds` | 17 | multiple choice, 2 | interactions |
+| 73 | `b17-spot` | 17 | spot the error, 3 | interactions |
+| 74 | `bc17-3-check` (card bc17-3) | 17 | multiple choice, 1 | interactions |
+| 75 | `b18-tool` | 18 | matching, 1 | specimens |
+| 76 | `b18-safe` | 18 | multiple choice, 1 | specimens |
+| 77 | `b18-sort` | 18 | matching, 2 | specimens |
+| 78 | `b18-spot` | 18 | spot the error, 3 | specimens |
+| 79 | `bc18-3-check` (card bc18-3) | 18 | multiple choice, 1 | specimens |
+| 80 | `b19-made` | 19 | multiple choice, 1 | soil |
+| 81 | `b19-layer` | 19 | multiple choice, 1 | soil |
+| 82 | `b19-type` | 19 | multiple choice, 1 | soil |
+| 83 | `b19-order` | 19 | ordering, 2 | soil |
+| 84 | `b19-spot` | 19 | spot the error, 3 | soil |
+| 85 | `b20-good` | 20 | multiple choice, 1 | soil |
+| 86 | `b20-improve` | 20 | matching, 1 | soil |
+| 87 | `b20-how` | 20 | multiple choice, 2 | soil |
+| 88 | `b20-spot` | 20 | spot the error, 3 | soil |
+| 89 | `bc20-3-check` (card bc20-3) | 20 | multiple choice, 1 | soil |
+| 90 | `b21-sort` | 21 | matching, 1 | farming |
+| 91 | `b21-slope` | 21 | multiple choice, 1 | farming |
+| 92 | `b21-why` | 21 | multiple choice, 2 | farming |
+| 93 | `b21-spot` | 21 | spot the error, 3 | farming |
+| 94 | `bc21-3-check` (card bc21-3) | 21 | multiple choice, 1 | farming |
 
 ### `b1-branch` · Lesson 1 · matching, level 1
 
@@ -2174,7 +2177,7 @@ Three generated variants:
 
 > What is the part labelled A?
 
-![drawing](figures/b7-part-25.svg)
+![drawing](figures/b7-part-27.svg)
 
 - ✅ fine focus knob
 - ◻️ coarse focus knob  
@@ -2191,7 +2194,7 @@ Full working after a second miss:
 
 > What is the part labelled F?
 
-![drawing](figures/b7-part-26.svg)
+![drawing](figures/b7-part-28.svg)
 
 - ✅ eyepiece
 - ◻️ stage  
@@ -2208,7 +2211,7 @@ Full working after a second miss:
 
 > What is the part labelled E?
 
-![drawing](figures/b7-part-27.svg)
+![drawing](figures/b7-part-29.svg)
 
 - ◻️ fine focus knob  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -2237,7 +2240,7 @@ Three generated variants:
 
 > Which letter shows the mirror?
 
-![drawing](figures/b7-letter-28.svg)
+![drawing](figures/b7-letter-30.svg)
 
 - ◻️ D  
   _↳ feedback if chosen: That letter is next to a different part._
@@ -2253,7 +2256,7 @@ Full working after a second miss:
 
 > Which letter shows the arm?
 
-![drawing](figures/b7-letter-29.svg)
+![drawing](figures/b7-letter-31.svg)
 
 - ◻️ A  
   _↳ feedback if chosen: That letter is next to a different part._
@@ -2269,7 +2272,7 @@ Full working after a second miss:
 
 > Which letter shows the coarse focus knob?
 
-![drawing](figures/b7-letter-30.svg)
+![drawing](figures/b7-letter-32.svg)
 
 - ✅ H
 - ◻️ E  
@@ -3084,7 +3087,7 @@ Three generated variants:
 
 > What is the part labelled D?
 
-![drawing](figures/b13-part-31.svg)
+![drawing](figures/b13-part-33.svg)
 
 - ◻️ vacuole  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -3101,7 +3104,7 @@ Full working after a second miss:
 
 > What is the part labelled D?
 
-![drawing](figures/b13-part-32.svg)
+![drawing](figures/b13-part-34.svg)
 
 - ◻️ chloroplast  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -3118,7 +3121,7 @@ Full working after a second miss:
 
 > What is the part labelled B?
 
-![drawing](figures/b13-part-33.svg)
+![drawing](figures/b13-part-35.svg)
 
 - ◻️ nucleus  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -3147,7 +3150,7 @@ Three generated variants:
 
 > Which letter shows the vacuole?
 
-![drawing](figures/b13-letter-34.svg)
+![drawing](figures/b13-letter-36.svg)
 
 - ◻️ C  
   _↳ feedback if chosen: That letter is next to a different part._
@@ -3163,7 +3166,7 @@ Full working after a second miss:
 
 > Which letter shows the cytoplasm?
 
-![drawing](figures/b13-letter-35.svg)
+![drawing](figures/b13-letter-37.svg)
 
 - ◻️ A  
   _↳ feedback if chosen: That letter is next to a different part._
@@ -3179,7 +3182,7 @@ Full working after a second miss:
 
 > Which letter shows the vacuole?
 
-![drawing](figures/b13-letter-36.svg)
+![drawing](figures/b13-letter-38.svg)
 
 - ◻️ F  
   _↳ feedback if chosen: That letter is next to a different part._
@@ -3208,7 +3211,7 @@ Three generated variants:
 
 > In this animal cell, which part is labelled B?
 
-![drawing](figures/b13-animal-37.svg)
+![drawing](figures/b13-animal-39.svg)
 
 - ◻️ cell wall  
   _↳ feedback if chosen: Animal cells have no cell wall and no chloroplasts._
@@ -3222,7 +3225,7 @@ Full working after a second miss:
 
 > In this animal cell, which part is labelled C?
 
-![drawing](figures/b13-animal-38.svg)
+![drawing](figures/b13-animal-40.svg)
 
 - ◻️ nucleus  
   _↳ feedback if chosen: Look again: the edge is the membrane, the jelly is the cytoplasm, the dark round part is the nucleus._
@@ -3236,7 +3239,7 @@ Full working after a second miss:
 
 > In this animal cell, which part is labelled C?
 
-![drawing](figures/b13-animal-39.svg)
+![drawing](figures/b13-animal-41.svg)
 
 - ✅ cytoplasm
 - ◻️ cell wall  
@@ -3448,6 +3451,165 @@ Full working after a second miss:
 
 > The wrong statement is “The cell wall controls the cell.”.  
 > The nucleus controls the cell.  
+
+Sources: cells (The cell: discovery (Hooke 1665, van Leeuwenhoek 1670s, Schleiden 1838, Schwann 1839), structure, plant and animal cells, preparing onion and cheek cells)
+
+### `pilot-biology-13-1` · Lesson 13 · multiple choice, level 1
+
+Prompt: This is a plant cell. Which labelled structure forms its supporting outer layer, outside the cell membrane?
+
+Right answer: `The cell wall.`; wrong choices: `The nucleus.`, `The cytoplasm.`
+
+- Feedback `activity-choice-0`: “The cell wall is outside the membrane and supports the cell.”
+- Feedback `activity-choice-1`: “The cell wall is outside the membrane and supports the cell.”
+
+Three generated variants:
+
+> This is a plant cell. Which labelled structure forms its supporting outer layer, outside the cell membrane?
+
+![drawing](figures/pilot-biology-13-1-42.svg)
+
+- ✅ The cell wall.
+- ◻️ The nucleus.  
+  _↳ feedback if chosen: The cell wall is outside the membrane and supports the cell._
+- ◻️ The cytoplasm.  
+  _↳ feedback if chosen: The cell wall is outside the membrane and supports the cell._
+
+Full working after a second miss:
+
+> The cell wall is outside the membrane and supports the cell.  
+
+> This is a plant cell. Which labelled structure forms its supporting outer layer, outside the cell membrane?
+
+![drawing](figures/pilot-biology-13-1-43.svg)
+
+- ✅ The cell wall.
+- ◻️ The nucleus.  
+  _↳ feedback if chosen: The cell wall is outside the membrane and supports the cell._
+- ◻️ The cytoplasm.  
+  _↳ feedback if chosen: The cell wall is outside the membrane and supports the cell._
+
+Full working after a second miss:
+
+> The cell wall is outside the membrane and supports the cell.  
+
+> This is a plant cell. Which labelled structure forms its supporting outer layer, outside the cell membrane?
+
+![drawing](figures/pilot-biology-13-1-44.svg)
+
+- ◻️ The cytoplasm.  
+  _↳ feedback if chosen: The cell wall is outside the membrane and supports the cell._
+- ◻️ The nucleus.  
+  _↳ feedback if chosen: The cell wall is outside the membrane and supports the cell._
+- ✅ The cell wall.
+
+Full working after a second miss:
+
+> The cell wall is outside the membrane and supports the cell.  
+
+Sources: cells (The cell: discovery (Hooke 1665, van Leeuwenhoek 1670s, Schleiden 1838, Schwann 1839), structure, plant and animal cells, preparing onion and cheek cells)
+
+### `pilot-biology-13-2` · Lesson 13 · multiple choice, level 2
+
+Prompt: Look at this animal cell. What is the main role of its cell membrane?
+
+Right answer: `It controls movement of substances into and out of the cell.`; wrong choices: `It makes food using sunlight.`, `It forms a rigid cell wall.`
+
+- Feedback `activity-choice-0`: “The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall.”
+- Feedback `activity-choice-1`: “The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall.”
+
+Three generated variants:
+
+> Look at this animal cell. What is the main role of its cell membrane?
+
+![drawing](figures/pilot-biology-13-2-45.svg)
+
+- ◻️ It makes food using sunlight.  
+  _↳ feedback if chosen: The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall._
+- ◻️ It forms a rigid cell wall.  
+  _↳ feedback if chosen: The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall._
+- ✅ It controls movement of substances into and out of the cell.
+
+Full working after a second miss:
+
+> The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall.  
+
+> Look at this animal cell. What is the main role of its cell membrane?
+
+![drawing](figures/pilot-biology-13-2-46.svg)
+
+- ◻️ It makes food using sunlight.  
+  _↳ feedback if chosen: The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall._
+- ✅ It controls movement of substances into and out of the cell.
+- ◻️ It forms a rigid cell wall.  
+  _↳ feedback if chosen: The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall._
+
+Full working after a second miss:
+
+> The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall.  
+
+> Look at this animal cell. What is the main role of its cell membrane?
+
+![drawing](figures/pilot-biology-13-2-47.svg)
+
+- ◻️ It forms a rigid cell wall.  
+  _↳ feedback if chosen: The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall._
+- ✅ It controls movement of substances into and out of the cell.
+- ◻️ It makes food using sunlight.  
+  _↳ feedback if chosen: The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall._
+
+Full working after a second miss:
+
+> The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall.  
+
+Sources: cells (The cell: discovery (Hooke 1665, van Leeuwenhoek 1670s, Schleiden 1838, Schwann 1839), structure, plant and animal cells, preparing onion and cheek cells)
+
+### `pilot-biology-13-3` · Lesson 13 · multiple choice, level 3
+
+Prompt: Which statement correctly compares the plant cell shown with an animal cell?
+
+Right answer: `The plant cell has chloroplasts for photosynthesis; the animal cell has none.`; wrong choices: `Both cells have chloroplasts for photosynthesis.`, `The animal cell has a cell wall but the plant cell has none.`
+
+- Feedback `activity-choice-0`: “Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts.”
+- Feedback `activity-choice-1`: “Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts.”
+
+Three generated variants:
+
+> Which statement correctly compares the plant cell shown with an animal cell?
+
+- ◻️ Both cells have chloroplasts for photosynthesis.  
+  _↳ feedback if chosen: Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts._
+- ◻️ The animal cell has a cell wall but the plant cell has none.  
+  _↳ feedback if chosen: Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts._
+- ✅ The plant cell has chloroplasts for photosynthesis; the animal cell has none.
+
+Full working after a second miss:
+
+> Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts.  
+
+> Which statement correctly compares the plant cell shown with an animal cell?
+
+- ◻️ The animal cell has a cell wall but the plant cell has none.  
+  _↳ feedback if chosen: Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts._
+- ◻️ Both cells have chloroplasts for photosynthesis.  
+  _↳ feedback if chosen: Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts._
+- ✅ The plant cell has chloroplasts for photosynthesis; the animal cell has none.
+
+Full working after a second miss:
+
+> Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts.  
+
+> Which statement correctly compares the plant cell shown with an animal cell?
+
+- ✅ The plant cell has chloroplasts for photosynthesis; the animal cell has none.
+- ◻️ The animal cell has a cell wall but the plant cell has none.  
+  _↳ feedback if chosen: Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts._
+- ◻️ Both cells have chloroplasts for photosynthesis.  
+  _↳ feedback if chosen: Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts._
+
+Full working after a second miss:
+
+> Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts.  
 
 Sources: cells (The cell: discovery (Hooke 1665, van Leeuwenhoek 1670s, Schleiden 1838, Schwann 1839), structure, plant and animal cells, preparing onion and cheek cells)
 
@@ -5309,7 +5471,7 @@ Three generated variants:
 
 > What is the part labelled D?
 
-![drawing](figures/b19-layer-40.svg)
+![drawing](figures/b19-layer-48.svg)
 
 - ◻️ subsoil  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -5326,7 +5488,7 @@ Full working after a second miss:
 
 > What is the part labelled A?
 
-![drawing](figures/b19-layer-41.svg)
+![drawing](figures/b19-layer-49.svg)
 
 - ◻️ subsoil  
   _↳ feedback if chosen: Look again at what the letter is next to._
@@ -5343,7 +5505,7 @@ Full working after a second miss:
 
 > What is the part labelled A?
 
-![drawing](figures/b19-layer-42.svg)
+![drawing](figures/b19-layer-50.svg)
 
 - ◻️ subsoil  
   _↳ feedback if chosen: Look again at what the letter is next to._

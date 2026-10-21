@@ -27,6 +27,7 @@ function renderQuestion(q) {
     for (const m of q.misconceptions) out.push(`- Wrong answer **${m.value}** (${m.id}) → “${m.explain}”`);
   }
   if (q.hint) out.push("", `Hint (draft): ${q.hint}`);
+  if (q.type === "blanks") out.push(`Completed working: **${q.answer}**`);
   if (q.solution) out.push("", "Full working after a second miss:", "", ...q.solution.map((x) => `> ${x}  `));
   return nb(out.join("\n"));
 }
@@ -90,6 +91,10 @@ for (const l of lessons) {
   for (const t of l.questions) {
     const q = instantiate(t, 1, lib, l.lesson_no);
     lines.push(`<details><summary><code>${t.id}</code>: ${t.type}, level ${t.level}${t.review === "authored" ? ", <b>authored</b>" : ""}</summary>`, "", renderQuestion(q), "", "</details>", "");
+  }
+  if (l.activity) {
+    lines.push(`**Subject activity: ${l.activity.title}** (draft)`, "");
+    for (const stage of l.activity.stages) lines.push(`**${stage.title}**`, "", renderQuestion(instantiate(stage.question, 1, lib, l.lesson_no)), "");
   }
 }
 writeFileSync(new URL("REVIEW.md", DIR), lines.join("\n"), "utf8");

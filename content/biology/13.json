@@ -465,5 +465,137 @@
     "wrong": 1
    }
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Compare cells and connect structure to function",
+  "stages": [
+   {
+    "title": "Compare the structures",
+    "question": {
+     "id": "pilot-biology-13-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "cells"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {
+      "k": 0
+     },
+     "prompt": "This is a plant cell. Which labelled structure forms its supporting outer layer, outside the cell membrane?",
+     "correct": "The cell wall.",
+     "distractors": [
+      {
+       "text": "The nucleus.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "The cytoplasm.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The cell wall is outside the membrane and supports the cell."
+     ],
+     "figure": "plantCell(k)",
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The cell wall is outside the membrane and supports the cell."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The cell wall is outside the membrane and supports the cell."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Connect a part to its function",
+    "question": {
+     "id": "pilot-biology-13-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "cells"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {
+      "k": 0
+     },
+     "prompt": "Look at this animal cell. What is the main role of its cell membrane?",
+     "correct": "It controls movement of substances into and out of the cell.",
+     "distractors": [
+      {
+       "text": "It makes food using sunlight.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "It forms a rigid cell wall.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall."
+     ],
+     "figure": "animalCell(k)",
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The cell membrane controls exchange with the surroundings; animal cells do not have a cell wall."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Explain a difference",
+    "question": {
+     "id": "pilot-biology-13-3",
+     "level": 3,
+     "review": "authored",
+     "sources": [
+      "cells"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Which statement correctly compares the plant cell shown with an animal cell?",
+     "correct": "The plant cell has chloroplasts for photosynthesis; the animal cell has none.",
+     "distractors": [
+      {
+       "text": "Both cells have chloroplasts for photosynthesis.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "The animal cell has a cell wall but the plant cell has none.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Chloroplasts in the plant cell shown carry out photosynthesis. Animal cells do not have chloroplasts."
+      }
+     ]
+    }
+   }
+  ]
+ }
 }

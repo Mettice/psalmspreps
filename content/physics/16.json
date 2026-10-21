@@ -461,5 +461,120 @@
     "wrong": 1
    }
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Predict, inspect, explain",
+  "stages": [
+   {
+    "title": "Predict",
+    "question": {
+     "id": "pilot-physics-16-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "units",
+      "volume"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "A stone that sinks is lowered completely into water in a measuring cylinder, without spilling any water. What will happen to the reading?",
+     "correct": "It will rise.",
+     "distractors": [
+      {
+       "text": "It will fall.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "It will stay unchanged.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The submerged stone takes up space and displaces water."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The submerged stone takes up space and displaces water."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The submerged stone takes up space and displaces water."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Inspect the diagram",
+    "question": {
+     "id": "pilot-physics-16-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "units",
+      "volume"
+     ],
+     "status": "draft",
+     "type": "numeric",
+     "vars": {
+      "before": 30,
+      "after": 46
+     },
+     "prompt": "Read the before-and-after diagram. What is the volume of the stone?",
+     "answer": "after - before",
+     "verify": "answer == (after - before)",
+     "solution": [
+      "Volume displaced = final reading − initial reading.",
+      "{after} − {before} = {after - before} mL, which is {after - before} cm³."
+     ],
+     "figure": "displacement(before, after)",
+     "unit": "cm³"
+    }
+   },
+   {
+    "title": "Explain",
+    "question": {
+     "id": "pilot-physics-16-3",
+     "level": 3,
+     "review": "authored",
+     "sources": [
+      "units",
+      "volume"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Why do we subtract the first water reading from the second?",
+     "correct": "The rise measures the water displaced by the submerged stone.",
+     "distractors": [
+      {
+       "text": "The final reading measures only the stone.",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "The first reading is the mass of the stone.",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "The final reading includes both the original water and the displacement, so remove the original water reading."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "The final reading includes both the original water and the displacement, so remove the original water reading."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "The final reading includes both the original water and the displacement, so remove the original water reading."
+      }
+     ]
+    }
+   }
+  ]
+ }
 }

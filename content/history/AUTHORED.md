@@ -35,48 +35,51 @@ Regenerate with `npm run review:history`. Item IDs (TR-…) match `docs/teacher-
 | 9 | `hi2-material` | 2 | matching, 2 | relics |
 | 10 | `hi2-care` | 2 | multiple choice, 2 | relics |
 | 11 | `hi2-spot` | 2 | spot the error, 3 | relics |
-| 12 | `hic2-3-check` (card hic2-3) | 2 | multiple choice, 1 | relics |
-| 13 | `hi4-place` | 4 | multiple choice, 1 | early-humans |
-| 14 | `hi4-fossil` | 4 | multiple choice, 1 | early-humans |
-| 15 | `hi4-cradle` | 4 | multiple choice, 2 | early-humans |
-| 16 | `hi4-water` | 4 | multiple choice, 2 | early-humans |
-| 17 | `hi4-spot` | 4 | spot the error, 3 | early-humans |
-| 18 | `hic4-3-check` (card hic4-3) | 4 | multiple choice, 1 | early-humans |
-| 19 | `hi5-life` | 5 | multiple choice, 1 | early-humans |
-| 20 | `hi5-tool` | 5 | multiple choice, 1 | early-humans |
-| 21 | `hi5-fire` | 5 | multiple choice, 1 | early-humans |
-| 22 | `hi5-sort` | 5 | matching, 2 | early-humans, stone-age |
-| 23 | `hi5-spot` | 5 | spot the error, 3 | early-humans |
-| 24 | `hi6-what` | 6 | multiple choice, 1 | creation-myths |
-| 25 | `hi6-passed` | 6 | multiple choice, 1 | creation-myths |
-| 26 | `hi6-sort` | 6 | matching, 2 | creation-myths |
-| 27 | `hi6-respect` | 6 | multiple choice, 2 | creation-myths |
-| 28 | `hi6-spot` | 6 | spot the error, 3 | creation-myths |
-| 29 | `hic6-3-check` (card hic6-3) | 6 | multiple choice, 1 | creation-myths |
-| 30 | `hi7-sort` | 7 | matching, 1 | stone-age |
-| 31 | `hi7-new` | 7 | multiple choice, 1 | stone-age |
-| 32 | `hi7-why` | 7 | multiple choice, 2 | stone-age |
-| 33 | `hi7-when` | 7 | multiple choice, 2 | stone-age |
-| 34 | `hi7-spot` | 7 | spot the error, 3 | stone-age |
-| 35 | `hic7-3-check` (card hic7-3) | 7 | multiple choice, 1 | stone-age |
-| 36 | `hi8-order` | 8 | ordering, 1 | early-humans |
-| 37 | `hi8-name` | 8 | multiple choice, 1 | early-humans |
-| 38 | `hi8-older` | 8 | multiple choice, 2 | early-humans |
-| 39 | `hi8-when` | 8 | multiple choice, 2 | early-humans |
-| 40 | `hi8-spot` | 8 | spot the error, 3 | early-humans |
-| 41 | `hic8-3-check` (card hic8-3) | 8 | multiple choice, 1 | early-humans |
-| 42 | `hi9-where` | 9 | multiple choice, 1 | cameroon-neolithic |
-| 43 | `hi9-find` | 9 | multiple choice, 1 | cameroon-neolithic |
-| 44 | `hi9-show` | 9 | multiple choice, 2 | cameroon-neolithic |
-| 45 | `hi9-sort` | 9 | matching, 2 | cameroon-neolithic, stone-age |
-| 46 | `hi9-spot` | 9 | spot the error, 3 | cameroon-neolithic |
-| 47 | `hic9-3-check` (card hic9-3) | 9 | multiple choice, 1 | cameroon-neolithic |
-| 48 | `hi10-where` | 10 | multiple choice, 1 | forest-peoples |
-| 49 | `hi10-life` | 10 | multiple choice, 1 | forest-peoples |
-| 50 | `hi10-name` | 10 | multiple choice, 2 | forest-peoples |
-| 51 | `hi10-sort` | 10 | matching, 2 | forest-peoples |
-| 52 | `hi10-spot` | 10 | spot the error, 3 | forest-peoples |
-| 53 | `hic10-3-check` (card hic10-3) | 10 | multiple choice, 1 | forest-peoples |
+| 12 | `pilot-history-2-1` | 2 | multiple choice, 1 | relics |
+| 13 | `pilot-history-2-2` | 2 | multiple choice, 2 | relics |
+| 14 | `pilot-history-2-3` | 2 | multiple choice, 3 | relics |
+| 15 | `hic2-3-check` (card hic2-3) | 2 | multiple choice, 1 | relics |
+| 16 | `hi4-place` | 4 | multiple choice, 1 | early-humans |
+| 17 | `hi4-fossil` | 4 | multiple choice, 1 | early-humans |
+| 18 | `hi4-cradle` | 4 | multiple choice, 2 | early-humans |
+| 19 | `hi4-water` | 4 | multiple choice, 2 | early-humans |
+| 20 | `hi4-spot` | 4 | spot the error, 3 | early-humans |
+| 21 | `hic4-3-check` (card hic4-3) | 4 | multiple choice, 1 | early-humans |
+| 22 | `hi5-life` | 5 | multiple choice, 1 | early-humans |
+| 23 | `hi5-tool` | 5 | multiple choice, 1 | early-humans |
+| 24 | `hi5-fire` | 5 | multiple choice, 1 | early-humans |
+| 25 | `hi5-sort` | 5 | matching, 2 | early-humans, stone-age |
+| 26 | `hi5-spot` | 5 | spot the error, 3 | early-humans |
+| 27 | `hi6-what` | 6 | multiple choice, 1 | creation-myths |
+| 28 | `hi6-passed` | 6 | multiple choice, 1 | creation-myths |
+| 29 | `hi6-sort` | 6 | matching, 2 | creation-myths |
+| 30 | `hi6-respect` | 6 | multiple choice, 2 | creation-myths |
+| 31 | `hi6-spot` | 6 | spot the error, 3 | creation-myths |
+| 32 | `hic6-3-check` (card hic6-3) | 6 | multiple choice, 1 | creation-myths |
+| 33 | `hi7-sort` | 7 | matching, 1 | stone-age |
+| 34 | `hi7-new` | 7 | multiple choice, 1 | stone-age |
+| 35 | `hi7-why` | 7 | multiple choice, 2 | stone-age |
+| 36 | `hi7-when` | 7 | multiple choice, 2 | stone-age |
+| 37 | `hi7-spot` | 7 | spot the error, 3 | stone-age |
+| 38 | `hic7-3-check` (card hic7-3) | 7 | multiple choice, 1 | stone-age |
+| 39 | `hi8-order` | 8 | ordering, 1 | early-humans |
+| 40 | `hi8-name` | 8 | multiple choice, 1 | early-humans |
+| 41 | `hi8-older` | 8 | multiple choice, 2 | early-humans |
+| 42 | `hi8-when` | 8 | multiple choice, 2 | early-humans |
+| 43 | `hi8-spot` | 8 | spot the error, 3 | early-humans |
+| 44 | `hic8-3-check` (card hic8-3) | 8 | multiple choice, 1 | early-humans |
+| 45 | `hi9-where` | 9 | multiple choice, 1 | cameroon-neolithic |
+| 46 | `hi9-find` | 9 | multiple choice, 1 | cameroon-neolithic |
+| 47 | `hi9-show` | 9 | multiple choice, 2 | cameroon-neolithic |
+| 48 | `hi9-sort` | 9 | matching, 2 | cameroon-neolithic, stone-age |
+| 49 | `hi9-spot` | 9 | spot the error, 3 | cameroon-neolithic |
+| 50 | `hic9-3-check` (card hic9-3) | 9 | multiple choice, 1 | cameroon-neolithic |
+| 51 | `hi10-where` | 10 | multiple choice, 1 | forest-peoples |
+| 52 | `hi10-life` | 10 | multiple choice, 1 | forest-peoples |
+| 53 | `hi10-name` | 10 | multiple choice, 2 | forest-peoples |
+| 54 | `hi10-sort` | 10 | matching, 2 | forest-peoples |
+| 55 | `hi10-spot` | 10 | spot the error, 3 | forest-peoples |
+| 56 | `hic10-3-check` (card hic10-3) | 10 | multiple choice, 1 | forest-peoples |
 
 ### `hi1-source` · Lesson 1 · multiple choice, level 1
 
@@ -863,6 +866,171 @@ Full working after a second miss:
 
 > The wrong statement is “Selling relics protects our heritage.”.  
 > Selling relics loses them from our heritage.  
+
+Sources: relics (Historical relics: collecting, labelling, caring for and classifying them)
+
+### `pilot-history-2-1` · Lesson 2 · multiple choice, level 1
+
+Prompt: Classroom source card (invented for this activity): / A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it. / Which observation is recorded on the source card?
+
+Right answer: `The pot has soot on its outside.`; wrong choices: `The pot belonged to a chief.`, `The pot was traded from another kingdom.`
+
+- Feedback `activity-choice-0`: “The card records soot. It does not record an owner or a place of manufacture.”
+- Feedback `activity-choice-1`: “The card records soot. It does not record an owner or a place of manufacture.”
+
+Three generated variants:
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> Which observation is recorded on the source card?
+
+- ◻️ The pot belonged to a chief.  
+  _↳ feedback if chosen: The card records soot. It does not record an owner or a place of manufacture._
+- ✅ The pot has soot on its outside.
+- ◻️ The pot was traded from another kingdom.  
+  _↳ feedback if chosen: The card records soot. It does not record an owner or a place of manufacture._
+
+Full working after a second miss:
+
+> The card records soot. It does not record an owner or a place of manufacture.  
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> Which observation is recorded on the source card?
+
+- ◻️ The pot belonged to a chief.  
+  _↳ feedback if chosen: The card records soot. It does not record an owner or a place of manufacture._
+- ✅ The pot has soot on its outside.
+- ◻️ The pot was traded from another kingdom.  
+  _↳ feedback if chosen: The card records soot. It does not record an owner or a place of manufacture._
+
+Full working after a second miss:
+
+> The card records soot. It does not record an owner or a place of manufacture.  
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> Which observation is recorded on the source card?
+
+- ◻️ The pot was traded from another kingdom.  
+  _↳ feedback if chosen: The card records soot. It does not record an owner or a place of manufacture._
+- ◻️ The pot belonged to a chief.  
+  _↳ feedback if chosen: The card records soot. It does not record an owner or a place of manufacture._
+- ✅ The pot has soot on its outside.
+
+Full working after a second miss:
+
+> The card records soot. It does not record an owner or a place of manufacture.  
+
+Sources: relics (Historical relics: collecting, labelling, caring for and classifying them)
+
+### `pilot-history-2-2` · Lesson 2 · multiple choice, level 2
+
+Prompt: Classroom source card (invented for this activity): / A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it. / Which claim is best supported, while still allowing uncertainty?
+
+Right answer: `The pot may have been used for cooking over a fire.`; wrong choices: `The owner was certainly wealthy.`, `The pot proves the exact year the settlement began.`
+
+- Feedback `activity-choice-0`: “The hearth and soot support possible cooking use. They do not establish wealth or an exact date.”
+- Feedback `activity-choice-1`: “The hearth and soot support possible cooking use. They do not establish wealth or an exact date.”
+
+Three generated variants:
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> Which claim is best supported, while still allowing uncertainty?
+
+- ◻️ The owner was certainly wealthy.  
+  _↳ feedback if chosen: The hearth and soot support possible cooking use. They do not establish wealth or an exact date._
+- ✅ The pot may have been used for cooking over a fire.
+- ◻️ The pot proves the exact year the settlement began.  
+  _↳ feedback if chosen: The hearth and soot support possible cooking use. They do not establish wealth or an exact date._
+
+Full working after a second miss:
+
+> The hearth and soot support possible cooking use. They do not establish wealth or an exact date.  
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> Which claim is best supported, while still allowing uncertainty?
+
+- ◻️ The owner was certainly wealthy.  
+  _↳ feedback if chosen: The hearth and soot support possible cooking use. They do not establish wealth or an exact date._
+- ✅ The pot may have been used for cooking over a fire.
+- ◻️ The pot proves the exact year the settlement began.  
+  _↳ feedback if chosen: The hearth and soot support possible cooking use. They do not establish wealth or an exact date._
+
+Full working after a second miss:
+
+> The hearth and soot support possible cooking use. They do not establish wealth or an exact date.  
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> Which claim is best supported, while still allowing uncertainty?
+
+- ✅ The pot may have been used for cooking over a fire.
+- ◻️ The pot proves the exact year the settlement began.  
+  _↳ feedback if chosen: The hearth and soot support possible cooking use. They do not establish wealth or an exact date._
+- ◻️ The owner was certainly wealthy.  
+  _↳ feedback if chosen: The hearth and soot support possible cooking use. They do not establish wealth or an exact date._
+
+Full working after a second miss:
+
+> The hearth and soot support possible cooking use. They do not establish wealth or an exact date.  
+
+Sources: relics (Historical relics: collecting, labelling, caring for and classifying them)
+
+### `pilot-history-2-3` · Lesson 2 · multiple choice, level 3
+
+Prompt: Classroom source card (invented for this activity): / A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it. / What extra evidence would help investigate when it was used?
+
+Right answer: `A reliable dated record connected to the pot or its archaeological context.`; wrong choices: `Its clay colour alone gives the exact year.`, `Guessing the age of its owner.`
+
+- Feedback `activity-choice-0`: “A date needs relevant supporting evidence; neither colour alone nor a guess establishes it.”
+- Feedback `activity-choice-1`: “A date needs relevant supporting evidence; neither colour alone nor a guess establishes it.”
+
+Three generated variants:
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> What extra evidence would help investigate when it was used?
+
+- ◻️ Guessing the age of its owner.  
+  _↳ feedback if chosen: A date needs relevant supporting evidence; neither colour alone nor a guess establishes it._
+- ✅ A reliable dated record connected to the pot or its archaeological context.
+- ◻️ Its clay colour alone gives the exact year.  
+  _↳ feedback if chosen: A date needs relevant supporting evidence; neither colour alone nor a guess establishes it._
+
+Full working after a second miss:
+
+> A date needs relevant supporting evidence; neither colour alone nor a guess establishes it.  
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> What extra evidence would help investigate when it was used?
+
+- ✅ A reliable dated record connected to the pot or its archaeological context.
+- ◻️ Its clay colour alone gives the exact year.  
+  _↳ feedback if chosen: A date needs relevant supporting evidence; neither colour alone nor a guess establishes it._
+- ◻️ Guessing the age of its owner.  
+  _↳ feedback if chosen: A date needs relevant supporting evidence; neither colour alone nor a guess establishes it._
+
+Full working after a second miss:
+
+> A date needs relevant supporting evidence; neither colour alone nor a guess establishes it.  
+
+> Classroom source card (invented for this activity):
+> A clay pot was found beside a hearth. Its outer surface is blackened with soot. No writing was found on it.
+> What extra evidence would help investigate when it was used?
+
+- ◻️ Guessing the age of its owner.  
+  _↳ feedback if chosen: A date needs relevant supporting evidence; neither colour alone nor a guess establishes it._
+- ◻️ Its clay colour alone gives the exact year.  
+  _↳ feedback if chosen: A date needs relevant supporting evidence; neither colour alone nor a guess establishes it._
+- ✅ A reliable dated record connected to the pot or its archaeological context.
+
+Full working after a second miss:
+
+> A date needs relevant supporting evidence; neither colour alone nor a guess establishes it.  
 
 Sources: relics (Historical relics: collecting, labelling, caring for and classifying them)
 

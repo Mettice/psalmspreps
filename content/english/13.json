@@ -424,5 +424,112 @@
     "wrong": 1
    }
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Read, practise, then write your own sentence",
+  "stages": [
+   {
+    "title": "Read the dialogue",
+    "question": {
+     "id": "pilot-english-13-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "EWANE: How do you come to school?\nAYUK: I come by bus.\nEWANE: How long does it take?\nAYUK: About twenty minutes.\nWhich phrase tells us Ayuk’s means of transport?",
+     "correct": "by bus",
+     "distractors": [
+      {
+       "text": "twenty minutes",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "How long",
+       "misconception": "activity-choice-1"
+      }
+     ],
+     "solution": [
+      "“By bus” names the means of transport; “twenty minutes” tells us the duration."
+     ],
+     "show": 3,
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "“By bus” names the means of transport; “twenty minutes” tells us the duration."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "“By bus” names the means of transport; “twenty minutes” tells us the duration."
+      }
+     ]
+    }
+   },
+   {
+    "title": "Practise the pattern",
+    "question": {
+     "id": "pilot-english-13-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "status": "draft",
+     "type": "cloze",
+     "vars": {},
+     "text": "I travel to school ___ taxi.",
+     "answer": "'by'",
+     "choices": [
+      {
+       "text": "by",
+       "misconception": "activity-choice-0"
+      },
+      {
+       "text": "on",
+       "misconception": "activity-choice-1"
+      },
+      {
+       "text": "with",
+       "misconception": "activity-choice-2"
+      }
+     ],
+     "solution": [
+      "Use by + means of transport: by taxi. We say on foot for walking."
+     ],
+     "misconceptions": [
+      {
+       "id": "activity-choice-0",
+       "explain": "Use by + means of transport: by taxi. We say on foot for walking."
+      },
+      {
+       "id": "activity-choice-1",
+       "explain": "Use by + means of transport: by taxi. We say on foot for walking."
+      },
+      {
+       "id": "activity-choice-2",
+       "explain": "Use by + means of transport: by taxi. We say on foot for walking."
+      }
+     ]
+    }
+   }
+  ],
+  "reflection": {
+   "status": "draft",
+   "vars": {},
+   "checks": [],
+   "prompt": "Write one original sentence about how you, or an imaginary pupil, travel to school. Use “by” with a means of transport, or “on foot” for walking.",
+   "model": [
+    "An example, not the only correct answer: I go to school by bicycle."
+   ],
+   "checklist": [
+    "I wrote a complete sentence of my own.",
+    "I used by + transport, or on foot.",
+    "I began with a capital letter and ended with a full stop."
+   ]
+  }
+ }
 }

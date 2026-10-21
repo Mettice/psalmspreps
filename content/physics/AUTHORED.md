@@ -77,14 +77,17 @@ Regenerate with `npm run review:physics`. Item IDs (TR-…) match `docs/teacher-
 | 58 | `p15-diff` | 15 | matching, 1 | weight |
 | 59 | `p15-spot` | 15 | spot the error, 3 | weight |
 | 60 | `pc15-3-check` (card pc15-3) | 15 | multiple choice, 1 | weight |
-| 61 | `p17-spot` | 17 | spot the error, 3 | density |
-| 62 | `p18-spot` | 18 | spot the error, 3 | temperature |
-| 63 | `pc18-3-check` (card pc18-3) | 18 | multiple choice, 1 | temperature |
-| 64 | `p19-symbol` | 19 | matching, 1 | hazards |
-| 65 | `p19-label-l1` | 19 | multiple choice, 1 | hazards |
-| 66 | `p19-product` | 19 | multiple choice, 1 | hazards |
-| 67 | `p19-what` | 19 | multiple choice, 2 | hazards |
-| 68 | `p19-spot` | 19 | spot the error, 3 | hazards |
+| 61 | `pilot-physics-16-1` | 16 | multiple choice, 1 | units, volume |
+| 62 | `pilot-physics-16-2` | 16 | number, 2 | units, volume |
+| 63 | `pilot-physics-16-3` | 16 | multiple choice, 3 | units, volume |
+| 64 | `p17-spot` | 17 | spot the error, 3 | density |
+| 65 | `p18-spot` | 18 | spot the error, 3 | temperature |
+| 66 | `pc18-3-check` (card pc18-3) | 18 | multiple choice, 1 | temperature |
+| 67 | `p19-symbol` | 19 | matching, 1 | hazards |
+| 68 | `p19-label-l1` | 19 | multiple choice, 1 | hazards |
+| 69 | `p19-product` | 19 | multiple choice, 1 | hazards |
+| 70 | `p19-what` | 19 | multiple choice, 2 | hazards |
+| 71 | `p19-spot` | 19 | spot the error, 3 | hazards |
 
 ### `p1-branch` · Lesson 1 · matching, level 1
 
@@ -4135,6 +4138,147 @@ Full working after a second miss:
 > “Both her mass and her weight stay the same.” is false: The Moon pulls less than the Earth, so her weight is smaller.  
 
 Sources: weight (Weight W = m × g with g = 10 N/kg on Earth; g on the Moon about 1.6 N/kg)
+
+### `pilot-physics-16-1` · Lesson 16 · multiple choice, level 1
+
+Prompt: A stone that sinks is lowered completely into water in a measuring cylinder, without spilling any water. What will happen to the reading?
+
+Right answer: `It will rise.`; wrong choices: `It will fall.`, `It will stay unchanged.`
+
+- Feedback `activity-choice-0`: “The submerged stone takes up space and displaces water.”
+- Feedback `activity-choice-1`: “The submerged stone takes up space and displaces water.”
+
+Three generated variants:
+
+> A stone that sinks is lowered completely into water in a measuring cylinder, without spilling any water. What will happen to the reading?
+
+- ◻️ It will stay unchanged.  
+  _↳ feedback if chosen: The submerged stone takes up space and displaces water._
+- ✅ It will rise.
+- ◻️ It will fall.  
+  _↳ feedback if chosen: The submerged stone takes up space and displaces water._
+
+Full working after a second miss:
+
+> The submerged stone takes up space and displaces water.  
+
+> A stone that sinks is lowered completely into water in a measuring cylinder, without spilling any water. What will happen to the reading?
+
+- ✅ It will rise.
+- ◻️ It will stay unchanged.  
+  _↳ feedback if chosen: The submerged stone takes up space and displaces water._
+- ◻️ It will fall.  
+  _↳ feedback if chosen: The submerged stone takes up space and displaces water._
+
+Full working after a second miss:
+
+> The submerged stone takes up space and displaces water.  
+
+> A stone that sinks is lowered completely into water in a measuring cylinder, without spilling any water. What will happen to the reading?
+
+- ◻️ It will stay unchanged.  
+  _↳ feedback if chosen: The submerged stone takes up space and displaces water._
+- ✅ It will rise.
+- ◻️ It will fall.  
+  _↳ feedback if chosen: The submerged stone takes up space and displaces water._
+
+Full working after a second miss:
+
+> The submerged stone takes up space and displaces water.  
+
+Sources: units (Metric units of length, mass and volume; conversions computed by convertUnit()); volume (Volume of liquids, regular and irregular solids; displacement)
+
+### `pilot-physics-16-2` · Lesson 16 · number, level 2
+
+Prompt: Read the before-and-after diagram. What is the volume of the stone?
+Right answer: `after - before`
+
+
+Three generated variants:
+
+> Read the before-and-after diagram. What is the volume of the stone?
+
+![drawing](figures/pilot-physics-16-2-37.svg)
+
+Answer: **16 cm³**
+
+Full working after a second miss:
+
+> Volume displaced = final reading − initial reading.  
+> 46 − 30 = 16 mL, which is 16 cm³.  
+
+> Read the before-and-after diagram. What is the volume of the stone?
+
+![drawing](figures/pilot-physics-16-2-38.svg)
+
+Answer: **16 cm³**
+
+Full working after a second miss:
+
+> Volume displaced = final reading − initial reading.  
+> 46 − 30 = 16 mL, which is 16 cm³.  
+
+> Read the before-and-after diagram. What is the volume of the stone?
+
+![drawing](figures/pilot-physics-16-2-39.svg)
+
+Answer: **16 cm³**
+
+Full working after a second miss:
+
+> Volume displaced = final reading − initial reading.  
+> 46 − 30 = 16 mL, which is 16 cm³.  
+
+Sources: units (Metric units of length, mass and volume; conversions computed by convertUnit()); volume (Volume of liquids, regular and irregular solids; displacement)
+
+### `pilot-physics-16-3` · Lesson 16 · multiple choice, level 3
+
+Prompt: Why do we subtract the first water reading from the second?
+
+Right answer: `The rise measures the water displaced by the submerged stone.`; wrong choices: `The final reading measures only the stone.`, `The first reading is the mass of the stone.`
+
+- Feedback `activity-choice-0`: “The final reading includes both the original water and the displacement, so remove the original water reading.”
+- Feedback `activity-choice-1`: “The final reading includes both the original water and the displacement, so remove the original water reading.”
+
+Three generated variants:
+
+> Why do we subtract the first water reading from the second?
+
+- ◻️ The final reading measures only the stone.  
+  _↳ feedback if chosen: The final reading includes both the original water and the displacement, so remove the original water reading._
+- ◻️ The first reading is the mass of the stone.  
+  _↳ feedback if chosen: The final reading includes both the original water and the displacement, so remove the original water reading._
+- ✅ The rise measures the water displaced by the submerged stone.
+
+Full working after a second miss:
+
+> The final reading includes both the original water and the displacement, so remove the original water reading.  
+
+> Why do we subtract the first water reading from the second?
+
+- ◻️ The final reading measures only the stone.  
+  _↳ feedback if chosen: The final reading includes both the original water and the displacement, so remove the original water reading._
+- ✅ The rise measures the water displaced by the submerged stone.
+- ◻️ The first reading is the mass of the stone.  
+  _↳ feedback if chosen: The final reading includes both the original water and the displacement, so remove the original water reading._
+
+Full working after a second miss:
+
+> The final reading includes both the original water and the displacement, so remove the original water reading.  
+
+> Why do we subtract the first water reading from the second?
+
+- ✅ The rise measures the water displaced by the submerged stone.
+- ◻️ The final reading measures only the stone.  
+  _↳ feedback if chosen: The final reading includes both the original water and the displacement, so remove the original water reading._
+- ◻️ The first reading is the mass of the stone.  
+  _↳ feedback if chosen: The final reading includes both the original water and the displacement, so remove the original water reading._
+
+Full working after a second miss:
+
+> The final reading includes both the original water and the displacement, so remove the original water reading.  
+
+Sources: units (Metric units of length, mass and volume; conversions computed by convertUnit()); volume (Volume of liquids, regular and irregular solids; displacement)
 
 ### `p17-spot` · Lesson 17 · spot the error, level 3
 
