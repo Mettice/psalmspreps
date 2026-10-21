@@ -1,0 +1,445 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 40,
+ "language": "en",
+ "prerequisites": [
+  39
+ ],
+ "skills": [
+  {
+   "id": "b2-40",
+   "name": "Rest and sleep"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rest is a time when the body and mind relax after work or exercise. Sleep is the deepest form of rest.\nImportance:\n• the body repairs tissues and grows (growth hormone is released in sleep);\n• muscles recover from tiredness;\n• the brain sorts and stores what was learned, so memory and concentration improve;\n• it strengthens the body's defence against disease;\n• it improves mood.\nTeenagers need about 8–10 hours of sleep each night.\nToo little sleep causes tiredness, poor marks, bad temper, accidents and illness.\nGood habits: a regular bedtime, no phone or screen just before bed, a quiet dark room, no coffee or energy drinks in the evening, and short rests between study periods.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a pupil plays on a phone until two in the morning before an exam"
+  },
+  "problem": "What may happen if {x}?",
+  "steps": [
+   "He gets far less than {8} hours of sleep.",
+   "His brain has not rested to store what he learned, so he is tired and cannot concentrate."
+  ],
+  "answer": "Tiredness and poor concentration in the exam.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c40-1",
+    "status": "draft",
+    "idea": "Rest lets the body and mind relax; sleep is the deepest rest.",
+    "vars": {},
+    "example": [
+     "Sitting quietly after games is rest.",
+     "At night we sleep."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-40-what"
+    }
+   },
+   {
+    "id": "c40-2",
+    "status": "draft",
+    "idea": "During sleep the body repairs and grows, and the brain stores what was learned.",
+    "vars": {},
+    "example": [
+     "Growth hormone is released in sleep.",
+     "Memory improves after a good night's sleep."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-40-why"
+    }
+   },
+   {
+    "id": "c40-3",
+    "status": "draft",
+    "idea": "Teenagers need about {8}–{10} hours of sleep; avoid screens and coffee before bed.",
+    "vars": {},
+    "example": [
+     "A regular bedtime.",
+     "A quiet, dark room."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-40-habit-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "physical-social-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which habit helps you sleep well?",
+         "r": "keeping a regular bedtime",
+         "w": [
+          "using a phone in bed",
+          "drinking coffee at night",
+          "sleeping with loud music"
+         ],
+         "e": [
+          "Screen light keeps the brain awake.",
+          "Coffee keeps you awake.",
+          "Noise disturbs sleep."
+         ],
+         "y": "A regular routine helps."
+        },
+        {
+         "q": "Which is an effect of too little sleep?",
+         "r": "poor concentration in class",
+         "w": [
+          "better marks",
+          "more energy",
+          "fewer accidents"
+         ],
+         "e": [
+          "Tiredness lowers marks.",
+          "You have less energy.",
+          "Tired people have more accidents."
+         ],
+         "y": "The brain needs rest to work well."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-40-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the deepest form of rest?",
+       "r": "sleep",
+       "w": [
+        "running",
+        "watching a film",
+        "studying"
+       ],
+       "e": [
+        "Running is exercise.",
+        "The brain is still busy.",
+        "The brain is working."
+       ],
+       "y": "In sleep the body and mind rest most."
+      },
+      {
+       "q": "About how many hours of sleep do teenagers need each night?",
+       "r": "8 to 10 hours",
+       "w": [
+        "2 to 3 hours",
+        "4 to 5 hours",
+        "15 to 18 hours"
+       ],
+       "e": [
+        "Far too little.",
+        "Too little.",
+        "Too much for a teenager."
+       ],
+       "y": "About 8–10 hours."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-40-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the body do during sleep?",
+       "r": "It repairs tissues and grows.",
+       "w": [
+        "It stops all work.",
+        "It digests nothing ever.",
+        "It loses all memory."
+       ],
+       "e": [
+        "The heart and lungs keep working.",
+        "That is not true.",
+        "Sleep helps memory."
+       ],
+       "y": "Growth and repair happen in sleep."
+      },
+      {
+       "q": "How does sleep help learning?",
+       "r": "The brain stores what was learned.",
+       "w": [
+        "It deletes lessons.",
+        "It makes the brain smaller.",
+        "It has no effect."
+       ],
+       "e": [
+        "Sleep keeps memories.",
+        "That is not true.",
+        "Sleep has a big effect."
+       ],
+       "y": "Memory improves after sleep."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-40-habit",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which habit helps you sleep well?",
+       "r": "keeping a regular bedtime",
+       "w": [
+        "using a phone in bed",
+        "drinking coffee at night",
+        "sleeping with loud music"
+       ],
+       "e": [
+        "Screen light keeps the brain awake.",
+        "Coffee keeps you awake.",
+        "Noise disturbs sleep."
+       ],
+       "y": "A regular routine helps."
+      },
+      {
+       "q": "Which is an effect of too little sleep?",
+       "r": "poor concentration in class",
+       "w": [
+        "better marks",
+        "more energy",
+        "fewer accidents"
+       ],
+       "e": [
+        "Tiredness lowers marks.",
+        "You have less energy.",
+        "Tired people have more accidents."
+       ],
+       "y": "The brain needs rest to work well."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-40-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Sleep helps the body grow.",
+      "truth": "true"
+     },
+     {
+      "text": "Rest helps muscles recover.",
+      "truth": "true"
+     },
+     {
+      "text": "A dark, quiet room helps sleep.",
+      "truth": "true"
+     },
+     {
+      "text": "Too little sleep causes tiredness.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Teenagers need only about three hours of sleep.",
+      "truth": "false",
+      "explain": "They need about 8–10 hours."
+     },
+     {
+      "text": "Energy drinks at bedtime help you sleep.",
+      "truth": "false",
+      "explain": "They contain caffeine, which keeps you awake."
+     },
+     {
+      "text": "Studying all night is better than sleeping before an exam.",
+      "truth": "false",
+      "explain": "Sleep stores what you learned."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

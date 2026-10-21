@@ -1,0 +1,475 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "b2-30",
+   "name": "Nutrition-related diseases: obesity"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Nutrition-related diseases are caused by eating too little, too much or the wrong kinds of food.\n• Too little: kwashiorkor (lack of protein: swollen belly and feet, reddish hair), marasmus (lack of energy food: very thin), anaemia (lack of iron), goitre (lack of iodine), night blindness (lack of vitamin A).\n• Too much: obesity, diabetes, high blood pressure, tooth decay.\nObesity is having far too much body fat.\nCauses: eating more energy than the body uses (fatty and sugary foods, sweet drinks), little exercise, and sometimes heredity or illness.\nEffects: high blood pressure, heart disease, type 2 diabetes, joint pain, breathing problems, low self-esteem.\nPrevention: a balanced diet with fruit and vegetables, fewer sweet drinks and fried foods, regular exercise, and checking weight.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a boy drinks three sweet sodas a day and plays video games instead of sport"
+  },
+  "problem": "Why may he become obese if {x}?",
+  "steps": [
+   "Sweet drinks give a lot of energy (sugar).",
+   "With little exercise the body stores the extra energy as fat."
+  ],
+  "answer": "He takes in more energy than he uses, and the extra is stored as fat.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "Nutrition-related diseases come from too little, too much or the wrong kind of food.",
+    "vars": {},
+    "example": [
+     "Kwashiorkor: too little protein.",
+     "Obesity: too much energy food."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-30-kind"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "Obesity is caused by taking in more energy than the body uses.",
+    "vars": {},
+    "example": [
+     "Sweet drinks and fried foods.",
+     "Little exercise."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-30-cause"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "Obesity can lead to high blood pressure, heart disease and diabetes; it is prevented by a balanced diet and exercise.",
+    "vars": {},
+    "example": [
+     "Walk or play sport every day.",
+     "Drink water instead of soda."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-30-prevent-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrition-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a health effect of obesity?",
+         "r": "high blood pressure",
+         "w": [
+          "goitre",
+          "night blindness",
+          "kwashiorkor"
+         ],
+         "e": [
+          "Goitre is from lack of iodine.",
+          "That is from lack of vitamin A.",
+          "That is from lack of protein."
+         ],
+         "y": "Obesity strains the heart and blood vessels."
+        },
+        {
+         "q": "Which is the best way to prevent obesity?",
+         "r": "a balanced diet and regular exercise",
+         "w": [
+          "skipping all meals",
+          "eating only fried food",
+          "sleeping all day"
+         ],
+         "e": [
+          "Skipping meals is unhealthy.",
+          "Fried food adds fat.",
+          "Rest without exercise does not help."
+         ],
+         "y": "Balance energy in with energy used."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-30-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a lack of protein in young children",
+       "r": "kwashiorkor",
+       "w": [
+        "obesity",
+        "goitre",
+        "tooth decay"
+       ],
+       "e": [
+        "Obesity is from too much energy food.",
+        "Goitre is from lack of iodine.",
+        "Tooth decay is from sugar."
+       ],
+       "y": "Kwashiorkor: swollen belly and feet."
+      },
+      {
+       "q": "a lack of iodine",
+       "r": "goitre",
+       "w": [
+        "anaemia",
+        "kwashiorkor",
+        "obesity"
+       ],
+       "e": [
+        "Anaemia is from lack of iron.",
+        "Kwashiorkor is from lack of protein.",
+        "Obesity is from too much food."
+       ],
+       "y": "Goitre is a swelling in the neck."
+      },
+      {
+       "q": "a lack of iron",
+       "r": "anaemia",
+       "w": [
+        "goitre",
+        "night blindness",
+        "obesity"
+       ],
+       "e": [
+        "Goitre is from lack of iodine.",
+        "Night blindness is from lack of vitamin A.",
+        "Obesity is from too much food."
+       ],
+       "y": "Iron is needed for red blood cells."
+      },
+      {
+       "q": "eating far more energy food than the body uses",
+       "r": "obesity",
+       "w": [
+        "marasmus",
+        "kwashiorkor",
+        "anaemia"
+       ],
+       "e": [
+        "Marasmus is from too little energy food.",
+        "Kwashiorkor is from lack of protein.",
+        "Anaemia is from lack of iron."
+       ],
+       "y": "Extra energy is stored as fat."
+      }
+     ]
+    }
+   },
+   "prompt": "Which disease is caused by {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-30-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which habit can lead to obesity?",
+       "r": "drinking many sweet drinks and exercising little",
+       "w": [
+        "eating fruit and vegetables",
+        "walking to school",
+        "drinking water"
+       ],
+       "e": [
+        "These help prevent obesity.",
+        "Exercise helps.",
+        "Water has no energy."
+       ],
+       "y": "Too much energy in, too little used."
+      },
+      {
+       "q": "What happens to extra energy food the body does not use?",
+       "r": "It is stored as fat.",
+       "w": [
+        "It is changed into water.",
+        "It disappears.",
+        "It becomes protein."
+       ],
+       "e": [
+        "It is not changed into water.",
+        "Energy is not lost.",
+        "It is not made into protein."
+       ],
+       "y": "Stored fat causes obesity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-30-prevent",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a health effect of obesity?",
+       "r": "high blood pressure",
+       "w": [
+        "goitre",
+        "night blindness",
+        "kwashiorkor"
+       ],
+       "e": [
+        "Goitre is from lack of iodine.",
+        "That is from lack of vitamin A.",
+        "That is from lack of protein."
+       ],
+       "y": "Obesity strains the heart and blood vessels."
+      },
+      {
+       "q": "Which is the best way to prevent obesity?",
+       "r": "a balanced diet and regular exercise",
+       "w": [
+        "skipping all meals",
+        "eating only fried food",
+        "sleeping all day"
+       ],
+       "e": [
+        "Skipping meals is unhealthy.",
+        "Fried food adds fat.",
+        "Rest without exercise does not help."
+       ],
+       "y": "Balance energy in with energy used."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Kwashiorkor is caused by a lack of protein.",
+      "truth": "true"
+     },
+     {
+      "text": "Obesity can lead to diabetes.",
+      "truth": "true"
+     },
+     {
+      "text": "Exercise helps prevent obesity.",
+      "truth": "true"
+     },
+     {
+      "text": "Goitre is caused by a lack of iodine.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Obesity is caused by eating too little food.",
+      "truth": "false",
+      "explain": "Obesity comes from too much energy food and little exercise."
+     },
+     {
+      "text": "Sweet drinks help prevent obesity.",
+      "truth": "false",
+      "explain": "Sweet drinks add a lot of sugar."
+     },
+     {
+      "text": "Anaemia is caused by too much iron.",
+      "truth": "false",
+      "explain": "Anaemia is caused by a lack of iron."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

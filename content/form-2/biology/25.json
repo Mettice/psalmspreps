@@ -1,0 +1,458 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b2-25",
+   "name": "Transformation of foodstuffs: notion and importance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Transformation (processing) of foodstuffs is changing raw farm products into new food products, for example cassava into garri, maize into flour, milk into yoghurt, cocoa into chocolate, groundnuts into oil.\nImportance and advantages:\n• food keeps longer and wastes less after harvest;\n• it is easier to store, carry and sell;\n• it makes new tastes and a varied diet;\n• some poisons are removed (soaking cassava removes cyanide);\n• it creates jobs and income.\nDisadvantages:\n• some vitamins and fibre can be lost (refined flour, polished rice);\n• too much salt, sugar or fat may be added;\n• poor hygiene can contaminate food;\n• machines and packaging cost money.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "cassava"
+  },
+  "problem": "Give two reasons why {f} is processed into garri.",
+  "steps": [
+   "Fresh {f} rots within a few days, but dry garri keeps for months.",
+   "Soaking and fermenting removes the poison (cyanide) in bitter {f}."
+  ],
+  "answer": "Garri keeps longer, and the poison is removed.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "Transformation changes raw farm products into new food products.",
+    "vars": {},
+    "example": [
+     "Cassava → garri, water fufu, bobolo.",
+     "Milk → yoghurt, cheese."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-25-what"
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Processing makes food keep longer, easier to sell and safer, and creates jobs.",
+    "vars": {},
+    "example": [
+     "Dry garri keeps for months.",
+     "Soaking cassava removes cyanide."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-25-good"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "Processing can remove vitamins and fibre, or add too much salt, sugar or fat.",
+    "vars": {},
+    "example": [
+     "White bread has less fibre than whole wheat.",
+     "Sweets have a lot of added sugar."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-25-bad-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "food-transformation"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is one disadvantage of processing food?",
+         "r": "Some vitamins and fibre may be lost.",
+         "w": [
+          "The food keeps longer.",
+          "It creates jobs.",
+          "It is easier to sell."
+         ],
+         "e": [
+          "That is an advantage.",
+          "That is an advantage.",
+          "That is an advantage."
+         ],
+         "y": "Refining can remove nutrients."
+        },
+        {
+         "q": "Why can some processed snacks be bad for health?",
+         "r": "They may have too much salt, sugar or fat.",
+         "w": [
+          "They contain no energy.",
+          "They are always raw.",
+          "They are too fresh."
+         ],
+         "e": [
+          "They often have a lot of energy.",
+          "They are processed.",
+          "That is not the problem."
+         ],
+         "y": "Added salt, sugar and fat cause diseases when eaten often."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-25-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an example of transformation of a foodstuff?",
+       "r": "making garri from cassava",
+       "w": [
+        "harvesting cassava",
+        "planting maize",
+        "watering tomatoes"
+       ],
+       "e": [
+        "Harvesting does not change the food.",
+        "Planting is farming, not processing.",
+        "Watering is farming."
+       ],
+       "y": "Garri is a new product made from cassava."
+      },
+      {
+       "q": "What is made from cocoa beans?",
+       "r": "chocolate",
+       "w": [
+        "garri",
+        "palm oil",
+        "yoghurt"
+       ],
+       "e": [
+        "Garri is from cassava.",
+        "Palm oil is from oil palm fruit.",
+        "Yoghurt is from milk."
+       ],
+       "y": "Cocoa beans are roasted and ground into chocolate."
+      },
+      {
+       "q": "What is yoghurt made from?",
+       "r": "milk",
+       "w": [
+        "maize",
+        "cassava",
+        "groundnuts"
+       ],
+       "e": [
+        "Maize gives flour and pap.",
+        "Cassava gives garri.",
+        "Groundnuts give oil and paste."
+       ],
+       "y": "Bacteria turn milk into yoghurt."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-25-good",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is one advantage of processing food?",
+       "r": "It keeps the food longer.",
+       "w": [
+        "It always adds vitamins.",
+        "It makes food free.",
+        "It stops all diseases."
+       ],
+       "e": [
+        "Processing often removes some vitamins.",
+        "Processing costs money.",
+        "It does not stop all diseases."
+       ],
+       "y": "Processed food stores well."
+      },
+      {
+       "q": "Why is bitter cassava soaked before eating?",
+       "r": "to remove its poison (cyanide)",
+       "w": [
+        "to make it sweeter only",
+        "to add protein",
+        "to make it grow"
+       ],
+       "e": [
+        "The main reason is safety.",
+        "Soaking does not add protein.",
+        "Harvested cassava does not grow."
+       ],
+       "y": "Soaking and fermenting remove cyanide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-25-bad",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is one disadvantage of processing food?",
+       "r": "Some vitamins and fibre may be lost.",
+       "w": [
+        "The food keeps longer.",
+        "It creates jobs.",
+        "It is easier to sell."
+       ],
+       "e": [
+        "That is an advantage.",
+        "That is an advantage.",
+        "That is an advantage."
+       ],
+       "y": "Refining can remove nutrients."
+      },
+      {
+       "q": "Why can some processed snacks be bad for health?",
+       "r": "They may have too much salt, sugar or fat.",
+       "w": [
+        "They contain no energy.",
+        "They are always raw.",
+        "They are too fresh."
+       ],
+       "e": [
+        "They often have a lot of energy.",
+        "They are processed.",
+        "That is not the problem."
+       ],
+       "y": "Added salt, sugar and fat cause diseases when eaten often."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-25-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Processing helps food keep longer.",
+      "truth": "true"
+     },
+     {
+      "text": "Groundnuts can be processed into oil.",
+      "truth": "true"
+     },
+     {
+      "text": "Processing creates jobs.",
+      "truth": "true"
+     },
+     {
+      "text": "Poor hygiene during processing can contaminate food.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Processing always makes food more nutritious.",
+      "truth": "false",
+      "explain": "Some vitamins and fibre can be lost."
+     },
+     {
+      "text": "Processing food has no disadvantages.",
+      "truth": "false",
+      "explain": "It can lose nutrients, add salt or sugar, and cost money."
+     },
+     {
+      "text": "Harvesting maize is a form of food transformation.",
+      "truth": "false",
+      "explain": "Harvesting does not change maize into a new product."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

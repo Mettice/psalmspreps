@@ -309,3 +309,15 @@ export const eqElement = (i, k) => eqElements(i)[k % eqElements(i).length];
 export const eqAtomsNoCoef = (i, s, symbol) => EQ[i][1 + s].reduce((t, [, f]) => t + (parseFormula(f)[symbol] || 0), 0);
 /** The formula of term k (reactants then products). */
 export const eqTermFormula = (i, k) => [...EQ[i][1], ...EQ[i][2]][k][1];
+
+// ================================================================ Biology Term 2 (2026-10-21)
+/** Body Mass Index = mass (kg) ÷ height² (m²), to one decimal place. */
+export const bmi = (kg, m) => Number((kg / (m * m)).toFixed(1));
+/** WHO adult classes: under 18.5 underweight, 18.5–24.9 normal, 25–29.9 overweight, 30 and above obese. */
+export const bmiClass = (b) => (b < 18.5 ? "underweight" : b < 25 ? "normal weight" : b < 30 ? "overweight" : "obese");
+/** Energy from a food: grams × energy per gram (kJ). */
+export const foodEnergy = (g, kjPerG) => Number((g * kjPerG).toPrecision(12));
+/** Heat taken in by water (J) = mass (g) × 4.2 × temperature rise (°C). */
+export const heatToWater = (g, rise) => Number((g * 4.2 * rise).toPrecision(12));
+/** Energy value of a burned food sample in J per gram. */
+export const energyPerGram = (waterG, rise, foodG) => Number((heatToWater(waterG, rise) / foodG).toPrecision(12));

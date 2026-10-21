@@ -1,0 +1,357 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  31
+ ],
+ "skills": [
+  {
+   "id": "b2-32",
+   "name": "Calorific (energy) value of food"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The calorific (energy) value of a food is the energy one gram of it gives the body. It is measured in kilojoules (kJ) or kilocalories (kcal); 1 kcal ≈ 4.2 kJ.\nEnergy values: fat about 37 kJ per gram, carbohydrate about 17 kJ per gram, protein about 17 kJ per gram. Fat gives about twice as much energy as the others.\nEnergy from a food = mass (g) × energy per gram.\nExperiment: burn a known mass of food (a groundnut) under a tube of water. The heat taken in by the water = mass of water (g) × 4.2 × temperature rise (J). Dividing by the mass of food gives the energy per gram. The result is lower than the true value because some heat escapes into the air.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "g": 10,
+   "e": 37
+  },
+  "problem": "How much energy is in {g} g of fat ({e} kJ per gram)?",
+  "steps": [
+   "Energy = mass × energy per gram.",
+   "{g} × {e} = {foodEnergy(g, e)} kJ."
+  ],
+  "answer": "{foodEnergy(g, e)} kJ",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "Fat gives about {37} kJ per gram; carbohydrate and protein about {17} kJ per gram.",
+    "vars": {},
+    "example": [
+     "Fat gives about twice as much energy.",
+     "Groundnuts and palm oil are rich in fat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-32-value"
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "Energy from a food = mass (g) × energy per gram.",
+    "vars": {},
+    "example": [
+     "{20} g of sugar × {17} kJ = {340} kJ.",
+     "Check the units: g × kJ per g = kJ."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-32-calc-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "nutrition-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "n": "fat",
+         "e": 37
+        },
+        {
+         "n": "sugar",
+         "e": 17
+        },
+        {
+         "n": "protein",
+         "e": 17
+        },
+        {
+         "n": "starch",
+         "e": 17
+        }
+       ]
+      },
+      "g": {
+       "int": [
+        2,
+        50
+       ]
+      }
+     },
+     "prompt": "How much energy is in {g} g of {X.n} ({X.e} kJ per gram)?",
+     "answer": "foodEnergy(g, X.e)",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "g + X.e",
+       "explain": "Multiply the mass by the energy per gram."
+      }
+     ],
+     "solution": [
+      "Energy = mass × energy per gram.",
+      "{g} × {X.e} = {answer} kJ."
+     ],
+     "unit": "kJ"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "Heat taken in by water = mass of water (g) × {4.2} × temperature rise (J).",
+    "vars": {},
+    "example": [
+     "{20} g of water rises {10} °C: {20} × {4.2} × {10} = {840} J.",
+     "Some heat escapes, so the result is too low."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-32-heat-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "nutrition-health"
+     ],
+     "vars": {
+      "f": {
+       "pick": [
+        0.5,
+        1
+       ]
+      },
+      "w": {
+       "pick": [
+        10,
+        20,
+        25,
+        50
+       ]
+      },
+      "t": {
+       "int": [
+        5,
+        30
+       ]
+      }
+     },
+     "prompt": "A groundnut of mass {f} g is burned under a tube holding {w} g of water. The water's temperature rises by {t} °C. How much heat did the water take in (in J)?",
+     "answer": "heatToWater(w, t)",
+     "misconceptions": [
+      {
+       "id": "no42",
+       "wrong": "w * t",
+       "explain": "Multiply by {4.2} too (the energy to warm {1} g of water by {1} °C)."
+      },
+      {
+       "id": "food",
+       "wrong": "heatToWater(f, t)",
+       "explain": "Use the mass of the water, not of the groundnut."
+      }
+     ],
+     "solution": [
+      "Heat = mass of water × {4.2} × temperature rise.",
+      "{w} × {4.2} × {t} = {answer} J."
+     ],
+     "unit": "J"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-32-value",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which food type gives the most energy per gram?",
+       "r": "fat",
+       "w": [
+        "protein",
+        "carbohydrate",
+        "water"
+       ],
+       "e": [
+        "Protein gives about 17 kJ per gram.",
+        "Carbohydrate gives about 17 kJ per gram.",
+        "Water gives no energy."
+       ],
+       "y": "Fat gives about 37 kJ per gram."
+      },
+      {
+       "q": "In what unit is the energy value of food measured?",
+       "r": "kilojoules (kJ)",
+       "w": [
+        "kilograms (kg)",
+        "metres (m)",
+        "litres (l)"
+       ],
+       "e": [
+        "That is mass.",
+        "That is length.",
+        "That is volume."
+       ],
+       "y": "Energy is measured in joules or kilojoules."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-32-calc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "fat",
+       "e": 37
+      },
+      {
+       "n": "sugar",
+       "e": 17
+      },
+      {
+       "n": "protein",
+       "e": 17
+      },
+      {
+       "n": "starch",
+       "e": 17
+      }
+     ]
+    },
+    "g": {
+     "int": [
+      2,
+      50
+     ]
+    }
+   },
+   "prompt": "How much energy is in {g} g of {X.n} ({X.e} kJ per gram)?",
+   "answer": "foodEnergy(g, X.e)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "g + X.e",
+     "explain": "Multiply the mass by the energy per gram."
+    }
+   ],
+   "solution": [
+    "Energy = mass × energy per gram.",
+    "{g} × {X.e} = {answer} kJ."
+   ],
+   "unit": "kJ"
+  },
+  {
+   "id": "b2-32-heat",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      0.5,
+      1
+     ]
+    },
+    "w": {
+     "pick": [
+      10,
+      20,
+      25,
+      50
+     ]
+    },
+    "t": {
+     "int": [
+      5,
+      30
+     ]
+    }
+   },
+   "prompt": "A groundnut of mass {f} g is burned under a tube holding {w} g of water. The water's temperature rises by {t} °C. How much heat did the water take in (in J)?",
+   "answer": "heatToWater(w, t)",
+   "misconceptions": [
+    {
+     "id": "no42",
+     "wrong": "w * t",
+     "explain": "Multiply by {4.2} too (the energy to warm {1} g of water by {1} °C)."
+    },
+    {
+     "id": "food",
+     "wrong": "heatToWater(f, t)",
+     "explain": "Use the mass of the water, not of the groundnut."
+    }
+   ],
+   "solution": [
+    "Heat = mass of water × {4.2} × temperature rise.",
+    "{w} × {4.2} × {t} = {answer} J."
+   ],
+   "unit": "J"
+  }
+ ]
+}

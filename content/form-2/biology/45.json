@@ -1,0 +1,445 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 45,
+ "language": "en",
+ "prerequisites": [
+  44
+ ],
+ "skills": [
+  {
+   "id": "b2-45",
+   "name": "Harmful practices: breast ironing and induced abortion"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Breast ironing (breast flattening) is pressing or massaging a girl's developing breasts with hot objects (stones, pestles, spatulas) to stop them growing. It is done by some families in Cameroon in the belief that it delays sexual attention.\nConsequences: pain, burns, infections, cysts and lumps, breasts that develop unevenly, problems with breastfeeding later, and shame and fear. It does not prevent pregnancy. It is a form of violence against girls.\nInduced abortion is ending a pregnancy on purpose. Unsafe abortion, done by untrained people or with dangerous methods, is a major cause of death of young women.\nConsequences of unsafe abortion: severe bleeding, infection, damage to the womb, infertility, death. In Cameroon, abortion is illegal except in limited cases.\nPrevention: education, open talk with parents, abstinence, and getting help early from a health worker.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "breast ironing will stop a girl getting pregnant"
+  },
+  "problem": "A mother believes {x}. What is the truth?",
+  "steps": [
+   "Breast ironing does not change the girl's ability to get pregnant.",
+   "It causes pain, burns, infections and lasting harm."
+  ],
+  "answer": "It does not prevent pregnancy; it only harms the girl.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c45-1",
+    "status": "draft",
+    "idea": "Breast ironing is pressing a girl's growing breasts with hot objects; it is harmful violence.",
+    "vars": {},
+    "example": [
+     "It causes burns and infections.",
+     "It can cause problems with breastfeeding."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-45-iron"
+    }
+   },
+   {
+    "id": "c45-2",
+    "status": "draft",
+    "idea": "Breast ironing does not prevent pregnancy; education does.",
+    "vars": {},
+    "example": [
+     "Talk openly with daughters.",
+     "Keep girls in school."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-45-myth"
+    }
+   },
+   {
+    "id": "c45-3",
+    "status": "draft",
+    "idea": "Unsafe abortion can cause bleeding, infection, infertility and death.",
+    "vars": {},
+    "example": [
+     "Done by untrained people.",
+     "Get help early from a health worker."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-45-abort-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reproductive-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a danger of unsafe abortion?",
+         "r": "severe bleeding and infection",
+         "w": [
+          "stronger muscles",
+          "better sleep",
+          "more energy"
+         ],
+         "e": [
+          "That is not an effect.",
+          "That is not an effect.",
+          "That is not an effect."
+         ],
+         "y": "Unsafe abortion can kill."
+        },
+        {
+         "q": "Why is unsafe abortion so dangerous?",
+         "r": "It is done by untrained people or with dangerous methods.",
+         "w": [
+          "It is done in hospitals by doctors.",
+          "It is a kind of exercise.",
+          "It uses clean tools always."
+         ],
+         "e": [
+          "That would be safer care.",
+          "It is not exercise.",
+          "Tools are often dirty."
+         ],
+         "y": "Lack of skill and hygiene causes injury and infection."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-45-iron",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reproductive-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is breast ironing?",
+       "r": "pressing a girl's growing breasts with hot objects",
+       "w": [
+        "ironing clothes for school",
+        "a breast examination by a doctor",
+        "a kind of exercise"
+       ],
+       "e": [
+        "It is a harmful practice on girls.",
+        "Doctors do not do this.",
+        "It is not exercise."
+       ],
+       "y": "It is meant to stop breasts growing."
+      },
+      {
+       "q": "Which is a consequence of breast ironing?",
+       "r": "burns and infections",
+       "w": [
+        "stronger bones",
+        "better marks",
+        "protection from disease"
+       ],
+       "e": [
+        "It does not help bones.",
+        "It does not help school work.",
+        "It can cause infection."
+       ],
+       "y": "It harms the girl's body and mind."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-45-myth",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reproductive-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Does breast ironing prevent pregnancy?",
+       "r": "No.",
+       "w": [
+        "Yes, always.",
+        "Yes, for a year.",
+        "Yes, if done every day."
+       ],
+       "e": [
+        "It has no effect on pregnancy.",
+        "It has no effect on pregnancy.",
+        "Repeating it only causes more harm."
+       ],
+       "y": "It only harms the girl."
+      },
+      {
+       "q": "What really helps protect girls from early pregnancy?",
+       "r": "education and open talk with parents",
+       "w": [
+        "breast ironing",
+        "early marriage",
+        "keeping them out of school"
+       ],
+       "e": [
+        "It does not work and causes harm.",
+        "That causes early pregnancy.",
+        "Education protects them."
+       ],
+       "y": "Knowledge and support protect girls."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-45-abort",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reproductive-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a danger of unsafe abortion?",
+       "r": "severe bleeding and infection",
+       "w": [
+        "stronger muscles",
+        "better sleep",
+        "more energy"
+       ],
+       "e": [
+        "That is not an effect.",
+        "That is not an effect.",
+        "That is not an effect."
+       ],
+       "y": "Unsafe abortion can kill."
+      },
+      {
+       "q": "Why is unsafe abortion so dangerous?",
+       "r": "It is done by untrained people or with dangerous methods.",
+       "w": [
+        "It is done in hospitals by doctors.",
+        "It is a kind of exercise.",
+        "It uses clean tools always."
+       ],
+       "e": [
+        "That would be safer care.",
+        "It is not exercise.",
+        "Tools are often dirty."
+       ],
+       "y": "Lack of skill and hygiene causes injury and infection."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-45-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reproductive-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Breast ironing causes pain and burns.",
+      "truth": "true"
+     },
+     {
+      "text": "Unsafe abortion can cause death.",
+      "truth": "true"
+     },
+     {
+      "text": "Education helps prevent early pregnancy.",
+      "truth": "true"
+     },
+     {
+      "text": "Girls at risk can tell a health worker.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Breast ironing protects girls from pregnancy.",
+      "truth": "false",
+      "explain": "It does not prevent pregnancy."
+     },
+     {
+      "text": "Unsafe abortion has no health risks.",
+      "truth": "false",
+      "explain": "It can cause bleeding, infection, infertility and death."
+     },
+     {
+      "text": "Breast ironing is a health treatment.",
+      "truth": "false",
+      "explain": "It is a harmful practice with no health benefit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

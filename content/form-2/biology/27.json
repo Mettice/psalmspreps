@@ -1,0 +1,394 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "b2-27",
+   "name": "Experiment 7: transformation of milk into yoghurt"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Aim: to make yoghurt from milk using lactic acid bacteria.\nMaterials: one litre of fresh milk (or powdered milk mixed with clean water), two spoons of plain yoghurt (the starter), a pot, a clean jar with a lid, a thermometer, a clean cloth.\nMethod:\n1. Wash hands and all tools well.\n2. Boil the milk to kill germs, then let it cool to about 40–45 °C (warm, not hot).\n3. Stir in the starter yoghurt.\n4. Pour into the jar, close it and wrap it in a cloth to keep it warm.\n5. Leave for 6–8 hours, then keep it cool.\nResults: the milk thickens and tastes sour.\nConclusion: lactic acid bacteria change the milk sugar (lactose) into lactic acid, which thickens the milk.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "boiling hot"
+  },
+  "problem": "Why is the starter not added while the milk is still {t}?",
+  "steps": [
+   "The starter contains living bacteria.",
+   "Very hot milk would kill them, so no yoghurt would form."
+  ],
+  "answer": "The heat would kill the bacteria in the starter.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "Boil the milk first to kill germs, then cool it until it is warm.",
+    "vars": {},
+    "example": [
+     "About {40}–{45} °C.",
+     "Clean hands and tools."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-27-steps"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "The starter yoghurt adds the lactic acid bacteria.",
+    "vars": {},
+    "example": [
+     "Two spoons of plain yoghurt.",
+     "Stir it in well."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-27-starter"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "The bacteria change milk sugar into lactic acid, which makes the milk thick and sour.",
+    "vars": {},
+    "example": [
+     "Keep the jar warm for some hours.",
+     "Then keep it cool."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-27-why-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "food-transformation"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What makes the yoghurt taste sour?",
+         "r": "lactic acid made by the bacteria",
+         "w": [
+          "the salt added",
+          "the boiling",
+          "the cloth"
+         ],
+         "e": [
+          "No salt is added.",
+          "Boiling does not make it sour.",
+          "The cloth only keeps it warm."
+         ],
+         "y": "Lactic acid is sour."
+        },
+        {
+         "q": "What do the bacteria feed on in the milk?",
+         "r": "milk sugar (lactose)",
+         "w": [
+          "the jar",
+          "the thermometer",
+          "the cloth"
+         ],
+         "e": [
+          "The jar is glass.",
+          "That is only for measuring.",
+          "The cloth only keeps it warm."
+         ],
+         "y": "Lactose is changed into lactic acid."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-27-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "prompt": "Put the steps of the experiment in order.",
+   "items": [
+    {
+     "text": "Wash hands and tools"
+    },
+    {
+     "text": "Boil the milk"
+    },
+    {
+     "text": "Cool it until warm"
+    },
+    {
+     "text": "Stir in the starter yoghurt"
+    },
+    {
+     "text": "Keep the closed jar warm for some hours"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "b2-27-starter",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the starter in this experiment?",
+       "r": "a little plain yoghurt",
+       "w": [
+        "salt",
+        "sugar",
+        "lemon juice"
+       ],
+       "e": [
+        "Salt does not contain the bacteria.",
+        "Sugar does not contain the bacteria.",
+        "Lemon juice curdles milk but is not a starter."
+       ],
+       "y": "The yoghurt contains living lactic acid bacteria."
+      },
+      {
+       "q": "Why is the jar wrapped in a cloth?",
+       "r": "to keep it warm for the bacteria",
+       "w": [
+        "to keep out light only",
+        "to cool it quickly",
+        "to make it heavier"
+       ],
+       "e": [
+        "Warmth is the main reason.",
+        "It should stay warm.",
+        "That is not why."
+       ],
+       "y": "The bacteria work best when warm."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-27-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What makes the yoghurt taste sour?",
+       "r": "lactic acid made by the bacteria",
+       "w": [
+        "the salt added",
+        "the boiling",
+        "the cloth"
+       ],
+       "e": [
+        "No salt is added.",
+        "Boiling does not make it sour.",
+        "The cloth only keeps it warm."
+       ],
+       "y": "Lactic acid is sour."
+      },
+      {
+       "q": "What do the bacteria feed on in the milk?",
+       "r": "milk sugar (lactose)",
+       "w": [
+        "the jar",
+        "the thermometer",
+        "the cloth"
+       ],
+       "e": [
+        "The jar is glass.",
+        "That is only for measuring.",
+        "The cloth only keeps it warm."
+       ],
+       "y": "Lactose is changed into lactic acid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-27-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "prompt": "Which step or result is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Boil the milk first.",
+      "truth": "true"
+     },
+     {
+      "text": "Add the starter when the milk is warm.",
+      "truth": "true"
+     },
+     {
+      "text": "Keep the jar warm for some hours.",
+      "truth": "true"
+     },
+     {
+      "text": "The milk becomes thick and sour.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Add the starter to boiling milk.",
+      "truth": "false",
+      "explain": "Boiling milk kills the bacteria: cool it first."
+     },
+     {
+      "text": "Put the jar straight into the fridge after adding the starter.",
+      "truth": "false",
+      "explain": "The bacteria need warmth for some hours first."
+     },
+     {
+      "text": "Use dirty tools; the boiling will kill the germs later.",
+      "truth": "false",
+      "explain": "Tools must be clean: germs could enter after boiling."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

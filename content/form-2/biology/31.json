@@ -1,0 +1,372 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [
+  30
+ ],
+ "skills": [
+  {
+   "id": "b2-31",
+   "name": "Body Mass Index (BMI)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Body Mass Index (BMI) tells whether an adult's weight is healthy for their height.\nBMI = mass (kg) ÷ height² (m²)\nExample: mass 60 kg, height 1.6 m: BMI = 60 ÷ (1.6 × 1.6) = 60 ÷ 2.56 = 23.4.\nAdult classes (World Health Organization):\n• below 18.5: underweight\n• 18.5 to 24.9: normal (healthy) weight\n• 25 to 29.9: overweight\n• 30 and above: obese\nFor children and teenagers, the BMI is compared with charts for their age and sex, because they are still growing.\nThe BMI is only a guide: a muscular athlete can have a high BMI without too much fat.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 60,
+   "h": 1.6
+  },
+  "problem": "A woman has mass {m} kg and height {h} m. Find her BMI and say which class she is in.",
+  "steps": [
+   "Height² = {h} × {h} = {h * h}.",
+   "BMI = {m} ÷ {h * h} = {bmi(m, h)}; this is between {18.5} and {24.9}."
+  ],
+  "answer": "{bmi(m, h)}: {bmiClass(bmi(m, h))}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "BMI = mass (kg) ÷ height² (m²).",
+    "vars": {},
+    "example": [
+     "Square the height first.",
+     "Then divide the mass by it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-31-calc"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "Below {18.5} is underweight; {18.5}–{24.9} normal; {25}–{29.9} overweight; {30} and above obese.",
+    "vars": {},
+    "example": [
+     "BMI {22}: normal weight.",
+     "BMI {31}: obese."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-31-class"
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "For teenagers, BMI is compared with age charts; it is only a guide.",
+    "vars": {},
+    "example": [
+     "Children are still growing.",
+     "Muscle is heavy too."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-31-guide-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrition-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is a teenager's BMI compared with charts for their age?",
+         "r": "Teenagers are still growing.",
+         "w": [
+          "Teenagers have no mass.",
+          "BMI cannot be calculated for them.",
+          "Their height never changes."
+         ],
+         "e": [
+          "Everyone has mass.",
+          "It can be calculated.",
+          "Teenagers grow taller."
+         ],
+         "y": "Healthy BMI changes with age while growing."
+        },
+        {
+         "q": "Why can a strong athlete have a high BMI and still be healthy?",
+         "r": "Muscle is heavy, and BMI does not separate muscle from fat.",
+         "w": [
+          "Athletes are always obese.",
+          "BMI measures only fat.",
+          "Athletes have no height."
+         ],
+         "e": [
+          "They are usually not.",
+          "BMI uses only mass and height.",
+          "That is not true."
+         ],
+         "y": "BMI is only a guide."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-31-calc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "h": {
+     "pick": [
+      1.5,
+      1.6,
+      1.7,
+      1.8
+     ]
+    },
+    "m": {
+     "int": [
+      45,
+      110
+     ]
+    }
+   },
+   "prompt": "A man has mass {m} kg and height {h} m. Find his BMI to one decimal place.",
+   "answer": "bmi(m, h)",
+   "misconceptions": [
+    {
+     "id": "noSquare",
+     "wrong": "roundTo(m / h, 0.1)",
+     "explain": "Square the height first: divide by height × height."
+    },
+    {
+     "id": "times",
+     "wrong": "roundTo(m * h * h, 0.1)",
+     "explain": "Divide the mass by height², do not multiply."
+    }
+   ],
+   "solution": [
+    "Height² = {h} × {h} = {h * h}.",
+    "BMI = {m} ÷ {h * h} = {answer}."
+   ]
+  },
+  {
+   "id": "b2-31-class",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      16.2,
+      17.8,
+      19.5,
+      21.3,
+      23.4,
+      24.6,
+      26.1,
+      27.8,
+      29.2,
+      31.4,
+      34.0,
+      38.5
+     ]
+    }
+   },
+   "prompt": "An adult has a BMI of {b}. Which class is this?",
+   "correct": "{bmiClass(b)}",
+   "distractors": [
+    {
+     "text": "{bmiClass(b) == 'underweight' ? 'obese' : 'underweight'}",
+     "misconception": "class"
+    },
+    {
+     "text": "{bmiClass(b) == 'normal weight' ? 'overweight' : 'normal weight'}",
+     "misconception": "class"
+    },
+    {
+     "text": "{bmiClass(b) == 'overweight' || bmiClass(b) == 'normal weight' ? 'obese' : 'overweight'}",
+     "misconception": "class"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "class",
+     "explain": "Compare the BMI with the limits {18.5}, {25} and {30}."
+    }
+   ],
+   "solution": [
+    "Below {18.5} underweight; {18.5}–{24.9} normal; {25}–{29.9} overweight; {30} and above obese.",
+    "{b} is {answer}."
+   ]
+  },
+  {
+   "id": "b2-31-guide",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is a teenager's BMI compared with charts for their age?",
+       "r": "Teenagers are still growing.",
+       "w": [
+        "Teenagers have no mass.",
+        "BMI cannot be calculated for them.",
+        "Their height never changes."
+       ],
+       "e": [
+        "Everyone has mass.",
+        "It can be calculated.",
+        "Teenagers grow taller."
+       ],
+       "y": "Healthy BMI changes with age while growing."
+      },
+      {
+       "q": "Why can a strong athlete have a high BMI and still be healthy?",
+       "r": "Muscle is heavy, and BMI does not separate muscle from fat.",
+       "w": [
+        "Athletes are always obese.",
+        "BMI measures only fat.",
+        "Athletes have no height."
+       ],
+       "e": [
+        "They are usually not.",
+        "BMI uses only mass and height.",
+        "That is not true."
+       ],
+       "y": "BMI is only a guide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-31-mass",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "h": {
+     "pick": [
+      1.5,
+      1.6,
+      1.7
+     ]
+    },
+    "b": {
+     "pick": [
+      20,
+      21,
+      22
+     ]
+    }
+   },
+   "prompt": "A girl of height {h} m wants her BMI to be {b}. What mass (kg) would that be? Give your answer to one decimal place.",
+   "answer": "roundTo(b * h * h, 0.1)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(b / (h * h), 0.1)",
+     "explain": "Mass = BMI × height²: multiply."
+    }
+   ],
+   "solution": [
+    "Mass = BMI × height².",
+    "{b} × {h} × {h} = {answer} kg."
+   ],
+   "unit": "kg"
+  }
+ ]
+}

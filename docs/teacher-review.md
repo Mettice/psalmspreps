@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-203 P1 items: 201 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+207 P1 items: 205 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -231,6 +231,10 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-J11 | Form 2 Chemistry: air | open |
 | TR-J12 | Form 2 Chemistry: burning and rusting | open |
 | TR-J13 | Form 2 Chemistry: separation and purity | open |
+| TR-V10 | Form 2 Biology: local foods and preservation | open |
+| TR-V11 | Form 2 Biology: BMI and food energy | open |
+| TR-V12 | Form 2 Biology: drugs and the law | open |
+| TR-V13 | Form 2 Biology: harmful practices and the law | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -868,3 +872,13 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 - [ ] **TR-J11 [P1] Air:** composition by volume (N₂ 78%, O₂ 21%, Ar 0.9%, CO₂ 0.04%), the heated-copper syringe experiment, boiling points N₂ −196, Ar −186, O₂ −183 °C, liquefaction at about −200 °C. *Location:* rows 29–32.
 - [ ] **TR-J12 [P1] Burning and rusting:** metal oxides basic and non-metal oxides acidic (Al and Zn left out as amphoteric), flame colours, carbon monoxide safety, the three-tube rusting experiment, rust as Fe₂O₃·xH₂O, the prevention methods matched to objects (chain oiled, gate painted, can tin-plated, roof galvanised). *Location:* rows 33–38.
 - [ ] **TR-J13 [P1] Separation and purity:** melting and boiling points used (water 0/100, ethanol −114/78, mercury −39/357, naphthalene 80/218, oxygen −218/−183, sulphur 115/445, methanol 65, propanone 56 °C), Rf = spot ÷ solvent, impurities raise the boiling point and lower the melting point. *Location:* rows 40–45.
+
+## V (Term 2). Biology Form 2, Batch B2-2 (Term 2, rows 25–33 and 37–46), added 2026-10-21 (form-2 branch)
+
+19 lessons: transformation of foodstuffs (cassava, maize, millet, milk), Experiment 7 (yoghurt), food preservation and preparation, nutrition-related diseases and obesity, Body Mass Index, energy value of food, healthy eating, a project against a nutrition-related disease, solid waste management, exercise, rest, drug abuse (alcohol, smoking, marijuana and tramadol), early marriage and FGM, breast ironing and unsafe abortion, climate change. Integration, evaluation and remediation rows (34–36, 47–49) are not lessons. Computed parts (BMI and its class, food energy, heat taken in by water) come from `science2.js`. Reviewer: a Biology teacher; the reproductive-health lessons also need a school counsellor or health worker to read them.
+
+### P1
+- [ ] **TR-V10 [P1] Local foods:** the names and steps for garri, bobolo (miondo), water fufu, kumkum, corn fufu, pap (akamu), bouillie, bil-bil, wagashi; yoghurt at 40–45 °C for 6–8 hours. *Location:* rows 25–29.
+- [ ] **TR-V11 [P1] BMI and food energy:** WHO adult BMI classes (18.5, 25, 30) with a note that teenagers use age charts; energy values fat 37 and carbohydrate/protein 17 kJ per gram; heat = mass × 4.2 × rise. *Location:* rows 31–32.
+- [ ] **TR-V12 [P1] Drugs and the law:** the effects of alcohol, tobacco (nicotine, tar, carbon monoxide, passive smoking, shisha), marijuana and tramadol; the statements that tobacco and alcohol sales to minors and smoking in public places are forbidden, and that using and selling marijuana are crimes. *Location:* rows 41–43.
+- [ ] **TR-V13 [P1] Reproductive-health practices and the law:** please check the legal statements against the Cameroon Penal Code (2016): FGM forbidden; abortion illegal except in limited cases; protection from forced marriage (the lesson says only that a child is anyone under 18 and avoids naming a legal marriage age). Also check the tone and the sources of help named for girls at risk. *Location:* rows 44–45.

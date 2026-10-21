@@ -102,6 +102,94 @@ Regenerate with `npm run review:f2-biology`. Item IDs (TR-…) match `docs/teach
 | 88 | `b2-21-safe` | 21 | multiple choice, 2 | plant-pests |
 | 89 | `b2-21-spot` | 21 | spot the error, 3 | plant-pests |
 | 90 | `b2-21-safe-card` (card c21-3) | 21 | multiple choice, 1 | plant-pests |
+| 91 | `b2-25-what` | 25 | multiple choice, 1 | food-transformation |
+| 92 | `b2-25-good` | 25 | multiple choice, 1 | food-transformation |
+| 93 | `b2-25-bad` | 25 | multiple choice, 2 | food-transformation |
+| 94 | `b2-25-spot` | 25 | spot the error, 3 | food-transformation |
+| 95 | `b2-25-bad-card` (card c25-3) | 25 | multiple choice, 1 | food-transformation |
+| 96 | `b2-26-cassava` | 26 | multiple choice, 1 | food-transformation |
+| 97 | `b2-26-grain` | 26 | multiple choice, 1 | food-transformation |
+| 98 | `b2-26-milk` | 26 | multiple choice, 2 | food-transformation |
+| 99 | `b2-26-order` | 26 | ordering, 3 | food-transformation |
+| 100 | `b2-26-milk-card` (card c26-3) | 26 | multiple choice, 1 | food-transformation |
+| 101 | `b2-27-steps` | 27 | ordering, 1 | food-transformation |
+| 102 | `b2-27-starter` | 27 | multiple choice, 1 | food-transformation |
+| 103 | `b2-27-why` | 27 | multiple choice, 2 | food-transformation |
+| 104 | `b2-27-spot` | 27 | spot the error, 3 | food-transformation |
+| 105 | `b2-27-why-card` (card c27-3) | 27 | multiple choice, 1 | food-transformation |
+| 106 | `b2-28-why` | 28 | multiple choice, 1 | food-transformation |
+| 107 | `b2-28-method` | 28 | multiple choice, 1 | food-transformation |
+| 108 | `b2-28-use` | 28 | multiple choice, 2 | food-transformation |
+| 109 | `b2-28-spot` | 28 | spot the error, 3 | food-transformation |
+| 110 | `b2-28-use-card` (card c28-3) | 28 | multiple choice, 1 | food-transformation |
+| 111 | `b2-29-method` | 29 | multiple choice, 1 | food-transformation |
+| 112 | `b2-29-why` | 29 | multiple choice, 1 | food-transformation |
+| 113 | `b2-29-habit` | 29 | multiple choice, 2 | food-transformation |
+| 114 | `b2-29-spot` | 29 | spot the error, 3 | food-transformation |
+| 115 | `b2-29-habit-card` (card c29-3) | 29 | multiple choice, 1 | food-transformation |
+| 116 | `b2-30-kind` | 30 | multiple choice, 1 | nutrition-health |
+| 117 | `b2-30-cause` | 30 | multiple choice, 1 | nutrition-health |
+| 118 | `b2-30-prevent` | 30 | multiple choice, 2 | nutrition-health |
+| 119 | `b2-30-spot` | 30 | spot the error, 3 | nutrition-health |
+| 120 | `b2-30-prevent-card` (card c30-3) | 30 | multiple choice, 1 | nutrition-health |
+| 121 | `b2-31-guide` | 31 | multiple choice, 2 | nutrition-health |
+| 122 | `b2-31-guide-card` (card c31-3) | 31 | multiple choice, 1 | nutrition-health |
+| 123 | `b2-32-value` | 32 | multiple choice, 1 | nutrition-health |
+| 124 | `b2-33-class` | 33 | multiple choice, 1 | nutrition-health |
+| 125 | `b2-33-habit` | 33 | multiple choice, 1 | nutrition-health |
+| 126 | `b2-33-fibre` | 33 | multiple choice, 2 | nutrition-health |
+| 127 | `b2-33-spot` | 33 | spot the error, 3 | nutrition-health |
+| 128 | `b2-33-fibre-card` (card c33-3) | 33 | multiple choice, 1 | nutrition-health |
+| 129 | `b2-37-steps` | 37 | ordering, 1 | nutrition-health |
+| 130 | `b2-37-act` | 37 | multiple choice, 1 | nutrition-health |
+| 131 | `b2-37-eval` | 37 | multiple choice, 2 | nutrition-health |
+| 132 | `b2-37-spot` | 37 | spot the error, 3 | nutrition-health |
+| 133 | `b2-37-eval-card` (card c37-3) | 37 | multiple choice, 1 | nutrition-health |
+| 134 | `b2-38-harm` | 38 | multiple choice, 1 | nutrition-health |
+| 135 | `b2-38-r` | 38 | multiple choice, 1 | nutrition-health |
+| 136 | `b2-38-sort` | 38 | multiple choice, 2 | nutrition-health |
+| 137 | `b2-38-spot` | 38 | spot the error, 3 | nutrition-health |
+| 138 | `b2-38-sort-card` (card c38-3) | 38 | multiple choice, 1 | nutrition-health |
+| 139 | `b2-39-what` | 39 | multiple choice, 1 | physical-social-health |
+| 140 | `b2-39-good` | 39 | multiple choice, 1 | physical-social-health |
+| 141 | `b2-39-safe` | 39 | multiple choice, 2 | physical-social-health |
+| 142 | `b2-39-spot` | 39 | spot the error, 3 | physical-social-health |
+| 143 | `b2-39-safe-card` (card c39-3) | 39 | multiple choice, 1 | physical-social-health |
+| 144 | `b2-40-what` | 40 | multiple choice, 1 | physical-social-health |
+| 145 | `b2-40-why` | 40 | multiple choice, 1 | physical-social-health |
+| 146 | `b2-40-habit` | 40 | multiple choice, 2 | physical-social-health |
+| 147 | `b2-40-spot` | 40 | spot the error, 3 | physical-social-health |
+| 148 | `b2-40-habit-card` (card c40-3) | 40 | multiple choice, 1 | physical-social-health |
+| 149 | `b2-41-what` | 41 | multiple choice, 1 | physical-social-health |
+| 150 | `b2-41-health` | 41 | multiple choice, 1 | physical-social-health |
+| 151 | `b2-41-social` | 41 | multiple choice, 2 | physical-social-health |
+| 152 | `b2-41-spot` | 41 | spot the error, 3 | physical-social-health |
+| 153 | `b2-41-social-card` (card c41-3) | 41 | multiple choice, 1 | physical-social-health |
+| 154 | `b2-42-chem` | 42 | multiple choice, 1 | physical-social-health |
+| 155 | `b2-42-health` | 42 | multiple choice, 1 | physical-social-health |
+| 156 | `b2-42-passive` | 42 | multiple choice, 2 | physical-social-health |
+| 157 | `b2-42-spot` | 42 | spot the error, 3 | physical-social-health |
+| 158 | `b2-42-passive-card` (card c42-3) | 42 | multiple choice, 1 | physical-social-health |
+| 159 | `b2-43-weed` | 43 | multiple choice, 1 | physical-social-health |
+| 160 | `b2-43-tram` | 43 | multiple choice, 1 | physical-social-health |
+| 161 | `b2-43-help` | 43 | multiple choice, 2 | physical-social-health |
+| 162 | `b2-43-spot` | 43 | spot the error, 3 | physical-social-health |
+| 163 | `b2-43-help-card` (card c43-3) | 43 | multiple choice, 1 | physical-social-health |
+| 164 | `b2-44-early` | 44 | multiple choice, 1 | reproductive-health |
+| 165 | `b2-44-preg` | 44 | multiple choice, 1 | reproductive-health |
+| 166 | `b2-44-fgm` | 44 | multiple choice, 2 | reproductive-health |
+| 167 | `b2-44-spot` | 44 | spot the error, 3 | reproductive-health |
+| 168 | `b2-44-fgm-card` (card c44-3) | 44 | multiple choice, 1 | reproductive-health |
+| 169 | `b2-45-iron` | 45 | multiple choice, 1 | reproductive-health |
+| 170 | `b2-45-myth` | 45 | multiple choice, 1 | reproductive-health |
+| 171 | `b2-45-abort` | 45 | multiple choice, 2 | reproductive-health |
+| 172 | `b2-45-spot` | 45 | spot the error, 3 | reproductive-health |
+| 173 | `b2-45-abort-card` (card c45-3) | 45 | multiple choice, 1 | reproductive-health |
+| 174 | `b2-46-what` | 46 | multiple choice, 1 | climate |
+| 175 | `b2-46-cause` | 46 | multiple choice, 1 | climate |
+| 176 | `b2-46-prevent` | 46 | multiple choice, 2 | climate |
+| 177 | `b2-46-spot` | 46 | spot the error, 3 | climate |
+| 178 | `b2-46-prevent-card` (card c46-3) | 46 | multiple choice, 1 | climate |
 
 ### `b2-1-why` · Lesson 1 · multiple choice, level 1
 
@@ -5866,4 +5954,5684 @@ Full working after a second miss:
 > So the answer is “No poison is left on food or in water.”.  
 
 Sources: plant-pests (Crop pests and diseases in Cameroon and their control (biological and chemical); safe use of pesticides)
+
+### `b2-25-what` · Lesson 25 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an example of transformation of a foodstuff? | making garri from cassava | harvesting cassava · planting maize · watering tomatoes | Harvesting does not change the food. · Planting is farming, not processing. · Watering is farming. | Garri is a new product made from cassava. |
+| What is made from cocoa beans? | chocolate | garri · palm oil · yoghurt | Garri is from cassava. · Palm oil is from oil palm fruit. · Yoghurt is from milk. | Cocoa beans are roasted and ground into chocolate. |
+| What is yoghurt made from? | milk | maize · cassava · groundnuts | Maize gives flour and pap. · Cassava gives garri. · Groundnuts give oil and paste. | Bacteria turn milk into yoghurt. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is made from cocoa beans?
+
+- ✅ chocolate
+- ◻️ palm oil  
+  _↳ feedback if chosen: Palm oil is from oil palm fruit._
+- ◻️ yoghurt  
+  _↳ feedback if chosen: Yoghurt is from milk._
+- ◻️ garri  
+  _↳ feedback if chosen: Garri is from cassava._
+
+Full working after a second miss:
+
+> Cocoa beans are roasted and ground into chocolate.  
+> So the answer is “chocolate”.  
+
+> What is made from cocoa beans?
+
+- ✅ chocolate
+- ◻️ yoghurt  
+  _↳ feedback if chosen: Yoghurt is from milk._
+- ◻️ palm oil  
+  _↳ feedback if chosen: Palm oil is from oil palm fruit._
+- ◻️ garri  
+  _↳ feedback if chosen: Garri is from cassava._
+
+Full working after a second miss:
+
+> Cocoa beans are roasted and ground into chocolate.  
+> So the answer is “chocolate”.  
+
+> Which is an example of transformation of a foodstuff?
+
+- ◻️ planting maize  
+  _↳ feedback if chosen: Planting is farming, not processing._
+- ◻️ harvesting cassava  
+  _↳ feedback if chosen: Harvesting does not change the food._
+- ✅ making garri from cassava
+- ◻️ watering tomatoes  
+  _↳ feedback if chosen: Watering is farming._
+
+Full working after a second miss:
+
+> Garri is a new product made from cassava.  
+> So the answer is “making garri from cassava”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-25-good` · Lesson 25 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is one advantage of processing food? | It keeps the food longer. | It always adds vitamins. · It makes food free. · It stops all diseases. | Processing often removes some vitamins. · Processing costs money. · It does not stop all diseases. | Processed food stores well. |
+| Why is bitter cassava soaked before eating? | to remove its poison (cyanide) | to make it sweeter only · to add protein · to make it grow | The main reason is safety. · Soaking does not add protein. · Harvested cassava does not grow. | Soaking and fermenting remove cyanide. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is bitter cassava soaked before eating?
+
+- ✅ to remove its poison (cyanide)
+- ◻️ to make it grow  
+  _↳ feedback if chosen: Harvested cassava does not grow._
+- ◻️ to make it sweeter only  
+  _↳ feedback if chosen: The main reason is safety._
+- ◻️ to add protein  
+  _↳ feedback if chosen: Soaking does not add protein._
+
+Full working after a second miss:
+
+> Soaking and fermenting remove cyanide.  
+> So the answer is “to remove its poison (cyanide)”.  
+
+> Why is bitter cassava soaked before eating?
+
+- ✅ to remove its poison (cyanide)
+- ◻️ to add protein  
+  _↳ feedback if chosen: Soaking does not add protein._
+- ◻️ to make it grow  
+  _↳ feedback if chosen: Harvested cassava does not grow._
+- ◻️ to make it sweeter only  
+  _↳ feedback if chosen: The main reason is safety._
+
+Full working after a second miss:
+
+> Soaking and fermenting remove cyanide.  
+> So the answer is “to remove its poison (cyanide)”.  
+
+> Why is bitter cassava soaked before eating?
+
+- ◻️ to add protein  
+  _↳ feedback if chosen: Soaking does not add protein._
+- ◻️ to make it sweeter only  
+  _↳ feedback if chosen: The main reason is safety._
+- ◻️ to make it grow  
+  _↳ feedback if chosen: Harvested cassava does not grow._
+- ✅ to remove its poison (cyanide)
+
+Full working after a second miss:
+
+> Soaking and fermenting remove cyanide.  
+> So the answer is “to remove its poison (cyanide)”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-25-bad` · Lesson 25 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is one disadvantage of processing food? | Some vitamins and fibre may be lost. | The food keeps longer. · It creates jobs. · It is easier to sell. | That is an advantage. · That is an advantage. · That is an advantage. | Refining can remove nutrients. |
+| Why can some processed snacks be bad for health? | They may have too much salt, sugar or fat. | They contain no energy. · They are always raw. · They are too fresh. | They often have a lot of energy. · They are processed. · That is not the problem. | Added salt, sugar and fat cause diseases when eaten often. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why can some processed snacks be bad for health?
+
+- ◻️ They are always raw.  
+  _↳ feedback if chosen: They are processed._
+- ✅ They may have too much salt, sugar or fat.
+- ◻️ They contain no energy.  
+  _↳ feedback if chosen: They often have a lot of energy._
+- ◻️ They are too fresh.  
+  _↳ feedback if chosen: That is not the problem._
+
+Full working after a second miss:
+
+> Added salt, sugar and fat cause diseases when eaten often.  
+> So the answer is “They may have too much salt, sugar or fat.”.  
+
+> Why can some processed snacks be bad for health?
+
+- ◻️ They contain no energy.  
+  _↳ feedback if chosen: They often have a lot of energy._
+- ◻️ They are too fresh.  
+  _↳ feedback if chosen: That is not the problem._
+- ✅ They may have too much salt, sugar or fat.
+- ◻️ They are always raw.  
+  _↳ feedback if chosen: They are processed._
+
+Full working after a second miss:
+
+> Added salt, sugar and fat cause diseases when eaten often.  
+> So the answer is “They may have too much salt, sugar or fat.”.  
+
+> What is one disadvantage of processing food?
+
+- ◻️ The food keeps longer.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ It is easier to sell.  
+  _↳ feedback if chosen: That is an advantage._
+- ✅ Some vitamins and fibre may be lost.
+- ◻️ It creates jobs.  
+  _↳ feedback if chosen: That is an advantage._
+
+Full working after a second miss:
+
+> Refining can remove nutrients.  
+> So the answer is “Some vitamins and fibre may be lost.”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-25-spot` · Lesson 25 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Processing helps food keep longer.
+- ✅ Groundnuts can be processed into oil.
+- ✅ Processing creates jobs.
+- ✅ Poor hygiene during processing can contaminate food.
+- ❌ Processing always makes food more nutritious.  
+  _↳ Some vitamins and fibre can be lost._
+- ❌ Processing food has no disadvantages.  
+  _↳ It can lose nutrients, add salt or sugar, and cost money._
+- ❌ Harvesting maize is a form of food transformation.  
+  _↳ Harvesting does not change maize into a new product._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Poor hygiene during processing can contaminate food.
+- ✅ Processing always makes food more nutritious.  
+  _↳ explanation: Some vitamins and fibre can be lost._
+- ◻️ Processing creates jobs.
+- ◻️ Groundnuts can be processed into oil.
+
+Full working after a second miss:
+
+> The wrong statement is “Processing always makes food more nutritious.”.  
+> Some vitamins and fibre can be lost.  
+
+> Which statement is wrong?
+
+- ◻️ Groundnuts can be processed into oil.
+- ✅ Harvesting maize is a form of food transformation.  
+  _↳ explanation: Harvesting does not change maize into a new product._
+- ◻️ Processing helps food keep longer.
+- ◻️ Processing creates jobs.
+
+Full working after a second miss:
+
+> The wrong statement is “Harvesting maize is a form of food transformation.”.  
+> Harvesting does not change maize into a new product.  
+
+> Which statement is wrong?
+
+- ◻️ Poor hygiene during processing can contaminate food.
+- ✅ Processing food has no disadvantages.  
+  _↳ explanation: It can lose nutrients, add salt or sugar, and cost money._
+- ◻️ Processing creates jobs.
+- ◻️ Processing helps food keep longer.
+
+Full working after a second miss:
+
+> The wrong statement is “Processing food has no disadvantages.”.  
+> It can lose nutrients, add salt or sugar, and cost money.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-25-bad-card` · Lesson 25 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is one disadvantage of processing food? | Some vitamins and fibre may be lost. | The food keeps longer. · It creates jobs. · It is easier to sell. | That is an advantage. · That is an advantage. · That is an advantage. | Refining can remove nutrients. |
+| Why can some processed snacks be bad for health? | They may have too much salt, sugar or fat. | They contain no energy. · They are always raw. · They are too fresh. | They often have a lot of energy. · They are processed. · That is not the problem. | Added salt, sugar and fat cause diseases when eaten often. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is one disadvantage of processing food?
+
+- ✅ Some vitamins and fibre may be lost.
+- ◻️ The food keeps longer.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ It creates jobs.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ It is easier to sell.  
+  _↳ feedback if chosen: That is an advantage._
+
+Full working after a second miss:
+
+> Refining can remove nutrients.  
+> So the answer is “Some vitamins and fibre may be lost.”.  
+
+> What is one disadvantage of processing food?
+
+- ◻️ It creates jobs.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ It is easier to sell.  
+  _↳ feedback if chosen: That is an advantage._
+- ✅ Some vitamins and fibre may be lost.
+- ◻️ The food keeps longer.  
+  _↳ feedback if chosen: That is an advantage._
+
+Full working after a second miss:
+
+> Refining can remove nutrients.  
+> So the answer is “Some vitamins and fibre may be lost.”.  
+
+> What is one disadvantage of processing food?
+
+- ◻️ It creates jobs.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ The food keeps longer.  
+  _↳ feedback if chosen: That is an advantage._
+- ◻️ It is easier to sell.  
+  _↳ feedback if chosen: That is an advantage._
+- ✅ Some vitamins and fibre may be lost.
+
+Full working after a second miss:
+
+> Refining can remove nutrients.  
+> So the answer is “Some vitamins and fibre may be lost.”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-26-cassava` · Lesson 26 · multiple choice, level 1
+
+Prompt: Which foodstuff is {X.q} made from?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| garri | cassava | maize · millet · milk | Maize gives corn fufu and pap. · Millet gives bouillie. · Milk gives yoghurt. | Garri is grated, fried cassava. |
+| bobolo (miondo) | cassava | maize · groundnuts · milk | Maize gives corn fufu. · Groundnuts give oil. · Milk gives cheese. | Bobolo is fermented cassava. |
+| pap (akamu) | maize | cassava · milk · plantain | Cassava gives garri. · Milk gives yoghurt. · Plantain is eaten boiled or fried. | Pap is fermented maize. |
+| bouillie (porridge) in the North | millet | milk · cocoa · cassava leaves | Milk may be added, but the flour is millet. · Cocoa gives chocolate. · Leaves are a vegetable. | Millet flour is cooked into porridge. |
+| wagashi (cheese) | milk | maize · cassava · millet | Maize gives flour. · Cassava gives garri. · Millet gives flour. | Cheese is curdled milk. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which foodstuff is bouillie (porridge) in the North made from?
+
+- ✅ millet
+- ◻️ cassava leaves  
+  _↳ feedback if chosen: Leaves are a vegetable._
+- ◻️ milk  
+  _↳ feedback if chosen: Milk may be added, but the flour is millet._
+- ◻️ cocoa  
+  _↳ feedback if chosen: Cocoa gives chocolate._
+
+Full working after a second miss:
+
+> Millet flour is cooked into porridge.  
+> So the answer is “millet”.  
+
+> Which foodstuff is garri made from?
+
+- ◻️ milk  
+  _↳ feedback if chosen: Milk gives yoghurt._
+- ◻️ maize  
+  _↳ feedback if chosen: Maize gives corn fufu and pap._
+- ✅ cassava
+- ◻️ millet  
+  _↳ feedback if chosen: Millet gives bouillie._
+
+Full working after a second miss:
+
+> Garri is grated, fried cassava.  
+> So the answer is “cassava”.  
+
+> Which foodstuff is pap (akamu) made from?
+
+- ◻️ cassava  
+  _↳ feedback if chosen: Cassava gives garri._
+- ✅ maize
+- ◻️ milk  
+  _↳ feedback if chosen: Milk gives yoghurt._
+- ◻️ plantain  
+  _↳ feedback if chosen: Plantain is eaten boiled or fried._
+
+Full working after a second miss:
+
+> Pap is fermented maize.  
+> So the answer is “maize”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-26-grain` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is done to dry maize grains to make corn flour? | They are milled (ground). | They are fried. · They are boiled in oil. · They are planted. | Frying is for garri. · That does not make flour. · Planting grows new maize. | Milling turns grains into flour. |
+| Which step removes the chaff from millet? | winnowing | boiling · fermenting · pressing | Boiling cooks it. · Fermenting changes its taste. · Pressing removes water (cassava). | The wind blows away the light chaff. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which step removes the chaff from millet?
+
+- ✅ winnowing
+- ◻️ fermenting  
+  _↳ feedback if chosen: Fermenting changes its taste._
+- ◻️ boiling  
+  _↳ feedback if chosen: Boiling cooks it._
+- ◻️ pressing  
+  _↳ feedback if chosen: Pressing removes water (cassava)._
+
+Full working after a second miss:
+
+> The wind blows away the light chaff.  
+> So the answer is “winnowing”.  
+
+> What is done to dry maize grains to make corn flour?
+
+- ◻️ They are boiled in oil.  
+  _↳ feedback if chosen: That does not make flour._
+- ◻️ They are planted.  
+  _↳ feedback if chosen: Planting grows new maize._
+- ✅ They are milled (ground).
+- ◻️ They are fried.  
+  _↳ feedback if chosen: Frying is for garri._
+
+Full working after a second miss:
+
+> Milling turns grains into flour.  
+> So the answer is “They are milled (ground).”.  
+
+> What is done to dry maize grains to make corn flour?
+
+- ◻️ They are boiled in oil.  
+  _↳ feedback if chosen: That does not make flour._
+- ◻️ They are fried.  
+  _↳ feedback if chosen: Frying is for garri._
+- ✅ They are milled (ground).
+- ◻️ They are planted.  
+  _↳ feedback if chosen: Planting grows new maize._
+
+Full working after a second miss:
+
+> Milling turns grains into flour.  
+> So the answer is “They are milled (ground).”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-26-milk` · Lesson 26 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is milk boiled before making yoghurt? | to kill harmful germs | to make it sour · to add bacteria · to turn it to cheese | The bacteria make it sour later. · Boiling kills bacteria. · Curdling makes cheese. | Boiling (pasteurising) kills germs. |
+| What turns milk into yoghurt? | lactic acid bacteria | salt · yeast in bread · sunlight | Salt does not make yoghurt. · Yeast is used for bread and beer. · Sunlight does not do it. | The bacteria change milk sugar into lactic acid. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What turns milk into yoghurt?
+
+- ✅ lactic acid bacteria
+- ◻️ salt  
+  _↳ feedback if chosen: Salt does not make yoghurt._
+- ◻️ yeast in bread  
+  _↳ feedback if chosen: Yeast is used for bread and beer._
+- ◻️ sunlight  
+  _↳ feedback if chosen: Sunlight does not do it._
+
+Full working after a second miss:
+
+> The bacteria change milk sugar into lactic acid.  
+> So the answer is “lactic acid bacteria”.  
+
+> Why is milk boiled before making yoghurt?
+
+- ✅ to kill harmful germs
+- ◻️ to make it sour  
+  _↳ feedback if chosen: The bacteria make it sour later._
+- ◻️ to add bacteria  
+  _↳ feedback if chosen: Boiling kills bacteria._
+- ◻️ to turn it to cheese  
+  _↳ feedback if chosen: Curdling makes cheese._
+
+Full working after a second miss:
+
+> Boiling (pasteurising) kills germs.  
+> So the answer is “to kill harmful germs”.  
+
+> Why is milk boiled before making yoghurt?
+
+- ◻️ to add bacteria  
+  _↳ feedback if chosen: Boiling kills bacteria._
+- ◻️ to turn it to cheese  
+  _↳ feedback if chosen: Curdling makes cheese._
+- ◻️ to make it sour  
+  _↳ feedback if chosen: The bacteria make it sour later._
+- ✅ to kill harmful germs
+
+Full working after a second miss:
+
+> Boiling (pasteurising) kills germs.  
+> So the answer is “to kill harmful germs”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-26-order` · Lesson 26 · ordering, level 3
+
+Prompt: Put the steps for making garri in order.
+
+Items in the right order:
+
+1. Peel and wash the cassava
+2. Soak or ferment it
+3. Grate it
+4. Press out the water
+5. Fry the grated cassava
+
+
+Three generated variants:
+
+> Put the steps for making garri in order.
+
+Shown as: Grate it · Press out the water · Fry the grated cassava · Peel and wash the cassava · Soak or ferment it
+Correct order: Peel and wash the cassava → Soak or ferment it → Grate it → Press out the water → Fry the grated cassava
+
+Full working after a second miss:
+
+> The correct order is: Peel and wash the cassava → Soak or ferment it → Grate it → Press out the water → Fry the grated cassava.  
+
+> Put the steps for making garri in order.
+
+Shown as: Fry the grated cassava · Peel and wash the cassava · Soak or ferment it · Press out the water · Grate it
+Correct order: Peel and wash the cassava → Soak or ferment it → Grate it → Press out the water → Fry the grated cassava
+
+Full working after a second miss:
+
+> The correct order is: Peel and wash the cassava → Soak or ferment it → Grate it → Press out the water → Fry the grated cassava.  
+
+> Put the steps for making garri in order.
+
+Shown as: Peel and wash the cassava · Fry the grated cassava · Grate it · Press out the water · Soak or ferment it
+Correct order: Peel and wash the cassava → Soak or ferment it → Grate it → Press out the water → Fry the grated cassava
+
+Full working after a second miss:
+
+> The correct order is: Peel and wash the cassava → Soak or ferment it → Grate it → Press out the water → Fry the grated cassava.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-26-milk-card` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is milk boiled before making yoghurt? | to kill harmful germs | to make it sour · to add bacteria · to turn it to cheese | The bacteria make it sour later. · Boiling kills bacteria. · Curdling makes cheese. | Boiling (pasteurising) kills germs. |
+| What turns milk into yoghurt? | lactic acid bacteria | salt · yeast in bread · sunlight | Salt does not make yoghurt. · Yeast is used for bread and beer. · Sunlight does not do it. | The bacteria change milk sugar into lactic acid. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is milk boiled before making yoghurt?
+
+- ◻️ to make it sour  
+  _↳ feedback if chosen: The bacteria make it sour later._
+- ◻️ to add bacteria  
+  _↳ feedback if chosen: Boiling kills bacteria._
+- ◻️ to turn it to cheese  
+  _↳ feedback if chosen: Curdling makes cheese._
+- ✅ to kill harmful germs
+
+Full working after a second miss:
+
+> Boiling (pasteurising) kills germs.  
+> So the answer is “to kill harmful germs”.  
+
+> Why is milk boiled before making yoghurt?
+
+- ◻️ to make it sour  
+  _↳ feedback if chosen: The bacteria make it sour later._
+- ◻️ to turn it to cheese  
+  _↳ feedback if chosen: Curdling makes cheese._
+- ◻️ to add bacteria  
+  _↳ feedback if chosen: Boiling kills bacteria._
+- ✅ to kill harmful germs
+
+Full working after a second miss:
+
+> Boiling (pasteurising) kills germs.  
+> So the answer is “to kill harmful germs”.  
+
+> What turns milk into yoghurt?
+
+- ✅ lactic acid bacteria
+- ◻️ yeast in bread  
+  _↳ feedback if chosen: Yeast is used for bread and beer._
+- ◻️ sunlight  
+  _↳ feedback if chosen: Sunlight does not do it._
+- ◻️ salt  
+  _↳ feedback if chosen: Salt does not make yoghurt._
+
+Full working after a second miss:
+
+> The bacteria change milk sugar into lactic acid.  
+> So the answer is “lactic acid bacteria”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-27-steps` · Lesson 27 · ordering, level 1
+
+Prompt: Put the steps of the experiment in order.
+
+Items in the right order:
+
+1. Wash hands and tools
+2. Boil the milk
+3. Cool it until warm
+4. Stir in the starter yoghurt
+5. Keep the closed jar warm for some hours
+
+
+Three generated variants:
+
+> Put the steps of the experiment in order.
+
+Shown as: Keep the closed jar warm for some hours · Cool it until warm · Boil the milk · Stir in the starter yoghurt · Wash hands and tools
+Correct order: Wash hands and tools → Boil the milk → Cool it until warm → Stir in the starter yoghurt → Keep the closed jar warm for some hours
+
+Full working after a second miss:
+
+> The correct order is: Wash hands and tools → Boil the milk → Cool it until warm → Stir in the starter yoghurt → Keep the closed jar warm for some hours.  
+
+> Put the steps of the experiment in order.
+
+Shown as: Wash hands and tools · Keep the closed jar warm for some hours · Stir in the starter yoghurt · Cool it until warm · Boil the milk
+Correct order: Wash hands and tools → Boil the milk → Cool it until warm → Stir in the starter yoghurt → Keep the closed jar warm for some hours
+
+Full working after a second miss:
+
+> The correct order is: Wash hands and tools → Boil the milk → Cool it until warm → Stir in the starter yoghurt → Keep the closed jar warm for some hours.  
+
+> Put the steps of the experiment in order.
+
+Shown as: Wash hands and tools · Stir in the starter yoghurt · Keep the closed jar warm for some hours · Boil the milk · Cool it until warm
+Correct order: Wash hands and tools → Boil the milk → Cool it until warm → Stir in the starter yoghurt → Keep the closed jar warm for some hours
+
+Full working after a second miss:
+
+> The correct order is: Wash hands and tools → Boil the milk → Cool it until warm → Stir in the starter yoghurt → Keep the closed jar warm for some hours.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-27-starter` · Lesson 27 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the starter in this experiment? | a little plain yoghurt | salt · sugar · lemon juice | Salt does not contain the bacteria. · Sugar does not contain the bacteria. · Lemon juice curdles milk but is not a starter. | The yoghurt contains living lactic acid bacteria. |
+| Why is the jar wrapped in a cloth? | to keep it warm for the bacteria | to keep out light only · to cool it quickly · to make it heavier | Warmth is the main reason. · It should stay warm. · That is not why. | The bacteria work best when warm. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the starter in this experiment?
+
+- ✅ a little plain yoghurt
+- ◻️ salt  
+  _↳ feedback if chosen: Salt does not contain the bacteria._
+- ◻️ lemon juice  
+  _↳ feedback if chosen: Lemon juice curdles milk but is not a starter._
+- ◻️ sugar  
+  _↳ feedback if chosen: Sugar does not contain the bacteria._
+
+Full working after a second miss:
+
+> The yoghurt contains living lactic acid bacteria.  
+> So the answer is “a little plain yoghurt”.  
+
+> Why is the jar wrapped in a cloth?
+
+- ◻️ to cool it quickly  
+  _↳ feedback if chosen: It should stay warm._
+- ◻️ to make it heavier  
+  _↳ feedback if chosen: That is not why._
+- ◻️ to keep out light only  
+  _↳ feedback if chosen: Warmth is the main reason._
+- ✅ to keep it warm for the bacteria
+
+Full working after a second miss:
+
+> The bacteria work best when warm.  
+> So the answer is “to keep it warm for the bacteria”.  
+
+> What is the starter in this experiment?
+
+- ◻️ salt  
+  _↳ feedback if chosen: Salt does not contain the bacteria._
+- ◻️ sugar  
+  _↳ feedback if chosen: Sugar does not contain the bacteria._
+- ✅ a little plain yoghurt
+- ◻️ lemon juice  
+  _↳ feedback if chosen: Lemon juice curdles milk but is not a starter._
+
+Full working after a second miss:
+
+> The yoghurt contains living lactic acid bacteria.  
+> So the answer is “a little plain yoghurt”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-27-why` · Lesson 27 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What makes the yoghurt taste sour? | lactic acid made by the bacteria | the salt added · the boiling · the cloth | No salt is added. · Boiling does not make it sour. · The cloth only keeps it warm. | Lactic acid is sour. |
+| What do the bacteria feed on in the milk? | milk sugar (lactose) | the jar · the thermometer · the cloth | The jar is glass. · That is only for measuring. · The cloth only keeps it warm. | Lactose is changed into lactic acid. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What do the bacteria feed on in the milk?
+
+- ◻️ the cloth  
+  _↳ feedback if chosen: The cloth only keeps it warm._
+- ✅ milk sugar (lactose)
+- ◻️ the jar  
+  _↳ feedback if chosen: The jar is glass._
+- ◻️ the thermometer  
+  _↳ feedback if chosen: That is only for measuring._
+
+Full working after a second miss:
+
+> Lactose is changed into lactic acid.  
+> So the answer is “milk sugar (lactose)”.  
+
+> What makes the yoghurt taste sour?
+
+- ◻️ the boiling  
+  _↳ feedback if chosen: Boiling does not make it sour._
+- ◻️ the cloth  
+  _↳ feedback if chosen: The cloth only keeps it warm._
+- ◻️ the salt added  
+  _↳ feedback if chosen: No salt is added._
+- ✅ lactic acid made by the bacteria
+
+Full working after a second miss:
+
+> Lactic acid is sour.  
+> So the answer is “lactic acid made by the bacteria”.  
+
+> What makes the yoghurt taste sour?
+
+- ◻️ the boiling  
+  _↳ feedback if chosen: Boiling does not make it sour._
+- ✅ lactic acid made by the bacteria
+- ◻️ the salt added  
+  _↳ feedback if chosen: No salt is added._
+- ◻️ the cloth  
+  _↳ feedback if chosen: The cloth only keeps it warm._
+
+Full working after a second miss:
+
+> Lactic acid is sour.  
+> So the answer is “lactic acid made by the bacteria”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-27-spot` · Lesson 27 · spot the error, level 3
+
+Prompt: Which step or result is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Boil the milk first.
+- ✅ Add the starter when the milk is warm.
+- ✅ Keep the jar warm for some hours.
+- ✅ The milk becomes thick and sour.
+- ❌ Add the starter to boiling milk.  
+  _↳ Boiling milk kills the bacteria: cool it first._
+- ❌ Put the jar straight into the fridge after adding the starter.  
+  _↳ The bacteria need warmth for some hours first._
+- ❌ Use dirty tools; the boiling will kill the germs later.  
+  _↳ Tools must be clean: germs could enter after boiling._
+
+
+Three generated variants:
+
+> Which step or result is wrong?
+
+- ◻️ Keep the jar warm for some hours.
+- ✅ Use dirty tools; the boiling will kill the germs later.  
+  _↳ explanation: Tools must be clean: germs could enter after boiling._
+- ◻️ Add the starter when the milk is warm.
+- ◻️ The milk becomes thick and sour.
+
+Full working after a second miss:
+
+> The wrong statement is “Use dirty tools; the boiling will kill the germs later.”.  
+> Tools must be clean: germs could enter after boiling.  
+
+> Which step or result is wrong?
+
+- ◻️ Boil the milk first.
+- ◻️ Keep the jar warm for some hours.
+- ◻️ The milk becomes thick and sour.
+- ✅ Add the starter to boiling milk.  
+  _↳ explanation: Boiling milk kills the bacteria: cool it first._
+
+Full working after a second miss:
+
+> The wrong statement is “Add the starter to boiling milk.”.  
+> Boiling milk kills the bacteria: cool it first.  
+
+> Which step or result is wrong?
+
+- ✅ Add the starter to boiling milk.  
+  _↳ explanation: Boiling milk kills the bacteria: cool it first._
+- ◻️ Keep the jar warm for some hours.
+- ◻️ Boil the milk first.
+- ◻️ The milk becomes thick and sour.
+
+Full working after a second miss:
+
+> The wrong statement is “Add the starter to boiling milk.”.  
+> Boiling milk kills the bacteria: cool it first.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-27-why-card` · Lesson 27 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What makes the yoghurt taste sour? | lactic acid made by the bacteria | the salt added · the boiling · the cloth | No salt is added. · Boiling does not make it sour. · The cloth only keeps it warm. | Lactic acid is sour. |
+| What do the bacteria feed on in the milk? | milk sugar (lactose) | the jar · the thermometer · the cloth | The jar is glass. · That is only for measuring. · The cloth only keeps it warm. | Lactose is changed into lactic acid. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What do the bacteria feed on in the milk?
+
+- ◻️ the cloth  
+  _↳ feedback if chosen: The cloth only keeps it warm._
+- ◻️ the jar  
+  _↳ feedback if chosen: The jar is glass._
+- ✅ milk sugar (lactose)
+- ◻️ the thermometer  
+  _↳ feedback if chosen: That is only for measuring._
+
+Full working after a second miss:
+
+> Lactose is changed into lactic acid.  
+> So the answer is “milk sugar (lactose)”.  
+
+> What makes the yoghurt taste sour?
+
+- ✅ lactic acid made by the bacteria
+- ◻️ the salt added  
+  _↳ feedback if chosen: No salt is added._
+- ◻️ the boiling  
+  _↳ feedback if chosen: Boiling does not make it sour._
+- ◻️ the cloth  
+  _↳ feedback if chosen: The cloth only keeps it warm._
+
+Full working after a second miss:
+
+> Lactic acid is sour.  
+> So the answer is “lactic acid made by the bacteria”.  
+
+> What makes the yoghurt taste sour?
+
+- ◻️ the cloth  
+  _↳ feedback if chosen: The cloth only keeps it warm._
+- ◻️ the boiling  
+  _↳ feedback if chosen: Boiling does not make it sour._
+- ✅ lactic acid made by the bacteria
+- ◻️ the salt added  
+  _↳ feedback if chosen: No salt is added._
+
+Full working after a second miss:
+
+> Lactic acid is sour.  
+> So the answer is “lactic acid made by the bacteria”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-28-why` · Lesson 28 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What makes food go bad? | the growth of bacteria and moulds | too much salt · cold weather · drying in the sun | Salt preserves food. · Cold slows decay. · Drying preserves food. | Microorganisms spoil food. |
+| Which of these do microorganisms need to grow in food? | water | salt · vinegar · freezing cold | Salt draws water out and stops them. · Vinegar is too acidic for them. · Freezing stops their growth. | Removing water is how drying works. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What makes food go bad?
+
+- ◻️ too much salt  
+  _↳ feedback if chosen: Salt preserves food._
+- ◻️ cold weather  
+  _↳ feedback if chosen: Cold slows decay._
+- ✅ the growth of bacteria and moulds
+- ◻️ drying in the sun  
+  _↳ feedback if chosen: Drying preserves food._
+
+Full working after a second miss:
+
+> Microorganisms spoil food.  
+> So the answer is “the growth of bacteria and moulds”.  
+
+> What makes food go bad?
+
+- ◻️ drying in the sun  
+  _↳ feedback if chosen: Drying preserves food._
+- ◻️ too much salt  
+  _↳ feedback if chosen: Salt preserves food._
+- ✅ the growth of bacteria and moulds
+- ◻️ cold weather  
+  _↳ feedback if chosen: Cold slows decay._
+
+Full working after a second miss:
+
+> Microorganisms spoil food.  
+> So the answer is “the growth of bacteria and moulds”.  
+
+> What makes food go bad?
+
+- ◻️ too much salt  
+  _↳ feedback if chosen: Salt preserves food._
+- ✅ the growth of bacteria and moulds
+- ◻️ drying in the sun  
+  _↳ feedback if chosen: Drying preserves food._
+- ◻️ cold weather  
+  _↳ feedback if chosen: Cold slows decay._
+
+Full working after a second miss:
+
+> Microorganisms spoil food.  
+> So the answer is “the growth of bacteria and moulds”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-28-method` · Lesson 28 · multiple choice, level 1
+
+Prompt: Which method of preservation is used {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| for fish hung over a fire | smoking | freezing · canning · pickling | There is no freezer. · There is no tin. · There is no vinegar. | Smoke and heat dry the fish. |
+| for milk heated to about 72 °C for a short time | pasteurisation | salting · smoking · drying | No salt is added. · No smoke is used. · The milk stays liquid. | Pasteurising kills most germs. |
+| for maize grains spread out in the sun | drying | freezing · canning · sugaring | The sun warms, not freezes. · No tin is used. · No sugar is added. | The sun removes water. |
+| for mangoes cooked with a lot of sugar into jam | sugaring | smoking · freezing · drying in the sun | No smoke is used. · Jam is not frozen. · The fruit is cooked, not sun-dried. | Sugar draws out water. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which method of preservation is used for maize grains spread out in the sun?
+
+- ◻️ sugaring  
+  _↳ feedback if chosen: No sugar is added._
+- ◻️ freezing  
+  _↳ feedback if chosen: The sun warms, not freezes._
+- ✅ drying
+- ◻️ canning  
+  _↳ feedback if chosen: No tin is used._
+
+Full working after a second miss:
+
+> The sun removes water.  
+> So the answer is “drying”.  
+
+> Which method of preservation is used for maize grains spread out in the sun?
+
+- ◻️ sugaring  
+  _↳ feedback if chosen: No sugar is added._
+- ✅ drying
+- ◻️ canning  
+  _↳ feedback if chosen: No tin is used._
+- ◻️ freezing  
+  _↳ feedback if chosen: The sun warms, not freezes._
+
+Full working after a second miss:
+
+> The sun removes water.  
+> So the answer is “drying”.  
+
+> Which method of preservation is used for fish hung over a fire?
+
+- ◻️ pickling  
+  _↳ feedback if chosen: There is no vinegar._
+- ◻️ canning  
+  _↳ feedback if chosen: There is no tin._
+- ◻️ freezing  
+  _↳ feedback if chosen: There is no freezer._
+- ✅ smoking
+
+Full working after a second miss:
+
+> Smoke and heat dry the fish.  
+> So the answer is “smoking”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-28-use` · Lesson 28 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why does salting preserve fish? | Salt draws water out, so germs cannot grow. | Salt feeds the germs. · Salt makes fish warm. · Salt adds air. | Salt stops them. · Salt does not warm food. · It does not add air. | Without water, germs cannot grow. |
+| Why does a fridge keep food longer? | The cold slows the growth of germs. | The cold kills all germs. · It adds salt to food. · It dries food completely. | Cold slows them; it does not kill them all. · A fridge adds nothing. · Food in a fridge still has water. | Germs grow slowly when cold. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does a fridge keep food longer?
+
+- ✅ The cold slows the growth of germs.
+- ◻️ It dries food completely.  
+  _↳ feedback if chosen: Food in a fridge still has water._
+- ◻️ It adds salt to food.  
+  _↳ feedback if chosen: A fridge adds nothing._
+- ◻️ The cold kills all germs.  
+  _↳ feedback if chosen: Cold slows them; it does not kill them all._
+
+Full working after a second miss:
+
+> Germs grow slowly when cold.  
+> So the answer is “The cold slows the growth of germs.”.  
+
+> Why does a fridge keep food longer?
+
+- ◻️ It dries food completely.  
+  _↳ feedback if chosen: Food in a fridge still has water._
+- ◻️ The cold kills all germs.  
+  _↳ feedback if chosen: Cold slows them; it does not kill them all._
+- ◻️ It adds salt to food.  
+  _↳ feedback if chosen: A fridge adds nothing._
+- ✅ The cold slows the growth of germs.
+
+Full working after a second miss:
+
+> Germs grow slowly when cold.  
+> So the answer is “The cold slows the growth of germs.”.  
+
+> Why does a fridge keep food longer?
+
+- ◻️ It adds salt to food.  
+  _↳ feedback if chosen: A fridge adds nothing._
+- ✅ The cold slows the growth of germs.
+- ◻️ It dries food completely.  
+  _↳ feedback if chosen: Food in a fridge still has water._
+- ◻️ The cold kills all germs.  
+  _↳ feedback if chosen: Cold slows them; it does not kill them all._
+
+Full working after a second miss:
+
+> Germs grow slowly when cold.  
+> So the answer is “The cold slows the growth of germs.”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-28-spot` · Lesson 28 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Smoking dries fish.
+- ✅ Canning seals heated food in tins.
+- ✅ Freezing slows the growth of germs.
+- ✅ Preservation reduces food waste.
+- ❌ Keeping fish warm and wet preserves it.  
+  _↳ Warmth and water help germs grow._
+- ❌ Salting adds water to food.  
+  _↳ Salt draws water out._
+- ❌ Preserved food can never cause food poisoning.  
+  _↳ Badly preserved or opened food can still spoil._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Keeping fish warm and wet preserves it.  
+  _↳ explanation: Warmth and water help germs grow._
+- ◻️ Preservation reduces food waste.
+- ◻️ Canning seals heated food in tins.
+- ◻️ Freezing slows the growth of germs.
+
+Full working after a second miss:
+
+> The wrong statement is “Keeping fish warm and wet preserves it.”.  
+> Warmth and water help germs grow.  
+
+> Which statement is wrong?
+
+- ◻️ Freezing slows the growth of germs.
+- ✅ Preserved food can never cause food poisoning.  
+  _↳ explanation: Badly preserved or opened food can still spoil._
+- ◻️ Preservation reduces food waste.
+- ◻️ Canning seals heated food in tins.
+
+Full working after a second miss:
+
+> The wrong statement is “Preserved food can never cause food poisoning.”.  
+> Badly preserved or opened food can still spoil.  
+
+> Which statement is wrong?
+
+- ◻️ Preservation reduces food waste.
+- ◻️ Smoking dries fish.
+- ◻️ Freezing slows the growth of germs.
+- ✅ Salting adds water to food.  
+  _↳ explanation: Salt draws water out._
+
+Full working after a second miss:
+
+> The wrong statement is “Salting adds water to food.”.  
+> Salt draws water out.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-28-use-card` · Lesson 28 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why does salting preserve fish? | Salt draws water out, so germs cannot grow. | Salt feeds the germs. · Salt makes fish warm. · Salt adds air. | Salt stops them. · Salt does not warm food. · It does not add air. | Without water, germs cannot grow. |
+| Why does a fridge keep food longer? | The cold slows the growth of germs. | The cold kills all germs. · It adds salt to food. · It dries food completely. | Cold slows them; it does not kill them all. · A fridge adds nothing. · Food in a fridge still has water. | Germs grow slowly when cold. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does a fridge keep food longer?
+
+- ◻️ It dries food completely.  
+  _↳ feedback if chosen: Food in a fridge still has water._
+- ◻️ It adds salt to food.  
+  _↳ feedback if chosen: A fridge adds nothing._
+- ✅ The cold slows the growth of germs.
+- ◻️ The cold kills all germs.  
+  _↳ feedback if chosen: Cold slows them; it does not kill them all._
+
+Full working after a second miss:
+
+> Germs grow slowly when cold.  
+> So the answer is “The cold slows the growth of germs.”.  
+
+> Why does a fridge keep food longer?
+
+- ◻️ It adds salt to food.  
+  _↳ feedback if chosen: A fridge adds nothing._
+- ◻️ It dries food completely.  
+  _↳ feedback if chosen: Food in a fridge still has water._
+- ✅ The cold slows the growth of germs.
+- ◻️ The cold kills all germs.  
+  _↳ feedback if chosen: Cold slows them; it does not kill them all._
+
+Full working after a second miss:
+
+> Germs grow slowly when cold.  
+> So the answer is “The cold slows the growth of germs.”.  
+
+> Why does salting preserve fish?
+
+- ◻️ Salt adds air.  
+  _↳ feedback if chosen: It does not add air._
+- ✅ Salt draws water out, so germs cannot grow.
+- ◻️ Salt makes fish warm.  
+  _↳ feedback if chosen: Salt does not warm food._
+- ◻️ Salt feeds the germs.  
+  _↳ feedback if chosen: Salt stops them._
+
+Full working after a second miss:
+
+> Without water, germs cannot grow.  
+> So the answer is “Salt draws water out, so germs cannot grow.”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-29-method` · Lesson 29 · multiple choice, level 1
+
+Prompt: Which cooking method is used for {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| koki (beans cooked in leaves over boiling water) | steaming | frying · grilling · baking | No oil is used. · It is not over open flames. · It is not in an oven. | The steam cooks it. |
+| soya (suya) meat over hot charcoal | grilling (roasting) | boiling · steaming · stewing | No water is used. · No steam is used. · No sauce is used. | Direct heat from the charcoal. |
+| bread in an oven | baking | frying · boiling · steaming | No oil. · No water. · No steam. | Dry heat in an oven is baking. |
+| puff-puff in hot oil | frying | boiling · baking · steaming | Oil, not water. · Not in an oven. · Not steam. | Cooking in hot oil is frying. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which cooking method is used for soya (suya) meat over hot charcoal?
+
+- ◻️ stewing  
+  _↳ feedback if chosen: No sauce is used._
+- ◻️ steaming  
+  _↳ feedback if chosen: No steam is used._
+- ◻️ boiling  
+  _↳ feedback if chosen: No water is used._
+- ✅ grilling (roasting)
+
+Full working after a second miss:
+
+> Direct heat from the charcoal.  
+> So the answer is “grilling (roasting)”.  
+
+> Which cooking method is used for koki (beans cooked in leaves over boiling water)?
+
+- ◻️ baking  
+  _↳ feedback if chosen: It is not in an oven._
+- ◻️ grilling  
+  _↳ feedback if chosen: It is not over open flames._
+- ✅ steaming
+- ◻️ frying  
+  _↳ feedback if chosen: No oil is used._
+
+Full working after a second miss:
+
+> The steam cooks it.  
+> So the answer is “steaming”.  
+
+> Which cooking method is used for bread in an oven?
+
+- ◻️ boiling  
+  _↳ feedback if chosen: No water._
+- ◻️ frying  
+  _↳ feedback if chosen: No oil._
+- ✅ baking
+- ◻️ steaming  
+  _↳ feedback if chosen: No steam._
+
+Full working after a second miss:
+
+> Dry heat in an oven is baking.  
+> So the answer is “baking”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-29-why` · Lesson 29 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should meat be cooked well? | to kill germs and worms in it | to add vitamins · to make it raw · to make it heavier | Cooking does not add vitamins. · Cooking is the opposite of raw. · Cooking does not add mass. | Heat kills germs and parasites. |
+| Which is a reason for cooking food? | It makes food easier to digest. | It always adds protein. · It makes food go bad. · It removes all water. | Cooking does not add protein. · Cooking helps food keep. · Many cooked foods are still moist. | Cooking softens food. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should meat be cooked well?
+
+- ✅ to kill germs and worms in it
+- ◻️ to make it raw  
+  _↳ feedback if chosen: Cooking is the opposite of raw._
+- ◻️ to make it heavier  
+  _↳ feedback if chosen: Cooking does not add mass._
+- ◻️ to add vitamins  
+  _↳ feedback if chosen: Cooking does not add vitamins._
+
+Full working after a second miss:
+
+> Heat kills germs and parasites.  
+> So the answer is “to kill germs and worms in it”.  
+
+> Why should meat be cooked well?
+
+- ◻️ to make it raw  
+  _↳ feedback if chosen: Cooking is the opposite of raw._
+- ◻️ to add vitamins  
+  _↳ feedback if chosen: Cooking does not add vitamins._
+- ✅ to kill germs and worms in it
+- ◻️ to make it heavier  
+  _↳ feedback if chosen: Cooking does not add mass._
+
+Full working after a second miss:
+
+> Heat kills germs and parasites.  
+> So the answer is “to kill germs and worms in it”.  
+
+> Why should meat be cooked well?
+
+- ◻️ to make it raw  
+  _↳ feedback if chosen: Cooking is the opposite of raw._
+- ✅ to kill germs and worms in it
+- ◻️ to make it heavier  
+  _↳ feedback if chosen: Cooking does not add mass._
+- ◻️ to add vitamins  
+  _↳ feedback if chosen: Cooking does not add vitamins._
+
+Full working after a second miss:
+
+> Heat kills germs and parasites.  
+> So the answer is “to kill germs and worms in it”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-29-habit` · Lesson 29 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is the best way to cook vegetables to keep their vitamins? | steam them for a short time | boil them for an hour · fry them for a long time · leave them in the sun | Long boiling destroys vitamins. · Long frying destroys vitamins. · That is not cooking. | Short cooking keeps more vitamins. |
+| Why should frying oil not be reused many times? | Old oil forms harmful substances. | It becomes water. · It gets too cold. · It gains vitamins. | Oil does not become water. · That is not the problem. · It does not gain vitamins. | Reheated oil breaks down into harmful substances. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is the best way to cook vegetables to keep their vitamins?
+
+- ◻️ leave them in the sun  
+  _↳ feedback if chosen: That is not cooking._
+- ◻️ fry them for a long time  
+  _↳ feedback if chosen: Long frying destroys vitamins._
+- ◻️ boil them for an hour  
+  _↳ feedback if chosen: Long boiling destroys vitamins._
+- ✅ steam them for a short time
+
+Full working after a second miss:
+
+> Short cooking keeps more vitamins.  
+> So the answer is “steam them for a short time”.  
+
+> Why should frying oil not be reused many times?
+
+- ✅ Old oil forms harmful substances.
+- ◻️ It gets too cold.  
+  _↳ feedback if chosen: That is not the problem._
+- ◻️ It becomes water.  
+  _↳ feedback if chosen: Oil does not become water._
+- ◻️ It gains vitamins.  
+  _↳ feedback if chosen: It does not gain vitamins._
+
+Full working after a second miss:
+
+> Reheated oil breaks down into harmful substances.  
+> So the answer is “Old oil forms harmful substances.”.  
+
+> Why should frying oil not be reused many times?
+
+- ◻️ It gets too cold.  
+  _↳ feedback if chosen: That is not the problem._
+- ✅ Old oil forms harmful substances.
+- ◻️ It gains vitamins.  
+  _↳ feedback if chosen: It does not gain vitamins._
+- ◻️ It becomes water.  
+  _↳ feedback if chosen: Oil does not become water._
+
+Full working after a second miss:
+
+> Reheated oil breaks down into harmful substances.  
+> So the answer is “Old oil forms harmful substances.”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-29-spot` · Lesson 29 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Wash your hands before cooking.
+- ✅ Cooking kills germs.
+- ✅ Cover cooked food.
+- ✅ Wash fruit in clean water.
+- ❌ Vegetables should be boiled for a long time to keep their vitamins.  
+  _↳ Long boiling destroys vitamins._
+- ❌ Meat is safest when eaten half-cooked.  
+  _↳ Meat should be cooked well._
+- ❌ Frying oil can be reused for weeks.  
+  _↳ Old oil becomes harmful._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Frying oil can be reused for weeks.  
+  _↳ explanation: Old oil becomes harmful._
+- ◻️ Cooking kills germs.
+- ◻️ Cover cooked food.
+- ◻️ Wash fruit in clean water.
+
+Full working after a second miss:
+
+> The wrong statement is “Frying oil can be reused for weeks.”.  
+> Old oil becomes harmful.  
+
+> Which statement is wrong?
+
+- ◻️ Wash your hands before cooking.
+- ✅ Frying oil can be reused for weeks.  
+  _↳ explanation: Old oil becomes harmful._
+- ◻️ Cooking kills germs.
+- ◻️ Cover cooked food.
+
+Full working after a second miss:
+
+> The wrong statement is “Frying oil can be reused for weeks.”.  
+> Old oil becomes harmful.  
+
+> Which statement is wrong?
+
+- ◻️ Wash fruit in clean water.
+- ◻️ Wash your hands before cooking.
+- ◻️ Cooking kills germs.
+- ✅ Meat is safest when eaten half-cooked.  
+  _↳ explanation: Meat should be cooked well._
+
+Full working after a second miss:
+
+> The wrong statement is “Meat is safest when eaten half-cooked.”.  
+> Meat should be cooked well.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-29-habit-card` · Lesson 29 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is the best way to cook vegetables to keep their vitamins? | steam them for a short time | boil them for an hour · fry them for a long time · leave them in the sun | Long boiling destroys vitamins. · Long frying destroys vitamins. · That is not cooking. | Short cooking keeps more vitamins. |
+| Why should frying oil not be reused many times? | Old oil forms harmful substances. | It becomes water. · It gets too cold. · It gains vitamins. | Oil does not become water. · That is not the problem. · It does not gain vitamins. | Reheated oil breaks down into harmful substances. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should frying oil not be reused many times?
+
+- ◻️ It becomes water.  
+  _↳ feedback if chosen: Oil does not become water._
+- ✅ Old oil forms harmful substances.
+- ◻️ It gets too cold.  
+  _↳ feedback if chosen: That is not the problem._
+- ◻️ It gains vitamins.  
+  _↳ feedback if chosen: It does not gain vitamins._
+
+Full working after a second miss:
+
+> Reheated oil breaks down into harmful substances.  
+> So the answer is “Old oil forms harmful substances.”.  
+
+> Which is the best way to cook vegetables to keep their vitamins?
+
+- ◻️ boil them for an hour  
+  _↳ feedback if chosen: Long boiling destroys vitamins._
+- ◻️ fry them for a long time  
+  _↳ feedback if chosen: Long frying destroys vitamins._
+- ◻️ leave them in the sun  
+  _↳ feedback if chosen: That is not cooking._
+- ✅ steam them for a short time
+
+Full working after a second miss:
+
+> Short cooking keeps more vitamins.  
+> So the answer is “steam them for a short time”.  
+
+> Why should frying oil not be reused many times?
+
+- ◻️ It becomes water.  
+  _↳ feedback if chosen: Oil does not become water._
+- ✅ Old oil forms harmful substances.
+- ◻️ It gets too cold.  
+  _↳ feedback if chosen: That is not the problem._
+- ◻️ It gains vitamins.  
+  _↳ feedback if chosen: It does not gain vitamins._
+
+Full working after a second miss:
+
+> Reheated oil breaks down into harmful substances.  
+> So the answer is “Old oil forms harmful substances.”.  
+
+Sources: food-transformation (Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking)
+
+### `b2-30-kind` · Lesson 30 · multiple choice, level 1
+
+Prompt: Which disease is caused by {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| a lack of protein in young children | kwashiorkor | obesity · goitre · tooth decay | Obesity is from too much energy food. · Goitre is from lack of iodine. · Tooth decay is from sugar. | Kwashiorkor: swollen belly and feet. |
+| a lack of iodine | goitre | anaemia · kwashiorkor · obesity | Anaemia is from lack of iron. · Kwashiorkor is from lack of protein. · Obesity is from too much food. | Goitre is a swelling in the neck. |
+| a lack of iron | anaemia | goitre · night blindness · obesity | Goitre is from lack of iodine. · Night blindness is from lack of vitamin A. · Obesity is from too much food. | Iron is needed for red blood cells. |
+| eating far more energy food than the body uses | obesity | marasmus · kwashiorkor · anaemia | Marasmus is from too little energy food. · Kwashiorkor is from lack of protein. · Anaemia is from lack of iron. | Extra energy is stored as fat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which disease is caused by a lack of protein in young children?
+
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+- ✅ kwashiorkor
+- ◻️ tooth decay  
+  _↳ feedback if chosen: Tooth decay is from sugar._
+- ◻️ obesity  
+  _↳ feedback if chosen: Obesity is from too much energy food._
+
+Full working after a second miss:
+
+> Kwashiorkor: swollen belly and feet.  
+> So the answer is “kwashiorkor”.  
+
+> Which disease is caused by eating far more energy food than the body uses?
+
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: Kwashiorkor is from lack of protein._
+- ◻️ anaemia  
+  _↳ feedback if chosen: Anaemia is from lack of iron._
+- ✅ obesity
+- ◻️ marasmus  
+  _↳ feedback if chosen: Marasmus is from too little energy food._
+
+Full working after a second miss:
+
+> Extra energy is stored as fat.  
+> So the answer is “obesity”.  
+
+> Which disease is caused by a lack of iodine?
+
+- ◻️ obesity  
+  _↳ feedback if chosen: Obesity is from too much food._
+- ✅ goitre
+- ◻️ anaemia  
+  _↳ feedback if chosen: Anaemia is from lack of iron._
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: Kwashiorkor is from lack of protein._
+
+Full working after a second miss:
+
+> Goitre is a swelling in the neck.  
+> So the answer is “goitre”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-30-cause` · Lesson 30 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which habit can lead to obesity? | drinking many sweet drinks and exercising little | eating fruit and vegetables · walking to school · drinking water | These help prevent obesity. · Exercise helps. · Water has no energy. | Too much energy in, too little used. |
+| What happens to extra energy food the body does not use? | It is stored as fat. | It is changed into water. · It disappears. · It becomes protein. | It is not changed into water. · Energy is not lost. · It is not made into protein. | Stored fat causes obesity. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What happens to extra energy food the body does not use?
+
+- ◻️ It disappears.  
+  _↳ feedback if chosen: Energy is not lost._
+- ✅ It is stored as fat.
+- ◻️ It becomes protein.  
+  _↳ feedback if chosen: It is not made into protein._
+- ◻️ It is changed into water.  
+  _↳ feedback if chosen: It is not changed into water._
+
+Full working after a second miss:
+
+> Stored fat causes obesity.  
+> So the answer is “It is stored as fat.”.  
+
+> What happens to extra energy food the body does not use?
+
+- ◻️ It disappears.  
+  _↳ feedback if chosen: Energy is not lost._
+- ◻️ It is changed into water.  
+  _↳ feedback if chosen: It is not changed into water._
+- ◻️ It becomes protein.  
+  _↳ feedback if chosen: It is not made into protein._
+- ✅ It is stored as fat.
+
+Full working after a second miss:
+
+> Stored fat causes obesity.  
+> So the answer is “It is stored as fat.”.  
+
+> Which habit can lead to obesity?
+
+- ◻️ drinking water  
+  _↳ feedback if chosen: Water has no energy._
+- ◻️ eating fruit and vegetables  
+  _↳ feedback if chosen: These help prevent obesity._
+- ✅ drinking many sweet drinks and exercising little
+- ◻️ walking to school  
+  _↳ feedback if chosen: Exercise helps._
+
+Full working after a second miss:
+
+> Too much energy in, too little used.  
+> So the answer is “drinking many sweet drinks and exercising little”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-30-prevent` · Lesson 30 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a health effect of obesity? | high blood pressure | goitre · night blindness · kwashiorkor | Goitre is from lack of iodine. · That is from lack of vitamin A. · That is from lack of protein. | Obesity strains the heart and blood vessels. |
+| Which is the best way to prevent obesity? | a balanced diet and regular exercise | skipping all meals · eating only fried food · sleeping all day | Skipping meals is unhealthy. · Fried food adds fat. · Rest without exercise does not help. | Balance energy in with energy used. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is the best way to prevent obesity?
+
+- ✅ a balanced diet and regular exercise
+- ◻️ eating only fried food  
+  _↳ feedback if chosen: Fried food adds fat._
+- ◻️ sleeping all day  
+  _↳ feedback if chosen: Rest without exercise does not help._
+- ◻️ skipping all meals  
+  _↳ feedback if chosen: Skipping meals is unhealthy._
+
+Full working after a second miss:
+
+> Balance energy in with energy used.  
+> So the answer is “a balanced diet and regular exercise”.  
+
+> Which is the best way to prevent obesity?
+
+- ✅ a balanced diet and regular exercise
+- ◻️ eating only fried food  
+  _↳ feedback if chosen: Fried food adds fat._
+- ◻️ skipping all meals  
+  _↳ feedback if chosen: Skipping meals is unhealthy._
+- ◻️ sleeping all day  
+  _↳ feedback if chosen: Rest without exercise does not help._
+
+Full working after a second miss:
+
+> Balance energy in with energy used.  
+> So the answer is “a balanced diet and regular exercise”.  
+
+> Which is a health effect of obesity?
+
+- ◻️ night blindness  
+  _↳ feedback if chosen: That is from lack of vitamin A._
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: That is from lack of protein._
+- ✅ high blood pressure
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+
+Full working after a second miss:
+
+> Obesity strains the heart and blood vessels.  
+> So the answer is “high blood pressure”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-30-spot` · Lesson 30 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Kwashiorkor is caused by a lack of protein.
+- ✅ Obesity can lead to diabetes.
+- ✅ Exercise helps prevent obesity.
+- ✅ Goitre is caused by a lack of iodine.
+- ❌ Obesity is caused by eating too little food.  
+  _↳ Obesity comes from too much energy food and little exercise._
+- ❌ Sweet drinks help prevent obesity.  
+  _↳ Sweet drinks add a lot of sugar._
+- ❌ Anaemia is caused by too much iron.  
+  _↳ Anaemia is caused by a lack of iron._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Kwashiorkor is caused by a lack of protein.
+- ◻️ Exercise helps prevent obesity.
+- ✅ Obesity is caused by eating too little food.  
+  _↳ explanation: Obesity comes from too much energy food and little exercise._
+- ◻️ Obesity can lead to diabetes.
+
+Full working after a second miss:
+
+> The wrong statement is “Obesity is caused by eating too little food.”.  
+> Obesity comes from too much energy food and little exercise.  
+
+> Which statement is wrong?
+
+- ◻️ Exercise helps prevent obesity.
+- ✅ Obesity is caused by eating too little food.  
+  _↳ explanation: Obesity comes from too much energy food and little exercise._
+- ◻️ Kwashiorkor is caused by a lack of protein.
+- ◻️ Obesity can lead to diabetes.
+
+Full working after a second miss:
+
+> The wrong statement is “Obesity is caused by eating too little food.”.  
+> Obesity comes from too much energy food and little exercise.  
+
+> Which statement is wrong?
+
+- ✅ Obesity is caused by eating too little food.  
+  _↳ explanation: Obesity comes from too much energy food and little exercise._
+- ◻️ Goitre is caused by a lack of iodine.
+- ◻️ Kwashiorkor is caused by a lack of protein.
+- ◻️ Obesity can lead to diabetes.
+
+Full working after a second miss:
+
+> The wrong statement is “Obesity is caused by eating too little food.”.  
+> Obesity comes from too much energy food and little exercise.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-30-prevent-card` · Lesson 30 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a health effect of obesity? | high blood pressure | goitre · night blindness · kwashiorkor | Goitre is from lack of iodine. · That is from lack of vitamin A. · That is from lack of protein. | Obesity strains the heart and blood vessels. |
+| Which is the best way to prevent obesity? | a balanced diet and regular exercise | skipping all meals · eating only fried food · sleeping all day | Skipping meals is unhealthy. · Fried food adds fat. · Rest without exercise does not help. | Balance energy in with energy used. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a health effect of obesity?
+
+- ✅ high blood pressure
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+- ◻️ night blindness  
+  _↳ feedback if chosen: That is from lack of vitamin A._
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: That is from lack of protein._
+
+Full working after a second miss:
+
+> Obesity strains the heart and blood vessels.  
+> So the answer is “high blood pressure”.  
+
+> Which is the best way to prevent obesity?
+
+- ◻️ sleeping all day  
+  _↳ feedback if chosen: Rest without exercise does not help._
+- ✅ a balanced diet and regular exercise
+- ◻️ skipping all meals  
+  _↳ feedback if chosen: Skipping meals is unhealthy._
+- ◻️ eating only fried food  
+  _↳ feedback if chosen: Fried food adds fat._
+
+Full working after a second miss:
+
+> Balance energy in with energy used.  
+> So the answer is “a balanced diet and regular exercise”.  
+
+> Which is the best way to prevent obesity?
+
+- ◻️ sleeping all day  
+  _↳ feedback if chosen: Rest without exercise does not help._
+- ◻️ skipping all meals  
+  _↳ feedback if chosen: Skipping meals is unhealthy._
+- ✅ a balanced diet and regular exercise
+- ◻️ eating only fried food  
+  _↳ feedback if chosen: Fried food adds fat._
+
+Full working after a second miss:
+
+> Balance energy in with energy used.  
+> So the answer is “a balanced diet and regular exercise”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-31-guide` · Lesson 31 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is a teenager's BMI compared with charts for their age? | Teenagers are still growing. | Teenagers have no mass. · BMI cannot be calculated for them. · Their height never changes. | Everyone has mass. · It can be calculated. · Teenagers grow taller. | Healthy BMI changes with age while growing. |
+| Why can a strong athlete have a high BMI and still be healthy? | Muscle is heavy, and BMI does not separate muscle from fat. | Athletes are always obese. · BMI measures only fat. · Athletes have no height. | They are usually not. · BMI uses only mass and height. · That is not true. | BMI is only a guide. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why can a strong athlete have a high BMI and still be healthy?
+
+- ◻️ Athletes are always obese.  
+  _↳ feedback if chosen: They are usually not._
+- ✅ Muscle is heavy, and BMI does not separate muscle from fat.
+- ◻️ BMI measures only fat.  
+  _↳ feedback if chosen: BMI uses only mass and height._
+- ◻️ Athletes have no height.  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> BMI is only a guide.  
+> So the answer is “Muscle is heavy, and BMI does not separate muscle from fat.”.  
+
+> Why can a strong athlete have a high BMI and still be healthy?
+
+- ✅ Muscle is heavy, and BMI does not separate muscle from fat.
+- ◻️ Athletes have no height.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Athletes are always obese.  
+  _↳ feedback if chosen: They are usually not._
+- ◻️ BMI measures only fat.  
+  _↳ feedback if chosen: BMI uses only mass and height._
+
+Full working after a second miss:
+
+> BMI is only a guide.  
+> So the answer is “Muscle is heavy, and BMI does not separate muscle from fat.”.  
+
+> Why can a strong athlete have a high BMI and still be healthy?
+
+- ◻️ BMI measures only fat.  
+  _↳ feedback if chosen: BMI uses only mass and height._
+- ◻️ Athletes have no height.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Athletes are always obese.  
+  _↳ feedback if chosen: They are usually not._
+- ✅ Muscle is heavy, and BMI does not separate muscle from fat.
+
+Full working after a second miss:
+
+> BMI is only a guide.  
+> So the answer is “Muscle is heavy, and BMI does not separate muscle from fat.”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-31-guide-card` · Lesson 31 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is a teenager's BMI compared with charts for their age? | Teenagers are still growing. | Teenagers have no mass. · BMI cannot be calculated for them. · Their height never changes. | Everyone has mass. · It can be calculated. · Teenagers grow taller. | Healthy BMI changes with age while growing. |
+| Why can a strong athlete have a high BMI and still be healthy? | Muscle is heavy, and BMI does not separate muscle from fat. | Athletes are always obese. · BMI measures only fat. · Athletes have no height. | They are usually not. · BMI uses only mass and height. · That is not true. | BMI is only a guide. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why can a strong athlete have a high BMI and still be healthy?
+
+- ◻️ BMI measures only fat.  
+  _↳ feedback if chosen: BMI uses only mass and height._
+- ◻️ Athletes have no height.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Athletes are always obese.  
+  _↳ feedback if chosen: They are usually not._
+- ✅ Muscle is heavy, and BMI does not separate muscle from fat.
+
+Full working after a second miss:
+
+> BMI is only a guide.  
+> So the answer is “Muscle is heavy, and BMI does not separate muscle from fat.”.  
+
+> Why can a strong athlete have a high BMI and still be healthy?
+
+- ◻️ BMI measures only fat.  
+  _↳ feedback if chosen: BMI uses only mass and height._
+- ◻️ Athletes are always obese.  
+  _↳ feedback if chosen: They are usually not._
+- ◻️ Athletes have no height.  
+  _↳ feedback if chosen: That is not true._
+- ✅ Muscle is heavy, and BMI does not separate muscle from fat.
+
+Full working after a second miss:
+
+> BMI is only a guide.  
+> So the answer is “Muscle is heavy, and BMI does not separate muscle from fat.”.  
+
+> Why is a teenager's BMI compared with charts for their age?
+
+- ✅ Teenagers are still growing.
+- ◻️ Their height never changes.  
+  _↳ feedback if chosen: Teenagers grow taller._
+- ◻️ BMI cannot be calculated for them.  
+  _↳ feedback if chosen: It can be calculated._
+- ◻️ Teenagers have no mass.  
+  _↳ feedback if chosen: Everyone has mass._
+
+Full working after a second miss:
+
+> Healthy BMI changes with age while growing.  
+> So the answer is “Teenagers are still growing.”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-32-value` · Lesson 32 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which food type gives the most energy per gram? | fat | protein · carbohydrate · water | Protein gives about 17 kJ per gram. · Carbohydrate gives about 17 kJ per gram. · Water gives no energy. | Fat gives about 37 kJ per gram. |
+| In what unit is the energy value of food measured? | kilojoules (kJ) | kilograms (kg) · metres (m) · litres (l) | That is mass. · That is length. · That is volume. | Energy is measured in joules or kilojoules. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which food type gives the most energy per gram?
+
+- ◻️ water  
+  _↳ feedback if chosen: Water gives no energy._
+- ◻️ protein  
+  _↳ feedback if chosen: Protein gives about 17 kJ per gram._
+- ✅ fat
+- ◻️ carbohydrate  
+  _↳ feedback if chosen: Carbohydrate gives about 17 kJ per gram._
+
+Full working after a second miss:
+
+> Fat gives about 37 kJ per gram.  
+> So the answer is “fat”.  
+
+> In what unit is the energy value of food measured?
+
+- ◻️ kilograms (kg)  
+  _↳ feedback if chosen: That is mass._
+- ✅ kilojoules (kJ)
+- ◻️ metres (m)  
+  _↳ feedback if chosen: That is length._
+- ◻️ litres (l)  
+  _↳ feedback if chosen: That is volume._
+
+Full working after a second miss:
+
+> Energy is measured in joules or kilojoules.  
+> So the answer is “kilojoules (kJ)”.  
+
+> Which food type gives the most energy per gram?
+
+- ✅ fat
+- ◻️ carbohydrate  
+  _↳ feedback if chosen: Carbohydrate gives about 17 kJ per gram._
+- ◻️ protein  
+  _↳ feedback if chosen: Protein gives about 17 kJ per gram._
+- ◻️ water  
+  _↳ feedback if chosen: Water gives no energy._
+
+Full working after a second miss:
+
+> Fat gives about 37 kJ per gram.  
+> So the answer is “fat”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-33-class` · Lesson 33 · multiple choice, level 1
+
+Prompt: Which food class is mainly found in {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| beans, fish and eggs | proteins | carbohydrates · fats · fibre only | Carbohydrates are in rice and cassava. · Fats are in oil and butter. · Fibre is in fruit and vegetables. | Proteins are for growth and repair. |
+| rice, cassava and plantain | carbohydrates | proteins · vitamins · minerals | Proteins are in beans and fish. · Vitamins are in fruit. · Minerals are in vegetables and salt. | Carbohydrates give energy. |
+| palm oil and butter | fats | proteins · vitamins only · water | Proteins are in beans and meat. · They are mainly fat. · They are not water. | Fats give a lot of energy. |
+| oranges and mangoes | vitamins | fats · proteins · carbohydrates only | Fruits have little fat. · Fruits have little protein. · They also give vitamins. | Fruits are rich in vitamins (vitamin C). |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which food class is mainly found in palm oil and butter?
+
+- ◻️ proteins  
+  _↳ feedback if chosen: Proteins are in beans and meat._
+- ◻️ water  
+  _↳ feedback if chosen: They are not water._
+- ◻️ vitamins only  
+  _↳ feedback if chosen: They are mainly fat._
+- ✅ fats
+
+Full working after a second miss:
+
+> Fats give a lot of energy.  
+> So the answer is “fats”.  
+
+> Which food class is mainly found in beans, fish and eggs?
+
+- ✅ proteins
+- ◻️ carbohydrates  
+  _↳ feedback if chosen: Carbohydrates are in rice and cassava._
+- ◻️ fibre only  
+  _↳ feedback if chosen: Fibre is in fruit and vegetables._
+- ◻️ fats  
+  _↳ feedback if chosen: Fats are in oil and butter._
+
+Full working after a second miss:
+
+> Proteins are for growth and repair.  
+> So the answer is “proteins”.  
+
+> Which food class is mainly found in beans, fish and eggs?
+
+- ◻️ fibre only  
+  _↳ feedback if chosen: Fibre is in fruit and vegetables._
+- ✅ proteins
+- ◻️ carbohydrates  
+  _↳ feedback if chosen: Carbohydrates are in rice and cassava._
+- ◻️ fats  
+  _↳ feedback if chosen: Fats are in oil and butter._
+
+Full working after a second miss:
+
+> Proteins are for growth and repair.  
+> So the answer is “proteins”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-33-habit` · Lesson 33 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a healthy eating habit? | eating fruit and vegetables every day | skipping breakfast · drinking soda with every meal · eating fried food at every meal | Breakfast gives energy for the morning. · Soda has a lot of sugar. · Too much fat is unhealthy. | Fruit and vegetables give vitamins and fibre. |
+| What is the best drink with meals? | clean water | sweet soda · energy drinks · beer | Soda has a lot of sugar. · They have sugar and caffeine. · Alcohol harms young people. | Water has no sugar. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a healthy eating habit?
+
+- ◻️ eating fried food at every meal  
+  _↳ feedback if chosen: Too much fat is unhealthy._
+- ◻️ skipping breakfast  
+  _↳ feedback if chosen: Breakfast gives energy for the morning._
+- ◻️ drinking soda with every meal  
+  _↳ feedback if chosen: Soda has a lot of sugar._
+- ✅ eating fruit and vegetables every day
+
+Full working after a second miss:
+
+> Fruit and vegetables give vitamins and fibre.  
+> So the answer is “eating fruit and vegetables every day”.  
+
+> What is the best drink with meals?
+
+- ◻️ beer  
+  _↳ feedback if chosen: Alcohol harms young people._
+- ◻️ sweet soda  
+  _↳ feedback if chosen: Soda has a lot of sugar._
+- ◻️ energy drinks  
+  _↳ feedback if chosen: They have sugar and caffeine._
+- ✅ clean water
+
+Full working after a second miss:
+
+> Water has no sugar.  
+> So the answer is “clean water”.  
+
+> Which is a healthy eating habit?
+
+- ◻️ eating fried food at every meal  
+  _↳ feedback if chosen: Too much fat is unhealthy._
+- ✅ eating fruit and vegetables every day
+- ◻️ drinking soda with every meal  
+  _↳ feedback if chosen: Soda has a lot of sugar._
+- ◻️ skipping breakfast  
+  _↳ feedback if chosen: Breakfast gives energy for the morning._
+
+Full working after a second miss:
+
+> Fruit and vegetables give vitamins and fibre.  
+> So the answer is “eating fruit and vegetables every day”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-33-fibre` · Lesson 33 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does fibre (roughage) do in the diet? | It helps prevent constipation. | It builds muscles. · It gives most of our energy. · It makes bones strong. | That is protein. · That is carbohydrate and fat. · That is calcium. | Fibre helps food move through the gut. |
+| A lunch is rice and fried plantain. What should be added to balance it? | beans or fish and some vegetables | more rice · a sweet drink · more fried plantain | More carbohydrate does not balance it. · That adds sugar only. · That adds fat and carbohydrate. | Add protein, vitamins and fibre. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does fibre (roughage) do in the diet?
+
+- ◻️ It gives most of our energy.  
+  _↳ feedback if chosen: That is carbohydrate and fat._
+- ◻️ It makes bones strong.  
+  _↳ feedback if chosen: That is calcium._
+- ✅ It helps prevent constipation.
+- ◻️ It builds muscles.  
+  _↳ feedback if chosen: That is protein._
+
+Full working after a second miss:
+
+> Fibre helps food move through the gut.  
+> So the answer is “It helps prevent constipation.”.  
+
+> What does fibre (roughage) do in the diet?
+
+- ◻️ It makes bones strong.  
+  _↳ feedback if chosen: That is calcium._
+- ◻️ It gives most of our energy.  
+  _↳ feedback if chosen: That is carbohydrate and fat._
+- ✅ It helps prevent constipation.
+- ◻️ It builds muscles.  
+  _↳ feedback if chosen: That is protein._
+
+Full working after a second miss:
+
+> Fibre helps food move through the gut.  
+> So the answer is “It helps prevent constipation.”.  
+
+> A lunch is rice and fried plantain. What should be added to balance it?
+
+- ◻️ a sweet drink  
+  _↳ feedback if chosen: That adds sugar only._
+- ✅ beans or fish and some vegetables
+- ◻️ more rice  
+  _↳ feedback if chosen: More carbohydrate does not balance it._
+- ◻️ more fried plantain  
+  _↳ feedback if chosen: That adds fat and carbohydrate._
+
+Full working after a second miss:
+
+> Add protein, vitamins and fibre.  
+> So the answer is “beans or fish and some vegetables”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-33-spot` · Lesson 33 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A balanced diet has all the food classes.
+- ✅ Fibre helps prevent constipation.
+- ✅ Drink plenty of clean water.
+- ✅ Limit sugar, salt and fat.
+- ❌ Skipping breakfast is a healthy habit.  
+  _↳ Breakfast gives energy for the school day._
+- ❌ A meal of only rice and soda is balanced.  
+  _↳ It has no protein, vitamins or fibre._
+- ❌ Fried food should be eaten at every meal.  
+  _↳ Too much fat leads to obesity and heart disease._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Fibre helps prevent constipation.
+- ◻️ Limit sugar, salt and fat.
+- ✅ A meal of only rice and soda is balanced.  
+  _↳ explanation: It has no protein, vitamins or fibre._
+- ◻️ Drink plenty of clean water.
+
+Full working after a second miss:
+
+> The wrong statement is “A meal of only rice and soda is balanced.”.  
+> It has no protein, vitamins or fibre.  
+
+> Which statement is wrong?
+
+- ◻️ Drink plenty of clean water.
+- ◻️ Fibre helps prevent constipation.
+- ◻️ A balanced diet has all the food classes.
+- ✅ Skipping breakfast is a healthy habit.  
+  _↳ explanation: Breakfast gives energy for the school day._
+
+Full working after a second miss:
+
+> The wrong statement is “Skipping breakfast is a healthy habit.”.  
+> Breakfast gives energy for the school day.  
+
+> Which statement is wrong?
+
+- ◻️ A balanced diet has all the food classes.
+- ✅ Fried food should be eaten at every meal.  
+  _↳ explanation: Too much fat leads to obesity and heart disease._
+- ◻️ Drink plenty of clean water.
+- ◻️ Fibre helps prevent constipation.
+
+Full working after a second miss:
+
+> The wrong statement is “Fried food should be eaten at every meal.”.  
+> Too much fat leads to obesity and heart disease.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-33-fibre-card` · Lesson 33 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does fibre (roughage) do in the diet? | It helps prevent constipation. | It builds muscles. · It gives most of our energy. · It makes bones strong. | That is protein. · That is carbohydrate and fat. · That is calcium. | Fibre helps food move through the gut. |
+| A lunch is rice and fried plantain. What should be added to balance it? | beans or fish and some vegetables | more rice · a sweet drink · more fried plantain | More carbohydrate does not balance it. · That adds sugar only. · That adds fat and carbohydrate. | Add protein, vitamins and fibre. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does fibre (roughage) do in the diet?
+
+- ◻️ It makes bones strong.  
+  _↳ feedback if chosen: That is calcium._
+- ✅ It helps prevent constipation.
+- ◻️ It gives most of our energy.  
+  _↳ feedback if chosen: That is carbohydrate and fat._
+- ◻️ It builds muscles.  
+  _↳ feedback if chosen: That is protein._
+
+Full working after a second miss:
+
+> Fibre helps food move through the gut.  
+> So the answer is “It helps prevent constipation.”.  
+
+> What does fibre (roughage) do in the diet?
+
+- ✅ It helps prevent constipation.
+- ◻️ It makes bones strong.  
+  _↳ feedback if chosen: That is calcium._
+- ◻️ It builds muscles.  
+  _↳ feedback if chosen: That is protein._
+- ◻️ It gives most of our energy.  
+  _↳ feedback if chosen: That is carbohydrate and fat._
+
+Full working after a second miss:
+
+> Fibre helps food move through the gut.  
+> So the answer is “It helps prevent constipation.”.  
+
+> What does fibre (roughage) do in the diet?
+
+- ✅ It helps prevent constipation.
+- ◻️ It makes bones strong.  
+  _↳ feedback if chosen: That is calcium._
+- ◻️ It gives most of our energy.  
+  _↳ feedback if chosen: That is carbohydrate and fat._
+- ◻️ It builds muscles.  
+  _↳ feedback if chosen: That is protein._
+
+Full working after a second miss:
+
+> Fibre helps food move through the gut.  
+> So the answer is “It helps prevent constipation.”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-37-steps` · Lesson 37 · ordering, level 1
+
+Prompt: Put the steps of a health project in order.
+
+Items in the right order:
+
+1. Identify the problem
+2. Collect facts with a survey
+3. Find the causes
+4. Plan and carry out actions
+5. Repeat the survey and compare
+
+
+Three generated variants:
+
+> Put the steps of a health project in order.
+
+Shown as: Plan and carry out actions · Identify the problem · Collect facts with a survey · Find the causes · Repeat the survey and compare
+Correct order: Identify the problem → Collect facts with a survey → Find the causes → Plan and carry out actions → Repeat the survey and compare
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Collect facts with a survey → Find the causes → Plan and carry out actions → Repeat the survey and compare.  
+
+> Put the steps of a health project in order.
+
+Shown as: Identify the problem · Plan and carry out actions · Repeat the survey and compare · Collect facts with a survey · Find the causes
+Correct order: Identify the problem → Collect facts with a survey → Find the causes → Plan and carry out actions → Repeat the survey and compare
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Collect facts with a survey → Find the causes → Plan and carry out actions → Repeat the survey and compare.  
+
+> Put the steps of a health project in order.
+
+Shown as: Identify the problem · Plan and carry out actions · Collect facts with a survey · Repeat the survey and compare · Find the causes
+Correct order: Identify the problem → Collect facts with a survey → Find the causes → Plan and carry out actions → Repeat the survey and compare
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Collect facts with a survey → Find the causes → Plan and carry out actions → Repeat the survey and compare.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-37-act` · Lesson 37 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Many young children in a village have kwashiorkor. Which action would help most? | teach mothers to cook protein foods such as beans, soya and eggs | sell more sweets · give the children soda · stop all meals | Sweets have no protein. · Soda has only sugar. · That would make it worse. | Kwashiorkor is a lack of protein. |
+| Which action would help pupils eat less sugar at school? | selling water and fruit at break | selling more sodas · giving sweets as prizes · closing the school garden | That adds sugar. · That adds sugar. · The garden gives fruit and vegetables. | Make healthy choices easy. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Many young children in a village have kwashiorkor. Which action would help most?
+
+- ◻️ give the children soda  
+  _↳ feedback if chosen: Soda has only sugar._
+- ◻️ sell more sweets  
+  _↳ feedback if chosen: Sweets have no protein._
+- ◻️ stop all meals  
+  _↳ feedback if chosen: That would make it worse._
+- ✅ teach mothers to cook protein foods such as beans, soya and eggs
+
+Full working after a second miss:
+
+> Kwashiorkor is a lack of protein.  
+> So the answer is “teach mothers to cook protein foods such as beans, soya and eggs”.  
+
+> Many young children in a village have kwashiorkor. Which action would help most?
+
+- ◻️ stop all meals  
+  _↳ feedback if chosen: That would make it worse._
+- ◻️ give the children soda  
+  _↳ feedback if chosen: Soda has only sugar._
+- ◻️ sell more sweets  
+  _↳ feedback if chosen: Sweets have no protein._
+- ✅ teach mothers to cook protein foods such as beans, soya and eggs
+
+Full working after a second miss:
+
+> Kwashiorkor is a lack of protein.  
+> So the answer is “teach mothers to cook protein foods such as beans, soya and eggs”.  
+
+> Which action would help pupils eat less sugar at school?
+
+- ✅ selling water and fruit at break
+- ◻️ selling more sodas  
+  _↳ feedback if chosen: That adds sugar._
+- ◻️ giving sweets as prizes  
+  _↳ feedback if chosen: That adds sugar._
+- ◻️ closing the school garden  
+  _↳ feedback if chosen: The garden gives fruit and vegetables._
+
+Full working after a second miss:
+
+> Make healthy choices easy.  
+> So the answer is “selling water and fruit at break”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-37-eval` · Lesson 37 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How can the group find out if its project worked? | Repeat the survey after some weeks and compare. | Guess the result. · Ask only one friend. · Stop the project at once. | Guessing gives no evidence. · One answer is not enough. · Then nothing is measured. | Compare before and after. |
+| Why is a survey done at the start of a project? | to collect facts about the problem | to cook food · to make posters · to finish the project | Cooking is an action, later. · Posters are an action, later. · It is the beginning. | Facts show the size and causes of the problem. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How can the group find out if its project worked?
+
+- ◻️ Stop the project at once.  
+  _↳ feedback if chosen: Then nothing is measured._
+- ✅ Repeat the survey after some weeks and compare.
+- ◻️ Guess the result.  
+  _↳ feedback if chosen: Guessing gives no evidence._
+- ◻️ Ask only one friend.  
+  _↳ feedback if chosen: One answer is not enough._
+
+Full working after a second miss:
+
+> Compare before and after.  
+> So the answer is “Repeat the survey after some weeks and compare.”.  
+
+> Why is a survey done at the start of a project?
+
+- ◻️ to make posters  
+  _↳ feedback if chosen: Posters are an action, later._
+- ◻️ to finish the project  
+  _↳ feedback if chosen: It is the beginning._
+- ✅ to collect facts about the problem
+- ◻️ to cook food  
+  _↳ feedback if chosen: Cooking is an action, later._
+
+Full working after a second miss:
+
+> Facts show the size and causes of the problem.  
+> So the answer is “to collect facts about the problem”.  
+
+> Why is a survey done at the start of a project?
+
+- ◻️ to finish the project  
+  _↳ feedback if chosen: It is the beginning._
+- ✅ to collect facts about the problem
+- ◻️ to make posters  
+  _↳ feedback if chosen: Posters are an action, later._
+- ◻️ to cook food  
+  _↳ feedback if chosen: Cooking is an action, later._
+
+Full working after a second miss:
+
+> Facts show the size and causes of the problem.  
+> So the answer is “to collect facts about the problem”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-37-spot` · Lesson 37 · spot the error, level 3
+
+Prompt: Which step of a health project is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Identify a real problem.
+- ✅ Collect facts with a questionnaire.
+- ✅ Work with teachers and health workers.
+- ✅ Compare the results before and after.
+- ❌ Start the actions before finding out what the problem is.  
+  _↳ First identify the problem and collect facts._
+- ❌ Never check whether the project worked.  
+  _↳ Evaluate by repeating the survey._
+- ❌ Use sweets as prizes in a project against tooth decay.  
+  _↳ That adds sugar._
+
+
+Three generated variants:
+
+> Which step of a health project is wrong?
+
+- ◻️ Compare the results before and after.
+- ✅ Use sweets as prizes in a project against tooth decay.  
+  _↳ explanation: That adds sugar._
+- ◻️ Collect facts with a questionnaire.
+- ◻️ Identify a real problem.
+
+Full working after a second miss:
+
+> The wrong statement is “Use sweets as prizes in a project against tooth decay.”.  
+> That adds sugar.  
+
+> Which step of a health project is wrong?
+
+- ◻️ Identify a real problem.
+- ◻️ Collect facts with a questionnaire.
+- ◻️ Work with teachers and health workers.
+- ✅ Start the actions before finding out what the problem is.  
+  _↳ explanation: First identify the problem and collect facts._
+
+Full working after a second miss:
+
+> The wrong statement is “Start the actions before finding out what the problem is.”.  
+> First identify the problem and collect facts.  
+
+> Which step of a health project is wrong?
+
+- ◻️ Collect facts with a questionnaire.
+- ◻️ Identify a real problem.
+- ✅ Start the actions before finding out what the problem is.  
+  _↳ explanation: First identify the problem and collect facts._
+- ◻️ Work with teachers and health workers.
+
+Full working after a second miss:
+
+> The wrong statement is “Start the actions before finding out what the problem is.”.  
+> First identify the problem and collect facts.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-37-eval-card` · Lesson 37 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How can the group find out if its project worked? | Repeat the survey after some weeks and compare. | Guess the result. · Ask only one friend. · Stop the project at once. | Guessing gives no evidence. · One answer is not enough. · Then nothing is measured. | Compare before and after. |
+| Why is a survey done at the start of a project? | to collect facts about the problem | to cook food · to make posters · to finish the project | Cooking is an action, later. · Posters are an action, later. · It is the beginning. | Facts show the size and causes of the problem. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is a survey done at the start of a project?
+
+- ◻️ to cook food  
+  _↳ feedback if chosen: Cooking is an action, later._
+- ◻️ to make posters  
+  _↳ feedback if chosen: Posters are an action, later._
+- ✅ to collect facts about the problem
+- ◻️ to finish the project  
+  _↳ feedback if chosen: It is the beginning._
+
+Full working after a second miss:
+
+> Facts show the size and causes of the problem.  
+> So the answer is “to collect facts about the problem”.  
+
+> How can the group find out if its project worked?
+
+- ◻️ Stop the project at once.  
+  _↳ feedback if chosen: Then nothing is measured._
+- ✅ Repeat the survey after some weeks and compare.
+- ◻️ Ask only one friend.  
+  _↳ feedback if chosen: One answer is not enough._
+- ◻️ Guess the result.  
+  _↳ feedback if chosen: Guessing gives no evidence._
+
+Full working after a second miss:
+
+> Compare before and after.  
+> So the answer is “Repeat the survey after some weeks and compare.”.  
+
+> How can the group find out if its project worked?
+
+- ✅ Repeat the survey after some weeks and compare.
+- ◻️ Stop the project at once.  
+  _↳ feedback if chosen: Then nothing is measured._
+- ◻️ Ask only one friend.  
+  _↳ feedback if chosen: One answer is not enough._
+- ◻️ Guess the result.  
+  _↳ feedback if chosen: Guessing gives no evidence._
+
+Full working after a second miss:
+
+> Compare before and after.  
+> So the answer is “Repeat the survey after some weeks and compare.”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-38-harm` · Lesson 38 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is dumping plastic bags in gutters harmful? | They block the gutters and cause floods. | They make the water clean. · They feed fish. · They become soil quickly. | They pollute water. · They kill animals that eat them. · Plastic takes hundreds of years to break down. | Blocked gutters overflow. |
+| Which disease is spread by flies breeding in rubbish? | cholera | goitre · obesity · anaemia | Goitre is from lack of iodine. · Obesity is from too much food. · Anaemia is from lack of iron. | Flies carry germs from waste to food. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which disease is spread by flies breeding in rubbish?
+
+- ◻️ obesity  
+  _↳ feedback if chosen: Obesity is from too much food._
+- ✅ cholera
+- ◻️ anaemia  
+  _↳ feedback if chosen: Anaemia is from lack of iron._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+
+Full working after a second miss:
+
+> Flies carry germs from waste to food.  
+> So the answer is “cholera”.  
+
+> Which disease is spread by flies breeding in rubbish?
+
+- ◻️ anaemia  
+  _↳ feedback if chosen: Anaemia is from lack of iron._
+- ✅ cholera
+- ◻️ obesity  
+  _↳ feedback if chosen: Obesity is from too much food._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+
+Full working after a second miss:
+
+> Flies carry germs from waste to food.  
+> So the answer is “cholera”.  
+
+> Which disease is spread by flies breeding in rubbish?
+
+- ◻️ obesity  
+  _↳ feedback if chosen: Obesity is from too much food._
+- ✅ cholera
+- ◻️ anaemia  
+  _↳ feedback if chosen: Anaemia is from lack of iron._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+
+Full working after a second miss:
+
+> Flies carry germs from waste to food.  
+> So the answer is “cholera”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-38-r` · Lesson 38 · multiple choice, level 1
+
+Prompt: Which way of managing waste is this? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Using an empty bottle to store palm oil. | reuse | recycle · incinerate · compost | Recycling makes a new material. · Nothing is burned. · A bottle does not rot. | The same object is used again. |
+| Melting old plastic to make pavement tiles. | recycle | reuse · avoid · compost | Reuse keeps the same object. · The waste already exists. · Plastic does not rot. | A new product from old material. |
+| Refusing a plastic bag and carrying a basket. | avoid | recycle · reuse · incinerate | No material is remade. · No old object is used again. · Nothing is burned. | No waste is created. |
+| Burning hospital waste at a very high temperature. | incinerate | compost · reuse · reduce | Compost is rotting plant waste. · It is destroyed, not reused. · The waste is burned. | Incineration destroys germs too. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which way of managing waste is this? Melting old plastic to make pavement tiles.
+
+- ◻️ compost  
+  _↳ feedback if chosen: Plastic does not rot._
+- ✅ recycle
+- ◻️ avoid  
+  _↳ feedback if chosen: The waste already exists._
+- ◻️ reuse  
+  _↳ feedback if chosen: Reuse keeps the same object._
+
+Full working after a second miss:
+
+> A new product from old material.  
+> So the answer is “recycle”.  
+
+> Which way of managing waste is this? Using an empty bottle to store palm oil.
+
+- ✅ reuse
+- ◻️ compost  
+  _↳ feedback if chosen: A bottle does not rot._
+- ◻️ recycle  
+  _↳ feedback if chosen: Recycling makes a new material._
+- ◻️ incinerate  
+  _↳ feedback if chosen: Nothing is burned._
+
+Full working after a second miss:
+
+> The same object is used again.  
+> So the answer is “reuse”.  
+
+> Which way of managing waste is this? Melting old plastic to make pavement tiles.
+
+- ◻️ avoid  
+  _↳ feedback if chosen: The waste already exists._
+- ◻️ reuse  
+  _↳ feedback if chosen: Reuse keeps the same object._
+- ✅ recycle
+- ◻️ compost  
+  _↳ feedback if chosen: Plastic does not rot._
+
+Full working after a second miss:
+
+> A new product from old material.  
+> So the answer is “recycle”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-38-sort` · Lesson 38 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which waste is biodegradable? | cassava peels | a plastic bottle · a glass jar · an empty tin | Plastic does not rot. · Glass does not rot. · Metal rusts slowly but does not rot. | Peels are broken down by microorganisms. |
+| Why is avoiding waste better than recycling it? | No waste is made, so nothing needs to be treated. | Recycling is always harmful. · Avoiding makes more plastic. · Recycling is illegal. | Recycling is good, but it uses energy. · Avoiding means less plastic. · Recycling is legal and useful. | Avoiding is at the top of the hierarchy. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is avoiding waste better than recycling it?
+
+- ◻️ Avoiding makes more plastic.  
+  _↳ feedback if chosen: Avoiding means less plastic._
+- ◻️ Recycling is illegal.  
+  _↳ feedback if chosen: Recycling is legal and useful._
+- ✅ No waste is made, so nothing needs to be treated.
+- ◻️ Recycling is always harmful.  
+  _↳ feedback if chosen: Recycling is good, but it uses energy._
+
+Full working after a second miss:
+
+> Avoiding is at the top of the hierarchy.  
+> So the answer is “No waste is made, so nothing needs to be treated.”.  
+
+> Why is avoiding waste better than recycling it?
+
+- ◻️ Recycling is illegal.  
+  _↳ feedback if chosen: Recycling is legal and useful._
+- ✅ No waste is made, so nothing needs to be treated.
+- ◻️ Recycling is always harmful.  
+  _↳ feedback if chosen: Recycling is good, but it uses energy._
+- ◻️ Avoiding makes more plastic.  
+  _↳ feedback if chosen: Avoiding means less plastic._
+
+Full working after a second miss:
+
+> Avoiding is at the top of the hierarchy.  
+> So the answer is “No waste is made, so nothing needs to be treated.”.  
+
+> Why is avoiding waste better than recycling it?
+
+- ✅ No waste is made, so nothing needs to be treated.
+- ◻️ Recycling is illegal.  
+  _↳ feedback if chosen: Recycling is legal and useful._
+- ◻️ Avoiding makes more plastic.  
+  _↳ feedback if chosen: Avoiding means less plastic._
+- ◻️ Recycling is always harmful.  
+  _↳ feedback if chosen: Recycling is good, but it uses energy._
+
+Full working after a second miss:
+
+> Avoiding is at the top of the hierarchy.  
+> So the answer is “No waste is made, so nothing needs to be treated.”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-38-spot` · Lesson 38 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Composting turns food waste into manure.
+- ✅ Recycling makes new things from old materials.
+- ✅ Dumped waste breeds flies and rats.
+- ✅ Plastic is non-biodegradable.
+- ❌ Plastic bags rot in a few weeks.  
+  _↳ Plastic takes hundreds of years to break down._
+- ❌ Burning plastic in the open is safe.  
+  _↳ It gives off poisonous smoke._
+- ❌ Recycling is better than avoiding waste.  
+  _↳ Avoiding waste is best: nothing needs treating._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Recycling makes new things from old materials.
+- ✅ Burning plastic in the open is safe.  
+  _↳ explanation: It gives off poisonous smoke._
+- ◻️ Plastic is non-biodegradable.
+- ◻️ Composting turns food waste into manure.
+
+Full working after a second miss:
+
+> The wrong statement is “Burning plastic in the open is safe.”.  
+> It gives off poisonous smoke.  
+
+> Which statement is wrong?
+
+- ◻️ Composting turns food waste into manure.
+- ◻️ Dumped waste breeds flies and rats.
+- ✅ Recycling is better than avoiding waste.  
+  _↳ explanation: Avoiding waste is best: nothing needs treating._
+- ◻️ Plastic is non-biodegradable.
+
+Full working after a second miss:
+
+> The wrong statement is “Recycling is better than avoiding waste.”.  
+> Avoiding waste is best: nothing needs treating.  
+
+> Which statement is wrong?
+
+- ✅ Recycling is better than avoiding waste.  
+  _↳ explanation: Avoiding waste is best: nothing needs treating._
+- ◻️ Plastic is non-biodegradable.
+- ◻️ Dumped waste breeds flies and rats.
+- ◻️ Composting turns food waste into manure.
+
+Full working after a second miss:
+
+> The wrong statement is “Recycling is better than avoiding waste.”.  
+> Avoiding waste is best: nothing needs treating.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-38-sort-card` · Lesson 38 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which waste is biodegradable? | cassava peels | a plastic bottle · a glass jar · an empty tin | Plastic does not rot. · Glass does not rot. · Metal rusts slowly but does not rot. | Peels are broken down by microorganisms. |
+| Why is avoiding waste better than recycling it? | No waste is made, so nothing needs to be treated. | Recycling is always harmful. · Avoiding makes more plastic. · Recycling is illegal. | Recycling is good, but it uses energy. · Avoiding means less plastic. · Recycling is legal and useful. | Avoiding is at the top of the hierarchy. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which waste is biodegradable?
+
+- ◻️ an empty tin  
+  _↳ feedback if chosen: Metal rusts slowly but does not rot._
+- ◻️ a glass jar  
+  _↳ feedback if chosen: Glass does not rot._
+- ✅ cassava peels
+- ◻️ a plastic bottle  
+  _↳ feedback if chosen: Plastic does not rot._
+
+Full working after a second miss:
+
+> Peels are broken down by microorganisms.  
+> So the answer is “cassava peels”.  
+
+> Why is avoiding waste better than recycling it?
+
+- ◻️ Avoiding makes more plastic.  
+  _↳ feedback if chosen: Avoiding means less plastic._
+- ✅ No waste is made, so nothing needs to be treated.
+- ◻️ Recycling is illegal.  
+  _↳ feedback if chosen: Recycling is legal and useful._
+- ◻️ Recycling is always harmful.  
+  _↳ feedback if chosen: Recycling is good, but it uses energy._
+
+Full working after a second miss:
+
+> Avoiding is at the top of the hierarchy.  
+> So the answer is “No waste is made, so nothing needs to be treated.”.  
+
+> Why is avoiding waste better than recycling it?
+
+- ✅ No waste is made, so nothing needs to be treated.
+- ◻️ Recycling is illegal.  
+  _↳ feedback if chosen: Recycling is legal and useful._
+- ◻️ Recycling is always harmful.  
+  _↳ feedback if chosen: Recycling is good, but it uses energy._
+- ◻️ Avoiding makes more plastic.  
+  _↳ feedback if chosen: Avoiding means less plastic._
+
+Full working after a second miss:
+
+> Avoiding is at the top of the hierarchy.  
+> So the answer is “No waste is made, so nothing needs to be treated.”.  
+
+Sources: nutrition-health (Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate))
+
+### `b2-39-what` · Lesson 39 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which of these is exercise? | skipping rope | watching television · sleeping · sitting in class | The body is at rest. · That is rest. · The body is at rest. | Skipping makes the body work hard. |
+| About how long should teenagers be active each day? | about one hour | about one minute · about ten hours · never | That is far too little. · That is too much and leaves no rest. · Exercise is needed. | About an hour a day. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> About how long should teenagers be active each day?
+
+- ✅ about one hour
+- ◻️ never  
+  _↳ feedback if chosen: Exercise is needed._
+- ◻️ about one minute  
+  _↳ feedback if chosen: That is far too little._
+- ◻️ about ten hours  
+  _↳ feedback if chosen: That is too much and leaves no rest._
+
+Full working after a second miss:
+
+> About an hour a day.  
+> So the answer is “about one hour”.  
+
+> Which of these is exercise?
+
+- ◻️ sleeping  
+  _↳ feedback if chosen: That is rest._
+- ◻️ sitting in class  
+  _↳ feedback if chosen: The body is at rest._
+- ◻️ watching television  
+  _↳ feedback if chosen: The body is at rest._
+- ✅ skipping rope
+
+Full working after a second miss:
+
+> Skipping makes the body work hard.  
+> So the answer is “skipping rope”.  
+
+> About how long should teenagers be active each day?
+
+- ◻️ about ten hours  
+  _↳ feedback if chosen: That is too much and leaves no rest._
+- ✅ about one hour
+- ◻️ about one minute  
+  _↳ feedback if chosen: That is far too little._
+- ◻️ never  
+  _↳ feedback if chosen: Exercise is needed._
+
+Full working after a second miss:
+
+> About an hour a day.  
+> So the answer is “about one hour”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-39-good` · Lesson 39 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does regular exercise do to the heart? | It makes it stronger. | It makes it weaker. · It stops it. · It makes it smaller and slower to work. | Exercise strengthens it. · The heart keeps beating. · That is not true. | The heart muscle gets stronger. |
+| Which disease does exercise help to prevent? | obesity | goitre · cholera · malaria | Goitre is from lack of iodine. · Cholera is from dirty water. · Malaria is spread by mosquitoes. | Exercise uses energy. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which disease does exercise help to prevent?
+
+- ◻️ cholera  
+  _↳ feedback if chosen: Cholera is from dirty water._
+- ◻️ malaria  
+  _↳ feedback if chosen: Malaria is spread by mosquitoes._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+- ✅ obesity
+
+Full working after a second miss:
+
+> Exercise uses energy.  
+> So the answer is “obesity”.  
+
+> What does regular exercise do to the heart?
+
+- ◻️ It makes it smaller and slower to work.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ It stops it.  
+  _↳ feedback if chosen: The heart keeps beating._
+- ◻️ It makes it weaker.  
+  _↳ feedback if chosen: Exercise strengthens it._
+- ✅ It makes it stronger.
+
+Full working after a second miss:
+
+> The heart muscle gets stronger.  
+> So the answer is “It makes it stronger.”.  
+
+> Which disease does exercise help to prevent?
+
+- ✅ obesity
+- ◻️ malaria  
+  _↳ feedback if chosen: Malaria is spread by mosquitoes._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+- ◻️ cholera  
+  _↳ feedback if chosen: Cholera is from dirty water._
+
+Full working after a second miss:
+
+> Exercise uses energy.  
+> So the answer is “obesity”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-39-safe` · Lesson 39 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should you warm up before running? | to prepare the muscles and avoid injury | to get tired faster · to make the muscles cold · to stop sweating | That is not the aim. · Warming up warms the muscles. · That is not why. | Warm muscles are less easily injured. |
+| What should you do during long exercise in the hot season? | drink water | drink no water · wear heavy clothes · run faster and faster | You lose water by sweating. · That makes you overheat. · That is unsafe. | Replace the water lost in sweat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should you warm up before running?
+
+- ◻️ to stop sweating  
+  _↳ feedback if chosen: That is not why._
+- ✅ to prepare the muscles and avoid injury
+- ◻️ to make the muscles cold  
+  _↳ feedback if chosen: Warming up warms the muscles._
+- ◻️ to get tired faster  
+  _↳ feedback if chosen: That is not the aim._
+
+Full working after a second miss:
+
+> Warm muscles are less easily injured.  
+> So the answer is “to prepare the muscles and avoid injury”.  
+
+> What should you do during long exercise in the hot season?
+
+- ◻️ run faster and faster  
+  _↳ feedback if chosen: That is unsafe._
+- ◻️ wear heavy clothes  
+  _↳ feedback if chosen: That makes you overheat._
+- ◻️ drink no water  
+  _↳ feedback if chosen: You lose water by sweating._
+- ✅ drink water
+
+Full working after a second miss:
+
+> Replace the water lost in sweat.  
+> So the answer is “drink water”.  
+
+> What should you do during long exercise in the hot season?
+
+- ◻️ wear heavy clothes  
+  _↳ feedback if chosen: That makes you overheat._
+- ✅ drink water
+- ◻️ drink no water  
+  _↳ feedback if chosen: You lose water by sweating._
+- ◻️ run faster and faster  
+  _↳ feedback if chosen: That is unsafe._
+
+Full working after a second miss:
+
+> Replace the water lost in sweat.  
+> So the answer is “drink water”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-39-spot` · Lesson 39 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Exercise strengthens bones.
+- ✅ Exercise improves sleep.
+- ✅ Warm up before exercise.
+- ✅ Team sports build friendship.
+- ❌ You should exercise hard when you have a fever.  
+  _↳ Rest when you are ill._
+- ❌ Exercise makes the heart weaker.  
+  _↳ Exercise makes it stronger._
+- ❌ Only athletes need exercise.  
+  _↳ Everyone needs exercise for health._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ You should exercise hard when you have a fever.  
+  _↳ explanation: Rest when you are ill._
+- ◻️ Exercise strengthens bones.
+- ◻️ Warm up before exercise.
+- ◻️ Exercise improves sleep.
+
+Full working after a second miss:
+
+> The wrong statement is “You should exercise hard when you have a fever.”.  
+> Rest when you are ill.  
+
+> Which statement is wrong?
+
+- ◻️ Team sports build friendship.
+- ◻️ Exercise strengthens bones.
+- ◻️ Warm up before exercise.
+- ✅ Exercise makes the heart weaker.  
+  _↳ explanation: Exercise makes it stronger._
+
+Full working after a second miss:
+
+> The wrong statement is “Exercise makes the heart weaker.”.  
+> Exercise makes it stronger.  
+
+> Which statement is wrong?
+
+- ◻️ Team sports build friendship.
+- ◻️ Exercise improves sleep.
+- ✅ Exercise makes the heart weaker.  
+  _↳ explanation: Exercise makes it stronger._
+- ◻️ Exercise strengthens bones.
+
+Full working after a second miss:
+
+> The wrong statement is “Exercise makes the heart weaker.”.  
+> Exercise makes it stronger.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-39-safe-card` · Lesson 39 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should you warm up before running? | to prepare the muscles and avoid injury | to get tired faster · to make the muscles cold · to stop sweating | That is not the aim. · Warming up warms the muscles. · That is not why. | Warm muscles are less easily injured. |
+| What should you do during long exercise in the hot season? | drink water | drink no water · wear heavy clothes · run faster and faster | You lose water by sweating. · That makes you overheat. · That is unsafe. | Replace the water lost in sweat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What should you do during long exercise in the hot season?
+
+- ◻️ drink no water  
+  _↳ feedback if chosen: You lose water by sweating._
+- ◻️ run faster and faster  
+  _↳ feedback if chosen: That is unsafe._
+- ✅ drink water
+- ◻️ wear heavy clothes  
+  _↳ feedback if chosen: That makes you overheat._
+
+Full working after a second miss:
+
+> Replace the water lost in sweat.  
+> So the answer is “drink water”.  
+
+> Why should you warm up before running?
+
+- ◻️ to stop sweating  
+  _↳ feedback if chosen: That is not why._
+- ◻️ to make the muscles cold  
+  _↳ feedback if chosen: Warming up warms the muscles._
+- ◻️ to get tired faster  
+  _↳ feedback if chosen: That is not the aim._
+- ✅ to prepare the muscles and avoid injury
+
+Full working after a second miss:
+
+> Warm muscles are less easily injured.  
+> So the answer is “to prepare the muscles and avoid injury”.  
+
+> What should you do during long exercise in the hot season?
+
+- ◻️ run faster and faster  
+  _↳ feedback if chosen: That is unsafe._
+- ✅ drink water
+- ◻️ wear heavy clothes  
+  _↳ feedback if chosen: That makes you overheat._
+- ◻️ drink no water  
+  _↳ feedback if chosen: You lose water by sweating._
+
+Full working after a second miss:
+
+> Replace the water lost in sweat.  
+> So the answer is “drink water”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-40-what` · Lesson 40 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the deepest form of rest? | sleep | running · watching a film · studying | Running is exercise. · The brain is still busy. · The brain is working. | In sleep the body and mind rest most. |
+| About how many hours of sleep do teenagers need each night? | 8 to 10 hours | 2 to 3 hours · 4 to 5 hours · 15 to 18 hours | Far too little. · Too little. · Too much for a teenager. | About 8–10 hours. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the deepest form of rest?
+
+- ◻️ running  
+  _↳ feedback if chosen: Running is exercise._
+- ✅ sleep
+- ◻️ studying  
+  _↳ feedback if chosen: The brain is working._
+- ◻️ watching a film  
+  _↳ feedback if chosen: The brain is still busy._
+
+Full working after a second miss:
+
+> In sleep the body and mind rest most.  
+> So the answer is “sleep”.  
+
+> What is the deepest form of rest?
+
+- ◻️ watching a film  
+  _↳ feedback if chosen: The brain is still busy._
+- ◻️ running  
+  _↳ feedback if chosen: Running is exercise._
+- ◻️ studying  
+  _↳ feedback if chosen: The brain is working._
+- ✅ sleep
+
+Full working after a second miss:
+
+> In sleep the body and mind rest most.  
+> So the answer is “sleep”.  
+
+> What is the deepest form of rest?
+
+- ◻️ running  
+  _↳ feedback if chosen: Running is exercise._
+- ✅ sleep
+- ◻️ watching a film  
+  _↳ feedback if chosen: The brain is still busy._
+- ◻️ studying  
+  _↳ feedback if chosen: The brain is working._
+
+Full working after a second miss:
+
+> In sleep the body and mind rest most.  
+> So the answer is “sleep”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-40-why` · Lesson 40 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does the body do during sleep? | It repairs tissues and grows. | It stops all work. · It digests nothing ever. · It loses all memory. | The heart and lungs keep working. · That is not true. · Sleep helps memory. | Growth and repair happen in sleep. |
+| How does sleep help learning? | The brain stores what was learned. | It deletes lessons. · It makes the brain smaller. · It has no effect. | Sleep keeps memories. · That is not true. · Sleep has a big effect. | Memory improves after sleep. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How does sleep help learning?
+
+- ◻️ It makes the brain smaller.  
+  _↳ feedback if chosen: That is not true._
+- ✅ The brain stores what was learned.
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: Sleep has a big effect._
+- ◻️ It deletes lessons.  
+  _↳ feedback if chosen: Sleep keeps memories._
+
+Full working after a second miss:
+
+> Memory improves after sleep.  
+> So the answer is “The brain stores what was learned.”.  
+
+> What does the body do during sleep?
+
+- ◻️ It stops all work.  
+  _↳ feedback if chosen: The heart and lungs keep working._
+- ◻️ It loses all memory.  
+  _↳ feedback if chosen: Sleep helps memory._
+- ◻️ It digests nothing ever.  
+  _↳ feedback if chosen: That is not true._
+- ✅ It repairs tissues and grows.
+
+Full working after a second miss:
+
+> Growth and repair happen in sleep.  
+> So the answer is “It repairs tissues and grows.”.  
+
+> How does sleep help learning?
+
+- ◻️ It makes the brain smaller.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: Sleep has a big effect._
+- ✅ The brain stores what was learned.
+- ◻️ It deletes lessons.  
+  _↳ feedback if chosen: Sleep keeps memories._
+
+Full working after a second miss:
+
+> Memory improves after sleep.  
+> So the answer is “The brain stores what was learned.”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-40-habit` · Lesson 40 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which habit helps you sleep well? | keeping a regular bedtime | using a phone in bed · drinking coffee at night · sleeping with loud music | Screen light keeps the brain awake. · Coffee keeps you awake. · Noise disturbs sleep. | A regular routine helps. |
+| Which is an effect of too little sleep? | poor concentration in class | better marks · more energy · fewer accidents | Tiredness lowers marks. · You have less energy. · Tired people have more accidents. | The brain needs rest to work well. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is an effect of too little sleep?
+
+- ◻️ fewer accidents  
+  _↳ feedback if chosen: Tired people have more accidents._
+- ◻️ better marks  
+  _↳ feedback if chosen: Tiredness lowers marks._
+- ✅ poor concentration in class
+- ◻️ more energy  
+  _↳ feedback if chosen: You have less energy._
+
+Full working after a second miss:
+
+> The brain needs rest to work well.  
+> So the answer is “poor concentration in class”.  
+
+> Which habit helps you sleep well?
+
+- ◻️ using a phone in bed  
+  _↳ feedback if chosen: Screen light keeps the brain awake._
+- ✅ keeping a regular bedtime
+- ◻️ drinking coffee at night  
+  _↳ feedback if chosen: Coffee keeps you awake._
+- ◻️ sleeping with loud music  
+  _↳ feedback if chosen: Noise disturbs sleep._
+
+Full working after a second miss:
+
+> A regular routine helps.  
+> So the answer is “keeping a regular bedtime”.  
+
+> Which is an effect of too little sleep?
+
+- ◻️ better marks  
+  _↳ feedback if chosen: Tiredness lowers marks._
+- ✅ poor concentration in class
+- ◻️ fewer accidents  
+  _↳ feedback if chosen: Tired people have more accidents._
+- ◻️ more energy  
+  _↳ feedback if chosen: You have less energy._
+
+Full working after a second miss:
+
+> The brain needs rest to work well.  
+> So the answer is “poor concentration in class”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-40-spot` · Lesson 40 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Sleep helps the body grow.
+- ✅ Rest helps muscles recover.
+- ✅ A dark, quiet room helps sleep.
+- ✅ Too little sleep causes tiredness.
+- ❌ Teenagers need only about three hours of sleep.  
+  _↳ They need about 8–10 hours._
+- ❌ Energy drinks at bedtime help you sleep.  
+  _↳ They contain caffeine, which keeps you awake._
+- ❌ Studying all night is better than sleeping before an exam.  
+  _↳ Sleep stores what you learned._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Energy drinks at bedtime help you sleep.  
+  _↳ explanation: They contain caffeine, which keeps you awake._
+- ◻️ Too little sleep causes tiredness.
+- ◻️ Rest helps muscles recover.
+- ◻️ A dark, quiet room helps sleep.
+
+Full working after a second miss:
+
+> The wrong statement is “Energy drinks at bedtime help you sleep.”.  
+> They contain caffeine, which keeps you awake.  
+
+> Which statement is wrong?
+
+- ◻️ Rest helps muscles recover.
+- ◻️ Too little sleep causes tiredness.
+- ◻️ Sleep helps the body grow.
+- ✅ Studying all night is better than sleeping before an exam.  
+  _↳ explanation: Sleep stores what you learned._
+
+Full working after a second miss:
+
+> The wrong statement is “Studying all night is better than sleeping before an exam.”.  
+> Sleep stores what you learned.  
+
+> Which statement is wrong?
+
+- ✅ Energy drinks at bedtime help you sleep.  
+  _↳ explanation: They contain caffeine, which keeps you awake._
+- ◻️ Too little sleep causes tiredness.
+- ◻️ A dark, quiet room helps sleep.
+- ◻️ Sleep helps the body grow.
+
+Full working after a second miss:
+
+> The wrong statement is “Energy drinks at bedtime help you sleep.”.  
+> They contain caffeine, which keeps you awake.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-40-habit-card` · Lesson 40 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which habit helps you sleep well? | keeping a regular bedtime | using a phone in bed · drinking coffee at night · sleeping with loud music | Screen light keeps the brain awake. · Coffee keeps you awake. · Noise disturbs sleep. | A regular routine helps. |
+| Which is an effect of too little sleep? | poor concentration in class | better marks · more energy · fewer accidents | Tiredness lowers marks. · You have less energy. · Tired people have more accidents. | The brain needs rest to work well. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is an effect of too little sleep?
+
+- ✅ poor concentration in class
+- ◻️ more energy  
+  _↳ feedback if chosen: You have less energy._
+- ◻️ better marks  
+  _↳ feedback if chosen: Tiredness lowers marks._
+- ◻️ fewer accidents  
+  _↳ feedback if chosen: Tired people have more accidents._
+
+Full working after a second miss:
+
+> The brain needs rest to work well.  
+> So the answer is “poor concentration in class”.  
+
+> Which habit helps you sleep well?
+
+- ✅ keeping a regular bedtime
+- ◻️ sleeping with loud music  
+  _↳ feedback if chosen: Noise disturbs sleep._
+- ◻️ drinking coffee at night  
+  _↳ feedback if chosen: Coffee keeps you awake._
+- ◻️ using a phone in bed  
+  _↳ feedback if chosen: Screen light keeps the brain awake._
+
+Full working after a second miss:
+
+> A regular routine helps.  
+> So the answer is “keeping a regular bedtime”.  
+
+> Which is an effect of too little sleep?
+
+- ◻️ more energy  
+  _↳ feedback if chosen: You have less energy._
+- ◻️ fewer accidents  
+  _↳ feedback if chosen: Tired people have more accidents._
+- ◻️ better marks  
+  _↳ feedback if chosen: Tiredness lowers marks._
+- ✅ poor concentration in class
+
+Full working after a second miss:
+
+> The brain needs rest to work well.  
+> So the answer is “poor concentration in class”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-41-what` · Lesson 41 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is drug abuse? | using a drug in a harmful way or without medical advice | taking medicine as the doctor says · eating a balanced diet · drinking clean water | That is correct use. · That is healthy eating. · That is healthy. | Harmful or non-medical use. |
+| Which drink contains alcohol? | palm wine | orange juice · clean water · milk | Fresh juice has no alcohol. · Water has no alcohol. · Milk has no alcohol. | Palm wine ferments and contains alcohol. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is drug abuse?
+
+- ◻️ taking medicine as the doctor says  
+  _↳ feedback if chosen: That is correct use._
+- ◻️ drinking clean water  
+  _↳ feedback if chosen: That is healthy._
+- ✅ using a drug in a harmful way or without medical advice
+- ◻️ eating a balanced diet  
+  _↳ feedback if chosen: That is healthy eating._
+
+Full working after a second miss:
+
+> Harmful or non-medical use.  
+> So the answer is “using a drug in a harmful way or without medical advice”.  
+
+> What is drug abuse?
+
+- ◻️ taking medicine as the doctor says  
+  _↳ feedback if chosen: That is correct use._
+- ◻️ drinking clean water  
+  _↳ feedback if chosen: That is healthy._
+- ◻️ eating a balanced diet  
+  _↳ feedback if chosen: That is healthy eating._
+- ✅ using a drug in a harmful way or without medical advice
+
+Full working after a second miss:
+
+> Harmful or non-medical use.  
+> So the answer is “using a drug in a harmful way or without medical advice”.  
+
+> What is drug abuse?
+
+- ◻️ eating a balanced diet  
+  _↳ feedback if chosen: That is healthy eating._
+- ◻️ taking medicine as the doctor says  
+  _↳ feedback if chosen: That is correct use._
+- ◻️ drinking clean water  
+  _↳ feedback if chosen: That is healthy._
+- ✅ using a drug in a harmful way or without medical advice
+
+Full working after a second miss:
+
+> Harmful or non-medical use.  
+> So the answer is “using a drug in a harmful way or without medical advice”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-41-health` · Lesson 41 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which organ is badly damaged by drinking a lot of alcohol for years? | the liver | the eyes only · the hair · the teeth only | The liver is the main organ harmed. · Hair is not the main organ harmed. · The liver is the main organ harmed. | Cirrhosis of the liver. |
+| How does alcohol affect the brain? | It slows it down. | It makes it faster and sharper. · It has no effect. · It makes it grow. | It slows reactions. · It has a strong effect. · It damages it. | Alcohol is a depressant. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How does alcohol affect the brain?
+
+- ◻️ It makes it grow.  
+  _↳ feedback if chosen: It damages it._
+- ◻️ It makes it faster and sharper.  
+  _↳ feedback if chosen: It slows reactions._
+- ✅ It slows it down.
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It has a strong effect._
+
+Full working after a second miss:
+
+> Alcohol is a depressant.  
+> So the answer is “It slows it down.”.  
+
+> How does alcohol affect the brain?
+
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It has a strong effect._
+- ◻️ It makes it faster and sharper.  
+  _↳ feedback if chosen: It slows reactions._
+- ✅ It slows it down.
+- ◻️ It makes it grow.  
+  _↳ feedback if chosen: It damages it._
+
+Full working after a second miss:
+
+> Alcohol is a depressant.  
+> So the answer is “It slows it down.”.  
+
+> Which organ is badly damaged by drinking a lot of alcohol for years?
+
+- ✅ the liver
+- ◻️ the hair  
+  _↳ feedback if chosen: Hair is not the main organ harmed._
+- ◻️ the teeth only  
+  _↳ feedback if chosen: The liver is the main organ harmed._
+- ◻️ the eyes only  
+  _↳ feedback if chosen: The liver is the main organ harmed._
+
+Full working after a second miss:
+
+> Cirrhosis of the liver.  
+> So the answer is “the liver”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-41-social` · Lesson 41 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a social effect of alcohol abuse? | violence and fights at home | liver damage · stomach ulcers · high blood pressure | That is a health effect. · That is a health effect. · That is a health effect. | Social effects affect family and community. |
+| A friend offers you a drink of alcohol after school. What is the best response? | Refuse politely and suggest something else to do. | Drink it to please him. · Drink only a little every day. · Hide it from your parents and drink later. | Do not let others decide for you. · That can lead to addiction. · That is still harmful. | Say no and choose a healthy activity. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A friend offers you a drink of alcohol after school. What is the best response?
+
+- ◻️ Drink it to please him.  
+  _↳ feedback if chosen: Do not let others decide for you._
+- ✅ Refuse politely and suggest something else to do.
+- ◻️ Drink only a little every day.  
+  _↳ feedback if chosen: That can lead to addiction._
+- ◻️ Hide it from your parents and drink later.  
+  _↳ feedback if chosen: That is still harmful._
+
+Full working after a second miss:
+
+> Say no and choose a healthy activity.  
+> So the answer is “Refuse politely and suggest something else to do.”.  
+
+> A friend offers you a drink of alcohol after school. What is the best response?
+
+- ✅ Refuse politely and suggest something else to do.
+- ◻️ Drink it to please him.  
+  _↳ feedback if chosen: Do not let others decide for you._
+- ◻️ Hide it from your parents and drink later.  
+  _↳ feedback if chosen: That is still harmful._
+- ◻️ Drink only a little every day.  
+  _↳ feedback if chosen: That can lead to addiction._
+
+Full working after a second miss:
+
+> Say no and choose a healthy activity.  
+> So the answer is “Refuse politely and suggest something else to do.”.  
+
+> Which is a social effect of alcohol abuse?
+
+- ◻️ stomach ulcers  
+  _↳ feedback if chosen: That is a health effect._
+- ◻️ liver damage  
+  _↳ feedback if chosen: That is a health effect._
+- ◻️ high blood pressure  
+  _↳ feedback if chosen: That is a health effect._
+- ✅ violence and fights at home
+
+Full working after a second miss:
+
+> Social effects affect family and community.  
+> So the answer is “violence and fights at home”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-41-spot` · Lesson 41 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Alcohol slows reactions.
+- ✅ Alcohol can damage the liver.
+- ✅ Drunk driving causes accidents.
+- ✅ Alcohol in pregnancy harms the baby.
+- ❌ Alcohol makes drivers safer.  
+  _↳ It slows reactions and causes accidents._
+- ❌ Palm wine contains no alcohol.  
+  _↳ Palm wine ferments and contains alcohol._
+- ❌ Alcohol abuse has no effect on the family.  
+  _↳ It brings violence and wasted money._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Drunk driving causes accidents.
+- ◻️ Alcohol slows reactions.
+- ◻️ Alcohol in pregnancy harms the baby.
+- ✅ Alcohol abuse has no effect on the family.  
+  _↳ explanation: It brings violence and wasted money._
+
+Full working after a second miss:
+
+> The wrong statement is “Alcohol abuse has no effect on the family.”.  
+> It brings violence and wasted money.  
+
+> Which statement is wrong?
+
+- ✅ Palm wine contains no alcohol.  
+  _↳ explanation: Palm wine ferments and contains alcohol._
+- ◻️ Drunk driving causes accidents.
+- ◻️ Alcohol can damage the liver.
+- ◻️ Alcohol in pregnancy harms the baby.
+
+Full working after a second miss:
+
+> The wrong statement is “Palm wine contains no alcohol.”.  
+> Palm wine ferments and contains alcohol.  
+
+> Which statement is wrong?
+
+- ◻️ Alcohol can damage the liver.
+- ◻️ Drunk driving causes accidents.
+- ✅ Alcohol makes drivers safer.  
+  _↳ explanation: It slows reactions and causes accidents._
+- ◻️ Alcohol in pregnancy harms the baby.
+
+Full working after a second miss:
+
+> The wrong statement is “Alcohol makes drivers safer.”.  
+> It slows reactions and causes accidents.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-41-social-card` · Lesson 41 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a social effect of alcohol abuse? | violence and fights at home | liver damage · stomach ulcers · high blood pressure | That is a health effect. · That is a health effect. · That is a health effect. | Social effects affect family and community. |
+| A friend offers you a drink of alcohol after school. What is the best response? | Refuse politely and suggest something else to do. | Drink it to please him. · Drink only a little every day. · Hide it from your parents and drink later. | Do not let others decide for you. · That can lead to addiction. · That is still harmful. | Say no and choose a healthy activity. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A friend offers you a drink of alcohol after school. What is the best response?
+
+- ◻️ Drink it to please him.  
+  _↳ feedback if chosen: Do not let others decide for you._
+- ✅ Refuse politely and suggest something else to do.
+- ◻️ Drink only a little every day.  
+  _↳ feedback if chosen: That can lead to addiction._
+- ◻️ Hide it from your parents and drink later.  
+  _↳ feedback if chosen: That is still harmful._
+
+Full working after a second miss:
+
+> Say no and choose a healthy activity.  
+> So the answer is “Refuse politely and suggest something else to do.”.  
+
+> A friend offers you a drink of alcohol after school. What is the best response?
+
+- ◻️ Drink it to please him.  
+  _↳ feedback if chosen: Do not let others decide for you._
+- ◻️ Drink only a little every day.  
+  _↳ feedback if chosen: That can lead to addiction._
+- ◻️ Hide it from your parents and drink later.  
+  _↳ feedback if chosen: That is still harmful._
+- ✅ Refuse politely and suggest something else to do.
+
+Full working after a second miss:
+
+> Say no and choose a healthy activity.  
+> So the answer is “Refuse politely and suggest something else to do.”.  
+
+> A friend offers you a drink of alcohol after school. What is the best response?
+
+- ✅ Refuse politely and suggest something else to do.
+- ◻️ Hide it from your parents and drink later.  
+  _↳ feedback if chosen: That is still harmful._
+- ◻️ Drink only a little every day.  
+  _↳ feedback if chosen: That can lead to addiction._
+- ◻️ Drink it to please him.  
+  _↳ feedback if chosen: Do not let others decide for you._
+
+Full working after a second miss:
+
+> Say no and choose a healthy activity.  
+> So the answer is “Refuse politely and suggest something else to do.”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-42-chem` · Lesson 42 · multiple choice, level 1
+
+Prompt: Which substance in cigarette smoke {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| makes smokers addicted | nicotine | tar · carbon monoxide · oxygen | Tar causes cancer. · Carbon monoxide replaces oxygen. · Oxygen is not from smoke. | Nicotine is the addictive drug. |
+| coats the lungs and causes cancer | tar | nicotine · water · nitrogen | Nicotine is the addictive drug. · Water is not the harm. · Nitrogen is in air. | Tar contains cancer-causing chemicals. |
+| takes the place of oxygen in the blood | carbon monoxide | tar · nicotine · carbon dioxide | Tar coats the lungs. · Nicotine is addictive. · Carbon dioxide is a waste gas we breathe out. | Carbon monoxide joins red blood cells. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which substance in cigarette smoke takes the place of oxygen in the blood?
+
+- ◻️ tar  
+  _↳ feedback if chosen: Tar coats the lungs._
+- ◻️ carbon dioxide  
+  _↳ feedback if chosen: Carbon dioxide is a waste gas we breathe out._
+- ◻️ nicotine  
+  _↳ feedback if chosen: Nicotine is addictive._
+- ✅ carbon monoxide
+
+Full working after a second miss:
+
+> Carbon monoxide joins red blood cells.  
+> So the answer is “carbon monoxide”.  
+
+> Which substance in cigarette smoke takes the place of oxygen in the blood?
+
+- ◻️ nicotine  
+  _↳ feedback if chosen: Nicotine is addictive._
+- ◻️ tar  
+  _↳ feedback if chosen: Tar coats the lungs._
+- ✅ carbon monoxide
+- ◻️ carbon dioxide  
+  _↳ feedback if chosen: Carbon dioxide is a waste gas we breathe out._
+
+Full working after a second miss:
+
+> Carbon monoxide joins red blood cells.  
+> So the answer is “carbon monoxide”.  
+
+> Which substance in cigarette smoke coats the lungs and causes cancer?
+
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen is in air._
+- ✅ tar
+- ◻️ nicotine  
+  _↳ feedback if chosen: Nicotine is the addictive drug._
+- ◻️ water  
+  _↳ feedback if chosen: Water is not the harm._
+
+Full working after a second miss:
+
+> Tar contains cancer-causing chemicals.  
+> So the answer is “tar”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-42-health` · Lesson 42 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which disease is caused mainly by smoking? | lung cancer | malaria · goitre · cholera | Malaria is spread by mosquitoes. · Goitre is from lack of iodine. · Cholera is from dirty water. | Tar causes lung cancer. |
+| Why are smokers often short of breath? | Their lungs are damaged and their blood carries less oxygen. | Smoke adds oxygen. · Smoking makes lungs bigger. · Nicotine is food. | Smoke reduces oxygen. · It damages them. · Nicotine is a drug. | Carbon monoxide and damaged air sacs. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which disease is caused mainly by smoking?
+
+- ✅ lung cancer
+- ◻️ malaria  
+  _↳ feedback if chosen: Malaria is spread by mosquitoes._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+- ◻️ cholera  
+  _↳ feedback if chosen: Cholera is from dirty water._
+
+Full working after a second miss:
+
+> Tar causes lung cancer.  
+> So the answer is “lung cancer”.  
+
+> Why are smokers often short of breath?
+
+- ◻️ Smoke adds oxygen.  
+  _↳ feedback if chosen: Smoke reduces oxygen._
+- ✅ Their lungs are damaged and their blood carries less oxygen.
+- ◻️ Smoking makes lungs bigger.  
+  _↳ feedback if chosen: It damages them._
+- ◻️ Nicotine is food.  
+  _↳ feedback if chosen: Nicotine is a drug._
+
+Full working after a second miss:
+
+> Carbon monoxide and damaged air sacs.  
+> So the answer is “Their lungs are damaged and their blood carries less oxygen.”.  
+
+> Which disease is caused mainly by smoking?
+
+- ✅ lung cancer
+- ◻️ malaria  
+  _↳ feedback if chosen: Malaria is spread by mosquitoes._
+- ◻️ goitre  
+  _↳ feedback if chosen: Goitre is from lack of iodine._
+- ◻️ cholera  
+  _↳ feedback if chosen: Cholera is from dirty water._
+
+Full working after a second miss:
+
+> Tar causes lung cancer.  
+> So the answer is “lung cancer”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-42-passive` · Lesson 42 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is passive smoking? | breathing in other people's smoke | smoking only on weekends · smoking without lighting · chewing tobacco | That is still active smoking. · That is not smoking. · That is another tobacco use. | Non-smokers are harmed too. |
+| Why is smoking forbidden in public places? | to protect non-smokers from the smoke | to sell more cigarettes · because smoke is healthy · to make streets warm | That is not why. · Smoke is harmful. · That is not why. | Passive smoking is harmful. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is smoking forbidden in public places?
+
+- ◻️ because smoke is healthy  
+  _↳ feedback if chosen: Smoke is harmful._
+- ✅ to protect non-smokers from the smoke
+- ◻️ to sell more cigarettes  
+  _↳ feedback if chosen: That is not why._
+- ◻️ to make streets warm  
+  _↳ feedback if chosen: That is not why._
+
+Full working after a second miss:
+
+> Passive smoking is harmful.  
+> So the answer is “to protect non-smokers from the smoke”.  
+
+> Why is smoking forbidden in public places?
+
+- ✅ to protect non-smokers from the smoke
+- ◻️ to sell more cigarettes  
+  _↳ feedback if chosen: That is not why._
+- ◻️ to make streets warm  
+  _↳ feedback if chosen: That is not why._
+- ◻️ because smoke is healthy  
+  _↳ feedback if chosen: Smoke is harmful._
+
+Full working after a second miss:
+
+> Passive smoking is harmful.  
+> So the answer is “to protect non-smokers from the smoke”.  
+
+> Why is smoking forbidden in public places?
+
+- ◻️ because smoke is healthy  
+  _↳ feedback if chosen: Smoke is harmful._
+- ✅ to protect non-smokers from the smoke
+- ◻️ to make streets warm  
+  _↳ feedback if chosen: That is not why._
+- ◻️ to sell more cigarettes  
+  _↳ feedback if chosen: That is not why._
+
+Full working after a second miss:
+
+> Passive smoking is harmful.  
+> So the answer is “to protect non-smokers from the smoke”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-42-spot` · Lesson 42 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Nicotine is addictive.
+- ✅ Tar causes cancer.
+- ✅ Passive smoking is harmful.
+- ✅ Smoking stains the teeth.
+- ❌ Shisha is a safe way to smoke.  
+  _↳ Shisha smoke is harmful too._
+- ❌ Carbon monoxide gives the blood more oxygen.  
+  _↳ It takes the place of oxygen._
+- ❌ Smoking makes athletes fitter.  
+  _↳ Smoking reduces fitness._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Tar causes cancer.
+- ✅ Carbon monoxide gives the blood more oxygen.  
+  _↳ explanation: It takes the place of oxygen._
+- ◻️ Passive smoking is harmful.
+- ◻️ Nicotine is addictive.
+
+Full working after a second miss:
+
+> The wrong statement is “Carbon monoxide gives the blood more oxygen.”.  
+> It takes the place of oxygen.  
+
+> Which statement is wrong?
+
+- ◻️ Smoking stains the teeth.
+- ◻️ Passive smoking is harmful.
+- ◻️ Tar causes cancer.
+- ✅ Smoking makes athletes fitter.  
+  _↳ explanation: Smoking reduces fitness._
+
+Full working after a second miss:
+
+> The wrong statement is “Smoking makes athletes fitter.”.  
+> Smoking reduces fitness.  
+
+> Which statement is wrong?
+
+- ✅ Shisha is a safe way to smoke.  
+  _↳ explanation: Shisha smoke is harmful too._
+- ◻️ Passive smoking is harmful.
+- ◻️ Smoking stains the teeth.
+- ◻️ Nicotine is addictive.
+
+Full working after a second miss:
+
+> The wrong statement is “Shisha is a safe way to smoke.”.  
+> Shisha smoke is harmful too.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-42-passive-card` · Lesson 42 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is passive smoking? | breathing in other people's smoke | smoking only on weekends · smoking without lighting · chewing tobacco | That is still active smoking. · That is not smoking. · That is another tobacco use. | Non-smokers are harmed too. |
+| Why is smoking forbidden in public places? | to protect non-smokers from the smoke | to sell more cigarettes · because smoke is healthy · to make streets warm | That is not why. · Smoke is harmful. · That is not why. | Passive smoking is harmful. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is smoking forbidden in public places?
+
+- ◻️ to make streets warm  
+  _↳ feedback if chosen: That is not why._
+- ◻️ because smoke is healthy  
+  _↳ feedback if chosen: Smoke is harmful._
+- ✅ to protect non-smokers from the smoke
+- ◻️ to sell more cigarettes  
+  _↳ feedback if chosen: That is not why._
+
+Full working after a second miss:
+
+> Passive smoking is harmful.  
+> So the answer is “to protect non-smokers from the smoke”.  
+
+> Why is smoking forbidden in public places?
+
+- ◻️ to make streets warm  
+  _↳ feedback if chosen: That is not why._
+- ✅ to protect non-smokers from the smoke
+- ◻️ because smoke is healthy  
+  _↳ feedback if chosen: Smoke is harmful._
+- ◻️ to sell more cigarettes  
+  _↳ feedback if chosen: That is not why._
+
+Full working after a second miss:
+
+> Passive smoking is harmful.  
+> So the answer is “to protect non-smokers from the smoke”.  
+
+> What is passive smoking?
+
+- ✅ breathing in other people's smoke
+- ◻️ chewing tobacco  
+  _↳ feedback if chosen: That is another tobacco use._
+- ◻️ smoking only on weekends  
+  _↳ feedback if chosen: That is still active smoking._
+- ◻️ smoking without lighting  
+  _↳ feedback if chosen: That is not smoking._
+
+Full working after a second miss:
+
+> Non-smokers are harmed too.  
+> So the answer is “breathing in other people's smoke”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-43-weed` · Lesson 43 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an effect of marijuana use? | poor memory and concentration | better marks · stronger lungs · a sharper memory | It lowers marks. · Smoking damages the lungs. · It harms memory. | Marijuana affects the brain. |
+| Is marijuana legal in Cameroon? | No, using and selling it are crimes. | Yes, for everyone. · Yes, for pupils only. · Yes, if you are tired. | It is illegal. · It is illegal for all. · That is not true. | It is an illegal drug. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is marijuana legal in Cameroon?
+
+- ◻️ Yes, for everyone.  
+  _↳ feedback if chosen: It is illegal._
+- ◻️ Yes, if you are tired.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Yes, for pupils only.  
+  _↳ feedback if chosen: It is illegal for all._
+- ✅ No, using and selling it are crimes.
+
+Full working after a second miss:
+
+> It is an illegal drug.  
+> So the answer is “No, using and selling it are crimes.”.  
+
+> Which is an effect of marijuana use?
+
+- ◻️ better marks  
+  _↳ feedback if chosen: It lowers marks._
+- ✅ poor memory and concentration
+- ◻️ a sharper memory  
+  _↳ feedback if chosen: It harms memory._
+- ◻️ stronger lungs  
+  _↳ feedback if chosen: Smoking damages the lungs._
+
+Full working after a second miss:
+
+> Marijuana affects the brain.  
+> So the answer is “poor memory and concentration”.  
+
+> Is marijuana legal in Cameroon?
+
+- ◻️ Yes, for everyone.  
+  _↳ feedback if chosen: It is illegal._
+- ◻️ Yes, if you are tired.  
+  _↳ feedback if chosen: That is not true._
+- ✅ No, using and selling it are crimes.
+- ◻️ Yes, for pupils only.  
+  _↳ feedback if chosen: It is illegal for all._
+
+Full working after a second miss:
+
+> It is an illegal drug.  
+> So the answer is “No, using and selling it are crimes.”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-43-tram` · Lesson 43 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| When may tramadol be taken? | only when a doctor prescribes it | whenever you feel tired · before sport to feel strong · with energy drinks at parties | That is abuse. · That is abuse and dangerous. · That is very dangerous. | It is a prescription painkiller. |
+| Which is a danger of tramadol abuse? | fits (seizures) and death from overdose | stronger bones · better sleep for ever · more vitamins | That is not an effect. · It causes addiction instead. · It gives no vitamins. | Overdose can kill. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> When may tramadol be taken?
+
+- ◻️ with energy drinks at parties  
+  _↳ feedback if chosen: That is very dangerous._
+- ◻️ whenever you feel tired  
+  _↳ feedback if chosen: That is abuse._
+- ◻️ before sport to feel strong  
+  _↳ feedback if chosen: That is abuse and dangerous._
+- ✅ only when a doctor prescribes it
+
+Full working after a second miss:
+
+> It is a prescription painkiller.  
+> So the answer is “only when a doctor prescribes it”.  
+
+> When may tramadol be taken?
+
+- ✅ only when a doctor prescribes it
+- ◻️ before sport to feel strong  
+  _↳ feedback if chosen: That is abuse and dangerous._
+- ◻️ with energy drinks at parties  
+  _↳ feedback if chosen: That is very dangerous._
+- ◻️ whenever you feel tired  
+  _↳ feedback if chosen: That is abuse._
+
+Full working after a second miss:
+
+> It is a prescription painkiller.  
+> So the answer is “only when a doctor prescribes it”.  
+
+> When may tramadol be taken?
+
+- ◻️ before sport to feel strong  
+  _↳ feedback if chosen: That is abuse and dangerous._
+- ◻️ whenever you feel tired  
+  _↳ feedback if chosen: That is abuse._
+- ◻️ with energy drinks at parties  
+  _↳ feedback if chosen: That is very dangerous._
+- ✅ only when a doctor prescribes it
+
+Full working after a second miss:
+
+> It is a prescription painkiller.  
+> So the answer is “only when a doctor prescribes it”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-43-help` · Lesson 43 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A classmate offers you marijuana. What should you do? | Refuse firmly, leave, and tell a trusted adult. | Try it once. · Buy some for later. · Keep it secret and say nothing. | Even once is risky and illegal. · That is a crime. · A trusted adult can help. | Refuse and get help. |
+| Who can help a pupil who is using drugs? | a counsellor, teacher, parent or health worker | the drug seller · nobody · a friend who also uses drugs | The seller profits from it. · Help is available. · That keeps the habit going. | Trusted adults and health workers help. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A classmate offers you marijuana. What should you do?
+
+- ✅ Refuse firmly, leave, and tell a trusted adult.
+- ◻️ Try it once.  
+  _↳ feedback if chosen: Even once is risky and illegal._
+- ◻️ Buy some for later.  
+  _↳ feedback if chosen: That is a crime._
+- ◻️ Keep it secret and say nothing.  
+  _↳ feedback if chosen: A trusted adult can help._
+
+Full working after a second miss:
+
+> Refuse and get help.  
+> So the answer is “Refuse firmly, leave, and tell a trusted adult.”.  
+
+> Who can help a pupil who is using drugs?
+
+- ◻️ a friend who also uses drugs  
+  _↳ feedback if chosen: That keeps the habit going._
+- ◻️ nobody  
+  _↳ feedback if chosen: Help is available._
+- ✅ a counsellor, teacher, parent or health worker
+- ◻️ the drug seller  
+  _↳ feedback if chosen: The seller profits from it._
+
+Full working after a second miss:
+
+> Trusted adults and health workers help.  
+> So the answer is “a counsellor, teacher, parent or health worker”.  
+
+> Who can help a pupil who is using drugs?
+
+- ✅ a counsellor, teacher, parent or health worker
+- ◻️ nobody  
+  _↳ feedback if chosen: Help is available._
+- ◻️ a friend who also uses drugs  
+  _↳ feedback if chosen: That keeps the habit going._
+- ◻️ the drug seller  
+  _↳ feedback if chosen: The seller profits from it._
+
+Full working after a second miss:
+
+> Trusted adults and health workers help.  
+> So the answer is “a counsellor, teacher, parent or health worker”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-43-spot` · Lesson 43 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Marijuana can cause mental illness.
+- ✅ Tramadol should be used only on prescription.
+- ✅ Drug abuse can lead to school failure.
+- ✅ Talking to a counsellor can help.
+- ❌ Tramadol with energy drinks makes you strong and healthy.  
+  _↳ It can cause fits, addiction and death._
+- ❌ Marijuana improves memory.  
+  _↳ It harms memory and concentration._
+- ❌ Drug abuse affects only the user, not the family.  
+  _↳ It breaks families and leads to crime._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Marijuana improves memory.  
+  _↳ explanation: It harms memory and concentration._
+- ◻️ Tramadol should be used only on prescription.
+- ◻️ Marijuana can cause mental illness.
+- ◻️ Talking to a counsellor can help.
+
+Full working after a second miss:
+
+> The wrong statement is “Marijuana improves memory.”.  
+> It harms memory and concentration.  
+
+> Which statement is wrong?
+
+- ◻️ Marijuana can cause mental illness.
+- ◻️ Tramadol should be used only on prescription.
+- ◻️ Drug abuse can lead to school failure.
+- ✅ Marijuana improves memory.  
+  _↳ explanation: It harms memory and concentration._
+
+Full working after a second miss:
+
+> The wrong statement is “Marijuana improves memory.”.  
+> It harms memory and concentration.  
+
+> Which statement is wrong?
+
+- ✅ Marijuana improves memory.  
+  _↳ explanation: It harms memory and concentration._
+- ◻️ Marijuana can cause mental illness.
+- ◻️ Tramadol should be used only on prescription.
+- ◻️ Talking to a counsellor can help.
+
+Full working after a second miss:
+
+> The wrong statement is “Marijuana improves memory.”.  
+> It harms memory and concentration.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-43-help-card` · Lesson 43 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A classmate offers you marijuana. What should you do? | Refuse firmly, leave, and tell a trusted adult. | Try it once. · Buy some for later. · Keep it secret and say nothing. | Even once is risky and illegal. · That is a crime. · A trusted adult can help. | Refuse and get help. |
+| Who can help a pupil who is using drugs? | a counsellor, teacher, parent or health worker | the drug seller · nobody · a friend who also uses drugs | The seller profits from it. · Help is available. · That keeps the habit going. | Trusted adults and health workers help. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Who can help a pupil who is using drugs?
+
+- ◻️ nobody  
+  _↳ feedback if chosen: Help is available._
+- ◻️ a friend who also uses drugs  
+  _↳ feedback if chosen: That keeps the habit going._
+- ✅ a counsellor, teacher, parent or health worker
+- ◻️ the drug seller  
+  _↳ feedback if chosen: The seller profits from it._
+
+Full working after a second miss:
+
+> Trusted adults and health workers help.  
+> So the answer is “a counsellor, teacher, parent or health worker”.  
+
+> A classmate offers you marijuana. What should you do?
+
+- ◻️ Try it once.  
+  _↳ feedback if chosen: Even once is risky and illegal._
+- ◻️ Keep it secret and say nothing.  
+  _↳ feedback if chosen: A trusted adult can help._
+- ◻️ Buy some for later.  
+  _↳ feedback if chosen: That is a crime._
+- ✅ Refuse firmly, leave, and tell a trusted adult.
+
+Full working after a second miss:
+
+> Refuse and get help.  
+> So the answer is “Refuse firmly, leave, and tell a trusted adult.”.  
+
+> A classmate offers you marijuana. What should you do?
+
+- ◻️ Keep it secret and say nothing.  
+  _↳ feedback if chosen: A trusted adult can help._
+- ✅ Refuse firmly, leave, and tell a trusted adult.
+- ◻️ Buy some for later.  
+  _↳ feedback if chosen: That is a crime._
+- ◻️ Try it once.  
+  _↳ feedback if chosen: Even once is risky and illegal._
+
+Full working after a second miss:
+
+> Refuse and get help.  
+> So the answer is “Refuse firmly, leave, and tell a trusted adult.”.  
+
+Sources: physical-social-health (Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol)
+
+### `b2-44-early` · Lesson 44 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is early marriage? | the marriage of a child under 18 | a marriage in the morning · a marriage of two adults · a marriage after 30 | It is about age, not time of day. · Adults are 18 or over. · That is not early. | A child bride or groom under 18. |
+| A girl of 15 is married. What is this called? | early (child) marriage | adult marriage · a balanced marriage · a legal adult choice | She is under 18: a child. · That is not a term used. · She is a child, under 18. | Marriage under 18 is child marriage. |
+| Which is a cause of early marriage? | poverty (wanting the bride price) | going to university · a balanced diet · playing sport | Education delays marriage. · That is not a cause. · That is not a cause. | Poor families may marry daughters early. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A girl of 15 is married. What is this called?
+
+- ◻️ a balanced marriage  
+  _↳ feedback if chosen: That is not a term used._
+- ◻️ a legal adult choice  
+  _↳ feedback if chosen: She is a child, under 18._
+- ◻️ adult marriage  
+  _↳ feedback if chosen: She is under 18: a child._
+- ✅ early (child) marriage
+
+Full working after a second miss:
+
+> Marriage under 18 is child marriage.  
+> So the answer is “early (child) marriage”.  
+
+> Which is a cause of early marriage?
+
+- ◻️ a balanced diet  
+  _↳ feedback if chosen: That is not a cause._
+- ◻️ going to university  
+  _↳ feedback if chosen: Education delays marriage._
+- ◻️ playing sport  
+  _↳ feedback if chosen: That is not a cause._
+- ✅ poverty (wanting the bride price)
+
+Full working after a second miss:
+
+> Poor families may marry daughters early.  
+> So the answer is “poverty (wanting the bride price)”.  
+
+> What is early marriage?
+
+- ◻️ a marriage in the morning  
+  _↳ feedback if chosen: It is about age, not time of day._
+- ◻️ a marriage after 30  
+  _↳ feedback if chosen: That is not early._
+- ✅ the marriage of a child under 18
+- ◻️ a marriage of two adults  
+  _↳ feedback if chosen: Adults are 18 or over._
+
+Full working after a second miss:
+
+> A child bride or groom under 18.  
+> So the answer is “the marriage of a child under 18”.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-44-preg` · Lesson 44 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is pregnancy dangerous for a girl of 14? | Her body is not yet ready for childbirth. | She is too old. · Babies need no care. · It is never dangerous. | She is too young. · Babies need a lot of care. · It is very dangerous. | Risk of fistula and death. |
+| What usually happens to a girl's schooling after early marriage? | She stops going to school. | She gets better marks. · She goes to university at once. · Nothing changes. | She usually leaves school. · That is very unlikely. · Her life changes a lot. | Early marriage ends education. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What usually happens to a girl's schooling after early marriage?
+
+- ◻️ She goes to university at once.  
+  _↳ feedback if chosen: That is very unlikely._
+- ✅ She stops going to school.
+- ◻️ Nothing changes.  
+  _↳ feedback if chosen: Her life changes a lot._
+- ◻️ She gets better marks.  
+  _↳ feedback if chosen: She usually leaves school._
+
+Full working after a second miss:
+
+> Early marriage ends education.  
+> So the answer is “She stops going to school.”.  
+
+> Why is pregnancy dangerous for a girl of 14?
+
+- ◻️ It is never dangerous.  
+  _↳ feedback if chosen: It is very dangerous._
+- ✅ Her body is not yet ready for childbirth.
+- ◻️ She is too old.  
+  _↳ feedback if chosen: She is too young._
+- ◻️ Babies need no care.  
+  _↳ feedback if chosen: Babies need a lot of care._
+
+Full working after a second miss:
+
+> Risk of fistula and death.  
+> So the answer is “Her body is not yet ready for childbirth.”.  
+
+> Why is pregnancy dangerous for a girl of 14?
+
+- ◻️ She is too old.  
+  _↳ feedback if chosen: She is too young._
+- ◻️ Babies need no care.  
+  _↳ feedback if chosen: Babies need a lot of care._
+- ◻️ It is never dangerous.  
+  _↳ feedback if chosen: It is very dangerous._
+- ✅ Her body is not yet ready for childbirth.
+
+Full working after a second miss:
+
+> Risk of fistula and death.  
+> So the answer is “Her body is not yet ready for childbirth.”.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-44-fgm` · Lesson 44 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a consequence of female genital mutilation? | severe bleeding and infection | better health · easier childbirth · protection from disease | It harms health. · It makes childbirth harder. · It can spread infections. | It has no health benefit and causes harm. |
+| What does the law in Cameroon say about FGM? | It is forbidden. | It is required. · It is allowed for all girls. · It is a medical treatment. | It is not required. · It is forbidden. · It has no medical purpose. | FGM is a crime. |
+| A girl fears she will be cut or married early. Who can she tell? | a teacher, health worker or social worker | nobody · only the person planning it · a stranger online | Help is available. · That will not protect her. · That is not safe. | Trusted adults can protect her. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A girl fears she will be cut or married early. Who can she tell?
+
+- ◻️ a stranger online  
+  _↳ feedback if chosen: That is not safe._
+- ✅ a teacher, health worker or social worker
+- ◻️ only the person planning it  
+  _↳ feedback if chosen: That will not protect her._
+- ◻️ nobody  
+  _↳ feedback if chosen: Help is available._
+
+Full working after a second miss:
+
+> Trusted adults can protect her.  
+> So the answer is “a teacher, health worker or social worker”.  
+
+> What does the law in Cameroon say about FGM?
+
+- ◻️ It is a medical treatment.  
+  _↳ feedback if chosen: It has no medical purpose._
+- ◻️ It is required.  
+  _↳ feedback if chosen: It is not required._
+- ◻️ It is allowed for all girls.  
+  _↳ feedback if chosen: It is forbidden._
+- ✅ It is forbidden.
+
+Full working after a second miss:
+
+> FGM is a crime.  
+> So the answer is “It is forbidden.”.  
+
+> What does the law in Cameroon say about FGM?
+
+- ◻️ It is allowed for all girls.  
+  _↳ feedback if chosen: It is forbidden._
+- ◻️ It is required.  
+  _↳ feedback if chosen: It is not required._
+- ◻️ It is a medical treatment.  
+  _↳ feedback if chosen: It has no medical purpose._
+- ✅ It is forbidden.
+
+Full working after a second miss:
+
+> FGM is a crime.  
+> So the answer is “It is forbidden.”.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-44-spot` · Lesson 44 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Early marriage often ends a girl's education.
+- ✅ FGM can spread infections.
+- ✅ Child marriage is the marriage of someone under 18.
+- ✅ Early pregnancy can cause fistula.
+- ❌ FGM has health benefits for girls.  
+  _↳ It has no benefit and causes harm._
+- ❌ Early marriage protects girls' health.  
+  _↳ Early pregnancy endangers their health._
+- ❌ A girl of 13 is old enough to marry.  
+  _↳ Under 18 is a child._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ FGM can spread infections.
+- ✅ Early marriage protects girls' health.  
+  _↳ explanation: Early pregnancy endangers their health._
+- ◻️ Early marriage often ends a girl's education.
+- ◻️ Early pregnancy can cause fistula.
+
+Full working after a second miss:
+
+> The wrong statement is “Early marriage protects girls' health.”.  
+> Early pregnancy endangers their health.  
+
+> Which statement is wrong?
+
+- ✅ FGM has health benefits for girls.  
+  _↳ explanation: It has no benefit and causes harm._
+- ◻️ Child marriage is the marriage of someone under 18.
+- ◻️ Early pregnancy can cause fistula.
+- ◻️ FGM can spread infections.
+
+Full working after a second miss:
+
+> The wrong statement is “FGM has health benefits for girls.”.  
+> It has no benefit and causes harm.  
+
+> Which statement is wrong?
+
+- ✅ Early marriage protects girls' health.  
+  _↳ explanation: Early pregnancy endangers their health._
+- ◻️ FGM can spread infections.
+- ◻️ Early pregnancy can cause fistula.
+- ◻️ Child marriage is the marriage of someone under 18.
+
+Full working after a second miss:
+
+> The wrong statement is “Early marriage protects girls' health.”.  
+> Early pregnancy endangers their health.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-44-fgm-card` · Lesson 44 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a consequence of female genital mutilation? | severe bleeding and infection | better health · easier childbirth · protection from disease | It harms health. · It makes childbirth harder. · It can spread infections. | It has no health benefit and causes harm. |
+| What does the law in Cameroon say about FGM? | It is forbidden. | It is required. · It is allowed for all girls. · It is a medical treatment. | It is not required. · It is forbidden. · It has no medical purpose. | FGM is a crime. |
+| A girl fears she will be cut or married early. Who can she tell? | a teacher, health worker or social worker | nobody · only the person planning it · a stranger online | Help is available. · That will not protect her. · That is not safe. | Trusted adults can protect her. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does the law in Cameroon say about FGM?
+
+- ◻️ It is a medical treatment.  
+  _↳ feedback if chosen: It has no medical purpose._
+- ✅ It is forbidden.
+- ◻️ It is allowed for all girls.  
+  _↳ feedback if chosen: It is forbidden._
+- ◻️ It is required.  
+  _↳ feedback if chosen: It is not required._
+
+Full working after a second miss:
+
+> FGM is a crime.  
+> So the answer is “It is forbidden.”.  
+
+> A girl fears she will be cut or married early. Who can she tell?
+
+- ✅ a teacher, health worker or social worker
+- ◻️ a stranger online  
+  _↳ feedback if chosen: That is not safe._
+- ◻️ nobody  
+  _↳ feedback if chosen: Help is available._
+- ◻️ only the person planning it  
+  _↳ feedback if chosen: That will not protect her._
+
+Full working after a second miss:
+
+> Trusted adults can protect her.  
+> So the answer is “a teacher, health worker or social worker”.  
+
+> What does the law in Cameroon say about FGM?
+
+- ✅ It is forbidden.
+- ◻️ It is required.  
+  _↳ feedback if chosen: It is not required._
+- ◻️ It is a medical treatment.  
+  _↳ feedback if chosen: It has no medical purpose._
+- ◻️ It is allowed for all girls.  
+  _↳ feedback if chosen: It is forbidden._
+
+Full working after a second miss:
+
+> FGM is a crime.  
+> So the answer is “It is forbidden.”.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-45-iron` · Lesson 45 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is breast ironing? | pressing a girl's growing breasts with hot objects | ironing clothes for school · a breast examination by a doctor · a kind of exercise | It is a harmful practice on girls. · Doctors do not do this. · It is not exercise. | It is meant to stop breasts growing. |
+| Which is a consequence of breast ironing? | burns and infections | stronger bones · better marks · protection from disease | It does not help bones. · It does not help school work. · It can cause infection. | It harms the girl's body and mind. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is breast ironing?
+
+- ◻️ a kind of exercise  
+  _↳ feedback if chosen: It is not exercise._
+- ◻️ ironing clothes for school  
+  _↳ feedback if chosen: It is a harmful practice on girls._
+- ◻️ a breast examination by a doctor  
+  _↳ feedback if chosen: Doctors do not do this._
+- ✅ pressing a girl's growing breasts with hot objects
+
+Full working after a second miss:
+
+> It is meant to stop breasts growing.  
+> So the answer is “pressing a girl's growing breasts with hot objects”.  
+
+> What is breast ironing?
+
+- ✅ pressing a girl's growing breasts with hot objects
+- ◻️ a breast examination by a doctor  
+  _↳ feedback if chosen: Doctors do not do this._
+- ◻️ ironing clothes for school  
+  _↳ feedback if chosen: It is a harmful practice on girls._
+- ◻️ a kind of exercise  
+  _↳ feedback if chosen: It is not exercise._
+
+Full working after a second miss:
+
+> It is meant to stop breasts growing.  
+> So the answer is “pressing a girl's growing breasts with hot objects”.  
+
+> What is breast ironing?
+
+- ◻️ a kind of exercise  
+  _↳ feedback if chosen: It is not exercise._
+- ◻️ ironing clothes for school  
+  _↳ feedback if chosen: It is a harmful practice on girls._
+- ✅ pressing a girl's growing breasts with hot objects
+- ◻️ a breast examination by a doctor  
+  _↳ feedback if chosen: Doctors do not do this._
+
+Full working after a second miss:
+
+> It is meant to stop breasts growing.  
+> So the answer is “pressing a girl's growing breasts with hot objects”.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-45-myth` · Lesson 45 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Does breast ironing prevent pregnancy? | No. | Yes, always. · Yes, for a year. · Yes, if done every day. | It has no effect on pregnancy. · It has no effect on pregnancy. · Repeating it only causes more harm. | It only harms the girl. |
+| What really helps protect girls from early pregnancy? | education and open talk with parents | breast ironing · early marriage · keeping them out of school | It does not work and causes harm. · That causes early pregnancy. · Education protects them. | Knowledge and support protect girls. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Does breast ironing prevent pregnancy?
+
+- ◻️ Yes, for a year.  
+  _↳ feedback if chosen: It has no effect on pregnancy._
+- ✅ No.
+- ◻️ Yes, if done every day.  
+  _↳ feedback if chosen: Repeating it only causes more harm._
+- ◻️ Yes, always.  
+  _↳ feedback if chosen: It has no effect on pregnancy._
+
+Full working after a second miss:
+
+> It only harms the girl.  
+> So the answer is “No.”.  
+
+> What really helps protect girls from early pregnancy?
+
+- ◻️ keeping them out of school  
+  _↳ feedback if chosen: Education protects them._
+- ✅ education and open talk with parents
+- ◻️ early marriage  
+  _↳ feedback if chosen: That causes early pregnancy._
+- ◻️ breast ironing  
+  _↳ feedback if chosen: It does not work and causes harm._
+
+Full working after a second miss:
+
+> Knowledge and support protect girls.  
+> So the answer is “education and open talk with parents”.  
+
+> Does breast ironing prevent pregnancy?
+
+- ◻️ Yes, if done every day.  
+  _↳ feedback if chosen: Repeating it only causes more harm._
+- ◻️ Yes, always.  
+  _↳ feedback if chosen: It has no effect on pregnancy._
+- ✅ No.
+- ◻️ Yes, for a year.  
+  _↳ feedback if chosen: It has no effect on pregnancy._
+
+Full working after a second miss:
+
+> It only harms the girl.  
+> So the answer is “No.”.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-45-abort` · Lesson 45 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a danger of unsafe abortion? | severe bleeding and infection | stronger muscles · better sleep · more energy | That is not an effect. · That is not an effect. · That is not an effect. | Unsafe abortion can kill. |
+| Why is unsafe abortion so dangerous? | It is done by untrained people or with dangerous methods. | It is done in hospitals by doctors. · It is a kind of exercise. · It uses clean tools always. | That would be safer care. · It is not exercise. · Tools are often dirty. | Lack of skill and hygiene causes injury and infection. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a danger of unsafe abortion?
+
+- ◻️ better sleep  
+  _↳ feedback if chosen: That is not an effect._
+- ◻️ more energy  
+  _↳ feedback if chosen: That is not an effect._
+- ◻️ stronger muscles  
+  _↳ feedback if chosen: That is not an effect._
+- ✅ severe bleeding and infection
+
+Full working after a second miss:
+
+> Unsafe abortion can kill.  
+> So the answer is “severe bleeding and infection”.  
+
+> Which is a danger of unsafe abortion?
+
+- ◻️ better sleep  
+  _↳ feedback if chosen: That is not an effect._
+- ◻️ more energy  
+  _↳ feedback if chosen: That is not an effect._
+- ◻️ stronger muscles  
+  _↳ feedback if chosen: That is not an effect._
+- ✅ severe bleeding and infection
+
+Full working after a second miss:
+
+> Unsafe abortion can kill.  
+> So the answer is “severe bleeding and infection”.  
+
+> Why is unsafe abortion so dangerous?
+
+- ◻️ It is a kind of exercise.  
+  _↳ feedback if chosen: It is not exercise._
+- ✅ It is done by untrained people or with dangerous methods.
+- ◻️ It is done in hospitals by doctors.  
+  _↳ feedback if chosen: That would be safer care._
+- ◻️ It uses clean tools always.  
+  _↳ feedback if chosen: Tools are often dirty._
+
+Full working after a second miss:
+
+> Lack of skill and hygiene causes injury and infection.  
+> So the answer is “It is done by untrained people or with dangerous methods.”.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-45-spot` · Lesson 45 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Breast ironing causes pain and burns.
+- ✅ Unsafe abortion can cause death.
+- ✅ Education helps prevent early pregnancy.
+- ✅ Girls at risk can tell a health worker.
+- ❌ Breast ironing protects girls from pregnancy.  
+  _↳ It does not prevent pregnancy._
+- ❌ Unsafe abortion has no health risks.  
+  _↳ It can cause bleeding, infection, infertility and death._
+- ❌ Breast ironing is a health treatment.  
+  _↳ It is a harmful practice with no health benefit._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Breast ironing protects girls from pregnancy.  
+  _↳ explanation: It does not prevent pregnancy._
+- ◻️ Girls at risk can tell a health worker.
+- ◻️ Education helps prevent early pregnancy.
+- ◻️ Breast ironing causes pain and burns.
+
+Full working after a second miss:
+
+> The wrong statement is “Breast ironing protects girls from pregnancy.”.  
+> It does not prevent pregnancy.  
+
+> Which statement is wrong?
+
+- ✅ Breast ironing is a health treatment.  
+  _↳ explanation: It is a harmful practice with no health benefit._
+- ◻️ Girls at risk can tell a health worker.
+- ◻️ Education helps prevent early pregnancy.
+- ◻️ Unsafe abortion can cause death.
+
+Full working after a second miss:
+
+> The wrong statement is “Breast ironing is a health treatment.”.  
+> It is a harmful practice with no health benefit.  
+
+> Which statement is wrong?
+
+- ✅ Breast ironing is a health treatment.  
+  _↳ explanation: It is a harmful practice with no health benefit._
+- ◻️ Breast ironing causes pain and burns.
+- ◻️ Unsafe abortion can cause death.
+- ◻️ Girls at risk can tell a health worker.
+
+Full working after a second miss:
+
+> The wrong statement is “Breast ironing is a health treatment.”.  
+> It is a harmful practice with no health benefit.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-45-abort-card` · Lesson 45 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a danger of unsafe abortion? | severe bleeding and infection | stronger muscles · better sleep · more energy | That is not an effect. · That is not an effect. · That is not an effect. | Unsafe abortion can kill. |
+| Why is unsafe abortion so dangerous? | It is done by untrained people or with dangerous methods. | It is done in hospitals by doctors. · It is a kind of exercise. · It uses clean tools always. | That would be safer care. · It is not exercise. · Tools are often dirty. | Lack of skill and hygiene causes injury and infection. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is unsafe abortion so dangerous?
+
+- ✅ It is done by untrained people or with dangerous methods.
+- ◻️ It is done in hospitals by doctors.  
+  _↳ feedback if chosen: That would be safer care._
+- ◻️ It uses clean tools always.  
+  _↳ feedback if chosen: Tools are often dirty._
+- ◻️ It is a kind of exercise.  
+  _↳ feedback if chosen: It is not exercise._
+
+Full working after a second miss:
+
+> Lack of skill and hygiene causes injury and infection.  
+> So the answer is “It is done by untrained people or with dangerous methods.”.  
+
+> Which is a danger of unsafe abortion?
+
+- ✅ severe bleeding and infection
+- ◻️ better sleep  
+  _↳ feedback if chosen: That is not an effect._
+- ◻️ more energy  
+  _↳ feedback if chosen: That is not an effect._
+- ◻️ stronger muscles  
+  _↳ feedback if chosen: That is not an effect._
+
+Full working after a second miss:
+
+> Unsafe abortion can kill.  
+> So the answer is “severe bleeding and infection”.  
+
+> Which is a danger of unsafe abortion?
+
+- ◻️ more energy  
+  _↳ feedback if chosen: That is not an effect._
+- ✅ severe bleeding and infection
+- ◻️ stronger muscles  
+  _↳ feedback if chosen: That is not an effect._
+- ◻️ better sleep  
+  _↳ feedback if chosen: That is not an effect._
+
+Full working after a second miss:
+
+> Unsafe abortion can kill.  
+> So the answer is “severe bleeding and infection”.  
+
+Sources: reproductive-health (Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion)
+
+### `b2-46-what` · Lesson 46 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is global warming? | a rise in the Earth's average temperature | a cold rainy day · a fall in sea level · the warming of food | One day is weather, not climate. · Sea levels are rising. · That is cooking. | The Earth is getting warmer on average. |
+| Which is a greenhouse gas? | carbon dioxide | oxygen · nitrogen · argon | Oxygen does not trap much heat. · Nitrogen does not trap much heat. · Argon does not trap heat. | Carbon dioxide traps heat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a greenhouse gas?
+
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen does not trap much heat._
+- ✅ carbon dioxide
+- ◻️ oxygen  
+  _↳ feedback if chosen: Oxygen does not trap much heat._
+- ◻️ argon  
+  _↳ feedback if chosen: Argon does not trap heat._
+
+Full working after a second miss:
+
+> Carbon dioxide traps heat.  
+> So the answer is “carbon dioxide”.  
+
+> Which is a greenhouse gas?
+
+- ◻️ argon  
+  _↳ feedback if chosen: Argon does not trap heat._
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen does not trap much heat._
+- ◻️ oxygen  
+  _↳ feedback if chosen: Oxygen does not trap much heat._
+- ✅ carbon dioxide
+
+Full working after a second miss:
+
+> Carbon dioxide traps heat.  
+> So the answer is “carbon dioxide”.  
+
+> What is global warming?
+
+- ◻️ the warming of food  
+  _↳ feedback if chosen: That is cooking._
+- ✅ a rise in the Earth's average temperature
+- ◻️ a cold rainy day  
+  _↳ feedback if chosen: One day is weather, not climate._
+- ◻️ a fall in sea level  
+  _↳ feedback if chosen: Sea levels are rising._
+
+Full working after a second miss:
+
+> The Earth is getting warmer on average.  
+> So the answer is “a rise in the Earth's average temperature”.  
+
+Sources: climate (The greenhouse effect, global warming and climate change: causes, effects (Sahel droughts, Lake Chad) and prevention)
+
+### `b2-46-cause` · Lesson 46 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which human activity adds most carbon dioxide to the air? | burning fossil fuels | planting trees · using solar panels · walking | Trees take in carbon dioxide. · Solar power gives none. · Walking gives very little. | Petrol, diesel and coal give carbon dioxide. |
+| Why does deforestation add to global warming? | Fewer trees take in carbon dioxide. | Trees give out heat. · Trees make methane. · Trees cool the sun. | That is not the reason. · That is not the main reason. · That is not true. | Trees remove carbon dioxide by photosynthesis. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which human activity adds most carbon dioxide to the air?
+
+- ◻️ walking  
+  _↳ feedback if chosen: Walking gives very little._
+- ◻️ planting trees  
+  _↳ feedback if chosen: Trees take in carbon dioxide._
+- ◻️ using solar panels  
+  _↳ feedback if chosen: Solar power gives none._
+- ✅ burning fossil fuels
+
+Full working after a second miss:
+
+> Petrol, diesel and coal give carbon dioxide.  
+> So the answer is “burning fossil fuels”.  
+
+> Why does deforestation add to global warming?
+
+- ✅ Fewer trees take in carbon dioxide.
+- ◻️ Trees make methane.  
+  _↳ feedback if chosen: That is not the main reason._
+- ◻️ Trees cool the sun.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Trees give out heat.  
+  _↳ feedback if chosen: That is not the reason._
+
+Full working after a second miss:
+
+> Trees remove carbon dioxide by photosynthesis.  
+> So the answer is “Fewer trees take in carbon dioxide.”.  
+
+> Why does deforestation add to global warming?
+
+- ✅ Fewer trees take in carbon dioxide.
+- ◻️ Trees give out heat.  
+  _↳ feedback if chosen: That is not the reason._
+- ◻️ Trees cool the sun.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Trees make methane.  
+  _↳ feedback if chosen: That is not the main reason._
+
+Full working after a second miss:
+
+> Trees remove carbon dioxide by photosynthesis.  
+> So the answer is “Fewer trees take in carbon dioxide.”.  
+
+Sources: climate (The greenhouse effect, global warming and climate change: causes, effects (Sahel droughts, Lake Chad) and prevention)
+
+### `b2-46-prevent` · Lesson 46 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an effect of climate change in northern Cameroon? | longer droughts and a shrinking Lake Chad | more snow · colder harmattan for ever · more forests | There is no snow. · It is getting hotter. · Forests are being lost. | Hotter, drier conditions. |
+| Which action helps to fight climate change? | planting trees | starting bush fires · burning plastic · leaving lights on | Fires release carbon dioxide. · Burning adds gases and smoke. · That wastes energy. | Trees take in carbon dioxide. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which action helps to fight climate change?
+
+- ◻️ starting bush fires  
+  _↳ feedback if chosen: Fires release carbon dioxide._
+- ◻️ burning plastic  
+  _↳ feedback if chosen: Burning adds gases and smoke._
+- ✅ planting trees
+- ◻️ leaving lights on  
+  _↳ feedback if chosen: That wastes energy._
+
+Full working after a second miss:
+
+> Trees take in carbon dioxide.  
+> So the answer is “planting trees”.  
+
+> Which is an effect of climate change in northern Cameroon?
+
+- ◻️ colder harmattan for ever  
+  _↳ feedback if chosen: It is getting hotter._
+- ✅ longer droughts and a shrinking Lake Chad
+- ◻️ more forests  
+  _↳ feedback if chosen: Forests are being lost._
+- ◻️ more snow  
+  _↳ feedback if chosen: There is no snow._
+
+Full working after a second miss:
+
+> Hotter, drier conditions.  
+> So the answer is “longer droughts and a shrinking Lake Chad”.  
+
+> Which action helps to fight climate change?
+
+- ◻️ burning plastic  
+  _↳ feedback if chosen: Burning adds gases and smoke._
+- ✅ planting trees
+- ◻️ starting bush fires  
+  _↳ feedback if chosen: Fires release carbon dioxide._
+- ◻️ leaving lights on  
+  _↳ feedback if chosen: That wastes energy._
+
+Full working after a second miss:
+
+> Trees take in carbon dioxide.  
+> So the answer is “planting trees”.  
+
+Sources: climate (The greenhouse effect, global warming and climate change: causes, effects (Sahel droughts, Lake Chad) and prevention)
+
+### `b2-46-spot` · Lesson 46 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Burning fossil fuels causes global warming.
+- ✅ Planting trees helps fight climate change.
+- ✅ Climate change can cause floods.
+- ✅ Methane is a greenhouse gas.
+- ❌ Bush fires reduce global warming.  
+  _↳ They release carbon dioxide._
+- ❌ Climate change has no effect on farming.  
+  _↳ It causes crop failure and hunger._
+- ❌ Oxygen is the main greenhouse gas.  
+  _↳ Carbon dioxide, methane and water vapour are greenhouse gases._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Burning fossil fuels causes global warming.
+- ◻️ Climate change can cause floods.
+- ✅ Oxygen is the main greenhouse gas.  
+  _↳ explanation: Carbon dioxide, methane and water vapour are greenhouse gases._
+- ◻️ Methane is a greenhouse gas.
+
+Full working after a second miss:
+
+> The wrong statement is “Oxygen is the main greenhouse gas.”.  
+> Carbon dioxide, methane and water vapour are greenhouse gases.  
+
+> Which statement is wrong?
+
+- ◻️ Planting trees helps fight climate change.
+- ◻️ Methane is a greenhouse gas.
+- ◻️ Climate change can cause floods.
+- ✅ Oxygen is the main greenhouse gas.  
+  _↳ explanation: Carbon dioxide, methane and water vapour are greenhouse gases._
+
+Full working after a second miss:
+
+> The wrong statement is “Oxygen is the main greenhouse gas.”.  
+> Carbon dioxide, methane and water vapour are greenhouse gases.  
+
+> Which statement is wrong?
+
+- ◻️ Methane is a greenhouse gas.
+- ◻️ Climate change can cause floods.
+- ◻️ Burning fossil fuels causes global warming.
+- ✅ Bush fires reduce global warming.  
+  _↳ explanation: They release carbon dioxide._
+
+Full working after a second miss:
+
+> The wrong statement is “Bush fires reduce global warming.”.  
+> They release carbon dioxide.  
+
+Sources: climate (The greenhouse effect, global warming and climate change: causes, effects (Sahel droughts, Lake Chad) and prevention)
+
+### `b2-46-prevent-card` · Lesson 46 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an effect of climate change in northern Cameroon? | longer droughts and a shrinking Lake Chad | more snow · colder harmattan for ever · more forests | There is no snow. · It is getting hotter. · Forests are being lost. | Hotter, drier conditions. |
+| Which action helps to fight climate change? | planting trees | starting bush fires · burning plastic · leaving lights on | Fires release carbon dioxide. · Burning adds gases and smoke. · That wastes energy. | Trees take in carbon dioxide. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which action helps to fight climate change?
+
+- ◻️ leaving lights on  
+  _↳ feedback if chosen: That wastes energy._
+- ◻️ starting bush fires  
+  _↳ feedback if chosen: Fires release carbon dioxide._
+- ✅ planting trees
+- ◻️ burning plastic  
+  _↳ feedback if chosen: Burning adds gases and smoke._
+
+Full working after a second miss:
+
+> Trees take in carbon dioxide.  
+> So the answer is “planting trees”.  
+
+> Which is an effect of climate change in northern Cameroon?
+
+- ◻️ more snow  
+  _↳ feedback if chosen: There is no snow._
+- ◻️ colder harmattan for ever  
+  _↳ feedback if chosen: It is getting hotter._
+- ✅ longer droughts and a shrinking Lake Chad
+- ◻️ more forests  
+  _↳ feedback if chosen: Forests are being lost._
+
+Full working after a second miss:
+
+> Hotter, drier conditions.  
+> So the answer is “longer droughts and a shrinking Lake Chad”.  
+
+> Which action helps to fight climate change?
+
+- ◻️ leaving lights on  
+  _↳ feedback if chosen: That wastes energy._
+- ✅ planting trees
+- ◻️ burning plastic  
+  _↳ feedback if chosen: Burning adds gases and smoke._
+- ◻️ starting bush fires  
+  _↳ feedback if chosen: Fires release carbon dioxide._
+
+Full working after a second miss:
+
+> Trees take in carbon dioxide.  
+> So the answer is “planting trees”.  
+
+Sources: climate (The greenhouse effect, global warming and climate change: causes, effects (Sahel droughts, Lake Chad) and prevention)
 

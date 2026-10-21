@@ -1,7 +1,48 @@
 {
-  "_note": "Sources for Form 2 Biology (Batch B2-1, Term 1). The answers are authored facts: a Biology teacher must check them.",
-  "plant-reproduction": {"ref": "Asexual and sexual reproduction in flowering plants; natural and artificial vegetative propagation (as in Cameroonian Form 2 biology textbooks)", "supports": "Examples of natural organs (bulb, corm, rhizome, stem and root tubers, suckers, leaf plantlets) and artificial methods (cuttings, grafting, budding, layering, marcotting, tissue culture); advantages and disadvantages; the two practicals.", "checked": "General knowledge, not externally sourced: please check the examples, especially the crops named for each method."},
-  "flower": {"ref": "Structure of a flower and pollination (insect and wind pollination)", "supports": "Parts of the flower and their functions; the drawing's eight lettered parts (flower() in science2.js); self- and cross-pollination; features of insect- and wind-pollinated flowers; the dissection practical and the rules of biological drawing.", "checked": "Standard textbook content; the drawing and the item banks are authored: please check them."},
-  "seeds": {"ref": "Fertilisation, the seed, dispersal and germination in flowering plants", "supports": "Pollen tube and fusion of nuclei; fate of the flower parts; bean seed structure (beanSeed() drawing); monocots and dicots; agents and adaptations of dispersal with local examples; conditions and types of germination (bean epigeal; maize, pea and mango hypogeal); the two germination practicals.", "checked": "Standard textbook content; examples (mango hypogeal, pawpaw epigeal, Combretum winged fruits) from general knowledge: please check them."},
-  "plant-pests": {"ref": "Crop pests and diseases in Cameroon and their control (biological and chemical); safe use of pesticides", "supports": "Pests (aphids, locusts, weevils, rats); diseases (cocoa black pod: fungus; cassava mosaic: virus spread by whiteflies; maize streak: virus spread by leafhoppers); prevention; kinds of pesticides; safety rules.", "checked": "General knowledge, not opened in this session: please check the causes and carriers named."}
+ "_note": "Sources for Form 2 Biology (Batches B2-1 and B2-2, Terms 1 and 2). The answers are authored facts: a Biology teacher must check them.",
+ "plant-reproduction": {
+  "ref": "Asexual and sexual reproduction in flowering plants; natural and artificial vegetative propagation (as in Cameroonian Form 2 biology textbooks)",
+  "supports": "Examples of natural organs (bulb, corm, rhizome, stem and root tubers, suckers, leaf plantlets) and artificial methods (cuttings, grafting, budding, layering, marcotting, tissue culture); advantages and disadvantages; the two practicals.",
+  "checked": "General knowledge, not externally sourced: please check the examples, especially the crops named for each method."
+ },
+ "flower": {
+  "ref": "Structure of a flower and pollination (insect and wind pollination)",
+  "supports": "Parts of the flower and their functions; the drawing's eight lettered parts (flower() in science2.js); self- and cross-pollination; features of insect- and wind-pollinated flowers; the dissection practical and the rules of biological drawing.",
+  "checked": "Standard textbook content; the drawing and the item banks are authored: please check them."
+ },
+ "seeds": {
+  "ref": "Fertilisation, the seed, dispersal and germination in flowering plants",
+  "supports": "Pollen tube and fusion of nuclei; fate of the flower parts; bean seed structure (beanSeed() drawing); monocots and dicots; agents and adaptations of dispersal with local examples; conditions and types of germination (bean epigeal; maize, pea and mango hypogeal); the two germination practicals.",
+  "checked": "Standard textbook content; examples (mango hypogeal, pawpaw epigeal, Combretum winged fruits) from general knowledge: please check them."
+ },
+ "plant-pests": {
+  "ref": "Crop pests and diseases in Cameroon and their control (biological and chemical); safe use of pesticides",
+  "supports": "Pests (aphids, locusts, weevils, rats); diseases (cocoa black pod: fungus; cassava mosaic: virus spread by whiteflies; maize streak: virus spread by leafhoppers); prevention; kinds of pesticides; safety rules.",
+  "checked": "General knowledge, not opened in this session: please check the causes and carriers named."
+ },
+ "food-transformation": {
+  "ref": "Transformation, preservation and preparation of foodstuffs (cassava, maize, millet, milk); yoghurt making with lactic acid bacteria; methods of preservation and cooking",
+  "supports": "Products (garri, bobolo, water fufu, corn fufu, pap, bouillie, bil-bil, yoghurt, butter, wagashi) and their main steps; preservation by drying, smoking, salting, sugaring, cooling, pasteurising, canning, pickling.",
+  "checked": "General knowledge of Cameroonian foods (not opened in this session): please check the local names and steps."
+ },
+ "nutrition-health": {
+  "ref": "Nutrition-related diseases (kwashiorkor, marasmus, anaemia, goitre, night blindness, obesity); Body Mass Index with the WHO adult classes; energy values of food; balanced diet; solid waste management (avoid, reduce, reuse, recycle, compost, incinerate)",
+  "supports": "BMI = mass ÷ height² to one decimal place (science2.js bmi, bmiClass: 18.5, 25, 30); energy = mass × kJ per gram (fat 37, carbohydrate and protein 17); heat to water = mass × 4.2 × rise (heatToWater).",
+  "checked": "WHO BMI classes and energy values are standard; computed by code and tested."
+ },
+ "physical-social-health": {
+  "ref": "Exercise and rest; drug abuse: alcohol, cigarette smoking (nicotine, tar, carbon monoxide, passive smoking), marijuana and tramadol",
+  "supports": "Health and social effects; about one hour of activity a day and 8–10 hours of sleep for teenagers; refusal skills and sources of help.",
+  "checked": "Authored from general health education: please check the advice and the statements on the law (tobacco to minors, smoking in public places, marijuana)."
+ },
+ "reproductive-health": {
+  "ref": "Practices harmful to reproductive health: early marriage, female genital mutilation, breast ironing, induced (unsafe) abortion",
+  "supports": "Definitions, causes and consequences; sources of help for girls at risk.",
+  "checked": "Authored; the legal statements (FGM forbidden; abortion illegal except in limited cases; protection from forced marriage) are from general knowledge and must be checked against the Cameroon Penal Code (2016)."
+ },
+ "climate": {
+  "ref": "The greenhouse effect, global warming and climate change: causes, effects (Sahel droughts, Lake Chad) and prevention",
+  "supports": "Greenhouse gases (CO₂, methane, nitrous oxide, water vapour); human causes; effects; actions.",
+  "checked": "Standard results; please check the examples from Cameroon."
+ }
 }

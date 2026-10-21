@@ -1,0 +1,443 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 39,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b2-39",
+   "name": "Exercise and the body"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Exercise is physical activity that makes the body work harder than at rest: running, football, dancing, swimming, skipping, farm work, walking to school.\nImportance:\n• strengthens the heart and lungs, so blood and oxygen reach the body better;\n• builds strong muscles and bones and keeps joints flexible;\n• uses energy and helps prevent obesity, diabetes and high blood pressure;\n• improves sleep, mood and concentration; reduces stress;\n• team sports build friendship and discipline.\nTeenagers should be active for about one hour a day.\nExercise safely: warm up first and cool down after, drink water, wear suitable shoes, rest when tired or ill, and increase slowly.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "walk to school every day"
+  },
+  "problem": "Give two benefits for a pupil who decides to {a}.",
+  "steps": [
+   "Walking makes the heart and lungs work, so they get stronger.",
+   "It uses energy, which helps keep a healthy weight."
+  ],
+  "answer": "A stronger heart and lungs, and a healthy weight.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c39-1",
+    "status": "draft",
+    "idea": "Exercise is physical activity that makes the body work harder than at rest.",
+    "vars": {},
+    "example": [
+     "Football, dancing, skipping.",
+     "Farm work and walking count too."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-39-what"
+    }
+   },
+   {
+    "id": "c39-2",
+    "status": "draft",
+    "idea": "Exercise strengthens the heart, lungs, muscles and bones, and helps prevent obesity.",
+    "vars": {},
+    "example": [
+     "The heart pumps more blood with each beat.",
+     "It uses energy."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-39-good"
+    }
+   },
+   {
+    "id": "c39-3",
+    "status": "draft",
+    "idea": "Warm up first, cool down after, drink water and increase exercise slowly.",
+    "vars": {},
+    "example": [
+     "Stretch before running.",
+     "Rest when you are ill."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-39-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "physical-social-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should you warm up before running?",
+         "r": "to prepare the muscles and avoid injury",
+         "w": [
+          "to get tired faster",
+          "to make the muscles cold",
+          "to stop sweating"
+         ],
+         "e": [
+          "That is not the aim.",
+          "Warming up warms the muscles.",
+          "That is not why."
+         ],
+         "y": "Warm muscles are less easily injured."
+        },
+        {
+         "q": "What should you do during long exercise in the hot season?",
+         "r": "drink water",
+         "w": [
+          "drink no water",
+          "wear heavy clothes",
+          "run faster and faster"
+         ],
+         "e": [
+          "You lose water by sweating.",
+          "That makes you overheat.",
+          "That is unsafe."
+         ],
+         "y": "Replace the water lost in sweat."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-39-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is exercise?",
+       "r": "skipping rope",
+       "w": [
+        "watching television",
+        "sleeping",
+        "sitting in class"
+       ],
+       "e": [
+        "The body is at rest.",
+        "That is rest.",
+        "The body is at rest."
+       ],
+       "y": "Skipping makes the body work hard."
+      },
+      {
+       "q": "About how long should teenagers be active each day?",
+       "r": "about one hour",
+       "w": [
+        "about one minute",
+        "about ten hours",
+        "never"
+       ],
+       "e": [
+        "That is far too little.",
+        "That is too much and leaves no rest.",
+        "Exercise is needed."
+       ],
+       "y": "About an hour a day."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-39-good",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does regular exercise do to the heart?",
+       "r": "It makes it stronger.",
+       "w": [
+        "It makes it weaker.",
+        "It stops it.",
+        "It makes it smaller and slower to work."
+       ],
+       "e": [
+        "Exercise strengthens it.",
+        "The heart keeps beating.",
+        "That is not true."
+       ],
+       "y": "The heart muscle gets stronger."
+      },
+      {
+       "q": "Which disease does exercise help to prevent?",
+       "r": "obesity",
+       "w": [
+        "goitre",
+        "cholera",
+        "malaria"
+       ],
+       "e": [
+        "Goitre is from lack of iodine.",
+        "Cholera is from dirty water.",
+        "Malaria is spread by mosquitoes."
+       ],
+       "y": "Exercise uses energy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-39-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should you warm up before running?",
+       "r": "to prepare the muscles and avoid injury",
+       "w": [
+        "to get tired faster",
+        "to make the muscles cold",
+        "to stop sweating"
+       ],
+       "e": [
+        "That is not the aim.",
+        "Warming up warms the muscles.",
+        "That is not why."
+       ],
+       "y": "Warm muscles are less easily injured."
+      },
+      {
+       "q": "What should you do during long exercise in the hot season?",
+       "r": "drink water",
+       "w": [
+        "drink no water",
+        "wear heavy clothes",
+        "run faster and faster"
+       ],
+       "e": [
+        "You lose water by sweating.",
+        "That makes you overheat.",
+        "That is unsafe."
+       ],
+       "y": "Replace the water lost in sweat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-39-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Exercise strengthens bones.",
+      "truth": "true"
+     },
+     {
+      "text": "Exercise improves sleep.",
+      "truth": "true"
+     },
+     {
+      "text": "Warm up before exercise.",
+      "truth": "true"
+     },
+     {
+      "text": "Team sports build friendship.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "You should exercise hard when you have a fever.",
+      "truth": "false",
+      "explain": "Rest when you are ill."
+     },
+     {
+      "text": "Exercise makes the heart weaker.",
+      "truth": "false",
+      "explain": "Exercise makes it stronger."
+     },
+     {
+      "text": "Only athletes need exercise.",
+      "truth": "false",
+      "explain": "Everyone needs exercise for health."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

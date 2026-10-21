@@ -1,0 +1,475 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [
+  32
+ ],
+ "skills": [
+  {
+   "id": "b2-33",
+   "name": "Healthy eating habits"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A balanced diet contains all the food classes in the right amounts: carbohydrates (energy), proteins (growth and repair), fats (energy, warmth), vitamins and mineral salts (protection), fibre (roughage, against constipation) and water.\nHealthy habits:\n• eat three regular meals and never skip breakfast;\n• eat fruit and vegetables every day;\n• choose whole grains (brown rice, whole maize) and beans;\n• limit sugar, salt, fried and fatty foods and sweet drinks;\n• drink plenty of clean water;\n• do not overeat; eat slowly;\n• wash hands before eating;\n• eat local foods that are fresh and cheap: ndolé, beans, plantain, eru, fish, fruits in season.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "rice and fried plantain only"
+  },
+  "problem": "A pupil's lunch is {m}. Is it balanced? How can it be improved?",
+  "steps": [
+   "Rice and plantain are mostly carbohydrate; frying adds fat.",
+   "There is no protein and few vitamins or fibre."
+  ],
+  "answer": "Not balanced: add beans or fish (protein) and vegetables or fruit (vitamins, fibre).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c33-1",
+    "status": "draft",
+    "idea": "A balanced diet has all the food classes in the right amounts.",
+    "vars": {},
+    "example": [
+     "Carbohydrates, proteins, fats, vitamins, minerals, fibre, water.",
+     "Beans and fish give protein."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-33-class"
+    }
+   },
+   {
+    "id": "c33-2",
+    "status": "draft",
+    "idea": "Eat regular meals with fruit and vegetables; limit sugar, salt and fried food.",
+    "vars": {},
+    "example": [
+     "Never skip breakfast.",
+     "Drink water instead of soda."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-33-habit"
+    }
+   },
+   {
+    "id": "c33-3",
+    "status": "draft",
+    "idea": "Fibre (roughage) prevents constipation; vitamins and minerals protect the body.",
+    "vars": {},
+    "example": [
+     "Fruit, vegetables and whole grains give fibre.",
+     "Oranges give vitamin C."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-33-fibre-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrition-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does fibre (roughage) do in the diet?",
+         "r": "It helps prevent constipation.",
+         "w": [
+          "It builds muscles.",
+          "It gives most of our energy.",
+          "It makes bones strong."
+         ],
+         "e": [
+          "That is protein.",
+          "That is carbohydrate and fat.",
+          "That is calcium."
+         ],
+         "y": "Fibre helps food move through the gut."
+        },
+        {
+         "q": "A lunch is rice and fried plantain. What should be added to balance it?",
+         "r": "beans or fish and some vegetables",
+         "w": [
+          "more rice",
+          "a sweet drink",
+          "more fried plantain"
+         ],
+         "e": [
+          "More carbohydrate does not balance it.",
+          "That adds sugar only.",
+          "That adds fat and carbohydrate."
+         ],
+         "y": "Add protein, vitamins and fibre."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-33-class",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "beans, fish and eggs",
+       "r": "proteins",
+       "w": [
+        "carbohydrates",
+        "fats",
+        "fibre only"
+       ],
+       "e": [
+        "Carbohydrates are in rice and cassava.",
+        "Fats are in oil and butter.",
+        "Fibre is in fruit and vegetables."
+       ],
+       "y": "Proteins are for growth and repair."
+      },
+      {
+       "q": "rice, cassava and plantain",
+       "r": "carbohydrates",
+       "w": [
+        "proteins",
+        "vitamins",
+        "minerals"
+       ],
+       "e": [
+        "Proteins are in beans and fish.",
+        "Vitamins are in fruit.",
+        "Minerals are in vegetables and salt."
+       ],
+       "y": "Carbohydrates give energy."
+      },
+      {
+       "q": "palm oil and butter",
+       "r": "fats",
+       "w": [
+        "proteins",
+        "vitamins only",
+        "water"
+       ],
+       "e": [
+        "Proteins are in beans and meat.",
+        "They are mainly fat.",
+        "They are not water."
+       ],
+       "y": "Fats give a lot of energy."
+      },
+      {
+       "q": "oranges and mangoes",
+       "r": "vitamins",
+       "w": [
+        "fats",
+        "proteins",
+        "carbohydrates only"
+       ],
+       "e": [
+        "Fruits have little fat.",
+        "Fruits have little protein.",
+        "They also give vitamins."
+       ],
+       "y": "Fruits are rich in vitamins (vitamin C)."
+      }
+     ]
+    }
+   },
+   "prompt": "Which food class is mainly found in {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-33-habit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a healthy eating habit?",
+       "r": "eating fruit and vegetables every day",
+       "w": [
+        "skipping breakfast",
+        "drinking soda with every meal",
+        "eating fried food at every meal"
+       ],
+       "e": [
+        "Breakfast gives energy for the morning.",
+        "Soda has a lot of sugar.",
+        "Too much fat is unhealthy."
+       ],
+       "y": "Fruit and vegetables give vitamins and fibre."
+      },
+      {
+       "q": "What is the best drink with meals?",
+       "r": "clean water",
+       "w": [
+        "sweet soda",
+        "energy drinks",
+        "beer"
+       ],
+       "e": [
+        "Soda has a lot of sugar.",
+        "They have sugar and caffeine.",
+        "Alcohol harms young people."
+       ],
+       "y": "Water has no sugar."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-33-fibre",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does fibre (roughage) do in the diet?",
+       "r": "It helps prevent constipation.",
+       "w": [
+        "It builds muscles.",
+        "It gives most of our energy.",
+        "It makes bones strong."
+       ],
+       "e": [
+        "That is protein.",
+        "That is carbohydrate and fat.",
+        "That is calcium."
+       ],
+       "y": "Fibre helps food move through the gut."
+      },
+      {
+       "q": "A lunch is rice and fried plantain. What should be added to balance it?",
+       "r": "beans or fish and some vegetables",
+       "w": [
+        "more rice",
+        "a sweet drink",
+        "more fried plantain"
+       ],
+       "e": [
+        "More carbohydrate does not balance it.",
+        "That adds sugar only.",
+        "That adds fat and carbohydrate."
+       ],
+       "y": "Add protein, vitamins and fibre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-33-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A balanced diet has all the food classes.",
+      "truth": "true"
+     },
+     {
+      "text": "Fibre helps prevent constipation.",
+      "truth": "true"
+     },
+     {
+      "text": "Drink plenty of clean water.",
+      "truth": "true"
+     },
+     {
+      "text": "Limit sugar, salt and fat.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Skipping breakfast is a healthy habit.",
+      "truth": "false",
+      "explain": "Breakfast gives energy for the school day."
+     },
+     {
+      "text": "A meal of only rice and soda is balanced.",
+      "truth": "false",
+      "explain": "It has no protein, vitamins or fibre."
+     },
+     {
+      "text": "Fried food should be eaten at every meal.",
+      "truth": "false",
+      "explain": "Too much fat leads to obesity and heart disease."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

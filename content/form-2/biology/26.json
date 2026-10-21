@@ -1,0 +1,467 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "b2-26",
+   "name": "Transformation of common foodstuffs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cassava: peel, wash, soak (ferment) for some days, grate, press out the water, then fry or dry → garri; or ferment and cook in leaves → bobolo (miondo), water fufu, kumkum.\nMaize (corn): dry, remove the grains, mill → corn flour for corn fufu (couscous) and pap; soak and ferment → corn chaff, akamu; roast or boil fresh cobs; brew → local beer.\nMillet and sorghum: dry, thresh, winnow, grind → flour for fufu and porridge (bouillie); ferment → bil-bil (local beer).\nMilk: boil or pasteurise to kill germs; add a little yoghurt (lactic acid bacteria) → yoghurt; separate the cream → butter; curdle → cheese (wagashi).\nGood hygiene (clean hands, water and tools) is needed at every step.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "maize"
+  },
+  "problem": "Name two products made from {f} and the main step for each.",
+  "steps": [
+   "Dry grains are milled into flour for corn fufu.",
+   "Grains are soaked and fermented, then ground, to make pap (akamu)."
+  ],
+  "answer": "Corn fufu (milling) and pap (fermenting).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "Cassava is peeled, soaked, grated, pressed and fried to make garri.",
+    "vars": {},
+    "example": [
+     "Bobolo is fermented cassava cooked in leaves.",
+     "Water fufu is also from cassava."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-26-cassava"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "Maize and millet are dried and milled into flour for fufu and porridge, or fermented for pap and local drinks.",
+    "vars": {},
+    "example": [
+     "Corn fufu from maize flour.",
+     "Bouillie from millet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-26-grain"
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "Milk is boiled to kill germs, then turned into yoghurt, butter or cheese.",
+    "vars": {},
+    "example": [
+     "Yoghurt: add lactic acid bacteria.",
+     "Wagashi is a local cheese."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-26-milk-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "food-transformation"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is milk boiled before making yoghurt?",
+         "r": "to kill harmful germs",
+         "w": [
+          "to make it sour",
+          "to add bacteria",
+          "to turn it to cheese"
+         ],
+         "e": [
+          "The bacteria make it sour later.",
+          "Boiling kills bacteria.",
+          "Curdling makes cheese."
+         ],
+         "y": "Boiling (pasteurising) kills germs."
+        },
+        {
+         "q": "What turns milk into yoghurt?",
+         "r": "lactic acid bacteria",
+         "w": [
+          "salt",
+          "yeast in bread",
+          "sunlight"
+         ],
+         "e": [
+          "Salt does not make yoghurt.",
+          "Yeast is used for bread and beer.",
+          "Sunlight does not do it."
+         ],
+         "y": "The bacteria change milk sugar into lactic acid."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-26-cassava",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "garri",
+       "r": "cassava",
+       "w": [
+        "maize",
+        "millet",
+        "milk"
+       ],
+       "e": [
+        "Maize gives corn fufu and pap.",
+        "Millet gives bouillie.",
+        "Milk gives yoghurt."
+       ],
+       "y": "Garri is grated, fried cassava."
+      },
+      {
+       "q": "bobolo (miondo)",
+       "r": "cassava",
+       "w": [
+        "maize",
+        "groundnuts",
+        "milk"
+       ],
+       "e": [
+        "Maize gives corn fufu.",
+        "Groundnuts give oil.",
+        "Milk gives cheese."
+       ],
+       "y": "Bobolo is fermented cassava."
+      },
+      {
+       "q": "pap (akamu)",
+       "r": "maize",
+       "w": [
+        "cassava",
+        "milk",
+        "plantain"
+       ],
+       "e": [
+        "Cassava gives garri.",
+        "Milk gives yoghurt.",
+        "Plantain is eaten boiled or fried."
+       ],
+       "y": "Pap is fermented maize."
+      },
+      {
+       "q": "bouillie (porridge) in the North",
+       "r": "millet",
+       "w": [
+        "milk",
+        "cocoa",
+        "cassava leaves"
+       ],
+       "e": [
+        "Milk may be added, but the flour is millet.",
+        "Cocoa gives chocolate.",
+        "Leaves are a vegetable."
+       ],
+       "y": "Millet flour is cooked into porridge."
+      },
+      {
+       "q": "wagashi (cheese)",
+       "r": "milk",
+       "w": [
+        "maize",
+        "cassava",
+        "millet"
+       ],
+       "e": [
+        "Maize gives flour.",
+        "Cassava gives garri.",
+        "Millet gives flour."
+       ],
+       "y": "Cheese is curdled milk."
+      }
+     ]
+    }
+   },
+   "prompt": "Which foodstuff is {X.q} made from?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-26-grain",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is done to dry maize grains to make corn flour?",
+       "r": "They are milled (ground).",
+       "w": [
+        "They are fried.",
+        "They are boiled in oil.",
+        "They are planted."
+       ],
+       "e": [
+        "Frying is for garri.",
+        "That does not make flour.",
+        "Planting grows new maize."
+       ],
+       "y": "Milling turns grains into flour."
+      },
+      {
+       "q": "Which step removes the chaff from millet?",
+       "r": "winnowing",
+       "w": [
+        "boiling",
+        "fermenting",
+        "pressing"
+       ],
+       "e": [
+        "Boiling cooks it.",
+        "Fermenting changes its taste.",
+        "Pressing removes water (cassava)."
+       ],
+       "y": "The wind blows away the light chaff."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-26-milk",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is milk boiled before making yoghurt?",
+       "r": "to kill harmful germs",
+       "w": [
+        "to make it sour",
+        "to add bacteria",
+        "to turn it to cheese"
+       ],
+       "e": [
+        "The bacteria make it sour later.",
+        "Boiling kills bacteria.",
+        "Curdling makes cheese."
+       ],
+       "y": "Boiling (pasteurising) kills germs."
+      },
+      {
+       "q": "What turns milk into yoghurt?",
+       "r": "lactic acid bacteria",
+       "w": [
+        "salt",
+        "yeast in bread",
+        "sunlight"
+       ],
+       "e": [
+        "Salt does not make yoghurt.",
+        "Yeast is used for bread and beer.",
+        "Sunlight does not do it."
+       ],
+       "y": "The bacteria change milk sugar into lactic acid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-26-order",
+   "type": "ordering",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "prompt": "Put the steps for making garri in order.",
+   "items": [
+    {
+     "text": "Peel and wash the cassava"
+    },
+    {
+     "text": "Soak or ferment it"
+    },
+    {
+     "text": "Grate it"
+    },
+    {
+     "text": "Press out the water"
+    },
+    {
+     "text": "Fry the grated cassava"
+    }
+   ],
+   "order": "as_written"
+  }
+ ]
+}

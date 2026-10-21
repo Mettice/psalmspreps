@@ -1,0 +1,475 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "b2-28",
+   "name": "Food preservation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Food preservation is treating food so that it does not go bad, by stopping the growth of microorganisms (bacteria, moulds) and the action of enzymes.\nMicroorganisms need water, warmth, air and food. Methods remove one of these:\n• drying (sun-drying fish, cocoa, maize, cassava) removes water;\n• smoking (fish, meat) dries and adds chemicals that kill germs;\n• salting and sugaring (salted fish, jam) draw out water;\n• cooling and freezing (fridge, freezer) slow germs;\n• heating: boiling, pasteurising (milk), canning (sealed tins);\n• adding preservatives such as vinegar (pickling).\nImportance: less waste, food available all year, food can be carried far, and it prevents food poisoning.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "fish"
+  },
+  "problem": "How does smoking preserve {f}?",
+  "steps": [
+   "Smoke and heat dry the {f}, removing the water that germs need.",
+   "The smoke also contains chemicals that kill germs."
+  ],
+  "answer": "It removes water and kills germs.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c28-1",
+    "status": "draft",
+    "idea": "Food goes bad because bacteria and moulds grow in it; they need water, warmth, air and food.",
+    "vars": {},
+    "example": [
+     "Bread left out gets mould.",
+     "Fish rots quickly in the heat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-28-why"
+    }
+   },
+   {
+    "id": "c28-2",
+    "status": "draft",
+    "idea": "Drying, smoking and salting remove water; cooling slows germs; heating kills them.",
+    "vars": {},
+    "example": [
+     "Sun-dried maize keeps for months.",
+     "Milk is pasteurised."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-28-method"
+    }
+   },
+   {
+    "id": "c28-3",
+    "status": "draft",
+    "idea": "Preservation reduces waste, gives food all year and prevents food poisoning.",
+    "vars": {},
+    "example": [
+     "Dried fish is sold far from the sea.",
+     "Less food is thrown away."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-28-use-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "food-transformation"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does salting preserve fish?",
+         "r": "Salt draws water out, so germs cannot grow.",
+         "w": [
+          "Salt feeds the germs.",
+          "Salt makes fish warm.",
+          "Salt adds air."
+         ],
+         "e": [
+          "Salt stops them.",
+          "Salt does not warm food.",
+          "It does not add air."
+         ],
+         "y": "Without water, germs cannot grow."
+        },
+        {
+         "q": "Why does a fridge keep food longer?",
+         "r": "The cold slows the growth of germs.",
+         "w": [
+          "The cold kills all germs.",
+          "It adds salt to food.",
+          "It dries food completely."
+         ],
+         "e": [
+          "Cold slows them; it does not kill them all.",
+          "A fridge adds nothing.",
+          "Food in a fridge still has water."
+         ],
+         "y": "Germs grow slowly when cold."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-28-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What makes food go bad?",
+       "r": "the growth of bacteria and moulds",
+       "w": [
+        "too much salt",
+        "cold weather",
+        "drying in the sun"
+       ],
+       "e": [
+        "Salt preserves food.",
+        "Cold slows decay.",
+        "Drying preserves food."
+       ],
+       "y": "Microorganisms spoil food."
+      },
+      {
+       "q": "Which of these do microorganisms need to grow in food?",
+       "r": "water",
+       "w": [
+        "salt",
+        "vinegar",
+        "freezing cold"
+       ],
+       "e": [
+        "Salt draws water out and stops them.",
+        "Vinegar is too acidic for them.",
+        "Freezing stops their growth."
+       ],
+       "y": "Removing water is how drying works."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-28-method",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "for fish hung over a fire",
+       "r": "smoking",
+       "w": [
+        "freezing",
+        "canning",
+        "pickling"
+       ],
+       "e": [
+        "There is no freezer.",
+        "There is no tin.",
+        "There is no vinegar."
+       ],
+       "y": "Smoke and heat dry the fish."
+      },
+      {
+       "q": "for milk heated to about 72 °C for a short time",
+       "r": "pasteurisation",
+       "w": [
+        "salting",
+        "smoking",
+        "drying"
+       ],
+       "e": [
+        "No salt is added.",
+        "No smoke is used.",
+        "The milk stays liquid."
+       ],
+       "y": "Pasteurising kills most germs."
+      },
+      {
+       "q": "for maize grains spread out in the sun",
+       "r": "drying",
+       "w": [
+        "freezing",
+        "canning",
+        "sugaring"
+       ],
+       "e": [
+        "The sun warms, not freezes.",
+        "No tin is used.",
+        "No sugar is added."
+       ],
+       "y": "The sun removes water."
+      },
+      {
+       "q": "for mangoes cooked with a lot of sugar into jam",
+       "r": "sugaring",
+       "w": [
+        "smoking",
+        "freezing",
+        "drying in the sun"
+       ],
+       "e": [
+        "No smoke is used.",
+        "Jam is not frozen.",
+        "The fruit is cooked, not sun-dried."
+       ],
+       "y": "Sugar draws out water."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method of preservation is used {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-28-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does salting preserve fish?",
+       "r": "Salt draws water out, so germs cannot grow.",
+       "w": [
+        "Salt feeds the germs.",
+        "Salt makes fish warm.",
+        "Salt adds air."
+       ],
+       "e": [
+        "Salt stops them.",
+        "Salt does not warm food.",
+        "It does not add air."
+       ],
+       "y": "Without water, germs cannot grow."
+      },
+      {
+       "q": "Why does a fridge keep food longer?",
+       "r": "The cold slows the growth of germs.",
+       "w": [
+        "The cold kills all germs.",
+        "It adds salt to food.",
+        "It dries food completely."
+       ],
+       "e": [
+        "Cold slows them; it does not kill them all.",
+        "A fridge adds nothing.",
+        "Food in a fridge still has water."
+       ],
+       "y": "Germs grow slowly when cold."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-28-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Smoking dries fish.",
+      "truth": "true"
+     },
+     {
+      "text": "Canning seals heated food in tins.",
+      "truth": "true"
+     },
+     {
+      "text": "Freezing slows the growth of germs.",
+      "truth": "true"
+     },
+     {
+      "text": "Preservation reduces food waste.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Keeping fish warm and wet preserves it.",
+      "truth": "false",
+      "explain": "Warmth and water help germs grow."
+     },
+     {
+      "text": "Salting adds water to food.",
+      "truth": "false",
+      "explain": "Salt draws water out."
+     },
+     {
+      "text": "Preserved food can never cause food poisoning.",
+      "truth": "false",
+      "explain": "Badly preserved or opened food can still spoil."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

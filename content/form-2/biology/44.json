@@ -1,0 +1,488 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 44,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b2-44",
+   "name": "Harmful practices: early marriage and female genital mutilation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Some traditional practices harm the health and rights of girls.\nEarly (child) marriage is the marriage of a child under 18. International agreements signed by Cameroon and its Penal Code protect children from forced marriage.\nCauses: poverty (bride price), tradition, wanting to “protect” girls, low value placed on girls' education.\nConsequences: the girl leaves school; early pregnancy is dangerous for a young body (obstetric fistula, death in childbirth); violence; poverty continues.\nFemale genital mutilation (FGM) is cutting or removing part of a girl's external genital organs for non-medical reasons. It is forbidden by law in Cameroon.\nConsequences: severe pain and bleeding, infections (including HIV from shared blades), problems in passing urine, problems in childbirth, and lasting emotional harm.\nGirls at risk can tell a teacher, health worker or social worker.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a girl of 14 is to be married"
+  },
+  "problem": "Give two consequences for her health and education if {x}.",
+  "steps": [
+   "She will probably stop going to school.",
+   "Pregnancy in a young body is dangerous: it can cause fistula or death in childbirth."
+  ],
+  "answer": "She leaves school, and early pregnancy endangers her life.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c44-1",
+    "status": "draft",
+    "idea": "Early marriage is the marriage of a child under {18}; it stops girls' education.",
+    "vars": {},
+    "example": [
+     "A child is anyone under {18}.",
+     "Poverty and tradition are causes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-44-early"
+    }
+   },
+   {
+    "id": "c44-2",
+    "status": "draft",
+    "idea": "Early pregnancy is dangerous: the young body is not ready for childbirth.",
+    "vars": {},
+    "example": [
+     "Risk of obstetric fistula.",
+     "Risk of death in childbirth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-44-preg"
+    }
+   },
+   {
+    "id": "c44-3",
+    "status": "draft",
+    "idea": "FGM is cutting a girl's genital organs for non-medical reasons; it causes pain, bleeding and infection, and is forbidden by law.",
+    "vars": {},
+    "example": [
+     "Shared blades can spread HIV.",
+     "It causes problems in childbirth."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-44-fgm-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reproductive-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a consequence of female genital mutilation?",
+         "r": "severe bleeding and infection",
+         "w": [
+          "better health",
+          "easier childbirth",
+          "protection from disease"
+         ],
+         "e": [
+          "It harms health.",
+          "It makes childbirth harder.",
+          "It can spread infections."
+         ],
+         "y": "It has no health benefit and causes harm."
+        },
+        {
+         "q": "What does the law in Cameroon say about FGM?",
+         "r": "It is forbidden.",
+         "w": [
+          "It is required.",
+          "It is allowed for all girls.",
+          "It is a medical treatment."
+         ],
+         "e": [
+          "It is not required.",
+          "It is forbidden.",
+          "It has no medical purpose."
+         ],
+         "y": "FGM is a crime."
+        },
+        {
+         "q": "A girl fears she will be cut or married early. Who can she tell?",
+         "r": "a teacher, health worker or social worker",
+         "w": [
+          "nobody",
+          "only the person planning it",
+          "a stranger online"
+         ],
+         "e": [
+          "Help is available.",
+          "That will not protect her.",
+          "That is not safe."
+         ],
+         "y": "Trusted adults can protect her."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-44-early",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reproductive-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is early marriage?",
+       "r": "the marriage of a child under 18",
+       "w": [
+        "a marriage in the morning",
+        "a marriage of two adults",
+        "a marriage after 30"
+       ],
+       "e": [
+        "It is about age, not time of day.",
+        "Adults are 18 or over.",
+        "That is not early."
+       ],
+       "y": "A child bride or groom under 18."
+      },
+      {
+       "q": "A girl of 15 is married. What is this called?",
+       "r": "early (child) marriage",
+       "w": [
+        "adult marriage",
+        "a balanced marriage",
+        "a legal adult choice"
+       ],
+       "e": [
+        "She is under 18: a child.",
+        "That is not a term used.",
+        "She is a child, under 18."
+       ],
+       "y": "Marriage under 18 is child marriage."
+      },
+      {
+       "q": "Which is a cause of early marriage?",
+       "r": "poverty (wanting the bride price)",
+       "w": [
+        "going to university",
+        "a balanced diet",
+        "playing sport"
+       ],
+       "e": [
+        "Education delays marriage.",
+        "That is not a cause.",
+        "That is not a cause."
+       ],
+       "y": "Poor families may marry daughters early."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-44-preg",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reproductive-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is pregnancy dangerous for a girl of 14?",
+       "r": "Her body is not yet ready for childbirth.",
+       "w": [
+        "She is too old.",
+        "Babies need no care.",
+        "It is never dangerous."
+       ],
+       "e": [
+        "She is too young.",
+        "Babies need a lot of care.",
+        "It is very dangerous."
+       ],
+       "y": "Risk of fistula and death."
+      },
+      {
+       "q": "What usually happens to a girl's schooling after early marriage?",
+       "r": "She stops going to school.",
+       "w": [
+        "She gets better marks.",
+        "She goes to university at once.",
+        "Nothing changes."
+       ],
+       "e": [
+        "She usually leaves school.",
+        "That is very unlikely.",
+        "Her life changes a lot."
+       ],
+       "y": "Early marriage ends education."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-44-fgm",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reproductive-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a consequence of female genital mutilation?",
+       "r": "severe bleeding and infection",
+       "w": [
+        "better health",
+        "easier childbirth",
+        "protection from disease"
+       ],
+       "e": [
+        "It harms health.",
+        "It makes childbirth harder.",
+        "It can spread infections."
+       ],
+       "y": "It has no health benefit and causes harm."
+      },
+      {
+       "q": "What does the law in Cameroon say about FGM?",
+       "r": "It is forbidden.",
+       "w": [
+        "It is required.",
+        "It is allowed for all girls.",
+        "It is a medical treatment."
+       ],
+       "e": [
+        "It is not required.",
+        "It is forbidden.",
+        "It has no medical purpose."
+       ],
+       "y": "FGM is a crime."
+      },
+      {
+       "q": "A girl fears she will be cut or married early. Who can she tell?",
+       "r": "a teacher, health worker or social worker",
+       "w": [
+        "nobody",
+        "only the person planning it",
+        "a stranger online"
+       ],
+       "e": [
+        "Help is available.",
+        "That will not protect her.",
+        "That is not safe."
+       ],
+       "y": "Trusted adults can protect her."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-44-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reproductive-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Early marriage often ends a girl's education.",
+      "truth": "true"
+     },
+     {
+      "text": "FGM can spread infections.",
+      "truth": "true"
+     },
+     {
+      "text": "Child marriage is the marriage of someone under 18.",
+      "truth": "true"
+     },
+     {
+      "text": "Early pregnancy can cause fistula.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "FGM has health benefits for girls.",
+      "truth": "false",
+      "explain": "It has no benefit and causes harm."
+     },
+     {
+      "text": "Early marriage protects girls' health.",
+      "truth": "false",
+      "explain": "Early pregnancy endangers their health."
+     },
+     {
+      "text": "A girl of 13 is old enough to marry.",
+      "truth": "false",
+      "explain": "Under 18 is a child."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

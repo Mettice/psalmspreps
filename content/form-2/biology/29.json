@@ -1,0 +1,475 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "b2-29",
+   "name": "Food preparation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Food preparation is making food ready to eat: cleaning, cutting, mixing and cooking.\nMethods of cooking: boiling, steaming (bobolo, koki), frying, roasting or grilling (soya, roasted plantain and corn), baking (bread), stewing.\nImportance of cooking:\n• kills germs and parasites (in meat, fish, eggs);\n• softens food so it is easier to chew and digest;\n• improves taste and smell;\n• removes some poisons (cassava, some beans).\nGood habits: wash hands; wash fruit and vegetables in clean water; cook meat well; do not overcook vegetables (vitamins are lost) — steam or cook them for a short time; keep cooked food covered; do not reuse frying oil many times.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "green vegetables"
+  },
+  "problem": "Why should {v} not be boiled for a long time?",
+  "steps": [
+   "Some vitamins (like vitamin C) are destroyed by long heating.",
+   "They also dissolve into the water, which is thrown away."
+  ],
+  "answer": "Long boiling destroys and washes out the vitamins.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "Cooking methods include boiling, steaming, frying, roasting, baking and stewing.",
+    "vars": {},
+    "example": [
+     "Koki is steamed.",
+     "Soya (suya) is grilled."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-29-method"
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "Cooking kills germs, softens food, improves taste and removes some poisons.",
+    "vars": {},
+    "example": [
+     "Well-cooked meat is safe.",
+     "Cooked rice is soft."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-29-why"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "Wash hands and food, cook meat well and do not overcook vegetables.",
+    "vars": {},
+    "example": [
+     "Steam vegetables for a short time.",
+     "Cover cooked food."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-29-habit-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "food-transformation"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is the best way to cook vegetables to keep their vitamins?",
+         "r": "steam them for a short time",
+         "w": [
+          "boil them for an hour",
+          "fry them for a long time",
+          "leave them in the sun"
+         ],
+         "e": [
+          "Long boiling destroys vitamins.",
+          "Long frying destroys vitamins.",
+          "That is not cooking."
+         ],
+         "y": "Short cooking keeps more vitamins."
+        },
+        {
+         "q": "Why should frying oil not be reused many times?",
+         "r": "Old oil forms harmful substances.",
+         "w": [
+          "It becomes water.",
+          "It gets too cold.",
+          "It gains vitamins."
+         ],
+         "e": [
+          "Oil does not become water.",
+          "That is not the problem.",
+          "It does not gain vitamins."
+         ],
+         "y": "Reheated oil breaks down into harmful substances."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-29-method",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "koki (beans cooked in leaves over boiling water)",
+       "r": "steaming",
+       "w": [
+        "frying",
+        "grilling",
+        "baking"
+       ],
+       "e": [
+        "No oil is used.",
+        "It is not over open flames.",
+        "It is not in an oven."
+       ],
+       "y": "The steam cooks it."
+      },
+      {
+       "q": "soya (suya) meat over hot charcoal",
+       "r": "grilling (roasting)",
+       "w": [
+        "boiling",
+        "steaming",
+        "stewing"
+       ],
+       "e": [
+        "No water is used.",
+        "No steam is used.",
+        "No sauce is used."
+       ],
+       "y": "Direct heat from the charcoal."
+      },
+      {
+       "q": "bread in an oven",
+       "r": "baking",
+       "w": [
+        "frying",
+        "boiling",
+        "steaming"
+       ],
+       "e": [
+        "No oil.",
+        "No water.",
+        "No steam."
+       ],
+       "y": "Dry heat in an oven is baking."
+      },
+      {
+       "q": "puff-puff in hot oil",
+       "r": "frying",
+       "w": [
+        "boiling",
+        "baking",
+        "steaming"
+       ],
+       "e": [
+        "Oil, not water.",
+        "Not in an oven.",
+        "Not steam."
+       ],
+       "y": "Cooking in hot oil is frying."
+      }
+     ]
+    }
+   },
+   "prompt": "Which cooking method is used for {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-29-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should meat be cooked well?",
+       "r": "to kill germs and worms in it",
+       "w": [
+        "to add vitamins",
+        "to make it raw",
+        "to make it heavier"
+       ],
+       "e": [
+        "Cooking does not add vitamins.",
+        "Cooking is the opposite of raw.",
+        "Cooking does not add mass."
+       ],
+       "y": "Heat kills germs and parasites."
+      },
+      {
+       "q": "Which is a reason for cooking food?",
+       "r": "It makes food easier to digest.",
+       "w": [
+        "It always adds protein.",
+        "It makes food go bad.",
+        "It removes all water."
+       ],
+       "e": [
+        "Cooking does not add protein.",
+        "Cooking helps food keep.",
+        "Many cooked foods are still moist."
+       ],
+       "y": "Cooking softens food."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-29-habit",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is the best way to cook vegetables to keep their vitamins?",
+       "r": "steam them for a short time",
+       "w": [
+        "boil them for an hour",
+        "fry them for a long time",
+        "leave them in the sun"
+       ],
+       "e": [
+        "Long boiling destroys vitamins.",
+        "Long frying destroys vitamins.",
+        "That is not cooking."
+       ],
+       "y": "Short cooking keeps more vitamins."
+      },
+      {
+       "q": "Why should frying oil not be reused many times?",
+       "r": "Old oil forms harmful substances.",
+       "w": [
+        "It becomes water.",
+        "It gets too cold.",
+        "It gains vitamins."
+       ],
+       "e": [
+        "Oil does not become water.",
+        "That is not the problem.",
+        "It does not gain vitamins."
+       ],
+       "y": "Reheated oil breaks down into harmful substances."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-29-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "food-transformation"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wash your hands before cooking.",
+      "truth": "true"
+     },
+     {
+      "text": "Cooking kills germs.",
+      "truth": "true"
+     },
+     {
+      "text": "Cover cooked food.",
+      "truth": "true"
+     },
+     {
+      "text": "Wash fruit in clean water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Vegetables should be boiled for a long time to keep their vitamins.",
+      "truth": "false",
+      "explain": "Long boiling destroys vitamins."
+     },
+     {
+      "text": "Meat is safest when eaten half-cooked.",
+      "truth": "false",
+      "explain": "Meat should be cooked well."
+     },
+     {
+      "text": "Frying oil can be reused for weeks.",
+      "truth": "false",
+      "explain": "Old oil becomes harmful."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

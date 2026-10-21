@@ -33,3 +33,14 @@ test("oxides, Rf values and states", () => {
   assert.equal(s.stateAt(-150, -114, 78), "solid");
   assert.equal(s.stateAt(100, 0, 100), "gas");
 });
+
+test("body mass index, food energy and heat taken in by water", () => {
+  assert.equal(s.bmi(60, 1.6), 23.4);
+  assert.equal(s.bmiClass(18.4), "underweight");
+  assert.equal(s.bmiClass(18.5), "normal weight");
+  assert.equal(s.bmiClass(25), "overweight");
+  assert.equal(s.bmiClass(30), "obese");
+  assert.equal(s.foodEnergy(10, 37), 370);
+  assert.equal(s.heatToWater(20, 15), 1260);
+  assert.equal(s.energyPerGram(20, 15, 0.5), 2520);
+});

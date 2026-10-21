@@ -1,0 +1,394 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 37,
+ "language": "en",
+ "prerequisites": [
+  33
+ ],
+ "skills": [
+  {
+   "id": "b2-37",
+   "name": "Project: fighting a nutrition-related disease"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A health project tackles a real problem in the school or community. Steps:\n1. Identify the problem: for example, many pupils buy sweets and sodas and few eat fruit (risk of obesity and tooth decay); or young children in a village show signs of kwashiorkor.\n2. Collect facts: a survey (questionnaire) of what people eat; count, record and make a table or bar chart.\n3. Find the causes from the results.\n4. Plan actions: talks, posters, a school garden, fruit sold at break, cooking demonstrations with beans, soya and groundnuts.\n5. Carry out the plan with the help of teachers, parents and health workers.\n6. Evaluate: repeat the survey after some weeks and compare.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": "pupils drink sodas every day"
+  },
+  "problem": "A survey shows many {p}. Suggest two actions for a school project.",
+  "steps": [
+   "Give talks and make posters on the sugar in sodas and its effects.",
+   "Ask the canteen to sell water and fruit, and start a school fruit garden."
+  ],
+  "answer": "Teach (talks, posters) and change what is available (water and fruit at break).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c37-1",
+    "status": "draft",
+    "idea": "A project starts by identifying a problem and collecting facts with a survey.",
+    "vars": {},
+    "example": [
+     "Ask pupils what they eat at break.",
+     "Record the answers in a table."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-37-steps"
+    }
+   },
+   {
+    "id": "c37-2",
+    "status": "draft",
+    "idea": "Actions can be talks, posters, a school garden or cooking demonstrations.",
+    "vars": {},
+    "example": [
+     "Show how to cook beans and soya.",
+     "Sell fruit at break."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-37-act"
+    }
+   },
+   {
+    "id": "c37-3",
+    "status": "draft",
+    "idea": "Evaluate by repeating the survey later and comparing the results.",
+    "vars": {},
+    "example": [
+     "Before: many pupils eat sweets daily.",
+     "After: fewer do."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-37-eval-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrition-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How can the group find out if its project worked?",
+         "r": "Repeat the survey after some weeks and compare.",
+         "w": [
+          "Guess the result.",
+          "Ask only one friend.",
+          "Stop the project at once."
+         ],
+         "e": [
+          "Guessing gives no evidence.",
+          "One answer is not enough.",
+          "Then nothing is measured."
+         ],
+         "y": "Compare before and after."
+        },
+        {
+         "q": "Why is a survey done at the start of a project?",
+         "r": "to collect facts about the problem",
+         "w": [
+          "to cook food",
+          "to make posters",
+          "to finish the project"
+         ],
+         "e": [
+          "Cooking is an action, later.",
+          "Posters are an action, later.",
+          "It is the beginning."
+         ],
+         "y": "Facts show the size and causes of the problem."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-37-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "prompt": "Put the steps of a health project in order.",
+   "items": [
+    {
+     "text": "Identify the problem"
+    },
+    {
+     "text": "Collect facts with a survey"
+    },
+    {
+     "text": "Find the causes"
+    },
+    {
+     "text": "Plan and carry out actions"
+    },
+    {
+     "text": "Repeat the survey and compare"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "b2-37-act",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Many young children in a village have kwashiorkor. Which action would help most?",
+       "r": "teach mothers to cook protein foods such as beans, soya and eggs",
+       "w": [
+        "sell more sweets",
+        "give the children soda",
+        "stop all meals"
+       ],
+       "e": [
+        "Sweets have no protein.",
+        "Soda has only sugar.",
+        "That would make it worse."
+       ],
+       "y": "Kwashiorkor is a lack of protein."
+      },
+      {
+       "q": "Which action would help pupils eat less sugar at school?",
+       "r": "selling water and fruit at break",
+       "w": [
+        "selling more sodas",
+        "giving sweets as prizes",
+        "closing the school garden"
+       ],
+       "e": [
+        "That adds sugar.",
+        "That adds sugar.",
+        "The garden gives fruit and vegetables."
+       ],
+       "y": "Make healthy choices easy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-37-eval",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How can the group find out if its project worked?",
+       "r": "Repeat the survey after some weeks and compare.",
+       "w": [
+        "Guess the result.",
+        "Ask only one friend.",
+        "Stop the project at once."
+       ],
+       "e": [
+        "Guessing gives no evidence.",
+        "One answer is not enough.",
+        "Then nothing is measured."
+       ],
+       "y": "Compare before and after."
+      },
+      {
+       "q": "Why is a survey done at the start of a project?",
+       "r": "to collect facts about the problem",
+       "w": [
+        "to cook food",
+        "to make posters",
+        "to finish the project"
+       ],
+       "e": [
+        "Cooking is an action, later.",
+        "Posters are an action, later.",
+        "It is the beginning."
+       ],
+       "y": "Facts show the size and causes of the problem."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-37-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "prompt": "Which step of a health project is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Identify a real problem.",
+      "truth": "true"
+     },
+     {
+      "text": "Collect facts with a questionnaire.",
+      "truth": "true"
+     },
+     {
+      "text": "Work with teachers and health workers.",
+      "truth": "true"
+     },
+     {
+      "text": "Compare the results before and after.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Start the actions before finding out what the problem is.",
+      "truth": "false",
+      "explain": "First identify the problem and collect facts."
+     },
+     {
+      "text": "Never check whether the project worked.",
+      "truth": "false",
+      "explain": "Evaluate by repeating the survey."
+     },
+     {
+      "text": "Use sweets as prizes in a project against tooth decay.",
+      "truth": "false",
+      "explain": "That adds sugar."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

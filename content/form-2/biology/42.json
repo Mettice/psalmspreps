@@ -1,0 +1,460 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 42,
+ "language": "en",
+ "prerequisites": [
+  41
+ ],
+ "skills": [
+  {
+   "id": "b2-42",
+   "name": "Drug abuse: cigarette smoking"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cigarette smoke contains thousands of chemicals, including:\n• nicotine: makes smokers addicted and raises the heart rate and blood pressure;\n• tar: sticky, coats the lungs and causes cancer;\n• carbon monoxide: takes the place of oxygen in the blood.\nHealth effects: lung cancer and cancers of the mouth and throat, bronchitis and coughing, emphysema (damaged air sacs), heart disease, stained teeth, bad breath, less fitness. Babies of smoking mothers are often small.\nPassive smoking: people near a smoker breathe in the smoke and are harmed too.\nSocial effects: money wasted, bad smell, fires, setting a bad example.\nSmoking in public places is forbidden in Cameroon, and the sale of tobacco to minors is forbidden. Shisha (water pipe) is also harmful.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": "carbon monoxide"
+  },
+  "problem": "How does {c} in cigarette smoke harm the body?",
+  "steps": [
+   "It joins the red blood cells in place of oxygen.",
+   "Less oxygen reaches the body, so the smoker is short of breath and the heart works harder."
+  ],
+  "answer": "It reduces the oxygen carried by the blood.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c42-1",
+    "status": "draft",
+    "idea": "Nicotine is addictive; tar causes cancer; carbon monoxide takes the place of oxygen.",
+    "vars": {},
+    "example": [
+     "Smokers find it hard to stop because of nicotine.",
+     "Tar blackens the lungs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-42-chem"
+    }
+   },
+   {
+    "id": "c42-2",
+    "status": "draft",
+    "idea": "Smoking causes lung cancer, bronchitis, emphysema and heart disease.",
+    "vars": {},
+    "example": [
+     "Smoker's cough.",
+     "Damaged air sacs make breathing hard."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-42-health"
+    }
+   },
+   {
+    "id": "c42-3",
+    "status": "draft",
+    "idea": "Passive smoking harms people who breathe in other people's smoke.",
+    "vars": {},
+    "example": [
+     "Children of smokers get more chest infections.",
+     "Smoking in public places is forbidden."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-42-passive-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "physical-social-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is passive smoking?",
+         "r": "breathing in other people's smoke",
+         "w": [
+          "smoking only on weekends",
+          "smoking without lighting",
+          "chewing tobacco"
+         ],
+         "e": [
+          "That is still active smoking.",
+          "That is not smoking.",
+          "That is another tobacco use."
+         ],
+         "y": "Non-smokers are harmed too."
+        },
+        {
+         "q": "Why is smoking forbidden in public places?",
+         "r": "to protect non-smokers from the smoke",
+         "w": [
+          "to sell more cigarettes",
+          "because smoke is healthy",
+          "to make streets warm"
+         ],
+         "e": [
+          "That is not why.",
+          "Smoke is harmful.",
+          "That is not why."
+         ],
+         "y": "Passive smoking is harmful."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-42-chem",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "makes smokers addicted",
+       "r": "nicotine",
+       "w": [
+        "tar",
+        "carbon monoxide",
+        "oxygen"
+       ],
+       "e": [
+        "Tar causes cancer.",
+        "Carbon monoxide replaces oxygen.",
+        "Oxygen is not from smoke."
+       ],
+       "y": "Nicotine is the addictive drug."
+      },
+      {
+       "q": "coats the lungs and causes cancer",
+       "r": "tar",
+       "w": [
+        "nicotine",
+        "water",
+        "nitrogen"
+       ],
+       "e": [
+        "Nicotine is the addictive drug.",
+        "Water is not the harm.",
+        "Nitrogen is in air."
+       ],
+       "y": "Tar contains cancer-causing chemicals."
+      },
+      {
+       "q": "takes the place of oxygen in the blood",
+       "r": "carbon monoxide",
+       "w": [
+        "tar",
+        "nicotine",
+        "carbon dioxide"
+       ],
+       "e": [
+        "Tar coats the lungs.",
+        "Nicotine is addictive.",
+        "Carbon dioxide is a waste gas we breathe out."
+       ],
+       "y": "Carbon monoxide joins red blood cells."
+      }
+     ]
+    }
+   },
+   "prompt": "Which substance in cigarette smoke {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-42-health",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which disease is caused mainly by smoking?",
+       "r": "lung cancer",
+       "w": [
+        "malaria",
+        "goitre",
+        "cholera"
+       ],
+       "e": [
+        "Malaria is spread by mosquitoes.",
+        "Goitre is from lack of iodine.",
+        "Cholera is from dirty water."
+       ],
+       "y": "Tar causes lung cancer."
+      },
+      {
+       "q": "Why are smokers often short of breath?",
+       "r": "Their lungs are damaged and their blood carries less oxygen.",
+       "w": [
+        "Smoke adds oxygen.",
+        "Smoking makes lungs bigger.",
+        "Nicotine is food."
+       ],
+       "e": [
+        "Smoke reduces oxygen.",
+        "It damages them.",
+        "Nicotine is a drug."
+       ],
+       "y": "Carbon monoxide and damaged air sacs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-42-passive",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is passive smoking?",
+       "r": "breathing in other people's smoke",
+       "w": [
+        "smoking only on weekends",
+        "smoking without lighting",
+        "chewing tobacco"
+       ],
+       "e": [
+        "That is still active smoking.",
+        "That is not smoking.",
+        "That is another tobacco use."
+       ],
+       "y": "Non-smokers are harmed too."
+      },
+      {
+       "q": "Why is smoking forbidden in public places?",
+       "r": "to protect non-smokers from the smoke",
+       "w": [
+        "to sell more cigarettes",
+        "because smoke is healthy",
+        "to make streets warm"
+       ],
+       "e": [
+        "That is not why.",
+        "Smoke is harmful.",
+        "That is not why."
+       ],
+       "y": "Passive smoking is harmful."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-42-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Nicotine is addictive.",
+      "truth": "true"
+     },
+     {
+      "text": "Tar causes cancer.",
+      "truth": "true"
+     },
+     {
+      "text": "Passive smoking is harmful.",
+      "truth": "true"
+     },
+     {
+      "text": "Smoking stains the teeth.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Shisha is a safe way to smoke.",
+      "truth": "false",
+      "explain": "Shisha smoke is harmful too."
+     },
+     {
+      "text": "Carbon monoxide gives the blood more oxygen.",
+      "truth": "false",
+      "explain": "It takes the place of oxygen."
+     },
+     {
+      "text": "Smoking makes athletes fitter.",
+      "truth": "false",
+      "explain": "Smoking reduces fitness."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

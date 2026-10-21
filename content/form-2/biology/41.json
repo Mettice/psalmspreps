@@ -1,0 +1,443 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 41,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b2-41",
+   "name": "Drug abuse: alcohol"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A drug is a substance that changes how the body or mind works. Drug abuse is using a drug in a harmful way or without a doctor's advice.\nAlcohol is found in beer, wine, spirits and local drinks (palm wine, kwacha, sha, odontol). It slows down the brain and nerves.\nHealth effects: poor judgement and slow reactions (road accidents), vomiting, liver damage (cirrhosis), stomach ulcers, high blood pressure, brain damage, addiction; in pregnancy it harms the baby.\nSocial effects: fights and violence at home, money wasted, poor school work and dropping out, crime, unsafe sex, loss of respect and jobs.\nThe sale of alcohol to young people is forbidden. Young people should refuse it and choose friends who do not drink.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a driver who has drunk alcohol"
+  },
+  "problem": "Why is {x} dangerous on the road?",
+  "steps": [
+   "Alcohol slows down the brain and nerves.",
+   "Judgement is poor and reactions are slow, so the driver cannot stop in time."
+  ],
+  "answer": "He reacts slowly and judges badly, so accidents happen.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c41-1",
+    "status": "draft",
+    "idea": "Drug abuse is using a drug in a harmful way or without medical advice; alcohol is a drug.",
+    "vars": {},
+    "example": [
+     "Palm wine and beer contain alcohol.",
+     "Alcohol slows the brain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-41-what"
+    }
+   },
+   {
+    "id": "c41-2",
+    "status": "draft",
+    "idea": "Alcohol damages the liver, stomach and brain, and causes accidents and addiction.",
+    "vars": {},
+    "example": [
+     "Cirrhosis is liver damage.",
+     "Drunk driving causes crashes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-41-health"
+    }
+   },
+   {
+    "id": "c41-3",
+    "status": "draft",
+    "idea": "Alcohol abuse brings violence, wasted money, school failure and crime.",
+    "vars": {},
+    "example": [
+     "Fights at home.",
+     "Money spent on drink, not food."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-41-social-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "physical-social-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a social effect of alcohol abuse?",
+         "r": "violence and fights at home",
+         "w": [
+          "liver damage",
+          "stomach ulcers",
+          "high blood pressure"
+         ],
+         "e": [
+          "That is a health effect.",
+          "That is a health effect.",
+          "That is a health effect."
+         ],
+         "y": "Social effects affect family and community."
+        },
+        {
+         "q": "A friend offers you a drink of alcohol after school. What is the best response?",
+         "r": "Refuse politely and suggest something else to do.",
+         "w": [
+          "Drink it to please him.",
+          "Drink only a little every day.",
+          "Hide it from your parents and drink later."
+         ],
+         "e": [
+          "Do not let others decide for you.",
+          "That can lead to addiction.",
+          "That is still harmful."
+         ],
+         "y": "Say no and choose a healthy activity."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-41-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is drug abuse?",
+       "r": "using a drug in a harmful way or without medical advice",
+       "w": [
+        "taking medicine as the doctor says",
+        "eating a balanced diet",
+        "drinking clean water"
+       ],
+       "e": [
+        "That is correct use.",
+        "That is healthy eating.",
+        "That is healthy."
+       ],
+       "y": "Harmful or non-medical use."
+      },
+      {
+       "q": "Which drink contains alcohol?",
+       "r": "palm wine",
+       "w": [
+        "orange juice",
+        "clean water",
+        "milk"
+       ],
+       "e": [
+        "Fresh juice has no alcohol.",
+        "Water has no alcohol.",
+        "Milk has no alcohol."
+       ],
+       "y": "Palm wine ferments and contains alcohol."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-41-health",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which organ is badly damaged by drinking a lot of alcohol for years?",
+       "r": "the liver",
+       "w": [
+        "the eyes only",
+        "the hair",
+        "the teeth only"
+       ],
+       "e": [
+        "The liver is the main organ harmed.",
+        "Hair is not the main organ harmed.",
+        "The liver is the main organ harmed."
+       ],
+       "y": "Cirrhosis of the liver."
+      },
+      {
+       "q": "How does alcohol affect the brain?",
+       "r": "It slows it down.",
+       "w": [
+        "It makes it faster and sharper.",
+        "It has no effect.",
+        "It makes it grow."
+       ],
+       "e": [
+        "It slows reactions.",
+        "It has a strong effect.",
+        "It damages it."
+       ],
+       "y": "Alcohol is a depressant."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-41-social",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a social effect of alcohol abuse?",
+       "r": "violence and fights at home",
+       "w": [
+        "liver damage",
+        "stomach ulcers",
+        "high blood pressure"
+       ],
+       "e": [
+        "That is a health effect.",
+        "That is a health effect.",
+        "That is a health effect."
+       ],
+       "y": "Social effects affect family and community."
+      },
+      {
+       "q": "A friend offers you a drink of alcohol after school. What is the best response?",
+       "r": "Refuse politely and suggest something else to do.",
+       "w": [
+        "Drink it to please him.",
+        "Drink only a little every day.",
+        "Hide it from your parents and drink later."
+       ],
+       "e": [
+        "Do not let others decide for you.",
+        "That can lead to addiction.",
+        "That is still harmful."
+       ],
+       "y": "Say no and choose a healthy activity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-41-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Alcohol slows reactions.",
+      "truth": "true"
+     },
+     {
+      "text": "Alcohol can damage the liver.",
+      "truth": "true"
+     },
+     {
+      "text": "Drunk driving causes accidents.",
+      "truth": "true"
+     },
+     {
+      "text": "Alcohol in pregnancy harms the baby.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Alcohol makes drivers safer.",
+      "truth": "false",
+      "explain": "It slows reactions and causes accidents."
+     },
+     {
+      "text": "Palm wine contains no alcohol.",
+      "truth": "false",
+      "explain": "Palm wine ferments and contains alcohol."
+     },
+     {
+      "text": "Alcohol abuse has no effect on the family.",
+      "truth": "false",
+      "explain": "It brings violence and wasted money."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

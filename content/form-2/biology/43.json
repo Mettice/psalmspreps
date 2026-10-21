@@ -1,0 +1,445 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 43,
+ "language": "en",
+ "prerequisites": [
+  42
+ ],
+ "skills": [
+  {
+   "id": "b2-43",
+   "name": "Drug abuse: marijuana and tramadol"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Marijuana (cannabis, “banga”, “weed”) is an illegal drug from the leaves of the cannabis plant. It is smoked or eaten.\nEffects: poor memory and concentration, anxiety and fear, hallucinations, mental illness (psychosis), lung damage, laziness and school failure, dependence.\nTramadol is a strong painkiller that must only be taken on a doctor's prescription. Young people abuse it, sometimes mixed with energy drinks or alcohol, to feel “high” or strong.\nEffects of tramadol abuse: addiction, seizures (fits), breathing problems, and death from overdose; violence and crime.\nSocial effects of drug abuse: dropping out of school, theft, prison (selling and using marijuana are crimes), broken families.\nHelp: talk to a parent, teacher, counsellor or health worker. Refuse firmly, avoid places where drugs are used, and choose good friends and activities.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "tramadol mixed with an energy drink"
+  },
+  "problem": "A friend says {x} makes you strong. Why is this dangerous?",
+  "steps": [
+   "Tramadol is a strong painkiller to be used only on prescription.",
+   "Abuse can cause fits, breathing problems, addiction and death."
+  ],
+  "answer": "It is not a strength drink: it can cause addiction, fits and death.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c43-1",
+    "status": "draft",
+    "idea": "Marijuana is an illegal drug that harms memory and can cause mental illness.",
+    "vars": {},
+    "example": [
+     "Using or selling it is a crime.",
+     "It harms school work."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-43-weed"
+    }
+   },
+   {
+    "id": "c43-2",
+    "status": "draft",
+    "idea": "Tramadol is a prescription painkiller; abusing it causes addiction, fits and even death.",
+    "vars": {},
+    "example": [
+     "Only take it when a doctor prescribes it.",
+     "Mixing it with drinks is dangerous."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-43-tram"
+    }
+   },
+   {
+    "id": "c43-3",
+    "status": "draft",
+    "idea": "To stay safe: refuse firmly, avoid drug places and talk to a trusted adult.",
+    "vars": {},
+    "example": [
+     "Say “No, thank you” and leave.",
+     "A counsellor can help."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-43-help-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "physical-social-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A classmate offers you marijuana. What should you do?",
+         "r": "Refuse firmly, leave, and tell a trusted adult.",
+         "w": [
+          "Try it once.",
+          "Buy some for later.",
+          "Keep it secret and say nothing."
+         ],
+         "e": [
+          "Even once is risky and illegal.",
+          "That is a crime.",
+          "A trusted adult can help."
+         ],
+         "y": "Refuse and get help."
+        },
+        {
+         "q": "Who can help a pupil who is using drugs?",
+         "r": "a counsellor, teacher, parent or health worker",
+         "w": [
+          "the drug seller",
+          "nobody",
+          "a friend who also uses drugs"
+         ],
+         "e": [
+          "The seller profits from it.",
+          "Help is available.",
+          "That keeps the habit going."
+         ],
+         "y": "Trusted adults and health workers help."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-43-weed",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an effect of marijuana use?",
+       "r": "poor memory and concentration",
+       "w": [
+        "better marks",
+        "stronger lungs",
+        "a sharper memory"
+       ],
+       "e": [
+        "It lowers marks.",
+        "Smoking damages the lungs.",
+        "It harms memory."
+       ],
+       "y": "Marijuana affects the brain."
+      },
+      {
+       "q": "Is marijuana legal in Cameroon?",
+       "r": "No, using and selling it are crimes.",
+       "w": [
+        "Yes, for everyone.",
+        "Yes, for pupils only.",
+        "Yes, if you are tired."
+       ],
+       "e": [
+        "It is illegal.",
+        "It is illegal for all.",
+        "That is not true."
+       ],
+       "y": "It is an illegal drug."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-43-tram",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When may tramadol be taken?",
+       "r": "only when a doctor prescribes it",
+       "w": [
+        "whenever you feel tired",
+        "before sport to feel strong",
+        "with energy drinks at parties"
+       ],
+       "e": [
+        "That is abuse.",
+        "That is abuse and dangerous.",
+        "That is very dangerous."
+       ],
+       "y": "It is a prescription painkiller."
+      },
+      {
+       "q": "Which is a danger of tramadol abuse?",
+       "r": "fits (seizures) and death from overdose",
+       "w": [
+        "stronger bones",
+        "better sleep for ever",
+        "more vitamins"
+       ],
+       "e": [
+        "That is not an effect.",
+        "It causes addiction instead.",
+        "It gives no vitamins."
+       ],
+       "y": "Overdose can kill."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-43-help",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A classmate offers you marijuana. What should you do?",
+       "r": "Refuse firmly, leave, and tell a trusted adult.",
+       "w": [
+        "Try it once.",
+        "Buy some for later.",
+        "Keep it secret and say nothing."
+       ],
+       "e": [
+        "Even once is risky and illegal.",
+        "That is a crime.",
+        "A trusted adult can help."
+       ],
+       "y": "Refuse and get help."
+      },
+      {
+       "q": "Who can help a pupil who is using drugs?",
+       "r": "a counsellor, teacher, parent or health worker",
+       "w": [
+        "the drug seller",
+        "nobody",
+        "a friend who also uses drugs"
+       ],
+       "e": [
+        "The seller profits from it.",
+        "Help is available.",
+        "That keeps the habit going."
+       ],
+       "y": "Trusted adults and health workers help."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-43-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "physical-social-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Marijuana can cause mental illness.",
+      "truth": "true"
+     },
+     {
+      "text": "Tramadol should be used only on prescription.",
+      "truth": "true"
+     },
+     {
+      "text": "Drug abuse can lead to school failure.",
+      "truth": "true"
+     },
+     {
+      "text": "Talking to a counsellor can help.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tramadol with energy drinks makes you strong and healthy.",
+      "truth": "false",
+      "explain": "It can cause fits, addiction and death."
+     },
+     {
+      "text": "Marijuana improves memory.",
+      "truth": "false",
+      "explain": "It harms memory and concentration."
+     },
+     {
+      "text": "Drug abuse affects only the user, not the family.",
+      "truth": "false",
+      "explain": "It breaks families and leads to crime."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

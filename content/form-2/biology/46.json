@@ -1,0 +1,443 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 46,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b2-46",
+   "name": "Climate change: causes, effects and prevention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Climate change is a long-term change in the Earth's weather patterns, mainly global warming (a rise in average temperature).\nCause: the greenhouse effect is increased. Greenhouse gases (carbon dioxide, methane, nitrous oxide, water vapour) trap heat in the atmosphere. Humans add more by:\n• burning fossil fuels (petrol, diesel, coal, gas) in cars, factories and generators;\n• cutting and burning forests (deforestation, bush fires) — trees take in carbon dioxide;\n• rotting rubbish and rice fields and cattle (methane).\nEffects: hotter weather, droughts (the Sahel, Lake Chad shrinking), floods, rising sea levels, crop failure and hunger, spread of diseases like malaria, loss of plants and animals.\nPrevention: plant trees, stop bush fires, save energy, use solar and hydroelectric power, walk or cycle, reduce and recycle waste.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "cutting down forests"
+  },
+  "problem": "Explain how {x} adds to global warming.",
+  "steps": [
+   "Trees take in carbon dioxide for photosynthesis; fewer trees take in less.",
+   "Burning the cut trees also releases carbon dioxide."
+  ],
+  "answer": "More carbon dioxide stays in the air and traps more heat.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c46-1",
+    "status": "draft",
+    "idea": "Climate change is a long-term change in weather patterns, mainly global warming.",
+    "vars": {},
+    "example": [
+     "Hotter years.",
+     "Rainy seasons that change."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-46-what"
+    }
+   },
+   {
+    "id": "c46-2",
+    "status": "draft",
+    "idea": "Burning fossil fuels and cutting forests add carbon dioxide, a greenhouse gas that traps heat.",
+    "vars": {},
+    "example": [
+     "Cars and generators burn petrol and diesel.",
+     "Bush fires release carbon dioxide."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-46-cause"
+    }
+   },
+   {
+    "id": "c46-3",
+    "status": "draft",
+    "idea": "Effects include droughts, floods and crop failure; we can prevent it by planting trees and saving energy.",
+    "vars": {},
+    "example": [
+     "Lake Chad is shrinking.",
+     "Use solar energy."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-46-prevent-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "climate"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is an effect of climate change in northern Cameroon?",
+         "r": "longer droughts and a shrinking Lake Chad",
+         "w": [
+          "more snow",
+          "colder harmattan for ever",
+          "more forests"
+         ],
+         "e": [
+          "There is no snow.",
+          "It is getting hotter.",
+          "Forests are being lost."
+         ],
+         "y": "Hotter, drier conditions."
+        },
+        {
+         "q": "Which action helps to fight climate change?",
+         "r": "planting trees",
+         "w": [
+          "starting bush fires",
+          "burning plastic",
+          "leaving lights on"
+         ],
+         "e": [
+          "Fires release carbon dioxide.",
+          "Burning adds gases and smoke.",
+          "That wastes energy."
+         ],
+         "y": "Trees take in carbon dioxide."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-46-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is global warming?",
+       "r": "a rise in the Earth's average temperature",
+       "w": [
+        "a cold rainy day",
+        "a fall in sea level",
+        "the warming of food"
+       ],
+       "e": [
+        "One day is weather, not climate.",
+        "Sea levels are rising.",
+        "That is cooking."
+       ],
+       "y": "The Earth is getting warmer on average."
+      },
+      {
+       "q": "Which is a greenhouse gas?",
+       "r": "carbon dioxide",
+       "w": [
+        "oxygen",
+        "nitrogen",
+        "argon"
+       ],
+       "e": [
+        "Oxygen does not trap much heat.",
+        "Nitrogen does not trap much heat.",
+        "Argon does not trap heat."
+       ],
+       "y": "Carbon dioxide traps heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-46-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which human activity adds most carbon dioxide to the air?",
+       "r": "burning fossil fuels",
+       "w": [
+        "planting trees",
+        "using solar panels",
+        "walking"
+       ],
+       "e": [
+        "Trees take in carbon dioxide.",
+        "Solar power gives none.",
+        "Walking gives very little."
+       ],
+       "y": "Petrol, diesel and coal give carbon dioxide."
+      },
+      {
+       "q": "Why does deforestation add to global warming?",
+       "r": "Fewer trees take in carbon dioxide.",
+       "w": [
+        "Trees give out heat.",
+        "Trees make methane.",
+        "Trees cool the sun."
+       ],
+       "e": [
+        "That is not the reason.",
+        "That is not the main reason.",
+        "That is not true."
+       ],
+       "y": "Trees remove carbon dioxide by photosynthesis."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-46-prevent",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an effect of climate change in northern Cameroon?",
+       "r": "longer droughts and a shrinking Lake Chad",
+       "w": [
+        "more snow",
+        "colder harmattan for ever",
+        "more forests"
+       ],
+       "e": [
+        "There is no snow.",
+        "It is getting hotter.",
+        "Forests are being lost."
+       ],
+       "y": "Hotter, drier conditions."
+      },
+      {
+       "q": "Which action helps to fight climate change?",
+       "r": "planting trees",
+       "w": [
+        "starting bush fires",
+        "burning plastic",
+        "leaving lights on"
+       ],
+       "e": [
+        "Fires release carbon dioxide.",
+        "Burning adds gases and smoke.",
+        "That wastes energy."
+       ],
+       "y": "Trees take in carbon dioxide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-46-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "climate"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Burning fossil fuels causes global warming.",
+      "truth": "true"
+     },
+     {
+      "text": "Planting trees helps fight climate change.",
+      "truth": "true"
+     },
+     {
+      "text": "Climate change can cause floods.",
+      "truth": "true"
+     },
+     {
+      "text": "Methane is a greenhouse gas.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bush fires reduce global warming.",
+      "truth": "false",
+      "explain": "They release carbon dioxide."
+     },
+     {
+      "text": "Climate change has no effect on farming.",
+      "truth": "false",
+      "explain": "It causes crop failure and hunger."
+     },
+     {
+      "text": "Oxygen is the main greenhouse gas.",
+      "truth": "false",
+      "explain": "Carbon dioxide, methane and water vapour are greenhouse gases."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

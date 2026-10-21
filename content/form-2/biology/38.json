@@ -1,0 +1,473 @@
+{
+ "subject": "biology",
+ "class": "Form 2",
+ "lesson_no": 38,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "b2-38",
+   "name": "Management of solid wastes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Solid wastes are unwanted solid materials: food remains, paper, plastic bags and bottles, tins, glass, old clothes, broken phones.\nDumped anywhere, they block gutters (floods), breed flies, rats and mosquitoes (cholera, malaria), smell, and pollute soil and water.\nThe waste hierarchy, best first:\n• Avoid: do not create waste (refuse plastic bags, carry a basket).\n• Reduce: use less (buy in bulk, repair things).\n• Reuse: use again (bottles as containers, old clothes as rags).\n• Recycle: make new things from old materials (plastic into pavement tiles, paper into new paper, metal cans).\n• Compost: turn food and plant waste into manure.\n• Incineration: burning at high temperature in an incinerator (hospital waste); it can pollute the air.\nSort waste into biodegradable (rots) and non-biodegradable (plastic, glass, metal).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "w": "banana peels and leftover food"
+  },
+  "problem": "What is the best way to manage {w} at home?",
+  "steps": [
+   "They are biodegradable: microorganisms break them down.",
+   "In a compost heap they become manure for the garden."
+  ],
+  "answer": "Composting.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c38-1",
+    "status": "draft",
+    "idea": "Dumped waste blocks gutters, breeds flies and rats, and pollutes soil and water.",
+    "vars": {},
+    "example": [
+     "Blocked gutters cause floods.",
+     "Flies spread cholera."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-38-harm"
+    }
+   },
+   {
+    "id": "c38-2",
+    "status": "draft",
+    "idea": "The best order: avoid, reduce, reuse, recycle; then compost or incinerate.",
+    "vars": {},
+    "example": [
+     "Carry a basket instead of taking a plastic bag.",
+     "Reuse bottles as containers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "b2-38-r"
+    }
+   },
+   {
+    "id": "c38-3",
+    "status": "draft",
+    "idea": "Biodegradable waste rots and can be composted; plastic, glass and metal do not rot and should be recycled.",
+    "vars": {},
+    "example": [
+     "Peels and leaves: compost.",
+     "Plastic bottles: recycle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "b2-38-sort-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nutrition-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which waste is biodegradable?",
+         "r": "cassava peels",
+         "w": [
+          "a plastic bottle",
+          "a glass jar",
+          "an empty tin"
+         ],
+         "e": [
+          "Plastic does not rot.",
+          "Glass does not rot.",
+          "Metal rusts slowly but does not rot."
+         ],
+         "y": "Peels are broken down by microorganisms."
+        },
+        {
+         "q": "Why is avoiding waste better than recycling it?",
+         "r": "No waste is made, so nothing needs to be treated.",
+         "w": [
+          "Recycling is always harmful.",
+          "Avoiding makes more plastic.",
+          "Recycling is illegal."
+         ],
+         "e": [
+          "Recycling is good, but it uses energy.",
+          "Avoiding means less plastic.",
+          "Recycling is legal and useful."
+         ],
+         "y": "Avoiding is at the top of the hierarchy."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "b2-38-harm",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is dumping plastic bags in gutters harmful?",
+       "r": "They block the gutters and cause floods.",
+       "w": [
+        "They make the water clean.",
+        "They feed fish.",
+        "They become soil quickly."
+       ],
+       "e": [
+        "They pollute water.",
+        "They kill animals that eat them.",
+        "Plastic takes hundreds of years to break down."
+       ],
+       "y": "Blocked gutters overflow."
+      },
+      {
+       "q": "Which disease is spread by flies breeding in rubbish?",
+       "r": "cholera",
+       "w": [
+        "goitre",
+        "obesity",
+        "anaemia"
+       ],
+       "e": [
+        "Goitre is from lack of iodine.",
+        "Obesity is from too much food.",
+        "Anaemia is from lack of iron."
+       ],
+       "y": "Flies carry germs from waste to food."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-38-r",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Using an empty bottle to store palm oil.",
+       "r": "reuse",
+       "w": [
+        "recycle",
+        "incinerate",
+        "compost"
+       ],
+       "e": [
+        "Recycling makes a new material.",
+        "Nothing is burned.",
+        "A bottle does not rot."
+       ],
+       "y": "The same object is used again."
+      },
+      {
+       "q": "Melting old plastic to make pavement tiles.",
+       "r": "recycle",
+       "w": [
+        "reuse",
+        "avoid",
+        "compost"
+       ],
+       "e": [
+        "Reuse keeps the same object.",
+        "The waste already exists.",
+        "Plastic does not rot."
+       ],
+       "y": "A new product from old material."
+      },
+      {
+       "q": "Refusing a plastic bag and carrying a basket.",
+       "r": "avoid",
+       "w": [
+        "recycle",
+        "reuse",
+        "incinerate"
+       ],
+       "e": [
+        "No material is remade.",
+        "No old object is used again.",
+        "Nothing is burned."
+       ],
+       "y": "No waste is created."
+      },
+      {
+       "q": "Burning hospital waste at a very high temperature.",
+       "r": "incinerate",
+       "w": [
+        "compost",
+        "reuse",
+        "reduce"
+       ],
+       "e": [
+        "Compost is rotting plant waste.",
+        "It is destroyed, not reused.",
+        "The waste is burned."
+       ],
+       "y": "Incineration destroys germs too."
+      }
+     ]
+    }
+   },
+   "prompt": "Which way of managing waste is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-38-sort",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which waste is biodegradable?",
+       "r": "cassava peels",
+       "w": [
+        "a plastic bottle",
+        "a glass jar",
+        "an empty tin"
+       ],
+       "e": [
+        "Plastic does not rot.",
+        "Glass does not rot.",
+        "Metal rusts slowly but does not rot."
+       ],
+       "y": "Peels are broken down by microorganisms."
+      },
+      {
+       "q": "Why is avoiding waste better than recycling it?",
+       "r": "No waste is made, so nothing needs to be treated.",
+       "w": [
+        "Recycling is always harmful.",
+        "Avoiding makes more plastic.",
+        "Recycling is illegal."
+       ],
+       "e": [
+        "Recycling is good, but it uses energy.",
+        "Avoiding means less plastic.",
+        "Recycling is legal and useful."
+       ],
+       "y": "Avoiding is at the top of the hierarchy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "b2-38-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "nutrition-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Composting turns food waste into manure.",
+      "truth": "true"
+     },
+     {
+      "text": "Recycling makes new things from old materials.",
+      "truth": "true"
+     },
+     {
+      "text": "Dumped waste breeds flies and rats.",
+      "truth": "true"
+     },
+     {
+      "text": "Plastic is non-biodegradable.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plastic bags rot in a few weeks.",
+      "truth": "false",
+      "explain": "Plastic takes hundreds of years to break down."
+     },
+     {
+      "text": "Burning plastic in the open is safe.",
+      "truth": "false",
+      "explain": "It gives off poisonous smoke."
+     },
+     {
+      "text": "Recycling is better than avoiding waste.",
+      "truth": "false",
+      "explain": "Avoiding waste is best: nothing needs treating."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
