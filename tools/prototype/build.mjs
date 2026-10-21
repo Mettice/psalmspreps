@@ -31,7 +31,7 @@ const SPINE = { maths: "mathematics", english: "english-language", physics: "phy
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
 const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10), "home-economics": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21],
   history: upTo(10), biology: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21], "computer-science": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18], french: upTo(15),
-  "f2-maths": upTo(54), "f2-english": upTo(76), "f2-physics": upTo(31), "f2-chemistry": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17],
+  "f2-maths": upTo(54), "f2-english": upTo(76), "f2-physics": upTo(31), "f2-chemistry": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45],
   "f2-biology": [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21],
   "f2-home-economics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "f2-geography": upTo(10), "f2-history": upTo(10),
   "f2-computer-science": [1, 2, 4, 5, 6, 8, 9, 11, 12, 14, 15, 16, 18, 19], "f2-accounting": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12],

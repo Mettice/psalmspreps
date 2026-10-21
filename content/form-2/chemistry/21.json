@@ -1,0 +1,505 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "k2-21",
+   "name": "Examples of chemical reactions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Some important types of chemical reaction:\n• Combination (synthesis): two substances join to make one. Iron + sulphur → iron sulphide.\n• Decomposition: one substance breaks into simpler ones, often by heating. Calcium carbonate → calcium oxide + carbon dioxide.\n• Combustion (burning): a substance reacts with oxygen and gives out heat and light. Methane (gas) + oxygen → carbon dioxide + water.\n• Displacement: a more reactive element pushes a less reactive one out of its compound. Zinc + copper sulphate → zinc sulphate + copper.\n• Neutralisation: an acid reacts with a base to give a salt and water. Sodium hydroxide + hydrochloric acid → sodium chloride + water.\nEveryday examples: cooking, digestion, respiration, photosynthesis, rusting, souring of food.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "calcium carbonate → calcium oxide + carbon dioxide"
+  },
+  "problem": "What type of reaction is {r}?",
+  "steps": [
+   "One substance (calcium carbonate) breaks down.",
+   "It gives two simpler substances."
+  ],
+  "answer": "Decomposition.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "Combination: two substances join to make one product. Decomposition: one substance breaks into simpler substances.",
+    "vars": {},
+    "example": [
+     "Iron + sulphur → iron sulphide (combination).",
+     "Heating limestone gives lime and carbon dioxide (decomposition)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-21-type"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Combustion is burning in oxygen, giving out heat and light. Neutralisation is acid + base → salt + water.",
+    "vars": {},
+    "example": [
+     "Cooking gas burning on a stove.",
+     "Sodium hydroxide + hydrochloric acid → salt + water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-21-burn"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Displacement: a more reactive metal takes the place of a less reactive one in its compound.",
+    "vars": {},
+    "example": [
+     "Zinc + copper sulphate → zinc sulphate + copper.",
+     "Copper cannot push zinc out."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-21-disp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Zinc is more reactive than copper. What happens when zinc is put in copper sulphate solution?",
+         "r": "Copper is displaced and zinc sulphate forms.",
+         "w": [
+          "Nothing happens.",
+          "Zinc is displaced.",
+          "Oxygen is given off."
+         ],
+         "e": [
+          "Zinc is more reactive, so it does react.",
+          "The more reactive metal stays in the compound, not out of it.",
+          "No oxygen is made here."
+         ],
+         "y": "The more reactive metal takes the place of the less reactive one."
+        },
+        {
+         "q": "Copper is less reactive than iron. Will copper displace iron from iron sulphate?",
+         "r": "No",
+         "w": [
+          "Yes",
+          "Only when cold",
+          "Only in the dark"
+         ],
+         "e": [
+          "A less reactive metal cannot push out a more reactive one.",
+          "Temperature does not change the order of reactivity.",
+          "Light does not matter."
+         ],
+         "y": "Only a more reactive metal can displace another."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-21-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "iron + sulphur → iron sulphide",
+       "r": "combination",
+       "w": [
+        "decomposition",
+        "neutralisation",
+        "displacement"
+       ],
+       "e": [
+        "Nothing breaks down; two substances join.",
+        "No acid or base is used.",
+        "No element is pushed out."
+       ],
+       "y": "Two substances join to make one."
+      },
+      {
+       "q": "calcium carbonate → calcium oxide + carbon dioxide",
+       "r": "decomposition",
+       "w": [
+        "combination",
+        "neutralisation",
+        "combustion"
+       ],
+       "e": [
+        "One substance gives two, the opposite of combination.",
+        "No acid or base.",
+        "No oxygen is used."
+       ],
+       "y": "One substance breaks into two."
+      },
+      {
+       "q": "sodium hydroxide + hydrochloric acid → sodium chloride + water",
+       "r": "neutralisation",
+       "w": [
+        "decomposition",
+        "combination",
+        "combustion"
+       ],
+       "e": [
+        "Two substances react, not one breaking down.",
+        "Two products are made, not one.",
+        "Nothing burns in oxygen."
+       ],
+       "y": "Acid + base → salt + water."
+      },
+      {
+       "q": "methane + oxygen → carbon dioxide + water",
+       "r": "combustion",
+       "w": [
+        "decomposition",
+        "neutralisation",
+        "displacement"
+       ],
+       "e": [
+        "Methane reacts with oxygen; it does not just break down.",
+        "No acid or base.",
+        "No metal is pushed out."
+       ],
+       "y": "Burning in oxygen is combustion."
+      },
+      {
+       "q": "zinc + copper sulphate → zinc sulphate + copper",
+       "r": "displacement",
+       "w": [
+        "combination",
+        "decomposition",
+        "neutralisation"
+       ],
+       "e": [
+        "Two products are made, not one.",
+        "Two substances react.",
+        "No acid or base."
+       ],
+       "y": "Zinc pushes copper out of its compound."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of reaction is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-21-burn",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is given out when a substance burns?",
+       "r": "heat and light",
+       "w": [
+        "oxygen",
+        "only water",
+        "nothing"
+       ],
+       "e": [
+        "Oxygen is used up when things burn.",
+        "Water may form, but heat and light are always given out.",
+        "Burning gives out heat and light."
+       ],
+       "y": "Combustion gives out heat and light."
+      },
+      {
+       "q": "What does an acid react with in neutralisation?",
+       "r": "a base (alkali)",
+       "w": [
+        "another acid",
+        "oxygen",
+        "a noble gas"
+       ],
+       "e": [
+        "Two acids do not neutralise each other.",
+        "That is combustion.",
+        "Noble gases do not react."
+       ],
+       "y": "Acid + base → salt + water."
+      },
+      {
+       "q": "Which everyday process is a chemical reaction?",
+       "r": "digesting food",
+       "w": [
+        "drying clothes",
+        "melting shea butter",
+        "grinding pepper"
+       ],
+       "e": [
+        "Drying is evaporation: physical.",
+        "Melting is physical.",
+        "Grinding only makes small pieces."
+       ],
+       "y": "Digestion breaks food into new substances."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-21-disp",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Zinc is more reactive than copper. What happens when zinc is put in copper sulphate solution?",
+       "r": "Copper is displaced and zinc sulphate forms.",
+       "w": [
+        "Nothing happens.",
+        "Zinc is displaced.",
+        "Oxygen is given off."
+       ],
+       "e": [
+        "Zinc is more reactive, so it does react.",
+        "The more reactive metal stays in the compound, not out of it.",
+        "No oxygen is made here."
+       ],
+       "y": "The more reactive metal takes the place of the less reactive one."
+      },
+      {
+       "q": "Copper is less reactive than iron. Will copper displace iron from iron sulphate?",
+       "r": "No",
+       "w": [
+        "Yes",
+        "Only when cold",
+        "Only in the dark"
+       ],
+       "e": [
+        "A less reactive metal cannot push out a more reactive one.",
+        "Temperature does not change the order of reactivity.",
+        "Light does not matter."
+       ],
+       "y": "Only a more reactive metal can displace another."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Heating limestone is a decomposition reaction.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning is a reaction with oxygen.",
+      "truth": "true"
+     },
+     {
+      "text": "Neutralisation gives a salt and water.",
+      "truth": "true"
+     },
+     {
+      "text": "Respiration is a chemical reaction.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Combination: one substance breaks into two.",
+      "truth": "false",
+      "explain": "That is decomposition; combination joins substances."
+     },
+     {
+      "text": "Copper displaces zinc from zinc sulphate.",
+      "truth": "false",
+      "explain": "Copper is less reactive than zinc, so it cannot."
+     },
+     {
+      "text": "Photosynthesis is a physical change.",
+      "truth": "false",
+      "explain": "Photosynthesis makes glucose and oxygen: a chemical change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

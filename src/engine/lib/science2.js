@@ -3,7 +3,7 @@
 // Used with maths.js, english.js, physics.js, chemistry.js and biology.js (bioArrangement for lettered parts).
 // Tables marked "authored" are facts a teacher must check (docs/teacher-review.md, TR-Q, TR-J, TR-V).
 import { fmt } from "./maths.js";
-import { nameOf, ELEMENTS } from "./chemistry.js";
+import { nameOf, ELEMENTS, parseFormula, kindOf, formula } from "./chemistry.js";
 import { bioArrangement } from "./biology.js";
 
 // ---------------------------------------------------------------- data
@@ -240,3 +240,72 @@ export function shadowFig(h, d1, d2) {
   return `<svg class="fig" viewBox="0 0 300 200" role="img" aria-label="A point source, an object and its shadow on a screen" xmlns="http://www.w3.org/2000/svg" ` +
     `font-family="system-ui, sans-serif" fill="none" stroke="currentColor" stroke-width="1">${body}</svg>`;
 }
+
+// ================================================================ Chemistry Term 2 (2026-10-21)
+// Balanced equations (authored, TR-J10); every one is checked by atom counting in the tests.
+// Each: [words, reactants [[coefficient, formula]], products [[coefficient, formula]]].
+const EQ = [
+  ["magnesium + oxygen → magnesium oxide", [[2, "Mg"], [1, "O2"]], [[2, "MgO"]]],
+  ["carbon + oxygen → carbon dioxide", [[1, "C"], [1, "O2"]], [[1, "CO2"]]],
+  ["hydrogen + oxygen → water", [[2, "H2"], [1, "O2"]], [[2, "H2O"]]],
+  ["sodium + oxygen → sodium oxide", [[4, "Na"], [1, "O2"]], [[2, "Na2O"]]],
+  ["calcium + oxygen → calcium oxide", [[2, "Ca"], [1, "O2"]], [[2, "CaO"]]],
+  ["sulphur + oxygen → sulphur dioxide", [[1, "S"], [1, "O2"]], [[1, "SO2"]]],
+  ["iron + oxygen → iron(III) oxide", [[4, "Fe"], [3, "O2"]], [[2, "Fe2O3"]]],
+  ["aluminium + oxygen → aluminium oxide", [[4, "Al"], [3, "O2"]], [[2, "Al2O3"]]],
+  ["copper + oxygen → copper(II) oxide", [[2, "Cu"], [1, "O2"]], [[2, "CuO"]]],
+  ["iron + sulphur → iron(II) sulphide", [[1, "Fe"], [1, "S"]], [[1, "FeS"]]],
+  ["nitrogen + hydrogen → ammonia", [[1, "N2"], [3, "H2"]], [[2, "NH3"]]],
+  ["hydrogen + chlorine → hydrogen chloride", [[1, "H2"], [1, "Cl2"]], [[2, "HCl"]]],
+  ["zinc + hydrochloric acid → zinc chloride + hydrogen", [[1, "Zn"], [2, "HCl"]], [[1, "ZnCl2"], [1, "H2"]]],
+  ["magnesium + hydrochloric acid → magnesium chloride + hydrogen", [[1, "Mg"], [2, "HCl"]], [[1, "MgCl2"], [1, "H2"]]],
+  ["calcium carbonate → calcium oxide + carbon dioxide", [[1, "CaCO3"]], [[1, "CaO"], [1, "CO2"]]],
+  ["methane + oxygen → carbon dioxide + water", [[1, "CH4"], [2, "O2"]], [[1, "CO2"], [2, "H2O"]]],
+  ["sodium hydroxide + hydrochloric acid → sodium chloride + water", [[1, "NaOH"], [1, "HCl"]], [[1, "NaCl"], [1, "H2O"]]],
+  ["potassium chlorate → potassium chloride + oxygen", [[2, "KClO3"]], [[2, "KCl"], [3, "O2"]]],
+  ["hydrogen peroxide → water + oxygen", [[2, "H2O2"]], [[2, "H2O"], [1, "O2"]]],
+  ["calcium oxide + water → calcium hydroxide", [[1, "CaO"], [1, "H2O"]], [[1, "Ca(OH)2"]]],
+];
+export const nEquations = () => EQ.length;
+/** Indices of the equations that only form a binary compound from elements (Term 2, row 24). */
+export const binaryEquations = () => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+export const otherEquations = () => [12, 13, 14, 15, 16, 17, 18, 19];
+export const eqWords = (i) => EQ[i][0];
+const side = (terms, coefs) => terms.map(([c, f], k) => `${(coefs ? coefs[k] : c) === 1 ? "" : coefs ? coefs[k] : c}${formula(f)}`).join(" + ");
+/** "2Mg + O₂ → 2MgO" (balanced), or with the given coefficients (to make wrong options). */
+export const eqStr = (i) => `${side(EQ[i][1])} → ${side(EQ[i][2])}`;
+/** The unbalanced skeleton: every coefficient 1. */
+export const eqSkeleton = (i) => `${side(EQ[i][1], EQ[i][1].map(() => 1))} → ${side(EQ[i][2], EQ[i][2].map(() => 1))}`;
+/** The balanced equation with the coefficient of term k (counting reactants then products) shown as ___. */
+export function eqBlank(i, k) {
+  const all = [...EQ[i][1], ...EQ[i][2]], n = EQ[i][1].length;
+  const one = (t, j) => (j === k ? `___${formula(t[1])}` : `${t[0] === 1 ? "" : t[0]}${formula(t[1])}`);
+  return `${all.slice(0, n).map(one).join(" + ")} → ${all.slice(n).map((t, j) => one(t, j + n)).join(" + ")}`;
+}
+export const eqCoef = (i, k) => [...EQ[i][1], ...EQ[i][2]][k][0];
+export const eqTerms = (i) => EQ[i][1].length + EQ[i][2].length;
+/** The term whose coefficient is not 1 (the most useful blank); the first if all are 1. */
+export const eqKeyTerm = (i) => Math.max(0, [...EQ[i][1], ...EQ[i][2]].findIndex((t) => t[0] !== 1));
+/** The equation with the coefficient of term k changed by d (a wrong option). */
+export function eqWrong(i, k, d) {
+  const all = [...EQ[i][1], ...EQ[i][2]].map((t) => t[0]);
+  all[k] = Math.max(1, all[k] + d);
+  const n = EQ[i][1].length;
+  return `${side(EQ[i][1], all.slice(0, n))} → ${side(EQ[i][2], all.slice(n))}`;
+}
+/** Number of atoms of an element on one side (0 reactants, 1 products) of the balanced equation. */
+export const eqAtoms = (i, s, symbol) => EQ[i][1 + s].reduce((t, [c, f]) => t + c * (parseFormula(f)[symbol] || 0), 0);
+export const eqElements = (i) => [...new Set(EQ[i][1].flatMap(([, f]) => Object.keys(parseFormula(f))))];
+export const eqBalanced = (i) => eqElements(i).every((e) => eqAtoms(i, 0, e) === eqAtoms(i, 1, e));
+/** Burning an element in oxygen: a metal gives a basic oxide, a non-metal an acidic oxide. */
+export const oxideType = (symbol) => (kindOf(symbol) === "metal" ? "basic" : "acidic");
+/** Rf value of a chromatography spot: distance moved by the spot ÷ distance moved by the solvent. */
+export const rf = (spot, solvent) => Number((spot / solvent).toFixed(2));
+/** The state of a substance at temperature T (°C) from its melting and boiling points. */
+export const stateAt = (T, mp, bp) => (T < mp ? "solid" : T < bp ? "liquid" : "gas");
+/** The k-th element in the equation (wrapping round), so a question can pick one with an integer. */
+export const eqElement = (i, k) => eqElements(i)[k % eqElements(i).length];
+/** The usual slip when counting atoms: the small numbers counted but the big numbers in front forgotten. */
+export const eqAtomsNoCoef = (i, s, symbol) => EQ[i][1 + s].reduce((t, [, f]) => t + (parseFormula(f)[symbol] || 0), 0);
+/** The formula of term k (reactants then products). */
+export const eqTermFormula = (i, k) => [...EQ[i][1], ...EQ[i][2]][k][1];

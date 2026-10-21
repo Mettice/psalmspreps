@@ -1,0 +1,458 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k2-33",
+   "name": "Burning: paper and cooking gas"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Burning (combustion) is a reaction of a substance with oxygen that gives out heat and light.\nThree things are needed for a fire (the fire triangle): fuel, oxygen (air) and heat (to reach the ignition temperature). Remove any one and the fire goes out.\nPaper is made of cellulose, which contains carbon, hydrogen and oxygen. When it burns: paper + oxygen → carbon dioxide + water (+ ash).\nCooking gas (butane, propane) and methane burn with a blue flame when there is enough air:\nmethane + oxygen → carbon dioxide + water\nWith too little air the flame is yellow and smoky, and poisonous carbon monoxide and soot (carbon) form. Always cook in a well-aired room.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a lid is put on a pan of burning oil"
+  },
+  "problem": "Why does the fire go out when {x}?",
+  "steps": [
+   "A fire needs fuel, oxygen and heat.",
+   "The lid stops oxygen from reaching the oil."
+  ],
+  "answer": "The oxygen is removed, so the fire triangle is broken.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c33-1",
+    "status": "draft",
+    "idea": "A fire needs fuel, oxygen and heat. Taking away any one puts the fire out.",
+    "vars": {},
+    "example": [
+     "Water cools a wood fire (removes heat).",
+     "Sand on a fire cuts off oxygen."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-33-triangle"
+    }
+   },
+   {
+    "id": "c33-2",
+    "status": "draft",
+    "idea": "Paper and cooking gas contain carbon and hydrogen; they burn to carbon dioxide and water.",
+    "vars": {},
+    "example": [
+     "methane + oxygen → carbon dioxide + water",
+     "Paper leaves a little ash."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-33-products"
+    }
+   },
+   {
+    "id": "c33-3",
+    "status": "draft",
+    "idea": "With too little air a flame is yellow and smoky, and poisonous carbon monoxide forms.",
+    "vars": {},
+    "example": [
+     "A blue gas flame has enough air.",
+     "Never burn charcoal in a closed room."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-33-air-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "burning-rusting"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A gas cooker burns with a yellow, smoky flame. What does this show?",
+         "r": "There is not enough air.",
+         "w": [
+          "There is too much air.",
+          "The gas is water.",
+          "The flame is very clean."
+         ],
+         "e": [
+          "Plenty of air gives a blue flame.",
+          "Cooking gas is a fuel.",
+          "Smoke shows unburnt carbon."
+         ],
+         "y": "Too little air gives a yellow, sooty flame."
+        },
+        {
+         "q": "Why is it dangerous to burn charcoal in a closed room?",
+         "r": "Poisonous carbon monoxide forms.",
+         "w": [
+          "It makes too much oxygen.",
+          "It makes the room cold.",
+          "It makes nitrogen."
+         ],
+         "e": [
+          "Burning uses oxygen.",
+          "Burning gives out heat.",
+          "Nitrogen is not formed."
+         ],
+         "y": "With little air, carbon monoxide forms; it can kill."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-33-triangle",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which three things are needed for burning?",
+       "r": "fuel, oxygen and heat",
+       "w": [
+        "fuel, water and heat",
+        "oxygen, nitrogen and fuel",
+        "heat, light and water"
+       ],
+       "e": [
+        "Water puts fires out.",
+        "Nitrogen does not support burning; heat is needed.",
+        "Fuel and oxygen are needed."
+       ],
+       "y": "The fire triangle."
+      },
+      {
+       "q": "Sand is thrown on a small fire. Which side of the fire triangle is removed?",
+       "r": "oxygen",
+       "w": [
+        "fuel",
+        "heat",
+        "nitrogen"
+       ],
+       "e": [
+        "The fuel is still there under the sand.",
+        "Sand mainly cuts off the air.",
+        "Nitrogen is not part of the triangle."
+       ],
+       "y": "Sand stops air reaching the fuel."
+      },
+      {
+       "q": "Water is poured on a burning log. How does this put out the fire?",
+       "r": "It cools the fuel below its ignition temperature.",
+       "w": [
+        "It adds oxygen.",
+        "It adds fuel.",
+        "It makes the wood lighter."
+       ],
+       "e": [
+        "Water does not add oxygen.",
+        "Water is not a fuel.",
+        "Mass is not the reason."
+       ],
+       "y": "Water removes heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-33-products",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are the products when cooking gas burns in plenty of air?",
+       "r": "carbon dioxide and water",
+       "w": [
+        "oxygen and hydrogen",
+        "nitrogen and water",
+        "carbon and oxygen"
+       ],
+       "e": [
+        "Oxygen is used, not made.",
+        "Nitrogen is not formed.",
+        "Carbon is only formed with too little air."
+       ],
+       "y": "Fuels with carbon and hydrogen give carbon dioxide and water."
+      },
+      {
+       "q": "Which elements does paper mainly contain?",
+       "r": "carbon, hydrogen and oxygen",
+       "w": [
+        "iron and oxygen",
+        "nitrogen only",
+        "sodium and chlorine"
+       ],
+       "e": [
+        "Paper is not a metal compound.",
+        "Paper is mostly cellulose.",
+        "That is common salt."
+       ],
+       "y": "Paper is cellulose: C, H and O."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-33-air",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A gas cooker burns with a yellow, smoky flame. What does this show?",
+       "r": "There is not enough air.",
+       "w": [
+        "There is too much air.",
+        "The gas is water.",
+        "The flame is very clean."
+       ],
+       "e": [
+        "Plenty of air gives a blue flame.",
+        "Cooking gas is a fuel.",
+        "Smoke shows unburnt carbon."
+       ],
+       "y": "Too little air gives a yellow, sooty flame."
+      },
+      {
+       "q": "Why is it dangerous to burn charcoal in a closed room?",
+       "r": "Poisonous carbon monoxide forms.",
+       "w": [
+        "It makes too much oxygen.",
+        "It makes the room cold.",
+        "It makes nitrogen."
+       ],
+       "e": [
+        "Burning uses oxygen.",
+        "Burning gives out heat.",
+        "Nitrogen is not formed."
+       ],
+       "y": "With little air, carbon monoxide forms; it can kill."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-33-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Burning gives out heat and light.",
+      "truth": "true"
+     },
+     {
+      "text": "A blue flame shows there is enough air.",
+      "truth": "true"
+     },
+     {
+      "text": "Cooking gas burns to carbon dioxide and water.",
+      "truth": "true"
+     },
+     {
+      "text": "Removing the fuel stops a fire.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A fire can burn without oxygen if it is hot enough.",
+      "truth": "false",
+      "explain": "Every fire needs oxygen."
+     },
+     {
+      "text": "Water on a fire adds oxygen and makes it burn faster.",
+      "truth": "false",
+      "explain": "Water cools the fire and puts it out."
+     },
+     {
+      "text": "A yellow smoky flame burns more cleanly than a blue one.",
+      "truth": "false",
+      "explain": "The yellow flame has soot and carbon monoxide."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

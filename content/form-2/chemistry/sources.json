@@ -1,6 +1,38 @@
 {
-  "_note": "Sources for Form 2 Chemistry (Batch C2-1, Term 1). Computed answers follow the rules and tables named here.",
-  "atomic-structure": {"ref": "Dalton's atomic theory (1803-1808); protons, neutrons and electrons; Bohr's model with shells of 2, 8, 8 for the first 20 elements; atomic number, mass number, isotopes", "supports": "The statements of Dalton's theory and its later corrections; particle charges and masses; electron arrangements; neutrons = mass number − atomic number. Mass numbers used: the most common isotope of each of the first 20 elements (Cl 35).", "checked": "Standard results; arrangements and particle numbers computed by code (science2.js, tested). The mass-number table is authored: please check it."},
-  "symbols-valency": {"ref": "Chemical symbols (IUPAC), valencies of common elements and radicals, writing formulae by swapping valencies, naming binary compounds (-ide) and compounds with radicals", "supports": "Symbols including those from Latin; radicals OH, NO₃, HCO₃, SO₄, CO₃, PO₄, NH₄ with their valencies; formulae and names built from the valency table.", "checked": "Formulae and names computed by code from the authored valency table (science2.js): please check the table (copper given valency 2)."},
-  "periodic-table": {"ref": "History of the periodic table (Döbereiner 1829, Newlands 1864, Mendeleev 1869, Moseley 1913); groups and periods; the families alkali metals, alkaline earth metals, halogens, noble gases; trends in reactivity", "supports": "Group = outer electrons, period = shells; family names and properties; alkali metals more reactive down the group, halogens less reactive; halogen displacement.", "checked": "Standard results, dates from general knowledge (not opened in this session): please check them."}
+ "_note": "Sources for Form 2 Chemistry (Batches C2-1 and C2-2, Terms 1 and 2). Computed answers follow the rules and tables named here.",
+ "atomic-structure": {
+  "ref": "Dalton's atomic theory (1803-1808); protons, neutrons and electrons; Bohr's model with shells of 2, 8, 8 for the first 20 elements; atomic number, mass number, isotopes",
+  "supports": "The statements of Dalton's theory and its later corrections; particle charges and masses; electron arrangements; neutrons = mass number − atomic number. Mass numbers used: the most common isotope of each of the first 20 elements (Cl 35).",
+  "checked": "Standard results; arrangements and particle numbers computed by code (science2.js, tested). The mass-number table is authored: please check it."
+ },
+ "symbols-valency": {
+  "ref": "Chemical symbols (IUPAC), valencies of common elements and radicals, writing formulae by swapping valencies, naming binary compounds (-ide) and compounds with radicals",
+  "supports": "Symbols including those from Latin; radicals OH, NO₃, HCO₃, SO₄, CO₃, PO₄, NH₄ with their valencies; formulae and names built from the valency table.",
+  "checked": "Formulae and names computed by code from the authored valency table (science2.js): please check the table (copper given valency 2)."
+ },
+ "periodic-table": {
+  "ref": "History of the periodic table (Döbereiner 1829, Newlands 1864, Mendeleev 1869, Moseley 1913); groups and periods; the families alkali metals, alkaline earth metals, halogens, noble gases; trends in reactivity",
+  "supports": "Group = outer electrons, period = shells; family names and properties; alkali metals more reactive down the group, halogens less reactive; halogen displacement.",
+  "checked": "Standard results, dates from general knowledge (not opened in this session): please check them."
+ },
+ "reactions-equations": {
+  "ref": "Physical and chemical changes; types of reaction (combination, decomposition, combustion, displacement, neutralisation); word and symbolic equations, state symbols; balancing by coefficients; the law of conservation of mass (Lavoisier) and the closed-flask experiment (lead nitrate + potassium iodide)",
+  "supports": "Twenty balanced equations (science2.js, EQ table) with their word forms; atom counts per side; missing masses by addition or subtraction.",
+  "checked": "Every equation in the table is checked by atom counting in the tests (eqBalanced). The table of equations and their word forms is authored: please check it, especially the names iron(III) oxide, copper(II) oxide and iron(II) sulphide."
+ },
+ "air": {
+  "ref": "Composition of dry air by volume (N₂ 78%, O₂ 21%, Ar about 0.9%, CO₂ about 0.04%); the heated-copper gas-syringe experiment; uses of oxygen, nitrogen, argon and carbon dioxide; air as a mixture; fractional distillation of liquid air",
+  "supports": "Oxygen used = start volume − end volume; percentage = used ÷ start × 100. Boiling points used: N₂ −196 °C, Ar −186 °C, O₂ −183 °C; air liquefied at about −200 °C.",
+  "checked": "Standard values from general knowledge (not opened in this session): please check them."
+ },
+ "burning-rusting": {
+  "ref": "Combustion and the fire triangle; complete and incomplete burning (carbon monoxide); burning of paper, cooking gas, wood and cloth; burning of metals and non-metals, basic and acidic oxides; rusting (conditions, the three-tube experiment, Fe₂O₃·xH₂O) and its prevention (painting, oiling, galvanising, tin and chromium plating, sacrificial protection)",
+  "supports": "Oxide type from metal/non-metal (science2.js oxideType, using kindOf); aluminium and zinc are left out as amphoteric. Flame colours: Mg white, Na yellow, Ca brick-red, S blue.",
+  "checked": "Standard results from general knowledge: please check them, and the safety advice (stop, drop and roll)."
+ },
+ "separation-purity": {
+  "ref": "States of matter and changes of state; separation by picking, sieving, decanting, filtration, evaporation, crystallisation, magnet, separating funnel, winnowing, simple and fractional distillation, paper and column chromatography, sublimation; melting and boiling points; criteria for purity",
+  "supports": "State from melting and boiling points (science2.js stateAt); Rf = spot distance ÷ solvent distance (rf). Melting/boiling points used: water 0/100, ethanol −114/78, mercury −39/357, naphthalene 80/218, oxygen −218/−183, sulphur 115/445 °C; methanol boils at 65 °C, propanone at 56 °C.",
+  "checked": "The table of melting and boiling points is authored from general knowledge: please check it."
+ }
 }

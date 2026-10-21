@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-199 P1 items: 197 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+203 P1 items: 201 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -227,6 +227,10 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-Q11 | Form 2 Physics: the eye and lenses | open |
 | TR-Q12 | Form 2 Physics: health physics | open |
 | TR-Q13 | Form 2 Physics: energy, radiation, climate | open |
+| TR-J10 | Form 2 Chemistry: equations table | open |
+| TR-J11 | Form 2 Chemistry: air | open |
+| TR-J12 | Form 2 Chemistry: burning and rusting | open |
+| TR-J13 | Form 2 Chemistry: separation and purity | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -854,3 +858,13 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 - [ ] **TR-Q11 [P1] The eye and lenses:** short sight corrected by a diverging lens, long sight by a converging lens; lens power P = 100 ÷ f(cm) with the sign convention (+ converging, − diverging). *Location:* row 25.
 - [ ] **TR-Q12 [P1] Health physics:** blood pressure written 120/80 mmHg (systolic/diastolic), liquid pressure p = ρgh with g = 10 N/kg, pulse rate from a 15-second count, “220 − age” given only as a common guide for the maximum heart rate. *Location:* rows 23–24.
 - [ ] **TR-Q13 [P1] Energy, radiation and climate:** renewable sources (Cameroon's dams Edéa, Song Loulou, Lom Pangar), energy chains, emissions (CO₂, CO, CFCs), the sun's radiation and the ozone layer (light takes about 500 s from the sun), the greenhouse effect, global warming, climate change, adaptation and mitigation, national parks. *Location:* rows 16, 22, 26–31.
+
+## J (Term 2). Chemistry Form 2, Batch C2-2 (Term 2, rows 20–27, 29–38, 40–45), added 2026-10-21 (form-2 branch)
+
+24 lessons: chemical changes and types of reaction, word and symbolic equations, balancing (binary and more complex compounds), conservation of mass, the composition of air, uses of oxygen and nitrogen, air as a mixture, fractional distillation of liquid air, burning (fire triangle; paper, cooking gas, wood, cloth; metals and non-metals), rusting and its prevention, states of matter, separation techniques, distillation, chromatography, sublimation and melting/boiling points, criteria for purity. Integration rows 28, 39 and 46 are not lessons. Computed parts (equations, atom counts, coefficients, oxide type, Rf values, states) come from `science2.js`. Reviewer: a Chemistry teacher.
+
+### P1
+- [ ] **TR-J10 [P1] Equations table:** the twenty balanced equations and their word forms in `science2.js` (all checked by atom counting in the tests); the names iron(III) oxide, copper(II) oxide, iron(II) sulphide; the balancing tips (metals first, H and O last). *Location:* rows 22–25.
+- [ ] **TR-J11 [P1] Air:** composition by volume (N₂ 78%, O₂ 21%, Ar 0.9%, CO₂ 0.04%), the heated-copper syringe experiment, boiling points N₂ −196, Ar −186, O₂ −183 °C, liquefaction at about −200 °C. *Location:* rows 29–32.
+- [ ] **TR-J12 [P1] Burning and rusting:** metal oxides basic and non-metal oxides acidic (Al and Zn left out as amphoteric), flame colours, carbon monoxide safety, the three-tube rusting experiment, rust as Fe₂O₃·xH₂O, the prevention methods matched to objects (chain oiled, gate painted, can tin-plated, roof galvanised). *Location:* rows 33–38.
+- [ ] **TR-J13 [P1] Separation and purity:** melting and boiling points used (water 0/100, ethanol −114/78, mercury −39/357, naphthalene 80/218, oxygen −218/−183, sulphur 115/445, methanol 65, propanone 56 °C), Rf = spot ÷ solvent, impurities raise the boiling point and lower the melting point. *Location:* rows 40–45.

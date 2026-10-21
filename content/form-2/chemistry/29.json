@@ -1,0 +1,370 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k2-29",
+   "name": "The composition of air"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Air is a mixture of gases. By volume, dry air is about:\n• nitrogen 78%\n• oxygen 21%\n• argon and other noble gases about 0.9%\n• carbon dioxide about 0.04%\nIt also contains water vapour and dust, which vary.\nFinding the percentage of oxygen: pass a known volume of air (for example 100 cm³) many times over heated copper in a tube between two gas syringes. The copper turns black (copper oxide) as it takes the oxygen. When cool, the volume left is about 79 cm³.\nOxygen used = volume at start − volume at end.\nPercentage of oxygen = oxygen used ÷ volume at start × 100.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": 200,
+   "w": 158
+  },
+  "problem": "{v} cm³ of air is passed over heated copper until no more change. {w} cm³ of gas is left. Find the percentage of oxygen.",
+  "steps": [
+   "Oxygen used = {v} − {w} = {v - w} cm³.",
+   "Percentage = {v - w} ÷ {v} × {100} = {(v - w) / v * 100}%."
+  ],
+  "answer": "{(v - w) / v * 100}%",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "Air is a mixture: about {78}% nitrogen, {21}% oxygen and small amounts of argon, carbon dioxide and water vapour.",
+    "vars": {},
+    "example": [
+     "Nitrogen is the largest part.",
+     "Oxygen is about one fifth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-29-parts"
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "Heated copper takes the oxygen from the air and turns black; the volume of gas goes down.",
+    "vars": {},
+    "example": [
+     "Copper + oxygen → copper(II) oxide.",
+     "The gas left is mainly nitrogen."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-29-copper"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "Oxygen used = volume at start − volume at end; percentage = oxygen used ÷ start volume × {100}.",
+    "vars": {},
+    "example": [
+     "Start {100} cm³, end {79} cm³: oxygen {21} cm³.",
+     "{21} ÷ {100} × {100} = {21}%."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-29-used-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "air"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        100,
+        200,
+        300,
+        500
+       ]
+      },
+      "w": {
+       "expr": "v * 79 / 100"
+      }
+     },
+     "prompt": "{v} cm³ of air is passed over heated copper. {w} cm³ of gas is left. What volume of oxygen was used?",
+     "answer": "v - w",
+     "misconceptions": [
+      {
+       "id": "left",
+       "wrong": "w",
+       "explain": "That is the gas left: subtract it from the start volume."
+      }
+     ],
+     "solution": [
+      "Oxygen used = volume at start − volume at end.",
+      "{v} − {w} = {answer} cm³."
+     ],
+     "unit": "cm³"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-29-parts",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which gas makes up the largest part of air?",
+       "r": "nitrogen",
+       "w": [
+        "oxygen",
+        "carbon dioxide",
+        "argon"
+       ],
+       "e": [
+        "Oxygen is only about 21%.",
+        "Carbon dioxide is a tiny part.",
+        "Argon is under 1%."
+       ],
+       "y": "Nitrogen is about 78% of air."
+      },
+      {
+       "q": "About what percentage of air is oxygen?",
+       "r": "21%",
+       "w": [
+        "78%",
+        "50%",
+        "1%"
+       ],
+       "e": [
+        "78% is nitrogen.",
+        "Oxygen is about one fifth, not half.",
+        "Argon is about 1%."
+       ],
+       "y": "Oxygen is about 21% of air."
+      },
+      {
+       "q": "Which noble gas is found in air (about 0.9%)?",
+       "r": "argon",
+       "w": [
+        "chlorine",
+        "hydrogen",
+        "fluorine"
+       ],
+       "e": [
+        "Chlorine is not a noble gas.",
+        "Hydrogen is not a noble gas.",
+        "Fluorine is a halogen."
+       ],
+       "y": "Argon is the main noble gas in air."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-29-copper",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In the experiment, what happens to the heated copper?",
+       "r": "It turns black.",
+       "w": [
+        "It melts.",
+        "It turns white.",
+        "Nothing happens."
+       ],
+       "e": [
+        "The tube is not hot enough to melt copper.",
+        "Copper oxide is black.",
+        "It reacts with oxygen."
+       ],
+       "y": "Copper(II) oxide is black."
+      },
+      {
+       "q": "Which gas is mainly left in the syringe at the end?",
+       "r": "nitrogen",
+       "w": [
+        "oxygen",
+        "carbon dioxide",
+        "hydrogen"
+       ],
+       "e": [
+        "The oxygen was used by the copper.",
+        "Carbon dioxide is a tiny part.",
+        "Air has almost no hydrogen."
+       ],
+       "y": "Nitrogen does not react with copper."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-29-used",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      100,
+      200,
+      300,
+      500
+     ]
+    },
+    "w": {
+     "expr": "v * 79 / 100"
+    }
+   },
+   "prompt": "{v} cm³ of air is passed over heated copper. {w} cm³ of gas is left. What volume of oxygen was used?",
+   "answer": "v - w",
+   "misconceptions": [
+    {
+     "id": "left",
+     "wrong": "w",
+     "explain": "That is the gas left: subtract it from the start volume."
+    }
+   ],
+   "solution": [
+    "Oxygen used = volume at start − volume at end.",
+    "{v} − {w} = {answer} cm³."
+   ],
+   "unit": "cm³"
+  },
+  {
+   "id": "k2-29-pct",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      100,
+      200,
+      300,
+      500
+     ]
+    },
+    "p": {
+     "pick": [
+      20,
+      21
+     ]
+    },
+    "w": {
+     "expr": "v * (100 - p) / 100"
+    }
+   },
+   "prompt": "{v} cm³ of air is passed over heated copper until no more change. {w} cm³ of gas is left. What percentage of the air was oxygen?",
+   "answer": "(v - w) / v * 100",
+   "misconceptions": [
+    {
+     "id": "volume",
+     "wrong": "v - w",
+     "explain": "That is the volume: divide by the start volume and × {100}.",
+     "when": "v != 100"
+    },
+    {
+     "id": "leftpct",
+     "wrong": "w / v * 100",
+     "explain": "That is the gas left (mainly nitrogen): use the oxygen used."
+    }
+   ],
+   "solution": [
+    "Oxygen used = {v} − {w} = {v - w} cm³.",
+    "Percentage = {v - w} ÷ {v} × {100} = {answer}%."
+   ],
+   "unit": "%"
+  }
+ ]
+}

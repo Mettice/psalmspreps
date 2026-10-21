@@ -1,0 +1,493 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 44,
+ "language": "en",
+ "prerequisites": [
+  40
+ ],
+ "skills": [
+  {
+   "id": "k2-44",
+   "name": "Sublimation, melting point and boiling point"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Melting point: the temperature at which a solid turns into a liquid. Ice melts at 0 °C.\nBoiling point: the temperature at which a liquid boils, turning into a gas throughout. Pure water boils at 100 °C at sea level (lower on a high mountain such as Mount Cameroon, where the air pressure is lower).\nSublimation: a solid turns directly into a gas without melting, and the gas turns back to a solid on cooling. Examples: iodine, ammonium chloride, camphor (naphthalene balls), solid carbon dioxide (dry ice).\nSublimation separates a solid that sublimes from one that does not, for example ammonium chloride from salt: heat the mixture; ammonium chloride sublimes and collects on a cool surface; the salt stays.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "ammonium chloride and common salt"
+  },
+  "problem": "How can {m} be separated?",
+  "steps": [
+   "Heat the mixture with a cold funnel or dish above it.",
+   "Ammonium chloride sublimes and forms a solid on the cold surface; salt does not sublime."
+  ],
+  "answer": "By sublimation.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c44-1",
+    "status": "draft",
+    "idea": "Melting point: solid → liquid; boiling point: liquid → gas throughout.",
+    "vars": {},
+    "example": [
+     "Ice melts at {0} °C.",
+     "Pure water boils at {100} °C at sea level."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-44-points"
+    }
+   },
+   {
+    "id": "c44-2",
+    "status": "draft",
+    "idea": "Sublimation is solid → gas directly; iodine, camphor and ammonium chloride sublime.",
+    "vars": {},
+    "example": [
+     "Naphthalene balls in a wardrobe get smaller.",
+     "Iodine gives a purple vapour."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-44-sub"
+    }
+   },
+   {
+    "id": "c44-3",
+    "status": "draft",
+    "idea": "Sublimation separates a solid that sublimes from one that does not.",
+    "vars": {},
+    "example": [
+     "Ammonium chloride from salt.",
+     "Iodine from sand."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-44-sep-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "separation-purity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How is ammonium chloride separated from salt?",
+         "r": "by sublimation",
+         "w": [
+          "by filtration",
+          "by a magnet",
+          "by distillation"
+         ],
+         "e": [
+          "Both dissolve in water.",
+          "Neither is magnetic.",
+          "Neither is a liquid."
+         ],
+         "y": "Ammonium chloride sublimes; salt does not."
+        },
+        {
+         "q": "When a mixture of iodine and sand is heated under a cold funnel, where does the iodine collect?",
+         "r": "on the cold funnel",
+         "w": [
+          "at the bottom with the sand",
+          "in the air only",
+          "in the flame"
+         ],
+         "e": [
+          "The iodine leaves the sand as vapour.",
+          "The vapour turns back to solid on the cold surface.",
+          "It does not collect in the flame."
+         ],
+         "y": "The vapour sublimes back to solid on cooling."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-44-points",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the melting point of a substance?",
+       "r": "the temperature at which the solid turns to liquid",
+       "w": [
+        "the temperature at which the liquid turns to gas",
+        "the temperature at which a gas turns to liquid",
+        "the highest temperature it can reach"
+       ],
+       "e": [
+        "That is the boiling point.",
+        "That is condensation.",
+        "That is not a definition."
+       ],
+       "y": "Solid → liquid."
+      },
+      {
+       "q": "At what temperature does pure water boil at sea level?",
+       "r": "100 °C",
+       "w": [
+        "0 °C",
+        "37 °C",
+        "78 °C"
+       ],
+       "e": [
+        "0 °C is its melting point.",
+        "37 °C is body temperature.",
+        "78 °C is the boiling point of ethanol."
+       ],
+       "y": "Pure water boils at 100 °C."
+      },
+      {
+       "q": "Why does water boil below 100 °C on top of Mount Cameroon?",
+       "r": "The air pressure is lower.",
+       "w": [
+        "It is hotter there.",
+        "The water is salty.",
+        "There is more oxygen."
+       ],
+       "e": [
+        "It is colder there.",
+        "Salt would raise the boiling point.",
+        "There is less air, not more oxygen."
+       ],
+       "y": "Lower pressure, lower boiling point."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-44-sub",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which substance sublimes when heated?",
+       "r": "iodine",
+       "w": [
+        "common salt",
+        "sand",
+        "sugar"
+       ],
+       "e": [
+        "Salt melts at a high temperature.",
+        "Sand does not sublime.",
+        "Sugar melts and burns."
+       ],
+       "y": "Iodine turns straight to a purple vapour."
+      },
+      {
+       "q": "What is sublimation?",
+       "r": "a solid turning directly into a gas",
+       "w": [
+        "a liquid turning into a gas",
+        "a gas turning into a liquid",
+        "a solid turning into a liquid"
+       ],
+       "e": [
+        "That is evaporation or boiling.",
+        "That is condensation.",
+        "That is melting."
+       ],
+       "y": "No liquid is formed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-44-sep",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How is ammonium chloride separated from salt?",
+       "r": "by sublimation",
+       "w": [
+        "by filtration",
+        "by a magnet",
+        "by distillation"
+       ],
+       "e": [
+        "Both dissolve in water.",
+        "Neither is magnetic.",
+        "Neither is a liquid."
+       ],
+       "y": "Ammonium chloride sublimes; salt does not."
+      },
+      {
+       "q": "When a mixture of iodine and sand is heated under a cold funnel, where does the iodine collect?",
+       "r": "on the cold funnel",
+       "w": [
+        "at the bottom with the sand",
+        "in the air only",
+        "in the flame"
+       ],
+       "e": [
+        "The iodine leaves the sand as vapour.",
+        "The vapour turns back to solid on the cold surface.",
+        "It does not collect in the flame."
+       ],
+       "y": "The vapour sublimes back to solid on cooling."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-44-state",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "water",
+       "mp": 0,
+       "bp": 100
+      },
+      {
+       "n": "ethanol",
+       "mp": -114,
+       "bp": 78
+      },
+      {
+       "n": "mercury",
+       "mp": -39,
+       "bp": 357
+      },
+      {
+       "n": "naphthalene",
+       "mp": 80,
+       "bp": 218
+      },
+      {
+       "n": "oxygen",
+       "mp": -218,
+       "bp": -183
+      },
+      {
+       "n": "sulphur",
+       "mp": 115,
+       "bp": 445
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      -200,
+      -150,
+      -50,
+      -20,
+      25,
+      50,
+      90,
+      150,
+      300,
+      400,
+      500
+     ]
+    }
+   },
+   "prompt": "{cap(X.n)} melts at {X.mp} °C and boils at {X.bp} °C. What is its state at {T} °C?",
+   "correct": "{stateAt(T, X.mp, X.bp)}",
+   "distractors": [
+    {
+     "text": "{stateAt(T, X.mp, X.bp) == 'solid' ? 'liquid' : 'solid'}",
+     "misconception": "state"
+    },
+    {
+     "text": "{stateAt(T, X.mp, X.bp) == 'gas' ? 'liquid' : 'gas'}",
+     "misconception": "state"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "state",
+     "explain": "Compare the temperature with both the melting point and the boiling point."
+    }
+   ],
+   "solution": [
+    "Compare {T} °C with the melting point ({X.mp} °C) and the boiling point ({X.bp} °C).",
+    "Below the melting point: solid; between: liquid; above the boiling point: gas. So: {answer}."
+   ],
+   "where": "T != X.mp && T != X.bp",
+   "min_distractors": 2
+  }
+ ]
+}

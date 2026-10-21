@@ -1,0 +1,490 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "k2-30",
+   "name": "Uses of active and inactive air"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Oxygen is the active part of air: it takes part in burning, rusting and breathing. Nitrogen is the inactive part: it does not react easily.\nUses of oxygen:\n• breathing (respiration) of plants and animals;\n• in hospitals for patients with breathing problems;\n• divers and mountain climbers carry it;\n• burning fuels; welding and cutting metals (oxy-acetylene flame).\nUses of nitrogen:\n• to make ammonia and fertilisers;\n• to keep food fresh in packets (it does not react);\n• liquid nitrogen for freezing.\nArgon fills light bulbs; carbon dioxide is used by plants in photosynthesis and in fire extinguishers.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "u": "a crisp packet is filled with nitrogen"
+  },
+  "problem": "Why is {u}?",
+  "steps": [
+   "Nitrogen is inactive: it does not react with the food.",
+   "Oxygen would make the oil in the crisps go bad."
+  ],
+  "answer": "Nitrogen keeps the food fresh because it does not react.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "Oxygen is the active part of air: it is used in burning, rusting and breathing.",
+    "vars": {},
+    "example": [
+     "A candle goes out when its oxygen is used up.",
+     "Patients in hospital may be given oxygen."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-30-active"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "Nitrogen is the inactive part of air: it does not react easily.",
+    "vars": {},
+    "example": [
+     "Food packets are filled with nitrogen.",
+     "Nitrogen dilutes the oxygen so burning is not too fast."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-30-inactive"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "Nitrogen is used to make fertilisers; argon fills bulbs; carbon dioxide is used in fire extinguishers.",
+    "vars": {},
+    "example": [
+     "Ammonia is made from nitrogen.",
+     "Argon does not react with the hot filament."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-30-use-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "air"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "to make fertilisers",
+         "r": "nitrogen",
+         "w": [
+          "argon",
+          "oxygen",
+          "neon"
+         ],
+         "e": [
+          "Argon does not react.",
+          "Fertilisers need nitrogen compounds.",
+          "Neon is used in signs."
+         ],
+         "y": "Nitrogen → ammonia → fertilisers."
+        },
+        {
+         "q": "to fill electric light bulbs",
+         "r": "argon",
+         "w": [
+          "oxygen",
+          "hydrogen",
+          "chlorine"
+         ],
+         "e": [
+          "Oxygen would make the filament burn.",
+          "Hydrogen is flammable.",
+          "Chlorine is poisonous and reactive."
+         ],
+         "y": "Argon does not react with the hot filament."
+        },
+        {
+         "q": "in some fire extinguishers",
+         "r": "carbon dioxide",
+         "w": [
+          "oxygen",
+          "hydrogen",
+          "methane"
+         ],
+         "e": [
+          "Oxygen helps fires burn.",
+          "Hydrogen burns.",
+          "Methane burns."
+         ],
+         "y": "Carbon dioxide does not support burning."
+        }
+       ]
+      }
+     },
+     "prompt": "Which gas is used {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-30-active",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part of air is called the active part?",
+       "r": "oxygen",
+       "w": [
+        "nitrogen",
+        "argon",
+        "water vapour"
+       ],
+       "e": [
+        "Nitrogen is inactive.",
+        "Argon is a noble gas: it hardly reacts.",
+        "Water vapour is not the active part."
+       ],
+       "y": "Oxygen takes part in burning, rusting and breathing."
+      },
+      {
+       "q": "Why are patients with breathing problems given oxygen?",
+       "r": "Their cells need oxygen for respiration.",
+       "w": [
+        "To cool them",
+        "To put out fires",
+        "To make them sleep"
+       ],
+       "e": [
+        "Oxygen is not used for cooling.",
+        "Oxygen helps burning.",
+        "Oxygen is not a sleeping gas."
+       ],
+       "y": "Respiration needs oxygen."
+      },
+      {
+       "q": "Which gas, with acetylene, gives a very hot flame for welding?",
+       "r": "oxygen",
+       "w": [
+        "nitrogen",
+        "argon",
+        "carbon dioxide"
+       ],
+       "e": [
+        "Nitrogen does not support burning.",
+        "Argon does not support burning.",
+        "Carbon dioxide puts fires out."
+       ],
+       "y": "The oxy-acetylene flame."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-30-inactive",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part of air is called the inactive part?",
+       "r": "nitrogen",
+       "w": [
+        "oxygen",
+        "carbon dioxide",
+        "water vapour"
+       ],
+       "e": [
+        "Oxygen is the active part.",
+        "Carbon dioxide is a small part used by plants.",
+        "Water vapour varies."
+       ],
+       "y": "Nitrogen does not react easily."
+      },
+      {
+       "q": "Why is nitrogen put in packets of groundnuts?",
+       "r": "It does not react, so the food stays fresh.",
+       "w": [
+        "It adds taste.",
+        "It makes the packet heavier.",
+        "It kills the groundnuts."
+       ],
+       "e": [
+        "Nitrogen has no taste.",
+        "That is not the reason.",
+        "The groundnuts are already dried."
+       ],
+       "y": "Without oxygen the oil does not go bad."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-30-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "to make fertilisers",
+       "r": "nitrogen",
+       "w": [
+        "argon",
+        "oxygen",
+        "neon"
+       ],
+       "e": [
+        "Argon does not react.",
+        "Fertilisers need nitrogen compounds.",
+        "Neon is used in signs."
+       ],
+       "y": "Nitrogen → ammonia → fertilisers."
+      },
+      {
+       "q": "to fill electric light bulbs",
+       "r": "argon",
+       "w": [
+        "oxygen",
+        "hydrogen",
+        "chlorine"
+       ],
+       "e": [
+        "Oxygen would make the filament burn.",
+        "Hydrogen is flammable.",
+        "Chlorine is poisonous and reactive."
+       ],
+       "y": "Argon does not react with the hot filament."
+      },
+      {
+       "q": "in some fire extinguishers",
+       "r": "carbon dioxide",
+       "w": [
+        "oxygen",
+        "hydrogen",
+        "methane"
+       ],
+       "e": [
+        "Oxygen helps fires burn.",
+        "Hydrogen burns.",
+        "Methane burns."
+       ],
+       "y": "Carbon dioxide does not support burning."
+      }
+     ]
+    }
+   },
+   "prompt": "Which gas is used {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Oxygen is used by divers.",
+      "truth": "true"
+     },
+     {
+      "text": "Nitrogen is used to make ammonia.",
+      "truth": "true"
+     },
+     {
+      "text": "Argon is used in light bulbs.",
+      "truth": "true"
+     },
+     {
+      "text": "Plants use carbon dioxide in photosynthesis.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nitrogen is the active part of air.",
+      "truth": "false",
+      "explain": "Oxygen is the active part; nitrogen is inactive."
+     },
+     {
+      "text": "Carbon dioxide is used to help fires burn.",
+      "truth": "false",
+      "explain": "Carbon dioxide puts fires out."
+     },
+     {
+      "text": "Food packets are filled with oxygen to keep food fresh.",
+      "truth": "false",
+      "explain": "Oxygen spoils food; nitrogen is used."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

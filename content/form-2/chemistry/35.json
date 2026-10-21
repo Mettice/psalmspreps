@@ -1,0 +1,370 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 35,
+ "language": "en",
+ "prerequisites": [
+  34
+ ],
+ "skills": [
+  {
+   "id": "k2-35",
+   "name": "Burning metals and non-metals"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Many elements burn in oxygen to form oxides.\nMetals:\n• magnesium burns with a dazzling white flame → magnesium oxide (white powder);\n• sodium burns with a yellow flame; calcium with a brick-red flame; iron wool gives sparks; copper turns black (copper oxide).\nMetal oxides are basic: those that dissolve give alkaline solutions (they turn red litmus blue).\nNon-metals:\n• carbon glows red → carbon dioxide;\n• sulphur burns with a blue flame → sulphur dioxide (choking smell);\n• phosphorus burns with a yellow flame and white smoke.\nNon-metal oxides are acidic: they dissolve in water to give acidic solutions (they turn blue litmus red).\n(Aluminium and zinc oxides are amphoteric: they react with both acids and bases.)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": "Mg"
+  },
+  "problem": "{cap(nameOf(s))} is burned in oxygen and the product is shaken with water. What does the solution do to litmus?",
+  "steps": [
+   "{cap(nameOf(s))} is a metal, so its oxide is basic.",
+   "A basic oxide that dissolves gives an alkaline solution."
+  ],
+  "answer": "It turns red litmus blue.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c35-1",
+    "status": "draft",
+    "idea": "Elements burn in oxygen to form oxides: magnesium gives magnesium oxide, sulphur gives sulphur dioxide.",
+    "vars": {},
+    "example": [
+     "Magnesium: a dazzling white flame.",
+     "Sulphur: a blue flame and a choking smell."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-35-flame"
+    }
+   },
+   {
+    "id": "c35-2",
+    "status": "draft",
+    "idea": "Metal oxides are basic; non-metal oxides are acidic.",
+    "vars": {},
+    "example": [
+     "Calcium oxide: basic.",
+     "Carbon dioxide: acidic."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-35-type"
+    }
+   },
+   {
+    "id": "c35-3",
+    "status": "draft",
+    "idea": "An alkaline solution turns red litmus blue; an acidic solution turns blue litmus red.",
+    "vars": {},
+    "example": [
+     "Sodium oxide in water: blue litmus.",
+     "Sulphur dioxide in water: red litmus."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-35-litmus-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "burning-rusting"
+     ],
+     "vars": {
+      "s": {
+       "pick": [
+        "Na",
+        "K",
+        "Ca",
+        "C",
+        "S",
+        "P"
+       ]
+      }
+     },
+     "prompt": "The oxide of {nameOf(s)} is dissolved in water. What does the solution do to litmus?",
+     "correct": "{oxideType(s) == 'basic' ? 'It turns red litmus blue.' : 'It turns blue litmus red.'}",
+     "distractors": [
+      {
+       "text": "{oxideType(s) == 'basic' ? 'It turns blue litmus red.' : 'It turns red litmus blue.'}",
+       "misconception": "swap"
+      },
+      {
+       "text": "It has no effect on litmus.",
+       "misconception": "none"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "swap",
+       "explain": "Metal oxides give alkalis (blue litmus); non-metal oxides give acids (red litmus)."
+      },
+      {
+       "id": "none",
+       "explain": "This oxide dissolves and changes litmus."
+      }
+     ],
+     "solution": [
+      "{cap(nameOf(s))} is a {kindOf(s)}, so its oxide is {oxideType(s)}.",
+      "So: {answer}"
+     ],
+     "min_distractors": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-35-flame",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which element burns with a dazzling white flame?",
+       "r": "magnesium",
+       "w": [
+        "sulphur",
+        "copper",
+        "carbon"
+       ],
+       "e": [
+        "Sulphur burns with a blue flame.",
+        "Copper turns black but does not flame.",
+        "Carbon glows red."
+       ],
+       "y": "Magnesium gives a very bright white flame."
+      },
+      {
+       "q": "Which element burns with a blue flame and a choking smell?",
+       "r": "sulphur",
+       "w": [
+        "magnesium",
+        "sodium",
+        "iron"
+       ],
+       "e": [
+        "Magnesium gives a white flame.",
+        "Sodium gives a yellow flame.",
+        "Iron gives sparks."
+       ],
+       "y": "Sulphur dioxide has a choking smell."
+      },
+      {
+       "q": "What is formed when carbon burns in plenty of oxygen?",
+       "r": "carbon dioxide",
+       "w": [
+        "carbonate",
+        "carbon monoxide only",
+        "water"
+       ],
+       "e": [
+        "A carbonate also contains a metal.",
+        "Carbon monoxide forms only with too little oxygen.",
+        "There is no hydrogen."
+       ],
+       "y": "Carbon + oxygen → carbon dioxide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-35-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "Mg",
+      "Ca",
+      "Na",
+      "K",
+      "Cu",
+      "Fe",
+      "C",
+      "S",
+      "P"
+     ]
+    }
+   },
+   "prompt": "{cap(nameOf(s))} is burned in oxygen. What kind of oxide is formed?",
+   "correct": "{oxideType(s)} oxide",
+   "distractors": [
+    {
+     "text": "{oxideType(s) == 'basic' ? 'acidic' : 'basic'} oxide",
+     "misconception": "swap"
+    },
+    {
+     "text": "neutral oxide",
+     "misconception": "neutral"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Metals give basic oxides; non-metals give acidic oxides. {cap(nameOf(s))} is a {kindOf(s)}."
+    },
+    {
+     "id": "neutral",
+     "explain": "Only a few oxides (like water and carbon monoxide) are neutral."
+    }
+   ],
+   "solution": [
+    "{cap(nameOf(s))} is a {kindOf(s)}.",
+    "A metal gives a basic oxide; a non-metal gives an acidic oxide. So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "k2-35-litmus",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "Na",
+      "K",
+      "Ca",
+      "C",
+      "S",
+      "P"
+     ]
+    }
+   },
+   "prompt": "The oxide of {nameOf(s)} is dissolved in water. What does the solution do to litmus?",
+   "correct": "{oxideType(s) == 'basic' ? 'It turns red litmus blue.' : 'It turns blue litmus red.'}",
+   "distractors": [
+    {
+     "text": "{oxideType(s) == 'basic' ? 'It turns blue litmus red.' : 'It turns red litmus blue.'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "It has no effect on litmus.",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Metal oxides give alkalis (blue litmus); non-metal oxides give acids (red litmus)."
+    },
+    {
+     "id": "none",
+     "explain": "This oxide dissolves and changes litmus."
+    }
+   ],
+   "solution": [
+    "{cap(nameOf(s))} is a {kindOf(s)}, so its oxide is {oxideType(s)}.",
+    "So: {answer}"
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "k2-35-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Magnesium oxide is a basic oxide.",
+      "truth": "true"
+     },
+     {
+      "text": "Sulphur dioxide is an acidic oxide.",
+      "truth": "true"
+     },
+     {
+      "text": "Copper turns black when heated in air.",
+      "truth": "true"
+     },
+     {
+      "text": "Calcium burns with a brick-red flame.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Carbon dioxide dissolves in water to give an alkali.",
+      "truth": "false",
+      "explain": "Carbon dioxide is acidic: it gives a weak acid."
+     },
+     {
+      "text": "Sodium oxide turns blue litmus red.",
+      "truth": "false",
+      "explain": "Sodium oxide is basic: it turns red litmus blue."
+     },
+     {
+      "text": "Non-metals burn to form basic oxides.",
+      "truth": "false",
+      "explain": "Non-metal oxides are acidic."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

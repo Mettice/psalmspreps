@@ -1,0 +1,394 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  31
+ ],
+ "skills": [
+  {
+   "id": "k2-32",
+   "name": "Fractional distillation of liquid air"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The gases of air are separated in industry by fractional distillation of liquid air.\n1. Air is filtered to remove dust.\n2. Water vapour and carbon dioxide are removed (they would freeze and block the pipes).\n3. The air is compressed and cooled until it becomes liquid at about −200 °C.\n4. The liquid air is warmed slowly in a fractionating column. Each gas boils off at its own boiling point: nitrogen (−196 °C) first, then argon (−186 °C), then oxygen (−183 °C).\nThe gas with the lowest boiling point boils off first and is collected at the top of the column.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "nitrogen",
+   "b": "oxygen"
+  },
+  "problem": "Liquid air is warmed. Which boils off first, {a} (boiling point −{196} °C) or {b} (−{183} °C)?",
+  "steps": [
+   "As the liquid warms, it reaches −{196} °C before −{183} °C.",
+   "The lower boiling point is reached first."
+  ],
+  "answer": "{a}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "Air is cleaned, then dust, water vapour and carbon dioxide are removed before it is cooled.",
+    "vars": {},
+    "example": [
+     "Water and carbon dioxide would freeze and block the pipes.",
+     "Dust is removed by filters."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-32-steps"
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "Air is compressed and cooled until it becomes liquid, at about −{200} °C.",
+    "vars": {},
+    "example": [
+     "Gases turn to liquid when cold enough.",
+     "Liquid air is very cold."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-32-cool"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "When liquid air warms, the gas with the lowest boiling point boils off first.",
+    "vars": {},
+    "example": [
+     "Nitrogen −{196} °C, argon −{186} °C, oxygen −{183} °C.",
+     "Nitrogen comes off first, oxygen last."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-32-first-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "air"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "nitrogen",
+         "ta": -196,
+         "b": "oxygen",
+         "tb": -183,
+         "r": "nitrogen",
+         "w": "oxygen"
+        },
+        {
+         "a": "oxygen",
+         "ta": -183,
+         "b": "argon",
+         "tb": -186,
+         "r": "argon",
+         "w": "oxygen"
+        },
+        {
+         "a": "argon",
+         "ta": -186,
+         "b": "nitrogen",
+         "tb": -196,
+         "r": "nitrogen",
+         "w": "argon"
+        }
+       ]
+      }
+     },
+     "prompt": "Liquid air is warmed slowly. Which boils off first: {X.a} ({X.ta} °C) or {X.b} ({X.tb} °C)?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w}",
+       "misconception": "higher"
+      },
+      {
+       "text": "They boil off together.",
+       "misconception": "together"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "higher",
+       "explain": "That gas has the higher boiling point, so it boils later: −{183} is warmer than −{196}."
+      },
+      {
+       "id": "together",
+       "explain": "Each gas boils at its own boiling point, so they come off one after another."
+      }
+     ],
+     "solution": [
+      "The lower boiling point is reached first as the liquid warms.",
+      "So {answer} boils off first."
+     ],
+     "min_distractors": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-32-steps",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are water vapour and carbon dioxide removed before air is cooled?",
+       "r": "They would freeze and block the pipes.",
+       "w": [
+        "They are poisonous.",
+        "They make the air too heavy.",
+        "They are needed later."
+       ],
+       "e": [
+        "That is not the reason in the plant.",
+        "Their mass is not the problem.",
+        "They are removed, not used."
+       ],
+       "y": "Ice and solid carbon dioxide would block the pipes."
+      },
+      {
+       "q": "What is the first step in separating air?",
+       "r": "Filter out the dust.",
+       "w": [
+        "Boil the air.",
+        "Burn the air.",
+        "Add water to the air."
+       ],
+       "e": [
+        "Air is already a gas; it is cooled, not boiled.",
+        "Burning would use the oxygen.",
+        "Water must be removed."
+       ],
+       "y": "Dust is removed first."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-32-cool",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How is air turned into a liquid?",
+       "r": "by compressing and cooling it",
+       "w": [
+        "by heating it",
+        "by filtering it",
+        "by adding salt"
+       ],
+       "e": [
+        "Heating keeps it a gas.",
+        "Filtering only removes dust.",
+        "Salt has nothing to do with it."
+       ],
+       "y": "Compressed and cooled to about −200 °C."
+      },
+      {
+       "q": "What is the name of the method used to separate liquid air?",
+       "r": "fractional distillation",
+       "w": [
+        "filtration",
+        "evaporation",
+        "chromatography"
+       ],
+       "e": [
+        "Filtration separates a solid from a liquid.",
+        "Evaporation leaves a solid behind.",
+        "Chromatography separates dyes."
+       ],
+       "y": "Each gas boils off at its own boiling point."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-32-first",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "nitrogen",
+       "ta": -196,
+       "b": "oxygen",
+       "tb": -183,
+       "r": "nitrogen",
+       "w": "oxygen"
+      },
+      {
+       "a": "oxygen",
+       "ta": -183,
+       "b": "argon",
+       "tb": -186,
+       "r": "argon",
+       "w": "oxygen"
+      },
+      {
+       "a": "argon",
+       "ta": -186,
+       "b": "nitrogen",
+       "tb": -196,
+       "r": "nitrogen",
+       "w": "argon"
+      }
+     ]
+    }
+   },
+   "prompt": "Liquid air is warmed slowly. Which boils off first: {X.a} ({X.ta} °C) or {X.b} ({X.tb} °C)?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w}",
+     "misconception": "higher"
+    },
+    {
+     "text": "They boil off together.",
+     "misconception": "together"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "higher",
+     "explain": "That gas has the higher boiling point, so it boils later: −{183} is warmer than −{196}."
+    },
+    {
+     "id": "together",
+     "explain": "Each gas boils at its own boiling point, so they come off one after another."
+    }
+   ],
+   "solution": [
+    "The lower boiling point is reached first as the liquid warms.",
+    "So {answer} boils off first."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "k2-32-order",
+   "type": "ordering",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "air"
+   ],
+   "prompt": "Put the gases in the order they boil off as liquid air warms (first at the top).",
+   "items": [
+    {
+     "text": "nitrogen (−196 °C)",
+     "key": -196
+    },
+    {
+     "text": "argon (−186 °C)",
+     "key": -186
+    },
+    {
+     "text": "oxygen (−183 °C)",
+     "key": -183
+    }
+   ],
+   "order": "asc"
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 38,
+ "language": "en",
+ "prerequisites": [
+  37
+ ],
+ "skills": [
+  {
+   "id": "k2-38",
+   "name": "Disadvantages of rusting and its prevention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Disadvantages of rusting: it weakens bridges, cars, ships and roofs (they can break); it costs money to repair and replace; rusty roofs leak; rusty nails can cause tetanus if they cut the skin.\nPrevention keeps out air and water, or uses a more reactive metal:\n• painting (gates, bridges, cars);\n• oiling or greasing (machines, bicycle chains, tools);\n• coating with plastic (dish racks, fences);\n• galvanising: coating with zinc (roofing sheets, buckets); the zinc protects even when scratched;\n• tin plating (food cans);\n• chromium plating (bicycle handlebars, taps);\n• sacrificial protection: blocks of a more reactive metal (zinc or magnesium) fixed to ships' hulls corrode instead of the iron;\n• using stainless steel (spoons, sinks).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a bicycle chain"
+  },
+  "problem": "How is {x} protected from rusting, and why not by painting?",
+  "steps": [
+   "The chain moves, so paint would crack and wear off.",
+   "Oil or grease keeps out air and water and lets the chain move."
+  ],
+  "answer": "By oiling or greasing it.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c38-1",
+    "status": "draft",
+    "idea": "Rusting weakens iron structures and costs money to repair; rusty nails can cause tetanus.",
+    "vars": {},
+    "example": [
+     "A rusty bridge can collapse.",
+     "Rusty roofs leak."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-38-bad"
+    }
+   },
+   {
+    "id": "c38-2",
+    "status": "draft",
+    "idea": "Painting, oiling, greasing and plastic coating keep out air and water.",
+    "vars": {},
+    "example": [
+     "Paint on an iron gate.",
+     "Grease on a bicycle chain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-38-way"
+    }
+   },
+   {
+    "id": "c38-3",
+    "status": "draft",
+    "idea": "Galvanising coats iron with zinc; zinc is more reactive, so it corrodes instead of the iron.",
+    "vars": {},
+    "example": [
+     "Roofing sheets are galvanised.",
+     "Zinc blocks protect ships' hulls."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-38-zinc-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "burning-rusting"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does a galvanised sheet not rust even when scratched?",
+         "r": "Zinc is more reactive, so it corrodes instead of the iron.",
+         "w": [
+          "Zinc is a non-metal.",
+          "Zinc is less reactive than iron.",
+          "Zinc absorbs water."
+         ],
+         "e": [
+          "Zinc is a metal.",
+          "Zinc is more reactive than iron.",
+          "That is not the reason."
+         ],
+         "y": "Sacrificial protection by the more reactive zinc."
+        },
+        {
+         "q": "Blocks of magnesium are fixed to the iron hull of a ship. Why?",
+         "r": "Magnesium corrodes instead of the iron.",
+         "w": [
+          "To make the ship heavier",
+          "To make the ship float",
+          "To paint the ship"
+         ],
+         "e": [
+          "Weight is not the reason.",
+          "Blocks do not make it float.",
+          "They are not paint."
+         ],
+         "y": "Magnesium is more reactive than iron: sacrificial protection."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-38-bad",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a disadvantage of rusting?",
+       "r": "It weakens bridges and cars.",
+       "w": [
+        "It makes iron stronger.",
+        "It makes iron shine.",
+        "It stops iron from conducting heat."
+       ],
+       "e": [
+        "Rust weakens iron.",
+        "Rust is dull and brown.",
+        "That is not the main problem."
+       ],
+       "y": "Rust eats the iron away."
+      },
+      {
+       "q": "Why should a cut from a rusty nail be treated quickly?",
+       "r": "It can cause tetanus.",
+       "w": [
+        "Rust is sweet.",
+        "Rust makes blood blue.",
+        "Rust is magnetic."
+       ],
+       "e": [
+        "That is not true.",
+        "That is not true.",
+        "That is not the danger."
+       ],
+       "y": "Tetanus germs live in soil and on dirty, rusty objects."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-38-way",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a bicycle chain",
+       "r": "oiling or greasing",
+       "w": [
+        "painting",
+        "plastic coating",
+        "tin plating"
+       ],
+       "e": [
+        "Paint would crack as the chain moves.",
+        "Plastic would wear off a moving chain.",
+        "Plating a chain is costly; oil is used."
+       ],
+       "y": "Oil keeps out air and water and lets it move."
+      },
+      {
+       "q": "an iron gate",
+       "r": "painting",
+       "w": [
+        "oiling",
+        "tin plating",
+        "keeping it in water"
+       ],
+       "e": [
+        "Oil would be wiped off and collect dust.",
+        "Too costly for a gate.",
+        "Water causes rusting."
+       ],
+       "y": "Paint keeps out air and water."
+      },
+      {
+       "q": "a food can",
+       "r": "tin plating",
+       "w": [
+        "greasing",
+        "painting the inside",
+        "galvanising the inside"
+       ],
+       "e": [
+        "Grease would spoil the food.",
+        "Paint could poison the food.",
+        "Zinc can react with acidic foods."
+       ],
+       "y": "Tin is not poisonous and does not react with the food."
+      },
+      {
+       "q": "a roofing sheet",
+       "r": "galvanising (coating with zinc)",
+       "w": [
+        "oiling",
+        "chromium plating",
+        "plastic coating"
+       ],
+       "e": [
+        "Rain would wash oil off.",
+        "Chromium is too costly for roofs.",
+        "Plastic would be damaged by the sun."
+       ],
+       "y": "Zinc protects the iron even when scratched."
+      }
+     ]
+    }
+   },
+   "prompt": "Which is the best way to protect {X.q} from rusting?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-38-zinc",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does a galvanised sheet not rust even when scratched?",
+       "r": "Zinc is more reactive, so it corrodes instead of the iron.",
+       "w": [
+        "Zinc is a non-metal.",
+        "Zinc is less reactive than iron.",
+        "Zinc absorbs water."
+       ],
+       "e": [
+        "Zinc is a metal.",
+        "Zinc is more reactive than iron.",
+        "That is not the reason."
+       ],
+       "y": "Sacrificial protection by the more reactive zinc."
+      },
+      {
+       "q": "Blocks of magnesium are fixed to the iron hull of a ship. Why?",
+       "r": "Magnesium corrodes instead of the iron.",
+       "w": [
+        "To make the ship heavier",
+        "To make the ship float",
+        "To paint the ship"
+       ],
+       "e": [
+        "Weight is not the reason.",
+        "Blocks do not make it float.",
+        "They are not paint."
+       ],
+       "y": "Magnesium is more reactive than iron: sacrificial protection."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-38-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Galvanising is coating iron with zinc.",
+      "truth": "true"
+     },
+     {
+      "text": "Food cans are plated with tin.",
+      "truth": "true"
+     },
+     {
+      "text": "Greasing protects moving parts.",
+      "truth": "true"
+     },
+     {
+      "text": "Paint keeps out air and water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Copper blocks protect a ship's hull by corroding instead of the iron.",
+      "truth": "false",
+      "explain": "Copper is less reactive than iron; zinc or magnesium is used."
+     },
+     {
+      "text": "Keeping iron tools in a wet place prevents rusting.",
+      "truth": "false",
+      "explain": "Water causes rusting."
+     },
+     {
+      "text": "Painting is the best protection for a bicycle chain.",
+      "truth": "false",
+      "explain": "Paint cracks on a moving chain; oil it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

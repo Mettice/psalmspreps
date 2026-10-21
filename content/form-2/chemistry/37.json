@@ -1,0 +1,445 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 37,
+ "language": "en",
+ "prerequisites": [
+  36
+ ],
+ "skills": [
+  {
+   "id": "k2-37",
+   "name": "Rust: composition and examples"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rust is hydrated iron(III) oxide, written Fe₂O₃·xH₂O (x varies).\niron + oxygen + water → hydrated iron(III) oxide (rust)\nRust is soft and flaky. It falls off and exposes fresh iron underneath, so rusting goes on until all the iron is eaten away. (On aluminium, the oxide layer sticks and protects the metal.)\nRusting is an oxidation: iron gains oxygen. It is slow.\nEveryday examples: roofing sheets, bicycle chains, iron gates, nails, cars, tools left in the rain, cooking pots, railway lines, bridges and ships.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "rust keeps eating into an iron gate"
+  },
+  "problem": "Why {x} once it starts?",
+  "steps": [
+   "Rust is flaky and falls off.",
+   "Fresh iron underneath meets air and water and rusts too."
+  ],
+  "answer": "Rust does not protect the iron, so rusting continues.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c37-1",
+    "status": "draft",
+    "idea": "Rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O.",
+    "vars": {},
+    "example": [
+     "It contains iron, oxygen and water.",
+     "x is the number of water molecules; it varies."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-37-comp"
+    }
+   },
+   {
+    "id": "c37-2",
+    "status": "draft",
+    "idea": "Rust is flaky: it falls off and exposes fresh iron, so rusting goes on.",
+    "vars": {},
+    "example": [
+     "A rusty nail gets thinner.",
+     "Aluminium oxide sticks and protects; rust does not."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-37-flaky-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "burning-rusting"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does rusting not stop once a thin layer of rust forms?",
+         "r": "Rust is flaky and falls off, exposing fresh iron.",
+         "w": [
+          "Rust gives out oxygen.",
+          "Rust is a catalyst.",
+          "Rust is a gas."
+         ],
+         "e": [
+          "Rust does not give out oxygen.",
+          "That is not the reason.",
+          "Rust is a solid."
+         ],
+         "y": "Rust does not protect the iron beneath."
+        },
+        {
+         "q": "Why does aluminium not keep corroding like iron?",
+         "r": "Its oxide layer sticks and protects it.",
+         "w": [
+          "It does not react with oxygen at all.",
+          "It is heavier than iron.",
+          "It is a non-metal."
+         ],
+         "e": [
+          "Aluminium does react, forming a thin oxide.",
+          "Weight is not the reason.",
+          "Aluminium is a metal."
+         ],
+         "y": "The aluminium oxide layer does not flake off."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c37-3",
+    "status": "draft",
+    "idea": "Rusting is oxidation: iron gains oxygen. It is a slow chemical change.",
+    "vars": {},
+    "example": [
+     "Iron → rust over weeks or months.",
+     "Rust is a new substance."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-37-ox"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-37-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the chemical name of rust?",
+       "r": "hydrated iron(III) oxide",
+       "w": [
+        "iron sulphide",
+        "copper oxide",
+        "iron chloride"
+       ],
+       "e": [
+        "There is no sulphur in rust.",
+        "Rust is from iron, not copper.",
+        "There is no chlorine in rust."
+       ],
+       "y": "Rust is Fe₂O₃·xH₂O."
+      },
+      {
+       "q": "Which formula is used for rust?",
+       "r": "Fe₂O₃·xH₂O",
+       "w": [
+        "FeS",
+        "CuO",
+        "Fe"
+       ],
+       "e": [
+        "FeS is iron sulphide.",
+        "CuO is copper oxide.",
+        "Fe is iron itself."
+       ],
+       "y": "Hydrated iron(III) oxide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-37-flaky",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does rusting not stop once a thin layer of rust forms?",
+       "r": "Rust is flaky and falls off, exposing fresh iron.",
+       "w": [
+        "Rust gives out oxygen.",
+        "Rust is a catalyst.",
+        "Rust is a gas."
+       ],
+       "e": [
+        "Rust does not give out oxygen.",
+        "That is not the reason.",
+        "Rust is a solid."
+       ],
+       "y": "Rust does not protect the iron beneath."
+      },
+      {
+       "q": "Why does aluminium not keep corroding like iron?",
+       "r": "Its oxide layer sticks and protects it.",
+       "w": [
+        "It does not react with oxygen at all.",
+        "It is heavier than iron.",
+        "It is a non-metal."
+       ],
+       "e": [
+        "Aluminium does react, forming a thin oxide.",
+        "Weight is not the reason.",
+        "Aluminium is a metal."
+       ],
+       "y": "The aluminium oxide layer does not flake off."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-37-ox",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When iron rusts, what does it gain?",
+       "r": "oxygen",
+       "w": [
+        "hydrogen",
+        "nitrogen",
+        "carbon"
+       ],
+       "e": [
+        "Rust contains no extra hydrogen gas.",
+        "Nitrogen does not react.",
+        "There is no carbon in rust."
+       ],
+       "y": "Gaining oxygen is oxidation."
+      },
+      {
+       "q": "Is rusting a fast or a slow reaction?",
+       "r": "slow",
+       "w": [
+        "fast, like an explosion",
+        "it takes a second",
+        "it never happens"
+       ],
+       "e": [
+        "Explosions are fast reactions.",
+        "Rusting takes days to months.",
+        "Iron does rust in air and water."
+       ],
+       "y": "Rusting takes weeks or months."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-37-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Rust is hydrated iron(III) oxide.",
+      "truth": "true"
+     },
+     {
+      "text": "Rusting is a slow chemical change.",
+      "truth": "true"
+     },
+     {
+      "text": "Rust is flaky and falls off.",
+      "truth": "true"
+     },
+     {
+      "text": "Bicycle chains can rust.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Rust protects the iron underneath.",
+      "truth": "false",
+      "explain": "Rust flakes off, so the iron keeps rusting."
+     },
+     {
+      "text": "Rusting is a physical change.",
+      "truth": "false",
+      "explain": "Rust is a new substance."
+     },
+     {
+      "text": "Iron loses oxygen when it rusts.",
+      "truth": "false",
+      "explain": "Iron gains oxygen: it is oxidised."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

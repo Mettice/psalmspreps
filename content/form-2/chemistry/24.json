@@ -1,0 +1,325 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  23
+ ],
+ "skills": [
+  {
+   "id": "k2-24",
+   "name": "Balancing equations: binary compounds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Atoms are not created or destroyed in a reaction, so an equation must have the same number of each kind of atom on both sides. This is balancing.\nSteps:\n1. Write the correct formulae. Never change a formula to balance.\n2. Count the atoms of each element on each side.\n3. Put numbers (coefficients) in front of formulae to make the counts equal.\n4. Check every element again.\nExample: Mg + O₂ → MgO has two O on the left and one on the right. Put 2 before MgO: Mg + O₂ → 2MgO. Now there are two Mg on the right, so put 2 before Mg: 2Mg + O₂ → 2MgO.\nA binary compound has two elements (MgO, H₂O, NaCl).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "i": 2
+  },
+  "problem": "Balance: {eqSkeleton(i)}",
+  "steps": [
+   "Oxygen: {2} on the left, {1} on the right. Put {2} in front of H₂O.",
+   "Now hydrogen: {4} on the right, so put {2} in front of H₂."
+  ],
+  "answer": "{eqStr(i)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "A balanced equation has the same number of each kind of atom on both sides.",
+    "vars": {},
+    "example": [
+     "{2}H₂ + O₂ → {2}H₂O: four H and two O on each side.",
+     "Count each element separately."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-24-check"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "Balance by writing numbers in front of formulae. Never change the small numbers in a formula.",
+    "vars": {},
+    "example": [
+     "Write {2}H₂O, never H₂O₂.",
+     "H₂O₂ is a different substance."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-24-rule"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "Find the missing number by counting the atoms that are not yet equal.",
+    "vars": {},
+    "example": [
+     "Mg + O₂ → {2}MgO needs two Mg on the left.",
+     "So {2}Mg + O₂ → {2}MgO."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-24-coef-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "i": {
+       "pick": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11
+       ]
+      }
+     },
+     "prompt": "Find the missing number: {eqBlank(i, eqKeyTerm(i))}",
+     "answer": "eqCoef(i, eqKeyTerm(i))",
+     "misconceptions": [
+      {
+       "id": "one",
+       "wrong": "1",
+       "explain": "With one, the atoms are not equal on both sides: count again."
+      }
+     ],
+     "solution": [
+      "Count each element on both sides.",
+      "The number that makes them equal is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-24-check",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11
+     ]
+    }
+   },
+   "prompt": "Which equation is balanced?",
+   "correct": "{eqStr(i)}",
+   "distractors": [
+    {
+     "text": "{eqSkeleton(i)}",
+     "misconception": "unbal"
+    },
+    {
+     "text": "{eqWrong(i, eqKeyTerm(i), 1)}",
+     "misconception": "over"
+    },
+    {
+     "text": "{eqWrong(i, eqKeyTerm(i), 2)}",
+     "misconception": "over"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "unbal",
+     "explain": "Count the atoms: they are not equal on both sides yet."
+    },
+    {
+     "id": "over",
+     "explain": "Too many: count that element again on both sides."
+    }
+   ],
+   "solution": [
+    "Count each element on both sides.",
+    "Only {answer} has equal numbers of every atom."
+   ]
+  },
+  {
+   "id": "k2-24-rule",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "To balance H₂ + O₂ → H₂O, what may you change?",
+       "r": "the numbers in front of the formulae",
+       "w": [
+        "the small numbers in the formulae",
+        "the symbols",
+        "the arrow"
+       ],
+       "e": [
+        "Changing H₂O to H₂O₂ makes a different substance.",
+        "The substances must stay the same.",
+        "The arrow is not a number."
+       ],
+       "y": "Only coefficients are changed."
+      },
+      {
+       "q": "Why must an equation be balanced?",
+       "r": "Atoms are not created or destroyed in a reaction.",
+       "w": [
+        "To make it look tidy",
+        "Because products are heavier",
+        "Because gases have no mass"
+       ],
+       "e": [
+        "It shows a real rule of nature.",
+        "The total mass stays the same.",
+        "Gases do have mass."
+       ],
+       "y": "The same atoms are only rearranged."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-24-coef",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11
+     ]
+    }
+   },
+   "prompt": "Find the missing number: {eqBlank(i, eqKeyTerm(i))}",
+   "answer": "eqCoef(i, eqKeyTerm(i))",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "With one, the atoms are not equal on both sides: count again."
+    }
+   ],
+   "solution": [
+    "Count each element on both sides.",
+    "The number that makes them equal is {answer}."
+   ]
+  },
+  {
+   "id": "k2-24-coef2",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "i": {
+     "pick": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11
+     ]
+    },
+    "k": {
+     "expr": "eqKeyTerm(i)"
+    }
+   },
+   "prompt": "Balance the equation {eqSkeleton(i)}. What number goes in front of {formula(eqTermFormula(i, k))}?",
+   "answer": "eqCoef(i, k)",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "Count the atoms again: with one they are not equal."
+    }
+   ],
+   "solution": [
+    "Balance step by step, counting each element: {eqStr(i)}.",
+    "So the number in front is {answer}."
+   ]
+  }
+ ]
+}

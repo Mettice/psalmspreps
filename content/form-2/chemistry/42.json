@@ -1,0 +1,437 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 42,
+ "language": "en",
+ "prerequisites": [
+  41
+ ],
+ "skills": [
+  {
+   "id": "k2-42",
+   "name": "Distillation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Simple distillation separates a liquid (the solvent) from a solution, keeping the liquid.\nThe solution is boiled in a flask; the vapour passes into a Liebig condenser cooled by cold water (in at the bottom, out at the top); it condenses and drips into a receiver as the distillate. The dissolved solid stays in the flask.\nUse: pure (distilled) water from salt water or tap water.\nFractional distillation separates liquids that mix but have different boiling points, using a fractionating column. The liquid with the lower boiling point distils first.\nUses: ethanol (78 °C) from water (100 °C); petrol, kerosene and diesel from crude oil; gases from liquid air.\nThe thermometer bulb is placed at the side arm to read the temperature of the vapour.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "ethanol",
+   "ta": 78,
+   "b": "water",
+   "tb": 100
+  },
+  "problem": "A mixture of {a} (boiling point {ta} °C) and {b} ({tb} °C) is fractionally distilled. Which distils first?",
+  "steps": [
+   "The liquid with the lower boiling point boils first.",
+   "{ta} °C is lower than {tb} °C."
+  ],
+  "answer": "{a}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c42-1",
+    "status": "draft",
+    "idea": "Simple distillation gets the liquid back from a solution: boil, then condense the vapour.",
+    "vars": {},
+    "example": [
+     "Distilled water from salt water.",
+     "The salt stays in the flask."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-42-simple"
+    }
+   },
+   {
+    "id": "c42-2",
+    "status": "draft",
+    "idea": "In the condenser, cold water goes in at the bottom and out at the top; the vapour condenses to the distillate.",
+    "vars": {},
+    "example": [
+     "The condenser is a Liebig condenser.",
+     "The liquid collected is the distillate."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-42-parts"
+    }
+   },
+   {
+    "id": "c42-3",
+    "status": "draft",
+    "idea": "Fractional distillation separates liquids that mix; the lower boiling point comes off first.",
+    "vars": {},
+    "example": [
+     "Ethanol before water.",
+     "Petrol from crude oil."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-42-first-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "separation-purity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "ethanol",
+         "ta": 78,
+         "b": "water",
+         "tb": 100
+        },
+        {
+         "a": "water",
+         "ta": 100,
+         "b": "methanol",
+         "tb": 65
+        },
+        {
+         "a": "propanone",
+         "ta": 56,
+         "b": "water",
+         "tb": 100
+        },
+        {
+         "a": "water",
+         "ta": 100,
+         "b": "ethanol",
+         "tb": 78
+        }
+       ]
+      }
+     },
+     "prompt": "A mixture of {X.a} (boiling point {X.ta} °C) and {X.b} ({X.tb} °C) is fractionally distilled. Which distils first?",
+     "correct": "{X.ta < X.tb ? X.a : X.b}",
+     "distractors": [
+      {
+       "text": "{X.ta < X.tb ? X.b : X.a}",
+       "misconception": "higher"
+      },
+      {
+       "text": "both at the same time",
+       "misconception": "same"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "higher",
+       "explain": "That liquid has the higher boiling point; it distils later."
+      },
+      {
+       "id": "same",
+       "explain": "They have different boiling points, so they distil one after the other."
+      }
+     ],
+     "solution": [
+      "The lower boiling point is reached first.",
+      "So {answer} distils first."
+     ],
+     "min_distractors": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-42-simple",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which method gives pure water from salt water?",
+       "r": "simple distillation",
+       "w": [
+        "filtration",
+        "evaporation",
+        "decanting"
+       ],
+       "e": [
+        "Salt passes through filter paper.",
+        "Evaporation loses the water.",
+        "Decanting does not remove dissolved salt."
+       ],
+       "y": "Boil, then condense the steam."
+      },
+      {
+       "q": "In simple distillation of salt water, where is the salt at the end?",
+       "r": "in the flask",
+       "w": [
+        "in the receiver",
+        "in the condenser",
+        "in the air"
+       ],
+       "e": [
+        "Only the water reaches the receiver.",
+        "Only vapour passes through.",
+        "Salt does not evaporate."
+       ],
+       "y": "The salt stays behind."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-42-parts",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the liquid collected in distillation called?",
+       "r": "the distillate",
+       "w": [
+        "the residue",
+        "the filtrate",
+        "the solute"
+       ],
+       "e": [
+        "The residue stays in the flask or filter.",
+        "The filtrate comes from filtering.",
+        "The solute is the dissolved solid."
+       ],
+       "y": "The condensed liquid is the distillate."
+      },
+      {
+       "q": "Where does the cold water enter the condenser?",
+       "r": "at the bottom",
+       "w": [
+        "at the top",
+        "in the flask",
+        "in the receiver"
+       ],
+       "e": [
+        "Entering at the bottom fills the jacket completely.",
+        "The flask holds the solution.",
+        "The receiver collects the distillate."
+       ],
+       "y": "In at the bottom, out at the top."
+      },
+      {
+       "q": "Where should the thermometer bulb be in distillation?",
+       "r": "at the side arm of the flask",
+       "w": [
+        "in the liquid at the bottom",
+        "in the receiver",
+        "in the cooling water"
+       ],
+       "e": [
+        "It must read the vapour temperature.",
+        "The receiver is cold.",
+        "That only shows the cooling water."
+       ],
+       "y": "It reads the temperature of the vapour leaving."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-42-first",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "ethanol",
+       "ta": 78,
+       "b": "water",
+       "tb": 100
+      },
+      {
+       "a": "water",
+       "ta": 100,
+       "b": "methanol",
+       "tb": 65
+      },
+      {
+       "a": "propanone",
+       "ta": 56,
+       "b": "water",
+       "tb": 100
+      },
+      {
+       "a": "water",
+       "ta": 100,
+       "b": "ethanol",
+       "tb": 78
+      }
+     ]
+    }
+   },
+   "prompt": "A mixture of {X.a} (boiling point {X.ta} °C) and {X.b} ({X.tb} °C) is fractionally distilled. Which distils first?",
+   "correct": "{X.ta < X.tb ? X.a : X.b}",
+   "distractors": [
+    {
+     "text": "{X.ta < X.tb ? X.b : X.a}",
+     "misconception": "higher"
+    },
+    {
+     "text": "both at the same time",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "higher",
+     "explain": "That liquid has the higher boiling point; it distils later."
+    },
+    {
+     "id": "same",
+     "explain": "They have different boiling points, so they distil one after the other."
+    }
+   ],
+   "solution": [
+    "The lower boiling point is reached first.",
+    "So {answer} distils first."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "k2-42-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Distilled water is made by simple distillation.",
+      "truth": "true"
+     },
+     {
+      "text": "Crude oil is separated by fractional distillation.",
+      "truth": "true"
+     },
+     {
+      "text": "The distillate is collected in the receiver.",
+      "truth": "true"
+     },
+     {
+      "text": "The liquid with the lower boiling point distils first.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cold water enters the condenser at the top.",
+      "truth": "false",
+      "explain": "It enters at the bottom so the jacket fills."
+     },
+     {
+      "text": "Filtration gives pure water from salt water.",
+      "truth": "false",
+      "explain": "The dissolved salt passes through the filter."
+     },
+     {
+      "text": "The thermometer bulb is put in the boiling liquid.",
+      "truth": "false",
+      "explain": "It is placed at the side arm to read the vapour temperature."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

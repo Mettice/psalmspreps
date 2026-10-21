@@ -1,0 +1,460 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 36,
+ "language": "en",
+ "prerequisites": [
+  35
+ ],
+ "skills": [
+  {
+   "id": "k2-36",
+   "name": "Rusting: definition and conditions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rusting is the slow reaction of iron (or steel) with oxygen and water to form a reddish-brown substance called rust. Only iron and steel rust; other metals corrode.\nBoth air (oxygen) and water are needed. Experiment with three iron nails:\n• Tube A: nail in tap water open to air → it rusts.\n• Tube B: nail in boiled water with a layer of oil on top (no air) → no rust.\n• Tube C: nail in dry air with calcium chloride (a drying agent) → no rust.\nSalt water and acid rain make rusting faster. This is why cars and roofs near the sea, as in Limbe and Douala, rust quickly.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": "a nail in boiled water covered with oil"
+  },
+  "problem": "Will {t} rust?",
+  "steps": [
+   "Boiling removes the dissolved air, and the oil stops air entering.",
+   "Water is present but oxygen is not."
+  ],
+  "answer": "No: rusting needs both oxygen and water.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c36-1",
+    "status": "draft",
+    "idea": "Rusting is the reaction of iron with oxygen and water, forming reddish-brown rust.",
+    "vars": {},
+    "example": [
+     "An iron roof sheet turns brown.",
+     "Only iron and steel rust."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-36-def"
+    }
+   },
+   {
+    "id": "c36-2",
+    "status": "draft",
+    "idea": "Both oxygen (air) and water are needed for rusting.",
+    "vars": {},
+    "example": [
+     "Boiled water under oil: no air, no rust.",
+     "Dry air with calcium chloride: no water, no rust."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-36-need"
+    }
+   },
+   {
+    "id": "c36-3",
+    "status": "draft",
+    "idea": "Salt and acids make iron rust faster.",
+    "vars": {},
+    "example": [
+     "Cars near the sea rust quickly.",
+     "Acid rain speeds up rusting."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-36-fast-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "burning-rusting"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why do iron roofs in Limbe rust faster than those in Garoua?",
+         "r": "The sea air is wet and salty.",
+         "w": [
+          "It is colder in Limbe.",
+          "There is less oxygen in Limbe.",
+          "Limbe has more nitrogen."
+         ],
+         "e": [
+          "Cold slows reactions.",
+          "Air everywhere has about the same oxygen.",
+          "Nitrogen does not cause rusting."
+         ],
+         "y": "Water and salt speed up rusting."
+        },
+        {
+         "q": "Which makes rusting faster?",
+         "r": "salt water",
+         "w": [
+          "oil",
+          "paint",
+          "dry air"
+         ],
+         "e": [
+          "Oil keeps air and water out.",
+          "Paint protects iron.",
+          "Dry air has no water."
+         ],
+         "y": "Salt speeds up rusting."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-36-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which metal rusts?",
+       "r": "iron",
+       "w": [
+        "gold",
+        "copper",
+        "aluminium"
+       ],
+       "e": [
+        "Gold does not react with air.",
+        "Copper corrodes green but does not rust.",
+        "Aluminium corrodes but does not rust."
+       ],
+       "y": "Only iron and steel rust."
+      },
+      {
+       "q": "What colour is rust?",
+       "r": "reddish-brown",
+       "w": [
+        "green",
+        "white",
+        "black"
+       ],
+       "e": [
+        "Green is corroded copper.",
+        "White is the colour of aluminium or zinc oxide.",
+        "Black is copper oxide or iron oxide formed by heating."
+       ],
+       "y": "Rust is reddish-brown."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-36-need",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which two things are needed for iron to rust?",
+       "r": "oxygen and water",
+       "w": [
+        "nitrogen and water",
+        "oxygen and heat",
+        "salt and sunlight"
+       ],
+       "e": [
+        "Nitrogen does not cause rusting.",
+        "Heat is not needed.",
+        "Salt speeds it up but is not needed."
+       ],
+       "y": "Both air (oxygen) and water."
+      },
+      {
+       "q": "A nail is kept in a dry tube with calcium chloride. Does it rust?",
+       "r": "No, there is no water.",
+       "w": [
+        "Yes, quickly.",
+        "Yes, because air is present.",
+        "No, there is no nitrogen."
+       ],
+       "e": [
+        "Calcium chloride takes up the water.",
+        "Air alone is not enough.",
+        "Nitrogen is not needed."
+       ],
+       "y": "Rusting needs water too."
+      },
+      {
+       "q": "Why is the water boiled in the rusting experiment?",
+       "r": "to remove the dissolved air",
+       "w": [
+        "to kill germs",
+        "to add oxygen",
+        "to make it salty"
+       ],
+       "e": [
+        "Germs do not matter here.",
+        "Boiling drives oxygen out.",
+        "Boiling does not add salt."
+       ],
+       "y": "Then the nail has water but no oxygen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-36-fast",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do iron roofs in Limbe rust faster than those in Garoua?",
+       "r": "The sea air is wet and salty.",
+       "w": [
+        "It is colder in Limbe.",
+        "There is less oxygen in Limbe.",
+        "Limbe has more nitrogen."
+       ],
+       "e": [
+        "Cold slows reactions.",
+        "Air everywhere has about the same oxygen.",
+        "Nitrogen does not cause rusting."
+       ],
+       "y": "Water and salt speed up rusting."
+      },
+      {
+       "q": "Which makes rusting faster?",
+       "r": "salt water",
+       "w": [
+        "oil",
+        "paint",
+        "dry air"
+       ],
+       "e": [
+        "Oil keeps air and water out.",
+        "Paint protects iron.",
+        "Dry air has no water."
+       ],
+       "y": "Salt speeds up rusting."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-36-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "prompt": "Which statement about the rusting experiment is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A nail in tap water open to the air rusts.",
+      "truth": "true"
+     },
+     {
+      "text": "A nail in boiled water under oil does not rust.",
+      "truth": "true"
+     },
+     {
+      "text": "A nail in dry air does not rust.",
+      "truth": "true"
+     },
+     {
+      "text": "Rusting needs both oxygen and water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A nail in boiled water under oil rusts because water is present.",
+      "truth": "false",
+      "explain": "There is no oxygen, so it does not rust."
+     },
+     {
+      "text": "A nail in dry air rusts because oxygen is present.",
+      "truth": "false",
+      "explain": "There is no water, so it does not rust."
+     },
+     {
+      "text": "Oil on the water speeds up rusting.",
+      "truth": "false",
+      "explain": "The oil keeps air out."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

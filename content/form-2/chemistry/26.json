@@ -1,0 +1,330 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "k2-26",
+   "name": "Conservation of mass and types of change"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In every change, physical or chemical, matter is not created or destroyed.\n• Physical change (melting, dissolving, freezing): the mass stays the same. Ice of mass 50 g melts to 50 g of water.\n• Chemical change in a closed container: the total mass of the products equals the total mass of the reactants.\n• In an open container a gas may escape, so the mass seems to go down (burning wood, heating limestone); or a gas from the air may join, so the mass seems to go up (burning magnesium, rusting iron). The atoms are still all there.\nMass of reactants = mass of products.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 20,
+   "b": 11
+  },
+  "problem": "{a} g of calcium carbonate is heated. {b} g of calcium oxide is left. What mass of carbon dioxide escaped?",
+  "steps": [
+   "Mass of reactants = mass of products.",
+   "Carbon dioxide = {a} − {b} = {a - b} g."
+  ],
+  "answer": "{a - b} g",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "In a physical change the mass stays the same.",
+    "vars": {},
+    "example": [
+     "Ice melts: the water has the same mass as the ice.",
+     "Sugar dissolved in tea adds its mass to the tea."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-26-phys"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "In a chemical change the total mass of the products equals the total mass of the reactants.",
+    "vars": {},
+    "example": [
+     "Iron + sulphur in a closed tube: the mass does not change.",
+     "The atoms are only rearranged."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-26-mass-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        7,
+        14,
+        28,
+        56
+       ]
+      },
+      "b": {
+       "expr": "a * 4 / 7"
+      }
+     },
+     "prompt": "{a} g of iron and {b} g of sulphur react completely in a closed tube. What is the mass of iron sulphide formed?",
+     "answer": "a + b",
+     "misconceptions": [
+      {
+       "id": "diff",
+       "wrong": "a - b",
+       "explain": "Nothing escapes from a closed tube: add the masses."
+      }
+     ],
+     "solution": [
+      "Mass of products = mass of reactants.",
+      "{a} + {b} = {answer} g."
+     ],
+     "unit": "g"
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "In an open container a gas can escape (mass seems to fall) or oxygen from the air can join (mass seems to rise).",
+    "vars": {},
+    "example": [
+     "Burning wood: smoke and gases escape.",
+     "Burning magnesium: oxygen joins, the ash is heavier."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-26-open-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Magnesium ribbon is burned in an open crucible. Why is the ash heavier than the magnesium?",
+         "r": "Oxygen from the air has joined the magnesium.",
+         "w": [
+          "Mass was created in the reaction.",
+          "The flame added mass.",
+          "Magnesium is lighter when hot."
+         ],
+         "e": [
+          "Mass is never created.",
+          "Heat has no mass.",
+          "The ash was weighed cold."
+         ],
+         "y": "Magnesium + oxygen → magnesium oxide: the oxygen adds mass."
+        },
+        {
+         "q": "A piece of wood is burned in the open. Why is the ash lighter than the wood?",
+         "r": "Gases and smoke escaped into the air.",
+         "w": [
+          "Mass was destroyed.",
+          "The ash is a different element.",
+          "Wood has no mass when dry."
+         ],
+         "e": [
+          "Mass is never destroyed.",
+          "The ash is not lighter for that reason.",
+          "Wood has mass."
+         ],
+         "y": "The products include gases that escaped."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-26-phys",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      10,
+      90
+     ]
+    }
+   },
+   "prompt": "{m} g of ice melts completely. What is the mass of the water formed?",
+   "answer": "m",
+   "solution": [
+    "Melting is a physical change.",
+    "The mass stays the same: {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k2-26-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      7,
+      14,
+      28,
+      56
+     ]
+    },
+    "b": {
+     "expr": "a * 4 / 7"
+    }
+   },
+   "prompt": "{a} g of iron and {b} g of sulphur react completely in a closed tube. What is the mass of iron sulphide formed?",
+   "answer": "a + b",
+   "misconceptions": [
+    {
+     "id": "diff",
+     "wrong": "a - b",
+     "explain": "Nothing escapes from a closed tube: add the masses."
+    }
+   ],
+   "solution": [
+    "Mass of products = mass of reactants.",
+    "{a} + {b} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k2-26-open",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Magnesium ribbon is burned in an open crucible. Why is the ash heavier than the magnesium?",
+       "r": "Oxygen from the air has joined the magnesium.",
+       "w": [
+        "Mass was created in the reaction.",
+        "The flame added mass.",
+        "Magnesium is lighter when hot."
+       ],
+       "e": [
+        "Mass is never created.",
+        "Heat has no mass.",
+        "The ash was weighed cold."
+       ],
+       "y": "Magnesium + oxygen → magnesium oxide: the oxygen adds mass."
+      },
+      {
+       "q": "A piece of wood is burned in the open. Why is the ash lighter than the wood?",
+       "r": "Gases and smoke escaped into the air.",
+       "w": [
+        "Mass was destroyed.",
+        "The ash is a different element.",
+        "Wood has no mass when dry."
+       ],
+       "e": [
+        "Mass is never destroyed.",
+        "The ash is not lighter for that reason.",
+        "Wood has mass."
+       ],
+       "y": "The products include gases that escaped."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

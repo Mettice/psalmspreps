@@ -1,0 +1,503 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "k2-22",
+   "name": "Word equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A word equation shows a reaction using the names of the substances:\nreactants → products\n• The arrow means “react to form” or “give”.\n• A plus sign (+) on the left means “reacts with”; on the right it means “and”.\n• Reactants are on the left, products on the right.\nExample: magnesium + oxygen → magnesium oxide.\nNaming products: a metal with a non-metal gives a compound ending in -ide (sodium + chlorine → sodium chloride). Burning a substance in oxygen gives its oxide. An acid + metal gives a salt + hydrogen.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": "Zinc reacts with hydrochloric acid to give zinc chloride and hydrogen."
+  },
+  "problem": "Write a word equation: {r}",
+  "steps": [
+   "The reactants (left) are zinc and hydrochloric acid.",
+   "The products (right) are zinc chloride and hydrogen."
+  ],
+  "answer": "zinc + hydrochloric acid → zinc chloride + hydrogen",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "A word equation is written reactants → products, with the names of the substances.",
+    "vars": {},
+    "example": [
+     "carbon + oxygen → carbon dioxide",
+     "Reactants on the left, products on the right."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-22-word"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "The arrow means “gives” or “forms”. The plus sign separates two substances on the same side.",
+    "vars": {},
+    "example": [
+     "hydrogen + oxygen → water",
+     "Read it: hydrogen reacts with oxygen to give water."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-22-read"
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "A metal burned in oxygen gives the metal oxide; a metal with chlorine gives the metal chloride.",
+    "vars": {},
+    "example": [
+     "calcium + oxygen → calcium oxide",
+     "sodium + chlorine → sodium chloride"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-22-name-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "magnesium + oxygen → ___",
+         "r": "magnesium oxide",
+         "w": [
+          "magnesium oxygen",
+          "magnesium carbonate",
+          "oxygen magnesium"
+         ],
+         "e": [
+          "The non-metal part ends in -ide: oxide.",
+          "There is no carbon.",
+          "The metal is named first."
+         ],
+         "y": "Metal + oxygen → metal oxide."
+        },
+        {
+         "q": "sodium + chlorine → ___",
+         "r": "sodium chloride",
+         "w": [
+          "sodium chlorine",
+          "chlorine sodide",
+          "sodium chlorate"
+         ],
+         "e": [
+          "Chlorine becomes chloride.",
+          "The metal is named first and keeps its name.",
+          "Chlorate contains oxygen too."
+         ],
+         "y": "Metal + chlorine → metal chloride."
+        },
+        {
+         "q": "zinc + hydrochloric acid → zinc chloride + ___",
+         "r": "hydrogen",
+         "w": [
+          "oxygen",
+          "water",
+          "chlorine"
+         ],
+         "e": [
+          "No oxygen is in the reactants.",
+          "Metal + acid gives hydrogen, not water.",
+          "The chlorine is in the zinc chloride."
+         ],
+         "y": "Metal + acid → salt + hydrogen."
+        },
+        {
+         "q": "carbon + oxygen → ___",
+         "r": "carbon dioxide",
+         "w": [
+          "carbon oxygen",
+          "carbonate",
+          "water"
+         ],
+         "e": [
+          "Name the compound: carbon dioxide.",
+          "A carbonate has a metal too.",
+          "There is no hydrogen."
+         ],
+         "y": "Carbon burns to carbon dioxide."
+        }
+       ]
+      }
+     },
+     "prompt": "Complete the word equation: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-22-word",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      19
+     ]
+    },
+    "j": {
+     "int": [
+      0,
+      19
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      19
+     ]
+    },
+    "l": {
+     "int": [
+      0,
+      19
+     ]
+    }
+   },
+   "prompt": "Which is the word equation for {eqStr(i)}?",
+   "correct": "{eqWords(i)}",
+   "distractors": [
+    {
+     "text": "{eqWords(j)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{eqWords(k)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{eqWords(l)}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That is a different reaction: compare the formulae with the names."
+    }
+   ],
+   "solution": [
+    "Read each formula as a name: the reactants are on the left, the products on the right.",
+    "So the word equation is {answer}."
+   ],
+   "where": "j != i && k != i && l != i && j != k && j != l && k != l"
+  },
+  {
+   "id": "k2-22-read",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In a word equation, what does the arrow (→) mean?",
+       "r": "gives (forms)",
+       "w": [
+        "equals exactly",
+        "and",
+        "is mixed with"
+       ],
+       "e": [
+        "It shows a change, not equal quantities.",
+        "That is what + means on the right.",
+        "The substances react; they are not just mixed."
+       ],
+       "y": "The arrow means react to form."
+      },
+      {
+       "q": "In copper + oxygen → copper oxide, which side shows the reactants?",
+       "r": "the left side",
+       "w": [
+        "the right side",
+        "both sides",
+        "neither side"
+       ],
+       "e": [
+        "The right side shows the products.",
+        "Products are only on the right.",
+        "The reactants are written on the left."
+       ],
+       "y": "Reactants are always on the left."
+      },
+      {
+       "q": "In hydrogen + oxygen → water, how many products are there?",
+       "r": "one",
+       "w": [
+        "two",
+        "three",
+        "none"
+       ],
+       "e": [
+        "Hydrogen and oxygen are reactants.",
+        "Count only the right side.",
+        "Water is a product."
+       ],
+       "y": "Only water is on the right."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-22-name",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "magnesium + oxygen → ___",
+       "r": "magnesium oxide",
+       "w": [
+        "magnesium oxygen",
+        "magnesium carbonate",
+        "oxygen magnesium"
+       ],
+       "e": [
+        "The non-metal part ends in -ide: oxide.",
+        "There is no carbon.",
+        "The metal is named first."
+       ],
+       "y": "Metal + oxygen → metal oxide."
+      },
+      {
+       "q": "sodium + chlorine → ___",
+       "r": "sodium chloride",
+       "w": [
+        "sodium chlorine",
+        "chlorine sodide",
+        "sodium chlorate"
+       ],
+       "e": [
+        "Chlorine becomes chloride.",
+        "The metal is named first and keeps its name.",
+        "Chlorate contains oxygen too."
+       ],
+       "y": "Metal + chlorine → metal chloride."
+      },
+      {
+       "q": "zinc + hydrochloric acid → zinc chloride + ___",
+       "r": "hydrogen",
+       "w": [
+        "oxygen",
+        "water",
+        "chlorine"
+       ],
+       "e": [
+        "No oxygen is in the reactants.",
+        "Metal + acid gives hydrogen, not water.",
+        "The chlorine is in the zinc chloride."
+       ],
+       "y": "Metal + acid → salt + hydrogen."
+      },
+      {
+       "q": "carbon + oxygen → ___",
+       "r": "carbon dioxide",
+       "w": [
+        "carbon oxygen",
+        "carbonate",
+        "water"
+       ],
+       "e": [
+        "Name the compound: carbon dioxide.",
+        "A carbonate has a metal too.",
+        "There is no hydrogen."
+       ],
+       "y": "Carbon burns to carbon dioxide."
+      }
+     ]
+    }
+   },
+   "prompt": "Complete the word equation: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-22-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "prompt": "Which word equation is written wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "iron + sulphur → iron sulphide",
+      "truth": "true"
+     },
+     {
+      "text": "calcium + oxygen → calcium oxide",
+      "truth": "true"
+     },
+     {
+      "text": "methane + oxygen → carbon dioxide + water",
+      "truth": "true"
+     },
+     {
+      "text": "magnesium + hydrochloric acid → magnesium chloride + hydrogen",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "magnesium oxide → magnesium + oxygen when magnesium burns",
+      "truth": "false",
+      "explain": "Magnesium and oxygen are the reactants: they go on the left."
+     },
+     {
+      "text": "sodium + chlorine → sodium chlorine",
+      "truth": "false",
+      "explain": "The product is named sodium chloride."
+     },
+     {
+      "text": "carbon + oxygen → carbon + oxygen",
+      "truth": "false",
+      "explain": "The product, carbon dioxide, must be on the right."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

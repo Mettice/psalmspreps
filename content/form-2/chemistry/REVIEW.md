@@ -183,6 +183,30 @@ Full working after a second miss:
 | 15 | families of elements: Names | draft | 3 | 4 | — |
 | 16 | families of elements: Properties | draft | 3 | 4 | — |
 | 17 | Reactivity of families | draft | 3 | 4 | — |
+| 20 | Chemical changes (Review) | draft | 3 | 4 | — |
+| 21 | Examples of chemical reactions | draft | 3 | 4 | — |
+| 22 | Writing chemical equations ( word equations) | draft | 3 | 4 | — |
+| 23 | Writing chemical equations (Symbolic equations) | draft | 3 | 4 | — |
+| 24 | Balancing chemical equations (Binary compound formation) | draft | 3 | 4 | — |
+| 25 | Balancing chemical equations ( Complex compounds formed) | draft | 3 | 3 | — |
+| 26 | Law of conservation of mass : Types of changes in matter | draft | 3 | 3 | — |
+| 27 | Law of conservation of mass : Definition and Experimental demonstration | draft | 3 | 3 | — |
+| 29 | The composition of air (determination of percentage composition by volume nitrogen and oxygen) | draft | 3 | 4 | — |
+| 30 | Uses of active and inactive air | draft | 3 | 4 | — |
+| 31 | Air as a mixture | draft | 3 | 4 | — |
+| 32 | Separation of components of air by fractional distillation | draft | 3 | 4 | — |
+| 33 | Reaction of substances with oxygen of air (burning paper and cooking gas) | draft | 3 | 4 | — |
+| 34 | Reaction of substances with oxygen of air (burning wood and cloths) | draft | 3 | 4 | — |
+| 35 | Reaction of substances with oxygen of air (burning metals and non-metals) | draft | 3 | 4 | — |
+| 36 | Rusting (Definition and conditions) | draft | 3 | 4 | — |
+| 37 | Iron rusting (composition and examples) | draft | 3 | 4 | — |
+| 38 | Disadvantages of rusting and methods of prevention | draft | 3 | 4 | — |
+| 40 | States of Matter : Summary review | draft | 3 | 4 | — |
+| 41 | Techniques for separation: review | draft | 3 | 4 | — |
+| 42 | Techniques of separation - Distillation | draft | 3 | 4 | — |
+| 43 | Techniques of separation: paper and column chromatography | draft | 3 | 4 | — |
+| 44 | Definitions: sublimation, melting point and boiling points | draft | 3 | 4 | — |
+| 45 | Criteria for purity | draft | 3 | 3 | — |
 
 ## Lesson 1: Dalton’s Atomic theory
 
@@ -3212,4 +3236,4959 @@ Full working after a second miss:
 
 > The wrong statement is “Iodine is the most reactive halogen.”.  
 > Fluorine is the most reactive; iodine the least of the four.  
+
+## Lesson 20: Chemical changes (Review)
+
+Prerequisites: none · Skill: k2-20 (Chemical changes)
+
+**Note** (draft)
+
+> A physical change makes no new substance and is usually easy to reverse: melting ice, dissolving sugar, boiling water, breaking glass.
+> A chemical change (a chemical reaction) makes one or more new substances and is usually hard to reverse: burning wood, rusting iron, cooking an egg, souring milk.
+> Signs of a chemical change:
+> • a new substance with new properties is formed;
+> • heat or light is given out (or taken in);
+> • a gas is given off (bubbles);
+> • a change of colour;
+> • a solid (precipitate) appears in a solution.
+> The substances we start with are the reactants; the new substances are the products.
+
+**Card c20-1** (draft)
+
+> In a chemical change new substances are made; in a physical change no new substance is made.
+>
+> _Melting butter: still butter, a physical change._  
+> _Burning charcoal: ash and gases, a chemical change._  
+
+Check question: `k2-20-kind` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Is cooking an egg a physical or a chemical change?
+
+- ◻️ a physical change  
+  _↳ feedback if chosen: The cooked egg is a new substance; it cannot become raw again._
+- ✅ a chemical change
+- ◻️ both at once  
+  _↳ feedback if chosen: A new substance is made, so it is chemical._
+- ◻️ neither  
+  _↳ feedback if chosen: The egg does change._
+
+Full working after a second miss:
+
+> The cooked egg cannot be turned back: a new substance was made.  
+> So the answer is “a chemical change”.  
+
+**Card c20-2** (draft)
+
+> Signs of a chemical change: heat or light, a gas given off, a change of colour, a solid appearing.
+>
+> _Bubbles when a tablet is put in water._  
+> _A cut banana turning brown._  
+
+Check question: `k2-20-sign` · multiple choice, level 1 · **authored key**, reused from practice
+
+> When two clear solutions are mixed, a yellow solid appears. What is this solid called?
+
+- ◻️ a reactant  
+  _↳ feedback if chosen: It is a product, not a reactant._
+- ◻️ a crystal of ice  
+  _↳ feedback if chosen: It is not frozen water._
+- ◻️ a solvent  
+  _↳ feedback if chosen: The solvent is the liquid that dissolves things._
+- ✅ a precipitate
+
+Full working after a second miss:
+
+> A solid formed in a solution is a precipitate.  
+> So the answer is “a precipitate”.  
+
+**Card c20-3** (draft)
+
+> The substances we start with are the reactants; the new substances formed are the products.
+>
+> _Wood + oxygen are the reactants._  
+> _Ash, carbon dioxide and water are products._  
+
+Check question: `k2-20-terms-card` · multiple choice, level 1 · **authored key**
+
+> Charcoal burns in oxygen to form carbon dioxide. What are the reactants?
+
+- ◻️ carbon dioxide and oxygen  
+  _↳ feedback if chosen: Carbon dioxide is made; it is not a starting substance._
+- ◻️ carbon dioxide only  
+  _↳ feedback if chosen: Carbon dioxide is the product._
+- ✅ charcoal (carbon) and oxygen
+- ◻️ ash and smoke  
+  _↳ feedback if chosen: Those are not named in this reaction._
+
+Full working after a second miss:
+
+> Reactants are the starting substances.  
+> So the answer is “charcoal (carbon) and oxygen”.  
+
+**Worked example** (draft)
+
+> Is it a physical or a chemical change when a piece of paper burns?
+
+1. New substances are made: ash, smoke, carbon dioxide and water vapour.
+2. Heat and light are given out, and the ash cannot be turned back into paper.
+
+**Answer:** A chemical change.
+
+**Practice** `k2-20-kind` · multiple choice, level 1 · **authored key**
+
+> Is melting ice a physical or a chemical change?
+
+- ◻️ neither  
+  _↳ feedback if chosen: The state changes._
+- ◻️ a reaction  
+  _↳ feedback if chosen: No new substance is made, so it is not a reaction._
+- ◻️ a chemical change  
+  _↳ feedback if chosen: Water is still water; no new substance._
+- ✅ a physical change
+
+Full working after a second miss:
+
+> Ice and water are the same substance in different states.  
+> So the answer is “a physical change”.  
+
+> Is rusting of iron a physical or a chemical change?
+
+- ◻️ a physical change  
+  _↳ feedback if chosen: Rust is a new brown substance._
+- ◻️ a change of state  
+  _↳ feedback if chosen: Rust is a new substance, not iron in another state._
+- ✅ a chemical change
+- ◻️ neither  
+  _↳ feedback if chosen: The iron does change._
+
+Full working after a second miss:
+
+> Rust is a new substance.  
+> So the answer is “a chemical change”.  
+
+**Practice** `k2-20-sign` · multiple choice, level 1 · **authored key**
+
+> Which of these is a sign of a chemical reaction?
+
+- ◻️ A change of position  
+  _↳ feedback if chosen: Moving does not make a new substance._
+- ✅ A change of colour
+- ◻️ A change of shape  
+  _↳ feedback if chosen: Shape alone shows no new substance._
+- ◻️ A change of size  
+  _↳ feedback if chosen: Size alone shows no new substance._
+
+Full working after a second miss:
+
+> A new colour often means a new substance.  
+> So the answer is “A change of colour”.  
+
+> Which of these is a sign of a chemical reaction?
+
+- ◻️ A change of position  
+  _↳ feedback if chosen: Moving does not make a new substance._
+- ◻️ A change of shape  
+  _↳ feedback if chosen: Shape alone shows no new substance._
+- ✅ A change of colour
+- ◻️ A change of size  
+  _↳ feedback if chosen: Size alone shows no new substance._
+
+Full working after a second miss:
+
+> A new colour often means a new substance.  
+> So the answer is “A change of colour”.  
+
+**Practice** `k2-20-terms` · multiple choice, level 2 · **authored key**
+
+> Which statement about a chemical change is true?
+
+- ◻️ No energy change happens.  
+  _↳ feedback if chosen: Heat or light is usually given out or taken in._
+- ◻️ The substances only change state.  
+  _↳ feedback if chosen: A change of state is physical._
+- ◻️ It is always easy to reverse.  
+  _↳ feedback if chosen: Most chemical changes are hard to reverse._
+- ✅ New substances are formed.
+
+Full working after a second miss:
+
+> A chemical change always makes new substances.  
+> So the answer is “New substances are formed.”.  
+
+> Which statement about a chemical change is true?
+
+- ◻️ It is always easy to reverse.  
+  _↳ feedback if chosen: Most chemical changes are hard to reverse._
+- ◻️ The substances only change state.  
+  _↳ feedback if chosen: A change of state is physical._
+- ◻️ No energy change happens.  
+  _↳ feedback if chosen: Heat or light is usually given out or taken in._
+- ✅ New substances are formed.
+
+Full working after a second miss:
+
+> A chemical change always makes new substances.  
+> So the answer is “New substances are formed.”.  
+
+**Practice** `k2-20-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Burning wood is a chemical change.
+- ◻️ Boiling water is a physical change.
+- ◻️ Souring of milk is a chemical change.
+- ✅ Melting candle wax is a chemical change.  
+  _↳ explanation: Melting makes no new substance: it is physical (only the burning of the wick and wax is chemical)._
+
+Full working after a second miss:
+
+> The wrong statement is “Melting candle wax is a chemical change.”.  
+> Melting makes no new substance: it is physical (only the burning of the wick and wax is chemical).  
+
+> Which statement is wrong?
+
+- ✅ Dissolving sugar is a chemical change.  
+  _↳ explanation: The sugar can be got back by evaporation: physical._
+- ◻️ Boiling water is a physical change.
+- ◻️ Burning wood is a chemical change.
+- ◻️ Souring of milk is a chemical change.
+
+Full working after a second miss:
+
+> The wrong statement is “Dissolving sugar is a chemical change.”.  
+> The sugar can be got back by evaporation: physical.  
+
+## Lesson 21: Examples of chemical reactions
+
+Prerequisites: 20 · Skill: k2-21 (Examples of chemical reactions)
+
+**Note** (draft)
+
+> Some important types of chemical reaction:
+> • Combination (synthesis): two substances join to make one. Iron + sulphur → iron sulphide.
+> • Decomposition: one substance breaks into simpler ones, often by heating. Calcium carbonate → calcium oxide + carbon dioxide.
+> • Combustion (burning): a substance reacts with oxygen and gives out heat and light. Methane (gas) + oxygen → carbon dioxide + water.
+> • Displacement: a more reactive element pushes a less reactive one out of its compound. Zinc + copper sulphate → zinc sulphate + copper.
+> • Neutralisation: an acid reacts with a base to give a salt and water. Sodium hydroxide + hydrochloric acid → sodium chloride + water.
+> Everyday examples: cooking, digestion, respiration, photosynthesis, rusting, souring of food.
+
+**Card c21-1** (draft)
+
+> Combination: two substances join to make one product. Decomposition: one substance breaks into simpler substances.
+>
+> _Iron + sulphur → iron sulphide (combination)._  
+> _Heating limestone gives lime and carbon dioxide (decomposition)._  
+
+Check question: `k2-21-type` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What type of reaction is this? iron + sulphur → iron sulphide
+
+- ✅ combination
+- ◻️ neutralisation  
+  _↳ feedback if chosen: No acid or base is used._
+- ◻️ displacement  
+  _↳ feedback if chosen: No element is pushed out._
+- ◻️ decomposition  
+  _↳ feedback if chosen: Nothing breaks down; two substances join._
+
+Full working after a second miss:
+
+> Two substances join to make one.  
+> So the answer is “combination”.  
+
+**Card c21-2** (draft)
+
+> Combustion is burning in oxygen, giving out heat and light. Neutralisation is acid + base → salt + water.
+>
+> _Cooking gas burning on a stove._  
+> _Sodium hydroxide + hydrochloric acid → salt + water._  
+
+Check question: `k2-21-burn` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is given out when a substance burns?
+
+- ◻️ nothing  
+  _↳ feedback if chosen: Burning gives out heat and light._
+- ◻️ only water  
+  _↳ feedback if chosen: Water may form, but heat and light are always given out._
+- ✅ heat and light
+- ◻️ oxygen  
+  _↳ feedback if chosen: Oxygen is used up when things burn._
+
+Full working after a second miss:
+
+> Combustion gives out heat and light.  
+> So the answer is “heat and light”.  
+
+**Card c21-3** (draft)
+
+> Displacement: a more reactive metal takes the place of a less reactive one in its compound.
+>
+> _Zinc + copper sulphate → zinc sulphate + copper._  
+> _Copper cannot push zinc out._  
+
+Check question: `k2-21-disp-card` · multiple choice, level 1 · **authored key**
+
+> Zinc is more reactive than copper. What happens when zinc is put in copper sulphate solution?
+
+- ◻️ Oxygen is given off.  
+  _↳ feedback if chosen: No oxygen is made here._
+- ◻️ Zinc is displaced.  
+  _↳ feedback if chosen: The more reactive metal stays in the compound, not out of it._
+- ✅ Copper is displaced and zinc sulphate forms.
+- ◻️ Nothing happens.  
+  _↳ feedback if chosen: Zinc is more reactive, so it does react._
+
+Full working after a second miss:
+
+> The more reactive metal takes the place of the less reactive one.  
+> So the answer is “Copper is displaced and zinc sulphate forms.”.  
+
+**Worked example** (draft)
+
+> What type of reaction is calcium carbonate → calcium oxide + carbon dioxide?
+
+1. One substance (calcium carbonate) breaks down.
+2. It gives two simpler substances.
+
+**Answer:** Decomposition.
+
+**Practice** `k2-21-type` · multiple choice, level 1 · **authored key**
+
+> What type of reaction is this? zinc + copper sulphate → zinc sulphate + copper
+
+- ◻️ decomposition  
+  _↳ feedback if chosen: Two substances react._
+- ◻️ combination  
+  _↳ feedback if chosen: Two products are made, not one._
+- ✅ displacement
+- ◻️ neutralisation  
+  _↳ feedback if chosen: No acid or base._
+
+Full working after a second miss:
+
+> Zinc pushes copper out of its compound.  
+> So the answer is “displacement”.  
+
+> What type of reaction is this? zinc + copper sulphate → zinc sulphate + copper
+
+- ◻️ decomposition  
+  _↳ feedback if chosen: Two substances react._
+- ✅ displacement
+- ◻️ combination  
+  _↳ feedback if chosen: Two products are made, not one._
+- ◻️ neutralisation  
+  _↳ feedback if chosen: No acid or base._
+
+Full working after a second miss:
+
+> Zinc pushes copper out of its compound.  
+> So the answer is “displacement”.  
+
+**Practice** `k2-21-burn` · multiple choice, level 1 · **authored key**
+
+> What does an acid react with in neutralisation?
+
+- ✅ a base (alkali)
+- ◻️ a noble gas  
+  _↳ feedback if chosen: Noble gases do not react._
+- ◻️ oxygen  
+  _↳ feedback if chosen: That is combustion._
+- ◻️ another acid  
+  _↳ feedback if chosen: Two acids do not neutralise each other._
+
+Full working after a second miss:
+
+> Acid + base → salt + water.  
+> So the answer is “a base (alkali)”.  
+
+> What does an acid react with in neutralisation?
+
+- ✅ a base (alkali)
+- ◻️ another acid  
+  _↳ feedback if chosen: Two acids do not neutralise each other._
+- ◻️ a noble gas  
+  _↳ feedback if chosen: Noble gases do not react._
+- ◻️ oxygen  
+  _↳ feedback if chosen: That is combustion._
+
+Full working after a second miss:
+
+> Acid + base → salt + water.  
+> So the answer is “a base (alkali)”.  
+
+**Practice** `k2-21-disp` · multiple choice, level 2 · **authored key**
+
+> Zinc is more reactive than copper. What happens when zinc is put in copper sulphate solution?
+
+- ◻️ Oxygen is given off.  
+  _↳ feedback if chosen: No oxygen is made here._
+- ✅ Copper is displaced and zinc sulphate forms.
+- ◻️ Zinc is displaced.  
+  _↳ feedback if chosen: The more reactive metal stays in the compound, not out of it._
+- ◻️ Nothing happens.  
+  _↳ feedback if chosen: Zinc is more reactive, so it does react._
+
+Full working after a second miss:
+
+> The more reactive metal takes the place of the less reactive one.  
+> So the answer is “Copper is displaced and zinc sulphate forms.”.  
+
+> Zinc is more reactive than copper. What happens when zinc is put in copper sulphate solution?
+
+- ◻️ Oxygen is given off.  
+  _↳ feedback if chosen: No oxygen is made here._
+- ◻️ Nothing happens.  
+  _↳ feedback if chosen: Zinc is more reactive, so it does react._
+- ◻️ Zinc is displaced.  
+  _↳ feedback if chosen: The more reactive metal stays in the compound, not out of it._
+- ✅ Copper is displaced and zinc sulphate forms.
+
+Full working after a second miss:
+
+> The more reactive metal takes the place of the less reactive one.  
+> So the answer is “Copper is displaced and zinc sulphate forms.”.  
+
+**Practice** `k2-21-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Combination: one substance breaks into two.  
+  _↳ explanation: That is decomposition; combination joins substances._
+- ◻️ Respiration is a chemical reaction.
+- ◻️ Burning is a reaction with oxygen.
+- ◻️ Heating limestone is a decomposition reaction.
+
+Full working after a second miss:
+
+> The wrong statement is “Combination: one substance breaks into two.”.  
+> That is decomposition; combination joins substances.  
+
+> Which statement is wrong?
+
+- ◻️ Neutralisation gives a salt and water.
+- ◻️ Burning is a reaction with oxygen.
+- ✅ Combination: one substance breaks into two.  
+  _↳ explanation: That is decomposition; combination joins substances._
+- ◻️ Heating limestone is a decomposition reaction.
+
+Full working after a second miss:
+
+> The wrong statement is “Combination: one substance breaks into two.”.  
+> That is decomposition; combination joins substances.  
+
+## Lesson 22: Writing chemical equations ( word equations)
+
+Prerequisites: 21 · Skill: k2-22 (Word equations)
+
+**Note** (draft)
+
+> A word equation shows a reaction using the names of the substances:
+> reactants → products
+> • The arrow means “react to form” or “give”.
+> • A plus sign (+) on the left means “reacts with”; on the right it means “and”.
+> • Reactants are on the left, products on the right.
+> Example: magnesium + oxygen → magnesium oxide.
+> Naming products: a metal with a non-metal gives a compound ending in -ide (sodium + chlorine → sodium chloride). Burning a substance in oxygen gives its oxide. An acid + metal gives a salt + hydrogen.
+
+**Card c22-1** (draft)
+
+> A word equation is written reactants → products, with the names of the substances.
+>
+> _carbon + oxygen → carbon dioxide_  
+> _Reactants on the left, products on the right._  
+
+Check question: `k2-22-word` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which is the word equation for 2KClO₃ → 2KCl + 3O₂?
+
+- ◻️ iron + oxygen → iron(III) oxide  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+- ◻️ magnesium + hydrochloric acid → magnesium chloride + hydrogen  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+- ✅ potassium chlorate → potassium chloride + oxygen
+- ◻️ sodium + oxygen → sodium oxide  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+
+Full working after a second miss:
+
+> Read each formula as a name: the reactants are on the left, the products on the right.  
+> So the word equation is potassium chlorate → potassium chloride + oxygen.  
+
+**Card c22-2** (draft)
+
+> The arrow means “gives” or “forms”. The plus sign separates two substances on the same side.
+>
+> _hydrogen + oxygen → water_  
+> _Read it: hydrogen reacts with oxygen to give water._  
+
+Check question: `k2-22-read` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In copper + oxygen → copper oxide, which side shows the reactants?
+
+- ◻️ both sides  
+  _↳ feedback if chosen: Products are only on the right._
+- ◻️ the right side  
+  _↳ feedback if chosen: The right side shows the products._
+- ◻️ neither side  
+  _↳ feedback if chosen: The reactants are written on the left._
+- ✅ the left side
+
+Full working after a second miss:
+
+> Reactants are always on the left.  
+> So the answer is “the left side”.  
+
+**Card c22-3** (draft)
+
+> A metal burned in oxygen gives the metal oxide; a metal with chlorine gives the metal chloride.
+>
+> _calcium + oxygen → calcium oxide_  
+> _sodium + chlorine → sodium chloride_  
+
+Check question: `k2-22-name-card` · multiple choice, level 1 · **authored key**
+
+> Complete the word equation: carbon + oxygen → ___
+
+- ◻️ carbonate  
+  _↳ feedback if chosen: A carbonate has a metal too._
+- ✅ carbon dioxide
+- ◻️ water  
+  _↳ feedback if chosen: There is no hydrogen._
+- ◻️ carbon oxygen  
+  _↳ feedback if chosen: Name the compound: carbon dioxide._
+
+Full working after a second miss:
+
+> Carbon burns to carbon dioxide.  
+> So the answer is “carbon dioxide”.  
+
+**Worked example** (draft)
+
+> Write a word equation: Zinc reacts with hydrochloric acid to give zinc chloride and hydrogen.
+
+1. The reactants (left) are zinc and hydrochloric acid.
+2. The products (right) are zinc chloride and hydrogen.
+
+**Answer:** zinc + hydrochloric acid → zinc chloride + hydrogen
+
+**Practice** `k2-22-word` · multiple choice, level 1 · computed by rule
+
+> Which is the word equation for 2H₂ + O₂ → 2H₂O?
+
+- ◻️ copper + oxygen → copper(II) oxide  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+- ✅ hydrogen + oxygen → water
+- ◻️ nitrogen + hydrogen → ammonia  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+- ◻️ carbon + oxygen → carbon dioxide  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+
+Full working after a second miss:
+
+> Read each formula as a name: the reactants are on the left, the products on the right.  
+> So the word equation is hydrogen + oxygen → water.  
+
+> Which is the word equation for CaO + H₂O → Ca(OH)₂?
+
+- ◻️ potassium chlorate → potassium chloride + oxygen  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+- ✅ calcium oxide + water → calcium hydroxide
+- ◻️ calcium + oxygen → calcium oxide  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+- ◻️ hydrogen peroxide → water + oxygen  
+  _↳ feedback if chosen: That is a different reaction: compare the formulae with the names._
+
+Full working after a second miss:
+
+> Read each formula as a name: the reactants are on the left, the products on the right.  
+> So the word equation is calcium oxide + water → calcium hydroxide.  
+
+**Practice** `k2-22-read` · multiple choice, level 1 · **authored key**
+
+> In hydrogen + oxygen → water, how many products are there?
+
+- ◻️ three  
+  _↳ feedback if chosen: Count only the right side._
+- ◻️ two  
+  _↳ feedback if chosen: Hydrogen and oxygen are reactants._
+- ✅ one
+- ◻️ none  
+  _↳ feedback if chosen: Water is a product._
+
+Full working after a second miss:
+
+> Only water is on the right.  
+> So the answer is “one”.  
+
+> In a word equation, what does the arrow (→) mean?
+
+- ✅ gives (forms)
+- ◻️ is mixed with  
+  _↳ feedback if chosen: The substances react; they are not just mixed._
+- ◻️ equals exactly  
+  _↳ feedback if chosen: It shows a change, not equal quantities._
+- ◻️ and  
+  _↳ feedback if chosen: That is what + means on the right._
+
+Full working after a second miss:
+
+> The arrow means react to form.  
+> So the answer is “gives (forms)”.  
+
+**Practice** `k2-22-name` · multiple choice, level 2 · **authored key**
+
+> Complete the word equation: zinc + hydrochloric acid → zinc chloride + ___
+
+- ✅ hydrogen
+- ◻️ chlorine  
+  _↳ feedback if chosen: The chlorine is in the zinc chloride._
+- ◻️ water  
+  _↳ feedback if chosen: Metal + acid gives hydrogen, not water._
+- ◻️ oxygen  
+  _↳ feedback if chosen: No oxygen is in the reactants._
+
+Full working after a second miss:
+
+> Metal + acid → salt + hydrogen.  
+> So the answer is “hydrogen”.  
+
+> Complete the word equation: zinc + hydrochloric acid → zinc chloride + ___
+
+- ◻️ oxygen  
+  _↳ feedback if chosen: No oxygen is in the reactants._
+- ✅ hydrogen
+- ◻️ water  
+  _↳ feedback if chosen: Metal + acid gives hydrogen, not water._
+- ◻️ chlorine  
+  _↳ feedback if chosen: The chlorine is in the zinc chloride._
+
+Full working after a second miss:
+
+> Metal + acid → salt + hydrogen.  
+> So the answer is “hydrogen”.  
+
+**Practice** `k2-22-spot` · spot the error, level 3 · **authored key**
+
+> Which word equation is written wrongly?
+
+- ◻️ calcium + oxygen → calcium oxide
+- ◻️ magnesium + hydrochloric acid → magnesium chloride + hydrogen
+- ◻️ methane + oxygen → carbon dioxide + water
+- ✅ carbon + oxygen → carbon + oxygen  
+  _↳ explanation: The product, carbon dioxide, must be on the right._
+
+Full working after a second miss:
+
+> The wrong statement is “carbon + oxygen → carbon + oxygen”.  
+> The product, carbon dioxide, must be on the right.  
+
+> Which word equation is written wrongly?
+
+- ◻️ calcium + oxygen → calcium oxide
+- ✅ magnesium oxide → magnesium + oxygen when magnesium burns  
+  _↳ explanation: Magnesium and oxygen are the reactants: they go on the left._
+- ◻️ iron + sulphur → iron sulphide
+- ◻️ magnesium + hydrochloric acid → magnesium chloride + hydrogen
+
+Full working after a second miss:
+
+> The wrong statement is “magnesium oxide → magnesium + oxygen when magnesium burns”.  
+> Magnesium and oxygen are the reactants: they go on the left.  
+
+## Lesson 23: Writing chemical equations (Symbolic equations)
+
+Prerequisites: 22 · Skill: k2-23 (Symbolic equations)
+
+**Note** (draft)
+
+> A symbolic (chemical) equation uses symbols and formulae instead of names.
+> Steps:
+> 1. Write the word equation.
+> 2. Write the correct formula of each substance (use valencies).
+> 3. Balance the equation (next lessons).
+> Gases like hydrogen, oxygen, nitrogen and chlorine exist as molecules of two atoms: H₂, O₂, N₂, Cl₂.
+> Example: hydrogen + oxygen → water becomes H₂ + O₂ → H₂O (not yet balanced).
+> State symbols may be added: (s) solid, (l) liquid, (g) gas, (aq) dissolved in water.
+> Atoms are counted from the formula: in Ca(OH)₂ there is one Ca, two O and two H.
+
+**Card c23-1** (draft)
+
+> In a symbolic equation each substance is written as its symbol or formula.
+>
+> _carbon + oxygen → carbon dioxide_  
+> _C + O₂ → CO₂_  
+
+Check question: `k2-23-word` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which symbolic equation matches copper + oxygen → copper(II) oxide?
+
+- ✅ 2Cu + O₂ → 2CuO
+- ◻️ H₂ + Cl₂ → 2HCl  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+- ◻️ 4Al + 3O₂ → 2Al₂O₃  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+- ◻️ 4Fe + 3O₂ → 2Fe₂O₃  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+
+Full working after a second miss:
+
+> Write the formula of each named substance.  
+> So the equation is 2Cu + O₂ → 2CuO.  
+
+**Card c23-2** (draft)
+
+> Hydrogen, oxygen, nitrogen and chlorine gases are written H₂, O₂, N₂ and Cl₂.
+>
+> _Oxygen gas is O₂, not O._  
+> _Chlorine gas is Cl₂._  
+
+Check question: `k2-23-gas` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is the formula of nitrogen gas?
+
+- ◻️ Ni  
+  _↳ feedback if chosen: Ni is nickel._
+- ✅ N₂
+- ◻️ NO₂  
+  _↳ feedback if chosen: NO₂ is nitrogen dioxide._
+- ◻️ N  
+  _↳ feedback if chosen: Nitrogen gas is diatomic._
+
+Full working after a second miss:
+
+> Nitrogen gas is N₂.  
+> So the answer is “N₂”.  
+
+**Card c23-3** (draft)
+
+> State symbols: (s) solid, (l) liquid, (g) gas, (aq) dissolved in water.
+>
+> _Mg(s) + O₂(g) → MgO(s)_  
+> _Salt dissolved in water: NaCl(aq)._  
+
+Check question: `k2-23-state-card` · multiple choice, level 1 · **authored key**
+
+> What does (aq) mean after a formula?
+
+- ◻️ a solid  
+  _↳ feedback if chosen: A solid is (s)._
+- ◻️ a liquid  
+  _↳ feedback if chosen: A pure liquid is (l)._
+- ✅ dissolved in water
+- ◻️ a gas  
+  _↳ feedback if chosen: A gas is (g)._
+
+Full working after a second miss:
+
+> aq is from aqua, water.  
+> So the answer is “dissolved in water”.  
+
+**Worked example** (draft)
+
+> How many atoms of each element are in Ca(OH)₂?
+
+1. The bracket (OH) is taken twice.
+2. Ca: 1, O: 1 × 2 = 2, H: 1 × 2 = 2.
+
+**Answer:** Ca: 1, O: 2, H: 2
+
+**Practice** `k2-23-word` · multiple choice, level 1 · computed by rule
+
+> Which symbolic equation matches sodium hydroxide + hydrochloric acid → sodium chloride + water?
+
+- ◻️ CaCO₃ → CaO + CO₂  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+- ✅ NaOH + HCl → NaCl + H₂O
+- ◻️ Fe + S → FeS  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+- ◻️ 4Fe + 3O₂ → 2Fe₂O₃  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+
+Full working after a second miss:
+
+> Write the formula of each named substance.  
+> So the equation is NaOH + HCl → NaCl + H₂O.  
+
+> Which symbolic equation matches iron + oxygen → iron(III) oxide?
+
+- ◻️ CH₄ + 2O₂ → CO₂ + 2H₂O  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+- ◻️ Zn + 2HCl → ZnCl₂ + H₂  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+- ◻️ S + O₂ → SO₂  
+  _↳ feedback if chosen: That equation has other substances: match each name to its formula._
+- ✅ 4Fe + 3O₂ → 2Fe₂O₃
+
+Full working after a second miss:
+
+> Write the formula of each named substance.  
+> So the equation is 4Fe + 3O₂ → 2Fe₂O₃.  
+
+**Practice** `k2-23-gas` · multiple choice, level 1 · **authored key**
+
+> What is the formula of nitrogen gas?
+
+- ◻️ Ni  
+  _↳ feedback if chosen: Ni is nickel._
+- ◻️ N  
+  _↳ feedback if chosen: Nitrogen gas is diatomic._
+- ◻️ NO₂  
+  _↳ feedback if chosen: NO₂ is nitrogen dioxide._
+- ✅ N₂
+
+Full working after a second miss:
+
+> Nitrogen gas is N₂.  
+> So the answer is “N₂”.  
+
+> What is the formula of nitrogen gas?
+
+- ◻️ NO₂  
+  _↳ feedback if chosen: NO₂ is nitrogen dioxide._
+- ◻️ N  
+  _↳ feedback if chosen: Nitrogen gas is diatomic._
+- ◻️ Ni  
+  _↳ feedback if chosen: Ni is nickel._
+- ✅ N₂
+
+Full working after a second miss:
+
+> Nitrogen gas is N₂.  
+> So the answer is “N₂”.  
+
+**Practice** `k2-23-state` · multiple choice, level 2 · **authored key**
+
+> Which state symbol is used for water as a liquid?
+
+- ◻️ (aq)  
+  _↳ feedback if chosen: (aq) means dissolved in water._
+- ◻️ (w)  
+  _↳ feedback if chosen: There is no symbol (w)._
+- ◻️ (s)  
+  _↳ feedback if chosen: (s) is a solid._
+- ✅ (l)
+
+Full working after a second miss:
+
+> (l) means liquid.  
+> So the answer is “(l)”.  
+
+> Which state symbol is used for water as a liquid?
+
+- ◻️ (w)  
+  _↳ feedback if chosen: There is no symbol (w)._
+- ◻️ (s)  
+  _↳ feedback if chosen: (s) is a solid._
+- ✅ (l)
+- ◻️ (aq)  
+  _↳ feedback if chosen: (aq) means dissolved in water._
+
+Full working after a second miss:
+
+> (l) means liquid.  
+> So the answer is “(l)”.  
+
+**Practice** `k2-23-count` · number, level 3 · computed by rule
+
+> How many hydrogen atoms are there on the left side of 2H₂O₂ → 2H₂O + O₂?
+
+Answer: **4**
+- Typed **2** (nocoef) → “Multiply by the big number in front of each formula too.”
+
+Full working after a second miss:
+
+> Multiply the small number after H by the big number in front of each formula.  
+> Add them for the left side: 4.  
+
+> How many calcium atoms are there on the left side of CaCO₃ → CaO + CO₂?
+
+Answer: **1**
+
+Full working after a second miss:
+
+> Multiply the small number after Ca by the big number in front of each formula.  
+> Add them for the left side: 1.  
+
+## Lesson 24: Balancing chemical equations (Binary compound formation)
+
+Prerequisites: 23 · Skill: k2-24 (Balancing equations: binary compounds)
+
+**Note** (draft)
+
+> Atoms are not created or destroyed in a reaction, so an equation must have the same number of each kind of atom on both sides. This is balancing.
+> Steps:
+> 1. Write the correct formulae. Never change a formula to balance.
+> 2. Count the atoms of each element on each side.
+> 3. Put numbers (coefficients) in front of formulae to make the counts equal.
+> 4. Check every element again.
+> Example: Mg + O₂ → MgO has two O on the left and one on the right. Put 2 before MgO: Mg + O₂ → 2MgO. Now there are two Mg on the right, so put 2 before Mg: 2Mg + O₂ → 2MgO.
+> A binary compound has two elements (MgO, H₂O, NaCl).
+
+**Card c24-1** (draft)
+
+> A balanced equation has the same number of each kind of atom on both sides.
+>
+> _2H₂ + O₂ → 2H₂O: four H and two O on each side._  
+> _Count each element separately._  
+
+Check question: `k2-24-check` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which equation is balanced?
+
+- ◻️ 3Cu + O₂ → 2CuO  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ◻️ 4Cu + O₂ → 2CuO  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ◻️ Cu + O₂ → CuO  
+  _↳ feedback if chosen: Count the atoms: they are not equal on both sides yet._
+- ✅ 2Cu + O₂ → 2CuO
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> Only 2Cu + O₂ → 2CuO has equal numbers of every atom.  
+
+**Card c24-2** (draft)
+
+> Balance by writing numbers in front of formulae. Never change the small numbers in a formula.
+>
+> _Write 2H₂O, never H₂O₂._  
+> _H₂O₂ is a different substance._  
+
+Check question: `k2-24-rule` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why must an equation be balanced?
+
+- ◻️ Because gases have no mass  
+  _↳ feedback if chosen: Gases do have mass._
+- ◻️ Because products are heavier  
+  _↳ feedback if chosen: The total mass stays the same._
+- ✅ Atoms are not created or destroyed in a reaction.
+- ◻️ To make it look tidy  
+  _↳ feedback if chosen: It shows a real rule of nature._
+
+Full working after a second miss:
+
+> The same atoms are only rearranged.  
+> So the answer is “Atoms are not created or destroyed in a reaction.”.  
+
+**Card c24-3** (draft)
+
+> Find the missing number by counting the atoms that are not yet equal.
+>
+> _Mg + O₂ → 2MgO needs two Mg on the left._  
+> _So 2Mg + O₂ → 2MgO._  
+
+Check question: `k2-24-coef-card` · number, level 1 · computed by rule
+
+> Find the missing number: ___Mg + O₂ → 2MgO
+
+Answer: **2**
+- Typed **1** (one) → “With one, the atoms are not equal on both sides: count again.”
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> The number that makes them equal is 2.  
+
+**Worked example** (draft)
+
+> Balance: H₂ + O₂ → H₂O
+
+1. Oxygen: 2 on the left, 1 on the right. Put 2 in front of H₂O.
+2. Now hydrogen: 4 on the right, so put 2 in front of H₂.
+
+**Answer:** 2H₂ + O₂ → 2H₂O
+
+**Practice** `k2-24-check` · multiple choice, level 1 · computed by rule
+
+> Which equation is balanced?
+
+- ◻️ 4Ca + O₂ → 2CaO  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ◻️ Ca + O₂ → CaO  
+  _↳ feedback if chosen: Count the atoms: they are not equal on both sides yet._
+- ◻️ 3Ca + O₂ → 2CaO  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ✅ 2Ca + O₂ → 2CaO
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> Only 2Ca + O₂ → 2CaO has equal numbers of every atom.  
+
+> Which equation is balanced?
+
+- ◻️ 5Fe + 3O₂ → 2Fe₂O₃  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ◻️ 6Fe + 3O₂ → 2Fe₂O₃  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ◻️ Fe + O₂ → Fe₂O₃  
+  _↳ feedback if chosen: Count the atoms: they are not equal on both sides yet._
+- ✅ 4Fe + 3O₂ → 2Fe₂O₃
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> Only 4Fe + 3O₂ → 2Fe₂O₃ has equal numbers of every atom.  
+
+**Practice** `k2-24-rule` · multiple choice, level 1 · **authored key**
+
+> To balance H₂ + O₂ → H₂O, what may you change?
+
+- ◻️ the small numbers in the formulae  
+  _↳ feedback if chosen: Changing H₂O to H₂O₂ makes a different substance._
+- ◻️ the arrow  
+  _↳ feedback if chosen: The arrow is not a number._
+- ◻️ the symbols  
+  _↳ feedback if chosen: The substances must stay the same._
+- ✅ the numbers in front of the formulae
+
+Full working after a second miss:
+
+> Only coefficients are changed.  
+> So the answer is “the numbers in front of the formulae”.  
+
+> To balance H₂ + O₂ → H₂O, what may you change?
+
+- ◻️ the small numbers in the formulae  
+  _↳ feedback if chosen: Changing H₂O to H₂O₂ makes a different substance._
+- ✅ the numbers in front of the formulae
+- ◻️ the symbols  
+  _↳ feedback if chosen: The substances must stay the same._
+- ◻️ the arrow  
+  _↳ feedback if chosen: The arrow is not a number._
+
+Full working after a second miss:
+
+> Only coefficients are changed.  
+> So the answer is “the numbers in front of the formulae”.  
+
+**Practice** `k2-24-coef` · number, level 2 · computed by rule
+
+> Find the missing number: ___H₂ + O₂ → 2H₂O
+
+Answer: **2**
+- Typed **1** (one) → “With one, the atoms are not equal on both sides: count again.”
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> The number that makes them equal is 2.  
+
+> Find the missing number: H₂ + Cl₂ → ___HCl
+
+Answer: **2**
+- Typed **1** (one) → “With one, the atoms are not equal on both sides: count again.”
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> The number that makes them equal is 2.  
+
+**Practice** `k2-24-coef2` · number, level 3 · computed by rule
+
+> Balance the equation H₂ + Cl₂ → HCl. What number goes in front of HCl?
+
+Answer: **2**
+- Typed **1** (one) → “Count the atoms again: with one they are not equal.”
+
+Full working after a second miss:
+
+> Balance step by step, counting each element: H₂ + Cl₂ → 2HCl.  
+> So the number in front is 2.  
+
+> Balance the equation Fe + O₂ → Fe₂O₃. What number goes in front of Fe?
+
+Answer: **4**
+- Typed **1** (one) → “Count the atoms again: with one they are not equal.”
+
+Full working after a second miss:
+
+> Balance step by step, counting each element: 4Fe + 3O₂ → 2Fe₂O₃.  
+> So the number in front is 4.  
+
+## Lesson 25: Balancing chemical equations ( Complex compounds formed)
+
+Prerequisites: 24 · Skill: k2-25 (Balancing equations: more complex compounds)
+
+**Note** (draft)
+
+> The same method works when there are radicals (groups of atoms) or several products.
+> Tips:
+> • Balance metals first, then non-metals, and leave hydrogen and oxygen to the end.
+> • A radical that stays the same on both sides (SO₄, CO₃, NO₃, OH) can be counted as one unit.
+> • Check every element at the end.
+> Examples:
+> Zn + 2HCl → ZnCl₂ + H₂ (two Cl and two H on each side).
+> CH₄ + 2O₂ → CO₂ + 2H₂O (C: one; H: four; O: four on each side).
+> 2KClO₃ → 2KCl + 3O₂ (K: two; Cl: two; O: six on each side).
+
+**Card c25-1** (draft)
+
+> Balance metals first, then non-metals; leave hydrogen and oxygen to the end.
+>
+> _Zn + HCl → ZnCl₂ + H₂: zinc is already equal._  
+> _Then chlorine: put 2 before HCl._  
+
+Check question: `k2-25-coef` · number, level 1 · computed by rule, reused from practice
+
+> Find the missing number: CH₄ + ___O₂ → CO₂ + 2H₂O
+
+Answer: **2**
+- Typed **1** (one) → “With one, the atoms are not equal on both sides: count again.”
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> The number that makes them equal is 2.  
+
+**Card c25-2** (draft)
+
+> Count every element on both sides at the end, including the oxygen in every formula.
+>
+> _CH₄ + 2O₂ → CO₂ + 2H₂O_  
+> _O: four on the left; two in CO₂ and two in 2H₂O._  
+
+Check question: `k2-25-count-card` · number, level 1 · computed by rule
+
+> How many chlorine atoms are on the right side of Zn + 2HCl → ZnCl₂ + H₂?
+
+Answer: **2**
+
+Full working after a second miss:
+
+> Multiply the small number after Cl by the big number in front of each formula.  
+> Add them for the right side: 2.  
+
+**Card c25-3** (draft)
+
+> A balanced equation keeps the correct formulae; only the numbers in front change.
+>
+> _2KClO₃ → 2KCl + 3O₂_  
+> _KClO₃ stays KClO₃._  
+
+Check question: `k2-25-check-card` · multiple choice, level 1 · computed by rule
+
+> Which equation is correctly balanced?
+
+- ◻️ CH₄ + 4O₂ → CO₂ + 2H₂O  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ✅ CH₄ + 2O₂ → CO₂ + 2H₂O
+- ◻️ CH₄ + O₂ → CO₂ + H₂O  
+  _↳ feedback if chosen: Count the atoms: they are not equal on both sides yet._
+- ◻️ CH₄ + 3O₂ → CO₂ + 2H₂O  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> Only CH₄ + 2O₂ → CO₂ + 2H₂O has equal numbers of every atom.  
+
+**Worked example** (draft)
+
+> Balance: CH₄ + O₂ → CO₂ + H₂O
+
+1. Carbon is balanced (1 each side). Hydrogen: 4 on the left, so put 2 in front of H₂O.
+2. Oxygen on the right is now 2 + 2 = 4, so put 2 in front of O₂.
+
+**Answer:** CH₄ + 2O₂ → CO₂ + 2H₂O
+
+**Practice** `k2-25-coef` · number, level 1 · computed by rule
+
+> Find the missing number: ___H₂O₂ → 2H₂O + O₂
+
+Answer: **2**
+- Typed **1** (one) → “With one, the atoms are not equal on both sides: count again.”
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> The number that makes them equal is 2.  
+
+> Find the missing number: Mg + ___HCl → MgCl₂ + H₂
+
+Answer: **2**
+- Typed **1** (one) → “With one, the atoms are not equal on both sides: count again.”
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> The number that makes them equal is 2.  
+
+**Practice** `k2-25-count` · number, level 2 · computed by rule
+
+> How many hydrogen atoms are on the right side of 2H₂O₂ → 2H₂O + O₂?
+
+Answer: **4**
+- Typed **2** (nocoef) → “Multiply by the big number in front of each formula too.”
+
+Full working after a second miss:
+
+> Multiply the small number after H by the big number in front of each formula.  
+> Add them for the right side: 4.  
+
+> How many oxygen atoms are on the right side of CH₄ + 2O₂ → CO₂ + 2H₂O?
+
+Answer: **4**
+- Typed **3** (nocoef) → “Multiply by the big number in front of each formula too.”
+
+Full working after a second miss:
+
+> Multiply the small number after O by the big number in front of each formula.  
+> Add them for the right side: 4.  
+
+**Practice** `k2-25-check` · multiple choice, level 3 · computed by rule
+
+> Which equation is correctly balanced?
+
+- ◻️ H₂O₂ → H₂O + O₂  
+  _↳ feedback if chosen: Count the atoms: they are not equal on both sides yet._
+- ◻️ 4H₂O₂ → 2H₂O + O₂  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ✅ 2H₂O₂ → 2H₂O + O₂
+- ◻️ 3H₂O₂ → 2H₂O + O₂  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> Only 2H₂O₂ → 2H₂O + O₂ has equal numbers of every atom.  
+
+> Which equation is correctly balanced?
+
+- ✅ Mg + 2HCl → MgCl₂ + H₂
+- ◻️ Mg + 3HCl → MgCl₂ + H₂  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ◻️ Mg + 4HCl → MgCl₂ + H₂  
+  _↳ feedback if chosen: Too many: count that element again on both sides._
+- ◻️ Mg + HCl → MgCl₂ + H₂  
+  _↳ feedback if chosen: Count the atoms: they are not equal on both sides yet._
+
+Full working after a second miss:
+
+> Count each element on both sides.  
+> Only Mg + 2HCl → MgCl₂ + H₂ has equal numbers of every atom.  
+
+## Lesson 26: Law of conservation of mass : Types of changes in matter
+
+Prerequisites: 25 · Skill: k2-26 (Conservation of mass and types of change)
+
+**Note** (draft)
+
+> In every change, physical or chemical, matter is not created or destroyed.
+> • Physical change (melting, dissolving, freezing): the mass stays the same. Ice of mass 50 g melts to 50 g of water.
+> • Chemical change in a closed container: the total mass of the products equals the total mass of the reactants.
+> • In an open container a gas may escape, so the mass seems to go down (burning wood, heating limestone); or a gas from the air may join, so the mass seems to go up (burning magnesium, rusting iron). The atoms are still all there.
+> Mass of reactants = mass of products.
+
+**Card c26-1** (draft)
+
+> In a physical change the mass stays the same.
+>
+> _Ice melts: the water has the same mass as the ice._  
+> _Sugar dissolved in tea adds its mass to the tea._  
+
+Check question: `k2-26-phys` · number, level 1 · computed by rule, reused from practice
+
+> 15 g of ice melts completely. What is the mass of the water formed?
+
+Answer: **15 g**
+
+Full working after a second miss:
+
+> Melting is a physical change.  
+> The mass stays the same: 15 g.  
+
+**Card c26-2** (draft)
+
+> In a chemical change the total mass of the products equals the total mass of the reactants.
+>
+> _Iron + sulphur in a closed tube: the mass does not change._  
+> _The atoms are only rearranged._  
+
+Check question: `k2-26-mass-card` · number, level 1 · computed by rule
+
+> 14 g of iron and 8 g of sulphur react completely in a closed tube. What is the mass of iron sulphide formed?
+
+Answer: **22 g**
+- Typed **6** (diff) → “Nothing escapes from a closed tube: add the masses.”
+
+Full working after a second miss:
+
+> Mass of products = mass of reactants.  
+> 14 + 8 = 22 g.  
+
+**Card c26-3** (draft)
+
+> In an open container a gas can escape (mass seems to fall) or oxygen from the air can join (mass seems to rise).
+>
+> _Burning wood: smoke and gases escape._  
+> _Burning magnesium: oxygen joins, the ash is heavier._  
+
+Check question: `k2-26-open-card` · multiple choice, level 1 · **authored key**
+
+> Magnesium ribbon is burned in an open crucible. Why is the ash heavier than the magnesium?
+
+- ◻️ The flame added mass.  
+  _↳ feedback if chosen: Heat has no mass._
+- ◻️ Mass was created in the reaction.  
+  _↳ feedback if chosen: Mass is never created._
+- ✅ Oxygen from the air has joined the magnesium.
+- ◻️ Magnesium is lighter when hot.  
+  _↳ feedback if chosen: The ash was weighed cold._
+
+Full working after a second miss:
+
+> Magnesium + oxygen → magnesium oxide: the oxygen adds mass.  
+> So the answer is “Oxygen from the air has joined the magnesium.”.  
+
+**Worked example** (draft)
+
+> 20 g of calcium carbonate is heated. 11 g of calcium oxide is left. What mass of carbon dioxide escaped?
+
+1. Mass of reactants = mass of products.
+2. Carbon dioxide = 20 − 11 = 9 g.
+
+**Answer:** 9 g
+
+**Practice** `k2-26-phys` · number, level 1 · computed by rule
+
+> 80 g of ice melts completely. What is the mass of the water formed?
+
+Answer: **80 g**
+
+Full working after a second miss:
+
+> Melting is a physical change.  
+> The mass stays the same: 80 g.  
+
+> 48 g of ice melts completely. What is the mass of the water formed?
+
+Answer: **48 g**
+
+Full working after a second miss:
+
+> Melting is a physical change.  
+> The mass stays the same: 48 g.  
+
+**Practice** `k2-26-mass` · number, level 2 · computed by rule
+
+> 14 g of iron and 8 g of sulphur react completely in a closed tube. What is the mass of iron sulphide formed?
+
+Answer: **22 g**
+- Typed **6** (diff) → “Nothing escapes from a closed tube: add the masses.”
+
+Full working after a second miss:
+
+> Mass of products = mass of reactants.  
+> 14 + 8 = 22 g.  
+
+> 56 g of iron and 32 g of sulphur react completely in a closed tube. What is the mass of iron sulphide formed?
+
+Answer: **88 g**
+- Typed **24** (diff) → “Nothing escapes from a closed tube: add the masses.”
+
+Full working after a second miss:
+
+> Mass of products = mass of reactants.  
+> 56 + 32 = 88 g.  
+
+**Practice** `k2-26-open` · multiple choice, level 3 · **authored key**
+
+> A piece of wood is burned in the open. Why is the ash lighter than the wood?
+
+- ◻️ The ash is a different element.  
+  _↳ feedback if chosen: The ash is not lighter for that reason._
+- ◻️ Mass was destroyed.  
+  _↳ feedback if chosen: Mass is never destroyed._
+- ✅ Gases and smoke escaped into the air.
+- ◻️ Wood has no mass when dry.  
+  _↳ feedback if chosen: Wood has mass._
+
+Full working after a second miss:
+
+> The products include gases that escaped.  
+> So the answer is “Gases and smoke escaped into the air.”.  
+
+> A piece of wood is burned in the open. Why is the ash lighter than the wood?
+
+- ◻️ Mass was destroyed.  
+  _↳ feedback if chosen: Mass is never destroyed._
+- ◻️ The ash is a different element.  
+  _↳ feedback if chosen: The ash is not lighter for that reason._
+- ✅ Gases and smoke escaped into the air.
+- ◻️ Wood has no mass when dry.  
+  _↳ feedback if chosen: Wood has mass._
+
+Full working after a second miss:
+
+> The products include gases that escaped.  
+> So the answer is “Gases and smoke escaped into the air.”.  
+
+## Lesson 27: Law of conservation of mass : Definition and Experimental demonstration
+
+Prerequisites: 26 · Skill: k2-27 (The law of conservation of mass)
+
+**Note** (draft)
+
+> The law of conservation of mass (Lavoisier): in a chemical reaction matter is neither created nor destroyed; the total mass of the products equals the total mass of the reactants.
+> Experiment: put a solution of lead nitrate in a small tube inside a conical flask of potassium iodide solution. Close the flask and weigh it. Tip the flask so the solutions mix: a yellow precipitate forms. Weigh again: the mass is the same.
+> Using the law: if some masses are known, the missing one can be found.
+> Total mass of reactants = total mass of products.
+
+**Card c27-1** (draft)
+
+> The law of conservation of mass: matter is neither created nor destroyed in a chemical reaction.
+>
+> _Lavoisier stated the law._  
+> _Mass of reactants = mass of products._  
+
+Check question: `k2-27-law` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which scientist stated the law of conservation of mass?
+
+- ◻️ Isaac Newton  
+  _↳ feedback if chosen: Newton studied forces._
+- ◻️ Dmitri Mendeleev  
+  _↳ feedback if chosen: Mendeleev made the periodic table._
+- ◻️ John Dalton  
+  _↳ feedback if chosen: Dalton gave the atomic theory._
+- ✅ Antoine Lavoisier
+
+Full working after a second miss:
+
+> Lavoisier, the French chemist.  
+> So the answer is “Antoine Lavoisier”.  
+
+**Card c27-2** (draft)
+
+> To test the law, the reaction is done in a closed flask so that nothing can escape, and weighed before and after.
+>
+> _Lead nitrate and potassium iodide in a closed flask._  
+> _A yellow precipitate forms; the mass does not change._  
+
+Check question: `k2-27-exp-card` · multiple choice, level 1 · **authored key**
+
+> The closed flask weighed 150 g before mixing. What does it weigh after the yellow precipitate forms?
+
+- ✅ 150 g
+- ◻️ less than 150 g  
+  _↳ feedback if chosen: Nothing escaped from the flask._
+- ◻️ more than 150 g  
+  _↳ feedback if chosen: Nothing entered the flask._
+- ◻️ 0 g  
+  _↳ feedback if chosen: The flask still has its contents._
+
+Full working after a second miss:
+
+> Mass is conserved.  
+> So the answer is “150 g”.  
+
+**Card c27-3** (draft)
+
+> A missing mass is found by subtraction: one reactant = product − the other reactant.
+>
+> _Carbon + oxygen → carbon dioxide_  
+> _If carbon dioxide and carbon are known, oxygen = the difference._  
+
+Check question: `k2-27-find-card` · number, level 1 · computed by rule
+
+> 6 g of carbon burns completely and gives 22 g of carbon dioxide. What mass of oxygen reacted?
+
+Answer: **16 g**
+- Typed **28** (add) → “Oxygen is a reactant: subtract the carbon from the carbon dioxide.”
+
+Full working after a second miss:
+
+> Carbon + oxygen = carbon dioxide.  
+> Oxygen = 22 − 6 = 16 g.  
+
+**Worked example** (draft)
+
+> 24 g of magnesium burns to give 40 g of magnesium oxide. What mass of oxygen reacted?
+
+1. Magnesium + oxygen = magnesium oxide.
+2. Oxygen = 40 − 24 = 16 g.
+
+**Answer:** 16 g
+
+**Practice** `k2-27-law` · multiple choice, level 1 · **authored key**
+
+> What does the law of conservation of mass say?
+
+- ◻️ Gases have no mass.  
+  _↳ feedback if chosen: Gases have mass._
+- ◻️ Products are always heavier than reactants.  
+  _↳ feedback if chosen: The total mass is equal._
+- ◻️ Mass is lost as heat.  
+  _↳ feedback if chosen: Heat has no mass._
+- ✅ Matter is neither created nor destroyed in a chemical reaction.
+
+Full working after a second miss:
+
+> Total mass of reactants = total mass of products.  
+> So the answer is “Matter is neither created nor destroyed in a chemical reaction.”.  
+
+> What does the law of conservation of mass say?
+
+- ◻️ Gases have no mass.  
+  _↳ feedback if chosen: Gases have mass._
+- ✅ Matter is neither created nor destroyed in a chemical reaction.
+- ◻️ Products are always heavier than reactants.  
+  _↳ feedback if chosen: The total mass is equal._
+- ◻️ Mass is lost as heat.  
+  _↳ feedback if chosen: Heat has no mass._
+
+Full working after a second miss:
+
+> Total mass of reactants = total mass of products.  
+> So the answer is “Matter is neither created nor destroyed in a chemical reaction.”.  
+
+**Practice** `k2-27-exp` · multiple choice, level 2 · **authored key**
+
+> The closed flask weighed 150 g before mixing. What does it weigh after the yellow precipitate forms?
+
+- ◻️ less than 150 g  
+  _↳ feedback if chosen: Nothing escaped from the flask._
+- ✅ 150 g
+- ◻️ more than 150 g  
+  _↳ feedback if chosen: Nothing entered the flask._
+- ◻️ 0 g  
+  _↳ feedback if chosen: The flask still has its contents._
+
+Full working after a second miss:
+
+> Mass is conserved.  
+> So the answer is “150 g”.  
+
+> Why is the flask closed in the experiment on conservation of mass?
+
+- ◻️ To keep it warm  
+  _↳ feedback if chosen: Temperature is not the reason._
+- ◻️ To stop the precipitate forming  
+  _↳ feedback if chosen: The precipitate forms anyway._
+- ✅ So that nothing can escape or enter.
+- ◻️ To make it lighter  
+  _↳ feedback if chosen: A stopper does not make it lighter._
+
+Full working after a second miss:
+
+> All the matter must stay inside to be weighed.  
+> So the answer is “So that nothing can escape or enter.”.  
+
+**Practice** `k2-27-find` · number, level 3 · computed by rule
+
+> 12 g of carbon burns completely and gives 44 g of carbon dioxide. What mass of oxygen reacted?
+
+Answer: **32 g**
+- Typed **56** (add) → “Oxygen is a reactant: subtract the carbon from the carbon dioxide.”
+
+Full working after a second miss:
+
+> Carbon + oxygen = carbon dioxide.  
+> Oxygen = 44 − 12 = 32 g.  
+
+> 12 g of carbon burns completely and gives 44 g of carbon dioxide. What mass of oxygen reacted?
+
+Answer: **32 g**
+- Typed **56** (add) → “Oxygen is a reactant: subtract the carbon from the carbon dioxide.”
+
+Full working after a second miss:
+
+> Carbon + oxygen = carbon dioxide.  
+> Oxygen = 44 − 12 = 32 g.  
+
+## Lesson 29: The composition of air (determination of percentage composition by volume nitrogen and oxygen)
+
+Prerequisites: none · Skill: k2-29 (The composition of air)
+
+**Note** (draft)
+
+> Air is a mixture of gases. By volume, dry air is about:
+> • nitrogen 78%
+> • oxygen 21%
+> • argon and other noble gases about 0.9%
+> • carbon dioxide about 0.04%
+> It also contains water vapour and dust, which vary.
+> Finding the percentage of oxygen: pass a known volume of air (for example 100 cm³) many times over heated copper in a tube between two gas syringes. The copper turns black (copper oxide) as it takes the oxygen. When cool, the volume left is about 79 cm³.
+> Oxygen used = volume at start − volume at end.
+> Percentage of oxygen = oxygen used ÷ volume at start × 100.
+
+**Card c29-1** (draft)
+
+> Air is a mixture: about 78% nitrogen, 21% oxygen and small amounts of argon, carbon dioxide and water vapour.
+>
+> _Nitrogen is the largest part._  
+> _Oxygen is about one fifth._  
+
+Check question: `k2-29-parts` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which noble gas is found in air (about 0.9%)?
+
+- ◻️ chlorine  
+  _↳ feedback if chosen: Chlorine is not a noble gas._
+- ◻️ fluorine  
+  _↳ feedback if chosen: Fluorine is a halogen._
+- ✅ argon
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Hydrogen is not a noble gas._
+
+Full working after a second miss:
+
+> Argon is the main noble gas in air.  
+> So the answer is “argon”.  
+
+**Card c29-2** (draft)
+
+> Heated copper takes the oxygen from the air and turns black; the volume of gas goes down.
+>
+> _Copper + oxygen → copper(II) oxide._  
+> _The gas left is mainly nitrogen._  
+
+Check question: `k2-29-copper` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which gas is mainly left in the syringe at the end?
+
+- ◻️ oxygen  
+  _↳ feedback if chosen: The oxygen was used by the copper._
+- ✅ nitrogen
+- ◻️ carbon dioxide  
+  _↳ feedback if chosen: Carbon dioxide is a tiny part._
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Air has almost no hydrogen._
+
+Full working after a second miss:
+
+> Nitrogen does not react with copper.  
+> So the answer is “nitrogen”.  
+
+**Card c29-3** (draft)
+
+> Oxygen used = volume at start − volume at end; percentage = oxygen used ÷ start volume × 100.
+>
+> _Start 100 cm³, end 79 cm³: oxygen 21 cm³._  
+> _21 ÷ 100 × 100 = 21%._  
+
+Check question: `k2-29-used-card` · number, level 1 · computed by rule
+
+> 200 cm³ of air is passed over heated copper. 158 cm³ of gas is left. What volume of oxygen was used?
+
+Answer: **42 cm³**
+- Typed **158** (left) → “That is the gas left: subtract it from the start volume.”
+
+Full working after a second miss:
+
+> Oxygen used = volume at start − volume at end.  
+> 200 − 158 = 42 cm³.  
+
+**Worked example** (draft)
+
+> 200 cm³ of air is passed over heated copper until no more change. 158 cm³ of gas is left. Find the percentage of oxygen.
+
+1. Oxygen used = 200 − 158 = 42 cm³.
+2. Percentage = 42 ÷ 200 × 100 = 21%.
+
+**Answer:** 21%
+
+**Practice** `k2-29-parts` · multiple choice, level 1 · **authored key**
+
+> Which noble gas is found in air (about 0.9%)?
+
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Hydrogen is not a noble gas._
+- ✅ argon
+- ◻️ fluorine  
+  _↳ feedback if chosen: Fluorine is a halogen._
+- ◻️ chlorine  
+  _↳ feedback if chosen: Chlorine is not a noble gas._
+
+Full working after a second miss:
+
+> Argon is the main noble gas in air.  
+> So the answer is “argon”.  
+
+> Which noble gas is found in air (about 0.9%)?
+
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Hydrogen is not a noble gas._
+- ◻️ chlorine  
+  _↳ feedback if chosen: Chlorine is not a noble gas._
+- ◻️ fluorine  
+  _↳ feedback if chosen: Fluorine is a halogen._
+- ✅ argon
+
+Full working after a second miss:
+
+> Argon is the main noble gas in air.  
+> So the answer is “argon”.  
+
+**Practice** `k2-29-copper` · multiple choice, level 1 · **authored key**
+
+> In the experiment, what happens to the heated copper?
+
+- ◻️ It turns white.  
+  _↳ feedback if chosen: Copper oxide is black._
+- ◻️ Nothing happens.  
+  _↳ feedback if chosen: It reacts with oxygen._
+- ✅ It turns black.
+- ◻️ It melts.  
+  _↳ feedback if chosen: The tube is not hot enough to melt copper._
+
+Full working after a second miss:
+
+> Copper(II) oxide is black.  
+> So the answer is “It turns black.”.  
+
+> Which gas is mainly left in the syringe at the end?
+
+- ✅ nitrogen
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Air has almost no hydrogen._
+- ◻️ oxygen  
+  _↳ feedback if chosen: The oxygen was used by the copper._
+- ◻️ carbon dioxide  
+  _↳ feedback if chosen: Carbon dioxide is a tiny part._
+
+Full working after a second miss:
+
+> Nitrogen does not react with copper.  
+> So the answer is “nitrogen”.  
+
+**Practice** `k2-29-used` · number, level 2 · computed by rule
+
+> 200 cm³ of air is passed over heated copper. 158 cm³ of gas is left. What volume of oxygen was used?
+
+Answer: **42 cm³**
+- Typed **158** (left) → “That is the gas left: subtract it from the start volume.”
+
+Full working after a second miss:
+
+> Oxygen used = volume at start − volume at end.  
+> 200 − 158 = 42 cm³.  
+
+> 300 cm³ of air is passed over heated copper. 237 cm³ of gas is left. What volume of oxygen was used?
+
+Answer: **63 cm³**
+- Typed **237** (left) → “That is the gas left: subtract it from the start volume.”
+
+Full working after a second miss:
+
+> Oxygen used = volume at start − volume at end.  
+> 300 − 237 = 63 cm³.  
+
+**Practice** `k2-29-pct` · number, level 3 · computed by rule
+
+> 100 cm³ of air is passed over heated copper until no more change. 79 cm³ of gas is left. What percentage of the air was oxygen?
+
+Answer: **21 %**
+- Typed **79** (leftpct) → “That is the gas left (mainly nitrogen): use the oxygen used.”
+
+Full working after a second miss:
+
+> Oxygen used = 100 − 79 = 21 cm³.  
+> Percentage = 21 ÷ 100 × 100 = 21%.  
+
+> 500 cm³ of air is passed over heated copper until no more change. 395 cm³ of gas is left. What percentage of the air was oxygen?
+
+Answer: **21 %**
+- Typed **105** (volume) → “That is the volume: divide by the start volume and × 100.”
+- Typed **79** (leftpct) → “That is the gas left (mainly nitrogen): use the oxygen used.”
+
+Full working after a second miss:
+
+> Oxygen used = 500 − 395 = 105 cm³.  
+> Percentage = 105 ÷ 500 × 100 = 21%.  
+
+## Lesson 30: Uses of active and inactive air
+
+Prerequisites: 29 · Skill: k2-30 (Uses of active and inactive air)
+
+**Note** (draft)
+
+> Oxygen is the active part of air: it takes part in burning, rusting and breathing. Nitrogen is the inactive part: it does not react easily.
+> Uses of oxygen:
+> • breathing (respiration) of plants and animals;
+> • in hospitals for patients with breathing problems;
+> • divers and mountain climbers carry it;
+> • burning fuels; welding and cutting metals (oxy-acetylene flame).
+> Uses of nitrogen:
+> • to make ammonia and fertilisers;
+> • to keep food fresh in packets (it does not react);
+> • liquid nitrogen for freezing.
+> Argon fills light bulbs; carbon dioxide is used by plants in photosynthesis and in fire extinguishers.
+
+**Card c30-1** (draft)
+
+> Oxygen is the active part of air: it is used in burning, rusting and breathing.
+>
+> _A candle goes out when its oxygen is used up._  
+> _Patients in hospital may be given oxygen._  
+
+Check question: `k2-30-active` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which part of air is called the active part?
+
+- ◻️ argon  
+  _↳ feedback if chosen: Argon is a noble gas: it hardly reacts._
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen is inactive._
+- ◻️ water vapour  
+  _↳ feedback if chosen: Water vapour is not the active part._
+- ✅ oxygen
+
+Full working after a second miss:
+
+> Oxygen takes part in burning, rusting and breathing.  
+> So the answer is “oxygen”.  
+
+**Card c30-2** (draft)
+
+> Nitrogen is the inactive part of air: it does not react easily.
+>
+> _Food packets are filled with nitrogen._  
+> _Nitrogen dilutes the oxygen so burning is not too fast._  
+
+Check question: `k2-30-inactive` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why is nitrogen put in packets of groundnuts?
+
+- ◻️ It kills the groundnuts.  
+  _↳ feedback if chosen: The groundnuts are already dried._
+- ◻️ It makes the packet heavier.  
+  _↳ feedback if chosen: That is not the reason._
+- ◻️ It adds taste.  
+  _↳ feedback if chosen: Nitrogen has no taste._
+- ✅ It does not react, so the food stays fresh.
+
+Full working after a second miss:
+
+> Without oxygen the oil does not go bad.  
+> So the answer is “It does not react, so the food stays fresh.”.  
+
+**Card c30-3** (draft)
+
+> Nitrogen is used to make fertilisers; argon fills bulbs; carbon dioxide is used in fire extinguishers.
+>
+> _Ammonia is made from nitrogen._  
+> _Argon does not react with the hot filament._  
+
+Check question: `k2-30-use-card` · multiple choice, level 1 · **authored key**
+
+> Which gas is used to make fertilisers?
+
+- ◻️ argon  
+  _↳ feedback if chosen: Argon does not react._
+- ◻️ neon  
+  _↳ feedback if chosen: Neon is used in signs._
+- ◻️ oxygen  
+  _↳ feedback if chosen: Fertilisers need nitrogen compounds._
+- ✅ nitrogen
+
+Full working after a second miss:
+
+> Nitrogen → ammonia → fertilisers.  
+> So the answer is “nitrogen”.  
+
+**Worked example** (draft)
+
+> Why is a crisp packet is filled with nitrogen?
+
+1. Nitrogen is inactive: it does not react with the food.
+2. Oxygen would make the oil in the crisps go bad.
+
+**Answer:** Nitrogen keeps the food fresh because it does not react.
+
+**Practice** `k2-30-active` · multiple choice, level 1 · **authored key**
+
+> Why are patients with breathing problems given oxygen?
+
+- ◻️ To make them sleep  
+  _↳ feedback if chosen: Oxygen is not a sleeping gas._
+- ✅ Their cells need oxygen for respiration.
+- ◻️ To put out fires  
+  _↳ feedback if chosen: Oxygen helps burning._
+- ◻️ To cool them  
+  _↳ feedback if chosen: Oxygen is not used for cooling._
+
+Full working after a second miss:
+
+> Respiration needs oxygen.  
+> So the answer is “Their cells need oxygen for respiration.”.  
+
+> Which part of air is called the active part?
+
+- ◻️ argon  
+  _↳ feedback if chosen: Argon is a noble gas: it hardly reacts._
+- ✅ oxygen
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen is inactive._
+- ◻️ water vapour  
+  _↳ feedback if chosen: Water vapour is not the active part._
+
+Full working after a second miss:
+
+> Oxygen takes part in burning, rusting and breathing.  
+> So the answer is “oxygen”.  
+
+**Practice** `k2-30-inactive` · multiple choice, level 1 · **authored key**
+
+> Why is nitrogen put in packets of groundnuts?
+
+- ✅ It does not react, so the food stays fresh.
+- ◻️ It makes the packet heavier.  
+  _↳ feedback if chosen: That is not the reason._
+- ◻️ It adds taste.  
+  _↳ feedback if chosen: Nitrogen has no taste._
+- ◻️ It kills the groundnuts.  
+  _↳ feedback if chosen: The groundnuts are already dried._
+
+Full working after a second miss:
+
+> Without oxygen the oil does not go bad.  
+> So the answer is “It does not react, so the food stays fresh.”.  
+
+> Why is nitrogen put in packets of groundnuts?
+
+- ◻️ It kills the groundnuts.  
+  _↳ feedback if chosen: The groundnuts are already dried._
+- ◻️ It adds taste.  
+  _↳ feedback if chosen: Nitrogen has no taste._
+- ◻️ It makes the packet heavier.  
+  _↳ feedback if chosen: That is not the reason._
+- ✅ It does not react, so the food stays fresh.
+
+Full working after a second miss:
+
+> Without oxygen the oil does not go bad.  
+> So the answer is “It does not react, so the food stays fresh.”.  
+
+**Practice** `k2-30-use` · multiple choice, level 2 · **authored key**
+
+> Which gas is used to make fertilisers?
+
+- ◻️ argon  
+  _↳ feedback if chosen: Argon does not react._
+- ◻️ neon  
+  _↳ feedback if chosen: Neon is used in signs._
+- ✅ nitrogen
+- ◻️ oxygen  
+  _↳ feedback if chosen: Fertilisers need nitrogen compounds._
+
+Full working after a second miss:
+
+> Nitrogen → ammonia → fertilisers.  
+> So the answer is “nitrogen”.  
+
+> Which gas is used to fill electric light bulbs?
+
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Hydrogen is flammable._
+- ✅ argon
+- ◻️ oxygen  
+  _↳ feedback if chosen: Oxygen would make the filament burn._
+- ◻️ chlorine  
+  _↳ feedback if chosen: Chlorine is poisonous and reactive._
+
+Full working after a second miss:
+
+> Argon does not react with the hot filament.  
+> So the answer is “argon”.  
+
+**Practice** `k2-30-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ Food packets are filled with oxygen to keep food fresh.  
+  _↳ explanation: Oxygen spoils food; nitrogen is used._
+- ◻️ Argon is used in light bulbs.
+- ◻️ Nitrogen is used to make ammonia.
+- ◻️ Oxygen is used by divers.
+
+Full working after a second miss:
+
+> The wrong statement is “Food packets are filled with oxygen to keep food fresh.”.  
+> Oxygen spoils food; nitrogen is used.  
+
+> Which statement is wrong?
+
+- ✅ Carbon dioxide is used to help fires burn.  
+  _↳ explanation: Carbon dioxide puts fires out._
+- ◻️ Nitrogen is used to make ammonia.
+- ◻️ Plants use carbon dioxide in photosynthesis.
+- ◻️ Oxygen is used by divers.
+
+Full working after a second miss:
+
+> The wrong statement is “Carbon dioxide is used to help fires burn.”.  
+> Carbon dioxide puts fires out.  
+
+## Lesson 31: Air as a mixture
+
+Prerequisites: 29 · Skill: k2-31 (Air as a mixture)
+
+**Note** (draft)
+
+> Air is a mixture, not a compound. Evidence:
+> • Its composition varies from place to place (more water vapour near the sea, more carbon dioxide in a crowded room).
+> • Its gases can be separated by physical methods (fractional distillation of liquid air).
+> • Each gas keeps its own properties (oxygen in air still supports burning).
+> • Air can be made by mixing the gases with no heat change and no reaction.
+> • Air has no fixed formula, and liquid air has no single boiling point.
+> A compound, by contrast, has a fixed composition and a formula, and can only be separated by a chemical reaction.
+
+**Card c31-1** (draft)
+
+> Air is a mixture because its composition varies and it has no formula.
+>
+> _Air in a crowded room has more carbon dioxide._  
+> _Air near the sea has more water vapour._  
+
+Check question: `k2-31-why` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which observation shows that air is a mixture?
+
+- ✅ Its composition varies from place to place.
+- ◻️ It has mass.  
+  _↳ feedback if chosen: All matter has mass._
+- ◻️ It can be compressed.  
+  _↳ feedback if chosen: All gases can be compressed._
+- ◻️ It is invisible.  
+  _↳ feedback if chosen: Many pure gases are invisible._
+
+Full working after a second miss:
+
+> A compound always has the same composition.  
+> So the answer is “Its composition varies from place to place.”.  
+
+**Card c31-2** (draft)
+
+> The gases in air keep their own properties and can be separated by physical methods.
+>
+> _Oxygen in air still relights a glowing splint slowly._  
+> _Fractional distillation separates liquid air._  
+
+Check question: `k2-31-props-card` · multiple choice, level 1 · **authored key**
+
+> Air can be made by mixing nitrogen and oxygen. What is observed?
+
+- ◻️ A precipitate forms  
+  _↳ feedback if chosen: Nothing reacts._
+- ◻️ The gases turn brown  
+  _↳ feedback if chosen: No new substance is made._
+- ✅ No heat change and no new substance
+- ◻️ A flame appears  
+  _↳ feedback if chosen: No reaction happens._
+
+Full working after a second miss:
+
+> Mixing gases is a physical process.  
+> So the answer is “No heat change and no new substance”.  
+
+**Card c31-3** (draft)
+
+> A compound has a fixed composition and a formula; it is separated only by a chemical reaction.
+>
+> _Water is always H₂O._  
+> _Air has no formula._  
+
+Check question: `k2-31-compound` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is true of a compound but not of air?
+
+- ✅ It has a fixed composition and a formula.
+- ◻️ It is a gas.  
+  _↳ feedback if chosen: Air is a gas too._
+- ◻️ It has mass.  
+  _↳ feedback if chosen: Air has mass too._
+- ◻️ It contains oxygen.  
+  _↳ feedback if chosen: Air contains oxygen too._
+
+Full working after a second miss:
+
+> Air has no formula; its composition varies.  
+> So the answer is “It has a fixed composition and a formula.”.  
+
+**Worked example** (draft)
+
+> What does it show that liquid air boils over a range of temperatures?
+
+1. A pure substance (an element or compound) has one fixed boiling point.
+2. A mixture boils over a range because its parts boil at different temperatures.
+
+**Answer:** Air is a mixture.
+
+**Practice** `k2-31-why` · multiple choice, level 1 · **authored key**
+
+> Which observation shows that air is a mixture?
+
+- ◻️ It can be compressed.  
+  _↳ feedback if chosen: All gases can be compressed._
+- ◻️ It has mass.  
+  _↳ feedback if chosen: All matter has mass._
+- ◻️ It is invisible.  
+  _↳ feedback if chosen: Many pure gases are invisible._
+- ✅ Its composition varies from place to place.
+
+Full working after a second miss:
+
+> A compound always has the same composition.  
+> So the answer is “Its composition varies from place to place.”.  
+
+> Is air an element, a compound or a mixture?
+
+- ◻️ an element  
+  _↳ feedback if chosen: Air contains several substances._
+- ◻️ a compound  
+  _↳ feedback if chosen: A compound has a fixed formula; air has none._
+- ✅ a mixture
+- ◻️ a pure substance  
+  _↳ feedback if chosen: Air contains several gases._
+
+Full working after a second miss:
+
+> Air is a mixture of gases.  
+> So the answer is “a mixture”.  
+
+**Practice** `k2-31-compound` · multiple choice, level 1 · **authored key**
+
+> Which is true of a compound but not of air?
+
+- ◻️ It is a gas.  
+  _↳ feedback if chosen: Air is a gas too._
+- ◻️ It has mass.  
+  _↳ feedback if chosen: Air has mass too._
+- ✅ It has a fixed composition and a formula.
+- ◻️ It contains oxygen.  
+  _↳ feedback if chosen: Air contains oxygen too._
+
+Full working after a second miss:
+
+> Air has no formula; its composition varies.  
+> So the answer is “It has a fixed composition and a formula.”.  
+
+> Which of these is a compound?
+
+- ◻️ soil  
+  _↳ feedback if chosen: Soil is a mixture._
+- ◻️ sea water  
+  _↳ feedback if chosen: Sea water is salt mixed with water._
+- ✅ water
+- ◻️ air  
+  _↳ feedback if chosen: Air is a mixture of gases._
+
+Full working after a second miss:
+
+> Water has a fixed formula, H₂O.  
+> So the answer is “water”.  
+
+**Practice** `k2-31-props` · multiple choice, level 2 · **authored key**
+
+> How are the gases of air separated?
+
+- ◻️ by filtration  
+  _↳ feedback if chosen: Filtration separates solids from liquids._
+- ◻️ by a chemical reaction only  
+  _↳ feedback if chosen: Air is a mixture, so physical methods work._
+- ◻️ by chromatography  
+  _↳ feedback if chosen: Chromatography separates dyes._
+- ✅ by fractional distillation of liquid air
+
+Full working after a second miss:
+
+> A physical method separates a mixture.  
+> So the answer is “by fractional distillation of liquid air”.  
+
+> How are the gases of air separated?
+
+- ◻️ by chromatography  
+  _↳ feedback if chosen: Chromatography separates dyes._
+- ✅ by fractional distillation of liquid air
+- ◻️ by filtration  
+  _↳ feedback if chosen: Filtration separates solids from liquids._
+- ◻️ by a chemical reaction only  
+  _↳ feedback if chosen: Air is a mixture, so physical methods work._
+
+Full working after a second miss:
+
+> A physical method separates a mixture.  
+> So the answer is “by fractional distillation of liquid air”.  
+
+**Practice** `k2-31-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Oxygen in air keeps its own properties.
+- ◻️ Air has no chemical formula.
+- ✅ Liquid air boils at one fixed temperature.  
+  _↳ explanation: It boils over a range: it is a mixture._
+- ◻️ Water is a compound with a fixed composition.
+
+Full working after a second miss:
+
+> The wrong statement is “Liquid air boils at one fixed temperature.”.  
+> It boils over a range: it is a mixture.  
+
+> Which statement is wrong?
+
+- ◻️ Air has no chemical formula.
+- ✅ Liquid air boils at one fixed temperature.  
+  _↳ explanation: It boils over a range: it is a mixture._
+- ◻️ The parts of air can be separated physically.
+- ◻️ Oxygen in air keeps its own properties.
+
+Full working after a second miss:
+
+> The wrong statement is “Liquid air boils at one fixed temperature.”.  
+> It boils over a range: it is a mixture.  
+
+## Lesson 32: Separation of components of air by fractional distillation
+
+Prerequisites: 31 · Skill: k2-32 (Fractional distillation of liquid air)
+
+**Note** (draft)
+
+> The gases of air are separated in industry by fractional distillation of liquid air.
+> 1. Air is filtered to remove dust.
+> 2. Water vapour and carbon dioxide are removed (they would freeze and block the pipes).
+> 3. The air is compressed and cooled until it becomes liquid at about −200 °C.
+> 4. The liquid air is warmed slowly in a fractionating column. Each gas boils off at its own boiling point: nitrogen (−196 °C) first, then argon (−186 °C), then oxygen (−183 °C).
+> The gas with the lowest boiling point boils off first and is collected at the top of the column.
+
+**Card c32-1** (draft)
+
+> Air is cleaned, then dust, water vapour and carbon dioxide are removed before it is cooled.
+>
+> _Water and carbon dioxide would freeze and block the pipes._  
+> _Dust is removed by filters._  
+
+Check question: `k2-32-steps` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is the first step in separating air?
+
+- ✅ Filter out the dust.
+- ◻️ Burn the air.  
+  _↳ feedback if chosen: Burning would use the oxygen._
+- ◻️ Add water to the air.  
+  _↳ feedback if chosen: Water must be removed._
+- ◻️ Boil the air.  
+  _↳ feedback if chosen: Air is already a gas; it is cooled, not boiled._
+
+Full working after a second miss:
+
+> Dust is removed first.  
+> So the answer is “Filter out the dust.”.  
+
+**Card c32-2** (draft)
+
+> Air is compressed and cooled until it becomes liquid, at about −200 °C.
+>
+> _Gases turn to liquid when cold enough._  
+> _Liquid air is very cold._  
+
+Check question: `k2-32-cool` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is the name of the method used to separate liquid air?
+
+- ✅ fractional distillation
+- ◻️ chromatography  
+  _↳ feedback if chosen: Chromatography separates dyes._
+- ◻️ filtration  
+  _↳ feedback if chosen: Filtration separates a solid from a liquid._
+- ◻️ evaporation  
+  _↳ feedback if chosen: Evaporation leaves a solid behind._
+
+Full working after a second miss:
+
+> Each gas boils off at its own boiling point.  
+> So the answer is “fractional distillation”.  
+
+**Card c32-3** (draft)
+
+> When liquid air warms, the gas with the lowest boiling point boils off first.
+>
+> _Nitrogen −196 °C, argon −186 °C, oxygen −183 °C._  
+> _Nitrogen comes off first, oxygen last._  
+
+Check question: `k2-32-first-card` · multiple choice, level 1 · computed by rule
+
+> Liquid air is warmed slowly. Which boils off first: nitrogen (−196 °C) or oxygen (−183 °C)?
+
+- ◻️ They boil off together.  
+  _↳ feedback if chosen: Each gas boils at its own boiling point, so they come off one after another._
+- ◻️ oxygen  
+  _↳ feedback if chosen: That gas has the higher boiling point, so it boils later: −183 is warmer than −196._
+- ✅ nitrogen
+
+Full working after a second miss:
+
+> The lower boiling point is reached first as the liquid warms.  
+> So nitrogen boils off first.  
+
+**Worked example** (draft)
+
+> Liquid air is warmed. Which boils off first, nitrogen (boiling point −196 °C) or oxygen (−183 °C)?
+
+1. As the liquid warms, it reaches −196 °C before −183 °C.
+2. The lower boiling point is reached first.
+
+**Answer:** nitrogen
+
+**Practice** `k2-32-steps` · multiple choice, level 1 · **authored key**
+
+> What is the first step in separating air?
+
+- ◻️ Boil the air.  
+  _↳ feedback if chosen: Air is already a gas; it is cooled, not boiled._
+- ◻️ Burn the air.  
+  _↳ feedback if chosen: Burning would use the oxygen._
+- ◻️ Add water to the air.  
+  _↳ feedback if chosen: Water must be removed._
+- ✅ Filter out the dust.
+
+Full working after a second miss:
+
+> Dust is removed first.  
+> So the answer is “Filter out the dust.”.  
+
+> Why are water vapour and carbon dioxide removed before air is cooled?
+
+- ◻️ They are poisonous.  
+  _↳ feedback if chosen: That is not the reason in the plant._
+- ◻️ They make the air too heavy.  
+  _↳ feedback if chosen: Their mass is not the problem._
+- ✅ They would freeze and block the pipes.
+- ◻️ They are needed later.  
+  _↳ feedback if chosen: They are removed, not used._
+
+Full working after a second miss:
+
+> Ice and solid carbon dioxide would block the pipes.  
+> So the answer is “They would freeze and block the pipes.”.  
+
+**Practice** `k2-32-cool` · multiple choice, level 1 · **authored key**
+
+> How is air turned into a liquid?
+
+- ◻️ by filtering it  
+  _↳ feedback if chosen: Filtering only removes dust._
+- ✅ by compressing and cooling it
+- ◻️ by heating it  
+  _↳ feedback if chosen: Heating keeps it a gas._
+- ◻️ by adding salt  
+  _↳ feedback if chosen: Salt has nothing to do with it._
+
+Full working after a second miss:
+
+> Compressed and cooled to about −200 °C.  
+> So the answer is “by compressing and cooling it”.  
+
+> What is the name of the method used to separate liquid air?
+
+- ◻️ filtration  
+  _↳ feedback if chosen: Filtration separates a solid from a liquid._
+- ✅ fractional distillation
+- ◻️ evaporation  
+  _↳ feedback if chosen: Evaporation leaves a solid behind._
+- ◻️ chromatography  
+  _↳ feedback if chosen: Chromatography separates dyes._
+
+Full working after a second miss:
+
+> Each gas boils off at its own boiling point.  
+> So the answer is “fractional distillation”.  
+
+**Practice** `k2-32-first` · multiple choice, level 2 · computed by rule
+
+> Liquid air is warmed slowly. Which boils off first: nitrogen (−196 °C) or oxygen (−183 °C)?
+
+- ✅ nitrogen
+- ◻️ They boil off together.  
+  _↳ feedback if chosen: Each gas boils at its own boiling point, so they come off one after another._
+- ◻️ oxygen  
+  _↳ feedback if chosen: That gas has the higher boiling point, so it boils later: −183 is warmer than −196._
+
+Full working after a second miss:
+
+> The lower boiling point is reached first as the liquid warms.  
+> So nitrogen boils off first.  
+
+> Liquid air is warmed slowly. Which boils off first: nitrogen (−196 °C) or oxygen (−183 °C)?
+
+- ◻️ oxygen  
+  _↳ feedback if chosen: That gas has the higher boiling point, so it boils later: −183 is warmer than −196._
+- ◻️ They boil off together.  
+  _↳ feedback if chosen: Each gas boils at its own boiling point, so they come off one after another._
+- ✅ nitrogen
+
+Full working after a second miss:
+
+> The lower boiling point is reached first as the liquid warms.  
+> So nitrogen boils off first.  
+
+**Practice** `k2-32-order` · ordering, level 3 · computed by rule
+
+> Put the gases in the order they boil off as liquid air warms (first at the top).
+
+Shown as: oxygen (−183 °C) · argon (−186 °C) · nitrogen (−196 °C)
+Correct order: nitrogen (−196 °C) → argon (−186 °C) → oxygen (−183 °C)
+
+Full working after a second miss:
+
+> The correct order is: nitrogen (−196 °C) → argon (−186 °C) → oxygen (−183 °C).  
+
+> Put the gases in the order they boil off as liquid air warms (first at the top).
+
+Shown as: argon (−186 °C) · nitrogen (−196 °C) · oxygen (−183 °C)
+Correct order: nitrogen (−196 °C) → argon (−186 °C) → oxygen (−183 °C)
+
+Full working after a second miss:
+
+> The correct order is: nitrogen (−196 °C) → argon (−186 °C) → oxygen (−183 °C).  
+
+## Lesson 33: Reaction of substances with oxygen of air (burning paper and cooking gas)
+
+Prerequisites: none · Skill: k2-33 (Burning: paper and cooking gas)
+
+**Note** (draft)
+
+> Burning (combustion) is a reaction of a substance with oxygen that gives out heat and light.
+> Three things are needed for a fire (the fire triangle): fuel, oxygen (air) and heat (to reach the ignition temperature). Remove any one and the fire goes out.
+> Paper is made of cellulose, which contains carbon, hydrogen and oxygen. When it burns: paper + oxygen → carbon dioxide + water (+ ash).
+> Cooking gas (butane, propane) and methane burn with a blue flame when there is enough air:
+> methane + oxygen → carbon dioxide + water
+> With too little air the flame is yellow and smoky, and poisonous carbon monoxide and soot (carbon) form. Always cook in a well-aired room.
+
+**Card c33-1** (draft)
+
+> A fire needs fuel, oxygen and heat. Taking away any one puts the fire out.
+>
+> _Water cools a wood fire (removes heat)._  
+> _Sand on a fire cuts off oxygen._  
+
+Check question: `k2-33-triangle` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which three things are needed for burning?
+
+- ✅ fuel, oxygen and heat
+- ◻️ fuel, water and heat  
+  _↳ feedback if chosen: Water puts fires out._
+- ◻️ oxygen, nitrogen and fuel  
+  _↳ feedback if chosen: Nitrogen does not support burning; heat is needed._
+- ◻️ heat, light and water  
+  _↳ feedback if chosen: Fuel and oxygen are needed._
+
+Full working after a second miss:
+
+> The fire triangle.  
+> So the answer is “fuel, oxygen and heat”.  
+
+**Card c33-2** (draft)
+
+> Paper and cooking gas contain carbon and hydrogen; they burn to carbon dioxide and water.
+>
+> _methane + oxygen → carbon dioxide + water_  
+> _Paper leaves a little ash._  
+
+Check question: `k2-33-products` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What are the products when cooking gas burns in plenty of air?
+
+- ◻️ oxygen and hydrogen  
+  _↳ feedback if chosen: Oxygen is used, not made._
+- ◻️ carbon and oxygen  
+  _↳ feedback if chosen: Carbon is only formed with too little air._
+- ✅ carbon dioxide and water
+- ◻️ nitrogen and water  
+  _↳ feedback if chosen: Nitrogen is not formed._
+
+Full working after a second miss:
+
+> Fuels with carbon and hydrogen give carbon dioxide and water.  
+> So the answer is “carbon dioxide and water”.  
+
+**Card c33-3** (draft)
+
+> With too little air a flame is yellow and smoky, and poisonous carbon monoxide forms.
+>
+> _A blue gas flame has enough air._  
+> _Never burn charcoal in a closed room._  
+
+Check question: `k2-33-air-card` · multiple choice, level 1 · **authored key**
+
+> A gas cooker burns with a yellow, smoky flame. What does this show?
+
+- ✅ There is not enough air.
+- ◻️ The flame is very clean.  
+  _↳ feedback if chosen: Smoke shows unburnt carbon._
+- ◻️ There is too much air.  
+  _↳ feedback if chosen: Plenty of air gives a blue flame._
+- ◻️ The gas is water.  
+  _↳ feedback if chosen: Cooking gas is a fuel._
+
+Full working after a second miss:
+
+> Too little air gives a yellow, sooty flame.  
+> So the answer is “There is not enough air.”.  
+
+**Worked example** (draft)
+
+> Why does the fire go out when a lid is put on a pan of burning oil?
+
+1. A fire needs fuel, oxygen and heat.
+2. The lid stops oxygen from reaching the oil.
+
+**Answer:** The oxygen is removed, so the fire triangle is broken.
+
+**Practice** `k2-33-triangle` · multiple choice, level 1 · **authored key**
+
+> Which three things are needed for burning?
+
+- ◻️ fuel, water and heat  
+  _↳ feedback if chosen: Water puts fires out._
+- ✅ fuel, oxygen and heat
+- ◻️ oxygen, nitrogen and fuel  
+  _↳ feedback if chosen: Nitrogen does not support burning; heat is needed._
+- ◻️ heat, light and water  
+  _↳ feedback if chosen: Fuel and oxygen are needed._
+
+Full working after a second miss:
+
+> The fire triangle.  
+> So the answer is “fuel, oxygen and heat”.  
+
+> Sand is thrown on a small fire. Which side of the fire triangle is removed?
+
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen is not part of the triangle._
+- ◻️ fuel  
+  _↳ feedback if chosen: The fuel is still there under the sand._
+- ◻️ heat  
+  _↳ feedback if chosen: Sand mainly cuts off the air._
+- ✅ oxygen
+
+Full working after a second miss:
+
+> Sand stops air reaching the fuel.  
+> So the answer is “oxygen”.  
+
+**Practice** `k2-33-products` · multiple choice, level 1 · **authored key**
+
+> Which elements does paper mainly contain?
+
+- ◻️ sodium and chlorine  
+  _↳ feedback if chosen: That is common salt._
+- ◻️ nitrogen only  
+  _↳ feedback if chosen: Paper is mostly cellulose._
+- ✅ carbon, hydrogen and oxygen
+- ◻️ iron and oxygen  
+  _↳ feedback if chosen: Paper is not a metal compound._
+
+Full working after a second miss:
+
+> Paper is cellulose: C, H and O.  
+> So the answer is “carbon, hydrogen and oxygen”.  
+
+> What are the products when cooking gas burns in plenty of air?
+
+- ◻️ carbon and oxygen  
+  _↳ feedback if chosen: Carbon is only formed with too little air._
+- ◻️ oxygen and hydrogen  
+  _↳ feedback if chosen: Oxygen is used, not made._
+- ✅ carbon dioxide and water
+- ◻️ nitrogen and water  
+  _↳ feedback if chosen: Nitrogen is not formed._
+
+Full working after a second miss:
+
+> Fuels with carbon and hydrogen give carbon dioxide and water.  
+> So the answer is “carbon dioxide and water”.  
+
+**Practice** `k2-33-air` · multiple choice, level 2 · **authored key**
+
+> A gas cooker burns with a yellow, smoky flame. What does this show?
+
+- ✅ There is not enough air.
+- ◻️ The gas is water.  
+  _↳ feedback if chosen: Cooking gas is a fuel._
+- ◻️ There is too much air.  
+  _↳ feedback if chosen: Plenty of air gives a blue flame._
+- ◻️ The flame is very clean.  
+  _↳ feedback if chosen: Smoke shows unburnt carbon._
+
+Full working after a second miss:
+
+> Too little air gives a yellow, sooty flame.  
+> So the answer is “There is not enough air.”.  
+
+> Why is it dangerous to burn charcoal in a closed room?
+
+- ◻️ It makes the room cold.  
+  _↳ feedback if chosen: Burning gives out heat._
+- ✅ Poisonous carbon monoxide forms.
+- ◻️ It makes nitrogen.  
+  _↳ feedback if chosen: Nitrogen is not formed._
+- ◻️ It makes too much oxygen.  
+  _↳ feedback if chosen: Burning uses oxygen._
+
+Full working after a second miss:
+
+> With little air, carbon monoxide forms; it can kill.  
+> So the answer is “Poisonous carbon monoxide forms.”.  
+
+**Practice** `k2-33-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Removing the fuel stops a fire.
+- ◻️ A blue flame shows there is enough air.
+- ◻️ Cooking gas burns to carbon dioxide and water.
+- ✅ A yellow smoky flame burns more cleanly than a blue one.  
+  _↳ explanation: The yellow flame has soot and carbon monoxide._
+
+Full working after a second miss:
+
+> The wrong statement is “A yellow smoky flame burns more cleanly than a blue one.”.  
+> The yellow flame has soot and carbon monoxide.  
+
+> Which statement is wrong?
+
+- ◻️ Burning gives out heat and light.
+- ◻️ Removing the fuel stops a fire.
+- ✅ A yellow smoky flame burns more cleanly than a blue one.  
+  _↳ explanation: The yellow flame has soot and carbon monoxide._
+- ◻️ Cooking gas burns to carbon dioxide and water.
+
+Full working after a second miss:
+
+> The wrong statement is “A yellow smoky flame burns more cleanly than a blue one.”.  
+> The yellow flame has soot and carbon monoxide.  
+
+## Lesson 34: Reaction of substances with oxygen of air (burning wood and cloths)
+
+Prerequisites: 33 · Skill: k2-34 (Burning: wood and cloth)
+
+**Note** (draft)
+
+> Wood and cotton cloth are made mainly of cellulose (carbon, hydrogen and oxygen). When they burn in air:
+> wood + oxygen → carbon dioxide + water (+ ash and smoke)
+> • The ash is the mineral part that does not burn.
+> • Smoke is tiny unburnt carbon particles; it shows burning is not complete.
+> • Heating wood without air (as when charcoal is made) drives off gases and leaves charcoal (carbon).
+> Synthetic cloth (nylon, polyester) melts and drips as it burns and can stick to skin; cotton burns with a smell of burning paper and leaves a soft ash.
+> Safety: do not wear loose synthetic clothes near open fires; if clothes catch fire: stop, drop and roll.
+
+**Card c34-1** (draft)
+
+> Wood and cotton burn to carbon dioxide and water, leaving ash; smoke is unburnt carbon.
+>
+> _Ash does not burn._  
+> _Smoke shows incomplete burning._  
+
+Check question: `k2-34-wood` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What does black smoke from a wood fire show?
+
+- ◻️ The wood is iron.  
+  _↳ feedback if chosen: Wood is not a metal._
+- ◻️ The fire has too much air.  
+  _↳ feedback if chosen: Plenty of air gives little smoke._
+- ✅ The burning is not complete.
+- ◻️ The fire is out.  
+  _↳ feedback if chosen: Smoke comes from a burning fire._
+
+Full working after a second miss:
+
+> Smoke is unburnt carbon.  
+> So the answer is “The burning is not complete.”.  
+
+**Card c34-2** (draft)
+
+> Heating wood with little air gives charcoal, which is nearly pure carbon.
+>
+> _Charcoal is made in earth kilns._  
+> _Charcoal burns with little smoke._  
+
+Check question: `k2-34-charcoal` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How is charcoal made from wood?
+
+- ✅ by heating wood with very little air
+- ◻️ by soaking wood in water  
+  _↳ feedback if chosen: Water does not make charcoal._
+- ◻️ by drying wood in the sun  
+  _↳ feedback if chosen: Sun-dried wood is still wood._
+- ◻️ by burning wood in plenty of air  
+  _↳ feedback if chosen: Plenty of air turns the wood to ash._
+
+Full working after a second miss:
+
+> Little air: the gases leave and carbon stays.  
+> So the answer is “by heating wood with very little air”.  
+
+**Card c34-3** (draft)
+
+> Synthetic cloth melts and sticks to skin when it burns; if clothes catch fire: stop, drop and roll.
+>
+> _Nylon melts and drips._  
+> _Cotton leaves a soft ash._  
+
+Check question: `k2-34-safe-card` · multiple choice, level 1 · **authored key**
+
+> Why are nylon clothes dangerous near an open fire?
+
+- ◻️ They give out oxygen.  
+  _↳ feedback if chosen: Cloth does not give out oxygen._
+- ✅ They melt and stick to the skin.
+- ◻️ They cannot burn at all.  
+  _↳ feedback if chosen: Nylon does burn and melt._
+- ◻️ They are too heavy.  
+  _↳ feedback if chosen: Weight is not the danger._
+
+Full working after a second miss:
+
+> Melting synthetic cloth causes deep burns.  
+> So the answer is “They melt and stick to the skin.”.  
+
+**Worked example** (draft)
+
+> What should be done if someone's clothes catch fire?
+
+1. Running fans the flames with more air.
+2. Rolling on the ground smothers the flames (cuts off oxygen).
+
+**Answer:** Stop, drop and roll (or wrap the person in a blanket).
+
+**Practice** `k2-34-wood` · multiple choice, level 1 · **authored key**
+
+> What is the ash left after wood burns?
+
+- ◻️ pure oxygen  
+  _↳ feedback if chosen: Oxygen is used up._
+- ◻️ unburnt carbon  
+  _↳ feedback if chosen: That is soot or smoke._
+- ◻️ water  
+  _↳ feedback if chosen: Water leaves as vapour._
+- ✅ the mineral part that does not burn
+
+Full working after a second miss:
+
+> Ash is the mineral part of the wood.  
+> So the answer is “the mineral part that does not burn”.  
+
+> What is the ash left after wood burns?
+
+- ◻️ unburnt carbon  
+  _↳ feedback if chosen: That is soot or smoke._
+- ◻️ pure oxygen  
+  _↳ feedback if chosen: Oxygen is used up._
+- ◻️ water  
+  _↳ feedback if chosen: Water leaves as vapour._
+- ✅ the mineral part that does not burn
+
+Full working after a second miss:
+
+> Ash is the mineral part of the wood.  
+> So the answer is “the mineral part that does not burn”.  
+
+**Practice** `k2-34-charcoal` · multiple choice, level 1 · **authored key**
+
+> How is charcoal made from wood?
+
+- ✅ by heating wood with very little air
+- ◻️ by burning wood in plenty of air  
+  _↳ feedback if chosen: Plenty of air turns the wood to ash._
+- ◻️ by soaking wood in water  
+  _↳ feedback if chosen: Water does not make charcoal._
+- ◻️ by drying wood in the sun  
+  _↳ feedback if chosen: Sun-dried wood is still wood._
+
+Full working after a second miss:
+
+> Little air: the gases leave and carbon stays.  
+> So the answer is “by heating wood with very little air”.  
+
+> How is charcoal made from wood?
+
+- ✅ by heating wood with very little air
+- ◻️ by soaking wood in water  
+  _↳ feedback if chosen: Water does not make charcoal._
+- ◻️ by drying wood in the sun  
+  _↳ feedback if chosen: Sun-dried wood is still wood._
+- ◻️ by burning wood in plenty of air  
+  _↳ feedback if chosen: Plenty of air turns the wood to ash._
+
+Full working after a second miss:
+
+> Little air: the gases leave and carbon stays.  
+> So the answer is “by heating wood with very little air”.  
+
+**Practice** `k2-34-safe` · multiple choice, level 2 · **authored key**
+
+> Why are nylon clothes dangerous near an open fire?
+
+- ◻️ They cannot burn at all.  
+  _↳ feedback if chosen: Nylon does burn and melt._
+- ◻️ They give out oxygen.  
+  _↳ feedback if chosen: Cloth does not give out oxygen._
+- ✅ They melt and stick to the skin.
+- ◻️ They are too heavy.  
+  _↳ feedback if chosen: Weight is not the danger._
+
+Full working after a second miss:
+
+> Melting synthetic cloth causes deep burns.  
+> So the answer is “They melt and stick to the skin.”.  
+
+> Why are nylon clothes dangerous near an open fire?
+
+- ◻️ They cannot burn at all.  
+  _↳ feedback if chosen: Nylon does burn and melt._
+- ◻️ They are too heavy.  
+  _↳ feedback if chosen: Weight is not the danger._
+- ◻️ They give out oxygen.  
+  _↳ feedback if chosen: Cloth does not give out oxygen._
+- ✅ They melt and stick to the skin.
+
+Full working after a second miss:
+
+> Melting synthetic cloth causes deep burns.  
+> So the answer is “They melt and stick to the skin.”.  
+
+**Practice** `k2-34-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Cotton burns and leaves a soft ash.
+- ◻️ Charcoal is made by heating wood with little air.
+- ✅ Ash is the carbon of the wood.  
+  _↳ explanation: The carbon burns away; ash is the mineral part._
+- ◻️ Rolling on the ground smothers burning clothes.
+
+Full working after a second miss:
+
+> The wrong statement is “Ash is the carbon of the wood.”.  
+> The carbon burns away; ash is the mineral part.  
+
+> Which statement is wrong?
+
+- ◻️ Charcoal is made by heating wood with little air.
+- ◻️ Wood burns to carbon dioxide and water.
+- ◻️ Rolling on the ground smothers burning clothes.
+- ✅ Running helps to put out burning clothes.  
+  _↳ explanation: Running brings more air to the flames._
+
+Full working after a second miss:
+
+> The wrong statement is “Running helps to put out burning clothes.”.  
+> Running brings more air to the flames.  
+
+## Lesson 35: Reaction of substances with oxygen of air (burning metals and non-metals)
+
+Prerequisites: 34 · Skill: k2-35 (Burning metals and non-metals)
+
+**Note** (draft)
+
+> Many elements burn in oxygen to form oxides.
+> Metals:
+> • magnesium burns with a dazzling white flame → magnesium oxide (white powder);
+> • sodium burns with a yellow flame; calcium with a brick-red flame; iron wool gives sparks; copper turns black (copper oxide).
+> Metal oxides are basic: those that dissolve give alkaline solutions (they turn red litmus blue).
+> Non-metals:
+> • carbon glows red → carbon dioxide;
+> • sulphur burns with a blue flame → sulphur dioxide (choking smell);
+> • phosphorus burns with a yellow flame and white smoke.
+> Non-metal oxides are acidic: they dissolve in water to give acidic solutions (they turn blue litmus red).
+> (Aluminium and zinc oxides are amphoteric: they react with both acids and bases.)
+
+**Card c35-1** (draft)
+
+> Elements burn in oxygen to form oxides: magnesium gives magnesium oxide, sulphur gives sulphur dioxide.
+>
+> _Magnesium: a dazzling white flame._  
+> _Sulphur: a blue flame and a choking smell._  
+
+Check question: `k2-35-flame` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is formed when carbon burns in plenty of oxygen?
+
+- ✅ carbon dioxide
+- ◻️ carbon monoxide only  
+  _↳ feedback if chosen: Carbon monoxide forms only with too little oxygen._
+- ◻️ water  
+  _↳ feedback if chosen: There is no hydrogen._
+- ◻️ carbonate  
+  _↳ feedback if chosen: A carbonate also contains a metal._
+
+Full working after a second miss:
+
+> Carbon + oxygen → carbon dioxide.  
+> So the answer is “carbon dioxide”.  
+
+**Card c35-2** (draft)
+
+> Metal oxides are basic; non-metal oxides are acidic.
+>
+> _Calcium oxide: basic._  
+> _Carbon dioxide: acidic._  
+
+Check question: `k2-35-type` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Magnesium is burned in oxygen. What kind of oxide is formed?
+
+- ◻️ acidic oxide  
+  _↳ feedback if chosen: Metals give basic oxides; non-metals give acidic oxides. Magnesium is a metal._
+- ✅ basic oxide
+- ◻️ neutral oxide  
+  _↳ feedback if chosen: Only a few oxides (like water and carbon monoxide) are neutral._
+
+Full working after a second miss:
+
+> Magnesium is a metal.  
+> A metal gives a basic oxide; a non-metal gives an acidic oxide. So: basic oxide.  
+
+**Card c35-3** (draft)
+
+> An alkaline solution turns red litmus blue; an acidic solution turns blue litmus red.
+>
+> _Sodium oxide in water: blue litmus._  
+> _Sulphur dioxide in water: red litmus._  
+
+Check question: `k2-35-litmus-card` · multiple choice, level 1 · computed by rule
+
+> The oxide of phosphorus is dissolved in water. What does the solution do to litmus?
+
+- ◻️ It turns red litmus blue.  
+  _↳ feedback if chosen: Metal oxides give alkalis (blue litmus); non-metal oxides give acids (red litmus)._
+- ◻️ It has no effect on litmus.  
+  _↳ feedback if chosen: This oxide dissolves and changes litmus._
+- ✅ It turns blue litmus red.
+
+Full working after a second miss:
+
+> Phosphorus is a non-metal, so its oxide is acidic.  
+> So: It turns blue litmus red.  
+
+**Worked example** (draft)
+
+> Magnesium is burned in oxygen and the product is shaken with water. What does the solution do to litmus?
+
+1. Magnesium is a metal, so its oxide is basic.
+2. A basic oxide that dissolves gives an alkaline solution.
+
+**Answer:** It turns red litmus blue.
+
+**Practice** `k2-35-flame` · multiple choice, level 1 · **authored key**
+
+> Which element burns with a blue flame and a choking smell?
+
+- ✅ sulphur
+- ◻️ sodium  
+  _↳ feedback if chosen: Sodium gives a yellow flame._
+- ◻️ iron  
+  _↳ feedback if chosen: Iron gives sparks._
+- ◻️ magnesium  
+  _↳ feedback if chosen: Magnesium gives a white flame._
+
+Full working after a second miss:
+
+> Sulphur dioxide has a choking smell.  
+> So the answer is “sulphur”.  
+
+> What is formed when carbon burns in plenty of oxygen?
+
+- ◻️ carbon monoxide only  
+  _↳ feedback if chosen: Carbon monoxide forms only with too little oxygen._
+- ◻️ carbonate  
+  _↳ feedback if chosen: A carbonate also contains a metal._
+- ✅ carbon dioxide
+- ◻️ water  
+  _↳ feedback if chosen: There is no hydrogen._
+
+Full working after a second miss:
+
+> Carbon + oxygen → carbon dioxide.  
+> So the answer is “carbon dioxide”.  
+
+**Practice** `k2-35-type` · multiple choice, level 1 · computed by rule
+
+> Magnesium is burned in oxygen. What kind of oxide is formed?
+
+- ✅ basic oxide
+- ◻️ acidic oxide  
+  _↳ feedback if chosen: Metals give basic oxides; non-metals give acidic oxides. Magnesium is a metal._
+- ◻️ neutral oxide  
+  _↳ feedback if chosen: Only a few oxides (like water and carbon monoxide) are neutral._
+
+Full working after a second miss:
+
+> Magnesium is a metal.  
+> A metal gives a basic oxide; a non-metal gives an acidic oxide. So: basic oxide.  
+
+> Calcium is burned in oxygen. What kind of oxide is formed?
+
+- ◻️ neutral oxide  
+  _↳ feedback if chosen: Only a few oxides (like water and carbon monoxide) are neutral._
+- ✅ basic oxide
+- ◻️ acidic oxide  
+  _↳ feedback if chosen: Metals give basic oxides; non-metals give acidic oxides. Calcium is a metal._
+
+Full working after a second miss:
+
+> Calcium is a metal.  
+> A metal gives a basic oxide; a non-metal gives an acidic oxide. So: basic oxide.  
+
+**Practice** `k2-35-litmus` · multiple choice, level 2 · computed by rule
+
+> The oxide of phosphorus is dissolved in water. What does the solution do to litmus?
+
+- ✅ It turns blue litmus red.
+- ◻️ It has no effect on litmus.  
+  _↳ feedback if chosen: This oxide dissolves and changes litmus._
+- ◻️ It turns red litmus blue.  
+  _↳ feedback if chosen: Metal oxides give alkalis (blue litmus); non-metal oxides give acids (red litmus)._
+
+Full working after a second miss:
+
+> Phosphorus is a non-metal, so its oxide is acidic.  
+> So: It turns blue litmus red.  
+
+> The oxide of sodium is dissolved in water. What does the solution do to litmus?
+
+- ◻️ It has no effect on litmus.  
+  _↳ feedback if chosen: This oxide dissolves and changes litmus._
+- ✅ It turns red litmus blue.
+- ◻️ It turns blue litmus red.  
+  _↳ feedback if chosen: Metal oxides give alkalis (blue litmus); non-metal oxides give acids (red litmus)._
+
+Full working after a second miss:
+
+> Sodium is a metal, so its oxide is basic.  
+> So: It turns red litmus blue.  
+
+**Practice** `k2-35-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Magnesium oxide is a basic oxide.
+- ◻️ Sulphur dioxide is an acidic oxide.
+- ✅ Sodium oxide turns blue litmus red.  
+  _↳ explanation: Sodium oxide is basic: it turns red litmus blue._
+- ◻️ Copper turns black when heated in air.
+
+Full working after a second miss:
+
+> The wrong statement is “Sodium oxide turns blue litmus red.”.  
+> Sodium oxide is basic: it turns red litmus blue.  
+
+> Which statement is wrong?
+
+- ✅ Sodium oxide turns blue litmus red.  
+  _↳ explanation: Sodium oxide is basic: it turns red litmus blue._
+- ◻️ Magnesium oxide is a basic oxide.
+- ◻️ Copper turns black when heated in air.
+- ◻️ Calcium burns with a brick-red flame.
+
+Full working after a second miss:
+
+> The wrong statement is “Sodium oxide turns blue litmus red.”.  
+> Sodium oxide is basic: it turns red litmus blue.  
+
+## Lesson 36: Rusting (Definition and conditions)
+
+Prerequisites: 35 · Skill: k2-36 (Rusting: definition and conditions)
+
+**Note** (draft)
+
+> Rusting is the slow reaction of iron (or steel) with oxygen and water to form a reddish-brown substance called rust. Only iron and steel rust; other metals corrode.
+> Both air (oxygen) and water are needed. Experiment with three iron nails:
+> • Tube A: nail in tap water open to air → it rusts.
+> • Tube B: nail in boiled water with a layer of oil on top (no air) → no rust.
+> • Tube C: nail in dry air with calcium chloride (a drying agent) → no rust.
+> Salt water and acid rain make rusting faster. This is why cars and roofs near the sea, as in Limbe and Douala, rust quickly.
+
+**Card c36-1** (draft)
+
+> Rusting is the reaction of iron with oxygen and water, forming reddish-brown rust.
+>
+> _An iron roof sheet turns brown._  
+> _Only iron and steel rust._  
+
+Check question: `k2-36-def` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What colour is rust?
+
+- ◻️ black  
+  _↳ feedback if chosen: Black is copper oxide or iron oxide formed by heating._
+- ✅ reddish-brown
+- ◻️ white  
+  _↳ feedback if chosen: White is the colour of aluminium or zinc oxide._
+- ◻️ green  
+  _↳ feedback if chosen: Green is corroded copper._
+
+Full working after a second miss:
+
+> Rust is reddish-brown.  
+> So the answer is “reddish-brown”.  
+
+**Card c36-2** (draft)
+
+> Both oxygen (air) and water are needed for rusting.
+>
+> _Boiled water under oil: no air, no rust._  
+> _Dry air with calcium chloride: no water, no rust._  
+
+Check question: `k2-36-need` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which two things are needed for iron to rust?
+
+- ◻️ nitrogen and water  
+  _↳ feedback if chosen: Nitrogen does not cause rusting._
+- ◻️ oxygen and heat  
+  _↳ feedback if chosen: Heat is not needed._
+- ◻️ salt and sunlight  
+  _↳ feedback if chosen: Salt speeds it up but is not needed._
+- ✅ oxygen and water
+
+Full working after a second miss:
+
+> Both air (oxygen) and water.  
+> So the answer is “oxygen and water”.  
+
+**Card c36-3** (draft)
+
+> Salt and acids make iron rust faster.
+>
+> _Cars near the sea rust quickly._  
+> _Acid rain speeds up rusting._  
+
+Check question: `k2-36-fast-card` · multiple choice, level 1 · **authored key**
+
+> Why do iron roofs in Limbe rust faster than those in Garoua?
+
+- ◻️ There is less oxygen in Limbe.  
+  _↳ feedback if chosen: Air everywhere has about the same oxygen._
+- ◻️ It is colder in Limbe.  
+  _↳ feedback if chosen: Cold slows reactions._
+- ◻️ Limbe has more nitrogen.  
+  _↳ feedback if chosen: Nitrogen does not cause rusting._
+- ✅ The sea air is wet and salty.
+
+Full working after a second miss:
+
+> Water and salt speed up rusting.  
+> So the answer is “The sea air is wet and salty.”.  
+
+**Worked example** (draft)
+
+> Will a nail in boiled water covered with oil rust?
+
+1. Boiling removes the dissolved air, and the oil stops air entering.
+2. Water is present but oxygen is not.
+
+**Answer:** No: rusting needs both oxygen and water.
+
+**Practice** `k2-36-def` · multiple choice, level 1 · **authored key**
+
+> What colour is rust?
+
+- ◻️ green  
+  _↳ feedback if chosen: Green is corroded copper._
+- ◻️ white  
+  _↳ feedback if chosen: White is the colour of aluminium or zinc oxide._
+- ✅ reddish-brown
+- ◻️ black  
+  _↳ feedback if chosen: Black is copper oxide or iron oxide formed by heating._
+
+Full working after a second miss:
+
+> Rust is reddish-brown.  
+> So the answer is “reddish-brown”.  
+
+> What colour is rust?
+
+- ◻️ black  
+  _↳ feedback if chosen: Black is copper oxide or iron oxide formed by heating._
+- ✅ reddish-brown
+- ◻️ white  
+  _↳ feedback if chosen: White is the colour of aluminium or zinc oxide._
+- ◻️ green  
+  _↳ feedback if chosen: Green is corroded copper._
+
+Full working after a second miss:
+
+> Rust is reddish-brown.  
+> So the answer is “reddish-brown”.  
+
+**Practice** `k2-36-need` · multiple choice, level 1 · **authored key**
+
+> Why is the water boiled in the rusting experiment?
+
+- ✅ to remove the dissolved air
+- ◻️ to add oxygen  
+  _↳ feedback if chosen: Boiling drives oxygen out._
+- ◻️ to make it salty  
+  _↳ feedback if chosen: Boiling does not add salt._
+- ◻️ to kill germs  
+  _↳ feedback if chosen: Germs do not matter here._
+
+Full working after a second miss:
+
+> Then the nail has water but no oxygen.  
+> So the answer is “to remove the dissolved air”.  
+
+> A nail is kept in a dry tube with calcium chloride. Does it rust?
+
+- ◻️ No, there is no nitrogen.  
+  _↳ feedback if chosen: Nitrogen is not needed._
+- ✅ No, there is no water.
+- ◻️ Yes, quickly.  
+  _↳ feedback if chosen: Calcium chloride takes up the water._
+- ◻️ Yes, because air is present.  
+  _↳ feedback if chosen: Air alone is not enough._
+
+Full working after a second miss:
+
+> Rusting needs water too.  
+> So the answer is “No, there is no water.”.  
+
+**Practice** `k2-36-fast` · multiple choice, level 2 · **authored key**
+
+> Why do iron roofs in Limbe rust faster than those in Garoua?
+
+- ✅ The sea air is wet and salty.
+- ◻️ It is colder in Limbe.  
+  _↳ feedback if chosen: Cold slows reactions._
+- ◻️ Limbe has more nitrogen.  
+  _↳ feedback if chosen: Nitrogen does not cause rusting._
+- ◻️ There is less oxygen in Limbe.  
+  _↳ feedback if chosen: Air everywhere has about the same oxygen._
+
+Full working after a second miss:
+
+> Water and salt speed up rusting.  
+> So the answer is “The sea air is wet and salty.”.  
+
+> Which makes rusting faster?
+
+- ✅ salt water
+- ◻️ paint  
+  _↳ feedback if chosen: Paint protects iron._
+- ◻️ dry air  
+  _↳ feedback if chosen: Dry air has no water._
+- ◻️ oil  
+  _↳ feedback if chosen: Oil keeps air and water out._
+
+Full working after a second miss:
+
+> Salt speeds up rusting.  
+> So the answer is “salt water”.  
+
+**Practice** `k2-36-spot` · spot the error, level 3 · **authored key**
+
+> Which statement about the rusting experiment is wrong?
+
+- ✅ A nail in dry air rusts because oxygen is present.  
+  _↳ explanation: There is no water, so it does not rust._
+- ◻️ A nail in dry air does not rust.
+- ◻️ A nail in boiled water under oil does not rust.
+- ◻️ A nail in tap water open to the air rusts.
+
+Full working after a second miss:
+
+> The wrong statement is “A nail in dry air rusts because oxygen is present.”.  
+> There is no water, so it does not rust.  
+
+> Which statement about the rusting experiment is wrong?
+
+- ◻️ A nail in tap water open to the air rusts.
+- ◻️ A nail in dry air does not rust.
+- ✅ Oil on the water speeds up rusting.  
+  _↳ explanation: The oil keeps air out._
+- ◻️ A nail in boiled water under oil does not rust.
+
+Full working after a second miss:
+
+> The wrong statement is “Oil on the water speeds up rusting.”.  
+> The oil keeps air out.  
+
+## Lesson 37: Iron rusting (composition and examples)
+
+Prerequisites: 36 · Skill: k2-37 (Rust: composition and examples)
+
+**Note** (draft)
+
+> Rust is hydrated iron(III) oxide, written Fe₂O₃·xH₂O (x varies).
+> iron + oxygen + water → hydrated iron(III) oxide (rust)
+> Rust is soft and flaky. It falls off and exposes fresh iron underneath, so rusting goes on until all the iron is eaten away. (On aluminium, the oxide layer sticks and protects the metal.)
+> Rusting is an oxidation: iron gains oxygen. It is slow.
+> Everyday examples: roofing sheets, bicycle chains, iron gates, nails, cars, tools left in the rain, cooking pots, railway lines, bridges and ships.
+
+**Card c37-1** (draft)
+
+> Rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O.
+>
+> _It contains iron, oxygen and water._  
+> _x is the number of water molecules; it varies._  
+
+Check question: `k2-37-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is the chemical name of rust?
+
+- ◻️ iron sulphide  
+  _↳ feedback if chosen: There is no sulphur in rust._
+- ✅ hydrated iron(III) oxide
+- ◻️ iron chloride  
+  _↳ feedback if chosen: There is no chlorine in rust._
+- ◻️ copper oxide  
+  _↳ feedback if chosen: Rust is from iron, not copper._
+
+Full working after a second miss:
+
+> Rust is Fe₂O₃·xH₂O.  
+> So the answer is “hydrated iron(III) oxide”.  
+
+**Card c37-2** (draft)
+
+> Rust is flaky: it falls off and exposes fresh iron, so rusting goes on.
+>
+> _A rusty nail gets thinner._  
+> _Aluminium oxide sticks and protects; rust does not._  
+
+Check question: `k2-37-flaky-card` · multiple choice, level 1 · **authored key**
+
+> Why does rusting not stop once a thin layer of rust forms?
+
+- ◻️ Rust gives out oxygen.  
+  _↳ feedback if chosen: Rust does not give out oxygen._
+- ◻️ Rust is a gas.  
+  _↳ feedback if chosen: Rust is a solid._
+- ◻️ Rust is a catalyst.  
+  _↳ feedback if chosen: That is not the reason._
+- ✅ Rust is flaky and falls off, exposing fresh iron.
+
+Full working after a second miss:
+
+> Rust does not protect the iron beneath.  
+> So the answer is “Rust is flaky and falls off, exposing fresh iron.”.  
+
+**Card c37-3** (draft)
+
+> Rusting is oxidation: iron gains oxygen. It is a slow chemical change.
+>
+> _Iron → rust over weeks or months._  
+> _Rust is a new substance._  
+
+Check question: `k2-37-ox` · multiple choice, level 1 · **authored key**, reused from practice
+
+> When iron rusts, what does it gain?
+
+- ◻️ carbon  
+  _↳ feedback if chosen: There is no carbon in rust._
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen does not react._
+- ✅ oxygen
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Rust contains no extra hydrogen gas._
+
+Full working after a second miss:
+
+> Gaining oxygen is oxidation.  
+> So the answer is “oxygen”.  
+
+**Worked example** (draft)
+
+> Why rust keeps eating into an iron gate once it starts?
+
+1. Rust is flaky and falls off.
+2. Fresh iron underneath meets air and water and rusts too.
+
+**Answer:** Rust does not protect the iron, so rusting continues.
+
+**Practice** `k2-37-comp` · multiple choice, level 1 · **authored key**
+
+> Which formula is used for rust?
+
+- ◻️ CuO  
+  _↳ feedback if chosen: CuO is copper oxide._
+- ✅ Fe₂O₃·xH₂O
+- ◻️ FeS  
+  _↳ feedback if chosen: FeS is iron sulphide._
+- ◻️ Fe  
+  _↳ feedback if chosen: Fe is iron itself._
+
+Full working after a second miss:
+
+> Hydrated iron(III) oxide.  
+> So the answer is “Fe₂O₃·xH₂O”.  
+
+> Which formula is used for rust?
+
+- ◻️ Fe  
+  _↳ feedback if chosen: Fe is iron itself._
+- ◻️ CuO  
+  _↳ feedback if chosen: CuO is copper oxide._
+- ✅ Fe₂O₃·xH₂O
+- ◻️ FeS  
+  _↳ feedback if chosen: FeS is iron sulphide._
+
+Full working after a second miss:
+
+> Hydrated iron(III) oxide.  
+> So the answer is “Fe₂O₃·xH₂O”.  
+
+**Practice** `k2-37-flaky` · multiple choice, level 2 · **authored key**
+
+> Why does aluminium not keep corroding like iron?
+
+- ✅ Its oxide layer sticks and protects it.
+- ◻️ It does not react with oxygen at all.  
+  _↳ feedback if chosen: Aluminium does react, forming a thin oxide._
+- ◻️ It is heavier than iron.  
+  _↳ feedback if chosen: Weight is not the reason._
+- ◻️ It is a non-metal.  
+  _↳ feedback if chosen: Aluminium is a metal._
+
+Full working after a second miss:
+
+> The aluminium oxide layer does not flake off.  
+> So the answer is “Its oxide layer sticks and protects it.”.  
+
+> Why does rusting not stop once a thin layer of rust forms?
+
+- ✅ Rust is flaky and falls off, exposing fresh iron.
+- ◻️ Rust is a gas.  
+  _↳ feedback if chosen: Rust is a solid._
+- ◻️ Rust gives out oxygen.  
+  _↳ feedback if chosen: Rust does not give out oxygen._
+- ◻️ Rust is a catalyst.  
+  _↳ feedback if chosen: That is not the reason._
+
+Full working after a second miss:
+
+> Rust does not protect the iron beneath.  
+> So the answer is “Rust is flaky and falls off, exposing fresh iron.”.  
+
+**Practice** `k2-37-ox` · multiple choice, level 1 · **authored key**
+
+> When iron rusts, what does it gain?
+
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Rust contains no extra hydrogen gas._
+- ◻️ carbon  
+  _↳ feedback if chosen: There is no carbon in rust._
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen does not react._
+- ✅ oxygen
+
+Full working after a second miss:
+
+> Gaining oxygen is oxidation.  
+> So the answer is “oxygen”.  
+
+> When iron rusts, what does it gain?
+
+- ◻️ carbon  
+  _↳ feedback if chosen: There is no carbon in rust._
+- ◻️ hydrogen  
+  _↳ feedback if chosen: Rust contains no extra hydrogen gas._
+- ✅ oxygen
+- ◻️ nitrogen  
+  _↳ feedback if chosen: Nitrogen does not react._
+
+Full working after a second miss:
+
+> Gaining oxygen is oxidation.  
+> So the answer is “oxygen”.  
+
+**Practice** `k2-37-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Rusting is a slow chemical change.
+- ✅ Rust protects the iron underneath.  
+  _↳ explanation: Rust flakes off, so the iron keeps rusting._
+- ◻️ Rust is flaky and falls off.
+- ◻️ Rust is hydrated iron(III) oxide.
+
+Full working after a second miss:
+
+> The wrong statement is “Rust protects the iron underneath.”.  
+> Rust flakes off, so the iron keeps rusting.  
+
+> Which statement is wrong?
+
+- ✅ Rust protects the iron underneath.  
+  _↳ explanation: Rust flakes off, so the iron keeps rusting._
+- ◻️ Bicycle chains can rust.
+- ◻️ Rusting is a slow chemical change.
+- ◻️ Rust is flaky and falls off.
+
+Full working after a second miss:
+
+> The wrong statement is “Rust protects the iron underneath.”.  
+> Rust flakes off, so the iron keeps rusting.  
+
+## Lesson 38: Disadvantages of rusting and methods of prevention
+
+Prerequisites: 37 · Skill: k2-38 (Disadvantages of rusting and its prevention)
+
+**Note** (draft)
+
+> Disadvantages of rusting: it weakens bridges, cars, ships and roofs (they can break); it costs money to repair and replace; rusty roofs leak; rusty nails can cause tetanus if they cut the skin.
+> Prevention keeps out air and water, or uses a more reactive metal:
+> • painting (gates, bridges, cars);
+> • oiling or greasing (machines, bicycle chains, tools);
+> • coating with plastic (dish racks, fences);
+> • galvanising: coating with zinc (roofing sheets, buckets); the zinc protects even when scratched;
+> • tin plating (food cans);
+> • chromium plating (bicycle handlebars, taps);
+> • sacrificial protection: blocks of a more reactive metal (zinc or magnesium) fixed to ships' hulls corrode instead of the iron;
+> • using stainless steel (spoons, sinks).
+
+**Card c38-1** (draft)
+
+> Rusting weakens iron structures and costs money to repair; rusty nails can cause tetanus.
+>
+> _A rusty bridge can collapse._  
+> _Rusty roofs leak._  
+
+Check question: `k2-38-bad` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why should a cut from a rusty nail be treated quickly?
+
+- ✅ It can cause tetanus.
+- ◻️ Rust is magnetic.  
+  _↳ feedback if chosen: That is not the danger._
+- ◻️ Rust makes blood blue.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Rust is sweet.  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Tetanus germs live in soil and on dirty, rusty objects.  
+> So the answer is “It can cause tetanus.”.  
+
+**Card c38-2** (draft)
+
+> Painting, oiling, greasing and plastic coating keep out air and water.
+>
+> _Paint on an iron gate._  
+> _Grease on a bicycle chain._  
+
+Check question: `k2-38-way` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is the best way to protect an iron gate from rusting?
+
+- ◻️ keeping it in water  
+  _↳ feedback if chosen: Water causes rusting._
+- ✅ painting
+- ◻️ oiling  
+  _↳ feedback if chosen: Oil would be wiped off and collect dust._
+- ◻️ tin plating  
+  _↳ feedback if chosen: Too costly for a gate._
+
+Full working after a second miss:
+
+> Paint keeps out air and water.  
+> So the answer is “painting”.  
+
+**Card c38-3** (draft)
+
+> Galvanising coats iron with zinc; zinc is more reactive, so it corrodes instead of the iron.
+>
+> _Roofing sheets are galvanised._  
+> _Zinc blocks protect ships' hulls._  
+
+Check question: `k2-38-zinc-card` · multiple choice, level 1 · **authored key**
+
+> Why does a galvanised sheet not rust even when scratched?
+
+- ◻️ Zinc absorbs water.  
+  _↳ feedback if chosen: That is not the reason._
+- ◻️ Zinc is less reactive than iron.  
+  _↳ feedback if chosen: Zinc is more reactive than iron._
+- ◻️ Zinc is a non-metal.  
+  _↳ feedback if chosen: Zinc is a metal._
+- ✅ Zinc is more reactive, so it corrodes instead of the iron.
+
+Full working after a second miss:
+
+> Sacrificial protection by the more reactive zinc.  
+> So the answer is “Zinc is more reactive, so it corrodes instead of the iron.”.  
+
+**Worked example** (draft)
+
+> How is a bicycle chain protected from rusting, and why not by painting?
+
+1. The chain moves, so paint would crack and wear off.
+2. Oil or grease keeps out air and water and lets the chain move.
+
+**Answer:** By oiling or greasing it.
+
+**Practice** `k2-38-bad` · multiple choice, level 1 · **authored key**
+
+> Why should a cut from a rusty nail be treated quickly?
+
+- ✅ It can cause tetanus.
+- ◻️ Rust makes blood blue.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Rust is magnetic.  
+  _↳ feedback if chosen: That is not the danger._
+- ◻️ Rust is sweet.  
+  _↳ feedback if chosen: That is not true._
+
+Full working after a second miss:
+
+> Tetanus germs live in soil and on dirty, rusty objects.  
+> So the answer is “It can cause tetanus.”.  
+
+> Why should a cut from a rusty nail be treated quickly?
+
+- ◻️ Rust is sweet.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Rust makes blood blue.  
+  _↳ feedback if chosen: That is not true._
+- ◻️ Rust is magnetic.  
+  _↳ feedback if chosen: That is not the danger._
+- ✅ It can cause tetanus.
+
+Full working after a second miss:
+
+> Tetanus germs live in soil and on dirty, rusty objects.  
+> So the answer is “It can cause tetanus.”.  
+
+**Practice** `k2-38-way` · multiple choice, level 1 · **authored key**
+
+> Which is the best way to protect a food can from rusting?
+
+- ◻️ painting the inside  
+  _↳ feedback if chosen: Paint could poison the food._
+- ◻️ greasing  
+  _↳ feedback if chosen: Grease would spoil the food._
+- ✅ tin plating
+- ◻️ galvanising the inside  
+  _↳ feedback if chosen: Zinc can react with acidic foods._
+
+Full working after a second miss:
+
+> Tin is not poisonous and does not react with the food.  
+> So the answer is “tin plating”.  
+
+> Which is the best way to protect a roofing sheet from rusting?
+
+- ◻️ chromium plating  
+  _↳ feedback if chosen: Chromium is too costly for roofs._
+- ◻️ oiling  
+  _↳ feedback if chosen: Rain would wash oil off._
+- ◻️ plastic coating  
+  _↳ feedback if chosen: Plastic would be damaged by the sun._
+- ✅ galvanising (coating with zinc)
+
+Full working after a second miss:
+
+> Zinc protects the iron even when scratched.  
+> So the answer is “galvanising (coating with zinc)”.  
+
+**Practice** `k2-38-zinc` · multiple choice, level 2 · **authored key**
+
+> Blocks of magnesium are fixed to the iron hull of a ship. Why?
+
+- ✅ Magnesium corrodes instead of the iron.
+- ◻️ To make the ship float  
+  _↳ feedback if chosen: Blocks do not make it float._
+- ◻️ To make the ship heavier  
+  _↳ feedback if chosen: Weight is not the reason._
+- ◻️ To paint the ship  
+  _↳ feedback if chosen: They are not paint._
+
+Full working after a second miss:
+
+> Magnesium is more reactive than iron: sacrificial protection.  
+> So the answer is “Magnesium corrodes instead of the iron.”.  
+
+> Blocks of magnesium are fixed to the iron hull of a ship. Why?
+
+- ◻️ To make the ship float  
+  _↳ feedback if chosen: Blocks do not make it float._
+- ✅ Magnesium corrodes instead of the iron.
+- ◻️ To make the ship heavier  
+  _↳ feedback if chosen: Weight is not the reason._
+- ◻️ To paint the ship  
+  _↳ feedback if chosen: They are not paint._
+
+Full working after a second miss:
+
+> Magnesium is more reactive than iron: sacrificial protection.  
+> So the answer is “Magnesium corrodes instead of the iron.”.  
+
+**Practice** `k2-38-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Paint keeps out air and water.
+- ◻️ Galvanising is coating iron with zinc.
+- ✅ Copper blocks protect a ship's hull by corroding instead of the iron.  
+  _↳ explanation: Copper is less reactive than iron; zinc or magnesium is used._
+- ◻️ Greasing protects moving parts.
+
+Full working after a second miss:
+
+> The wrong statement is “Copper blocks protect a ship's hull by corroding instead of the iron.”.  
+> Copper is less reactive than iron; zinc or magnesium is used.  
+
+> Which statement is wrong?
+
+- ◻️ Paint keeps out air and water.
+- ◻️ Greasing protects moving parts.
+- ✅ Keeping iron tools in a wet place prevents rusting.  
+  _↳ explanation: Water causes rusting._
+- ◻️ Food cans are plated with tin.
+
+Full working after a second miss:
+
+> The wrong statement is “Keeping iron tools in a wet place prevents rusting.”.  
+> Water causes rusting.  
+
+## Lesson 40: States of Matter : Summary review
+
+Prerequisites: none · Skill: k2-40 (States of matter: review)
+
+**Note** (draft)
+
+> Matter exists as solid, liquid or gas, depending on how its particles are arranged and move.
+> • Solid: particles close together in a regular pattern; they only vibrate. Fixed shape and volume.
+> • Liquid: particles close together but able to move past each other. Fixed volume, takes the shape of its container.
+> • Gas: particles far apart, moving fast in all directions. No fixed shape or volume; easily compressed.
+> Changes of state: melting (solid → liquid), freezing (liquid → solid), evaporation or boiling (liquid → gas), condensation (gas → liquid), sublimation (solid → gas directly).
+> A substance is solid below its melting point, liquid between its melting and boiling points, and gas above its boiling point.
+
+**Card c40-1** (draft)
+
+> In a solid the particles only vibrate; in a liquid they slide past each other; in a gas they move fast and far apart.
+>
+> _Ice: fixed shape._  
+> _Water: takes the shape of the cup._  
+
+Check question: `k2-40-part` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which state has a fixed volume but no fixed shape?
+
+- ◻️ gas  
+  _↳ feedback if chosen: A gas has no fixed volume._
+- ◻️ solid  
+  _↳ feedback if chosen: A solid has a fixed shape._
+- ✅ liquid
+- ◻️ none  
+  _↳ feedback if chosen: A liquid has a fixed volume._
+
+Full working after a second miss:
+
+> A liquid takes the shape of its container.  
+> So the answer is “liquid”.  
+
+**Card c40-2** (draft)
+
+> Melting, freezing, evaporation, condensation and sublimation are changes of state.
+>
+> _Water vapour on a cold glass condenses._  
+> _Camphor balls sublime._  
+
+Check question: `k2-40-change` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is this change of state called? A camphor ball gets smaller without melting.
+
+- ◻️ freezing  
+  _↳ feedback if chosen: Freezing is liquid to solid._
+- ✅ sublimation
+- ◻️ melting  
+  _↳ feedback if chosen: No liquid forms._
+- ◻️ condensation  
+  _↳ feedback if chosen: Condensation is gas to liquid._
+
+Full working after a second miss:
+
+> Solid straight to gas.  
+> So the answer is “sublimation”.  
+
+**Card c40-3** (draft)
+
+> Below the melting point a substance is solid; between melting and boiling point, liquid; above the boiling point, gas.
+>
+> _Water at 50 °C is liquid._  
+> _Water at 120 °C is steam._  
+
+Check question: `k2-40-state-card` · multiple choice, level 1 · computed by rule
+
+> Mercury melts at −39 °C and boils at 357 °C. What is its state at 400 °C?
+
+- ◻️ liquid  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+- ✅ gas
+- ◻️ solid  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+
+Full working after a second miss:
+
+> Compare 400 °C with the melting point (−39 °C) and the boiling point (357 °C).  
+> Below the melting point: solid; between: liquid; above the boiling point: gas. So: gas.  
+
+**Worked example** (draft)
+
+> Ethanol melts at −114 °C and boils at 78 °C. What is its state at 25 °C?
+
+1. 25 °C is above the melting point (−114 °C) and below the boiling point (78 °C).
+2. Between the two it is a liquid.
+
+**Answer:** liquid
+
+**Practice** `k2-40-part` · multiple choice, level 1 · **authored key**
+
+> In which state are the particles far apart and moving fast?
+
+- ◻️ all three  
+  _↳ feedback if chosen: Only in a gas are they far apart._
+- ◻️ liquid  
+  _↳ feedback if chosen: In a liquid they are close together._
+- ✅ gas
+- ◻️ solid  
+  _↳ feedback if chosen: In a solid they only vibrate._
+
+Full working after a second miss:
+
+> Gas particles are far apart.  
+> So the answer is “gas”.  
+
+> In which state are the particles far apart and moving fast?
+
+- ✅ gas
+- ◻️ solid  
+  _↳ feedback if chosen: In a solid they only vibrate._
+- ◻️ liquid  
+  _↳ feedback if chosen: In a liquid they are close together._
+- ◻️ all three  
+  _↳ feedback if chosen: Only in a gas are they far apart._
+
+Full working after a second miss:
+
+> Gas particles are far apart.  
+> So the answer is “gas”.  
+
+**Practice** `k2-40-change` · multiple choice, level 1 · **authored key**
+
+> What is this change of state called? Palm oil turns solid in the cold harmattan mornings.
+
+- ◻️ sublimation  
+  _↳ feedback if chosen: Sublimation is solid to gas._
+- ◻️ boiling  
+  _↳ feedback if chosen: Boiling is liquid to gas._
+- ✅ freezing (solidification)
+- ◻️ melting  
+  _↳ feedback if chosen: Melting is solid to liquid._
+
+Full working after a second miss:
+
+> Liquid to solid.  
+> So the answer is “freezing (solidification)”.  
+
+> What is this change of state called? A camphor ball gets smaller without melting.
+
+- ◻️ condensation  
+  _↳ feedback if chosen: Condensation is gas to liquid._
+- ◻️ freezing  
+  _↳ feedback if chosen: Freezing is liquid to solid._
+- ✅ sublimation
+- ◻️ melting  
+  _↳ feedback if chosen: No liquid forms._
+
+Full working after a second miss:
+
+> Solid straight to gas.  
+> So the answer is “sublimation”.  
+
+**Practice** `k2-40-state` · multiple choice, level 2 · computed by rule
+
+> Sulphur melts at 115 °C and boils at 445 °C. What is its state at 500 °C?
+
+- ✅ gas
+- ◻️ liquid  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+- ◻️ solid  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+
+Full working after a second miss:
+
+> Compare 500 °C with the melting point (115 °C) and the boiling point (445 °C).  
+> Below the melting point: solid; between: liquid; above the boiling point: gas. So: gas.  
+
+> Naphthalene melts at 80 °C and boils at 218 °C. What is its state at 50 °C?
+
+- ◻️ gas  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+- ✅ solid
+- ◻️ liquid  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+
+Full working after a second miss:
+
+> Compare 50 °C with the melting point (80 °C) and the boiling point (218 °C).  
+> Below the melting point: solid; between: liquid; above the boiling point: gas. So: solid.  
+
+**Practice** `k2-40-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Condensation is gas → liquid.
+- ◻️ A gas fills its container.
+- ✅ Water at 50 °C is a gas because it is warm.  
+  _↳ explanation: 50 °C is below the boiling point (100 °C): water is liquid._
+- ◻️ Solid particles vibrate in fixed positions.
+
+Full working after a second miss:
+
+> The wrong statement is “Water at 50 °C is a gas because it is warm.”.  
+> 50 °C is below the boiling point (100 °C): water is liquid.  
+
+> Which statement is wrong?
+
+- ✅ Water at 50 °C is a gas because it is warm.  
+  _↳ explanation: 50 °C is below the boiling point (100 °C): water is liquid._
+- ◻️ Condensation is gas → liquid.
+- ◻️ A liquid takes the shape of its container.
+- ◻️ A gas fills its container.
+
+Full working after a second miss:
+
+> The wrong statement is “Water at 50 °C is a gas because it is warm.”.  
+> 50 °C is below the boiling point (100 °C): water is liquid.  
+
+## Lesson 41: Techniques for separation: review
+
+Prerequisites: 40 · Skill: k2-41 (Separation techniques: review)
+
+**Note** (draft)
+
+> Mixtures are separated by physical methods that use a difference in properties:
+> • Picking or sieving: different sizes (stones from beans, sand from gravel).
+> • Decanting: pouring a liquid off a settled solid.
+> • Filtration: an insoluble solid from a liquid (sand from water). The solid left is the residue; the liquid through is the filtrate.
+> • Evaporation: a dissolved solid from a solution (salt from salt water).
+> • Crystallisation: heating a solution until saturated, then cooling to form crystals (sugar, copper sulphate).
+> • Magnetic separation: iron filings from sulphur or sand.
+> • Separating funnel: two liquids that do not mix (oil and water).
+> • Winnowing: chaff from grain using wind.
+
+**Card c41-1** (draft)
+
+> Filtration separates an insoluble solid from a liquid: the residue stays on the filter paper, the filtrate passes through.
+>
+> _Sand and water: filter._  
+> _Sand is the residue._  
+
+Check question: `k2-41-filter` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Sand and water are filtered. What is the sand on the filter paper called?
+
+- ✅ the residue
+- ◻️ the solution  
+  _↳ feedback if chosen: A solution has a dissolved solid._
+- ◻️ the solvent  
+  _↳ feedback if chosen: The solvent is the dissolving liquid._
+- ◻️ the filtrate  
+  _↳ feedback if chosen: The filtrate is the liquid that passes through._
+
+Full working after a second miss:
+
+> The solid left behind is the residue.  
+> So the answer is “the residue”.  
+
+**Card c41-2** (draft)
+
+> Evaporation or crystallisation gets a dissolved solid back from its solution.
+>
+> _Salt from sea water by evaporation._  
+> _Copper sulphate crystals by crystallisation._  
+
+Check question: `k2-41-evap` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which method gives large, well-shaped crystals of copper sulphate?
+
+- ✅ crystallisation
+- ◻️ filtration  
+  _↳ feedback if chosen: Filtration removes insoluble solids._
+- ◻️ evaporation to dryness  
+  _↳ feedback if chosen: Heating to dryness gives a powder._
+- ◻️ decanting  
+  _↳ feedback if chosen: Decanting pours off a liquid._
+
+Full working after a second miss:
+
+> Cool a saturated solution slowly.  
+> So the answer is “crystallisation”.  
+
+**Card c41-3** (draft)
+
+> Choose the method from the difference: size, solubility, magnetism or liquids that do not mix.
+>
+> _Iron filings: a magnet._  
+> _Oil and water: a separating funnel._  
+
+Check question: `k2-41-method-card` · multiple choice, level 1 · **authored key**
+
+> Which method separates chaff from rice grains?
+
+- ◻️ evaporation  
+  _↳ feedback if chosen: Nothing is dissolved._
+- ◻️ crystallisation  
+  _↳ feedback if chosen: There is no solution._
+- ◻️ filtration  
+  _↳ feedback if chosen: There is no liquid._
+- ✅ winnowing
+
+Full working after a second miss:
+
+> The wind blows away the light chaff.  
+> So the answer is “winnowing”.  
+
+**Worked example** (draft)
+
+> How can sand and salt be separated?
+
+1. Add water and stir: the salt dissolves, the sand does not.
+2. Filter to remove the sand (residue), then evaporate the filtrate to get the salt.
+
+**Answer:** Dissolve, filter, then evaporate.
+
+**Practice** `k2-41-filter` · multiple choice, level 1 · **authored key**
+
+> What is the liquid that passes through the filter paper called?
+
+- ✅ the filtrate
+- ◻️ the crystal  
+  _↳ feedback if chosen: Crystals are solid._
+- ◻️ the residue  
+  _↳ feedback if chosen: The residue stays on the paper._
+- ◻️ the precipitate  
+  _↳ feedback if chosen: A precipitate is a solid._
+
+Full working after a second miss:
+
+> The filtrate passes through.  
+> So the answer is “the filtrate”.  
+
+> What is the liquid that passes through the filter paper called?
+
+- ✅ the filtrate
+- ◻️ the crystal  
+  _↳ feedback if chosen: Crystals are solid._
+- ◻️ the precipitate  
+  _↳ feedback if chosen: A precipitate is a solid._
+- ◻️ the residue  
+  _↳ feedback if chosen: The residue stays on the paper._
+
+Full working after a second miss:
+
+> The filtrate passes through.  
+> So the answer is “the filtrate”.  
+
+**Practice** `k2-41-evap` · multiple choice, level 1 · **authored key**
+
+> How is salt obtained from salt water?
+
+- ◻️ by sieving  
+  _↳ feedback if chosen: Dissolved salt passes through a sieve._
+- ◻️ by filtration  
+  _↳ feedback if chosen: Dissolved salt passes through filter paper._
+- ✅ by evaporation
+- ◻️ with a magnet  
+  _↳ feedback if chosen: Salt is not magnetic._
+
+Full working after a second miss:
+
+> Evaporate the water; the salt is left.  
+> So the answer is “by evaporation”.  
+
+> How is salt obtained from salt water?
+
+- ◻️ with a magnet  
+  _↳ feedback if chosen: Salt is not magnetic._
+- ✅ by evaporation
+- ◻️ by sieving  
+  _↳ feedback if chosen: Dissolved salt passes through a sieve._
+- ◻️ by filtration  
+  _↳ feedback if chosen: Dissolved salt passes through filter paper._
+
+Full working after a second miss:
+
+> Evaporate the water; the salt is left.  
+> So the answer is “by evaporation”.  
+
+**Practice** `k2-41-method` · multiple choice, level 2 · **authored key**
+
+> Which method separates iron filings from sulphur powder?
+
+- ◻️ evaporation  
+  _↳ feedback if chosen: Neither is dissolved._
+- ✅ a magnet
+- ◻️ a separating funnel  
+  _↳ feedback if chosen: That is for two liquids._
+- ◻️ filtration  
+  _↳ feedback if chosen: Both are insoluble solids._
+
+Full working after a second miss:
+
+> Iron is magnetic; sulphur is not.  
+> So the answer is “a magnet”.  
+
+> Which method separates iron filings from sulphur powder?
+
+- ◻️ evaporation  
+  _↳ feedback if chosen: Neither is dissolved._
+- ◻️ a separating funnel  
+  _↳ feedback if chosen: That is for two liquids._
+- ✅ a magnet
+- ◻️ filtration  
+  _↳ feedback if chosen: Both are insoluble solids._
+
+Full working after a second miss:
+
+> Iron is magnetic; sulphur is not.  
+> So the answer is “a magnet”.  
+
+**Practice** `k2-41-order` · ordering, level 3 · computed by rule
+
+> Put the steps for separating a mixture of sand and salt in order.
+
+Shown as: Evaporate the filtrate to get the salt. · Add water and stir. · Collect the sand on the filter paper. · Filter the mixture.
+Correct order: Add water and stir. → Filter the mixture. → Collect the sand on the filter paper. → Evaporate the filtrate to get the salt.
+
+Full working after a second miss:
+
+> The correct order is: Add water and stir. → Filter the mixture. → Collect the sand on the filter paper. → Evaporate the filtrate to get the salt..  
+
+> Put the steps for separating a mixture of sand and salt in order.
+
+Shown as: Collect the sand on the filter paper. · Filter the mixture. · Evaporate the filtrate to get the salt. · Add water and stir.
+Correct order: Add water and stir. → Filter the mixture. → Collect the sand on the filter paper. → Evaporate the filtrate to get the salt.
+
+Full working after a second miss:
+
+> The correct order is: Add water and stir. → Filter the mixture. → Collect the sand on the filter paper. → Evaporate the filtrate to get the salt..  
+
+## Lesson 42: Techniques of separation - Distillation
+
+Prerequisites: 41 · Skill: k2-42 (Distillation)
+
+**Note** (draft)
+
+> Simple distillation separates a liquid (the solvent) from a solution, keeping the liquid.
+> The solution is boiled in a flask; the vapour passes into a Liebig condenser cooled by cold water (in at the bottom, out at the top); it condenses and drips into a receiver as the distillate. The dissolved solid stays in the flask.
+> Use: pure (distilled) water from salt water or tap water.
+> Fractional distillation separates liquids that mix but have different boiling points, using a fractionating column. The liquid with the lower boiling point distils first.
+> Uses: ethanol (78 °C) from water (100 °C); petrol, kerosene and diesel from crude oil; gases from liquid air.
+> The thermometer bulb is placed at the side arm to read the temperature of the vapour.
+
+**Card c42-1** (draft)
+
+> Simple distillation gets the liquid back from a solution: boil, then condense the vapour.
+>
+> _Distilled water from salt water._  
+> _The salt stays in the flask._  
+
+Check question: `k2-42-simple` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which method gives pure water from salt water?
+
+- ✅ simple distillation
+- ◻️ decanting  
+  _↳ feedback if chosen: Decanting does not remove dissolved salt._
+- ◻️ filtration  
+  _↳ feedback if chosen: Salt passes through filter paper._
+- ◻️ evaporation  
+  _↳ feedback if chosen: Evaporation loses the water._
+
+Full working after a second miss:
+
+> Boil, then condense the steam.  
+> So the answer is “simple distillation”.  
+
+**Card c42-2** (draft)
+
+> In the condenser, cold water goes in at the bottom and out at the top; the vapour condenses to the distillate.
+>
+> _The condenser is a Liebig condenser._  
+> _The liquid collected is the distillate._  
+
+Check question: `k2-42-parts` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Where does the cold water enter the condenser?
+
+- ◻️ at the top  
+  _↳ feedback if chosen: Entering at the bottom fills the jacket completely._
+- ◻️ in the receiver  
+  _↳ feedback if chosen: The receiver collects the distillate._
+- ◻️ in the flask  
+  _↳ feedback if chosen: The flask holds the solution._
+- ✅ at the bottom
+
+Full working after a second miss:
+
+> In at the bottom, out at the top.  
+> So the answer is “at the bottom”.  
+
+**Card c42-3** (draft)
+
+> Fractional distillation separates liquids that mix; the lower boiling point comes off first.
+>
+> _Ethanol before water._  
+> _Petrol from crude oil._  
+
+Check question: `k2-42-first-card` · multiple choice, level 1 · computed by rule
+
+> A mixture of water (boiling point 100 °C) and methanol (65 °C) is fractionally distilled. Which distils first?
+
+- ✅ methanol
+- ◻️ water  
+  _↳ feedback if chosen: That liquid has the higher boiling point; it distils later._
+- ◻️ both at the same time  
+  _↳ feedback if chosen: They have different boiling points, so they distil one after the other._
+
+Full working after a second miss:
+
+> The lower boiling point is reached first.  
+> So methanol distils first.  
+
+**Worked example** (draft)
+
+> A mixture of ethanol (boiling point 78 °C) and water (100 °C) is fractionally distilled. Which distils first?
+
+1. The liquid with the lower boiling point boils first.
+2. 78 °C is lower than 100 °C.
+
+**Answer:** ethanol
+
+**Practice** `k2-42-simple` · multiple choice, level 1 · **authored key**
+
+> Which method gives pure water from salt water?
+
+- ◻️ decanting  
+  _↳ feedback if chosen: Decanting does not remove dissolved salt._
+- ◻️ filtration  
+  _↳ feedback if chosen: Salt passes through filter paper._
+- ◻️ evaporation  
+  _↳ feedback if chosen: Evaporation loses the water._
+- ✅ simple distillation
+
+Full working after a second miss:
+
+> Boil, then condense the steam.  
+> So the answer is “simple distillation”.  
+
+> Which method gives pure water from salt water?
+
+- ◻️ decanting  
+  _↳ feedback if chosen: Decanting does not remove dissolved salt._
+- ✅ simple distillation
+- ◻️ filtration  
+  _↳ feedback if chosen: Salt passes through filter paper._
+- ◻️ evaporation  
+  _↳ feedback if chosen: Evaporation loses the water._
+
+Full working after a second miss:
+
+> Boil, then condense the steam.  
+> So the answer is “simple distillation”.  
+
+**Practice** `k2-42-parts` · multiple choice, level 1 · **authored key**
+
+> Where should the thermometer bulb be in distillation?
+
+- ◻️ in the cooling water  
+  _↳ feedback if chosen: That only shows the cooling water._
+- ✅ at the side arm of the flask
+- ◻️ in the receiver  
+  _↳ feedback if chosen: The receiver is cold._
+- ◻️ in the liquid at the bottom  
+  _↳ feedback if chosen: It must read the vapour temperature._
+
+Full working after a second miss:
+
+> It reads the temperature of the vapour leaving.  
+> So the answer is “at the side arm of the flask”.  
+
+> Where does the cold water enter the condenser?
+
+- ◻️ in the receiver  
+  _↳ feedback if chosen: The receiver collects the distillate._
+- ◻️ in the flask  
+  _↳ feedback if chosen: The flask holds the solution._
+- ✅ at the bottom
+- ◻️ at the top  
+  _↳ feedback if chosen: Entering at the bottom fills the jacket completely._
+
+Full working after a second miss:
+
+> In at the bottom, out at the top.  
+> So the answer is “at the bottom”.  
+
+**Practice** `k2-42-first` · multiple choice, level 2 · computed by rule
+
+> A mixture of propanone (boiling point 56 °C) and water (100 °C) is fractionally distilled. Which distils first?
+
+- ◻️ water  
+  _↳ feedback if chosen: That liquid has the higher boiling point; it distils later._
+- ✅ propanone
+- ◻️ both at the same time  
+  _↳ feedback if chosen: They have different boiling points, so they distil one after the other._
+
+Full working after a second miss:
+
+> The lower boiling point is reached first.  
+> So propanone distils first.  
+
+> A mixture of water (boiling point 100 °C) and ethanol (78 °C) is fractionally distilled. Which distils first?
+
+- ✅ ethanol
+- ◻️ water  
+  _↳ feedback if chosen: That liquid has the higher boiling point; it distils later._
+- ◻️ both at the same time  
+  _↳ feedback if chosen: They have different boiling points, so they distil one after the other._
+
+Full working after a second miss:
+
+> The lower boiling point is reached first.  
+> So ethanol distils first.  
+
+**Practice** `k2-42-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Distilled water is made by simple distillation.
+- ✅ The thermometer bulb is put in the boiling liquid.  
+  _↳ explanation: It is placed at the side arm to read the vapour temperature._
+- ◻️ The distillate is collected in the receiver.
+- ◻️ The liquid with the lower boiling point distils first.
+
+Full working after a second miss:
+
+> The wrong statement is “The thermometer bulb is put in the boiling liquid.”.  
+> It is placed at the side arm to read the vapour temperature.  
+
+> Which statement is wrong?
+
+- ◻️ The liquid with the lower boiling point distils first.
+- ◻️ Distilled water is made by simple distillation.
+- ◻️ Crude oil is separated by fractional distillation.
+- ✅ Filtration gives pure water from salt water.  
+  _↳ explanation: The dissolved salt passes through the filter._
+
+Full working after a second miss:
+
+> The wrong statement is “Filtration gives pure water from salt water.”.  
+> The dissolved salt passes through the filter.  
+
+## Lesson 43: Techniques of separation: paper and column chromatography
+
+Prerequisites: 42 · Skill: k2-43 (Paper and column chromatography)
+
+**Note** (draft)
+
+> Chromatography separates substances in a mixture that dissolve in the same solvent, such as the dyes in ink.
+> Paper chromatography: put a spot of the mixture on a pencil line near the bottom of filter paper. Stand the paper in a solvent (water or ethanol) below the line. The solvent rises and carries the dyes; the more soluble dyes move further. The result is a chromatogram.
+> • The line is drawn in pencil (ink would run).
+> • The spot is above the solvent (or it would dissolve away).
+> Rf value = distance moved by the spot ÷ distance moved by the solvent. It is always less than 1.
+> Column chromatography: the mixture moves down a glass column packed with a solid (such as chalk powder), and the parts come out at different times.
+> Uses: testing food colours, inks and drugs.
+
+**Card c43-1** (draft)
+
+> Chromatography separates dissolved substances such as dyes: the more soluble ones move further up the paper.
+>
+> _Black ink can contain blue, red and yellow dyes._  
+> _The result is a chromatogram._  
+
+Check question: `k2-43-use` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In paper chromatography, which dye moves furthest?
+
+- ◻️ the least soluble one  
+  _↳ feedback if chosen: It stays nearer the start._
+- ◻️ the darkest one  
+  _↳ feedback if chosen: Colour is not what decides._
+- ◻️ the heaviest one  
+  _↳ feedback if chosen: Mass is not what decides._
+- ✅ the most soluble one
+
+Full working after a second miss:
+
+> The solvent carries the most soluble dye furthest.  
+> So the answer is “the most soluble one”.  
+
+**Card c43-2** (draft)
+
+> The start line is in pencil and the spot is placed above the solvent level.
+>
+> _Pencil does not dissolve._  
+> _A spot under the solvent would wash away._  
+
+Check question: `k2-43-setup` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Why must the spot be above the level of the solvent?
+
+- ◻️ To make it darker  
+  _↳ feedback if chosen: That is not why._
+- ✅ Otherwise the dyes would dissolve into the solvent.
+- ◻️ So that it moves faster  
+  _↳ feedback if chosen: That is not why._
+- ◻️ To keep it dry for ever  
+  _↳ feedback if chosen: The solvent must reach it by rising._
+
+Full working after a second miss:
+
+> The dyes must be carried up, not washed away.  
+> So the answer is “Otherwise the dyes would dissolve into the solvent.”.  
+
+**Card c43-3** (draft)
+
+> Rf = distance moved by the spot ÷ distance moved by the solvent; it is less than 1.
+>
+> _Spot 2 cm, solvent 8 cm: Rf = 0.25._  
+> _Measure both from the start line._  
+
+Check question: `k2-43-rf-card` · number, level 1 · computed by rule
+
+> In paper chromatography a dye moves 3 cm and the solvent moves 5 cm from the start line. Find the Rf value.
+
+Answer: **0.6**
+- Typed **1.67** (upside) → “Divide the spot's distance by the solvent's distance: Rf is less than 1.”
+
+Full working after a second miss:
+
+> Rf = distance moved by the spot ÷ distance moved by the solvent.  
+> Rf = 3 ÷ 5 = 0.6.  
+
+**Worked example** (draft)
+
+> A dye moves 3 cm and the solvent moves 6 cm. Find the Rf value.
+
+1. Rf = distance moved by the spot ÷ distance moved by the solvent.
+2. Rf = 3 ÷ 6 = 0.5.
+
+**Answer:** 0.5
+
+**Practice** `k2-43-use` · multiple choice, level 1 · **authored key**
+
+> Which mixture is best separated by chromatography?
+
+- ◻️ oil and water  
+  _↳ feedback if chosen: Use a separating funnel._
+- ✅ the dyes in black ink
+- ◻️ iron and sulphur  
+  _↳ feedback if chosen: Use a magnet._
+- ◻️ sand and water  
+  _↳ feedback if chosen: Use filtration._
+
+Full working after a second miss:
+
+> Chromatography separates dissolved dyes.  
+> So the answer is “the dyes in black ink”.  
+
+> In paper chromatography, which dye moves furthest?
+
+- ✅ the most soluble one
+- ◻️ the heaviest one  
+  _↳ feedback if chosen: Mass is not what decides._
+- ◻️ the least soluble one  
+  _↳ feedback if chosen: It stays nearer the start._
+- ◻️ the darkest one  
+  _↳ feedback if chosen: Colour is not what decides._
+
+Full working after a second miss:
+
+> The solvent carries the most soluble dye furthest.  
+> So the answer is “the most soluble one”.  
+
+**Practice** `k2-43-setup` · multiple choice, level 1 · **authored key**
+
+> Why must the spot be above the level of the solvent?
+
+- ✅ Otherwise the dyes would dissolve into the solvent.
+- ◻️ To make it darker  
+  _↳ feedback if chosen: That is not why._
+- ◻️ To keep it dry for ever  
+  _↳ feedback if chosen: The solvent must reach it by rising._
+- ◻️ So that it moves faster  
+  _↳ feedback if chosen: That is not why._
+
+Full working after a second miss:
+
+> The dyes must be carried up, not washed away.  
+> So the answer is “Otherwise the dyes would dissolve into the solvent.”.  
+
+> Why is the start line drawn in pencil?
+
+- ◻️ Pencil is darker.  
+  _↳ feedback if chosen: Darkness is not the reason._
+- ◻️ Ink is not allowed in school.  
+  _↳ feedback if chosen: That is not the reason._
+- ✅ Pencil does not dissolve in the solvent.
+- ◻️ Pencil is cheaper.  
+  _↳ feedback if chosen: Cost is not the reason._
+
+Full working after a second miss:
+
+> Ink would run and mix with the dyes.  
+> So the answer is “Pencil does not dissolve in the solvent.”.  
+
+**Practice** `k2-43-rf` · number, level 2 · computed by rule
+
+> In paper chromatography a dye moves 1 cm and the solvent moves 10 cm from the start line. Find the Rf value.
+
+Answer: **0.1**
+- Typed **10** (upside) → “Divide the spot's distance by the solvent's distance: Rf is less than 1.”
+
+Full working after a second miss:
+
+> Rf = distance moved by the spot ÷ distance moved by the solvent.  
+> Rf = 1 ÷ 10 = 0.1.  
+
+> In paper chromatography a dye moves 3 cm and the solvent moves 4 cm from the start line. Find the Rf value.
+
+Answer: **0.75**
+- Typed **1.33** (upside) → “Divide the spot's distance by the solvent's distance: Rf is less than 1.”
+
+Full working after a second miss:
+
+> Rf = distance moved by the spot ÷ distance moved by the solvent.  
+> Rf = 3 ÷ 4 = 0.75.  
+
+**Practice** `k2-43-dist` · number, level 3 · computed by rule
+
+> A dye has Rf value 0.5. The solvent moves 10 cm. How far does the dye move?
+
+Answer: **5 cm**
+- Typed **20** (div) → “The dye moves less than the solvent: multiply Rf by the solvent distance.”
+
+Full working after a second miss:
+
+> Rf = spot ÷ solvent, so spot = Rf × solvent.  
+> 0.5 × 10 = 5 cm.  
+
+> A dye has Rf value 0.5. The solvent moves 5 cm. How far does the dye move?
+
+Answer: **2.5 cm**
+- Typed **10** (div) → “The dye moves less than the solvent: multiply Rf by the solvent distance.”
+
+Full working after a second miss:
+
+> Rf = spot ÷ solvent, so spot = Rf × solvent.  
+> 0.5 × 5 = 2.5 cm.  
+
+## Lesson 44: Definitions: sublimation, melting point and boiling points
+
+Prerequisites: 40 · Skill: k2-44 (Sublimation, melting point and boiling point)
+
+**Note** (draft)
+
+> Melting point: the temperature at which a solid turns into a liquid. Ice melts at 0 °C.
+> Boiling point: the temperature at which a liquid boils, turning into a gas throughout. Pure water boils at 100 °C at sea level (lower on a high mountain such as Mount Cameroon, where the air pressure is lower).
+> Sublimation: a solid turns directly into a gas without melting, and the gas turns back to a solid on cooling. Examples: iodine, ammonium chloride, camphor (naphthalene balls), solid carbon dioxide (dry ice).
+> Sublimation separates a solid that sublimes from one that does not, for example ammonium chloride from salt: heat the mixture; ammonium chloride sublimes and collects on a cool surface; the salt stays.
+
+**Card c44-1** (draft)
+
+> Melting point: solid → liquid; boiling point: liquid → gas throughout.
+>
+> _Ice melts at 0 °C._  
+> _Pure water boils at 100 °C at sea level._  
+
+Check question: `k2-44-points` · multiple choice, level 1 · **authored key**, reused from practice
+
+> At what temperature does pure water boil at sea level?
+
+- ✅ 100 °C
+- ◻️ 78 °C  
+  _↳ feedback if chosen: 78 °C is the boiling point of ethanol._
+- ◻️ 37 °C  
+  _↳ feedback if chosen: 37 °C is body temperature._
+- ◻️ 0 °C  
+  _↳ feedback if chosen: 0 °C is its melting point._
+
+Full working after a second miss:
+
+> Pure water boils at 100 °C.  
+> So the answer is “100 °C”.  
+
+**Card c44-2** (draft)
+
+> Sublimation is solid → gas directly; iodine, camphor and ammonium chloride sublime.
+>
+> _Naphthalene balls in a wardrobe get smaller._  
+> _Iodine gives a purple vapour._  
+
+Check question: `k2-44-sub` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which substance sublimes when heated?
+
+- ◻️ sugar  
+  _↳ feedback if chosen: Sugar melts and burns._
+- ◻️ common salt  
+  _↳ feedback if chosen: Salt melts at a high temperature._
+- ✅ iodine
+- ◻️ sand  
+  _↳ feedback if chosen: Sand does not sublime._
+
+Full working after a second miss:
+
+> Iodine turns straight to a purple vapour.  
+> So the answer is “iodine”.  
+
+**Card c44-3** (draft)
+
+> Sublimation separates a solid that sublimes from one that does not.
+>
+> _Ammonium chloride from salt._  
+> _Iodine from sand._  
+
+Check question: `k2-44-sep-card` · multiple choice, level 1 · **authored key**
+
+> How is ammonium chloride separated from salt?
+
+- ◻️ by a magnet  
+  _↳ feedback if chosen: Neither is magnetic._
+- ◻️ by filtration  
+  _↳ feedback if chosen: Both dissolve in water._
+- ✅ by sublimation
+- ◻️ by distillation  
+  _↳ feedback if chosen: Neither is a liquid._
+
+Full working after a second miss:
+
+> Ammonium chloride sublimes; salt does not.  
+> So the answer is “by sublimation”.  
+
+**Worked example** (draft)
+
+> How can ammonium chloride and common salt be separated?
+
+1. Heat the mixture with a cold funnel or dish above it.
+2. Ammonium chloride sublimes and forms a solid on the cold surface; salt does not sublime.
+
+**Answer:** By sublimation.
+
+**Practice** `k2-44-points` · multiple choice, level 1 · **authored key**
+
+> Why does water boil below 100 °C on top of Mount Cameroon?
+
+- ◻️ It is hotter there.  
+  _↳ feedback if chosen: It is colder there._
+- ✅ The air pressure is lower.
+- ◻️ The water is salty.  
+  _↳ feedback if chosen: Salt would raise the boiling point._
+- ◻️ There is more oxygen.  
+  _↳ feedback if chosen: There is less air, not more oxygen._
+
+Full working after a second miss:
+
+> Lower pressure, lower boiling point.  
+> So the answer is “The air pressure is lower.”.  
+
+> What is the melting point of a substance?
+
+- ◻️ the temperature at which the liquid turns to gas  
+  _↳ feedback if chosen: That is the boiling point._
+- ✅ the temperature at which the solid turns to liquid
+- ◻️ the highest temperature it can reach  
+  _↳ feedback if chosen: That is not a definition._
+- ◻️ the temperature at which a gas turns to liquid  
+  _↳ feedback if chosen: That is condensation._
+
+Full working after a second miss:
+
+> Solid → liquid.  
+> So the answer is “the temperature at which the solid turns to liquid”.  
+
+**Practice** `k2-44-sub` · multiple choice, level 1 · **authored key**
+
+> What is sublimation?
+
+- ◻️ a solid turning into a liquid  
+  _↳ feedback if chosen: That is melting._
+- ◻️ a liquid turning into a gas  
+  _↳ feedback if chosen: That is evaporation or boiling._
+- ✅ a solid turning directly into a gas
+- ◻️ a gas turning into a liquid  
+  _↳ feedback if chosen: That is condensation._
+
+Full working after a second miss:
+
+> No liquid is formed.  
+> So the answer is “a solid turning directly into a gas”.  
+
+> Which substance sublimes when heated?
+
+- ◻️ common salt  
+  _↳ feedback if chosen: Salt melts at a high temperature._
+- ◻️ sugar  
+  _↳ feedback if chosen: Sugar melts and burns._
+- ◻️ sand  
+  _↳ feedback if chosen: Sand does not sublime._
+- ✅ iodine
+
+Full working after a second miss:
+
+> Iodine turns straight to a purple vapour.  
+> So the answer is “iodine”.  
+
+**Practice** `k2-44-sep` · multiple choice, level 2 · **authored key**
+
+> When a mixture of iodine and sand is heated under a cold funnel, where does the iodine collect?
+
+- ✅ on the cold funnel
+- ◻️ in the air only  
+  _↳ feedback if chosen: The vapour turns back to solid on the cold surface._
+- ◻️ in the flame  
+  _↳ feedback if chosen: It does not collect in the flame._
+- ◻️ at the bottom with the sand  
+  _↳ feedback if chosen: The iodine leaves the sand as vapour._
+
+Full working after a second miss:
+
+> The vapour sublimes back to solid on cooling.  
+> So the answer is “on the cold funnel”.  
+
+> When a mixture of iodine and sand is heated under a cold funnel, where does the iodine collect?
+
+- ◻️ at the bottom with the sand  
+  _↳ feedback if chosen: The iodine leaves the sand as vapour._
+- ✅ on the cold funnel
+- ◻️ in the air only  
+  _↳ feedback if chosen: The vapour turns back to solid on the cold surface._
+- ◻️ in the flame  
+  _↳ feedback if chosen: It does not collect in the flame._
+
+Full working after a second miss:
+
+> The vapour sublimes back to solid on cooling.  
+> So the answer is “on the cold funnel”.  
+
+**Practice** `k2-44-state` · multiple choice, level 3 · computed by rule
+
+> Ethanol melts at −114 °C and boils at 78 °C. What is its state at 25 °C?
+
+- ◻️ solid  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+- ✅ liquid
+- ◻️ gas  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+
+Full working after a second miss:
+
+> Compare 25 °C with the melting point (−114 °C) and the boiling point (78 °C).  
+> Below the melting point: solid; between: liquid; above the boiling point: gas. So: liquid.  
+
+> Naphthalene melts at 80 °C and boils at 218 °C. What is its state at 25 °C?
+
+- ◻️ liquid  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+- ◻️ gas  
+  _↳ feedback if chosen: Compare the temperature with both the melting point and the boiling point._
+- ✅ solid
+
+Full working after a second miss:
+
+> Compare 25 °C with the melting point (80 °C) and the boiling point (218 °C).  
+> Below the melting point: solid; between: liquid; above the boiling point: gas. So: solid.  
+
+## Lesson 45: Criteria for purity
+
+Prerequisites: 44 · Skill: k2-45 (Criteria for purity)
+
+**Note** (draft)
+
+> A pure substance contains only one substance. Tests of purity:
+> • A pure solid melts at one sharp, fixed temperature. An impure solid melts over a range of temperatures, below the true melting point.
+> • A pure liquid boils at one fixed temperature. Impurities raise the boiling point (salt water boils above 100 °C) and lower the freezing point (salt water freezes below 0 °C).
+> • A pure substance gives a single spot in chromatography; a mixture gives several spots.
+> Purity matters for medicines, foods and drinking water: impurities can be harmful.
+
+**Card c45-1** (draft)
+
+> A pure substance has a sharp, fixed melting point and boiling point.
+>
+> _Pure ice melts at exactly 0 °C._  
+> _Pure water boils at 100 °C at sea level._  
+
+Check question: `k2-45-pure` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How does a pure solid melt?
+
+- ◻️ over a wide range of temperatures  
+  _↳ feedback if chosen: That shows an impure solid._
+- ◻️ only in sunlight  
+  _↳ feedback if chosen: Light does not decide it._
+- ◻️ at any temperature  
+  _↳ feedback if chosen: It has a fixed melting point._
+- ✅ at one sharp, fixed temperature
+
+Full working after a second miss:
+
+> A sharp melting point shows purity.  
+> So the answer is “at one sharp, fixed temperature”.  
+
+**Card c45-2** (draft)
+
+> Impurities lower the melting (freezing) point and raise the boiling point; impure solids melt over a range.
+>
+> _Salt water boils above 100 °C._  
+> _Salt on ice makes it melt below 0 °C._  
+
+Check question: `k2-45-imp-card` · multiple choice, level 1 · **authored key**
+
+> What happens to the boiling point of water when salt is dissolved in it?
+
+- ◻️ It stays at 100 °C.  
+  _↳ feedback if chosen: Impurities change it._
+- ◻️ It falls below 100 °C.  
+  _↳ feedback if chosen: Impurities raise the boiling point._
+- ✅ It rises above 100 °C.
+- ◻️ The water cannot boil.  
+  _↳ feedback if chosen: Salt water does boil._
+
+Full working after a second miss:
+
+> Dissolved impurities raise the boiling point.  
+> So the answer is “It rises above 100 °C.”.  
+
+**Card c45-3** (draft)
+
+> In chromatography a pure substance gives one spot; a mixture gives several.
+>
+> _Pure dye: one spot._  
+> _Black ink: several spots._  
+
+Check question: `k2-45-spot-card` · multiple choice, level 1 · **authored key**
+
+> A food colour gives three spots on a chromatogram. What does this show?
+
+- ◻️ It is a gas.  
+  _↳ feedback if chosen: It is a dye solution._
+- ◻️ It is a pure dye.  
+  _↳ feedback if chosen: A pure dye gives one spot._
+- ✅ It is a mixture of at least three dyes.
+- ◻️ The paper is dirty.  
+  _↳ feedback if chosen: That is not the likely reason._
+
+Full working after a second miss:
+
+> Each spot is a different substance.  
+> So the answer is “It is a mixture of at least three dyes.”.  
+
+**Worked example** (draft)
+
+> What does it show that a sample of water boils at 102 °C?
+
+1. Pure water boils at exactly 100 °C at sea level.
+2. Dissolved impurities raise the boiling point.
+
+**Answer:** The water is not pure (it contains dissolved substances).
+
+**Practice** `k2-45-pure` · multiple choice, level 1 · **authored key**
+
+> A liquid boils at exactly 100 °C at sea level. What is it likely to be?
+
+- ◻️ palm oil  
+  _↳ feedback if chosen: Palm oil does not boil at 100 °C._
+- ◻️ salt water  
+  _↳ feedback if chosen: Salt water boils above 100 °C._
+- ◻️ sugar solution  
+  _↳ feedback if chosen: A sugar solution boils above 100 °C._
+- ✅ pure water
+
+Full working after a second miss:
+
+> Pure water boils at 100 °C.  
+> So the answer is “pure water”.  
+
+> A liquid boils at exactly 100 °C at sea level. What is it likely to be?
+
+- ◻️ palm oil  
+  _↳ feedback if chosen: Palm oil does not boil at 100 °C._
+- ✅ pure water
+- ◻️ salt water  
+  _↳ feedback if chosen: Salt water boils above 100 °C._
+- ◻️ sugar solution  
+  _↳ feedback if chosen: A sugar solution boils above 100 °C._
+
+Full working after a second miss:
+
+> Pure water boils at 100 °C.  
+> So the answer is “pure water”.  
+
+**Practice** `k2-45-imp` · multiple choice, level 2 · **authored key**
+
+> What happens to the boiling point of water when salt is dissolved in it?
+
+- ◻️ The water cannot boil.  
+  _↳ feedback if chosen: Salt water does boil._
+- ◻️ It falls below 100 °C.  
+  _↳ feedback if chosen: Impurities raise the boiling point._
+- ◻️ It stays at 100 °C.  
+  _↳ feedback if chosen: Impurities change it._
+- ✅ It rises above 100 °C.
+
+Full working after a second miss:
+
+> Dissolved impurities raise the boiling point.  
+> So the answer is “It rises above 100 °C.”.  
+
+> A solid melts slowly between 75 °C and 79 °C. Its true melting point is 80 °C. What does this show?
+
+- ✅ It is impure.
+- ◻️ It is pure.  
+  _↳ feedback if chosen: A pure solid melts sharply at 80 °C._
+- ◻️ It is a liquid.  
+  _↳ feedback if chosen: It is a solid before it melts._
+- ◻️ It is a gas.  
+  _↳ feedback if chosen: It is a solid that melts._
+
+Full working after a second miss:
+
+> Impurities lower the melting point and give a range.  
+> So the answer is “It is impure.”.  
+
+**Practice** `k2-45-spot` · multiple choice, level 3 · **authored key**
+
+> A sample gives one spot in chromatography and melts sharply at its known melting point. What can you say?
+
+- ✅ It is very likely pure.
+- ◻️ It is a mixture.  
+  _↳ feedback if chosen: A mixture gives several spots and a range._
+- ◻️ It is a solution.  
+  _↳ feedback if chosen: It melts as a solid._
+- ◻️ It is impure.  
+  _↳ feedback if chosen: Both tests show purity._
+
+Full working after a second miss:
+
+> Both purity tests agree.  
+> So the answer is “It is very likely pure.”.  
+
+> A sample gives one spot in chromatography and melts sharply at its known melting point. What can you say?
+
+- ◻️ It is impure.  
+  _↳ feedback if chosen: Both tests show purity._
+- ◻️ It is a mixture.  
+  _↳ feedback if chosen: A mixture gives several spots and a range._
+- ✅ It is very likely pure.
+- ◻️ It is a solution.  
+  _↳ feedback if chosen: It melts as a solid._
+
+Full working after a second miss:
+
+> Both purity tests agree.  
+> So the answer is “It is very likely pure.”.  
 

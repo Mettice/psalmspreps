@@ -1,0 +1,445 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 34,
+ "language": "en",
+ "prerequisites": [
+  33
+ ],
+ "skills": [
+  {
+   "id": "k2-34",
+   "name": "Burning: wood and cloth"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Wood and cotton cloth are made mainly of cellulose (carbon, hydrogen and oxygen). When they burn in air:\nwood + oxygen → carbon dioxide + water (+ ash and smoke)\n• The ash is the mineral part that does not burn.\n• Smoke is tiny unburnt carbon particles; it shows burning is not complete.\n• Heating wood without air (as when charcoal is made) drives off gases and leaves charcoal (carbon).\nSynthetic cloth (nylon, polyester) melts and drips as it burns and can stick to skin; cotton burns with a smell of burning paper and leaves a soft ash.\nSafety: do not wear loose synthetic clothes near open fires; if clothes catch fire: stop, drop and roll.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "someone's clothes catch fire"
+  },
+  "problem": "What should be done if {x}?",
+  "steps": [
+   "Running fans the flames with more air.",
+   "Rolling on the ground smothers the flames (cuts off oxygen)."
+  ],
+  "answer": "Stop, drop and roll (or wrap the person in a blanket).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c34-1",
+    "status": "draft",
+    "idea": "Wood and cotton burn to carbon dioxide and water, leaving ash; smoke is unburnt carbon.",
+    "vars": {},
+    "example": [
+     "Ash does not burn.",
+     "Smoke shows incomplete burning."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-34-wood"
+    }
+   },
+   {
+    "id": "c34-2",
+    "status": "draft",
+    "idea": "Heating wood with little air gives charcoal, which is nearly pure carbon.",
+    "vars": {},
+    "example": [
+     "Charcoal is made in earth kilns.",
+     "Charcoal burns with little smoke."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-34-charcoal"
+    }
+   },
+   {
+    "id": "c34-3",
+    "status": "draft",
+    "idea": "Synthetic cloth melts and sticks to skin when it burns; if clothes catch fire: stop, drop and roll.",
+    "vars": {},
+    "example": [
+     "Nylon melts and drips.",
+     "Cotton leaves a soft ash."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-34-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "burning-rusting"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are nylon clothes dangerous near an open fire?",
+         "r": "They melt and stick to the skin.",
+         "w": [
+          "They cannot burn at all.",
+          "They give out oxygen.",
+          "They are too heavy."
+         ],
+         "e": [
+          "Nylon does burn and melt.",
+          "Cloth does not give out oxygen.",
+          "Weight is not the danger."
+         ],
+         "y": "Melting synthetic cloth causes deep burns."
+        },
+        {
+         "q": "A girl's dress catches fire. What should she do?",
+         "r": "Stop, drop and roll.",
+         "w": [
+          "Run to get water.",
+          "Fan the flames.",
+          "Stand still and wait."
+         ],
+         "e": [
+          "Running gives the flames more air.",
+          "Fanning adds air.",
+          "The flames keep burning."
+         ],
+         "y": "Rolling cuts off the oxygen."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-34-wood",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the ash left after wood burns?",
+       "r": "the mineral part that does not burn",
+       "w": [
+        "unburnt carbon",
+        "water",
+        "pure oxygen"
+       ],
+       "e": [
+        "That is soot or smoke.",
+        "Water leaves as vapour.",
+        "Oxygen is used up."
+       ],
+       "y": "Ash is the mineral part of the wood."
+      },
+      {
+       "q": "What does black smoke from a wood fire show?",
+       "r": "The burning is not complete.",
+       "w": [
+        "The fire has too much air.",
+        "The wood is iron.",
+        "The fire is out."
+       ],
+       "e": [
+        "Plenty of air gives little smoke.",
+        "Wood is not a metal.",
+        "Smoke comes from a burning fire."
+       ],
+       "y": "Smoke is unburnt carbon."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-34-charcoal",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How is charcoal made from wood?",
+       "r": "by heating wood with very little air",
+       "w": [
+        "by burning wood in plenty of air",
+        "by soaking wood in water",
+        "by drying wood in the sun"
+       ],
+       "e": [
+        "Plenty of air turns the wood to ash.",
+        "Water does not make charcoal.",
+        "Sun-dried wood is still wood."
+       ],
+       "y": "Little air: the gases leave and carbon stays."
+      },
+      {
+       "q": "Charcoal is nearly pure which element?",
+       "r": "carbon",
+       "w": [
+        "oxygen",
+        "iron",
+        "sulphur"
+       ],
+       "e": [
+        "The oxygen leaves in the gases.",
+        "Wood contains no iron to speak of.",
+        "Wood has very little sulphur."
+       ],
+       "y": "Charcoal is carbon."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-34-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are nylon clothes dangerous near an open fire?",
+       "r": "They melt and stick to the skin.",
+       "w": [
+        "They cannot burn at all.",
+        "They give out oxygen.",
+        "They are too heavy."
+       ],
+       "e": [
+        "Nylon does burn and melt.",
+        "Cloth does not give out oxygen.",
+        "Weight is not the danger."
+       ],
+       "y": "Melting synthetic cloth causes deep burns."
+      },
+      {
+       "q": "A girl's dress catches fire. What should she do?",
+       "r": "Stop, drop and roll.",
+       "w": [
+        "Run to get water.",
+        "Fan the flames.",
+        "Stand still and wait."
+       ],
+       "e": [
+        "Running gives the flames more air.",
+        "Fanning adds air.",
+        "The flames keep burning."
+       ],
+       "y": "Rolling cuts off the oxygen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-34-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "burning-rusting"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Wood burns to carbon dioxide and water.",
+      "truth": "true"
+     },
+     {
+      "text": "Charcoal is made by heating wood with little air.",
+      "truth": "true"
+     },
+     {
+      "text": "Cotton burns and leaves a soft ash.",
+      "truth": "true"
+     },
+     {
+      "text": "Rolling on the ground smothers burning clothes.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Smoke shows that wood is burning completely.",
+      "truth": "false",
+      "explain": "Smoke is unburnt carbon: the burning is incomplete."
+     },
+     {
+      "text": "Running helps to put out burning clothes.",
+      "truth": "false",
+      "explain": "Running brings more air to the flames."
+     },
+     {
+      "text": "Ash is the carbon of the wood.",
+      "truth": "false",
+      "explain": "The carbon burns away; ash is the mineral part."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

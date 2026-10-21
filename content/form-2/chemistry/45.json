@@ -1,0 +1,530 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 45,
+ "language": "en",
+ "prerequisites": [
+  44
+ ],
+ "skills": [
+  {
+   "id": "k2-45",
+   "name": "Criteria for purity"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A pure substance contains only one substance. Tests of purity:\n• A pure solid melts at one sharp, fixed temperature. An impure solid melts over a range of temperatures, below the true melting point.\n• A pure liquid boils at one fixed temperature. Impurities raise the boiling point (salt water boils above 100 °C) and lower the freezing point (salt water freezes below 0 °C).\n• A pure substance gives a single spot in chromatography; a mixture gives several spots.\nPurity matters for medicines, foods and drinking water: impurities can be harmful.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a sample of water boils at 102 °C"
+  },
+  "problem": "What does it show that {x}?",
+  "steps": [
+   "Pure water boils at exactly {100} °C at sea level.",
+   "Dissolved impurities raise the boiling point."
+  ],
+  "answer": "The water is not pure (it contains dissolved substances).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c45-1",
+    "status": "draft",
+    "idea": "A pure substance has a sharp, fixed melting point and boiling point.",
+    "vars": {},
+    "example": [
+     "Pure ice melts at exactly {0} °C.",
+     "Pure water boils at {100} °C at sea level."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-45-pure"
+    }
+   },
+   {
+    "id": "c45-2",
+    "status": "draft",
+    "idea": "Impurities lower the melting (freezing) point and raise the boiling point; impure solids melt over a range.",
+    "vars": {},
+    "example": [
+     "Salt water boils above {100} °C.",
+     "Salt on ice makes it melt below {0} °C."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-45-imp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "separation-purity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What happens to the boiling point of water when salt is dissolved in it?",
+         "r": "It rises above 100 °C.",
+         "w": [
+          "It falls below 100 °C.",
+          "It stays at 100 °C.",
+          "The water cannot boil."
+         ],
+         "e": [
+          "Impurities raise the boiling point.",
+          "Impurities change it.",
+          "Salt water does boil."
+         ],
+         "y": "Dissolved impurities raise the boiling point."
+        },
+        {
+         "q": "A solid melts slowly between 75 °C and 79 °C. Its true melting point is 80 °C. What does this show?",
+         "r": "It is impure.",
+         "w": [
+          "It is pure.",
+          "It is a gas.",
+          "It is a liquid."
+         ],
+         "e": [
+          "A pure solid melts sharply at 80 °C.",
+          "It is a solid that melts.",
+          "It is a solid before it melts."
+         ],
+         "y": "Impurities lower the melting point and give a range."
+        },
+        {
+         "q": "Why is salt put on icy roads in cold countries?",
+         "r": "It lowers the freezing point, so the ice melts.",
+         "w": [
+          "It raises the freezing point.",
+          "It makes the road dry by magic.",
+          "It adds heat."
+         ],
+         "e": [
+          "Salt lowers the freezing point.",
+          "That is not science.",
+          "Salt does not give out heat here."
+         ],
+         "y": "Impurities lower the freezing point."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c45-3",
+    "status": "draft",
+    "idea": "In chromatography a pure substance gives one spot; a mixture gives several.",
+    "vars": {},
+    "example": [
+     "Pure dye: one spot.",
+     "Black ink: several spots."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-45-spot-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "separation-purity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A food colour gives three spots on a chromatogram. What does this show?",
+         "r": "It is a mixture of at least three dyes.",
+         "w": [
+          "It is a pure dye.",
+          "It is a gas.",
+          "The paper is dirty."
+         ],
+         "e": [
+          "A pure dye gives one spot.",
+          "It is a dye solution.",
+          "That is not the likely reason."
+         ],
+         "y": "Each spot is a different substance."
+        },
+        {
+         "q": "A sample gives one spot in chromatography and melts sharply at its known melting point. What can you say?",
+         "r": "It is very likely pure.",
+         "w": [
+          "It is a mixture.",
+          "It is impure.",
+          "It is a solution."
+         ],
+         "e": [
+          "A mixture gives several spots and a range.",
+          "Both tests show purity.",
+          "It melts as a solid."
+         ],
+         "y": "Both purity tests agree."
+        },
+        {
+         "q": "Why must medicines be pure?",
+         "r": "Impurities can be harmful to the body.",
+         "w": [
+          "Pure substances are cheaper.",
+          "Impurities make them taste sweet.",
+          "Pure substances are always liquids."
+         ],
+         "e": [
+          "Purification costs more.",
+          "That is not the reason.",
+          "Many pure medicines are solids."
+         ],
+         "y": "Impure medicines can poison or fail to work."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-45-pure",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does a pure solid melt?",
+       "r": "at one sharp, fixed temperature",
+       "w": [
+        "over a wide range of temperatures",
+        "at any temperature",
+        "only in sunlight"
+       ],
+       "e": [
+        "That shows an impure solid.",
+        "It has a fixed melting point.",
+        "Light does not decide it."
+       ],
+       "y": "A sharp melting point shows purity."
+      },
+      {
+       "q": "A liquid boils at exactly 100 °C at sea level. What is it likely to be?",
+       "r": "pure water",
+       "w": [
+        "salt water",
+        "sugar solution",
+        "palm oil"
+       ],
+       "e": [
+        "Salt water boils above 100 °C.",
+        "A sugar solution boils above 100 °C.",
+        "Palm oil does not boil at 100 °C."
+       ],
+       "y": "Pure water boils at 100 °C."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-45-imp",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What happens to the boiling point of water when salt is dissolved in it?",
+       "r": "It rises above 100 °C.",
+       "w": [
+        "It falls below 100 °C.",
+        "It stays at 100 °C.",
+        "The water cannot boil."
+       ],
+       "e": [
+        "Impurities raise the boiling point.",
+        "Impurities change it.",
+        "Salt water does boil."
+       ],
+       "y": "Dissolved impurities raise the boiling point."
+      },
+      {
+       "q": "A solid melts slowly between 75 °C and 79 °C. Its true melting point is 80 °C. What does this show?",
+       "r": "It is impure.",
+       "w": [
+        "It is pure.",
+        "It is a gas.",
+        "It is a liquid."
+       ],
+       "e": [
+        "A pure solid melts sharply at 80 °C.",
+        "It is a solid that melts.",
+        "It is a solid before it melts."
+       ],
+       "y": "Impurities lower the melting point and give a range."
+      },
+      {
+       "q": "Why is salt put on icy roads in cold countries?",
+       "r": "It lowers the freezing point, so the ice melts.",
+       "w": [
+        "It raises the freezing point.",
+        "It makes the road dry by magic.",
+        "It adds heat."
+       ],
+       "e": [
+        "Salt lowers the freezing point.",
+        "That is not science.",
+        "Salt does not give out heat here."
+       ],
+       "y": "Impurities lower the freezing point."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-45-spot",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A food colour gives three spots on a chromatogram. What does this show?",
+       "r": "It is a mixture of at least three dyes.",
+       "w": [
+        "It is a pure dye.",
+        "It is a gas.",
+        "The paper is dirty."
+       ],
+       "e": [
+        "A pure dye gives one spot.",
+        "It is a dye solution.",
+        "That is not the likely reason."
+       ],
+       "y": "Each spot is a different substance."
+      },
+      {
+       "q": "A sample gives one spot in chromatography and melts sharply at its known melting point. What can you say?",
+       "r": "It is very likely pure.",
+       "w": [
+        "It is a mixture.",
+        "It is impure.",
+        "It is a solution."
+       ],
+       "e": [
+        "A mixture gives several spots and a range.",
+        "Both tests show purity.",
+        "It melts as a solid."
+       ],
+       "y": "Both purity tests agree."
+      },
+      {
+       "q": "Why must medicines be pure?",
+       "r": "Impurities can be harmful to the body.",
+       "w": [
+        "Pure substances are cheaper.",
+        "Impurities make them taste sweet.",
+        "Pure substances are always liquids."
+       ],
+       "e": [
+        "Purification costs more.",
+        "That is not the reason.",
+        "Many pure medicines are solids."
+       ],
+       "y": "Impure medicines can poison or fail to work."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

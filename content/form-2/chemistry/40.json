@@ -1,0 +1,492 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 40,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k2-40",
+   "name": "States of matter: review"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Matter exists as solid, liquid or gas, depending on how its particles are arranged and move.\n• Solid: particles close together in a regular pattern; they only vibrate. Fixed shape and volume.\n• Liquid: particles close together but able to move past each other. Fixed volume, takes the shape of its container.\n• Gas: particles far apart, moving fast in all directions. No fixed shape or volume; easily compressed.\nChanges of state: melting (solid → liquid), freezing (liquid → solid), evaporation or boiling (liquid → gas), condensation (gas → liquid), sublimation (solid → gas directly).\nA substance is solid below its melting point, liquid between its melting and boiling points, and gas above its boiling point.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "X": {
+    "pick": [
+     {
+      "n": "ethanol",
+      "mp": -114,
+      "bp": 78
+     }
+    ]
+   },
+   "T": 25
+  },
+  "problem": "{cap(X.n)} melts at {X.mp} °C and boils at {X.bp} °C. What is its state at {T} °C?",
+  "steps": [
+   "{T} °C is above the melting point ({X.mp} °C) and below the boiling point ({X.bp} °C).",
+   "Between the two it is a liquid."
+  ],
+  "answer": "{stateAt(T, X.mp, X.bp)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c40-1",
+    "status": "draft",
+    "idea": "In a solid the particles only vibrate; in a liquid they slide past each other; in a gas they move fast and far apart.",
+    "vars": {},
+    "example": [
+     "Ice: fixed shape.",
+     "Water: takes the shape of the cup."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-40-part"
+    }
+   },
+   {
+    "id": "c40-2",
+    "status": "draft",
+    "idea": "Melting, freezing, evaporation, condensation and sublimation are changes of state.",
+    "vars": {},
+    "example": [
+     "Water vapour on a cold glass condenses.",
+     "Camphor balls sublime."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-40-change"
+    }
+   },
+   {
+    "id": "c40-3",
+    "status": "draft",
+    "idea": "Below the melting point a substance is solid; between melting and boiling point, liquid; above the boiling point, gas.",
+    "vars": {},
+    "example": [
+     "Water at {50} °C is liquid.",
+     "Water at {120} °C is steam."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-40-state-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "separation-purity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "n": "water",
+         "mp": 0,
+         "bp": 100
+        },
+        {
+         "n": "ethanol",
+         "mp": -114,
+         "bp": 78
+        },
+        {
+         "n": "mercury",
+         "mp": -39,
+         "bp": 357
+        },
+        {
+         "n": "naphthalene",
+         "mp": 80,
+         "bp": 218
+        },
+        {
+         "n": "oxygen",
+         "mp": -218,
+         "bp": -183
+        },
+        {
+         "n": "sulphur",
+         "mp": 115,
+         "bp": 445
+        }
+       ]
+      },
+      "T": {
+       "pick": [
+        -200,
+        -150,
+        -50,
+        -20,
+        25,
+        50,
+        90,
+        150,
+        300,
+        400,
+        500
+       ]
+      }
+     },
+     "prompt": "{cap(X.n)} melts at {X.mp} °C and boils at {X.bp} °C. What is its state at {T} °C?",
+     "correct": "{stateAt(T, X.mp, X.bp)}",
+     "distractors": [
+      {
+       "text": "{stateAt(T, X.mp, X.bp) == 'solid' ? 'liquid' : 'solid'}",
+       "misconception": "state"
+      },
+      {
+       "text": "{stateAt(T, X.mp, X.bp) == 'gas' ? 'liquid' : 'gas'}",
+       "misconception": "state"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "state",
+       "explain": "Compare the temperature with both the melting point and the boiling point."
+      }
+     ],
+     "solution": [
+      "Compare {T} °C with the melting point ({X.mp} °C) and the boiling point ({X.bp} °C).",
+      "Below the melting point: solid; between: liquid; above the boiling point: gas. So: {answer}."
+     ],
+     "where": "T != X.mp && T != X.bp",
+     "min_distractors": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-40-part",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which state are the particles far apart and moving fast?",
+       "r": "gas",
+       "w": [
+        "solid",
+        "liquid",
+        "all three"
+       ],
+       "e": [
+        "In a solid they only vibrate.",
+        "In a liquid they are close together.",
+        "Only in a gas are they far apart."
+       ],
+       "y": "Gas particles are far apart."
+      },
+      {
+       "q": "Which state has a fixed volume but no fixed shape?",
+       "r": "liquid",
+       "w": [
+        "solid",
+        "gas",
+        "none"
+       ],
+       "e": [
+        "A solid has a fixed shape.",
+        "A gas has no fixed volume.",
+        "A liquid has a fixed volume."
+       ],
+       "y": "A liquid takes the shape of its container."
+      },
+      {
+       "q": "Which state can be compressed easily?",
+       "r": "gas",
+       "w": [
+        "solid",
+        "liquid",
+        "none"
+       ],
+       "e": [
+        "Solid particles are already close.",
+        "Liquid particles are already close.",
+        "Gases can be compressed."
+       ],
+       "y": "Gas particles have spaces between them."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-40-change",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Water vapour turns to drops on a cold bottle.",
+       "r": "condensation",
+       "w": [
+        "evaporation",
+        "melting",
+        "sublimation"
+       ],
+       "e": [
+        "Evaporation is liquid to gas.",
+        "Melting is solid to liquid.",
+        "Sublimation is solid to gas."
+       ],
+       "y": "Gas to liquid is condensation."
+      },
+      {
+       "q": "A camphor ball gets smaller without melting.",
+       "r": "sublimation",
+       "w": [
+        "melting",
+        "freezing",
+        "condensation"
+       ],
+       "e": [
+        "No liquid forms.",
+        "Freezing is liquid to solid.",
+        "Condensation is gas to liquid."
+       ],
+       "y": "Solid straight to gas."
+      },
+      {
+       "q": "Palm oil turns solid in the cold harmattan mornings.",
+       "r": "freezing (solidification)",
+       "w": [
+        "melting",
+        "boiling",
+        "sublimation"
+       ],
+       "e": [
+        "Melting is solid to liquid.",
+        "Boiling is liquid to gas.",
+        "Sublimation is solid to gas."
+       ],
+       "y": "Liquid to solid."
+      }
+     ]
+    }
+   },
+   "prompt": "What is this change of state called? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-40-state",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "water",
+       "mp": 0,
+       "bp": 100
+      },
+      {
+       "n": "ethanol",
+       "mp": -114,
+       "bp": 78
+      },
+      {
+       "n": "mercury",
+       "mp": -39,
+       "bp": 357
+      },
+      {
+       "n": "naphthalene",
+       "mp": 80,
+       "bp": 218
+      },
+      {
+       "n": "oxygen",
+       "mp": -218,
+       "bp": -183
+      },
+      {
+       "n": "sulphur",
+       "mp": 115,
+       "bp": 445
+      }
+     ]
+    },
+    "T": {
+     "pick": [
+      -200,
+      -150,
+      -50,
+      -20,
+      25,
+      50,
+      90,
+      150,
+      300,
+      400,
+      500
+     ]
+    }
+   },
+   "prompt": "{cap(X.n)} melts at {X.mp} °C and boils at {X.bp} °C. What is its state at {T} °C?",
+   "correct": "{stateAt(T, X.mp, X.bp)}",
+   "distractors": [
+    {
+     "text": "{stateAt(T, X.mp, X.bp) == 'solid' ? 'liquid' : 'solid'}",
+     "misconception": "state"
+    },
+    {
+     "text": "{stateAt(T, X.mp, X.bp) == 'gas' ? 'liquid' : 'gas'}",
+     "misconception": "state"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "state",
+     "explain": "Compare the temperature with both the melting point and the boiling point."
+    }
+   ],
+   "solution": [
+    "Compare {T} °C with the melting point ({X.mp} °C) and the boiling point ({X.bp} °C).",
+    "Below the melting point: solid; between: liquid; above the boiling point: gas. So: {answer}."
+   ],
+   "where": "T != X.mp && T != X.bp",
+   "min_distractors": 2
+  },
+  {
+   "id": "k2-40-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Solid particles vibrate in fixed positions.",
+      "truth": "true"
+     },
+     {
+      "text": "A liquid takes the shape of its container.",
+      "truth": "true"
+     },
+     {
+      "text": "Condensation is gas → liquid.",
+      "truth": "true"
+     },
+     {
+      "text": "A gas fills its container.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Water at {50} °C is a gas because it is warm.",
+      "truth": "false",
+      "explain": "{50} °C is below the boiling point ({100} °C): water is liquid."
+     },
+     {
+      "text": "Evaporation is solid → liquid.",
+      "truth": "false",
+      "explain": "That is melting; evaporation is liquid → gas."
+     },
+     {
+      "text": "Gas particles are close together in a regular pattern.",
+      "truth": "false",
+      "explain": "That describes a solid."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

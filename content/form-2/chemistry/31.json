@@ -1,0 +1,445 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "k2-31",
+   "name": "Air as a mixture"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Air is a mixture, not a compound. Evidence:\n• Its composition varies from place to place (more water vapour near the sea, more carbon dioxide in a crowded room).\n• Its gases can be separated by physical methods (fractional distillation of liquid air).\n• Each gas keeps its own properties (oxygen in air still supports burning).\n• Air can be made by mixing the gases with no heat change and no reaction.\n• Air has no fixed formula, and liquid air has no single boiling point.\nA compound, by contrast, has a fixed composition and a formula, and can only be separated by a chemical reaction.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "liquid air boils over a range of temperatures"
+  },
+  "problem": "What does it show that {x}?",
+  "steps": [
+   "A pure substance (an element or compound) has one fixed boiling point.",
+   "A mixture boils over a range because its parts boil at different temperatures."
+  ],
+  "answer": "Air is a mixture.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "Air is a mixture because its composition varies and it has no formula.",
+    "vars": {},
+    "example": [
+     "Air in a crowded room has more carbon dioxide.",
+     "Air near the sea has more water vapour."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-31-why"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "The gases in air keep their own properties and can be separated by physical methods.",
+    "vars": {},
+    "example": [
+     "Oxygen in air still relights a glowing splint slowly.",
+     "Fractional distillation separates liquid air."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-31-props-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "air"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Air can be made by mixing nitrogen and oxygen. What is observed?",
+         "r": "No heat change and no new substance",
+         "w": [
+          "A flame appears",
+          "A precipitate forms",
+          "The gases turn brown"
+         ],
+         "e": [
+          "No reaction happens.",
+          "Nothing reacts.",
+          "No new substance is made."
+         ],
+         "y": "Mixing gases is a physical process."
+        },
+        {
+         "q": "How are the gases of air separated?",
+         "r": "by fractional distillation of liquid air",
+         "w": [
+          "by a chemical reaction only",
+          "by filtration",
+          "by chromatography"
+         ],
+         "e": [
+          "Air is a mixture, so physical methods work.",
+          "Filtration separates solids from liquids.",
+          "Chromatography separates dyes."
+         ],
+         "y": "A physical method separates a mixture."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "A compound has a fixed composition and a formula; it is separated only by a chemical reaction.",
+    "vars": {},
+    "example": [
+     "Water is always H₂O.",
+     "Air has no formula."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-31-compound"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-31-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Is air an element, a compound or a mixture?",
+       "r": "a mixture",
+       "w": [
+        "a compound",
+        "an element",
+        "a pure substance"
+       ],
+       "e": [
+        "A compound has a fixed formula; air has none.",
+        "Air contains several substances.",
+        "Air contains several gases."
+       ],
+       "y": "Air is a mixture of gases."
+      },
+      {
+       "q": "Which observation shows that air is a mixture?",
+       "r": "Its composition varies from place to place.",
+       "w": [
+        "It is invisible.",
+        "It has mass.",
+        "It can be compressed."
+       ],
+       "e": [
+        "Many pure gases are invisible.",
+        "All matter has mass.",
+        "All gases can be compressed."
+       ],
+       "y": "A compound always has the same composition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-31-compound",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is a compound?",
+       "r": "water",
+       "w": [
+        "air",
+        "sea water",
+        "soil"
+       ],
+       "e": [
+        "Air is a mixture of gases.",
+        "Sea water is salt mixed with water.",
+        "Soil is a mixture."
+       ],
+       "y": "Water has a fixed formula, H₂O."
+      },
+      {
+       "q": "Which is true of a compound but not of air?",
+       "r": "It has a fixed composition and a formula.",
+       "w": [
+        "It contains oxygen.",
+        "It has mass.",
+        "It is a gas."
+       ],
+       "e": [
+        "Air contains oxygen too.",
+        "Air has mass too.",
+        "Air is a gas too."
+       ],
+       "y": "Air has no formula; its composition varies."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-31-props",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Air can be made by mixing nitrogen and oxygen. What is observed?",
+       "r": "No heat change and no new substance",
+       "w": [
+        "A flame appears",
+        "A precipitate forms",
+        "The gases turn brown"
+       ],
+       "e": [
+        "No reaction happens.",
+        "Nothing reacts.",
+        "No new substance is made."
+       ],
+       "y": "Mixing gases is a physical process."
+      },
+      {
+       "q": "How are the gases of air separated?",
+       "r": "by fractional distillation of liquid air",
+       "w": [
+        "by a chemical reaction only",
+        "by filtration",
+        "by chromatography"
+       ],
+       "e": [
+        "Air is a mixture, so physical methods work.",
+        "Filtration separates solids from liquids.",
+        "Chromatography separates dyes."
+       ],
+       "y": "A physical method separates a mixture."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-31-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "air"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Air has no chemical formula.",
+      "truth": "true"
+     },
+     {
+      "text": "The parts of air can be separated physically.",
+      "truth": "true"
+     },
+     {
+      "text": "Water is a compound with a fixed composition.",
+      "truth": "true"
+     },
+     {
+      "text": "Oxygen in air keeps its own properties.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Air is a compound because it always has the same composition.",
+      "truth": "false",
+      "explain": "Air's composition varies; it is a mixture."
+     },
+     {
+      "text": "Liquid air boils at one fixed temperature.",
+      "truth": "false",
+      "explain": "It boils over a range: it is a mixture."
+     },
+     {
+      "text": "Air can only be separated by a chemical reaction.",
+      "truth": "false",
+      "explain": "Air is separated by fractional distillation, a physical method."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

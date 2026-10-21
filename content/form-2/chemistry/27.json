@@ -1,0 +1,387 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "k2-27",
+   "name": "The law of conservation of mass"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The law of conservation of mass (Lavoisier): in a chemical reaction matter is neither created nor destroyed; the total mass of the products equals the total mass of the reactants.\nExperiment: put a solution of lead nitrate in a small tube inside a conical flask of potassium iodide solution. Close the flask and weigh it. Tip the flask so the solutions mix: a yellow precipitate forms. Weigh again: the mass is the same.\nUsing the law: if some masses are known, the missing one can be found.\nTotal mass of reactants = total mass of products.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 24,
+   "c": 40
+  },
+  "problem": "{a} g of magnesium burns to give {c} g of magnesium oxide. What mass of oxygen reacted?",
+  "steps": [
+   "Magnesium + oxygen = magnesium oxide.",
+   "Oxygen = {c} − {a} = {c - a} g."
+  ],
+  "answer": "{c - a} g",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "The law of conservation of mass: matter is neither created nor destroyed in a chemical reaction.",
+    "vars": {},
+    "example": [
+     "Lavoisier stated the law.",
+     "Mass of reactants = mass of products."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-27-law"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "To test the law, the reaction is done in a closed flask so that nothing can escape, and weighed before and after.",
+    "vars": {},
+    "example": [
+     "Lead nitrate and potassium iodide in a closed flask.",
+     "A yellow precipitate forms; the mass does not change."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-27-exp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is the flask closed in the experiment on conservation of mass?",
+         "r": "So that nothing can escape or enter.",
+         "w": [
+          "To keep it warm",
+          "To stop the precipitate forming",
+          "To make it lighter"
+         ],
+         "e": [
+          "Temperature is not the reason.",
+          "The precipitate forms anyway.",
+          "A stopper does not make it lighter."
+         ],
+         "y": "All the matter must stay inside to be weighed."
+        },
+        {
+         "q": "The closed flask weighed 150 g before mixing. What does it weigh after the yellow precipitate forms?",
+         "r": "150 g",
+         "w": [
+          "more than 150 g",
+          "less than 150 g",
+          "0 g"
+         ],
+         "e": [
+          "Nothing entered the flask.",
+          "Nothing escaped from the flask.",
+          "The flask still has its contents."
+         ],
+         "y": "Mass is conserved."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "A missing mass is found by subtraction: one reactant = product − the other reactant.",
+    "vars": {},
+    "example": [
+     "Carbon + oxygen → carbon dioxide",
+     "If carbon dioxide and carbon are known, oxygen = the difference."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-27-find-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "n": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "c": {
+       "expr": "n * 3"
+      },
+      "d": {
+       "expr": "n * 11"
+      }
+     },
+     "prompt": "{c} g of carbon burns completely and gives {d} g of carbon dioxide. What mass of oxygen reacted?",
+     "answer": "d - c",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "c + d",
+       "explain": "Oxygen is a reactant: subtract the carbon from the carbon dioxide."
+      }
+     ],
+     "solution": [
+      "Carbon + oxygen = carbon dioxide.",
+      "Oxygen = {d} − {c} = {answer} g."
+     ],
+     "unit": "g"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-27-law",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the law of conservation of mass say?",
+       "r": "Matter is neither created nor destroyed in a chemical reaction.",
+       "w": [
+        "Products are always heavier than reactants.",
+        "Gases have no mass.",
+        "Mass is lost as heat."
+       ],
+       "e": [
+        "The total mass is equal.",
+        "Gases have mass.",
+        "Heat has no mass."
+       ],
+       "y": "Total mass of reactants = total mass of products."
+      },
+      {
+       "q": "Which scientist stated the law of conservation of mass?",
+       "r": "Antoine Lavoisier",
+       "w": [
+        "John Dalton",
+        "Dmitri Mendeleev",
+        "Isaac Newton"
+       ],
+       "e": [
+        "Dalton gave the atomic theory.",
+        "Mendeleev made the periodic table.",
+        "Newton studied forces."
+       ],
+       "y": "Lavoisier, the French chemist."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-27-exp",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is the flask closed in the experiment on conservation of mass?",
+       "r": "So that nothing can escape or enter.",
+       "w": [
+        "To keep it warm",
+        "To stop the precipitate forming",
+        "To make it lighter"
+       ],
+       "e": [
+        "Temperature is not the reason.",
+        "The precipitate forms anyway.",
+        "A stopper does not make it lighter."
+       ],
+       "y": "All the matter must stay inside to be weighed."
+      },
+      {
+       "q": "The closed flask weighed 150 g before mixing. What does it weigh after the yellow precipitate forms?",
+       "r": "150 g",
+       "w": [
+        "more than 150 g",
+        "less than 150 g",
+        "0 g"
+       ],
+       "e": [
+        "Nothing entered the flask.",
+        "Nothing escaped from the flask.",
+        "The flask still has its contents."
+       ],
+       "y": "Mass is conserved."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-27-find",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "c": {
+     "expr": "n * 3"
+    },
+    "d": {
+     "expr": "n * 11"
+    }
+   },
+   "prompt": "{c} g of carbon burns completely and gives {d} g of carbon dioxide. What mass of oxygen reacted?",
+   "answer": "d - c",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "c + d",
+     "explain": "Oxygen is a reactant: subtract the carbon from the carbon dioxide."
+    }
+   ],
+   "solution": [
+    "Carbon + oxygen = carbon dioxide.",
+    "Oxygen = {d} − {c} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

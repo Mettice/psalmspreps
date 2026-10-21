@@ -1,0 +1,479 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 41,
+ "language": "en",
+ "prerequisites": [
+  40
+ ],
+ "skills": [
+  {
+   "id": "k2-41",
+   "name": "Separation techniques: review"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mixtures are separated by physical methods that use a difference in properties:\n• Picking or sieving: different sizes (stones from beans, sand from gravel).\n• Decanting: pouring a liquid off a settled solid.\n• Filtration: an insoluble solid from a liquid (sand from water). The solid left is the residue; the liquid through is the filtrate.\n• Evaporation: a dissolved solid from a solution (salt from salt water).\n• Crystallisation: heating a solution until saturated, then cooling to form crystals (sugar, copper sulphate).\n• Magnetic separation: iron filings from sulphur or sand.\n• Separating funnel: two liquids that do not mix (oil and water).\n• Winnowing: chaff from grain using wind.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": "sand and salt"
+  },
+  "problem": "How can {m} be separated?",
+  "steps": [
+   "Add water and stir: the salt dissolves, the sand does not.",
+   "Filter to remove the sand (residue), then evaporate the filtrate to get the salt."
+  ],
+  "answer": "Dissolve, filter, then evaporate.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c41-1",
+    "status": "draft",
+    "idea": "Filtration separates an insoluble solid from a liquid: the residue stays on the filter paper, the filtrate passes through.",
+    "vars": {},
+    "example": [
+     "Sand and water: filter.",
+     "Sand is the residue."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-41-filter"
+    }
+   },
+   {
+    "id": "c41-2",
+    "status": "draft",
+    "idea": "Evaporation or crystallisation gets a dissolved solid back from its solution.",
+    "vars": {},
+    "example": [
+     "Salt from sea water by evaporation.",
+     "Copper sulphate crystals by crystallisation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-41-evap"
+    }
+   },
+   {
+    "id": "c41-3",
+    "status": "draft",
+    "idea": "Choose the method from the difference: size, solubility, magnetism or liquids that do not mix.",
+    "vars": {},
+    "example": [
+     "Iron filings: a magnet.",
+     "Oil and water: a separating funnel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-41-method-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "separation-purity"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "iron filings from sulphur powder",
+         "r": "a magnet",
+         "w": [
+          "filtration",
+          "evaporation",
+          "a separating funnel"
+         ],
+         "e": [
+          "Both are insoluble solids.",
+          "Neither is dissolved.",
+          "That is for two liquids."
+         ],
+         "y": "Iron is magnetic; sulphur is not."
+        },
+        {
+         "q": "palm oil from water",
+         "r": "a separating funnel",
+         "w": [
+          "filtration",
+          "a magnet",
+          "sieving"
+         ],
+         "e": [
+          "Both liquids pass through filter paper.",
+          "Neither is magnetic.",
+          "Both liquids pass through a sieve."
+         ],
+         "y": "Oil and water do not mix: run off the lower layer."
+        },
+        {
+         "q": "chaff from rice grains",
+         "r": "winnowing",
+         "w": [
+          "evaporation",
+          "filtration",
+          "crystallisation"
+         ],
+         "e": [
+          "Nothing is dissolved.",
+          "There is no liquid.",
+          "There is no solution."
+         ],
+         "y": "The wind blows away the light chaff."
+        },
+        {
+         "q": "small stones from beans",
+         "r": "hand picking",
+         "w": [
+          "evaporation",
+          "a separating funnel",
+          "crystallisation"
+         ],
+         "e": [
+          "Nothing is dissolved.",
+          "There are no liquids.",
+          "There is no solution."
+         ],
+         "y": "Large pieces can be picked out."
+        }
+       ]
+      }
+     },
+     "prompt": "Which method separates {X.q}?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-41-filter",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Sand and water are filtered. What is the sand on the filter paper called?",
+       "r": "the residue",
+       "w": [
+        "the filtrate",
+        "the solvent",
+        "the solution"
+       ],
+       "e": [
+        "The filtrate is the liquid that passes through.",
+        "The solvent is the dissolving liquid.",
+        "A solution has a dissolved solid."
+       ],
+       "y": "The solid left behind is the residue."
+      },
+      {
+       "q": "What is the liquid that passes through the filter paper called?",
+       "r": "the filtrate",
+       "w": [
+        "the residue",
+        "the precipitate",
+        "the crystal"
+       ],
+       "e": [
+        "The residue stays on the paper.",
+        "A precipitate is a solid.",
+        "Crystals are solid."
+       ],
+       "y": "The filtrate passes through."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-41-evap",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How is salt obtained from salt water?",
+       "r": "by evaporation",
+       "w": [
+        "by filtration",
+        "with a magnet",
+        "by sieving"
+       ],
+       "e": [
+        "Dissolved salt passes through filter paper.",
+        "Salt is not magnetic.",
+        "Dissolved salt passes through a sieve."
+       ],
+       "y": "Evaporate the water; the salt is left."
+      },
+      {
+       "q": "Which method gives large, well-shaped crystals of copper sulphate?",
+       "r": "crystallisation",
+       "w": [
+        "evaporation to dryness",
+        "filtration",
+        "decanting"
+       ],
+       "e": [
+        "Heating to dryness gives a powder.",
+        "Filtration removes insoluble solids.",
+        "Decanting pours off a liquid."
+       ],
+       "y": "Cool a saturated solution slowly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-41-method",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "iron filings from sulphur powder",
+       "r": "a magnet",
+       "w": [
+        "filtration",
+        "evaporation",
+        "a separating funnel"
+       ],
+       "e": [
+        "Both are insoluble solids.",
+        "Neither is dissolved.",
+        "That is for two liquids."
+       ],
+       "y": "Iron is magnetic; sulphur is not."
+      },
+      {
+       "q": "palm oil from water",
+       "r": "a separating funnel",
+       "w": [
+        "filtration",
+        "a magnet",
+        "sieving"
+       ],
+       "e": [
+        "Both liquids pass through filter paper.",
+        "Neither is magnetic.",
+        "Both liquids pass through a sieve."
+       ],
+       "y": "Oil and water do not mix: run off the lower layer."
+      },
+      {
+       "q": "chaff from rice grains",
+       "r": "winnowing",
+       "w": [
+        "evaporation",
+        "filtration",
+        "crystallisation"
+       ],
+       "e": [
+        "Nothing is dissolved.",
+        "There is no liquid.",
+        "There is no solution."
+       ],
+       "y": "The wind blows away the light chaff."
+      },
+      {
+       "q": "small stones from beans",
+       "r": "hand picking",
+       "w": [
+        "evaporation",
+        "a separating funnel",
+        "crystallisation"
+       ],
+       "e": [
+        "Nothing is dissolved.",
+        "There are no liquids.",
+        "There is no solution."
+       ],
+       "y": "Large pieces can be picked out."
+      }
+     ]
+    }
+   },
+   "prompt": "Which method separates {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-41-order",
+   "type": "ordering",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "separation-purity"
+   ],
+   "prompt": "Put the steps for separating a mixture of sand and salt in order.",
+   "items": [
+    {
+     "text": "Add water and stir."
+    },
+    {
+     "text": "Filter the mixture."
+    },
+    {
+     "text": "Collect the sand on the filter paper."
+    },
+    {
+     "text": "Evaporate the filtrate to get the salt."
+    }
+   ],
+   "order": "as_written"
+  }
+ ]
+}

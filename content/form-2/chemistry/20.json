@@ -1,0 +1,518 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k2-20",
+   "name": "Chemical changes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A physical change makes no new substance and is usually easy to reverse: melting ice, dissolving sugar, boiling water, breaking glass.\nA chemical change (a chemical reaction) makes one or more new substances and is usually hard to reverse: burning wood, rusting iron, cooking an egg, souring milk.\nSigns of a chemical change:\n• a new substance with new properties is formed;\n• heat or light is given out (or taken in);\n• a gas is given off (bubbles);\n• a change of colour;\n• a solid (precipitate) appears in a solution.\nThe substances we start with are the reactants; the new substances are the products.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": "a piece of paper burns"
+  },
+  "problem": "Is it a physical or a chemical change when {x}?",
+  "steps": [
+   "New substances are made: ash, smoke, carbon dioxide and water vapour.",
+   "Heat and light are given out, and the ash cannot be turned back into paper."
+  ],
+  "answer": "A chemical change.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "In a chemical change new substances are made; in a physical change no new substance is made.",
+    "vars": {},
+    "example": [
+     "Melting butter: still butter, a physical change.",
+     "Burning charcoal: ash and gases, a chemical change."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-20-kind"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "Signs of a chemical change: heat or light, a gas given off, a change of colour, a solid appearing.",
+    "vars": {},
+    "example": [
+     "Bubbles when a tablet is put in water.",
+     "A cut banana turning brown."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-20-sign"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "The substances we start with are the reactants; the new substances formed are the products.",
+    "vars": {},
+    "example": [
+     "Wood + oxygen are the reactants.",
+     "Ash, carbon dioxide and water are products."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-20-terms-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Charcoal burns in oxygen to form carbon dioxide. What are the reactants?",
+         "r": "charcoal (carbon) and oxygen",
+         "w": [
+          "carbon dioxide only",
+          "carbon dioxide and oxygen",
+          "ash and smoke"
+         ],
+         "e": [
+          "Carbon dioxide is the product.",
+          "Carbon dioxide is made; it is not a starting substance.",
+          "Those are not named in this reaction."
+         ],
+         "y": "Reactants are the starting substances."
+        },
+        {
+         "q": "Magnesium burns in oxygen to form magnesium oxide. What is the product?",
+         "r": "magnesium oxide",
+         "w": [
+          "magnesium",
+          "oxygen",
+          "magnesium and oxygen"
+         ],
+         "e": [
+          "Magnesium is a reactant.",
+          "Oxygen is a reactant.",
+          "Those are the reactants."
+         ],
+         "y": "The product is the new substance formed."
+        },
+        {
+         "q": "Which statement about a chemical change is true?",
+         "r": "New substances are formed.",
+         "w": [
+          "It is always easy to reverse.",
+          "No energy change happens.",
+          "The substances only change state."
+         ],
+         "e": [
+          "Most chemical changes are hard to reverse.",
+          "Heat or light is usually given out or taken in.",
+          "A change of state is physical."
+         ],
+         "y": "A chemical change always makes new substances."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-20-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Is cooking an egg a physical or a chemical change?",
+       "r": "a chemical change",
+       "w": [
+        "a physical change",
+        "neither",
+        "both at once"
+       ],
+       "e": [
+        "The cooked egg is a new substance; it cannot become raw again.",
+        "The egg does change.",
+        "A new substance is made, so it is chemical."
+       ],
+       "y": "The cooked egg cannot be turned back: a new substance was made."
+      },
+      {
+       "q": "Is melting ice a physical or a chemical change?",
+       "r": "a physical change",
+       "w": [
+        "a chemical change",
+        "neither",
+        "a reaction"
+       ],
+       "e": [
+        "Water is still water; no new substance.",
+        "The state changes.",
+        "No new substance is made, so it is not a reaction."
+       ],
+       "y": "Ice and water are the same substance in different states."
+      },
+      {
+       "q": "Is rusting of iron a physical or a chemical change?",
+       "r": "a chemical change",
+       "w": [
+        "a physical change",
+        "neither",
+        "a change of state"
+       ],
+       "e": [
+        "Rust is a new brown substance.",
+        "The iron does change.",
+        "Rust is a new substance, not iron in another state."
+       ],
+       "y": "Rust is a new substance."
+      },
+      {
+       "q": "Is dissolving salt in water a physical or a chemical change?",
+       "r": "a physical change",
+       "w": [
+        "a chemical change",
+        "neither",
+        "a reaction"
+       ],
+       "e": [
+        "The salt can be got back by evaporating the water.",
+        "The salt does dissolve.",
+        "No new substance is made."
+       ],
+       "y": "Evaporation gives the salt back, so no new substance was made."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-20-sign",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which observation shows that a chemical change has taken place?",
+       "r": "Bubbles of a new gas are given off.",
+       "w": [
+        "The solid changes shape.",
+        "The water gets colder in the fridge.",
+        "The sugar disappears into the tea."
+       ],
+       "e": [
+        "A change of shape makes no new substance.",
+        "Cooling is physical.",
+        "Dissolving is physical."
+       ],
+       "y": "A new gas is a new substance."
+      },
+      {
+       "q": "Which of these is a sign of a chemical reaction?",
+       "r": "A change of colour",
+       "w": [
+        "A change of size",
+        "A change of position",
+        "A change of shape"
+       ],
+       "e": [
+        "Size alone shows no new substance.",
+        "Moving does not make a new substance.",
+        "Shape alone shows no new substance."
+       ],
+       "y": "A new colour often means a new substance."
+      },
+      {
+       "q": "When two clear solutions are mixed, a yellow solid appears. What is this solid called?",
+       "r": "a precipitate",
+       "w": [
+        "a solvent",
+        "a crystal of ice",
+        "a reactant"
+       ],
+       "e": [
+        "The solvent is the liquid that dissolves things.",
+        "It is not frozen water.",
+        "It is a product, not a reactant."
+       ],
+       "y": "A solid formed in a solution is a precipitate."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-20-terms",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Charcoal burns in oxygen to form carbon dioxide. What are the reactants?",
+       "r": "charcoal (carbon) and oxygen",
+       "w": [
+        "carbon dioxide only",
+        "carbon dioxide and oxygen",
+        "ash and smoke"
+       ],
+       "e": [
+        "Carbon dioxide is the product.",
+        "Carbon dioxide is made; it is not a starting substance.",
+        "Those are not named in this reaction."
+       ],
+       "y": "Reactants are the starting substances."
+      },
+      {
+       "q": "Magnesium burns in oxygen to form magnesium oxide. What is the product?",
+       "r": "magnesium oxide",
+       "w": [
+        "magnesium",
+        "oxygen",
+        "magnesium and oxygen"
+       ],
+       "e": [
+        "Magnesium is a reactant.",
+        "Oxygen is a reactant.",
+        "Those are the reactants."
+       ],
+       "y": "The product is the new substance formed."
+      },
+      {
+       "q": "Which statement about a chemical change is true?",
+       "r": "New substances are formed.",
+       "w": [
+        "It is always easy to reverse.",
+        "No energy change happens.",
+        "The substances only change state."
+       ],
+       "e": [
+        "Most chemical changes are hard to reverse.",
+        "Heat or light is usually given out or taken in.",
+        "A change of state is physical."
+       ],
+       "y": "A chemical change always makes new substances."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Burning wood is a chemical change.",
+      "truth": "true"
+     },
+     {
+      "text": "Boiling water is a physical change.",
+      "truth": "true"
+     },
+     {
+      "text": "Souring of milk is a chemical change.",
+      "truth": "true"
+     },
+     {
+      "text": "Breaking a glass is a physical change.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Melting candle wax is a chemical change.",
+      "truth": "false",
+      "explain": "Melting makes no new substance: it is physical (only the burning of the wick and wax is chemical)."
+     },
+     {
+      "text": "Rusting is a physical change because the iron is still there.",
+      "truth": "false",
+      "explain": "Rust is a new substance, so rusting is chemical."
+     },
+     {
+      "text": "Dissolving sugar is a chemical change.",
+      "truth": "false",
+      "explain": "The sugar can be got back by evaporation: physical."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

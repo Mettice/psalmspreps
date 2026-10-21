@@ -1,0 +1,477 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [
+  22
+ ],
+ "skills": [
+  {
+   "id": "k2-23",
+   "name": "Symbolic equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A symbolic (chemical) equation uses symbols and formulae instead of names.\nSteps:\n1. Write the word equation.\n2. Write the correct formula of each substance (use valencies).\n3. Balance the equation (next lessons).\nGases like hydrogen, oxygen, nitrogen and chlorine exist as molecules of two atoms: H₂, O₂, N₂, Cl₂.\nExample: hydrogen + oxygen → water becomes H₂ + O₂ → H₂O (not yet balanced).\nState symbols may be added: (s) solid, (l) liquid, (g) gas, (aq) dissolved in water.\nAtoms are counted from the formula: in Ca(OH)₂ there is one Ca, two O and two H.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": "Ca(OH)2"
+  },
+  "problem": "How many atoms of each element are in {formula(f)}?",
+  "steps": [
+   "The bracket (OH) is taken twice.",
+   "Ca: {1}, O: {1} × {2} = {2}, H: {1} × {2} = {2}."
+  ],
+  "answer": "{atomList(f)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c23-1",
+    "status": "draft",
+    "idea": "In a symbolic equation each substance is written as its symbol or formula.",
+    "vars": {},
+    "example": [
+     "carbon + oxygen → carbon dioxide",
+     "C + O₂ → CO₂"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-23-word"
+    }
+   },
+   {
+    "id": "c23-2",
+    "status": "draft",
+    "idea": "Hydrogen, oxygen, nitrogen and chlorine gases are written H₂, O₂, N₂ and Cl₂.",
+    "vars": {},
+    "example": [
+     "Oxygen gas is O₂, not O.",
+     "Chlorine gas is Cl₂."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-23-gas"
+    }
+   },
+   {
+    "id": "c23-3",
+    "status": "draft",
+    "idea": "State symbols: (s) solid, (l) liquid, (g) gas, (aq) dissolved in water.",
+    "vars": {},
+    "example": [
+     "Mg(s) + O₂(g) → MgO(s)",
+     "Salt dissolved in water: NaCl(aq)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-23-state-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reactions-equations"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does (aq) mean after a formula?",
+         "r": "dissolved in water",
+         "w": [
+          "a liquid",
+          "a gas",
+          "a solid"
+         ],
+         "e": [
+          "A pure liquid is (l).",
+          "A gas is (g).",
+          "A solid is (s)."
+         ],
+         "y": "aq is from aqua, water."
+        },
+        {
+         "q": "Which state symbol is used for water as a liquid?",
+         "r": "(l)",
+         "w": [
+          "(aq)",
+          "(s)",
+          "(w)"
+         ],
+         "e": [
+          "(aq) means dissolved in water.",
+          "(s) is a solid.",
+          "There is no symbol (w)."
+         ],
+         "y": "(l) means liquid."
+        },
+        {
+         "q": "Carbon dioxide is given off as bubbles. Which state symbol does it take?",
+         "r": "(g)",
+         "w": [
+          "(l)",
+          "(s)",
+          "(aq)"
+         ],
+         "e": [
+          "Bubbles are a gas.",
+          "Bubbles are a gas, not a solid.",
+          "The bubbles escape; they are not dissolved."
+         ],
+         "y": "A gas takes (g)."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-23-word",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      19
+     ]
+    },
+    "j": {
+     "int": [
+      0,
+      19
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      19
+     ]
+    },
+    "l": {
+     "int": [
+      0,
+      19
+     ]
+    }
+   },
+   "prompt": "Which symbolic equation matches {eqWords(i)}?",
+   "correct": "{eqStr(i)}",
+   "distractors": [
+    {
+     "text": "{eqStr(j)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{eqStr(k)}",
+     "misconception": "other"
+    },
+    {
+     "text": "{eqStr(l)}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "That equation has other substances: match each name to its formula."
+    }
+   ],
+   "solution": [
+    "Write the formula of each named substance.",
+    "So the equation is {answer}."
+   ],
+   "where": "j != i && k != i && l != i && j != k && j != l && k != l"
+  },
+  {
+   "id": "k2-23-gas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the formula of oxygen gas?",
+       "r": "O₂",
+       "w": [
+        "O",
+        "O₃",
+        "OX"
+       ],
+       "e": [
+        "Oxygen gas is made of molecules of two atoms.",
+        "O₃ is ozone.",
+        "There is no element X."
+       ],
+       "y": "Oxygen gas is diatomic: O₂."
+      },
+      {
+       "q": "What is the formula of hydrogen gas?",
+       "r": "H₂",
+       "w": [
+        "H",
+        "H₂O",
+        "2H"
+       ],
+       "e": [
+        "Hydrogen gas is made of molecules of two atoms.",
+        "H₂O is water.",
+        "2H means two separate atoms."
+       ],
+       "y": "Hydrogen gas is diatomic: H₂."
+      },
+      {
+       "q": "What is the formula of chlorine gas?",
+       "r": "Cl₂",
+       "w": [
+        "Cl",
+        "CL",
+        "C₂"
+       ],
+       "e": [
+        "Chlorine gas is diatomic.",
+        "The second letter of a symbol is small.",
+        "C is carbon."
+       ],
+       "y": "Chlorine gas is Cl₂."
+      },
+      {
+       "q": "What is the formula of nitrogen gas?",
+       "r": "N₂",
+       "w": [
+        "N",
+        "Ni",
+        "NO₂"
+       ],
+       "e": [
+        "Nitrogen gas is diatomic.",
+        "Ni is nickel.",
+        "NO₂ is nitrogen dioxide."
+       ],
+       "y": "Nitrogen gas is N₂."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-23-state",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does (aq) mean after a formula?",
+       "r": "dissolved in water",
+       "w": [
+        "a liquid",
+        "a gas",
+        "a solid"
+       ],
+       "e": [
+        "A pure liquid is (l).",
+        "A gas is (g).",
+        "A solid is (s)."
+       ],
+       "y": "aq is from aqua, water."
+      },
+      {
+       "q": "Which state symbol is used for water as a liquid?",
+       "r": "(l)",
+       "w": [
+        "(aq)",
+        "(s)",
+        "(w)"
+       ],
+       "e": [
+        "(aq) means dissolved in water.",
+        "(s) is a solid.",
+        "There is no symbol (w)."
+       ],
+       "y": "(l) means liquid."
+      },
+      {
+       "q": "Carbon dioxide is given off as bubbles. Which state symbol does it take?",
+       "r": "(g)",
+       "w": [
+        "(l)",
+        "(s)",
+        "(aq)"
+       ],
+       "e": [
+        "Bubbles are a gas.",
+        "Bubbles are a gas, not a solid.",
+        "The bubbles escape; they are not dissolved."
+       ],
+       "y": "A gas takes (g)."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-23-count",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "reactions-equations"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      19
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      3
+     ]
+    },
+    "e": {
+     "expr": "eqElement(i, k)"
+    }
+   },
+   "prompt": "How many {nameOf(e)} atoms are there on the left side of {eqStr(i)}?",
+   "answer": "eqAtoms(i, 0, e)",
+   "misconceptions": [
+    {
+     "id": "nocoef",
+     "wrong": "eqAtomsNoCoef(i, 0, e)",
+     "explain": "Multiply by the big number in front of each formula too.",
+     "when": "eqAtomsNoCoef(i, 0, e) != eqAtoms(i, 0, e)"
+    }
+   ],
+   "solution": [
+    "Multiply the small number after {e} by the big number in front of each formula.",
+    "Add them for the left side: {answer}."
+   ]
+  }
+ ]
+}

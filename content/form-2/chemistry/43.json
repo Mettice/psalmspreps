@@ -1,0 +1,354 @@
+{
+ "subject": "chemistry",
+ "class": "Form 2",
+ "lesson_no": 43,
+ "language": "en",
+ "prerequisites": [
+  42
+ ],
+ "skills": [
+  {
+   "id": "k2-43",
+   "name": "Paper and column chromatography"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Chromatography separates substances in a mixture that dissolve in the same solvent, such as the dyes in ink.\nPaper chromatography: put a spot of the mixture on a pencil line near the bottom of filter paper. Stand the paper in a solvent (water or ethanol) below the line. The solvent rises and carries the dyes; the more soluble dyes move further. The result is a chromatogram.\n• The line is drawn in pencil (ink would run).\n• The spot is above the solvent (or it would dissolve away).\nRf value = distance moved by the spot ÷ distance moved by the solvent. It is always less than 1.\nColumn chromatography: the mixture moves down a glass column packed with a solid (such as chalk powder), and the parts come out at different times.\nUses: testing food colours, inks and drugs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": 6
+  },
+  "problem": "A dye moves {a} cm and the solvent moves {b} cm. Find the Rf value.",
+  "steps": [
+   "Rf = distance moved by the spot ÷ distance moved by the solvent.",
+   "Rf = {a} ÷ {b} = {rf(a, b)}."
+  ],
+  "answer": "{rf(a, b)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c43-1",
+    "status": "draft",
+    "idea": "Chromatography separates dissolved substances such as dyes: the more soluble ones move further up the paper.",
+    "vars": {},
+    "example": [
+     "Black ink can contain blue, red and yellow dyes.",
+     "The result is a chromatogram."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-43-use"
+    }
+   },
+   {
+    "id": "c43-2",
+    "status": "draft",
+    "idea": "The start line is in pencil and the spot is placed above the solvent level.",
+    "vars": {},
+    "example": [
+     "Pencil does not dissolve.",
+     "A spot under the solvent would wash away."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k2-43-setup"
+    }
+   },
+   {
+    "id": "c43-3",
+    "status": "draft",
+    "idea": "Rf = distance moved by the spot ÷ distance moved by the solvent; it is less than {1}.",
+    "vars": {},
+    "example": [
+     "Spot {2} cm, solvent {8} cm: Rf = {0.25}.",
+     "Measure both from the start line."
+    ],
+    "checks": [],
+    "check": {
+     "id": "k2-43-rf-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "separation-purity"
+     ],
+     "vars": {
+      "b": {
+       "pick": [
+        4,
+        5,
+        10
+       ]
+      },
+      "a": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "prompt": "In paper chromatography a dye moves {a} cm and the solvent moves {b} cm from the start line. Find the Rf value.",
+     "answer": "rf(a, b)",
+     "misconceptions": [
+      {
+       "id": "upside",
+       "wrong": "rf(b, a)",
+       "explain": "Divide the spot's distance by the solvent's distance: Rf is less than {1}."
+      }
+     ],
+     "solution": [
+      "Rf = distance moved by the spot ÷ distance moved by the solvent.",
+      "Rf = {a} ÷ {b} = {answer}."
+     ],
+     "where": "a < b"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k2-43-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which mixture is best separated by chromatography?",
+       "r": "the dyes in black ink",
+       "w": [
+        "sand and water",
+        "iron and sulphur",
+        "oil and water"
+       ],
+       "e": [
+        "Use filtration.",
+        "Use a magnet.",
+        "Use a separating funnel."
+       ],
+       "y": "Chromatography separates dissolved dyes."
+      },
+      {
+       "q": "In paper chromatography, which dye moves furthest?",
+       "r": "the most soluble one",
+       "w": [
+        "the least soluble one",
+        "the heaviest one",
+        "the darkest one"
+       ],
+       "e": [
+        "It stays nearer the start.",
+        "Mass is not what decides.",
+        "Colour is not what decides."
+       ],
+       "y": "The solvent carries the most soluble dye furthest."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-43-setup",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is the start line drawn in pencil?",
+       "r": "Pencil does not dissolve in the solvent.",
+       "w": [
+        "Pencil is cheaper.",
+        "Pencil is darker.",
+        "Ink is not allowed in school."
+       ],
+       "e": [
+        "Cost is not the reason.",
+        "Darkness is not the reason.",
+        "That is not the reason."
+       ],
+       "y": "Ink would run and mix with the dyes."
+      },
+      {
+       "q": "Why must the spot be above the level of the solvent?",
+       "r": "Otherwise the dyes would dissolve into the solvent.",
+       "w": [
+        "To keep it dry for ever",
+        "So that it moves faster",
+        "To make it darker"
+       ],
+       "e": [
+        "The solvent must reach it by rising.",
+        "That is not why.",
+        "That is not why."
+       ],
+       "y": "The dyes must be carried up, not washed away."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "k2-43-rf",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      4,
+      5,
+      10
+     ]
+    },
+    "a": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "In paper chromatography a dye moves {a} cm and the solvent moves {b} cm from the start line. Find the Rf value.",
+   "answer": "rf(a, b)",
+   "misconceptions": [
+    {
+     "id": "upside",
+     "wrong": "rf(b, a)",
+     "explain": "Divide the spot's distance by the solvent's distance: Rf is less than {1}."
+    }
+   ],
+   "solution": [
+    "Rf = distance moved by the spot ÷ distance moved by the solvent.",
+    "Rf = {a} ÷ {b} = {answer}."
+   ],
+   "where": "a < b"
+  },
+  {
+   "id": "k2-43-dist",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "separation-purity"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      0.2,
+      0.4,
+      0.5,
+      0.6,
+      0.8
+     ]
+    },
+    "b": {
+     "pick": [
+      5,
+      10,
+      15
+     ]
+    }
+   },
+   "prompt": "A dye has Rf value {r}. The solvent moves {b} cm. How far does the dye move?",
+   "answer": "r * b",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "b / r",
+     "explain": "The dye moves less than the solvent: multiply Rf by the solvent distance."
+    }
+   ],
+   "solution": [
+    "Rf = spot ÷ solvent, so spot = Rf × solvent.",
+    "{r} × {b} = {answer} cm."
+   ],
+   "unit": "cm"
+  }
+ ]
+}
