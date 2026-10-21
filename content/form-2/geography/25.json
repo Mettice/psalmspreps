@@ -1,0 +1,420 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  18,
+  20
+ ],
+ "skills": [
+  {
+   "id": "g2-25",
+   "name": "Relationships between towns and the countryside (economic)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Towns and the countryside depend on each other.\nWhat the countryside gives towns:\n• food (plantain, cassava, vegetables, meat, fish) to feed townspeople;\n• raw materials for factories (cocoa, coffee, cotton, timber, rubber, palm oil);\n• labour (workers who move to towns).\nWhat towns give the countryside:\n• manufactured goods (tools, cloth, soap, phones), fertilisers and medicines;\n• markets where farmers sell their crops;\n• services: banks, hospitals, secondary schools, administration;\n• money sent home by family members working in towns (remittances).\nRoads and markets link them: bad roads cause food to rot and prices to rise in town.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "How do bad farm-to-market roads affect both the farmer and the townsperson?",
+  "steps": [
+   "The farmer cannot take crops to town quickly, so some rot and he earns less.",
+   "Less food reaches town, so prices in town go up."
+  ],
+  "answer": "The farmer loses crops and income; townspeople pay higher prices.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "The countryside supplies towns with food, raw materials and labour.",
+    "vars": {},
+    "example": [
+     "Cocoa for factories."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-25-give"
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Towns supply manufactured goods, markets and services.",
+    "vars": {},
+    "example": [
+     "Fertilisers and medicines."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-25-town"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "Good roads and markets link towns and villages.",
+    "vars": {},
+    "example": [
+     "Bad roads make food rot."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-25-road-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-towns"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why do food prices rise in towns in the rainy season when roads are bad?",
+         "r": "Less food reaches town and transport costs more.",
+         "w": [
+          "Farmers grow too much.",
+          "Townspeople stop eating.",
+          "Roads are better in the rainy season."
+         ],
+         "e": [
+          "Not the reason.",
+          "Not true.",
+          "Usually worse."
+         ],
+         "y": "Supply falls, cost rises."
+        },
+        {
+         "q": "What is the best way to strengthen town-country links?",
+         "r": "build good farm-to-market roads",
+         "w": [
+          "close village markets",
+          "stop transport",
+          "ban crop sales"
+         ],
+         "e": [
+          "Harmful.",
+          "Harmful.",
+          "Harmful."
+         ],
+         "y": "Goods move easily both ways."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-25-give",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "plantains and vegetables",
+       "a": "the countryside supplies towns"
+      },
+      {
+       "s": "fertilisers and medicines",
+       "a": "towns supply the countryside"
+      },
+      {
+       "s": "cocoa and coffee for factories",
+       "a": "the countryside supplies towns"
+      },
+      {
+       "s": "hospitals and secondary schools",
+       "a": "towns supply the countryside"
+      },
+      {
+       "s": "young workers",
+       "a": "the countryside supplies towns"
+      },
+      {
+       "s": "manufactured goods like soap and cloth",
+       "a": "towns supply the countryside"
+      }
+     ]
+    }
+   },
+   "prompt": "Who mainly supplies the other with {X.s}?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'the countryside supplies towns' ? 'towns supply the countryside' : 'the countryside supplies towns'}",
+     "misconception": "dir"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "dir",
+     "explain": "Think: is it grown or produced on farms (countryside), or made and offered in towns?"
+    }
+   ],
+   "solution": [
+    "The countryside gives food, raw materials and labour; towns give goods, markets and services.",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "g2-25-town",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are remittances?",
+       "r": "money sent home by family members working in towns",
+       "w": [
+        "a kind of crop",
+        "a road tax",
+        "a festival"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Money that flows to villages."
+      },
+      {
+       "q": "What do towns offer farmers?",
+       "r": "markets to sell their crops",
+       "w": [
+        "more forest",
+        "free land",
+        "rain"
+       ],
+       "e": [
+        "Not from towns.",
+        "Not from towns.",
+        "Not from towns."
+       ],
+       "y": "Townspeople buy food."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-25-road",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do food prices rise in towns in the rainy season when roads are bad?",
+       "r": "Less food reaches town and transport costs more.",
+       "w": [
+        "Farmers grow too much.",
+        "Townspeople stop eating.",
+        "Roads are better in the rainy season."
+       ],
+       "e": [
+        "Not the reason.",
+        "Not true.",
+        "Usually worse."
+       ],
+       "y": "Supply falls, cost rises."
+      },
+      {
+       "q": "What is the best way to strengthen town-country links?",
+       "r": "build good farm-to-market roads",
+       "w": [
+        "close village markets",
+        "stop transport",
+        "ban crop sales"
+       ],
+       "e": [
+        "Harmful.",
+        "Harmful.",
+        "Harmful."
+       ],
+       "y": "Goods move easily both ways."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-25-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Villages supply food to towns.",
+      "truth": "true"
+     },
+     {
+      "text": "Towns supply manufactured goods.",
+      "truth": "true"
+     },
+     {
+      "text": "Good roads help both.",
+      "truth": "true"
+     },
+     {
+      "text": "Factories use rural raw materials.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Towns produce most of the cocoa.",
+      "truth": "false",
+      "explain": "Cocoa is grown in the countryside."
+     },
+     {
+      "text": "Bad roads lower food prices in towns.",
+      "truth": "false",
+      "explain": "They raise prices."
+     },
+     {
+      "text": "Towns and villages do not need each other.",
+      "truth": "false",
+      "explain": "They depend on each other."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

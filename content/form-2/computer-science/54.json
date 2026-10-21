@@ -1,0 +1,440 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 54,
+ "language": "en",
+ "prerequisites": [
+  22
+ ],
+ "skills": [
+  {
+   "id": "s2-54",
+   "name": "Verifying the credibility of information"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Not everything online is true. Credible (believable) information comes from a reliable source and can be checked.\nCheck:\n• Source: who wrote it? an official body (ministry, school), a known newspaper, an expert? or an unknown account?\n• Evidence: are there facts, dates and references? can you find the same information on other reliable sites?\n• Date: is it recent or old news shared again?\n• Purpose: is it trying to inform, or to sell, frighten or make you click?\n• Language: many spelling mistakes, shouting in CAPITALS and “Share before it is deleted!” are warning signs.\n• Images can be edited or taken from another event: search for the original.\nFake news spreads fast; think before you share.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A message says: “URGENT!!! Drinking hot water kills all viruses. Share before they delete it!” Is it credible?",
+  "steps": [
+   "There is no source, no evidence, capitals and pressure to share: warning signs.",
+   "Health information should be checked with the Ministry of Health or a doctor."
+  ],
+  "answer": "No: it has warning signs; check with an official health source.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c54-1",
+    "status": "draft",
+    "idea": "Credible information comes from a reliable source and can be checked.",
+    "vars": {},
+    "example": [
+     "A ministry website."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-54-source"
+    }
+   },
+   {
+    "id": "c54-2",
+    "status": "draft",
+    "idea": "Check the source, evidence, date and purpose.",
+    "vars": {},
+    "example": [
+     "Compare with other reliable sites."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-54-check-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "credibility"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How can you check a news story?",
+         "r": "look for the same story on several reliable sites",
+         "w": [
+          "share it at once",
+          "believe it because it is long",
+          "trust it because it has many likes"
+         ],
+         "e": [
+          "Check first.",
+          "Length is not proof.",
+          "Likes are not proof."
+         ],
+         "y": "Cross-check."
+        },
+        {
+         "q": "A photo of a flood is shared as “today in Douala”. How can you check it?",
+         "r": "search for the original image to see where and when it was taken",
+         "w": [
+          "count the likes",
+          "look at its colours",
+          "trust the caption"
+         ],
+         "e": [
+          "Not proof.",
+          "Not proof.",
+          "Captions can be false."
+         ],
+         "y": "Reverse image search."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c54-3",
+    "status": "draft",
+    "idea": "Warning signs: no source, CAPITALS, pressure to share.",
+    "vars": {},
+    "example": [
+     "Think before you share."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-54-sign"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-54-source",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "credibility"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which source is most credible for exam dates?",
+       "r": "the official website of the examination board",
+       "w": [
+        "an anonymous WhatsApp message",
+        "a pop-up advert",
+        "a rumour at the market"
+       ],
+       "e": [
+        "No source.",
+        "Selling something.",
+        "Not reliable."
+       ],
+       "y": "Official sources."
+      },
+      {
+       "q": "What does “credible” mean?",
+       "r": "believable and trustworthy",
+       "w": [
+        "funny",
+        "old",
+        "expensive"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Information you can trust."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-54-check",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "credibility"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How can you check a news story?",
+       "r": "look for the same story on several reliable sites",
+       "w": [
+        "share it at once",
+        "believe it because it is long",
+        "trust it because it has many likes"
+       ],
+       "e": [
+        "Check first.",
+        "Length is not proof.",
+        "Likes are not proof."
+       ],
+       "y": "Cross-check."
+      },
+      {
+       "q": "A photo of a flood is shared as “today in Douala”. How can you check it?",
+       "r": "search for the original image to see where and when it was taken",
+       "w": [
+        "count the likes",
+        "look at its colours",
+        "trust the caption"
+       ],
+       "e": [
+        "Not proof.",
+        "Not proof.",
+        "Captions can be false."
+       ],
+       "y": "Reverse image search."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-54-sign",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "credibility"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a warning sign of fake news?",
+       "r": "“Share before they delete it!”",
+       "w": [
+        "a named author and date",
+        "links to official reports",
+        "careful spelling"
+       ],
+       "e": [
+        "Sign of credibility.",
+        "Sign of credibility.",
+        "Sign of credibility."
+       ],
+       "y": "Pressure to share quickly."
+      },
+      {
+       "q": "What should you do before sharing information?",
+       "r": "check that it is true",
+       "w": [
+        "share it to as many people as possible",
+        "add more exciting details",
+        "change the date"
+       ],
+       "e": [
+        "Spreads fake news.",
+        "Makes it worse.",
+        "Dishonest."
+       ],
+       "y": "Think before you share."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-54-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "credibility"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Check the source.",
+      "truth": "true"
+     },
+     {
+      "text": "Look at the date.",
+      "truth": "true"
+     },
+     {
+      "text": "Compare several reliable sites.",
+      "truth": "true"
+     },
+     {
+      "text": "Think before you share.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A message with many likes must be true.",
+      "truth": "false",
+      "explain": "Likes do not prove truth."
+     },
+     {
+      "text": "Photos online can never be edited.",
+      "truth": "false",
+      "explain": "Images can be edited or reused."
+     },
+     {
+      "text": "Official websites are less reliable than rumours.",
+      "truth": "false",
+      "explain": "Official sites are usually more reliable."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

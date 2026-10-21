@@ -1,4 +1,4 @@
-# Geography Form 2, Batch G2-1: authored answers for review
+# Geography Form 2, Batches G2-1, G2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -87,6 +87,38 @@ Regenerate with `npm run review:f2-geography`. Item IDs (TR-…) match `docs/tea
 | 73 | `g2-19-exodus` | 19 | multiple choice, 2 | rural-africa |
 | 74 | `g2-19-spot` | 19 | spot the error, 3 | rural-africa |
 | 75 | `g2-19-exodus-card` (card c19-3) | 19 | multiple choice, 1 | rural-africa |
+| 76 | `g2-20-what` | 20 | multiple choice, 1 | african-towns |
+| 77 | `g2-20-zone` | 20 | multiple choice, 1 | african-towns |
+| 78 | `g2-20-spot` | 20 | spot the error, 3 | african-towns |
+| 79 | `g2-21-cause` | 21 | multiple choice, 1 | african-towns |
+| 80 | `g2-21-prob` | 21 | multiple choice, 1 | african-towns |
+| 81 | `g2-21-sol` | 21 | multiple choice, 2 | african-towns |
+| 82 | `g2-21-spot` | 21 | spot the error, 3 | african-towns |
+| 83 | `g2-21-sol-card` (card c21-3) | 21 | multiple choice, 1 | african-towns |
+| 84 | `g2-22-what` | 22 | multiple choice, 1 | african-towns |
+| 85 | `g2-22-why` | 22 | multiple choice, 1 | african-towns |
+| 86 | `g2-22-eval` | 22 | multiple choice, 2 | african-towns |
+| 87 | `g2-22-spot` | 22 | spot the error, 3 | african-towns |
+| 88 | `g2-22-eval-card` (card c22-3) | 22 | multiple choice, 1 | african-towns |
+| 89 | `g2-23-map` | 23 | multiple choice, 1 | african-towns |
+| 90 | `g2-23-spot` | 23 | spot the error, 3 | african-towns |
+| 91 | `g2-24-cause` | 24 | multiple choice, 1 | african-towns |
+| 92 | `g2-24-sol` | 24 | multiple choice, 2 | african-towns |
+| 93 | `g2-24-spot` | 24 | spot the error, 3 | african-towns |
+| 94 | `g2-24-sol-card` (card c24-3) | 24 | multiple choice, 1 | african-towns |
+| 95 | `g2-25-town` | 25 | multiple choice, 1 | african-towns |
+| 96 | `g2-25-road` | 25 | multiple choice, 2 | african-towns |
+| 97 | `g2-25-spot` | 25 | spot the error, 3 | african-towns |
+| 98 | `g2-25-road-card` (card c25-3) | 25 | multiple choice, 1 | african-towns |
+| 99 | `g2-26-social` | 26 | multiple choice, 1 | african-towns |
+| 100 | `g2-26-elite` | 26 | multiple choice, 1 | african-towns |
+| 101 | `g2-26-info` | 26 | multiple choice, 2 | african-towns |
+| 102 | `g2-26-spot` | 26 | spot the error, 3 | african-towns |
+| 103 | `g2-26-info-card` (card c26-3) | 26 | multiple choice, 1 | african-towns |
+| 104 | `g2-27-what` | 27 | multiple choice, 1 | african-towns |
+| 105 | `g2-27-sol` | 27 | multiple choice, 2 | african-towns |
+| 106 | `g2-27-spot` | 27 | spot the error, 3 | african-towns |
+| 107 | `g2-27-sol-card` (card c27-3) | 27 | multiple choice, 1 | african-towns |
 
 ### `g2-1-read` · Lesson 1 · multiple choice, level 1
 
@@ -4934,4 +4966,2076 @@ Full working after a second miss:
 > So the answer is “the movement of people from villages to towns”.  
 
 Sources: rural-africa (Countrysides in Africa: agricultural landscapes, rural settlement patterns, attractive and repulsive aspects, rural exodus)
+
+### `g2-20-what` · Lesson 20 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a town? | a large settlement where most people work in industry, trade and services | a small farming hamlet · a forest reserve · a river | That is rural. · Not a settlement. · Not a settlement. | Most townspeople do not farm. |
+| What is the CBD of a town? | the central business district with offices, banks and big shops | the rubbish dump · the farm area · the airport only | Not the CBD. · Towns have few farms. · The airport is outside the centre. | The commercial heart of the town. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a town?
+
+- ✅ a large settlement where most people work in industry, trade and services
+- ◻️ a small farming hamlet  
+  _↳ feedback if chosen: That is rural._
+- ◻️ a forest reserve  
+  _↳ feedback if chosen: Not a settlement._
+- ◻️ a river  
+  _↳ feedback if chosen: Not a settlement._
+
+Full working after a second miss:
+
+> Most townspeople do not farm.  
+> So the answer is “a large settlement where most people work in industry, trade and services”.  
+
+> What is a town?
+
+- ◻️ a small farming hamlet  
+  _↳ feedback if chosen: That is rural._
+- ✅ a large settlement where most people work in industry, trade and services
+- ◻️ a forest reserve  
+  _↳ feedback if chosen: Not a settlement._
+- ◻️ a river  
+  _↳ feedback if chosen: Not a settlement._
+
+Full working after a second miss:
+
+> Most townspeople do not farm.  
+> So the answer is “a large settlement where most people work in industry, trade and services”.  
+
+> What is the CBD of a town?
+
+- ◻️ the farm area  
+  _↳ feedback if chosen: Towns have few farms._
+- ✅ the central business district with offices, banks and big shops
+- ◻️ the airport only  
+  _↳ feedback if chosen: The airport is outside the centre._
+- ◻️ the rubbish dump  
+  _↳ feedback if chosen: Not the CBD._
+
+Full working after a second miss:
+
+> The commercial heart of the town.  
+> So the answer is “the central business district with offices, banks and big shops”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-20-zone` · Lesson 20 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a shanty town? | a crowded, unplanned quarter of poor houses | a rich planned quarter · the central business district · an industrial estate | That is the opposite. · That has offices. · That has factories. | Houses of planks and zinc, few services. |
+| Which is an industrial zone in Douala? | Bassa | Bastos · Akwa · Bonapriso | A rich quarter of Yaoundé. · The CBD of Douala. · A residential quarter. | Bassa has many factories. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is an industrial zone in Douala?
+
+- ◻️ Akwa  
+  _↳ feedback if chosen: The CBD of Douala._
+- ◻️ Bonapriso  
+  _↳ feedback if chosen: A residential quarter._
+- ◻️ Bastos  
+  _↳ feedback if chosen: A rich quarter of Yaoundé._
+- ✅ Bassa
+
+Full working after a second miss:
+
+> Bassa has many factories.  
+> So the answer is “Bassa”.  
+
+> Which is an industrial zone in Douala?
+
+- ◻️ Bastos  
+  _↳ feedback if chosen: A rich quarter of Yaoundé._
+- ✅ Bassa
+- ◻️ Akwa  
+  _↳ feedback if chosen: The CBD of Douala._
+- ◻️ Bonapriso  
+  _↳ feedback if chosen: A residential quarter._
+
+Full working after a second miss:
+
+> Bassa has many factories.  
+> So the answer is “Bassa”.  
+
+> Which is an industrial zone in Douala?
+
+- ◻️ Bonapriso  
+  _↳ feedback if chosen: A residential quarter._
+- ◻️ Akwa  
+  _↳ feedback if chosen: The CBD of Douala._
+- ◻️ Bastos  
+  _↳ feedback if chosen: A rich quarter of Yaoundé._
+- ✅ Bassa
+
+Full working after a second miss:
+
+> Bassa has many factories.  
+> So the answer is “Bassa”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-20-spot` · Lesson 20 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The CBD has many offices.
+- ✅ Bayam-sellam are food retailers.
+- ✅ Shanty towns are unplanned.
+- ✅ Benskin are motorbike taxis.
+- ❌ Most townspeople are farmers.  
+  _↳ Most work in industry, trade and services._
+- ❌ Informal activities pay high taxes.  
+  _↳ They pay little or no tax._
+- ❌ Bastos is a shanty town.  
+  _↳ Bastos is a rich planned quarter._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ The CBD has many offices.
+- ◻️ Benskin are motorbike taxis.
+- ✅ Informal activities pay high taxes.  
+  _↳ explanation: They pay little or no tax._
+- ◻️ Shanty towns are unplanned.
+
+Full working after a second miss:
+
+> The wrong statement is “Informal activities pay high taxes.”.  
+> They pay little or no tax.  
+
+> Which statement is wrong?
+
+- ✅ Most townspeople are farmers.  
+  _↳ explanation: Most work in industry, trade and services._
+- ◻️ The CBD has many offices.
+- ◻️ Bayam-sellam are food retailers.
+- ◻️ Shanty towns are unplanned.
+
+Full working after a second miss:
+
+> The wrong statement is “Most townspeople are farmers.”.  
+> Most work in industry, trade and services.  
+
+> Which statement is wrong?
+
+- ◻️ The CBD has many offices.
+- ✅ Bastos is a shanty town.  
+  _↳ explanation: Bastos is a rich planned quarter._
+- ◻️ Benskin are motorbike taxis.
+- ◻️ Bayam-sellam are food retailers.
+
+Full working after a second miss:
+
+> The wrong statement is “Bastos is a shanty town.”.  
+> Bastos is a rich planned quarter.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-21-cause` · Lesson 21 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a main cause of the fast growth of African cities? | rural exodus (people moving from villages to towns) | people leaving towns for villages · fewer births · closing of schools in towns | That is the opposite. · Birth rates are high. · Not a cause. | Many come to look for jobs. |
+| What is load shedding? | planned power cuts when there is not enough electricity | carrying loads on the head · removing rubbish · a traffic jam | Not the meaning. · Not the meaning. · Not the meaning. | Electricity is shared by cutting some areas. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a main cause of the fast growth of African cities?
+
+- ◻️ closing of schools in towns  
+  _↳ feedback if chosen: Not a cause._
+- ◻️ people leaving towns for villages  
+  _↳ feedback if chosen: That is the opposite._
+- ✅ rural exodus (people moving from villages to towns)
+- ◻️ fewer births  
+  _↳ feedback if chosen: Birth rates are high._
+
+Full working after a second miss:
+
+> Many come to look for jobs.  
+> So the answer is “rural exodus (people moving from villages to towns)”.  
+
+> What is a main cause of the fast growth of African cities?
+
+- ✅ rural exodus (people moving from villages to towns)
+- ◻️ people leaving towns for villages  
+  _↳ feedback if chosen: That is the opposite._
+- ◻️ closing of schools in towns  
+  _↳ feedback if chosen: Not a cause._
+- ◻️ fewer births  
+  _↳ feedback if chosen: Birth rates are high._
+
+Full working after a second miss:
+
+> Many come to look for jobs.  
+> So the answer is “rural exodus (people moving from villages to towns)”.  
+
+> What is a main cause of the fast growth of African cities?
+
+- ◻️ people leaving towns for villages  
+  _↳ feedback if chosen: That is the opposite._
+- ◻️ closing of schools in towns  
+  _↳ feedback if chosen: Not a cause._
+- ✅ rural exodus (people moving from villages to towns)
+- ◻️ fewer births  
+  _↳ feedback if chosen: Birth rates are high._
+
+Full working after a second miss:
+
+> Many come to look for jobs.  
+> So the answer is “rural exodus (people moving from villages to towns)”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-21-prob` · Lesson 21 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is an urban problem? | traffic jams | too much space for houses · too many jobs · too little population | Space is short. · Jobs are short. · Cities are crowded. | Roads cannot carry all the cars. |
+| Which disease spreads where rubbish and dirty water collect in towns? | cholera | goitre · night blindness · scurvy | Lack of iodine. · Lack of vitamin A. · Lack of vitamin C. | Germs in dirty water. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is an urban problem?
+
+- ◻️ too many jobs  
+  _↳ feedback if chosen: Jobs are short._
+- ✅ traffic jams
+- ◻️ too little population  
+  _↳ feedback if chosen: Cities are crowded._
+- ◻️ too much space for houses  
+  _↳ feedback if chosen: Space is short._
+
+Full working after a second miss:
+
+> Roads cannot carry all the cars.  
+> So the answer is “traffic jams”.  
+
+> Which disease spreads where rubbish and dirty water collect in towns?
+
+- ◻️ scurvy  
+  _↳ feedback if chosen: Lack of vitamin C._
+- ◻️ goitre  
+  _↳ feedback if chosen: Lack of iodine._
+- ✅ cholera
+- ◻️ night blindness  
+  _↳ feedback if chosen: Lack of vitamin A._
+
+Full working after a second miss:
+
+> Germs in dirty water.  
+> So the answer is “cholera”.  
+
+> Which disease spreads where rubbish and dirty water collect in towns?
+
+- ◻️ goitre  
+  _↳ feedback if chosen: Lack of iodine._
+- ✅ cholera
+- ◻️ night blindness  
+  _↳ feedback if chosen: Lack of vitamin A._
+- ◻️ scurvy  
+  _↳ feedback if chosen: Lack of vitamin C._
+
+Full working after a second miss:
+
+> Germs in dirty water.  
+> So the answer is “cholera”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-21-sol` · Lesson 21 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which measure would reduce floods in towns? | regular waste collection and clearing gutters | throwing rubbish into streams · building in swamps · blocking drains | That causes floods. · That causes floods. · That causes floods. | Water must drain away. |
+| How can rural development reduce urban problems? | It keeps people in villages, so towns grow more slowly. | It makes towns bigger. · It closes towns. · It has no effect. | The opposite. · Not the effect. · It helps. | Less rural exodus. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How can rural development reduce urban problems?
+
+- ◻️ It makes towns bigger.  
+  _↳ feedback if chosen: The opposite._
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It helps._
+- ◻️ It closes towns.  
+  _↳ feedback if chosen: Not the effect._
+- ✅ It keeps people in villages, so towns grow more slowly.
+
+Full working after a second miss:
+
+> Less rural exodus.  
+> So the answer is “It keeps people in villages, so towns grow more slowly.”.  
+
+> How can rural development reduce urban problems?
+
+- ◻️ It closes towns.  
+  _↳ feedback if chosen: Not the effect._
+- ◻️ It has no effect.  
+  _↳ feedback if chosen: It helps._
+- ◻️ It makes towns bigger.  
+  _↳ feedback if chosen: The opposite._
+- ✅ It keeps people in villages, so towns grow more slowly.
+
+Full working after a second miss:
+
+> Less rural exodus.  
+> So the answer is “It keeps people in villages, so towns grow more slowly.”.  
+
+> Which measure would reduce floods in towns?
+
+- ✅ regular waste collection and clearing gutters
+- ◻️ blocking drains  
+  _↳ feedback if chosen: That causes floods._
+- ◻️ building in swamps  
+  _↳ feedback if chosen: That causes floods._
+- ◻️ throwing rubbish into streams  
+  _↳ feedback if chosen: That causes floods._
+
+Full working after a second miss:
+
+> Water must drain away.  
+> So the answer is “regular waste collection and clearing gutters”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-21-spot` · Lesson 21 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Cities grow because of rural exodus.
+- ✅ Shanty towns lack services.
+- ✅ Blocked gutters cause floods.
+- ✅ Town planning helps.
+- ❌ African cities have more houses than people need.  
+  _↳ There is a housing shortage._
+- ❌ Rubbish in gutters prevents floods.  
+  _↳ It causes floods._
+- ❌ Unemployment is never a problem in towns.  
+  _↳ It is a major problem._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Cities grow because of rural exodus.
+- ◻️ Shanty towns lack services.
+- ✅ Rubbish in gutters prevents floods.  
+  _↳ explanation: It causes floods._
+- ◻️ Blocked gutters cause floods.
+
+Full working after a second miss:
+
+> The wrong statement is “Rubbish in gutters prevents floods.”.  
+> It causes floods.  
+
+> Which statement is wrong?
+
+- ◻️ Cities grow because of rural exodus.
+- ◻️ Town planning helps.
+- ◻️ Blocked gutters cause floods.
+- ✅ African cities have more houses than people need.  
+  _↳ explanation: There is a housing shortage._
+
+Full working after a second miss:
+
+> The wrong statement is “African cities have more houses than people need.”.  
+> There is a housing shortage.  
+
+> Which statement is wrong?
+
+- ◻️ Cities grow because of rural exodus.
+- ✅ Unemployment is never a problem in towns.  
+  _↳ explanation: It is a major problem._
+- ◻️ Town planning helps.
+- ◻️ Blocked gutters cause floods.
+
+Full working after a second miss:
+
+> The wrong statement is “Unemployment is never a problem in towns.”.  
+> It is a major problem.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-21-sol-card` · Lesson 21 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which measure would reduce floods in towns? | regular waste collection and clearing gutters | throwing rubbish into streams · building in swamps · blocking drains | That causes floods. · That causes floods. · That causes floods. | Water must drain away. |
+| How can rural development reduce urban problems? | It keeps people in villages, so towns grow more slowly. | It makes towns bigger. · It closes towns. · It has no effect. | The opposite. · Not the effect. · It helps. | Less rural exodus. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which measure would reduce floods in towns?
+
+- ◻️ blocking drains  
+  _↳ feedback if chosen: That causes floods._
+- ◻️ building in swamps  
+  _↳ feedback if chosen: That causes floods._
+- ✅ regular waste collection and clearing gutters
+- ◻️ throwing rubbish into streams  
+  _↳ feedback if chosen: That causes floods._
+
+Full working after a second miss:
+
+> Water must drain away.  
+> So the answer is “regular waste collection and clearing gutters”.  
+
+> Which measure would reduce floods in towns?
+
+- ◻️ blocking drains  
+  _↳ feedback if chosen: That causes floods._
+- ◻️ throwing rubbish into streams  
+  _↳ feedback if chosen: That causes floods._
+- ◻️ building in swamps  
+  _↳ feedback if chosen: That causes floods._
+- ✅ regular waste collection and clearing gutters
+
+Full working after a second miss:
+
+> Water must drain away.  
+> So the answer is “regular waste collection and clearing gutters”.  
+
+> Which measure would reduce floods in towns?
+
+- ◻️ throwing rubbish into streams  
+  _↳ feedback if chosen: That causes floods._
+- ◻️ blocking drains  
+  _↳ feedback if chosen: That causes floods._
+- ◻️ building in swamps  
+  _↳ feedback if chosen: That causes floods._
+- ✅ regular waste collection and clearing gutters
+
+Full working after a second miss:
+
+> Water must drain away.  
+> So the answer is “regular waste collection and clearing gutters”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-22-what` · Lesson 22 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the informal sector? | economic activities not registered or controlled by the State | government ministries · large factories with contracts · the army | Formal. · Formal. · Formal. | Unregistered small activities. |
+| Which is part of the informal sector? | a roadside shoe repairer | a bank · a ministry · a big brewery | Formal. · Formal. · Formal. | Small and unregistered. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the informal sector?
+
+- ✅ economic activities not registered or controlled by the State
+- ◻️ large factories with contracts  
+  _↳ feedback if chosen: Formal._
+- ◻️ the army  
+  _↳ feedback if chosen: Formal._
+- ◻️ government ministries  
+  _↳ feedback if chosen: Formal._
+
+Full working after a second miss:
+
+> Unregistered small activities.  
+> So the answer is “economic activities not registered or controlled by the State”.  
+
+> What is the informal sector?
+
+- ◻️ the army  
+  _↳ feedback if chosen: Formal._
+- ✅ economic activities not registered or controlled by the State
+- ◻️ large factories with contracts  
+  _↳ feedback if chosen: Formal._
+- ◻️ government ministries  
+  _↳ feedback if chosen: Formal._
+
+Full working after a second miss:
+
+> Unregistered small activities.  
+> So the answer is “economic activities not registered or controlled by the State”.  
+
+> Which is part of the informal sector?
+
+- ✅ a roadside shoe repairer
+- ◻️ a ministry  
+  _↳ feedback if chosen: Formal._
+- ◻️ a big brewery  
+  _↳ feedback if chosen: Formal._
+- ◻️ a bank  
+  _↳ feedback if chosen: Formal._
+
+Full working after a second miss:
+
+> Small and unregistered.  
+> So the answer is “a roadside shoe repairer”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-22-why` · Lesson 22 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why does the informal sector grow in African towns? | unemployment and the ease of starting a small activity | too many formal jobs · very high taxes on hawkers · laws forbidding small trade | There are too few. · Hawkers pay little tax. · That would stop it. | People need to survive. |
+| Who often works in the informal sector? | young people and women | only ministers · only foreign investors · only retired generals | Not the case. · Not the case. · Not the case. | It is easy to enter. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Who often works in the informal sector?
+
+- ◻️ only ministers  
+  _↳ feedback if chosen: Not the case._
+- ◻️ only foreign investors  
+  _↳ feedback if chosen: Not the case._
+- ✅ young people and women
+- ◻️ only retired generals  
+  _↳ feedback if chosen: Not the case._
+
+Full working after a second miss:
+
+> It is easy to enter.  
+> So the answer is “young people and women”.  
+
+> Why does the informal sector grow in African towns?
+
+- ◻️ laws forbidding small trade  
+  _↳ feedback if chosen: That would stop it._
+- ◻️ very high taxes on hawkers  
+  _↳ feedback if chosen: Hawkers pay little tax._
+- ✅ unemployment and the ease of starting a small activity
+- ◻️ too many formal jobs  
+  _↳ feedback if chosen: There are too few._
+
+Full working after a second miss:
+
+> People need to survive.  
+> So the answer is “unemployment and the ease of starting a small activity”.  
+
+> Who often works in the informal sector?
+
+- ◻️ only retired generals  
+  _↳ feedback if chosen: Not the case._
+- ◻️ only foreign investors  
+  _↳ feedback if chosen: Not the case._
+- ✅ young people and women
+- ◻️ only ministers  
+  _↳ feedback if chosen: Not the case._
+
+Full working after a second miss:
+
+> It is easy to enter.  
+> So the answer is “young people and women”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-22-eval` · Lesson 22 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a disadvantage of the informal sector? | workers have no social security | it creates jobs · it gives cheap services · it trains apprentices | Advantage. · Advantage. · Advantage. | No CNPS, no pension. |
+| How can the State help informal workers? | help them register and give them small loans and training | chase them away without help · close all markets · ban apprenticeships | That removes incomes. · That harms trade. · That harms training. | Formalise and support. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How can the State help informal workers?
+
+- ◻️ close all markets  
+  _↳ feedback if chosen: That harms trade._
+- ◻️ chase them away without help  
+  _↳ feedback if chosen: That removes incomes._
+- ◻️ ban apprenticeships  
+  _↳ feedback if chosen: That harms training._
+- ✅ help them register and give them small loans and training
+
+Full working after a second miss:
+
+> Formalise and support.  
+> So the answer is “help them register and give them small loans and training”.  
+
+> Which is a disadvantage of the informal sector?
+
+- ✅ workers have no social security
+- ◻️ it gives cheap services  
+  _↳ feedback if chosen: Advantage._
+- ◻️ it creates jobs  
+  _↳ feedback if chosen: Advantage._
+- ◻️ it trains apprentices  
+  _↳ feedback if chosen: Advantage._
+
+Full working after a second miss:
+
+> No CNPS, no pension.  
+> So the answer is “workers have no social security”.  
+
+> Which is a disadvantage of the informal sector?
+
+- ✅ workers have no social security
+- ◻️ it creates jobs  
+  _↳ feedback if chosen: Advantage._
+- ◻️ it trains apprentices  
+  _↳ feedback if chosen: Advantage._
+- ◻️ it gives cheap services  
+  _↳ feedback if chosen: Advantage._
+
+Full working after a second miss:
+
+> No CNPS, no pension.  
+> So the answer is “workers have no social security”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-22-spot` · Lesson 22 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The informal sector gives jobs.
+- ✅ Informal workers often lack social security.
+- ✅ Starting an informal activity needs little money.
+- ✅ Bayam-sellam are part of it.
+- ❌ The informal sector pays the most taxes to the State.  
+  _↳ It pays little tax._
+- ❌ Only rich people work in the informal sector.  
+  _↳ Mainly the poor, youths and women._
+- ❌ The informal sector has no disadvantages.  
+  _↳ No taxes, no social security, child labour._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Only rich people work in the informal sector.  
+  _↳ explanation: Mainly the poor, youths and women._
+- ◻️ The informal sector gives jobs.
+- ◻️ Starting an informal activity needs little money.
+- ◻️ Bayam-sellam are part of it.
+
+Full working after a second miss:
+
+> The wrong statement is “Only rich people work in the informal sector.”.  
+> Mainly the poor, youths and women.  
+
+> Which statement is wrong?
+
+- ◻️ Informal workers often lack social security.
+- ✅ The informal sector pays the most taxes to the State.  
+  _↳ explanation: It pays little tax._
+- ◻️ Starting an informal activity needs little money.
+- ◻️ The informal sector gives jobs.
+
+Full working after a second miss:
+
+> The wrong statement is “The informal sector pays the most taxes to the State.”.  
+> It pays little tax.  
+
+> Which statement is wrong?
+
+- ◻️ The informal sector gives jobs.
+- ◻️ Starting an informal activity needs little money.
+- ✅ Only rich people work in the informal sector.  
+  _↳ explanation: Mainly the poor, youths and women._
+- ◻️ Bayam-sellam are part of it.
+
+Full working after a second miss:
+
+> The wrong statement is “Only rich people work in the informal sector.”.  
+> Mainly the poor, youths and women.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-22-eval-card` · Lesson 22 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a disadvantage of the informal sector? | workers have no social security | it creates jobs · it gives cheap services · it trains apprentices | Advantage. · Advantage. · Advantage. | No CNPS, no pension. |
+| How can the State help informal workers? | help them register and give them small loans and training | chase them away without help · close all markets · ban apprenticeships | That removes incomes. · That harms trade. · That harms training. | Formalise and support. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a disadvantage of the informal sector?
+
+- ◻️ it trains apprentices  
+  _↳ feedback if chosen: Advantage._
+- ◻️ it gives cheap services  
+  _↳ feedback if chosen: Advantage._
+- ✅ workers have no social security
+- ◻️ it creates jobs  
+  _↳ feedback if chosen: Advantage._
+
+Full working after a second miss:
+
+> No CNPS, no pension.  
+> So the answer is “workers have no social security”.  
+
+> Which is a disadvantage of the informal sector?
+
+- ◻️ it creates jobs  
+  _↳ feedback if chosen: Advantage._
+- ◻️ it gives cheap services  
+  _↳ feedback if chosen: Advantage._
+- ◻️ it trains apprentices  
+  _↳ feedback if chosen: Advantage._
+- ✅ workers have no social security
+
+Full working after a second miss:
+
+> No CNPS, no pension.  
+> So the answer is “workers have no social security”.  
+
+> How can the State help informal workers?
+
+- ◻️ ban apprenticeships  
+  _↳ feedback if chosen: That harms training._
+- ◻️ close all markets  
+  _↳ feedback if chosen: That harms trade._
+- ◻️ chase them away without help  
+  _↳ feedback if chosen: That removes incomes._
+- ✅ help them register and give them small loans and training
+
+Full working after a second miss:
+
+> Formalise and support.  
+> So the answer is “help them register and give them small loans and training”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-23-map` · Lesson 23 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How many regions does Cameroon have? | ten | five · fifty-eight · twelve | Too few. · That is the number of divisions. · Not the number. | Ten regions. |
+| Which three things must every map have? | a title, a key and a north arrow | only colours · a photo, a poem and a song · only names | Not enough. · Not map elements. · Not enough. | They help read the map. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How many regions does Cameroon have?
+
+- ◻️ fifty-eight  
+  _↳ feedback if chosen: That is the number of divisions._
+- ◻️ five  
+  _↳ feedback if chosen: Too few._
+- ◻️ twelve  
+  _↳ feedback if chosen: Not the number._
+- ✅ ten
+
+Full working after a second miss:
+
+> Ten regions.  
+> So the answer is “ten”.  
+
+> Which three things must every map have?
+
+- ✅ a title, a key and a north arrow
+- ◻️ only names  
+  _↳ feedback if chosen: Not enough._
+- ◻️ only colours  
+  _↳ feedback if chosen: Not enough._
+- ◻️ a photo, a poem and a song  
+  _↳ feedback if chosen: Not map elements._
+
+Full working after a second miss:
+
+> They help read the map.  
+> So the answer is “a title, a key and a north arrow”.  
+
+> How many regions does Cameroon have?
+
+- ◻️ fifty-eight  
+  _↳ feedback if chosen: That is the number of divisions._
+- ◻️ five  
+  _↳ feedback if chosen: Too few._
+- ◻️ twelve  
+  _↳ feedback if chosen: Not the number._
+- ✅ ten
+
+Full working after a second miss:
+
+> Ten regions.  
+> So the answer is “ten”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-23-spot` · Lesson 23 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Buea is the headquarters of the South West.
+- ✅ Bamenda is the headquarters of the North West.
+- ✅ Garoua is the headquarters of the North.
+- ✅ Ebolowa is the headquarters of the South.
+- ❌ Douala is the headquarters of the Centre Region.  
+  _↳ Yaoundé is; Douala is in the Littoral._
+- ❌ Kumba is the headquarters of the South West Region.  
+  _↳ Buea is; Kumba heads Meme Division._
+- ❌ Cameroon has 58 regions.  
+  _↳ It has 10 regions and 58 divisions._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Buea is the headquarters of the South West.
+- ✅ Cameroon has 58 regions.  
+  _↳ explanation: It has 10 regions and 58 divisions._
+- ◻️ Garoua is the headquarters of the North.
+- ◻️ Ebolowa is the headquarters of the South.
+
+Full working after a second miss:
+
+> The wrong statement is “Cameroon has 58 regions.”.  
+> It has 10 regions and 58 divisions.  
+
+> Which statement is wrong?
+
+- ◻️ Ebolowa is the headquarters of the South.
+- ◻️ Bamenda is the headquarters of the North West.
+- ✅ Douala is the headquarters of the Centre Region.  
+  _↳ explanation: Yaoundé is; Douala is in the Littoral._
+- ◻️ Buea is the headquarters of the South West.
+
+Full working after a second miss:
+
+> The wrong statement is “Douala is the headquarters of the Centre Region.”.  
+> Yaoundé is; Douala is in the Littoral.  
+
+> Which statement is wrong?
+
+- ◻️ Buea is the headquarters of the South West.
+- ◻️ Ebolowa is the headquarters of the South.
+- ✅ Cameroon has 58 regions.  
+  _↳ explanation: It has 10 regions and 58 divisions._
+- ◻️ Garoua is the headquarters of the North.
+
+Full working after a second miss:
+
+> The wrong statement is “Cameroon has 58 regions.”.  
+> It has 10 regions and 58 divisions.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-24-cause` · Lesson 24 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a cause of urban problems? | building in swamps and on steep slopes | planting trees · collecting waste · building drains | A solution. · A solution. · A solution. | Risky zones flood or slide. |
+| What is a consequence of poor waste disposal? | diseases and floods | cleaner streets · more tourists · fewer flies | The opposite. · Not likely. · The opposite. | Rubbish blocks drains and breeds germs. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a cause of urban problems?
+
+- ◻️ building drains  
+  _↳ feedback if chosen: A solution._
+- ◻️ planting trees  
+  _↳ feedback if chosen: A solution._
+- ✅ building in swamps and on steep slopes
+- ◻️ collecting waste  
+  _↳ feedback if chosen: A solution._
+
+Full working after a second miss:
+
+> Risky zones flood or slide.  
+> So the answer is “building in swamps and on steep slopes”.  
+
+> What is a consequence of poor waste disposal?
+
+- ◻️ more tourists  
+  _↳ feedback if chosen: Not likely._
+- ◻️ cleaner streets  
+  _↳ feedback if chosen: The opposite._
+- ◻️ fewer flies  
+  _↳ feedback if chosen: The opposite._
+- ✅ diseases and floods
+
+Full working after a second miss:
+
+> Rubbish blocks drains and breeds germs.  
+> So the answer is “diseases and floods”.  
+
+> Which is a cause of urban problems?
+
+- ◻️ planting trees  
+  _↳ feedback if chosen: A solution._
+- ✅ building in swamps and on steep slopes
+- ◻️ collecting waste  
+  _↳ feedback if chosen: A solution._
+- ◻️ building drains  
+  _↳ feedback if chosen: A solution._
+
+Full working after a second miss:
+
+> Risky zones flood or slide.  
+> So the answer is “building in swamps and on steep slopes”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-24-sol` · Lesson 24 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a practical solution to floods in towns? | building drains and not building in swamps | throwing rubbish in streams · cutting all trees · blocking gutters | Causes floods. · Causes erosion. · Causes floods. | Let water drain away. |
+| How can pupils help keep their town clean? | take part in clean-ups and put rubbish in bins | throw rubbish in gutters · burn plastics in the street · ignore waste | Causes floods. · Pollutes the air. · Makes it worse. | Community action. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a practical solution to floods in towns?
+
+- ◻️ blocking gutters  
+  _↳ feedback if chosen: Causes floods._
+- ◻️ throwing rubbish in streams  
+  _↳ feedback if chosen: Causes floods._
+- ✅ building drains and not building in swamps
+- ◻️ cutting all trees  
+  _↳ feedback if chosen: Causes erosion._
+
+Full working after a second miss:
+
+> Let water drain away.  
+> So the answer is “building drains and not building in swamps”.  
+
+> Which is a practical solution to floods in towns?
+
+- ◻️ cutting all trees  
+  _↳ feedback if chosen: Causes erosion._
+- ✅ building drains and not building in swamps
+- ◻️ blocking gutters  
+  _↳ feedback if chosen: Causes floods._
+- ◻️ throwing rubbish in streams  
+  _↳ feedback if chosen: Causes floods._
+
+Full working after a second miss:
+
+> Let water drain away.  
+> So the answer is “building drains and not building in swamps”.  
+
+> How can pupils help keep their town clean?
+
+- ◻️ throw rubbish in gutters  
+  _↳ feedback if chosen: Causes floods._
+- ◻️ burn plastics in the street  
+  _↳ feedback if chosen: Pollutes the air._
+- ◻️ ignore waste  
+  _↳ feedback if chosen: Makes it worse._
+- ✅ take part in clean-ups and put rubbish in bins
+
+Full working after a second miss:
+
+> Community action.  
+> So the answer is “take part in clean-ups and put rubbish in bins”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-24-spot` · Lesson 24 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Floods are an environmental problem.
+- ✅ Unemployment is an economic problem.
+- ✅ Planting trees reduces landslides.
+- ✅ Town planning reduces problems.
+- ❌ Building on steep slopes prevents landslides.  
+  _↳ It causes landslides._
+- ❌ Burning plastics in the street cleans the air.  
+  _↳ It pollutes the air._
+- ❌ Urban problems have no consequences.  
+  _↳ They cause diseases, losses and insecurity._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Floods are an environmental problem.
+- ✅ Building on steep slopes prevents landslides.  
+  _↳ explanation: It causes landslides._
+- ◻️ Town planning reduces problems.
+- ◻️ Unemployment is an economic problem.
+
+Full working after a second miss:
+
+> The wrong statement is “Building on steep slopes prevents landslides.”.  
+> It causes landslides.  
+
+> Which statement is wrong?
+
+- ◻️ Town planning reduces problems.
+- ◻️ Unemployment is an economic problem.
+- ✅ Burning plastics in the street cleans the air.  
+  _↳ explanation: It pollutes the air._
+- ◻️ Planting trees reduces landslides.
+
+Full working after a second miss:
+
+> The wrong statement is “Burning plastics in the street cleans the air.”.  
+> It pollutes the air.  
+
+> Which statement is wrong?
+
+- ✅ Urban problems have no consequences.  
+  _↳ explanation: They cause diseases, losses and insecurity._
+- ◻️ Planting trees reduces landslides.
+- ◻️ Floods are an environmental problem.
+- ◻️ Town planning reduces problems.
+
+Full working after a second miss:
+
+> The wrong statement is “Urban problems have no consequences.”.  
+> They cause diseases, losses and insecurity.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-24-sol-card` · Lesson 24 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a practical solution to floods in towns? | building drains and not building in swamps | throwing rubbish in streams · cutting all trees · blocking gutters | Causes floods. · Causes erosion. · Causes floods. | Let water drain away. |
+| How can pupils help keep their town clean? | take part in clean-ups and put rubbish in bins | throw rubbish in gutters · burn plastics in the street · ignore waste | Causes floods. · Pollutes the air. · Makes it worse. | Community action. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How can pupils help keep their town clean?
+
+- ◻️ throw rubbish in gutters  
+  _↳ feedback if chosen: Causes floods._
+- ◻️ burn plastics in the street  
+  _↳ feedback if chosen: Pollutes the air._
+- ◻️ ignore waste  
+  _↳ feedback if chosen: Makes it worse._
+- ✅ take part in clean-ups and put rubbish in bins
+
+Full working after a second miss:
+
+> Community action.  
+> So the answer is “take part in clean-ups and put rubbish in bins”.  
+
+> How can pupils help keep their town clean?
+
+- ◻️ throw rubbish in gutters  
+  _↳ feedback if chosen: Causes floods._
+- ✅ take part in clean-ups and put rubbish in bins
+- ◻️ burn plastics in the street  
+  _↳ feedback if chosen: Pollutes the air._
+- ◻️ ignore waste  
+  _↳ feedback if chosen: Makes it worse._
+
+Full working after a second miss:
+
+> Community action.  
+> So the answer is “take part in clean-ups and put rubbish in bins”.  
+
+> How can pupils help keep their town clean?
+
+- ◻️ throw rubbish in gutters  
+  _↳ feedback if chosen: Causes floods._
+- ◻️ ignore waste  
+  _↳ feedback if chosen: Makes it worse._
+- ◻️ burn plastics in the street  
+  _↳ feedback if chosen: Pollutes the air._
+- ✅ take part in clean-ups and put rubbish in bins
+
+Full working after a second miss:
+
+> Community action.  
+> So the answer is “take part in clean-ups and put rubbish in bins”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-25-town` · Lesson 25 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What are remittances? | money sent home by family members working in towns | a kind of crop · a road tax · a festival | Not the meaning. · Not the meaning. · Not the meaning. | Money that flows to villages. |
+| What do towns offer farmers? | markets to sell their crops | more forest · free land · rain | Not from towns. · Not from towns. · Not from towns. | Townspeople buy food. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What are remittances?
+
+- ✅ money sent home by family members working in towns
+- ◻️ a kind of crop  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a road tax  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a festival  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Money that flows to villages.  
+> So the answer is “money sent home by family members working in towns”.  
+
+> What do towns offer farmers?
+
+- ◻️ free land  
+  _↳ feedback if chosen: Not from towns._
+- ✅ markets to sell their crops
+- ◻️ rain  
+  _↳ feedback if chosen: Not from towns._
+- ◻️ more forest  
+  _↳ feedback if chosen: Not from towns._
+
+Full working after a second miss:
+
+> Townspeople buy food.  
+> So the answer is “markets to sell their crops”.  
+
+> What are remittances?
+
+- ◻️ a festival  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a kind of crop  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ money sent home by family members working in towns
+- ◻️ a road tax  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Money that flows to villages.  
+> So the answer is “money sent home by family members working in towns”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-25-road` · Lesson 25 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why do food prices rise in towns in the rainy season when roads are bad? | Less food reaches town and transport costs more. | Farmers grow too much. · Townspeople stop eating. · Roads are better in the rainy season. | Not the reason. · Not true. · Usually worse. | Supply falls, cost rises. |
+| What is the best way to strengthen town-country links? | build good farm-to-market roads | close village markets · stop transport · ban crop sales | Harmful. · Harmful. · Harmful. | Goods move easily both ways. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do food prices rise in towns in the rainy season when roads are bad?
+
+- ✅ Less food reaches town and transport costs more.
+- ◻️ Farmers grow too much.  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ Roads are better in the rainy season.  
+  _↳ feedback if chosen: Usually worse._
+- ◻️ Townspeople stop eating.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Supply falls, cost rises.  
+> So the answer is “Less food reaches town and transport costs more.”.  
+
+> Why do food prices rise in towns in the rainy season when roads are bad?
+
+- ◻️ Farmers grow too much.  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ Roads are better in the rainy season.  
+  _↳ feedback if chosen: Usually worse._
+- ◻️ Townspeople stop eating.  
+  _↳ feedback if chosen: Not true._
+- ✅ Less food reaches town and transport costs more.
+
+Full working after a second miss:
+
+> Supply falls, cost rises.  
+> So the answer is “Less food reaches town and transport costs more.”.  
+
+> What is the best way to strengthen town-country links?
+
+- ✅ build good farm-to-market roads
+- ◻️ ban crop sales  
+  _↳ feedback if chosen: Harmful._
+- ◻️ close village markets  
+  _↳ feedback if chosen: Harmful._
+- ◻️ stop transport  
+  _↳ feedback if chosen: Harmful._
+
+Full working after a second miss:
+
+> Goods move easily both ways.  
+> So the answer is “build good farm-to-market roads”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-25-spot` · Lesson 25 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Villages supply food to towns.
+- ✅ Towns supply manufactured goods.
+- ✅ Good roads help both.
+- ✅ Factories use rural raw materials.
+- ❌ Towns produce most of the cocoa.  
+  _↳ Cocoa is grown in the countryside._
+- ❌ Bad roads lower food prices in towns.  
+  _↳ They raise prices._
+- ❌ Towns and villages do not need each other.  
+  _↳ They depend on each other._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Villages supply food to towns.
+- ◻️ Factories use rural raw materials.
+- ◻️ Towns supply manufactured goods.
+- ✅ Bad roads lower food prices in towns.  
+  _↳ explanation: They raise prices._
+
+Full working after a second miss:
+
+> The wrong statement is “Bad roads lower food prices in towns.”.  
+> They raise prices.  
+
+> Which statement is wrong?
+
+- ✅ Bad roads lower food prices in towns.  
+  _↳ explanation: They raise prices._
+- ◻️ Factories use rural raw materials.
+- ◻️ Good roads help both.
+- ◻️ Towns supply manufactured goods.
+
+Full working after a second miss:
+
+> The wrong statement is “Bad roads lower food prices in towns.”.  
+> They raise prices.  
+
+> Which statement is wrong?
+
+- ◻️ Factories use rural raw materials.
+- ✅ Towns produce most of the cocoa.  
+  _↳ explanation: Cocoa is grown in the countryside._
+- ◻️ Good roads help both.
+- ◻️ Villages supply food to towns.
+
+Full working after a second miss:
+
+> The wrong statement is “Towns produce most of the cocoa.”.  
+> Cocoa is grown in the countryside.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-25-road-card` · Lesson 25 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why do food prices rise in towns in the rainy season when roads are bad? | Less food reaches town and transport costs more. | Farmers grow too much. · Townspeople stop eating. · Roads are better in the rainy season. | Not the reason. · Not true. · Usually worse. | Supply falls, cost rises. |
+| What is the best way to strengthen town-country links? | build good farm-to-market roads | close village markets · stop transport · ban crop sales | Harmful. · Harmful. · Harmful. | Goods move easily both ways. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the best way to strengthen town-country links?
+
+- ◻️ stop transport  
+  _↳ feedback if chosen: Harmful._
+- ◻️ ban crop sales  
+  _↳ feedback if chosen: Harmful._
+- ✅ build good farm-to-market roads
+- ◻️ close village markets  
+  _↳ feedback if chosen: Harmful._
+
+Full working after a second miss:
+
+> Goods move easily both ways.  
+> So the answer is “build good farm-to-market roads”.  
+
+> Why do food prices rise in towns in the rainy season when roads are bad?
+
+- ✅ Less food reaches town and transport costs more.
+- ◻️ Townspeople stop eating.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Farmers grow too much.  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ Roads are better in the rainy season.  
+  _↳ feedback if chosen: Usually worse._
+
+Full working after a second miss:
+
+> Supply falls, cost rises.  
+> So the answer is “Less food reaches town and transport costs more.”.  
+
+> What is the best way to strengthen town-country links?
+
+- ◻️ stop transport  
+  _↳ feedback if chosen: Harmful._
+- ◻️ close village markets  
+  _↳ feedback if chosen: Harmful._
+- ◻️ ban crop sales  
+  _↳ feedback if chosen: Harmful._
+- ✅ build good farm-to-market roads
+
+Full working after a second miss:
+
+> Goods move easily both ways.  
+> So the answer is “build good farm-to-market roads”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-26-social` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| On which occasions do many townspeople return to their villages? | funerals, weddings and festivals | only during exams · never · only at night | Not the main occasions. · They do return. · Not the pattern. | Family and cultural events. |
+| What do villages often adopt from towns? | new fashions, music and foods | new mountains · rivers · the climate | Not cultural. · Not cultural. · Not cultural. | Cultural exchange. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What do villages often adopt from towns?
+
+- ◻️ rivers  
+  _↳ feedback if chosen: Not cultural._
+- ◻️ the climate  
+  _↳ feedback if chosen: Not cultural._
+- ◻️ new mountains  
+  _↳ feedback if chosen: Not cultural._
+- ✅ new fashions, music and foods
+
+Full working after a second miss:
+
+> Cultural exchange.  
+> So the answer is “new fashions, music and foods”.  
+
+> On which occasions do many townspeople return to their villages?
+
+- ✅ funerals, weddings and festivals
+- ◻️ only during exams  
+  _↳ feedback if chosen: Not the main occasions._
+- ◻️ only at night  
+  _↳ feedback if chosen: Not the pattern._
+- ◻️ never  
+  _↳ feedback if chosen: They do return._
+
+Full working after a second miss:
+
+> Family and cultural events.  
+> So the answer is “funerals, weddings and festivals”.  
+
+> What do villages often adopt from towns?
+
+- ◻️ rivers  
+  _↳ feedback if chosen: Not cultural._
+- ✅ new fashions, music and foods
+- ◻️ the climate  
+  _↳ feedback if chosen: Not cultural._
+- ◻️ new mountains  
+  _↳ feedback if chosen: Not cultural._
+
+Full working after a second miss:
+
+> Cultural exchange.  
+> So the answer is “new fashions, music and foods”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-26-elite` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a village development association? | a group of sons and daughters of a village who fund projects there | a political party · a bank · a football club only | Not the meaning. · Not the meaning. · Not the meaning. | They build schools, roads and water points. |
+| Where do many village children go for secondary and university education? | to towns | to the forest · nowhere · to other villages only | No schools there. · They do study. · Most big schools are in towns. | Towns have more schools. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a village development association?
+
+- ✅ a group of sons and daughters of a village who fund projects there
+- ◻️ a football club only  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a political party  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a bank  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> They build schools, roads and water points.  
+> So the answer is “a group of sons and daughters of a village who fund projects there”.  
+
+> Where do many village children go for secondary and university education?
+
+- ◻️ nowhere  
+  _↳ feedback if chosen: They do study._
+- ◻️ to the forest  
+  _↳ feedback if chosen: No schools there._
+- ✅ to towns
+- ◻️ to other villages only  
+  _↳ feedback if chosen: Most big schools are in towns._
+
+Full working after a second miss:
+
+> Towns have more schools.  
+> So the answer is “to towns”.  
+
+> What is a village development association?
+
+- ◻️ a bank  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a political party  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a football club only  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ a group of sons and daughters of a village who fund projects there
+
+Full working after a second miss:
+
+> They build schools, roads and water points.  
+> So the answer is “a group of sons and daughters of a village who fund projects there”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-26-info` · Lesson 26 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How does a mobile phone help a farmer? | He can check market prices and receive money by mobile money. | It grows his crops. · It brings rain. · It replaces his farm. | Not possible. · Not possible. · Not possible. | Information and money move fast. |
+| Why are community radios in national languages important? | Villagers understand the news and advice in their own language. | They only play music. · Nobody listens. · They stop people talking. | They also give news. · Many listen. · Not true. | Information reaches everyone. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How does a mobile phone help a farmer?
+
+- ◻️ It grows his crops.  
+  _↳ feedback if chosen: Not possible._
+- ◻️ It replaces his farm.  
+  _↳ feedback if chosen: Not possible._
+- ◻️ It brings rain.  
+  _↳ feedback if chosen: Not possible._
+- ✅ He can check market prices and receive money by mobile money.
+
+Full working after a second miss:
+
+> Information and money move fast.  
+> So the answer is “He can check market prices and receive money by mobile money.”.  
+
+> How does a mobile phone help a farmer?
+
+- ✅ He can check market prices and receive money by mobile money.
+- ◻️ It grows his crops.  
+  _↳ feedback if chosen: Not possible._
+- ◻️ It replaces his farm.  
+  _↳ feedback if chosen: Not possible._
+- ◻️ It brings rain.  
+  _↳ feedback if chosen: Not possible._
+
+Full working after a second miss:
+
+> Information and money move fast.  
+> So the answer is “He can check market prices and receive money by mobile money.”.  
+
+> Why are community radios in national languages important?
+
+- ✅ Villagers understand the news and advice in their own language.
+- ◻️ They only play music.  
+  _↳ feedback if chosen: They also give news._
+- ◻️ Nobody listens.  
+  _↳ feedback if chosen: Many listen._
+- ◻️ They stop people talking.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Information reaches everyone.  
+> So the answer is “Villagers understand the news and advice in their own language.”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-26-spot` · Lesson 26 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Elites fund village projects.
+- ✅ Mobile money links town and village.
+- ✅ Families meet at funerals in the village.
+- ✅ Radio carries news to villages.
+- ❌ Townspeople never return to their villages.  
+  _↳ Many return for funerals, weddings and festivals._
+- ❌ Information cannot travel between towns and villages.  
+  _↳ Radio, phones and the internet carry it._
+- ❌ Town-village links have only positive effects.  
+  _↳ Some traditions are lost and young people leave._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Townspeople never return to their villages.  
+  _↳ explanation: Many return for funerals, weddings and festivals._
+- ◻️ Radio carries news to villages.
+- ◻️ Elites fund village projects.
+- ◻️ Mobile money links town and village.
+
+Full working after a second miss:
+
+> The wrong statement is “Townspeople never return to their villages.”.  
+> Many return for funerals, weddings and festivals.  
+
+> Which statement is wrong?
+
+- ◻️ Radio carries news to villages.
+- ✅ Information cannot travel between towns and villages.  
+  _↳ explanation: Radio, phones and the internet carry it._
+- ◻️ Mobile money links town and village.
+- ◻️ Families meet at funerals in the village.
+
+Full working after a second miss:
+
+> The wrong statement is “Information cannot travel between towns and villages.”.  
+> Radio, phones and the internet carry it.  
+
+> Which statement is wrong?
+
+- ✅ Town-village links have only positive effects.  
+  _↳ explanation: Some traditions are lost and young people leave._
+- ◻️ Elites fund village projects.
+- ◻️ Mobile money links town and village.
+- ◻️ Radio carries news to villages.
+
+Full working after a second miss:
+
+> The wrong statement is “Town-village links have only positive effects.”.  
+> Some traditions are lost and young people leave.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-26-info-card` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How does a mobile phone help a farmer? | He can check market prices and receive money by mobile money. | It grows his crops. · It brings rain. · It replaces his farm. | Not possible. · Not possible. · Not possible. | Information and money move fast. |
+| Why are community radios in national languages important? | Villagers understand the news and advice in their own language. | They only play music. · Nobody listens. · They stop people talking. | They also give news. · Many listen. · Not true. | Information reaches everyone. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why are community radios in national languages important?
+
+- ✅ Villagers understand the news and advice in their own language.
+- ◻️ They only play music.  
+  _↳ feedback if chosen: They also give news._
+- ◻️ They stop people talking.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Nobody listens.  
+  _↳ feedback if chosen: Many listen._
+
+Full working after a second miss:
+
+> Information reaches everyone.  
+> So the answer is “Villagers understand the news and advice in their own language.”.  
+
+> How does a mobile phone help a farmer?
+
+- ◻️ It grows his crops.  
+  _↳ feedback if chosen: Not possible._
+- ◻️ It replaces his farm.  
+  _↳ feedback if chosen: Not possible._
+- ◻️ It brings rain.  
+  _↳ feedback if chosen: Not possible._
+- ✅ He can check market prices and receive money by mobile money.
+
+Full working after a second miss:
+
+> Information and money move fast.  
+> So the answer is “He can check market prices and receive money by mobile money.”.  
+
+> How does a mobile phone help a farmer?
+
+- ◻️ It brings rain.  
+  _↳ feedback if chosen: Not possible._
+- ✅ He can check market prices and receive money by mobile money.
+- ◻️ It replaces his farm.  
+  _↳ feedback if chosen: Not possible._
+- ◻️ It grows his crops.  
+  _↳ feedback if chosen: Not possible._
+
+Full working after a second miss:
+
+> Information and money move fast.  
+> So the answer is “He can check market prices and receive money by mobile money.”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-27-what` · Lesson 27 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is rural exodus? | the movement of people from villages to towns | moving from towns to villages · moving to another country only · farming in towns | The opposite. · That is emigration. · Not the meaning. | Village → town. |
+| Who mostly leaves the villages? | young people | old people · babies · chiefs | They mostly stay. · They follow parents. · They stay. | Youths seek jobs and schools. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is rural exodus?
+
+- ◻️ moving to another country only  
+  _↳ feedback if chosen: That is emigration._
+- ✅ the movement of people from villages to towns
+- ◻️ moving from towns to villages  
+  _↳ feedback if chosen: The opposite._
+- ◻️ farming in towns  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Village → town.  
+> So the answer is “the movement of people from villages to towns”.  
+
+> What is rural exodus?
+
+- ✅ the movement of people from villages to towns
+- ◻️ farming in towns  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ moving from towns to villages  
+  _↳ feedback if chosen: The opposite._
+- ◻️ moving to another country only  
+  _↳ feedback if chosen: That is emigration._
+
+Full working after a second miss:
+
+> Village → town.  
+> So the answer is “the movement of people from villages to towns”.  
+
+> What is rural exodus?
+
+- ◻️ moving from towns to villages  
+  _↳ feedback if chosen: The opposite._
+- ◻️ farming in towns  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ the movement of people from villages to towns
+- ◻️ moving to another country only  
+  _↳ feedback if chosen: That is emigration._
+
+Full working after a second miss:
+
+> Village → town.  
+> So the answer is “the movement of people from villages to towns”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-27-sol` · Lesson 27 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which measure makes villages more attractive to young people? | bringing electricity and the internet | closing village schools · stopping road building · raising taxes on farmers | Pushes people out. · Pushes people out. · Pushes people out. | Modern services keep people. |
+| What is a consequence of rural exodus for villages? | fewer young workers and less food produced | more young workers · more food produced · crowded villages | The opposite. · The opposite. · Towns get crowded. | The young leave. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a consequence of rural exodus for villages?
+
+- ✅ fewer young workers and less food produced
+- ◻️ crowded villages  
+  _↳ feedback if chosen: Towns get crowded._
+- ◻️ more young workers  
+  _↳ feedback if chosen: The opposite._
+- ◻️ more food produced  
+  _↳ feedback if chosen: The opposite._
+
+Full working after a second miss:
+
+> The young leave.  
+> So the answer is “fewer young workers and less food produced”.  
+
+> What is a consequence of rural exodus for villages?
+
+- ◻️ crowded villages  
+  _↳ feedback if chosen: Towns get crowded._
+- ◻️ more food produced  
+  _↳ feedback if chosen: The opposite._
+- ✅ fewer young workers and less food produced
+- ◻️ more young workers  
+  _↳ feedback if chosen: The opposite._
+
+Full working after a second miss:
+
+> The young leave.  
+> So the answer is “fewer young workers and less food produced”.  
+
+> Which measure makes villages more attractive to young people?
+
+- ◻️ stopping road building  
+  _↳ feedback if chosen: Pushes people out._
+- ◻️ raising taxes on farmers  
+  _↳ feedback if chosen: Pushes people out._
+- ◻️ closing village schools  
+  _↳ feedback if chosen: Pushes people out._
+- ✅ bringing electricity and the internet
+
+Full working after a second miss:
+
+> Modern services keep people.  
+> So the answer is “bringing electricity and the internet”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-27-spot` · Lesson 27 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Rural exodus moves people to towns.
+- ✅ Lack of jobs pushes people out.
+- ✅ Towns attract with higher wages.
+- ✅ Rural electrification helps.
+- ❌ Rural exodus makes villages younger.  
+  _↳ The young leave; villages age._
+- ❌ Good roads increase rural exodus.  
+  _↳ They help keep people in villages._
+- ❌ Rural exodus has no effect on towns.  
+  _↳ It causes overcrowding and unemployment._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Towns attract with higher wages.
+- ✅ Rural exodus has no effect on towns.  
+  _↳ explanation: It causes overcrowding and unemployment._
+- ◻️ Lack of jobs pushes people out.
+- ◻️ Rural exodus moves people to towns.
+
+Full working after a second miss:
+
+> The wrong statement is “Rural exodus has no effect on towns.”.  
+> It causes overcrowding and unemployment.  
+
+> Which statement is wrong?
+
+- ◻️ Lack of jobs pushes people out.
+- ✅ Rural exodus makes villages younger.  
+  _↳ explanation: The young leave; villages age._
+- ◻️ Rural exodus moves people to towns.
+- ◻️ Towns attract with higher wages.
+
+Full working after a second miss:
+
+> The wrong statement is “Rural exodus makes villages younger.”.  
+> The young leave; villages age.  
+
+> Which statement is wrong?
+
+- ◻️ Rural exodus moves people to towns.
+- ◻️ Lack of jobs pushes people out.
+- ◻️ Rural electrification helps.
+- ✅ Rural exodus has no effect on towns.  
+  _↳ explanation: It causes overcrowding and unemployment._
+
+Full working after a second miss:
+
+> The wrong statement is “Rural exodus has no effect on towns.”.  
+> It causes overcrowding and unemployment.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
+
+### `g2-27-sol-card` · Lesson 27 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which measure makes villages more attractive to young people? | bringing electricity and the internet | closing village schools · stopping road building · raising taxes on farmers | Pushes people out. · Pushes people out. · Pushes people out. | Modern services keep people. |
+| What is a consequence of rural exodus for villages? | fewer young workers and less food produced | more young workers · more food produced · crowded villages | The opposite. · The opposite. · Towns get crowded. | The young leave. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a consequence of rural exodus for villages?
+
+- ✅ fewer young workers and less food produced
+- ◻️ crowded villages  
+  _↳ feedback if chosen: Towns get crowded._
+- ◻️ more young workers  
+  _↳ feedback if chosen: The opposite._
+- ◻️ more food produced  
+  _↳ feedback if chosen: The opposite._
+
+Full working after a second miss:
+
+> The young leave.  
+> So the answer is “fewer young workers and less food produced”.  
+
+> What is a consequence of rural exodus for villages?
+
+- ◻️ crowded villages  
+  _↳ feedback if chosen: Towns get crowded._
+- ◻️ more food produced  
+  _↳ feedback if chosen: The opposite._
+- ✅ fewer young workers and less food produced
+- ◻️ more young workers  
+  _↳ feedback if chosen: The opposite._
+
+Full working after a second miss:
+
+> The young leave.  
+> So the answer is “fewer young workers and less food produced”.  
+
+> Which measure makes villages more attractive to young people?
+
+- ◻️ raising taxes on farmers  
+  _↳ feedback if chosen: Pushes people out._
+- ◻️ closing village schools  
+  _↳ feedback if chosen: Pushes people out._
+- ✅ bringing electricity and the internet
+- ◻️ stopping road building  
+  _↳ feedback if chosen: Pushes people out._
+
+Full working after a second miss:
+
+> Modern services keep people.  
+> So the answer is “bringing electricity and the internet”.  
+
+Sources: african-towns (Towns in Africa: urban landscapes (CBD, residential quarters, shanty towns, industrial zones), informal activities, urban problems and solutions; regional and divisional headquarters of Cameroon; town–country relationships; rural exodus)
 

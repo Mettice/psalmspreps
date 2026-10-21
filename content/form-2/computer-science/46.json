@@ -1,0 +1,394 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 46,
+ "language": "en",
+ "prerequisites": [
+  45
+ ],
+ "skills": [
+  {
+   "id": "s2-46",
+   "name": "Using e-mail"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "E-mail (electronic mail) sends messages and files over the internet.\nAn e-mail address has the form username@domain, for example ayuk.tabe@gmail.com: the username, the @ sign (at), and the domain of the mail provider.\nParts of an e-mail: To (the receiver), Cc (a copy to others, visible), Bcc (a hidden copy), Subject (a short title), the body (the message), attachments (files), and a signature.\nActions: compose, send, reply, reply all, forward, delete, save as draft, move to folders; spam is unwanted e-mail.\nA formal e-mail has a clear subject, a greeting (Dear Sir/Madam), short paragraphs, a polite closing (Yours faithfully / Kind regards) and your name.\nSafety: do not open attachments or links from unknown senders (phishing).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Name the three parts of the address teacher.ngum@yahoo.com.",
+  "steps": [
+   "Before the @ is the username: teacher.ngum.",
+   "After the @ is the domain of the provider: yahoo.com."
+  ],
+  "answer": "username: teacher.ngum; @; domain: yahoo.com",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c46-1",
+    "status": "draft",
+    "idea": "An e-mail address: username @ domain.",
+    "vars": {},
+    "example": [
+     "ayuk.tabe@gmail.com"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-46-addr"
+    }
+   },
+   {
+    "id": "c46-2",
+    "status": "draft",
+    "idea": "To, Cc, Bcc, Subject, body and attachments.",
+    "vars": {},
+    "example": [
+     "Bcc is a hidden copy."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-46-parts"
+    }
+   },
+   {
+    "id": "c46-3",
+    "status": "draft",
+    "idea": "Do not open attachments or links from unknown senders: phishing.",
+    "vars": {},
+    "example": [
+     "Delete spam."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-46-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "communication-tools"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "You receive an e-mail from an unknown sender: “You won a prize! Click here and enter your password.” What do you do?",
+         "r": "Delete it and do not click the link.",
+         "w": [
+          "Click and enter the password.",
+          "Forward it to all friends.",
+          "Reply with your bank details."
+         ],
+         "e": [
+          "That is phishing.",
+          "Spreads the scam.",
+          "Never share details."
+         ],
+         "y": "Phishing tries to steal data."
+        },
+        {
+         "q": "What is the difference between Reply and Reply all?",
+         "r": "Reply answers the sender only; Reply all answers everyone in the e-mail.",
+         "w": [
+          "There is no difference.",
+          "Reply all deletes the e-mail.",
+          "Reply sends to the whole world."
+         ],
+         "e": [
+          "They differ.",
+          "Not true.",
+          "Not true."
+         ],
+         "y": "Use Reply all carefully."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-46-addr",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a valid e-mail address?",
+       "r": "bih.ngum@gmail.com",
+       "w": [
+        "bih.ngum.gmail.com",
+        "@bihngum",
+        "bih ngum@gmail"
+       ],
+       "e": [
+        "It needs @.",
+        "It needs a username and a domain.",
+        "No spaces; it needs a full domain."
+       ],
+       "y": "username@domain."
+      },
+      {
+       "q": "In ayuk@mtn.cm, what is “mtn.cm”?",
+       "r": "the domain",
+       "w": [
+        "the username",
+        "the password",
+        "the subject"
+       ],
+       "e": [
+        "That is “ayuk”.",
+        "Not shown.",
+        "Not part of the address."
+       ],
+       "y": "After the @."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-46-parts",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "prompt": "Match each part of an e-mail to its role.",
+   "pool": [
+    {
+     "left": "To",
+     "right": "the main receiver"
+    },
+    {
+     "left": "Cc",
+     "right": "a visible copy to others"
+    },
+    {
+     "left": "Bcc",
+     "right": "a hidden copy"
+    },
+    {
+     "left": "Subject",
+     "right": "a short title of the message"
+    },
+    {
+     "left": "Attachment",
+     "right": "a file sent with the message"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-46-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "You receive an e-mail from an unknown sender: “You won a prize! Click here and enter your password.” What do you do?",
+       "r": "Delete it and do not click the link.",
+       "w": [
+        "Click and enter the password.",
+        "Forward it to all friends.",
+        "Reply with your bank details."
+       ],
+       "e": [
+        "That is phishing.",
+        "Spreads the scam.",
+        "Never share details."
+       ],
+       "y": "Phishing tries to steal data."
+      },
+      {
+       "q": "What is the difference between Reply and Reply all?",
+       "r": "Reply answers the sender only; Reply all answers everyone in the e-mail.",
+       "w": [
+        "There is no difference.",
+        "Reply all deletes the e-mail.",
+        "Reply sends to the whole world."
+       ],
+       "e": [
+        "They differ.",
+        "Not true.",
+        "Not true."
+       ],
+       "y": "Use Reply all carefully."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-46-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "An e-mail address contains @.",
+      "truth": "true"
+     },
+     {
+      "text": "Bcc is a hidden copy.",
+      "truth": "true"
+     },
+     {
+      "text": "A subject is a short title.",
+      "truth": "true"
+     },
+     {
+      "text": "Spam is unwanted e-mail.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Open every attachment from unknown senders.",
+      "truth": "false",
+      "explain": "That can bring viruses."
+     },
+     {
+      "text": "Forward sends the e-mail to the trash.",
+      "truth": "false",
+      "explain": "It sends it to someone else."
+     },
+     {
+      "text": "An e-mail address can contain spaces.",
+      "truth": "false",
+      "explain": "It has no spaces."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

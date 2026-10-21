@@ -1,0 +1,440 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "g2-22",
+   "name": "Further study 5: the informal sector in Africa"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The informal sector is all the economic activities that are not registered or controlled by the State.\nExamples: street trade, bayam-sellam, call-box, motorbike taxis, tailoring at home, roadside mechanics, hairdressing, carpentry workshops, small restaurants (tourne-dos), money changers.\nCauses: unemployment, rural exodus, little education or capital needed, easy to start, the high cost and paperwork of formal businesses.\nAdvantages: it gives jobs and income to many people (especially youths and women), cheap goods and services, training (apprentices), and helps people survive.\nDisadvantages: no tax for the State, low and irregular incomes, no social security (CNPS), child labour, unsafe or dirty working places, crowded streets.\nSolutions: help informal workers to register, give them small loans, training, and organised markets.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give one advantage and one disadvantage of motorbike taxis (benskin) in towns.",
+  "steps": [
+   "Advantage: they give jobs to many young people and carry passengers cheaply where buses cannot go.",
+   "Disadvantage: many accidents, and the drivers have no social security."
+  ],
+  "answer": "Jobs and cheap transport; but many accidents and no social security.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "The informal sector is economic activity not registered or controlled by the State.",
+    "vars": {},
+    "example": [
+     "Street trade, call-box, benskin."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-22-what"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "It grows because of unemployment and because it is easy to start.",
+    "vars": {},
+    "example": [
+     "Little money is needed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-22-why"
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "It gives jobs and cheap services, but no taxes and no social security.",
+    "vars": {},
+    "example": [
+     "Workers have no CNPS cover."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-22-eval-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-towns"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a disadvantage of the informal sector?",
+         "r": "workers have no social security",
+         "w": [
+          "it creates jobs",
+          "it gives cheap services",
+          "it trains apprentices"
+         ],
+         "e": [
+          "Advantage.",
+          "Advantage.",
+          "Advantage."
+         ],
+         "y": "No CNPS, no pension."
+        },
+        {
+         "q": "How can the State help informal workers?",
+         "r": "help them register and give them small loans and training",
+         "w": [
+          "chase them away without help",
+          "close all markets",
+          "ban apprenticeships"
+         ],
+         "e": [
+          "That removes incomes.",
+          "That harms trade.",
+          "That harms training."
+         ],
+         "y": "Formalise and support."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-22-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the informal sector?",
+       "r": "economic activities not registered or controlled by the State",
+       "w": [
+        "government ministries",
+        "large factories with contracts",
+        "the army"
+       ],
+       "e": [
+        "Formal.",
+        "Formal.",
+        "Formal."
+       ],
+       "y": "Unregistered small activities."
+      },
+      {
+       "q": "Which is part of the informal sector?",
+       "r": "a roadside shoe repairer",
+       "w": [
+        "a bank",
+        "a ministry",
+        "a big brewery"
+       ],
+       "e": [
+        "Formal.",
+        "Formal.",
+        "Formal."
+       ],
+       "y": "Small and unregistered."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-22-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does the informal sector grow in African towns?",
+       "r": "unemployment and the ease of starting a small activity",
+       "w": [
+        "too many formal jobs",
+        "very high taxes on hawkers",
+        "laws forbidding small trade"
+       ],
+       "e": [
+        "There are too few.",
+        "Hawkers pay little tax.",
+        "That would stop it."
+       ],
+       "y": "People need to survive."
+      },
+      {
+       "q": "Who often works in the informal sector?",
+       "r": "young people and women",
+       "w": [
+        "only ministers",
+        "only foreign investors",
+        "only retired generals"
+       ],
+       "e": [
+        "Not the case.",
+        "Not the case.",
+        "Not the case."
+       ],
+       "y": "It is easy to enter."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-22-eval",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a disadvantage of the informal sector?",
+       "r": "workers have no social security",
+       "w": [
+        "it creates jobs",
+        "it gives cheap services",
+        "it trains apprentices"
+       ],
+       "e": [
+        "Advantage.",
+        "Advantage.",
+        "Advantage."
+       ],
+       "y": "No CNPS, no pension."
+      },
+      {
+       "q": "How can the State help informal workers?",
+       "r": "help them register and give them small loans and training",
+       "w": [
+        "chase them away without help",
+        "close all markets",
+        "ban apprenticeships"
+       ],
+       "e": [
+        "That removes incomes.",
+        "That harms trade.",
+        "That harms training."
+       ],
+       "y": "Formalise and support."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-22-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The informal sector gives jobs.",
+      "truth": "true"
+     },
+     {
+      "text": "Informal workers often lack social security.",
+      "truth": "true"
+     },
+     {
+      "text": "Starting an informal activity needs little money.",
+      "truth": "true"
+     },
+     {
+      "text": "Bayam-sellam are part of it.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The informal sector pays the most taxes to the State.",
+      "truth": "false",
+      "explain": "It pays little tax."
+     },
+     {
+      "text": "Only rich people work in the informal sector.",
+      "truth": "false",
+      "explain": "Mainly the poor, youths and women."
+     },
+     {
+      "text": "The informal sector has no disadvantages.",
+      "truth": "false",
+      "explain": "No taxes, no social security, child labour."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

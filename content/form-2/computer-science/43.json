@@ -1,0 +1,440 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 43,
+ "language": "en",
+ "prerequisites": [
+  42
+ ],
+ "skills": [
+  {
+   "id": "s2-43",
+   "name": "Notions on backup"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A backup is a copy of data kept in another place so that it can be restored if the original is lost.\nCauses of data loss: hardware failure (a dead hard disk), theft or loss of a device, viruses and ransomware, accidental deletion, fire, flood, power cuts.\nWhere to back up: an external hard disk or USB flash drive, a memory card, another computer, or the cloud (Google Drive, OneDrive).\nTypes: full backup (everything), incremental backup (only what changed since the last backup).\nThe 3-2-1 rule: keep 3 copies of important data, on 2 different kinds of storage, with 1 copy in another place (for example in the cloud).\nBack up regularly and test that you can restore the files.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A pupil keeps all her school work only on her phone. Give two risks and one solution.",
+  "steps": [
+   "Risks: the phone can be stolen, or break, and all the work is lost.",
+   "Solution: back up the files to the cloud or to a computer regularly."
+  ],
+  "answer": "Theft or breakdown; back up to the cloud or a computer.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c43-1",
+    "status": "draft",
+    "idea": "A backup is a copy of data kept elsewhere to restore it if lost.",
+    "vars": {},
+    "example": [
+     "Copy your project to a flash drive."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-43-what"
+    }
+   },
+   {
+    "id": "c43-2",
+    "status": "draft",
+    "idea": "Data can be lost by hardware failure, theft, viruses, deletion, fire or flood.",
+    "vars": {},
+    "example": [
+     "Ransomware locks files."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-43-cause"
+    }
+   },
+   {
+    "id": "c43-3",
+    "status": "draft",
+    "idea": "The {3}-{2}-{1} rule: {3} copies, {2} kinds of storage, {1} elsewhere.",
+    "vars": {},
+    "example": [
+     "One copy in the cloud."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-43-rule-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "data-security"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does the 3-2-1 backup rule say?",
+         "r": "3 copies, on 2 kinds of storage, with 1 copy elsewhere",
+         "w": [
+          "3 passwords, 2 users, 1 computer",
+          "back up once every 321 days",
+          "3 printers, 2 screens, 1 mouse"
+         ],
+         "e": [
+          "Not the rule.",
+          "Not the rule.",
+          "Not the rule."
+         ],
+         "y": "Spread the risk."
+        },
+        {
+         "q": "What is an incremental backup?",
+         "r": "a backup of only what changed since the last one",
+         "w": [
+          "a backup of everything every time",
+          "deleting old files",
+          "a virus scan"
+         ],
+         "e": [
+          "That is a full backup.",
+          "Not a backup.",
+          "Not a backup."
+         ],
+         "y": "Faster and smaller."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-43-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-security"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a backup?",
+       "r": "a copy of data kept elsewhere to restore it if lost",
+       "w": [
+        "a virus",
+        "a password",
+        "a printer"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Restore after a loss."
+      },
+      {
+       "q": "Which is a backup device?",
+       "r": "an external hard disk",
+       "w": [
+        "a mouse",
+        "a keyboard",
+        "a speaker"
+       ],
+       "e": [
+        "Input device.",
+        "Input device.",
+        "Output device."
+       ],
+       "y": "It stores copies of files."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-43-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-security"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a cause of data loss?",
+       "r": "a hard disk that stops working",
+       "w": [
+        "a clean screen",
+        "a strong password",
+        "a full battery"
+       ],
+       "e": [
+        "Not a cause.",
+        "It protects.",
+        "Not a cause."
+       ],
+       "y": "Hardware failure."
+      },
+      {
+       "q": "What is ransomware?",
+       "r": "malware that locks files and demands payment",
+       "w": [
+        "a backup program",
+        "a type of keyboard",
+        "a free game"
+       ],
+       "e": [
+        "It harms data.",
+        "Not hardware.",
+        "It is dangerous."
+       ],
+       "y": "Backups help recover."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-43-rule",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "data-security"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the 3-2-1 backup rule say?",
+       "r": "3 copies, on 2 kinds of storage, with 1 copy elsewhere",
+       "w": [
+        "3 passwords, 2 users, 1 computer",
+        "back up once every 321 days",
+        "3 printers, 2 screens, 1 mouse"
+       ],
+       "e": [
+        "Not the rule.",
+        "Not the rule.",
+        "Not the rule."
+       ],
+       "y": "Spread the risk."
+      },
+      {
+       "q": "What is an incremental backup?",
+       "r": "a backup of only what changed since the last one",
+       "w": [
+        "a backup of everything every time",
+        "deleting old files",
+        "a virus scan"
+       ],
+       "e": [
+        "That is a full backup.",
+        "Not a backup.",
+        "Not a backup."
+       ],
+       "y": "Faster and smaller."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-43-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "data-security"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Back up regularly.",
+      "truth": "true"
+     },
+     {
+      "text": "The cloud can hold a backup.",
+      "truth": "true"
+     },
+     {
+      "text": "Test that you can restore files.",
+      "truth": "true"
+     },
+     {
+      "text": "Theft can cause data loss.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A backup on the same disk protects against disk failure.",
+      "truth": "false",
+      "explain": "Keep it on another device or place."
+     },
+     {
+      "text": "Backups are only needed after data is lost.",
+      "truth": "false",
+      "explain": "Back up before a loss."
+     },
+     {
+      "text": "A mouse is a backup device.",
+      "truth": "false",
+      "explain": "A mouse is an input device."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

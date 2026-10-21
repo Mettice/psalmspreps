@@ -1,0 +1,390 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "a2-26",
+   "name": "Cash transactions: cash in hand and bank"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cash transactions are receipts (money in) and payments (money out) using cash in hand (571) or the bank (521).\n• Money received: debit 571 Cash or 521 Bank; credit the account that explains it (701 Sales for a cash sale, 411 Customers when a customer pays a debt).\n• Money paid: credit 571 or 521; debit the account that explains it (601 Purchases, 401 Suppliers, 661 Salaries, 605 Electricity).\n• Transfers between cash and bank: depositing cash into the bank (debit 521, credit 571), withdrawing (debit 571, credit 521).\nPayment methods: cash, cheque, bank transfer, mobile money.\nCash balance = opening balance + receipts − payments. The cash book records each movement in order of date.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "o": 150000,
+   "r": 320000,
+   "p": 210000
+  },
+  "problem": "The cash balance is {o} FCFA. Receipts are {r} FCFA and payments {p} FCFA. Find the closing balance.",
+  "steps": [
+   "Closing balance = opening + receipts − payments.",
+   "{o} + {r} − {p} = {o + r - p} FCFA."
+  ],
+  "answer": "{o + r - p} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "Money in: debit {571} or {521}; money out: credit {571} or {521}.",
+    "vars": {},
+    "example": [
+     "A cash sale: debit {571}, credit {701}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-26-entry"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "Depositing cash in the bank: debit {521}, credit {571}.",
+    "vars": {},
+    "example": [
+     "Withdrawing: the reverse."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-26-transfer"
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "Closing balance = opening + receipts − payments.",
+    "vars": {},
+    "example": [
+     "Recorded in the cash book."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-26-bal-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "trading"
+     ],
+     "vars": {
+      "o": {
+       "int": [
+        50000,
+        500000
+       ],
+       "step": 10000
+      },
+      "r": {
+       "int": [
+        100000,
+        900000
+       ],
+       "step": 10000
+      },
+      "p": {
+       "int": [
+        50000,
+        800000
+       ],
+       "step": 10000
+      }
+     },
+     "prompt": "The opening cash balance is {o} FCFA. Receipts total {r} FCFA and payments {p} FCFA. What is the closing balance?",
+     "answer": "o + r - p",
+     "misconceptions": [
+      {
+       "id": "swap",
+       "wrong": "o - r + p",
+       "explain": "Add receipts and subtract payments."
+      },
+      {
+       "id": "nopen",
+       "wrong": "r - p",
+       "explain": "Start from the opening balance."
+      }
+     ],
+     "solution": [
+      "Closing = opening + receipts − payments.",
+      "{o} + {r} − {p} = {answer} FCFA."
+     ],
+     "where": "o + r - p > 0",
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-26-entry",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "trading"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Goods are sold for cash. Which account is debited?",
+       "r": "571 Cash",
+       "w": [
+        "701 Sales",
+        "601 Purchases",
+        "401 Suppliers"
+       ],
+       "e": [
+        "That is credited.",
+        "An expense.",
+        "A third party."
+       ],
+       "y": "Cash comes in."
+      },
+      {
+       "q": "The business pays salaries by bank transfer. Which account is credited?",
+       "r": "521 Bank",
+       "w": [
+        "661 Salaries",
+        "571 Cash",
+        "701 Sales"
+       ],
+       "e": [
+        "That is debited.",
+        "Not cash.",
+        "Not income."
+       ],
+       "y": "Money leaves the bank."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-26-transfer",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "trading"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Cash is deposited into the bank. Which account is debited?",
+       "r": "521 Bank",
+       "w": [
+        "571 Cash",
+        "101 Capital",
+        "701 Sales"
+       ],
+       "e": [
+        "That is credited.",
+        "Not involved.",
+        "Not involved."
+       ],
+       "y": "Money enters the bank."
+      },
+      {
+       "q": "Money is withdrawn from the bank for the cash box. Which account is credited?",
+       "r": "521 Bank",
+       "w": [
+        "571 Cash",
+        "411 Customers",
+        "601 Purchases"
+       ],
+       "e": [
+        "That is debited.",
+        "Not involved.",
+        "Not involved."
+       ],
+       "y": "Money leaves the bank."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-26-bal",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trading"
+   ],
+   "vars": {
+    "o": {
+     "int": [
+      50000,
+      500000
+     ],
+     "step": 10000
+    },
+    "r": {
+     "int": [
+      100000,
+      900000
+     ],
+     "step": 10000
+    },
+    "p": {
+     "int": [
+      50000,
+      800000
+     ],
+     "step": 10000
+    }
+   },
+   "prompt": "The opening cash balance is {o} FCFA. Receipts total {r} FCFA and payments {p} FCFA. What is the closing balance?",
+   "answer": "o + r - p",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "o - r + p",
+     "explain": "Add receipts and subtract payments."
+    },
+    {
+     "id": "nopen",
+     "wrong": "r - p",
+     "explain": "Start from the opening balance."
+    }
+   ],
+   "solution": [
+    "Closing = opening + receipts − payments.",
+    "{o} + {r} − {p} = {answer} FCFA."
+   ],
+   "where": "o + r - p > 0",
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-26-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "trading"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Money in is a debit to cash or bank.",
+      "truth": "true"
+     },
+     {
+      "text": "Depositing cash: debit 521, credit 571.",
+      "truth": "true"
+     },
+     {
+      "text": "Mobile money is a payment method.",
+      "truth": "true"
+     },
+     {
+      "text": "The cash book records movements by date.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A cash sale is credited to 571 Cash.",
+      "truth": "false",
+      "explain": "Cash is debited; 701 Sales is credited."
+     },
+     {
+      "text": "Closing balance = opening − receipts + payments.",
+      "truth": "false",
+      "explain": "Opening + receipts − payments."
+     },
+     {
+      "text": "Paying a supplier debits 571 Cash.",
+      "truth": "false",
+      "explain": "Cash is credited; 401 Suppliers is debited."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

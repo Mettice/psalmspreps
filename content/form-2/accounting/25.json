@@ -1,0 +1,322 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  24
+ ],
+ "skills": [
+  {
+   "id": "a2-25",
+   "name": "Trading transactions: mark-up and invoices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Mark-up on cost: profit as a percentage of the cost price.\nSelling price = cost price + mark-up; mark-up = cost × rate. Cost 8 000, mark-up 25%: profit 2 000, selling price 10 000.\nMargin (mark-up on sales): profit as a percentage of the selling price: 2 000 ÷ 10 000 = 20%.\nAn invoice is built step by step:\ngross amount (quantity × unit price) − trade discount = net commercial amount; + VAT (19.25% in Cameroon) = net to pay (total including tax).\nExample: 40 000 − 10% discount (4 000) = 36 000; VAT 19.25% = 6 930; net to pay 42 930 FCFA.\nSale recorded: debit 411 Customers, credit 701 Sales (net commercial) and 443 VAT collected.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 8000,
+   "m": 25
+  },
+  "problem": "Goods cost {c} FCFA and the mark-up on cost is {m}%. Find the selling price and the margin on sales.",
+  "steps": [
+   "Mark-up = {c} × {m}% = {c * m / 100} FCFA; selling price = {c} + {c * m / 100} = {c + c * m / 100} FCFA.",
+   "Margin on sales = {c * m / 100} ÷ {c + c * m / 100} × {100} = {roundTo(c * m / (c + c * m / 100), 0.01)}%."
+  ],
+  "answer": "Selling price {c + c * m / 100} FCFA; margin {roundTo(c * m / (c + c * m / 100), 0.01)}%",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "Selling price = cost + cost × mark-up rate.",
+    "vars": {},
+    "example": [
+     "{8000} + {2000} = {10000}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-25-sp"
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Margin on sales = profit ÷ selling price × {100}.",
+    "vars": {},
+    "example": [
+     "{2000} ÷ {10000} = {20}%."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-25-margin-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "trading"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        [
+         8000,
+         10000
+        ],
+        [
+         6000,
+         8000
+        ],
+        [
+         7500,
+         10000
+        ],
+        [
+         12000,
+         15000
+        ],
+        [
+         16000,
+         20000
+        ]
+       ]
+      },
+      "c": {
+       "expr": "X[0]"
+      },
+      "s": {
+       "expr": "X[1]"
+      }
+     },
+     "prompt": "Goods cost {c} FCFA and sell for {s} FCFA. What is the margin as a percentage of the selling price?",
+     "answer": "(s - c) / s * 100",
+     "misconceptions": [
+      {
+       "id": "oncost",
+       "wrong": "(s - c) / c * 100",
+       "explain": "That is the mark-up on cost; divide by the selling price."
+      }
+     ],
+     "solution": [
+      "Profit = {s} − {c} = {s - c} FCFA.",
+      "Margin = {s - c} ÷ {s} × {100} = {answer}%."
+     ],
+     "unit": "%"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "Invoice: gross − discount = net commercial; + VAT ({19.25}%) = net to pay.",
+    "vars": {},
+    "example": [
+     "{36000} + {6930} = {42930}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-25-inv-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "trading"
+     ],
+     "vars": {
+      "g": {
+       "pick": [
+        20000,
+        40000,
+        80000,
+        100000,
+        200000
+       ]
+      },
+      "d": {
+       "pick": [
+        0,
+        5,
+        10,
+        20
+       ]
+      }
+     },
+     "prompt": "An invoice shows goods worth {g} FCFA with a {d}% trade discount, then VAT at 19.25%. What is the net to pay?",
+     "answer": "roundTo((g - g * d / 100) * 1.1925, 1)",
+     "misconceptions": [
+      {
+       "id": "novat",
+       "wrong": "g - g * d / 100",
+       "explain": "Add the VAT (19.25%) to the net commercial amount."
+      },
+      {
+       "id": "nodisc",
+       "wrong": "roundTo(g * 1.1925, 1)",
+       "explain": "Take off the trade discount first.",
+       "when": "d != 0"
+      }
+     ],
+     "solution": [
+      "Net commercial = {g} − {g * d / 100} = {g - g * d / 100} FCFA.",
+      "VAT = {g - g * d / 100} × {19.25}% = {roundTo((g - g * d / 100) * 0.1925, 1)}; net to pay = {answer} FCFA."
+     ],
+     "where": "isInt((g - g * d / 100) * 0.1925)",
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-25-sp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "trading"
+   ],
+   "vars": {
+    "c": {
+     "int": [
+      2000,
+      50000
+     ],
+     "step": 1000
+    },
+    "m": {
+     "pick": [
+      10,
+      20,
+      25,
+      40,
+      50
+     ]
+    }
+   },
+   "prompt": "Goods cost {c} FCFA. The mark-up on cost is {m}%. What is the selling price?",
+   "answer": "c + c * m / 100",
+   "misconceptions": [
+    {
+     "id": "mk",
+     "wrong": "c * m / 100",
+     "explain": "That is the mark-up only; add it to the cost."
+    }
+   ],
+   "solution": [
+    "Mark-up = {c} × {m} ÷ {100} = {c * m / 100} FCFA.",
+    "Selling price = {c} + {c * m / 100} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-25-margin",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trading"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       8000,
+       10000
+      ],
+      [
+       6000,
+       8000
+      ],
+      [
+       7500,
+       10000
+      ],
+      [
+       12000,
+       15000
+      ],
+      [
+       16000,
+       20000
+      ]
+     ]
+    },
+    "c": {
+     "expr": "X[0]"
+    },
+    "s": {
+     "expr": "X[1]"
+    }
+   },
+   "prompt": "Goods cost {c} FCFA and sell for {s} FCFA. What is the margin as a percentage of the selling price?",
+   "answer": "(s - c) / s * 100",
+   "misconceptions": [
+    {
+     "id": "oncost",
+     "wrong": "(s - c) / c * 100",
+     "explain": "That is the mark-up on cost; divide by the selling price."
+    }
+   ],
+   "solution": [
+    "Profit = {s} − {c} = {s - c} FCFA.",
+    "Margin = {s - c} ÷ {s} × {100} = {answer}%."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "a2-25-inv",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "trading"
+   ],
+   "vars": {
+    "g": {
+     "pick": [
+      20000,
+      40000,
+      80000,
+      100000,
+      200000
+     ]
+    },
+    "d": {
+     "pick": [
+      0,
+      5,
+      10,
+      20
+     ]
+    }
+   },
+   "prompt": "An invoice shows goods worth {g} FCFA with a {d}% trade discount, then VAT at 19.25%. What is the net to pay?",
+   "answer": "roundTo((g - g * d / 100) * 1.1925, 1)",
+   "misconceptions": [
+    {
+     "id": "novat",
+     "wrong": "g - g * d / 100",
+     "explain": "Add the VAT (19.25%) to the net commercial amount."
+    },
+    {
+     "id": "nodisc",
+     "wrong": "roundTo(g * 1.1925, 1)",
+     "explain": "Take off the trade discount first.",
+     "when": "d != 0"
+    }
+   ],
+   "solution": [
+    "Net commercial = {g} − {g * d / 100} = {g - g * d / 100} FCFA.",
+    "VAT = {g - g * d / 100} × {19.25}% = {roundTo((g - g * d / 100) * 0.1925, 1)}; net to pay = {answer} FCFA."
+   ],
+   "where": "isInt((g - g * d / 100) * 0.1925)",
+   "unit": "FCFA"
+  }
+ ]
+}

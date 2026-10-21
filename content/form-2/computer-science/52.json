@@ -1,0 +1,440 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 52,
+ "language": "en",
+ "prerequisites": [
+  51
+ ],
+ "skills": [
+  {
+   "id": "s2-52",
+   "name": "Common software problems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Common software problems and solutions:\n• The computer is very slow: too many programs open, little free disk space, a virus, many start-up programs → close programs, delete unneeded files, scan for viruses, restart.\n• A program freezes (stops responding) → wait, then close it with the Task Manager (Ctrl+Alt+Del), and restart it.\n• Error messages or crashes → restart, update or reinstall the program.\n• Pop-ups and strange behaviour → malware: run a full antivirus scan.\n• A file will not open → install the right program, check the file is not damaged.\n• Forgotten password → use the recovery option (e-mail or phone).\nPrevention: install software only from trusted sources, keep the system and antivirus updated, do not open unknown attachments, back up regularly.\nRestarting the computer solves many problems.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A word processor stops responding while you type. What should you do?",
+  "steps": [
+   "Wait a little: it may recover.",
+   "If not, close it with the Task Manager (Ctrl+Alt+Del) and open it again; then save often."
+  ],
+  "answer": "Wait, then close it with the Task Manager and restart it.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c52-1",
+    "status": "draft",
+    "idea": "A slow computer: too many programs, little disk space or a virus.",
+    "vars": {},
+    "example": [
+     "Close programs and restart."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-52-slow"
+    }
+   },
+   {
+    "id": "c52-2",
+    "status": "draft",
+    "idea": "A frozen program can be closed with the Task Manager (Ctrl+Alt+Del).",
+    "vars": {},
+    "example": [
+     "Then restart it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-52-freeze"
+    }
+   },
+   {
+    "id": "c52-3",
+    "status": "draft",
+    "idea": "Prevention: trusted software, updates, antivirus, backups.",
+    "vars": {},
+    "example": [
+     "Do not open unknown attachments."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-52-prev-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "maintenance"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Where should you install software from?",
+         "r": "trusted sources such as official websites and app stores",
+         "w": [
+          "any pop-up advert",
+          "an unknown e-mail attachment",
+          "a stranger's flash drive"
+         ],
+         "e": [
+          "Risky.",
+          "Risky.",
+          "Risky."
+         ],
+         "y": "Avoid malware."
+        },
+        {
+         "q": "A file has an unknown type and will not open. What should you do?",
+         "r": "install a program that can open that type, from a trusted source",
+         "w": [
+          "delete the computer",
+          "rename it to .exe",
+          "open it with a hammer"
+         ],
+         "e": [
+          "Not sensible.",
+          "Dangerous.",
+          "Not sensible."
+         ],
+         "y": "The right program opens the file."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-52-slow",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which can make a computer very slow?",
+       "r": "too many programs open at once",
+       "w": [
+        "a clean keyboard",
+        "a new mouse",
+        "a bright screen"
+       ],
+       "e": [
+        "Not a cause.",
+        "Not a cause.",
+        "Not a cause."
+       ],
+       "y": "They use memory."
+      },
+      {
+       "q": "Pop-ups keep appearing and the browser opens strange pages. What is the likely cause?",
+       "r": "malware (a virus)",
+       "w": [
+        "a dirty mouse",
+        "a full printer",
+        "a loose cable"
+       ],
+       "e": [
+        "Hardware, not this.",
+        "Not related.",
+        "Hardware."
+       ],
+       "y": "Run an antivirus scan."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-52-freeze",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which keys open the Task Manager on Windows?",
+       "r": "Ctrl+Alt+Del",
+       "w": [
+        "Ctrl+C",
+        "Alt+F4 only",
+        "Shift+A"
+       ],
+       "e": [
+        "That copies.",
+        "That closes a window.",
+        "That types A."
+       ],
+       "y": "Then end the frozen task."
+      },
+      {
+       "q": "What solves many software problems?",
+       "r": "restarting the computer",
+       "w": [
+        "hitting the screen",
+        "removing the keyboard",
+        "turning up the volume"
+       ],
+       "e": [
+        "Harmful.",
+        "Not useful.",
+        "Not useful."
+       ],
+       "y": "A restart clears memory."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-52-prev",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where should you install software from?",
+       "r": "trusted sources such as official websites and app stores",
+       "w": [
+        "any pop-up advert",
+        "an unknown e-mail attachment",
+        "a stranger's flash drive"
+       ],
+       "e": [
+        "Risky.",
+        "Risky.",
+        "Risky."
+       ],
+       "y": "Avoid malware."
+      },
+      {
+       "q": "A file has an unknown type and will not open. What should you do?",
+       "r": "install a program that can open that type, from a trusted source",
+       "w": [
+        "delete the computer",
+        "rename it to .exe",
+        "open it with a hammer"
+       ],
+       "e": [
+        "Not sensible.",
+        "Dangerous.",
+        "Not sensible."
+       ],
+       "y": "The right program opens the file."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-52-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Keep the antivirus updated.",
+      "truth": "true"
+     },
+     {
+      "text": "Close unused programs.",
+      "truth": "true"
+     },
+     {
+      "text": "Back up regularly.",
+      "truth": "true"
+     },
+     {
+      "text": "Restart when the system misbehaves.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Install programs from any pop-up advert.",
+      "truth": "false",
+      "explain": "Use trusted sources."
+     },
+     {
+      "text": "Never update the operating system.",
+      "truth": "false",
+      "explain": "Updates fix problems and close security holes."
+     },
+     {
+      "text": "A frozen program can only be fixed by buying a new computer.",
+      "truth": "false",
+      "explain": "Close it with the Task Manager and restart."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

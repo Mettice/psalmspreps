@@ -1,0 +1,390 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 58,
+ "language": "en",
+ "prerequisites": [
+  57
+ ],
+ "skills": [
+  {
+   "id": "h2-58",
+   "name": "White work, candlewicking and shadow work"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Some embroidery techniques use mostly one colour:\n• White work: white thread on white fabric (cotton or linen); the beauty comes from the texture of the stitches, cut-outs and eyelets (small holes). Used for christening gowns, table linen, collars.\n• Candlewicking: knots (colonial or French knots) in thick, unbleached cotton thread on cream fabric, forming outlines and dotted designs. It took its name from the thread used to make candle wicks.\n• Shadow work: herringbone stitch worked on the back of a thin, see-through fabric (organza, voile), so the thread shows through softly as a 'shadow' on the front; outlines appear as back stitch.\nThese techniques need fine needles, careful tension and clean hands, because the fabric is light-coloured.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why must hands be very clean when doing white work?",
+  "steps": [
+   "White work uses white thread on white fabric.",
+   "Any dirt or sweat would show and spoil the article."
+  ],
+  "answer": "Because dirt shows on white thread and fabric.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c58-1",
+    "status": "draft",
+    "idea": "White work uses white thread on white fabric, with textured stitches and eyelets.",
+    "vars": {},
+    "example": [
+     "Christening gowns."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-58-match"
+    }
+   },
+   {
+    "id": "c58-2",
+    "status": "draft",
+    "idea": "Candlewicking uses knots in thick cotton thread.",
+    "vars": {},
+    "example": [
+     "French or colonial knots."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-58-knots"
+    }
+   },
+   {
+    "id": "c58-3",
+    "status": "draft",
+    "idea": "Shadow work is stitched on the back of see-through fabric.",
+    "vars": {},
+    "example": [
+     "The thread shows softly through."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-58-shadow-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "embroidery"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What kind of fabric is used for shadow work?",
+         "r": "a thin, see-through fabric such as organza or voile",
+         "w": [
+          "thick wool",
+          "denim",
+          "leather"
+         ],
+         "e": [
+          "Not transparent.",
+          "Not transparent.",
+          "Not a fabric for this."
+         ],
+         "y": "The thread must show through."
+        },
+        {
+         "q": "On which side is shadow work stitched?",
+         "r": "on the back of the fabric",
+         "w": [
+          "only on the front",
+          "on a separate paper",
+          "it is not stitched"
+         ],
+         "e": [
+          "The shadow appears on the front.",
+          "Not the technique.",
+          "It is stitched."
+         ],
+         "y": "The thread shows through softly."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-58-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Match each technique to its description.",
+   "pool": [
+    {
+     "left": "white work",
+     "right": "white thread on white fabric, with eyelets"
+    },
+    {
+     "left": "candlewicking",
+     "right": "knots in thick unbleached cotton thread"
+    },
+    {
+     "left": "shadow work",
+     "right": "stitches on the back of see-through fabric"
+    },
+    {
+     "left": "cross stitch",
+     "right": "X-shaped stitches counted on even-weave fabric"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-58-knots",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which stitches are typical of candlewicking?",
+       "r": "knots (French or colonial knots)",
+       "w": [
+        "satin stitches only",
+        "machine zigzag",
+        "cross stitches"
+       ],
+       "e": [
+        "Not typical.",
+        "Not typical.",
+        "That is counted-thread work."
+       ],
+       "y": "Knots in thick thread."
+      },
+      {
+       "q": "Where did candlewicking get its name?",
+       "r": "from the thread used to make candle wicks",
+       "w": [
+        "from candles used as needles",
+        "from candlelight only",
+        "from wax on the fabric"
+       ],
+       "e": [
+        "Not true.",
+        "Not the reason.",
+        "Not the reason."
+       ],
+       "y": "The thick cotton wick thread."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-58-shadow",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What kind of fabric is used for shadow work?",
+       "r": "a thin, see-through fabric such as organza or voile",
+       "w": [
+        "thick wool",
+        "denim",
+        "leather"
+       ],
+       "e": [
+        "Not transparent.",
+        "Not transparent.",
+        "Not a fabric for this."
+       ],
+       "y": "The thread must show through."
+      },
+      {
+       "q": "On which side is shadow work stitched?",
+       "r": "on the back of the fabric",
+       "w": [
+        "only on the front",
+        "on a separate paper",
+        "it is not stitched"
+       ],
+       "e": [
+        "The shadow appears on the front.",
+        "Not the technique.",
+        "It is stitched."
+       ],
+       "y": "The thread shows through softly."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-58-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "White work uses white thread.",
+      "truth": "true"
+     },
+     {
+      "text": "Candlewicking uses knots.",
+      "truth": "true"
+     },
+     {
+      "text": "Shadow work uses see-through fabric.",
+      "truth": "true"
+     },
+     {
+      "text": "Clean hands are needed.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "White work uses bright red thread on black fabric.",
+      "truth": "false",
+      "explain": "White thread on white fabric."
+     },
+     {
+      "text": "Shadow work is done on thick leather.",
+      "truth": "false",
+      "explain": "It needs thin see-through fabric."
+     },
+     {
+      "text": "Candlewicking is made by burning candles on cloth.",
+      "truth": "false",
+      "explain": "It uses knots in candle-wick thread."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

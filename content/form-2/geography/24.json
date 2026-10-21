@@ -1,0 +1,447 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "g2-24",
+   "name": "Further study 6: urban problems in Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Types of urban problems in Cameroon:\n• environmental: floods (Douala, Yaoundé's Mfoundi valley), rubbish, air pollution, landslides on hills (Bafoussam, Limbe);\n• social: housing shortage, crime, drug abuse, street children, overcrowded schools and hospitals;\n• economic: unemployment, high cost of living, informal sector;\n• infrastructure: traffic jams, bad roads, water and electricity shortages.\nCauses: rapid population growth, poor planning, poverty, building in risky zones, poor waste disposal.\nConsequences: diseases, loss of life and property in floods and landslides, insecurity, stress.\nPractical solutions: respect town plans and do not build in swamps or on steep slopes; collect and recycle waste; plant trees; build drains; improve public transport; create jobs; community clean-ups.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why are landslides a risk on the hills of some Cameroonian towns, and what can be done?",
+  "steps": [
+   "Houses are built on steep slopes, and trees are cut, so heavy rain loosens the soil.",
+   "Solutions: do not build on steep slopes, plant trees and build drains."
+  ],
+  "answer": "Building on steep slopes and cutting trees; plant trees, build drains and avoid steep slopes.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "Urban problems can be environmental, social, economic or about infrastructure.",
+    "vars": {},
+    "example": [
+     "Floods, crime, unemployment, traffic."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-24-type"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "Causes: fast growth, poor planning, poverty, building in risky zones.",
+    "vars": {},
+    "example": [
+     "Houses in swamps."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-24-cause"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "Practical solutions: respect town plans, collect waste, plant trees, build drains.",
+    "vars": {},
+    "example": [
+     "Community clean-ups."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-24-sol-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-towns"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a practical solution to floods in towns?",
+         "r": "building drains and not building in swamps",
+         "w": [
+          "throwing rubbish in streams",
+          "cutting all trees",
+          "blocking gutters"
+         ],
+         "e": [
+          "Causes floods.",
+          "Causes erosion.",
+          "Causes floods."
+         ],
+         "y": "Let water drain away."
+        },
+        {
+         "q": "How can pupils help keep their town clean?",
+         "r": "take part in clean-ups and put rubbish in bins",
+         "w": [
+          "throw rubbish in gutters",
+          "burn plastics in the street",
+          "ignore waste"
+         ],
+         "e": [
+          "Causes floods.",
+          "Pollutes the air.",
+          "Makes it worse."
+         ],
+         "y": "Community action."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-24-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "floods in Douala",
+       "a": "environmental",
+       "w": [
+        "social",
+        "economic",
+        "infrastructure"
+       ]
+      },
+      {
+       "s": "street children",
+       "a": "social",
+       "w": [
+        "environmental",
+        "economic",
+        "infrastructure"
+       ]
+      },
+      {
+       "s": "unemployment of graduates",
+       "a": "economic",
+       "w": [
+        "environmental",
+        "social",
+        "infrastructure"
+       ]
+      },
+      {
+       "s": "frequent power cuts",
+       "a": "infrastructure",
+       "w": [
+        "environmental",
+        "social",
+        "economic"
+       ]
+      },
+      {
+       "s": "air pollution from old vehicles",
+       "a": "environmental",
+       "w": [
+        "social",
+        "economic",
+        "infrastructure"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "What type of urban problem is “{X.s}”?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "t"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "t"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "t"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "t",
+     "explain": "Ask: is it about nature, people's lives, jobs and money, or roads, water and power?"
+    }
+   ],
+   "solution": [
+    "Environmental (nature, pollution), social (people's lives), economic (jobs, money), infrastructure (roads, water, power).",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "g2-24-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a cause of urban problems?",
+       "r": "building in swamps and on steep slopes",
+       "w": [
+        "planting trees",
+        "collecting waste",
+        "building drains"
+       ],
+       "e": [
+        "A solution.",
+        "A solution.",
+        "A solution."
+       ],
+       "y": "Risky zones flood or slide."
+      },
+      {
+       "q": "What is a consequence of poor waste disposal?",
+       "r": "diseases and floods",
+       "w": [
+        "cleaner streets",
+        "more tourists",
+        "fewer flies"
+       ],
+       "e": [
+        "The opposite.",
+        "Not likely.",
+        "The opposite."
+       ],
+       "y": "Rubbish blocks drains and breeds germs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-24-sol",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a practical solution to floods in towns?",
+       "r": "building drains and not building in swamps",
+       "w": [
+        "throwing rubbish in streams",
+        "cutting all trees",
+        "blocking gutters"
+       ],
+       "e": [
+        "Causes floods.",
+        "Causes erosion.",
+        "Causes floods."
+       ],
+       "y": "Let water drain away."
+      },
+      {
+       "q": "How can pupils help keep their town clean?",
+       "r": "take part in clean-ups and put rubbish in bins",
+       "w": [
+        "throw rubbish in gutters",
+        "burn plastics in the street",
+        "ignore waste"
+       ],
+       "e": [
+        "Causes floods.",
+        "Pollutes the air.",
+        "Makes it worse."
+       ],
+       "y": "Community action."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-24-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Floods are an environmental problem.",
+      "truth": "true"
+     },
+     {
+      "text": "Unemployment is an economic problem.",
+      "truth": "true"
+     },
+     {
+      "text": "Planting trees reduces landslides.",
+      "truth": "true"
+     },
+     {
+      "text": "Town planning reduces problems.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Building on steep slopes prevents landslides.",
+      "truth": "false",
+      "explain": "It causes landslides."
+     },
+     {
+      "text": "Burning plastics in the street cleans the air.",
+      "truth": "false",
+      "explain": "It pollutes the air."
+     },
+     {
+      "text": "Urban problems have no consequences.",
+      "truth": "false",
+      "explain": "They cause diseases, losses and insecurity."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

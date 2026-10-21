@@ -1,0 +1,292 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 51,
+ "language": "en",
+ "prerequisites": [
+  50
+ ],
+ "skills": [
+  {
+   "id": "s2-51",
+   "name": "Common hardware problems"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Some common hardware problems, their likely causes and simple solutions:\n• The computer does not switch on: no power, loose cable, faulty power supply → check the socket, cables and power button.\n• The screen is black but the computer is on: loose display cable, brightness at zero, faulty screen → check the cable and brightness.\n• The computer overheats and switches off: dust in the fan, blocked vents → clean the fan, keep vents free, use on a hard surface.\n• Keyboard or mouse does not work: unplugged, flat battery (wireless), dirt → reconnect, change batteries, clean.\n• Strange noises: a failing hard disk or fan → back up data at once and ask a technician.\n• The printer does not print: off, no paper, paper jam, no ink, not selected → check each.\nAlways start with the simplest checks (power, cables) before calling a technician.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A laptop becomes very hot and switches itself off when used on a bed. Why, and what should be done?",
+  "steps": [
+   "The soft bed blocks the air vents, so the laptop overheats.",
+   "Use it on a hard, flat surface and clean the fan."
+  ],
+  "answer": "Blocked vents cause overheating; use it on a hard surface and clean the fan.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c51-1",
+    "status": "draft",
+    "idea": "If the computer does not start, check the power, cables and socket first.",
+    "vars": {},
+    "example": [
+     "A loose plug."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-51-fix"
+    }
+   },
+   {
+    "id": "c51-2",
+    "status": "draft",
+    "idea": "Overheating comes from dust and blocked vents.",
+    "vars": {},
+    "example": [
+     "Do not use a laptop on a bed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-51-heat"
+    }
+   },
+   {
+    "id": "c51-3",
+    "status": "draft",
+    "idea": "Strange noises from the disk: back up at once.",
+    "vars": {},
+    "example": [
+     "The disk may be failing."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-51-order-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "maintenance"
+     ],
+     "prompt": "Put the troubleshooting steps in order.",
+     "items": [
+      {
+       "text": "Identify the problem"
+      },
+      {
+       "text": "Check the simplest causes (power, cables)"
+      },
+      {
+       "text": "Try one solution at a time"
+      },
+      {
+       "text": "Test whether it works"
+      },
+      {
+       "text": "Ask a technician if it still does not work"
+      }
+     ],
+     "order": "as_written"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-51-fix",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "prompt": "Match each problem to a likely cause.",
+   "pool": [
+    {
+     "left": "computer does not switch on",
+     "right": "the power cable is loose"
+    },
+    {
+     "left": "computer overheats",
+     "right": "dust in the fan"
+    },
+    {
+     "left": "wireless mouse does not move the pointer",
+     "right": "flat battery"
+    },
+    {
+     "left": "printer does not print",
+     "right": "paper jam or no ink"
+    },
+    {
+     "left": "clicking noise from the disk",
+     "right": "a failing hard disk"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-51-heat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does a laptop overheat when used on a pillow?",
+       "r": "The pillow blocks the air vents.",
+       "w": [
+        "Pillows contain viruses.",
+        "Pillows charge the battery.",
+        "Pillows make it faster."
+       ],
+       "e": [
+        "Not true.",
+        "Not true.",
+        "Not true."
+       ],
+       "y": "Air cannot cool the laptop."
+      },
+      {
+       "q": "The screen is black but the lights show the computer is on. What should you check first?",
+       "r": "the display cable and the brightness",
+       "w": [
+        "the printer ink",
+        "the mouse battery",
+        "the speakers"
+       ],
+       "e": [
+        "Not related.",
+        "Not related.",
+        "Not related."
+       ],
+       "y": "Simple checks first."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-51-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "prompt": "Put the troubleshooting steps in order.",
+   "items": [
+    {
+     "text": "Identify the problem"
+    },
+    {
+     "text": "Check the simplest causes (power, cables)"
+    },
+    {
+     "text": "Try one solution at a time"
+    },
+    {
+     "text": "Test whether it works"
+    },
+    {
+     "text": "Ask a technician if it still does not work"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "s2-51-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Check cables first.",
+      "truth": "true"
+     },
+     {
+      "text": "Clean the fan to stop overheating.",
+      "truth": "true"
+     },
+     {
+      "text": "Back up when the disk makes noises.",
+      "truth": "true"
+     },
+     {
+      "text": "Use a laptop on a hard surface.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Hit the computer when it does not start.",
+      "truth": "false",
+      "explain": "Check power and cables calmly."
+     },
+     {
+      "text": "Strange disk noises are normal; ignore them.",
+      "truth": "false",
+      "explain": "Back up at once: the disk may fail."
+     },
+     {
+      "text": "Block the vents to keep dust out.",
+      "truth": "false",
+      "explain": "Vents must stay free for cooling."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

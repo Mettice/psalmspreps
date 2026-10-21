@@ -1,0 +1,361 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 45,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "s2-45",
+   "name": "Communication and collaboration tools"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Communication tools let people exchange messages; collaboration tools let them work together on the same task.\n• Communication: e-mail (Gmail, Outlook), chat and instant messaging (WhatsApp, Telegram, Messenger), voice and video calls (WhatsApp, Zoom, Google Meet, Teams), forums, SMS.\n• Collaboration: shared documents (Google Docs, Microsoft 365), shared folders (Google Drive, OneDrive), online whiteboards, calendars, task boards, learning platforms (Google Classroom).\nSynchronous tools work in real time (calls, chat); asynchronous tools do not need people to be online at the same time (e-mail, forums).\nRules (netiquette): be polite, write clearly, respect privacy, do not share others' messages without permission, check information before forwarding.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Five pupils must write one report together from their homes. Which tool helps most?",
+  "steps": [
+   "They need to work on the same document at the same time or at different times.",
+   "A shared online document (Google Docs) lets everyone edit and see changes."
+  ],
+  "answer": "A shared online document such as Google Docs.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c45-1",
+    "status": "draft",
+    "idea": "Communication tools exchange messages; collaboration tools let people work together.",
+    "vars": {},
+    "example": [
+     "E-mail; shared documents."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-45-kind"
+    }
+   },
+   {
+    "id": "c45-2",
+    "status": "draft",
+    "idea": "Synchronous tools work in real time; asynchronous tools do not need everyone online at once.",
+    "vars": {},
+    "example": [
+     "A call vs an e-mail."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-45-sync-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "communication-tools"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "t": "a video call",
+         "a": "synchronous"
+        },
+        {
+         "t": "an e-mail",
+         "a": "asynchronous"
+        },
+        {
+         "t": "a live chat",
+         "a": "synchronous"
+        },
+        {
+         "t": "a forum post",
+         "a": "asynchronous"
+        }
+       ]
+      }
+     },
+     "prompt": "Is {X.t} synchronous or asynchronous?",
+     "correct": "{X.a}",
+     "distractors": [
+      {
+       "text": "{X.a == 'synchronous' ? 'asynchronous' : 'synchronous'}",
+       "misconception": "s"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "s",
+       "explain": "Ask: must people be online at the same time?"
+      }
+     ],
+     "solution": [
+      "Synchronous: real time, everyone online together; asynchronous: reply later.",
+      "So: {answer}."
+     ],
+     "min_distractors": 1
+    }
+   },
+   {
+    "id": "c45-3",
+    "status": "draft",
+    "idea": "Netiquette: be polite, respect privacy, check before forwarding.",
+    "vars": {},
+    "example": [
+     "Do not share others' messages."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-45-net"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-45-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "t": "e-mail",
+       "a": "a communication tool"
+      },
+      {
+       "t": "Google Docs",
+       "a": "a collaboration tool"
+      },
+      {
+       "t": "WhatsApp chat",
+       "a": "a communication tool"
+      },
+      {
+       "t": "a shared online folder",
+       "a": "a collaboration tool"
+      },
+      {
+       "t": "SMS",
+       "a": "a communication tool"
+      },
+      {
+       "t": "an online task board",
+       "a": "a collaboration tool"
+      }
+     ]
+    }
+   },
+   "prompt": "Which kind of tool is {X.t}?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'a communication tool' ? 'a collaboration tool' : 'a communication tool'}",
+     "misconception": "k"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "k",
+     "explain": "Ask: is it for sending messages or for working together on the same thing?"
+    }
+   ],
+   "solution": [
+    "Communication tools exchange messages; collaboration tools let people work on shared tasks.",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "s2-45-sync",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "t": "a video call",
+       "a": "synchronous"
+      },
+      {
+       "t": "an e-mail",
+       "a": "asynchronous"
+      },
+      {
+       "t": "a live chat",
+       "a": "synchronous"
+      },
+      {
+       "t": "a forum post",
+       "a": "asynchronous"
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.t} synchronous or asynchronous?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'synchronous' ? 'asynchronous' : 'synchronous'}",
+     "misconception": "s"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "s",
+     "explain": "Ask: must people be online at the same time?"
+    }
+   ],
+   "solution": [
+    "Synchronous: real time, everyone online together; asynchronous: reply later.",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "s2-45-net",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is netiquette?",
+       "r": "good manners when communicating online",
+       "w": [
+        "a type of computer virus",
+        "a network cable",
+        "an internet provider"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Be polite and respectful online."
+      },
+      {
+       "q": "Which follows netiquette?",
+       "r": "checking information before forwarding it",
+       "w": [
+        "writing in capital letters to shout",
+        "sharing a friend's private photo",
+        "insulting people in a group chat"
+       ],
+       "e": [
+        "Capitals look like shouting.",
+        "Respect privacy.",
+        "Be polite."
+       ],
+       "y": "Avoid spreading false news."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-45-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "E-mail is a communication tool.",
+      "truth": "true"
+     },
+     {
+      "text": "Google Docs allows collaboration.",
+      "truth": "true"
+     },
+     {
+      "text": "A video call is synchronous.",
+      "truth": "true"
+     },
+     {
+      "text": "Be polite online.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An e-mail needs both people online at the same time.",
+      "truth": "false",
+      "explain": "E-mail is asynchronous."
+     },
+     {
+      "text": "Netiquette means sharing others' messages without permission.",
+      "truth": "false",
+      "explain": "Respect privacy."
+     },
+     {
+      "text": "A shared document cannot be edited by two people.",
+      "truth": "false",
+      "explain": "Many people can edit it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

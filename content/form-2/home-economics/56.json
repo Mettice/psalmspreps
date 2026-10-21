@@ -1,0 +1,394 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 56,
+ "language": "en",
+ "prerequisites": [
+  52
+ ],
+ "skills": [
+  {
+   "id": "h2-56",
+   "name": "Types of fabrics"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Fabrics are made from fibres, which can be natural or man-made.\nNatural fibres:\n• cotton (from the cotton plant): cool, absorbs sweat, easy to wash, creases; used for pagnes, shirts, uniforms;\n• linen (from the flax plant): strong, cool, creases a lot;\n• silk (from silkworm cocoons): smooth, shiny, soft, expensive; needs gentle washing;\n• wool (from sheep): warm, can shrink in hot water.\nMan-made (synthetic) fibres: polyester, nylon, acrylic: strong, do not crease much, dry quickly, but are hot to wear and melt with a hot iron.\nBlends (polyester-cotton) combine the advantages of both.\nFor embroidery, cotton and linen with an even weave are easiest to work on.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why are cotton clothes good for the hot season in Cameroon?",
+  "steps": [
+   "Cotton is a natural fibre that lets air pass.",
+   "It absorbs sweat, so the body stays cool and dry."
+  ],
+  "answer": "Cotton is cool and absorbs sweat.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c56-1",
+    "status": "draft",
+    "idea": "Natural fibres: cotton, linen, silk, wool; man-made fibres: polyester, nylon.",
+    "vars": {},
+    "example": [
+     "Silk comes from silkworms."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-56-source"
+    }
+   },
+   {
+    "id": "c56-2",
+    "status": "draft",
+    "idea": "Cotton is cool and absorbent; polyester is strong and creases less.",
+    "vars": {},
+    "example": [
+     "Uniforms are often polyester-cotton."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-56-prop"
+    }
+   },
+   {
+    "id": "c56-3",
+    "status": "draft",
+    "idea": "Synthetic fabrics melt with a hot iron; wool shrinks in hot water.",
+    "vars": {},
+    "example": [
+     "Read the care label."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-56-care-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "embroidery"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What can happen if a nylon shirt is ironed with a very hot iron?",
+         "r": "It can melt.",
+         "w": [
+          "It becomes cotton.",
+          "It grows bigger.",
+          "Nothing at all."
+         ],
+         "e": [
+          "Not possible.",
+          "Not true.",
+          "It can be damaged."
+         ],
+         "y": "Synthetics melt at high heat."
+        },
+        {
+         "q": "Why should wool be washed in cool water?",
+         "r": "It can shrink in hot water.",
+         "w": [
+          "It dissolves in water.",
+          "It becomes silk.",
+          "It changes colour to white."
+         ],
+         "e": [
+          "Not true.",
+          "Not true.",
+          "Not the main risk."
+         ],
+         "y": "Hot water shrinks wool."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-56-source",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Match each fibre to where it comes from.",
+   "pool": [
+    {
+     "left": "cotton",
+     "right": "the cotton plant"
+    },
+    {
+     "left": "silk",
+     "right": "silkworm cocoons"
+    },
+    {
+     "left": "wool",
+     "right": "sheep"
+    },
+    {
+     "left": "linen",
+     "right": "the flax plant"
+    },
+    {
+     "left": "polyester",
+     "right": "chemicals (man-made)"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-56-prop",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which fabric is cool and absorbs sweat well?",
+       "r": "cotton",
+       "w": [
+        "nylon",
+        "polyester",
+        "wool"
+       ],
+       "e": [
+        "Hot and not absorbent.",
+        "Less absorbent.",
+        "Warm."
+       ],
+       "y": "Good for hot weather."
+      },
+      {
+       "q": "Which fabric is smooth, shiny and expensive?",
+       "r": "silk",
+       "w": [
+        "cotton",
+        "linen",
+        "wool"
+       ],
+       "e": [
+        "Cheaper and matt.",
+        "Rough and creases.",
+        "Warm and woolly."
+       ],
+       "y": "From silkworms."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-56-care",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What can happen if a nylon shirt is ironed with a very hot iron?",
+       "r": "It can melt.",
+       "w": [
+        "It becomes cotton.",
+        "It grows bigger.",
+        "Nothing at all."
+       ],
+       "e": [
+        "Not possible.",
+        "Not true.",
+        "It can be damaged."
+       ],
+       "y": "Synthetics melt at high heat."
+      },
+      {
+       "q": "Why should wool be washed in cool water?",
+       "r": "It can shrink in hot water.",
+       "w": [
+        "It dissolves in water.",
+        "It becomes silk.",
+        "It changes colour to white."
+       ],
+       "e": [
+        "Not true.",
+        "Not true.",
+        "Not the main risk."
+       ],
+       "y": "Hot water shrinks wool."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-56-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cotton comes from a plant.",
+      "truth": "true"
+     },
+     {
+      "text": "Silk comes from silkworms.",
+      "truth": "true"
+     },
+     {
+      "text": "Polyester is man-made.",
+      "truth": "true"
+     },
+     {
+      "text": "Wool comes from sheep.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nylon is a natural fibre from a tree.",
+      "truth": "false",
+      "explain": "It is man-made."
+     },
+     {
+      "text": "Cotton is hot and does not absorb sweat.",
+      "truth": "false",
+      "explain": "It is cool and absorbent."
+     },
+     {
+      "text": "Synthetic fabrics never melt.",
+      "truth": "false",
+      "explain": "They can melt with a hot iron."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

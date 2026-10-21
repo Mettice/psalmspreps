@@ -1,0 +1,388 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "a2-21",
+   "name": "Business finance: long-term loans, leasing and short-term loans"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• A long-term loan (more than one year) from a bank finances big investments; it is recorded in account 162 (loans from credit institutions). The business pays back the capital plus interest (a cost, account 67).\n• Leasing (crédit-bail): the business uses an asset (a vehicle, a machine) owned by a leasing company and pays rent; at the end it may buy the asset for a small price. A leasing contract states the period, the payments and the purchase option.\n• Short-term loans (less than one year): bank overdrafts, short-term credit, supplier credit; they help pay daily expenses.\nInterest = loan × rate × time (simple interest).\nBefore borrowing: compare interest rates, check the business can repay, read the contract.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "L": 2000000,
+   "r": 10,
+   "t": 3
+  },
+  "problem": "A business borrows {L} FCFA at {r}% simple interest per year for {t} years. Find the interest.",
+  "steps": [
+   "Interest = loan × rate × time.",
+   "{L} × {r} ÷ {100} × {t} = {L * r * t / 100} FCFA."
+  ],
+  "answer": "{L * r * t / 100} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "A long-term loan lasts more than a year and is recorded in {162}.",
+    "vars": {},
+    "example": [
+     "Interest is a cost ({67})."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-21-loan"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Leasing: use an asset owned by a leasing company and pay rent, with an option to buy.",
+    "vars": {},
+    "example": [
+     "Leasing a delivery van."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-21-lease"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Simple interest = loan × rate × time.",
+    "vars": {},
+    "example": [
+     "{1000000} × {10}% × {2} = {200000}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-21-int-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "business-finance"
+     ],
+     "vars": {
+      "L": {
+       "int": [
+        500000,
+        5000000
+       ],
+       "step": 500000
+      },
+      "r": {
+       "pick": [
+        5,
+        8,
+        10,
+        12
+       ]
+      },
+      "t": {
+       "int": [
+        1,
+        5
+       ]
+      }
+     },
+     "prompt": "A business borrows {L} FCFA at {r}% simple interest per year for {t} years. Find the total interest.",
+     "answer": "L * r * t / 100",
+     "misconceptions": [
+      {
+       "id": "year",
+       "wrong": "L * r / 100",
+       "explain": "That is one year; multiply by the number of years."
+      },
+      {
+       "id": "total",
+       "wrong": "L + L * r * t / 100",
+       "explain": "That is the total to repay; the interest is only the extra."
+      }
+     ],
+     "solution": [
+      "Interest = loan × rate × time.",
+      "{L} × {r} ÷ {100} × {t} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-21-loan",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business-finance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In which account is a long-term bank loan recorded?",
+       "r": "162 Loans from credit institutions",
+       "w": [
+        "701 Sales",
+        "311 Goods",
+        "411 Customers"
+       ],
+       "e": [
+        "Income.",
+        "Stock.",
+        "Third party."
+       ],
+       "y": "Class 1, durable resources."
+      },
+      {
+       "q": "Which is a short-term source of finance?",
+       "r": "a bank overdraft",
+       "w": [
+        "a 10-year bank loan",
+        "the owner's capital",
+        "an investment subsidy"
+       ],
+       "e": [
+        "Long-term.",
+        "Own funds.",
+        "Not a loan."
+       ],
+       "y": "Repaid within a year."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-21-lease",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business-finance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is leasing?",
+       "r": "using an asset owned by another company and paying rent, with an option to buy",
+       "w": [
+        "buying an asset in cash",
+        "selling goods on credit",
+        "receiving a subsidy"
+       ],
+       "e": [
+        "Not leasing.",
+        "Not leasing.",
+        "Not leasing."
+       ],
+       "y": "Crédit-bail."
+      },
+      {
+       "q": "What does a leasing contract state?",
+       "r": "the period, the payments and the purchase option",
+       "w": [
+        "the customer's address only",
+        "the weather",
+        "the price of sugar"
+       ],
+       "e": [
+        "Not enough.",
+        "Not related.",
+        "Not related."
+       ],
+       "y": "The terms of the lease."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-21-int",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "business-finance"
+   ],
+   "vars": {
+    "L": {
+     "int": [
+      500000,
+      5000000
+     ],
+     "step": 500000
+    },
+    "r": {
+     "pick": [
+      5,
+      8,
+      10,
+      12
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "A business borrows {L} FCFA at {r}% simple interest per year for {t} years. Find the total interest.",
+   "answer": "L * r * t / 100",
+   "misconceptions": [
+    {
+     "id": "year",
+     "wrong": "L * r / 100",
+     "explain": "That is one year; multiply by the number of years."
+    },
+    {
+     "id": "total",
+     "wrong": "L + L * r * t / 100",
+     "explain": "That is the total to repay; the interest is only the extra."
+    }
+   ],
+   "solution": [
+    "Interest = loan × rate × time.",
+    "{L} × {r} ÷ {100} × {t} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "business-finance"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A long-term loan lasts over a year.",
+      "truth": "true"
+     },
+     {
+      "text": "Interest is a cost.",
+      "truth": "true"
+     },
+     {
+      "text": "Leasing allows using an asset without buying it at once.",
+      "truth": "true"
+     },
+     {
+      "text": "An overdraft is short-term.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Leasing means the business owns the asset from the first day.",
+      "truth": "false",
+      "explain": "The leasing company owns it during the lease."
+     },
+     {
+      "text": "Interest is income for the borrower.",
+      "truth": "false",
+      "explain": "It is a cost (67)."
+     },
+     {
+      "text": "A bank overdraft lasts ten years.",
+      "truth": "false",
+      "explain": "It is short-term."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

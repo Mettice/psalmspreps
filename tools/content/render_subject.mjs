@@ -38,11 +38,11 @@ const CONF = {
   "f2-maths": { name: "Maths", cls: "Form 2", dir: "form-2/maths", batch: "Batches M2-1, M2-2, M2-3", spine: "form-2/mathematics", lib: { ...maths, ...maths2 }, sample: 21, lessons: "1–68, Terms 1–3", bySeq: true },
   "f2-francais-intensif": { name: "Français intensif", cls: "Form 2", dir: "form-2/francais-intensif", batch: "Batches FI2-1, FI2-2", spine: "form-2/francais-intensif", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french, ...french2 }, sample: 28, lessons: "1–25, 27–51, 53–76, 78–102, Terms 1 and 2", bySeq: true },
   "f2-french": { name: "French", cls: "Form 2", dir: "form-2/french", batch: "Batches FR2-1, FR2-2", spine: "form-2/french", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french, ...french2 }, sample: 21, lessons: "1–15, 18–32, 36–52, 54–68, Terms 1 and 2", bySeq: true },
-  "f2-home-economics": { name: "Home Economics", cls: "Form 2", dir: "form-2/home-economics", batch: "Batches H2-1, H2-2", spine: "form-2/home-economics", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 12–21, 24–33, 36–46, Terms 1 and 2", bySeq: true },
-  "f2-geography": { name: "Geography", cls: "Form 2", dir: "form-2/geography", batch: "Batches G2-1, G2-2", spine: "form-2/geography", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 7, lessons: "1–19, Terms 1 and 2", bySeq: true },
-  "f2-history": { name: "History", cls: "Form 2", dir: "form-2/history", batch: "Batches Y2-1, Y2-2", spine: "form-2/history", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 9, lessons: "1–21, Terms 1 and 2", bySeq: true },
-  "f2-computer-science": { name: "Computer Science", cls: "Form 2", dir: "form-2/computer-science", batch: "Batches S2-1, S2-2", spine: "form-2/computer-science", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 15, lessons: "1, 2, 4–6, 8, 9, 11, 12, 14–16, 18, 19, 21, 22, 24, 26, 27, 29–34, 36–40, Terms 1 and 2", bySeq: true },
-  "f2-accounting": { name: "Accounting", cls: "Form 2", dir: "form-2/accounting", batch: "Batches A2-1, A2-2", spine: "form-2/accounting", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 4, lessons: "1–8, 10–18, Terms 1 and 2", bySeq: true },
+  "f2-home-economics": { name: "Home Economics", cls: "Form 2", dir: "form-2/home-economics", batch: "Batches H2-1, H2-2, H2-3", spine: "form-2/home-economics", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 12–21, 24–33, 36–46, 49–53, 56–63, Terms 1–3", bySeq: true },
+  "f2-geography": { name: "Geography", cls: "Form 2", dir: "form-2/geography", batch: "Batches G2-1, G2-2, G2-3", spine: "form-2/geography", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 7, lessons: "1–27, Terms 1–3", bySeq: true },
+  "f2-history": { name: "History", cls: "Form 2", dir: "form-2/history", batch: "Batches Y2-1, Y2-2, Y2-3", spine: "form-2/history", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 9, lessons: "1–22, Terms 1–3", bySeq: true },
+  "f2-computer-science": { name: "Computer Science", cls: "Form 2", dir: "form-2/computer-science", batch: "Batches S2-1, S2-2, S2-3", spine: "form-2/computer-science", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 15, lessons: "1, 2, 4–6, 8, 9, 11, 12, 14–16, 18, 19, 21, 22, 24, 26, 27, 29–34, 36–40, 42, 43, 45–48, 50–52, 54, Terms 1–3", bySeq: true },
+  "f2-accounting": { name: "Accounting", cls: "Form 2", dir: "form-2/accounting", batch: "Batches A2-1, A2-2, A2-3", spine: "form-2/accounting", lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...maths2, ...science2 }, sample: 4, lessons: "1–8, 10–18, 20–26, Terms 1–3", bySeq: true },
   "f2-physics": { name: "Physics", cls: "Form 2", dir: "form-2/physics", batch: "Batches P2-1, P2-2, P2-3", spine: "form-2/physics", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 6, lessons: "1–36, Terms 1–3", bySeq: true },
   "f2-chemistry": { name: "Chemistry", cls: "Form 2", dir: "form-2/chemistry", batch: "Batches C2-1, C2-2, C2-3", spine: "form-2/chemistry", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 10, lessons: "1–4, 6–11, 13–17, 20–27, 29–38, 40–45, 47–52, 55–59, Terms 1–3", bySeq: true },
   "f2-biology": { name: "Biology", cls: "Form 2", dir: "form-2/biology", batch: "Batches B2-1, B2-2, B2-3", spine: "form-2/biology", lib: { ...maths, ...english, ...physics, ...chemistry, ...biology, ...maths2, ...science2 }, sample: 7, lessons: "1–9, 13–21, 25–33, 37–46, 50–52, Terms 1–3", bySeq: true },
@@ -70,7 +70,7 @@ const spine = JSON.parse(readFileSync(new URL(`../../data/spine/${CONF.spine}.js
 const meta = Object.fromEntries(spine.terms.flatMap((t) => t.lessons).map((l) => [CONF.bySeq ? l.seq : l.lesson_no, l]));
 const SAMPLE_LESSON = CONF.sample, SAMPLE_SEED = 2026;
 const quote = (t) => String(t).split("\n").map((l) => `> ${l}`).join("\n");
-const TYPE_NAME = { numeric: "number", mcq: "multiple choice", spot_error: "spot the error", ordering: "ordering", cloze: "fill the blank", word_order: "word order", matching: "matching" };
+const TYPE_NAME = { numeric: "number", mcq: "multiple choice", spot_error: "spot the error", ordering: "ordering", cloze: "fill the blank", word_order: "word order", matching: "matching", blanks: "missing working" };
 
 function renderQuestion(q) {
   const out = [quote(q.prompt), "", ...figure(q.figure, q.id)];
@@ -94,6 +94,7 @@ function renderQuestion(q) {
     out.push(`Answer: **${q.answer}${q.unit ? " " + q.unit : ""}**`);
     for (const m of q.misconceptions) out.push(`- Typed **${m.value}** (${m.id}) → “${m.explain}”`);
   }
+  if (q.type === "blanks") out.push(`Completed working: **${q.answer}**`);
   if (q.hint) out.push("", `Hint (draft): ${q.hint}`);
   if (q.solution) out.push("", "Full working after a second miss:", "", ...q.solution.map((x) => `> ${x}  `));
   return out.join("\n");
@@ -143,6 +144,11 @@ for (const l of lessons) {
   R.push(`Prerequisites: ${l.prerequisites.join(", ") || "none"} · Skill: ${l.skills.map((s) => `${s.id} (${s.name})`).join(", ")}`, "", "**Note** (draft)", "", quote(l.note.text), "");
   l.teach.cards.forEach((c, i) => R.push(...cardBlock(l, c, 7 + i)));
   R.push(...workedBlock(l));
+  if (l.activity) {
+    R.push(`**Subject activity: ${l.activity.title}** (draft)`, "");
+    for (const stage of l.activity.stages) R.push(`**${stage.title}**`, "", renderQuestion(instantiate(stage.question, 3, lib, l.lesson_no)), "");
+    if (l.activity.reflection) R.push(...paperBlock({ ...l, paper_task: l.activity.reflection }));
+  }
   if (l.paper_task) R.push(...paperBlock(l));
   for (const t of l.questions) {
     R.push(`**Practice** ${tplHead(t)}`, "");
@@ -275,7 +281,7 @@ const A = [`# ${CONF.name} ${CLS}, ${CONF.batch}: authored answers for review`, 
   ...PART1(),
   "## Part 2: authored question templates", "",
   "| # | Template | Lesson | Type, level | Sources |", "|---|---|---|---|---|"];
-const authored = lessons.filter((l) => !isDeferred(l)).flatMap((l) => [...l.questions, ...l.teach.cards.filter((c) => !c.check.ref).map((c) => ({ ...c.check, card: c.id }))]
+const authored = lessons.filter((l) => !isDeferred(l)).flatMap((l) => [...l.questions, ...(l.activity?.stages || []).map((s) => s.question), ...l.teach.cards.filter((c) => !c.check.ref).map((c) => ({ ...c.check, card: c.id }))]
   .filter((t) => t.review === "authored").map((t) => [l, t]));
 authored.forEach(([l, t], i) => A.push(`| ${i + 1} | \`${t.id}\`${t.card ? ` (card ${t.card})` : ""} | ${l.lesson_no} | ${TYPE_NAME[t.type]}, ${t.level} | ${t.sources.join(", ")} |`));
 A.push("");
@@ -285,7 +291,7 @@ const objTable = (rows) => {
     ...rows.map((r) => `| ${keys.map((k) => (Array.isArray(r[k]) ? r[k].join(" · ") : String(r[k] ?? "")).replace(/\|/g, "/")).join(" | ")} |`)];
 };
 for (const [l, t] of authored) {
-  A.push(`### \`${t.id}\` · Lesson ${l.lesson_no} · ${TYPE_NAME[t.type]}, level ${t.level}`, "", `Prompt: ${t.prompt.replace(/\n/g, " / ")}`);
+  A.push(`### \`${t.id}\` · Lesson ${l.lesson_no} · ${TYPE_NAME[t.type]}, level ${t.level}`, "", `Prompt: ${(t.prompt || t.text || "").replace(/\n/g, " / ")}`);
   if (t.text) A.push(`Sentence: ${t.text}`);
   if (t.answer !== undefined && t.type !== "word_order") A.push(`Right answer: \`${t.answer}\`${t.accept ? `; also accepted: ${t.accept.map((a) => `\`${a}\``).join(", ")}` : ""}`);
   A.push("");

@@ -1,0 +1,345 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 63,
+ "language": "en",
+ "prerequisites": [
+  62,
+  59
+ ],
+ "skills": [
+  {
+   "id": "h2-63",
+   "name": "Techniques of ironing"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Good ironing technique:\n1. Read the care label and set the iron to the right temperature; iron cool fabrics (synthetics, silk) first, then warm, then hot (cotton, linen), so the iron is not too hot for delicate fabrics.\n2. Iron on a clean ironing board or a padded table.\n3. Iron slightly damp cotton for best results, or use steam.\n4. Iron in the direction of the threads (lengthwise), not in circles, to avoid stretching.\n5. Iron dark and delicate fabrics on the wrong side (inside out) to avoid shine.\n6. Order for a shirt: collar, cuffs, sleeves, back, then fronts.\n7. Hang or fold the garment immediately so it does not crease again.\nSafety: never leave a hot iron face down or unattended; unplug after use; keep the cable away from children.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In what order should you iron a nylon blouse, a silk scarf and a cotton shirt, and why?",
+  "steps": [
+   "Start with the coolest setting: nylon and silk (one dot).",
+   "Then the cotton shirt (hot). This avoids melting or scorching delicate fabrics."
+  ],
+  "answer": "Nylon blouse and silk scarf first, then the cotton shirt.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c63-1",
+    "status": "draft",
+    "idea": "Iron cool fabrics first, then warm, then hot.",
+    "vars": {},
+    "example": [
+     "Silk before cotton."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-63-order"
+    }
+   },
+   {
+    "id": "c63-2",
+    "status": "draft",
+    "idea": "Iron dark and delicate fabrics on the wrong side.",
+    "vars": {},
+    "example": [
+     "Avoids shine."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-63-tech"
+    }
+   },
+   {
+    "id": "c63-3",
+    "status": "draft",
+    "idea": "Shirt order: collar, cuffs, sleeves, back, fronts.",
+    "vars": {},
+    "example": [
+     "Hang it at once."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-63-shirt-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "laundry"
+     ],
+     "prompt": "Put the steps for ironing a shirt in order.",
+     "items": [
+      {
+       "text": "Collar"
+      },
+      {
+       "text": "Cuffs"
+      },
+      {
+       "text": "Sleeves"
+      },
+      {
+       "text": "Back"
+      },
+      {
+       "text": "Fronts"
+      },
+      {
+       "text": "Hang it on a hanger"
+      }
+     ],
+     "order": "as_written"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-63-order",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which fabric should be ironed first when you have nylon, wool and cotton?",
+       "r": "nylon (coolest setting)",
+       "w": [
+        "cotton (hottest)",
+        "wool",
+        "it does not matter"
+       ],
+       "e": [
+        "The iron would be too hot for the others.",
+        "Wool needs a warm iron, after nylon.",
+        "It matters."
+       ],
+       "y": "Cool first, then warm, then hot."
+      },
+      {
+       "q": "Why iron in the direction of the threads?",
+       "r": "to avoid stretching the fabric",
+       "w": [
+        "to make it dirty",
+        "to make holes",
+        "it does not matter"
+       ],
+       "e": [
+        "Not the reason.",
+        "Not the reason.",
+        "It matters."
+       ],
+       "y": "Circles stretch the fabric."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-63-tech",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should dark trousers be ironed on the wrong side?",
+       "r": "to avoid a shiny mark",
+       "w": [
+        "to make them lighter in colour",
+        "to save electricity",
+        "because the right side is dirty"
+       ],
+       "e": [
+        "Not the reason.",
+        "Not the reason.",
+        "Not the reason."
+       ],
+       "y": "Heat can make dark fabrics shine."
+      },
+      {
+       "q": "What is the safest thing to do with an iron after use?",
+       "r": "unplug it and stand it upright to cool",
+       "w": [
+        "leave it face down on the clothes",
+        "put it in water",
+        "give it to a small child"
+       ],
+       "e": [
+        "Fire risk.",
+        "Dangerous.",
+        "Dangerous."
+       ],
+       "y": "Safety first."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-63-shirt",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "prompt": "Put the steps for ironing a shirt in order.",
+   "items": [
+    {
+     "text": "Collar"
+    },
+    {
+     "text": "Cuffs"
+    },
+    {
+     "text": "Sleeves"
+    },
+    {
+     "text": "Back"
+    },
+    {
+     "text": "Fronts"
+    },
+    {
+     "text": "Hang it on a hanger"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "h2-63-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Read the label first.",
+      "truth": "true"
+     },
+     {
+      "text": "Iron cool fabrics first.",
+      "truth": "true"
+     },
+     {
+      "text": "Iron dark clothes inside out.",
+      "truth": "true"
+     },
+     {
+      "text": "Unplug the iron after use.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Iron silk with the hottest setting.",
+      "truth": "false",
+      "explain": "Silk needs a cool iron."
+     },
+     {
+      "text": "Leave the hot iron face down on the board.",
+      "truth": "false",
+      "explain": "Stand it upright and never leave it."
+     },
+     {
+      "text": "Iron in circles to remove creases faster.",
+      "truth": "false",
+      "explain": "Iron along the threads to avoid stretching."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "a2-24",
+   "name": "Trading transactions: documents and inventory"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Trading transactions are the purchase and sale of goods.\nDocuments:\n• the purchase order (bon de commande): the buyer asks for goods;\n• the delivery note (bon de livraison): sent with the goods; the buyer checks and signs it;\n• the invoice (facture): states the goods, quantities, prices, discounts, VAT and the amount to pay — the main document for recording;\n• the credit note (avoir): reduces an invoice (goods returned, extra discount);\n• the receipt (reçu): proof that payment was made.\nInventory: counting and valuing the goods in stock, at least once a year at the end of the year. Stock at the end = stock at the start + purchases − goods sold.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "s": 200,
+   "b": 450,
+   "x": 380
+  },
+  "problem": "A shop starts with {s} bags of rice, buys {b} and sells {x}. How many bags are in stock at the end?",
+  "steps": [
+   "End stock = start stock + purchases − sales.",
+   "{s} + {b} − {x} = {s + b - x} bags."
+  ],
+  "answer": "{s + b - x} bags",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "Documents: purchase order, delivery note, invoice, credit note, receipt.",
+    "vars": {},
+    "example": [
+     "The invoice is the main document."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-24-doc"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "A credit note reduces an invoice; a receipt proves payment.",
+    "vars": {},
+    "example": [
+     "Goods returned: credit note."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-24-credit"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "End stock = start stock + purchases − sales.",
+    "vars": {},
+    "example": [
+     "Inventory at the year end."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-24-stock-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "trading"
+     ],
+     "vars": {
+      "s": {
+       "int": [
+        20,
+        200
+       ]
+      },
+      "b": {
+       "int": [
+        50,
+        300
+       ]
+      },
+      "x": {
+       "int": [
+        30,
+        250
+       ]
+      }
+     },
+     "prompt": "A shop starts with {s} cartons of soap, buys {b} and sells {x}. How many cartons remain?",
+     "answer": "s + b - x",
+     "misconceptions": [
+      {
+       "id": "nosale",
+       "wrong": "s + b",
+       "explain": "Subtract the cartons sold."
+      },
+      {
+       "id": "sign",
+       "wrong": "s - b + x",
+       "explain": "Add purchases and subtract sales."
+      }
+     ],
+     "solution": [
+      "End stock = start stock + purchases − sales.",
+      "{s} + {b} − {x} = {answer} cartons."
+     ],
+     "where": "x < s + b",
+     "unit": "cartons"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-24-doc",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "trading"
+   ],
+   "prompt": "Match each document to its role.",
+   "pool": [
+    {
+     "left": "purchase order",
+     "right": "the buyer asks for goods"
+    },
+    {
+     "left": "delivery note",
+     "right": "goes with the goods; the buyer signs it"
+    },
+    {
+     "left": "invoice",
+     "right": "states the amount to pay"
+    },
+    {
+     "left": "credit note",
+     "right": "reduces an invoice"
+    },
+    {
+     "left": "receipt",
+     "right": "proves that payment was made"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "a2-24-credit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "trading"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Damaged goods are returned to the supplier. Which document does the supplier send?",
+       "r": "a credit note",
+       "w": [
+        "an invoice",
+        "a purchase order",
+        "a delivery note"
+       ],
+       "e": [
+        "That asks for payment.",
+        "That orders goods.",
+        "That accompanies goods."
+       ],
+       "y": "It reduces the amount owed."
+      },
+      {
+       "q": "Which document proves that a customer has paid?",
+       "r": "a receipt",
+       "w": [
+        "a purchase order",
+        "a delivery note",
+        "a credit note"
+       ],
+       "e": [
+        "That orders goods.",
+        "That accompanies goods.",
+        "That reduces an invoice."
+       ],
+       "y": "Proof of payment."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-24-stock",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trading"
+   ],
+   "vars": {
+    "s": {
+     "int": [
+      20,
+      200
+     ]
+    },
+    "b": {
+     "int": [
+      50,
+      300
+     ]
+    },
+    "x": {
+     "int": [
+      30,
+      250
+     ]
+    }
+   },
+   "prompt": "A shop starts with {s} cartons of soap, buys {b} and sells {x}. How many cartons remain?",
+   "answer": "s + b - x",
+   "misconceptions": [
+    {
+     "id": "nosale",
+     "wrong": "s + b",
+     "explain": "Subtract the cartons sold."
+    },
+    {
+     "id": "sign",
+     "wrong": "s - b + x",
+     "explain": "Add purchases and subtract sales."
+    }
+   ],
+   "solution": [
+    "End stock = start stock + purchases − sales.",
+    "{s} + {b} − {x} = {answer} cartons."
+   ],
+   "where": "x < s + b",
+   "unit": "cartons"
+  },
+  {
+   "id": "a2-24-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "trading"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The invoice states the amount to pay.",
+      "truth": "true"
+     },
+     {
+      "text": "A receipt proves payment.",
+      "truth": "true"
+     },
+     {
+      "text": "Inventory counts the stock.",
+      "truth": "true"
+     },
+     {
+      "text": "A delivery note goes with the goods.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A credit note increases the amount the buyer owes.",
+      "truth": "false",
+      "explain": "It reduces it."
+     },
+     {
+      "text": "Inventory is never needed.",
+      "truth": "false",
+      "explain": "It is done at least once a year."
+     },
+     {
+      "text": "The purchase order proves payment.",
+      "truth": "false",
+      "explain": "It only asks for goods."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

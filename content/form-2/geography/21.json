@@ -1,0 +1,440 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "g2-21",
+   "name": "Towns in Africa: problems of African cities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "African cities grow very fast, mainly because of rural exodus and high birth rates. Problems:\n• housing shortage and shanty towns; high rents;\n• unemployment and underemployment; poverty;\n• traffic jams, poor roads, accidents;\n• insufficient water, electricity and health services; load shedding (power cuts);\n• waste and pollution: rubbish heaps, blocked gutters, floods, air pollution from vehicles and factories;\n• insecurity: theft, aggression, drug abuse;\n• diseases: cholera, malaria, typhoid.\nSolutions: town planning, low-cost housing, better public transport, waste collection (HYSACAM), new jobs, family planning, developing rural areas to reduce exodus.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why are floods common in some quarters of Douala and Yaoundé?",
+  "steps": [
+   "Rubbish is thrown into gutters and streams, blocking them.",
+   "Houses are built in swampy areas, so heavy rain cannot drain away."
+  ],
+  "answer": "Blocked gutters and building in swampy areas.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "Cities grow fast because of rural exodus and high birth rates.",
+    "vars": {},
+    "example": [
+     "Young people move to Douala."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-21-cause"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Problems: housing, unemployment, traffic, pollution, insecurity, diseases.",
+    "vars": {},
+    "example": [
+     "Traffic jams at rush hour."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-21-prob"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Solutions: town planning, low-cost housing, transport, waste collection, rural development.",
+    "vars": {},
+    "example": [
+     "HYSACAM collects rubbish."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-21-sol-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-towns"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which measure would reduce floods in towns?",
+         "r": "regular waste collection and clearing gutters",
+         "w": [
+          "throwing rubbish into streams",
+          "building in swamps",
+          "blocking drains"
+         ],
+         "e": [
+          "That causes floods.",
+          "That causes floods.",
+          "That causes floods."
+         ],
+         "y": "Water must drain away."
+        },
+        {
+         "q": "How can rural development reduce urban problems?",
+         "r": "It keeps people in villages, so towns grow more slowly.",
+         "w": [
+          "It makes towns bigger.",
+          "It closes towns.",
+          "It has no effect."
+         ],
+         "e": [
+          "The opposite.",
+          "Not the effect.",
+          "It helps."
+         ],
+         "y": "Less rural exodus."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-21-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a main cause of the fast growth of African cities?",
+       "r": "rural exodus (people moving from villages to towns)",
+       "w": [
+        "people leaving towns for villages",
+        "fewer births",
+        "closing of schools in towns"
+       ],
+       "e": [
+        "That is the opposite.",
+        "Birth rates are high.",
+        "Not a cause."
+       ],
+       "y": "Many come to look for jobs."
+      },
+      {
+       "q": "What is load shedding?",
+       "r": "planned power cuts when there is not enough electricity",
+       "w": [
+        "carrying loads on the head",
+        "removing rubbish",
+        "a traffic jam"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Electricity is shared by cutting some areas."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-21-prob",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is an urban problem?",
+       "r": "traffic jams",
+       "w": [
+        "too much space for houses",
+        "too many jobs",
+        "too little population"
+       ],
+       "e": [
+        "Space is short.",
+        "Jobs are short.",
+        "Cities are crowded."
+       ],
+       "y": "Roads cannot carry all the cars."
+      },
+      {
+       "q": "Which disease spreads where rubbish and dirty water collect in towns?",
+       "r": "cholera",
+       "w": [
+        "goitre",
+        "night blindness",
+        "scurvy"
+       ],
+       "e": [
+        "Lack of iodine.",
+        "Lack of vitamin A.",
+        "Lack of vitamin C."
+       ],
+       "y": "Germs in dirty water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-21-sol",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which measure would reduce floods in towns?",
+       "r": "regular waste collection and clearing gutters",
+       "w": [
+        "throwing rubbish into streams",
+        "building in swamps",
+        "blocking drains"
+       ],
+       "e": [
+        "That causes floods.",
+        "That causes floods.",
+        "That causes floods."
+       ],
+       "y": "Water must drain away."
+      },
+      {
+       "q": "How can rural development reduce urban problems?",
+       "r": "It keeps people in villages, so towns grow more slowly.",
+       "w": [
+        "It makes towns bigger.",
+        "It closes towns.",
+        "It has no effect."
+       ],
+       "e": [
+        "The opposite.",
+        "Not the effect.",
+        "It helps."
+       ],
+       "y": "Less rural exodus."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cities grow because of rural exodus.",
+      "truth": "true"
+     },
+     {
+      "text": "Shanty towns lack services.",
+      "truth": "true"
+     },
+     {
+      "text": "Blocked gutters cause floods.",
+      "truth": "true"
+     },
+     {
+      "text": "Town planning helps.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "African cities have more houses than people need.",
+      "truth": "false",
+      "explain": "There is a housing shortage."
+     },
+     {
+      "text": "Rubbish in gutters prevents floods.",
+      "truth": "false",
+      "explain": "It causes floods."
+     },
+     {
+      "text": "Unemployment is never a problem in towns.",
+      "truth": "false",
+      "explain": "It is a major problem."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-237 P1 items: 235 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3, Français intensif Term 2 3, Maths Term 3 3, English Term 3 3, Physics Term 3 1, Chemistry Term 3 2, Biology Term 3 1). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+242 P1 items: 240 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3, Français intensif Term 2 3, Maths Term 3 3, English Term 3 3, Physics Term 3 1, Chemistry Term 3 2, Biology Term 3 1, Geography Term 3 1, History Term 3 1, Home Economics Term 3 1, Computer Science Term 3 1, Accounting Term 3 1). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -265,6 +265,11 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-J20 | Form 2 Chemistry: heat and electrolysis | open |
 | TR-J21 | Form 2 Chemistry: fuels | open |
 | TR-V20 | Form 2 Biology: ozone and sanitation | open |
+| TR-O20 | Form 2 Geography: towns and headquarters | open |
+| TR-I20 | Form 2 History: the Americas | open |
+| TR-U20 | Form 2 Home Economics: embroidery and laundry | open |
+| TR-T20 | Form 2 Computer Science: security, communication, maintenance | open |
+| TR-X20 | Form 2 Accounting: entries, VAT, mark-up | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -1014,3 +1019,43 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 
 ### P1
 - [ ] **TR-V20 [P1] Ozone and sanitation:** ozone layer altitude (15–35 km), CFCs and the Montreal Protocol (1987); latrine types, the 30 m distance from wells, care of latrines and WCs, the tippy-tap. *Location:* rows 50–52.
+
+
+## Subject activity pilots (2026-10-21)
+
+Twelve draft pilots add ordered activities between the worked example and ordinary practice. See `docs/subject-activity-pilots.md` for exact lessons. Teachers can mark each stage and the language writing reflection in `?review`. Check the subject reasoning, distractors, difficulty and clarity of the diagrams. The history source card is explicitly an invented classroom example, not an authentic historical quotation. Language reflections are written on paper, followed by a model and self-check list; the app does not mark original writing. Activity misses use the existing retry rule and targeted review.
+
+## O (Term 3). Geography Form 2, Batch G2-3 (Term 3, rows 20–27), added 2026-10-21 (form-2 branch)
+
+8 lessons: towns in Africa (urban landscapes, informal activities, problems), the informal sector, practical work 4 (regional and divisional headquarters), urban problems in Cameroon, town–country relationships (economic; socio-cultural and information), rural exodus in Cameroon. Reviewer: a Geography teacher.
+
+### P1
+- [ ] **TR-O20 [P1] Towns and headquarters:** the ten regional headquarters and the ten example divisions with their headquarters (Fako–Limbe, Meme–Kumba, Mezam–Bamenda, Bui–Kumbo, Wouri–Douala, Mfoundi–Yaoundé, Mifi–Bafoussam, Benoue–Garoua, Diamaré–Maroua, Océan–Kribi); quarter names (Akwa, Bassa, Bastos, Bonapriso); HYSACAM. *Location:* rows 20–24.
+
+## I (Term 3). History Form 2, Batch Y2-3 (Term 3, row 22), added 2026-10-21 (form-2 branch)
+
+1 lesson: the Maya, Aztec and Inca. Reviewer: a History teacher.
+
+### P1
+- [ ] **TR-I20 [P1] The Americas:** Maya classic period about 250–900, Tenochtitlan founded about 1325 and conquered by Cortés in 1521, the Inca empire about 1438–1533 and Pizarro; chinampas, quipu, Machu Picchu; causes of decline (conquest, smallpox, drought). *Location:* row 22.
+
+## U (Term 3). Home Economics Form 2, Batch H2-3 (Term 3, rows 49–53 and 56–63), added 2026-10-21 (form-2 branch)
+
+13 lessons: obesity, rickets and osteomalacia, scurvy and anaemia, embroidery (classification, stitches, fabrics, counted-thread designs, white work, candlewicking, shadow work, tools), clothing labels and care symbols, laundry, types of irons, ironing techniques. Rows 54 and 55 are not lessons. Reviewer: a Home Economics teacher.
+
+### P1
+- [ ] **TR-U20 [P1] Embroidery and laundry:** the stitches and techniques, the fibre properties, the care symbols (tub, triangle, square, iron with dots, circle), the types of irons and ironing order; the row 50 « picture of a child with rickets » is described in words, not drawn. *Location:* rows 50–63.
+
+## T (Term 3). Computer Science Form 2, Batch S2-3 (Term 3, rows 42, 43, 45–48, 50–52, 54), added 2026-10-21 (form-2 branch)
+
+10 lessons: authentication, backup, communication and collaboration tools, e-mail, chat, videoconference, computer maintenance, hardware problems, software problems, credibility of information. Integration rows are not lessons. Reviewer: a Computer Science teacher.
+
+### P1
+- [ ] **TR-T20 [P1] Security, communication and maintenance:** authentication factors and two-factor, the 3-2-1 backup rule, e-mail parts and phishing, chat and videoconference etiquette, Ctrl+Alt+Del for the Task Manager, troubleshooting steps, fake-news checks. *Location:* rows 42–54.
+
+## X (Term 3). Accounting Form 2, Batch A2-3 (Term 3, rows 20–26), added 2026-10-21 (form-2 branch)
+
+7 lessons: business finance (own funds, contributions, subsidies, loans, leasing), investment transactions (fixed assets, acquisition cost, contributed and subsidised assets, financial assets), trading transactions (documents, inventory, mark-up and margin, invoices with VAT), cash and bank transactions. Reviewer: an Accounting teacher.
+
+### P1
+- [ ] **TR-X20 [P1] Entries, VAT and mark-up:** the entries (contribution 521/101, loans 162, fixed assets on credit 481, own production 72, subsidies 14 and 71, cash sale 571/701), VAT at 19.25%, mark-up on cost vs margin on sales, simple interest for loans. *Location:* rows 20–26.

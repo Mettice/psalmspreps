@@ -1,0 +1,440 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 50,
+ "language": "en",
+ "prerequisites": [
+  49
+ ],
+ "skills": [
+  {
+   "id": "h2-50",
+   "name": "Rickets and osteomalacia"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rickets (in children) and osteomalacia (in adults) are diseases of soft, weak bones.\nCause: a lack of vitamin D, calcium or phosphorus. Vitamin D helps the body absorb calcium; the skin makes it in sunlight.\nSigns of rickets: bowed legs (legs curved outwards) or knock knees, swollen wrists and ankles, delayed walking and teething, a chest that sticks out (pigeon chest), weak muscles.\nSigns of osteomalacia: bone pain, muscle weakness, bones that break easily.\nSources: vitamin D — sunlight, egg yolk, oily fish (sardines, mackerel), liver, fortified milk; calcium — milk, cheese, small fish eaten with bones (crayfish), green vegetables, beans.\nPrevention: let babies and children play in the morning sun; give milk, eggs, fish and crayfish; breastfeed.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A two-year-old has bowed legs and swollen wrists and stays indoors all day. What disease may the child have, and what would help?",
+  "steps": [
+   "Bowed legs and swollen wrists are signs of rickets (lack of vitamin D or calcium).",
+   "Let the child play in the morning sun, and give milk, eggs and fish."
+  ],
+  "answer": "Rickets: sunlight, milk, eggs and fish.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c50-1",
+    "status": "draft",
+    "idea": "Rickets (children) and osteomalacia (adults) are caused by a lack of vitamin D or calcium.",
+    "vars": {},
+    "example": [
+     "Soft, weak bones."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-50-cause"
+    }
+   },
+   {
+    "id": "c50-2",
+    "status": "draft",
+    "idea": "Signs of rickets: bowed legs, swollen wrists, delayed walking.",
+    "vars": {},
+    "example": [
+     "A pigeon chest."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-50-sign"
+    }
+   },
+   {
+    "id": "c50-3",
+    "status": "draft",
+    "idea": "Sunlight makes vitamin D in the skin; milk, fish and crayfish give calcium.",
+    "vars": {},
+    "example": [
+     "Morning sun is best."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-50-prev-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "deficiency-diseases"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which food is rich in calcium?",
+         "r": "milk",
+         "w": [
+          "white rice",
+          "sugar",
+          "palm wine"
+         ],
+         "e": [
+          "Little calcium.",
+          "None.",
+          "Not a calcium source."
+         ],
+         "y": "Milk builds bones."
+        },
+        {
+         "q": "Which advice prevents rickets?",
+         "r": "let children play in the morning sun and give them milk and fish",
+         "w": [
+          "keep babies indoors all day",
+          "give only sugar water",
+          "avoid all eggs"
+         ],
+         "e": [
+          "They need sunlight.",
+          "No nutrients.",
+          "Eggs give vitamin D."
+         ],
+         "y": "Sunlight and calcium."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-50-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What causes rickets?",
+       "r": "a lack of vitamin D or calcium",
+       "w": [
+        "too much protein",
+        "a lack of iodine",
+        "too much water"
+       ],
+       "e": [
+        "Protein does not cause it.",
+        "That is goitre.",
+        "Not the cause."
+       ],
+       "y": "Bones need calcium; vitamin D helps absorb it."
+      },
+      {
+       "q": "How does the body get most of its vitamin D?",
+       "r": "the skin makes it in sunlight",
+       "w": [
+        "from drinking water",
+        "from sugar",
+        "from cassava only"
+       ],
+       "e": [
+        "Water has none.",
+        "Sugar has none.",
+        "Cassava has little."
+       ],
+       "y": "Sunlight on the skin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-50-sign",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a sign of rickets?",
+       "r": "bowed legs",
+       "w": [
+        "swollen neck",
+        "bleeding gums",
+        "yellow eyes"
+       ],
+       "e": [
+        "That is goitre.",
+        "That is scurvy.",
+        "That is jaundice."
+       ],
+       "y": "Soft bones bend."
+      },
+      {
+       "q": "What is osteomalacia?",
+       "r": "softening of the bones in adults",
+       "w": [
+        "a disease of the eyes",
+        "a skin rash",
+        "a disease of the teeth only"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "It affects bones."
+       ],
+       "y": "The adult form of rickets."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-50-prev",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which food is rich in calcium?",
+       "r": "milk",
+       "w": [
+        "white rice",
+        "sugar",
+        "palm wine"
+       ],
+       "e": [
+        "Little calcium.",
+        "None.",
+        "Not a calcium source."
+       ],
+       "y": "Milk builds bones."
+      },
+      {
+       "q": "Which advice prevents rickets?",
+       "r": "let children play in the morning sun and give them milk and fish",
+       "w": [
+        "keep babies indoors all day",
+        "give only sugar water",
+        "avoid all eggs"
+       ],
+       "e": [
+        "They need sunlight.",
+        "No nutrients.",
+        "Eggs give vitamin D."
+       ],
+       "y": "Sunlight and calcium."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-50-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Rickets causes bowed legs.",
+      "truth": "true"
+     },
+     {
+      "text": "Sunlight helps make vitamin D.",
+      "truth": "true"
+     },
+     {
+      "text": "Milk gives calcium.",
+      "truth": "true"
+     },
+     {
+      "text": "Osteomalacia affects adults.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Rickets is caused by too much calcium.",
+      "truth": "false",
+      "explain": "It is caused by a lack of calcium or vitamin D."
+     },
+     {
+      "text": "Children should never go in the sun.",
+      "truth": "false",
+      "explain": "Morning sun helps make vitamin D."
+     },
+     {
+      "text": "Crayfish has no calcium.",
+      "truth": "false",
+      "explain": "Small fish eaten with bones give calcium."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

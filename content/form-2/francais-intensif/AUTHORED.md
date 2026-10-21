@@ -1,4 +1,4 @@
-# Français intensif Form 2, Batch FI2-1: authored answers for review
+# Français intensif Form 2, Batches FI2-1, FI2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -20,441 +20,443 @@ Regenerate with `npm run review:f2-francais-intensif`. Item IDs (TR-…) match `
 | 2 | `fi2-1-attr` | 1 | multiple choice, 1 | grammaire |
 | 3 | `fi2-1-place` | 1 | multiple choice, 2 | grammaire |
 | 4 | `fi2-1-spot` | 1 | spot the error, 3 | grammaire |
-| 5 | `fi2-1-place-card` (card c1-3) | 1 | multiple choice, 1 | grammaire |
-| 6 | `fi2-2-emploi` | 2 | multiple choice, 2 | conjugaison |
-| 7 | `fi2-2-emploi-card` (card c2-3) | 2 | multiple choice, 1 | conjugaison |
-| 8 | `fi2-3-fin` | 3 | fill the blank, 1 | orthographe |
-| 9 | `fi2-3-virg` | 3 | multiple choice, 1 | orthographe |
-| 10 | `fi2-3-paroles` | 3 | multiple choice, 2 | orthographe |
-| 11 | `fi2-3-spot` | 3 | spot the error, 3 | orthographe |
-| 12 | `fi2-3-paroles-card` (card c3-3) | 3 | multiple choice, 1 | orthographe |
-| 13 | `fi2-4-mariage` | 4 | multiple choice, 1 | vocabulaire |
-| 14 | `fi2-4-age` | 4 | multiple choice, 1 | vocabulaire |
-| 15 | `fi2-4-mots` | 4 | matching, 2 | vocabulaire |
-| 16 | `fi2-4-spot` | 4 | spot the error, 3 | vocabulaire |
-| 17 | `fi2-4-mots-card` (card c4-3) | 4 | matching, 1 | vocabulaire |
-| 18 | `fi2-5-mots` | 5 | multiple choice, 1 | litterature |
-| 19 | `fi2-5-rime` | 5 | multiple choice, 1 | litterature |
-| 20 | `fi2-5-dire` | 5 | multiple choice, 2 | expression |
-| 21 | `fi2-5-spot` | 5 | spot the error, 3 | litterature |
-| 22 | `fi2-5-dire-card` (card c5-3) | 5 | multiple choice, 1 | expression |
-| 23 | `fi2-6-lettre` | 6 | multiple choice, 1 | lecture |
-| 24 | `fi2-6-texte` | 6 | multiple choice, 1 | lecture |
-| 25 | `fi2-6-sent` | 6 | multiple choice, 2 | lecture |
-| 26 | `fi2-6-spot` | 6 | spot the error, 3 | lecture |
-| 27 | `fi2-6-sent-card` (card c6-3) | 6 | multiple choice, 1 | lecture |
-| 28 | `fi2-7-sv` | 7 | multiple choice, 1 | grammaire |
-| 29 | `fi2-7-type` | 7 | multiple choice, 1 | grammaire |
-| 30 | `fi2-7-wo` | 7 | word order, 2 | grammaire |
-| 31 | `fi2-7-spot` | 7 | spot the error, 3 | grammaire |
-| 32 | `fi2-7-wo-card` (card c7-3) | 7 | word order, 1 | grammaire |
-| 33 | `fi2-8-genre` | 8 | multiple choice, 1 | litterature |
-| 34 | `fi2-8-recit` | 8 | multiple choice, 1 | litterature |
-| 35 | `fi2-8-morale` | 8 | multiple choice, 2 | litterature |
-| 36 | `fi2-8-spot` | 8 | spot the error, 3 | litterature |
-| 37 | `fi2-8-morale-card` (card c8-3) | 8 | multiple choice, 1 | litterature |
-| 38 | `fi2-9-liste` | 9 | multiple choice, 1 | grammaire |
-| 39 | `fi2-9-sens` | 9 | fill the blank, 1 | grammaire |
-| 40 | `fi2-9-choix` | 9 | fill the blank, 2 | grammaire |
-| 41 | `fi2-9-spot` | 9 | spot the error, 3 | grammaire |
-| 42 | `fi2-9-choix-card` (card c9-3) | 9 | fill the blank, 1 | grammaire |
-| 43 | `fi2-10-emploi` | 10 | fill the blank, 2 | conjugaison |
-| 44 | `fi2-10-emploi-card` (card c10-3) | 10 | fill the blank, 1 | conjugaison |
-| 45 | `fi2-11-debut` | 11 | fill the blank, 1 | orthographe |
-| 46 | `fi2-11-fem` | 11 | fill the blank, 1 | orthographe |
-| 47 | `fi2-11-ss` | 11 | multiple choice, 2 | orthographe |
-| 48 | `fi2-11-spot` | 11 | spot the error, 3 | orthographe |
-| 49 | `fi2-11-ss-card` (card c11-3) | 11 | multiple choice, 1 | orthographe |
-| 50 | `fi2-12-mot` | 12 | multiple choice, 1 | vocabulaire |
-| 51 | `fi2-12-lire` | 12 | multiple choice, 1 | vocabulaire |
-| 52 | `fi2-12-gen` | 12 | multiple choice, 2 | vocabulaire |
-| 53 | `fi2-12-spot` | 12 | spot the error, 3 | vocabulaire |
-| 54 | `fi2-12-gen-card` (card c12-3) | 12 | multiple choice, 1 | vocabulaire |
-| 55 | `fi2-13-role` | 13 | multiple choice, 1 | expression |
-| 56 | `fi2-13-formule` | 13 | multiple choice, 1 | expression |
-| 57 | `fi2-13-ordre` | 13 | multiple choice, 2 | expression |
-| 58 | `fi2-13-dial` | 13 | ordering, 3 | expression |
-| 59 | `fi2-13-ordre-card` (card c13-3) | 13 | multiple choice, 1 | expression |
-| 60 | `fi2-14-mot` | 14 | multiple choice, 1 | expression |
-| 61 | `fi2-14-plan` | 14 | multiple choice, 1 | expression |
-| 62 | `fi2-14-ordre` | 14 | ordering, 2 | expression |
-| 63 | `fi2-14-spot` | 14 | spot the error, 3 | expression |
-| 64 | `fi2-14-ordre-card` (card c14-3) | 14 | ordering, 1 | expression |
-| 65 | `fi2-15-type` | 15 | multiple choice, 1 | grammaire |
-| 66 | `fi2-15-cdn` | 15 | fill the blank, 1 | grammaire |
-| 67 | `fi2-15-qui` | 15 | fill the blank, 2 | grammaire |
-| 68 | `fi2-15-wo` | 15 | word order, 3 | grammaire |
-| 69 | `fi2-15-qui-card` (card c15-3) | 15 | fill the blank, 1 | grammaire |
-| 70 | `fi2-16-son` | 16 | multiple choice, 1 | orthographe |
-| 71 | `fi2-16-oblig` | 16 | multiple choice, 1 | orthographe |
-| 72 | `fi2-16-interdit` | 16 | multiple choice, 2 | orthographe |
-| 73 | `fi2-16-spot` | 16 | spot the error, 3 | orthographe |
-| 74 | `fi2-16-interdit-card` (card c16-3) | 16 | multiple choice, 1 | orthographe |
-| 75 | `fi2-17-ecole` | 17 | matching, 1 | vocabulaire |
-| 76 | `fi2-17-quartier` | 17 | multiple choice, 1 | vocabulaire |
-| 77 | `fi2-17-voisin` | 17 | multiple choice, 2 | vocabulaire |
-| 78 | `fi2-17-spot` | 17 | spot the error, 3 | vocabulaire |
-| 79 | `fi2-17-voisin-card` (card c17-3) | 17 | multiple choice, 1 | vocabulaire |
-| 80 | `fi2-18-type` | 18 | multiple choice, 1 | expression |
-| 81 | `fi2-18-mot` | 18 | multiple choice, 1 | expression |
-| 82 | `fi2-18-msg` | 18 | multiple choice, 2 | expression |
-| 83 | `fi2-18-ordre` | 18 | ordering, 3 | expression |
-| 84 | `fi2-18-msg-card` (card c18-3) | 18 | multiple choice, 1 | expression |
-| 85 | `fi2-19-obs` | 19 | multiple choice, 1 | expression |
-| 86 | `fi2-19-temps` | 19 | fill the blank, 1 | expression |
-| 87 | `fi2-19-plan` | 19 | ordering, 2 | expression |
-| 88 | `fi2-19-spot` | 19 | spot the error, 3 | expression |
-| 89 | `fi2-19-plan-card` (card c19-3) | 19 | ordering, 1 | expression |
-| 90 | `fi2-20-cod` | 20 | fill the blank, 2 | grammaire |
-| 91 | `fi2-20-spot` | 20 | spot the error, 3 | grammaire |
-| 92 | `fi2-20-cod-card` (card c20-3) | 20 | fill the blank, 1 | grammaire |
-| 93 | `fi2-21-f` | 21 | fill the blank, 1 | orthographe |
-| 94 | `fi2-21-j` | 21 | fill the blank, 1 | orthographe |
-| 95 | `fi2-21-e` | 21 | fill the blank, 2 | orthographe |
-| 96 | `fi2-21-spot` | 21 | spot the error, 3 | orthographe |
-| 97 | `fi2-21-e-card` (card c21-3) | 21 | fill the blank, 1 | orthographe |
-| 98 | `fi2-22-ident` | 22 | multiple choice, 1 | grammaire |
-| 99 | `fi2-22-temps` | 22 | fill the blank, 1 | conjugaison |
-| 100 | `fi2-22-util` | 22 | fill the blank, 2 | grammaire |
-| 101 | `fi2-22-spot` | 22 | spot the error, 3 | grammaire |
-| 102 | `fi2-22-util-card` (card c22-3) | 22 | fill the blank, 1 | grammaire |
-| 103 | `fi2-23-conte` | 23 | multiple choice, 1 | litterature |
-| 104 | `fi2-23-schema` | 23 | multiple choice, 1 | litterature |
-| 105 | `fi2-23-lecon` | 23 | multiple choice, 2 | litterature |
-| 106 | `fi2-23-spot` | 23 | spot the error, 3 | litterature |
-| 107 | `fi2-23-lecon-card` (card c23-3) | 23 | multiple choice, 1 | litterature |
-| 108 | `fi2-24-into` | 24 | matching, 1 | expression |
-| 109 | `fi2-24-pause` | 24 | multiple choice, 1 | expression |
-| 110 | `fi2-24-ton` | 24 | multiple choice, 2 | expression |
-| 111 | `fi2-24-spot` | 24 | spot the error, 3 | expression |
-| 112 | `fi2-24-ton-card` (card c24-3) | 24 | multiple choice, 1 | expression |
-| 113 | `fi2-25-ordre` | 25 | ordering, 1 | expression |
-| 114 | `fi2-25-mots` | 25 | fill the blank, 1 | expression |
-| 115 | `fi2-25-temps` | 25 | fill the blank, 2 | conjugaison |
-| 116 | `fi2-25-spot` | 25 | spot the error, 3 | expression |
-| 117 | `fi2-25-temps-card` (card c25-3) | 25 | fill the blank, 1 | conjugaison |
-| 118 | `fi2-28-emploi` | 28 | multiple choice, 2 | conjugaison |
-| 119 | `fi2-28-emploi-card` (card c28-3) | 28 | multiple choice, 1 | conjugaison |
-| 120 | `fi2-29-a` | 29 | fill the blank, 1 | orthographe |
-| 121 | `fi2-29-et` | 29 | fill the blank, 1 | orthographe |
-| 122 | `fi2-29-ses` | 29 | fill the blank, 2 | orthographe |
-| 123 | `fi2-29-spot` | 29 | spot the error, 3 | orthographe |
-| 124 | `fi2-29-ses-card` (card c29-3) | 29 | fill the blank, 1 | orthographe |
-| 125 | `fi2-30-mots` | 30 | matching, 1 | vocabulaire |
-| 126 | `fi2-30-gestes` | 30 | multiple choice, 1 | vocabulaire |
-| 127 | `fi2-30-def` | 30 | fill the blank, 2 | vocabulaire |
-| 128 | `fi2-30-spot` | 30 | spot the error, 3 | vocabulaire |
-| 129 | `fi2-30-def-card` (card c30-3) | 30 | fill the blank, 1 | vocabulaire |
-| 130 | `fi2-31-refrain` | 31 | multiple choice, 1 | litterature |
-| 131 | `fi2-31-rime` | 31 | multiple choice, 1 | litterature |
-| 132 | `fi2-31-dire` | 31 | multiple choice, 2 | expression |
-| 133 | `fi2-31-spot` | 31 | spot the error, 3 | litterature |
-| 134 | `fi2-31-dire-card` (card c31-3) | 31 | multiple choice, 1 | expression |
-| 135 | `fi2-32-cause` | 32 | multiple choice, 1 | lecture |
-| 136 | `fi2-32-mot` | 32 | multiple choice, 1 | lecture |
-| 137 | `fi2-32-msg` | 32 | multiple choice, 2 | lecture |
-| 138 | `fi2-32-spot` | 32 | spot the error, 3 | lecture |
-| 139 | `fi2-32-msg-card` (card c32-3) | 32 | multiple choice, 1 | lecture |
-| 140 | `fi2-33-type` | 33 | multiple choice, 1 | expression |
-| 141 | `fi2-33-ordre` | 33 | ordering, 1 | expression |
-| 142 | `fi2-33-comp` | 33 | fill the blank, 2 | expression |
-| 143 | `fi2-33-spot` | 33 | spot the error, 3 | expression |
-| 144 | `fi2-33-comp-card` (card c33-3) | 33 | fill the blank, 1 | expression |
-| 145 | `fi2-34-oeuvre` | 34 | matching, 1 | litterature |
-| 146 | `fi2-34-narr` | 34 | multiple choice, 1 | litterature |
-| 147 | `fi2-34-genre` | 34 | multiple choice, 2 | litterature |
-| 148 | `fi2-34-spot` | 34 | spot the error, 3 | litterature |
-| 149 | `fi2-34-genre-card` (card c34-3) | 34 | multiple choice, 1 | litterature |
-| 150 | `fi2-35-lieu` | 35 | multiple choice, 1 | grammaire |
-| 151 | `fi2-36-emploi` | 36 | multiple choice, 2 | conjugaison |
-| 152 | `fi2-36-emploi-card` (card c36-3) | 36 | multiple choice, 1 | conjugaison |
-| 153 | `fi2-37-eu` | 37 | fill the blank, 1 | orthographe |
-| 154 | `fi2-37-oeu` | 37 | fill the blank, 1 | orthographe |
-| 155 | `fi2-37-homo` | 37 | fill the blank, 2 | orthographe |
-| 156 | `fi2-37-spot` | 37 | spot the error, 3 | orthographe |
-| 157 | `fi2-37-homo-card` (card c37-3) | 37 | fill the blank, 1 | orthographe |
-| 158 | `fi2-38-mots` | 38 | matching, 1 | vocabulaire |
-| 159 | `fi2-38-tri` | 38 | multiple choice, 1 | vocabulaire |
-| 160 | `fi2-38-poll` | 38 | multiple choice, 2 | vocabulaire |
-| 161 | `fi2-38-spot` | 38 | spot the error, 3 | vocabulaire |
-| 162 | `fi2-38-poll-card` (card c38-3) | 38 | multiple choice, 1 | vocabulaire |
-| 163 | `fi2-39-neg` | 39 | multiple choice, 1 | expression |
-| 164 | `fi2-39-desaccord` | 39 | multiple choice, 1 | expression |
-| 165 | `fi2-39-consoler` | 39 | multiple choice, 2 | expression |
-| 166 | `fi2-39-dial` | 39 | ordering, 3 | expression |
-| 167 | `fi2-39-consoler-card` (card c39-3) | 39 | multiple choice, 1 | expression |
-| 168 | `fi2-40-etape` | 40 | multiple choice, 1 | expression |
-| 169 | `fi2-40-ordre` | 40 | ordering, 1 | expression |
-| 170 | `fi2-40-narr` | 40 | multiple choice, 2 | expression |
-| 171 | `fi2-40-spot` | 40 | spot the error, 3 | expression |
-| 172 | `fi2-40-narr-card` (card c40-3) | 40 | multiple choice, 1 | expression |
-| 173 | `fi2-41-sent` | 41 | multiple choice, 1 | grammaire |
-| 174 | `fi2-41-quel` | 41 | fill the blank, 1 | grammaire |
-| 175 | `fi2-41-trans` | 41 | multiple choice, 2 | grammaire |
-| 176 | `fi2-41-spot` | 41 | spot the error, 3 | grammaire |
-| 177 | `fi2-41-trans-card` (card c41-3) | 41 | multiple choice, 1 | grammaire |
-| 178 | `fi2-42-ecr` | 42 | fill the blank, 1 | orthographe |
-| 179 | `fi2-42-homo` | 42 | fill the blank, 1 | orthographe |
-| 180 | `fi2-42-seau` | 42 | fill the blank, 2 | orthographe |
-| 181 | `fi2-42-spot` | 42 | spot the error, 3 | orthographe |
-| 182 | `fi2-42-seau-card` (card c42-3) | 42 | fill the blank, 1 | orthographe |
-| 183 | `fi2-43-mots` | 43 | multiple choice, 1 | vocabulaire |
-| 184 | `fi2-43-metier` | 43 | matching, 1 | vocabulaire |
-| 185 | `fi2-43-sites` | 43 | matching, 2 | vocabulaire |
-| 186 | `fi2-43-spot` | 43 | spot the error, 3 | vocabulaire |
-| 187 | `fi2-43-sites-card` (card c43-3) | 43 | matching, 1 | vocabulaire |
-| 188 | `fi2-44-but` | 44 | multiple choice, 1 | expression |
-| 189 | `fi2-44-slogan` | 44 | multiple choice, 1 | expression |
-| 190 | `fi2-44-ordre` | 44 | ordering, 2 | expression |
-| 191 | `fi2-44-spot` | 44 | spot the error, 3 | expression |
-| 192 | `fi2-44-ordre-card` (card c44-3) | 44 | ordering, 1 | expression |
-| 193 | `fi2-45-plan` | 45 | ordering, 1 | expression |
-| 194 | `fi2-45-temps` | 45 | fill the blank, 1 | expression |
-| 195 | `fi2-45-impr` | 45 | multiple choice, 2 | expression |
-| 196 | `fi2-45-spot` | 45 | spot the error, 3 | expression |
-| 197 | `fi2-45-impr-card` (card c45-3) | 45 | multiple choice, 1 | expression |
-| 198 | `fi2-46-p` | 46 | fill the blank, 1 | orthographe |
-| 199 | `fi2-46-pp` | 46 | fill the blank, 1 | orthographe |
-| 200 | `fi2-46-exc` | 46 | fill the blank, 2 | orthographe |
-| 201 | `fi2-46-spot` | 46 | spot the error, 3 | orthographe |
-| 202 | `fi2-46-exc-card` (card c46-3) | 46 | fill the blank, 1 | orthographe |
-| 203 | `fi2-47-gram` | 47 | multiple choice, 2 | grammaire |
-| 204 | `fi2-47-spot` | 47 | spot the error, 3 | conjugaison |
-| 205 | `fi2-47-gram-card` (card c47-3) | 47 | multiple choice, 1 | grammaire |
-| 206 | `fi2-48-qui` | 48 | multiple choice, 1 | litterature |
-| 207 | `fi2-48-image` | 48 | multiple choice, 1 | litterature |
-| 208 | `fi2-48-sent` | 48 | multiple choice, 2 | litterature |
-| 209 | `fi2-48-spot` | 48 | spot the error, 3 | litterature |
-| 210 | `fi2-48-sent-card` (card c48-3) | 48 | multiple choice, 1 | litterature |
-| 211 | `fi2-49-verbe` | 49 | matching, 1 | expression |
-| 212 | `fi2-49-signe` | 49 | multiple choice, 1 | expression |
-| 213 | `fi2-49-voix` | 49 | multiple choice, 2 | expression |
-| 214 | `fi2-49-spot` | 49 | spot the error, 3 | expression |
-| 215 | `fi2-49-voix-card` (card c49-3) | 49 | multiple choice, 1 | expression |
-| 216 | `fi2-50-type` | 50 | multiple choice, 1 | expression |
-| 217 | `fi2-50-portrait` | 50 | multiple choice, 1 | expression |
-| 218 | `fi2-50-narr` | 50 | matching, 2 | expression |
-| 219 | `fi2-50-spot` | 50 | spot the error, 3 | expression |
-| 220 | `fi2-50-narr-card` (card c50-3) | 50 | matching, 1 | expression |
-| 221 | `fi2-51-ordre` | 51 | ordering, 1 | expression |
-| 222 | `fi2-51-desc` | 51 | multiple choice, 1 | expression |
-| 223 | `fi2-51-temps` | 51 | fill the blank, 2 | conjugaison |
-| 224 | `fi2-51-spot` | 51 | spot the error, 3 | expression |
-| 225 | `fi2-51-temps-card` (card c51-3) | 51 | fill the blank, 1 | conjugaison |
-| 226 | `fi2-53-phrase` | 53 | fill the blank, 1 | grammaire |
-| 227 | `fi2-53-spot` | 53 | spot the error, 3 | grammaire |
-| 228 | `fi2-54-emploi` | 54 | multiple choice, 1 | conjugaison |
-| 229 | `fi2-54-spot` | 54 | spot the error, 3 | conjugaison |
-| 230 | `fi2-55-quoi` | 55 | multiple choice, 1 | orthographe |
-| 231 | `fi2-55-oblig` | 55 | multiple choice, 1 | orthographe |
-| 232 | `fi2-55-interdit` | 55 | multiple choice, 2 | orthographe |
-| 233 | `fi2-55-spot` | 55 | spot the error, 3 | orthographe |
-| 234 | `fi2-55-interdit-card` (card c55-3) | 55 | multiple choice, 1 | orthographe |
-| 235 | `fi2-56-quoi` | 56 | multiple choice, 1 | vocabulaire |
-| 236 | `fi2-56-commune` | 56 | multiple choice, 1 | vocabulaire |
-| 237 | `fi2-56-elu` | 56 | matching, 2 | vocabulaire |
-| 238 | `fi2-56-spot` | 56 | spot the error, 3 | vocabulaire |
-| 239 | `fi2-56-elu-card` (card c56-3) | 56 | matching, 1 | vocabulaire |
-| 240 | `fi2-57-forme` | 57 | multiple choice, 1 | litterature |
-| 241 | `fi2-57-comp` | 57 | multiple choice, 1 | litterature |
-| 242 | `fi2-57-dire` | 57 | multiple choice, 2 | expression |
-| 243 | `fi2-57-spot` | 57 | spot the error, 3 | litterature |
-| 244 | `fi2-57-dire-card` (card c57-3) | 57 | multiple choice, 1 | expression |
-| 245 | `fi2-58-comp` | 58 | multiple choice, 1 | lecture |
-| 246 | `fi2-58-mot` | 58 | multiple choice, 1 | lecture |
-| 247 | `fi2-58-idee` | 58 | multiple choice, 2 | lecture |
-| 248 | `fi2-58-spot` | 58 | spot the error, 3 | lecture |
-| 249 | `fi2-58-idee-card` (card c58-3) | 58 | multiple choice, 1 | lecture |
-| 250 | `fi2-59-ordre` | 59 | ordering, 1 | expression |
-| 251 | `fi2-59-comp` | 59 | fill the blank, 2 | expression |
-| 252 | `fi2-59-spot` | 59 | spot the error, 3 | expression |
-| 253 | `fi2-59-comp-card` (card c59-3) | 59 | fill the blank, 1 | expression |
-| 254 | `fi2-60-genre` | 60 | multiple choice, 1 | litterature |
-| 255 | `fi2-60-etapes` | 60 | ordering, 1 | litterature |
-| 256 | `fi2-60-morale` | 60 | multiple choice, 2 | litterature |
-| 257 | `fi2-60-spot` | 60 | spot the error, 3 | litterature |
-| 258 | `fi2-60-morale-card` (card c60-3) | 60 | multiple choice, 1 | litterature |
-| 259 | `fi2-61-quoi` | 61 | multiple choice, 1 | grammaire |
-| 260 | `fi2-61-neg` | 61 | fill the blank, 1 | grammaire |
-| 261 | `fi2-61-diff` | 61 | multiple choice, 2 | grammaire |
-| 262 | `fi2-61-spot` | 61 | spot the error, 3 | grammaire |
-| 263 | `fi2-61-diff-card` (card c61-3) | 61 | multiple choice, 1 | grammaire |
-| 264 | `fi2-62-emploi` | 62 | multiple choice, 1 | conjugaison |
-| 265 | `fi2-62-imp` | 62 | fill the blank, 1 | conjugaison |
-| 266 | `fi2-62-spot` | 62 | spot the error, 3 | conjugaison |
-| 267 | `fi2-63-z` | 63 | multiple choice, 1 | orthographe |
-| 268 | `fi2-63-ss` | 63 | fill the blank, 2 | orthographe |
-| 269 | `fi2-63-choix` | 63 | fill the blank, 1 | orthographe |
-| 270 | `fi2-63-spot` | 63 | spot the error, 3 | orthographe |
-| 271 | `fi2-63-ss-card` (card c63-2) | 63 | fill the blank, 1 | orthographe |
-| 272 | `fi2-64-culture` | 64 | multiple choice, 1 | vocabulaire |
-| 273 | `fi2-64-tol` | 64 | multiple choice, 1 | vocabulaire |
-| 274 | `fi2-64-ailleurs` | 64 | matching, 2 | vocabulaire |
-| 275 | `fi2-64-spot` | 64 | spot the error, 3 | vocabulaire |
-| 276 | `fi2-64-ailleurs-card` (card c64-3) | 64 | matching, 1 | vocabulaire |
-| 277 | `fi2-65-quoi` | 65 | multiple choice, 1 | expression |
-| 278 | `fi2-65-poli` | 65 | multiple choice, 1 | expression |
-| 279 | `fi2-65-ordre` | 65 | ordering, 2 | expression |
-| 280 | `fi2-65-spot` | 65 | spot the error, 3 | expression |
-| 281 | `fi2-65-ordre-card` (card c65-3) | 65 | ordering, 1 | expression |
-| 282 | `fi2-66-plan` | 66 | ordering, 1 | expression |
-| 283 | `fi2-66-lien` | 66 | fill the blank, 1 | expression |
-| 284 | `fi2-66-temps` | 66 | fill the blank, 2 | expression |
-| 285 | `fi2-66-spot` | 66 | spot the error, 3 | expression |
-| 286 | `fi2-66-temps-card` (card c66-3) | 66 | fill the blank, 1 | expression |
-| 287 | `fi2-67-quoi` | 67 | multiple choice, 1 | grammaire |
-| 288 | `fi2-67-tout` | 67 | fill the blank, 1 | grammaire |
-| 289 | `fi2-67-sing` | 67 | fill the blank, 2 | grammaire |
-| 290 | `fi2-67-spot` | 67 | spot the error, 3 | grammaire |
-| 291 | `fi2-67-sing-card` (card c67-3) | 67 | fill the blank, 1 | grammaire |
-| 292 | `fi2-68-son` | 68 | multiple choice, 1 | orthographe |
-| 293 | `fi2-68-quand` | 68 | fill the blank, 1 | orthographe |
-| 294 | `fi2-68-h` | 68 | multiple choice, 2 | orthographe |
-| 295 | `fi2-68-spot` | 68 | spot the error, 3 | orthographe |
-| 296 | `fi2-68-h-card` (card c68-3) | 68 | multiple choice, 1 | orthographe |
-| 297 | `fi2-69-def` | 69 | matching, 1 | vocabulaire |
-| 298 | `fi2-69-paix` | 69 | multiple choice, 2 | vocabulaire |
-| 299 | `fi2-69-spot` | 69 | spot the error, 3 | vocabulaire |
-| 300 | `fi2-69-paix-card` (card c69-3) | 69 | multiple choice, 1 | vocabulaire |
-| 301 | `fi2-70-etapes` | 70 | ordering, 1 | expression |
-| 302 | `fi2-70-slogan` | 70 | multiple choice, 1 | expression |
-| 303 | `fi2-70-msg` | 70 | multiple choice, 2 | expression |
-| 304 | `fi2-70-spot` | 70 | spot the error, 3 | expression |
-| 305 | `fi2-70-msg-card` (card c70-3) | 70 | multiple choice, 1 | expression |
-| 306 | `fi2-71-obs` | 71 | multiple choice, 1 | expression |
-| 307 | `fi2-71-lien` | 71 | ordering, 1 | expression |
-| 308 | `fi2-71-concl` | 71 | multiple choice, 2 | expression |
-| 309 | `fi2-71-spot` | 71 | spot the error, 3 | expression |
-| 310 | `fi2-71-concl-card` (card c71-3) | 71 | multiple choice, 1 | expression |
-| 311 | `fi2-72-quoi` | 72 | multiple choice, 1 | grammaire |
-| 312 | `fi2-72-inv` | 72 | multiple choice, 2 | grammaire |
-| 313 | `fi2-72-si` | 72 | fill the blank, 1 | grammaire |
-| 314 | `fi2-72-spot` | 72 | spot the error, 3 | grammaire |
-| 315 | `fi2-72-inv-card` (card c72-2) | 72 | multiple choice, 1 | grammaire |
-| 316 | `fi2-73-e` | 73 | fill the blank, 1 | orthographe |
-| 317 | `fi2-73-ib` | 73 | fill the blank, 2 | orthographe |
-| 318 | `fi2-73-spot` | 73 | spot the error, 3 | orthographe |
-| 319 | `fi2-73-ib-card` (card c73-3) | 73 | fill the blank, 1 | orthographe |
-| 320 | `fi2-74-droit` | 74 | multiple choice, 1 | vocabulaire |
-| 321 | `fi2-74-aide` | 74 | multiple choice, 2 | vocabulaire |
-| 322 | `fi2-74-spot` | 74 | spot the error, 3 | vocabulaire |
-| 323 | `fi2-74-aide-card` (card c74-3) | 74 | multiple choice, 1 | vocabulaire |
-| 324 | `fi2-75-mot` | 75 | matching, 1 | vocabulaire |
-| 325 | `fi2-75-fair` | 75 | multiple choice, 2 | vocabulaire |
-| 326 | `fi2-75-spot` | 75 | spot the error, 3 | vocabulaire |
-| 327 | `fi2-75-fair-card` (card c75-3) | 75 | multiple choice, 1 | vocabulaire |
-| 328 | `fi2-76-lex` | 76 | multiple choice, 1 | vocabulaire |
-| 329 | `fi2-76-sem` | 76 | multiple choice, 2 | vocabulaire |
-| 330 | `fi2-76-respect` | 76 | multiple choice, 1 | vocabulaire |
-| 331 | `fi2-76-spot` | 76 | spot the error, 3 | vocabulaire |
-| 332 | `fi2-76-sem-card` (card c76-2) | 76 | multiple choice, 1 | vocabulaire |
-| 333 | `fi2-78-sub` | 78 | fill the blank, 2 | grammaire |
-| 334 | `fi2-78-spot` | 78 | spot the error, 3 | grammaire |
-| 335 | `fi2-78-sub-card` (card c78-3) | 78 | fill the blank, 1 | grammaire |
-| 336 | `fi2-79-emploi` | 79 | multiple choice, 1 | conjugaison |
-| 337 | `fi2-79-spot` | 79 | spot the error, 3 | conjugaison |
-| 338 | `fi2-80-ecrit` | 80 | fill the blank, 1 | orthographe |
-| 339 | `fi2-80-et` | 80 | fill the blank, 1 | orthographe |
-| 340 | `fi2-80-imp` | 80 | fill the blank, 2 | orthographe |
-| 341 | `fi2-80-spot` | 80 | spot the error, 3 | orthographe |
-| 342 | `fi2-80-imp-card` (card c80-3) | 80 | fill the blank, 1 | orthographe |
-| 343 | `fi2-81-but` | 81 | multiple choice, 1 | vocabulaire |
-| 344 | `fi2-81-mot` | 81 | matching, 1 | vocabulaire |
-| 345 | `fi2-81-critique` | 81 | multiple choice, 2 | vocabulaire |
-| 346 | `fi2-81-spot` | 81 | spot the error, 3 | vocabulaire |
-| 347 | `fi2-81-critique-card` (card c81-3) | 81 | multiple choice, 1 | vocabulaire |
-| 348 | `fi2-82-forme` | 82 | multiple choice, 1 | litterature |
-| 349 | `fi2-82-rime` | 82 | multiple choice, 1 | litterature |
-| 350 | `fi2-82-sens` | 82 | multiple choice, 2 | litterature |
-| 351 | `fi2-82-spot` | 82 | spot the error, 3 | litterature |
-| 352 | `fi2-82-sens-card` (card c82-3) | 82 | multiple choice, 1 | litterature |
-| 353 | `fi2-83-comp` | 83 | multiple choice, 1 | lecture |
-| 354 | `fi2-83-mot` | 83 | multiple choice, 1 | lecture |
-| 355 | `fi2-83-idee` | 83 | multiple choice, 2 | lecture |
-| 356 | `fi2-83-spot` | 83 | spot the error, 3 | lecture |
-| 357 | `fi2-83-idee-card` (card c83-3) | 83 | multiple choice, 1 | lecture |
-| 358 | `fi2-84-ordre` | 84 | ordering, 1 | expression |
-| 359 | `fi2-84-mot` | 84 | fill the blank, 2 | expression |
-| 360 | `fi2-84-spot` | 84 | spot the error, 3 | expression |
-| 361 | `fi2-84-mot-card` (card c84-3) | 84 | fill the blank, 1 | expression |
-| 362 | `fi2-85-perso` | 85 | multiple choice, 1 | litterature |
-| 363 | `fi2-85-etapes` | 85 | ordering, 1 | litterature |
-| 364 | `fi2-85-morale` | 85 | multiple choice, 2 | litterature |
-| 365 | `fi2-85-spot` | 85 | spot the error, 3 | litterature |
-| 366 | `fi2-85-morale-card` (card c85-3) | 85 | multiple choice, 1 | litterature |
-| 367 | `fi2-86-emploi` | 86 | multiple choice, 1 | conjugaison |
-| 368 | `fi2-86-spot` | 86 | spot the error, 3 | conjugaison |
-| 369 | `fi2-87-mot` | 87 | fill the blank, 1 | orthographe |
-| 370 | `fi2-87-pl` | 87 | multiple choice, 1 | orthographe |
-| 371 | `fi2-87-travail` | 87 | multiple choice, 2 | vocabulaire |
-| 372 | `fi2-87-spot` | 87 | spot the error, 3 | orthographe |
-| 373 | `fi2-87-travail-card` (card c87-3) | 87 | multiple choice, 1 | vocabulaire |
-| 374 | `fi2-88-contrat` | 88 | multiple choice, 1 | vocabulaire |
-| 375 | `fi2-88-mot` | 88 | matching, 1 | vocabulaire |
-| 376 | `fi2-88-droit` | 88 | multiple choice, 2 | vocabulaire |
-| 377 | `fi2-88-spot` | 88 | spot the error, 3 | vocabulaire |
-| 378 | `fi2-88-droit-card` (card c88-3) | 88 | multiple choice, 1 | vocabulaire |
-| 379 | `fi2-89-cand` | 89 | multiple choice, 1 | expression |
-| 380 | `fi2-89-quest` | 89 | multiple choice, 1 | expression |
-| 381 | `fi2-89-ordre` | 89 | ordering, 2 | expression |
-| 382 | `fi2-89-spot` | 89 | spot the error, 3 | expression |
-| 383 | `fi2-89-ordre-card` (card c89-3) | 89 | ordering, 1 | expression |
-| 384 | `fi2-90-plan` | 90 | ordering, 1 | expression |
-| 385 | `fi2-90-concl` | 90 | multiple choice, 2 | expression |
-| 386 | `fi2-90-spot` | 90 | spot the error, 3 | expression |
-| 387 | `fi2-90-concl-card` (card c90-3) | 90 | multiple choice, 1 | expression |
-| 388 | `fi2-91-quoi` | 91 | multiple choice, 1 | grammaire |
-| 389 | `fi2-91-pl` | 91 | multiple choice, 2 | grammaire |
-| 390 | `fi2-91-prep` | 91 | fill the blank, 1 | grammaire |
-| 391 | `fi2-91-spot` | 91 | spot the error, 3 | grammaire |
-| 392 | `fi2-91-pl-card` (card c91-2) | 91 | multiple choice, 1 | grammaire |
-| 393 | `fi2-92-mm` | 92 | fill the blank, 1 | orthographe |
-| 394 | `fi2-92-mbp` | 92 | fill the blank, 1 | orthographe |
-| 395 | `fi2-92-adv` | 92 | fill the blank, 2 | orthographe |
-| 396 | `fi2-92-spot` | 92 | spot the error, 3 | orthographe |
-| 397 | `fi2-92-adv-card` (card c92-3) | 92 | fill the blank, 1 | orthographe |
-| 398 | `fi2-93-banque` | 93 | multiple choice, 1 | vocabulaire |
-| 399 | `fi2-93-ops` | 93 | matching, 1 | vocabulaire |
-| 400 | `fi2-93-pret` | 93 | multiple choice, 2 | vocabulaire |
-| 401 | `fi2-93-spot` | 93 | spot the error, 3 | vocabulaire |
-| 402 | `fi2-93-pret-card` (card c93-3) | 93 | multiple choice, 1 | vocabulaire |
-| 403 | `fi2-94-obs` | 94 | multiple choice, 1 | expression |
-| 404 | `fi2-94-msg` | 94 | multiple choice, 2 | expression |
-| 405 | `fi2-94-avis` | 94 | ordering, 1 | expression |
-| 406 | `fi2-94-spot` | 94 | spot the error, 3 | expression |
-| 407 | `fi2-94-msg-card` (card c94-2) | 94 | multiple choice, 1 | expression |
-| 408 | `fi2-95-temps` | 95 | fill the blank, 1 | expression |
-| 409 | `fi2-95-imprevu` | 95 | multiple choice, 1 | expression |
-| 410 | `fi2-95-ordre` | 95 | ordering, 2 | expression |
-| 411 | `fi2-95-spot` | 95 | spot the error, 3 | expression |
-| 412 | `fi2-95-ordre-card` (card c95-3) | 95 | ordering, 1 | expression |
-| 413 | `fi2-96-affiche` | 96 | multiple choice, 1 | expression |
-| 414 | `fi2-96-annonce` | 96 | multiple choice, 1 | expression |
-| 415 | `fi2-96-etapes` | 96 | ordering, 2 | expression |
-| 416 | `fi2-96-spot` | 96 | spot the error, 3 | expression |
-| 417 | `fi2-96-etapes-card` (card c96-3) | 96 | ordering, 1 | expression |
-| 418 | `fi2-97-gram` | 97 | multiple choice, 1 | grammaire |
-| 419 | `fi2-97-spot` | 97 | spot the error, 3 | conjugaison |
-| 420 | `fi2-98-perso` | 98 | multiple choice, 1 | litterature |
-| 421 | `fi2-98-etapes` | 98 | ordering, 1 | litterature |
-| 422 | `fi2-98-morale` | 98 | multiple choice, 2 | litterature |
-| 423 | `fi2-98-spot` | 98 | spot the error, 3 | litterature |
-| 424 | `fi2-98-morale-card` (card c98-3) | 98 | multiple choice, 1 | litterature |
-| 425 | `fi2-99-tech` | 99 | multiple choice, 1 | expression |
-| 426 | `fi2-99-ponct` | 99 | multiple choice, 1 | expression |
-| 427 | `fi2-99-spot` | 99 | spot the error, 3 | expression |
-| 428 | `fi2-100-temps` | 100 | fill the blank, 1 | expression |
-| 429 | `fi2-100-mix` | 100 | multiple choice, 2 | expression |
-| 430 | `fi2-100-spot` | 100 | spot the error, 3 | expression |
-| 431 | `fi2-100-mix-card` (card c100-3) | 100 | multiple choice, 1 | expression |
-| 432 | `fi2-101-type` | 101 | multiple choice, 1 | expression |
-| 433 | `fi2-101-etapes` | 101 | ordering, 1 | expression |
-| 434 | `fi2-101-grille` | 101 | multiple choice, 2 | expression |
-| 435 | `fi2-101-spot` | 101 | spot the error, 3 | expression |
-| 436 | `fi2-101-grille-card` (card c101-3) | 101 | multiple choice, 1 | expression |
-| 437 | `fi2-102-si` | 102 | fill the blank, 2 | conjugaison |
-| 438 | `fi2-102-spot` | 102 | spot the error, 3 | conjugaison |
-| 439 | `fi2-102-si-card` (card c102-2) | 102 | fill the blank, 1 | conjugaison |
+| 5 | `pilot-form-2-francais-intensif-1-1` | 1 | multiple choice, 1 | grammaire |
+| 6 | `pilot-form-2-francais-intensif-1-2` | 1 | multiple choice, 2 | grammaire |
+| 7 | `fi2-1-place-card` (card c1-3) | 1 | multiple choice, 1 | grammaire |
+| 8 | `fi2-2-emploi` | 2 | multiple choice, 2 | conjugaison |
+| 9 | `fi2-2-emploi-card` (card c2-3) | 2 | multiple choice, 1 | conjugaison |
+| 10 | `fi2-3-fin` | 3 | fill the blank, 1 | orthographe |
+| 11 | `fi2-3-virg` | 3 | multiple choice, 1 | orthographe |
+| 12 | `fi2-3-paroles` | 3 | multiple choice, 2 | orthographe |
+| 13 | `fi2-3-spot` | 3 | spot the error, 3 | orthographe |
+| 14 | `fi2-3-paroles-card` (card c3-3) | 3 | multiple choice, 1 | orthographe |
+| 15 | `fi2-4-mariage` | 4 | multiple choice, 1 | vocabulaire |
+| 16 | `fi2-4-age` | 4 | multiple choice, 1 | vocabulaire |
+| 17 | `fi2-4-mots` | 4 | matching, 2 | vocabulaire |
+| 18 | `fi2-4-spot` | 4 | spot the error, 3 | vocabulaire |
+| 19 | `fi2-4-mots-card` (card c4-3) | 4 | matching, 1 | vocabulaire |
+| 20 | `fi2-5-mots` | 5 | multiple choice, 1 | litterature |
+| 21 | `fi2-5-rime` | 5 | multiple choice, 1 | litterature |
+| 22 | `fi2-5-dire` | 5 | multiple choice, 2 | expression |
+| 23 | `fi2-5-spot` | 5 | spot the error, 3 | litterature |
+| 24 | `fi2-5-dire-card` (card c5-3) | 5 | multiple choice, 1 | expression |
+| 25 | `fi2-6-lettre` | 6 | multiple choice, 1 | lecture |
+| 26 | `fi2-6-texte` | 6 | multiple choice, 1 | lecture |
+| 27 | `fi2-6-sent` | 6 | multiple choice, 2 | lecture |
+| 28 | `fi2-6-spot` | 6 | spot the error, 3 | lecture |
+| 29 | `fi2-6-sent-card` (card c6-3) | 6 | multiple choice, 1 | lecture |
+| 30 | `fi2-7-sv` | 7 | multiple choice, 1 | grammaire |
+| 31 | `fi2-7-type` | 7 | multiple choice, 1 | grammaire |
+| 32 | `fi2-7-wo` | 7 | word order, 2 | grammaire |
+| 33 | `fi2-7-spot` | 7 | spot the error, 3 | grammaire |
+| 34 | `fi2-7-wo-card` (card c7-3) | 7 | word order, 1 | grammaire |
+| 35 | `fi2-8-genre` | 8 | multiple choice, 1 | litterature |
+| 36 | `fi2-8-recit` | 8 | multiple choice, 1 | litterature |
+| 37 | `fi2-8-morale` | 8 | multiple choice, 2 | litterature |
+| 38 | `fi2-8-spot` | 8 | spot the error, 3 | litterature |
+| 39 | `fi2-8-morale-card` (card c8-3) | 8 | multiple choice, 1 | litterature |
+| 40 | `fi2-9-liste` | 9 | multiple choice, 1 | grammaire |
+| 41 | `fi2-9-sens` | 9 | fill the blank, 1 | grammaire |
+| 42 | `fi2-9-choix` | 9 | fill the blank, 2 | grammaire |
+| 43 | `fi2-9-spot` | 9 | spot the error, 3 | grammaire |
+| 44 | `fi2-9-choix-card` (card c9-3) | 9 | fill the blank, 1 | grammaire |
+| 45 | `fi2-10-emploi` | 10 | fill the blank, 2 | conjugaison |
+| 46 | `fi2-10-emploi-card` (card c10-3) | 10 | fill the blank, 1 | conjugaison |
+| 47 | `fi2-11-debut` | 11 | fill the blank, 1 | orthographe |
+| 48 | `fi2-11-fem` | 11 | fill the blank, 1 | orthographe |
+| 49 | `fi2-11-ss` | 11 | multiple choice, 2 | orthographe |
+| 50 | `fi2-11-spot` | 11 | spot the error, 3 | orthographe |
+| 51 | `fi2-11-ss-card` (card c11-3) | 11 | multiple choice, 1 | orthographe |
+| 52 | `fi2-12-mot` | 12 | multiple choice, 1 | vocabulaire |
+| 53 | `fi2-12-lire` | 12 | multiple choice, 1 | vocabulaire |
+| 54 | `fi2-12-gen` | 12 | multiple choice, 2 | vocabulaire |
+| 55 | `fi2-12-spot` | 12 | spot the error, 3 | vocabulaire |
+| 56 | `fi2-12-gen-card` (card c12-3) | 12 | multiple choice, 1 | vocabulaire |
+| 57 | `fi2-13-role` | 13 | multiple choice, 1 | expression |
+| 58 | `fi2-13-formule` | 13 | multiple choice, 1 | expression |
+| 59 | `fi2-13-ordre` | 13 | multiple choice, 2 | expression |
+| 60 | `fi2-13-dial` | 13 | ordering, 3 | expression |
+| 61 | `fi2-13-ordre-card` (card c13-3) | 13 | multiple choice, 1 | expression |
+| 62 | `fi2-14-mot` | 14 | multiple choice, 1 | expression |
+| 63 | `fi2-14-plan` | 14 | multiple choice, 1 | expression |
+| 64 | `fi2-14-ordre` | 14 | ordering, 2 | expression |
+| 65 | `fi2-14-spot` | 14 | spot the error, 3 | expression |
+| 66 | `fi2-14-ordre-card` (card c14-3) | 14 | ordering, 1 | expression |
+| 67 | `fi2-15-type` | 15 | multiple choice, 1 | grammaire |
+| 68 | `fi2-15-cdn` | 15 | fill the blank, 1 | grammaire |
+| 69 | `fi2-15-qui` | 15 | fill the blank, 2 | grammaire |
+| 70 | `fi2-15-wo` | 15 | word order, 3 | grammaire |
+| 71 | `fi2-15-qui-card` (card c15-3) | 15 | fill the blank, 1 | grammaire |
+| 72 | `fi2-16-son` | 16 | multiple choice, 1 | orthographe |
+| 73 | `fi2-16-oblig` | 16 | multiple choice, 1 | orthographe |
+| 74 | `fi2-16-interdit` | 16 | multiple choice, 2 | orthographe |
+| 75 | `fi2-16-spot` | 16 | spot the error, 3 | orthographe |
+| 76 | `fi2-16-interdit-card` (card c16-3) | 16 | multiple choice, 1 | orthographe |
+| 77 | `fi2-17-ecole` | 17 | matching, 1 | vocabulaire |
+| 78 | `fi2-17-quartier` | 17 | multiple choice, 1 | vocabulaire |
+| 79 | `fi2-17-voisin` | 17 | multiple choice, 2 | vocabulaire |
+| 80 | `fi2-17-spot` | 17 | spot the error, 3 | vocabulaire |
+| 81 | `fi2-17-voisin-card` (card c17-3) | 17 | multiple choice, 1 | vocabulaire |
+| 82 | `fi2-18-type` | 18 | multiple choice, 1 | expression |
+| 83 | `fi2-18-mot` | 18 | multiple choice, 1 | expression |
+| 84 | `fi2-18-msg` | 18 | multiple choice, 2 | expression |
+| 85 | `fi2-18-ordre` | 18 | ordering, 3 | expression |
+| 86 | `fi2-18-msg-card` (card c18-3) | 18 | multiple choice, 1 | expression |
+| 87 | `fi2-19-obs` | 19 | multiple choice, 1 | expression |
+| 88 | `fi2-19-temps` | 19 | fill the blank, 1 | expression |
+| 89 | `fi2-19-plan` | 19 | ordering, 2 | expression |
+| 90 | `fi2-19-spot` | 19 | spot the error, 3 | expression |
+| 91 | `fi2-19-plan-card` (card c19-3) | 19 | ordering, 1 | expression |
+| 92 | `fi2-20-cod` | 20 | fill the blank, 2 | grammaire |
+| 93 | `fi2-20-spot` | 20 | spot the error, 3 | grammaire |
+| 94 | `fi2-20-cod-card` (card c20-3) | 20 | fill the blank, 1 | grammaire |
+| 95 | `fi2-21-f` | 21 | fill the blank, 1 | orthographe |
+| 96 | `fi2-21-j` | 21 | fill the blank, 1 | orthographe |
+| 97 | `fi2-21-e` | 21 | fill the blank, 2 | orthographe |
+| 98 | `fi2-21-spot` | 21 | spot the error, 3 | orthographe |
+| 99 | `fi2-21-e-card` (card c21-3) | 21 | fill the blank, 1 | orthographe |
+| 100 | `fi2-22-ident` | 22 | multiple choice, 1 | grammaire |
+| 101 | `fi2-22-temps` | 22 | fill the blank, 1 | conjugaison |
+| 102 | `fi2-22-util` | 22 | fill the blank, 2 | grammaire |
+| 103 | `fi2-22-spot` | 22 | spot the error, 3 | grammaire |
+| 104 | `fi2-22-util-card` (card c22-3) | 22 | fill the blank, 1 | grammaire |
+| 105 | `fi2-23-conte` | 23 | multiple choice, 1 | litterature |
+| 106 | `fi2-23-schema` | 23 | multiple choice, 1 | litterature |
+| 107 | `fi2-23-lecon` | 23 | multiple choice, 2 | litterature |
+| 108 | `fi2-23-spot` | 23 | spot the error, 3 | litterature |
+| 109 | `fi2-23-lecon-card` (card c23-3) | 23 | multiple choice, 1 | litterature |
+| 110 | `fi2-24-into` | 24 | matching, 1 | expression |
+| 111 | `fi2-24-pause` | 24 | multiple choice, 1 | expression |
+| 112 | `fi2-24-ton` | 24 | multiple choice, 2 | expression |
+| 113 | `fi2-24-spot` | 24 | spot the error, 3 | expression |
+| 114 | `fi2-24-ton-card` (card c24-3) | 24 | multiple choice, 1 | expression |
+| 115 | `fi2-25-ordre` | 25 | ordering, 1 | expression |
+| 116 | `fi2-25-mots` | 25 | fill the blank, 1 | expression |
+| 117 | `fi2-25-temps` | 25 | fill the blank, 2 | conjugaison |
+| 118 | `fi2-25-spot` | 25 | spot the error, 3 | expression |
+| 119 | `fi2-25-temps-card` (card c25-3) | 25 | fill the blank, 1 | conjugaison |
+| 120 | `fi2-28-emploi` | 28 | multiple choice, 2 | conjugaison |
+| 121 | `fi2-28-emploi-card` (card c28-3) | 28 | multiple choice, 1 | conjugaison |
+| 122 | `fi2-29-a` | 29 | fill the blank, 1 | orthographe |
+| 123 | `fi2-29-et` | 29 | fill the blank, 1 | orthographe |
+| 124 | `fi2-29-ses` | 29 | fill the blank, 2 | orthographe |
+| 125 | `fi2-29-spot` | 29 | spot the error, 3 | orthographe |
+| 126 | `fi2-29-ses-card` (card c29-3) | 29 | fill the blank, 1 | orthographe |
+| 127 | `fi2-30-mots` | 30 | matching, 1 | vocabulaire |
+| 128 | `fi2-30-gestes` | 30 | multiple choice, 1 | vocabulaire |
+| 129 | `fi2-30-def` | 30 | fill the blank, 2 | vocabulaire |
+| 130 | `fi2-30-spot` | 30 | spot the error, 3 | vocabulaire |
+| 131 | `fi2-30-def-card` (card c30-3) | 30 | fill the blank, 1 | vocabulaire |
+| 132 | `fi2-31-refrain` | 31 | multiple choice, 1 | litterature |
+| 133 | `fi2-31-rime` | 31 | multiple choice, 1 | litterature |
+| 134 | `fi2-31-dire` | 31 | multiple choice, 2 | expression |
+| 135 | `fi2-31-spot` | 31 | spot the error, 3 | litterature |
+| 136 | `fi2-31-dire-card` (card c31-3) | 31 | multiple choice, 1 | expression |
+| 137 | `fi2-32-cause` | 32 | multiple choice, 1 | lecture |
+| 138 | `fi2-32-mot` | 32 | multiple choice, 1 | lecture |
+| 139 | `fi2-32-msg` | 32 | multiple choice, 2 | lecture |
+| 140 | `fi2-32-spot` | 32 | spot the error, 3 | lecture |
+| 141 | `fi2-32-msg-card` (card c32-3) | 32 | multiple choice, 1 | lecture |
+| 142 | `fi2-33-type` | 33 | multiple choice, 1 | expression |
+| 143 | `fi2-33-ordre` | 33 | ordering, 1 | expression |
+| 144 | `fi2-33-comp` | 33 | fill the blank, 2 | expression |
+| 145 | `fi2-33-spot` | 33 | spot the error, 3 | expression |
+| 146 | `fi2-33-comp-card` (card c33-3) | 33 | fill the blank, 1 | expression |
+| 147 | `fi2-34-oeuvre` | 34 | matching, 1 | litterature |
+| 148 | `fi2-34-narr` | 34 | multiple choice, 1 | litterature |
+| 149 | `fi2-34-genre` | 34 | multiple choice, 2 | litterature |
+| 150 | `fi2-34-spot` | 34 | spot the error, 3 | litterature |
+| 151 | `fi2-34-genre-card` (card c34-3) | 34 | multiple choice, 1 | litterature |
+| 152 | `fi2-35-lieu` | 35 | multiple choice, 1 | grammaire |
+| 153 | `fi2-36-emploi` | 36 | multiple choice, 2 | conjugaison |
+| 154 | `fi2-36-emploi-card` (card c36-3) | 36 | multiple choice, 1 | conjugaison |
+| 155 | `fi2-37-eu` | 37 | fill the blank, 1 | orthographe |
+| 156 | `fi2-37-oeu` | 37 | fill the blank, 1 | orthographe |
+| 157 | `fi2-37-homo` | 37 | fill the blank, 2 | orthographe |
+| 158 | `fi2-37-spot` | 37 | spot the error, 3 | orthographe |
+| 159 | `fi2-37-homo-card` (card c37-3) | 37 | fill the blank, 1 | orthographe |
+| 160 | `fi2-38-mots` | 38 | matching, 1 | vocabulaire |
+| 161 | `fi2-38-tri` | 38 | multiple choice, 1 | vocabulaire |
+| 162 | `fi2-38-poll` | 38 | multiple choice, 2 | vocabulaire |
+| 163 | `fi2-38-spot` | 38 | spot the error, 3 | vocabulaire |
+| 164 | `fi2-38-poll-card` (card c38-3) | 38 | multiple choice, 1 | vocabulaire |
+| 165 | `fi2-39-neg` | 39 | multiple choice, 1 | expression |
+| 166 | `fi2-39-desaccord` | 39 | multiple choice, 1 | expression |
+| 167 | `fi2-39-consoler` | 39 | multiple choice, 2 | expression |
+| 168 | `fi2-39-dial` | 39 | ordering, 3 | expression |
+| 169 | `fi2-39-consoler-card` (card c39-3) | 39 | multiple choice, 1 | expression |
+| 170 | `fi2-40-etape` | 40 | multiple choice, 1 | expression |
+| 171 | `fi2-40-ordre` | 40 | ordering, 1 | expression |
+| 172 | `fi2-40-narr` | 40 | multiple choice, 2 | expression |
+| 173 | `fi2-40-spot` | 40 | spot the error, 3 | expression |
+| 174 | `fi2-40-narr-card` (card c40-3) | 40 | multiple choice, 1 | expression |
+| 175 | `fi2-41-sent` | 41 | multiple choice, 1 | grammaire |
+| 176 | `fi2-41-quel` | 41 | fill the blank, 1 | grammaire |
+| 177 | `fi2-41-trans` | 41 | multiple choice, 2 | grammaire |
+| 178 | `fi2-41-spot` | 41 | spot the error, 3 | grammaire |
+| 179 | `fi2-41-trans-card` (card c41-3) | 41 | multiple choice, 1 | grammaire |
+| 180 | `fi2-42-ecr` | 42 | fill the blank, 1 | orthographe |
+| 181 | `fi2-42-homo` | 42 | fill the blank, 1 | orthographe |
+| 182 | `fi2-42-seau` | 42 | fill the blank, 2 | orthographe |
+| 183 | `fi2-42-spot` | 42 | spot the error, 3 | orthographe |
+| 184 | `fi2-42-seau-card` (card c42-3) | 42 | fill the blank, 1 | orthographe |
+| 185 | `fi2-43-mots` | 43 | multiple choice, 1 | vocabulaire |
+| 186 | `fi2-43-metier` | 43 | matching, 1 | vocabulaire |
+| 187 | `fi2-43-sites` | 43 | matching, 2 | vocabulaire |
+| 188 | `fi2-43-spot` | 43 | spot the error, 3 | vocabulaire |
+| 189 | `fi2-43-sites-card` (card c43-3) | 43 | matching, 1 | vocabulaire |
+| 190 | `fi2-44-but` | 44 | multiple choice, 1 | expression |
+| 191 | `fi2-44-slogan` | 44 | multiple choice, 1 | expression |
+| 192 | `fi2-44-ordre` | 44 | ordering, 2 | expression |
+| 193 | `fi2-44-spot` | 44 | spot the error, 3 | expression |
+| 194 | `fi2-44-ordre-card` (card c44-3) | 44 | ordering, 1 | expression |
+| 195 | `fi2-45-plan` | 45 | ordering, 1 | expression |
+| 196 | `fi2-45-temps` | 45 | fill the blank, 1 | expression |
+| 197 | `fi2-45-impr` | 45 | multiple choice, 2 | expression |
+| 198 | `fi2-45-spot` | 45 | spot the error, 3 | expression |
+| 199 | `fi2-45-impr-card` (card c45-3) | 45 | multiple choice, 1 | expression |
+| 200 | `fi2-46-p` | 46 | fill the blank, 1 | orthographe |
+| 201 | `fi2-46-pp` | 46 | fill the blank, 1 | orthographe |
+| 202 | `fi2-46-exc` | 46 | fill the blank, 2 | orthographe |
+| 203 | `fi2-46-spot` | 46 | spot the error, 3 | orthographe |
+| 204 | `fi2-46-exc-card` (card c46-3) | 46 | fill the blank, 1 | orthographe |
+| 205 | `fi2-47-gram` | 47 | multiple choice, 2 | grammaire |
+| 206 | `fi2-47-spot` | 47 | spot the error, 3 | conjugaison |
+| 207 | `fi2-47-gram-card` (card c47-3) | 47 | multiple choice, 1 | grammaire |
+| 208 | `fi2-48-qui` | 48 | multiple choice, 1 | litterature |
+| 209 | `fi2-48-image` | 48 | multiple choice, 1 | litterature |
+| 210 | `fi2-48-sent` | 48 | multiple choice, 2 | litterature |
+| 211 | `fi2-48-spot` | 48 | spot the error, 3 | litterature |
+| 212 | `fi2-48-sent-card` (card c48-3) | 48 | multiple choice, 1 | litterature |
+| 213 | `fi2-49-verbe` | 49 | matching, 1 | expression |
+| 214 | `fi2-49-signe` | 49 | multiple choice, 1 | expression |
+| 215 | `fi2-49-voix` | 49 | multiple choice, 2 | expression |
+| 216 | `fi2-49-spot` | 49 | spot the error, 3 | expression |
+| 217 | `fi2-49-voix-card` (card c49-3) | 49 | multiple choice, 1 | expression |
+| 218 | `fi2-50-type` | 50 | multiple choice, 1 | expression |
+| 219 | `fi2-50-portrait` | 50 | multiple choice, 1 | expression |
+| 220 | `fi2-50-narr` | 50 | matching, 2 | expression |
+| 221 | `fi2-50-spot` | 50 | spot the error, 3 | expression |
+| 222 | `fi2-50-narr-card` (card c50-3) | 50 | matching, 1 | expression |
+| 223 | `fi2-51-ordre` | 51 | ordering, 1 | expression |
+| 224 | `fi2-51-desc` | 51 | multiple choice, 1 | expression |
+| 225 | `fi2-51-temps` | 51 | fill the blank, 2 | conjugaison |
+| 226 | `fi2-51-spot` | 51 | spot the error, 3 | expression |
+| 227 | `fi2-51-temps-card` (card c51-3) | 51 | fill the blank, 1 | conjugaison |
+| 228 | `fi2-53-phrase` | 53 | fill the blank, 1 | grammaire |
+| 229 | `fi2-53-spot` | 53 | spot the error, 3 | grammaire |
+| 230 | `fi2-54-emploi` | 54 | multiple choice, 1 | conjugaison |
+| 231 | `fi2-54-spot` | 54 | spot the error, 3 | conjugaison |
+| 232 | `fi2-55-quoi` | 55 | multiple choice, 1 | orthographe |
+| 233 | `fi2-55-oblig` | 55 | multiple choice, 1 | orthographe |
+| 234 | `fi2-55-interdit` | 55 | multiple choice, 2 | orthographe |
+| 235 | `fi2-55-spot` | 55 | spot the error, 3 | orthographe |
+| 236 | `fi2-55-interdit-card` (card c55-3) | 55 | multiple choice, 1 | orthographe |
+| 237 | `fi2-56-quoi` | 56 | multiple choice, 1 | vocabulaire |
+| 238 | `fi2-56-commune` | 56 | multiple choice, 1 | vocabulaire |
+| 239 | `fi2-56-elu` | 56 | matching, 2 | vocabulaire |
+| 240 | `fi2-56-spot` | 56 | spot the error, 3 | vocabulaire |
+| 241 | `fi2-56-elu-card` (card c56-3) | 56 | matching, 1 | vocabulaire |
+| 242 | `fi2-57-forme` | 57 | multiple choice, 1 | litterature |
+| 243 | `fi2-57-comp` | 57 | multiple choice, 1 | litterature |
+| 244 | `fi2-57-dire` | 57 | multiple choice, 2 | expression |
+| 245 | `fi2-57-spot` | 57 | spot the error, 3 | litterature |
+| 246 | `fi2-57-dire-card` (card c57-3) | 57 | multiple choice, 1 | expression |
+| 247 | `fi2-58-comp` | 58 | multiple choice, 1 | lecture |
+| 248 | `fi2-58-mot` | 58 | multiple choice, 1 | lecture |
+| 249 | `fi2-58-idee` | 58 | multiple choice, 2 | lecture |
+| 250 | `fi2-58-spot` | 58 | spot the error, 3 | lecture |
+| 251 | `fi2-58-idee-card` (card c58-3) | 58 | multiple choice, 1 | lecture |
+| 252 | `fi2-59-ordre` | 59 | ordering, 1 | expression |
+| 253 | `fi2-59-comp` | 59 | fill the blank, 2 | expression |
+| 254 | `fi2-59-spot` | 59 | spot the error, 3 | expression |
+| 255 | `fi2-59-comp-card` (card c59-3) | 59 | fill the blank, 1 | expression |
+| 256 | `fi2-60-genre` | 60 | multiple choice, 1 | litterature |
+| 257 | `fi2-60-etapes` | 60 | ordering, 1 | litterature |
+| 258 | `fi2-60-morale` | 60 | multiple choice, 2 | litterature |
+| 259 | `fi2-60-spot` | 60 | spot the error, 3 | litterature |
+| 260 | `fi2-60-morale-card` (card c60-3) | 60 | multiple choice, 1 | litterature |
+| 261 | `fi2-61-quoi` | 61 | multiple choice, 1 | grammaire |
+| 262 | `fi2-61-neg` | 61 | fill the blank, 1 | grammaire |
+| 263 | `fi2-61-diff` | 61 | multiple choice, 2 | grammaire |
+| 264 | `fi2-61-spot` | 61 | spot the error, 3 | grammaire |
+| 265 | `fi2-61-diff-card` (card c61-3) | 61 | multiple choice, 1 | grammaire |
+| 266 | `fi2-62-emploi` | 62 | multiple choice, 1 | conjugaison |
+| 267 | `fi2-62-imp` | 62 | fill the blank, 1 | conjugaison |
+| 268 | `fi2-62-spot` | 62 | spot the error, 3 | conjugaison |
+| 269 | `fi2-63-z` | 63 | multiple choice, 1 | orthographe |
+| 270 | `fi2-63-ss` | 63 | fill the blank, 2 | orthographe |
+| 271 | `fi2-63-choix` | 63 | fill the blank, 1 | orthographe |
+| 272 | `fi2-63-spot` | 63 | spot the error, 3 | orthographe |
+| 273 | `fi2-63-ss-card` (card c63-2) | 63 | fill the blank, 1 | orthographe |
+| 274 | `fi2-64-culture` | 64 | multiple choice, 1 | vocabulaire |
+| 275 | `fi2-64-tol` | 64 | multiple choice, 1 | vocabulaire |
+| 276 | `fi2-64-ailleurs` | 64 | matching, 2 | vocabulaire |
+| 277 | `fi2-64-spot` | 64 | spot the error, 3 | vocabulaire |
+| 278 | `fi2-64-ailleurs-card` (card c64-3) | 64 | matching, 1 | vocabulaire |
+| 279 | `fi2-65-quoi` | 65 | multiple choice, 1 | expression |
+| 280 | `fi2-65-poli` | 65 | multiple choice, 1 | expression |
+| 281 | `fi2-65-ordre` | 65 | ordering, 2 | expression |
+| 282 | `fi2-65-spot` | 65 | spot the error, 3 | expression |
+| 283 | `fi2-65-ordre-card` (card c65-3) | 65 | ordering, 1 | expression |
+| 284 | `fi2-66-plan` | 66 | ordering, 1 | expression |
+| 285 | `fi2-66-lien` | 66 | fill the blank, 1 | expression |
+| 286 | `fi2-66-temps` | 66 | fill the blank, 2 | expression |
+| 287 | `fi2-66-spot` | 66 | spot the error, 3 | expression |
+| 288 | `fi2-66-temps-card` (card c66-3) | 66 | fill the blank, 1 | expression |
+| 289 | `fi2-67-quoi` | 67 | multiple choice, 1 | grammaire |
+| 290 | `fi2-67-tout` | 67 | fill the blank, 1 | grammaire |
+| 291 | `fi2-67-sing` | 67 | fill the blank, 2 | grammaire |
+| 292 | `fi2-67-spot` | 67 | spot the error, 3 | grammaire |
+| 293 | `fi2-67-sing-card` (card c67-3) | 67 | fill the blank, 1 | grammaire |
+| 294 | `fi2-68-son` | 68 | multiple choice, 1 | orthographe |
+| 295 | `fi2-68-quand` | 68 | fill the blank, 1 | orthographe |
+| 296 | `fi2-68-h` | 68 | multiple choice, 2 | orthographe |
+| 297 | `fi2-68-spot` | 68 | spot the error, 3 | orthographe |
+| 298 | `fi2-68-h-card` (card c68-3) | 68 | multiple choice, 1 | orthographe |
+| 299 | `fi2-69-def` | 69 | matching, 1 | vocabulaire |
+| 300 | `fi2-69-paix` | 69 | multiple choice, 2 | vocabulaire |
+| 301 | `fi2-69-spot` | 69 | spot the error, 3 | vocabulaire |
+| 302 | `fi2-69-paix-card` (card c69-3) | 69 | multiple choice, 1 | vocabulaire |
+| 303 | `fi2-70-etapes` | 70 | ordering, 1 | expression |
+| 304 | `fi2-70-slogan` | 70 | multiple choice, 1 | expression |
+| 305 | `fi2-70-msg` | 70 | multiple choice, 2 | expression |
+| 306 | `fi2-70-spot` | 70 | spot the error, 3 | expression |
+| 307 | `fi2-70-msg-card` (card c70-3) | 70 | multiple choice, 1 | expression |
+| 308 | `fi2-71-obs` | 71 | multiple choice, 1 | expression |
+| 309 | `fi2-71-lien` | 71 | ordering, 1 | expression |
+| 310 | `fi2-71-concl` | 71 | multiple choice, 2 | expression |
+| 311 | `fi2-71-spot` | 71 | spot the error, 3 | expression |
+| 312 | `fi2-71-concl-card` (card c71-3) | 71 | multiple choice, 1 | expression |
+| 313 | `fi2-72-quoi` | 72 | multiple choice, 1 | grammaire |
+| 314 | `fi2-72-inv` | 72 | multiple choice, 2 | grammaire |
+| 315 | `fi2-72-si` | 72 | fill the blank, 1 | grammaire |
+| 316 | `fi2-72-spot` | 72 | spot the error, 3 | grammaire |
+| 317 | `fi2-72-inv-card` (card c72-2) | 72 | multiple choice, 1 | grammaire |
+| 318 | `fi2-73-e` | 73 | fill the blank, 1 | orthographe |
+| 319 | `fi2-73-ib` | 73 | fill the blank, 2 | orthographe |
+| 320 | `fi2-73-spot` | 73 | spot the error, 3 | orthographe |
+| 321 | `fi2-73-ib-card` (card c73-3) | 73 | fill the blank, 1 | orthographe |
+| 322 | `fi2-74-droit` | 74 | multiple choice, 1 | vocabulaire |
+| 323 | `fi2-74-aide` | 74 | multiple choice, 2 | vocabulaire |
+| 324 | `fi2-74-spot` | 74 | spot the error, 3 | vocabulaire |
+| 325 | `fi2-74-aide-card` (card c74-3) | 74 | multiple choice, 1 | vocabulaire |
+| 326 | `fi2-75-mot` | 75 | matching, 1 | vocabulaire |
+| 327 | `fi2-75-fair` | 75 | multiple choice, 2 | vocabulaire |
+| 328 | `fi2-75-spot` | 75 | spot the error, 3 | vocabulaire |
+| 329 | `fi2-75-fair-card` (card c75-3) | 75 | multiple choice, 1 | vocabulaire |
+| 330 | `fi2-76-lex` | 76 | multiple choice, 1 | vocabulaire |
+| 331 | `fi2-76-sem` | 76 | multiple choice, 2 | vocabulaire |
+| 332 | `fi2-76-respect` | 76 | multiple choice, 1 | vocabulaire |
+| 333 | `fi2-76-spot` | 76 | spot the error, 3 | vocabulaire |
+| 334 | `fi2-76-sem-card` (card c76-2) | 76 | multiple choice, 1 | vocabulaire |
+| 335 | `fi2-78-sub` | 78 | fill the blank, 2 | grammaire |
+| 336 | `fi2-78-spot` | 78 | spot the error, 3 | grammaire |
+| 337 | `fi2-78-sub-card` (card c78-3) | 78 | fill the blank, 1 | grammaire |
+| 338 | `fi2-79-emploi` | 79 | multiple choice, 1 | conjugaison |
+| 339 | `fi2-79-spot` | 79 | spot the error, 3 | conjugaison |
+| 340 | `fi2-80-ecrit` | 80 | fill the blank, 1 | orthographe |
+| 341 | `fi2-80-et` | 80 | fill the blank, 1 | orthographe |
+| 342 | `fi2-80-imp` | 80 | fill the blank, 2 | orthographe |
+| 343 | `fi2-80-spot` | 80 | spot the error, 3 | orthographe |
+| 344 | `fi2-80-imp-card` (card c80-3) | 80 | fill the blank, 1 | orthographe |
+| 345 | `fi2-81-but` | 81 | multiple choice, 1 | vocabulaire |
+| 346 | `fi2-81-mot` | 81 | matching, 1 | vocabulaire |
+| 347 | `fi2-81-critique` | 81 | multiple choice, 2 | vocabulaire |
+| 348 | `fi2-81-spot` | 81 | spot the error, 3 | vocabulaire |
+| 349 | `fi2-81-critique-card` (card c81-3) | 81 | multiple choice, 1 | vocabulaire |
+| 350 | `fi2-82-forme` | 82 | multiple choice, 1 | litterature |
+| 351 | `fi2-82-rime` | 82 | multiple choice, 1 | litterature |
+| 352 | `fi2-82-sens` | 82 | multiple choice, 2 | litterature |
+| 353 | `fi2-82-spot` | 82 | spot the error, 3 | litterature |
+| 354 | `fi2-82-sens-card` (card c82-3) | 82 | multiple choice, 1 | litterature |
+| 355 | `fi2-83-comp` | 83 | multiple choice, 1 | lecture |
+| 356 | `fi2-83-mot` | 83 | multiple choice, 1 | lecture |
+| 357 | `fi2-83-idee` | 83 | multiple choice, 2 | lecture |
+| 358 | `fi2-83-spot` | 83 | spot the error, 3 | lecture |
+| 359 | `fi2-83-idee-card` (card c83-3) | 83 | multiple choice, 1 | lecture |
+| 360 | `fi2-84-ordre` | 84 | ordering, 1 | expression |
+| 361 | `fi2-84-mot` | 84 | fill the blank, 2 | expression |
+| 362 | `fi2-84-spot` | 84 | spot the error, 3 | expression |
+| 363 | `fi2-84-mot-card` (card c84-3) | 84 | fill the blank, 1 | expression |
+| 364 | `fi2-85-perso` | 85 | multiple choice, 1 | litterature |
+| 365 | `fi2-85-etapes` | 85 | ordering, 1 | litterature |
+| 366 | `fi2-85-morale` | 85 | multiple choice, 2 | litterature |
+| 367 | `fi2-85-spot` | 85 | spot the error, 3 | litterature |
+| 368 | `fi2-85-morale-card` (card c85-3) | 85 | multiple choice, 1 | litterature |
+| 369 | `fi2-86-emploi` | 86 | multiple choice, 1 | conjugaison |
+| 370 | `fi2-86-spot` | 86 | spot the error, 3 | conjugaison |
+| 371 | `fi2-87-mot` | 87 | fill the blank, 1 | orthographe |
+| 372 | `fi2-87-pl` | 87 | multiple choice, 1 | orthographe |
+| 373 | `fi2-87-travail` | 87 | multiple choice, 2 | vocabulaire |
+| 374 | `fi2-87-spot` | 87 | spot the error, 3 | orthographe |
+| 375 | `fi2-87-travail-card` (card c87-3) | 87 | multiple choice, 1 | vocabulaire |
+| 376 | `fi2-88-contrat` | 88 | multiple choice, 1 | vocabulaire |
+| 377 | `fi2-88-mot` | 88 | matching, 1 | vocabulaire |
+| 378 | `fi2-88-droit` | 88 | multiple choice, 2 | vocabulaire |
+| 379 | `fi2-88-spot` | 88 | spot the error, 3 | vocabulaire |
+| 380 | `fi2-88-droit-card` (card c88-3) | 88 | multiple choice, 1 | vocabulaire |
+| 381 | `fi2-89-cand` | 89 | multiple choice, 1 | expression |
+| 382 | `fi2-89-quest` | 89 | multiple choice, 1 | expression |
+| 383 | `fi2-89-ordre` | 89 | ordering, 2 | expression |
+| 384 | `fi2-89-spot` | 89 | spot the error, 3 | expression |
+| 385 | `fi2-89-ordre-card` (card c89-3) | 89 | ordering, 1 | expression |
+| 386 | `fi2-90-plan` | 90 | ordering, 1 | expression |
+| 387 | `fi2-90-concl` | 90 | multiple choice, 2 | expression |
+| 388 | `fi2-90-spot` | 90 | spot the error, 3 | expression |
+| 389 | `fi2-90-concl-card` (card c90-3) | 90 | multiple choice, 1 | expression |
+| 390 | `fi2-91-quoi` | 91 | multiple choice, 1 | grammaire |
+| 391 | `fi2-91-pl` | 91 | multiple choice, 2 | grammaire |
+| 392 | `fi2-91-prep` | 91 | fill the blank, 1 | grammaire |
+| 393 | `fi2-91-spot` | 91 | spot the error, 3 | grammaire |
+| 394 | `fi2-91-pl-card` (card c91-2) | 91 | multiple choice, 1 | grammaire |
+| 395 | `fi2-92-mm` | 92 | fill the blank, 1 | orthographe |
+| 396 | `fi2-92-mbp` | 92 | fill the blank, 1 | orthographe |
+| 397 | `fi2-92-adv` | 92 | fill the blank, 2 | orthographe |
+| 398 | `fi2-92-spot` | 92 | spot the error, 3 | orthographe |
+| 399 | `fi2-92-adv-card` (card c92-3) | 92 | fill the blank, 1 | orthographe |
+| 400 | `fi2-93-banque` | 93 | multiple choice, 1 | vocabulaire |
+| 401 | `fi2-93-ops` | 93 | matching, 1 | vocabulaire |
+| 402 | `fi2-93-pret` | 93 | multiple choice, 2 | vocabulaire |
+| 403 | `fi2-93-spot` | 93 | spot the error, 3 | vocabulaire |
+| 404 | `fi2-93-pret-card` (card c93-3) | 93 | multiple choice, 1 | vocabulaire |
+| 405 | `fi2-94-obs` | 94 | multiple choice, 1 | expression |
+| 406 | `fi2-94-msg` | 94 | multiple choice, 2 | expression |
+| 407 | `fi2-94-avis` | 94 | ordering, 1 | expression |
+| 408 | `fi2-94-spot` | 94 | spot the error, 3 | expression |
+| 409 | `fi2-94-msg-card` (card c94-2) | 94 | multiple choice, 1 | expression |
+| 410 | `fi2-95-temps` | 95 | fill the blank, 1 | expression |
+| 411 | `fi2-95-imprevu` | 95 | multiple choice, 1 | expression |
+| 412 | `fi2-95-ordre` | 95 | ordering, 2 | expression |
+| 413 | `fi2-95-spot` | 95 | spot the error, 3 | expression |
+| 414 | `fi2-95-ordre-card` (card c95-3) | 95 | ordering, 1 | expression |
+| 415 | `fi2-96-affiche` | 96 | multiple choice, 1 | expression |
+| 416 | `fi2-96-annonce` | 96 | multiple choice, 1 | expression |
+| 417 | `fi2-96-etapes` | 96 | ordering, 2 | expression |
+| 418 | `fi2-96-spot` | 96 | spot the error, 3 | expression |
+| 419 | `fi2-96-etapes-card` (card c96-3) | 96 | ordering, 1 | expression |
+| 420 | `fi2-97-gram` | 97 | multiple choice, 1 | grammaire |
+| 421 | `fi2-97-spot` | 97 | spot the error, 3 | conjugaison |
+| 422 | `fi2-98-perso` | 98 | multiple choice, 1 | litterature |
+| 423 | `fi2-98-etapes` | 98 | ordering, 1 | litterature |
+| 424 | `fi2-98-morale` | 98 | multiple choice, 2 | litterature |
+| 425 | `fi2-98-spot` | 98 | spot the error, 3 | litterature |
+| 426 | `fi2-98-morale-card` (card c98-3) | 98 | multiple choice, 1 | litterature |
+| 427 | `fi2-99-tech` | 99 | multiple choice, 1 | expression |
+| 428 | `fi2-99-ponct` | 99 | multiple choice, 1 | expression |
+| 429 | `fi2-99-spot` | 99 | spot the error, 3 | expression |
+| 430 | `fi2-100-temps` | 100 | fill the blank, 1 | expression |
+| 431 | `fi2-100-mix` | 100 | multiple choice, 2 | expression |
+| 432 | `fi2-100-spot` | 100 | spot the error, 3 | expression |
+| 433 | `fi2-100-mix-card` (card c100-3) | 100 | multiple choice, 1 | expression |
+| 434 | `fi2-101-type` | 101 | multiple choice, 1 | expression |
+| 435 | `fi2-101-etapes` | 101 | ordering, 1 | expression |
+| 436 | `fi2-101-grille` | 101 | multiple choice, 2 | expression |
+| 437 | `fi2-101-spot` | 101 | spot the error, 3 | expression |
+| 438 | `fi2-101-grille-card` (card c101-3) | 101 | multiple choice, 1 | expression |
+| 439 | `fi2-102-si` | 102 | fill the blank, 2 | conjugaison |
+| 440 | `fi2-102-spot` | 102 | spot the error, 3 | conjugaison |
+| 441 | `fi2-102-si-card` (card c102-2) | 102 | fill the blank, 1 | conjugaison |
 
 ### `fi2-1-epi` · Lesson 1 · multiple choice, level 1
 
@@ -715,6 +717,94 @@ Full working after a second miss:
 
 > La phrase fausse est « « manger » est un verbe d’état. ».  
 > Les verbes d’état sont être, sembler, paraître, devenir, rester.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `pilot-form-2-francais-intensif-1-1` · Lesson 1 · multiple choice, level 1
+
+Prompt: BIH : Regarde la cour propre ! / NJI : Oui, la cour est propre. / Dans « la cour propre », quelle est la fonction de « propre » ?
+
+Right answer: `Épithète.`; wrong choices: `Attribut du sujet.`, `Verbe.`
+
+
+Three generated variants:
+
+> BIH : Regarde la cour propre !
+> NJI : Oui, la cour est propre.
+> Dans « la cour propre », quelle est la fonction de « propre » ?
+
+- ◻️ Verbe.
+- ✅ Épithète.
+- ◻️ Attribut du sujet.
+
+Full working after a second miss:
+
+> « Propre » est placé à côté du nom « cour », sans verbe : épithète.  
+
+> BIH : Regarde la cour propre !
+> NJI : Oui, la cour est propre.
+> Dans « la cour propre », quelle est la fonction de « propre » ?
+
+- ◻️ Verbe.
+- ◻️ Attribut du sujet.
+- ✅ Épithète.
+
+Full working after a second miss:
+
+> « Propre » est placé à côté du nom « cour », sans verbe : épithète.  
+
+> BIH : Regarde la cour propre !
+> NJI : Oui, la cour est propre.
+> Dans « la cour propre », quelle est la fonction de « propre » ?
+
+- ◻️ Verbe.
+- ✅ Épithète.
+- ◻️ Attribut du sujet.
+
+Full working after a second miss:
+
+> « Propre » est placé à côté du nom « cour », sans verbe : épithète.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+
+### `pilot-form-2-francais-intensif-1-2` · Lesson 1 · multiple choice, level 2
+
+Prompt: Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?
+
+Right answer: `Il est relié au sujet par le verbe être.`; wrong choices: `Il est placé directement à côté du nom, sans verbe.`, `Il remplace le nom cour.`
+
+
+Three generated variants:
+
+> Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?
+
+- ◻️ Il remplace le nom cour.
+- ✅ Il est relié au sujet par le verbe être.
+- ◻️ Il est placé directement à côté du nom, sans verbe.
+
+Full working after a second miss:
+
+> Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour ».  
+
+> Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?
+
+- ✅ Il est relié au sujet par le verbe être.
+- ◻️ Il est placé directement à côté du nom, sans verbe.
+- ◻️ Il remplace le nom cour.
+
+Full working after a second miss:
+
+> Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour ».  
+
+> Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?
+
+- ◻️ Il est placé directement à côté du nom, sans verbe.
+- ✅ Il est relié au sujet par le verbe être.
+- ◻️ Il remplace le nom cour.
+
+Full working after a second miss:
+
+> Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour ».  
 
 Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
 

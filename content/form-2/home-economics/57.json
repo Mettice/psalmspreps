@@ -1,0 +1,353 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 57,
+ "language": "en",
+ "prerequisites": [
+  53,
+  56
+ ],
+ "skills": [
+  {
+   "id": "h2-57",
+   "name": "Embroidery designs: counted-thread work"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Embroidery designs can be:\n• free designs: drawn freely on the fabric (flowers, birds, names);\n• geometric designs: lines, squares, triangles, diamonds, often repeated;\n• counted-thread designs: the stitches are placed by counting the threads of an even-weave fabric, so all the stitches are the same size.\nCross stitch is the best-known counted-thread stitch: each stitch is an X covering a small square of the fabric. Patterns are followed from a chart (a grid where each square is one cross).\nEven-weave fabrics such as Aida cloth have clear holes, which make counting easy.\nTips: start in the centre of the design; make all the top stitches cross in the same direction; count carefully.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "w": 12,
+   "h": 8
+  },
+  "problem": "A cross-stitch chart has a rectangle {w} squares wide and {h} squares high, all filled. How many crosses are needed?",
+  "steps": [
+   "Each square on the chart is one cross.",
+   "{w} × {h} = {w * h} crosses."
+  ],
+  "answer": "{w * h} crosses",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c57-1",
+    "status": "draft",
+    "idea": "Counted-thread work places stitches by counting the threads of an even-weave fabric.",
+    "vars": {},
+    "example": [
+     "Cross stitch on Aida cloth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-57-what"
+    }
+   },
+   {
+    "id": "c57-2",
+    "status": "draft",
+    "idea": "Cross stitch: each stitch is an X covering one square.",
+    "vars": {},
+    "example": [
+     "All top stitches cross the same way."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-57-count-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "embroidery"
+     ],
+     "vars": {
+      "w": {
+       "int": [
+        4,
+        20
+       ]
+      },
+      "h": {
+       "int": [
+        3,
+        15
+       ]
+      }
+     },
+     "prompt": "A cross-stitch chart has a filled rectangle {w} squares wide and {h} squares high. How many crosses are needed?",
+     "answer": "w * h",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "w + h",
+       "explain": "Multiply the width by the height."
+      },
+      {
+       "id": "perim",
+       "wrong": "2 * (w + h)",
+       "explain": "That counts the border only; fill the whole rectangle: multiply."
+      }
+     ],
+     "solution": [
+      "Each square is one cross.",
+      "{w} × {h} = {answer} crosses."
+     ],
+     "unit": "crosses"
+    }
+   },
+   {
+    "id": "c57-3",
+    "status": "draft",
+    "idea": "Follow the chart: each square is one cross.",
+    "vars": {},
+    "example": [
+     "Start in the centre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-57-design"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-57-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is counted-thread embroidery?",
+       "r": "stitches placed by counting the threads of the fabric",
+       "w": [
+        "stitches made without any plan",
+        "painting on fabric",
+        "machine washing"
+       ],
+       "e": [
+        "That is free design.",
+        "Not embroidery.",
+        "Not embroidery."
+       ],
+       "y": "All stitches are the same size."
+      },
+      {
+       "q": "Which fabric makes counting easy?",
+       "r": "an even-weave fabric such as Aida cloth",
+       "w": [
+        "slippery silk",
+        "knitted wool",
+        "plastic sheet"
+       ],
+       "e": [
+        "Threads are hard to count.",
+        "Not woven evenly.",
+        "Not a fabric for embroidery."
+       ],
+       "y": "Clear holes in a grid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-57-count",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "w": {
+     "int": [
+      4,
+      20
+     ]
+    },
+    "h": {
+     "int": [
+      3,
+      15
+     ]
+    }
+   },
+   "prompt": "A cross-stitch chart has a filled rectangle {w} squares wide and {h} squares high. How many crosses are needed?",
+   "answer": "w * h",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "w + h",
+     "explain": "Multiply the width by the height."
+    },
+    {
+     "id": "perim",
+     "wrong": "2 * (w + h)",
+     "explain": "That counts the border only; fill the whole rectangle: multiply."
+    }
+   ],
+   "solution": [
+    "Each square is one cross.",
+    "{w} × {h} = {answer} crosses."
+   ],
+   "unit": "crosses"
+  },
+  {
+   "id": "h2-57-design",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "A row of repeated diamonds and triangles.",
+       "a": "geometric",
+       "w": [
+        "free",
+        "counted-thread"
+       ]
+      },
+      {
+       "s": "A bird drawn freely and stitched in colours.",
+       "a": "free",
+       "w": [
+        "geometric",
+        "counted-thread"
+       ]
+      },
+      {
+       "s": "Crosses placed square by square from a chart on Aida cloth.",
+       "a": "counted-thread",
+       "w": [
+        "free",
+        "geometric"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "What type of design is this? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "d"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "d"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "d",
+     "explain": "Look at how the design is made: freely, with shapes, or by counting threads."
+    }
+   ],
+   "solution": [
+    "Free: drawn freely; geometric: lines and shapes; counted-thread: stitches placed by counting threads.",
+    "So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "h2-57-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Cross stitch is a counted-thread stitch.",
+      "truth": "true"
+     },
+     {
+      "text": "Aida cloth is an even-weave fabric.",
+      "truth": "true"
+     },
+     {
+      "text": "Start in the centre of the design.",
+      "truth": "true"
+     },
+     {
+      "text": "Each chart square is one cross.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cross stitches should cross in different directions.",
+      "truth": "false",
+      "explain": "All top stitches cross the same way."
+     },
+     {
+      "text": "Counted-thread work needs no counting.",
+      "truth": "false",
+      "explain": "Stitches are placed by counting threads."
+     },
+     {
+      "text": "A chart square stands for ten crosses.",
+      "truth": "false",
+      "explain": "Each square is one cross."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

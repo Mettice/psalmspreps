@@ -1,4 +1,4 @@
-# Computer Science Form 2, Batch S2-1: authored answers for review
+# Computer Science Form 2, Batches S2-1, S2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -124,6 +124,51 @@ Regenerate with `npm run review:f2-computer-science`. Item IDs (TR-…) match `d
 | 108 | `s2-40-poster` | 40 | multiple choice, 2 | office-software |
 | 109 | `s2-40-spot` | 40 | spot the error, 3 | office-software |
 | 110 | `s2-40-poster-card` (card c40-3) | 40 | multiple choice, 1 | office-software |
+| 111 | `s2-42-what` | 42 | multiple choice, 1 | data-security |
+| 112 | `s2-42-2fa` | 42 | multiple choice, 2 | data-security |
+| 113 | `s2-42-spot` | 42 | spot the error, 3 | data-security |
+| 114 | `s2-42-2fa-card` (card c42-3) | 42 | multiple choice, 1 | data-security |
+| 115 | `s2-43-what` | 43 | multiple choice, 1 | data-security |
+| 116 | `s2-43-cause` | 43 | multiple choice, 1 | data-security |
+| 117 | `s2-43-rule` | 43 | multiple choice, 2 | data-security |
+| 118 | `s2-43-spot` | 43 | spot the error, 3 | data-security |
+| 119 | `s2-43-rule-card` (card c43-3) | 43 | multiple choice, 1 | data-security |
+| 120 | `s2-45-net` | 45 | multiple choice, 1 | communication-tools |
+| 121 | `s2-45-spot` | 45 | spot the error, 3 | communication-tools |
+| 122 | `s2-46-addr` | 46 | multiple choice, 1 | communication-tools |
+| 123 | `s2-46-parts` | 46 | matching, 1 | communication-tools |
+| 124 | `s2-46-safe` | 46 | multiple choice, 2 | communication-tools |
+| 125 | `s2-46-spot` | 46 | spot the error, 3 | communication-tools |
+| 126 | `s2-46-safe-card` (card c46-3) | 46 | multiple choice, 1 | communication-tools |
+| 127 | `s2-47-feat` | 47 | multiple choice, 1 | communication-tools |
+| 128 | `s2-47-rules` | 47 | multiple choice, 1 | communication-tools |
+| 129 | `s2-47-safe` | 47 | multiple choice, 2 | communication-tools |
+| 130 | `s2-47-spot` | 47 | spot the error, 3 | communication-tools |
+| 131 | `s2-47-safe-card` (card c47-3) | 47 | multiple choice, 1 | communication-tools |
+| 132 | `s2-48-what` | 48 | multiple choice, 1 | communication-tools |
+| 133 | `s2-48-feat` | 48 | matching, 1 | communication-tools |
+| 134 | `s2-48-etiq` | 48 | multiple choice, 2 | communication-tools |
+| 135 | `s2-48-spot` | 48 | spot the error, 3 | communication-tools |
+| 136 | `s2-48-etiq-card` (card c48-3) | 48 | multiple choice, 1 | communication-tools |
+| 137 | `s2-50-power` | 50 | multiple choice, 1 | maintenance |
+| 138 | `s2-50-safe` | 50 | multiple choice, 2 | maintenance |
+| 139 | `s2-50-spot` | 50 | spot the error, 3 | maintenance |
+| 140 | `s2-50-safe-card` (card c50-3) | 50 | multiple choice, 1 | maintenance |
+| 141 | `s2-51-fix` | 51 | matching, 1 | maintenance |
+| 142 | `s2-51-heat` | 51 | multiple choice, 1 | maintenance |
+| 143 | `s2-51-order` | 51 | ordering, 2 | maintenance |
+| 144 | `s2-51-spot` | 51 | spot the error, 3 | maintenance |
+| 145 | `s2-51-order-card` (card c51-3) | 51 | ordering, 1 | maintenance |
+| 146 | `s2-52-slow` | 52 | multiple choice, 1 | maintenance |
+| 147 | `s2-52-freeze` | 52 | multiple choice, 1 | maintenance |
+| 148 | `s2-52-prev` | 52 | multiple choice, 2 | maintenance |
+| 149 | `s2-52-spot` | 52 | spot the error, 3 | maintenance |
+| 150 | `s2-52-prev-card` (card c52-3) | 52 | multiple choice, 1 | maintenance |
+| 151 | `s2-54-source` | 54 | multiple choice, 1 | credibility |
+| 152 | `s2-54-check` | 54 | multiple choice, 2 | credibility |
+| 153 | `s2-54-sign` | 54 | multiple choice, 1 | credibility |
+| 154 | `s2-54-spot` | 54 | spot the error, 3 | credibility |
+| 155 | `s2-54-check-card` (card c54-2) | 54 | multiple choice, 1 | credibility |
 
 ### `s2-1-sort` · Lesson 1 · matching, level 1
 
@@ -7183,4 +7228,2877 @@ Full working after a second miss:
 > So the answer is “where the match takes place”.  
 
 Sources: office-software (Spreadsheet, presentation and desktop publishing software)
+
+### `s2-42-what` · Lesson 42 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is authentication? | checking that a user is who they claim to be | deleting old files · printing a document · charging a battery | Not the meaning. · Not the meaning. · Not the meaning. | It protects access. |
+| What comes after authentication and decides what a user may do? | authorisation | formatting · printing · downloading | Not the meaning. · Not the meaning. · Not the meaning. | Permissions are given. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is authentication?
+
+- ◻️ deleting old files  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ charging a battery  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ printing a document  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ checking that a user is who they claim to be
+
+Full working after a second miss:
+
+> It protects access.  
+> So the answer is “checking that a user is who they claim to be”.  
+
+> What is authentication?
+
+- ◻️ deleting old files  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ charging a battery  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ printing a document  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ checking that a user is who they claim to be
+
+Full working after a second miss:
+
+> It protects access.  
+> So the answer is “checking that a user is who they claim to be”.  
+
+> What is authentication?
+
+- ✅ checking that a user is who they claim to be
+- ◻️ deleting old files  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ printing a document  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ charging a battery  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> It protects access.  
+> So the answer is “checking that a user is who they claim to be”.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-42-2fa` · Lesson 42 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is two-factor authentication? | a password and a code sent by SMS | two passwords · a PIN and a secret question · only a fingerprint | Both are things you know. · Both are things you know. · One factor. | Two different kinds of factor. |
+| Why is two-factor authentication safer? | A thief needs both factors, not just a stolen password. | It needs no password. · It makes the phone faster. · It deletes viruses. | Not true. · Not true. · Not its role. | Harder to break in. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is two-factor authentication?
+
+- ◻️ only a fingerprint  
+  _↳ feedback if chosen: One factor._
+- ✅ a password and a code sent by SMS
+- ◻️ a PIN and a secret question  
+  _↳ feedback if chosen: Both are things you know._
+- ◻️ two passwords  
+  _↳ feedback if chosen: Both are things you know._
+
+Full working after a second miss:
+
+> Two different kinds of factor.  
+> So the answer is “a password and a code sent by SMS”.  
+
+> Which is two-factor authentication?
+
+- ◻️ a PIN and a secret question  
+  _↳ feedback if chosen: Both are things you know._
+- ◻️ two passwords  
+  _↳ feedback if chosen: Both are things you know._
+- ✅ a password and a code sent by SMS
+- ◻️ only a fingerprint  
+  _↳ feedback if chosen: One factor._
+
+Full working after a second miss:
+
+> Two different kinds of factor.  
+> So the answer is “a password and a code sent by SMS”.  
+
+> Why is two-factor authentication safer?
+
+- ✅ A thief needs both factors, not just a stolen password.
+- ◻️ It makes the phone faster.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It deletes viruses.  
+  _↳ feedback if chosen: Not its role._
+- ◻️ It needs no password.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Harder to break in.  
+> So the answer is “A thief needs both factors, not just a stolen password.”.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-42-spot` · Lesson 42 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A PIN is something you know.
+- ✅ A fingerprint is biometric.
+- ✅ Two-factor uses two kinds of factor.
+- ✅ Lock your screen when you leave.
+- ❌ Two passwords are two-factor authentication.  
+  _↳ Both are the same kind (know)._
+- ❌ Share your OTP code with friends.  
+  _↳ Never share codes._
+- ❌ Authentication decides what you can do after logging in.  
+  _↳ That is authorisation._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Lock your screen when you leave.
+- ◻️ A fingerprint is biometric.
+- ◻️ Two-factor uses two kinds of factor.
+- ✅ Two passwords are two-factor authentication.  
+  _↳ explanation: Both are the same kind (know)._
+
+Full working after a second miss:
+
+> The wrong statement is “Two passwords are two-factor authentication.”.  
+> Both are the same kind (know).  
+
+> Which statement is wrong?
+
+- ◻️ Lock your screen when you leave.
+- ✅ Share your OTP code with friends.  
+  _↳ explanation: Never share codes._
+- ◻️ Two-factor uses two kinds of factor.
+- ◻️ A PIN is something you know.
+
+Full working after a second miss:
+
+> The wrong statement is “Share your OTP code with friends.”.  
+> Never share codes.  
+
+> Which statement is wrong?
+
+- ◻️ A PIN is something you know.
+- ✅ Authentication decides what you can do after logging in.  
+  _↳ explanation: That is authorisation._
+- ◻️ A fingerprint is biometric.
+- ◻️ Two-factor uses two kinds of factor.
+
+Full working after a second miss:
+
+> The wrong statement is “Authentication decides what you can do after logging in.”.  
+> That is authorisation.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-42-2fa-card` · Lesson 42 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is two-factor authentication? | a password and a code sent by SMS | two passwords · a PIN and a secret question · only a fingerprint | Both are things you know. · Both are things you know. · One factor. | Two different kinds of factor. |
+| Why is two-factor authentication safer? | A thief needs both factors, not just a stolen password. | It needs no password. · It makes the phone faster. · It deletes viruses. | Not true. · Not true. · Not its role. | Harder to break in. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is two-factor authentication?
+
+- ◻️ two passwords  
+  _↳ feedback if chosen: Both are things you know._
+- ◻️ a PIN and a secret question  
+  _↳ feedback if chosen: Both are things you know._
+- ✅ a password and a code sent by SMS
+- ◻️ only a fingerprint  
+  _↳ feedback if chosen: One factor._
+
+Full working after a second miss:
+
+> Two different kinds of factor.  
+> So the answer is “a password and a code sent by SMS”.  
+
+> Why is two-factor authentication safer?
+
+- ◻️ It needs no password.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It deletes viruses.  
+  _↳ feedback if chosen: Not its role._
+- ✅ A thief needs both factors, not just a stolen password.
+- ◻️ It makes the phone faster.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Harder to break in.  
+> So the answer is “A thief needs both factors, not just a stolen password.”.  
+
+> Which is two-factor authentication?
+
+- ◻️ two passwords  
+  _↳ feedback if chosen: Both are things you know._
+- ◻️ a PIN and a secret question  
+  _↳ feedback if chosen: Both are things you know._
+- ◻️ only a fingerprint  
+  _↳ feedback if chosen: One factor._
+- ✅ a password and a code sent by SMS
+
+Full working after a second miss:
+
+> Two different kinds of factor.  
+> So the answer is “a password and a code sent by SMS”.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-43-what` · Lesson 43 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a backup? | a copy of data kept elsewhere to restore it if lost | a virus · a password · a printer | Not the meaning. · Not the meaning. · Not the meaning. | Restore after a loss. |
+| Which is a backup device? | an external hard disk | a mouse · a keyboard · a speaker | Input device. · Input device. · Output device. | It stores copies of files. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a backup device?
+
+- ✅ an external hard disk
+- ◻️ a speaker  
+  _↳ feedback if chosen: Output device._
+- ◻️ a keyboard  
+  _↳ feedback if chosen: Input device._
+- ◻️ a mouse  
+  _↳ feedback if chosen: Input device._
+
+Full working after a second miss:
+
+> It stores copies of files.  
+> So the answer is “an external hard disk”.  
+
+> Which is a backup device?
+
+- ◻️ a speaker  
+  _↳ feedback if chosen: Output device._
+- ◻️ a mouse  
+  _↳ feedback if chosen: Input device._
+- ✅ an external hard disk
+- ◻️ a keyboard  
+  _↳ feedback if chosen: Input device._
+
+Full working after a second miss:
+
+> It stores copies of files.  
+> So the answer is “an external hard disk”.  
+
+> Which is a backup device?
+
+- ◻️ a mouse  
+  _↳ feedback if chosen: Input device._
+- ◻️ a speaker  
+  _↳ feedback if chosen: Output device._
+- ✅ an external hard disk
+- ◻️ a keyboard  
+  _↳ feedback if chosen: Input device._
+
+Full working after a second miss:
+
+> It stores copies of files.  
+> So the answer is “an external hard disk”.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-43-cause` · Lesson 43 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a cause of data loss? | a hard disk that stops working | a clean screen · a strong password · a full battery | Not a cause. · It protects. · Not a cause. | Hardware failure. |
+| What is ransomware? | malware that locks files and demands payment | a backup program · a type of keyboard · a free game | It harms data. · Not hardware. · It is dangerous. | Backups help recover. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is ransomware?
+
+- ◻️ a free game  
+  _↳ feedback if chosen: It is dangerous._
+- ✅ malware that locks files and demands payment
+- ◻️ a type of keyboard  
+  _↳ feedback if chosen: Not hardware._
+- ◻️ a backup program  
+  _↳ feedback if chosen: It harms data._
+
+Full working after a second miss:
+
+> Backups help recover.  
+> So the answer is “malware that locks files and demands payment”.  
+
+> Which is a cause of data loss?
+
+- ◻️ a clean screen  
+  _↳ feedback if chosen: Not a cause._
+- ✅ a hard disk that stops working
+- ◻️ a strong password  
+  _↳ feedback if chosen: It protects._
+- ◻️ a full battery  
+  _↳ feedback if chosen: Not a cause._
+
+Full working after a second miss:
+
+> Hardware failure.  
+> So the answer is “a hard disk that stops working”.  
+
+> Which is a cause of data loss?
+
+- ◻️ a full battery  
+  _↳ feedback if chosen: Not a cause._
+- ◻️ a clean screen  
+  _↳ feedback if chosen: Not a cause._
+- ✅ a hard disk that stops working
+- ◻️ a strong password  
+  _↳ feedback if chosen: It protects._
+
+Full working after a second miss:
+
+> Hardware failure.  
+> So the answer is “a hard disk that stops working”.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-43-rule` · Lesson 43 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does the 3-2-1 backup rule say? | 3 copies, on 2 kinds of storage, with 1 copy elsewhere | 3 passwords, 2 users, 1 computer · back up once every 321 days · 3 printers, 2 screens, 1 mouse | Not the rule. · Not the rule. · Not the rule. | Spread the risk. |
+| What is an incremental backup? | a backup of only what changed since the last one | a backup of everything every time · deleting old files · a virus scan | That is a full backup. · Not a backup. · Not a backup. | Faster and smaller. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does the 3-2-1 backup rule say?
+
+- ◻️ 3 printers, 2 screens, 1 mouse  
+  _↳ feedback if chosen: Not the rule._
+- ✅ 3 copies, on 2 kinds of storage, with 1 copy elsewhere
+- ◻️ 3 passwords, 2 users, 1 computer  
+  _↳ feedback if chosen: Not the rule._
+- ◻️ back up once every 321 days  
+  _↳ feedback if chosen: Not the rule._
+
+Full working after a second miss:
+
+> Spread the risk.  
+> So the answer is “3 copies, on 2 kinds of storage, with 1 copy elsewhere”.  
+
+> What does the 3-2-1 backup rule say?
+
+- ✅ 3 copies, on 2 kinds of storage, with 1 copy elsewhere
+- ◻️ 3 printers, 2 screens, 1 mouse  
+  _↳ feedback if chosen: Not the rule._
+- ◻️ back up once every 321 days  
+  _↳ feedback if chosen: Not the rule._
+- ◻️ 3 passwords, 2 users, 1 computer  
+  _↳ feedback if chosen: Not the rule._
+
+Full working after a second miss:
+
+> Spread the risk.  
+> So the answer is “3 copies, on 2 kinds of storage, with 1 copy elsewhere”.  
+
+> What is an incremental backup?
+
+- ◻️ a virus scan  
+  _↳ feedback if chosen: Not a backup._
+- ◻️ a backup of everything every time  
+  _↳ feedback if chosen: That is a full backup._
+- ◻️ deleting old files  
+  _↳ feedback if chosen: Not a backup._
+- ✅ a backup of only what changed since the last one
+
+Full working after a second miss:
+
+> Faster and smaller.  
+> So the answer is “a backup of only what changed since the last one”.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-43-spot` · Lesson 43 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Back up regularly.
+- ✅ The cloud can hold a backup.
+- ✅ Test that you can restore files.
+- ✅ Theft can cause data loss.
+- ❌ A backup on the same disk protects against disk failure.  
+  _↳ Keep it on another device or place._
+- ❌ Backups are only needed after data is lost.  
+  _↳ Back up before a loss._
+- ❌ A mouse is a backup device.  
+  _↳ A mouse is an input device._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Theft can cause data loss.
+- ✅ A backup on the same disk protects against disk failure.  
+  _↳ explanation: Keep it on another device or place._
+- ◻️ Test that you can restore files.
+- ◻️ The cloud can hold a backup.
+
+Full working after a second miss:
+
+> The wrong statement is “A backup on the same disk protects against disk failure.”.  
+> Keep it on another device or place.  
+
+> Which statement is wrong?
+
+- ◻️ Theft can cause data loss.
+- ◻️ Test that you can restore files.
+- ◻️ Back up regularly.
+- ✅ Backups are only needed after data is lost.  
+  _↳ explanation: Back up before a loss._
+
+Full working after a second miss:
+
+> The wrong statement is “Backups are only needed after data is lost.”.  
+> Back up before a loss.  
+
+> Which statement is wrong?
+
+- ✅ A mouse is a backup device.  
+  _↳ explanation: A mouse is an input device._
+- ◻️ Back up regularly.
+- ◻️ Test that you can restore files.
+- ◻️ The cloud can hold a backup.
+
+Full working after a second miss:
+
+> The wrong statement is “A mouse is a backup device.”.  
+> A mouse is an input device.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-43-rule-card` · Lesson 43 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does the 3-2-1 backup rule say? | 3 copies, on 2 kinds of storage, with 1 copy elsewhere | 3 passwords, 2 users, 1 computer · back up once every 321 days · 3 printers, 2 screens, 1 mouse | Not the rule. · Not the rule. · Not the rule. | Spread the risk. |
+| What is an incremental backup? | a backup of only what changed since the last one | a backup of everything every time · deleting old files · a virus scan | That is a full backup. · Not a backup. · Not a backup. | Faster and smaller. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is an incremental backup?
+
+- ◻️ deleting old files  
+  _↳ feedback if chosen: Not a backup._
+- ◻️ a backup of everything every time  
+  _↳ feedback if chosen: That is a full backup._
+- ✅ a backup of only what changed since the last one
+- ◻️ a virus scan  
+  _↳ feedback if chosen: Not a backup._
+
+Full working after a second miss:
+
+> Faster and smaller.  
+> So the answer is “a backup of only what changed since the last one”.  
+
+> What does the 3-2-1 backup rule say?
+
+- ◻️ back up once every 321 days  
+  _↳ feedback if chosen: Not the rule._
+- ✅ 3 copies, on 2 kinds of storage, with 1 copy elsewhere
+- ◻️ 3 passwords, 2 users, 1 computer  
+  _↳ feedback if chosen: Not the rule._
+- ◻️ 3 printers, 2 screens, 1 mouse  
+  _↳ feedback if chosen: Not the rule._
+
+Full working after a second miss:
+
+> Spread the risk.  
+> So the answer is “3 copies, on 2 kinds of storage, with 1 copy elsewhere”.  
+
+> What is an incremental backup?
+
+- ◻️ deleting old files  
+  _↳ feedback if chosen: Not a backup._
+- ◻️ a backup of everything every time  
+  _↳ feedback if chosen: That is a full backup._
+- ✅ a backup of only what changed since the last one
+- ◻️ a virus scan  
+  _↳ feedback if chosen: Not a backup._
+
+Full working after a second miss:
+
+> Faster and smaller.  
+> So the answer is “a backup of only what changed since the last one”.  
+
+Sources: data-security (Authentication (know/have/are factors, two-factor, authorisation) and backup (full, incremental, 3-2-1 rule))
+
+### `s2-45-net` · Lesson 45 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is netiquette? | good manners when communicating online | a type of computer virus · a network cable · an internet provider | Not the meaning. · Not the meaning. · Not the meaning. | Be polite and respectful online. |
+| Which follows netiquette? | checking information before forwarding it | writing in capital letters to shout · sharing a friend's private photo · insulting people in a group chat | Capitals look like shouting. · Respect privacy. · Be polite. | Avoid spreading false news. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which follows netiquette?
+
+- ◻️ insulting people in a group chat  
+  _↳ feedback if chosen: Be polite._
+- ✅ checking information before forwarding it
+- ◻️ sharing a friend's private photo  
+  _↳ feedback if chosen: Respect privacy._
+- ◻️ writing in capital letters to shout  
+  _↳ feedback if chosen: Capitals look like shouting._
+
+Full working after a second miss:
+
+> Avoid spreading false news.  
+> So the answer is “checking information before forwarding it”.  
+
+> Which follows netiquette?
+
+- ◻️ writing in capital letters to shout  
+  _↳ feedback if chosen: Capitals look like shouting._
+- ✅ checking information before forwarding it
+- ◻️ insulting people in a group chat  
+  _↳ feedback if chosen: Be polite._
+- ◻️ sharing a friend's private photo  
+  _↳ feedback if chosen: Respect privacy._
+
+Full working after a second miss:
+
+> Avoid spreading false news.  
+> So the answer is “checking information before forwarding it”.  
+
+> What is netiquette?
+
+- ◻️ a type of computer virus  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ good manners when communicating online
+- ◻️ a network cable  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ an internet provider  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Be polite and respectful online.  
+> So the answer is “good manners when communicating online”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-45-spot` · Lesson 45 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ E-mail is a communication tool.
+- ✅ Google Docs allows collaboration.
+- ✅ A video call is synchronous.
+- ✅ Be polite online.
+- ❌ An e-mail needs both people online at the same time.  
+  _↳ E-mail is asynchronous._
+- ❌ Netiquette means sharing others' messages without permission.  
+  _↳ Respect privacy._
+- ❌ A shared document cannot be edited by two people.  
+  _↳ Many people can edit it._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Google Docs allows collaboration.
+- ◻️ A video call is synchronous.
+- ◻️ Be polite online.
+- ✅ A shared document cannot be edited by two people.  
+  _↳ explanation: Many people can edit it._
+
+Full working after a second miss:
+
+> The wrong statement is “A shared document cannot be edited by two people.”.  
+> Many people can edit it.  
+
+> Which statement is wrong?
+
+- ◻️ A video call is synchronous.
+- ◻️ Google Docs allows collaboration.
+- ◻️ Be polite online.
+- ✅ A shared document cannot be edited by two people.  
+  _↳ explanation: Many people can edit it._
+
+Full working after a second miss:
+
+> The wrong statement is “A shared document cannot be edited by two people.”.  
+> Many people can edit it.  
+
+> Which statement is wrong?
+
+- ◻️ E-mail is a communication tool.
+- ✅ A shared document cannot be edited by two people.  
+  _↳ explanation: Many people can edit it._
+- ◻️ A video call is synchronous.
+- ◻️ Google Docs allows collaboration.
+
+Full working after a second miss:
+
+> The wrong statement is “A shared document cannot be edited by two people.”.  
+> Many people can edit it.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-46-addr` · Lesson 46 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a valid e-mail address? | bih.ngum@gmail.com | bih.ngum.gmail.com · @bihngum · bih ngum@gmail | It needs @. · It needs a username and a domain. · No spaces; it needs a full domain. | username@domain. |
+| In ayuk@mtn.cm, what is “mtn.cm”? | the domain | the username · the password · the subject | That is “ayuk”. · Not shown. · Not part of the address. | After the @. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a valid e-mail address?
+
+- ◻️ @bihngum  
+  _↳ feedback if chosen: It needs a username and a domain._
+- ◻️ bih.ngum.gmail.com  
+  _↳ feedback if chosen: It needs @._
+- ◻️ bih ngum@gmail  
+  _↳ feedback if chosen: No spaces; it needs a full domain._
+- ✅ bih.ngum@gmail.com
+
+Full working after a second miss:
+
+> username@domain.  
+> So the answer is “bih.ngum@gmail.com”.  
+
+> In ayuk@mtn.cm, what is “mtn.cm”?
+
+- ◻️ the username  
+  _↳ feedback if chosen: That is “ayuk”._
+- ◻️ the password  
+  _↳ feedback if chosen: Not shown._
+- ◻️ the subject  
+  _↳ feedback if chosen: Not part of the address._
+- ✅ the domain
+
+Full working after a second miss:
+
+> After the @.  
+> So the answer is “the domain”.  
+
+> In ayuk@mtn.cm, what is “mtn.cm”?
+
+- ✅ the domain
+- ◻️ the password  
+  _↳ feedback if chosen: Not shown._
+- ◻️ the subject  
+  _↳ feedback if chosen: Not part of the address._
+- ◻️ the username  
+  _↳ feedback if chosen: That is “ayuk”._
+
+Full working after a second miss:
+
+> After the @.  
+> So the answer is “the domain”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-46-parts` · Lesson 46 · matching, level 1
+
+Prompt: Match each part of an e-mail to its role.
+
+Pairs (4 shown each time):
+
+- To → **the main receiver**
+- Cc → **a visible copy to others**
+- Bcc → **a hidden copy**
+- Subject → **a short title of the message**
+- Attachment → **a file sent with the message**
+
+
+Three generated variants:
+
+> Match each part of an e-mail to its role.
+
+Right-hand side (shuffled): a file sent with the message · a hidden copy · the main receiver · a visible copy to others
+- To → **the main receiver**
+- Bcc → **a hidden copy**
+- Attachment → **a file sent with the message**
+- Cc → **a visible copy to others**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> To → the main receiver  
+> Bcc → a hidden copy  
+> Attachment → a file sent with the message  
+> Cc → a visible copy to others  
+
+> Match each part of an e-mail to its role.
+
+Right-hand side (shuffled): the main receiver · a hidden copy · a file sent with the message · a short title of the message
+- Attachment → **a file sent with the message**
+- Bcc → **a hidden copy**
+- Subject → **a short title of the message**
+- To → **the main receiver**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Attachment → a file sent with the message  
+> Bcc → a hidden copy  
+> Subject → a short title of the message  
+> To → the main receiver  
+
+> Match each part of an e-mail to its role.
+
+Right-hand side (shuffled): a short title of the message · a file sent with the message · the main receiver · a hidden copy
+- Subject → **a short title of the message**
+- Bcc → **a hidden copy**
+- Attachment → **a file sent with the message**
+- To → **the main receiver**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Subject → a short title of the message  
+> Bcc → a hidden copy  
+> Attachment → a file sent with the message  
+> To → the main receiver  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-46-safe` · Lesson 46 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| You receive an e-mail from an unknown sender: “You won a prize! Click here and enter your password.” What do you do? | Delete it and do not click the link. | Click and enter the password. · Forward it to all friends. · Reply with your bank details. | That is phishing. · Spreads the scam. · Never share details. | Phishing tries to steal data. |
+| What is the difference between Reply and Reply all? | Reply answers the sender only; Reply all answers everyone in the e-mail. | There is no difference. · Reply all deletes the e-mail. · Reply sends to the whole world. | They differ. · Not true. · Not true. | Use Reply all carefully. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the difference between Reply and Reply all?
+
+- ◻️ Reply all deletes the e-mail.  
+  _↳ feedback if chosen: Not true._
+- ✅ Reply answers the sender only; Reply all answers everyone in the e-mail.
+- ◻️ Reply sends to the whole world.  
+  _↳ feedback if chosen: Not true._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They differ._
+
+Full working after a second miss:
+
+> Use Reply all carefully.  
+> So the answer is “Reply answers the sender only; Reply all answers everyone in the e-mail.”.  
+
+> What is the difference between Reply and Reply all?
+
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They differ._
+- ✅ Reply answers the sender only; Reply all answers everyone in the e-mail.
+- ◻️ Reply sends to the whole world.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Reply all deletes the e-mail.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Use Reply all carefully.  
+> So the answer is “Reply answers the sender only; Reply all answers everyone in the e-mail.”.  
+
+> What is the difference between Reply and Reply all?
+
+- ◻️ Reply all deletes the e-mail.  
+  _↳ feedback if chosen: Not true._
+- ✅ Reply answers the sender only; Reply all answers everyone in the e-mail.
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They differ._
+- ◻️ Reply sends to the whole world.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Use Reply all carefully.  
+> So the answer is “Reply answers the sender only; Reply all answers everyone in the e-mail.”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-46-spot` · Lesson 46 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ An e-mail address contains @.
+- ✅ Bcc is a hidden copy.
+- ✅ A subject is a short title.
+- ✅ Spam is unwanted e-mail.
+- ❌ Open every attachment from unknown senders.  
+  _↳ That can bring viruses._
+- ❌ Forward sends the e-mail to the trash.  
+  _↳ It sends it to someone else._
+- ❌ An e-mail address can contain spaces.  
+  _↳ It has no spaces._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Bcc is a hidden copy.
+- ✅ An e-mail address can contain spaces.  
+  _↳ explanation: It has no spaces._
+- ◻️ Spam is unwanted e-mail.
+- ◻️ An e-mail address contains @.
+
+Full working after a second miss:
+
+> The wrong statement is “An e-mail address can contain spaces.”.  
+> It has no spaces.  
+
+> Which statement is wrong?
+
+- ◻️ Spam is unwanted e-mail.
+- ◻️ Bcc is a hidden copy.
+- ✅ Open every attachment from unknown senders.  
+  _↳ explanation: That can bring viruses._
+- ◻️ A subject is a short title.
+
+Full working after a second miss:
+
+> The wrong statement is “Open every attachment from unknown senders.”.  
+> That can bring viruses.  
+
+> Which statement is wrong?
+
+- ◻️ An e-mail address contains @.
+- ✅ An e-mail address can contain spaces.  
+  _↳ explanation: It has no spaces._
+- ◻️ A subject is a short title.
+- ◻️ Spam is unwanted e-mail.
+
+Full working after a second miss:
+
+> The wrong statement is “An e-mail address can contain spaces.”.  
+> It has no spaces.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-46-safe-card` · Lesson 46 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| You receive an e-mail from an unknown sender: “You won a prize! Click here and enter your password.” What do you do? | Delete it and do not click the link. | Click and enter the password. · Forward it to all friends. · Reply with your bank details. | That is phishing. · Spreads the scam. · Never share details. | Phishing tries to steal data. |
+| What is the difference between Reply and Reply all? | Reply answers the sender only; Reply all answers everyone in the e-mail. | There is no difference. · Reply all deletes the e-mail. · Reply sends to the whole world. | They differ. · Not true. · Not true. | Use Reply all carefully. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> You receive an e-mail from an unknown sender: “You won a prize! Click here and enter your password.” What do you do?
+
+- ✅ Delete it and do not click the link.
+- ◻️ Click and enter the password.  
+  _↳ feedback if chosen: That is phishing._
+- ◻️ Reply with your bank details.  
+  _↳ feedback if chosen: Never share details._
+- ◻️ Forward it to all friends.  
+  _↳ feedback if chosen: Spreads the scam._
+
+Full working after a second miss:
+
+> Phishing tries to steal data.  
+> So the answer is “Delete it and do not click the link.”.  
+
+> What is the difference between Reply and Reply all?
+
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They differ._
+- ✅ Reply answers the sender only; Reply all answers everyone in the e-mail.
+- ◻️ Reply all deletes the e-mail.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Reply sends to the whole world.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Use Reply all carefully.  
+> So the answer is “Reply answers the sender only; Reply all answers everyone in the e-mail.”.  
+
+> You receive an e-mail from an unknown sender: “You won a prize! Click here and enter your password.” What do you do?
+
+- ◻️ Click and enter the password.  
+  _↳ feedback if chosen: That is phishing._
+- ◻️ Forward it to all friends.  
+  _↳ feedback if chosen: Spreads the scam._
+- ✅ Delete it and do not click the link.
+- ◻️ Reply with your bank details.  
+  _↳ feedback if chosen: Never share details._
+
+Full working after a second miss:
+
+> Phishing tries to steal data.  
+> So the answer is “Delete it and do not click the link.”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-47-feat` · Lesson 47 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does end-to-end encryption mean in a chat app? | only the sender and receiver can read the messages | messages are printed · messages are public · messages are deleted at once | Not the meaning. · The opposite. · Not the meaning. | Privacy protection. |
+| Which is a chat tool? | WhatsApp | Microsoft Excel · Paint · a scanner | A spreadsheet. · A drawing program. · Hardware. | Instant messaging. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does end-to-end encryption mean in a chat app?
+
+- ◻️ messages are deleted at once  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ only the sender and receiver can read the messages
+- ◻️ messages are printed  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ messages are public  
+  _↳ feedback if chosen: The opposite._
+
+Full working after a second miss:
+
+> Privacy protection.  
+> So the answer is “only the sender and receiver can read the messages”.  
+
+> What does end-to-end encryption mean in a chat app?
+
+- ✅ only the sender and receiver can read the messages
+- ◻️ messages are public  
+  _↳ feedback if chosen: The opposite._
+- ◻️ messages are deleted at once  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ messages are printed  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Privacy protection.  
+> So the answer is “only the sender and receiver can read the messages”.  
+
+> What does end-to-end encryption mean in a chat app?
+
+- ◻️ messages are printed  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ messages are public  
+  _↳ feedback if chosen: The opposite._
+- ✅ only the sender and receiver can read the messages
+- ◻️ messages are deleted at once  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Privacy protection.  
+> So the answer is “only the sender and receiver can read the messages”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-47-rules` · Lesson 47 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What should you do before adding someone to a group chat? | ask for their permission | add them secretly · share their number publicly · nothing | Respect them. · Respect privacy. · Ask first. | Respect people's choice. |
+| When is chat language like “pls” or “4u” acceptable? | in informal chats with friends | in an exam essay · in a letter to the principal · in a job application | Use full words. · Formal: use full words. · Formal: use full words. | Use correct English in school work. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What should you do before adding someone to a group chat?
+
+- ✅ ask for their permission
+- ◻️ add them secretly  
+  _↳ feedback if chosen: Respect them._
+- ◻️ nothing  
+  _↳ feedback if chosen: Ask first._
+- ◻️ share their number publicly  
+  _↳ feedback if chosen: Respect privacy._
+
+Full working after a second miss:
+
+> Respect people's choice.  
+> So the answer is “ask for their permission”.  
+
+> What should you do before adding someone to a group chat?
+
+- ◻️ share their number publicly  
+  _↳ feedback if chosen: Respect privacy._
+- ◻️ add them secretly  
+  _↳ feedback if chosen: Respect them._
+- ◻️ nothing  
+  _↳ feedback if chosen: Ask first._
+- ✅ ask for their permission
+
+Full working after a second miss:
+
+> Respect people's choice.  
+> So the answer is “ask for their permission”.  
+
+> When is chat language like “pls” or “4u” acceptable?
+
+- ◻️ in an exam essay  
+  _↳ feedback if chosen: Use full words._
+- ◻️ in a job application  
+  _↳ feedback if chosen: Formal: use full words._
+- ✅ in informal chats with friends
+- ◻️ in a letter to the principal  
+  _↳ feedback if chosen: Formal: use full words._
+
+Full working after a second miss:
+
+> Use correct English in school work.  
+> So the answer is “in informal chats with friends”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-47-safe` · Lesson 47 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Someone you do not know asks for your home address in a chat. What do you do? | Do not reply with it; block them and tell an adult. | Send it quickly. · Send your photo too. · Meet them alone. | Dangerous. · Dangerous. · Very dangerous. | Protect yourself. |
+| A classmate is insulted every day in a group. What should you do? | Support the classmate, report the bully and tell a teacher. | Join the insults. · Forward the insults. · Laugh and ignore it. | That is bullying. · That spreads it. · Support the victim. | Stop cyberbullying. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A classmate is insulted every day in a group. What should you do?
+
+- ◻️ Forward the insults.  
+  _↳ feedback if chosen: That spreads it._
+- ◻️ Laugh and ignore it.  
+  _↳ feedback if chosen: Support the victim._
+- ◻️ Join the insults.  
+  _↳ feedback if chosen: That is bullying._
+- ✅ Support the classmate, report the bully and tell a teacher.
+
+Full working after a second miss:
+
+> Stop cyberbullying.  
+> So the answer is “Support the classmate, report the bully and tell a teacher.”.  
+
+> Someone you do not know asks for your home address in a chat. What do you do?
+
+- ✅ Do not reply with it; block them and tell an adult.
+- ◻️ Meet them alone.  
+  _↳ feedback if chosen: Very dangerous._
+- ◻️ Send it quickly.  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ Send your photo too.  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Protect yourself.  
+> So the answer is “Do not reply with it; block them and tell an adult.”.  
+
+> Someone you do not know asks for your home address in a chat. What do you do?
+
+- ◻️ Send it quickly.  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ Meet them alone.  
+  _↳ feedback if chosen: Very dangerous._
+- ✅ Do not reply with it; block them and tell an adult.
+- ◻️ Send your photo too.  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Protect yourself.  
+> So the answer is “Do not reply with it; block them and tell an adult.”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-47-spot` · Lesson 47 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Stay on topic in groups.
+- ✅ Check news before forwarding.
+- ✅ Block bullies.
+- ✅ Ask before adding people.
+- ❌ Share your live location with strangers.  
+  _↳ Never share your location with strangers._
+- ❌ Forward every message you receive.  
+  _↳ Check and think first._
+- ❌ Chat abbreviations are fine in exam essays.  
+  _↳ Use full, correct English._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Check news before forwarding.
+- ◻️ Ask before adding people.
+- ◻️ Stay on topic in groups.
+- ✅ Chat abbreviations are fine in exam essays.  
+  _↳ explanation: Use full, correct English._
+
+Full working after a second miss:
+
+> The wrong statement is “Chat abbreviations are fine in exam essays.”.  
+> Use full, correct English.  
+
+> Which statement is wrong?
+
+- ◻️ Ask before adding people.
+- ◻️ Stay on topic in groups.
+- ✅ Share your live location with strangers.  
+  _↳ explanation: Never share your location with strangers._
+- ◻️ Check news before forwarding.
+
+Full working after a second miss:
+
+> The wrong statement is “Share your live location with strangers.”.  
+> Never share your location with strangers.  
+
+> Which statement is wrong?
+
+- ◻️ Check news before forwarding.
+- ◻️ Ask before adding people.
+- ◻️ Stay on topic in groups.
+- ✅ Forward every message you receive.  
+  _↳ explanation: Check and think first._
+
+Full working after a second miss:
+
+> The wrong statement is “Forward every message you receive.”.  
+> Check and think first.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-47-safe-card` · Lesson 47 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Someone you do not know asks for your home address in a chat. What do you do? | Do not reply with it; block them and tell an adult. | Send it quickly. · Send your photo too. · Meet them alone. | Dangerous. · Dangerous. · Very dangerous. | Protect yourself. |
+| A classmate is insulted every day in a group. What should you do? | Support the classmate, report the bully and tell a teacher. | Join the insults. · Forward the insults. · Laugh and ignore it. | That is bullying. · That spreads it. · Support the victim. | Stop cyberbullying. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A classmate is insulted every day in a group. What should you do?
+
+- ◻️ Forward the insults.  
+  _↳ feedback if chosen: That spreads it._
+- ◻️ Join the insults.  
+  _↳ feedback if chosen: That is bullying._
+- ✅ Support the classmate, report the bully and tell a teacher.
+- ◻️ Laugh and ignore it.  
+  _↳ feedback if chosen: Support the victim._
+
+Full working after a second miss:
+
+> Stop cyberbullying.  
+> So the answer is “Support the classmate, report the bully and tell a teacher.”.  
+
+> Someone you do not know asks for your home address in a chat. What do you do?
+
+- ◻️ Send your photo too.  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ Meet them alone.  
+  _↳ feedback if chosen: Very dangerous._
+- ✅ Do not reply with it; block them and tell an adult.
+- ◻️ Send it quickly.  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Protect yourself.  
+> So the answer is “Do not reply with it; block them and tell an adult.”.  
+
+> Someone you do not know asks for your home address in a chat. What do you do?
+
+- ◻️ Send your photo too.  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ Send it quickly.  
+  _↳ feedback if chosen: Dangerous._
+- ✅ Do not reply with it; block them and tell an adult.
+- ◻️ Meet them alone.  
+  _↳ feedback if chosen: Very dangerous._
+
+Full working after a second miss:
+
+> Protect yourself.  
+> So the answer is “Do not reply with it; block them and tell an adult.”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-48-what` · Lesson 48 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a videoconference? | a live meeting with sound and video over the internet | a printed letter · a radio song · an offline game | Not live video. · No video. · Not a meeting. | People see and hear each other. |
+| Which tool is used for videoconferences? | Google Meet | Microsoft Paint · a calculator · Notepad | A drawing tool. · Not for meetings. · A text editor. | Also Zoom and Teams. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which tool is used for videoconferences?
+
+- ◻️ a calculator  
+  _↳ feedback if chosen: Not for meetings._
+- ✅ Google Meet
+- ◻️ Microsoft Paint  
+  _↳ feedback if chosen: A drawing tool._
+- ◻️ Notepad  
+  _↳ feedback if chosen: A text editor._
+
+Full working after a second miss:
+
+> Also Zoom and Teams.  
+> So the answer is “Google Meet”.  
+
+> Which tool is used for videoconferences?
+
+- ◻️ Microsoft Paint  
+  _↳ feedback if chosen: A drawing tool._
+- ◻️ Notepad  
+  _↳ feedback if chosen: A text editor._
+- ◻️ a calculator  
+  _↳ feedback if chosen: Not for meetings._
+- ✅ Google Meet
+
+Full working after a second miss:
+
+> Also Zoom and Teams.  
+> So the answer is “Google Meet”.  
+
+> Which tool is used for videoconferences?
+
+- ◻️ Notepad  
+  _↳ feedback if chosen: A text editor._
+- ✅ Google Meet
+- ◻️ a calculator  
+  _↳ feedback if chosen: Not for meetings._
+- ◻️ Microsoft Paint  
+  _↳ feedback if chosen: A drawing tool._
+
+Full working after a second miss:
+
+> Also Zoom and Teams.  
+> So the answer is “Google Meet”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-48-feat` · Lesson 48 · matching, level 1
+
+Prompt: Match each feature to its use.
+
+Pairs (4 shown each time):
+
+- mute → **turn off your microphone**
+- share screen → **show your screen to others**
+- raise hand → **ask to speak**
+- chat → **send written messages during the meeting**
+- camera off → **stop showing your video**
+
+
+Three generated variants:
+
+> Match each feature to its use.
+
+Right-hand side (shuffled): ask to speak · turn off your microphone · send written messages during the meeting · show your screen to others
+- chat → **send written messages during the meeting**
+- mute → **turn off your microphone**
+- raise hand → **ask to speak**
+- share screen → **show your screen to others**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> chat → send written messages during the meeting  
+> mute → turn off your microphone  
+> raise hand → ask to speak  
+> share screen → show your screen to others  
+
+> Match each feature to its use.
+
+Right-hand side (shuffled): show your screen to others · send written messages during the meeting · ask to speak · stop showing your video
+- share screen → **show your screen to others**
+- camera off → **stop showing your video**
+- chat → **send written messages during the meeting**
+- raise hand → **ask to speak**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> share screen → show your screen to others  
+> camera off → stop showing your video  
+> chat → send written messages during the meeting  
+> raise hand → ask to speak  
+
+> Match each feature to its use.
+
+Right-hand side (shuffled): ask to speak · send written messages during the meeting · turn off your microphone · stop showing your video
+- raise hand → **ask to speak**
+- mute → **turn off your microphone**
+- camera off → **stop showing your video**
+- chat → **send written messages during the meeting**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> raise hand → ask to speak  
+> mute → turn off your microphone  
+> camera off → stop showing your video  
+> chat → send written messages during the meeting  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-48-etiq` · Lesson 48 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is good videoconference etiquette? | mute your microphone when not speaking | shout over others · eat loudly near the microphone · record everyone secretly | Be polite. · Noise disturbs. · Ask permission to record. | Keeps the meeting clear. |
+| Where should the light be when you are on camera? | in front of you | behind you · nowhere · under the table | Your face would be dark. · You would not be seen. · Not useful. | So your face can be seen. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is good videoconference etiquette?
+
+- ◻️ eat loudly near the microphone  
+  _↳ feedback if chosen: Noise disturbs._
+- ◻️ record everyone secretly  
+  _↳ feedback if chosen: Ask permission to record._
+- ✅ mute your microphone when not speaking
+- ◻️ shout over others  
+  _↳ feedback if chosen: Be polite._
+
+Full working after a second miss:
+
+> Keeps the meeting clear.  
+> So the answer is “mute your microphone when not speaking”.  
+
+> Where should the light be when you are on camera?
+
+- ◻️ nowhere  
+  _↳ feedback if chosen: You would not be seen._
+- ◻️ behind you  
+  _↳ feedback if chosen: Your face would be dark._
+- ✅ in front of you
+- ◻️ under the table  
+  _↳ feedback if chosen: Not useful._
+
+Full working after a second miss:
+
+> So your face can be seen.  
+> So the answer is “in front of you”.  
+
+> Where should the light be when you are on camera?
+
+- ◻️ behind you  
+  _↳ feedback if chosen: Your face would be dark._
+- ◻️ under the table  
+  _↳ feedback if chosen: Not useful._
+- ✅ in front of you
+- ◻️ nowhere  
+  _↳ feedback if chosen: You would not be seen._
+
+Full working after a second miss:
+
+> So your face can be seen.  
+> So the answer is “in front of you”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-48-spot` · Lesson 48 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Join on time.
+- ✅ Mute when not speaking.
+- ✅ Use raise hand to speak.
+- ✅ A camera is needed for video.
+- ❌ Record classmates without asking.  
+  _↳ Ask permission before recording._
+- ❌ A videoconference needs no internet.  
+  _↳ It needs an internet connection._
+- ❌ Sit with a bright window behind you.  
+  _↳ Light should be in front of you._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A camera is needed for video.
+- ✅ Sit with a bright window behind you.  
+  _↳ explanation: Light should be in front of you._
+- ◻️ Use raise hand to speak.
+- ◻️ Join on time.
+
+Full working after a second miss:
+
+> The wrong statement is “Sit with a bright window behind you.”.  
+> Light should be in front of you.  
+
+> Which statement is wrong?
+
+- ◻️ Use raise hand to speak.
+- ◻️ A camera is needed for video.
+- ✅ A videoconference needs no internet.  
+  _↳ explanation: It needs an internet connection._
+- ◻️ Join on time.
+
+Full working after a second miss:
+
+> The wrong statement is “A videoconference needs no internet.”.  
+> It needs an internet connection.  
+
+> Which statement is wrong?
+
+- ◻️ Join on time.
+- ✅ A videoconference needs no internet.  
+  _↳ explanation: It needs an internet connection._
+- ◻️ A camera is needed for video.
+- ◻️ Mute when not speaking.
+
+Full working after a second miss:
+
+> The wrong statement is “A videoconference needs no internet.”.  
+> It needs an internet connection.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-48-etiq-card` · Lesson 48 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is good videoconference etiquette? | mute your microphone when not speaking | shout over others · eat loudly near the microphone · record everyone secretly | Be polite. · Noise disturbs. · Ask permission to record. | Keeps the meeting clear. |
+| Where should the light be when you are on camera? | in front of you | behind you · nowhere · under the table | Your face would be dark. · You would not be seen. · Not useful. | So your face can be seen. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is good videoconference etiquette?
+
+- ◻️ record everyone secretly  
+  _↳ feedback if chosen: Ask permission to record._
+- ◻️ eat loudly near the microphone  
+  _↳ feedback if chosen: Noise disturbs._
+- ◻️ shout over others  
+  _↳ feedback if chosen: Be polite._
+- ✅ mute your microphone when not speaking
+
+Full working after a second miss:
+
+> Keeps the meeting clear.  
+> So the answer is “mute your microphone when not speaking”.  
+
+> Where should the light be when you are on camera?
+
+- ◻️ under the table  
+  _↳ feedback if chosen: Not useful._
+- ◻️ nowhere  
+  _↳ feedback if chosen: You would not be seen._
+- ✅ in front of you
+- ◻️ behind you  
+  _↳ feedback if chosen: Your face would be dark._
+
+Full working after a second miss:
+
+> So your face can be seen.  
+> So the answer is “in front of you”.  
+
+> Where should the light be when you are on camera?
+
+- ◻️ behind you  
+  _↳ feedback if chosen: Your face would be dark._
+- ◻️ under the table  
+  _↳ feedback if chosen: Not useful._
+- ◻️ nowhere  
+  _↳ feedback if chosen: You would not be seen._
+- ✅ in front of you
+
+Full working after a second miss:
+
+> So your face can be seen.  
+> So the answer is “in front of you”.  
+
+Sources: communication-tools (Communication and collaboration tools; synchronous and asynchronous; e-mail (address, To/Cc/Bcc, phishing); chat (encryption, netiquette, safety); videoconference (features, etiquette))
+
+### `s2-50-power` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does a UPS do? | gives power for a few minutes after a power cut | prints documents · scans images · plays music | A printer does that. · A scanner does that. · Speakers do that. | Time to save and shut down. |
+| What does a surge protector do? | protects devices from sudden rises in voltage | speeds up the internet · cools the computer · stores files | Not its role. · Fans do that. · Disks do that. | Voltage spikes damage parts. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does a surge protector do?
+
+- ◻️ speeds up the internet  
+  _↳ feedback if chosen: Not its role._
+- ◻️ cools the computer  
+  _↳ feedback if chosen: Fans do that._
+- ✅ protects devices from sudden rises in voltage
+- ◻️ stores files  
+  _↳ feedback if chosen: Disks do that._
+
+Full working after a second miss:
+
+> Voltage spikes damage parts.  
+> So the answer is “protects devices from sudden rises in voltage”.  
+
+> What does a UPS do?
+
+- ◻️ prints documents  
+  _↳ feedback if chosen: A printer does that._
+- ◻️ scans images  
+  _↳ feedback if chosen: A scanner does that._
+- ◻️ plays music  
+  _↳ feedback if chosen: Speakers do that._
+- ✅ gives power for a few minutes after a power cut
+
+Full working after a second miss:
+
+> Time to save and shut down.  
+> So the answer is “gives power for a few minutes after a power cut”.  
+
+> What does a surge protector do?
+
+- ◻️ speeds up the internet  
+  _↳ feedback if chosen: Not its role._
+- ✅ protects devices from sudden rises in voltage
+- ◻️ stores files  
+  _↳ feedback if chosen: Disks do that._
+- ◻️ cools the computer  
+  _↳ feedback if chosen: Fans do that._
+
+Full working after a second miss:
+
+> Voltage spikes damage parts.  
+> So the answer is “protects devices from sudden rises in voltage”.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-50-safe` · Lesson 50 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What must you do before cleaning inside a computer? | switch it off and unplug it | pour water on it · leave it running · shake it hard | Dangerous. · Dangerous. · Can damage parts. | Avoid shocks and damage. |
+| Why should drinks be kept away from the computer? | A spill can short-circuit and damage it. | Drinks make it faster. · Computers need water. · It is not important. | Not true. · Not true. · It is important. | Liquids and electronics do not mix. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What must you do before cleaning inside a computer?
+
+- ◻️ pour water on it  
+  _↳ feedback if chosen: Dangerous._
+- ✅ switch it off and unplug it
+- ◻️ leave it running  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ shake it hard  
+  _↳ feedback if chosen: Can damage parts._
+
+Full working after a second miss:
+
+> Avoid shocks and damage.  
+> So the answer is “switch it off and unplug it”.  
+
+> Why should drinks be kept away from the computer?
+
+- ◻️ Drinks make it faster.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Computers need water.  
+  _↳ feedback if chosen: Not true._
+- ✅ A spill can short-circuit and damage it.
+- ◻️ It is not important.  
+  _↳ feedback if chosen: It is important._
+
+Full working after a second miss:
+
+> Liquids and electronics do not mix.  
+> So the answer is “A spill can short-circuit and damage it.”.  
+
+> Why should drinks be kept away from the computer?
+
+- ◻️ Drinks make it faster.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Computers need water.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It is not important.  
+  _↳ feedback if chosen: It is important._
+- ✅ A spill can short-circuit and damage it.
+
+Full working after a second miss:
+
+> Liquids and electronics do not mix.  
+> So the answer is “A spill can short-circuit and damage it.”.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-50-spot` · Lesson 50 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Dust the computer regularly.
+- ✅ Update the antivirus.
+- ✅ Use a UPS.
+- ✅ Shut down properly.
+- ❌ Open the computer while it is plugged in.  
+  _↳ Unplug it first._
+- ❌ Pull out the plug instead of shutting down.  
+  _↳ Shut down properly to protect files._
+- ❌ Corrective maintenance is done before any problem.  
+  _↳ That is preventive._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Pull out the plug instead of shutting down.  
+  _↳ explanation: Shut down properly to protect files._
+- ◻️ Dust the computer regularly.
+- ◻️ Use a UPS.
+- ◻️ Update the antivirus.
+
+Full working after a second miss:
+
+> The wrong statement is “Pull out the plug instead of shutting down.”.  
+> Shut down properly to protect files.  
+
+> Which statement is wrong?
+
+- ◻️ Dust the computer regularly.
+- ◻️ Update the antivirus.
+- ✅ Pull out the plug instead of shutting down.  
+  _↳ explanation: Shut down properly to protect files._
+- ◻️ Use a UPS.
+
+Full working after a second miss:
+
+> The wrong statement is “Pull out the plug instead of shutting down.”.  
+> Shut down properly to protect files.  
+
+> Which statement is wrong?
+
+- ◻️ Dust the computer regularly.
+- ◻️ Shut down properly.
+- ◻️ Update the antivirus.
+- ✅ Corrective maintenance is done before any problem.  
+  _↳ explanation: That is preventive._
+
+Full working after a second miss:
+
+> The wrong statement is “Corrective maintenance is done before any problem.”.  
+> That is preventive.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-50-safe-card` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What must you do before cleaning inside a computer? | switch it off and unplug it | pour water on it · leave it running · shake it hard | Dangerous. · Dangerous. · Can damage parts. | Avoid shocks and damage. |
+| Why should drinks be kept away from the computer? | A spill can short-circuit and damage it. | Drinks make it faster. · Computers need water. · It is not important. | Not true. · Not true. · It is important. | Liquids and electronics do not mix. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should drinks be kept away from the computer?
+
+- ◻️ Computers need water.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Drinks make it faster.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It is not important.  
+  _↳ feedback if chosen: It is important._
+- ✅ A spill can short-circuit and damage it.
+
+Full working after a second miss:
+
+> Liquids and electronics do not mix.  
+> So the answer is “A spill can short-circuit and damage it.”.  
+
+> What must you do before cleaning inside a computer?
+
+- ✅ switch it off and unplug it
+- ◻️ pour water on it  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ shake it hard  
+  _↳ feedback if chosen: Can damage parts._
+- ◻️ leave it running  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Avoid shocks and damage.  
+> So the answer is “switch it off and unplug it”.  
+
+> Why should drinks be kept away from the computer?
+
+- ◻️ It is not important.  
+  _↳ feedback if chosen: It is important._
+- ◻️ Drinks make it faster.  
+  _↳ feedback if chosen: Not true._
+- ✅ A spill can short-circuit and damage it.
+- ◻️ Computers need water.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Liquids and electronics do not mix.  
+> So the answer is “A spill can short-circuit and damage it.”.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-51-fix` · Lesson 51 · matching, level 1
+
+Prompt: Match each problem to a likely cause.
+
+Pairs (4 shown each time):
+
+- computer does not switch on → **the power cable is loose**
+- computer overheats → **dust in the fan**
+- wireless mouse does not move the pointer → **flat battery**
+- printer does not print → **paper jam or no ink**
+- clicking noise from the disk → **a failing hard disk**
+
+
+Three generated variants:
+
+> Match each problem to a likely cause.
+
+Right-hand side (shuffled): dust in the fan · a failing hard disk · paper jam or no ink · flat battery
+- computer overheats → **dust in the fan**
+- printer does not print → **paper jam or no ink**
+- wireless mouse does not move the pointer → **flat battery**
+- clicking noise from the disk → **a failing hard disk**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> computer overheats → dust in the fan  
+> printer does not print → paper jam or no ink  
+> wireless mouse does not move the pointer → flat battery  
+> clicking noise from the disk → a failing hard disk  
+
+> Match each problem to a likely cause.
+
+Right-hand side (shuffled): a failing hard disk · the power cable is loose · paper jam or no ink · flat battery
+- clicking noise from the disk → **a failing hard disk**
+- printer does not print → **paper jam or no ink**
+- wireless mouse does not move the pointer → **flat battery**
+- computer does not switch on → **the power cable is loose**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> clicking noise from the disk → a failing hard disk  
+> printer does not print → paper jam or no ink  
+> wireless mouse does not move the pointer → flat battery  
+> computer does not switch on → the power cable is loose  
+
+> Match each problem to a likely cause.
+
+Right-hand side (shuffled): the power cable is loose · flat battery · a failing hard disk · dust in the fan
+- clicking noise from the disk → **a failing hard disk**
+- wireless mouse does not move the pointer → **flat battery**
+- computer does not switch on → **the power cable is loose**
+- computer overheats → **dust in the fan**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> clicking noise from the disk → a failing hard disk  
+> wireless mouse does not move the pointer → flat battery  
+> computer does not switch on → the power cable is loose  
+> computer overheats → dust in the fan  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-51-heat` · Lesson 51 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why does a laptop overheat when used on a pillow? | The pillow blocks the air vents. | Pillows contain viruses. · Pillows charge the battery. · Pillows make it faster. | Not true. · Not true. · Not true. | Air cannot cool the laptop. |
+| The screen is black but the lights show the computer is on. What should you check first? | the display cable and the brightness | the printer ink · the mouse battery · the speakers | Not related. · Not related. · Not related. | Simple checks first. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does a laptop overheat when used on a pillow?
+
+- ◻️ Pillows make it faster.  
+  _↳ feedback if chosen: Not true._
+- ✅ The pillow blocks the air vents.
+- ◻️ Pillows contain viruses.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Pillows charge the battery.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Air cannot cool the laptop.  
+> So the answer is “The pillow blocks the air vents.”.  
+
+> The screen is black but the lights show the computer is on. What should you check first?
+
+- ◻️ the speakers  
+  _↳ feedback if chosen: Not related._
+- ✅ the display cable and the brightness
+- ◻️ the mouse battery  
+  _↳ feedback if chosen: Not related._
+- ◻️ the printer ink  
+  _↳ feedback if chosen: Not related._
+
+Full working after a second miss:
+
+> Simple checks first.  
+> So the answer is “the display cable and the brightness”.  
+
+> The screen is black but the lights show the computer is on. What should you check first?
+
+- ◻️ the printer ink  
+  _↳ feedback if chosen: Not related._
+- ◻️ the mouse battery  
+  _↳ feedback if chosen: Not related._
+- ✅ the display cable and the brightness
+- ◻️ the speakers  
+  _↳ feedback if chosen: Not related._
+
+Full working after a second miss:
+
+> Simple checks first.  
+> So the answer is “the display cable and the brightness”.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-51-order` · Lesson 51 · ordering, level 2
+
+Prompt: Put the troubleshooting steps in order.
+
+Items in the right order:
+
+1. Identify the problem
+2. Check the simplest causes (power, cables)
+3. Try one solution at a time
+4. Test whether it works
+5. Ask a technician if it still does not work
+
+
+Three generated variants:
+
+> Put the troubleshooting steps in order.
+
+Shown as: Try one solution at a time · Identify the problem · Ask a technician if it still does not work · Test whether it works · Check the simplest causes (power, cables)
+Correct order: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work.  
+
+> Put the troubleshooting steps in order.
+
+Shown as: Check the simplest causes (power, cables) · Try one solution at a time · Ask a technician if it still does not work · Test whether it works · Identify the problem
+Correct order: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work.  
+
+> Put the troubleshooting steps in order.
+
+Shown as: Identify the problem · Try one solution at a time · Ask a technician if it still does not work · Test whether it works · Check the simplest causes (power, cables)
+Correct order: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-51-spot` · Lesson 51 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Check cables first.
+- ✅ Clean the fan to stop overheating.
+- ✅ Back up when the disk makes noises.
+- ✅ Use a laptop on a hard surface.
+- ❌ Hit the computer when it does not start.  
+  _↳ Check power and cables calmly._
+- ❌ Strange disk noises are normal; ignore them.  
+  _↳ Back up at once: the disk may fail._
+- ❌ Block the vents to keep dust out.  
+  _↳ Vents must stay free for cooling._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Check cables first.
+- ◻️ Clean the fan to stop overheating.
+- ✅ Strange disk noises are normal; ignore them.  
+  _↳ explanation: Back up at once: the disk may fail._
+- ◻️ Back up when the disk makes noises.
+
+Full working after a second miss:
+
+> The wrong statement is “Strange disk noises are normal; ignore them.”.  
+> Back up at once: the disk may fail.  
+
+> Which statement is wrong?
+
+- ◻️ Clean the fan to stop overheating.
+- ✅ Hit the computer when it does not start.  
+  _↳ explanation: Check power and cables calmly._
+- ◻️ Use a laptop on a hard surface.
+- ◻️ Check cables first.
+
+Full working after a second miss:
+
+> The wrong statement is “Hit the computer when it does not start.”.  
+> Check power and cables calmly.  
+
+> Which statement is wrong?
+
+- ✅ Block the vents to keep dust out.  
+  _↳ explanation: Vents must stay free for cooling._
+- ◻️ Check cables first.
+- ◻️ Back up when the disk makes noises.
+- ◻️ Clean the fan to stop overheating.
+
+Full working after a second miss:
+
+> The wrong statement is “Block the vents to keep dust out.”.  
+> Vents must stay free for cooling.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-51-order-card` · Lesson 51 · ordering, level 1
+
+Prompt: Put the troubleshooting steps in order.
+
+Items in the right order:
+
+1. Identify the problem
+2. Check the simplest causes (power, cables)
+3. Try one solution at a time
+4. Test whether it works
+5. Ask a technician if it still does not work
+
+
+Three generated variants:
+
+> Put the troubleshooting steps in order.
+
+Shown as: Test whether it works · Check the simplest causes (power, cables) · Ask a technician if it still does not work · Try one solution at a time · Identify the problem
+Correct order: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work.  
+
+> Put the troubleshooting steps in order.
+
+Shown as: Identify the problem · Check the simplest causes (power, cables) · Ask a technician if it still does not work · Try one solution at a time · Test whether it works
+Correct order: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work.  
+
+> Put the troubleshooting steps in order.
+
+Shown as: Identify the problem · Try one solution at a time · Test whether it works · Check the simplest causes (power, cables) · Ask a technician if it still does not work
+Correct order: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work
+
+Full working after a second miss:
+
+> The correct order is: Identify the problem → Check the simplest causes (power, cables) → Try one solution at a time → Test whether it works → Ask a technician if it still does not work.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-52-slow` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which can make a computer very slow? | too many programs open at once | a clean keyboard · a new mouse · a bright screen | Not a cause. · Not a cause. · Not a cause. | They use memory. |
+| Pop-ups keep appearing and the browser opens strange pages. What is the likely cause? | malware (a virus) | a dirty mouse · a full printer · a loose cable | Hardware, not this. · Not related. · Hardware. | Run an antivirus scan. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Pop-ups keep appearing and the browser opens strange pages. What is the likely cause?
+
+- ◻️ a full printer  
+  _↳ feedback if chosen: Not related._
+- ◻️ a loose cable  
+  _↳ feedback if chosen: Hardware._
+- ◻️ a dirty mouse  
+  _↳ feedback if chosen: Hardware, not this._
+- ✅ malware (a virus)
+
+Full working after a second miss:
+
+> Run an antivirus scan.  
+> So the answer is “malware (a virus)”.  
+
+> Pop-ups keep appearing and the browser opens strange pages. What is the likely cause?
+
+- ✅ malware (a virus)
+- ◻️ a loose cable  
+  _↳ feedback if chosen: Hardware._
+- ◻️ a dirty mouse  
+  _↳ feedback if chosen: Hardware, not this._
+- ◻️ a full printer  
+  _↳ feedback if chosen: Not related._
+
+Full working after a second miss:
+
+> Run an antivirus scan.  
+> So the answer is “malware (a virus)”.  
+
+> Which can make a computer very slow?
+
+- ✅ too many programs open at once
+- ◻️ a bright screen  
+  _↳ feedback if chosen: Not a cause._
+- ◻️ a new mouse  
+  _↳ feedback if chosen: Not a cause._
+- ◻️ a clean keyboard  
+  _↳ feedback if chosen: Not a cause._
+
+Full working after a second miss:
+
+> They use memory.  
+> So the answer is “too many programs open at once”.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-52-freeze` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which keys open the Task Manager on Windows? | Ctrl+Alt+Del | Ctrl+C · Alt+F4 only · Shift+A | That copies. · That closes a window. · That types A. | Then end the frozen task. |
+| What solves many software problems? | restarting the computer | hitting the screen · removing the keyboard · turning up the volume | Harmful. · Not useful. · Not useful. | A restart clears memory. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What solves many software problems?
+
+- ◻️ turning up the volume  
+  _↳ feedback if chosen: Not useful._
+- ◻️ removing the keyboard  
+  _↳ feedback if chosen: Not useful._
+- ✅ restarting the computer
+- ◻️ hitting the screen  
+  _↳ feedback if chosen: Harmful._
+
+Full working after a second miss:
+
+> A restart clears memory.  
+> So the answer is “restarting the computer”.  
+
+> What solves many software problems?
+
+- ◻️ hitting the screen  
+  _↳ feedback if chosen: Harmful._
+- ◻️ turning up the volume  
+  _↳ feedback if chosen: Not useful._
+- ✅ restarting the computer
+- ◻️ removing the keyboard  
+  _↳ feedback if chosen: Not useful._
+
+Full working after a second miss:
+
+> A restart clears memory.  
+> So the answer is “restarting the computer”.  
+
+> What solves many software problems?
+
+- ✅ restarting the computer
+- ◻️ turning up the volume  
+  _↳ feedback if chosen: Not useful._
+- ◻️ removing the keyboard  
+  _↳ feedback if chosen: Not useful._
+- ◻️ hitting the screen  
+  _↳ feedback if chosen: Harmful._
+
+Full working after a second miss:
+
+> A restart clears memory.  
+> So the answer is “restarting the computer”.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-52-prev` · Lesson 52 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Where should you install software from? | trusted sources such as official websites and app stores | any pop-up advert · an unknown e-mail attachment · a stranger's flash drive | Risky. · Risky. · Risky. | Avoid malware. |
+| A file has an unknown type and will not open. What should you do? | install a program that can open that type, from a trusted source | delete the computer · rename it to .exe · open it with a hammer | Not sensible. · Dangerous. · Not sensible. | The right program opens the file. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Where should you install software from?
+
+- ◻️ an unknown e-mail attachment  
+  _↳ feedback if chosen: Risky._
+- ◻️ a stranger's flash drive  
+  _↳ feedback if chosen: Risky._
+- ✅ trusted sources such as official websites and app stores
+- ◻️ any pop-up advert  
+  _↳ feedback if chosen: Risky._
+
+Full working after a second miss:
+
+> Avoid malware.  
+> So the answer is “trusted sources such as official websites and app stores”.  
+
+> A file has an unknown type and will not open. What should you do?
+
+- ◻️ rename it to .exe  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ open it with a hammer  
+  _↳ feedback if chosen: Not sensible._
+- ◻️ delete the computer  
+  _↳ feedback if chosen: Not sensible._
+- ✅ install a program that can open that type, from a trusted source
+
+Full working after a second miss:
+
+> The right program opens the file.  
+> So the answer is “install a program that can open that type, from a trusted source”.  
+
+> A file has an unknown type and will not open. What should you do?
+
+- ◻️ delete the computer  
+  _↳ feedback if chosen: Not sensible._
+- ✅ install a program that can open that type, from a trusted source
+- ◻️ rename it to .exe  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ open it with a hammer  
+  _↳ feedback if chosen: Not sensible._
+
+Full working after a second miss:
+
+> The right program opens the file.  
+> So the answer is “install a program that can open that type, from a trusted source”.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-52-spot` · Lesson 52 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Keep the antivirus updated.
+- ✅ Close unused programs.
+- ✅ Back up regularly.
+- ✅ Restart when the system misbehaves.
+- ❌ Install programs from any pop-up advert.  
+  _↳ Use trusted sources._
+- ❌ Never update the operating system.  
+  _↳ Updates fix problems and close security holes._
+- ❌ A frozen program can only be fixed by buying a new computer.  
+  _↳ Close it with the Task Manager and restart._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Keep the antivirus updated.
+- ◻️ Close unused programs.
+- ✅ Never update the operating system.  
+  _↳ explanation: Updates fix problems and close security holes._
+- ◻️ Back up regularly.
+
+Full working after a second miss:
+
+> The wrong statement is “Never update the operating system.”.  
+> Updates fix problems and close security holes.  
+
+> Which statement is wrong?
+
+- ✅ Install programs from any pop-up advert.  
+  _↳ explanation: Use trusted sources._
+- ◻️ Restart when the system misbehaves.
+- ◻️ Back up regularly.
+- ◻️ Close unused programs.
+
+Full working after a second miss:
+
+> The wrong statement is “Install programs from any pop-up advert.”.  
+> Use trusted sources.  
+
+> Which statement is wrong?
+
+- ◻️ Close unused programs.
+- ◻️ Restart when the system misbehaves.
+- ✅ A frozen program can only be fixed by buying a new computer.  
+  _↳ explanation: Close it with the Task Manager and restart._
+- ◻️ Keep the antivirus updated.
+
+Full working after a second miss:
+
+> The wrong statement is “A frozen program can only be fixed by buying a new computer.”.  
+> Close it with the Task Manager and restart.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-52-prev-card` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Where should you install software from? | trusted sources such as official websites and app stores | any pop-up advert · an unknown e-mail attachment · a stranger's flash drive | Risky. · Risky. · Risky. | Avoid malware. |
+| A file has an unknown type and will not open. What should you do? | install a program that can open that type, from a trusted source | delete the computer · rename it to .exe · open it with a hammer | Not sensible. · Dangerous. · Not sensible. | The right program opens the file. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A file has an unknown type and will not open. What should you do?
+
+- ◻️ open it with a hammer  
+  _↳ feedback if chosen: Not sensible._
+- ✅ install a program that can open that type, from a trusted source
+- ◻️ rename it to .exe  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ delete the computer  
+  _↳ feedback if chosen: Not sensible._
+
+Full working after a second miss:
+
+> The right program opens the file.  
+> So the answer is “install a program that can open that type, from a trusted source”.  
+
+> Where should you install software from?
+
+- ◻️ any pop-up advert  
+  _↳ feedback if chosen: Risky._
+- ✅ trusted sources such as official websites and app stores
+- ◻️ a stranger's flash drive  
+  _↳ feedback if chosen: Risky._
+- ◻️ an unknown e-mail attachment  
+  _↳ feedback if chosen: Risky._
+
+Full working after a second miss:
+
+> Avoid malware.  
+> So the answer is “trusted sources such as official websites and app stores”.  
+
+> A file has an unknown type and will not open. What should you do?
+
+- ◻️ delete the computer  
+  _↳ feedback if chosen: Not sensible._
+- ◻️ rename it to .exe  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ open it with a hammer  
+  _↳ feedback if chosen: Not sensible._
+- ✅ install a program that can open that type, from a trusted source
+
+Full working after a second miss:
+
+> The right program opens the file.  
+> So the answer is “install a program that can open that type, from a trusted source”.  
+
+Sources: maintenance (Preventive and corrective maintenance, UPS and surge protectors; common hardware and software problems and their solutions; Task Manager (Ctrl+Alt+Del))
+
+### `s2-54-source` · Lesson 54 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which source is most credible for exam dates? | the official website of the examination board | an anonymous WhatsApp message · a pop-up advert · a rumour at the market | No source. · Selling something. · Not reliable. | Official sources. |
+| What does “credible” mean? | believable and trustworthy | funny · old · expensive | Not the meaning. · Not the meaning. · Not the meaning. | Information you can trust. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which source is most credible for exam dates?
+
+- ✅ the official website of the examination board
+- ◻️ a pop-up advert  
+  _↳ feedback if chosen: Selling something._
+- ◻️ a rumour at the market  
+  _↳ feedback if chosen: Not reliable._
+- ◻️ an anonymous WhatsApp message  
+  _↳ feedback if chosen: No source._
+
+Full working after a second miss:
+
+> Official sources.  
+> So the answer is “the official website of the examination board”.  
+
+> What does “credible” mean?
+
+- ✅ believable and trustworthy
+- ◻️ expensive  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ old  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ funny  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Information you can trust.  
+> So the answer is “believable and trustworthy”.  
+
+> What does “credible” mean?
+
+- ✅ believable and trustworthy
+- ◻️ old  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ funny  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ expensive  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Information you can trust.  
+> So the answer is “believable and trustworthy”.  
+
+Sources: credibility (Checking the credibility of online information: source, evidence, date, purpose, warning signs, image checks)
+
+### `s2-54-check` · Lesson 54 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How can you check a news story? | look for the same story on several reliable sites | share it at once · believe it because it is long · trust it because it has many likes | Check first. · Length is not proof. · Likes are not proof. | Cross-check. |
+| A photo of a flood is shared as “today in Douala”. How can you check it? | search for the original image to see where and when it was taken | count the likes · look at its colours · trust the caption | Not proof. · Not proof. · Captions can be false. | Reverse image search. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How can you check a news story?
+
+- ◻️ trust it because it has many likes  
+  _↳ feedback if chosen: Likes are not proof._
+- ✅ look for the same story on several reliable sites
+- ◻️ believe it because it is long  
+  _↳ feedback if chosen: Length is not proof._
+- ◻️ share it at once  
+  _↳ feedback if chosen: Check first._
+
+Full working after a second miss:
+
+> Cross-check.  
+> So the answer is “look for the same story on several reliable sites”.  
+
+> How can you check a news story?
+
+- ◻️ trust it because it has many likes  
+  _↳ feedback if chosen: Likes are not proof._
+- ◻️ share it at once  
+  _↳ feedback if chosen: Check first._
+- ✅ look for the same story on several reliable sites
+- ◻️ believe it because it is long  
+  _↳ feedback if chosen: Length is not proof._
+
+Full working after a second miss:
+
+> Cross-check.  
+> So the answer is “look for the same story on several reliable sites”.  
+
+> A photo of a flood is shared as “today in Douala”. How can you check it?
+
+- ◻️ count the likes  
+  _↳ feedback if chosen: Not proof._
+- ✅ search for the original image to see where and when it was taken
+- ◻️ trust the caption  
+  _↳ feedback if chosen: Captions can be false._
+- ◻️ look at its colours  
+  _↳ feedback if chosen: Not proof._
+
+Full working after a second miss:
+
+> Reverse image search.  
+> So the answer is “search for the original image to see where and when it was taken”.  
+
+Sources: credibility (Checking the credibility of online information: source, evidence, date, purpose, warning signs, image checks)
+
+### `s2-54-sign` · Lesson 54 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a warning sign of fake news? | “Share before they delete it!” | a named author and date · links to official reports · careful spelling | Sign of credibility. · Sign of credibility. · Sign of credibility. | Pressure to share quickly. |
+| What should you do before sharing information? | check that it is true | share it to as many people as possible · add more exciting details · change the date | Spreads fake news. · Makes it worse. · Dishonest. | Think before you share. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a warning sign of fake news?
+
+- ◻️ links to official reports  
+  _↳ feedback if chosen: Sign of credibility._
+- ◻️ careful spelling  
+  _↳ feedback if chosen: Sign of credibility._
+- ✅ “Share before they delete it!”
+- ◻️ a named author and date  
+  _↳ feedback if chosen: Sign of credibility._
+
+Full working after a second miss:
+
+> Pressure to share quickly.  
+> So the answer is ““Share before they delete it!””.  
+
+> What should you do before sharing information?
+
+- ◻️ share it to as many people as possible  
+  _↳ feedback if chosen: Spreads fake news._
+- ◻️ change the date  
+  _↳ feedback if chosen: Dishonest._
+- ✅ check that it is true
+- ◻️ add more exciting details  
+  _↳ feedback if chosen: Makes it worse._
+
+Full working after a second miss:
+
+> Think before you share.  
+> So the answer is “check that it is true”.  
+
+> Which is a warning sign of fake news?
+
+- ◻️ links to official reports  
+  _↳ feedback if chosen: Sign of credibility._
+- ◻️ careful spelling  
+  _↳ feedback if chosen: Sign of credibility._
+- ✅ “Share before they delete it!”
+- ◻️ a named author and date  
+  _↳ feedback if chosen: Sign of credibility._
+
+Full working after a second miss:
+
+> Pressure to share quickly.  
+> So the answer is ““Share before they delete it!””.  
+
+Sources: credibility (Checking the credibility of online information: source, evidence, date, purpose, warning signs, image checks)
+
+### `s2-54-spot` · Lesson 54 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Check the source.
+- ✅ Look at the date.
+- ✅ Compare several reliable sites.
+- ✅ Think before you share.
+- ❌ A message with many likes must be true.  
+  _↳ Likes do not prove truth._
+- ❌ Photos online can never be edited.  
+  _↳ Images can be edited or reused._
+- ❌ Official websites are less reliable than rumours.  
+  _↳ Official sites are usually more reliable._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Check the source.
+- ◻️ Think before you share.
+- ◻️ Compare several reliable sites.
+- ✅ Photos online can never be edited.  
+  _↳ explanation: Images can be edited or reused._
+
+Full working after a second miss:
+
+> The wrong statement is “Photos online can never be edited.”.  
+> Images can be edited or reused.  
+
+> Which statement is wrong?
+
+- ◻️ Check the source.
+- ◻️ Think before you share.
+- ◻️ Compare several reliable sites.
+- ✅ Official websites are less reliable than rumours.  
+  _↳ explanation: Official sites are usually more reliable._
+
+Full working after a second miss:
+
+> The wrong statement is “Official websites are less reliable than rumours.”.  
+> Official sites are usually more reliable.  
+
+> Which statement is wrong?
+
+- ◻️ Compare several reliable sites.
+- ◻️ Look at the date.
+- ◻️ Think before you share.
+- ✅ A message with many likes must be true.  
+  _↳ explanation: Likes do not prove truth._
+
+Full working after a second miss:
+
+> The wrong statement is “A message with many likes must be true.”.  
+> Likes do not prove truth.  
+
+Sources: credibility (Checking the credibility of online information: source, evidence, date, purpose, warning signs, image checks)
+
+### `s2-54-check-card` · Lesson 54 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How can you check a news story? | look for the same story on several reliable sites | share it at once · believe it because it is long · trust it because it has many likes | Check first. · Length is not proof. · Likes are not proof. | Cross-check. |
+| A photo of a flood is shared as “today in Douala”. How can you check it? | search for the original image to see where and when it was taken | count the likes · look at its colours · trust the caption | Not proof. · Not proof. · Captions can be false. | Reverse image search. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A photo of a flood is shared as “today in Douala”. How can you check it?
+
+- ◻️ trust the caption  
+  _↳ feedback if chosen: Captions can be false._
+- ◻️ count the likes  
+  _↳ feedback if chosen: Not proof._
+- ✅ search for the original image to see where and when it was taken
+- ◻️ look at its colours  
+  _↳ feedback if chosen: Not proof._
+
+Full working after a second miss:
+
+> Reverse image search.  
+> So the answer is “search for the original image to see where and when it was taken”.  
+
+> How can you check a news story?
+
+- ✅ look for the same story on several reliable sites
+- ◻️ believe it because it is long  
+  _↳ feedback if chosen: Length is not proof._
+- ◻️ share it at once  
+  _↳ feedback if chosen: Check first._
+- ◻️ trust it because it has many likes  
+  _↳ feedback if chosen: Likes are not proof._
+
+Full working after a second miss:
+
+> Cross-check.  
+> So the answer is “look for the same story on several reliable sites”.  
+
+> How can you check a news story?
+
+- ◻️ believe it because it is long  
+  _↳ feedback if chosen: Length is not proof._
+- ◻️ share it at once  
+  _↳ feedback if chosen: Check first._
+- ✅ look for the same story on several reliable sites
+- ◻️ trust it because it has many likes  
+  _↳ feedback if chosen: Likes are not proof._
+
+Full working after a second miss:
+
+> Cross-check.  
+> So the answer is “look for the same story on several reliable sites”.  
+
+Sources: credibility (Checking the credibility of online information: source, evidence, date, purpose, warning signs, image checks)
 

@@ -1,0 +1,307 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 53,
+ "language": "en",
+ "prerequisites": [
+  52
+ ],
+ "skills": [
+  {
+   "id": "h2-53",
+   "name": "Embroidery techniques and stitches"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Basic embroidery stitches:\n• running stitch: small, even stitches in a line, going in and out of the fabric (outlines, gathering);\n• back stitch: each stitch goes back to meet the previous one, making a solid line (outlines, letters);\n• straight stitch: single separate stitches (petals, grass);\n• satin stitch: straight stitches close together to fill a shape smoothly (leaves, petals);\n• zigzag stitch: stitches in a Z pattern (borders; also on sewing machines);\n• chain stitch: loops linked like a chain;\n• buttonhole (blanket) stitch: to finish edges.\nTechnique: transfer the design onto the fabric, stretch the fabric in an embroidery hoop, use a suitable needle and thread, keep stitches even, and fasten the thread neatly at the back.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Which stitch would you use to fill in a leaf shape smoothly?",
+  "steps": [
+   "Filling a shape needs stitches placed close together.",
+   "Satin stitch places straight stitches side by side to cover the shape."
+  ],
+  "answer": "satin stitch",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c53-1",
+    "status": "draft",
+    "idea": "Running stitch goes in and out in a line; back stitch makes a solid line.",
+    "vars": {},
+    "example": [
+     "Back stitch for letters."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-53-stitch"
+    }
+   },
+   {
+    "id": "c53-2",
+    "status": "draft",
+    "idea": "Satin stitch fills a shape with close straight stitches.",
+    "vars": {},
+    "example": [
+     "Petals and leaves."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-53-use"
+    }
+   },
+   {
+    "id": "c53-3",
+    "status": "draft",
+    "idea": "Use an embroidery hoop to keep the fabric tight.",
+    "vars": {},
+    "example": [
+     "Transfer the design first."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-53-order-card",
+     "type": "ordering",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "embroidery"
+     ],
+     "prompt": "Put the steps of embroidering a design in order.",
+     "items": [
+      {
+       "text": "Transfer the design onto the fabric"
+      },
+      {
+       "text": "Stretch the fabric in an embroidery hoop"
+      },
+      {
+       "text": "Thread the needle and knot the thread"
+      },
+      {
+       "text": "Stitch the design evenly"
+      },
+      {
+       "text": "Fasten the thread neatly at the back"
+      }
+     ],
+     "order": "as_written"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-53-stitch",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Match each stitch to its description.",
+   "pool": [
+    {
+     "left": "running stitch",
+     "right": "small even stitches in and out in a line"
+    },
+    {
+     "left": "back stitch",
+     "right": "each stitch goes back to meet the last, a solid line"
+    },
+    {
+     "left": "satin stitch",
+     "right": "close straight stitches that fill a shape"
+    },
+    {
+     "left": "chain stitch",
+     "right": "linked loops like a chain"
+    },
+    {
+     "left": "blanket stitch",
+     "right": "used to finish an edge"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-53-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "writing a name in a solid line",
+       "r": "back stitch",
+       "w": [
+        "satin stitch",
+        "blanket stitch",
+        "zigzag stitch"
+       ],
+       "e": [
+        "That fills shapes.",
+        "That finishes edges.",
+        "That makes borders."
+       ],
+       "y": "A solid unbroken line."
+      },
+      {
+       "q": "filling a petal smoothly",
+       "r": "satin stitch",
+       "w": [
+        "running stitch",
+        "back stitch",
+        "chain stitch"
+       ],
+       "e": [
+        "That makes a dotted line.",
+        "That makes a line.",
+        "That makes linked loops."
+       ],
+       "y": "Close stitches cover the shape."
+      },
+      {
+       "q": "finishing the edge of a blanket",
+       "r": "blanket (buttonhole) stitch",
+       "w": [
+        "satin stitch",
+        "running stitch",
+        "straight stitch"
+       ],
+       "e": [
+        "That fills.",
+        "That outlines.",
+        "Single stitches."
+       ],
+       "y": "It stops the edge fraying."
+      }
+     ]
+    }
+   },
+   "prompt": "Which stitch is best for {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-53-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Put the steps of embroidering a design in order.",
+   "items": [
+    {
+     "text": "Transfer the design onto the fabric"
+    },
+    {
+     "text": "Stretch the fabric in an embroidery hoop"
+    },
+    {
+     "text": "Thread the needle and knot the thread"
+    },
+    {
+     "text": "Stitch the design evenly"
+    },
+    {
+     "text": "Fasten the thread neatly at the back"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "h2-53-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Satin stitch fills shapes.",
+      "truth": "true"
+     },
+     {
+      "text": "Back stitch makes a solid line.",
+      "truth": "true"
+     },
+     {
+      "text": "A hoop keeps the fabric tight.",
+      "truth": "true"
+     },
+     {
+      "text": "Blanket stitch finishes edges.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Running stitch fills a shape completely.",
+      "truth": "false",
+      "explain": "It makes a broken line; satin stitch fills."
+     },
+     {
+      "text": "Stitches should be as uneven as possible.",
+      "truth": "false",
+      "explain": "Keep them even."
+     },
+     {
+      "text": "Never fasten the thread at the back.",
+      "truth": "false",
+      "explain": "Fasten it neatly so it does not come undone."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

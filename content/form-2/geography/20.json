@@ -1,0 +1,390 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  18
+ ],
+ "skills": [
+  {
+   "id": "g2-20",
+   "name": "Towns in Africa: urban landscapes and informal activities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A town is a large settlement where most people work in industry, trade and services rather than farming.\nUrban landscape (what a town looks like):\n• the central business district (CBD): offices, banks, big shops, ministries, tall buildings (Akwa in Douala, the centre of Yaoundé);\n• residential areas: rich planned quarters with villas (Bastos, Bonapriso) and poor, crowded, unplanned quarters (shanty towns, slums) with houses of planks and zinc;\n• industrial zones (Bassa in Douala), markets, the port, the airport, roads and roundabouts.\nInformal activities are small jobs not registered with the State and paying little or no tax: street hawking, bayam-sellam (food retailers), bike and motorbike taxis (benskin), shoe repair, call-boxes and phone repair, roadside food.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give two examples of informal activities seen in a Cameroonian town and say why they are called informal.",
+  "steps": [
+   "Examples: motorbike taxis (benskin) and street hawking.",
+   "They are informal because they are not registered with the State and pay little or no tax."
+  ],
+  "answer": "Motorbike taxis and street hawking; they are not registered and pay little tax.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "A town is a large settlement where most people work in industry, trade and services.",
+    "vars": {},
+    "example": [
+     "Douala, Yaoundé, Bamenda."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-20-what"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "The CBD has offices, banks and big shops; residential quarters may be planned or unplanned.",
+    "vars": {},
+    "example": [
+     "Akwa is Douala's CBD."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-20-zone"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "Informal activities are small unregistered jobs: hawking, benskin, bayam-sellam.",
+    "vars": {},
+    "example": [
+     "Shoe repair by the roadside."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-20-inf-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "african-towns"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "A woman sells roasted plantain by the roadside.",
+         "a": "informal"
+        },
+        {
+         "s": "A teacher works in a government school.",
+         "a": "formal"
+        },
+        {
+         "s": "A young man repairs phones in a call-box.",
+         "a": "informal"
+        },
+        {
+         "s": "A clerk works in a bank.",
+         "a": "formal"
+        },
+        {
+         "s": "A motorbike taxi carries passengers.",
+         "a": "informal"
+        }
+       ]
+      }
+     },
+     "prompt": "Is this a formal or an informal activity? {X.s}",
+     "correct": "{X.a}",
+     "distractors": [
+      {
+       "text": "{X.a == 'informal' ? 'formal' : 'informal'}",
+       "misconception": "k"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "k",
+       "explain": "Ask: is the job registered with the State and does it pay taxes?"
+      }
+     ],
+     "solution": [
+      "Formal jobs are registered and pay taxes and social security; informal ones are not.",
+      "So: {answer}."
+     ],
+     "min_distractors": 1
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-20-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a town?",
+       "r": "a large settlement where most people work in industry, trade and services",
+       "w": [
+        "a small farming hamlet",
+        "a forest reserve",
+        "a river"
+       ],
+       "e": [
+        "That is rural.",
+        "Not a settlement.",
+        "Not a settlement."
+       ],
+       "y": "Most townspeople do not farm."
+      },
+      {
+       "q": "What is the CBD of a town?",
+       "r": "the central business district with offices, banks and big shops",
+       "w": [
+        "the rubbish dump",
+        "the farm area",
+        "the airport only"
+       ],
+       "e": [
+        "Not the CBD.",
+        "Towns have few farms.",
+        "The airport is outside the centre."
+       ],
+       "y": "The commercial heart of the town."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-20-zone",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a shanty town?",
+       "r": "a crowded, unplanned quarter of poor houses",
+       "w": [
+        "a rich planned quarter",
+        "the central business district",
+        "an industrial estate"
+       ],
+       "e": [
+        "That is the opposite.",
+        "That has offices.",
+        "That has factories."
+       ],
+       "y": "Houses of planks and zinc, few services."
+      },
+      {
+       "q": "Which is an industrial zone in Douala?",
+       "r": "Bassa",
+       "w": [
+        "Bastos",
+        "Akwa",
+        "Bonapriso"
+       ],
+       "e": [
+        "A rich quarter of Yaoundé.",
+        "The CBD of Douala.",
+        "A residential quarter."
+       ],
+       "y": "Bassa has many factories."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-20-inf",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "A woman sells roasted plantain by the roadside.",
+       "a": "informal"
+      },
+      {
+       "s": "A teacher works in a government school.",
+       "a": "formal"
+      },
+      {
+       "s": "A young man repairs phones in a call-box.",
+       "a": "informal"
+      },
+      {
+       "s": "A clerk works in a bank.",
+       "a": "formal"
+      },
+      {
+       "s": "A motorbike taxi carries passengers.",
+       "a": "informal"
+      }
+     ]
+    }
+   },
+   "prompt": "Is this a formal or an informal activity? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'informal' ? 'formal' : 'informal'}",
+     "misconception": "k"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "k",
+     "explain": "Ask: is the job registered with the State and does it pay taxes?"
+    }
+   ],
+   "solution": [
+    "Formal jobs are registered and pay taxes and social security; informal ones are not.",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "g2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The CBD has many offices.",
+      "truth": "true"
+     },
+     {
+      "text": "Bayam-sellam are food retailers.",
+      "truth": "true"
+     },
+     {
+      "text": "Shanty towns are unplanned.",
+      "truth": "true"
+     },
+     {
+      "text": "Benskin are motorbike taxis.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Most townspeople are farmers.",
+      "truth": "false",
+      "explain": "Most work in industry, trade and services."
+     },
+     {
+      "text": "Informal activities pay high taxes.",
+      "truth": "false",
+      "explain": "They pay little or no tax."
+     },
+     {
+      "text": "Bastos is a shanty town.",
+      "truth": "false",
+      "explain": "Bastos is a rich planned quarter."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

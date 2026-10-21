@@ -1,0 +1,383 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 61,
+ "language": "en",
+ "prerequisites": [
+  59
+ ],
+ "skills": [
+  {
+   "id": "h2-61",
+   "name": "Laundry: notion and types"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Laundry is the washing, drying and ironing of clothes and household linen; the word also means the place where this is done.\nTypes of laundry:\n• home (domestic) laundry: done at home by hand or with a washing machine;\n• on-premises (in-house) laundry: inside an institution that washes its own linen — hotels, hospitals, boarding schools;\n• commercial laundry: a business (pressing, dry cleaner) that washes and irons clothes for customers for payment.\nSteps: sort clothes (whites, colours, delicate), check pockets, read care labels, remove stains, wash with detergent, rinse well, dry (in the sun or shade), iron and fold.\nDry cleaning uses chemical solvents instead of water, for delicate fabrics.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why should white and coloured clothes be washed separately?",
+  "steps": [
+   "Some coloured clothes lose dye in water.",
+   "The dye can stain the white clothes."
+  ],
+  "answer": "So that colours do not run onto white clothes.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c61-1",
+    "status": "draft",
+    "idea": "Laundry is washing, drying and ironing clothes and linen.",
+    "vars": {},
+    "example": [
+     "It is also a place."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-61-type"
+    }
+   },
+   {
+    "id": "c61-2",
+    "status": "draft",
+    "idea": "Types: home laundry, on-premises (in-house) laundry, commercial laundry.",
+    "vars": {},
+    "example": [
+     "A hospital laundry is in-house."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-61-steps"
+    }
+   },
+   {
+    "id": "c61-3",
+    "status": "draft",
+    "idea": "Sort clothes, check pockets and read labels before washing.",
+    "vars": {},
+    "example": [
+     "Whites separate from colours."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-61-sort-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "laundry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why should pockets be checked before washing?",
+         "r": "to remove objects such as pens, money or papers",
+         "w": [
+          "to add soap",
+          "to make clothes heavier",
+          "it is not needed"
+         ],
+         "e": [
+          "Not the reason.",
+          "Not the reason.",
+          "It prevents damage."
+         ],
+         "y": "A pen can stain all the clothes."
+        },
+        {
+         "q": "What is dry cleaning?",
+         "r": "cleaning with chemical solvents instead of water",
+         "w": [
+          "drying clothes in the sun",
+          "washing with cold water",
+          "ironing only"
+         ],
+         "e": [
+          "That is drying.",
+          "That uses water.",
+          "Not cleaning."
+         ],
+         "y": "For delicate fabrics."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-61-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "laundry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "A boarding school washes its own bed sheets.",
+       "a": "on-premises (in-house)",
+       "w": [
+        "commercial",
+        "home"
+       ]
+      },
+      {
+       "s": "A pressing in town washes clothes for customers who pay.",
+       "a": "commercial",
+       "w": [
+        "home",
+        "on-premises (in-house)"
+       ]
+      },
+      {
+       "s": "A mother washes the family's clothes in a basin.",
+       "a": "home",
+       "w": [
+        "commercial",
+        "on-premises (in-house)"
+       ]
+      },
+      {
+       "s": "A hospital washes its uniforms and sheets.",
+       "a": "on-premises (in-house)",
+       "w": [
+        "home",
+        "commercial"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Which type of laundry is this? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "t"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "t"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "t",
+     "explain": "Ask: is it at home, inside an institution for itself, or a business for customers?"
+    }
+   ],
+   "solution": [
+    "Home: at home; on-premises: inside an institution for its own linen; commercial: a business for customers.",
+    "So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "h2-61-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "prompt": "Put the laundry steps in order.",
+   "items": [
+    {
+     "text": "Sort the clothes"
+    },
+    {
+     "text": "Check the pockets and labels"
+    },
+    {
+     "text": "Remove stains"
+    },
+    {
+     "text": "Wash and rinse"
+    },
+    {
+     "text": "Dry"
+    },
+    {
+     "text": "Iron and fold"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "h2-61-sort",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why should pockets be checked before washing?",
+       "r": "to remove objects such as pens, money or papers",
+       "w": [
+        "to add soap",
+        "to make clothes heavier",
+        "it is not needed"
+       ],
+       "e": [
+        "Not the reason.",
+        "Not the reason.",
+        "It prevents damage."
+       ],
+       "y": "A pen can stain all the clothes."
+      },
+      {
+       "q": "What is dry cleaning?",
+       "r": "cleaning with chemical solvents instead of water",
+       "w": [
+        "drying clothes in the sun",
+        "washing with cold water",
+        "ironing only"
+       ],
+       "e": [
+        "That is drying.",
+        "That uses water.",
+        "Not cleaning."
+       ],
+       "y": "For delicate fabrics."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-61-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Sort whites from colours.",
+      "truth": "true"
+     },
+     {
+      "text": "Read the care labels.",
+      "truth": "true"
+     },
+     {
+      "text": "Rinse clothes well.",
+      "truth": "true"
+     },
+     {
+      "text": "A pressing is a commercial laundry.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Dry cleaning uses lots of water.",
+      "truth": "false",
+      "explain": "It uses solvents instead of water."
+     },
+     {
+      "text": "A hotel washing its own sheets is a commercial laundry.",
+      "truth": "false",
+      "explain": "It is on-premises (in-house)."
+     },
+     {
+      "text": "Wash a new red shirt with white clothes.",
+      "truth": "false",
+      "explain": "The colour may run."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

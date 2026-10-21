@@ -1,0 +1,404 @@
+{
+ "subject": "history",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "y2-22",
+   "name": "The Americas: rise, peak and decline of the Maya, Aztec and Inca"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Great civilisations grew in the Americas before Europeans arrived:\n• Maya (southern Mexico, Guatemala): city-states with stone pyramids-temples (Tikal, Chichén Itzá); writing in glyphs, an accurate calendar, astronomy and mathematics with zero. Classic peak about AD 250–900, then many cities were abandoned.\n• Aztec (central Mexico): capital Tenochtitlan on a lake, founded about 1325; floating gardens (chinampas), a strong army, tribute from conquered peoples. Conquered by the Spaniard Hernán Cortés in 1521.\n• Inca (Andes, Peru): capital Cusco; an empire about 1438–1533 linked by stone roads; Machu Picchu; records kept on knotted strings (quipu). Conquered by Francisco Pizarro (1532–1533).\nCauses of decline: Spanish conquest with guns and horses, European diseases (smallpox) that killed millions, internal wars, and (for the Maya) drought and overpopulation.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1325,
+   "b": 1521
+  },
+  "problem": "How long did the Aztec capital Tenochtitlan exist before the Spanish conquest?",
+  "steps": [
+   "It was founded about {a} and conquered in {b}.",
+   "{b} − {a} = {b - a} years."
+  ],
+  "answer": "about {b - a} years",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "The Maya built city-states with pyramids and had writing, a calendar and the zero.",
+    "vars": {},
+    "example": [
+     "Chichén Itzá, Tikal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-22-civ"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "The Aztec capital was Tenochtitlan; the Inca capital was Cusco.",
+    "vars": {},
+    "example": [
+     "Machu Picchu is an Inca city."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "y2-22-cap"
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "Spanish conquest and European diseases caused their fall.",
+    "vars": {},
+    "example": [
+     "Cortés ({1521}), Pizarro ({1532})."
+    ],
+    "checks": [],
+    "check": {
+     "id": "y2-22-fall-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "americas"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Who conquered the Aztec empire in 1521?",
+         "r": "Hernán Cortés",
+         "w": [
+          "Francisco Pizarro",
+          "Vasco da Gama",
+          "Diogo Cão"
+         ],
+         "e": [
+          "He conquered the Inca.",
+          "He reached India.",
+          "He reached Kongo."
+         ],
+         "y": "A Spanish conquistador."
+        },
+        {
+         "q": "Which was a major cause of the fall of the Aztec and Inca?",
+         "r": "European diseases such as smallpox",
+         "w": [
+          "too much rain",
+          "the Crusades",
+          "the Almoravids"
+         ],
+         "e": [
+          "Not the main cause.",
+          "In the Middle East.",
+          "In West Africa."
+         ],
+         "y": "Millions died of new diseases."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "y2-22-civ",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "americas"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "City-states in southern Mexico and Guatemala, with glyph writing and the zero.",
+       "r": "the Maya",
+       "w": [
+        "the Aztec",
+        "the Inca",
+        "the Kongo"
+       ],
+       "e": [
+        "Central Mexico, Tenochtitlan.",
+        "The Andes, Cusco.",
+        "That is in Africa."
+       ],
+       "y": "The Maya."
+      },
+      {
+       "q": "An empire in the Andes linked by stone roads, with records on knotted strings.",
+       "r": "the Inca",
+       "w": [
+        "the Maya",
+        "the Aztec",
+        "Mali"
+       ],
+       "e": [
+        "Mexico and Guatemala.",
+        "Central Mexico.",
+        "That is in Africa."
+       ],
+       "y": "The quipu."
+      },
+      {
+       "q": "A capital built on a lake, with floating gardens, in central Mexico.",
+       "r": "the Aztec",
+       "w": [
+        "the Inca",
+        "the Maya",
+        "Great Zimbabwe"
+       ],
+       "e": [
+        "The Andes.",
+        "Southern Mexico and Guatemala.",
+        "That is in Africa."
+       ],
+       "y": "Tenochtitlan."
+      }
+     ]
+    }
+   },
+   "prompt": "Which civilisation is described? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-22-cap",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "americas"
+   ],
+   "prompt": "Match each item to its civilisation.",
+   "pool": [
+    {
+     "left": "Tenochtitlan",
+     "right": "the Aztec"
+    },
+    {
+     "left": "Cusco",
+     "right": "the Inca"
+    },
+    {
+     "left": "Chichén Itzá",
+     "right": "the Maya"
+    },
+    {
+     "left": "quipu (knotted strings)",
+     "right": "the Inca"
+    },
+    {
+     "left": "chinampas (floating gardens)",
+     "right": "the Aztec"
+    }
+   ],
+   "pick": 4,
+   "groups": true
+  },
+  {
+   "id": "y2-22-fall",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "americas"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Who conquered the Aztec empire in 1521?",
+       "r": "Hernán Cortés",
+       "w": [
+        "Francisco Pizarro",
+        "Vasco da Gama",
+        "Diogo Cão"
+       ],
+       "e": [
+        "He conquered the Inca.",
+        "He reached India.",
+        "He reached Kongo."
+       ],
+       "y": "A Spanish conquistador."
+      },
+      {
+       "q": "Which was a major cause of the fall of the Aztec and Inca?",
+       "r": "European diseases such as smallpox",
+       "w": [
+        "too much rain",
+        "the Crusades",
+        "the Almoravids"
+       ],
+       "e": [
+        "Not the main cause.",
+        "In the Middle East.",
+        "In West Africa."
+       ],
+       "y": "Millions died of new diseases."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "y2-22-years",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "americas"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "e": "Inca empire",
+       "a": 1438,
+       "b": 1533
+      },
+      {
+       "e": "Aztec city of Tenochtitlan",
+       "a": 1325,
+       "b": 1521
+      },
+      {
+       "e": "Maya classic period",
+       "a": 250,
+       "b": 900
+      }
+     ]
+    }
+   },
+   "prompt": "The {X.e} began about {X.a} and ended in {X.b}. About how many years did it last?",
+   "answer": "X.b - X.a",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "X.b + X.a",
+     "explain": "Subtract the earlier year from the later one."
+    }
+   ],
+   "solution": [
+    "Both years are AD: subtract.",
+    "{X.b} − {X.a} = {answer} years."
+   ],
+   "unit": "years"
+  }
+ ]
+}

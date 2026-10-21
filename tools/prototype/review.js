@@ -19,6 +19,8 @@ function reviewItems(s, n) {
   const items = [{ id: "note", kind: "Note (summary)" }];
   for (const c of l.teach.cards) items.push({ id: c.id, kind: "Teach card", card: c });
   items.push({ id: "worked", kind: "Worked example" });
+  for (const stage of l.activity?.stages || []) items.push({ id: stage.question.id, kind: `Subject activity · ${stage.title}`, tpl: stage.question });
+  if (l.activity?.reflection) items.push({ id: "activity-writing", kind: "Activity writing (self-check only)" });
   if (l.paper_task) items.push({ id: "paper", kind: "Writing task" });
   for (const t of l.questions || []) items.push({ id: t.id, kind: `Practice · level ${t.level}`, tpl: t });
   return items;
@@ -36,6 +38,8 @@ function shownQuestion(q, tpl) {
     out.push(el("ul", { class: "rv-options" }, q.options.map((o, i) => el("li", { class: i === q.correctIndex ? "rv-right" : "" },
       `${i === q.correctIndex ? (q.type === "spot_error" ? "✗ (the wrong one) " : "✓ ") : "• "}${o.text}`,
       o.explain && i !== q.correctIndex ? el("div", { class: "muted" }, `Feedback if chosen: ${o.explain}`) : null))));
+  } else if (q.type === "blanks") {
+    out.push(para(`Completed working: ${q.answer}`, "strong"));
   } else if (q.type === "numeric") {
     out.push(para(`Answer: ${q.answer}${q.unit ? " " + q.unit : ""}`, "strong"),
       ...q.misconceptions.map((m) => para(`If the pupil types ${m.value}: ${m.explain}`, "muted")));
@@ -57,8 +61,8 @@ function itemBody(s, n, it, seed) {
     const w = renderWorked(l.worked_example, lib);
     return [el("div", { class: "strong pre" }, w.problem), figureBox(w.figure), el("ol", {}, w.steps.map((x) => el("li", {}, x))), para(`Answer: ${w.answer}`, "strong")];
   }
-  if (it.id === "paper") {
-    const p = teach.renderPaper(l, lib);
+  if (it.id === "paper" || it.id === "activity-writing") {
+    const p = teach.renderPaper(it.id === "paper" ? l : { paper_task: l.activity.reflection }, lib);
     return [el("div", { class: "pre" }, p.prompt), el("div", { class: "kicker" }, "Model answer"), ...p.model.map((m) => para(m)),
       el("div", { class: "kicker" }, "Self-check list"), el("ul", {}, p.checklist.map((c) => el("li", {}, c)))];
   }

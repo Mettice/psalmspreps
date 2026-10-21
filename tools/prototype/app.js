@@ -74,6 +74,7 @@ const checkIcon = () => {
 // ---------------------------------------------------------------- French lessons are in French (TR-F12)
 // Inside a French lesson the pupil's buttons and headings are in French; the menu and the grown-up text stay English.
 const FR = {
+  "You completed {a} questions and a writing task.": "Tu as répondu à {a} questions et terminé une activité d’écriture.",
   "Lesson {n} · Activity": "Leçon {n} · Activité",
   "Now try the activity": "Passe à l’activité",
   "Your turn to write": "À toi d’écrire",
@@ -607,7 +608,7 @@ function lesson(flow, previous = null) {
  * self-check list. The ticks are kept for the parent summary only; the app does not mark the writing (TR-E25).
  */
 function paperTask(flow, bar, task = L().paper_task, key = "paper") {
-  const p = teach.renderPaper({ paper_task: task }, LIB()), n = N();
+  const p = teach.renderPaper({ paper_task: task }, LIB());
   const ticks = C()[key]?.ticks || p.checklist.map(() => false);
   const write = () => screen(bar, header(T("Your turn to write"), T("Write in your exercise book")),
     el("div", { class: "idea pre" }, p.prompt),
@@ -706,6 +707,13 @@ function lessonText(s, n, r) {
     `  cards: ${count(cards, "right")} right, ${count(cards, "wrong")} wrong, ${count(cards, "idk")} IDK · practice: ${count(practice, "right")} right, ${count(practice, "wrong")} wrong, ${count(practice, "idk")} IDK`,
     `  needs review (missed twice): ${r.review.join(", ") || "none"}`];
   if (r.reviewRows?.length) out.push(`  targeted review: ${count(r.reviewRows, "right")} right, ${count(r.reviewRows, "wrong")} wrong, ${count(r.reviewRows, "idk")} IDK`);
+  const activity = r.rows.filter((x) => x.phase === "activity");
+  if (activity.length) out.push(`  subject activity: ${count(activity, "right")} right, ${count(activity, "wrong")} wrong, ${count(activity, "idk")} IDK`);
+  if (r.activityPaper) {
+    const items = CONTENT[s][n].activity.reflection.checklist;
+    out.push(`  activity writing (not marked; self-check by the pupil): ${r.activityPaper.ticks.filter(Boolean).length} of ${items.length} ticked`,
+      ...items.map((t, i) => `    ${r.activityPaper.ticks[i] ? "[x]" : "[ ]"} ${t}`));
+  }
   if (r.paper) {
     const items = teach.renderPaper(CONTENT[s][n], libs[s]).checklist;
     out.push(`  paper task (not marked; self-check by the pupil): ${r.paper.ticks.filter(Boolean).length} of ${items.length} ticked`,
@@ -776,7 +784,7 @@ function showResults(s, n, completed, reviewed = false) {
   const badges = newBadges(), st = streak();
   screen(confetti(), el("div", { class: "done" }, el("div", { class: "done-title" }, reviewed ? T("Review complete") : T("Lesson {n} done", { n })),
     el("div", { class: "done-stars", "aria-label": `${record.stars} of 3 stars` }, [1, 2, 3].map((k) => el("span", { class: k <= record.stars ? "star on" : "star", style: `--k:${k}` }, "★"))),
-    para(reviewed ? T("You practised the questions that needed another look.") : Ln.paper_task ? `You completed ${completed} questions and a writing task.` : T("You completed {a} questions.", { a: completed }), "done-sub"),
+    para(reviewed ? T("You practised the questions that needed another look.") : Ln.paper_task || Ln.activity?.reflection ? T("You completed {a} questions and a writing task.", { a: completed }) : T("You completed {a} questions.", { a: completed }), "done-sub"),
     st ? para(T("🔥 {a}-day streak", { a: st }), "done-streak") : null),
     badges.map(([, icon, name]) => el("div", { class: "new-badge" }, el("span", { "aria-hidden": "true" }, icon), el("strong", {}, T("New badge: {a}", { a: name })))),
     reviewed ? para(T(record.review.length ? "Some questions still need practice. You can try them again." : "You answered every review item correctly, with help where needed."), "muted") : null,

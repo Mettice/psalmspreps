@@ -1,0 +1,440 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 47,
+ "language": "en",
+ "prerequisites": [
+  45
+ ],
+ "skills": [
+  {
+   "id": "s2-47",
+   "name": "Using chat tools"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A chat tool (instant messaging) sends short messages instantly: WhatsApp, Telegram, Messenger, Signal, SMS.\nFeatures: one-to-one chats, group chats, voice notes, photos and videos, stickers and emojis, status updates, read receipts (ticks), voice and video calls, end-to-end encryption (only sender and receiver can read).\nUses at school: class groups for homework announcements, sharing notes, organising club meetings.\nGood practice: stay on the topic of the group, be polite, do not spam or forward false news, ask before adding people to groups, think before sharing photos, report and block bullies, do not chat with strangers or share your location.\nChat language (abbreviations like “pls”, “4” for “for”) is fine with friends but not in school work or formal messages.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A message in the class group says schools will close tomorrow because of a storm, but no source is given. What should you do?",
+  "steps": [
+   "Do not forward it at once: it may be false news.",
+   "Check with the teacher or an official source before sharing."
+  ],
+  "answer": "Check with a teacher or official source before forwarding.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c47-1",
+    "status": "draft",
+    "idea": "Chat tools send short messages instantly; groups allow many members.",
+    "vars": {},
+    "example": [
+     "WhatsApp, Telegram."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-47-feat"
+    }
+   },
+   {
+    "id": "c47-2",
+    "status": "draft",
+    "idea": "Be polite, stay on topic and check news before forwarding.",
+    "vars": {},
+    "example": [
+     "No spam in the class group."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-47-rules"
+    }
+   },
+   {
+    "id": "c47-3",
+    "status": "draft",
+    "idea": "Report and block bullies; never share your location with strangers.",
+    "vars": {},
+    "example": [
+     "Ask an adult for help."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-47-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "communication-tools"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Someone you do not know asks for your home address in a chat. What do you do?",
+         "r": "Do not reply with it; block them and tell an adult.",
+         "w": [
+          "Send it quickly.",
+          "Send your photo too.",
+          "Meet them alone."
+         ],
+         "e": [
+          "Dangerous.",
+          "Dangerous.",
+          "Very dangerous."
+         ],
+         "y": "Protect yourself."
+        },
+        {
+         "q": "A classmate is insulted every day in a group. What should you do?",
+         "r": "Support the classmate, report the bully and tell a teacher.",
+         "w": [
+          "Join the insults.",
+          "Forward the insults.",
+          "Laugh and ignore it."
+         ],
+         "e": [
+          "That is bullying.",
+          "That spreads it.",
+          "Support the victim."
+         ],
+         "y": "Stop cyberbullying."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-47-feat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does end-to-end encryption mean in a chat app?",
+       "r": "only the sender and receiver can read the messages",
+       "w": [
+        "messages are printed",
+        "messages are public",
+        "messages are deleted at once"
+       ],
+       "e": [
+        "Not the meaning.",
+        "The opposite.",
+        "Not the meaning."
+       ],
+       "y": "Privacy protection."
+      },
+      {
+       "q": "Which is a chat tool?",
+       "r": "WhatsApp",
+       "w": [
+        "Microsoft Excel",
+        "Paint",
+        "a scanner"
+       ],
+       "e": [
+        "A spreadsheet.",
+        "A drawing program.",
+        "Hardware."
+       ],
+       "y": "Instant messaging."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-47-rules",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What should you do before adding someone to a group chat?",
+       "r": "ask for their permission",
+       "w": [
+        "add them secretly",
+        "share their number publicly",
+        "nothing"
+       ],
+       "e": [
+        "Respect them.",
+        "Respect privacy.",
+        "Ask first."
+       ],
+       "y": "Respect people's choice."
+      },
+      {
+       "q": "When is chat language like “pls” or “4u” acceptable?",
+       "r": "in informal chats with friends",
+       "w": [
+        "in an exam essay",
+        "in a letter to the principal",
+        "in a job application"
+       ],
+       "e": [
+        "Use full words.",
+        "Formal: use full words.",
+        "Formal: use full words."
+       ],
+       "y": "Use correct English in school work."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-47-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Someone you do not know asks for your home address in a chat. What do you do?",
+       "r": "Do not reply with it; block them and tell an adult.",
+       "w": [
+        "Send it quickly.",
+        "Send your photo too.",
+        "Meet them alone."
+       ],
+       "e": [
+        "Dangerous.",
+        "Dangerous.",
+        "Very dangerous."
+       ],
+       "y": "Protect yourself."
+      },
+      {
+       "q": "A classmate is insulted every day in a group. What should you do?",
+       "r": "Support the classmate, report the bully and tell a teacher.",
+       "w": [
+        "Join the insults.",
+        "Forward the insults.",
+        "Laugh and ignore it."
+       ],
+       "e": [
+        "That is bullying.",
+        "That spreads it.",
+        "Support the victim."
+       ],
+       "y": "Stop cyberbullying."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-47-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Stay on topic in groups.",
+      "truth": "true"
+     },
+     {
+      "text": "Check news before forwarding.",
+      "truth": "true"
+     },
+     {
+      "text": "Block bullies.",
+      "truth": "true"
+     },
+     {
+      "text": "Ask before adding people.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Share your live location with strangers.",
+      "truth": "false",
+      "explain": "Never share your location with strangers."
+     },
+     {
+      "text": "Forward every message you receive.",
+      "truth": "false",
+      "explain": "Check and think first."
+     },
+     {
+      "text": "Chat abbreviations are fine in exam essays.",
+      "truth": "false",
+      "explain": "Use full, correct English."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

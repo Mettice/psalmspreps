@@ -1,0 +1,433 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "a2-20",
+   "name": "Business finance: types, contributions and subsidies"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A business needs money (finance) to start and to grow. Sources:\n• Own funds (internal): the owner's contributions (capital), profits kept in the business (reserves).\n• Borrowed funds (external): loans from banks and others, leasing, credit from suppliers.\n• Subsidies: money given by the State or another body, without repayment, for a purpose (an investment subsidy to buy equipment; an operating subsidy to help run the business).\nContributions: the owner (or partners) bring cash, goods or fixed assets into the business; this is recorded as capital (account 101 or 103). Contribution in cash: debit 521 Bank or 571 Cash, credit 101 Capital.\nInvestment subsidies are recorded in account 14; operating subsidies in account 71.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 2000000
+  },
+  "problem": "Mr Tabe starts a shop by paying {c} FCFA into the business bank account. Which accounts are used?",
+  "steps": [
+   "Money goes into the bank: debit {521} Bank.",
+   "It is the owner's contribution: credit {101} Capital."
+  ],
+  "answer": "Debit {521} Bank, credit {101} Capital: {c} FCFA.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "Own funds: the owner's capital and kept profits; borrowed funds: loans and leasing.",
+    "vars": {},
+    "example": [
+     "Capital is own funds."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-20-type"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "A contribution in cash: debit {521} Bank (or {571} Cash), credit {101} Capital.",
+    "vars": {},
+    "example": [
+     "The owner brings money."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-20-entry"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "A subsidy is money received without repayment: investment ({14}) or operating ({71}).",
+    "vars": {},
+    "example": [
+     "A State grant for equipment."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-20-sub-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "business-finance"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is a subsidy?",
+         "r": "money received without having to repay it",
+         "w": [
+          "a loan with interest",
+          "the owner's capital",
+          "a customer's debt"
+         ],
+         "e": [
+          "A loan is repaid.",
+          "Capital comes from the owner.",
+          "That is a receivable."
+         ],
+         "y": "A grant."
+        },
+        {
+         "q": "In which account is an investment subsidy recorded?",
+         "r": "account 14",
+         "w": [
+          "account 601",
+          "account 411",
+          "account 521"
+         ],
+         "e": [
+          "Purchases.",
+          "Customers.",
+          "Bank."
+         ],
+         "y": "14 Investment subsidies (class 1)."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-20-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "business-finance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The owner brings 1 000 000 FCFA.",
+       "a": "own funds",
+       "w": [
+        "borrowed funds",
+        "a subsidy"
+       ]
+      },
+      {
+       "s": "A bank lends 5 000 000 FCFA for five years.",
+       "a": "borrowed funds",
+       "w": [
+        "own funds",
+        "a subsidy"
+       ]
+      },
+      {
+       "s": "The State gives 800 000 FCFA to buy a machine, not to be repaid.",
+       "a": "a subsidy",
+       "w": [
+        "own funds",
+        "borrowed funds"
+       ]
+      },
+      {
+       "s": "Last year's profit is kept in the business.",
+       "a": "own funds",
+       "w": [
+        "borrowed funds",
+        "a subsidy"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Is this own funds, borrowed funds or a subsidy? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "t"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "t"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "t",
+     "explain": "Ask: does it come from the owner, must it be repaid, or is it given free?"
+    }
+   ],
+   "solution": [
+    "Own: from the owner or kept profits; borrowed: must be repaid; subsidy: given without repayment.",
+    "So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "a2-20-entry",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "business-finance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The owner pays cash into the business. Which account is credited?",
+       "r": "101 Capital",
+       "w": [
+        "601 Purchases",
+        "701 Sales",
+        "411 Customers"
+       ],
+       "e": [
+        "An expense.",
+        "Income.",
+        "A third party."
+       ],
+       "y": "The owner's contribution is capital."
+      },
+      {
+       "q": "The owner's contribution is paid into the bank. Which account is debited?",
+       "r": "521 Bank",
+       "w": [
+        "101 Capital",
+        "401 Suppliers",
+        "661 Salaries"
+       ],
+       "e": [
+        "That is credited.",
+        "A third party.",
+        "An expense."
+       ],
+       "y": "Money enters the bank."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-20-sub",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "business-finance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a subsidy?",
+       "r": "money received without having to repay it",
+       "w": [
+        "a loan with interest",
+        "the owner's capital",
+        "a customer's debt"
+       ],
+       "e": [
+        "A loan is repaid.",
+        "Capital comes from the owner.",
+        "That is a receivable."
+       ],
+       "y": "A grant."
+      },
+      {
+       "q": "In which account is an investment subsidy recorded?",
+       "r": "account 14",
+       "w": [
+        "account 601",
+        "account 411",
+        "account 521"
+       ],
+       "e": [
+        "Purchases.",
+        "Customers.",
+        "Bank."
+       ],
+       "y": "14 Investment subsidies (class 1)."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "business-finance"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Capital is own funds.",
+      "truth": "true"
+     },
+     {
+      "text": "A bank loan is borrowed funds.",
+      "truth": "true"
+     },
+     {
+      "text": "A subsidy is not repaid.",
+      "truth": "true"
+     },
+     {
+      "text": "Kept profits are own funds.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A subsidy must be repaid with interest.",
+      "truth": "false",
+      "explain": "It is not repaid."
+     },
+     {
+      "text": "The owner's contribution is recorded in 601 Purchases.",
+      "truth": "false",
+      "explain": "It is recorded in 101 Capital."
+     },
+     {
+      "text": "A bank loan is a subsidy.",
+      "truth": "false",
+      "explain": "It is borrowed and must be repaid."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

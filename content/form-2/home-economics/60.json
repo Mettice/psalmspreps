@@ -1,0 +1,394 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 60,
+ "language": "en",
+ "prerequisites": [
+  53
+ ],
+ "skills": [
+  {
+   "id": "h2-60",
+   "name": "Embroidery tools and equipment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Embroidery tools:\n• embroidery needles (crewel needles): sharp, with a long eye for thick thread; tapestry needles: blunt, for counted-thread work;\n• embroidery thread: stranded cotton (six strands that can be separated), perle cotton, wool, metallic thread;\n• embroidery scissors: small and sharp, to cut threads close to the fabric; dressmaker's shears for fabric;\n• an embroidery hoop (two rings) or frame: keeps the fabric tight;\n• a thimble: protects the finger that pushes the needle;\n• tracing paper, carbon paper or a water-soluble pen: to transfer designs;\n• a needle threader, pins, a tape measure.\nCare: keep needles in a needle case, scissors closed and dry, threads sorted; never use embroidery scissors to cut paper.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why should embroidery scissors never be used to cut paper?",
+  "steps": [
+   "Embroidery scissors are small and very sharp for cutting threads.",
+   "Paper makes the blades blunt quickly."
+  ],
+  "answer": "Paper blunts the fine blades.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c60-1",
+    "status": "draft",
+    "idea": "Crewel needles are sharp with a long eye; tapestry needles are blunt.",
+    "vars": {},
+    "example": [
+     "Tapestry needles for counted work."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-60-tool"
+    }
+   },
+   {
+    "id": "c60-2",
+    "status": "draft",
+    "idea": "A hoop keeps the fabric tight; a thimble protects the finger.",
+    "vars": {},
+    "example": [
+     "Two rings hold the fabric."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-60-use"
+    }
+   },
+   {
+    "id": "c60-3",
+    "status": "draft",
+    "idea": "Keep needles in a case and use embroidery scissors only for thread.",
+    "vars": {},
+    "example": [
+     "Paper blunts scissors."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-60-care-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "embroidery"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Where should needles be kept?",
+         "r": "in a needle case",
+         "w": [
+          "loose on the floor",
+          "in the bed",
+          "in the mouth"
+         ],
+         "e": [
+          "Dangerous.",
+          "Dangerous.",
+          "Dangerous."
+         ],
+         "y": "Safe and easy to find."
+        },
+        {
+         "q": "Why use a thimble?",
+         "r": "to protect the finger that pushes the needle",
+         "w": [
+          "to measure fabric",
+          "to cut thread",
+          "to iron cloth"
+         ],
+         "e": [
+          "A tape measure does that.",
+          "Scissors do that.",
+          "An iron does that."
+         ],
+         "y": "Prevents pricks."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-60-tool",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Match each tool to its use.",
+   "pool": [
+    {
+     "left": "embroidery hoop",
+     "right": "keeps the fabric tight"
+    },
+    {
+     "left": "thimble",
+     "right": "protects the finger"
+    },
+    {
+     "left": "embroidery scissors",
+     "right": "cut threads close to the fabric"
+    },
+    {
+     "left": "tracing paper",
+     "right": "transfers a design"
+    },
+    {
+     "left": "needle threader",
+     "right": "helps to thread the needle"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-60-use",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which needle is best for counted-thread work?",
+       "r": "a blunt tapestry needle",
+       "w": [
+        "a sharp crewel needle",
+        "a sewing-machine needle",
+        "a pin"
+       ],
+       "e": [
+        "It can split the threads.",
+        "Not for hand work.",
+        "Not a needle for stitching."
+       ],
+       "y": "It slips between threads without splitting them."
+      },
+      {
+       "q": "How many strands does stranded embroidery cotton have?",
+       "r": "six",
+       "w": [
+        "one",
+        "two",
+        "twenty"
+       ],
+       "e": [
+        "It can be separated.",
+        "It has more.",
+        "Too many."
+       ],
+       "y": "Six strands that can be separated."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-60-care",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where should needles be kept?",
+       "r": "in a needle case",
+       "w": [
+        "loose on the floor",
+        "in the bed",
+        "in the mouth"
+       ],
+       "e": [
+        "Dangerous.",
+        "Dangerous.",
+        "Dangerous."
+       ],
+       "y": "Safe and easy to find."
+      },
+      {
+       "q": "Why use a thimble?",
+       "r": "to protect the finger that pushes the needle",
+       "w": [
+        "to measure fabric",
+        "to cut thread",
+        "to iron cloth"
+       ],
+       "e": [
+        "A tape measure does that.",
+        "Scissors do that.",
+        "An iron does that."
+       ],
+       "y": "Prevents pricks."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-60-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A hoop keeps fabric tight.",
+      "truth": "true"
+     },
+     {
+      "text": "A thimble protects the finger.",
+      "truth": "true"
+     },
+     {
+      "text": "Stranded cotton has six strands.",
+      "truth": "true"
+     },
+     {
+      "text": "Tapestry needles are blunt.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Embroidery scissors are good for cutting cardboard.",
+      "truth": "false",
+      "explain": "Use them only for thread."
+     },
+     {
+      "text": "Needles should be left loose on the floor.",
+      "truth": "false",
+      "explain": "Keep them in a needle case."
+     },
+     {
+      "text": "A thimble is used to cut thread.",
+      "truth": "false",
+      "explain": "It protects the finger."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

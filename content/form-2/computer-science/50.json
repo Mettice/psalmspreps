@@ -1,0 +1,413 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 50,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "s2-50",
+   "name": "Introduction to computer maintenance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Computer maintenance keeps a computer working well and for a long time.\n• Preventive maintenance (before problems): dust the computer and keyboard; keep it cool and ventilated; use a surge protector or stabiliser and a UPS (inverter) against power cuts; update the operating system and antivirus; delete unneeded files; back up data; shut down properly.\n• Corrective maintenance (after a problem): find the cause and repair it — replace a faulty part, reinstall software, remove a virus.\nSafety: switch off and unplug before opening or cleaning; avoid static electricity (touch metal first); never pour liquids near the computer; keep food and drinks away.\nA UPS (uninterruptible power supply) gives a few minutes of power after a cut so you can save your work.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why is a UPS useful in places with frequent power cuts?",
+  "steps": [
+   "A sudden power cut can damage files and parts.",
+   "A UPS gives battery power for a few minutes so you can save your work and shut down properly."
+  ],
+  "answer": "It gives time to save work and shut down safely.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c50-1",
+    "status": "draft",
+    "idea": "Preventive maintenance is done before problems; corrective after.",
+    "vars": {},
+    "example": [
+     "Dusting vs replacing a part."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-50-kind"
+    }
+   },
+   {
+    "id": "c50-2",
+    "status": "draft",
+    "idea": "A surge protector and a UPS protect against power problems.",
+    "vars": {},
+    "example": [
+     "Save work during a cut."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-50-power"
+    }
+   },
+   {
+    "id": "c50-3",
+    "status": "draft",
+    "idea": "Switch off and unplug before cleaning; keep drinks away.",
+    "vars": {},
+    "example": [
+     "Avoid static electricity."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-50-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "maintenance"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What must you do before cleaning inside a computer?",
+         "r": "switch it off and unplug it",
+         "w": [
+          "pour water on it",
+          "leave it running",
+          "shake it hard"
+         ],
+         "e": [
+          "Dangerous.",
+          "Dangerous.",
+          "Can damage parts."
+         ],
+         "y": "Avoid shocks and damage."
+        },
+        {
+         "q": "Why should drinks be kept away from the computer?",
+         "r": "A spill can short-circuit and damage it.",
+         "w": [
+          "Drinks make it faster.",
+          "Computers need water.",
+          "It is not important."
+         ],
+         "e": [
+          "Not true.",
+          "Not true.",
+          "It is important."
+         ],
+         "y": "Liquids and electronics do not mix."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-50-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "maintenance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Updating the antivirus every week.",
+       "a": "preventive"
+      },
+      {
+       "s": "Replacing a broken keyboard.",
+       "a": "corrective"
+      },
+      {
+       "s": "Dusting the computer's fan.",
+       "a": "preventive"
+      },
+      {
+       "s": "Removing a virus that slows the computer.",
+       "a": "corrective"
+      },
+      {
+       "s": "Backing up files every Friday.",
+       "a": "preventive"
+      }
+     ]
+    }
+   },
+   "prompt": "Is this preventive or corrective maintenance? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'preventive' ? 'corrective' : 'preventive'}",
+     "misconception": "k"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "k",
+     "explain": "Ask: is it done before a problem or to repair one?"
+    }
+   ],
+   "solution": [
+    "Preventive: before problems; corrective: repairing after a problem.",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "s2-50-power",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does a UPS do?",
+       "r": "gives power for a few minutes after a power cut",
+       "w": [
+        "prints documents",
+        "scans images",
+        "plays music"
+       ],
+       "e": [
+        "A printer does that.",
+        "A scanner does that.",
+        "Speakers do that."
+       ],
+       "y": "Time to save and shut down."
+      },
+      {
+       "q": "What does a surge protector do?",
+       "r": "protects devices from sudden rises in voltage",
+       "w": [
+        "speeds up the internet",
+        "cools the computer",
+        "stores files"
+       ],
+       "e": [
+        "Not its role.",
+        "Fans do that.",
+        "Disks do that."
+       ],
+       "y": "Voltage spikes damage parts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-50-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What must you do before cleaning inside a computer?",
+       "r": "switch it off and unplug it",
+       "w": [
+        "pour water on it",
+        "leave it running",
+        "shake it hard"
+       ],
+       "e": [
+        "Dangerous.",
+        "Dangerous.",
+        "Can damage parts."
+       ],
+       "y": "Avoid shocks and damage."
+      },
+      {
+       "q": "Why should drinks be kept away from the computer?",
+       "r": "A spill can short-circuit and damage it.",
+       "w": [
+        "Drinks make it faster.",
+        "Computers need water.",
+        "It is not important."
+       ],
+       "e": [
+        "Not true.",
+        "Not true.",
+        "It is important."
+       ],
+       "y": "Liquids and electronics do not mix."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-50-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "maintenance"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Dust the computer regularly.",
+      "truth": "true"
+     },
+     {
+      "text": "Update the antivirus.",
+      "truth": "true"
+     },
+     {
+      "text": "Use a UPS.",
+      "truth": "true"
+     },
+     {
+      "text": "Shut down properly.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Open the computer while it is plugged in.",
+      "truth": "false",
+      "explain": "Unplug it first."
+     },
+     {
+      "text": "Pull out the plug instead of shutting down.",
+      "truth": "false",
+      "explain": "Shut down properly to protect files."
+     },
+     {
+      "text": "Corrective maintenance is done before any problem.",
+      "truth": "false",
+      "explain": "That is preventive."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

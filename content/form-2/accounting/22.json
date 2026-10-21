@@ -1,0 +1,369 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "a2-22",
+   "name": "Investment transactions: acquiring fixed assets"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Fixed assets (class 2) are goods kept for a long time to use in the business: land, buildings, machines, vehicles, furniture, computers, software.\nClassification: intangible (21: software, patents), tangible (22 land, 23 buildings, 24 equipment, 245 vehicles), financial (27: shares, deposits).\nAcquisition cost = purchase price − discounts + costs needed to make the asset ready (transport, installation, customs duties).\nEntry for a purchase on credit: debit the asset account (for example 245 Transport equipment), credit 481 Suppliers of fixed assets. If paid at once: credit 521 Bank or 571 Cash.\nSelf-constructed assets: when the business builds its own asset (a warehouse built by its workers), the cost is recorded in the asset account and credited to account 72 (own production of fixed assets).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 6000000,
+   "t": 150000,
+   "i": 250000
+  },
+  "problem": "A machine costs {p} FCFA; transport costs {t} FCFA and installation {i} FCFA. Find its acquisition cost.",
+  "steps": [
+   "Acquisition cost = price + costs to make it ready.",
+   "{p} + {t} + {i} = {p + t + i} FCFA."
+  ],
+  "answer": "{p + t + i} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "Fixed assets are kept for a long time for use: land, buildings, machines, vehicles.",
+    "vars": {},
+    "example": [
+     "A delivery van."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-22-class"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "Acquisition cost = price − discounts + transport, installation and duties.",
+    "vars": {},
+    "example": [
+     "Installation is part of the cost."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-22-cost-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "investments"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        3000000,
+        12000000
+       ],
+       "step": 500000
+      },
+      "t": {
+       "int": [
+        50000,
+        300000
+       ],
+       "step": 50000
+      },
+      "g": {
+       "int": [
+        50000,
+        200000
+       ],
+       "step": 50000
+      }
+     },
+     "prompt": "A vehicle is bought for {p} FCFA. Transport costs {t} FCFA and registration {g} FCFA. Find its acquisition cost.",
+     "answer": "p + t + g",
+     "misconceptions": [
+      {
+       "id": "price",
+       "wrong": "p",
+       "explain": "Add the transport and registration costs too."
+      }
+     ],
+     "solution": [
+      "Acquisition cost = price + costs to make it ready.",
+      "{p} + {t} + {g} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "Bought on credit: debit the asset account, credit {481} Suppliers of fixed assets.",
+    "vars": {},
+    "example": [
+     "Self-built: credit {72}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-22-entry"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-22-class",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "investments"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "accounting software",
+       "a": "intangible",
+       "w": [
+        "tangible",
+        "financial"
+       ]
+      },
+      {
+       "s": "a delivery van",
+       "a": "tangible",
+       "w": [
+        "intangible",
+        "financial"
+       ]
+      },
+      {
+       "s": "shares in another company",
+       "a": "financial",
+       "w": [
+        "tangible",
+        "intangible"
+       ]
+      },
+      {
+       "s": "a building",
+       "a": "tangible",
+       "w": [
+        "intangible",
+        "financial"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Which kind of fixed asset is {X.s}?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "c"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "c",
+     "explain": "Ask: can you touch it (tangible), is it a right or software (intangible), or an investment (financial)?"
+    }
+   ],
+   "solution": [
+    "Intangible: no physical form (software, patents); tangible: physical (land, machines, vehicles); financial: shares, deposits.",
+    "So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "a2-22-cost",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "investments"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      3000000,
+      12000000
+     ],
+     "step": 500000
+    },
+    "t": {
+     "int": [
+      50000,
+      300000
+     ],
+     "step": 50000
+    },
+    "g": {
+     "int": [
+      50000,
+      200000
+     ],
+     "step": 50000
+    }
+   },
+   "prompt": "A vehicle is bought for {p} FCFA. Transport costs {t} FCFA and registration {g} FCFA. Find its acquisition cost.",
+   "answer": "p + t + g",
+   "misconceptions": [
+    {
+     "id": "price",
+     "wrong": "p",
+     "explain": "Add the transport and registration costs too."
+    }
+   ],
+   "solution": [
+    "Acquisition cost = price + costs to make it ready.",
+    "{p} + {t} + {g} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-22-entry",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "investments"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A machine is bought on credit. Which account is credited?",
+       "r": "481 Suppliers of fixed assets",
+       "w": [
+        "601 Purchases of goods",
+        "701 Sales",
+        "101 Capital"
+       ],
+       "e": [
+        "That is for goods to resell.",
+        "Income.",
+        "The owner's capital."
+       ],
+       "y": "The supplier of the asset is owed."
+      },
+      {
+       "q": "A business builds its own warehouse. Which account is credited for the cost?",
+       "r": "72 Own production of fixed assets",
+       "w": [
+        "601 Purchases",
+        "411 Customers",
+        "57 Cash"
+       ],
+       "e": [
+        "Not here.",
+        "Not here.",
+        "Not the credit."
+       ],
+       "y": "Self-constructed assets."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-22-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "investments"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A vehicle is a tangible fixed asset.",
+      "truth": "true"
+     },
+     {
+      "text": "Software is intangible.",
+      "truth": "true"
+     },
+     {
+      "text": "Installation costs are part of the acquisition cost.",
+      "truth": "true"
+     },
+     {
+      "text": "Shares are financial assets.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Goods bought to resell are fixed assets.",
+      "truth": "false",
+      "explain": "They are stocks (class 3)."
+     },
+     {
+      "text": "Transport costs are never part of the acquisition cost.",
+      "truth": "false",
+      "explain": "They are included."
+     },
+     {
+      "text": "A machine bought on credit is credited to 701 Sales.",
+      "truth": "false",
+      "explain": "Credit 481 Suppliers of fixed assets."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

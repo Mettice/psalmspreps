@@ -1,4 +1,4 @@
-# Accounting Form 2, Batch A2-1: authored answers for review
+# Accounting Form 2, Batches A2-1, A2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -14,64 +14,84 @@ Regenerate with `npm run review:f2-accounting`. Item IDs (TR-…) match `docs/te
 |---|---|---|---|---|
 | 1 | `a2-1-own` | 1 | matching, 1 | financial-position |
 | 2 | `a2-1-date` | 1 | multiple choice, 2 | financial-position |
-| 3 | `a2-1-date-card` (card c1-3) | 1 | multiple choice, 1 | financial-position |
-| 4 | `a2-2-side` | 2 | matching, 1 | financial-position |
-| 5 | `a2-2-order` | 2 | matching, 1 | financial-position |
-| 6 | `a2-2-head` | 2 | multiple choice, 3 | financial-position |
-| 7 | `a2-3-kind` | 3 | matching, 1 | financial-position |
-| 8 | `a2-3-debt` | 3 | multiple choice, 1 | financial-position |
-| 9 | `a2-3-spot` | 3 | spot the error, 3 | financial-position |
-| 10 | `a2-4-change` | 4 | multiple choice, 3 | financial-position |
-| 11 | `a2-4-change-card` (card c4-3) | 4 | multiple choice, 1 | financial-position |
-| 12 | `a2-5-kind` | 5 | matching, 1 | economic-flows |
-| 13 | `a2-5-pair` | 5 | multiple choice, 1 | economic-flows |
-| 14 | `a2-5-analyse` | 5 | multiple choice, 2 | economic-flows |
-| 15 | `a2-5-spot` | 5 | spot the error, 3 | economic-flows |
-| 16 | `a2-5-analyse-card` (card c5-3) | 5 | multiple choice, 1 | economic-flows |
-| 17 | `a2-6-arrow` | 6 | multiple choice, 1 | economic-flows |
-| 18 | `a2-6-rule` | 6 | multiple choice, 1 | economic-flows |
-| 19 | `a2-6-which` | 6 | multiple choice, 2 | economic-flows |
-| 20 | `a2-6-spot` | 6 | spot the error, 3 | economic-flows |
-| 21 | `a2-6-which-card` (card c6-3) | 6 | multiple choice, 1 | economic-flows |
-| 22 | `a2-7-what` | 7 | multiple choice, 1 | recording |
-| 23 | `a2-7-side` | 7 | multiple choice, 1 | recording |
-| 24 | `a2-7-entry` | 7 | multiple choice, 2 | recording |
-| 25 | `a2-7-spot` | 7 | spot the error, 3 | recording |
-| 26 | `a2-7-entry-card` (card c7-3) | 7 | multiple choice, 1 | recording |
-| 27 | `a2-8-sort` | 8 | matching, 2 | recording |
-| 28 | `a2-8-record` | 8 | multiple choice, 3 | recording |
-| 29 | `a2-8-sort-card` (card c8-3) | 8 | matching, 1 | recording |
-| 30 | `a2-10-kind` | 10 | matching, 1 | recording |
-| 31 | `a2-11-kind` | 11 | multiple choice, 1 | recording |
-| 32 | `a2-11-pair` | 11 | multiple choice, 1 | recording |
-| 33 | `a2-11-total` | 11 | multiple choice, 2 | recording |
-| 34 | `a2-11-spot` | 11 | spot the error, 3 | recording |
-| 35 | `a2-11-total-card` (card c11-3) | 11 | multiple choice, 1 | recording |
-| 36 | `a2-12-recip` | 12 | multiple choice, 1 | recording |
-| 37 | `a2-12-limit` | 12 | spot the error, 3 | recording |
-| 38 | `a2-12-limit-card` (card c12-3) | 12 | spot the error, 1 | recording |
-| 39 | `a2-13-what` | 13 | multiple choice, 1 | ohada |
-| 40 | `a2-13-obj` | 13 | multiple choice, 1 | ohada |
-| 41 | `a2-13-classes` | 13 | multiple choice, 2 | ohada |
-| 42 | `a2-13-spot` | 13 | spot the error, 3 | ohada |
-| 43 | `a2-13-classes-card` (card c13-3) | 13 | multiple choice, 1 | ohada |
-| 44 | `a2-14-match` | 14 | matching, 1 | ohada |
-| 45 | `a2-14-spot` | 14 | spot the error, 3 | ohada |
-| 46 | `a2-15-hao` | 15 | multiple choice, 1 | ohada |
-| 47 | `a2-15-spot` | 15 | spot the error, 3 | ohada |
-| 48 | `a2-16-c1` | 16 | multiple choice, 1 | ohada |
-| 49 | `a2-16-c2` | 16 | multiple choice, 1 | ohada |
-| 50 | `a2-16-c3` | 16 | multiple choice, 2 | ohada |
-| 51 | `a2-16-spot` | 16 | spot the error, 3 | ohada |
-| 52 | `a2-16-c3-card` (card c16-3) | 16 | multiple choice, 1 | ohada |
-| 53 | `a2-17-c4` | 17 | multiple choice, 1 | ohada |
-| 54 | `a2-17-c5` | 17 | multiple choice, 1 | ohada |
-| 55 | `a2-17-c6` | 17 | multiple choice, 2 | ohada |
-| 56 | `a2-17-spot` | 17 | spot the error, 3 | ohada |
-| 57 | `a2-17-c6-card` (card c17-3) | 17 | multiple choice, 1 | ohada |
-| 58 | `a2-18-c7` | 18 | multiple choice, 1 | ohada |
-| 59 | `a2-18-c8` | 18 | multiple choice, 1 | ohada |
-| 60 | `a2-18-spot` | 18 | spot the error, 3 | ohada |
+| 3 | `pilot-form-2-accounting-1-1` | 1 | missing working, 1 | financial-position |
+| 4 | `pilot-form-2-accounting-1-2` | 1 | number, 2 | financial-position |
+| 5 | `a2-1-date-card` (card c1-3) | 1 | multiple choice, 1 | financial-position |
+| 6 | `a2-2-side` | 2 | matching, 1 | financial-position |
+| 7 | `a2-2-order` | 2 | matching, 1 | financial-position |
+| 8 | `a2-2-head` | 2 | multiple choice, 3 | financial-position |
+| 9 | `a2-3-kind` | 3 | matching, 1 | financial-position |
+| 10 | `a2-3-debt` | 3 | multiple choice, 1 | financial-position |
+| 11 | `a2-3-spot` | 3 | spot the error, 3 | financial-position |
+| 12 | `a2-4-change` | 4 | multiple choice, 3 | financial-position |
+| 13 | `a2-4-change-card` (card c4-3) | 4 | multiple choice, 1 | financial-position |
+| 14 | `a2-5-kind` | 5 | matching, 1 | economic-flows |
+| 15 | `a2-5-pair` | 5 | multiple choice, 1 | economic-flows |
+| 16 | `a2-5-analyse` | 5 | multiple choice, 2 | economic-flows |
+| 17 | `a2-5-spot` | 5 | spot the error, 3 | economic-flows |
+| 18 | `a2-5-analyse-card` (card c5-3) | 5 | multiple choice, 1 | economic-flows |
+| 19 | `a2-6-arrow` | 6 | multiple choice, 1 | economic-flows |
+| 20 | `a2-6-rule` | 6 | multiple choice, 1 | economic-flows |
+| 21 | `a2-6-which` | 6 | multiple choice, 2 | economic-flows |
+| 22 | `a2-6-spot` | 6 | spot the error, 3 | economic-flows |
+| 23 | `a2-6-which-card` (card c6-3) | 6 | multiple choice, 1 | economic-flows |
+| 24 | `a2-7-what` | 7 | multiple choice, 1 | recording |
+| 25 | `a2-7-side` | 7 | multiple choice, 1 | recording |
+| 26 | `a2-7-entry` | 7 | multiple choice, 2 | recording |
+| 27 | `a2-7-spot` | 7 | spot the error, 3 | recording |
+| 28 | `a2-7-entry-card` (card c7-3) | 7 | multiple choice, 1 | recording |
+| 29 | `a2-8-sort` | 8 | matching, 2 | recording |
+| 30 | `a2-8-record` | 8 | multiple choice, 3 | recording |
+| 31 | `a2-8-sort-card` (card c8-3) | 8 | matching, 1 | recording |
+| 32 | `a2-10-kind` | 10 | matching, 1 | recording |
+| 33 | `a2-11-kind` | 11 | multiple choice, 1 | recording |
+| 34 | `a2-11-pair` | 11 | multiple choice, 1 | recording |
+| 35 | `a2-11-total` | 11 | multiple choice, 2 | recording |
+| 36 | `a2-11-spot` | 11 | spot the error, 3 | recording |
+| 37 | `a2-11-total-card` (card c11-3) | 11 | multiple choice, 1 | recording |
+| 38 | `a2-12-recip` | 12 | multiple choice, 1 | recording |
+| 39 | `a2-12-limit` | 12 | spot the error, 3 | recording |
+| 40 | `a2-12-limit-card` (card c12-3) | 12 | spot the error, 1 | recording |
+| 41 | `a2-13-what` | 13 | multiple choice, 1 | ohada |
+| 42 | `a2-13-obj` | 13 | multiple choice, 1 | ohada |
+| 43 | `a2-13-classes` | 13 | multiple choice, 2 | ohada |
+| 44 | `a2-13-spot` | 13 | spot the error, 3 | ohada |
+| 45 | `a2-13-classes-card` (card c13-3) | 13 | multiple choice, 1 | ohada |
+| 46 | `a2-14-match` | 14 | matching, 1 | ohada |
+| 47 | `a2-14-spot` | 14 | spot the error, 3 | ohada |
+| 48 | `a2-15-hao` | 15 | multiple choice, 1 | ohada |
+| 49 | `a2-15-spot` | 15 | spot the error, 3 | ohada |
+| 50 | `a2-16-c1` | 16 | multiple choice, 1 | ohada |
+| 51 | `a2-16-c2` | 16 | multiple choice, 1 | ohada |
+| 52 | `a2-16-c3` | 16 | multiple choice, 2 | ohada |
+| 53 | `a2-16-spot` | 16 | spot the error, 3 | ohada |
+| 54 | `a2-16-c3-card` (card c16-3) | 16 | multiple choice, 1 | ohada |
+| 55 | `a2-17-c4` | 17 | multiple choice, 1 | ohada |
+| 56 | `a2-17-c5` | 17 | multiple choice, 1 | ohada |
+| 57 | `a2-17-c6` | 17 | multiple choice, 2 | ohada |
+| 58 | `a2-17-spot` | 17 | spot the error, 3 | ohada |
+| 59 | `a2-17-c6-card` (card c17-3) | 17 | multiple choice, 1 | ohada |
+| 60 | `a2-18-c7` | 18 | multiple choice, 1 | ohada |
+| 61 | `a2-18-c8` | 18 | multiple choice, 1 | ohada |
+| 62 | `a2-18-spot` | 18 | spot the error, 3 | ohada |
+| 63 | `a2-20-entry` | 20 | multiple choice, 1 | business-finance |
+| 64 | `a2-20-sub` | 20 | multiple choice, 2 | business-finance |
+| 65 | `a2-20-spot` | 20 | spot the error, 3 | business-finance |
+| 66 | `a2-20-sub-card` (card c20-3) | 20 | multiple choice, 1 | business-finance |
+| 67 | `a2-21-loan` | 21 | multiple choice, 1 | business-finance |
+| 68 | `a2-21-lease` | 21 | multiple choice, 1 | business-finance |
+| 69 | `a2-21-spot` | 21 | spot the error, 3 | business-finance |
+| 70 | `a2-22-entry` | 22 | multiple choice, 1 | investments |
+| 71 | `a2-22-spot` | 22 | spot the error, 3 | investments |
+| 72 | `a2-23-contr` | 23 | multiple choice, 1 | investments |
+| 73 | `a2-23-fin` | 23 | multiple choice, 1 | investments |
+| 74 | `a2-23-spot` | 23 | spot the error, 3 | investments |
+| 75 | `a2-24-doc` | 24 | matching, 1 | trading |
+| 76 | `a2-24-credit` | 24 | multiple choice, 1 | trading |
+| 77 | `a2-24-spot` | 24 | spot the error, 3 | trading |
+| 78 | `a2-26-entry` | 26 | multiple choice, 1 | trading |
+| 79 | `a2-26-transfer` | 26 | multiple choice, 1 | trading |
+| 80 | `a2-26-spot` | 26 | spot the error, 3 | trading |
 
 ### `a2-1-own` · Lesson 1 · matching, level 1
 
@@ -203,6 +223,85 @@ Full working after a second miss:
 
 > Each item gets a value in FCFA.  
 > So the answer is “listing what is owned and owed and giving each a money value”.  
+
+Sources: financial-position (The financial position of an enterprise and the balance sheet (OHADA / SYSCOHADA vocabulary simplified for Form 2))
+
+### `pilot-form-2-accounting-1-1` · Lesson 1 · missing working, level 1
+
+Prompt: Complete the missing working.
+Sentence: A shop has goods worth {goods} FCFA, equipment worth {equipment} FCFA and owes {debt} FCFA.
+Assets = {goods} + {equipment} = ___ FCFA.
+Capital = assets − {debt} = ___ FCFA.
+
+
+Three generated variants:
+
+> Complete the missing working.
+
+Completed working: **A shop has goods worth 60 000 FCFA, equipment worth 40 000 FCFA and owes 25 000 FCFA.
+Assets = 60 000 + 40 000 = 100 000 FCFA.
+Capital = assets − 25 000 = 75 000 FCFA.**
+
+Full working after a second miss:
+
+> Assets: 60 000 + 40 000 = 100 000 FCFA.  
+> Capital: 100 000 − 25 000 = 75 000 FCFA.  
+
+> Complete the missing working.
+
+Completed working: **A shop has goods worth 60 000 FCFA, equipment worth 40 000 FCFA and owes 25 000 FCFA.
+Assets = 60 000 + 40 000 = 100 000 FCFA.
+Capital = assets − 25 000 = 75 000 FCFA.**
+
+Full working after a second miss:
+
+> Assets: 60 000 + 40 000 = 100 000 FCFA.  
+> Capital: 100 000 − 25 000 = 75 000 FCFA.  
+
+> Complete the missing working.
+
+Completed working: **A shop has goods worth 60 000 FCFA, equipment worth 40 000 FCFA and owes 25 000 FCFA.
+Assets = 60 000 + 40 000 = 100 000 FCFA.
+Capital = assets − 25 000 = 75 000 FCFA.**
+
+Full working after a second miss:
+
+> Assets: 60 000 + 40 000 = 100 000 FCFA.  
+> Capital: 100 000 − 25 000 = 75 000 FCFA.  
+
+Sources: financial-position (The financial position of an enterprise and the balance sheet (OHADA / SYSCOHADA vocabulary simplified for Form 2))
+
+### `pilot-form-2-accounting-1-2` · Lesson 1 · number, level 2
+
+Prompt: Another shop has assets worth {assets} FCFA and owes outsiders {debt} FCFA. Find its capital.
+Right answer: `assets - debt`
+
+
+Three generated variants:
+
+> Another shop has assets worth 190 000 FCFA and owes outsiders 60 000 FCFA. Find its capital.
+
+Answer: **130 000 FCFA**
+
+Full working after a second miss:
+
+> Capital = assets − liabilities = 190 000 − 60 000 = 130 000 FCFA.  
+
+> Another shop has assets worth 120 000 FCFA and owes outsiders 20 000 FCFA. Find its capital.
+
+Answer: **100 000 FCFA**
+
+Full working after a second miss:
+
+> Capital = assets − liabilities = 120 000 − 20 000 = 100 000 FCFA.  
+
+> Another shop has assets worth 200 000 FCFA and owes outsiders 60 000 FCFA. Find its capital.
+
+Answer: **140 000 FCFA**
+
+Full working after a second miss:
+
+> Capital = assets − liabilities = 200 000 − 60 000 = 140 000 FCFA.  
 
 Sources: financial-position (The financial position of an enterprise and the balance sheet (OHADA / SYSCOHADA vocabulary simplified for Form 2))
 
@@ -4019,4 +4118,1161 @@ Full working after a second miss:
 > It is extraordinary: 82.  
 
 Sources: ohada (OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8)
+
+### `a2-20-entry` · Lesson 20 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| The owner pays cash into the business. Which account is credited? | 101 Capital | 601 Purchases · 701 Sales · 411 Customers | An expense. · Income. · A third party. | The owner's contribution is capital. |
+| The owner's contribution is paid into the bank. Which account is debited? | 521 Bank | 101 Capital · 401 Suppliers · 661 Salaries | That is credited. · A third party. · An expense. | Money enters the bank. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> The owner's contribution is paid into the bank. Which account is debited?
+
+- ◻️ 661 Salaries  
+  _↳ feedback if chosen: An expense._
+- ✅ 521 Bank
+- ◻️ 401 Suppliers  
+  _↳ feedback if chosen: A third party._
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: That is credited._
+
+Full working after a second miss:
+
+> Money enters the bank.  
+> So the answer is “521 Bank”.  
+
+> The owner pays cash into the business. Which account is credited?
+
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: A third party._
+- ✅ 101 Capital
+- ◻️ 601 Purchases  
+  _↳ feedback if chosen: An expense._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Income._
+
+Full working after a second miss:
+
+> The owner's contribution is capital.  
+> So the answer is “101 Capital”.  
+
+> The owner pays cash into the business. Which account is credited?
+
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Income._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: A third party._
+- ✅ 101 Capital
+- ◻️ 601 Purchases  
+  _↳ feedback if chosen: An expense._
+
+Full working after a second miss:
+
+> The owner's contribution is capital.  
+> So the answer is “101 Capital”.  
+
+Sources: business-finance (Business finance: own funds, borrowed funds, subsidies (14 investment, 71 operating); long-term loans (162), leasing (crédit-bail), short-term loans; simple interest)
+
+### `a2-20-sub` · Lesson 20 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a subsidy? | money received without having to repay it | a loan with interest · the owner's capital · a customer's debt | A loan is repaid. · Capital comes from the owner. · That is a receivable. | A grant. |
+| In which account is an investment subsidy recorded? | account 14 | account 601 · account 411 · account 521 | Purchases. · Customers. · Bank. | 14 Investment subsidies (class 1). |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In which account is an investment subsidy recorded?
+
+- ◻️ account 601  
+  _↳ feedback if chosen: Purchases._
+- ✅ account 14
+- ◻️ account 521  
+  _↳ feedback if chosen: Bank._
+- ◻️ account 411  
+  _↳ feedback if chosen: Customers._
+
+Full working after a second miss:
+
+> 14 Investment subsidies (class 1).  
+> So the answer is “account 14”.  
+
+> In which account is an investment subsidy recorded?
+
+- ✅ account 14
+- ◻️ account 601  
+  _↳ feedback if chosen: Purchases._
+- ◻️ account 521  
+  _↳ feedback if chosen: Bank._
+- ◻️ account 411  
+  _↳ feedback if chosen: Customers._
+
+Full working after a second miss:
+
+> 14 Investment subsidies (class 1).  
+> So the answer is “account 14”.  
+
+> In which account is an investment subsidy recorded?
+
+- ◻️ account 521  
+  _↳ feedback if chosen: Bank._
+- ◻️ account 601  
+  _↳ feedback if chosen: Purchases._
+- ◻️ account 411  
+  _↳ feedback if chosen: Customers._
+- ✅ account 14
+
+Full working after a second miss:
+
+> 14 Investment subsidies (class 1).  
+> So the answer is “account 14”.  
+
+Sources: business-finance (Business finance: own funds, borrowed funds, subsidies (14 investment, 71 operating); long-term loans (162), leasing (crédit-bail), short-term loans; simple interest)
+
+### `a2-20-spot` · Lesson 20 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Capital is own funds.
+- ✅ A bank loan is borrowed funds.
+- ✅ A subsidy is not repaid.
+- ✅ Kept profits are own funds.
+- ❌ A subsidy must be repaid with interest.  
+  _↳ It is not repaid._
+- ❌ The owner's contribution is recorded in 601 Purchases.  
+  _↳ It is recorded in 101 Capital._
+- ❌ A bank loan is a subsidy.  
+  _↳ It is borrowed and must be repaid._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A subsidy is not repaid.
+- ✅ The owner's contribution is recorded in 601 Purchases.  
+  _↳ explanation: It is recorded in 101 Capital._
+- ◻️ A bank loan is borrowed funds.
+- ◻️ Capital is own funds.
+
+Full working after a second miss:
+
+> The wrong statement is “The owner's contribution is recorded in 601 Purchases.”.  
+> It is recorded in 101 Capital.  
+
+> Which statement is wrong?
+
+- ◻️ Capital is own funds.
+- ◻️ A bank loan is borrowed funds.
+- ◻️ Kept profits are own funds.
+- ✅ A subsidy must be repaid with interest.  
+  _↳ explanation: It is not repaid._
+
+Full working after a second miss:
+
+> The wrong statement is “A subsidy must be repaid with interest.”.  
+> It is not repaid.  
+
+> Which statement is wrong?
+
+- ◻️ A bank loan is borrowed funds.
+- ◻️ Kept profits are own funds.
+- ◻️ Capital is own funds.
+- ✅ A bank loan is a subsidy.  
+  _↳ explanation: It is borrowed and must be repaid._
+
+Full working after a second miss:
+
+> The wrong statement is “A bank loan is a subsidy.”.  
+> It is borrowed and must be repaid.  
+
+Sources: business-finance (Business finance: own funds, borrowed funds, subsidies (14 investment, 71 operating); long-term loans (162), leasing (crédit-bail), short-term loans; simple interest)
+
+### `a2-20-sub-card` · Lesson 20 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a subsidy? | money received without having to repay it | a loan with interest · the owner's capital · a customer's debt | A loan is repaid. · Capital comes from the owner. · That is a receivable. | A grant. |
+| In which account is an investment subsidy recorded? | account 14 | account 601 · account 411 · account 521 | Purchases. · Customers. · Bank. | 14 Investment subsidies (class 1). |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a subsidy?
+
+- ◻️ the owner's capital  
+  _↳ feedback if chosen: Capital comes from the owner._
+- ◻️ a loan with interest  
+  _↳ feedback if chosen: A loan is repaid._
+- ✅ money received without having to repay it
+- ◻️ a customer's debt  
+  _↳ feedback if chosen: That is a receivable._
+
+Full working after a second miss:
+
+> A grant.  
+> So the answer is “money received without having to repay it”.  
+
+> What is a subsidy?
+
+- ◻️ the owner's capital  
+  _↳ feedback if chosen: Capital comes from the owner._
+- ◻️ a loan with interest  
+  _↳ feedback if chosen: A loan is repaid._
+- ✅ money received without having to repay it
+- ◻️ a customer's debt  
+  _↳ feedback if chosen: That is a receivable._
+
+Full working after a second miss:
+
+> A grant.  
+> So the answer is “money received without having to repay it”.  
+
+> What is a subsidy?
+
+- ◻️ a loan with interest  
+  _↳ feedback if chosen: A loan is repaid._
+- ◻️ a customer's debt  
+  _↳ feedback if chosen: That is a receivable._
+- ✅ money received without having to repay it
+- ◻️ the owner's capital  
+  _↳ feedback if chosen: Capital comes from the owner._
+
+Full working after a second miss:
+
+> A grant.  
+> So the answer is “money received without having to repay it”.  
+
+Sources: business-finance (Business finance: own funds, borrowed funds, subsidies (14 investment, 71 operating); long-term loans (162), leasing (crédit-bail), short-term loans; simple interest)
+
+### `a2-21-loan` · Lesson 21 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| In which account is a long-term bank loan recorded? | 162 Loans from credit institutions | 701 Sales · 311 Goods · 411 Customers | Income. · Stock. · Third party. | Class 1, durable resources. |
+| Which is a short-term source of finance? | a bank overdraft | a 10-year bank loan · the owner's capital · an investment subsidy | Long-term. · Own funds. · Not a loan. | Repaid within a year. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In which account is a long-term bank loan recorded?
+
+- ✅ 162 Loans from credit institutions
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Third party._
+- ◻️ 311 Goods  
+  _↳ feedback if chosen: Stock._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Income._
+
+Full working after a second miss:
+
+> Class 1, durable resources.  
+> So the answer is “162 Loans from credit institutions”.  
+
+> In which account is a long-term bank loan recorded?
+
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Income._
+- ✅ 162 Loans from credit institutions
+- ◻️ 311 Goods  
+  _↳ feedback if chosen: Stock._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Third party._
+
+Full working after a second miss:
+
+> Class 1, durable resources.  
+> So the answer is “162 Loans from credit institutions”.  
+
+> In which account is a long-term bank loan recorded?
+
+- ✅ 162 Loans from credit institutions
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Income._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Third party._
+- ◻️ 311 Goods  
+  _↳ feedback if chosen: Stock._
+
+Full working after a second miss:
+
+> Class 1, durable resources.  
+> So the answer is “162 Loans from credit institutions”.  
+
+Sources: business-finance (Business finance: own funds, borrowed funds, subsidies (14 investment, 71 operating); long-term loans (162), leasing (crédit-bail), short-term loans; simple interest)
+
+### `a2-21-lease` · Lesson 21 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is leasing? | using an asset owned by another company and paying rent, with an option to buy | buying an asset in cash · selling goods on credit · receiving a subsidy | Not leasing. · Not leasing. · Not leasing. | Crédit-bail. |
+| What does a leasing contract state? | the period, the payments and the purchase option | the customer's address only · the weather · the price of sugar | Not enough. · Not related. · Not related. | The terms of the lease. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is leasing?
+
+- ◻️ receiving a subsidy  
+  _↳ feedback if chosen: Not leasing._
+- ✅ using an asset owned by another company and paying rent, with an option to buy
+- ◻️ selling goods on credit  
+  _↳ feedback if chosen: Not leasing._
+- ◻️ buying an asset in cash  
+  _↳ feedback if chosen: Not leasing._
+
+Full working after a second miss:
+
+> Crédit-bail.  
+> So the answer is “using an asset owned by another company and paying rent, with an option to buy”.  
+
+> What is leasing?
+
+- ✅ using an asset owned by another company and paying rent, with an option to buy
+- ◻️ selling goods on credit  
+  _↳ feedback if chosen: Not leasing._
+- ◻️ buying an asset in cash  
+  _↳ feedback if chosen: Not leasing._
+- ◻️ receiving a subsidy  
+  _↳ feedback if chosen: Not leasing._
+
+Full working after a second miss:
+
+> Crédit-bail.  
+> So the answer is “using an asset owned by another company and paying rent, with an option to buy”.  
+
+> What does a leasing contract state?
+
+- ◻️ the price of sugar  
+  _↳ feedback if chosen: Not related._
+- ◻️ the customer's address only  
+  _↳ feedback if chosen: Not enough._
+- ◻️ the weather  
+  _↳ feedback if chosen: Not related._
+- ✅ the period, the payments and the purchase option
+
+Full working after a second miss:
+
+> The terms of the lease.  
+> So the answer is “the period, the payments and the purchase option”.  
+
+Sources: business-finance (Business finance: own funds, borrowed funds, subsidies (14 investment, 71 operating); long-term loans (162), leasing (crédit-bail), short-term loans; simple interest)
+
+### `a2-21-spot` · Lesson 21 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A long-term loan lasts over a year.
+- ✅ Interest is a cost.
+- ✅ Leasing allows using an asset without buying it at once.
+- ✅ An overdraft is short-term.
+- ❌ Leasing means the business owns the asset from the first day.  
+  _↳ The leasing company owns it during the lease._
+- ❌ Interest is income for the borrower.  
+  _↳ It is a cost (67)._
+- ❌ A bank overdraft lasts ten years.  
+  _↳ It is short-term._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Interest is a cost.
+- ✅ Leasing means the business owns the asset from the first day.  
+  _↳ explanation: The leasing company owns it during the lease._
+- ◻️ An overdraft is short-term.
+- ◻️ Leasing allows using an asset without buying it at once.
+
+Full working after a second miss:
+
+> The wrong statement is “Leasing means the business owns the asset from the first day.”.  
+> The leasing company owns it during the lease.  
+
+> Which statement is wrong?
+
+- ◻️ Interest is a cost.
+- ◻️ An overdraft is short-term.
+- ◻️ A long-term loan lasts over a year.
+- ✅ A bank overdraft lasts ten years.  
+  _↳ explanation: It is short-term._
+
+Full working after a second miss:
+
+> The wrong statement is “A bank overdraft lasts ten years.”.  
+> It is short-term.  
+
+> Which statement is wrong?
+
+- ✅ Leasing means the business owns the asset from the first day.  
+  _↳ explanation: The leasing company owns it during the lease._
+- ◻️ Interest is a cost.
+- ◻️ Leasing allows using an asset without buying it at once.
+- ◻️ An overdraft is short-term.
+
+Full working after a second miss:
+
+> The wrong statement is “Leasing means the business owns the asset from the first day.”.  
+> The leasing company owns it during the lease.  
+
+Sources: business-finance (Business finance: own funds, borrowed funds, subsidies (14 investment, 71 operating); long-term loans (162), leasing (crédit-bail), short-term loans; simple interest)
+
+### `a2-22-entry` · Lesson 22 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| A machine is bought on credit. Which account is credited? | 481 Suppliers of fixed assets | 601 Purchases of goods · 701 Sales · 101 Capital | That is for goods to resell. · Income. · The owner's capital. | The supplier of the asset is owed. |
+| A business builds its own warehouse. Which account is credited for the cost? | 72 Own production of fixed assets | 601 Purchases · 411 Customers · 57 Cash | Not here. · Not here. · Not the credit. | Self-constructed assets. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A business builds its own warehouse. Which account is credited for the cost?
+
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Not here._
+- ◻️ 57 Cash  
+  _↳ feedback if chosen: Not the credit._
+- ◻️ 601 Purchases  
+  _↳ feedback if chosen: Not here._
+- ✅ 72 Own production of fixed assets
+
+Full working after a second miss:
+
+> Self-constructed assets.  
+> So the answer is “72 Own production of fixed assets”.  
+
+> A machine is bought on credit. Which account is credited?
+
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Income._
+- ✅ 481 Suppliers of fixed assets
+- ◻️ 601 Purchases of goods  
+  _↳ feedback if chosen: That is for goods to resell._
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: The owner's capital._
+
+Full working after a second miss:
+
+> The supplier of the asset is owed.  
+> So the answer is “481 Suppliers of fixed assets”.  
+
+> A business builds its own warehouse. Which account is credited for the cost?
+
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Not here._
+- ✅ 72 Own production of fixed assets
+- ◻️ 57 Cash  
+  _↳ feedback if chosen: Not the credit._
+- ◻️ 601 Purchases  
+  _↳ feedback if chosen: Not here._
+
+Full working after a second miss:
+
+> Self-constructed assets.  
+> So the answer is “72 Own production of fixed assets”.  
+
+Sources: investments (Fixed assets: classification (21 intangible, 22–24 tangible, 27 financial), acquisition cost, entries (481 suppliers of fixed assets, 72 own production), contributed and subsidised assets)
+
+### `a2-22-spot` · Lesson 22 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A vehicle is a tangible fixed asset.
+- ✅ Software is intangible.
+- ✅ Installation costs are part of the acquisition cost.
+- ✅ Shares are financial assets.
+- ❌ Goods bought to resell are fixed assets.  
+  _↳ They are stocks (class 3)._
+- ❌ Transport costs are never part of the acquisition cost.  
+  _↳ They are included._
+- ❌ A machine bought on credit is credited to 701 Sales.  
+  _↳ Credit 481 Suppliers of fixed assets._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Software is intangible.
+- ✅ Transport costs are never part of the acquisition cost.  
+  _↳ explanation: They are included._
+- ◻️ A vehicle is a tangible fixed asset.
+- ◻️ Installation costs are part of the acquisition cost.
+
+Full working after a second miss:
+
+> The wrong statement is “Transport costs are never part of the acquisition cost.”.  
+> They are included.  
+
+> Which statement is wrong?
+
+- ✅ Transport costs are never part of the acquisition cost.  
+  _↳ explanation: They are included._
+- ◻️ Installation costs are part of the acquisition cost.
+- ◻️ A vehicle is a tangible fixed asset.
+- ◻️ Shares are financial assets.
+
+Full working after a second miss:
+
+> The wrong statement is “Transport costs are never part of the acquisition cost.”.  
+> They are included.  
+
+> Which statement is wrong?
+
+- ◻️ Software is intangible.
+- ✅ Transport costs are never part of the acquisition cost.  
+  _↳ explanation: They are included._
+- ◻️ Installation costs are part of the acquisition cost.
+- ◻️ A vehicle is a tangible fixed asset.
+
+Full working after a second miss:
+
+> The wrong statement is “Transport costs are never part of the acquisition cost.”.  
+> They are included.  
+
+Sources: investments (Fixed assets: classification (21 intangible, 22–24 tangible, 27 financial), acquisition cost, entries (481 suppliers of fixed assets, 72 own production), contributed and subsidised assets)
+
+### `a2-23-contr` · Lesson 23 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| The owner contributes a building to the business. Which account is credited? | 101 Capital | 231 Buildings · 701 Sales · 521 Bank | That is debited. · Not a sale. · No money moves. | It is the owner's contribution. |
+| The owner contributes a computer. Which account is debited? | the equipment account (244) | 101 Capital · 411 Customers · 601 Purchases | That is credited. · Not a customer. · Not bought for resale. | The asset enters the business. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> The owner contributes a building to the business. Which account is credited?
+
+- ✅ 101 Capital
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Not a sale._
+- ◻️ 521 Bank  
+  _↳ feedback if chosen: No money moves._
+- ◻️ 231 Buildings  
+  _↳ feedback if chosen: That is debited._
+
+Full working after a second miss:
+
+> It is the owner's contribution.  
+> So the answer is “101 Capital”.  
+
+> The owner contributes a building to the business. Which account is credited?
+
+- ◻️ 521 Bank  
+  _↳ feedback if chosen: No money moves._
+- ✅ 101 Capital
+- ◻️ 231 Buildings  
+  _↳ feedback if chosen: That is debited._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Not a sale._
+
+Full working after a second miss:
+
+> It is the owner's contribution.  
+> So the answer is “101 Capital”.  
+
+> The owner contributes a computer. Which account is debited?
+
+- ◻️ 601 Purchases  
+  _↳ feedback if chosen: Not bought for resale._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Not a customer._
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: That is credited._
+- ✅ the equipment account (244)
+
+Full working after a second miss:
+
+> The asset enters the business.  
+> So the answer is “the equipment account (244)”.  
+
+Sources: investments (Fixed assets: classification (21 intangible, 22–24 tangible, 27 financial), acquisition cost, entries (481 suppliers of fixed assets, 72 own production), contributed and subsidised assets)
+
+### `a2-23-fin` · Lesson 23 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a financial asset? | shares bought in another company to keep long-term | a delivery van · a stock of rice · a building | Tangible asset. · Stock. · Tangible asset. | Account 27. |
+| A business pays a rent deposit to its landlord. What is it? | a financial asset (deposit) | a sale · a purchase of goods · a salary | Not a sale. · Not goods. · Not a salary. | It will be returned later. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a financial asset?
+
+- ◻️ a stock of rice  
+  _↳ feedback if chosen: Stock._
+- ◻️ a building  
+  _↳ feedback if chosen: Tangible asset._
+- ✅ shares bought in another company to keep long-term
+- ◻️ a delivery van  
+  _↳ feedback if chosen: Tangible asset._
+
+Full working after a second miss:
+
+> Account 27.  
+> So the answer is “shares bought in another company to keep long-term”.  
+
+> A business pays a rent deposit to its landlord. What is it?
+
+- ◻️ a sale  
+  _↳ feedback if chosen: Not a sale._
+- ◻️ a salary  
+  _↳ feedback if chosen: Not a salary._
+- ◻️ a purchase of goods  
+  _↳ feedback if chosen: Not goods._
+- ✅ a financial asset (deposit)
+
+Full working after a second miss:
+
+> It will be returned later.  
+> So the answer is “a financial asset (deposit)”.  
+
+> Which is a financial asset?
+
+- ✅ shares bought in another company to keep long-term
+- ◻️ a building  
+  _↳ feedback if chosen: Tangible asset._
+- ◻️ a stock of rice  
+  _↳ feedback if chosen: Stock._
+- ◻️ a delivery van  
+  _↳ feedback if chosen: Tangible asset._
+
+Full working after a second miss:
+
+> Account 27.  
+> So the answer is “shares bought in another company to keep long-term”.  
+
+Sources: investments (Fixed assets: classification (21 intangible, 22–24 tangible, 27 financial), acquisition cost, entries (481 suppliers of fixed assets, 72 own production), contributed and subsidised assets)
+
+### `a2-23-spot` · Lesson 23 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A contributed asset is credited to capital.
+- ✅ Subsidies for assets go to account 14.
+- ✅ Shares kept long-term are financial assets.
+- ✅ A rent deposit is a financial asset.
+- ❌ A contributed car is credited to 701 Sales.  
+  _↳ It is credited to 101 Capital._
+- ❌ A subsidy must be recorded as a purchase of goods.  
+  _↳ It is credited to 14._
+- ❌ Financial assets are stocks of goods.  
+  _↳ Stocks are class 3._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Shares kept long-term are financial assets.
+- ✅ Financial assets are stocks of goods.  
+  _↳ explanation: Stocks are class 3._
+- ◻️ A contributed asset is credited to capital.
+- ◻️ A rent deposit is a financial asset.
+
+Full working after a second miss:
+
+> The wrong statement is “Financial assets are stocks of goods.”.  
+> Stocks are class 3.  
+
+> Which statement is wrong?
+
+- ◻️ Shares kept long-term are financial assets.
+- ◻️ Subsidies for assets go to account 14.
+- ◻️ A contributed asset is credited to capital.
+- ✅ Financial assets are stocks of goods.  
+  _↳ explanation: Stocks are class 3._
+
+Full working after a second miss:
+
+> The wrong statement is “Financial assets are stocks of goods.”.  
+> Stocks are class 3.  
+
+> Which statement is wrong?
+
+- ◻️ A rent deposit is a financial asset.
+- ◻️ Subsidies for assets go to account 14.
+- ✅ A contributed car is credited to 701 Sales.  
+  _↳ explanation: It is credited to 101 Capital._
+- ◻️ A contributed asset is credited to capital.
+
+Full working after a second miss:
+
+> The wrong statement is “A contributed car is credited to 701 Sales.”.  
+> It is credited to 101 Capital.  
+
+Sources: investments (Fixed assets: classification (21 intangible, 22–24 tangible, 27 financial), acquisition cost, entries (481 suppliers of fixed assets, 72 own production), contributed and subsidised assets)
+
+### `a2-24-doc` · Lesson 24 · matching, level 1
+
+Prompt: Match each document to its role.
+
+Pairs (4 shown each time):
+
+- purchase order → **the buyer asks for goods**
+- delivery note → **goes with the goods; the buyer signs it**
+- invoice → **states the amount to pay**
+- credit note → **reduces an invoice**
+- receipt → **proves that payment was made**
+
+
+Three generated variants:
+
+> Match each document to its role.
+
+Right-hand side (shuffled): the buyer asks for goods · proves that payment was made · reduces an invoice · states the amount to pay
+- purchase order → **the buyer asks for goods**
+- invoice → **states the amount to pay**
+- receipt → **proves that payment was made**
+- credit note → **reduces an invoice**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> purchase order → the buyer asks for goods  
+> invoice → states the amount to pay  
+> receipt → proves that payment was made  
+> credit note → reduces an invoice  
+
+> Match each document to its role.
+
+Right-hand side (shuffled): the buyer asks for goods · goes with the goods; the buyer signs it · reduces an invoice · proves that payment was made
+- purchase order → **the buyer asks for goods**
+- credit note → **reduces an invoice**
+- delivery note → **goes with the goods; the buyer signs it**
+- receipt → **proves that payment was made**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> purchase order → the buyer asks for goods  
+> credit note → reduces an invoice  
+> delivery note → goes with the goods; the buyer signs it  
+> receipt → proves that payment was made  
+
+> Match each document to its role.
+
+Right-hand side (shuffled): states the amount to pay · the buyer asks for goods · reduces an invoice · proves that payment was made
+- purchase order → **the buyer asks for goods**
+- invoice → **states the amount to pay**
+- credit note → **reduces an invoice**
+- receipt → **proves that payment was made**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> purchase order → the buyer asks for goods  
+> invoice → states the amount to pay  
+> credit note → reduces an invoice  
+> receipt → proves that payment was made  
+
+Sources: trading (Trading documents (purchase order, delivery note, invoice, credit note, receipt), inventory, mark-up on cost and margin on sales, invoice calculation with trade discount and VAT 19.25% (Cameroon), cash and bank transactions, cash book)
+
+### `a2-24-credit` · Lesson 24 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Damaged goods are returned to the supplier. Which document does the supplier send? | a credit note | an invoice · a purchase order · a delivery note | That asks for payment. · That orders goods. · That accompanies goods. | It reduces the amount owed. |
+| Which document proves that a customer has paid? | a receipt | a purchase order · a delivery note · a credit note | That orders goods. · That accompanies goods. · That reduces an invoice. | Proof of payment. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Damaged goods are returned to the supplier. Which document does the supplier send?
+
+- ◻️ a purchase order  
+  _↳ feedback if chosen: That orders goods._
+- ◻️ a delivery note  
+  _↳ feedback if chosen: That accompanies goods._
+- ✅ a credit note
+- ◻️ an invoice  
+  _↳ feedback if chosen: That asks for payment._
+
+Full working after a second miss:
+
+> It reduces the amount owed.  
+> So the answer is “a credit note”.  
+
+> Damaged goods are returned to the supplier. Which document does the supplier send?
+
+- ◻️ a purchase order  
+  _↳ feedback if chosen: That orders goods._
+- ◻️ an invoice  
+  _↳ feedback if chosen: That asks for payment._
+- ✅ a credit note
+- ◻️ a delivery note  
+  _↳ feedback if chosen: That accompanies goods._
+
+Full working after a second miss:
+
+> It reduces the amount owed.  
+> So the answer is “a credit note”.  
+
+> Which document proves that a customer has paid?
+
+- ◻️ a credit note  
+  _↳ feedback if chosen: That reduces an invoice._
+- ✅ a receipt
+- ◻️ a delivery note  
+  _↳ feedback if chosen: That accompanies goods._
+- ◻️ a purchase order  
+  _↳ feedback if chosen: That orders goods._
+
+Full working after a second miss:
+
+> Proof of payment.  
+> So the answer is “a receipt”.  
+
+Sources: trading (Trading documents (purchase order, delivery note, invoice, credit note, receipt), inventory, mark-up on cost and margin on sales, invoice calculation with trade discount and VAT 19.25% (Cameroon), cash and bank transactions, cash book)
+
+### `a2-24-spot` · Lesson 24 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The invoice states the amount to pay.
+- ✅ A receipt proves payment.
+- ✅ Inventory counts the stock.
+- ✅ A delivery note goes with the goods.
+- ❌ A credit note increases the amount the buyer owes.  
+  _↳ It reduces it._
+- ❌ Inventory is never needed.  
+  _↳ It is done at least once a year._
+- ❌ The purchase order proves payment.  
+  _↳ It only asks for goods._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A delivery note goes with the goods.
+- ✅ The purchase order proves payment.  
+  _↳ explanation: It only asks for goods._
+- ◻️ Inventory counts the stock.
+- ◻️ A receipt proves payment.
+
+Full working after a second miss:
+
+> The wrong statement is “The purchase order proves payment.”.  
+> It only asks for goods.  
+
+> Which statement is wrong?
+
+- ◻️ A receipt proves payment.
+- ◻️ Inventory counts the stock.
+- ◻️ The invoice states the amount to pay.
+- ✅ Inventory is never needed.  
+  _↳ explanation: It is done at least once a year._
+
+Full working after a second miss:
+
+> The wrong statement is “Inventory is never needed.”.  
+> It is done at least once a year.  
+
+> Which statement is wrong?
+
+- ◻️ A receipt proves payment.
+- ◻️ Inventory counts the stock.
+- ✅ Inventory is never needed.  
+  _↳ explanation: It is done at least once a year._
+- ◻️ The invoice states the amount to pay.
+
+Full working after a second miss:
+
+> The wrong statement is “Inventory is never needed.”.  
+> It is done at least once a year.  
+
+Sources: trading (Trading documents (purchase order, delivery note, invoice, credit note, receipt), inventory, mark-up on cost and margin on sales, invoice calculation with trade discount and VAT 19.25% (Cameroon), cash and bank transactions, cash book)
+
+### `a2-26-entry` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Goods are sold for cash. Which account is debited? | 571 Cash | 701 Sales · 601 Purchases · 401 Suppliers | That is credited. · An expense. · A third party. | Cash comes in. |
+| The business pays salaries by bank transfer. Which account is credited? | 521 Bank | 661 Salaries · 571 Cash · 701 Sales | That is debited. · Not cash. · Not income. | Money leaves the bank. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> The business pays salaries by bank transfer. Which account is credited?
+
+- ✅ 521 Bank
+- ◻️ 661 Salaries  
+  _↳ feedback if chosen: That is debited._
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: Not cash._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Not income._
+
+Full working after a second miss:
+
+> Money leaves the bank.  
+> So the answer is “521 Bank”.  
+
+> The business pays salaries by bank transfer. Which account is credited?
+
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: Not cash._
+- ◻️ 661 Salaries  
+  _↳ feedback if chosen: That is debited._
+- ✅ 521 Bank
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Not income._
+
+Full working after a second miss:
+
+> Money leaves the bank.  
+> So the answer is “521 Bank”.  
+
+> Goods are sold for cash. Which account is debited?
+
+- ◻️ 601 Purchases  
+  _↳ feedback if chosen: An expense._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: That is credited._
+- ✅ 571 Cash
+- ◻️ 401 Suppliers  
+  _↳ feedback if chosen: A third party._
+
+Full working after a second miss:
+
+> Cash comes in.  
+> So the answer is “571 Cash”.  
+
+Sources: trading (Trading documents (purchase order, delivery note, invoice, credit note, receipt), inventory, mark-up on cost and margin on sales, invoice calculation with trade discount and VAT 19.25% (Cameroon), cash and bank transactions, cash book)
+
+### `a2-26-transfer` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Cash is deposited into the bank. Which account is debited? | 521 Bank | 571 Cash · 101 Capital · 701 Sales | That is credited. · Not involved. · Not involved. | Money enters the bank. |
+| Money is withdrawn from the bank for the cash box. Which account is credited? | 521 Bank | 571 Cash · 411 Customers · 601 Purchases | That is debited. · Not involved. · Not involved. | Money leaves the bank. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Cash is deposited into the bank. Which account is debited?
+
+- ✅ 521 Bank
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: That is credited._
+- ◻️ 101 Capital  
+  _↳ feedback if chosen: Not involved._
+- ◻️ 701 Sales  
+  _↳ feedback if chosen: Not involved._
+
+Full working after a second miss:
+
+> Money enters the bank.  
+> So the answer is “521 Bank”.  
+
+> Money is withdrawn from the bank for the cash box. Which account is credited?
+
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: That is debited._
+- ◻️ 601 Purchases  
+  _↳ feedback if chosen: Not involved._
+- ✅ 521 Bank
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Not involved._
+
+Full working after a second miss:
+
+> Money leaves the bank.  
+> So the answer is “521 Bank”.  
+
+> Money is withdrawn from the bank for the cash box. Which account is credited?
+
+- ✅ 521 Bank
+- ◻️ 601 Purchases  
+  _↳ feedback if chosen: Not involved._
+- ◻️ 411 Customers  
+  _↳ feedback if chosen: Not involved._
+- ◻️ 571 Cash  
+  _↳ feedback if chosen: That is debited._
+
+Full working after a second miss:
+
+> Money leaves the bank.  
+> So the answer is “521 Bank”.  
+
+Sources: trading (Trading documents (purchase order, delivery note, invoice, credit note, receipt), inventory, mark-up on cost and margin on sales, invoice calculation with trade discount and VAT 19.25% (Cameroon), cash and bank transactions, cash book)
+
+### `a2-26-spot` · Lesson 26 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Money in is a debit to cash or bank.
+- ✅ Depositing cash: debit 521, credit 571.
+- ✅ Mobile money is a payment method.
+- ✅ The cash book records movements by date.
+- ❌ A cash sale is credited to 571 Cash.  
+  _↳ Cash is debited; 701 Sales is credited._
+- ❌ Closing balance = opening − receipts + payments.  
+  _↳ Opening + receipts − payments._
+- ❌ Paying a supplier debits 571 Cash.  
+  _↳ Cash is credited; 401 Suppliers is debited._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Money in is a debit to cash or bank.
+- ✅ A cash sale is credited to 571 Cash.  
+  _↳ explanation: Cash is debited; 701 Sales is credited._
+- ◻️ Mobile money is a payment method.
+- ◻️ Depositing cash: debit 521, credit 571.
+
+Full working after a second miss:
+
+> The wrong statement is “A cash sale is credited to 571 Cash.”.  
+> Cash is debited; 701 Sales is credited.  
+
+> Which statement is wrong?
+
+- ✅ Paying a supplier debits 571 Cash.  
+  _↳ explanation: Cash is credited; 401 Suppliers is debited._
+- ◻️ The cash book records movements by date.
+- ◻️ Mobile money is a payment method.
+- ◻️ Money in is a debit to cash or bank.
+
+Full working after a second miss:
+
+> The wrong statement is “Paying a supplier debits 571 Cash.”.  
+> Cash is credited; 401 Suppliers is debited.  
+
+> Which statement is wrong?
+
+- ◻️ Mobile money is a payment method.
+- ◻️ Money in is a debit to cash or bank.
+- ◻️ Depositing cash: debit 521, credit 571.
+- ✅ Closing balance = opening − receipts + payments.  
+  _↳ explanation: Opening + receipts − payments._
+
+Full working after a second miss:
+
+> The wrong statement is “Closing balance = opening − receipts + payments.”.  
+> Opening + receipts − payments.  
+
+Sources: trading (Trading documents (purchase order, delivery note, invoice, credit note, receipt), inventory, mark-up on cost and margin on sales, invoice calculation with trade discount and VAT 19.25% (Cameroon), cash and bank transactions, cash book)
 

@@ -1,4 +1,4 @@
-// Form 2 Geography, Batches G2-1 and G2-2 content tests (Terms 1 and 2, rows 1–19; practicals and further study included).
+// Form 2 Geography, Batches G2-1, G2-2 and G2-3 content tests (Terms 1–3, rows 1–27; practicals and further study included).
 import * as maths from "../src/engine/lib/maths.js";
 import * as english from "../src/engine/lib/english.js";
 import * as physics from "../src/engine/lib/physics.js";
@@ -12,5 +12,5 @@ import { subjectSuite } from "./subject-suite.js";
 subjectSuite({
   subject: "geography", dir: "form-2/geography", cls: "Form 2", spine: "form-2/geography", prefix: "g2-", numbering: "seq",
   lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...biology, ...maths2, ...science2 },
-  batch: Array.from({ length: 19 }, (_, i) => i + 1),
+  batch: Array.from({ length: 27 }, (_, i) => i + 1),
 });

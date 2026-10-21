@@ -1,0 +1,818 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "g2-23",
+   "name": "Practical work 4: regional and divisional headquarters"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cameroon has 10 regions and 58 divisions. Each has a headquarters (chief town) where the governor or the senior divisional officer works.\nRegional headquarters: Adamawa – Ngaoundéré; Centre – Yaoundé; East – Bertoua; Far North – Maroua; Littoral – Douala; North – Garoua; North West – Bamenda; South – Ebolowa; South West – Buea; West – Bafoussam.\nExamples of divisions and headquarters: Fako – Limbe; Meme – Kumba; Mezam – Bamenda; Bui – Kumbo; Wouri – Douala; Mfoundi – Yaoundé; Mifi – Bafoussam; Benoue – Garoua; Diamaré – Maroua; Océan – Kribi.\nMethod: on a blank map of Cameroon, draw the regional boundaries, mark each headquarters with a dot and its name, add a title, a key and a north arrow.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "X": {
+    "pick": [
+     {
+      "r": "South West",
+      "c": "Buea"
+     }
+    ]
+   }
+  },
+  "problem": "What is the headquarters of the {X.r} Region?",
+  "steps": [
+   "Look up the {X.r} in the list of regions.",
+   "Its headquarters is {X.c}."
+  ],
+  "answer": "{X.c}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c23-1",
+    "status": "draft",
+    "idea": "Cameroon has {10} regions and {58} divisions.",
+    "vars": {},
+    "example": [
+     "Each has a headquarters."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-23-reg"
+    }
+   },
+   {
+    "id": "c23-2",
+    "status": "draft",
+    "idea": "Each region has a headquarters where the governor works.",
+    "vars": {},
+    "example": [
+     "North West: Bamenda."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-23-div-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "african-towns"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "d": "Fako",
+         "c": "Limbe",
+         "r": "South West"
+        },
+        {
+         "d": "Mezam",
+         "c": "Bamenda",
+         "r": "North West"
+        },
+        {
+         "d": "Wouri",
+         "c": "Douala",
+         "r": "Littoral"
+        },
+        {
+         "d": "Mfoundi",
+         "c": "Yaoundé",
+         "r": "Centre"
+        },
+        {
+         "d": "Mifi",
+         "c": "Bafoussam",
+         "r": "West"
+        },
+        {
+         "d": "Benoue",
+         "c": "Garoua",
+         "r": "North"
+        },
+        {
+         "d": "Diamaré",
+         "c": "Maroua",
+         "r": "Far North"
+        },
+        {
+         "d": "Océan",
+         "c": "Kribi",
+         "r": "South"
+        },
+        {
+         "d": "Bui",
+         "c": "Kumbo",
+         "r": "North West"
+        },
+        {
+         "d": "Meme",
+         "c": "Kumba",
+         "r": "South West"
+        }
+       ]
+      },
+      "Y": {
+       "pick": [
+        {
+         "d": "Fako",
+         "c": "Limbe",
+         "r": "South West"
+        },
+        {
+         "d": "Mezam",
+         "c": "Bamenda",
+         "r": "North West"
+        },
+        {
+         "d": "Wouri",
+         "c": "Douala",
+         "r": "Littoral"
+        },
+        {
+         "d": "Mfoundi",
+         "c": "Yaoundé",
+         "r": "Centre"
+        },
+        {
+         "d": "Mifi",
+         "c": "Bafoussam",
+         "r": "West"
+        },
+        {
+         "d": "Benoue",
+         "c": "Garoua",
+         "r": "North"
+        },
+        {
+         "d": "Diamaré",
+         "c": "Maroua",
+         "r": "Far North"
+        },
+        {
+         "d": "Océan",
+         "c": "Kribi",
+         "r": "South"
+        },
+        {
+         "d": "Bui",
+         "c": "Kumbo",
+         "r": "North West"
+        },
+        {
+         "d": "Meme",
+         "c": "Kumba",
+         "r": "South West"
+        }
+       ]
+      },
+      "Z": {
+       "pick": [
+        {
+         "d": "Fako",
+         "c": "Limbe",
+         "r": "South West"
+        },
+        {
+         "d": "Mezam",
+         "c": "Bamenda",
+         "r": "North West"
+        },
+        {
+         "d": "Wouri",
+         "c": "Douala",
+         "r": "Littoral"
+        },
+        {
+         "d": "Mfoundi",
+         "c": "Yaoundé",
+         "r": "Centre"
+        },
+        {
+         "d": "Mifi",
+         "c": "Bafoussam",
+         "r": "West"
+        },
+        {
+         "d": "Benoue",
+         "c": "Garoua",
+         "r": "North"
+        },
+        {
+         "d": "Diamaré",
+         "c": "Maroua",
+         "r": "Far North"
+        },
+        {
+         "d": "Océan",
+         "c": "Kribi",
+         "r": "South"
+        },
+        {
+         "d": "Bui",
+         "c": "Kumbo",
+         "r": "North West"
+        },
+        {
+         "d": "Meme",
+         "c": "Kumba",
+         "r": "South West"
+        }
+       ]
+      }
+     },
+     "prompt": "What is the headquarters of {X.d} Division ({X.r} Region)?",
+     "correct": "{X.c}",
+     "distractors": [
+      {
+       "text": "{Y.c}",
+       "misconception": "wrong"
+      },
+      {
+       "text": "{Z.c}",
+       "misconception": "wrong"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "wrong",
+       "explain": "That is the headquarters of another division."
+      }
+     ],
+     "solution": [
+      "{X.d} Division – {X.c}.",
+      "So: {answer}."
+     ],
+     "where": "X.c != Y.c && X.c != Z.c && Y.c != Z.c",
+     "min_distractors": 2
+    }
+   },
+   {
+    "id": "c23-3",
+    "status": "draft",
+    "idea": "A map needs a title, a key and a north arrow.",
+    "vars": {},
+    "example": [
+     "Mark each headquarters with a dot."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-23-map"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-23-reg",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "Adamawa",
+       "c": "Ngaoundéré"
+      },
+      {
+       "r": "Centre",
+       "c": "Yaoundé"
+      },
+      {
+       "r": "East",
+       "c": "Bertoua"
+      },
+      {
+       "r": "Far North",
+       "c": "Maroua"
+      },
+      {
+       "r": "Littoral",
+       "c": "Douala"
+      },
+      {
+       "r": "North",
+       "c": "Garoua"
+      },
+      {
+       "r": "North West",
+       "c": "Bamenda"
+      },
+      {
+       "r": "South",
+       "c": "Ebolowa"
+      },
+      {
+       "r": "South West",
+       "c": "Buea"
+      },
+      {
+       "r": "West",
+       "c": "Bafoussam"
+      }
+     ]
+    },
+    "Y": {
+     "pick": [
+      {
+       "r": "Adamawa",
+       "c": "Ngaoundéré"
+      },
+      {
+       "r": "Centre",
+       "c": "Yaoundé"
+      },
+      {
+       "r": "East",
+       "c": "Bertoua"
+      },
+      {
+       "r": "Far North",
+       "c": "Maroua"
+      },
+      {
+       "r": "Littoral",
+       "c": "Douala"
+      },
+      {
+       "r": "North",
+       "c": "Garoua"
+      },
+      {
+       "r": "North West",
+       "c": "Bamenda"
+      },
+      {
+       "r": "South",
+       "c": "Ebolowa"
+      },
+      {
+       "r": "South West",
+       "c": "Buea"
+      },
+      {
+       "r": "West",
+       "c": "Bafoussam"
+      }
+     ]
+    },
+    "Z": {
+     "pick": [
+      {
+       "r": "Adamawa",
+       "c": "Ngaoundéré"
+      },
+      {
+       "r": "Centre",
+       "c": "Yaoundé"
+      },
+      {
+       "r": "East",
+       "c": "Bertoua"
+      },
+      {
+       "r": "Far North",
+       "c": "Maroua"
+      },
+      {
+       "r": "Littoral",
+       "c": "Douala"
+      },
+      {
+       "r": "North",
+       "c": "Garoua"
+      },
+      {
+       "r": "North West",
+       "c": "Bamenda"
+      },
+      {
+       "r": "South",
+       "c": "Ebolowa"
+      },
+      {
+       "r": "South West",
+       "c": "Buea"
+      },
+      {
+       "r": "West",
+       "c": "Bafoussam"
+      }
+     ]
+    },
+    "W": {
+     "pick": [
+      {
+       "r": "Adamawa",
+       "c": "Ngaoundéré"
+      },
+      {
+       "r": "Centre",
+       "c": "Yaoundé"
+      },
+      {
+       "r": "East",
+       "c": "Bertoua"
+      },
+      {
+       "r": "Far North",
+       "c": "Maroua"
+      },
+      {
+       "r": "Littoral",
+       "c": "Douala"
+      },
+      {
+       "r": "North",
+       "c": "Garoua"
+      },
+      {
+       "r": "North West",
+       "c": "Bamenda"
+      },
+      {
+       "r": "South",
+       "c": "Ebolowa"
+      },
+      {
+       "r": "South West",
+       "c": "Buea"
+      },
+      {
+       "r": "West",
+       "c": "Bafoussam"
+      }
+     ]
+    }
+   },
+   "prompt": "What is the headquarters of the {X.r} Region?",
+   "correct": "{X.c}",
+   "distractors": [
+    {
+     "text": "{Y.c}",
+     "misconception": "wrong"
+    },
+    {
+     "text": "{Z.c}",
+     "misconception": "wrong"
+    },
+    {
+     "text": "{W.c}",
+     "misconception": "wrong"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "wrong",
+     "explain": "That is the headquarters of another region."
+    }
+   ],
+   "solution": [
+    "Regional headquarters: {X.r} – {X.c}.",
+    "So: {answer}."
+   ],
+   "where": "X.r != Y.r && X.r != Z.r && X.r != W.r && Y.r != Z.r && Y.r != W.r && Z.r != W.r"
+  },
+  {
+   "id": "g2-23-div",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "d": "Fako",
+       "c": "Limbe",
+       "r": "South West"
+      },
+      {
+       "d": "Mezam",
+       "c": "Bamenda",
+       "r": "North West"
+      },
+      {
+       "d": "Wouri",
+       "c": "Douala",
+       "r": "Littoral"
+      },
+      {
+       "d": "Mfoundi",
+       "c": "Yaoundé",
+       "r": "Centre"
+      },
+      {
+       "d": "Mifi",
+       "c": "Bafoussam",
+       "r": "West"
+      },
+      {
+       "d": "Benoue",
+       "c": "Garoua",
+       "r": "North"
+      },
+      {
+       "d": "Diamaré",
+       "c": "Maroua",
+       "r": "Far North"
+      },
+      {
+       "d": "Océan",
+       "c": "Kribi",
+       "r": "South"
+      },
+      {
+       "d": "Bui",
+       "c": "Kumbo",
+       "r": "North West"
+      },
+      {
+       "d": "Meme",
+       "c": "Kumba",
+       "r": "South West"
+      }
+     ]
+    },
+    "Y": {
+     "pick": [
+      {
+       "d": "Fako",
+       "c": "Limbe",
+       "r": "South West"
+      },
+      {
+       "d": "Mezam",
+       "c": "Bamenda",
+       "r": "North West"
+      },
+      {
+       "d": "Wouri",
+       "c": "Douala",
+       "r": "Littoral"
+      },
+      {
+       "d": "Mfoundi",
+       "c": "Yaoundé",
+       "r": "Centre"
+      },
+      {
+       "d": "Mifi",
+       "c": "Bafoussam",
+       "r": "West"
+      },
+      {
+       "d": "Benoue",
+       "c": "Garoua",
+       "r": "North"
+      },
+      {
+       "d": "Diamaré",
+       "c": "Maroua",
+       "r": "Far North"
+      },
+      {
+       "d": "Océan",
+       "c": "Kribi",
+       "r": "South"
+      },
+      {
+       "d": "Bui",
+       "c": "Kumbo",
+       "r": "North West"
+      },
+      {
+       "d": "Meme",
+       "c": "Kumba",
+       "r": "South West"
+      }
+     ]
+    },
+    "Z": {
+     "pick": [
+      {
+       "d": "Fako",
+       "c": "Limbe",
+       "r": "South West"
+      },
+      {
+       "d": "Mezam",
+       "c": "Bamenda",
+       "r": "North West"
+      },
+      {
+       "d": "Wouri",
+       "c": "Douala",
+       "r": "Littoral"
+      },
+      {
+       "d": "Mfoundi",
+       "c": "Yaoundé",
+       "r": "Centre"
+      },
+      {
+       "d": "Mifi",
+       "c": "Bafoussam",
+       "r": "West"
+      },
+      {
+       "d": "Benoue",
+       "c": "Garoua",
+       "r": "North"
+      },
+      {
+       "d": "Diamaré",
+       "c": "Maroua",
+       "r": "Far North"
+      },
+      {
+       "d": "Océan",
+       "c": "Kribi",
+       "r": "South"
+      },
+      {
+       "d": "Bui",
+       "c": "Kumbo",
+       "r": "North West"
+      },
+      {
+       "d": "Meme",
+       "c": "Kumba",
+       "r": "South West"
+      }
+     ]
+    }
+   },
+   "prompt": "What is the headquarters of {X.d} Division ({X.r} Region)?",
+   "correct": "{X.c}",
+   "distractors": [
+    {
+     "text": "{Y.c}",
+     "misconception": "wrong"
+    },
+    {
+     "text": "{Z.c}",
+     "misconception": "wrong"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "wrong",
+     "explain": "That is the headquarters of another division."
+    }
+   ],
+   "solution": [
+    "{X.d} Division – {X.c}.",
+    "So: {answer}."
+   ],
+   "where": "X.c != Y.c && X.c != Z.c && Y.c != Z.c",
+   "min_distractors": 2
+  },
+  {
+   "id": "g2-23-map",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How many regions does Cameroon have?",
+       "r": "ten",
+       "w": [
+        "five",
+        "fifty-eight",
+        "twelve"
+       ],
+       "e": [
+        "Too few.",
+        "That is the number of divisions.",
+        "Not the number."
+       ],
+       "y": "Ten regions."
+      },
+      {
+       "q": "Which three things must every map have?",
+       "r": "a title, a key and a north arrow",
+       "w": [
+        "only colours",
+        "a photo, a poem and a song",
+        "only names"
+       ],
+       "e": [
+        "Not enough.",
+        "Not map elements.",
+        "Not enough."
+       ],
+       "y": "They help read the map."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-23-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Buea is the headquarters of the South West.",
+      "truth": "true"
+     },
+     {
+      "text": "Bamenda is the headquarters of the North West.",
+      "truth": "true"
+     },
+     {
+      "text": "Garoua is the headquarters of the North.",
+      "truth": "true"
+     },
+     {
+      "text": "Ebolowa is the headquarters of the South.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Douala is the headquarters of the Centre Region.",
+      "truth": "false",
+      "explain": "Yaoundé is; Douala is in the Littoral."
+     },
+     {
+      "text": "Kumba is the headquarters of the South West Region.",
+      "truth": "false",
+      "explain": "Buea is; Kumba heads Meme Division."
+     },
+     {
+      "text": "Cameroon has 58 regions.",
+      "truth": "false",
+      "explain": "It has 10 regions and 58 divisions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

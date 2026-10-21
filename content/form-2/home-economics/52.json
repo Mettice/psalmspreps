@@ -1,0 +1,409 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 52,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-52",
+   "name": "Embroidery: notion and classification"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Embroidery is the art of decorating fabric with needle and thread (or yarn), making patterns and pictures with stitches.\nClassification:\n• traditional embroidery: hand-made designs passed down in a culture, often with symbolic meaning — for example the embroidered gowns of the North West (toghu) and the Bamoun and Fulani designs;\n• modern embroidery: machine embroidery, logos on uniforms and caps, new designs and materials, computer-controlled machines.\nIt can also be classified by technique: surface embroidery (stitches on top of the fabric), counted-thread work (stitches counted on an even-weave fabric), white work (white thread on white fabric).\nUses: decorating clothes, table linen, cushions, wall hangings, school badges; income from selling embroidered articles.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is the logo stitched by machine on a school uniform an example of traditional or modern embroidery?",
+  "steps": [
+   "It is made by a machine, often from a computer design.",
+   "So it is modern embroidery."
+  ],
+  "answer": "Modern embroidery.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c52-1",
+    "status": "draft",
+    "idea": "Embroidery decorates fabric with needle and thread.",
+    "vars": {},
+    "example": [
+     "A flower stitched on a cushion."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-52-what"
+    }
+   },
+   {
+    "id": "c52-2",
+    "status": "draft",
+    "idea": "Traditional embroidery is hand-made with cultural designs; modern embroidery often uses machines.",
+    "vars": {},
+    "example": [
+     "The toghu is traditional."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-52-class"
+    }
+   },
+   {
+    "id": "c52-3",
+    "status": "draft",
+    "idea": "Embroidery decorates clothes and linen and can bring income.",
+    "vars": {},
+    "example": [
+     "Selling embroidered tablecloths."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-52-use-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "embroidery"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is a use of embroidery?",
+         "r": "decorating table linen and clothes",
+         "w": [
+          "cooking rice",
+          "repairing a car",
+          "building a house"
+         ],
+         "e": [
+          "Not a use.",
+          "Not a use.",
+          "Not a use."
+         ],
+         "y": "It decorates fabric."
+        },
+        {
+         "q": "What is white work?",
+         "r": "embroidery with white thread on white fabric",
+         "w": [
+          "washing white clothes",
+          "painting walls white",
+          "a white sewing machine"
+         ],
+         "e": [
+          "That is laundry.",
+          "Not embroidery.",
+          "Not the meaning."
+         ],
+         "y": "A delicate technique."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-52-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is embroidery?",
+       "r": "decorating fabric with needle and thread",
+       "w": [
+        "washing clothes",
+        "cooking food",
+        "weaving baskets only"
+       ],
+       "e": [
+        "That is laundry.",
+        "That is cookery.",
+        "That is basketry."
+       ],
+       "y": "Patterns made with stitches."
+      },
+      {
+       "q": "Which tool is essential for hand embroidery?",
+       "r": "a needle",
+       "w": [
+        "a pressure cooker",
+        "a hoe",
+        "a blender"
+       ],
+       "e": [
+        "A kitchen tool.",
+        "A farm tool.",
+        "A kitchen tool."
+       ],
+       "y": "Needle and thread."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-52-class",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "A toghu gown stitched by hand with North West designs.",
+       "a": "traditional"
+      },
+      {
+       "s": "A company logo stitched by a computer machine on a cap.",
+       "a": "modern"
+      },
+      {
+       "s": "A Fulani design passed down from grandmothers.",
+       "a": "traditional"
+      },
+      {
+       "s": "A school badge made by an embroidery machine.",
+       "a": "modern"
+      }
+     ]
+    }
+   },
+   "prompt": "Is this traditional or modern embroidery? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'traditional' ? 'modern' : 'traditional'}",
+     "misconception": "k"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "k",
+     "explain": "Ask: is it hand-made with a cultural design (traditional) or machine-made and new (modern)?"
+    }
+   ],
+   "solution": [
+    "Traditional: hand-made cultural designs; modern: machines, logos, new designs.",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "h2-52-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a use of embroidery?",
+       "r": "decorating table linen and clothes",
+       "w": [
+        "cooking rice",
+        "repairing a car",
+        "building a house"
+       ],
+       "e": [
+        "Not a use.",
+        "Not a use.",
+        "Not a use."
+       ],
+       "y": "It decorates fabric."
+      },
+      {
+       "q": "What is white work?",
+       "r": "embroidery with white thread on white fabric",
+       "w": [
+        "washing white clothes",
+        "painting walls white",
+        "a white sewing machine"
+       ],
+       "e": [
+        "That is laundry.",
+        "Not embroidery.",
+        "Not the meaning."
+       ],
+       "y": "A delicate technique."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-52-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "embroidery"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Embroidery uses needle and thread.",
+      "truth": "true"
+     },
+     {
+      "text": "The toghu is traditional.",
+      "truth": "true"
+     },
+     {
+      "text": "Machines are used in modern embroidery.",
+      "truth": "true"
+     },
+     {
+      "text": "Embroidery can bring income.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Embroidery is a way of cooking.",
+      "truth": "false",
+      "explain": "It decorates fabric."
+     },
+     {
+      "text": "Traditional embroidery is always made by computer.",
+      "truth": "false",
+      "explain": "It is hand-made."
+     },
+     {
+      "text": "Embroidery is only for clothes, never for linen.",
+      "truth": "false",
+      "explain": "It also decorates linen and cushions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

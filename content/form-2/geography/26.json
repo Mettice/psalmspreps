@@ -1,0 +1,440 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "g2-26",
+   "name": "Relationships between towns and the countryside (socio-cultural and information)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Social and cultural links:\n• families are split between town and village: people go home for funerals, weddings, festivals and holidays;\n• elites from town build schools, health centres and roads in their villages (development associations);\n• townspeople keep their village traditions and languages; villages adopt town fashions, music and foods;\n• country children attend secondary schools and universities in towns.\nInformation links:\n• radio, television, newspapers, phones and the internet carry news, prices and ideas between town and village;\n• mobile money sends money instantly;\n• community radios broadcast in national languages.\nNegative effects: loss of some traditions, spread of diseases, rural exodus of the young.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give one way in which elites living in town help their home village.",
+  "steps": [
+   "Elites often join a village development association.",
+   "They contribute money to build a school, a health centre or a water point in the village."
+  ],
+  "answer": "They fund schools, health centres or water points through development associations.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "Families meet in the village for funerals, weddings and festivals.",
+    "vars": {},
+    "example": [
+     "Townspeople go home for the holidays."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-26-social"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "Elites from town fund development in their villages.",
+    "vars": {},
+    "example": [
+     "A new classroom block."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-26-elite"
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "Radio, phones, the internet and mobile money link town and village.",
+    "vars": {},
+    "example": [
+     "Farmers check prices by phone."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-26-info-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-towns"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "How does a mobile phone help a farmer?",
+         "r": "He can check market prices and receive money by mobile money.",
+         "w": [
+          "It grows his crops.",
+          "It brings rain.",
+          "It replaces his farm."
+         ],
+         "e": [
+          "Not possible.",
+          "Not possible.",
+          "Not possible."
+         ],
+         "y": "Information and money move fast."
+        },
+        {
+         "q": "Why are community radios in national languages important?",
+         "r": "Villagers understand the news and advice in their own language.",
+         "w": [
+          "They only play music.",
+          "Nobody listens.",
+          "They stop people talking."
+         ],
+         "e": [
+          "They also give news.",
+          "Many listen.",
+          "Not true."
+         ],
+         "y": "Information reaches everyone."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-26-social",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "On which occasions do many townspeople return to their villages?",
+       "r": "funerals, weddings and festivals",
+       "w": [
+        "only during exams",
+        "never",
+        "only at night"
+       ],
+       "e": [
+        "Not the main occasions.",
+        "They do return.",
+        "Not the pattern."
+       ],
+       "y": "Family and cultural events."
+      },
+      {
+       "q": "What do villages often adopt from towns?",
+       "r": "new fashions, music and foods",
+       "w": [
+        "new mountains",
+        "rivers",
+        "the climate"
+       ],
+       "e": [
+        "Not cultural.",
+        "Not cultural.",
+        "Not cultural."
+       ],
+       "y": "Cultural exchange."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-26-elite",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a village development association?",
+       "r": "a group of sons and daughters of a village who fund projects there",
+       "w": [
+        "a political party",
+        "a bank",
+        "a football club only"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "They build schools, roads and water points."
+      },
+      {
+       "q": "Where do many village children go for secondary and university education?",
+       "r": "to towns",
+       "w": [
+        "to the forest",
+        "nowhere",
+        "to other villages only"
+       ],
+       "e": [
+        "No schools there.",
+        "They do study.",
+        "Most big schools are in towns."
+       ],
+       "y": "Towns have more schools."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-26-info",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does a mobile phone help a farmer?",
+       "r": "He can check market prices and receive money by mobile money.",
+       "w": [
+        "It grows his crops.",
+        "It brings rain.",
+        "It replaces his farm."
+       ],
+       "e": [
+        "Not possible.",
+        "Not possible.",
+        "Not possible."
+       ],
+       "y": "Information and money move fast."
+      },
+      {
+       "q": "Why are community radios in national languages important?",
+       "r": "Villagers understand the news and advice in their own language.",
+       "w": [
+        "They only play music.",
+        "Nobody listens.",
+        "They stop people talking."
+       ],
+       "e": [
+        "They also give news.",
+        "Many listen.",
+        "Not true."
+       ],
+       "y": "Information reaches everyone."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-26-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Elites fund village projects.",
+      "truth": "true"
+     },
+     {
+      "text": "Mobile money links town and village.",
+      "truth": "true"
+     },
+     {
+      "text": "Families meet at funerals in the village.",
+      "truth": "true"
+     },
+     {
+      "text": "Radio carries news to villages.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Townspeople never return to their villages.",
+      "truth": "false",
+      "explain": "Many return for funerals, weddings and festivals."
+     },
+     {
+      "text": "Information cannot travel between towns and villages.",
+      "truth": "false",
+      "explain": "Radio, phones and the internet carry it."
+     },
+     {
+      "text": "Town-village links have only positive effects.",
+      "truth": "false",
+      "explain": "Some traditions are lost and young people leave."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

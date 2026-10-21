@@ -1,4 +1,4 @@
-# Home Economics Form 2, Batch H2-1: authored answers for review
+# Home Economics Form 2, Batches H2-1, H2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -203,6 +203,64 @@ Regenerate with `npm run review:f2-home-economics`. Item IDs (TR-…) match `doc
 | 188 | `h2-46-food` | 46 | multiple choice, 2 | deficiency-diseases |
 | 189 | `h2-46-spot` | 46 | spot the error, 3 | deficiency-diseases |
 | 190 | `h2-46-food-card` (card c46-3) | 46 | multiple choice, 1 | deficiency-diseases |
+| 191 | `h2-49-cause` | 49 | multiple choice, 1 | deficiency-diseases |
+| 192 | `h2-49-sign` | 49 | multiple choice, 1 | deficiency-diseases |
+| 193 | `h2-49-prev` | 49 | multiple choice, 2 | deficiency-diseases |
+| 194 | `h2-49-spot` | 49 | spot the error, 3 | deficiency-diseases |
+| 195 | `h2-49-prev-card` (card c49-3) | 49 | multiple choice, 1 | deficiency-diseases |
+| 196 | `h2-50-cause` | 50 | multiple choice, 1 | deficiency-diseases |
+| 197 | `h2-50-sign` | 50 | multiple choice, 1 | deficiency-diseases |
+| 198 | `h2-50-prev` | 50 | multiple choice, 2 | deficiency-diseases |
+| 199 | `h2-50-spot` | 50 | spot the error, 3 | deficiency-diseases |
+| 200 | `h2-50-prev-card` (card c50-3) | 50 | multiple choice, 1 | deficiency-diseases |
+| 201 | `h2-51-scurvy` | 51 | multiple choice, 1 | deficiency-diseases |
+| 202 | `h2-51-anaem` | 51 | multiple choice, 1 | deficiency-diseases |
+| 203 | `h2-51-food` | 51 | multiple choice, 2 | deficiency-diseases |
+| 204 | `h2-51-spot` | 51 | spot the error, 3 | deficiency-diseases |
+| 205 | `h2-51-food-card` (card c51-3) | 51 | multiple choice, 1 | deficiency-diseases |
+| 206 | `h2-52-what` | 52 | multiple choice, 1 | embroidery |
+| 207 | `h2-52-use` | 52 | multiple choice, 2 | embroidery |
+| 208 | `h2-52-spot` | 52 | spot the error, 3 | embroidery |
+| 209 | `h2-52-use-card` (card c52-3) | 52 | multiple choice, 1 | embroidery |
+| 210 | `h2-53-stitch` | 53 | matching, 1 | embroidery |
+| 211 | `h2-53-use` | 53 | multiple choice, 1 | embroidery |
+| 212 | `h2-53-order` | 53 | ordering, 2 | embroidery |
+| 213 | `h2-53-spot` | 53 | spot the error, 3 | embroidery |
+| 214 | `h2-53-order-card` (card c53-3) | 53 | ordering, 1 | embroidery |
+| 215 | `h2-56-source` | 56 | matching, 1 | embroidery |
+| 216 | `h2-56-prop` | 56 | multiple choice, 1 | embroidery |
+| 217 | `h2-56-care` | 56 | multiple choice, 2 | embroidery |
+| 218 | `h2-56-spot` | 56 | spot the error, 3 | embroidery |
+| 219 | `h2-56-care-card` (card c56-3) | 56 | multiple choice, 1 | embroidery |
+| 220 | `h2-57-what` | 57 | multiple choice, 1 | embroidery |
+| 221 | `h2-57-spot` | 57 | spot the error, 3 | embroidery |
+| 222 | `h2-58-match` | 58 | matching, 1 | embroidery |
+| 223 | `h2-58-knots` | 58 | multiple choice, 1 | embroidery |
+| 224 | `h2-58-shadow` | 58 | multiple choice, 2 | embroidery |
+| 225 | `h2-58-spot` | 58 | spot the error, 3 | embroidery |
+| 226 | `h2-58-shadow-card` (card c58-3) | 58 | multiple choice, 1 | embroidery |
+| 227 | `h2-59-info` | 59 | multiple choice, 1 | laundry |
+| 228 | `h2-59-symbol` | 59 | matching, 1 | laundry |
+| 229 | `h2-59-spot` | 59 | spot the error, 3 | laundry |
+| 230 | `h2-60-tool` | 60 | matching, 1 | embroidery |
+| 231 | `h2-60-use` | 60 | multiple choice, 1 | embroidery |
+| 232 | `h2-60-care` | 60 | multiple choice, 2 | embroidery |
+| 233 | `h2-60-spot` | 60 | spot the error, 3 | embroidery |
+| 234 | `h2-60-care-card` (card c60-3) | 60 | multiple choice, 1 | embroidery |
+| 235 | `h2-61-steps` | 61 | ordering, 1 | laundry |
+| 236 | `h2-61-sort` | 61 | multiple choice, 2 | laundry |
+| 237 | `h2-61-spot` | 61 | spot the error, 3 | laundry |
+| 238 | `h2-61-sort-card` (card c61-3) | 61 | multiple choice, 1 | laundry |
+| 239 | `h2-62-type` | 62 | matching, 1 | laundry |
+| 240 | `h2-62-steam` | 62 | multiple choice, 1 | laundry |
+| 241 | `h2-62-choose` | 62 | multiple choice, 2 | laundry |
+| 242 | `h2-62-spot` | 62 | spot the error, 3 | laundry |
+| 243 | `h2-62-choose-card` (card c62-3) | 62 | multiple choice, 1 | laundry |
+| 244 | `h2-63-order` | 63 | multiple choice, 1 | laundry |
+| 245 | `h2-63-tech` | 63 | multiple choice, 1 | laundry |
+| 246 | `h2-63-shirt` | 63 | ordering, 2 | laundry |
+| 247 | `h2-63-spot` | 63 | spot the error, 3 | laundry |
+| 248 | `h2-63-shirt-card` (card c63-3) | 63 | ordering, 1 | laundry |
 
 ### `h2-1-classes` · Lesson 1 · multiple choice, level 1
 
@@ -12395,4 +12453,3654 @@ Full working after a second miss:
 > So the answer is “red palm oil”.  
 
 Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-49-cause` · Lesson 49 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the main cause of obesity? | eating more energy than the body uses | drinking water · eating vegetables · walking every day | Water has no energy. · Vegetables protect. · Exercise prevents it. | Extra energy is stored as fat. |
+| Which habit can lead to obesity? | drinking sweet sodas every day | eating fruit · playing football · drinking water | Fruit is healthy. · Exercise helps. · Water is healthy. | Sodas contain a lot of sugar. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the main cause of obesity?
+
+- ◻️ drinking water  
+  _↳ feedback if chosen: Water has no energy._
+- ✅ eating more energy than the body uses
+- ◻️ walking every day  
+  _↳ feedback if chosen: Exercise prevents it._
+- ◻️ eating vegetables  
+  _↳ feedback if chosen: Vegetables protect._
+
+Full working after a second miss:
+
+> Extra energy is stored as fat.  
+> So the answer is “eating more energy than the body uses”.  
+
+> What is the main cause of obesity?
+
+- ◻️ drinking water  
+  _↳ feedback if chosen: Water has no energy._
+- ◻️ walking every day  
+  _↳ feedback if chosen: Exercise prevents it._
+- ✅ eating more energy than the body uses
+- ◻️ eating vegetables  
+  _↳ feedback if chosen: Vegetables protect._
+
+Full working after a second miss:
+
+> Extra energy is stored as fat.  
+> So the answer is “eating more energy than the body uses”.  
+
+> What is the main cause of obesity?
+
+- ◻️ eating vegetables  
+  _↳ feedback if chosen: Vegetables protect._
+- ◻️ drinking water  
+  _↳ feedback if chosen: Water has no energy._
+- ◻️ walking every day  
+  _↳ feedback if chosen: Exercise prevents it._
+- ✅ eating more energy than the body uses
+
+Full working after a second miss:
+
+> Extra energy is stored as fat.  
+> So the answer is “eating more energy than the body uses”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-49-sign` · Lesson 49 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a sign of obesity? | breathlessness when walking a short distance | swollen neck · bleeding gums · night blindness | That is goitre. · That is scurvy. · That is vitamin A deficiency. | Extra weight strains the heart and lungs. |
+| Which disease can obesity lead to? | diabetes | rickets · scurvy · kwashiorkor | Lack of vitamin D. · Lack of vitamin C. · Lack of protein. | Too much fat and sugar. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which disease can obesity lead to?
+
+- ✅ diabetes
+- ◻️ rickets  
+  _↳ feedback if chosen: Lack of vitamin D._
+- ◻️ scurvy  
+  _↳ feedback if chosen: Lack of vitamin C._
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: Lack of protein._
+
+Full working after a second miss:
+
+> Too much fat and sugar.  
+> So the answer is “diabetes”.  
+
+> Which disease can obesity lead to?
+
+- ◻️ rickets  
+  _↳ feedback if chosen: Lack of vitamin D._
+- ◻️ scurvy  
+  _↳ feedback if chosen: Lack of vitamin C._
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: Lack of protein._
+- ✅ diabetes
+
+Full working after a second miss:
+
+> Too much fat and sugar.  
+> So the answer is “diabetes”.  
+
+> Which disease can obesity lead to?
+
+- ◻️ rickets  
+  _↳ feedback if chosen: Lack of vitamin D._
+- ✅ diabetes
+- ◻️ kwashiorkor  
+  _↳ feedback if chosen: Lack of protein._
+- ◻️ scurvy  
+  _↳ feedback if chosen: Lack of vitamin C._
+
+Full working after a second miss:
+
+> Too much fat and sugar.  
+> So the answer is “diabetes”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-49-prev` · Lesson 49 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which meal helps prevent obesity? | grilled fish, vegetables and a fruit | fried chicken, chips and soda · doughnuts and sweet tea · a large plate of puff-puff | Too much fat and sugar. · Too much sugar. · Fried and fatty. | Balanced and low in fat. |
+| How much physical activity should teenagers do? | about one hour every day | none · five minutes a month · only during holidays | Activity is needed. · Too little. · Every day is better. | Daily exercise uses energy. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How much physical activity should teenagers do?
+
+- ◻️ none  
+  _↳ feedback if chosen: Activity is needed._
+- ◻️ five minutes a month  
+  _↳ feedback if chosen: Too little._
+- ✅ about one hour every day
+- ◻️ only during holidays  
+  _↳ feedback if chosen: Every day is better._
+
+Full working after a second miss:
+
+> Daily exercise uses energy.  
+> So the answer is “about one hour every day”.  
+
+> How much physical activity should teenagers do?
+
+- ◻️ none  
+  _↳ feedback if chosen: Activity is needed._
+- ◻️ only during holidays  
+  _↳ feedback if chosen: Every day is better._
+- ◻️ five minutes a month  
+  _↳ feedback if chosen: Too little._
+- ✅ about one hour every day
+
+Full working after a second miss:
+
+> Daily exercise uses energy.  
+> So the answer is “about one hour every day”.  
+
+> Which meal helps prevent obesity?
+
+- ◻️ a large plate of puff-puff  
+  _↳ feedback if chosen: Fried and fatty._
+- ✅ grilled fish, vegetables and a fruit
+- ◻️ fried chicken, chips and soda  
+  _↳ feedback if chosen: Too much fat and sugar._
+- ◻️ doughnuts and sweet tea  
+  _↳ feedback if chosen: Too much sugar._
+
+Full working after a second miss:
+
+> Balanced and low in fat.  
+> So the answer is “grilled fish, vegetables and a fruit”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-49-spot` · Lesson 49 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Obesity can lead to diabetes.
+- ✅ Exercise helps prevent obesity.
+- ✅ Sweet drinks contain much sugar.
+- ✅ Fruit and vegetables are healthy.
+- ❌ Obesity is caused by drinking water.  
+  _↳ Water has no energy._
+- ❌ Skipping exercise prevents obesity.  
+  _↳ Exercise prevents it._
+- ❌ Fried snacks every day keep weight healthy.  
+  _↳ They add a lot of fat._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Obesity can lead to diabetes.
+- ◻️ Exercise helps prevent obesity.
+- ✅ Obesity is caused by drinking water.  
+  _↳ explanation: Water has no energy._
+- ◻️ Sweet drinks contain much sugar.
+
+Full working after a second miss:
+
+> The wrong statement is “Obesity is caused by drinking water.”.  
+> Water has no energy.  
+
+> Which statement is wrong?
+
+- ◻️ Exercise helps prevent obesity.
+- ◻️ Fruit and vegetables are healthy.
+- ◻️ Sweet drinks contain much sugar.
+- ✅ Obesity is caused by drinking water.  
+  _↳ explanation: Water has no energy._
+
+Full working after a second miss:
+
+> The wrong statement is “Obesity is caused by drinking water.”.  
+> Water has no energy.  
+
+> Which statement is wrong?
+
+- ◻️ Sweet drinks contain much sugar.
+- ◻️ Exercise helps prevent obesity.
+- ◻️ Fruit and vegetables are healthy.
+- ✅ Obesity is caused by drinking water.  
+  _↳ explanation: Water has no energy._
+
+Full working after a second miss:
+
+> The wrong statement is “Obesity is caused by drinking water.”.  
+> Water has no energy.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-49-prev-card` · Lesson 49 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which meal helps prevent obesity? | grilled fish, vegetables and a fruit | fried chicken, chips and soda · doughnuts and sweet tea · a large plate of puff-puff | Too much fat and sugar. · Too much sugar. · Fried and fatty. | Balanced and low in fat. |
+| How much physical activity should teenagers do? | about one hour every day | none · five minutes a month · only during holidays | Activity is needed. · Too little. · Every day is better. | Daily exercise uses energy. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which meal helps prevent obesity?
+
+- ✅ grilled fish, vegetables and a fruit
+- ◻️ a large plate of puff-puff  
+  _↳ feedback if chosen: Fried and fatty._
+- ◻️ fried chicken, chips and soda  
+  _↳ feedback if chosen: Too much fat and sugar._
+- ◻️ doughnuts and sweet tea  
+  _↳ feedback if chosen: Too much sugar._
+
+Full working after a second miss:
+
+> Balanced and low in fat.  
+> So the answer is “grilled fish, vegetables and a fruit”.  
+
+> Which meal helps prevent obesity?
+
+- ◻️ fried chicken, chips and soda  
+  _↳ feedback if chosen: Too much fat and sugar._
+- ◻️ doughnuts and sweet tea  
+  _↳ feedback if chosen: Too much sugar._
+- ◻️ a large plate of puff-puff  
+  _↳ feedback if chosen: Fried and fatty._
+- ✅ grilled fish, vegetables and a fruit
+
+Full working after a second miss:
+
+> Balanced and low in fat.  
+> So the answer is “grilled fish, vegetables and a fruit”.  
+
+> How much physical activity should teenagers do?
+
+- ✅ about one hour every day
+- ◻️ none  
+  _↳ feedback if chosen: Activity is needed._
+- ◻️ five minutes a month  
+  _↳ feedback if chosen: Too little._
+- ◻️ only during holidays  
+  _↳ feedback if chosen: Every day is better._
+
+Full working after a second miss:
+
+> Daily exercise uses energy.  
+> So the answer is “about one hour every day”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-50-cause` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What causes rickets? | a lack of vitamin D or calcium | too much protein · a lack of iodine · too much water | Protein does not cause it. · That is goitre. · Not the cause. | Bones need calcium; vitamin D helps absorb it. |
+| How does the body get most of its vitamin D? | the skin makes it in sunlight | from drinking water · from sugar · from cassava only | Water has none. · Sugar has none. · Cassava has little. | Sunlight on the skin. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What causes rickets?
+
+- ◻️ a lack of iodine  
+  _↳ feedback if chosen: That is goitre._
+- ◻️ too much water  
+  _↳ feedback if chosen: Not the cause._
+- ✅ a lack of vitamin D or calcium
+- ◻️ too much protein  
+  _↳ feedback if chosen: Protein does not cause it._
+
+Full working after a second miss:
+
+> Bones need calcium; vitamin D helps absorb it.  
+> So the answer is “a lack of vitamin D or calcium”.  
+
+> What causes rickets?
+
+- ✅ a lack of vitamin D or calcium
+- ◻️ too much water  
+  _↳ feedback if chosen: Not the cause._
+- ◻️ too much protein  
+  _↳ feedback if chosen: Protein does not cause it._
+- ◻️ a lack of iodine  
+  _↳ feedback if chosen: That is goitre._
+
+Full working after a second miss:
+
+> Bones need calcium; vitamin D helps absorb it.  
+> So the answer is “a lack of vitamin D or calcium”.  
+
+> How does the body get most of its vitamin D?
+
+- ✅ the skin makes it in sunlight
+- ◻️ from sugar  
+  _↳ feedback if chosen: Sugar has none._
+- ◻️ from drinking water  
+  _↳ feedback if chosen: Water has none._
+- ◻️ from cassava only  
+  _↳ feedback if chosen: Cassava has little._
+
+Full working after a second miss:
+
+> Sunlight on the skin.  
+> So the answer is “the skin makes it in sunlight”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-50-sign` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a sign of rickets? | bowed legs | swollen neck · bleeding gums · yellow eyes | That is goitre. · That is scurvy. · That is jaundice. | Soft bones bend. |
+| What is osteomalacia? | softening of the bones in adults | a disease of the eyes · a skin rash · a disease of the teeth only | Not the meaning. · Not the meaning. · It affects bones. | The adult form of rickets. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is osteomalacia?
+
+- ✅ softening of the bones in adults
+- ◻️ a skin rash  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a disease of the eyes  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a disease of the teeth only  
+  _↳ feedback if chosen: It affects bones._
+
+Full working after a second miss:
+
+> The adult form of rickets.  
+> So the answer is “softening of the bones in adults”.  
+
+> What is osteomalacia?
+
+- ◻️ a skin rash  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a disease of the eyes  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ softening of the bones in adults
+- ◻️ a disease of the teeth only  
+  _↳ feedback if chosen: It affects bones._
+
+Full working after a second miss:
+
+> The adult form of rickets.  
+> So the answer is “softening of the bones in adults”.  
+
+> Which is a sign of rickets?
+
+- ◻️ swollen neck  
+  _↳ feedback if chosen: That is goitre._
+- ◻️ bleeding gums  
+  _↳ feedback if chosen: That is scurvy._
+- ◻️ yellow eyes  
+  _↳ feedback if chosen: That is jaundice._
+- ✅ bowed legs
+
+Full working after a second miss:
+
+> Soft bones bend.  
+> So the answer is “bowed legs”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-50-prev` · Lesson 50 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which food is rich in calcium? | milk | white rice · sugar · palm wine | Little calcium. · None. · Not a calcium source. | Milk builds bones. |
+| Which advice prevents rickets? | let children play in the morning sun and give them milk and fish | keep babies indoors all day · give only sugar water · avoid all eggs | They need sunlight. · No nutrients. · Eggs give vitamin D. | Sunlight and calcium. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which food is rich in calcium?
+
+- ◻️ white rice  
+  _↳ feedback if chosen: Little calcium._
+- ✅ milk
+- ◻️ sugar  
+  _↳ feedback if chosen: None._
+- ◻️ palm wine  
+  _↳ feedback if chosen: Not a calcium source._
+
+Full working after a second miss:
+
+> Milk builds bones.  
+> So the answer is “milk”.  
+
+> Which food is rich in calcium?
+
+- ✅ milk
+- ◻️ sugar  
+  _↳ feedback if chosen: None._
+- ◻️ palm wine  
+  _↳ feedback if chosen: Not a calcium source._
+- ◻️ white rice  
+  _↳ feedback if chosen: Little calcium._
+
+Full working after a second miss:
+
+> Milk builds bones.  
+> So the answer is “milk”.  
+
+> Which advice prevents rickets?
+
+- ◻️ give only sugar water  
+  _↳ feedback if chosen: No nutrients._
+- ◻️ keep babies indoors all day  
+  _↳ feedback if chosen: They need sunlight._
+- ✅ let children play in the morning sun and give them milk and fish
+- ◻️ avoid all eggs  
+  _↳ feedback if chosen: Eggs give vitamin D._
+
+Full working after a second miss:
+
+> Sunlight and calcium.  
+> So the answer is “let children play in the morning sun and give them milk and fish”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-50-spot` · Lesson 50 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Rickets causes bowed legs.
+- ✅ Sunlight helps make vitamin D.
+- ✅ Milk gives calcium.
+- ✅ Osteomalacia affects adults.
+- ❌ Rickets is caused by too much calcium.  
+  _↳ It is caused by a lack of calcium or vitamin D._
+- ❌ Children should never go in the sun.  
+  _↳ Morning sun helps make vitamin D._
+- ❌ Crayfish has no calcium.  
+  _↳ Small fish eaten with bones give calcium._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Rickets causes bowed legs.
+- ◻️ Milk gives calcium.
+- ◻️ Sunlight helps make vitamin D.
+- ✅ Crayfish has no calcium.  
+  _↳ explanation: Small fish eaten with bones give calcium._
+
+Full working after a second miss:
+
+> The wrong statement is “Crayfish has no calcium.”.  
+> Small fish eaten with bones give calcium.  
+
+> Which statement is wrong?
+
+- ✅ Children should never go in the sun.  
+  _↳ explanation: Morning sun helps make vitamin D._
+- ◻️ Rickets causes bowed legs.
+- ◻️ Osteomalacia affects adults.
+- ◻️ Milk gives calcium.
+
+Full working after a second miss:
+
+> The wrong statement is “Children should never go in the sun.”.  
+> Morning sun helps make vitamin D.  
+
+> Which statement is wrong?
+
+- ✅ Rickets is caused by too much calcium.  
+  _↳ explanation: It is caused by a lack of calcium or vitamin D._
+- ◻️ Milk gives calcium.
+- ◻️ Rickets causes bowed legs.
+- ◻️ Sunlight helps make vitamin D.
+
+Full working after a second miss:
+
+> The wrong statement is “Rickets is caused by too much calcium.”.  
+> It is caused by a lack of calcium or vitamin D.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-50-prev-card` · Lesson 50 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which food is rich in calcium? | milk | white rice · sugar · palm wine | Little calcium. · None. · Not a calcium source. | Milk builds bones. |
+| Which advice prevents rickets? | let children play in the morning sun and give them milk and fish | keep babies indoors all day · give only sugar water · avoid all eggs | They need sunlight. · No nutrients. · Eggs give vitamin D. | Sunlight and calcium. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which advice prevents rickets?
+
+- ◻️ keep babies indoors all day  
+  _↳ feedback if chosen: They need sunlight._
+- ◻️ give only sugar water  
+  _↳ feedback if chosen: No nutrients._
+- ◻️ avoid all eggs  
+  _↳ feedback if chosen: Eggs give vitamin D._
+- ✅ let children play in the morning sun and give them milk and fish
+
+Full working after a second miss:
+
+> Sunlight and calcium.  
+> So the answer is “let children play in the morning sun and give them milk and fish”.  
+
+> Which advice prevents rickets?
+
+- ◻️ keep babies indoors all day  
+  _↳ feedback if chosen: They need sunlight._
+- ◻️ give only sugar water  
+  _↳ feedback if chosen: No nutrients._
+- ✅ let children play in the morning sun and give them milk and fish
+- ◻️ avoid all eggs  
+  _↳ feedback if chosen: Eggs give vitamin D._
+
+Full working after a second miss:
+
+> Sunlight and calcium.  
+> So the answer is “let children play in the morning sun and give them milk and fish”.  
+
+> Which advice prevents rickets?
+
+- ◻️ keep babies indoors all day  
+  _↳ feedback if chosen: They need sunlight._
+- ◻️ avoid all eggs  
+  _↳ feedback if chosen: Eggs give vitamin D._
+- ✅ let children play in the morning sun and give them milk and fish
+- ◻️ give only sugar water  
+  _↳ feedback if chosen: No nutrients._
+
+Full working after a second miss:
+
+> Sunlight and calcium.  
+> So the answer is “let children play in the morning sun and give them milk and fish”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-51-scurvy` · Lesson 51 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What causes scurvy? | a lack of vitamin C | a lack of iron · a lack of vitamin D · too much fat | That causes anaemia. · That causes rickets. · That causes obesity. | Vitamin C keeps gums and skin healthy. |
+| Which is a sign of scurvy? | bleeding, swollen gums | bowed legs · swollen neck · night blindness | Rickets. · Goitre. · Vitamin A deficiency. | Gums become spongy and bleed. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What causes scurvy?
+
+- ✅ a lack of vitamin C
+- ◻️ too much fat  
+  _↳ feedback if chosen: That causes obesity._
+- ◻️ a lack of vitamin D  
+  _↳ feedback if chosen: That causes rickets._
+- ◻️ a lack of iron  
+  _↳ feedback if chosen: That causes anaemia._
+
+Full working after a second miss:
+
+> Vitamin C keeps gums and skin healthy.  
+> So the answer is “a lack of vitamin C”.  
+
+> Which is a sign of scurvy?
+
+- ◻️ bowed legs  
+  _↳ feedback if chosen: Rickets._
+- ✅ bleeding, swollen gums
+- ◻️ swollen neck  
+  _↳ feedback if chosen: Goitre._
+- ◻️ night blindness  
+  _↳ feedback if chosen: Vitamin A deficiency._
+
+Full working after a second miss:
+
+> Gums become spongy and bleed.  
+> So the answer is “bleeding, swollen gums”.  
+
+> What causes scurvy?
+
+- ◻️ a lack of iron  
+  _↳ feedback if chosen: That causes anaemia._
+- ✅ a lack of vitamin C
+- ◻️ too much fat  
+  _↳ feedback if chosen: That causes obesity._
+- ◻️ a lack of vitamin D  
+  _↳ feedback if chosen: That causes rickets._
+
+Full working after a second miss:
+
+> Vitamin C keeps gums and skin healthy.  
+> So the answer is “a lack of vitamin C”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-51-anaem` · Lesson 51 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is anaemia? | a lack of red blood cells or haemoglobin | too much blood sugar · a broken bone · a skin disease | That is diabetes. · Not the meaning. · Not the meaning. | The blood carries less oxygen. |
+| Which is a sign of anaemia? | pale eyelids and palms | bleeding gums · bowed legs · swollen feet | Scurvy. · Rickets. · Kwashiorkor. | Less red colour from haemoglobin. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a sign of anaemia?
+
+- ◻️ bleeding gums  
+  _↳ feedback if chosen: Scurvy._
+- ◻️ bowed legs  
+  _↳ feedback if chosen: Rickets._
+- ✅ pale eyelids and palms
+- ◻️ swollen feet  
+  _↳ feedback if chosen: Kwashiorkor._
+
+Full working after a second miss:
+
+> Less red colour from haemoglobin.  
+> So the answer is “pale eyelids and palms”.  
+
+> What is anaemia?
+
+- ◻️ a skin disease  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ a lack of red blood cells or haemoglobin
+- ◻️ too much blood sugar  
+  _↳ feedback if chosen: That is diabetes._
+- ◻️ a broken bone  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> The blood carries less oxygen.  
+> So the answer is “a lack of red blood cells or haemoglobin”.  
+
+> What is anaemia?
+
+- ◻️ too much blood sugar  
+  _↳ feedback if chosen: That is diabetes._
+- ✅ a lack of red blood cells or haemoglobin
+- ◻️ a skin disease  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a broken bone  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> The blood carries less oxygen.  
+> So the answer is “a lack of red blood cells or haemoglobin”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-51-food` · Lesson 51 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which food is rich in iron? | liver | white bread · sugar · cassava flour | Little iron. · No iron. · Little iron. | Liver, beans and dark leaves give iron. |
+| Why should fruit be eaten raw rather than cooked for a long time? | Long cooking destroys vitamin C. | Raw fruit has more fat. · Cooking adds vitamin C. · Raw fruit has no vitamins. | Not true. · It destroys it. · Raw fruit is rich in vitamins. | Vitamin C is easily destroyed by heat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should fruit be eaten raw rather than cooked for a long time?
+
+- ◻️ Raw fruit has no vitamins.  
+  _↳ feedback if chosen: Raw fruit is rich in vitamins._
+- ◻️ Cooking adds vitamin C.  
+  _↳ feedback if chosen: It destroys it._
+- ✅ Long cooking destroys vitamin C.
+- ◻️ Raw fruit has more fat.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Vitamin C is easily destroyed by heat.  
+> So the answer is “Long cooking destroys vitamin C.”.  
+
+> Why should fruit be eaten raw rather than cooked for a long time?
+
+- ◻️ Raw fruit has no vitamins.  
+  _↳ feedback if chosen: Raw fruit is rich in vitamins._
+- ◻️ Raw fruit has more fat.  
+  _↳ feedback if chosen: Not true._
+- ✅ Long cooking destroys vitamin C.
+- ◻️ Cooking adds vitamin C.  
+  _↳ feedback if chosen: It destroys it._
+
+Full working after a second miss:
+
+> Vitamin C is easily destroyed by heat.  
+> So the answer is “Long cooking destroys vitamin C.”.  
+
+> Which food is rich in iron?
+
+- ◻️ cassava flour  
+  _↳ feedback if chosen: Little iron._
+- ◻️ sugar  
+  _↳ feedback if chosen: No iron._
+- ✅ liver
+- ◻️ white bread  
+  _↳ feedback if chosen: Little iron._
+
+Full working after a second miss:
+
+> Liver, beans and dark leaves give iron.  
+> So the answer is “liver”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-51-spot` · Lesson 51 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Scurvy makes the gums bleed.
+- ✅ Anaemia causes tiredness.
+- ✅ Oranges contain vitamin C.
+- ✅ Beans contain iron.
+- ❌ Anaemia is caused by too much iron.  
+  _↳ It is often caused by a lack of iron._
+- ❌ Malaria and worms protect against anaemia.  
+  _↳ They cause anaemia._
+- ❌ Boiling oranges for an hour keeps all their vitamin C.  
+  _↳ Long heating destroys vitamin C._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Beans contain iron.
+- ✅ Malaria and worms protect against anaemia.  
+  _↳ explanation: They cause anaemia._
+- ◻️ Anaemia causes tiredness.
+- ◻️ Scurvy makes the gums bleed.
+
+Full working after a second miss:
+
+> The wrong statement is “Malaria and worms protect against anaemia.”.  
+> They cause anaemia.  
+
+> Which statement is wrong?
+
+- ◻️ Anaemia causes tiredness.
+- ◻️ Scurvy makes the gums bleed.
+- ✅ Malaria and worms protect against anaemia.  
+  _↳ explanation: They cause anaemia._
+- ◻️ Oranges contain vitamin C.
+
+Full working after a second miss:
+
+> The wrong statement is “Malaria and worms protect against anaemia.”.  
+> They cause anaemia.  
+
+> Which statement is wrong?
+
+- ◻️ Scurvy makes the gums bleed.
+- ✅ Malaria and worms protect against anaemia.  
+  _↳ explanation: They cause anaemia._
+- ◻️ Oranges contain vitamin C.
+- ◻️ Anaemia causes tiredness.
+
+Full working after a second miss:
+
+> The wrong statement is “Malaria and worms protect against anaemia.”.  
+> They cause anaemia.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-51-food-card` · Lesson 51 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which food is rich in iron? | liver | white bread · sugar · cassava flour | Little iron. · No iron. · Little iron. | Liver, beans and dark leaves give iron. |
+| Why should fruit be eaten raw rather than cooked for a long time? | Long cooking destroys vitamin C. | Raw fruit has more fat. · Cooking adds vitamin C. · Raw fruit has no vitamins. | Not true. · It destroys it. · Raw fruit is rich in vitamins. | Vitamin C is easily destroyed by heat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should fruit be eaten raw rather than cooked for a long time?
+
+- ◻️ Raw fruit has no vitamins.  
+  _↳ feedback if chosen: Raw fruit is rich in vitamins._
+- ◻️ Cooking adds vitamin C.  
+  _↳ feedback if chosen: It destroys it._
+- ✅ Long cooking destroys vitamin C.
+- ◻️ Raw fruit has more fat.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Vitamin C is easily destroyed by heat.  
+> So the answer is “Long cooking destroys vitamin C.”.  
+
+> Which food is rich in iron?
+
+- ◻️ sugar  
+  _↳ feedback if chosen: No iron._
+- ✅ liver
+- ◻️ cassava flour  
+  _↳ feedback if chosen: Little iron._
+- ◻️ white bread  
+  _↳ feedback if chosen: Little iron._
+
+Full working after a second miss:
+
+> Liver, beans and dark leaves give iron.  
+> So the answer is “liver”.  
+
+> Why should fruit be eaten raw rather than cooked for a long time?
+
+- ◻️ Raw fruit has more fat.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Cooking adds vitamin C.  
+  _↳ feedback if chosen: It destroys it._
+- ◻️ Raw fruit has no vitamins.  
+  _↳ feedback if chosen: Raw fruit is rich in vitamins._
+- ✅ Long cooking destroys vitamin C.
+
+Full working after a second miss:
+
+> Vitamin C is easily destroyed by heat.  
+> So the answer is “Long cooking destroys vitamin C.”.  
+
+Sources: deficiency-diseases (Kwashiorkor, marasmus and night blindness: causes, signs, children at risk, prevention)
+
+### `h2-52-what` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is embroidery? | decorating fabric with needle and thread | washing clothes · cooking food · weaving baskets only | That is laundry. · That is cookery. · That is basketry. | Patterns made with stitches. |
+| Which tool is essential for hand embroidery? | a needle | a pressure cooker · a hoe · a blender | A kitchen tool. · A farm tool. · A kitchen tool. | Needle and thread. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is embroidery?
+
+- ✅ decorating fabric with needle and thread
+- ◻️ weaving baskets only  
+  _↳ feedback if chosen: That is basketry._
+- ◻️ cooking food  
+  _↳ feedback if chosen: That is cookery._
+- ◻️ washing clothes  
+  _↳ feedback if chosen: That is laundry._
+
+Full working after a second miss:
+
+> Patterns made with stitches.  
+> So the answer is “decorating fabric with needle and thread”.  
+
+> What is embroidery?
+
+- ◻️ weaving baskets only  
+  _↳ feedback if chosen: That is basketry._
+- ◻️ cooking food  
+  _↳ feedback if chosen: That is cookery._
+- ◻️ washing clothes  
+  _↳ feedback if chosen: That is laundry._
+- ✅ decorating fabric with needle and thread
+
+Full working after a second miss:
+
+> Patterns made with stitches.  
+> So the answer is “decorating fabric with needle and thread”.  
+
+> Which tool is essential for hand embroidery?
+
+- ◻️ a hoe  
+  _↳ feedback if chosen: A farm tool._
+- ✅ a needle
+- ◻️ a pressure cooker  
+  _↳ feedback if chosen: A kitchen tool._
+- ◻️ a blender  
+  _↳ feedback if chosen: A kitchen tool._
+
+Full working after a second miss:
+
+> Needle and thread.  
+> So the answer is “a needle”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-52-use` · Lesson 52 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a use of embroidery? | decorating table linen and clothes | cooking rice · repairing a car · building a house | Not a use. · Not a use. · Not a use. | It decorates fabric. |
+| What is white work? | embroidery with white thread on white fabric | washing white clothes · painting walls white · a white sewing machine | That is laundry. · Not embroidery. · Not the meaning. | A delicate technique. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a use of embroidery?
+
+- ◻️ cooking rice  
+  _↳ feedback if chosen: Not a use._
+- ✅ decorating table linen and clothes
+- ◻️ repairing a car  
+  _↳ feedback if chosen: Not a use._
+- ◻️ building a house  
+  _↳ feedback if chosen: Not a use._
+
+Full working after a second miss:
+
+> It decorates fabric.  
+> So the answer is “decorating table linen and clothes”.  
+
+> Which is a use of embroidery?
+
+- ◻️ building a house  
+  _↳ feedback if chosen: Not a use._
+- ◻️ repairing a car  
+  _↳ feedback if chosen: Not a use._
+- ◻️ cooking rice  
+  _↳ feedback if chosen: Not a use._
+- ✅ decorating table linen and clothes
+
+Full working after a second miss:
+
+> It decorates fabric.  
+> So the answer is “decorating table linen and clothes”.  
+
+> What is white work?
+
+- ✅ embroidery with white thread on white fabric
+- ◻️ a white sewing machine  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ washing white clothes  
+  _↳ feedback if chosen: That is laundry._
+- ◻️ painting walls white  
+  _↳ feedback if chosen: Not embroidery._
+
+Full working after a second miss:
+
+> A delicate technique.  
+> So the answer is “embroidery with white thread on white fabric”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-52-spot` · Lesson 52 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Embroidery uses needle and thread.
+- ✅ The toghu is traditional.
+- ✅ Machines are used in modern embroidery.
+- ✅ Embroidery can bring income.
+- ❌ Embroidery is a way of cooking.  
+  _↳ It decorates fabric._
+- ❌ Traditional embroidery is always made by computer.  
+  _↳ It is hand-made._
+- ❌ Embroidery is only for clothes, never for linen.  
+  _↳ It also decorates linen and cushions._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Machines are used in modern embroidery.
+- ✅ Embroidery is only for clothes, never for linen.  
+  _↳ explanation: It also decorates linen and cushions._
+- ◻️ Embroidery uses needle and thread.
+- ◻️ Embroidery can bring income.
+
+Full working after a second miss:
+
+> The wrong statement is “Embroidery is only for clothes, never for linen.”.  
+> It also decorates linen and cushions.  
+
+> Which statement is wrong?
+
+- ◻️ Embroidery can bring income.
+- ✅ Embroidery is a way of cooking.  
+  _↳ explanation: It decorates fabric._
+- ◻️ The toghu is traditional.
+- ◻️ Machines are used in modern embroidery.
+
+Full working after a second miss:
+
+> The wrong statement is “Embroidery is a way of cooking.”.  
+> It decorates fabric.  
+
+> Which statement is wrong?
+
+- ◻️ Embroidery uses needle and thread.
+- ✅ Embroidery is a way of cooking.  
+  _↳ explanation: It decorates fabric._
+- ◻️ Embroidery can bring income.
+- ◻️ Machines are used in modern embroidery.
+
+Full working after a second miss:
+
+> The wrong statement is “Embroidery is a way of cooking.”.  
+> It decorates fabric.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-52-use-card` · Lesson 52 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is a use of embroidery? | decorating table linen and clothes | cooking rice · repairing a car · building a house | Not a use. · Not a use. · Not a use. | It decorates fabric. |
+| What is white work? | embroidery with white thread on white fabric | washing white clothes · painting walls white · a white sewing machine | That is laundry. · Not embroidery. · Not the meaning. | A delicate technique. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is a use of embroidery?
+
+- ◻️ repairing a car  
+  _↳ feedback if chosen: Not a use._
+- ◻️ building a house  
+  _↳ feedback if chosen: Not a use._
+- ◻️ cooking rice  
+  _↳ feedback if chosen: Not a use._
+- ✅ decorating table linen and clothes
+
+Full working after a second miss:
+
+> It decorates fabric.  
+> So the answer is “decorating table linen and clothes”.  
+
+> Which is a use of embroidery?
+
+- ◻️ building a house  
+  _↳ feedback if chosen: Not a use._
+- ◻️ cooking rice  
+  _↳ feedback if chosen: Not a use._
+- ◻️ repairing a car  
+  _↳ feedback if chosen: Not a use._
+- ✅ decorating table linen and clothes
+
+Full working after a second miss:
+
+> It decorates fabric.  
+> So the answer is “decorating table linen and clothes”.  
+
+> Which is a use of embroidery?
+
+- ◻️ building a house  
+  _↳ feedback if chosen: Not a use._
+- ◻️ cooking rice  
+  _↳ feedback if chosen: Not a use._
+- ◻️ repairing a car  
+  _↳ feedback if chosen: Not a use._
+- ✅ decorating table linen and clothes
+
+Full working after a second miss:
+
+> It decorates fabric.  
+> So the answer is “decorating table linen and clothes”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-53-stitch` · Lesson 53 · matching, level 1
+
+Prompt: Match each stitch to its description.
+
+Pairs (4 shown each time):
+
+- running stitch → **small even stitches in and out in a line**
+- back stitch → **each stitch goes back to meet the last, a solid line**
+- satin stitch → **close straight stitches that fill a shape**
+- chain stitch → **linked loops like a chain**
+- blanket stitch → **used to finish an edge**
+
+
+Three generated variants:
+
+> Match each stitch to its description.
+
+Right-hand side (shuffled): close straight stitches that fill a shape · small even stitches in and out in a line · linked loops like a chain · used to finish an edge
+- blanket stitch → **used to finish an edge**
+- chain stitch → **linked loops like a chain**
+- running stitch → **small even stitches in and out in a line**
+- satin stitch → **close straight stitches that fill a shape**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> blanket stitch → used to finish an edge  
+> chain stitch → linked loops like a chain  
+> running stitch → small even stitches in and out in a line  
+> satin stitch → close straight stitches that fill a shape  
+
+> Match each stitch to its description.
+
+Right-hand side (shuffled): small even stitches in and out in a line · close straight stitches that fill a shape · linked loops like a chain · each stitch goes back to meet the last, a solid line
+- chain stitch → **linked loops like a chain**
+- running stitch → **small even stitches in and out in a line**
+- back stitch → **each stitch goes back to meet the last, a solid line**
+- satin stitch → **close straight stitches that fill a shape**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> chain stitch → linked loops like a chain  
+> running stitch → small even stitches in and out in a line  
+> back stitch → each stitch goes back to meet the last, a solid line  
+> satin stitch → close straight stitches that fill a shape  
+
+> Match each stitch to its description.
+
+Right-hand side (shuffled): linked loops like a chain · close straight stitches that fill a shape · each stitch goes back to meet the last, a solid line · small even stitches in and out in a line
+- chain stitch → **linked loops like a chain**
+- running stitch → **small even stitches in and out in a line**
+- satin stitch → **close straight stitches that fill a shape**
+- back stitch → **each stitch goes back to meet the last, a solid line**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> chain stitch → linked loops like a chain  
+> running stitch → small even stitches in and out in a line  
+> satin stitch → close straight stitches that fill a shape  
+> back stitch → each stitch goes back to meet the last, a solid line  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-53-use` · Lesson 53 · multiple choice, level 1
+
+Prompt: Which stitch is best for {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| writing a name in a solid line | back stitch | satin stitch · blanket stitch · zigzag stitch | That fills shapes. · That finishes edges. · That makes borders. | A solid unbroken line. |
+| filling a petal smoothly | satin stitch | running stitch · back stitch · chain stitch | That makes a dotted line. · That makes a line. · That makes linked loops. | Close stitches cover the shape. |
+| finishing the edge of a blanket | blanket (buttonhole) stitch | satin stitch · running stitch · straight stitch | That fills. · That outlines. · Single stitches. | It stops the edge fraying. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which stitch is best for writing a name in a solid line?
+
+- ✅ back stitch
+- ◻️ zigzag stitch  
+  _↳ feedback if chosen: That makes borders._
+- ◻️ satin stitch  
+  _↳ feedback if chosen: That fills shapes._
+- ◻️ blanket stitch  
+  _↳ feedback if chosen: That finishes edges._
+
+Full working after a second miss:
+
+> A solid unbroken line.  
+> So the answer is “back stitch”.  
+
+> Which stitch is best for finishing the edge of a blanket?
+
+- ◻️ straight stitch  
+  _↳ feedback if chosen: Single stitches._
+- ◻️ satin stitch  
+  _↳ feedback if chosen: That fills._
+- ✅ blanket (buttonhole) stitch
+- ◻️ running stitch  
+  _↳ feedback if chosen: That outlines._
+
+Full working after a second miss:
+
+> It stops the edge fraying.  
+> So the answer is “blanket (buttonhole) stitch”.  
+
+> Which stitch is best for writing a name in a solid line?
+
+- ◻️ blanket stitch  
+  _↳ feedback if chosen: That finishes edges._
+- ◻️ satin stitch  
+  _↳ feedback if chosen: That fills shapes._
+- ✅ back stitch
+- ◻️ zigzag stitch  
+  _↳ feedback if chosen: That makes borders._
+
+Full working after a second miss:
+
+> A solid unbroken line.  
+> So the answer is “back stitch”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-53-order` · Lesson 53 · ordering, level 2
+
+Prompt: Put the steps of embroidering a design in order.
+
+Items in the right order:
+
+1. Transfer the design onto the fabric
+2. Stretch the fabric in an embroidery hoop
+3. Thread the needle and knot the thread
+4. Stitch the design evenly
+5. Fasten the thread neatly at the back
+
+
+Three generated variants:
+
+> Put the steps of embroidering a design in order.
+
+Shown as: Fasten the thread neatly at the back · Stretch the fabric in an embroidery hoop · Transfer the design onto the fabric · Stitch the design evenly · Thread the needle and knot the thread
+Correct order: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back
+
+Full working after a second miss:
+
+> The correct order is: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back.  
+
+> Put the steps of embroidering a design in order.
+
+Shown as: Thread the needle and knot the thread · Stretch the fabric in an embroidery hoop · Transfer the design onto the fabric · Fasten the thread neatly at the back · Stitch the design evenly
+Correct order: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back
+
+Full working after a second miss:
+
+> The correct order is: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back.  
+
+> Put the steps of embroidering a design in order.
+
+Shown as: Transfer the design onto the fabric · Stitch the design evenly · Fasten the thread neatly at the back · Stretch the fabric in an embroidery hoop · Thread the needle and knot the thread
+Correct order: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back
+
+Full working after a second miss:
+
+> The correct order is: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-53-spot` · Lesson 53 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Satin stitch fills shapes.
+- ✅ Back stitch makes a solid line.
+- ✅ A hoop keeps the fabric tight.
+- ✅ Blanket stitch finishes edges.
+- ❌ Running stitch fills a shape completely.  
+  _↳ It makes a broken line; satin stitch fills._
+- ❌ Stitches should be as uneven as possible.  
+  _↳ Keep them even._
+- ❌ Never fasten the thread at the back.  
+  _↳ Fasten it neatly so it does not come undone._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Satin stitch fills shapes.
+- ◻️ Blanket stitch finishes edges.
+- ✅ Running stitch fills a shape completely.  
+  _↳ explanation: It makes a broken line; satin stitch fills._
+- ◻️ Back stitch makes a solid line.
+
+Full working after a second miss:
+
+> The wrong statement is “Running stitch fills a shape completely.”.  
+> It makes a broken line; satin stitch fills.  
+
+> Which statement is wrong?
+
+- ✅ Running stitch fills a shape completely.  
+  _↳ explanation: It makes a broken line; satin stitch fills._
+- ◻️ Back stitch makes a solid line.
+- ◻️ Satin stitch fills shapes.
+- ◻️ Blanket stitch finishes edges.
+
+Full working after a second miss:
+
+> The wrong statement is “Running stitch fills a shape completely.”.  
+> It makes a broken line; satin stitch fills.  
+
+> Which statement is wrong?
+
+- ◻️ Blanket stitch finishes edges.
+- ◻️ Satin stitch fills shapes.
+- ◻️ A hoop keeps the fabric tight.
+- ✅ Stitches should be as uneven as possible.  
+  _↳ explanation: Keep them even._
+
+Full working after a second miss:
+
+> The wrong statement is “Stitches should be as uneven as possible.”.  
+> Keep them even.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-53-order-card` · Lesson 53 · ordering, level 1
+
+Prompt: Put the steps of embroidering a design in order.
+
+Items in the right order:
+
+1. Transfer the design onto the fabric
+2. Stretch the fabric in an embroidery hoop
+3. Thread the needle and knot the thread
+4. Stitch the design evenly
+5. Fasten the thread neatly at the back
+
+
+Three generated variants:
+
+> Put the steps of embroidering a design in order.
+
+Shown as: Stitch the design evenly · Stretch the fabric in an embroidery hoop · Transfer the design onto the fabric · Fasten the thread neatly at the back · Thread the needle and knot the thread
+Correct order: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back
+
+Full working after a second miss:
+
+> The correct order is: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back.  
+
+> Put the steps of embroidering a design in order.
+
+Shown as: Stitch the design evenly · Transfer the design onto the fabric · Fasten the thread neatly at the back · Thread the needle and knot the thread · Stretch the fabric in an embroidery hoop
+Correct order: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back
+
+Full working after a second miss:
+
+> The correct order is: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back.  
+
+> Put the steps of embroidering a design in order.
+
+Shown as: Thread the needle and knot the thread · Stretch the fabric in an embroidery hoop · Stitch the design evenly · Transfer the design onto the fabric · Fasten the thread neatly at the back
+Correct order: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back
+
+Full working after a second miss:
+
+> The correct order is: Transfer the design onto the fabric → Stretch the fabric in an embroidery hoop → Thread the needle and knot the thread → Stitch the design evenly → Fasten the thread neatly at the back.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-56-source` · Lesson 56 · matching, level 1
+
+Prompt: Match each fibre to where it comes from.
+
+Pairs (4 shown each time):
+
+- cotton → **the cotton plant**
+- silk → **silkworm cocoons**
+- wool → **sheep**
+- linen → **the flax plant**
+- polyester → **chemicals (man-made)**
+
+
+Three generated variants:
+
+> Match each fibre to where it comes from.
+
+Right-hand side (shuffled): the cotton plant · chemicals (man-made) · sheep · silkworm cocoons
+- wool → **sheep**
+- silk → **silkworm cocoons**
+- cotton → **the cotton plant**
+- polyester → **chemicals (man-made)**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> wool → sheep  
+> silk → silkworm cocoons  
+> cotton → the cotton plant  
+> polyester → chemicals (man-made)  
+
+> Match each fibre to where it comes from.
+
+Right-hand side (shuffled): sheep · chemicals (man-made) · the flax plant · silkworm cocoons
+- polyester → **chemicals (man-made)**
+- wool → **sheep**
+- linen → **the flax plant**
+- silk → **silkworm cocoons**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> polyester → chemicals (man-made)  
+> wool → sheep  
+> linen → the flax plant  
+> silk → silkworm cocoons  
+
+> Match each fibre to where it comes from.
+
+Right-hand side (shuffled): chemicals (man-made) · the flax plant · sheep · silkworm cocoons
+- linen → **the flax plant**
+- silk → **silkworm cocoons**
+- wool → **sheep**
+- polyester → **chemicals (man-made)**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> linen → the flax plant  
+> silk → silkworm cocoons  
+> wool → sheep  
+> polyester → chemicals (man-made)  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-56-prop` · Lesson 56 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which fabric is cool and absorbs sweat well? | cotton | nylon · polyester · wool | Hot and not absorbent. · Less absorbent. · Warm. | Good for hot weather. |
+| Which fabric is smooth, shiny and expensive? | silk | cotton · linen · wool | Cheaper and matt. · Rough and creases. · Warm and woolly. | From silkworms. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which fabric is smooth, shiny and expensive?
+
+- ◻️ cotton  
+  _↳ feedback if chosen: Cheaper and matt._
+- ◻️ linen  
+  _↳ feedback if chosen: Rough and creases._
+- ✅ silk
+- ◻️ wool  
+  _↳ feedback if chosen: Warm and woolly._
+
+Full working after a second miss:
+
+> From silkworms.  
+> So the answer is “silk”.  
+
+> Which fabric is cool and absorbs sweat well?
+
+- ◻️ nylon  
+  _↳ feedback if chosen: Hot and not absorbent._
+- ◻️ wool  
+  _↳ feedback if chosen: Warm._
+- ✅ cotton
+- ◻️ polyester  
+  _↳ feedback if chosen: Less absorbent._
+
+Full working after a second miss:
+
+> Good for hot weather.  
+> So the answer is “cotton”.  
+
+> Which fabric is smooth, shiny and expensive?
+
+- ◻️ cotton  
+  _↳ feedback if chosen: Cheaper and matt._
+- ✅ silk
+- ◻️ wool  
+  _↳ feedback if chosen: Warm and woolly._
+- ◻️ linen  
+  _↳ feedback if chosen: Rough and creases._
+
+Full working after a second miss:
+
+> From silkworms.  
+> So the answer is “silk”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-56-care` · Lesson 56 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What can happen if a nylon shirt is ironed with a very hot iron? | It can melt. | It becomes cotton. · It grows bigger. · Nothing at all. | Not possible. · Not true. · It can be damaged. | Synthetics melt at high heat. |
+| Why should wool be washed in cool water? | It can shrink in hot water. | It dissolves in water. · It becomes silk. · It changes colour to white. | Not true. · Not true. · Not the main risk. | Hot water shrinks wool. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should wool be washed in cool water?
+
+- ◻️ It dissolves in water.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It changes colour to white.  
+  _↳ feedback if chosen: Not the main risk._
+- ◻️ It becomes silk.  
+  _↳ feedback if chosen: Not true._
+- ✅ It can shrink in hot water.
+
+Full working after a second miss:
+
+> Hot water shrinks wool.  
+> So the answer is “It can shrink in hot water.”.  
+
+> What can happen if a nylon shirt is ironed with a very hot iron?
+
+- ◻️ It becomes cotton.  
+  _↳ feedback if chosen: Not possible._
+- ✅ It can melt.
+- ◻️ It grows bigger.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Nothing at all.  
+  _↳ feedback if chosen: It can be damaged._
+
+Full working after a second miss:
+
+> Synthetics melt at high heat.  
+> So the answer is “It can melt.”.  
+
+> What can happen if a nylon shirt is ironed with a very hot iron?
+
+- ◻️ It grows bigger.  
+  _↳ feedback if chosen: Not true._
+- ◻️ Nothing at all.  
+  _↳ feedback if chosen: It can be damaged._
+- ✅ It can melt.
+- ◻️ It becomes cotton.  
+  _↳ feedback if chosen: Not possible._
+
+Full working after a second miss:
+
+> Synthetics melt at high heat.  
+> So the answer is “It can melt.”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-56-spot` · Lesson 56 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Cotton comes from a plant.
+- ✅ Silk comes from silkworms.
+- ✅ Polyester is man-made.
+- ✅ Wool comes from sheep.
+- ❌ Nylon is a natural fibre from a tree.  
+  _↳ It is man-made._
+- ❌ Cotton is hot and does not absorb sweat.  
+  _↳ It is cool and absorbent._
+- ❌ Synthetic fabrics never melt.  
+  _↳ They can melt with a hot iron._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Wool comes from sheep.
+- ◻️ Polyester is man-made.
+- ✅ Synthetic fabrics never melt.  
+  _↳ explanation: They can melt with a hot iron._
+- ◻️ Cotton comes from a plant.
+
+Full working after a second miss:
+
+> The wrong statement is “Synthetic fabrics never melt.”.  
+> They can melt with a hot iron.  
+
+> Which statement is wrong?
+
+- ◻️ Polyester is man-made.
+- ◻️ Wool comes from sheep.
+- ✅ Nylon is a natural fibre from a tree.  
+  _↳ explanation: It is man-made._
+- ◻️ Cotton comes from a plant.
+
+Full working after a second miss:
+
+> The wrong statement is “Nylon is a natural fibre from a tree.”.  
+> It is man-made.  
+
+> Which statement is wrong?
+
+- ◻️ Silk comes from silkworms.
+- ◻️ Cotton comes from a plant.
+- ◻️ Wool comes from sheep.
+- ✅ Nylon is a natural fibre from a tree.  
+  _↳ explanation: It is man-made._
+
+Full working after a second miss:
+
+> The wrong statement is “Nylon is a natural fibre from a tree.”.  
+> It is man-made.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-56-care-card` · Lesson 56 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What can happen if a nylon shirt is ironed with a very hot iron? | It can melt. | It becomes cotton. · It grows bigger. · Nothing at all. | Not possible. · Not true. · It can be damaged. | Synthetics melt at high heat. |
+| Why should wool be washed in cool water? | It can shrink in hot water. | It dissolves in water. · It becomes silk. · It changes colour to white. | Not true. · Not true. · Not the main risk. | Hot water shrinks wool. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should wool be washed in cool water?
+
+- ◻️ It dissolves in water.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It changes colour to white.  
+  _↳ feedback if chosen: Not the main risk._
+- ✅ It can shrink in hot water.
+- ◻️ It becomes silk.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Hot water shrinks wool.  
+> So the answer is “It can shrink in hot water.”.  
+
+> What can happen if a nylon shirt is ironed with a very hot iron?
+
+- ✅ It can melt.
+- ◻️ Nothing at all.  
+  _↳ feedback if chosen: It can be damaged._
+- ◻️ It becomes cotton.  
+  _↳ feedback if chosen: Not possible._
+- ◻️ It grows bigger.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Synthetics melt at high heat.  
+> So the answer is “It can melt.”.  
+
+> What can happen if a nylon shirt is ironed with a very hot iron?
+
+- ◻️ Nothing at all.  
+  _↳ feedback if chosen: It can be damaged._
+- ◻️ It becomes cotton.  
+  _↳ feedback if chosen: Not possible._
+- ✅ It can melt.
+- ◻️ It grows bigger.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Synthetics melt at high heat.  
+> So the answer is “It can melt.”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-57-what` · Lesson 57 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is counted-thread embroidery? | stitches placed by counting the threads of the fabric | stitches made without any plan · painting on fabric · machine washing | That is free design. · Not embroidery. · Not embroidery. | All stitches are the same size. |
+| Which fabric makes counting easy? | an even-weave fabric such as Aida cloth | slippery silk · knitted wool · plastic sheet | Threads are hard to count. · Not woven evenly. · Not a fabric for embroidery. | Clear holes in a grid. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is counted-thread embroidery?
+
+- ◻️ painting on fabric  
+  _↳ feedback if chosen: Not embroidery._
+- ◻️ machine washing  
+  _↳ feedback if chosen: Not embroidery._
+- ◻️ stitches made without any plan  
+  _↳ feedback if chosen: That is free design._
+- ✅ stitches placed by counting the threads of the fabric
+
+Full working after a second miss:
+
+> All stitches are the same size.  
+> So the answer is “stitches placed by counting the threads of the fabric”.  
+
+> What is counted-thread embroidery?
+
+- ✅ stitches placed by counting the threads of the fabric
+- ◻️ painting on fabric  
+  _↳ feedback if chosen: Not embroidery._
+- ◻️ machine washing  
+  _↳ feedback if chosen: Not embroidery._
+- ◻️ stitches made without any plan  
+  _↳ feedback if chosen: That is free design._
+
+Full working after a second miss:
+
+> All stitches are the same size.  
+> So the answer is “stitches placed by counting the threads of the fabric”.  
+
+> What is counted-thread embroidery?
+
+- ◻️ stitches made without any plan  
+  _↳ feedback if chosen: That is free design._
+- ◻️ machine washing  
+  _↳ feedback if chosen: Not embroidery._
+- ✅ stitches placed by counting the threads of the fabric
+- ◻️ painting on fabric  
+  _↳ feedback if chosen: Not embroidery._
+
+Full working after a second miss:
+
+> All stitches are the same size.  
+> So the answer is “stitches placed by counting the threads of the fabric”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-57-spot` · Lesson 57 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Cross stitch is a counted-thread stitch.
+- ✅ Aida cloth is an even-weave fabric.
+- ✅ Start in the centre of the design.
+- ✅ Each chart square is one cross.
+- ❌ Cross stitches should cross in different directions.  
+  _↳ All top stitches cross the same way._
+- ❌ Counted-thread work needs no counting.  
+  _↳ Stitches are placed by counting threads._
+- ❌ A chart square stands for ten crosses.  
+  _↳ Each square is one cross._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ A chart square stands for ten crosses.  
+  _↳ explanation: Each square is one cross._
+- ◻️ Aida cloth is an even-weave fabric.
+- ◻️ Each chart square is one cross.
+- ◻️ Cross stitch is a counted-thread stitch.
+
+Full working after a second miss:
+
+> The wrong statement is “A chart square stands for ten crosses.”.  
+> Each square is one cross.  
+
+> Which statement is wrong?
+
+- ✅ Cross stitches should cross in different directions.  
+  _↳ explanation: All top stitches cross the same way._
+- ◻️ Each chart square is one cross.
+- ◻️ Aida cloth is an even-weave fabric.
+- ◻️ Start in the centre of the design.
+
+Full working after a second miss:
+
+> The wrong statement is “Cross stitches should cross in different directions.”.  
+> All top stitches cross the same way.  
+
+> Which statement is wrong?
+
+- ✅ Cross stitches should cross in different directions.  
+  _↳ explanation: All top stitches cross the same way._
+- ◻️ Aida cloth is an even-weave fabric.
+- ◻️ Start in the centre of the design.
+- ◻️ Each chart square is one cross.
+
+Full working after a second miss:
+
+> The wrong statement is “Cross stitches should cross in different directions.”.  
+> All top stitches cross the same way.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-58-match` · Lesson 58 · matching, level 1
+
+Prompt: Match each technique to its description.
+
+Pairs (4 shown each time):
+
+- white work → **white thread on white fabric, with eyelets**
+- candlewicking → **knots in thick unbleached cotton thread**
+- shadow work → **stitches on the back of see-through fabric**
+- cross stitch → **X-shaped stitches counted on even-weave fabric**
+
+
+Three generated variants:
+
+> Match each technique to its description.
+
+Right-hand side (shuffled): white thread on white fabric, with eyelets · stitches on the back of see-through fabric · X-shaped stitches counted on even-weave fabric · knots in thick unbleached cotton thread
+- cross stitch → **X-shaped stitches counted on even-weave fabric**
+- shadow work → **stitches on the back of see-through fabric**
+- white work → **white thread on white fabric, with eyelets**
+- candlewicking → **knots in thick unbleached cotton thread**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> cross stitch → X-shaped stitches counted on even-weave fabric  
+> shadow work → stitches on the back of see-through fabric  
+> white work → white thread on white fabric, with eyelets  
+> candlewicking → knots in thick unbleached cotton thread  
+
+> Match each technique to its description.
+
+Right-hand side (shuffled): knots in thick unbleached cotton thread · X-shaped stitches counted on even-weave fabric · stitches on the back of see-through fabric · white thread on white fabric, with eyelets
+- white work → **white thread on white fabric, with eyelets**
+- candlewicking → **knots in thick unbleached cotton thread**
+- shadow work → **stitches on the back of see-through fabric**
+- cross stitch → **X-shaped stitches counted on even-weave fabric**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> white work → white thread on white fabric, with eyelets  
+> candlewicking → knots in thick unbleached cotton thread  
+> shadow work → stitches on the back of see-through fabric  
+> cross stitch → X-shaped stitches counted on even-weave fabric  
+
+> Match each technique to its description.
+
+Right-hand side (shuffled): white thread on white fabric, with eyelets · stitches on the back of see-through fabric · X-shaped stitches counted on even-weave fabric · knots in thick unbleached cotton thread
+- shadow work → **stitches on the back of see-through fabric**
+- cross stitch → **X-shaped stitches counted on even-weave fabric**
+- candlewicking → **knots in thick unbleached cotton thread**
+- white work → **white thread on white fabric, with eyelets**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> shadow work → stitches on the back of see-through fabric  
+> cross stitch → X-shaped stitches counted on even-weave fabric  
+> candlewicking → knots in thick unbleached cotton thread  
+> white work → white thread on white fabric, with eyelets  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-58-knots` · Lesson 58 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which stitches are typical of candlewicking? | knots (French or colonial knots) | satin stitches only · machine zigzag · cross stitches | Not typical. · Not typical. · That is counted-thread work. | Knots in thick thread. |
+| Where did candlewicking get its name? | from the thread used to make candle wicks | from candles used as needles · from candlelight only · from wax on the fabric | Not true. · Not the reason. · Not the reason. | The thick cotton wick thread. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which stitches are typical of candlewicking?
+
+- ◻️ machine zigzag  
+  _↳ feedback if chosen: Not typical._
+- ✅ knots (French or colonial knots)
+- ◻️ cross stitches  
+  _↳ feedback if chosen: That is counted-thread work._
+- ◻️ satin stitches only  
+  _↳ feedback if chosen: Not typical._
+
+Full working after a second miss:
+
+> Knots in thick thread.  
+> So the answer is “knots (French or colonial knots)”.  
+
+> Which stitches are typical of candlewicking?
+
+- ◻️ cross stitches  
+  _↳ feedback if chosen: That is counted-thread work._
+- ✅ knots (French or colonial knots)
+- ◻️ machine zigzag  
+  _↳ feedback if chosen: Not typical._
+- ◻️ satin stitches only  
+  _↳ feedback if chosen: Not typical._
+
+Full working after a second miss:
+
+> Knots in thick thread.  
+> So the answer is “knots (French or colonial knots)”.  
+
+> Which stitches are typical of candlewicking?
+
+- ◻️ machine zigzag  
+  _↳ feedback if chosen: Not typical._
+- ◻️ cross stitches  
+  _↳ feedback if chosen: That is counted-thread work._
+- ✅ knots (French or colonial knots)
+- ◻️ satin stitches only  
+  _↳ feedback if chosen: Not typical._
+
+Full working after a second miss:
+
+> Knots in thick thread.  
+> So the answer is “knots (French or colonial knots)”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-58-shadow` · Lesson 58 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What kind of fabric is used for shadow work? | a thin, see-through fabric such as organza or voile | thick wool · denim · leather | Not transparent. · Not transparent. · Not a fabric for this. | The thread must show through. |
+| On which side is shadow work stitched? | on the back of the fabric | only on the front · on a separate paper · it is not stitched | The shadow appears on the front. · Not the technique. · It is stitched. | The thread shows through softly. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> On which side is shadow work stitched?
+
+- ◻️ on a separate paper  
+  _↳ feedback if chosen: Not the technique._
+- ◻️ it is not stitched  
+  _↳ feedback if chosen: It is stitched._
+- ✅ on the back of the fabric
+- ◻️ only on the front  
+  _↳ feedback if chosen: The shadow appears on the front._
+
+Full working after a second miss:
+
+> The thread shows through softly.  
+> So the answer is “on the back of the fabric”.  
+
+> What kind of fabric is used for shadow work?
+
+- ✅ a thin, see-through fabric such as organza or voile
+- ◻️ denim  
+  _↳ feedback if chosen: Not transparent._
+- ◻️ leather  
+  _↳ feedback if chosen: Not a fabric for this._
+- ◻️ thick wool  
+  _↳ feedback if chosen: Not transparent._
+
+Full working after a second miss:
+
+> The thread must show through.  
+> So the answer is “a thin, see-through fabric such as organza or voile”.  
+
+> On which side is shadow work stitched?
+
+- ✅ on the back of the fabric
+- ◻️ on a separate paper  
+  _↳ feedback if chosen: Not the technique._
+- ◻️ only on the front  
+  _↳ feedback if chosen: The shadow appears on the front._
+- ◻️ it is not stitched  
+  _↳ feedback if chosen: It is stitched._
+
+Full working after a second miss:
+
+> The thread shows through softly.  
+> So the answer is “on the back of the fabric”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-58-spot` · Lesson 58 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ White work uses white thread.
+- ✅ Candlewicking uses knots.
+- ✅ Shadow work uses see-through fabric.
+- ✅ Clean hands are needed.
+- ❌ White work uses bright red thread on black fabric.  
+  _↳ White thread on white fabric._
+- ❌ Shadow work is done on thick leather.  
+  _↳ It needs thin see-through fabric._
+- ❌ Candlewicking is made by burning candles on cloth.  
+  _↳ It uses knots in candle-wick thread._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Clean hands are needed.
+- ✅ Candlewicking is made by burning candles on cloth.  
+  _↳ explanation: It uses knots in candle-wick thread._
+- ◻️ Shadow work uses see-through fabric.
+- ◻️ White work uses white thread.
+
+Full working after a second miss:
+
+> The wrong statement is “Candlewicking is made by burning candles on cloth.”.  
+> It uses knots in candle-wick thread.  
+
+> Which statement is wrong?
+
+- ✅ White work uses bright red thread on black fabric.  
+  _↳ explanation: White thread on white fabric._
+- ◻️ Shadow work uses see-through fabric.
+- ◻️ Clean hands are needed.
+- ◻️ White work uses white thread.
+
+Full working after a second miss:
+
+> The wrong statement is “White work uses bright red thread on black fabric.”.  
+> White thread on white fabric.  
+
+> Which statement is wrong?
+
+- ◻️ White work uses white thread.
+- ✅ Shadow work is done on thick leather.  
+  _↳ explanation: It needs thin see-through fabric._
+- ◻️ Candlewicking uses knots.
+- ◻️ Shadow work uses see-through fabric.
+
+Full working after a second miss:
+
+> The wrong statement is “Shadow work is done on thick leather.”.  
+> It needs thin see-through fabric.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-58-shadow-card` · Lesson 58 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What kind of fabric is used for shadow work? | a thin, see-through fabric such as organza or voile | thick wool · denim · leather | Not transparent. · Not transparent. · Not a fabric for this. | The thread must show through. |
+| On which side is shadow work stitched? | on the back of the fabric | only on the front · on a separate paper · it is not stitched | The shadow appears on the front. · Not the technique. · It is stitched. | The thread shows through softly. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What kind of fabric is used for shadow work?
+
+- ◻️ thick wool  
+  _↳ feedback if chosen: Not transparent._
+- ◻️ leather  
+  _↳ feedback if chosen: Not a fabric for this._
+- ✅ a thin, see-through fabric such as organza or voile
+- ◻️ denim  
+  _↳ feedback if chosen: Not transparent._
+
+Full working after a second miss:
+
+> The thread must show through.  
+> So the answer is “a thin, see-through fabric such as organza or voile”.  
+
+> On which side is shadow work stitched?
+
+- ✅ on the back of the fabric
+- ◻️ on a separate paper  
+  _↳ feedback if chosen: Not the technique._
+- ◻️ it is not stitched  
+  _↳ feedback if chosen: It is stitched._
+- ◻️ only on the front  
+  _↳ feedback if chosen: The shadow appears on the front._
+
+Full working after a second miss:
+
+> The thread shows through softly.  
+> So the answer is “on the back of the fabric”.  
+
+> What kind of fabric is used for shadow work?
+
+- ◻️ leather  
+  _↳ feedback if chosen: Not a fabric for this._
+- ◻️ denim  
+  _↳ feedback if chosen: Not transparent._
+- ✅ a thin, see-through fabric such as organza or voile
+- ◻️ thick wool  
+  _↳ feedback if chosen: Not transparent._
+
+Full working after a second miss:
+
+> The thread must show through.  
+> So the answer is “a thin, see-through fabric such as organza or voile”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-59-info` · Lesson 59 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which information is found on a clothing label? | size, fibre content and care instructions | the owner's address · the price of food · the weather forecast | Not on a label. · Not on a label. · Not on a label. | The label helps us choose and care for clothes. |
+| A label says “100% cotton”. What does it tell you? | the fibre the garment is made of | the size · the price · the washing temperature | Size is S, M, L. · Not the price. · Shown by the tub symbol. | Fibre content. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A label says “100% cotton”. What does it tell you?
+
+- ✅ the fibre the garment is made of
+- ◻️ the washing temperature  
+  _↳ feedback if chosen: Shown by the tub symbol._
+- ◻️ the size  
+  _↳ feedback if chosen: Size is S, M, L._
+- ◻️ the price  
+  _↳ feedback if chosen: Not the price._
+
+Full working after a second miss:
+
+> Fibre content.  
+> So the answer is “the fibre the garment is made of”.  
+
+> Which information is found on a clothing label?
+
+- ✅ size, fibre content and care instructions
+- ◻️ the price of food  
+  _↳ feedback if chosen: Not on a label._
+- ◻️ the weather forecast  
+  _↳ feedback if chosen: Not on a label._
+- ◻️ the owner's address  
+  _↳ feedback if chosen: Not on a label._
+
+Full working after a second miss:
+
+> The label helps us choose and care for clothes.  
+> So the answer is “size, fibre content and care instructions”.  
+
+> Which information is found on a clothing label?
+
+- ◻️ the weather forecast  
+  _↳ feedback if chosen: Not on a label._
+- ✅ size, fibre content and care instructions
+- ◻️ the owner's address  
+  _↳ feedback if chosen: Not on a label._
+- ◻️ the price of food  
+  _↳ feedback if chosen: Not on a label._
+
+Full working after a second miss:
+
+> The label helps us choose and care for clothes.  
+> So the answer is “size, fibre content and care instructions”.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-59-symbol` · Lesson 59 · matching, level 1
+
+Prompt: Match each care symbol to its meaning.
+
+Pairs (4 shown each time):
+
+- a tub with water → **washing**
+- a triangle → **bleaching**
+- a square → **drying**
+- an iron → **ironing**
+- a circle → **dry cleaning**
+
+
+Three generated variants:
+
+> Match each care symbol to its meaning.
+
+Right-hand side (shuffled): drying · dry cleaning · bleaching · washing
+- a square → **drying**
+- a triangle → **bleaching**
+- a circle → **dry cleaning**
+- a tub with water → **washing**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a square → drying  
+> a triangle → bleaching  
+> a circle → dry cleaning  
+> a tub with water → washing  
+
+> Match each care symbol to its meaning.
+
+Right-hand side (shuffled): drying · washing · dry cleaning · bleaching
+- a circle → **dry cleaning**
+- a tub with water → **washing**
+- a triangle → **bleaching**
+- a square → **drying**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a circle → dry cleaning  
+> a tub with water → washing  
+> a triangle → bleaching  
+> a square → drying  
+
+> Match each care symbol to its meaning.
+
+Right-hand side (shuffled): ironing · washing · dry cleaning · bleaching
+- a circle → **dry cleaning**
+- a tub with water → **washing**
+- an iron → **ironing**
+- a triangle → **bleaching**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a circle → dry cleaning  
+> a tub with water → washing  
+> an iron → ironing  
+> a triangle → bleaching  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-59-spot` · Lesson 59 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A tub means washing.
+- ✅ A crossed triangle means do not bleach.
+- ✅ Three dots on the iron mean hot.
+- ✅ A hand in the tub means hand wash.
+- ❌ A square means ironing.  
+  _↳ A square means drying; an iron means ironing._
+- ❌ One dot on the iron means very hot.  
+  _↳ One dot means cool._
+- ❌ A cross over the tub means wash often.  
+  _↳ It means do not wash._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A crossed triangle means do not bleach.
+- ◻️ Three dots on the iron mean hot.
+- ◻️ A hand in the tub means hand wash.
+- ✅ A square means ironing.  
+  _↳ explanation: A square means drying; an iron means ironing._
+
+Full working after a second miss:
+
+> The wrong statement is “A square means ironing.”.  
+> A square means drying; an iron means ironing.  
+
+> Which statement is wrong?
+
+- ◻️ A hand in the tub means hand wash.
+- ◻️ A crossed triangle means do not bleach.
+- ◻️ A tub means washing.
+- ✅ One dot on the iron means very hot.  
+  _↳ explanation: One dot means cool._
+
+Full working after a second miss:
+
+> The wrong statement is “One dot on the iron means very hot.”.  
+> One dot means cool.  
+
+> Which statement is wrong?
+
+- ◻️ A tub means washing.
+- ◻️ A hand in the tub means hand wash.
+- ✅ A square means ironing.  
+  _↳ explanation: A square means drying; an iron means ironing._
+- ◻️ Three dots on the iron mean hot.
+
+Full working after a second miss:
+
+> The wrong statement is “A square means ironing.”.  
+> A square means drying; an iron means ironing.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-60-tool` · Lesson 60 · matching, level 1
+
+Prompt: Match each tool to its use.
+
+Pairs (4 shown each time):
+
+- embroidery hoop → **keeps the fabric tight**
+- thimble → **protects the finger**
+- embroidery scissors → **cut threads close to the fabric**
+- tracing paper → **transfers a design**
+- needle threader → **helps to thread the needle**
+
+
+Three generated variants:
+
+> Match each tool to its use.
+
+Right-hand side (shuffled): cut threads close to the fabric · keeps the fabric tight · protects the finger · transfers a design
+- embroidery hoop → **keeps the fabric tight**
+- embroidery scissors → **cut threads close to the fabric**
+- tracing paper → **transfers a design**
+- thimble → **protects the finger**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> embroidery hoop → keeps the fabric tight  
+> embroidery scissors → cut threads close to the fabric  
+> tracing paper → transfers a design  
+> thimble → protects the finger  
+
+> Match each tool to its use.
+
+Right-hand side (shuffled): helps to thread the needle · transfers a design · keeps the fabric tight · protects the finger
+- needle threader → **helps to thread the needle**
+- thimble → **protects the finger**
+- tracing paper → **transfers a design**
+- embroidery hoop → **keeps the fabric tight**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> needle threader → helps to thread the needle  
+> thimble → protects the finger  
+> tracing paper → transfers a design  
+> embroidery hoop → keeps the fabric tight  
+
+> Match each tool to its use.
+
+Right-hand side (shuffled): transfers a design · cut threads close to the fabric · helps to thread the needle · keeps the fabric tight
+- tracing paper → **transfers a design**
+- needle threader → **helps to thread the needle**
+- embroidery scissors → **cut threads close to the fabric**
+- embroidery hoop → **keeps the fabric tight**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> tracing paper → transfers a design  
+> needle threader → helps to thread the needle  
+> embroidery scissors → cut threads close to the fabric  
+> embroidery hoop → keeps the fabric tight  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-60-use` · Lesson 60 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which needle is best for counted-thread work? | a blunt tapestry needle | a sharp crewel needle · a sewing-machine needle · a pin | It can split the threads. · Not for hand work. · Not a needle for stitching. | It slips between threads without splitting them. |
+| How many strands does stranded embroidery cotton have? | six | one · two · twenty | It can be separated. · It has more. · Too many. | Six strands that can be separated. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How many strands does stranded embroidery cotton have?
+
+- ✅ six
+- ◻️ two  
+  _↳ feedback if chosen: It has more._
+- ◻️ twenty  
+  _↳ feedback if chosen: Too many._
+- ◻️ one  
+  _↳ feedback if chosen: It can be separated._
+
+Full working after a second miss:
+
+> Six strands that can be separated.  
+> So the answer is “six”.  
+
+> How many strands does stranded embroidery cotton have?
+
+- ◻️ one  
+  _↳ feedback if chosen: It can be separated._
+- ◻️ twenty  
+  _↳ feedback if chosen: Too many._
+- ◻️ two  
+  _↳ feedback if chosen: It has more._
+- ✅ six
+
+Full working after a second miss:
+
+> Six strands that can be separated.  
+> So the answer is “six”.  
+
+> How many strands does stranded embroidery cotton have?
+
+- ◻️ twenty  
+  _↳ feedback if chosen: Too many._
+- ◻️ two  
+  _↳ feedback if chosen: It has more._
+- ✅ six
+- ◻️ one  
+  _↳ feedback if chosen: It can be separated._
+
+Full working after a second miss:
+
+> Six strands that can be separated.  
+> So the answer is “six”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-60-care` · Lesson 60 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Where should needles be kept? | in a needle case | loose on the floor · in the bed · in the mouth | Dangerous. · Dangerous. · Dangerous. | Safe and easy to find. |
+| Why use a thimble? | to protect the finger that pushes the needle | to measure fabric · to cut thread · to iron cloth | A tape measure does that. · Scissors do that. · An iron does that. | Prevents pricks. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Where should needles be kept?
+
+- ◻️ loose on the floor  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ in the mouth  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ in the bed  
+  _↳ feedback if chosen: Dangerous._
+- ✅ in a needle case
+
+Full working after a second miss:
+
+> Safe and easy to find.  
+> So the answer is “in a needle case”.  
+
+> Where should needles be kept?
+
+- ✅ in a needle case
+- ◻️ loose on the floor  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ in the bed  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ in the mouth  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Safe and easy to find.  
+> So the answer is “in a needle case”.  
+
+> Why use a thimble?
+
+- ✅ to protect the finger that pushes the needle
+- ◻️ to iron cloth  
+  _↳ feedback if chosen: An iron does that._
+- ◻️ to measure fabric  
+  _↳ feedback if chosen: A tape measure does that._
+- ◻️ to cut thread  
+  _↳ feedback if chosen: Scissors do that._
+
+Full working after a second miss:
+
+> Prevents pricks.  
+> So the answer is “to protect the finger that pushes the needle”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-60-spot` · Lesson 60 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A hoop keeps fabric tight.
+- ✅ A thimble protects the finger.
+- ✅ Stranded cotton has six strands.
+- ✅ Tapestry needles are blunt.
+- ❌ Embroidery scissors are good for cutting cardboard.  
+  _↳ Use them only for thread._
+- ❌ Needles should be left loose on the floor.  
+  _↳ Keep them in a needle case._
+- ❌ A thimble is used to cut thread.  
+  _↳ It protects the finger._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A hoop keeps fabric tight.
+- ✅ Embroidery scissors are good for cutting cardboard.  
+  _↳ explanation: Use them only for thread._
+- ◻️ A thimble protects the finger.
+- ◻️ Stranded cotton has six strands.
+
+Full working after a second miss:
+
+> The wrong statement is “Embroidery scissors are good for cutting cardboard.”.  
+> Use them only for thread.  
+
+> Which statement is wrong?
+
+- ◻️ Tapestry needles are blunt.
+- ◻️ Stranded cotton has six strands.
+- ✅ Needles should be left loose on the floor.  
+  _↳ explanation: Keep them in a needle case._
+- ◻️ A hoop keeps fabric tight.
+
+Full working after a second miss:
+
+> The wrong statement is “Needles should be left loose on the floor.”.  
+> Keep them in a needle case.  
+
+> Which statement is wrong?
+
+- ◻️ Stranded cotton has six strands.
+- ◻️ A hoop keeps fabric tight.
+- ◻️ A thimble protects the finger.
+- ✅ A thimble is used to cut thread.  
+  _↳ explanation: It protects the finger._
+
+Full working after a second miss:
+
+> The wrong statement is “A thimble is used to cut thread.”.  
+> It protects the finger.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-60-care-card` · Lesson 60 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Where should needles be kept? | in a needle case | loose on the floor · in the bed · in the mouth | Dangerous. · Dangerous. · Dangerous. | Safe and easy to find. |
+| Why use a thimble? | to protect the finger that pushes the needle | to measure fabric · to cut thread · to iron cloth | A tape measure does that. · Scissors do that. · An iron does that. | Prevents pricks. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why use a thimble?
+
+- ◻️ to iron cloth  
+  _↳ feedback if chosen: An iron does that._
+- ✅ to protect the finger that pushes the needle
+- ◻️ to cut thread  
+  _↳ feedback if chosen: Scissors do that._
+- ◻️ to measure fabric  
+  _↳ feedback if chosen: A tape measure does that._
+
+Full working after a second miss:
+
+> Prevents pricks.  
+> So the answer is “to protect the finger that pushes the needle”.  
+
+> Why use a thimble?
+
+- ◻️ to iron cloth  
+  _↳ feedback if chosen: An iron does that._
+- ◻️ to cut thread  
+  _↳ feedback if chosen: Scissors do that._
+- ◻️ to measure fabric  
+  _↳ feedback if chosen: A tape measure does that._
+- ✅ to protect the finger that pushes the needle
+
+Full working after a second miss:
+
+> Prevents pricks.  
+> So the answer is “to protect the finger that pushes the needle”.  
+
+> Where should needles be kept?
+
+- ✅ in a needle case
+- ◻️ in the bed  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ loose on the floor  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ in the mouth  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Safe and easy to find.  
+> So the answer is “in a needle case”.  
+
+Sources: embroidery (Embroidery: traditional (toghu, Bamoun, Fulani designs) and modern; stitches (running, back, straight, satin, zigzag, chain, blanket); fabrics (cotton, linen, silk, wool, synthetics); counted-thread (cross stitch, Aida cloth); white work, candlewicking, shadow work; tools)
+
+### `h2-61-steps` · Lesson 61 · ordering, level 1
+
+Prompt: Put the laundry steps in order.
+
+Items in the right order:
+
+1. Sort the clothes
+2. Check the pockets and labels
+3. Remove stains
+4. Wash and rinse
+5. Dry
+6. Iron and fold
+
+
+Three generated variants:
+
+> Put the laundry steps in order.
+
+Shown as: Sort the clothes · Remove stains · Iron and fold · Check the pockets and labels · Wash and rinse · Dry
+Correct order: Sort the clothes → Check the pockets and labels → Remove stains → Wash and rinse → Dry → Iron and fold
+
+Full working after a second miss:
+
+> The correct order is: Sort the clothes → Check the pockets and labels → Remove stains → Wash and rinse → Dry → Iron and fold.  
+
+> Put the laundry steps in order.
+
+Shown as: Remove stains · Wash and rinse · Sort the clothes · Dry · Iron and fold · Check the pockets and labels
+Correct order: Sort the clothes → Check the pockets and labels → Remove stains → Wash and rinse → Dry → Iron and fold
+
+Full working after a second miss:
+
+> The correct order is: Sort the clothes → Check the pockets and labels → Remove stains → Wash and rinse → Dry → Iron and fold.  
+
+> Put the laundry steps in order.
+
+Shown as: Dry · Wash and rinse · Remove stains · Check the pockets and labels · Iron and fold · Sort the clothes
+Correct order: Sort the clothes → Check the pockets and labels → Remove stains → Wash and rinse → Dry → Iron and fold
+
+Full working after a second miss:
+
+> The correct order is: Sort the clothes → Check the pockets and labels → Remove stains → Wash and rinse → Dry → Iron and fold.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-61-sort` · Lesson 61 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should pockets be checked before washing? | to remove objects such as pens, money or papers | to add soap · to make clothes heavier · it is not needed | Not the reason. · Not the reason. · It prevents damage. | A pen can stain all the clothes. |
+| What is dry cleaning? | cleaning with chemical solvents instead of water | drying clothes in the sun · washing with cold water · ironing only | That is drying. · That uses water. · Not cleaning. | For delicate fabrics. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is dry cleaning?
+
+- ◻️ washing with cold water  
+  _↳ feedback if chosen: That uses water._
+- ◻️ ironing only  
+  _↳ feedback if chosen: Not cleaning._
+- ◻️ drying clothes in the sun  
+  _↳ feedback if chosen: That is drying._
+- ✅ cleaning with chemical solvents instead of water
+
+Full working after a second miss:
+
+> For delicate fabrics.  
+> So the answer is “cleaning with chemical solvents instead of water”.  
+
+> Why should pockets be checked before washing?
+
+- ✅ to remove objects such as pens, money or papers
+- ◻️ to make clothes heavier  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to add soap  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ it is not needed  
+  _↳ feedback if chosen: It prevents damage._
+
+Full working after a second miss:
+
+> A pen can stain all the clothes.  
+> So the answer is “to remove objects such as pens, money or papers”.  
+
+> What is dry cleaning?
+
+- ◻️ ironing only  
+  _↳ feedback if chosen: Not cleaning._
+- ✅ cleaning with chemical solvents instead of water
+- ◻️ washing with cold water  
+  _↳ feedback if chosen: That uses water._
+- ◻️ drying clothes in the sun  
+  _↳ feedback if chosen: That is drying._
+
+Full working after a second miss:
+
+> For delicate fabrics.  
+> So the answer is “cleaning with chemical solvents instead of water”.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-61-spot` · Lesson 61 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Sort whites from colours.
+- ✅ Read the care labels.
+- ✅ Rinse clothes well.
+- ✅ A pressing is a commercial laundry.
+- ❌ Dry cleaning uses lots of water.  
+  _↳ It uses solvents instead of water._
+- ❌ A hotel washing its own sheets is a commercial laundry.  
+  _↳ It is on-premises (in-house)._
+- ❌ Wash a new red shirt with white clothes.  
+  _↳ The colour may run._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Sort whites from colours.
+- ✅ A hotel washing its own sheets is a commercial laundry.  
+  _↳ explanation: It is on-premises (in-house)._
+- ◻️ A pressing is a commercial laundry.
+- ◻️ Rinse clothes well.
+
+Full working after a second miss:
+
+> The wrong statement is “A hotel washing its own sheets is a commercial laundry.”.  
+> It is on-premises (in-house).  
+
+> Which statement is wrong?
+
+- ◻️ A pressing is a commercial laundry.
+- ✅ Wash a new red shirt with white clothes.  
+  _↳ explanation: The colour may run._
+- ◻️ Sort whites from colours.
+- ◻️ Read the care labels.
+
+Full working after a second miss:
+
+> The wrong statement is “Wash a new red shirt with white clothes.”.  
+> The colour may run.  
+
+> Which statement is wrong?
+
+- ◻️ A pressing is a commercial laundry.
+- ✅ Wash a new red shirt with white clothes.  
+  _↳ explanation: The colour may run._
+- ◻️ Rinse clothes well.
+- ◻️ Read the care labels.
+
+Full working after a second miss:
+
+> The wrong statement is “Wash a new red shirt with white clothes.”.  
+> The colour may run.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-61-sort-card` · Lesson 61 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should pockets be checked before washing? | to remove objects such as pens, money or papers | to add soap · to make clothes heavier · it is not needed | Not the reason. · Not the reason. · It prevents damage. | A pen can stain all the clothes. |
+| What is dry cleaning? | cleaning with chemical solvents instead of water | drying clothes in the sun · washing with cold water · ironing only | That is drying. · That uses water. · Not cleaning. | For delicate fabrics. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is dry cleaning?
+
+- ◻️ washing with cold water  
+  _↳ feedback if chosen: That uses water._
+- ✅ cleaning with chemical solvents instead of water
+- ◻️ ironing only  
+  _↳ feedback if chosen: Not cleaning._
+- ◻️ drying clothes in the sun  
+  _↳ feedback if chosen: That is drying._
+
+Full working after a second miss:
+
+> For delicate fabrics.  
+> So the answer is “cleaning with chemical solvents instead of water”.  
+
+> What is dry cleaning?
+
+- ◻️ ironing only  
+  _↳ feedback if chosen: Not cleaning._
+- ◻️ washing with cold water  
+  _↳ feedback if chosen: That uses water._
+- ✅ cleaning with chemical solvents instead of water
+- ◻️ drying clothes in the sun  
+  _↳ feedback if chosen: That is drying._
+
+Full working after a second miss:
+
+> For delicate fabrics.  
+> So the answer is “cleaning with chemical solvents instead of water”.  
+
+> Why should pockets be checked before washing?
+
+- ✅ to remove objects such as pens, money or papers
+- ◻️ to add soap  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to make clothes heavier  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ it is not needed  
+  _↳ feedback if chosen: It prevents damage._
+
+Full working after a second miss:
+
+> A pen can stain all the clothes.  
+> So the answer is “to remove objects such as pens, money or papers”.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-62-type` · Lesson 62 · matching, level 1
+
+Prompt: Match each iron to its feature.
+
+Pairs (4 shown each time):
+
+- charcoal iron → **heated with hot charcoal**
+- dry electric iron → **heating element and thermostat, no steam**
+- steam iron → **water tank and steam holes**
+- steam generator iron → **separate tank making steam under pressure**
+- automatic iron → **switches itself off when left still**
+
+
+Three generated variants:
+
+> Match each iron to its feature.
+
+Right-hand side (shuffled): heated with hot charcoal · separate tank making steam under pressure · switches itself off when left still · water tank and steam holes
+- automatic iron → **switches itself off when left still**
+- steam iron → **water tank and steam holes**
+- steam generator iron → **separate tank making steam under pressure**
+- charcoal iron → **heated with hot charcoal**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> automatic iron → switches itself off when left still  
+> steam iron → water tank and steam holes  
+> steam generator iron → separate tank making steam under pressure  
+> charcoal iron → heated with hot charcoal  
+
+> Match each iron to its feature.
+
+Right-hand side (shuffled): heated with hot charcoal · separate tank making steam under pressure · heating element and thermostat, no steam · switches itself off when left still
+- automatic iron → **switches itself off when left still**
+- charcoal iron → **heated with hot charcoal**
+- dry electric iron → **heating element and thermostat, no steam**
+- steam generator iron → **separate tank making steam under pressure**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> automatic iron → switches itself off when left still  
+> charcoal iron → heated with hot charcoal  
+> dry electric iron → heating element and thermostat, no steam  
+> steam generator iron → separate tank making steam under pressure  
+
+> Match each iron to its feature.
+
+Right-hand side (shuffled): separate tank making steam under pressure · heated with hot charcoal · switches itself off when left still · heating element and thermostat, no steam
+- dry electric iron → **heating element and thermostat, no steam**
+- steam generator iron → **separate tank making steam under pressure**
+- automatic iron → **switches itself off when left still**
+- charcoal iron → **heated with hot charcoal**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> dry electric iron → heating element and thermostat, no steam  
+> steam generator iron → separate tank making steam under pressure  
+> automatic iron → switches itself off when left still  
+> charcoal iron → heated with hot charcoal  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-62-steam` · Lesson 62 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does steam do when ironing? | It relaxes the creases so they are removed more easily. | It makes clothes dirty. · It dyes the fabric. · It cools the iron completely. | Not true. · Not true. · Not its role. | Moist heat smooths fibres. |
+| What is a disadvantage of a charcoal iron? | The heat is hard to control and ash can soil clothes. | It needs a lot of electricity. · It has an automatic shut-off. · It is filled with water. | It needs none. · That is an automatic iron. · That is a steam iron. | Hard to control the temperature. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a disadvantage of a charcoal iron?
+
+- ◻️ It needs a lot of electricity.  
+  _↳ feedback if chosen: It needs none._
+- ✅ The heat is hard to control and ash can soil clothes.
+- ◻️ It is filled with water.  
+  _↳ feedback if chosen: That is a steam iron._
+- ◻️ It has an automatic shut-off.  
+  _↳ feedback if chosen: That is an automatic iron._
+
+Full working after a second miss:
+
+> Hard to control the temperature.  
+> So the answer is “The heat is hard to control and ash can soil clothes.”.  
+
+> What does steam do when ironing?
+
+- ◻️ It dyes the fabric.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It makes clothes dirty.  
+  _↳ feedback if chosen: Not true._
+- ✅ It relaxes the creases so they are removed more easily.
+- ◻️ It cools the iron completely.  
+  _↳ feedback if chosen: Not its role._
+
+Full working after a second miss:
+
+> Moist heat smooths fibres.  
+> So the answer is “It relaxes the creases so they are removed more easily.”.  
+
+> What does steam do when ironing?
+
+- ◻️ It dyes the fabric.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It makes clothes dirty.  
+  _↳ feedback if chosen: Not true._
+- ✅ It relaxes the creases so they are removed more easily.
+- ◻️ It cools the iron completely.  
+  _↳ feedback if chosen: Not its role._
+
+Full working after a second miss:
+
+> Moist heat smooths fibres.  
+> So the answer is “It relaxes the creases so they are removed more easily.”.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-62-choose` · Lesson 62 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is an automatic iron safer? | It switches itself off if left still, reducing the risk of fire. | It never gets hot. · It needs no plug. · It irons by itself. | It gets hot. · It needs electricity. · Not true. | Auto shut-off. |
+| Which iron is best for a busy hotel laundry with many sheets? | a steam generator iron | a small travel iron · a flat iron heated on the fire · no iron at all | Too slow. · Too slow. · Sheets need ironing. | Lots of steam irons faster. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is an automatic iron safer?
+
+- ◻️ It irons by itself.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It needs no plug.  
+  _↳ feedback if chosen: It needs electricity._
+- ✅ It switches itself off if left still, reducing the risk of fire.
+- ◻️ It never gets hot.  
+  _↳ feedback if chosen: It gets hot._
+
+Full working after a second miss:
+
+> Auto shut-off.  
+> So the answer is “It switches itself off if left still, reducing the risk of fire.”.  
+
+> Which iron is best for a busy hotel laundry with many sheets?
+
+- ◻️ no iron at all  
+  _↳ feedback if chosen: Sheets need ironing._
+- ◻️ a flat iron heated on the fire  
+  _↳ feedback if chosen: Too slow._
+- ✅ a steam generator iron
+- ◻️ a small travel iron  
+  _↳ feedback if chosen: Too slow._
+
+Full working after a second miss:
+
+> Lots of steam irons faster.  
+> So the answer is “a steam generator iron”.  
+
+> Why is an automatic iron safer?
+
+- ✅ It switches itself off if left still, reducing the risk of fire.
+- ◻️ It needs no plug.  
+  _↳ feedback if chosen: It needs electricity._
+- ◻️ It never gets hot.  
+  _↳ feedback if chosen: It gets hot._
+- ◻️ It irons by itself.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Auto shut-off.  
+> So the answer is “It switches itself off if left still, reducing the risk of fire.”.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-62-spot` · Lesson 62 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A charcoal iron needs no electricity.
+- ✅ A steam iron has a water tank.
+- ✅ An automatic iron switches off itself.
+- ✅ A thermostat controls the heat.
+- ❌ A steam iron is filled with charcoal.  
+  _↳ It has a water tank._
+- ❌ An automatic iron stays on all night.  
+  _↳ It switches itself off._
+- ❌ A charcoal iron has a thermostat dial.  
+  _↳ It has no thermostat._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ An automatic iron switches off itself.
+- ◻️ A steam iron has a water tank.
+- ✅ A charcoal iron has a thermostat dial.  
+  _↳ explanation: It has no thermostat._
+- ◻️ A charcoal iron needs no electricity.
+
+Full working after a second miss:
+
+> The wrong statement is “A charcoal iron has a thermostat dial.”.  
+> It has no thermostat.  
+
+> Which statement is wrong?
+
+- ◻️ A steam iron has a water tank.
+- ◻️ An automatic iron switches off itself.
+- ✅ A steam iron is filled with charcoal.  
+  _↳ explanation: It has a water tank._
+- ◻️ A charcoal iron needs no electricity.
+
+Full working after a second miss:
+
+> The wrong statement is “A steam iron is filled with charcoal.”.  
+> It has a water tank.  
+
+> Which statement is wrong?
+
+- ◻️ An automatic iron switches off itself.
+- ◻️ A charcoal iron needs no electricity.
+- ◻️ A steam iron has a water tank.
+- ✅ A steam iron is filled with charcoal.  
+  _↳ explanation: It has a water tank._
+
+Full working after a second miss:
+
+> The wrong statement is “A steam iron is filled with charcoal.”.  
+> It has a water tank.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-62-choose-card` · Lesson 62 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is an automatic iron safer? | It switches itself off if left still, reducing the risk of fire. | It never gets hot. · It needs no plug. · It irons by itself. | It gets hot. · It needs electricity. · Not true. | Auto shut-off. |
+| Which iron is best for a busy hotel laundry with many sheets? | a steam generator iron | a small travel iron · a flat iron heated on the fire · no iron at all | Too slow. · Too slow. · Sheets need ironing. | Lots of steam irons faster. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is an automatic iron safer?
+
+- ✅ It switches itself off if left still, reducing the risk of fire.
+- ◻️ It irons by itself.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It never gets hot.  
+  _↳ feedback if chosen: It gets hot._
+- ◻️ It needs no plug.  
+  _↳ feedback if chosen: It needs electricity._
+
+Full working after a second miss:
+
+> Auto shut-off.  
+> So the answer is “It switches itself off if left still, reducing the risk of fire.”.  
+
+> Why is an automatic iron safer?
+
+- ◻️ It never gets hot.  
+  _↳ feedback if chosen: It gets hot._
+- ◻️ It irons by itself.  
+  _↳ feedback if chosen: Not true._
+- ◻️ It needs no plug.  
+  _↳ feedback if chosen: It needs electricity._
+- ✅ It switches itself off if left still, reducing the risk of fire.
+
+Full working after a second miss:
+
+> Auto shut-off.  
+> So the answer is “It switches itself off if left still, reducing the risk of fire.”.  
+
+> Which iron is best for a busy hotel laundry with many sheets?
+
+- ✅ a steam generator iron
+- ◻️ a flat iron heated on the fire  
+  _↳ feedback if chosen: Too slow._
+- ◻️ a small travel iron  
+  _↳ feedback if chosen: Too slow._
+- ◻️ no iron at all  
+  _↳ feedback if chosen: Sheets need ironing._
+
+Full working after a second miss:
+
+> Lots of steam irons faster.  
+> So the answer is “a steam generator iron”.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-63-order` · Lesson 63 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which fabric should be ironed first when you have nylon, wool and cotton? | nylon (coolest setting) | cotton (hottest) · wool · it does not matter | The iron would be too hot for the others. · Wool needs a warm iron, after nylon. · It matters. | Cool first, then warm, then hot. |
+| Why iron in the direction of the threads? | to avoid stretching the fabric | to make it dirty · to make holes · it does not matter | Not the reason. · Not the reason. · It matters. | Circles stretch the fabric. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which fabric should be ironed first when you have nylon, wool and cotton?
+
+- ◻️ it does not matter  
+  _↳ feedback if chosen: It matters._
+- ◻️ wool  
+  _↳ feedback if chosen: Wool needs a warm iron, after nylon._
+- ✅ nylon (coolest setting)
+- ◻️ cotton (hottest)  
+  _↳ feedback if chosen: The iron would be too hot for the others._
+
+Full working after a second miss:
+
+> Cool first, then warm, then hot.  
+> So the answer is “nylon (coolest setting)”.  
+
+> Why iron in the direction of the threads?
+
+- ◻️ it does not matter  
+  _↳ feedback if chosen: It matters._
+- ◻️ to make it dirty  
+  _↳ feedback if chosen: Not the reason._
+- ✅ to avoid stretching the fabric
+- ◻️ to make holes  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> Circles stretch the fabric.  
+> So the answer is “to avoid stretching the fabric”.  
+
+> Which fabric should be ironed first when you have nylon, wool and cotton?
+
+- ✅ nylon (coolest setting)
+- ◻️ it does not matter  
+  _↳ feedback if chosen: It matters._
+- ◻️ cotton (hottest)  
+  _↳ feedback if chosen: The iron would be too hot for the others._
+- ◻️ wool  
+  _↳ feedback if chosen: Wool needs a warm iron, after nylon._
+
+Full working after a second miss:
+
+> Cool first, then warm, then hot.  
+> So the answer is “nylon (coolest setting)”.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-63-tech` · Lesson 63 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why should dark trousers be ironed on the wrong side? | to avoid a shiny mark | to make them lighter in colour · to save electricity · because the right side is dirty | Not the reason. · Not the reason. · Not the reason. | Heat can make dark fabrics shine. |
+| What is the safest thing to do with an iron after use? | unplug it and stand it upright to cool | leave it face down on the clothes · put it in water · give it to a small child | Fire risk. · Dangerous. · Dangerous. | Safety first. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why should dark trousers be ironed on the wrong side?
+
+- ◻️ because the right side is dirty  
+  _↳ feedback if chosen: Not the reason._
+- ✅ to avoid a shiny mark
+- ◻️ to save electricity  
+  _↳ feedback if chosen: Not the reason._
+- ◻️ to make them lighter in colour  
+  _↳ feedback if chosen: Not the reason._
+
+Full working after a second miss:
+
+> Heat can make dark fabrics shine.  
+> So the answer is “to avoid a shiny mark”.  
+
+> What is the safest thing to do with an iron after use?
+
+- ◻️ give it to a small child  
+  _↳ feedback if chosen: Dangerous._
+- ✅ unplug it and stand it upright to cool
+- ◻️ leave it face down on the clothes  
+  _↳ feedback if chosen: Fire risk._
+- ◻️ put it in water  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Safety first.  
+> So the answer is “unplug it and stand it upright to cool”.  
+
+> What is the safest thing to do with an iron after use?
+
+- ◻️ put it in water  
+  _↳ feedback if chosen: Dangerous._
+- ◻️ leave it face down on the clothes  
+  _↳ feedback if chosen: Fire risk._
+- ✅ unplug it and stand it upright to cool
+- ◻️ give it to a small child  
+  _↳ feedback if chosen: Dangerous._
+
+Full working after a second miss:
+
+> Safety first.  
+> So the answer is “unplug it and stand it upright to cool”.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-63-shirt` · Lesson 63 · ordering, level 2
+
+Prompt: Put the steps for ironing a shirt in order.
+
+Items in the right order:
+
+1. Collar
+2. Cuffs
+3. Sleeves
+4. Back
+5. Fronts
+6. Hang it on a hanger
+
+
+Three generated variants:
+
+> Put the steps for ironing a shirt in order.
+
+Shown as: Sleeves · Hang it on a hanger · Cuffs · Collar · Back · Fronts
+Correct order: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger
+
+Full working after a second miss:
+
+> The correct order is: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger.  
+
+> Put the steps for ironing a shirt in order.
+
+Shown as: Fronts · Cuffs · Collar · Back · Sleeves · Hang it on a hanger
+Correct order: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger
+
+Full working after a second miss:
+
+> The correct order is: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger.  
+
+> Put the steps for ironing a shirt in order.
+
+Shown as: Fronts · Hang it on a hanger · Collar · Sleeves · Cuffs · Back
+Correct order: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger
+
+Full working after a second miss:
+
+> The correct order is: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-63-spot` · Lesson 63 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Read the label first.
+- ✅ Iron cool fabrics first.
+- ✅ Iron dark clothes inside out.
+- ✅ Unplug the iron after use.
+- ❌ Iron silk with the hottest setting.  
+  _↳ Silk needs a cool iron._
+- ❌ Leave the hot iron face down on the board.  
+  _↳ Stand it upright and never leave it._
+- ❌ Iron in circles to remove creases faster.  
+  _↳ Iron along the threads to avoid stretching._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Iron dark clothes inside out.
+- ✅ Iron in circles to remove creases faster.  
+  _↳ explanation: Iron along the threads to avoid stretching._
+- ◻️ Unplug the iron after use.
+- ◻️ Iron cool fabrics first.
+
+Full working after a second miss:
+
+> The wrong statement is “Iron in circles to remove creases faster.”.  
+> Iron along the threads to avoid stretching.  
+
+> Which statement is wrong?
+
+- ◻️ Read the label first.
+- ✅ Iron in circles to remove creases faster.  
+  _↳ explanation: Iron along the threads to avoid stretching._
+- ◻️ Iron cool fabrics first.
+- ◻️ Unplug the iron after use.
+
+Full working after a second miss:
+
+> The wrong statement is “Iron in circles to remove creases faster.”.  
+> Iron along the threads to avoid stretching.  
+
+> Which statement is wrong?
+
+- ◻️ Iron cool fabrics first.
+- ◻️ Iron dark clothes inside out.
+- ◻️ Unplug the iron after use.
+- ✅ Iron silk with the hottest setting.  
+  _↳ explanation: Silk needs a cool iron._
+
+Full working after a second miss:
+
+> The wrong statement is “Iron silk with the hottest setting.”.  
+> Silk needs a cool iron.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
+
+### `h2-63-shirt-card` · Lesson 63 · ordering, level 1
+
+Prompt: Put the steps for ironing a shirt in order.
+
+Items in the right order:
+
+1. Collar
+2. Cuffs
+3. Sleeves
+4. Back
+5. Fronts
+6. Hang it on a hanger
+
+
+Three generated variants:
+
+> Put the steps for ironing a shirt in order.
+
+Shown as: Back · Hang it on a hanger · Collar · Fronts · Sleeves · Cuffs
+Correct order: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger
+
+Full working after a second miss:
+
+> The correct order is: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger.  
+
+> Put the steps for ironing a shirt in order.
+
+Shown as: Back · Collar · Cuffs · Hang it on a hanger · Fronts · Sleeves
+Correct order: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger
+
+Full working after a second miss:
+
+> The correct order is: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger.  
+
+> Put the steps for ironing a shirt in order.
+
+Shown as: Hang it on a hanger · Fronts · Cuffs · Back · Collar · Sleeves
+Correct order: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger
+
+Full working after a second miss:
+
+> The correct order is: Collar → Cuffs → Sleeves → Back → Fronts → Hang it on a hanger.  
+
+Sources: laundry (Clothing labels and care symbols (tub, triangle, square, iron with dots, circle); types of laundry (home, on-premises, commercial); types of irons (charcoal, dry, steam, steam generator, automatic); ironing technique)
 

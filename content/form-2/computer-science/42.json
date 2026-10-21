@@ -1,0 +1,447 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 42,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "s2-42",
+   "name": "Notions on authentication"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Authentication is checking that a user is really who they claim to be before giving access to a device, an account or data.\nThree kinds of factors:\n• something you know: a password, a PIN, a secret question;\n• something you have: a phone that receives a code (OTP), a bank card, a security key;\n• something you are (biometrics): fingerprint, face, voice, iris.\nTwo-factor (multi-factor) authentication uses two different kinds: for example a password and a code sent by SMS — much safer than a password alone.\nAuthorisation comes after authentication: it decides what the user is allowed to do.\nGood practice: strong unique passwords, never share codes, lock your screen, log out on shared computers.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "To withdraw money, Bih puts her card in the machine and types her PIN. Which authentication factors are used?",
+  "steps": [
+   "The card is something she has.",
+   "The PIN is something she knows. Two different factors: two-factor authentication."
+  ],
+  "answer": "Something she has (card) and something she knows (PIN).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c42-1",
+    "status": "draft",
+    "idea": "Authentication checks that a user is who they claim to be.",
+    "vars": {},
+    "example": [
+     "Typing a password to log in."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-42-what"
+    }
+   },
+   {
+    "id": "c42-2",
+    "status": "draft",
+    "idea": "Factors: something you know, something you have, something you are.",
+    "vars": {},
+    "example": [
+     "PIN, phone, fingerprint."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-42-factor"
+    }
+   },
+   {
+    "id": "c42-3",
+    "status": "draft",
+    "idea": "Two-factor authentication combines two different kinds of factor.",
+    "vars": {},
+    "example": [
+     "Password + SMS code."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-42-2fa-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "data-security"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is two-factor authentication?",
+         "r": "a password and a code sent by SMS",
+         "w": [
+          "two passwords",
+          "a PIN and a secret question",
+          "only a fingerprint"
+         ],
+         "e": [
+          "Both are things you know.",
+          "Both are things you know.",
+          "One factor."
+         ],
+         "y": "Two different kinds of factor."
+        },
+        {
+         "q": "Why is two-factor authentication safer?",
+         "r": "A thief needs both factors, not just a stolen password.",
+         "w": [
+          "It needs no password.",
+          "It makes the phone faster.",
+          "It deletes viruses."
+         ],
+         "e": [
+          "Not true.",
+          "Not true.",
+          "Not its role."
+         ],
+         "y": "Harder to break in."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-42-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data-security"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is authentication?",
+       "r": "checking that a user is who they claim to be",
+       "w": [
+        "deleting old files",
+        "printing a document",
+        "charging a battery"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "It protects access."
+      },
+      {
+       "q": "What comes after authentication and decides what a user may do?",
+       "r": "authorisation",
+       "w": [
+        "formatting",
+        "printing",
+        "downloading"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Permissions are given."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-42-factor",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "data-security"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "f": "a fingerprint",
+       "a": "something you are",
+       "w": [
+        "something you know",
+        "something you have"
+       ]
+      },
+      {
+       "f": "a password",
+       "a": "something you know",
+       "w": [
+        "something you have",
+        "something you are"
+       ]
+      },
+      {
+       "f": "a code sent to your phone",
+       "a": "something you have",
+       "w": [
+        "something you know",
+        "something you are"
+       ]
+      },
+      {
+       "f": "face recognition",
+       "a": "something you are",
+       "w": [
+        "something you know",
+        "something you have"
+       ]
+      },
+      {
+       "f": "a PIN",
+       "a": "something you know",
+       "w": [
+        "something you have",
+        "something you are"
+       ]
+      },
+      {
+       "f": "a bank card",
+       "a": "something you have",
+       "w": [
+        "something you know",
+        "something you are"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Which kind of factor is {X.f}?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "f"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "f"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "f",
+     "explain": "Ask: do you remember it, carry it, or is it part of your body?"
+    }
+   ],
+   "solution": [
+    "Know: password, PIN; have: phone, card; are: fingerprint, face.",
+    "So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "s2-42-2fa",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "data-security"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is two-factor authentication?",
+       "r": "a password and a code sent by SMS",
+       "w": [
+        "two passwords",
+        "a PIN and a secret question",
+        "only a fingerprint"
+       ],
+       "e": [
+        "Both are things you know.",
+        "Both are things you know.",
+        "One factor."
+       ],
+       "y": "Two different kinds of factor."
+      },
+      {
+       "q": "Why is two-factor authentication safer?",
+       "r": "A thief needs both factors, not just a stolen password.",
+       "w": [
+        "It needs no password.",
+        "It makes the phone faster.",
+        "It deletes viruses."
+       ],
+       "e": [
+        "Not true.",
+        "Not true.",
+        "Not its role."
+       ],
+       "y": "Harder to break in."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-42-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "data-security"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A PIN is something you know.",
+      "truth": "true"
+     },
+     {
+      "text": "A fingerprint is biometric.",
+      "truth": "true"
+     },
+     {
+      "text": "Two-factor uses two kinds of factor.",
+      "truth": "true"
+     },
+     {
+      "text": "Lock your screen when you leave.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Two passwords are two-factor authentication.",
+      "truth": "false",
+      "explain": "Both are the same kind (know)."
+     },
+     {
+      "text": "Share your OTP code with friends.",
+      "truth": "false",
+      "explain": "Never share codes."
+     },
+     {
+      "text": "Authentication decides what you can do after logging in.",
+      "truth": "false",
+      "explain": "That is authorisation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

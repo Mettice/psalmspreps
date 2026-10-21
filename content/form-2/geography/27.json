@@ -1,0 +1,420 @@
+{
+ "subject": "geography",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  19,
+  26
+ ],
+ "skills": [
+  {
+   "id": "g2-27",
+   "name": "Further study 7: rural exodus in Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rural exodus is the movement of people, mostly young, from villages to towns.\nCauses (push factors in villages): few jobs and low farm incomes, lack of electricity, water, schools and hospitals, hard farm work, land shortage, conflicts and insecurity.\nCauses (pull factors in towns): jobs, higher wages, schools and universities, hospitals, entertainment, modern life.\nConsequences: in villages — fewer young workers, ageing population, less food produced, abandoned farms; in towns — overcrowding, unemployment, shanty towns, crime.\nMaking the countryside more attractive: rural electrification and water, good roads, schools and health centres, credit and modern tools for farmers, agro-industries and cooperatives, youth farming projects, internet access.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give one push factor and one pull factor of rural exodus.",
+  "steps": [
+   "A push factor drives people out of the village: lack of jobs.",
+   "A pull factor attracts them to the town: higher wages."
+  ],
+  "answer": "Push: lack of jobs in the village; pull: higher wages in town.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "Rural exodus is the movement of people from villages to towns.",
+    "vars": {},
+    "example": [
+     "Mostly young people."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-27-what"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "Push factors drive people from villages; pull factors attract them to towns.",
+    "vars": {},
+    "example": [
+     "No electricity (push); jobs (pull)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g2-27-push"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "Rural electrification, roads, schools and credit make villages more attractive.",
+    "vars": {},
+    "example": [
+     "Agro-industries create jobs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g2-27-sol-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "african-towns"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which measure makes villages more attractive to young people?",
+         "r": "bringing electricity and the internet",
+         "w": [
+          "closing village schools",
+          "stopping road building",
+          "raising taxes on farmers"
+         ],
+         "e": [
+          "Pushes people out.",
+          "Pushes people out.",
+          "Pushes people out."
+         ],
+         "y": "Modern services keep people."
+        },
+        {
+         "q": "What is a consequence of rural exodus for villages?",
+         "r": "fewer young workers and less food produced",
+         "w": [
+          "more young workers",
+          "more food produced",
+          "crowded villages"
+         ],
+         "e": [
+          "The opposite.",
+          "The opposite.",
+          "Towns get crowded."
+         ],
+         "y": "The young leave."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g2-27-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is rural exodus?",
+       "r": "the movement of people from villages to towns",
+       "w": [
+        "moving from towns to villages",
+        "moving to another country only",
+        "farming in towns"
+       ],
+       "e": [
+        "The opposite.",
+        "That is emigration.",
+        "Not the meaning."
+       ],
+       "y": "Village → town."
+      },
+      {
+       "q": "Who mostly leaves the villages?",
+       "r": "young people",
+       "w": [
+        "old people",
+        "babies",
+        "chiefs"
+       ],
+       "e": [
+        "They mostly stay.",
+        "They follow parents.",
+        "They stay."
+       ],
+       "y": "Youths seek jobs and schools."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-27-push",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "No electricity in the village.",
+       "a": "a push factor"
+      },
+      {
+       "s": "Universities in the town.",
+       "a": "a pull factor"
+      },
+      {
+       "s": "Low prices for crops.",
+       "a": "a push factor"
+      },
+      {
+       "s": "Jobs in factories.",
+       "a": "a pull factor"
+      },
+      {
+       "s": "Land shortage in the village.",
+       "a": "a push factor"
+      },
+      {
+       "s": "Entertainment and modern life.",
+       "a": "a pull factor"
+      }
+     ]
+    }
+   },
+   "prompt": "Is this a push factor (in the village) or a pull factor (in the town)? {X.s}",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.a == 'a push factor' ? 'a pull factor' : 'a push factor'}",
+     "misconception": "pp"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pp",
+     "explain": "Ask: does it drive people away from the village or attract them to the town?"
+    }
+   ],
+   "solution": [
+    "Push factors drive people out of villages; pull factors attract them to towns.",
+    "So: {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "g2-27-sol",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which measure makes villages more attractive to young people?",
+       "r": "bringing electricity and the internet",
+       "w": [
+        "closing village schools",
+        "stopping road building",
+        "raising taxes on farmers"
+       ],
+       "e": [
+        "Pushes people out.",
+        "Pushes people out.",
+        "Pushes people out."
+       ],
+       "y": "Modern services keep people."
+      },
+      {
+       "q": "What is a consequence of rural exodus for villages?",
+       "r": "fewer young workers and less food produced",
+       "w": [
+        "more young workers",
+        "more food produced",
+        "crowded villages"
+       ],
+       "e": [
+        "The opposite.",
+        "The opposite.",
+        "Towns get crowded."
+       ],
+       "y": "The young leave."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g2-27-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "african-towns"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Rural exodus moves people to towns.",
+      "truth": "true"
+     },
+     {
+      "text": "Lack of jobs pushes people out.",
+      "truth": "true"
+     },
+     {
+      "text": "Towns attract with higher wages.",
+      "truth": "true"
+     },
+     {
+      "text": "Rural electrification helps.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Rural exodus makes villages younger.",
+      "truth": "false",
+      "explain": "The young leave; villages age."
+     },
+     {
+      "text": "Good roads increase rural exodus.",
+      "truth": "false",
+      "explain": "They help keep people in villages."
+     },
+     {
+      "text": "Rural exodus has no effect on towns.",
+      "truth": "false",
+      "explain": "It causes overcrowding and unemployment."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

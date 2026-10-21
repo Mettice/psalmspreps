@@ -1,4 +1,4 @@
-# History Form 2, Batch Y2-1: authored answers for review
+# History Form 2, Batches Y2-1, Y2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -114,6 +114,10 @@ Every answer in History is authored: see Part 2 and the sources.
 | 100 | `y2-21-feudal` | 21 | matching, 1 | medieval-europe |
 | 101 | `y2-21-ren` | 21 | multiple choice, 2 | medieval-europe |
 | 102 | `y2-21-ren-card` (card c21-3) | 21 | multiple choice, 1 | medieval-europe |
+| 103 | `y2-22-civ` | 22 | multiple choice, 1 | americas |
+| 104 | `y2-22-cap` | 22 | matching, 1 | americas |
+| 105 | `y2-22-fall` | 22 | multiple choice, 2 | americas |
+| 106 | `y2-22-fall-card` (card c22-3) | 22 | multiple choice, 1 | americas |
 
 ### `y2-1-pygmy` · Lesson 1 · multiple choice, level 1
 
@@ -6640,4 +6644,268 @@ Full working after a second miss:
 > So the answer is “Books became cheaper and ideas spread faster.”.  
 
 Sources: medieval-europe (Europe from the Dark Ages to the Renaissance: fall of Rome 476, Charlemagne 800, feudalism, the Crusades 1096–1291, the Black Death 1347–1351, the Renaissance in Italy, Gutenberg about 1450)
+
+### `y2-22-civ` · Lesson 22 · multiple choice, level 1
+
+Prompt: Which civilisation is described? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| City-states in southern Mexico and Guatemala, with glyph writing and the zero. | the Maya | the Aztec · the Inca · the Kongo | Central Mexico, Tenochtitlan. · The Andes, Cusco. · That is in Africa. | The Maya. |
+| An empire in the Andes linked by stone roads, with records on knotted strings. | the Inca | the Maya · the Aztec · Mali | Mexico and Guatemala. · Central Mexico. · That is in Africa. | The quipu. |
+| A capital built on a lake, with floating gardens, in central Mexico. | the Aztec | the Inca · the Maya · Great Zimbabwe | The Andes. · Southern Mexico and Guatemala. · That is in Africa. | Tenochtitlan. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which civilisation is described? A capital built on a lake, with floating gardens, in central Mexico.
+
+- ◻️ the Inca  
+  _↳ feedback if chosen: The Andes._
+- ✅ the Aztec
+- ◻️ the Maya  
+  _↳ feedback if chosen: Southern Mexico and Guatemala._
+- ◻️ Great Zimbabwe  
+  _↳ feedback if chosen: That is in Africa._
+
+Full working after a second miss:
+
+> Tenochtitlan.  
+> So the answer is “the Aztec”.  
+
+> Which civilisation is described? A capital built on a lake, with floating gardens, in central Mexico.
+
+- ◻️ Great Zimbabwe  
+  _↳ feedback if chosen: That is in Africa._
+- ◻️ the Inca  
+  _↳ feedback if chosen: The Andes._
+- ◻️ the Maya  
+  _↳ feedback if chosen: Southern Mexico and Guatemala._
+- ✅ the Aztec
+
+Full working after a second miss:
+
+> Tenochtitlan.  
+> So the answer is “the Aztec”.  
+
+> Which civilisation is described? A capital built on a lake, with floating gardens, in central Mexico.
+
+- ◻️ the Maya  
+  _↳ feedback if chosen: Southern Mexico and Guatemala._
+- ✅ the Aztec
+- ◻️ the Inca  
+  _↳ feedback if chosen: The Andes._
+- ◻️ Great Zimbabwe  
+  _↳ feedback if chosen: That is in Africa._
+
+Full working after a second miss:
+
+> Tenochtitlan.  
+> So the answer is “the Aztec”.  
+
+Sources: americas (The Maya (classic period about AD 250–900), the Aztec (Tenochtitlan founded about 1325, conquered by Cortés 1521) and the Inca (about 1438–1533, Cusco, Machu Picchu, quipu, conquered by Pizarro 1532–1533); causes of decline)
+
+### `y2-22-cap` · Lesson 22 · matching, level 1
+
+Prompt: Match each item to its civilisation.
+
+Pairs (4 shown each time, sorted into groups):
+
+- Tenochtitlan → **the Aztec**
+- Cusco → **the Inca**
+- Chichén Itzá → **the Maya**
+- quipu (knotted strings) → **the Inca**
+- chinampas (floating gardens) → **the Aztec**
+
+
+Three generated variants:
+
+> Match each item to its civilisation.
+
+Groups: the Inca · the Aztec · the Maya
+- Cusco → **the Inca**
+- quipu (knotted strings) → **the Inca**
+- Tenochtitlan → **the Aztec**
+- Chichén Itzá → **the Maya**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Cusco → the Inca  
+> quipu (knotted strings) → the Inca  
+> Tenochtitlan → the Aztec  
+> Chichén Itzá → the Maya  
+
+> Match each item to its civilisation.
+
+Groups: the Inca · the Aztec · the Maya
+- chinampas (floating gardens) → **the Aztec**
+- quipu (knotted strings) → **the Inca**
+- Tenochtitlan → **the Aztec**
+- Chichén Itzá → **the Maya**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> chinampas (floating gardens) → the Aztec  
+> quipu (knotted strings) → the Inca  
+> Tenochtitlan → the Aztec  
+> Chichén Itzá → the Maya  
+
+> Match each item to its civilisation.
+
+Groups: the Aztec · the Inca · the Maya
+- Chichén Itzá → **the Maya**
+- Tenochtitlan → **the Aztec**
+- quipu (knotted strings) → **the Inca**
+- chinampas (floating gardens) → **the Aztec**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Chichén Itzá → the Maya  
+> Tenochtitlan → the Aztec  
+> quipu (knotted strings) → the Inca  
+> chinampas (floating gardens) → the Aztec  
+
+Sources: americas (The Maya (classic period about AD 250–900), the Aztec (Tenochtitlan founded about 1325, conquered by Cortés 1521) and the Inca (about 1438–1533, Cusco, Machu Picchu, quipu, conquered by Pizarro 1532–1533); causes of decline)
+
+### `y2-22-fall` · Lesson 22 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Who conquered the Aztec empire in 1521? | Hernán Cortés | Francisco Pizarro · Vasco da Gama · Diogo Cão | He conquered the Inca. · He reached India. · He reached Kongo. | A Spanish conquistador. |
+| Which was a major cause of the fall of the Aztec and Inca? | European diseases such as smallpox | too much rain · the Crusades · the Almoravids | Not the main cause. · In the Middle East. · In West Africa. | Millions died of new diseases. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Who conquered the Aztec empire in 1521?
+
+- ◻️ Francisco Pizarro  
+  _↳ feedback if chosen: He conquered the Inca._
+- ✅ Hernán Cortés
+- ◻️ Diogo Cão  
+  _↳ feedback if chosen: He reached Kongo._
+- ◻️ Vasco da Gama  
+  _↳ feedback if chosen: He reached India._
+
+Full working after a second miss:
+
+> A Spanish conquistador.  
+> So the answer is “Hernán Cortés”.  
+
+> Which was a major cause of the fall of the Aztec and Inca?
+
+- ✅ European diseases such as smallpox
+- ◻️ the Crusades  
+  _↳ feedback if chosen: In the Middle East._
+- ◻️ too much rain  
+  _↳ feedback if chosen: Not the main cause._
+- ◻️ the Almoravids  
+  _↳ feedback if chosen: In West Africa._
+
+Full working after a second miss:
+
+> Millions died of new diseases.  
+> So the answer is “European diseases such as smallpox”.  
+
+> Who conquered the Aztec empire in 1521?
+
+- ◻️ Vasco da Gama  
+  _↳ feedback if chosen: He reached India._
+- ✅ Hernán Cortés
+- ◻️ Francisco Pizarro  
+  _↳ feedback if chosen: He conquered the Inca._
+- ◻️ Diogo Cão  
+  _↳ feedback if chosen: He reached Kongo._
+
+Full working after a second miss:
+
+> A Spanish conquistador.  
+> So the answer is “Hernán Cortés”.  
+
+Sources: americas (The Maya (classic period about AD 250–900), the Aztec (Tenochtitlan founded about 1325, conquered by Cortés 1521) and the Inca (about 1438–1533, Cusco, Machu Picchu, quipu, conquered by Pizarro 1532–1533); causes of decline)
+
+### `y2-22-fall-card` · Lesson 22 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Who conquered the Aztec empire in 1521? | Hernán Cortés | Francisco Pizarro · Vasco da Gama · Diogo Cão | He conquered the Inca. · He reached India. · He reached Kongo. | A Spanish conquistador. |
+| Which was a major cause of the fall of the Aztec and Inca? | European diseases such as smallpox | too much rain · the Crusades · the Almoravids | Not the main cause. · In the Middle East. · In West Africa. | Millions died of new diseases. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which was a major cause of the fall of the Aztec and Inca?
+
+- ✅ European diseases such as smallpox
+- ◻️ too much rain  
+  _↳ feedback if chosen: Not the main cause._
+- ◻️ the Almoravids  
+  _↳ feedback if chosen: In West Africa._
+- ◻️ the Crusades  
+  _↳ feedback if chosen: In the Middle East._
+
+Full working after a second miss:
+
+> Millions died of new diseases.  
+> So the answer is “European diseases such as smallpox”.  
+
+> Which was a major cause of the fall of the Aztec and Inca?
+
+- ✅ European diseases such as smallpox
+- ◻️ too much rain  
+  _↳ feedback if chosen: Not the main cause._
+- ◻️ the Crusades  
+  _↳ feedback if chosen: In the Middle East._
+- ◻️ the Almoravids  
+  _↳ feedback if chosen: In West Africa._
+
+Full working after a second miss:
+
+> Millions died of new diseases.  
+> So the answer is “European diseases such as smallpox”.  
+
+> Which was a major cause of the fall of the Aztec and Inca?
+
+- ◻️ the Crusades  
+  _↳ feedback if chosen: In the Middle East._
+- ✅ European diseases such as smallpox
+- ◻️ too much rain  
+  _↳ feedback if chosen: Not the main cause._
+- ◻️ the Almoravids  
+  _↳ feedback if chosen: In West Africa._
+
+Full working after a second miss:
+
+> Millions died of new diseases.  
+> So the answer is “European diseases such as smallpox”.  
+
+Sources: americas (The Maya (classic period about AD 250–900), the Aztec (Tenochtitlan founded about 1325, conquered by Cortés 1521) and the Inca (about 1438–1533, Cusco, Machu Picchu, quipu, conquered by Pizarro 1532–1533); causes of decline)
 

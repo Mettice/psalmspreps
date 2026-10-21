@@ -368,5 +368,76 @@
    ],
    "unit": "FCFA"
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "From assets to capital",
+  "stages": [
+   {
+    "title": "Complete the working",
+    "question": {
+     "id": "pilot-form-2-accounting-1-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "financial-position"
+     ],
+     "status": "draft",
+     "type": "blanks",
+     "vars": {
+      "goods": 60000,
+      "equipment": 40000,
+      "debt": 25000
+     },
+     "text": "A shop has goods worth {goods} FCFA, equipment worth {equipment} FCFA and owes {debt} FCFA.\nAssets = {goods} + {equipment} = ___ FCFA.\nCapital = assets − {debt} = ___ FCFA.",
+     "prompt": "Complete the missing working.",
+     "answers": "[goods + equipment, goods + equipment - debt]",
+     "solution": [
+      "Assets: {goods} + {equipment} = {goods + equipment} FCFA.",
+      "Capital: {goods + equipment} − {debt} = {goods + equipment - debt} FCFA."
+     ]
+    }
+   },
+   {
+    "title": "Evaluate another business",
+    "question": {
+     "id": "pilot-form-2-accounting-1-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "financial-position"
+     ],
+     "status": "draft",
+     "type": "numeric",
+     "vars": {
+      "a": {
+       "int": [
+        10,
+        20
+       ]
+      },
+      "d": {
+       "int": [
+        2,
+        7
+       ]
+      },
+      "assets": {
+       "expr": "a * 10000"
+      },
+      "debt": {
+       "expr": "d * 10000"
+      }
+     },
+     "prompt": "Another shop has assets worth {assets} FCFA and owes outsiders {debt} FCFA. Find its capital.",
+     "answer": "assets - debt",
+     "verify": "answer == (assets - debt)",
+     "solution": [
+      "Capital = assets − liabilities = {assets} − {debt} = {assets - debt} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ }
 }

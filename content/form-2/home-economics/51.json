@@ -1,0 +1,440 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 51,
+ "language": "en",
+ "prerequisites": [
+  50
+ ],
+ "skills": [
+  {
+   "id": "h2-51",
+   "name": "Scurvy and anaemia"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Scurvy is caused by a lack of vitamin C (ascorbic acid).\nSigns: bleeding, swollen and spongy gums, loose teeth, wounds that heal slowly, bruises, tiredness, painful joints.\nSources of vitamin C: oranges, lemons, grapefruit, guavas, pawpaw, pineapple, mangoes, tomatoes, green leafy vegetables. Vitamin C is destroyed by long cooking, so eat fruit raw.\nAnaemia is a lack of red blood cells or haemoglobin, so the blood carries less oxygen.\nCauses: lack of iron (and folic acid, vitamin B12) in the diet; loss of blood (worms, heavy periods, wounds); malaria.\nSigns: pale eyelids, palms and tongue; tiredness; dizziness; breathlessness; fast heartbeat.\nSources of iron: liver, red meat, beans, dark green leaves (njama-njama, okok), eggs, fish. Vitamin C helps the body absorb iron.\nPrevention: a balanced diet, deworming, sleeping under a mosquito net.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A pupil is always tired, has pale eyelids and gets breathless easily. What may she have, and which foods would help?",
+  "steps": [
+   "Pale eyelids, tiredness and breathlessness are signs of anaemia.",
+   "She needs iron: liver, beans, dark green leaves, with fruit for vitamin C."
+  ],
+  "answer": "Anaemia: iron-rich foods (liver, beans, green leaves) with fruit.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c51-1",
+    "status": "draft",
+    "idea": "Scurvy is caused by a lack of vitamin C; the gums bleed.",
+    "vars": {},
+    "example": [
+     "Oranges and guavas prevent it."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-51-scurvy"
+    }
+   },
+   {
+    "id": "c51-2",
+    "status": "draft",
+    "idea": "Anaemia is a lack of red blood cells, often from a lack of iron.",
+    "vars": {},
+    "example": [
+     "Pale eyelids and tiredness."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-51-anaem"
+    }
+   },
+   {
+    "id": "c51-3",
+    "status": "draft",
+    "idea": "Iron is in liver, beans and dark green leaves; vitamin C helps absorb it.",
+    "vars": {},
+    "example": [
+     "Deworming and mosquito nets help too."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-51-food-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "deficiency-diseases"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which food is rich in iron?",
+         "r": "liver",
+         "w": [
+          "white bread",
+          "sugar",
+          "cassava flour"
+         ],
+         "e": [
+          "Little iron.",
+          "No iron.",
+          "Little iron."
+         ],
+         "y": "Liver, beans and dark leaves give iron."
+        },
+        {
+         "q": "Why should fruit be eaten raw rather than cooked for a long time?",
+         "r": "Long cooking destroys vitamin C.",
+         "w": [
+          "Raw fruit has more fat.",
+          "Cooking adds vitamin C.",
+          "Raw fruit has no vitamins."
+         ],
+         "e": [
+          "Not true.",
+          "It destroys it.",
+          "Raw fruit is rich in vitamins."
+         ],
+         "y": "Vitamin C is easily destroyed by heat."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-51-scurvy",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What causes scurvy?",
+       "r": "a lack of vitamin C",
+       "w": [
+        "a lack of iron",
+        "a lack of vitamin D",
+        "too much fat"
+       ],
+       "e": [
+        "That causes anaemia.",
+        "That causes rickets.",
+        "That causes obesity."
+       ],
+       "y": "Vitamin C keeps gums and skin healthy."
+      },
+      {
+       "q": "Which is a sign of scurvy?",
+       "r": "bleeding, swollen gums",
+       "w": [
+        "bowed legs",
+        "swollen neck",
+        "night blindness"
+       ],
+       "e": [
+        "Rickets.",
+        "Goitre.",
+        "Vitamin A deficiency."
+       ],
+       "y": "Gums become spongy and bleed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-51-anaem",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is anaemia?",
+       "r": "a lack of red blood cells or haemoglobin",
+       "w": [
+        "too much blood sugar",
+        "a broken bone",
+        "a skin disease"
+       ],
+       "e": [
+        "That is diabetes.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "The blood carries less oxygen."
+      },
+      {
+       "q": "Which is a sign of anaemia?",
+       "r": "pale eyelids and palms",
+       "w": [
+        "bleeding gums",
+        "bowed legs",
+        "swollen feet"
+       ],
+       "e": [
+        "Scurvy.",
+        "Rickets.",
+        "Kwashiorkor."
+       ],
+       "y": "Less red colour from haemoglobin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-51-food",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which food is rich in iron?",
+       "r": "liver",
+       "w": [
+        "white bread",
+        "sugar",
+        "cassava flour"
+       ],
+       "e": [
+        "Little iron.",
+        "No iron.",
+        "Little iron."
+       ],
+       "y": "Liver, beans and dark leaves give iron."
+      },
+      {
+       "q": "Why should fruit be eaten raw rather than cooked for a long time?",
+       "r": "Long cooking destroys vitamin C.",
+       "w": [
+        "Raw fruit has more fat.",
+        "Cooking adds vitamin C.",
+        "Raw fruit has no vitamins."
+       ],
+       "e": [
+        "Not true.",
+        "It destroys it.",
+        "Raw fruit is rich in vitamins."
+       ],
+       "y": "Vitamin C is easily destroyed by heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-51-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Scurvy makes the gums bleed.",
+      "truth": "true"
+     },
+     {
+      "text": "Anaemia causes tiredness.",
+      "truth": "true"
+     },
+     {
+      "text": "Oranges contain vitamin C.",
+      "truth": "true"
+     },
+     {
+      "text": "Beans contain iron.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Anaemia is caused by too much iron.",
+      "truth": "false",
+      "explain": "It is often caused by a lack of iron."
+     },
+     {
+      "text": "Malaria and worms protect against anaemia.",
+      "truth": "false",
+      "explain": "They cause anaemia."
+     },
+     {
+      "text": "Boiling oranges for an hour keeps all their vitamin C.",
+      "truth": "false",
+      "explain": "Long heating destroys vitamin C."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

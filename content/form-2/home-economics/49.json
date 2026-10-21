@@ -1,0 +1,438 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 49,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "h2-49",
+   "name": "Obesity: causes, signs and prevention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Obesity is a condition in which a person has too much body fat for their height, enough to harm health.\nCauses: eating more energy (calories) than the body uses — too much fried food, sugar, sweet drinks, snacks and large portions; little physical activity (sitting a lot, screens); some hormonal problems and family habits.\nSigns and symptoms: excess weight, large waist, tiredness and breathlessness when walking, joint pain, snoring, low self-esteem; a high BMI (30 or more for adults).\nEffects: high blood pressure, heart disease, diabetes, joint problems.\nPrevention: a balanced diet with plenty of fruit and vegetables; fewer fried foods, sugar and sweet drinks; drink water; eat regular meals of reasonable size; exercise every day; limit screen time; check weight regularly.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A pupil drinks two sodas and eats fried snacks every afternoon while watching television. Give two changes to prevent obesity.",
+  "steps": [
+   "Replace sodas and fried snacks with water and fruit.",
+   "Replace some television time with physical activity such as football or walking."
+  ],
+  "answer": "Drink water and eat fruit instead; exercise instead of watching television.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c49-1",
+    "status": "draft",
+    "idea": "Obesity is having too much body fat, enough to harm health.",
+    "vars": {},
+    "example": [
+     "It is caused by eating more energy than the body uses."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-49-cause"
+    }
+   },
+   {
+    "id": "c49-2",
+    "status": "draft",
+    "idea": "Signs: excess weight, large waist, breathlessness, joint pain.",
+    "vars": {},
+    "example": [
+     "A BMI of {30} or more in adults."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-49-sign"
+    }
+   },
+   {
+    "id": "c49-3",
+    "status": "draft",
+    "idea": "Prevent obesity with a balanced diet, water instead of sweet drinks, and daily exercise.",
+    "vars": {},
+    "example": [
+     "Walk or play every day."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-49-prev-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "deficiency-diseases"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which meal helps prevent obesity?",
+         "r": "grilled fish, vegetables and a fruit",
+         "w": [
+          "fried chicken, chips and soda",
+          "doughnuts and sweet tea",
+          "a large plate of puff-puff"
+         ],
+         "e": [
+          "Too much fat and sugar.",
+          "Too much sugar.",
+          "Fried and fatty."
+         ],
+         "y": "Balanced and low in fat."
+        },
+        {
+         "q": "How much physical activity should teenagers do?",
+         "r": "about one hour every day",
+         "w": [
+          "none",
+          "five minutes a month",
+          "only during holidays"
+         ],
+         "e": [
+          "Activity is needed.",
+          "Too little.",
+          "Every day is better."
+         ],
+         "y": "Daily exercise uses energy."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-49-cause",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the main cause of obesity?",
+       "r": "eating more energy than the body uses",
+       "w": [
+        "drinking water",
+        "eating vegetables",
+        "walking every day"
+       ],
+       "e": [
+        "Water has no energy.",
+        "Vegetables protect.",
+        "Exercise prevents it."
+       ],
+       "y": "Extra energy is stored as fat."
+      },
+      {
+       "q": "Which habit can lead to obesity?",
+       "r": "drinking sweet sodas every day",
+       "w": [
+        "eating fruit",
+        "playing football",
+        "drinking water"
+       ],
+       "e": [
+        "Fruit is healthy.",
+        "Exercise helps.",
+        "Water is healthy."
+       ],
+       "y": "Sodas contain a lot of sugar."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-49-sign",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a sign of obesity?",
+       "r": "breathlessness when walking a short distance",
+       "w": [
+        "swollen neck",
+        "bleeding gums",
+        "night blindness"
+       ],
+       "e": [
+        "That is goitre.",
+        "That is scurvy.",
+        "That is vitamin A deficiency."
+       ],
+       "y": "Extra weight strains the heart and lungs."
+      },
+      {
+       "q": "Which disease can obesity lead to?",
+       "r": "diabetes",
+       "w": [
+        "rickets",
+        "scurvy",
+        "kwashiorkor"
+       ],
+       "e": [
+        "Lack of vitamin D.",
+        "Lack of vitamin C.",
+        "Lack of protein."
+       ],
+       "y": "Too much fat and sugar."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-49-prev",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which meal helps prevent obesity?",
+       "r": "grilled fish, vegetables and a fruit",
+       "w": [
+        "fried chicken, chips and soda",
+        "doughnuts and sweet tea",
+        "a large plate of puff-puff"
+       ],
+       "e": [
+        "Too much fat and sugar.",
+        "Too much sugar.",
+        "Fried and fatty."
+       ],
+       "y": "Balanced and low in fat."
+      },
+      {
+       "q": "How much physical activity should teenagers do?",
+       "r": "about one hour every day",
+       "w": [
+        "none",
+        "five minutes a month",
+        "only during holidays"
+       ],
+       "e": [
+        "Activity is needed.",
+        "Too little.",
+        "Every day is better."
+       ],
+       "y": "Daily exercise uses energy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-49-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "deficiency-diseases"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Obesity can lead to diabetes.",
+      "truth": "true"
+     },
+     {
+      "text": "Exercise helps prevent obesity.",
+      "truth": "true"
+     },
+     {
+      "text": "Sweet drinks contain much sugar.",
+      "truth": "true"
+     },
+     {
+      "text": "Fruit and vegetables are healthy.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Obesity is caused by drinking water.",
+      "truth": "false",
+      "explain": "Water has no energy."
+     },
+     {
+      "text": "Skipping exercise prevents obesity.",
+      "truth": "false",
+      "explain": "Exercise prevents it."
+     },
+     {
+      "text": "Fried snacks every day keep weight healthy.",
+      "truth": "false",
+      "explain": "They add a lot of fat."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

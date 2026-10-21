@@ -1,0 +1,394 @@
+{
+ "subject": "computer-science",
+ "class": "Form 2",
+ "lesson_no": 48,
+ "language": "en",
+ "prerequisites": [
+  45
+ ],
+ "skills": [
+  {
+   "id": "s2-48",
+   "name": "Using videoconference tools"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A videoconference is a live meeting with sound and video between people in different places, over the internet.\nTools: Zoom, Google Meet, Microsoft Teams, WhatsApp video calls, Skype.\nNeeded: a device with a camera and microphone (or headset), an internet connection with enough data, and the app or a browser.\nJoining: open the link or enter the meeting ID and passcode; check your name; join with microphone muted.\nFeatures: mute/unmute, camera on/off, chat, raise hand, share screen, record (with permission), breakout rooms.\nEtiquette: be on time, choose a quiet place with light in front of you, mute when not speaking, raise your hand to speak, dress properly, do not record others without permission.\nUses: online classes, meetings, interviews, talking to family abroad.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why should you mute your microphone when you are not speaking in an online class?",
+  "steps": [
+   "Background noise from your room is heard by everyone.",
+   "Muting keeps the class quiet so the speaker can be heard."
+  ],
+  "answer": "To avoid background noise disturbing the class.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c48-1",
+    "status": "draft",
+    "idea": "A videoconference is a live meeting with sound and video over the internet.",
+    "vars": {},
+    "example": [
+     "Zoom, Google Meet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-48-what"
+    }
+   },
+   {
+    "id": "c48-2",
+    "status": "draft",
+    "idea": "You need a camera, a microphone, internet and the app or a link.",
+    "vars": {},
+    "example": [
+     "Join with the meeting ID."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "s2-48-feat"
+    }
+   },
+   {
+    "id": "c48-3",
+    "status": "draft",
+    "idea": "Etiquette: be on time, mute when not speaking, raise your hand.",
+    "vars": {},
+    "example": [
+     "Do not record without permission."
+    ],
+    "checks": [],
+    "check": {
+     "id": "s2-48-etiq-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "communication-tools"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which is good videoconference etiquette?",
+         "r": "mute your microphone when not speaking",
+         "w": [
+          "shout over others",
+          "eat loudly near the microphone",
+          "record everyone secretly"
+         ],
+         "e": [
+          "Be polite.",
+          "Noise disturbs.",
+          "Ask permission to record."
+         ],
+         "y": "Keeps the meeting clear."
+        },
+        {
+         "q": "Where should the light be when you are on camera?",
+         "r": "in front of you",
+         "w": [
+          "behind you",
+          "nowhere",
+          "under the table"
+         ],
+         "e": [
+          "Your face would be dark.",
+          "You would not be seen.",
+          "Not useful."
+         ],
+         "y": "So your face can be seen."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "s2-48-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a videoconference?",
+       "r": "a live meeting with sound and video over the internet",
+       "w": [
+        "a printed letter",
+        "a radio song",
+        "an offline game"
+       ],
+       "e": [
+        "Not live video.",
+        "No video.",
+        "Not a meeting."
+       ],
+       "y": "People see and hear each other."
+      },
+      {
+       "q": "Which tool is used for videoconferences?",
+       "r": "Google Meet",
+       "w": [
+        "Microsoft Paint",
+        "a calculator",
+        "Notepad"
+       ],
+       "e": [
+        "A drawing tool.",
+        "Not for meetings.",
+        "A text editor."
+       ],
+       "y": "Also Zoom and Teams."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-48-feat",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "prompt": "Match each feature to its use.",
+   "pool": [
+    {
+     "left": "mute",
+     "right": "turn off your microphone"
+    },
+    {
+     "left": "share screen",
+     "right": "show your screen to others"
+    },
+    {
+     "left": "raise hand",
+     "right": "ask to speak"
+    },
+    {
+     "left": "chat",
+     "right": "send written messages during the meeting"
+    },
+    {
+     "left": "camera off",
+     "right": "stop showing your video"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "s2-48-etiq",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is good videoconference etiquette?",
+       "r": "mute your microphone when not speaking",
+       "w": [
+        "shout over others",
+        "eat loudly near the microphone",
+        "record everyone secretly"
+       ],
+       "e": [
+        "Be polite.",
+        "Noise disturbs.",
+        "Ask permission to record."
+       ],
+       "y": "Keeps the meeting clear."
+      },
+      {
+       "q": "Where should the light be when you are on camera?",
+       "r": "in front of you",
+       "w": [
+        "behind you",
+        "nowhere",
+        "under the table"
+       ],
+       "e": [
+        "Your face would be dark.",
+        "You would not be seen.",
+        "Not useful."
+       ],
+       "y": "So your face can be seen."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "s2-48-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "communication-tools"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Join on time.",
+      "truth": "true"
+     },
+     {
+      "text": "Mute when not speaking.",
+      "truth": "true"
+     },
+     {
+      "text": "Use raise hand to speak.",
+      "truth": "true"
+     },
+     {
+      "text": "A camera is needed for video.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Record classmates without asking.",
+      "truth": "false",
+      "explain": "Ask permission before recording."
+     },
+     {
+      "text": "A videoconference needs no internet.",
+      "truth": "false",
+      "explain": "It needs an internet connection."
+     },
+     {
+      "text": "Sit with a bright window behind you.",
+      "truth": "false",
+      "explain": "Light should be in front of you."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

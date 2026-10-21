@@ -1,0 +1,376 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 59,
+ "language": "en",
+ "prerequisites": [
+  56
+ ],
+ "skills": [
+  {
+   "id": "h2-59",
+   "name": "Clothing labels and care symbols"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A clothing label gives information about a garment:\n• the size (S, M, L, XL, or numbers such as 38, 40);\n• the fibre content (for example 65% polyester, 35% cotton);\n• the trade mark (brand) and country of manufacture;\n• the care instructions, often as symbols.\nCare symbols:\n• a tub with water: washing (a number shows the maximum temperature, a hand means hand wash only, a cross means do not wash);\n• a triangle: bleaching (crossed = do not bleach);\n• a square: drying (a circle inside = tumble dry);\n• an iron: ironing (dots show the heat: one dot cool, two warm, three hot; crossed = do not iron);\n• a circle: dry cleaning.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A label shows an iron with one dot. How should the garment be ironed?",
+  "steps": [
+   "The dots on the iron show the heat.",
+   "One dot means a cool iron (for synthetics such as nylon)."
+  ],
+  "answer": "With a cool iron.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c59-1",
+    "status": "draft",
+    "idea": "A label gives the size, the fibres, the brand and care instructions.",
+    "vars": {},
+    "example": [
+     "{65}% polyester, {35}% cotton."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-59-info"
+    }
+   },
+   {
+    "id": "c59-2",
+    "status": "draft",
+    "idea": "Tub = washing; triangle = bleaching; square = drying; iron = ironing; circle = dry cleaning.",
+    "vars": {},
+    "example": [
+     "A cross means do not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-59-symbol"
+    }
+   },
+   {
+    "id": "c59-3",
+    "status": "draft",
+    "idea": "Dots on the iron: one cool, two warm, three hot.",
+    "vars": {},
+    "example": [
+     "Three dots for cotton and linen."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-59-iron-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "laundry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "d": "one dot",
+         "a": "with a cool iron",
+         "w": [
+          "with a hot iron",
+          "do not iron"
+         ]
+        },
+        {
+         "d": "two dots",
+         "a": "with a warm iron",
+         "w": [
+          "with a cool iron",
+          "with a hot iron"
+         ]
+        },
+        {
+         "d": "three dots",
+         "a": "with a hot iron",
+         "w": [
+          "with a cool iron",
+          "do not iron"
+         ]
+        },
+        {
+         "d": "a cross over the iron",
+         "a": "do not iron",
+         "w": [
+          "with a hot iron",
+          "with a warm iron"
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "An iron symbol shows {X.d}. How should the garment be ironed?",
+     "correct": "{X.a}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "dots"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "dots"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "dots",
+       "explain": "Count the dots: one cool, two warm, three hot; a cross means do not iron."
+      }
+     ],
+     "solution": [
+      "Dots: one cool, two warm, three hot; a cross means do not iron.",
+      "So: {answer}."
+     ],
+     "min_distractors": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-59-info",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which information is found on a clothing label?",
+       "r": "size, fibre content and care instructions",
+       "w": [
+        "the owner's address",
+        "the price of food",
+        "the weather forecast"
+       ],
+       "e": [
+        "Not on a label.",
+        "Not on a label.",
+        "Not on a label."
+       ],
+       "y": "The label helps us choose and care for clothes."
+      },
+      {
+       "q": "A label says “100% cotton”. What does it tell you?",
+       "r": "the fibre the garment is made of",
+       "w": [
+        "the size",
+        "the price",
+        "the washing temperature"
+       ],
+       "e": [
+        "Size is S, M, L.",
+        "Not the price.",
+        "Shown by the tub symbol."
+       ],
+       "y": "Fibre content."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-59-symbol",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "prompt": "Match each care symbol to its meaning.",
+   "pool": [
+    {
+     "left": "a tub with water",
+     "right": "washing"
+    },
+    {
+     "left": "a triangle",
+     "right": "bleaching"
+    },
+    {
+     "left": "a square",
+     "right": "drying"
+    },
+    {
+     "left": "an iron",
+     "right": "ironing"
+    },
+    {
+     "left": "a circle",
+     "right": "dry cleaning"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-59-iron",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "laundry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "d": "one dot",
+       "a": "with a cool iron",
+       "w": [
+        "with a hot iron",
+        "do not iron"
+       ]
+      },
+      {
+       "d": "two dots",
+       "a": "with a warm iron",
+       "w": [
+        "with a cool iron",
+        "with a hot iron"
+       ]
+      },
+      {
+       "d": "three dots",
+       "a": "with a hot iron",
+       "w": [
+        "with a cool iron",
+        "do not iron"
+       ]
+      },
+      {
+       "d": "a cross over the iron",
+       "a": "do not iron",
+       "w": [
+        "with a hot iron",
+        "with a warm iron"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "An iron symbol shows {X.d}. How should the garment be ironed?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "dots"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "dots"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "dots",
+     "explain": "Count the dots: one cool, two warm, three hot; a cross means do not iron."
+    }
+   ],
+   "solution": [
+    "Dots: one cool, two warm, three hot; a cross means do not iron.",
+    "So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "h2-59-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A tub means washing.",
+      "truth": "true"
+     },
+     {
+      "text": "A crossed triangle means do not bleach.",
+      "truth": "true"
+     },
+     {
+      "text": "Three dots on the iron mean hot.",
+      "truth": "true"
+     },
+     {
+      "text": "A hand in the tub means hand wash.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A square means ironing.",
+      "truth": "false",
+      "explain": "A square means drying; an iron means ironing."
+     },
+     {
+      "text": "One dot on the iron means very hot.",
+      "truth": "false",
+      "explain": "One dot means cool."
+     },
+     {
+      "text": "A cross over the tub means wash often.",
+      "truth": "false",
+      "explain": "It means do not wash."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

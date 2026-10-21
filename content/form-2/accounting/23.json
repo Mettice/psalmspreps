@@ -1,0 +1,363 @@
+{
+ "subject": "accounting",
+ "class": "Form 2",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [
+  22,
+  20
+ ],
+ "skills": [
+  {
+   "id": "a2-23",
+   "name": "Investment transactions: contributed and subsidised assets, financial assets"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Contribution of a fixed asset: the owner brings an asset (a car, a building) instead of money. It is recorded at its value: debit the asset account, credit 101 Capital.\n• Fixed assets financed by a subsidy: the asset is recorded normally (debit class 2); the subsidy received is credited to account 14 Investment subsidies.\n• Financial assets (account 27): shares bought in another company to keep for a long time, long-term loans given, deposits and guarantees paid (for example a rent deposit).\nExample: the owner contributes a pick-up worth 4 000 000 FCFA: debit 245 Transport equipment 4 000 000; credit 101 Capital 4 000 000.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": 4000000
+  },
+  "problem": "The owner contributes a pick-up worth {v} FCFA. Write the entry.",
+  "steps": [
+   "The business receives a vehicle: debit {245} Transport equipment {v}.",
+   "It is the owner's contribution: credit {101} Capital {v}."
+  ],
+  "answer": "Debit {245} {v}; credit {101} {v}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c23-1",
+    "status": "draft",
+    "idea": "A contribution of an asset: debit the asset, credit {101} Capital.",
+    "vars": {},
+    "example": [
+     "The owner brings a car."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-23-contr"
+    }
+   },
+   {
+    "id": "c23-2",
+    "status": "draft",
+    "idea": "A subsidy for an asset is credited to {14} Investment subsidies.",
+    "vars": {},
+    "example": [
+     "The asset is recorded in class {2}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "a2-23-sub-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "investments"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        2000000,
+        8000000
+       ],
+       "step": 500000
+      },
+      "s": {
+       "int": [
+        500000,
+        1500000
+       ],
+       "step": 500000
+      }
+     },
+     "prompt": "A business buys a machine for {p} FCFA and receives a State subsidy of {s} FCFA for it. How much does the business finance itself?",
+     "answer": "p - s",
+     "misconceptions": [
+      {
+       "id": "add",
+       "wrong": "p + s",
+       "explain": "The subsidy reduces what the business pays."
+      }
+     ],
+     "solution": [
+      "The subsidy pays part of the cost.",
+      "{p} − {s} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   },
+   {
+    "id": "c23-3",
+    "status": "draft",
+    "idea": "Financial assets ({27}): long-term shares, loans given, deposits paid.",
+    "vars": {},
+    "example": [
+     "A rent deposit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "a2-23-fin"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "a2-23-contr",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "investments"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The owner contributes a building to the business. Which account is credited?",
+       "r": "101 Capital",
+       "w": [
+        "231 Buildings",
+        "701 Sales",
+        "521 Bank"
+       ],
+       "e": [
+        "That is debited.",
+        "Not a sale.",
+        "No money moves."
+       ],
+       "y": "It is the owner's contribution."
+      },
+      {
+       "q": "The owner contributes a computer. Which account is debited?",
+       "r": "the equipment account (244)",
+       "w": [
+        "101 Capital",
+        "411 Customers",
+        "601 Purchases"
+       ],
+       "e": [
+        "That is credited.",
+        "Not a customer.",
+        "Not bought for resale."
+       ],
+       "y": "The asset enters the business."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-23-sub",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "investments"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2000000,
+      8000000
+     ],
+     "step": 500000
+    },
+    "s": {
+     "int": [
+      500000,
+      1500000
+     ],
+     "step": 500000
+    }
+   },
+   "prompt": "A business buys a machine for {p} FCFA and receives a State subsidy of {s} FCFA for it. How much does the business finance itself?",
+   "answer": "p - s",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "p + s",
+     "explain": "The subsidy reduces what the business pays."
+    }
+   ],
+   "solution": [
+    "The subsidy pays part of the cost.",
+    "{p} − {s} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "a2-23-fin",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "investments"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a financial asset?",
+       "r": "shares bought in another company to keep long-term",
+       "w": [
+        "a delivery van",
+        "a stock of rice",
+        "a building"
+       ],
+       "e": [
+        "Tangible asset.",
+        "Stock.",
+        "Tangible asset."
+       ],
+       "y": "Account 27."
+      },
+      {
+       "q": "A business pays a rent deposit to its landlord. What is it?",
+       "r": "a financial asset (deposit)",
+       "w": [
+        "a sale",
+        "a purchase of goods",
+        "a salary"
+       ],
+       "e": [
+        "Not a sale.",
+        "Not goods.",
+        "Not a salary."
+       ],
+       "y": "It will be returned later."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "a2-23-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "investments"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A contributed asset is credited to capital.",
+      "truth": "true"
+     },
+     {
+      "text": "Subsidies for assets go to account 14.",
+      "truth": "true"
+     },
+     {
+      "text": "Shares kept long-term are financial assets.",
+      "truth": "true"
+     },
+     {
+      "text": "A rent deposit is a financial asset.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A contributed car is credited to 701 Sales.",
+      "truth": "false",
+      "explain": "It is credited to 101 Capital."
+     },
+     {
+      "text": "A subsidy must be recorded as a purchase of goods.",
+      "truth": "false",
+      "explain": "It is credited to 14."
+     },
+     {
+      "text": "Financial assets are stocks of goods.",
+      "truth": "false",
+      "explain": "Stocks are class 3."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

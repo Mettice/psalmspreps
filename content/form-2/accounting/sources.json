@@ -1,5 +1,5 @@
 {
- "_note": "Sources for Form 2 Accounting (Batches A2-1 and A2-2, Terms 1 and 2), a new subject in Form 2. Computations are done by code; the rules are authored and must be checked by an Accounting teacher.",
+ "_note": "Sources for Form 2 Accounting (Batches A2-1, A2-2 and A2-3, Terms 1–3), a new subject in Form 2. Computations are done by code; the rules are authored and must be checked by an Accounting teacher.",
  "financial-position": {
   "ref": "The financial position of an enterprise and the balance sheet (OHADA / SYSCOHADA vocabulary simplified for Form 2)",
   "supports": "Assets, liabilities and owner's equity; fixed and current assets; presentation of the balance sheet; the equation Assets = Liabilities + Owner's equity and how transactions change it.",
@@ -19,5 +19,20 @@
   "ref": "OHADA treaty (Port Louis, 1993; 17 member states) and the revised SYSCOHADA chart of accounts (2017): classes 1–9, codification, ordinary and HAO activities, parallelism of accounts, content of classes 1–8",
   "supports": "Account numbers used: 101, 103, 162, 223, 231, 241, 244, 2441, 245, 311, 321, 401, 411, 422, 521, 55, 571, 601, 605, 661, 701, 702, 706, 77, 79, 81, 812, 82, 822, 83–89; class = first digit, main account = first two digits (computed); result = income − expenses (computed).",
   "checked": "From general knowledge of SYSCOHADA, not opened in this session: an accounting teacher must check the account names against the official chart."
+ },
+ "business-finance": {
+  "ref": "Business finance: own funds, borrowed funds, subsidies (14 investment, 71 operating); long-term loans (162), leasing (crédit-bail), short-term loans; simple interest",
+  "supports": "Rows 20–21; interest = loan × rate × time computed.",
+  "checked": "SYSCOHADA account numbers from general knowledge: please check."
+ },
+ "investments": {
+  "ref": "Fixed assets: classification (21 intangible, 22–24 tangible, 27 financial), acquisition cost, entries (481 suppliers of fixed assets, 72 own production), contributed and subsidised assets",
+  "supports": "Rows 22–23.",
+  "checked": "Please check the account numbers against the official chart."
+ },
+ "trading": {
+  "ref": "Trading documents (purchase order, delivery note, invoice, credit note, receipt), inventory, mark-up on cost and margin on sales, invoice calculation with trade discount and VAT 19.25% (Cameroon), cash and bank transactions, cash book",
+  "supports": "Rows 24–26; stock, mark-up, margin, invoice and cash balance computed.",
+  "checked": "VAT rate 19.25% (17.5% + additional council tax) from general knowledge: please check."
  }
 }

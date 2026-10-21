@@ -1,0 +1,394 @@
+{
+ "subject": "home-economics",
+ "class": "Form 2",
+ "lesson_no": 62,
+ "language": "en",
+ "prerequisites": [
+  61
+ ],
+ "skills": [
+  {
+   "id": "h2-62",
+   "name": "Types of irons"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An iron removes creases from clothes using heat and pressure.\n• Traditional (charcoal or box) iron: a hollow metal iron filled with hot charcoal; no electricity needed; heat is hard to control and ash can soil clothes. Flat irons heated on a fire are also traditional.\n• Dry electric iron: a heating element and a thermostat with a temperature dial.\n• Steam iron: has a water tank; steam is pushed through holes in the soleplate to relax creases.\n• Steam generator iron: a separate water tank (station) produces a lot of steam under pressure; irons faster.\n• Automatic iron: switches itself off when left still or lying down (auto shut-off), for safety.\nChoose an iron according to the electricity available, the fabrics, the price and safety.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A family in a village without electricity needs an iron. Which type should they use?",
+  "steps": [
+   "Electric irons need electricity.",
+   "A traditional charcoal iron works without electricity."
+  ],
+  "answer": "A traditional charcoal (box) iron.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c62-1",
+    "status": "draft",
+    "idea": "A traditional iron is heated with charcoal or on a fire.",
+    "vars": {},
+    "example": [
+     "No electricity needed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-62-type"
+    }
+   },
+   {
+    "id": "c62-2",
+    "status": "draft",
+    "idea": "A steam iron pushes steam through the soleplate; a steam generator has a separate tank.",
+    "vars": {},
+    "example": [
+     "Steam relaxes creases."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "h2-62-steam"
+    }
+   },
+   {
+    "id": "c62-3",
+    "status": "draft",
+    "idea": "An automatic iron switches itself off for safety.",
+    "vars": {},
+    "example": [
+     "Auto shut-off."
+    ],
+    "checks": [],
+    "check": {
+     "id": "h2-62-choose-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "laundry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is an automatic iron safer?",
+         "r": "It switches itself off if left still, reducing the risk of fire.",
+         "w": [
+          "It never gets hot.",
+          "It needs no plug.",
+          "It irons by itself."
+         ],
+         "e": [
+          "It gets hot.",
+          "It needs electricity.",
+          "Not true."
+         ],
+         "y": "Auto shut-off."
+        },
+        {
+         "q": "Which iron is best for a busy hotel laundry with many sheets?",
+         "r": "a steam generator iron",
+         "w": [
+          "a small travel iron",
+          "a flat iron heated on the fire",
+          "no iron at all"
+         ],
+         "e": [
+          "Too slow.",
+          "Too slow.",
+          "Sheets need ironing."
+         ],
+         "y": "Lots of steam irons faster."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "h2-62-type",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "prompt": "Match each iron to its feature.",
+   "pool": [
+    {
+     "left": "charcoal iron",
+     "right": "heated with hot charcoal"
+    },
+    {
+     "left": "dry electric iron",
+     "right": "heating element and thermostat, no steam"
+    },
+    {
+     "left": "steam iron",
+     "right": "water tank and steam holes"
+    },
+    {
+     "left": "steam generator iron",
+     "right": "separate tank making steam under pressure"
+    },
+    {
+     "left": "automatic iron",
+     "right": "switches itself off when left still"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "h2-62-steam",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does steam do when ironing?",
+       "r": "It relaxes the creases so they are removed more easily.",
+       "w": [
+        "It makes clothes dirty.",
+        "It dyes the fabric.",
+        "It cools the iron completely."
+       ],
+       "e": [
+        "Not true.",
+        "Not true.",
+        "Not its role."
+       ],
+       "y": "Moist heat smooths fibres."
+      },
+      {
+       "q": "What is a disadvantage of a charcoal iron?",
+       "r": "The heat is hard to control and ash can soil clothes.",
+       "w": [
+        "It needs a lot of electricity.",
+        "It has an automatic shut-off.",
+        "It is filled with water."
+       ],
+       "e": [
+        "It needs none.",
+        "That is an automatic iron.",
+        "That is a steam iron."
+       ],
+       "y": "Hard to control the temperature."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-62-choose",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is an automatic iron safer?",
+       "r": "It switches itself off if left still, reducing the risk of fire.",
+       "w": [
+        "It never gets hot.",
+        "It needs no plug.",
+        "It irons by itself."
+       ],
+       "e": [
+        "It gets hot.",
+        "It needs electricity.",
+        "Not true."
+       ],
+       "y": "Auto shut-off."
+      },
+      {
+       "q": "Which iron is best for a busy hotel laundry with many sheets?",
+       "r": "a steam generator iron",
+       "w": [
+        "a small travel iron",
+        "a flat iron heated on the fire",
+        "no iron at all"
+       ],
+       "e": [
+        "Too slow.",
+        "Too slow.",
+        "Sheets need ironing."
+       ],
+       "y": "Lots of steam irons faster."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "h2-62-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "laundry"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A charcoal iron needs no electricity.",
+      "truth": "true"
+     },
+     {
+      "text": "A steam iron has a water tank.",
+      "truth": "true"
+     },
+     {
+      "text": "An automatic iron switches off itself.",
+      "truth": "true"
+     },
+     {
+      "text": "A thermostat controls the heat.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A steam iron is filled with charcoal.",
+      "truth": "false",
+      "explain": "It has a water tank."
+     },
+     {
+      "text": "An automatic iron stays on all night.",
+      "truth": "false",
+      "explain": "It switches itself off."
+     },
+     {
+      "text": "A charcoal iron has a thermostat dial.",
+      "truth": "false",
+      "explain": "It has no thermostat."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

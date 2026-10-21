@@ -499,5 +499,73 @@
    },
    "lang": "fr"
   }
- ]
+ ],
+ "activity": {
+  "status": "draft",
+  "title": "Du dialogue à une phrase originale",
+  "stages": [
+   {
+    "title": "Lire le dialogue",
+    "question": {
+     "id": "pilot-form-2-francais-intensif-1-1",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "BIH : Regarde la cour propre !\nNJI : Oui, la cour est propre.\nDans « la cour propre », quelle est la fonction de « propre » ?",
+     "correct": "Épithète.",
+     "distractors": [
+      "Attribut du sujet.",
+      "Verbe."
+     ],
+     "solution": [
+      "« Propre » est placé à côté du nom « cour », sans verbe : épithète."
+     ],
+     "show": 3
+    }
+   },
+   {
+    "title": "Comparer les structures",
+    "question": {
+     "id": "pilot-form-2-francais-intensif-1-2",
+     "level": 2,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "status": "draft",
+     "type": "mcq",
+     "vars": {},
+     "prompt": "Dans « La cour est propre », pourquoi « propre » est-il attribut du sujet ?",
+     "correct": "Il est relié au sujet par le verbe être.",
+     "distractors": [
+      "Il est placé directement à côté du nom, sans verbe.",
+      "Il remplace le nom cour."
+     ],
+     "solution": [
+      "Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour »."
+     ],
+     "show": 3
+    }
+   }
+  ],
+  "reflection": {
+   "status": "draft",
+   "vars": {},
+   "checks": [],
+   "prompt": "Choisis un nom et un adjectif. Écris une phrase originale avec cet adjectif attribut du sujet, en utilisant le verbe être.",
+   "model": [
+    "Un exemple, pas la seule réponse possible : Le village est calme."
+   ],
+   "checklist": [
+    "J’ai écrit une phrase de mon choix.",
+    "J’ai relié mon adjectif au sujet avec être.",
+    "J’ai accordé l’adjectif avec le sujet."
+   ]
+  }
+ }
 }
