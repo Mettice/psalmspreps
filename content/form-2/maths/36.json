@@ -1,0 +1,324 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 36,
+ "language": "en",
+ "prerequisites": [
+  35
+ ],
+ "skills": [
+  {
+   "id": "m2-36",
+   "name": "Operations with decimals"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Add and subtract: line up the decimal points (write zeros to fill): 3.5 + 1.25 = 3.50 + 1.25 = 4.75.\n• Multiply: multiply as whole numbers, then count the decimal places in both numbers together: 0.3 × 0.4 → 3 × 4 = 12, two places → 0.12.\n• Divide by a decimal: make the divisor a whole number by multiplying both numbers by 10, 100 …: 2.4 ÷ 0.4 = 24 ÷ 4 = 6.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1.2,
+   "b": 0.3
+  },
+  "problem": "Work out {a} × {b} and {a} ÷ {b}.",
+  "steps": [
+   "Multiply: {12} × {3} = {36}; two decimal places in all: {dec(a * b)}.",
+   "Divide: {a} ÷ {b} = {12} ÷ {3} = {4}."
+  ],
+  "answer": "{dec(a * b)} and {4}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c36-1",
+    "status": "draft",
+    "idea": "Line up the decimal points to add or subtract.",
+    "vars": {
+     "a": 3.5,
+     "b": 1.25
+    },
+    "example": [
+     "{a} + {b} = {dec(a + b)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-36-add"
+    }
+   },
+   {
+    "id": "c36-2",
+    "status": "draft",
+    "idea": "Multiply, then count all the decimal places.",
+    "vars": {
+     "a": 0.3,
+     "b": 0.4
+    },
+    "example": [
+     "{a} × {b} = {dec(a * b)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-36-mul"
+    }
+   },
+   {
+    "id": "c36-3",
+    "status": "draft",
+    "idea": "To divide by a decimal, make the divisor whole first.",
+    "vars": {
+     "a": 2.4,
+     "b": 0.4
+    },
+    "example": [
+     "{a} ÷ {b} = {a * 10} ÷ {b * 10} = {dec(a / b)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-36-div-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "decimals"
+     ],
+     "vars": {
+      "q": {
+       "int": [
+        2,
+        40
+       ]
+      },
+      "b": {
+       "pick": [
+        0.2,
+        0.4,
+        0.5,
+        0.3,
+        0.6,
+        0.25,
+        0.05
+       ]
+      },
+      "a": {
+       "expr": "dec(q * b)"
+      }
+     },
+     "prompt": "Work out {a} ÷ {b}.",
+     "answer": "q",
+     "misconceptions": [
+      {
+       "id": "times",
+       "wrong": "dec(a * b)",
+       "explain": "You multiplied. Divide: {a} ÷ {b}."
+      },
+      {
+       "id": "tenth",
+       "wrong": "q / 10",
+       "explain": "Multiply both numbers by the same power of ten."
+      }
+     ],
+     "solution": [
+      "Make the divisor whole: multiply both by {b < 0.1 ? 100 : 10}.",
+      "{a} ÷ {b} = {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-36-add",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "decimals"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      101,
+      999
+     ]
+    },
+    "q": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "a": {
+     "expr": "p / 100"
+    },
+    "b": {
+     "expr": "q / 10"
+    },
+    "s": {
+     "pick": [
+      "+",
+      "−"
+     ]
+    }
+   },
+   "prompt": "Work out {a} {s} {b}.",
+   "answer": "s == '+' ? dec(a + b) : dec(a - b)",
+   "misconceptions": [
+    {
+     "id": "misaligned",
+     "wrong": "s == '+' ? dec(a + q / 100) : dec(a - q / 100)",
+     "explain": "Line up the decimal points, not the last digits."
+    }
+   ],
+   "solution": [
+    "Line up the decimal points.",
+    "{a} {s} {b} = {answer}."
+   ],
+   "where": [
+    "a > b"
+   ]
+  },
+  {
+   "id": "m2-36-mul",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "decimals"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      30
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "a": {
+     "expr": "p / 10"
+    },
+    "b": {
+     "expr": "q / 10"
+    }
+   },
+   "prompt": "Work out {a} × {b}.",
+   "answer": "dec(a * b)",
+   "misconceptions": [
+    {
+     "id": "places",
+     "wrong": "dec(a * b * 10)",
+     "explain": "Count the decimal places in both numbers together: {a} has one and {b} has one, so two."
+    }
+   ],
+   "solution": [
+    "Multiply as whole numbers: {p} × {q} = {p * q}.",
+    "Decimal places in all: count them; {answer}."
+   ],
+   "where": [
+    "p % 10 != 0"
+   ]
+  },
+  {
+   "id": "m2-36-div",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "decimals"
+   ],
+   "vars": {
+    "q": {
+     "int": [
+      2,
+      40
+     ]
+    },
+    "b": {
+     "pick": [
+      0.2,
+      0.4,
+      0.5,
+      0.3,
+      0.6,
+      0.25,
+      0.05
+     ]
+    },
+    "a": {
+     "expr": "dec(q * b)"
+    }
+   },
+   "prompt": "Work out {a} ÷ {b}.",
+   "answer": "q",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "dec(a * b)",
+     "explain": "You multiplied. Divide: {a} ÷ {b}."
+    },
+    {
+     "id": "tenth",
+     "wrong": "q / 10",
+     "explain": "Multiply both numbers by the same power of ten."
+    }
+   ],
+   "solution": [
+    "Make the divisor whole: multiply both by {b < 0.1 ? 100 : 10}.",
+    "{a} ÷ {b} = {answer}."
+   ]
+  },
+  {
+   "id": "m2-36-market",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "decimals"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      600,
+      700,
+      800,
+      900,
+      1000,
+      1200
+     ]
+    },
+    "k": {
+     "pick": [
+      0.5,
+      1.5,
+      2.5,
+      0.25,
+      0.75,
+      1.25
+     ]
+    }
+   },
+   "prompt": "Sugar costs {p} FCFA per kilogram. How much do {k} kg cost?",
+   "answer": "dec(p * k)",
+   "misconceptions": [
+    {
+     "id": "divided",
+     "wrong": "dec(p / k)",
+     "explain": "Multiply the price by the mass."
+    }
+   ],
+   "solution": [
+    "Cost = price × mass: {p} × {k}.",
+    "= {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

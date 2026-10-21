@@ -1,0 +1,324 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 51,
+ "language": "en",
+ "prerequisites": [
+  48
+ ],
+ "skills": [
+  {
+   "id": "m2-51",
+   "name": "Point and line symmetry"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A figure has line symmetry (an axis of symmetry) if folding it along the line makes the two halves match. A square has 4 lines of symmetry, a rectangle 2, an equilateral triangle 3, a regular polygon with n sides n.\nA figure has point symmetry (central symmetry) if a half turn (180°) about a point leaves it unchanged: parallelograms (and so rectangles, rhombuses, squares) and circles have it; triangles do not.\nOn a grid: the image of a point by reflection in the vertical line x = k is at the same height, the same distance on the other side: x′ = 2k − x.\nBy point symmetry about centre C, the image of M is M′ such that C is the midpoint of [MM′].",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": 1,
+   "y": 3,
+   "k": 3
+  },
+  "problem": "Find the image of A({x}, {y}) by reflection in the line x = {k}.",
+  "steps": [
+   "A is {k - x} units to the left of the line.",
+   "Its image is {k - x} units to the right: x′ = {k} + {k - x} = {reflectX(x, k)}; y stays {y}."
+  ],
+  "answer": "A′({reflectX(x, k)}, {y})",
+  "checks": [],
+  "figure": "coordPlane([['A', x, y], ['A′', reflectX(x, k), y]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c51-1",
+    "status": "draft",
+    "idea": "A line of symmetry folds the figure onto itself.",
+    "vars": {
+     "s": "rectangle"
+    },
+    "example": [
+     "A {s} has {symLines(s)} lines of symmetry."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-51-lines"
+    }
+   },
+   {
+    "id": "c51-2",
+    "status": "draft",
+    "idea": "Point symmetry: a half turn about a point leaves the figure unchanged.",
+    "vars": {},
+    "example": [
+     "Every parallelogram has point symmetry about the meeting point of its diagonals."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-51-point"
+    }
+   },
+   {
+    "id": "c51-3",
+    "status": "draft",
+    "idea": "Reflection in x = k: the image is the same distance on the other side.",
+    "vars": {
+     "x": -2,
+     "y": 1,
+     "k": 1
+    },
+    "example": [
+     "({x}, {y}) → ({reflectX(x, k)}, {y}) in x = {k}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-51-reflect-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "symmetry"
+     ],
+     "vars": {
+      "x": {
+       "int": [
+        -5,
+        5
+       ]
+      },
+      "y": {
+       "int": [
+        -4,
+        4
+       ]
+      },
+      "k": {
+       "int": [
+        -2,
+        2
+       ]
+      }
+     },
+     "prompt": "Find the x-coordinate of the image of A({x}, {y}) by reflection in the line x = {k}.",
+     "answer": "reflectX(x, k)",
+     "misconceptions": [
+      {
+       "id": "negated",
+       "wrong": "-x",
+       "explain": "Reflecting in x = {k} is not just changing the sign (that is only for x = {0}).",
+       "when": "k != 0"
+      }
+     ],
+     "solution": [
+      "A is {abs(k - x)} units from the line.",
+      "Its image is {abs(k - x)} units on the other side: x′ = {answer}."
+     ],
+     "where": [
+      "x != k",
+      "abs(reflectX(x, k)) <= 5"
+     ],
+     "signed": true,
+     "figure": "coordPlane([['A', x, y]])"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-51-lines",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symmetry"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "square",
+      "rectangle",
+      "rhombus",
+      "parallelogram",
+      "isosceles trapezium",
+      "kite",
+      "equilateral triangle",
+      "isosceles triangle",
+      "scalene triangle"
+     ]
+    }
+   },
+   "prompt": "How many lines of symmetry has {aOrAn(s)}?",
+   "answer": "symLines(s)",
+   "misconceptions": [
+    {
+     "id": "diag",
+     "wrong": "symLines(s) + 2",
+     "explain": "Check each line: the diagonals of a rectangle or parallelogram are not lines of symmetry.",
+     "when": "s == 'rectangle' || s == 'parallelogram'"
+    }
+   ],
+   "solution": [
+    "Fold the {s} in your mind along each possible line.",
+    "{aOrAn(s)} has {answer}."
+   ]
+  },
+  {
+   "id": "m2-51-point",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symmetry"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "square",
+      "rectangle",
+      "rhombus",
+      "parallelogram",
+      "isosceles trapezium",
+      "kite",
+      "equilateral triangle",
+      "isosceles triangle",
+      "scalene triangle"
+     ]
+    }
+   },
+   "prompt": "Has {aOrAn(s)} point symmetry?",
+   "correct": "{hasPointSym(s) ? 'Yes' : 'No'}",
+   "distractors": [
+    {
+     "text": "{hasPointSym(s) ? 'No' : 'Yes'}",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "{hasPointSym(s) ? 'Every parallelogram, and so this ' + s + ', looks the same after a half turn.' : 'After a half turn the ' + s + ' points the other way.'}"
+    }
+   ],
+   "solution": [
+    "Turn the {s} half a turn about its centre: {hasPointSym(s) ? 'it looks the same' : 'it does not look the same'}.",
+    "So the answer is {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "m2-51-reflect",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "symmetry"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "k": {
+     "int": [
+      -2,
+      2
+     ]
+    }
+   },
+   "prompt": "Find the x-coordinate of the image of A({x}, {y}) by reflection in the line x = {k}.",
+   "answer": "reflectX(x, k)",
+   "misconceptions": [
+    {
+     "id": "negated",
+     "wrong": "-x",
+     "explain": "Reflecting in x = {k} is not just changing the sign (that is only for x = {0}).",
+     "when": "k != 0"
+    }
+   ],
+   "solution": [
+    "A is {abs(k - x)} units from the line.",
+    "Its image is {abs(k - x)} units on the other side: x′ = {answer}."
+   ],
+   "where": [
+    "x != k",
+    "abs(reflectX(x, k)) <= 5"
+   ],
+   "signed": true,
+   "figure": "coordPlane([['A', x, y]])"
+  },
+  {
+   "id": "m2-51-half",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "symmetry"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "y": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "a": {
+     "int": [
+      -2,
+      2
+     ]
+    },
+    "b": {
+     "int": [
+      -2,
+      2
+     ]
+    }
+   },
+   "prompt": "M has coordinates ({x}, {y}). Find the coordinates of its image M′ by point symmetry about C({a}, {b}). Give the x-coordinate of M′.",
+   "answer": "halfTurn(x, a)",
+   "misconceptions": [
+    {
+     "id": "origin",
+     "wrong": "-x",
+     "explain": "The centre is C, not the origin: x′ = {2} × {a} − {x}.",
+     "when": "a != 0"
+    },
+    {
+     "id": "half",
+     "wrong": "a + (a - x) / 2",
+     "explain": "Go the whole distance again beyond C, not half."
+    }
+   ],
+   "solution": [
+    "C is the midpoint of [MM′], so x′ = {2} × {a} − {x}.",
+    "x′ = {answer}."
+   ],
+   "where": [
+    "x != a",
+    "abs(halfTurn(x, a)) <= 5",
+    "abs(halfTurn(y, b)) <= 5"
+   ],
+   "signed": true,
+   "figure": "coordPlane([['M', x, y], ['C', a, b]])"
+  }
+ ]
+}

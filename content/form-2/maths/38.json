@@ -1,0 +1,473 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 38,
+ "language": "en",
+ "prerequisites": [
+  37
+ ],
+ "skills": [
+  {
+   "id": "m2-38",
+   "name": "The set ℝ of real numbers and the number line"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "ℕ = natural numbers {0, 1, 2, …}; ℤ = integers {…, −2, −1, 0, 1, 2, …}; ℚ = rational numbers (fractions); ℝ = real numbers: all the rational and irrational numbers.\nℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ: every natural number is an integer, every integer is rational, every rational number is real.\nEvery real number is a point on the number line, and every point is a real number. To place √2, use √2 ≈ 1.41; to compare numbers, compare their decimals.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "two": 2,
+   "h": 1.5,
+   "m": -0.5
+  },
+  "problem": "Put in order from smallest: √{two}, {h}, {m}, π.",
+  "steps": [
+   "Write decimals: √{two} ≈ {1.41}, π ≈ {3.14}.",
+   "Order: {m}, √{two}, {h}, π."
+  ],
+  "answer": "{m} < √{two} < {h} < π",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c38-1",
+    "status": "draft",
+    "idea": "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.",
+    "vars": {},
+    "example": [
+     "−{4} is in ℤ, ℚ and ℝ, but not in ℕ."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-38-set"
+    }
+   },
+   {
+    "id": "c38-2",
+    "status": "draft",
+    "idea": "To compare real numbers, write them as decimals.",
+    "vars": {},
+    "example": [
+     "√{2} ≈ {1.41} < {1.5}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-38-order"
+    }
+   },
+   {
+    "id": "c38-3",
+    "status": "draft",
+    "idea": "Every point of the number line is a real number.",
+    "vars": {},
+    "example": [
+     "√{2} is between {1} and {2}, near {1.4}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-38-cmp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "real-numbers"
+     ],
+     "vars": {
+      "n": {
+       "int": [
+        3,
+        40
+       ]
+      },
+      "t": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "d": {
+       "expr": "round(sqrt(n), 0) + (t - 5) / 10"
+      }
+     },
+     "prompt": "Which is greater: √{n} or {d}?",
+     "correct": "{sqrt(n) > d ? '√' + n : '' + d}",
+     "distractors": [
+      {
+       "text": "{sqrt(n) > d ? '' + d : '√' + n}",
+       "misconception": "w"
+      },
+      {
+       "text": "They are equal",
+       "misconception": "eq"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w",
+       "explain": "√{n} ≈ {round(sqrt(n), 2)}: compare the decimals."
+      },
+      {
+       "id": "eq",
+       "explain": "√{n} ≈ {round(sqrt(n), 2)}, which is not {d}."
+      }
+     ],
+     "solution": [
+      "√{n} ≈ {round(sqrt(n), 2)}.",
+      "So the greater is {answer}."
+     ],
+     "where": [
+      "!isPerfectSquare(n)",
+      "abs(sqrt(n) - d) > 0.03"
+     ],
+     "min_distractors": 1
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-38-set",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "real-numbers"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "ℕ",
+       "w": [
+        "ℤ",
+        "ℚ",
+        "ℝ"
+       ],
+       "e": [
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?"
+       ],
+       "y": "7 is a natural number.",
+       "x": "7"
+      },
+      {
+       "r": "ℤ",
+       "w": [
+        "ℕ",
+        "ℚ",
+        "ℝ"
+       ],
+       "e": [
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?"
+       ],
+       "y": "−4 is an integer but not natural.",
+       "x": "−4"
+      },
+      {
+       "r": "ℚ",
+       "w": [
+        "ℕ",
+        "ℤ",
+        "ℝ"
+       ],
+       "e": [
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?"
+       ],
+       "y": "2/3 is a fraction, not an integer.",
+       "x": "2/3"
+      },
+      {
+       "r": "ℝ",
+       "w": [
+        "ℕ",
+        "ℤ",
+        "ℚ"
+       ],
+       "e": [
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?"
+       ],
+       "y": "√5 is irrational: it is only in ℝ.",
+       "x": "√5"
+      },
+      {
+       "r": "ℚ",
+       "w": [
+        "ℕ",
+        "ℤ",
+        "ℝ"
+       ],
+       "e": [
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?"
+       ],
+       "y": "0.75 = 3/4.",
+       "x": "0.75"
+      },
+      {
+       "r": "ℝ",
+       "w": [
+        "ℕ",
+        "ℤ",
+        "ℚ"
+       ],
+       "e": [
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?"
+       ],
+       "y": "π is irrational.",
+       "x": "π"
+      },
+      {
+       "r": "ℕ",
+       "w": [
+        "ℤ",
+        "ℚ",
+        "ℝ"
+       ],
+       "e": [
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?"
+       ],
+       "y": "√36 = 6.",
+       "x": "√36"
+      },
+      {
+       "r": "ℚ",
+       "w": [
+        "ℕ",
+        "ℤ",
+        "ℝ"
+       ],
+       "e": [
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?",
+        "Check: is it a whole number, an integer, a fraction?"
+       ],
+       "y": "−1/2 is a fraction.",
+       "x": "−1/2"
+      }
+     ]
+    }
+   },
+   "prompt": "What is the smallest of the sets ℕ, ℤ, ℚ, ℝ that contains {X.x}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-38-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "real-numbers"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      [
+       "−2",
+       "−0.5",
+       "√2",
+       "1.5",
+       "π"
+      ],
+      [
+       "−3/2",
+       "0",
+       "0.9",
+       "√3",
+       "2"
+      ],
+      [
+       "−√4",
+       "−1.5",
+       "1/3",
+       "√2",
+       "1.5"
+      ],
+      [
+       "−π",
+       "−3",
+       "−√5",
+       "−1",
+       "0.5"
+      ]
+     ]
+    }
+   },
+   "prompt": "Put these numbers in order, from the smallest.",
+   "items": [
+    {
+     "text": "{X[0]}"
+    },
+    {
+     "text": "{X[1]}"
+    },
+    {
+     "text": "{X[2]}"
+    },
+    {
+     "text": "{X[3]}"
+    },
+    {
+     "text": "{X[4]}"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "m2-38-cmp",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "real-numbers"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      3,
+      40
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "d": {
+     "expr": "round(sqrt(n), 0) + (t - 5) / 10"
+    }
+   },
+   "prompt": "Which is greater: √{n} or {d}?",
+   "correct": "{sqrt(n) > d ? '√' + n : '' + d}",
+   "distractors": [
+    {
+     "text": "{sqrt(n) > d ? '' + d : '√' + n}",
+     "misconception": "w"
+    },
+    {
+     "text": "They are equal",
+     "misconception": "eq"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "√{n} ≈ {round(sqrt(n), 2)}: compare the decimals."
+    },
+    {
+     "id": "eq",
+     "explain": "√{n} ≈ {round(sqrt(n), 2)}, which is not {d}."
+    }
+   ],
+   "solution": [
+    "√{n} ≈ {round(sqrt(n), 2)}.",
+    "So the greater is {answer}."
+   ],
+   "where": [
+    "!isPerfectSquare(n)",
+    "abs(sqrt(n) - d) > 0.03"
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "m2-38-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "real-numbers"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Every integer is a rational number.",
+      "truth": "true"
+     },
+     {
+      "text": "√2 is a real number.",
+      "truth": "true"
+     },
+     {
+      "text": "Every natural number is an integer.",
+      "truth": "true"
+     },
+     {
+      "text": "π is irrational.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every real number is rational.",
+      "truth": "false",
+      "explain": "Irrational numbers like √2 and π are real but not rational."
+     },
+     {
+      "text": "−5 is a natural number.",
+      "truth": "false",
+      "explain": "Natural numbers are 0, 1, 2 …; −5 is an integer."
+     },
+     {
+      "text": "1/2 is not a real number.",
+      "truth": "false",
+      "explain": "Every fraction is a real number."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

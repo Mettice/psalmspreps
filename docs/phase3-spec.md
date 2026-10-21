@@ -314,3 +314,13 @@ Built on the `form-2` branch only, so the live app (from `main`) is unchanged un
   before Term 2, Form Two must be shared as two files (for example sciences and languages) or only through the
   installable app, which loads one subject at a time.
 
+## 24. Form 2, Term 2: Maths, and the shareable files per term (2026-10-21, form-2 branch)
+
+- Maths Term 2: 30 lessons (rows 25–54) in `content/form-2/maths/`; `maths2.js` gains angles, triangles, fractions,
+  rounding and significant figures, intervals, money, polygons, symmetry and circles, with their drawings.
+- New answer kind `fraction` (3/4, 1 3/4, −1/2); the right value not in lowest terms gets a “simplify” hint.
+- Shareable files: Form One stays one file; from Form Two, one file per term (`form2-term-1.html` …), listed one per term
+  in the app. Each page bundles only the libraries its subjects use (Form One's file no longer carries Form 2 libraries).
+- The build checks that every engine module keeps all its exports when bundled (a declaration like
+  `export const a = …, b = …` lost b in the page while the Node tests passed).
+

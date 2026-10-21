@@ -1,0 +1,295 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 34,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-34",
+   "name": "Estimations and approximations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To round to the nearest 10, 100 or 1 000, look at the next digit to the right: 5 or more → round up; less than 5 → round down. 3 472 → 3 470 (nearest 10), 3 500 (nearest 100), 3 000 (nearest 1 000).\nTo round to decimal places, count the digits after the decimal point: 3.456 → 3.46 (2 d.p.), 3.5 (1 d.p.).\nTo estimate a calculation, round each number to one significant figure first: 48 × 21 ≈ 50 × 20 = 1 000. An estimate checks that an answer is sensible.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 48,
+   "b": 21
+  },
+  "problem": "Estimate {a} × {b}.",
+  "steps": [
+   "Round each number to one significant figure: {a} ≈ {sigFig(a, 1)}, {b} ≈ {sigFig(b, 1)}.",
+   "{sigFig(a, 1)} × {sigFig(b, 1)} = {sigFig(a, 1) * sigFig(b, 1)}."
+  ],
+  "answer": "about {sigFig(a, 1) * sigFig(b, 1)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c34-1",
+    "status": "draft",
+    "idea": "Look at the next digit: {5} or more rounds up.",
+    "vars": {
+     "x": 3472,
+     "u": 100
+    },
+    "example": [
+     "{x} to the nearest {u} is {roundTo(x, u)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-34-ten"
+    }
+   },
+   {
+    "id": "c34-2",
+    "status": "draft",
+    "idea": "For decimal places, count digits after the point.",
+    "vars": {
+     "x": 3.456
+    },
+    "example": [
+     "{x} to two decimal places is {roundTo(x, 0.01)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-34-dp"
+    }
+   },
+   {
+    "id": "c34-3",
+    "status": "draft",
+    "idea": "To estimate, round each number to one significant figure.",
+    "vars": {
+     "a": 38,
+     "b": 62
+    },
+    "example": [
+     "{a} × {b} ≈ {sigFig(a, 1)} × {sigFig(b, 1)} = {sigFig(a, 1) * sigFig(b, 1)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-34-est-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "estimation"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        11,
+        99
+       ]
+      },
+      "b": {
+       "int": [
+        11,
+        99
+       ]
+      }
+     },
+     "prompt": "Estimate {a} × {b} by rounding each number to one significant figure.",
+     "answer": "sigFig(a, 1) * sigFig(b, 1)",
+     "misconceptions": [
+      {
+       "id": "exact",
+       "wrong": "a * b",
+       "explain": "That is the exact answer. An estimate rounds first: {sigFig(a, 1)} × {sigFig(b, 1)}."
+      }
+     ],
+     "solution": [
+      "{a} ≈ {sigFig(a, 1)} and {b} ≈ {sigFig(b, 1)}.",
+      "{sigFig(a, 1)} × {sigFig(b, 1)} = {answer}."
+     ],
+     "where": [
+      "sigFig(a, 1) != a",
+      "sigFig(b, 1) != b"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-34-ten",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "estimation"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      1001,
+      98999
+     ]
+    },
+    "u": {
+     "pick": [
+      10,
+      100,
+      1000
+     ]
+    }
+   },
+   "prompt": "Round {x} to the nearest {u}.",
+   "answer": "roundTo(x, u)",
+   "misconceptions": [
+    {
+     "id": "down",
+     "wrong": "floor(x / u) * u",
+     "explain": "The next digit is {5} or more: round up."
+    },
+    {
+     "id": "up",
+     "wrong": "floor(x / u) * u + u",
+     "explain": "The next digit is less than {5}: round down."
+    }
+   ],
+   "solution": [
+    "Look at the digit after the {u}s place.",
+    "{x} → {answer}."
+   ],
+   "where": [
+    "roundTo(x, u) != x"
+   ]
+  },
+  {
+   "id": "m2-34-dp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "estimation"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      1001,
+      99999
+     ]
+    },
+    "x": {
+     "expr": "n / 1000"
+    },
+    "k": {
+     "int": [
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "Round {x} to {k} decimal place{k == 1 ? '' : 's'}.",
+   "answer": "roundTo(x, k == 1 ? 0.1 : 0.01)",
+   "misconceptions": [
+    {
+     "id": "cut",
+     "wrong": "floor(x * (k == 1 ? 10 : 100)) / (k == 1 ? 10 : 100)",
+     "explain": "Do not just cut the digits off: if the next digit is {5} or more, round up."
+    }
+   ],
+   "solution": [
+    "Look at the next digit after the {k == 1 ? 'first' : 'second'} decimal place.",
+    "{x} → {answer}."
+   ],
+   "where": [
+    "roundTo(x, k == 1 ? 0.1 : 0.01) != x"
+   ]
+  },
+  {
+   "id": "m2-34-est",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "estimation"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "b": {
+     "int": [
+      11,
+      99
+     ]
+    }
+   },
+   "prompt": "Estimate {a} × {b} by rounding each number to one significant figure.",
+   "answer": "sigFig(a, 1) * sigFig(b, 1)",
+   "misconceptions": [
+    {
+     "id": "exact",
+     "wrong": "a * b",
+     "explain": "That is the exact answer. An estimate rounds first: {sigFig(a, 1)} × {sigFig(b, 1)}."
+    }
+   ],
+   "solution": [
+    "{a} ≈ {sigFig(a, 1)} and {b} ≈ {sigFig(b, 1)}.",
+    "{sigFig(a, 1)} × {sigFig(b, 1)} = {answer}."
+   ],
+   "where": [
+    "sigFig(a, 1) != a",
+    "sigFig(b, 1) != b"
+   ]
+  },
+  {
+   "id": "m2-34-check",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "estimation"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "b": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Estimate ({a} × {b}) ÷ {c} by rounding each number to one significant figure.",
+   "answer": "sigFig(a, 1) * sigFig(b, 1) / sigFig(c, 1)",
+   "misconceptions": [
+    {
+     "id": "exact",
+     "wrong": "round(a * b / c, 2)",
+     "explain": "Round each number first, then calculate."
+    }
+   ],
+   "solution": [
+    "{a} ≈ {sigFig(a, 1)}, {b} ≈ {sigFig(b, 1)}, {c} ≈ {sigFig(c, 1)}.",
+    "{sigFig(a, 1)} × {sigFig(b, 1)} ÷ {sigFig(c, 1)} = {answer}."
+   ],
+   "where": [
+    "isInt(sigFig(a, 1) * sigFig(b, 1) / sigFig(c, 1))",
+    "sigFig(a, 1) != a"
+   ]
+  }
+ ]
+}

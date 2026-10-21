@@ -1,0 +1,287 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "m2-30",
+   "name": "Particular triangles: isosceles, equilateral, right-angled"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Triangles named by their sides:\n• equilateral: three equal sides; its three angles are equal, each 60°;\n• isosceles: two equal sides; the two base angles are equal;\n• scalene: no equal sides.\nA right-angled triangle has one angle of 90°; the side opposite the right angle is the hypotenuse (the longest side). A triangle can be right-angled and isosceles (angles 90°, 45°, 45°).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 27,
+   "s": 9
+  },
+  "problem": "An equilateral triangle has a perimeter of {p} cm. Find the length of a side and the size of an angle.",
+  "steps": [
+   "The three sides are equal: {p} ÷ {3} = {s} cm.",
+   "The three angles are equal: {180} ÷ {3} = {60}°."
+  ],
+  "answer": "{s} cm and {60}°",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "Equilateral: three equal sides; isosceles: two; scalene: none.",
+    "vars": {
+     "a": 5,
+     "c": 7
+    },
+    "example": [
+     "Sides {a}, {a} and {c} cm: isosceles."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-30-name"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "Each angle of an equilateral triangle is {60}°.",
+    "vars": {},
+    "example": [
+     "{180} ÷ {3} = {60}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-30-equi"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "The base angles of an isosceles triangle are equal.",
+    "vars": {
+     "b": 70
+    },
+    "example": [
+     "Base angles {b}° and {b}°, so the top angle is {180 - 2 * b}°."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-30-iso-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "triangles"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        20,
+        85
+       ]
+      }
+     },
+     "prompt": "In an isosceles triangle each base angle is {b}°. Find the third angle.",
+     "answer": "180 - 2 * b",
+     "misconceptions": [
+      {
+       "id": "one",
+       "wrong": "180 - b",
+       "explain": "There are two base angles of {b}°: take both away."
+      }
+     ],
+     "solution": [
+      "The two base angles are equal: {b} + {b} = {2 * b}°.",
+      "{180} − {2 * b} = {answer}°."
+     ],
+     "unit": "°"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-30-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      3,
+      9
+     ]
+    }
+   },
+   "prompt": "A triangle has sides of {a} cm, {b} cm and {c} cm. What kind of triangle is it?",
+   "correct": "{a == b && b == c ? 'equilateral' : a == b || b == c || a == c ? 'isosceles' : 'scalene'}",
+   "distractors": [
+    {
+     "text": "equilateral",
+     "misconception": "w"
+    },
+    {
+     "text": "isosceles",
+     "misconception": "w"
+    },
+    {
+     "text": "scalene",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "Count the equal sides: three → equilateral, two → isosceles, none → scalene. Here: {a}, {b}, {c}."
+    }
+   ],
+   "solution": [
+    "Count the equal sides: {a}, {b}, {c}.",
+    "So it is {answer}."
+   ],
+   "where": [
+    "triangleOk(a, b, c)"
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "m2-30-equi",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "s": {
+     "int": [
+      2,
+      25
+     ]
+    },
+    "p": {
+     "expr": "3 * s"
+    }
+   },
+   "prompt": "An equilateral triangle has a perimeter of {p} cm. How long is each side?",
+   "answer": "p / 3",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "p / 2",
+     "explain": "There are three equal sides: divide by {3}."
+    }
+   ],
+   "solution": [
+    "The three sides are equal.",
+    "{p} ÷ {3} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-30-iso",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      20,
+      85
+     ]
+    }
+   },
+   "prompt": "In an isosceles triangle each base angle is {b}°. Find the third angle.",
+   "answer": "180 - 2 * b",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "180 - b",
+     "explain": "There are two base angles of {b}°: take both away."
+    }
+   ],
+   "solution": [
+    "The two base angles are equal: {b} + {b} = {2 * b}°.",
+    "{180} − {2 * b} = {answer}°."
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "triangles"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "An equilateral triangle has three angles of 60°.",
+      "truth": "true"
+     },
+     {
+      "text": "The hypotenuse is the longest side of a right-angled triangle.",
+      "truth": "true"
+     },
+     {
+      "text": "An isosceles triangle has two equal angles.",
+      "truth": "true"
+     },
+     {
+      "text": "A triangle can be both right-angled and isosceles.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A scalene triangle has two equal sides.",
+      "truth": "false",
+      "explain": "A scalene triangle has no equal sides."
+     },
+     {
+      "text": "An equilateral triangle can have a right angle.",
+      "truth": "false",
+      "explain": "Its angles are all 60°."
+     },
+     {
+      "text": "The hypotenuse is next to the right angle.",
+      "truth": "false",
+      "explain": "The hypotenuse is opposite the right angle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -3,7 +3,8 @@
 // expressions, never stored as free text from an author or a model.
 //
 // Template types
-//   numeric     answer: expr, answer_kind: number | base | roman | text, unit?, signed? (answer may be negative),
+//   numeric     answer: expr, answer_kind: number | base | roman | text | fraction, unit?, signed? (answer may be negative),
+//               fraction: typed as 3/4, −1/2, 7/4 or 1 3/4; the right value not in lowest terms gets a "simplify" hint,
 //               base?: expr (answer_kind base: the base, so an answer typed with its base after it, 517 for 51₇,
 //               is still right: on a phone ₇ can only be typed as 7)
 //   mcq         correct: tmpl + distractors: [tmpl | {text?, misconception}]   (computed values)
@@ -89,8 +90,27 @@ export function parseNumber(s) {
 
 const SUBSCRIPTS = /[₀₁₂₃₄₅₆₇₈₉]/g;
 
+/** "3/4", "−1/2", "1 3/4", "2" → [numerator, denominator] (not simplified); null if it is not a fraction. */
+export function parseFraction(v) {
+  const t = String(v).trim().replace(/−/g, "-").replace(/\s+/g, " ");
+  let m = t.match(/^(-?)(\d+) (\d+)\/(\d+)$/);                    // mixed number: 1 3/4
+  if (m) { const w = +m[2], n = +m[3], d = +m[4]; return d ? [(m[1] ? -1 : 1) * (w * d + n), d] : null; }
+  m = t.replace(/ /g, "").match(/^(-?\d+)\/(-?\d+)$/);
+  if (m) return +m[2] ? [+m[1], +m[2]] : null;
+  m = t.replace(/ /g, "").match(/^-?\d+$/);
+  return m ? [+m[0], 1] : null;
+}
+const gcdOf = (a, b) => { a = Math.abs(a); b = Math.abs(b); while (b) [a, b] = [b, a % b]; return a; };
+/** A typed fraction is in lowest terms (a mixed number: its fraction part). */
+export function fractionInLowestTerms(v) {
+  const t = String(v).trim().replace(/−/g, "-");
+  const m = t.match(/(\d+)\s*\/\s*(\d+)\s*$/);
+  return !m || gcdOf(+m[1], +m[2]) === 1;
+}
+
 export function normalize(value, kind) {
   if (kind === "number") return typeof value === "number" ? value : parseNumber(value);
+  if (kind === "fraction") return parseFraction(value);
   const s = String(value).replace(/[\s  ]/g, "");
   if (kind === "base") return s.replace(SUBSCRIPTS, "").replace(/^0+(?=\d)/, "");
   if (kind === "roman") return s.toUpperCase();
@@ -99,6 +119,7 @@ export function normalize(value, kind) {
 
 const same = (a, b, kind) => {
   const x = normalize(a, kind), y = normalize(b, kind);
+  if (kind === "fraction") return !!x && !!y && x[0] * y[1] === y[0] * x[1];
   return kind === "number" ? !Number.isNaN(x) && eq(x, y) : x === y;
 };
 
@@ -364,6 +385,7 @@ export function inputModeFor(q) {
   // full keyboard for every variant (the keyboard must not give away the sign).
   if (q.type === "cloze" || q.signed) return "text";
   if (q.type === "blanks") return "numeric";
+  if (q.answerKind === "fraction") return "text";  // the number pad has no "/"
   if (q.answerKind === "base" || (q.answerKind === "number" && Number.isInteger(q.answerValue))) return "numeric";
   return q.answerKind === "number" ? "decimal" : "text";
 }
@@ -378,6 +400,9 @@ export function check(q, response) {
     return { correct: false, dontKnow: true, misconception: null, show: q.hint ? ["hint", "worked_example"] : ["worked_example"] };
   }
   if (q.type === "numeric") {
+    if (q.answerKind === "fraction" && same(response, q.answerValue, "fraction") && !fractionInLowestTerms(response)) {
+      return { correct: false, misconception: { id: "not-simplified", explain: "That is the right value, but give it in its simplest form: divide the top and the bottom by the same number until you cannot any more." } };
+    }
     if (same(response, q.answerValue, q.answerKind)) return { correct: true };
     // 517 for 51₇: the base typed after the answer. The digit 7 does not exist in base 7, so this cannot be another number.
     const typed = normalize(response, q.answerKind), b = q.base && String(q.base);

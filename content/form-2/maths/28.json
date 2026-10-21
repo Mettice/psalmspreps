@@ -1,0 +1,295 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [
+  25,
+  27
+ ],
+ "skills": [
+  {
+   "id": "m2-28",
+   "name": "The sum of the angles of a triangle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The three angles of any triangle add up to 180°. So the third angle is 180° minus the other two.\n• In a right-angled triangle the two other angles add up to 90°.\n• In an isosceles triangle the two base angles are equal.\n• An exterior angle (made by extending a side) is equal to the sum of the two interior opposite angles.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 48,
+   "b": 77,
+   "st": 180,
+   "rt": 90,
+   "pt": 360
+  },
+  "problem": "In triangle ABC, Â = {a}° and B̂ = {b}°. Find Ĉ.",
+  "steps": [
+   "The angles of a triangle add up to {st}°.",
+   "Ĉ = {st} − {a} − {b} = {st - a - b}°."
+  ],
+  "answer": "Ĉ = {st - a - b}°",
+  "checks": [],
+  "figure": "triangleFig(a, b, 'x')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c28-1",
+    "status": "draft",
+    "idea": "The angles of a triangle add up to {st}°.",
+    "vars": {
+     "a": 50,
+     "b": 60,
+     "st": 180,
+     "rt": 90,
+     "pt": 360
+    },
+    "example": [
+     "{a}° + {b}° + {st - a - b}° = {st}°"
+    ],
+    "checks": [],
+    "figure": "triangleFig(a, b, st - a - b)",
+    "check": {
+     "ref": "m2-28-third"
+    }
+   },
+   {
+    "id": "c28-2",
+    "status": "draft",
+    "idea": "In a right-angled triangle, the other two angles add up to {rt}°.",
+    "vars": {
+     "a": 35,
+     "st": 180,
+     "rt": 90,
+     "pt": 360
+    },
+    "example": [
+     "{rt}° − {a}° = {rt - a}°"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-28-right"
+    }
+   },
+   {
+    "id": "c28-3",
+    "status": "draft",
+    "idea": "An exterior angle equals the sum of the two interior opposite angles.",
+    "vars": {
+     "a": 40,
+     "c": 75
+    },
+    "example": [
+     "{a}° + {c}° = {a + c}°"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-28-ext-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "triangles"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        25,
+        80
+       ]
+      },
+      "c": {
+       "int": [
+        25,
+        80
+       ]
+      }
+     },
+     "prompt": "In triangle ABC, Â = {a}° and Ĉ = {c}°. The side [AB] is extended beyond B. Find the exterior angle at B.",
+     "answer": "a + c",
+     "misconceptions": [
+      {
+       "id": "interior",
+       "wrong": "180 - a - c",
+       "explain": "That is the angle inside the triangle at B. The exterior angle is next to it: {a} + {c}."
+      }
+     ],
+     "solution": [
+      "The exterior angle at B equals the sum of the two interior opposite angles, Â and Ĉ.",
+      "{a} + {c} = {answer}°."
+     ],
+     "unit": "°"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-28-third",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      30,
+      90
+     ]
+    },
+    "b": {
+     "int": [
+      25,
+      80
+     ]
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "Find the angle x in triangle ABC.",
+   "answer": "180 - a - b",
+   "misconceptions": [
+    {
+     "id": "point",
+     "wrong": "360 - a - b",
+     "explain": "The angles of a triangle add up to {st}°, not {pt}°."
+    },
+    {
+     "id": "line",
+     "wrong": "180 - a",
+     "explain": "Take away both angles: {st} − {a} − {b}."
+    }
+   ],
+   "solution": [
+    "The angles of a triangle add up to {st}°.",
+    "x = {st} − {a} − {b} = {answer}°."
+   ],
+   "where": [
+    "180 - a - b >= 20"
+   ],
+   "figure": "triangleFig(a, b, 'x')",
+   "unit": "°"
+  },
+  {
+   "id": "m2-28-right",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      10,
+      80
+     ]
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "A triangle has a right angle and an angle of {a}°. Find the third angle.",
+   "answer": "90 - a",
+   "misconceptions": [
+    {
+     "id": "noright",
+     "wrong": "180 - a",
+     "explain": "Do not forget the right angle ({rt}°): {st} − {rt} − {a}."
+    }
+   ],
+   "solution": [
+    "{st} − {rt} − {a} = {answer}°.",
+    "(The two other angles add up to {rt}°.)"
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-28-iso",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      10,
+      70
+     ]
+    },
+    "a": {
+     "expr": "2 * h"
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "In an isosceles triangle the angle between the two equal sides is {a}°. Find each base angle.",
+   "answer": "(180 - a) / 2",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "180 - a",
+     "explain": "That is both base angles together. Divide by {2}."
+    },
+    {
+     "id": "same",
+     "wrong": "a",
+     "explain": "The base angles are the two other angles, not the top one."
+    }
+   ],
+   "solution": [
+    "The two base angles are equal and add up to {st} − {a} = {st - a}°.",
+    "Each one is {st - a} ÷ {2} = {answer}°."
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-28-ext",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      25,
+      80
+     ]
+    },
+    "c": {
+     "int": [
+      25,
+      80
+     ]
+    }
+   },
+   "prompt": "In triangle ABC, Â = {a}° and Ĉ = {c}°. The side [AB] is extended beyond B. Find the exterior angle at B.",
+   "answer": "a + c",
+   "misconceptions": [
+    {
+     "id": "interior",
+     "wrong": "180 - a - c",
+     "explain": "That is the angle inside the triangle at B. The exterior angle is next to it: {a} + {c}."
+    }
+   ],
+   "solution": [
+    "The exterior angle at B equals the sum of the two interior opposite angles, Â and Ĉ.",
+    "{a} + {c} = {answer}°."
+   ],
+   "unit": "°"
+  }
+ ]
+}

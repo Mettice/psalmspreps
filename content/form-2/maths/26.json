@@ -1,0 +1,338 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "m2-26",
+   "name": "Complementary and supplementary angles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Two angles are complementary when they add up to 90°: 30° and 60° are complementary. The complement of an angle a is 90° − a.\nTwo angles are supplementary when they add up to 180°: 110° and 70° are supplementary. The supplement of a is 180° − a.\nTip: Complementary → Corner (a right angle, 90°); Supplementary → Straight line (180°).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 35,
+   "st": 180,
+   "rt": 90,
+   "pt": 360
+  },
+  "problem": "Find the complement and the supplement of {a}°.",
+  "steps": [
+   "Complement: {rt} − {a} = {rt - a}°.",
+   "Supplement: {st} − {a} = {st - a}°."
+  ],
+  "answer": "complement {rt - a}°, supplement {st - a}°",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "Complementary angles add up to {rt}°.",
+    "vars": {
+     "a": 25,
+     "st": 180,
+     "rt": 90,
+     "pt": 360
+    },
+    "example": [
+     "The complement of {a}° is {rt} − {a} = {rt - a}°."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-26-comp"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "Supplementary angles add up to {st}°.",
+    "vars": {
+     "a": 125,
+     "st": 180,
+     "rt": 90,
+     "pt": 360
+    },
+    "example": [
+     "The supplement of {a}° is {st} − {a} = {st - a}°."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-26-supp"
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "To tell which, add the two angles: {rt}° → complementary, {st}° → supplementary.",
+    "vars": {
+     "a": 50,
+     "b": 130,
+     "st": 180,
+     "rt": 90,
+     "pt": 360
+    },
+    "example": [
+     "{a}° + {b}° = {a + b}°: supplementary."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-26-pair-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "angles"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        10,
+        80
+       ]
+      },
+      "k": {
+       "int": [
+        0,
+        2
+       ]
+      },
+      "b": {
+       "expr": "k == 0 ? 90 - a : k == 1 ? 180 - a : 90 - a + 15"
+      },
+      "st": 180,
+      "rt": 90,
+      "pt": 360
+     },
+     "prompt": "Are {a}° and {b}° complementary, supplementary or neither?",
+     "correct": "{a + b == 90 ? 'complementary' : a + b == 180 ? 'supplementary' : 'neither'}",
+     "distractors": [
+      {
+       "text": "complementary",
+       "misconception": "c"
+      },
+      {
+       "text": "supplementary",
+       "misconception": "s"
+      },
+      {
+       "text": "neither",
+       "misconception": "n"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "c",
+       "explain": "Complementary angles add up to exactly {rt}°: {a} + {b} = {a + b}."
+      },
+      {
+       "id": "s",
+       "explain": "Supplementary angles add up to exactly {st}°: {a} + {b} = {a + b}."
+      },
+      {
+       "id": "n",
+       "explain": "Add them: {a} + {b} = {a + b}."
+      }
+     ],
+     "solution": [
+      "{a} + {b} = {a + b}.",
+      "{rt}° is complementary, {st}° is supplementary: so {answer}."
+     ],
+     "min_distractors": 2
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-26-comp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      85
+     ]
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "Find the complement of {a}°.",
+   "answer": "90 - a",
+   "misconceptions": [
+    {
+     "id": "supp",
+     "wrong": "180 - a",
+     "explain": "That is the supplement ({st}°). The complement makes {rt}°."
+    }
+   ],
+   "solution": [
+    "Complementary angles add up to {rt}°.",
+    "{rt} − {a} = {answer}°."
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-26-supp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      175
+     ]
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "Find the supplement of {a}°.",
+   "answer": "180 - a",
+   "misconceptions": [
+    {
+     "id": "comp",
+     "wrong": "90 - a",
+     "explain": "That is the complement ({rt}°). The supplement makes {st}°."
+    }
+   ],
+   "solution": [
+    "Supplementary angles add up to {st}°.",
+    "{st} − {a} = {answer}°."
+   ],
+   "where": [
+    "a != 90"
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-26-pair",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      10,
+      80
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      2
+     ]
+    },
+    "b": {
+     "expr": "k == 0 ? 90 - a : k == 1 ? 180 - a : 90 - a + 15"
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "Are {a}° and {b}° complementary, supplementary or neither?",
+   "correct": "{a + b == 90 ? 'complementary' : a + b == 180 ? 'supplementary' : 'neither'}",
+   "distractors": [
+    {
+     "text": "complementary",
+     "misconception": "c"
+    },
+    {
+     "text": "supplementary",
+     "misconception": "s"
+    },
+    {
+     "text": "neither",
+     "misconception": "n"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "c",
+     "explain": "Complementary angles add up to exactly {rt}°: {a} + {b} = {a + b}."
+    },
+    {
+     "id": "s",
+     "explain": "Supplementary angles add up to exactly {st}°: {a} + {b} = {a + b}."
+    },
+    {
+     "id": "n",
+     "explain": "Add them: {a} + {b} = {a + b}."
+    }
+   ],
+   "solution": [
+    "{a} + {b} = {a + b}.",
+    "{rt}° is complementary, {st}° is supplementary: so {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "m2-26-word",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      2,
+      4,
+      5,
+      8,
+      9,
+      14,
+      17
+     ]
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "An angle is {k} times its complement. Find the angle.",
+   "answer": "90 * k / (k + 1)",
+   "misconceptions": [
+    {
+     "id": "complement",
+     "wrong": "90 / (k + 1)",
+     "explain": "That is the complement. The question asks for the angle, which is {k} times bigger."
+    },
+    {
+     "id": "supp",
+     "wrong": "180 * k / (k + 1)",
+     "explain": "Complementary angles add up to {rt}°, not {st}°."
+    }
+   ],
+   "solution": [
+    "Call the angle x. Its complement is {rt} − x, so x = {k}({rt} − x).",
+    "x + {k}x = {k * 90}, so {k + 1}x = {k * 90}.",
+    "x = {k * 90} ÷ {k + 1} = {answer}°."
+   ],
+   "unit": "°"
+  }
+ ]
+}

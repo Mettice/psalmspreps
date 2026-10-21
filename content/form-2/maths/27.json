@@ -1,0 +1,485 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  25,
+  26
+ ],
+ "skills": [
+  {
+   "id": "m2-27",
+   "name": "Angles formed by a transversal to two parallel lines"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A transversal is a line that cuts two parallel lines. It makes eight angles: four at each crossing.\n• Corresponding angles (in the same position at each crossing, an F shape) are equal.\n• Alternate angles (between the parallel lines, on opposite sides of the transversal, a Z shape) are equal.\n• Co-interior angles (between the parallel lines, on the same side, a C or U shape) add up to 180°.\n• Vertically opposite angles are still equal and angles on a straight line still add up to 180°.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 70,
+   "g": 70,
+   "P": [
+    5,
+    2
+   ],
+   "st": 180,
+   "rt": 90,
+   "pt": 360
+  },
+  "problem": "Two parallel lines are cut by a transversal. One angle is {g}°. Find x.",
+  "steps": [
+   "x and the {g}° angle are between the parallel lines, on opposite sides of the transversal: they are alternate.",
+   "Alternate angles are equal: x = {g}°."
+  ],
+  "answer": "x = {g}°",
+  "checks": [],
+  "figure": "parallelFig(g, P[0], P[1])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "Corresponding angles (F shape) are equal.",
+    "vars": {
+     "g": 65,
+     "P": [
+      5,
+      1
+     ]
+    },
+    "example": [
+     "The angle in the same corner at the other crossing is the same size."
+    ],
+    "checks": [],
+    "figure": "parallelFig(g, P[0], P[1])",
+    "check": {
+     "ref": "m2-27-corr"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "Alternate angles (Z shape) are equal.",
+    "vars": {
+     "g": 65,
+     "P": [
+      5,
+      2
+     ]
+    },
+    "example": [
+     "Between the parallel lines, on opposite sides of the transversal."
+    ],
+    "checks": [],
+    "figure": "parallelFig(g, P[0], P[1])",
+    "check": {
+     "ref": "m2-27-alt"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "Co-interior angles (C shape) add up to {st}°.",
+    "vars": {
+     "g": 65,
+     "P": [
+      5,
+      3
+     ],
+     "st": 180,
+     "rt": 90,
+     "pt": 360
+    },
+    "example": [
+     "Between the parallel lines, on the same side: {g}° and {st - g}°."
+    ],
+    "checks": [],
+    "figure": "parallelFig(g, P[0], P[1])",
+    "check": {
+     "id": "m2-27-co-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "angles"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        [
+         2,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         2
+        ],
+        [
+         5,
+         3
+        ]
+       ]
+      },
+      "a": {
+       "int": [
+        35,
+        80
+       ]
+      },
+      "g": {
+       "expr": "contains([1, 2, 5, 6], P[0]) ? a : 180 - a"
+      },
+      "st": 180,
+      "rt": 90,
+      "pt": 360
+     },
+     "prompt": "The two lines are parallel. Find x.",
+     "answer": "pairEqual(P[0], P[1]) ? g : 180 - g",
+     "misconceptions": [
+      {
+       "id": "equal",
+       "wrong": "g",
+       "explain": "Co-interior angles are not equal: they add up to {st}°."
+      }
+     ],
+     "solution": [
+      "x and the {g}° angle are co-interior angles (a C shape).",
+      "Co-interior angles add up to {st}°: x = {st} − {g} = {answer}°."
+     ],
+     "figure": "parallelFig(g, P[0], P[1])",
+     "unit": "°"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-27-corr",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       2,
+       6
+      ],
+      [
+       3,
+       7
+      ]
+     ]
+    },
+    "a": {
+     "int": [
+      35,
+      80
+     ]
+    },
+    "g": {
+     "expr": "contains([1, 2, 5, 6], P[0]) ? a : 180 - a"
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "The two lines are parallel. Find x.",
+   "answer": "pairEqual(P[0], P[1]) ? g : 180 - g",
+   "misconceptions": [
+    {
+     "id": "supp",
+     "wrong": "180 - g",
+     "explain": "Corresponding angles are equal; they do not add up to {st}°."
+    }
+   ],
+   "solution": [
+    "x and the {g}° angle are corresponding angles (same position at each crossing).",
+    "Corresponding angles are equal: x = {answer}°."
+   ],
+   "figure": "parallelFig(g, P[0], P[1])",
+   "unit": "°"
+  },
+  {
+   "id": "m2-27-alt",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       2,
+       5
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       5,
+       2
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    "a": {
+     "int": [
+      35,
+      80
+     ]
+    },
+    "g": {
+     "expr": "contains([1, 2, 5, 6], P[0]) ? a : 180 - a"
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "The two lines are parallel. Find x.",
+   "answer": "pairEqual(P[0], P[1]) ? g : 180 - g",
+   "misconceptions": [
+    {
+     "id": "supp",
+     "wrong": "180 - g",
+     "explain": "Alternate angles are equal; they do not add up to {st}°."
+    }
+   ],
+   "solution": [
+    "x and the {g}° angle are alternate angles (a Z shape).",
+    "Alternate angles are equal: x = {answer}°."
+   ],
+   "figure": "parallelFig(g, P[0], P[1])",
+   "unit": "°"
+  },
+  {
+   "id": "m2-27-co",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       2,
+       4
+      ],
+      [
+       3,
+       5
+      ],
+      [
+       4,
+       2
+      ],
+      [
+       5,
+       3
+      ]
+     ]
+    },
+    "a": {
+     "int": [
+      35,
+      80
+     ]
+    },
+    "g": {
+     "expr": "contains([1, 2, 5, 6], P[0]) ? a : 180 - a"
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "The two lines are parallel. Find x.",
+   "answer": "pairEqual(P[0], P[1]) ? g : 180 - g",
+   "misconceptions": [
+    {
+     "id": "equal",
+     "wrong": "g",
+     "explain": "Co-interior angles are not equal: they add up to {st}°."
+    }
+   ],
+   "solution": [
+    "x and the {g}° angle are co-interior angles (a C shape).",
+    "Co-interior angles add up to {st}°: x = {st} − {g} = {answer}°."
+   ],
+   "figure": "parallelFig(g, P[0], P[1])",
+   "unit": "°"
+  },
+  {
+   "id": "m2-27-name",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       2,
+       5
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       2,
+       4
+      ],
+      [
+       3,
+       5
+      ],
+      [
+       0,
+       3
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       6,
+       2
+      ],
+      [
+       7,
+       3
+      ]
+     ]
+    }
+   },
+   "prompt": "The two lines are parallel. What do we call the pair of angles {angleLetter(P[0])} and {angleLetter(P[1])}?",
+   "correct": "{anglePair(P[0], P[1])} angles",
+   "distractors": [
+    {
+     "text": "corresponding angles",
+     "misconception": "w"
+    },
+    {
+     "text": "alternate angles",
+     "misconception": "w"
+    },
+    {
+     "text": "co-interior angles",
+     "misconception": "w"
+    },
+    {
+     "text": "vertically opposite angles",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "Corresponding: same corner at each crossing; alternate: between the lines, opposite sides; co-interior: between the lines, same side; vertically opposite: across one crossing."
+    }
+   ],
+   "solution": [
+    "Look where the two angles are: {anglePair(P[0], P[1])}.",
+    "So they are {answer}."
+   ],
+   "figure": "parallelFig(0, -1, -1)",
+   "min_distractors": 3
+  },
+  {
+   "id": "m2-27-any",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "j": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "P": {
+     "expr": "[i, j]"
+    },
+    "a": {
+     "int": [
+      35,
+      80
+     ]
+    },
+    "g": {
+     "expr": "contains([1, 2, 5, 6], P[0]) ? a : 180 - a"
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "The two lines are parallel. Find x.",
+   "answer": "pairEqual(P[0], P[1]) ? g : 180 - g",
+   "misconceptions": [
+    {
+     "id": "wrong-rule",
+     "wrong": "pairEqual(P[0], P[1]) ? 180 - g : g",
+     "explain": "These are {pairPhrase(P[0], P[1])}: {pairEqual(P[0], P[1]) ? 'they are equal' : 'they add up to ' + 180 + '°'}."
+    }
+   ],
+   "solution": [
+    "The two angles are {pairPhrase(P[0], P[1])}.",
+    "{pairEqual(P[0], P[1]) ? 'They are equal' : 'They add up to ' + 180 + '°'}: x = {answer}°."
+   ],
+   "where": [
+    "i != j",
+    "anglePair(i, j) != 'alternate exterior'"
+   ],
+   "figure": "parallelFig(g, P[0], P[1])",
+   "unit": "°"
+  }
+ ]
+}

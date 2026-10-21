@@ -1,0 +1,338 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 45,
+ "language": "en",
+ "prerequisites": [
+  44
+ ],
+ "skills": [
+  {
+   "id": "m2-45",
+   "name": "Compound interest (up to two years)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "With compound interest, the interest of each year is added to the principal, and the next year's interest is worked out on the new total.\nYear 1: interest = r % of P; amount = P + interest. Year 2: interest = r % of the new amount; and so on.\nFormula: amount after n years A = P × (1 + r ÷ 100)ⁿ. Compound interest = A − P.\nCompound interest is more than simple interest after the first year, because interest is earned on interest.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "P": 100000,
+   "r": 10
+  },
+  "problem": "Find the amount after two years on {P} FCFA at {r} % compound interest.",
+  "steps": [
+   "First year: {r} % of {P} = {pctOf(r, P)}; amount {compound(P, r, 1)}.",
+   "Second year: {r} % of {compound(P, r, 1)} = {pctOf(r, compound(P, r, 1))}; amount {compound(P, r, 2)}."
+  ],
+  "answer": "{compound(P, r, 2)} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c45-1",
+    "status": "draft",
+    "idea": "Year by year: add each year's interest before working out the next.",
+    "vars": {
+     "P": 20000,
+     "r": 10
+    },
+    "example": [
+     "{P} → {compound(P, r, 1)} → {compound(P, r, 2)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-45-two"
+    }
+   },
+   {
+    "id": "c45-2",
+    "status": "draft",
+    "idea": "Compound interest = final amount − principal.",
+    "vars": {
+     "P": 20000,
+     "r": 10
+    },
+    "example": [
+     "{compound(P, r, 2)} − {P} = {compound(P, r, 2) - P}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-45-ci-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        10000,
+        20000,
+        50000,
+        100000,
+        200000
+       ]
+      },
+      "r": {
+       "pick": [
+        5,
+        10,
+        20
+       ]
+      }
+     },
+     "prompt": "Find the compound interest on {P} FCFA at {r} % per year for two years.",
+     "answer": "compound(P, r, 2) - P",
+     "misconceptions": [
+      {
+       "id": "amount",
+       "wrong": "compound(P, r, 2)",
+       "explain": "That is the amount. The interest is the amount − the principal."
+      },
+      {
+       "id": "simple",
+       "wrong": "simpleInterest(P, r, 2)",
+       "explain": "That is simple interest; compound interest adds interest on interest."
+      }
+     ],
+     "solution": [
+      "Amount after two years: {compound(P, r, 2)} FCFA.",
+      "Interest: {compound(P, r, 2)} − {P} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   },
+   {
+    "id": "c45-3",
+    "status": "draft",
+    "idea": "After two years compound beats simple interest.",
+    "vars": {
+     "P": 20000,
+     "r": 10
+    },
+    "example": [
+     "Simple: {simpleInterest(P, r, 2)}; compound: {compound(P, r, 2) - P}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-45-cmp-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        10000,
+        20000,
+        50000,
+        100000,
+        200000
+       ]
+      },
+      "r": {
+       "pick": [
+        5,
+        10,
+        20
+       ]
+      }
+     },
+     "prompt": "How much more does {P} FCFA earn in two years at {r} % compound interest than at {r} % simple interest?",
+     "answer": "compound(P, r, 2) - P - simpleInterest(P, r, 2)",
+     "misconceptions": [
+      {
+       "id": "ci",
+       "wrong": "compound(P, r, 2) - P",
+       "explain": "That is the compound interest. Take away the simple interest."
+      }
+     ],
+     "solution": [
+      "Compound: {compound(P, r, 2) - P} FCFA. Simple: {simpleInterest(P, r, 2)} FCFA.",
+      "Difference: {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-45-one",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      10000,
+      20000,
+      50000,
+      100000,
+      200000
+     ]
+    },
+    "r": {
+     "pick": [
+      5,
+      10,
+      20
+     ]
+    }
+   },
+   "prompt": "{P} FCFA is saved at {r} % compound interest. What is the amount after one year?",
+   "answer": "compound(P, r, 1)",
+   "misconceptions": [
+    {
+     "id": "interest",
+     "wrong": "pctOf(r, P)",
+     "explain": "That is the interest only. Add the principal."
+    }
+   ],
+   "solution": [
+    "{r} % of {P} = {pctOf(r, P)}.",
+    "{P} + {pctOf(r, P)} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-45-two",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      10000,
+      20000,
+      50000,
+      100000,
+      200000
+     ]
+    },
+    "r": {
+     "pick": [
+      5,
+      10,
+      20
+     ]
+    }
+   },
+   "prompt": "{P} FCFA is saved at {r} % compound interest. What is the amount after two years?",
+   "answer": "compound(P, r, 2)",
+   "misconceptions": [
+    {
+     "id": "simple",
+     "wrong": "P + simpleInterest(P, r, 2)",
+     "explain": "That is simple interest. With compound interest the second year's interest is on {compound(P, r, 1)}."
+    }
+   ],
+   "solution": [
+    "After the first year: {compound(P, r, 1)} FCFA.",
+    "Second year: {compound(P, r, 1)} + {pctOf(r, compound(P, r, 1))} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-45-ci",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      10000,
+      20000,
+      50000,
+      100000,
+      200000
+     ]
+    },
+    "r": {
+     "pick": [
+      5,
+      10,
+      20
+     ]
+    }
+   },
+   "prompt": "Find the compound interest on {P} FCFA at {r} % per year for two years.",
+   "answer": "compound(P, r, 2) - P",
+   "misconceptions": [
+    {
+     "id": "amount",
+     "wrong": "compound(P, r, 2)",
+     "explain": "That is the amount. The interest is the amount − the principal."
+    },
+    {
+     "id": "simple",
+     "wrong": "simpleInterest(P, r, 2)",
+     "explain": "That is simple interest; compound interest adds interest on interest."
+    }
+   ],
+   "solution": [
+    "Amount after two years: {compound(P, r, 2)} FCFA.",
+    "Interest: {compound(P, r, 2)} − {P} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-45-cmp",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      10000,
+      20000,
+      50000,
+      100000,
+      200000
+     ]
+    },
+    "r": {
+     "pick": [
+      5,
+      10,
+      20
+     ]
+    }
+   },
+   "prompt": "How much more does {P} FCFA earn in two years at {r} % compound interest than at {r} % simple interest?",
+   "answer": "compound(P, r, 2) - P - simpleInterest(P, r, 2)",
+   "misconceptions": [
+    {
+     "id": "ci",
+     "wrong": "compound(P, r, 2) - P",
+     "explain": "That is the compound interest. Take away the simple interest."
+    }
+   ],
+   "solution": [
+    "Compound: {compound(P, r, 2) - P} FCFA. Simple: {simpleInterest(P, r, 2)} FCFA.",
+    "Difference: {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

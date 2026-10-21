@@ -1,0 +1,351 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 44,
+ "language": "en",
+ "prerequisites": [
+  42
+ ],
+ "skills": [
+  {
+   "id": "m2-44",
+   "name": "Simple interest"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "When you save or borrow money, interest is paid for the use of the money.\nSimple interest: I = P × R × T ÷ 100, where P is the principal (the amount), R the rate per cent per year, T the time in years.\nRearranged: R = 100 × I ÷ (P × T) and T = 100 × I ÷ (P × R).\nWith simple interest, the interest is the same every year.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "P": 50000,
+   "R": 5,
+   "T": 3,
+   "hund": 100
+  },
+  "problem": "Find the simple interest on {P} FCFA at {R} % per year for {T} years.",
+  "steps": [
+   "I = P × R × T ÷ {hund}.",
+   "I = {P} × {R} × {T} ÷ {hund} = {simpleInterest(P, R, T)} FCFA."
+  ],
+  "answer": "{simpleInterest(P, R, T)} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c44-1",
+    "status": "draft",
+    "idea": "I = P × R × T ÷ {hund}.",
+    "vars": {
+     "P": 20000,
+     "R": 10,
+     "T": 2,
+     "hund": 100
+    },
+    "example": [
+     "{P} × {R} × {T} ÷ {hund} = {simpleInterest(P, R, T)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-44-i"
+    }
+   },
+   {
+    "id": "c44-2",
+    "status": "draft",
+    "idea": "The interest is the same each year: one year's interest × the number of years.",
+    "vars": {
+     "P": 30000,
+     "R": 5,
+     "T": 3
+    },
+    "example": [
+     "One year: {simpleInterest(P, R, 1)}; {T} years: {simpleInterest(P, R, T)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-44-year"
+    }
+   },
+   {
+    "id": "c44-3",
+    "status": "draft",
+    "idea": "R = {hund} × I ÷ (P × T).",
+    "vars": {
+     "P": 40000,
+     "T": 2,
+     "I": 6400,
+     "hund": 100
+    },
+    "example": [
+     "{hund} × {I} ÷ ({P} × {T}) = {100 * I / (P * T)} %"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-44-rate-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        20000,
+        50000,
+        80000,
+        100000,
+        150000,
+        200000,
+        500000
+       ]
+      },
+      "R": {
+       "int": [
+        2,
+        12
+       ]
+      },
+      "T": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "I": {
+       "expr": "simpleInterest(P, R, T)"
+      },
+      "hund": 100
+     },
+     "prompt": "{P} FCFA earns {I} FCFA simple interest in {T} years. Find the rate.",
+     "answer": "R",
+     "misconceptions": [
+      {
+       "id": "no-time",
+       "wrong": "R * T",
+       "explain": "Divide by the time ({T} years) too."
+      }
+     ],
+     "solution": [
+      "R = {hund} × I ÷ (P × T).",
+      "{hund} × {I} ÷ ({P} × {T}) = {answer} %."
+     ],
+     "unit": "%"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-44-i",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      20000,
+      50000,
+      80000,
+      100000,
+      150000,
+      200000,
+      500000
+     ]
+    },
+    "R": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "T": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "hund": 100
+   },
+   "prompt": "Find the simple interest on {P} FCFA at {R} % per year for {T} years.",
+   "answer": "simpleInterest(P, R, T)",
+   "misconceptions": [
+    {
+     "id": "one-year",
+     "wrong": "simpleInterest(P, R, 1)",
+     "explain": "That is the interest for one year. Multiply by {T} years."
+    },
+    {
+     "id": "amount",
+     "wrong": "P + simpleInterest(P, R, T)",
+     "explain": "That is the amount (principal + interest). The question asks for the interest."
+    }
+   ],
+   "solution": [
+    "I = {P} × {R} × {T} ÷ {hund}.",
+    "= {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-44-year",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      20000,
+      50000,
+      80000,
+      100000,
+      150000,
+      200000,
+      500000
+     ]
+    },
+    "R": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "T": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "hund": 100
+   },
+   "prompt": "{P} FCFA is saved at {R} % simple interest. How much interest is earned in one year?",
+   "answer": "simpleInterest(P, R, 1)",
+   "misconceptions": [
+    {
+     "id": "pct",
+     "wrong": "R",
+     "explain": "The rate is {R} %: find {R} % of {P}."
+    }
+   ],
+   "solution": [
+    "I = {P} × {R} × {1} ÷ {hund}.",
+    "= {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-44-rate",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      20000,
+      50000,
+      80000,
+      100000,
+      150000,
+      200000,
+      500000
+     ]
+    },
+    "R": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "T": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "I": {
+     "expr": "simpleInterest(P, R, T)"
+    },
+    "hund": 100
+   },
+   "prompt": "{P} FCFA earns {I} FCFA simple interest in {T} years. Find the rate.",
+   "answer": "R",
+   "misconceptions": [
+    {
+     "id": "no-time",
+     "wrong": "R * T",
+     "explain": "Divide by the time ({T} years) too."
+    }
+   ],
+   "solution": [
+    "R = {hund} × I ÷ (P × T).",
+    "{hund} × {I} ÷ ({P} × {T}) = {answer} %."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "m2-44-time",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      20000,
+      50000,
+      80000,
+      100000,
+      150000,
+      200000,
+      500000
+     ]
+    },
+    "R": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "T": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "I": {
+     "expr": "simpleInterest(P, R, T)"
+    },
+    "hund": 100
+   },
+   "prompt": "How many years does it take for {P} FCFA to earn {I} FCFA simple interest at {R} % per year?",
+   "answer": "T",
+   "misconceptions": [
+    {
+     "id": "no-rate",
+     "wrong": "T * R",
+     "explain": "Divide by the rate ({R}) too."
+    }
+   ],
+   "solution": [
+    "T = {hund} × I ÷ (P × R).",
+    "{hund} × {I} ÷ ({P} × {R}) = {answer} years."
+   ],
+   "unit": "years"
+  }
+ ]
+}

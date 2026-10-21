@@ -1,0 +1,327 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 54,
+ "language": "en",
+ "prerequisites": [
+  53
+ ],
+ "skills": [
+  {
+   "id": "m2-54",
+   "name": "The relative positions of two circles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Two circles with radii r and R (R ≥ r) and distance d between their centres can be:\n• separate (outside each other): d > R + r;\n• touching externally (one point): d = R + r;\n• intersecting in two points: R − r < d < R + r;\n• touching internally (one point, one inside the other): d = R − r;\n• one inside the other without touching: d < R − r (concentric when d = 0).\nCompare d with R + r and with R − r.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "R": 5,
+   "r": 3,
+   "d": 7
+  },
+  "problem": "Circles with radii {R} cm and {r} cm have centres {d} cm apart. What is their position?",
+  "steps": [
+   "R + r = {R + r} and R − r = {R - r}.",
+   "{R - r} < {d} < {R + r}: they intersect in two points."
+  ],
+  "answer": "{circlesPos(R, r, d)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c54-1",
+    "status": "draft",
+    "idea": "d = R + r: touching externally.",
+    "vars": {
+     "R": 4,
+     "r": 2
+    },
+    "example": [
+     "{R} + {r} = {R + r} = d"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-54-touch"
+    }
+   },
+   {
+    "id": "c54-2",
+    "status": "draft",
+    "idea": "d = R − r: touching internally.",
+    "vars": {
+     "R": 6,
+     "r": 2
+    },
+    "example": [
+     "{R} − {r} = {R - r} = d"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-54-inner-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "circles"
+     ],
+     "vars": {
+      "r1": {
+       "int": [
+        4,
+        15
+       ]
+      },
+      "r2": {
+       "int": [
+        1,
+        10
+       ]
+      }
+     },
+     "prompt": "Two circles with radii {r1} cm and {r2} cm touch internally. How far apart are their centres?",
+     "answer": "r1 - r2",
+     "misconceptions": [
+      {
+       "id": "outer",
+       "wrong": "r1 + r2",
+       "explain": "That is for touching externally. Internally, subtract."
+      }
+     ],
+     "solution": [
+      "Touching internally: d = R − r.",
+      "{r1} − {r2} = {answer} cm."
+     ],
+     "where": [
+      "r1 > r2"
+     ],
+     "unit": "cm"
+    }
+   },
+   {
+    "id": "c54-3",
+    "status": "draft",
+    "idea": "Compare d with R + r and R − r to name the position.",
+    "vars": {},
+    "example": [
+     "R − r < d < R + r: intersecting."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-54-name"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-54-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "circles"
+   ],
+   "vars": {
+    "r1": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "r2": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "d": {
+     "expr": "k == 0 ? r1 + r2 + 2 : k == 1 ? r1 + r2 : k == 2 ? r1 + r2 - 1 : k == 3 ? r1 - r2 : r1 - r2 - 1"
+    }
+   },
+   "prompt": "Two circles have radii {r1} cm and {r2} cm. Their centres are {d} cm apart. What is their position?",
+   "correct": "{circlesPos(r1, r2, d)}",
+   "distractors": [
+    {
+     "text": "separate (outside each other)",
+     "misconception": "s"
+    },
+    {
+     "text": "touching externally",
+     "misconception": "te"
+    },
+    {
+     "text": "intersecting in two points",
+     "misconception": "i"
+    },
+    {
+     "text": "touching internally",
+     "misconception": "ti"
+    },
+    {
+     "text": "one inside the other",
+     "misconception": "in"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "s",
+     "explain": "Separate needs d > {r1 + r2}."
+    },
+    {
+     "id": "te",
+     "explain": "Touching externally needs d = {r1 + r2} exactly."
+    },
+    {
+     "id": "i",
+     "explain": "Intersecting needs {r1 - r2} < d < {r1 + r2}."
+    },
+    {
+     "id": "ti",
+     "explain": "Touching internally needs d = {r1 - r2} exactly."
+    },
+    {
+     "id": "in",
+     "explain": "One inside the other needs d < {r1 - r2}."
+    }
+   ],
+   "solution": [
+    "R + r = {r1 + r2}, R − r = {r1 - r2}, d = {d}.",
+    "So they are {answer}."
+   ],
+   "where": [
+    "r1 > r2",
+    "d > 0"
+   ],
+   "min_distractors": 3
+  },
+  {
+   "id": "m2-54-touch",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "circles"
+   ],
+   "vars": {
+    "r1": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "r2": {
+     "int": [
+      1,
+      10
+     ]
+    }
+   },
+   "prompt": "Two circles with radii {r1} cm and {r2} cm touch externally. How far apart are their centres?",
+   "answer": "r1 + r2",
+   "misconceptions": [
+    {
+     "id": "inner",
+     "wrong": "abs(r1 - r2)",
+     "explain": "That is for touching internally. Externally, add the radii."
+    }
+   ],
+   "solution": [
+    "Touching externally: d = R + r.",
+    "{r1} + {r2} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-54-inner",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "circles"
+   ],
+   "vars": {
+    "r1": {
+     "int": [
+      4,
+      15
+     ]
+    },
+    "r2": {
+     "int": [
+      1,
+      10
+     ]
+    }
+   },
+   "prompt": "Two circles with radii {r1} cm and {r2} cm touch internally. How far apart are their centres?",
+   "answer": "r1 - r2",
+   "misconceptions": [
+    {
+     "id": "outer",
+     "wrong": "r1 + r2",
+     "explain": "That is for touching externally. Internally, subtract."
+    }
+   ],
+   "solution": [
+    "Touching internally: d = R − r.",
+    "{r1} − {r2} = {answer} cm."
+   ],
+   "where": [
+    "r1 > r2"
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-54-range",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "circles"
+   ],
+   "vars": {
+    "r1": {
+     "int": [
+      3,
+      12
+     ]
+    },
+    "r2": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Two circles have radii {r1} cm and {r2} cm and intersect in two points. The distance between their centres is a whole number of centimetres. What is the largest it can be?",
+   "answer": "r1 + r2 - 1",
+   "misconceptions": [
+    {
+     "id": "touch",
+     "wrong": "r1 + r2",
+     "explain": "At d = {r1 + r2} they only touch; they must be closer to cross in two points."
+    }
+   ],
+   "solution": [
+    "To intersect: d < R + r = {r1 + r2}.",
+    "The largest whole number below {r1 + r2} is {answer} cm."
+   ],
+   "where": [
+    "r1 > r2"
+   ],
+   "unit": "cm"
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 50,
+ "language": "en",
+ "prerequisites": [
+  49,
+  32
+ ],
+ "skills": [
+  {
+   "id": "m2-50",
+   "name": "The area of a parallelogram and of a trapezium"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Area of a parallelogram = base × height (the height is perpendicular to the base, not the slanting side).\nArea of a trapezium = ½ × (sum of the parallel sides) × height = ½ (a + b) h.\nExample: a trapezium with parallel sides 9 cm and 5 cm and height 4 cm: ½ × (9 + 5) × 4 = 28 cm².",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 9,
+   "b": 5,
+   "h": 4
+  },
+  "problem": "Find the area of a trapezium with parallel sides {a} cm and {b} cm, {h} cm apart.",
+  "steps": [
+   "Add the parallel sides: {a} + {b} = {a + b}.",
+   "½ × {a + b} × {h} = {(a + b) * h / 2} cm²."
+  ],
+  "answer": "{(a + b) * h / 2} cm²",
+  "checks": [],
+  "figure": "trapeziumFig(a, b, h)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c50-1",
+    "status": "draft",
+    "idea": "Parallelogram: base × height.",
+    "vars": {
+     "b": 8,
+     "h": 5
+    },
+    "example": [
+     "{b} × {h} = {b * h} cm²"
+    ],
+    "checks": [],
+    "figure": "parallelogramFig(b, h)",
+    "check": {
+     "ref": "m2-50-par"
+    }
+   },
+   {
+    "id": "c50-2",
+    "status": "draft",
+    "idea": "Trapezium: ½ × (a + b) × h.",
+    "vars": {
+     "a": 10,
+     "b": 6,
+     "h": 5
+    },
+    "example": [
+     "½ × ({a} + {b}) × {h} = {(a + b) * h / 2} cm²"
+    ],
+    "checks": [],
+    "figure": "trapeziumFig(a, b, h)",
+    "check": {
+     "ref": "m2-50-trap"
+    }
+   },
+   {
+    "id": "c50-3",
+    "status": "draft",
+    "idea": "Use the perpendicular height, not the slanting side.",
+    "vars": {},
+    "example": [
+     "The dotted line is the height."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-50-h-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "polygons"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        4,
+        20
+       ]
+      },
+      "h": {
+       "int": [
+        2,
+        15
+       ]
+      },
+      "A": {
+       "expr": "b * h"
+      }
+     },
+     "prompt": "A parallelogram has an area of {A} cm² and a base of {b} cm. Find its height.",
+     "answer": "h",
+     "misconceptions": [
+      {
+       "id": "times",
+       "wrong": "A * b",
+       "explain": "Divide the area by the base."
+      }
+     ],
+     "solution": [
+      "Area = base × height, so height = area ÷ base.",
+      "{A} ÷ {b} = {answer} cm."
+     ],
+     "unit": "cm"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-50-par",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      4,
+      20
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "Find the area of this parallelogram.",
+   "answer": "b * h",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "b * h / 2",
+     "explain": "That is a triangle's formula. A parallelogram is base × height (no ½)."
+    }
+   ],
+   "solution": [
+    "Area = base × height.",
+    "{b} × {h} = {answer} cm²."
+   ],
+   "figure": "parallelogramFig(b, h)",
+   "unit": "cm²"
+  },
+  {
+   "id": "m2-50-trap",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      6,
+      20
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Find the area of this trapezium.",
+   "answer": "(a + b) * h / 2",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "(a + b) * h",
+     "explain": "Take half: ½ × (a + b) × h."
+    },
+    {
+     "id": "product",
+     "wrong": "a * b * h / 2",
+     "explain": "Add the parallel sides, do not multiply them."
+    }
+   ],
+   "solution": [
+    "Add the parallel sides: {a} + {b} = {a + b}.",
+    "½ × {a + b} × {h} = {answer} cm²."
+   ],
+   "where": [
+    "b < a",
+    "((a + b) * h) % 2 == 0"
+   ],
+   "figure": "trapeziumFig(a, b, h)",
+   "unit": "cm²"
+  },
+  {
+   "id": "m2-50-h",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      4,
+      20
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "A": {
+     "expr": "b * h"
+    }
+   },
+   "prompt": "A parallelogram has an area of {A} cm² and a base of {b} cm. Find its height.",
+   "answer": "h",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "A * b",
+     "explain": "Divide the area by the base."
+    }
+   ],
+   "solution": [
+    "Area = base × height, so height = area ÷ base.",
+    "{A} ÷ {b} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-50-field",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      20,
+      60
+     ]
+    },
+    "b": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "h": {
+     "int": [
+      10,
+      30
+     ]
+    },
+    "c": {
+     "pick": [
+      50,
+      100,
+      150,
+      200
+     ]
+    }
+   },
+   "prompt": "A field is a trapezium. Its parallel sides are {a} m and {b} m, {h} m apart. Seed costs {c} FCFA per square metre. How much to sow the field?",
+   "answer": "(a + b) * h / 2 * c",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "(a + b) * h * c",
+     "explain": "The trapezium's area needs the ½."
+    }
+   ],
+   "solution": [
+    "Area: ½ × ({a} + {b}) × {h} = {(a + b) * h / 2} m².",
+    "Cost: {(a + b) * h / 2} × {c} = {answer} FCFA."
+   ],
+   "where": [
+    "b < a",
+    "((a + b) * h) % 2 == 0"
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

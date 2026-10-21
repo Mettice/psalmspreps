@@ -1,0 +1,352 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 40,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-40",
+   "name": "Direct proportion"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Two quantities are in direct proportion when they increase in the same ratio: twice as many → twice the cost. Their quotient is constant (y = kx).\nUnitary method: find the value of ONE first, then multiply. If 4 exercise books cost 1 200 FCFA, one costs 1 200 ÷ 4 = 300 FCFA, so 7 cost 7 × 300 = 2 100 FCFA.\nIn a table of direct proportion, every y ÷ x gives the same number.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 4,
+   "P": 1200,
+   "m": 7
+  },
+  "problem": "{k} exercise books cost {P} FCFA. How much do {m} cost?",
+  "steps": [
+   "One book: {P} ÷ {k} = {P / k} FCFA.",
+   "{m} books: {m} × {P / k} = {m * P / k} FCFA."
+  ],
+  "answer": "{m * P / k} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c40-1",
+    "status": "draft",
+    "idea": "Unitary method: find the value of one, then multiply.",
+    "vars": {
+     "k": 5,
+     "P": 1000,
+     "m": 3
+    },
+    "example": [
+     "{k} cost {P}, so one costs {P / k} and {m} cost {m * P / k}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-40-cost"
+    }
+   },
+   {
+    "id": "c40-2",
+    "status": "draft",
+    "idea": "In direct proportion, y ÷ x is the same for every pair.",
+    "vars": {
+     "a": 2,
+     "b": 5,
+     "c": 3
+    },
+    "example": [
+     "{a} → {a * c}, {b} → {b * c}: each time × {c}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-40-table"
+    }
+   },
+   {
+    "id": "c40-3",
+    "status": "draft",
+    "idea": "A recipe scales the same way: multiply every amount by the same number.",
+    "vars": {
+     "s": 4,
+     "g": 300,
+     "t": 6
+    },
+    "example": [
+     "For {s} people {g} g; for {t} people {g * t / s} g."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-40-recipe-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "proportion"
+     ],
+     "vars": {
+      "s": {
+       "pick": [
+        2,
+        4,
+        5,
+        6,
+        8
+       ]
+      },
+      "q": {
+       "int": [
+        40,
+        120
+       ]
+      },
+      "g": {
+       "expr": "s * q"
+      },
+      "t": {
+       "int": [
+        3,
+        15
+       ]
+      }
+     },
+     "prompt": "A recipe for {s} people uses {g} g of rice. How much rice for {t} people?",
+     "answer": "g * t / s",
+     "misconceptions": [
+      {
+       "id": "inverse",
+       "wrong": "round(g * s / t, 1)",
+       "explain": "More people need more rice: multiply by {t} ÷ {s}, not {s} ÷ {t}."
+      }
+     ],
+     "solution": [
+      "For one person: {g} ÷ {s} = {g / s} g.",
+      "For {t}: {t} × {g / s} = {answer} g."
+     ],
+     "where": [
+      "t != s"
+     ],
+     "unit": "g"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-40-cost",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "proportion"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "u": {
+     "pick": [
+      150,
+      200,
+      250,
+      300,
+      350,
+      400,
+      500
+     ]
+    },
+    "P": {
+     "expr": "k * u"
+    },
+    "m": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "{k} exercise books cost {P} FCFA. How much do {m} cost?",
+   "answer": "m * P / k",
+   "misconceptions": [
+    {
+     "id": "ratio-up",
+     "wrong": "P * k / m",
+     "explain": "Find the price of one first: divide by {k}, then multiply by {m}."
+    },
+    {
+     "id": "added",
+     "wrong": "P + (m - k)",
+     "explain": "In direct proportion we multiply, not add."
+    }
+   ],
+   "solution": [
+    "One: {P} ÷ {k} = {P / k} FCFA.",
+    "{m}: {m} × {P / k} = {answer} FCFA."
+   ],
+   "where": [
+    "m != k"
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-40-table",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "proportion"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "y is directly proportional to x. When x = {a}, y = {a * c}. Find y when x = {b}.",
+   "answer": "b * c",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "a * c + b - a",
+     "explain": "Multiply by the constant {c}, do not add."
+    }
+   ],
+   "solution": [
+    "y ÷ x = {a * c} ÷ {a} = {c}.",
+    "y = {c} × {b} = {answer}."
+   ],
+   "where": [
+    "a != b"
+   ]
+  },
+  {
+   "id": "m2-40-recipe",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "proportion"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      2,
+      4,
+      5,
+      6,
+      8
+     ]
+    },
+    "q": {
+     "int": [
+      40,
+      120
+     ]
+    },
+    "g": {
+     "expr": "s * q"
+    },
+    "t": {
+     "int": [
+      3,
+      15
+     ]
+    }
+   },
+   "prompt": "A recipe for {s} people uses {g} g of rice. How much rice for {t} people?",
+   "answer": "g * t / s",
+   "misconceptions": [
+    {
+     "id": "inverse",
+     "wrong": "round(g * s / t, 1)",
+     "explain": "More people need more rice: multiply by {t} ÷ {s}, not {s} ÷ {t}."
+    }
+   ],
+   "solution": [
+    "For one person: {g} ÷ {s} = {g / s} g.",
+    "For {t}: {t} × {g / s} = {answer} g."
+   ],
+   "where": [
+    "t != s"
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "m2-40-which",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "proportion"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Which table shows direct proportion?",
+   "correct": "x: {a}, {2 * a}, {3 * a} → y: {a * c}, {2 * a * c}, {3 * a * c}",
+   "distractors": [
+    {
+     "text": "x: {a}, {2 * a}, {3 * a} → y: {a * c}, {2 * a * c + 1}, {3 * a * c + 2}",
+     "misconception": "w"
+    },
+    {
+     "text": "x: {a}, {2 * a}, {3 * a} → y: {6 * a * c}, {3 * a * c}, {2 * a * c}",
+     "misconception": "inv"
+    },
+    {
+     "text": "x: {a}, {2 * a}, {3 * a} → y: {a + c}, {2 * a + c}, {3 * a + c}",
+     "misconception": "add"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "y ÷ x is not the same for every pair."
+    },
+    {
+     "id": "inv",
+     "explain": "Here y gets smaller when x gets bigger: that is inverse proportion."
+    },
+    {
+     "id": "add",
+     "explain": "Adding the same number is not proportion: y ÷ x changes."
+    }
+   ],
+   "solution": [
+    "Divide each y by its x: the answer must always be the same.",
+    "Only {answer} gives {c} every time."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 42,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-42",
+   "name": "Profit and loss; percentage gain or loss"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cost price (CP): what the trader paid. Selling price (SP): what the trader sells for.\nProfit = SP − CP (when SP > CP); loss = CP − SP (when SP < CP).\nPercentage profit (or loss) is always worked out on the cost price: % profit = profit ÷ CP × 100.\nTo find the selling price for a given profit: SP = CP + p% of CP = CP × (100 + p) ÷ 100.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 8000,
+   "s": 10000,
+   "hund": 100
+  },
+  "problem": "A trader buys a radio for {c} FCFA and sells it for {s} FCFA. Find the percentage profit.",
+  "steps": [
+   "Profit: {s} − {c} = {s - c} FCFA.",
+   "% profit: {s - c} ÷ {c} × {hund} = {pctChange(c, s)} %."
+  ],
+  "answer": "{pctChange(c, s)} %",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c42-1",
+    "status": "draft",
+    "idea": "Profit = selling price − cost price.",
+    "vars": {
+     "c": 3000,
+     "s": 3600
+    },
+    "example": [
+     "{s} − {c} = {s - c} FCFA profit"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-42-profit"
+    }
+   },
+   {
+    "id": "c42-2",
+    "status": "draft",
+    "idea": "Percentage profit or loss is on the cost price.",
+    "vars": {
+     "c": 3000,
+     "s": 3600,
+     "hund": 100
+    },
+    "example": [
+     "{s - c} ÷ {c} × {hund} = {pctChange(c, s)} %"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-42-pct"
+    }
+   },
+   {
+    "id": "c42-3",
+    "status": "draft",
+    "idea": "SP for p % profit: CP × ({hund} + p) ÷ {hund}.",
+    "vars": {
+     "c": 5000,
+     "p": 20,
+     "hund": 100
+    },
+    "example": [
+     "{c} × {hund + p} ÷ {hund} = {c * (100 + p) / 100}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-42-sp-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "c": {
+       "pick": [
+        2000,
+        2500,
+        4000,
+        5000,
+        8000,
+        10000,
+        12000,
+        15000,
+        20000
+       ]
+      },
+      "p": {
+       "pick": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50
+       ]
+      },
+      "hund": 100
+     },
+     "prompt": "A trader buys goods for {c} FCFA. At what price must she sell them to make a profit of {p} %?",
+     "answer": "c * (100 + p) / 100",
+     "misconceptions": [
+      {
+       "id": "profit-only",
+       "wrong": "c * p / 100",
+       "explain": "That is only the profit. Add it to the cost price."
+      }
+     ],
+     "solution": [
+      "Profit: {p} % of {c} = {c * p / 100} FCFA.",
+      "SP = {c} + {c * p / 100} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-42-profit",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      2000,
+      2500,
+      4000,
+      5000,
+      8000,
+      10000,
+      12000,
+      15000,
+      20000
+     ]
+    },
+    "p": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50
+     ]
+    },
+    "s": {
+     "expr": "c + c * p / 100"
+    }
+   },
+   "prompt": "A trader buys a bag for {c} FCFA and sells it for {s} FCFA. Find the profit.",
+   "answer": "s - c",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "s + c",
+     "explain": "Profit is the difference: subtract."
+    }
+   ],
+   "solution": [
+    "Profit = SP − CP.",
+    "{s} − {c} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-42-pct",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      2000,
+      2500,
+      4000,
+      5000,
+      8000,
+      10000,
+      12000,
+      15000,
+      20000
+     ]
+    },
+    "p": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50
+     ]
+    },
+    "s": {
+     "expr": "c + c * p / 100"
+    },
+    "hund": 100
+   },
+   "prompt": "A trader buys a bag for {c} FCFA and sells it for {s} FCFA. Find the percentage profit.",
+   "answer": "p",
+   "misconceptions": [
+    {
+     "id": "on-sp",
+     "wrong": "round((s - c) / s * 100, 1)",
+     "explain": "Percentage profit is worked out on the cost price ({c}), not the selling price."
+    }
+   ],
+   "solution": [
+    "Profit: {s} − {c} = {s - c} FCFA.",
+    "{s - c} ÷ {c} × {hund} = {answer} %."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "m2-42-loss",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      2000,
+      2500,
+      4000,
+      5000,
+      8000,
+      10000,
+      12000,
+      15000,
+      20000
+     ]
+    },
+    "p": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50
+     ]
+    },
+    "s": {
+     "expr": "c - c * p / 100"
+    },
+    "hund": 100
+   },
+   "prompt": "A phone bought for {c} FCFA is sold for {s} FCFA. Find the percentage loss.",
+   "answer": "p",
+   "misconceptions": [
+    {
+     "id": "on-sp",
+     "wrong": "round((c - s) / s * 100, 1)",
+     "explain": "Divide the loss by the cost price ({c})."
+    }
+   ],
+   "solution": [
+    "Loss: {c} − {s} = {c - s} FCFA.",
+    "{c - s} ÷ {c} × {hund} = {answer} %."
+   ],
+   "where": [
+    "p < 50"
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "m2-42-sp",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "c": {
+     "pick": [
+      2000,
+      2500,
+      4000,
+      5000,
+      8000,
+      10000,
+      12000,
+      15000,
+      20000
+     ]
+    },
+    "p": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50
+     ]
+    },
+    "hund": 100
+   },
+   "prompt": "A trader buys goods for {c} FCFA. At what price must she sell them to make a profit of {p} %?",
+   "answer": "c * (100 + p) / 100",
+   "misconceptions": [
+    {
+     "id": "profit-only",
+     "wrong": "c * p / 100",
+     "explain": "That is only the profit. Add it to the cost price."
+    }
+   ],
+   "solution": [
+    "Profit: {p} % of {c} = {c * p / 100} FCFA.",
+    "SP = {c} + {c * p / 100} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

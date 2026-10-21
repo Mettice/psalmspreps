@@ -209,3 +209,236 @@ export function segmentFig(am, mb) {
   body += text(95, 60, lab(am)) + text(225, 60, lab(mb));
   return svg(320, 70, "A segment AB with a point M on it", body);
 }
+
+// ================================================================ Term 2 (2026-10-21)
+// ---------------------------------------------------------------- angles and parallel lines
+// Two parallel lines cut by a transversal. Angle positions: 0 top-left, 1 top-right, 2 bottom-left, 3 bottom-right
+// at the upper crossing; 4–7 the same at the lower crossing. With the transversal leaning right, positions 0, 3, 4, 7
+// all have the same size a; 1, 2, 5, 6 are 180 − a.
+export const angleAt = (a, pos) => ([0, 3, 4, 7].includes(pos) ? a : 180 - a);
+/** The name of the pair of angles at positions p and q (p ≠ q). */
+export function anglePair(p, q) {
+  const [x, y] = [Math.min(p, q), Math.max(p, q)];
+  if (x < 4 && y < 4 || x >= 4) {
+    const a = x % 4, b = y % 4;
+    return a + b === 3 ? "vertically opposite" : "on a straight line";
+  }
+  if (x % 4 === y % 4) return "corresponding";
+  if ((x === 2 && y === 5) || (x === 3 && y === 4)) return "alternate";
+  if ((x === 2 && y === 4) || (x === 3 && y === 5)) return "co-interior";
+  return "alternate exterior";
+}
+/** Whether the pair is equal (true) or adds up to 180° (false). */
+export const pairEqual = (p, q) => angleAt(100, p) === angleAt(100, q);
+const LETTERS = ["p", "q", "r", "s", "t", "u", "v", "w"];
+export const angleLetter = (pos) => LETTERS[pos];
+/**
+ * Parallel lines and a transversal with the angle at posA marked `a°` and the angle at posX marked `x`
+ * (or every angle lettered when posA is −1). The label does not give the answer.
+ */
+export function parallelFig(a, posA, posX) {
+  const Y = [55, 135], cx = [140, 98], dx = 0.53;  // the transversal goes up to the right
+  let body = line(20, Y[0], 300, Y[0], ` stroke-width="1.5"`) + line(20, Y[1], 300, Y[1], ` stroke-width="1.5"`);
+  body += `<path d="M262 ${Y[0] - 4} l6 4 l-6 4" />` + `<path d="M262 ${Y[1] - 4} l6 4 l-6 4" />`;  // parallel marks
+  body += line(cx[1] - 60 * dx * 2.2, Y[1] + 60, cx[0] + 60 * dx * 2.2, Y[0] - 60, ` stroke-width="1.5"`);
+  const spot = (pos) => {
+    const k = pos < 4 ? 0 : 1, q = pos % 4, x = cx[k], y = Y[k];
+    const offs = [[-22, -9], [26, -9], [-26, 18], [22, 18]][q];
+    return [x + offs[0], y + offs[1]];
+  };
+  for (let pos = 0; pos < 8; pos++) {
+    const [x, y] = spot(pos);
+    const lab = pos === posA ? `${a}°` : pos === posX ? "x" : posA === -1 ? LETTERS[pos] : "";
+    if (lab) body += text(x, y, lab, ` font-size="13" font-weight="${pos === posX ? 700 : 400}"`);
+  }
+  return svg(320, 190, "Two parallel lines cut by a transversal, with marked angles", body);
+}
+/** Two straight lines crossing, with one angle a° and the angle to find marked x (pos: 1 next to it, 2 opposite). */
+export function crossFig(a, pos) {
+  const c = [160, 80], rad = (d) => (d * Math.PI) / 180, L = 110;
+  const t = Math.max(25, Math.min(155, a));  // drawn angle (the size is written, so the drawing need only be close)
+  let body = line(c[0] - L, c[1], c[0] + L, c[1], ` stroke-width="1.5"`);
+  body += line(c[0] - L * Math.cos(rad(t)), c[1] + L * 0.7 * Math.sin(rad(t)), c[0] + L * Math.cos(rad(t)), c[1] - L * 0.7 * Math.sin(rad(t)), ` stroke-width="1.5"`);
+  const mid = (d, r = 30) => [c[0] + r * Math.cos(rad(d)), c[1] - r * Math.sin(rad(d)) + 4];
+  const [ax, ay] = mid(t / 2), [nx, ny] = mid(t + (180 - t) / 2), [ox, oy] = mid(180 + t / 2);
+  body += text(ax + 6, ay, `${a}°`, ` font-size="13"`);
+  body += pos === 1 ? text(nx, ny, "x", ` font-size="13" font-weight="700"`) : text(ox - 4, oy + 4, "x", ` font-size="13" font-weight="700"`);
+  return svg(320, 160, "Two straight lines crossing, with marked angles", body);
+}
+
+// ---------------------------------------------------------------- triangles
+/** A triangle ABC with its angles written (a number, or "x"); shape is generic, sizes are written. */
+export function triangleFig(A, B, C) {
+  const P = [[40, 170], [280, 170], [150, 30]];
+  let body = `<path d="M${P[0]} L${P[1]} L${P[2]} Z" stroke-width="1.5"/>`;
+  body += text(28, 186, "A", ` font-weight="bold"`) + text(292, 186, "B", ` font-weight="bold"`) + text(150, 20, "C", ` font-weight="bold"`);
+  const lab = (v) => (typeof v === "number" ? `${fmt(v)}°` : v);
+  body += text(78, 162, lab(A), ` font-size="13"`) + text(240, 162, lab(B), ` font-size="13"`) + text(150, 62, lab(C), ` font-size="13"`);
+  return svg(320, 195, "A triangle ABC with marked angles", body);
+}
+/** A right-angled triangle with legs a, b and hypotenuse c; each is a number or "?" / a letter. */
+export function rightTriFig(a, b, c, unit = "cm") {
+  const lab = (v) => (typeof v === "number" ? `${fmt(v)} ${unit}` : v);
+  let body = `<path d="M40 160 L260 160 L40 40 Z" stroke-width="1.5"/>` + `<path d="M40 148 h12 v12" />`;
+  body += text(150, 178, lab(a)) + text(32, 104, lab(b), ` text-anchor="end"`) + text(162, 92, lab(c), ` text-anchor="start"`);
+  return svg(300, 190, "A right-angled triangle with marked sides", body);
+}
+/** Integral Pythagorean triples (legs, hypotenuse), as the syllabus asks. */
+export const TRIPLES = [[3, 4, 5], [6, 8, 10], [5, 12, 13], [9, 12, 15], [8, 15, 17], [12, 16, 20], [7, 24, 25], [15, 20, 25], [10, 24, 26], [20, 21, 29], [9, 40, 41], [12, 35, 37]];
+export const triple = (i) => TRIPLES[i % TRIPLES.length];
+export const nTriples = () => TRIPLES.length;
+export const isRightTriangle = (a, b, c) => { const s = [a, b, c].sort((x, y) => x - y); return s[0] ** 2 + s[1] ** 2 === s[2] ** 2; };
+
+// ---------------------------------------------------------------- fractions (answers typed as a/b or as a mixed number)
+const gcd = (a, b) => { a = Math.abs(a); b = Math.abs(b); while (b) [a, b] = [b, a % b]; return a || 1; };
+/** a/b in lowest terms, "3/4", a whole number when the denominator is 1, "−1/2" for negatives. */
+export function frac(n, d) {
+  if (d === 0) throw new RangeError("frac: zero denominator");
+  if (d < 0) { n = -n; d = -d; }
+  const g = gcd(n, d), p = n / g, q = d / g;
+  return q === 1 ? fmt(p) : `${p < 0 ? MINUS : ""}${Math.abs(p)}/${q}`;
+}
+export const fracRaw = (n, d) => `${n}/${d}`;  // as written, not simplified
+/** "1 3/4" for 7/4; a proper fraction or a whole number as it is. */
+export function mixed(n, d) {
+  const g = gcd(n, d); n /= g; d /= g;
+  if (d === 1 || Math.abs(n) < d) return frac(n, d);
+  const w = Math.trunc(n / d), r = Math.abs(n % d);
+  return `${fmt(w)} ${r}/${d}`;
+}
+export const fAddN = (a, b, c, d) => a * d + c * b;
+export const fAddD = (a, b, c, d) => b * d;
+export const fAdd = (a, b, c, d) => frac(a * d + c * b, b * d);
+export const fSub = (a, b, c, d) => frac(a * d - c * b, b * d);
+export const fMul = (a, b, c, d) => frac(a * c, b * d);
+export const fDiv = (a, b, c, d) => frac(a * d, b * c);
+export const lcmOf = (a, b) => (a / gcd(a, b)) * b;
+/** Wrong on purpose: tops added and bottoms added (1/2 + 1/3 = 2/5). */
+export const fAddWrong = (a, b, c, d) => frac(a + c, b + d);
+/** Wrong on purpose: the first fraction divided by the second without turning it upside down. */
+export const fDivWrong = (a, b, c, d) => frac(a * c, b * d);
+
+// ---------------------------------------------------------------- rounding and significant figures
+/** x rounded to the nearest `unit` (10, 100, 0.1 …). */
+export const roundTo = (x, unit) => Number((Math.round(x / unit) * unit).toFixed(10));
+/** x to k significant figures, as a number. */
+export function sigFig(x, k) {
+  if (x === 0) return 0;
+  const e = Math.floor(Math.log10(Math.abs(x))), f = 10 ** (k - 1 - e);
+  return Number((Math.round(x * f) / f).toFixed(Math.max(0, k - 1 - e)));
+}
+/** x to k significant figures, written with any zeros that count ("0.0500", "3.0"). */
+export function sigFigStr(x, k) {
+  const v = sigFig(x, k), e = Math.floor(Math.log10(Math.abs(v)));
+  return fmt(v).includes(".") || k - 1 - e <= 0 ? v.toFixed(Math.max(0, k - 1 - e)) : v.toFixed(Math.max(0, k - 1 - e));
+}
+/** The number of significant figures of a decimal written as a string ("0.0305" → 3, "4500" → 2, "4.50" → 3). */
+export function countSig(s) {
+  s = String(s).replace("−", "").replace("-", "");
+  if (s.includes(".")) return s.replace(".", "").replace(/^0+/, "").length;
+  return s.replace(/^0+/, "").replace(/0+$/, "").length;
+}
+/** Decimals without floating-point noise: 0.1 + 0.2 = 0.3. */
+export const dec = (x) => Number(x.toFixed(10));
+
+// ---------------------------------------------------------------- real numbers and intervals
+export const isPerfectSquare = (n) => Number.isInteger(n) && n >= 0 && Math.round(Math.sqrt(n)) ** 2 === n;
+/** √n written with the root sign; its value when n is a perfect square. */
+export const root = (n) => `√${n}`;
+export const sqrtInt = (n) => Math.round(Math.sqrt(n));
+/** An interval in the notation of the lesson (TR-N20): [a, b], (a, b), [a, b), (a, b], [a, +∞), (−∞, b] … */
+// An infinite end is written null, or 'inf' / '-inf' in content (the expression language has no null).
+const isInf = (v) => v === null || v === "inf" || v === "-inf";
+export function interval(a, b, closedA, closedB) {
+  const L = isInf(a) ? "(" : closedA ? "[" : "(", R = isInf(b) ? ")" : closedB ? "]" : ")";
+  return `${L}${isInf(a) ? "−∞" : fmt(a)}, ${isInf(b) ? "+∞" : fmt(b)}${R}`;
+}
+/** The same set as an inequality in x: "−2 ≤ x < 5", "x ≥ 3". */
+export function intervalIneq(a, b, closedA, closedB) {
+  if (isInf(a)) return `x ${closedB ? "≤" : "<"} ${fmt(b)}`;
+  if (isInf(b)) return `x ${closedA ? "≥" : ">"} ${fmt(a)}`;
+  return `${fmt(a)} ${closedA ? "≤" : "<"} x ${closedB ? "≤" : "<"} ${fmt(b)}`;
+}
+export const inInterval = (x, a, b, closedA, closedB) =>
+  (isInf(a) || (closedA ? x >= a : x > a)) && (isInf(b) || (closedB ? x <= b : x < b));
+/** Whole numbers in a finite interval, listed. */
+export function intsIn(a, b, closedA, closedB) {
+  const out = [];
+  for (let x = Math.ceil(a); x <= Math.floor(b); x++) if (inInterval(x, a, b, closedA, closedB)) out.push(x);
+  return out;
+}
+
+// ---------------------------------------------------------------- money: percentages, interest, exchange
+export const pctOf = (p, x) => dec((p * x) / 100);
+export const pctChange = (from, to) => dec(((to - from) / from) * 100);
+/** Simple interest I = P × R × T ÷ 100. */
+export const simpleInterest = (P, R, T) => dec((P * R * T) / 100);
+/** Amount after n years at r% compound interest (the syllabus stops at two years). */
+export const compound = (P, r, n) => { let A = P; for (let i = 0; i < n; i++) A = dec(A + (A * r) / 100); return A; };
+
+// ---------------------------------------------------------------- polygons
+const POLY = { 3: "triangle", 4: "quadrilateral", 5: "pentagon", 6: "hexagon", 7: "heptagon", 8: "octagon", 9: "nonagon", 10: "decagon", 12: "dodecagon" };
+export const polyName = (n) => POLY[n];
+export const angleSum = (n) => (n - 2) * 180;
+export const interiorRegular = (n) => dec(((n - 2) * 180) / n);
+export const exteriorRegular = (n) => dec(360 / n);
+/** A regular polygon with n sides (drawn), labelled with nothing that gives an answer away. */
+export function regularFig(n) {
+  const c = 90, r = 70, pts = Array.from({ length: n }, (_, i) => {
+    const t = -Math.PI / 2 + (2 * Math.PI * i) / n;
+    return `${r1(c + 30 + r * Math.cos(t))},${r1(c + r * Math.sin(t))}`;
+  });
+  return svg(240, 180, `A regular polygon with ${n} sides`, `<polygon points="${pts.join(" ")}" stroke-width="1.5"/>`);
+}
+/** A trapezium with parallel sides a (bottom) and b (top) and height h, written on the figure. */
+export function trapeziumFig(a, b, h) {
+  let body = `<path d="M30 150 L290 150 L220 50 L90 50 Z" stroke-width="1.5"/>` + line(90, 50, 90, 150, ` stroke-dasharray="4 3"`) + `<path d="M90 140 h10 v10"/>`;
+  body += text(160, 168, `${fmt(a)} cm`) + text(155, 42, `${fmt(b)} cm`) + text(84, 104, `${fmt(h)} cm`, ` text-anchor="end"`);
+  return svg(320, 180, "A trapezium with its parallel sides and height marked", body);
+}
+/** A parallelogram with base b and height h written on the figure. */
+export function parallelogramFig(b, h) {
+  let body = `<path d="M30 150 L230 150 L290 50 L90 50 Z" stroke-width="1.5"/>` + line(90, 50, 90, 150, ` stroke-dasharray="4 3"`) + `<path d="M90 140 h10 v10"/>`;
+  body += text(130, 168, `${fmt(b)} cm`) + text(84, 104, `${fmt(h)} cm`, ` text-anchor="end"`);
+  return svg(320, 180, "A parallelogram with its base and height marked", body);
+}
+
+// ---------------------------------------------------------------- symmetry
+/** Reflection of (x, y) in the line x = k (vertical) or y = k (horizontal). */
+export const reflectX = (x, k) => 2 * k - x;
+/** Point symmetry (half turn) about (a, b): (x, y) → (2a − x, 2b − y). */
+export const halfTurn = (v, c) => 2 * c - v;
+/** Lines of symmetry of a regular polygon with n sides (n), of some common shapes (authored, TR-N21). */
+const SYM_LINES = { square: 4, rectangle: 2, rhombus: 2, parallelogram: 0, "isosceles trapezium": 1, kite: 1, "equilateral triangle": 3, "isosceles triangle": 1, "scalene triangle": 0, circle: "infinitely many" };
+export const symLines = (shape) => SYM_LINES[shape];
+export const symShapes = () => Object.keys(SYM_LINES);
+const POINT_SYM = { square: true, rectangle: true, rhombus: true, parallelogram: true, "isosceles trapezium": false, kite: false, "equilateral triangle": false, "isosceles triangle": false, "scalene triangle": false, circle: true };
+export const hasPointSym = (shape) => POINT_SYM[shape];
+
+// ---------------------------------------------------------------- circles
+/** The relative position of two circles with radii r1, r2 and distance d between centres. */
+export function circlesPos(r1_, r2, d) {
+  const big = r1_ + r2, small = Math.abs(r1_ - r2);
+  if (d === 0) return r1_ === r2 ? "the same circle" : "concentric";
+  if (d > big) return "separate (outside each other)";
+  if (d === big) return "touching externally";
+  if (d > small) return "intersecting in two points";
+  if (d === small) return "touching internally";
+  return "one inside the other";
+}
+export const CIRCLE_POSITIONS = ["separate (outside each other)", "touching externally", "intersecting in two points", "touching internally", "one inside the other", "concentric"];
+export const otherPositions = (p) => CIRCLE_POSITIONS.filter((x) => x !== p);
+export const tA = (i) => triple(i)[0];
+export const tB = (i) => triple(i)[1];
+export const tC = (i) => triple(i)[2];
+/** The whole number just below √n. */
+export const sqrtFloor = (n) => Math.floor(Math.sqrt(n) + 1e-9);
+/** The smallest of ℕ, ℤ, ℚ, ℝ a number belongs to (kind: "nat", "int", "rat", "irr"). */
+export const smallestSet = (kind) => ({ nat: "ℕ", int: "ℤ", rat: "ℚ", irr: "ℝ" })[kind];
+export const sqrt = (x) => Math.sqrt(x);
+/** The pair named for a sentence: "corresponding angles", "angles on a straight line" … */
+export const pairPhrase = (p, q) => (anglePair(p, q) === "on a straight line" ? "angles on a straight line" : `${anglePair(p, q)} angles`);
+/** a/b is already in lowest terms. */
+export const isLowest = (a, b) => gcd(a, b) === 1;
+/** "a hexagon", "an octagon", "an isosceles triangle". */
+export const aOrAn = (w) => `${/^[aeiou]/i.test(String(w)) ? "an" : "a"} ${w}`;

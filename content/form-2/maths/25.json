@@ -1,0 +1,318 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-25",
+   "name": "Angles on intersecting lines"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "When two straight lines cross, they make four angles.\n• Vertically opposite angles (across the crossing point) are equal.\n• Two angles next to each other on a straight line add up to 180° (they are supplementary).\n• All the angles around a point add up to 360°.\nExample: if one angle is 70°, the opposite angle is 70° and each angle next to it is 180° − 70° = 110°.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 70,
+   "st": 180,
+   "rt": 90,
+   "pt": 360
+  },
+  "problem": "Two straight lines cross. One angle is {a}°. Find the other three angles.",
+  "steps": [
+   "The angle opposite it is vertically opposite: {a}°.",
+   "The angles next to it are on a straight line: {st}° − {a}° = {st - a}°.",
+   "Check: {a} + {st - a} + {a} + {st - a} = {pt}°."
+  ],
+  "answer": "{a}°, {st - a}° and {st - a}°",
+  "checks": [],
+  "figure": "crossFig(a, 1)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "Vertically opposite angles are equal.",
+    "vars": {
+     "a": 65
+    },
+    "example": [
+     "Opposite {a}° is another {a}°."
+    ],
+    "checks": [],
+    "figure": "crossFig(a, 2)",
+    "check": {
+     "ref": "m2-25-vert"
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Angles on a straight line add up to {st}°.",
+    "vars": {
+     "a": 65,
+     "st": 180,
+     "rt": 90,
+     "pt": 360
+    },
+    "example": [
+     "Next to {a}° is {st} − {a} = {st - a}°."
+    ],
+    "checks": [],
+    "figure": "crossFig(a, 1)",
+    "check": {
+     "ref": "m2-25-adj"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "Angles around a point add up to {pt}°.",
+    "vars": {
+     "a": 100,
+     "b": 80,
+     "c": 120,
+     "st": 180,
+     "rt": 90,
+     "pt": 360
+    },
+    "example": [
+     "{a}° + {b}° + {c}° + x = {pt}°, so x = {pt - a - b - c}°."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-25-point-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "angles"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        40,
+        120
+       ]
+      },
+      "b": {
+       "int": [
+        30,
+        110
+       ]
+      },
+      "c": {
+       "int": [
+        30,
+        100
+       ]
+      },
+      "st": 180,
+      "rt": 90,
+      "pt": 360
+     },
+     "prompt": "Four angles meet at a point: {a}°, {b}°, {c}° and x. Find x.",
+     "answer": "360 - a - b - c",
+     "misconceptions": [
+      {
+       "id": "line",
+       "wrong": "180 - a - b - c",
+       "explain": "Around a point the angles add up to {pt}°, not {st}°."
+      }
+     ],
+     "solution": [
+      "Angles around a point add up to {pt}°.",
+      "x = {pt} − {a} − {b} − {c} = {answer}°."
+     ],
+     "where": [
+      "360 - a - b - c >= 20"
+     ],
+     "unit": "°"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-25-vert",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      25,
+      155
+     ]
+    }
+   },
+   "prompt": "Two straight lines cross. Find the angle x.",
+   "answer": "a",
+   "misconceptions": [
+    {
+     "id": "supplement",
+     "wrong": "180 - a",
+     "explain": "x is opposite the {a}° angle, not next to it: vertically opposite angles are equal."
+    }
+   ],
+   "solution": [
+    "x and {a}° are vertically opposite.",
+    "Vertically opposite angles are equal: x = {answer}°."
+   ],
+   "figure": "crossFig(a, 2)",
+   "unit": "°"
+  },
+  {
+   "id": "m2-25-adj",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      25,
+      155
+     ]
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "Two straight lines cross. Find the angle x.",
+   "answer": "180 - a",
+   "misconceptions": [
+    {
+     "id": "equal",
+     "wrong": "a",
+     "explain": "x is next to the {a}° angle on a straight line: they add up to {st}°."
+    },
+    {
+     "id": "point",
+     "wrong": "360 - a",
+     "explain": "Two angles on a straight line add up to {st}°, not {pt}°."
+    }
+   ],
+   "solution": [
+    "x and {a}° are next to each other on a straight line.",
+    "{st} − {a} = {answer}, so x = {answer}°."
+   ],
+   "where": [
+    "a != 90"
+   ],
+   "figure": "crossFig(a, 1)",
+   "unit": "°"
+  },
+  {
+   "id": "m2-25-point",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      40,
+      120
+     ]
+    },
+    "b": {
+     "int": [
+      30,
+      110
+     ]
+    },
+    "c": {
+     "int": [
+      30,
+      100
+     ]
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "Four angles meet at a point: {a}°, {b}°, {c}° and x. Find x.",
+   "answer": "360 - a - b - c",
+   "misconceptions": [
+    {
+     "id": "line",
+     "wrong": "180 - a - b - c",
+     "explain": "Around a point the angles add up to {pt}°, not {st}°."
+    }
+   ],
+   "solution": [
+    "Angles around a point add up to {pt}°.",
+    "x = {pt} − {a} − {b} − {c} = {answer}°."
+   ],
+   "where": [
+    "360 - a - b - c >= 20"
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-25-eq",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "angles"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      20,
+      45
+     ]
+    },
+    "p": {
+     "int": [
+      5,
+      30
+     ]
+    },
+    "q": {
+     "expr": "180 - 3 * x - p"
+    },
+    "st": 180,
+    "rt": 90,
+    "pt": 360
+   },
+   "prompt": "Two angles next to each other on a straight line are (2x + {p})° and (x + {q})°. Find x.",
+   "answer": "x",
+   "misconceptions": [
+    {
+     "id": "halved",
+     "wrong": "(180 - p - q) / 2",
+     "explain": "There are three x's: 2x + x = 3x, so divide by {3}."
+    },
+    {
+     "id": "point",
+     "wrong": "(360 - p - q) / 3",
+     "explain": "Angles on a straight line add up to {st}°."
+    }
+   ],
+   "solution": [
+    "On a straight line: ({2}x + {p}) + (x + {q}) = {st}.",
+    "{3}x + {p + q} = {st}, so {3}x = {st - p - q}.",
+    "x = {st - p - q} ÷ {3} = {answer}."
+   ],
+   "where": [
+    "q > 0"
+   ]
+  }
+ ]
+}

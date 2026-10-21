@@ -1,0 +1,287 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 52,
+ "language": "en",
+ "prerequisites": [
+  51
+ ],
+ "skills": [
+  {
+   "id": "m2-52",
+   "name": "Properties kept by symmetry"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A reflection (line symmetry) and a half turn (point symmetry) do not change the size or shape of a figure. They keep (conserve):\n• distances (lengths): A′B′ = AB;\n• angles: the image of a 40° angle is a 40° angle;\n• shapes: the image of a triangle is an equal (congruent) triangle;\n• parallelism: parallel lines have parallel images;\n• orthogonality: perpendicular lines have perpendicular images;\n• alignment: points on a line have images on a line.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "l": 5,
+   "a": 40
+  },
+  "problem": "Triangle A′B′C′ is the image of ABC by a reflection. AB = {l} cm and Â = {a}°. Find A′B′ and Â′.",
+  "steps": [
+   "A reflection keeps lengths: A′B′ = AB = {l} cm.",
+   "It keeps angles: Â′ = Â = {a}°."
+  ],
+  "answer": "A′B′ = {l} cm, Â′ = {a}°",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c52-1",
+    "status": "draft",
+    "idea": "Symmetry keeps lengths.",
+    "vars": {
+     "l": 6
+    },
+    "example": [
+     "AB = {l} cm, so A′B′ = {l} cm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-52-len"
+    }
+   },
+   {
+    "id": "c52-2",
+    "status": "draft",
+    "idea": "Symmetry keeps angles.",
+    "vars": {
+     "a": 55
+    },
+    "example": [
+     "B̂ = {a}°, so B̂′ = {a}°."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-52-angle"
+    }
+   },
+   {
+    "id": "c52-3",
+    "status": "draft",
+    "idea": "Symmetry keeps parallel and perpendicular lines, and points on a line.",
+    "vars": {},
+    "example": [
+     "If (AB) ∥ (CD), then (A′B′) ∥ (C′D′)."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-52-what-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "symmetry"
+     ],
+     "prompt": "Which statement is true?",
+     "pool": {
+      "right": [
+       {
+        "text": "The image of two perpendicular lines by a reflection is two perpendicular lines.",
+        "truth": "true"
+       },
+       {
+        "text": "The image of three points on a line by a half turn is three points on a line.",
+        "truth": "true"
+       },
+       {
+        "text": "The image of two parallel lines by a reflection is two parallel lines.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The image of a square by a reflection can be a rectangle that is not a square.",
+        "truth": "false",
+        "explain": "Symmetry keeps lengths, so all four sides stay equal."
+       },
+       {
+        "text": "The image of an angle of 30° by a half turn is an angle of 150°.",
+        "truth": "false",
+        "explain": "Symmetry keeps angles: it is still 30°."
+       },
+       {
+        "text": "The image of a segment of 4 cm by a reflection is a segment of 8 cm.",
+        "truth": "false",
+        "explain": "Symmetry keeps lengths: still 4 cm."
+       }
+      ]
+     },
+     "pick": {
+      "right": 1,
+      "wrong": 2
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-52-len",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symmetry"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "[A′B′] is the image of [AB] by point symmetry. AB = {l} cm. Find A′B′.",
+   "answer": "l",
+   "misconceptions": [
+    {
+     "id": "double",
+     "wrong": "2 * l",
+     "explain": "The image is the same size: point symmetry does not stretch."
+    }
+   ],
+   "solution": [
+    "Point symmetry keeps lengths.",
+    "A′B′ = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-52-angle",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "symmetry"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      20,
+      150
+     ]
+    }
+   },
+   "prompt": "Triangle A′B′C′ is the image of ABC by a reflection. B̂ = {a}°. Find B̂′.",
+   "answer": "a",
+   "misconceptions": [
+    {
+     "id": "supp",
+     "wrong": "180 - a",
+     "explain": "A reflection keeps angles: the image angle is equal."
+    }
+   ],
+   "solution": [
+    "A reflection keeps angles.",
+    "B̂′ = {answer}°."
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-52-what",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "symmetry"
+   ],
+   "prompt": "Which statement is true?",
+   "pool": {
+    "right": [
+     {
+      "text": "The image of two perpendicular lines by a reflection is two perpendicular lines.",
+      "truth": "true"
+     },
+     {
+      "text": "The image of three points on a line by a half turn is three points on a line.",
+      "truth": "true"
+     },
+     {
+      "text": "The image of two parallel lines by a reflection is two parallel lines.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The image of a square by a reflection can be a rectangle that is not a square.",
+      "truth": "false",
+      "explain": "Symmetry keeps lengths, so all four sides stay equal."
+     },
+     {
+      "text": "The image of an angle of 30° by a half turn is an angle of 150°.",
+      "truth": "false",
+      "explain": "Symmetry keeps angles: it is still 30°."
+     },
+     {
+      "text": "The image of a segment of 4 cm by a reflection is a segment of 8 cm.",
+      "truth": "false",
+      "explain": "Symmetry keeps lengths: still 4 cm."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 2
+   }
+  },
+  {
+   "id": "m2-52-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "symmetry"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A reflection keeps lengths.",
+      "truth": "true"
+     },
+     {
+      "text": "A half turn keeps angles.",
+      "truth": "true"
+     },
+     {
+      "text": "The image of a square by a reflection is a square.",
+      "truth": "true"
+     },
+     {
+      "text": "Images of parallel lines are parallel.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A reflection doubles lengths.",
+      "truth": "false",
+      "explain": "A reflection keeps lengths."
+     },
+     {
+      "text": "The image of a right angle by a half turn can be 120°.",
+      "truth": "false",
+      "explain": "Symmetry keeps angles: a right angle stays a right angle."
+     },
+     {
+      "text": "Points on a line can have images that are not on a line.",
+      "truth": "false",
+      "explain": "Symmetry keeps alignment."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

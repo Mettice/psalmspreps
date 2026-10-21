@@ -31,7 +31,7 @@ const SPINE = { maths: "mathematics", english: "english-language", physics: "phy
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
 const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10), "home-economics": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21],
   history: upTo(10), biology: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21], "computer-science": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18], french: upTo(15),
-  "f2-maths": upTo(24), "f2-english": upTo(32), "f2-physics": upTo(15), "f2-chemistry": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17],
+  "f2-maths": upTo(54), "f2-english": upTo(32), "f2-physics": upTo(15), "f2-chemistry": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17],
   "f2-biology": [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21],
   "f2-home-economics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "f2-geography": upTo(10), "f2-history": upTo(10),
   "f2-computer-science": [1, 2, 4, 5, 6, 8, 9, 11, 12, 14, 15, 16, 18, 19], "f2-accounting": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12],
@@ -39,6 +39,9 @@ const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry
 // Geography is numbered by place in the year (spine seq): its practicals have no lesson number (TR-G14).
 const BY_SEQ = new Set(["geography", "history", "biology", "f2-maths", "f2-english", "f2-physics", "f2-chemistry", "f2-biology", "f2-home-economics", "f2-geography", "f2-history", "f2-computer-science", "f2-french", "f2-francais-intensif", "f2-accounting"]);  // biology: practicals have kind "practical" (numbers equal the rows); every Form 2 subject (proposal G1)
 
+// The names each engine module really exports (Node imports it), to check the bundled copy below: a declaration like
+// "export const a = …, b = …" once bundled only a, and the page failed while every Node test passed (2026-10-21).
+const REAL_EXPORTS = Object.fromEntries(await Promise.all(ENGINE.map(async (p) => [p, Object.keys(await import(new URL(`src/engine/${p}`, ROOT))).sort()])));
 function bundleModule(path) {
   const src = read(`src/engine/${path}`);
   const exports = [];
@@ -53,6 +56,8 @@ function bundleModule(path) {
     return `${kind} ${name}`;
   });
   if (/^export\s/m.test(code)) throw new Error(`${path}: unsupported export form`);
+  const missing = REAL_EXPORTS[path].filter((n) => !exports.includes(n));
+  if (missing.length) throw new Error(`${path}: the page bundle would lose ${missing.join(", ")} (write one export per declaration)`);
   return `__mods[${JSON.stringify(path)}] = (() => {\n${code}\nreturn { ${exports.join(", ")} };\n})();`;
 }
 
@@ -272,6 +277,23 @@ const ENGINE_LIBS = `{ libs: { maths: __mods["lib/maths.js"], english: { ...__mo
     "computer-science": { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"] },
     french: { ...__mods["lib/maths.js"], ...__mods["lib/english.js"], ...__mods["lib/physics.js"], ...__mods["lib/chemistry.js"], ...__mods["lib/geography.js"], ...__mods["lib/homeeconomics.js"], ...__mods["lib/history.js"], ...__mods["lib/biology.js"], ...__mods["lib/computerscience.js"], ...__mods["lib/french.js"] } }`;
 const paper = Object.fromEntries(Object.entries(content).map(([s, ls]) => [s, Object.values(ls).filter((l) => l.paper_task).map((l) => l.lesson_no)]));
+// Each page bundles only the libraries its subjects use, and the libraries those import (2026-10-21): a class's
+// shareable file must not grow when another class adds a library (Form One's file stays as it was).
+const LIB_ENTRIES = Object.fromEntries([...ENGINE_LIBS.matchAll(/(?:"([a-z0-9-]+)"|\b([a-z][a-z0-9]*)): (\{[^{}]*\}|__mods\["[^"]+"\])/g)]
+  .map((m) => [m[1] || m[2], m[3]]).filter(([k]) => k !== "libs"));
+function libsFor(only) {
+  const need = new Set(only.flatMap((s) => [...(LIB_ENTRIES[s] || "").matchAll(/lib\/[a-z0-9]+\.js/g)].map((m) => m[0])));
+  for (let grew = true; grew;) {
+    grew = false;
+    for (const p of [...need]) for (const m of read(`src/engine/${p}`).matchAll(/from "\.\/([a-z0-9]+\.js)"/g)) if (!need.has(`lib/${m[1]}`)) { need.add(`lib/${m[1]}`); grew = true; }
+  }
+  return need;
+}
+const engineFor = (only) => { const need = libsFor(only); return ENGINE.filter((p) => !p.startsWith("lib/") || need.has(p)); };
+const engineLibsFor = (only) => `{ libs: { ${only.map((s) => {
+  if (!LIB_ENTRIES[s]) throw new Error(`no library list for ${s}`);
+  return `${JSON.stringify(s)}: ${LIB_ENTRIES[s]}`;
+}).join(", ")} }`;
 // `only`: the subjects a page carries (the single shareable file holds one class, so it stays small enough for
 // Bluetooth); the installable app's core page lists every subject and loads their lessons one at a time.
 const pick = (obj, only) => Object.fromEntries(Object.entries(obj).filter(([s]) => only.includes(s)));
@@ -289,8 +311,8 @@ ${head}<style>${css}</style>
 <script>
 "use strict";
 const __mods = {};
-${ENGINE.map(bundleModule).join("\n")}
-const ENGINE = ${ENGINE_LIBS},
+${engineFor(only).map(bundleModule).join("\n")}
+const ENGINE = ${engineLibsFor(only)},
   template: __mods["template.js"], teach: __mods["teach.js"], readiness: __mods["readiness.js"] };
 const CONTENT = ${contentJs};
 const TITLES = ${safeJson(pick(titles, only))};

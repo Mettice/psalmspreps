@@ -1,0 +1,250 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "m2-29",
+   "name": "Special lines in a triangle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• A height (altitude) goes from a vertex and is perpendicular to the opposite side. The three heights meet at the orthocentre.\n• A median joins a vertex to the midpoint of the opposite side. The three medians meet at the centroid (centre of gravity).\n• The perpendicular bisector of a side is perpendicular to it at its midpoint. The three meet at the circumcentre, the centre of the circle through the three vertices.\n• An angle bisector cuts an angle into two equal angles. The three meet at the incentre, the centre of the circle inside the triangle touching the three sides.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 14,
+   "half": 7
+  },
+  "problem": "In triangle ABC, [AM] is the median from A and BC = {n} cm. Find BM.",
+  "steps": [
+   "A median goes to the midpoint of the opposite side, so M is the midpoint of [BC].",
+   "BM = {n} ÷ {2} = {half} cm."
+  ],
+  "answer": "BM = {half} cm",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "A height is perpendicular to the opposite side; a median goes to its midpoint.",
+    "vars": {},
+    "example": [
+     "The median from A ends at the midpoint of [BC]."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-29-def"
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "The median cuts the opposite side into two equal parts.",
+    "vars": {
+     "n": 12
+    },
+    "example": [
+     "BC = {n} cm, so BM = MC = {n / 2} cm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-29-mid"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "The three lines of each kind meet at one point: orthocentre, centroid, circumcentre, incentre.",
+    "vars": {},
+    "example": [
+     "Medians → centroid."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-29-point-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "triangles"
+     ],
+     "prompt": "Match each set of three lines to the point where they meet.",
+     "pool": [
+      {
+       "left": "the three heights",
+       "right": "the orthocentre"
+      },
+      {
+       "left": "the three medians",
+       "right": "the centroid"
+      },
+      {
+       "left": "the three perpendicular bisectors",
+       "right": "the circumcentre"
+      },
+      {
+       "left": "the three angle bisectors",
+       "right": "the incentre"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-29-def",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "triangles"
+   ],
+   "prompt": "Match each line of a triangle to what it is.",
+   "pool": [
+    {
+     "left": "a height",
+     "right": "from a vertex, perpendicular to the opposite side"
+    },
+    {
+     "left": "a median",
+     "right": "from a vertex to the midpoint of the opposite side"
+    },
+    {
+     "left": "a perpendicular bisector",
+     "right": "perpendicular to a side at its midpoint"
+    },
+    {
+     "left": "an angle bisector",
+     "right": "cuts an angle into two equal angles"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "m2-29-mid",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "n": {
+     "expr": "2 * h"
+    }
+   },
+   "prompt": "In triangle ABC, [AM] is the median from A and BC = {n} cm. Find BM.",
+   "answer": "n / 2",
+   "misconceptions": [
+    {
+     "id": "whole",
+     "wrong": "n",
+     "explain": "M is the midpoint: BM is half of BC."
+    }
+   ],
+   "solution": [
+    "M is the midpoint of [BC].",
+    "BM = {n} ÷ {2} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-29-point",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "triangles"
+   ],
+   "prompt": "Match each set of three lines to the point where they meet.",
+   "pool": [
+    {
+     "left": "the three heights",
+     "right": "the orthocentre"
+    },
+    {
+     "left": "the three medians",
+     "right": "the centroid"
+    },
+    {
+     "left": "the three perpendicular bisectors",
+     "right": "the circumcentre"
+    },
+    {
+     "left": "the three angle bisectors",
+     "right": "the incentre"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "m2-29-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "triangles"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A median joins a vertex to the midpoint of the opposite side.",
+      "truth": "true"
+     },
+     {
+      "text": "The circumcentre is where the perpendicular bisectors meet.",
+      "truth": "true"
+     },
+     {
+      "text": "A height is perpendicular to a side.",
+      "truth": "true"
+     },
+     {
+      "text": "An angle bisector cuts an angle into two equal angles.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A median is always perpendicular to the opposite side.",
+      "truth": "false",
+      "explain": "That is a height; a median goes to the midpoint."
+     },
+     {
+      "text": "The centroid is where the heights meet.",
+      "truth": "false",
+      "explain": "The heights meet at the orthocentre; the medians meet at the centroid."
+     },
+     {
+      "text": "The incentre is the centre of the circle through the three vertices.",
+      "truth": "false",
+      "explain": "That is the circumcentre; the incentre is the centre of the circle inside the triangle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

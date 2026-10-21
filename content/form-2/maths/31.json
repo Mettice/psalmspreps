@@ -1,0 +1,345 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [
+  30
+ ],
+ "skills": [
+  {
+   "id": "m2-31",
+   "name": "Pythagoras’ theorem and its converse"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: c² = a² + b².\nTo find the hypotenuse: c = √(a² + b²). To find another side: a = √(c² − b²).\nConverse: if c² = a² + b² for the longest side c, then the triangle is right-angled.\nSides used here are whole numbers (Pythagorean triples): 3, 4, 5; 5, 12, 13; 6, 8, 10; 8, 15, 17; 7, 24, 25 …",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 6,
+   "b": 8
+  },
+  "problem": "A right-angled triangle has sides {a} cm and {b} cm next to the right angle. Find the hypotenuse.",
+  "steps": [
+   "c² = {a}² + {b}² = {a * a} + {b * b} = {a * a + b * b}.",
+   "c = √{a * a + b * b} = {10} cm."
+  ],
+  "answer": "c = {10} cm",
+  "checks": [],
+  "figure": "rightTriFig(a, b, 'c')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "Hypotenuse² = (one side)² + (other side)².",
+    "vars": {
+     "a": 3,
+     "b": 4,
+     "c": 5
+    },
+    "example": [
+     "{a}² + {b}² = {a * a} + {b * b} = {c * c} = {c}²"
+    ],
+    "checks": [],
+    "figure": "rightTriFig(a, b, c)",
+    "check": {
+     "ref": "m2-31-hyp"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "To find a shorter side, subtract: a² = c² − b².",
+    "vars": {
+     "a": 5,
+     "b": 12,
+     "c": 13
+    },
+    "example": [
+     "{c}² − {b}² = {c * c - b * b} = {a}²"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-31-leg"
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "Converse: if the squares fit c² = a² + b², the triangle is right-angled.",
+    "vars": {
+     "a": 8,
+     "b": 15,
+     "c": 17
+    },
+    "example": [
+     "{a}² + {b}² = {c}², so it is right-angled."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-31-conv-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "triangles"
+     ],
+     "vars": {
+      "i": {
+       "int": [
+        0,
+        11
+       ]
+      },
+      "k": {
+       "int": [
+        0,
+        1
+       ]
+      },
+      "p": {
+       "expr": "tA(i)"
+      },
+      "q": {
+       "expr": "tB(i)"
+      },
+      "r": {
+       "expr": "tC(i) + k"
+      }
+     },
+     "prompt": "A triangle has sides {p} cm, {q} cm and {r} cm. Is it right-angled?",
+     "correct": "{isRightTriangle(p, q, r) ? 'Yes' : 'No'}",
+     "distractors": [
+      {
+       "text": "Yes",
+       "misconception": "w"
+      },
+      {
+       "text": "No",
+       "misconception": "w"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w",
+       "explain": "Compare {r}² = {r * r} with {p}² + {q}² = {p * p + q * q}."
+      }
+     ],
+     "solution": [
+      "Longest side: {r}. {r}² = {r * r}; {p}² + {q}² = {p * p + q * q}.",
+      "{p * p + q * q == r * r ? 'They are equal: it is right-angled.' : 'They are not equal: it is not right-angled.'}",
+      "So the answer is {answer}."
+     ],
+     "min_distractors": 1
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-31-hyp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "a": {
+     "expr": "tA(i)"
+    },
+    "b": {
+     "expr": "tB(i)"
+    },
+    "c": {
+     "expr": "tC(i)"
+    }
+   },
+   "prompt": "Find the hypotenuse of this right-angled triangle.",
+   "answer": "c",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "a + b",
+     "explain": "Square the sides first, add, then take the square root."
+    },
+    {
+     "id": "noroot",
+     "wrong": "a * a + b * b",
+     "explain": "That is c². Take the square root."
+    }
+   ],
+   "solution": [
+    "c² = {a}² + {b}² = {a * a} + {b * b} = {c * c}.",
+    "c = √{c * c} = {answer} cm."
+   ],
+   "figure": "rightTriFig(a, b, '?')",
+   "unit": "cm"
+  },
+  {
+   "id": "m2-31-leg",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "a": {
+     "expr": "tA(i)"
+    },
+    "b": {
+     "expr": "tB(i)"
+    },
+    "c": {
+     "expr": "tC(i)"
+    }
+   },
+   "prompt": "A right-angled triangle has hypotenuse {c} cm and one side {a} cm. Find the other side.",
+   "answer": "b",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "c * c + a * a",
+     "explain": "For a shorter side, subtract the squares."
+    },
+    {
+     "id": "sub",
+     "wrong": "c - a",
+     "explain": "Square first: {c}² − {a}²."
+    },
+    {
+     "id": "noroot",
+     "wrong": "c * c - a * a",
+     "explain": "That is b². Take the square root."
+    }
+   ],
+   "solution": [
+    "b² = {c}² − {a}² = {c * c} − {a * a} = {b * b}.",
+    "b = √{b * b} = {answer} cm."
+   ],
+   "figure": "rightTriFig(a, '?', c)",
+   "unit": "cm"
+  },
+  {
+   "id": "m2-31-conv",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "k": {
+     "int": [
+      0,
+      1
+     ]
+    },
+    "p": {
+     "expr": "tA(i)"
+    },
+    "q": {
+     "expr": "tB(i)"
+    },
+    "r": {
+     "expr": "tC(i) + k"
+    }
+   },
+   "prompt": "A triangle has sides {p} cm, {q} cm and {r} cm. Is it right-angled?",
+   "correct": "{isRightTriangle(p, q, r) ? 'Yes' : 'No'}",
+   "distractors": [
+    {
+     "text": "Yes",
+     "misconception": "w"
+    },
+    {
+     "text": "No",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "Compare {r}² = {r * r} with {p}² + {q}² = {p * p + q * q}."
+    }
+   ],
+   "solution": [
+    "Longest side: {r}. {r}² = {r * r}; {p}² + {q}² = {p * p + q * q}.",
+    "{p * p + q * q == r * r ? 'They are equal: it is right-angled.' : 'They are not equal: it is not right-angled.'}",
+    "So the answer is {answer}."
+   ],
+   "min_distractors": 1
+  },
+  {
+   "id": "m2-31-ladder",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "a": {
+     "expr": "tA(i)"
+    },
+    "b": {
+     "expr": "tB(i)"
+    },
+    "c": {
+     "expr": "tC(i)"
+    }
+   },
+   "prompt": "A ladder {c} m long leans against a wall. Its foot is {a} m from the wall. How high up the wall does it reach?",
+   "answer": "b",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "c * c + a * a",
+     "explain": "The ladder is the hypotenuse: subtract the squares."
+    },
+    {
+     "id": "noroot",
+     "wrong": "c * c - a * a",
+     "explain": "That is h². Take the square root."
+    }
+   ],
+   "solution": [
+    "The wall, the ground and the ladder make a right-angled triangle; the ladder is the hypotenuse.",
+    "h² = {c}² − {a}² = {c * c - a * a}.",
+    "h = {answer} m."
+   ],
+   "unit": "m"
+  }
+ ]
+}

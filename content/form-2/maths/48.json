@@ -1,0 +1,294 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 48,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "m2-48",
+   "name": "Polygons"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A polygon is a closed figure with straight sides. Names: triangle (3 sides), quadrilateral (4), pentagon (5), hexagon (6), heptagon (7), octagon (8), nonagon (9), decagon (10), dodecagon (12).\nSpecial quadrilaterals: a trapezium has one pair of parallel sides; a parallelogram has two pairs.\nA regular polygon has all its sides equal and all its angles equal (regular hexagon, regular octagon).\nThe interior angles of a polygon with n sides add up to (n − 2) × 180°: a pentagon 540°, a hexagon 720°.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 6
+  },
+  "problem": "Find the sum of the interior angles of a hexagon, and each angle of a regular hexagon.",
+  "steps": [
+   "A hexagon has {n} sides: ({n} − {2}) × {180} = {angleSum(n)}°.",
+   "Regular: {angleSum(n)} ÷ {n} = {interiorRegular(n)}°."
+  ],
+  "answer": "{angleSum(n)}° and {interiorRegular(n)}°",
+  "checks": [],
+  "figure": "regularFig(n)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c48-1",
+    "status": "draft",
+    "idea": "Polygons are named by their number of sides.",
+    "vars": {
+     "n": 5
+    },
+    "example": [
+     "{n} sides: a {polyName(n)}."
+    ],
+    "checks": [],
+    "figure": "regularFig(n)",
+    "check": {
+     "ref": "m2-48-name"
+    }
+   },
+   {
+    "id": "c48-2",
+    "status": "draft",
+    "idea": "Angle sum = (n − {2}) × {180}°.",
+    "vars": {},
+    "example": [
+     "Pentagon: ({5} − {2}) × {180} = {angleSum(5)}°"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-48-sum"
+    }
+   },
+   {
+    "id": "c48-3",
+    "status": "draft",
+    "idea": "A regular polygon: equal sides and equal angles.",
+    "vars": {},
+    "example": [
+     "Regular octagon: {angleSum(8)} ÷ {8} = {interiorRegular(8)}°"
+    ],
+    "checks": [],
+    "figure": "regularFig(8)",
+    "check": {
+     "id": "m2-48-reg-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "polygons"
+     ],
+     "vars": {
+      "n": {
+       "pick": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12
+       ]
+      }
+     },
+     "prompt": "Find each interior angle of a regular {polyName(n)}.",
+     "answer": "interiorRegular(n)",
+     "misconceptions": [
+      {
+       "id": "sum",
+       "wrong": "angleSum(n)",
+       "explain": "That is the sum of all the angles. Divide by {n}."
+      },
+      {
+       "id": "ext",
+       "wrong": "exteriorRegular(n)",
+       "explain": "That is the exterior angle. The interior angle is {180} − {exteriorRegular(n)}."
+      }
+     ],
+     "solution": [
+      "Angle sum: {angleSum(n)}°.",
+      "{angleSum(n)} ÷ {n} = {answer}°."
+     ],
+     "unit": "°"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-48-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+     ]
+    }
+   },
+   "prompt": "What do we call a polygon with {n} sides?",
+   "correct": "a {polyName(n)}",
+   "distractors": [
+    {
+     "text": "a {polyName(n == 12 ? 10 : n + 1)}",
+     "misconception": "w"
+    },
+    {
+     "text": "a {polyName(n == 3 ? 4 : n - 1)}",
+     "misconception": "w"
+    },
+    {
+     "text": "a {polyName(n == 5 ? 6 : 5)}",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "That name is for a different number of sides."
+    }
+   ],
+   "solution": [
+    "Count the sides: {n}.",
+    "{n} sides: {answer}."
+   ],
+   "figure": "regularFig(n)",
+   "min_distractors": 2
+  },
+  {
+   "id": "m2-48-sum",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+     ]
+    }
+   },
+   "prompt": "Find the sum of the interior angles of {aOrAn(polyName(n))}.",
+   "answer": "angleSum(n)",
+   "misconceptions": [
+    {
+     "id": "n180",
+     "wrong": "n * 180",
+     "explain": "Use (n − {2}) × {180}: a triangle ({3} sides) has {180}°."
+    },
+    {
+     "id": "n-1",
+     "wrong": "(n - 1) * 180",
+     "explain": "It is (n − {2}), not (n − {1})."
+    }
+   ],
+   "solution": [
+    "{aOrAn(polyName(n))} has {n} sides.",
+    "({n} − {2}) × {180} = {answer}°."
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-48-reg",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12
+     ]
+    }
+   },
+   "prompt": "Find each interior angle of a regular {polyName(n)}.",
+   "answer": "interiorRegular(n)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "angleSum(n)",
+     "explain": "That is the sum of all the angles. Divide by {n}."
+    },
+    {
+     "id": "ext",
+     "wrong": "exteriorRegular(n)",
+     "explain": "That is the exterior angle. The interior angle is {180} − {exteriorRegular(n)}."
+    }
+   ],
+   "solution": [
+    "Angle sum: {angleSum(n)}°.",
+    "{angleSum(n)} ÷ {n} = {answer}°."
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-48-sides",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "e": {
+     "pick": [
+      120,
+      90,
+      72,
+      60,
+      45,
+      40,
+      36,
+      30,
+      24,
+      20
+     ]
+    }
+   },
+   "prompt": "Each exterior angle of a regular polygon is {e}°. How many sides has it?",
+   "answer": "360 / e",
+   "misconceptions": [
+    {
+     "id": "180",
+     "wrong": "180 / e",
+     "explain": "Exterior angles add up to {360}°, not {180}°."
+    }
+   ],
+   "solution": [
+    "The exterior angles of any polygon add up to {360}°.",
+    "{360} ÷ {e} = {answer} sides."
+   ]
+  }
+ ]
+}

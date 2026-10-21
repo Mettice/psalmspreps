@@ -1,0 +1,379 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 39,
+ "language": "en",
+ "prerequisites": [
+  38
+ ],
+ "skills": [
+  {
+   "id": "m2-39",
+   "name": "Interval notation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An interval is a set of real numbers between two ends.\n• Closed [a, b]: a ≤ x ≤ b (both ends included). • Open (a, b): a < x < b (ends left out).\n• Half-open [a, b): a ≤ x < b, and (a, b]: a < x ≤ b.\n• Infinite: [a, +∞) means x ≥ a; (−∞, b) means x < b. The side with ∞ is always open.\nOn the number line, a filled dot means the end is included, an open dot means it is not.\n(This lesson writes intervals with brackets and parentheses; some books write ]a, b[ for an open interval: check with your teacher.)",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": -2,
+   "b": 5
+  },
+  "problem": "Write {intervalIneq(a, b, true, false)} as an interval and list the whole numbers in it.",
+  "steps": [
+   "{a} is included: [ ; {b} is not: ).",
+   "Interval: {interval(a, b, true, false)}.",
+   "Whole numbers: {join(intsIn(a, b, true, false), ', ')}."
+  ],
+  "answer": "{interval(a, b, true, false)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c39-1",
+    "status": "draft",
+    "idea": "Square bracket: the end is included; round bracket: it is not.",
+    "vars": {
+     "a": 1,
+     "b": 4
+    },
+    "example": [
+     "{intervalIneq(a, b, true, false)} → {interval(a, b, true, false)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-39-write"
+    }
+   },
+   {
+    "id": "c39-2",
+    "status": "draft",
+    "idea": "An interval can be read back as an inequality.",
+    "vars": {
+     "a": -3,
+     "b": 2
+    },
+    "example": [
+     "{interval(a, b, false, true)} → {intervalIneq(a, b, false, true)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-39-read"
+    }
+   },
+   {
+    "id": "c39-3",
+    "status": "draft",
+    "idea": "∞ always has a round bracket.",
+    "vars": {
+     "a": 3
+    },
+    "example": [
+     "x ≥ {a} → {interval(a, 'inf', true, false)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-39-inf-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "intervals"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -8,
+        8
+       ]
+      },
+      "ca": {
+       "pick": [
+        true,
+        false
+       ]
+      }
+     },
+     "prompt": "Write x {ca ? '≥' : '>'} {a} as an interval.",
+     "correct": "{interval(a, 'inf', ca, false)}",
+     "distractors": [
+      {
+       "text": "{ca ? '[' : '('}{a}, +∞]",
+       "misconception": "inf"
+      },
+      {
+       "text": "{interval('-inf', a, false, ca)}",
+       "misconception": "dir"
+      },
+      {
+       "text": "{interval(a, 'inf', !ca, false)}",
+       "misconception": "end"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "inf",
+       "explain": "∞ is never reached: it always gets a round bracket."
+      },
+      {
+       "id": "dir",
+       "explain": "x is bigger than {a}: the interval goes towards +∞."
+      },
+      {
+       "id": "end",
+       "explain": "{ca ? '≥ includes the end: [' : '> leaves the end out: ('}."
+      }
+     ],
+     "solution": [
+      "x goes from {a} up to +∞; ∞ always gets a round bracket.",
+      "So {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-39-write",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "intervals"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      3
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "b": {
+     "expr": "a + w"
+    },
+    "ca": {
+     "pick": [
+      true,
+      false
+     ]
+    },
+    "cb": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Write {intervalIneq(a, b, ca, cb)} as an interval.",
+   "correct": "{interval(a, b, ca, cb)}",
+   "distractors": [
+    {
+     "text": "{interval(a, b, !ca, cb)}",
+     "misconception": "w"
+    },
+    {
+     "text": "{interval(a, b, ca, !cb)}",
+     "misconception": "w"
+    },
+    {
+     "text": "{interval(a, b, !ca, !cb)}",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "≤ gives a square bracket (end included); < gives a round bracket (end left out)."
+    }
+   ],
+   "solution": [
+    "{ca ? 'The first end is included: [' : 'The first end is not included: ('}.",
+    "{cb ? 'The second end is included: ]' : 'The second end is not included: )'}.",
+    "So {answer}."
+   ]
+  },
+  {
+   "id": "m2-39-read",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "intervals"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      3
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "b": {
+     "expr": "a + w"
+    },
+    "ca": {
+     "pick": [
+      true,
+      false
+     ]
+    },
+    "cb": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Which inequality means x is in {interval(a, b, ca, cb)}?",
+   "correct": "{intervalIneq(a, b, ca, cb)}",
+   "distractors": [
+    {
+     "text": "{intervalIneq(a, b, !ca, cb)}",
+     "misconception": "w"
+    },
+    {
+     "text": "{intervalIneq(a, b, ca, !cb)}",
+     "misconception": "w"
+    },
+    {
+     "text": "{intervalIneq(a, b, !ca, !cb)}",
+     "misconception": "w"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w",
+     "explain": "A square bracket means the end is included (≤); a round bracket means it is not (<)."
+    }
+   ],
+   "solution": [
+    "[ or ] means ≤ ; ( or ) means <.",
+    "So {answer}."
+   ]
+  },
+  {
+   "id": "m2-39-count",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "intervals"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      3
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "b": {
+     "expr": "a + w"
+    },
+    "ca": {
+     "pick": [
+      true,
+      false
+     ]
+    },
+    "cb": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "How many whole numbers are in the interval {interval(a, b, ca, cb)}?",
+   "answer": "len(intsIn(a, b, ca, cb))",
+   "misconceptions": [
+    {
+     "id": "ends",
+     "wrong": "len(intsIn(a, b, true, true))",
+     "explain": "Check the brackets: a round bracket leaves the end out."
+    }
+   ],
+   "solution": [
+    "The whole numbers are {join(intsIn(a, b, ca, cb), ', ')}.",
+    "There are {answer}."
+   ]
+  },
+  {
+   "id": "m2-39-inf",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "intervals"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -8,
+      8
+     ]
+    },
+    "ca": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Write x {ca ? '≥' : '>'} {a} as an interval.",
+   "correct": "{interval(a, 'inf', ca, false)}",
+   "distractors": [
+    {
+     "text": "{ca ? '[' : '('}{a}, +∞]",
+     "misconception": "inf"
+    },
+    {
+     "text": "{interval('-inf', a, false, ca)}",
+     "misconception": "dir"
+    },
+    {
+     "text": "{interval(a, 'inf', !ca, false)}",
+     "misconception": "end"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "inf",
+     "explain": "∞ is never reached: it always gets a round bracket."
+    },
+    {
+     "id": "dir",
+     "explain": "x is bigger than {a}: the interval goes towards +∞."
+    },
+    {
+     "id": "end",
+     "explain": "{ca ? '≥ includes the end: [' : '> leaves the end out: ('}."
+    }
+   ],
+   "solution": [
+    "x goes from {a} up to +∞; ∞ always gets a round bracket.",
+    "So {answer}."
+   ]
+  }
+ ]
+}

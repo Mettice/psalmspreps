@@ -1,0 +1,332 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 47,
+ "language": "en",
+ "prerequisites": [
+  40
+ ],
+ "skills": [
+  {
+   "id": "m2-47",
+   "name": "Currency exchange"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An exchange rate tells how much one currency is worth in another. Example: 1 euro (€) = 656 FCFA (the CFA franc is tied to the euro at about 656 FCFA).\nEuros → FCFA: multiply by the rate. FCFA → euros: divide by the rate.\nBanks and exchange offices often take a commission (a percentage) for changing money.\nIn this lesson the rate is always given in the question: rates for other currencies (US dollar, naira) change every day.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": 656,
+   "e": 50
+  },
+  "problem": "{1} € = {r} FCFA. Change {e} € into FCFA and {r * 10} FCFA into euros.",
+  "steps": [
+   "{e} × {r} = {e * r} FCFA.",
+   "{r * 10} ÷ {r} = {10} €."
+  ],
+  "answer": "{e * r} FCFA; {10} €",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c47-1",
+    "status": "draft",
+    "idea": "Foreign money → FCFA: multiply by the rate.",
+    "vars": {
+     "r": 655,
+     "e": 20
+    },
+    "example": [
+     "{e} € × {r} = {e * r} FCFA"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-47-to"
+    }
+   },
+   {
+    "id": "c47-2",
+    "status": "draft",
+    "idea": "FCFA → foreign money: divide by the rate.",
+    "vars": {
+     "r": 655,
+     "f": 6550
+    },
+    "example": [
+     "{f} FCFA ÷ {r} = {f / r} €"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-47-from"
+    }
+   },
+   {
+    "id": "c47-3",
+    "status": "draft",
+    "idea": "A commission of p % is taken off the money changed.",
+    "vars": {
+     "p": 2,
+     "f": 65500
+    },
+    "example": [
+     "{p} % of {f} = {f * p / 100} FCFA"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-47-comm-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "r": {
+       "pick": [
+        650,
+        655,
+        656,
+        660
+       ]
+      },
+      "e": {
+       "pick": [
+        10,
+        20,
+        50,
+        100,
+        150,
+        200,
+        500
+       ]
+      },
+      "p": {
+       "pick": [
+        1,
+        2,
+        4,
+        5
+       ]
+      }
+     },
+     "prompt": "1 € = {r} FCFA. An exchange office takes a {p} % commission. How many FCFA do you receive for {e} €?",
+     "answer": "e * r * (100 - p) / 100",
+     "misconceptions": [
+      {
+       "id": "nocomm",
+       "wrong": "e * r",
+       "explain": "Take the commission off."
+      }
+     ],
+     "solution": [
+      "Without commission: {e} × {r} = {e * r} FCFA.",
+      "Commission: {p} % of {e * r} = {e * r * p / 100} FCFA.",
+      "You receive {e * r} − {e * r * p / 100} = {answer} FCFA."
+     ],
+     "where": [
+      "isInt(e * r * p / 100)"
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-47-to",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      650,
+      655,
+      656,
+      660
+     ]
+    },
+    "e": {
+     "pick": [
+      10,
+      20,
+      50,
+      100,
+      150,
+      200,
+      500
+     ]
+    }
+   },
+   "prompt": "1 € = {r} FCFA. How many FCFA do you get for {e} €?",
+   "answer": "e * r",
+   "misconceptions": [
+    {
+     "id": "divided",
+     "wrong": "round(e / r, 2)",
+     "explain": "Euros to FCFA: multiply, because one euro is worth many francs."
+    }
+   ],
+   "solution": [
+    "Multiply by the rate.",
+    "{e} × {r} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-47-from",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      650,
+      655,
+      656,
+      660
+     ]
+    },
+    "e": {
+     "pick": [
+      10,
+      20,
+      50,
+      100,
+      150,
+      200,
+      500
+     ]
+    },
+    "f": {
+     "expr": "e * r"
+    }
+   },
+   "prompt": "1 € = {r} FCFA. How many euros do you get for {f} FCFA?",
+   "answer": "e",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "f * r",
+     "explain": "FCFA to euros: divide, because one euro is worth many francs."
+    }
+   ],
+   "solution": [
+    "Divide by the rate.",
+    "{f} ÷ {r} = {answer} €."
+   ],
+   "unit": "€"
+  },
+  {
+   "id": "m2-47-dollar",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "d": {
+     "pick": [
+      550,
+      560,
+      580,
+      600,
+      620
+     ]
+    },
+    "n": {
+     "pick": [
+      50,
+      80,
+      100,
+      120,
+      150,
+      200,
+      250
+     ]
+    }
+   },
+   "prompt": "1 US dollar = {d} FCFA. A phone costs {n} dollars. What is its price in FCFA?",
+   "answer": "n * d",
+   "misconceptions": [
+    {
+     "id": "divided",
+     "wrong": "round(n / d, 2)",
+     "explain": "Dollars to FCFA: multiply by the rate."
+    }
+   ],
+   "solution": [
+    "{n} × {d} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-47-comm",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      650,
+      655,
+      656,
+      660
+     ]
+    },
+    "e": {
+     "pick": [
+      10,
+      20,
+      50,
+      100,
+      150,
+      200,
+      500
+     ]
+    },
+    "p": {
+     "pick": [
+      1,
+      2,
+      4,
+      5
+     ]
+    }
+   },
+   "prompt": "1 € = {r} FCFA. An exchange office takes a {p} % commission. How many FCFA do you receive for {e} €?",
+   "answer": "e * r * (100 - p) / 100",
+   "misconceptions": [
+    {
+     "id": "nocomm",
+     "wrong": "e * r",
+     "explain": "Take the commission off."
+    }
+   ],
+   "solution": [
+    "Without commission: {e} × {r} = {e * r} FCFA.",
+    "Commission: {p} % of {e * r} = {e * r * p / 100} FCFA.",
+    "You receive {e * r} − {e * r * p / 100} = {answer} FCFA."
+   ],
+   "where": [
+    "isInt(e * r * p / 100)"
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

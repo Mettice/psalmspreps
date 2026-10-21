@@ -1,0 +1,266 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 49,
+ "language": "en",
+ "prerequisites": [
+  48
+ ],
+ "skills": [
+  {
+   "id": "m2-49",
+   "name": "Properties of regular polygons and parallelograms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Parallelogram: opposite sides are parallel and equal; opposite angles are equal; two angles next to each other add up to 180°; the diagonals cut each other in half (they bisect each other).\nSpecial parallelograms: rectangle (four right angles, equal diagonals), rhombus (four equal sides, diagonals perpendicular), square (both).\nRegular polygon with n sides: each exterior angle = 360° ÷ n; each interior angle = 180° − exterior angle; it has n lines of symmetry.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 65
+  },
+  "problem": "In parallelogram ABCD, Â = {a}°. Find B̂, Ĉ and D̂.",
+  "steps": [
+   "Next to each other: B̂ = {180} − {a} = {180 - a}°.",
+   "Opposite angles are equal: Ĉ = {a}°, D̂ = {180 - a}°."
+  ],
+  "answer": "B̂ = {180 - a}°, Ĉ = {a}°, D̂ = {180 - a}°",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c49-1",
+    "status": "draft",
+    "idea": "In a parallelogram, two angles next to each other add up to {180}°.",
+    "vars": {
+     "a": 70
+    },
+    "example": [
+     "{a}° and {180 - a}°"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-49-adj"
+    }
+   },
+   {
+    "id": "c49-2",
+    "status": "draft",
+    "idea": "Opposite angles of a parallelogram are equal; opposite sides too.",
+    "vars": {},
+    "example": [
+     "Â = Ĉ, B̂ = D̂, AB = DC"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-49-opp"
+    }
+   },
+   {
+    "id": "c49-3",
+    "status": "draft",
+    "idea": "The diagonals of a parallelogram cut each other in half.",
+    "vars": {
+     "d": 14
+    },
+    "example": [
+     "AC = {d} cm, so AO = {d / 2} cm"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-49-diag-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "polygons"
+     ],
+     "vars": {
+      "h": {
+       "int": [
+        3,
+        15
+       ]
+      },
+      "d": {
+       "expr": "2 * h"
+      }
+     },
+     "prompt": "The diagonals of parallelogram ABCD meet at O. AC = {d} cm. Find AO.",
+     "answer": "d / 2",
+     "misconceptions": [
+      {
+       "id": "whole",
+       "wrong": "d",
+       "explain": "O is the midpoint: AO is half of AC."
+      }
+     ],
+     "solution": [
+      "The diagonals bisect each other: O is the midpoint of [AC].",
+      "AO = {d} ÷ {2} = {answer} cm."
+     ],
+     "unit": "cm"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-49-adj",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      40,
+      140
+     ]
+    }
+   },
+   "prompt": "In parallelogram ABCD, Â = {a}°. Find B̂.",
+   "answer": "180 - a",
+   "misconceptions": [
+    {
+     "id": "equal",
+     "wrong": "a",
+     "explain": "Â and B̂ are next to each other: they add up to {180}°. Only opposite angles are equal."
+    }
+   ],
+   "solution": [
+    "Â and B̂ are next to each other.",
+    "{180} − {a} = {answer}°."
+   ],
+   "where": [
+    "a != 90"
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-49-opp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      40,
+      140
+     ]
+    }
+   },
+   "prompt": "In parallelogram ABCD, B̂ = {a}°. Find D̂.",
+   "answer": "a",
+   "misconceptions": [
+    {
+     "id": "supp",
+     "wrong": "180 - a",
+     "explain": "B̂ and D̂ are opposite, not next to each other: they are equal."
+    }
+   ],
+   "solution": [
+    "B̂ and D̂ are opposite angles.",
+    "Opposite angles are equal: D̂ = {answer}°."
+   ],
+   "where": [
+    "a != 90"
+   ],
+   "unit": "°"
+  },
+  {
+   "id": "m2-49-diag",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "polygons"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "d": {
+     "expr": "2 * h"
+    }
+   },
+   "prompt": "The diagonals of parallelogram ABCD meet at O. AC = {d} cm. Find AO.",
+   "answer": "d / 2",
+   "misconceptions": [
+    {
+     "id": "whole",
+     "wrong": "d",
+     "explain": "O is the midpoint: AO is half of AC."
+    }
+   ],
+   "solution": [
+    "The diagonals bisect each other: O is the midpoint of [AC].",
+    "AO = {d} ÷ {2} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-49-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "polygons"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The opposite sides of a parallelogram are equal.",
+      "truth": "true"
+     },
+     {
+      "text": "A rectangle has equal diagonals.",
+      "truth": "true"
+     },
+     {
+      "text": "The diagonals of a rhombus are perpendicular.",
+      "truth": "true"
+     },
+     {
+      "text": "A regular hexagon has six lines of symmetry.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "All the angles of a parallelogram are equal.",
+      "truth": "false",
+      "explain": "Only opposite angles are equal; angles next to each other add up to 180°."
+     },
+     {
+      "text": "The diagonals of every parallelogram are equal.",
+      "truth": "false",
+      "explain": "Only a rectangle (or a square) has equal diagonals."
+     },
+     {
+      "text": "A regular pentagon has ten lines of symmetry.",
+      "truth": "false",
+      "explain": "A regular polygon with n sides has n lines of symmetry: five."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

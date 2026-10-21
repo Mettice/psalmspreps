@@ -1,0 +1,343 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 46,
+ "language": "en",
+ "prerequisites": [
+  44
+ ],
+ "skills": [
+  {
+   "id": "m2-46",
+   "name": "The amount (principal + interest)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The amount is what you have (or owe) at the end: amount = principal + interest.\nWith simple interest: A = P + P × R × T ÷ 100.\nTo find the principal when you know the interest: P = 100 × I ÷ (R × T).\nExample: 60 000 FCFA at 5 % for 2 years: I = 6 000, A = 66 000 FCFA.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "P": 60000,
+   "R": 5,
+   "T": 2
+  },
+  "problem": "Find the amount after {T} years on {P} FCFA at {R} % simple interest.",
+  "steps": [
+   "I = {P} × {R} × {T} ÷ {100} = {simpleInterest(P, R, T)}.",
+   "A = {P} + {simpleInterest(P, R, T)} = {P + simpleInterest(P, R, T)} FCFA."
+  ],
+  "answer": "{P + simpleInterest(P, R, T)} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c46-1",
+    "status": "draft",
+    "idea": "Amount = principal + interest.",
+    "vars": {
+     "P": 40000,
+     "I": 4000
+    },
+    "example": [
+     "{P} + {I} = {P + I}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-46-a"
+    }
+   },
+   {
+    "id": "c46-2",
+    "status": "draft",
+    "idea": "Find the interest first, then add.",
+    "vars": {
+     "P": 50000,
+     "R": 4,
+     "T": 3
+    },
+    "example": [
+     "I = {simpleInterest(P, R, T)}; A = {P + simpleInterest(P, R, T)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-46-calc"
+    }
+   },
+   {
+    "id": "c46-3",
+    "status": "draft",
+    "idea": "P = {100} × I ÷ (R × T).",
+    "vars": {
+     "I": 6000,
+     "R": 5,
+     "T": 2
+    },
+    "example": [
+     "{100} × {I} ÷ ({R} × {T}) = {100 * I / (R * T)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-46-p-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        20000,
+        50000,
+        80000,
+        100000,
+        150000,
+        200000,
+        500000
+       ]
+      },
+      "R": {
+       "int": [
+        2,
+        12
+       ]
+      },
+      "T": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "I": {
+       "expr": "simpleInterest(P, R, T)"
+      }
+     },
+     "prompt": "What principal earns {I} FCFA simple interest in {T} years at {R} % per year?",
+     "answer": "P",
+     "misconceptions": [
+      {
+       "id": "times",
+       "wrong": "I * R * T / 100",
+       "explain": "Divide, do not multiply: P = {100} × I ÷ (R × T)."
+      }
+     ],
+     "solution": [
+      "P = {100} × I ÷ (R × T).",
+      "{100} × {I} ÷ ({R} × {T}) = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-46-a",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      20000,
+      50000,
+      80000,
+      100000,
+      150000,
+      200000,
+      500000
+     ]
+    },
+    "R": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "T": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "I": {
+     "expr": "simpleInterest(P, R, T)"
+    }
+   },
+   "prompt": "A loan of {P} FCFA has {I} FCFA interest. How much is paid back in all?",
+   "answer": "P + I",
+   "misconceptions": [
+    {
+     "id": "interest",
+     "wrong": "I",
+     "explain": "Add the principal to the interest."
+    }
+   ],
+   "solution": [
+    "Amount = principal + interest.",
+    "{P} + {I} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-46-calc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      20000,
+      50000,
+      80000,
+      100000,
+      150000,
+      200000,
+      500000
+     ]
+    },
+    "R": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "T": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "Find the amount after {T} years on {P} FCFA at {R} % simple interest.",
+   "answer": "P + simpleInterest(P, R, T)",
+   "misconceptions": [
+    {
+     "id": "interest",
+     "wrong": "simpleInterest(P, R, T)",
+     "explain": "That is the interest. The amount adds the principal."
+    }
+   ],
+   "solution": [
+    "I = {P} × {R} × {T} ÷ {100} = {simpleInterest(P, R, T)}.",
+    "A = {P} + {simpleInterest(P, R, T)} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-46-p",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      20000,
+      50000,
+      80000,
+      100000,
+      150000,
+      200000,
+      500000
+     ]
+    },
+    "R": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "T": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "I": {
+     "expr": "simpleInterest(P, R, T)"
+    }
+   },
+   "prompt": "What principal earns {I} FCFA simple interest in {T} years at {R} % per year?",
+   "answer": "P",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "I * R * T / 100",
+     "explain": "Divide, do not multiply: P = {100} × I ÷ (R × T)."
+    }
+   ],
+   "solution": [
+    "P = {100} × I ÷ (R × T).",
+    "{100} × {I} ÷ ({R} × {T}) = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-46-back",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      20000,
+      50000,
+      80000,
+      100000,
+      150000,
+      200000,
+      500000
+     ]
+    },
+    "R": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "T": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "A": {
+     "expr": "P + simpleInterest(P, R, T)"
+    }
+   },
+   "prompt": "After {T} years at {R} % simple interest, a saving has grown to {A} FCFA. How much was saved at first?",
+   "answer": "P",
+   "misconceptions": [
+    {
+     "id": "minus",
+     "wrong": "A - simpleInterest(A, R, T)",
+     "explain": "The interest was on the first saving, not on {A}: divide by {100 + R * T} %."
+    }
+   ],
+   "solution": [
+    "A = P + P × {R} × {T} ÷ {100} = P × {100 + R * T} ÷ {100}.",
+    "P = {A} × {100} ÷ {100 + R * T} = {answer} FCFA."
+   ],
+   "where": [
+    "isInt(P * (100 + R * T) / 100)"
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

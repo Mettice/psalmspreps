@@ -1,0 +1,316 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 35,
+ "language": "en",
+ "prerequisites": [
+  34
+ ],
+ "skills": [
+  {
+   "id": "m2-35",
+   "name": "Significant figures"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Significant figures (s.f.) are the digits that carry meaning, counted from the first non-zero digit.\n• Zeros at the start of a decimal are not significant: 0.0305 has 3 s.f. (3, 0, 5).\n• Zeros between non-zero digits are significant: 506 has 3 s.f.\n• Zeros at the end of a decimal are significant: 4.50 has 3 s.f.\nTo round to k s.f., keep k digits from the first non-zero digit and round the last one; fill with zeros to keep the place value: 45 678 → 46 000 (2 s.f.); 0.004563 → 0.00456 (3 s.f.).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "x": 0.004563
+  },
+  "problem": "Round {x} to {3} significant figures.",
+  "steps": [
+   "The first non-zero digit is {4}: count {4}, {5}, {6}.",
+   "The next digit is {3}, less than {5}: keep {6}.",
+   "{x} → {sigFig(x, 3)}."
+  ],
+  "answer": "{sigFig(x, 3)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c35-1",
+    "status": "draft",
+    "idea": "Count from the first non-zero digit; zeros in front do not count.",
+    "vars": {
+     "s": "0.0305"
+    },
+    "example": [
+     "{s} has {countSig(s)} significant figures."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-35-count"
+    }
+   },
+   {
+    "id": "c35-2",
+    "status": "draft",
+    "idea": "Round the last kept digit; then stop.",
+    "vars": {
+     "x": 3.87
+    },
+    "example": [
+     "{x} to {2} s.f. is {sigFig(x, 2)}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-35-round"
+    }
+   },
+   {
+    "id": "c35-3",
+    "status": "draft",
+    "idea": "In big numbers, fill with zeros to keep the place value.",
+    "vars": {
+     "x": 45678
+    },
+    "example": [
+     "{x} to {2} s.f. is {sigFig(x, 2)}, not {sigFig(x, 2) / 1000}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-35-big-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "significant-figures"
+     ],
+     "vars": {
+      "x": {
+       "int": [
+        10001,
+        989999
+       ]
+      },
+      "k": {
+       "int": [
+        1,
+        3
+       ]
+      }
+     },
+     "prompt": "Round {x} to {k} significant figures.",
+     "answer": "sigFig(x, k)",
+     "misconceptions": [
+      {
+       "id": "nozeros",
+       "wrong": "sigFig(x, k) / 10 ^ (numDigits(x) - k)",
+       "explain": "Fill with zeros: the answer must be about as big as {x}."
+      }
+     ],
+     "solution": [
+      "Keep {k} digits and fill with zeros to keep the place value.",
+      "{x} → {answer}."
+     ],
+     "where": [
+      "sigFig(x, k) != x"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-35-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "significant-figures"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      "0.0305",
+      "4.50",
+      "120.7",
+      "0.006",
+      "3.0",
+      "20.08",
+      "0.4070",
+      "7.002",
+      "506",
+      "0.0019",
+      "15.30",
+      "9.8"
+     ]
+    }
+   },
+   "prompt": "How many significant figures has {s}?",
+   "answer": "countSig(s)",
+   "misconceptions": [
+    {
+     "id": "all",
+     "wrong": "len(s) - (contains(s, '.') ? 1 : 0)",
+     "explain": "Zeros at the start of a decimal are not significant."
+    }
+   ],
+   "solution": [
+    "Start counting at the first non-zero digit.",
+    "{s} has {answer} significant figures."
+   ]
+  },
+  {
+   "id": "m2-35-round",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "significant-figures"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      1001,
+      99999
+     ]
+    },
+    "e": {
+     "pick": [
+      10,
+      100,
+      1000,
+      10000
+     ]
+    },
+    "x": {
+     "expr": "n / e"
+    },
+    "k": {
+     "int": [
+      2,
+      3
+     ]
+    }
+   },
+   "prompt": "Round {x} to {k} significant figures.",
+   "answer": "sigFig(x, k)",
+   "misconceptions": [
+    {
+     "id": "dp",
+     "wrong": "roundTo(x, k == 2 ? 0.01 : 0.001)",
+     "explain": "Significant figures are not decimal places: count from the first non-zero digit.",
+     "when": "roundTo(x, k == 2 ? 0.01 : 0.001) != x"
+    }
+   ],
+   "solution": [
+    "Keep {k} digits from the first non-zero digit and round the last.",
+    "{x} → {answer}."
+   ],
+   "where": [
+    "sigFig(x, k) != x"
+   ]
+  },
+  {
+   "id": "m2-35-big",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "significant-figures"
+   ],
+   "vars": {
+    "x": {
+     "int": [
+      10001,
+      989999
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "prompt": "Round {x} to {k} significant figures.",
+   "answer": "sigFig(x, k)",
+   "misconceptions": [
+    {
+     "id": "nozeros",
+     "wrong": "sigFig(x, k) / 10 ^ (numDigits(x) - k)",
+     "explain": "Fill with zeros: the answer must be about as big as {x}."
+    }
+   ],
+   "solution": [
+    "Keep {k} digits and fill with zeros to keep the place value.",
+    "{x} → {answer}."
+   ],
+   "where": [
+    "sigFig(x, k) != x"
+   ]
+  },
+  {
+   "id": "m2-35-small",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "significant-figures"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      1001,
+      9999
+     ]
+    },
+    "x": {
+     "expr": "n / 1000000"
+    },
+    "k": {
+     "int": [
+      2,
+      3
+     ]
+    }
+   },
+   "prompt": "Which is {x} rounded to {k} significant figures?",
+   "correct": "{sigFigStr(x, k)}",
+   "distractors": [
+    {
+     "text": "{roundTo(x, 0.001)}",
+     "misconception": "dp"
+    },
+    {
+     "text": "{sigFigStr(x, k - 1)}",
+     "misconception": "count"
+    },
+    {
+     "text": "{sigFigStr(x, k + 1)}",
+     "misconception": "count"
+    },
+    {
+     "text": "{floor(x * 10 ^ (k + 2)) / 10 ^ (k + 2)}",
+     "misconception": "cut"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "dp",
+     "explain": "That is decimal places, not significant figures: start counting at the first non-zero digit."
+    },
+    {
+     "id": "count",
+     "explain": "Count exactly {k} digits from the first non-zero digit."
+    },
+    {
+     "id": "cut",
+     "explain": "Round the last digit; do not just cut the number."
+    }
+   ],
+   "solution": [
+    "The first non-zero digit is after the zeros: count {k} digits from it.",
+    "{x} → {answer}."
+   ],
+   "min_distractors": 3
+  }
+ ]
+}

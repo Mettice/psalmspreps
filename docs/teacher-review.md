@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-188 P1 items: 186 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+192 P1 items: 190 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -216,6 +216,10 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-Z06 | Form 2 Français intensif: plurals | open |
 | TR-Z07 | Form 2 Français intensif: adverbs in -ment | open |
 | TR-Z08 | Form 2 Français intensif: literature and tourism facts | open |
+| TR-N20 | Form 2 Maths: interval notation | open |
+| TR-N21 | Form 2 Maths: symmetry of shapes | open |
+| TR-N22 | Form 2 Maths: money | open |
+| TR-N23 | Form 2 Maths: angles and triangles | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -808,3 +812,16 @@ covers the imparfait, passé simple and participe présent used here.
 - [ ] **TR-Z07 [P1] Adverbs in -ment:** the table (lentement, doucement, heureusement, poliment, vraiment, prudemment, bruyamment, gentiment …) and the rules given. *Location:* `ADV` in `french2.js`; lesson 35.
 - [ ] **TR-Z08 [P1] Literature facts:** Ferdinand Oyono, *Une vie de boy* (roman, Toundi’s diary); Mongo Beti (as Eza Boto), *Ville cruelle*; Guillaume Oyônô Mbia, *Trois prétendants… un mari* (théâtre); Francis Bebey, *Le Fils d’Agatha Moudio*; and the tourist sites (chutes de la Lobé near Kribi, Limbé, mont Cameroun near Buea, parc de Waza, Foumban). *Location:* lessons 34, 43, 44.
 
+## N (Term 2). Maths Form 2, Batch M2-2 (Term 2, rows 25–54), added 2026-10-21 (form-2 branch)
+
+30 lessons: angles, triangles (special lines, particular triangles, Pythagoras with whole-number triples, area), fractions
+(answers typed as 3/4 or 1 3/4; the right value not simplified gets a “simplify” hint), estimation, significant figures,
+decimals, real numbers, intervals, proportion, profit and loss, discount, simple and compound interest, amount, currency
+exchange, polygons, parallelograms and trapeziums, symmetry, the circumscribed circle and two circles. Most answers are
+computed by `src/engine/lib/maths2.js`. Everything is in `content/form-2/maths/REVIEW.md`. Reviewer: a Maths teacher.
+
+### P1
+- [ ] **TR-N20 [P1] Interval notation:** written [a, b], (a, b), [a, b), (−∞, b] … Some Cameroonian books write ]a, b[ for an open interval. Please say which the school uses; the app can switch. *Location:* `interval()` in `maths2.js`; lesson 39.
+- [ ] **TR-N21 [P1] Lines of symmetry and point symmetry of common shapes** (authored table: square 4, rectangle 2, rhombus 2, parallelogram 0, isosceles trapezium 1, kite 1, equilateral triangle 3, isosceles triangle 1, scalene 0; point symmetry for the parallelograms and the circle). *Location:* `SYM_LINES`, `POINT_SYM` in `maths2.js`; lesson 51.
+- [ ] **TR-N22 [P1] Money:** percentage profit or loss on the cost price; discount on the marked price; simple interest I = PRT/100; compound interest year by year (two years at most, as the syllabus says); the euro rate is given in each question (the CFA franc is pegged at about 656 FCFA to the euro). *Location:* lessons 42–47.
+- [ ] **TR-N23 [P1] Angles and triangles:** names of angle pairs (corresponding, alternate, co-interior), the exterior-angle rule, the meeting points of special lines (orthocentre, centroid, circumcentre, incentre), Pythagoras with whole-number triples only. *Location:* lessons 25–32, 53.

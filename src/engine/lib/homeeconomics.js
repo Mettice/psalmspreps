@@ -20,7 +20,10 @@ export function arrangement(k, n) {
 export const letterOf = (k, n, i) => arrangement(k, n)[i];
 
 // ---------------------------------------------------------------- work triangle (TR-H convention)
-export const SIDE_MIN = 1.2, SIDE_MAX = 2.7, TOTAL_MIN = 4, TOTAL_MAX = 7.9;
+export const SIDE_MIN = 1.2;
+export const SIDE_MAX = 2.7;
+export const TOTAL_MIN = 4;
+export const TOTAL_MAX = 7.9;
 export const sideMin = () => SIDE_MIN;
 export const sideMax = () => SIDE_MAX;
 export const totalMin = () => TOTAL_MIN;

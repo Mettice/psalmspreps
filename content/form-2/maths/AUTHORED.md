@@ -1,4 +1,4 @@
-# Maths Form 2, Batch M2-1: authored answers for review
+# Maths Form 2, Batches M2-1, M2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -30,6 +30,23 @@ Regenerate with `npm run review:f2-maths`. Item IDs (TR-…) match `docs/teacher
 | 11 | `m2-13-words` | 13 | matching, 2 | coordinates |
 | 12 | `m2-13-c1` (card c13-1) | 13 | multiple choice, 1 | coordinates |
 | 13 | `m2-17-c3` (card c17-3) | 17 | multiple choice, 1 | like-terms |
+| 14 | `m2-29-def` | 29 | matching, 1 | triangles |
+| 15 | `m2-29-point` | 29 | matching, 2 | triangles |
+| 16 | `m2-29-spot` | 29 | spot the error, 3 | triangles |
+| 17 | `m2-29-point-card` (card c29-3) | 29 | matching, 1 | triangles |
+| 18 | `m2-30-spot` | 30 | spot the error, 3 | triangles |
+| 19 | `m2-37-kind` | 37 | multiple choice, 1 | real-numbers |
+| 20 | `m2-38-set` | 38 | multiple choice, 1 | real-numbers |
+| 21 | `m2-38-order` | 38 | ordering, 1 | real-numbers |
+| 22 | `m2-38-spot` | 38 | spot the error, 3 | real-numbers |
+| 23 | `m2-41-which` | 41 | multiple choice, 3 | proportion |
+| 24 | `m2-41-which-card` (card c41-3) | 41 | multiple choice, 1 | proportion |
+| 25 | `m2-49-spot` | 49 | spot the error, 3 | polygons |
+| 26 | `m2-52-what` | 52 | multiple choice, 2 | symmetry |
+| 27 | `m2-52-spot` | 52 | spot the error, 3 | symmetry |
+| 28 | `m2-52-what-card` (card c52-3) | 52 | multiple choice, 1 | symmetry |
+| 29 | `m2-53-centre` | 53 | multiple choice, 1 | circles |
+| 30 | `m2-53-spot` | 53 | spot the error, 3 | circles |
 
 ### `m2-4-spot` · Lesson 4 · spot the error, level 3
 
@@ -867,4 +884,1087 @@ Full working after a second miss:
 > “4x and 4y” is false: The letters are different.  
 
 Sources: like-terms (Definition of like terms (same letters with the same powers))
+
+### `m2-29-def` · Lesson 29 · matching, level 1
+
+Prompt: Match each line of a triangle to what it is.
+
+Pairs (4 shown each time):
+
+- a height → **from a vertex, perpendicular to the opposite side**
+- a median → **from a vertex to the midpoint of the opposite side**
+- a perpendicular bisector → **perpendicular to a side at its midpoint**
+- an angle bisector → **cuts an angle into two equal angles**
+
+
+Three generated variants:
+
+> Match each line of a triangle to what it is.
+
+Right-hand side (shuffled): perpendicular to a side at its midpoint · from a vertex to the midpoint of the opposite side · from a vertex, perpendicular to the opposite side · cuts an angle into two equal angles
+- a perpendicular bisector → **perpendicular to a side at its midpoint**
+- a median → **from a vertex to the midpoint of the opposite side**
+- an angle bisector → **cuts an angle into two equal angles**
+- a height → **from a vertex, perpendicular to the opposite side**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a perpendicular bisector → perpendicular to a side at its midpoint  
+> a median → from a vertex to the midpoint of the opposite side  
+> an angle bisector → cuts an angle into two equal angles  
+> a height → from a vertex, perpendicular to the opposite side  
+
+> Match each line of a triangle to what it is.
+
+Right-hand side (shuffled): from a vertex, perpendicular to the opposite side · cuts an angle into two equal angles · perpendicular to a side at its midpoint · from a vertex to the midpoint of the opposite side
+- a height → **from a vertex, perpendicular to the opposite side**
+- a median → **from a vertex to the midpoint of the opposite side**
+- an angle bisector → **cuts an angle into two equal angles**
+- a perpendicular bisector → **perpendicular to a side at its midpoint**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a height → from a vertex, perpendicular to the opposite side  
+> a median → from a vertex to the midpoint of the opposite side  
+> an angle bisector → cuts an angle into two equal angles  
+> a perpendicular bisector → perpendicular to a side at its midpoint  
+
+> Match each line of a triangle to what it is.
+
+Right-hand side (shuffled): perpendicular to a side at its midpoint · from a vertex, perpendicular to the opposite side · cuts an angle into two equal angles · from a vertex to the midpoint of the opposite side
+- a perpendicular bisector → **perpendicular to a side at its midpoint**
+- a median → **from a vertex to the midpoint of the opposite side**
+- a height → **from a vertex, perpendicular to the opposite side**
+- an angle bisector → **cuts an angle into two equal angles**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a perpendicular bisector → perpendicular to a side at its midpoint  
+> a median → from a vertex to the midpoint of the opposite side  
+> a height → from a vertex, perpendicular to the opposite side  
+> an angle bisector → cuts an angle into two equal angles  
+
+Sources: triangles (Angle sum of a triangle, exterior angle, special lines and their meeting points, isosceles/equilateral/right-angled triangles, Pythagoras’ theorem and its converse (integral triples), area ½bh)
+
+### `m2-29-point` · Lesson 29 · matching, level 2
+
+Prompt: Match each set of three lines to the point where they meet.
+
+Pairs (4 shown each time):
+
+- the three heights → **the orthocentre**
+- the three medians → **the centroid**
+- the three perpendicular bisectors → **the circumcentre**
+- the three angle bisectors → **the incentre**
+
+
+Three generated variants:
+
+> Match each set of three lines to the point where they meet.
+
+Right-hand side (shuffled): the centroid · the orthocentre · the circumcentre · the incentre
+- the three perpendicular bisectors → **the circumcentre**
+- the three heights → **the orthocentre**
+- the three angle bisectors → **the incentre**
+- the three medians → **the centroid**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the three perpendicular bisectors → the circumcentre  
+> the three heights → the orthocentre  
+> the three angle bisectors → the incentre  
+> the three medians → the centroid  
+
+> Match each set of three lines to the point where they meet.
+
+Right-hand side (shuffled): the incentre · the centroid · the circumcentre · the orthocentre
+- the three medians → **the centroid**
+- the three heights → **the orthocentre**
+- the three perpendicular bisectors → **the circumcentre**
+- the three angle bisectors → **the incentre**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the three medians → the centroid  
+> the three heights → the orthocentre  
+> the three perpendicular bisectors → the circumcentre  
+> the three angle bisectors → the incentre  
+
+> Match each set of three lines to the point where they meet.
+
+Right-hand side (shuffled): the incentre · the orthocentre · the circumcentre · the centroid
+- the three perpendicular bisectors → **the circumcentre**
+- the three medians → **the centroid**
+- the three angle bisectors → **the incentre**
+- the three heights → **the orthocentre**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the three perpendicular bisectors → the circumcentre  
+> the three medians → the centroid  
+> the three angle bisectors → the incentre  
+> the three heights → the orthocentre  
+
+Sources: triangles (Angle sum of a triangle, exterior angle, special lines and their meeting points, isosceles/equilateral/right-angled triangles, Pythagoras’ theorem and its converse (integral triples), area ½bh)
+
+### `m2-29-spot` · Lesson 29 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A median joins a vertex to the midpoint of the opposite side.
+- ✅ The circumcentre is where the perpendicular bisectors meet.
+- ✅ A height is perpendicular to a side.
+- ✅ An angle bisector cuts an angle into two equal angles.
+- ❌ A median is always perpendicular to the opposite side.  
+  _↳ That is a height; a median goes to the midpoint._
+- ❌ The centroid is where the heights meet.  
+  _↳ The heights meet at the orthocentre; the medians meet at the centroid._
+- ❌ The incentre is the centre of the circle through the three vertices.  
+  _↳ That is the circumcentre; the incentre is the centre of the circle inside the triangle._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ The circumcentre is where the perpendicular bisectors meet.
+- ◻️ A median joins a vertex to the midpoint of the opposite side.
+- ✅ A median is always perpendicular to the opposite side.  
+  _↳ explanation: That is a height; a median goes to the midpoint._
+- ◻️ An angle bisector cuts an angle into two equal angles.
+
+Full working after a second miss:
+
+> The wrong statement is “A median is always perpendicular to the opposite side.”.  
+> That is a height; a median goes to the midpoint.  
+
+> Which statement is wrong?
+
+- ✅ A median is always perpendicular to the opposite side.  
+  _↳ explanation: That is a height; a median goes to the midpoint._
+- ◻️ The circumcentre is where the perpendicular bisectors meet.
+- ◻️ A height is perpendicular to a side.
+- ◻️ An angle bisector cuts an angle into two equal angles.
+
+Full working after a second miss:
+
+> The wrong statement is “A median is always perpendicular to the opposite side.”.  
+> That is a height; a median goes to the midpoint.  
+
+> Which statement is wrong?
+
+- ◻️ The circumcentre is where the perpendicular bisectors meet.
+- ✅ A median is always perpendicular to the opposite side.  
+  _↳ explanation: That is a height; a median goes to the midpoint._
+- ◻️ A median joins a vertex to the midpoint of the opposite side.
+- ◻️ A height is perpendicular to a side.
+
+Full working after a second miss:
+
+> The wrong statement is “A median is always perpendicular to the opposite side.”.  
+> That is a height; a median goes to the midpoint.  
+
+Sources: triangles (Angle sum of a triangle, exterior angle, special lines and their meeting points, isosceles/equilateral/right-angled triangles, Pythagoras’ theorem and its converse (integral triples), area ½bh)
+
+### `m2-29-point-card` · Lesson 29 · matching, level 1
+
+Prompt: Match each set of three lines to the point where they meet.
+
+Pairs (4 shown each time):
+
+- the three heights → **the orthocentre**
+- the three medians → **the centroid**
+- the three perpendicular bisectors → **the circumcentre**
+- the three angle bisectors → **the incentre**
+
+
+Three generated variants:
+
+> Match each set of three lines to the point where they meet.
+
+Right-hand side (shuffled): the centroid · the incentre · the orthocentre · the circumcentre
+- the three heights → **the orthocentre**
+- the three perpendicular bisectors → **the circumcentre**
+- the three angle bisectors → **the incentre**
+- the three medians → **the centroid**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the three heights → the orthocentre  
+> the three perpendicular bisectors → the circumcentre  
+> the three angle bisectors → the incentre  
+> the three medians → the centroid  
+
+> Match each set of three lines to the point where they meet.
+
+Right-hand side (shuffled): the incentre · the circumcentre · the centroid · the orthocentre
+- the three angle bisectors → **the incentre**
+- the three perpendicular bisectors → **the circumcentre**
+- the three heights → **the orthocentre**
+- the three medians → **the centroid**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the three angle bisectors → the incentre  
+> the three perpendicular bisectors → the circumcentre  
+> the three heights → the orthocentre  
+> the three medians → the centroid  
+
+> Match each set of three lines to the point where they meet.
+
+Right-hand side (shuffled): the centroid · the incentre · the orthocentre · the circumcentre
+- the three heights → **the orthocentre**
+- the three perpendicular bisectors → **the circumcentre**
+- the three medians → **the centroid**
+- the three angle bisectors → **the incentre**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the three heights → the orthocentre  
+> the three perpendicular bisectors → the circumcentre  
+> the three medians → the centroid  
+> the three angle bisectors → the incentre  
+
+Sources: triangles (Angle sum of a triangle, exterior angle, special lines and their meeting points, isosceles/equilateral/right-angled triangles, Pythagoras’ theorem and its converse (integral triples), area ½bh)
+
+### `m2-30-spot` · Lesson 30 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ An equilateral triangle has three angles of 60°.
+- ✅ The hypotenuse is the longest side of a right-angled triangle.
+- ✅ An isosceles triangle has two equal angles.
+- ✅ A triangle can be both right-angled and isosceles.
+- ❌ A scalene triangle has two equal sides.  
+  _↳ A scalene triangle has no equal sides._
+- ❌ An equilateral triangle can have a right angle.  
+  _↳ Its angles are all 60°._
+- ❌ The hypotenuse is next to the right angle.  
+  _↳ The hypotenuse is opposite the right angle._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ An equilateral triangle can have a right angle.  
+  _↳ explanation: Its angles are all 60°._
+- ◻️ An equilateral triangle has three angles of 60°.
+- ◻️ A triangle can be both right-angled and isosceles.
+- ◻️ The hypotenuse is the longest side of a right-angled triangle.
+
+Full working after a second miss:
+
+> The wrong statement is “An equilateral triangle can have a right angle.”.  
+> Its angles are all 60°.  
+
+> Which statement is wrong?
+
+- ◻️ An isosceles triangle has two equal angles.
+- ✅ The hypotenuse is next to the right angle.  
+  _↳ explanation: The hypotenuse is opposite the right angle._
+- ◻️ An equilateral triangle has three angles of 60°.
+- ◻️ The hypotenuse is the longest side of a right-angled triangle.
+
+Full working after a second miss:
+
+> The wrong statement is “The hypotenuse is next to the right angle.”.  
+> The hypotenuse is opposite the right angle.  
+
+> Which statement is wrong?
+
+- ◻️ The hypotenuse is the longest side of a right-angled triangle.
+- ◻️ An equilateral triangle has three angles of 60°.
+- ◻️ An isosceles triangle has two equal angles.
+- ✅ The hypotenuse is next to the right angle.  
+  _↳ explanation: The hypotenuse is opposite the right angle._
+
+Full working after a second miss:
+
+> The wrong statement is “The hypotenuse is next to the right angle.”.  
+> The hypotenuse is opposite the right angle.  
+
+Sources: triangles (Angle sum of a triangle, exterior angle, special lines and their meeting points, isosceles/equilateral/right-angled triangles, Pythagoras’ theorem and its converse (integral triples), area ½bh)
+
+### `m2-37-kind` · Lesson 37 · multiple choice, level 1
+
+Prompt: Is {X.x} rational or irrational?
+
+Table `X` (one row is picked each time):
+
+| r | w | e | y | x |
+|---|---|---|---|---|
+| rational | irrational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | √49 = 7, a whole number. | √49 |
+| irrational | rational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | 2 is not a perfect square: √2 = 1.414… never ends or repeats. | √2 |
+| rational | irrational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | It repeats: it is 1/3. | 0.333… |
+| irrational | rational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | π = 3.14159… never ends or repeats. | π |
+| rational | irrational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | It is a fraction of two whole numbers. | 3/7 |
+| irrational | rational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | 50 is not a perfect square. | √50 |
+| rational | irrational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | 1.25 = 5/4. | 1.25 |
+| rational | irrational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | √(16/25) = 4/5. | √(16/25) |
+| rational | irrational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | −6 = −6/1. | −6 |
+| irrational | rational · a natural number only · neither | Look at its decimal: does it end or repeat? · Ask whether it is a fraction of whole numbers. · Every real number is either rational or irrational. | 10 is not a perfect square. | √10 |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is √50 rational or irrational?
+
+- ✅ irrational
+- ◻️ rational  
+  _↳ feedback if chosen: Look at its decimal: does it end or repeat?_
+- ◻️ neither  
+  _↳ feedback if chosen: Every real number is either rational or irrational._
+- ◻️ a natural number only  
+  _↳ feedback if chosen: Ask whether it is a fraction of whole numbers._
+
+Full working after a second miss:
+
+> 50 is not a perfect square.  
+> So the answer is “irrational”.  
+
+> Is 3/7 rational or irrational?
+
+- ◻️ irrational  
+  _↳ feedback if chosen: Look at its decimal: does it end or repeat?_
+- ✅ rational
+- ◻️ a natural number only  
+  _↳ feedback if chosen: Ask whether it is a fraction of whole numbers._
+- ◻️ neither  
+  _↳ feedback if chosen: Every real number is either rational or irrational._
+
+Full working after a second miss:
+
+> It is a fraction of two whole numbers.  
+> So the answer is “rational”.  
+
+> Is √10 rational or irrational?
+
+- ◻️ rational  
+  _↳ feedback if chosen: Look at its decimal: does it end or repeat?_
+- ◻️ a natural number only  
+  _↳ feedback if chosen: Ask whether it is a fraction of whole numbers._
+- ✅ irrational
+- ◻️ neither  
+  _↳ feedback if chosen: Every real number is either rational or irrational._
+
+Full working after a second miss:
+
+> 10 is not a perfect square.  
+> So the answer is “irrational”.  
+
+Sources: real-numbers (Square roots, rational and irrational numbers, ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ, simplifying √(a²b))
+
+### `m2-38-set` · Lesson 38 · multiple choice, level 1
+
+Prompt: What is the smallest of the sets ℕ, ℤ, ℚ, ℝ that contains {X.x}?
+
+Table `X` (one row is picked each time):
+
+| r | w | e | y | x |
+|---|---|---|---|---|
+| ℕ | ℤ · ℚ · ℝ | Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? | 7 is a natural number. | 7 |
+| ℤ | ℕ · ℚ · ℝ | Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? | −4 is an integer but not natural. | −4 |
+| ℚ | ℕ · ℤ · ℝ | Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? | 2/3 is a fraction, not an integer. | 2/3 |
+| ℝ | ℕ · ℤ · ℚ | Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? | √5 is irrational: it is only in ℝ. | √5 |
+| ℚ | ℕ · ℤ · ℝ | Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? | 0.75 = 3/4. | 0.75 |
+| ℝ | ℕ · ℤ · ℚ | Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? | π is irrational. | π |
+| ℕ | ℤ · ℚ · ℝ | Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? | √36 = 6. | √36 |
+| ℚ | ℕ · ℤ · ℝ | Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? · Check: is it a whole number, an integer, a fraction? | −1/2 is a fraction. | −1/2 |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the smallest of the sets ℕ, ℤ, ℚ, ℝ that contains 7?
+
+- ✅ ℕ
+- ◻️ ℚ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+- ◻️ ℤ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+- ◻️ ℝ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+
+Full working after a second miss:
+
+> 7 is a natural number.  
+> So the answer is “ℕ”.  
+
+> What is the smallest of the sets ℕ, ℤ, ℚ, ℝ that contains −1/2?
+
+- ✅ ℚ
+- ◻️ ℝ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+- ◻️ ℤ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+- ◻️ ℕ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+
+Full working after a second miss:
+
+> −1/2 is a fraction.  
+> So the answer is “ℚ”.  
+
+> What is the smallest of the sets ℕ, ℤ, ℚ, ℝ that contains −1/2?
+
+- ◻️ ℕ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+- ◻️ ℤ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+- ◻️ ℝ  
+  _↳ feedback if chosen: Check: is it a whole number, an integer, a fraction?_
+- ✅ ℚ
+
+Full working after a second miss:
+
+> −1/2 is a fraction.  
+> So the answer is “ℚ”.  
+
+Sources: real-numbers (Square roots, rational and irrational numbers, ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ, simplifying √(a²b))
+
+### `m2-38-order` · Lesson 38 · ordering, level 1
+
+Prompt: Put these numbers in order, from the smallest.
+
+Table `X` (one row is picked each time):
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| −2 | −0.5 | √2 | 1.5 | π |
+| −3/2 | 0 | 0.9 | √3 | 2 |
+| −√4 | −1.5 | 1/3 | √2 | 1.5 |
+| −π | −3 | −√5 | −1 | 0.5 |
+
+Items in the right order:
+
+1. {X[0]}
+2. {X[1]}
+3. {X[2]}
+4. {X[3]}
+5. {X[4]}
+
+
+Three generated variants:
+
+> Put these numbers in order, from the smallest.
+
+Shown as: √3 · 0.9 · 2 · 0 · −3/2
+Correct order: −3/2 → 0 → 0.9 → √3 → 2
+
+Full working after a second miss:
+
+> The correct order is: −3/2 → 0 → 0.9 → √3 → 2.  
+
+> Put these numbers in order, from the smallest.
+
+Shown as: √3 · −3/2 · 0 · 2 · 0.9
+Correct order: −3/2 → 0 → 0.9 → √3 → 2
+
+Full working after a second miss:
+
+> The correct order is: −3/2 → 0 → 0.9 → √3 → 2.  
+
+> Put these numbers in order, from the smallest.
+
+Shown as: √2 · −0.5 · −2 · 1.5 · π
+Correct order: −2 → −0.5 → √2 → 1.5 → π
+
+Full working after a second miss:
+
+> The correct order is: −2 → −0.5 → √2 → 1.5 → π.  
+
+Sources: real-numbers (Square roots, rational and irrational numbers, ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ, simplifying √(a²b))
+
+### `m2-38-spot` · Lesson 38 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Every integer is a rational number.
+- ✅ √2 is a real number.
+- ✅ Every natural number is an integer.
+- ✅ π is irrational.
+- ❌ Every real number is rational.  
+  _↳ Irrational numbers like √2 and π are real but not rational._
+- ❌ −5 is a natural number.  
+  _↳ Natural numbers are 0, 1, 2 …; −5 is an integer._
+- ❌ 1/2 is not a real number.  
+  _↳ Every fraction is a real number._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Every integer is a rational number.
+- ◻️ π is irrational.
+- ◻️ √2 is a real number.
+- ✅ −5 is a natural number.  
+  _↳ explanation: Natural numbers are 0, 1, 2 …; −5 is an integer._
+
+Full working after a second miss:
+
+> The wrong statement is “−5 is a natural number.”.  
+> Natural numbers are 0, 1, 2 …; −5 is an integer.  
+
+> Which statement is wrong?
+
+- ◻️ π is irrational.
+- ✅ −5 is a natural number.  
+  _↳ explanation: Natural numbers are 0, 1, 2 …; −5 is an integer._
+- ◻️ Every integer is a rational number.
+- ◻️ Every natural number is an integer.
+
+Full working after a second miss:
+
+> The wrong statement is “−5 is a natural number.”.  
+> Natural numbers are 0, 1, 2 …; −5 is an integer.  
+
+> Which statement is wrong?
+
+- ◻️ π is irrational.
+- ◻️ Every natural number is an integer.
+- ✅ Every real number is rational.  
+  _↳ explanation: Irrational numbers like √2 and π are real but not rational._
+- ◻️ Every integer is a rational number.
+
+Full working after a second miss:
+
+> The wrong statement is “Every real number is rational.”.  
+> Irrational numbers like √2 and π are real but not rational.  
+
+Sources: real-numbers (Square roots, rational and irrational numbers, ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ, simplifying √(a²b))
+
+### `m2-41-which` · Lesson 41 · multiple choice, level 3
+
+Prompt: Is this direct or inverse proportion? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| The number of tins bought and the total cost. | direct | inverse · neither · both | More tins cost more: both go up together. · The cost per tin is fixed. · It is only one kind. | Twice the tins → twice the cost. |
+| The number of taps filling a tank and the time it takes. | inverse | direct · neither · both | More taps → less time. · The volume of the tank is fixed. · It is only one kind. | Twice the taps → half the time. |
+| The speed of a car and the time for a fixed journey. | inverse | direct · neither · both | Faster → less time. · speed × time = distance is fixed. · It is only one kind. | Speed × time stays the same. |
+| The distance a car travels at a fixed speed and the time taken. | direct | inverse · neither · both | More time → more distance. · distance ÷ time is fixed. · It is only one kind. | Distance ÷ time stays the same. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is this direct or inverse proportion? The speed of a car and the time for a fixed journey.
+
+- ✅ inverse
+- ◻️ both  
+  _↳ feedback if chosen: It is only one kind._
+- ◻️ neither  
+  _↳ feedback if chosen: speed × time = distance is fixed._
+- ◻️ direct  
+  _↳ feedback if chosen: Faster → less time._
+
+Full working after a second miss:
+
+> Speed × time stays the same.  
+> So the answer is “inverse”.  
+
+> Is this direct or inverse proportion? The speed of a car and the time for a fixed journey.
+
+- ◻️ direct  
+  _↳ feedback if chosen: Faster → less time._
+- ◻️ neither  
+  _↳ feedback if chosen: speed × time = distance is fixed._
+- ✅ inverse
+- ◻️ both  
+  _↳ feedback if chosen: It is only one kind._
+
+Full working after a second miss:
+
+> Speed × time stays the same.  
+> So the answer is “inverse”.  
+
+> Is this direct or inverse proportion? The speed of a car and the time for a fixed journey.
+
+- ◻️ neither  
+  _↳ feedback if chosen: speed × time = distance is fixed._
+- ◻️ both  
+  _↳ feedback if chosen: It is only one kind._
+- ✅ inverse
+- ◻️ direct  
+  _↳ feedback if chosen: Faster → less time._
+
+Full working after a second miss:
+
+> Speed × time stays the same.  
+> So the answer is “inverse”.  
+
+Sources: proportion (Direct and inverse proportion, unitary method)
+
+### `m2-41-which-card` · Lesson 41 · multiple choice, level 1
+
+Prompt: Is this direct or inverse proportion? {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| The number of tins bought and the total cost. | direct | inverse · neither · both | More tins cost more: both go up together. · The cost per tin is fixed. · It is only one kind. | Twice the tins → twice the cost. |
+| The number of taps filling a tank and the time it takes. | inverse | direct · neither · both | More taps → less time. · The volume of the tank is fixed. · It is only one kind. | Twice the taps → half the time. |
+| The speed of a car and the time for a fixed journey. | inverse | direct · neither · both | Faster → less time. · speed × time = distance is fixed. · It is only one kind. | Speed × time stays the same. |
+| The distance a car travels at a fixed speed and the time taken. | direct | inverse · neither · both | More time → more distance. · distance ÷ time is fixed. · It is only one kind. | Distance ÷ time stays the same. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is this direct or inverse proportion? The number of tins bought and the total cost.
+
+- ◻️ both  
+  _↳ feedback if chosen: It is only one kind._
+- ◻️ inverse  
+  _↳ feedback if chosen: More tins cost more: both go up together._
+- ✅ direct
+- ◻️ neither  
+  _↳ feedback if chosen: The cost per tin is fixed._
+
+Full working after a second miss:
+
+> Twice the tins → twice the cost.  
+> So the answer is “direct”.  
+
+> Is this direct or inverse proportion? The distance a car travels at a fixed speed and the time taken.
+
+- ◻️ inverse  
+  _↳ feedback if chosen: More time → more distance._
+- ✅ direct
+- ◻️ both  
+  _↳ feedback if chosen: It is only one kind._
+- ◻️ neither  
+  _↳ feedback if chosen: distance ÷ time is fixed._
+
+Full working after a second miss:
+
+> Distance ÷ time stays the same.  
+> So the answer is “direct”.  
+
+> Is this direct or inverse proportion? The distance a car travels at a fixed speed and the time taken.
+
+- ◻️ both  
+  _↳ feedback if chosen: It is only one kind._
+- ◻️ neither  
+  _↳ feedback if chosen: distance ÷ time is fixed._
+- ✅ direct
+- ◻️ inverse  
+  _↳ feedback if chosen: More time → more distance._
+
+Full working after a second miss:
+
+> Distance ÷ time stays the same.  
+> So the answer is “direct”.  
+
+Sources: proportion (Direct and inverse proportion, unitary method)
+
+### `m2-49-spot` · Lesson 49 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The opposite sides of a parallelogram are equal.
+- ✅ A rectangle has equal diagonals.
+- ✅ The diagonals of a rhombus are perpendicular.
+- ✅ A regular hexagon has six lines of symmetry.
+- ❌ All the angles of a parallelogram are equal.  
+  _↳ Only opposite angles are equal; angles next to each other add up to 180°._
+- ❌ The diagonals of every parallelogram are equal.  
+  _↳ Only a rectangle (or a square) has equal diagonals._
+- ❌ A regular pentagon has ten lines of symmetry.  
+  _↳ A regular polygon with n sides has n lines of symmetry: five._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ A regular pentagon has ten lines of symmetry.  
+  _↳ explanation: A regular polygon with n sides has n lines of symmetry: five._
+- ◻️ The opposite sides of a parallelogram are equal.
+- ◻️ The diagonals of a rhombus are perpendicular.
+- ◻️ A rectangle has equal diagonals.
+
+Full working after a second miss:
+
+> The wrong statement is “A regular pentagon has ten lines of symmetry.”.  
+> A regular polygon with n sides has n lines of symmetry: five.  
+
+> Which statement is wrong?
+
+- ◻️ A rectangle has equal diagonals.
+- ✅ A regular pentagon has ten lines of symmetry.  
+  _↳ explanation: A regular polygon with n sides has n lines of symmetry: five._
+- ◻️ The diagonals of a rhombus are perpendicular.
+- ◻️ The opposite sides of a parallelogram are equal.
+
+Full working after a second miss:
+
+> The wrong statement is “A regular pentagon has ten lines of symmetry.”.  
+> A regular polygon with n sides has n lines of symmetry: five.  
+
+> Which statement is wrong?
+
+- ◻️ A rectangle has equal diagonals.
+- ◻️ A regular hexagon has six lines of symmetry.
+- ✅ All the angles of a parallelogram are equal.  
+  _↳ explanation: Only opposite angles are equal; angles next to each other add up to 180°._
+- ◻️ The diagonals of a rhombus are perpendicular.
+
+Full working after a second miss:
+
+> The wrong statement is “All the angles of a parallelogram are equal.”.  
+> Only opposite angles are equal; angles next to each other add up to 180°.  
+
+Sources: polygons (Names of polygons, angle sum (n − 2) × 180°, regular polygons, properties of parallelograms, areas of parallelogram and trapezium)
+
+### `m2-52-what` · Lesson 52 · multiple choice, level 2
+
+Prompt: Which statement is true?
+
+Shows 1 true and 2 false statement(s), drawn from:
+
+- ✅ The image of two perpendicular lines by a reflection is two perpendicular lines.
+- ✅ The image of three points on a line by a half turn is three points on a line.
+- ✅ The image of two parallel lines by a reflection is two parallel lines.
+- ❌ The image of a square by a reflection can be a rectangle that is not a square.  
+  _↳ Symmetry keeps lengths, so all four sides stay equal._
+- ❌ The image of an angle of 30° by a half turn is an angle of 150°.  
+  _↳ Symmetry keeps angles: it is still 30°._
+- ❌ The image of a segment of 4 cm by a reflection is a segment of 8 cm.  
+  _↳ Symmetry keeps lengths: still 4 cm._
+
+
+Three generated variants:
+
+> Which statement is true?
+
+- ✅ The image of three points on a line by a half turn is three points on a line.
+- ◻️ The image of a square by a reflection can be a rectangle that is not a square.  
+  _↳ feedback if chosen: Symmetry keeps lengths, so all four sides stay equal._
+- ◻️ The image of an angle of 30° by a half turn is an angle of 150°.  
+  _↳ feedback if chosen: Symmetry keeps angles: it is still 30°._
+
+Full working after a second miss:
+
+> The true statement is “The image of three points on a line by a half turn is three points on a line.”.  
+> “The image of a square by a reflection can be a rectangle that is not a square.” is false: Symmetry keeps lengths, so all four sides stay equal.  
+> “The image of an angle of 30° by a half turn is an angle of 150°.” is false: Symmetry keeps angles: it is still 30°.  
+
+> Which statement is true?
+
+- ◻️ The image of an angle of 30° by a half turn is an angle of 150°.  
+  _↳ feedback if chosen: Symmetry keeps angles: it is still 30°._
+- ✅ The image of two parallel lines by a reflection is two parallel lines.
+- ◻️ The image of a square by a reflection can be a rectangle that is not a square.  
+  _↳ feedback if chosen: Symmetry keeps lengths, so all four sides stay equal._
+
+Full working after a second miss:
+
+> The true statement is “The image of two parallel lines by a reflection is two parallel lines.”.  
+> “The image of an angle of 30° by a half turn is an angle of 150°.” is false: Symmetry keeps angles: it is still 30°.  
+> “The image of a square by a reflection can be a rectangle that is not a square.” is false: Symmetry keeps lengths, so all four sides stay equal.  
+
+> Which statement is true?
+
+- ◻️ The image of an angle of 30° by a half turn is an angle of 150°.  
+  _↳ feedback if chosen: Symmetry keeps angles: it is still 30°._
+- ◻️ The image of a square by a reflection can be a rectangle that is not a square.  
+  _↳ feedback if chosen: Symmetry keeps lengths, so all four sides stay equal._
+- ✅ The image of two parallel lines by a reflection is two parallel lines.
+
+Full working after a second miss:
+
+> The true statement is “The image of two parallel lines by a reflection is two parallel lines.”.  
+> “The image of an angle of 30° by a half turn is an angle of 150°.” is false: Symmetry keeps angles: it is still 30°.  
+> “The image of a square by a reflection can be a rectangle that is not a square.” is false: Symmetry keeps lengths, so all four sides stay equal.  
+
+Sources: symmetry (Line and point symmetry; reflections and half turns on a grid; what symmetry conserves)
+
+### `m2-52-spot` · Lesson 52 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A reflection keeps lengths.
+- ✅ A half turn keeps angles.
+- ✅ The image of a square by a reflection is a square.
+- ✅ Images of parallel lines are parallel.
+- ❌ A reflection doubles lengths.  
+  _↳ A reflection keeps lengths._
+- ❌ The image of a right angle by a half turn can be 120°.  
+  _↳ Symmetry keeps angles: a right angle stays a right angle._
+- ❌ Points on a line can have images that are not on a line.  
+  _↳ Symmetry keeps alignment._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ A reflection doubles lengths.  
+  _↳ explanation: A reflection keeps lengths._
+- ◻️ A half turn keeps angles.
+- ◻️ A reflection keeps lengths.
+- ◻️ The image of a square by a reflection is a square.
+
+Full working after a second miss:
+
+> The wrong statement is “A reflection doubles lengths.”.  
+> A reflection keeps lengths.  
+
+> Which statement is wrong?
+
+- ✅ Points on a line can have images that are not on a line.  
+  _↳ explanation: Symmetry keeps alignment._
+- ◻️ The image of a square by a reflection is a square.
+- ◻️ A reflection keeps lengths.
+- ◻️ A half turn keeps angles.
+
+Full working after a second miss:
+
+> The wrong statement is “Points on a line can have images that are not on a line.”.  
+> Symmetry keeps alignment.  
+
+> Which statement is wrong?
+
+- ◻️ A reflection keeps lengths.
+- ◻️ Images of parallel lines are parallel.
+- ✅ A reflection doubles lengths.  
+  _↳ explanation: A reflection keeps lengths._
+- ◻️ A half turn keeps angles.
+
+Full working after a second miss:
+
+> The wrong statement is “A reflection doubles lengths.”.  
+> A reflection keeps lengths.  
+
+Sources: symmetry (Line and point symmetry; reflections and half turns on a grid; what symmetry conserves)
+
+### `m2-52-what-card` · Lesson 52 · multiple choice, level 1
+
+Prompt: Which statement is true?
+
+Shows 1 true and 2 false statement(s), drawn from:
+
+- ✅ The image of two perpendicular lines by a reflection is two perpendicular lines.
+- ✅ The image of three points on a line by a half turn is three points on a line.
+- ✅ The image of two parallel lines by a reflection is two parallel lines.
+- ❌ The image of a square by a reflection can be a rectangle that is not a square.  
+  _↳ Symmetry keeps lengths, so all four sides stay equal._
+- ❌ The image of an angle of 30° by a half turn is an angle of 150°.  
+  _↳ Symmetry keeps angles: it is still 30°._
+- ❌ The image of a segment of 4 cm by a reflection is a segment of 8 cm.  
+  _↳ Symmetry keeps lengths: still 4 cm._
+
+
+Three generated variants:
+
+> Which statement is true?
+
+- ✅ The image of two parallel lines by a reflection is two parallel lines.
+- ◻️ The image of a segment of 4 cm by a reflection is a segment of 8 cm.  
+  _↳ feedback if chosen: Symmetry keeps lengths: still 4 cm._
+- ◻️ The image of a square by a reflection can be a rectangle that is not a square.  
+  _↳ feedback if chosen: Symmetry keeps lengths, so all four sides stay equal._
+
+Full working after a second miss:
+
+> The true statement is “The image of two parallel lines by a reflection is two parallel lines.”.  
+> “The image of a segment of 4 cm by a reflection is a segment of 8 cm.” is false: Symmetry keeps lengths: still 4 cm.  
+> “The image of a square by a reflection can be a rectangle that is not a square.” is false: Symmetry keeps lengths, so all four sides stay equal.  
+
+> Which statement is true?
+
+- ◻️ The image of an angle of 30° by a half turn is an angle of 150°.  
+  _↳ feedback if chosen: Symmetry keeps angles: it is still 30°._
+- ◻️ The image of a segment of 4 cm by a reflection is a segment of 8 cm.  
+  _↳ feedback if chosen: Symmetry keeps lengths: still 4 cm._
+- ✅ The image of two perpendicular lines by a reflection is two perpendicular lines.
+
+Full working after a second miss:
+
+> The true statement is “The image of two perpendicular lines by a reflection is two perpendicular lines.”.  
+> “The image of an angle of 30° by a half turn is an angle of 150°.” is false: Symmetry keeps angles: it is still 30°.  
+> “The image of a segment of 4 cm by a reflection is a segment of 8 cm.” is false: Symmetry keeps lengths: still 4 cm.  
+
+> Which statement is true?
+
+- ◻️ The image of a square by a reflection can be a rectangle that is not a square.  
+  _↳ feedback if chosen: Symmetry keeps lengths, so all four sides stay equal._
+- ✅ The image of two perpendicular lines by a reflection is two perpendicular lines.
+- ◻️ The image of a segment of 4 cm by a reflection is a segment of 8 cm.  
+  _↳ feedback if chosen: Symmetry keeps lengths: still 4 cm._
+
+Full working after a second miss:
+
+> The true statement is “The image of two perpendicular lines by a reflection is two perpendicular lines.”.  
+> “The image of a square by a reflection can be a rectangle that is not a square.” is false: Symmetry keeps lengths, so all four sides stay equal.  
+> “The image of a segment of 4 cm by a reflection is a segment of 8 cm.” is false: Symmetry keeps lengths: still 4 cm.  
+
+Sources: symmetry (Line and point symmetry; reflections and half turns on a grid; what symmetry conserves)
+
+### `m2-53-centre` · Lesson 53 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Where is the centre of the circumscribed circle of a triangle? | where the perpendicular bisectors of the sides meet | where the medians meet · where the heights meet · where the angle bisectors meet | That is the centroid. · That is the orthocentre. · That is the centre of the inscribed circle. | Every point of a perpendicular bisector is the same distance from both ends of the side. |
+| Where is the centre of the circumscribed circle of a right-angled triangle? | at the midpoint of the hypotenuse | at the right-angle vertex · outside the triangle · at the midpoint of the shortest side | The right-angle vertex is on the circle. · For a right-angled triangle it is on the hypotenuse. · It is the midpoint of the longest side. | The hypotenuse is a diameter of the circle. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Where is the centre of the circumscribed circle of a triangle?
+
+- ◻️ where the medians meet  
+  _↳ feedback if chosen: That is the centroid._
+- ◻️ where the heights meet  
+  _↳ feedback if chosen: That is the orthocentre._
+- ✅ where the perpendicular bisectors of the sides meet
+- ◻️ where the angle bisectors meet  
+  _↳ feedback if chosen: That is the centre of the inscribed circle._
+
+Full working after a second miss:
+
+> Every point of a perpendicular bisector is the same distance from both ends of the side.  
+> So the answer is “where the perpendicular bisectors of the sides meet”.  
+
+> Where is the centre of the circumscribed circle of a triangle?
+
+- ◻️ where the angle bisectors meet  
+  _↳ feedback if chosen: That is the centre of the inscribed circle._
+- ◻️ where the medians meet  
+  _↳ feedback if chosen: That is the centroid._
+- ✅ where the perpendicular bisectors of the sides meet
+- ◻️ where the heights meet  
+  _↳ feedback if chosen: That is the orthocentre._
+
+Full working after a second miss:
+
+> Every point of a perpendicular bisector is the same distance from both ends of the side.  
+> So the answer is “where the perpendicular bisectors of the sides meet”.  
+
+> Where is the centre of the circumscribed circle of a right-angled triangle?
+
+- ✅ at the midpoint of the hypotenuse
+- ◻️ outside the triangle  
+  _↳ feedback if chosen: For a right-angled triangle it is on the hypotenuse._
+- ◻️ at the midpoint of the shortest side  
+  _↳ feedback if chosen: It is the midpoint of the longest side._
+- ◻️ at the right-angle vertex  
+  _↳ feedback if chosen: The right-angle vertex is on the circle._
+
+Full working after a second miss:
+
+> The hypotenuse is a diameter of the circle.  
+> So the answer is “at the midpoint of the hypotenuse”.  
+
+Sources: circles (Circumscribed circle (circumcentre; midpoint of the hypotenuse) and the relative positions of two circles)
+
+### `m2-53-spot` · Lesson 53 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The circumscribed circle passes through the three vertices.
+- ✅ The circumcentre is the same distance from A, B and C.
+- ✅ In a right-angled triangle the hypotenuse is a diameter of the circumscribed circle.
+- ✅ Two perpendicular bisectors are enough to find the circumcentre.
+- ❌ The circumcentre is always inside the triangle.  
+  _↳ For an obtuse triangle it is outside; for a right-angled one it is on the hypotenuse._
+- ❌ The circumcentre is where the medians meet.  
+  _↳ The medians meet at the centroid._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Two perpendicular bisectors are enough to find the circumcentre.
+- ◻️ The circumcentre is the same distance from A, B and C.
+- ◻️ In a right-angled triangle the hypotenuse is a diameter of the circumscribed circle.
+- ✅ The circumcentre is where the medians meet.  
+  _↳ explanation: The medians meet at the centroid._
+
+Full working after a second miss:
+
+> The wrong statement is “The circumcentre is where the medians meet.”.  
+> The medians meet at the centroid.  
+
+> Which statement is wrong?
+
+- ◻️ In a right-angled triangle the hypotenuse is a diameter of the circumscribed circle.
+- ✅ The circumcentre is where the medians meet.  
+  _↳ explanation: The medians meet at the centroid._
+- ◻️ Two perpendicular bisectors are enough to find the circumcentre.
+- ◻️ The circumcentre is the same distance from A, B and C.
+
+Full working after a second miss:
+
+> The wrong statement is “The circumcentre is where the medians meet.”.  
+> The medians meet at the centroid.  
+
+> Which statement is wrong?
+
+- ◻️ Two perpendicular bisectors are enough to find the circumcentre.
+- ✅ The circumcentre is always inside the triangle.  
+  _↳ explanation: For an obtuse triangle it is outside; for a right-angled one it is on the hypotenuse._
+- ◻️ In a right-angled triangle the hypotenuse is a diameter of the circumscribed circle.
+- ◻️ The circumcentre is the same distance from A, B and C.
+
+Full working after a second miss:
+
+> The wrong statement is “The circumcentre is always inside the triangle.”.  
+> For an obtuse triangle it is outside; for a right-angled one it is on the hypotenuse.  
+
+Sources: circles (Circumscribed circle (circumcentre; midpoint of the hypotenuse) and the relative positions of two circles)
 

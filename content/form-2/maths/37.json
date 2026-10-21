@@ -1,0 +1,479 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 37,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-37",
+   "name": "Radicals; rational and irrational numbers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The square root of n, written √n (a radical), is the positive number whose square is n: √49 = 7 because 7² = 49.\nA rational number can be written as a fraction a/b of whole numbers (b ≠ 0): 3/4, −6, 0.5, 0.333… Its decimal ends or repeats.\nAn irrational number cannot: its decimal never ends and never repeats: √2 = 1.41421…, π = 3.14159… The square root of a whole number that is not a perfect square is irrational.\nSimplifying: √(a² × b) = a√b, for example √50 = √(25 × 2) = 5√2.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 5,
+   "m": 2
+  },
+  "problem": "Simplify √{k * k * m}.",
+  "steps": [
+   "Find the largest perfect square factor: {k * k * m} = {k * k} × {m}.",
+   "√{k * k * m} = √{k * k} × √{m} = {k}√{m}."
+  ],
+  "answer": "{k}√{m}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c37-1",
+    "status": "draft",
+    "idea": "√n is the positive number whose square is n.",
+    "vars": {
+     "n": 9
+    },
+    "example": [
+     "√{n * n} = {n} because {n}² = {n * n}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-37-root"
+    }
+   },
+   {
+    "id": "c37-2",
+    "status": "draft",
+    "idea": "Rational: a fraction of whole numbers; irrational: the decimal never ends or repeats.",
+    "vars": {},
+    "example": [
+     "√{4} = {2} is rational; √{3} is irrational."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-37-kind"
+    }
+   },
+   {
+    "id": "c37-3",
+    "status": "draft",
+    "idea": "√(a² × b) = a√b.",
+    "vars": {
+     "k": 3,
+     "m": 2
+    },
+    "example": [
+     "√{k * k * m} = {k}√{m}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-37-simplify-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "real-numbers"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        7
+       ]
+      },
+      "m": {
+       "pick": [
+        2,
+        3,
+        5,
+        6,
+        7
+       ]
+      }
+     },
+     "prompt": "Simplify √{k * k * m}.",
+     "correct": "{k}√{m}",
+     "distractors": [
+      {
+       "text": "{m}√{k}",
+       "misconception": "swap"
+      },
+      {
+       "text": "{k * k}√{m}",
+       "misconception": "square"
+      },
+      {
+       "text": "{k}√{k * m}",
+       "misconception": "left"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "swap",
+       "explain": "The perfect square is {k * k}: its root, {k}, comes out in front."
+      },
+      {
+       "id": "square",
+       "explain": "Take the square root of {k * k}: it is {k}, not {k * k}."
+      },
+      {
+       "id": "left",
+       "explain": "Once {k} comes out, only {m} stays under the root."
+      }
+     ],
+     "solution": [
+      "{k * k * m} = {k * k} × {m}, and {k * k} is a perfect square.",
+      "√{k * k * m} = {k}√{m}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-37-root",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "real-numbers"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      2,
+      20
+     ]
+    }
+   },
+   "prompt": "Work out √{n * n}.",
+   "answer": "n",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "n * n / 2",
+     "explain": "The square root is not half: which number times itself gives {n * n}?"
+    }
+   ],
+   "solution": [
+    "{n} × {n} = {n * n}.",
+    "So √{n * n} = {answer}."
+   ]
+  },
+  {
+   "id": "m2-37-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "real-numbers"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "rational",
+       "w": [
+        "irrational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "√49 = 7, a whole number.",
+       "x": "√49"
+      },
+      {
+       "r": "irrational",
+       "w": [
+        "rational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "2 is not a perfect square: √2 = 1.414… never ends or repeats.",
+       "x": "√2"
+      },
+      {
+       "r": "rational",
+       "w": [
+        "irrational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "It repeats: it is 1/3.",
+       "x": "0.333…"
+      },
+      {
+       "r": "irrational",
+       "w": [
+        "rational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "π = 3.14159… never ends or repeats.",
+       "x": "π"
+      },
+      {
+       "r": "rational",
+       "w": [
+        "irrational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "It is a fraction of two whole numbers.",
+       "x": "3/7"
+      },
+      {
+       "r": "irrational",
+       "w": [
+        "rational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "50 is not a perfect square.",
+       "x": "√50"
+      },
+      {
+       "r": "rational",
+       "w": [
+        "irrational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "1.25 = 5/4.",
+       "x": "1.25"
+      },
+      {
+       "r": "rational",
+       "w": [
+        "irrational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "√(16/25) = 4/5.",
+       "x": "√(16/25)"
+      },
+      {
+       "r": "rational",
+       "w": [
+        "irrational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "−6 = −6/1.",
+       "x": "−6"
+      },
+      {
+       "r": "irrational",
+       "w": [
+        "rational",
+        "a natural number only",
+        "neither"
+       ],
+       "e": [
+        "Look at its decimal: does it end or repeat?",
+        "Ask whether it is a fraction of whole numbers.",
+        "Every real number is either rational or irrational."
+       ],
+       "y": "10 is not a perfect square.",
+       "x": "√10"
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.x} rational or irrational?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-37-between",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "real-numbers"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      5,
+      120
+     ]
+    }
+   },
+   "prompt": "√{n} lies between which two whole numbers?",
+   "correct": "{sqrtFloor(n)} and {sqrtFloor(n) + 1}",
+   "distractors": [
+    {
+     "text": "{sqrtFloor(n) - 1} and {sqrtFloor(n)}",
+     "misconception": "sq"
+    },
+    {
+     "text": "{sqrtFloor(n) + 1} and {sqrtFloor(n) + 2}",
+     "misconception": "sq"
+    },
+    {
+     "text": "{floor(n / 2)} and {floor(n / 2) + 1}",
+     "misconception": "half"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sq",
+     "explain": "Square the two numbers: {n} must lie between their squares."
+    },
+    {
+     "id": "half",
+     "explain": "A square root is not half: find the squares on each side of {n}."
+    }
+   ],
+   "solution": [
+    "{sqrtFloor(n)}² = {sqrtFloor(n) ^ 2} and {sqrtFloor(n) + 1}² = {(sqrtFloor(n) + 1) ^ 2}.",
+    "{n} is between them, so √{n} is between {answer}."
+   ],
+   "where": [
+    "!isPerfectSquare(n)",
+    "sqrtFloor(n) >= 2"
+   ]
+  },
+  {
+   "id": "m2-37-simplify",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "real-numbers"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "m": {
+     "pick": [
+      2,
+      3,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Simplify √{k * k * m}.",
+   "correct": "{k}√{m}",
+   "distractors": [
+    {
+     "text": "{m}√{k}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{k * k}√{m}",
+     "misconception": "square"
+    },
+    {
+     "text": "{k}√{k * m}",
+     "misconception": "left"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "The perfect square is {k * k}: its root, {k}, comes out in front."
+    },
+    {
+     "id": "square",
+     "explain": "Take the square root of {k * k}: it is {k}, not {k * k}."
+    },
+    {
+     "id": "left",
+     "explain": "Once {k} comes out, only {m} stays under the root."
+    }
+   ],
+   "solution": [
+    "{k * k * m} = {k * k} × {m}, and {k * k} is a perfect square.",
+    "√{k * k * m} = {k}√{m}."
+   ]
+  }
+ ]
+}

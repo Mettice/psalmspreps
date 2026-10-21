@@ -1,0 +1,302 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "m2-32",
+   "name": "The area of a triangle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Area of a triangle = ½ × base × height, where the height is perpendicular to the base.\nAny side can be the base, as long as you use the height that goes with it.\nIn a right-angled triangle, the two sides next to the right angle are a base and its height: area = ½ × a × b.\nTo find a height: height = 2 × area ÷ base.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 12,
+   "h": 7
+  },
+  "problem": "A triangle has a base of {b} cm and a height of {h} cm. Find its area.",
+  "steps": [
+   "Area = ½ × base × height.",
+   "½ × {b} × {h} = {b * h / 2} cm²."
+  ],
+  "answer": "{b * h / 2} cm²",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c32-1",
+    "status": "draft",
+    "idea": "Area of a triangle = ½ × base × height.",
+    "vars": {
+     "b": 10,
+     "h": 6
+    },
+    "example": [
+     "½ × {b} × {h} = {b * h / 2} cm²"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-32-area"
+    }
+   },
+   {
+    "id": "c32-2",
+    "status": "draft",
+    "idea": "In a right-angled triangle, use the two sides next to the right angle.",
+    "vars": {
+     "a": 6,
+     "b": 8
+    },
+    "example": [
+     "½ × {a} × {b} = {a * b / 2} cm²"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-32-right"
+    }
+   },
+   {
+    "id": "c32-3",
+    "status": "draft",
+    "idea": "Height = {2} × area ÷ base.",
+    "vars": {
+     "A": 30,
+     "b": 12
+    },
+    "example": [
+     "{2} × {A} ÷ {b} = {2 * A / b} cm"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-32-height-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "triangles"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        4,
+        16
+       ]
+      },
+      "h": {
+       "int": [
+        3,
+        15
+       ]
+      },
+      "A": {
+       "expr": "b * h / 2"
+      }
+     },
+     "prompt": "A triangle has an area of {A} cm² and a base of {b} cm. Find its height.",
+     "answer": "2 * A / b",
+     "misconceptions": [
+      {
+       "id": "nodouble",
+       "wrong": "A / b",
+       "explain": "Multiply the area by {2} first: height = {2} × area ÷ base."
+      }
+     ],
+     "solution": [
+      "Area = ½ × base × height, so height = {2} × area ÷ base.",
+      "{2} × {A} ÷ {b} = {answer} cm."
+     ],
+     "where": [
+      "(b * h) % 2 == 0"
+     ],
+     "unit": "cm"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-32-area",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      3,
+      20
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      18
+     ]
+    }
+   },
+   "prompt": "A triangle has a base of {b} cm and a height of {h} cm. Find its area.",
+   "answer": "b * h / 2",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "b * h",
+     "explain": "Do not forget the ½: a triangle is half of a rectangle."
+    }
+   ],
+   "solution": [
+    "Area = ½ × {b} × {h}.",
+    "= {answer} cm²."
+   ],
+   "where": [
+    "(b * h) % 2 == 0"
+   ],
+   "unit": "cm²"
+  },
+  {
+   "id": "m2-32-right",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "a": {
+     "expr": "tA(i)"
+    },
+    "b": {
+     "expr": "tB(i)"
+    },
+    "c": {
+     "expr": "tC(i)"
+    }
+   },
+   "prompt": "A right-angled triangle has sides {a} cm and {b} cm next to the right angle. Find its area.",
+   "answer": "a * b / 2",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "a * b",
+     "explain": "Take half: ½ × {a} × {b}."
+    },
+    {
+     "id": "hyp",
+     "wrong": "a * c / 2",
+     "explain": "Use the two sides next to the right angle, not the hypotenuse."
+    }
+   ],
+   "solution": [
+    "Area = ½ × {a} × {b} = {answer} cm²."
+   ],
+   "unit": "cm²"
+  },
+  {
+   "id": "m2-32-height",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      4,
+      16
+     ]
+    },
+    "h": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "A": {
+     "expr": "b * h / 2"
+    }
+   },
+   "prompt": "A triangle has an area of {A} cm² and a base of {b} cm. Find its height.",
+   "answer": "2 * A / b",
+   "misconceptions": [
+    {
+     "id": "nodouble",
+     "wrong": "A / b",
+     "explain": "Multiply the area by {2} first: height = {2} × area ÷ base."
+    }
+   ],
+   "solution": [
+    "Area = ½ × base × height, so height = {2} × area ÷ base.",
+    "{2} × {A} ÷ {b} = {answer} cm."
+   ],
+   "where": [
+    "(b * h) % 2 == 0"
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-32-house",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "triangles"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      6,
+      14
+     ]
+    },
+    "w": {
+     "int": [
+      3,
+      6
+     ]
+    },
+    "t": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "The front of a house is a rectangle {l} m wide and {w} m high with a triangle on top, {l} m wide and {t} m high. Find the total area.",
+   "answer": "l * w + l * t / 2",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "l * w + l * t",
+     "explain": "The triangle is half of a rectangle: ½ × {l} × {t}."
+    }
+   ],
+   "solution": [
+    "Rectangle: {l} × {w} = {l * w} m².",
+    "Triangle: ½ × {l} × {t} = {l * t / 2} m².",
+    "Total: {l * w} + {l * t / 2} = {answer} m²."
+   ],
+   "where": [
+    "(l * t) % 2 == 0"
+   ],
+   "unit": "m²"
+  }
+ ]
+}

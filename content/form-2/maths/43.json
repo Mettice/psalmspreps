@@ -1,0 +1,341 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 43,
+ "language": "en",
+ "prerequisites": [
+  42
+ ],
+ "skills": [
+  {
+   "id": "m2-43",
+   "name": "Discount (reduction) and percentage"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A discount (reduction) is an amount taken off the marked price. Discount = p % of the marked price.\nSale price = marked price − discount = marked price × (100 − p) ÷ 100.\nPercentage discount = discount ÷ marked price × 100.\nTo find the marked price from the sale price: marked price = sale price × 100 ÷ (100 − p).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 12000,
+   "p": 15,
+   "hund": 100
+  },
+  "problem": "A pair of shoes marked {m} FCFA is sold with a {p} % discount. Find the sale price.",
+  "steps": [
+   "Discount: {p} % of {m} = {m * p / 100} FCFA.",
+   "Sale price: {m} − {m * p / 100} = {m * (100 - p) / 100} FCFA."
+  ],
+  "answer": "{m * (100 - p) / 100} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c43-1",
+    "status": "draft",
+    "idea": "Discount = p % of the marked price.",
+    "vars": {
+     "m": 8000,
+     "p": 10
+    },
+    "example": [
+     "{p} % of {m} = {m * p / 100} FCFA"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-43-disc"
+    }
+   },
+   {
+    "id": "c43-2",
+    "status": "draft",
+    "idea": "Sale price = marked price − discount.",
+    "vars": {
+     "m": 8000,
+     "p": 10
+    },
+    "example": [
+     "{m} − {m * p / 100} = {m - m * p / 100} FCFA"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-43-sale"
+    }
+   },
+   {
+    "id": "c43-3",
+    "status": "draft",
+    "idea": "% discount = discount ÷ marked price × {hund}.",
+    "vars": {
+     "m": 5000,
+     "d": 1000,
+     "hund": 100
+    },
+    "example": [
+     "{d} ÷ {m} × {hund} = {d / m * 100} %"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-43-pct-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "m": {
+       "pick": [
+        4000,
+        5000,
+        8000,
+        10000,
+        12000,
+        15000,
+        20000,
+        25000
+       ]
+      },
+      "p": {
+       "pick": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40
+       ]
+      },
+      "s": {
+       "expr": "m * (100 - p) / 100"
+      },
+      "hund": 100
+     },
+     "prompt": "A radio marked {m} FCFA is sold for {s} FCFA. What is the percentage discount?",
+     "answer": "p",
+     "misconceptions": [
+      {
+       "id": "on-sale",
+       "wrong": "round((m - s) / s * 100, 1)",
+       "explain": "Divide by the marked price ({m}), not the sale price."
+      }
+     ],
+     "solution": [
+      "Discount: {m} − {s} = {m - s} FCFA.",
+      "{m - s} ÷ {m} × {hund} = {answer} %."
+     ],
+     "unit": "%"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-43-disc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      4000,
+      5000,
+      8000,
+      10000,
+      12000,
+      15000,
+      20000,
+      25000
+     ]
+    },
+    "p": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40
+     ]
+    },
+    "hund": 100
+   },
+   "prompt": "A shirt is marked {m} FCFA. The shop gives a {p} % discount. How much is the discount?",
+   "answer": "m * p / 100",
+   "misconceptions": [
+    {
+     "id": "sale",
+     "wrong": "m - m * p / 100",
+     "explain": "That is the sale price. The discount is the amount taken off."
+    }
+   ],
+   "solution": [
+    "{p} % of {m} = {p} ÷ {hund} × {m}.",
+    "= {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-43-sale",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      4000,
+      5000,
+      8000,
+      10000,
+      12000,
+      15000,
+      20000,
+      25000
+     ]
+    },
+    "p": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40
+     ]
+    },
+    "hund": 100
+   },
+   "prompt": "A shirt is marked {m} FCFA. The shop gives a {p} % discount. What is the sale price?",
+   "answer": "m * (100 - p) / 100",
+   "misconceptions": [
+    {
+     "id": "disc",
+     "wrong": "m * p / 100",
+     "explain": "That is the discount. Take it off the marked price."
+    }
+   ],
+   "solution": [
+    "Discount: {m * p / 100} FCFA.",
+    "Sale price: {m} − {m * p / 100} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "m2-43-pct",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      4000,
+      5000,
+      8000,
+      10000,
+      12000,
+      15000,
+      20000,
+      25000
+     ]
+    },
+    "p": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40
+     ]
+    },
+    "s": {
+     "expr": "m * (100 - p) / 100"
+    },
+    "hund": 100
+   },
+   "prompt": "A radio marked {m} FCFA is sold for {s} FCFA. What is the percentage discount?",
+   "answer": "p",
+   "misconceptions": [
+    {
+     "id": "on-sale",
+     "wrong": "round((m - s) / s * 100, 1)",
+     "explain": "Divide by the marked price ({m}), not the sale price."
+    }
+   ],
+   "solution": [
+    "Discount: {m} − {s} = {m - s} FCFA.",
+    "{m - s} ÷ {m} × {hund} = {answer} %."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "m2-43-marked",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      4000,
+      5000,
+      8000,
+      10000,
+      12000,
+      15000,
+      20000,
+      25000
+     ]
+    },
+    "p": {
+     "pick": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40
+     ]
+    },
+    "s": {
+     "expr": "m * (100 - p) / 100"
+    },
+    "hund": 100
+   },
+   "prompt": "After a {p} % discount, a dress costs {s} FCFA. What was the marked price?",
+   "answer": "m",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "s + s * p / 100",
+     "explain": "The {p} % was taken from the marked price, not from {s}: divide by {hund - p} % instead."
+    }
+   ],
+   "solution": [
+    "The sale price is {hund - p} % of the marked price.",
+    "{s} × {hund} ÷ {hund - p} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  }
+ ]
+}

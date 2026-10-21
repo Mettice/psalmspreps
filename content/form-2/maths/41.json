@@ -1,0 +1,463 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 41,
+ "language": "en",
+ "prerequisites": [
+  40
+ ],
+ "skills": [
+  {
+   "id": "m2-41",
+   "name": "Inverse proportion"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Two quantities are in inverse proportion when one increases as the other decreases in the same ratio: twice as many workers → half the time. Their product is constant (x × y = k).\nMethod: find the total (the product), then divide. 6 workers build a wall in 10 days: the job is 6 × 10 = 60 worker-days. 4 workers need 60 ÷ 4 = 15 days.\nThe same works for speed and time on a fixed journey: speed × time = distance.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 6,
+   "d": 10,
+   "m": 4
+  },
+  "problem": "{n} workers build a wall in {d} days. How long would {m} workers take?",
+  "steps": [
+   "The job is {n} × {d} = {n * d} worker-days.",
+   "{m} workers: {n * d} ÷ {m} = {n * d / m} days."
+  ],
+  "answer": "{n * d / m} days",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c41-1",
+    "status": "draft",
+    "idea": "Inverse proportion: the product stays the same.",
+    "vars": {
+     "n": 4,
+     "d": 6,
+     "m": 8
+    },
+    "example": [
+     "{n} × {d} = {n * d}; {m} × {n * d / m} = {n * d}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-41-work"
+    }
+   },
+   {
+    "id": "c41-2",
+    "status": "draft",
+    "idea": "Speed × time = distance stays the same on one journey.",
+    "vars": {
+     "v": 60,
+     "t": 3,
+     "w": 90
+    },
+    "example": [
+     "{v} km/h for {t} h = {v * t} km; at {w} km/h it takes {v * t / w} h."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-41-speed"
+    }
+   },
+   {
+    "id": "c41-3",
+    "status": "draft",
+    "idea": "Ask: does one go up when the other goes up (direct) or down (inverse)?",
+    "vars": {},
+    "example": [
+     "More workers → fewer days: inverse."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-41-which-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "proportion"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The number of tins bought and the total cost.",
+         "r": "direct",
+         "w": [
+          "inverse",
+          "neither",
+          "both"
+         ],
+         "e": [
+          "More tins cost more: both go up together.",
+          "The cost per tin is fixed.",
+          "It is only one kind."
+         ],
+         "y": "Twice the tins → twice the cost."
+        },
+        {
+         "q": "The number of taps filling a tank and the time it takes.",
+         "r": "inverse",
+         "w": [
+          "direct",
+          "neither",
+          "both"
+         ],
+         "e": [
+          "More taps → less time.",
+          "The volume of the tank is fixed.",
+          "It is only one kind."
+         ],
+         "y": "Twice the taps → half the time."
+        },
+        {
+         "q": "The speed of a car and the time for a fixed journey.",
+         "r": "inverse",
+         "w": [
+          "direct",
+          "neither",
+          "both"
+         ],
+         "e": [
+          "Faster → less time.",
+          "speed × time = distance is fixed.",
+          "It is only one kind."
+         ],
+         "y": "Speed × time stays the same."
+        },
+        {
+         "q": "The distance a car travels at a fixed speed and the time taken.",
+         "r": "direct",
+         "w": [
+          "inverse",
+          "neither",
+          "both"
+         ],
+         "e": [
+          "More time → more distance.",
+          "distance ÷ time is fixed.",
+          "It is only one kind."
+         ],
+         "y": "Distance ÷ time stays the same."
+        }
+       ]
+      }
+     },
+     "prompt": "Is this direct or inverse proportion? {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-41-work",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "proportion"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "{n} workers build a wall in {d} days. How long would {m} workers take?",
+   "answer": "n * d / m",
+   "misconceptions": [
+    {
+     "id": "direct",
+     "wrong": "d * m / n",
+     "explain": "More workers finish sooner: this is inverse proportion. Multiply {n} × {d}, then divide by {m}."
+    }
+   ],
+   "solution": [
+    "Job: {n} × {d} = {n * d} worker-days.",
+    "{n * d} ÷ {m} = {answer} days."
+   ],
+   "where": [
+    "m != n",
+    "isInt(n * d / m)"
+   ],
+   "unit": "days"
+  },
+  {
+   "id": "m2-41-speed",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "proportion"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      40,
+      50,
+      60,
+      80,
+      90,
+      100
+     ]
+    },
+    "t": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "w": {
+     "pick": [
+      40,
+      50,
+      60,
+      80,
+      90,
+      100,
+      120
+     ]
+    }
+   },
+   "prompt": "A bus takes {t} hours at {v} km/h. How long does the same journey take at {w} km/h?",
+   "answer": "v * t / w",
+   "misconceptions": [
+    {
+     "id": "direct",
+     "wrong": "t * w / v",
+     "explain": "Faster means less time: inverse proportion."
+    }
+   ],
+   "solution": [
+    "Distance: {v} × {t} = {v * t} km.",
+    "Time: {v * t} ÷ {w} = {answer} h."
+   ],
+   "where": [
+    "w != v",
+    "isInt(v * t / w)"
+   ],
+   "unit": "h"
+  },
+  {
+   "id": "m2-41-food",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "proportion"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      120,
+      150,
+      180,
+      200,
+      240,
+      300
+     ]
+    },
+    "d": {
+     "int": [
+      10,
+      30
+     ]
+    },
+    "m": {
+     "pick": [
+      100,
+      120,
+      150,
+      180,
+      200,
+      240,
+      300,
+      360
+     ]
+    }
+   },
+   "prompt": "Food in a boarding school lasts {d} days for {n} students. How long would it last for {m} students?",
+   "answer": "n * d / m",
+   "misconceptions": [
+    {
+     "id": "direct",
+     "wrong": "d * m / n",
+     "explain": "More students eat the food faster: inverse proportion."
+    }
+   ],
+   "solution": [
+    "Total: {n} × {d} = {n * d} student-days.",
+    "{n * d} ÷ {m} = {answer} days."
+   ],
+   "where": [
+    "m != n",
+    "isInt(n * d / m)"
+   ],
+   "unit": "days"
+  },
+  {
+   "id": "m2-41-which",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "proportion"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The number of tins bought and the total cost.",
+       "r": "direct",
+       "w": [
+        "inverse",
+        "neither",
+        "both"
+       ],
+       "e": [
+        "More tins cost more: both go up together.",
+        "The cost per tin is fixed.",
+        "It is only one kind."
+       ],
+       "y": "Twice the tins → twice the cost."
+      },
+      {
+       "q": "The number of taps filling a tank and the time it takes.",
+       "r": "inverse",
+       "w": [
+        "direct",
+        "neither",
+        "both"
+       ],
+       "e": [
+        "More taps → less time.",
+        "The volume of the tank is fixed.",
+        "It is only one kind."
+       ],
+       "y": "Twice the taps → half the time."
+      },
+      {
+       "q": "The speed of a car and the time for a fixed journey.",
+       "r": "inverse",
+       "w": [
+        "direct",
+        "neither",
+        "both"
+       ],
+       "e": [
+        "Faster → less time.",
+        "speed × time = distance is fixed.",
+        "It is only one kind."
+       ],
+       "y": "Speed × time stays the same."
+      },
+      {
+       "q": "The distance a car travels at a fixed speed and the time taken.",
+       "r": "direct",
+       "w": [
+        "inverse",
+        "neither",
+        "both"
+       ],
+       "e": [
+        "More time → more distance.",
+        "distance ÷ time is fixed.",
+        "It is only one kind."
+       ],
+       "y": "Distance ÷ time stays the same."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this direct or inverse proportion? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 53,
+ "language": "en",
+ "prerequisites": [
+  29,
+  31
+ ],
+ "skills": [
+  {
+   "id": "m2-53",
+   "name": "The circumscribed circle of a triangle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The circumscribed circle of a triangle passes through its three vertices. Its centre O is where the three perpendicular bisectors of the sides meet (the circumcentre): O is the same distance from A, B and C.\nTo draw it: draw two perpendicular bisectors; where they cross is O; the radius is OA.\nIn a right-angled triangle, the centre is the midpoint of the hypotenuse, and the radius is half the hypotenuse.\nExample: a right-angled triangle with sides 6, 8, 10 cm has a circumscribed circle of radius 5 cm.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 6,
+   "b": 8,
+   "c": 10
+  },
+  "problem": "A right-angled triangle has sides {a} cm and {b} cm next to the right angle. Find the radius of its circumscribed circle.",
+  "steps": [
+   "Hypotenuse: √({a}² + {b}²) = {c} cm.",
+   "The centre is the midpoint of the hypotenuse: radius = {c} ÷ {2} = {c / 2} cm."
+  ],
+  "answer": "{c / 2} cm",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c53-1",
+    "status": "draft",
+    "idea": "The circumcentre is where the perpendicular bisectors meet.",
+    "vars": {},
+    "example": [
+     "It is the same distance from the three vertices."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-53-centre"
+    }
+   },
+   {
+    "id": "c53-2",
+    "status": "draft",
+    "idea": "Right-angled triangle: the centre is the midpoint of the hypotenuse.",
+    "vars": {
+     "c": 13
+    },
+    "example": [
+     "Hypotenuse {c} cm → radius {c / 2} cm"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-53-hyp"
+    }
+   },
+   {
+    "id": "c53-3",
+    "status": "draft",
+    "idea": "Find the hypotenuse with Pythagoras first.",
+    "vars": {
+     "a": 5,
+     "b": 12,
+     "c": 13
+    },
+    "example": [
+     "{a}, {b} → {c} → radius {c / 2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-53-legs-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "circles"
+     ],
+     "vars": {
+      "i": {
+       "int": [
+        0,
+        11
+       ]
+      },
+      "a": {
+       "expr": "tA(i)"
+      },
+      "b": {
+       "expr": "tB(i)"
+      },
+      "c": {
+       "expr": "tC(i)"
+      }
+     },
+     "prompt": "A right-angled triangle has sides {a} cm and {b} cm next to the right angle. Find the radius of its circumscribed circle.",
+     "answer": "c / 2",
+     "misconceptions": [
+      {
+       "id": "diam",
+       "wrong": "c",
+       "explain": "That is the diameter (the hypotenuse). Halve it."
+      },
+      {
+       "id": "leg",
+       "wrong": "b / 2",
+       "explain": "The diameter is the hypotenuse, not a shorter side."
+      }
+     ],
+     "solution": [
+      "Hypotenuse: √({a * a} + {b * b}) = {c} cm.",
+      "Radius = {c} ÷ {2} = {answer} cm."
+     ],
+     "unit": "cm"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-53-centre",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "circles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where is the centre of the circumscribed circle of a triangle?",
+       "r": "where the perpendicular bisectors of the sides meet",
+       "w": [
+        "where the medians meet",
+        "where the heights meet",
+        "where the angle bisectors meet"
+       ],
+       "e": [
+        "That is the centroid.",
+        "That is the orthocentre.",
+        "That is the centre of the inscribed circle."
+       ],
+       "y": "Every point of a perpendicular bisector is the same distance from both ends of the side."
+      },
+      {
+       "q": "Where is the centre of the circumscribed circle of a right-angled triangle?",
+       "r": "at the midpoint of the hypotenuse",
+       "w": [
+        "at the right-angle vertex",
+        "outside the triangle",
+        "at the midpoint of the shortest side"
+       ],
+       "e": [
+        "The right-angle vertex is on the circle.",
+        "For a right-angled triangle it is on the hypotenuse.",
+        "It is the midpoint of the longest side."
+       ],
+       "y": "The hypotenuse is a diameter of the circle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-53-hyp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "circles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "a": {
+     "expr": "tA(i)"
+    },
+    "b": {
+     "expr": "tB(i)"
+    },
+    "c": {
+     "expr": "tC(i)"
+    }
+   },
+   "prompt": "A right-angled triangle has a hypotenuse of {c} cm. Find the radius of its circumscribed circle.",
+   "answer": "c / 2",
+   "misconceptions": [
+    {
+     "id": "diam",
+     "wrong": "c",
+     "explain": "The hypotenuse is the diameter; the radius is half of it."
+    }
+   ],
+   "solution": [
+    "The hypotenuse is a diameter.",
+    "Radius = {c} ÷ {2} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-53-legs",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "circles"
+   ],
+   "vars": {
+    "i": {
+     "int": [
+      0,
+      11
+     ]
+    },
+    "a": {
+     "expr": "tA(i)"
+    },
+    "b": {
+     "expr": "tB(i)"
+    },
+    "c": {
+     "expr": "tC(i)"
+    }
+   },
+   "prompt": "A right-angled triangle has sides {a} cm and {b} cm next to the right angle. Find the radius of its circumscribed circle.",
+   "answer": "c / 2",
+   "misconceptions": [
+    {
+     "id": "diam",
+     "wrong": "c",
+     "explain": "That is the diameter (the hypotenuse). Halve it."
+    },
+    {
+     "id": "leg",
+     "wrong": "b / 2",
+     "explain": "The diameter is the hypotenuse, not a shorter side."
+    }
+   ],
+   "solution": [
+    "Hypotenuse: √({a * a} + {b * b}) = {c} cm.",
+    "Radius = {c} ÷ {2} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m2-53-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "circles"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The circumscribed circle passes through the three vertices.",
+      "truth": "true"
+     },
+     {
+      "text": "The circumcentre is the same distance from A, B and C.",
+      "truth": "true"
+     },
+     {
+      "text": "In a right-angled triangle the hypotenuse is a diameter of the circumscribed circle.",
+      "truth": "true"
+     },
+     {
+      "text": "Two perpendicular bisectors are enough to find the circumcentre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The circumcentre is always inside the triangle.",
+      "truth": "false",
+      "explain": "For an obtuse triangle it is outside; for a right-angled one it is on the hypotenuse."
+     },
+     {
+      "text": "The circumcentre is where the medians meet.",
+      "truth": "false",
+      "explain": "The medians meet at the centroid."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
