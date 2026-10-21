@@ -1,0 +1,342 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-18",
+   "name": "Electricity in the home and the simple electric circuit"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A simple circuit has a source (cell, battery or mains), connecting wires, a switch and a load (bulb, motor). Current flows only when the circuit is closed (complete).\nSymbols: cell —| |—, bulb ⊗, switch, wire.\nIn the home: the mains supply (220 V in Cameroon), the meter, fuses or circuit breakers (they cut the current if it is too large), sockets, switches and earthing for safety.\nPower P = V × I (watts = volts × amperes). Energy used in kWh = power (kW) × time (h); cost = kWh × price per kWh.\nSafety: never touch switches with wet hands, do not overload sockets, do not repair wiring yourself.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "P": 100,
+   "h": 5,
+   "c": 80
+  },
+  "problem": "A {P} W bulb is on for {h} hours. Electricity costs {c} FCFA per kWh. Find the cost.",
+  "steps": [
+   "Energy: {P} W = {P / 1000} kW; {P / 1000} × {h} = {kWh(P, h)} kWh.",
+   "Cost: {kWh(P, h)} × {c} = {elecCost(P, h, c)} FCFA."
+  ],
+  "answer": "{elecCost(P, h, c)} FCFA",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c18-1",
+    "status": "draft",
+    "idea": "Current flows only in a closed (complete) circuit.",
+    "vars": {},
+    "example": [
+     "Open the switch: the bulb goes off."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-18-closed"
+    }
+   },
+   {
+    "id": "c18-2",
+    "status": "draft",
+    "idea": "P = V × I.",
+    "vars": {
+     "V": 220,
+     "I": 2
+    },
+    "example": [
+     "{V} V × {I} A = {powerVI(V, I)} W"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-18-power"
+    }
+   },
+   {
+    "id": "c18-3",
+    "status": "draft",
+    "idea": "Cost = kWh × price per kWh.",
+    "vars": {
+     "P": 1000,
+     "h": 2,
+     "c": 80
+    },
+    "example": [
+     "{kWh(P, h)} kWh × {c} = {elecCost(P, h, c)} FCFA"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-18-cost-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "heat-electricity"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        500,
+        1000,
+        1500,
+        2000
+       ]
+      },
+      "h": {
+       "int": [
+        1,
+        8
+       ]
+      },
+      "c": {
+       "pick": [
+        50,
+        80,
+        100
+       ]
+      }
+     },
+     "prompt": "A {P} W iron is used for {h} hours. Electricity costs {c} FCFA per kWh. How much does it cost?",
+     "answer": "elecCost(P, h, c)",
+     "misconceptions": [
+      {
+       "id": "watts",
+       "wrong": "P * h * c",
+       "explain": "Change watts into kilowatts first: ÷ {1000}."
+      }
+     ],
+     "solution": [
+      "Energy: {P} W = {P / 1000} kW; {P / 1000} × {h} = {kWh(P, h)} kWh.",
+      "Cost: {kWh(P, h)} × {c} = {answer} FCFA."
+     ],
+     "unit": "FCFA"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-18-closed",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When does a bulb in a simple circuit light up?",
+       "r": "when the circuit is closed (complete)",
+       "w": [
+        "when the switch is open",
+        "when a wire is cut",
+        "when there is no cell"
+       ],
+       "e": [
+        "An open switch breaks the circuit.",
+        "A cut wire breaks the circuit.",
+        "A source is needed."
+       ],
+       "y": "Current needs a complete path."
+      },
+      {
+       "q": "What does a fuse do?",
+       "r": "it melts and cuts the current if the current is too large",
+       "w": [
+        "it makes the current larger",
+        "it stores electricity",
+        "it measures the voltage"
+       ],
+       "e": [
+        "It does the opposite.",
+        "A battery stores energy.",
+        "A voltmeter measures voltage."
+       ],
+       "y": "It protects against too much current."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-18-power",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "V": {
+     "pick": [
+      12,
+      220,
+      230
+     ]
+    },
+    "I": {
+     "int": [
+      1,
+      10
+     ]
+    }
+   },
+   "prompt": "An appliance works on {V} V and takes a current of {I} A. Find its power.",
+   "answer": "powerVI(V, I)",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "V + I",
+     "explain": "Multiply: P = V × I."
+    }
+   ],
+   "solution": [
+    "P = V × I.",
+    "{V} × {I} = {answer} W."
+   ],
+   "unit": "W"
+  },
+  {
+   "id": "p2-18-cost",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      500,
+      1000,
+      1500,
+      2000
+     ]
+    },
+    "h": {
+     "int": [
+      1,
+      8
+     ]
+    },
+    "c": {
+     "pick": [
+      50,
+      80,
+      100
+     ]
+    }
+   },
+   "prompt": "A {P} W iron is used for {h} hours. Electricity costs {c} FCFA per kWh. How much does it cost?",
+   "answer": "elecCost(P, h, c)",
+   "misconceptions": [
+    {
+     "id": "watts",
+     "wrong": "P * h * c",
+     "explain": "Change watts into kilowatts first: ÷ {1000}."
+    }
+   ],
+   "solution": [
+    "Energy: {P} W = {P / 1000} kW; {P / 1000} × {h} = {kWh(P, h)} kWh.",
+    "Cost: {kWh(P, h)} × {c} = {answer} FCFA."
+   ],
+   "unit": "FCFA"
+  },
+  {
+   "id": "p2-18-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Which safety rule is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Do not touch switches with wet hands.",
+      "truth": "true"
+     },
+     {
+      "text": "Do not overload sockets.",
+      "truth": "true"
+     },
+     {
+      "text": "Call an electrician to repair wiring.",
+      "truth": "true"
+     },
+     {
+      "text": "A fuse protects the circuit.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Replace a fuse with a nail if it melts.",
+      "truth": "false",
+      "explain": "A nail does not melt: it removes the protection."
+     },
+     {
+      "text": "Push a metal object into a socket to test it.",
+      "truth": "false",
+      "explain": "That can kill: never do it."
+     },
+     {
+      "text": "Use a wet cloth to clean a lamp that is switched on.",
+      "truth": "false",
+      "explain": "Switch off and use a dry cloth."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

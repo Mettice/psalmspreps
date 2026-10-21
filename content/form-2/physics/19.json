@@ -1,0 +1,483 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-19",
+   "name": "Sources of light"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A luminous object gives out its own light: the sun, stars, a fire, a candle flame, a lamp, a firefly. A non-luminous object does not; we see it because it reflects light: the moon, a book, a mirror.\nNatural sources: the sun, stars, lightning, fireflies. Artificial (man-made) sources: candles, oil lamps, torches, electric bulbs, LEDs.\nSome sources also give heat (a candle, a filament bulb); others give light with little heat (LEDs, fireflies). LEDs use less electricity for the same light.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is the moon a source of light?",
+  "steps": [
+   "The moon does not make its own light.",
+   "We see it because it reflects sunlight: it is non-luminous."
+  ],
+  "answer": "No: it is non-luminous; it reflects the sun's light.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c19-1",
+    "status": "draft",
+    "idea": "Luminous objects give their own light; non-luminous ones reflect it.",
+    "vars": {},
+    "example": [
+     "The sun is luminous; the moon is not."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-19-lum"
+    }
+   },
+   {
+    "id": "c19-2",
+    "status": "draft",
+    "idea": "Natural sources and artificial sources.",
+    "vars": {},
+    "example": [
+     "Lightning is natural; a torch is artificial."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-19-nat"
+    }
+   },
+   {
+    "id": "c19-3",
+    "status": "draft",
+    "idea": "LEDs give light with little heat and save energy.",
+    "vars": {},
+    "example": [
+     "An LED bulb uses less electricity."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-19-led-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "light"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is an LED bulb better than a filament bulb?",
+         "r": "it gives the same light with less electricity and little heat",
+         "w": [
+          "it gives more heat",
+          "it uses more electricity",
+          "it needs petrol"
+         ],
+         "e": [
+          "It gives less heat.",
+          "It uses less.",
+          "It uses electricity."
+         ],
+         "y": "LEDs waste less energy as heat."
+        },
+        {
+         "q": "Why can we see a book in a lit room?",
+         "r": "it reflects light into our eyes",
+         "w": [
+          "it makes its own light",
+          "our eyes send light to it",
+          "it is an LED"
+         ],
+         "e": [
+          "A book is non-luminous.",
+          "Light comes into our eyes.",
+          "It is not a lamp."
+         ],
+         "y": "Non-luminous objects are seen by reflected light."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-19-lum",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "the moon",
+       "r": "non-luminous",
+       "w": [
+        "luminous",
+        "artificial",
+        "a star"
+       ],
+       "e": [
+        "It reflects sunlight.",
+        "It is natural, and not a source.",
+        "The moon is a satellite."
+       ],
+       "y": "The moon reflects the sun's light."
+      },
+      {
+       "q": "a candle flame",
+       "r": "luminous",
+       "w": [
+        "non-luminous",
+        "natural",
+        "a mirror"
+       ],
+       "e": [
+        "The flame makes its own light.",
+        "A candle is man-made.",
+        "It is a flame."
+       ],
+       "y": "A flame gives its own light."
+      },
+      {
+       "q": "a mirror",
+       "r": "non-luminous",
+       "w": [
+        "luminous",
+        "natural source",
+        "a star"
+       ],
+       "e": [
+        "It only reflects light.",
+        "It gives no light of its own.",
+        "It is not a star."
+       ],
+       "y": "A mirror reflects light."
+      },
+      {
+       "q": "a firefly",
+       "r": "luminous",
+       "w": [
+        "non-luminous",
+        "artificial",
+        "a planet"
+       ],
+       "e": [
+        "It makes its own light.",
+        "It is a living insect.",
+        "It is an insect."
+       ],
+       "y": "Fireflies make their own light."
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.q} luminous or non-luminous?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-19-nat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "lightning",
+       "r": "natural",
+       "w": [
+        "artificial",
+        "non-luminous",
+        "a receiver"
+       ],
+       "e": [
+        "Nobody makes lightning.",
+        "Lightning gives light.",
+        "It gives light."
+       ],
+       "y": "Lightning is natural."
+      },
+      {
+       "q": "a torch",
+       "r": "artificial",
+       "w": [
+        "natural",
+        "non-luminous",
+        "a receiver"
+       ],
+       "e": [
+        "People make torches.",
+        "A torch gives light.",
+        "It gives light."
+       ],
+       "y": "A torch is man-made."
+      },
+      {
+       "q": "the sun",
+       "r": "natural",
+       "w": [
+        "artificial",
+        "non-luminous",
+        "a receiver"
+       ],
+       "e": [
+        "Nobody made the sun.",
+        "The sun gives light.",
+        "It gives light."
+       ],
+       "y": "The sun is natural."
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.q} a natural or an artificial source of light?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-19-led",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is an LED bulb better than a filament bulb?",
+       "r": "it gives the same light with less electricity and little heat",
+       "w": [
+        "it gives more heat",
+        "it uses more electricity",
+        "it needs petrol"
+       ],
+       "e": [
+        "It gives less heat.",
+        "It uses less.",
+        "It uses electricity."
+       ],
+       "y": "LEDs waste less energy as heat."
+      },
+      {
+       "q": "Why can we see a book in a lit room?",
+       "r": "it reflects light into our eyes",
+       "w": [
+        "it makes its own light",
+        "our eyes send light to it",
+        "it is an LED"
+       ],
+       "e": [
+        "A book is non-luminous.",
+        "Light comes into our eyes.",
+        "It is not a lamp."
+       ],
+       "y": "Non-luminous objects are seen by reflected light."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-19-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The sun is luminous.",
+      "truth": "true"
+     },
+     {
+      "text": "A torch is artificial.",
+      "truth": "true"
+     },
+     {
+      "text": "The moon reflects sunlight.",
+      "truth": "true"
+     },
+     {
+      "text": "LEDs save electricity.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The moon makes its own light.",
+      "truth": "false",
+      "explain": "The moon reflects the sun's light."
+     },
+     {
+      "text": "A mirror is a source of light.",
+      "truth": "false",
+      "explain": "A mirror only reflects light."
+     },
+     {
+      "text": "Lightning is an artificial source.",
+      "truth": "false",
+      "explain": "Lightning is natural."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

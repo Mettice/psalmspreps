@@ -1,0 +1,395 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  16,
+  18
+ ],
+ "skills": [
+  {
+   "id": "p2-22",
+   "name": "Energy changes from one form to another"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Forms of energy: chemical (stored in food, fuel, batteries), electrical, light, heat (thermal), sound, kinetic (movement), potential (stored by height or stretching), nuclear.\nEnergy is never created or destroyed; it changes from one form to another (conservation of energy). Some energy is always \"wasted\" as heat.\nAn energy chain shows the changes: a torch: chemical → electrical → light + heat. A hydroelectric dam: potential → kinetic → electrical.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Write the energy chain for a radio working on batteries.",
+  "steps": [
+   "The battery stores chemical energy.",
+   "It gives electrical energy, which the loudspeaker turns into sound (and a little heat)."
+  ],
+  "answer": "chemical → electrical → sound (+ heat)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c22-1",
+    "status": "draft",
+    "idea": "Energy changes form; it is not created or destroyed.",
+    "vars": {},
+    "example": [
+     "A bulb: electrical → light + heat"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-22-chain"
+    }
+   },
+   {
+    "id": "c22-2",
+    "status": "draft",
+    "idea": "Chemical energy is stored in food, fuel and batteries.",
+    "vars": {},
+    "example": [
+     "We get chemical energy from food."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-22-form"
+    }
+   },
+   {
+    "id": "c22-3",
+    "status": "draft",
+    "idea": "Some energy is always wasted as heat.",
+    "vars": {},
+    "example": [
+     "A filament bulb gets hot."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-22-waste-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "energy-sources"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does an electric iron get hot?",
+         "r": "it changes electrical energy into heat on purpose",
+         "w": [
+          "it creates new energy",
+          "it changes heat into electricity",
+          "it stores potential energy"
+         ],
+         "e": [
+          "Energy is not created.",
+          "It is the opposite.",
+          "It does not store height energy."
+         ],
+         "y": "Electrical → heat."
+        },
+        {
+         "q": "Which is the correct chain for a hydroelectric dam?",
+         "r": "potential energy of water → kinetic energy → electrical energy",
+         "w": [
+          "electrical → kinetic → potential",
+          "light → electrical",
+          "chemical → sound"
+         ],
+         "e": [
+          "That is backwards.",
+          "That is a solar panel.",
+          "That does not fit a dam."
+         ],
+         "y": "Falling water turns turbines."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-22-chain",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "prompt": "Match each device to its energy change.",
+   "pool": [
+    {
+     "left": "a torch",
+     "right": "chemical energy (battery) → electrical energy → light (and heat)"
+    },
+    {
+     "left": "a hydroelectric dam",
+     "right": "kinetic energy of water → electrical energy"
+    },
+    {
+     "left": "a person climbing stairs",
+     "right": "chemical energy (food) → kinetic energy → potential energy"
+    },
+    {
+     "left": "a solar panel",
+     "right": "light energy → electrical energy"
+    },
+    {
+     "left": "a radio",
+     "right": "electrical energy → sound energy"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-22-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What form of energy is stored in a battery?",
+       "r": "chemical energy",
+       "w": [
+        "sound energy",
+        "light energy",
+        "kinetic energy"
+       ],
+       "e": [
+        "Sound is produced, not stored.",
+        "Light is produced, not stored.",
+        "Kinetic energy is movement."
+       ],
+       "y": "Batteries store chemical energy."
+      },
+      {
+       "q": "What form of energy does a moving car have?",
+       "r": "kinetic energy",
+       "w": [
+        "potential energy",
+        "nuclear energy",
+        "light energy"
+       ],
+       "e": [
+        "Potential energy is stored by height.",
+        "That is in atoms.",
+        "Light is from lamps."
+       ],
+       "y": "Moving things have kinetic energy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-22-waste",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does an electric iron get hot?",
+       "r": "it changes electrical energy into heat on purpose",
+       "w": [
+        "it creates new energy",
+        "it changes heat into electricity",
+        "it stores potential energy"
+       ],
+       "e": [
+        "Energy is not created.",
+        "It is the opposite.",
+        "It does not store height energy."
+       ],
+       "y": "Electrical → heat."
+      },
+      {
+       "q": "Which is the correct chain for a hydroelectric dam?",
+       "r": "potential energy of water → kinetic energy → electrical energy",
+       "w": [
+        "electrical → kinetic → potential",
+        "light → electrical",
+        "chemical → sound"
+       ],
+       "e": [
+        "That is backwards.",
+        "That is a solar panel.",
+        "That does not fit a dam."
+       ],
+       "y": "Falling water turns turbines."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-22-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Energy changes from one form to another.",
+      "truth": "true"
+     },
+     {
+      "text": "Food stores chemical energy.",
+      "truth": "true"
+     },
+     {
+      "text": "A solar panel changes light into electricity.",
+      "truth": "true"
+     },
+     {
+      "text": "Some energy is wasted as heat.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A torch creates new energy from nothing.",
+      "truth": "false",
+      "explain": "Energy is not created: the battery's chemical energy changes form."
+     },
+     {
+      "text": "A radio changes sound into electricity.",
+      "truth": "false",
+      "explain": "A radio changes electrical energy into sound."
+     },
+     {
+      "text": "Energy can be destroyed completely.",
+      "truth": "false",
+      "explain": "Energy is conserved; it only changes form."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

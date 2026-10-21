@@ -1,0 +1,399 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [
+  27
+ ],
+ "skills": [
+  {
+   "id": "p2-28",
+   "name": "Radiation from the sun"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The sun gives out radiation of many kinds: visible light, infrared (heat), ultraviolet (UV), and also other rays. Sunlight takes about 8 minutes (about 500 seconds) to travel the 150 million kilometres to the Earth, at about 300 000 km/s.\nUses: light for seeing and for photosynthesis, heat, solar energy, vitamin D made in the skin.\nDangers: too much UV causes sunburn, eye damage and skin cancer. The ozone layer high in the atmosphere absorbs most UV.\nProtection: avoid the strongest sun around midday, wear a hat, cover the skin, never look straight at the sun.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": 150000000
+  },
+  "problem": "Light travels at about {300000} km/s. The sun is {d} km away. How long does sunlight take to reach the Earth?",
+  "steps": [
+   "Time = distance ÷ speed.",
+   "{d} ÷ {300000} = {lightTime(d)} s (about eight minutes)."
+  ],
+  "answer": "{lightTime(d)} s",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c28-1",
+    "status": "draft",
+    "idea": "The sun gives visible light, infrared and ultraviolet.",
+    "vars": {},
+    "example": [
+     "UV is invisible."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-28-kind"
+    }
+   },
+   {
+    "id": "c28-2",
+    "status": "draft",
+    "idea": "Time = distance ÷ speed; light travels about {300000} km/s.",
+    "vars": {
+     "d": 3000000
+    },
+    "example": [
+     "{d} km → {lightTime(d)} s"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-28-time"
+    }
+   },
+   {
+    "id": "c28-3",
+    "status": "draft",
+    "idea": "The ozone layer absorbs most UV; protect your skin and eyes.",
+    "vars": {},
+    "example": [
+     "Wear a hat at midday."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-28-protect-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "radiation-climate"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What protects the Earth from most of the sun's UV?",
+         "r": "the ozone layer",
+         "w": [
+          "the clouds only",
+          "the oceans",
+          "the moon"
+         ],
+         "e": [
+          "Clouds help a little but not most.",
+          "Oceans do not absorb UV for us.",
+          "The moon does not shield us."
+         ],
+         "y": "Ozone high in the atmosphere absorbs UV."
+        },
+        {
+         "q": "Which is good protection against too much sun?",
+         "r": "a hat and clothes that cover the skin",
+         "w": [
+          "looking straight at the sun",
+          "staying in the midday sun for hours",
+          "removing sunglasses"
+         ],
+         "e": [
+          "That damages the eyes.",
+          "That is the most dangerous time.",
+          "Sunglasses help."
+         ],
+         "y": "Cover up and avoid midday sun."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-28-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which radiation from the sun can we see?",
+       "r": "visible light",
+       "w": [
+        "ultraviolet",
+        "infrared",
+        "radio waves"
+       ],
+       "e": [
+        "UV is invisible.",
+        "We feel infrared as heat.",
+        "Radio waves are invisible."
+       ],
+       "y": "Only visible light is seen."
+      },
+      {
+       "q": "What does sunlight help plants to do?",
+       "r": "make food by photosynthesis",
+       "w": [
+        "breathe out carbon dioxide only",
+        "stop growing",
+        "absorb UV to cool down"
+       ],
+       "e": [
+        "Photosynthesis takes in carbon dioxide.",
+        "Light helps them grow.",
+        "That is not the use."
+       ],
+       "y": "Plants use light to make food."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-28-time",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1,
+      40
+     ]
+    },
+    "d": {
+     "expr": "k * 300000 * 5"
+    }
+   },
+   "prompt": "Light travels at about {300000} km/s. How long does it take to travel {d} km?",
+   "answer": "lightTime(d)",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "d * 300000",
+     "explain": "Divide the distance by the speed."
+    }
+   ],
+   "solution": [
+    "Time = distance ÷ speed.",
+    "{d} ÷ {300000} = {answer} s."
+   ],
+   "unit": "s"
+  },
+  {
+   "id": "p2-28-protect",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What protects the Earth from most of the sun's UV?",
+       "r": "the ozone layer",
+       "w": [
+        "the clouds only",
+        "the oceans",
+        "the moon"
+       ],
+       "e": [
+        "Clouds help a little but not most.",
+        "Oceans do not absorb UV for us.",
+        "The moon does not shield us."
+       ],
+       "y": "Ozone high in the atmosphere absorbs UV."
+      },
+      {
+       "q": "Which is good protection against too much sun?",
+       "r": "a hat and clothes that cover the skin",
+       "w": [
+        "looking straight at the sun",
+        "staying in the midday sun for hours",
+        "removing sunglasses"
+       ],
+       "e": [
+        "That damages the eyes.",
+        "That is the most dangerous time.",
+        "Sunglasses help."
+       ],
+       "y": "Cover up and avoid midday sun."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-28-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Sunlight takes about eight minutes to reach the Earth.",
+      "truth": "true"
+     },
+     {
+      "text": "UV can cause sunburn.",
+      "truth": "true"
+     },
+     {
+      "text": "The ozone layer absorbs UV.",
+      "truth": "true"
+     },
+     {
+      "text": "Plants need sunlight.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "It is safe to look straight at the sun.",
+      "truth": "false",
+      "explain": "It can damage the eyes."
+     },
+     {
+      "text": "Sunlight reaches the Earth instantly.",
+      "truth": "false",
+      "explain": "It takes about eight minutes."
+     },
+     {
+      "text": "Infrared radiation is cold.",
+      "truth": "false",
+      "explain": "Infrared is heat radiation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

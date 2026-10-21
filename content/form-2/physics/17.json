@@ -1,0 +1,320 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "p2-17",
+   "name": "Solar panels for heating"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A solar water heater (solar collector) uses the sun's energy to heat water. A dark (black) metal plate under glass absorbs sunlight; water flows in pipes over the plate and gets hot; the hot water rises into an insulated tank.\nWhy black? Dark surfaces absorb heat radiation best; shiny or white surfaces reflect it. Why glass? It lets sunlight in and keeps heat inside (like a greenhouse). Why insulation? To stop heat escaping.\nEnergy: energy (J) = power (W) × time (s). A panel receiving 500 W for 60 s gets 30 000 J.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "P": 500,
+   "t": 120
+  },
+  "problem": "A solar collector receives {P} W of sunlight. How much energy does it receive in {t} s?",
+  "steps": [
+   "Energy = power × time.",
+   "{P} × {t} = {energyJ(P, t)} J."
+  ],
+  "answer": "{energyJ(P, t)} J",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c17-1",
+    "status": "draft",
+    "idea": "A black plate absorbs sunlight; the water in the pipes gets hot.",
+    "vars": {},
+    "example": [
+     "Black surfaces absorb heat best."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-17-why"
+    }
+   },
+   {
+    "id": "c17-2",
+    "status": "draft",
+    "idea": "Glass keeps heat in; the tank is insulated.",
+    "vars": {},
+    "example": [
+     "Insulation stops heat escaping."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-17-part"
+    }
+   },
+   {
+    "id": "c17-3",
+    "status": "draft",
+    "idea": "Energy (J) = power (W) × time (s).",
+    "vars": {
+     "P": 400,
+     "t": 60
+    },
+    "example": [
+     "{P} W for {t} s = {energyJ(P, t)} J"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-17-energy-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "heat-electricity"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        200,
+        300,
+        400,
+        500,
+        800,
+        1000
+       ]
+      },
+      "m": {
+       "int": [
+        1,
+        10
+       ]
+      }
+     },
+     "prompt": "A solar collector receives {P} W of sunlight for {m} minutes. How much energy does it receive?",
+     "answer": "energyJ(P, m * 60)",
+     "misconceptions": [
+      {
+       "id": "minutes",
+       "wrong": "P * m",
+       "explain": "Change minutes into seconds first: × {60}."
+      }
+     ],
+     "solution": [
+      "Change the time into seconds: {m} × {60} = {m * 60} s.",
+      "Energy = {P} × {m * 60} = {answer} J."
+     ],
+     "unit": "J"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-17-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is the plate of a solar water heater painted black?",
+       "r": "black surfaces absorb heat radiation best",
+       "w": [
+        "black is cheaper",
+        "black reflects sunlight",
+        "black keeps water cold"
+       ],
+       "e": [
+        "The reason is physics, not price.",
+        "Shiny or white surfaces reflect.",
+        "The aim is to heat the water."
+       ],
+       "y": "Dark surfaces absorb best."
+      },
+      {
+       "q": "Why is the hot-water tank insulated?",
+       "r": "to stop the heat escaping",
+       "w": [
+        "to make it heavier",
+        "to let sunlight in",
+        "to cool the water"
+       ],
+       "e": [
+        "Weight is not the reason.",
+        "The tank does not collect sunlight.",
+        "The aim is to keep it hot."
+       ],
+       "y": "Insulation reduces heat loss."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-17-part",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Match each part of a solar water heater to its job.",
+   "pool": [
+    {
+     "left": "the black plate",
+     "right": "absorbs sunlight"
+    },
+    {
+     "left": "the glass cover",
+     "right": "lets light in and keeps heat inside"
+    },
+    {
+     "left": "the pipes",
+     "right": "carry water over the hot plate"
+    },
+    {
+     "left": "the insulated tank",
+     "right": "stores hot water without losing heat"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-17-energy",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "heat-electricity"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      200,
+      300,
+      400,
+      500,
+      800,
+      1000
+     ]
+    },
+    "m": {
+     "int": [
+      1,
+      10
+     ]
+    }
+   },
+   "prompt": "A solar collector receives {P} W of sunlight for {m} minutes. How much energy does it receive?",
+   "answer": "energyJ(P, m * 60)",
+   "misconceptions": [
+    {
+     "id": "minutes",
+     "wrong": "P * m",
+     "explain": "Change minutes into seconds first: × {60}."
+    }
+   ],
+   "solution": [
+    "Change the time into seconds: {m} × {60} = {m * 60} s.",
+    "Energy = {P} × {m * 60} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p2-17-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "heat-electricity"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Black surfaces absorb heat radiation well.",
+      "truth": "true"
+     },
+     {
+      "text": "The glass cover keeps heat inside.",
+      "truth": "true"
+     },
+     {
+      "text": "Energy = power × time.",
+      "truth": "true"
+     },
+     {
+      "text": "Hot water rises into the tank.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Shiny white plates absorb sunlight best.",
+      "truth": "false",
+      "explain": "Shiny or white surfaces reflect it; black absorbs."
+     },
+     {
+      "text": "The tank should be thin metal with no insulation.",
+      "truth": "false",
+      "explain": "Insulation keeps the water hot."
+     },
+     {
+      "text": "A solar water heater needs petrol.",
+      "truth": "false",
+      "explain": "It uses the sun's energy."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

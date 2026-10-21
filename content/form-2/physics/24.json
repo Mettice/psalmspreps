@@ -1,0 +1,330 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  23
+ ],
+ "skills": [
+  {
+   "id": "p2-24",
+   "name": "Sport, muscles and health"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "During exercise, muscles contract and need more energy and oxygen, so the heart beats faster and we breathe faster. The pulse rate (beats per minute) rises.\nTo find the pulse rate: count the beats for 15 seconds and multiply by 4 (or count for 30 s and multiply by 2).\nBenefits of regular exercise: a stronger heart and muscles, lower blood pressure, healthy weight, better sleep and mood.\nMuscle stress and injuries: warm up before exercise, stretch after, drink water, rest; too much exercise without rest causes strains and cramps.\nA common guide for the maximum heart rate is 220 − age (beats per minute).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 22,
+   "s": 15
+  },
+  "problem": "Ngum counts {b} beats in {s} seconds. What is her pulse rate?",
+  "steps": [
+   "A minute has {60} s: {60} ÷ {s} = {60 / s}.",
+   "{b} × {60 / s} = {pulseRate(b, s)} beats per minute."
+  ],
+  "answer": "{pulseRate(b, s)} beats per minute",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c24-1",
+    "status": "draft",
+    "idea": "Exercise makes the heart beat faster to bring more oxygen to the muscles.",
+    "vars": {},
+    "example": [
+     "Pulse rises from about {70} to {120}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-24-why"
+    }
+   },
+   {
+    "id": "c24-2",
+    "status": "draft",
+    "idea": "Pulse rate = beats in {15} s × {4}.",
+    "vars": {
+     "b": 18
+    },
+    "example": [
+     "{b} beats in {15} s → {pulseRate(b, 15)} per minute"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-24-pulse"
+    }
+   },
+   {
+    "id": "c24-3",
+    "status": "draft",
+    "idea": "Warm up, stretch, drink water and rest to avoid injuries.",
+    "vars": {},
+    "example": [
+     "Warm-up prepares the muscles."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-24-safe-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "pressure-health"
+     ],
+     "prompt": "Which advice is wrong?",
+     "pool": {
+      "right": [
+       {
+        "text": "Warm up before running.",
+        "truth": "true"
+       },
+       {
+        "text": "Drink water during long exercise.",
+        "truth": "true"
+       },
+       {
+        "text": "Rest after hard training.",
+        "truth": "true"
+       },
+       {
+        "text": "Stretch after exercise.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Run as hard as possible without warming up.",
+        "truth": "false",
+        "explain": "Cold muscles tear easily: warm up first."
+       },
+       {
+        "text": "Never drink water during sport.",
+        "truth": "false",
+        "explain": "Drink water to replace sweat."
+       },
+       {
+        "text": "Train every day without any rest.",
+        "truth": "false",
+        "explain": "Muscles need rest to recover."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-24-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "pressure-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does the heart beat faster during exercise?",
+       "r": "the muscles need more oxygen and energy",
+       "w": [
+        "the heart is tired",
+        "the blood becomes cold",
+        "the lungs stop working"
+       ],
+       "e": [
+        "It beats faster, not slower.",
+        "Body temperature rises.",
+        "We breathe faster."
+       ],
+       "y": "More oxygen is carried to the muscles."
+      },
+      {
+       "q": "What is a benefit of regular exercise?",
+       "r": "a stronger heart and lower blood pressure",
+       "w": [
+        "higher blood pressure",
+        "weaker muscles",
+        "worse sleep"
+       ],
+       "e": [
+        "Exercise lowers it.",
+        "Exercise strengthens muscles.",
+        "Exercise improves sleep."
+       ],
+       "y": "Exercise keeps the heart healthy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-24-pulse",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pressure-health"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      10,
+      15,
+      20,
+      30
+     ]
+    },
+    "b": {
+     "int": [
+      10,
+      45
+     ]
+    }
+   },
+   "prompt": "Ayuk counts {b} heartbeats in {s} seconds. What is his pulse rate in beats per minute?",
+   "answer": "pulseRate(b, s)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "b",
+     "explain": "That is the count in {s} s. Scale it up to one minute."
+    }
+   ],
+   "solution": [
+    "One minute is {60} s, so multiply by {60} ÷ {s} = {60 / s}.",
+    "{b} × {60 / s} = {answer} beats per minute."
+   ],
+   "where": [
+    "isInt(b * 60 / s)",
+    "b * 60 / s >= 50 && b * 60 / s <= 190"
+   ]
+  },
+  {
+   "id": "p2-24-max",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pressure-health"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      11,
+      18
+     ]
+    }
+   },
+   "prompt": "Using the guide “maximum heart rate = {220} − age”, what is the maximum heart rate of a {a}-year-old pupil?",
+   "answer": "220 - a",
+   "misconceptions": [
+    {
+     "id": "added",
+     "wrong": "220 + a",
+     "explain": "Subtract the age."
+    }
+   ],
+   "solution": [
+    "{220} − {a} = {answer} beats per minute."
+   ]
+  },
+  {
+   "id": "p2-24-safe",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "pressure-health"
+   ],
+   "prompt": "Which advice is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Warm up before running.",
+      "truth": "true"
+     },
+     {
+      "text": "Drink water during long exercise.",
+      "truth": "true"
+     },
+     {
+      "text": "Rest after hard training.",
+      "truth": "true"
+     },
+     {
+      "text": "Stretch after exercise.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Run as hard as possible without warming up.",
+      "truth": "false",
+      "explain": "Cold muscles tear easily: warm up first."
+     },
+     {
+      "text": "Never drink water during sport.",
+      "truth": "false",
+      "explain": "Drink water to replace sweat."
+     },
+     {
+      "text": "Train every day without any rest.",
+      "truth": "false",
+      "explain": "Muscles need rest to recover."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

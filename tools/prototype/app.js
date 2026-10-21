@@ -468,9 +468,9 @@ function grownUp() {
         () => { status.textContent = "Some subjects could not be saved. Connect to the internet and try again."; });
     }, "") : null,
     // shareable files: Form One is one file (offline.html, as before); Form Two onwards has one file per term
-    ...(MODE === "pwa" ? (SHARE[form()] || []).map(({ term, file }) => el("a", { class: "button-link", href: file,
-      download: `psalmspreps-${CLASSES[form()].toLowerCase().replace(/ /g, "-")}${term ? `-term-${term}` : ""}.html` },
-      `Download one ${classesHere().length > 1 ? CLASSES[form()] + " " : ""}${term ? `Term ${term} ` : ""}file to share by Bluetooth or a flash drive`)) : []),
+    ...(MODE === "pwa" ? (SHARE[form()] || []).map(({ term, part, subjects, file }) => el("a", { class: "button-link", href: file,
+      download: `psalmspreps-${CLASSES[form()].toLowerCase().replace(/ /g, "-")}${term ? `-term-${term}` : ""}${part ? `-part-${part}` : ""}.html` },
+      `Download one ${classesHere().length > 1 ? CLASSES[form()] + " " : ""}${term ? `Term ${term} ` : ""}${part ? `(part ${part}: ${subjects.join(", ")}) ` : ""}file to share by Bluetooth or a flash drive`)) : []),
     button("Do the readiness check again", start, ""),
     button("Clear all progress on this phone", () => {
       if (!confirm("Clear all saved progress on this phone? This cannot be undone.")) return;

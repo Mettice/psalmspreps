@@ -1,9 +1,45 @@
 {
   "_note": "Sources for Form 2 Physics (Batch P2-1, Term 1). Computed answers follow the rules named here.",
-  "scientific-method": {"ref": "The scientific method as taught in Cameroonian secondary physics: data, tables, graphs, fair tests, evaluation", "supports": "Qualitative and quantitative data; units in table headings; mean of repeated readings; anomalous readings; reading graphs; trends and conclusions; independent, dependent and controlled variables; sources of error.", "checked": "Standard practice; means and graph readings computed by code. The examples and statements are authored: please check them."},
-  "measurement": {"ref": "SI base quantities and units (BIPM, The International System of Units); density = mass / volume; volume by displacement", "supports": "Length (m), mass (kg), time (s), temperature (K), current (A); instruments; prefixes kilo, centi, milli; densities of common materials (iron 7.9, aluminium 2.7, glass about 2.5, cork about 0.25 g/cm³).", "checked": "Standard values from memory; conversions computed by code (physics.js, tested). Please check the densities quoted."},
-  "speed": {"ref": "Speed = distance / time; average speed; 1 km/h = 1/3.6 m/s", "supports": "Calculations of speed, distance and time; unit conversions; average speed over a whole trip.", "checked": "Standard formula; values computed by code."},
-  "matter": {"ref": "The particle model of matter and the changes of state (as in Form One, TR-P07)", "supports": "Properties of solids, liquids and gases; particle arrangement and motion; compressibility; diffusion; names of the changes of state.", "checked": "Standard result; change names computed by processName() (physics.js)."},
-  "heat-electricity": {"ref": "Temperature scales, expansion, conductors and insulators, effects of electric current (heating, lighting, magnetic, chemical), conduction", "supports": "T(K) = T(°C) + 273; expansion gaps and the bimetallic strip; good conductors (metals: copper better than aluminium better than iron) and insulators; fuses; energy changes in devices.", "checked": "Standard results; the conductor order and the device examples are authored: please check them."},
-  "energy-sources": {"ref": "Renewable and non-renewable energy sources; fossil fuels; hydroelectric power in Cameroon (Edéa and Song Loulou dams)", "supports": "Coal, crude oil, natural gas and uranium are non-renewable; fossil fuels formed over millions of years; burning them releases carbon dioxide; Cameroon's main dams produce hydroelectricity.", "checked": "General knowledge, not opened in this session: please check the Cameroon examples."}
+  "scientific-method": {
+    "ref": "The scientific method as taught in Cameroonian secondary physics: data, tables, graphs, fair tests, evaluation",
+    "supports": "Qualitative and quantitative data; units in table headings; mean of repeated readings; anomalous readings; reading graphs; trends and conclusions; independent, dependent and controlled variables; sources of error.",
+    "checked": "Standard practice; means and graph readings computed by code. The examples and statements are authored: please check them."
+  },
+  "measurement": {
+    "ref": "SI base quantities and units (BIPM, The International System of Units); density = mass / volume; volume by displacement",
+    "supports": "Length (m), mass (kg), time (s), temperature (K), current (A); instruments; prefixes kilo, centi, milli; densities of common materials (iron 7.9, aluminium 2.7, glass about 2.5, cork about 0.25 g/cm³).",
+    "checked": "Standard values from memory; conversions computed by code (physics.js, tested). Please check the densities quoted."
+  },
+  "speed": {
+    "ref": "Speed = distance / time; average speed; 1 km/h = 1/3.6 m/s",
+    "supports": "Calculations of speed, distance and time; unit conversions; average speed over a whole trip.",
+    "checked": "Standard formula; values computed by code."
+  },
+  "matter": {
+    "ref": "The particle model of matter and the changes of state (as in Form One, TR-P07)",
+    "supports": "Properties of solids, liquids and gases; particle arrangement and motion; compressibility; diffusion; names of the changes of state.",
+    "checked": "Standard result; change names computed by processName() (physics.js)."
+  },
+  "heat-electricity": {
+    "ref": "Temperature scales, expansion, conductors and insulators, effects of electric current (heating, lighting, magnetic, chemical), conduction",
+    "supports": "T(K) = T(°C) + 273; expansion gaps and the bimetallic strip; good conductors (metals: copper better than aluminium better than iron) and insulators; fuses; energy changes in devices.",
+    "checked": "Standard results; the conductor order and the device examples are authored: please check them."
+  },
+  "energy-sources": {
+    "ref": "Renewable and non-renewable energy sources; fossil fuels; hydroelectric power in Cameroon (Edéa and Song Loulou dams)",
+    "supports": "Coal, crude oil, natural gas and uranium are non-renewable; fossil fuels formed over millions of years; burning them releases carbon dioxide; Cameroon's main dams produce hydroelectricity.",
+    "checked": "General knowledge, not opened in this session: please check the Cameroon examples."
+  },
+  "light": {
+    "ref": "Sources and receivers of light, transparent/translucent/opaque, rays and beams, shadows (size by similar triangles), the eye, lenses, short and long sight, lens power P = 100/f(cm)",
+    "checked": "Standard Form 2 physics (Cameroon syllabus, Term 2); computed by science2.js where marked. Not opened online for this batch (2026-10-21): a Physics teacher checks (TR-Q items)."
+  },
+  "pressure-health": {
+    "ref": "Pressure = force/area, pressure in liquids p = ρgh, blood pressure (systolic/diastolic, mmHg), pulse rate, exercise and health (220 − age as a common guide only)",
+    "checked": "Standard Form 2 physics (Cameroon syllabus, Term 2); computed by science2.js where marked. Not opened online for this batch (2026-10-21): a Physics teacher checks (TR-Q items)."
+  },
+  "radiation-climate": {
+    "ref": "Kinds of radiation, emissions, the sun's radiation and the ozone layer, the greenhouse effect, global warming, climate change, adaptation and mitigation, sustainable management (national parks Korup, Waza, Dja)",
+    "checked": "Standard Form 2 physics (Cameroon syllabus, Term 2); computed by science2.js where marked. Not opened online for this batch (2026-10-21): a Physics teacher checks (TR-Q items)."
+  }
 }

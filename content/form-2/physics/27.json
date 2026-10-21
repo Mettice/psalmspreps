@@ -1,0 +1,440 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "p2-27",
+   "name": "Radiation and emissions into the atmosphere"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Radiation is energy that travels as waves: light, infrared (heat), ultraviolet (UV), radio waves, X-rays.\nHuman activities emit (send out) harmful substances into the atmosphere: carbon dioxide and carbon monoxide from burning fuel and bushes, smoke and soot, gases from fridges and aerosol sprays (CFCs, which damage the ozone layer), dust.\nThe Earth itself gives out infrared radiation (heat). Gases like carbon dioxide trap some of it.\nEffects: air pollution, coughs and asthma, damage to the ozone layer, global warming. Reducing emissions: maintain engines, use clean energy, plant trees, stop bush fires.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Name two emissions from a bush fire and one effect.",
+  "steps": [
+   "Burning plants releases smoke (soot) and carbon dioxide.",
+   "Effect: the air is polluted and people cough; carbon dioxide adds to global warming."
+  ],
+  "answer": "smoke and carbon dioxide; air pollution and warming",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c27-1",
+    "status": "draft",
+    "idea": "Radiation is energy travelling as waves: light, infrared, UV.",
+    "vars": {},
+    "example": [
+     "Infrared radiation is felt as heat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-27-kind"
+    }
+   },
+   {
+    "id": "c27-2",
+    "status": "draft",
+    "idea": "Burning fuel emits carbon dioxide, carbon monoxide and smoke.",
+    "vars": {},
+    "example": [
+     "Old engines give thick smoke."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-27-emit"
+    }
+   },
+   {
+    "id": "c27-3",
+    "status": "draft",
+    "idea": "CFCs damage the ozone layer; carbon dioxide traps heat.",
+    "vars": {},
+    "example": [
+     "Old fridges and some sprays release CFCs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-27-effect-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "radiation-climate"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is carbon monoxide from a closed room with a charcoal stove dangerous?",
+         "r": "it is a poisonous gas that can kill",
+         "w": [
+          "it makes the room cold",
+          "it is healthy",
+          "it cleans the air"
+         ],
+         "e": [
+          "It is a poison.",
+          "It is a poison.",
+          "It pollutes."
+         ],
+         "y": "Never use a charcoal stove in a closed room."
+        },
+        {
+         "q": "How can we reduce emissions?",
+         "r": "maintain engines and stop bush fires",
+         "w": [
+          "burn more rubbish",
+          "use older vehicles",
+          "cut more trees"
+         ],
+         "e": [
+          "That adds smoke.",
+          "Old engines pollute more.",
+          "Trees absorb carbon dioxide."
+         ],
+         "y": "Cleaner engines and fewer fires mean less smoke."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-27-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which radiation do we feel as heat?",
+       "r": "infrared",
+       "w": [
+        "ultraviolet",
+        "radio waves",
+        "X-rays"
+       ],
+       "e": [
+        "UV causes sunburn but we do not feel it as heat.",
+        "We do not feel radio waves.",
+        "X-rays are used in hospitals."
+       ],
+       "y": "Infrared is heat radiation."
+      },
+      {
+       "q": "Which radiation causes sunburn?",
+       "r": "ultraviolet (UV)",
+       "w": [
+        "infrared",
+        "radio waves",
+        "visible light only"
+       ],
+       "e": [
+        "Infrared warms us.",
+        "Radio waves carry broadcasts.",
+        "UV is invisible."
+       ],
+       "y": "UV burns the skin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-27-emit",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What gas does burning wood or petrol emit?",
+       "r": "carbon dioxide",
+       "w": [
+        "oxygen",
+        "nitrogen only",
+        "pure water only"
+       ],
+       "e": [
+        "Burning uses up oxygen.",
+        "Nitrogen is not the main product.",
+        "Water vapour is not the only product."
+       ],
+       "y": "Burning releases carbon dioxide."
+      },
+      {
+       "q": "What damages the ozone layer?",
+       "r": "CFC gases from old fridges and some sprays",
+       "w": [
+        "water vapour from rivers",
+        "oxygen from plants",
+        "sound from radios"
+       ],
+       "e": [
+        "Water vapour is not the problem.",
+        "Plants give oxygen.",
+        "Sound is not a gas."
+       ],
+       "y": "CFCs break down ozone."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-27-effect",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is carbon monoxide from a closed room with a charcoal stove dangerous?",
+       "r": "it is a poisonous gas that can kill",
+       "w": [
+        "it makes the room cold",
+        "it is healthy",
+        "it cleans the air"
+       ],
+       "e": [
+        "It is a poison.",
+        "It is a poison.",
+        "It pollutes."
+       ],
+       "y": "Never use a charcoal stove in a closed room."
+      },
+      {
+       "q": "How can we reduce emissions?",
+       "r": "maintain engines and stop bush fires",
+       "w": [
+        "burn more rubbish",
+        "use older vehicles",
+        "cut more trees"
+       ],
+       "e": [
+        "That adds smoke.",
+        "Old engines pollute more.",
+        "Trees absorb carbon dioxide."
+       ],
+       "y": "Cleaner engines and fewer fires mean less smoke."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-27-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Infrared radiation is felt as heat.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning fuel emits carbon dioxide.",
+      "truth": "true"
+     },
+     {
+      "text": "CFCs damage the ozone layer.",
+      "truth": "true"
+     },
+     {
+      "text": "Bush fires pollute the air.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Carbon monoxide is a harmless gas.",
+      "truth": "false",
+      "explain": "It is poisonous."
+     },
+     {
+      "text": "Planting trees increases emissions.",
+      "truth": "false",
+      "explain": "Trees absorb carbon dioxide."
+     },
+     {
+      "text": "UV radiation cannot harm the skin.",
+      "truth": "false",
+      "explain": "UV causes sunburn."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

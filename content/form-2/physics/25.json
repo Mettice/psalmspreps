@@ -1,0 +1,347 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "p2-25",
+   "name": "The eye, lenses and defects of vision"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The eye works like a camera: light enters through the cornea and pupil; the lens (a converging lens) focuses it on the retina, which sends signals to the brain through the optic nerve.\nA converging (convex) lens is thicker in the middle and brings parallel rays together at the focus. A diverging (concave) lens is thinner in the middle and spreads rays out.\nDefects: short sight (myopia) — a person sees near objects clearly but not far ones; the image forms in front of the retina; corrected with a diverging lens.\nLong sight (hypermetropia) — far objects clear, near ones blurred; the image forms behind the retina; corrected with a converging lens.\nThe power of a lens in dioptres (D) = 100 ÷ focal length in cm (positive for converging, negative for diverging).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": 25
+  },
+  "problem": "Find the power of a converging lens with a focal length of {f} cm.",
+  "steps": [
+   "P = {100} ÷ f (in cm).",
+   "{100} ÷ {f} = {lensPower(f)} D."
+  ],
+  "answer": "{lensPower(f)} D",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c25-1",
+    "status": "draft",
+    "idea": "The lens of the eye focuses light on the retina.",
+    "vars": {},
+    "example": [
+     "The optic nerve carries the signals to the brain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-25-eye"
+    }
+   },
+   {
+    "id": "c25-2",
+    "status": "draft",
+    "idea": "Short sight → diverging lens; long sight → converging lens.",
+    "vars": {},
+    "example": [
+     "A short-sighted pupil cannot read the board from the back."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-25-defect"
+    }
+   },
+   {
+    "id": "c25-3",
+    "status": "draft",
+    "idea": "Power (D) = {100} ÷ focal length (cm).",
+    "vars": {
+     "f": 50
+    },
+    "example": [
+     "f = {f} cm → {lensPower(f)} D"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-25-power-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "light"
+     ],
+     "vars": {
+      "kind": {
+       "pick": [
+        "converging",
+        "diverging"
+       ]
+      },
+      "f": {
+       "pick": [
+        10,
+        20,
+        25,
+        50,
+        100
+       ]
+      }
+     },
+     "prompt": "A {kind} lens has a focal length of {f} cm. Find its power in dioptres.",
+     "answer": "kind == 'converging' ? lensPower(f) : -lensPower(f)",
+     "misconceptions": [
+      {
+       "id": "sign",
+       "wrong": "kind == 'converging' ? -lensPower(f) : lensPower(f)",
+       "explain": "Check the sign: converging lenses have positive power, diverging negative."
+      },
+      {
+       "id": "times",
+       "wrong": "f * 100",
+       "explain": "Divide: P = {100} ÷ f."
+      }
+     ],
+     "solution": [
+      "P = {100} ÷ f; {kind == 'converging' ? 'positive for a converging lens' : 'negative for a diverging lens'}.",
+      "P = {answer} D."
+     ],
+     "signed": true,
+     "unit": "D"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-25-eye",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "prompt": "Match each part of the eye to its job.",
+   "pool": [
+    {
+     "left": "the lens",
+     "right": "focuses light on the retina"
+    },
+    {
+     "left": "the retina",
+     "right": "receives the image"
+    },
+    {
+     "left": "the optic nerve",
+     "right": "carries signals to the brain"
+    },
+    {
+     "left": "the pupil",
+     "right": "the hole that lets light in"
+    },
+    {
+     "left": "the iris",
+     "right": "controls the size of the pupil"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-25-defect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A pupil sees near things clearly but cannot read the board from the back of the class. What defect has he?",
+       "r": "short sight (myopia)",
+       "w": [
+        "long sight (hypermetropia)",
+        "colour blindness",
+        "no defect"
+       ],
+       "e": [
+        "Long sight blurs near things.",
+        "That is about colours.",
+        "He cannot see far."
+       ],
+       "y": "Far objects are blurred: short sight."
+      },
+      {
+       "q": "Which lens corrects short sight?",
+       "r": "a diverging (concave) lens",
+       "w": [
+        "a converging (convex) lens",
+        "a flat glass",
+        "a mirror"
+       ],
+       "e": [
+        "That corrects long sight.",
+        "It does not change the rays.",
+        "A mirror is not worn as glasses."
+       ],
+       "y": "A diverging lens moves the image back onto the retina."
+      },
+      {
+       "q": "Which lens corrects long sight?",
+       "r": "a converging (convex) lens",
+       "w": [
+        "a diverging (concave) lens",
+        "a flat glass",
+        "a prism"
+       ],
+       "e": [
+        "That corrects short sight.",
+        "It does not change the rays.",
+        "A prism is not worn as glasses."
+       ],
+       "y": "A converging lens brings the image forward onto the retina."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-25-power",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "kind": {
+     "pick": [
+      "converging",
+      "diverging"
+     ]
+    },
+    "f": {
+     "pick": [
+      10,
+      20,
+      25,
+      50,
+      100
+     ]
+    }
+   },
+   "prompt": "A {kind} lens has a focal length of {f} cm. Find its power in dioptres.",
+   "answer": "kind == 'converging' ? lensPower(f) : -lensPower(f)",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "kind == 'converging' ? -lensPower(f) : lensPower(f)",
+     "explain": "Check the sign: converging lenses have positive power, diverging negative."
+    },
+    {
+     "id": "times",
+     "wrong": "f * 100",
+     "explain": "Divide: P = {100} ÷ f."
+    }
+   ],
+   "solution": [
+    "P = {100} ÷ f; {kind == 'converging' ? 'positive for a converging lens' : 'negative for a diverging lens'}.",
+    "P = {answer} D."
+   ],
+   "signed": true,
+   "unit": "D"
+  },
+  {
+   "id": "p2-25-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The retina receives the image.",
+      "truth": "true"
+     },
+     {
+      "text": "Short sight is corrected with a diverging lens.",
+      "truth": "true"
+     },
+     {
+      "text": "A converging lens is thicker in the middle.",
+      "truth": "true"
+     },
+     {
+      "text": "The optic nerve carries signals to the brain.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Long sight is corrected with a diverging lens.",
+      "truth": "false",
+      "explain": "Long sight needs a converging lens."
+     },
+     {
+      "text": "The image of a short-sighted eye forms behind the retina.",
+      "truth": "false",
+      "explain": "It forms in front of the retina."
+     },
+     {
+      "text": "A diverging lens brings rays together.",
+      "truth": "false",
+      "explain": "A diverging lens spreads rays out."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

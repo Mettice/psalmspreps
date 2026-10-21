@@ -5,7 +5,7 @@
 //   node tools/prototype/build.mjs
 // The engine modules are inlined unchanged except for import/export lines, so the prototype runs
 // exactly the code the tests cover.
-import { readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync, readdirSync } from "node:fs";
 import { posix } from "node:path";
 import { createHash } from "node:crypto";
 
@@ -31,7 +31,7 @@ const SPINE = { maths: "mathematics", english: "english-language", physics: "phy
 const upTo = (n) => Array.from({ length: n }, (_, i) => i + 1);
 const BATCH = { maths: upTo(16), english: upTo(16), physics: upTo(19), chemistry: upTo(21), geography: upTo(10), "home-economics": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21],
   history: upTo(10), biology: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21], "computer-science": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 18], french: upTo(15),
-  "f2-maths": upTo(54), "f2-english": upTo(76), "f2-physics": upTo(15), "f2-chemistry": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17],
+  "f2-maths": upTo(54), "f2-english": upTo(76), "f2-physics": upTo(31), "f2-chemistry": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17],
   "f2-biology": [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21],
   "f2-home-economics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "f2-geography": upTo(10), "f2-history": upTo(10),
   "f2-computer-science": [1, 2, 4, 5, 6, 8, 9, 11, 12, 14, 15, 16, 18, 19], "f2-accounting": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12],
@@ -324,7 +324,7 @@ const PAPER = ${safeJson(pick(paper, only))};
 const MODE = ${JSON.stringify(mode)};
 const BUILD = ${JSON.stringify(build)};
 const VERSIONS = ${safeJson(versions)};
-const SHARE = ${safeJson(share)};
+const SHARE = ${safeJson(mode === "pwa" ? share : {})};
 const TERM = ${JSON.stringify(term)};
 ${read("tools/prototype/app.js")}
 ${read("tools/prototype/review.js")}
@@ -337,24 +337,41 @@ ${tail}</body>
 // Lesson numbers are the same in every file, so progress carries over in the installable app.
 const ofClass = (c) => Object.keys(SUBJECTS).filter((s) => CLASS_OF[s] === c);
 const termsOf = (c) => [...new Set(ofClass(c).flatMap((s) => lessons[s].map((n) => termOf[s][n])))].sort();
+// The single-file page of some subjects of a class, for one term (term null: every lesson, as for Form One).
+const singlePage = (only, term) => {
+  const inTerm = (s) => lessons[s].filter((n) => term === null || termOf[s][n] === term);
+  return page({ mode: "single", only, term, lessonsJs: safeJson(Object.fromEntries(only.map((s) => [s, inTerm(s)]))),
+    contentJs: safeJson(Object.fromEntries(only.map((s) => [s, Object.fromEntries(inTerm(s).map((n) => [n, content[s][n]]))]))) });
+};
+const fits = (html) => Buffer.byteLength(html, "utf8") <= MAX_BYTES;
+// A term that does not fit in one file is split into parts of whole subjects, halving until every part fits (2026-10-21).
+function termParts(c, term) {
+  const go = (subs) => {
+    const html = singlePage(subs, term);
+    if (fits(html)) return [{ subs, html }];
+    if (subs.length === 1) throw new Error(`${c} term ${term}: ${subs[0]} alone is over the ${MAX_BYTES} limit`);
+    const h = Math.ceil(subs.length / 2);
+    return [...go(subs.slice(0, h)), ...go(subs.slice(h))];
+  };
+  const parts = go(ofClass(c).filter((s) => lessons[s].some((n) => termOf[s][n] === term)));
+  return parts.map((p, i) => ({ ...p, c, term, part: parts.length > 1 ? i + 1 : null,
+    file: `offline-${c}-term-${term}${parts.length > 1 ? `-part-${i + 1}` : ""}.html`,
+    local: `${c.replace("-", "")}-term-${term}${parts.length > 1 ? `-part-${i + 1}` : ""}.html` }));
+}
+const html = singlePage(ofClass("form-1"), null);
+if (!fits(html)) throw new Error(`form-1 single file is ${Buffer.byteLength(html, "utf8")} bytes, over the ${MAX_BYTES} limit`);
+console.log(`form-1: one file of ${(Buffer.byteLength(html, "utf8") / 1024).toFixed(1)} KB (limit ${MAX_BYTES / 1024} KB)`);
+writeFileSync(new URL("tools/prototype/form1.html", ROOT), html, "utf8");
+const termFiles = Object.keys(CLASSES).filter((c) => c !== "form-1" && ofClass(c).length).flatMap((c) => termsOf(c).flatMap((t) => termParts(c, t)));
+for (const f of readdirSync(new URL("tools/prototype/", ROOT))) if (/^form\d-term-.*\.html$/.test(f)) rmSync(new URL(`tools/prototype/${f}`, ROOT));  // stale term files
+for (const f of termFiles) {
+  writeFileSync(new URL(`tools/prototype/${f.local}`, ROOT), f.html, "utf8");
+  console.log(`${f.c} term ${f.term}${f.part ? ` part ${f.part}` : ""}: one file of ${(Buffer.byteLength(f.html, "utf8") / 1024).toFixed(1)} KB (${f.subs.length} subjects)`);
+}
 const share = { "form-1": [{ file: "offline.html" }],
   ...Object.fromEntries(Object.keys(CLASSES).filter((c) => c !== "form-1" && ofClass(c).length)
-    .map((c) => [c, termsOf(c).map((t) => ({ term: t, file: `offline-${c}-term-${t}.html` }))])) };
-const single = (c, term = null) => {
-  const inTerm = (s) => lessons[s].filter((n) => term === null || termOf[s][n] === term);
-  const only = ofClass(c).filter((s) => inTerm(s).length);
-  const html = page({ mode: "single", only, term, lessonsJs: safeJson(Object.fromEntries(only.map((s) => [s, inTerm(s)]))),
-    contentJs: safeJson(Object.fromEntries(only.map((s) => [s, Object.fromEntries(inTerm(s).map((n) => [n, content[s][n]]))]))) });
-  const bytes = Buffer.byteLength(html, "utf8"), name = term ? `${c} term ${term}` : c;
-  if (bytes > MAX_BYTES) throw new Error(`${name} single file is ${bytes} bytes, over the ${MAX_BYTES} limit`);
-  console.log(`${name}: one file of ${(bytes / 1024).toFixed(1)} KB (limit ${MAX_BYTES / 1024} KB)`);
-  return html;
-};
-const html = single("form-1");
-writeFileSync(new URL("tools/prototype/form1.html", ROOT), html, "utf8");
-const termFiles = Object.entries(share).filter(([c]) => c !== "form-1").flatMap(([c, files]) => files.map(({ term, file }) => ({ c, term, file, html: single(c, term) })));
-for (const f of termFiles) writeFileSync(new URL(`tools/prototype/${f.c.replace("-", "")}-term-${f.term}.html`, ROOT), f.html, "utf8");
-console.log(`wrote tools/prototype/form1.html${termFiles.map((f) => `, ${f.c.replace("-", "")}-term-${f.term}.html`).join("")}`);
+    .map((c) => [c, termFiles.filter((f) => f.c === c).map((f) => ({ term: f.term, part: f.part, subjects: f.subs.map((s) => SUBJECTS[s]), file: f.file }))])) };
+console.log(`wrote tools/prototype/form1.html${termFiles.map((f) => `, ${f.local}`).join("")}`);
 
 // ---- the installable app (2026-10-17): tools/prototype/pwa/ → published as the site's root
 const PWA = new URL("tools/prototype/pwa/", ROOT);

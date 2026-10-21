@@ -1,0 +1,440 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "p2-30",
+   "name": "Global warming"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Global warming is the slow rise in the average temperature of the Earth, caused mainly by the extra greenhouse gases that people add to the atmosphere.\nConsequences: melting glaciers and ice, rising sea levels (flooding of coasts such as Limbé and Kribi), more droughts in the Sahel and the north of Cameroon, heavier rains and floods, loss of crops and animals, the spread of diseases like malaria to new areas.\nSolutions: plant trees, use renewable energy, save energy, stop bush fires, use public transport, reduce waste.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give one consequence of global warming for the north of Cameroon and one for the coast.",
+  "steps": [
+   "North: longer droughts dry up wells and crops.",
+   "Coast: rising sea levels flood low land."
+  ],
+  "answer": "droughts in the north; flooding on the coast",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c30-1",
+    "status": "draft",
+    "idea": "Global warming: the slow rise of the Earth's average temperature.",
+    "vars": {},
+    "example": [
+     "Caused mainly by extra greenhouse gases."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-30-def"
+    }
+   },
+   {
+    "id": "c30-2",
+    "status": "draft",
+    "idea": "Consequences: rising seas, droughts, floods, diseases.",
+    "vars": {},
+    "example": [
+     "Melting ice raises the sea level."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-30-effect"
+    }
+   },
+   {
+    "id": "c30-3",
+    "status": "draft",
+    "idea": "Solutions: trees, renewable energy, no bush fires.",
+    "vars": {},
+    "example": [
+     "Plant a tree every rainy season."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-30-solve-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "radiation-climate"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which action helps to fight global warming?",
+         "r": "using solar energy instead of a diesel generator",
+         "w": [
+          "burning more rubbish",
+          "cutting forests",
+          "leaving engines running"
+         ],
+         "e": [
+          "That adds greenhouse gases.",
+          "That removes trees.",
+          "That burns fuel for nothing."
+         ],
+         "y": "Solar energy emits no carbon dioxide."
+        },
+        {
+         "q": "Why does planting trees help?",
+         "r": "trees absorb carbon dioxide",
+         "w": [
+          "trees produce carbon dioxide only",
+          "trees make the Earth hotter",
+          "trees stop the rain"
+         ],
+         "e": [
+          "They take it in during photosynthesis.",
+          "They cool the land.",
+          "They help the water cycle."
+         ],
+         "y": "Trees store carbon."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-30-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is global warming?",
+       "r": "the slow rise of the Earth's average temperature",
+       "w": [
+        "a hot day",
+        "the dry season",
+        "a volcano erupting"
+       ],
+       "e": [
+        "One hot day is weather.",
+        "That is a normal season.",
+        "That is a natural event."
+       ],
+       "y": "It is a long-term rise in temperature."
+      },
+      {
+       "q": "What is the main cause of global warming?",
+       "r": "extra greenhouse gases from human activities",
+       "w": [
+        "the moon",
+        "too many rivers",
+        "earthquakes"
+       ],
+       "e": [
+        "The moon does not warm the Earth.",
+        "Rivers do not cause it.",
+        "Earthquakes do not cause it."
+       ],
+       "y": "Burning fuel and forests add greenhouse gases."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-30-effect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do sea levels rise with global warming?",
+       "r": "ice melts and warm water takes more space",
+       "w": [
+        "it rains only on the sea",
+        "rivers flow backwards",
+        "fish drink less water"
+       ],
+       "e": [
+        "Rain falls everywhere.",
+        "That does not happen.",
+        "That is not a cause."
+       ],
+       "y": "Melting ice adds water."
+      },
+      {
+       "q": "Which is a consequence of global warming?",
+       "r": "longer droughts",
+       "w": [
+        "colder winters everywhere",
+        "more ice on mountains",
+        "fewer floods everywhere"
+       ],
+       "e": [
+        "The average temperature rises.",
+        "Ice melts.",
+        "Heavy rains and floods increase in some places."
+       ],
+       "y": "Dry areas get drier."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-30-solve",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which action helps to fight global warming?",
+       "r": "using solar energy instead of a diesel generator",
+       "w": [
+        "burning more rubbish",
+        "cutting forests",
+        "leaving engines running"
+       ],
+       "e": [
+        "That adds greenhouse gases.",
+        "That removes trees.",
+        "That burns fuel for nothing."
+       ],
+       "y": "Solar energy emits no carbon dioxide."
+      },
+      {
+       "q": "Why does planting trees help?",
+       "r": "trees absorb carbon dioxide",
+       "w": [
+        "trees produce carbon dioxide only",
+        "trees make the Earth hotter",
+        "trees stop the rain"
+       ],
+       "e": [
+        "They take it in during photosynthesis.",
+        "They cool the land.",
+        "They help the water cycle."
+       ],
+       "y": "Trees store carbon."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-30-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Global warming raises sea levels.",
+      "truth": "true"
+     },
+     {
+      "text": "Planting trees helps.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning fuel adds greenhouse gases.",
+      "truth": "true"
+     },
+     {
+      "text": "Droughts may become longer.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Global warming makes the Earth colder.",
+      "truth": "false",
+      "explain": "It raises the average temperature."
+     },
+     {
+      "text": "Cutting forests stops global warming.",
+      "truth": "false",
+      "explain": "It adds carbon dioxide."
+     },
+     {
+      "text": "Global warming has no effect on Cameroon.",
+      "truth": "false",
+      "explain": "Droughts and floods affect Cameroon."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

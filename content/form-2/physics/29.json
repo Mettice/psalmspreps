@@ -1,0 +1,390 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [
+  27,
+  28
+ ],
+ "skills": [
+  {
+   "id": "p2-29",
+   "name": "The greenhouse effect"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A greenhouse is a glass house for plants: sunlight passes through the glass, warms the inside, and the glass keeps much of the heat in.\nThe atmosphere works in a similar way. Sunlight reaches the ground and warms it; the warm ground gives out infrared radiation; some gases in the air (greenhouse gases: carbon dioxide, methane, water vapour) absorb part of it and keep the Earth warm.\nWithout the greenhouse effect the Earth would be too cold for life. But when people add more greenhouse gases (burning fuel, cutting forests, bush fires, rotting rubbish that gives methane), more heat is trapped: this is the enhanced greenhouse effect, the cause of global warming.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why is the natural greenhouse effect useful but too much of it harmful?",
+  "steps": [
+   "Useful: it keeps the Earth warm enough for life.",
+   "Harmful: extra greenhouse gases trap more heat and the Earth gets too warm."
+  ],
+  "answer": "It keeps us warm; too much warms the Earth dangerously.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c29-1",
+    "status": "draft",
+    "idea": "Greenhouse gases (carbon dioxide, methane, water vapour) trap heat.",
+    "vars": {},
+    "example": [
+     "Like the glass of a greenhouse."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-29-gas"
+    }
+   },
+   {
+    "id": "c29-2",
+    "status": "draft",
+    "idea": "The natural greenhouse effect keeps the Earth warm enough for life.",
+    "vars": {},
+    "example": [
+     "Without it, the Earth would freeze."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-29-good"
+    }
+   },
+   {
+    "id": "c29-3",
+    "status": "draft",
+    "idea": "Human activities add greenhouse gases: the enhanced effect.",
+    "vars": {},
+    "example": [
+     "Burning fuel adds carbon dioxide."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-29-human-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "radiation-climate"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which human activity increases the greenhouse effect?",
+         "r": "burning fuel and forests",
+         "w": [
+          "planting trees",
+          "using solar energy",
+          "walking to school"
+         ],
+         "e": [
+          "Trees absorb carbon dioxide.",
+          "Solar energy emits no carbon dioxide.",
+          "Walking burns no fuel."
+         ],
+         "y": "Burning adds carbon dioxide."
+        },
+        {
+         "q": "What would happen without any greenhouse effect?",
+         "r": "the Earth would be too cold for life",
+         "w": [
+          "the Earth would be hotter",
+          "nothing would change",
+          "there would be more rain"
+         ],
+         "e": [
+          "It would be colder.",
+          "It would be much colder.",
+          "The main effect is cold."
+         ],
+         "y": "Greenhouse gases keep us warm."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-29-gas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is a greenhouse gas?",
+       "r": "carbon dioxide",
+       "w": [
+        "oxygen",
+        "nitrogen",
+        "argon"
+       ],
+       "e": [
+        "Oxygen does not trap much heat.",
+        "Nitrogen does not trap much heat.",
+        "Argon does not trap heat."
+       ],
+       "y": "Carbon dioxide traps infrared radiation."
+      },
+      {
+       "q": "Which is a greenhouse gas made by rotting rubbish?",
+       "r": "methane",
+       "w": [
+        "oxygen",
+        "hydrogen",
+        "helium"
+       ],
+       "e": [
+        "Rotting uses oxygen.",
+        "Hydrogen is not the main gas.",
+        "Helium is not produced."
+       ],
+       "y": "Rotting waste gives methane."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-29-good",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "prompt": "Put the steps of the greenhouse effect in order.",
+   "items": [
+    {
+     "text": "Sunlight passes through the atmosphere."
+    },
+    {
+     "text": "The ground absorbs it and gets warm."
+    },
+    {
+     "text": "The warm ground gives out infrared radiation."
+    },
+    {
+     "text": "Greenhouse gases absorb part of this radiation."
+    },
+    {
+     "text": "The air near the ground stays warm."
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "p2-29-human",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which human activity increases the greenhouse effect?",
+       "r": "burning fuel and forests",
+       "w": [
+        "planting trees",
+        "using solar energy",
+        "walking to school"
+       ],
+       "e": [
+        "Trees absorb carbon dioxide.",
+        "Solar energy emits no carbon dioxide.",
+        "Walking burns no fuel."
+       ],
+       "y": "Burning adds carbon dioxide."
+      },
+      {
+       "q": "What would happen without any greenhouse effect?",
+       "r": "the Earth would be too cold for life",
+       "w": [
+        "the Earth would be hotter",
+        "nothing would change",
+        "there would be more rain"
+       ],
+       "e": [
+        "It would be colder.",
+        "It would be much colder.",
+        "The main effect is cold."
+       ],
+       "y": "Greenhouse gases keep us warm."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-29-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Carbon dioxide is a greenhouse gas.",
+      "truth": "true"
+     },
+     {
+      "text": "The ground gives out infrared radiation.",
+      "truth": "true"
+     },
+     {
+      "text": "Without the greenhouse effect the Earth would be very cold.",
+      "truth": "true"
+     },
+     {
+      "text": "Burning forests adds carbon dioxide.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Planting trees increases the greenhouse effect.",
+      "truth": "false",
+      "explain": "Trees absorb carbon dioxide."
+     },
+     {
+      "text": "Oxygen is the main greenhouse gas.",
+      "truth": "false",
+      "explain": "Carbon dioxide, methane and water vapour are."
+     },
+     {
+      "text": "The greenhouse effect is always harmful.",
+      "truth": "false",
+      "explain": "The natural effect keeps life possible."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

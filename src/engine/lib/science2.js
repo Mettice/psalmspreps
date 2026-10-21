@@ -200,3 +200,43 @@ export function storageConvert(v, from, to) {
 }
 /** How many `to` units in one `from` unit: storageFactor("MB", "KB") → 1024. */
 export const storageFactor = (from, to) => storageConvert(1, from, to);
+
+// ================================================================ Physics Term 2 (2026-10-21)
+const dec2 = (x) => Number(x.toFixed(6));
+/** Energy in joules: power (W) × time (s). */
+export const energyJ = (P, t) => dec2(P * t);
+/** Energy in kilowatt-hours: power (W) ÷ 1000 × hours. */
+export const kWh = (P, h) => dec2((P / 1000) * h);
+/** Cost of electricity: energy in kWh × price per kWh. */
+export const elecCost = (P, h, price) => dec2((P / 1000) * h * price);
+/** Electrical power P = V × I. */
+export const powerVI = (V, I) => dec2(V * I);
+/** Height of the shadow of an object of height h at distance d1 from a point source, on a screen at distance d2. */
+export const shadowHeight = (h, d1, d2) => dec2((h * d2) / d1);
+/** Power of a lens in dioptres from its focal length in centimetres (P = 100 ÷ f). */
+export const lensPower = (fcm) => dec2(100 / fcm);
+/** Pressure = force ÷ area (N/m² = Pa). */
+export const pressure = (F, A) => dec2(F / A);
+/** Pressure in a liquid: density (kg/m³) × g × depth (m), with g = 10 N/kg. */
+export const liquidPressure = (rho, h, g = 10) => dec2(rho * g * h);
+/** Pulse rate in beats per minute from beats counted in some seconds. */
+export const pulseRate = (beats, seconds) => dec2((beats * 60) / seconds);
+/** Light travel time in seconds over a distance in kilometres (c ≈ 300 000 km/s). */
+export const lightTime = (km) => dec2(km / 300000);
+/** A point source, an opaque object of height h at d1 and a screen at d2, with the shadow (heights written, not to scale). */
+export function shadowFig(h, d1, d2) {
+  const S = 260 / d2, x0 = 20, y0 = 90, X1 = x0 + d1 * S, X2 = x0 + d2 * S, H1 = 28, H2 = (H1 * d2) / d1;
+  const r = (v) => Math.round(v * 10) / 10;
+  let body = `<circle cx="${x0}" cy="${y0}" r="5" fill="currentColor"/>`;
+  body += `<line x1="${r(X1)}" y1="${r(y0 - H1)}" x2="${r(X1)}" y2="${r(y0 + H1)}" stroke-width="4"/>`;
+  body += `<line x1="${r(X2)}" y1="${r(y0 - H2 - 8)}" x2="${r(X2)}" y2="${r(y0 + H2 + 8)}" stroke-width="1.5"/>`;
+  body += `<line x1="${x0}" y1="${y0}" x2="${r(X2)}" y2="${r(y0 - H2)}" stroke-dasharray="4 3"/><line x1="${x0}" y1="${y0}" x2="${r(X2)}" y2="${r(y0 + H2)}" stroke-dasharray="4 3"/>`;
+  body += `<line x1="${r(X2 + 4)}" y1="${r(y0 - H2)}" x2="${r(X2 + 4)}" y2="${r(y0 + H2)}" stroke-width="5" stroke-opacity="0.45"/>`;
+  body += `<text x="${x0}" y="${y0 + 22}" fill="currentColor" stroke="none" text-anchor="middle" font-size="11">source</text>`;
+  body += `<text x="${r(X1)}" y="${r(y0 + H1 + 16)}" fill="currentColor" stroke="none" text-anchor="middle" font-size="11">object ${h} cm</text>`;
+  body += `<text x="${r(X2 - 6)}" y="18" fill="currentColor" stroke="none" text-anchor="end" font-size="11">screen</text>`;
+  body += `<text x="${r((x0 + X1) / 2)}" y="178" fill="currentColor" stroke="none" text-anchor="middle" font-size="11">${d1} cm</text>`;
+  body += `<text x="${r((x0 + X2) / 2)}" y="194" fill="currentColor" stroke="none" text-anchor="middle" font-size="11">${d2} cm from the source</text>`;
+  return `<svg class="fig" viewBox="0 0 300 200" role="img" aria-label="A point source, an object and its shadow on a screen" xmlns="http://www.w3.org/2000/svg" ` +
+    `font-family="system-ui, sans-serif" fill="none" stroke="currentColor" stroke-width="1">${body}</svg>`;
+}

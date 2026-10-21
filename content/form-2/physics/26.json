@@ -1,0 +1,440 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "p2-26",
+   "name": "Sustainable management of the environment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Sustainable management means using natural resources (forests, water, soil, energy, fish) so that they are still available for future generations.\nGood practices: replanting trees after cutting (reforestation), saving energy and water, using renewable energy, reducing, reusing and recycling waste, protecting rivers from pollution, controlled fishing and hunting, protected areas (national parks such as Korup, Waza and Dja).\nBad practices: bush fires, cutting trees without replanting, dumping waste in rivers, overfishing, wasting electricity.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is cutting a forest for timber sustainable?",
+  "steps": [
+   "It depends: if as many trees are replanted as are cut, the forest stays.",
+   "If trees are cut and none are replanted, the forest disappears: not sustainable."
+  ],
+  "answer": "Only if trees are replanted.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c26-1",
+    "status": "draft",
+    "idea": "Sustainable: using resources so that future generations still have them.",
+    "vars": {},
+    "example": [
+     "Replant a tree for each one cut."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-26-def"
+    }
+   },
+   {
+    "id": "c26-2",
+    "status": "draft",
+    "idea": "Good practices: reforestation, saving energy, recycling.",
+    "vars": {},
+    "example": [
+     "Switch off lights you do not need."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-26-good"
+    }
+   },
+   {
+    "id": "c26-3",
+    "status": "draft",
+    "idea": "National parks protect forests and animals.",
+    "vars": {},
+    "example": [
+     "Korup, Waza and Dja are protected areas."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-26-park-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "radiation-climate"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does Cameroon create national parks such as Korup and Dja?",
+         "r": "to protect forests and wild animals",
+         "w": [
+          "to cut timber faster",
+          "to build factories",
+          "to hunt more animals"
+         ],
+         "e": [
+          "Parks protect the forest.",
+          "Parks are protected areas.",
+          "Hunting is controlled in parks."
+         ],
+         "y": "Parks protect biodiversity."
+        },
+        {
+         "q": "What is overfishing?",
+         "r": "catching fish faster than they can reproduce",
+         "w": [
+          "catching fish with a licence",
+          "keeping fish in ponds",
+          "eating fish once a week"
+         ],
+         "e": [
+          "A licence controls fishing.",
+          "That is fish farming.",
+          "That is a diet, not fishing."
+         ],
+         "y": "Overfishing empties rivers and seas."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-26-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does sustainable management mean?",
+       "r": "using resources so that they remain for future generations",
+       "w": [
+        "using everything now",
+        "never using any resource",
+        "selling all the forests"
+       ],
+       "e": [
+        "That leaves nothing for the future.",
+        "We need resources to live.",
+        "That destroys the forests."
+       ],
+       "y": "Use, but keep enough for the future."
+      },
+      {
+       "q": "Which practice is sustainable?",
+       "r": "replanting trees after cutting",
+       "w": [
+        "bush fires",
+        "overfishing",
+        "dumping waste in rivers"
+       ],
+       "e": [
+        "They destroy plants and soil.",
+        "Fish disappear.",
+        "It pollutes water."
+       ],
+       "y": "Reforestation keeps the forest."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-26-good",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which action saves energy?",
+       "r": "switching off lights you do not need",
+       "w": [
+        "leaving the fridge open",
+        "using filament bulbs everywhere",
+        "running a generator all day"
+       ],
+       "e": [
+        "That wastes electricity.",
+        "LEDs use less energy.",
+        "That wastes fuel."
+       ],
+       "y": "Switch off what you do not use."
+      },
+      {
+       "q": "Which action protects rivers?",
+       "r": "treating waste water before it reaches the river",
+       "w": [
+        "washing cars in the river",
+        "throwing plastic in the river",
+        "pouring oil in the river"
+       ],
+       "e": [
+        "Soap and oil pollute the river.",
+        "Plastic pollutes the river.",
+        "Oil pollutes the river."
+       ],
+       "y": "Clean water keeps fish and people healthy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-26-park",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does Cameroon create national parks such as Korup and Dja?",
+       "r": "to protect forests and wild animals",
+       "w": [
+        "to cut timber faster",
+        "to build factories",
+        "to hunt more animals"
+       ],
+       "e": [
+        "Parks protect the forest.",
+        "Parks are protected areas.",
+        "Hunting is controlled in parks."
+       ],
+       "y": "Parks protect biodiversity."
+      },
+      {
+       "q": "What is overfishing?",
+       "r": "catching fish faster than they can reproduce",
+       "w": [
+        "catching fish with a licence",
+        "keeping fish in ponds",
+        "eating fish once a week"
+       ],
+       "e": [
+        "A licence controls fishing.",
+        "That is fish farming.",
+        "That is a diet, not fishing."
+       ],
+       "y": "Overfishing empties rivers and seas."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-26-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Reforestation helps forests.",
+      "truth": "true"
+     },
+     {
+      "text": "Recycling reduces waste.",
+      "truth": "true"
+     },
+     {
+      "text": "National parks protect wildlife.",
+      "truth": "true"
+     },
+     {
+      "text": "Saving water is sustainable.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bush fires make the soil richer for ever.",
+      "truth": "false",
+      "explain": "They destroy plants, animals and soil."
+     },
+     {
+      "text": "Sustainable means using everything now.",
+      "truth": "false",
+      "explain": "It means keeping resources for the future."
+     },
+     {
+      "text": "Overfishing protects fish.",
+      "truth": "false",
+      "explain": "It empties rivers and seas."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

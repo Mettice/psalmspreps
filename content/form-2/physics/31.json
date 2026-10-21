@@ -1,0 +1,470 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [
+  30
+ ],
+ "skills": [
+  {
+   "id": "p2-31",
+   "name": "Climate change"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Weather is the state of the air on one day (rain, sun, wind). Climate is the usual pattern of weather in a place over many years (for example, a long dry season in the north, heavy rains in Debundscha).\nClimate change is a lasting change in these patterns, caused today mainly by global warming: rains come late or stop early, rainy seasons are shorter but more violent, dry seasons hotter.\nEffects on daily life: farmers do not know when to plant, harvests fall, food prices rise, water is scarce, floods and landslides destroy homes.\nAdaptation (living with it): drought-resistant crops, storing rain water, irrigation, building away from flood zones, early warnings. Mitigation (reducing it): cutting greenhouse gases.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is one very hot day climate change?",
+  "steps": [
+   "One hot day is weather.",
+   "Climate change is a lasting change in the pattern of weather over many years."
+  ],
+  "answer": "No: one day is weather; climate change is long-term.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c31-1",
+    "status": "draft",
+    "idea": "Weather is one day; climate is the pattern over many years.",
+    "vars": {},
+    "example": [
+     "A rainy Tuesday is weather."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-31-def"
+    }
+   },
+   {
+    "id": "c31-2",
+    "status": "draft",
+    "idea": "Climate change affects farming, water and homes.",
+    "vars": {},
+    "example": [
+     "Late rains spoil the planting season."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-31-effect"
+    }
+   },
+   {
+    "id": "c31-3",
+    "status": "draft",
+    "idea": "Adaptation and mitigation.",
+    "vars": {},
+    "example": [
+     "Storing rain water is adaptation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-31-adapt-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "radiation-climate"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Storing rain water for the dry season",
+         "r": "adaptation",
+         "w": [
+          "mitigation",
+          "pollution",
+          "weather"
+         ],
+         "e": [
+          "It does not reduce greenhouse gases; it helps us live with the change.",
+          "It is not pollution.",
+          "It is an action."
+         ],
+         "y": "Adapting to scarce water."
+        },
+        {
+         "q": "Using solar energy instead of diesel",
+         "r": "mitigation",
+         "w": [
+          "adaptation",
+          "pollution",
+          "weather"
+         ],
+         "e": [
+          "It reduces greenhouse gases.",
+          "It reduces pollution.",
+          "It is an action."
+         ],
+         "y": "It reduces the cause."
+        },
+        {
+         "q": "Planting drought-resistant crops",
+         "r": "adaptation",
+         "w": [
+          "mitigation",
+          "pollution",
+          "weather"
+         ],
+         "e": [
+          "It helps farmers live with droughts.",
+          "It is not pollution.",
+          "It is an action."
+         ],
+         "y": "Adapting to droughts."
+        }
+       ]
+      }
+     },
+     "prompt": "Is this adaptation or mitigation? “{X.q}”",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-31-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "It rained heavily in Buea this morning.",
+       "r": "weather",
+       "w": [
+        "climate",
+        "climate change",
+        "pollution"
+       ],
+       "e": [
+        "One morning is weather.",
+        "One morning is not a long-term change.",
+        "It is about rain, not pollution."
+       ],
+       "y": "One day's conditions are weather."
+      },
+      {
+       "q": "The north of Cameroon has a long dry season every year.",
+       "r": "climate",
+       "w": [
+        "weather",
+        "a storm",
+        "pollution"
+       ],
+       "e": [
+        "It is a pattern over many years.",
+        "It is a yearly pattern.",
+        "It is not pollution."
+       ],
+       "y": "A pattern over many years is climate."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this weather or climate? “{X.q}”",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-31-effect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does climate change affect farmers?",
+       "r": "they do not know when the rains will come to plant",
+       "w": [
+        "they always get bigger harvests",
+        "nothing changes for them",
+        "they stop needing water"
+       ],
+       "e": [
+        "Harvests often fall.",
+        "Rains change.",
+        "Crops still need water."
+       ],
+       "y": "Unpredictable rains disturb planting."
+      },
+      {
+       "q": "Why can food prices rise with climate change?",
+       "r": "harvests fall, so there is less food",
+       "w": [
+        "there is too much food",
+        "markets close every day",
+        "people stop eating"
+       ],
+       "e": [
+        "Less food is produced.",
+        "Markets still open.",
+        "That is not the reason."
+       ],
+       "y": "Less supply → higher prices."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-31-adapt",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Storing rain water for the dry season",
+       "r": "adaptation",
+       "w": [
+        "mitigation",
+        "pollution",
+        "weather"
+       ],
+       "e": [
+        "It does not reduce greenhouse gases; it helps us live with the change.",
+        "It is not pollution.",
+        "It is an action."
+       ],
+       "y": "Adapting to scarce water."
+      },
+      {
+       "q": "Using solar energy instead of diesel",
+       "r": "mitigation",
+       "w": [
+        "adaptation",
+        "pollution",
+        "weather"
+       ],
+       "e": [
+        "It reduces greenhouse gases.",
+        "It reduces pollution.",
+        "It is an action."
+       ],
+       "y": "It reduces the cause."
+      },
+      {
+       "q": "Planting drought-resistant crops",
+       "r": "adaptation",
+       "w": [
+        "mitigation",
+        "pollution",
+        "weather"
+       ],
+       "e": [
+        "It helps farmers live with droughts.",
+        "It is not pollution.",
+        "It is an action."
+       ],
+       "y": "Adapting to droughts."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this adaptation or mitigation? “{X.q}”",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-31-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "radiation-climate"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Climate is the pattern of weather over many years.",
+      "truth": "true"
+     },
+     {
+      "text": "Storing rain water is adaptation.",
+      "truth": "true"
+     },
+     {
+      "text": "Using renewable energy is mitigation.",
+      "truth": "true"
+     },
+     {
+      "text": "Climate change can bring floods.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "One rainy day proves climate change.",
+      "truth": "false",
+      "explain": "One day is weather."
+     },
+     {
+      "text": "Climate change only affects rich countries.",
+      "truth": "false",
+      "explain": "Cameroon's farmers feel it too."
+     },
+     {
+      "text": "Adaptation means increasing greenhouse gases.",
+      "truth": "false",
+      "explain": "Adaptation means living with the change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

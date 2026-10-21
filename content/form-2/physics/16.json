@@ -1,0 +1,422 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-16",
+   "name": "Renewable energy sources and their uses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Renewable energy sources are replaced by nature and will not run out: the sun (solar energy), wind, flowing water (hydroelectricity), biomass (wood, crop waste, animal dung) and the heat of the Earth (geothermal).\nNon-renewable sources (petrol, diesel, coal, natural gas) took millions of years to form and will run out; burning them pollutes the air.\nUses: solar panels for light and phones, solar water heaters, hydroelectric dams (Cameroon gets much of its electricity from dams such as Edéa, Song Loulou and Lom Pangar), windmills for pumping water, biogas from dung for cooking.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Is firewood renewable? Is diesel?",
+  "steps": [
+   "Firewood comes from trees, which can grow again if we replant them: renewable (biomass).",
+   "Diesel comes from petroleum, formed over millions of years: non-renewable."
+  ],
+  "answer": "Firewood: renewable if trees are replanted; diesel: non-renewable.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c16-1",
+    "status": "draft",
+    "idea": "Renewable sources are replaced by nature: sun, wind, water, biomass.",
+    "vars": {},
+    "example": [
+     "The sun shines again every day."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-16-kind"
+    }
+   },
+   {
+    "id": "c16-2",
+    "status": "draft",
+    "idea": "Non-renewable sources will run out: petrol, coal, gas.",
+    "vars": {},
+    "example": [
+     "Petroleum took millions of years to form."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-16-use-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "energy-sources"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why are renewable sources better for the environment?",
+         "r": "they do not run out and pollute less",
+         "w": [
+          "they are always free",
+          "they work only at night",
+          "they need no equipment"
+         ],
+         "e": [
+          "Equipment like panels costs money.",
+          "Solar works by day.",
+          "They need panels, dams or turbines."
+         ],
+         "y": "They are renewed and cleaner."
+        },
+        {
+         "q": "Where does much of Cameroon's electricity come from?",
+         "r": "hydroelectric dams",
+         "w": [
+          "coal mines",
+          "nuclear power stations",
+          "windmills only"
+         ],
+         "e": [
+          "Cameroon has little coal power.",
+          "Cameroon has no nuclear power station.",
+          "Windmills are rare."
+         ],
+         "y": "Dams such as Song Loulou and Edéa produce much of it."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c16-3",
+    "status": "draft",
+    "idea": "Each source has its uses.",
+    "vars": {},
+    "example": [
+     "A hydroelectric dam turns flowing water into electricity."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-16-match"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-16-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "solar energy",
+       "r": "yes, it is renewable",
+       "w": [
+        "no, it will run out soon",
+        "no, it is a fossil fuel",
+        "it is not an energy source"
+       ],
+       "e": [
+        "The sun shines every day.",
+        "Fossil fuels are petrol, coal and gas.",
+        "Sunlight is an energy source."
+       ],
+       "y": "The sun is renewed every day."
+      },
+      {
+       "q": "petrol",
+       "r": "no, it is non-renewable",
+       "w": [
+        "yes, it is renewable",
+        "yes, it is biomass",
+        "it is not an energy source"
+       ],
+       "e": [
+        "It took millions of years to form.",
+        "Biomass is plant or animal matter.",
+        "Petrol is an energy source."
+       ],
+       "y": "Petrol comes from petroleum, which will run out."
+      },
+      {
+       "q": "wind",
+       "r": "yes, it is renewable",
+       "w": [
+        "no, it will run out",
+        "no, it is a fossil fuel",
+        "it is not an energy source"
+       ],
+       "e": [
+        "Wind never runs out.",
+        "Wind is moving air.",
+        "Windmills use wind energy."
+       ],
+       "y": "Wind is renewed by the sun heating the air."
+      },
+      {
+       "q": "coal",
+       "r": "no, it is non-renewable",
+       "w": [
+        "yes, it is renewable",
+        "yes, it is solar",
+        "it is not an energy source"
+       ],
+       "e": [
+        "Coal took millions of years to form.",
+        "Coal is a fossil fuel.",
+        "Coal burns to give heat."
+       ],
+       "y": "Coal is a fossil fuel."
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.q} a renewable energy source?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-16-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "prompt": "Match each source to a use.",
+   "pool": [
+    {
+     "left": "flowing water in a dam",
+     "right": "electricity for towns"
+    },
+    {
+     "left": "sunlight on a panel",
+     "right": "charging a phone in a village"
+    },
+    {
+     "left": "wind",
+     "right": "turning a windmill to pump water"
+    },
+    {
+     "left": "animal dung",
+     "right": "biogas for cooking"
+    },
+    {
+     "left": "the heat of the Earth",
+     "right": "geothermal power"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "p2-16-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why are renewable sources better for the environment?",
+       "r": "they do not run out and pollute less",
+       "w": [
+        "they are always free",
+        "they work only at night",
+        "they need no equipment"
+       ],
+       "e": [
+        "Equipment like panels costs money.",
+        "Solar works by day.",
+        "They need panels, dams or turbines."
+       ],
+       "y": "They are renewed and cleaner."
+      },
+      {
+       "q": "Where does much of Cameroon's electricity come from?",
+       "r": "hydroelectric dams",
+       "w": [
+        "coal mines",
+        "nuclear power stations",
+        "windmills only"
+       ],
+       "e": [
+        "Cameroon has little coal power.",
+        "Cameroon has no nuclear power station.",
+        "Windmills are rare."
+       ],
+       "y": "Dams such as Song Loulou and Edéa produce much of it."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-16-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "energy-sources"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The sun is a renewable source.",
+      "truth": "true"
+     },
+     {
+      "text": "Biogas can be made from dung.",
+      "truth": "true"
+     },
+     {
+      "text": "Coal is non-renewable.",
+      "truth": "true"
+     },
+     {
+      "text": "A dam turns flowing water into electricity.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Petrol will never run out.",
+      "truth": "false",
+      "explain": "It is non-renewable and will run out."
+     },
+     {
+      "text": "Wind energy is a fossil fuel.",
+      "truth": "false",
+      "explain": "Wind is renewable; fossil fuels are petrol, coal and gas."
+     },
+     {
+      "text": "Solar panels work best in the dark.",
+      "truth": "false",
+      "explain": "They need sunlight."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

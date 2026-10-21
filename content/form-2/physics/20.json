@@ -1,0 +1,471 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "p2-20",
+   "name": "Light receivers; transparent, translucent and opaque materials"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A light receiver is something that detects or uses light: the eye, a camera (film or sensor), a solar cell, a photosensitive paper, a plant leaf (photosynthesis).\nMaterials and light:\n• transparent: light passes through and we see clearly (clear glass, water, air);\n• translucent: some light passes but we cannot see clearly (frosted glass, tracing paper, oiled paper);\n• opaque: no light passes (wood, metal, stone, cardboard); opaque objects make shadows.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Classify: clear glass, frosted glass, a wooden door.",
+  "steps": [
+   "Clear glass lets light through and we see clearly: transparent.",
+   "Frosted glass lets some light through: translucent.",
+   "A wooden door lets no light through: opaque."
+  ],
+  "answer": "transparent, translucent, opaque",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c20-1",
+    "status": "draft",
+    "idea": "A light receiver detects or uses light: the eye, a camera, a solar cell.",
+    "vars": {},
+    "example": [
+     "A solar cell turns light into electricity."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-20-rec"
+    }
+   },
+   {
+    "id": "c20-2",
+    "status": "draft",
+    "idea": "Transparent: clear; translucent: some light; opaque: no light.",
+    "vars": {},
+    "example": [
+     "Frosted glass is translucent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-20-mat"
+    }
+   },
+   {
+    "id": "c20-3",
+    "status": "draft",
+    "idea": "Opaque objects make shadows.",
+    "vars": {},
+    "example": [
+     "A wall makes a shadow; clear glass does not."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-20-shadow-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "light"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which object makes the darkest shadow?",
+         "r": "a wooden board",
+         "w": [
+          "a clear glass",
+          "a sheet of tracing paper",
+          "clean air"
+         ],
+         "e": [
+          "Light passes through clear glass.",
+          "Some light passes.",
+          "Air is transparent."
+         ],
+         "y": "Opaque objects make dark shadows."
+        },
+        {
+         "q": "Why are bathroom windows often made of frosted glass?",
+         "r": "they let light in but people cannot see in clearly",
+         "w": [
+          "they stop all light",
+          "they are transparent",
+          "they make light"
+         ],
+         "e": [
+          "They let light in.",
+          "Clear glass is transparent.",
+          "Glass is not a source."
+         ],
+         "y": "Translucent glass gives light and privacy."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-20-rec",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which of these is a light receiver?",
+       "r": "a solar cell",
+       "w": [
+        "a candle",
+        "a torch",
+        "the sun"
+       ],
+       "e": [
+        "A candle is a source.",
+        "A torch is a source.",
+        "The sun is a source."
+       ],
+       "y": "A solar cell receives light and makes electricity."
+      },
+      {
+       "q": "Which of these is a light receiver?",
+       "r": "the eye",
+       "w": [
+        "a lamp",
+        "a fire",
+        "a star"
+       ],
+       "e": [
+        "A lamp is a source.",
+        "A fire is a source.",
+        "A star is a source."
+       ],
+       "y": "The eye detects light."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-20-mat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "frosted glass",
+       "r": "translucent",
+       "w": [
+        "transparent",
+        "opaque",
+        "luminous"
+       ],
+       "e": [
+        "We cannot see clearly through it.",
+        "Some light passes.",
+        "It gives no light."
+       ],
+       "y": "Some light passes, but not clearly."
+      },
+      {
+       "q": "clean water",
+       "r": "transparent",
+       "w": [
+        "translucent",
+        "opaque",
+        "luminous"
+       ],
+       "e": [
+        "We see clearly through it.",
+        "Light passes.",
+        "It gives no light."
+       ],
+       "y": "We see clearly through clean water."
+      },
+      {
+       "q": "a metal sheet",
+       "r": "opaque",
+       "w": [
+        "transparent",
+        "translucent",
+        "luminous"
+       ],
+       "e": [
+        "No light passes.",
+        "No light passes.",
+        "It gives no light."
+       ],
+       "y": "Metal stops light."
+      },
+      {
+       "q": "tracing paper",
+       "r": "translucent",
+       "w": [
+        "transparent",
+        "opaque",
+        "luminous"
+       ],
+       "e": [
+        "We cannot see clearly through it.",
+        "Some light passes.",
+        "It gives no light."
+       ],
+       "y": "Tracing paper lets some light through."
+      }
+     ]
+    }
+   },
+   "prompt": "Is {X.q} transparent, translucent or opaque?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-20-shadow",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which object makes the darkest shadow?",
+       "r": "a wooden board",
+       "w": [
+        "a clear glass",
+        "a sheet of tracing paper",
+        "clean air"
+       ],
+       "e": [
+        "Light passes through clear glass.",
+        "Some light passes.",
+        "Air is transparent."
+       ],
+       "y": "Opaque objects make dark shadows."
+      },
+      {
+       "q": "Why are bathroom windows often made of frosted glass?",
+       "r": "they let light in but people cannot see in clearly",
+       "w": [
+        "they stop all light",
+        "they are transparent",
+        "they make light"
+       ],
+       "e": [
+        "They let light in.",
+        "Clear glass is transparent.",
+        "Glass is not a source."
+       ],
+       "y": "Translucent glass gives light and privacy."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-20-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The eye is a light receiver.",
+      "truth": "true"
+     },
+     {
+      "text": "Clear glass is transparent.",
+      "truth": "true"
+     },
+     {
+      "text": "Wood is opaque.",
+      "truth": "true"
+     },
+     {
+      "text": "Opaque objects make shadows.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Frosted glass is opaque.",
+      "truth": "false",
+      "explain": "It lets some light through: translucent."
+     },
+     {
+      "text": "A candle is a light receiver.",
+      "truth": "false",
+      "explain": "A candle is a source."
+     },
+     {
+      "text": "Transparent objects make dark shadows.",
+      "truth": "false",
+      "explain": "Light passes through them."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

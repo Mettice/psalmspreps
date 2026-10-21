@@ -1,0 +1,393 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p2-23",
+   "name": "Pressure in liquids and blood pressure"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pressure is force per unit area: pressure (Pa) = force (N) ÷ area (m²).\nIn a liquid, pressure increases with depth and acts in all directions: p = density × g × depth (with g ≈ 10 N/kg).\nBlood pressure is the pressure of blood on the walls of the arteries, caused by the pumping of the heart. It is written as two numbers in millimetres of mercury (mmHg), for example 120/80: the higher (systolic) when the heart contracts, the lower (diastolic) when it relaxes. A doctor measures it with a sphygmomanometer.\nHigh blood pressure (hypertension) is dangerous; it is linked to too much salt, obesity, lack of exercise, smoking and stress.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "rho": 1000,
+   "h": 3
+  },
+  "problem": "Find the pressure of water ({rho} kg/m³) at a depth of {h} m (g = {10} N/kg).",
+  "steps": [
+   "p = density × g × depth.",
+   "{rho} × {10} × {h} = {liquidPressure(rho, h)} Pa."
+  ],
+  "answer": "{liquidPressure(rho, h)} Pa",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c23-1",
+    "status": "draft",
+    "idea": "Pressure = force ÷ area.",
+    "vars": {
+     "F": 600,
+     "A": 2
+    },
+    "example": [
+     "{F} N on {A} m² = {pressure(F, A)} Pa"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-23-p"
+    }
+   },
+   {
+    "id": "c23-2",
+    "status": "draft",
+    "idea": "Pressure in a liquid increases with depth.",
+    "vars": {},
+    "example": [
+     "p = density × g × depth"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-23-depth"
+    }
+   },
+   {
+    "id": "c23-3",
+    "status": "draft",
+    "idea": "Blood pressure: systolic/diastolic, such as {120}/{80} mmHg.",
+    "vars": {},
+    "example": [
+     "The higher number is when the heart contracts."
+    ],
+    "checks": [],
+    "check": {
+     "id": "p2-23-blood-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "pressure-health"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "In a blood pressure of 120/80 mmHg, what does 120 show?",
+         "r": "the pressure when the heart contracts (systolic)",
+         "w": [
+          "the pressure when the heart relaxes",
+          "the pulse rate",
+          "the body temperature"
+         ],
+         "e": [
+          "That is the lower number, 80.",
+          "The pulse is counted separately.",
+          "Temperature is in °C."
+         ],
+         "y": "The higher number is systolic."
+        },
+        {
+         "q": "Which habit helps to prevent high blood pressure?",
+         "r": "eating less salt and exercising regularly",
+         "w": [
+          "eating a lot of salt",
+          "smoking",
+          "never exercising"
+         ],
+         "e": [
+          "Salt raises blood pressure.",
+          "Smoking raises the risk.",
+          "Exercise helps."
+         ],
+         "y": "Less salt and more exercise lower the risk."
+        },
+        {
+         "q": "What instrument measures blood pressure?",
+         "r": "a sphygmomanometer",
+         "w": [
+          "a thermometer",
+          "a barometer only for weather",
+          "a ruler"
+         ],
+         "e": [
+          "It measures temperature.",
+          "A barometer measures air pressure.",
+          "A ruler measures length."
+         ],
+         "y": "The doctor uses a sphygmomanometer."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-23-p",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pressure-health"
+   ],
+   "vars": {
+    "A": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "q": {
+     "int": [
+      10,
+      200
+     ]
+    },
+    "F": {
+     "expr": "A * q"
+    }
+   },
+   "prompt": "A force of {F} N acts on an area of {A} m². Find the pressure.",
+   "answer": "pressure(F, A)",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "F * A",
+     "explain": "Divide the force by the area."
+    }
+   ],
+   "solution": [
+    "Pressure = force ÷ area.",
+    "{F} ÷ {A} = {answer} Pa."
+   ],
+   "unit": "Pa"
+  },
+  {
+   "id": "p2-23-depth",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pressure-health"
+   ],
+   "vars": {
+    "rho": {
+     "int": [
+      1000,
+      1000
+     ]
+    },
+    "h": {
+     "int": [
+      1,
+      20
+     ]
+    }
+   },
+   "prompt": "Find the pressure of water (density {rho} kg/m³) at a depth of {h} m. Take g = {10} N/kg.",
+   "answer": "liquidPressure(rho, h)",
+   "misconceptions": [
+    {
+     "id": "no-g",
+     "wrong": "rho * h",
+     "explain": "Multiply by g = {10} N/kg too."
+    }
+   ],
+   "solution": [
+    "p = density × g × depth.",
+    "{rho} × {10} × {h} = {answer} Pa."
+   ],
+   "unit": "Pa"
+  },
+  {
+   "id": "p2-23-blood",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "pressure-health"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In a blood pressure of 120/80 mmHg, what does 120 show?",
+       "r": "the pressure when the heart contracts (systolic)",
+       "w": [
+        "the pressure when the heart relaxes",
+        "the pulse rate",
+        "the body temperature"
+       ],
+       "e": [
+        "That is the lower number, 80.",
+        "The pulse is counted separately.",
+        "Temperature is in °C."
+       ],
+       "y": "The higher number is systolic."
+      },
+      {
+       "q": "Which habit helps to prevent high blood pressure?",
+       "r": "eating less salt and exercising regularly",
+       "w": [
+        "eating a lot of salt",
+        "smoking",
+        "never exercising"
+       ],
+       "e": [
+        "Salt raises blood pressure.",
+        "Smoking raises the risk.",
+        "Exercise helps."
+       ],
+       "y": "Less salt and more exercise lower the risk."
+      },
+      {
+       "q": "What instrument measures blood pressure?",
+       "r": "a sphygmomanometer",
+       "w": [
+        "a thermometer",
+        "a barometer only for weather",
+        "a ruler"
+       ],
+       "e": [
+        "It measures temperature.",
+        "A barometer measures air pressure.",
+        "A ruler measures length."
+       ],
+       "y": "The doctor uses a sphygmomanometer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-23-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "pressure-health"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Pressure = force ÷ area.",
+      "truth": "true"
+     },
+     {
+      "text": "Pressure in a liquid increases with depth.",
+      "truth": "true"
+     },
+     {
+      "text": "Blood pressure is caused by the pumping of the heart.",
+      "truth": "true"
+     },
+     {
+      "text": "Too much salt can raise blood pressure.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Pressure in a liquid is the same at every depth.",
+      "truth": "false",
+      "explain": "It increases with depth."
+     },
+     {
+      "text": "High blood pressure is always harmless.",
+      "truth": "false",
+      "explain": "It is dangerous for the heart and brain."
+     },
+     {
+      "text": "Blood pressure is measured in kilograms.",
+      "truth": "false",
+      "explain": "It is measured in mmHg."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

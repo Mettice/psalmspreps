@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-195 P1 items: 193 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+199 P1 items: 197 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -223,6 +223,10 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-W10 | Form 2 English Term 2: grammar rules | open |
 | TR-W11 | Form 2 English Term 2: vocabulary and punctuation | open |
 | TR-W12 | Form 2 English Term 2: facts in the texts | open |
+| TR-Q10 | Form 2 Physics: electricity and light | open |
+| TR-Q11 | Form 2 Physics: the eye and lenses | open |
+| TR-Q12 | Form 2 Physics: health physics | open |
+| TR-Q13 | Form 2 Physics: energy, radiation, climate | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -840,3 +844,13 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 - [ ] **TR-W10 [P1] Grammar rules:** auxiliaries and modals; imperatives; gender of nouns; common and proper nouns; countable and uncountable nouns; pronouns; impersonal pronouns; articles (a/an by sound, computed by `article()`); comparison of adjectives (computed by `comparative()` / `superlative()` in `english.js`, with an authored list of long adjectives); main and subordinate clauses; relative clauses. *Location:* rows 35, 43, 46, 47, 51, 55, 59, 63, 67, 71, 75.
 - [ ] **TR-W11 [P1] Vocabulary and punctuation:** idioms, abbreviations and acronyms, affixes, homonyms, syllable division, punctuation (1) and (2), words on banks, sport, pollution. *Location:* rows 34, 39, 42, 54, 58, 62, 66, 70, 74.
 - [ ] **TR-W12 [P1] Facts in the texts:** the Children's Parliament; BEAC as the central bank issuing the CFA franc; the Olembe and Japoma stadiums built for the Africa Cup of Nations played in Cameroon in 2022; Arthur Zang and the Cardiopad (row 64 model biography); free vaccination days (written as an example, not a fact about a real centre). *Location:* rows 37, 49, 53, 64, 41.
+
+## Q (Term 2). Physics Form 2, Batch P2-2 (Term 2, rows 16–31), added 2026-10-21 (form-2 branch)
+
+16 lessons: renewable energy, solar heating, home electricity and cost, sources and receivers of light, beams and shadows, energy changes, pressure and blood pressure, sport and health, the eye and lenses, sustainable management, radiation, the greenhouse effect, global warming and climate change. Computed parts (energy, electricity cost, P = VI, shadow size, lens power, pressure, pulse rate, light travel time) come from `science2.js`. Reviewer: a Physics teacher.
+
+### P1
+- [ ] **TR-Q10 [P1] Electricity and light:** home electricity (220 V mains, fuses, safety), P = VI, cost in kWh; luminous/non-luminous, transparent/translucent/opaque, beams, shadow size with a point source (object height × screen distance ÷ object distance). Please confirm the mains voltage and the price per kWh used in examples (50–100 FCFA). *Location:* rows 18–21.
+- [ ] **TR-Q11 [P1] The eye and lenses:** short sight corrected by a diverging lens, long sight by a converging lens; lens power P = 100 ÷ f(cm) with the sign convention (+ converging, − diverging). *Location:* row 25.
+- [ ] **TR-Q12 [P1] Health physics:** blood pressure written 120/80 mmHg (systolic/diastolic), liquid pressure p = ρgh with g = 10 N/kg, pulse rate from a 15-second count, “220 − age” given only as a common guide for the maximum heart rate. *Location:* rows 23–24.
+- [ ] **TR-Q13 [P1] Energy, radiation and climate:** renewable sources (Cameroon's dams Edéa, Song Loulou, Lom Pangar), energy chains, emissions (CO₂, CO, CFCs), the sun's radiation and the ozone layer (light takes about 500 s from the sun), the greenhouse effect, global warming, climate change, adaptation and mitigation, national parks. *Location:* rows 16, 22, 26–31.

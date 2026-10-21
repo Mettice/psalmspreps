@@ -1,0 +1,417 @@
+{
+ "subject": "physics",
+ "class": "Form 2",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "p2-21",
+   "name": "Rays, beams and shadows"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Light travels in straight lines (rectilinear propagation). A ray is drawn as a straight line with an arrow; a beam is a bundle of rays: parallel (from the sun or a torch with a reflector), convergent (coming together) or divergent (spreading out from a small source).\nAn opaque object in the path of light makes a shadow. With a point source, the shadow is sharp (umbra only); with a large source there is a dark umbra and a lighter penumbra.\nWith a point source, the shadow on the screen is bigger than the object: shadow height = object height × (source-to-screen distance ÷ source-to-object distance).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "h": 4,
+   "d1": 20,
+   "d2": 60
+  },
+  "problem": "An object {h} cm tall is {d1} cm from a point source. The screen is {d2} cm from the source. Find the height of the shadow.",
+  "steps": [
+   "Light travels in straight lines, so the shadow grows in proportion to the distance.",
+   "Shadow = {h} × {d2} ÷ {d1} = {shadowHeight(h, d1, d2)} cm."
+  ],
+  "answer": "{shadowHeight(h, d1, d2)} cm",
+  "checks": [],
+  "figure": "shadowFig(h, d1, d2)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c21-1",
+    "status": "draft",
+    "idea": "Light travels in straight lines.",
+    "vars": {},
+    "example": [
+     "That is why shadows form."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-21-beam"
+    }
+   },
+   {
+    "id": "c21-2",
+    "status": "draft",
+    "idea": "Beams: parallel, convergent, divergent.",
+    "vars": {},
+    "example": [
+     "Light from a candle spreads out: divergent."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p2-21-kind"
+    }
+   },
+   {
+    "id": "c21-3",
+    "status": "draft",
+    "idea": "Shadow height = object height × (screen distance ÷ object distance).",
+    "vars": {
+     "h": 3,
+     "d1": 10,
+     "d2": 30
+    },
+    "example": [
+     "{h} × {d2} ÷ {d1} = {shadowHeight(h, d1, d2)} cm"
+    ],
+    "checks": [],
+    "figure": "shadowFig(h, d1, d2)",
+    "check": {
+     "id": "p2-21-size-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "light"
+     ],
+     "vars": {
+      "h": {
+       "int": [
+        2,
+        8
+       ]
+      },
+      "d1": {
+       "pick": [
+        10,
+        15,
+        20,
+        25,
+        30
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        4
+       ]
+      },
+      "d2": {
+       "expr": "d1 * k"
+      }
+     },
+     "prompt": "An object {h} cm tall is {d1} cm from a point source of light. The screen is {d2} cm from the source. Find the height of the shadow.",
+     "answer": "shadowHeight(h, d1, d2)",
+     "misconceptions": [
+      {
+       "id": "same",
+       "wrong": "h",
+       "explain": "The shadow is bigger than the object: the rays spread out."
+      },
+      {
+       "id": "upside",
+       "wrong": "h * d1 / d2",
+       "explain": "Divide the screen distance by the object distance, not the other way."
+      }
+     ],
+     "solution": [
+      "Shadow = object height × (source to screen ÷ source to object).",
+      "{h} × {d2} ÷ {d1} = {answer} cm."
+     ],
+     "figure": "shadowFig(h, d1, d2)",
+     "unit": "cm"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p2-21-beam",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why do opaque objects make shadows?",
+       "r": "light travels in straight lines and cannot bend round them",
+       "w": [
+        "light is absorbed by the air",
+        "the object gives out darkness",
+        "light travels in curves"
+       ],
+       "e": [
+        "Air lets light through.",
+        "Darkness is the absence of light.",
+        "Light travels in straight lines."
+       ],
+       "y": "Rectilinear propagation."
+      },
+      {
+       "q": "What is a ray of light?",
+       "r": "the straight path that light follows, drawn with an arrow",
+       "w": [
+        "a kind of shadow",
+        "a dark area",
+        "a light bulb"
+       ],
+       "e": [
+        "A shadow is where light does not reach.",
+        "That is a shadow.",
+        "That is a source."
+       ],
+       "y": "Rays are drawn as straight lines with arrows."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-21-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Light spreading out from a candle flame",
+       "r": "divergent",
+       "w": [
+        "parallel",
+        "convergent",
+        "opaque"
+       ],
+       "e": [
+        "The rays spread out.",
+        "The rays do not meet.",
+        "Opaque is about materials."
+       ],
+       "y": "Spreading rays make a divergent beam."
+      },
+      {
+       "q": "Sunlight reaching the Earth",
+       "r": "parallel",
+       "w": [
+        "divergent",
+        "convergent",
+        "translucent"
+       ],
+       "e": [
+        "The sun is very far: its rays are almost parallel.",
+        "The rays do not meet.",
+        "Translucent is about materials."
+       ],
+       "y": "Distant sources give parallel beams."
+      },
+      {
+       "q": "Light coming together after a magnifying glass",
+       "r": "convergent",
+       "w": [
+        "parallel",
+        "divergent",
+        "opaque"
+       ],
+       "e": [
+        "The rays meet.",
+        "The rays come together.",
+        "Opaque is about materials."
+       ],
+       "y": "Rays coming together make a convergent beam."
+      }
+     ]
+    }
+   },
+   "prompt": "What kind of beam is this? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "p2-21-size",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "light"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "d1": {
+     "pick": [
+      10,
+      15,
+      20,
+      25,
+      30
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "d2": {
+     "expr": "d1 * k"
+    }
+   },
+   "prompt": "An object {h} cm tall is {d1} cm from a point source of light. The screen is {d2} cm from the source. Find the height of the shadow.",
+   "answer": "shadowHeight(h, d1, d2)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "h",
+     "explain": "The shadow is bigger than the object: the rays spread out."
+    },
+    {
+     "id": "upside",
+     "wrong": "h * d1 / d2",
+     "explain": "Divide the screen distance by the object distance, not the other way."
+    }
+   ],
+   "solution": [
+    "Shadow = object height × (source to screen ÷ source to object).",
+    "{h} × {d2} ÷ {d1} = {answer} cm."
+   ],
+   "figure": "shadowFig(h, d1, d2)",
+   "unit": "cm"
+  },
+  {
+   "id": "p2-21-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "light"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Light travels in straight lines.",
+      "truth": "true"
+     },
+     {
+      "text": "Sunlight reaching the Earth forms a parallel beam.",
+      "truth": "true"
+     },
+     {
+      "text": "A large source gives an umbra and a penumbra.",
+      "truth": "true"
+     },
+     {
+      "text": "Opaque objects make shadows.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A shadow is light coming out of the object.",
+      "truth": "false",
+      "explain": "A shadow is a region light cannot reach."
+     },
+     {
+      "text": "With a point source, the shadow is smaller than the object.",
+      "truth": "false",
+      "explain": "It is bigger when the screen is farther than the object."
+     },
+     {
+      "text": "Light bends round opaque objects to fill the shadow.",
+      "truth": "false",
+      "explain": "Light travels in straight lines."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
