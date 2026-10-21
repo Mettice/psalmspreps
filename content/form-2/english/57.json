@@ -1,0 +1,453 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 57,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-57",
+   "name": "Talking about refuse disposal; reading about rubbish collection"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: Who will collect the rubbish?\nIn our town, the council's trucks collect refuse from large bins along the main roads. But many quarters have no bins, so people throw their rubbish into gutters, rivers or empty plots. When it rains, the blocked gutters overflow and flood the houses. Some people burn their rubbish, and the smoke makes children cough. The trucks are too few and they sometimes do not come for a week. Last month, the youths of our quarter organised a clean-up campaign. They cleared the gutters, put up signs saying \"No dumping\", and asked the council to place a bin at the junction. Now every family carries its rubbish there in a closed bag.\n\nWords: refuse (rubbish, garbage), a bin, a dump, to dispose of, a gutter, to overflow, a clean-up campaign, biodegradable, recycling.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What problems does rubbish cause in the text?",
+  "steps": [
+   "Find what happens when people throw rubbish anywhere or burn it.",
+   "Blocked gutters overflow and flood houses; smoke makes children cough."
+  ],
+  "answer": "floods from blocked gutters; smoke that makes children cough",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c57-1",
+    "status": "draft",
+    "idea": "Refuse means rubbish; to dispose of it means to get rid of it.",
+    "vars": {},
+    "example": [
+     "Dispose of your refuse in a bin."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-57-words"
+    }
+   },
+   {
+    "id": "c57-2",
+    "status": "draft",
+    "idea": "Find causes and effects in the text.",
+    "vars": {},
+    "example": [
+     "Blocked gutters (cause) → floods (effect)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-57-text"
+    }
+   },
+   {
+    "id": "c57-3",
+    "status": "draft",
+    "idea": "The youths found solutions: clean-up, signs, a bin.",
+    "vars": {},
+    "example": [
+     "“No dumping” signs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-57-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "what is the main lesson?",
+         "r": "people can solve the rubbish problem by working together with the council",
+         "w": [
+          "burning rubbish is the best solution",
+          "only the council can do anything",
+          "rubbish causes no problems"
+         ],
+         "e": [
+          "The smoke makes children cough.",
+          "The youths acted themselves.",
+          "It causes floods and smoke."
+         ],
+         "y": "The youths and the council together found a solution."
+        },
+        {
+         "q": "why is burning rubbish a bad idea?",
+         "r": "the smoke harms people's health",
+         "w": [
+          "it is too slow",
+          "it is illegal to light fires",
+          "it makes the gutters overflow"
+         ],
+         "e": [
+          "The text speaks about health.",
+          "The text does not say that.",
+          "Blocked gutters do that."
+         ],
+         "y": "“the smoke makes children cough.”"
+        }
+       ]
+      }
+     },
+     "prompt": "Text “Who will collect the rubbish?”: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-57-words",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is refuse?",
+       "r": "rubbish or garbage",
+       "w": [
+        "a refusal",
+        "a kind of truck",
+        "rain water"
+       ],
+       "e": [
+        "Here refuse (stress on RE-) means rubbish.",
+        "Trucks collect it.",
+        "That is different."
+       ],
+       "y": "Refuse is another word for rubbish."
+      },
+      {
+       "q": "What does “to dispose of” mean?",
+       "r": "to get rid of",
+       "w": [
+        "to buy",
+        "to keep",
+        "to clean"
+       ],
+       "e": [
+        "That is the opposite.",
+        "That is the opposite.",
+        "Cleaning is different."
+       ],
+       "y": "Dispose of your rubbish properly."
+      },
+      {
+       "q": "What is a clean-up campaign?",
+       "r": "an organised effort by people to clean a place",
+       "w": [
+        "a football match",
+        "a political meeting",
+        "a kind of bin"
+       ],
+       "e": [
+        "It is about cleaning.",
+        "It is about cleaning.",
+        "A bin is a container."
+       ],
+       "y": "People work together to clean."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-57-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "why do gutters overflow?",
+       "r": "they are blocked with rubbish",
+       "w": [
+        "the trucks drive in them",
+        "they are too wide",
+        "children play in them"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "Rubbish blocks the gutters."
+      },
+      {
+       "q": "what did the youths ask the council for?",
+       "r": "a bin at the junction",
+       "w": [
+        "more money",
+        "a new school",
+        "a football pitch"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "They asked for a bin at the junction."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “Who will collect the rubbish?”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-57-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what is the main lesson?",
+       "r": "people can solve the rubbish problem by working together with the council",
+       "w": [
+        "burning rubbish is the best solution",
+        "only the council can do anything",
+        "rubbish causes no problems"
+       ],
+       "e": [
+        "The smoke makes children cough.",
+        "The youths acted themselves.",
+        "It causes floods and smoke."
+       ],
+       "y": "The youths and the council together found a solution."
+      },
+      {
+       "q": "why is burning rubbish a bad idea?",
+       "r": "the smoke harms people's health",
+       "w": [
+        "it is too slow",
+        "it is illegal to light fires",
+        "it makes the gutters overflow"
+       ],
+       "e": [
+        "The text speaks about health.",
+        "The text does not say that.",
+        "Blocked gutters do that."
+       ],
+       "y": "“the smoke makes children cough.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “Who will collect the rubbish?”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-57-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “Who will collect the rubbish?”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The council's trucks collect refuse from bins.",
+      "truth": "true"
+     },
+     {
+      "text": "Some people burn their rubbish.",
+      "truth": "true"
+     },
+     {
+      "text": "The youths cleared the gutters.",
+      "truth": "true"
+     },
+     {
+      "text": "Families now take rubbish to the bin in closed bags.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every quarter has many bins.",
+      "truth": "false",
+      "explain": "Many quarters have no bins."
+     },
+     {
+      "text": "The trucks come every day without fail.",
+      "truth": "false",
+      "explain": "They sometimes do not come for a week."
+     },
+     {
+      "text": "The youths threw rubbish into the river.",
+      "truth": "false",
+      "explain": "They organised a clean-up."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

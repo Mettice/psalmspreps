@@ -1,0 +1,310 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 41,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-41",
+   "name": "Accessing public health services; reading about a visit to the health centre"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: At the health centre\nWhen Bih's little brother had a high fever, their mother took him to the integrated health centre near their village. First, a nurse wrote his name in the register and took his temperature and weight. Then they waited their turn to see the nurse in charge, who examined the boy. A quick test in the laboratory showed malaria. The nurse explained the treatment: tablets three times a day for three days, plenty of water, and sleeping under a treated mosquito net. Bih's mother paid at the cash desk, collected the medicine at the pharmacy and booked a check-up for the following week. On the way out, a poster reminded them that children's vaccinations are given free every Tuesday.\n\nSteps of a visit: registration, waiting, consultation, laboratory test, payment, pharmacy, follow-up visit.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Put the steps of the visit in order.",
+  "steps": [
+   "Find the order words in the text: first, then, …",
+   "Registration → consultation → laboratory test → payment → pharmacy → check-up booking."
+  ],
+  "answer": "registration, consultation, test, payment, pharmacy, check-up",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c41-1",
+    "status": "draft",
+    "idea": "A visit to a health centre has steps: register, wait, consult, test, pay, collect medicine.",
+    "vars": {},
+    "example": [
+     "First the nurse writes your name in the register."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-41-steps"
+    }
+   },
+   {
+    "id": "c41-2",
+    "status": "draft",
+    "idea": "Find details in the text: who, what, when.",
+    "vars": {},
+    "example": [
+     "The test showed malaria."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-41-text"
+    }
+   },
+   {
+    "id": "c41-3",
+    "status": "draft",
+    "idea": "Health words: consultation, laboratory, pharmacy, register, follow-up.",
+    "vars": {},
+    "example": [
+     "The pharmacy is where you collect medicine."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-41-words-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "prompt": "Match each place or word to its meaning.",
+     "pool": [
+      {
+       "left": "the register",
+       "right": "the book where patients' names are written"
+      },
+      {
+       "left": "the laboratory",
+       "right": "the room where tests are done"
+      },
+      {
+       "left": "the pharmacy",
+       "right": "where you collect medicine"
+      },
+      {
+       "left": "a consultation",
+       "right": "when the nurse or doctor examines you"
+      },
+      {
+       "left": "a check-up",
+       "right": "a later visit to see if you are better"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-41-steps",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Put the steps of Bih's brother's visit in order.",
+   "items": [
+    {
+     "text": "The nurse wrote his name in the register."
+    },
+    {
+     "text": "The nurse in charge examined him."
+    },
+    {
+     "text": "A laboratory test showed malaria."
+    },
+    {
+     "text": "His mother paid at the cash desk."
+    },
+    {
+     "text": "She collected the medicine at the pharmacy."
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "e2-41-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what illness did the test show?",
+       "r": "malaria",
+       "w": [
+        "cholera",
+        "measles",
+        "typhoid"
+       ],
+       "e": [
+        "The text says malaria.",
+        "The text says malaria.",
+        "The text says malaria."
+       ],
+       "y": "“A quick test in the laboratory showed malaria.”"
+      },
+      {
+       "q": "when are children's vaccinations given free?",
+       "r": "every Tuesday",
+       "w": [
+        "every Sunday",
+        "once a year",
+        "every day"
+       ],
+       "e": [
+        "The poster says Tuesday.",
+        "The poster says every Tuesday.",
+        "Only on Tuesdays."
+       ],
+       "y": "The poster says every Tuesday."
+      },
+      {
+       "q": "what did the nurse advise besides the tablets?",
+       "r": "plenty of water and sleeping under a treated mosquito net",
+       "w": [
+        "eating no food",
+        "going to school at once",
+        "staying in the sun"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "The nurse explained the full treatment."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “At the health centre”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-41-words",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each place or word to its meaning.",
+   "pool": [
+    {
+     "left": "the register",
+     "right": "the book where patients' names are written"
+    },
+    {
+     "left": "the laboratory",
+     "right": "the room where tests are done"
+    },
+    {
+     "left": "the pharmacy",
+     "right": "where you collect medicine"
+    },
+    {
+     "left": "a consultation",
+     "right": "when the nurse or doctor examines you"
+    },
+    {
+     "left": "a check-up",
+     "right": "a later visit to see if you are better"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-41-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “At the health centre”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Bih's brother had a high fever.",
+      "truth": "true"
+     },
+     {
+      "text": "His temperature and weight were taken.",
+      "truth": "true"
+     },
+     {
+      "text": "They booked a check-up.",
+      "truth": "true"
+     },
+     {
+      "text": "Vaccinations for children are free on Tuesdays.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The doctor gave the medicine before the test.",
+      "truth": "false",
+      "explain": "The test came first, then the treatment."
+     },
+     {
+      "text": "Bih's mother did not pay anything.",
+      "truth": "false",
+      "explain": "She paid at the cash desk."
+     },
+     {
+      "text": "The treatment was one tablet only.",
+      "truth": "false",
+      "explain": "Tablets three times a day for three days."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

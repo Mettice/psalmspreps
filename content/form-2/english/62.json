@@ -1,0 +1,516 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 62,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-62",
+   "name": "Homonyms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Homonyms are words that are spelt and pronounced the same but have different meanings: bank (of a river / for money), light (not heavy / brightness), match (a game / a stick for fire), watch (a clock on the wrist / to look at), ring (jewellery / where boxers fight), bark (of a tree / of a dog), spring (a season / where water comes out).\nTo find the right meaning, look at the other words in the sentence (the context).\nDo not mix them up with homophones, which sound the same but are spelt differently (sea / see).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give the meaning of “bank” in: “The fisherman sat on the bank.”",
+  "steps": [
+   "The context: a fisherman sits near water.",
+   "So bank means the side of a river."
+  ],
+  "answer": "the side of a river",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c62-1",
+    "status": "draft",
+    "idea": "Homonyms: same spelling, same sound, different meanings.",
+    "vars": {},
+    "example": [
+     "a bat (animal) / a bat (for cricket)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-62-mean"
+    }
+   },
+   {
+    "id": "c62-2",
+    "status": "draft",
+    "idea": "Use the context to find the meaning.",
+    "vars": {},
+    "example": [
+     "“The dog's bark woke me” → the sound of a dog."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-62-ctx"
+    }
+   },
+   {
+    "id": "c62-3",
+    "status": "draft",
+    "idea": "Homophones are different: they are spelt differently.",
+    "vars": {},
+    "example": [
+     "sea / see, right / write"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-62-kind-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which pair are homonyms (same spelling, different meanings)?",
+         "r": "bark (of a tree) / bark (of a dog)",
+         "w": [
+          "sea / see",
+          "write / right",
+          "big / large"
+         ],
+         "e": [
+          "They are spelt differently: homophones.",
+          "They are spelt differently: homophones.",
+          "They mean the same: synonyms."
+         ],
+         "y": "Same spelling and sound, different meanings."
+        },
+        {
+         "q": "Which pair are homophones (same sound, different spelling)?",
+         "r": "hear / here",
+         "w": [
+          "bank / bank",
+          "ring / ring",
+          "hot / cold"
+         ],
+         "e": [
+          "Same spelling: homonyms.",
+          "Same spelling: homonyms.",
+          "Opposite meanings: antonyms."
+         ],
+         "y": "They sound the same but are spelt differently."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-62-mean",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "We sat on the BANK of the river.",
+       "r": "the side of a river",
+       "w": [
+        "a place that keeps money",
+        "a kind of food",
+        "a school subject"
+       ],
+       "e": [
+        "That is the other meaning; look at the context.",
+        "That is not a meaning of this word.",
+        "That is not a meaning of this word."
+       ],
+       "y": "In this sentence, bank means the side of a river."
+      },
+      {
+       "s": "She deposited money at the BANK.",
+       "r": "a place that keeps money",
+       "w": [
+        "the side of a river",
+        "a kind of food",
+        "a school subject"
+       ],
+       "e": [
+        "That is the other meaning; look at the context.",
+        "That is not a meaning of this word.",
+        "That is not a meaning of this word."
+       ],
+       "y": "In this sentence, bank means a place that keeps money."
+      },
+      {
+       "s": "This parcel is very LIGHT.",
+       "r": "not heavy",
+       "w": [
+        "brightness from the sun or a lamp",
+        "a kind of food",
+        "a school subject"
+       ],
+       "e": [
+        "That is the other meaning; look at the context.",
+        "That is not a meaning of this word.",
+        "That is not a meaning of this word."
+       ],
+       "y": "In this sentence, light means not heavy."
+      },
+      {
+       "s": "We watched the MATCH on Saturday.",
+       "r": "a game",
+       "w": [
+        "a small stick that makes fire",
+        "a kind of food",
+        "a school subject"
+       ],
+       "e": [
+        "That is the other meaning; look at the context.",
+        "That is not a meaning of this word.",
+        "That is not a meaning of this word."
+       ],
+       "y": "In this sentence, match means a game."
+      },
+      {
+       "s": "My WATCH says nine o'clock.",
+       "r": "a small clock worn on the wrist",
+       "w": [
+        "to look at",
+        "a kind of food",
+        "a school subject"
+       ],
+       "e": [
+        "That is the other meaning; look at the context.",
+        "That is not a meaning of this word.",
+        "That is not a meaning of this word."
+       ],
+       "y": "In this sentence, watch means a small clock worn on the wrist."
+      },
+      {
+       "s": "The boxers fought in the RING.",
+       "r": "the square where boxers fight",
+       "w": [
+        "jewellery worn on a finger",
+        "a kind of food",
+        "a school subject"
+       ],
+       "e": [
+        "That is the other meaning; look at the context.",
+        "That is not a meaning of this word.",
+        "That is not a meaning of this word."
+       ],
+       "y": "In this sentence, ring means the square where boxers fight."
+      }
+     ]
+    }
+   },
+   "prompt": "What does the word in capitals mean? “{X.s}”",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-62-ctx",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "k": "light",
+       "m": "“not heavy”",
+       "r": "The box is light: a child can carry it.",
+       "w": [
+        "Switch on the light, please.",
+        "Light the fire, please.",
+        "She wore a light blue dress."
+       ],
+       "e": [
+        "Here light means brightness.",
+        "Here light means to start a fire.",
+        "Here light describes a colour."
+       ],
+       "y": "A child can carry it, so it is not heavy."
+      },
+      {
+       "k": "watch",
+       "m": "“a clock worn on the wrist”",
+       "r": "My watch stopped at noon.",
+       "w": [
+        "Watch the road carefully.",
+        "We watch football on Sundays.",
+        "The soldiers keep watch at night."
+       ],
+       "e": [
+        "Here watch means look at.",
+        "Here watch means look at.",
+        "Here watch means guard duty."
+       ],
+       "y": "A watch that stops is a clock."
+      },
+      {
+       "k": "match",
+       "m": "“a game”",
+       "r": "The match ended in a draw.",
+       "w": [
+        "Strike a match to light the stove.",
+        "These colours do not match.",
+        "Bring a box of matches."
+       ],
+       "e": [
+        "Here match means a small stick.",
+        "Here match means go well together.",
+        "Here matches are small sticks."
+       ],
+       "y": "A match that ends in a draw is a game."
+      }
+     ]
+    }
+   },
+   "prompt": "Which sentence uses the word “{X.k}” to mean {X.m}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-62-kind",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which pair are homonyms (same spelling, different meanings)?",
+       "r": "bark (of a tree) / bark (of a dog)",
+       "w": [
+        "sea / see",
+        "write / right",
+        "big / large"
+       ],
+       "e": [
+        "They are spelt differently: homophones.",
+        "They are spelt differently: homophones.",
+        "They mean the same: synonyms."
+       ],
+       "y": "Same spelling and sound, different meanings."
+      },
+      {
+       "q": "Which pair are homophones (same sound, different spelling)?",
+       "r": "hear / here",
+       "w": [
+        "bank / bank",
+        "ring / ring",
+        "hot / cold"
+       ],
+       "e": [
+        "Same spelling: homonyms.",
+        "Same spelling: homonyms.",
+        "Opposite meanings: antonyms."
+       ],
+       "y": "They sound the same but are spelt differently."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-62-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "“Bank” can mean the side of a river.",
+      "truth": "true"
+     },
+     {
+      "text": "Homonyms are spelt the same.",
+      "truth": "true"
+     },
+     {
+      "text": "We use the context to find the meaning of a homonym.",
+      "truth": "true"
+     },
+     {
+      "text": "“Spring” can be a season.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Homonyms are always spelt differently.",
+      "truth": "false",
+      "explain": "Homonyms are spelt the same; homophones are spelt differently."
+     },
+     {
+      "text": "“Sea” and “see” are homonyms.",
+      "truth": "false",
+      "explain": "They are homophones (different spelling)."
+     },
+     {
+      "text": "“Bark” has only one meaning.",
+      "truth": "false",
+      "explain": "It is the covering of a tree, or the sound of a dog."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

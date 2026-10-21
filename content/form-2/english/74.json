@@ -1,0 +1,400 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 74,
+ "language": "en",
+ "prerequisites": [
+  73
+ ],
+ "skills": [
+  {
+   "id": "e2-74",
+   "name": "Words about pollution: causes, consequences and prevention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Causes: pollutants, exhaust fumes, smoke, sewage, chemicals, pesticides, litter, plastic, noise.\nConsequences: toxic (poisonous) water, contaminated food, diseases (asthma, cholera), global warming, loss of fish and wildlife.\nPrevention: to recycle, to reduce, to reuse, to treat waste water, to plant trees, biodegradable bags, to raise awareness.\nThe three Rs: reduce (use less), reuse (use again), recycle (make new things from waste).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Sort into cause, consequence, prevention: sewage, asthma, recycling.",
+  "steps": [
+   "Sewage pollutes water: a cause.",
+   "Asthma is an illness: a consequence.",
+   "Recycling reduces waste: prevention."
+  ],
+  "answer": "cause, consequence, prevention",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c74-1",
+    "status": "draft",
+    "idea": "Pollutants are harmful substances: smoke, sewage, chemicals.",
+    "vars": {},
+    "example": [
+     "Exhaust fumes are a pollutant."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-74-match"
+    }
+   },
+   {
+    "id": "c74-2",
+    "status": "draft",
+    "idea": "The three Rs: reduce, reuse, recycle.",
+    "vars": {},
+    "example": [
+     "Reuse a bottle; recycle tins."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-74-rs"
+    }
+   },
+   {
+    "id": "c74-3",
+    "status": "draft",
+    "idea": "Biodegradable things rot naturally; plastic does not.",
+    "vars": {},
+    "example": [
+     "Banana leaves are biodegradable."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-74-cl-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Leaves and fruit peels are ___: they rot quickly.",
+         "a": "biodegradable",
+         "w": [
+          "toxic",
+          "recycled"
+         ],
+         "e": [
+          "Toxic means poisonous.",
+          "Recycled means made into new things."
+         ]
+        },
+        {
+         "s": "The factory's waste water is ___: fish die in it.",
+         "a": "toxic",
+         "w": [
+          "biodegradable",
+          "reused"
+         ],
+         "e": [
+          "The fish die: the water is poisonous.",
+          "Reused is not the meaning here."
+         ]
+        },
+        {
+         "s": "Do not drop ___ in the street.",
+         "a": "litter",
+         "w": [
+          "sewage",
+          "exhaust"
+         ],
+         "e": [
+          "Sewage is waste water.",
+          "Exhaust is smoke from engines."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-74-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "a pollutant",
+     "right": "a substance that pollutes"
+    },
+    {
+     "left": "exhaust fumes",
+     "right": "smoke from a vehicle engine"
+    },
+    {
+     "left": "sewage",
+     "right": "dirty water and waste from toilets"
+    },
+    {
+     "left": "toxic",
+     "right": "poisonous"
+    },
+    {
+     "left": "to contaminate",
+     "right": "to make something dirty or poisonous"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-74-rs",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Using a plastic bottle again to store water",
+       "r": "reuse",
+       "w": [
+        "reduce",
+        "recycle",
+        "refuse"
+       ],
+       "e": [
+        "Reduce means using less.",
+        "Recycling makes new things from waste.",
+        "That is not one of the three Rs here."
+       ],
+       "y": "Using something again is reusing."
+      },
+      {
+       "q": "Buying fewer plastic bags",
+       "r": "reduce",
+       "w": [
+        "reuse",
+        "recycle",
+        "repair"
+       ],
+       "e": [
+        "Reuse means using again.",
+        "Recycling makes new things from waste.",
+        "That is not one of the three Rs."
+       ],
+       "y": "Using less is reducing."
+      },
+      {
+       "q": "Melting old tins to make new pots",
+       "r": "recycle",
+       "w": [
+        "reduce",
+        "reuse",
+        "refuse"
+       ],
+       "e": [
+        "Reduce means using less.",
+        "Reuse means using the same thing again.",
+        "That is not one of the three Rs here."
+       ],
+       "y": "Making new things from waste is recycling."
+      }
+     ]
+    }
+   },
+   "prompt": "Which of the three Rs is this? “{X.q}”",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-74-cl",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Leaves and fruit peels are ___: they rot quickly.",
+       "a": "biodegradable",
+       "w": [
+        "toxic",
+        "recycled"
+       ],
+       "e": [
+        "Toxic means poisonous.",
+        "Recycled means made into new things."
+       ]
+      },
+      {
+       "s": "The factory's waste water is ___: fish die in it.",
+       "a": "toxic",
+       "w": [
+        "biodegradable",
+        "reused"
+       ],
+       "e": [
+        "The fish die: the water is poisonous.",
+        "Reused is not the meaning here."
+       ]
+      },
+      {
+       "s": "Do not drop ___ in the street.",
+       "a": "litter",
+       "w": [
+        "sewage",
+        "exhaust"
+       ],
+       "e": [
+        "Sewage is waste water.",
+        "Exhaust is smoke from engines."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-74-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Exhaust fumes pollute the air.",
+      "truth": "true"
+     },
+     {
+      "text": "Recycling makes new things from waste.",
+      "truth": "true"
+     },
+     {
+      "text": "Toxic means poisonous.",
+      "truth": "true"
+     },
+     {
+      "text": "Sewage is dirty water.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plastic bags are biodegradable.",
+      "truth": "false",
+      "explain": "Plastic does not rot easily."
+     },
+     {
+      "text": "Reduce means using something again.",
+      "truth": "false",
+      "explain": "Reduce means using less; reuse means using again."
+     },
+     {
+      "text": "Asthma is a way to prevent pollution.",
+      "truth": "false",
+      "explain": "Asthma is a consequence."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

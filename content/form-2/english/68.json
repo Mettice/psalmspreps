@@ -1,0 +1,119 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 68,
+ "language": "en",
+ "prerequisites": [
+  65,
+  43
+ ],
+ "skills": [
+  {
+   "id": "e2-68",
+   "name": "Writing about an environmental event; dos and don'ts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Environmental events: World Environment Day (5 June), tree-planting days, clean-up campaigns. To write about one: what it is and when; what people do; why it matters; your opinion.\nA list of dos and don'ts gives short instructions in the imperative: Do plant trees. Don't burn bushes. Begin each item with the verb; keep the items short and parallel.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Plan a text on World Environment Day and a list of dos and don'ts.",
+  "steps": [
+   "What and when: World Environment Day, {5} June every year.",
+   "What people do: plant trees, clean streets, talks in schools.",
+   "Why it matters: reminds us to protect nature.",
+   "Dos: Plant trees. Save water. Don'ts: Don't burn bushes. Don't throw plastic in rivers."
+  ],
+  "answer": "event: what, when, activities, importance → list of dos and don'ts",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c68-1",
+    "status": "draft",
+    "idea": "Say what the event is, when, and what people do.",
+    "vars": {},
+    "example": [
+     "World Environment Day is on {5} June."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-68-order"
+    }
+   },
+   {
+    "id": "c68-2",
+    "status": "draft",
+    "idea": "Explain why it matters.",
+    "vars": {},
+    "example": [
+     "It reminds us to protect nature."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-68-order"
+    }
+   },
+   {
+    "id": "c68-3",
+    "status": "draft",
+    "idea": "Dos and don'ts start with an imperative.",
+    "vars": {},
+    "example": [
+     "Do plant trees. Don't burn bushes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-68-order"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-68-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "prompt": "Put the sentences in order.",
+   "items": [
+    {
+     "text": "World Environment Day is celebrated every year on 5 June."
+    },
+    {
+     "text": "On that day, pupils plant trees and clean the streets."
+    },
+    {
+     "text": "The day reminds us that we must protect nature."
+    },
+    {
+     "text": "Do plant trees. Don't burn bushes."
+    }
+   ],
+   "order": "as_written"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "In your exercise book, write a paragraph (about 100 words) on an environmental event, then a list of five dos and five don'ts for protecting the environment.",
+  "model": [
+   "World Environment Day is celebrated every year on 5 June. In our school, the Environment Club organises a march, and every class plants trees around the compound. In the afternoon, a forester explains why forests matter. This day is important because it reminds everyone that the environment is our common home.\n\nDos: Plant trees. Put rubbish in a bin. Save water. Switch off lights you do not need. Walk short distances.\nDon'ts: Don't burn bushes. Don't throw plastic into rivers. Don't cut young trees. Don't block the gutters. Don't waste water."
+  ],
+  "checklist": [
+   "I said what the event is and when.",
+   "I described what people do.",
+   "I explained why it matters.",
+   "My dos and don'ts begin with a verb.",
+   "My list items are short."
+  ]
+ }
+}

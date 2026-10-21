@@ -1,0 +1,123 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 48,
+ "language": "en",
+ "prerequisites": [
+  45,
+  47
+ ],
+ "skills": [
+  {
+   "id": "e2-48",
+   "name": "Writing a report and a poster"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A report gives facts about something that happened or was studied. Layout: a title; To (who receives it), From (who writes it), Date; an introduction (the purpose); the findings (what you saw or found, in paragraphs or points); recommendations (what should be done). Use formal language and the past tense for what happened.\nA poster advertises a service or gives a message. It has a short heading, a picture idea, a few key facts (what, where, when, how much), and contact details. Use few words and large letters.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Plan a report to the principal on a health problem in the school.",
+  "steps": [
+   "Title: Report on hand washing in our school. To: the Principal. From: the Health Club. Date.",
+   "Introduction: purpose of the report.",
+   "Findings: few water points, no soap, many pupils do not wash their hands.",
+   "Recommendations: more water points, soap every week, a hand-washing campaign."
+  ],
+  "answer": "title → To/From/Date → introduction → findings → recommendations",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c48-1",
+    "status": "draft",
+    "idea": "A report gives facts: introduction, findings, recommendations.",
+    "vars": {},
+    "example": [
+     "Recommendation: put soap at every water point."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-48-order"
+    }
+   },
+   {
+    "id": "c48-2",
+    "status": "draft",
+    "idea": "A report has To, From and Date at the top.",
+    "vars": {},
+    "example": [
+     "To: the Principal; From: the Health Club"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-48-order"
+    }
+   },
+   {
+    "id": "c48-3",
+    "status": "draft",
+    "idea": "A poster is short: heading, key facts, contact.",
+    "vars": {},
+    "example": [
+     "FAST DELIVERY! Parcels in {24} hours. Call …"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-48-order"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-48-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "prompt": "Put the parts of the report in order.",
+   "items": [
+    {
+     "text": "Report on hand washing in our school"
+    },
+    {
+     "text": "To: the Principal; From: the Health Club"
+    },
+    {
+     "text": "This report describes how pupils wash their hands."
+    },
+    {
+     "text": "We found only two water points and no soap."
+    },
+    {
+     "text": "We recommend more water points and soap every week."
+    }
+   ],
+   "order": "as_written"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Write in your exercise book a short report (about 120 words) to your principal on a health problem in your school, with a title, To/From/Date, an introduction, findings and recommendations. Then design a poster advertising a parcel delivery service.",
+  "model": [
+   "Report on hand washing in our school\nTo: the Principal\nFrom: the Health Club\nDate: 14 May\n\nIntroduction: This report describes how pupils wash their hands at school.\n\nFindings: We visited the school compound during break for one week. There are only two water points for 900 pupils, and there is no soap. Most pupils eat without washing their hands. Three classes had pupils absent with diarrhoea last month.\n\nRecommendations: We recommend more water points, soap at every point each week, and a hand-washing campaign led by the Health Club.\n\nPoster: FAST AND SAFE DELIVERY — Parcels anywhere in the region in 48 hours — Visit our office near the main market — Call 6xx xx xx xx"
+  ],
+  "checklist": [
+   "My report has a title.",
+   "I wrote To, From and Date.",
+   "My introduction gives the purpose.",
+   "My findings are facts.",
+   "My recommendations say what should be done.",
+   "My poster has a heading, key facts and contact details."
+  ]
+ }
+}

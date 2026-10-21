@@ -1,0 +1,374 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 71,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-71",
+   "name": "Main and subordinate clauses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A clause is a group of words with a subject and a verb.\n• A main clause makes sense on its own: The boy reported the bully.\n• A subordinate clause does not make sense alone; it begins with a subordinator such as because, when, if, although, while, since, after, before, until: … because he was afraid.\nA complex sentence = main clause + subordinate clause: The boy reported the bully because he was afraid.\nWhen the subordinate clause comes first, put a comma after it: Although he was afraid, he reported the bully.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Find the main clause: “When the bell rang, the fight stopped.”",
+  "steps": [
+   "“When the bell rang” begins with when: it does not make sense alone.",
+   "“the fight stopped” makes sense alone: it is the main clause."
+  ],
+  "answer": "the fight stopped",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c71-1",
+    "status": "draft",
+    "idea": "A main clause makes sense on its own.",
+    "vars": {},
+    "example": [
+     "He told the teacher. (main clause)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-71-main"
+    }
+   },
+   {
+    "id": "c71-2",
+    "status": "draft",
+    "idea": "A subordinate clause begins with because, when, if, although …",
+    "vars": {},
+    "example": [
+     "… because he was hurt."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-71-sub"
+    }
+   },
+   {
+    "id": "c71-3",
+    "status": "draft",
+    "idea": "Join two sentences with a subordinator.",
+    "vars": {},
+    "example": [
+     "He was afraid. He reported it. → Although he was afraid, he reported it."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-71-join-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "Although he was afraid, he reported the bully.",
+         "b": "Although he was afraid, he reported the bully."
+        },
+        {
+         "a": "The fight stopped when the teacher arrived.",
+         "b": "The fight stopped when the teacher arrived."
+        },
+        {
+         "a": "If you are bullied, tell a teacher you trust.",
+         "b": "If you are bullied, tell a teacher you trust."
+        },
+        {
+         "a": "She joined the club because she wanted to help.",
+         "b": "She joined the club because she wanted to help."
+        }
+       ]
+      }
+     },
+     "prompt": "Tap the words in the right order.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-71-main",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The boy cried because the bully took his money.",
+       "r": "The boy cried",
+       "w": [
+        "because the bully took his money",
+        "took his money",
+        "the bully"
+       ],
+       "e": [
+        "It begins with because: subordinate.",
+        "That is part of the subordinate clause.",
+        "That is not a clause."
+       ],
+       "y": "“The boy cried” makes sense alone."
+      },
+      {
+       "q": "If you see a fight, tell a teacher.",
+       "r": "tell a teacher",
+       "w": [
+        "If you see a fight",
+        "you see",
+        "a fight"
+       ],
+       "e": [
+        "It begins with if: subordinate.",
+        "That is part of the subordinate clause.",
+        "That is not a clause."
+       ],
+       "y": "“tell a teacher” is the main instruction."
+      },
+      {
+       "q": "Although she was frightened, Ngum spoke to the counsellor.",
+       "r": "Ngum spoke to the counsellor",
+       "w": [
+        "Although she was frightened",
+        "she was frightened",
+        "the counsellor"
+       ],
+       "e": [
+        "It begins with although: subordinate.",
+        "That is part of the subordinate clause.",
+        "That is not a clause."
+       ],
+       "y": "It makes sense on its own."
+      }
+     ]
+    }
+   },
+   "prompt": "Which is the main clause in: “{X.q}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-71-sub",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "He was punished ___ he bullied a younger boy.",
+       "a": "because",
+       "w": [
+        "although",
+        "until"
+       ],
+       "e": [
+        "The second clause gives the reason: because.",
+        "Until is about time."
+       ]
+      },
+      {
+       "s": "___ you see drugs in school, report it.",
+       "a": "If",
+       "w": [
+        "Because",
+        "Although"
+       ],
+       "e": [
+        "It is a condition: if.",
+        "It is a condition, not a contrast."
+       ]
+      },
+      {
+       "s": "___ he was afraid, he told the truth.",
+       "a": "Although",
+       "w": [
+        "Because",
+        "If"
+       ],
+       "e": [
+        "Afraid but brave: a contrast, although.",
+        "It is a fact, not a condition."
+       ]
+      },
+      {
+       "s": "Wait here ___ the principal arrives.",
+       "a": "until",
+       "w": [
+        "because",
+        "although"
+       ],
+       "e": [
+        "It is about time: until.",
+        "It is about time."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the subordinator that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-71-join",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Although he was afraid, he reported the bully.",
+       "b": "Although he was afraid, he reported the bully."
+      },
+      {
+       "a": "The fight stopped when the teacher arrived.",
+       "b": "The fight stopped when the teacher arrived."
+      },
+      {
+       "a": "If you are bullied, tell a teacher you trust.",
+       "b": "If you are bullied, tell a teacher you trust."
+      },
+      {
+       "a": "She joined the club because she wanted to help.",
+       "b": "She joined the club because she wanted to help."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-71-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A main clause makes sense on its own.",
+      "truth": "true"
+     },
+     {
+      "text": "“because he was afraid” is a subordinate clause.",
+      "truth": "true"
+     },
+     {
+      "text": "A complex sentence has a main and a subordinate clause.",
+      "truth": "true"
+     },
+     {
+      "text": "When the subordinate clause comes first, we use a comma.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "“When the bell rang.” is a complete sentence.",
+      "truth": "false",
+      "explain": "It is a subordinate clause; it needs a main clause."
+     },
+     {
+      "text": "A subordinate clause always begins with “and”.",
+      "truth": "false",
+      "explain": "It begins with a subordinator: because, when, if, although …"
+     },
+     {
+      "text": "A main clause cannot have a verb.",
+      "truth": "false",
+      "explain": "Every clause has a subject and a verb."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

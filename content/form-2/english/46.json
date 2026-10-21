@@ -1,0 +1,552 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 46,
+ "language": "en",
+ "prerequisites": [
+  45
+ ],
+ "skills": [
+  {
+   "id": "e2-46",
+   "name": "Masculine, feminine, neuter and common gender"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Nouns have gender:\n• masculine: male persons or animals — postman, king, uncle, bull, cock;\n• feminine: female — postwoman, queen, aunt, cow, hen;\n• neuter: things with no sex — letter, parcel, stamp, post office;\n• common: either male or female — teacher, doctor, clerk, child, parent, friend.\nFeminine forms are made with -ess (waiter → waitress, host → hostess), with another word (postman → postwoman), or are a different word (king → queen, nephew → niece).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give the gender of: clerk, queen, parcel, bull.",
+  "steps": [
+   "clerk: male or female → common.",
+   "queen: female → feminine.",
+   "parcel: a thing → neuter.",
+   "bull: a male animal → masculine."
+  ],
+  "answer": "common, feminine, neuter, masculine",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c46-1",
+    "status": "draft",
+    "idea": "Masculine: male; feminine: female.",
+    "vars": {},
+    "example": [
+     "king → queen; uncle → aunt"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-46-fem"
+    }
+   },
+   {
+    "id": "c46-2",
+    "status": "draft",
+    "idea": "Neuter nouns name things; common nouns can be male or female.",
+    "vars": {},
+    "example": [
+     "letter: neuter; teacher: common"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-46-kind"
+    }
+   },
+   {
+    "id": "c46-3",
+    "status": "draft",
+    "idea": "Many feminine forms end in -ess.",
+    "vars": {},
+    "example": [
+     "actor → actress; host → hostess"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-46-ess-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "The ___ served us rice and fish.",
+         "a": "waitress",
+         "w": [
+          "waiteress",
+          "waitwoman"
+         ],
+         "e": [
+          "waiter → waitress (the e is dropped).",
+          "We say waitress."
+         ]
+        },
+        {
+         "s": "She is a famous ___ in Nollywood films.",
+         "a": "actress",
+         "w": [
+          "actoress",
+          "actwoman"
+         ],
+         "e": [
+          "actor → actress.",
+          "We say actress."
+         ]
+        },
+        {
+         "s": "The ___ welcomed the visitors to her house.",
+         "a": "hostess",
+         "w": [
+          "hostwoman",
+          "hostess's"
+         ],
+         "e": [
+          "host → hostess.",
+          "That is a possessive, not the noun."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the feminine noun.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-46-fem",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "m": "postman",
+       "r": "postwoman",
+       "w": [
+        "waitress",
+        "actress",
+        "queen"
+       ],
+       "e": [
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun."
+       ],
+       "y": "postman → postwoman."
+      },
+      {
+       "m": "waiter",
+       "r": "waitress",
+       "w": [
+        "postwoman",
+        "actress",
+        "queen"
+       ],
+       "e": [
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun."
+       ],
+       "y": "waiter → waitress."
+      },
+      {
+       "m": "actor",
+       "r": "actress",
+       "w": [
+        "postwoman",
+        "waitress",
+        "queen"
+       ],
+       "e": [
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun."
+       ],
+       "y": "actor → actress."
+      },
+      {
+       "m": "king",
+       "r": "queen",
+       "w": [
+        "postwoman",
+        "waitress",
+        "actress"
+       ],
+       "e": [
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun."
+       ],
+       "y": "king → queen."
+      },
+      {
+       "m": "uncle",
+       "r": "aunt",
+       "w": [
+        "postwoman",
+        "waitress",
+        "actress"
+       ],
+       "e": [
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun."
+       ],
+       "y": "uncle → aunt."
+      },
+      {
+       "m": "host",
+       "r": "hostess",
+       "w": [
+        "postwoman",
+        "waitress",
+        "actress"
+       ],
+       "e": [
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun."
+       ],
+       "y": "host → hostess."
+      },
+      {
+       "m": "headmaster",
+       "r": "headmistress",
+       "w": [
+        "postwoman",
+        "waitress",
+        "actress"
+       ],
+       "e": [
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun."
+       ],
+       "y": "headmaster → headmistress."
+      },
+      {
+       "m": "bull",
+       "r": "cow",
+       "w": [
+        "postwoman",
+        "waitress",
+        "actress"
+       ],
+       "e": [
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun.",
+        "That is the feminine of another noun."
+       ],
+       "y": "bull → cow."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the feminine of “{X.m}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-46-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "parcel",
+       "r": "neuter",
+       "w": [
+        "masculine",
+        "feminine",
+        "common"
+       ],
+       "e": [
+        "A parcel is a thing.",
+        "A parcel is a thing.",
+        "Common gender is for people or animals that can be male or female."
+       ],
+       "y": "Things are neuter."
+      },
+      {
+       "q": "doctor",
+       "r": "common",
+       "w": [
+        "masculine",
+        "feminine",
+        "neuter"
+       ],
+       "e": [
+        "A doctor can be a woman.",
+        "A doctor can be a man.",
+        "A doctor is a person."
+       ],
+       "y": "A doctor can be male or female."
+      },
+      {
+       "q": "hen",
+       "r": "feminine",
+       "w": [
+        "masculine",
+        "neuter",
+        "common"
+       ],
+       "e": [
+        "A hen is female.",
+        "A hen is an animal.",
+        "A hen is only female."
+       ],
+       "y": "A hen is a female chicken."
+      },
+      {
+       "q": "nephew",
+       "r": "masculine",
+       "w": [
+        "feminine",
+        "neuter",
+        "common"
+       ],
+       "e": [
+        "A nephew is male.",
+        "A nephew is a person.",
+        "A nephew is only male."
+       ],
+       "y": "The feminine is niece."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the gender of “{X.q}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-46-ess",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The ___ served us rice and fish.",
+       "a": "waitress",
+       "w": [
+        "waiteress",
+        "waitwoman"
+       ],
+       "e": [
+        "waiter → waitress (the e is dropped).",
+        "We say waitress."
+       ]
+      },
+      {
+       "s": "She is a famous ___ in Nollywood films.",
+       "a": "actress",
+       "w": [
+        "actoress",
+        "actwoman"
+       ],
+       "e": [
+        "actor → actress.",
+        "We say actress."
+       ]
+      },
+      {
+       "s": "The ___ welcomed the visitors to her house.",
+       "a": "hostess",
+       "w": [
+        "hostwoman",
+        "hostess's"
+       ],
+       "e": [
+        "host → hostess.",
+        "That is a possessive, not the noun."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the feminine noun.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-46-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "“Letter” is neuter.",
+      "truth": "true"
+     },
+     {
+      "text": "“Teacher” is common gender.",
+      "truth": "true"
+     },
+     {
+      "text": "The feminine of “king” is “queen”.",
+      "truth": "true"
+     },
+     {
+      "text": "The feminine of “bull” is “cow”.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The feminine of “uncle” is “niece”.",
+      "truth": "false",
+      "explain": "The feminine of uncle is aunt; niece goes with nephew."
+     },
+     {
+      "text": "“Parcel” is feminine.",
+      "truth": "false",
+      "explain": "A parcel is a thing: neuter."
+     },
+     {
+      "text": "“Child” is always masculine.",
+      "truth": "false",
+      "explain": "A child can be a boy or a girl: common gender."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

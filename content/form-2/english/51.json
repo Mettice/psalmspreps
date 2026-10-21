@@ -1,0 +1,465 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 51,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-51",
+   "name": "Countable and uncountable nouns"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Countable nouns can be counted and have a plural: one coin, two coins; a bank, three banks.\nUncountable nouns cannot be counted and have no plural: money, water, rice, bread, information, advice, furniture, luggage. We do not say “a money” or “informations”.\n• many / a few / few + countable plural: many coins, a few banks.\n• much / a little / little + uncountable: much money, a little water.\n• a lot of, some, any go with both: a lot of coins, a lot of money.\n• To count an uncountable noun, use a unit: a piece of advice, a bag of rice, a glass of water.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Correct: “She gave me many informations and two advices.”",
+  "steps": [
+   "information and advice are uncountable: no plural, no “many”.",
+   "She gave me a lot of information and two pieces of advice."
+  ],
+  "answer": "a lot of information and two pieces of advice",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c51-1",
+    "status": "draft",
+    "idea": "Countable nouns have a plural; uncountable nouns do not.",
+    "vars": {},
+    "example": [
+     "coin → coins; money (no plural)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-51-kind"
+    }
+   },
+   {
+    "id": "c51-2",
+    "status": "draft",
+    "idea": "many + countable; much + uncountable.",
+    "vars": {},
+    "example": [
+     "many customers, much money"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-51-much"
+    }
+   },
+   {
+    "id": "c51-3",
+    "status": "draft",
+    "idea": "Count uncountable nouns with a unit.",
+    "vars": {},
+    "example": [
+     "a piece of advice, a bag of rice"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-51-unit-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "My uncle gave me a good ___ of advice.",
+         "a": "piece",
+         "w": [
+          "bag",
+          "glass"
+         ],
+         "e": [
+          "We say a piece of advice.",
+          "A glass is for drinks."
+         ]
+        },
+        {
+         "s": "We bought a ___ of rice at the market.",
+         "a": "bag",
+         "w": [
+          "piece",
+          "glass"
+         ],
+         "e": [
+          "Rice comes in bags.",
+          "A glass is for drinks."
+         ]
+        },
+        {
+         "s": "Please give me a ___ of water.",
+         "a": "glass",
+         "w": [
+          "bag",
+          "piece"
+         ],
+         "e": [
+          "Water is drunk from a glass.",
+          "We do not say a piece of water."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the right unit.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-51-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "money",
+       "r": "uncountable",
+       "w": [
+        "countable",
+        "both",
+        "a proper noun"
+       ],
+       "e": [
+        "We do not say “two moneys”.",
+        "Money has no plural.",
+        "It is a common noun."
+       ],
+       "y": "We count coins or notes, not “moneys”."
+      },
+      {
+       "q": "coin",
+       "r": "countable",
+       "w": [
+        "uncountable",
+        "never plural",
+        "a proper noun"
+       ],
+       "e": [
+        "One coin, two coins.",
+        "It has a plural: coins.",
+        "It is a common noun."
+       ],
+       "y": "One coin, two coins."
+      },
+      {
+       "q": "advice",
+       "r": "uncountable",
+       "w": [
+        "countable",
+        "always plural",
+        "a proper noun"
+       ],
+       "e": [
+        "We say “a piece of advice”.",
+        "It has no plural.",
+        "It is a common noun."
+       ],
+       "y": "We say “some advice”."
+      },
+      {
+       "q": "account",
+       "r": "countable",
+       "w": [
+        "uncountable",
+        "never plural",
+        "a proper noun"
+       ],
+       "e": [
+        "One account, two accounts.",
+        "It has a plural.",
+        "It is a common noun."
+       ],
+       "y": "One account, two accounts."
+      }
+     ]
+    }
+   },
+   "prompt": "Is “{X.q}” countable or uncountable?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-51-much",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "How ___ money did you deposit?",
+       "a": "much",
+       "w": [
+        "many",
+        "a few"
+       ],
+       "e": [
+        "Money is uncountable: much.",
+        "A few goes with countable plurals."
+       ]
+      },
+      {
+       "s": "How ___ customers are waiting?",
+       "a": "many",
+       "w": [
+        "much",
+        "a little"
+       ],
+       "e": [
+        "Customers is a countable plural: many.",
+        "A little goes with uncountable nouns."
+       ]
+      },
+      {
+       "s": "There is not ___ water in the tank.",
+       "a": "much",
+       "w": [
+        "many",
+        "a few"
+       ],
+       "e": [
+        "Water is uncountable: much.",
+        "A few goes with countable plurals."
+       ]
+      },
+      {
+       "s": "She has ___ friends in Douala.",
+       "a": "many",
+       "w": [
+        "much",
+        "a little"
+       ],
+       "e": [
+        "Friends is a countable plural: many.",
+        "A little goes with uncountable nouns."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose much or many.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-51-unit",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "My uncle gave me a good ___ of advice.",
+       "a": "piece",
+       "w": [
+        "bag",
+        "glass"
+       ],
+       "e": [
+        "We say a piece of advice.",
+        "A glass is for drinks."
+       ]
+      },
+      {
+       "s": "We bought a ___ of rice at the market.",
+       "a": "bag",
+       "w": [
+        "piece",
+        "glass"
+       ],
+       "e": [
+        "Rice comes in bags.",
+        "A glass is for drinks."
+       ]
+      },
+      {
+       "s": "Please give me a ___ of water.",
+       "a": "glass",
+       "w": [
+        "bag",
+        "piece"
+       ],
+       "e": [
+        "Water is drunk from a glass.",
+        "We do not say a piece of water."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the right unit.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-51-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has a mistake?",
+   "pool": {
+    "right": [
+     {
+      "text": "I need some information about loans.",
+      "truth": "true"
+     },
+     {
+      "text": "She has many accounts.",
+      "truth": "true"
+     },
+     {
+      "text": "There is a little money left.",
+      "truth": "true"
+     },
+     {
+      "text": "He gave me a piece of advice.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The clerk gave us many informations.",
+      "truth": "false",
+      "explain": "Information is uncountable: a lot of information."
+     },
+     {
+      "text": "How much customers came today?",
+      "truth": "false",
+      "explain": "Customers is countable: How many."
+     },
+     {
+      "text": "I bought two breads.",
+      "truth": "false",
+      "explain": "Bread is uncountable: two loaves of bread."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

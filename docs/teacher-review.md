@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-192 P1 items: 190 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+195 P1 items: 193 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -220,6 +220,9 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-N21 | Form 2 Maths: symmetry of shapes | open |
 | TR-N22 | Form 2 Maths: money | open |
 | TR-N23 | Form 2 Maths: angles and triangles | open |
+| TR-W10 | Form 2 English Term 2: grammar rules | open |
+| TR-W11 | Form 2 English Term 2: vocabulary and punctuation | open |
+| TR-W12 | Form 2 English Term 2: facts in the texts | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -825,3 +828,15 @@ computed by `src/engine/lib/maths2.js`. Everything is in `content/form-2/maths/R
 - [ ] **TR-N21 [P1] Lines of symmetry and point symmetry of common shapes** (authored table: square 4, rectangle 2, rhombus 2, parallelogram 0, isosceles trapezium 1, kite 1, equilateral triangle 3, isosceles triangle 1, scalene 0; point symmetry for the parallelograms and the circle). *Location:* `SYM_LINES`, `POINT_SYM` in `maths2.js`; lesson 51.
 - [ ] **TR-N22 [P1] Money:** percentage profit or loss on the cost price; discount on the marked price; simple interest I = PRT/100; compound interest year by year (two years at most, as the syllabus says); the euro rate is given in each question (the CFA franc is pegged at about 656 FCFA to the euro). *Location:* lessons 42–47.
 - [ ] **TR-N23 [P1] Angles and triangles:** names of angle pairs (corresponding, alternate, co-interior), the exterior-angle rule, the meeting points of special lines (orthocentre, centroid, circumcentre, incentre), Pythagoras with whole-number triples only. *Location:* lessons 25–32, 53.
+
+## W (Term 2). English Form 2, Batch E2-2 (Term 2, rows 33–76), added 2026-10-21 (form-2 branch)
+
+42 lessons; the two speech-work rows (38: /eiǝ/, /aiǝ/, /ǝiǝ/; 50: /t/, /d/, /f/, /v/) are deferred like the Term 1 speech work (TR-E22).
+Eleven reading texts are original (a safer quarter, the Children's Parliament, a visit to the health centre, sending a parcel,
+opening a bank account, new stadiums, rubbish collection, telehealth, global warming, a dialogue on school delinquency, pollution).
+Writing lessons are paper tasks with a model answer and a self-check list. Reviewer: an English teacher.
+
+### P1
+- [ ] **TR-W10 [P1] Grammar rules:** auxiliaries and modals; imperatives; gender of nouns; common and proper nouns; countable and uncountable nouns; pronouns; impersonal pronouns; articles (a/an by sound, computed by `article()`); comparison of adjectives (computed by `comparative()` / `superlative()` in `english.js`, with an authored list of long adjectives); main and subordinate clauses; relative clauses. *Location:* rows 35, 43, 46, 47, 51, 55, 59, 63, 67, 71, 75.
+- [ ] **TR-W11 [P1] Vocabulary and punctuation:** idioms, abbreviations and acronyms, affixes, homonyms, syllable division, punctuation (1) and (2), words on banks, sport, pollution. *Location:* rows 34, 39, 42, 54, 58, 62, 66, 70, 74.
+- [ ] **TR-W12 [P1] Facts in the texts:** the Children's Parliament; BEAC as the central bank issuing the CFA franc; the Olembe and Japoma stadiums built for the Africa Cup of Nations played in Cameroon in 2022; Arthur Zang and the Cardiopad (row 64 model biography); free vaccination days (written as an example, not a fact about a real centre). *Location:* rows 37, 49, 53, 64, 41.

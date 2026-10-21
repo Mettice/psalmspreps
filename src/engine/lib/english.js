@@ -172,3 +172,32 @@ export const timetable = (times, subjects) => times.map((t, i) => `${t}  ${subje
 export const lines = (xs) => xs.join("\n");
 /** BLOCK LETTERS for forms: "Ebai" → "EBAI". */
 export const upperAll = (s) => String(s).toUpperCase();
+
+// ---------------------------------------------------------------- comparison of adjectives (Form 2, 2026-10-21; TR-W10)
+const IRREG_ADJ = { good: ["better", "best"], bad: ["worse", "worst"], far: ["farther", "farthest"], little: ["less", "least"], many: ["more", "most"], much: ["more", "most"] };
+// Adjectives of two or more syllables that take more / most (those ending in -y take -ier, -iest).
+const LONG_ADJ = new Set(["beautiful", "important", "expensive", "dangerous", "careful", "interesting", "comfortable", "modern", "polluted", "difficult",
+  "famous", "useful", "popular", "intelligent", "harmful", "peaceful", "crowded", "delicious", "hardworking", "honest"]);
+const DOUBLE_ADJ = new Set(["big", "hot", "wet", "fat", "thin", "sad", "red", "fit"]);
+export const adjList = () => ["tall", "short", "big", "hot", "small", "fast", "large", "nice", "happy", "busy", "easy", "heavy", "dirty", "clean", "cheap", "strong", "thin", "wet",
+  ...LONG_ADJ, ...Object.keys(IRREG_ADJ).filter((a) => !["many", "much", "little"].includes(a))];
+export const isLongAdj = (a) => LONG_ADJ.has(a);
+export function comparative(a) {
+  if (IRREG_ADJ[a]) return IRREG_ADJ[a][0];
+  if (LONG_ADJ.has(a)) return `more ${a}`;
+  if (/[^aeiou]y$/.test(a)) return `${a.slice(0, -1)}ier`;
+  if (a.endsWith("e")) return `${a}r`;
+  if (DOUBLE_ADJ.has(a)) return `${a}${a.slice(-1)}er`;
+  return `${a}er`;
+}
+export function superlative(a) {
+  if (IRREG_ADJ[a]) return `the ${IRREG_ADJ[a][1]}`;
+  if (LONG_ADJ.has(a)) return `the most ${a}`;
+  if (/[^aeiou]y$/.test(a)) return `the ${a.slice(0, -1)}iest`;
+  if (a.endsWith("e")) return `the ${a}st`;
+  if (DOUBLE_ADJ.has(a)) return `the ${a}${a.slice(-1)}est`;
+  return `the ${a}est`;
+}
+/** Wrong on purpose: -er on every adjective ("beautifuler", "gooder"), or more + a short one ("more big"), for feedback only. */
+export const comparativeNaive = (a) => (LONG_ADJ.has(a) || IRREG_ADJ[a] ? `${a}er` : `more ${a}`);
+export const comparativeDouble = (a) => `more ${comparative(a)}`;

@@ -1,0 +1,332 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 75,
+ "language": "en",
+ "prerequisites": [
+  71
+ ],
+ "skills": [
+  {
+   "id": "e2-75",
+   "name": "Relative clauses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A relative clause gives more information about a noun. It begins with a relative pronoun:\n• who for people: The man who sells fish lives near the river.\n• which for things and animals: The river which crosses the town is polluted.\n• that for people or things (in defining clauses): The bag that I bought is biodegradable.\n• whose for possession: The boy whose father is a nurse explained it.\n• where for places: This is the dump where the council burns rubbish.\nJoin two sentences: The factory is closed. It polluted the river. → The factory which polluted the river is closed.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Join with a relative pronoun: “The girl won a prize. She planted fifty trees.”",
+  "steps": [
+   "The noun is a person: use who.",
+   "The girl who planted fifty trees won a prize."
+  ],
+  "answer": "The girl who planted fifty trees won a prize.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c75-1",
+    "status": "draft",
+    "idea": "who for people, which for things, where for places.",
+    "vars": {},
+    "example": [
+     "The nurse who …; the river which …; the place where …"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-75-who"
+    }
+   },
+   {
+    "id": "c75-2",
+    "status": "draft",
+    "idea": "whose shows possession.",
+    "vars": {},
+    "example": [
+     "The man whose car smokes was fined."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-75-whose"
+    }
+   },
+   {
+    "id": "c75-3",
+    "status": "draft",
+    "idea": "Join two sentences with a relative pronoun.",
+    "vars": {},
+    "example": [
+     "The river which crosses our town is polluted."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-75-join-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "The factory which polluted the river is closed.",
+         "b": "The factory which polluted the river is closed."
+        },
+        {
+         "a": "The girl who planted fifty trees won a prize.",
+         "b": "The girl who planted fifty trees won a prize."
+        },
+        {
+         "a": "This is the dump where the council burns rubbish.",
+         "b": "This is the dump where the council burns rubbish."
+        },
+        {
+         "a": "The man whose generator is noisy was warned.",
+         "b": "The man whose generator is noisy was warned."
+        }
+       ]
+      }
+     },
+     "prompt": "Tap the words in the right order.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-75-who",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The doctor ___ treated me is very kind.",
+       "a": "who",
+       "w": [
+        "which",
+        "where"
+       ],
+       "e": [
+        "The doctor is a person: who.",
+        "Where is for places."
+       ]
+      },
+      {
+       "s": "The river ___ crosses our town is polluted.",
+       "a": "which",
+       "w": [
+        "who",
+        "whose"
+       ],
+       "e": [
+        "A river is a thing: which.",
+        "Whose shows possession."
+       ]
+      },
+      {
+       "s": "This is the market ___ we sort our rubbish.",
+       "a": "where",
+       "w": [
+        "who",
+        "which"
+       ],
+       "e": [
+        "The market is a place: where.",
+        "We need a word for the place: where."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the relative pronoun.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-75-whose",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The boy ___ father is a nurse explained the danger.",
+       "a": "whose",
+       "w": [
+        "who",
+        "which"
+       ],
+       "e": [
+        "The father belongs to the boy: whose.",
+        "Which is for things."
+       ]
+      },
+      {
+       "s": "The family ___ house was flooded moved away.",
+       "a": "whose",
+       "w": [
+        "which",
+        "where"
+       ],
+       "e": [
+        "The house belongs to the family: whose.",
+        "Where is for places."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the relative pronoun.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-75-join",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "The factory which polluted the river is closed.",
+       "b": "The factory which polluted the river is closed."
+      },
+      {
+       "a": "The girl who planted fifty trees won a prize.",
+       "b": "The girl who planted fifty trees won a prize."
+      },
+      {
+       "a": "This is the dump where the council burns rubbish.",
+       "b": "This is the dump where the council burns rubbish."
+      },
+      {
+       "a": "The man whose generator is noisy was warned.",
+       "b": "The man whose generator is noisy was warned."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-75-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has a relative pronoun mistake?",
+   "pool": {
+    "right": [
+     {
+      "text": "The nurse who helped us is my aunt.",
+      "truth": "true"
+     },
+     {
+      "text": "The bag which I bought is biodegradable.",
+      "truth": "true"
+     },
+     {
+      "text": "This is the place where we play.",
+      "truth": "true"
+     },
+     {
+      "text": "The woman whose shop is near the market sells fish.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The river who crosses the town is dirty.",
+      "truth": "false",
+      "explain": "A river is a thing: which."
+     },
+     {
+      "text": "The boy which won the prize is my cousin.",
+      "truth": "false",
+      "explain": "The boy is a person: who."
+     },
+     {
+      "text": "This is the dump which the council burns rubbish.",
+      "truth": "false",
+      "explain": "For a place, use where."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

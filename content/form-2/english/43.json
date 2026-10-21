@@ -1,0 +1,330 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 43,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-43",
+   "name": "Imperatives"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The imperative gives orders, instructions, advice or warnings. It uses the bare infinitive, usually without a subject: Wash your hands. Take two tablets a day.\nNegative: Don't (Do not) + verb: Don't drink dirty water.\nPolite requests: add please or use Let's for suggestions: Please sit down. Let's go to the clinic.\nHealth instructions are often imperatives: Shake well before use. Keep out of reach of children. Do not exceed the stated dose.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Turn these into imperatives: “You should wash your hands.” “You must not touch the wound.”",
+  "steps": [
+   "Use the bare verb at the start: Wash your hands.",
+   "Negative: Don't touch the wound."
+  ],
+  "answer": "Wash your hands. Don't touch the wound.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c43-1",
+    "status": "draft",
+    "idea": "An imperative starts with the bare verb.",
+    "vars": {},
+    "example": [
+     "Drink clean water. Sleep under a net."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-43-form"
+    }
+   },
+   {
+    "id": "c43-2",
+    "status": "draft",
+    "idea": "Negative imperative: Don't + verb.",
+    "vars": {},
+    "example": [
+     "Don't share needles."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-43-neg"
+    }
+   },
+   {
+    "id": "c43-3",
+    "status": "draft",
+    "idea": "Please makes an order polite; Let's makes a suggestion.",
+    "vars": {},
+    "example": [
+     "Please wait here. Let's clean the yard."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-43-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "Keep the medicine in a cool place.",
+         "b": "Keep the medicine in a cool place."
+        },
+        {
+         "a": "Don't share your toothbrush with anybody.",
+         "b": "Don't share your toothbrush with anybody."
+        },
+        {
+         "a": "Please wait for the nurse.",
+         "b": "Please wait for the nurse."
+        },
+        {
+         "a": "Let's visit the health centre tomorrow.",
+         "b": "Let's visit the health centre tomorrow."
+        }
+       ]
+      }
+     },
+     "prompt": "Tap the words in the right order.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-43-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ your hands before eating.",
+       "a": "Wash",
+       "w": [
+        "Washes",
+        "Washing"
+       ],
+       "e": [
+        "The imperative uses the bare verb.",
+        "The imperative uses the bare verb."
+       ]
+      },
+      {
+       "s": "___ two tablets after meals.",
+       "a": "Take",
+       "w": [
+        "Takes",
+        "To take"
+       ],
+       "e": [
+        "No -s in the imperative.",
+        "No “to” in the imperative."
+       ]
+      },
+      {
+       "s": "___ under a treated mosquito net.",
+       "a": "Sleep",
+       "w": [
+        "Slept",
+        "Sleeps"
+       ],
+       "e": [
+        "The imperative is not in the past.",
+        "No -s in the imperative."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct imperative.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-43-neg",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ drink water from the stream.",
+       "a": "Don't",
+       "w": [
+        "Doesn't",
+        "Not"
+       ],
+       "e": [
+        "The imperative uses Don't for everybody.",
+        "Use Don't + verb."
+       ]
+      },
+      {
+       "s": "___ leave medicine where children can reach it.",
+       "a": "Don't",
+       "w": [
+        "Didn't",
+        "No"
+       ],
+       "e": [
+        "Imperatives are about now and later, not the past.",
+        "Use Don't + verb."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct negative imperative.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-43-wo",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Keep the medicine in a cool place.",
+       "b": "Keep the medicine in a cool place."
+      },
+      {
+       "a": "Don't share your toothbrush with anybody.",
+       "b": "Don't share your toothbrush with anybody."
+      },
+      {
+       "a": "Please wait for the nurse.",
+       "b": "Please wait for the nurse."
+      },
+      {
+       "a": "Let's visit the health centre tomorrow.",
+       "b": "Let's visit the health centre tomorrow."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-43-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which imperative has a mistake?",
+   "pool": {
+    "right": [
+     {
+      "text": "Shake the bottle before use.",
+      "truth": "true"
+     },
+     {
+      "text": "Don't touch the wound.",
+      "truth": "true"
+     },
+     {
+      "text": "Please sit down.",
+      "truth": "true"
+     },
+     {
+      "text": "Let's go to the clinic.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Washes your hands with soap.",
+      "truth": "false",
+      "explain": "The imperative uses the bare verb: Wash."
+     },
+     {
+      "text": "Doesn't eat food from the floor.",
+      "truth": "false",
+      "explain": "Use Don't: Don't eat."
+     },
+     {
+      "text": "To drink plenty of water.",
+      "truth": "false",
+      "explain": "No “to”: Drink plenty of water."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

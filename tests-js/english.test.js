@@ -225,3 +225,11 @@ test("deferred lessons: no steps, not auto-marked, never in the coverage checkli
   assert.deepEqual(s.coverage, { 3: "taught", 5: "not_taught" });
   assert.equal(s.coverage[4], undefined);
 });
+
+test("comparison of adjectives: short, long, spelling changes and irregular forms (Form 2)", () => {
+  const cases = { tall: ["taller", "the tallest"], big: ["bigger", "the biggest"], happy: ["happier", "the happiest"], large: ["larger", "the largest"],
+    beautiful: ["more beautiful", "the most beautiful"], good: ["better", "the best"], bad: ["worse", "the worst"], far: ["farther", "the farthest"], thin: ["thinner", "the thinnest"] };
+  for (const [a, [c, s]] of Object.entries(cases)) { assert.equal(english.comparative(a), c, a); assert.equal(english.superlative(a), s, a); }
+  for (const a of english.adjList()) assert.notEqual(english.comparativeNaive(a), english.comparative(a), a);
+  assert.equal(english.comparativeDouble("hot"), "more hotter");
+});

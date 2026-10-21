@@ -1,0 +1,122 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 56,
+ "language": "en",
+ "prerequisites": [
+  53,
+  54
+ ],
+ "skills": [
+  {
+   "id": "e2-56",
+   "name": "Describing a sports facility; writing an expository essay"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To describe a place, go from the general to the details and use place words: in front of, behind, on the left, around, opposite. Use adjectives and the present tense.\nAn expository essay explains a topic with facts and reasons, not a story: introduction (the topic and why it matters); body paragraphs (one idea each: uses, benefits, problems, solutions); conclusion.\nLinking words: firstly, in addition, for example, however, as a result, in conclusion.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Plan an expository essay: “The importance of sports infrastructure in my town”.",
+  "steps": [
+   "Introduction: our town has a stadium and some courts; they matter.",
+   "Body: they keep young people healthy; they bring jobs and visitors; they need maintenance.",
+   "Conclusion: the town should maintain them and build small courts in the quarters."
+  ],
+  "answer": "introduction → body (one idea per paragraph) → conclusion",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c56-1",
+    "status": "draft",
+    "idea": "Describe from the general to the details, with place words.",
+    "vars": {},
+    "example": [
+     "In front of the stands is a green pitch."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-56-order"
+    }
+   },
+   {
+    "id": "c56-2",
+    "status": "draft",
+    "idea": "An expository essay explains with facts and reasons.",
+    "vars": {},
+    "example": [
+     "Firstly, sport keeps young people healthy."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-56-order"
+    }
+   },
+   {
+    "id": "c56-3",
+    "status": "draft",
+    "idea": "One idea per body paragraph.",
+    "vars": {},
+    "example": [
+     "Paragraph on health; paragraph on jobs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-56-order"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-56-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "prompt": "Put the sentences of the essay in order.",
+   "items": [
+    {
+     "text": "Our town has a stadium and two basketball courts."
+    },
+    {
+     "text": "Firstly, these facilities keep young people healthy and busy."
+    },
+    {
+     "text": "In addition, matches bring visitors and money to the town."
+    },
+    {
+     "text": "However, the pitch is badly maintained."
+    },
+    {
+     "text": "In conclusion, we must look after our sports infrastructure."
+    }
+   ],
+   "order": "as_written"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "In your exercise book, describe a sports facility you know (about 80 words), then write an expository essay of about 150 words: “The importance of sports infrastructure in my town”.",
+  "model": [
+   "Description: Our school sports ground lies behind the classrooms. In the middle is a large football pitch with white lines and two goal posts. Around it runs a red track. On the left there is a basketball court with a cement floor, and opposite it a small shed where the equipment is kept.\n\nEssay: Our town has a stadium and two basketball courts. These facilities are very important. Firstly, they keep young people healthy and away from bad company. In addition, matches bring visitors, and traders sell food and drinks. For example, during the inter-school games the stadium is full every afternoon. However, the pitch has holes and the toilets do not work. As a result, some games are cancelled. In conclusion, our council should maintain the stadium and build more courts in the quarters."
+  ],
+  "checklist": [
+   "My description goes from general to details.",
+   "I used place words.",
+   "My essay has an introduction, body paragraphs and a conclusion.",
+   "Each body paragraph has one idea.",
+   "I used linking words.",
+   "My essay explains; it does not tell a story."
+  ]
+ }
+}

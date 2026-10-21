@@ -1,0 +1,388 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 54,
+ "language": "en",
+ "prerequisites": [
+  53
+ ],
+ "skills": [
+  {
+   "id": "e2-54",
+   "name": "Kinds of sporting infrastructure and facilities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Each sport has its place: football and rugby are played on a pitch (a field); basketball, volleyball, handball and tennis on a court; swimming in a pool; running on a track; boxing in a ring; gymnastics in a gymnasium (gym).\nA stadium has a pitch surrounded by a track and stands. A sports complex groups several facilities. Equipment: goal posts, nets, a scoreboard, floodlights (lights for night matches).\nPeople: players, athletes, a coach, a referee, spectators, a groundsman (who looks after the pitch).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Where do we play basketball and where do we swim?",
+  "steps": [
+   "Basketball is played on a court.",
+   "We swim in a pool."
+  ],
+  "answer": "a court; a pool",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c54-1",
+    "status": "draft",
+    "idea": "Each sport has its own facility.",
+    "vars": {},
+    "example": [
+     "football → a pitch; basketball → a court"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-54-match"
+    }
+   },
+   {
+    "id": "c54-2",
+    "status": "draft",
+    "idea": "A stadium has a pitch, a track and stands.",
+    "vars": {},
+    "example": [
+     "Spectators sit in the stands."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-54-words"
+    }
+   },
+   {
+    "id": "c54-3",
+    "status": "draft",
+    "idea": "Floodlights light the pitch at night; the scoreboard shows the score.",
+    "vars": {},
+    "example": [
+     "The match continued under the floodlights."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-54-cl-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "The night match was played under ___.",
+         "a": "floodlights",
+         "w": [
+          "stands",
+          "nets"
+         ],
+         "e": [
+          "Stands are seats.",
+          "Nets are for goals or courts."
+         ]
+        },
+        {
+         "s": "The ___ showed that the score was two goals to one.",
+         "a": "scoreboard",
+         "w": [
+          "track",
+          "ring"
+         ],
+         "e": [
+          "A track is for running.",
+          "A ring is for boxing."
+         ]
+        },
+        {
+         "s": "The athletes ran four times round the ___.",
+         "a": "track",
+         "w": [
+          "pool",
+          "court"
+         ],
+         "e": [
+          "A pool is for swimming.",
+          "A court is for basketball or tennis."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-54-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each sport to the place where it is played.",
+   "pool": [
+    {
+     "left": "football",
+     "right": "a pitch"
+    },
+    {
+     "left": "basketball",
+     "right": "a court"
+    },
+    {
+     "left": "swimming",
+     "right": "a pool"
+    },
+    {
+     "left": "athletics (running)",
+     "right": "a track"
+    },
+    {
+     "left": "boxing",
+     "right": "a ring"
+    },
+    {
+     "left": "gymnastics",
+     "right": "a gymnasium"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-54-words",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Who controls a football match?",
+       "r": "the referee",
+       "w": [
+        "the coach",
+        "the groundsman",
+        "a spectator"
+       ],
+       "e": [
+        "The coach trains the team.",
+        "The groundsman looks after the pitch.",
+        "Spectators watch."
+       ],
+       "y": "The referee applies the rules."
+      },
+      {
+       "q": "Who trains a team?",
+       "r": "the coach",
+       "w": [
+        "the referee",
+        "the groundsman",
+        "the scoreboard"
+       ],
+       "e": [
+        "The referee controls matches.",
+        "The groundsman looks after the pitch.",
+        "A scoreboard is a thing."
+       ],
+       "y": "The coach trains the players."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-54-cl",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The night match was played under ___.",
+       "a": "floodlights",
+       "w": [
+        "stands",
+        "nets"
+       ],
+       "e": [
+        "Stands are seats.",
+        "Nets are for goals or courts."
+       ]
+      },
+      {
+       "s": "The ___ showed that the score was two goals to one.",
+       "a": "scoreboard",
+       "w": [
+        "track",
+        "ring"
+       ],
+       "e": [
+        "A track is for running.",
+        "A ring is for boxing."
+       ]
+      },
+      {
+       "s": "The athletes ran four times round the ___.",
+       "a": "track",
+       "w": [
+        "pool",
+        "court"
+       ],
+       "e": [
+        "A pool is for swimming.",
+        "A court is for basketball or tennis."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-54-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Football is played on a pitch.",
+      "truth": "true"
+     },
+     {
+      "text": "Boxers fight in a ring.",
+      "truth": "true"
+     },
+     {
+      "text": "Spectators sit in the stands.",
+      "truth": "true"
+     },
+     {
+      "text": "Tennis is played on a court.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Swimmers race on a court.",
+      "truth": "false",
+      "explain": "Swimmers race in a pool."
+     },
+     {
+      "text": "The groundsman controls the match.",
+      "truth": "false",
+      "explain": "The referee controls the match; the groundsman looks after the pitch."
+     },
+     {
+      "text": "Basketball is played in a pool.",
+      "truth": "false",
+      "explain": "Basketball is played on a court."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

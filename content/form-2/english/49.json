@@ -1,0 +1,407 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 49,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-49",
+   "name": "Talking about banks and their services; listening to a dialogue at the bank"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: Opening an account\nMr Fonyuy: Good morning. I would like to open a savings account for my daughter.\nBank clerk: Good morning, sir. You need your identity card, her birth certificate, two passport photographs and a first deposit.\nMr Fonyuy: Will the money earn interest?\nBank clerk: Yes, a savings account earns a little interest every year. You can deposit money at any time and withdraw it at the counter or with a bank card at the ATM.\nMr Fonyuy: Can I also send money to my brother in Garoua?\nBank clerk: Of course. We do transfers between our branches, and you can also use mobile money.\n\nKinds of banks: commercial banks (accounts, loans, transfers), savings banks and microfinance institutions (savings and small loans), the central bank (BEAC, the Bank of Central African States, which issues the CFA franc). Words: deposit (put in), withdraw (take out), loan, interest, ATM.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What does Mr Fonyuy need to open the account?",
+  "steps": [
+   "Find the clerk's first answer.",
+   "Identity card, birth certificate, two passport photographs and a first deposit."
+  ],
+  "answer": "ID card, birth certificate, two photos, a first deposit",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c49-1",
+    "status": "draft",
+    "idea": "Deposit = put money in; withdraw = take money out.",
+    "vars": {},
+    "example": [
+     "She deposited her savings and withdrew some at the ATM."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-49-words"
+    }
+   },
+   {
+    "id": "c49-2",
+    "status": "draft",
+    "idea": "Banks keep money safe, give loans and send money.",
+    "vars": {},
+    "example": [
+     "A loan is money borrowed from the bank."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-49-text"
+    }
+   },
+   {
+    "id": "c49-3",
+    "status": "draft",
+    "idea": "A savings account earns interest.",
+    "vars": {},
+    "example": [
+     "The money grows a little each year."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-49-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which bank issues the CFA franc in Central Africa?",
+         "r": "BEAC, the Bank of Central African States",
+         "w": [
+          "a microfinance institution",
+          "a savings bank",
+          "the post office"
+         ],
+         "e": [
+          "They give small loans.",
+          "It keeps savings.",
+          "It is not a bank."
+         ],
+         "y": "BEAC is the central bank."
+        },
+        {
+         "q": "Why does a savings account help a family?",
+         "r": "the money is kept safe and earns interest",
+         "w": [
+          "the bank keeps the money for ever",
+          "the money cannot be withdrawn",
+          "it is free money"
+         ],
+         "e": [
+          "You can withdraw it.",
+          "You can withdraw it at any time.",
+          "It is your own money."
+         ],
+         "y": "Safe savings that grow a little."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-49-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each banking word to its meaning.",
+   "pool": [
+    {
+     "left": "to deposit",
+     "right": "to put money into an account"
+    },
+    {
+     "left": "to withdraw",
+     "right": "to take money out of an account"
+    },
+    {
+     "left": "a loan",
+     "right": "money borrowed that must be paid back"
+    },
+    {
+     "left": "interest",
+     "right": "extra money paid on savings or loans"
+    },
+    {
+     "left": "a transfer",
+     "right": "sending money from one account to another"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-49-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what kind of account does Mr Fonyuy want?",
+       "r": "a savings account for his daughter",
+       "w": [
+        "a loan for himself",
+        "a current account for his shop",
+        "a mobile money account"
+       ],
+       "e": [
+        "He does not ask for a loan.",
+        "He wants it for his daughter.",
+        "Mobile money is mentioned later."
+       ],
+       "y": "“I would like to open a savings account for my daughter.”"
+      },
+      {
+       "q": "where can money be withdrawn?",
+       "r": "at the counter or at the ATM with a bank card",
+       "w": [
+        "only at the post office",
+        "only in Garoua",
+        "nowhere"
+       ],
+       "e": [
+        "The text does not say that.",
+        "Garoua is about the transfer.",
+        "The clerk names two ways."
+       ],
+       "y": "The clerk explains it."
+      },
+      {
+       "q": "how can he send money to his brother?",
+       "r": "by a transfer between branches or by mobile money",
+       "w": [
+        "by post only",
+        "he cannot",
+        "by giving it to the clerk to carry"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The clerk says “Of course.”",
+        "The text does not say that."
+       ],
+       "y": "Transfers between branches, or mobile money."
+      }
+     ]
+    }
+   },
+   "prompt": "Dialogue “Opening an account”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-49-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which bank issues the CFA franc in Central Africa?",
+       "r": "BEAC, the Bank of Central African States",
+       "w": [
+        "a microfinance institution",
+        "a savings bank",
+        "the post office"
+       ],
+       "e": [
+        "They give small loans.",
+        "It keeps savings.",
+        "It is not a bank."
+       ],
+       "y": "BEAC is the central bank."
+      },
+      {
+       "q": "Why does a savings account help a family?",
+       "r": "the money is kept safe and earns interest",
+       "w": [
+        "the bank keeps the money for ever",
+        "the money cannot be withdrawn",
+        "it is free money"
+       ],
+       "e": [
+        "You can withdraw it.",
+        "You can withdraw it at any time.",
+        "It is your own money."
+       ],
+       "y": "Safe savings that grow a little."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-49-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Dialogue “Opening an account”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Mr Fonyuy wants a savings account.",
+      "truth": "true"
+     },
+     {
+      "text": "Two passport photographs are needed.",
+      "truth": "true"
+     },
+     {
+      "text": "A savings account earns interest.",
+      "truth": "true"
+     },
+     {
+      "text": "Money can be sent to Garoua.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The clerk says savings accounts earn no interest.",
+      "truth": "false",
+      "explain": "She says they earn a little interest every year."
+     },
+     {
+      "text": "Mr Fonyuy wants to borrow money.",
+      "truth": "false",
+      "explain": "He wants to save, not borrow."
+     },
+     {
+      "text": "You can only withdraw money once a year.",
+      "truth": "false",
+      "explain": "You can withdraw at any time."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

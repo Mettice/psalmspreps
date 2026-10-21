@@ -1,0 +1,544 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 39,
+ "language": "en",
+ "prerequisites": [
+  37
+ ],
+ "skills": [
+  {
+   "id": "e2-39",
+   "name": "Abbreviations and acronyms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An abbreviation is a short form of a word or a group of words: Dr (Doctor), Mr (Mister), km (kilometre), e.g. (for example), i.e. (that is), etc. (and so on).\nAn initialism is made of first letters, each letter said separately: UN (United Nations), WHO (World Health Organization), NGO, GCE.\nAn acronym is made of first letters but read as one word: UNICEF (/ˈjuːnɪsef/), AIDS, NATO.\nWrite abbreviations of organisations in capital letters; use them only after the full name has been written once in a formal text.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What do WHO and e.g. stand for, and how are they read?",
+  "steps": [
+   "WHO = World Health Organization: we say each letter, W-H-O.",
+   "e.g. = for example (from Latin); we say “for example”."
+  ],
+  "answer": "World Health Organization; for example",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c39-1",
+    "status": "draft",
+    "idea": "An abbreviation is a short form of words.",
+    "vars": {},
+    "example": [
+     "Dr = Doctor; km = kilometre"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-39-mean"
+    }
+   },
+   {
+    "id": "c39-2",
+    "status": "draft",
+    "idea": "An acronym is read as one word (UNICEF); an initialism letter by letter (UN).",
+    "vars": {},
+    "example": [
+     "UNICEF → “you-ni-sef”; WHO → “W-H-O”"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-39-kind"
+    }
+   },
+   {
+    "id": "c39-3",
+    "status": "draft",
+    "idea": "e.g. introduces examples; i.e. explains.",
+    "vars": {},
+    "example": [
+     "fruits, e.g. mangoes; the capital, i.e. Yaoundé"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-39-use-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Buy some fruit, ___ mangoes and oranges.",
+         "a": "e.g.",
+         "w": [
+          "i.e.",
+          "etc."
+         ],
+         "e": [
+          "i.e. means “that is”, not “for example”.",
+          "etc. goes at the end of a list."
+         ]
+        },
+        {
+         "s": "The school is 3 ___ from my house.",
+         "a": "km",
+         "w": [
+          "No.",
+          "Dr"
+         ],
+         "e": [
+          "No. means number.",
+          "Dr means Doctor."
+         ]
+        },
+        {
+         "s": "___ Fon is the doctor at the health centre.",
+         "a": "Dr",
+         "w": [
+          "Mr",
+          "No."
+         ],
+         "e": [
+          "She is a doctor: use Dr.",
+          "No. means number."
+         ]
+        },
+        {
+         "s": "We bought pens, books, rulers, ___",
+         "a": "etc.",
+         "w": [
+          "e.g.",
+          "i.e."
+         ],
+         "e": [
+          "e.g. comes before the examples.",
+          "i.e. explains; etc. ends a list."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the abbreviation that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-39-mean",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "UN",
+       "r": "United Nations",
+       "w": [
+        "World Health Organization",
+        "United Nations Children's Fund",
+        "non-governmental organisation"
+       ],
+       "e": [
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning."
+       ],
+       "y": "UN stands for United Nations."
+      },
+      {
+       "a": "WHO",
+       "r": "World Health Organization",
+       "w": [
+        "United Nations",
+        "United Nations Children's Fund",
+        "non-governmental organisation"
+       ],
+       "e": [
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning."
+       ],
+       "y": "WHO stands for World Health Organization."
+      },
+      {
+       "a": "UNICEF",
+       "r": "United Nations Children's Fund",
+       "w": [
+        "United Nations",
+        "World Health Organization",
+        "non-governmental organisation"
+       ],
+       "e": [
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning."
+       ],
+       "y": "UNICEF stands for United Nations Children's Fund."
+      },
+      {
+       "a": "NGO",
+       "r": "non-governmental organisation",
+       "w": [
+        "United Nations",
+        "World Health Organization",
+        "United Nations Children's Fund"
+       ],
+       "e": [
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning."
+       ],
+       "y": "NGO stands for non-governmental organisation."
+      },
+      {
+       "a": "Dr",
+       "r": "Doctor",
+       "w": [
+        "United Nations",
+        "World Health Organization",
+        "United Nations Children's Fund"
+       ],
+       "e": [
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning."
+       ],
+       "y": "Dr stands for Doctor."
+      },
+      {
+       "a": "Mr",
+       "r": "Mister",
+       "w": [
+        "United Nations",
+        "World Health Organization",
+        "United Nations Children's Fund"
+       ],
+       "e": [
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning."
+       ],
+       "y": "Mr stands for Mister."
+      },
+      {
+       "a": "e.g.",
+       "r": "for example",
+       "w": [
+        "United Nations",
+        "World Health Organization",
+        "United Nations Children's Fund"
+       ],
+       "e": [
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning."
+       ],
+       "y": "e.g. stands for for example."
+      },
+      {
+       "a": "i.e.",
+       "r": "that is",
+       "w": [
+        "United Nations",
+        "World Health Organization",
+        "United Nations Children's Fund"
+       ],
+       "e": [
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning.",
+        "That is another abbreviation's meaning."
+       ],
+       "y": "i.e. stands for that is."
+      }
+     ]
+    }
+   },
+   "prompt": "What does “{X.a}” stand for?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-39-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is read as one word (an acronym)?",
+       "r": "UNICEF",
+       "w": [
+        "UN",
+        "WHO",
+        "NGO"
+       ],
+       "e": [
+        "We say U-N.",
+        "We say W-H-O.",
+        "We say N-G-O."
+       ],
+       "y": "We say UNICEF as one word."
+      },
+      {
+       "q": "Which is read letter by letter?",
+       "r": "WHO",
+       "w": [
+        "UNICEF",
+        "AIDS",
+        "NATO"
+       ],
+       "e": [
+        "UNICEF is read as a word.",
+        "AIDS is read as a word.",
+        "NATO is read as a word."
+       ],
+       "y": "We say W-H-O."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-39-use",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Buy some fruit, ___ mangoes and oranges.",
+       "a": "e.g.",
+       "w": [
+        "i.e.",
+        "etc."
+       ],
+       "e": [
+        "i.e. means “that is”, not “for example”.",
+        "etc. goes at the end of a list."
+       ]
+      },
+      {
+       "s": "The school is 3 ___ from my house.",
+       "a": "km",
+       "w": [
+        "No.",
+        "Dr"
+       ],
+       "e": [
+        "No. means number.",
+        "Dr means Doctor."
+       ]
+      },
+      {
+       "s": "___ Fon is the doctor at the health centre.",
+       "a": "Dr",
+       "w": [
+        "Mr",
+        "No."
+       ],
+       "e": [
+        "She is a doctor: use Dr.",
+        "No. means number."
+       ]
+      },
+      {
+       "s": "We bought pens, books, rulers, ___",
+       "a": "etc.",
+       "w": [
+        "e.g.",
+        "i.e."
+       ],
+       "e": [
+        "e.g. comes before the examples.",
+        "i.e. explains; etc. ends a list."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the abbreviation that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-39-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "UN stands for United Nations.",
+      "truth": "true"
+     },
+     {
+      "text": "e.g. means for example.",
+      "truth": "true"
+     },
+     {
+      "text": "UNICEF is read as one word.",
+      "truth": "true"
+     },
+     {
+      "text": "km is short for kilometre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "WHO stands for World Hospital Office.",
+      "truth": "false",
+      "explain": "WHO stands for World Health Organization."
+     },
+     {
+      "text": "i.e. means and so on.",
+      "truth": "false",
+      "explain": "i.e. means that is; etc. means and so on."
+     },
+     {
+      "text": "Mr is used for a woman.",
+      "truth": "false",
+      "explain": "Mr (Mister) is used for a man."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

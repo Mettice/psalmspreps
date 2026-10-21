@@ -1,0 +1,601 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 66,
+ "language": "en",
+ "prerequisites": [
+  65
+ ],
+ "skills": [
+  {
+   "id": "e2-66",
+   "name": "Syllabification"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A syllable is a part of a word with one vowel sound. Clap as you say the word: each clap is a syllable.\ntree (1), for-est (2), en-er-gy (3), en-vi-ron-ment (4).\nCount vowel SOUNDS, not vowel letters: “drought” has two vowel letters but one sound, so one syllable; a silent final e does not count (cli-mate).\nDividing words into syllables helps with spelling and with breaking a word at the end of a line (use a hyphen between syllables: envi-ronment).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "How many syllables in “temperature” and “greenhouse”?",
+  "steps": [
+   "Clap: tem-per-a-ture → four claps.",
+   "green-house → two claps."
+  ],
+  "answer": "four; two",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c66-1",
+    "status": "draft",
+    "idea": "Each syllable has one vowel sound: clap to count.",
+    "vars": {},
+    "example": [
+     "for-est: two claps"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-66-count"
+    }
+   },
+   {
+    "id": "c66-2",
+    "status": "draft",
+    "idea": "Count sounds, not letters: a silent e does not count.",
+    "vars": {},
+    "example": [
+     "cli-mate: two syllables"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-66-split"
+    }
+   },
+   {
+    "id": "c66-3",
+    "status": "draft",
+    "idea": "Break a word between syllables at the end of a line.",
+    "vars": {},
+    "example": [
+     "envi-ronment, not envir-onment"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-66-break-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "r": "envi-ronment",
+         "w": [
+          "envir-onment",
+          "en-vironm-ent",
+          "environmen-t"
+         ],
+         "e": [
+          "Break between syllables: en-vi-ron-ment.",
+          "That breaks inside a syllable.",
+          "Do not leave one letter alone."
+         ],
+         "y": "en-vi | ron-ment: break between syllables."
+        },
+        {
+         "r": "tempera-ture",
+         "w": [
+          "temp-erature",
+          "temperatu-re",
+          "te-mperature"
+         ],
+         "e": [
+          "Break between syllables: tem-per-a-ture.",
+          "Do not leave a letter alone.",
+          "Break between syllables."
+         ],
+         "y": "tem-per-a | ture."
+        }
+       ]
+      }
+     },
+     "prompt": "A word must be broken at the end of a line. Which break is correct?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-66-count",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "tree",
+       "r": "1",
+       "w": [
+        "2",
+        "3",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "tree: 1."
+      },
+      {
+       "q": "forest",
+       "r": "2",
+       "w": [
+        "1",
+        "3",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "for-est: 2."
+      },
+      {
+       "q": "climate",
+       "r": "2",
+       "w": [
+        "1",
+        "3",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "cli-mate: 2."
+      },
+      {
+       "q": "drought",
+       "r": "1",
+       "w": [
+        "2",
+        "3",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "drought: 1."
+      },
+      {
+       "q": "warming",
+       "r": "2",
+       "w": [
+        "1",
+        "3",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "warm-ing: 2."
+      },
+      {
+       "q": "hazard",
+       "r": "2",
+       "w": [
+        "1",
+        "3",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "haz-ard: 2."
+      },
+      {
+       "q": "landslide",
+       "r": "2",
+       "w": [
+        "1",
+        "3",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "land-slide: 2."
+      },
+      {
+       "q": "energy",
+       "r": "3",
+       "w": [
+        "1",
+        "2",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "en-er-gy: 3."
+      },
+      {
+       "q": "disaster",
+       "r": "3",
+       "w": [
+        "1",
+        "2",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "dis-as-ter: 3."
+      },
+      {
+       "q": "environment",
+       "r": "4",
+       "w": [
+        "1",
+        "2",
+        "3"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "en-vi-ron-ment: 4."
+      },
+      {
+       "q": "temperature",
+       "r": "4",
+       "w": [
+        "1",
+        "2",
+        "3"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "tem-per-a-ture: 4."
+      },
+      {
+       "q": "greenhouse",
+       "r": "2",
+       "w": [
+        "1",
+        "3",
+        "4"
+       ],
+       "e": [
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again.",
+        "Clap the word slowly and count again."
+       ],
+       "y": "green-house: 2."
+      }
+     ]
+    }
+   },
+   "prompt": "How many syllables are there in “{X.q}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-66-split",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "energy",
+       "r": "en-er-gy",
+       "w": [
+        "e-nerg-y",
+        "ener-gy",
+        "en-ergy"
+       ],
+       "e": [
+        "Split so that each part has one vowel sound.",
+        "That has only two parts; there are three sounds.",
+        "That has only two parts."
+       ],
+       "y": "Three vowel sounds: en-er-gy."
+      },
+      {
+       "q": "disaster",
+       "r": "dis-as-ter",
+       "w": [
+        "di-sast-er",
+        "disas-ter",
+        "d-isaster"
+       ],
+       "e": [
+        "Split between the syllables you clap.",
+        "There are three syllables.",
+        "A syllable needs a vowel sound."
+       ],
+       "y": "dis-as-ter."
+      },
+      {
+       "q": "forest",
+       "r": "for-est",
+       "w": [
+        "fo-rest",
+        "f-orest",
+        "forest-"
+       ],
+       "e": [
+        "We say FOR-est.",
+        "A syllable needs a vowel sound.",
+        "That is not a division."
+       ],
+       "y": "for-est."
+      }
+     ]
+    }
+   },
+   "prompt": "Which is the correct division of “{X.q}” into syllables?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-66-break",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "envi-ronment",
+       "w": [
+        "envir-onment",
+        "en-vironm-ent",
+        "environmen-t"
+       ],
+       "e": [
+        "Break between syllables: en-vi-ron-ment.",
+        "That breaks inside a syllable.",
+        "Do not leave one letter alone."
+       ],
+       "y": "en-vi | ron-ment: break between syllables."
+      },
+      {
+       "r": "tempera-ture",
+       "w": [
+        "temp-erature",
+        "temperatu-re",
+        "te-mperature"
+       ],
+       "e": [
+        "Break between syllables: tem-per-a-ture.",
+        "Do not leave a letter alone.",
+        "Break between syllables."
+       ],
+       "y": "tem-per-a | ture."
+      }
+     ]
+    }
+   },
+   "prompt": "A word must be broken at the end of a line. Which break is correct?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-66-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "“Tree” has one syllable.",
+      "truth": "true"
+     },
+     {
+      "text": "“Environment” has four syllables.",
+      "truth": "true"
+     },
+     {
+      "text": "Each syllable has one vowel sound.",
+      "truth": "true"
+     },
+     {
+      "text": "A silent e does not make a syllable.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "“Drought” has two syllables because it has two vowel letters.",
+      "truth": "false",
+      "explain": "Count sounds, not letters: one syllable."
+     },
+     {
+      "text": "“Climate” has three syllables.",
+      "truth": "false",
+      "explain": "cli-mate: two syllables."
+     },
+     {
+      "text": "“Energy” has two syllables.",
+      "truth": "false",
+      "explain": "en-er-gy: three syllables."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

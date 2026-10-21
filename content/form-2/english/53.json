@@ -1,0 +1,453 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 53,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-53",
+   "name": "Talking about sporting infrastructure; reading about new stadiums"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: New stadiums for Cameroon\nWhen Cameroon hosted the Africa Cup of Nations in 2022, new stadiums were built, such as the Olembe stadium in Yaoundé and the Japoma stadium in Douala, and older ones were renovated. Besides the main pitch, these sports complexes have training grounds, changing rooms, a medical centre and stands for thousands of spectators. But good infrastructure must be maintained: grass must be cut and watered, seats repaired and toilets cleaned. Many young people also need small facilities near their homes: a basketball court in the quarter, a handball court at school, a running track. \"A stadium is not only for big matches,\" says a coach in Buea. \"It is where talents grow.\"\n\nSporting infrastructure means the buildings and grounds for sport: stadiums, pitches, courts, tracks, swimming pools, gymnasiums. They need maintenance (care and repairs).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Name three facilities of a sports complex from the text.",
+  "steps": [
+   "Find the sentence that begins “Besides the main pitch”.",
+   "training grounds, changing rooms, a medical centre, stands"
+  ],
+  "answer": "training grounds, changing rooms, a medical centre",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c53-1",
+    "status": "draft",
+    "idea": "Infrastructure for sport: stadiums, pitches, courts, tracks, pools.",
+    "vars": {},
+    "example": [
+     "A basketball court in the quarter."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-53-words"
+    }
+   },
+   {
+    "id": "c53-2",
+    "status": "draft",
+    "idea": "Find details in the text.",
+    "vars": {},
+    "example": [
+     "The Japoma stadium is in Douala."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-53-text"
+    }
+   },
+   {
+    "id": "c53-3",
+    "status": "draft",
+    "idea": "Infrastructure must be maintained.",
+    "vars": {},
+    "example": [
+     "Grass cut and watered, seats repaired."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-53-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "what does the coach mean by “It is where talents grow”?",
+         "r": "young people develop their sporting skills there",
+         "w": [
+          "plants grow in stadiums",
+          "stadiums are only for big matches",
+          "talented players are born there"
+         ],
+         "e": [
+          "He is not speaking about plants.",
+          "He says the opposite.",
+          "He means training, not birth."
+         ],
+         "y": "Facilities help young athletes improve."
+        },
+        {
+         "q": "what do young people need near their homes?",
+         "r": "small facilities like courts and tracks",
+         "w": [
+          "only big stadiums",
+          "more spectators",
+          "new hospitals"
+         ],
+         "e": [
+          "The text asks for small facilities.",
+          "The text does not say that.",
+          "The text is about sport."
+         ],
+         "y": "A basketball court, a handball court, a running track."
+        }
+       ]
+      }
+     },
+     "prompt": "Text “New stadiums for Cameroon”: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-53-words",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a changing room?",
+       "r": "a room where players put on their sports clothes",
+       "w": [
+        "a room for spectators to sit",
+        "the field where the match is played",
+        "the place where tickets are sold"
+       ],
+       "e": [
+        "Spectators sit in the stands.",
+        "That is the pitch.",
+        "That is the ticket office."
+       ],
+       "y": "Players change their clothes there."
+      },
+      {
+       "q": "What are the stands?",
+       "r": "the rows of seats for spectators",
+       "w": [
+        "the goal posts",
+        "the changing rooms",
+        "the training grounds"
+       ],
+       "e": [
+        "Goal posts are on the pitch.",
+        "Players change there.",
+        "Teams train there."
+       ],
+       "y": "Spectators watch from the stands."
+      },
+      {
+       "q": "What does maintenance mean?",
+       "r": "taking care of and repairing something",
+       "w": [
+        "building something new",
+        "selling tickets",
+        "playing a match"
+       ],
+       "e": [
+        "That is construction.",
+        "That is the box office.",
+        "That is a game."
+       ],
+       "y": "Maintenance keeps infrastructure in good condition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-53-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "why were new stadiums built?",
+       "r": "Cameroon hosted the Africa Cup of Nations",
+       "w": [
+        "for the school games only",
+        "because of a flood",
+        "for the Olympic Games"
+       ],
+       "e": [
+        "The text names the Africa Cup of Nations.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "“When Cameroon hosted the Africa Cup of Nations in 2022 …”"
+      },
+      {
+       "q": "where is the Olembe stadium?",
+       "r": "in Yaoundé",
+       "w": [
+        "in Douala",
+        "in Buea",
+        "in Garoua"
+       ],
+       "e": [
+        "Japoma is in Douala.",
+        "The coach is in Buea.",
+        "The text does not say that."
+       ],
+       "y": "“the Olembe stadium in Yaoundé”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “New stadiums for Cameroon”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-53-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what does the coach mean by “It is where talents grow”?",
+       "r": "young people develop their sporting skills there",
+       "w": [
+        "plants grow in stadiums",
+        "stadiums are only for big matches",
+        "talented players are born there"
+       ],
+       "e": [
+        "He is not speaking about plants.",
+        "He says the opposite.",
+        "He means training, not birth."
+       ],
+       "y": "Facilities help young athletes improve."
+      },
+      {
+       "q": "what do young people need near their homes?",
+       "r": "small facilities like courts and tracks",
+       "w": [
+        "only big stadiums",
+        "more spectators",
+        "new hospitals"
+       ],
+       "e": [
+        "The text asks for small facilities.",
+        "The text does not say that.",
+        "The text is about sport."
+       ],
+       "y": "A basketball court, a handball court, a running track."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “New stadiums for Cameroon”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-53-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “New stadiums for Cameroon”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Japoma stadium is in Douala.",
+      "truth": "true"
+     },
+     {
+      "text": "The sports complexes have changing rooms.",
+      "truth": "true"
+     },
+     {
+      "text": "Infrastructure must be maintained.",
+      "truth": "true"
+     },
+     {
+      "text": "Young people need courts near their homes.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The stadiums need no maintenance.",
+      "truth": "false",
+      "explain": "The text says grass must be cut, seats repaired, toilets cleaned."
+     },
+     {
+      "text": "The coach says a stadium is only for big matches.",
+      "truth": "false",
+      "explain": "He says it is not only for big matches."
+     },
+     {
+      "text": "The Olembe stadium is in Buea.",
+      "truth": "false",
+      "explain": "It is in Yaoundé."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

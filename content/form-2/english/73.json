@@ -1,0 +1,468 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 73,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-73",
+   "name": "Talking about pollution: types, causes and consequences"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: An invisible enemy\nPollution is the presence of harmful substances in the air, water or soil. In our cities, old vehicles and generators release thick smoke; factories pour waste water into rivers; plastic bags block gutters and choke animals; and loud music and horns cause noise pollution. The consequences are serious: coughs and asthma, diarrhoea and cholera from dirty water, fewer fish, poorer soils and stress. Pollution can be reduced: services can check vehicle exhaust, factories can treat their waste water, families can sort and recycle rubbish, and everybody can use fewer plastic bags. Pollution is an enemy we often do not see until it makes us ill.\n\nTypes of pollution: air, water, land (soil) and noise pollution.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Give one cause and one consequence of water pollution from the text.",
+  "steps": [
+   "Cause: factories pour waste water into rivers.",
+   "Consequence: diarrhoea and cholera from dirty water, and fewer fish."
+  ],
+  "answer": "factory waste water → diarrhoea, cholera, fewer fish",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c73-1",
+    "status": "draft",
+    "idea": "Four types of pollution: air, water, land, noise.",
+    "vars": {},
+    "example": [
+     "Loud horns cause noise pollution."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-73-type"
+    }
+   },
+   {
+    "id": "c73-2",
+    "status": "draft",
+    "idea": "Causes and consequences of pollution.",
+    "vars": {},
+    "example": [
+     "Smoke (cause) → coughs and asthma (consequence)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-73-text"
+    }
+   },
+   {
+    "id": "c73-3",
+    "status": "draft",
+    "idea": "Pollution can be reduced by everyone.",
+    "vars": {},
+    "example": [
+     "Use fewer plastic bags."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-73-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "why does the writer call pollution an “invisible enemy”?",
+         "r": "we often do not notice it until it makes us ill",
+         "w": [
+          "it cannot hurt us",
+          "it only exists at night",
+          "it is a person"
+         ],
+         "e": [
+          "It causes illness.",
+          "The text does not say that.",
+          "It is a comparison."
+         ],
+         "y": "“an enemy we often do not see until it makes us ill.”"
+        },
+        {
+         "q": "which action reduces pollution?",
+         "r": "sorting and recycling rubbish",
+         "w": [
+          "burning plastic",
+          "using more generators",
+          "pouring waste into rivers"
+         ],
+         "e": [
+          "That adds smoke.",
+          "That adds smoke and noise.",
+          "That pollutes water."
+         ],
+         "y": "The text lists sorting and recycling."
+        }
+       ]
+      }
+     },
+     "prompt": "Text “An invisible enemy”: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-73-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Smoke from old generators",
+       "r": "air pollution",
+       "w": [
+        "water pollution",
+        "land pollution",
+        "noise pollution"
+       ],
+       "e": [
+        "Smoke goes into the air.",
+        "Smoke goes into the air.",
+        "Smoke is not a sound."
+       ],
+       "y": "Smoke pollutes the air."
+      },
+      {
+       "q": "A factory pours waste into a river",
+       "r": "water pollution",
+       "w": [
+        "air pollution",
+        "noise pollution",
+        "land pollution"
+       ],
+       "e": [
+        "The waste goes into water.",
+        "It is not a sound.",
+        "It goes into a river."
+       ],
+       "y": "Waste in rivers pollutes water."
+      },
+      {
+       "q": "Loud music all night",
+       "r": "noise pollution",
+       "w": [
+        "air pollution",
+        "water pollution",
+        "land pollution"
+       ],
+       "e": [
+        "It is a sound.",
+        "It is a sound.",
+        "It is a sound."
+       ],
+       "y": "Too much noise is noise pollution."
+      },
+      {
+       "q": "Plastic bags buried in a farm",
+       "r": "land pollution",
+       "w": [
+        "air pollution",
+        "noise pollution",
+        "water pollution"
+       ],
+       "e": [
+        "They are in the soil.",
+        "They make no noise.",
+        "They are in the soil."
+       ],
+       "y": "Rubbish in the soil pollutes the land."
+      }
+     ]
+    }
+   },
+   "prompt": "What type of pollution is this? “{X.q}”",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-73-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what do plastic bags do, according to the text?",
+       "r": "block gutters and choke animals",
+       "w": [
+        "make the soil richer",
+        "clean the rivers",
+        "cause noise"
+       ],
+       "e": [
+        "The text says the opposite.",
+        "The text does not say that.",
+        "Noise comes from music and horns."
+       ],
+       "y": "“plastic bags block gutters and choke animals.”"
+      },
+      {
+       "q": "what illnesses come from dirty water?",
+       "r": "diarrhoea and cholera",
+       "w": [
+        "asthma and coughs",
+        "malaria and measles",
+        "stress"
+       ],
+       "e": [
+        "Those come from smoke.",
+        "The text does not say that.",
+        "Stress comes from noise."
+       ],
+       "y": "“diarrhoea and cholera from dirty water.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “An invisible enemy”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-73-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "why does the writer call pollution an “invisible enemy”?",
+       "r": "we often do not notice it until it makes us ill",
+       "w": [
+        "it cannot hurt us",
+        "it only exists at night",
+        "it is a person"
+       ],
+       "e": [
+        "It causes illness.",
+        "The text does not say that.",
+        "It is a comparison."
+       ],
+       "y": "“an enemy we often do not see until it makes us ill.”"
+      },
+      {
+       "q": "which action reduces pollution?",
+       "r": "sorting and recycling rubbish",
+       "w": [
+        "burning plastic",
+        "using more generators",
+        "pouring waste into rivers"
+       ],
+       "e": [
+        "That adds smoke.",
+        "That adds smoke and noise.",
+        "That pollutes water."
+       ],
+       "y": "The text lists sorting and recycling."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “An invisible enemy”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-73-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “An invisible enemy”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Old vehicles release smoke.",
+      "truth": "true"
+     },
+     {
+      "text": "Loud horns cause noise pollution.",
+      "truth": "true"
+     },
+     {
+      "text": "Factories can treat their waste water.",
+      "truth": "true"
+     },
+     {
+      "text": "Plastic bags choke animals.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Pollution only affects rivers.",
+      "truth": "false",
+      "explain": "It affects air, water, soil and our ears."
+     },
+     {
+      "text": "Polluted water makes fish more numerous.",
+      "truth": "false",
+      "explain": "There are fewer fish."
+     },
+     {
+      "text": "Smoke cures asthma.",
+      "truth": "false",
+      "explain": "Smoke causes coughs and asthma."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 64,
+ "language": "en",
+ "prerequisites": [
+  61
+ ],
+ "skills": [
+  {
+   "id": "e2-64",
+   "name": "Writing a biography of a scientist"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A biography is the story of a person's life written by someone else. It is in the third person (he, she) and mostly in the simple past.\nPlan: birth and early life (where, when, family); education; the invention or discovery (what it is, why it matters); later life and honours; why you admire the person.\nUse time words: in 1847, as a child, later, after that, finally. Check facts in a book or ask your teacher.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Plan a biography of a scientist.",
+  "steps": [
+   "Early life: born in …, family, childhood interest.",
+   "Education: school, university.",
+   "Invention or discovery: what, when, why it matters.",
+   "Later life and honours.",
+   "Why I admire him or her."
+  ],
+  "answer": "early life → education → invention → later life → opinion",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c64-1",
+    "status": "draft",
+    "idea": "A biography is in the third person and the simple past.",
+    "vars": {},
+    "example": [
+     "She was born in a small village."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-64-order"
+    }
+   },
+   {
+    "id": "c64-2",
+    "status": "draft",
+    "idea": "Follow the order of the person's life.",
+    "vars": {},
+    "example": [
+     "Early life → education → work"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-64-order"
+    }
+   },
+   {
+    "id": "c64-3",
+    "status": "draft",
+    "idea": "Explain why the invention matters.",
+    "vars": {},
+    "example": [
+     "It lets doctors read heart tests from far away."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-64-order"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-64-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "prompt": "Put the parts of the biography in order.",
+   "items": [
+    {
+     "text": "Arthur Zang was born in Cameroon and loved electronics as a boy."
+    },
+    {
+     "text": "He studied computer engineering at university."
+    },
+    {
+     "text": "He invented the Cardiopad, a tablet that sends heart tests to doctors far away."
+    },
+    {
+     "text": "His invention has received international awards."
+    },
+    {
+     "text": "I admire him because he used science to help patients in villages."
+    }
+   ],
+   "order": "as_written"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Write a biography (about 150 words) in your exercise book of a scientist or inventor you admire. Follow the order of his or her life and explain the importance of the invention or discovery.",
+  "model": [
+   "Arthur Zang is a Cameroonian engineer. As a boy he loved taking radios apart to see how they worked. He studied computer engineering at university in Yaoundé.\n\nWhile he was a student, he saw that many patients with heart problems lived far from a heart specialist. He decided to help them. He invented the Cardiopad, a touch-screen tablet that records a patient's heart test in a village health centre and sends it to a specialist in the city.\n\nHis invention has won international prizes, and it is used in several health centres. I admire him because he used science to bring care to people who live far from big hospitals."
+  ],
+  "checklist": [
+   "My biography is in the third person.",
+   "I used the simple past for his or her life.",
+   "I followed the order of the person's life.",
+   "I explained why the invention or discovery matters.",
+   "I said why I admire the person."
+  ]
+ }
+}

@@ -1,0 +1,437 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 47,
+ "language": "en",
+ "prerequisites": [
+  46
+ ],
+ "skills": [
+  {
+   "id": "e2-47",
+   "name": "Common and proper nouns"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A common noun names any person, place or thing of a kind: town, post office, river, month, teacher. It starts with a small letter (except at the start of a sentence).\nA proper noun names one particular person, place or thing: Nkeng, Kumbo, the Wouri, January, Monday, Cameroon, CAMPOST. It always starts with a capital letter.\nDays, months, countries, towns, rivers, mountains, people's names and the names of organisations are proper nouns.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Find the proper nouns: “Last january, nkeng sent a parcel from buea to her aunt in kumbo.”",
+  "steps": [
+   "Names of a month, a person and towns are proper nouns.",
+   "January, Nkeng, Buea, Kumbo need capital letters."
+  ],
+  "answer": "January, Nkeng, Buea, Kumbo",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c47-1",
+    "status": "draft",
+    "idea": "A proper noun names one particular person, place or thing.",
+    "vars": {},
+    "example": [
+     "Kumbo is a proper noun; town is a common noun."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-47-kind"
+    }
+   },
+   {
+    "id": "c47-2",
+    "status": "draft",
+    "idea": "Proper nouns always start with a capital letter.",
+    "vars": {},
+    "example": [
+     "Monday, March, Cameroon, Mount Cameroon"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-47-cap"
+    }
+   },
+   {
+    "id": "c47-3",
+    "status": "draft",
+    "idea": "Common nouns start with a small letter inside a sentence.",
+    "vars": {},
+    "example": [
+     "She went to the post office in Kumbo."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-47-spot-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "prompt": "Which sentence has a capital-letter mistake?",
+     "pool": {
+      "right": [
+       {
+        "text": "Nkeng lives in Bafoussam.",
+        "truth": "true"
+       },
+       {
+        "text": "The post office closes on Saturday.",
+        "truth": "true"
+       },
+       {
+        "text": "We crossed the Wouri bridge.",
+        "truth": "true"
+       },
+       {
+        "text": "My uncle is a postman.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "We travelled to limbe in july.",
+        "truth": "false",
+        "explain": "Limbe and July are proper nouns: capital letters."
+       },
+       {
+        "text": "The Post Office is near the Market.",
+        "truth": "false",
+        "explain": "post office and market are common nouns here: small letters."
+       },
+       {
+        "text": "my friend ayuk sent a letter.",
+        "truth": "false",
+        "explain": "My (start of the sentence) and Ayuk need capitals."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-47-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Nkeng sent a parcel.",
+       "r": "Nkeng",
+       "w": [
+        "sent",
+        "parcel",
+        "a"
+       ],
+       "e": [
+        "That is a verb.",
+        "That is a common noun.",
+        "That is an article."
+       ],
+       "y": "Nkeng is a particular person."
+      },
+      {
+       "q": "The post office in Limbe opens at eight.",
+       "r": "Limbe",
+       "w": [
+        "post office",
+        "opens",
+        "eight"
+       ],
+       "e": [
+        "That is a common noun.",
+        "That is a verb.",
+        "That is a number."
+       ],
+       "y": "Limbe is a particular town."
+      },
+      {
+       "q": "We visited the bank on Friday.",
+       "r": "Friday",
+       "w": [
+        "bank",
+        "visited",
+        "We"
+       ],
+       "e": [
+        "That is a common noun.",
+        "That is a verb.",
+        "That is a pronoun."
+       ],
+       "y": "Days are proper nouns."
+      }
+     ]
+    }
+   },
+   "prompt": "In “{X.q}”, which word is a proper noun?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-47-cap",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "My birthday is in March.",
+       "w": [
+        "My birthday is in march.",
+        "my birthday is in March.",
+        "My Birthday is in March."
+       ],
+       "e": [
+        "Months are proper nouns: March.",
+        "A sentence starts with a capital letter.",
+        "Birthday is a common noun: small b."
+       ],
+       "y": "Capital M for the month, small b for birthday."
+      },
+      {
+       "r": "The parcel went to Bamenda.",
+       "w": [
+        "The parcel went to bamenda.",
+        "the parcel went to Bamenda.",
+        "The Parcel went to Bamenda."
+       ],
+       "e": [
+        "Towns are proper nouns: Bamenda.",
+        "A sentence starts with a capital letter.",
+        "Parcel is a common noun."
+       ],
+       "y": "Capital B for the town."
+      },
+      {
+       "r": "We cross the Sanaga on Monday.",
+       "w": [
+        "We cross the sanaga on monday.",
+        "We cross the Sanaga on monday.",
+        "We Cross the Sanaga on Monday."
+       ],
+       "e": [
+        "Rivers and days are proper nouns.",
+        "Days are proper nouns: Monday.",
+        "Cross is a verb: small c."
+       ],
+       "y": "Sanaga and Monday are proper nouns."
+      }
+     ]
+    }
+   },
+   "prompt": "Which sentence is written correctly?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-47-common",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "envelope",
+       "w": [
+        "Douala",
+        "Monday",
+        "Ayuk"
+       ],
+       "e": [
+        "A particular town.",
+        "A particular day.",
+        "A particular person."
+       ],
+       "y": "Envelope names any envelope."
+      },
+      {
+       "r": "stamp",
+       "w": [
+        "Cameroon",
+        "June",
+        "Ngum"
+       ],
+       "e": [
+        "A particular country.",
+        "A particular month.",
+        "A particular person."
+       ],
+       "y": "Stamp names any stamp."
+      }
+     ]
+    }
+   },
+   "prompt": "Which word is a common noun?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-47-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has a capital-letter mistake?",
+   "pool": {
+    "right": [
+     {
+      "text": "Nkeng lives in Bafoussam.",
+      "truth": "true"
+     },
+     {
+      "text": "The post office closes on Saturday.",
+      "truth": "true"
+     },
+     {
+      "text": "We crossed the Wouri bridge.",
+      "truth": "true"
+     },
+     {
+      "text": "My uncle is a postman.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "We travelled to limbe in july.",
+      "truth": "false",
+      "explain": "Limbe and July are proper nouns: capital letters."
+     },
+     {
+      "text": "The Post Office is near the Market.",
+      "truth": "false",
+      "explain": "post office and market are common nouns here: small letters."
+     },
+     {
+      "text": "my friend ayuk sent a letter.",
+      "truth": "false",
+      "explain": "My (start of the sentence) and Ayuk need capitals."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

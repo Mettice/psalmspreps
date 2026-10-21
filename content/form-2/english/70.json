@@ -1,0 +1,411 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 70,
+ "language": "en",
+ "prerequisites": [
+  58
+ ],
+ "skills": [
+  {
+   "id": "e2-70",
+   "name": "Punctuation (2)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Colon (:): introduces a list or an explanation: We need three things: courage, honesty and help.\n• Semicolon (;): joins two closely linked sentences: Some pupils fight; others report it.\n• Quotation marks (“ ”): enclose the exact words someone said: “Tell a teacher,” said Bih.\n• Hyphen (-): joins words into one: a well-known counsellor, twenty-one, anti-drug.\n• Dash (–): a sharp break or added comment: He refused – bravely – to pay.\n• Brackets ( ): extra information: The counsellor (Mrs Ngo) meets students on Friday.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Punctuate: “the discipline master said report every case at once”",
+  "steps": [
+   "Capital T; the exact words go inside quotation marks after a comma.",
+   "The discipline master said, “Report every case at once.”"
+  ],
+  "answer": "The discipline master said, “Report every case at once.”",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c70-1",
+    "status": "draft",
+    "idea": "A colon introduces a list or an explanation.",
+    "vars": {},
+    "example": [
+     "Bring three things: a pen, a ruler and an eraser."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-70-colon"
+    }
+   },
+   {
+    "id": "c70-2",
+    "status": "draft",
+    "idea": "Quotation marks surround the exact words spoken.",
+    "vars": {},
+    "example": [
+     "“Stop!” shouted the teacher."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-70-quote"
+    }
+   },
+   {
+    "id": "c70-3",
+    "status": "draft",
+    "idea": "A hyphen joins words; a semicolon joins two linked sentences.",
+    "vars": {},
+    "example": [
+     "anti-drug club; Some fight; others help."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-70-hyphen-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "Join the ___ club.",
+         "a": "anti-drug",
+         "w": [
+          "anti drug",
+          "anti; drug"
+         ],
+         "e": [
+          "anti- joins the word with a hyphen.",
+          "A semicolon joins sentences, not words."
+         ]
+        },
+        {
+         "s": "She is a ___ counsellor.",
+         "a": "well-known",
+         "w": [
+          "well known,",
+          "well: known"
+         ],
+         "e": [
+          "Before a noun, well-known takes a hyphen.",
+          "A colon does not join words."
+         ]
+        },
+        {
+         "s": "There are ___ pupils in the club.",
+         "a": "twenty-one",
+         "w": [
+          "twenty one,",
+          "twenty: one"
+         ],
+         "e": [
+          "Numbers from 21 to 99 take a hyphen.",
+          "A colon does not join numbers."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct form.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-70-colon",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The club has three aims___ prevention, information and help.",
+       "a": ":",
+       "w": [
+        ";",
+        ","
+       ],
+       "e": [
+        "A list is introduced with a colon.",
+        "A comma does not introduce a list."
+       ]
+      },
+      {
+       "s": "Some pupils fight___ others try to stop them.",
+       "a": ";",
+       "w": [
+        ":",
+        "-"
+       ],
+       "e": [
+        "Two linked sentences: semicolon.",
+        "A hyphen joins words, not sentences."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the punctuation mark.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-70-quote",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "“Tell a teacher,” said Bih.",
+       "w": [
+        "“Tell a teacher, said Bih.”",
+        "Tell a teacher, “said Bih.”",
+        "“Tell a teacher” said Bih"
+       ],
+       "e": [
+        "Only the spoken words go inside the marks.",
+        "The marks go around the spoken words.",
+        "A comma is needed and the sentence needs a full stop."
+       ],
+       "y": "The exact words are inside the quotation marks."
+      },
+      {
+       "r": "The counsellor asked, “Who saw the fight?”",
+       "w": [
+        "The counsellor asked “who saw the fight”.",
+        "The counsellor asked, Who saw the fight?",
+        "“The counsellor asked, who saw the fight?”"
+       ],
+       "e": [
+        "Capital W and a question mark inside.",
+        "The spoken words need quotation marks.",
+        "Only the spoken words go inside."
+       ],
+       "y": "Comma, quotation marks, capital letter, question mark inside."
+      }
+     ]
+    }
+   },
+   "prompt": "Which sentence is punctuated correctly?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-70-hyphen",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Join the ___ club.",
+       "a": "anti-drug",
+       "w": [
+        "anti drug",
+        "anti; drug"
+       ],
+       "e": [
+        "anti- joins the word with a hyphen.",
+        "A semicolon joins sentences, not words."
+       ]
+      },
+      {
+       "s": "She is a ___ counsellor.",
+       "a": "well-known",
+       "w": [
+        "well known,",
+        "well: known"
+       ],
+       "e": [
+        "Before a noun, well-known takes a hyphen.",
+        "A colon does not join words."
+       ]
+      },
+      {
+       "s": "There are ___ pupils in the club.",
+       "a": "twenty-one",
+       "w": [
+        "twenty one,",
+        "twenty: one"
+       ],
+       "e": [
+        "Numbers from 21 to 99 take a hyphen.",
+        "A colon does not join numbers."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-70-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is punctuated wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "We need three things: courage, honesty and help.",
+      "truth": "true"
+     },
+     {
+      "text": "“Report it,” said the principal.",
+      "truth": "true"
+     },
+     {
+      "text": "The anti-drug club meets on Friday.",
+      "truth": "true"
+     },
+     {
+      "text": "Some pupils fight; others help.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "We need: courage honesty and help.",
+      "truth": "false",
+      "explain": "The colon comes after a complete clause, and the list needs commas."
+     },
+     {
+      "text": "“Report it said the principal.”",
+      "truth": "false",
+      "explain": "Only the spoken words go inside the quotation marks."
+     },
+     {
+      "text": "Join the anti; drug club.",
+      "truth": "false",
+      "explain": "Use a hyphen: anti-drug."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

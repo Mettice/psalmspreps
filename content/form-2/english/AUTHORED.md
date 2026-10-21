@@ -1,4 +1,4 @@
-# English Form 2, Batch E2-1: authored answers for review
+# English Form 2, Batches E2-1, E2-2: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -137,6 +137,165 @@ Verb forms (past, participle, -ing, -s) and spellings come from the English libr
 | 123 | `e2-32-modal` | 32 | fill the blank, 1 | grammar-tenses |
 | 124 | `e2-32-link` | 32 | fill the blank, 1 | writing-skills |
 | 125 | `e2-32-c1` (card c32-1) | 32 | multiple choice, 1 | writing-skills |
+| 126 | `e2-33-words` | 33 | multiple choice, 1 | vocabulary |
+| 127 | `e2-33-text` | 33 | multiple choice, 1 | reading-texts |
+| 128 | `e2-33-idea` | 33 | multiple choice, 2 | reading-texts |
+| 129 | `e2-33-spot` | 33 | spot the error, 3 | reading-texts |
+| 130 | `e2-33-idea-card` (card c33-3) | 33 | multiple choice, 1 | reading-texts |
+| 131 | `e2-34-mean` | 34 | multiple choice, 1 | vocabulary |
+| 132 | `e2-34-use` | 34 | fill the blank, 1 | vocabulary |
+| 133 | `e2-34-match` | 34 | matching, 2 | vocabulary |
+| 134 | `e2-34-spot` | 34 | spot the error, 3 | vocabulary |
+| 135 | `e2-34-match-card` (card c34-3) | 34 | matching, 1 | vocabulary |
+| 136 | `e2-35-modal` | 35 | fill the blank, 2 | grammar-tenses |
+| 137 | `e2-35-spot` | 35 | spot the error, 3 | grammar-tenses |
+| 138 | `e2-35-modal-card` (card c35-3) | 35 | fill the blank, 1 | grammar-tenses |
+| 139 | `e2-36-order` | 36 | ordering, 1 | writing-skills |
+| 140 | `e2-37-right` | 37 | multiple choice, 1 | vocabulary |
+| 141 | `e2-37-text` | 37 | multiple choice, 1 | reading-texts |
+| 142 | `e2-37-idea` | 37 | multiple choice, 2 | reading-texts |
+| 143 | `e2-37-spot` | 37 | spot the error, 3 | reading-texts |
+| 144 | `e2-37-idea-card` (card c37-3) | 37 | multiple choice, 1 | reading-texts |
+| 145 | `e2-39-mean` | 39 | multiple choice, 1 | vocabulary |
+| 146 | `e2-39-kind` | 39 | multiple choice, 1 | vocabulary |
+| 147 | `e2-39-use` | 39 | fill the blank, 2 | vocabulary |
+| 148 | `e2-39-spot` | 39 | spot the error, 3 | vocabulary |
+| 149 | `e2-39-use-card` (card c39-3) | 39 | fill the blank, 1 | vocabulary |
+| 150 | `e2-40-order` | 40 | ordering, 1 | writing-skills |
+| 151 | `e2-41-steps` | 41 | ordering, 1 | reading-texts |
+| 152 | `e2-41-text` | 41 | multiple choice, 1 | reading-texts |
+| 153 | `e2-41-words` | 41 | matching, 2 | vocabulary |
+| 154 | `e2-41-spot` | 41 | spot the error, 3 | reading-texts |
+| 155 | `e2-41-words-card` (card c41-3) | 41 | matching, 1 | vocabulary |
+| 156 | `e2-42-pre` | 42 | multiple choice, 1 | vocabulary |
+| 157 | `e2-42-suf` | 42 | multiple choice, 1 | vocabulary |
+| 158 | `e2-42-ful` | 42 | fill the blank, 2 | vocabulary |
+| 159 | `e2-42-spot` | 42 | spot the error, 3 | vocabulary |
+| 160 | `e2-42-ful-card` (card c42-3) | 42 | fill the blank, 1 | vocabulary |
+| 161 | `e2-43-form` | 43 | fill the blank, 1 | grammar-tenses |
+| 162 | `e2-43-neg` | 43 | fill the blank, 1 | grammar-tenses |
+| 163 | `e2-43-wo` | 43 | word order, 2 | grammar-tenses |
+| 164 | `e2-43-spot` | 43 | spot the error, 3 | grammar-tenses |
+| 165 | `e2-43-wo-card` (card c43-3) | 43 | word order, 1 | grammar-tenses |
+| 166 | `e2-44-order` | 44 | ordering, 1 | writing-skills |
+| 167 | `e2-45-words` | 45 | matching, 1 | vocabulary |
+| 168 | `e2-45-text` | 45 | multiple choice, 1 | reading-texts |
+| 169 | `e2-45-idea` | 45 | multiple choice, 2 | reading-texts |
+| 170 | `e2-45-spot` | 45 | spot the error, 3 | reading-texts |
+| 171 | `e2-45-idea-card` (card c45-3) | 45 | multiple choice, 1 | reading-texts |
+| 172 | `e2-46-fem` | 46 | multiple choice, 1 | vocabulary |
+| 173 | `e2-46-kind` | 46 | multiple choice, 1 | vocabulary |
+| 174 | `e2-46-ess` | 46 | fill the blank, 2 | vocabulary |
+| 175 | `e2-46-spot` | 46 | spot the error, 3 | vocabulary |
+| 176 | `e2-46-ess-card` (card c46-3) | 46 | fill the blank, 1 | vocabulary |
+| 177 | `e2-47-kind` | 47 | multiple choice, 1 | grammar-tenses |
+| 178 | `e2-47-cap` | 47 | multiple choice, 1 | grammar-tenses |
+| 179 | `e2-47-common` | 47 | multiple choice, 2 | grammar-tenses |
+| 180 | `e2-47-spot` | 47 | spot the error, 3 | grammar-tenses |
+| 181 | `e2-47-spot-card` (card c47-3) | 47 | spot the error, 1 | grammar-tenses |
+| 182 | `e2-48-order` | 48 | ordering, 1 | writing-skills |
+| 183 | `e2-49-words` | 49 | matching, 1 | vocabulary |
+| 184 | `e2-49-text` | 49 | multiple choice, 1 | reading-texts |
+| 185 | `e2-49-idea` | 49 | multiple choice, 2 | reading-texts |
+| 186 | `e2-49-spot` | 49 | spot the error, 3 | reading-texts |
+| 187 | `e2-49-idea-card` (card c49-3) | 49 | multiple choice, 1 | reading-texts |
+| 188 | `e2-51-kind` | 51 | multiple choice, 1 | grammar-tenses |
+| 189 | `e2-51-much` | 51 | fill the blank, 1 | grammar-tenses |
+| 190 | `e2-51-unit` | 51 | fill the blank, 2 | grammar-tenses |
+| 191 | `e2-51-spot` | 51 | spot the error, 3 | grammar-tenses |
+| 192 | `e2-51-unit-card` (card c51-3) | 51 | fill the blank, 1 | grammar-tenses |
+| 193 | `e2-52-order` | 52 | ordering, 1 | writing-skills |
+| 194 | `e2-53-words` | 53 | multiple choice, 1 | vocabulary |
+| 195 | `e2-53-text` | 53 | multiple choice, 1 | reading-texts |
+| 196 | `e2-53-idea` | 53 | multiple choice, 2 | reading-texts |
+| 197 | `e2-53-spot` | 53 | spot the error, 3 | reading-texts |
+| 198 | `e2-53-idea-card` (card c53-3) | 53 | multiple choice, 1 | reading-texts |
+| 199 | `e2-54-match` | 54 | matching, 1 | vocabulary |
+| 200 | `e2-54-words` | 54 | multiple choice, 1 | vocabulary |
+| 201 | `e2-54-cl` | 54 | fill the blank, 2 | vocabulary |
+| 202 | `e2-54-spot` | 54 | spot the error, 3 | vocabulary |
+| 203 | `e2-54-cl-card` (card c54-3) | 54 | fill the blank, 1 | vocabulary |
+| 204 | `e2-55-obj` | 55 | fill the blank, 1 | grammar-tenses |
+| 205 | `e2-55-poss` | 55 | fill the blank, 1 | grammar-tenses |
+| 206 | `e2-55-ref` | 55 | fill the blank, 2 | grammar-tenses |
+| 207 | `e2-55-spot` | 55 | spot the error, 3 | grammar-tenses |
+| 208 | `e2-55-ref-card` (card c55-3) | 55 | fill the blank, 1 | grammar-tenses |
+| 209 | `e2-56-order` | 56 | ordering, 1 | writing-skills |
+| 210 | `e2-57-words` | 57 | multiple choice, 1 | vocabulary |
+| 211 | `e2-57-text` | 57 | multiple choice, 1 | reading-texts |
+| 212 | `e2-57-idea` | 57 | multiple choice, 2 | reading-texts |
+| 213 | `e2-57-spot` | 57 | spot the error, 3 | reading-texts |
+| 214 | `e2-57-idea-card` (card c57-3) | 57 | multiple choice, 1 | reading-texts |
+| 215 | `e2-58-end` | 58 | fill the blank, 1 | grammar-tenses |
+| 216 | `e2-58-comma` | 58 | multiple choice, 1 | grammar-tenses |
+| 217 | `e2-58-apos` | 58 | fill the blank, 2 | grammar-tenses |
+| 218 | `e2-58-spot` | 58 | spot the error, 3 | grammar-tenses |
+| 219 | `e2-58-apos-card` (card c58-3) | 58 | fill the blank, 1 | grammar-tenses |
+| 220 | `e2-59-it` | 59 | fill the blank, 1 | grammar-tenses |
+| 221 | `e2-59-there` | 59 | fill the blank, 1 | grammar-tenses |
+| 222 | `e2-59-one` | 59 | multiple choice, 2 | grammar-tenses |
+| 223 | `e2-59-spot` | 59 | spot the error, 3 | grammar-tenses |
+| 224 | `e2-59-one-card` (card c59-3) | 59 | multiple choice, 1 | grammar-tenses |
+| 225 | `e2-60-order` | 60 | ordering, 1 | writing-skills |
+| 226 | `e2-61-words` | 61 | multiple choice, 1 | vocabulary |
+| 227 | `e2-61-text` | 61 | multiple choice, 1 | reading-texts |
+| 228 | `e2-61-idea` | 61 | multiple choice, 2 | reading-texts |
+| 229 | `e2-61-spot` | 61 | spot the error, 3 | reading-texts |
+| 230 | `e2-61-idea-card` (card c61-3) | 61 | multiple choice, 1 | reading-texts |
+| 231 | `e2-62-mean` | 62 | multiple choice, 1 | vocabulary |
+| 232 | `e2-62-ctx` | 62 | multiple choice, 1 | vocabulary |
+| 233 | `e2-62-kind` | 62 | multiple choice, 2 | vocabulary |
+| 234 | `e2-62-spot` | 62 | spot the error, 3 | vocabulary |
+| 235 | `e2-62-kind-card` (card c62-3) | 62 | multiple choice, 1 | vocabulary |
+| 236 | `e2-63-the` | 63 | fill the blank, 1 | grammar-tenses |
+| 237 | `e2-63-none` | 63 | fill the blank, 2 | grammar-tenses |
+| 238 | `e2-63-spot` | 63 | spot the error, 3 | grammar-tenses |
+| 239 | `e2-63-none-card` (card c63-3) | 63 | fill the blank, 1 | grammar-tenses |
+| 240 | `e2-64-order` | 64 | ordering, 1 | writing-skills |
+| 241 | `e2-65-words` | 65 | matching, 1 | vocabulary |
+| 242 | `e2-65-text` | 65 | multiple choice, 1 | reading-texts |
+| 243 | `e2-65-idea` | 65 | multiple choice, 2 | reading-texts |
+| 244 | `e2-65-spot` | 65 | spot the error, 3 | reading-texts |
+| 245 | `e2-65-idea-card` (card c65-3) | 65 | multiple choice, 1 | reading-texts |
+| 246 | `e2-66-count` | 66 | multiple choice, 1 | vocabulary |
+| 247 | `e2-66-split` | 66 | multiple choice, 1 | vocabulary |
+| 248 | `e2-66-break` | 66 | multiple choice, 2 | vocabulary |
+| 249 | `e2-66-spot` | 66 | spot the error, 3 | vocabulary |
+| 250 | `e2-66-break-card` (card c66-3) | 66 | multiple choice, 1 | vocabulary |
+| 251 | `e2-67-spot` | 67 | spot the error, 3 | grammar-tenses |
+| 252 | `e2-68-order` | 68 | ordering, 1 | writing-skills |
+| 253 | `e2-69-words` | 69 | multiple choice, 1 | vocabulary |
+| 254 | `e2-69-text` | 69 | multiple choice, 1 | reading-texts |
+| 255 | `e2-69-idea` | 69 | multiple choice, 2 | reading-texts |
+| 256 | `e2-69-spot` | 69 | spot the error, 3 | reading-texts |
+| 257 | `e2-69-idea-card` (card c69-3) | 69 | multiple choice, 1 | reading-texts |
+| 258 | `e2-70-colon` | 70 | fill the blank, 1 | grammar-tenses |
+| 259 | `e2-70-quote` | 70 | multiple choice, 1 | grammar-tenses |
+| 260 | `e2-70-hyphen` | 70 | fill the blank, 2 | grammar-tenses |
+| 261 | `e2-70-spot` | 70 | spot the error, 3 | grammar-tenses |
+| 262 | `e2-70-hyphen-card` (card c70-3) | 70 | fill the blank, 1 | grammar-tenses |
+| 263 | `e2-71-main` | 71 | multiple choice, 1 | grammar-tenses |
+| 264 | `e2-71-sub` | 71 | fill the blank, 1 | grammar-tenses |
+| 265 | `e2-71-join` | 71 | word order, 2 | grammar-tenses |
+| 266 | `e2-71-spot` | 71 | spot the error, 3 | grammar-tenses |
+| 267 | `e2-71-join-card` (card c71-3) | 71 | word order, 1 | grammar-tenses |
+| 268 | `e2-72-order` | 72 | ordering, 1 | writing-skills |
+| 269 | `e2-73-type` | 73 | multiple choice, 1 | vocabulary |
+| 270 | `e2-73-text` | 73 | multiple choice, 1 | reading-texts |
+| 271 | `e2-73-idea` | 73 | multiple choice, 2 | reading-texts |
+| 272 | `e2-73-spot` | 73 | spot the error, 3 | reading-texts |
+| 273 | `e2-73-idea-card` (card c73-3) | 73 | multiple choice, 1 | reading-texts |
+| 274 | `e2-74-match` | 74 | matching, 1 | vocabulary |
+| 275 | `e2-74-rs` | 74 | multiple choice, 1 | vocabulary |
+| 276 | `e2-74-cl` | 74 | fill the blank, 2 | vocabulary |
+| 277 | `e2-74-spot` | 74 | spot the error, 3 | vocabulary |
+| 278 | `e2-74-cl-card` (card c74-3) | 74 | fill the blank, 1 | vocabulary |
+| 279 | `e2-75-who` | 75 | fill the blank, 1 | grammar-tenses |
+| 280 | `e2-75-whose` | 75 | fill the blank, 1 | grammar-tenses |
+| 281 | `e2-75-join` | 75 | word order, 2 | grammar-tenses |
+| 282 | `e2-75-spot` | 75 | spot the error, 3 | grammar-tenses |
+| 283 | `e2-75-join-card` (card c75-3) | 75 | word order, 1 | grammar-tenses |
+| 284 | `e2-76-order` | 76 | ordering, 1 | writing-skills |
 
 ### `e2-1-ask` · Lesson 1 · multiple choice, level 1
 
@@ -8191,6 +8350,9984 @@ Full working after a second miss:
 
 > It states the main idea of the paragraph.  
 > So the answer is “There are many ways in which the youth can help our quarter.”.  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-33-words` · Lesson 33 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is burglary? | breaking into a house or shop to steal | taking a person by force · shouting at night · a meeting of the quarter | That is kidnapping. · That is noise, not a crime word here. · That is a meeting. | Burglars break in to steal. |
+| What is a suspect? | a person thought to be guilty of a crime | a police officer · a person who was robbed · a judge | The police arrest suspects. · That is a victim. · A judge decides in court. | A suspect is not yet proved guilty. |
+| What is kidnapping? | taking a person away by force | stealing from a shop · fighting in the market · selling drugs | That is theft or burglary. · That is a fight. · That is drug dealing. | Kidnappers take people away by force. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is kidnapping?
+
+- ✅ taking a person away by force
+- ◻️ stealing from a shop  
+  _↳ feedback if chosen: That is theft or burglary._
+- ◻️ fighting in the market  
+  _↳ feedback if chosen: That is a fight._
+- ◻️ selling drugs  
+  _↳ feedback if chosen: That is drug dealing._
+
+Full working after a second miss:
+
+> Kidnappers take people away by force.  
+> So the answer is “taking a person away by force”.  
+
+> What is burglary?
+
+- ◻️ shouting at night  
+  _↳ feedback if chosen: That is noise, not a crime word here._
+- ✅ breaking into a house or shop to steal
+- ◻️ a meeting of the quarter  
+  _↳ feedback if chosen: That is a meeting._
+- ◻️ taking a person by force  
+  _↳ feedback if chosen: That is kidnapping._
+
+Full working after a second miss:
+
+> Burglars break in to steal.  
+> So the answer is “breaking into a house or shop to steal”.  
+
+> What is burglary?
+
+- ◻️ a meeting of the quarter  
+  _↳ feedback if chosen: That is a meeting._
+- ◻️ shouting at night  
+  _↳ feedback if chosen: That is noise, not a crime word here._
+- ✅ breaking into a house or shop to steal
+- ◻️ taking a person by force  
+  _↳ feedback if chosen: That is kidnapping._
+
+Full working after a second miss:
+
+> Burglars break in to steal.  
+> So the answer is “breaking into a house or shop to steal”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-33-text` · Lesson 33 · multiple choice, level 1
+
+Prompt: Text “A safer quarter”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| who called the meeting? | the quarter head | the police · the parents · the thieves | The police opened a post later. · Parents attended it. · The thieves were the problem. | “Then the quarter head called a meeting.” |
+| what did the vigilance group do? | walk round the quarter at night | beat suspects · close the market · teach evening studies | They agreed not to beat suspects. · The text does not say that. · The text does not say that. | Volunteers walk round the quarter at night. |
+| what happened six months later? | crime had fallen sharply | the police post closed · more pupils were kidnapped · the shops closed | The text does not say that. · Crime fell. · The text does not say that. | “Six months later, crime had fallen sharply.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A safer quarter”: what happened six months later?
+
+- ◻️ the police post closed  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ more pupils were kidnapped  
+  _↳ feedback if chosen: Crime fell._
+- ✅ crime had fallen sharply
+- ◻️ the shops closed  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “Six months later, crime had fallen sharply.”  
+> So the answer is “crime had fallen sharply”.  
+
+> Text “A safer quarter”: who called the meeting?
+
+- ◻️ the thieves  
+  _↳ feedback if chosen: The thieves were the problem._
+- ✅ the quarter head
+- ◻️ the police  
+  _↳ feedback if chosen: The police opened a post later._
+- ◻️ the parents  
+  _↳ feedback if chosen: Parents attended it._
+
+Full working after a second miss:
+
+> “Then the quarter head called a meeting.”  
+> So the answer is “the quarter head”.  
+
+> Text “A safer quarter”: what did the vigilance group do?
+
+- ◻️ beat suspects  
+  _↳ feedback if chosen: They agreed not to beat suspects._
+- ◻️ teach evening studies  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ close the market  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ walk round the quarter at night
+
+Full working after a second miss:
+
+> Volunteers walk round the quarter at night.  
+> So the answer is “walk round the quarter at night”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-33-idea` · Lesson 33 · multiple choice, level 2
+
+Prompt: Text “A safer quarter”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the main idea? | people working together, with the police, can make a quarter safe | thieves are stronger than the police · children must stay at home forever · people should punish suspects themselves | Crime fell when people worked together. · Evening studies were the problem only at first. · They agreed to report suspects, not beat them. | “Security is everybody's business.” |
+| why did they report suspects instead of beating them? | to let the law do its work | because the suspects were their friends · because the police were far away · because beating is too tiring | The text does not say that. · The police opened a post near the market. · That is not the reason. | “We let the law do its work.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A safer quarter”: why did they report suspects instead of beating them?
+
+- ◻️ because beating is too tiring  
+  _↳ feedback if chosen: That is not the reason._
+- ✅ to let the law do its work
+- ◻️ because the suspects were their friends  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ because the police were far away  
+  _↳ feedback if chosen: The police opened a post near the market._
+
+Full working after a second miss:
+
+> “We let the law do its work.”  
+> So the answer is “to let the law do its work”.  
+
+> Text “A safer quarter”: what is the main idea?
+
+- ◻️ thieves are stronger than the police  
+  _↳ feedback if chosen: Crime fell when people worked together._
+- ◻️ people should punish suspects themselves  
+  _↳ feedback if chosen: They agreed to report suspects, not beat them._
+- ✅ people working together, with the police, can make a quarter safe
+- ◻️ children must stay at home forever  
+  _↳ feedback if chosen: Evening studies were the problem only at first._
+
+Full working after a second miss:
+
+> “Security is everybody's business.”  
+> So the answer is “people working together, with the police, can make a quarter safe”.  
+
+> Text “A safer quarter”: why did they report suspects instead of beating them?
+
+- ✅ to let the law do its work
+- ◻️ because the police were far away  
+  _↳ feedback if chosen: The police opened a post near the market._
+- ◻️ because the suspects were their friends  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ because beating is too tiring  
+  _↳ feedback if chosen: That is not the reason._
+
+Full working after a second miss:
+
+> “We let the law do its work.”  
+> So the answer is “to let the law do its work”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-33-spot` · Lesson 33 · spot the error, level 3
+
+Prompt: Text “A safer quarter”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The quarter head called a meeting.
+- ✅ The people agreed to light the streets.
+- ✅ The police opened a post near the market.
+- ✅ Crime fell after six months.
+- ❌ The vigilance group beat every suspect.  
+  _↳ They agreed to report suspects to the police instead of beating them._
+- ❌ Parents sent children to evening studies more often during the crisis.  
+  _↳ They stopped sending them._
+- ❌ Crime rose after the meeting.  
+  _↳ Crime fell sharply._
+
+
+Three generated variants:
+
+> Text “A safer quarter”. Which statement is wrong?
+
+- ◻️ The quarter head called a meeting.
+- ✅ The vigilance group beat every suspect.  
+  _↳ explanation: They agreed to report suspects to the police instead of beating them._
+- ◻️ The police opened a post near the market.
+- ◻️ The people agreed to light the streets.
+
+Full working after a second miss:
+
+> The wrong statement is “The vigilance group beat every suspect.”.  
+> They agreed to report suspects to the police instead of beating them.  
+
+> Text “A safer quarter”. Which statement is wrong?
+
+- ✅ The vigilance group beat every suspect.  
+  _↳ explanation: They agreed to report suspects to the police instead of beating them._
+- ◻️ The people agreed to light the streets.
+- ◻️ Crime fell after six months.
+- ◻️ The quarter head called a meeting.
+
+Full working after a second miss:
+
+> The wrong statement is “The vigilance group beat every suspect.”.  
+> They agreed to report suspects to the police instead of beating them.  
+
+> Text “A safer quarter”. Which statement is wrong?
+
+- ◻️ The quarter head called a meeting.
+- ◻️ The people agreed to light the streets.
+- ✅ Crime rose after the meeting.  
+  _↳ explanation: Crime fell sharply._
+- ◻️ The police opened a post near the market.
+
+Full working after a second miss:
+
+> The wrong statement is “Crime rose after the meeting.”.  
+> Crime fell sharply.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-33-idea-card` · Lesson 33 · multiple choice, level 1
+
+Prompt: Text “A safer quarter”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the main idea? | people working together, with the police, can make a quarter safe | thieves are stronger than the police · children must stay at home forever · people should punish suspects themselves | Crime fell when people worked together. · Evening studies were the problem only at first. · They agreed to report suspects, not beat them. | “Security is everybody's business.” |
+| why did they report suspects instead of beating them? | to let the law do its work | because the suspects were their friends · because the police were far away · because beating is too tiring | The text does not say that. · The police opened a post near the market. · That is not the reason. | “We let the law do its work.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A safer quarter”: why did they report suspects instead of beating them?
+
+- ✅ to let the law do its work
+- ◻️ because beating is too tiring  
+  _↳ feedback if chosen: That is not the reason._
+- ◻️ because the suspects were their friends  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ because the police were far away  
+  _↳ feedback if chosen: The police opened a post near the market._
+
+Full working after a second miss:
+
+> “We let the law do its work.”  
+> So the answer is “to let the law do its work”.  
+
+> Text “A safer quarter”: what is the main idea?
+
+- ✅ people working together, with the police, can make a quarter safe
+- ◻️ children must stay at home forever  
+  _↳ feedback if chosen: Evening studies were the problem only at first._
+- ◻️ thieves are stronger than the police  
+  _↳ feedback if chosen: Crime fell when people worked together._
+- ◻️ people should punish suspects themselves  
+  _↳ feedback if chosen: They agreed to report suspects, not beat them._
+
+Full working after a second miss:
+
+> “Security is everybody's business.”  
+> So the answer is “people working together, with the police, can make a quarter safe”.  
+
+> Text “A safer quarter”: what is the main idea?
+
+- ✅ people working together, with the police, can make a quarter safe
+- ◻️ people should punish suspects themselves  
+  _↳ feedback if chosen: They agreed to report suspects, not beat them._
+- ◻️ thieves are stronger than the police  
+  _↳ feedback if chosen: Crime fell when people worked together._
+- ◻️ children must stay at home forever  
+  _↳ feedback if chosen: Evening studies were the problem only at first._
+
+Full working after a second miss:
+
+> “Security is everybody's business.”  
+> So the answer is “people working together, with the police, can make a quarter safe”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-34-mean` · Lesson 34 · multiple choice, level 1
+
+Prompt: What does “{X.i}” mean?
+
+Table `X` (one row is picked each time):
+
+| i | r | w | e | y |
+|---|---|---|---|---|
+| caught red-handed | caught while doing something wrong | in prison · running away from the police · punish someone yourself instead of going to the police | That is the meaning of another idiom. · That is the meaning of another idiom. · That is the meaning of another idiom. | “caught red-handed” means caught while doing something wrong. |
+| behind bars | in prison | caught while doing something wrong · running away from the police · punish someone yourself instead of going to the police | That is the meaning of another idiom. · That is the meaning of another idiom. · That is the meaning of another idiom. | “behind bars” means in prison. |
+| on the run | running away from the police | caught while doing something wrong · in prison · punish someone yourself instead of going to the police | That is the meaning of another idiom. · That is the meaning of another idiom. · That is the meaning of another idiom. | “on the run” means running away from the police. |
+| take the law into your own hands | punish someone yourself instead of going to the police | caught while doing something wrong · in prison · running away from the police | That is the meaning of another idiom. · That is the meaning of another idiom. · That is the meaning of another idiom. | “take the law into your own hands” means punish someone yourself instead of going to the police. |
+| keep an eye on | watch carefully | caught while doing something wrong · in prison · running away from the police | That is the meaning of another idiom. · That is the meaning of another idiom. · That is the meaning of another idiom. | “keep an eye on” means watch carefully. |
+| turn a blind eye | pretend not to see something wrong | caught while doing something wrong · in prison · running away from the police | That is the meaning of another idiom. · That is the meaning of another idiom. · That is the meaning of another idiom. | “turn a blind eye” means pretend not to see something wrong. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does “caught red-handed” mean?
+
+- ◻️ in prison  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+- ◻️ punish someone yourself instead of going to the police  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+- ◻️ running away from the police  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+- ✅ caught while doing something wrong
+
+Full working after a second miss:
+
+> “caught red-handed” means caught while doing something wrong.  
+> So the answer is “caught while doing something wrong”.  
+
+> What does “behind bars” mean?
+
+- ◻️ punish someone yourself instead of going to the police  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+- ✅ in prison
+- ◻️ running away from the police  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+- ◻️ caught while doing something wrong  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+
+Full working after a second miss:
+
+> “behind bars” means in prison.  
+> So the answer is “in prison”.  
+
+> What does “take the law into your own hands” mean?
+
+- ✅ punish someone yourself instead of going to the police
+- ◻️ running away from the police  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+- ◻️ caught while doing something wrong  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+- ◻️ in prison  
+  _↳ feedback if chosen: That is the meaning of another idiom._
+
+Full working after a second miss:
+
+> “take the law into your own hands” means punish someone yourself instead of going to the police.  
+> So the answer is “punish someone yourself instead of going to the police”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-34-use` · Lesson 34 · fill the blank, level 1
+
+Prompt: Choose the idiom that completes the sentence.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The police caught the thief ___ with the stolen phone in his hand. | red-handed | behind bars · on the run | “Behind bars” means in prison. · “On the run” means escaping. |
+| After the trial, the kidnapper spent ten years ___. | behind bars | red-handed · on the run | “Red-handed” is about being caught in the act. · He was in prison, not escaping. |
+| Please ___ my bag while I buy the tickets. | keep an eye on | turn a blind eye to · cry wolf about | That means pretending not to see. · That means giving a false alarm. |
+| The prisoners escaped and are now ___. | on the run | red-handed · behind bars | That is about being caught. · They escaped from prison. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the idiom that completes the sentence.
+
+Sentence: **Please ___ my bag while I buy the tickets.**
+- ✅ keep an eye on
+- ◻️ cry wolf about  
+  _↳ feedback if chosen: That means giving a false alarm._
+- ◻️ turn a blind eye to  
+  _↳ feedback if chosen: That means pretending not to see._
+
+Full working after a second miss:
+
+> The missing words are “keep an eye on”.  
+> Please keep an eye on my bag while I buy the tickets.  
+
+> Choose the idiom that completes the sentence.
+
+Sentence: **The prisoners escaped and are now ___.**
+- ◻️ behind bars  
+  _↳ feedback if chosen: They escaped from prison._
+- ✅ on the run
+- ◻️ red-handed  
+  _↳ feedback if chosen: That is about being caught._
+
+Full working after a second miss:
+
+> The missing words are “on the run”.  
+> The prisoners escaped and are now on the run.  
+
+> Choose the idiom that completes the sentence.
+
+Sentence: **The prisoners escaped and are now ___.**
+- ✅ on the run
+- ◻️ behind bars  
+  _↳ feedback if chosen: They escaped from prison._
+- ◻️ red-handed  
+  _↳ feedback if chosen: That is about being caught._
+
+Full working after a second miss:
+
+> The missing words are “on the run”.  
+> The prisoners escaped and are now on the run.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-34-match` · Lesson 34 · matching, level 2
+
+Prompt: Match each idiom to its meaning.
+
+Pairs (4 shown each time):
+
+- on the run → **running away from the police**
+- take the law into your own hands → **punish someone yourself instead of going to the police**
+- keep an eye on → **watch carefully**
+- turn a blind eye → **pretend not to see something wrong**
+- break the law → **do something illegal**
+
+
+Three generated variants:
+
+> Match each idiom to its meaning.
+
+Right-hand side (shuffled): punish someone yourself instead of going to the police · do something illegal · running away from the police · watch carefully
+- break the law → **do something illegal**
+- keep an eye on → **watch carefully**
+- take the law into your own hands → **punish someone yourself instead of going to the police**
+- on the run → **running away from the police**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> break the law → do something illegal  
+> keep an eye on → watch carefully  
+> take the law into your own hands → punish someone yourself instead of going to the police  
+> on the run → running away from the police  
+
+> Match each idiom to its meaning.
+
+Right-hand side (shuffled): do something illegal · watch carefully · running away from the police · pretend not to see something wrong
+- turn a blind eye → **pretend not to see something wrong**
+- break the law → **do something illegal**
+- on the run → **running away from the police**
+- keep an eye on → **watch carefully**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> turn a blind eye → pretend not to see something wrong  
+> break the law → do something illegal  
+> on the run → running away from the police  
+> keep an eye on → watch carefully  
+
+> Match each idiom to its meaning.
+
+Right-hand side (shuffled): punish someone yourself instead of going to the police · pretend not to see something wrong · running away from the police · watch carefully
+- take the law into your own hands → **punish someone yourself instead of going to the police**
+- keep an eye on → **watch carefully**
+- turn a blind eye → **pretend not to see something wrong**
+- on the run → **running away from the police**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> take the law into your own hands → punish someone yourself instead of going to the police  
+> keep an eye on → watch carefully  
+> turn a blind eye → pretend not to see something wrong  
+> on the run → running away from the police  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-34-spot` · Lesson 34 · spot the error, level 3
+
+Prompt: Which sentence uses the idiom wrongly?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The boy cried wolf so often that nobody believed him.
+- ✅ Never take the law into your own hands.
+- ✅ The teacher turned a blind eye to the cheating, which was wrong.
+- ✅ The robber is still on the run.
+- ❌ The prisoner was happy to be red-handed at home.  
+  _↳ “Red-handed” means caught in the act of doing wrong._
+- ❌ We keep an eye on the thief to pretend we did not see him.  
+  _↳ “Keep an eye on” means watch carefully._
+- ❌ He broke the law by helping an old woman cross the road.  
+  _↳ Breaking the law means doing something illegal._
+
+
+Three generated variants:
+
+> Which sentence uses the idiom wrongly?
+
+- ◻️ The teacher turned a blind eye to the cheating, which was wrong.
+- ◻️ The boy cried wolf so often that nobody believed him.
+- ✅ The prisoner was happy to be red-handed at home.  
+  _↳ explanation: “Red-handed” means caught in the act of doing wrong._
+- ◻️ Never take the law into your own hands.
+
+Full working after a second miss:
+
+> The wrong statement is “The prisoner was happy to be red-handed at home.”.  
+> “Red-handed” means caught in the act of doing wrong.  
+
+> Which sentence uses the idiom wrongly?
+
+- ✅ He broke the law by helping an old woman cross the road.  
+  _↳ explanation: Breaking the law means doing something illegal._
+- ◻️ The teacher turned a blind eye to the cheating, which was wrong.
+- ◻️ Never take the law into your own hands.
+- ◻️ The robber is still on the run.
+
+Full working after a second miss:
+
+> The wrong statement is “He broke the law by helping an old woman cross the road.”.  
+> Breaking the law means doing something illegal.  
+
+> Which sentence uses the idiom wrongly?
+
+- ◻️ Never take the law into your own hands.
+- ◻️ The robber is still on the run.
+- ✅ He broke the law by helping an old woman cross the road.  
+  _↳ explanation: Breaking the law means doing something illegal._
+- ◻️ The boy cried wolf so often that nobody believed him.
+
+Full working after a second miss:
+
+> The wrong statement is “He broke the law by helping an old woman cross the road.”.  
+> Breaking the law means doing something illegal.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-34-match-card` · Lesson 34 · matching, level 1
+
+Prompt: Match each idiom to its meaning.
+
+Pairs (4 shown each time):
+
+- on the run → **running away from the police**
+- take the law into your own hands → **punish someone yourself instead of going to the police**
+- keep an eye on → **watch carefully**
+- turn a blind eye → **pretend not to see something wrong**
+- break the law → **do something illegal**
+
+
+Three generated variants:
+
+> Match each idiom to its meaning.
+
+Right-hand side (shuffled): pretend not to see something wrong · punish someone yourself instead of going to the police · running away from the police · do something illegal
+- turn a blind eye → **pretend not to see something wrong**
+- break the law → **do something illegal**
+- on the run → **running away from the police**
+- take the law into your own hands → **punish someone yourself instead of going to the police**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> turn a blind eye → pretend not to see something wrong  
+> break the law → do something illegal  
+> on the run → running away from the police  
+> take the law into your own hands → punish someone yourself instead of going to the police  
+
+> Match each idiom to its meaning.
+
+Right-hand side (shuffled): running away from the police · punish someone yourself instead of going to the police · do something illegal · pretend not to see something wrong
+- break the law → **do something illegal**
+- on the run → **running away from the police**
+- turn a blind eye → **pretend not to see something wrong**
+- take the law into your own hands → **punish someone yourself instead of going to the police**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> break the law → do something illegal  
+> on the run → running away from the police  
+> turn a blind eye → pretend not to see something wrong  
+> take the law into your own hands → punish someone yourself instead of going to the police  
+
+> Match each idiom to its meaning.
+
+Right-hand side (shuffled): do something illegal · watch carefully · pretend not to see something wrong · punish someone yourself instead of going to the police
+- turn a blind eye → **pretend not to see something wrong**
+- break the law → **do something illegal**
+- take the law into your own hands → **punish someone yourself instead of going to the police**
+- keep an eye on → **watch carefully**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> turn a blind eye → pretend not to see something wrong  
+> break the law → do something illegal  
+> take the law into your own hands → punish someone yourself instead of going to the police  
+> keep an eye on → watch carefully  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-35-modal` · Lesson 35 · fill the blank, level 2
+
+Prompt: Choose the correct form.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| You must ___ the theft to the police. | report | to report · reporting | After a modal, no “to”. · After a modal, use the bare infinitive. |
+| We should ___ our neighbours. | help | helps · to help | After a modal, the verb has no -s. · After a modal, no “to”. |
+| She can ___ three languages. | speak | speaks · speaking | After a modal, the verb has no -s. · After a modal, use the bare infinitive. |
+| They might ___ late because of the rain. | come | came · to come | After a modal, use the bare infinitive. · After a modal, no “to”. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct form.
+
+Sentence: **She can ___ three languages.**
+- ◻️ speaks  
+  _↳ feedback if chosen: After a modal, the verb has no -s._
+- ◻️ speaking  
+  _↳ feedback if chosen: After a modal, use the bare infinitive._
+- ✅ speak
+
+Full working after a second miss:
+
+> The missing word is “speak”.  
+> She can speak three languages.  
+
+> Choose the correct form.
+
+Sentence: **You must ___ the theft to the police.**
+- ◻️ reporting  
+  _↳ feedback if chosen: After a modal, use the bare infinitive._
+- ◻️ to report  
+  _↳ feedback if chosen: After a modal, no “to”._
+- ✅ report
+
+Full working after a second miss:
+
+> The missing word is “report”.  
+> You must report the theft to the police.  
+
+> Choose the correct form.
+
+Sentence: **We should ___ our neighbours.**
+- ◻️ to help  
+  _↳ feedback if chosen: After a modal, no “to”._
+- ◻️ helps  
+  _↳ feedback if chosen: After a modal, the verb has no -s._
+- ✅ help
+
+Full working after a second miss:
+
+> The missing word is “help”.  
+> We should help our neighbours.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-35-spot` · Lesson 35 · spot the error, level 3
+
+Prompt: Which sentence has a mistake with the auxiliary?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Does your brother walk to school?
+- ✅ They have called the police.
+- ✅ She is watching the market.
+- ✅ You must lock the door.
+- ❌ He do not know the suspect.  
+  _↳ With he, use does: He does not know._
+- ❌ We has finished our homework.  
+  _↳ With we, use have._
+- ❌ You must to stay inside.  
+  _↳ After must, no “to”: You must stay._
+- ❌ Is they coming tomorrow?  
+  _↳ With they, use are._
+
+
+Three generated variants:
+
+> Which sentence has a mistake with the auxiliary?
+
+- ◻️ You must lock the door.
+- ✅ We has finished our homework.  
+  _↳ explanation: With we, use have._
+- ◻️ She is watching the market.
+- ◻️ Does your brother walk to school?
+
+Full working after a second miss:
+
+> The wrong statement is “We has finished our homework.”.  
+> With we, use have.  
+
+> Which sentence has a mistake with the auxiliary?
+
+- ✅ Is they coming tomorrow?  
+  _↳ explanation: With they, use are._
+- ◻️ They have called the police.
+- ◻️ You must lock the door.
+- ◻️ Does your brother walk to school?
+
+Full working after a second miss:
+
+> The wrong statement is “Is they coming tomorrow?”.  
+> With they, use are.  
+
+> Which sentence has a mistake with the auxiliary?
+
+- ✅ Is they coming tomorrow?  
+  _↳ explanation: With they, use are._
+- ◻️ Does your brother walk to school?
+- ◻️ You must lock the door.
+- ◻️ They have called the police.
+
+Full working after a second miss:
+
+> The wrong statement is “Is they coming tomorrow?”.  
+> With they, use are.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-35-modal-card` · Lesson 35 · fill the blank, level 1
+
+Prompt: Choose the correct form.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| You must ___ the theft to the police. | report | to report · reporting | After a modal, no “to”. · After a modal, use the bare infinitive. |
+| We should ___ our neighbours. | help | helps · to help | After a modal, the verb has no -s. · After a modal, no “to”. |
+| She can ___ three languages. | speak | speaks · speaking | After a modal, the verb has no -s. · After a modal, use the bare infinitive. |
+| They might ___ late because of the rain. | come | came · to come | After a modal, use the bare infinitive. · After a modal, no “to”. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct form.
+
+Sentence: **We should ___ our neighbours.**
+- ✅ help
+- ◻️ helps  
+  _↳ feedback if chosen: After a modal, the verb has no -s._
+- ◻️ to help  
+  _↳ feedback if chosen: After a modal, no “to”._
+
+Full working after a second miss:
+
+> The missing word is “help”.  
+> We should help our neighbours.  
+
+> Choose the correct form.
+
+Sentence: **We should ___ our neighbours.**
+- ✅ help
+- ◻️ helps  
+  _↳ feedback if chosen: After a modal, the verb has no -s._
+- ◻️ to help  
+  _↳ feedback if chosen: After a modal, no “to”._
+
+Full working after a second miss:
+
+> The missing word is “help”.  
+> We should help our neighbours.  
+
+> Choose the correct form.
+
+Sentence: **They might ___ late because of the rain.**
+- ◻️ to come  
+  _↳ feedback if chosen: After a modal, no “to”._
+- ◻️ came  
+  _↳ feedback if chosen: After a modal, use the bare infinitive._
+- ✅ come
+
+Full working after a second miss:
+
+> The missing word is “come”.  
+> They might come late because of the rain.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-36-order` · Lesson 36 · ordering, level 1
+
+Prompt: Put the parts of the informal letter in order.
+
+Items in the right order:
+
+1. Box 214, Bamenda, 12 March
+2. Dear Tabe,
+3. I hope you are well. I am writing to tell you good news.
+4. Our quarter is now safe because everybody helps.
+5. Write back soon.
+6. Your friend, Ngum
+
+
+Three generated variants:
+
+> Put the parts of the informal letter in order.
+
+Shown as: Box 214, Bamenda, 12 March · Write back soon. · Dear Tabe, · I hope you are well. I am writing to tell you good news. · Our quarter is now safe because everybody helps. · Your friend, Ngum
+Correct order: Box 214, Bamenda, 12 March → Dear Tabe, → I hope you are well. I am writing to tell you good news. → Our quarter is now safe because everybody helps. → Write back soon. → Your friend, Ngum
+
+Full working after a second miss:
+
+> The correct order is: Box 214, Bamenda, 12 March → Dear Tabe, → I hope you are well. I am writing to tell you good news. → Our quarter is now safe because everybody helps. → Write back soon. → Your friend, Ngum.  
+
+> Put the parts of the informal letter in order.
+
+Shown as: Your friend, Ngum · Box 214, Bamenda, 12 March · Write back soon. · Dear Tabe, · I hope you are well. I am writing to tell you good news. · Our quarter is now safe because everybody helps.
+Correct order: Box 214, Bamenda, 12 March → Dear Tabe, → I hope you are well. I am writing to tell you good news. → Our quarter is now safe because everybody helps. → Write back soon. → Your friend, Ngum
+
+Full working after a second miss:
+
+> The correct order is: Box 214, Bamenda, 12 March → Dear Tabe, → I hope you are well. I am writing to tell you good news. → Our quarter is now safe because everybody helps. → Write back soon. → Your friend, Ngum.  
+
+> Put the parts of the informal letter in order.
+
+Shown as: Your friend, Ngum · Box 214, Bamenda, 12 March · Dear Tabe, · I hope you are well. I am writing to tell you good news. · Write back soon. · Our quarter is now safe because everybody helps.
+Correct order: Box 214, Bamenda, 12 March → Dear Tabe, → I hope you are well. I am writing to tell you good news. → Our quarter is now safe because everybody helps. → Write back soon. → Your friend, Ngum
+
+Full working after a second miss:
+
+> The correct order is: Box 214, Bamenda, 12 March → Dear Tabe, → I hope you are well. I am writing to tell you good news. → Our quarter is now safe because everybody helps. → Write back soon. → Your friend, Ngum.  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-37-right` · Lesson 37 · multiple choice, level 1
+
+Prompt: Is this a right or a duty? “{X.q}”
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| to go to school | a right | a duty · a crime · a punishment | It is something every child should have. · It is not a crime. · It is not a punishment. | Education is a right of every child. |
+| to respect your teachers | a duty | a right · a crime · a law court | It is something children must do. · It is not a crime. · It is not a place. | Respect is a duty. |
+| to be protected from violence | a right | a duty · a crime · a punishment | Children should have this. · It is not a crime. · It is not a punishment. | Protection is a right. |
+| to protect the environment | a duty | a right · a crime · a punishment | It is something we must do. · It is not a crime. · It is not a punishment. | Protecting the environment is a duty. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is this a right or a duty? “to be protected from violence”
+
+- ◻️ a crime  
+  _↳ feedback if chosen: It is not a crime._
+- ◻️ a duty  
+  _↳ feedback if chosen: Children should have this._
+- ✅ a right
+- ◻️ a punishment  
+  _↳ feedback if chosen: It is not a punishment._
+
+Full working after a second miss:
+
+> Protection is a right.  
+> So the answer is “a right”.  
+
+> Is this a right or a duty? “to respect your teachers”
+
+- ◻️ a law court  
+  _↳ feedback if chosen: It is not a place._
+- ✅ a duty
+- ◻️ a crime  
+  _↳ feedback if chosen: It is not a crime._
+- ◻️ a right  
+  _↳ feedback if chosen: It is something children must do._
+
+Full working after a second miss:
+
+> Respect is a duty.  
+> So the answer is “a duty”.  
+
+> Is this a right or a duty? “to go to school”
+
+- ◻️ a duty  
+  _↳ feedback if chosen: It is something every child should have._
+- ◻️ a crime  
+  _↳ feedback if chosen: It is not a crime._
+- ✅ a right
+- ◻️ a punishment  
+  _↳ feedback if chosen: It is not a punishment._
+
+Full working after a second miss:
+
+> Education is a right of every child.  
+> So the answer is “a right”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-37-text` · Lesson 37 · multiple choice, level 1
+
+Prompt: Text “The Children's Parliament”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| who spoke about the right to education? | Ayuk Mary | the Minister · a teacher · a parent | The Minister received the proposals. · The text does not say that. · The text does not say that. | “Junior Parliamentarian Ayuk Mary spoke about the right to education.” |
+| why do some girls stop school? | they must work at home or marry too young | they do not like school · the schools are closed · they are too old | The text does not say that. · The text does not say that. · The text does not say that. | Ayuk Mary gives these two reasons. |
+| what did the children do at the end? | sent their proposals to the Minister | went on holiday · voted for a president · closed the parliament | The text does not say that. · They debated and voted on proposals. · The text does not say that. | “The children sent their proposals to the Minister.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “The Children's Parliament”: who spoke about the right to education?
+
+- ◻️ the Minister  
+  _↳ feedback if chosen: The Minister received the proposals._
+- ◻️ a parent  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ Ayuk Mary
+- ◻️ a teacher  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “Junior Parliamentarian Ayuk Mary spoke about the right to education.”  
+> So the answer is “Ayuk Mary”.  
+
+> Text “The Children's Parliament”: why do some girls stop school?
+
+- ✅ they must work at home or marry too young
+- ◻️ the schools are closed  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ they do not like school  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ they are too old  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> Ayuk Mary gives these two reasons.  
+> So the answer is “they must work at home or marry too young”.  
+
+> Text “The Children's Parliament”: why do some girls stop school?
+
+- ◻️ they are too old  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ the schools are closed  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ they do not like school  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ they must work at home or marry too young
+
+Full working after a second miss:
+
+> Ayuk Mary gives these two reasons.  
+> So the answer is “they must work at home or marry too young”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-37-idea` · Lesson 37 · multiple choice, level 2
+
+Prompt: Text “The Children's Parliament”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the main message? | children have rights, and those rights come with duties | children should not go to school · only adults have rights · girls must marry young | The text defends education. · The text is about children's rights. · The text speaks against early marriage. | Both speeches together give the message. |
+| how is the Children's Parliament like the real parliament? | the members debate and vote | the members are paid · the members are adults · it makes the laws of the country | The text does not say that. · The members are children. · It sends proposals; it does not make laws. | “Like real members of parliament, they debate and vote.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “The Children's Parliament”: how is the Children's Parliament like the real parliament?
+
+- ✅ the members debate and vote
+- ◻️ the members are paid  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ it makes the laws of the country  
+  _↳ feedback if chosen: It sends proposals; it does not make laws._
+- ◻️ the members are adults  
+  _↳ feedback if chosen: The members are children._
+
+Full working after a second miss:
+
+> “Like real members of parliament, they debate and vote.”  
+> So the answer is “the members debate and vote”.  
+
+> Text “The Children's Parliament”: what is the main message?
+
+- ◻️ girls must marry young  
+  _↳ feedback if chosen: The text speaks against early marriage._
+- ◻️ children should not go to school  
+  _↳ feedback if chosen: The text defends education._
+- ◻️ only adults have rights  
+  _↳ feedback if chosen: The text is about children's rights._
+- ✅ children have rights, and those rights come with duties
+
+Full working after a second miss:
+
+> Both speeches together give the message.  
+> So the answer is “children have rights, and those rights come with duties”.  
+
+> Text “The Children's Parliament”: how is the Children's Parliament like the real parliament?
+
+- ◻️ the members are paid  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ it makes the laws of the country  
+  _↳ feedback if chosen: It sends proposals; it does not make laws._
+- ✅ the members debate and vote
+- ◻️ the members are adults  
+  _↳ feedback if chosen: The members are children._
+
+Full working after a second miss:
+
+> “Like real members of parliament, they debate and vote.”  
+> So the answer is “the members debate and vote”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-37-spot` · Lesson 37 · spot the error, level 3
+
+Prompt: Text “The Children's Parliament”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The members come from schools all over Cameroon.
+- ✅ Ayuk Mary spoke about education.
+- ✅ Rights come with duties.
+- ✅ The proposals were sent to the Minister.
+- ❌ The Children's Parliament is made of adults.  
+  _↳ Its members are children chosen from schools._
+- ❌ Ayuk Mary said girls should marry young.  
+  _↳ She said marrying too young stops girls' schooling._
+- ❌ The young parliamentarians said children have no duties.  
+  _↳ They listed duties: respect, studying, protecting the environment._
+
+
+Three generated variants:
+
+> Text “The Children's Parliament”. Which statement is wrong?
+
+- ✅ The Children's Parliament is made of adults.  
+  _↳ explanation: Its members are children chosen from schools._
+- ◻️ The members come from schools all over Cameroon.
+- ◻️ The proposals were sent to the Minister.
+- ◻️ Rights come with duties.
+
+Full working after a second miss:
+
+> The wrong statement is “The Children's Parliament is made of adults.”.  
+> Its members are children chosen from schools.  
+
+> Text “The Children's Parliament”. Which statement is wrong?
+
+- ◻️ The members come from schools all over Cameroon.
+- ◻️ Ayuk Mary spoke about education.
+- ✅ Ayuk Mary said girls should marry young.  
+  _↳ explanation: She said marrying too young stops girls' schooling._
+- ◻️ Rights come with duties.
+
+Full working after a second miss:
+
+> The wrong statement is “Ayuk Mary said girls should marry young.”.  
+> She said marrying too young stops girls' schooling.  
+
+> Text “The Children's Parliament”. Which statement is wrong?
+
+- ◻️ Rights come with duties.
+- ◻️ The members come from schools all over Cameroon.
+- ◻️ The proposals were sent to the Minister.
+- ✅ The Children's Parliament is made of adults.  
+  _↳ explanation: Its members are children chosen from schools._
+
+Full working after a second miss:
+
+> The wrong statement is “The Children's Parliament is made of adults.”.  
+> Its members are children chosen from schools.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-37-idea-card` · Lesson 37 · multiple choice, level 1
+
+Prompt: Text “The Children's Parliament”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the main message? | children have rights, and those rights come with duties | children should not go to school · only adults have rights · girls must marry young | The text defends education. · The text is about children's rights. · The text speaks against early marriage. | Both speeches together give the message. |
+| how is the Children's Parliament like the real parliament? | the members debate and vote | the members are paid · the members are adults · it makes the laws of the country | The text does not say that. · The members are children. · It sends proposals; it does not make laws. | “Like real members of parliament, they debate and vote.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “The Children's Parliament”: how is the Children's Parliament like the real parliament?
+
+- ✅ the members debate and vote
+- ◻️ it makes the laws of the country  
+  _↳ feedback if chosen: It sends proposals; it does not make laws._
+- ◻️ the members are paid  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ the members are adults  
+  _↳ feedback if chosen: The members are children._
+
+Full working after a second miss:
+
+> “Like real members of parliament, they debate and vote.”  
+> So the answer is “the members debate and vote”.  
+
+> Text “The Children's Parliament”: how is the Children's Parliament like the real parliament?
+
+- ✅ the members debate and vote
+- ◻️ it makes the laws of the country  
+  _↳ feedback if chosen: It sends proposals; it does not make laws._
+- ◻️ the members are paid  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ the members are adults  
+  _↳ feedback if chosen: The members are children._
+
+Full working after a second miss:
+
+> “Like real members of parliament, they debate and vote.”  
+> So the answer is “the members debate and vote”.  
+
+> Text “The Children's Parliament”: what is the main message?
+
+- ◻️ children should not go to school  
+  _↳ feedback if chosen: The text defends education._
+- ◻️ only adults have rights  
+  _↳ feedback if chosen: The text is about children's rights._
+- ◻️ girls must marry young  
+  _↳ feedback if chosen: The text speaks against early marriage._
+- ✅ children have rights, and those rights come with duties
+
+Full working after a second miss:
+
+> Both speeches together give the message.  
+> So the answer is “children have rights, and those rights come with duties”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-39-mean` · Lesson 39 · multiple choice, level 1
+
+Prompt: What does “{X.a}” stand for?
+
+Table `X` (one row is picked each time):
+
+| a | r | w | e | y |
+|---|---|---|---|---|
+| UN | United Nations | World Health Organization · United Nations Children's Fund · non-governmental organisation | That is another abbreviation's meaning. · That is another abbreviation's meaning. · That is another abbreviation's meaning. | UN stands for United Nations. |
+| WHO | World Health Organization | United Nations · United Nations Children's Fund · non-governmental organisation | That is another abbreviation's meaning. · That is another abbreviation's meaning. · That is another abbreviation's meaning. | WHO stands for World Health Organization. |
+| UNICEF | United Nations Children's Fund | United Nations · World Health Organization · non-governmental organisation | That is another abbreviation's meaning. · That is another abbreviation's meaning. · That is another abbreviation's meaning. | UNICEF stands for United Nations Children's Fund. |
+| NGO | non-governmental organisation | United Nations · World Health Organization · United Nations Children's Fund | That is another abbreviation's meaning. · That is another abbreviation's meaning. · That is another abbreviation's meaning. | NGO stands for non-governmental organisation. |
+| Dr | Doctor | United Nations · World Health Organization · United Nations Children's Fund | That is another abbreviation's meaning. · That is another abbreviation's meaning. · That is another abbreviation's meaning. | Dr stands for Doctor. |
+| Mr | Mister | United Nations · World Health Organization · United Nations Children's Fund | That is another abbreviation's meaning. · That is another abbreviation's meaning. · That is another abbreviation's meaning. | Mr stands for Mister. |
+| e.g. | for example | United Nations · World Health Organization · United Nations Children's Fund | That is another abbreviation's meaning. · That is another abbreviation's meaning. · That is another abbreviation's meaning. | e.g. stands for for example. |
+| i.e. | that is | United Nations · World Health Organization · United Nations Children's Fund | That is another abbreviation's meaning. · That is another abbreviation's meaning. · That is another abbreviation's meaning. | i.e. stands for that is. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does “Mr” stand for?
+
+- ◻️ United Nations  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+- ◻️ United Nations Children's Fund  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+- ✅ Mister
+- ◻️ World Health Organization  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+
+Full working after a second miss:
+
+> Mr stands for Mister.  
+> So the answer is “Mister”.  
+
+> What does “NGO” stand for?
+
+- ✅ non-governmental organisation
+- ◻️ United Nations Children's Fund  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+- ◻️ United Nations  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+- ◻️ World Health Organization  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+
+Full working after a second miss:
+
+> NGO stands for non-governmental organisation.  
+> So the answer is “non-governmental organisation”.  
+
+> What does “WHO” stand for?
+
+- ✅ World Health Organization
+- ◻️ United Nations Children's Fund  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+- ◻️ United Nations  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+- ◻️ non-governmental organisation  
+  _↳ feedback if chosen: That is another abbreviation's meaning._
+
+Full working after a second miss:
+
+> WHO stands for World Health Organization.  
+> So the answer is “World Health Organization”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-39-kind` · Lesson 39 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which is read as one word (an acronym)? | UNICEF | UN · WHO · NGO | We say U-N. · We say W-H-O. · We say N-G-O. | We say UNICEF as one word. |
+| Which is read letter by letter? | WHO | UNICEF · AIDS · NATO | UNICEF is read as a word. · AIDS is read as a word. · NATO is read as a word. | We say W-H-O. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is read as one word (an acronym)?
+
+- ◻️ WHO  
+  _↳ feedback if chosen: We say W-H-O._
+- ✅ UNICEF
+- ◻️ NGO  
+  _↳ feedback if chosen: We say N-G-O._
+- ◻️ UN  
+  _↳ feedback if chosen: We say U-N._
+
+Full working after a second miss:
+
+> We say UNICEF as one word.  
+> So the answer is “UNICEF”.  
+
+> Which is read as one word (an acronym)?
+
+- ◻️ NGO  
+  _↳ feedback if chosen: We say N-G-O._
+- ◻️ UN  
+  _↳ feedback if chosen: We say U-N._
+- ◻️ WHO  
+  _↳ feedback if chosen: We say W-H-O._
+- ✅ UNICEF
+
+Full working after a second miss:
+
+> We say UNICEF as one word.  
+> So the answer is “UNICEF”.  
+
+> Which is read as one word (an acronym)?
+
+- ✅ UNICEF
+- ◻️ WHO  
+  _↳ feedback if chosen: We say W-H-O._
+- ◻️ UN  
+  _↳ feedback if chosen: We say U-N._
+- ◻️ NGO  
+  _↳ feedback if chosen: We say N-G-O._
+
+Full working after a second miss:
+
+> We say UNICEF as one word.  
+> So the answer is “UNICEF”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-39-use` · Lesson 39 · fill the blank, level 2
+
+Prompt: Choose the abbreviation that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Buy some fruit, ___ mangoes and oranges. | e.g. | i.e. · etc. | i.e. means “that is”, not “for example”. · etc. goes at the end of a list. |
+| The school is 3 ___ from my house. | km | No. · Dr | No. means number. · Dr means Doctor. |
+| ___ Fon is the doctor at the health centre. | Dr | Mr · No. | She is a doctor: use Dr. · No. means number. |
+| We bought pens, books, rulers, ___ | etc. | e.g. · i.e. | e.g. comes before the examples. · i.e. explains; etc. ends a list. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the abbreviation that fits.
+
+Sentence: **The school is 3 ___ from my house.**
+- ✅ km
+- ◻️ Dr  
+  _↳ feedback if chosen: Dr means Doctor._
+- ◻️ No.  
+  _↳ feedback if chosen: No. means number._
+
+Full working after a second miss:
+
+> The missing word is “km”.  
+> The school is 3 km from my house.  
+
+> Choose the abbreviation that fits.
+
+Sentence: **We bought pens, books, rulers, ___**
+- ◻️ e.g.  
+  _↳ feedback if chosen: e.g. comes before the examples._
+- ✅ etc.
+- ◻️ i.e.  
+  _↳ feedback if chosen: i.e. explains; etc. ends a list._
+
+Full working after a second miss:
+
+> The missing word is “etc.”.  
+> We bought pens, books, rulers, etc.  
+
+> Choose the abbreviation that fits.
+
+Sentence: **The school is 3 ___ from my house.**
+- ✅ km
+- ◻️ No.  
+  _↳ feedback if chosen: No. means number._
+- ◻️ Dr  
+  _↳ feedback if chosen: Dr means Doctor._
+
+Full working after a second miss:
+
+> The missing word is “km”.  
+> The school is 3 km from my house.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-39-spot` · Lesson 39 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ UN stands for United Nations.
+- ✅ e.g. means for example.
+- ✅ UNICEF is read as one word.
+- ✅ km is short for kilometre.
+- ❌ WHO stands for World Hospital Office.  
+  _↳ WHO stands for World Health Organization._
+- ❌ i.e. means and so on.  
+  _↳ i.e. means that is; etc. means and so on._
+- ❌ Mr is used for a woman.  
+  _↳ Mr (Mister) is used for a man._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ Mr is used for a woman.  
+  _↳ explanation: Mr (Mister) is used for a man._
+- ◻️ e.g. means for example.
+- ◻️ UNICEF is read as one word.
+- ◻️ UN stands for United Nations.
+
+Full working after a second miss:
+
+> The wrong statement is “Mr is used for a woman.”.  
+> Mr (Mister) is used for a man.  
+
+> Which statement is wrong?
+
+- ◻️ UNICEF is read as one word.
+- ✅ Mr is used for a woman.  
+  _↳ explanation: Mr (Mister) is used for a man._
+- ◻️ e.g. means for example.
+- ◻️ km is short for kilometre.
+
+Full working after a second miss:
+
+> The wrong statement is “Mr is used for a woman.”.  
+> Mr (Mister) is used for a man.  
+
+> Which statement is wrong?
+
+- ◻️ UNICEF is read as one word.
+- ◻️ UN stands for United Nations.
+- ◻️ e.g. means for example.
+- ✅ Mr is used for a woman.  
+  _↳ explanation: Mr (Mister) is used for a man._
+
+Full working after a second miss:
+
+> The wrong statement is “Mr is used for a woman.”.  
+> Mr (Mister) is used for a man.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-39-use-card` · Lesson 39 · fill the blank, level 1
+
+Prompt: Choose the abbreviation that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Buy some fruit, ___ mangoes and oranges. | e.g. | i.e. · etc. | i.e. means “that is”, not “for example”. · etc. goes at the end of a list. |
+| The school is 3 ___ from my house. | km | No. · Dr | No. means number. · Dr means Doctor. |
+| ___ Fon is the doctor at the health centre. | Dr | Mr · No. | She is a doctor: use Dr. · No. means number. |
+| We bought pens, books, rulers, ___ | etc. | e.g. · i.e. | e.g. comes before the examples. · i.e. explains; etc. ends a list. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the abbreviation that fits.
+
+Sentence: **We bought pens, books, rulers, ___**
+- ◻️ i.e.  
+  _↳ feedback if chosen: i.e. explains; etc. ends a list._
+- ✅ etc.
+- ◻️ e.g.  
+  _↳ feedback if chosen: e.g. comes before the examples._
+
+Full working after a second miss:
+
+> The missing word is “etc.”.  
+> We bought pens, books, rulers, etc.  
+
+> Choose the abbreviation that fits.
+
+Sentence: **___ Fon is the doctor at the health centre.**
+- ✅ Dr
+- ◻️ No.  
+  _↳ feedback if chosen: No. means number._
+- ◻️ Mr  
+  _↳ feedback if chosen: She is a doctor: use Dr._
+
+Full working after a second miss:
+
+> The missing word is “Dr”.  
+> Dr Fon is the doctor at the health centre.  
+
+> Choose the abbreviation that fits.
+
+Sentence: **We bought pens, books, rulers, ___**
+- ◻️ e.g.  
+  _↳ feedback if chosen: e.g. comes before the examples._
+- ◻️ i.e.  
+  _↳ feedback if chosen: i.e. explains; etc. ends a list._
+- ✅ etc.
+
+Full working after a second miss:
+
+> The missing word is “etc.”.  
+> We bought pens, books, rulers, etc.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-40-order` · Lesson 40 · ordering, level 1
+
+Prompt: Put the parts of the text in order.
+
+Items in the right order:
+
+1. The rights and duties of the girl child
+2. Like every child, a girl has rights and duties.
+3. First, a girl has the right to go to school and to be protected.
+4. However, she also has duties: to respect others and to study hard.
+5. In conclusion, rights and duties go together.
+
+
+Three generated variants:
+
+> Put the parts of the text in order.
+
+Shown as: In conclusion, rights and duties go together. · First, a girl has the right to go to school and to be protected. · The rights and duties of the girl child · However, she also has duties: to respect others and to study hard. · Like every child, a girl has rights and duties.
+Correct order: The rights and duties of the girl child → Like every child, a girl has rights and duties. → First, a girl has the right to go to school and to be protected. → However, she also has duties: to respect others and to study hard. → In conclusion, rights and duties go together.
+
+Full working after a second miss:
+
+> The correct order is: The rights and duties of the girl child → Like every child, a girl has rights and duties. → First, a girl has the right to go to school and to be protected. → However, she also has duties: to respect others and to study hard. → In conclusion, rights and duties go together..  
+
+> Put the parts of the text in order.
+
+Shown as: First, a girl has the right to go to school and to be protected. · The rights and duties of the girl child · Like every child, a girl has rights and duties. · In conclusion, rights and duties go together. · However, she also has duties: to respect others and to study hard.
+Correct order: The rights and duties of the girl child → Like every child, a girl has rights and duties. → First, a girl has the right to go to school and to be protected. → However, she also has duties: to respect others and to study hard. → In conclusion, rights and duties go together.
+
+Full working after a second miss:
+
+> The correct order is: The rights and duties of the girl child → Like every child, a girl has rights and duties. → First, a girl has the right to go to school and to be protected. → However, she also has duties: to respect others and to study hard. → In conclusion, rights and duties go together..  
+
+> Put the parts of the text in order.
+
+Shown as: Like every child, a girl has rights and duties. · However, she also has duties: to respect others and to study hard. · The rights and duties of the girl child · First, a girl has the right to go to school and to be protected. · In conclusion, rights and duties go together.
+Correct order: The rights and duties of the girl child → Like every child, a girl has rights and duties. → First, a girl has the right to go to school and to be protected. → However, she also has duties: to respect others and to study hard. → In conclusion, rights and duties go together.
+
+Full working after a second miss:
+
+> The correct order is: The rights and duties of the girl child → Like every child, a girl has rights and duties. → First, a girl has the right to go to school and to be protected. → However, she also has duties: to respect others and to study hard. → In conclusion, rights and duties go together..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-41-steps` · Lesson 41 · ordering, level 1
+
+Prompt: Put the steps of Bih's brother's visit in order.
+
+Items in the right order:
+
+1. The nurse wrote his name in the register.
+2. The nurse in charge examined him.
+3. A laboratory test showed malaria.
+4. His mother paid at the cash desk.
+5. She collected the medicine at the pharmacy.
+
+
+Three generated variants:
+
+> Put the steps of Bih's brother's visit in order.
+
+Shown as: She collected the medicine at the pharmacy. · A laboratory test showed malaria. · His mother paid at the cash desk. · The nurse in charge examined him. · The nurse wrote his name in the register.
+Correct order: The nurse wrote his name in the register. → The nurse in charge examined him. → A laboratory test showed malaria. → His mother paid at the cash desk. → She collected the medicine at the pharmacy.
+
+Full working after a second miss:
+
+> The correct order is: The nurse wrote his name in the register. → The nurse in charge examined him. → A laboratory test showed malaria. → His mother paid at the cash desk. → She collected the medicine at the pharmacy..  
+
+> Put the steps of Bih's brother's visit in order.
+
+Shown as: His mother paid at the cash desk. · A laboratory test showed malaria. · She collected the medicine at the pharmacy. · The nurse wrote his name in the register. · The nurse in charge examined him.
+Correct order: The nurse wrote his name in the register. → The nurse in charge examined him. → A laboratory test showed malaria. → His mother paid at the cash desk. → She collected the medicine at the pharmacy.
+
+Full working after a second miss:
+
+> The correct order is: The nurse wrote his name in the register. → The nurse in charge examined him. → A laboratory test showed malaria. → His mother paid at the cash desk. → She collected the medicine at the pharmacy..  
+
+> Put the steps of Bih's brother's visit in order.
+
+Shown as: The nurse wrote his name in the register. · She collected the medicine at the pharmacy. · A laboratory test showed malaria. · His mother paid at the cash desk. · The nurse in charge examined him.
+Correct order: The nurse wrote his name in the register. → The nurse in charge examined him. → A laboratory test showed malaria. → His mother paid at the cash desk. → She collected the medicine at the pharmacy.
+
+Full working after a second miss:
+
+> The correct order is: The nurse wrote his name in the register. → The nurse in charge examined him. → A laboratory test showed malaria. → His mother paid at the cash desk. → She collected the medicine at the pharmacy..  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-41-text` · Lesson 41 · multiple choice, level 1
+
+Prompt: Text “At the health centre”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what illness did the test show? | malaria | cholera · measles · typhoid | The text says malaria. · The text says malaria. · The text says malaria. | “A quick test in the laboratory showed malaria.” |
+| when are children's vaccinations given free? | every Tuesday | every Sunday · once a year · every day | The poster says Tuesday. · The poster says every Tuesday. · Only on Tuesdays. | The poster says every Tuesday. |
+| what did the nurse advise besides the tablets? | plenty of water and sleeping under a treated mosquito net | eating no food · going to school at once · staying in the sun | The text does not say that. · The text does not say that. · The text does not say that. | The nurse explained the full treatment. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “At the health centre”: what illness did the test show?
+
+- ◻️ typhoid  
+  _↳ feedback if chosen: The text says malaria._
+- ◻️ cholera  
+  _↳ feedback if chosen: The text says malaria._
+- ✅ malaria
+- ◻️ measles  
+  _↳ feedback if chosen: The text says malaria._
+
+Full working after a second miss:
+
+> “A quick test in the laboratory showed malaria.”  
+> So the answer is “malaria”.  
+
+> Text “At the health centre”: what illness did the test show?
+
+- ◻️ typhoid  
+  _↳ feedback if chosen: The text says malaria._
+- ✅ malaria
+- ◻️ measles  
+  _↳ feedback if chosen: The text says malaria._
+- ◻️ cholera  
+  _↳ feedback if chosen: The text says malaria._
+
+Full working after a second miss:
+
+> “A quick test in the laboratory showed malaria.”  
+> So the answer is “malaria”.  
+
+> Text “At the health centre”: when are children's vaccinations given free?
+
+- ✅ every Tuesday
+- ◻️ every Sunday  
+  _↳ feedback if chosen: The poster says Tuesday._
+- ◻️ once a year  
+  _↳ feedback if chosen: The poster says every Tuesday._
+- ◻️ every day  
+  _↳ feedback if chosen: Only on Tuesdays._
+
+Full working after a second miss:
+
+> The poster says every Tuesday.  
+> So the answer is “every Tuesday”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-41-words` · Lesson 41 · matching, level 2
+
+Prompt: Match each place or word to its meaning.
+
+Pairs (4 shown each time):
+
+- the register → **the book where patients' names are written**
+- the laboratory → **the room where tests are done**
+- the pharmacy → **where you collect medicine**
+- a consultation → **when the nurse or doctor examines you**
+- a check-up → **a later visit to see if you are better**
+
+
+Three generated variants:
+
+> Match each place or word to its meaning.
+
+Right-hand side (shuffled): the book where patients' names are written · the room where tests are done · where you collect medicine · when the nurse or doctor examines you
+- a consultation → **when the nurse or doctor examines you**
+- the pharmacy → **where you collect medicine**
+- the register → **the book where patients' names are written**
+- the laboratory → **the room where tests are done**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a consultation → when the nurse or doctor examines you  
+> the pharmacy → where you collect medicine  
+> the register → the book where patients' names are written  
+> the laboratory → the room where tests are done  
+
+> Match each place or word to its meaning.
+
+Right-hand side (shuffled): when the nurse or doctor examines you · the room where tests are done · a later visit to see if you are better · where you collect medicine
+- the laboratory → **the room where tests are done**
+- a consultation → **when the nurse or doctor examines you**
+- a check-up → **a later visit to see if you are better**
+- the pharmacy → **where you collect medicine**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the laboratory → the room where tests are done  
+> a consultation → when the nurse or doctor examines you  
+> a check-up → a later visit to see if you are better  
+> the pharmacy → where you collect medicine  
+
+> Match each place or word to its meaning.
+
+Right-hand side (shuffled): the room where tests are done · a later visit to see if you are better · when the nurse or doctor examines you · where you collect medicine
+- the laboratory → **the room where tests are done**
+- the pharmacy → **where you collect medicine**
+- a consultation → **when the nurse or doctor examines you**
+- a check-up → **a later visit to see if you are better**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the laboratory → the room where tests are done  
+> the pharmacy → where you collect medicine  
+> a consultation → when the nurse or doctor examines you  
+> a check-up → a later visit to see if you are better  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-41-spot` · Lesson 41 · spot the error, level 3
+
+Prompt: Text “At the health centre”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Bih's brother had a high fever.
+- ✅ His temperature and weight were taken.
+- ✅ They booked a check-up.
+- ✅ Vaccinations for children are free on Tuesdays.
+- ❌ The doctor gave the medicine before the test.  
+  _↳ The test came first, then the treatment._
+- ❌ Bih's mother did not pay anything.  
+  _↳ She paid at the cash desk._
+- ❌ The treatment was one tablet only.  
+  _↳ Tablets three times a day for three days._
+
+
+Three generated variants:
+
+> Text “At the health centre”. Which statement is wrong?
+
+- ✅ The treatment was one tablet only.  
+  _↳ explanation: Tablets three times a day for three days._
+- ◻️ Vaccinations for children are free on Tuesdays.
+- ◻️ They booked a check-up.
+- ◻️ His temperature and weight were taken.
+
+Full working after a second miss:
+
+> The wrong statement is “The treatment was one tablet only.”.  
+> Tablets three times a day for three days.  
+
+> Text “At the health centre”. Which statement is wrong?
+
+- ◻️ His temperature and weight were taken.
+- ✅ Bih's mother did not pay anything.  
+  _↳ explanation: She paid at the cash desk._
+- ◻️ Vaccinations for children are free on Tuesdays.
+- ◻️ Bih's brother had a high fever.
+
+Full working after a second miss:
+
+> The wrong statement is “Bih's mother did not pay anything.”.  
+> She paid at the cash desk.  
+
+> Text “At the health centre”. Which statement is wrong?
+
+- ✅ The treatment was one tablet only.  
+  _↳ explanation: Tablets three times a day for three days._
+- ◻️ They booked a check-up.
+- ◻️ Bih's brother had a high fever.
+- ◻️ Vaccinations for children are free on Tuesdays.
+
+Full working after a second miss:
+
+> The wrong statement is “The treatment was one tablet only.”.  
+> Tablets three times a day for three days.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-41-words-card` · Lesson 41 · matching, level 1
+
+Prompt: Match each place or word to its meaning.
+
+Pairs (4 shown each time):
+
+- the register → **the book where patients' names are written**
+- the laboratory → **the room where tests are done**
+- the pharmacy → **where you collect medicine**
+- a consultation → **when the nurse or doctor examines you**
+- a check-up → **a later visit to see if you are better**
+
+
+Three generated variants:
+
+> Match each place or word to its meaning.
+
+Right-hand side (shuffled): where you collect medicine · a later visit to see if you are better · the book where patients' names are written · the room where tests are done
+- the register → **the book where patients' names are written**
+- the laboratory → **the room where tests are done**
+- a check-up → **a later visit to see if you are better**
+- the pharmacy → **where you collect medicine**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the register → the book where patients' names are written  
+> the laboratory → the room where tests are done  
+> a check-up → a later visit to see if you are better  
+> the pharmacy → where you collect medicine  
+
+> Match each place or word to its meaning.
+
+Right-hand side (shuffled): where you collect medicine · the room where tests are done · a later visit to see if you are better · when the nurse or doctor examines you
+- a check-up → **a later visit to see if you are better**
+- the laboratory → **the room where tests are done**
+- the pharmacy → **where you collect medicine**
+- a consultation → **when the nurse or doctor examines you**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a check-up → a later visit to see if you are better  
+> the laboratory → the room where tests are done  
+> the pharmacy → where you collect medicine  
+> a consultation → when the nurse or doctor examines you  
+
+> Match each place or word to its meaning.
+
+Right-hand side (shuffled): where you collect medicine · a later visit to see if you are better · the book where patients' names are written · the room where tests are done
+- the register → **the book where patients' names are written**
+- the pharmacy → **where you collect medicine**
+- the laboratory → **the room where tests are done**
+- a check-up → **a later visit to see if you are better**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the register → the book where patients' names are written  
+> the pharmacy → where you collect medicine  
+> the laboratory → the room where tests are done  
+> a check-up → a later visit to see if you are better  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-42-pre` · Lesson 42 · multiple choice, level 1
+
+Prompt: Which word means “not {X.b}”?
+
+Table `X` (one row is picked each time):
+
+| b | r | w | e | y |
+|---|---|---|---|---|
+| happy | unhappy | dishonest · impossible · incorrect | That word comes from another root. · That word comes from another root. · That word comes from another root. | un- + happy = unhappy. |
+| honest | dishonest | unhappy · impossible · incorrect | That word comes from another root. · That word comes from another root. · That word comes from another root. | dis- + honest = dishonest. |
+| possible | impossible | unhappy · dishonest · incorrect | That word comes from another root. · That word comes from another root. · That word comes from another root. | im- + possible = impossible. |
+| correct | incorrect | unhappy · dishonest · impossible | That word comes from another root. · That word comes from another root. · That word comes from another root. | in- + correct = incorrect. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which word means “not correct”?
+
+- ◻️ dishonest  
+  _↳ feedback if chosen: That word comes from another root._
+- ◻️ impossible  
+  _↳ feedback if chosen: That word comes from another root._
+- ◻️ unhappy  
+  _↳ feedback if chosen: That word comes from another root._
+- ✅ incorrect
+
+Full working after a second miss:
+
+> in- + correct = incorrect.  
+> So the answer is “incorrect”.  
+
+> Which word means “not correct”?
+
+- ◻️ unhappy  
+  _↳ feedback if chosen: That word comes from another root._
+- ◻️ impossible  
+  _↳ feedback if chosen: That word comes from another root._
+- ✅ incorrect
+- ◻️ dishonest  
+  _↳ feedback if chosen: That word comes from another root._
+
+Full working after a second miss:
+
+> in- + correct = incorrect.  
+> So the answer is “incorrect”.  
+
+> Which word means “not happy”?
+
+- ◻️ impossible  
+  _↳ feedback if chosen: That word comes from another root._
+- ◻️ incorrect  
+  _↳ feedback if chosen: That word comes from another root._
+- ✅ unhappy
+- ◻️ dishonest  
+  _↳ feedback if chosen: That word comes from another root._
+
+Full working after a second miss:
+
+> un- + happy = unhappy.  
+> So the answer is “unhappy”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-42-suf` · Lesson 42 · multiple choice, level 1
+
+Prompt: Add a suffix to “{X.b}” to make the word that fits: {X.q}
+
+Table `X` (one row is picked each time):
+
+| b | q | r | w | e | y |
+|---|---|---|---|---|---|
+| care | a person who is full of care is … | careful | careless · caring · careness | Check the meaning of the suffix. · Check the meaning of the suffix. · Check the meaning of the suffix. | care + -ful = careful. |
+| hope | a person without hope feels … | hopeless | hopeful · hoping · hopement | Check the meaning of the suffix. · Check the meaning of the suffix. · Check the meaning of the suffix. | hope + -less = hopeless. |
+| treat | the nurse gives the patient a … | treatment | treatful · treatless · treater | Check the meaning of the suffix. · Check the meaning of the suffix. · Check the meaning of the suffix. | treat + -ment = treatment. |
+| ill | malaria is an … | illness | illful · illment · iller | Check the meaning of the suffix. · Check the meaning of the suffix. · Check the meaning of the suffix. | ill + -ness = illness. |
+| teach | a person who teaches is a … | teacher | teachment · teachness · teachist | Check the meaning of the suffix. · Check the meaning of the suffix. · Check the meaning of the suffix. | teach + -er = teacher. |
+| science | a person who studies science is a … | scientist | sciencer · scienceful · scienceness | Check the meaning of the suffix. · Check the meaning of the suffix. · Check the meaning of the suffix. | science + -ist = scientist. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Add a suffix to “teach” to make the word that fits: a person who teaches is a …
+
+- ✅ teacher
+- ◻️ teachist  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+- ◻️ teachness  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+- ◻️ teachment  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+
+Full working after a second miss:
+
+> teach + -er = teacher.  
+> So the answer is “teacher”.  
+
+> Add a suffix to “ill” to make the word that fits: malaria is an …
+
+- ◻️ illment  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+- ◻️ illful  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+- ◻️ iller  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+- ✅ illness
+
+Full working after a second miss:
+
+> ill + -ness = illness.  
+> So the answer is “illness”.  
+
+> Add a suffix to “hope” to make the word that fits: a person without hope feels …
+
+- ◻️ hopement  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+- ◻️ hopeful  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+- ◻️ hoping  
+  _↳ feedback if chosen: Check the meaning of the suffix._
+- ✅ hopeless
+
+Full working after a second miss:
+
+> hope + -less = hopeless.  
+> So the answer is “hopeless”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-42-ful` · Lesson 42 · fill the blank, level 2
+
+Prompt: Choose the word that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The injection was quick and ___: I felt nothing. | painless | painful · painment | Painful means it hurt; you felt nothing. · That is not a word. |
+| Be ___ when you cross the road. | careful | careless · carement | Careless means without care: dangerous. · That is not a word. |
+| Eating too much sugar is ___. | unhealthy | healthful · healthless | The meaning is “not healthy”. · That is not the usual word. |
+| I cannot read this. Please ___ your name more clearly. | rewrite | unwrite · miswrite | Re- means again: write it again. · Mis- means wrongly; you want it written again. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the word that fits.
+
+Sentence: **I cannot read this. Please ___ your name more clearly.**
+- ✅ rewrite
+- ◻️ unwrite  
+  _↳ feedback if chosen: Re- means again: write it again._
+- ◻️ miswrite  
+  _↳ feedback if chosen: Mis- means wrongly; you want it written again._
+
+Full working after a second miss:
+
+> The missing word is “rewrite”.  
+> I cannot read this. Please rewrite your name more clearly.  
+
+> Choose the word that fits.
+
+Sentence: **The injection was quick and ___: I felt nothing.**
+- ◻️ painful  
+  _↳ feedback if chosen: Painful means it hurt; you felt nothing._
+- ◻️ painment  
+  _↳ feedback if chosen: That is not a word._
+- ✅ painless
+
+Full working after a second miss:
+
+> The missing word is “painless”.  
+> The injection was quick and painless: I felt nothing.  
+
+> Choose the word that fits.
+
+Sentence: **Be ___ when you cross the road.**
+- ✅ careful
+- ◻️ careless  
+  _↳ feedback if chosen: Careless means without care: dangerous._
+- ◻️ carement  
+  _↳ feedback if chosen: That is not a word._
+
+Full working after a second miss:
+
+> The missing word is “careful”.  
+> Be careful when you cross the road.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-42-spot` · Lesson 42 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ un- in unhappy means not.
+- ✅ -less in hopeless means without.
+- ✅ re- in rewrite means again.
+- ✅ -er in teacher shows a person.
+- ❌ -ful in careful means without.  
+  _↳ -ful means full of; -less means without._
+- ❌ A prefix is added at the end of a word.  
+  _↳ A prefix goes at the beginning._
+- ❌ mis- in misunderstand means again.  
+  _↳ mis- means wrongly; re- means again._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ -er in teacher shows a person.
+- ✅ -ful in careful means without.  
+  _↳ explanation: -ful means full of; -less means without._
+- ◻️ un- in unhappy means not.
+- ◻️ re- in rewrite means again.
+
+Full working after a second miss:
+
+> The wrong statement is “-ful in careful means without.”.  
+> -ful means full of; -less means without.  
+
+> Which statement is wrong?
+
+- ✅ A prefix is added at the end of a word.  
+  _↳ explanation: A prefix goes at the beginning._
+- ◻️ re- in rewrite means again.
+- ◻️ un- in unhappy means not.
+- ◻️ -er in teacher shows a person.
+
+Full working after a second miss:
+
+> The wrong statement is “A prefix is added at the end of a word.”.  
+> A prefix goes at the beginning.  
+
+> Which statement is wrong?
+
+- ◻️ -less in hopeless means without.
+- ◻️ re- in rewrite means again.
+- ◻️ -er in teacher shows a person.
+- ✅ mis- in misunderstand means again.  
+  _↳ explanation: mis- means wrongly; re- means again._
+
+Full working after a second miss:
+
+> The wrong statement is “mis- in misunderstand means again.”.  
+> mis- means wrongly; re- means again.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-42-ful-card` · Lesson 42 · fill the blank, level 1
+
+Prompt: Choose the word that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The injection was quick and ___: I felt nothing. | painless | painful · painment | Painful means it hurt; you felt nothing. · That is not a word. |
+| Be ___ when you cross the road. | careful | careless · carement | Careless means without care: dangerous. · That is not a word. |
+| Eating too much sugar is ___. | unhealthy | healthful · healthless | The meaning is “not healthy”. · That is not the usual word. |
+| I cannot read this. Please ___ your name more clearly. | rewrite | unwrite · miswrite | Re- means again: write it again. · Mis- means wrongly; you want it written again. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the word that fits.
+
+Sentence: **I cannot read this. Please ___ your name more clearly.**
+- ◻️ unwrite  
+  _↳ feedback if chosen: Re- means again: write it again._
+- ✅ rewrite
+- ◻️ miswrite  
+  _↳ feedback if chosen: Mis- means wrongly; you want it written again._
+
+Full working after a second miss:
+
+> The missing word is “rewrite”.  
+> I cannot read this. Please rewrite your name more clearly.  
+
+> Choose the word that fits.
+
+Sentence: **Eating too much sugar is ___.**
+- ◻️ healthless  
+  _↳ feedback if chosen: That is not the usual word._
+- ◻️ healthful  
+  _↳ feedback if chosen: The meaning is “not healthy”._
+- ✅ unhealthy
+
+Full working after a second miss:
+
+> The missing word is “unhealthy”.  
+> Eating too much sugar is unhealthy.  
+
+> Choose the word that fits.
+
+Sentence: **Be ___ when you cross the road.**
+- ◻️ carement  
+  _↳ feedback if chosen: That is not a word._
+- ◻️ careless  
+  _↳ feedback if chosen: Careless means without care: dangerous._
+- ✅ careful
+
+Full working after a second miss:
+
+> The missing word is “careful”.  
+> Be careful when you cross the road.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-43-form` · Lesson 43 · fill the blank, level 1
+
+Prompt: Choose the correct imperative.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___ your hands before eating. | Wash | Washes · Washing | The imperative uses the bare verb. · The imperative uses the bare verb. |
+| ___ two tablets after meals. | Take | Takes · To take | No -s in the imperative. · No “to” in the imperative. |
+| ___ under a treated mosquito net. | Sleep | Slept · Sleeps | The imperative is not in the past. · No -s in the imperative. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct imperative.
+
+Sentence: **___ your hands before eating.**
+- ◻️ Washes  
+  _↳ feedback if chosen: The imperative uses the bare verb._
+- ✅ Wash
+- ◻️ Washing  
+  _↳ feedback if chosen: The imperative uses the bare verb._
+
+Full working after a second miss:
+
+> The missing word is “Wash”.  
+> Wash your hands before eating.  
+
+> Choose the correct imperative.
+
+Sentence: **___ two tablets after meals.**
+- ◻️ Takes  
+  _↳ feedback if chosen: No -s in the imperative._
+- ◻️ To take  
+  _↳ feedback if chosen: No “to” in the imperative._
+- ✅ Take
+
+Full working after a second miss:
+
+> The missing word is “Take”.  
+> Take two tablets after meals.  
+
+> Choose the correct imperative.
+
+Sentence: **___ your hands before eating.**
+- ◻️ Washing  
+  _↳ feedback if chosen: The imperative uses the bare verb._
+- ◻️ Washes  
+  _↳ feedback if chosen: The imperative uses the bare verb._
+- ✅ Wash
+
+Full working after a second miss:
+
+> The missing word is “Wash”.  
+> Wash your hands before eating.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-43-neg` · Lesson 43 · fill the blank, level 1
+
+Prompt: Choose the correct negative imperative.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___ drink water from the stream. | Don't | Doesn't · Not | The imperative uses Don't for everybody. · Use Don't + verb. |
+| ___ leave medicine where children can reach it. | Don't | Didn't · No | Imperatives are about now and later, not the past. · Use Don't + verb. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct negative imperative.
+
+Sentence: **___ leave medicine where children can reach it.**
+- ◻️ No  
+  _↳ feedback if chosen: Use Don't + verb._
+- ◻️ Didn't  
+  _↳ feedback if chosen: Imperatives are about now and later, not the past._
+- ✅ Don't
+
+Full working after a second miss:
+
+> The missing word is “Don't”.  
+> Don't leave medicine where children can reach it.  
+
+> Choose the correct negative imperative.
+
+Sentence: **___ drink water from the stream.**
+- ◻️ Doesn't  
+  _↳ feedback if chosen: The imperative uses Don't for everybody._
+- ◻️ Not  
+  _↳ feedback if chosen: Use Don't + verb._
+- ✅ Don't
+
+Full working after a second miss:
+
+> The missing word is “Don't”.  
+> Don't drink water from the stream.  
+
+> Choose the correct negative imperative.
+
+Sentence: **___ leave medicine where children can reach it.**
+- ◻️ Didn't  
+  _↳ feedback if chosen: Imperatives are about now and later, not the past._
+- ✅ Don't
+- ◻️ No  
+  _↳ feedback if chosen: Use Don't + verb._
+
+Full working after a second miss:
+
+> The missing word is “Don't”.  
+> Don't leave medicine where children can reach it.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-43-wo` · Lesson 43 · word order, level 2
+
+Prompt: Tap the words in the right order.
+
+Table `X` (one row is picked each time):
+
+| a | b |
+|---|---|
+| Keep the medicine in a cool place. | Keep the medicine in a cool place. |
+| Don't share your toothbrush with anybody. | Don't share your toothbrush with anybody. |
+| Please wait for the nurse. | Please wait for the nurse. |
+| Let's visit the health centre tomorrow. | Let's visit the health centre tomorrow. |
+
+Sentence(s): {X.a} (also accepted: {X.b})
+
+
+Three generated variants:
+
+> Tap the words in the right order.
+
+Tiles: a · place · in · the · Keep · cool · medicine (then “.”)
+Answer: **Keep the medicine in a cool place.**
+
+Full working after a second miss:
+
+> The sentence is: Keep the medicine in a cool place.  
+
+> Tap the words in the right order.
+
+Tiles: for · the · wait · Please · nurse (then “.”)
+Answer: **Please wait for the nurse.**
+
+Full working after a second miss:
+
+> The sentence is: Please wait for the nurse.  
+
+> Tap the words in the right order.
+
+Tiles: the · nurse · wait · for · Please (then “.”)
+Answer: **Please wait for the nurse.**
+
+Full working after a second miss:
+
+> The sentence is: Please wait for the nurse.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-43-spot` · Lesson 43 · spot the error, level 3
+
+Prompt: Which imperative has a mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Shake the bottle before use.
+- ✅ Don't touch the wound.
+- ✅ Please sit down.
+- ✅ Let's go to the clinic.
+- ❌ Washes your hands with soap.  
+  _↳ The imperative uses the bare verb: Wash._
+- ❌ Doesn't eat food from the floor.  
+  _↳ Use Don't: Don't eat._
+- ❌ To drink plenty of water.  
+  _↳ No “to”: Drink plenty of water._
+
+
+Three generated variants:
+
+> Which imperative has a mistake?
+
+- ◻️ Don't touch the wound.
+- ◻️ Please sit down.
+- ✅ Doesn't eat food from the floor.  
+  _↳ explanation: Use Don't: Don't eat._
+- ◻️ Let's go to the clinic.
+
+Full working after a second miss:
+
+> The wrong statement is “Doesn't eat food from the floor.”.  
+> Use Don't: Don't eat.  
+
+> Which imperative has a mistake?
+
+- ◻️ Don't touch the wound.
+- ◻️ Let's go to the clinic.
+- ✅ Doesn't eat food from the floor.  
+  _↳ explanation: Use Don't: Don't eat._
+- ◻️ Please sit down.
+
+Full working after a second miss:
+
+> The wrong statement is “Doesn't eat food from the floor.”.  
+> Use Don't: Don't eat.  
+
+> Which imperative has a mistake?
+
+- ◻️ Please sit down.
+- ✅ Doesn't eat food from the floor.  
+  _↳ explanation: Use Don't: Don't eat._
+- ◻️ Shake the bottle before use.
+- ◻️ Let's go to the clinic.
+
+Full working after a second miss:
+
+> The wrong statement is “Doesn't eat food from the floor.”.  
+> Use Don't: Don't eat.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-43-wo-card` · Lesson 43 · word order, level 1
+
+Prompt: Tap the words in the right order.
+
+Table `X` (one row is picked each time):
+
+| a | b |
+|---|---|
+| Keep the medicine in a cool place. | Keep the medicine in a cool place. |
+| Don't share your toothbrush with anybody. | Don't share your toothbrush with anybody. |
+| Please wait for the nurse. | Please wait for the nurse. |
+| Let's visit the health centre tomorrow. | Let's visit the health centre tomorrow. |
+
+Sentence(s): {X.a} (also accepted: {X.b})
+
+
+Three generated variants:
+
+> Tap the words in the right order.
+
+Tiles: the · Please · nurse · for · wait (then “.”)
+Answer: **Please wait for the nurse.**
+
+Full working after a second miss:
+
+> The sentence is: Please wait for the nurse.  
+
+> Tap the words in the right order.
+
+Tiles: your · share · toothbrush · with · Don't · anybody (then “.”)
+Answer: **Don't share your toothbrush with anybody.**
+
+Full working after a second miss:
+
+> The sentence is: Don't share your toothbrush with anybody.  
+
+> Tap the words in the right order.
+
+Tiles: medicine · the · in · cool · a · place · Keep (then “.”)
+Answer: **Keep the medicine in a cool place.**
+
+Full working after a second miss:
+
+> The sentence is: Keep the medicine in a cool place.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-44-order` · Lesson 44 · ordering, level 1
+
+Prompt: Put the sentences of the paragraph in order.
+
+Items in the right order:
+
+1. Clean water, healthy life!
+2. Dirty water carries germs that cause cholera and typhoid.
+3. Boil or treat your drinking water and keep it covered.
+4. Drink clean water and protect your family.
+
+
+Three generated variants:
+
+> Put the sentences of the paragraph in order.
+
+Shown as: Clean water, healthy life! · Dirty water carries germs that cause cholera and typhoid. · Drink clean water and protect your family. · Boil or treat your drinking water and keep it covered.
+Correct order: Clean water, healthy life! → Dirty water carries germs that cause cholera and typhoid. → Boil or treat your drinking water and keep it covered. → Drink clean water and protect your family.
+
+Full working after a second miss:
+
+> The correct order is: Clean water, healthy life! → Dirty water carries germs that cause cholera and typhoid. → Boil or treat your drinking water and keep it covered. → Drink clean water and protect your family..  
+
+> Put the sentences of the paragraph in order.
+
+Shown as: Boil or treat your drinking water and keep it covered. · Drink clean water and protect your family. · Dirty water carries germs that cause cholera and typhoid. · Clean water, healthy life!
+Correct order: Clean water, healthy life! → Dirty water carries germs that cause cholera and typhoid. → Boil or treat your drinking water and keep it covered. → Drink clean water and protect your family.
+
+Full working after a second miss:
+
+> The correct order is: Clean water, healthy life! → Dirty water carries germs that cause cholera and typhoid. → Boil or treat your drinking water and keep it covered. → Drink clean water and protect your family..  
+
+> Put the sentences of the paragraph in order.
+
+Shown as: Clean water, healthy life! · Drink clean water and protect your family. · Dirty water carries germs that cause cholera and typhoid. · Boil or treat your drinking water and keep it covered.
+Correct order: Clean water, healthy life! → Dirty water carries germs that cause cholera and typhoid. → Boil or treat your drinking water and keep it covered. → Drink clean water and protect your family.
+
+Full working after a second miss:
+
+> The correct order is: Clean water, healthy life! → Dirty water carries germs that cause cholera and typhoid. → Boil or treat your drinking water and keep it covered. → Drink clean water and protect your family..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-45-words` · Lesson 45 · matching, level 1
+
+Prompt: Match each word to its meaning.
+
+Pairs (4 shown each time):
+
+- the sender → **the person who sends a letter or parcel**
+- the addressee → **the person a letter is sent to**
+- a stamp → **a small paper you stick on a letter to pay for sending it**
+- a receipt → **a paper that shows you have paid**
+- to deliver → **to take a letter or parcel to the addressee**
+
+
+Three generated variants:
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a small paper you stick on a letter to pay for sending it · to take a letter or parcel to the addressee · the person a letter is sent to · a paper that shows you have paid
+- the addressee → **the person a letter is sent to**
+- to deliver → **to take a letter or parcel to the addressee**
+- a receipt → **a paper that shows you have paid**
+- a stamp → **a small paper you stick on a letter to pay for sending it**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> the addressee → the person a letter is sent to  
+> to deliver → to take a letter or parcel to the addressee  
+> a receipt → a paper that shows you have paid  
+> a stamp → a small paper you stick on a letter to pay for sending it  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): to take a letter or parcel to the addressee · a paper that shows you have paid · a small paper you stick on a letter to pay for sending it · the person who sends a letter or parcel
+- to deliver → **to take a letter or parcel to the addressee**
+- a receipt → **a paper that shows you have paid**
+- the sender → **the person who sends a letter or parcel**
+- a stamp → **a small paper you stick on a letter to pay for sending it**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> to deliver → to take a letter or parcel to the addressee  
+> a receipt → a paper that shows you have paid  
+> the sender → the person who sends a letter or parcel  
+> a stamp → a small paper you stick on a letter to pay for sending it  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a small paper you stick on a letter to pay for sending it · a paper that shows you have paid · to take a letter or parcel to the addressee · the person who sends a letter or parcel
+- a stamp → **a small paper you stick on a letter to pay for sending it**
+- a receipt → **a paper that shows you have paid**
+- the sender → **the person who sends a letter or parcel**
+- to deliver → **to take a letter or parcel to the addressee**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a stamp → a small paper you stick on a letter to pay for sending it  
+> a receipt → a paper that shows you have paid  
+> the sender → the person who sends a letter or parcel  
+> to deliver → to take a letter or parcel to the addressee  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-45-text` · Lesson 45 · multiple choice, level 1
+
+Prompt: Text “A parcel for Grandma”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what did the clerk do first? | weighed the parcel | delivered the parcel · wrote the address · phoned Grandma | Delivery came later. · Nkeng wrote the address. · Grandma phoned later. | “the clerk weighed the parcel and told her the price.” |
+| what did Nkeng receive after paying? | a receipt with a tracking number | a new parcel · a P.O. Box · a letter from Grandma | The text does not say that. · The text does not say that. · Grandma phoned. | She received a receipt with a tracking number. |
+| who is the addressee of the parcel? | Nkeng's grandmother | Nkeng · the clerk · the postman | Nkeng is the sender. · The clerk works at the counter. · The postman delivers. | The parcel was for Grandma in Kumbo. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A parcel for Grandma”: who is the addressee of the parcel?
+
+- ◻️ the clerk  
+  _↳ feedback if chosen: The clerk works at the counter._
+- ✅ Nkeng's grandmother
+- ◻️ Nkeng  
+  _↳ feedback if chosen: Nkeng is the sender._
+- ◻️ the postman  
+  _↳ feedback if chosen: The postman delivers._
+
+Full working after a second miss:
+
+> The parcel was for Grandma in Kumbo.  
+> So the answer is “Nkeng's grandmother”.  
+
+> Text “A parcel for Grandma”: what did Nkeng receive after paying?
+
+- ◻️ a P.O. Box  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ a letter from Grandma  
+  _↳ feedback if chosen: Grandma phoned._
+- ◻️ a new parcel  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ a receipt with a tracking number
+
+Full working after a second miss:
+
+> She received a receipt with a tracking number.  
+> So the answer is “a receipt with a tracking number”.  
+
+> Text “A parcel for Grandma”: what did Nkeng receive after paying?
+
+- ◻️ a P.O. Box  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ a new parcel  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ a receipt with a tracking number
+- ◻️ a letter from Grandma  
+  _↳ feedback if chosen: Grandma phoned._
+
+Full working after a second miss:
+
+> She received a receipt with a tracking number.  
+> So the answer is “a receipt with a tracking number”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-45-idea` · Lesson 45 · multiple choice, level 2
+
+Prompt: Text “A parcel for Grandma”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the difference between express mail and ordinary mail? | express mail is faster but costs more | express mail is cheaper · ordinary mail is faster · there is no difference | It costs more. · Express is faster. · The clerk explained a difference. | The clerk explained it. |
+| why is a tracking number useful? | it lets you follow where the parcel is | it makes the parcel lighter · it replaces the address · it pays for the parcel | It does not change the weight. · You still need the address. · You pay at the counter. | You can check the parcel's journey with it. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A parcel for Grandma”: what is the difference between express mail and ordinary mail?
+
+- ◻️ there is no difference  
+  _↳ feedback if chosen: The clerk explained a difference._
+- ✅ express mail is faster but costs more
+- ◻️ express mail is cheaper  
+  _↳ feedback if chosen: It costs more._
+- ◻️ ordinary mail is faster  
+  _↳ feedback if chosen: Express is faster._
+
+Full working after a second miss:
+
+> The clerk explained it.  
+> So the answer is “express mail is faster but costs more”.  
+
+> Text “A parcel for Grandma”: why is a tracking number useful?
+
+- ◻️ it pays for the parcel  
+  _↳ feedback if chosen: You pay at the counter._
+- ✅ it lets you follow where the parcel is
+- ◻️ it replaces the address  
+  _↳ feedback if chosen: You still need the address._
+- ◻️ it makes the parcel lighter  
+  _↳ feedback if chosen: It does not change the weight._
+
+Full working after a second miss:
+
+> You can check the parcel's journey with it.  
+> So the answer is “it lets you follow where the parcel is”.  
+
+> Text “A parcel for Grandma”: why is a tracking number useful?
+
+- ✅ it lets you follow where the parcel is
+- ◻️ it replaces the address  
+  _↳ feedback if chosen: You still need the address._
+- ◻️ it pays for the parcel  
+  _↳ feedback if chosen: You pay at the counter._
+- ◻️ it makes the parcel lighter  
+  _↳ feedback if chosen: It does not change the weight._
+
+Full working after a second miss:
+
+> You can check the parcel's journey with it.  
+> So the answer is “it lets you follow where the parcel is”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-45-spot` · Lesson 45 · spot the error, level 3
+
+Prompt: Text “A parcel for Grandma”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Nkeng sent clothes to Kumbo.
+- ✅ She bought stamps for two letters.
+- ✅ The parcel arrived safely.
+- ✅ She wrote her own address on the back.
+- ❌ Grandma sent the parcel to Nkeng.  
+  _↳ Nkeng sent it to her grandmother._
+- ❌ The clerk said express mail is cheaper.  
+  _↳ He said it is faster but costs more._
+- ❌ The parcel never arrived.  
+  _↳ Grandma phoned: it arrived safely._
+
+
+Three generated variants:
+
+> Text “A parcel for Grandma”. Which statement is wrong?
+
+- ◻️ She wrote her own address on the back.
+- ✅ The clerk said express mail is cheaper.  
+  _↳ explanation: He said it is faster but costs more._
+- ◻️ The parcel arrived safely.
+- ◻️ She bought stamps for two letters.
+
+Full working after a second miss:
+
+> The wrong statement is “The clerk said express mail is cheaper.”.  
+> He said it is faster but costs more.  
+
+> Text “A parcel for Grandma”. Which statement is wrong?
+
+- ◻️ She wrote her own address on the back.
+- ◻️ She bought stamps for two letters.
+- ✅ The clerk said express mail is cheaper.  
+  _↳ explanation: He said it is faster but costs more._
+- ◻️ The parcel arrived safely.
+
+Full working after a second miss:
+
+> The wrong statement is “The clerk said express mail is cheaper.”.  
+> He said it is faster but costs more.  
+
+> Text “A parcel for Grandma”. Which statement is wrong?
+
+- ◻️ She bought stamps for two letters.
+- ✅ The clerk said express mail is cheaper.  
+  _↳ explanation: He said it is faster but costs more._
+- ◻️ She wrote her own address on the back.
+- ◻️ The parcel arrived safely.
+
+Full working after a second miss:
+
+> The wrong statement is “The clerk said express mail is cheaper.”.  
+> He said it is faster but costs more.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-45-idea-card` · Lesson 45 · multiple choice, level 1
+
+Prompt: Text “A parcel for Grandma”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the difference between express mail and ordinary mail? | express mail is faster but costs more | express mail is cheaper · ordinary mail is faster · there is no difference | It costs more. · Express is faster. · The clerk explained a difference. | The clerk explained it. |
+| why is a tracking number useful? | it lets you follow where the parcel is | it makes the parcel lighter · it replaces the address · it pays for the parcel | It does not change the weight. · You still need the address. · You pay at the counter. | You can check the parcel's journey with it. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A parcel for Grandma”: what is the difference between express mail and ordinary mail?
+
+- ◻️ there is no difference  
+  _↳ feedback if chosen: The clerk explained a difference._
+- ✅ express mail is faster but costs more
+- ◻️ ordinary mail is faster  
+  _↳ feedback if chosen: Express is faster._
+- ◻️ express mail is cheaper  
+  _↳ feedback if chosen: It costs more._
+
+Full working after a second miss:
+
+> The clerk explained it.  
+> So the answer is “express mail is faster but costs more”.  
+
+> Text “A parcel for Grandma”: what is the difference between express mail and ordinary mail?
+
+- ✅ express mail is faster but costs more
+- ◻️ express mail is cheaper  
+  _↳ feedback if chosen: It costs more._
+- ◻️ ordinary mail is faster  
+  _↳ feedback if chosen: Express is faster._
+- ◻️ there is no difference  
+  _↳ feedback if chosen: The clerk explained a difference._
+
+Full working after a second miss:
+
+> The clerk explained it.  
+> So the answer is “express mail is faster but costs more”.  
+
+> Text “A parcel for Grandma”: why is a tracking number useful?
+
+- ✅ it lets you follow where the parcel is
+- ◻️ it replaces the address  
+  _↳ feedback if chosen: You still need the address._
+- ◻️ it makes the parcel lighter  
+  _↳ feedback if chosen: It does not change the weight._
+- ◻️ it pays for the parcel  
+  _↳ feedback if chosen: You pay at the counter._
+
+Full working after a second miss:
+
+> You can check the parcel's journey with it.  
+> So the answer is “it lets you follow where the parcel is”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-46-fem` · Lesson 46 · multiple choice, level 1
+
+Prompt: What is the feminine of “{X.m}”?
+
+Table `X` (one row is picked each time):
+
+| m | r | w | e | y |
+|---|---|---|---|---|
+| postman | postwoman | waitress · actress · queen | That is the feminine of another noun. · That is the feminine of another noun. · That is the feminine of another noun. | postman → postwoman. |
+| waiter | waitress | postwoman · actress · queen | That is the feminine of another noun. · That is the feminine of another noun. · That is the feminine of another noun. | waiter → waitress. |
+| actor | actress | postwoman · waitress · queen | That is the feminine of another noun. · That is the feminine of another noun. · That is the feminine of another noun. | actor → actress. |
+| king | queen | postwoman · waitress · actress | That is the feminine of another noun. · That is the feminine of another noun. · That is the feminine of another noun. | king → queen. |
+| uncle | aunt | postwoman · waitress · actress | That is the feminine of another noun. · That is the feminine of another noun. · That is the feminine of another noun. | uncle → aunt. |
+| host | hostess | postwoman · waitress · actress | That is the feminine of another noun. · That is the feminine of another noun. · That is the feminine of another noun. | host → hostess. |
+| headmaster | headmistress | postwoman · waitress · actress | That is the feminine of another noun. · That is the feminine of another noun. · That is the feminine of another noun. | headmaster → headmistress. |
+| bull | cow | postwoman · waitress · actress | That is the feminine of another noun. · That is the feminine of another noun. · That is the feminine of another noun. | bull → cow. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the feminine of “king”?
+
+- ◻️ actress  
+  _↳ feedback if chosen: That is the feminine of another noun._
+- ◻️ postwoman  
+  _↳ feedback if chosen: That is the feminine of another noun._
+- ✅ queen
+- ◻️ waitress  
+  _↳ feedback if chosen: That is the feminine of another noun._
+
+Full working after a second miss:
+
+> king → queen.  
+> So the answer is “queen”.  
+
+> What is the feminine of “uncle”?
+
+- ◻️ postwoman  
+  _↳ feedback if chosen: That is the feminine of another noun._
+- ◻️ actress  
+  _↳ feedback if chosen: That is the feminine of another noun._
+- ✅ aunt
+- ◻️ waitress  
+  _↳ feedback if chosen: That is the feminine of another noun._
+
+Full working after a second miss:
+
+> uncle → aunt.  
+> So the answer is “aunt”.  
+
+> What is the feminine of “headmaster”?
+
+- ◻️ postwoman  
+  _↳ feedback if chosen: That is the feminine of another noun._
+- ✅ headmistress
+- ◻️ waitress  
+  _↳ feedback if chosen: That is the feminine of another noun._
+- ◻️ actress  
+  _↳ feedback if chosen: That is the feminine of another noun._
+
+Full working after a second miss:
+
+> headmaster → headmistress.  
+> So the answer is “headmistress”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-46-kind` · Lesson 46 · multiple choice, level 1
+
+Prompt: What is the gender of “{X.q}”?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| parcel | neuter | masculine · feminine · common | A parcel is a thing. · A parcel is a thing. · Common gender is for people or animals that can be male or female. | Things are neuter. |
+| doctor | common | masculine · feminine · neuter | A doctor can be a woman. · A doctor can be a man. · A doctor is a person. | A doctor can be male or female. |
+| hen | feminine | masculine · neuter · common | A hen is female. · A hen is an animal. · A hen is only female. | A hen is a female chicken. |
+| nephew | masculine | feminine · neuter · common | A nephew is male. · A nephew is a person. · A nephew is only male. | The feminine is niece. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the gender of “doctor”?
+
+- ✅ common
+- ◻️ neuter  
+  _↳ feedback if chosen: A doctor is a person._
+- ◻️ masculine  
+  _↳ feedback if chosen: A doctor can be a woman._
+- ◻️ feminine  
+  _↳ feedback if chosen: A doctor can be a man._
+
+Full working after a second miss:
+
+> A doctor can be male or female.  
+> So the answer is “common”.  
+
+> What is the gender of “hen”?
+
+- ◻️ masculine  
+  _↳ feedback if chosen: A hen is female._
+- ◻️ common  
+  _↳ feedback if chosen: A hen is only female._
+- ◻️ neuter  
+  _↳ feedback if chosen: A hen is an animal._
+- ✅ feminine
+
+Full working after a second miss:
+
+> A hen is a female chicken.  
+> So the answer is “feminine”.  
+
+> What is the gender of “doctor”?
+
+- ◻️ neuter  
+  _↳ feedback if chosen: A doctor is a person._
+- ✅ common
+- ◻️ feminine  
+  _↳ feedback if chosen: A doctor can be a man._
+- ◻️ masculine  
+  _↳ feedback if chosen: A doctor can be a woman._
+
+Full working after a second miss:
+
+> A doctor can be male or female.  
+> So the answer is “common”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-46-ess` · Lesson 46 · fill the blank, level 2
+
+Prompt: Choose the feminine noun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The ___ served us rice and fish. | waitress | waiteress · waitwoman | waiter → waitress (the e is dropped). · We say waitress. |
+| She is a famous ___ in Nollywood films. | actress | actoress · actwoman | actor → actress. · We say actress. |
+| The ___ welcomed the visitors to her house. | hostess | hostwoman · hostess's | host → hostess. · That is a possessive, not the noun. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the feminine noun.
+
+Sentence: **She is a famous ___ in Nollywood films.**
+- ◻️ actwoman  
+  _↳ feedback if chosen: We say actress._
+- ◻️ actoress  
+  _↳ feedback if chosen: actor → actress._
+- ✅ actress
+
+Full working after a second miss:
+
+> The missing word is “actress”.  
+> She is a famous actress in Nollywood films.  
+
+> Choose the feminine noun.
+
+Sentence: **The ___ welcomed the visitors to her house.**
+- ◻️ hostess's  
+  _↳ feedback if chosen: That is a possessive, not the noun._
+- ◻️ hostwoman  
+  _↳ feedback if chosen: host → hostess._
+- ✅ hostess
+
+Full working after a second miss:
+
+> The missing word is “hostess”.  
+> The hostess welcomed the visitors to her house.  
+
+> Choose the feminine noun.
+
+Sentence: **The ___ served us rice and fish.**
+- ✅ waitress
+- ◻️ waiteress  
+  _↳ feedback if chosen: waiter → waitress (the e is dropped)._
+- ◻️ waitwoman  
+  _↳ feedback if chosen: We say waitress._
+
+Full working after a second miss:
+
+> The missing word is “waitress”.  
+> The waitress served us rice and fish.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-46-spot` · Lesson 46 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ “Letter” is neuter.
+- ✅ “Teacher” is common gender.
+- ✅ The feminine of “king” is “queen”.
+- ✅ The feminine of “bull” is “cow”.
+- ❌ The feminine of “uncle” is “niece”.  
+  _↳ The feminine of uncle is aunt; niece goes with nephew._
+- ❌ “Parcel” is feminine.  
+  _↳ A parcel is a thing: neuter._
+- ❌ “Child” is always masculine.  
+  _↳ A child can be a boy or a girl: common gender._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ The feminine of “king” is “queen”.
+- ◻️ “Letter” is neuter.
+- ◻️ The feminine of “bull” is “cow”.
+- ✅ The feminine of “uncle” is “niece”.  
+  _↳ explanation: The feminine of uncle is aunt; niece goes with nephew._
+
+Full working after a second miss:
+
+> The wrong statement is “The feminine of “uncle” is “niece”.”.  
+> The feminine of uncle is aunt; niece goes with nephew.  
+
+> Which statement is wrong?
+
+- ✅ “Parcel” is feminine.  
+  _↳ explanation: A parcel is a thing: neuter._
+- ◻️ The feminine of “king” is “queen”.
+- ◻️ The feminine of “bull” is “cow”.
+- ◻️ “Letter” is neuter.
+
+Full working after a second miss:
+
+> The wrong statement is ““Parcel” is feminine.”.  
+> A parcel is a thing: neuter.  
+
+> Which statement is wrong?
+
+- ◻️ “Letter” is neuter.
+- ✅ The feminine of “uncle” is “niece”.  
+  _↳ explanation: The feminine of uncle is aunt; niece goes with nephew._
+- ◻️ The feminine of “bull” is “cow”.
+- ◻️ “Teacher” is common gender.
+
+Full working after a second miss:
+
+> The wrong statement is “The feminine of “uncle” is “niece”.”.  
+> The feminine of uncle is aunt; niece goes with nephew.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-46-ess-card` · Lesson 46 · fill the blank, level 1
+
+Prompt: Choose the feminine noun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The ___ served us rice and fish. | waitress | waiteress · waitwoman | waiter → waitress (the e is dropped). · We say waitress. |
+| She is a famous ___ in Nollywood films. | actress | actoress · actwoman | actor → actress. · We say actress. |
+| The ___ welcomed the visitors to her house. | hostess | hostwoman · hostess's | host → hostess. · That is a possessive, not the noun. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the feminine noun.
+
+Sentence: **The ___ welcomed the visitors to her house.**
+- ◻️ hostwoman  
+  _↳ feedback if chosen: host → hostess._
+- ◻️ hostess's  
+  _↳ feedback if chosen: That is a possessive, not the noun._
+- ✅ hostess
+
+Full working after a second miss:
+
+> The missing word is “hostess”.  
+> The hostess welcomed the visitors to her house.  
+
+> Choose the feminine noun.
+
+Sentence: **The ___ welcomed the visitors to her house.**
+- ◻️ hostess's  
+  _↳ feedback if chosen: That is a possessive, not the noun._
+- ◻️ hostwoman  
+  _↳ feedback if chosen: host → hostess._
+- ✅ hostess
+
+Full working after a second miss:
+
+> The missing word is “hostess”.  
+> The hostess welcomed the visitors to her house.  
+
+> Choose the feminine noun.
+
+Sentence: **The ___ served us rice and fish.**
+- ◻️ waiteress  
+  _↳ feedback if chosen: waiter → waitress (the e is dropped)._
+- ✅ waitress
+- ◻️ waitwoman  
+  _↳ feedback if chosen: We say waitress._
+
+Full working after a second miss:
+
+> The missing word is “waitress”.  
+> The waitress served us rice and fish.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-47-kind` · Lesson 47 · multiple choice, level 1
+
+Prompt: In “{X.q}”, which word is a proper noun?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Nkeng sent a parcel. | Nkeng | sent · parcel · a | That is a verb. · That is a common noun. · That is an article. | Nkeng is a particular person. |
+| The post office in Limbe opens at eight. | Limbe | post office · opens · eight | That is a common noun. · That is a verb. · That is a number. | Limbe is a particular town. |
+| We visited the bank on Friday. | Friday | bank · visited · We | That is a common noun. · That is a verb. · That is a pronoun. | Days are proper nouns. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In “The post office in Limbe opens at eight.”, which word is a proper noun?
+
+- ✅ Limbe
+- ◻️ eight  
+  _↳ feedback if chosen: That is a number._
+- ◻️ opens  
+  _↳ feedback if chosen: That is a verb._
+- ◻️ post office  
+  _↳ feedback if chosen: That is a common noun._
+
+Full working after a second miss:
+
+> Limbe is a particular town.  
+> So the answer is “Limbe”.  
+
+> In “We visited the bank on Friday.”, which word is a proper noun?
+
+- ◻️ We  
+  _↳ feedback if chosen: That is a pronoun._
+- ◻️ bank  
+  _↳ feedback if chosen: That is a common noun._
+- ✅ Friday
+- ◻️ visited  
+  _↳ feedback if chosen: That is a verb._
+
+Full working after a second miss:
+
+> Days are proper nouns.  
+> So the answer is “Friday”.  
+
+> In “We visited the bank on Friday.”, which word is a proper noun?
+
+- ◻️ We  
+  _↳ feedback if chosen: That is a pronoun._
+- ◻️ visited  
+  _↳ feedback if chosen: That is a verb._
+- ◻️ bank  
+  _↳ feedback if chosen: That is a common noun._
+- ✅ Friday
+
+Full working after a second miss:
+
+> Days are proper nouns.  
+> So the answer is “Friday”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-47-cap` · Lesson 47 · multiple choice, level 1
+
+Prompt: Which sentence is written correctly?
+
+Table `X` (one row is picked each time):
+
+| r | w | e | y |
+|---|---|---|---|
+| My birthday is in March. | My birthday is in march. · my birthday is in March. · My Birthday is in March. | Months are proper nouns: March. · A sentence starts with a capital letter. · Birthday is a common noun: small b. | Capital M for the month, small b for birthday. |
+| The parcel went to Bamenda. | The parcel went to bamenda. · the parcel went to Bamenda. · The Parcel went to Bamenda. | Towns are proper nouns: Bamenda. · A sentence starts with a capital letter. · Parcel is a common noun. | Capital B for the town. |
+| We cross the Sanaga on Monday. | We cross the sanaga on monday. · We cross the Sanaga on monday. · We Cross the Sanaga on Monday. | Rivers and days are proper nouns. · Days are proper nouns: Monday. · Cross is a verb: small c. | Sanaga and Monday are proper nouns. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which sentence is written correctly?
+
+- ✅ We cross the Sanaga on Monday.
+- ◻️ We cross the sanaga on monday.  
+  _↳ feedback if chosen: Rivers and days are proper nouns._
+- ◻️ We cross the Sanaga on monday.  
+  _↳ feedback if chosen: Days are proper nouns: Monday._
+- ◻️ We Cross the Sanaga on Monday.  
+  _↳ feedback if chosen: Cross is a verb: small c._
+
+Full working after a second miss:
+
+> Sanaga and Monday are proper nouns.  
+> So the answer is “We cross the Sanaga on Monday.”.  
+
+> Which sentence is written correctly?
+
+- ◻️ The Parcel went to Bamenda.  
+  _↳ feedback if chosen: Parcel is a common noun._
+- ◻️ The parcel went to bamenda.  
+  _↳ feedback if chosen: Towns are proper nouns: Bamenda._
+- ◻️ the parcel went to Bamenda.  
+  _↳ feedback if chosen: A sentence starts with a capital letter._
+- ✅ The parcel went to Bamenda.
+
+Full working after a second miss:
+
+> Capital B for the town.  
+> So the answer is “The parcel went to Bamenda.”.  
+
+> Which sentence is written correctly?
+
+- ◻️ my birthday is in March.  
+  _↳ feedback if chosen: A sentence starts with a capital letter._
+- ◻️ My Birthday is in March.  
+  _↳ feedback if chosen: Birthday is a common noun: small b._
+- ◻️ My birthday is in march.  
+  _↳ feedback if chosen: Months are proper nouns: March._
+- ✅ My birthday is in March.
+
+Full working after a second miss:
+
+> Capital M for the month, small b for birthday.  
+> So the answer is “My birthday is in March.”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-47-common` · Lesson 47 · multiple choice, level 2
+
+Prompt: Which word is a common noun?
+
+Table `X` (one row is picked each time):
+
+| r | w | e | y |
+|---|---|---|---|
+| envelope | Douala · Monday · Ayuk | A particular town. · A particular day. · A particular person. | Envelope names any envelope. |
+| stamp | Cameroon · June · Ngum | A particular country. · A particular month. · A particular person. | Stamp names any stamp. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which word is a common noun?
+
+- ◻️ Ngum  
+  _↳ feedback if chosen: A particular person._
+- ◻️ June  
+  _↳ feedback if chosen: A particular month._
+- ◻️ Cameroon  
+  _↳ feedback if chosen: A particular country._
+- ✅ stamp
+
+Full working after a second miss:
+
+> Stamp names any stamp.  
+> So the answer is “stamp”.  
+
+> Which word is a common noun?
+
+- ◻️ Douala  
+  _↳ feedback if chosen: A particular town._
+- ✅ envelope
+- ◻️ Monday  
+  _↳ feedback if chosen: A particular day._
+- ◻️ Ayuk  
+  _↳ feedback if chosen: A particular person._
+
+Full working after a second miss:
+
+> Envelope names any envelope.  
+> So the answer is “envelope”.  
+
+> Which word is a common noun?
+
+- ◻️ Douala  
+  _↳ feedback if chosen: A particular town._
+- ✅ envelope
+- ◻️ Monday  
+  _↳ feedback if chosen: A particular day._
+- ◻️ Ayuk  
+  _↳ feedback if chosen: A particular person._
+
+Full working after a second miss:
+
+> Envelope names any envelope.  
+> So the answer is “envelope”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-47-spot` · Lesson 47 · spot the error, level 3
+
+Prompt: Which sentence has a capital-letter mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Nkeng lives in Bafoussam.
+- ✅ The post office closes on Saturday.
+- ✅ We crossed the Wouri bridge.
+- ✅ My uncle is a postman.
+- ❌ We travelled to limbe in july.  
+  _↳ Limbe and July are proper nouns: capital letters._
+- ❌ The Post Office is near the Market.  
+  _↳ post office and market are common nouns here: small letters._
+- ❌ my friend ayuk sent a letter.  
+  _↳ My (start of the sentence) and Ayuk need capitals._
+
+
+Three generated variants:
+
+> Which sentence has a capital-letter mistake?
+
+- ◻️ Nkeng lives in Bafoussam.
+- ◻️ We crossed the Wouri bridge.
+- ✅ my friend ayuk sent a letter.  
+  _↳ explanation: My (start of the sentence) and Ayuk need capitals._
+- ◻️ My uncle is a postman.
+
+Full working after a second miss:
+
+> The wrong statement is “my friend ayuk sent a letter.”.  
+> My (start of the sentence) and Ayuk need capitals.  
+
+> Which sentence has a capital-letter mistake?
+
+- ◻️ Nkeng lives in Bafoussam.
+- ✅ We travelled to limbe in july.  
+  _↳ explanation: Limbe and July are proper nouns: capital letters._
+- ◻️ My uncle is a postman.
+- ◻️ The post office closes on Saturday.
+
+Full working after a second miss:
+
+> The wrong statement is “We travelled to limbe in july.”.  
+> Limbe and July are proper nouns: capital letters.  
+
+> Which sentence has a capital-letter mistake?
+
+- ◻️ We crossed the Wouri bridge.
+- ◻️ My uncle is a postman.
+- ✅ We travelled to limbe in july.  
+  _↳ explanation: Limbe and July are proper nouns: capital letters._
+- ◻️ Nkeng lives in Bafoussam.
+
+Full working after a second miss:
+
+> The wrong statement is “We travelled to limbe in july.”.  
+> Limbe and July are proper nouns: capital letters.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-47-spot-card` · Lesson 47 · spot the error, level 1
+
+Prompt: Which sentence has a capital-letter mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Nkeng lives in Bafoussam.
+- ✅ The post office closes on Saturday.
+- ✅ We crossed the Wouri bridge.
+- ✅ My uncle is a postman.
+- ❌ We travelled to limbe in july.  
+  _↳ Limbe and July are proper nouns: capital letters._
+- ❌ The Post Office is near the Market.  
+  _↳ post office and market are common nouns here: small letters._
+- ❌ my friend ayuk sent a letter.  
+  _↳ My (start of the sentence) and Ayuk need capitals._
+
+
+Three generated variants:
+
+> Which sentence has a capital-letter mistake?
+
+- ◻️ Nkeng lives in Bafoussam.
+- ◻️ We crossed the Wouri bridge.
+- ◻️ The post office closes on Saturday.
+- ✅ The Post Office is near the Market.  
+  _↳ explanation: post office and market are common nouns here: small letters._
+
+Full working after a second miss:
+
+> The wrong statement is “The Post Office is near the Market.”.  
+> post office and market are common nouns here: small letters.  
+
+> Which sentence has a capital-letter mistake?
+
+- ◻️ The post office closes on Saturday.
+- ✅ We travelled to limbe in july.  
+  _↳ explanation: Limbe and July are proper nouns: capital letters._
+- ◻️ We crossed the Wouri bridge.
+- ◻️ Nkeng lives in Bafoussam.
+
+Full working after a second miss:
+
+> The wrong statement is “We travelled to limbe in july.”.  
+> Limbe and July are proper nouns: capital letters.  
+
+> Which sentence has a capital-letter mistake?
+
+- ◻️ My uncle is a postman.
+- ◻️ We crossed the Wouri bridge.
+- ✅ The Post Office is near the Market.  
+  _↳ explanation: post office and market are common nouns here: small letters._
+- ◻️ The post office closes on Saturday.
+
+Full working after a second miss:
+
+> The wrong statement is “The Post Office is near the Market.”.  
+> post office and market are common nouns here: small letters.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-48-order` · Lesson 48 · ordering, level 1
+
+Prompt: Put the parts of the report in order.
+
+Items in the right order:
+
+1. Report on hand washing in our school
+2. To: the Principal; From: the Health Club
+3. This report describes how pupils wash their hands.
+4. We found only two water points and no soap.
+5. We recommend more water points and soap every week.
+
+
+Three generated variants:
+
+> Put the parts of the report in order.
+
+Shown as: To: the Principal; From: the Health Club · This report describes how pupils wash their hands. · Report on hand washing in our school · We recommend more water points and soap every week. · We found only two water points and no soap.
+Correct order: Report on hand washing in our school → To: the Principal; From: the Health Club → This report describes how pupils wash their hands. → We found only two water points and no soap. → We recommend more water points and soap every week.
+
+Full working after a second miss:
+
+> The correct order is: Report on hand washing in our school → To: the Principal; From: the Health Club → This report describes how pupils wash their hands. → We found only two water points and no soap. → We recommend more water points and soap every week..  
+
+> Put the parts of the report in order.
+
+Shown as: Report on hand washing in our school · We recommend more water points and soap every week. · To: the Principal; From: the Health Club · This report describes how pupils wash their hands. · We found only two water points and no soap.
+Correct order: Report on hand washing in our school → To: the Principal; From: the Health Club → This report describes how pupils wash their hands. → We found only two water points and no soap. → We recommend more water points and soap every week.
+
+Full working after a second miss:
+
+> The correct order is: Report on hand washing in our school → To: the Principal; From: the Health Club → This report describes how pupils wash their hands. → We found only two water points and no soap. → We recommend more water points and soap every week..  
+
+> Put the parts of the report in order.
+
+Shown as: To: the Principal; From: the Health Club · Report on hand washing in our school · We found only two water points and no soap. · This report describes how pupils wash their hands. · We recommend more water points and soap every week.
+Correct order: Report on hand washing in our school → To: the Principal; From: the Health Club → This report describes how pupils wash their hands. → We found only two water points and no soap. → We recommend more water points and soap every week.
+
+Full working after a second miss:
+
+> The correct order is: Report on hand washing in our school → To: the Principal; From: the Health Club → This report describes how pupils wash their hands. → We found only two water points and no soap. → We recommend more water points and soap every week..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-49-words` · Lesson 49 · matching, level 1
+
+Prompt: Match each banking word to its meaning.
+
+Pairs (4 shown each time):
+
+- to deposit → **to put money into an account**
+- to withdraw → **to take money out of an account**
+- a loan → **money borrowed that must be paid back**
+- interest → **extra money paid on savings or loans**
+- a transfer → **sending money from one account to another**
+
+
+Three generated variants:
+
+> Match each banking word to its meaning.
+
+Right-hand side (shuffled): money borrowed that must be paid back · extra money paid on savings or loans · to take money out of an account · sending money from one account to another
+- interest → **extra money paid on savings or loans**
+- to withdraw → **to take money out of an account**
+- a loan → **money borrowed that must be paid back**
+- a transfer → **sending money from one account to another**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> interest → extra money paid on savings or loans  
+> to withdraw → to take money out of an account  
+> a loan → money borrowed that must be paid back  
+> a transfer → sending money from one account to another  
+
+> Match each banking word to its meaning.
+
+Right-hand side (shuffled): extra money paid on savings or loans · to put money into an account · money borrowed that must be paid back · to take money out of an account
+- interest → **extra money paid on savings or loans**
+- a loan → **money borrowed that must be paid back**
+- to deposit → **to put money into an account**
+- to withdraw → **to take money out of an account**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> interest → extra money paid on savings or loans  
+> a loan → money borrowed that must be paid back  
+> to deposit → to put money into an account  
+> to withdraw → to take money out of an account  
+
+> Match each banking word to its meaning.
+
+Right-hand side (shuffled): to take money out of an account · money borrowed that must be paid back · to put money into an account · sending money from one account to another
+- a transfer → **sending money from one account to another**
+- to deposit → **to put money into an account**
+- to withdraw → **to take money out of an account**
+- a loan → **money borrowed that must be paid back**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a transfer → sending money from one account to another  
+> to deposit → to put money into an account  
+> to withdraw → to take money out of an account  
+> a loan → money borrowed that must be paid back  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-49-text` · Lesson 49 · multiple choice, level 1
+
+Prompt: Dialogue “Opening an account”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what kind of account does Mr Fonyuy want? | a savings account for his daughter | a loan for himself · a current account for his shop · a mobile money account | He does not ask for a loan. · He wants it for his daughter. · Mobile money is mentioned later. | “I would like to open a savings account for my daughter.” |
+| where can money be withdrawn? | at the counter or at the ATM with a bank card | only at the post office · only in Garoua · nowhere | The text does not say that. · Garoua is about the transfer. · The clerk names two ways. | The clerk explains it. |
+| how can he send money to his brother? | by a transfer between branches or by mobile money | by post only · he cannot · by giving it to the clerk to carry | The text does not say that. · The clerk says “Of course.” · The text does not say that. | Transfers between branches, or mobile money. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dialogue “Opening an account”: what kind of account does Mr Fonyuy want?
+
+- ◻️ a current account for his shop  
+  _↳ feedback if chosen: He wants it for his daughter._
+- ◻️ a loan for himself  
+  _↳ feedback if chosen: He does not ask for a loan._
+- ◻️ a mobile money account  
+  _↳ feedback if chosen: Mobile money is mentioned later._
+- ✅ a savings account for his daughter
+
+Full working after a second miss:
+
+> “I would like to open a savings account for my daughter.”  
+> So the answer is “a savings account for his daughter”.  
+
+> Dialogue “Opening an account”: where can money be withdrawn?
+
+- ◻️ nowhere  
+  _↳ feedback if chosen: The clerk names two ways._
+- ✅ at the counter or at the ATM with a bank card
+- ◻️ only at the post office  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ only in Garoua  
+  _↳ feedback if chosen: Garoua is about the transfer._
+
+Full working after a second miss:
+
+> The clerk explains it.  
+> So the answer is “at the counter or at the ATM with a bank card”.  
+
+> Dialogue “Opening an account”: where can money be withdrawn?
+
+- ✅ at the counter or at the ATM with a bank card
+- ◻️ only in Garoua  
+  _↳ feedback if chosen: Garoua is about the transfer._
+- ◻️ only at the post office  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ nowhere  
+  _↳ feedback if chosen: The clerk names two ways._
+
+Full working after a second miss:
+
+> The clerk explains it.  
+> So the answer is “at the counter or at the ATM with a bank card”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-49-idea` · Lesson 49 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which bank issues the CFA franc in Central Africa? | BEAC, the Bank of Central African States | a microfinance institution · a savings bank · the post office | They give small loans. · It keeps savings. · It is not a bank. | BEAC is the central bank. |
+| Why does a savings account help a family? | the money is kept safe and earns interest | the bank keeps the money for ever · the money cannot be withdrawn · it is free money | You can withdraw it. · You can withdraw it at any time. · It is your own money. | Safe savings that grow a little. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does a savings account help a family?
+
+- ◻️ the money cannot be withdrawn  
+  _↳ feedback if chosen: You can withdraw it at any time._
+- ◻️ it is free money  
+  _↳ feedback if chosen: It is your own money._
+- ✅ the money is kept safe and earns interest
+- ◻️ the bank keeps the money for ever  
+  _↳ feedback if chosen: You can withdraw it._
+
+Full working after a second miss:
+
+> Safe savings that grow a little.  
+> So the answer is “the money is kept safe and earns interest”.  
+
+> Which bank issues the CFA franc in Central Africa?
+
+- ◻️ a microfinance institution  
+  _↳ feedback if chosen: They give small loans._
+- ✅ BEAC, the Bank of Central African States
+- ◻️ a savings bank  
+  _↳ feedback if chosen: It keeps savings._
+- ◻️ the post office  
+  _↳ feedback if chosen: It is not a bank._
+
+Full working after a second miss:
+
+> BEAC is the central bank.  
+> So the answer is “BEAC, the Bank of Central African States”.  
+
+> Why does a savings account help a family?
+
+- ◻️ the bank keeps the money for ever  
+  _↳ feedback if chosen: You can withdraw it._
+- ✅ the money is kept safe and earns interest
+- ◻️ it is free money  
+  _↳ feedback if chosen: It is your own money._
+- ◻️ the money cannot be withdrawn  
+  _↳ feedback if chosen: You can withdraw it at any time._
+
+Full working after a second miss:
+
+> Safe savings that grow a little.  
+> So the answer is “the money is kept safe and earns interest”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-49-spot` · Lesson 49 · spot the error, level 3
+
+Prompt: Dialogue “Opening an account”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Mr Fonyuy wants a savings account.
+- ✅ Two passport photographs are needed.
+- ✅ A savings account earns interest.
+- ✅ Money can be sent to Garoua.
+- ❌ The clerk says savings accounts earn no interest.  
+  _↳ She says they earn a little interest every year._
+- ❌ Mr Fonyuy wants to borrow money.  
+  _↳ He wants to save, not borrow._
+- ❌ You can only withdraw money once a year.  
+  _↳ You can withdraw at any time._
+
+
+Three generated variants:
+
+> Dialogue “Opening an account”. Which statement is wrong?
+
+- ◻️ Mr Fonyuy wants a savings account.
+- ◻️ A savings account earns interest.
+- ✅ Mr Fonyuy wants to borrow money.  
+  _↳ explanation: He wants to save, not borrow._
+- ◻️ Two passport photographs are needed.
+
+Full working after a second miss:
+
+> The wrong statement is “Mr Fonyuy wants to borrow money.”.  
+> He wants to save, not borrow.  
+
+> Dialogue “Opening an account”. Which statement is wrong?
+
+- ◻️ Mr Fonyuy wants a savings account.
+- ◻️ A savings account earns interest.
+- ◻️ Money can be sent to Garoua.
+- ✅ The clerk says savings accounts earn no interest.  
+  _↳ explanation: She says they earn a little interest every year._
+
+Full working after a second miss:
+
+> The wrong statement is “The clerk says savings accounts earn no interest.”.  
+> She says they earn a little interest every year.  
+
+> Dialogue “Opening an account”. Which statement is wrong?
+
+- ✅ The clerk says savings accounts earn no interest.  
+  _↳ explanation: She says they earn a little interest every year._
+- ◻️ Money can be sent to Garoua.
+- ◻️ Mr Fonyuy wants a savings account.
+- ◻️ Two passport photographs are needed.
+
+Full working after a second miss:
+
+> The wrong statement is “The clerk says savings accounts earn no interest.”.  
+> She says they earn a little interest every year.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-49-idea-card` · Lesson 49 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which bank issues the CFA franc in Central Africa? | BEAC, the Bank of Central African States | a microfinance institution · a savings bank · the post office | They give small loans. · It keeps savings. · It is not a bank. | BEAC is the central bank. |
+| Why does a savings account help a family? | the money is kept safe and earns interest | the bank keeps the money for ever · the money cannot be withdrawn · it is free money | You can withdraw it. · You can withdraw it at any time. · It is your own money. | Safe savings that grow a little. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which bank issues the CFA franc in Central Africa?
+
+- ✅ BEAC, the Bank of Central African States
+- ◻️ a microfinance institution  
+  _↳ feedback if chosen: They give small loans._
+- ◻️ the post office  
+  _↳ feedback if chosen: It is not a bank._
+- ◻️ a savings bank  
+  _↳ feedback if chosen: It keeps savings._
+
+Full working after a second miss:
+
+> BEAC is the central bank.  
+> So the answer is “BEAC, the Bank of Central African States”.  
+
+> Which bank issues the CFA franc in Central Africa?
+
+- ◻️ the post office  
+  _↳ feedback if chosen: It is not a bank._
+- ◻️ a microfinance institution  
+  _↳ feedback if chosen: They give small loans._
+- ◻️ a savings bank  
+  _↳ feedback if chosen: It keeps savings._
+- ✅ BEAC, the Bank of Central African States
+
+Full working after a second miss:
+
+> BEAC is the central bank.  
+> So the answer is “BEAC, the Bank of Central African States”.  
+
+> Which bank issues the CFA franc in Central Africa?
+
+- ◻️ the post office  
+  _↳ feedback if chosen: It is not a bank._
+- ◻️ a microfinance institution  
+  _↳ feedback if chosen: They give small loans._
+- ✅ BEAC, the Bank of Central African States
+- ◻️ a savings bank  
+  _↳ feedback if chosen: It keeps savings._
+
+Full working after a second miss:
+
+> BEAC is the central bank.  
+> So the answer is “BEAC, the Bank of Central African States”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-51-kind` · Lesson 51 · multiple choice, level 1
+
+Prompt: Is “{X.q}” countable or uncountable?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| money | uncountable | countable · both · a proper noun | We do not say “two moneys”. · Money has no plural. · It is a common noun. | We count coins or notes, not “moneys”. |
+| coin | countable | uncountable · never plural · a proper noun | One coin, two coins. · It has a plural: coins. · It is a common noun. | One coin, two coins. |
+| advice | uncountable | countable · always plural · a proper noun | We say “a piece of advice”. · It has no plural. · It is a common noun. | We say “some advice”. |
+| account | countable | uncountable · never plural · a proper noun | One account, two accounts. · It has a plural. · It is a common noun. | One account, two accounts. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Is “coin” countable or uncountable?
+
+- ◻️ uncountable  
+  _↳ feedback if chosen: One coin, two coins._
+- ◻️ a proper noun  
+  _↳ feedback if chosen: It is a common noun._
+- ◻️ never plural  
+  _↳ feedback if chosen: It has a plural: coins._
+- ✅ countable
+
+Full working after a second miss:
+
+> One coin, two coins.  
+> So the answer is “countable”.  
+
+> Is “account” countable or uncountable?
+
+- ◻️ never plural  
+  _↳ feedback if chosen: It has a plural._
+- ◻️ a proper noun  
+  _↳ feedback if chosen: It is a common noun._
+- ◻️ uncountable  
+  _↳ feedback if chosen: One account, two accounts._
+- ✅ countable
+
+Full working after a second miss:
+
+> One account, two accounts.  
+> So the answer is “countable”.  
+
+> Is “money” countable or uncountable?
+
+- ✅ uncountable
+- ◻️ a proper noun  
+  _↳ feedback if chosen: It is a common noun._
+- ◻️ both  
+  _↳ feedback if chosen: Money has no plural._
+- ◻️ countable  
+  _↳ feedback if chosen: We do not say “two moneys”._
+
+Full working after a second miss:
+
+> We count coins or notes, not “moneys”.  
+> So the answer is “uncountable”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-51-much` · Lesson 51 · fill the blank, level 1
+
+Prompt: Choose much or many.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| How ___ money did you deposit? | much | many · a few | Money is uncountable: much. · A few goes with countable plurals. |
+| How ___ customers are waiting? | many | much · a little | Customers is a countable plural: many. · A little goes with uncountable nouns. |
+| There is not ___ water in the tank. | much | many · a few | Water is uncountable: much. · A few goes with countable plurals. |
+| She has ___ friends in Douala. | many | much · a little | Friends is a countable plural: many. · A little goes with uncountable nouns. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose much or many.
+
+Sentence: **How ___ money did you deposit?**
+- ✅ much
+- ◻️ many  
+  _↳ feedback if chosen: Money is uncountable: much._
+- ◻️ a few  
+  _↳ feedback if chosen: A few goes with countable plurals._
+
+Full working after a second miss:
+
+> The missing word is “much”.  
+> How much money did you deposit?  
+
+> Choose much or many.
+
+Sentence: **How ___ money did you deposit?**
+- ◻️ many  
+  _↳ feedback if chosen: Money is uncountable: much._
+- ✅ much
+- ◻️ a few  
+  _↳ feedback if chosen: A few goes with countable plurals._
+
+Full working after a second miss:
+
+> The missing word is “much”.  
+> How much money did you deposit?  
+
+> Choose much or many.
+
+Sentence: **How ___ customers are waiting?**
+- ✅ many
+- ◻️ a little  
+  _↳ feedback if chosen: A little goes with uncountable nouns._
+- ◻️ much  
+  _↳ feedback if chosen: Customers is a countable plural: many._
+
+Full working after a second miss:
+
+> The missing word is “many”.  
+> How many customers are waiting?  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-51-unit` · Lesson 51 · fill the blank, level 2
+
+Prompt: Choose the right unit.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| My uncle gave me a good ___ of advice. | piece | bag · glass | We say a piece of advice. · A glass is for drinks. |
+| We bought a ___ of rice at the market. | bag | piece · glass | Rice comes in bags. · A glass is for drinks. |
+| Please give me a ___ of water. | glass | bag · piece | Water is drunk from a glass. · We do not say a piece of water. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the right unit.
+
+Sentence: **My uncle gave me a good ___ of advice.**
+- ◻️ glass  
+  _↳ feedback if chosen: A glass is for drinks._
+- ✅ piece
+- ◻️ bag  
+  _↳ feedback if chosen: We say a piece of advice._
+
+Full working after a second miss:
+
+> The missing word is “piece”.  
+> My uncle gave me a good piece of advice.  
+
+> Choose the right unit.
+
+Sentence: **We bought a ___ of rice at the market.**
+- ◻️ piece  
+  _↳ feedback if chosen: Rice comes in bags._
+- ◻️ glass  
+  _↳ feedback if chosen: A glass is for drinks._
+- ✅ bag
+
+Full working after a second miss:
+
+> The missing word is “bag”.  
+> We bought a bag of rice at the market.  
+
+> Choose the right unit.
+
+Sentence: **We bought a ___ of rice at the market.**
+- ◻️ glass  
+  _↳ feedback if chosen: A glass is for drinks._
+- ✅ bag
+- ◻️ piece  
+  _↳ feedback if chosen: Rice comes in bags._
+
+Full working after a second miss:
+
+> The missing word is “bag”.  
+> We bought a bag of rice at the market.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-51-spot` · Lesson 51 · spot the error, level 3
+
+Prompt: Which sentence has a mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ I need some information about loans.
+- ✅ She has many accounts.
+- ✅ There is a little money left.
+- ✅ He gave me a piece of advice.
+- ❌ The clerk gave us many informations.  
+  _↳ Information is uncountable: a lot of information._
+- ❌ How much customers came today?  
+  _↳ Customers is countable: How many._
+- ❌ I bought two breads.  
+  _↳ Bread is uncountable: two loaves of bread._
+
+
+Three generated variants:
+
+> Which sentence has a mistake?
+
+- ◻️ There is a little money left.
+- ✅ I bought two breads.  
+  _↳ explanation: Bread is uncountable: two loaves of bread._
+- ◻️ She has many accounts.
+- ◻️ He gave me a piece of advice.
+
+Full working after a second miss:
+
+> The wrong statement is “I bought two breads.”.  
+> Bread is uncountable: two loaves of bread.  
+
+> Which sentence has a mistake?
+
+- ◻️ She has many accounts.
+- ◻️ I need some information about loans.
+- ◻️ There is a little money left.
+- ✅ I bought two breads.  
+  _↳ explanation: Bread is uncountable: two loaves of bread._
+
+Full working after a second miss:
+
+> The wrong statement is “I bought two breads.”.  
+> Bread is uncountable: two loaves of bread.  
+
+> Which sentence has a mistake?
+
+- ◻️ There is a little money left.
+- ✅ I bought two breads.  
+  _↳ explanation: Bread is uncountable: two loaves of bread._
+- ◻️ He gave me a piece of advice.
+- ◻️ I need some information about loans.
+
+Full working after a second miss:
+
+> The wrong statement is “I bought two breads.”.  
+> Bread is uncountable: two loaves of bread.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-51-unit-card` · Lesson 51 · fill the blank, level 1
+
+Prompt: Choose the right unit.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| My uncle gave me a good ___ of advice. | piece | bag · glass | We say a piece of advice. · A glass is for drinks. |
+| We bought a ___ of rice at the market. | bag | piece · glass | Rice comes in bags. · A glass is for drinks. |
+| Please give me a ___ of water. | glass | bag · piece | Water is drunk from a glass. · We do not say a piece of water. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the right unit.
+
+Sentence: **Please give me a ___ of water.**
+- ◻️ bag  
+  _↳ feedback if chosen: Water is drunk from a glass._
+- ✅ glass
+- ◻️ piece  
+  _↳ feedback if chosen: We do not say a piece of water._
+
+Full working after a second miss:
+
+> The missing word is “glass”.  
+> Please give me a glass of water.  
+
+> Choose the right unit.
+
+Sentence: **My uncle gave me a good ___ of advice.**
+- ✅ piece
+- ◻️ bag  
+  _↳ feedback if chosen: We say a piece of advice._
+- ◻️ glass  
+  _↳ feedback if chosen: A glass is for drinks._
+
+Full working after a second miss:
+
+> The missing word is “piece”.  
+> My uncle gave me a good piece of advice.  
+
+> Choose the right unit.
+
+Sentence: **Please give me a ___ of water.**
+- ◻️ bag  
+  _↳ feedback if chosen: Water is drunk from a glass._
+- ◻️ piece  
+  _↳ feedback if chosen: We do not say a piece of water._
+- ✅ glass
+
+Full working after a second miss:
+
+> The missing word is “glass”.  
+> Please give me a glass of water.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-52-order` · Lesson 52 · ordering, level 1
+
+Prompt: Put the sentences of the essay in order.
+
+Items in the right order:
+
+1. A bank is a business that keeps and lends money.
+2. Every day, customers deposit and withdraw money at the counter.
+3. Firstly, banks keep our money safe.
+4. Moreover, they lend money to people who want to start a business.
+5. Therefore, banks help families and the whole country.
+
+
+Three generated variants:
+
+> Put the sentences of the essay in order.
+
+Shown as: Moreover, they lend money to people who want to start a business. · Every day, customers deposit and withdraw money at the counter. · Therefore, banks help families and the whole country. · A bank is a business that keeps and lends money. · Firstly, banks keep our money safe.
+Correct order: A bank is a business that keeps and lends money. → Every day, customers deposit and withdraw money at the counter. → Firstly, banks keep our money safe. → Moreover, they lend money to people who want to start a business. → Therefore, banks help families and the whole country.
+
+Full working after a second miss:
+
+> The correct order is: A bank is a business that keeps and lends money. → Every day, customers deposit and withdraw money at the counter. → Firstly, banks keep our money safe. → Moreover, they lend money to people who want to start a business. → Therefore, banks help families and the whole country..  
+
+> Put the sentences of the essay in order.
+
+Shown as: Firstly, banks keep our money safe. · A bank is a business that keeps and lends money. · Therefore, banks help families and the whole country. · Every day, customers deposit and withdraw money at the counter. · Moreover, they lend money to people who want to start a business.
+Correct order: A bank is a business that keeps and lends money. → Every day, customers deposit and withdraw money at the counter. → Firstly, banks keep our money safe. → Moreover, they lend money to people who want to start a business. → Therefore, banks help families and the whole country.
+
+Full working after a second miss:
+
+> The correct order is: A bank is a business that keeps and lends money. → Every day, customers deposit and withdraw money at the counter. → Firstly, banks keep our money safe. → Moreover, they lend money to people who want to start a business. → Therefore, banks help families and the whole country..  
+
+> Put the sentences of the essay in order.
+
+Shown as: A bank is a business that keeps and lends money. · Therefore, banks help families and the whole country. · Moreover, they lend money to people who want to start a business. · Every day, customers deposit and withdraw money at the counter. · Firstly, banks keep our money safe.
+Correct order: A bank is a business that keeps and lends money. → Every day, customers deposit and withdraw money at the counter. → Firstly, banks keep our money safe. → Moreover, they lend money to people who want to start a business. → Therefore, banks help families and the whole country.
+
+Full working after a second miss:
+
+> The correct order is: A bank is a business that keeps and lends money. → Every day, customers deposit and withdraw money at the counter. → Firstly, banks keep our money safe. → Moreover, they lend money to people who want to start a business. → Therefore, banks help families and the whole country..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-53-words` · Lesson 53 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a changing room? | a room where players put on their sports clothes | a room for spectators to sit · the field where the match is played · the place where tickets are sold | Spectators sit in the stands. · That is the pitch. · That is the ticket office. | Players change their clothes there. |
+| What are the stands? | the rows of seats for spectators | the goal posts · the changing rooms · the training grounds | Goal posts are on the pitch. · Players change there. · Teams train there. | Spectators watch from the stands. |
+| What does maintenance mean? | taking care of and repairing something | building something new · selling tickets · playing a match | That is construction. · That is the box office. · That is a game. | Maintenance keeps infrastructure in good condition. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does maintenance mean?
+
+- ◻️ selling tickets  
+  _↳ feedback if chosen: That is the box office._
+- ✅ taking care of and repairing something
+- ◻️ playing a match  
+  _↳ feedback if chosen: That is a game._
+- ◻️ building something new  
+  _↳ feedback if chosen: That is construction._
+
+Full working after a second miss:
+
+> Maintenance keeps infrastructure in good condition.  
+> So the answer is “taking care of and repairing something”.  
+
+> What is a changing room?
+
+- ◻️ a room for spectators to sit  
+  _↳ feedback if chosen: Spectators sit in the stands._
+- ◻️ the place where tickets are sold  
+  _↳ feedback if chosen: That is the ticket office._
+- ◻️ the field where the match is played  
+  _↳ feedback if chosen: That is the pitch._
+- ✅ a room where players put on their sports clothes
+
+Full working after a second miss:
+
+> Players change their clothes there.  
+> So the answer is “a room where players put on their sports clothes”.  
+
+> What does maintenance mean?
+
+- ◻️ building something new  
+  _↳ feedback if chosen: That is construction._
+- ◻️ selling tickets  
+  _↳ feedback if chosen: That is the box office._
+- ◻️ playing a match  
+  _↳ feedback if chosen: That is a game._
+- ✅ taking care of and repairing something
+
+Full working after a second miss:
+
+> Maintenance keeps infrastructure in good condition.  
+> So the answer is “taking care of and repairing something”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-53-text` · Lesson 53 · multiple choice, level 1
+
+Prompt: Text “New stadiums for Cameroon”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| why were new stadiums built? | Cameroon hosted the Africa Cup of Nations | for the school games only · because of a flood · for the Olympic Games | The text names the Africa Cup of Nations. · The text does not say that. · The text does not say that. | “When Cameroon hosted the Africa Cup of Nations in 2022 …” |
+| where is the Olembe stadium? | in Yaoundé | in Douala · in Buea · in Garoua | Japoma is in Douala. · The coach is in Buea. · The text does not say that. | “the Olembe stadium in Yaoundé” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “New stadiums for Cameroon”: where is the Olembe stadium?
+
+- ✅ in Yaoundé
+- ◻️ in Garoua  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ in Buea  
+  _↳ feedback if chosen: The coach is in Buea._
+- ◻️ in Douala  
+  _↳ feedback if chosen: Japoma is in Douala._
+
+Full working after a second miss:
+
+> “the Olembe stadium in Yaoundé”  
+> So the answer is “in Yaoundé”.  
+
+> Text “New stadiums for Cameroon”: why were new stadiums built?
+
+- ◻️ for the school games only  
+  _↳ feedback if chosen: The text names the Africa Cup of Nations._
+- ◻️ for the Olympic Games  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ because of a flood  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ Cameroon hosted the Africa Cup of Nations
+
+Full working after a second miss:
+
+> “When Cameroon hosted the Africa Cup of Nations in 2022 …”  
+> So the answer is “Cameroon hosted the Africa Cup of Nations”.  
+
+> Text “New stadiums for Cameroon”: why were new stadiums built?
+
+- ✅ Cameroon hosted the Africa Cup of Nations
+- ◻️ for the Olympic Games  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ for the school games only  
+  _↳ feedback if chosen: The text names the Africa Cup of Nations._
+- ◻️ because of a flood  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “When Cameroon hosted the Africa Cup of Nations in 2022 …”  
+> So the answer is “Cameroon hosted the Africa Cup of Nations”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-53-idea` · Lesson 53 · multiple choice, level 2
+
+Prompt: Text “New stadiums for Cameroon”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what does the coach mean by “It is where talents grow”? | young people develop their sporting skills there | plants grow in stadiums · stadiums are only for big matches · talented players are born there | He is not speaking about plants. · He says the opposite. · He means training, not birth. | Facilities help young athletes improve. |
+| what do young people need near their homes? | small facilities like courts and tracks | only big stadiums · more spectators · new hospitals | The text asks for small facilities. · The text does not say that. · The text is about sport. | A basketball court, a handball court, a running track. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “New stadiums for Cameroon”: what do young people need near their homes?
+
+- ◻️ more spectators  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ only big stadiums  
+  _↳ feedback if chosen: The text asks for small facilities._
+- ◻️ new hospitals  
+  _↳ feedback if chosen: The text is about sport._
+- ✅ small facilities like courts and tracks
+
+Full working after a second miss:
+
+> A basketball court, a handball court, a running track.  
+> So the answer is “small facilities like courts and tracks”.  
+
+> Text “New stadiums for Cameroon”: what does the coach mean by “It is where talents grow”?
+
+- ◻️ plants grow in stadiums  
+  _↳ feedback if chosen: He is not speaking about plants._
+- ◻️ talented players are born there  
+  _↳ feedback if chosen: He means training, not birth._
+- ✅ young people develop their sporting skills there
+- ◻️ stadiums are only for big matches  
+  _↳ feedback if chosen: He says the opposite._
+
+Full working after a second miss:
+
+> Facilities help young athletes improve.  
+> So the answer is “young people develop their sporting skills there”.  
+
+> Text “New stadiums for Cameroon”: what does the coach mean by “It is where talents grow”?
+
+- ◻️ stadiums are only for big matches  
+  _↳ feedback if chosen: He says the opposite._
+- ✅ young people develop their sporting skills there
+- ◻️ talented players are born there  
+  _↳ feedback if chosen: He means training, not birth._
+- ◻️ plants grow in stadiums  
+  _↳ feedback if chosen: He is not speaking about plants._
+
+Full working after a second miss:
+
+> Facilities help young athletes improve.  
+> So the answer is “young people develop their sporting skills there”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-53-spot` · Lesson 53 · spot the error, level 3
+
+Prompt: Text “New stadiums for Cameroon”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The Japoma stadium is in Douala.
+- ✅ The sports complexes have changing rooms.
+- ✅ Infrastructure must be maintained.
+- ✅ Young people need courts near their homes.
+- ❌ The stadiums need no maintenance.  
+  _↳ The text says grass must be cut, seats repaired, toilets cleaned._
+- ❌ The coach says a stadium is only for big matches.  
+  _↳ He says it is not only for big matches._
+- ❌ The Olembe stadium is in Buea.  
+  _↳ It is in Yaoundé._
+
+
+Three generated variants:
+
+> Text “New stadiums for Cameroon”. Which statement is wrong?
+
+- ◻️ Young people need courts near their homes.
+- ◻️ The Japoma stadium is in Douala.
+- ✅ The stadiums need no maintenance.  
+  _↳ explanation: The text says grass must be cut, seats repaired, toilets cleaned._
+- ◻️ The sports complexes have changing rooms.
+
+Full working after a second miss:
+
+> The wrong statement is “The stadiums need no maintenance.”.  
+> The text says grass must be cut, seats repaired, toilets cleaned.  
+
+> Text “New stadiums for Cameroon”. Which statement is wrong?
+
+- ◻️ Young people need courts near their homes.
+- ◻️ Infrastructure must be maintained.
+- ◻️ The sports complexes have changing rooms.
+- ✅ The stadiums need no maintenance.  
+  _↳ explanation: The text says grass must be cut, seats repaired, toilets cleaned._
+
+Full working after a second miss:
+
+> The wrong statement is “The stadiums need no maintenance.”.  
+> The text says grass must be cut, seats repaired, toilets cleaned.  
+
+> Text “New stadiums for Cameroon”. Which statement is wrong?
+
+- ◻️ The sports complexes have changing rooms.
+- ◻️ Young people need courts near their homes.
+- ◻️ The Japoma stadium is in Douala.
+- ✅ The stadiums need no maintenance.  
+  _↳ explanation: The text says grass must be cut, seats repaired, toilets cleaned._
+
+Full working after a second miss:
+
+> The wrong statement is “The stadiums need no maintenance.”.  
+> The text says grass must be cut, seats repaired, toilets cleaned.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-53-idea-card` · Lesson 53 · multiple choice, level 1
+
+Prompt: Text “New stadiums for Cameroon”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what does the coach mean by “It is where talents grow”? | young people develop their sporting skills there | plants grow in stadiums · stadiums are only for big matches · talented players are born there | He is not speaking about plants. · He says the opposite. · He means training, not birth. | Facilities help young athletes improve. |
+| what do young people need near their homes? | small facilities like courts and tracks | only big stadiums · more spectators · new hospitals | The text asks for small facilities. · The text does not say that. · The text is about sport. | A basketball court, a handball court, a running track. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “New stadiums for Cameroon”: what does the coach mean by “It is where talents grow”?
+
+- ◻️ talented players are born there  
+  _↳ feedback if chosen: He means training, not birth._
+- ◻️ stadiums are only for big matches  
+  _↳ feedback if chosen: He says the opposite._
+- ◻️ plants grow in stadiums  
+  _↳ feedback if chosen: He is not speaking about plants._
+- ✅ young people develop their sporting skills there
+
+Full working after a second miss:
+
+> Facilities help young athletes improve.  
+> So the answer is “young people develop their sporting skills there”.  
+
+> Text “New stadiums for Cameroon”: what do young people need near their homes?
+
+- ◻️ only big stadiums  
+  _↳ feedback if chosen: The text asks for small facilities._
+- ◻️ new hospitals  
+  _↳ feedback if chosen: The text is about sport._
+- ◻️ more spectators  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ small facilities like courts and tracks
+
+Full working after a second miss:
+
+> A basketball court, a handball court, a running track.  
+> So the answer is “small facilities like courts and tracks”.  
+
+> Text “New stadiums for Cameroon”: what does the coach mean by “It is where talents grow”?
+
+- ✅ young people develop their sporting skills there
+- ◻️ talented players are born there  
+  _↳ feedback if chosen: He means training, not birth._
+- ◻️ stadiums are only for big matches  
+  _↳ feedback if chosen: He says the opposite._
+- ◻️ plants grow in stadiums  
+  _↳ feedback if chosen: He is not speaking about plants._
+
+Full working after a second miss:
+
+> Facilities help young athletes improve.  
+> So the answer is “young people develop their sporting skills there”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-54-match` · Lesson 54 · matching, level 1
+
+Prompt: Match each sport to the place where it is played.
+
+Pairs (4 shown each time):
+
+- football → **a pitch**
+- basketball → **a court**
+- swimming → **a pool**
+- athletics (running) → **a track**
+- boxing → **a ring**
+- gymnastics → **a gymnasium**
+
+
+Three generated variants:
+
+> Match each sport to the place where it is played.
+
+Right-hand side (shuffled): a pitch · a ring · a track · a gymnasium
+- gymnastics → **a gymnasium**
+- football → **a pitch**
+- athletics (running) → **a track**
+- boxing → **a ring**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> gymnastics → a gymnasium  
+> football → a pitch  
+> athletics (running) → a track  
+> boxing → a ring  
+
+> Match each sport to the place where it is played.
+
+Right-hand side (shuffled): a court · a gymnasium · a ring · a track
+- boxing → **a ring**
+- gymnastics → **a gymnasium**
+- athletics (running) → **a track**
+- basketball → **a court**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> boxing → a ring  
+> gymnastics → a gymnasium  
+> athletics (running) → a track  
+> basketball → a court  
+
+> Match each sport to the place where it is played.
+
+Right-hand side (shuffled): a ring · a pitch · a gymnasium · a track
+- athletics (running) → **a track**
+- gymnastics → **a gymnasium**
+- football → **a pitch**
+- boxing → **a ring**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> athletics (running) → a track  
+> gymnastics → a gymnasium  
+> football → a pitch  
+> boxing → a ring  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-54-words` · Lesson 54 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Who controls a football match? | the referee | the coach · the groundsman · a spectator | The coach trains the team. · The groundsman looks after the pitch. · Spectators watch. | The referee applies the rules. |
+| Who trains a team? | the coach | the referee · the groundsman · the scoreboard | The referee controls matches. · The groundsman looks after the pitch. · A scoreboard is a thing. | The coach trains the players. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Who trains a team?
+
+- ◻️ the groundsman  
+  _↳ feedback if chosen: The groundsman looks after the pitch._
+- ◻️ the scoreboard  
+  _↳ feedback if chosen: A scoreboard is a thing._
+- ✅ the coach
+- ◻️ the referee  
+  _↳ feedback if chosen: The referee controls matches._
+
+Full working after a second miss:
+
+> The coach trains the players.  
+> So the answer is “the coach”.  
+
+> Who trains a team?
+
+- ◻️ the scoreboard  
+  _↳ feedback if chosen: A scoreboard is a thing._
+- ◻️ the referee  
+  _↳ feedback if chosen: The referee controls matches._
+- ◻️ the groundsman  
+  _↳ feedback if chosen: The groundsman looks after the pitch._
+- ✅ the coach
+
+Full working after a second miss:
+
+> The coach trains the players.  
+> So the answer is “the coach”.  
+
+> Who trains a team?
+
+- ✅ the coach
+- ◻️ the referee  
+  _↳ feedback if chosen: The referee controls matches._
+- ◻️ the groundsman  
+  _↳ feedback if chosen: The groundsman looks after the pitch._
+- ◻️ the scoreboard  
+  _↳ feedback if chosen: A scoreboard is a thing._
+
+Full working after a second miss:
+
+> The coach trains the players.  
+> So the answer is “the coach”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-54-cl` · Lesson 54 · fill the blank, level 2
+
+Prompt: Choose the word that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The night match was played under ___. | floodlights | stands · nets | Stands are seats. · Nets are for goals or courts. |
+| The ___ showed that the score was two goals to one. | scoreboard | track · ring | A track is for running. · A ring is for boxing. |
+| The athletes ran four times round the ___. | track | pool · court | A pool is for swimming. · A court is for basketball or tennis. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the word that fits.
+
+Sentence: **The athletes ran four times round the ___.**
+- ✅ track
+- ◻️ court  
+  _↳ feedback if chosen: A court is for basketball or tennis._
+- ◻️ pool  
+  _↳ feedback if chosen: A pool is for swimming._
+
+Full working after a second miss:
+
+> The missing word is “track”.  
+> The athletes ran four times round the track.  
+
+> Choose the word that fits.
+
+Sentence: **The night match was played under ___.**
+- ◻️ nets  
+  _↳ feedback if chosen: Nets are for goals or courts._
+- ◻️ stands  
+  _↳ feedback if chosen: Stands are seats._
+- ✅ floodlights
+
+Full working after a second miss:
+
+> The missing word is “floodlights”.  
+> The night match was played under floodlights.  
+
+> Choose the word that fits.
+
+Sentence: **The athletes ran four times round the ___.**
+- ◻️ court  
+  _↳ feedback if chosen: A court is for basketball or tennis._
+- ✅ track
+- ◻️ pool  
+  _↳ feedback if chosen: A pool is for swimming._
+
+Full working after a second miss:
+
+> The missing word is “track”.  
+> The athletes ran four times round the track.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-54-spot` · Lesson 54 · spot the error, level 3
+
+Prompt: Which sentence is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Football is played on a pitch.
+- ✅ Boxers fight in a ring.
+- ✅ Spectators sit in the stands.
+- ✅ Tennis is played on a court.
+- ❌ Swimmers race on a court.  
+  _↳ Swimmers race in a pool._
+- ❌ The groundsman controls the match.  
+  _↳ The referee controls the match; the groundsman looks after the pitch._
+- ❌ Basketball is played in a pool.  
+  _↳ Basketball is played on a court._
+
+
+Three generated variants:
+
+> Which sentence is wrong?
+
+- ✅ Swimmers race on a court.  
+  _↳ explanation: Swimmers race in a pool._
+- ◻️ Spectators sit in the stands.
+- ◻️ Boxers fight in a ring.
+- ◻️ Football is played on a pitch.
+
+Full working after a second miss:
+
+> The wrong statement is “Swimmers race on a court.”.  
+> Swimmers race in a pool.  
+
+> Which sentence is wrong?
+
+- ◻️ Tennis is played on a court.
+- ◻️ Boxers fight in a ring.
+- ✅ Basketball is played in a pool.  
+  _↳ explanation: Basketball is played on a court._
+- ◻️ Football is played on a pitch.
+
+Full working after a second miss:
+
+> The wrong statement is “Basketball is played in a pool.”.  
+> Basketball is played on a court.  
+
+> Which sentence is wrong?
+
+- ◻️ Tennis is played on a court.
+- ✅ Basketball is played in a pool.  
+  _↳ explanation: Basketball is played on a court._
+- ◻️ Football is played on a pitch.
+- ◻️ Boxers fight in a ring.
+
+Full working after a second miss:
+
+> The wrong statement is “Basketball is played in a pool.”.  
+> Basketball is played on a court.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-54-cl-card` · Lesson 54 · fill the blank, level 1
+
+Prompt: Choose the word that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The night match was played under ___. | floodlights | stands · nets | Stands are seats. · Nets are for goals or courts. |
+| The ___ showed that the score was two goals to one. | scoreboard | track · ring | A track is for running. · A ring is for boxing. |
+| The athletes ran four times round the ___. | track | pool · court | A pool is for swimming. · A court is for basketball or tennis. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the word that fits.
+
+Sentence: **The ___ showed that the score was two goals to one.**
+- ◻️ track  
+  _↳ feedback if chosen: A track is for running._
+- ✅ scoreboard
+- ◻️ ring  
+  _↳ feedback if chosen: A ring is for boxing._
+
+Full working after a second miss:
+
+> The missing word is “scoreboard”.  
+> The scoreboard showed that the score was two goals to one.  
+
+> Choose the word that fits.
+
+Sentence: **The night match was played under ___.**
+- ✅ floodlights
+- ◻️ stands  
+  _↳ feedback if chosen: Stands are seats._
+- ◻️ nets  
+  _↳ feedback if chosen: Nets are for goals or courts._
+
+Full working after a second miss:
+
+> The missing word is “floodlights”.  
+> The night match was played under floodlights.  
+
+> Choose the word that fits.
+
+Sentence: **The night match was played under ___.**
+- ✅ floodlights
+- ◻️ stands  
+  _↳ feedback if chosen: Stands are seats._
+- ◻️ nets  
+  _↳ feedback if chosen: Nets are for goals or courts._
+
+Full working after a second miss:
+
+> The missing word is “floodlights”.  
+> The night match was played under floodlights.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-55-obj` · Lesson 55 · fill the blank, level 1
+
+Prompt: Choose the correct pronoun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The coach called Bih and ___. | me | I · my | After a verb, use the object pronoun: me. · “My” needs a noun after it. |
+| ___ trained every evening for the match. | We | Us · Our | Before the verb, use the subject pronoun: We. · “Our” needs a noun after it. |
+| The referee showed ___ a yellow card. (Tabe) | him | he · his | After the verb, use the object pronoun. · “His” shows possession. |
+| Give the ball to ___. (the girls) | them | they · their | After “to”, use the object pronoun. · “Their” needs a noun after it. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct pronoun.
+
+Sentence: **The referee showed ___ a yellow card. (Tabe)**
+- ◻️ his  
+  _↳ feedback if chosen: “His” shows possession._
+- ◻️ he  
+  _↳ feedback if chosen: After the verb, use the object pronoun._
+- ✅ him
+
+Full working after a second miss:
+
+> The missing word is “him”.  
+> The referee showed him a yellow card. (Tabe)  
+
+> Choose the correct pronoun.
+
+Sentence: **The referee showed ___ a yellow card. (Tabe)**
+- ◻️ his  
+  _↳ feedback if chosen: “His” shows possession._
+- ◻️ he  
+  _↳ feedback if chosen: After the verb, use the object pronoun._
+- ✅ him
+
+Full working after a second miss:
+
+> The missing word is “him”.  
+> The referee showed him a yellow card. (Tabe)  
+
+> Choose the correct pronoun.
+
+Sentence: **___ trained every evening for the match.**
+- ◻️ Us  
+  _↳ feedback if chosen: Before the verb, use the subject pronoun: We._
+- ◻️ Our  
+  _↳ feedback if chosen: “Our” needs a noun after it._
+- ✅ We
+
+Full working after a second miss:
+
+> The missing word is “We”.  
+> We trained every evening for the match.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-55-poss` · Lesson 55 · fill the blank, level 1
+
+Prompt: Choose the possessive pronoun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| This jersey is not yours; it is ___. | mine | my · me | “My” needs a noun after it. · “Me” is an object pronoun. |
+| The red ball belongs to Ngum. It is ___. | hers | her · she | “Her” needs a noun after it here. · “She” is a subject pronoun. |
+| Our team won; the cup is ___. | ours | our · us | “Our” needs a noun after it. · “Us” is an object pronoun. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the possessive pronoun.
+
+Sentence: **Our team won; the cup is ___.**
+- ✅ ours
+- ◻️ us  
+  _↳ feedback if chosen: “Us” is an object pronoun._
+- ◻️ our  
+  _↳ feedback if chosen: “Our” needs a noun after it._
+
+Full working after a second miss:
+
+> The missing word is “ours”.  
+> Our team won; the cup is ours.  
+
+> Choose the possessive pronoun.
+
+Sentence: **Our team won; the cup is ___.**
+- ◻️ us  
+  _↳ feedback if chosen: “Us” is an object pronoun._
+- ◻️ our  
+  _↳ feedback if chosen: “Our” needs a noun after it._
+- ✅ ours
+
+Full working after a second miss:
+
+> The missing word is “ours”.  
+> Our team won; the cup is ours.  
+
+> Choose the possessive pronoun.
+
+Sentence: **The red ball belongs to Ngum. It is ___.**
+- ◻️ she  
+  _↳ feedback if chosen: “She” is a subject pronoun._
+- ✅ hers
+- ◻️ her  
+  _↳ feedback if chosen: “Her” needs a noun after it here._
+
+Full working after a second miss:
+
+> The missing word is “hers”.  
+> The red ball belongs to Ngum. It is hers.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-55-ref` · Lesson 55 · fill the blank, level 2
+
+Prompt: Choose the reflexive pronoun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The goalkeeper hurt ___ during the match. | himself | hisself · him | The correct form is himself. · The subject and object are the same person: himself. |
+| We enjoyed ___ at the stadium. | ourselves | ourself · us | With we, the form is ourselves. · Use the reflexive: ourselves. |
+| The players trained by ___. | themselves | theirselves · them | The correct form is themselves. · Use the reflexive: themselves. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the reflexive pronoun.
+
+Sentence: **We enjoyed ___ at the stadium.**
+- ✅ ourselves
+- ◻️ us  
+  _↳ feedback if chosen: Use the reflexive: ourselves._
+- ◻️ ourself  
+  _↳ feedback if chosen: With we, the form is ourselves._
+
+Full working after a second miss:
+
+> The missing word is “ourselves”.  
+> We enjoyed ourselves at the stadium.  
+
+> Choose the reflexive pronoun.
+
+Sentence: **The players trained by ___.**
+- ◻️ theirselves  
+  _↳ feedback if chosen: The correct form is themselves._
+- ◻️ them  
+  _↳ feedback if chosen: Use the reflexive: themselves._
+- ✅ themselves
+
+Full working after a second miss:
+
+> The missing word is “themselves”.  
+> The players trained by themselves.  
+
+> Choose the reflexive pronoun.
+
+Sentence: **The players trained by ___.**
+- ◻️ theirselves  
+  _↳ feedback if chosen: The correct form is themselves._
+- ◻️ them  
+  _↳ feedback if chosen: Use the reflexive: themselves._
+- ✅ themselves
+
+Full working after a second miss:
+
+> The missing word is “themselves”.  
+> The players trained by themselves.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-55-spot` · Lesson 55 · spot the error, level 3
+
+Prompt: Which sentence has a pronoun mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ She plays basketball with us.
+- ✅ This ball is mine.
+- ✅ They prepared themselves for the race.
+- ✅ The coach praised him.
+- ❌ Me and Tabe went to the stadium.  
+  _↳ As a subject, use I: Tabe and I went._
+- ❌ The trophy is our's.  
+  _↳ Possessive pronouns have no apostrophe: ours._
+- ❌ He hurt hisself.  
+  _↳ The correct form is himself._
+
+
+Three generated variants:
+
+> Which sentence has a pronoun mistake?
+
+- ◻️ They prepared themselves for the race.
+- ◻️ She plays basketball with us.
+- ◻️ This ball is mine.
+- ✅ The trophy is our's.  
+  _↳ explanation: Possessive pronouns have no apostrophe: ours._
+
+Full working after a second miss:
+
+> The wrong statement is “The trophy is our's.”.  
+> Possessive pronouns have no apostrophe: ours.  
+
+> Which sentence has a pronoun mistake?
+
+- ✅ Me and Tabe went to the stadium.  
+  _↳ explanation: As a subject, use I: Tabe and I went._
+- ◻️ The coach praised him.
+- ◻️ They prepared themselves for the race.
+- ◻️ She plays basketball with us.
+
+Full working after a second miss:
+
+> The wrong statement is “Me and Tabe went to the stadium.”.  
+> As a subject, use I: Tabe and I went.  
+
+> Which sentence has a pronoun mistake?
+
+- ◻️ This ball is mine.
+- ✅ Me and Tabe went to the stadium.  
+  _↳ explanation: As a subject, use I: Tabe and I went._
+- ◻️ She plays basketball with us.
+- ◻️ They prepared themselves for the race.
+
+Full working after a second miss:
+
+> The wrong statement is “Me and Tabe went to the stadium.”.  
+> As a subject, use I: Tabe and I went.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-55-ref-card` · Lesson 55 · fill the blank, level 1
+
+Prompt: Choose the reflexive pronoun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The goalkeeper hurt ___ during the match. | himself | hisself · him | The correct form is himself. · The subject and object are the same person: himself. |
+| We enjoyed ___ at the stadium. | ourselves | ourself · us | With we, the form is ourselves. · Use the reflexive: ourselves. |
+| The players trained by ___. | themselves | theirselves · them | The correct form is themselves. · Use the reflexive: themselves. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the reflexive pronoun.
+
+Sentence: **We enjoyed ___ at the stadium.**
+- ◻️ ourself  
+  _↳ feedback if chosen: With we, the form is ourselves._
+- ✅ ourselves
+- ◻️ us  
+  _↳ feedback if chosen: Use the reflexive: ourselves._
+
+Full working after a second miss:
+
+> The missing word is “ourselves”.  
+> We enjoyed ourselves at the stadium.  
+
+> Choose the reflexive pronoun.
+
+Sentence: **The goalkeeper hurt ___ during the match.**
+- ✅ himself
+- ◻️ hisself  
+  _↳ feedback if chosen: The correct form is himself._
+- ◻️ him  
+  _↳ feedback if chosen: The subject and object are the same person: himself._
+
+Full working after a second miss:
+
+> The missing word is “himself”.  
+> The goalkeeper hurt himself during the match.  
+
+> Choose the reflexive pronoun.
+
+Sentence: **The players trained by ___.**
+- ◻️ them  
+  _↳ feedback if chosen: Use the reflexive: themselves._
+- ◻️ theirselves  
+  _↳ feedback if chosen: The correct form is themselves._
+- ✅ themselves
+
+Full working after a second miss:
+
+> The missing word is “themselves”.  
+> The players trained by themselves.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-56-order` · Lesson 56 · ordering, level 1
+
+Prompt: Put the sentences of the essay in order.
+
+Items in the right order:
+
+1. Our town has a stadium and two basketball courts.
+2. Firstly, these facilities keep young people healthy and busy.
+3. In addition, matches bring visitors and money to the town.
+4. However, the pitch is badly maintained.
+5. In conclusion, we must look after our sports infrastructure.
+
+
+Three generated variants:
+
+> Put the sentences of the essay in order.
+
+Shown as: Our town has a stadium and two basketball courts. · Firstly, these facilities keep young people healthy and busy. · However, the pitch is badly maintained. · In addition, matches bring visitors and money to the town. · In conclusion, we must look after our sports infrastructure.
+Correct order: Our town has a stadium and two basketball courts. → Firstly, these facilities keep young people healthy and busy. → In addition, matches bring visitors and money to the town. → However, the pitch is badly maintained. → In conclusion, we must look after our sports infrastructure.
+
+Full working after a second miss:
+
+> The correct order is: Our town has a stadium and two basketball courts. → Firstly, these facilities keep young people healthy and busy. → In addition, matches bring visitors and money to the town. → However, the pitch is badly maintained. → In conclusion, we must look after our sports infrastructure..  
+
+> Put the sentences of the essay in order.
+
+Shown as: However, the pitch is badly maintained. · In addition, matches bring visitors and money to the town. · In conclusion, we must look after our sports infrastructure. · Firstly, these facilities keep young people healthy and busy. · Our town has a stadium and two basketball courts.
+Correct order: Our town has a stadium and two basketball courts. → Firstly, these facilities keep young people healthy and busy. → In addition, matches bring visitors and money to the town. → However, the pitch is badly maintained. → In conclusion, we must look after our sports infrastructure.
+
+Full working after a second miss:
+
+> The correct order is: Our town has a stadium and two basketball courts. → Firstly, these facilities keep young people healthy and busy. → In addition, matches bring visitors and money to the town. → However, the pitch is badly maintained. → In conclusion, we must look after our sports infrastructure..  
+
+> Put the sentences of the essay in order.
+
+Shown as: In conclusion, we must look after our sports infrastructure. · Firstly, these facilities keep young people healthy and busy. · In addition, matches bring visitors and money to the town. · However, the pitch is badly maintained. · Our town has a stadium and two basketball courts.
+Correct order: Our town has a stadium and two basketball courts. → Firstly, these facilities keep young people healthy and busy. → In addition, matches bring visitors and money to the town. → However, the pitch is badly maintained. → In conclusion, we must look after our sports infrastructure.
+
+Full working after a second miss:
+
+> The correct order is: Our town has a stadium and two basketball courts. → Firstly, these facilities keep young people healthy and busy. → In addition, matches bring visitors and money to the town. → However, the pitch is badly maintained. → In conclusion, we must look after our sports infrastructure..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-57-words` · Lesson 57 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is refuse? | rubbish or garbage | a refusal · a kind of truck · rain water | Here refuse (stress on RE-) means rubbish. · Trucks collect it. · That is different. | Refuse is another word for rubbish. |
+| What does “to dispose of” mean? | to get rid of | to buy · to keep · to clean | That is the opposite. · That is the opposite. · Cleaning is different. | Dispose of your rubbish properly. |
+| What is a clean-up campaign? | an organised effort by people to clean a place | a football match · a political meeting · a kind of bin | It is about cleaning. · It is about cleaning. · A bin is a container. | People work together to clean. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is refuse?
+
+- ✅ rubbish or garbage
+- ◻️ a refusal  
+  _↳ feedback if chosen: Here refuse (stress on RE-) means rubbish._
+- ◻️ a kind of truck  
+  _↳ feedback if chosen: Trucks collect it._
+- ◻️ rain water  
+  _↳ feedback if chosen: That is different._
+
+Full working after a second miss:
+
+> Refuse is another word for rubbish.  
+> So the answer is “rubbish or garbage”.  
+
+> What is a clean-up campaign?
+
+- ◻️ a political meeting  
+  _↳ feedback if chosen: It is about cleaning._
+- ✅ an organised effort by people to clean a place
+- ◻️ a kind of bin  
+  _↳ feedback if chosen: A bin is a container._
+- ◻️ a football match  
+  _↳ feedback if chosen: It is about cleaning._
+
+Full working after a second miss:
+
+> People work together to clean.  
+> So the answer is “an organised effort by people to clean a place”.  
+
+> What is refuse?
+
+- ◻️ a kind of truck  
+  _↳ feedback if chosen: Trucks collect it._
+- ✅ rubbish or garbage
+- ◻️ rain water  
+  _↳ feedback if chosen: That is different._
+- ◻️ a refusal  
+  _↳ feedback if chosen: Here refuse (stress on RE-) means rubbish._
+
+Full working after a second miss:
+
+> Refuse is another word for rubbish.  
+> So the answer is “rubbish or garbage”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-57-text` · Lesson 57 · multiple choice, level 1
+
+Prompt: Text “Who will collect the rubbish?”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| why do gutters overflow? | they are blocked with rubbish | the trucks drive in them · they are too wide · children play in them | The text does not say that. · The text does not say that. · The text does not say that. | Rubbish blocks the gutters. |
+| what did the youths ask the council for? | a bin at the junction | more money · a new school · a football pitch | The text does not say that. · The text does not say that. · The text does not say that. | They asked for a bin at the junction. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “Who will collect the rubbish?”: why do gutters overflow?
+
+- ◻️ children play in them  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ the trucks drive in them  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ they are too wide  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ they are blocked with rubbish
+
+Full working after a second miss:
+
+> Rubbish blocks the gutters.  
+> So the answer is “they are blocked with rubbish”.  
+
+> Text “Who will collect the rubbish?”: what did the youths ask the council for?
+
+- ◻️ a football pitch  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ more money  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ a new school  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ a bin at the junction
+
+Full working after a second miss:
+
+> They asked for a bin at the junction.  
+> So the answer is “a bin at the junction”.  
+
+> Text “Who will collect the rubbish?”: why do gutters overflow?
+
+- ◻️ they are too wide  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ they are blocked with rubbish
+- ◻️ children play in them  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ the trucks drive in them  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> Rubbish blocks the gutters.  
+> So the answer is “they are blocked with rubbish”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-57-idea` · Lesson 57 · multiple choice, level 2
+
+Prompt: Text “Who will collect the rubbish?”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the main lesson? | people can solve the rubbish problem by working together with the council | burning rubbish is the best solution · only the council can do anything · rubbish causes no problems | The smoke makes children cough. · The youths acted themselves. · It causes floods and smoke. | The youths and the council together found a solution. |
+| why is burning rubbish a bad idea? | the smoke harms people's health | it is too slow · it is illegal to light fires · it makes the gutters overflow | The text speaks about health. · The text does not say that. · Blocked gutters do that. | “the smoke makes children cough.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “Who will collect the rubbish?”: what is the main lesson?
+
+- ✅ people can solve the rubbish problem by working together with the council
+- ◻️ rubbish causes no problems  
+  _↳ feedback if chosen: It causes floods and smoke._
+- ◻️ only the council can do anything  
+  _↳ feedback if chosen: The youths acted themselves._
+- ◻️ burning rubbish is the best solution  
+  _↳ feedback if chosen: The smoke makes children cough._
+
+Full working after a second miss:
+
+> The youths and the council together found a solution.  
+> So the answer is “people can solve the rubbish problem by working together with the council”.  
+
+> Text “Who will collect the rubbish?”: what is the main lesson?
+
+- ✅ people can solve the rubbish problem by working together with the council
+- ◻️ only the council can do anything  
+  _↳ feedback if chosen: The youths acted themselves._
+- ◻️ burning rubbish is the best solution  
+  _↳ feedback if chosen: The smoke makes children cough._
+- ◻️ rubbish causes no problems  
+  _↳ feedback if chosen: It causes floods and smoke._
+
+Full working after a second miss:
+
+> The youths and the council together found a solution.  
+> So the answer is “people can solve the rubbish problem by working together with the council”.  
+
+> Text “Who will collect the rubbish?”: why is burning rubbish a bad idea?
+
+- ◻️ it is illegal to light fires  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ the smoke harms people's health
+- ◻️ it makes the gutters overflow  
+  _↳ feedback if chosen: Blocked gutters do that._
+- ◻️ it is too slow  
+  _↳ feedback if chosen: The text speaks about health._
+
+Full working after a second miss:
+
+> “the smoke makes children cough.”  
+> So the answer is “the smoke harms people's health”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-57-spot` · Lesson 57 · spot the error, level 3
+
+Prompt: Text “Who will collect the rubbish?”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The council's trucks collect refuse from bins.
+- ✅ Some people burn their rubbish.
+- ✅ The youths cleared the gutters.
+- ✅ Families now take rubbish to the bin in closed bags.
+- ❌ Every quarter has many bins.  
+  _↳ Many quarters have no bins._
+- ❌ The trucks come every day without fail.  
+  _↳ They sometimes do not come for a week._
+- ❌ The youths threw rubbish into the river.  
+  _↳ They organised a clean-up._
+
+
+Three generated variants:
+
+> Text “Who will collect the rubbish?”. Which statement is wrong?
+
+- ◻️ The council's trucks collect refuse from bins.
+- ◻️ Families now take rubbish to the bin in closed bags.
+- ✅ Every quarter has many bins.  
+  _↳ explanation: Many quarters have no bins._
+- ◻️ The youths cleared the gutters.
+
+Full working after a second miss:
+
+> The wrong statement is “Every quarter has many bins.”.  
+> Many quarters have no bins.  
+
+> Text “Who will collect the rubbish?”. Which statement is wrong?
+
+- ◻️ Families now take rubbish to the bin in closed bags.
+- ◻️ The council's trucks collect refuse from bins.
+- ◻️ Some people burn their rubbish.
+- ✅ Every quarter has many bins.  
+  _↳ explanation: Many quarters have no bins._
+
+Full working after a second miss:
+
+> The wrong statement is “Every quarter has many bins.”.  
+> Many quarters have no bins.  
+
+> Text “Who will collect the rubbish?”. Which statement is wrong?
+
+- ◻️ The youths cleared the gutters.
+- ◻️ Some people burn their rubbish.
+- ✅ The trucks come every day without fail.  
+  _↳ explanation: They sometimes do not come for a week._
+- ◻️ The council's trucks collect refuse from bins.
+
+Full working after a second miss:
+
+> The wrong statement is “The trucks come every day without fail.”.  
+> They sometimes do not come for a week.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-57-idea-card` · Lesson 57 · multiple choice, level 1
+
+Prompt: Text “Who will collect the rubbish?”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the main lesson? | people can solve the rubbish problem by working together with the council | burning rubbish is the best solution · only the council can do anything · rubbish causes no problems | The smoke makes children cough. · The youths acted themselves. · It causes floods and smoke. | The youths and the council together found a solution. |
+| why is burning rubbish a bad idea? | the smoke harms people's health | it is too slow · it is illegal to light fires · it makes the gutters overflow | The text speaks about health. · The text does not say that. · Blocked gutters do that. | “the smoke makes children cough.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “Who will collect the rubbish?”: what is the main lesson?
+
+- ◻️ burning rubbish is the best solution  
+  _↳ feedback if chosen: The smoke makes children cough._
+- ◻️ rubbish causes no problems  
+  _↳ feedback if chosen: It causes floods and smoke._
+- ◻️ only the council can do anything  
+  _↳ feedback if chosen: The youths acted themselves._
+- ✅ people can solve the rubbish problem by working together with the council
+
+Full working after a second miss:
+
+> The youths and the council together found a solution.  
+> So the answer is “people can solve the rubbish problem by working together with the council”.  
+
+> Text “Who will collect the rubbish?”: why is burning rubbish a bad idea?
+
+- ◻️ it makes the gutters overflow  
+  _↳ feedback if chosen: Blocked gutters do that._
+- ◻️ it is too slow  
+  _↳ feedback if chosen: The text speaks about health._
+- ◻️ it is illegal to light fires  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ the smoke harms people's health
+
+Full working after a second miss:
+
+> “the smoke makes children cough.”  
+> So the answer is “the smoke harms people's health”.  
+
+> Text “Who will collect the rubbish?”: what is the main lesson?
+
+- ◻️ burning rubbish is the best solution  
+  _↳ feedback if chosen: The smoke makes children cough._
+- ◻️ rubbish causes no problems  
+  _↳ feedback if chosen: It causes floods and smoke._
+- ✅ people can solve the rubbish problem by working together with the council
+- ◻️ only the council can do anything  
+  _↳ feedback if chosen: The youths acted themselves._
+
+Full working after a second miss:
+
+> The youths and the council together found a solution.  
+> So the answer is “people can solve the rubbish problem by working together with the council”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-58-end` · Lesson 58 · fill the blank, level 1
+
+Prompt: Choose the punctuation mark that ends the sentence.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| When will the truck come___ | ? | . · ! | It is a question. · It is a question, not an exclamation. |
+| What a dirty street___ | ! | ? · . | It shows a strong feeling, not a question. · A strong feeling takes an exclamation mark. |
+| The bin is at the junction___ | . | ? · ! | It is a statement. · It is a calm statement. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the punctuation mark that ends the sentence.
+
+Sentence: **The bin is at the junction___**
+- ◻️ !  
+  _↳ feedback if chosen: It is a calm statement._
+- ✅ .
+- ◻️ ?  
+  _↳ feedback if chosen: It is a statement._
+
+Full working after a second miss:
+
+> The missing word is “.”.  
+> The bin is at the junction.  
+
+> Choose the punctuation mark that ends the sentence.
+
+Sentence: **The bin is at the junction___**
+- ◻️ ?  
+  _↳ feedback if chosen: It is a statement._
+- ◻️ !  
+  _↳ feedback if chosen: It is a calm statement._
+- ✅ .
+
+Full working after a second miss:
+
+> The missing word is “.”.  
+> The bin is at the junction.  
+
+> Choose the punctuation mark that ends the sentence.
+
+Sentence: **What a dirty street___**
+- ◻️ .  
+  _↳ feedback if chosen: A strong feeling takes an exclamation mark._
+- ◻️ ?  
+  _↳ feedback if chosen: It shows a strong feeling, not a question._
+- ✅ !
+
+Full working after a second miss:
+
+> The missing word is “!”.  
+> What a dirty street!  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-58-comma` · Lesson 58 · multiple choice, level 1
+
+Prompt: Which sentence is punctuated correctly?
+
+Table `X` (one row is picked each time):
+
+| r | w | e | y |
+|---|---|---|---|
+| We sort paper, plastic and glass. | We sort paper plastic and glass. · We sort, paper, plastic, and, glass. · We sort paper plastic, and glass. | Separate the items with commas. · Too many commas. · The comma is in the wrong place. | Commas between the items of a list. |
+| Ngum, please close the bin. | Ngum please close the bin. · Ngum please, close the bin. · Ngum. please close the bin. | Put a comma after the name of the person spoken to. · The comma goes after the name. · A full stop breaks the sentence. | A comma after the name in direct address. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which sentence is punctuated correctly?
+
+- ◻️ Ngum. please close the bin.  
+  _↳ feedback if chosen: A full stop breaks the sentence._
+- ◻️ Ngum please, close the bin.  
+  _↳ feedback if chosen: The comma goes after the name._
+- ◻️ Ngum please close the bin.  
+  _↳ feedback if chosen: Put a comma after the name of the person spoken to._
+- ✅ Ngum, please close the bin.
+
+Full working after a second miss:
+
+> A comma after the name in direct address.  
+> So the answer is “Ngum, please close the bin.”.  
+
+> Which sentence is punctuated correctly?
+
+- ✅ We sort paper, plastic and glass.
+- ◻️ We sort, paper, plastic, and, glass.  
+  _↳ feedback if chosen: Too many commas._
+- ◻️ We sort paper plastic and glass.  
+  _↳ feedback if chosen: Separate the items with commas._
+- ◻️ We sort paper plastic, and glass.  
+  _↳ feedback if chosen: The comma is in the wrong place._
+
+Full working after a second miss:
+
+> Commas between the items of a list.  
+> So the answer is “We sort paper, plastic and glass.”.  
+
+> Which sentence is punctuated correctly?
+
+- ◻️ Ngum please close the bin.  
+  _↳ feedback if chosen: Put a comma after the name of the person spoken to._
+- ◻️ Ngum. please close the bin.  
+  _↳ feedback if chosen: A full stop breaks the sentence._
+- ◻️ Ngum please, close the bin.  
+  _↳ feedback if chosen: The comma goes after the name._
+- ✅ Ngum, please close the bin.
+
+Full working after a second miss:
+
+> A comma after the name in direct address.  
+> So the answer is “Ngum, please close the bin.”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-58-apos` · Lesson 58 · fill the blank, level 2
+
+Prompt: Choose the correct form.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The ___ trucks are too few. | council's | councils · councils' | One council owns the trucks: council's. · One council, so the apostrophe goes before s. |
+| ___ raining: bring the rubbish inside. | It's | Its · Its' | It's = it is. · That form does not exist. |
+| We ___ burn rubbish. | don't | dont · do'nt | The apostrophe replaces the o of not. · The apostrophe goes where the letter is missing. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct form.
+
+Sentence: **We ___ burn rubbish.**
+- ✅ don't
+- ◻️ dont  
+  _↳ feedback if chosen: The apostrophe replaces the o of not._
+- ◻️ do'nt  
+  _↳ feedback if chosen: The apostrophe goes where the letter is missing._
+
+Full working after a second miss:
+
+> The missing word is “don't”.  
+> We don't burn rubbish.  
+
+> Choose the correct form.
+
+Sentence: **___ raining: bring the rubbish inside.**
+- ◻️ Its'  
+  _↳ feedback if chosen: That form does not exist._
+- ◻️ Its  
+  _↳ feedback if chosen: It's = it is._
+- ✅ It's
+
+Full working after a second miss:
+
+> The missing word is “It's”.  
+> It's raining: bring the rubbish inside.  
+
+> Choose the correct form.
+
+Sentence: **We ___ burn rubbish.**
+- ✅ don't
+- ◻️ dont  
+  _↳ feedback if chosen: The apostrophe replaces the o of not._
+- ◻️ do'nt  
+  _↳ feedback if chosen: The apostrophe goes where the letter is missing._
+
+Full working after a second miss:
+
+> The missing word is “don't”.  
+> We don't burn rubbish.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-58-spot` · Lesson 58 · spot the error, level 3
+
+Prompt: Which sentence is punctuated wrongly?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Where is the dump?
+- ✅ Stop burning plastic!
+- ✅ The youths' campaign was a success.
+- ✅ We collected bottles, bags and cans.
+- ❌ Where is the dump.  
+  _↳ A question ends with a question mark._
+- ❌ Its a clean street now.  
+  _↳ It's (it is) needs an apostrophe._
+- ❌ tabe and ngum cleaned the gutter.  
+  _↳ Capital letters for the start and the names._
+
+
+Three generated variants:
+
+> Which sentence is punctuated wrongly?
+
+- ◻️ Stop burning plastic!
+- ◻️ We collected bottles, bags and cans.
+- ◻️ The youths' campaign was a success.
+- ✅ Where is the dump.  
+  _↳ explanation: A question ends with a question mark._
+
+Full working after a second miss:
+
+> The wrong statement is “Where is the dump.”.  
+> A question ends with a question mark.  
+
+> Which sentence is punctuated wrongly?
+
+- ✅ Where is the dump.  
+  _↳ explanation: A question ends with a question mark._
+- ◻️ Where is the dump?
+- ◻️ The youths' campaign was a success.
+- ◻️ We collected bottles, bags and cans.
+
+Full working after a second miss:
+
+> The wrong statement is “Where is the dump.”.  
+> A question ends with a question mark.  
+
+> Which sentence is punctuated wrongly?
+
+- ◻️ We collected bottles, bags and cans.
+- ✅ tabe and ngum cleaned the gutter.  
+  _↳ explanation: Capital letters for the start and the names._
+- ◻️ Where is the dump?
+- ◻️ Stop burning plastic!
+
+Full working after a second miss:
+
+> The wrong statement is “tabe and ngum cleaned the gutter.”.  
+> Capital letters for the start and the names.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-58-apos-card` · Lesson 58 · fill the blank, level 1
+
+Prompt: Choose the correct form.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The ___ trucks are too few. | council's | councils · councils' | One council owns the trucks: council's. · One council, so the apostrophe goes before s. |
+| ___ raining: bring the rubbish inside. | It's | Its · Its' | It's = it is. · That form does not exist. |
+| We ___ burn rubbish. | don't | dont · do'nt | The apostrophe replaces the o of not. · The apostrophe goes where the letter is missing. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct form.
+
+Sentence: **We ___ burn rubbish.**
+- ◻️ do'nt  
+  _↳ feedback if chosen: The apostrophe goes where the letter is missing._
+- ◻️ dont  
+  _↳ feedback if chosen: The apostrophe replaces the o of not._
+- ✅ don't
+
+Full working after a second miss:
+
+> The missing word is “don't”.  
+> We don't burn rubbish.  
+
+> Choose the correct form.
+
+Sentence: **___ raining: bring the rubbish inside.**
+- ✅ It's
+- ◻️ Its'  
+  _↳ feedback if chosen: That form does not exist._
+- ◻️ Its  
+  _↳ feedback if chosen: It's = it is._
+
+Full working after a second miss:
+
+> The missing word is “It's”.  
+> It's raining: bring the rubbish inside.  
+
+> Choose the correct form.
+
+Sentence: **We ___ burn rubbish.**
+- ✅ don't
+- ◻️ dont  
+  _↳ feedback if chosen: The apostrophe replaces the o of not._
+- ◻️ do'nt  
+  _↳ feedback if chosen: The apostrophe goes where the letter is missing._
+
+Full working after a second miss:
+
+> The missing word is “don't”.  
+> We don't burn rubbish.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-59-it` · Lesson 59 · fill the blank, level 1
+
+Prompt: Choose the impersonal pronoun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___ is raining, so the gutters are full. | It | There · One | Weather uses it. · One is for people in general. |
+| ___ is important to wash your hands. | It | There · They | It introduces the idea. · They is not used to introduce an idea. |
+| ___ is six o'clock: the truck is late. | It | There · One | Time uses it. · One is for people in general. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the impersonal pronoun.
+
+Sentence: **___ is important to wash your hands.**
+- ◻️ They  
+  _↳ feedback if chosen: They is not used to introduce an idea._
+- ◻️ There  
+  _↳ feedback if chosen: It introduces the idea._
+- ✅ It
+
+Full working after a second miss:
+
+> The missing word is “It”.  
+> It is important to wash your hands.  
+
+> Choose the impersonal pronoun.
+
+Sentence: **___ is raining, so the gutters are full.**
+- ✅ It
+- ◻️ There  
+  _↳ feedback if chosen: Weather uses it._
+- ◻️ One  
+  _↳ feedback if chosen: One is for people in general._
+
+Full working after a second miss:
+
+> The missing word is “It”.  
+> It is raining, so the gutters are full.  
+
+> Choose the impersonal pronoun.
+
+Sentence: **___ is important to wash your hands.**
+- ✅ It
+- ◻️ There  
+  _↳ feedback if chosen: It introduces the idea._
+- ◻️ They  
+  _↳ feedback if chosen: They is not used to introduce an idea._
+
+Full working after a second miss:
+
+> The missing word is “It”.  
+> It is important to wash your hands.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-59-there` · Lesson 59 · fill the blank, level 1
+
+Prompt: Choose the correct words.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| ___ a big bin at the market. | There is | There are · It is | One bin: there is. · To say something exists, use there. |
+| ___ many plastic bags in the river. | There are | There is · It are | Many bags: there are. · That form is wrong. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct words.
+
+Sentence: **___ a big bin at the market.**
+- ◻️ There are  
+  _↳ feedback if chosen: One bin: there is._
+- ◻️ It is  
+  _↳ feedback if chosen: To say something exists, use there._
+- ✅ There is
+
+Full working after a second miss:
+
+> The missing words are “There is”.  
+> There is a big bin at the market.  
+
+> Choose the correct words.
+
+Sentence: **___ a big bin at the market.**
+- ◻️ It is  
+  _↳ feedback if chosen: To say something exists, use there._
+- ✅ There is
+- ◻️ There are  
+  _↳ feedback if chosen: One bin: there is._
+
+Full working after a second miss:
+
+> The missing words are “There is”.  
+> There is a big bin at the market.  
+
+> Choose the correct words.
+
+Sentence: **___ a big bin at the market.**
+- ✅ There is
+- ◻️ It is  
+  _↳ feedback if chosen: To say something exists, use there._
+- ◻️ There are  
+  _↳ feedback if chosen: One bin: there is._
+
+Full working after a second miss:
+
+> The missing words are “There is”.  
+> There is a big bin at the market.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-59-one` · Lesson 59 · multiple choice, level 2
+
+Prompt: In “{X.q}”, who is the pronoun about?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| One should not throw rubbish in the street. | people in general | one particular person · the speaker only · a number | It is a general rule. · It is for everyone. · Here one is a pronoun. | One means anybody. |
+| They say the council will buy new trucks. | people in general | the council members · the trucks · the speaker | They here is not a group we can name. · Trucks do not speak. · The speaker is not they. | They say = people say. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In “They say the council will buy new trucks.”, who is the pronoun about?
+
+- ✅ people in general
+- ◻️ the trucks  
+  _↳ feedback if chosen: Trucks do not speak._
+- ◻️ the council members  
+  _↳ feedback if chosen: They here is not a group we can name._
+- ◻️ the speaker  
+  _↳ feedback if chosen: The speaker is not they._
+
+Full working after a second miss:
+
+> They say = people say.  
+> So the answer is “people in general”.  
+
+> In “They say the council will buy new trucks.”, who is the pronoun about?
+
+- ◻️ the council members  
+  _↳ feedback if chosen: They here is not a group we can name._
+- ◻️ the trucks  
+  _↳ feedback if chosen: Trucks do not speak._
+- ◻️ the speaker  
+  _↳ feedback if chosen: The speaker is not they._
+- ✅ people in general
+
+Full working after a second miss:
+
+> They say = people say.  
+> So the answer is “people in general”.  
+
+> In “One should not throw rubbish in the street.”, who is the pronoun about?
+
+- ✅ people in general
+- ◻️ one particular person  
+  _↳ feedback if chosen: It is a general rule._
+- ◻️ the speaker only  
+  _↳ feedback if chosen: It is for everyone._
+- ◻️ a number  
+  _↳ feedback if chosen: Here one is a pronoun._
+
+Full working after a second miss:
+
+> One means anybody.  
+> So the answer is “people in general”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-59-spot` · Lesson 59 · spot the error, level 3
+
+Prompt: Which sentence has a mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ It is hot today.
+- ✅ There are flies near the dump.
+- ✅ One must keep the town clean.
+- ✅ It is dangerous to burn tyres.
+- ❌ There is many bins in the market.  
+  _↳ Many bins: there are._
+- ❌ It are two trucks in the street.  
+  _↳ To say things exist: there are._
+- ❌ There is raining.  
+  _↳ Weather uses it: It is raining._
+
+
+Three generated variants:
+
+> Which sentence has a mistake?
+
+- ◻️ It is hot today.
+- ◻️ One must keep the town clean.
+- ◻️ There are flies near the dump.
+- ✅ There is raining.  
+  _↳ explanation: Weather uses it: It is raining._
+
+Full working after a second miss:
+
+> The wrong statement is “There is raining.”.  
+> Weather uses it: It is raining.  
+
+> Which sentence has a mistake?
+
+- ◻️ One must keep the town clean.
+- ◻️ It is dangerous to burn tyres.
+- ✅ It are two trucks in the street.  
+  _↳ explanation: To say things exist: there are._
+- ◻️ There are flies near the dump.
+
+Full working after a second miss:
+
+> The wrong statement is “It are two trucks in the street.”.  
+> To say things exist: there are.  
+
+> Which sentence has a mistake?
+
+- ◻️ It is hot today.
+- ◻️ It is dangerous to burn tyres.
+- ✅ It are two trucks in the street.  
+  _↳ explanation: To say things exist: there are._
+- ◻️ There are flies near the dump.
+
+Full working after a second miss:
+
+> The wrong statement is “It are two trucks in the street.”.  
+> To say things exist: there are.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-59-one-card` · Lesson 59 · multiple choice, level 1
+
+Prompt: In “{X.q}”, who is the pronoun about?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| One should not throw rubbish in the street. | people in general | one particular person · the speaker only · a number | It is a general rule. · It is for everyone. · Here one is a pronoun. | One means anybody. |
+| They say the council will buy new trucks. | people in general | the council members · the trucks · the speaker | They here is not a group we can name. · Trucks do not speak. · The speaker is not they. | They say = people say. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In “One should not throw rubbish in the street.”, who is the pronoun about?
+
+- ✅ people in general
+- ◻️ a number  
+  _↳ feedback if chosen: Here one is a pronoun._
+- ◻️ one particular person  
+  _↳ feedback if chosen: It is a general rule._
+- ◻️ the speaker only  
+  _↳ feedback if chosen: It is for everyone._
+
+Full working after a second miss:
+
+> One means anybody.  
+> So the answer is “people in general”.  
+
+> In “They say the council will buy new trucks.”, who is the pronoun about?
+
+- ✅ people in general
+- ◻️ the trucks  
+  _↳ feedback if chosen: Trucks do not speak._
+- ◻️ the council members  
+  _↳ feedback if chosen: They here is not a group we can name._
+- ◻️ the speaker  
+  _↳ feedback if chosen: The speaker is not they._
+
+Full working after a second miss:
+
+> They say = people say.  
+> So the answer is “people in general”.  
+
+> In “One should not throw rubbish in the street.”, who is the pronoun about?
+
+- ◻️ one particular person  
+  _↳ feedback if chosen: It is a general rule._
+- ✅ people in general
+- ◻️ a number  
+  _↳ feedback if chosen: Here one is a pronoun._
+- ◻️ the speaker only  
+  _↳ feedback if chosen: It is for everyone._
+
+Full working after a second miss:
+
+> One means anybody.  
+> So the answer is “people in general”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-60-order` · Lesson 60 · ordering, level 1
+
+Prompt: Put the sentences of the paragraph in order.
+
+Items in the right order:
+
+1. Human investment keeps our quarter clean and healthy.
+2. On the last Saturday of each month we clear the gutters.
+3. We also cut the grass and collect plastic bags.
+4. As a result, there are fewer mosquitoes and no floods.
+5. Everyone should take part in this work.
+
+
+Three generated variants:
+
+> Put the sentences of the paragraph in order.
+
+Shown as: We also cut the grass and collect plastic bags. · As a result, there are fewer mosquitoes and no floods. · Human investment keeps our quarter clean and healthy. · On the last Saturday of each month we clear the gutters. · Everyone should take part in this work.
+Correct order: Human investment keeps our quarter clean and healthy. → On the last Saturday of each month we clear the gutters. → We also cut the grass and collect plastic bags. → As a result, there are fewer mosquitoes and no floods. → Everyone should take part in this work.
+
+Full working after a second miss:
+
+> The correct order is: Human investment keeps our quarter clean and healthy. → On the last Saturday of each month we clear the gutters. → We also cut the grass and collect plastic bags. → As a result, there are fewer mosquitoes and no floods. → Everyone should take part in this work..  
+
+> Put the sentences of the paragraph in order.
+
+Shown as: On the last Saturday of each month we clear the gutters. · We also cut the grass and collect plastic bags. · Human investment keeps our quarter clean and healthy. · As a result, there are fewer mosquitoes and no floods. · Everyone should take part in this work.
+Correct order: Human investment keeps our quarter clean and healthy. → On the last Saturday of each month we clear the gutters. → We also cut the grass and collect plastic bags. → As a result, there are fewer mosquitoes and no floods. → Everyone should take part in this work.
+
+Full working after a second miss:
+
+> The correct order is: Human investment keeps our quarter clean and healthy. → On the last Saturday of each month we clear the gutters. → We also cut the grass and collect plastic bags. → As a result, there are fewer mosquitoes and no floods. → Everyone should take part in this work..  
+
+> Put the sentences of the paragraph in order.
+
+Shown as: On the last Saturday of each month we clear the gutters. · We also cut the grass and collect plastic bags. · Human investment keeps our quarter clean and healthy. · Everyone should take part in this work. · As a result, there are fewer mosquitoes and no floods.
+Correct order: Human investment keeps our quarter clean and healthy. → On the last Saturday of each month we clear the gutters. → We also cut the grass and collect plastic bags. → As a result, there are fewer mosquitoes and no floods. → Everyone should take part in this work.
+
+Full working after a second miss:
+
+> The correct order is: Human investment keeps our quarter clean and healthy. → On the last Saturday of each month we clear the gutters. → We also cut the grass and collect plastic bags. → As a result, there are fewer mosquitoes and no floods. → Everyone should take part in this work..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-61-words` · Lesson 61 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is telehealth? | health care given at a distance using phones and computers | a television programme about health · a new hospital building · a kind of medicine | It is not a TV programme. · It is a way of giving care. · It is not a medicine. | Tele- means far. |
+| What is a specialist? | a doctor who knows one area of medicine very well | a nurse in a village · a machine · a patient | The nurse is not the specialist here. · A specialist is a person. · The patient is treated. | A heart specialist knows hearts very well. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a specialist?
+
+- ◻️ a machine  
+  _↳ feedback if chosen: A specialist is a person._
+- ◻️ a nurse in a village  
+  _↳ feedback if chosen: The nurse is not the specialist here._
+- ◻️ a patient  
+  _↳ feedback if chosen: The patient is treated._
+- ✅ a doctor who knows one area of medicine very well
+
+Full working after a second miss:
+
+> A heart specialist knows hearts very well.  
+> So the answer is “a doctor who knows one area of medicine very well”.  
+
+> What is telehealth?
+
+- ◻️ a new hospital building  
+  _↳ feedback if chosen: It is a way of giving care._
+- ◻️ a television programme about health  
+  _↳ feedback if chosen: It is not a TV programme._
+- ✅ health care given at a distance using phones and computers
+- ◻️ a kind of medicine  
+  _↳ feedback if chosen: It is not a medicine._
+
+Full working after a second miss:
+
+> Tele- means far.  
+> So the answer is “health care given at a distance using phones and computers”.  
+
+> What is telehealth?
+
+- ◻️ a television programme about health  
+  _↳ feedback if chosen: It is not a TV programme._
+- ◻️ a kind of medicine  
+  _↳ feedback if chosen: It is not a medicine._
+- ◻️ a new hospital building  
+  _↳ feedback if chosen: It is a way of giving care._
+- ✅ health care given at a distance using phones and computers
+
+Full working after a second miss:
+
+> Tele- means far.  
+> So the answer is “health care given at a distance using phones and computers”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-61-text` · Lesson 61 · multiple choice, level 1
+
+Prompt: Text “A hospital in my bedroom”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| how did the specialist receive the recording? | by phone | by post · the family took it to the city · on the radio | It was faster than post. · They did not travel. · The text says by phone. | “The recording was sent by phone.” |
+| what do robots do in big hospitals? | help surgeons operate with great precision | replace all the nurses · clean the wards · drive ambulances | The text says they do not replace people. · The text does not say that. · The text does not say that. | They help surgeons. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A hospital in my bedroom”: how did the specialist receive the recording?
+
+- ✅ by phone
+- ◻️ on the radio  
+  _↳ feedback if chosen: The text says by phone._
+- ◻️ by post  
+  _↳ feedback if chosen: It was faster than post._
+- ◻️ the family took it to the city  
+  _↳ feedback if chosen: They did not travel._
+
+Full working after a second miss:
+
+> “The recording was sent by phone.”  
+> So the answer is “by phone”.  
+
+> Text “A hospital in my bedroom”: what do robots do in big hospitals?
+
+- ✅ help surgeons operate with great precision
+- ◻️ drive ambulances  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ replace all the nurses  
+  _↳ feedback if chosen: The text says they do not replace people._
+- ◻️ clean the wards  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> They help surgeons.  
+> So the answer is “help surgeons operate with great precision”.  
+
+> Text “A hospital in my bedroom”: how did the specialist receive the recording?
+
+- ◻️ on the radio  
+  _↳ feedback if chosen: The text says by phone._
+- ◻️ by post  
+  _↳ feedback if chosen: It was faster than post._
+- ◻️ the family took it to the city  
+  _↳ feedback if chosen: They did not travel._
+- ✅ by phone
+
+Full working after a second miss:
+
+> “The recording was sent by phone.”  
+> So the answer is “by phone”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-61-idea` · Lesson 61 · multiple choice, level 2
+
+Prompt: Text “A hospital in my bedroom”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the writer's opinion of machines in health? | they are useful but cannot replace people | they are dangerous · they should replace nurses · they are useless | The writer praises them. · The writer says the opposite. · They helped Grandfather. | “machines do not replace people” |
+| what did the family save by using telehealth? | a long journey to the city | their house · Grandfather's medicine · a robot | The text does not say that. · The medicine was changed, not saved. · No robot was used. | “we did not travel to the city.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A hospital in my bedroom”: what is the writer's opinion of machines in health?
+
+- ◻️ they are useless  
+  _↳ feedback if chosen: They helped Grandfather._
+- ◻️ they should replace nurses  
+  _↳ feedback if chosen: The writer says the opposite._
+- ✅ they are useful but cannot replace people
+- ◻️ they are dangerous  
+  _↳ feedback if chosen: The writer praises them._
+
+Full working after a second miss:
+
+> “machines do not replace people”  
+> So the answer is “they are useful but cannot replace people”.  
+
+> Text “A hospital in my bedroom”: what did the family save by using telehealth?
+
+- ◻️ Grandfather's medicine  
+  _↳ feedback if chosen: The medicine was changed, not saved._
+- ✅ a long journey to the city
+- ◻️ their house  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ a robot  
+  _↳ feedback if chosen: No robot was used._
+
+Full working after a second miss:
+
+> “we did not travel to the city.”  
+> So the answer is “a long journey to the city”.  
+
+> Text “A hospital in my bedroom”: what did the family save by using telehealth?
+
+- ◻️ their house  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ Grandfather's medicine  
+  _↳ feedback if chosen: The medicine was changed, not saved._
+- ◻️ a robot  
+  _↳ feedback if chosen: No robot was used._
+- ✅ a long journey to the city
+
+Full working after a second miss:
+
+> “we did not travel to the city.”  
+> So the answer is “a long journey to the city”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-61-spot` · Lesson 61 · spot the error, level 3
+
+Prompt: Text “A hospital in my bedroom”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The nurse brought a small machine.
+- ✅ The specialist changed the medicine.
+- ✅ Robots help surgeons in big hospitals.
+- ✅ The nurse explained everything.
+- ❌ The family travelled three hundred kilometres to the city.  
+  _↳ They did not travel; the recording did._
+- ❌ The writer thinks robots should replace nurses.  
+  _↳ The writer says machines do not replace people._
+- ❌ The specialist took three days to read the recording.  
+  _↳ He read it within an hour._
+
+
+Three generated variants:
+
+> Text “A hospital in my bedroom”. Which statement is wrong?
+
+- ◻️ The nurse brought a small machine.
+- ◻️ The nurse explained everything.
+- ◻️ Robots help surgeons in big hospitals.
+- ✅ The writer thinks robots should replace nurses.  
+  _↳ explanation: The writer says machines do not replace people._
+
+Full working after a second miss:
+
+> The wrong statement is “The writer thinks robots should replace nurses.”.  
+> The writer says machines do not replace people.  
+
+> Text “A hospital in my bedroom”. Which statement is wrong?
+
+- ◻️ The specialist changed the medicine.
+- ◻️ The nurse explained everything.
+- ✅ The specialist took three days to read the recording.  
+  _↳ explanation: He read it within an hour._
+- ◻️ The nurse brought a small machine.
+
+Full working after a second miss:
+
+> The wrong statement is “The specialist took three days to read the recording.”.  
+> He read it within an hour.  
+
+> Text “A hospital in my bedroom”. Which statement is wrong?
+
+- ✅ The writer thinks robots should replace nurses.  
+  _↳ explanation: The writer says machines do not replace people._
+- ◻️ Robots help surgeons in big hospitals.
+- ◻️ The nurse explained everything.
+- ◻️ The nurse brought a small machine.
+
+Full working after a second miss:
+
+> The wrong statement is “The writer thinks robots should replace nurses.”.  
+> The writer says machines do not replace people.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-61-idea-card` · Lesson 61 · multiple choice, level 1
+
+Prompt: Text “A hospital in my bedroom”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the writer's opinion of machines in health? | they are useful but cannot replace people | they are dangerous · they should replace nurses · they are useless | The writer praises them. · The writer says the opposite. · They helped Grandfather. | “machines do not replace people” |
+| what did the family save by using telehealth? | a long journey to the city | their house · Grandfather's medicine · a robot | The text does not say that. · The medicine was changed, not saved. · No robot was used. | “we did not travel to the city.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A hospital in my bedroom”: what did the family save by using telehealth?
+
+- ◻️ their house  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ a long journey to the city
+- ◻️ a robot  
+  _↳ feedback if chosen: No robot was used._
+- ◻️ Grandfather's medicine  
+  _↳ feedback if chosen: The medicine was changed, not saved._
+
+Full working after a second miss:
+
+> “we did not travel to the city.”  
+> So the answer is “a long journey to the city”.  
+
+> Text “A hospital in my bedroom”: what did the family save by using telehealth?
+
+- ◻️ their house  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ a robot  
+  _↳ feedback if chosen: No robot was used._
+- ◻️ Grandfather's medicine  
+  _↳ feedback if chosen: The medicine was changed, not saved._
+- ✅ a long journey to the city
+
+Full working after a second miss:
+
+> “we did not travel to the city.”  
+> So the answer is “a long journey to the city”.  
+
+> Text “A hospital in my bedroom”: what did the family save by using telehealth?
+
+- ◻️ Grandfather's medicine  
+  _↳ feedback if chosen: The medicine was changed, not saved._
+- ◻️ a robot  
+  _↳ feedback if chosen: No robot was used._
+- ◻️ their house  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ a long journey to the city
+
+Full working after a second miss:
+
+> “we did not travel to the city.”  
+> So the answer is “a long journey to the city”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-62-mean` · Lesson 62 · multiple choice, level 1
+
+Prompt: What does the word in capitals mean? “{X.s}”
+
+Table `X` (one row is picked each time):
+
+| s | r | w | e | y |
+|---|---|---|---|---|
+| We sat on the BANK of the river. | the side of a river | a place that keeps money · a kind of food · a school subject | That is the other meaning; look at the context. · That is not a meaning of this word. · That is not a meaning of this word. | In this sentence, bank means the side of a river. |
+| She deposited money at the BANK. | a place that keeps money | the side of a river · a kind of food · a school subject | That is the other meaning; look at the context. · That is not a meaning of this word. · That is not a meaning of this word. | In this sentence, bank means a place that keeps money. |
+| This parcel is very LIGHT. | not heavy | brightness from the sun or a lamp · a kind of food · a school subject | That is the other meaning; look at the context. · That is not a meaning of this word. · That is not a meaning of this word. | In this sentence, light means not heavy. |
+| We watched the MATCH on Saturday. | a game | a small stick that makes fire · a kind of food · a school subject | That is the other meaning; look at the context. · That is not a meaning of this word. · That is not a meaning of this word. | In this sentence, match means a game. |
+| My WATCH says nine o'clock. | a small clock worn on the wrist | to look at · a kind of food · a school subject | That is the other meaning; look at the context. · That is not a meaning of this word. · That is not a meaning of this word. | In this sentence, watch means a small clock worn on the wrist. |
+| The boxers fought in the RING. | the square where boxers fight | jewellery worn on a finger · a kind of food · a school subject | That is the other meaning; look at the context. · That is not a meaning of this word. · That is not a meaning of this word. | In this sentence, ring means the square where boxers fight. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does the word in capitals mean? “We watched the MATCH on Saturday.”
+
+- ◻️ a kind of food  
+  _↳ feedback if chosen: That is not a meaning of this word._
+- ✅ a game
+- ◻️ a school subject  
+  _↳ feedback if chosen: That is not a meaning of this word._
+- ◻️ a small stick that makes fire  
+  _↳ feedback if chosen: That is the other meaning; look at the context._
+
+Full working after a second miss:
+
+> In this sentence, match means a game.  
+> So the answer is “a game”.  
+
+> What does the word in capitals mean? “The boxers fought in the RING.”
+
+- ◻️ a school subject  
+  _↳ feedback if chosen: That is not a meaning of this word._
+- ✅ the square where boxers fight
+- ◻️ a kind of food  
+  _↳ feedback if chosen: That is not a meaning of this word._
+- ◻️ jewellery worn on a finger  
+  _↳ feedback if chosen: That is the other meaning; look at the context._
+
+Full working after a second miss:
+
+> In this sentence, ring means the square where boxers fight.  
+> So the answer is “the square where boxers fight”.  
+
+> What does the word in capitals mean? “The boxers fought in the RING.”
+
+- ◻️ jewellery worn on a finger  
+  _↳ feedback if chosen: That is the other meaning; look at the context._
+- ◻️ a school subject  
+  _↳ feedback if chosen: That is not a meaning of this word._
+- ◻️ a kind of food  
+  _↳ feedback if chosen: That is not a meaning of this word._
+- ✅ the square where boxers fight
+
+Full working after a second miss:
+
+> In this sentence, ring means the square where boxers fight.  
+> So the answer is “the square where boxers fight”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-62-ctx` · Lesson 62 · multiple choice, level 1
+
+Prompt: Which sentence uses the word “{X.k}” to mean {X.m}?
+
+Table `X` (one row is picked each time):
+
+| k | m | r | w | e | y |
+|---|---|---|---|---|---|
+| light | “not heavy” | The box is light: a child can carry it. | Switch on the light, please. · Light the fire, please. · She wore a light blue dress. | Here light means brightness. · Here light means to start a fire. · Here light describes a colour. | A child can carry it, so it is not heavy. |
+| watch | “a clock worn on the wrist” | My watch stopped at noon. | Watch the road carefully. · We watch football on Sundays. · The soldiers keep watch at night. | Here watch means look at. · Here watch means look at. · Here watch means guard duty. | A watch that stops is a clock. |
+| match | “a game” | The match ended in a draw. | Strike a match to light the stove. · These colours do not match. · Bring a box of matches. | Here match means a small stick. · Here match means go well together. · Here matches are small sticks. | A match that ends in a draw is a game. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which sentence uses the word “light” to mean “not heavy”?
+
+- ◻️ Light the fire, please.  
+  _↳ feedback if chosen: Here light means to start a fire._
+- ◻️ Switch on the light, please.  
+  _↳ feedback if chosen: Here light means brightness._
+- ◻️ She wore a light blue dress.  
+  _↳ feedback if chosen: Here light describes a colour._
+- ✅ The box is light: a child can carry it.
+
+Full working after a second miss:
+
+> A child can carry it, so it is not heavy.  
+> So the answer is “The box is light: a child can carry it.”.  
+
+> Which sentence uses the word “watch” to mean “a clock worn on the wrist”?
+
+- ◻️ The soldiers keep watch at night.  
+  _↳ feedback if chosen: Here watch means guard duty._
+- ◻️ Watch the road carefully.  
+  _↳ feedback if chosen: Here watch means look at._
+- ◻️ We watch football on Sundays.  
+  _↳ feedback if chosen: Here watch means look at._
+- ✅ My watch stopped at noon.
+
+Full working after a second miss:
+
+> A watch that stops is a clock.  
+> So the answer is “My watch stopped at noon.”.  
+
+> Which sentence uses the word “watch” to mean “a clock worn on the wrist”?
+
+- ✅ My watch stopped at noon.
+- ◻️ We watch football on Sundays.  
+  _↳ feedback if chosen: Here watch means look at._
+- ◻️ Watch the road carefully.  
+  _↳ feedback if chosen: Here watch means look at._
+- ◻️ The soldiers keep watch at night.  
+  _↳ feedback if chosen: Here watch means guard duty._
+
+Full working after a second miss:
+
+> A watch that stops is a clock.  
+> So the answer is “My watch stopped at noon.”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-62-kind` · Lesson 62 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which pair are homonyms (same spelling, different meanings)? | bark (of a tree) / bark (of a dog) | sea / see · write / right · big / large | They are spelt differently: homophones. · They are spelt differently: homophones. · They mean the same: synonyms. | Same spelling and sound, different meanings. |
+| Which pair are homophones (same sound, different spelling)? | hear / here | bank / bank · ring / ring · hot / cold | Same spelling: homonyms. · Same spelling: homonyms. · Opposite meanings: antonyms. | They sound the same but are spelt differently. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which pair are homophones (same sound, different spelling)?
+
+- ✅ hear / here
+- ◻️ ring / ring  
+  _↳ feedback if chosen: Same spelling: homonyms._
+- ◻️ hot / cold  
+  _↳ feedback if chosen: Opposite meanings: antonyms._
+- ◻️ bank / bank  
+  _↳ feedback if chosen: Same spelling: homonyms._
+
+Full working after a second miss:
+
+> They sound the same but are spelt differently.  
+> So the answer is “hear / here”.  
+
+> Which pair are homophones (same sound, different spelling)?
+
+- ◻️ bank / bank  
+  _↳ feedback if chosen: Same spelling: homonyms._
+- ◻️ ring / ring  
+  _↳ feedback if chosen: Same spelling: homonyms._
+- ✅ hear / here
+- ◻️ hot / cold  
+  _↳ feedback if chosen: Opposite meanings: antonyms._
+
+Full working after a second miss:
+
+> They sound the same but are spelt differently.  
+> So the answer is “hear / here”.  
+
+> Which pair are homonyms (same spelling, different meanings)?
+
+- ◻️ sea / see  
+  _↳ feedback if chosen: They are spelt differently: homophones._
+- ◻️ big / large  
+  _↳ feedback if chosen: They mean the same: synonyms._
+- ◻️ write / right  
+  _↳ feedback if chosen: They are spelt differently: homophones._
+- ✅ bark (of a tree) / bark (of a dog)
+
+Full working after a second miss:
+
+> Same spelling and sound, different meanings.  
+> So the answer is “bark (of a tree) / bark (of a dog)”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-62-spot` · Lesson 62 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ “Bank” can mean the side of a river.
+- ✅ Homonyms are spelt the same.
+- ✅ We use the context to find the meaning of a homonym.
+- ✅ “Spring” can be a season.
+- ❌ Homonyms are always spelt differently.  
+  _↳ Homonyms are spelt the same; homophones are spelt differently._
+- ❌ “Sea” and “see” are homonyms.  
+  _↳ They are homophones (different spelling)._
+- ❌ “Bark” has only one meaning.  
+  _↳ It is the covering of a tree, or the sound of a dog._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ “Bark” has only one meaning.  
+  _↳ explanation: It is the covering of a tree, or the sound of a dog._
+- ◻️ We use the context to find the meaning of a homonym.
+- ◻️ Homonyms are spelt the same.
+- ◻️ “Spring” can be a season.
+
+Full working after a second miss:
+
+> The wrong statement is ““Bark” has only one meaning.”.  
+> It is the covering of a tree, or the sound of a dog.  
+
+> Which statement is wrong?
+
+- ◻️ “Spring” can be a season.
+- ✅ “Bark” has only one meaning.  
+  _↳ explanation: It is the covering of a tree, or the sound of a dog._
+- ◻️ “Bank” can mean the side of a river.
+- ◻️ Homonyms are spelt the same.
+
+Full working after a second miss:
+
+> The wrong statement is ““Bark” has only one meaning.”.  
+> It is the covering of a tree, or the sound of a dog.  
+
+> Which statement is wrong?
+
+- ◻️ We use the context to find the meaning of a homonym.
+- ◻️ “Spring” can be a season.
+- ✅ “Sea” and “see” are homonyms.  
+  _↳ explanation: They are homophones (different spelling)._
+- ◻️ “Bank” can mean the side of a river.
+
+Full working after a second miss:
+
+> The wrong statement is ““Sea” and “see” are homonyms.”.  
+> They are homophones (different spelling).  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-62-kind-card` · Lesson 62 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which pair are homonyms (same spelling, different meanings)? | bark (of a tree) / bark (of a dog) | sea / see · write / right · big / large | They are spelt differently: homophones. · They are spelt differently: homophones. · They mean the same: synonyms. | Same spelling and sound, different meanings. |
+| Which pair are homophones (same sound, different spelling)? | hear / here | bank / bank · ring / ring · hot / cold | Same spelling: homonyms. · Same spelling: homonyms. · Opposite meanings: antonyms. | They sound the same but are spelt differently. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which pair are homophones (same sound, different spelling)?
+
+- ◻️ bank / bank  
+  _↳ feedback if chosen: Same spelling: homonyms._
+- ◻️ ring / ring  
+  _↳ feedback if chosen: Same spelling: homonyms._
+- ✅ hear / here
+- ◻️ hot / cold  
+  _↳ feedback if chosen: Opposite meanings: antonyms._
+
+Full working after a second miss:
+
+> They sound the same but are spelt differently.  
+> So the answer is “hear / here”.  
+
+> Which pair are homonyms (same spelling, different meanings)?
+
+- ✅ bark (of a tree) / bark (of a dog)
+- ◻️ write / right  
+  _↳ feedback if chosen: They are spelt differently: homophones._
+- ◻️ big / large  
+  _↳ feedback if chosen: They mean the same: synonyms._
+- ◻️ sea / see  
+  _↳ feedback if chosen: They are spelt differently: homophones._
+
+Full working after a second miss:
+
+> Same spelling and sound, different meanings.  
+> So the answer is “bark (of a tree) / bark (of a dog)”.  
+
+> Which pair are homonyms (same spelling, different meanings)?
+
+- ◻️ sea / see  
+  _↳ feedback if chosen: They are spelt differently: homophones._
+- ◻️ big / large  
+  _↳ feedback if chosen: They mean the same: synonyms._
+- ✅ bark (of a tree) / bark (of a dog)
+- ◻️ write / right  
+  _↳ feedback if chosen: They are spelt differently: homophones._
+
+Full working after a second miss:
+
+> Same spelling and sound, different meanings.  
+> So the answer is “bark (of a tree) / bark (of a dog)”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-63-the` · Lesson 63 · fill the blank, level 1
+
+Prompt: Choose the article.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| I saw a robot in the hospital. ___ robot was carrying medicine. | The | A · An | The robot is already known: the. · Robot starts with a consonant, and it is already known. |
+| ___ sun gives us light and heat. | The | A · An | There is only one sun: the. · There is only one sun: the. |
+| She is ___ best student in our class. | the | a · an | With best (a superlative), use the. · With best, use the. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the article.
+
+Sentence: **___ sun gives us light and heat.**
+- ◻️ An  
+  _↳ feedback if chosen: There is only one sun: the._
+- ◻️ A  
+  _↳ feedback if chosen: There is only one sun: the._
+- ✅ The
+
+Full working after a second miss:
+
+> The missing word is “The”.  
+> The sun gives us light and heat.  
+
+> Choose the article.
+
+Sentence: **___ sun gives us light and heat.**
+- ✅ The
+- ◻️ An  
+  _↳ feedback if chosen: There is only one sun: the._
+- ◻️ A  
+  _↳ feedback if chosen: There is only one sun: the._
+
+Full working after a second miss:
+
+> The missing word is “The”.  
+> The sun gives us light and heat.  
+
+> Choose the article.
+
+Sentence: **___ sun gives us light and heat.**
+- ✅ The
+- ◻️ A  
+  _↳ feedback if chosen: There is only one sun: the._
+- ◻️ An  
+  _↳ feedback if chosen: There is only one sun: the._
+
+Full working after a second miss:
+
+> The missing word is “The”.  
+> The sun gives us light and heat.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-63-none` · Lesson 63 · fill the blank, level 2
+
+Prompt: Choose the article, or ∅ for no article.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| My cousin lives in ___ Douala. | ∅ | the · a | No article before a town's name. · No article before a town's name. |
+| ___ science helps us to live longer. | ∅ | The · A | Science in general takes no article. · Science is uncountable: no a. |
+| We use ___ internet to talk to the doctor. | the | ∅ · an | We say the internet. · We say the internet. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the article, or ∅ for no article.
+
+Sentence: **___ science helps us to live longer.**
+- ◻️ A  
+  _↳ feedback if chosen: Science is uncountable: no a._
+- ✅ ∅
+- ◻️ The  
+  _↳ feedback if chosen: Science in general takes no article._
+
+Full working after a second miss:
+
+> The missing word is “∅”.  
+> ∅ science helps us to live longer.  
+
+> Choose the article, or ∅ for no article.
+
+Sentence: **___ science helps us to live longer.**
+- ◻️ A  
+  _↳ feedback if chosen: Science is uncountable: no a._
+- ✅ ∅
+- ◻️ The  
+  _↳ feedback if chosen: Science in general takes no article._
+
+Full working after a second miss:
+
+> The missing word is “∅”.  
+> ∅ science helps us to live longer.  
+
+> Choose the article, or ∅ for no article.
+
+Sentence: **We use ___ internet to talk to the doctor.**
+- ◻️ ∅  
+  _↳ feedback if chosen: We say the internet._
+- ✅ the
+- ◻️ an  
+  _↳ feedback if chosen: We say the internet._
+
+Full working after a second miss:
+
+> The missing word is “the”.  
+> We use the internet to talk to the doctor.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-63-spot` · Lesson 63 · spot the error, level 3
+
+Prompt: Which sentence has an article mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ An engineer repaired the machine.
+- ✅ She waited for an hour.
+- ✅ A university opened in our town.
+- ✅ The internet is useful.
+- ❌ He wore an uniform.  
+  _↳ Uniform starts with the sound /j/: a uniform._
+- ❌ She is a honest woman.  
+  _↳ The h is silent: an honest woman._
+- ❌ They live in the Cameroon.  
+  _↳ No article before Cameroon._
+
+
+Three generated variants:
+
+> Which sentence has an article mistake?
+
+- ◻️ An engineer repaired the machine.
+- ◻️ She waited for an hour.
+- ◻️ A university opened in our town.
+- ✅ She is a honest woman.  
+  _↳ explanation: The h is silent: an honest woman._
+
+Full working after a second miss:
+
+> The wrong statement is “She is a honest woman.”.  
+> The h is silent: an honest woman.  
+
+> Which sentence has an article mistake?
+
+- ◻️ She waited for an hour.
+- ◻️ A university opened in our town.
+- ◻️ The internet is useful.
+- ✅ She is a honest woman.  
+  _↳ explanation: The h is silent: an honest woman._
+
+Full working after a second miss:
+
+> The wrong statement is “She is a honest woman.”.  
+> The h is silent: an honest woman.  
+
+> Which sentence has an article mistake?
+
+- ◻️ A university opened in our town.
+- ◻️ The internet is useful.
+- ◻️ An engineer repaired the machine.
+- ✅ She is a honest woman.  
+  _↳ explanation: The h is silent: an honest woman._
+
+Full working after a second miss:
+
+> The wrong statement is “She is a honest woman.”.  
+> The h is silent: an honest woman.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-63-none-card` · Lesson 63 · fill the blank, level 1
+
+Prompt: Choose the article, or ∅ for no article.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| My cousin lives in ___ Douala. | ∅ | the · a | No article before a town's name. · No article before a town's name. |
+| ___ science helps us to live longer. | ∅ | The · A | Science in general takes no article. · Science is uncountable: no a. |
+| We use ___ internet to talk to the doctor. | the | ∅ · an | We say the internet. · We say the internet. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the article, or ∅ for no article.
+
+Sentence: **___ science helps us to live longer.**
+- ✅ ∅
+- ◻️ The  
+  _↳ feedback if chosen: Science in general takes no article._
+- ◻️ A  
+  _↳ feedback if chosen: Science is uncountable: no a._
+
+Full working after a second miss:
+
+> The missing word is “∅”.  
+> ∅ science helps us to live longer.  
+
+> Choose the article, or ∅ for no article.
+
+Sentence: **My cousin lives in ___ Douala.**
+- ◻️ the  
+  _↳ feedback if chosen: No article before a town's name._
+- ◻️ a  
+  _↳ feedback if chosen: No article before a town's name._
+- ✅ ∅
+
+Full working after a second miss:
+
+> The missing word is “∅”.  
+> My cousin lives in ∅ Douala.  
+
+> Choose the article, or ∅ for no article.
+
+Sentence: **My cousin lives in ___ Douala.**
+- ✅ ∅
+- ◻️ the  
+  _↳ feedback if chosen: No article before a town's name._
+- ◻️ a  
+  _↳ feedback if chosen: No article before a town's name._
+
+Full working after a second miss:
+
+> The missing word is “∅”.  
+> My cousin lives in ∅ Douala.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-64-order` · Lesson 64 · ordering, level 1
+
+Prompt: Put the parts of the biography in order.
+
+Items in the right order:
+
+1. Arthur Zang was born in Cameroon and loved electronics as a boy.
+2. He studied computer engineering at university.
+3. He invented the Cardiopad, a tablet that sends heart tests to doctors far away.
+4. His invention has received international awards.
+5. I admire him because he used science to help patients in villages.
+
+
+Three generated variants:
+
+> Put the parts of the biography in order.
+
+Shown as: He studied computer engineering at university. · His invention has received international awards. · I admire him because he used science to help patients in villages. · Arthur Zang was born in Cameroon and loved electronics as a boy. · He invented the Cardiopad, a tablet that sends heart tests to doctors far away.
+Correct order: Arthur Zang was born in Cameroon and loved electronics as a boy. → He studied computer engineering at university. → He invented the Cardiopad, a tablet that sends heart tests to doctors far away. → His invention has received international awards. → I admire him because he used science to help patients in villages.
+
+Full working after a second miss:
+
+> The correct order is: Arthur Zang was born in Cameroon and loved electronics as a boy. → He studied computer engineering at university. → He invented the Cardiopad, a tablet that sends heart tests to doctors far away. → His invention has received international awards. → I admire him because he used science to help patients in villages..  
+
+> Put the parts of the biography in order.
+
+Shown as: His invention has received international awards. · He invented the Cardiopad, a tablet that sends heart tests to doctors far away. · Arthur Zang was born in Cameroon and loved electronics as a boy. · He studied computer engineering at university. · I admire him because he used science to help patients in villages.
+Correct order: Arthur Zang was born in Cameroon and loved electronics as a boy. → He studied computer engineering at university. → He invented the Cardiopad, a tablet that sends heart tests to doctors far away. → His invention has received international awards. → I admire him because he used science to help patients in villages.
+
+Full working after a second miss:
+
+> The correct order is: Arthur Zang was born in Cameroon and loved electronics as a boy. → He studied computer engineering at university. → He invented the Cardiopad, a tablet that sends heart tests to doctors far away. → His invention has received international awards. → I admire him because he used science to help patients in villages..  
+
+> Put the parts of the biography in order.
+
+Shown as: Arthur Zang was born in Cameroon and loved electronics as a boy. · I admire him because he used science to help patients in villages. · His invention has received international awards. · He invented the Cardiopad, a tablet that sends heart tests to doctors far away. · He studied computer engineering at university.
+Correct order: Arthur Zang was born in Cameroon and loved electronics as a boy. → He studied computer engineering at university. → He invented the Cardiopad, a tablet that sends heart tests to doctors far away. → His invention has received international awards. → I admire him because he used science to help patients in villages.
+
+Full working after a second miss:
+
+> The correct order is: Arthur Zang was born in Cameroon and loved electronics as a boy. → He studied computer engineering at university. → He invented the Cardiopad, a tablet that sends heart tests to doctors far away. → His invention has received international awards. → I admire him because he used science to help patients in villages..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-65-words` · Lesson 65 · matching, level 1
+
+Prompt: Match each word to its meaning.
+
+Pairs (4 shown each time):
+
+- climate → **the usual weather of a place over many years**
+- a drought → **a long time without rain**
+- a flood → **a lot of water covering land that is usually dry**
+- a landslide → **a mass of earth and rocks falling down a hill**
+- global warming → **the slow rise of the Earth's temperature**
+
+
+Three generated variants:
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a lot of water covering land that is usually dry · a mass of earth and rocks falling down a hill · the usual weather of a place over many years · a long time without rain
+- a drought → **a long time without rain**
+- a flood → **a lot of water covering land that is usually dry**
+- a landslide → **a mass of earth and rocks falling down a hill**
+- climate → **the usual weather of a place over many years**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a drought → a long time without rain  
+> a flood → a lot of water covering land that is usually dry  
+> a landslide → a mass of earth and rocks falling down a hill  
+> climate → the usual weather of a place over many years  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a lot of water covering land that is usually dry · a mass of earth and rocks falling down a hill · the usual weather of a place over many years · a long time without rain
+- a drought → **a long time without rain**
+- climate → **the usual weather of a place over many years**
+- a flood → **a lot of water covering land that is usually dry**
+- a landslide → **a mass of earth and rocks falling down a hill**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a drought → a long time without rain  
+> climate → the usual weather of a place over many years  
+> a flood → a lot of water covering land that is usually dry  
+> a landslide → a mass of earth and rocks falling down a hill  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a lot of water covering land that is usually dry · a mass of earth and rocks falling down a hill · the slow rise of the Earth's temperature · a long time without rain
+- a landslide → **a mass of earth and rocks falling down a hill**
+- a drought → **a long time without rain**
+- global warming → **the slow rise of the Earth's temperature**
+- a flood → **a lot of water covering land that is usually dry**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> a landslide → a mass of earth and rocks falling down a hill  
+> a drought → a long time without rain  
+> global warming → the slow rise of the Earth's temperature  
+> a flood → a lot of water covering land that is usually dry  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-65-text` · Lesson 65 · multiple choice, level 1
+
+Prompt: Text “A warmer world”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what does carbon dioxide do in the air? | it traps the sun's heat | it makes rain · it cools the Earth · it feeds the crops | The text does not say that. · It warms the Earth. · The text does not say that. | It traps heat like the glass of a greenhouse. |
+| what happens in the north of Cameroon? | droughts dry up wells and crops | landslides destroy homes · it snows · the forests grow | The text puts landslides elsewhere. · The text does not say that. · The text does not say that. | “In the north of Cameroon, droughts dry up wells and crops.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A warmer world”: what happens in the north of Cameroon?
+
+- ✅ droughts dry up wells and crops
+- ◻️ the forests grow  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ it snows  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ landslides destroy homes  
+  _↳ feedback if chosen: The text puts landslides elsewhere._
+
+Full working after a second miss:
+
+> “In the north of Cameroon, droughts dry up wells and crops.”  
+> So the answer is “droughts dry up wells and crops”.  
+
+> Text “A warmer world”: what happens in the north of Cameroon?
+
+- ◻️ the forests grow  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ it snows  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ landslides destroy homes  
+  _↳ feedback if chosen: The text puts landslides elsewhere._
+- ✅ droughts dry up wells and crops
+
+Full working after a second miss:
+
+> “In the north of Cameroon, droughts dry up wells and crops.”  
+> So the answer is “droughts dry up wells and crops”.  
+
+> Text “A warmer world”: what does carbon dioxide do in the air?
+
+- ✅ it traps the sun's heat
+- ◻️ it feeds the crops  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ it cools the Earth  
+  _↳ feedback if chosen: It warms the Earth._
+- ◻️ it makes rain  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> It traps heat like the glass of a greenhouse.  
+> So the answer is “it traps the sun's heat”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-65-idea` · Lesson 65 · multiple choice, level 2
+
+Prompt: Text “A warmer world”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the main message? | people cause global warming, and people can help to reduce it | nothing can be done · only rich countries feel it · global warming is good for crops | The text lists actions. · The text gives examples in Cameroon. · Droughts destroy crops. | The text ends with what we can do. |
+| which action helps against global warming? | planting trees | burning bushes · cutting forests · burning rubbish | That adds carbon dioxide. · That adds carbon dioxide. · That adds smoke. | Trees take in carbon dioxide. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A warmer world”: what is the main message?
+
+- ✅ people cause global warming, and people can help to reduce it
+- ◻️ only rich countries feel it  
+  _↳ feedback if chosen: The text gives examples in Cameroon._
+- ◻️ global warming is good for crops  
+  _↳ feedback if chosen: Droughts destroy crops._
+- ◻️ nothing can be done  
+  _↳ feedback if chosen: The text lists actions._
+
+Full working after a second miss:
+
+> The text ends with what we can do.  
+> So the answer is “people cause global warming, and people can help to reduce it”.  
+
+> Text “A warmer world”: which action helps against global warming?
+
+- ◻️ burning rubbish  
+  _↳ feedback if chosen: That adds smoke._
+- ◻️ burning bushes  
+  _↳ feedback if chosen: That adds carbon dioxide._
+- ◻️ cutting forests  
+  _↳ feedback if chosen: That adds carbon dioxide._
+- ✅ planting trees
+
+Full working after a second miss:
+
+> Trees take in carbon dioxide.  
+> So the answer is “planting trees”.  
+
+> Text “A warmer world”: what is the main message?
+
+- ◻️ global warming is good for crops  
+  _↳ feedback if chosen: Droughts destroy crops._
+- ◻️ nothing can be done  
+  _↳ feedback if chosen: The text lists actions._
+- ✅ people cause global warming, and people can help to reduce it
+- ◻️ only rich countries feel it  
+  _↳ feedback if chosen: The text gives examples in Cameroon._
+
+Full working after a second miss:
+
+> The text ends with what we can do.  
+> So the answer is “people cause global warming, and people can help to reduce it”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-65-spot` · Lesson 65 · spot the error, level 3
+
+Prompt: Text “A warmer world”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The Earth is getting warmer.
+- ✅ Cutting forests adds to global warming.
+- ✅ Floods can cause landslides.
+- ✅ Planting trees helps.
+- ❌ Global warming makes the dry season shorter and cooler.  
+  _↳ It gets longer and hotter._
+- ❌ Burning rubbish helps to cool the Earth.  
+  _↳ Burning adds smoke and carbon dioxide._
+- ❌ Storms become weaker.  
+  _↳ They become stronger._
+
+
+Three generated variants:
+
+> Text “A warmer world”. Which statement is wrong?
+
+- ◻️ The Earth is getting warmer.
+- ✅ Burning rubbish helps to cool the Earth.  
+  _↳ explanation: Burning adds smoke and carbon dioxide._
+- ◻️ Cutting forests adds to global warming.
+- ◻️ Planting trees helps.
+
+Full working after a second miss:
+
+> The wrong statement is “Burning rubbish helps to cool the Earth.”.  
+> Burning adds smoke and carbon dioxide.  
+
+> Text “A warmer world”. Which statement is wrong?
+
+- ✅ Storms become weaker.  
+  _↳ explanation: They become stronger._
+- ◻️ Cutting forests adds to global warming.
+- ◻️ Floods can cause landslides.
+- ◻️ Planting trees helps.
+
+Full working after a second miss:
+
+> The wrong statement is “Storms become weaker.”.  
+> They become stronger.  
+
+> Text “A warmer world”. Which statement is wrong?
+
+- ✅ Global warming makes the dry season shorter and cooler.  
+  _↳ explanation: It gets longer and hotter._
+- ◻️ Planting trees helps.
+- ◻️ Cutting forests adds to global warming.
+- ◻️ The Earth is getting warmer.
+
+Full working after a second miss:
+
+> The wrong statement is “Global warming makes the dry season shorter and cooler.”.  
+> It gets longer and hotter.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-65-idea-card` · Lesson 65 · multiple choice, level 1
+
+Prompt: Text “A warmer world”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what is the main message? | people cause global warming, and people can help to reduce it | nothing can be done · only rich countries feel it · global warming is good for crops | The text lists actions. · The text gives examples in Cameroon. · Droughts destroy crops. | The text ends with what we can do. |
+| which action helps against global warming? | planting trees | burning bushes · cutting forests · burning rubbish | That adds carbon dioxide. · That adds carbon dioxide. · That adds smoke. | Trees take in carbon dioxide. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “A warmer world”: what is the main message?
+
+- ◻️ nothing can be done  
+  _↳ feedback if chosen: The text lists actions._
+- ◻️ global warming is good for crops  
+  _↳ feedback if chosen: Droughts destroy crops._
+- ◻️ only rich countries feel it  
+  _↳ feedback if chosen: The text gives examples in Cameroon._
+- ✅ people cause global warming, and people can help to reduce it
+
+Full working after a second miss:
+
+> The text ends with what we can do.  
+> So the answer is “people cause global warming, and people can help to reduce it”.  
+
+> Text “A warmer world”: what is the main message?
+
+- ◻️ nothing can be done  
+  _↳ feedback if chosen: The text lists actions._
+- ◻️ global warming is good for crops  
+  _↳ feedback if chosen: Droughts destroy crops._
+- ◻️ only rich countries feel it  
+  _↳ feedback if chosen: The text gives examples in Cameroon._
+- ✅ people cause global warming, and people can help to reduce it
+
+Full working after a second miss:
+
+> The text ends with what we can do.  
+> So the answer is “people cause global warming, and people can help to reduce it”.  
+
+> Text “A warmer world”: which action helps against global warming?
+
+- ✅ planting trees
+- ◻️ cutting forests  
+  _↳ feedback if chosen: That adds carbon dioxide._
+- ◻️ burning bushes  
+  _↳ feedback if chosen: That adds carbon dioxide._
+- ◻️ burning rubbish  
+  _↳ feedback if chosen: That adds smoke._
+
+Full working after a second miss:
+
+> Trees take in carbon dioxide.  
+> So the answer is “planting trees”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-66-count` · Lesson 66 · multiple choice, level 1
+
+Prompt: How many syllables are there in “{X.q}”?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| tree | 1 | 2 · 3 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | tree: 1. |
+| forest | 2 | 1 · 3 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | for-est: 2. |
+| climate | 2 | 1 · 3 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | cli-mate: 2. |
+| drought | 1 | 2 · 3 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | drought: 1. |
+| warming | 2 | 1 · 3 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | warm-ing: 2. |
+| hazard | 2 | 1 · 3 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | haz-ard: 2. |
+| landslide | 2 | 1 · 3 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | land-slide: 2. |
+| energy | 3 | 1 · 2 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | en-er-gy: 3. |
+| disaster | 3 | 1 · 2 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | dis-as-ter: 3. |
+| environment | 4 | 1 · 2 · 3 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | en-vi-ron-ment: 4. |
+| temperature | 4 | 1 · 2 · 3 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | tem-per-a-ture: 4. |
+| greenhouse | 2 | 1 · 3 · 4 | Clap the word slowly and count again. · Clap the word slowly and count again. · Clap the word slowly and count again. | green-house: 2. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How many syllables are there in “landslide”?
+
+- ◻️ 3  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+- ◻️ 1  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+- ✅ 2
+- ◻️ 4  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+
+Full working after a second miss:
+
+> land-slide: 2.  
+> So the answer is “2”.  
+
+> How many syllables are there in “drought”?
+
+- ◻️ 2  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+- ◻️ 4  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+- ✅ 1
+- ◻️ 3  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+
+Full working after a second miss:
+
+> drought: 1.  
+> So the answer is “1”.  
+
+> How many syllables are there in “drought”?
+
+- ✅ 1
+- ◻️ 4  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+- ◻️ 2  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+- ◻️ 3  
+  _↳ feedback if chosen: Clap the word slowly and count again._
+
+Full working after a second miss:
+
+> drought: 1.  
+> So the answer is “1”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-66-split` · Lesson 66 · multiple choice, level 1
+
+Prompt: Which is the correct division of “{X.q}” into syllables?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| energy | en-er-gy | e-nerg-y · ener-gy · en-ergy | Split so that each part has one vowel sound. · That has only two parts; there are three sounds. · That has only two parts. | Three vowel sounds: en-er-gy. |
+| disaster | dis-as-ter | di-sast-er · disas-ter · d-isaster | Split between the syllables you clap. · There are three syllables. · A syllable needs a vowel sound. | dis-as-ter. |
+| forest | for-est | fo-rest · f-orest · forest- | We say FOR-est. · A syllable needs a vowel sound. · That is not a division. | for-est. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is the correct division of “disaster” into syllables?
+
+- ✅ dis-as-ter
+- ◻️ d-isaster  
+  _↳ feedback if chosen: A syllable needs a vowel sound._
+- ◻️ di-sast-er  
+  _↳ feedback if chosen: Split between the syllables you clap._
+- ◻️ disas-ter  
+  _↳ feedback if chosen: There are three syllables._
+
+Full working after a second miss:
+
+> dis-as-ter.  
+> So the answer is “dis-as-ter”.  
+
+> Which is the correct division of “disaster” into syllables?
+
+- ✅ dis-as-ter
+- ◻️ d-isaster  
+  _↳ feedback if chosen: A syllable needs a vowel sound._
+- ◻️ di-sast-er  
+  _↳ feedback if chosen: Split between the syllables you clap._
+- ◻️ disas-ter  
+  _↳ feedback if chosen: There are three syllables._
+
+Full working after a second miss:
+
+> dis-as-ter.  
+> So the answer is “dis-as-ter”.  
+
+> Which is the correct division of “disaster” into syllables?
+
+- ◻️ d-isaster  
+  _↳ feedback if chosen: A syllable needs a vowel sound._
+- ◻️ disas-ter  
+  _↳ feedback if chosen: There are three syllables._
+- ✅ dis-as-ter
+- ◻️ di-sast-er  
+  _↳ feedback if chosen: Split between the syllables you clap._
+
+Full working after a second miss:
+
+> dis-as-ter.  
+> So the answer is “dis-as-ter”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-66-break` · Lesson 66 · multiple choice, level 2
+
+Prompt: A word must be broken at the end of a line. Which break is correct?
+
+Table `X` (one row is picked each time):
+
+| r | w | e | y |
+|---|---|---|---|
+| envi-ronment | envir-onment · en-vironm-ent · environmen-t | Break between syllables: en-vi-ron-ment. · That breaks inside a syllable. · Do not leave one letter alone. | en-vi / ron-ment: break between syllables. |
+| tempera-ture | temp-erature · temperatu-re · te-mperature | Break between syllables: tem-per-a-ture. · Do not leave a letter alone. · Break between syllables. | tem-per-a / ture. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A word must be broken at the end of a line. Which break is correct?
+
+- ◻️ environmen-t  
+  _↳ feedback if chosen: Do not leave one letter alone._
+- ✅ envi-ronment
+- ◻️ envir-onment  
+  _↳ feedback if chosen: Break between syllables: en-vi-ron-ment._
+- ◻️ en-vironm-ent  
+  _↳ feedback if chosen: That breaks inside a syllable._
+
+Full working after a second miss:
+
+> en-vi | ron-ment: break between syllables.  
+> So the answer is “envi-ronment”.  
+
+> A word must be broken at the end of a line. Which break is correct?
+
+- ✅ tempera-ture
+- ◻️ temperatu-re  
+  _↳ feedback if chosen: Do not leave a letter alone._
+- ◻️ te-mperature  
+  _↳ feedback if chosen: Break between syllables._
+- ◻️ temp-erature  
+  _↳ feedback if chosen: Break between syllables: tem-per-a-ture._
+
+Full working after a second miss:
+
+> tem-per-a | ture.  
+> So the answer is “tempera-ture”.  
+
+> A word must be broken at the end of a line. Which break is correct?
+
+- ✅ envi-ronment
+- ◻️ envir-onment  
+  _↳ feedback if chosen: Break between syllables: en-vi-ron-ment._
+- ◻️ environmen-t  
+  _↳ feedback if chosen: Do not leave one letter alone._
+- ◻️ en-vironm-ent  
+  _↳ feedback if chosen: That breaks inside a syllable._
+
+Full working after a second miss:
+
+> en-vi | ron-ment: break between syllables.  
+> So the answer is “envi-ronment”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-66-spot` · Lesson 66 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ “Tree” has one syllable.
+- ✅ “Environment” has four syllables.
+- ✅ Each syllable has one vowel sound.
+- ✅ A silent e does not make a syllable.
+- ❌ “Drought” has two syllables because it has two vowel letters.  
+  _↳ Count sounds, not letters: one syllable._
+- ❌ “Climate” has three syllables.  
+  _↳ cli-mate: two syllables._
+- ❌ “Energy” has two syllables.  
+  _↳ en-er-gy: three syllables._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ “Energy” has two syllables.  
+  _↳ explanation: en-er-gy: three syllables._
+- ◻️ A silent e does not make a syllable.
+- ◻️ “Environment” has four syllables.
+- ◻️ “Tree” has one syllable.
+
+Full working after a second miss:
+
+> The wrong statement is ““Energy” has two syllables.”.  
+> en-er-gy: three syllables.  
+
+> Which statement is wrong?
+
+- ✅ “Climate” has three syllables.  
+  _↳ explanation: cli-mate: two syllables._
+- ◻️ “Environment” has four syllables.
+- ◻️ “Tree” has one syllable.
+- ◻️ Each syllable has one vowel sound.
+
+Full working after a second miss:
+
+> The wrong statement is ““Climate” has three syllables.”.  
+> cli-mate: two syllables.  
+
+> Which statement is wrong?
+
+- ◻️ “Tree” has one syllable.
+- ◻️ A silent e does not make a syllable.
+- ◻️ Each syllable has one vowel sound.
+- ✅ “Climate” has three syllables.  
+  _↳ explanation: cli-mate: two syllables._
+
+Full working after a second miss:
+
+> The wrong statement is ““Climate” has three syllables.”.  
+> cli-mate: two syllables.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-66-break-card` · Lesson 66 · multiple choice, level 1
+
+Prompt: A word must be broken at the end of a line. Which break is correct?
+
+Table `X` (one row is picked each time):
+
+| r | w | e | y |
+|---|---|---|---|
+| envi-ronment | envir-onment · en-vironm-ent · environmen-t | Break between syllables: en-vi-ron-ment. · That breaks inside a syllable. · Do not leave one letter alone. | en-vi / ron-ment: break between syllables. |
+| tempera-ture | temp-erature · temperatu-re · te-mperature | Break between syllables: tem-per-a-ture. · Do not leave a letter alone. · Break between syllables. | tem-per-a / ture. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A word must be broken at the end of a line. Which break is correct?
+
+- ✅ tempera-ture
+- ◻️ te-mperature  
+  _↳ feedback if chosen: Break between syllables._
+- ◻️ temperatu-re  
+  _↳ feedback if chosen: Do not leave a letter alone._
+- ◻️ temp-erature  
+  _↳ feedback if chosen: Break between syllables: tem-per-a-ture._
+
+Full working after a second miss:
+
+> tem-per-a | ture.  
+> So the answer is “tempera-ture”.  
+
+> A word must be broken at the end of a line. Which break is correct?
+
+- ◻️ temperatu-re  
+  _↳ feedback if chosen: Do not leave a letter alone._
+- ◻️ temp-erature  
+  _↳ feedback if chosen: Break between syllables: tem-per-a-ture._
+- ◻️ te-mperature  
+  _↳ feedback if chosen: Break between syllables._
+- ✅ tempera-ture
+
+Full working after a second miss:
+
+> tem-per-a | ture.  
+> So the answer is “tempera-ture”.  
+
+> A word must be broken at the end of a line. Which break is correct?
+
+- ◻️ en-vironm-ent  
+  _↳ feedback if chosen: That breaks inside a syllable._
+- ◻️ envir-onment  
+  _↳ feedback if chosen: Break between syllables: en-vi-ron-ment._
+- ◻️ environmen-t  
+  _↳ feedback if chosen: Do not leave one letter alone._
+- ✅ envi-ronment
+
+Full working after a second miss:
+
+> en-vi | ron-ment: break between syllables.  
+> So the answer is “envi-ronment”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-67-spot` · Lesson 67 · spot the error, level 3
+
+Prompt: Which sentence has a mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ This year is hotter than last year.
+- ✅ Floods are more dangerous than storms.
+- ✅ It was the worst drought in ten years.
+- ✅ The north is drier than the south.
+- ❌ This year is more hotter than last year.  
+  _↳ Do not use more and -er together: hotter._
+- ❌ Droughts are dangerouser than storms.  
+  _↳ Long adjectives take more: more dangerous._
+- ❌ It was the baddest flood.  
+  _↳ bad → worse → the worst._
+
+
+Three generated variants:
+
+> Which sentence has a mistake?
+
+- ◻️ Floods are more dangerous than storms.
+- ✅ This year is more hotter than last year.  
+  _↳ explanation: Do not use more and -er together: hotter._
+- ◻️ This year is hotter than last year.
+- ◻️ The north is drier than the south.
+
+Full working after a second miss:
+
+> The wrong statement is “This year is more hotter than last year.”.  
+> Do not use more and -er together: hotter.  
+
+> Which sentence has a mistake?
+
+- ◻️ It was the worst drought in ten years.
+- ✅ Droughts are dangerouser than storms.  
+  _↳ explanation: Long adjectives take more: more dangerous._
+- ◻️ Floods are more dangerous than storms.
+- ◻️ This year is hotter than last year.
+
+Full working after a second miss:
+
+> The wrong statement is “Droughts are dangerouser than storms.”.  
+> Long adjectives take more: more dangerous.  
+
+> Which sentence has a mistake?
+
+- ◻️ Floods are more dangerous than storms.
+- ◻️ The north is drier than the south.
+- ✅ This year is more hotter than last year.  
+  _↳ explanation: Do not use more and -er together: hotter._
+- ◻️ It was the worst drought in ten years.
+
+Full working after a second miss:
+
+> The wrong statement is “This year is more hotter than last year.”.  
+> Do not use more and -er together: hotter.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-68-order` · Lesson 68 · ordering, level 1
+
+Prompt: Put the sentences in order.
+
+Items in the right order:
+
+1. World Environment Day is celebrated every year on 5 June.
+2. On that day, pupils plant trees and clean the streets.
+3. The day reminds us that we must protect nature.
+4. Do plant trees. Don't burn bushes.
+
+
+Three generated variants:
+
+> Put the sentences in order.
+
+Shown as: The day reminds us that we must protect nature. · On that day, pupils plant trees and clean the streets. · World Environment Day is celebrated every year on 5 June. · Do plant trees. Don't burn bushes.
+Correct order: World Environment Day is celebrated every year on 5 June. → On that day, pupils plant trees and clean the streets. → The day reminds us that we must protect nature. → Do plant trees. Don't burn bushes.
+
+Full working after a second miss:
+
+> The correct order is: World Environment Day is celebrated every year on 5 June. → On that day, pupils plant trees and clean the streets. → The day reminds us that we must protect nature. → Do plant trees. Don't burn bushes..  
+
+> Put the sentences in order.
+
+Shown as: Do plant trees. Don't burn bushes. · World Environment Day is celebrated every year on 5 June. · On that day, pupils plant trees and clean the streets. · The day reminds us that we must protect nature.
+Correct order: World Environment Day is celebrated every year on 5 June. → On that day, pupils plant trees and clean the streets. → The day reminds us that we must protect nature. → Do plant trees. Don't burn bushes.
+
+Full working after a second miss:
+
+> The correct order is: World Environment Day is celebrated every year on 5 June. → On that day, pupils plant trees and clean the streets. → The day reminds us that we must protect nature. → Do plant trees. Don't burn bushes..  
+
+> Put the sentences in order.
+
+Shown as: On that day, pupils plant trees and clean the streets. · The day reminds us that we must protect nature. · World Environment Day is celebrated every year on 5 June. · Do plant trees. Don't burn bushes.
+Correct order: World Environment Day is celebrated every year on 5 June. → On that day, pupils plant trees and clean the streets. → The day reminds us that we must protect nature. → Do plant trees. Don't burn bushes.
+
+Full working after a second miss:
+
+> The correct order is: World Environment Day is celebrated every year on 5 June. → On that day, pupils plant trees and clean the streets. → The day reminds us that we must protect nature. → Do plant trees. Don't burn bushes..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-69-words` · Lesson 69 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is bullying? | hurting or frightening a weaker person again and again | playing a rough game once · helping a younger pupil · reporting a fight | Bullying is repeated and targets a weaker person. · That is the opposite. · Reporting is the right response. | A bully picks on a weaker person repeatedly. |
+| What is a delinquent? | a young person who breaks the law | a hard-working student · a school counsellor · a victim of theft | That is the opposite. · A counsellor helps students. · A victim suffers a crime. | Juvenile delinquency = young people breaking the law. |
+| What does “aggressive” mean? | ready to attack or fight | calm and kind · very tired · very clever | That is the opposite. · The text does not mean that. · The text does not mean that. | Bih says drugs make them aggressive. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What does “aggressive” mean?
+
+- ◻️ very clever  
+  _↳ feedback if chosen: The text does not mean that._
+- ◻️ calm and kind  
+  _↳ feedback if chosen: That is the opposite._
+- ◻️ very tired  
+  _↳ feedback if chosen: The text does not mean that._
+- ✅ ready to attack or fight
+
+Full working after a second miss:
+
+> Bih says drugs make them aggressive.  
+> So the answer is “ready to attack or fight”.  
+
+> What does “aggressive” mean?
+
+- ◻️ very clever  
+  _↳ feedback if chosen: The text does not mean that._
+- ◻️ calm and kind  
+  _↳ feedback if chosen: That is the opposite._
+- ✅ ready to attack or fight
+- ◻️ very tired  
+  _↳ feedback if chosen: The text does not mean that._
+
+Full working after a second miss:
+
+> Bih says drugs make them aggressive.  
+> So the answer is “ready to attack or fight”.  
+
+> What is bullying?
+
+- ◻️ reporting a fight  
+  _↳ feedback if chosen: Reporting is the right response._
+- ✅ hurting or frightening a weaker person again and again
+- ◻️ helping a younger pupil  
+  _↳ feedback if chosen: That is the opposite._
+- ◻️ playing a rough game once  
+  _↳ feedback if chosen: Bullying is repeated and targets a weaker person._
+
+Full working after a second miss:
+
+> A bully picks on a weaker person repeatedly.  
+> So the answer is “hurting or frightening a weaker person again and again”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-69-text` · Lesson 69 · multiple choice, level 1
+
+Prompt: Dialogue after class: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what were the Form Four boys caught doing? | selling tablets behind the toilets | playing football · stealing books · fighting a teacher | The text does not say that. · The text does not say that. · The text does not say that. | “caught selling tablets behind the toilets.” |
+| when does the anti-drug club meet? | every Friday | every Monday · once a year · after exams | The text says Friday. · The text says every Friday. · The text says every Friday. | “the anti-drug club meets every Friday.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dialogue after class: what were the Form Four boys caught doing?
+
+- ✅ selling tablets behind the toilets
+- ◻️ stealing books  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ playing football  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ fighting a teacher  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “caught selling tablets behind the toilets.”  
+> So the answer is “selling tablets behind the toilets”.  
+
+> Dialogue after class: what were the Form Four boys caught doing?
+
+- ◻️ stealing books  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ fighting a teacher  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ playing football  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ selling tablets behind the toilets
+
+Full working after a second miss:
+
+> “caught selling tablets behind the toilets.”  
+> So the answer is “selling tablets behind the toilets”.  
+
+> Dialogue after class: when does the anti-drug club meet?
+
+- ◻️ after exams  
+  _↳ feedback if chosen: The text says every Friday._
+- ◻️ every Monday  
+  _↳ feedback if chosen: The text says Friday._
+- ◻️ once a year  
+  _↳ feedback if chosen: The text says every Friday._
+- ✅ every Friday
+
+Full working after a second miss:
+
+> “the anti-drug club meets every Friday.”  
+> So the answer is “every Friday”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-69-idea` · Lesson 69 · multiple choice, level 2
+
+Prompt: Dialogue after class: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what does Bih think about reporting violence? | it is not cowardice; it protects the school | it is cowardice · it is useless · it should be done only by teachers | She says the opposite. · She says silence lets delinquents rule. · She says the victim should report. | “Reporting violence is not cowardice.” |
+| why do some students take drugs, according to Bih? | they think the drugs make them strong | the teachers give them · they are ill · to pass exams | The text does not say that. · The text does not say that. · The text does not say that. | “they think it makes them strong.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dialogue after class: why do some students take drugs, according to Bih?
+
+- ✅ they think the drugs make them strong
+- ◻️ the teachers give them  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ they are ill  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ to pass exams  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “they think it makes them strong.”  
+> So the answer is “they think the drugs make them strong”.  
+
+> Dialogue after class: what does Bih think about reporting violence?
+
+- ◻️ it is useless  
+  _↳ feedback if chosen: She says silence lets delinquents rule._
+- ◻️ it should be done only by teachers  
+  _↳ feedback if chosen: She says the victim should report._
+- ✅ it is not cowardice; it protects the school
+- ◻️ it is cowardice  
+  _↳ feedback if chosen: She says the opposite._
+
+Full working after a second miss:
+
+> “Reporting violence is not cowardice.”  
+> So the answer is “it is not cowardice; it protects the school”.  
+
+> Dialogue after class: why do some students take drugs, according to Bih?
+
+- ◻️ they are ill  
+  _↳ feedback if chosen: The text does not say that._
+- ✅ they think the drugs make them strong
+- ◻️ the teachers give them  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ to pass exams  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “they think it makes them strong.”  
+> So the answer is “they think the drugs make them strong”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-69-spot` · Lesson 69 · spot the error, level 3
+
+Prompt: Dialogue after class. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Two Form Four boys were selling tablets.
+- ✅ A younger boy was beaten for refusing to give money.
+- ✅ The school has a counsellor.
+- ✅ Bih advises reporting violence.
+- ❌ Bih says drugs make students calm and strong.  
+  _↳ She says they make them aggressive._
+- ❌ The victim told the discipline master at once.  
+  _↳ He was afraid; Bih advises him to tell._
+- ❌ Bih says keeping quiet is the best solution.  
+  _↳ She says silence lets delinquents rule the school._
+
+
+Three generated variants:
+
+> Dialogue after class. Which statement is wrong?
+
+- ◻️ The school has a counsellor.
+- ✅ The victim told the discipline master at once.  
+  _↳ explanation: He was afraid; Bih advises him to tell._
+- ◻️ Two Form Four boys were selling tablets.
+- ◻️ Bih advises reporting violence.
+
+Full working after a second miss:
+
+> The wrong statement is “The victim told the discipline master at once.”.  
+> He was afraid; Bih advises him to tell.  
+
+> Dialogue after class. Which statement is wrong?
+
+- ◻️ The school has a counsellor.
+- ◻️ A younger boy was beaten for refusing to give money.
+- ◻️ Two Form Four boys were selling tablets.
+- ✅ Bih says keeping quiet is the best solution.  
+  _↳ explanation: She says silence lets delinquents rule the school._
+
+Full working after a second miss:
+
+> The wrong statement is “Bih says keeping quiet is the best solution.”.  
+> She says silence lets delinquents rule the school.  
+
+> Dialogue after class. Which statement is wrong?
+
+- ◻️ A younger boy was beaten for refusing to give money.
+- ✅ Bih says keeping quiet is the best solution.  
+  _↳ explanation: She says silence lets delinquents rule the school._
+- ◻️ Bih advises reporting violence.
+- ◻️ The school has a counsellor.
+
+Full working after a second miss:
+
+> The wrong statement is “Bih says keeping quiet is the best solution.”.  
+> She says silence lets delinquents rule the school.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-69-idea-card` · Lesson 69 · multiple choice, level 1
+
+Prompt: Dialogue after class: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what does Bih think about reporting violence? | it is not cowardice; it protects the school | it is cowardice · it is useless · it should be done only by teachers | She says the opposite. · She says silence lets delinquents rule. · She says the victim should report. | “Reporting violence is not cowardice.” |
+| why do some students take drugs, according to Bih? | they think the drugs make them strong | the teachers give them · they are ill · to pass exams | The text does not say that. · The text does not say that. · The text does not say that. | “they think it makes them strong.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Dialogue after class: what does Bih think about reporting violence?
+
+- ◻️ it is cowardice  
+  _↳ feedback if chosen: She says the opposite._
+- ✅ it is not cowardice; it protects the school
+- ◻️ it should be done only by teachers  
+  _↳ feedback if chosen: She says the victim should report._
+- ◻️ it is useless  
+  _↳ feedback if chosen: She says silence lets delinquents rule._
+
+Full working after a second miss:
+
+> “Reporting violence is not cowardice.”  
+> So the answer is “it is not cowardice; it protects the school”.  
+
+> Dialogue after class: why do some students take drugs, according to Bih?
+
+- ✅ they think the drugs make them strong
+- ◻️ to pass exams  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ the teachers give them  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ they are ill  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “they think it makes them strong.”  
+> So the answer is “they think the drugs make them strong”.  
+
+> Dialogue after class: what does Bih think about reporting violence?
+
+- ◻️ it should be done only by teachers  
+  _↳ feedback if chosen: She says the victim should report._
+- ◻️ it is useless  
+  _↳ feedback if chosen: She says silence lets delinquents rule._
+- ✅ it is not cowardice; it protects the school
+- ◻️ it is cowardice  
+  _↳ feedback if chosen: She says the opposite._
+
+Full working after a second miss:
+
+> “Reporting violence is not cowardice.”  
+> So the answer is “it is not cowardice; it protects the school”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-70-colon` · Lesson 70 · fill the blank, level 1
+
+Prompt: Choose the punctuation mark.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The club has three aims___ prevention, information and help. | : | ; · , | A list is introduced with a colon. · A comma does not introduce a list. |
+| Some pupils fight___ others try to stop them. | ; | : · - | Two linked sentences: semicolon. · A hyphen joins words, not sentences. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the punctuation mark.
+
+Sentence: **Some pupils fight___ others try to stop them.**
+- ◻️ :  
+  _↳ feedback if chosen: Two linked sentences: semicolon._
+- ✅ ;
+- ◻️ -  
+  _↳ feedback if chosen: A hyphen joins words, not sentences._
+
+Full working after a second miss:
+
+> The missing word is “;”.  
+> Some pupils fight; others try to stop them.  
+
+> Choose the punctuation mark.
+
+Sentence: **The club has three aims___ prevention, information and help.**
+- ◻️ ,  
+  _↳ feedback if chosen: A comma does not introduce a list._
+- ◻️ ;  
+  _↳ feedback if chosen: A list is introduced with a colon._
+- ✅ :
+
+Full working after a second miss:
+
+> The missing word is “:”.  
+> The club has three aims: prevention, information and help.  
+
+> Choose the punctuation mark.
+
+Sentence: **Some pupils fight___ others try to stop them.**
+- ✅ ;
+- ◻️ :  
+  _↳ feedback if chosen: Two linked sentences: semicolon._
+- ◻️ -  
+  _↳ feedback if chosen: A hyphen joins words, not sentences._
+
+Full working after a second miss:
+
+> The missing word is “;”.  
+> Some pupils fight; others try to stop them.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-70-quote` · Lesson 70 · multiple choice, level 1
+
+Prompt: Which sentence is punctuated correctly?
+
+Table `X` (one row is picked each time):
+
+| r | w | e | y |
+|---|---|---|---|
+| “Tell a teacher,” said Bih. | “Tell a teacher, said Bih.” · Tell a teacher, “said Bih.” · “Tell a teacher” said Bih | Only the spoken words go inside the marks. · The marks go around the spoken words. · A comma is needed and the sentence needs a full stop. | The exact words are inside the quotation marks. |
+| The counsellor asked, “Who saw the fight?” | The counsellor asked “who saw the fight”. · The counsellor asked, Who saw the fight? · “The counsellor asked, who saw the fight?” | Capital W and a question mark inside. · The spoken words need quotation marks. · Only the spoken words go inside. | Comma, quotation marks, capital letter, question mark inside. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which sentence is punctuated correctly?
+
+- ◻️ The counsellor asked, Who saw the fight?  
+  _↳ feedback if chosen: The spoken words need quotation marks._
+- ◻️ The counsellor asked “who saw the fight”.  
+  _↳ feedback if chosen: Capital W and a question mark inside._
+- ✅ The counsellor asked, “Who saw the fight?”
+- ◻️ “The counsellor asked, who saw the fight?”  
+  _↳ feedback if chosen: Only the spoken words go inside._
+
+Full working after a second miss:
+
+> Comma, quotation marks, capital letter, question mark inside.  
+> So the answer is “The counsellor asked, “Who saw the fight?””.  
+
+> Which sentence is punctuated correctly?
+
+- ◻️ “The counsellor asked, who saw the fight?”  
+  _↳ feedback if chosen: Only the spoken words go inside._
+- ◻️ The counsellor asked “who saw the fight”.  
+  _↳ feedback if chosen: Capital W and a question mark inside._
+- ◻️ The counsellor asked, Who saw the fight?  
+  _↳ feedback if chosen: The spoken words need quotation marks._
+- ✅ The counsellor asked, “Who saw the fight?”
+
+Full working after a second miss:
+
+> Comma, quotation marks, capital letter, question mark inside.  
+> So the answer is “The counsellor asked, “Who saw the fight?””.  
+
+> Which sentence is punctuated correctly?
+
+- ◻️ “Tell a teacher, said Bih.”  
+  _↳ feedback if chosen: Only the spoken words go inside the marks._
+- ✅ “Tell a teacher,” said Bih.
+- ◻️ Tell a teacher, “said Bih.”  
+  _↳ feedback if chosen: The marks go around the spoken words._
+- ◻️ “Tell a teacher” said Bih  
+  _↳ feedback if chosen: A comma is needed and the sentence needs a full stop._
+
+Full working after a second miss:
+
+> The exact words are inside the quotation marks.  
+> So the answer is ““Tell a teacher,” said Bih.”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-70-hyphen` · Lesson 70 · fill the blank, level 2
+
+Prompt: Choose the correct form.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Join the ___ club. | anti-drug | anti drug · anti; drug | anti- joins the word with a hyphen. · A semicolon joins sentences, not words. |
+| She is a ___ counsellor. | well-known | well known, · well: known | Before a noun, well-known takes a hyphen. · A colon does not join words. |
+| There are ___ pupils in the club. | twenty-one | twenty one, · twenty: one | Numbers from 21 to 99 take a hyphen. · A colon does not join numbers. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct form.
+
+Sentence: **She is a ___ counsellor.**
+- ✅ well-known
+- ◻️ well known,  
+  _↳ feedback if chosen: Before a noun, well-known takes a hyphen._
+- ◻️ well: known  
+  _↳ feedback if chosen: A colon does not join words._
+
+Full working after a second miss:
+
+> The missing word is “well-known”.  
+> She is a well-known counsellor.  
+
+> Choose the correct form.
+
+Sentence: **She is a ___ counsellor.**
+- ✅ well-known
+- ◻️ well: known  
+  _↳ feedback if chosen: A colon does not join words._
+- ◻️ well known,  
+  _↳ feedback if chosen: Before a noun, well-known takes a hyphen._
+
+Full working after a second miss:
+
+> The missing word is “well-known”.  
+> She is a well-known counsellor.  
+
+> Choose the correct form.
+
+Sentence: **Join the ___ club.**
+- ◻️ anti drug  
+  _↳ feedback if chosen: anti- joins the word with a hyphen._
+- ◻️ anti; drug  
+  _↳ feedback if chosen: A semicolon joins sentences, not words._
+- ✅ anti-drug
+
+Full working after a second miss:
+
+> The missing word is “anti-drug”.  
+> Join the anti-drug club.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-70-spot` · Lesson 70 · spot the error, level 3
+
+Prompt: Which sentence is punctuated wrongly?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ We need three things: courage, honesty and help.
+- ✅ “Report it,” said the principal.
+- ✅ The anti-drug club meets on Friday.
+- ✅ Some pupils fight; others help.
+- ❌ We need: courage honesty and help.  
+  _↳ The colon comes after a complete clause, and the list needs commas._
+- ❌ “Report it said the principal.”  
+  _↳ Only the spoken words go inside the quotation marks._
+- ❌ Join the anti; drug club.  
+  _↳ Use a hyphen: anti-drug._
+
+
+Three generated variants:
+
+> Which sentence is punctuated wrongly?
+
+- ◻️ The anti-drug club meets on Friday.
+- ◻️ “Report it,” said the principal.
+- ◻️ We need three things: courage, honesty and help.
+- ✅ Join the anti; drug club.  
+  _↳ explanation: Use a hyphen: anti-drug._
+
+Full working after a second miss:
+
+> The wrong statement is “Join the anti; drug club.”.  
+> Use a hyphen: anti-drug.  
+
+> Which sentence is punctuated wrongly?
+
+- ◻️ The anti-drug club meets on Friday.
+- ◻️ “Report it,” said the principal.
+- ✅ Join the anti; drug club.  
+  _↳ explanation: Use a hyphen: anti-drug._
+- ◻️ Some pupils fight; others help.
+
+Full working after a second miss:
+
+> The wrong statement is “Join the anti; drug club.”.  
+> Use a hyphen: anti-drug.  
+
+> Which sentence is punctuated wrongly?
+
+- ✅ “Report it said the principal.”  
+  _↳ explanation: Only the spoken words go inside the quotation marks._
+- ◻️ We need three things: courage, honesty and help.
+- ◻️ The anti-drug club meets on Friday.
+- ◻️ “Report it,” said the principal.
+
+Full working after a second miss:
+
+> The wrong statement is ““Report it said the principal.””.  
+> Only the spoken words go inside the quotation marks.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-70-hyphen-card` · Lesson 70 · fill the blank, level 1
+
+Prompt: Choose the correct form.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Join the ___ club. | anti-drug | anti drug · anti; drug | anti- joins the word with a hyphen. · A semicolon joins sentences, not words. |
+| She is a ___ counsellor. | well-known | well known, · well: known | Before a noun, well-known takes a hyphen. · A colon does not join words. |
+| There are ___ pupils in the club. | twenty-one | twenty one, · twenty: one | Numbers from 21 to 99 take a hyphen. · A colon does not join numbers. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the correct form.
+
+Sentence: **She is a ___ counsellor.**
+- ✅ well-known
+- ◻️ well known,  
+  _↳ feedback if chosen: Before a noun, well-known takes a hyphen._
+- ◻️ well: known  
+  _↳ feedback if chosen: A colon does not join words._
+
+Full working after a second miss:
+
+> The missing word is “well-known”.  
+> She is a well-known counsellor.  
+
+> Choose the correct form.
+
+Sentence: **She is a ___ counsellor.**
+- ◻️ well known,  
+  _↳ feedback if chosen: Before a noun, well-known takes a hyphen._
+- ✅ well-known
+- ◻️ well: known  
+  _↳ feedback if chosen: A colon does not join words._
+
+Full working after a second miss:
+
+> The missing word is “well-known”.  
+> She is a well-known counsellor.  
+
+> Choose the correct form.
+
+Sentence: **Join the ___ club.**
+- ◻️ anti; drug  
+  _↳ feedback if chosen: A semicolon joins sentences, not words._
+- ✅ anti-drug
+- ◻️ anti drug  
+  _↳ feedback if chosen: anti- joins the word with a hyphen._
+
+Full working after a second miss:
+
+> The missing word is “anti-drug”.  
+> Join the anti-drug club.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-71-main` · Lesson 71 · multiple choice, level 1
+
+Prompt: Which is the main clause in: “{X.q}”?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| The boy cried because the bully took his money. | The boy cried | because the bully took his money · took his money · the bully | It begins with because: subordinate. · That is part of the subordinate clause. · That is not a clause. | “The boy cried” makes sense alone. |
+| If you see a fight, tell a teacher. | tell a teacher | If you see a fight · you see · a fight | It begins with if: subordinate. · That is part of the subordinate clause. · That is not a clause. | “tell a teacher” is the main instruction. |
+| Although she was frightened, Ngum spoke to the counsellor. | Ngum spoke to the counsellor | Although she was frightened · she was frightened · the counsellor | It begins with although: subordinate. · That is part of the subordinate clause. · That is not a clause. | It makes sense on its own. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which is the main clause in: “The boy cried because the bully took his money.”?
+
+- ◻️ the bully  
+  _↳ feedback if chosen: That is not a clause._
+- ◻️ because the bully took his money  
+  _↳ feedback if chosen: It begins with because: subordinate._
+- ✅ The boy cried
+- ◻️ took his money  
+  _↳ feedback if chosen: That is part of the subordinate clause._
+
+Full working after a second miss:
+
+> “The boy cried” makes sense alone.  
+> So the answer is “The boy cried”.  
+
+> Which is the main clause in: “If you see a fight, tell a teacher.”?
+
+- ◻️ a fight  
+  _↳ feedback if chosen: That is not a clause._
+- ✅ tell a teacher
+- ◻️ If you see a fight  
+  _↳ feedback if chosen: It begins with if: subordinate._
+- ◻️ you see  
+  _↳ feedback if chosen: That is part of the subordinate clause._
+
+Full working after a second miss:
+
+> “tell a teacher” is the main instruction.  
+> So the answer is “tell a teacher”.  
+
+> Which is the main clause in: “The boy cried because the bully took his money.”?
+
+- ✅ The boy cried
+- ◻️ the bully  
+  _↳ feedback if chosen: That is not a clause._
+- ◻️ because the bully took his money  
+  _↳ feedback if chosen: It begins with because: subordinate._
+- ◻️ took his money  
+  _↳ feedback if chosen: That is part of the subordinate clause._
+
+Full working after a second miss:
+
+> “The boy cried” makes sense alone.  
+> So the answer is “The boy cried”.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-71-sub` · Lesson 71 · fill the blank, level 1
+
+Prompt: Choose the subordinator that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| He was punished ___ he bullied a younger boy. | because | although · until | The second clause gives the reason: because. · Until is about time. |
+| ___ you see drugs in school, report it. | If | Because · Although | It is a condition: if. · It is a condition, not a contrast. |
+| ___ he was afraid, he told the truth. | Although | Because · If | Afraid but brave: a contrast, although. · It is a fact, not a condition. |
+| Wait here ___ the principal arrives. | until | because · although | It is about time: until. · It is about time. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the subordinator that fits.
+
+Sentence: **___ he was afraid, he told the truth.**
+- ✅ Although
+- ◻️ Because  
+  _↳ feedback if chosen: Afraid but brave: a contrast, although._
+- ◻️ If  
+  _↳ feedback if chosen: It is a fact, not a condition._
+
+Full working after a second miss:
+
+> The missing word is “Although”.  
+> Although he was afraid, he told the truth.  
+
+> Choose the subordinator that fits.
+
+Sentence: **___ he was afraid, he told the truth.**
+- ◻️ Because  
+  _↳ feedback if chosen: Afraid but brave: a contrast, although._
+- ✅ Although
+- ◻️ If  
+  _↳ feedback if chosen: It is a fact, not a condition._
+
+Full working after a second miss:
+
+> The missing word is “Although”.  
+> Although he was afraid, he told the truth.  
+
+> Choose the subordinator that fits.
+
+Sentence: **___ you see drugs in school, report it.**
+- ◻️ Although  
+  _↳ feedback if chosen: It is a condition, not a contrast._
+- ✅ If
+- ◻️ Because  
+  _↳ feedback if chosen: It is a condition: if._
+
+Full working after a second miss:
+
+> The missing word is “If”.  
+> If you see drugs in school, report it.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-71-join` · Lesson 71 · word order, level 2
+
+Prompt: Tap the words in the right order.
+
+Table `X` (one row is picked each time):
+
+| a | b |
+|---|---|
+| Although he was afraid, he reported the bully. | Although he was afraid, he reported the bully. |
+| The fight stopped when the teacher arrived. | The fight stopped when the teacher arrived. |
+| If you are bullied, tell a teacher you trust. | If you are bullied, tell a teacher you trust. |
+| She joined the club because she wanted to help. | She joined the club because she wanted to help. |
+
+Sentence(s): {X.a} (also accepted: {X.b})
+
+
+Three generated variants:
+
+> Tap the words in the right order.
+
+Tiles: stopped · arrived · The · teacher · when · fight · the (then “.”)
+Answer: **The fight stopped when the teacher arrived.**
+
+Full working after a second miss:
+
+> The sentence is: The fight stopped when the teacher arrived.  
+
+> Tap the words in the right order.
+
+Tiles: was · the · he · Although · reported · bully · afraid, · he (then “.”)
+Answer: **Although he was afraid, he reported the bully.**
+
+Full working after a second miss:
+
+> The sentence is: Although he was afraid, he reported the bully.  
+
+> Tap the words in the right order.
+
+Tiles: he · afraid, · reported · he · the · Although · was · bully (then “.”)
+Answer: **Although he was afraid, he reported the bully.**
+
+Full working after a second miss:
+
+> The sentence is: Although he was afraid, he reported the bully.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-71-spot` · Lesson 71 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A main clause makes sense on its own.
+- ✅ “because he was afraid” is a subordinate clause.
+- ✅ A complex sentence has a main and a subordinate clause.
+- ✅ When the subordinate clause comes first, we use a comma.
+- ❌ “When the bell rang.” is a complete sentence.  
+  _↳ It is a subordinate clause; it needs a main clause._
+- ❌ A subordinate clause always begins with “and”.  
+  _↳ It begins with a subordinator: because, when, if, although …_
+- ❌ A main clause cannot have a verb.  
+  _↳ Every clause has a subject and a verb._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A main clause makes sense on its own.
+- ◻️ A complex sentence has a main and a subordinate clause.
+- ◻️ “because he was afraid” is a subordinate clause.
+- ✅ “When the bell rang.” is a complete sentence.  
+  _↳ explanation: It is a subordinate clause; it needs a main clause._
+
+Full working after a second miss:
+
+> The wrong statement is ““When the bell rang.” is a complete sentence.”.  
+> It is a subordinate clause; it needs a main clause.  
+
+> Which statement is wrong?
+
+- ✅ “When the bell rang.” is a complete sentence.  
+  _↳ explanation: It is a subordinate clause; it needs a main clause._
+- ◻️ A complex sentence has a main and a subordinate clause.
+- ◻️ “because he was afraid” is a subordinate clause.
+- ◻️ When the subordinate clause comes first, we use a comma.
+
+Full working after a second miss:
+
+> The wrong statement is ““When the bell rang.” is a complete sentence.”.  
+> It is a subordinate clause; it needs a main clause.  
+
+> Which statement is wrong?
+
+- ◻️ When the subordinate clause comes first, we use a comma.
+- ✅ “When the bell rang.” is a complete sentence.  
+  _↳ explanation: It is a subordinate clause; it needs a main clause._
+- ◻️ “because he was afraid” is a subordinate clause.
+- ◻️ A complex sentence has a main and a subordinate clause.
+
+Full working after a second miss:
+
+> The wrong statement is ““When the bell rang.” is a complete sentence.”.  
+> It is a subordinate clause; it needs a main clause.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-71-join-card` · Lesson 71 · word order, level 1
+
+Prompt: Tap the words in the right order.
+
+Table `X` (one row is picked each time):
+
+| a | b |
+|---|---|
+| Although he was afraid, he reported the bully. | Although he was afraid, he reported the bully. |
+| The fight stopped when the teacher arrived. | The fight stopped when the teacher arrived. |
+| If you are bullied, tell a teacher you trust. | If you are bullied, tell a teacher you trust. |
+| She joined the club because she wanted to help. | She joined the club because she wanted to help. |
+
+Sentence(s): {X.a} (also accepted: {X.b})
+
+
+Three generated variants:
+
+> Tap the words in the right order.
+
+Tiles: a · If · you · you · tell · bullied, · teacher · are · trust (then “.”)
+Answer: **If you are bullied, tell a teacher you trust.**
+
+Full working after a second miss:
+
+> The sentence is: If you are bullied, tell a teacher you trust.  
+
+> Tap the words in the right order.
+
+Tiles: bully · was · the · Although · he · reported · he · afraid, (then “.”)
+Answer: **Although he was afraid, he reported the bully.**
+
+Full working after a second miss:
+
+> The sentence is: Although he was afraid, he reported the bully.  
+
+> Tap the words in the right order.
+
+Tiles: because · She · wanted · to · she · the · joined · help · club (then “.”)
+Answer: **She joined the club because she wanted to help.**
+
+Full working after a second miss:
+
+> The sentence is: She joined the club because she wanted to help.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-72-order` · Lesson 72 · ordering, level 1
+
+Prompt: Put the sentences of the essay in order.
+
+Items in the right order:
+
+1. Violence and drugs are a growing problem in some schools.
+2. Firstly, some pupils take drugs because they want to look strong.
+3. As a result, they become aggressive and bully others.
+4. However, clubs and counsellors can help.
+5. Therefore, everyone must report violence at once.
+
+
+Three generated variants:
+
+> Put the sentences of the essay in order.
+
+Shown as: As a result, they become aggressive and bully others. · Violence and drugs are a growing problem in some schools. · However, clubs and counsellors can help. · Therefore, everyone must report violence at once. · Firstly, some pupils take drugs because they want to look strong.
+Correct order: Violence and drugs are a growing problem in some schools. → Firstly, some pupils take drugs because they want to look strong. → As a result, they become aggressive and bully others. → However, clubs and counsellors can help. → Therefore, everyone must report violence at once.
+
+Full working after a second miss:
+
+> The correct order is: Violence and drugs are a growing problem in some schools. → Firstly, some pupils take drugs because they want to look strong. → As a result, they become aggressive and bully others. → However, clubs and counsellors can help. → Therefore, everyone must report violence at once..  
+
+> Put the sentences of the essay in order.
+
+Shown as: Violence and drugs are a growing problem in some schools. · However, clubs and counsellors can help. · As a result, they become aggressive and bully others. · Firstly, some pupils take drugs because they want to look strong. · Therefore, everyone must report violence at once.
+Correct order: Violence and drugs are a growing problem in some schools. → Firstly, some pupils take drugs because they want to look strong. → As a result, they become aggressive and bully others. → However, clubs and counsellors can help. → Therefore, everyone must report violence at once.
+
+Full working after a second miss:
+
+> The correct order is: Violence and drugs are a growing problem in some schools. → Firstly, some pupils take drugs because they want to look strong. → As a result, they become aggressive and bully others. → However, clubs and counsellors can help. → Therefore, everyone must report violence at once..  
+
+> Put the sentences of the essay in order.
+
+Shown as: However, clubs and counsellors can help. · Firstly, some pupils take drugs because they want to look strong. · Therefore, everyone must report violence at once. · Violence and drugs are a growing problem in some schools. · As a result, they become aggressive and bully others.
+Correct order: Violence and drugs are a growing problem in some schools. → Firstly, some pupils take drugs because they want to look strong. → As a result, they become aggressive and bully others. → However, clubs and counsellors can help. → Therefore, everyone must report violence at once.
+
+Full working after a second miss:
+
+> The correct order is: Violence and drugs are a growing problem in some schools. → Firstly, some pupils take drugs because they want to look strong. → As a result, they become aggressive and bully others. → However, clubs and counsellors can help. → Therefore, everyone must report violence at once..  
+
+Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
+
+### `e2-73-type` · Lesson 73 · multiple choice, level 1
+
+Prompt: What type of pollution is this? “{X.q}”
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Smoke from old generators | air pollution | water pollution · land pollution · noise pollution | Smoke goes into the air. · Smoke goes into the air. · Smoke is not a sound. | Smoke pollutes the air. |
+| A factory pours waste into a river | water pollution | air pollution · noise pollution · land pollution | The waste goes into water. · It is not a sound. · It goes into a river. | Waste in rivers pollutes water. |
+| Loud music all night | noise pollution | air pollution · water pollution · land pollution | It is a sound. · It is a sound. · It is a sound. | Too much noise is noise pollution. |
+| Plastic bags buried in a farm | land pollution | air pollution · noise pollution · water pollution | They are in the soil. · They make no noise. · They are in the soil. | Rubbish in the soil pollutes the land. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What type of pollution is this? “Smoke from old generators”
+
+- ◻️ land pollution  
+  _↳ feedback if chosen: Smoke goes into the air._
+- ◻️ water pollution  
+  _↳ feedback if chosen: Smoke goes into the air._
+- ✅ air pollution
+- ◻️ noise pollution  
+  _↳ feedback if chosen: Smoke is not a sound._
+
+Full working after a second miss:
+
+> Smoke pollutes the air.  
+> So the answer is “air pollution”.  
+
+> What type of pollution is this? “Plastic bags buried in a farm”
+
+- ◻️ noise pollution  
+  _↳ feedback if chosen: They make no noise._
+- ◻️ air pollution  
+  _↳ feedback if chosen: They are in the soil._
+- ✅ land pollution
+- ◻️ water pollution  
+  _↳ feedback if chosen: They are in the soil._
+
+Full working after a second miss:
+
+> Rubbish in the soil pollutes the land.  
+> So the answer is “land pollution”.  
+
+> What type of pollution is this? “Loud music all night”
+
+- ✅ noise pollution
+- ◻️ air pollution  
+  _↳ feedback if chosen: It is a sound._
+- ◻️ water pollution  
+  _↳ feedback if chosen: It is a sound._
+- ◻️ land pollution  
+  _↳ feedback if chosen: It is a sound._
+
+Full working after a second miss:
+
+> Too much noise is noise pollution.  
+> So the answer is “noise pollution”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-73-text` · Lesson 73 · multiple choice, level 1
+
+Prompt: Text “An invisible enemy”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| what do plastic bags do, according to the text? | block gutters and choke animals | make the soil richer · clean the rivers · cause noise | The text says the opposite. · The text does not say that. · Noise comes from music and horns. | “plastic bags block gutters and choke animals.” |
+| what illnesses come from dirty water? | diarrhoea and cholera | asthma and coughs · malaria and measles · stress | Those come from smoke. · The text does not say that. · Stress comes from noise. | “diarrhoea and cholera from dirty water.” |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “An invisible enemy”: what illnesses come from dirty water?
+
+- ◻️ stress  
+  _↳ feedback if chosen: Stress comes from noise._
+- ◻️ malaria and measles  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ asthma and coughs  
+  _↳ feedback if chosen: Those come from smoke._
+- ✅ diarrhoea and cholera
+
+Full working after a second miss:
+
+> “diarrhoea and cholera from dirty water.”  
+> So the answer is “diarrhoea and cholera”.  
+
+> Text “An invisible enemy”: what do plastic bags do, according to the text?
+
+- ✅ block gutters and choke animals
+- ◻️ make the soil richer  
+  _↳ feedback if chosen: The text says the opposite._
+- ◻️ clean the rivers  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ cause noise  
+  _↳ feedback if chosen: Noise comes from music and horns._
+
+Full working after a second miss:
+
+> “plastic bags block gutters and choke animals.”  
+> So the answer is “block gutters and choke animals”.  
+
+> Text “An invisible enemy”: what do plastic bags do, according to the text?
+
+- ◻️ make the soil richer  
+  _↳ feedback if chosen: The text says the opposite._
+- ✅ block gutters and choke animals
+- ◻️ clean the rivers  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ cause noise  
+  _↳ feedback if chosen: Noise comes from music and horns._
+
+Full working after a second miss:
+
+> “plastic bags block gutters and choke animals.”  
+> So the answer is “block gutters and choke animals”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-73-idea` · Lesson 73 · multiple choice, level 2
+
+Prompt: Text “An invisible enemy”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| why does the writer call pollution an “invisible enemy”? | we often do not notice it until it makes us ill | it cannot hurt us · it only exists at night · it is a person | It causes illness. · The text does not say that. · It is a comparison. | “an enemy we often do not see until it makes us ill.” |
+| which action reduces pollution? | sorting and recycling rubbish | burning plastic · using more generators · pouring waste into rivers | That adds smoke. · That adds smoke and noise. · That pollutes water. | The text lists sorting and recycling. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “An invisible enemy”: which action reduces pollution?
+
+- ◻️ burning plastic  
+  _↳ feedback if chosen: That adds smoke._
+- ✅ sorting and recycling rubbish
+- ◻️ using more generators  
+  _↳ feedback if chosen: That adds smoke and noise._
+- ◻️ pouring waste into rivers  
+  _↳ feedback if chosen: That pollutes water._
+
+Full working after a second miss:
+
+> The text lists sorting and recycling.  
+> So the answer is “sorting and recycling rubbish”.  
+
+> Text “An invisible enemy”: why does the writer call pollution an “invisible enemy”?
+
+- ✅ we often do not notice it until it makes us ill
+- ◻️ it cannot hurt us  
+  _↳ feedback if chosen: It causes illness._
+- ◻️ it is a person  
+  _↳ feedback if chosen: It is a comparison._
+- ◻️ it only exists at night  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “an enemy we often do not see until it makes us ill.”  
+> So the answer is “we often do not notice it until it makes us ill”.  
+
+> Text “An invisible enemy”: why does the writer call pollution an “invisible enemy”?
+
+- ◻️ it is a person  
+  _↳ feedback if chosen: It is a comparison._
+- ✅ we often do not notice it until it makes us ill
+- ◻️ it only exists at night  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ it cannot hurt us  
+  _↳ feedback if chosen: It causes illness._
+
+Full working after a second miss:
+
+> “an enemy we often do not see until it makes us ill.”  
+> So the answer is “we often do not notice it until it makes us ill”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-73-spot` · Lesson 73 · spot the error, level 3
+
+Prompt: Text “An invisible enemy”. Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Old vehicles release smoke.
+- ✅ Loud horns cause noise pollution.
+- ✅ Factories can treat their waste water.
+- ✅ Plastic bags choke animals.
+- ❌ Pollution only affects rivers.  
+  _↳ It affects air, water, soil and our ears._
+- ❌ Polluted water makes fish more numerous.  
+  _↳ There are fewer fish._
+- ❌ Smoke cures asthma.  
+  _↳ Smoke causes coughs and asthma._
+
+
+Three generated variants:
+
+> Text “An invisible enemy”. Which statement is wrong?
+
+- ◻️ Factories can treat their waste water.
+- ✅ Smoke cures asthma.  
+  _↳ explanation: Smoke causes coughs and asthma._
+- ◻️ Loud horns cause noise pollution.
+- ◻️ Plastic bags choke animals.
+
+Full working after a second miss:
+
+> The wrong statement is “Smoke cures asthma.”.  
+> Smoke causes coughs and asthma.  
+
+> Text “An invisible enemy”. Which statement is wrong?
+
+- ✅ Pollution only affects rivers.  
+  _↳ explanation: It affects air, water, soil and our ears._
+- ◻️ Plastic bags choke animals.
+- ◻️ Loud horns cause noise pollution.
+- ◻️ Factories can treat their waste water.
+
+Full working after a second miss:
+
+> The wrong statement is “Pollution only affects rivers.”.  
+> It affects air, water, soil and our ears.  
+
+> Text “An invisible enemy”. Which statement is wrong?
+
+- ◻️ Factories can treat their waste water.
+- ◻️ Loud horns cause noise pollution.
+- ◻️ Old vehicles release smoke.
+- ✅ Polluted water makes fish more numerous.  
+  _↳ explanation: There are fewer fish._
+
+Full working after a second miss:
+
+> The wrong statement is “Polluted water makes fish more numerous.”.  
+> There are fewer fish.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-73-idea-card` · Lesson 73 · multiple choice, level 1
+
+Prompt: Text “An invisible enemy”: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| why does the writer call pollution an “invisible enemy”? | we often do not notice it until it makes us ill | it cannot hurt us · it only exists at night · it is a person | It causes illness. · The text does not say that. · It is a comparison. | “an enemy we often do not see until it makes us ill.” |
+| which action reduces pollution? | sorting and recycling rubbish | burning plastic · using more generators · pouring waste into rivers | That adds smoke. · That adds smoke and noise. · That pollutes water. | The text lists sorting and recycling. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Text “An invisible enemy”: which action reduces pollution?
+
+- ◻️ burning plastic  
+  _↳ feedback if chosen: That adds smoke._
+- ◻️ using more generators  
+  _↳ feedback if chosen: That adds smoke and noise._
+- ◻️ pouring waste into rivers  
+  _↳ feedback if chosen: That pollutes water._
+- ✅ sorting and recycling rubbish
+
+Full working after a second miss:
+
+> The text lists sorting and recycling.  
+> So the answer is “sorting and recycling rubbish”.  
+
+> Text “An invisible enemy”: why does the writer call pollution an “invisible enemy”?
+
+- ◻️ it is a person  
+  _↳ feedback if chosen: It is a comparison._
+- ✅ we often do not notice it until it makes us ill
+- ◻️ it only exists at night  
+  _↳ feedback if chosen: The text does not say that._
+- ◻️ it cannot hurt us  
+  _↳ feedback if chosen: It causes illness._
+
+Full working after a second miss:
+
+> “an enemy we often do not see until it makes us ill.”  
+> So the answer is “we often do not notice it until it makes us ill”.  
+
+> Text “An invisible enemy”: why does the writer call pollution an “invisible enemy”?
+
+- ✅ we often do not notice it until it makes us ill
+- ◻️ it is a person  
+  _↳ feedback if chosen: It is a comparison._
+- ◻️ it cannot hurt us  
+  _↳ feedback if chosen: It causes illness._
+- ◻️ it only exists at night  
+  _↳ feedback if chosen: The text does not say that._
+
+Full working after a second miss:
+
+> “an enemy we often do not see until it makes us ill.”  
+> So the answer is “we often do not notice it until it makes us ill”.  
+
+Sources: reading-texts (Reading texts, interviews and dialogues written for this app on the themes of the Form 2 progression sheet (2026-27))
+
+### `e2-74-match` · Lesson 74 · matching, level 1
+
+Prompt: Match each word to its meaning.
+
+Pairs (4 shown each time):
+
+- a pollutant → **a substance that pollutes**
+- exhaust fumes → **smoke from a vehicle engine**
+- sewage → **dirty water and waste from toilets**
+- toxic → **poisonous**
+- to contaminate → **to make something dirty or poisonous**
+
+
+Three generated variants:
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): to make something dirty or poisonous · dirty water and waste from toilets · poisonous · a substance that pollutes
+- sewage → **dirty water and waste from toilets**
+- toxic → **poisonous**
+- a pollutant → **a substance that pollutes**
+- to contaminate → **to make something dirty or poisonous**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> sewage → dirty water and waste from toilets  
+> toxic → poisonous  
+> a pollutant → a substance that pollutes  
+> to contaminate → to make something dirty or poisonous  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): to make something dirty or poisonous · smoke from a vehicle engine · dirty water and waste from toilets · a substance that pollutes
+- to contaminate → **to make something dirty or poisonous**
+- sewage → **dirty water and waste from toilets**
+- a pollutant → **a substance that pollutes**
+- exhaust fumes → **smoke from a vehicle engine**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> to contaminate → to make something dirty or poisonous  
+> sewage → dirty water and waste from toilets  
+> a pollutant → a substance that pollutes  
+> exhaust fumes → smoke from a vehicle engine  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): dirty water and waste from toilets · to make something dirty or poisonous · poisonous · smoke from a vehicle engine
+- toxic → **poisonous**
+- exhaust fumes → **smoke from a vehicle engine**
+- to contaminate → **to make something dirty or poisonous**
+- sewage → **dirty water and waste from toilets**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> toxic → poisonous  
+> exhaust fumes → smoke from a vehicle engine  
+> to contaminate → to make something dirty or poisonous  
+> sewage → dirty water and waste from toilets  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-74-rs` · Lesson 74 · multiple choice, level 1
+
+Prompt: Which of the three Rs is this? “{X.q}”
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Using a plastic bottle again to store water | reuse | reduce · recycle · refuse | Reduce means using less. · Recycling makes new things from waste. · That is not one of the three Rs here. | Using something again is reusing. |
+| Buying fewer plastic bags | reduce | reuse · recycle · repair | Reuse means using again. · Recycling makes new things from waste. · That is not one of the three Rs. | Using less is reducing. |
+| Melting old tins to make new pots | recycle | reduce · reuse · refuse | Reduce means using less. · Reuse means using the same thing again. · That is not one of the three Rs here. | Making new things from waste is recycling. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which of the three Rs is this? “Using a plastic bottle again to store water”
+
+- ◻️ reduce  
+  _↳ feedback if chosen: Reduce means using less._
+- ◻️ recycle  
+  _↳ feedback if chosen: Recycling makes new things from waste._
+- ◻️ refuse  
+  _↳ feedback if chosen: That is not one of the three Rs here._
+- ✅ reuse
+
+Full working after a second miss:
+
+> Using something again is reusing.  
+> So the answer is “reuse”.  
+
+> Which of the three Rs is this? “Melting old tins to make new pots”
+
+- ◻️ reuse  
+  _↳ feedback if chosen: Reuse means using the same thing again._
+- ◻️ reduce  
+  _↳ feedback if chosen: Reduce means using less._
+- ✅ recycle
+- ◻️ refuse  
+  _↳ feedback if chosen: That is not one of the three Rs here._
+
+Full working after a second miss:
+
+> Making new things from waste is recycling.  
+> So the answer is “recycle”.  
+
+> Which of the three Rs is this? “Using a plastic bottle again to store water”
+
+- ◻️ refuse  
+  _↳ feedback if chosen: That is not one of the three Rs here._
+- ✅ reuse
+- ◻️ reduce  
+  _↳ feedback if chosen: Reduce means using less._
+- ◻️ recycle  
+  _↳ feedback if chosen: Recycling makes new things from waste._
+
+Full working after a second miss:
+
+> Using something again is reusing.  
+> So the answer is “reuse”.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-74-cl` · Lesson 74 · fill the blank, level 2
+
+Prompt: Choose the word that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Leaves and fruit peels are ___: they rot quickly. | biodegradable | toxic · recycled | Toxic means poisonous. · Recycled means made into new things. |
+| The factory's waste water is ___: fish die in it. | toxic | biodegradable · reused | The fish die: the water is poisonous. · Reused is not the meaning here. |
+| Do not drop ___ in the street. | litter | sewage · exhaust | Sewage is waste water. · Exhaust is smoke from engines. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the word that fits.
+
+Sentence: **The factory's waste water is ___: fish die in it.**
+- ✅ toxic
+- ◻️ biodegradable  
+  _↳ feedback if chosen: The fish die: the water is poisonous._
+- ◻️ reused  
+  _↳ feedback if chosen: Reused is not the meaning here._
+
+Full working after a second miss:
+
+> The missing word is “toxic”.  
+> The factory's waste water is toxic: fish die in it.  
+
+> Choose the word that fits.
+
+Sentence: **Do not drop ___ in the street.**
+- ◻️ exhaust  
+  _↳ feedback if chosen: Exhaust is smoke from engines._
+- ◻️ sewage  
+  _↳ feedback if chosen: Sewage is waste water._
+- ✅ litter
+
+Full working after a second miss:
+
+> The missing word is “litter”.  
+> Do not drop litter in the street.  
+
+> Choose the word that fits.
+
+Sentence: **The factory's waste water is ___: fish die in it.**
+- ✅ toxic
+- ◻️ reused  
+  _↳ feedback if chosen: Reused is not the meaning here._
+- ◻️ biodegradable  
+  _↳ feedback if chosen: The fish die: the water is poisonous._
+
+Full working after a second miss:
+
+> The missing word is “toxic”.  
+> The factory's waste water is toxic: fish die in it.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-74-spot` · Lesson 74 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Exhaust fumes pollute the air.
+- ✅ Recycling makes new things from waste.
+- ✅ Toxic means poisonous.
+- ✅ Sewage is dirty water.
+- ❌ Plastic bags are biodegradable.  
+  _↳ Plastic does not rot easily._
+- ❌ Reduce means using something again.  
+  _↳ Reduce means using less; reuse means using again._
+- ❌ Asthma is a way to prevent pollution.  
+  _↳ Asthma is a consequence._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Recycling makes new things from waste.
+- ◻️ Sewage is dirty water.
+- ◻️ Exhaust fumes pollute the air.
+- ✅ Plastic bags are biodegradable.  
+  _↳ explanation: Plastic does not rot easily._
+
+Full working after a second miss:
+
+> The wrong statement is “Plastic bags are biodegradable.”.  
+> Plastic does not rot easily.  
+
+> Which statement is wrong?
+
+- ◻️ Recycling makes new things from waste.
+- ◻️ Exhaust fumes pollute the air.
+- ◻️ Sewage is dirty water.
+- ✅ Asthma is a way to prevent pollution.  
+  _↳ explanation: Asthma is a consequence._
+
+Full working after a second miss:
+
+> The wrong statement is “Asthma is a way to prevent pollution.”.  
+> Asthma is a consequence.  
+
+> Which statement is wrong?
+
+- ◻️ Toxic means poisonous.
+- ✅ Reduce means using something again.  
+  _↳ explanation: Reduce means using less; reuse means using again._
+- ◻️ Exhaust fumes pollute the air.
+- ◻️ Recycling makes new things from waste.
+
+Full working after a second miss:
+
+> The wrong statement is “Reduce means using something again.”.  
+> Reduce means using less; reuse means using again.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-74-cl-card` · Lesson 74 · fill the blank, level 1
+
+Prompt: Choose the word that fits.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| Leaves and fruit peels are ___: they rot quickly. | biodegradable | toxic · recycled | Toxic means poisonous. · Recycled means made into new things. |
+| The factory's waste water is ___: fish die in it. | toxic | biodegradable · reused | The fish die: the water is poisonous. · Reused is not the meaning here. |
+| Do not drop ___ in the street. | litter | sewage · exhaust | Sewage is waste water. · Exhaust is smoke from engines. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the word that fits.
+
+Sentence: **The factory's waste water is ___: fish die in it.**
+- ◻️ biodegradable  
+  _↳ feedback if chosen: The fish die: the water is poisonous._
+- ✅ toxic
+- ◻️ reused  
+  _↳ feedback if chosen: Reused is not the meaning here._
+
+Full working after a second miss:
+
+> The missing word is “toxic”.  
+> The factory's waste water is toxic: fish die in it.  
+
+> Choose the word that fits.
+
+Sentence: **The factory's waste water is ___: fish die in it.**
+- ◻️ reused  
+  _↳ feedback if chosen: Reused is not the meaning here._
+- ◻️ biodegradable  
+  _↳ feedback if chosen: The fish die: the water is poisonous._
+- ✅ toxic
+
+Full working after a second miss:
+
+> The missing word is “toxic”.  
+> The factory's waste water is toxic: fish die in it.  
+
+> Choose the word that fits.
+
+Sentence: **The factory's waste water is ___: fish die in it.**
+- ✅ toxic
+- ◻️ biodegradable  
+  _↳ feedback if chosen: The fish die: the water is poisonous._
+- ◻️ reused  
+  _↳ feedback if chosen: Reused is not the meaning here._
+
+Full working after a second miss:
+
+> The missing word is “toxic”.  
+> The factory's waste water is toxic: fish die in it.  
+
+Sources: vocabulary (Standard English word meanings (British usage, as in Cameroonian schools), compare a learner's dictionary such as the Oxford Advanced Learner's Dictionary)
+
+### `e2-75-who` · Lesson 75 · fill the blank, level 1
+
+Prompt: Choose the relative pronoun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The doctor ___ treated me is very kind. | who | which · where | The doctor is a person: who. · Where is for places. |
+| The river ___ crosses our town is polluted. | which | who · whose | A river is a thing: which. · Whose shows possession. |
+| This is the market ___ we sort our rubbish. | where | who · which | The market is a place: where. · We need a word for the place: where. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the relative pronoun.
+
+Sentence: **This is the market ___ we sort our rubbish.**
+- ◻️ who  
+  _↳ feedback if chosen: The market is a place: where._
+- ✅ where
+- ◻️ which  
+  _↳ feedback if chosen: We need a word for the place: where._
+
+Full working after a second miss:
+
+> The missing word is “where”.  
+> This is the market where we sort our rubbish.  
+
+> Choose the relative pronoun.
+
+Sentence: **The doctor ___ treated me is very kind.**
+- ◻️ which  
+  _↳ feedback if chosen: The doctor is a person: who._
+- ✅ who
+- ◻️ where  
+  _↳ feedback if chosen: Where is for places._
+
+Full working after a second miss:
+
+> The missing word is “who”.  
+> The doctor who treated me is very kind.  
+
+> Choose the relative pronoun.
+
+Sentence: **The doctor ___ treated me is very kind.**
+- ✅ who
+- ◻️ where  
+  _↳ feedback if chosen: Where is for places._
+- ◻️ which  
+  _↳ feedback if chosen: The doctor is a person: who._
+
+Full working after a second miss:
+
+> The missing word is “who”.  
+> The doctor who treated me is very kind.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-75-whose` · Lesson 75 · fill the blank, level 1
+
+Prompt: Choose the relative pronoun.
+Sentence: {X.s}
+Right answer: `X.a`
+
+Table `X` (one row is picked each time):
+
+| s | a | w | e |
+|---|---|---|---|
+| The boy ___ father is a nurse explained the danger. | whose | who · which | The father belongs to the boy: whose. · Which is for things. |
+| The family ___ house was flooded moved away. | whose | which · where | The house belongs to the family: whose. · Where is for places. |
+
+Choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+
+Three generated variants:
+
+> Choose the relative pronoun.
+
+Sentence: **The boy ___ father is a nurse explained the danger.**
+- ✅ whose
+- ◻️ who  
+  _↳ feedback if chosen: The father belongs to the boy: whose._
+- ◻️ which  
+  _↳ feedback if chosen: Which is for things._
+
+Full working after a second miss:
+
+> The missing word is “whose”.  
+> The boy whose father is a nurse explained the danger.  
+
+> Choose the relative pronoun.
+
+Sentence: **The boy ___ father is a nurse explained the danger.**
+- ✅ whose
+- ◻️ which  
+  _↳ feedback if chosen: Which is for things._
+- ◻️ who  
+  _↳ feedback if chosen: The father belongs to the boy: whose._
+
+Full working after a second miss:
+
+> The missing word is “whose”.  
+> The boy whose father is a nurse explained the danger.  
+
+> Choose the relative pronoun.
+
+Sentence: **The family ___ house was flooded moved away.**
+- ◻️ which  
+  _↳ feedback if chosen: The house belongs to the family: whose._
+- ✅ whose
+- ◻️ where  
+  _↳ feedback if chosen: Where is for places._
+
+Full working after a second miss:
+
+> The missing word is “whose”.  
+> The family whose house was flooded moved away.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-75-join` · Lesson 75 · word order, level 2
+
+Prompt: Tap the words in the right order.
+
+Table `X` (one row is picked each time):
+
+| a | b |
+|---|---|
+| The factory which polluted the river is closed. | The factory which polluted the river is closed. |
+| The girl who planted fifty trees won a prize. | The girl who planted fifty trees won a prize. |
+| This is the dump where the council burns rubbish. | This is the dump where the council burns rubbish. |
+| The man whose generator is noisy was warned. | The man whose generator is noisy was warned. |
+
+Sentence(s): {X.a} (also accepted: {X.b})
+
+
+Three generated variants:
+
+> Tap the words in the right order.
+
+Tiles: planted · trees · girl · The · won · fifty · who · a · prize (then “.”)
+Answer: **The girl who planted fifty trees won a prize.**
+
+Full working after a second miss:
+
+> The sentence is: The girl who planted fifty trees won a prize.  
+
+> Tap the words in the right order.
+
+Tiles: was · is · generator · whose · warned · noisy · man · The (then “.”)
+Answer: **The man whose generator is noisy was warned.**
+
+Full working after a second miss:
+
+> The sentence is: The man whose generator is noisy was warned.  
+
+> Tap the words in the right order.
+
+Tiles: warned · whose · is · generator · noisy · The · was · man (then “.”)
+Answer: **The man whose generator is noisy was warned.**
+
+Full working after a second miss:
+
+> The sentence is: The man whose generator is noisy was warned.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-75-spot` · Lesson 75 · spot the error, level 3
+
+Prompt: Which sentence has a relative pronoun mistake?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ The nurse who helped us is my aunt.
+- ✅ The bag which I bought is biodegradable.
+- ✅ This is the place where we play.
+- ✅ The woman whose shop is near the market sells fish.
+- ❌ The river who crosses the town is dirty.  
+  _↳ A river is a thing: which._
+- ❌ The boy which won the prize is my cousin.  
+  _↳ The boy is a person: who._
+- ❌ This is the dump which the council burns rubbish.  
+  _↳ For a place, use where._
+
+
+Three generated variants:
+
+> Which sentence has a relative pronoun mistake?
+
+- ◻️ The nurse who helped us is my aunt.
+- ✅ This is the dump which the council burns rubbish.  
+  _↳ explanation: For a place, use where._
+- ◻️ This is the place where we play.
+- ◻️ The woman whose shop is near the market sells fish.
+
+Full working after a second miss:
+
+> The wrong statement is “This is the dump which the council burns rubbish.”.  
+> For a place, use where.  
+
+> Which sentence has a relative pronoun mistake?
+
+- ✅ The boy which won the prize is my cousin.  
+  _↳ explanation: The boy is a person: who._
+- ◻️ This is the place where we play.
+- ◻️ The nurse who helped us is my aunt.
+- ◻️ The woman whose shop is near the market sells fish.
+
+Full working after a second miss:
+
+> The wrong statement is “The boy which won the prize is my cousin.”.  
+> The boy is a person: who.  
+
+> Which sentence has a relative pronoun mistake?
+
+- ◻️ The woman whose shop is near the market sells fish.
+- ✅ The boy which won the prize is my cousin.  
+  _↳ explanation: The boy is a person: who._
+- ◻️ This is the place where we play.
+- ◻️ The bag which I bought is biodegradable.
+
+Full working after a second miss:
+
+> The wrong statement is “The boy which won the prize is my cousin.”.  
+> The boy is a person: who.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-75-join-card` · Lesson 75 · word order, level 1
+
+Prompt: Tap the words in the right order.
+
+Table `X` (one row is picked each time):
+
+| a | b |
+|---|---|
+| The factory which polluted the river is closed. | The factory which polluted the river is closed. |
+| The girl who planted fifty trees won a prize. | The girl who planted fifty trees won a prize. |
+| This is the dump where the council burns rubbish. | This is the dump where the council burns rubbish. |
+| The man whose generator is noisy was warned. | The man whose generator is noisy was warned. |
+
+Sentence(s): {X.a} (also accepted: {X.b})
+
+
+Three generated variants:
+
+> Tap the words in the right order.
+
+Tiles: warned · generator · man · is · was · whose · noisy · The (then “.”)
+Answer: **The man whose generator is noisy was warned.**
+
+Full working after a second miss:
+
+> The sentence is: The man whose generator is noisy was warned.  
+
+> Tap the words in the right order.
+
+Tiles: the · polluted · The · river · which · closed · factory · is (then “.”)
+Answer: **The factory which polluted the river is closed.**
+
+Full working after a second miss:
+
+> The sentence is: The factory which polluted the river is closed.  
+
+> Tap the words in the right order.
+
+Tiles: The · factory · is · polluted · closed · river · the · which (then “.”)
+Answer: **The factory which polluted the river is closed.**
+
+Full working after a second miss:
+
+> The sentence is: The factory which polluted the river is closed.  
+
+Sources: grammar-tenses (Standard descriptions of English tenses and modals (e.g. Swan, Practical English Usage))
+
+### `e2-76-order` · Lesson 76 · ordering, level 1
+
+Prompt: Put the sentences of the essay in order.
+
+Items in the right order:
+
+1. Pollution is the presence of harmful substances in the environment.
+2. Firstly, vehicles which are old release thick smoke.
+3. As a result, many children suffer from coughs.
+4. However, we can reduce pollution by recycling.
+5. Therefore, each of us must act now.
+
+
+Three generated variants:
+
+> Put the sentences of the essay in order.
+
+Shown as: Firstly, vehicles which are old release thick smoke. · However, we can reduce pollution by recycling. · Therefore, each of us must act now. · As a result, many children suffer from coughs. · Pollution is the presence of harmful substances in the environment.
+Correct order: Pollution is the presence of harmful substances in the environment. → Firstly, vehicles which are old release thick smoke. → As a result, many children suffer from coughs. → However, we can reduce pollution by recycling. → Therefore, each of us must act now.
+
+Full working after a second miss:
+
+> The correct order is: Pollution is the presence of harmful substances in the environment. → Firstly, vehicles which are old release thick smoke. → As a result, many children suffer from coughs. → However, we can reduce pollution by recycling. → Therefore, each of us must act now..  
+
+> Put the sentences of the essay in order.
+
+Shown as: As a result, many children suffer from coughs. · Pollution is the presence of harmful substances in the environment. · Therefore, each of us must act now. · However, we can reduce pollution by recycling. · Firstly, vehicles which are old release thick smoke.
+Correct order: Pollution is the presence of harmful substances in the environment. → Firstly, vehicles which are old release thick smoke. → As a result, many children suffer from coughs. → However, we can reduce pollution by recycling. → Therefore, each of us must act now.
+
+Full working after a second miss:
+
+> The correct order is: Pollution is the presence of harmful substances in the environment. → Firstly, vehicles which are old release thick smoke. → As a result, many children suffer from coughs. → However, we can reduce pollution by recycling. → Therefore, each of us must act now..  
+
+> Put the sentences of the essay in order.
+
+Shown as: Pollution is the presence of harmful substances in the environment. · Therefore, each of us must act now. · Firstly, vehicles which are old release thick smoke. · However, we can reduce pollution by recycling. · As a result, many children suffer from coughs.
+Correct order: Pollution is the presence of harmful substances in the environment. → Firstly, vehicles which are old release thick smoke. → As a result, many children suffer from coughs. → However, we can reduce pollution by recycling. → Therefore, each of us must act now.
+
+Full working after a second miss:
+
+> The correct order is: Pollution is the presence of harmful substances in the environment. → Firstly, vehicles which are old release thick smoke. → As a result, many children suffer from coughs. → However, we can reduce pollution by recycling. → Therefore, each of us must act now..  
 
 Sources: writing-skills (Paragraph and composition writing as taught in Cameroonian secondary schools: topic sentence, supporting details, sequence words, closing sentence)
 

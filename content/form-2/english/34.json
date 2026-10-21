@@ -1,0 +1,415 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 34,
+ "language": "en",
+ "prerequisites": [
+  33
+ ],
+ "skills": [
+  {
+   "id": "e2-34",
+   "name": "Idiomatic expressions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An idiom is a group of words whose meaning is different from the meanings of the separate words. “He is behind bars” does not mean he is standing behind some bars: it means he is in prison.\n• caught red-handed: caught while doing something wrong\n• behind bars: in prison\n• on the run: running away from the police\n• take the law into your own hands: punish someone yourself instead of going to the police\n• keep an eye on: watch carefully\n• turn a blind eye: pretend not to see something wrong\n• break the law: do something illegal\n• cry wolf: give a false alarm\nLearn idioms as whole expressions, and use them in the right situation.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What does “The thief was caught red-handed” mean?",
+  "steps": [
+   "“Caught red-handed” is an idiom: we cannot read it word by word.",
+   "It means caught while doing something wrong."
+  ],
+  "answer": "The thief was caught while he was stealing.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c34-1",
+    "status": "draft",
+    "idea": "An idiom means more than its words.",
+    "vars": {},
+    "example": [
+     "“Behind bars” means in prison."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-34-mean"
+    }
+   },
+   {
+    "id": "c34-2",
+    "status": "draft",
+    "idea": "Choose the idiom that fits the situation.",
+    "vars": {},
+    "example": [
+     "Do not take the law into your own hands: call the police."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-34-use"
+    }
+   },
+   {
+    "id": "c34-3",
+    "status": "draft",
+    "idea": "Some idioms warn or advise.",
+    "vars": {},
+    "example": [
+     "Keep an eye on your bag in the market."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-34-match-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "prompt": "Match each idiom to its meaning.",
+     "pool": [
+      {
+       "left": "on the run",
+       "right": "running away from the police"
+      },
+      {
+       "left": "take the law into your own hands",
+       "right": "punish someone yourself instead of going to the police"
+      },
+      {
+       "left": "keep an eye on",
+       "right": "watch carefully"
+      },
+      {
+       "left": "turn a blind eye",
+       "right": "pretend not to see something wrong"
+      },
+      {
+       "left": "break the law",
+       "right": "do something illegal"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-34-mean",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "i": "caught red-handed",
+       "r": "caught while doing something wrong",
+       "w": [
+        "in prison",
+        "running away from the police",
+        "punish someone yourself instead of going to the police"
+       ],
+       "e": [
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom."
+       ],
+       "y": "“caught red-handed” means caught while doing something wrong."
+      },
+      {
+       "i": "behind bars",
+       "r": "in prison",
+       "w": [
+        "caught while doing something wrong",
+        "running away from the police",
+        "punish someone yourself instead of going to the police"
+       ],
+       "e": [
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom."
+       ],
+       "y": "“behind bars” means in prison."
+      },
+      {
+       "i": "on the run",
+       "r": "running away from the police",
+       "w": [
+        "caught while doing something wrong",
+        "in prison",
+        "punish someone yourself instead of going to the police"
+       ],
+       "e": [
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom."
+       ],
+       "y": "“on the run” means running away from the police."
+      },
+      {
+       "i": "take the law into your own hands",
+       "r": "punish someone yourself instead of going to the police",
+       "w": [
+        "caught while doing something wrong",
+        "in prison",
+        "running away from the police"
+       ],
+       "e": [
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom."
+       ],
+       "y": "“take the law into your own hands” means punish someone yourself instead of going to the police."
+      },
+      {
+       "i": "keep an eye on",
+       "r": "watch carefully",
+       "w": [
+        "caught while doing something wrong",
+        "in prison",
+        "running away from the police"
+       ],
+       "e": [
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom."
+       ],
+       "y": "“keep an eye on” means watch carefully."
+      },
+      {
+       "i": "turn a blind eye",
+       "r": "pretend not to see something wrong",
+       "w": [
+        "caught while doing something wrong",
+        "in prison",
+        "running away from the police"
+       ],
+       "e": [
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom.",
+        "That is the meaning of another idiom."
+       ],
+       "y": "“turn a blind eye” means pretend not to see something wrong."
+      }
+     ]
+    }
+   },
+   "prompt": "What does “{X.i}” mean?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-34-use",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The police caught the thief ___ with the stolen phone in his hand.",
+       "a": "red-handed",
+       "w": [
+        "behind bars",
+        "on the run"
+       ],
+       "e": [
+        "“Behind bars” means in prison.",
+        "“On the run” means escaping."
+       ]
+      },
+      {
+       "s": "After the trial, the kidnapper spent ten years ___.",
+       "a": "behind bars",
+       "w": [
+        "red-handed",
+        "on the run"
+       ],
+       "e": [
+        "“Red-handed” is about being caught in the act.",
+        "He was in prison, not escaping."
+       ]
+      },
+      {
+       "s": "Please ___ my bag while I buy the tickets.",
+       "a": "keep an eye on",
+       "w": [
+        "turn a blind eye to",
+        "cry wolf about"
+       ],
+       "e": [
+        "That means pretending not to see.",
+        "That means giving a false alarm."
+       ]
+      },
+      {
+       "s": "The prisoners escaped and are now ___.",
+       "a": "on the run",
+       "w": [
+        "red-handed",
+        "behind bars"
+       ],
+       "e": [
+        "That is about being caught.",
+        "They escaped from prison."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the idiom that completes the sentence.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-34-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each idiom to its meaning.",
+   "pool": [
+    {
+     "left": "on the run",
+     "right": "running away from the police"
+    },
+    {
+     "left": "take the law into your own hands",
+     "right": "punish someone yourself instead of going to the police"
+    },
+    {
+     "left": "keep an eye on",
+     "right": "watch carefully"
+    },
+    {
+     "left": "turn a blind eye",
+     "right": "pretend not to see something wrong"
+    },
+    {
+     "left": "break the law",
+     "right": "do something illegal"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-34-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which sentence uses the idiom wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "The boy cried wolf so often that nobody believed him.",
+      "truth": "true"
+     },
+     {
+      "text": "Never take the law into your own hands.",
+      "truth": "true"
+     },
+     {
+      "text": "The teacher turned a blind eye to the cheating, which was wrong.",
+      "truth": "true"
+     },
+     {
+      "text": "The robber is still on the run.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The prisoner was happy to be red-handed at home.",
+      "truth": "false",
+      "explain": "“Red-handed” means caught in the act of doing wrong."
+     },
+     {
+      "text": "We keep an eye on the thief to pretend we did not see him.",
+      "truth": "false",
+      "explain": "“Keep an eye on” means watch carefully."
+     },
+     {
+      "text": "He broke the law by helping an old woman cross the road.",
+      "truth": "false",
+      "explain": "Breaking the law means doing something illegal."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

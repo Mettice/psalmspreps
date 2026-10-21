@@ -1,0 +1,468 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-33",
+   "name": "Talking about insecurity and crime; reading about a safer quarter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: A safer quarter\nLast year, Mbengwi quarter lived in fear. Thieves broke into shops at night, and two pupils were nearly kidnapped on their way home. Parents stopped sending children to evening studies. Then the quarter head called a meeting. The people agreed to light the streets, to form a vigilance group of volunteers who walk round the quarter at night, and to report every suspect to the police instead of beating him. The police opened a small post near the market. Six months later, crime had fallen sharply. \"Security is everybody's business,\" said the quarter head. \"We protect each other, and we let the law do its work.\"\n\nUseful words: theft, burglary (breaking into a house or shop), kidnapping (taking a person by force), a suspect (a person thought to be guilty), a vigilance group (volunteers who keep watch), to report a crime, the police, justice.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In the text, what three things did the people agree to do?",
+  "steps": [
+   "Find the meeting in the text.",
+   "They agreed to light the streets, to form a vigilance group, and to report suspects to the police instead of beating them."
+  ],
+  "answer": "light the streets; form a vigilance group; report suspects to the police",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c33-1",
+    "status": "draft",
+    "idea": "Crime words: theft, burglary, kidnapping, suspect, report.",
+    "vars": {},
+    "example": [
+     "Burglary means breaking into a house or shop to steal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-33-words"
+    }
+   },
+   {
+    "id": "c33-2",
+    "status": "draft",
+    "idea": "Answer questions with the exact information from the text.",
+    "vars": {},
+    "example": [
+     "Who called the meeting? The quarter head."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-33-text"
+    }
+   },
+   {
+    "id": "c33-3",
+    "status": "draft",
+    "idea": "The main idea is the lesson of the whole text.",
+    "vars": {},
+    "example": [
+     "Security is everybody's business, and the law must do its work."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-33-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "what is the main idea?",
+         "r": "people working together, with the police, can make a quarter safe",
+         "w": [
+          "thieves are stronger than the police",
+          "children must stay at home forever",
+          "people should punish suspects themselves"
+         ],
+         "e": [
+          "Crime fell when people worked together.",
+          "Evening studies were the problem only at first.",
+          "They agreed to report suspects, not beat them."
+         ],
+         "y": "“Security is everybody's business.”"
+        },
+        {
+         "q": "why did they report suspects instead of beating them?",
+         "r": "to let the law do its work",
+         "w": [
+          "because the suspects were their friends",
+          "because the police were far away",
+          "because beating is too tiring"
+         ],
+         "e": [
+          "The text does not say that.",
+          "The police opened a post near the market.",
+          "That is not the reason."
+         ],
+         "y": "“We let the law do its work.”"
+        }
+       ]
+      }
+     },
+     "prompt": "Text “A safer quarter”: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-33-words",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is burglary?",
+       "r": "breaking into a house or shop to steal",
+       "w": [
+        "taking a person by force",
+        "shouting at night",
+        "a meeting of the quarter"
+       ],
+       "e": [
+        "That is kidnapping.",
+        "That is noise, not a crime word here.",
+        "That is a meeting."
+       ],
+       "y": "Burglars break in to steal."
+      },
+      {
+       "q": "What is a suspect?",
+       "r": "a person thought to be guilty of a crime",
+       "w": [
+        "a police officer",
+        "a person who was robbed",
+        "a judge"
+       ],
+       "e": [
+        "The police arrest suspects.",
+        "That is a victim.",
+        "A judge decides in court."
+       ],
+       "y": "A suspect is not yet proved guilty."
+      },
+      {
+       "q": "What is kidnapping?",
+       "r": "taking a person away by force",
+       "w": [
+        "stealing from a shop",
+        "fighting in the market",
+        "selling drugs"
+       ],
+       "e": [
+        "That is theft or burglary.",
+        "That is a fight.",
+        "That is drug dealing."
+       ],
+       "y": "Kidnappers take people away by force."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-33-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "who called the meeting?",
+       "r": "the quarter head",
+       "w": [
+        "the police",
+        "the parents",
+        "the thieves"
+       ],
+       "e": [
+        "The police opened a post later.",
+        "Parents attended it.",
+        "The thieves were the problem."
+       ],
+       "y": "“Then the quarter head called a meeting.”"
+      },
+      {
+       "q": "what did the vigilance group do?",
+       "r": "walk round the quarter at night",
+       "w": [
+        "beat suspects",
+        "close the market",
+        "teach evening studies"
+       ],
+       "e": [
+        "They agreed not to beat suspects.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "Volunteers walk round the quarter at night."
+      },
+      {
+       "q": "what happened six months later?",
+       "r": "crime had fallen sharply",
+       "w": [
+        "the police post closed",
+        "more pupils were kidnapped",
+        "the shops closed"
+       ],
+       "e": [
+        "The text does not say that.",
+        "Crime fell.",
+        "The text does not say that."
+       ],
+       "y": "“Six months later, crime had fallen sharply.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “A safer quarter”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-33-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what is the main idea?",
+       "r": "people working together, with the police, can make a quarter safe",
+       "w": [
+        "thieves are stronger than the police",
+        "children must stay at home forever",
+        "people should punish suspects themselves"
+       ],
+       "e": [
+        "Crime fell when people worked together.",
+        "Evening studies were the problem only at first.",
+        "They agreed to report suspects, not beat them."
+       ],
+       "y": "“Security is everybody's business.”"
+      },
+      {
+       "q": "why did they report suspects instead of beating them?",
+       "r": "to let the law do its work",
+       "w": [
+        "because the suspects were their friends",
+        "because the police were far away",
+        "because beating is too tiring"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The police opened a post near the market.",
+        "That is not the reason."
+       ],
+       "y": "“We let the law do its work.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “A safer quarter”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-33-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “A safer quarter”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The quarter head called a meeting.",
+      "truth": "true"
+     },
+     {
+      "text": "The people agreed to light the streets.",
+      "truth": "true"
+     },
+     {
+      "text": "The police opened a post near the market.",
+      "truth": "true"
+     },
+     {
+      "text": "Crime fell after six months.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The vigilance group beat every suspect.",
+      "truth": "false",
+      "explain": "They agreed to report suspects to the police instead of beating them."
+     },
+     {
+      "text": "Parents sent children to evening studies more often during the crisis.",
+      "truth": "false",
+      "explain": "They stopped sending them."
+     },
+     {
+      "text": "Crime rose after the meeting.",
+      "truth": "false",
+      "explain": "Crime fell sharply."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

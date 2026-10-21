@@ -1,0 +1,430 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 55,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-55",
+   "name": "Pronouns"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A pronoun replaces a noun so that we do not repeat it.\n• Subject pronouns (before the verb): I, you, he, she, it, we, they — She plays handball.\n• Object pronouns (after a verb or a preposition): me, you, him, her, it, us, them — The coach chose her. Come with us.\n• Possessive pronouns (stand alone): mine, yours, his, hers, ours, theirs — This ball is mine. (Possessive adjectives come before a noun: my ball.)\n• Reflexive pronouns (the same person as the subject): myself, yourself, himself, herself, itself, ourselves, yourselves, themselves — He hurt himself.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Replace the nouns: “Ayuk gave the ball to Ngum and Tabe. The ball belongs to Ayuk.”",
+  "steps": [
+   "Ayuk → He; the ball → it; Ngum and Tabe → them.",
+   "He gave it to them. It is his."
+  ],
+  "answer": "He gave it to them. It is his.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c55-1",
+    "status": "draft",
+    "idea": "Subject pronoun before the verb; object pronoun after it.",
+    "vars": {},
+    "example": [
+     "They watched him."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-55-obj"
+    }
+   },
+   {
+    "id": "c55-2",
+    "status": "draft",
+    "idea": "Possessive pronouns stand alone: mine, yours, his, hers, ours, theirs.",
+    "vars": {},
+    "example": [
+     "This racket is hers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-55-poss"
+    }
+   },
+   {
+    "id": "c55-3",
+    "status": "draft",
+    "idea": "Reflexive pronouns end in -self or -selves.",
+    "vars": {},
+    "example": [
+     "We enjoyed ourselves."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-55-ref-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "The goalkeeper hurt ___ during the match.",
+         "a": "himself",
+         "w": [
+          "hisself",
+          "him"
+         ],
+         "e": [
+          "The correct form is himself.",
+          "The subject and object are the same person: himself."
+         ]
+        },
+        {
+         "s": "We enjoyed ___ at the stadium.",
+         "a": "ourselves",
+         "w": [
+          "ourself",
+          "us"
+         ],
+         "e": [
+          "With we, the form is ourselves.",
+          "Use the reflexive: ourselves."
+         ]
+        },
+        {
+         "s": "The players trained by ___.",
+         "a": "themselves",
+         "w": [
+          "theirselves",
+          "them"
+         ],
+         "e": [
+          "The correct form is themselves.",
+          "Use the reflexive: themselves."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the reflexive pronoun.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-55-obj",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The coach called Bih and ___.",
+       "a": "me",
+       "w": [
+        "I",
+        "my"
+       ],
+       "e": [
+        "After a verb, use the object pronoun: me.",
+        "“My” needs a noun after it."
+       ]
+      },
+      {
+       "s": "___ trained every evening for the match.",
+       "a": "We",
+       "w": [
+        "Us",
+        "Our"
+       ],
+       "e": [
+        "Before the verb, use the subject pronoun: We.",
+        "“Our” needs a noun after it."
+       ]
+      },
+      {
+       "s": "The referee showed ___ a yellow card. (Tabe)",
+       "a": "him",
+       "w": [
+        "he",
+        "his"
+       ],
+       "e": [
+        "After the verb, use the object pronoun.",
+        "“His” shows possession."
+       ]
+      },
+      {
+       "s": "Give the ball to ___. (the girls)",
+       "a": "them",
+       "w": [
+        "they",
+        "their"
+       ],
+       "e": [
+        "After “to”, use the object pronoun.",
+        "“Their” needs a noun after it."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct pronoun.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-55-poss",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "This jersey is not yours; it is ___.",
+       "a": "mine",
+       "w": [
+        "my",
+        "me"
+       ],
+       "e": [
+        "“My” needs a noun after it.",
+        "“Me” is an object pronoun."
+       ]
+      },
+      {
+       "s": "The red ball belongs to Ngum. It is ___.",
+       "a": "hers",
+       "w": [
+        "her",
+        "she"
+       ],
+       "e": [
+        "“Her” needs a noun after it here.",
+        "“She” is a subject pronoun."
+       ]
+      },
+      {
+       "s": "Our team won; the cup is ___.",
+       "a": "ours",
+       "w": [
+        "our",
+        "us"
+       ],
+       "e": [
+        "“Our” needs a noun after it.",
+        "“Us” is an object pronoun."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the possessive pronoun.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-55-ref",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The goalkeeper hurt ___ during the match.",
+       "a": "himself",
+       "w": [
+        "hisself",
+        "him"
+       ],
+       "e": [
+        "The correct form is himself.",
+        "The subject and object are the same person: himself."
+       ]
+      },
+      {
+       "s": "We enjoyed ___ at the stadium.",
+       "a": "ourselves",
+       "w": [
+        "ourself",
+        "us"
+       ],
+       "e": [
+        "With we, the form is ourselves.",
+        "Use the reflexive: ourselves."
+       ]
+      },
+      {
+       "s": "The players trained by ___.",
+       "a": "themselves",
+       "w": [
+        "theirselves",
+        "them"
+       ],
+       "e": [
+        "The correct form is themselves.",
+        "Use the reflexive: themselves."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the reflexive pronoun.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-55-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has a pronoun mistake?",
+   "pool": {
+    "right": [
+     {
+      "text": "She plays basketball with us.",
+      "truth": "true"
+     },
+     {
+      "text": "This ball is mine.",
+      "truth": "true"
+     },
+     {
+      "text": "They prepared themselves for the race.",
+      "truth": "true"
+     },
+     {
+      "text": "The coach praised him.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Me and Tabe went to the stadium.",
+      "truth": "false",
+      "explain": "As a subject, use I: Tabe and I went."
+     },
+     {
+      "text": "The trophy is our's.",
+      "truth": "false",
+      "explain": "Possessive pronouns have no apostrophe: ours."
+     },
+     {
+      "text": "He hurt hisself.",
+      "truth": "false",
+      "explain": "The correct form is himself."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

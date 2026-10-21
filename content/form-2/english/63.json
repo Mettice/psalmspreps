@@ -1,0 +1,397 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 63,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-63",
+   "name": "The indefinite and definite articles"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Indefinite articles: a / an, for one thing that is not yet known: a robot, an invention.\nUse an before a vowel SOUND, a before a consonant SOUND: an engineer, an hour (h is silent), an honest man; but a university, a uniform, a European (they start with the sound /j/), a one-way street.\nDefinite article: the, for something already known or the only one: I saw a robot. The robot was carrying medicine. The sun, the internet, the best doctor.\nNo article before most uncountable nouns used in general (Science is useful) or before names of people, towns and countries (Cameroon, Buea).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Choose a or an: ___ hour, ___ university, ___ engineer.",
+  "steps": [
+   "Listen to the first sound: hour starts with a vowel sound (h is silent) → an.",
+   "university starts with /j/ → a. engineer starts with a vowel sound → an."
+  ],
+  "answer": "an hour, a university, an engineer",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c63-1",
+    "status": "draft",
+    "idea": "Use an before a vowel sound, a before a consonant sound.",
+    "vars": {},
+    "example": [
+     "{article('hour')} hour, {article('university')} university"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-63-aan"
+    }
+   },
+   {
+    "id": "c63-2",
+    "status": "draft",
+    "idea": "Use the for something already mentioned or the only one.",
+    "vars": {},
+    "example": [
+     "I bought a phone. The phone is new."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-63-the"
+    }
+   },
+   {
+    "id": "c63-3",
+    "status": "draft",
+    "idea": "No article before names of people, towns and countries.",
+    "vars": {},
+    "example": [
+     "She studied in Buea, in Cameroon."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-63-none-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "My cousin lives in ___ Douala.",
+         "a": "∅",
+         "w": [
+          "the",
+          "a"
+         ],
+         "e": [
+          "No article before a town's name.",
+          "No article before a town's name."
+         ]
+        },
+        {
+         "s": "___ science helps us to live longer.",
+         "a": "∅",
+         "w": [
+          "The",
+          "A"
+         ],
+         "e": [
+          "Science in general takes no article.",
+          "Science is uncountable: no a."
+         ]
+        },
+        {
+         "s": "We use ___ internet to talk to the doctor.",
+         "a": "the",
+         "w": [
+          "∅",
+          "an"
+         ],
+         "e": [
+          "We say the internet.",
+          "We say the internet."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the article, or ∅ for no article.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-63-aan",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "w": {
+     "pick": [
+      "hour",
+      "university",
+      "umbrella",
+      "uniform",
+      "egg",
+      "robot",
+      "honest man",
+      "European doctor",
+      "onion",
+      "hospital",
+      "engineer",
+      "year",
+      "invention",
+      "useful machine",
+      "old computer"
+     ]
+    }
+   },
+   "prompt": "Choose a or an.",
+   "text": "The scientist showed us ___ {w}.",
+   "answer": "article(w)",
+   "choices": [
+    {
+     "text": "{article(w) == 'a' ? 'an' : 'a'}",
+     "misconception": "sound"
+    },
+    {
+     "text": "the",
+     "misconception": "the"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sound",
+     "explain": "Listen to the first sound of “{w}”: {article(w) == 'an' ? 'it is a vowel sound' : 'it is a consonant sound'}."
+    },
+    {
+     "id": "the",
+     "explain": "We do not know which one yet: it is the first time we mention it, so use a or an."
+    }
+   ]
+  },
+  {
+   "id": "e2-63-the",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "I saw a robot in the hospital. ___ robot was carrying medicine.",
+       "a": "The",
+       "w": [
+        "A",
+        "An"
+       ],
+       "e": [
+        "The robot is already known: the.",
+        "Robot starts with a consonant, and it is already known."
+       ]
+      },
+      {
+       "s": "___ sun gives us light and heat.",
+       "a": "The",
+       "w": [
+        "A",
+        "An"
+       ],
+       "e": [
+        "There is only one sun: the.",
+        "There is only one sun: the."
+       ]
+      },
+      {
+       "s": "She is ___ best student in our class.",
+       "a": "the",
+       "w": [
+        "a",
+        "an"
+       ],
+       "e": [
+        "With best (a superlative), use the.",
+        "With best, use the."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the article.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-63-none",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "My cousin lives in ___ Douala.",
+       "a": "∅",
+       "w": [
+        "the",
+        "a"
+       ],
+       "e": [
+        "No article before a town's name.",
+        "No article before a town's name."
+       ]
+      },
+      {
+       "s": "___ science helps us to live longer.",
+       "a": "∅",
+       "w": [
+        "The",
+        "A"
+       ],
+       "e": [
+        "Science in general takes no article.",
+        "Science is uncountable: no a."
+       ]
+      },
+      {
+       "s": "We use ___ internet to talk to the doctor.",
+       "a": "the",
+       "w": [
+        "∅",
+        "an"
+       ],
+       "e": [
+        "We say the internet.",
+        "We say the internet."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the article, or ∅ for no article.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-63-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has an article mistake?",
+   "pool": {
+    "right": [
+     {
+      "text": "An engineer repaired the machine.",
+      "truth": "true"
+     },
+     {
+      "text": "She waited for an hour.",
+      "truth": "true"
+     },
+     {
+      "text": "A university opened in our town.",
+      "truth": "true"
+     },
+     {
+      "text": "The internet is useful.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "He wore an uniform.",
+      "truth": "false",
+      "explain": "Uniform starts with the sound /j/: a uniform."
+     },
+     {
+      "text": "She is a honest woman.",
+      "truth": "false",
+      "explain": "The h is silent: an honest woman."
+     },
+     {
+      "text": "They live in the Cameroon.",
+      "truth": "false",
+      "explain": "No article before Cameroon."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

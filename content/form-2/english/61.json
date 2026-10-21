@@ -1,0 +1,438 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 61,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-61",
+   "name": "Talking about progress in science; reading about telehealth"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: A hospital in my bedroom\nWhen my grandfather's heart problem came back, we did not travel to the city. A nurse from the health centre brought a small machine and attached it to his chest. The recording was sent by phone to a heart specialist three hundred kilometres away, who read it within an hour and changed his medicine. This is telehealth: using phones, computers and the internet to give health care at a distance. In some big hospitals, robots now help surgeons to operate with great precision, and computers help doctors to read X-rays. But machines do not replace people: the nurse still came to our house, explained everything and held my grandfather's hand.\n\nWords: technology, invention, a robot, telehealth (telemedicine), a specialist, a device, at a distance, precision.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What is telehealth, according to the text?",
+  "steps": [
+   "Find the sentence that begins “This is telehealth”.",
+   "Using phones, computers and the internet to give health care at a distance."
+  ],
+  "answer": "health care at a distance using phones, computers and the internet",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c61-1",
+    "status": "draft",
+    "idea": "Telehealth gives health care at a distance with phones and computers.",
+    "vars": {},
+    "example": [
+     "A specialist far away reads a recording."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-61-words"
+    }
+   },
+   {
+    "id": "c61-2",
+    "status": "draft",
+    "idea": "Robots help surgeons; computers help read X-rays.",
+    "vars": {},
+    "example": [
+     "Robots operate with great precision."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-61-text"
+    }
+   },
+   {
+    "id": "c61-3",
+    "status": "draft",
+    "idea": "The writer's view: machines help but do not replace people.",
+    "vars": {},
+    "example": [
+     "The nurse held Grandfather's hand."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-61-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "what is the writer's opinion of machines in health?",
+         "r": "they are useful but cannot replace people",
+         "w": [
+          "they are dangerous",
+          "they should replace nurses",
+          "they are useless"
+         ],
+         "e": [
+          "The writer praises them.",
+          "The writer says the opposite.",
+          "They helped Grandfather."
+         ],
+         "y": "“machines do not replace people”"
+        },
+        {
+         "q": "what did the family save by using telehealth?",
+         "r": "a long journey to the city",
+         "w": [
+          "their house",
+          "Grandfather's medicine",
+          "a robot"
+         ],
+         "e": [
+          "The text does not say that.",
+          "The medicine was changed, not saved.",
+          "No robot was used."
+         ],
+         "y": "“we did not travel to the city.”"
+        }
+       ]
+      }
+     },
+     "prompt": "Text “A hospital in my bedroom”: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-61-words",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is telehealth?",
+       "r": "health care given at a distance using phones and computers",
+       "w": [
+        "a television programme about health",
+        "a new hospital building",
+        "a kind of medicine"
+       ],
+       "e": [
+        "It is not a TV programme.",
+        "It is a way of giving care.",
+        "It is not a medicine."
+       ],
+       "y": "Tele- means far."
+      },
+      {
+       "q": "What is a specialist?",
+       "r": "a doctor who knows one area of medicine very well",
+       "w": [
+        "a nurse in a village",
+        "a machine",
+        "a patient"
+       ],
+       "e": [
+        "The nurse is not the specialist here.",
+        "A specialist is a person.",
+        "The patient is treated."
+       ],
+       "y": "A heart specialist knows hearts very well."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-61-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "how did the specialist receive the recording?",
+       "r": "by phone",
+       "w": [
+        "by post",
+        "the family took it to the city",
+        "on the radio"
+       ],
+       "e": [
+        "It was faster than post.",
+        "They did not travel.",
+        "The text says by phone."
+       ],
+       "y": "“The recording was sent by phone.”"
+      },
+      {
+       "q": "what do robots do in big hospitals?",
+       "r": "help surgeons operate with great precision",
+       "w": [
+        "replace all the nurses",
+        "clean the wards",
+        "drive ambulances"
+       ],
+       "e": [
+        "The text says they do not replace people.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "They help surgeons."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “A hospital in my bedroom”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-61-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what is the writer's opinion of machines in health?",
+       "r": "they are useful but cannot replace people",
+       "w": [
+        "they are dangerous",
+        "they should replace nurses",
+        "they are useless"
+       ],
+       "e": [
+        "The writer praises them.",
+        "The writer says the opposite.",
+        "They helped Grandfather."
+       ],
+       "y": "“machines do not replace people”"
+      },
+      {
+       "q": "what did the family save by using telehealth?",
+       "r": "a long journey to the city",
+       "w": [
+        "their house",
+        "Grandfather's medicine",
+        "a robot"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The medicine was changed, not saved.",
+        "No robot was used."
+       ],
+       "y": "“we did not travel to the city.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “A hospital in my bedroom”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-61-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “A hospital in my bedroom”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The nurse brought a small machine.",
+      "truth": "true"
+     },
+     {
+      "text": "The specialist changed the medicine.",
+      "truth": "true"
+     },
+     {
+      "text": "Robots help surgeons in big hospitals.",
+      "truth": "true"
+     },
+     {
+      "text": "The nurse explained everything.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The family travelled three hundred kilometres to the city.",
+      "truth": "false",
+      "explain": "They did not travel; the recording did."
+     },
+     {
+      "text": "The writer thinks robots should replace nurses.",
+      "truth": "false",
+      "explain": "The writer says machines do not replace people."
+     },
+     {
+      "text": "The specialist took three days to read the recording.",
+      "truth": "false",
+      "explain": "He read it within an hour."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

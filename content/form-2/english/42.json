@@ -1,0 +1,548 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 42,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-42",
+   "name": "Affixes: prefixes and suffixes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An affix is a group of letters added to a word to make a new word.\n• A prefix goes at the beginning and often changes the meaning: un- (unhappy), dis- (dishonest), im- (impossible), in- (incorrect), re- (again: rewrite), mis- (wrongly: misunderstand), pre- (before: prepay).\n• A suffix goes at the end and often changes the class of word: -ful (careful), -less (without: hopeless), -ment (treatment), -ness (illness), -er / -ist (a person: teacher, scientist).\nHealth words with affixes: unhealthy, illness, treatment, careless, painful, painless.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Make words from “health” and “treat” with affixes.",
+  "steps": [
+   "health + -y = healthy; un- + healthy = unhealthy.",
+   "treat + -ment = treatment; mis- + treat = mistreat."
+  ],
+  "answer": "healthy, unhealthy, treatment, mistreat",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c42-1",
+    "status": "draft",
+    "idea": "A prefix comes first and changes the meaning.",
+    "vars": {},
+    "example": [
+     "un- + happy = unhappy (not happy)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-42-pre"
+    }
+   },
+   {
+    "id": "c42-2",
+    "status": "draft",
+    "idea": "A suffix comes last and can make a new kind of word.",
+    "vars": {},
+    "example": [
+     "treat (verb) + -ment = treatment (noun)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-42-suf"
+    }
+   },
+   {
+    "id": "c42-3",
+    "status": "draft",
+    "idea": "-ful means full of; -less means without.",
+    "vars": {},
+    "example": [
+     "painful (full of pain), painless (without pain)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-42-ful-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "The injection was quick and ___: I felt nothing.",
+         "a": "painless",
+         "w": [
+          "painful",
+          "painment"
+         ],
+         "e": [
+          "Painful means it hurt; you felt nothing.",
+          "That is not a word."
+         ]
+        },
+        {
+         "s": "Be ___ when you cross the road.",
+         "a": "careful",
+         "w": [
+          "careless",
+          "carement"
+         ],
+         "e": [
+          "Careless means without care: dangerous.",
+          "That is not a word."
+         ]
+        },
+        {
+         "s": "Eating too much sugar is ___.",
+         "a": "unhealthy",
+         "w": [
+          "healthful",
+          "healthless"
+         ],
+         "e": [
+          "The meaning is “not healthy”.",
+          "That is not the usual word."
+         ]
+        },
+        {
+         "s": "I cannot read this. Please ___ your name more clearly.",
+         "a": "rewrite",
+         "w": [
+          "unwrite",
+          "miswrite"
+         ],
+         "e": [
+          "Re- means again: write it again.",
+          "Mis- means wrongly; you want it written again."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-42-pre",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "b": "happy",
+       "r": "unhappy",
+       "w": [
+        "dishonest",
+        "impossible",
+        "incorrect"
+       ],
+       "e": [
+        "That word comes from another root.",
+        "That word comes from another root.",
+        "That word comes from another root."
+       ],
+       "y": "un- + happy = unhappy."
+      },
+      {
+       "b": "honest",
+       "r": "dishonest",
+       "w": [
+        "unhappy",
+        "impossible",
+        "incorrect"
+       ],
+       "e": [
+        "That word comes from another root.",
+        "That word comes from another root.",
+        "That word comes from another root."
+       ],
+       "y": "dis- + honest = dishonest."
+      },
+      {
+       "b": "possible",
+       "r": "impossible",
+       "w": [
+        "unhappy",
+        "dishonest",
+        "incorrect"
+       ],
+       "e": [
+        "That word comes from another root.",
+        "That word comes from another root.",
+        "That word comes from another root."
+       ],
+       "y": "im- + possible = impossible."
+      },
+      {
+       "b": "correct",
+       "r": "incorrect",
+       "w": [
+        "unhappy",
+        "dishonest",
+        "impossible"
+       ],
+       "e": [
+        "That word comes from another root.",
+        "That word comes from another root.",
+        "That word comes from another root."
+       ],
+       "y": "in- + correct = incorrect."
+      }
+     ]
+    }
+   },
+   "prompt": "Which word means “not {X.b}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-42-suf",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "b": "care",
+       "q": "a person who is full of care is …",
+       "r": "careful",
+       "w": [
+        "careless",
+        "caring",
+        "careness"
+       ],
+       "e": [
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix."
+       ],
+       "y": "care + -ful = careful."
+      },
+      {
+       "b": "hope",
+       "q": "a person without hope feels …",
+       "r": "hopeless",
+       "w": [
+        "hopeful",
+        "hoping",
+        "hopement"
+       ],
+       "e": [
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix."
+       ],
+       "y": "hope + -less = hopeless."
+      },
+      {
+       "b": "treat",
+       "q": "the nurse gives the patient a …",
+       "r": "treatment",
+       "w": [
+        "treatful",
+        "treatless",
+        "treater"
+       ],
+       "e": [
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix."
+       ],
+       "y": "treat + -ment = treatment."
+      },
+      {
+       "b": "ill",
+       "q": "malaria is an …",
+       "r": "illness",
+       "w": [
+        "illful",
+        "illment",
+        "iller"
+       ],
+       "e": [
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix."
+       ],
+       "y": "ill + -ness = illness."
+      },
+      {
+       "b": "teach",
+       "q": "a person who teaches is a …",
+       "r": "teacher",
+       "w": [
+        "teachment",
+        "teachness",
+        "teachist"
+       ],
+       "e": [
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix."
+       ],
+       "y": "teach + -er = teacher."
+      },
+      {
+       "b": "science",
+       "q": "a person who studies science is a …",
+       "r": "scientist",
+       "w": [
+        "sciencer",
+        "scienceful",
+        "scienceness"
+       ],
+       "e": [
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix.",
+        "Check the meaning of the suffix."
+       ],
+       "y": "science + -ist = scientist."
+      }
+     ]
+    }
+   },
+   "prompt": "Add a suffix to “{X.b}” to make the word that fits: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-42-ful",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The injection was quick and ___: I felt nothing.",
+       "a": "painless",
+       "w": [
+        "painful",
+        "painment"
+       ],
+       "e": [
+        "Painful means it hurt; you felt nothing.",
+        "That is not a word."
+       ]
+      },
+      {
+       "s": "Be ___ when you cross the road.",
+       "a": "careful",
+       "w": [
+        "careless",
+        "carement"
+       ],
+       "e": [
+        "Careless means without care: dangerous.",
+        "That is not a word."
+       ]
+      },
+      {
+       "s": "Eating too much sugar is ___.",
+       "a": "unhealthy",
+       "w": [
+        "healthful",
+        "healthless"
+       ],
+       "e": [
+        "The meaning is “not healthy”.",
+        "That is not the usual word."
+       ]
+      },
+      {
+       "s": "I cannot read this. Please ___ your name more clearly.",
+       "a": "rewrite",
+       "w": [
+        "unwrite",
+        "miswrite"
+       ],
+       "e": [
+        "Re- means again: write it again.",
+        "Mis- means wrongly; you want it written again."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-42-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "un- in unhappy means not.",
+      "truth": "true"
+     },
+     {
+      "text": "-less in hopeless means without.",
+      "truth": "true"
+     },
+     {
+      "text": "re- in rewrite means again.",
+      "truth": "true"
+     },
+     {
+      "text": "-er in teacher shows a person.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "-ful in careful means without.",
+      "truth": "false",
+      "explain": "-ful means full of; -less means without."
+     },
+     {
+      "text": "A prefix is added at the end of a word.",
+      "truth": "false",
+      "explain": "A prefix goes at the beginning."
+     },
+     {
+      "text": "mis- in misunderstand means again.",
+      "truth": "false",
+      "explain": "mis- means wrongly; re- means again."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

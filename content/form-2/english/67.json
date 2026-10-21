@@ -1,0 +1,325 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 67,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-67",
+   "name": "Comparison of adjectives: short and long forms"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To compare two things, use the comparative + than; for three or more, the superlative with the.\n• Short adjectives (one syllable): add -er / -est: tall → taller → the tallest. Spelling: big → bigger (double the last letter after one short vowel), large → larger, happy → happier (y → i).\n• Long adjectives (two or more syllables, not ending in -y): more / most: dangerous → more dangerous → the most dangerous.\n• Irregular: good → better → the best; bad → worse → the worst; far → farther → the farthest.\nNever use both: not “more hotter”.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": "hot",
+   "b": "dangerous"
+  },
+  "problem": "Compare: “This year is ___ (hot) than last year. Floods are ___ (dangerous) than droughts.”",
+  "steps": [
+   "hot is short, with one short vowel: double the t: {comparative(a)}.",
+   "dangerous is long: {comparative(b)}."
+  ],
+  "answer": "{comparative(a)}; {comparative(b)}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c67-1",
+    "status": "draft",
+    "idea": "Short adjectives take -er: tall → taller.",
+    "vars": {
+     "a": "big"
+    },
+    "example": [
+     "{a} → {comparative(a)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-67-short"
+    }
+   },
+   {
+    "id": "c67-2",
+    "status": "draft",
+    "idea": "Long adjectives take more: more dangerous.",
+    "vars": {
+     "a": "beautiful"
+    },
+    "example": [
+     "{a} → {comparative(a)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-67-long"
+    }
+   },
+   {
+    "id": "c67-3",
+    "status": "draft",
+    "idea": "Superlative: the -est or the most.",
+    "vars": {
+     "a": "hot",
+     "b": "dangerous"
+    },
+    "example": [
+     "{a} → {superlative(a)}; {b} → {superlative(b)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-67-sup-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        "hot",
+        "wet",
+        "dry",
+        "cold",
+        "dangerous",
+        "good",
+        "bad",
+        "busy",
+        "beautiful"
+       ]
+      }
+     },
+     "prompt": "Write the superlative (with “the”).",
+     "text": "This is ___ ({a}) season of the year.",
+     "answer": "superlative(a)",
+     "misconceptions": [
+      {
+       "id": "er",
+       "wrong": "comparative(a)",
+       "explain": "That is the comparative. For one of many, use the superlative: {superlative(a)}."
+      },
+      {
+       "id": "no-the",
+       "wrong": "replaceFirst(superlative(a), 'the ', '')",
+       "explain": "Use “the” before the superlative."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-67-short",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "hot",
+      "cold",
+      "wet",
+      "dry",
+      "long",
+      "short",
+      "big",
+      "heavy",
+      "dirty",
+      "large"
+     ]
+    }
+   },
+   "prompt": "Complete: “This season is ___ than last season.” ({a})",
+   "correct": "{comparative(a)}",
+   "distractors": [
+    {
+     "text": "{comparativeNaive(a)}",
+     "misconception": "form"
+    },
+    {
+     "text": "{comparativeDouble(a)}",
+     "misconception": "double"
+    },
+    {
+     "text": "{a}",
+     "misconception": "base"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "form",
+     "explain": "“{a}” is short: add -er, not more."
+    },
+    {
+     "id": "double",
+     "explain": "Never use more and -er together."
+    },
+    {
+     "id": "base",
+     "explain": "We compare two seasons: use the comparative."
+    }
+   ],
+   "solution": [
+    "“{a}” is a short adjective: {answer}.",
+    "Use the comparative + than."
+   ]
+  },
+  {
+   "id": "e2-67-long",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "dangerous",
+      "harmful",
+      "expensive",
+      "difficult",
+      "important",
+      "bad",
+      "good"
+     ]
+    }
+   },
+   "prompt": "Complete: “Floods are ___ than droughts.” ({a})",
+   "correct": "{comparative(a)}",
+   "distractors": [
+    {
+     "text": "{comparativeNaive(a)}",
+     "misconception": "form"
+    },
+    {
+     "text": "{comparativeDouble(a)}",
+     "misconception": "double"
+    },
+    {
+     "text": "{a}",
+     "misconception": "base"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "form",
+     "explain": "{isLongAdj(a) ? 'Long adjectives take more, not -er.' : a + ' is irregular: ' + comparative(a) + '.'}"
+    },
+    {
+     "id": "double",
+     "explain": "Never use more and -er together."
+    },
+    {
+     "id": "base",
+     "explain": "We compare two things: use the comparative."
+    }
+   ],
+   "solution": [
+    "{isLongAdj(a) ? '“' + a + '” is long: use more.' : '“' + a + '” is irregular.'}",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "e2-67-sup",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "hot",
+      "wet",
+      "dry",
+      "cold",
+      "dangerous",
+      "good",
+      "bad",
+      "busy",
+      "beautiful"
+     ]
+    }
+   },
+   "prompt": "Write the superlative (with “the”).",
+   "text": "This is ___ ({a}) season of the year.",
+   "answer": "superlative(a)",
+   "misconceptions": [
+    {
+     "id": "er",
+     "wrong": "comparative(a)",
+     "explain": "That is the comparative. For one of many, use the superlative: {superlative(a)}."
+    },
+    {
+     "id": "no-the",
+     "wrong": "replaceFirst(superlative(a), 'the ', '')",
+     "explain": "Use “the” before the superlative."
+    }
+   ]
+  },
+  {
+   "id": "e2-67-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has a mistake?",
+   "pool": {
+    "right": [
+     {
+      "text": "This year is hotter than last year.",
+      "truth": "true"
+     },
+     {
+      "text": "Floods are more dangerous than storms.",
+      "truth": "true"
+     },
+     {
+      "text": "It was the worst drought in ten years.",
+      "truth": "true"
+     },
+     {
+      "text": "The north is drier than the south.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "This year is more hotter than last year.",
+      "truth": "false",
+      "explain": "Do not use more and -er together: hotter."
+     },
+     {
+      "text": "Droughts are dangerouser than storms.",
+      "truth": "false",
+      "explain": "Long adjectives take more: more dangerous."
+     },
+     {
+      "text": "It was the baddest flood.",
+      "truth": "false",
+      "explain": "bad → worse → the worst."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

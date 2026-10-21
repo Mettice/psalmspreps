@@ -1,0 +1,407 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 45,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-45",
+   "name": "Talking about postal services; reading about sending a parcel"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: A parcel for Grandma\nNkeng wanted to send a parcel of clothes to her grandmother in Kumbo. She went to the post office. At the counter, the clerk weighed the parcel and told her the price. Nkeng wrote the address clearly: her grandmother's name, the P.O. Box number and the town. She also wrote her own address on the back, so that the parcel could come back if it was not delivered. She paid, received a receipt with a tracking number, and bought stamps for two letters. The clerk explained that express mail is faster but costs more. A week later, Grandma phoned: the parcel had arrived safely.\n\nPostal services: sending letters and parcels, selling stamps, renting post office boxes (P.O. Box), express mail, sending and receiving money. Words: counter, clerk, sender, addressee (who receives it), receipt, tracking number.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why did Nkeng write her own address on the back?",
+  "steps": [
+   "Find the sentence about her own address.",
+   "“so that the parcel could come back if it was not delivered”"
+  ],
+  "answer": "So that the parcel could be returned if it was not delivered.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c45-1",
+    "status": "draft",
+    "idea": "The post office sends letters and parcels, sells stamps and rents boxes.",
+    "vars": {},
+    "example": [
+     "You buy stamps at the post office counter."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-45-words"
+    }
+   },
+   {
+    "id": "c45-2",
+    "status": "draft",
+    "idea": "The sender sends; the addressee receives.",
+    "vars": {},
+    "example": [
+     "Nkeng is the sender; her grandmother is the addressee."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-45-text"
+    }
+   },
+   {
+    "id": "c45-3",
+    "status": "draft",
+    "idea": "A receipt and a tracking number prove that you sent the parcel.",
+    "vars": {},
+    "example": [
+     "With the tracking number you can follow the parcel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-45-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "what is the difference between express mail and ordinary mail?",
+         "r": "express mail is faster but costs more",
+         "w": [
+          "express mail is cheaper",
+          "ordinary mail is faster",
+          "there is no difference"
+         ],
+         "e": [
+          "It costs more.",
+          "Express is faster.",
+          "The clerk explained a difference."
+         ],
+         "y": "The clerk explained it."
+        },
+        {
+         "q": "why is a tracking number useful?",
+         "r": "it lets you follow where the parcel is",
+         "w": [
+          "it makes the parcel lighter",
+          "it replaces the address",
+          "it pays for the parcel"
+         ],
+         "e": [
+          "It does not change the weight.",
+          "You still need the address.",
+          "You pay at the counter."
+         ],
+         "y": "You can check the parcel's journey with it."
+        }
+       ]
+      }
+     },
+     "prompt": "Text “A parcel for Grandma”: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-45-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "the sender",
+     "right": "the person who sends a letter or parcel"
+    },
+    {
+     "left": "the addressee",
+     "right": "the person a letter is sent to"
+    },
+    {
+     "left": "a stamp",
+     "right": "a small paper you stick on a letter to pay for sending it"
+    },
+    {
+     "left": "a receipt",
+     "right": "a paper that shows you have paid"
+    },
+    {
+     "left": "to deliver",
+     "right": "to take a letter or parcel to the addressee"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-45-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what did the clerk do first?",
+       "r": "weighed the parcel",
+       "w": [
+        "delivered the parcel",
+        "wrote the address",
+        "phoned Grandma"
+       ],
+       "e": [
+        "Delivery came later.",
+        "Nkeng wrote the address.",
+        "Grandma phoned later."
+       ],
+       "y": "“the clerk weighed the parcel and told her the price.”"
+      },
+      {
+       "q": "what did Nkeng receive after paying?",
+       "r": "a receipt with a tracking number",
+       "w": [
+        "a new parcel",
+        "a P.O. Box",
+        "a letter from Grandma"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The text does not say that.",
+        "Grandma phoned."
+       ],
+       "y": "She received a receipt with a tracking number."
+      },
+      {
+       "q": "who is the addressee of the parcel?",
+       "r": "Nkeng's grandmother",
+       "w": [
+        "Nkeng",
+        "the clerk",
+        "the postman"
+       ],
+       "e": [
+        "Nkeng is the sender.",
+        "The clerk works at the counter.",
+        "The postman delivers."
+       ],
+       "y": "The parcel was for Grandma in Kumbo."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “A parcel for Grandma”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-45-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what is the difference between express mail and ordinary mail?",
+       "r": "express mail is faster but costs more",
+       "w": [
+        "express mail is cheaper",
+        "ordinary mail is faster",
+        "there is no difference"
+       ],
+       "e": [
+        "It costs more.",
+        "Express is faster.",
+        "The clerk explained a difference."
+       ],
+       "y": "The clerk explained it."
+      },
+      {
+       "q": "why is a tracking number useful?",
+       "r": "it lets you follow where the parcel is",
+       "w": [
+        "it makes the parcel lighter",
+        "it replaces the address",
+        "it pays for the parcel"
+       ],
+       "e": [
+        "It does not change the weight.",
+        "You still need the address.",
+        "You pay at the counter."
+       ],
+       "y": "You can check the parcel's journey with it."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “A parcel for Grandma”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-45-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “A parcel for Grandma”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Nkeng sent clothes to Kumbo.",
+      "truth": "true"
+     },
+     {
+      "text": "She bought stamps for two letters.",
+      "truth": "true"
+     },
+     {
+      "text": "The parcel arrived safely.",
+      "truth": "true"
+     },
+     {
+      "text": "She wrote her own address on the back.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Grandma sent the parcel to Nkeng.",
+      "truth": "false",
+      "explain": "Nkeng sent it to her grandmother."
+     },
+     {
+      "text": "The clerk said express mail is cheaper.",
+      "truth": "false",
+      "explain": "He said it is faster but costs more."
+     },
+     {
+      "text": "The parcel never arrived.",
+      "truth": "false",
+      "explain": "Grandma phoned: it arrived safely."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

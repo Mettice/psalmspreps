@@ -1,0 +1,483 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 37,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-37",
+   "name": "Talking about rights; reading about young parliamentarians"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: The Children's Parliament\nEvery year, children chosen from schools all over Cameroon meet as members of the Children's Parliament. Like real members of parliament, they debate and vote. This year, Junior Parliamentarian Ayuk Mary spoke about the right to education: \"Some girls stop school because they must work at home or marry too young. Every child has the right to go to school, to be healthy, to be protected from violence and to be heard.\" Another young parliamentarian reminded the house that rights come with duties: \"We must respect our parents and teachers, study hard and protect the environment.\" At the end, the children sent their proposals to the Minister.\n\nA right is something every person should have or be allowed to do (to go to school, to be protected). A duty is something we must do (to respect others, to obey the law). ",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Name two rights and two duties from the text.",
+  "steps": [
+   "Rights: “to go to school, to be healthy, to be protected from violence and to be heard”.",
+   "Duties: “respect our parents and teachers, study hard and protect the environment”."
+  ],
+  "answer": "rights: education, protection; duties: respect, studying hard",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c37-1",
+    "status": "draft",
+    "idea": "A right is what a child should have; a duty is what a child must do.",
+    "vars": {},
+    "example": [
+     "Right: to go to school. Duty: to study hard."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-37-right"
+    }
+   },
+   {
+    "id": "c37-2",
+    "status": "draft",
+    "idea": "Find the answer in the text and quote it.",
+    "vars": {},
+    "example": [
+     "Who spoke about education? Ayuk Mary."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-37-text"
+    }
+   },
+   {
+    "id": "c37-3",
+    "status": "draft",
+    "idea": "Rights come with duties.",
+    "vars": {},
+    "example": [
+     "The right to education comes with the duty to study."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-37-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "what is the main message?",
+         "r": "children have rights, and those rights come with duties",
+         "w": [
+          "children should not go to school",
+          "only adults have rights",
+          "girls must marry young"
+         ],
+         "e": [
+          "The text defends education.",
+          "The text is about children's rights.",
+          "The text speaks against early marriage."
+         ],
+         "y": "Both speeches together give the message."
+        },
+        {
+         "q": "how is the Children's Parliament like the real parliament?",
+         "r": "the members debate and vote",
+         "w": [
+          "the members are paid",
+          "the members are adults",
+          "it makes the laws of the country"
+         ],
+         "e": [
+          "The text does not say that.",
+          "The members are children.",
+          "It sends proposals; it does not make laws."
+         ],
+         "y": "“Like real members of parliament, they debate and vote.”"
+        }
+       ]
+      }
+     },
+     "prompt": "Text “The Children's Parliament”: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-37-right",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "to go to school",
+       "r": "a right",
+       "w": [
+        "a duty",
+        "a crime",
+        "a punishment"
+       ],
+       "e": [
+        "It is something every child should have.",
+        "It is not a crime.",
+        "It is not a punishment."
+       ],
+       "y": "Education is a right of every child."
+      },
+      {
+       "q": "to respect your teachers",
+       "r": "a duty",
+       "w": [
+        "a right",
+        "a crime",
+        "a law court"
+       ],
+       "e": [
+        "It is something children must do.",
+        "It is not a crime.",
+        "It is not a place."
+       ],
+       "y": "Respect is a duty."
+      },
+      {
+       "q": "to be protected from violence",
+       "r": "a right",
+       "w": [
+        "a duty",
+        "a crime",
+        "a punishment"
+       ],
+       "e": [
+        "Children should have this.",
+        "It is not a crime.",
+        "It is not a punishment."
+       ],
+       "y": "Protection is a right."
+      },
+      {
+       "q": "to protect the environment",
+       "r": "a duty",
+       "w": [
+        "a right",
+        "a crime",
+        "a punishment"
+       ],
+       "e": [
+        "It is something we must do.",
+        "It is not a crime.",
+        "It is not a punishment."
+       ],
+       "y": "Protecting the environment is a duty."
+      }
+     ]
+    }
+   },
+   "prompt": "Is this a right or a duty? “{X.q}”",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-37-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "who spoke about the right to education?",
+       "r": "Ayuk Mary",
+       "w": [
+        "the Minister",
+        "a teacher",
+        "a parent"
+       ],
+       "e": [
+        "The Minister received the proposals.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "“Junior Parliamentarian Ayuk Mary spoke about the right to education.”"
+      },
+      {
+       "q": "why do some girls stop school?",
+       "r": "they must work at home or marry too young",
+       "w": [
+        "they do not like school",
+        "the schools are closed",
+        "they are too old"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "Ayuk Mary gives these two reasons."
+      },
+      {
+       "q": "what did the children do at the end?",
+       "r": "sent their proposals to the Minister",
+       "w": [
+        "went on holiday",
+        "voted for a president",
+        "closed the parliament"
+       ],
+       "e": [
+        "The text does not say that.",
+        "They debated and voted on proposals.",
+        "The text does not say that."
+       ],
+       "y": "“The children sent their proposals to the Minister.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “The Children's Parliament”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-37-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what is the main message?",
+       "r": "children have rights, and those rights come with duties",
+       "w": [
+        "children should not go to school",
+        "only adults have rights",
+        "girls must marry young"
+       ],
+       "e": [
+        "The text defends education.",
+        "The text is about children's rights.",
+        "The text speaks against early marriage."
+       ],
+       "y": "Both speeches together give the message."
+      },
+      {
+       "q": "how is the Children's Parliament like the real parliament?",
+       "r": "the members debate and vote",
+       "w": [
+        "the members are paid",
+        "the members are adults",
+        "it makes the laws of the country"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The members are children.",
+        "It sends proposals; it does not make laws."
+       ],
+       "y": "“Like real members of parliament, they debate and vote.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “The Children's Parliament”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-37-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “The Children's Parliament”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The members come from schools all over Cameroon.",
+      "truth": "true"
+     },
+     {
+      "text": "Ayuk Mary spoke about education.",
+      "truth": "true"
+     },
+     {
+      "text": "Rights come with duties.",
+      "truth": "true"
+     },
+     {
+      "text": "The proposals were sent to the Minister.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Children's Parliament is made of adults.",
+      "truth": "false",
+      "explain": "Its members are children chosen from schools."
+     },
+     {
+      "text": "Ayuk Mary said girls should marry young.",
+      "truth": "false",
+      "explain": "She said marrying too young stops girls' schooling."
+     },
+     {
+      "text": "The young parliamentarians said children have no duties.",
+      "truth": "false",
+      "explain": "They listed duties: respect, studying, protecting the environment."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

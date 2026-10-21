@@ -1,0 +1,421 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 58,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-58",
+   "name": "Punctuation (1)"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Capital letter: at the start of a sentence and for proper nouns.\n• Full stop (.): at the end of a statement.\n• Question mark (?): at the end of a direct question.\n• Exclamation mark (!): after a strong feeling or a sharp order: What a dirty street! Stop!\n• Comma (,): between items in a list (paper, plastic and glass), after an introductory word (However, …), around a name in direct address (Ayuk, come here.).\n• Apostrophe (’): for a missing letter (don't, it's = it is) and for possession (the council's trucks, the youths' campaign).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Punctuate: “ayuk did you see the councils truck it didnt come”",
+  "steps": [
+   "Capital A; comma after the name in direct address; question mark.",
+   "Possession: council's; contraction: didn't."
+  ],
+  "answer": "Ayuk, did you see the council's truck? It didn't come.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c58-1",
+    "status": "draft",
+    "idea": "A statement ends with a full stop; a question with a question mark.",
+    "vars": {},
+    "example": [
+     "Where is the bin? It is at the junction."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-58-end"
+    }
+   },
+   {
+    "id": "c58-2",
+    "status": "draft",
+    "idea": "Commas separate items in a list.",
+    "vars": {},
+    "example": [
+     "paper, plastic and glass"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-58-comma"
+    }
+   },
+   {
+    "id": "c58-3",
+    "status": "draft",
+    "idea": "The apostrophe shows a missing letter or possession.",
+    "vars": {},
+    "example": [
+     "don't; the council's truck"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-58-apos-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "The ___ trucks are too few.",
+         "a": "council's",
+         "w": [
+          "councils",
+          "councils'"
+         ],
+         "e": [
+          "One council owns the trucks: council's.",
+          "One council, so the apostrophe goes before s."
+         ]
+        },
+        {
+         "s": "___ raining: bring the rubbish inside.",
+         "a": "It's",
+         "w": [
+          "Its",
+          "Its'"
+         ],
+         "e": [
+          "It's = it is.",
+          "That form does not exist."
+         ]
+        },
+        {
+         "s": "We ___ burn rubbish.",
+         "a": "don't",
+         "w": [
+          "dont",
+          "do'nt"
+         ],
+         "e": [
+          "The apostrophe replaces the o of not.",
+          "The apostrophe goes where the letter is missing."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct form.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-58-end",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "When will the truck come___",
+       "a": "?",
+       "w": [
+        ".",
+        "!"
+       ],
+       "e": [
+        "It is a question.",
+        "It is a question, not an exclamation."
+       ]
+      },
+      {
+       "s": "What a dirty street___",
+       "a": "!",
+       "w": [
+        "?",
+        "."
+       ],
+       "e": [
+        "It shows a strong feeling, not a question.",
+        "A strong feeling takes an exclamation mark."
+       ]
+      },
+      {
+       "s": "The bin is at the junction___",
+       "a": ".",
+       "w": [
+        "?",
+        "!"
+       ],
+       "e": [
+        "It is a statement.",
+        "It is a calm statement."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the punctuation mark that ends the sentence.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-58-comma",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "r": "We sort paper, plastic and glass.",
+       "w": [
+        "We sort paper plastic and glass.",
+        "We sort, paper, plastic, and, glass.",
+        "We sort paper plastic, and glass."
+       ],
+       "e": [
+        "Separate the items with commas.",
+        "Too many commas.",
+        "The comma is in the wrong place."
+       ],
+       "y": "Commas between the items of a list."
+      },
+      {
+       "r": "Ngum, please close the bin.",
+       "w": [
+        "Ngum please close the bin.",
+        "Ngum please, close the bin.",
+        "Ngum. please close the bin."
+       ],
+       "e": [
+        "Put a comma after the name of the person spoken to.",
+        "The comma goes after the name.",
+        "A full stop breaks the sentence."
+       ],
+       "y": "A comma after the name in direct address."
+      }
+     ]
+    }
+   },
+   "prompt": "Which sentence is punctuated correctly?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-58-apos",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The ___ trucks are too few.",
+       "a": "council's",
+       "w": [
+        "councils",
+        "councils'"
+       ],
+       "e": [
+        "One council owns the trucks: council's.",
+        "One council, so the apostrophe goes before s."
+       ]
+      },
+      {
+       "s": "___ raining: bring the rubbish inside.",
+       "a": "It's",
+       "w": [
+        "Its",
+        "Its'"
+       ],
+       "e": [
+        "It's = it is.",
+        "That form does not exist."
+       ]
+      },
+      {
+       "s": "We ___ burn rubbish.",
+       "a": "don't",
+       "w": [
+        "dont",
+        "do'nt"
+       ],
+       "e": [
+        "The apostrophe replaces the o of not.",
+        "The apostrophe goes where the letter is missing."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-58-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is punctuated wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "Where is the dump?",
+      "truth": "true"
+     },
+     {
+      "text": "Stop burning plastic!",
+      "truth": "true"
+     },
+     {
+      "text": "The youths' campaign was a success.",
+      "truth": "true"
+     },
+     {
+      "text": "We collected bottles, bags and cans.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Where is the dump.",
+      "truth": "false",
+      "explain": "A question ends with a question mark."
+     },
+     {
+      "text": "Its a clean street now.",
+      "truth": "false",
+      "explain": "It's (it is) needs an apostrophe."
+     },
+     {
+      "text": "tabe and ngum cleaned the gutter.",
+      "truth": "false",
+      "explain": "Capital letters for the start and the names."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

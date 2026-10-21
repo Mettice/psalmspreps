@@ -1,0 +1,418 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 59,
+ "language": "en",
+ "prerequisites": [
+  55
+ ],
+ "skills": [
+  {
+   "id": "e2-59",
+   "name": "Impersonal pronouns"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Impersonal pronouns do not refer to a particular person or thing.\n• it: for weather, time, distance and to introduce an idea: It is raining. It is ten o'clock. It is important to keep the town clean.\n• there: to say that something exists: There is a bin at the junction. There are no trucks today. (there is + singular, there are + plural)\n• one, you, they: for people in general: One should not litter. You never know. They say the council will buy new trucks.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Choose it or there: “___ is dangerous to burn plastic.” “___ are three bins in our street.”",
+  "steps": [
+   "The first introduces an idea: It is dangerous …",
+   "The second says that things exist: There are three bins."
+  ],
+  "answer": "It … There …",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c59-1",
+    "status": "draft",
+    "idea": "It for weather, time and to introduce an idea.",
+    "vars": {},
+    "example": [
+     "It is important to sort rubbish."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-59-it"
+    }
+   },
+   {
+    "id": "c59-2",
+    "status": "draft",
+    "idea": "There is / there are say that something exists.",
+    "vars": {},
+    "example": [
+     "There are two bins."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-59-there"
+    }
+   },
+   {
+    "id": "c59-3",
+    "status": "draft",
+    "idea": "One, you, they can mean people in general.",
+    "vars": {},
+    "example": [
+     "One should not litter."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-59-one-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "One should not throw rubbish in the street.",
+         "r": "people in general",
+         "w": [
+          "one particular person",
+          "the speaker only",
+          "a number"
+         ],
+         "e": [
+          "It is a general rule.",
+          "It is for everyone.",
+          "Here one is a pronoun."
+         ],
+         "y": "One means anybody."
+        },
+        {
+         "q": "They say the council will buy new trucks.",
+         "r": "people in general",
+         "w": [
+          "the council members",
+          "the trucks",
+          "the speaker"
+         ],
+         "e": [
+          "They here is not a group we can name.",
+          "Trucks do not speak.",
+          "The speaker is not they."
+         ],
+         "y": "They say = people say."
+        }
+       ]
+      }
+     },
+     "prompt": "In “{X.q}”, who is the pronoun about?",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-59-it",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ is raining, so the gutters are full.",
+       "a": "It",
+       "w": [
+        "There",
+        "One"
+       ],
+       "e": [
+        "Weather uses it.",
+        "One is for people in general."
+       ]
+      },
+      {
+       "s": "___ is important to wash your hands.",
+       "a": "It",
+       "w": [
+        "There",
+        "They"
+       ],
+       "e": [
+        "It introduces the idea.",
+        "They is not used to introduce an idea."
+       ]
+      },
+      {
+       "s": "___ is six o'clock: the truck is late.",
+       "a": "It",
+       "w": [
+        "There",
+        "One"
+       ],
+       "e": [
+        "Time uses it.",
+        "One is for people in general."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the impersonal pronoun.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-59-there",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ a big bin at the market.",
+       "a": "There is",
+       "w": [
+        "There are",
+        "It is"
+       ],
+       "e": [
+        "One bin: there is.",
+        "To say something exists, use there."
+       ]
+      },
+      {
+       "s": "___ many plastic bags in the river.",
+       "a": "There are",
+       "w": [
+        "There is",
+        "It are"
+       ],
+       "e": [
+        "Many bags: there are.",
+        "That form is wrong."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct words.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-59-one",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "One should not throw rubbish in the street.",
+       "r": "people in general",
+       "w": [
+        "one particular person",
+        "the speaker only",
+        "a number"
+       ],
+       "e": [
+        "It is a general rule.",
+        "It is for everyone.",
+        "Here one is a pronoun."
+       ],
+       "y": "One means anybody."
+      },
+      {
+       "q": "They say the council will buy new trucks.",
+       "r": "people in general",
+       "w": [
+        "the council members",
+        "the trucks",
+        "the speaker"
+       ],
+       "e": [
+        "They here is not a group we can name.",
+        "Trucks do not speak.",
+        "The speaker is not they."
+       ],
+       "y": "They say = people say."
+      }
+     ]
+    }
+   },
+   "prompt": "In “{X.q}”, who is the pronoun about?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-59-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has a mistake?",
+   "pool": {
+    "right": [
+     {
+      "text": "It is hot today.",
+      "truth": "true"
+     },
+     {
+      "text": "There are flies near the dump.",
+      "truth": "true"
+     },
+     {
+      "text": "One must keep the town clean.",
+      "truth": "true"
+     },
+     {
+      "text": "It is dangerous to burn tyres.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "There is many bins in the market.",
+      "truth": "false",
+      "explain": "Many bins: there are."
+     },
+     {
+      "text": "It are two trucks in the street.",
+      "truth": "false",
+      "explain": "To say things exist: there are."
+     },
+     {
+      "text": "There is raining.",
+      "truth": "false",
+      "explain": "Weather uses it: It is raining."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,392 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 65,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-65",
+   "name": "Talking about climate change; reading about global warming and natural hazards"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: A warmer world\nThe Earth is getting warmer. When we burn wood, petrol and coal, and when forests are cut down, more carbon dioxide stays in the air and traps the sun's heat, like the glass of a greenhouse. This is global warming. It changes the climate: the rains come late or too heavily, the dry season gets longer and hotter, and storms become stronger. In the north of Cameroon, droughts dry up wells and crops; elsewhere, heavy rains cause floods and landslides that destroy homes. We can all help: plant trees, save energy, avoid burning bushes and rubbish, and walk or share transport when we can.\n\nWords: climate (the usual weather of a place over many years), global warming, carbon dioxide, the greenhouse effect, a drought (a long time without rain), a flood, a landslide, a natural hazard (a natural danger), to adapt.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What causes global warming, according to the text?",
+  "steps": [
+   "Find what puts more carbon dioxide in the air.",
+   "Burning wood, petrol and coal, and cutting down forests."
+  ],
+  "answer": "burning fuels and cutting down forests",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c65-1",
+    "status": "draft",
+    "idea": "Global warming: more carbon dioxide traps heat, and the Earth gets warmer.",
+    "vars": {},
+    "example": [
+     "Like the glass of a greenhouse."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-65-words"
+    }
+   },
+   {
+    "id": "c65-2",
+    "status": "draft",
+    "idea": "Natural hazards: droughts, floods, landslides, storms.",
+    "vars": {},
+    "example": [
+     "A drought is a long time without rain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-65-text"
+    }
+   },
+   {
+    "id": "c65-3",
+    "status": "draft",
+    "idea": "Everyone can help: plant trees, save energy, stop burning bushes.",
+    "vars": {},
+    "example": [
+     "Plant a tree this rainy season."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-65-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "what is the main message?",
+         "r": "people cause global warming, and people can help to reduce it",
+         "w": [
+          "nothing can be done",
+          "only rich countries feel it",
+          "global warming is good for crops"
+         ],
+         "e": [
+          "The text lists actions.",
+          "The text gives examples in Cameroon.",
+          "Droughts destroy crops."
+         ],
+         "y": "The text ends with what we can do."
+        },
+        {
+         "q": "which action helps against global warming?",
+         "r": "planting trees",
+         "w": [
+          "burning bushes",
+          "cutting forests",
+          "burning rubbish"
+         ],
+         "e": [
+          "That adds carbon dioxide.",
+          "That adds carbon dioxide.",
+          "That adds smoke."
+         ],
+         "y": "Trees take in carbon dioxide."
+        }
+       ]
+      }
+     },
+     "prompt": "Text “A warmer world”: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-65-words",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "climate",
+     "right": "the usual weather of a place over many years"
+    },
+    {
+     "left": "a drought",
+     "right": "a long time without rain"
+    },
+    {
+     "left": "a flood",
+     "right": "a lot of water covering land that is usually dry"
+    },
+    {
+     "left": "a landslide",
+     "right": "a mass of earth and rocks falling down a hill"
+    },
+    {
+     "left": "global warming",
+     "right": "the slow rise of the Earth's temperature"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-65-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what does carbon dioxide do in the air?",
+       "r": "it traps the sun's heat",
+       "w": [
+        "it makes rain",
+        "it cools the Earth",
+        "it feeds the crops"
+       ],
+       "e": [
+        "The text does not say that.",
+        "It warms the Earth.",
+        "The text does not say that."
+       ],
+       "y": "It traps heat like the glass of a greenhouse."
+      },
+      {
+       "q": "what happens in the north of Cameroon?",
+       "r": "droughts dry up wells and crops",
+       "w": [
+        "landslides destroy homes",
+        "it snows",
+        "the forests grow"
+       ],
+       "e": [
+        "The text puts landslides elsewhere.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "“In the north of Cameroon, droughts dry up wells and crops.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Text “A warmer world”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-65-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what is the main message?",
+       "r": "people cause global warming, and people can help to reduce it",
+       "w": [
+        "nothing can be done",
+        "only rich countries feel it",
+        "global warming is good for crops"
+       ],
+       "e": [
+        "The text lists actions.",
+        "The text gives examples in Cameroon.",
+        "Droughts destroy crops."
+       ],
+       "y": "The text ends with what we can do."
+      },
+      {
+       "q": "which action helps against global warming?",
+       "r": "planting trees",
+       "w": [
+        "burning bushes",
+        "cutting forests",
+        "burning rubbish"
+       ],
+       "e": [
+        "That adds carbon dioxide.",
+        "That adds carbon dioxide.",
+        "That adds smoke."
+       ],
+       "y": "Trees take in carbon dioxide."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “A warmer world”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-65-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Text “A warmer world”. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Earth is getting warmer.",
+      "truth": "true"
+     },
+     {
+      "text": "Cutting forests adds to global warming.",
+      "truth": "true"
+     },
+     {
+      "text": "Floods can cause landslides.",
+      "truth": "true"
+     },
+     {
+      "text": "Planting trees helps.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Global warming makes the dry season shorter and cooler.",
+      "truth": "false",
+      "explain": "It gets longer and hotter."
+     },
+     {
+      "text": "Burning rubbish helps to cool the Earth.",
+      "truth": "false",
+      "explain": "Burning adds smoke and carbon dioxide."
+     },
+     {
+      "text": "Storms become weaker.",
+      "truth": "false",
+      "explain": "They become stronger."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

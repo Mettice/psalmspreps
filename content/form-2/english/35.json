@@ -1,0 +1,593 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 35,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-35",
+   "name": "Auxiliary verbs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Auxiliary (helping) verbs come before a main verb.\n• Primary auxiliaries: be (am, is, are, was, were) for continuous tenses — She is reading; have (has, have, had) for perfect tenses — They have finished; do (do, does, did) for questions and negatives in simple tenses — Does he play? He did not come.\n• Modal auxiliaries: can, could, may, might, must, shall, should, will, would. They are followed by the bare infinitive: You must report it (not “must to report”).\nThe auxiliary agrees with the subject: he does / they do; she has / we have; I am / he is / they are.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "report"
+  },
+  "problem": "Make questions: “The police come at night.” / “Ewane has finished.”",
+  "steps": [
+   "Simple present: use do or does: Do the police come at night?",
+   "Present perfect: move has before the subject: Has Ewane finished?"
+  ],
+  "answer": "Do the police come at night? Has Ewane finished?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c35-1",
+    "status": "draft",
+    "idea": "Do / does / did make questions and negatives in simple tenses.",
+    "vars": {},
+    "example": [
+     "Does she live here? He did not see the thief."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-35-do"
+    }
+   },
+   {
+    "id": "c35-2",
+    "status": "draft",
+    "idea": "Be + -ing for continuous tenses; have + past participle for perfect tenses.",
+    "vars": {},
+    "example": [
+     "They are watching. She has called the police."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-35-be"
+    }
+   },
+   {
+    "id": "c35-3",
+    "status": "draft",
+    "idea": "Modals take the bare infinitive.",
+    "vars": {},
+    "example": [
+     "You must report it. We should help."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-35-modal-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "You must ___ the theft to the police.",
+         "a": "report",
+         "w": [
+          "to report",
+          "reporting"
+         ],
+         "e": [
+          "After a modal, no “to”.",
+          "After a modal, use the bare infinitive."
+         ]
+        },
+        {
+         "s": "We should ___ our neighbours.",
+         "a": "help",
+         "w": [
+          "helps",
+          "to help"
+         ],
+         "e": [
+          "After a modal, the verb has no -s.",
+          "After a modal, no “to”."
+         ]
+        },
+        {
+         "s": "She can ___ three languages.",
+         "a": "speak",
+         "w": [
+          "speaks",
+          "speaking"
+         ],
+         "e": [
+          "After a modal, the verb has no -s.",
+          "After a modal, use the bare infinitive."
+         ]
+        },
+        {
+         "s": "They might ___ late because of the rain.",
+         "a": "come",
+         "w": [
+          "came",
+          "to come"
+         ],
+         "e": [
+          "After a modal, use the bare infinitive.",
+          "After a modal, no “to”."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct form.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-35-do",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the auxiliary.",
+   "text": "___ {X.m} live near the market?",
+   "answer": "cap(doFor(X.s))",
+   "choices": [
+    {
+     "text": "{doFor(X.s) == 'does' ? 'Do' : 'Does'}",
+     "misconception": "agree"
+    },
+    {
+     "text": "Are",
+     "misconception": "be"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "agree",
+     "explain": "{X.m} goes with {doFor(X.s)}."
+    },
+    {
+     "id": "be",
+     "explain": "“live” is a main verb in the simple present: the question uses do or does."
+    }
+   ]
+  },
+  {
+   "id": "e2-35-be",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the auxiliary.",
+   "text": "{X.t} ___ waiting for the police now.",
+   "answer": "beFor(X.s)",
+   "choices": [
+    {
+     "text": "{beFor(X.s) == 'is' ? 'are' : 'is'}",
+     "misconception": "agree"
+    },
+    {
+     "text": "{doFor(X.s)}",
+     "misconception": "do"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "agree",
+     "explain": "{X.t} goes with {beFor(X.s)}."
+    },
+    {
+     "id": "do",
+     "explain": "The continuous tense uses be + -ing, not do."
+    }
+   ]
+  },
+  {
+   "id": "e2-35-modal",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "You must ___ the theft to the police.",
+       "a": "report",
+       "w": [
+        "to report",
+        "reporting"
+       ],
+       "e": [
+        "After a modal, no “to”.",
+        "After a modal, use the bare infinitive."
+       ]
+      },
+      {
+       "s": "We should ___ our neighbours.",
+       "a": "help",
+       "w": [
+        "helps",
+        "to help"
+       ],
+       "e": [
+        "After a modal, the verb has no -s.",
+        "After a modal, no “to”."
+       ]
+      },
+      {
+       "s": "She can ___ three languages.",
+       "a": "speak",
+       "w": [
+        "speaks",
+        "speaking"
+       ],
+       "e": [
+        "After a modal, the verb has no -s.",
+        "After a modal, use the bare infinitive."
+       ]
+      },
+      {
+       "s": "They might ___ late because of the rain.",
+       "a": "come",
+       "w": [
+        "came",
+        "to come"
+       ],
+       "e": [
+        "After a modal, use the bare infinitive.",
+        "After a modal, no “to”."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-35-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has a mistake with the auxiliary?",
+   "pool": {
+    "right": [
+     {
+      "text": "Does your brother walk to school?",
+      "truth": "true"
+     },
+     {
+      "text": "They have called the police.",
+      "truth": "true"
+     },
+     {
+      "text": "She is watching the market.",
+      "truth": "true"
+     },
+     {
+      "text": "You must lock the door.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "He do not know the suspect.",
+      "truth": "false",
+      "explain": "With he, use does: He does not know."
+     },
+     {
+      "text": "We has finished our homework.",
+      "truth": "false",
+      "explain": "With we, use have."
+     },
+     {
+      "text": "You must to stay inside.",
+      "truth": "false",
+      "explain": "After must, no “to”: You must stay."
+     },
+     {
+      "text": "Is they coming tomorrow?",
+      "truth": "false",
+      "explain": "With they, use are."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

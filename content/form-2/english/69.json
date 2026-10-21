@@ -1,0 +1,453 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 69,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-69",
+   "name": "Talking about violence and delinquency in school; reading a dialogue"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: A dialogue after class\nEnow: Did you hear? Two Form Four boys were caught selling tablets behind the toilets.\nBih: Yes. Some students take those tablets or smoke cannabis because they think it makes them strong. It only makes them aggressive.\nEnow: Last week one of them beat a younger boy who refused to give him money.\nBih: That is bullying. The victim should tell the discipline master or a teacher he trusts.\nEnow: But he is afraid they will call him a coward.\nBih: Reporting violence is not cowardice. Our school has a counsellor, and the anti-drug club meets every Friday. If we keep quiet, the delinquents rule the school.\n\nWords: delinquent (a young person who breaks the law), juvenile delinquency, drug abuse, bullying (hurting or frightening a weaker person again and again), a victim, aggressive, the discipline master, a counsellor, to report.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What does Bih advise the victim to do?",
+  "steps": [
+   "Find what Bih says after “That is bullying.”",
+   "He should tell the discipline master or a teacher he trusts."
+  ],
+  "answer": "Tell the discipline master or a trusted teacher.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c69-1",
+    "status": "draft",
+    "idea": "Bullying means hurting or frightening a weaker person again and again.",
+    "vars": {},
+    "example": [
+     "Taking a younger pupil's money by force is bullying."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-69-words"
+    }
+   },
+   {
+    "id": "c69-2",
+    "status": "draft",
+    "idea": "Find what each speaker says.",
+    "vars": {},
+    "example": [
+     "Bih says reporting violence is not cowardice."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-69-text"
+    }
+   },
+   {
+    "id": "c69-3",
+    "status": "draft",
+    "idea": "Victims and witnesses should report violence to adults they trust.",
+    "vars": {},
+    "example": [
+     "Tell the counsellor or the discipline master."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-69-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "what does Bih think about reporting violence?",
+         "r": "it is not cowardice; it protects the school",
+         "w": [
+          "it is cowardice",
+          "it is useless",
+          "it should be done only by teachers"
+         ],
+         "e": [
+          "She says the opposite.",
+          "She says silence lets delinquents rule.",
+          "She says the victim should report."
+         ],
+         "y": "“Reporting violence is not cowardice.”"
+        },
+        {
+         "q": "why do some students take drugs, according to Bih?",
+         "r": "they think the drugs make them strong",
+         "w": [
+          "the teachers give them",
+          "they are ill",
+          "to pass exams"
+         ],
+         "e": [
+          "The text does not say that.",
+          "The text does not say that.",
+          "The text does not say that."
+         ],
+         "y": "“they think it makes them strong.”"
+        }
+       ]
+      }
+     },
+     "prompt": "Dialogue after class: {X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-69-words",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is bullying?",
+       "r": "hurting or frightening a weaker person again and again",
+       "w": [
+        "playing a rough game once",
+        "helping a younger pupil",
+        "reporting a fight"
+       ],
+       "e": [
+        "Bullying is repeated and targets a weaker person.",
+        "That is the opposite.",
+        "Reporting is the right response."
+       ],
+       "y": "A bully picks on a weaker person repeatedly."
+      },
+      {
+       "q": "What is a delinquent?",
+       "r": "a young person who breaks the law",
+       "w": [
+        "a hard-working student",
+        "a school counsellor",
+        "a victim of theft"
+       ],
+       "e": [
+        "That is the opposite.",
+        "A counsellor helps students.",
+        "A victim suffers a crime."
+       ],
+       "y": "Juvenile delinquency = young people breaking the law."
+      },
+      {
+       "q": "What does “aggressive” mean?",
+       "r": "ready to attack or fight",
+       "w": [
+        "calm and kind",
+        "very tired",
+        "very clever"
+       ],
+       "e": [
+        "That is the opposite.",
+        "The text does not mean that.",
+        "The text does not mean that."
+       ],
+       "y": "Bih says drugs make them aggressive."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-69-text",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what were the Form Four boys caught doing?",
+       "r": "selling tablets behind the toilets",
+       "w": [
+        "playing football",
+        "stealing books",
+        "fighting a teacher"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "“caught selling tablets behind the toilets.”"
+      },
+      {
+       "q": "when does the anti-drug club meet?",
+       "r": "every Friday",
+       "w": [
+        "every Monday",
+        "once a year",
+        "after exams"
+       ],
+       "e": [
+        "The text says Friday.",
+        "The text says every Friday.",
+        "The text says every Friday."
+       ],
+       "y": "“the anti-drug club meets every Friday.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Dialogue after class: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-69-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what does Bih think about reporting violence?",
+       "r": "it is not cowardice; it protects the school",
+       "w": [
+        "it is cowardice",
+        "it is useless",
+        "it should be done only by teachers"
+       ],
+       "e": [
+        "She says the opposite.",
+        "She says silence lets delinquents rule.",
+        "She says the victim should report."
+       ],
+       "y": "“Reporting violence is not cowardice.”"
+      },
+      {
+       "q": "why do some students take drugs, according to Bih?",
+       "r": "they think the drugs make them strong",
+       "w": [
+        "the teachers give them",
+        "they are ill",
+        "to pass exams"
+       ],
+       "e": [
+        "The text does not say that.",
+        "The text does not say that.",
+        "The text does not say that."
+       ],
+       "y": "“they think it makes them strong.”"
+      }
+     ]
+    }
+   },
+   "prompt": "Dialogue after class: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-69-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts"
+   ],
+   "prompt": "Dialogue after class. Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Two Form Four boys were selling tablets.",
+      "truth": "true"
+     },
+     {
+      "text": "A younger boy was beaten for refusing to give money.",
+      "truth": "true"
+     },
+     {
+      "text": "The school has a counsellor.",
+      "truth": "true"
+     },
+     {
+      "text": "Bih advises reporting violence.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Bih says drugs make students calm and strong.",
+      "truth": "false",
+      "explain": "She says they make them aggressive."
+     },
+     {
+      "text": "The victim told the discipline master at once.",
+      "truth": "false",
+      "explain": "He was afraid; Bih advises him to tell."
+     },
+     {
+      "text": "Bih says keeping quiet is the best solution.",
+      "truth": "false",
+      "explain": "She says silence lets delinquents rule the school."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
