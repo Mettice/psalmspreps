@@ -268,6 +268,34 @@ Full working after a second miss:
 | 74 | Vocabulary-Words related to pollution, causes, consequences and prevention | draft | 3 | 4 | — |
 | 75 | Grammar- Relative clauses | draft | 3 | 4 | — |
 | 76 | Writing- Write about pollution as an enemy to the environment | draft | 3 | 1 | yes |
+| 77 | Speaking and Reading-Talk about diseases, epidemics and pandemics. Read a dialogue about COVID !9 | draft | 3 | 4 | — |
+| 78 | Vocabulary-Words related to health epidemics and pandemics | draft | 3 | 4 | — |
+| 79 | Grammar-Adverbs of time, place and manner | draft | 3 | 4 | — |
+| 80 | Writing- Write a report about the treatment of patients in hospitals and useful slogans on health | draft | 3 | 1 | yes |
+| 81 | Speaking and Reading-Talking about cultural activities, festivals and their importance to culture and country | draft | 3 | 4 | — |
+| 82 | Vocabulary-Words related to festivals and cultural activities | draft | 3 | 4 | — |
+| 83 | Speech Work-Pronunciation of silent /b/ and /p/ | draft | 3 | 4 | — |
+| 84 | Grammar- Nouns as modifiers | draft | 3 | 4 | — |
+| 85 | Speaking and Reading- Talk about local and traditional music and their importance | draft | 3 | 4 | — |
+| 86 | Vocabulary-WH- uses | draft | 3 | 4 | — |
+| 87 | Grammar-Conditionals | draft | 3 | 4 | — |
+| 88 | Writing- Write a brief account about the role of women in your culture | draft | 3 | 1 | yes |
+| 89 | Speaking and Reading-Talking about local languages/ mother tongues and the importance of mother tongues. Read a text on national languages and cultures | draft | 3 | 4 | — |
+| 90 | Grammar 1- Gerunds | draft | 3 | 4 | — |
+| 91 | Grammar 2-Basic sentence structure (SVO structure) | draft | 3 | 4 | — |
+| 92 | Writing -Write messages about your culture | draft | 3 | 1 | yes |
+| 93 | Listening and Speaking-Listen to a dialogue about Cameroonian artists, movie stars and talk about the film industry, movies and celebrities | draft | 3 | 4 | — |
+| 94 | Reading- Read biographies of famous actors and artists then answer questions | draft | 3 | 4 | — |
+| 95 | Vocabulary- Words related to movies and entertainment | draft | 3 | 4 | — |
+| 96 | Writing- Write about your most admired film actor/actress or artist | draft | 3 | 1 | yes |
+| 97 | Speech Work-Pronunciation of silent /c/ and /l/ | draft | 3 | 4 | — |
+| 98 | Vocabulary- Name various musical instruments and draw two | draft | 3 | 4 | — |
+| 99 | Grammar -review of punctuations | draft | 3 | 4 | — |
+| 100 | Grammar- Conjunctions | draft | 3 | 4 | — |
+| 101 | Writing- Write a short song or poem | draft | 3 | 1 | yes |
+| 102 | Review - the simple present tense | draft | 3 | 4 | — |
+| 103 | Consolidation- the simple past tense | draft | 3 | 4 | — |
+| 104 | Speaking- Discuss where and how you want to spend the holiday | draft | 3 | 4 | — |
 
 ## Lesson 1: Speaking and Reading- Talking about the different means of transport and reading a text about transportation
 
@@ -14419,4 +14447,5417 @@ Correct order: Pollution is the presence of harmful substances in the environmen
 Full working after a second miss:
 
 > The correct order is: Pollution is the presence of harmful substances in the environment. → Firstly, vehicles which are old release thick smoke. → As a result, many children suffer from coughs. → However, we can reduce pollution by recycling. → Therefore, each of us must act now..  
+
+## Lesson 77: Speaking and Reading-Talk about diseases, epidemics and pandemics. Read a dialogue about COVID !9
+
+Prerequisites: none · Skill: e2-77 (Talking about diseases and pandemics; reading a dialogue about COVID-19)
+
+**Note** (draft)
+
+> Dialogue: At the school gate, March 2020
+> BIH: Why is everybody wearing a mask today?
+> NURSE NJI: Because of COVID-19. It is a new disease caused by a virus. It started in one country and spread all over the world, so it is a pandemic.
+> BIH: How does it spread?
+> NURSE NJI: Through tiny drops when a sick person coughs, sneezes or talks. That is why we wash our hands with soap, cover our mouths when we cough and keep a distance of one metre.
+> BIH: Can it be cured?
+> NURSE NJI: Most people get better, but old people and the sick can die. Now there are vaccines. Stay calm, follow the rules and protect others.
+> 
+> An epidemic spreads quickly in one area; a pandemic spreads across the world; an endemic disease (malaria in Cameroon) is always present in a region.
+
+**Card c77-1** (draft)
+
+> An epidemic spreads quickly in one area; a pandemic spreads across the world.
+>
+> _Cholera in a town: an epidemic._  
+> _COVID-19: a pandemic._  
+
+Check question: `e2-77-word` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Malaria is always present in Cameroon. What kind of disease is it there?
+
+- ◻️ a pandemic  
+  _↳ feedback if chosen: It is not spreading over the world now._
+- ◻️ a vaccine  
+  _↳ feedback if chosen: A vaccine prevents disease._
+- ◻️ an epidemic only  
+  _↳ feedback if chosen: It is always present, not a sudden outbreak._
+- ✅ endemic
+
+Full working after a second miss:
+
+> Endemic means always present in a region.  
+> So the answer is “endemic”.  
+
+**Card c77-2** (draft)
+
+> Read a dialogue by noting who speaks and what each person asks or answers.
+>
+> _Bih asks; Nurse Nji explains._  
+
+Check question: `e2-77-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Dialogue “At the school gate”: how does the disease spread?
+
+- ✅ through tiny drops when a sick person coughs, sneezes or talks
+- ◻️ through eating mangoes  
+  _↳ feedback if chosen: That is not true._
+- ◻️ through dirty water only  
+  _↳ feedback if chosen: That is cholera._
+- ◻️ through mosquito bites  
+  _↳ feedback if chosen: That is malaria._
+
+Full working after a second miss:
+
+> The nurse says it.  
+> So the answer is “through tiny drops when a sick person coughs, sneezes or talks”.  
+
+**Card c77-3** (draft)
+
+> Simple habits stop diseases from spreading: washing hands, covering coughs, keeping a distance.
+>
+> _Wash your hands with soap._  
+
+Check question: `e2-77-prev-card` · multiple choice, level 1 · **authored key**
+
+> Which habit helps to stop COVID-19 from spreading?
+
+- ◻️ standing very close to others  
+  _↳ feedback if chosen: Keep a distance._
+- ◻️ coughing into your hands and shaking hands  
+  _↳ feedback if chosen: That spreads germs._
+- ◻️ sharing cups  
+  _↳ feedback if chosen: That spreads germs._
+- ✅ washing hands with soap
+
+Full working after a second miss:
+
+> Soap kills the virus on hands.  
+> So the answer is “washing hands with soap”.  
+
+**Worked example** (draft)
+
+> In the dialogue, why does the nurse call COVID-19 a pandemic?
+
+1. A pandemic spreads across many countries or the whole world.
+2. The nurse says it started in one country and spread all over the world.
+
+**Answer:** Because it spread all over the world.
+
+**Practice** `e2-77-word` · multiple choice, level 1 · **authored key**
+
+> Malaria is always present in Cameroon. What kind of disease is it there?
+
+- ◻️ a pandemic  
+  _↳ feedback if chosen: It is not spreading over the world now._
+- ◻️ an epidemic only  
+  _↳ feedback if chosen: It is always present, not a sudden outbreak._
+- ◻️ a vaccine  
+  _↳ feedback if chosen: A vaccine prevents disease._
+- ✅ endemic
+
+Full working after a second miss:
+
+> Endemic means always present in a region.  
+> So the answer is “endemic”.  
+
+> What is a pandemic?
+
+- ◻️ a cure for a disease  
+  _↳ feedback if chosen: It is a disease, not a cure._
+- ◻️ a disease in one family  
+  _↳ feedback if chosen: That is too small._
+- ✅ a disease that spreads across many countries or the whole world
+- ◻️ a disease that is always present in one region  
+  _↳ feedback if chosen: That is an endemic disease._
+
+Full working after a second miss:
+
+> Pan- means all.  
+> So the answer is “a disease that spreads across many countries or the whole world”.  
+
+**Practice** `e2-77-comp` · multiple choice, level 1 · **authored key**
+
+> Dialogue “At the school gate”: how does the disease spread?
+
+- ✅ through tiny drops when a sick person coughs, sneezes or talks
+- ◻️ through dirty water only  
+  _↳ feedback if chosen: That is cholera._
+- ◻️ through eating mangoes  
+  _↳ feedback if chosen: That is not true._
+- ◻️ through mosquito bites  
+  _↳ feedback if chosen: That is malaria._
+
+Full working after a second miss:
+
+> The nurse says it.  
+> So the answer is “through tiny drops when a sick person coughs, sneezes or talks”.  
+
+> Dialogue “At the school gate”: why is everybody wearing a mask?
+
+- ◻️ because of dust  
+  _↳ feedback if chosen: The dialogue says COVID-19._
+- ✅ because of COVID-19
+- ◻️ because of a festival  
+  _↳ feedback if chosen: The dialogue says COVID-19._
+- ◻️ because it is cold  
+  _↳ feedback if chosen: The dialogue says COVID-19._
+
+Full working after a second miss:
+
+> The nurse explains it.  
+> So the answer is “because of COVID-19”.  
+
+**Practice** `e2-77-prev` · multiple choice, level 2 · **authored key**
+
+> Who is most at risk of dying from COVID-19, according to the nurse?
+
+- ✅ old people and the sick
+- ◻️ nobody  
+  _↳ feedback if chosen: Some people die._
+- ◻️ only nurses  
+  _↳ feedback if chosen: She does not say that._
+- ◻️ healthy children only  
+  _↳ feedback if chosen: The nurse says old and sick people._
+
+Full working after a second miss:
+
+> Old people and the sick.  
+> So the answer is “old people and the sick”.  
+
+> Which habit helps to stop COVID-19 from spreading?
+
+- ◻️ sharing cups  
+  _↳ feedback if chosen: That spreads germs._
+- ✅ washing hands with soap
+- ◻️ coughing into your hands and shaking hands  
+  _↳ feedback if chosen: That spreads germs._
+- ◻️ standing very close to others  
+  _↳ feedback if chosen: Keep a distance._
+
+Full working after a second miss:
+
+> Soap kills the virus on hands.  
+> So the answer is “washing hands with soap”.  
+
+**Practice** `e2-77-spot` · spot the error, level 3 · **authored key**
+
+> Which statement does not agree with the dialogue?
+
+- ◻️ COVID-19 is caused by a virus.
+- ◻️ People should keep a distance.
+- ◻️ Most people get better.
+- ✅ COVID-19 stayed in one village.  
+  _↳ explanation: It spread all over the world._
+
+Full working after a second miss:
+
+> The wrong statement is “COVID-19 stayed in one village.”.  
+> It spread all over the world.  
+
+> Which statement does not agree with the dialogue?
+
+- ◻️ Vaccines now exist.
+- ◻️ People should keep a distance.
+- ✅ The nurse tells Bih to panic.  
+  _↳ explanation: She tells her to stay calm._
+- ◻️ Most people get better.
+
+Full working after a second miss:
+
+> The wrong statement is “The nurse tells Bih to panic.”.  
+> She tells her to stay calm.  
+
+## Lesson 78: Vocabulary-Words related to health epidemics and pandemics
+
+Prerequisites: 77 · Skill: e2-78 (Words about health, epidemics and pandemics)
+
+**Note** (draft)
+
+> Words about disease:
+> • an outbreak: the sudden start of a disease in an area; to spread; contagious (passed from person to person); an infection; a germ (a virus or bacterium);
+> • symptoms: signs of a disease (fever, cough, headache, tiredness); to diagnose: to find out what disease someone has;
+> • to isolate / isolation: to keep a sick person away from others; quarantine: keeping people who may be infected apart for some days;
+> • a vaccine: a substance that protects the body against a disease; to vaccinate; immunity;
+> • hygiene: keeping clean to stay healthy; sanitizer; a face mask; social distancing.
+
+**Card c78-1** (draft)
+
+> Symptoms are the signs of a disease.
+>
+> _Fever and cough are symptoms._  
+
+Check question: `e2-78-def` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What does “quarantine” mean?
+
+- ◻️ a vaccine  
+  _↳ feedback if chosen: It is not a vaccine._
+- ✅ keeping people who may be infected apart for some days
+- ◻️ a kind of fever  
+  _↳ feedback if chosen: It is not a symptom._
+- ◻️ a festival  
+  _↳ feedback if chosen: It is not a festival._
+
+Full working after a second miss:
+
+> It stops the disease spreading.  
+> So the answer is “keeping people who may be infected apart for some days”.  
+
+**Card c78-2** (draft)
+
+> A contagious disease passes from person to person.
+>
+> _Measles is very contagious._  
+
+Check question: `e2-78-cl` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the word that fits.
+
+Sentence: **Keeping clean to stay healthy is called ___.**
+- ◻️ outbreak  
+  _↳ feedback if chosen: An outbreak is the start of a disease._
+- ✅ hygiene
+- ◻️ infection  
+  _↳ feedback if chosen: An infection is a disease._
+
+Full working after a second miss:
+
+> The missing word is “hygiene”.  
+> Keeping clean to stay healthy is called hygiene.  
+
+**Card c78-3** (draft)
+
+> A vaccine protects the body against a disease.
+>
+> _Children are vaccinated against measles._  
+
+Check question: `e2-78-match-card` · matching, level 1 · **authored key**
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): keeping a sick person away from others · the body's protection against a disease · protects the body against a disease · a tiny living thing that causes disease
+- germ → **a tiny living thing that causes disease**
+- vaccine → **protects the body against a disease**
+- immunity → **the body's protection against a disease**
+- isolation → **keeping a sick person away from others**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> germ → a tiny living thing that causes disease  
+> vaccine → protects the body against a disease  
+> immunity → the body's protection against a disease  
+> isolation → keeping a sick person away from others  
+
+**Worked example** (draft)
+
+> Complete: “The doctor looked at the ___ — fever and cough — and diagnosed malaria.”
+
+1. Fever and cough are signs of a disease.
+2. Signs of a disease are called symptoms.
+
+**Answer:** symptoms
+
+**Practice** `e2-78-def` · multiple choice, level 1 · **authored key**
+
+> What does “symptoms” mean?
+
+- ◻️ doctors  
+  _↳ feedback if chosen: Doctors are people._
+- ✅ signs of a disease
+- ◻️ hospitals  
+  _↳ feedback if chosen: Hospitals are places._
+- ◻️ medicines  
+  _↳ feedback if chosen: Medicines treat a disease._
+
+Full working after a second miss:
+
+> Fever is a symptom.  
+> So the answer is “signs of a disease”.  
+
+> What does “an outbreak” mean?
+
+- ◻️ a kind of medicine  
+  _↳ feedback if chosen: It is not a medicine._
+- ◻️ the end of a disease  
+  _↳ feedback if chosen: It is the start._
+- ◻️ a hospital bed  
+  _↳ feedback if chosen: It is not a bed._
+- ✅ the sudden start of a disease in an area
+
+Full working after a second miss:
+
+> A cholera outbreak in a town.  
+> So the answer is “the sudden start of a disease in an area”.  
+
+**Practice** `e2-78-cl` · fill the blank, level 1 · **authored key**
+
+> Choose the word that fits.
+
+Sentence: **Measles is very ___: it passes easily from one child to another.**
+- ◻️ vaccinated  
+  _↳ feedback if chosen: Vaccinated means protected._
+- ✅ contagious
+- ◻️ healthy  
+  _↳ feedback if chosen: Healthy means well._
+
+Full working after a second miss:
+
+> The missing word is “contagious”.  
+> Measles is very contagious: it passes easily from one child to another.  
+
+> Choose the word that fits.
+
+Sentence: **Measles is very ___: it passes easily from one child to another.**
+- ◻️ healthy  
+  _↳ feedback if chosen: Healthy means well._
+- ✅ contagious
+- ◻️ vaccinated  
+  _↳ feedback if chosen: Vaccinated means protected._
+
+Full working after a second miss:
+
+> The missing word is “contagious”.  
+> Measles is very contagious: it passes easily from one child to another.  
+
+**Practice** `e2-78-match` · matching, level 2 · **authored key**
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): the body's protection against a disease · protects the body against a disease · find out what disease someone has · keeping a sick person away from others
+- immunity → **the body's protection against a disease**
+- vaccine → **protects the body against a disease**
+- isolation → **keeping a sick person away from others**
+- diagnose → **find out what disease someone has**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> immunity → the body's protection against a disease  
+> vaccine → protects the body against a disease  
+> isolation → keeping a sick person away from others  
+> diagnose → find out what disease someone has  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): the body's protection against a disease · a tiny living thing that causes disease · find out what disease someone has · protects the body against a disease
+- diagnose → **find out what disease someone has**
+- germ → **a tiny living thing that causes disease**
+- immunity → **the body's protection against a disease**
+- vaccine → **protects the body against a disease**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> diagnose → find out what disease someone has  
+> germ → a tiny living thing that causes disease  
+> immunity → the body's protection against a disease  
+> vaccine → protects the body against a disease  
+
+**Practice** `e2-78-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence uses a word wrongly?
+
+- ◻️ Cholera is a contagious disease.
+- ◻️ Fever is a symptom of malaria.
+- ✅ An outbreak is the end of a disease.  
+  _↳ explanation: It is the sudden start._
+- ◻️ The vaccine protects children.
+
+Full working after a second miss:
+
+> The wrong statement is “An outbreak is the end of a disease.”.  
+> It is the sudden start.  
+
+> Which sentence uses a word wrongly?
+
+- ✅ Hygiene means being dirty.  
+  _↳ explanation: Hygiene means keeping clean._
+- ◻️ The sick man was put in isolation.
+- ◻️ Fever is a symptom of malaria.
+- ◻️ The vaccine protects children.
+
+Full working after a second miss:
+
+> The wrong statement is “Hygiene means being dirty.”.  
+> Hygiene means keeping clean.  
+
+## Lesson 79: Grammar-Adverbs of time, place and manner
+
+Prerequisites: none · Skill: e2-79 (Adverbs of time, place and manner)
+
+**Note** (draft)
+
+> An adverb tells us more about a verb.
+> • Adverbs of time answer “When?”: now, today, yesterday, tomorrow, soon, later, already, early, late.
+> • Adverbs of place answer “Where?”: here, there, everywhere, outside, inside, upstairs, nearby, abroad.
+> • Adverbs of manner answer “How?”: carefully, quickly, slowly, clearly, well, badly, hard. Many are made from adjectives + -ly: careful → carefully; easy → easily.
+> Order when there are several: manner, place, time: “She worked hard at the hospital yesterday.”
+
+**Card c79-1** (draft)
+
+> Adverbs of time answer When?; of place, Where?; of manner, How?
+>
+> _soon (time), outside (place), quickly (manner)_  
+
+Check question: `e2-79-kind` · multiple choice, level 1 · computed by rule, reused from practice
+
+> In “He walked slowly to the clinic.”, what kind of adverb is “slowly”?
+
+- ✅ an adverb of manner
+- ◻️ an adverb of place  
+  _↳ feedback if chosen: Ask the question the adverb answers: When? Where? or How?_
+- ◻️ an adverb of time  
+  _↳ feedback if chosen: Ask the question the adverb answers: When? Where? or How?_
+
+Full working after a second miss:
+
+> Ask: When? (time) Where? (place) How? (manner).  
+> “slowly” answers How?: an adverb of manner.  
+
+**Card c79-2** (draft)
+
+> Many adverbs of manner are adjective + -ly.
+>
+> _quick → quickly; easy → easily_  
+
+Check question: `e2-79-ly` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is the adverb from “easy”?
+
+- ◻️ easyly  
+  _↳ feedback if chosen: y changes to i: easily._
+- ◻️ easiness  
+  _↳ feedback if chosen: That is a noun._
+- ◻️ easly  
+  _↳ feedback if chosen: Keep the i._
+- ✅ easily
+
+Full working after a second miss:
+
+> y → i + -ly.  
+> So the answer is “easily”.  
+
+**Card c79-3** (draft)
+
+> Usual order: manner, place, time.
+>
+> _He played well at school today._  
+
+Check question: `e2-79-cl-card` · fill the blank, level 1 · **authored key**
+
+> Choose the adverb that fits.
+
+Sentence: **Please wait ___ until the doctor calls you.**
+- ◻️ soon  
+  _↳ feedback if chosen: “soon” tells when._
+- ◻️ slowly  
+  _↳ feedback if chosen: “slowly” tells how._
+- ✅ here
+
+Full working after a second miss:
+
+> The missing word is “here”.  
+> Please wait here until the doctor calls you.  
+
+**Worked example** (draft)
+
+> In “The nurse spoke kindly to the patients yesterday”, find the adverbs and say what they tell us.
+
+1. “kindly” answers How did she speak? — manner.
+2. “yesterday” answers When? — time.
+
+**Answer:** kindly (manner), yesterday (time)
+
+**Practice** `e2-79-kind` · multiple choice, level 1 · computed by rule
+
+> In “She answered politely.”, what kind of adverb is “politely”?
+
+- ✅ an adverb of manner
+- ◻️ an adverb of time  
+  _↳ feedback if chosen: Ask the question the adverb answers: When? Where? or How?_
+- ◻️ an adverb of place  
+  _↳ feedback if chosen: Ask the question the adverb answers: When? Where? or How?_
+
+Full working after a second miss:
+
+> Ask: When? (time) Where? (place) How? (manner).  
+> “politely” answers How?: an adverb of manner.  
+
+> In “Masks are sold everywhere.”, what kind of adverb is “everywhere”?
+
+- ◻️ an adverb of manner  
+  _↳ feedback if chosen: Ask the question the adverb answers: When? Where? or How?_
+- ◻️ an adverb of time  
+  _↳ feedback if chosen: Ask the question the adverb answers: When? Where? or How?_
+- ✅ an adverb of place
+
+Full working after a second miss:
+
+> Ask: When? (time) Where? (place) How? (manner).  
+> “everywhere” answers Where?: an adverb of place.  
+
+**Practice** `e2-79-ly` · multiple choice, level 1 · **authored key**
+
+> What is the adverb from “easy”?
+
+- ◻️ easyly  
+  _↳ feedback if chosen: y changes to i: easily._
+- ✅ easily
+- ◻️ easly  
+  _↳ feedback if chosen: Keep the i._
+- ◻️ easiness  
+  _↳ feedback if chosen: That is a noun._
+
+Full working after a second miss:
+
+> y → i + -ly.  
+> So the answer is “easily”.  
+
+> What is the adverb from “good”?
+
+- ✅ well
+- ◻️ better  
+  _↳ feedback if chosen: That is a comparative._
+- ◻️ goodly  
+  _↳ feedback if chosen: “good” is irregular: well._
+- ◻️ goods  
+  _↳ feedback if chosen: That is a noun._
+
+Full working after a second miss:
+
+> good → well.  
+> So the answer is “well”.  
+
+**Practice** `e2-79-cl` · fill the blank, level 2 · **authored key**
+
+> Choose the adverb that fits.
+
+Sentence: **She washed her hands ___ with soap.**
+- ◻️ today  
+  _↳ feedback if chosen: “today” tells when._
+- ✅ carefully
+- ◻️ upstairs  
+  _↳ feedback if chosen: “upstairs” tells where._
+
+Full working after a second miss:
+
+> The missing word is “carefully”.  
+> She washed her hands carefully with soap.  
+
+> Choose the adverb that fits.
+
+Sentence: **We will visit the clinic ___.**
+- ◻️ here  
+  _↳ feedback if chosen: “here” tells where._
+- ◻️ carefully  
+  _↳ feedback if chosen: “carefully” tells how._
+- ✅ tomorrow
+
+Full working after a second miss:
+
+> The missing word is “tomorrow”.  
+> We will visit the clinic tomorrow.  
+
+**Practice** `e2-79-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence is wrong?
+
+- ✅ Yesterday is an adverb of place.  
+  _↳ explanation: It tells when: an adverb of time._
+- ◻️ He worked hard yesterday.
+- ◻️ She spoke clearly.
+- ◻️ The children played outside.
+
+Full working after a second miss:
+
+> The wrong statement is “Yesterday is an adverb of place.”.  
+> It tells when: an adverb of time.  
+
+> Which sentence is wrong?
+
+- ✅ Yesterday is an adverb of place.  
+  _↳ explanation: It tells when: an adverb of time._
+- ◻️ We arrived early.
+- ◻️ She spoke clearly.
+- ◻️ He worked hard yesterday.
+
+Full working after a second miss:
+
+> The wrong statement is “Yesterday is an adverb of place.”.  
+> It tells when: an adverb of time.  
+
+## Lesson 80: Writing- Write a report about the treatment of patients in hospitals and useful slogans on health
+
+Prerequisites: 77, 78 · Skill: e2-80 (Writing a report on the treatment of patients; health slogans)
+
+**Note** (draft)
+
+> A report gives facts clearly and in order to someone who needs them.
+> Layout: a title; To: / From: / Date: / Subject:; an introduction (why you write and what you did); the findings in paragraphs (what you saw); recommendations (what should be done); your name.
+> Use the past tense for what happened and formal language.
+> A slogan is a short, catchy sentence that gives a message: “Clean hands save lives!” “A mosquito net a night keeps malaria out of sight!”
+
+**Card c80-1** (draft)
+
+> A report starts with To, From, Date and Subject.
+>
+> _Subject: Visit to the district hospital_  
+
+Check question: `e2-80-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the report in order.
+
+Shown as: We recommend more benches and more nurses. · We found that the wards were clean but crowded. · Report on our visit to the district hospital · On 14 May, our club visited the hospital to see how patients are treated. · To: The Principal  From: The Health Club  Date: 15 May · Signed: Tabe Ayuk, Secretary
+Correct order: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary
+
+Full working after a second miss:
+
+> The correct order is: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary.  
+
+**Card c80-2** (draft)
+
+> Give the findings in the past tense, in order.
+>
+> _The wards were clean but crowded._  
+
+Check question: `e2-80-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the report in order.
+
+Shown as: We recommend more benches and more nurses. · On 14 May, our club visited the hospital to see how patients are treated. · To: The Principal  From: The Health Club  Date: 15 May · We found that the wards were clean but crowded. · Report on our visit to the district hospital · Signed: Tabe Ayuk, Secretary
+Correct order: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary
+
+Full working after a second miss:
+
+> The correct order is: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary.  
+
+**Card c80-3** (draft)
+
+> A slogan is short and catchy.
+>
+> _Clean hands save lives!_  
+
+Check question: `e2-80-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the report in order.
+
+Shown as: Signed: Tabe Ayuk, Secretary · To: The Principal  From: The Health Club  Date: 15 May · We recommend more benches and more nurses. · On 14 May, our club visited the hospital to see how patients are treated. · Report on our visit to the district hospital · We found that the wards were clean but crowded.
+Correct order: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary
+
+Full working after a second miss:
+
+> The correct order is: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary.  
+
+**Worked example** (draft)
+
+> Plan a report to your principal about a visit to the district hospital.
+
+1. Title, To / From / Date / Subject.
+2. Introduction: the health club visited the hospital on 14 May to see how patients are treated.
+3. Findings: patients are registered, then examined; the wards were clean but crowded; some patients waited many hours.
+4. Recommendations: more benches and more nurses. Then a slogan to end.
+
+**Answer:** Title → To/From/Date/Subject → introduction → findings → recommendations → name
+
+**Paper task** (draft; not marked by the app, mastery stays unknown)
+
+> Write a report (about 150 words) in your exercise book to your principal about a visit to a hospital or health centre: how patients are received and treated. End with two health slogans.
+
+Model answer, shown after the pupil has written:
+
+> Report on our visit to Buea Regional Hospital
+To: The Principal
+From: The Health Club
+Date: 15 May
+Subject: How patients are treated
+
+Introduction: On 14 May, twelve members of the Health Club visited the hospital with Mrs Ewane to see how patients are received and treated.
+
+Findings: Patients first register at the reception and pay a small fee. A nurse takes their temperature and blood pressure, then they wait to see a doctor. The wards were clean and the nurses were kind, but many patients waited more than three hours on the corridor.
+
+Recommendations: The hospital needs more benches, more nurses at the reception and a health talk for people who are waiting.
+
+Slogans: “Clean hands save lives!” “Sleep under a net, keep malaria away!”
+
+Tabe Ayuk, Secretary  
+
+Self-check list:
+
+- [ ] My report has a title and To / From / Date / Subject.
+- [ ] My introduction says why we went and when.
+- [ ] My findings are in the past tense and in order.
+- [ ] I gave clear recommendations.
+- [ ] I wrote two short, catchy slogans.
+- [ ] I used formal language.
+- [ ] My sentences start with capitals and end with full stops.
+
+**Practice** `e2-80-order` · ordering, level 1 · **authored key**
+
+> Put the parts of the report in order.
+
+Shown as: Report on our visit to the district hospital · We recommend more benches and more nurses. · Signed: Tabe Ayuk, Secretary · We found that the wards were clean but crowded. · To: The Principal  From: The Health Club  Date: 15 May · On 14 May, our club visited the hospital to see how patients are treated.
+Correct order: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary
+
+Full working after a second miss:
+
+> The correct order is: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary.  
+
+> Put the parts of the report in order.
+
+Shown as: Report on our visit to the district hospital · On 14 May, our club visited the hospital to see how patients are treated. · We found that the wards were clean but crowded. · Signed: Tabe Ayuk, Secretary · We recommend more benches and more nurses. · To: The Principal  From: The Health Club  Date: 15 May
+Correct order: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary
+
+Full working after a second miss:
+
+> The correct order is: Report on our visit to the district hospital → To: The Principal  From: The Health Club  Date: 15 May → On 14 May, our club visited the hospital to see how patients are treated. → We found that the wards were clean but crowded. → We recommend more benches and more nurses. → Signed: Tabe Ayuk, Secretary.  
+
+## Lesson 81: Speaking and Reading-Talking about cultural activities, festivals and their importance to culture and country
+
+Prerequisites: none · Skill: e2-81 (Talking about festivals and cultural activities; reading about the Ngondo)
+
+**Note** (draft)
+
+> Text: The Ngondo festival
+> Every year in December, the Sawa people of the Littoral gather on the banks of the Wouri river in Douala for the Ngondo. It is a festival of the water spirits and of the ancestors. The high point is when a diver goes under the water to receive a message from the spirits; when he comes out, the message is read to the people. There are also canoe races, wrestling, dances, a beauty contest and a fair. For the Sawa, the Ngondo keeps their traditions alive, brings families together and attracts tourists. “A people without culture is like a tree without roots,” says an elder.
+> 
+> Other festivals of Cameroon: the Nyem-Nyem (Adamawa), the Ngouon (Bamoun, Foumban), the Lela (Bali Nyonga), the Mbaya (Tikar), the Medumba festival (Bangangté).
+> Festivals keep culture alive, unite people, teach the young and bring income through tourism.
+
+**Card c81-1** (draft)
+
+> A festival is a time of celebration, often with music, dances and ceremonies.
+>
+> _The Ngondo of the Sawa._  
+
+Check question: `e2-81-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Text “The Ngondo festival”: what is the high point of the festival?
+
+- ✅ a diver receives a message from the water spirits
+- ◻️ a market day  
+  _↳ feedback if chosen: There is a fair, but that is not the high point._
+- ◻️ a school prize-giving  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ a football match  
+  _↳ feedback if chosen: Not in the text._
+
+Full working after a second miss:
+
+> The diver goes under the water.  
+> So the answer is “a diver receives a message from the water spirits”.  
+
+**Card c81-2** (draft)
+
+> Festivals keep culture alive, unite people and attract tourists.
+>
+> _A festival brings families together._  
+
+Check question: `e2-81-why` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What does the elder mean by “A people without culture is like a tree without roots”?
+
+- ◻️ Culture is not important.  
+  _↳ feedback if chosen: He says the opposite._
+- ◻️ Trees need water.  
+  _↳ feedback if chosen: He uses a comparison._
+- ✅ Culture gives a people strength and identity.
+- ◻️ People should cut trees.  
+  _↳ feedback if chosen: That is not the meaning._
+
+Full working after a second miss:
+
+> Roots hold a tree; culture holds a people.  
+> So the answer is “Culture gives a people strength and identity.”.  
+
+**Card c81-3** (draft)
+
+> Cameroon has many festivals: Ngondo, Nyem-Nyem, Ngouon, Lela.
+>
+> _The Ngouon is in Foumban._  
+
+Check question: `e2-81-match-card` · matching, level 1 · **authored key**
+
+> Match each festival to its people or town.
+
+Right-hand side (shuffled): the Bamoun of Foumban · the Adamawa · the Sawa of Douala · Bali Nyonga
+- Lela → **Bali Nyonga**
+- Nyem-Nyem → **the Adamawa**
+- Ngouon → **the Bamoun of Foumban**
+- Ngondo → **the Sawa of Douala**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Lela → Bali Nyonga  
+> Nyem-Nyem → the Adamawa  
+> Ngouon → the Bamoun of Foumban  
+> Ngondo → the Sawa of Douala  
+
+**Worked example** (draft)
+
+> Why is the Ngondo important to the Sawa people, according to the text?
+
+1. The text gives three reasons near the end.
+2. It keeps their traditions alive, brings families together and attracts tourists.
+
+**Answer:** It keeps their traditions alive, brings families together and attracts tourists.
+
+**Practice** `e2-81-comp` · multiple choice, level 1 · **authored key**
+
+> Text “The Ngondo festival”: where does the Ngondo take place?
+
+- ✅ on the banks of the Wouri river in Douala
+- ◻️ in Maroua  
+  _↳ feedback if chosen: That is not in the text._
+- ◻️ on Mount Cameroon  
+  _↳ feedback if chosen: That is not in the text._
+- ◻️ in Foumban  
+  _↳ feedback if chosen: That is the Ngouon._
+
+Full working after a second miss:
+
+> The text says it.  
+> So the answer is “on the banks of the Wouri river in Douala”.  
+
+> Text “The Ngondo festival”: what is the high point of the festival?
+
+- ✅ a diver receives a message from the water spirits
+- ◻️ a school prize-giving  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ a market day  
+  _↳ feedback if chosen: There is a fair, but that is not the high point._
+- ◻️ a football match  
+  _↳ feedback if chosen: Not in the text._
+
+Full working after a second miss:
+
+> The diver goes under the water.  
+> So the answer is “a diver receives a message from the water spirits”.  
+
+**Practice** `e2-81-why` · multiple choice, level 1 · **authored key**
+
+> Which is a reason why festivals are important?
+
+- ◻️ They destroy culture.  
+  _↳ feedback if chosen: They keep culture._
+- ◻️ They make children forget their language.  
+  _↳ feedback if chosen: They teach the young._
+- ◻️ They stop people meeting.  
+  _↳ feedback if chosen: They bring people together._
+- ✅ They keep traditions alive.
+
+Full working after a second miss:
+
+> Traditions are passed on.  
+> So the answer is “They keep traditions alive.”.  
+
+> Which is a reason why festivals are important?
+
+- ◻️ They make children forget their language.  
+  _↳ feedback if chosen: They teach the young._
+- ✅ They keep traditions alive.
+- ◻️ They stop people meeting.  
+  _↳ feedback if chosen: They bring people together._
+- ◻️ They destroy culture.  
+  _↳ feedback if chosen: They keep culture._
+
+Full working after a second miss:
+
+> Traditions are passed on.  
+> So the answer is “They keep traditions alive.”.  
+
+**Practice** `e2-81-match` · matching, level 2 · **authored key**
+
+> Match each festival to its people or town.
+
+Right-hand side (shuffled): the Bamoun of Foumban · the Sawa of Douala · the Adamawa · Bali Nyonga
+- Nyem-Nyem → **the Adamawa**
+- Ngouon → **the Bamoun of Foumban**
+- Ngondo → **the Sawa of Douala**
+- Lela → **Bali Nyonga**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Nyem-Nyem → the Adamawa  
+> Ngouon → the Bamoun of Foumban  
+> Ngondo → the Sawa of Douala  
+> Lela → Bali Nyonga  
+
+> Match each festival to its people or town.
+
+Right-hand side (shuffled): Bali Nyonga · the Adamawa · the Bamoun of Foumban · the Sawa of Douala
+- Ngondo → **the Sawa of Douala**
+- Nyem-Nyem → **the Adamawa**
+- Lela → **Bali Nyonga**
+- Ngouon → **the Bamoun of Foumban**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Ngondo → the Sawa of Douala  
+> Nyem-Nyem → the Adamawa  
+> Lela → Bali Nyonga  
+> Ngouon → the Bamoun of Foumban  
+
+**Practice** `e2-81-spot` · spot the error, level 3 · **authored key**
+
+> Which statement does not agree with the text?
+
+- ◻️ The Ngondo is held every year.
+- ✅ The Ngondo is held every month.  
+  _↳ explanation: It is held every year, in December._
+- ◻️ It honours the ancestors.
+- ◻️ The festival attracts tourists.
+
+Full working after a second miss:
+
+> The wrong statement is “The Ngondo is held every month.”.  
+> It is held every year, in December.  
+
+> Which statement does not agree with the text?
+
+- ✅ The Ngondo takes place in Foumban.  
+  _↳ explanation: It takes place in Douala, on the Wouri._
+- ◻️ The Ngondo is held every year.
+- ◻️ There are canoe races.
+- ◻️ It honours the ancestors.
+
+Full working after a second miss:
+
+> The wrong statement is “The Ngondo takes place in Foumban.”.  
+> It takes place in Douala, on the Wouri.  
+
+## Lesson 82: Vocabulary-Words related to festivals and cultural activities
+
+Prerequisites: 81 · Skill: e2-82 (Words about festivals and cultural activities)
+
+**Note** (draft)
+
+> Words about festivals:
+> • a festival, a celebration, a ceremony, a ritual, a parade (march-past), a procession, a feast;
+> • a masquerade (dancers wearing masks), a traditional dance, a drummer, a choir;
+> • costume, regalia (the special clothes and objects of a chief), beads, a headdress;
+> • to celebrate, to perform, to commemorate (to remember an event), to honour, to organise;
+> • heritage (traditions passed down from the past), custom, tradition, an elder, the palace, the chief (the Fon, the Lamido, the Sultan).
+
+**Card c82-1** (draft)
+
+> A masquerade is a dance by people wearing masks.
+>
+> _The masquerade danced in the palace yard._  
+
+Check question: `e2-82-def` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What does “a masquerade” mean?
+
+- ◻️ a market  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a school  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a kind of food  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ a dance by people wearing masks
+
+Full working after a second miss:
+
+> Masks are worn.  
+> So the answer is “a dance by people wearing masks”.  
+
+**Card c82-2** (draft)
+
+> To commemorate is to remember an event with a ceremony.
+>
+> _We commemorate the National Day on 20 May._  
+
+Check question: `e2-82-cl` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the word that fits.
+
+Sentence: **The dancers will ___ in front of the chief.**
+- ✅ perform
+- ◻️ vaccinate  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ sleep  
+  _↳ feedback if chosen: They dance, not sleep._
+
+Full working after a second miss:
+
+> The missing word is “perform”.  
+> The dancers will perform in front of the chief.  
+
+**Card c82-3** (draft)
+
+> Heritage means the traditions passed down from the past.
+>
+> _Our dances are part of our heritage._  
+
+Check question: `e2-82-match-card` · matching, level 1 · **authored key**
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a public march to celebrate · an old, respected person in a community · a set of actions done in the same way in a ceremony · traditions passed down from the past
+- an elder → **an old, respected person in a community**
+- a parade → **a public march to celebrate**
+- ritual → **a set of actions done in the same way in a ceremony**
+- heritage → **traditions passed down from the past**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> an elder → an old, respected person in a community  
+> a parade → a public march to celebrate  
+> ritual → a set of actions done in the same way in a ceremony  
+> heritage → traditions passed down from the past  
+
+**Worked example** (draft)
+
+> Complete: “The Fon wore his ___ — a beaded hat and a long robe — for the festival.”
+
+1. The special clothes and objects of a chief are called regalia.
+2. So the word is “regalia”.
+
+**Answer:** regalia
+
+**Practice** `e2-82-def` · multiple choice, level 1 · **authored key**
+
+> What does “a procession” mean?
+
+- ◻️ a meal  
+  _↳ feedback if chosen: That is a feast._
+- ✅ people moving forward in a line during a ceremony
+- ◻️ a quarrel  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a game of cards  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> They walk in a line.  
+> So the answer is “people moving forward in a line during a ceremony”.  
+
+> What does “a feast” mean?
+
+- ◻️ a mask  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a dance  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ a large special meal for a celebration
+- ◻️ a drum  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Lots of food to celebrate.  
+> So the answer is “a large special meal for a celebration”.  
+
+**Practice** `e2-82-cl` · fill the blank, level 1 · **authored key**
+
+> Choose the word that fits.
+
+Sentence: **On 20 May we ___ the unification of Cameroon.**
+- ✅ commemorate
+- ◻️ forget  
+  _↳ feedback if chosen: We remember it._
+- ◻️ destroy  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> The missing word is “commemorate”.  
+> On 20 May we commemorate the unification of Cameroon.  
+
+> Choose the word that fits.
+
+Sentence: **Our traditional dances are part of our cultural ___.**
+- ✅ heritage
+- ◻️ outbreak  
+  _↳ feedback if chosen: That is the start of a disease._
+- ◻️ symptom  
+  _↳ feedback if chosen: That is a sign of disease._
+
+Full working after a second miss:
+
+> The missing word is “heritage”.  
+> Our traditional dances are part of our cultural heritage.  
+
+**Practice** `e2-82-match` · matching, level 2 · **authored key**
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a set of actions done in the same way in a ceremony · traditions passed down from the past · the special clothes and objects of a chief · an old, respected person in a community
+- heritage → **traditions passed down from the past**
+- an elder → **an old, respected person in a community**
+- ritual → **a set of actions done in the same way in a ceremony**
+- regalia → **the special clothes and objects of a chief**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> heritage → traditions passed down from the past  
+> an elder → an old, respected person in a community  
+> ritual → a set of actions done in the same way in a ceremony  
+> regalia → the special clothes and objects of a chief  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a set of actions done in the same way in a ceremony · the special clothes and objects of a chief · traditions passed down from the past · an old, respected person in a community
+- heritage → **traditions passed down from the past**
+- regalia → **the special clothes and objects of a chief**
+- an elder → **an old, respected person in a community**
+- ritual → **a set of actions done in the same way in a ceremony**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> heritage → traditions passed down from the past  
+> regalia → the special clothes and objects of a chief  
+> an elder → an old, respected person in a community  
+> ritual → a set of actions done in the same way in a ceremony  
+
+**Practice** `e2-82-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence uses a word wrongly?
+
+- ◻️ The masquerade wore a frightening mask.
+- ◻️ We celebrate the National Day.
+- ✅ Heritage means the newest fashion.  
+  _↳ explanation: It means traditions from the past._
+- ◻️ The procession moved slowly.
+
+Full working after a second miss:
+
+> The wrong statement is “Heritage means the newest fashion.”.  
+> It means traditions from the past.  
+
+> Which sentence uses a word wrongly?
+
+- ◻️ The masquerade wore a frightening mask.
+- ◻️ We celebrate the National Day.
+- ✅ Heritage means the newest fashion.  
+  _↳ explanation: It means traditions from the past._
+- ◻️ The chief wore his regalia.
+
+Full working after a second miss:
+
+> The wrong statement is “Heritage means the newest fashion.”.  
+> It means traditions from the past.  
+
+## Lesson 83: Speech Work-Pronunciation of silent /b/ and /p/
+
+Prerequisites: none · Skill: e2-83 (Silent letters: b and p)
+
+**Note** (draft)
+
+> Some letters are written but not pronounced: they are silent.
+> Silent b:
+> • after m at the end of a word: climb, comb, thumb, lamb, bomb, tomb, limb, numb;
+> • before t: debt, doubt, subtle.
+> Note: climber, plumber, bomber keep the silent b.
+> Silent p:
+> • at the start before s or n: psychology, psalm, pneumonia;
+> • in: receipt, cupboard, raspberry.
+> Learn to spell these words carefully: you cannot hear the silent letter.
+
+**Card c83-1** (draft)
+
+> Silent b: after m at the end of a word, and before t.
+>
+> _thumb, debt_  
+
+Check question: `e2-83-b` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which letter is silent in “tomb”?
+
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the b._
+- ◻️ the first letter  
+  _↳ feedback if chosen: Listen to the end of the word: the b is not pronounced._
+- ◻️ m  
+  _↳ feedback if chosen: Listen to the end of the word: the b is not pronounced._
+- ✅ b
+
+Full working after a second miss:
+
+> After m at the end of a word, or before t, b is silent.  
+> In “tomb”, the silent letter is b.  
+
+**Card c83-2** (draft)
+
+> Silent p: at the start before s or n, and in receipt and cupboard.
+>
+> _psalm, pneumonia_  
+
+Check question: `e2-83-p` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which letter is silent in “cupboard”?
+
+- ✅ p
+- ◻️ the last letter  
+  _↳ feedback if chosen: Say the word: the p is not pronounced._
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the p._
+- ◻️ s  
+  _↳ feedback if chosen: Say the word: the p is not pronounced._
+
+Full working after a second miss:
+
+> Some words have a silent p.  
+> In “cupboard”, the silent letter is p.  
+
+**Card c83-3** (draft)
+
+> You must remember the silent letter when you spell.
+>
+> _I keep my plates in the cupboard._  
+
+Check question: `e2-83-cl-card` · fill the blank, level 1 · **authored key**
+
+> Choose the correct spelling.
+
+Sentence: **The children like to ___ the mango tree.**
+- ◻️ clime  
+  _↳ feedback if chosen: “clime” is a different word._
+- ✅ climb
+- ◻️ clim  
+  _↳ feedback if chosen: Keep the silent b._
+
+Full working after a second miss:
+
+> The missing word is “climb”.  
+> The children like to climb the mango tree.  
+
+**Worked example** (draft)
+
+> Which letter is silent in “climb” and in “receipt”?
+
+1. In “climb”, the b after m at the end is not pronounced.
+2. In “receipt”, the p is not pronounced.
+
+**Answer:** b in climb; p in receipt
+
+**Practice** `e2-83-b` · multiple choice, level 1 · computed by rule
+
+> Which letter is silent in “doubt”?
+
+- ◻️ m  
+  _↳ feedback if chosen: Listen to the end of the word: the b is not pronounced._
+- ◻️ the first letter  
+  _↳ feedback if chosen: Listen to the end of the word: the b is not pronounced._
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the b._
+- ✅ b
+
+Full working after a second miss:
+
+> After m at the end of a word, or before t, b is silent.  
+> In “doubt”, the silent letter is b.  
+
+> Which letter is silent in “tomb”?
+
+- ◻️ the first letter  
+  _↳ feedback if chosen: Listen to the end of the word: the b is not pronounced._
+- ◻️ m  
+  _↳ feedback if chosen: Listen to the end of the word: the b is not pronounced._
+- ✅ b
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the b._
+
+Full working after a second miss:
+
+> After m at the end of a word, or before t, b is silent.  
+> In “tomb”, the silent letter is b.  
+
+**Practice** `e2-83-p` · multiple choice, level 1 · computed by rule
+
+> Which letter is silent in “pneumonia”?
+
+- ◻️ s  
+  _↳ feedback if chosen: Say the word: the p is not pronounced._
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the p._
+- ◻️ the last letter  
+  _↳ feedback if chosen: Say the word: the p is not pronounced._
+- ✅ p
+
+Full working after a second miss:
+
+> Some words have a silent p.  
+> In “pneumonia”, the silent letter is p.  
+
+> Which letter is silent in “cupboard”?
+
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the p._
+- ✅ p
+- ◻️ s  
+  _↳ feedback if chosen: Say the word: the p is not pronounced._
+- ◻️ the last letter  
+  _↳ feedback if chosen: Say the word: the p is not pronounced._
+
+Full working after a second miss:
+
+> Some words have a silent p.  
+> In “cupboard”, the silent letter is p.  
+
+**Practice** `e2-83-cl` · fill the blank, level 2 · **authored key**
+
+> Choose the correct spelling.
+
+Sentence: **The children like to ___ the mango tree.**
+- ◻️ clim  
+  _↳ feedback if chosen: Keep the silent b._
+- ◻️ clime  
+  _↳ feedback if chosen: “clime” is a different word._
+- ✅ climb
+
+Full working after a second miss:
+
+> The missing word is “climb”.  
+> The children like to climb the mango tree.  
+
+> Choose the correct spelling.
+
+Sentence: **The children like to ___ the mango tree.**
+- ✅ climb
+- ◻️ clime  
+  _↳ feedback if chosen: “clime” is a different word._
+- ◻️ clim  
+  _↳ feedback if chosen: Keep the silent b._
+
+Full working after a second miss:
+
+> The missing word is “climb”.  
+> The children like to climb the mango tree.  
+
+**Practice** `e2-83-spot` · spot the error, level 3 · **authored key**
+
+> Which word is spelt wrongly?
+
+- ✅ lam (a young sheep)  
+  _↳ explanation: It is spelt lamb, with a silent b._
+- ◻️ psalm
+- ◻️ debt
+- ◻️ cupboard
+
+Full working after a second miss:
+
+> The wrong statement is “lam (a young sheep)”.  
+> It is spelt lamb, with a silent b.  
+
+> Which word is spelt wrongly?
+
+- ◻️ psalm
+- ◻️ comb
+- ✅ numonia  
+  _↳ explanation: It is spelt pneumonia, with a silent p._
+- ◻️ debt
+
+Full working after a second miss:
+
+> The wrong statement is “numonia”.  
+> It is spelt pneumonia, with a silent p.  
+
+## Lesson 84: Grammar- Nouns as modifiers
+
+Prerequisites: none · Skill: e2-84 (Nouns as modifiers)
+
+**Note** (draft)
+
+> A noun can be used before another noun to describe it, like an adjective. It is then a noun modifier.
+> • a school bag (a bag for school), a football match, a dance festival, a leather belt, a village chief, a health centre.
+> The main noun is the last one; the first noun tells what kind: a bus station is a station (for buses).
+> The modifier is usually singular even when the meaning is plural: a shoe shop (it sells many shoes), a ten-kilometre race, a two-day festival.
+> Compare: a coffee cup (a cup for coffee) and a cup of coffee (a cup full of coffee).
+
+**Card c84-1** (draft)
+
+> A noun before another noun describes it: a school bag.
+>
+> _a football match_  
+
+Check question: `e2-84-main` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In “a dance festival”, what is the main noun?
+
+- ◻️ a  
+  _↳ feedback if chosen: “a” is an article._
+- ◻️ both words equally  
+  _↳ feedback if chosen: The last noun is the main one._
+- ◻️ dance  
+  _↳ feedback if chosen: “dance” tells what kind of festival._
+- ✅ festival
+
+Full working after a second miss:
+
+> It is a festival.  
+> So the answer is “festival”.  
+
+**Card c84-2** (draft)
+
+> The main noun is the last one.
+>
+> _a village chief is a chief._  
+
+Check question: `e2-84-cl` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the correct noun phrase.
+
+Sentence: **Put the ___ in the drawer. (a knife for bread)**
+- ◻️ knife bread  
+  _↳ feedback if chosen: The modifier comes first._
+- ◻️ breads knife  
+  _↳ feedback if chosen: The modifier stays singular._
+- ✅ bread knife
+
+Full working after a second miss:
+
+> The missing words are “bread knife”.  
+> Put the bread knife in the drawer. (a knife for bread)  
+
+**Card c84-3** (draft)
+
+> The modifier stays singular: a shoe shop, a two-day festival.
+>
+> _a three-hour journey_  
+
+Check question: `e2-84-num-card` · fill the blank, level 1 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **My brother ran in the ___ race.**
+- ◻️ ten-kilometres  
+  _↳ feedback if chosen: The modifier stays singular._
+- ✅ ten-kilometre
+- ◻️ ten kilometres's  
+  _↳ feedback if chosen: No apostrophe here._
+
+Full working after a second miss:
+
+> The missing word is “ten-kilometre”.  
+> My brother ran in the ten-kilometre race.  
+
+**Worked example** (draft)
+
+> Write a noun phrase with a noun modifier for “a race of ten kilometres”.
+
+1. The main noun is “race”; the modifier goes before it.
+2. Numbers + noun modifiers stay singular and take a hyphen: a ten-kilometre race.
+
+**Answer:** a ten-kilometre race
+
+**Practice** `e2-84-main` · multiple choice, level 1 · **authored key**
+
+> What is a “health centre”?
+
+- ◻️ the centre of the body  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a healthy person  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a kind of health  
+  _↳ feedback if chosen: The main noun is centre._
+- ✅ a centre for health care
+
+Full working after a second miss:
+
+> The main noun is the last.  
+> So the answer is “a centre for health care”.  
+
+> What is a “health centre”?
+
+- ◻️ the centre of the body  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ a centre for health care
+- ◻️ a kind of health  
+  _↳ feedback if chosen: The main noun is centre._
+- ◻️ a healthy person  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> The main noun is the last.  
+> So the answer is “a centre for health care”.  
+
+**Practice** `e2-84-cl` · fill the blank, level 1 · **authored key**
+
+> Choose the correct noun phrase.
+
+Sentence: **The ___ was very loud. (a festival of music)**
+- ✅ music festival
+- ◻️ musics festival  
+  _↳ feedback if chosen: The modifier stays singular._
+- ◻️ festival music  
+  _↳ feedback if chosen: The modifier comes first._
+
+Full working after a second miss:
+
+> The missing words are “music festival”.  
+> The music festival was very loud. (a festival of music)  
+
+> Choose the correct noun phrase.
+
+Sentence: **She bought a new ___. (a bag made of leather)**
+- ◻️ leathers bag  
+  _↳ feedback if chosen: The modifier stays singular._
+- ✅ leather bag
+- ◻️ bag leather  
+  _↳ feedback if chosen: The modifier comes first._
+
+Full working after a second miss:
+
+> The missing words are “leather bag”.  
+> She bought a new leather bag. (a bag made of leather)  
+
+**Practice** `e2-84-num` · fill the blank, level 2 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **My brother ran in the ___ race.**
+- ◻️ ten kilometres's  
+  _↳ feedback if chosen: No apostrophe here._
+- ✅ ten-kilometre
+- ◻️ ten-kilometres  
+  _↳ feedback if chosen: The modifier stays singular._
+
+Full working after a second miss:
+
+> The missing word is “ten-kilometre”.  
+> My brother ran in the ten-kilometre race.  
+
+> Choose the correct form.
+
+Sentence: **My brother ran in the ___ race.**
+- ◻️ ten-kilometres  
+  _↳ feedback if chosen: The modifier stays singular._
+- ◻️ ten kilometres's  
+  _↳ feedback if chosen: No apostrophe here._
+- ✅ ten-kilometre
+
+Full working after a second miss:
+
+> The missing word is “ten-kilometre”.  
+> My brother ran in the ten-kilometre race.  
+
+**Practice** `e2-84-spot` · spot the error, level 3 · **authored key**
+
+> Which noun phrase is wrong?
+
+- ◻️ a bus stop
+- ✅ a ten-kilometres race  
+  _↳ explanation: The modifier stays singular: a ten-kilometre race._
+- ◻️ a two-day festival
+- ◻️ a school bag
+
+Full working after a second miss:
+
+> The wrong statement is “a ten-kilometres race”.  
+> The modifier stays singular: a ten-kilometre race.  
+
+> Which noun phrase is wrong?
+
+- ◻️ a two-day festival
+- ◻️ a school bag
+- ◻️ a village chief
+- ✅ a ten-kilometres race  
+  _↳ explanation: The modifier stays singular: a ten-kilometre race._
+
+Full working after a second miss:
+
+> The wrong statement is “a ten-kilometres race”.  
+> The modifier stays singular: a ten-kilometre race.  
+
+## Lesson 85: Speaking and Reading- Talk about local and traditional music and their importance
+
+Prerequisites: 81 · Skill: e2-85 (Talking about traditional music; reading about its importance)
+
+**Note** (draft)
+
+> Text: The voice of the drums
+> In Grandfather Ndi's village, music is everywhere. The talking drum sends messages from hill to hill: a birth, a death, a meeting at the palace. The balafon, made of wooden keys over calabashes, plays at weddings. Women sing work songs as they hoe the fields, and the rhythm makes the work lighter. At funerals, mournful songs comfort the family. “Our music is our history book,” Grandfather says. “The songs tell where we came from and teach the young how to behave.” Today, young artists mix the old rhythms — bikutsi, makossa, njang, bend skin — with guitars and computers, and Cameroonian music is heard all over the world.
+> 
+> Some Cameroonian music styles: makossa (Douala), bikutsi (Centre, Beti), bend skin (West), njang (North West), assiko (Bassa), mangambeu (West).
+
+**Card c85-1** (draft)
+
+> Traditional music has many uses: messages, weddings, work, funerals.
+>
+> _The talking drum sends messages._  
+
+Check question: `e2-85-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Text “The voice of the drums”: what is a balafon made of?
+
+- ◻️ plastic pipes  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ metal strings  
+  _↳ feedback if chosen: Not in the text._
+- ✅ wooden keys over calabashes
+- ◻️ animal skins only  
+  _↳ feedback if chosen: Not in the text._
+
+Full working after a second miss:
+
+> The text describes it.  
+> So the answer is “wooden keys over calabashes”.  
+
+**Card c85-2** (draft)
+
+> Music keeps history and teaches values.
+>
+> _Songs tell where we came from._  
+
+Check question: `e2-85-why-card` · multiple choice, level 1 · **authored key**
+
+> What is the main idea of the text?
+
+- ✅ Music is an important part of life, history and culture.
+- ◻️ Music is only for weddings.  
+  _↳ feedback if chosen: It is used in many events._
+- ◻️ Drums are too loud.  
+  _↳ feedback if chosen: Not the idea._
+- ◻️ Young people hate music.  
+  _↳ feedback if chosen: They mix old and new._
+
+Full working after a second miss:
+
+> It is everywhere in the village.  
+> So the answer is “Music is an important part of life, history and culture.”.  
+
+**Card c85-3** (draft)
+
+> Cameroonian styles include makossa, bikutsi, bend skin, njang and assiko.
+>
+> _Bikutsi comes from the Centre._  
+
+Check question: `e2-85-match` · matching, level 1 · **authored key**, reused from practice
+
+> Match each music style to its region or people.
+
+Right-hand side (shuffled): the Beti of the Centre · the North West · the Bassa · Douala
+- makossa → **Douala**
+- njang → **the North West**
+- bikutsi → **the Beti of the Centre**
+- assiko → **the Bassa**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> makossa → Douala  
+> njang → the North West  
+> bikutsi → the Beti of the Centre  
+> assiko → the Bassa  
+
+**Worked example** (draft)
+
+> Why does Grandfather say “Our music is our history book”?
+
+1. The text says the songs tell where the people came from.
+2. They also teach the young how to behave, like a book.
+
+**Answer:** Because the songs tell the people's history and teach the young.
+
+**Practice** `e2-85-comp` · multiple choice, level 1 · **authored key**
+
+> Text “The voice of the drums”: what does the talking drum do?
+
+- ✅ it sends messages from hill to hill
+- ◻️ it cooks food  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ it makes the rain fall  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ it plays only at school  
+  _↳ feedback if chosen: Not in the text._
+
+Full working after a second miss:
+
+> Births, deaths, meetings.  
+> So the answer is “it sends messages from hill to hill”.  
+
+> Text “The voice of the drums”: what is a balafon made of?
+
+- ✅ wooden keys over calabashes
+- ◻️ plastic pipes  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ animal skins only  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ metal strings  
+  _↳ feedback if chosen: Not in the text._
+
+Full working after a second miss:
+
+> The text describes it.  
+> So the answer is “wooden keys over calabashes”.  
+
+**Practice** `e2-85-why` · multiple choice, level 2 · **authored key**
+
+> What do young artists do today, according to the text?
+
+- ◻️ ban traditional music  
+  _↳ feedback if chosen: They use it._
+- ✅ mix old rhythms with guitars and computers
+- ◻️ only play the talking drum  
+  _↳ feedback if chosen: They mix styles._
+- ◻️ stop playing music  
+  _↳ feedback if chosen: They continue._
+
+Full working after a second miss:
+
+> The music is heard all over the world.  
+> So the answer is “mix old rhythms with guitars and computers”.  
+
+> What is the main idea of the text?
+
+- ✅ Music is an important part of life, history and culture.
+- ◻️ Young people hate music.  
+  _↳ feedback if chosen: They mix old and new._
+- ◻️ Music is only for weddings.  
+  _↳ feedback if chosen: It is used in many events._
+- ◻️ Drums are too loud.  
+  _↳ feedback if chosen: Not the idea._
+
+Full working after a second miss:
+
+> It is everywhere in the village.  
+> So the answer is “Music is an important part of life, history and culture.”.  
+
+**Practice** `e2-85-match` · matching, level 1 · **authored key**
+
+> Match each music style to its region or people.
+
+Right-hand side (shuffled): the Bassa · the Beti of the Centre · the North West · Douala
+- assiko → **the Bassa**
+- njang → **the North West**
+- makossa → **Douala**
+- bikutsi → **the Beti of the Centre**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> assiko → the Bassa  
+> njang → the North West  
+> makossa → Douala  
+> bikutsi → the Beti of the Centre  
+
+> Match each music style to its region or people.
+
+Right-hand side (shuffled): the Beti of the Centre · the Bassa · Douala · the North West
+- makossa → **Douala**
+- njang → **the North West**
+- assiko → **the Bassa**
+- bikutsi → **the Beti of the Centre**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> makossa → Douala  
+> njang → the North West  
+> assiko → the Bassa  
+> bikutsi → the Beti of the Centre  
+
+**Practice** `e2-85-spot` · spot the error, level 3 · **authored key**
+
+> Which statement does not agree with the text?
+
+- ✅ Young artists refuse to use guitars.  
+  _↳ explanation: They mix old rhythms with guitars and computers._
+- ◻️ Cameroonian music is heard abroad.
+- ◻️ Songs teach the young.
+- ◻️ The balafon plays at weddings.
+
+Full working after a second miss:
+
+> The wrong statement is “Young artists refuse to use guitars.”.  
+> They mix old rhythms with guitars and computers.  
+
+> Which statement does not agree with the text?
+
+- ◻️ Songs teach the young.
+- ✅ The talking drum is used to cook food.  
+  _↳ explanation: It sends messages._
+- ◻️ Music is played at funerals.
+- ◻️ Cameroonian music is heard abroad.
+
+Full working after a second miss:
+
+> The wrong statement is “The talking drum is used to cook food.”.  
+> It sends messages.  
+
+## Lesson 86: Vocabulary-WH- uses
+
+Prerequisites: none · Skill: e2-86 (WH- words and their uses)
+
+**Note** (draft)
+
+> WH- words ask questions and join sentences:
+> • who (a person): Who plays the balafon?
+> • whom (a person, as object, formal): To whom did you give the drum?
+> • whose (owner): Whose flute is this?
+> • what (a thing or action): What is a masquerade?
+> • which (a choice): Which song do you prefer?
+> • when (time), where (place), why (reason), how (manner), how many / how much (number, amount).
+> They also introduce relative clauses: “The man who plays the drum is my uncle.” “The village where I was born is near Kumbo.”
+
+**Card c86-1** (draft)
+
+> who for people, what for things, which for a choice, whose for owners.
+>
+> _Whose drum is this?_  
+
+Check question: `e2-86-ask` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which question word fits? “___ did you go home early? — Because I was sick.”
+
+- ◻️ Who  
+  _↳ feedback if chosen: The answer gives a reason._
+- ✅ Why
+- ◻️ How  
+  _↳ feedback if chosen: The answer gives a reason._
+- ◻️ Which  
+  _↳ feedback if chosen: The answer gives a reason._
+
+Full working after a second miss:
+
+> Why asks for a reason.  
+> So the answer is “Why”.  
+
+**Card c86-2** (draft)
+
+> when = time, where = place, why = reason, how = manner.
+>
+> _Why are you late?_  
+
+Check question: `e2-86-cl` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the question word that fits.
+
+Sentence: **___ instruments can you play? — The flute and the drum.**
+- ✅ Which
+- ◻️ Whose  
+  _↳ feedback if chosen: The answer is a choice of things._
+- ◻️ Where  
+  _↳ feedback if chosen: The answer is not a place._
+
+Full working after a second miss:
+
+> The missing word is “Which”.  
+> Which instruments can you play? — The flute and the drum.  
+
+**Card c86-3** (draft)
+
+> WH- words also join sentences: who, which, where, when.
+>
+> _The man who sings is my uncle._  
+
+Check question: `e2-86-rel-card` · fill the blank, level 1 · **authored key**
+
+> Choose the word that joins the sentences.
+
+Sentence: **The woman ___ sings in the choir is my aunt.**
+- ◻️ which  
+  _↳ feedback if chosen: For a person, use who._
+- ◻️ where  
+  _↳ feedback if chosen: Where is for places._
+- ✅ who
+
+Full working after a second miss:
+
+> The missing word is “who”.  
+> The woman who sings in the choir is my aunt.  
+
+**Worked example** (draft)
+
+> Ask the question that has this answer: “The concert starts at eight o'clock.”
+
+1. The answer gives a time.
+2. A time question uses “When” (or “What time”): “When does the concert start?”
+
+**Answer:** When does the concert start?
+
+**Practice** `e2-86-ask` · multiple choice, level 1 · **authored key**
+
+> Which question word fits? “___ did you go home early? — Because I was sick.”
+
+- ◻️ How  
+  _↳ feedback if chosen: The answer gives a reason._
+- ◻️ Who  
+  _↳ feedback if chosen: The answer gives a reason._
+- ✅ Why
+- ◻️ Which  
+  _↳ feedback if chosen: The answer gives a reason._
+
+Full working after a second miss:
+
+> Why asks for a reason.  
+> So the answer is “Why”.  
+
+> Which question word fits? “___ guitar is this? — It is Tabe's.”
+
+- ◻️ What  
+  _↳ feedback if chosen: The answer is an owner._
+- ◻️ Which  
+  _↳ feedback if chosen: The answer is an owner._
+- ◻️ Who  
+  _↳ feedback if chosen: The answer is an owner._
+- ✅ Whose
+
+Full working after a second miss:
+
+> Whose asks about the owner.  
+> So the answer is “Whose”.  
+
+**Practice** `e2-86-cl` · fill the blank, level 1 · **authored key**
+
+> Choose the question word that fits.
+
+Sentence: **___ will the concert end? — At ten.**
+- ✅ When
+- ◻️ Who  
+  _↳ feedback if chosen: The answer is a time._
+- ◻️ Where  
+  _↳ feedback if chosen: The answer is a time._
+
+Full working after a second miss:
+
+> The missing word is “When”.  
+> When will the concert end? — At ten.  
+
+> Choose the question word that fits.
+
+Sentence: **___ much does the ticket cost? — Five hundred francs.**
+- ✅ How
+- ◻️ Which  
+  _↳ feedback if chosen: We say “How much”._
+- ◻️ What  
+  _↳ feedback if chosen: We say “How much”._
+
+Full working after a second miss:
+
+> The missing word is “How”.  
+> How much does the ticket cost? — Five hundred francs.  
+
+**Practice** `e2-86-rel` · fill the blank, level 2 · **authored key**
+
+> Choose the word that joins the sentences.
+
+Sentence: **The drum ___ my father made is very old.**
+- ◻️ where  
+  _↳ feedback if chosen: Where is for places._
+- ◻️ who  
+  _↳ feedback if chosen: For a thing, use which._
+- ✅ which
+
+Full working after a second miss:
+
+> The missing word is “which”.  
+> The drum which my father made is very old.  
+
+> Choose the word that joins the sentences.
+
+Sentence: **The drum ___ my father made is very old.**
+- ✅ which
+- ◻️ who  
+  _↳ feedback if chosen: For a thing, use which._
+- ◻️ where  
+  _↳ feedback if chosen: Where is for places._
+
+Full working after a second miss:
+
+> The missing word is “which”.  
+> The drum which my father made is very old.  
+
+**Practice** `e2-86-spot` · spot the error, level 3 · **authored key**
+
+> Which question is wrong?
+
+- ✅ Which is your name?  
+  _↳ explanation: Ask What is your name?_
+- ◻️ Why are you crying?
+- ◻️ Who is the lead singer?
+- ◻️ Where is the palace?
+
+Full working after a second miss:
+
+> The wrong statement is “Which is your name?”.  
+> Ask What is your name?  
+
+> Which question is wrong?
+
+- ✅ Which is your name?  
+  _↳ explanation: Ask What is your name?_
+- ◻️ Why are you crying?
+- ◻️ Whose bag is this?
+- ◻️ Where is the palace?
+
+Full working after a second miss:
+
+> The wrong statement is “Which is your name?”.  
+> Ask What is your name?  
+
+## Lesson 87: Grammar-Conditionals
+
+Prerequisites: none · Skill: e2-87 (Conditionals: zero, first and second)
+
+**Note** (draft)
+
+> A conditional sentence has an if-clause (the condition) and a main clause (the result).
+> • Zero conditional (always true, facts): If + present, present. “If you heat water to 100 °C, it boils.”
+> • First conditional (a real possibility in the future): If + present, will + verb. “If it rains, the festival will be cancelled.”
+> • Second conditional (an unreal or unlikely situation): If + past, would + verb. “If I had a guitar, I would play every day.” With be, use “were”: “If I were rich, I would build a school.”
+> The if-clause can come first (with a comma) or second (no comma): “The festival will be cancelled if it rains.”
+> Never put “will” or “would” in the if-clause.
+
+**Card c87-1** (draft)
+
+> Zero conditional: If + present, present — for facts.
+>
+> _If you mix blue and yellow, you get green._  
+
+Check question: `e2-87-type` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which conditional is this? “If you heat ice, it melts.”
+
+- ◻️ the second conditional  
+  _↳ feedback if chosen: Look at the verbs: present + present (zero), present + will (first), past + would (second)._
+- ◻️ the first conditional  
+  _↳ feedback if chosen: Look at the verbs: present + present (zero), present + will (first), past + would (second)._
+- ✅ the zero conditional
+
+Full working after a second miss:
+
+> Zero: present + present; first: present + will; second: past + would.  
+> So: the zero conditional.  
+
+**Card c87-2** (draft)
+
+> First conditional: If + present, will + verb — real future.
+>
+> _If you study, you will pass._  
+
+Check question: `e2-87-first` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the correct form.
+
+Sentence: **We will dance if the band ___.**
+- ◻️ will come  
+  _↳ feedback if chosen: No will in the if-clause._
+- ✅ comes
+- ◻️ came  
+  _↳ feedback if chosen: First conditional: if + present._
+
+Full working after a second miss:
+
+> The missing word is “comes”.  
+> We will dance if the band comes.  
+
+**Card c87-3** (draft)
+
+> Second conditional: If + past, would + verb — unreal.
+>
+> _If I were a bird, I would fly._  
+
+Check question: `e2-87-second-card` · fill the blank, level 1 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **What would you do if you ___ a million francs?**
+- ◻️ win  
+  _↳ feedback if chosen: Second conditional: if + past._
+- ◻️ will win  
+  _↳ feedback if chosen: No will in the if-clause._
+- ✅ won
+
+Full working after a second miss:
+
+> The missing word is “won”.  
+> What would you do if you won a million francs?  
+
+**Worked example** (draft)
+
+> Complete with the correct form: “If it ___ (rain) tomorrow, we ___ (stay) at home.”
+
+1. Tomorrow is a real future possibility: first conditional.
+2. If + present (rains), will + verb (will stay).
+
+**Answer:** If it rains tomorrow, we will stay at home.
+
+**Practice** `e2-87-type` · multiple choice, level 1 · computed by rule
+
+> Which conditional is this? “If it rains, the ground gets wet.”
+
+- ◻️ the first conditional  
+  _↳ feedback if chosen: Look at the verbs: present + present (zero), present + will (first), past + would (second)._
+- ✅ the zero conditional
+- ◻️ the second conditional  
+  _↳ feedback if chosen: Look at the verbs: present + present (zero), present + will (first), past + would (second)._
+
+Full working after a second miss:
+
+> Zero: present + present; first: present + will; second: past + would.  
+> So: the zero conditional.  
+
+> Which conditional is this? “If you heat ice, it melts.”
+
+- ◻️ the second conditional  
+  _↳ feedback if chosen: Look at the verbs: present + present (zero), present + will (first), past + would (second)._
+- ✅ the zero conditional
+- ◻️ the first conditional  
+  _↳ feedback if chosen: Look at the verbs: present + present (zero), present + will (first), past + would (second)._
+
+Full working after a second miss:
+
+> Zero: present + present; first: present + will; second: past + would.  
+> So: the zero conditional.  
+
+**Practice** `e2-87-first` · fill the blank, level 1 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **We will dance if the band ___.**
+- ◻️ will come  
+  _↳ feedback if chosen: No will in the if-clause._
+- ✅ comes
+- ◻️ came  
+  _↳ feedback if chosen: First conditional: if + present._
+
+Full working after a second miss:
+
+> The missing word is “comes”.  
+> We will dance if the band comes.  
+
+> Choose the correct form.
+
+Sentence: **If it ___ tomorrow, the festival will be cancelled.**
+- ◻️ would rain  
+  _↳ feedback if chosen: First conditional: if + present._
+- ✅ rains
+- ◻️ will rain  
+  _↳ feedback if chosen: No will in the if-clause._
+
+Full working after a second miss:
+
+> The missing word is “rains”.  
+> If it rains tomorrow, the festival will be cancelled.  
+
+**Practice** `e2-87-second` · fill the blank, level 2 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **If she had more time, she ___ the guitar.**
+- ◻️ will learn  
+  _↳ feedback if chosen: Second conditional: would + verb._
+- ◻️ learns  
+  _↳ feedback if chosen: Second conditional: would + verb._
+- ✅ would learn
+
+Full working after a second miss:
+
+> The missing words are “would learn”.  
+> If she had more time, she would learn the guitar.  
+
+> Choose the correct form.
+
+Sentence: **If I ___ a famous singer, I would help poor children.**
+- ◻️ am  
+  _↳ feedback if chosen: Second conditional: if + past (were)._
+- ✅ were
+- ◻️ will be  
+  _↳ feedback if chosen: No will in the if-clause._
+
+Full working after a second miss:
+
+> The missing word is “were”.  
+> If I were a famous singer, I would help poor children.  
+
+**Practice** `e2-87-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence is wrong?
+
+- ◻️ If it rains, we will stay inside.
+- ✅ If I would have money, I would buy a drum.  
+  _↳ explanation: If + past: If I had money._
+- ◻️ If you heat water, it boils.
+- ◻️ If I were you, I would apologise.
+
+Full working after a second miss:
+
+> The wrong statement is “If I would have money, I would buy a drum.”.  
+> If + past: If I had money.  
+
+> Which sentence is wrong?
+
+- ◻️ If you heat water, it boils.
+- ◻️ If I were you, I would apologise.
+- ◻️ If it rains, we will stay inside.
+- ✅ If it will rain, we will stay inside.  
+  _↳ explanation: No will in the if-clause: If it rains._
+
+Full working after a second miss:
+
+> The wrong statement is “If it will rain, we will stay inside.”.  
+> No will in the if-clause: If it rains.  
+
+## Lesson 88: Writing- Write a brief account about the role of women in your culture
+
+Prerequisites: 85 · Skill: e2-88 (Writing a brief account: the role of women in my culture)
+
+**Note** (draft)
+
+> An account tells about a topic clearly, with facts and examples, in a few paragraphs.
+> Plan: a title; an introduction (what you will write about); two or three body paragraphs, each about one role (in the family, in farming and trade, in culture and leadership), with examples; a conclusion (your opinion).
+> Use the simple present for things that are generally true (“Women grow most of the food crops”).
+> Linking words: firstly, also, in addition, moreover, finally, in conclusion.
+
+**Card c88-1** (draft)
+
+> An account has an introduction, body paragraphs and a conclusion.
+>
+> _One idea per paragraph._  
+
+Check question: `e2-88-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the account in order.
+
+Shown as: The role of women in our culture · In conclusion, women are the backbone of our society. · Finally, they lead dances and women's associations. · Firstly, they care for the children and the home. · In addition, they grow food and trade in the market. · In our culture, women play many important roles.
+Correct order: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society.
+
+Full working after a second miss:
+
+> The correct order is: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society..  
+
+**Card c88-2** (draft)
+
+> Give examples for each role.
+>
+> _They sell their crops at the market._  
+
+Check question: `e2-88-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the account in order.
+
+Shown as: In addition, they grow food and trade in the market. · Finally, they lead dances and women's associations. · In our culture, women play many important roles. · Firstly, they care for the children and the home. · In conclusion, women are the backbone of our society. · The role of women in our culture
+Correct order: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society.
+
+Full working after a second miss:
+
+> The correct order is: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society..  
+
+**Card c88-3** (draft)
+
+> Use linking words: firstly, also, in addition, finally.
+>
+> _In addition, women lead the njangi groups._  
+
+Check question: `e2-88-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the account in order.
+
+Shown as: Firstly, they care for the children and the home. · Finally, they lead dances and women's associations. · In our culture, women play many important roles. · In addition, they grow food and trade in the market. · The role of women in our culture · In conclusion, women are the backbone of our society.
+Correct order: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society.
+
+Full working after a second miss:
+
+> The correct order is: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society..  
+
+**Worked example** (draft)
+
+> Plan a brief account of the role of women in your culture.
+
+1. Title: The role of women in Bafut culture.
+2. Introduction: women play many important roles.
+3. Body: in the family (they care for children and the home); in the economy (they farm and trade in the market); in culture (they lead dances and women's associations).
+4. Conclusion: women are the backbone of our society and deserve respect and education.
+
+**Answer:** Title → introduction → family → economy → culture → conclusion
+
+**Paper task** (draft; not marked by the app, mastery stays unknown)
+
+> Write a brief account (about 150 words) in your exercise book about the role of women in your culture. Use paragraphs, examples and linking words.
+
+Model answer, shown after the pupil has written:
+
+> The role of women in our culture
+
+In my village in the North West, women play many important roles.
+
+Firstly, women care for the family. They cook, keep the home clean and look after the children and the old.
+
+In addition, women are the main farmers. They grow maize, beans and cocoyams, and on market days they sell their crops. Many of them save money in njangi groups and pay their children's school fees.
+
+Finally, women keep our culture alive. They lead dances at festivals, teach songs to the young and, in some places, the queen mother advises the Fon.
+
+In conclusion, women are the backbone of our society. They deserve respect and the same chance to go to school as men.  
+
+Self-check list:
+
+- [ ] My account has a title.
+- [ ] My introduction says what I will write about.
+- [ ] Each body paragraph is about one role, with examples.
+- [ ] I used linking words.
+- [ ] I used the simple present for general facts.
+- [ ] My conclusion gives my opinion.
+- [ ] My sentences start with capitals and end with full stops.
+
+**Practice** `e2-88-order` · ordering, level 1 · **authored key**
+
+> Put the parts of the account in order.
+
+Shown as: Firstly, they care for the children and the home. · In conclusion, women are the backbone of our society. · In our culture, women play many important roles. · In addition, they grow food and trade in the market. · The role of women in our culture · Finally, they lead dances and women's associations.
+Correct order: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society.
+
+Full working after a second miss:
+
+> The correct order is: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society..  
+
+> Put the parts of the account in order.
+
+Shown as: In addition, they grow food and trade in the market. · Firstly, they care for the children and the home. · The role of women in our culture · In our culture, women play many important roles. · In conclusion, women are the backbone of our society. · Finally, they lead dances and women's associations.
+Correct order: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society.
+
+Full working after a second miss:
+
+> The correct order is: The role of women in our culture → In our culture, women play many important roles. → Firstly, they care for the children and the home. → In addition, they grow food and trade in the market. → Finally, they lead dances and women's associations. → In conclusion, women are the backbone of our society..  
+
+## Lesson 89: Speaking and Reading-Talking about local languages/ mother tongues and the importance of mother tongues. Read a text on national languages and cultures
+
+Prerequisites: none · Skill: e2-89 (Talking about national languages; reading about a mother tongue)
+
+**Note** (draft)
+
+> Text: Speaking the language of my grandmother
+> When Ngum visited her grandmother in Kom, she felt like a stranger. Grandmother spoke only the Kom language, and Ngum, who had grown up in Yaoundé, spoke English and French. They smiled at each other but could not share stories. Back in town, Ngum asked her father to teach her. Every evening they practised greetings, proverbs and songs. At school, she joined the national languages class. The next holiday, she greeted her grandmother in Kom. The old woman cried with joy and told her the story of their family until midnight. “A language is a key,” Ngum wrote in her diary. “It opens the door to my people's wisdom.”
+> 
+> Cameroon has more than 250 national languages (Ewondo, Duala, Fulfulde, Kom…) and two official languages, English and French. A mother tongue is the first language learnt at home.
+
+**Card c89-1** (draft)
+
+> A mother tongue is the first language a child learns at home.
+>
+> _Kom, Ewondo, Duala are national languages._  
+
+Check question: `e2-89-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Text “Speaking the language of my grandmother”: which language did the grandmother speak?
+
+- ◻️ Fulfulde  
+  _↳ feedback if chosen: Not in the text._
+- ✅ Kom
+- ◻️ French  
+  _↳ feedback if chosen: Ngum spoke French._
+- ◻️ English  
+  _↳ feedback if chosen: Ngum spoke English._
+
+Full working after a second miss:
+
+> She spoke only Kom.  
+> So the answer is “Kom”.  
+
+**Card c89-2** (draft)
+
+> Cameroon has more than 250 national languages and two official languages.
+>
+> _English and French are official._  
+
+Check question: `e2-89-facts` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is a mother tongue?
+
+- ◻️ a sign language only  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a language spoken only by mothers  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ a foreign language  
+  _↳ feedback if chosen: It is learnt at home._
+- ✅ the first language a child learns at home
+
+Full working after a second miss:
+
+> The home language.  
+> So the answer is “the first language a child learns at home”.  
+
+**Card c89-3** (draft)
+
+> National languages carry culture, proverbs and history.
+>
+> _A language is a key._  
+
+Check question: `e2-89-idea-card` · multiple choice, level 1 · **authored key**
+
+> What does Ngum mean by “A language is a key”?
+
+- ◻️ Languages are useless.  
+  _↳ feedback if chosen: She says the opposite._
+- ✅ A language opens the way to a people's wisdom and culture.
+- ◻️ A language opens real doors.  
+  _↳ feedback if chosen: It is a comparison._
+- ◻️ Keys can speak.  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> She learnt her family's story.  
+> So the answer is “A language opens the way to a people's wisdom and culture.”.  
+
+**Worked example** (draft)
+
+> Why did Ngum feel like a stranger in Kom?
+
+1. Her grandmother spoke only the Kom language.
+2. Ngum spoke English and French, so they could not share stories.
+
+**Answer:** Because she could not speak her grandmother's language.
+
+**Practice** `e2-89-comp` · multiple choice, level 1 · **authored key**
+
+> Text “Speaking the language of my grandmother”: which language did the grandmother speak?
+
+- ◻️ Fulfulde  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ English  
+  _↳ feedback if chosen: Ngum spoke English._
+- ◻️ French  
+  _↳ feedback if chosen: Ngum spoke French._
+- ✅ Kom
+
+Full working after a second miss:
+
+> She spoke only Kom.  
+> So the answer is “Kom”.  
+
+> Text “Speaking the language of my grandmother”: who taught Ngum the language?
+
+- ◻️ her grandmother at first  
+  _↳ feedback if chosen: She could not talk to her at first._
+- ◻️ nobody  
+  _↳ feedback if chosen: Her father taught her._
+- ◻️ a stranger  
+  _↳ feedback if chosen: Not in the text._
+- ✅ her father
+
+Full working after a second miss:
+
+> They practised every evening.  
+> So the answer is “her father”.  
+
+**Practice** `e2-89-facts` · multiple choice, level 1 · **authored key**
+
+> What are Cameroon's two official languages?
+
+- ◻️ Fulfulde and Bassa  
+  _↳ feedback if chosen: Those are national languages._
+- ✅ English and French
+- ◻️ Spanish and German  
+  _↳ feedback if chosen: Not official in Cameroon._
+- ◻️ Duala and Ewondo  
+  _↳ feedback if chosen: Those are national languages._
+
+Full working after a second miss:
+
+> The two official languages.  
+> So the answer is “English and French”.  
+
+> What are Cameroon's two official languages?
+
+- ◻️ Fulfulde and Bassa  
+  _↳ feedback if chosen: Those are national languages._
+- ◻️ Spanish and German  
+  _↳ feedback if chosen: Not official in Cameroon._
+- ✅ English and French
+- ◻️ Duala and Ewondo  
+  _↳ feedback if chosen: Those are national languages._
+
+Full working after a second miss:
+
+> The two official languages.  
+> So the answer is “English and French”.  
+
+**Practice** `e2-89-idea` · multiple choice, level 2 · **authored key**
+
+> What does Ngum mean by “A language is a key”?
+
+- ✅ A language opens the way to a people's wisdom and culture.
+- ◻️ Languages are useless.  
+  _↳ feedback if chosen: She says the opposite._
+- ◻️ A language opens real doors.  
+  _↳ feedback if chosen: It is a comparison._
+- ◻️ Keys can speak.  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> She learnt her family's story.  
+> So the answer is “A language opens the way to a people's wisdom and culture.”.  
+
+> What does Ngum mean by “A language is a key”?
+
+- ✅ A language opens the way to a people's wisdom and culture.
+- ◻️ Languages are useless.  
+  _↳ feedback if chosen: She says the opposite._
+- ◻️ A language opens real doors.  
+  _↳ feedback if chosen: It is a comparison._
+- ◻️ Keys can speak.  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> She learnt her family's story.  
+> So the answer is “A language opens the way to a people's wisdom and culture.”.  
+
+**Practice** `e2-89-spot` · spot the error, level 3 · **authored key**
+
+> Which statement does not agree with the text?
+
+- ◻️ Her grandmother was very happy.
+- ◻️ Ngum grew up in Yaoundé.
+- ◻️ She joined a national languages class.
+- ✅ Ngum decided never to visit Kom again.  
+  _↳ explanation: She learnt the language and went back._
+
+Full working after a second miss:
+
+> The wrong statement is “Ngum decided never to visit Kom again.”.  
+> She learnt the language and went back.  
+
+> Which statement does not agree with the text?
+
+- ◻️ Her grandmother was very happy.
+- ◻️ Her father taught her.
+- ◻️ Ngum grew up in Yaoundé.
+- ✅ The grandmother spoke English and French.  
+  _↳ explanation: She spoke only Kom._
+
+Full working after a second miss:
+
+> The wrong statement is “The grandmother spoke English and French.”.  
+> She spoke only Kom.  
+
+## Lesson 90: Grammar 1- Gerunds
+
+Prerequisites: none · Skill: e2-90 (Gerunds)
+
+**Note** (draft)
+
+> A gerund is the -ing form of a verb used as a noun: “Singing is fun.”
+> A gerund can be:
+> • the subject: “Learning a language takes time.”
+> • the object after some verbs: enjoy, like, love, hate, finish, stop, avoid, keep, practise, mind: “She enjoys dancing.” “Stop talking!”
+> • after a preposition: “He is good at drumming.” “Thank you for helping me.” “I am interested in learning Duala.”
+> Spelling: dance → dancing (drop e); swim → swimming (double the consonant); play → playing.
+
+**Card c90-1** (draft)
+
+> A gerund is the -ing form used as a noun.
+>
+> _Swimming is good exercise._  
+
+Check question: `e2-90-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In “Dancing makes me happy”, what is “Dancing”?
+
+- ◻️ an adverb  
+  _↳ feedback if chosen: It does not describe a verb._
+- ◻️ a verb in the past  
+  _↳ feedback if chosen: It is an -ing form._
+- ✅ a gerund used as the subject
+- ◻️ an adjective  
+  _↳ feedback if chosen: It acts as a noun._
+
+Full working after a second miss:
+
+> It is the subject.  
+> So the answer is “a gerund used as the subject”.  
+
+**Card c90-2** (draft)
+
+> After enjoy, finish, stop, avoid, practise we use a gerund.
+>
+> _He finished writing his song._  
+
+Check question: `e2-90-after` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Write the gerund.
+
+Sentence: **Please stop ___ (make) noise.**
+Typed answer accepted (case and extra spaces ignored): **making**
+
+Full working after a second miss:
+
+> After this verb we use the -ing form.  
+> So: making.  
+
+**Card c90-3** (draft)
+
+> After a preposition we use a gerund.
+>
+> _She is good at drawing._  
+
+Check question: `e2-90-prep-card` · fill the blank, level 1 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **Thank you for ___ me with my homework.**
+- ◻️ helped  
+  _↳ feedback if chosen: After a preposition, use -ing._
+- ✅ helping
+- ◻️ help  
+  _↳ feedback if chosen: After a preposition, use -ing._
+
+Full working after a second miss:
+
+> The missing word is “helping”.  
+> Thank you for helping me with my homework.  
+
+**Worked example** (draft)
+
+> Complete with a gerund: “My sister enjoys ___ (sing) in the choir.”
+
+1. After “enjoy” we use a gerund (-ing form).
+2. sing → singing.
+
+**Answer:** singing
+
+**Practice** `e2-90-what` · multiple choice, level 1 · **authored key**
+
+> In “Dancing makes me happy”, what is “Dancing”?
+
+- ◻️ an adjective  
+  _↳ feedback if chosen: It acts as a noun._
+- ◻️ a verb in the past  
+  _↳ feedback if chosen: It is an -ing form._
+- ✅ a gerund used as the subject
+- ◻️ an adverb  
+  _↳ feedback if chosen: It does not describe a verb._
+
+Full working after a second miss:
+
+> It is the subject.  
+> So the answer is “a gerund used as the subject”.  
+
+> Which sentence has a gerund?
+
+- ◻️ I read a book yesterday.  
+  _↳ feedback if chosen: That is the past tense._
+- ◻️ She has read the text.  
+  _↳ feedback if chosen: That is the present perfect._
+- ✅ Reading improves your English.
+- ◻️ Read the text now.  
+  _↳ feedback if chosen: That is an order._
+
+Full working after a second miss:
+
+> Reading is a noun here.  
+> So the answer is “Reading improves your English.”.  
+
+**Practice** `e2-90-after` · fill the blank, level 1 · **authored key**
+
+> Write the gerund.
+
+Sentence: **My brother enjoys ___ (play) the guitar.**
+Typed answer accepted (case and extra spaces ignored): **playing**
+
+Full working after a second miss:
+
+> After this verb we use the -ing form.  
+> So: playing.  
+
+> Write the gerund.
+
+Sentence: **She finished ___ (write) her report.**
+Typed answer accepted (case and extra spaces ignored): **writing**
+
+Full working after a second miss:
+
+> After this verb we use the -ing form.  
+> So: writing.  
+
+**Practice** `e2-90-prep` · fill the blank, level 2 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **She is good at ___ pictures.**
+- ◻️ draw  
+  _↳ feedback if chosen: After a preposition, use -ing._
+- ✅ drawing
+- ◻️ to draw  
+  _↳ feedback if chosen: After a preposition, use -ing._
+
+Full working after a second miss:
+
+> The missing word is “drawing”.  
+> She is good at drawing pictures.  
+
+> Choose the correct form.
+
+Sentence: **Thank you for ___ me with my homework.**
+- ✅ helping
+- ◻️ helped  
+  _↳ feedback if chosen: After a preposition, use -ing._
+- ◻️ help  
+  _↳ feedback if chosen: After a preposition, use -ing._
+
+Full working after a second miss:
+
+> The missing word is “helping”.  
+> Thank you for helping me with my homework.  
+
+**Practice** `e2-90-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence is wrong?
+
+- ✅ She is interested in learn music.  
+  _↳ explanation: After a preposition: learning._
+- ◻️ Stop talking, please.
+- ◻️ He is good at drumming.
+- ◻️ Swimming is good exercise.
+
+Full working after a second miss:
+
+> The wrong statement is “She is interested in learn music.”.  
+> After a preposition: learning.  
+
+> Which sentence is wrong?
+
+- ◻️ Swimming is good exercise.
+- ◻️ She enjoys singing.
+- ✅ He finished to write the song.  
+  _↳ explanation: After finish: writing._
+- ◻️ Stop talking, please.
+
+Full working after a second miss:
+
+> The wrong statement is “He finished to write the song.”.  
+> After finish: writing.  
+
+## Lesson 91: Grammar 2-Basic sentence structure (SVO structure)
+
+Prerequisites: none · Skill: e2-91 (Basic sentence structure: subject, verb, object)
+
+**Note** (draft)
+
+> An English sentence usually follows the order Subject – Verb – Object (SVO).
+> • The subject is who or what does the action: “The choir”.
+> • The verb is the action or state: “sang”.
+> • The object receives the action: “a traditional song”.
+> → “The choir (S) sang (V) a traditional song (O).”
+> Some sentences have no object: “The baby sleeps.” (S V). Others add a complement or an adverbial: “My uncle is a musician.” (S V C); “We danced in the hall.” (S V A).
+> In questions the order changes: “Did the choir sing?” Adjectives come before the noun: “a beautiful song”, not “a song beautiful”.
+
+**Card c91-1** (draft)
+
+> Subject: who or what does the action.
+>
+> _The drummer played._  
+
+Check question: `e2-91-subj` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In “The children sang a song.”, what is the subject?
+
+- ◻️ a song  
+  _↳ feedback if chosen: That is the object._
+- ◻️ song  
+  _↳ feedback if chosen: Part of the object._
+- ✅ The children
+- ◻️ sang  
+  _↳ feedback if chosen: That is the verb._
+
+Full working after a second miss:
+
+> They do the action.  
+> So the answer is “The children”.  
+
+**Card c91-2** (draft)
+
+> The usual order is subject, verb, object.
+>
+> _Tabe (S) watched (V) a film (O)._  
+
+Check question: `e2-91-obj` · multiple choice, level 1 · **authored key**, reused from practice
+
+> In “The director filmed the festival.”, what is the object?
+
+- ◻️ filmed  
+  _↳ feedback if chosen: That is the verb._
+- ✅ the festival
+- ◻️ director  
+  _↳ feedback if chosen: Part of the subject._
+- ◻️ The director  
+  _↳ feedback if chosen: That is the subject._
+
+Full working after a second miss:
+
+> It receives the action.  
+> So the answer is “the festival”.  
+
+**Card c91-3** (draft)
+
+> Adjectives come before the noun.
+>
+> _a famous actor_  
+
+Check question: `e2-91-wo-card` · word order, level 1 · **authored key**
+
+> Put the words in the right order (subject, verb, object).
+
+Tiles: plays · Our · teacher · the · guitar · well (then “.”)
+Answer: **Our teacher plays the guitar well.**
+
+Full working after a second miss:
+
+> The sentence is: Our teacher plays the guitar well.  
+
+**Worked example** (draft)
+
+> Label the parts of “Ngum plays the balafon.”
+
+1. Who does the action? Ngum — the subject.
+2. The action is “plays” — the verb; what is played? “the balafon” — the object.
+
+**Answer:** Ngum (S) plays (V) the balafon (O).
+
+**Practice** `e2-91-subj` · multiple choice, level 1 · **authored key**
+
+> In “The actress won a prize.”, what is the subject?
+
+- ◻️ won  
+  _↳ feedback if chosen: That is the verb._
+- ✅ The actress
+- ◻️ a prize  
+  _↳ feedback if chosen: That is the object._
+- ◻️ prize  
+  _↳ feedback if chosen: Part of the object._
+
+Full working after a second miss:
+
+> She does the action.  
+> So the answer is “The actress”.  
+
+> In “The actress won a prize.”, what is the subject?
+
+- ◻️ a prize  
+  _↳ feedback if chosen: That is the object._
+- ✅ The actress
+- ◻️ prize  
+  _↳ feedback if chosen: Part of the object._
+- ◻️ won  
+  _↳ feedback if chosen: That is the verb._
+
+Full working after a second miss:
+
+> She does the action.  
+> So the answer is “The actress”.  
+
+**Practice** `e2-91-obj` · multiple choice, level 1 · **authored key**
+
+> In “Bih bought a new guitar.”, what is the object?
+
+- ◻️ Bih  
+  _↳ feedback if chosen: That is the subject._
+- ◻️ bought  
+  _↳ feedback if chosen: That is the verb._
+- ✅ a new guitar
+- ◻️ new  
+  _↳ feedback if chosen: That is an adjective._
+
+Full working after a second miss:
+
+> It receives the action.  
+> So the answer is “a new guitar”.  
+
+> In “The director filmed the festival.”, what is the object?
+
+- ◻️ filmed  
+  _↳ feedback if chosen: That is the verb._
+- ◻️ director  
+  _↳ feedback if chosen: Part of the subject._
+- ✅ the festival
+- ◻️ The director  
+  _↳ feedback if chosen: That is the subject._
+
+Full working after a second miss:
+
+> It receives the action.  
+> So the answer is “the festival”.  
+
+**Practice** `e2-91-wo` · word order, level 2 · **authored key**
+
+> Put the words in the right order (subject, verb, object).
+
+Tiles: visited · school · famous · The · our · actor (then “.”)
+Answer: **The famous actor visited our school.**
+
+Full working after a second miss:
+
+> The sentence is: The famous actor visited our school.  
+
+> Put the words in the right order (subject, verb, object).
+
+Tiles: well · plays · Our · guitar · teacher · the (then “.”)
+Answer: **Our teacher plays the guitar well.**
+
+Full working after a second miss:
+
+> The sentence is: Our teacher plays the guitar well.  
+
+**Practice** `e2-91-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence has the wrong word order?
+
+- ◻️ The film started late.
+- ◻️ Tabe plays the drum.
+- ◻️ My sister is a singer.
+- ✅ Plays Tabe the drum.  
+  _↳ explanation: The subject comes first: Tabe plays the drum._
+
+Full working after a second miss:
+
+> The wrong statement is “Plays Tabe the drum.”.  
+> The subject comes first: Tabe plays the drum.  
+
+> Which sentence has the wrong word order?
+
+- ◻️ We watched a funny film.
+- ◻️ The film started late.
+- ✅ We watched a film funny.  
+  _↳ explanation: The adjective comes first: a funny film._
+- ◻️ Tabe plays the drum.
+
+Full working after a second miss:
+
+> The wrong statement is “We watched a film funny.”.  
+> The adjective comes first: a funny film.  
+
+## Lesson 92: Writing -Write messages about your culture
+
+Prerequisites: 89 · Skill: e2-92 (Writing short messages about my culture)
+
+**Note** (draft)
+
+> A short message gives information quickly: a note, a text message, a post, an invitation or a greeting card.
+> A good message has: who it is for (Dear …, Hi …); the main information (what, when, where); one or two details; a closing and your name.
+> Keep sentences short and clear. Use the right tone: friendly for friends, polite for adults.
+> Example: “Dear Tabe, our village festival is on Saturday 12 December at the palace. Come and see the masquerades and taste our achu! — Ngum”
+
+**Card c92-1** (draft)
+
+> Start with a greeting: Dear …, Hi …
+>
+> _Dear Tabe,_  
+
+Check question: `e2-92-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the message in order.
+
+Shown as: Our village festival is on Saturday at the palace. · Dear Tabe, · See you there! · Ngum · Come and see the masquerades and taste our achu!
+Correct order: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum
+
+Full working after a second miss:
+
+> The correct order is: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum.  
+
+**Card c92-2** (draft)
+
+> Give the main information: what, when and where.
+>
+> _The festival is on Saturday at the palace._  
+
+Check question: `e2-92-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the message in order.
+
+Shown as: Our village festival is on Saturday at the palace. · Come and see the masquerades and taste our achu! · Ngum · Dear Tabe, · See you there!
+Correct order: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum
+
+Full working after a second miss:
+
+> The correct order is: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum.  
+
+**Card c92-3** (draft)
+
+> Close and sign your name.
+>
+> _See you there! Ngum_  
+
+Check question: `e2-92-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the message in order.
+
+Shown as: Dear Tabe, · See you there! · Come and see the masquerades and taste our achu! · Our village festival is on Saturday at the palace. · Ngum
+Correct order: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum
+
+Full working after a second miss:
+
+> The correct order is: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum.  
+
+**Worked example** (draft)
+
+> Plan a short message inviting a friend to your village festival.
+
+1. Greeting: Dear Tabe,
+2. Main information: what (the festival), when (Saturday 12 December), where (at the palace).
+3. Detail: the masquerades and the food.
+4. Closing and name: See you there! Ngum
+
+**Answer:** Greeting → what, when, where → detail → closing and name
+
+**Paper task** (draft; not marked by the app, mastery stays unknown)
+
+> Write three short messages (about 40 words each) in your exercise book about your culture: an invitation to a festival, a greeting for a traditional ceremony, and a text to a friend explaining a proverb from your language.
+
+Model answer, shown after the pupil has written:
+
+> 1. Dear Tabe, our Lela festival is on Saturday 12 December at the Bali palace. Come and see the masquerades, the dancers and the Fon in his regalia. Bring your camera! — Ngum
+
+2. Dear Mama Ewane, congratulations on the birth of your grandson. May he grow strong and wise like his ancestors. With love, Ngum and family
+
+3. Hi Bih! In our language we say “One finger cannot pick up a stone.” It means we need each other to succeed. Let's work together on our project! — Ngum  
+
+Self-check list:
+
+- [ ] Each message starts with a greeting.
+- [ ] Each message gives the main information clearly.
+- [ ] My invitation says what, when and where.
+- [ ] I used the right tone for each reader.
+- [ ] Each message ends with my name.
+- [ ] My sentences are short and correct.
+
+**Practice** `e2-92-order` · ordering, level 1 · **authored key**
+
+> Put the parts of the message in order.
+
+Shown as: Dear Tabe, · See you there! · Ngum · Come and see the masquerades and taste our achu! · Our village festival is on Saturday at the palace.
+Correct order: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum
+
+Full working after a second miss:
+
+> The correct order is: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum.  
+
+> Put the parts of the message in order.
+
+Shown as: Ngum · Come and see the masquerades and taste our achu! · Our village festival is on Saturday at the palace. · See you there! · Dear Tabe,
+Correct order: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum
+
+Full working after a second miss:
+
+> The correct order is: Dear Tabe, → Our village festival is on Saturday at the palace. → Come and see the masquerades and taste our achu! → See you there! → Ngum.  
+
+## Lesson 93: Listening and Speaking-Listen to a dialogue about Cameroonian artists, movie stars and talk about the film industry, movies and celebrities
+
+Prerequisites: none · Skill: e2-93 (Talking about the Cameroon film industry)
+
+**Note** (draft)
+
+> Dialogue: After the screening
+> AYUK: That film was great! I didn't know Cameroonian films were so good.
+> MRS TANYI: Our film industry is growing. Some people call it Collywood. Young directors make films with small budgets and share them on television and online.
+> AYUK: Who works on a film?
+> MRS TANYI: The scriptwriter writes the story, the director guides the actors, the cameraman films, and the editor puts the scenes together. Actors play the characters.
+> AYUK: Are there film festivals here?
+> MRS TANYI: Yes — the Écrans Noirs festival in Yaoundé shows African films every year. The industry still needs more cinemas and money, but it creates jobs and tells our own stories.
+> 
+> Useful words: a screening (showing a film), a director, a scriptwriter, a producer, a cast (all the actors), a scene, a budget.
+
+**Card c93-1** (draft)
+
+> The scriptwriter writes the story; the director guides the actors.
+>
+> _The editor puts the scenes together._  
+
+Check question: `e2-93-jobs` · matching, level 1 · **authored key**, reused from practice
+
+> Match each job to what the person does.
+
+Right-hand side (shuffled): plays a character · guides the actors · writes the story · films the scenes
+- actor → **plays a character**
+- scriptwriter → **writes the story**
+- cameraman → **films the scenes**
+- director → **guides the actors**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> actor → plays a character  
+> scriptwriter → writes the story  
+> cameraman → films the scenes  
+> director → guides the actors  
+
+**Card c93-2** (draft)
+
+> Some people call the Cameroon film industry Collywood.
+>
+> _Films are shown on TV and online._  
+
+Check question: `e2-93-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Dialogue “After the screening”: which festival shows African films in Yaoundé?
+
+- ◻️ Ngondo  
+  _↳ feedback if chosen: That is a Sawa festival._
+- ✅ Écrans Noirs
+- ◻️ Lela  
+  _↳ feedback if chosen: That is a Bali festival._
+- ◻️ Nyem-Nyem  
+  _↳ feedback if chosen: That is an Adamawa festival._
+
+Full working after a second miss:
+
+> It shows films every year.  
+> So the answer is “Écrans Noirs”.  
+
+**Card c93-3** (draft)
+
+> The film industry creates jobs and tells our own stories.
+>
+> _It needs more cinemas and money._  
+
+Check question: `e2-93-why-card` · multiple choice, level 1 · **authored key**
+
+> What does the film industry still need, according to Mrs Tanyi?
+
+- ◻️ no stories  
+  _↳ feedback if chosen: Not in the dialogue._
+- ✅ more cinemas and money
+- ◻️ fewer actors  
+  _↳ feedback if chosen: Not in the dialogue._
+- ◻️ less television  
+  _↳ feedback if chosen: Not in the dialogue._
+
+Full working after a second miss:
+
+> She says so at the end.  
+> So the answer is “more cinemas and money”.  
+
+**Worked example** (draft)
+
+> According to Mrs Tanyi, what does a director do?
+
+1. She lists the jobs on a film.
+2. She says the director guides the actors.
+
+**Answer:** The director guides the actors.
+
+**Practice** `e2-93-jobs` · matching, level 1 · **authored key**
+
+> Match each job to what the person does.
+
+Right-hand side (shuffled): puts the scenes together · films the scenes · writes the story · guides the actors
+- scriptwriter → **writes the story**
+- editor → **puts the scenes together**
+- director → **guides the actors**
+- cameraman → **films the scenes**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> scriptwriter → writes the story  
+> editor → puts the scenes together  
+> director → guides the actors  
+> cameraman → films the scenes  
+
+> Match each job to what the person does.
+
+Right-hand side (shuffled): films the scenes · writes the story · puts the scenes together · guides the actors
+- director → **guides the actors**
+- editor → **puts the scenes together**
+- scriptwriter → **writes the story**
+- cameraman → **films the scenes**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> director → guides the actors  
+> editor → puts the scenes together  
+> scriptwriter → writes the story  
+> cameraman → films the scenes  
+
+**Practice** `e2-93-comp` · multiple choice, level 1 · **authored key**
+
+> Dialogue “After the screening”: which festival shows African films in Yaoundé?
+
+- ✅ Écrans Noirs
+- ◻️ Nyem-Nyem  
+  _↳ feedback if chosen: That is an Adamawa festival._
+- ◻️ Lela  
+  _↳ feedback if chosen: That is a Bali festival._
+- ◻️ Ngondo  
+  _↳ feedback if chosen: That is a Sawa festival._
+
+Full working after a second miss:
+
+> It shows films every year.  
+> So the answer is “Écrans Noirs”.  
+
+> Dialogue “After the screening”: which festival shows African films in Yaoundé?
+
+- ◻️ Lela  
+  _↳ feedback if chosen: That is a Bali festival._
+- ◻️ Nyem-Nyem  
+  _↳ feedback if chosen: That is an Adamawa festival._
+- ✅ Écrans Noirs
+- ◻️ Ngondo  
+  _↳ feedback if chosen: That is a Sawa festival._
+
+Full working after a second miss:
+
+> It shows films every year.  
+> So the answer is “Écrans Noirs”.  
+
+**Practice** `e2-93-why` · multiple choice, level 2 · **authored key**
+
+> Why is the film industry important?
+
+- ◻️ It stops people reading.  
+  _↳ feedback if chosen: Not in the dialogue._
+- ✅ It creates jobs and tells our own stories.
+- ◻️ It has no value.  
+  _↳ feedback if chosen: She says the opposite._
+- ◻️ It closes schools.  
+  _↳ feedback if chosen: Not true._
+
+Full working after a second miss:
+
+> Jobs and culture.  
+> So the answer is “It creates jobs and tells our own stories.”.  
+
+> What does the film industry still need, according to Mrs Tanyi?
+
+- ✅ more cinemas and money
+- ◻️ no stories  
+  _↳ feedback if chosen: Not in the dialogue._
+- ◻️ less television  
+  _↳ feedback if chosen: Not in the dialogue._
+- ◻️ fewer actors  
+  _↳ feedback if chosen: Not in the dialogue._
+
+Full working after a second miss:
+
+> She says so at the end.  
+> So the answer is “more cinemas and money”.  
+
+**Practice** `e2-93-spot` · spot the error, level 3 · **authored key**
+
+> Which statement does not agree with the dialogue?
+
+- ◻️ Films are shared online.
+- ◻️ The editor puts scenes together.
+- ✅ The director writes the story.  
+  _↳ explanation: The scriptwriter writes the story._
+- ◻️ The film industry is growing.
+
+Full working after a second miss:
+
+> The wrong statement is “The director writes the story.”.  
+> The scriptwriter writes the story.  
+
+> Which statement does not agree with the dialogue?
+
+- ◻️ The film industry is growing.
+- ✅ The director writes the story.  
+  _↳ explanation: The scriptwriter writes the story._
+- ◻️ Écrans Noirs is in Yaoundé.
+- ◻️ The editor puts scenes together.
+
+Full working after a second miss:
+
+> The wrong statement is “The director writes the story.”.  
+> The scriptwriter writes the story.  
+
+## Lesson 94: Reading- Read biographies of famous actors and artists then answer questions
+
+Prerequisites: 93 · Skill: e2-94 (Reading biographies of artists and actors)
+
+**Note** (draft)
+
+> A biography is the story of a person's life written by someone else. It usually follows time order: birth and childhood, education, career, achievements, and sometimes death.
+> It uses the simple past and time words.
+> 
+> Text: Two lives in art
+> Manu Dibango was born in Douala in 1933. As a young man he went to study in France, where he learnt the saxophone and the piano. In 1972 his song “Soul Makossa” became a world hit and made makossa famous. He was called “Papa Groove”. He died in 2020.
+> Adah Mbeng (a model biography written for this lesson) grew up in Bamenda. She loved acting in school plays. After secondary school she joined a theatre group, then acted in short films. Her first feature film won a prize in Yaoundé. Today she trains young actors: “Talent is a seed; work is the rain.”
+
+**Card c94-1** (draft)
+
+> A biography tells a person's life in time order.
+>
+> _Birth, education, career, achievements._  
+
+Check question: `e2-94-comp` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Text “Two lives in art”: which instrument did Manu Dibango learn in France?
+
+- ✅ the saxophone (and the piano)
+- ◻️ the talking drum  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ the violin only  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ the balafon  
+  _↳ feedback if chosen: Not in the text._
+
+Full working after a second miss:
+
+> He learnt the saxophone and the piano.  
+> So the answer is “the saxophone (and the piano)”.  
+
+**Card c94-2** (draft)
+
+> Biographies use the simple past and time words.
+>
+> _In 1972 his song became a hit._  
+
+Check question: `e2-94-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put Adah Mbeng's life in order.
+
+Shown as: She grew up in Bamenda. · Her first feature film won a prize. · She acted in school plays. · Today she trains young actors. · She joined a theatre group. · She acted in short films.
+Correct order: She grew up in Bamenda. → She acted in school plays. → She joined a theatre group. → She acted in short films. → Her first feature film won a prize. → Today she trains young actors.
+
+Full working after a second miss:
+
+> The correct order is: She grew up in Bamenda. → She acted in school plays. → She joined a theatre group. → She acted in short films. → Her first feature film won a prize. → Today she trains young actors..  
+
+**Card c94-3** (draft)
+
+> Read for facts: who, when, where, what they did.
+>
+> _Adah Mbeng grew up in Bamenda._  
+
+Check question: `e2-94-idea-card` · multiple choice, level 1 · **authored key**
+
+> What does Adah Mbeng mean by “Talent is a seed; work is the rain”?
+
+- ◻️ Actors should be farmers.  
+  _↳ feedback if chosen: It is a comparison._
+- ◻️ Seeds need no water.  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ Talent grows only with hard work.
+- ◻️ Rain stops films.  
+  _↳ feedback if chosen: Not the meaning._
+
+Full working after a second miss:
+
+> Work makes talent grow.  
+> So the answer is “Talent grows only with hard work.”.  
+
+**Worked example** (draft)
+
+> When and where was Manu Dibango born?
+
+1. Look at the first sentence of his biography.
+2. “Manu Dibango was born in Douala in 1933.”
+
+**Answer:** In Douala, in 1933.
+
+**Practice** `e2-94-comp` · multiple choice, level 1 · **authored key**
+
+> Text “Two lives in art”: where did Adah Mbeng grow up?
+
+- ◻️ in Paris  
+  _↳ feedback if chosen: Not in the text._
+- ✅ in Bamenda
+- ◻️ in Douala  
+  _↳ feedback if chosen: That is where Manu Dibango was born._
+- ◻️ in Garoua  
+  _↳ feedback if chosen: Not in the text._
+
+Full working after a second miss:
+
+> The text says Bamenda.  
+> So the answer is “in Bamenda”.  
+
+> Text “Two lives in art”: which instrument did Manu Dibango learn in France?
+
+- ◻️ the violin only  
+  _↳ feedback if chosen: Not in the text._
+- ◻️ the talking drum  
+  _↳ feedback if chosen: Not in the text._
+- ✅ the saxophone (and the piano)
+- ◻️ the balafon  
+  _↳ feedback if chosen: Not in the text._
+
+Full working after a second miss:
+
+> He learnt the saxophone and the piano.  
+> So the answer is “the saxophone (and the piano)”.  
+
+**Practice** `e2-94-order` · ordering, level 1 · **authored key**
+
+> Put Adah Mbeng's life in order.
+
+Shown as: She acted in short films. · She joined a theatre group. · Her first feature film won a prize. · She grew up in Bamenda. · Today she trains young actors. · She acted in school plays.
+Correct order: She grew up in Bamenda. → She acted in school plays. → She joined a theatre group. → She acted in short films. → Her first feature film won a prize. → Today she trains young actors.
+
+Full working after a second miss:
+
+> The correct order is: She grew up in Bamenda. → She acted in school plays. → She joined a theatre group. → She acted in short films. → Her first feature film won a prize. → Today she trains young actors..  
+
+> Put Adah Mbeng's life in order.
+
+Shown as: She grew up in Bamenda. · She joined a theatre group. · She acted in short films. · She acted in school plays. · Today she trains young actors. · Her first feature film won a prize.
+Correct order: She grew up in Bamenda. → She acted in school plays. → She joined a theatre group. → She acted in short films. → Her first feature film won a prize. → Today she trains young actors.
+
+Full working after a second miss:
+
+> The correct order is: She grew up in Bamenda. → She acted in school plays. → She joined a theatre group. → She acted in short films. → Her first feature film won a prize. → Today she trains young actors..  
+
+**Practice** `e2-94-idea` · multiple choice, level 2 · **authored key**
+
+> What does Adah Mbeng mean by “Talent is a seed; work is the rain”?
+
+- ◻️ Seeds need no water.  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ Actors should be farmers.  
+  _↳ feedback if chosen: It is a comparison._
+- ◻️ Rain stops films.  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ Talent grows only with hard work.
+
+Full working after a second miss:
+
+> Work makes talent grow.  
+> So the answer is “Talent grows only with hard work.”.  
+
+> What does Adah Mbeng mean by “Talent is a seed; work is the rain”?
+
+- ◻️ Seeds need no water.  
+  _↳ feedback if chosen: Not the meaning._
+- ◻️ Rain stops films.  
+  _↳ feedback if chosen: Not the meaning._
+- ✅ Talent grows only with hard work.
+- ◻️ Actors should be farmers.  
+  _↳ feedback if chosen: It is a comparison._
+
+Full working after a second miss:
+
+> Work makes talent grow.  
+> So the answer is “Talent grows only with hard work.”.  
+
+**Practice** `e2-94-spot` · spot the error, level 3 · **authored key**
+
+> Which statement does not agree with the text?
+
+- ◻️ “Soul Makossa” was a hit.
+- ◻️ Adah Mbeng joined a theatre group.
+- ✅ Adah Mbeng's first film won nothing.  
+  _↳ explanation: It won a prize._
+- ◻️ Manu Dibango was born in Douala.
+
+Full working after a second miss:
+
+> The wrong statement is “Adah Mbeng's first film won nothing.”.  
+> It won a prize.  
+
+> Which statement does not agree with the text?
+
+- ◻️ “Soul Makossa” was a hit.
+- ✅ Manu Dibango learnt the saxophone in Bamenda.  
+  _↳ explanation: He learnt it in France._
+- ◻️ Manu Dibango was born in Douala.
+- ◻️ Adah Mbeng joined a theatre group.
+
+Full working after a second miss:
+
+> The wrong statement is “Manu Dibango learnt the saxophone in Bamenda.”.  
+> He learnt it in France.  
+
+## Lesson 95: Vocabulary- Words related to movies and entertainment
+
+Prerequisites: 93 · Skill: e2-95 (Words about films and entertainment)
+
+**Note** (draft)
+
+> Words about films:
+> • kinds of film: an action film, a comedy (funny), a drama (serious), a documentary (real facts), a cartoon (animated), a horror film, a love story;
+> • people: the cast, the hero / heroine, the villain (the bad character), an extra, a stuntman, the audience (people watching), a critic;
+> • things: the plot (the story), a scene, the soundtrack (the music), subtitles (written words at the bottom of the screen), a trailer (a short preview), a sequel (the next film), a premiere (the first showing), a box office hit;
+> • entertainment: a concert, a show, a talent contest, a comedy show, a stage, an audience, to applaud, to rehearse.
+
+**Card c95-1** (draft)
+
+> A comedy is funny; a documentary shows real facts; a cartoon is animated.
+>
+> _We laughed at the comedy._  
+
+Check question: `e2-95-kind` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What kind of film is it? A film with drawn or computer-made moving pictures.
+
+- ◻️ a drama  
+  _↳ feedback if chosen: That is serious._
+- ◻️ a documentary  
+  _↳ feedback if chosen: It shows real facts._
+- ✅ a cartoon
+- ◻️ a love story  
+  _↳ feedback if chosen: That is about romance._
+
+Full working after a second miss:
+
+> Cartoons are animated.  
+> So the answer is “a cartoon”.  
+
+**Card c95-2** (draft)
+
+> The plot is the story; the villain is the bad character.
+>
+> _The hero defeats the villain._  
+
+Check question: `e2-95-cl` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the word that fits.
+
+Sentence: **In the end, the hero caught the ___.**
+- ✅ villain
+- ◻️ audience  
+  _↳ feedback if chosen: The audience watches._
+- ◻️ soundtrack  
+  _↳ feedback if chosen: The soundtrack is music._
+
+Full working after a second miss:
+
+> The missing word is “villain”.  
+> In the end, the hero caught the villain.  
+
+**Card c95-3** (draft)
+
+> Subtitles are written words at the bottom of the screen.
+>
+> _The film had English subtitles._  
+
+Check question: `e2-95-match-card` · matching, level 1 · **authored key**
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a short preview of a film · written words at the bottom of the screen · the music of a film · the next film continuing the story
+- sequel → **the next film continuing the story**
+- soundtrack → **the music of a film**
+- subtitles → **written words at the bottom of the screen**
+- trailer → **a short preview of a film**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> sequel → the next film continuing the story  
+> soundtrack → the music of a film  
+> subtitles → written words at the bottom of the screen  
+> trailer → a short preview of a film  
+
+**Worked example** (draft)
+
+> What do we call a film that shows real facts about animals in the Dja reserve?
+
+1. The film shows real facts, not an invented story.
+2. A film of real facts is a documentary.
+
+**Answer:** a documentary
+
+**Practice** `e2-95-kind` · multiple choice, level 1 · **authored key**
+
+> What kind of film is it? A film with drawn or computer-made moving pictures.
+
+- ◻️ a documentary  
+  _↳ feedback if chosen: It shows real facts._
+- ◻️ a drama  
+  _↳ feedback if chosen: That is serious._
+- ✅ a cartoon
+- ◻️ a love story  
+  _↳ feedback if chosen: That is about romance._
+
+Full working after a second miss:
+
+> Cartoons are animated.  
+> So the answer is “a cartoon”.  
+
+> What kind of film is it? A film with drawn or computer-made moving pictures.
+
+- ✅ a cartoon
+- ◻️ a love story  
+  _↳ feedback if chosen: That is about romance._
+- ◻️ a documentary  
+  _↳ feedback if chosen: It shows real facts._
+- ◻️ a drama  
+  _↳ feedback if chosen: That is serious._
+
+Full working after a second miss:
+
+> Cartoons are animated.  
+> So the answer is “a cartoon”.  
+
+**Practice** `e2-95-cl` · fill the blank, level 1 · **authored key**
+
+> Choose the word that fits.
+
+Sentence: **The ___ of the film is about a girl who becomes a doctor.**
+- ◻️ trailer  
+  _↳ feedback if chosen: A trailer is a short preview._
+- ◻️ stage  
+  _↳ feedback if chosen: A stage is where actors perform live._
+- ✅ plot
+
+Full working after a second miss:
+
+> The missing word is “plot”.  
+> The plot of the film is about a girl who becomes a doctor.  
+
+> Choose the word that fits.
+
+Sentence: **The ___ of the film is about a girl who becomes a doctor.**
+- ◻️ trailer  
+  _↳ feedback if chosen: A trailer is a short preview._
+- ◻️ stage  
+  _↳ feedback if chosen: A stage is where actors perform live._
+- ✅ plot
+
+Full working after a second miss:
+
+> The missing word is “plot”.  
+> The plot of the film is about a girl who becomes a doctor.  
+
+**Practice** `e2-95-match` · matching, level 2 · **authored key**
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): the first showing of a film · written words at the bottom of the screen · the music of a film · a short preview of a film
+- premiere → **the first showing of a film**
+- trailer → **a short preview of a film**
+- soundtrack → **the music of a film**
+- subtitles → **written words at the bottom of the screen**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> premiere → the first showing of a film  
+> trailer → a short preview of a film  
+> soundtrack → the music of a film  
+> subtitles → written words at the bottom of the screen  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): the music of a film · a short preview of a film · the first showing of a film · the next film continuing the story
+- trailer → **a short preview of a film**
+- soundtrack → **the music of a film**
+- sequel → **the next film continuing the story**
+- premiere → **the first showing of a film**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> trailer → a short preview of a film  
+> soundtrack → the music of a film  
+> sequel → the next film continuing the story  
+> premiere → the first showing of a film  
+
+**Practice** `e2-95-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence uses a word wrongly?
+
+- ◻️ The comedy was very funny.
+- ◻️ The trailer showed the best scenes.
+- ✅ A documentary is an invented fairy tale.  
+  _↳ explanation: A documentary shows real facts._
+- ◻️ The audience clapped.
+
+Full working after a second miss:
+
+> The wrong statement is “A documentary is an invented fairy tale.”.  
+> A documentary shows real facts.  
+
+> Which sentence uses a word wrongly?
+
+- ✅ A documentary is an invented fairy tale.  
+  _↳ explanation: A documentary shows real facts._
+- ◻️ The villain stole the money.
+- ◻️ The audience clapped.
+- ◻️ The comedy was very funny.
+
+Full working after a second miss:
+
+> The wrong statement is “A documentary is an invented fairy tale.”.  
+> A documentary shows real facts.  
+
+## Lesson 96: Writing- Write about your most admired film actor/actress or artist
+
+Prerequisites: 94 · Skill: e2-96 (Writing about the artist I admire most)
+
+**Note** (draft)
+
+> When you write about a person you admire, you combine a short biography and your opinion.
+> Plan: a title; introduction (who the person is and why you chose them); body 1 (life and career: born, studied, first success); body 2 (achievements and qualities, with examples); conclusion (what you learn from them).
+> Use the simple past for the person's life and the simple present for your opinion: “She acted in…”; “I admire her because…”.
+> Useful phrases: I admire … because …; What I like most is …; He / She has taught me that …
+
+**Card c96-1** (draft)
+
+> Use the simple past for the person's life.
+>
+> _He was born in Douala._  
+
+Check question: `e2-96-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the composition in order.
+
+Shown as: She was born in Kumbo and sang in her church choir. · The artist I admire most · She has taught me that talent needs hard work. · Her songs about girls' education have won many prizes. · The artist I admire most is the singer Ngum Rose.
+Correct order: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work.
+
+Full working after a second miss:
+
+> The correct order is: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work..  
+
+**Card c96-2** (draft)
+
+> Use the simple present for your opinion.
+>
+> _I admire her because she works hard._  
+
+Check question: `e2-96-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the composition in order.
+
+Shown as: The artist I admire most · She has taught me that talent needs hard work. · The artist I admire most is the singer Ngum Rose. · Her songs about girls' education have won many prizes. · She was born in Kumbo and sang in her church choir.
+Correct order: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work.
+
+Full working after a second miss:
+
+> The correct order is: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work..  
+
+**Card c96-3** (draft)
+
+> End with what you learn from the person.
+>
+> _He has taught me never to give up._  
+
+Check question: `e2-96-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the parts of the composition in order.
+
+Shown as: The artist I admire most · She has taught me that talent needs hard work. · She was born in Kumbo and sang in her church choir. · Her songs about girls' education have won many prizes. · The artist I admire most is the singer Ngum Rose.
+Correct order: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work.
+
+Full working after a second miss:
+
+> The correct order is: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work..  
+
+**Worked example** (draft)
+
+> Plan a composition about the artist you admire most.
+
+1. Title: The artist I admire most.
+2. Introduction: name, what they do, why I chose them.
+3. First body paragraph: birth, education, first success (simple past).
+4. Second body paragraph: achievements and qualities, with examples. Conclusion: what I learn from them.
+
+**Answer:** Title → introduction → life → achievements → conclusion
+
+**Paper task** (draft; not marked by the app, mastery stays unknown)
+
+> Write a composition (about 150 words) in your exercise book about the Cameroonian film actor, actress or musician you admire most. Give facts about their life and explain why you admire them.
+
+Model answer, shown after the pupil has written:
+
+> The artist I admire most
+
+The artist I admire most is the singer Ngum Rose (a model artist for this exercise). I chose her because her songs give hope to young people.
+
+Ngum Rose was born in Kumbo. As a child, she sang in her church choir every Sunday. After secondary school, she studied music in Yaoundé and recorded her first song at the age of twenty.
+
+Her songs mix njang rhythms with modern guitars. In her best-known song she encourages parents to send girls to school. She has won prizes at music festivals and she gives free concerts in schools.
+
+I admire her because she is talented, hard-working and generous. She has taught me that talent needs hard work, and that art can change people's lives.  
+
+Self-check list:
+
+- [ ] My composition has a title.
+- [ ] My introduction says who the person is and why I chose them.
+- [ ] I used the simple past for the person's life.
+- [ ] I gave examples of their achievements.
+- [ ] I used the simple present for my opinion.
+- [ ] My conclusion says what I learn from them.
+- [ ] My sentences start with capitals and end with full stops.
+
+**Practice** `e2-96-order` · ordering, level 1 · **authored key**
+
+> Put the parts of the composition in order.
+
+Shown as: The artist I admire most · She has taught me that talent needs hard work. · Her songs about girls' education have won many prizes. · The artist I admire most is the singer Ngum Rose. · She was born in Kumbo and sang in her church choir.
+Correct order: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work.
+
+Full working after a second miss:
+
+> The correct order is: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work..  
+
+> Put the parts of the composition in order.
+
+Shown as: The artist I admire most · She was born in Kumbo and sang in her church choir. · Her songs about girls' education have won many prizes. · The artist I admire most is the singer Ngum Rose. · She has taught me that talent needs hard work.
+Correct order: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work.
+
+Full working after a second miss:
+
+> The correct order is: The artist I admire most → The artist I admire most is the singer Ngum Rose. → She was born in Kumbo and sang in her church choir. → Her songs about girls' education have won many prizes. → She has taught me that talent needs hard work..  
+
+## Lesson 97: Speech Work-Pronunciation of silent /c/ and /l/
+
+Prerequisites: 83 · Skill: e2-97 (Silent letters: c and l)
+
+**Note** (draft)
+
+> Silent c:
+> • after s before e, i or y: scene, science, scissors, scent, muscle, fascinate.
+> Silent l:
+> • before k: walk, talk, chalk, folk, yolk;
+> • before f, m: half, calf, calm, palm, salmon;
+> • in could, should, would.
+> Be careful: in “film”, “milk” and “help” the l IS pronounced.
+> Learn these spellings well: you cannot hear the silent letter.
+
+**Card c97-1** (draft)
+
+> Silent c: after s, before e, i or y.
+>
+> _science, scene_  
+
+Check question: `e2-97-c` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which letter is silent in “scent”?
+
+- ◻️ s  
+  _↳ feedback if chosen: Say the word: the c after s is not pronounced._
+- ✅ c
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the c._
+- ◻️ e  
+  _↳ feedback if chosen: Say the word: the c after s is not pronounced._
+
+Full working after a second miss:
+
+> After s, before e, i or y, the c is often silent.  
+> In “scent”, the silent letter is c.  
+
+**Card c97-2** (draft)
+
+> Silent l: before k, f and m, and in could, should, would.
+>
+> _walk, half, calm_  
+
+Check question: `e2-97-l` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Which letter is silent in “folk”?
+
+- ◻️ a  
+  _↳ feedback if chosen: Say the word: the l is not pronounced._
+- ◻️ k  
+  _↳ feedback if chosen: Say the word: the l is not pronounced._
+- ✅ l
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the l._
+
+Full working after a second miss:
+
+> Before k, f and m, and in could/should/would, the l is silent.  
+> In “folk”, the silent letter is l.  
+
+**Card c97-3** (draft)
+
+> The l is pronounced in film, milk and help.
+>
+> _I drink milk._  
+
+Check question: `e2-97-cl-card` · fill the blank, level 1 · **authored key**
+
+> Choose the correct spelling.
+
+Sentence: **You ___ wash your hands before eating.**
+- ✅ should
+- ◻️ shuld  
+  _↳ feedback if chosen: Spell it s-h-o-u-l-d._
+- ◻️ shoud  
+  _↳ feedback if chosen: Keep the silent l._
+
+Full working after a second miss:
+
+> The missing word is “should”.  
+> You should wash your hands before eating.  
+
+**Worked example** (draft)
+
+> Which letter is silent in “scissors” and in “chalk”?
+
+1. In “scissors”, the c after s is not pronounced.
+2. In “chalk”, the l before k is not pronounced.
+
+**Answer:** c in scissors; l in chalk
+
+**Practice** `e2-97-c` · multiple choice, level 1 · computed by rule
+
+> Which letter is silent in “fascinate”?
+
+- ◻️ s  
+  _↳ feedback if chosen: Say the word: the c after s is not pronounced._
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the c._
+- ◻️ e  
+  _↳ feedback if chosen: Say the word: the c after s is not pronounced._
+- ✅ c
+
+Full working after a second miss:
+
+> After s, before e, i or y, the c is often silent.  
+> In “fascinate”, the silent letter is c.  
+
+> Which letter is silent in “muscle”?
+
+- ✅ c
+- ◻️ e  
+  _↳ feedback if chosen: Say the word: the c after s is not pronounced._
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the c._
+- ◻️ s  
+  _↳ feedback if chosen: Say the word: the c after s is not pronounced._
+
+Full working after a second miss:
+
+> After s, before e, i or y, the c is often silent.  
+> In “muscle”, the silent letter is c.  
+
+**Practice** `e2-97-l` · multiple choice, level 1 · computed by rule
+
+> Which letter is silent in “talk”?
+
+- ✅ l
+- ◻️ a  
+  _↳ feedback if chosen: Say the word: the l is not pronounced._
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the l._
+- ◻️ k  
+  _↳ feedback if chosen: Say the word: the l is not pronounced._
+
+Full working after a second miss:
+
+> Before k, f and m, and in could/should/would, the l is silent.  
+> In “talk”, the silent letter is l.  
+
+> Which letter is silent in “folk”?
+
+- ◻️ a  
+  _↳ feedback if chosen: Say the word: the l is not pronounced._
+- ◻️ no letter is silent  
+  _↳ feedback if chosen: One letter is not pronounced: the l._
+- ✅ l
+- ◻️ k  
+  _↳ feedback if chosen: Say the word: the l is not pronounced._
+
+Full working after a second miss:
+
+> Before k, f and m, and in could/should/would, the l is silent.  
+> In “folk”, the silent letter is l.  
+
+**Practice** `e2-97-cl` · fill the blank, level 2 · **authored key**
+
+> Choose the correct spelling.
+
+Sentence: **You ___ wash your hands before eating.**
+- ◻️ shoud  
+  _↳ feedback if chosen: Keep the silent l._
+- ✅ should
+- ◻️ shuld  
+  _↳ feedback if chosen: Spell it s-h-o-u-l-d._
+
+Full working after a second miss:
+
+> The missing word is “should”.  
+> You should wash your hands before eating.  
+
+> Choose the correct spelling.
+
+Sentence: **You ___ wash your hands before eating.**
+- ✅ should
+- ◻️ shoud  
+  _↳ feedback if chosen: Keep the silent l._
+- ◻️ shuld  
+  _↳ feedback if chosen: Spell it s-h-o-u-l-d._
+
+Full working after a second miss:
+
+> The missing word is “should”.  
+> You should wash your hands before eating.  
+
+**Practice** `e2-97-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ The c is silent in “scene”.
+- ◻️ The l is silent in “walk”.
+- ✅ “Half” is spelt “haf”.  
+  _↳ explanation: It is spelt half, with a silent l._
+- ◻️ The l is pronounced in “milk”.
+
+Full working after a second miss:
+
+> The wrong statement is ““Half” is spelt “haf”.”.  
+> It is spelt half, with a silent l.  
+
+> Which statement is wrong?
+
+- ◻️ The c is silent in “scene”.
+- ◻️ The l is pronounced in “milk”.
+- ◻️ The l is silent in “walk”.
+- ✅ “Muscle” is spelt “mussle”.  
+  _↳ explanation: It is spelt muscle, with a silent c._
+
+Full working after a second miss:
+
+> The wrong statement is ““Muscle” is spelt “mussle”.”.  
+> It is spelt muscle, with a silent c.  
+
+## Lesson 98: Vocabulary- Name various musical instruments and draw two
+
+Prerequisites: 85 · Skill: e2-98 (Naming musical instruments)
+
+**Note** (draft)
+
+> Musical instruments are grouped by how they make sound:
+> • percussion (struck or shaken): the drum, the talking drum, the tam-tam, the balafon, the xylophone, the rattle (maracas), the gong, the bell;
+> • string (strings are plucked or bowed): the guitar, the harp, the violin, the mvet (a Beti harp-zither), the kora;
+> • wind (you blow into them): the flute, the trumpet, the saxophone, the horn, the whistle;
+> • keyboard: the piano, the keyboard (electronic), the organ.
+> People: a drummer, a guitarist, a pianist, a flautist, a band, an orchestra.
+> Drawing task: in your exercise book, draw two instruments from your region and label their parts (for example: drum — body, skin, ropes; guitar — body, neck, strings, sound hole).
+
+**Card c98-1** (draft)
+
+> Percussion instruments are struck or shaken: drum, balafon, rattle.
+>
+> _The drummer beats the drum._  
+
+Check question: `e2-98-group` · multiple choice, level 1 · computed by rule, reused from practice
+
+> To which group does “the saxophone” belong?
+
+- ◻️ percussion  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+- ✅ wind
+- ◻️ string  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+- ◻️ keyboard  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+
+Full working after a second miss:
+
+> Struck or shaken: percussion; strings: string; blown: wind; keys: keyboard.  
+> So: wind.  
+
+**Card c98-2** (draft)
+
+> String instruments have strings; wind instruments are blown.
+>
+> _guitar (string), flute (wind)_  
+
+Check question: `e2-98-match` · matching, level 1 · **authored key**, reused from practice
+
+> Match each instrument to how it is played.
+
+Right-hand side (shuffled): beaten with the hands or sticks · shaken · keys pressed · blown
+- piano → **keys pressed**
+- rattle → **shaken**
+- drum → **beaten with the hands or sticks**
+- flute → **blown**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> piano → keys pressed  
+> rattle → shaken  
+> drum → beaten with the hands or sticks  
+> flute → blown  
+
+**Card c98-3** (draft)
+
+> A person who plays a guitar is a guitarist; a piano, a pianist.
+>
+> _The drummer leads the band._  
+
+Check question: `e2-98-player-card` · fill the blank, level 1 · **authored key**
+
+> Choose the word that fits.
+
+Sentence: **A person who plays the guitar is a ___.**
+- ◻️ guitarer  
+  _↳ feedback if chosen: Add -ist._
+- ✅ guitarist
+- ◻️ guitarman  
+  _↳ feedback if chosen: Add -ist._
+
+Full working after a second miss:
+
+> The missing word is “guitarist”.  
+> A person who plays the guitar is a guitarist.  
+
+**Worked example** (draft)
+
+> To which group does the mvet belong?
+
+1. The mvet has strings that are plucked.
+2. Instruments with strings belong to the string group.
+
+**Answer:** the string instruments
+
+**Practice** `e2-98-group` · multiple choice, level 1 · computed by rule
+
+> To which group does “the flute” belong?
+
+- ◻️ percussion  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+- ◻️ string  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+- ◻️ keyboard  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+- ✅ wind
+
+Full working after a second miss:
+
+> Struck or shaken: percussion; strings: string; blown: wind; keys: keyboard.  
+> So: wind.  
+
+> To which group does “the balafon” belong?
+
+- ◻️ wind  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+- ✅ percussion
+- ◻️ string  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+- ◻️ keyboard  
+  _↳ feedback if chosen: Ask how it makes sound: struck/shaken, plucked strings, blown, or keys._
+
+Full working after a second miss:
+
+> Struck or shaken: percussion; strings: string; blown: wind; keys: keyboard.  
+> So: percussion.  
+
+**Practice** `e2-98-match` · matching, level 1 · **authored key**
+
+> Match each instrument to how it is played.
+
+Right-hand side (shuffled): strings plucked · keys pressed · blown · beaten with the hands or sticks
+- drum → **beaten with the hands or sticks**
+- flute → **blown**
+- piano → **keys pressed**
+- guitar → **strings plucked**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> drum → beaten with the hands or sticks  
+> flute → blown  
+> piano → keys pressed  
+> guitar → strings plucked  
+
+> Match each instrument to how it is played.
+
+Right-hand side (shuffled): keys pressed · strings plucked · beaten with the hands or sticks · shaken
+- drum → **beaten with the hands or sticks**
+- guitar → **strings plucked**
+- rattle → **shaken**
+- piano → **keys pressed**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> drum → beaten with the hands or sticks  
+> guitar → strings plucked  
+> rattle → shaken  
+> piano → keys pressed  
+
+**Practice** `e2-98-player` · fill the blank, level 2 · **authored key**
+
+> Choose the word that fits.
+
+Sentence: **A person who plays the guitar is a ___.**
+- ◻️ guitarer  
+  _↳ feedback if chosen: Add -ist._
+- ✅ guitarist
+- ◻️ guitarman  
+  _↳ feedback if chosen: Add -ist._
+
+Full working after a second miss:
+
+> The missing word is “guitarist”.  
+> A person who plays the guitar is a guitarist.  
+
+> Choose the word that fits.
+
+Sentence: **A person who plays the guitar is a ___.**
+- ✅ guitarist
+- ◻️ guitarman  
+  _↳ feedback if chosen: Add -ist._
+- ◻️ guitarer  
+  _↳ feedback if chosen: Add -ist._
+
+Full working after a second miss:
+
+> The missing word is “guitarist”.  
+> A person who plays the guitar is a guitarist.  
+
+**Practice** `e2-98-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ A pianist plays the guitar.  
+  _↳ explanation: A pianist plays the piano._
+- ◻️ The balafon is a percussion instrument.
+- ◻️ The guitar has strings.
+- ◻️ The flute is a wind instrument.
+
+Full working after a second miss:
+
+> The wrong statement is “A pianist plays the guitar.”.  
+> A pianist plays the piano.  
+
+> Which statement is wrong?
+
+- ✅ A pianist plays the guitar.  
+  _↳ explanation: A pianist plays the piano._
+- ◻️ The flute is a wind instrument.
+- ◻️ The guitar has strings.
+- ◻️ The balafon is a percussion instrument.
+
+Full working after a second miss:
+
+> The wrong statement is “A pianist plays the guitar.”.  
+> A pianist plays the piano.  
+
+## Lesson 99: Grammar -review of punctuations
+
+Prerequisites: none · Skill: e2-99 (Review of punctuation)
+
+**Note** (draft)
+
+> • Full stop (.): ends a statement.  • Question mark (?): ends a question.  • Exclamation mark (!): shows strong feeling.
+> • Comma (,): separates items in a list (“drums, flutes and guitars”), after an introductory word (“However, …”), and before direct speech.
+> • Apostrophe ('): shows possession (Tabe's guitar, the actors' costumes) or a missing letter (don't, it's = it is).
+> • Quotation marks (“ ”): enclose the exact words spoken: She said, “The film starts at eight.”
+> • Colon (:): introduces a list or an explanation.  • Capital letters: at the start of a sentence, for names, places, days, months, titles.
+
+**Card c99-1** (draft)
+
+> Full stop for statements, question mark for questions, exclamation mark for strong feeling.
+>
+> _What a great show!_  
+
+Check question: `e2-99-end` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the punctuation mark that fits.
+
+Sentence: **What a wonderful dancer she is___**
+- ◻️ ,  
+  _↳ feedback if chosen: A sentence ends with a stop mark._
+- ◻️ ?  
+  _↳ feedback if chosen: It shows strong feeling, not a question._
+- ✅ !
+
+Full working after a second miss:
+
+> The missing word is “!”.  
+> What a wonderful dancer she is!  
+
+**Card c99-2** (draft)
+
+> The apostrophe shows possession or a missing letter.
+>
+> _Tabe's drum; don't_  
+
+Check question: `e2-99-apos` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which is correct for “the costumes of the actors”?
+
+- ◻️ the actors costume's  
+  _↳ feedback if chosen: Wrong place._
+- ◻️ the actors's costumes  
+  _↳ feedback if chosen: Plural ending in s: just '._
+- ◻️ the actor's costumes  
+  _↳ feedback if chosen: Many actors: after the s._
+- ✅ the actors' costumes
+
+Full working after a second miss:
+
+> Plural owners ending in s: s'.  
+> So the answer is “the actors' costumes”.  
+
+**Card c99-3** (draft)
+
+> Quotation marks enclose the exact words spoken.
+>
+> _He said, “I love makossa.”_  
+
+Check question: `e2-99-spot-card` · spot the error, level 1 · **authored key**
+
+> Which sentence is punctuated wrongly?
+
+- ✅ Wheres the cinema?  
+  _↳ explanation: Where's needs an apostrophe._
+- ◻️ We bought drums, flutes and a guitar.
+- ◻️ Tabe's sister is an actress.
+- ◻️ Is the film funny?
+
+Full working after a second miss:
+
+> The wrong statement is “Wheres the cinema?”.  
+> Where's needs an apostrophe.  
+
+**Worked example** (draft)
+
+> Punctuate: “tabe asked where is the cinema”
+
+1. Capital letters for the start and the name: Tabe.
+2. Direct speech in quotation marks with a comma before it, and a question mark: Tabe asked, “Where is the cinema?”
+
+**Answer:** Tabe asked, “Where is the cinema?”
+
+**Practice** `e2-99-end` · fill the blank, level 1 · **authored key**
+
+> Choose the punctuation mark that fits.
+
+Sentence: **What a wonderful dancer she is___**
+- ✅ !
+- ◻️ ,  
+  _↳ feedback if chosen: A sentence ends with a stop mark._
+- ◻️ ?  
+  _↳ feedback if chosen: It shows strong feeling, not a question._
+
+Full working after a second miss:
+
+> The missing word is “!”.  
+> What a wonderful dancer she is!  
+
+> Choose the punctuation mark that fits.
+
+Sentence: **Where is the concert hall___**
+- ✅ ?
+- ◻️ !  
+  _↳ feedback if chosen: It is a question, not a cry._
+- ◻️ .  
+  _↳ feedback if chosen: It is a question._
+
+Full working after a second miss:
+
+> The missing word is “?”.  
+> Where is the concert hall?  
+
+**Practice** `e2-99-apos` · multiple choice, level 1 · **authored key**
+
+> What is the short form of “it is”?
+
+- ◻️ its'  
+  _↳ feedback if chosen: Not a word._
+- ✅ it's
+- ◻️ i'ts  
+  _↳ feedback if chosen: The apostrophe replaces the i._
+- ◻️ its  
+  _↳ feedback if chosen: “its” shows possession._
+
+Full working after a second miss:
+
+> The apostrophe replaces the missing letter.  
+> So the answer is “it's”.  
+
+> Which is correct for “the costumes of the actors”?
+
+- ✅ the actors' costumes
+- ◻️ the actors's costumes  
+  _↳ feedback if chosen: Plural ending in s: just '._
+- ◻️ the actors costume's  
+  _↳ feedback if chosen: Wrong place._
+- ◻️ the actor's costumes  
+  _↳ feedback if chosen: Many actors: after the s._
+
+Full working after a second miss:
+
+> Plural owners ending in s: s'.  
+> So the answer is “the actors' costumes”.  
+
+**Practice** `e2-99-spot` · spot the error, level 2 · **authored key**
+
+> Which sentence is punctuated wrongly?
+
+- ◻️ We bought drums, flutes and a guitar.
+- ✅ the film starts on monday.  
+  _↳ explanation: Capital letters: The … Monday._
+- ◻️ Tabe's sister is an actress.
+- ◻️ Ngum said, “The show was great.”
+
+Full working after a second miss:
+
+> The wrong statement is “the film starts on monday.”.  
+> Capital letters: The … Monday.  
+
+> Which sentence is punctuated wrongly?
+
+- ◻️ We bought drums, flutes and a guitar.
+- ◻️ Ngum said, “The show was great.”
+- ◻️ Tabe's sister is an actress.
+- ✅ Wheres the cinema?  
+  _↳ explanation: Where's needs an apostrophe._
+
+Full working after a second miss:
+
+> The wrong statement is “Wheres the cinema?”.  
+> Where's needs an apostrophe.  
+
+**Practice** `e2-99-spot2` · multiple choice, level 3 · **authored key**
+
+> Which sentence is punctuated correctly?
+
+- ✅ We need three things: a camera, a script and actors.
+- ◻️ The actors costume's were red.  
+  _↳ feedback if chosen: The actors' costumes were red._
+- ◻️ Its' a beautiful song.  
+  _↳ feedback if chosen: It's (it is) a beautiful song._
+- ◻️ on saturday we watched a film in yaoundé  
+  _↳ feedback if chosen: Capitals for the start, the day and the town; a full stop at the end._
+
+Full working after a second miss:
+
+> The true statement is “We need three things: a camera, a script and actors.”.  
+> “The actors costume's were red.” is false: The actors' costumes were red.  
+> “Its' a beautiful song.” is false: It's (it is) a beautiful song.  
+> “on saturday we watched a film in yaoundé” is false: Capitals for the start, the day and the town; a full stop at the end.  
+
+> Which sentence is punctuated correctly?
+
+- ◻️ on saturday we watched a film in yaoundé  
+  _↳ feedback if chosen: Capitals for the start, the day and the town; a full stop at the end._
+- ◻️ Its' a beautiful song.  
+  _↳ feedback if chosen: It's (it is) a beautiful song._
+- ✅ “Come here!” shouted the director.
+- ◻️ The actors costume's were red.  
+  _↳ feedback if chosen: The actors' costumes were red._
+
+Full working after a second miss:
+
+> The true statement is ““Come here!” shouted the director.”.  
+> “on saturday we watched a film in yaoundé” is false: Capitals for the start, the day and the town; a full stop at the end.  
+> “Its' a beautiful song.” is false: It's (it is) a beautiful song.  
+> “The actors costume's were red.” is false: The actors' costumes were red.  
+
+## Lesson 100: Grammar- Conjunctions
+
+Prerequisites: 91 · Skill: e2-100 (Conjunctions)
+
+**Note** (draft)
+
+> A conjunction joins words, phrases or clauses.
+> • Coordinating conjunctions join equal parts: and (adds), but (contrasts), or (choice), so (result), for, nor, yet. “I like films, but my brother prefers music.”
+> • Subordinating conjunctions introduce a dependent clause: because, since (reason); although, though (contrast); when, while, after, before, until (time); if, unless (condition); so that (purpose).
+> “We stayed inside because it was raining.” “Although she was tired, she danced all night.”
+> • Correlative pairs: both … and, either … or, neither … nor, not only … but also.
+> A comma is used after a subordinate clause at the start: “When the film ended, we went home.”
+
+**Card c100-1** (draft)
+
+> and adds, but contrasts, or gives a choice, so gives a result.
+>
+> _I was tired, so I slept._  
+
+Check question: `e2-100-co` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the conjunction that fits.
+
+Sentence: **The hall was full, ___ we watched from the door.**
+- ◻️ but  
+  _↳ feedback if chosen: It is a result, not a contrast._
+- ✅ so
+- ◻️ or  
+  _↳ feedback if chosen: It is a result._
+
+Full working after a second miss:
+
+> The missing word is “so”.  
+> The hall was full, so we watched from the door.  
+
+**Card c100-2** (draft)
+
+> because gives a reason; although gives a contrast; when gives a time; if gives a condition.
+>
+> _If it rains, we will stay home._  
+
+Check question: `e2-100-sub-card` · fill the blank, level 1 · **authored key**
+
+> Choose the conjunction that fits.
+
+Sentence: **You will not pass ___ you study.**
+- ◻️ although  
+  _↳ feedback if chosen: unless = if not._
+- ✅ unless
+- ◻️ because  
+  _↳ feedback if chosen: unless = if not._
+
+Full working after a second miss:
+
+> The missing word is “unless”.  
+> You will not pass unless you study.  
+
+**Card c100-3** (draft)
+
+> Pairs: both … and, either … or, neither … nor.
+>
+> _Neither Tabe nor Bih came._  
+
+Check question: `e2-100-pair` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the word that completes the pair.
+
+Sentence: **You can either sing ___ dance.**
+- ◻️ nor  
+  _↳ feedback if chosen: either … or._
+- ◻️ but  
+  _↳ feedback if chosen: either … or._
+- ✅ or
+
+Full working after a second miss:
+
+> The missing word is “or”.  
+> You can either sing or dance.  
+
+**Worked example** (draft)
+
+> Join with a suitable conjunction: “The concert was cancelled. The singer was ill.”
+
+1. The second sentence gives the reason for the first.
+2. A reason is introduced by “because”: The concert was cancelled because the singer was ill.
+
+**Answer:** The concert was cancelled because the singer was ill.
+
+**Practice** `e2-100-co` · fill the blank, level 1 · **authored key**
+
+> Choose the conjunction that fits.
+
+Sentence: **Do you want tea ___ coffee?**
+- ◻️ but  
+  _↳ feedback if chosen: It is a choice._
+- ✅ or
+- ◻️ so  
+  _↳ feedback if chosen: It is a choice._
+
+Full working after a second miss:
+
+> The missing word is “or”.  
+> Do you want tea or coffee?  
+
+> Choose the conjunction that fits.
+
+Sentence: **The hall was full, ___ we watched from the door.**
+- ✅ so
+- ◻️ or  
+  _↳ feedback if chosen: It is a result._
+- ◻️ but  
+  _↳ feedback if chosen: It is a result, not a contrast._
+
+Full working after a second miss:
+
+> The missing word is “so”.  
+> The hall was full, so we watched from the door.  
+
+**Practice** `e2-100-sub` · fill the blank, level 2 · **authored key**
+
+> Choose the conjunction that fits.
+
+Sentence: **___ she was tired, she danced all night.**
+- ◻️ If  
+  _↳ feedback if chosen: There is a contrast._
+- ◻️ Because  
+  _↳ feedback if chosen: There is a contrast._
+- ✅ Although
+
+Full working after a second miss:
+
+> The missing word is “Although”.  
+> Although she was tired, she danced all night.  
+
+> Choose the conjunction that fits.
+
+Sentence: **We stayed inside ___ it was raining.**
+- ◻️ unless  
+  _↳ feedback if chosen: It gives the reason._
+- ◻️ although  
+  _↳ feedback if chosen: It gives the reason._
+- ✅ because
+
+Full working after a second miss:
+
+> The missing word is “because”.  
+> We stayed inside because it was raining.  
+
+**Practice** `e2-100-pair` · fill the blank, level 1 · **authored key**
+
+> Choose the word that completes the pair.
+
+Sentence: **You can either sing ___ dance.**
+- ✅ or
+- ◻️ but  
+  _↳ feedback if chosen: either … or._
+- ◻️ nor  
+  _↳ feedback if chosen: either … or._
+
+Full working after a second miss:
+
+> The missing word is “or”.  
+> You can either sing or dance.  
+
+> Choose the word that completes the pair.
+
+Sentence: **You can either sing ___ dance.**
+- ✅ or
+- ◻️ but  
+  _↳ feedback if chosen: either … or._
+- ◻️ nor  
+  _↳ feedback if chosen: either … or._
+
+Full working after a second miss:
+
+> The missing word is “or”.  
+> You can either sing or dance.  
+
+**Practice** `e2-100-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence is wrong?
+
+- ◻️ Although it rained, we played.
+- ◻️ Neither he nor she came.
+- ✅ Although it rained, but we played.  
+  _↳ explanation: Do not use although and but together._
+- ◻️ We left because it was late.
+
+Full working after a second miss:
+
+> The wrong statement is “Although it rained, but we played.”.  
+> Do not use although and but together.  
+
+> Which sentence is wrong?
+
+- ◻️ Although it rained, we played.
+- ◻️ Neither he nor she came.
+- ◻️ We left because it was late.
+- ✅ Neither Tabe or Bih sang.  
+  _↳ explanation: neither … nor._
+
+Full working after a second miss:
+
+> The wrong statement is “Neither Tabe or Bih sang.”.  
+> neither … nor.  
+
+## Lesson 101: Writing- Write a short song or poem
+
+Prerequisites: 98 · Skill: e2-101 (Writing a short song or poem)
+
+**Note** (draft)
+
+> A poem is written in lines (verses) grouped in stanzas. A song has verses and a chorus (lines that are repeated).
+> Tools of poetry:
+> • rhyme: words that end with the same sound (drum / come, night / light);
+> • rhythm: a regular beat;
+> • repetition: repeating a word or line for effect;
+> • simile: a comparison with like or as (“as bright as the sun”);
+> • imagery: words that help us see, hear, smell or feel.
+> Steps: choose a topic (my village, a festival, my mother); list words and images; write short lines; add rhymes; give it a title; read it aloud and improve it.
+
+**Card c101-1** (draft)
+
+> Rhyme: words ending with the same sound.
+>
+> _drum / come_  
+
+Check question: `e2-101-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the steps of writing a poem in order.
+
+Shown as: Add rhymes and a title · Choose a topic · Write short lines · List words and images · Read it aloud and improve it
+Correct order: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it
+
+Full working after a second miss:
+
+> The correct order is: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it.  
+
+**Card c101-2** (draft)
+
+> A simile compares with like or as.
+>
+> _as bright as the sun_  
+
+Check question: `e2-101-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the steps of writing a poem in order.
+
+Shown as: Choose a topic · Write short lines · List words and images · Read it aloud and improve it · Add rhymes and a title
+Correct order: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it
+
+Full working after a second miss:
+
+> The correct order is: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it.  
+
+**Card c101-3** (draft)
+
+> A chorus is repeated after each verse of a song.
+>
+> _Come, come, the festival has come!_  
+
+Check question: `e2-101-order` · ordering, level 1 · **authored key**, reused from practice
+
+> Put the steps of writing a poem in order.
+
+Shown as: Choose a topic · Write short lines · Read it aloud and improve it · Add rhymes and a title · List words and images
+Correct order: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it
+
+Full working after a second miss:
+
+> The correct order is: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it.  
+
+**Worked example** (draft)
+
+> Plan a short poem about a village festival.
+
+1. Topic and title: “Festival Day”.
+2. List images: drums beating, dancers in feathers, smoke of roasted corn.
+3. Write short lines with rhymes: drum / come; light / night.
+4. Add a chorus to repeat: “Come, come, the festival has come!”
+
+**Answer:** Title → images → short rhyming lines → chorus → read aloud
+
+**Paper task** (draft; not marked by the app, mastery stays unknown)
+
+> Write a short song or poem (two or three stanzas of four lines, or verses with a chorus) in your exercise book about a festival, your village or a person you love. Use rhyme and at least one simile.
+
+Model answer, shown after the pupil has written:
+
+> Festival Day
+
+The drums begin at the break of light,
+The dancers shine in feathers bright;
+The old men smile, the children run,
+Their faces glowing like the sun.
+
+Chorus: Come, come, the festival has come!
+Dance to the rhythm of the drum!
+
+The smoke of corn floats through the air,
+The Fon sits proudly in his chair;
+We sing the songs our fathers knew,
+Our culture old, our hearts still new.  
+
+Self-check list:
+
+- [ ] My poem has a title.
+- [ ] It is written in short lines grouped in stanzas.
+- [ ] I used rhyme.
+- [ ] I used at least one simile (like / as).
+- [ ] I used images that help the reader see or hear.
+- [ ] I read it aloud and improved it.
+
+**Practice** `e2-101-order` · ordering, level 1 · **authored key**
+
+> Put the steps of writing a poem in order.
+
+Shown as: Choose a topic · Add rhymes and a title · List words and images · Read it aloud and improve it · Write short lines
+Correct order: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it
+
+Full working after a second miss:
+
+> The correct order is: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it.  
+
+> Put the steps of writing a poem in order.
+
+Shown as: Choose a topic · Write short lines · Add rhymes and a title · List words and images · Read it aloud and improve it
+Correct order: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it
+
+Full working after a second miss:
+
+> The correct order is: Choose a topic → List words and images → Write short lines → Add rhymes and a title → Read it aloud and improve it.  
+
+## Lesson 102: Review - the simple present tense
+
+Prerequisites: none · Skill: e2-102 (Review: the Simple Present tense)
+
+**Note** (draft)
+
+> The Simple Present is used for habits, facts, timetables and feelings:
+> “The choir practises on Fridays.” “The sun rises in the east.” “The film starts at seven.” “I like makossa.”
+> Form: the base verb; with he, she, it (or one person/thing) add -s or -es: plays, watches, goes, carries (y → ies after a consonant), has.
+> Negative: do not (don't) / does not (doesn't) + base verb: “She doesn't sing.”
+> Question: Do / Does + subject + base verb: “Does he play the guitar?”
+> Time words: always, usually, often, sometimes, never, every day, on Mondays.
+
+**Card c102-1** (draft)
+
+> With he, she, it, add -s or -es.
+>
+> _he plays, she watches, it goes_  
+
+Check question: `e2-102-form` · fill the blank, level 1 · computed by rule, reused from practice
+
+> Write the verb in the Simple Present.
+
+Sentence: **Tabe and Ndi ___ the speakers to the hall every week. (carry)**
+Typed answer accepted (case and extra spaces ignored): **carry**
+- Typed **carries** (extra-s) → “With Tabe and Ndi, the verb has no -s: carry.”
+
+Full working after a second miss:
+
+> The missing word is “carry”.  
+> Tabe and Ndi carry the speakers to the hall every week. (carry)  
+
+**Card c102-2** (draft)
+
+> Negative: don't / doesn't + base verb.
+>
+> _He doesn't dance._  
+
+Check question: `e2-102-neg` · fill the blank, level 1 · computed by rule, reused from practice
+
+> Choose the word that fits.
+
+Sentence: **They ___ carry the speakers to the hall.**
+- ◻️ doesn't  
+  _↳ feedback if chosen: Doesn't goes with he, she and it (one person or thing)._
+- ✅ don't
+- ◻️ isn't  
+  _↳ feedback if chosen: With an action verb, use don't or doesn't, not isn't._
+
+Full working after a second miss:
+
+> The missing word is “don't”.  
+> They don't carry the speakers to the hall.  
+
+**Card c102-3** (draft)
+
+> Question: Do / Does + subject + base verb.
+>
+> _Does she sing?_  
+
+Check question: `e2-102-q-card` · fill the blank, level 1 · computed by rule
+
+> Choose the word that starts the question.
+
+Sentence: **___ I have a rehearsal on Fridays?**
+- ◻️ Is  
+  _↳ feedback if chosen: With an action verb, the question starts with Do or Does._
+- ✅ Do
+- ◻️ Does  
+  _↳ feedback if chosen: Does goes with he, she and it._
+
+Full working after a second miss:
+
+> The missing word is “Do”.  
+> Do I have a rehearsal on Fridays?  
+
+**Worked example** (draft)
+
+> Write “watch” with “she” in the Simple Present, then make it negative.
+
+1. With she, add -s or -es: she watches.
+2. Negative: she doesn't + base verb: she doesn't watch.
+
+**Answer:** she watches; she doesn't watch
+
+**Practice** `e2-102-form` · fill the blank, level 1 · computed by rule
+
+> Write the verb in the Simple Present.
+
+Sentence: **Ayuk ___ in the church choir every week. (sing)**
+Typed answer accepted (case and extra spaces ignored): **sings**
+- Typed **sing** (no-s) → “With Ayuk the verb takes -s or -es: sings.”
+
+Full working after a second miss:
+
+> The missing word is “sings”.  
+> Ayuk sings in the church choir every week. (sing)  
+
+> Write the verb in the Simple Present.
+
+Sentence: **Tabe and Ndi ___ the speakers to the hall every week. (carry)**
+Typed answer accepted (case and extra spaces ignored): **carry**
+- Typed **carries** (extra-s) → “With Tabe and Ndi, the verb has no -s: carry.”
+
+Full working after a second miss:
+
+> The missing word is “carry”.  
+> Tabe and Ndi carry the speakers to the hall every week. (carry)  
+
+**Practice** `e2-102-neg` · fill the blank, level 1 · computed by rule
+
+> Choose the word that fits.
+
+Sentence: **They ___ practise the guitar every evening.**
+- ◻️ doesn't  
+  _↳ feedback if chosen: Doesn't goes with he, she and it (one person or thing)._
+- ✅ don't
+- ◻️ isn't  
+  _↳ feedback if chosen: With an action verb, use don't or doesn't, not isn't._
+
+Full working after a second miss:
+
+> The missing word is “don't”.  
+> They don't practise the guitar every evening.  
+
+> Choose the word that fits.
+
+Sentence: **My cousins ___ play the drum at weddings.**
+- ◻️ doesn't  
+  _↳ feedback if chosen: Doesn't goes with he, she and it (one person or thing)._
+- ◻️ isn't  
+  _↳ feedback if chosen: With an action verb, use don't or doesn't, not isn't._
+- ✅ don't
+
+Full working after a second miss:
+
+> The missing word is “don't”.  
+> My cousins don't play the drum at weddings.  
+
+**Practice** `e2-102-q` · fill the blank, level 2 · computed by rule
+
+> Choose the word that starts the question.
+
+Sentence: **___ we teach dance at the cultural centre?**
+- ◻️ Does  
+  _↳ feedback if chosen: Does goes with he, she and it._
+- ◻️ Is  
+  _↳ feedback if chosen: With an action verb, the question starts with Do or Does._
+- ✅ Do
+
+Full working after a second miss:
+
+> The missing word is “Do”.  
+> Do we teach dance at the cultural centre?  
+
+> Choose the word that starts the question.
+
+Sentence: **___ ayuk fix the sound system?**
+- ◻️ Do  
+  _↳ feedback if chosen: Do goes with I, you, we and they._
+- ◻️ Is  
+  _↳ feedback if chosen: With an action verb, the question starts with Do or Does._
+- ✅ Does
+
+Full working after a second miss:
+
+> The missing word is “Does”.  
+> Does ayuk fix the sound system?  
+
+**Practice** `e2-102-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence is wrong?
+
+- ◻️ Does he play the drum?
+- ✅ My brother watch films every night.  
+  _↳ explanation: With one person: watches._
+- ◻️ She practises every day.
+- ◻️ They don't watch television.
+
+Full working after a second miss:
+
+> The wrong statement is “My brother watch films every night.”.  
+> With one person: watches.  
+
+> Which sentence is wrong?
+
+- ◻️ Does he play the drum?
+- ◻️ They don't watch television.
+- ✅ My brother watch films every night.  
+  _↳ explanation: With one person: watches._
+- ◻️ She practises every day.
+
+Full working after a second miss:
+
+> The wrong statement is “My brother watch films every night.”.  
+> With one person: watches.  
+
+## Lesson 103: Consolidation- the simple past tense
+
+Prerequisites: 102 · Skill: e2-103 (Consolidation: the Simple Past tense)
+
+**Note** (draft)
+
+> The Simple Past is used for finished actions at a definite time in the past: yesterday, last week, in 2020, two days ago.
+> Regular verbs add -ed: play → played, dance → danced (just -d), stop → stopped (double the consonant), study → studied (y → ied).
+> Irregular verbs have special forms: go → went, see → saw, sing → sang, write → wrote, buy → bought, begin → began, win → won, take → took, meet → met.
+> Negative: did not (didn't) + base verb: “We didn't see the film.”
+> Question: Did + subject + base verb: “Did you enjoy the concert?”
+> Be: I/he/she/it was; you/we/they were.
+
+**Card c103-1** (draft)
+
+> Regular verbs add -ed: played, danced, stopped, studied.
+>
+> _We danced all night._  
+
+Check question: `e2-103-form` · fill the blank, level 1 · computed by rule, reused from practice
+
+> Write the verb in the Simple Past.
+
+Sentence: **Last Saturday, we ___ at the festival. (travel)**
+Typed answer accepted (case and extra spaces ignored): **travelled**
+- Typed **travel** (present) → “It was last Saturday: use the past, travelled.”
+- Typed **traveled** (ed) → “Check the past form: travelled.”
+
+Full working after a second miss:
+
+> Last Saturday is finished: Simple Past.  
+> travel → travelled.  
+
+**Card c103-2** (draft)
+
+> Irregular verbs have special forms: went, saw, sang, wrote.
+>
+> _She sang beautifully._  
+
+Check question: `e2-103-irr` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is the Simple Past of “win”?
+
+- ◻️ wins  
+  _↳ feedback if chosen: That is present._
+- ◻️ winned  
+  _↳ feedback if chosen: Irregular: won._
+- ✅ won
+- ◻️ wan  
+  _↳ feedback if chosen: Not a word._
+
+Full working after a second miss:
+
+> win → won.  
+> So the answer is “won”.  
+
+**Card c103-3** (draft)
+
+> Negative and question: didn't / Did + base verb.
+>
+> _Did you see the film?_  
+
+Check question: `e2-103-neg-card` · fill the blank, level 1 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **The singers ___ very happy after the show.**
+- ◻️ was  
+  _↳ feedback if chosen: They → were._
+- ✅ were
+- ◻️ are  
+  _↳ feedback if chosen: It was last night: past._
+
+Full working after a second miss:
+
+> The missing word is “were”.  
+> The singers were very happy after the show.  
+
+**Worked example** (draft)
+
+> Write “sing” in the Simple Past, then make a negative sentence with it.
+
+1. “sing” is irregular: sang.
+2. Negative: didn't + base verb: “The choir didn't sing yesterday.”
+
+**Answer:** sang; The choir didn't sing yesterday.
+
+**Practice** `e2-103-form` · fill the blank, level 1 · computed by rule
+
+> Write the verb in the Simple Past.
+
+Sentence: **Last Saturday, we ___ at the festival. (watch)**
+Typed answer accepted (case and extra spaces ignored): **watched**
+- Typed **watch** (present) → “It was last Saturday: use the past, watched.”
+
+Full working after a second miss:
+
+> Last Saturday is finished: Simple Past.  
+> watch → watched.  
+
+> Write the verb in the Simple Past.
+
+Sentence: **Last Saturday, we ___ at the festival. (begin)**
+Typed answer accepted (case and extra spaces ignored): **began**
+- Typed **begin** (present) → “It was last Saturday: use the past, began.”
+- Typed **begined** (ed) → “Check the past form: began.”
+
+Full working after a second miss:
+
+> Last Saturday is finished: Simple Past.  
+> begin → began.  
+
+**Practice** `e2-103-irr` · multiple choice, level 1 · **authored key**
+
+> What is the Simple Past of “buy”?
+
+- ◻️ brought  
+  _↳ feedback if chosen: That is the past of bring._
+- ◻️ buys  
+  _↳ feedback if chosen: That is present._
+- ✅ bought
+- ◻️ buyed  
+  _↳ feedback if chosen: Irregular: bought._
+
+Full working after a second miss:
+
+> buy → bought.  
+> So the answer is “bought”.  
+
+> What is the Simple Past of “buy”?
+
+- ◻️ brought  
+  _↳ feedback if chosen: That is the past of bring._
+- ◻️ buyed  
+  _↳ feedback if chosen: Irregular: bought._
+- ✅ bought
+- ◻️ buys  
+  _↳ feedback if chosen: That is present._
+
+Full working after a second miss:
+
+> buy → bought.  
+> So the answer is “bought”.  
+
+**Practice** `e2-103-neg` · fill the blank, level 2 · **authored key**
+
+> Choose the correct form.
+
+Sentence: **The singers ___ very happy after the show.**
+- ✅ were
+- ◻️ are  
+  _↳ feedback if chosen: It was last night: past._
+- ◻️ was  
+  _↳ feedback if chosen: They → were._
+
+Full working after a second miss:
+
+> The missing word is “were”.  
+> The singers were very happy after the show.  
+
+> Choose the correct form.
+
+Sentence: **Did you ___ to the concert last night?**
+- ◻️ went  
+  _↳ feedback if chosen: After Did, the base verb._
+- ✅ go
+- ◻️ gone  
+  _↳ feedback if chosen: After Did, the base verb._
+
+Full working after a second miss:
+
+> The missing word is “go”.  
+> Did you go to the concert last night?  
+
+**Practice** `e2-103-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence is wrong?
+
+- ◻️ We watched a film yesterday.
+- ✅ He didn't went to school.  
+  _↳ explanation: After didn't, the base verb: go._
+- ◻️ She didn't come.
+- ◻️ The concert began at eight.
+
+Full working after a second miss:
+
+> The wrong statement is “He didn't went to school.”.  
+> After didn't, the base verb: go.  
+
+> Which sentence is wrong?
+
+- ◻️ The concert began at eight.
+- ✅ They was at the festival.  
+  _↳ explanation: They were._
+- ◻️ We watched a film yesterday.
+- ◻️ She didn't come.
+
+Full working after a second miss:
+
+> The wrong statement is “They was at the festival.”.  
+> They were.  
+
+## Lesson 104: Speaking- Discuss where and how you want to spend the holiday
+
+Prerequisites: none · Skill: e2-104 (Talking about where and how to spend the holiday)
+
+**Note** (draft)
+
+> To talk about plans, use:
+> • “going to” for decisions already made: “I'm going to visit my grandmother in Kumbo.”
+> • “will” for things decided now or predictions: “I think I'll help my uncle in his shop.”
+> • the present continuous for fixed arrangements: “We're travelling to Kribi on 2 July.”
+> • “would like to” for wishes: “I would like to learn to swim.”
+> Asking: “Where are you going to spend the holiday?” “What will you do?” “How will you get there?” “Who are you going with?”
+> Giving reasons: “because…”, “so that…”. Good holiday activities: helping the family, reading, learning a skill, visiting relatives, sport, revising.
+
+**Card c104-1** (draft)
+
+> “going to” for plans already decided.
+>
+> _I'm going to visit my aunt._  
+
+Check question: `e2-104-plan` · fill the blank, level 1 · **authored key**, reused from practice
+
+> Choose the form that fits.
+
+Sentence: **The phone is ringing. I ___ answer it.**
+- ◻️ was  
+  _↳ feedback if chosen: That is the past._
+- ◻️ am going to  
+  _↳ feedback if chosen: A decision made now: will._
+- ✅ will
+
+Full working after a second miss:
+
+> The missing word is “will”.  
+> The phone is ringing. I will answer it.  
+
+**Card c104-2** (draft)
+
+> “will” for decisions made now and predictions; “would like to” for wishes.
+>
+> _I think I'll read a lot._  
+
+Check question: `e2-104-will` · multiple choice, level 1 · **authored key**, reused from practice
+
+> Which question asks about transport?
+
+- ◻️ Where will you stay?  
+  _↳ feedback if chosen: That asks about a place._
+- ◻️ Who are you going with?  
+  _↳ feedback if chosen: That asks about people._
+- ✅ How will you get there?
+- ◻️ Why are you going?  
+  _↳ feedback if chosen: That asks for a reason._
+
+Full working after a second miss:
+
+> “How” + get there = transport.  
+> So the answer is “How will you get there?”.  
+
+**Card c104-3** (draft)
+
+> Ask: Where…? What…? How…? Who … with?
+>
+> _How will you get there?_  
+
+Check question: `e2-104-wo-card` · word order, level 1 · **authored key**
+
+> Put the words in the right order.
+
+Tiles: grandmother · visit · in · Kumbo · am · to · my · going · I (then “.”)
+Answer: **I am going to visit my grandmother in Kumbo.**
+
+Full working after a second miss:
+
+> The sentence is: I am going to visit my grandmother in Kumbo.  
+
+**Worked example** (draft)
+
+> A friend asks: “Where are you going to spend the holiday?” Give a complete answer with a reason.
+
+1. Use “going to” for a decision already made.
+2. Add a reason with “because”: “I'm going to spend it in Kumbo with my grandmother because she is old and needs help on her farm.”
+
+**Answer:** I'm going to spend it in Kumbo with my grandmother because she needs help on her farm.
+
+**Practice** `e2-104-plan` · fill the blank, level 1 · **authored key**
+
+> Choose the form that fits.
+
+Sentence: **I have bought my ticket. I ___ travel to Kribi on Monday.**
+- ◻️ would  
+  _↳ feedback if chosen: The plan is already made: going to._
+- ✅ am going to
+- ◻️ was  
+  _↳ feedback if chosen: That is the past._
+
+Full working after a second miss:
+
+> The missing words are “am going to”.  
+> I have bought my ticket. I am going to travel to Kribi on Monday.  
+
+> Choose the form that fits.
+
+Sentence: **The phone is ringing. I ___ answer it.**
+- ◻️ am going to  
+  _↳ feedback if chosen: A decision made now: will._
+- ✅ will
+- ◻️ was  
+  _↳ feedback if chosen: That is the past._
+
+Full working after a second miss:
+
+> The missing word is “will”.  
+> The phone is ringing. I will answer it.  
+
+**Practice** `e2-104-will` · multiple choice, level 1 · **authored key**
+
+> Which question asks about transport?
+
+- ✅ How will you get there?
+- ◻️ Who are you going with?  
+  _↳ feedback if chosen: That asks about people._
+- ◻️ Where will you stay?  
+  _↳ feedback if chosen: That asks about a place._
+- ◻️ Why are you going?  
+  _↳ feedback if chosen: That asks for a reason._
+
+Full working after a second miss:
+
+> “How” + get there = transport.  
+> So the answer is “How will you get there?”.  
+
+> Which is a useful holiday activity?
+
+- ✅ helping the family and revising lessons
+- ◻️ forgetting everything learnt  
+  _↳ feedback if chosen: Not useful._
+- ◻️ fighting with neighbours  
+  _↳ feedback if chosen: Not useful._
+- ◻️ sleeping all day every day  
+  _↳ feedback if chosen: Not useful._
+
+Full working after a second miss:
+
+> Use the holiday well.  
+> So the answer is “helping the family and revising lessons”.  
+
+**Practice** `e2-104-wo` · word order, level 2 · **authored key**
+
+> Put the words in the right order.
+
+Tiles: in · July · Kribi · to · are · travelling · We (then “.”)
+Answer: **We are travelling to Kribi in July.**
+
+Full working after a second miss:
+
+> The sentence is: We are travelling to Kribi in July.  
+
+> Put the words in the right order.
+
+Tiles: you · holiday · are · spend · going · Where · to · the (then “?”)
+Answer: **Where are you going to spend the holiday?**
+
+Full working after a second miss:
+
+> The sentence is: Where are you going to spend the holiday?  
+
+**Practice** `e2-104-spot` · spot the error, level 3 · **authored key**
+
+> Which sentence is wrong?
+
+- ◻️ Where are you going to stay?
+- ◻️ I'm going to visit my aunt.
+- ◻️ I would like to learn the guitar.
+- ✅ I would like learn to swim.  
+  _↳ explanation: would like to + verb: I would like to learn._
+
+Full working after a second miss:
+
+> The wrong statement is “I would like learn to swim.”.  
+> would like to + verb: I would like to learn.  
+
+> Which sentence is wrong?
+
+- ◻️ I'm going to visit my aunt.
+- ◻️ I would like to learn the guitar.
+- ◻️ Where are you going to stay?
+- ✅ Where you will spend the holiday?  
+  _↳ explanation: Question order: Where will you spend the holiday?_
+
+Full working after a second miss:
+
+> The wrong statement is “Where you will spend the holiday?”.  
+> Question order: Where will you spend the holiday?  
 

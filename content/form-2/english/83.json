@@ -1,0 +1,400 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 83,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-83",
+   "name": "Silent letters: b and p"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Some letters are written but not pronounced: they are silent.\nSilent b:\n• after m at the end of a word: climb, comb, thumb, lamb, bomb, tomb, limb, numb;\n• before t: debt, doubt, subtle.\nNote: climber, plumber, bomber keep the silent b.\nSilent p:\n• at the start before s or n: psychology, psalm, pneumonia;\n• in: receipt, cupboard, raspberry.\nLearn to spell these words carefully: you cannot hear the silent letter.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Which letter is silent in “climb” and in “receipt”?",
+  "steps": [
+   "In “climb”, the b after m at the end is not pronounced.",
+   "In “receipt”, the p is not pronounced."
+  ],
+  "answer": "b in climb; p in receipt",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c83-1",
+    "status": "draft",
+    "idea": "Silent b: after m at the end of a word, and before t.",
+    "vars": {},
+    "example": [
+     "thumb, debt"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-83-b"
+    }
+   },
+   {
+    "id": "c83-2",
+    "status": "draft",
+    "idea": "Silent p: at the start before s or n, and in receipt and cupboard.",
+    "vars": {},
+    "example": [
+     "psalm, pneumonia"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-83-p"
+    }
+   },
+   {
+    "id": "c83-3",
+    "status": "draft",
+    "idea": "You must remember the silent letter when you spell.",
+    "vars": {},
+    "example": [
+     "I keep my plates in the cupboard."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-83-cl-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "spelling-rules"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "The children like to ___ the mango tree.",
+         "a": "climb",
+         "w": [
+          "clime",
+          "clim"
+         ],
+         "e": [
+          "“clime” is a different word.",
+          "Keep the silent b."
+         ]
+        },
+        {
+         "s": "Ask the shopkeeper for a ___ when you pay.",
+         "a": "receipt",
+         "w": [
+          "reciet",
+          "receit"
+         ],
+         "e": [
+          "Keep the silent p: receipt.",
+          "Keep the silent p: receipt."
+         ]
+        },
+        {
+         "s": "He cut his ___ with the knife.",
+         "a": "thumb",
+         "w": [
+          "thum",
+          "thumm"
+         ],
+         "e": [
+          "Keep the silent b.",
+          "Only one m and a silent b."
+         ]
+        },
+        {
+         "s": "I have no ___ that you will pass.",
+         "a": "doubt",
+         "w": [
+          "dout",
+          "dougt"
+         ],
+         "e": [
+          "Keep the silent b.",
+          "The silent letter is b."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct spelling.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-83-b",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "w": {
+     "pick": [
+      "climb",
+      "comb",
+      "thumb",
+      "lamb",
+      "bomb",
+      "debt",
+      "doubt",
+      "plumber",
+      "tomb",
+      "limb"
+     ]
+    }
+   },
+   "prompt": "Which letter is silent in “{w}”?",
+   "correct": "b",
+   "distractors": [
+    {
+     "text": "m",
+     "misconception": "other"
+    },
+    {
+     "text": "the first letter",
+     "misconception": "other"
+    },
+    {
+     "text": "no letter is silent",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Listen to the end of the word: the b is not pronounced."
+    },
+    {
+     "id": "none",
+     "explain": "One letter is not pronounced: the b."
+    }
+   ],
+   "solution": [
+    "After m at the end of a word, or before t, b is silent.",
+    "In “{w}”, the silent letter is {answer}."
+   ]
+  },
+  {
+   "id": "e2-83-p",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "w": {
+     "pick": [
+      "psychology",
+      "pneumonia",
+      "receipt",
+      "cupboard",
+      "psalm",
+      "raspberry"
+     ]
+    }
+   },
+   "prompt": "Which letter is silent in “{w}”?",
+   "correct": "p",
+   "distractors": [
+    {
+     "text": "s",
+     "misconception": "other"
+    },
+    {
+     "text": "the last letter",
+     "misconception": "other"
+    },
+    {
+     "text": "no letter is silent",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Say the word: the p is not pronounced."
+    },
+    {
+     "id": "none",
+     "explain": "One letter is not pronounced: the p."
+    }
+   ],
+   "solution": [
+    "Some words have a silent p.",
+    "In “{w}”, the silent letter is {answer}."
+   ]
+  },
+  {
+   "id": "e2-83-cl",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The children like to ___ the mango tree.",
+       "a": "climb",
+       "w": [
+        "clime",
+        "clim"
+       ],
+       "e": [
+        "“clime” is a different word.",
+        "Keep the silent b."
+       ]
+      },
+      {
+       "s": "Ask the shopkeeper for a ___ when you pay.",
+       "a": "receipt",
+       "w": [
+        "reciet",
+        "receit"
+       ],
+       "e": [
+        "Keep the silent p: receipt.",
+        "Keep the silent p: receipt."
+       ]
+      },
+      {
+       "s": "He cut his ___ with the knife.",
+       "a": "thumb",
+       "w": [
+        "thum",
+        "thumm"
+       ],
+       "e": [
+        "Keep the silent b.",
+        "Only one m and a silent b."
+       ]
+      },
+      {
+       "s": "I have no ___ that you will pass.",
+       "a": "doubt",
+       "w": [
+        "dout",
+        "dougt"
+       ],
+       "e": [
+        "Keep the silent b.",
+        "The silent letter is b."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct spelling.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-83-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "spelling-rules"
+   ],
+   "prompt": "Which word is spelt wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "comb",
+      "truth": "true"
+     },
+     {
+      "text": "debt",
+      "truth": "true"
+     },
+     {
+      "text": "psalm",
+      "truth": "true"
+     },
+     {
+      "text": "cupboard",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "lam (a young sheep)",
+      "truth": "false",
+      "explain": "It is spelt lamb, with a silent b."
+     },
+     {
+      "text": "numonia",
+      "truth": "false",
+      "explain": "It is spelt pneumonia, with a silent p."
+     },
+     {
+      "text": "plumer",
+      "truth": "false",
+      "explain": "It is spelt plumber, with a silent b."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

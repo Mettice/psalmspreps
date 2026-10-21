@@ -1,0 +1,358 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 78,
+ "language": "en",
+ "prerequisites": [
+  77
+ ],
+ "skills": [
+  {
+   "id": "e2-78",
+   "name": "Words about health, epidemics and pandemics"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Words about disease:\n• an outbreak: the sudden start of a disease in an area; to spread; contagious (passed from person to person); an infection; a germ (a virus or bacterium);\n• symptoms: signs of a disease (fever, cough, headache, tiredness); to diagnose: to find out what disease someone has;\n• to isolate / isolation: to keep a sick person away from others; quarantine: keeping people who may be infected apart for some days;\n• a vaccine: a substance that protects the body against a disease; to vaccinate; immunity;\n• hygiene: keeping clean to stay healthy; sanitizer; a face mask; social distancing.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complete: “The doctor looked at the ___ — fever and cough — and diagnosed malaria.”",
+  "steps": [
+   "Fever and cough are signs of a disease.",
+   "Signs of a disease are called symptoms."
+  ],
+  "answer": "symptoms",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c78-1",
+    "status": "draft",
+    "idea": "Symptoms are the signs of a disease.",
+    "vars": {},
+    "example": [
+     "Fever and cough are symptoms."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-78-def"
+    }
+   },
+   {
+    "id": "c78-2",
+    "status": "draft",
+    "idea": "A contagious disease passes from person to person.",
+    "vars": {},
+    "example": [
+     "Measles is very contagious."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-78-cl"
+    }
+   },
+   {
+    "id": "c78-3",
+    "status": "draft",
+    "idea": "A vaccine protects the body against a disease.",
+    "vars": {},
+    "example": [
+     "Children are vaccinated against measles."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-78-match-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "prompt": "Match each word to its meaning.",
+     "pool": [
+      {
+       "left": "vaccine",
+       "right": "protects the body against a disease"
+      },
+      {
+       "left": "germ",
+       "right": "a tiny living thing that causes disease"
+      },
+      {
+       "left": "isolation",
+       "right": "keeping a sick person away from others"
+      },
+      {
+       "left": "diagnose",
+       "right": "find out what disease someone has"
+      },
+      {
+       "left": "immunity",
+       "right": "the body's protection against a disease"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-78-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "symptoms",
+       "r": "signs of a disease",
+       "w": [
+        "medicines",
+        "doctors",
+        "hospitals"
+       ],
+       "e": [
+        "Medicines treat a disease.",
+        "Doctors are people.",
+        "Hospitals are places."
+       ],
+       "y": "Fever is a symptom."
+      },
+      {
+       "q": "an outbreak",
+       "r": "the sudden start of a disease in an area",
+       "w": [
+        "the end of a disease",
+        "a kind of medicine",
+        "a hospital bed"
+       ],
+       "e": [
+        "It is the start.",
+        "It is not a medicine.",
+        "It is not a bed."
+       ],
+       "y": "A cholera outbreak in a town."
+      },
+      {
+       "q": "quarantine",
+       "r": "keeping people who may be infected apart for some days",
+       "w": [
+        "a festival",
+        "a kind of fever",
+        "a vaccine"
+       ],
+       "e": [
+        "It is not a festival.",
+        "It is not a symptom.",
+        "It is not a vaccine."
+       ],
+       "y": "It stops the disease spreading."
+      }
+     ]
+    }
+   },
+   "prompt": "What does “{X.q}” mean?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-78-cl",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Measles is very ___: it passes easily from one child to another.",
+       "a": "contagious",
+       "w": [
+        "healthy",
+        "vaccinated"
+       ],
+       "e": [
+        "Healthy means well.",
+        "Vaccinated means protected."
+       ]
+      },
+      {
+       "s": "The nurse will ___ the baby against polio.",
+       "a": "vaccinate",
+       "w": [
+        "isolate",
+        "infect"
+       ],
+       "e": [
+        "Isolate means keep apart.",
+        "Infect means give a disease."
+       ]
+      },
+      {
+       "s": "Keeping clean to stay healthy is called ___.",
+       "a": "hygiene",
+       "w": [
+        "infection",
+        "outbreak"
+       ],
+       "e": [
+        "An infection is a disease.",
+        "An outbreak is the start of a disease."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-78-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "vaccine",
+     "right": "protects the body against a disease"
+    },
+    {
+     "left": "germ",
+     "right": "a tiny living thing that causes disease"
+    },
+    {
+     "left": "isolation",
+     "right": "keeping a sick person away from others"
+    },
+    {
+     "left": "diagnose",
+     "right": "find out what disease someone has"
+    },
+    {
+     "left": "immunity",
+     "right": "the body's protection against a disease"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-78-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which sentence uses a word wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "Fever is a symptom of malaria.",
+      "truth": "true"
+     },
+     {
+      "text": "The sick man was put in isolation.",
+      "truth": "true"
+     },
+     {
+      "text": "Cholera is a contagious disease.",
+      "truth": "true"
+     },
+     {
+      "text": "The vaccine protects children.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The vaccine gave the children the disease.",
+      "truth": "false",
+      "explain": "A vaccine protects against a disease."
+     },
+     {
+      "text": "An outbreak is the end of a disease.",
+      "truth": "false",
+      "explain": "It is the sudden start."
+     },
+     {
+      "text": "Hygiene means being dirty.",
+      "truth": "false",
+      "explain": "Hygiene means keeping clean."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

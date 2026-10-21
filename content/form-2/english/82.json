@@ -1,0 +1,358 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 82,
+ "language": "en",
+ "prerequisites": [
+  81
+ ],
+ "skills": [
+  {
+   "id": "e2-82",
+   "name": "Words about festivals and cultural activities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Words about festivals:\n• a festival, a celebration, a ceremony, a ritual, a parade (march-past), a procession, a feast;\n• a masquerade (dancers wearing masks), a traditional dance, a drummer, a choir;\n• costume, regalia (the special clothes and objects of a chief), beads, a headdress;\n• to celebrate, to perform, to commemorate (to remember an event), to honour, to organise;\n• heritage (traditions passed down from the past), custom, tradition, an elder, the palace, the chief (the Fon, the Lamido, the Sultan).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complete: “The Fon wore his ___ — a beaded hat and a long robe — for the festival.”",
+  "steps": [
+   "The special clothes and objects of a chief are called regalia.",
+   "So the word is “regalia”."
+  ],
+  "answer": "regalia",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c82-1",
+    "status": "draft",
+    "idea": "A masquerade is a dance by people wearing masks.",
+    "vars": {},
+    "example": [
+     "The masquerade danced in the palace yard."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-82-def"
+    }
+   },
+   {
+    "id": "c82-2",
+    "status": "draft",
+    "idea": "To commemorate is to remember an event with a ceremony.",
+    "vars": {},
+    "example": [
+     "We commemorate the National Day on {20} May."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-82-cl"
+    }
+   },
+   {
+    "id": "c82-3",
+    "status": "draft",
+    "idea": "Heritage means the traditions passed down from the past.",
+    "vars": {},
+    "example": [
+     "Our dances are part of our heritage."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-82-match-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "prompt": "Match each word to its meaning.",
+     "pool": [
+      {
+       "left": "regalia",
+       "right": "the special clothes and objects of a chief"
+      },
+      {
+       "left": "heritage",
+       "right": "traditions passed down from the past"
+      },
+      {
+       "left": "ritual",
+       "right": "a set of actions done in the same way in a ceremony"
+      },
+      {
+       "left": "an elder",
+       "right": "an old, respected person in a community"
+      },
+      {
+       "left": "a parade",
+       "right": "a public march to celebrate"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-82-def",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "a masquerade",
+       "r": "a dance by people wearing masks",
+       "w": [
+        "a market",
+        "a kind of food",
+        "a school"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Masks are worn."
+      },
+      {
+       "q": "a procession",
+       "r": "people moving forward in a line during a ceremony",
+       "w": [
+        "a quarrel",
+        "a meal",
+        "a game of cards"
+       ],
+       "e": [
+        "Not the meaning.",
+        "That is a feast.",
+        "Not the meaning."
+       ],
+       "y": "They walk in a line."
+      },
+      {
+       "q": "a feast",
+       "r": "a large special meal for a celebration",
+       "w": [
+        "a dance",
+        "a mask",
+        "a drum"
+       ],
+       "e": [
+        "Not the meaning.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "Lots of food to celebrate."
+      }
+     ]
+    }
+   },
+   "prompt": "What does “{X.q}” mean?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-82-cl",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "On 20 May we ___ the unification of Cameroon.",
+       "a": "commemorate",
+       "w": [
+        "forget",
+        "destroy"
+       ],
+       "e": [
+        "We remember it.",
+        "Not the meaning."
+       ]
+      },
+      {
+       "s": "The dancers will ___ in front of the chief.",
+       "a": "perform",
+       "w": [
+        "sleep",
+        "vaccinate"
+       ],
+       "e": [
+        "They dance, not sleep.",
+        "Not the meaning."
+       ]
+      },
+      {
+       "s": "Our traditional dances are part of our cultural ___.",
+       "a": "heritage",
+       "w": [
+        "symptom",
+        "outbreak"
+       ],
+       "e": [
+        "That is a sign of disease.",
+        "That is the start of a disease."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-82-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "regalia",
+     "right": "the special clothes and objects of a chief"
+    },
+    {
+     "left": "heritage",
+     "right": "traditions passed down from the past"
+    },
+    {
+     "left": "ritual",
+     "right": "a set of actions done in the same way in a ceremony"
+    },
+    {
+     "left": "an elder",
+     "right": "an old, respected person in a community"
+    },
+    {
+     "left": "a parade",
+     "right": "a public march to celebrate"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-82-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which sentence uses a word wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "The masquerade wore a frightening mask.",
+      "truth": "true"
+     },
+     {
+      "text": "We celebrate the National Day.",
+      "truth": "true"
+     },
+     {
+      "text": "The chief wore his regalia.",
+      "truth": "true"
+     },
+     {
+      "text": "The procession moved slowly.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A feast is a kind of mask.",
+      "truth": "false",
+      "explain": "A feast is a big meal."
+     },
+     {
+      "text": "To commemorate means to forget.",
+      "truth": "false",
+      "explain": "It means to remember."
+     },
+     {
+      "text": "Heritage means the newest fashion.",
+      "truth": "false",
+      "explain": "It means traditions from the past."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

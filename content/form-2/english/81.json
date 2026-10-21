@@ -1,0 +1,343 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 81,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-81",
+   "name": "Talking about festivals and cultural activities; reading about the Ngondo"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: The Ngondo festival\nEvery year in December, the Sawa people of the Littoral gather on the banks of the Wouri river in Douala for the Ngondo. It is a festival of the water spirits and of the ancestors. The high point is when a diver goes under the water to receive a message from the spirits; when he comes out, the message is read to the people. There are also canoe races, wrestling, dances, a beauty contest and a fair. For the Sawa, the Ngondo keeps their traditions alive, brings families together and attracts tourists. “A people without culture is like a tree without roots,” says an elder.\n\nOther festivals of Cameroon: the Nyem-Nyem (Adamawa), the Ngouon (Bamoun, Foumban), the Lela (Bali Nyonga), the Mbaya (Tikar), the Medumba festival (Bangangté).\nFestivals keep culture alive, unite people, teach the young and bring income through tourism.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why is the Ngondo important to the Sawa people, according to the text?",
+  "steps": [
+   "The text gives three reasons near the end.",
+   "It keeps their traditions alive, brings families together and attracts tourists."
+  ],
+  "answer": "It keeps their traditions alive, brings families together and attracts tourists.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c81-1",
+    "status": "draft",
+    "idea": "A festival is a time of celebration, often with music, dances and ceremonies.",
+    "vars": {},
+    "example": [
+     "The Ngondo of the Sawa."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-81-comp"
+    }
+   },
+   {
+    "id": "c81-2",
+    "status": "draft",
+    "idea": "Festivals keep culture alive, unite people and attract tourists.",
+    "vars": {},
+    "example": [
+     "A festival brings families together."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-81-why"
+    }
+   },
+   {
+    "id": "c81-3",
+    "status": "draft",
+    "idea": "Cameroon has many festivals: Ngondo, Nyem-Nyem, Ngouon, Lela.",
+    "vars": {},
+    "example": [
+     "The Ngouon is in Foumban."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-81-match-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts",
+      "culture-film"
+     ],
+     "prompt": "Match each festival to its people or town.",
+     "pool": [
+      {
+       "left": "Ngondo",
+       "right": "the Sawa of Douala"
+      },
+      {
+       "left": "Ngouon",
+       "right": "the Bamoun of Foumban"
+      },
+      {
+       "left": "Lela",
+       "right": "Bali Nyonga"
+      },
+      {
+       "left": "Nyem-Nyem",
+       "right": "the Adamawa"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-81-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "where does the Ngondo take place?",
+       "r": "on the banks of the Wouri river in Douala",
+       "w": [
+        "in Foumban",
+        "on Mount Cameroon",
+        "in Maroua"
+       ],
+       "e": [
+        "That is the Ngouon.",
+        "That is not in the text.",
+        "That is not in the text."
+       ],
+       "y": "The text says it."
+      },
+      {
+       "q": "what is the high point of the festival?",
+       "r": "a diver receives a message from the water spirits",
+       "w": [
+        "a football match",
+        "a school prize-giving",
+        "a market day"
+       ],
+       "e": [
+        "Not in the text.",
+        "Not in the text.",
+        "There is a fair, but that is not the high point."
+       ],
+       "y": "The diver goes under the water."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “The Ngondo festival”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-81-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the elder mean by “A people without culture is like a tree without roots”?",
+       "r": "Culture gives a people strength and identity.",
+       "w": [
+        "Trees need water.",
+        "People should cut trees.",
+        "Culture is not important."
+       ],
+       "e": [
+        "He uses a comparison.",
+        "That is not the meaning.",
+        "He says the opposite."
+       ],
+       "y": "Roots hold a tree; culture holds a people."
+      },
+      {
+       "q": "Which is a reason why festivals are important?",
+       "r": "They keep traditions alive.",
+       "w": [
+        "They stop people meeting.",
+        "They destroy culture.",
+        "They make children forget their language."
+       ],
+       "e": [
+        "They bring people together.",
+        "They keep culture.",
+        "They teach the young."
+       ],
+       "y": "Traditions are passed on."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-81-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Match each festival to its people or town.",
+   "pool": [
+    {
+     "left": "Ngondo",
+     "right": "the Sawa of Douala"
+    },
+    {
+     "left": "Ngouon",
+     "right": "the Bamoun of Foumban"
+    },
+    {
+     "left": "Lela",
+     "right": "Bali Nyonga"
+    },
+    {
+     "left": "Nyem-Nyem",
+     "right": "the Adamawa"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-81-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Which statement does not agree with the text?",
+   "pool": {
+    "right": [
+     {
+      "text": "The Ngondo is held every year.",
+      "truth": "true"
+     },
+     {
+      "text": "There are canoe races.",
+      "truth": "true"
+     },
+     {
+      "text": "The festival attracts tourists.",
+      "truth": "true"
+     },
+     {
+      "text": "It honours the ancestors.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The Ngondo takes place in Foumban.",
+      "truth": "false",
+      "explain": "It takes place in Douala, on the Wouri."
+     },
+     {
+      "text": "The diver brings back fish to sell.",
+      "truth": "false",
+      "explain": "He brings back a message from the spirits."
+     },
+     {
+      "text": "The Ngondo is held every month.",
+      "truth": "false",
+      "explain": "It is held every year, in December."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

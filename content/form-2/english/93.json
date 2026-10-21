@@ -1,0 +1,396 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 93,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-93",
+   "name": "Talking about the Cameroon film industry"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dialogue: After the screening\nAYUK: That film was great! I didn't know Cameroonian films were so good.\nMRS TANYI: Our film industry is growing. Some people call it Collywood. Young directors make films with small budgets and share them on television and online.\nAYUK: Who works on a film?\nMRS TANYI: The scriptwriter writes the story, the director guides the actors, the cameraman films, and the editor puts the scenes together. Actors play the characters.\nAYUK: Are there film festivals here?\nMRS TANYI: Yes — the Écrans Noirs festival in Yaoundé shows African films every year. The industry still needs more cinemas and money, but it creates jobs and tells our own stories.\n\nUseful words: a screening (showing a film), a director, a scriptwriter, a producer, a cast (all the actors), a scene, a budget.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "According to Mrs Tanyi, what does a director do?",
+  "steps": [
+   "She lists the jobs on a film.",
+   "She says the director guides the actors."
+  ],
+  "answer": "The director guides the actors.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c93-1",
+    "status": "draft",
+    "idea": "The scriptwriter writes the story; the director guides the actors.",
+    "vars": {},
+    "example": [
+     "The editor puts the scenes together."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-93-jobs"
+    }
+   },
+   {
+    "id": "c93-2",
+    "status": "draft",
+    "idea": "Some people call the Cameroon film industry Collywood.",
+    "vars": {},
+    "example": [
+     "Films are shown on TV and online."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-93-comp"
+    }
+   },
+   {
+    "id": "c93-3",
+    "status": "draft",
+    "idea": "The film industry creates jobs and tells our own stories.",
+    "vars": {},
+    "example": [
+     "It needs more cinemas and money."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-93-why-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts",
+      "culture-film"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does the film industry still need, according to Mrs Tanyi?",
+         "r": "more cinemas and money",
+         "w": [
+          "fewer actors",
+          "no stories",
+          "less television"
+         ],
+         "e": [
+          "Not in the dialogue.",
+          "Not in the dialogue.",
+          "Not in the dialogue."
+         ],
+         "y": "She says so at the end."
+        },
+        {
+         "q": "Why is the film industry important?",
+         "r": "It creates jobs and tells our own stories.",
+         "w": [
+          "It closes schools.",
+          "It stops people reading.",
+          "It has no value."
+         ],
+         "e": [
+          "Not true.",
+          "Not in the dialogue.",
+          "She says the opposite."
+         ],
+         "y": "Jobs and culture."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-93-jobs",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each job to what the person does.",
+   "pool": [
+    {
+     "left": "scriptwriter",
+     "right": "writes the story"
+    },
+    {
+     "left": "director",
+     "right": "guides the actors"
+    },
+    {
+     "left": "cameraman",
+     "right": "films the scenes"
+    },
+    {
+     "left": "editor",
+     "right": "puts the scenes together"
+    },
+    {
+     "left": "actor",
+     "right": "plays a character"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-93-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what do some people call the Cameroon film industry?",
+       "r": "Collywood",
+       "w": [
+        "Hollywood",
+        "Nollywood",
+        "Bollywood"
+       ],
+       "e": [
+        "That is in the United States.",
+        "That is in Nigeria.",
+        "That is in India."
+       ],
+       "y": "Mrs Tanyi says it."
+      },
+      {
+       "q": "which festival shows African films in Yaoundé?",
+       "r": "Écrans Noirs",
+       "w": [
+        "Ngondo",
+        "Nyem-Nyem",
+        "Lela"
+       ],
+       "e": [
+        "That is a Sawa festival.",
+        "That is an Adamawa festival.",
+        "That is a Bali festival."
+       ],
+       "y": "It shows films every year."
+      }
+     ]
+    }
+   },
+   "prompt": "Dialogue “After the screening”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-93-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the film industry still need, according to Mrs Tanyi?",
+       "r": "more cinemas and money",
+       "w": [
+        "fewer actors",
+        "no stories",
+        "less television"
+       ],
+       "e": [
+        "Not in the dialogue.",
+        "Not in the dialogue.",
+        "Not in the dialogue."
+       ],
+       "y": "She says so at the end."
+      },
+      {
+       "q": "Why is the film industry important?",
+       "r": "It creates jobs and tells our own stories.",
+       "w": [
+        "It closes schools.",
+        "It stops people reading.",
+        "It has no value."
+       ],
+       "e": [
+        "Not true.",
+        "Not in the dialogue.",
+        "She says the opposite."
+       ],
+       "y": "Jobs and culture."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-93-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Which statement does not agree with the dialogue?",
+   "pool": {
+    "right": [
+     {
+      "text": "The film industry is growing.",
+      "truth": "true"
+     },
+     {
+      "text": "Films are shared online.",
+      "truth": "true"
+     },
+     {
+      "text": "The editor puts scenes together.",
+      "truth": "true"
+     },
+     {
+      "text": "Écrans Noirs is in Yaoundé.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The director writes the story.",
+      "truth": "false",
+      "explain": "The scriptwriter writes the story."
+     },
+     {
+      "text": "Cameroon has no film festivals.",
+      "truth": "false",
+      "explain": "Écrans Noirs is a film festival."
+     },
+     {
+      "text": "Ayuk did not like the film.",
+      "truth": "false",
+      "explain": "He said it was great."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

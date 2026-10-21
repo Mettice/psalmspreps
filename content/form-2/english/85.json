@@ -1,0 +1,410 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 85,
+ "language": "en",
+ "prerequisites": [
+  81
+ ],
+ "skills": [
+  {
+   "id": "e2-85",
+   "name": "Talking about traditional music; reading about its importance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: The voice of the drums\nIn Grandfather Ndi's village, music is everywhere. The talking drum sends messages from hill to hill: a birth, a death, a meeting at the palace. The balafon, made of wooden keys over calabashes, plays at weddings. Women sing work songs as they hoe the fields, and the rhythm makes the work lighter. At funerals, mournful songs comfort the family. “Our music is our history book,” Grandfather says. “The songs tell where we came from and teach the young how to behave.” Today, young artists mix the old rhythms — bikutsi, makossa, njang, bend skin — with guitars and computers, and Cameroonian music is heard all over the world.\n\nSome Cameroonian music styles: makossa (Douala), bikutsi (Centre, Beti), bend skin (West), njang (North West), assiko (Bassa), mangambeu (West).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why does Grandfather say “Our music is our history book”?",
+  "steps": [
+   "The text says the songs tell where the people came from.",
+   "They also teach the young how to behave, like a book."
+  ],
+  "answer": "Because the songs tell the people's history and teach the young.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c85-1",
+    "status": "draft",
+    "idea": "Traditional music has many uses: messages, weddings, work, funerals.",
+    "vars": {},
+    "example": [
+     "The talking drum sends messages."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-85-comp"
+    }
+   },
+   {
+    "id": "c85-2",
+    "status": "draft",
+    "idea": "Music keeps history and teaches values.",
+    "vars": {},
+    "example": [
+     "Songs tell where we came from."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-85-why-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts",
+      "culture-film"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is the main idea of the text?",
+         "r": "Music is an important part of life, history and culture.",
+         "w": [
+          "Drums are too loud.",
+          "Young people hate music.",
+          "Music is only for weddings."
+         ],
+         "e": [
+          "Not the idea.",
+          "They mix old and new.",
+          "It is used in many events."
+         ],
+         "y": "It is everywhere in the village."
+        },
+        {
+         "q": "What do young artists do today, according to the text?",
+         "r": "mix old rhythms with guitars and computers",
+         "w": [
+          "stop playing music",
+          "only play the talking drum",
+          "ban traditional music"
+         ],
+         "e": [
+          "They continue.",
+          "They mix styles.",
+          "They use it."
+         ],
+         "y": "The music is heard all over the world."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c85-3",
+    "status": "draft",
+    "idea": "Cameroonian styles include makossa, bikutsi, bend skin, njang and assiko.",
+    "vars": {},
+    "example": [
+     "Bikutsi comes from the Centre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-85-match"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-85-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "what does the talking drum do?",
+       "r": "it sends messages from hill to hill",
+       "w": [
+        "it cooks food",
+        "it plays only at school",
+        "it makes the rain fall"
+       ],
+       "e": [
+        "Not in the text.",
+        "Not in the text.",
+        "Not in the text."
+       ],
+       "y": "Births, deaths, meetings."
+      },
+      {
+       "q": "what is a balafon made of?",
+       "r": "wooden keys over calabashes",
+       "w": [
+        "metal strings",
+        "plastic pipes",
+        "animal skins only"
+       ],
+       "e": [
+        "Not in the text.",
+        "Not in the text.",
+        "Not in the text."
+       ],
+       "y": "The text describes it."
+      },
+      {
+       "q": "why do women sing work songs?",
+       "r": "the rhythm makes the work lighter",
+       "w": [
+        "to stop working",
+        "to call the rain",
+        "to sell food"
+       ],
+       "e": [
+        "They keep working.",
+        "Not in the text.",
+        "Not in the text."
+       ],
+       "y": "Music helps the work."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “The voice of the drums”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-85-why",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the main idea of the text?",
+       "r": "Music is an important part of life, history and culture.",
+       "w": [
+        "Drums are too loud.",
+        "Young people hate music.",
+        "Music is only for weddings."
+       ],
+       "e": [
+        "Not the idea.",
+        "They mix old and new.",
+        "It is used in many events."
+       ],
+       "y": "It is everywhere in the village."
+      },
+      {
+       "q": "What do young artists do today, according to the text?",
+       "r": "mix old rhythms with guitars and computers",
+       "w": [
+        "stop playing music",
+        "only play the talking drum",
+        "ban traditional music"
+       ],
+       "e": [
+        "They continue.",
+        "They mix styles.",
+        "They use it."
+       ],
+       "y": "The music is heard all over the world."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-85-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Match each music style to its region or people.",
+   "pool": [
+    {
+     "left": "makossa",
+     "right": "Douala"
+    },
+    {
+     "left": "bikutsi",
+     "right": "the Beti of the Centre"
+    },
+    {
+     "left": "njang",
+     "right": "the North West"
+    },
+    {
+     "left": "assiko",
+     "right": "the Bassa"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-85-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Which statement does not agree with the text?",
+   "pool": {
+    "right": [
+     {
+      "text": "Music is played at funerals.",
+      "truth": "true"
+     },
+     {
+      "text": "The balafon plays at weddings.",
+      "truth": "true"
+     },
+     {
+      "text": "Songs teach the young.",
+      "truth": "true"
+     },
+     {
+      "text": "Cameroonian music is heard abroad.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The talking drum is used to cook food.",
+      "truth": "false",
+      "explain": "It sends messages."
+     },
+     {
+      "text": "Grandfather says music has no value.",
+      "truth": "false",
+      "explain": "He calls it a history book."
+     },
+     {
+      "text": "Young artists refuse to use guitars.",
+      "truth": "false",
+      "explain": "They mix old rhythms with guitars and computers."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

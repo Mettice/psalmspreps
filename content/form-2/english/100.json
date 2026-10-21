@@ -1,0 +1,444 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 100,
+ "language": "en",
+ "prerequisites": [
+  91
+ ],
+ "skills": [
+  {
+   "id": "e2-100",
+   "name": "Conjunctions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A conjunction joins words, phrases or clauses.\n• Coordinating conjunctions join equal parts: and (adds), but (contrasts), or (choice), so (result), for, nor, yet. “I like films, but my brother prefers music.”\n• Subordinating conjunctions introduce a dependent clause: because, since (reason); although, though (contrast); when, while, after, before, until (time); if, unless (condition); so that (purpose).\n“We stayed inside because it was raining.” “Although she was tired, she danced all night.”\n• Correlative pairs: both … and, either … or, neither … nor, not only … but also.\nA comma is used after a subordinate clause at the start: “When the film ended, we went home.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Join with a suitable conjunction: “The concert was cancelled. The singer was ill.”",
+  "steps": [
+   "The second sentence gives the reason for the first.",
+   "A reason is introduced by “because”: The concert was cancelled because the singer was ill."
+  ],
+  "answer": "The concert was cancelled because the singer was ill.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c100-1",
+    "status": "draft",
+    "idea": "and adds, but contrasts, or gives a choice, so gives a result.",
+    "vars": {},
+    "example": [
+     "I was tired, so I slept."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-100-co"
+    }
+   },
+   {
+    "id": "c100-2",
+    "status": "draft",
+    "idea": "because gives a reason; although gives a contrast; when gives a time; if gives a condition.",
+    "vars": {},
+    "example": [
+     "If it rains, we will stay home."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-100-sub-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "We stayed inside ___ it was raining.",
+         "a": "because",
+         "w": [
+          "although",
+          "unless"
+         ],
+         "e": [
+          "It gives the reason.",
+          "It gives the reason."
+         ]
+        },
+        {
+         "s": "___ she was tired, she danced all night.",
+         "a": "Although",
+         "w": [
+          "Because",
+          "If"
+         ],
+         "e": [
+          "There is a contrast.",
+          "There is a contrast."
+         ]
+        },
+        {
+         "s": "You will not pass ___ you study.",
+         "a": "unless",
+         "w": [
+          "because",
+          "although"
+         ],
+         "e": [
+          "unless = if not.",
+          "unless = if not."
+         ]
+        },
+        {
+         "s": "Switch off your phone ___ the film starts.",
+         "a": "before",
+         "w": [
+          "unless",
+          "although"
+         ],
+         "e": [
+          "It gives a time.",
+          "It gives a time."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the conjunction that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   },
+   {
+    "id": "c100-3",
+    "status": "draft",
+    "idea": "Pairs: both … and, either … or, neither … nor.",
+    "vars": {},
+    "example": [
+     "Neither Tabe nor Bih came."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-100-pair"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-100-co",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "I love makossa, ___ my sister prefers bikutsi.",
+       "a": "but",
+       "w": [
+        "and",
+        "so"
+       ],
+       "e": [
+        "There is a contrast.",
+        "It is not a result."
+       ]
+      },
+      {
+       "s": "Do you want tea ___ coffee?",
+       "a": "or",
+       "w": [
+        "but",
+        "so"
+       ],
+       "e": [
+        "It is a choice.",
+        "It is a choice."
+       ]
+      },
+      {
+       "s": "The hall was full, ___ we watched from the door.",
+       "a": "so",
+       "w": [
+        "or",
+        "but"
+       ],
+       "e": [
+        "It is a result.",
+        "It is a result, not a contrast."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the conjunction that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-100-sub",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "We stayed inside ___ it was raining.",
+       "a": "because",
+       "w": [
+        "although",
+        "unless"
+       ],
+       "e": [
+        "It gives the reason.",
+        "It gives the reason."
+       ]
+      },
+      {
+       "s": "___ she was tired, she danced all night.",
+       "a": "Although",
+       "w": [
+        "Because",
+        "If"
+       ],
+       "e": [
+        "There is a contrast.",
+        "There is a contrast."
+       ]
+      },
+      {
+       "s": "You will not pass ___ you study.",
+       "a": "unless",
+       "w": [
+        "because",
+        "although"
+       ],
+       "e": [
+        "unless = if not.",
+        "unless = if not."
+       ]
+      },
+      {
+       "s": "Switch off your phone ___ the film starts.",
+       "a": "before",
+       "w": [
+        "unless",
+        "although"
+       ],
+       "e": [
+        "It gives a time.",
+        "It gives a time."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the conjunction that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-100-pair",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Neither Tabe ___ Bih came to the rehearsal.",
+       "a": "nor",
+       "w": [
+        "or",
+        "and"
+       ],
+       "e": [
+        "neither … nor.",
+        "neither … nor."
+       ]
+      },
+      {
+       "s": "You can either sing ___ dance.",
+       "a": "or",
+       "w": [
+        "nor",
+        "but"
+       ],
+       "e": [
+        "either … or.",
+        "either … or."
+       ]
+      },
+      {
+       "s": "She is both an actress ___ a singer.",
+       "a": "and",
+       "w": [
+        "or",
+        "nor"
+       ],
+       "e": [
+        "both … and.",
+        "both … and."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that completes the pair.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-100-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "I was hungry, so I ate.",
+      "truth": "true"
+     },
+     {
+      "text": "Although it rained, we played.",
+      "truth": "true"
+     },
+     {
+      "text": "Neither he nor she came.",
+      "truth": "true"
+     },
+     {
+      "text": "We left because it was late.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Although it rained, but we played.",
+      "truth": "false",
+      "explain": "Do not use although and but together."
+     },
+     {
+      "text": "Neither Tabe or Bih sang.",
+      "truth": "false",
+      "explain": "neither … nor."
+     },
+     {
+      "text": "I stayed home because of I was sick.",
+      "truth": "false",
+      "explain": "because I was sick (or because of my sickness)."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

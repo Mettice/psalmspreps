@@ -1,0 +1,347 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 104,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-104",
+   "name": "Talking about where and how to spend the holiday"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To talk about plans, use:\n• “going to” for decisions already made: “I'm going to visit my grandmother in Kumbo.”\n• “will” for things decided now or predictions: “I think I'll help my uncle in his shop.”\n• the present continuous for fixed arrangements: “We're travelling to Kribi on 2 July.”\n• “would like to” for wishes: “I would like to learn to swim.”\nAsking: “Where are you going to spend the holiday?” “What will you do?” “How will you get there?” “Who are you going with?”\nGiving reasons: “because…”, “so that…”. Good holiday activities: helping the family, reading, learning a skill, visiting relatives, sport, revising.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A friend asks: “Where are you going to spend the holiday?” Give a complete answer with a reason.",
+  "steps": [
+   "Use “going to” for a decision already made.",
+   "Add a reason with “because”: “I'm going to spend it in Kumbo with my grandmother because she is old and needs help on her farm.”"
+  ],
+  "answer": "I'm going to spend it in Kumbo with my grandmother because she needs help on her farm.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c104-1",
+    "status": "draft",
+    "idea": "“going to” for plans already decided.",
+    "vars": {},
+    "example": [
+     "I'm going to visit my aunt."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-104-plan"
+    }
+   },
+   {
+    "id": "c104-2",
+    "status": "draft",
+    "idea": "“will” for decisions made now and predictions; “would like to” for wishes.",
+    "vars": {},
+    "example": [
+     "I think I'll read a lot."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-104-will"
+    }
+   },
+   {
+    "id": "c104-3",
+    "status": "draft",
+    "idea": "Ask: Where…? What…? How…? Who … with?",
+    "vars": {},
+    "example": [
+     "How will you get there?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-104-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "I am going to visit my grandmother in Kumbo.",
+         "b": "I am going to visit my grandmother in Kumbo."
+        },
+        {
+         "a": "We are travelling to Kribi in July.",
+         "b": "We are travelling to Kribi in July."
+        },
+        {
+         "a": "I would like to learn how to swim.",
+         "b": "I would like to learn how to swim."
+        },
+        {
+         "a": "Where are you going to spend the holiday?",
+         "b": "Where are you going to spend the holiday?"
+        }
+       ]
+      }
+     },
+     "prompt": "Put the words in the right order.",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-104-plan",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "I have bought my ticket. I ___ travel to Kribi on Monday.",
+       "a": "am going to",
+       "w": [
+        "would",
+        "was"
+       ],
+       "e": [
+        "The plan is already made: going to.",
+        "That is the past."
+       ]
+      },
+      {
+       "s": "The phone is ringing. I ___ answer it.",
+       "a": "will",
+       "w": [
+        "am going to",
+        "was"
+       ],
+       "e": [
+        "A decision made now: will.",
+        "That is the past."
+       ]
+      },
+      {
+       "s": "I ___ learn to swim one day.",
+       "a": "would like to",
+       "w": [
+        "was",
+        "did"
+       ],
+       "e": [
+        "A wish: would like to.",
+        "That is the past."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the form that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-104-will",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which question asks about transport?",
+       "r": "How will you get there?",
+       "w": [
+        "Who are you going with?",
+        "Where will you stay?",
+        "Why are you going?"
+       ],
+       "e": [
+        "That asks about people.",
+        "That asks about a place.",
+        "That asks for a reason."
+       ],
+       "y": "“How” + get there = transport."
+      },
+      {
+       "q": "Which is a useful holiday activity?",
+       "r": "helping the family and revising lessons",
+       "w": [
+        "sleeping all day every day",
+        "fighting with neighbours",
+        "forgetting everything learnt"
+       ],
+       "e": [
+        "Not useful.",
+        "Not useful.",
+        "Not useful."
+       ],
+       "y": "Use the holiday well."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-104-wo",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "I am going to visit my grandmother in Kumbo.",
+       "b": "I am going to visit my grandmother in Kumbo."
+      },
+      {
+       "a": "We are travelling to Kribi in July.",
+       "b": "We are travelling to Kribi in July."
+      },
+      {
+       "a": "I would like to learn how to swim.",
+       "b": "I would like to learn how to swim."
+      },
+      {
+       "a": "Where are you going to spend the holiday?",
+       "b": "Where are you going to spend the holiday?"
+      }
+     ]
+    }
+   },
+   "prompt": "Put the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-104-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "I'm going to visit my aunt.",
+      "truth": "true"
+     },
+     {
+      "text": "I think I'll read a lot.",
+      "truth": "true"
+     },
+     {
+      "text": "Where are you going to stay?",
+      "truth": "true"
+     },
+     {
+      "text": "I would like to learn the guitar.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "I going to visit my uncle.",
+      "truth": "false",
+      "explain": "Add am: I am going to visit my uncle."
+     },
+     {
+      "text": "I would like learn to swim.",
+      "truth": "false",
+      "explain": "would like to + verb: I would like to learn."
+     },
+     {
+      "text": "Where you will spend the holiday?",
+      "truth": "false",
+      "explain": "Question order: Where will you spend the holiday?"
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

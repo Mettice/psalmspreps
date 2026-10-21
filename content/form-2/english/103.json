@@ -1,0 +1,434 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 103,
+ "language": "en",
+ "prerequisites": [
+  102
+ ],
+ "skills": [
+  {
+   "id": "e2-103",
+   "name": "Consolidation: the Simple Past tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Simple Past is used for finished actions at a definite time in the past: yesterday, last week, in 2020, two days ago.\nRegular verbs add -ed: play → played, dance → danced (just -d), stop → stopped (double the consonant), study → studied (y → ied).\nIrregular verbs have special forms: go → went, see → saw, sing → sang, write → wrote, buy → bought, begin → began, win → won, take → took, meet → met.\nNegative: did not (didn't) + base verb: “We didn't see the film.”\nQuestion: Did + subject + base verb: “Did you enjoy the concert?”\nBe: I/he/she/it was; you/we/they were.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "sing"
+  },
+  "problem": "Write “{v}” in the Simple Past, then make a negative sentence with it.",
+  "steps": [
+   "“{v}” is irregular: {past(v)}.",
+   "Negative: didn't + base verb: “The choir didn't {v} yesterday.”"
+  ],
+  "answer": "{past(v)}; The choir didn't {v} yesterday.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c103-1",
+    "status": "draft",
+    "idea": "Regular verbs add -ed: played, danced, stopped, studied.",
+    "vars": {},
+    "example": [
+     "We danced all night."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-103-form"
+    }
+   },
+   {
+    "id": "c103-2",
+    "status": "draft",
+    "idea": "Irregular verbs have special forms: went, saw, sang, wrote.",
+    "vars": {},
+    "example": [
+     "She sang beautifully."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-103-irr"
+    }
+   },
+   {
+    "id": "c103-3",
+    "status": "draft",
+    "idea": "Negative and question: didn't / Did + base verb.",
+    "vars": {},
+    "example": [
+     "Did you see the film?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-103-neg-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "We didn't ___ the end of the film.",
+         "a": "see",
+         "w": [
+          "saw",
+          "seen"
+         ],
+         "e": [
+          "After didn't, the base verb.",
+          "After didn't, the base verb."
+         ]
+        },
+        {
+         "s": "Did you ___ to the concert last night?",
+         "a": "go",
+         "w": [
+          "went",
+          "gone"
+         ],
+         "e": [
+          "After Did, the base verb.",
+          "After Did, the base verb."
+         ]
+        },
+        {
+         "s": "The singers ___ very happy after the show.",
+         "a": "were",
+         "w": [
+          "was",
+          "are"
+         ],
+         "e": [
+          "They → were.",
+          "It was last night: past."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct form.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-103-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "go",
+      "see",
+      "sing",
+      "write",
+      "buy",
+      "bring",
+      "begin",
+      "meet",
+      "take",
+      "win",
+      "dance",
+      "play",
+      "watch",
+      "stop",
+      "travel",
+      "visit"
+     ]
+    }
+   },
+   "prompt": "Write the verb in the Simple Past.",
+   "text": "Last Saturday, we ___ at the festival. ({v})",
+   "answer": "past(v)",
+   "misconceptions": [
+    {
+     "id": "present",
+     "wrong": "v",
+     "explain": "It was last Saturday: use the past, {past(v)}."
+    },
+    {
+     "id": "ed",
+     "wrong": "v + 'ed'",
+     "explain": "Check the past form: {past(v)}.",
+     "when": "past(v) != v + 'ed'"
+    }
+   ],
+   "solution": [
+    "Last Saturday is finished: Simple Past.",
+    "{v} → {answer}."
+   ]
+  },
+  {
+   "id": "e2-103-irr",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "win",
+       "r": "won",
+       "w": [
+        "winned",
+        "wan",
+        "wins"
+       ],
+       "e": [
+        "Irregular: won.",
+        "Not a word.",
+        "That is present."
+       ],
+       "y": "win → won."
+      },
+      {
+       "q": "buy",
+       "r": "bought",
+       "w": [
+        "buyed",
+        "brought",
+        "buys"
+       ],
+       "e": [
+        "Irregular: bought.",
+        "That is the past of bring.",
+        "That is present."
+       ],
+       "y": "buy → bought."
+      },
+      {
+       "q": "begin",
+       "r": "began",
+       "w": [
+        "begun",
+        "beginned",
+        "begins"
+       ],
+       "e": [
+        "That is the past participle.",
+        "Irregular: began.",
+        "That is present."
+       ],
+       "y": "begin → began."
+      },
+      {
+       "q": "stop",
+       "r": "stopped",
+       "w": [
+        "stoped",
+        "stopt",
+        "stops"
+       ],
+       "e": [
+        "Double the p.",
+        "Not standard.",
+        "That is present."
+       ],
+       "y": "stop → stopped."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the Simple Past of “{X.q}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-103-neg",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "We didn't ___ the end of the film.",
+       "a": "see",
+       "w": [
+        "saw",
+        "seen"
+       ],
+       "e": [
+        "After didn't, the base verb.",
+        "After didn't, the base verb."
+       ]
+      },
+      {
+       "s": "Did you ___ to the concert last night?",
+       "a": "go",
+       "w": [
+        "went",
+        "gone"
+       ],
+       "e": [
+        "After Did, the base verb.",
+        "After Did, the base verb."
+       ]
+      },
+      {
+       "s": "The singers ___ very happy after the show.",
+       "a": "were",
+       "w": [
+        "was",
+        "are"
+       ],
+       "e": [
+        "They → were.",
+        "It was last night: past."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-103-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "We watched a film yesterday.",
+      "truth": "true"
+     },
+     {
+      "text": "She didn't come.",
+      "truth": "true"
+     },
+     {
+      "text": "Did they win?",
+      "truth": "true"
+     },
+     {
+      "text": "The concert began at eight.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "He didn't went to school.",
+      "truth": "false",
+      "explain": "After didn't, the base verb: go."
+     },
+     {
+      "text": "Did she sang well?",
+      "truth": "false",
+      "explain": "After did, the base verb: sing."
+     },
+     {
+      "text": "They was at the festival.",
+      "truth": "false",
+      "explain": "They were."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

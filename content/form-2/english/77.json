@@ -1,0 +1,443 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 77,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-77",
+   "name": "Talking about diseases and pandemics; reading a dialogue about COVID-19"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dialogue: At the school gate, March 2020\nBIH: Why is everybody wearing a mask today?\nNURSE NJI: Because of COVID-19. It is a new disease caused by a virus. It started in one country and spread all over the world, so it is a pandemic.\nBIH: How does it spread?\nNURSE NJI: Through tiny drops when a sick person coughs, sneezes or talks. That is why we wash our hands with soap, cover our mouths when we cough and keep a distance of one metre.\nBIH: Can it be cured?\nNURSE NJI: Most people get better, but old people and the sick can die. Now there are vaccines. Stay calm, follow the rules and protect others.\n\nAn epidemic spreads quickly in one area; a pandemic spreads across the world; an endemic disease (malaria in Cameroon) is always present in a region.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In the dialogue, why does the nurse call COVID-{19} a pandemic?",
+  "steps": [
+   "A pandemic spreads across many countries or the whole world.",
+   "The nurse says it started in one country and spread all over the world."
+  ],
+  "answer": "Because it spread all over the world.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c77-1",
+    "status": "draft",
+    "idea": "An epidemic spreads quickly in one area; a pandemic spreads across the world.",
+    "vars": {},
+    "example": [
+     "Cholera in a town: an epidemic.",
+     "COVID-{19}: a pandemic."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-77-word"
+    }
+   },
+   {
+    "id": "c77-2",
+    "status": "draft",
+    "idea": "Read a dialogue by noting who speaks and what each person asks or answers.",
+    "vars": {},
+    "example": [
+     "Bih asks; Nurse Nji explains."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-77-comp"
+    }
+   },
+   {
+    "id": "c77-3",
+    "status": "draft",
+    "idea": "Simple habits stop diseases from spreading: washing hands, covering coughs, keeping a distance.",
+    "vars": {},
+    "example": [
+     "Wash your hands with soap."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-77-prev-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts",
+      "culture-film"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Which habit helps to stop COVID-19 from spreading?",
+         "r": "washing hands with soap",
+         "w": [
+          "sharing cups",
+          "coughing into your hands and shaking hands",
+          "standing very close to others"
+         ],
+         "e": [
+          "That spreads germs.",
+          "That spreads germs.",
+          "Keep a distance."
+         ],
+         "y": "Soap kills the virus on hands."
+        },
+        {
+         "q": "Who is most at risk of dying from COVID-19, according to the nurse?",
+         "r": "old people and the sick",
+         "w": [
+          "healthy children only",
+          "nobody",
+          "only nurses"
+         ],
+         "e": [
+          "The nurse says old and sick people.",
+          "Some people die.",
+          "She does not say that."
+         ],
+         "y": "Old people and the sick."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-77-word",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a pandemic?",
+       "r": "a disease that spreads across many countries or the whole world",
+       "w": [
+        "a disease in one family",
+        "a disease that is always present in one region",
+        "a cure for a disease"
+       ],
+       "e": [
+        "That is too small.",
+        "That is an endemic disease.",
+        "It is a disease, not a cure."
+       ],
+       "y": "Pan- means all."
+      },
+      {
+       "q": "Malaria is always present in Cameroon. What kind of disease is it there?",
+       "r": "endemic",
+       "w": [
+        "a pandemic",
+        "an epidemic only",
+        "a vaccine"
+       ],
+       "e": [
+        "It is not spreading over the world now.",
+        "It is always present, not a sudden outbreak.",
+        "A vaccine prevents disease."
+       ],
+       "y": "Endemic means always present in a region."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-77-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "why is everybody wearing a mask?",
+       "r": "because of COVID-19",
+       "w": [
+        "because it is cold",
+        "because of a festival",
+        "because of dust"
+       ],
+       "e": [
+        "The dialogue says COVID-19.",
+        "The dialogue says COVID-19.",
+        "The dialogue says COVID-19."
+       ],
+       "y": "The nurse explains it."
+      },
+      {
+       "q": "how does the disease spread?",
+       "r": "through tiny drops when a sick person coughs, sneezes or talks",
+       "w": [
+        "through mosquito bites",
+        "through dirty water only",
+        "through eating mangoes"
+       ],
+       "e": [
+        "That is malaria.",
+        "That is cholera.",
+        "That is not true."
+       ],
+       "y": "The nurse says it."
+      }
+     ]
+    }
+   },
+   "prompt": "Dialogue “At the school gate”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-77-prev",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which habit helps to stop COVID-19 from spreading?",
+       "r": "washing hands with soap",
+       "w": [
+        "sharing cups",
+        "coughing into your hands and shaking hands",
+        "standing very close to others"
+       ],
+       "e": [
+        "That spreads germs.",
+        "That spreads germs.",
+        "Keep a distance."
+       ],
+       "y": "Soap kills the virus on hands."
+      },
+      {
+       "q": "Who is most at risk of dying from COVID-19, according to the nurse?",
+       "r": "old people and the sick",
+       "w": [
+        "healthy children only",
+        "nobody",
+        "only nurses"
+       ],
+       "e": [
+        "The nurse says old and sick people.",
+        "Some people die.",
+        "She does not say that."
+       ],
+       "y": "Old people and the sick."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-77-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Which statement does not agree with the dialogue?",
+   "pool": {
+    "right": [
+     {
+      "text": "COVID-19 is caused by a virus.",
+      "truth": "true"
+     },
+     {
+      "text": "Vaccines now exist.",
+      "truth": "true"
+     },
+     {
+      "text": "People should keep a distance.",
+      "truth": "true"
+     },
+     {
+      "text": "Most people get better.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "COVID-19 is spread by mosquitoes.",
+      "truth": "false",
+      "explain": "It spreads through tiny drops from coughs and sneezes."
+     },
+     {
+      "text": "COVID-19 stayed in one village.",
+      "truth": "false",
+      "explain": "It spread all over the world."
+     },
+     {
+      "text": "The nurse tells Bih to panic.",
+      "truth": "false",
+      "explain": "She tells her to stay calm."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,400 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 98,
+ "language": "en",
+ "prerequisites": [
+  85
+ ],
+ "skills": [
+  {
+   "id": "e2-98",
+   "name": "Naming musical instruments"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Musical instruments are grouped by how they make sound:\n• percussion (struck or shaken): the drum, the talking drum, the tam-tam, the balafon, the xylophone, the rattle (maracas), the gong, the bell;\n• string (strings are plucked or bowed): the guitar, the harp, the violin, the mvet (a Beti harp-zither), the kora;\n• wind (you blow into them): the flute, the trumpet, the saxophone, the horn, the whistle;\n• keyboard: the piano, the keyboard (electronic), the organ.\nPeople: a drummer, a guitarist, a pianist, a flautist, a band, an orchestra.\nDrawing task: in your exercise book, draw two instruments from your region and label their parts (for example: drum — body, skin, ropes; guitar — body, neck, strings, sound hole).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "To which group does the mvet belong?",
+  "steps": [
+   "The mvet has strings that are plucked.",
+   "Instruments with strings belong to the string group."
+  ],
+  "answer": "the string instruments",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c98-1",
+    "status": "draft",
+    "idea": "Percussion instruments are struck or shaken: drum, balafon, rattle.",
+    "vars": {},
+    "example": [
+     "The drummer beats the drum."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-98-group"
+    }
+   },
+   {
+    "id": "c98-2",
+    "status": "draft",
+    "idea": "String instruments have strings; wind instruments are blown.",
+    "vars": {},
+    "example": [
+     "guitar (string), flute (wind)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-98-match"
+    }
+   },
+   {
+    "id": "c98-3",
+    "status": "draft",
+    "idea": "A person who plays a guitar is a guitarist; a piano, a pianist.",
+    "vars": {},
+    "example": [
+     "The drummer leads the band."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-98-player-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "A person who plays the guitar is a ___.",
+         "a": "guitarist",
+         "w": [
+          "guitarer",
+          "guitarman"
+         ],
+         "e": [
+          "Add -ist.",
+          "Add -ist."
+         ]
+        },
+        {
+         "s": "A person who plays the piano is a ___.",
+         "a": "pianist",
+         "w": [
+          "pianer",
+          "pianoist"
+         ],
+         "e": [
+          "piano → pianist.",
+          "piano → pianist."
+         ]
+        },
+        {
+         "s": "A person who plays the drum is a ___.",
+         "a": "drummer",
+         "w": [
+          "drumist",
+          "drumer"
+         ],
+         "e": [
+          "drum → drummer.",
+          "Double the m: drummer."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-98-group",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "i": "the balafon",
+       "a": "percussion",
+       "w": [
+        "wind",
+        "string",
+        "keyboard"
+       ]
+      },
+      {
+       "i": "the flute",
+       "a": "wind",
+       "w": [
+        "percussion",
+        "string",
+        "keyboard"
+       ]
+      },
+      {
+       "i": "the guitar",
+       "a": "string",
+       "w": [
+        "wind",
+        "percussion",
+        "keyboard"
+       ]
+      },
+      {
+       "i": "the talking drum",
+       "a": "percussion",
+       "w": [
+        "wind",
+        "string",
+        "keyboard"
+       ]
+      },
+      {
+       "i": "the saxophone",
+       "a": "wind",
+       "w": [
+        "string",
+        "percussion",
+        "keyboard"
+       ]
+      },
+      {
+       "i": "the piano",
+       "a": "keyboard",
+       "w": [
+        "wind",
+        "percussion",
+        "string"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "To which group does “{X.i}” belong?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "g"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "g"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "g"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "g",
+     "explain": "Ask how it makes sound: struck/shaken, plucked strings, blown, or keys."
+    }
+   ],
+   "solution": [
+    "Struck or shaken: percussion; strings: string; blown: wind; keys: keyboard.",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "e2-98-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each instrument to how it is played.",
+   "pool": [
+    {
+     "left": "drum",
+     "right": "beaten with the hands or sticks"
+    },
+    {
+     "left": "flute",
+     "right": "blown"
+    },
+    {
+     "left": "guitar",
+     "right": "strings plucked"
+    },
+    {
+     "left": "rattle",
+     "right": "shaken"
+    },
+    {
+     "left": "piano",
+     "right": "keys pressed"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-98-player",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "A person who plays the guitar is a ___.",
+       "a": "guitarist",
+       "w": [
+        "guitarer",
+        "guitarman"
+       ],
+       "e": [
+        "Add -ist.",
+        "Add -ist."
+       ]
+      },
+      {
+       "s": "A person who plays the piano is a ___.",
+       "a": "pianist",
+       "w": [
+        "pianer",
+        "pianoist"
+       ],
+       "e": [
+        "piano → pianist.",
+        "piano → pianist."
+       ]
+      },
+      {
+       "s": "A person who plays the drum is a ___.",
+       "a": "drummer",
+       "w": [
+        "drumist",
+        "drumer"
+       ],
+       "e": [
+        "drum → drummer.",
+        "Double the m: drummer."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-98-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The balafon is a percussion instrument.",
+      "truth": "true"
+     },
+     {
+      "text": "The flute is a wind instrument.",
+      "truth": "true"
+     },
+     {
+      "text": "The guitar has strings.",
+      "truth": "true"
+     },
+     {
+      "text": "A drummer plays the drum.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The trumpet is a string instrument.",
+      "truth": "false",
+      "explain": "You blow into it: a wind instrument."
+     },
+     {
+      "text": "The rattle is played by blowing.",
+      "truth": "false",
+      "explain": "It is shaken: percussion."
+     },
+     {
+      "text": "A pianist plays the guitar.",
+      "truth": "false",
+      "explain": "A pianist plays the piano."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

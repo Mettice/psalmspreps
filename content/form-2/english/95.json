@@ -1,0 +1,358 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 95,
+ "language": "en",
+ "prerequisites": [
+  93
+ ],
+ "skills": [
+  {
+   "id": "e2-95",
+   "name": "Words about films and entertainment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Words about films:\n• kinds of film: an action film, a comedy (funny), a drama (serious), a documentary (real facts), a cartoon (animated), a horror film, a love story;\n• people: the cast, the hero / heroine, the villain (the bad character), an extra, a stuntman, the audience (people watching), a critic;\n• things: the plot (the story), a scene, the soundtrack (the music), subtitles (written words at the bottom of the screen), a trailer (a short preview), a sequel (the next film), a premiere (the first showing), a box office hit;\n• entertainment: a concert, a show, a talent contest, a comedy show, a stage, an audience, to applaud, to rehearse.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "What do we call a film that shows real facts about animals in the Dja reserve?",
+  "steps": [
+   "The film shows real facts, not an invented story.",
+   "A film of real facts is a documentary."
+  ],
+  "answer": "a documentary",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c95-1",
+    "status": "draft",
+    "idea": "A comedy is funny; a documentary shows real facts; a cartoon is animated.",
+    "vars": {},
+    "example": [
+     "We laughed at the comedy."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-95-kind"
+    }
+   },
+   {
+    "id": "c95-2",
+    "status": "draft",
+    "idea": "The plot is the story; the villain is the bad character.",
+    "vars": {},
+    "example": [
+     "The hero defeats the villain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-95-cl"
+    }
+   },
+   {
+    "id": "c95-3",
+    "status": "draft",
+    "idea": "Subtitles are written words at the bottom of the screen.",
+    "vars": {},
+    "example": [
+     "The film had English subtitles."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-95-match-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulary"
+     ],
+     "prompt": "Match each word to its meaning.",
+     "pool": [
+      {
+       "left": "subtitles",
+       "right": "written words at the bottom of the screen"
+      },
+      {
+       "left": "trailer",
+       "right": "a short preview of a film"
+      },
+      {
+       "left": "sequel",
+       "right": "the next film continuing the story"
+      },
+      {
+       "left": "premiere",
+       "right": "the first showing of a film"
+      },
+      {
+       "left": "soundtrack",
+       "right": "the music of a film"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-95-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A film that makes people laugh.",
+       "r": "a comedy",
+       "w": [
+        "a documentary",
+        "a horror film",
+        "a drama"
+       ],
+       "e": [
+        "It shows real facts.",
+        "It frightens people.",
+        "It is serious."
+       ],
+       "y": "Comedy is funny."
+      },
+      {
+       "q": "A film with drawn or computer-made moving pictures.",
+       "r": "a cartoon",
+       "w": [
+        "a documentary",
+        "a love story",
+        "a drama"
+       ],
+       "e": [
+        "It shows real facts.",
+        "That is about romance.",
+        "That is serious."
+       ],
+       "y": "Cartoons are animated."
+      },
+      {
+       "q": "A film that shows real facts about a subject.",
+       "r": "a documentary",
+       "w": [
+        "a comedy",
+        "a cartoon",
+        "an action film"
+       ],
+       "e": [
+        "That is funny.",
+        "That is animated.",
+        "That has fights and chases."
+       ],
+       "y": "Documentaries are factual."
+      }
+     ]
+    }
+   },
+   "prompt": "What kind of film is it? {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-95-cl",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "In the end, the hero caught the ___.",
+       "a": "villain",
+       "w": [
+        "audience",
+        "soundtrack"
+       ],
+       "e": [
+        "The audience watches.",
+        "The soundtrack is music."
+       ]
+      },
+      {
+       "s": "The ___ of the film is about a girl who becomes a doctor.",
+       "a": "plot",
+       "w": [
+        "trailer",
+        "stage"
+       ],
+       "e": [
+        "A trailer is a short preview.",
+        "A stage is where actors perform live."
+       ]
+      },
+      {
+       "s": "The ___ applauded when the show ended.",
+       "a": "audience",
+       "w": [
+        "villain",
+        "scene"
+       ],
+       "e": [
+        "The villain is a character.",
+        "A scene is part of a film."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-95-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "subtitles",
+     "right": "written words at the bottom of the screen"
+    },
+    {
+     "left": "trailer",
+     "right": "a short preview of a film"
+    },
+    {
+     "left": "sequel",
+     "right": "the next film continuing the story"
+    },
+    {
+     "left": "premiere",
+     "right": "the first showing of a film"
+    },
+    {
+     "left": "soundtrack",
+     "right": "the music of a film"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "e2-95-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which sentence uses a word wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "The comedy was very funny.",
+      "truth": "true"
+     },
+     {
+      "text": "The villain stole the money.",
+      "truth": "true"
+     },
+     {
+      "text": "The audience clapped.",
+      "truth": "true"
+     },
+     {
+      "text": "The trailer showed the best scenes.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A documentary is an invented fairy tale.",
+      "truth": "false",
+      "explain": "A documentary shows real facts."
+     },
+     {
+      "text": "The audience are the actors in the film.",
+      "truth": "false",
+      "explain": "The audience are the people watching."
+     },
+     {
+      "text": "Subtitles are the music of the film.",
+      "truth": "false",
+      "explain": "Subtitles are written words; the music is the soundtrack."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

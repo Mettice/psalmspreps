@@ -1,0 +1,458 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 89,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-89",
+   "name": "Talking about national languages; reading about a mother tongue"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Text: Speaking the language of my grandmother\nWhen Ngum visited her grandmother in Kom, she felt like a stranger. Grandmother spoke only the Kom language, and Ngum, who had grown up in Yaoundé, spoke English and French. They smiled at each other but could not share stories. Back in town, Ngum asked her father to teach her. Every evening they practised greetings, proverbs and songs. At school, she joined the national languages class. The next holiday, she greeted her grandmother in Kom. The old woman cried with joy and told her the story of their family until midnight. “A language is a key,” Ngum wrote in her diary. “It opens the door to my people's wisdom.”\n\nCameroon has more than 250 national languages (Ewondo, Duala, Fulfulde, Kom…) and two official languages, English and French. A mother tongue is the first language learnt at home.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Why did Ngum feel like a stranger in Kom?",
+  "steps": [
+   "Her grandmother spoke only the Kom language.",
+   "Ngum spoke English and French, so they could not share stories."
+  ],
+  "answer": "Because she could not speak her grandmother's language.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c89-1",
+    "status": "draft",
+    "idea": "A mother tongue is the first language a child learns at home.",
+    "vars": {},
+    "example": [
+     "Kom, Ewondo, Duala are national languages."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-89-comp"
+    }
+   },
+   {
+    "id": "c89-2",
+    "status": "draft",
+    "idea": "Cameroon has more than {250} national languages and two official languages.",
+    "vars": {},
+    "example": [
+     "English and French are official."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-89-facts"
+    }
+   },
+   {
+    "id": "c89-3",
+    "status": "draft",
+    "idea": "National languages carry culture, proverbs and history.",
+    "vars": {},
+    "example": [
+     "A language is a key."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-89-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts",
+      "culture-film"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does Ngum mean by “A language is a key”?",
+         "r": "A language opens the way to a people's wisdom and culture.",
+         "w": [
+          "A language opens real doors.",
+          "Keys can speak.",
+          "Languages are useless."
+         ],
+         "e": [
+          "It is a comparison.",
+          "Not the meaning.",
+          "She says the opposite."
+         ],
+         "y": "She learnt her family's story."
+        },
+        {
+         "q": "What is the main lesson of the text?",
+         "r": "Learning your mother tongue connects you to your family and culture.",
+         "w": [
+          "Only English is important.",
+          "Grandmothers should learn French.",
+          "Holidays are boring."
+         ],
+         "e": [
+          "Not the lesson.",
+          "Not the lesson.",
+          "Not the lesson."
+         ],
+         "y": "Ngum and her grandmother can now share stories."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-89-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "which language did the grandmother speak?",
+       "r": "Kom",
+       "w": [
+        "French",
+        "English",
+        "Fulfulde"
+       ],
+       "e": [
+        "Ngum spoke French.",
+        "Ngum spoke English.",
+        "Not in the text."
+       ],
+       "y": "She spoke only Kom."
+      },
+      {
+       "q": "who taught Ngum the language?",
+       "r": "her father",
+       "w": [
+        "her grandmother at first",
+        "a stranger",
+        "nobody"
+       ],
+       "e": [
+        "She could not talk to her at first.",
+        "Not in the text.",
+        "Her father taught her."
+       ],
+       "y": "They practised every evening."
+      },
+      {
+       "q": "what did the grandmother do when Ngum greeted her in Kom?",
+       "r": "she cried with joy and told the family story",
+       "w": [
+        "she got angry",
+        "she left the house",
+        "she spoke French"
+       ],
+       "e": [
+        "Not in the text.",
+        "Not in the text.",
+        "She spoke only Kom."
+       ],
+       "y": "The text says so."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “Speaking the language of my grandmother”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-89-facts",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are Cameroon's two official languages?",
+       "r": "English and French",
+       "w": [
+        "Duala and Ewondo",
+        "Fulfulde and Bassa",
+        "Spanish and German"
+       ],
+       "e": [
+        "Those are national languages.",
+        "Those are national languages.",
+        "Not official in Cameroon."
+       ],
+       "y": "The two official languages."
+      },
+      {
+       "q": "What is a mother tongue?",
+       "r": "the first language a child learns at home",
+       "w": [
+        "a language spoken only by mothers",
+        "a foreign language",
+        "a sign language only"
+       ],
+       "e": [
+        "Not the meaning.",
+        "It is learnt at home.",
+        "Not the meaning."
+       ],
+       "y": "The home language."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-89-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does Ngum mean by “A language is a key”?",
+       "r": "A language opens the way to a people's wisdom and culture.",
+       "w": [
+        "A language opens real doors.",
+        "Keys can speak.",
+        "Languages are useless."
+       ],
+       "e": [
+        "It is a comparison.",
+        "Not the meaning.",
+        "She says the opposite."
+       ],
+       "y": "She learnt her family's story."
+      },
+      {
+       "q": "What is the main lesson of the text?",
+       "r": "Learning your mother tongue connects you to your family and culture.",
+       "w": [
+        "Only English is important.",
+        "Grandmothers should learn French.",
+        "Holidays are boring."
+       ],
+       "e": [
+        "Not the lesson.",
+        "Not the lesson.",
+        "Not the lesson."
+       ],
+       "y": "Ngum and her grandmother can now share stories."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-89-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Which statement does not agree with the text?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ngum grew up in Yaoundé.",
+      "truth": "true"
+     },
+     {
+      "text": "She joined a national languages class.",
+      "truth": "true"
+     },
+     {
+      "text": "Her father taught her.",
+      "truth": "true"
+     },
+     {
+      "text": "Her grandmother was very happy.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ngum already spoke Kom perfectly.",
+      "truth": "false",
+      "explain": "She could not speak it at first."
+     },
+     {
+      "text": "The grandmother spoke English and French.",
+      "truth": "false",
+      "explain": "She spoke only Kom."
+     },
+     {
+      "text": "Ngum decided never to visit Kom again.",
+      "truth": "false",
+      "explain": "She learnt the language and went back."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

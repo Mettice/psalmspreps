@@ -27,7 +27,7 @@ Related files: `content/maths/AUTHORED.md` (every authored question, all variant
 ## P1 summary: check these first
 
 P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wording. P3 = cosmetic.
-230 P1 items: 228 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3, Français intensif Term 2 3, Maths Term 3 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
+233 P1 items: 231 open, 2 closed (Maths 25, English 18, Physics 18, Chemistry 13, Geography 13, Home Economics 13, History 7, Biology 10, Computer Science 8, French 9; Form 2, on the form-2 branch: Maths 8, English 5, Physics 5, Chemistry 4, Biology 6, Home Economics 4, Geography 4, History 4, Computer Science 4, Accounting 3, French 6, Maths Term 2 4, English Term 2 3, Physics Term 2 4, Chemistry Term 2 4, Biology Term 2 4, Geography Term 2 3, History Term 2 3, Home Economics Term 2 3, Computer Science Term 2 3, Accounting Term 2 2, French Term 2 3, Français intensif Term 2 3, Maths Term 3 3, English Term 3 3). A printable Maths list for teachers: `docs/teacher-review-maths-P1.md`.
 
 | Item | What to check | Status |
 |---|---|---|
@@ -258,6 +258,9 @@ P1 = wrong maths or facts here would mislead the pupil. P2 = conventions and wor
 | TR-N30 | Form 2 Maths: prisms and pyramids | open |
 | TR-N31 | Form 2 Maths: statistics | open |
 | TR-N32 | Form 2 Maths: spheres | open |
+| TR-W20 | Form 2 English Term 3: facts in the texts | open |
+| TR-W21 | Form 2 English Term 3: silent letters | open |
+| TR-W22 | Form 2 English Term 3: grammar rules | open |
 | TR-D01 | "Egyptian rewording (as previously instructed)" | closed |
 | TR-D02 | "Base-60 source (as previously instructed)" | closed |
 
@@ -976,3 +979,12 @@ Writing lessons are paper tasks with a model answer and a self-check list. Revie
 - [ ] **TR-N30 [P1] Solids:** prism and pyramid counts (n + 2, 3n, 2n; n + 1, 2n, n + 1) and Euler's relation; lateral area = perimeter × height; area of a square pyramid's net b² + 2bs; the oblique drawings of prisms and pyramids (hidden edges dashed). *Location:* rows 55–58, 64–66.
 - [ ] **TR-N31 [P1] Statistics:** discrete vs continuous data, pie-chart angles, the median of an even number of values (halfway between the middle two), « no mode » when values tie, mean of a frequency table Σxf ÷ Σf. *Location:* rows 59–63.
 - [ ] **TR-N32 [P1] Spheres:** π = 3.14 (not 22/7) for 4πr² and (4/3)πr³; volumes use radii 3, 6, 9 so the answers have two decimals; please confirm the class convention. *Location:* rows 67–68.
+
+## W (Term 3). English Form 2, Batch E2-3 (Term 3, rows 77–104), added 2026-10-21 (form-2 branch)
+
+28 lessons: diseases and pandemics (a COVID-19 dialogue), health vocabulary, adverbs, a hospital report and slogans, festivals (the Ngondo), festival vocabulary, silent b and p, nouns as modifiers, traditional music, WH- words, conditionals (zero, first, second), the role of women, national languages, gerunds, SVO sentence structure, messages about culture, the film industry, biographies (Manu Dibango and a model actress), film vocabulary, a composition about an admired artist, silent c and l, musical instruments, punctuation, conjunctions, a poem or song, reviews of the simple present and simple past, holiday plans. The two speech-work rows (83, 97) are taught as spelling of silent letters, so they need no audio. All texts are original. Reviewer: an English teacher.
+
+### P1
+- [ ] **TR-W20 [P1] Facts in the texts:** COVID-19 facts in the dialogue (spread by droplets, vaccines exist); the Ngondo (December, Wouri, the diver's message); Cameroon's festivals and music styles; Écrans Noirs; Manu Dibango (Douala 1933, Soul Makossa 1972, died 2020); Adah Mbeng and Ngum Rose are invented model artists. *Location:* rows 77, 81, 85, 89, 93, 94, 96.
+- [ ] **TR-W21 [P1] Silent letters instead of speech work:** rows 83 and 97 are listed as speech work (pronunciation of silent b, p, c, l). Without audio, they are taught as recognising and spelling the silent letters. Please confirm this is acceptable, or defer them like the other speech-work rows. *Location:* rows 83, 97.
+- [ ] **TR-W22 [P1] Grammar rules:** adverb order (manner, place, time), noun modifiers stay singular (a two-day festival), the three conditionals with « were » in the second, gerunds after enjoy/finish/stop/avoid and prepositions, apostrophes (actors'), conjunction rules (no although … but). *Location:* rows 79, 84, 87, 90, 99, 100.

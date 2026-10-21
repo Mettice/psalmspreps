@@ -1,0 +1,395 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 90,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-90",
+   "name": "Gerunds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A gerund is the -ing form of a verb used as a noun: “Singing is fun.”\nA gerund can be:\n• the subject: “Learning a language takes time.”\n• the object after some verbs: enjoy, like, love, hate, finish, stop, avoid, keep, practise, mind: “She enjoys dancing.” “Stop talking!”\n• after a preposition: “He is good at drumming.” “Thank you for helping me.” “I am interested in learning Duala.”\nSpelling: dance → dancing (drop e); swim → swimming (double the consonant); play → playing.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complete with a gerund: “My sister enjoys ___ (sing) in the choir.”",
+  "steps": [
+   "After “enjoy” we use a gerund (-ing form).",
+   "sing → singing."
+  ],
+  "answer": "singing",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c90-1",
+    "status": "draft",
+    "idea": "A gerund is the -ing form used as a noun.",
+    "vars": {},
+    "example": [
+     "Swimming is good exercise."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-90-what"
+    }
+   },
+   {
+    "id": "c90-2",
+    "status": "draft",
+    "idea": "After enjoy, finish, stop, avoid, practise we use a gerund.",
+    "vars": {},
+    "example": [
+     "He finished writing his song."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-90-after"
+    }
+   },
+   {
+    "id": "c90-3",
+    "status": "draft",
+    "idea": "After a preposition we use a gerund.",
+    "vars": {},
+    "example": [
+     "She is good at drawing."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-90-prep-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "She is good at ___ pictures.",
+         "a": "drawing",
+         "w": [
+          "draw",
+          "to draw"
+         ],
+         "e": [
+          "After a preposition, use -ing.",
+          "After a preposition, use -ing."
+         ]
+        },
+        {
+         "s": "Thank you for ___ me with my homework.",
+         "a": "helping",
+         "w": [
+          "help",
+          "helped"
+         ],
+         "e": [
+          "After a preposition, use -ing.",
+          "After a preposition, use -ing."
+         ]
+        },
+        {
+         "s": "I am interested in ___ Duala.",
+         "a": "learning",
+         "w": [
+          "learn",
+          "to learn"
+         ],
+         "e": [
+          "After a preposition, use -ing.",
+          "After a preposition, use -ing."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct form.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-90-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In “Dancing makes me happy”, what is “Dancing”?",
+       "r": "a gerund used as the subject",
+       "w": [
+        "a verb in the past",
+        "an adjective",
+        "an adverb"
+       ],
+       "e": [
+        "It is an -ing form.",
+        "It acts as a noun.",
+        "It does not describe a verb."
+       ],
+       "y": "It is the subject."
+      },
+      {
+       "q": "Which sentence has a gerund?",
+       "r": "Reading improves your English.",
+       "w": [
+        "I read a book yesterday.",
+        "She has read the text.",
+        "Read the text now."
+       ],
+       "e": [
+        "That is the past tense.",
+        "That is the present perfect.",
+        "That is an order."
+       ],
+       "y": "Reading is a noun here."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-90-after",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "My brother enjoys ___ (play) the guitar.",
+       "a": "playing"
+      },
+      {
+       "s": "Please stop ___ (make) noise.",
+       "a": "making"
+      },
+      {
+       "s": "She finished ___ (write) her report.",
+       "a": "writing"
+      },
+      {
+       "s": "They avoid ___ (eat) too much sugar.",
+       "a": "eating"
+      },
+      {
+       "s": "We practise ___ (swim) every Saturday.",
+       "a": "swimming"
+      },
+      {
+       "s": "He hates ___ (dance) in public.",
+       "a": "dancing"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the gerund.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "solution": [
+    "After this verb we use the -ing form.",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "e2-90-prep",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "She is good at ___ pictures.",
+       "a": "drawing",
+       "w": [
+        "draw",
+        "to draw"
+       ],
+       "e": [
+        "After a preposition, use -ing.",
+        "After a preposition, use -ing."
+       ]
+      },
+      {
+       "s": "Thank you for ___ me with my homework.",
+       "a": "helping",
+       "w": [
+        "help",
+        "helped"
+       ],
+       "e": [
+        "After a preposition, use -ing.",
+        "After a preposition, use -ing."
+       ]
+      },
+      {
+       "s": "I am interested in ___ Duala.",
+       "a": "learning",
+       "w": [
+        "learn",
+        "to learn"
+       ],
+       "e": [
+        "After a preposition, use -ing.",
+        "After a preposition, use -ing."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-90-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "She enjoys singing.",
+      "truth": "true"
+     },
+     {
+      "text": "Swimming is good exercise.",
+      "truth": "true"
+     },
+     {
+      "text": "He is good at drumming.",
+      "truth": "true"
+     },
+     {
+      "text": "Stop talking, please.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "I enjoy to dance.",
+      "truth": "false",
+      "explain": "After enjoy, use a gerund: I enjoy dancing."
+     },
+     {
+      "text": "She is interested in learn music.",
+      "truth": "false",
+      "explain": "After a preposition: learning."
+     },
+     {
+      "text": "He finished to write the song.",
+      "truth": "false",
+      "explain": "After finish: writing."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

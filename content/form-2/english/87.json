@@ -1,0 +1,422 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 87,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-87",
+   "name": "Conditionals: zero, first and second"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A conditional sentence has an if-clause (the condition) and a main clause (the result).\n• Zero conditional (always true, facts): If + present, present. “If you heat water to 100 °C, it boils.”\n• First conditional (a real possibility in the future): If + present, will + verb. “If it rains, the festival will be cancelled.”\n• Second conditional (an unreal or unlikely situation): If + past, would + verb. “If I had a guitar, I would play every day.” With be, use “were”: “If I were rich, I would build a school.”\nThe if-clause can come first (with a comma) or second (no comma): “The festival will be cancelled if it rains.”\nNever put “will” or “would” in the if-clause.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complete with the correct form: “If it ___ (rain) tomorrow, we ___ (stay) at home.”",
+  "steps": [
+   "Tomorrow is a real future possibility: first conditional.",
+   "If + present (rains), will + verb (will stay)."
+  ],
+  "answer": "If it rains tomorrow, we will stay at home.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c87-1",
+    "status": "draft",
+    "idea": "Zero conditional: If + present, present — for facts.",
+    "vars": {},
+    "example": [
+     "If you mix blue and yellow, you get green."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-87-type"
+    }
+   },
+   {
+    "id": "c87-2",
+    "status": "draft",
+    "idea": "First conditional: If + present, will + verb — real future.",
+    "vars": {},
+    "example": [
+     "If you study, you will pass."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-87-first"
+    }
+   },
+   {
+    "id": "c87-3",
+    "status": "draft",
+    "idea": "Second conditional: If + past, would + verb — unreal.",
+    "vars": {},
+    "example": [
+     "If I were a bird, I would fly."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-87-second-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "If I ___ a famous singer, I would help poor children.",
+         "a": "were",
+         "w": [
+          "am",
+          "will be"
+         ],
+         "e": [
+          "Second conditional: if + past (were).",
+          "No will in the if-clause."
+         ]
+        },
+        {
+         "s": "If she had more time, she ___ the guitar.",
+         "a": "would learn",
+         "w": [
+          "will learn",
+          "learns"
+         ],
+         "e": [
+          "Second conditional: would + verb.",
+          "Second conditional: would + verb."
+         ]
+        },
+        {
+         "s": "What would you do if you ___ a million francs?",
+         "a": "won",
+         "w": [
+          "win",
+          "will win"
+         ],
+         "e": [
+          "Second conditional: if + past.",
+          "No will in the if-clause."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct form.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-87-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "If you heat ice, it melts.",
+       "a": "the zero conditional",
+       "w": [
+        "the first conditional",
+        "the second conditional"
+       ]
+      },
+      {
+       "s": "If you come early, you will see the dancers.",
+       "a": "the first conditional",
+       "w": [
+        "the zero conditional",
+        "the second conditional"
+       ]
+      },
+      {
+       "s": "If I won the prize, I would buy a balafon.",
+       "a": "the second conditional",
+       "w": [
+        "the zero conditional",
+        "the first conditional"
+       ]
+      },
+      {
+       "s": "If it rains, the ground gets wet.",
+       "a": "the zero conditional",
+       "w": [
+        "the first conditional",
+        "the second conditional"
+       ]
+      },
+      {
+       "s": "If I were the chief, I would build a library.",
+       "a": "the second conditional",
+       "w": [
+        "the zero conditional",
+        "the first conditional"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Which conditional is this? “{X.s}”",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "type"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "type"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "type",
+     "explain": "Look at the verbs: present + present (zero), present + will (first), past + would (second)."
+    }
+   ],
+   "solution": [
+    "Zero: present + present; first: present + will; second: past + would.",
+    "So: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "e2-87-first",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "If you practise every day, you ___ a good drummer.",
+       "a": "will become",
+       "w": [
+        "would became",
+        "becomes"
+       ],
+       "e": [
+        "First conditional: will + verb.",
+        "The main clause needs will."
+       ]
+      },
+      {
+       "s": "If it ___ tomorrow, the festival will be cancelled.",
+       "a": "rains",
+       "w": [
+        "will rain",
+        "would rain"
+       ],
+       "e": [
+        "No will in the if-clause.",
+        "First conditional: if + present."
+       ]
+      },
+      {
+       "s": "We will dance if the band ___.",
+       "a": "comes",
+       "w": [
+        "will come",
+        "came"
+       ],
+       "e": [
+        "No will in the if-clause.",
+        "First conditional: if + present."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-87-second",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "If I ___ a famous singer, I would help poor children.",
+       "a": "were",
+       "w": [
+        "am",
+        "will be"
+       ],
+       "e": [
+        "Second conditional: if + past (were).",
+        "No will in the if-clause."
+       ]
+      },
+      {
+       "s": "If she had more time, she ___ the guitar.",
+       "a": "would learn",
+       "w": [
+        "will learn",
+        "learns"
+       ],
+       "e": [
+        "Second conditional: would + verb.",
+        "Second conditional: would + verb."
+       ]
+      },
+      {
+       "s": "What would you do if you ___ a million francs?",
+       "a": "won",
+       "w": [
+        "win",
+        "will win"
+       ],
+       "e": [
+        "Second conditional: if + past.",
+        "No will in the if-clause."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-87-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "If it rains, we will stay inside.",
+      "truth": "true"
+     },
+     {
+      "text": "If I were you, I would apologise.",
+      "truth": "true"
+     },
+     {
+      "text": "If you heat water, it boils.",
+      "truth": "true"
+     },
+     {
+      "text": "She will sing if you ask her.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "If it will rain, we will stay inside.",
+      "truth": "false",
+      "explain": "No will in the if-clause: If it rains."
+     },
+     {
+      "text": "If I would have money, I would buy a drum.",
+      "truth": "false",
+      "explain": "If + past: If I had money."
+     },
+     {
+      "text": "If you will study, you pass.",
+      "truth": "false",
+      "explain": "If you study, you will pass."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

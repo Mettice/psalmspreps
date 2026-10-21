@@ -1,0 +1,905 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 102,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-102",
+   "name": "Review: the Simple Present tense"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The Simple Present is used for habits, facts, timetables and feelings:\n“The choir practises on Fridays.” “The sun rises in the east.” “The film starts at seven.” “I like makossa.”\nForm: the base verb; with he, she, it (or one person/thing) add -s or -es: plays, watches, goes, carries (y → ies after a consonant), has.\nNegative: do not (don't) / does not (doesn't) + base verb: “She doesn't sing.”\nQuestion: Do / Does + subject + base verb: “Does he play the guitar?”\nTime words: always, usually, often, sometimes, never, every day, on Mondays.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "watch"
+  },
+  "problem": "Write “{v}” with “she” in the Simple Present, then make it negative.",
+  "steps": [
+   "With she, add -s or -es: she {thirdPerson(v)}.",
+   "Negative: she doesn't + base verb: she doesn't {v}."
+  ],
+  "answer": "she {thirdPerson(v)}; she doesn't {v}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c102-1",
+    "status": "draft",
+    "idea": "With he, she, it, add -s or -es.",
+    "vars": {},
+    "example": [
+     "he plays, she watches, it goes"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-102-form"
+    }
+   },
+   {
+    "id": "c102-2",
+    "status": "draft",
+    "idea": "Negative: don't / doesn't + base verb.",
+    "vars": {},
+    "example": [
+     "He doesn't dance."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-102-neg"
+    }
+   },
+   {
+    "id": "c102-3",
+    "status": "draft",
+    "idea": "Question: Do / Does + subject + base verb.",
+    "vars": {},
+    "example": [
+     "Does she sing?"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-102-q-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "S": {
+       "pick": [
+        {
+         "t": "I",
+         "m": "I",
+         "s": {
+          "text": "I",
+          "person": 1,
+          "plural": false
+         }
+        },
+        {
+         "t": "You",
+         "m": "you",
+         "s": {
+          "text": "you",
+          "person": 2,
+          "plural": false
+         }
+        },
+        {
+         "t": "We",
+         "m": "we",
+         "s": {
+          "text": "we",
+          "person": 1,
+          "plural": true
+         }
+        },
+        {
+         "t": "They",
+         "m": "they",
+         "s": {
+          "text": "they",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "He",
+         "m": "he",
+         "s": {
+          "text": "he",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "She",
+         "m": "she",
+         "s": {
+          "text": "she",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Bih",
+         "m": "Bih",
+         "s": {
+          "text": "Bih",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Ayuk",
+         "m": "Ayuk",
+         "s": {
+          "text": "Ayuk",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "My mother",
+         "m": "my mother",
+         "s": {
+          "text": "my mother",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Our teacher",
+         "m": "our teacher",
+         "s": {
+          "text": "our teacher",
+          "person": 3,
+          "plural": false
+         }
+        },
+        {
+         "t": "Tabe and Ndi",
+         "m": "Tabe and Ndi",
+         "s": {
+          "text": "Tabe and Ndi",
+          "person": 3,
+          "plural": true
+         }
+        },
+        {
+         "t": "My cousins",
+         "m": "my cousins",
+         "s": {
+          "text": "my cousins",
+          "person": 3,
+          "plural": true
+         }
+        }
+       ]
+      },
+      "V": {
+       "pick": [
+        {
+         "v": "play",
+         "c": "the drum at weddings"
+        },
+        {
+         "v": "watch",
+         "c": "films on Saturdays"
+        },
+        {
+         "v": "sing",
+         "c": "in the church choir"
+        },
+        {
+         "v": "practise",
+         "c": "the guitar every evening"
+        },
+        {
+         "v": "carry",
+         "c": "the speakers to the hall"
+        },
+        {
+         "v": "go",
+         "c": "to the cinema"
+        },
+        {
+         "v": "teach",
+         "c": "dance at the cultural centre"
+        },
+        {
+         "v": "fix",
+         "c": "the sound system"
+        },
+        {
+         "v": "have",
+         "c": "a rehearsal on Fridays"
+        },
+        {
+         "v": "study",
+         "c": "music theory"
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that starts the question.",
+     "text": "___ {low(S.t)} {V.v} {V.c}?",
+     "answer": "doFor(S.s) == 'does' ? 'Does' : 'Do'",
+     "choices": [
+      {
+       "text": "Do",
+       "misconception": "do"
+      },
+      {
+       "text": "Does",
+       "misconception": "does"
+      },
+      {
+       "text": "Is",
+       "misconception": "is"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "do",
+       "explain": "Do goes with I, you, we and they."
+      },
+      {
+       "id": "does",
+       "explain": "Does goes with he, she and it."
+      },
+      {
+       "id": "is",
+       "explain": "With an action verb, the question starts with Do or Does."
+      }
+     ],
+     "show": 3
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-102-form",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "play",
+       "c": "the drum at weddings"
+      },
+      {
+       "v": "watch",
+       "c": "films on Saturdays"
+      },
+      {
+       "v": "sing",
+       "c": "in the church choir"
+      },
+      {
+       "v": "practise",
+       "c": "the guitar every evening"
+      },
+      {
+       "v": "carry",
+       "c": "the speakers to the hall"
+      },
+      {
+       "v": "go",
+       "c": "to the cinema"
+      },
+      {
+       "v": "teach",
+       "c": "dance at the cultural centre"
+      },
+      {
+       "v": "fix",
+       "c": "the sound system"
+      },
+      {
+       "v": "have",
+       "c": "a rehearsal on Fridays"
+      },
+      {
+       "v": "study",
+       "c": "music theory"
+      }
+     ]
+    }
+   },
+   "prompt": "Write the verb in the Simple Present.",
+   "text": "{S.t} ___ {V.c} every week. ({V.v})",
+   "answer": "presentFor(S.s, V.v)",
+   "misconceptions": [
+    {
+     "id": "no-s",
+     "wrong": "V.v",
+     "explain": "With {S.m} the verb takes -s or -es: {presentFor(S.s, V.v)}.",
+     "when": "presentFor(S.s, V.v) != V.v"
+    },
+    {
+     "id": "extra-s",
+     "wrong": "thirdPerson(V.v)",
+     "explain": "With {S.m}, the verb has no -s: {V.v}.",
+     "when": "presentFor(S.s, V.v) == V.v"
+    }
+   ]
+  },
+  {
+   "id": "e2-102-neg",
+   "type": "cloze",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "play",
+       "c": "the drum at weddings"
+      },
+      {
+       "v": "watch",
+       "c": "films on Saturdays"
+      },
+      {
+       "v": "sing",
+       "c": "in the church choir"
+      },
+      {
+       "v": "practise",
+       "c": "the guitar every evening"
+      },
+      {
+       "v": "carry",
+       "c": "the speakers to the hall"
+      },
+      {
+       "v": "go",
+       "c": "to the cinema"
+      },
+      {
+       "v": "teach",
+       "c": "dance at the cultural centre"
+      },
+      {
+       "v": "fix",
+       "c": "the sound system"
+      },
+      {
+       "v": "have",
+       "c": "a rehearsal on Fridays"
+      },
+      {
+       "v": "study",
+       "c": "music theory"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that fits.",
+   "text": "{S.t} ___ {V.v} {V.c}.",
+   "answer": "dontFor(S.s)",
+   "choices": [
+    {
+     "text": "don't",
+     "misconception": "dont"
+    },
+    {
+     "text": "doesn't",
+     "misconception": "doesnt"
+    },
+    {
+     "text": "isn't",
+     "misconception": "isnt"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "dont",
+     "explain": "Don't goes with I, you, we and they."
+    },
+    {
+     "id": "doesnt",
+     "explain": "Doesn't goes with he, she and it (one person or thing)."
+    },
+    {
+     "id": "isnt",
+     "explain": "With an action verb, use don't or doesn't, not isn't."
+    }
+   ],
+   "show": 3
+  },
+  {
+   "id": "e2-102-q",
+   "type": "cloze",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "I",
+       "m": "I",
+       "s": {
+        "text": "I",
+        "person": 1,
+        "plural": false
+       }
+      },
+      {
+       "t": "You",
+       "m": "you",
+       "s": {
+        "text": "you",
+        "person": 2,
+        "plural": false
+       }
+      },
+      {
+       "t": "We",
+       "m": "we",
+       "s": {
+        "text": "we",
+        "person": 1,
+        "plural": true
+       }
+      },
+      {
+       "t": "They",
+       "m": "they",
+       "s": {
+        "text": "they",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "He",
+       "m": "he",
+       "s": {
+        "text": "he",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "She",
+       "m": "she",
+       "s": {
+        "text": "she",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Bih",
+       "m": "Bih",
+       "s": {
+        "text": "Bih",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Ayuk",
+       "m": "Ayuk",
+       "s": {
+        "text": "Ayuk",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "My mother",
+       "m": "my mother",
+       "s": {
+        "text": "my mother",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Our teacher",
+       "m": "our teacher",
+       "s": {
+        "text": "our teacher",
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "Tabe and Ndi",
+       "m": "Tabe and Ndi",
+       "s": {
+        "text": "Tabe and Ndi",
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "My cousins",
+       "m": "my cousins",
+       "s": {
+        "text": "my cousins",
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "V": {
+     "pick": [
+      {
+       "v": "play",
+       "c": "the drum at weddings"
+      },
+      {
+       "v": "watch",
+       "c": "films on Saturdays"
+      },
+      {
+       "v": "sing",
+       "c": "in the church choir"
+      },
+      {
+       "v": "practise",
+       "c": "the guitar every evening"
+      },
+      {
+       "v": "carry",
+       "c": "the speakers to the hall"
+      },
+      {
+       "v": "go",
+       "c": "to the cinema"
+      },
+      {
+       "v": "teach",
+       "c": "dance at the cultural centre"
+      },
+      {
+       "v": "fix",
+       "c": "the sound system"
+      },
+      {
+       "v": "have",
+       "c": "a rehearsal on Fridays"
+      },
+      {
+       "v": "study",
+       "c": "music theory"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that starts the question.",
+   "text": "___ {low(S.t)} {V.v} {V.c}?",
+   "answer": "doFor(S.s) == 'does' ? 'Does' : 'Do'",
+   "choices": [
+    {
+     "text": "Do",
+     "misconception": "do"
+    },
+    {
+     "text": "Does",
+     "misconception": "does"
+    },
+    {
+     "text": "Is",
+     "misconception": "is"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "do",
+     "explain": "Do goes with I, you, we and they."
+    },
+    {
+     "id": "does",
+     "explain": "Does goes with he, she and it."
+    },
+    {
+     "id": "is",
+     "explain": "With an action verb, the question starts with Do or Does."
+    }
+   ],
+   "show": 3
+  },
+  {
+   "id": "e2-102-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "She practises every day.",
+      "truth": "true"
+     },
+     {
+      "text": "They don't watch television.",
+      "truth": "true"
+     },
+     {
+      "text": "Does he play the drum?",
+      "truth": "true"
+     },
+     {
+      "text": "The film starts at seven.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "He don't like horror films.",
+      "truth": "false",
+      "explain": "With he: doesn't."
+     },
+     {
+      "text": "Does she sings in the choir?",
+      "truth": "false",
+      "explain": "After does, the base verb: sing."
+     },
+     {
+      "text": "My brother watch films every night.",
+      "truth": "false",
+      "explain": "With one person: watches."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

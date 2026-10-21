@@ -1,0 +1,404 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 97,
+ "language": "en",
+ "prerequisites": [
+  83
+ ],
+ "skills": [
+  {
+   "id": "e2-97",
+   "name": "Silent letters: c and l"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Silent c:\n• after s before e, i or y: scene, science, scissors, scent, muscle, fascinate.\nSilent l:\n• before k: walk, talk, chalk, folk, yolk;\n• before f, m: half, calf, calm, palm, salmon;\n• in could, should, would.\nBe careful: in “film”, “milk” and “help” the l IS pronounced.\nLearn these spellings well: you cannot hear the silent letter.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Which letter is silent in “scissors” and in “chalk”?",
+  "steps": [
+   "In “scissors”, the c after s is not pronounced.",
+   "In “chalk”, the l before k is not pronounced."
+  ],
+  "answer": "c in scissors; l in chalk",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c97-1",
+    "status": "draft",
+    "idea": "Silent c: after s, before e, i or y.",
+    "vars": {},
+    "example": [
+     "science, scene"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-97-c"
+    }
+   },
+   {
+    "id": "c97-2",
+    "status": "draft",
+    "idea": "Silent l: before k, f and m, and in could, should, would.",
+    "vars": {},
+    "example": [
+     "walk, half, calm"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-97-l"
+    }
+   },
+   {
+    "id": "c97-3",
+    "status": "draft",
+    "idea": "The l is pronounced in film, milk and help.",
+    "vars": {},
+    "example": [
+     "I drink milk."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-97-cl-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "spelling-rules"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "We study plants in our ___ lesson.",
+         "a": "science",
+         "w": [
+          "sience",
+          "scince"
+         ],
+         "e": [
+          "Keep the silent c.",
+          "Spell it s-c-i-e-n-c-e."
+         ]
+        },
+        {
+         "s": "Cut the paper with ___.",
+         "a": "scissors",
+         "w": [
+          "sissors",
+          "scisors"
+         ],
+         "e": [
+          "Keep the silent c.",
+          "Double s at the end: scissors."
+         ]
+        },
+        {
+         "s": "You ___ wash your hands before eating.",
+         "a": "should",
+         "w": [
+          "shoud",
+          "shuld"
+         ],
+         "e": [
+          "Keep the silent l.",
+          "Spell it s-h-o-u-l-d."
+         ]
+        },
+        {
+         "s": "The teacher wrote on the board with ___.",
+         "a": "chalk",
+         "w": [
+          "chak",
+          "chawk"
+         ],
+         "e": [
+          "Keep the silent l.",
+          "Spell it c-h-a-l-k."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct spelling.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-97-c",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "w": {
+     "pick": [
+      "muscle",
+      "scissors",
+      "science",
+      "scene",
+      "scent",
+      "fascinate"
+     ]
+    }
+   },
+   "prompt": "Which letter is silent in “{w}”?",
+   "correct": "c",
+   "distractors": [
+    {
+     "text": "s",
+     "misconception": "other"
+    },
+    {
+     "text": "e",
+     "misconception": "other"
+    },
+    {
+     "text": "no letter is silent",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Say the word: the c after s is not pronounced."
+    },
+    {
+     "id": "none",
+     "explain": "One letter is not pronounced: the c."
+    }
+   ],
+   "solution": [
+    "After s, before e, i or y, the c is often silent.",
+    "In “{w}”, the silent letter is {answer}."
+   ]
+  },
+  {
+   "id": "e2-97-l",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "w": {
+     "pick": [
+      "walk",
+      "talk",
+      "chalk",
+      "half",
+      "calf",
+      "calm",
+      "palm",
+      "should",
+      "could",
+      "would",
+      "folk",
+      "yolk"
+     ]
+    }
+   },
+   "prompt": "Which letter is silent in “{w}”?",
+   "correct": "l",
+   "distractors": [
+    {
+     "text": "k",
+     "misconception": "other"
+    },
+    {
+     "text": "a",
+     "misconception": "other"
+    },
+    {
+     "text": "no letter is silent",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "other",
+     "explain": "Say the word: the l is not pronounced."
+    },
+    {
+     "id": "none",
+     "explain": "One letter is not pronounced: the l."
+    }
+   ],
+   "solution": [
+    "Before k, f and m, and in could/should/would, the l is silent.",
+    "In “{w}”, the silent letter is {answer}."
+   ]
+  },
+  {
+   "id": "e2-97-cl",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "spelling-rules"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "We study plants in our ___ lesson.",
+       "a": "science",
+       "w": [
+        "sience",
+        "scince"
+       ],
+       "e": [
+        "Keep the silent c.",
+        "Spell it s-c-i-e-n-c-e."
+       ]
+      },
+      {
+       "s": "Cut the paper with ___.",
+       "a": "scissors",
+       "w": [
+        "sissors",
+        "scisors"
+       ],
+       "e": [
+        "Keep the silent c.",
+        "Double s at the end: scissors."
+       ]
+      },
+      {
+       "s": "You ___ wash your hands before eating.",
+       "a": "should",
+       "w": [
+        "shoud",
+        "shuld"
+       ],
+       "e": [
+        "Keep the silent l.",
+        "Spell it s-h-o-u-l-d."
+       ]
+      },
+      {
+       "s": "The teacher wrote on the board with ___.",
+       "a": "chalk",
+       "w": [
+        "chak",
+        "chawk"
+       ],
+       "e": [
+        "Keep the silent l.",
+        "Spell it c-h-a-l-k."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct spelling.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-97-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "spelling-rules"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "The c is silent in “scene”.",
+      "truth": "true"
+     },
+     {
+      "text": "The l is silent in “walk”.",
+      "truth": "true"
+     },
+     {
+      "text": "The l is silent in “could”.",
+      "truth": "true"
+     },
+     {
+      "text": "The l is pronounced in “milk”.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The l is silent in “film”.",
+      "truth": "false",
+      "explain": "In “film”, the l is pronounced."
+     },
+     {
+      "text": "“Muscle” is spelt “mussle”.",
+      "truth": "false",
+      "explain": "It is spelt muscle, with a silent c."
+     },
+     {
+      "text": "“Half” is spelt “haf”.",
+      "truth": "false",
+      "explain": "It is spelt half, with a silent l."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

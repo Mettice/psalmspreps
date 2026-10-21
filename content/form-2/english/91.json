@@ -1,0 +1,370 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 91,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-91",
+   "name": "Basic sentence structure: subject, verb, object"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An English sentence usually follows the order Subject – Verb – Object (SVO).\n• The subject is who or what does the action: “The choir”.\n• The verb is the action or state: “sang”.\n• The object receives the action: “a traditional song”.\n→ “The choir (S) sang (V) a traditional song (O).”\nSome sentences have no object: “The baby sleeps.” (S V). Others add a complement or an adverbial: “My uncle is a musician.” (S V C); “We danced in the hall.” (S V A).\nIn questions the order changes: “Did the choir sing?” Adjectives come before the noun: “a beautiful song”, not “a song beautiful”.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Label the parts of “Ngum plays the balafon.”",
+  "steps": [
+   "Who does the action? Ngum — the subject.",
+   "The action is “plays” — the verb; what is played? “the balafon” — the object."
+  ],
+  "answer": "Ngum (S) plays (V) the balafon (O).",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c91-1",
+    "status": "draft",
+    "idea": "Subject: who or what does the action.",
+    "vars": {},
+    "example": [
+     "The drummer played."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-91-subj"
+    }
+   },
+   {
+    "id": "c91-2",
+    "status": "draft",
+    "idea": "The usual order is subject, verb, object.",
+    "vars": {},
+    "example": [
+     "Tabe (S) watched (V) a film (O)."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-91-obj"
+    }
+   },
+   {
+    "id": "c91-3",
+    "status": "draft",
+    "idea": "Adjectives come before the noun.",
+    "vars": {},
+    "example": [
+     "a famous actor"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-91-wo-card",
+     "type": "word_order",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "a": "The choir sang a traditional song.",
+         "b": "The choir sang a traditional song."
+        },
+        {
+         "a": "My cousin watches films every Sunday.",
+         "b": "My cousin watches films every Sunday."
+        },
+        {
+         "a": "The famous actor visited our school.",
+         "b": "The famous actor visited our school."
+        },
+        {
+         "a": "Our teacher plays the guitar well.",
+         "b": "Our teacher plays the guitar well."
+        }
+       ]
+      }
+     },
+     "prompt": "Put the words in the right order (subject, verb, object).",
+     "answer": "{X.a}",
+     "accept": [
+      "{X.b}"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-91-subj",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The children sang a song.",
+       "p": "subject",
+       "r": "The children",
+       "w": [
+        "sang",
+        "a song",
+        "song"
+       ],
+       "e": [
+        "That is the verb.",
+        "That is the object.",
+        "Part of the object."
+       ],
+       "y": "They do the action."
+      },
+      {
+       "q": "My uncle repairs radios.",
+       "p": "subject",
+       "r": "My uncle",
+       "w": [
+        "repairs",
+        "radios",
+        "uncle repairs"
+       ],
+       "e": [
+        "That is the verb.",
+        "That is the object.",
+        "Mixes subject and verb."
+       ],
+       "y": "He does the action."
+      },
+      {
+       "q": "The actress won a prize.",
+       "p": "subject",
+       "r": "The actress",
+       "w": [
+        "won",
+        "a prize",
+        "prize"
+       ],
+       "e": [
+        "That is the verb.",
+        "That is the object.",
+        "Part of the object."
+       ],
+       "y": "She does the action."
+      }
+     ]
+    }
+   },
+   "prompt": "In “{X.q}”, what is the {X.p}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-91-obj",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih bought a new guitar.",
+       "r": "a new guitar",
+       "w": [
+        "Bih",
+        "bought",
+        "new"
+       ],
+       "e": [
+        "That is the subject.",
+        "That is the verb.",
+        "That is an adjective."
+       ],
+       "y": "It receives the action."
+      },
+      {
+       "q": "The director filmed the festival.",
+       "r": "the festival",
+       "w": [
+        "The director",
+        "filmed",
+        "director"
+       ],
+       "e": [
+        "That is the subject.",
+        "That is the verb.",
+        "Part of the subject."
+       ],
+       "y": "It receives the action."
+      }
+     ]
+    }
+   },
+   "prompt": "In “{X.q}”, what is the object?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-91-wo",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "The choir sang a traditional song.",
+       "b": "The choir sang a traditional song."
+      },
+      {
+       "a": "My cousin watches films every Sunday.",
+       "b": "My cousin watches films every Sunday."
+      },
+      {
+       "a": "The famous actor visited our school.",
+       "b": "The famous actor visited our school."
+      },
+      {
+       "a": "Our teacher plays the guitar well.",
+       "b": "Our teacher plays the guitar well."
+      }
+     ]
+    }
+   },
+   "prompt": "Put the words in the right order (subject, verb, object).",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e2-91-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence has the wrong word order?",
+   "pool": {
+    "right": [
+     {
+      "text": "Tabe plays the drum.",
+      "truth": "true"
+     },
+     {
+      "text": "The film started late.",
+      "truth": "true"
+     },
+     {
+      "text": "We watched a funny film.",
+      "truth": "true"
+     },
+     {
+      "text": "My sister is a singer.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plays Tabe the drum.",
+      "truth": "false",
+      "explain": "The subject comes first: Tabe plays the drum."
+     },
+     {
+      "text": "We watched a film funny.",
+      "truth": "false",
+      "explain": "The adjective comes first: a funny film."
+     },
+     {
+      "text": "The song the choir sang.",
+      "truth": "false",
+      "explain": "Subject, verb, object: The choir sang the song."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

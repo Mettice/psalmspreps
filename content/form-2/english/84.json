@@ -1,0 +1,435 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 84,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-84",
+   "name": "Nouns as modifiers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A noun can be used before another noun to describe it, like an adjective. It is then a noun modifier.\n• a school bag (a bag for school), a football match, a dance festival, a leather belt, a village chief, a health centre.\nThe main noun is the last one; the first noun tells what kind: a bus station is a station (for buses).\nThe modifier is usually singular even when the meaning is plural: a shoe shop (it sells many shoes), a ten-kilometre race, a two-day festival.\nCompare: a coffee cup (a cup for coffee) and a cup of coffee (a cup full of coffee).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Write a noun phrase with a noun modifier for “a race of ten kilometres”.",
+  "steps": [
+   "The main noun is “race”; the modifier goes before it.",
+   "Numbers + noun modifiers stay singular and take a hyphen: a ten-kilometre race."
+  ],
+  "answer": "a ten-kilometre race",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c84-1",
+    "status": "draft",
+    "idea": "A noun before another noun describes it: a school bag.",
+    "vars": {},
+    "example": [
+     "a football match"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-84-main"
+    }
+   },
+   {
+    "id": "c84-2",
+    "status": "draft",
+    "idea": "The main noun is the last one.",
+    "vars": {},
+    "example": [
+     "a village chief is a chief."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-84-cl"
+    }
+   },
+   {
+    "id": "c84-3",
+    "status": "draft",
+    "idea": "The modifier stays singular: a shoe shop, a two-day festival.",
+    "vars": {},
+    "example": [
+     "a three-hour journey"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-84-num-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "We went on a ___ journey to Garoua.",
+         "a": "two-day",
+         "w": [
+          "two-days",
+          "two day's"
+         ],
+         "e": [
+          "The modifier stays singular.",
+          "No apostrophe here."
+         ]
+        },
+        {
+         "s": "My brother ran in the ___ race.",
+         "a": "ten-kilometre",
+         "w": [
+          "ten-kilometres",
+          "ten kilometres's"
+         ],
+         "e": [
+          "The modifier stays singular.",
+          "No apostrophe here."
+         ]
+        },
+        {
+         "s": "My uncle owns a ___ shop.",
+         "a": "shoe",
+         "w": [
+          "shoes",
+          "shoe's"
+         ],
+         "e": [
+          "The modifier stays singular.",
+          "No apostrophe here."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the correct form.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-84-main",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In “a dance festival”, what is the main noun?",
+       "r": "festival",
+       "w": [
+        "dance",
+        "a",
+        "both words equally"
+       ],
+       "e": [
+        "“dance” tells what kind of festival.",
+        "“a” is an article.",
+        "The last noun is the main one."
+       ],
+       "y": "It is a festival."
+      },
+      {
+       "q": "What is a “health centre”?",
+       "r": "a centre for health care",
+       "w": [
+        "a kind of health",
+        "a healthy person",
+        "the centre of the body"
+       ],
+       "e": [
+        "The main noun is centre.",
+        "Not the meaning.",
+        "Not the meaning."
+       ],
+       "y": "The main noun is the last."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-84-cl",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Put the ___ in the drawer. (a knife for bread)",
+       "a": "bread knife",
+       "w": [
+        "breads knife",
+        "knife bread"
+       ],
+       "e": [
+        "The modifier stays singular.",
+        "The modifier comes first."
+       ]
+      },
+      {
+       "s": "We waited at the ___. (a stop for buses)",
+       "a": "bus stop",
+       "w": [
+        "buses stop",
+        "stop bus"
+       ],
+       "e": [
+        "The modifier stays singular.",
+        "The modifier comes first."
+       ]
+      },
+      {
+       "s": "She bought a new ___. (a bag made of leather)",
+       "a": "leather bag",
+       "w": [
+        "bag leather",
+        "leathers bag"
+       ],
+       "e": [
+        "The modifier comes first.",
+        "The modifier stays singular."
+       ]
+      },
+      {
+       "s": "The ___ was very loud. (a festival of music)",
+       "a": "music festival",
+       "w": [
+        "musics festival",
+        "festival music"
+       ],
+       "e": [
+        "The modifier stays singular.",
+        "The modifier comes first."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct noun phrase.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-84-num",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "We went on a ___ journey to Garoua.",
+       "a": "two-day",
+       "w": [
+        "two-days",
+        "two day's"
+       ],
+       "e": [
+        "The modifier stays singular.",
+        "No apostrophe here."
+       ]
+      },
+      {
+       "s": "My brother ran in the ___ race.",
+       "a": "ten-kilometre",
+       "w": [
+        "ten-kilometres",
+        "ten kilometres's"
+       ],
+       "e": [
+        "The modifier stays singular.",
+        "No apostrophe here."
+       ]
+      },
+      {
+       "s": "My uncle owns a ___ shop.",
+       "a": "shoe",
+       "w": [
+        "shoes",
+        "shoe's"
+       ],
+       "e": [
+        "The modifier stays singular.",
+        "No apostrophe here."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the correct form.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-84-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which noun phrase is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "a school bag",
+      "truth": "true"
+     },
+     {
+      "text": "a bus stop",
+      "truth": "true"
+     },
+     {
+      "text": "a two-day festival",
+      "truth": "true"
+     },
+     {
+      "text": "a village chief",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "a shoes shop",
+      "truth": "false",
+      "explain": "The modifier stays singular: a shoe shop."
+     },
+     {
+      "text": "a ten-kilometres race",
+      "truth": "false",
+      "explain": "The modifier stays singular: a ten-kilometre race."
+     },
+     {
+      "text": "a festival music (for music at a festival)",
+      "truth": "false",
+      "explain": "The modifier comes first: festival music."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

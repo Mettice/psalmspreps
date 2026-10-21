@@ -1,0 +1,464 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 79,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-79",
+   "name": "Adverbs of time, place and manner"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An adverb tells us more about a verb.\n• Adverbs of time answer “When?”: now, today, yesterday, tomorrow, soon, later, already, early, late.\n• Adverbs of place answer “Where?”: here, there, everywhere, outside, inside, upstairs, nearby, abroad.\n• Adverbs of manner answer “How?”: carefully, quickly, slowly, clearly, well, badly, hard. Many are made from adjectives + -ly: careful → carefully; easy → easily.\nOrder when there are several: manner, place, time: “She worked hard at the hospital yesterday.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "In “The nurse spoke kindly to the patients yesterday”, find the adverbs and say what they tell us.",
+  "steps": [
+   "“kindly” answers How did she speak? — manner.",
+   "“yesterday” answers When? — time."
+  ],
+  "answer": "kindly (manner), yesterday (time)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c79-1",
+    "status": "draft",
+    "idea": "Adverbs of time answer When?; of place, Where?; of manner, How?",
+    "vars": {},
+    "example": [
+     "soon (time), outside (place), quickly (manner)"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-79-kind"
+    }
+   },
+   {
+    "id": "c79-2",
+    "status": "draft",
+    "idea": "Many adverbs of manner are adjective + -ly.",
+    "vars": {},
+    "example": [
+     "quick → quickly; easy → easily"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-79-ly"
+    }
+   },
+   {
+    "id": "c79-3",
+    "status": "draft",
+    "idea": "Usual order: manner, place, time.",
+    "vars": {},
+    "example": [
+     "He played well at school today."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-79-cl-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "We will visit the clinic ___.",
+         "a": "tomorrow",
+         "w": [
+          "carefully",
+          "here"
+         ],
+         "e": [
+          "“carefully” tells how.",
+          "“here” tells where."
+         ],
+         "k": "time"
+        },
+        {
+         "s": "The nurse explained the rules ___.",
+         "a": "clearly",
+         "w": [
+          "yesterday",
+          "outside"
+         ],
+         "e": [
+          "“yesterday” tells when.",
+          "“outside” tells where."
+         ],
+         "k": "manner"
+        },
+        {
+         "s": "Please wait ___ until the doctor calls you.",
+         "a": "here",
+         "w": [
+          "slowly",
+          "soon"
+         ],
+         "e": [
+          "“slowly” tells how.",
+          "“soon” tells when."
+         ],
+         "k": "place"
+        },
+        {
+         "s": "She washed her hands ___ with soap.",
+         "a": "carefully",
+         "w": [
+          "today",
+          "upstairs"
+         ],
+         "e": [
+          "“today” tells when.",
+          "“upstairs” tells where."
+         ],
+         "k": "manner"
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the adverb that fits.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-79-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The doctor arrived early.",
+       "a": "early",
+       "k": "time"
+      },
+      {
+       "s": "The children played outside.",
+       "a": "outside",
+       "k": "place"
+      },
+      {
+       "s": "He walked slowly to the clinic.",
+       "a": "slowly",
+       "k": "manner"
+      },
+      {
+       "s": "We will vaccinate the babies tomorrow.",
+       "a": "tomorrow",
+       "k": "time"
+      },
+      {
+       "s": "Masks are sold everywhere.",
+       "a": "everywhere",
+       "k": "place"
+      },
+      {
+       "s": "She answered politely.",
+       "a": "politely",
+       "k": "manner"
+      }
+     ]
+    }
+   },
+   "prompt": "In “{X.s}”, what kind of adverb is “{X.a}”?",
+   "correct": "an adverb of {X.k}",
+   "distractors": [
+    {
+     "text": "an adverb of {X.k == 'time' ? 'place' : 'time'}",
+     "misconception": "kind"
+    },
+    {
+     "text": "an adverb of {X.k == 'manner' ? 'place' : 'manner'}",
+     "misconception": "kind"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "kind",
+     "explain": "Ask the question the adverb answers: When? Where? or How?"
+    }
+   ],
+   "solution": [
+    "Ask: When? (time) Where? (place) How? (manner).",
+    "“{X.a}” answers {X.k == 'time' ? 'When?' : X.k == 'place' ? 'Where?' : 'How?'}: {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "e2-79-ly",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "careful",
+       "r": "carefully",
+       "w": [
+        "carefuly",
+        "carefullly",
+        "carefulness"
+       ],
+       "e": [
+        "Keep both l's: careful + ly.",
+        "Only two l's.",
+        "That is a noun."
+       ],
+       "y": "careful + -ly."
+      },
+      {
+       "q": "easy",
+       "r": "easily",
+       "w": [
+        "easyly",
+        "easly",
+        "easiness"
+       ],
+       "e": [
+        "y changes to i: easily.",
+        "Keep the i.",
+        "That is a noun."
+       ],
+       "y": "y → i + -ly."
+      },
+      {
+       "q": "good",
+       "r": "well",
+       "w": [
+        "goodly",
+        "better",
+        "goods"
+       ],
+       "e": [
+        "“good” is irregular: well.",
+        "That is a comparative.",
+        "That is a noun."
+       ],
+       "y": "good → well."
+      }
+     ]
+    }
+   },
+   "prompt": "What is the adverb from “{X.q}”?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-79-cl",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "We will visit the clinic ___.",
+       "a": "tomorrow",
+       "w": [
+        "carefully",
+        "here"
+       ],
+       "e": [
+        "“carefully” tells how.",
+        "“here” tells where."
+       ],
+       "k": "time"
+      },
+      {
+       "s": "The nurse explained the rules ___.",
+       "a": "clearly",
+       "w": [
+        "yesterday",
+        "outside"
+       ],
+       "e": [
+        "“yesterday” tells when.",
+        "“outside” tells where."
+       ],
+       "k": "manner"
+      },
+      {
+       "s": "Please wait ___ until the doctor calls you.",
+       "a": "here",
+       "w": [
+        "slowly",
+        "soon"
+       ],
+       "e": [
+        "“slowly” tells how.",
+        "“soon” tells when."
+       ],
+       "k": "place"
+      },
+      {
+       "s": "She washed her hands ___ with soap.",
+       "a": "carefully",
+       "w": [
+        "today",
+        "upstairs"
+       ],
+       "e": [
+        "“today” tells when.",
+        "“upstairs” tells where."
+       ],
+       "k": "manner"
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the adverb that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-79-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "She spoke clearly.",
+      "truth": "true"
+     },
+     {
+      "text": "We arrived early.",
+      "truth": "true"
+     },
+     {
+      "text": "The children played outside.",
+      "truth": "true"
+     },
+     {
+      "text": "He worked hard yesterday.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "He drives very careful.",
+      "truth": "false",
+      "explain": "Use the adverb: carefully."
+     },
+     {
+      "text": "She sings good.",
+      "truth": "false",
+      "explain": "The adverb of good is well."
+     },
+     {
+      "text": "Yesterday is an adverb of place.",
+      "truth": "false",
+      "explain": "It tells when: an adverb of time."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

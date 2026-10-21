@@ -1,0 +1,392 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 99,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-99",
+   "name": "Review of punctuation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Full stop (.): ends a statement.  • Question mark (?): ends a question.  • Exclamation mark (!): shows strong feeling.\n• Comma (,): separates items in a list (“drums, flutes and guitars”), after an introductory word (“However, …”), and before direct speech.\n• Apostrophe ('): shows possession (Tabe's guitar, the actors' costumes) or a missing letter (don't, it's = it is).\n• Quotation marks (“ ”): enclose the exact words spoken: She said, “The film starts at eight.”\n• Colon (:): introduces a list or an explanation.  • Capital letters: at the start of a sentence, for names, places, days, months, titles.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Punctuate: “tabe asked where is the cinema”",
+  "steps": [
+   "Capital letters for the start and the name: Tabe.",
+   "Direct speech in quotation marks with a comma before it, and a question mark: Tabe asked, “Where is the cinema?”"
+  ],
+  "answer": "Tabe asked, “Where is the cinema?”",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c99-1",
+    "status": "draft",
+    "idea": "Full stop for statements, question mark for questions, exclamation mark for strong feeling.",
+    "vars": {},
+    "example": [
+     "What a great show!"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-99-end"
+    }
+   },
+   {
+    "id": "c99-2",
+    "status": "draft",
+    "idea": "The apostrophe shows possession or a missing letter.",
+    "vars": {},
+    "example": [
+     "Tabe's drum; don't"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-99-apos"
+    }
+   },
+   {
+    "id": "c99-3",
+    "status": "draft",
+    "idea": "Quotation marks enclose the exact words spoken.",
+    "vars": {},
+    "example": [
+     "He said, “I love makossa.”"
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-99-spot-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "prompt": "Which sentence is punctuated wrongly?",
+     "pool": {
+      "right": [
+       {
+        "text": "Ngum said, “The show was great.”",
+        "truth": "true"
+       },
+       {
+        "text": "We bought drums, flutes and a guitar.",
+        "truth": "true"
+       },
+       {
+        "text": "Is the film funny?",
+        "truth": "true"
+       },
+       {
+        "text": "Tabe's sister is an actress.",
+        "truth": "true"
+       }
+      ],
+      "wrong": [
+       {
+        "text": "the film starts on monday.",
+        "truth": "false",
+        "explain": "Capital letters: The … Monday."
+       },
+       {
+        "text": "He said I love music.",
+        "truth": "false",
+        "explain": "Use a comma and quotation marks: He said, “I love music.”"
+       },
+       {
+        "text": "Wheres the cinema?",
+        "truth": "false",
+        "explain": "Where's needs an apostrophe."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-99-end",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Where is the concert hall___",
+       "a": "?",
+       "w": [
+        ".",
+        "!"
+       ],
+       "e": [
+        "It is a question.",
+        "It is a question, not a cry."
+       ]
+      },
+      {
+       "s": "What a wonderful dancer she is___",
+       "a": "!",
+       "w": [
+        "?",
+        ","
+       ],
+       "e": [
+        "It shows strong feeling, not a question.",
+        "A sentence ends with a stop mark."
+       ]
+      },
+      {
+       "s": "The film starts at eight o'clock___",
+       "a": ".",
+       "w": [
+        "?",
+        "!"
+       ],
+       "e": [
+        "It is a statement.",
+        "It is a simple statement."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the punctuation mark that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-99-apos",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which is correct for “the guitar that belongs to Bih”?",
+       "r": "Bih's guitar",
+       "w": [
+        "Bihs guitar",
+        "Bihs' guitar",
+        "Bih guitar's"
+       ],
+       "e": [
+        "Add an apostrophe.",
+        "One owner: 's.",
+        "The apostrophe goes after the owner."
+       ],
+       "y": "Owner + 's."
+      },
+      {
+       "q": "Which is correct for “the costumes of the actors”?",
+       "r": "the actors' costumes",
+       "w": [
+        "the actor's costumes",
+        "the actors costume's",
+        "the actors's costumes"
+       ],
+       "e": [
+        "Many actors: after the s.",
+        "Wrong place.",
+        "Plural ending in s: just '."
+       ],
+       "y": "Plural owners ending in s: s'."
+      },
+      {
+       "q": "What is the short form of “it is”?",
+       "r": "it's",
+       "w": [
+        "its",
+        "its'",
+        "i'ts"
+       ],
+       "e": [
+        "“its” shows possession.",
+        "Not a word.",
+        "The apostrophe replaces the i."
+       ],
+       "y": "The apostrophe replaces the missing letter."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-99-spot",
+   "type": "spot_error",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is punctuated wrongly?",
+   "pool": {
+    "right": [
+     {
+      "text": "Ngum said, “The show was great.”",
+      "truth": "true"
+     },
+     {
+      "text": "We bought drums, flutes and a guitar.",
+      "truth": "true"
+     },
+     {
+      "text": "Is the film funny?",
+      "truth": "true"
+     },
+     {
+      "text": "Tabe's sister is an actress.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "the film starts on monday.",
+      "truth": "false",
+      "explain": "Capital letters: The … Monday."
+     },
+     {
+      "text": "He said I love music.",
+      "truth": "false",
+      "explain": "Use a comma and quotation marks: He said, “I love music.”"
+     },
+     {
+      "text": "Wheres the cinema?",
+      "truth": "false",
+      "explain": "Where's needs an apostrophe."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  },
+  {
+   "id": "e2-99-spot2",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "prompt": "Which sentence is punctuated correctly?",
+   "pool": {
+    "right": [
+     {
+      "text": "On Saturday, we watched a film in Yaoundé.",
+      "truth": "true"
+     },
+     {
+      "text": "“Come here!” shouted the director.",
+      "truth": "true"
+     },
+     {
+      "text": "We need three things: a camera, a script and actors.",
+      "truth": "true"
+     },
+     {
+      "text": "It's late.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "on saturday we watched a film in yaoundé",
+      "truth": "false",
+      "explain": "Capitals for the start, the day and the town; a full stop at the end."
+     },
+     {
+      "text": "Its' a beautiful song.",
+      "truth": "false",
+      "explain": "It's (it is) a beautiful song."
+     },
+     {
+      "text": "The actors costume's were red.",
+      "truth": "false",
+      "explain": "The actors' costumes were red."
+     }
+    ]
+   },
+   "pick": {
+    "right": 1,
+    "wrong": 3
+   }
+  }
+ ]
+}

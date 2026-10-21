@@ -1,0 +1,127 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 80,
+ "language": "en",
+ "prerequisites": [
+  77,
+  78
+ ],
+ "skills": [
+  {
+   "id": "e2-80",
+   "name": "Writing a report on the treatment of patients; health slogans"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A report gives facts clearly and in order to someone who needs them.\nLayout: a title; To: / From: / Date: / Subject:; an introduction (why you write and what you did); the findings in paragraphs (what you saw); recommendations (what should be done); your name.\nUse the past tense for what happened and formal language.\nA slogan is a short, catchy sentence that gives a message: “Clean hands save lives!” “A mosquito net a night keeps malaria out of sight!”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Plan a report to your principal about a visit to the district hospital.",
+  "steps": [
+   "Title, To / From / Date / Subject.",
+   "Introduction: the health club visited the hospital on {14} May to see how patients are treated.",
+   "Findings: patients are registered, then examined; the wards were clean but crowded; some patients waited many hours.",
+   "Recommendations: more benches and more nurses. Then a slogan to end."
+  ],
+  "answer": "Title → To/From/Date/Subject → introduction → findings → recommendations → name",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c80-1",
+    "status": "draft",
+    "idea": "A report starts with To, From, Date and Subject.",
+    "vars": {},
+    "example": [
+     "Subject: Visit to the district hospital"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-80-order"
+    }
+   },
+   {
+    "id": "c80-2",
+    "status": "draft",
+    "idea": "Give the findings in the past tense, in order.",
+    "vars": {},
+    "example": [
+     "The wards were clean but crowded."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-80-order"
+    }
+   },
+   {
+    "id": "c80-3",
+    "status": "draft",
+    "idea": "A slogan is short and catchy.",
+    "vars": {},
+    "example": [
+     "Clean hands save lives!"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-80-order"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-80-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "writing-skills"
+   ],
+   "prompt": "Put the parts of the report in order.",
+   "items": [
+    {
+     "text": "Report on our visit to the district hospital"
+    },
+    {
+     "text": "To: The Principal  From: The Health Club  Date: 15 May"
+    },
+    {
+     "text": "On 14 May, our club visited the hospital to see how patients are treated."
+    },
+    {
+     "text": "We found that the wards were clean but crowded."
+    },
+    {
+     "text": "We recommend more benches and more nurses."
+    },
+    {
+     "text": "Signed: Tabe Ayuk, Secretary"
+    }
+   ],
+   "order": "as_written"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Write a report (about 150 words) in your exercise book to your principal about a visit to a hospital or health centre: how patients are received and treated. End with two health slogans.",
+  "model": [
+   "Report on our visit to Buea Regional Hospital\nTo: The Principal\nFrom: The Health Club\nDate: 15 May\nSubject: How patients are treated\n\nIntroduction: On 14 May, twelve members of the Health Club visited the hospital with Mrs Ewane to see how patients are received and treated.\n\nFindings: Patients first register at the reception and pay a small fee. A nurse takes their temperature and blood pressure, then they wait to see a doctor. The wards were clean and the nurses were kind, but many patients waited more than three hours on the corridor.\n\nRecommendations: The hospital needs more benches, more nurses at the reception and a health talk for people who are waiting.\n\nSlogans: “Clean hands save lives!” “Sleep under a net, keep malaria away!”\n\nTabe Ayuk, Secretary"
+  ],
+  "checklist": [
+   "My report has a title and To / From / Date / Subject.",
+   "My introduction says why we went and when.",
+   "My findings are in the past tense and in order.",
+   "I gave clear recommendations.",
+   "I wrote two short, catchy slogans.",
+   "I used formal language.",
+   "My sentences start with capitals and end with full stops."
+  ]
+ }
+}

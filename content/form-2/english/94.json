@@ -1,0 +1,412 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 94,
+ "language": "en",
+ "prerequisites": [
+  93
+ ],
+ "skills": [
+  {
+   "id": "e2-94",
+   "name": "Reading biographies of artists and actors"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A biography is the story of a person's life written by someone else. It usually follows time order: birth and childhood, education, career, achievements, and sometimes death.\nIt uses the simple past and time words.\n\nText: Two lives in art\nManu Dibango was born in Douala in 1933. As a young man he went to study in France, where he learnt the saxophone and the piano. In 1972 his song “Soul Makossa” became a world hit and made makossa famous. He was called “Papa Groove”. He died in 2020.\nAdah Mbeng (a model biography written for this lesson) grew up in Bamenda. She loved acting in school plays. After secondary school she joined a theatre group, then acted in short films. Her first feature film won a prize in Yaoundé. Today she trains young actors: “Talent is a seed; work is the rain.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "When and where was Manu Dibango born?",
+  "steps": [
+   "Look at the first sentence of his biography.",
+   "“Manu Dibango was born in Douala in {1933}.”"
+  ],
+  "answer": "In Douala, in {1933}.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c94-1",
+    "status": "draft",
+    "idea": "A biography tells a person's life in time order.",
+    "vars": {},
+    "example": [
+     "Birth, education, career, achievements."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-94-comp"
+    }
+   },
+   {
+    "id": "c94-2",
+    "status": "draft",
+    "idea": "Biographies use the simple past and time words.",
+    "vars": {},
+    "example": [
+     "In {1972} his song became a hit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-94-order"
+    }
+   },
+   {
+    "id": "c94-3",
+    "status": "draft",
+    "idea": "Read for facts: who, when, where, what they did.",
+    "vars": {},
+    "example": [
+     "Adah Mbeng grew up in Bamenda."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-94-idea-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "reading-texts",
+      "culture-film"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What does Adah Mbeng mean by “Talent is a seed; work is the rain”?",
+         "r": "Talent grows only with hard work.",
+         "w": [
+          "Seeds need no water.",
+          "Actors should be farmers.",
+          "Rain stops films."
+         ],
+         "e": [
+          "Not the meaning.",
+          "It is a comparison.",
+          "Not the meaning."
+         ],
+         "y": "Work makes talent grow."
+        },
+        {
+         "q": "What was Manu Dibango's nickname?",
+         "r": "Papa Groove",
+         "w": [
+          "Soul Makossa",
+          "the Lion",
+          "Collywood"
+         ],
+         "e": [
+          "That is a song.",
+          "Not in the text.",
+          "That is the film industry."
+         ],
+         "y": "The text says so."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-94-comp",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "which instrument did Manu Dibango learn in France?",
+       "r": "the saxophone (and the piano)",
+       "w": [
+        "the talking drum",
+        "the balafon",
+        "the violin only"
+       ],
+       "e": [
+        "Not in the text.",
+        "Not in the text.",
+        "Not in the text."
+       ],
+       "y": "He learnt the saxophone and the piano."
+      },
+      {
+       "q": "what made makossa famous around the world?",
+       "r": "the song “Soul Makossa”",
+       "w": [
+        "a football match",
+        "a film by Adah Mbeng",
+        "a school play"
+       ],
+       "e": [
+        "Not in the text.",
+        "Not in the text.",
+        "Not in the text."
+       ],
+       "y": "It became a hit in 1972."
+      },
+      {
+       "q": "where did Adah Mbeng grow up?",
+       "r": "in Bamenda",
+       "w": [
+        "in Douala",
+        "in Paris",
+        "in Garoua"
+       ],
+       "e": [
+        "That is where Manu Dibango was born.",
+        "Not in the text.",
+        "Not in the text."
+       ],
+       "y": "The text says Bamenda."
+      }
+     ]
+    }
+   },
+   "prompt": "Text “Two lives in art”: {X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-94-order",
+   "type": "ordering",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Put Adah Mbeng's life in order.",
+   "items": [
+    {
+     "text": "She grew up in Bamenda."
+    },
+    {
+     "text": "She acted in school plays."
+    },
+    {
+     "text": "She joined a theatre group."
+    },
+    {
+     "text": "She acted in short films."
+    },
+    {
+     "text": "Her first feature film won a prize."
+    },
+    {
+     "text": "Today she trains young actors."
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "e2-94-idea",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does Adah Mbeng mean by “Talent is a seed; work is the rain”?",
+       "r": "Talent grows only with hard work.",
+       "w": [
+        "Seeds need no water.",
+        "Actors should be farmers.",
+        "Rain stops films."
+       ],
+       "e": [
+        "Not the meaning.",
+        "It is a comparison.",
+        "Not the meaning."
+       ],
+       "y": "Work makes talent grow."
+      },
+      {
+       "q": "What was Manu Dibango's nickname?",
+       "r": "Papa Groove",
+       "w": [
+        "Soul Makossa",
+        "the Lion",
+        "Collywood"
+       ],
+       "e": [
+        "That is a song.",
+        "Not in the text.",
+        "That is the film industry."
+       ],
+       "y": "The text says so."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-94-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "reading-texts",
+    "culture-film"
+   ],
+   "prompt": "Which statement does not agree with the text?",
+   "pool": {
+    "right": [
+     {
+      "text": "Manu Dibango was born in Douala.",
+      "truth": "true"
+     },
+     {
+      "text": "“Soul Makossa” was a hit.",
+      "truth": "true"
+     },
+     {
+      "text": "Adah Mbeng joined a theatre group.",
+      "truth": "true"
+     },
+     {
+      "text": "Adah Mbeng trains young actors.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Manu Dibango learnt the saxophone in Bamenda.",
+      "truth": "false",
+      "explain": "He learnt it in France."
+     },
+     {
+      "text": "Adah Mbeng's first film won nothing.",
+      "truth": "false",
+      "explain": "It won a prize."
+     },
+     {
+      "text": "“Soul Makossa” was a hit in 2020.",
+      "truth": "false",
+      "explain": "It was a hit in 1972."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

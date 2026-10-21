@@ -1,0 +1,453 @@
+{
+ "subject": "english-language",
+ "class": "Form 2",
+ "lesson_no": 86,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e2-86",
+   "name": "WH- words and their uses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "WH- words ask questions and join sentences:\n• who (a person): Who plays the balafon?\n• whom (a person, as object, formal): To whom did you give the drum?\n• whose (owner): Whose flute is this?\n• what (a thing or action): What is a masquerade?\n• which (a choice): Which song do you prefer?\n• when (time), where (place), why (reason), how (manner), how many / how much (number, amount).\nThey also introduce relative clauses: “The man who plays the drum is my uncle.” “The village where I was born is near Kumbo.”",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ask the question that has this answer: “The concert starts at eight o'clock.”",
+  "steps": [
+   "The answer gives a time.",
+   "A time question uses “When” (or “What time”): “When does the concert start?”"
+  ],
+  "answer": "When does the concert start?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c86-1",
+    "status": "draft",
+    "idea": "who for people, what for things, which for a choice, whose for owners.",
+    "vars": {},
+    "example": [
+     "Whose drum is this?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-86-ask"
+    }
+   },
+   {
+    "id": "c86-2",
+    "status": "draft",
+    "idea": "when = time, where = place, why = reason, how = manner.",
+    "vars": {},
+    "example": [
+     "Why are you late?"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e2-86-cl"
+    }
+   },
+   {
+    "id": "c86-3",
+    "status": "draft",
+    "idea": "WH- words also join sentences: who, which, where, when.",
+    "vars": {},
+    "example": [
+     "The man who sings is my uncle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e2-86-rel-card",
+     "type": "cloze",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammar-tenses"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "s": "The woman ___ sings in the choir is my aunt.",
+         "a": "who",
+         "w": [
+          "which",
+          "where"
+         ],
+         "e": [
+          "For a person, use who.",
+          "Where is for places."
+         ]
+        },
+        {
+         "s": "This is the hall ___ the concert took place.",
+         "a": "where",
+         "w": [
+          "who",
+          "whose"
+         ],
+         "e": [
+          "For a place, use where.",
+          "Whose is for owners."
+         ]
+        },
+        {
+         "s": "The drum ___ my father made is very old.",
+         "a": "which",
+         "w": [
+          "who",
+          "where"
+         ],
+         "e": [
+          "For a thing, use which.",
+          "Where is for places."
+         ]
+        }
+       ]
+      }
+     },
+     "prompt": "Choose the word that joins the sentences.",
+     "text": "{X.s}",
+     "answer": "X.a",
+     "choices": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e2-86-ask",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "___ is playing the talking drum? — My uncle.",
+       "r": "Who",
+       "w": [
+        "What",
+        "Where",
+        "When"
+       ],
+       "e": [
+        "The answer is a person.",
+        "The answer is not a place.",
+        "The answer is not a time."
+       ],
+       "y": "Who asks about a person."
+      },
+      {
+       "q": "___ guitar is this? — It is Tabe's.",
+       "r": "Whose",
+       "w": [
+        "Who",
+        "Which",
+        "What"
+       ],
+       "e": [
+        "The answer is an owner.",
+        "The answer is an owner.",
+        "The answer is an owner."
+       ],
+       "y": "Whose asks about the owner."
+      },
+      {
+       "q": "___ is the festival held? — In Foumban.",
+       "r": "Where",
+       "w": [
+        "When",
+        "Why",
+        "How"
+       ],
+       "e": [
+        "The answer is a place.",
+        "The answer is a place.",
+        "The answer is a place."
+       ],
+       "y": "Where asks about place."
+      },
+      {
+       "q": "___ did you go home early? — Because I was sick.",
+       "r": "Why",
+       "w": [
+        "How",
+        "Who",
+        "Which"
+       ],
+       "e": [
+        "The answer gives a reason.",
+        "The answer gives a reason.",
+        "The answer gives a reason."
+       ],
+       "y": "Why asks for a reason."
+      }
+     ]
+    }
+   },
+   "prompt": "Which question word fits? “{X.q}”",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e2-86-cl",
+   "type": "cloze",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "___ instruments can you play? — The flute and the drum.",
+       "a": "Which",
+       "w": [
+        "Whose",
+        "Where"
+       ],
+       "e": [
+        "The answer is a choice of things.",
+        "The answer is not a place."
+       ]
+      },
+      {
+       "s": "___ much does the ticket cost? — Five hundred francs.",
+       "a": "How",
+       "w": [
+        "What",
+        "Which"
+       ],
+       "e": [
+        "We say “How much”.",
+        "We say “How much”."
+       ]
+      },
+      {
+       "s": "___ will the concert end? — At ten.",
+       "a": "When",
+       "w": [
+        "Where",
+        "Who"
+       ],
+       "e": [
+        "The answer is a time.",
+        "The answer is a time."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the question word that fits.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-86-rel",
+   "type": "cloze",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammar-tenses"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "The woman ___ sings in the choir is my aunt.",
+       "a": "who",
+       "w": [
+        "which",
+        "where"
+       ],
+       "e": [
+        "For a person, use who.",
+        "Where is for places."
+       ]
+      },
+      {
+       "s": "This is the hall ___ the concert took place.",
+       "a": "where",
+       "w": [
+        "who",
+        "whose"
+       ],
+       "e": [
+        "For a place, use where.",
+        "Whose is for owners."
+       ]
+      },
+      {
+       "s": "The drum ___ my father made is very old.",
+       "a": "which",
+       "w": [
+        "who",
+        "where"
+       ],
+       "e": [
+        "For a thing, use which.",
+        "Where is for places."
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "Choose the word that joins the sentences.",
+   "text": "{X.s}",
+   "answer": "X.a",
+   "choices": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    }
+   ]
+  },
+  {
+   "id": "e2-86-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulary"
+   ],
+   "prompt": "Which question is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Who is the lead singer?",
+      "truth": "true"
+     },
+     {
+      "text": "Where is the palace?",
+      "truth": "true"
+     },
+     {
+      "text": "Whose bag is this?",
+      "truth": "true"
+     },
+     {
+      "text": "Why are you crying?",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Who guitar is this?",
+      "truth": "false",
+      "explain": "For the owner, use Whose."
+     },
+     {
+      "text": "When is the market? — In the town centre.",
+      "truth": "false",
+      "explain": "For a place, ask Where."
+     },
+     {
+      "text": "Which is your name?",
+      "truth": "false",
+      "explain": "Ask What is your name?"
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
