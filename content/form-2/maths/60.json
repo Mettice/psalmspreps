@@ -1,0 +1,390 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 60,
+ "language": "en",
+ "prerequisites": [
+  59
+ ],
+ "skills": [
+  {
+   "id": "m2-60",
+   "name": "Representing data: pictogram, bar chart, pie chart, line graph"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "• Pictogram (ideograph): each symbol stands for a number of items (a key says how many).\n• Bar chart: bars of equal width; the height of each bar is the frequency. Bars are separated by gaps.\n• Pie chart: a circle divided into sectors; each angle = frequency ÷ total × 360°.\n• Line graph: points joined by lines, to show how a quantity changes over time (temperature during a day, sales each month).\nEvery chart needs a title, labels and, for a pictogram, a key.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": 15,
+   "T": 60
+  },
+  "problem": "In a survey of {T} pupils, {f} prefer football. What angle represents football in a pie chart?",
+  "steps": [
+   "Angle = frequency ÷ total × {360}°.",
+   "{f} ÷ {T} × {360} = {pieAngle(f, T)}°."
+  ],
+  "answer": "{pieAngle(f, T)}°",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c60-1",
+    "status": "draft",
+    "idea": "In a pictogram each symbol stands for a number of items given by the key.",
+    "vars": {},
+    "example": [
+     "Key: one symbol = {4} pupils."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-60-picto"
+    }
+   },
+   {
+    "id": "c60-2",
+    "status": "draft",
+    "idea": "In a bar chart the height of each bar is the frequency.",
+    "vars": {},
+    "example": [
+     "Read the bar against the scale."
+    ],
+    "checks": [],
+    "figure": "barChartFig(['Mon', 'Tue', 'Wed', 'Thu'], [4, 7, 3, 6])",
+    "check": {
+     "ref": "m2-60-bar"
+    }
+   },
+   {
+    "id": "c60-3",
+    "status": "draft",
+    "idea": "Pie chart angle = frequency ÷ total × {360}°.",
+    "vars": {},
+    "example": [
+     "{10} out of {40}: {90}°."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-60-pie-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "data"
+     ],
+     "vars": {
+      "T": {
+       "pick": [
+        24,
+        30,
+        36,
+        40,
+        60,
+        72,
+        90,
+        120
+       ]
+      },
+      "f": {
+       "int": [
+        2,
+        20
+       ]
+      },
+      "X": {
+       "pick": [
+        "mangoes",
+        "football",
+        "Maths",
+        "the bus"
+       ]
+      }
+     },
+     "prompt": "In a survey of {T} pupils, {f} chose {X}. What angle represents {X} in a pie chart?",
+     "answer": "pieAngle(f, T)",
+     "misconceptions": [
+      {
+       "id": "pct",
+       "wrong": "round(f / T * 100, 1)",
+       "explain": "That is a percentage; a pie chart uses degrees: × {360}."
+      },
+      {
+       "id": "raw",
+       "wrong": "f",
+       "explain": "Change the frequency into an angle: ÷ total × {360}."
+      }
+     ],
+     "solution": [
+      "Angle = {f} ÷ {T} × {360}°.",
+      "= {answer}°."
+     ],
+     "where": "f < T && isInt(f * 360 / T)",
+     "unit": "°"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-60-picto",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      2,
+      4,
+      5,
+      10
+     ]
+    },
+    "s": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "In a pictogram, one symbol stands for {k} bags of rice. A shop's row shows {s} symbols. How many bags is that?",
+   "answer": "k * s",
+   "misconceptions": [
+    {
+     "id": "count",
+     "wrong": "s",
+     "explain": "Multiply by the value of one symbol."
+    }
+   ],
+   "solution": [
+    "Each symbol = {k} bags.",
+    "{s} × {k} = {answer} bags."
+   ],
+   "unit": "bags"
+  },
+  {
+   "id": "m2-60-bar",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "d": "Wed",
+       "i": 2,
+       "v": [
+        4,
+        7,
+        3,
+        9,
+        6
+       ]
+      },
+      {
+       "d": "Thu",
+       "i": 3,
+       "v": [
+        4,
+        7,
+        3,
+        9,
+        6
+       ]
+      },
+      {
+       "d": "Mon",
+       "i": 0,
+       "v": [
+        5,
+        2,
+        8,
+        6,
+        3
+       ]
+      },
+      {
+       "d": "Fri",
+       "i": 4,
+       "v": [
+        5,
+        2,
+        8,
+        6,
+        3
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "The bar chart shows how many pupils came late each day. How many came late on {X.d}?",
+   "answer": "X.v[X.i]",
+   "solution": [
+    "Find the bar for {X.d} and read its height on the scale.",
+    "It reaches {answer}."
+   ],
+   "figure": "barChartFig(['Mon', 'Tue', 'Wed', 'Thu', 'Fri'], X.v)"
+  },
+  {
+   "id": "m2-60-pie",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      24,
+      30,
+      36,
+      40,
+      60,
+      72,
+      90,
+      120
+     ]
+    },
+    "f": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "X": {
+     "pick": [
+      "mangoes",
+      "football",
+      "Maths",
+      "the bus"
+     ]
+    }
+   },
+   "prompt": "In a survey of {T} pupils, {f} chose {X}. What angle represents {X} in a pie chart?",
+   "answer": "pieAngle(f, T)",
+   "misconceptions": [
+    {
+     "id": "pct",
+     "wrong": "round(f / T * 100, 1)",
+     "explain": "That is a percentage; a pie chart uses degrees: × {360}."
+    },
+    {
+     "id": "raw",
+     "wrong": "f",
+     "explain": "Change the frequency into an angle: ÷ total × {360}."
+    }
+   ],
+   "solution": [
+    "Angle = {f} ÷ {T} × {360}°.",
+    "= {answer}°."
+   ],
+   "where": "f < T && isInt(f * 360 / T)",
+   "unit": "°"
+  },
+  {
+   "id": "m2-60-choose",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "how the temperature changes during a day",
+       "r": "a line graph",
+       "w": [
+        "a pie chart",
+        "a pictogram",
+        "no chart at all"
+       ],
+       "e": [
+        "A pie shows parts of a whole.",
+        "A pictogram shows counts with symbols.",
+        "A chart helps."
+       ],
+       "y": "A line graph shows change over time."
+      },
+      {
+       "q": "what fraction of a class prefers each sport",
+       "r": "a pie chart",
+       "w": [
+        "a line graph",
+        "a table of contents",
+        "a map"
+       ],
+       "e": [
+        "A line graph shows change over time.",
+        "That is not a chart.",
+        "That is not a chart."
+       ],
+       "y": "A pie chart shows parts of a whole."
+      },
+      {
+       "q": "the number of pupils in each class, compared side by side",
+       "r": "a bar chart",
+       "w": [
+        "a line graph",
+        "a pie chart with no total",
+        "a net"
+       ],
+       "e": [
+        "There is no time sequence.",
+        "A pie needs a whole.",
+        "A net is for solids."
+       ],
+       "y": "Bars compare frequencies."
+      }
+     ]
+    }
+   },
+   "prompt": "Which chart is best to show {X.q}?",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  }
+ ]
+}

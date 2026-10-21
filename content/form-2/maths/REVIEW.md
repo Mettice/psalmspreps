@@ -240,6 +240,20 @@ Full working after a second miss:
 | 52 | Properties of conservation: Distances, angles, shapes, parallelism, orthogonally and points on a line | draft | 3 | 4 | — |
 | 53 | Circumscribed circle of a triangle and of a right angled triangle | draft | 3 | 4 | — |
 | 54 | Relative positions of two circles | draft | 3 | 4 | — |
+| 55 | Vocabularies (Shape, faces, bases, vertices) | draft | 3 | 4 | — |
+| 56 | Properties: number of lateral faces, number of edges | draft | 3 | 3 | — |
+| 57 | Area of lateral faces, total surface area, volume | draft | 3 | 4 | — |
+| 58 | Net of a right prism | draft | 3 | 4 | — |
+| 59 | Qualitative and quantitative data | draft | 3 | 4 | — |
+| 60 | Data representation: pictogram (ideograph), bar chart, pie chart, line graphs | draft | 3 | 4 | — |
+| 61 | Frequency distribution table | draft | 3 | 4 | — |
+| 62 | Mode, mean and median of simple raw data | draft | 3 | 4 | — |
+| 63 | Mode and mean of a distribution using frequency distribution table. (ungrouped data) | draft | 3 | 3 | — |
+| 64 | Vocabularies (Shape, base, faces, edges, apex, altitude, slant height, vertices) | draft | 3 | 4 | — |
+| 65 | Regular tetrahedron as a special pyramid; | draft | 3 | 4 | — |
+| 66 | Net of a pyramid | draft | 3 | 3 | — |
+| 67 | Sphere and boule: Shape, Centre, radius, diameter | draft | 3 | 4 | — |
+| 68 | Surface area of a sphere, volume of spherical solid | draft | 3 | 3 | — |
 
 ## Lesson 1: Diagnostic assessment
 
@@ -11413,4 +11427,2586 @@ Full working after a second miss:
 
 > To intersect: d < R + r = 5.  
 > The largest whole number below 5 is 4 cm.  
+
+## Lesson 55: Vocabularies (Shape, faces, bases, vertices)
+
+Prerequisites: none · Skill: m2-55 (Right prisms: shape, faces, bases, vertices)
+
+**Note** (draft)
+
+> A prism is a solid with two identical, parallel faces called the bases, joined by rectangular faces called the lateral faces. In a right prism the lateral faces are perpendicular to the bases.
+> A prism is named after the shape of its base: triangular prism, rectangular prism (cuboid), pentagonal prism, hexagonal prism. A cube is a rectangular prism with all faces square.
+> Vocabulary: a face is a flat surface; an edge is where two faces meet; a vertex (plural vertices) is a corner where edges meet. The height of the prism is the distance between the two bases.
+> Examples: a Toblerone-style box (triangular prism), a matchbox or brick (cuboid), a pencil (hexagonal prism).
+
+**Card c55-1** (draft)
+
+> A prism has two identical parallel bases joined by rectangular lateral faces.
+>
+> _A brick is a rectangular prism._  
+
+![drawing](figures/c55-1-101.svg)
+
+Check question: `m2-55-name` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Name the prism in the figure.
+
+![drawing](figures/m2-55-name-102.svg)
+
+- ◻️ a pentagonal prism  
+  _↳ feedback if chosen: Count the sides of one base (an end face)._
+- ◻️ a square pyramid  
+  _↳ feedback if chosen: A pyramid has one base and a point (apex); this solid has two identical bases._
+- ◻️ a triangular prism  
+  _↳ feedback if chosen: Count the sides of one base (an end face)._
+- ✅ a rectangular prism
+
+Full working after a second miss:
+
+> Look at the two identical ends: they are the bases, with 4 sides.  
+> So it is a rectangular prism.  
+
+**Card c55-2** (draft)
+
+> A prism is named after the shape of its base.
+>
+> _Hexagonal base: a hexagonal prism._  
+
+![drawing](figures/c55-2-103.svg)
+
+Check question: `m2-55-base` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What are the two identical parallel faces of a prism called?
+
+- ✅ the bases
+- ◻️ the vertices  
+  _↳ feedback if chosen: Vertices are corners._
+- ◻️ the edges  
+  _↳ feedback if chosen: Edges are lines where faces meet._
+- ◻️ the apex  
+  _↳ feedback if chosen: A prism has no apex._
+
+Full working after a second miss:
+
+> A prism is named after its bases.  
+> So the answer is “the bases”.  
+
+**Card c55-3** (draft)
+
+> Face: a flat surface; edge: where two faces meet; vertex: a corner.
+>
+> _A cube has square faces._  
+
+Check question: `m2-55-vocab-card` · matching, level 1 · **authored key**
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): the distance between the two bases · one of the two identical parallel faces · a flat surface of the solid · a line where two faces meet
+- base → **one of the two identical parallel faces**
+- face → **a flat surface of the solid**
+- edge → **a line where two faces meet**
+- height → **the distance between the two bases**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> base → one of the two identical parallel faces  
+> face → a flat surface of the solid  
+> edge → a line where two faces meet  
+> height → the distance between the two bases  
+
+**Worked example** (draft)
+
+> The solid in the figure has two identical triangular ends joined by rectangles. Name it and its bases.
+
+![drawing](figures/worked-55-104.svg)
+
+1. The two identical, parallel faces are the bases: they are triangles.
+2. A prism is named after its base: a triangular prism.
+
+**Answer:** A triangular prism; its bases are the two triangles.
+
+**Practice** `m2-55-name` · multiple choice, level 1 · computed by rule
+
+> Name the prism in the figure.
+
+![drawing](figures/m2-55-name-105.svg)
+
+- ◻️ a rectangular prism  
+  _↳ feedback if chosen: Count the sides of one base (an end face)._
+- ◻️ a hexagonal prism  
+  _↳ feedback if chosen: Count the sides of one base (an end face)._
+- ✅ a pentagonal prism
+- ◻️ a pentagonal pyramid  
+  _↳ feedback if chosen: A pyramid has one base and a point (apex); this solid has two identical bases._
+
+Full working after a second miss:
+
+> Look at the two identical ends: they are the bases, with 5 sides.  
+> So it is a pentagonal prism.  
+
+> Name the prism in the figure.
+
+![drawing](figures/m2-55-name-106.svg)
+
+- ◻️ a triangular prism  
+  _↳ feedback if chosen: Count the sides of one base (an end face)._
+- ✅ a rectangular prism
+- ◻️ a square pyramid  
+  _↳ feedback if chosen: A pyramid has one base and a point (apex); this solid has two identical bases._
+- ◻️ a pentagonal prism  
+  _↳ feedback if chosen: Count the sides of one base (an end face)._
+
+Full working after a second miss:
+
+> Look at the two identical ends: they are the bases, with 4 sides.  
+> So it is a rectangular prism.  
+
+**Practice** `m2-55-base` · multiple choice, level 1 · **authored key**
+
+> What shape are the lateral faces of a right prism?
+
+- ✅ rectangles
+- ◻️ always squares  
+  _↳ feedback if chosen: They are squares only in a cube._
+- ◻️ triangles  
+  _↳ feedback if chosen: Triangles are the lateral faces of a pyramid._
+- ◻️ circles  
+  _↳ feedback if chosen: A prism has flat faces._
+
+Full working after a second miss:
+
+> They join the bases at right angles.  
+> So the answer is “rectangles”.  
+
+> What are the two identical parallel faces of a prism called?
+
+- ◻️ the vertices  
+  _↳ feedback if chosen: Vertices are corners._
+- ◻️ the apex  
+  _↳ feedback if chosen: A prism has no apex._
+- ◻️ the edges  
+  _↳ feedback if chosen: Edges are lines where faces meet._
+- ✅ the bases
+
+Full working after a second miss:
+
+> A prism is named after its bases.  
+> So the answer is “the bases”.  
+
+**Practice** `m2-55-vocab` · matching, level 2 · **authored key**
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): the distance between the two bases · one of the two identical parallel faces · a flat surface of the solid · a corner where edges meet
+- vertex → **a corner where edges meet**
+- height → **the distance between the two bases**
+- face → **a flat surface of the solid**
+- base → **one of the two identical parallel faces**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> vertex → a corner where edges meet  
+> height → the distance between the two bases  
+> face → a flat surface of the solid  
+> base → one of the two identical parallel faces  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a flat surface of the solid · the distance between the two bases · one of the two identical parallel faces · a corner where edges meet
+- vertex → **a corner where edges meet**
+- height → **the distance between the two bases**
+- base → **one of the two identical parallel faces**
+- face → **a flat surface of the solid**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> vertex → a corner where edges meet  
+> height → the distance between the two bases  
+> base → one of the two identical parallel faces  
+> face → a flat surface of the solid  
+
+**Practice** `m2-55-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ A cube is a rectangular prism.
+- ◻️ A prism has two identical bases.
+- ◻️ A pencil is a hexagonal prism.
+- ✅ A triangular prism has a triangle at one end and a square at the other.  
+  _↳ explanation: The two bases are identical._
+
+Full working after a second miss:
+
+> The wrong statement is “A triangular prism has a triangle at one end and a square at the other.”.  
+> The two bases are identical.  
+
+> Which statement is wrong?
+
+- ◻️ A pencil is a hexagonal prism.
+- ◻️ Vertices are corners.
+- ✅ A triangular prism has a triangle at one end and a square at the other.  
+  _↳ explanation: The two bases are identical._
+- ◻️ A prism has two identical bases.
+
+Full working after a second miss:
+
+> The wrong statement is “A triangular prism has a triangle at one end and a square at the other.”.  
+> The two bases are identical.  
+
+## Lesson 56: Properties: number of lateral faces, number of edges
+
+Prerequisites: 55 · Skill: m2-56 (Right prisms: numbers of faces, edges and vertices)
+
+**Note** (draft)
+
+> For a prism whose base has n sides:
+> • lateral faces: n; total faces: n + 2 (n lateral faces and 2 bases);
+> • edges: 3n (n on each base and n lateral edges);
+> • vertices: 2n (n on each base).
+> Example: a pentagonal prism (n = 5) has 5 lateral faces, 7 faces, 15 edges and 10 vertices.
+> Euler's relation for these solids: faces + vertices − edges = 2. For the pentagonal prism: 7 + 10 − 15 = 2.
+
+**Card c56-1** (draft)
+
+> A prism with an n-sided base has n lateral faces and n + 2 faces in all.
+>
+> _Triangular prism: 3 + 2 = 5 faces._  
+
+![drawing](figures/c56-1-107.svg)
+
+Check question: `m2-56-faces` · number, level 1 · computed by rule, reused from practice
+
+> How many faces does a triangular prism have?
+
+![drawing](figures/m2-56-faces-108.svg)
+
+Answer: **5**
+- Typed **3** (lat) → “Add the two bases too.”
+- Typed **4** (plus1) → “There are two bases, not one.”
+
+Full working after a second miss:
+
+> The base has 3 sides: 3 lateral faces and 2 bases.  
+> 3 + 2 = 5 faces.  
+
+**Card c56-2** (draft)
+
+> It has 3n edges and 2n vertices.
+>
+> _Cuboid: 12 edges, 8 vertices._  
+
+![drawing](figures/c56-2-109.svg)
+
+Check question: `m2-56-edges-card` · number, level 1 · computed by rule
+
+> How many edges does a rectangular prism have?
+
+![drawing](figures/m2-56-edges-card-110.svg)
+
+Answer: **12**
+- Typed **8** (swap) → “Edges are lines; vertices are corners: count the right ones.”
+- Typed **4** (half) → “Count both bases.”
+
+Full working after a second miss:
+
+> Edges: 4 on each base and 4 lateral edges.  
+> So there are 12 edges.  
+
+**Card c56-3** (draft)
+
+> Euler's relation: F + V − E = 2.
+>
+> _Cuboid: 6 + 8 − 12 = 2._  
+
+Check question: `m2-56-euler-card` · number, level 1 · computed by rule
+
+> A prism has 8 faces and 12 vertices. Use F + V − E = 2 to find its number of edges.
+
+Answer: **18**
+- Typed **22** (plus) → “E = F + V − 2: subtract 2.”
+- Typed **20** (sum) → “Subtract 2.”
+
+Full working after a second miss:
+
+> F + V − E = 2, so E = F + V − 2.  
+> E = 8 + 12 − 2 = 18.  
+
+**Worked example** (draft)
+
+> How many faces, edges and vertices does a hexagonal prism have?
+
+![drawing](figures/worked-56-111.svg)
+
+1. A hexagon has 6 sides: n = 6.
+2. Faces = n + 2 = 8; edges = 3n = 18; vertices = 2n = 12.
+
+**Answer:** 8 faces, 18 edges, 12 vertices
+
+**Practice** `m2-56-faces` · number, level 1 · computed by rule
+
+> How many faces does a hexagonal prism have?
+
+![drawing](figures/m2-56-faces-112.svg)
+
+Answer: **8**
+- Typed **6** (lat) → “Add the two bases too.”
+- Typed **7** (plus1) → “There are two bases, not one.”
+
+Full working after a second miss:
+
+> The base has 6 sides: 6 lateral faces and 2 bases.  
+> 6 + 2 = 8 faces.  
+
+> How many faces does a pentagonal prism have?
+
+![drawing](figures/m2-56-faces-113.svg)
+
+Answer: **7**
+- Typed **5** (lat) → “Add the two bases too.”
+- Typed **6** (plus1) → “There are two bases, not one.”
+
+Full working after a second miss:
+
+> The base has 5 sides: 5 lateral faces and 2 bases.  
+> 5 + 2 = 7 faces.  
+
+**Practice** `m2-56-edges` · number, level 2 · computed by rule
+
+> How many vertices does a pentagonal prism have?
+
+![drawing](figures/m2-56-edges-114.svg)
+
+Answer: **10**
+- Typed **15** (swap) → “Edges are lines; vertices are corners: count the right ones.”
+- Typed **5** (half) → “Count both bases.”
+
+Full working after a second miss:
+
+> Vertices: 5 on each base.  
+> So there are 10 vertices.  
+
+> How many vertices does a hexagonal prism have?
+
+![drawing](figures/m2-56-edges-115.svg)
+
+Answer: **12**
+- Typed **18** (swap) → “Edges are lines; vertices are corners: count the right ones.”
+- Typed **6** (half) → “Count both bases.”
+
+Full working after a second miss:
+
+> Vertices: 6 on each base.  
+> So there are 12 vertices.  
+
+**Practice** `m2-56-euler` · number, level 3 · computed by rule
+
+> A prism has 10 faces and 16 vertices. Use F + V − E = 2 to find its number of edges.
+
+Answer: **24**
+- Typed **28** (plus) → “E = F + V − 2: subtract 2.”
+- Typed **26** (sum) → “Subtract 2.”
+
+Full working after a second miss:
+
+> F + V − E = 2, so E = F + V − 2.  
+> E = 10 + 16 − 2 = 24.  
+
+> A prism has 7 faces and 10 vertices. Use F + V − E = 2 to find its number of edges.
+
+Answer: **15**
+- Typed **19** (plus) → “E = F + V − 2: subtract 2.”
+- Typed **17** (sum) → “Subtract 2.”
+
+Full working after a second miss:
+
+> F + V − E = 2, so E = F + V − 2.  
+> E = 7 + 10 − 2 = 15.  
+
+## Lesson 57: Area of lateral faces, total surface area, volume
+
+Prerequisites: 56 · Skill: m2-57 (Right prisms: lateral area, total surface area and volume)
+
+**Note** (draft)
+
+> For a right prism with base perimeter P, base area B and height h:
+> • lateral area = P × h (the lateral faces unroll into one rectangle P long and h high);
+> • total surface area = lateral area + 2 × B;
+> • volume = B × h.
+> Cuboid with length l, width w and height h: total area = 2(lw + lh + wh); volume = l × w × h.
+> Units: areas in cm² or m², volumes in cm³ or m³; 1 litre = 1 000 cm³.
+
+**Card c57-1** (draft)
+
+> Lateral area = perimeter of the base × height.
+>
+> _P = 20 cm, h = 6 cm: 120 cm²._  
+
+Check question: `m2-57-lat` · number, level 1 · computed by rule, reused from practice
+
+> A right prism has a base perimeter of 17 cm and a height of 11 cm. Find its lateral area.
+
+Answer: **187 cm²**
+- Typed **28** (add) → “Multiply the perimeter by the height.”
+
+Full working after a second miss:
+
+> Lateral area = perimeter × height.  
+> 17 × 11 = 187 cm².  
+
+**Card c57-2** (draft)
+
+> Total surface area = lateral area + 2 × base area.
+>
+> _120 + 2 × 24 = 168 cm²._  
+
+Check question: `m2-57-total-card` · number, level 1 · computed by rule
+
+> A triangular prism has a right-angled base with sides 5 cm, 12 cm and 13 cm (the right angle between 5 and 12). Its length is 5 cm. Find its total surface area.
+
+![drawing](figures/m2-57-total-card-116.svg)
+
+Answer: **210 cm²**
+- Typed **150** (lat) → “Add the two triangular bases too.”
+- Typed **180** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> Base area = ½ × 5 × 12 = 30 cm²; perimeter = 30 cm.  
+> Total = 30 × 5 + 2 × 30 = 210 cm².  
+
+**Card c57-3** (draft)
+
+> Volume = base area × height.
+>
+> _24 cm² × 6 cm = 144 cm³._  
+
+Check question: `m2-57-vol` · number, level 1 · computed by rule, reused from practice
+
+> A cuboid is 3 cm long, 3 cm wide and 10 cm high. Find its volume.
+
+![drawing](figures/m2-57-vol-117.svg)
+
+Answer: **90 cm³**
+- Typed **138** (area) → “That is the surface area; volume = l × w × h.”
+- Typed **16** (sum) → “Multiply the three lengths.”
+
+Full working after a second miss:
+
+> Volume = length × width × height.  
+> 3 × 3 × 10 = 90 cm³.  
+
+**Worked example** (draft)
+
+> A box is a cuboid 8 cm long, 5 cm wide and 4 cm high. Find its total surface area and volume.
+
+![drawing](figures/worked-57-118.svg)
+
+1. Total area = 2(8×5 + 8×4 + 5×4) = 2(40 + 32 + 20) = 184 cm².
+2. Volume = 8 × 5 × 4 = 160 cm³.
+
+**Answer:** 184 cm² and 160 cm³
+
+**Practice** `m2-57-lat` · number, level 1 · computed by rule
+
+> A right prism has a base perimeter of 29 cm and a height of 8 cm. Find its lateral area.
+
+Answer: **232 cm²**
+- Typed **37** (add) → “Multiply the perimeter by the height.”
+
+Full working after a second miss:
+
+> Lateral area = perimeter × height.  
+> 29 × 8 = 232 cm².  
+
+> A right prism has a base perimeter of 23 cm and a height of 10 cm. Find its lateral area.
+
+Answer: **230 cm²**
+- Typed **33** (add) → “Multiply the perimeter by the height.”
+
+Full working after a second miss:
+
+> Lateral area = perimeter × height.  
+> 23 × 10 = 230 cm².  
+
+**Practice** `m2-57-total` · number, level 2 · computed by rule
+
+> A triangular prism has a right-angled base with sides 5 cm, 12 cm and 13 cm (the right angle between 5 and 12). Its length is 10 cm. Find its total surface area.
+
+![drawing](figures/m2-57-total-119.svg)
+
+Answer: **360 cm²**
+- Typed **300** (lat) → “Add the two triangular bases too.”
+- Typed **330** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> Base area = ½ × 5 × 12 = 30 cm²; perimeter = 30 cm.  
+> Total = 30 × 10 + 2 × 30 = 360 cm².  
+
+> A triangular prism has a right-angled base with sides 6 cm, 8 cm and 10 cm (the right angle between 6 and 8). Its length is 6 cm. Find its total surface area.
+
+![drawing](figures/m2-57-total-120.svg)
+
+Answer: **192 cm²**
+- Typed **144** (lat) → “Add the two triangular bases too.”
+- Typed **168** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> Base area = ½ × 6 × 8 = 24 cm²; perimeter = 24 cm.  
+> Total = 24 × 6 + 2 × 24 = 192 cm².  
+
+**Practice** `m2-57-vol` · number, level 1 · computed by rule
+
+> A cuboid is 6 cm long, 8 cm wide and 9 cm high. Find its volume.
+
+![drawing](figures/m2-57-vol-121.svg)
+
+Answer: **432 cm³**
+- Typed **348** (area) → “That is the surface area; volume = l × w × h.”
+- Typed **23** (sum) → “Multiply the three lengths.”
+
+Full working after a second miss:
+
+> Volume = length × width × height.  
+> 6 × 8 × 9 = 432 cm³.  
+
+> A cuboid is 8 cm long, 3 cm wide and 5 cm high. Find its volume.
+
+![drawing](figures/m2-57-vol-122.svg)
+
+Answer: **120 cm³**
+- Typed **158** (area) → “That is the surface area; volume = l × w × h.”
+- Typed **16** (sum) → “Multiply the three lengths.”
+
+Full working after a second miss:
+
+> Volume = length × width × height.  
+> 8 × 3 × 5 = 120 cm³.  
+
+**Practice** `m2-57-litre` · number, level 3 · computed by rule
+
+> A water tank is a cuboid 50 cm by 40 cm by 100 cm. How many litres does it hold when full? (1 litre = 1 000 cm³)
+
+Answer: **200 litres**
+- Typed **200 000** (cm3) → “Divide by 1000 to change cm³ to litres.”
+
+Full working after a second miss:
+
+> Volume = 50 × 40 × 100 = 200 000 cm³.  
+> 200 000 ÷ 1000 = 200 litres.  
+
+> A water tank is a cuboid 150 cm by 80 cm by 50 cm. How many litres does it hold when full? (1 litre = 1 000 cm³)
+
+Answer: **600 litres**
+- Typed **600 000** (cm3) → “Divide by 1000 to change cm³ to litres.”
+
+Full working after a second miss:
+
+> Volume = 150 × 80 × 50 = 600 000 cm³.  
+> 600 000 ÷ 1000 = 600 litres.  
+
+## Lesson 58: Net of a right prism
+
+Prerequisites: 55 · Skill: m2-58 (Net of a right prism)
+
+**Note** (draft)
+
+> The net of a solid is the flat shape you get when you unfold it. Folding the net back gives the solid.
+> The net of a right prism has:
+> • the two bases (identical polygons), and
+> • the lateral faces, which together form one long rectangle: its length is the perimeter of the base and its width is the height of the prism.
+> A cube has 11 different nets; a common one is a cross of 6 squares.
+> The area of the net equals the total surface area of the prism.
+> To draw a net: draw the long rectangle divided into n parts (one for each side of the base), then attach one base above and one below.
+
+**Card c58-1** (draft)
+
+> A net is the flat shape you get when you unfold a solid.
+>
+> _Fold it back to make the solid._  
+
+Check question: `m2-58-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How many squares are in the net of a cube?
+
+- ◻️ twelve  
+  _↳ feedback if chosen: Twelve is the number of edges._
+- ✅ six
+- ◻️ four  
+  _↳ feedback if chosen: A cube has six faces._
+- ◻️ eight  
+  _↳ feedback if chosen: Eight is the number of vertices._
+
+Full working after a second miss:
+
+> One square for each face.  
+> So the answer is “six”.  
+
+**Card c58-2** (draft)
+
+> The net of a prism: 2 bases and a long rectangle of lateral faces.
+>
+> _The rectangle's length is the base perimeter._  
+
+Check question: `m2-58-parts-card` · number, level 1 · computed by rule
+
+> The net of a triangular prism has a long rectangle made of its lateral faces. How many faces are there in the whole net?
+
+![drawing](figures/m2-58-parts-card-123.svg)
+
+Answer: **5**
+- Typed **3** (lat) → “Add the two bases.”
+- Typed **4** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> The rectangle has 3 lateral faces.  
+> Add the 2 bases: 3 + 2 = 5.  
+
+**Card c58-3** (draft)
+
+> The area of the net equals the total surface area.
+>
+> _Same faces, just laid flat._  
+
+Check question: `m2-58-area` · number, level 1 · computed by rule, reused from practice
+
+> The lateral rectangle of a prism's net is 14 cm long and 12 cm wide. Each base has an area of 16 cm². What is the area of the whole net?
+
+Answer: **200 cm²**
+- Typed **184** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> Rectangle: 14 × 12 = 168 cm².  
+> Add the two bases: 168 + 2 × 16 = 200 cm².  
+
+**Worked example** (draft)
+
+> Describe the net of a triangular prism.
+
+![drawing](figures/worked-58-124.svg)
+
+1. Unfold the 3 lateral faces: they make one long rectangle divided into 3 rectangles.
+2. Attach the two triangular bases, one above and one below the rectangle.
+
+**Answer:** Three rectangles in a row with a triangle above and a triangle below.
+
+**Practice** `m2-58-what` · multiple choice, level 1 · **authored key**
+
+> What is the net of a solid?
+
+- ◻️ a fishing net  
+  _↳ feedback if chosen: That is not the maths meaning._
+- ◻️ its height  
+  _↳ feedback if chosen: Height is a length._
+- ◻️ its volume  
+  _↳ feedback if chosen: Volume is space inside._
+- ✅ the flat shape you get when you unfold it
+
+Full working after a second miss:
+
+> Folding the net makes the solid.  
+> So the answer is “the flat shape you get when you unfold it”.  
+
+> What is the net of a solid?
+
+- ✅ the flat shape you get when you unfold it
+- ◻️ a fishing net  
+  _↳ feedback if chosen: That is not the maths meaning._
+- ◻️ its volume  
+  _↳ feedback if chosen: Volume is space inside._
+- ◻️ its height  
+  _↳ feedback if chosen: Height is a length._
+
+Full working after a second miss:
+
+> Folding the net makes the solid.  
+> So the answer is “the flat shape you get when you unfold it”.  
+
+**Practice** `m2-58-parts` · number, level 2 · computed by rule
+
+> The net of a triangular prism has a long rectangle made of its lateral faces. How many faces are there in the whole net?
+
+![drawing](figures/m2-58-parts-125.svg)
+
+Answer: **5**
+- Typed **3** (lat) → “Add the two bases.”
+- Typed **4** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> The rectangle has 3 lateral faces.  
+> Add the 2 bases: 3 + 2 = 5.  
+
+> The net of a hexagonal prism has a long rectangle made of its lateral faces. How many faces are there in the whole net?
+
+![drawing](figures/m2-58-parts-126.svg)
+
+Answer: **8**
+- Typed **6** (lat) → “Add the two bases.”
+- Typed **7** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> The rectangle has 6 lateral faces.  
+> Add the 2 bases: 6 + 2 = 8.  
+
+**Practice** `m2-58-area` · number, level 1 · computed by rule
+
+> The lateral rectangle of a prism's net is 21 cm long and 9 cm wide. Each base has an area of 14 cm². What is the area of the whole net?
+
+Answer: **217 cm²**
+- Typed **203** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> Rectangle: 21 × 9 = 189 cm².  
+> Add the two bases: 189 + 2 × 14 = 217 cm².  
+
+> The lateral rectangle of a prism's net is 29 cm long and 6 cm wide. Each base has an area of 9 cm². What is the area of the whole net?
+
+Answer: **192 cm²**
+- Typed **183** (one) → “There are two bases.”
+
+Full working after a second miss:
+
+> Rectangle: 29 × 6 = 174 cm².  
+> Add the two bases: 174 + 2 × 9 = 192 cm².  
+
+**Practice** `m2-58-spot` · spot the error, level 3 · **authored key**
+
+> Which statement about nets is wrong?
+
+- ◻️ The net's area is the surface area.
+- ◻️ A cube's net has six squares.
+- ✅ The lateral rectangle's length is the prism's height.  
+  _↳ explanation: Its length is the base perimeter; its width is the height._
+- ◻️ A prism's net has two identical bases.
+
+Full working after a second miss:
+
+> The wrong statement is “The lateral rectangle's length is the prism's height.”.  
+> Its length is the base perimeter; its width is the height.  
+
+> Which statement about nets is wrong?
+
+- ◻️ A prism's net has two identical bases.
+- ◻️ A net folds to make the solid.
+- ✅ The lateral rectangle's length is the prism's height.  
+  _↳ explanation: Its length is the base perimeter; its width is the height._
+- ◻️ A cube's net has six squares.
+
+Full working after a second miss:
+
+> The wrong statement is “The lateral rectangle's length is the prism's height.”.  
+> Its length is the base perimeter; its width is the height.  
+
+## Lesson 59: Qualitative and quantitative data
+
+Prerequisites: none · Skill: m2-59 (Qualitative and quantitative data)
+
+**Note** (draft)
+
+> Data are pieces of information collected about something.
+> • Qualitative (categorical) data are words or categories: favourite fruit, colour, region of birth, means of transport.
+> • Quantitative data are numbers obtained by counting or measuring: number of brothers, height, mass, marks.
+>   – discrete data are counted and take separate values (number of pupils: 0, 1, 2, …);
+>   – continuous data are measured and can take any value in a range (height 1.53 m, time 12.4 s).
+> Data are collected by a survey, a questionnaire, an interview, observation or an experiment. Raw data are the data as collected, before they are organised.
+
+**Card c59-1** (draft)
+
+> Qualitative data are words or categories.
+>
+> _Favourite colour._  
+
+Check question: `m2-59-type` · multiple choice, level 1 · computed by rule, reused from practice
+
+> What kind of data is “favourite fruit”?
+
+- ✅ qualitative
+- ◻️ quantitative discrete  
+  _↳ feedback if chosen: Is it a word or a number? If a number, is it counted (discrete) or measured (continuous)?_
+- ◻️ quantitative continuous  
+  _↳ feedback if chosen: Is it a word or a number? If a number, is it counted (discrete) or measured (continuous)?_
+
+Full working after a second miss:
+
+> Words: qualitative. Counted numbers: discrete. Measured numbers: continuous.  
+> So it is qualitative.  
+
+**Card c59-2** (draft)
+
+> Quantitative data are numbers: discrete (counted) or continuous (measured).
+>
+> _Number of pens: discrete. Mass: continuous._  
+
+Check question: `m2-59-disc-card` · multiple choice, level 1 · **authored key**
+
+> Why is “number of pupils in a class” discrete?
+
+- ✅ It is counted and takes whole-number values.
+- ◻️ It is measured with a ruler.  
+  _↳ feedback if chosen: It is counted._
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+- ◻️ It can be 32.5.  
+  _↳ feedback if chosen: You cannot have half a pupil._
+
+Full working after a second miss:
+
+> Counted data are discrete.  
+> So the answer is “It is counted and takes whole-number values.”.  
+
+**Card c59-3** (draft)
+
+> Data are collected by surveys, questionnaires, interviews and observation.
+>
+> _A questionnaire for the class._  
+
+Check question: `m2-59-collect` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What are raw data?
+
+- ✅ data as collected, before they are organised
+- ◻️ data in a pie chart  
+  _↳ feedback if chosen: A chart is organised._
+- ◻️ data that are cooked  
+  _↳ feedback if chosen: That is not the meaning._
+- ◻️ only qualitative data  
+  _↳ feedback if chosen: Raw data can be any kind._
+
+Full working after a second miss:
+
+> They have not yet been sorted.  
+> So the answer is “data as collected, before they are organised”.  
+
+**Worked example** (draft)
+
+> A pupil records, for each classmate: favourite sport, number of brothers and height. Classify each.
+
+1. Favourite sport is a word: qualitative.
+2. Number of brothers is counted: quantitative discrete. Height is measured: quantitative continuous.
+
+**Answer:** sport: qualitative; brothers: discrete; height: continuous
+
+**Practice** `m2-59-type` · multiple choice, level 1 · computed by rule
+
+> What kind of data is “means of transport to school”?
+
+- ◻️ quantitative continuous  
+  _↳ feedback if chosen: Is it a word or a number? If a number, is it counted (discrete) or measured (continuous)?_
+- ✅ qualitative
+- ◻️ quantitative discrete  
+  _↳ feedback if chosen: Is it a word or a number? If a number, is it counted (discrete) or measured (continuous)?_
+
+Full working after a second miss:
+
+> Words: qualitative. Counted numbers: discrete. Measured numbers: continuous.  
+> So it is qualitative.  
+
+> What kind of data is “number of goals in a match”?
+
+- ✅ quantitative discrete
+- ◻️ qualitative  
+  _↳ feedback if chosen: Is it a word or a number? If a number, is it counted (discrete) or measured (continuous)?_
+- ◻️ quantitative continuous  
+  _↳ feedback if chosen: Is it a word or a number? If a number, is it counted (discrete) or measured (continuous)?_
+
+Full working after a second miss:
+
+> Words: qualitative. Counted numbers: discrete. Measured numbers: continuous.  
+> So it is quantitative discrete.  
+
+**Practice** `m2-59-disc` · multiple choice, level 2 · **authored key**
+
+> Why is “number of pupils in a class” discrete?
+
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+- ◻️ It is measured with a ruler.  
+  _↳ feedback if chosen: It is counted._
+- ◻️ It can be 32.5.  
+  _↳ feedback if chosen: You cannot have half a pupil._
+- ✅ It is counted and takes whole-number values.
+
+Full working after a second miss:
+
+> Counted data are discrete.  
+> So the answer is “It is counted and takes whole-number values.”.  
+
+> Why is “time to run 100 m” continuous?
+
+- ◻️ It is counted.  
+  _↳ feedback if chosen: It is measured._
+- ◻️ It only takes whole numbers.  
+  _↳ feedback if chosen: It can be 13.4 s._
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+- ✅ It is measured and can take any value in a range.
+
+Full working after a second miss:
+
+> Measured data are continuous.  
+> So the answer is “It is measured and can take any value in a range.”.  
+
+**Practice** `m2-59-collect` · multiple choice, level 1 · **authored key**
+
+> What are raw data?
+
+- ◻️ only qualitative data  
+  _↳ feedback if chosen: Raw data can be any kind._
+- ◻️ data in a pie chart  
+  _↳ feedback if chosen: A chart is organised._
+- ◻️ data that are cooked  
+  _↳ feedback if chosen: That is not the meaning._
+- ✅ data as collected, before they are organised
+
+Full working after a second miss:
+
+> They have not yet been sorted.  
+> So the answer is “data as collected, before they are organised”.  
+
+> What are raw data?
+
+- ◻️ data in a pie chart  
+  _↳ feedback if chosen: A chart is organised._
+- ◻️ data that are cooked  
+  _↳ feedback if chosen: That is not the meaning._
+- ◻️ only qualitative data  
+  _↳ feedback if chosen: Raw data can be any kind._
+- ✅ data as collected, before they are organised
+
+Full working after a second miss:
+
+> They have not yet been sorted.  
+> So the answer is “data as collected, before they are organised”.  
+
+**Practice** `m2-59-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ Colour is qualitative.
+- ✅ Favourite food is quantitative.  
+  _↳ explanation: It is a word: qualitative._
+- ◻️ Number of brothers is discrete.
+- ◻️ Height is continuous.
+
+Full working after a second miss:
+
+> The wrong statement is “Favourite food is quantitative.”.  
+> It is a word: qualitative.  
+
+> Which statement is wrong?
+
+- ◻️ Colour is qualitative.
+- ◻️ Height is continuous.
+- ◻️ A survey collects data.
+- ✅ Favourite food is quantitative.  
+  _↳ explanation: It is a word: qualitative._
+
+Full working after a second miss:
+
+> The wrong statement is “Favourite food is quantitative.”.  
+> It is a word: qualitative.  
+
+## Lesson 60: Data representation: pictogram (ideograph), bar chart, pie chart, line graphs
+
+Prerequisites: 59 · Skill: m2-60 (Representing data: pictogram, bar chart, pie chart, line graph)
+
+**Note** (draft)
+
+> • Pictogram (ideograph): each symbol stands for a number of items (a key says how many).
+> • Bar chart: bars of equal width; the height of each bar is the frequency. Bars are separated by gaps.
+> • Pie chart: a circle divided into sectors; each angle = frequency ÷ total × 360°.
+> • Line graph: points joined by lines, to show how a quantity changes over time (temperature during a day, sales each month).
+> Every chart needs a title, labels and, for a pictogram, a key.
+
+**Card c60-1** (draft)
+
+> In a pictogram each symbol stands for a number of items given by the key.
+>
+> _Key: one symbol = 4 pupils._  
+
+Check question: `m2-60-picto` · number, level 1 · computed by rule, reused from practice
+
+> In a pictogram, one symbol stands for 5 bags of rice. A shop's row shows 2 symbols. How many bags is that?
+
+Answer: **10 bags**
+- Typed **2** (count) → “Multiply by the value of one symbol.”
+
+Full working after a second miss:
+
+> Each symbol = 5 bags.  
+> 2 × 5 = 10 bags.  
+
+**Card c60-2** (draft)
+
+> In a bar chart the height of each bar is the frequency.
+>
+> _Read the bar against the scale._  
+
+![drawing](figures/c60-2-127.svg)
+
+Check question: `m2-60-bar` · number, level 1 · computed by rule, reused from practice
+
+> The bar chart shows how many pupils came late each day. How many came late on Fri?
+
+![drawing](figures/m2-60-bar-128.svg)
+
+Answer: **3**
+
+Full working after a second miss:
+
+> Find the bar for Fri and read its height on the scale.  
+> It reaches 3.  
+
+**Card c60-3** (draft)
+
+> Pie chart angle = frequency ÷ total × 360°.
+>
+> _10 out of 40: 90°._  
+
+Check question: `m2-60-pie-card` · number, level 1 · computed by rule
+
+> In a survey of 60 pupils, 4 chose Maths. What angle represents Maths in a pie chart?
+
+Answer: **24 °**
+- Typed **6.7** (pct) → “That is a percentage; a pie chart uses degrees: × 360.”
+- Typed **4** (raw) → “Change the frequency into an angle: ÷ total × 360.”
+
+Full working after a second miss:
+
+> Angle = 4 ÷ 60 × 360°.  
+> = 24°.  
+
+**Worked example** (draft)
+
+> In a survey of 60 pupils, 15 prefer football. What angle represents football in a pie chart?
+
+1. Angle = frequency ÷ total × 360°.
+2. 15 ÷ 60 × 360 = 90°.
+
+**Answer:** 90°
+
+**Practice** `m2-60-picto` · number, level 1 · computed by rule
+
+> In a pictogram, one symbol stands for 10 bags of rice. A shop's row shows 4 symbols. How many bags is that?
+
+Answer: **40 bags**
+- Typed **4** (count) → “Multiply by the value of one symbol.”
+
+Full working after a second miss:
+
+> Each symbol = 10 bags.  
+> 4 × 10 = 40 bags.  
+
+> In a pictogram, one symbol stands for 4 bags of rice. A shop's row shows 7 symbols. How many bags is that?
+
+Answer: **28 bags**
+- Typed **7** (count) → “Multiply by the value of one symbol.”
+
+Full working after a second miss:
+
+> Each symbol = 4 bags.  
+> 7 × 4 = 28 bags.  
+
+**Practice** `m2-60-bar` · number, level 1 · computed by rule
+
+> The bar chart shows how many pupils came late each day. How many came late on Mon?
+
+![drawing](figures/m2-60-bar-129.svg)
+
+Answer: **5**
+
+Full working after a second miss:
+
+> Find the bar for Mon and read its height on the scale.  
+> It reaches 5.  
+
+> The bar chart shows how many pupils came late each day. How many came late on Fri?
+
+![drawing](figures/m2-60-bar-130.svg)
+
+Answer: **3**
+
+Full working after a second miss:
+
+> Find the bar for Fri and read its height on the scale.  
+> It reaches 3.  
+
+**Practice** `m2-60-pie` · number, level 2 · computed by rule
+
+> In a survey of 30 pupils, 2 chose mangoes. What angle represents mangoes in a pie chart?
+
+Answer: **24 °**
+- Typed **6.7** (pct) → “That is a percentage; a pie chart uses degrees: × 360.”
+- Typed **2** (raw) → “Change the frequency into an angle: ÷ total × 360.”
+
+Full working after a second miss:
+
+> Angle = 2 ÷ 30 × 360°.  
+> = 24°.  
+
+> In a survey of 120 pupils, 14 chose the bus. What angle represents the bus in a pie chart?
+
+Answer: **42 °**
+- Typed **11.7** (pct) → “That is a percentage; a pie chart uses degrees: × 360.”
+- Typed **14** (raw) → “Change the frequency into an angle: ÷ total × 360.”
+
+Full working after a second miss:
+
+> Angle = 14 ÷ 120 × 360°.  
+> = 42°.  
+
+**Practice** `m2-60-choose` · multiple choice, level 3 · **authored key**
+
+> Which chart is best to show what fraction of a class prefers each sport?
+
+- ◻️ a table of contents  
+  _↳ feedback if chosen: That is not a chart._
+- ✅ a pie chart
+- ◻️ a line graph  
+  _↳ feedback if chosen: A line graph shows change over time._
+- ◻️ a map  
+  _↳ feedback if chosen: That is not a chart._
+
+Full working after a second miss:
+
+> A pie chart shows parts of a whole.  
+> So the answer is “a pie chart”.  
+
+> Which chart is best to show how the temperature changes during a day?
+
+- ✅ a line graph
+- ◻️ no chart at all  
+  _↳ feedback if chosen: A chart helps._
+- ◻️ a pictogram  
+  _↳ feedback if chosen: A pictogram shows counts with symbols._
+- ◻️ a pie chart  
+  _↳ feedback if chosen: A pie shows parts of a whole._
+
+Full working after a second miss:
+
+> A line graph shows change over time.  
+> So the answer is “a line graph”.  
+
+## Lesson 61: Frequency distribution table
+
+Prerequisites: 59 · Skill: m2-61 (Frequency distribution tables)
+
+**Note** (draft)
+
+> A frequency distribution table organises raw data. The frequency of a value is how many times it occurs.
+> Steps: list the values in order in the first column; go through the data and make a tally mark for each one (bundle tallies in fives: 卌); count the tallies to get each frequency.
+> The total of the frequencies equals the number of data.
+> Example: marks 2, 3, 3, 4, 2, 3, 5, 4, 3 → value 2: frequency 2; 3: 4; 4: 2; 5: 1; total 9.
+
+**Card c61-1** (draft)
+
+> The frequency of a value is how many times it occurs.
+>
+> _In 2, 3, 3: the frequency of 3 is 2._  
+
+Check question: `m2-61-freq` · number, level 1 · computed by rule, reused from practice
+
+> Here are the numbers of children in some families: 4, 3, 3, 1, 4. What is the frequency of 3?
+
+Answer: **2**
+- Typed **3** (value) → “The frequency is how many times it appears, not the value.”
+
+Full working after a second miss:
+
+> Count how many times 3 appears.  
+> It appears 2 times.  
+
+**Card c61-2** (draft)
+
+> Tally marks are bundled in fives.
+>
+> _卌 means 5._  
+
+Check question: `m2-61-tally` · number, level 1 · computed by rule, reused from practice
+
+> A tally shows 1 full bundles of five and 4 more marks. What is the frequency?
+
+Answer: **9**
+- Typed **5** (marks) → “Each bundle counts as 5.”
+
+Full working after a second miss:
+
+> Each bundle is 5: 1 × 5 = 5.  
+> Add 4: 9.  
+
+**Card c61-3** (draft)
+
+> The total of the frequencies is the number of data.
+>
+> _2 + 4 + 2 + 1 = 9._  
+
+Check question: `m2-61-total-card` · number, level 1 · computed by rule
+
+> A frequency table has frequencies 4, 1, 12 and 5. How many data were collected?
+
+Answer: **22**
+
+Full working after a second miss:
+
+> Total = sum of the frequencies.  
+> 4 + 1 + 12 + 5 = 22.  
+
+**Worked example** (draft)
+
+> Make a frequency table for the data 2, 3, 3, 4, 3.
+
+1. Values in order: 2, 3, 4.
+2. Frequencies: 2 → 1; 3 → 3; 4 → 1; total 5.
+
+**Answer:** 2 → 1, 3 → 3, 4 → 1
+
+**Practice** `m2-61-freq` · number, level 1 · computed by rule
+
+> Here are the numbers of children in some families: 4, 2, 4, 2, 4. What is the frequency of 1?
+
+Answer: **0**
+- Typed **1** (value) → “The frequency is how many times it appears, not the value.”
+
+Full working after a second miss:
+
+> Count how many times 1 appears.  
+> It appears 0 times.  
+
+> Here are the numbers of children in some families: 1, 3, 2, 2, 1. What is the frequency of 2?
+
+Answer: **2**
+
+Full working after a second miss:
+
+> Count how many times 2 appears.  
+> It appears 2 times.  
+
+**Practice** `m2-61-tally` · number, level 1 · computed by rule
+
+> A tally shows 5 full bundles of five and 1 more marks. What is the frequency?
+
+Answer: **26**
+- Typed **6** (marks) → “Each bundle counts as 5.”
+
+Full working after a second miss:
+
+> Each bundle is 5: 5 × 5 = 25.  
+> Add 1: 26.  
+
+> A tally shows 3 full bundles of five and 4 more marks. What is the frequency?
+
+Answer: **19**
+- Typed **7** (marks) → “Each bundle counts as 5.”
+
+Full working after a second miss:
+
+> Each bundle is 5: 3 × 5 = 15.  
+> Add 4: 19.  
+
+**Practice** `m2-61-total` · number, level 2 · computed by rule
+
+> A frequency table has frequencies 9, 7, 5 and 11. How many data were collected?
+
+Answer: **32**
+
+Full working after a second miss:
+
+> Total = sum of the frequencies.  
+> 9 + 7 + 5 + 11 = 32.  
+
+> A frequency table has frequencies 3, 4, 4 and 1. How many data were collected?
+
+Answer: **12**
+
+Full working after a second miss:
+
+> Total = sum of the frequencies.  
+> 3 + 4 + 4 + 1 = 12.  
+
+**Practice** `m2-61-missing` · number, level 3 · computed by rule
+
+> In a class of 35 pupils, the frequencies of marks 1, 2, 3 and 4 are 5, 8, ? and 4. Find the missing frequency.
+
+Answer: **18**
+- Typed **17** (sum) → “Subtract the known frequencies from the total.”
+
+Full working after a second miss:
+
+> The frequencies add up to 35.  
+> 35 − 5 − 8 − 4 = 18.  
+
+> In a class of 35 pupils, the frequencies of marks 1, 2, 3 and 4 are 5, 7, ? and 3. Find the missing frequency.
+
+Answer: **20**
+- Typed **15** (sum) → “Subtract the known frequencies from the total.”
+
+Full working after a second miss:
+
+> The frequencies add up to 35.  
+> 35 − 5 − 7 − 3 = 20.  
+
+## Lesson 62: Mode, mean and median of simple raw data
+
+Prerequisites: 61 · Skill: m2-62 (Mode, mean and median of raw data)
+
+**Note** (draft)
+
+> Measures of central tendency give one typical value of the data.
+> • Mode: the value that occurs most often (there may be no mode, or more than one).
+> • Mean: the sum of the values ÷ the number of values.
+> • Median: the middle value when the data are arranged in order. If there is an even number of values, the median is halfway between the two middle values.
+> Example: 3, 7, 2, 7, 6 → in order 2, 3, 6, 7, 7: mode 7; mean (3 + 7 + 2 + 7 + 6) ÷ 5 = 25 ÷ 5 = 5; median 6.
+> The range (largest − smallest) shows how spread out the data are.
+
+**Card c62-1** (draft)
+
+> The mode is the value that occurs most often.
+>
+> _4, 5, 5, 6: mode 5._  
+
+Check question: `m2-62-mode` · number, level 1 · computed by rule, reused from practice
+
+> Find the mode of these marks: 5, 2, 8, 7, 5.
+
+Answer: **5**
+
+Full working after a second miss:
+
+> Count how often each value appears.  
+> The most frequent is 5.  
+
+**Card c62-2** (draft)
+
+> Mean = sum of the values ÷ number of values.
+>
+> _(2 + 4 + 9) ÷ 3 = 5._  
+
+Check question: `m2-62-mean-card` · number, level 1 · computed by rule
+
+> Find the mean of 7, 3, 9, 16, 5.
+
+Answer: **8**
+- Typed **40** (sum) → “Divide the sum by the number of values (5).”
+
+Full working after a second miss:
+
+> Sum: 40.  
+> 40 ÷ 5 = 8.  
+
+**Card c62-3** (draft)
+
+> Median: the middle value of the ordered data.
+>
+> _1, 4, 8: median 4._  
+
+Check question: `m2-62-median` · number, level 1 · computed by rule, reused from practice
+
+> Find the median of 9, 7, 16, 13, 19.
+
+Answer: **13**
+- Typed **16** (unsorted) → “Put the values in order first.”
+
+Full working after a second miss:
+
+> In order: 7, 9, 13, 16, 19.  
+> The middle (third) value is 13.  
+
+**Worked example** (draft)
+
+> Find the mode, mean and median of 3, 7, 2, 7, 6.
+
+1. In order: 2, 3, 6, 7, 7. Mode: 7.
+2. Mean: 25 ÷ 5 = 5. Median: the middle value, 6.
+
+**Answer:** mode 7, mean 5, median 6
+
+**Practice** `m2-62-mode` · number, level 1 · computed by rule
+
+> Find the mode of these marks: 3, 7, 4, 3, 9.
+
+Answer: **3**
+- Typed **4** (med) → “That is the median; the mode is the most frequent value.”
+
+Full working after a second miss:
+
+> Count how often each value appears.  
+> The most frequent is 3.  
+
+> Find the mode of these marks: 9, 6, 7, 6, 6.
+
+Answer: **6**
+
+Full working after a second miss:
+
+> Count how often each value appears.  
+> The most frequent is 6.  
+
+**Practice** `m2-62-mean` · number, level 2 · computed by rule
+
+> Find the mean of 10, 4, 20, 17, 9.
+
+Answer: **12**
+- Typed **60** (sum) → “Divide the sum by the number of values (5).”
+
+Full working after a second miss:
+
+> Sum: 60.  
+> 60 ÷ 5 = 12.  
+
+> Find the mean of 20, 12, 12, 8, 8.
+
+Answer: **12**
+- Typed **60** (sum) → “Divide the sum by the number of values (5).”
+
+Full working after a second miss:
+
+> Sum: 60.  
+> 60 ÷ 5 = 12.  
+
+**Practice** `m2-62-median` · number, level 1 · computed by rule
+
+> Find the median of 29, 10, 30, 19, 13.
+
+Answer: **19**
+- Typed **30** (unsorted) → “Put the values in order first.”
+
+Full working after a second miss:
+
+> In order: 10, 13, 19, 29, 30.  
+> The middle (third) value is 19.  
+
+> Find the median of 24, 8, 11, 30, 20.
+
+Answer: **20**
+- Typed **11** (unsorted) → “Put the values in order first.”
+
+Full working after a second miss:
+
+> In order: 8, 11, 20, 24, 30.  
+> The middle (third) value is 20.  
+
+**Practice** `m2-62-even` · number, level 3 · computed by rule
+
+> Find the median of 3, 1, 7, 10.
+
+Answer: **5**
+- Typed **5.25** (mean) → “That is the mean; the median is the middle of the ordered values.”
+
+Full working after a second miss:
+
+> In order: 1, 3, 7, 10.  
+> Halfway between the two middle values: 5.  
+
+> Find the median of 14, 12, 5, 13.
+
+Answer: **12.5**
+- Typed **11** (mean) → “That is the mean; the median is the middle of the ordered values.”
+
+Full working after a second miss:
+
+> In order: 5, 12, 13, 14.  
+> Halfway between the two middle values: 12.5.  
+
+## Lesson 63: Mode and mean of a distribution using frequency distribution table. (ungrouped data)
+
+Prerequisites: 61, 62 · Skill: m2-63 (Mode and mean from a frequency table)
+
+**Note** (draft)
+
+> When data are in a frequency table (values x, frequencies f):
+> • the mode is the value with the highest frequency;
+> • the mean = Σ(x × f) ÷ Σf: multiply each value by its frequency, add the products, then divide by the total frequency.
+> Example: number of brothers x: 0, 1, 2, 3 with frequencies f: 4, 6, 7, 3.
+> Mode: 2 (frequency 7). Σf = 20; Σ(x × f) = 0 + 6 + 14 + 9 = 29; mean = 29 ÷ 20 = 1.45.
+> Add a third column x × f to the table to organise the work.
+
+**Card c63-1** (draft)
+
+> The mode is the value with the highest frequency.
+>
+> _Frequencies 3, 8, 5: the mode is the value with 8._  
+
+Check question: `m2-63-mode` · number, level 1 · computed by rule, reused from practice
+
+> Marks 5, 6, 7, 8 have frequencies 11, 4, 7, 4. What is the mode?
+
+Answer: **5**
+- Typed **11** (freq) → “That is the highest frequency; the mode is the value that has it.”
+
+Full working after a second miss:
+
+> Find the highest frequency.  
+> Its value is 5.  
+
+**Card c63-2** (draft)
+
+> Σxf: multiply each value by its frequency and add.
+>
+> _1×4 + 2×3 = 10._  
+
+Check question: `m2-63-sxf-card` · number, level 1 · computed by rule
+
+> Values 1, 2, 3, 4 have frequencies 8, 1, 1, 4. Find Σ(x × f).
+
+Answer: **29**
+- Typed **14** (f) → “That is Σf; multiply each value by its frequency first.”
+
+Full working after a second miss:
+
+> 1×8 + 2×1 + 3×1 + 4×4.  
+> = 29.  
+
+**Card c63-3** (draft)
+
+> Mean = Σxf ÷ Σf.
+>
+> _29 ÷ 20 = 1.45._  
+
+Check question: `m2-63-mean-card` · number, level 1 · computed by rule
+
+> Numbers of goals 0, 1, 2, 3 have frequencies 3, 7, 9, 1. Find the mean number of goals.
+
+Answer: **1.4**
+- Typed **7** (count) → “Divide Σxf by the total frequency Σf, not by the number of values.”
+
+Full working after a second miss:
+
+> Σf = 20; Σxf = 28.  
+> Mean = 28 ÷ 20 = 1.4.  
+
+**Worked example** (draft)
+
+> Values 0, 1, 2, 3 have frequencies 4, 6, 7, 3. Find the mode and the mean.
+
+1. Mode: the value with the highest frequency: 2.
+2. Σf = 20; Σxf = 29; mean = 1.45.
+
+**Answer:** mode 2, mean 1.45
+
+**Practice** `m2-63-mode` · number, level 1 · computed by rule
+
+> Marks 5, 6, 7, 8 have frequencies 11, 2, 3, 5. What is the mode?
+
+Answer: **5**
+- Typed **11** (freq) → “That is the highest frequency; the mode is the value that has it.”
+
+Full working after a second miss:
+
+> Find the highest frequency.  
+> Its value is 5.  
+
+> Marks 5, 6, 7, 8 have frequencies 10, 6, 11, 1. What is the mode?
+
+Answer: **7**
+- Typed **11** (freq) → “That is the highest frequency; the mode is the value that has it.”
+
+Full working after a second miss:
+
+> Find the highest frequency.  
+> Its value is 7.  
+
+**Practice** `m2-63-sxf` · number, level 2 · computed by rule
+
+> Values 1, 2, 3, 4 have frequencies 5, 5, 8, 2. Find Σ(x × f).
+
+Answer: **47**
+- Typed **20** (f) → “That is Σf; multiply each value by its frequency first.”
+
+Full working after a second miss:
+
+> 1×5 + 2×5 + 3×8 + 4×2.  
+> = 47.  
+
+> Values 1, 2, 3, 4 have frequencies 4, 3, 2, 8. Find Σ(x × f).
+
+Answer: **48**
+- Typed **17** (f) → “That is Σf; multiply each value by its frequency first.”
+
+Full working after a second miss:
+
+> 1×4 + 2×3 + 3×2 + 4×8.  
+> = 48.  
+
+**Practice** `m2-63-mean` · number, level 3 · computed by rule
+
+> Numbers of goals 0, 1, 2, 3 have frequencies 4, 7, 4, 5. Find the mean number of goals.
+
+Answer: **1.5**
+- Typed **7.5** (count) → “Divide Σxf by the total frequency Σf, not by the number of values.”
+
+Full working after a second miss:
+
+> Σf = 20; Σxf = 30.  
+> Mean = 30 ÷ 20 = 1.5.  
+
+> Numbers of goals 0, 1, 2, 3 have frequencies 9, 9, 3, 3. Find the mean number of goals.
+
+Answer: **1**
+- Typed **6** (count) → “Divide Σxf by the total frequency Σf, not by the number of values.”
+
+Full working after a second miss:
+
+> Σf = 24; Σxf = 24.  
+> Mean = 24 ÷ 24 = 1.  
+
+## Lesson 64: Vocabularies (Shape, base, faces, edges, apex, altitude, slant height, vertices)
+
+Prerequisites: 55 · Skill: m2-64 (Regular pyramids: shape and vocabulary)
+
+**Note** (draft)
+
+> A pyramid is a solid with one base (a polygon) and triangular lateral faces that meet at a point called the apex.
+> In a regular pyramid, the base is a regular polygon and the apex is directly above the centre of the base.
+> Vocabulary: base, lateral faces (triangles), apex, edges, vertices; the altitude (height) is the perpendicular distance from the apex to the base; the slant height is the height of a lateral triangle, from the apex to the middle of a base edge.
+> A pyramid is named after its base: triangular, square, pentagonal, hexagonal pyramid.
+> For an n-sided base: n + 1 faces, 2n edges, n + 1 vertices.
+
+**Card c64-1** (draft)
+
+> A pyramid has one base and triangular faces meeting at the apex.
+>
+> _The pyramids of Egypt have square bases._  
+
+![drawing](figures/c64-1-131.svg)
+
+Check question: `m2-64-name` · multiple choice, level 1 · computed by rule, reused from practice
+
+> Name the pyramid in the figure.
+
+![drawing](figures/m2-64-name-132.svg)
+
+- ◻️ a pentagonal pyramid  
+  _↳ feedback if chosen: Count the sides of the base again._
+- ◻️ a triangular pyramid  
+  _↳ feedback if chosen: Count the sides of the base again._
+- ✅ a square pyramid
+- ◻️ a rectangular prism  
+  _↳ feedback if chosen: A prism has two identical bases; this solid has one base and an apex._
+
+Full working after a second miss:
+
+> Count the sides of the base: 4.  
+> So it is a square pyramid.  
+
+**Card c64-2** (draft)
+
+> The altitude is the height from the apex to the base; the slant height is the height of a triangular face.
+>
+> _The slant height is longer than the altitude._  
+
+Check question: `m2-64-vocab-card` · multiple choice, level 1 · **authored key**
+
+> What is the slant height of a pyramid?
+
+- ✅ the height of a triangular face, from the apex to the middle of a base edge
+- ◻️ the length of a base edge  
+  _↳ feedback if chosen: That is a base edge._
+- ◻️ the perimeter of the base  
+  _↳ feedback if chosen: That is a perimeter._
+- ◻️ the height from the apex straight down to the base  
+  _↳ feedback if chosen: That is the altitude._
+
+Full working after a second miss:
+
+> It runs along a face.  
+> So the answer is “the height of a triangular face, from the apex to the middle of a base edge”.  
+
+**Card c64-3** (draft)
+
+> An n-sided base: n + 1 faces, 2n edges, n + 1 vertices.
+>
+> _Square pyramid: 5 faces, 8 edges, 5 vertices._  
+
+![drawing](figures/c64-3-133.svg)
+
+Check question: `m2-64-count` · number, level 1 · computed by rule, reused from practice
+
+> How many faces does a hexagonal pyramid have?
+
+![drawing](figures/m2-64-count-134.svg)
+
+Answer: **7**
+- Typed **8** (prism) → “That is for a prism; a pyramid has one base and an apex.”
+
+Full working after a second miss:
+
+> The base has 6 sides.  
+> Faces = n + 1 = 7.  
+
+**Worked example** (draft)
+
+> How many faces, edges and vertices does a square pyramid have?
+
+![drawing](figures/worked-64-135.svg)
+
+1. The base has 4 sides.
+2. Faces = n + 1 = 5; edges = 2n = 8; vertices = n + 1 = 5.
+
+**Answer:** 5 faces, 8 edges, 5 vertices
+
+**Practice** `m2-64-name` · multiple choice, level 1 · computed by rule
+
+> Name the pyramid in the figure.
+
+![drawing](figures/m2-64-name-136.svg)
+
+- ◻️ a pentagonal prism  
+  _↳ feedback if chosen: A prism has two identical bases; this solid has one base and an apex._
+- ◻️ a hexagonal pyramid  
+  _↳ feedback if chosen: Count the sides of the base again._
+- ◻️ a square pyramid  
+  _↳ feedback if chosen: Count the sides of the base again._
+- ✅ a pentagonal pyramid
+
+Full working after a second miss:
+
+> Count the sides of the base: 5.  
+> So it is a pentagonal pyramid.  
+
+> Name the pyramid in the figure.
+
+![drawing](figures/m2-64-name-137.svg)
+
+- ◻️ a triangular pyramid  
+  _↳ feedback if chosen: Count the sides of the base again._
+- ◻️ a hexagonal prism  
+  _↳ feedback if chosen: A prism has two identical bases; this solid has one base and an apex._
+- ◻️ a pentagonal pyramid  
+  _↳ feedback if chosen: Count the sides of the base again._
+- ✅ a hexagonal pyramid
+
+Full working after a second miss:
+
+> Count the sides of the base: 6.  
+> So it is a hexagonal pyramid.  
+
+**Practice** `m2-64-vocab` · multiple choice, level 2 · **authored key**
+
+> What is the slant height of a pyramid?
+
+- ◻️ the length of a base edge  
+  _↳ feedback if chosen: That is a base edge._
+- ✅ the height of a triangular face, from the apex to the middle of a base edge
+- ◻️ the perimeter of the base  
+  _↳ feedback if chosen: That is a perimeter._
+- ◻️ the height from the apex straight down to the base  
+  _↳ feedback if chosen: That is the altitude._
+
+Full working after a second miss:
+
+> It runs along a face.  
+> So the answer is “the height of a triangular face, from the apex to the middle of a base edge”.  
+
+> What is the apex of a pyramid?
+
+- ✅ the point where the lateral faces meet
+- ◻️ the base  
+  _↳ feedback if chosen: The base is the bottom face._
+- ◻️ the bottom corner  
+  _↳ feedback if chosen: The apex is at the top._
+- ◻️ the middle of an edge  
+  _↳ feedback if chosen: That is where the slant height ends._
+
+Full working after a second miss:
+
+> All the triangles meet there.  
+> So the answer is “the point where the lateral faces meet”.  
+
+**Practice** `m2-64-count` · number, level 1 · computed by rule
+
+> How many faces does a hexagonal pyramid have?
+
+![drawing](figures/m2-64-count-138.svg)
+
+Answer: **7**
+- Typed **8** (prism) → “That is for a prism; a pyramid has one base and an apex.”
+
+Full working after a second miss:
+
+> The base has 6 sides.  
+> Faces = n + 1 = 7.  
+
+> How many edges does a square pyramid have?
+
+![drawing](figures/m2-64-count-139.svg)
+
+Answer: **8**
+- Typed **12** (prism) → “That is for a prism; a pyramid has one base and an apex.”
+
+Full working after a second miss:
+
+> The base has 4 sides.  
+> Edges = 2n = 8.  
+
+**Practice** `m2-64-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ✅ The slant height is always shorter than the altitude.  
+  _↳ explanation: The slant height is longer._
+- ◻️ A pyramid has one base.
+- ◻️ Its lateral faces are triangles.
+- ◻️ A square pyramid has 5 vertices.
+
+Full working after a second miss:
+
+> The wrong statement is “The slant height is always shorter than the altitude.”.  
+> The slant height is longer.  
+
+> Which statement is wrong?
+
+- ◻️ Its lateral faces are triangles.
+- ◻️ A pyramid has one base.
+- ✅ A pyramid has two identical bases.  
+  _↳ explanation: A prism has two bases; a pyramid has one._
+- ◻️ A square pyramid has 5 vertices.
+
+Full working after a second miss:
+
+> The wrong statement is “A pyramid has two identical bases.”.  
+> A prism has two bases; a pyramid has one.  
+
+## Lesson 65: Regular tetrahedron as a special pyramid;
+
+Prerequisites: 64 · Skill: m2-65 (The regular tetrahedron)
+
+**Note** (draft)
+
+> A tetrahedron is a pyramid with a triangular base: it has 4 faces, all triangles (“tetra” means four).
+> In a regular tetrahedron, all four faces are identical equilateral triangles and all six edges are equal.
+> Any face can be taken as the base.
+> It has 4 faces, 6 edges and 4 vertices: 4 + 4 − 6 = 2 (Euler).
+> Its net is made of 4 equilateral triangles, for example one triangle with a triangle on each of its sides.
+> Total edge length = 6 × edge; surface area = 4 × area of one face.
+
+**Card c65-1** (draft)
+
+> A tetrahedron is a triangular pyramid with 4 triangular faces.
+>
+> _Any face can be the base._  
+
+![drawing](figures/c65-1-140.svg)
+
+Check question: `m2-65-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> How many faces does a tetrahedron have?
+
+- ◻️ three  
+  _↳ feedback if chosen: It has a base too._
+- ◻️ six  
+  _↳ feedback if chosen: That is a cube._
+- ✅ four
+- ◻️ five  
+  _↳ feedback if chosen: That is a square pyramid._
+
+Full working after a second miss:
+
+> “Tetra” means four.  
+> So the answer is “four”.  
+
+**Card c65-2** (draft)
+
+> A regular tetrahedron has 4 identical equilateral faces and 6 equal edges.
+>
+> _4 vertices._  
+
+Check question: `m2-65-count` · number, level 1 · computed by rule, reused from practice
+
+> How many vertices does a regular tetrahedron have?
+
+Answer: **4**
+
+Full working after a second miss:
+
+> 3 at the base and 1 apex.  
+> So: 4.  
+
+**Card c65-3** (draft)
+
+> Surface area = 4 × area of one face.
+>
+> _Face 10 cm²: total 40 cm²._  
+
+Check question: `m2-65-area-card` · number, level 1 · computed by rule
+
+> Each face of a regular tetrahedron has an area of 27 cm². Find its total surface area.
+
+Answer: **108 cm²**
+- Typed **81** (three) → “Count the base too: 4 faces.”
+
+Full working after a second miss:
+
+> There are 4 identical faces.  
+> 4 × 27 = 108 cm².  
+
+**Worked example** (draft)
+
+> A regular tetrahedron has edges of 5 cm. What is the total length of its edges?
+
+![drawing](figures/worked-65-141.svg)
+
+1. A tetrahedron has 6 edges, all equal.
+2. 6 × 5 = 30 cm.
+
+**Answer:** 30 cm
+
+**Practice** `m2-65-what` · multiple choice, level 1 · **authored key**
+
+> What shape are the faces of a regular tetrahedron?
+
+- ✅ equilateral triangles
+- ◻️ rectangles  
+  _↳ feedback if chosen: Those are prism faces._
+- ◻️ pentagons  
+  _↳ feedback if chosen: Those are not its faces._
+- ◻️ squares  
+  _↳ feedback if chosen: That is a cube._
+
+Full working after a second miss:
+
+> Four identical equilateral triangles.  
+> So the answer is “equilateral triangles”.  
+
+> What shape are the faces of a regular tetrahedron?
+
+- ◻️ squares  
+  _↳ feedback if chosen: That is a cube._
+- ✅ equilateral triangles
+- ◻️ pentagons  
+  _↳ feedback if chosen: Those are not its faces._
+- ◻️ rectangles  
+  _↳ feedback if chosen: Those are prism faces._
+
+Full working after a second miss:
+
+> Four identical equilateral triangles.  
+> So the answer is “equilateral triangles”.  
+
+**Practice** `m2-65-count` · number, level 1 · computed by rule
+
+> How many faces does a regular tetrahedron have?
+
+Answer: **4**
+
+Full working after a second miss:
+
+> 1 base and 3 lateral faces.  
+> So: 4.  
+
+> How many vertices does a regular tetrahedron have?
+
+Answer: **4**
+
+Full working after a second miss:
+
+> 3 at the base and 1 apex.  
+> So: 4.  
+
+**Practice** `m2-65-area` · number, level 2 · computed by rule
+
+> Each face of a regular tetrahedron has an area of 12 cm². Find its total surface area.
+
+Answer: **48 cm²**
+- Typed **36** (three) → “Count the base too: 4 faces.”
+
+Full working after a second miss:
+
+> There are 4 identical faces.  
+> 4 × 12 = 48 cm².  
+
+> Each face of a regular tetrahedron has an area of 21 cm². Find its total surface area.
+
+Answer: **84 cm²**
+- Typed **63** (three) → “Count the base too: 4 faces.”
+
+Full working after a second miss:
+
+> There are 4 identical faces.  
+> 4 × 21 = 84 cm².  
+
+**Practice** `m2-65-edge` · number, level 3 · computed by rule
+
+> The total length of the edges of a regular tetrahedron is 24 cm. How long is one edge?
+
+Answer: **4 cm**
+- Typed **6** (four) → “A tetrahedron has 6 edges.”
+
+Full working after a second miss:
+
+> There are 6 equal edges.  
+> 24 ÷ 6 = 4 cm.  
+
+> The total length of the edges of a regular tetrahedron is 66 cm. How long is one edge?
+
+Answer: **11 cm**
+- Typed **16.5** (four) → “A tetrahedron has 6 edges.”
+
+Full working after a second miss:
+
+> There are 6 equal edges.  
+> 66 ÷ 6 = 11 cm.  
+
+## Lesson 66: Net of a pyramid
+
+Prerequisites: 64, 58 · Skill: m2-66 (Net of a pyramid)
+
+**Note** (draft)
+
+> The net of a pyramid is made of its base and its triangular lateral faces, each attached to one side of the base.
+> • Square pyramid: a square with an isosceles triangle on each side (like a star with four points).
+> • Triangular pyramid (tetrahedron): a triangle with a triangle on each side.
+> When the net is folded, the tips of the triangles meet at the apex.
+> The area of the net is the total surface area of the pyramid.
+> For a square pyramid with base side b and slant height s: total area = b² + 4 × ½ × b × s = b² + 2bs.
+
+**Card c66-1** (draft)
+
+> A pyramid's net: the base with a triangle on each side.
+>
+> _Square base: four triangles._  
+
+Check question: `m2-66-parts` · number, level 1 · computed by rule, reused from practice
+
+> How many shapes are in the net of a hexagonal pyramid?
+
+![drawing](figures/m2-66-parts-142.svg)
+
+Answer: **7**
+- Typed **6** (tri) → “Count the base too.”
+- Typed **8** (prism) → “A pyramid has one base, not two.”
+
+Full working after a second miss:
+
+> The base and one triangle on each of its 6 sides.  
+> 1 + 6 = 7.  
+
+**Card c66-2** (draft)
+
+> When folded, the tips of the triangles meet at the apex.
+>
+> _They form the lateral faces._  
+
+Check question: `m2-66-fold-card` · multiple choice, level 1 · **authored key**
+
+> When the net of a pyramid is folded, where do the tips of the triangles meet?
+
+- ✅ at the apex
+- ◻️ nowhere  
+  _↳ feedback if chosen: They do meet._
+- ◻️ at the centre of the base  
+  _↳ feedback if chosen: They meet above the base._
+- ◻️ at the middle of each edge  
+  _↳ feedback if chosen: They meet at one point._
+
+Full working after a second miss:
+
+> The apex is the top point.  
+> So the answer is “at the apex”.  
+
+**Card c66-3** (draft)
+
+> Area of the net of a square pyramid = b² + 4 × ½ × b × s.
+>
+> _b = 4, s = 5: 16 + 40 = 56 cm²._  
+
+Check question: `m2-66-area-card` · number, level 1 · computed by rule
+
+> A square pyramid has base side 12 cm and slant height 9 cm. Find the area of its net.
+
+![drawing](figures/m2-66-area-card-143.svg)
+
+Answer: **360 cm²**
+- Typed **216** (nobase) → “Add the square base too.”
+- Typed **576** (nohalf) → “Each triangle is ½ × base × height.”
+
+Full working after a second miss:
+
+> Base: 12² = 144 cm². Four triangles: 4 × ½ × 12 × 9 = 216 cm².  
+> Total: 144 + 216 = 360 cm².  
+
+**Worked example** (draft)
+
+> A square pyramid has base side 6 cm and slant height 5 cm. Find the area of its net.
+
+![drawing](figures/worked-66-144.svg)
+
+1. Base: 6 × 6 = 36 cm². Each triangle: ½ × 6 × 5 = 15 cm².
+2. Total: 36 + 4 × 15 = 96 cm².
+
+**Answer:** 96 cm²
+
+**Practice** `m2-66-parts` · number, level 1 · computed by rule
+
+> How many shapes are in the net of a square pyramid?
+
+![drawing](figures/m2-66-parts-145.svg)
+
+Answer: **5**
+- Typed **4** (tri) → “Count the base too.”
+- Typed **6** (prism) → “A pyramid has one base, not two.”
+
+Full working after a second miss:
+
+> The base and one triangle on each of its 4 sides.  
+> 1 + 4 = 5.  
+
+> How many shapes are in the net of a triangular pyramid?
+
+![drawing](figures/m2-66-parts-146.svg)
+
+Answer: **4**
+- Typed **3** (tri) → “Count the base too.”
+- Typed **5** (prism) → “A pyramid has one base, not two.”
+
+Full working after a second miss:
+
+> The base and one triangle on each of its 3 sides.  
+> 1 + 3 = 4.  
+
+**Practice** `m2-66-fold` · multiple choice, level 2 · **authored key**
+
+> When the net of a pyramid is folded, where do the tips of the triangles meet?
+
+- ◻️ at the centre of the base  
+  _↳ feedback if chosen: They meet above the base._
+- ✅ at the apex
+- ◻️ at the middle of each edge  
+  _↳ feedback if chosen: They meet at one point._
+- ◻️ nowhere  
+  _↳ feedback if chosen: They do meet._
+
+Full working after a second miss:
+
+> The apex is the top point.  
+> So the answer is “at the apex”.  
+
+> When the net of a pyramid is folded, where do the tips of the triangles meet?
+
+- ✅ at the apex
+- ◻️ at the centre of the base  
+  _↳ feedback if chosen: They meet above the base._
+- ◻️ nowhere  
+  _↳ feedback if chosen: They do meet._
+- ◻️ at the middle of each edge  
+  _↳ feedback if chosen: They meet at one point._
+
+Full working after a second miss:
+
+> The apex is the top point.  
+> So the answer is “at the apex”.  
+
+**Practice** `m2-66-area` · number, level 3 · computed by rule
+
+> A square pyramid has base side 7 cm and slant height 8 cm. Find the area of its net.
+
+![drawing](figures/m2-66-area-147.svg)
+
+Answer: **161 cm²**
+- Typed **112** (nobase) → “Add the square base too.”
+- Typed **273** (nohalf) → “Each triangle is ½ × base × height.”
+
+Full working after a second miss:
+
+> Base: 7² = 49 cm². Four triangles: 4 × ½ × 7 × 8 = 112 cm².  
+> Total: 49 + 112 = 161 cm².  
+
+> A square pyramid has base side 11 cm and slant height 15 cm. Find the area of its net.
+
+![drawing](figures/m2-66-area-148.svg)
+
+Answer: **451 cm²**
+- Typed **330** (nobase) → “Add the square base too.”
+- Typed **781** (nohalf) → “Each triangle is ½ × base × height.”
+
+Full working after a second miss:
+
+> Base: 11² = 121 cm². Four triangles: 4 × ½ × 11 × 15 = 330 cm².  
+> Total: 121 + 330 = 451 cm².  
+
+## Lesson 67: Sphere and boule: Shape, Centre, radius, diameter
+
+Prerequisites: none · Skill: m2-67 (The sphere: centre, radius, diameter)
+
+**Note** (draft)
+
+> A sphere is the set of all points in space at the same distance from a fixed point called the centre. It is a round, hollow surface, like the skin of a ball.
+> A ball (boule) is the solid sphere: the sphere and all the points inside it.
+> • The radius r is the distance from the centre to any point on the sphere.
+> • The diameter d is a segment through the centre joining two points of the sphere: d = 2r.
+> • A great circle is a circle on the sphere whose centre is the centre of the sphere (like the Equator on the Earth).
+> Examples: a football, an orange, the Earth (approximately), a marble.
+
+**Card c67-1** (draft)
+
+> A sphere: all points at the same distance from the centre.
+>
+> _The skin of a football._  
+
+![drawing](figures/c67-1-149.svg)
+
+Check question: `m2-67-what` · multiple choice, level 1 · **authored key**, reused from practice
+
+> What is a great circle of a sphere?
+
+- ✅ a circle on the sphere with the same centre as the sphere
+- ◻️ the radius  
+  _↳ feedback if chosen: A radius is a segment._
+- ◻️ any small circle  
+  _↳ feedback if chosen: Small circles do not pass round the middle._
+- ◻️ the diameter  
+  _↳ feedback if chosen: A diameter is a segment._
+
+Full working after a second miss:
+
+> Like the Equator.  
+> So the answer is “a circle on the sphere with the same centre as the sphere”.  
+
+**Card c67-2** (draft)
+
+> Diameter = 2 × radius.
+>
+> _r = 7 cm, d = 14 cm._  
+
+Check question: `m2-67-diam` · number, level 1 · computed by rule, reused from practice
+
+> A sphere has a radius of 14 cm. What is its diameter?
+
+![drawing](figures/m2-67-diam-150.svg)
+
+Answer: **28 cm**
+- Typed **7** (swap) → “Diameter = 2 × radius; radius = diameter ÷ 2.”
+
+Full working after a second miss:
+
+> The diameter is twice the radius.  
+> So the diameter is 28 cm.  
+
+**Card c67-3** (draft)
+
+> A ball (boule) is the solid sphere, including all the points inside.
+>
+> _A marble is a solid ball._  
+
+Check question: `m2-67-ball-card` · multiple choice, level 1 · **authored key**
+
+> What is the difference between a sphere and a ball (boule)?
+
+- ◻️ A ball is flat.  
+  _↳ feedback if chosen: A ball is solid._
+- ✅ A sphere is the surface; a ball is the solid including the inside.
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ◻️ A sphere has corners.  
+  _↳ feedback if chosen: A sphere has no corners._
+
+Full working after a second miss:
+
+> Surface versus solid.  
+> So the answer is “A sphere is the surface; a ball is the solid including the inside.”.  
+
+**Worked example** (draft)
+
+> A football has a diameter of 22 cm. What is its radius?
+
+![drawing](figures/worked-67-151.svg)
+
+1. The diameter is twice the radius: d = 2r.
+2. r = 22 ÷ 2 = 11 cm.
+
+**Answer:** 11 cm
+
+**Practice** `m2-67-what` · multiple choice, level 1 · **authored key**
+
+> What is the radius of a sphere?
+
+- ◻️ the volume of the sphere  
+  _↳ feedback if chosen: Volume is space._
+- ◻️ the distance around the sphere  
+  _↳ feedback if chosen: That is a circumference._
+- ✅ the distance from the centre to any point on the sphere
+- ◻️ half the circumference  
+  _↳ feedback if chosen: That is not the radius._
+
+Full working after a second miss:
+
+> Centre to surface.  
+> So the answer is “the distance from the centre to any point on the sphere”.  
+
+> What is the radius of a sphere?
+
+- ✅ the distance from the centre to any point on the sphere
+- ◻️ the volume of the sphere  
+  _↳ feedback if chosen: Volume is space._
+- ◻️ half the circumference  
+  _↳ feedback if chosen: That is not the radius._
+- ◻️ the distance around the sphere  
+  _↳ feedback if chosen: That is a circumference._
+
+Full working after a second miss:
+
+> Centre to surface.  
+> So the answer is “the distance from the centre to any point on the sphere”.  
+
+**Practice** `m2-67-diam` · number, level 1 · computed by rule
+
+> A sphere has a diameter of 20 cm. What is its radius?
+
+![drawing](figures/m2-67-diam-152.svg)
+
+Answer: **10 cm**
+- Typed **40** (swap) → “Diameter = 2 × radius; radius = diameter ÷ 2.”
+
+Full working after a second miss:
+
+> The diameter is twice the radius.  
+> So the radius is 10 cm.  
+
+> A sphere has a radius of 14 cm. What is its diameter?
+
+![drawing](figures/m2-67-diam-153.svg)
+
+Answer: **28 cm**
+- Typed **7** (swap) → “Diameter = 2 × radius; radius = diameter ÷ 2.”
+
+Full working after a second miss:
+
+> The diameter is twice the radius.  
+> So the diameter is 28 cm.  
+
+**Practice** `m2-67-ball` · multiple choice, level 2 · **authored key**
+
+> Which object is closest to a solid ball?
+
+- ◻️ a cone  
+  _↳ feedback if chosen: It has a point._
+- ◻️ a matchbox  
+  _↳ feedback if chosen: It is a cuboid._
+- ◻️ a pencil  
+  _↳ feedback if chosen: It is a prism._
+- ✅ a marble
+
+Full working after a second miss:
+
+> A marble is a solid sphere.  
+> So the answer is “a marble”.  
+
+> What is the difference between a sphere and a ball (boule)?
+
+- ◻️ A sphere has corners.  
+  _↳ feedback if chosen: A sphere has no corners._
+- ◻️ A ball is flat.  
+  _↳ feedback if chosen: A ball is solid._
+- ✅ A sphere is the surface; a ball is the solid including the inside.
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+
+Full working after a second miss:
+
+> Surface versus solid.  
+> So the answer is “A sphere is the surface; a ball is the solid including the inside.”.  
+
+**Practice** `m2-67-spot` · spot the error, level 3 · **authored key**
+
+> Which statement is wrong?
+
+- ◻️ A sphere has a centre.
+- ◻️ A football is close to a sphere.
+- ◻️ All points of a sphere are the same distance from its centre.
+- ✅ The radius is twice the diameter.  
+  _↳ explanation: The diameter is twice the radius._
+
+Full working after a second miss:
+
+> The wrong statement is “The radius is twice the diameter.”.  
+> The diameter is twice the radius.  
+
+> Which statement is wrong?
+
+- ◻️ The diameter is twice the radius.
+- ◻️ All points of a sphere are the same distance from its centre.
+- ◻️ A football is close to a sphere.
+- ✅ A great circle does not pass through the middle of the sphere.  
+  _↳ explanation: It has the same centre as the sphere._
+
+Full working after a second miss:
+
+> The wrong statement is “A great circle does not pass through the middle of the sphere.”.  
+> It has the same centre as the sphere.  
+
+## Lesson 68: Surface area of a sphere, volume of spherical solid
+
+Prerequisites: 67 · Skill: m2-68 (Surface area and volume of a sphere)
+
+**Note** (draft)
+
+> For a sphere of radius r (take π = 3.14):
+> • surface area A = 4πr²;
+> • volume of the ball V = (4/3)πr³.
+> Example: r = 3 cm: A = 4 × 3.14 × 9 = 113.04 cm²; V = 4 × 3.14 × 27 ÷ 3 = 113.04 cm³.
+> If you know the diameter, halve it first to get the radius.
+> Units: area in cm² (or m²); volume in cm³ (or m³).
+
+**Card c68-1** (draft)
+
+> Surface area of a sphere = 4πr².
+>
+> _r = 5: 4 × 3.14 × 25 = 314 cm²._  
+
+Check question: `m2-68-area` · number, level 1 · computed by rule, reused from practice
+
+> Find the surface area of a sphere of radius 1 cm. Take π = 3.14.
+
+![drawing](figures/m2-68-area-154.svg)
+
+Answer: **12.56 cm²**
+- Typed **3.14** (no4) → “That is the area of a circle; a sphere's surface is 4πr².”
+- Typed **25.12** (2r) → “Square the radius: r² = r × r.”
+
+Full working after a second miss:
+
+> A = 4 × 3.14 × 1².  
+> = 4 × 3.14 × 1 = 12.56 cm².  
+
+**Card c68-2** (draft)
+
+> Volume of a ball = (4/3)πr³.
+>
+> _r = 3: 4 × 3.14 × 27 ÷ 3 = 113.04 cm³._  
+
+Check question: `m2-68-vol-card` · number, level 1 · computed by rule
+
+> Find the volume of a ball of radius 6 cm. Take π = 3.14.
+
+![drawing](figures/m2-68-vol-card-155.svg)
+
+Answer: **904.32 cm³**
+- Typed **452.16** (area) → “That is the surface area; volume uses r³ and (4/3).”
+- Typed **2712.96** (no3) → “Divide by 3 too.”
+
+Full working after a second miss:
+
+> V = (4/3) × 3.14 × 6³.  
+> = 4 × 3.14 × 216 ÷ 3 = 904.32 cm³.  
+
+**Card c68-3** (draft)
+
+> If you know the diameter, halve it to get the radius.
+>
+> _d = 10, so r = 5._  
+
+Check question: `m2-68-diam-card` · number, level 1 · computed by rule
+
+> A ball has a diameter of 2 cm. Find its surface area. Take π = 3.14.
+
+![drawing](figures/m2-68-diam-card-156.svg)
+
+Answer: **12.56 cm²**
+- Typed **50.24** (diam) → “Use the radius, half the diameter.”
+
+Full working after a second miss:
+
+> Radius = 2 ÷ 2 = 1 cm.  
+> A = 4 × 3.14 × 1² = 12.56 cm².  
+
+**Worked example** (draft)
+
+> Find the surface area of a sphere of radius 5 cm. Take π = 3.14.
+
+![drawing](figures/worked-68-157.svg)
+
+1. A = 4 × π × r² = 4 × 3.14 × 25.
+2. = 314 cm².
+
+**Answer:** 314 cm²
+
+**Practice** `m2-68-area` · number, level 1 · computed by rule
+
+> Find the surface area of a sphere of radius 8 cm. Take π = 3.14.
+
+![drawing](figures/m2-68-area-158.svg)
+
+Answer: **803.84 cm²**
+- Typed **200.96** (no4) → “That is the area of a circle; a sphere's surface is 4πr².”
+- Typed **200.96** (2r) → “Square the radius: r² = r × r.”
+
+Full working after a second miss:
+
+> A = 4 × 3.14 × 8².  
+> = 4 × 3.14 × 64 = 803.84 cm².  
+
+> Find the surface area of a sphere of radius 7 cm. Take π = 3.14.
+
+![drawing](figures/m2-68-area-159.svg)
+
+Answer: **615.44 cm²**
+- Typed **153.86** (no4) → “That is the area of a circle; a sphere's surface is 4πr².”
+- Typed **175.84** (2r) → “Square the radius: r² = r × r.”
+
+Full working after a second miss:
+
+> A = 4 × 3.14 × 7².  
+> = 4 × 3.14 × 49 = 615.44 cm².  
+
+**Practice** `m2-68-vol` · number, level 2 · computed by rule
+
+> Find the volume of a ball of radius 6 cm. Take π = 3.14.
+
+![drawing](figures/m2-68-vol-160.svg)
+
+Answer: **904.32 cm³**
+- Typed **452.16** (area) → “That is the surface area; volume uses r³ and (4/3).”
+- Typed **2712.96** (no3) → “Divide by 3 too.”
+
+Full working after a second miss:
+
+> V = (4/3) × 3.14 × 6³.  
+> = 4 × 3.14 × 216 ÷ 3 = 904.32 cm³.  
+
+> Find the volume of a ball of radius 9 cm. Take π = 3.14.
+
+![drawing](figures/m2-68-vol-161.svg)
+
+Answer: **3052.08 cm³**
+- Typed **1017.36** (area) → “That is the surface area; volume uses r³ and (4/3).”
+- Typed **9156.24** (no3) → “Divide by 3 too.”
+
+Full working after a second miss:
+
+> V = (4/3) × 3.14 × 9³.  
+> = 4 × 3.14 × 729 ÷ 3 = 3052.08 cm³.  
+
+**Practice** `m2-68-diam` · number, level 3 · computed by rule
+
+> A ball has a diameter of 4 cm. Find its surface area. Take π = 3.14.
+
+![drawing](figures/m2-68-diam-162.svg)
+
+Answer: **50.24 cm²**
+- Typed **200.96** (diam) → “Use the radius, half the diameter.”
+
+Full working after a second miss:
+
+> Radius = 4 ÷ 2 = 2 cm.  
+> A = 4 × 3.14 × 2² = 50.24 cm².  
+
+> A ball has a diameter of 20 cm. Find its surface area. Take π = 3.14.
+
+![drawing](figures/m2-68-diam-163.svg)
+
+Answer: **1256 cm²**
+- Typed **5024** (diam) → “Use the radius, half the diameter.”
+
+Full working after a second miss:
+
+> Radius = 20 ÷ 2 = 10 cm.  
+> A = 4 × 3.14 × 10² = 1256 cm².  
 

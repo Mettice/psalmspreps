@@ -1,0 +1,288 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 65,
+ "language": "en",
+ "prerequisites": [
+  64
+ ],
+ "skills": [
+  {
+   "id": "m2-65",
+   "name": "The regular tetrahedron"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A tetrahedron is a pyramid with a triangular base: it has 4 faces, all triangles (“tetra” means four).\nIn a regular tetrahedron, all four faces are identical equilateral triangles and all six edges are equal.\nAny face can be taken as the base.\nIt has 4 faces, 6 edges and 4 vertices: 4 + 4 − 6 = 2 (Euler).\nIts net is made of 4 equilateral triangles, for example one triangle with a triangle on each of its sides.\nTotal edge length = 6 × edge; surface area = 4 × area of one face.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 5
+  },
+  "problem": "A regular tetrahedron has edges of {a} cm. What is the total length of its edges?",
+  "steps": [
+   "A tetrahedron has {6} edges, all equal.",
+   "{6} × {a} = {6 * a} cm."
+  ],
+  "answer": "{6 * a} cm",
+  "checks": [],
+  "figure": "pyramidFig(3)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c65-1",
+    "status": "draft",
+    "idea": "A tetrahedron is a triangular pyramid with {4} triangular faces.",
+    "vars": {},
+    "example": [
+     "Any face can be the base."
+    ],
+    "checks": [],
+    "figure": "pyramidFig(3)",
+    "check": {
+     "ref": "m2-65-what"
+    }
+   },
+   {
+    "id": "c65-2",
+    "status": "draft",
+    "idea": "A regular tetrahedron has {4} identical equilateral faces and {6} equal edges.",
+    "vars": {},
+    "example": [
+     "{4} vertices."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-65-count"
+    }
+   },
+   {
+    "id": "c65-3",
+    "status": "draft",
+    "idea": "Surface area = {4} × area of one face.",
+    "vars": {},
+    "example": [
+     "Face {10} cm²: total {40} cm²."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-65-area-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "pyramids"
+     ],
+     "vars": {
+      "f": {
+       "int": [
+        4,
+        40
+       ]
+      }
+     },
+     "prompt": "Each face of a regular tetrahedron has an area of {f} cm². Find its total surface area.",
+     "answer": "4 * f",
+     "misconceptions": [
+      {
+       "id": "three",
+       "wrong": "3 * f",
+       "explain": "Count the base too: {4} faces."
+      }
+     ],
+     "solution": [
+      "There are {4} identical faces.",
+      "{4} × {f} = {answer} cm²."
+     ],
+     "unit": "cm²"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-65-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How many faces does a tetrahedron have?",
+       "r": "four",
+       "w": [
+        "three",
+        "five",
+        "six"
+       ],
+       "e": [
+        "It has a base too.",
+        "That is a square pyramid.",
+        "That is a cube."
+       ],
+       "y": "“Tetra” means four."
+      },
+      {
+       "q": "What shape are the faces of a regular tetrahedron?",
+       "r": "equilateral triangles",
+       "w": [
+        "squares",
+        "rectangles",
+        "pentagons"
+       ],
+       "e": [
+        "That is a cube.",
+        "Those are prism faces.",
+        "Those are not its faces."
+       ],
+       "y": "Four identical equilateral triangles."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-65-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "w": "edges",
+       "v": 6,
+       "y": "Each of the 4 faces has 3 edges, each shared by 2 faces: 4 × 3 ÷ 2."
+      },
+      {
+       "w": "vertices",
+       "v": 4,
+       "y": "3 at the base and 1 apex."
+      },
+      {
+       "w": "faces",
+       "v": 4,
+       "y": "1 base and 3 lateral faces."
+      }
+     ]
+    }
+   },
+   "prompt": "How many {X.w} does a regular tetrahedron have?",
+   "answer": "X.v",
+   "solution": [
+    "{X.y}",
+    "So: {answer}."
+   ]
+  },
+  {
+   "id": "m2-65-area",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "f": {
+     "int": [
+      4,
+      40
+     ]
+    }
+   },
+   "prompt": "Each face of a regular tetrahedron has an area of {f} cm². Find its total surface area.",
+   "answer": "4 * f",
+   "misconceptions": [
+    {
+     "id": "three",
+     "wrong": "3 * f",
+     "explain": "Count the base too: {4} faces."
+    }
+   ],
+   "solution": [
+    "There are {4} identical faces.",
+    "{4} × {f} = {answer} cm²."
+   ],
+   "unit": "cm²"
+  },
+  {
+   "id": "m2-65-edge",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "e": {
+     "int": [
+      2,
+      15
+     ]
+    },
+    "t": {
+     "expr": "6 * e"
+    }
+   },
+   "prompt": "The total length of the edges of a regular tetrahedron is {t} cm. How long is one edge?",
+   "answer": "t / 6",
+   "misconceptions": [
+    {
+     "id": "four",
+     "wrong": "t / 4",
+     "explain": "A tetrahedron has {6} edges."
+    }
+   ],
+   "solution": [
+    "There are {6} equal edges.",
+    "{t} ÷ {6} = {answer} cm."
+   ],
+   "unit": "cm"
+  }
+ ]
+}

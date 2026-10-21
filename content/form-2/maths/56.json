@@ -1,0 +1,299 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 56,
+ "language": "en",
+ "prerequisites": [
+  55
+ ],
+ "skills": [
+  {
+   "id": "m2-56",
+   "name": "Right prisms: numbers of faces, edges and vertices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For a prism whose base has n sides:\n• lateral faces: n; total faces: n + 2 (n lateral faces and 2 bases);\n• edges: 3n (n on each base and n lateral edges);\n• vertices: 2n (n on each base).\nExample: a pentagonal prism (n = 5) has 5 lateral faces, 7 faces, 15 edges and 10 vertices.\nEuler's relation for these solids: faces + vertices − edges = 2. For the pentagonal prism: 7 + 10 − 15 = 2.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 6
+  },
+  "problem": "How many faces, edges and vertices does a hexagonal prism have?",
+  "steps": [
+   "A hexagon has {n} sides: n = {n}.",
+   "Faces = n + {2} = {prismFaces(n)}; edges = {3}n = {prismEdges(n)}; vertices = {2}n = {prismVertices(n)}."
+  ],
+  "answer": "{prismFaces(n)} faces, {prismEdges(n)} edges, {prismVertices(n)} vertices",
+  "checks": [],
+  "figure": "prismFig(n)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c56-1",
+    "status": "draft",
+    "idea": "A prism with an n-sided base has n lateral faces and n + {2} faces in all.",
+    "vars": {},
+    "example": [
+     "Triangular prism: {3} + {2} = {5} faces."
+    ],
+    "checks": [],
+    "figure": "prismFig(3)",
+    "check": {
+     "ref": "m2-56-faces"
+    }
+   },
+   {
+    "id": "c56-2",
+    "status": "draft",
+    "idea": "It has {3}n edges and {2}n vertices.",
+    "vars": {},
+    "example": [
+     "Cuboid: {12} edges, {8} vertices."
+    ],
+    "checks": [],
+    "figure": "prismFig(4)",
+    "check": {
+     "id": "m2-56-edges-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "prisms"
+     ],
+     "vars": {
+      "n": {
+       "pick": [
+        3,
+        4,
+        5,
+        6
+       ]
+      },
+      "X": {
+       "pick": [
+        {
+         "w": "edges"
+        },
+        {
+         "w": "vertices"
+        }
+       ]
+      }
+     },
+     "prompt": "How many {X.w} does a {baseName(n, 'prism')} prism have?",
+     "answer": "X.w == 'edges' ? prismEdges(n) : prismVertices(n)",
+     "misconceptions": [
+      {
+       "id": "swap",
+       "wrong": "X.w == 'edges' ? prismVertices(n) : prismEdges(n)",
+       "explain": "Edges are lines; vertices are corners: count the right ones."
+      },
+      {
+       "id": "half",
+       "wrong": "n",
+       "explain": "Count both bases."
+      }
+     ],
+     "solution": [
+      "{X.w == 'edges' ? 'Edges: ' + str(n) + ' on each base and ' + str(n) + ' lateral edges.' : 'Vertices: ' + str(n) + ' on each base.'}",
+      "So there are {answer} {X.w}."
+     ],
+     "figure": "prismFig(n)"
+    }
+   },
+   {
+    "id": "c56-3",
+    "status": "draft",
+    "idea": "Euler's relation: F + V − E = {2}.",
+    "vars": {},
+    "example": [
+     "Cuboid: {6} + {8} − {12} = {2}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-56-euler-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "prisms"
+     ],
+     "vars": {
+      "n": {
+       "pick": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+       ]
+      },
+      "f": {
+       "expr": "prismFaces(n)"
+      },
+      "v": {
+       "expr": "prismVertices(n)"
+      }
+     },
+     "prompt": "A prism has {f} faces and {v} vertices. Use F + V − E = 2 to find its number of edges.",
+     "answer": "f + v - 2",
+     "misconceptions": [
+      {
+       "id": "plus",
+       "wrong": "f + v + 2",
+       "explain": "E = F + V − {2}: subtract {2}."
+      },
+      {
+       "id": "sum",
+       "wrong": "f + v",
+       "explain": "Subtract {2}."
+      }
+     ],
+     "solution": [
+      "F + V − E = {2}, so E = F + V − {2}.",
+      "E = {f} + {v} − {2} = {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-56-faces",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   },
+   "prompt": "How many faces does a {baseName(n, 'prism')} prism have?",
+   "answer": "prismFaces(n)",
+   "misconceptions": [
+    {
+     "id": "lat",
+     "wrong": "n",
+     "explain": "Add the two bases too."
+    },
+    {
+     "id": "plus1",
+     "wrong": "n + 1",
+     "explain": "There are two bases, not one."
+    }
+   ],
+   "solution": [
+    "The base has {n} sides: {n} lateral faces and {2} bases.",
+    "{n} + {2} = {answer} faces."
+   ],
+   "figure": "prismFig(n)"
+  },
+  {
+   "id": "m2-56-edges",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "w": "edges"
+      },
+      {
+       "w": "vertices"
+      }
+     ]
+    }
+   },
+   "prompt": "How many {X.w} does a {baseName(n, 'prism')} prism have?",
+   "answer": "X.w == 'edges' ? prismEdges(n) : prismVertices(n)",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "X.w == 'edges' ? prismVertices(n) : prismEdges(n)",
+     "explain": "Edges are lines; vertices are corners: count the right ones."
+    },
+    {
+     "id": "half",
+     "wrong": "n",
+     "explain": "Count both bases."
+    }
+   ],
+   "solution": [
+    "{X.w == 'edges' ? 'Edges: ' + str(n) + ' on each base and ' + str(n) + ' lateral edges.' : 'Vertices: ' + str(n) + ' on each base.'}",
+    "So there are {answer} {X.w}."
+   ],
+   "figure": "prismFig(n)"
+  },
+  {
+   "id": "m2-56-euler",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ]
+    },
+    "f": {
+     "expr": "prismFaces(n)"
+    },
+    "v": {
+     "expr": "prismVertices(n)"
+    }
+   },
+   "prompt": "A prism has {f} faces and {v} vertices. Use F + V − E = 2 to find its number of edges.",
+   "answer": "f + v - 2",
+   "misconceptions": [
+    {
+     "id": "plus",
+     "wrong": "f + v + 2",
+     "explain": "E = F + V − {2}: subtract {2}."
+    },
+    {
+     "id": "sum",
+     "wrong": "f + v",
+     "explain": "Subtract {2}."
+    }
+   ],
+   "solution": [
+    "F + V − E = {2}, so E = F + V − {2}.",
+    "E = {f} + {v} − {2} = {answer}."
+   ]
+  }
+ ]
+}

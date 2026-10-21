@@ -1,0 +1,309 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 61,
+ "language": "en",
+ "prerequisites": [
+  59
+ ],
+ "skills": [
+  {
+   "id": "m2-61",
+   "name": "Frequency distribution tables"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A frequency distribution table organises raw data. The frequency of a value is how many times it occurs.\nSteps: list the values in order in the first column; go through the data and make a tally mark for each one (bundle tallies in fives: 卌); count the tallies to get each frequency.\nThe total of the frequencies equals the number of data.\nExample: marks 2, 3, 3, 4, 2, 3, 5, 4, 3 → value 2: frequency 2; 3: 4; 4: 2; 5: 1; total 9.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "b": 3,
+   "c": 3,
+   "d": 4,
+   "e": 3
+  },
+  "problem": "Make a frequency table for the data {a}, {b}, {c}, {d}, {e}.",
+  "steps": [
+   "Values in order: {2}, {3}, {4}.",
+   "Frequencies: {2} → {1}; {3} → {3}; {4} → {1}; total {5}."
+  ],
+  "answer": "{2} → {1}, {3} → {3}, {4} → {1}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c61-1",
+    "status": "draft",
+    "idea": "The frequency of a value is how many times it occurs.",
+    "vars": {},
+    "example": [
+     "In {2}, {3}, {3}: the frequency of {3} is {2}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-61-freq"
+    }
+   },
+   {
+    "id": "c61-2",
+    "status": "draft",
+    "idea": "Tally marks are bundled in fives.",
+    "vars": {},
+    "example": [
+     "卌 means {5}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-61-tally"
+    }
+   },
+   {
+    "id": "c61-3",
+    "status": "draft",
+    "idea": "The total of the frequencies is the number of data.",
+    "vars": {},
+    "example": [
+     "{2} + {4} + {2} + {1} = {9}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-61-total-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "data"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        1,
+        12
+       ]
+      },
+      "q": {
+       "int": [
+        1,
+        12
+       ]
+      },
+      "s": {
+       "int": [
+        1,
+        12
+       ]
+      },
+      "t": {
+       "int": [
+        1,
+        12
+       ]
+      }
+     },
+     "prompt": "A frequency table has frequencies {p}, {q}, {s} and {t}. How many data were collected?",
+     "answer": "p + q + s + t",
+     "solution": [
+      "Total = sum of the frequencies.",
+      "{p} + {q} + {s} + {t} = {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-61-freq",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "e": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "x": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "Here are the numbers of children in some families: {listStr([a, b, c, d, e])}. What is the frequency of {x}?",
+   "answer": "countEach([a, b, c, d, e], [x])[0]",
+   "misconceptions": [
+    {
+     "id": "value",
+     "wrong": "x",
+     "explain": "The frequency is how many times it appears, not the value."
+    }
+   ],
+   "solution": [
+    "Count how many times {x} appears.",
+    "It appears {answer} times."
+   ]
+  },
+  {
+   "id": "m2-61-tally",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "r": {
+     "int": [
+      0,
+      4
+     ]
+    }
+   },
+   "prompt": "A tally shows {k} full bundles of five and {r} more marks. What is the frequency?",
+   "answer": "5 * k + r",
+   "misconceptions": [
+    {
+     "id": "marks",
+     "wrong": "k + r",
+     "explain": "Each bundle counts as {5}."
+    }
+   ],
+   "solution": [
+    "Each bundle is {5}: {k} × {5} = {5 * k}.",
+    "Add {r}: {answer}."
+   ]
+  },
+  {
+   "id": "m2-61-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      12
+     ]
+    }
+   },
+   "prompt": "A frequency table has frequencies {p}, {q}, {s} and {t}. How many data were collected?",
+   "answer": "p + q + s + t",
+   "solution": [
+    "Total = sum of the frequencies.",
+    "{p} + {q} + {s} + {t} = {answer}."
+   ]
+  },
+  {
+   "id": "m2-61-missing",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "q": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "t": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "T": {
+     "pick": [
+      25,
+      30,
+      32,
+      35,
+      40
+     ]
+    }
+   },
+   "prompt": "In a class of {T} pupils, the frequencies of marks 1, 2, 3 and 4 are {p}, {q}, ? and {t}. Find the missing frequency.",
+   "answer": "T - p - q - t",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "p + q + t",
+     "explain": "Subtract the known frequencies from the total."
+    }
+   ],
+   "solution": [
+    "The frequencies add up to {T}.",
+    "{T} − {p} − {q} − {t} = {answer}."
+   ],
+   "where": "T - p - q - t > 0"
+  }
+ ]
+}

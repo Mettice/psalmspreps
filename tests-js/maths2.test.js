@@ -111,3 +111,27 @@ test("fraction answers: 3/4, 1 3/4, −1/2 accepted; the right value not simplif
   for (const r of ["−1/2", "-1/2", "1/-2"]) assert.equal(check(q3, r).correct, true, r);
 });
 
+
+test("Term 3: prisms, pyramids, spheres and averages", () => {
+  assert.deepEqual([m.prismFaces(5), m.prismEdges(5), m.prismVertices(5)], [7, 15, 10]);
+  assert.deepEqual([m.pyramidFaces(4), m.pyramidEdges(4), m.pyramidVertices(4)], [5, 8, 5]);
+  for (const n of [3, 4, 5, 6]) assert.equal(m.prismFaces(n) + m.prismVertices(n) - m.prismEdges(n), 2);
+  for (const n of [3, 4, 5, 6]) assert.equal(m.pyramidFaces(n) + m.pyramidVertices(n) - m.pyramidEdges(n), 2);
+  assert.equal(m.baseName(4, "pyramid"), "square");
+  assert.equal(m.baseName(4, "prism"), "rectangular");
+  assert.equal(m.prismTotalArea(12, 10, 6), 132);
+  assert.equal(m.sqPyramidArea(6, 5), 96);
+  assert.equal(m.sphereArea(5), 314);
+  assert.equal(m.sphereVolume(3), 113.04);
+  assert.equal(m.sphereVolume(6), 904.32);
+  assert.equal(m.meanOf([3, 7, 2, 7, 6]), 5);
+  assert.equal(m.medianOf([3, 7, 2, 7, 6]), 6);
+  assert.equal(m.medianOf([1, 8, 4, 6]), 5);
+  assert.equal(m.modeOf([3, 7, 2, 7, 6]), 7);
+  assert.equal(m.modeOf([2, 2, 3, 3]), "none");
+  assert.equal(m.freqMean([0, 1, 2, 3], [4, 6, 7, 3]), 1.45);
+  assert.equal(m.freqMode([0, 1, 2, 3], [4, 6, 7, 3]), 2);
+  assert.equal(m.pieAngle(15, 60), 90);
+  for (const n of [3, 4, 5, 6]) assert.match(m.prismFig(n) + m.pyramidFig(n), /^<svg/);
+  assert.match(m.barChartFig(["A", "B"], [3, 7]) + m.pieFig(["A", "B"], [1, 3]) + m.sphereFig(5), /role="img"/);
+});

@@ -1,0 +1,321 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 63,
+ "language": "en",
+ "prerequisites": [
+  61,
+  62
+ ],
+ "skills": [
+  {
+   "id": "m2-63",
+   "name": "Mode and mean from a frequency table"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "When data are in a frequency table (values x, frequencies f):\n• the mode is the value with the highest frequency;\n• the mean = Σ(x × f) ÷ Σf: multiply each value by its frequency, add the products, then divide by the total frequency.\nExample: number of brothers x: 0, 1, 2, 3 with frequencies f: 4, 6, 7, 3.\nMode: 2 (frequency 7). Σf = 20; Σ(x × f) = 0 + 6 + 14 + 9 = 29; mean = 29 ÷ 20 = 1.45.\nAdd a third column x × f to the table to organise the work.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 4,
+   "q": 6,
+   "r": 7,
+   "s": 3
+  },
+  "problem": "Values {0}, {1}, {2}, {3} have frequencies {p}, {q}, {r}, {s}. Find the mode and the mean.",
+  "steps": [
+   "Mode: the value with the highest frequency: {freqMode([0, 1, 2, 3], [p, q, r, s])}.",
+   "Σf = {freqTotal([p, q, r, s])}; Σxf = {freqSumXF([0, 1, 2, 3], [p, q, r, s])}; mean = {freqMean([0, 1, 2, 3], [p, q, r, s])}."
+  ],
+  "answer": "mode {freqMode([0, 1, 2, 3], [p, q, r, s])}, mean {freqMean([0, 1, 2, 3], [p, q, r, s])}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c63-1",
+    "status": "draft",
+    "idea": "The mode is the value with the highest frequency.",
+    "vars": {},
+    "example": [
+     "Frequencies {3}, {8}, {5}: the mode is the value with {8}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-63-mode"
+    }
+   },
+   {
+    "id": "c63-2",
+    "status": "draft",
+    "idea": "Σxf: multiply each value by its frequency and add.",
+    "vars": {},
+    "example": [
+     "{1}×{4} + {2}×{3} = {10}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-63-sxf-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "averages"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "q": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "r": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "s": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "prompt": "Values 1, 2, 3, 4 have frequencies {p}, {q}, {r}, {s}. Find Σ(x × f).",
+     "answer": "freqSumXF([1, 2, 3, 4], [p, q, r, s])",
+     "misconceptions": [
+      {
+       "id": "f",
+       "wrong": "p + q + r + s",
+       "explain": "That is Σf; multiply each value by its frequency first."
+      }
+     ],
+     "solution": [
+      "{1}×{p} + {2}×{q} + {3}×{r} + {4}×{s}.",
+      "= {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c63-3",
+    "status": "draft",
+    "idea": "Mean = Σxf ÷ Σf.",
+    "vars": {},
+    "example": [
+     "{29} ÷ {20} = {1.45}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-63-mean-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "averages"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        1,
+        10
+       ]
+      },
+      "q": {
+       "int": [
+        1,
+        10
+       ]
+      },
+      "r": {
+       "int": [
+        1,
+        10
+       ]
+      },
+      "s": {
+       "int": [
+        1,
+        10
+       ]
+      }
+     },
+     "prompt": "Numbers of goals 0, 1, 2, 3 have frequencies {p}, {q}, {r}, {s}. Find the mean number of goals.",
+     "answer": "freqMean([0, 1, 2, 3], [p, q, r, s])",
+     "misconceptions": [
+      {
+       "id": "count",
+       "wrong": "freqSumXF([0, 1, 2, 3], [p, q, r, s]) / 4",
+       "explain": "Divide Σxf by the total frequency Σf, not by the number of values.",
+       "when": "freqTotal([p, q, r, s]) != 4"
+      }
+     ],
+     "solution": [
+      "Σf = {freqTotal([p, q, r, s])}; Σxf = {freqSumXF([0, 1, 2, 3], [p, q, r, s])}.",
+      "Mean = {freqSumXF([0, 1, 2, 3], [p, q, r, s])} ÷ {freqTotal([p, q, r, s])} = {answer}."
+     ],
+     "where": "isInt(freqMean([0, 1, 2, 3], [p, q, r, s]) * 10)"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-63-mode",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "averages"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "r": {
+     "int": [
+      1,
+      12
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      12
+     ]
+    }
+   },
+   "prompt": "Marks 5, 6, 7, 8 have frequencies {p}, {q}, {r}, {s}. What is the mode?",
+   "answer": "freqMode([5, 6, 7, 8], [p, q, r, s])",
+   "misconceptions": [
+    {
+     "id": "freq",
+     "wrong": "max(p, max(q, max(r, s)))",
+     "explain": "That is the highest frequency; the mode is the value that has it."
+    }
+   ],
+   "solution": [
+    "Find the highest frequency.",
+    "Its value is {answer}."
+   ],
+   "where": "freqModeUnique([p, q, r, s])"
+  },
+  {
+   "id": "m2-63-sxf",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "averages"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "r": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Values 1, 2, 3, 4 have frequencies {p}, {q}, {r}, {s}. Find Σ(x × f).",
+   "answer": "freqSumXF([1, 2, 3, 4], [p, q, r, s])",
+   "misconceptions": [
+    {
+     "id": "f",
+     "wrong": "p + q + r + s",
+     "explain": "That is Σf; multiply each value by its frequency first."
+    }
+   ],
+   "solution": [
+    "{1}×{p} + {2}×{q} + {3}×{r} + {4}×{s}.",
+    "= {answer}."
+   ]
+  },
+  {
+   "id": "m2-63-mean",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "averages"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      1,
+      10
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      10
+     ]
+    },
+    "r": {
+     "int": [
+      1,
+      10
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      10
+     ]
+    }
+   },
+   "prompt": "Numbers of goals 0, 1, 2, 3 have frequencies {p}, {q}, {r}, {s}. Find the mean number of goals.",
+   "answer": "freqMean([0, 1, 2, 3], [p, q, r, s])",
+   "misconceptions": [
+    {
+     "id": "count",
+     "wrong": "freqSumXF([0, 1, 2, 3], [p, q, r, s]) / 4",
+     "explain": "Divide Σxf by the total frequency Σf, not by the number of values.",
+     "when": "freqTotal([p, q, r, s]) != 4"
+    }
+   ],
+   "solution": [
+    "Σf = {freqTotal([p, q, r, s])}; Σxf = {freqSumXF([0, 1, 2, 3], [p, q, r, s])}.",
+    "Mean = {freqSumXF([0, 1, 2, 3], [p, q, r, s])} ÷ {freqTotal([p, q, r, s])} = {answer}."
+   ],
+   "where": "isInt(freqMean([0, 1, 2, 3], [p, q, r, s]) * 10)"
+  }
+ ]
+}

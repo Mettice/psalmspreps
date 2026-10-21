@@ -1,0 +1,337 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 55,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-55",
+   "name": "Right prisms: shape, faces, bases, vertices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A prism is a solid with two identical, parallel faces called the bases, joined by rectangular faces called the lateral faces. In a right prism the lateral faces are perpendicular to the bases.\nA prism is named after the shape of its base: triangular prism, rectangular prism (cuboid), pentagonal prism, hexagonal prism. A cube is a rectangular prism with all faces square.\nVocabulary: a face is a flat surface; an edge is where two faces meet; a vertex (plural vertices) is a corner where edges meet. The height of the prism is the distance between the two bases.\nExamples: a Toblerone-style box (triangular prism), a matchbox or brick (cuboid), a pencil (hexagonal prism).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 3
+  },
+  "problem": "The solid in the figure has two identical triangular ends joined by rectangles. Name it and its bases.",
+  "steps": [
+   "The two identical, parallel faces are the bases: they are triangles.",
+   "A prism is named after its base: a {baseName(n, 'prism')} prism."
+  ],
+  "answer": "A {baseName(n, 'prism')} prism; its bases are the two triangles.",
+  "checks": [],
+  "figure": "prismFig(n)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c55-1",
+    "status": "draft",
+    "idea": "A prism has two identical parallel bases joined by rectangular lateral faces.",
+    "vars": {},
+    "example": [
+     "A brick is a rectangular prism."
+    ],
+    "checks": [],
+    "figure": "prismFig(4)",
+    "check": {
+     "ref": "m2-55-name"
+    }
+   },
+   {
+    "id": "c55-2",
+    "status": "draft",
+    "idea": "A prism is named after the shape of its base.",
+    "vars": {},
+    "example": [
+     "Hexagonal base: a hexagonal prism."
+    ],
+    "checks": [],
+    "figure": "prismFig(6)",
+    "check": {
+     "ref": "m2-55-base"
+    }
+   },
+   {
+    "id": "c55-3",
+    "status": "draft",
+    "idea": "Face: a flat surface; edge: where two faces meet; vertex: a corner.",
+    "vars": {},
+    "example": [
+     "A cube has square faces."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-55-vocab-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "prisms"
+     ],
+     "prompt": "Match each word to its meaning.",
+     "pool": [
+      {
+       "left": "face",
+       "right": "a flat surface of the solid"
+      },
+      {
+       "left": "edge",
+       "right": "a line where two faces meet"
+      },
+      {
+       "left": "vertex",
+       "right": "a corner where edges meet"
+      },
+      {
+       "left": "base",
+       "right": "one of the two identical parallel faces"
+      },
+      {
+       "left": "height",
+       "right": "the distance between the two bases"
+      }
+     ],
+     "pick": 4
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-55-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   },
+   "prompt": "Name the prism in the figure.",
+   "correct": "a {baseName(n, 'prism')} prism",
+   "distractors": [
+    {
+     "text": "a {baseName(n == 6 ? 3 : n + 1, 'prism')} prism",
+     "misconception": "count"
+    },
+    {
+     "text": "a {baseName(n, 'pyramid')} pyramid",
+     "misconception": "pyr"
+    },
+    {
+     "text": "a {baseName(n == 3 ? 5 : n - 1, 'prism')} prism",
+     "misconception": "count"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "count",
+     "explain": "Count the sides of one base (an end face)."
+    },
+    {
+     "id": "pyr",
+     "explain": "A pyramid has one base and a point (apex); this solid has two identical bases."
+    }
+   ],
+   "solution": [
+    "Look at the two identical ends: they are the bases, with {n} sides.",
+    "So it is {answer}."
+   ],
+   "figure": "prismFig(n)"
+  },
+  {
+   "id": "m2-55-base",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are the two identical parallel faces of a prism called?",
+       "r": "the bases",
+       "w": [
+        "the edges",
+        "the vertices",
+        "the apex"
+       ],
+       "e": [
+        "Edges are lines where faces meet.",
+        "Vertices are corners.",
+        "A prism has no apex."
+       ],
+       "y": "A prism is named after its bases."
+      },
+      {
+       "q": "What shape are the lateral faces of a right prism?",
+       "r": "rectangles",
+       "w": [
+        "triangles",
+        "circles",
+        "always squares"
+       ],
+       "e": [
+        "Triangles are the lateral faces of a pyramid.",
+        "A prism has flat faces.",
+        "They are squares only in a cube."
+       ],
+       "y": "They join the bases at right angles."
+      },
+      {
+       "q": "Which everyday object is shaped like a hexagonal prism?",
+       "r": "a pencil",
+       "w": [
+        "a football",
+        "an ice-cream cone",
+        "a pyramid of oranges"
+       ],
+       "e": [
+        "A football is a sphere.",
+        "A cone has a circular base and a point.",
+        "That is a pyramid."
+       ],
+       "y": "A pencil has two hexagonal ends."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-55-vocab",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "prisms"
+   ],
+   "prompt": "Match each word to its meaning.",
+   "pool": [
+    {
+     "left": "face",
+     "right": "a flat surface of the solid"
+    },
+    {
+     "left": "edge",
+     "right": "a line where two faces meet"
+    },
+    {
+     "left": "vertex",
+     "right": "a corner where edges meet"
+    },
+    {
+     "left": "base",
+     "right": "one of the two identical parallel faces"
+    },
+    {
+     "left": "height",
+     "right": "the distance between the two bases"
+    }
+   ],
+   "pick": 4
+  },
+  {
+   "id": "m2-55-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "prisms"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A cube is a rectangular prism.",
+      "truth": "true"
+     },
+     {
+      "text": "A prism has two identical bases.",
+      "truth": "true"
+     },
+     {
+      "text": "A pencil is a hexagonal prism.",
+      "truth": "true"
+     },
+     {
+      "text": "Vertices are corners.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A triangular prism has a triangle at one end and a square at the other.",
+      "truth": "false",
+      "explain": "The two bases are identical."
+     },
+     {
+      "text": "A prism is named after its lateral faces.",
+      "truth": "false",
+      "explain": "It is named after its base."
+     },
+     {
+      "text": "The lateral faces of a right prism are triangles.",
+      "truth": "false",
+      "explain": "They are rectangles."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

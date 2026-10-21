@@ -442,3 +442,119 @@ export const pairPhrase = (p, q) => (anglePair(p, q) === "on a straight line" ? 
 export const isLowest = (a, b) => gcd(a, b) === 1;
 /** "a hexagon", "an octagon", "an isosceles triangle". */
 export const aOrAn = (w) => `${/^[aeiou]/i.test(String(w)) ? "an" : "a"} ${w}`;
+
+// ================================================================ Term 3 (2026-10-21): solids and statistics
+// ---------------------------------------------------------------- right prisms and regular pyramids
+/** A right prism whose base has n sides: n + 2 faces (n lateral), 3n edges, 2n vertices. */
+export const prismFaces = (n) => n + 2;
+export const prismEdges = (n) => 3 * n;
+export const prismVertices = (n) => 2 * n;
+/** A pyramid whose base has n sides: n + 1 faces (n triangles), 2n edges, n + 1 vertices. */
+export const pyramidFaces = (n) => n + 1;
+export const pyramidEdges = (n) => 2 * n;
+export const pyramidVertices = (n) => n + 1;
+const BASE_NAMES = { 3: "triangular", 5: "pentagonal", 6: "hexagonal", 8: "octagonal" };
+/** The name of an n-sided base: "triangular", "square" (pyramid) or "rectangular" (prism), "pentagonal", "hexagonal". */
+export const baseName = (n, solid) => (n === 4 ? (solid === "pyramid" ? "square" : "rectangular") : BASE_NAMES[n]);
+/** Lateral area of a right prism = perimeter of the base × height. */
+export const lateralArea = (perimeter, h) => dec(perimeter * h);
+/** Total surface area = lateral area + 2 × base area. */
+export const prismTotalArea = (perimeter, h, baseArea) => dec(perimeter * h + 2 * baseArea);
+/** Volume of a right prism = base area × height. */
+export const prismVolume = (baseArea, h) => dec(baseArea * h);
+/** Surface area of a square-based pyramid: base² + 4 × ½ × base × slant height. */
+export const sqPyramidArea = (b, slant) => dec(b * b + 2 * b * slant);
+
+// ---------------------------------------------------------------- spheres (π = 3.14)
+export const sphereArea = (r) => dec(4 * 3.14 * r * r);
+export const sphereVolume = (r) => dec((4 * 3.14 * r * r * r) / 3);
+
+// ---------------------------------------------------------------- statistics
+export const sorted = (list) => [...list].sort((a, b) => a - b);
+export const listStr = (list) => list.map(fmt).join(", ");
+export const meanOf = (list) => dec(list.reduce((a, b) => a + b, 0) / list.length);
+export function medianOf(list) {
+  const s = sorted(list), n = s.length;
+  return n % 2 ? s[(n - 1) / 2] : dec((s[n / 2 - 1] + s[n / 2]) / 2);
+}
+/** The single most frequent value, or "none" when two or more values tie for most frequent. */
+export function modeOf(list) {
+  const c = new Map();
+  for (const x of list) c.set(x, (c.get(x) || 0) + 1);
+  const top = Math.max(...c.values()), best = [...c].filter(([, k]) => k === top).map(([x]) => x);
+  return best.length === 1 ? best[0] : "none";
+}
+export const rangeOf = (list) => Math.max(...list) - Math.min(...list);
+/** Mean of a frequency table: Σ(x × f) ÷ Σf. */
+export const freqMean = (xs, fs) => dec(xs.reduce((a, x, i) => a + x * fs[i], 0) / fs.reduce((a, f) => a + f, 0));
+export const freqTotal = (fs) => fs.reduce((a, f) => a + f, 0);
+export const freqSumXF = (xs, fs) => xs.reduce((a, x, i) => a + x * fs[i], 0);
+/** The value with the highest frequency (the first if two tie). */
+export const freqMode = (xs, fs) => xs[fs.indexOf(Math.max(...fs))];
+/** True when one value alone has the highest frequency. */
+export const freqModeUnique = (fs) => fs.filter((f) => f === Math.max(...fs)).length === 1;
+/** Pie-chart angle of a part: frequency ÷ total × 360°. */
+export const pieAngle = (f, total) => dec((f / total) * 360);
+/** How many times each value occurs in the list, in the order of xs. */
+export const countEach = (list, xs) => xs.map((x) => list.filter((y) => y === x).length);
+
+// ---------------------------------------------------------------- figures
+const PRISM_BASES = {
+  3: [[40, 150], [170, 150], [110, 112]],
+  4: [[40, 152], [170, 152], [210, 122], [80, 122]],
+  5: [[60, 156], [150, 156], [182, 128], [105, 106], [28, 128]],
+  6: [[70, 156], [150, 156], [190, 132], [150, 108], [70, 108], [30, 132]],
+};
+// Base edges (start vertex index) and vertical edges hidden from view, per base size.
+const HIDDEN = { 3: { edges: [1, 2], verts: [2] }, 4: { edges: [2, 3], verts: [3] }, 5: { edges: [2, 3], verts: [3] }, 6: { edges: [3, 4], verts: [4] } };
+/** A right prism with an n-sided base (3, 4, 5 or 6) in oblique view; hidden edges are dashed. */
+export function prismFig(n) {
+  const base = PRISM_BASES[n], top = base.map(([x, y]) => [x, y - 80]), hid = HIDDEN[n];
+  let body = "";
+  base.forEach(([x, y], i) => { const [x2, y2] = base[(i + 1) % n]; body += line(x, y, x2, y2, hid.edges.includes(i) ? ` stroke-dasharray="4 3"` : ` stroke-width="1.5"`); });
+  top.forEach(([x, y], i) => { const [x2, y2] = top[(i + 1) % n]; body += line(x, y, x2, y2, ` stroke-width="1.5"`); });
+  base.forEach(([x, y], i) => { body += line(x, y, top[i][0], top[i][1], hid.verts.includes(i) ? ` stroke-dasharray="4 3"` : ` stroke-width="1.5"`); });
+  return svg(240, 175, `A right prism with a ${n}-sided base`, body);
+}
+/** A regular pyramid with an n-sided base (3, 4, 5 or 6), apex above the centre; hidden edges are dashed. */
+export function pyramidFig(n) {
+  const base = PRISM_BASES[n], hid = HIDDEN[n];
+  const cx = base.reduce((a, p) => a + p[0], 0) / n, apex = [cx, 22];
+  let body = "";
+  base.forEach(([x, y], i) => { const [x2, y2] = base[(i + 1) % n]; body += line(x, y, x2, y2, hid.edges.includes(i) ? ` stroke-dasharray="4 3"` : ` stroke-width="1.5"`); });
+  base.forEach(([x, y], i) => { body += line(x, y, apex[0], apex[1], hid.verts.includes(i) ? ` stroke-dasharray="4 3"` : ` stroke-width="1.5"`); });
+  body += dot(apex[0], apex[1], 2.5);
+  return svg(240, 175, `A pyramid with a ${n}-sided base`, body);
+}
+/** A sphere with its centre O and a radius of r cm marked. */
+export function sphereFig(r) {
+  const body = `<circle cx="110" cy="90" r="70" stroke-width="1.5"/><ellipse cx="110" cy="90" rx="70" ry="18" stroke-dasharray="4 3"/>` +
+    dot(110, 90, 2.5) + text(104, 86, "O", ` text-anchor="end"`) + line(110, 90, 180, 90) + text(145, 84, `${fmt(r)} cm`);
+  return svg(220, 180, "A sphere with its centre and a radius marked", body);
+}
+/** A bar chart of whole-number values (up to 6 bars) with a scale on the left. */
+export function barChartFig(labels, values) {
+  const n = labels.length, max = Math.max(...values), step = max <= 10 ? 2 : max <= 20 ? 5 : 10, top = Math.ceil(max / step) * step;
+  const X0 = 40, Y0 = 160, H = 130, W = 270, bw = W / n;
+  let body = line(X0, Y0, X0 + W, Y0) + line(X0, Y0, X0, Y0 - H - 5);
+  for (let v = 0; v <= top; v += step) {
+    const y = Y0 - (v / top) * H;
+    body += line(X0 - 4, y, X0, y) + text(X0 - 6, y + 4, fmt(v), ` text-anchor="end"`) + (v ? line(X0, y, X0 + W, y, ` stroke-dasharray="2 4" stroke-width="0.5"`) : "");
+  }
+  labels.forEach((l, i) => {
+    const h = (values[i] / top) * H, x = X0 + i * bw + bw * 0.2;
+    body += `<rect x="${r1(x)}" y="${r1(Y0 - h)}" width="${r1(bw * 0.6)}" height="${r1(h)}" fill="currentColor" fill-opacity="0.25" stroke-width="1.2"/>` + text(x + bw * 0.3, Y0 + 14, l);
+  });
+  return svg(330, 180, "A bar chart", body);
+}
+/** A pie chart with labelled sectors (the angles are not written). */
+export function pieFig(labels, values) {
+  const total = values.reduce((a, b) => a + b, 0), cx = 130, cy = 105, R = 66;
+  let a = -Math.PI / 2, body = `<circle cx="${cx}" cy="${cy}" r="${R}" stroke-width="1.5"/>`;
+  labels.forEach((l, i) => {
+    const t = (values[i] / total) * 2 * Math.PI, m = a + t / 2;
+    body += line(cx, cy, cx + R * Math.cos(a), cy + R * Math.sin(a)) + text(cx + (R + 24) * Math.cos(m), cy + (R + 24) * Math.sin(m) + 4, l);
+    a += t;
+  });
+  return svg(260, 210, "A pie chart", body);
+}

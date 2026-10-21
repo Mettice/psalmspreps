@@ -1,0 +1,325 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 58,
+ "language": "en",
+ "prerequisites": [
+  55
+ ],
+ "skills": [
+  {
+   "id": "m2-58",
+   "name": "Net of a right prism"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The net of a solid is the flat shape you get when you unfold it. Folding the net back gives the solid.\nThe net of a right prism has:\n• the two bases (identical polygons), and\n• the lateral faces, which together form one long rectangle: its length is the perimeter of the base and its width is the height of the prism.\nA cube has 11 different nets; a common one is a cross of 6 squares.\nThe area of the net equals the total surface area of the prism.\nTo draw a net: draw the long rectangle divided into n parts (one for each side of the base), then attach one base above and one below.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 3
+  },
+  "problem": "Describe the net of a triangular prism.",
+  "steps": [
+   "Unfold the {n} lateral faces: they make one long rectangle divided into {n} rectangles.",
+   "Attach the two triangular bases, one above and one below the rectangle."
+  ],
+  "answer": "Three rectangles in a row with a triangle above and a triangle below.",
+  "checks": [],
+  "figure": "prismFig(n)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c58-1",
+    "status": "draft",
+    "idea": "A net is the flat shape you get when you unfold a solid.",
+    "vars": {},
+    "example": [
+     "Fold it back to make the solid."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-58-what"
+    }
+   },
+   {
+    "id": "c58-2",
+    "status": "draft",
+    "idea": "The net of a prism: {2} bases and a long rectangle of lateral faces.",
+    "vars": {},
+    "example": [
+     "The rectangle's length is the base perimeter."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-58-parts-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "prisms"
+     ],
+     "vars": {
+      "n": {
+       "pick": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     "prompt": "The net of a {baseName(n, 'prism')} prism has a long rectangle made of its lateral faces. How many faces are there in the whole net?",
+     "answer": "prismFaces(n)",
+     "misconceptions": [
+      {
+       "id": "lat",
+       "wrong": "n",
+       "explain": "Add the two bases."
+      },
+      {
+       "id": "one",
+       "wrong": "n + 1",
+       "explain": "There are two bases."
+      }
+     ],
+     "solution": [
+      "The rectangle has {n} lateral faces.",
+      "Add the {2} bases: {n} + {2} = {answer}."
+     ],
+     "figure": "prismFig(n)"
+    }
+   },
+   {
+    "id": "c58-3",
+    "status": "draft",
+    "idea": "The area of the net equals the total surface area.",
+    "vars": {},
+    "example": [
+     "Same faces, just laid flat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-58-area"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-58-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the net of a solid?",
+       "r": "the flat shape you get when you unfold it",
+       "w": [
+        "its volume",
+        "its height",
+        "a fishing net"
+       ],
+       "e": [
+        "Volume is space inside.",
+        "Height is a length.",
+        "That is not the maths meaning."
+       ],
+       "y": "Folding the net makes the solid."
+      },
+      {
+       "q": "How many squares are in the net of a cube?",
+       "r": "six",
+       "w": [
+        "four",
+        "eight",
+        "twelve"
+       ],
+       "e": [
+        "A cube has six faces.",
+        "Eight is the number of vertices.",
+        "Twelve is the number of edges."
+       ],
+       "y": "One square for each face."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-58-parts",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   },
+   "prompt": "The net of a {baseName(n, 'prism')} prism has a long rectangle made of its lateral faces. How many faces are there in the whole net?",
+   "answer": "prismFaces(n)",
+   "misconceptions": [
+    {
+     "id": "lat",
+     "wrong": "n",
+     "explain": "Add the two bases."
+    },
+    {
+     "id": "one",
+     "wrong": "n + 1",
+     "explain": "There are two bases."
+    }
+   ],
+   "solution": [
+    "The rectangle has {n} lateral faces.",
+    "Add the {2} bases: {n} + {2} = {answer}."
+   ],
+   "figure": "prismFig(n)"
+  },
+  {
+   "id": "m2-58-area",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      12,
+      30
+     ]
+    },
+    "h": {
+     "int": [
+      4,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      6,
+      30
+     ]
+    }
+   },
+   "prompt": "The lateral rectangle of a prism's net is {p} cm long and {h} cm wide. Each base has an area of {b} cm². What is the area of the whole net?",
+   "answer": "prismTotalArea(p, h, b)",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "p * h + b",
+     "explain": "There are two bases."
+    }
+   ],
+   "solution": [
+    "Rectangle: {p} × {h} = {p * h} cm².",
+    "Add the two bases: {p * h} + {2} × {b} = {answer} cm²."
+   ],
+   "unit": "cm²"
+  },
+  {
+   "id": "m2-58-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "prisms"
+   ],
+   "prompt": "Which statement about nets is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A net folds to make the solid.",
+      "truth": "true"
+     },
+     {
+      "text": "A cube's net has six squares.",
+      "truth": "true"
+     },
+     {
+      "text": "The net's area is the surface area.",
+      "truth": "true"
+     },
+     {
+      "text": "A prism's net has two identical bases.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The net of a triangular prism has three triangles.",
+      "truth": "false",
+      "explain": "It has two triangles and three rectangles."
+     },
+     {
+      "text": "The lateral rectangle's length is the prism's height.",
+      "truth": "false",
+      "explain": "Its length is the base perimeter; its width is the height."
+     },
+     {
+      "text": "The area of the net is the volume of the prism.",
+      "truth": "false",
+      "explain": "It is the surface area."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

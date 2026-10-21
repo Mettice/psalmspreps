@@ -1,0 +1,343 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 57,
+ "language": "en",
+ "prerequisites": [
+  56
+ ],
+ "skills": [
+  {
+   "id": "m2-57",
+   "name": "Right prisms: lateral area, total surface area and volume"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For a right prism with base perimeter P, base area B and height h:\n• lateral area = P × h (the lateral faces unroll into one rectangle P long and h high);\n• total surface area = lateral area + 2 × B;\n• volume = B × h.\nCuboid with length l, width w and height h: total area = 2(lw + lh + wh); volume = l × w × h.\nUnits: areas in cm² or m², volumes in cm³ or m³; 1 litre = 1 000 cm³.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "l": 8,
+   "w": 5,
+   "h": 4
+  },
+  "problem": "A box is a cuboid {l} cm long, {w} cm wide and {h} cm high. Find its total surface area and volume.",
+  "steps": [
+   "Total area = {2}({l}×{w} + {l}×{h} + {w}×{h}) = {2}({l * w} + {l * h} + {w * h}) = {2 * (l * w + l * h + w * h)} cm².",
+   "Volume = {l} × {w} × {h} = {l * w * h} cm³."
+  ],
+  "answer": "{2 * (l * w + l * h + w * h)} cm² and {l * w * h} cm³",
+  "checks": [],
+  "figure": "prismFig(4)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c57-1",
+    "status": "draft",
+    "idea": "Lateral area = perimeter of the base × height.",
+    "vars": {},
+    "example": [
+     "P = {20} cm, h = {6} cm: {120} cm²."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-57-lat"
+    }
+   },
+   {
+    "id": "c57-2",
+    "status": "draft",
+    "idea": "Total surface area = lateral area + {2} × base area.",
+    "vars": {},
+    "example": [
+     "{120} + {2} × {24} = {168} cm²."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-57-total-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "prisms"
+     ],
+     "vars": {
+      "T": {
+       "pick": [
+        [
+         3,
+         4,
+         5
+        ],
+        [
+         6,
+         8,
+         10
+        ],
+        [
+         5,
+         12,
+         13
+        ]
+       ]
+      },
+      "a": {
+       "expr": "T[0]"
+      },
+      "b": {
+       "expr": "T[1]"
+      },
+      "c": {
+       "expr": "T[2]"
+      },
+      "h": {
+       "int": [
+        5,
+        20
+       ]
+      }
+     },
+     "prompt": "A triangular prism has a right-angled base with sides {a} cm, {b} cm and {c} cm (the right angle between {a} and {b}). Its length is {h} cm. Find its total surface area.",
+     "answer": "prismTotalArea(a + b + c, h, a * b / 2)",
+     "misconceptions": [
+      {
+       "id": "lat",
+       "wrong": "lateralArea(a + b + c, h)",
+       "explain": "Add the two triangular bases too."
+      },
+      {
+       "id": "one",
+       "wrong": "prismTotalArea(a + b + c, h, a * b / 2) - a * b / 2",
+       "explain": "There are two bases."
+      }
+     ],
+     "solution": [
+      "Base area = ½ × {a} × {b} = {a * b / 2} cm²; perimeter = {a + b + c} cm.",
+      "Total = {a + b + c} × {h} + {2} × {a * b / 2} = {answer} cm²."
+     ],
+     "unit": "cm²",
+     "figure": "prismFig(3)"
+    }
+   },
+   {
+    "id": "c57-3",
+    "status": "draft",
+    "idea": "Volume = base area × height.",
+    "vars": {},
+    "example": [
+     "{24} cm² × {6} cm = {144} cm³."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-57-vol"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-57-lat",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      10,
+      40
+     ]
+    },
+    "h": {
+     "int": [
+      3,
+      15
+     ]
+    }
+   },
+   "prompt": "A right prism has a base perimeter of {p} cm and a height of {h} cm. Find its lateral area.",
+   "answer": "lateralArea(p, h)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "p + h",
+     "explain": "Multiply the perimeter by the height."
+    }
+   ],
+   "solution": [
+    "Lateral area = perimeter × height.",
+    "{p} × {h} = {answer} cm²."
+   ],
+   "unit": "cm²"
+  },
+  {
+   "id": "m2-57-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      [
+       3,
+       4,
+       5
+      ],
+      [
+       6,
+       8,
+       10
+      ],
+      [
+       5,
+       12,
+       13
+      ]
+     ]
+    },
+    "a": {
+     "expr": "T[0]"
+    },
+    "b": {
+     "expr": "T[1]"
+    },
+    "c": {
+     "expr": "T[2]"
+    },
+    "h": {
+     "int": [
+      5,
+      20
+     ]
+    }
+   },
+   "prompt": "A triangular prism has a right-angled base with sides {a} cm, {b} cm and {c} cm (the right angle between {a} and {b}). Its length is {h} cm. Find its total surface area.",
+   "answer": "prismTotalArea(a + b + c, h, a * b / 2)",
+   "misconceptions": [
+    {
+     "id": "lat",
+     "wrong": "lateralArea(a + b + c, h)",
+     "explain": "Add the two triangular bases too."
+    },
+    {
+     "id": "one",
+     "wrong": "prismTotalArea(a + b + c, h, a * b / 2) - a * b / 2",
+     "explain": "There are two bases."
+    }
+   ],
+   "solution": [
+    "Base area = ½ × {a} × {b} = {a * b / 2} cm²; perimeter = {a + b + c} cm.",
+    "Total = {a + b + c} × {h} + {2} × {a * b / 2} = {answer} cm²."
+   ],
+   "unit": "cm²",
+   "figure": "prismFig(3)"
+  },
+  {
+   "id": "m2-57-vol",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      3,
+      15
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      10
+     ]
+    },
+    "h": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "A cuboid is {l} cm long, {w} cm wide and {h} cm high. Find its volume.",
+   "answer": "l * w * h",
+   "misconceptions": [
+    {
+     "id": "area",
+     "wrong": "2 * (l * w + l * h + w * h)",
+     "explain": "That is the surface area; volume = l × w × h."
+    },
+    {
+     "id": "sum",
+     "wrong": "l + w + h",
+     "explain": "Multiply the three lengths."
+    }
+   ],
+   "solution": [
+    "Volume = length × width × height.",
+    "{l} × {w} × {h} = {answer} cm³."
+   ],
+   "unit": "cm³",
+   "figure": "prismFig(4)"
+  },
+  {
+   "id": "m2-57-litre",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "prisms"
+   ],
+   "vars": {
+    "l": {
+     "pick": [
+      50,
+      100,
+      120,
+      150,
+      200
+     ]
+    },
+    "w": {
+     "pick": [
+      40,
+      50,
+      60,
+      80,
+      100
+     ]
+    },
+    "h": {
+     "pick": [
+      50,
+      100
+     ]
+    }
+   },
+   "prompt": "A water tank is a cuboid {l} cm by {w} cm by {h} cm. How many litres does it hold when full? (1 litre = 1 000 cm³)",
+   "answer": "l * w * h / 1000",
+   "misconceptions": [
+    {
+     "id": "cm3",
+     "wrong": "l * w * h",
+     "explain": "Divide by {1000} to change cm³ to litres."
+    }
+   ],
+   "solution": [
+    "Volume = {l} × {w} × {h} = {l * w * h} cm³.",
+    "{l * w * h} ÷ {1000} = {answer} litres."
+   ],
+   "unit": "litres"
+  }
+ ]
+}

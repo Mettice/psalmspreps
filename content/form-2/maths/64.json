@@ -1,0 +1,383 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 64,
+ "language": "en",
+ "prerequisites": [
+  55
+ ],
+ "skills": [
+  {
+   "id": "m2-64",
+   "name": "Regular pyramids: shape and vocabulary"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A pyramid is a solid with one base (a polygon) and triangular lateral faces that meet at a point called the apex.\nIn a regular pyramid, the base is a regular polygon and the apex is directly above the centre of the base.\nVocabulary: base, lateral faces (triangles), apex, edges, vertices; the altitude (height) is the perpendicular distance from the apex to the base; the slant height is the height of a lateral triangle, from the apex to the middle of a base edge.\nA pyramid is named after its base: triangular, square, pentagonal, hexagonal pyramid.\nFor an n-sided base: n + 1 faces, 2n edges, n + 1 vertices.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 4
+  },
+  "problem": "How many faces, edges and vertices does a square pyramid have?",
+  "steps": [
+   "The base has {n} sides.",
+   "Faces = n + {1} = {pyramidFaces(n)}; edges = {2}n = {pyramidEdges(n)}; vertices = n + {1} = {pyramidVertices(n)}."
+  ],
+  "answer": "{pyramidFaces(n)} faces, {pyramidEdges(n)} edges, {pyramidVertices(n)} vertices",
+  "checks": [],
+  "figure": "pyramidFig(n)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c64-1",
+    "status": "draft",
+    "idea": "A pyramid has one base and triangular faces meeting at the apex.",
+    "vars": {},
+    "example": [
+     "The pyramids of Egypt have square bases."
+    ],
+    "checks": [],
+    "figure": "pyramidFig(4)",
+    "check": {
+     "ref": "m2-64-name"
+    }
+   },
+   {
+    "id": "c64-2",
+    "status": "draft",
+    "idea": "The altitude is the height from the apex to the base; the slant height is the height of a triangular face.",
+    "vars": {},
+    "example": [
+     "The slant height is longer than the altitude."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-64-vocab-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "pyramids"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is the apex of a pyramid?",
+         "r": "the point where the lateral faces meet",
+         "w": [
+          "the base",
+          "the middle of an edge",
+          "the bottom corner"
+         ],
+         "e": [
+          "The base is the bottom face.",
+          "That is where the slant height ends.",
+          "The apex is at the top."
+         ],
+         "y": "All the triangles meet there."
+        },
+        {
+         "q": "What is the slant height of a pyramid?",
+         "r": "the height of a triangular face, from the apex to the middle of a base edge",
+         "w": [
+          "the height from the apex straight down to the base",
+          "the length of a base edge",
+          "the perimeter of the base"
+         ],
+         "e": [
+          "That is the altitude.",
+          "That is a base edge.",
+          "That is a perimeter."
+         ],
+         "y": "It runs along a face."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c64-3",
+    "status": "draft",
+    "idea": "An n-sided base: n + {1} faces, {2}n edges, n + {1} vertices.",
+    "vars": {},
+    "example": [
+     "Square pyramid: {5} faces, {8} edges, {5} vertices."
+    ],
+    "checks": [],
+    "figure": "pyramidFig(4)",
+    "check": {
+     "ref": "m2-64-count"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-64-name",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   },
+   "prompt": "Name the pyramid in the figure.",
+   "correct": "a {baseName(n, 'pyramid')} pyramid",
+   "distractors": [
+    {
+     "text": "a {baseName(n, 'prism')} prism",
+     "misconception": "prism"
+    },
+    {
+     "text": "a {baseName(n == 6 ? 3 : n + 1, 'pyramid')} pyramid",
+     "misconception": "count"
+    },
+    {
+     "text": "a {baseName(n == 3 ? 5 : n - 1, 'pyramid')} pyramid",
+     "misconception": "count"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "prism",
+     "explain": "A prism has two identical bases; this solid has one base and an apex."
+    },
+    {
+     "id": "count",
+     "explain": "Count the sides of the base again."
+    }
+   ],
+   "solution": [
+    "Count the sides of the base: {n}.",
+    "So it is {answer}."
+   ],
+   "figure": "pyramidFig(n)"
+  },
+  {
+   "id": "m2-64-vocab",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the apex of a pyramid?",
+       "r": "the point where the lateral faces meet",
+       "w": [
+        "the base",
+        "the middle of an edge",
+        "the bottom corner"
+       ],
+       "e": [
+        "The base is the bottom face.",
+        "That is where the slant height ends.",
+        "The apex is at the top."
+       ],
+       "y": "All the triangles meet there."
+      },
+      {
+       "q": "What is the slant height of a pyramid?",
+       "r": "the height of a triangular face, from the apex to the middle of a base edge",
+       "w": [
+        "the height from the apex straight down to the base",
+        "the length of a base edge",
+        "the perimeter of the base"
+       ],
+       "e": [
+        "That is the altitude.",
+        "That is a base edge.",
+        "That is a perimeter."
+       ],
+       "y": "It runs along a face."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-64-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "w": "edges"
+      },
+      {
+       "w": "faces"
+      },
+      {
+       "w": "vertices"
+      }
+     ]
+    }
+   },
+   "prompt": "How many {X.w} does a {baseName(n, 'pyramid')} pyramid have?",
+   "answer": "X.w == 'edges' ? pyramidEdges(n) : X.w == 'faces' ? pyramidFaces(n) : pyramidVertices(n)",
+   "misconceptions": [
+    {
+     "id": "prism",
+     "wrong": "X.w == 'edges' ? prismEdges(n) : X.w == 'faces' ? prismFaces(n) : prismVertices(n)",
+     "explain": "That is for a prism; a pyramid has one base and an apex."
+    }
+   ],
+   "solution": [
+    "The base has {n} sides.",
+    "{X.w == 'edges' ? 'Edges = 2n' : X.w == 'faces' ? 'Faces = n + 1' : 'Vertices = n + 1'} = {answer}."
+   ],
+   "figure": "pyramidFig(n)"
+  },
+  {
+   "id": "m2-64-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "pyramids"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A pyramid has one base.",
+      "truth": "true"
+     },
+     {
+      "text": "Its lateral faces are triangles.",
+      "truth": "true"
+     },
+     {
+      "text": "A square pyramid has 5 vertices.",
+      "truth": "true"
+     },
+     {
+      "text": "The altitude goes from the apex to the base.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A pyramid has two identical bases.",
+      "truth": "false",
+      "explain": "A prism has two bases; a pyramid has one."
+     },
+     {
+      "text": "A square pyramid has 12 edges.",
+      "truth": "false",
+      "explain": "It has 8 edges."
+     },
+     {
+      "text": "The slant height is always shorter than the altitude.",
+      "truth": "false",
+      "explain": "The slant height is longer."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

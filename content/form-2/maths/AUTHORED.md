@@ -47,6 +47,27 @@ Regenerate with `npm run review:f2-maths`. Item IDs (TR-…) match `docs/teacher
 | 28 | `m2-52-what-card` (card c52-3) | 52 | multiple choice, 1 | symmetry |
 | 29 | `m2-53-centre` | 53 | multiple choice, 1 | circles |
 | 30 | `m2-53-spot` | 53 | spot the error, 3 | circles |
+| 31 | `m2-55-base` | 55 | multiple choice, 1 | prisms |
+| 32 | `m2-55-vocab` | 55 | matching, 2 | prisms |
+| 33 | `m2-55-spot` | 55 | spot the error, 3 | prisms |
+| 34 | `m2-55-vocab-card` (card c55-3) | 55 | matching, 1 | prisms |
+| 35 | `m2-58-what` | 58 | multiple choice, 1 | prisms |
+| 36 | `m2-58-spot` | 58 | spot the error, 3 | prisms |
+| 37 | `m2-59-disc` | 59 | multiple choice, 2 | data |
+| 38 | `m2-59-collect` | 59 | multiple choice, 1 | data |
+| 39 | `m2-59-spot` | 59 | spot the error, 3 | data |
+| 40 | `m2-59-disc-card` (card c59-2) | 59 | multiple choice, 1 | data |
+| 41 | `m2-60-choose` | 60 | multiple choice, 3 | data |
+| 42 | `m2-64-vocab` | 64 | multiple choice, 2 | pyramids |
+| 43 | `m2-64-spot` | 64 | spot the error, 3 | pyramids |
+| 44 | `m2-64-vocab-card` (card c64-2) | 64 | multiple choice, 1 | pyramids |
+| 45 | `m2-65-what` | 65 | multiple choice, 1 | pyramids |
+| 46 | `m2-66-fold` | 66 | multiple choice, 2 | pyramids |
+| 47 | `m2-66-fold-card` (card c66-2) | 66 | multiple choice, 1 | pyramids |
+| 48 | `m2-67-what` | 67 | multiple choice, 1 | spheres |
+| 49 | `m2-67-ball` | 67 | multiple choice, 2 | spheres |
+| 50 | `m2-67-spot` | 67 | spot the error, 3 | spheres |
+| 51 | `m2-67-ball-card` (card c67-3) | 67 | multiple choice, 1 | spheres |
 
 ### `m2-4-spot` · Lesson 4 · spot the error, level 3
 
@@ -1967,4 +1988,1365 @@ Full working after a second miss:
 > For an obtuse triangle it is outside; for a right-angled one it is on the hypotenuse.  
 
 Sources: circles (Circumscribed circle (circumcentre; midpoint of the hypotenuse) and the relative positions of two circles)
+
+### `m2-55-base` · Lesson 55 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What are the two identical parallel faces of a prism called? | the bases | the edges · the vertices · the apex | Edges are lines where faces meet. · Vertices are corners. · A prism has no apex. | A prism is named after its bases. |
+| What shape are the lateral faces of a right prism? | rectangles | triangles · circles · always squares | Triangles are the lateral faces of a pyramid. · A prism has flat faces. · They are squares only in a cube. | They join the bases at right angles. |
+| Which everyday object is shaped like a hexagonal prism? | a pencil | a football · an ice-cream cone · a pyramid of oranges | A football is a sphere. · A cone has a circular base and a point. · That is a pyramid. | A pencil has two hexagonal ends. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What are the two identical parallel faces of a prism called?
+
+- ◻️ the apex  
+  _↳ feedback if chosen: A prism has no apex._
+- ◻️ the edges  
+  _↳ feedback if chosen: Edges are lines where faces meet._
+- ✅ the bases
+- ◻️ the vertices  
+  _↳ feedback if chosen: Vertices are corners._
+
+Full working after a second miss:
+
+> A prism is named after its bases.  
+> So the answer is “the bases”.  
+
+> Which everyday object is shaped like a hexagonal prism?
+
+- ◻️ a football  
+  _↳ feedback if chosen: A football is a sphere._
+- ✅ a pencil
+- ◻️ an ice-cream cone  
+  _↳ feedback if chosen: A cone has a circular base and a point._
+- ◻️ a pyramid of oranges  
+  _↳ feedback if chosen: That is a pyramid._
+
+Full working after a second miss:
+
+> A pencil has two hexagonal ends.  
+> So the answer is “a pencil”.  
+
+> What shape are the lateral faces of a right prism?
+
+- ✅ rectangles
+- ◻️ always squares  
+  _↳ feedback if chosen: They are squares only in a cube._
+- ◻️ triangles  
+  _↳ feedback if chosen: Triangles are the lateral faces of a pyramid._
+- ◻️ circles  
+  _↳ feedback if chosen: A prism has flat faces._
+
+Full working after a second miss:
+
+> They join the bases at right angles.  
+> So the answer is “rectangles”.  
+
+Sources: prisms (Right prisms: vocabulary, faces/edges/vertices (n + 2, 3n, 2n), Euler's relation F + V − E = 2, lateral area = perimeter × height, total surface area, volume = base area × height, nets; 1 litre = 1 000 cm³)
+
+### `m2-55-vocab` · Lesson 55 · matching, level 2
+
+Prompt: Match each word to its meaning.
+
+Pairs (4 shown each time):
+
+- face → **a flat surface of the solid**
+- edge → **a line where two faces meet**
+- vertex → **a corner where edges meet**
+- base → **one of the two identical parallel faces**
+- height → **the distance between the two bases**
+
+
+Three generated variants:
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): one of the two identical parallel faces · the distance between the two bases · a flat surface of the solid · a line where two faces meet
+- base → **one of the two identical parallel faces**
+- face → **a flat surface of the solid**
+- height → **the distance between the two bases**
+- edge → **a line where two faces meet**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> base → one of the two identical parallel faces  
+> face → a flat surface of the solid  
+> height → the distance between the two bases  
+> edge → a line where two faces meet  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a line where two faces meet · the distance between the two bases · a corner where edges meet · a flat surface of the solid
+- vertex → **a corner where edges meet**
+- edge → **a line where two faces meet**
+- face → **a flat surface of the solid**
+- height → **the distance between the two bases**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> vertex → a corner where edges meet  
+> edge → a line where two faces meet  
+> face → a flat surface of the solid  
+> height → the distance between the two bases  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): the distance between the two bases · one of the two identical parallel faces · a flat surface of the solid · a corner where edges meet
+- vertex → **a corner where edges meet**
+- height → **the distance between the two bases**
+- face → **a flat surface of the solid**
+- base → **one of the two identical parallel faces**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> vertex → a corner where edges meet  
+> height → the distance between the two bases  
+> face → a flat surface of the solid  
+> base → one of the two identical parallel faces  
+
+Sources: prisms (Right prisms: vocabulary, faces/edges/vertices (n + 2, 3n, 2n), Euler's relation F + V − E = 2, lateral area = perimeter × height, total surface area, volume = base area × height, nets; 1 litre = 1 000 cm³)
+
+### `m2-55-spot` · Lesson 55 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A cube is a rectangular prism.
+- ✅ A prism has two identical bases.
+- ✅ A pencil is a hexagonal prism.
+- ✅ Vertices are corners.
+- ❌ A triangular prism has a triangle at one end and a square at the other.  
+  _↳ The two bases are identical._
+- ❌ A prism is named after its lateral faces.  
+  _↳ It is named after its base._
+- ❌ The lateral faces of a right prism are triangles.  
+  _↳ They are rectangles._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A pencil is a hexagonal prism.
+- ◻️ A prism has two identical bases.
+- ✅ A prism is named after its lateral faces.  
+  _↳ explanation: It is named after its base._
+- ◻️ Vertices are corners.
+
+Full working after a second miss:
+
+> The wrong statement is “A prism is named after its lateral faces.”.  
+> It is named after its base.  
+
+> Which statement is wrong?
+
+- ◻️ A cube is a rectangular prism.
+- ✅ A triangular prism has a triangle at one end and a square at the other.  
+  _↳ explanation: The two bases are identical._
+- ◻️ A prism has two identical bases.
+- ◻️ Vertices are corners.
+
+Full working after a second miss:
+
+> The wrong statement is “A triangular prism has a triangle at one end and a square at the other.”.  
+> The two bases are identical.  
+
+> Which statement is wrong?
+
+- ◻️ A cube is a rectangular prism.
+- ◻️ A prism has two identical bases.
+- ◻️ A pencil is a hexagonal prism.
+- ✅ A triangular prism has a triangle at one end and a square at the other.  
+  _↳ explanation: The two bases are identical._
+
+Full working after a second miss:
+
+> The wrong statement is “A triangular prism has a triangle at one end and a square at the other.”.  
+> The two bases are identical.  
+
+Sources: prisms (Right prisms: vocabulary, faces/edges/vertices (n + 2, 3n, 2n), Euler's relation F + V − E = 2, lateral area = perimeter × height, total surface area, volume = base area × height, nets; 1 litre = 1 000 cm³)
+
+### `m2-55-vocab-card` · Lesson 55 · matching, level 1
+
+Prompt: Match each word to its meaning.
+
+Pairs (4 shown each time):
+
+- face → **a flat surface of the solid**
+- edge → **a line where two faces meet**
+- vertex → **a corner where edges meet**
+- base → **one of the two identical parallel faces**
+- height → **the distance between the two bases**
+
+
+Three generated variants:
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a line where two faces meet · one of the two identical parallel faces · a corner where edges meet · the distance between the two bases
+- vertex → **a corner where edges meet**
+- base → **one of the two identical parallel faces**
+- height → **the distance between the two bases**
+- edge → **a line where two faces meet**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> vertex → a corner where edges meet  
+> base → one of the two identical parallel faces  
+> height → the distance between the two bases  
+> edge → a line where two faces meet  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a flat surface of the solid · a line where two faces meet · a corner where edges meet · one of the two identical parallel faces
+- vertex → **a corner where edges meet**
+- edge → **a line where two faces meet**
+- face → **a flat surface of the solid**
+- base → **one of the two identical parallel faces**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> vertex → a corner where edges meet  
+> edge → a line where two faces meet  
+> face → a flat surface of the solid  
+> base → one of the two identical parallel faces  
+
+> Match each word to its meaning.
+
+Right-hand side (shuffled): a line where two faces meet · a corner where edges meet · the distance between the two bases · one of the two identical parallel faces
+- height → **the distance between the two bases**
+- base → **one of the two identical parallel faces**
+- vertex → **a corner where edges meet**
+- edge → **a line where two faces meet**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> height → the distance between the two bases  
+> base → one of the two identical parallel faces  
+> vertex → a corner where edges meet  
+> edge → a line where two faces meet  
+
+Sources: prisms (Right prisms: vocabulary, faces/edges/vertices (n + 2, 3n, 2n), Euler's relation F + V − E = 2, lateral area = perimeter × height, total surface area, volume = base area × height, nets; 1 litre = 1 000 cm³)
+
+### `m2-58-what` · Lesson 58 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the net of a solid? | the flat shape you get when you unfold it | its volume · its height · a fishing net | Volume is space inside. · Height is a length. · That is not the maths meaning. | Folding the net makes the solid. |
+| How many squares are in the net of a cube? | six | four · eight · twelve | A cube has six faces. · Eight is the number of vertices. · Twelve is the number of edges. | One square for each face. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How many squares are in the net of a cube?
+
+- ✅ six
+- ◻️ eight  
+  _↳ feedback if chosen: Eight is the number of vertices._
+- ◻️ twelve  
+  _↳ feedback if chosen: Twelve is the number of edges._
+- ◻️ four  
+  _↳ feedback if chosen: A cube has six faces._
+
+Full working after a second miss:
+
+> One square for each face.  
+> So the answer is “six”.  
+
+> How many squares are in the net of a cube?
+
+- ◻️ eight  
+  _↳ feedback if chosen: Eight is the number of vertices._
+- ◻️ twelve  
+  _↳ feedback if chosen: Twelve is the number of edges._
+- ✅ six
+- ◻️ four  
+  _↳ feedback if chosen: A cube has six faces._
+
+Full working after a second miss:
+
+> One square for each face.  
+> So the answer is “six”.  
+
+> What is the net of a solid?
+
+- ◻️ a fishing net  
+  _↳ feedback if chosen: That is not the maths meaning._
+- ◻️ its height  
+  _↳ feedback if chosen: Height is a length._
+- ◻️ its volume  
+  _↳ feedback if chosen: Volume is space inside._
+- ✅ the flat shape you get when you unfold it
+
+Full working after a second miss:
+
+> Folding the net makes the solid.  
+> So the answer is “the flat shape you get when you unfold it”.  
+
+Sources: prisms (Right prisms: vocabulary, faces/edges/vertices (n + 2, 3n, 2n), Euler's relation F + V − E = 2, lateral area = perimeter × height, total surface area, volume = base area × height, nets; 1 litre = 1 000 cm³)
+
+### `m2-58-spot` · Lesson 58 · spot the error, level 3
+
+Prompt: Which statement about nets is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A net folds to make the solid.
+- ✅ A cube's net has six squares.
+- ✅ The net's area is the surface area.
+- ✅ A prism's net has two identical bases.
+- ❌ The net of a triangular prism has three triangles.  
+  _↳ It has two triangles and three rectangles._
+- ❌ The lateral rectangle's length is the prism's height.  
+  _↳ Its length is the base perimeter; its width is the height._
+- ❌ The area of the net is the volume of the prism.  
+  _↳ It is the surface area._
+
+
+Three generated variants:
+
+> Which statement about nets is wrong?
+
+- ◻️ A net folds to make the solid.
+- ✅ The area of the net is the volume of the prism.  
+  _↳ explanation: It is the surface area._
+- ◻️ The net's area is the surface area.
+- ◻️ A cube's net has six squares.
+
+Full working after a second miss:
+
+> The wrong statement is “The area of the net is the volume of the prism.”.  
+> It is the surface area.  
+
+> Which statement about nets is wrong?
+
+- ◻️ A net folds to make the solid.
+- ◻️ A prism's net has two identical bases.
+- ✅ The area of the net is the volume of the prism.  
+  _↳ explanation: It is the surface area._
+- ◻️ The net's area is the surface area.
+
+Full working after a second miss:
+
+> The wrong statement is “The area of the net is the volume of the prism.”.  
+> It is the surface area.  
+
+> Which statement about nets is wrong?
+
+- ◻️ The net's area is the surface area.
+- ◻️ A cube's net has six squares.
+- ✅ The lateral rectangle's length is the prism's height.  
+  _↳ explanation: Its length is the base perimeter; its width is the height._
+- ◻️ A prism's net has two identical bases.
+
+Full working after a second miss:
+
+> The wrong statement is “The lateral rectangle's length is the prism's height.”.  
+> Its length is the base perimeter; its width is the height.  
+
+Sources: prisms (Right prisms: vocabulary, faces/edges/vertices (n + 2, 3n, 2n), Euler's relation F + V − E = 2, lateral area = perimeter × height, total surface area, volume = base area × height, nets; 1 litre = 1 000 cm³)
+
+### `m2-59-disc` · Lesson 59 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is “number of pupils in a class” discrete? | It is counted and takes whole-number values. | It is a word. · It can be 32.5. · It is measured with a ruler. | It is a number. · You cannot have half a pupil. · It is counted. | Counted data are discrete. |
+| Why is “time to run 100 m” continuous? | It is measured and can take any value in a range. | It is counted. · It is a word. · It only takes whole numbers. | It is measured. · It is a number. · It can be 13.4 s. | Measured data are continuous. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is “time to run 100 m” continuous?
+
+- ◻️ It only takes whole numbers.  
+  _↳ feedback if chosen: It can be 13.4 s._
+- ✅ It is measured and can take any value in a range.
+- ◻️ It is counted.  
+  _↳ feedback if chosen: It is measured._
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+
+Full working after a second miss:
+
+> Measured data are continuous.  
+> So the answer is “It is measured and can take any value in a range.”.  
+
+> Why is “number of pupils in a class” discrete?
+
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+- ◻️ It can be 32.5.  
+  _↳ feedback if chosen: You cannot have half a pupil._
+- ✅ It is counted and takes whole-number values.
+- ◻️ It is measured with a ruler.  
+  _↳ feedback if chosen: It is counted._
+
+Full working after a second miss:
+
+> Counted data are discrete.  
+> So the answer is “It is counted and takes whole-number values.”.  
+
+> Why is “number of pupils in a class” discrete?
+
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+- ◻️ It is measured with a ruler.  
+  _↳ feedback if chosen: It is counted._
+- ◻️ It can be 32.5.  
+  _↳ feedback if chosen: You cannot have half a pupil._
+- ✅ It is counted and takes whole-number values.
+
+Full working after a second miss:
+
+> Counted data are discrete.  
+> So the answer is “It is counted and takes whole-number values.”.  
+
+Sources: data (Qualitative and quantitative (discrete, continuous) data; pictograms, bar charts, pie charts (angle = f ÷ total × 360°), line graphs; frequency tables and tallies)
+
+### `m2-59-collect` · Lesson 59 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What are raw data? | data as collected, before they are organised | data that are cooked · only qualitative data · data in a pie chart | That is not the meaning. · Raw data can be any kind. · A chart is organised. | They have not yet been sorted. |
+| Which is a way of collecting data? | a questionnaire | a pie chart · a mean · a protractor | That displays data. · That summarises data. · That measures angles. | Questions are asked to many people. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What are raw data?
+
+- ◻️ data that are cooked  
+  _↳ feedback if chosen: That is not the meaning._
+- ✅ data as collected, before they are organised
+- ◻️ data in a pie chart  
+  _↳ feedback if chosen: A chart is organised._
+- ◻️ only qualitative data  
+  _↳ feedback if chosen: Raw data can be any kind._
+
+Full working after a second miss:
+
+> They have not yet been sorted.  
+> So the answer is “data as collected, before they are organised”.  
+
+> Which is a way of collecting data?
+
+- ◻️ a protractor  
+  _↳ feedback if chosen: That measures angles._
+- ◻️ a pie chart  
+  _↳ feedback if chosen: That displays data._
+- ✅ a questionnaire
+- ◻️ a mean  
+  _↳ feedback if chosen: That summarises data._
+
+Full working after a second miss:
+
+> Questions are asked to many people.  
+> So the answer is “a questionnaire”.  
+
+> What are raw data?
+
+- ◻️ only qualitative data  
+  _↳ feedback if chosen: Raw data can be any kind._
+- ◻️ data in a pie chart  
+  _↳ feedback if chosen: A chart is organised._
+- ◻️ data that are cooked  
+  _↳ feedback if chosen: That is not the meaning._
+- ✅ data as collected, before they are organised
+
+Full working after a second miss:
+
+> They have not yet been sorted.  
+> So the answer is “data as collected, before they are organised”.  
+
+Sources: data (Qualitative and quantitative (discrete, continuous) data; pictograms, bar charts, pie charts (angle = f ÷ total × 360°), line graphs; frequency tables and tallies)
+
+### `m2-59-spot` · Lesson 59 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ Colour is qualitative.
+- ✅ Number of brothers is discrete.
+- ✅ Height is continuous.
+- ✅ A survey collects data.
+- ❌ Favourite food is quantitative.  
+  _↳ It is a word: qualitative._
+- ❌ Mass is discrete because it is a number.  
+  _↳ It is measured: continuous._
+- ❌ Number of goals is continuous.  
+  _↳ It is counted: discrete._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ Number of brothers is discrete.
+- ✅ Number of goals is continuous.  
+  _↳ explanation: It is counted: discrete._
+- ◻️ Height is continuous.
+- ◻️ Colour is qualitative.
+
+Full working after a second miss:
+
+> The wrong statement is “Number of goals is continuous.”.  
+> It is counted: discrete.  
+
+> Which statement is wrong?
+
+- ◻️ Colour is qualitative.
+- ◻️ A survey collects data.
+- ◻️ Number of brothers is discrete.
+- ✅ Favourite food is quantitative.  
+  _↳ explanation: It is a word: qualitative._
+
+Full working after a second miss:
+
+> The wrong statement is “Favourite food is quantitative.”.  
+> It is a word: qualitative.  
+
+> Which statement is wrong?
+
+- ◻️ Colour is qualitative.
+- ✅ Favourite food is quantitative.  
+  _↳ explanation: It is a word: qualitative._
+- ◻️ Number of brothers is discrete.
+- ◻️ Height is continuous.
+
+Full working after a second miss:
+
+> The wrong statement is “Favourite food is quantitative.”.  
+> It is a word: qualitative.  
+
+Sources: data (Qualitative and quantitative (discrete, continuous) data; pictograms, bar charts, pie charts (angle = f ÷ total × 360°), line graphs; frequency tables and tallies)
+
+### `m2-59-disc-card` · Lesson 59 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why is “number of pupils in a class” discrete? | It is counted and takes whole-number values. | It is a word. · It can be 32.5. · It is measured with a ruler. | It is a number. · You cannot have half a pupil. · It is counted. | Counted data are discrete. |
+| Why is “time to run 100 m” continuous? | It is measured and can take any value in a range. | It is counted. · It is a word. · It only takes whole numbers. | It is measured. · It is a number. · It can be 13.4 s. | Measured data are continuous. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why is “time to run 100 m” continuous?
+
+- ◻️ It only takes whole numbers.  
+  _↳ feedback if chosen: It can be 13.4 s._
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+- ✅ It is measured and can take any value in a range.
+- ◻️ It is counted.  
+  _↳ feedback if chosen: It is measured._
+
+Full working after a second miss:
+
+> Measured data are continuous.  
+> So the answer is “It is measured and can take any value in a range.”.  
+
+> Why is “time to run 100 m” continuous?
+
+- ◻️ It only takes whole numbers.  
+  _↳ feedback if chosen: It can be 13.4 s._
+- ✅ It is measured and can take any value in a range.
+- ◻️ It is counted.  
+  _↳ feedback if chosen: It is measured._
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+
+Full working after a second miss:
+
+> Measured data are continuous.  
+> So the answer is “It is measured and can take any value in a range.”.  
+
+> Why is “time to run 100 m” continuous?
+
+- ◻️ It is a word.  
+  _↳ feedback if chosen: It is a number._
+- ✅ It is measured and can take any value in a range.
+- ◻️ It only takes whole numbers.  
+  _↳ feedback if chosen: It can be 13.4 s._
+- ◻️ It is counted.  
+  _↳ feedback if chosen: It is measured._
+
+Full working after a second miss:
+
+> Measured data are continuous.  
+> So the answer is “It is measured and can take any value in a range.”.  
+
+Sources: data (Qualitative and quantitative (discrete, continuous) data; pictograms, bar charts, pie charts (angle = f ÷ total × 360°), line graphs; frequency tables and tallies)
+
+### `m2-60-choose` · Lesson 60 · multiple choice, level 3
+
+Prompt: Which chart is best to show {X.q}?
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| how the temperature changes during a day | a line graph | a pie chart · a pictogram · no chart at all | A pie shows parts of a whole. · A pictogram shows counts with symbols. · A chart helps. | A line graph shows change over time. |
+| what fraction of a class prefers each sport | a pie chart | a line graph · a table of contents · a map | A line graph shows change over time. · That is not a chart. · That is not a chart. | A pie chart shows parts of a whole. |
+| the number of pupils in each class, compared side by side | a bar chart | a line graph · a pie chart with no total · a net | There is no time sequence. · A pie needs a whole. · A net is for solids. | Bars compare frequencies. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which chart is best to show the number of pupils in each class, compared side by side?
+
+- ◻️ a pie chart with no total  
+  _↳ feedback if chosen: A pie needs a whole._
+- ✅ a bar chart
+- ◻️ a line graph  
+  _↳ feedback if chosen: There is no time sequence._
+- ◻️ a net  
+  _↳ feedback if chosen: A net is for solids._
+
+Full working after a second miss:
+
+> Bars compare frequencies.  
+> So the answer is “a bar chart”.  
+
+> Which chart is best to show how the temperature changes during a day?
+
+- ◻️ no chart at all  
+  _↳ feedback if chosen: A chart helps._
+- ✅ a line graph
+- ◻️ a pie chart  
+  _↳ feedback if chosen: A pie shows parts of a whole._
+- ◻️ a pictogram  
+  _↳ feedback if chosen: A pictogram shows counts with symbols._
+
+Full working after a second miss:
+
+> A line graph shows change over time.  
+> So the answer is “a line graph”.  
+
+> Which chart is best to show what fraction of a class prefers each sport?
+
+- ◻️ a table of contents  
+  _↳ feedback if chosen: That is not a chart._
+- ✅ a pie chart
+- ◻️ a line graph  
+  _↳ feedback if chosen: A line graph shows change over time._
+- ◻️ a map  
+  _↳ feedback if chosen: That is not a chart._
+
+Full working after a second miss:
+
+> A pie chart shows parts of a whole.  
+> So the answer is “a pie chart”.  
+
+Sources: data (Qualitative and quantitative (discrete, continuous) data; pictograms, bar charts, pie charts (angle = f ÷ total × 360°), line graphs; frequency tables and tallies)
+
+### `m2-64-vocab` · Lesson 64 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the apex of a pyramid? | the point where the lateral faces meet | the base · the middle of an edge · the bottom corner | The base is the bottom face. · That is where the slant height ends. · The apex is at the top. | All the triangles meet there. |
+| What is the slant height of a pyramid? | the height of a triangular face, from the apex to the middle of a base edge | the height from the apex straight down to the base · the length of a base edge · the perimeter of the base | That is the altitude. · That is a base edge. · That is a perimeter. | It runs along a face. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the apex of a pyramid?
+
+- ✅ the point where the lateral faces meet
+- ◻️ the middle of an edge  
+  _↳ feedback if chosen: That is where the slant height ends._
+- ◻️ the bottom corner  
+  _↳ feedback if chosen: The apex is at the top._
+- ◻️ the base  
+  _↳ feedback if chosen: The base is the bottom face._
+
+Full working after a second miss:
+
+> All the triangles meet there.  
+> So the answer is “the point where the lateral faces meet”.  
+
+> What is the apex of a pyramid?
+
+- ✅ the point where the lateral faces meet
+- ◻️ the base  
+  _↳ feedback if chosen: The base is the bottom face._
+- ◻️ the bottom corner  
+  _↳ feedback if chosen: The apex is at the top._
+- ◻️ the middle of an edge  
+  _↳ feedback if chosen: That is where the slant height ends._
+
+Full working after a second miss:
+
+> All the triangles meet there.  
+> So the answer is “the point where the lateral faces meet”.  
+
+> What is the slant height of a pyramid?
+
+- ◻️ the length of a base edge  
+  _↳ feedback if chosen: That is a base edge._
+- ✅ the height of a triangular face, from the apex to the middle of a base edge
+- ◻️ the perimeter of the base  
+  _↳ feedback if chosen: That is a perimeter._
+- ◻️ the height from the apex straight down to the base  
+  _↳ feedback if chosen: That is the altitude._
+
+Full working after a second miss:
+
+> It runs along a face.  
+> So the answer is “the height of a triangular face, from the apex to the middle of a base edge”.  
+
+Sources: pyramids (Regular pyramids: vocabulary (apex, altitude, slant height), n + 1 faces, 2n edges, n + 1 vertices; the regular tetrahedron; nets; area of the net of a square pyramid b² + 2bs)
+
+### `m2-64-spot` · Lesson 64 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A pyramid has one base.
+- ✅ Its lateral faces are triangles.
+- ✅ A square pyramid has 5 vertices.
+- ✅ The altitude goes from the apex to the base.
+- ❌ A pyramid has two identical bases.  
+  _↳ A prism has two bases; a pyramid has one._
+- ❌ A square pyramid has 12 edges.  
+  _↳ It has 8 edges._
+- ❌ The slant height is always shorter than the altitude.  
+  _↳ The slant height is longer._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ◻️ A pyramid has one base.
+- ◻️ A square pyramid has 5 vertices.
+- ◻️ The altitude goes from the apex to the base.
+- ✅ A pyramid has two identical bases.  
+  _↳ explanation: A prism has two bases; a pyramid has one._
+
+Full working after a second miss:
+
+> The wrong statement is “A pyramid has two identical bases.”.  
+> A prism has two bases; a pyramid has one.  
+
+> Which statement is wrong?
+
+- ◻️ The altitude goes from the apex to the base.
+- ◻️ A pyramid has one base.
+- ◻️ A square pyramid has 5 vertices.
+- ✅ A square pyramid has 12 edges.  
+  _↳ explanation: It has 8 edges._
+
+Full working after a second miss:
+
+> The wrong statement is “A square pyramid has 12 edges.”.  
+> It has 8 edges.  
+
+> Which statement is wrong?
+
+- ✅ The slant height is always shorter than the altitude.  
+  _↳ explanation: The slant height is longer._
+- ◻️ A pyramid has one base.
+- ◻️ Its lateral faces are triangles.
+- ◻️ A square pyramid has 5 vertices.
+
+Full working after a second miss:
+
+> The wrong statement is “The slant height is always shorter than the altitude.”.  
+> The slant height is longer.  
+
+Sources: pyramids (Regular pyramids: vocabulary (apex, altitude, slant height), n + 1 faces, 2n edges, n + 1 vertices; the regular tetrahedron; nets; area of the net of a square pyramid b² + 2bs)
+
+### `m2-64-vocab-card` · Lesson 64 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the apex of a pyramid? | the point where the lateral faces meet | the base · the middle of an edge · the bottom corner | The base is the bottom face. · That is where the slant height ends. · The apex is at the top. | All the triangles meet there. |
+| What is the slant height of a pyramid? | the height of a triangular face, from the apex to the middle of a base edge | the height from the apex straight down to the base · the length of a base edge · the perimeter of the base | That is the altitude. · That is a base edge. · That is a perimeter. | It runs along a face. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the apex of a pyramid?
+
+- ✅ the point where the lateral faces meet
+- ◻️ the middle of an edge  
+  _↳ feedback if chosen: That is where the slant height ends._
+- ◻️ the base  
+  _↳ feedback if chosen: The base is the bottom face._
+- ◻️ the bottom corner  
+  _↳ feedback if chosen: The apex is at the top._
+
+Full working after a second miss:
+
+> All the triangles meet there.  
+> So the answer is “the point where the lateral faces meet”.  
+
+> What is the apex of a pyramid?
+
+- ◻️ the middle of an edge  
+  _↳ feedback if chosen: That is where the slant height ends._
+- ◻️ the bottom corner  
+  _↳ feedback if chosen: The apex is at the top._
+- ◻️ the base  
+  _↳ feedback if chosen: The base is the bottom face._
+- ✅ the point where the lateral faces meet
+
+Full working after a second miss:
+
+> All the triangles meet there.  
+> So the answer is “the point where the lateral faces meet”.  
+
+> What is the apex of a pyramid?
+
+- ◻️ the base  
+  _↳ feedback if chosen: The base is the bottom face._
+- ✅ the point where the lateral faces meet
+- ◻️ the bottom corner  
+  _↳ feedback if chosen: The apex is at the top._
+- ◻️ the middle of an edge  
+  _↳ feedback if chosen: That is where the slant height ends._
+
+Full working after a second miss:
+
+> All the triangles meet there.  
+> So the answer is “the point where the lateral faces meet”.  
+
+Sources: pyramids (Regular pyramids: vocabulary (apex, altitude, slant height), n + 1 faces, 2n edges, n + 1 vertices; the regular tetrahedron; nets; area of the net of a square pyramid b² + 2bs)
+
+### `m2-65-what` · Lesson 65 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How many faces does a tetrahedron have? | four | three · five · six | It has a base too. · That is a square pyramid. · That is a cube. | “Tetra” means four. |
+| What shape are the faces of a regular tetrahedron? | equilateral triangles | squares · rectangles · pentagons | That is a cube. · Those are prism faces. · Those are not its faces. | Four identical equilateral triangles. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How many faces does a tetrahedron have?
+
+- ◻️ three  
+  _↳ feedback if chosen: It has a base too._
+- ✅ four
+- ◻️ six  
+  _↳ feedback if chosen: That is a cube._
+- ◻️ five  
+  _↳ feedback if chosen: That is a square pyramid._
+
+Full working after a second miss:
+
+> “Tetra” means four.  
+> So the answer is “four”.  
+
+> How many faces does a tetrahedron have?
+
+- ◻️ three  
+  _↳ feedback if chosen: It has a base too._
+- ✅ four
+- ◻️ six  
+  _↳ feedback if chosen: That is a cube._
+- ◻️ five  
+  _↳ feedback if chosen: That is a square pyramid._
+
+Full working after a second miss:
+
+> “Tetra” means four.  
+> So the answer is “four”.  
+
+> What shape are the faces of a regular tetrahedron?
+
+- ✅ equilateral triangles
+- ◻️ rectangles  
+  _↳ feedback if chosen: Those are prism faces._
+- ◻️ pentagons  
+  _↳ feedback if chosen: Those are not its faces._
+- ◻️ squares  
+  _↳ feedback if chosen: That is a cube._
+
+Full working after a second miss:
+
+> Four identical equilateral triangles.  
+> So the answer is “equilateral triangles”.  
+
+Sources: pyramids (Regular pyramids: vocabulary (apex, altitude, slant height), n + 1 faces, 2n edges, n + 1 vertices; the regular tetrahedron; nets; area of the net of a square pyramid b² + 2bs)
+
+### `m2-66-fold` · Lesson 66 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| When the net of a pyramid is folded, where do the tips of the triangles meet? | at the apex | at the centre of the base · at the middle of each edge · nowhere | They meet above the base. · They meet at one point. · They do meet. | The apex is the top point. |
+| What shape is the base in the net of a square pyramid? | a square | a triangle · a circle · a pentagon | The triangles are the lateral faces. · A pyramid has a polygon base. · Count the sides: four. | Square pyramid, square base. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What shape is the base in the net of a square pyramid?
+
+- ◻️ a pentagon  
+  _↳ feedback if chosen: Count the sides: four._
+- ◻️ a triangle  
+  _↳ feedback if chosen: The triangles are the lateral faces._
+- ✅ a square
+- ◻️ a circle  
+  _↳ feedback if chosen: A pyramid has a polygon base._
+
+Full working after a second miss:
+
+> Square pyramid, square base.  
+> So the answer is “a square”.  
+
+> When the net of a pyramid is folded, where do the tips of the triangles meet?
+
+- ◻️ at the middle of each edge  
+  _↳ feedback if chosen: They meet at one point._
+- ✅ at the apex
+- ◻️ at the centre of the base  
+  _↳ feedback if chosen: They meet above the base._
+- ◻️ nowhere  
+  _↳ feedback if chosen: They do meet._
+
+Full working after a second miss:
+
+> The apex is the top point.  
+> So the answer is “at the apex”.  
+
+> When the net of a pyramid is folded, where do the tips of the triangles meet?
+
+- ◻️ at the centre of the base  
+  _↳ feedback if chosen: They meet above the base._
+- ✅ at the apex
+- ◻️ at the middle of each edge  
+  _↳ feedback if chosen: They meet at one point._
+- ◻️ nowhere  
+  _↳ feedback if chosen: They do meet._
+
+Full working after a second miss:
+
+> The apex is the top point.  
+> So the answer is “at the apex”.  
+
+Sources: pyramids (Regular pyramids: vocabulary (apex, altitude, slant height), n + 1 faces, 2n edges, n + 1 vertices; the regular tetrahedron; nets; area of the net of a square pyramid b² + 2bs)
+
+### `m2-66-fold-card` · Lesson 66 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| When the net of a pyramid is folded, where do the tips of the triangles meet? | at the apex | at the centre of the base · at the middle of each edge · nowhere | They meet above the base. · They meet at one point. · They do meet. | The apex is the top point. |
+| What shape is the base in the net of a square pyramid? | a square | a triangle · a circle · a pentagon | The triangles are the lateral faces. · A pyramid has a polygon base. · Count the sides: four. | Square pyramid, square base. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> When the net of a pyramid is folded, where do the tips of the triangles meet?
+
+- ◻️ at the centre of the base  
+  _↳ feedback if chosen: They meet above the base._
+- ◻️ at the middle of each edge  
+  _↳ feedback if chosen: They meet at one point._
+- ✅ at the apex
+- ◻️ nowhere  
+  _↳ feedback if chosen: They do meet._
+
+Full working after a second miss:
+
+> The apex is the top point.  
+> So the answer is “at the apex”.  
+
+> What shape is the base in the net of a square pyramid?
+
+- ◻️ a circle  
+  _↳ feedback if chosen: A pyramid has a polygon base._
+- ◻️ a triangle  
+  _↳ feedback if chosen: The triangles are the lateral faces._
+- ◻️ a pentagon  
+  _↳ feedback if chosen: Count the sides: four._
+- ✅ a square
+
+Full working after a second miss:
+
+> Square pyramid, square base.  
+> So the answer is “a square”.  
+
+> When the net of a pyramid is folded, where do the tips of the triangles meet?
+
+- ◻️ nowhere  
+  _↳ feedback if chosen: They do meet._
+- ✅ at the apex
+- ◻️ at the middle of each edge  
+  _↳ feedback if chosen: They meet at one point._
+- ◻️ at the centre of the base  
+  _↳ feedback if chosen: They meet above the base._
+
+Full working after a second miss:
+
+> The apex is the top point.  
+> So the answer is “at the apex”.  
+
+Sources: pyramids (Regular pyramids: vocabulary (apex, altitude, slant height), n + 1 faces, 2n edges, n + 1 vertices; the regular tetrahedron; nets; area of the net of a square pyramid b² + 2bs)
+
+### `m2-67-what` · Lesson 67 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the radius of a sphere? | the distance from the centre to any point on the sphere | the distance around the sphere · the volume of the sphere · half the circumference | That is a circumference. · Volume is space. · That is not the radius. | Centre to surface. |
+| What is a great circle of a sphere? | a circle on the sphere with the same centre as the sphere | any small circle · the diameter · the radius | Small circles do not pass round the middle. · A diameter is a segment. · A radius is a segment. | Like the Equator. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the radius of a sphere?
+
+- ◻️ the volume of the sphere  
+  _↳ feedback if chosen: Volume is space._
+- ◻️ half the circumference  
+  _↳ feedback if chosen: That is not the radius._
+- ✅ the distance from the centre to any point on the sphere
+- ◻️ the distance around the sphere  
+  _↳ feedback if chosen: That is a circumference._
+
+Full working after a second miss:
+
+> Centre to surface.  
+> So the answer is “the distance from the centre to any point on the sphere”.  
+
+> What is a great circle of a sphere?
+
+- ◻️ the diameter  
+  _↳ feedback if chosen: A diameter is a segment._
+- ◻️ the radius  
+  _↳ feedback if chosen: A radius is a segment._
+- ◻️ any small circle  
+  _↳ feedback if chosen: Small circles do not pass round the middle._
+- ✅ a circle on the sphere with the same centre as the sphere
+
+Full working after a second miss:
+
+> Like the Equator.  
+> So the answer is “a circle on the sphere with the same centre as the sphere”.  
+
+> What is the radius of a sphere?
+
+- ◻️ the volume of the sphere  
+  _↳ feedback if chosen: Volume is space._
+- ◻️ the distance around the sphere  
+  _↳ feedback if chosen: That is a circumference._
+- ✅ the distance from the centre to any point on the sphere
+- ◻️ half the circumference  
+  _↳ feedback if chosen: That is not the radius._
+
+Full working after a second miss:
+
+> Centre to surface.  
+> So the answer is “the distance from the centre to any point on the sphere”.  
+
+Sources: spheres (Sphere and ball: centre, radius, diameter (d = 2r), great circle; surface area 4πr², volume (4/3)πr³ with π = 3.14)
+
+### `m2-67-ball` · Lesson 67 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the difference between a sphere and a ball (boule)? | A sphere is the surface; a ball is the solid including the inside. | There is no difference. · A ball is flat. · A sphere has corners. | They are different. · A ball is solid. · A sphere has no corners. | Surface versus solid. |
+| Which object is closest to a solid ball? | a marble | a pencil · a matchbox · a cone | It is a prism. · It is a cuboid. · It has a point. | A marble is a solid sphere. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the difference between a sphere and a ball (boule)?
+
+- ◻️ A sphere has corners.  
+  _↳ feedback if chosen: A sphere has no corners._
+- ✅ A sphere is the surface; a ball is the solid including the inside.
+- ◻️ A ball is flat.  
+  _↳ feedback if chosen: A ball is solid._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+
+Full working after a second miss:
+
+> Surface versus solid.  
+> So the answer is “A sphere is the surface; a ball is the solid including the inside.”.  
+
+> Which object is closest to a solid ball?
+
+- ✅ a marble
+- ◻️ a cone  
+  _↳ feedback if chosen: It has a point._
+- ◻️ a pencil  
+  _↳ feedback if chosen: It is a prism._
+- ◻️ a matchbox  
+  _↳ feedback if chosen: It is a cuboid._
+
+Full working after a second miss:
+
+> A marble is a solid sphere.  
+> So the answer is “a marble”.  
+
+> Which object is closest to a solid ball?
+
+- ◻️ a cone  
+  _↳ feedback if chosen: It has a point._
+- ◻️ a matchbox  
+  _↳ feedback if chosen: It is a cuboid._
+- ◻️ a pencil  
+  _↳ feedback if chosen: It is a prism._
+- ✅ a marble
+
+Full working after a second miss:
+
+> A marble is a solid sphere.  
+> So the answer is “a marble”.  
+
+Sources: spheres (Sphere and ball: centre, radius, diameter (d = 2r), great circle; surface area 4πr², volume (4/3)πr³ with π = 3.14)
+
+### `m2-67-spot` · Lesson 67 · spot the error, level 3
+
+Prompt: Which statement is wrong?
+
+Shows 3 correct and 1 wrong statement(s), drawn from:
+
+- ✅ A sphere has a centre.
+- ✅ The diameter is twice the radius.
+- ✅ A football is close to a sphere.
+- ✅ All points of a sphere are the same distance from its centre.
+- ❌ A sphere has six faces.  
+  _↳ A sphere has no flat faces._
+- ❌ The radius is twice the diameter.  
+  _↳ The diameter is twice the radius._
+- ❌ A great circle does not pass through the middle of the sphere.  
+  _↳ It has the same centre as the sphere._
+
+
+Three generated variants:
+
+> Which statement is wrong?
+
+- ✅ A sphere has six faces.  
+  _↳ explanation: A sphere has no flat faces._
+- ◻️ A sphere has a centre.
+- ◻️ The diameter is twice the radius.
+- ◻️ All points of a sphere are the same distance from its centre.
+
+Full working after a second miss:
+
+> The wrong statement is “A sphere has six faces.”.  
+> A sphere has no flat faces.  
+
+> Which statement is wrong?
+
+- ✅ A great circle does not pass through the middle of the sphere.  
+  _↳ explanation: It has the same centre as the sphere._
+- ◻️ A sphere has a centre.
+- ◻️ The diameter is twice the radius.
+- ◻️ A football is close to a sphere.
+
+Full working after a second miss:
+
+> The wrong statement is “A great circle does not pass through the middle of the sphere.”.  
+> It has the same centre as the sphere.  
+
+> Which statement is wrong?
+
+- ◻️ A sphere has a centre.
+- ◻️ A football is close to a sphere.
+- ◻️ All points of a sphere are the same distance from its centre.
+- ✅ The radius is twice the diameter.  
+  _↳ explanation: The diameter is twice the radius._
+
+Full working after a second miss:
+
+> The wrong statement is “The radius is twice the diameter.”.  
+> The diameter is twice the radius.  
+
+Sources: spheres (Sphere and ball: centre, radius, diameter (d = 2r), great circle; surface area 4πr², volume (4/3)πr³ with π = 3.14)
+
+### `m2-67-ball-card` · Lesson 67 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the difference between a sphere and a ball (boule)? | A sphere is the surface; a ball is the solid including the inside. | There is no difference. · A ball is flat. · A sphere has corners. | They are different. · A ball is solid. · A sphere has no corners. | Surface versus solid. |
+| Which object is closest to a solid ball? | a marble | a pencil · a matchbox · a cone | It is a prism. · It is a cuboid. · It has a point. | A marble is a solid sphere. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the difference between a sphere and a ball (boule)?
+
+- ✅ A sphere is the surface; a ball is the solid including the inside.
+- ◻️ A sphere has corners.  
+  _↳ feedback if chosen: A sphere has no corners._
+- ◻️ A ball is flat.  
+  _↳ feedback if chosen: A ball is solid._
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+
+Full working after a second miss:
+
+> Surface versus solid.  
+> So the answer is “A sphere is the surface; a ball is the solid including the inside.”.  
+
+> What is the difference between a sphere and a ball (boule)?
+
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ◻️ A sphere has corners.  
+  _↳ feedback if chosen: A sphere has no corners._
+- ◻️ A ball is flat.  
+  _↳ feedback if chosen: A ball is solid._
+- ✅ A sphere is the surface; a ball is the solid including the inside.
+
+Full working after a second miss:
+
+> Surface versus solid.  
+> So the answer is “A sphere is the surface; a ball is the solid including the inside.”.  
+
+> What is the difference between a sphere and a ball (boule)?
+
+- ◻️ There is no difference.  
+  _↳ feedback if chosen: They are different._
+- ◻️ A ball is flat.  
+  _↳ feedback if chosen: A ball is solid._
+- ✅ A sphere is the surface; a ball is the solid including the inside.
+- ◻️ A sphere has corners.  
+  _↳ feedback if chosen: A sphere has no corners._
+
+Full working after a second miss:
+
+> Surface versus solid.  
+> So the answer is “A sphere is the surface; a ball is the solid including the inside.”.  
+
+Sources: spheres (Sphere and ball: centre, radius, diameter (d = 2r), great circle; surface area 4πr², volume (4/3)πr³ with π = 3.14)
 

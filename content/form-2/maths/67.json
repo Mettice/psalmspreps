@@ -1,0 +1,413 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 67,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-67",
+   "name": "The sphere: centre, radius, diameter"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A sphere is the set of all points in space at the same distance from a fixed point called the centre. It is a round, hollow surface, like the skin of a ball.\nA ball (boule) is the solid sphere: the sphere and all the points inside it.\n• The radius r is the distance from the centre to any point on the sphere.\n• The diameter d is a segment through the centre joining two points of the sphere: d = 2r.\n• A great circle is a circle on the sphere whose centre is the centre of the sphere (like the Equator on the Earth).\nExamples: a football, an orange, the Earth (approximately), a marble.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": 22
+  },
+  "problem": "A football has a diameter of {d} cm. What is its radius?",
+  "steps": [
+   "The diameter is twice the radius: d = {2}r.",
+   "r = {d} ÷ {2} = {d / 2} cm."
+  ],
+  "answer": "{d / 2} cm",
+  "checks": [],
+  "figure": "sphereFig(d / 2)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c67-1",
+    "status": "draft",
+    "idea": "A sphere: all points at the same distance from the centre.",
+    "vars": {},
+    "example": [
+     "The skin of a football."
+    ],
+    "checks": [],
+    "figure": "sphereFig(5)",
+    "check": {
+     "ref": "m2-67-what"
+    }
+   },
+   {
+    "id": "c67-2",
+    "status": "draft",
+    "idea": "Diameter = {2} × radius.",
+    "vars": {},
+    "example": [
+     "r = {7} cm, d = {14} cm."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-67-diam"
+    }
+   },
+   {
+    "id": "c67-3",
+    "status": "draft",
+    "idea": "A ball (boule) is the solid sphere, including all the points inside.",
+    "vars": {},
+    "example": [
+     "A marble is a solid ball."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-67-ball-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "spheres"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "What is the difference between a sphere and a ball (boule)?",
+         "r": "A sphere is the surface; a ball is the solid including the inside.",
+         "w": [
+          "There is no difference.",
+          "A ball is flat.",
+          "A sphere has corners."
+         ],
+         "e": [
+          "They are different.",
+          "A ball is solid.",
+          "A sphere has no corners."
+         ],
+         "y": "Surface versus solid."
+        },
+        {
+         "q": "Which object is closest to a solid ball?",
+         "r": "a marble",
+         "w": [
+          "a pencil",
+          "a matchbox",
+          "a cone"
+         ],
+         "e": [
+          "It is a prism.",
+          "It is a cuboid.",
+          "It has a point."
+         ],
+         "y": "A marble is a solid sphere."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-67-what",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "spheres"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the radius of a sphere?",
+       "r": "the distance from the centre to any point on the sphere",
+       "w": [
+        "the distance around the sphere",
+        "the volume of the sphere",
+        "half the circumference"
+       ],
+       "e": [
+        "That is a circumference.",
+        "Volume is space.",
+        "That is not the radius."
+       ],
+       "y": "Centre to surface."
+      },
+      {
+       "q": "What is a great circle of a sphere?",
+       "r": "a circle on the sphere with the same centre as the sphere",
+       "w": [
+        "any small circle",
+        "the diameter",
+        "the radius"
+       ],
+       "e": [
+        "Small circles do not pass round the middle.",
+        "A diameter is a segment.",
+        "A radius is a segment."
+       ],
+       "y": "Like the Equator."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-67-diam",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spheres"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "g": "a radius",
+       "w": "diameter"
+      },
+      {
+       "g": "a diameter",
+       "w": "radius"
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      20,
+      22
+     ]
+    }
+   },
+   "prompt": "A sphere has {X.g} of {v} cm. What is its {X.w}?",
+   "answer": "X.w == 'diameter' ? 2 * v : v / 2",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "X.w == 'diameter' ? v / 2 : 2 * v",
+     "explain": "Diameter = {2} × radius; radius = diameter ÷ {2}."
+    }
+   ],
+   "solution": [
+    "The diameter is twice the radius.",
+    "So the {X.w} is {answer} cm."
+   ],
+   "unit": "cm",
+   "figure": "sphereFig(X.w == 'diameter' ? v : v / 2)"
+  },
+  {
+   "id": "m2-67-ball",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "spheres"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the difference between a sphere and a ball (boule)?",
+       "r": "A sphere is the surface; a ball is the solid including the inside.",
+       "w": [
+        "There is no difference.",
+        "A ball is flat.",
+        "A sphere has corners."
+       ],
+       "e": [
+        "They are different.",
+        "A ball is solid.",
+        "A sphere has no corners."
+       ],
+       "y": "Surface versus solid."
+      },
+      {
+       "q": "Which object is closest to a solid ball?",
+       "r": "a marble",
+       "w": [
+        "a pencil",
+        "a matchbox",
+        "a cone"
+       ],
+       "e": [
+        "It is a prism.",
+        "It is a cuboid.",
+        "It has a point."
+       ],
+       "y": "A marble is a solid sphere."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-67-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "spheres"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "A sphere has a centre.",
+      "truth": "true"
+     },
+     {
+      "text": "The diameter is twice the radius.",
+      "truth": "true"
+     },
+     {
+      "text": "A football is close to a sphere.",
+      "truth": "true"
+     },
+     {
+      "text": "All points of a sphere are the same distance from its centre.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A sphere has six faces.",
+      "truth": "false",
+      "explain": "A sphere has no flat faces."
+     },
+     {
+      "text": "The radius is twice the diameter.",
+      "truth": "false",
+      "explain": "The diameter is twice the radius."
+     },
+     {
+      "text": "A great circle does not pass through the middle of the sphere.",
+      "truth": "false",
+      "explain": "It has the same centre as the sphere."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

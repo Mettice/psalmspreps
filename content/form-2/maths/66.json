@@ -1,0 +1,359 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 66,
+ "language": "en",
+ "prerequisites": [
+  64,
+  58
+ ],
+ "skills": [
+  {
+   "id": "m2-66",
+   "name": "Net of a pyramid"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The net of a pyramid is made of its base and its triangular lateral faces, each attached to one side of the base.\n• Square pyramid: a square with an isosceles triangle on each side (like a star with four points).\n• Triangular pyramid (tetrahedron): a triangle with a triangle on each side.\nWhen the net is folded, the tips of the triangles meet at the apex.\nThe area of the net is the total surface area of the pyramid.\nFor a square pyramid with base side b and slant height s: total area = b² + 4 × ½ × b × s = b² + 2bs.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 6,
+   "s": 5
+  },
+  "problem": "A square pyramid has base side {b} cm and slant height {s} cm. Find the area of its net.",
+  "steps": [
+   "Base: {b} × {b} = {b * b} cm². Each triangle: ½ × {b} × {s} = {b * s / 2} cm².",
+   "Total: {b * b} + {4} × {b * s / 2} = {sqPyramidArea(b, s)} cm²."
+  ],
+  "answer": "{sqPyramidArea(b, s)} cm²",
+  "checks": [],
+  "figure": "pyramidFig(4)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c66-1",
+    "status": "draft",
+    "idea": "A pyramid's net: the base with a triangle on each side.",
+    "vars": {},
+    "example": [
+     "Square base: four triangles."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-66-parts"
+    }
+   },
+   {
+    "id": "c66-2",
+    "status": "draft",
+    "idea": "When folded, the tips of the triangles meet at the apex.",
+    "vars": {},
+    "example": [
+     "They form the lateral faces."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-66-fold-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "pyramids"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "When the net of a pyramid is folded, where do the tips of the triangles meet?",
+         "r": "at the apex",
+         "w": [
+          "at the centre of the base",
+          "at the middle of each edge",
+          "nowhere"
+         ],
+         "e": [
+          "They meet above the base.",
+          "They meet at one point.",
+          "They do meet."
+         ],
+         "y": "The apex is the top point."
+        },
+        {
+         "q": "What shape is the base in the net of a square pyramid?",
+         "r": "a square",
+         "w": [
+          "a triangle",
+          "a circle",
+          "a pentagon"
+         ],
+         "e": [
+          "The triangles are the lateral faces.",
+          "A pyramid has a polygon base.",
+          "Count the sides: four."
+         ],
+         "y": "Square pyramid, square base."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c66-3",
+    "status": "draft",
+    "idea": "Area of the net of a square pyramid = b² + {4} × ½ × b × s.",
+    "vars": {},
+    "example": [
+     "b = {4}, s = {5}: {16} + {40} = {56} cm²."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-66-area-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "pyramids"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        2,
+        12
+       ]
+      },
+      "s": {
+       "int": [
+        3,
+        15
+       ]
+      }
+     },
+     "prompt": "A square pyramid has base side {b} cm and slant height {s} cm. Find the area of its net.",
+     "answer": "sqPyramidArea(b, s)",
+     "misconceptions": [
+      {
+       "id": "nobase",
+       "wrong": "2 * b * s",
+       "explain": "Add the square base too."
+      },
+      {
+       "id": "nohalf",
+       "wrong": "b * b + 4 * b * s",
+       "explain": "Each triangle is ½ × base × height."
+      }
+     ],
+     "solution": [
+      "Base: {b}² = {b * b} cm². Four triangles: {4} × ½ × {b} × {s} = {2 * b * s} cm².",
+      "Total: {b * b} + {2 * b * s} = {answer} cm²."
+     ],
+     "where": "s > b / 2",
+     "unit": "cm²",
+     "figure": "pyramidFig(4)"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-66-parts",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   },
+   "prompt": "How many shapes are in the net of a {baseName(n, 'pyramid')} pyramid?",
+   "answer": "pyramidFaces(n)",
+   "misconceptions": [
+    {
+     "id": "tri",
+     "wrong": "n",
+     "explain": "Count the base too."
+    },
+    {
+     "id": "prism",
+     "wrong": "prismFaces(n)",
+     "explain": "A pyramid has one base, not two."
+    }
+   ],
+   "solution": [
+    "The base and one triangle on each of its {n} sides.",
+    "{1} + {n} = {answer}."
+   ],
+   "figure": "pyramidFig(n)"
+  },
+  {
+   "id": "m2-66-fold",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "When the net of a pyramid is folded, where do the tips of the triangles meet?",
+       "r": "at the apex",
+       "w": [
+        "at the centre of the base",
+        "at the middle of each edge",
+        "nowhere"
+       ],
+       "e": [
+        "They meet above the base.",
+        "They meet at one point.",
+        "They do meet."
+       ],
+       "y": "The apex is the top point."
+      },
+      {
+       "q": "What shape is the base in the net of a square pyramid?",
+       "r": "a square",
+       "w": [
+        "a triangle",
+        "a circle",
+        "a pentagon"
+       ],
+       "e": [
+        "The triangles are the lateral faces.",
+        "A pyramid has a polygon base.",
+        "Count the sides: four."
+       ],
+       "y": "Square pyramid, square base."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-66-area",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "pyramids"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "s": {
+     "int": [
+      3,
+      15
+     ]
+    }
+   },
+   "prompt": "A square pyramid has base side {b} cm and slant height {s} cm. Find the area of its net.",
+   "answer": "sqPyramidArea(b, s)",
+   "misconceptions": [
+    {
+     "id": "nobase",
+     "wrong": "2 * b * s",
+     "explain": "Add the square base too."
+    },
+    {
+     "id": "nohalf",
+     "wrong": "b * b + 4 * b * s",
+     "explain": "Each triangle is ½ × base × height."
+    }
+   ],
+   "solution": [
+    "Base: {b}² = {b * b} cm². Four triangles: {4} × ½ × {b} × {s} = {2 * b * s} cm².",
+    "Total: {b * b} + {2 * b * s} = {answer} cm²."
+   ],
+   "where": "s > b / 2",
+   "unit": "cm²",
+   "figure": "pyramidFig(4)"
+  }
+ ]
+}

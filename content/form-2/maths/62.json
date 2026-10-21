@@ -1,0 +1,351 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 62,
+ "language": "en",
+ "prerequisites": [
+  61
+ ],
+ "skills": [
+  {
+   "id": "m2-62",
+   "name": "Mode, mean and median of raw data"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Measures of central tendency give one typical value of the data.\n• Mode: the value that occurs most often (there may be no mode, or more than one).\n• Mean: the sum of the values ÷ the number of values.\n• Median: the middle value when the data are arranged in order. If there is an even number of values, the median is halfway between the two middle values.\nExample: 3, 7, 2, 7, 6 → in order 2, 3, 6, 7, 7: mode 7; mean (3 + 7 + 2 + 7 + 6) ÷ 5 = 25 ÷ 5 = 5; median 6.\nThe range (largest − smallest) shows how spread out the data are.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": 7,
+   "c": 2,
+   "d": 7,
+   "e": 6
+  },
+  "problem": "Find the mode, mean and median of {a}, {b}, {c}, {d}, {e}.",
+  "steps": [
+   "In order: {listStr(sorted([a, b, c, d, e]))}. Mode: {modeOf([a, b, c, d, e])}.",
+   "Mean: {sum([a, b, c, d, e])} ÷ {5} = {meanOf([a, b, c, d, e])}. Median: the middle value, {medianOf([a, b, c, d, e])}."
+  ],
+  "answer": "mode {modeOf([a, b, c, d, e])}, mean {meanOf([a, b, c, d, e])}, median {medianOf([a, b, c, d, e])}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c62-1",
+    "status": "draft",
+    "idea": "The mode is the value that occurs most often.",
+    "vars": {},
+    "example": [
+     "{4}, {5}, {5}, {6}: mode {5}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-62-mode"
+    }
+   },
+   {
+    "id": "c62-2",
+    "status": "draft",
+    "idea": "Mean = sum of the values ÷ number of values.",
+    "vars": {},
+    "example": [
+     "({2} + {4} + {9}) ÷ {3} = {5}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-62-mean-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "averages"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        20
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        20
+       ]
+      },
+      "c": {
+       "int": [
+        2,
+        20
+       ]
+      },
+      "d": {
+       "int": [
+        2,
+        20
+       ]
+      },
+      "e": {
+       "int": [
+        2,
+        20
+       ]
+      }
+     },
+     "prompt": "Find the mean of {listStr([a, b, c, d, e])}.",
+     "answer": "meanOf([a, b, c, d, e])",
+     "misconceptions": [
+      {
+       "id": "sum",
+       "wrong": "sum([a, b, c, d, e])",
+       "explain": "Divide the sum by the number of values ({5})."
+      }
+     ],
+     "solution": [
+      "Sum: {sum([a, b, c, d, e])}.",
+      "{sum([a, b, c, d, e])} ÷ {5} = {answer}."
+     ],
+     "where": "sum([a, b, c, d, e]) % 5 == 0"
+    }
+   },
+   {
+    "id": "c62-3",
+    "status": "draft",
+    "idea": "Median: the middle value of the ordered data.",
+    "vars": {},
+    "example": [
+     "{1}, {4}, {8}: median {4}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-62-median"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-62-mode",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "averages"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "e": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Find the mode of these marks: {listStr([a, b, c, d, e])}.",
+   "answer": "modeOf([a, b, c, d, e])",
+   "misconceptions": [
+    {
+     "id": "med",
+     "wrong": "medianOf([a, b, c, d, e])",
+     "explain": "That is the median; the mode is the most frequent value.",
+     "when": "medianOf([a, b, c, d, e]) != modeOf([a, b, c, d, e])"
+    }
+   ],
+   "solution": [
+    "Count how often each value appears.",
+    "The most frequent is {answer}."
+   ],
+   "where": "modeOf([a, b, c, d, e]) != 'none'"
+  },
+  {
+   "id": "m2-62-mean",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "averages"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "d": {
+     "int": [
+      2,
+      20
+     ]
+    },
+    "e": {
+     "int": [
+      2,
+      20
+     ]
+    }
+   },
+   "prompt": "Find the mean of {listStr([a, b, c, d, e])}.",
+   "answer": "meanOf([a, b, c, d, e])",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "sum([a, b, c, d, e])",
+     "explain": "Divide the sum by the number of values ({5})."
+    }
+   ],
+   "solution": [
+    "Sum: {sum([a, b, c, d, e])}.",
+    "{sum([a, b, c, d, e])} ÷ {5} = {answer}."
+   ],
+   "where": "sum([a, b, c, d, e]) % 5 == 0"
+  },
+  {
+   "id": "m2-62-median",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "averages"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      30
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      30
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      30
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      30
+     ]
+    },
+    "e": {
+     "int": [
+      1,
+      30
+     ]
+    }
+   },
+   "prompt": "Find the median of {listStr([a, b, c, d, e])}.",
+   "answer": "medianOf([a, b, c, d, e])",
+   "misconceptions": [
+    {
+     "id": "unsorted",
+     "wrong": "c",
+     "explain": "Put the values in order first.",
+     "when": "c != medianOf([a, b, c, d, e])"
+    }
+   ],
+   "solution": [
+    "In order: {listStr(sorted([a, b, c, d, e]))}.",
+    "The middle (third) value is {answer}."
+   ],
+   "where": "distinct([a, b, c, d, e])"
+  },
+  {
+   "id": "m2-62-even",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "averages"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      20
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      20
+     ]
+    }
+   },
+   "prompt": "Find the median of {listStr([a, b, c, d])}.",
+   "answer": "medianOf([a, b, c, d])",
+   "misconceptions": [
+    {
+     "id": "mean",
+     "wrong": "meanOf([a, b, c, d])",
+     "explain": "That is the mean; the median is the middle of the ordered values.",
+     "when": "meanOf([a, b, c, d]) != medianOf([a, b, c, d])"
+    }
+   ],
+   "solution": [
+    "In order: {listStr(sorted([a, b, c, d]))}.",
+    "Halfway between the two middle values: {answer}."
+   ],
+   "where": "distinct([a, b, c, d])"
+  }
+ ]
+}

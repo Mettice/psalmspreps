@@ -1,0 +1,262 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 68,
+ "language": "en",
+ "prerequisites": [
+  67
+ ],
+ "skills": [
+  {
+   "id": "m2-68",
+   "name": "Surface area and volume of a sphere"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For a sphere of radius r (take π = 3.14):\n• surface area A = 4πr²;\n• volume of the ball V = (4/3)πr³.\nExample: r = 3 cm: A = 4 × 3.14 × 9 = 113.04 cm²; V = 4 × 3.14 × 27 ÷ 3 = 113.04 cm³.\nIf you know the diameter, halve it first to get the radius.\nUnits: area in cm² (or m²); volume in cm³ (or m³).",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "r": 5
+  },
+  "problem": "Find the surface area of a sphere of radius {r} cm. Take π = {3.14}.",
+  "steps": [
+   "A = {4} × π × r² = {4} × {3.14} × {r * r}.",
+   "= {sphereArea(r)} cm²."
+  ],
+  "answer": "{sphereArea(r)} cm²",
+  "checks": [],
+  "figure": "sphereFig(r)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c68-1",
+    "status": "draft",
+    "idea": "Surface area of a sphere = {4}πr².",
+    "vars": {},
+    "example": [
+     "r = {5}: {4} × {3.14} × {25} = {314} cm²."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-68-area"
+    }
+   },
+   {
+    "id": "c68-2",
+    "status": "draft",
+    "idea": "Volume of a ball = ({4}/{3})πr³.",
+    "vars": {},
+    "example": [
+     "r = {3}: {4} × {3.14} × {27} ÷ {3} = {113.04} cm³."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-68-vol-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "spheres"
+     ],
+     "vars": {
+      "r": {
+       "pick": [
+        3,
+        6,
+        9
+       ]
+      }
+     },
+     "prompt": "Find the volume of a ball of radius {r} cm. Take π = 3.14.",
+     "answer": "sphereVolume(r)",
+     "misconceptions": [
+      {
+       "id": "area",
+       "wrong": "sphereArea(r)",
+       "explain": "That is the surface area; volume uses r³ and ({4}/{3})."
+      },
+      {
+       "id": "no3",
+       "wrong": "dec(4 * 3.14 * r * r * r)",
+       "explain": "Divide by {3} too."
+      }
+     ],
+     "solution": [
+      "V = ({4}/{3}) × {3.14} × {r}³.",
+      "= {4} × {3.14} × {r * r * r} ÷ {3} = {answer} cm³."
+     ],
+     "unit": "cm³",
+     "figure": "sphereFig(r)"
+    }
+   },
+   {
+    "id": "c68-3",
+    "status": "draft",
+    "idea": "If you know the diameter, halve it to get the radius.",
+    "vars": {},
+    "example": [
+     "d = {10}, so r = {5}."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-68-diam-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "spheres"
+     ],
+     "vars": {
+      "d": {
+       "pick": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        20
+       ]
+      }
+     },
+     "prompt": "A ball has a diameter of {d} cm. Find its surface area. Take π = 3.14.",
+     "answer": "sphereArea(d / 2)",
+     "misconceptions": [
+      {
+       "id": "diam",
+       "wrong": "sphereArea(d)",
+       "explain": "Use the radius, half the diameter."
+      }
+     ],
+     "solution": [
+      "Radius = {d} ÷ {2} = {d / 2} cm.",
+      "A = {4} × {3.14} × {d / 2}² = {answer} cm²."
+     ],
+     "unit": "cm²",
+     "figure": "sphereFig(d / 2)"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-68-area",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "spheres"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      1,
+      10
+     ]
+    }
+   },
+   "prompt": "Find the surface area of a sphere of radius {r} cm. Take π = 3.14.",
+   "answer": "sphereArea(r)",
+   "misconceptions": [
+    {
+     "id": "no4",
+     "wrong": "dec(3.14 * r * r)",
+     "explain": "That is the area of a circle; a sphere's surface is {4}πr²."
+    },
+    {
+     "id": "2r",
+     "wrong": "dec(4 * 3.14 * 2 * r)",
+     "explain": "Square the radius: r² = r × r."
+    }
+   ],
+   "solution": [
+    "A = {4} × {3.14} × {r}².",
+    "= {4} × {3.14} × {r * r} = {answer} cm²."
+   ],
+   "unit": "cm²",
+   "figure": "sphereFig(r)"
+  },
+  {
+   "id": "m2-68-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "spheres"
+   ],
+   "vars": {
+    "r": {
+     "pick": [
+      3,
+      6,
+      9
+     ]
+    }
+   },
+   "prompt": "Find the volume of a ball of radius {r} cm. Take π = 3.14.",
+   "answer": "sphereVolume(r)",
+   "misconceptions": [
+    {
+     "id": "area",
+     "wrong": "sphereArea(r)",
+     "explain": "That is the surface area; volume uses r³ and ({4}/{3})."
+    },
+    {
+     "id": "no3",
+     "wrong": "dec(4 * 3.14 * r * r * r)",
+     "explain": "Divide by {3} too."
+    }
+   ],
+   "solution": [
+    "V = ({4}/{3}) × {3.14} × {r}³.",
+    "= {4} × {3.14} × {r * r * r} ÷ {3} = {answer} cm³."
+   ],
+   "unit": "cm³",
+   "figure": "sphereFig(r)"
+  },
+  {
+   "id": "m2-68-diam",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "spheres"
+   ],
+   "vars": {
+    "d": {
+     "pick": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      20
+     ]
+    }
+   },
+   "prompt": "A ball has a diameter of {d} cm. Find its surface area. Take π = 3.14.",
+   "answer": "sphereArea(d / 2)",
+   "misconceptions": [
+    {
+     "id": "diam",
+     "wrong": "sphereArea(d)",
+     "explain": "Use the radius, half the diameter."
+    }
+   ],
+   "solution": [
+    "Radius = {d} ÷ {2} = {d / 2} cm.",
+    "A = {4} × {3.14} × {d / 2}² = {answer} cm²."
+   ],
+   "unit": "cm²",
+   "figure": "sphereFig(d / 2)"
+  }
+ ]
+}

@@ -1,145 +1,170 @@
 {
-  "_note": "Sources for Form 2 Maths (Batch M2-1, Term 1). Computed answers follow the rules named here; 'checked' says how far each rule was verified.",
-  "integers": {
-    "ref": "Standard rules for operations on integers (the set ℤ), as in Form 2 mathematics textbooks",
-    "supports": "Order on the number line; adding with the same or different signs; subtracting as adding the opposite; signs of products and quotients; multiplication and division before addition and subtraction.",
-    "checked": "Standard result; the computed answers are checked by code. Not externally sourced: compare with the pupil's textbook."
-  },
-  "powers": {
-    "ref": "Definition of a whole number power (base, index or exponent)",
-    "supports": "aⁿ is a multiplied by itself n times; a negative base with an even index gives a positive number, with an odd index a negative number; 10ⁿ has n zeros.",
-    "checked": "Standard definition; the values are computed by code."
-  },
-  "laws-of-indices": {
-    "ref": "Laws of indices for powers of the same base",
-    "supports": "aᵐ × aⁿ = aᵐ⁺ⁿ; aᵐ ÷ aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; a⁰ = 1 for a ≠ 0; the laws need the same base.",
-    "checked": "Standard result; the indices are computed by code."
-  },
-  "primes": {
-    "ref": "Definition of prime and composite numbers; the fundamental theorem of arithmetic (unique prime factorisation)",
-    "supports": "A prime has exactly two factors; 1 is not prime; 2 is the only even prime; every whole number above 1 has one prime factorisation.",
-    "checked": "Standard result; primality and factorisations are computed by code (src/engine/lib/maths2.js, tested)."
-  },
-  "hcf-lcm": {
-    "ref": "Definitions of the highest common factor (HCF, also highest common divisor) and lowest common multiple (LCM); the prime-factor method; HCF × LCM = a × b for two numbers",
-    "supports": "HCF: largest number dividing both; LCM: smallest number in both times tables; with prime factors, the lowest powers of the common primes (HCF) and the highest powers of all primes (LCM). Which situations need the HCF or the LCM is an authored judgement.",
-    "checked": "Standard result; values computed by code (hcf, lcm in src/engine/lib/maths2.js, tested). The HCF/LCM sorting card is authored: please check the wording."
-  },
-  "roots": {
-    "ref": "Definitions of square roots and cube roots of whole numbers",
-    "supports": "√n² = n and ∛n³ = n for whole numbers n; with prime factors, halve the indices (square root) or divide them by three (cube root); a number between two squares has a square root between their roots.",
-    "checked": "Standard result; values computed by code."
-  },
-  "sequences": {
-    "ref": "Arithmetic sequences (common difference) and sequences that multiply by a common ratio",
-    "supports": "Next term = last term + d; term n = first term + (n − 1) × d; next term of a multiplying sequence = last term × r.",
-    "checked": "Standard result; values computed by code."
-  },
-  "triangle-inequality": {
-    "ref": "The triangle inequality (Euclid, Elements I.20)",
-    "supports": "In a triangle each side is less than the sum of the other two; equality means the three points are on one line; the third side lies strictly between the difference and the sum of the other two.",
-    "checked": "Standard result; the tests are computed by code (triangleOk). The statements about the equal case are authored."
-  },
-  "segment": {
-    "ref": "Notation used in Cameroonian mathematics (French-influenced), as in Form 1: (AB) line, [AB) half line, [AB] segment, AB length; midpoint; a point M is on [AB] exactly when AM + MB = AB",
-    "supports": "Which brackets name which figure; the midpoint halves the length; the parts of a segment add up to the whole.",
-    "checked": "Notation as approved for Form 1 (line-notation, TR-M); compare with the pupil's exercise book. Lengths computed by code."
-  },
-  "perpendicular-bisector": {
-    "ref": "Definition and ruler-and-compasses construction of the perpendicular bisector (mediator) of a segment; its characteristic property: the points equidistant from the end points",
-    "supports": "Through the midpoint and perpendicular; compass opening more than half the segment, same opening from both ends; PA = PB exactly when P is on the perpendicular bisector.",
-    "checked": "Standard result. The construction steps and the statement pools are authored: please check them against the textbook."
-  },
-  "coordinates": {
-    "ref": "Cartesian coordinates in the plane: x-axis and y-axis, origin O(0, 0), ordered pair (abscissa, ordinate)",
-    "supports": "The first coordinate (abscissa) is read along the x-axis, the second (ordinate) along the y-axis; points on the x-axis have ordinate 0 and on the y-axis abscissa 0; moving right/left changes the abscissa, up/down the ordinate.",
-    "checked": "Standard definitions; the drawings and answers are computed by code (coordPlane). The vocabulary pool is authored."
-  },
-  "algebra-language": {
-    "ref": "Conventions for writing algebraic expressions (number before letter, no × sign, 1x written x) and the vocabulary variable, term, coefficient, constant term",
-    "supports": "Translating words into expressions; terms carry the sign in front of them; the coefficient of x is 1 and of −x is −1.",
-    "checked": "Standard conventions; expressions are built by code (poly, mono). Please check the wording of the phrases against the textbook."
-  },
-  "like-terms": {
-    "ref": "Definition of like terms (same letters with the same powers)",
-    "supports": "Like terms differ only in their coefficient; ab = ba; x and x² are unlike; like terms are added by adding their coefficients.",
-    "checked": "Standard result; sums computed by code."
-  },
-  "simplify": {
-    "ref": "Simplifying expressions by collecting like terms, and multiplying monomials",
-    "supports": "Collect each kind of like term with its sign; multiply numbers then letters; a × a = a².",
-    "checked": "Standard result; results computed by code."
-  },
-  "substitution": {
-    "ref": "Substituting numbers for letters in an expression, with the order of operations (powers, then × and ÷, then + and −)",
-    "supports": "Negative values go in brackets; letters side by side are multiplied; kx² = k × x².",
-    "checked": "Standard rule; values computed by code."
-  },
-  "expansion": {
-    "ref": "The distributive law a(b + c) = ab + ac",
-    "supports": "Every term inside is multiplied by the term outside; a negative factor changes every sign; x × x = x².",
-    "checked": "Standard result; expansions computed by code (bracket, poly)."
-  },
-  "equations": {
-    "ref": "Solving linear equations in one unknown by doing the same operation to both sides",
-    "supports": "Undo + and − first, then × and ÷; check by substituting.",
-    "checked": "Standard method; every equation is built from its solution by code, so the answer is exact."
-  },
-  "inequalities": {
-    "ref": "The inequality signs <, >, ≤, ≥; solving linear inequalities; showing them on a number line (open circle for < and >, filled for ≤ and ≥)",
-    "supports": "Adding, subtracting, and multiplying or dividing by a positive number keep the sign; multiplying or dividing by a negative number reverses it.",
-    "checked": "Standard result; solutions and drawings computed by code (holds, ineqLine). The phrases “at least”, “at most”, “more than”, “fewer than” are authored."
-  },
-  "angles": {
-    "ref": "Angles on intersecting lines; complementary and supplementary angles; corresponding, alternate and co-interior angles with parallel lines",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "triangles": {
-    "ref": "Angle sum of a triangle, exterior angle, special lines and their meeting points, isosceles/equilateral/right-angled triangles, Pythagoras’ theorem and its converse (integral triples), area ½bh",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "fractions": {
-    "ref": "The four operations on fractions, simplest form, mixed numbers",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "estimation": {
-    "ref": "Rounding to the nearest 10/100/1000 and to decimal places; estimating by one significant figure",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "significant-figures": {
-    "ref": "Counting and rounding to significant figures",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "decimals": {
-    "ref": "Operations with decimals",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "real-numbers": {
-    "ref": "Square roots, rational and irrational numbers, ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ, simplifying √(a²b)",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "intervals": {
-    "ref": "Interval notation (closed, open, half-open, infinite) and inequalities; written with [ ) brackets (TR-N20)",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "proportion": {
-    "ref": "Direct and inverse proportion, unitary method",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "money": {
-    "ref": "Profit and loss, discount, simple and compound interest (up to two years), amount, currency exchange (rates given in the question; the euro peg about 656 FCFA, TR-N22)",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "polygons": {
-    "ref": "Names of polygons, angle sum (n − 2) × 180°, regular polygons, properties of parallelograms, areas of parallelogram and trapezium",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "symmetry": {
-    "ref": "Line and point symmetry; reflections and half turns on a grid; what symmetry conserves",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  },
-  "circles": {
-    "ref": "Circumscribed circle (circumcentre; midpoint of the hypotenuse) and the relative positions of two circles",
-    "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
-  }
+ "_note": "Sources for Form 2 Maths (Batches M2-1, M2-2 and M2-3, Terms 1–3). Computed answers follow the rules named here; 'checked' says how far each rule was verified.",
+ "integers": {
+  "ref": "Standard rules for operations on integers (the set ℤ), as in Form 2 mathematics textbooks",
+  "supports": "Order on the number line; adding with the same or different signs; subtracting as adding the opposite; signs of products and quotients; multiplication and division before addition and subtraction.",
+  "checked": "Standard result; the computed answers are checked by code. Not externally sourced: compare with the pupil's textbook."
+ },
+ "powers": {
+  "ref": "Definition of a whole number power (base, index or exponent)",
+  "supports": "aⁿ is a multiplied by itself n times; a negative base with an even index gives a positive number, with an odd index a negative number; 10ⁿ has n zeros.",
+  "checked": "Standard definition; the values are computed by code."
+ },
+ "laws-of-indices": {
+  "ref": "Laws of indices for powers of the same base",
+  "supports": "aᵐ × aⁿ = aᵐ⁺ⁿ; aᵐ ÷ aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; a⁰ = 1 for a ≠ 0; the laws need the same base.",
+  "checked": "Standard result; the indices are computed by code."
+ },
+ "primes": {
+  "ref": "Definition of prime and composite numbers; the fundamental theorem of arithmetic (unique prime factorisation)",
+  "supports": "A prime has exactly two factors; 1 is not prime; 2 is the only even prime; every whole number above 1 has one prime factorisation.",
+  "checked": "Standard result; primality and factorisations are computed by code (src/engine/lib/maths2.js, tested)."
+ },
+ "hcf-lcm": {
+  "ref": "Definitions of the highest common factor (HCF, also highest common divisor) and lowest common multiple (LCM); the prime-factor method; HCF × LCM = a × b for two numbers",
+  "supports": "HCF: largest number dividing both; LCM: smallest number in both times tables; with prime factors, the lowest powers of the common primes (HCF) and the highest powers of all primes (LCM). Which situations need the HCF or the LCM is an authored judgement.",
+  "checked": "Standard result; values computed by code (hcf, lcm in src/engine/lib/maths2.js, tested). The HCF/LCM sorting card is authored: please check the wording."
+ },
+ "roots": {
+  "ref": "Definitions of square roots and cube roots of whole numbers",
+  "supports": "√n² = n and ∛n³ = n for whole numbers n; with prime factors, halve the indices (square root) or divide them by three (cube root); a number between two squares has a square root between their roots.",
+  "checked": "Standard result; values computed by code."
+ },
+ "sequences": {
+  "ref": "Arithmetic sequences (common difference) and sequences that multiply by a common ratio",
+  "supports": "Next term = last term + d; term n = first term + (n − 1) × d; next term of a multiplying sequence = last term × r.",
+  "checked": "Standard result; values computed by code."
+ },
+ "triangle-inequality": {
+  "ref": "The triangle inequality (Euclid, Elements I.20)",
+  "supports": "In a triangle each side is less than the sum of the other two; equality means the three points are on one line; the third side lies strictly between the difference and the sum of the other two.",
+  "checked": "Standard result; the tests are computed by code (triangleOk). The statements about the equal case are authored."
+ },
+ "segment": {
+  "ref": "Notation used in Cameroonian mathematics (French-influenced), as in Form 1: (AB) line, [AB) half line, [AB] segment, AB length; midpoint; a point M is on [AB] exactly when AM + MB = AB",
+  "supports": "Which brackets name which figure; the midpoint halves the length; the parts of a segment add up to the whole.",
+  "checked": "Notation as approved for Form 1 (line-notation, TR-M); compare with the pupil's exercise book. Lengths computed by code."
+ },
+ "perpendicular-bisector": {
+  "ref": "Definition and ruler-and-compasses construction of the perpendicular bisector (mediator) of a segment; its characteristic property: the points equidistant from the end points",
+  "supports": "Through the midpoint and perpendicular; compass opening more than half the segment, same opening from both ends; PA = PB exactly when P is on the perpendicular bisector.",
+  "checked": "Standard result. The construction steps and the statement pools are authored: please check them against the textbook."
+ },
+ "coordinates": {
+  "ref": "Cartesian coordinates in the plane: x-axis and y-axis, origin O(0, 0), ordered pair (abscissa, ordinate)",
+  "supports": "The first coordinate (abscissa) is read along the x-axis, the second (ordinate) along the y-axis; points on the x-axis have ordinate 0 and on the y-axis abscissa 0; moving right/left changes the abscissa, up/down the ordinate.",
+  "checked": "Standard definitions; the drawings and answers are computed by code (coordPlane). The vocabulary pool is authored."
+ },
+ "algebra-language": {
+  "ref": "Conventions for writing algebraic expressions (number before letter, no × sign, 1x written x) and the vocabulary variable, term, coefficient, constant term",
+  "supports": "Translating words into expressions; terms carry the sign in front of them; the coefficient of x is 1 and of −x is −1.",
+  "checked": "Standard conventions; expressions are built by code (poly, mono). Please check the wording of the phrases against the textbook."
+ },
+ "like-terms": {
+  "ref": "Definition of like terms (same letters with the same powers)",
+  "supports": "Like terms differ only in their coefficient; ab = ba; x and x² are unlike; like terms are added by adding their coefficients.",
+  "checked": "Standard result; sums computed by code."
+ },
+ "simplify": {
+  "ref": "Simplifying expressions by collecting like terms, and multiplying monomials",
+  "supports": "Collect each kind of like term with its sign; multiply numbers then letters; a × a = a².",
+  "checked": "Standard result; results computed by code."
+ },
+ "substitution": {
+  "ref": "Substituting numbers for letters in an expression, with the order of operations (powers, then × and ÷, then + and −)",
+  "supports": "Negative values go in brackets; letters side by side are multiplied; kx² = k × x².",
+  "checked": "Standard rule; values computed by code."
+ },
+ "expansion": {
+  "ref": "The distributive law a(b + c) = ab + ac",
+  "supports": "Every term inside is multiplied by the term outside; a negative factor changes every sign; x × x = x².",
+  "checked": "Standard result; expansions computed by code (bracket, poly)."
+ },
+ "equations": {
+  "ref": "Solving linear equations in one unknown by doing the same operation to both sides",
+  "supports": "Undo + and − first, then × and ÷; check by substituting.",
+  "checked": "Standard method; every equation is built from its solution by code, so the answer is exact."
+ },
+ "inequalities": {
+  "ref": "The inequality signs <, >, ≤, ≥; solving linear inequalities; showing them on a number line (open circle for < and >, filled for ≤ and ≥)",
+  "supports": "Adding, subtracting, and multiplying or dividing by a positive number keep the sign; multiplying or dividing by a negative number reverses it.",
+  "checked": "Standard result; solutions and drawings computed by code (holds, ineqLine). The phrases “at least”, “at most”, “more than”, “fewer than” are authored."
+ },
+ "angles": {
+  "ref": "Angles on intersecting lines; complementary and supplementary angles; corresponding, alternate and co-interior angles with parallel lines",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "triangles": {
+  "ref": "Angle sum of a triangle, exterior angle, special lines and their meeting points, isosceles/equilateral/right-angled triangles, Pythagoras’ theorem and its converse (integral triples), area ½bh",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "fractions": {
+  "ref": "The four operations on fractions, simplest form, mixed numbers",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "estimation": {
+  "ref": "Rounding to the nearest 10/100/1000 and to decimal places; estimating by one significant figure",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "significant-figures": {
+  "ref": "Counting and rounding to significant figures",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "decimals": {
+  "ref": "Operations with decimals",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "real-numbers": {
+  "ref": "Square roots, rational and irrational numbers, ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ, simplifying √(a²b)",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "intervals": {
+  "ref": "Interval notation (closed, open, half-open, infinite) and inequalities; written with [ ) brackets (TR-N20)",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "proportion": {
+  "ref": "Direct and inverse proportion, unitary method",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "money": {
+  "ref": "Profit and loss, discount, simple and compound interest (up to two years), amount, currency exchange (rates given in the question; the euro peg about 656 FCFA, TR-N22)",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "polygons": {
+  "ref": "Names of polygons, angle sum (n − 2) × 180°, regular polygons, properties of parallelograms, areas of parallelogram and trapezium",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "symmetry": {
+  "ref": "Line and point symmetry; reflections and half turns on a grid; what symmetry conserves",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "circles": {
+  "ref": "Circumscribed circle (circumcentre; midpoint of the hypotenuse) and the relative positions of two circles",
+  "checked": "Standard Form 2 mathematics (Cameroon syllabus, Term 2); computed by maths2.js where marked. Not opened online for this batch (2026-10-21): a Maths teacher checks (TR-N items)."
+ },
+ "prisms": {
+  "ref": "Right prisms: vocabulary, faces/edges/vertices (n + 2, 3n, 2n), Euler's relation F + V − E = 2, lateral area = perimeter × height, total surface area, volume = base area × height, nets; 1 litre = 1 000 cm³",
+  "supports": "Computed by maths2.js (prismFaces, prismEdges, prismVertices, lateralArea, prismTotalArea, prismVolume); figures by prismFig.",
+  "checked": "Standard results; computed by code and tested."
+ },
+ "data": {
+  "ref": "Qualitative and quantitative (discrete, continuous) data; pictograms, bar charts, pie charts (angle = f ÷ total × 360°), line graphs; frequency tables and tallies",
+  "supports": "pieAngle, countEach; figures barChartFig and pieFig.",
+  "checked": "Standard results."
+ },
+ "averages": {
+  "ref": "Mode, mean and median of raw data; mode and mean of an ungrouped frequency table (Σxf ÷ Σf); range",
+  "supports": "meanOf, medianOf, modeOf ('none' when values tie), freqMean, freqMode, freqSumXF.",
+  "checked": "Computed by code and tested."
+ },
+ "pyramids": {
+  "ref": "Regular pyramids: vocabulary (apex, altitude, slant height), n + 1 faces, 2n edges, n + 1 vertices; the regular tetrahedron; nets; area of the net of a square pyramid b² + 2bs",
+  "supports": "pyramidFaces, pyramidEdges, pyramidVertices, sqPyramidArea; figures by pyramidFig.",
+  "checked": "Standard results."
+ },
+ "spheres": {
+  "ref": "Sphere and ball: centre, radius, diameter (d = 2r), great circle; surface area 4πr², volume (4/3)πr³ with π = 3.14",
+  "supports": "sphereArea, sphereVolume (radii 3, 6, 9 for volumes so the answers have two decimals); figure sphereFig.",
+  "checked": "Standard formulas; please confirm π = 3.14 (not 22/7) is the class convention."
+ }
 }

@@ -1,0 +1,445 @@
+{
+ "subject": "mathematics",
+ "class": "Form 2",
+ "lesson_no": 59,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m2-59",
+   "name": "Qualitative and quantitative data"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Data are pieces of information collected about something.\n• Qualitative (categorical) data are words or categories: favourite fruit, colour, region of birth, means of transport.\n• Quantitative data are numbers obtained by counting or measuring: number of brothers, height, mass, marks.\n  – discrete data are counted and take separate values (number of pupils: 0, 1, 2, …);\n  – continuous data are measured and can take any value in a range (height 1.53 m, time 12.4 s).\nData are collected by a survey, a questionnaire, an interview, observation or an experiment. Raw data are the data as collected, before they are organised.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A pupil records, for each classmate: favourite sport, number of brothers and height. Classify each.",
+  "steps": [
+   "Favourite sport is a word: qualitative.",
+   "Number of brothers is counted: quantitative discrete. Height is measured: quantitative continuous."
+  ],
+  "answer": "sport: qualitative; brothers: discrete; height: continuous",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c59-1",
+    "status": "draft",
+    "idea": "Qualitative data are words or categories.",
+    "vars": {},
+    "example": [
+     "Favourite colour."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-59-type"
+    }
+   },
+   {
+    "id": "c59-2",
+    "status": "draft",
+    "idea": "Quantitative data are numbers: discrete (counted) or continuous (measured).",
+    "vars": {},
+    "example": [
+     "Number of pens: discrete. Mass: continuous."
+    ],
+    "checks": [],
+    "check": {
+     "id": "m2-59-disc-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "data"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is “number of pupils in a class” discrete?",
+         "r": "It is counted and takes whole-number values.",
+         "w": [
+          "It is a word.",
+          "It can be 32.5.",
+          "It is measured with a ruler."
+         ],
+         "e": [
+          "It is a number.",
+          "You cannot have half a pupil.",
+          "It is counted."
+         ],
+         "y": "Counted data are discrete."
+        },
+        {
+         "q": "Why is “time to run 100 m” continuous?",
+         "r": "It is measured and can take any value in a range.",
+         "w": [
+          "It is counted.",
+          "It is a word.",
+          "It only takes whole numbers."
+         ],
+         "e": [
+          "It is measured.",
+          "It is a number.",
+          "It can be 13.4 s."
+         ],
+         "y": "Measured data are continuous."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   },
+   {
+    "id": "c59-3",
+    "status": "draft",
+    "idea": "Data are collected by surveys, questionnaires, interviews and observation.",
+    "vars": {},
+    "example": [
+     "A questionnaire for the class."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m2-59-collect"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m2-59-type",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "d": "favourite fruit",
+       "a": "qualitative",
+       "w": [
+        "quantitative discrete",
+        "quantitative continuous"
+       ]
+      },
+      {
+       "d": "number of children in a family",
+       "a": "quantitative discrete",
+       "w": [
+        "qualitative",
+        "quantitative continuous"
+       ]
+      },
+      {
+       "d": "height of a pupil",
+       "a": "quantitative continuous",
+       "w": [
+        "qualitative",
+        "quantitative discrete"
+       ]
+      },
+      {
+       "d": "means of transport to school",
+       "a": "qualitative",
+       "w": [
+        "quantitative discrete",
+        "quantitative continuous"
+       ]
+      },
+      {
+       "d": "mass of a bag of rice",
+       "a": "quantitative continuous",
+       "w": [
+        "qualitative",
+        "quantitative discrete"
+       ]
+      },
+      {
+       "d": "number of goals in a match",
+       "a": "quantitative discrete",
+       "w": [
+        "qualitative",
+        "quantitative continuous"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "What kind of data is “{X.d}”?",
+   "correct": "{X.a}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "kind"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "kind"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "kind",
+     "explain": "Is it a word or a number? If a number, is it counted (discrete) or measured (continuous)?"
+    }
+   ],
+   "solution": [
+    "Words: qualitative. Counted numbers: discrete. Measured numbers: continuous.",
+    "So it is {answer}."
+   ],
+   "min_distractors": 2
+  },
+  {
+   "id": "m2-59-disc",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is “number of pupils in a class” discrete?",
+       "r": "It is counted and takes whole-number values.",
+       "w": [
+        "It is a word.",
+        "It can be 32.5.",
+        "It is measured with a ruler."
+       ],
+       "e": [
+        "It is a number.",
+        "You cannot have half a pupil.",
+        "It is counted."
+       ],
+       "y": "Counted data are discrete."
+      },
+      {
+       "q": "Why is “time to run 100 m” continuous?",
+       "r": "It is measured and can take any value in a range.",
+       "w": [
+        "It is counted.",
+        "It is a word.",
+        "It only takes whole numbers."
+       ],
+       "e": [
+        "It is measured.",
+        "It is a number.",
+        "It can be 13.4 s."
+       ],
+       "y": "Measured data are continuous."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-59-collect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "data"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are raw data?",
+       "r": "data as collected, before they are organised",
+       "w": [
+        "data that are cooked",
+        "only qualitative data",
+        "data in a pie chart"
+       ],
+       "e": [
+        "That is not the meaning.",
+        "Raw data can be any kind.",
+        "A chart is organised."
+       ],
+       "y": "They have not yet been sorted."
+      },
+      {
+       "q": "Which is a way of collecting data?",
+       "r": "a questionnaire",
+       "w": [
+        "a pie chart",
+        "a mean",
+        "a protractor"
+       ],
+       "e": [
+        "That displays data.",
+        "That summarises data.",
+        "That measures angles."
+       ],
+       "y": "Questions are asked to many people."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "m2-59-spot",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "data"
+   ],
+   "prompt": "Which statement is wrong?",
+   "pool": {
+    "right": [
+     {
+      "text": "Colour is qualitative.",
+      "truth": "true"
+     },
+     {
+      "text": "Number of brothers is discrete.",
+      "truth": "true"
+     },
+     {
+      "text": "Height is continuous.",
+      "truth": "true"
+     },
+     {
+      "text": "A survey collects data.",
+      "truth": "true"
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Favourite food is quantitative.",
+      "truth": "false",
+      "explain": "It is a word: qualitative."
+     },
+     {
+      "text": "Mass is discrete because it is a number.",
+      "truth": "false",
+      "explain": "It is measured: continuous."
+     },
+     {
+      "text": "Number of goals is continuous.",
+      "truth": "false",
+      "explain": "It is counted: discrete."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
