@@ -16381,7 +16381,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Une question polie permet d’identifier la personne qui appelle.  
-> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?.  
+> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?  
 
 > Tu réponds à un appel à la maison. Que peux-tu dire ?
 
@@ -16394,7 +16394,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Une question polie permet d’identifier la personne qui appelle.  
-> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?.  
+> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?  
 
 > Tu réponds à un appel à la maison. Que peux-tu dire ?
 
@@ -16407,7 +16407,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Une question polie permet d’identifier la personne qui appelle.  
-> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?.  
+> La réponse est : Bonjour, qui est à l’appareil, s’il vous plaît ?  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -16440,7 +16440,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Reformuler calmement permet de clarifier la demande.  
-> La réponse est : Je répète : je souhaite réserver un livre..  
+> La réponse est : Je répète : je souhaite réserver un livre.  
 
 > L’interlocuteur n’a pas compris. Quelle réplique convient ?
 
@@ -16453,7 +16453,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Reformuler calmement permet de clarifier la demande.  
-> La réponse est : Je répète : je souhaite réserver un livre..  
+> La réponse est : Je répète : je souhaite réserver un livre.  
 
 > Mme Nji est absente. Quel message peut-on transmettre ?
 
@@ -16466,7 +16466,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le nom, l’objet de l’appel et la suite prévue rendent le message utile.  
-> La réponse est : Bih a appelé au sujet du livre et rappellera demain..  
+> La réponse est : Bih a appelé au sujet du livre et rappellera demain.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -16499,7 +16499,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Une formule de remerciement et un au revoir ferment poliment l’échange.  
-> La réponse est : Merci de transmettre mon message. Au revoir..  
+> La réponse est : Merci de transmettre mon message. Au revoir.  
 
 > Quelle suite respecte l’ordre d’un appel ?
 
@@ -16512,7 +16512,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > On ouvre l’échange avant de donner son objet, puis on prend congé.  
-> La réponse est : Saluer, se présenter, donner l’objet, remercier..  
+> La réponse est : Saluer, se présenter, donner l’objet, remercier.  
 
 > Le message a été compris. Comment terminer ?
 
@@ -16525,7 +16525,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Une formule de remerciement et un au revoir ferment poliment l’échange.  
-> La réponse est : Merci de transmettre mon message. Au revoir..  
+> La réponse est : Merci de transmettre mon message. Au revoir.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -16558,7 +16558,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Reformuler calmement permet de clarifier la demande.  
-> La réponse est : Je répète : je souhaite réserver un livre..  
+> La réponse est : Je répète : je souhaite réserver un livre.  
 
 > Mme Nji est absente. Quel message peut-on transmettre ?
 
@@ -16571,7 +16571,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le nom, l’objet de l’appel et la suite prévue rendent le message utile.  
-> La réponse est : Bih a appelé au sujet du livre et rappellera demain..  
+> La réponse est : Bih a appelé au sujet du livre et rappellera demain.  
 
 > Mme Nji est absente. Quel message peut-on transmettre ?
 
@@ -16584,7 +16584,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le nom, l’objet de l’appel et la suite prévue rendent le message utile.  
-> La réponse est : Bih a appelé au sujet du livre et rappellera demain..  
+> La réponse est : Bih a appelé au sujet du livre et rappellera demain.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -16617,7 +16617,7 @@ Three generated variants:
 Full working after a second miss:
 
 > On ouvre l’échange avant de donner son objet, puis on prend congé.  
-> La réponse est : Saluer, se présenter, donner l’objet, remercier..  
+> La réponse est : Saluer, se présenter, donner l’objet, remercier.  
 
 > Le message a été compris. Comment terminer ?
 
@@ -16630,7 +16630,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Une formule de remerciement et un au revoir ferment poliment l’échange.  
-> La réponse est : Merci de transmettre mon message. Au revoir..  
+> La réponse est : Merci de transmettre mon message. Au revoir.  
 
 > Quelle suite respecte l’ordre d’un appel ?
 
@@ -16643,7 +16643,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > On ouvre l’échange avant de donner son objet, puis on prend congé.  
-> La réponse est : Saluer, se présenter, donner l’objet, remercier..  
+> La réponse est : Saluer, se présenter, donner l’objet, remercier.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -16676,7 +16676,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le texte annonce son sujet dès la première phrase.  
-> La réponse est : Un exposé sur les marchés..  
+> La réponse est : Un exposé sur les marchés.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quel travail Bih prépare-t-elle ?
 
@@ -16689,7 +16689,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le texte annonce son sujet dès la première phrase.  
-> La réponse est : Un exposé sur les marchés..  
+> La réponse est : Un exposé sur les marchés.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Où travaille-t-elle ?
 
@@ -16702,7 +16702,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le lieu est donné dans la deuxième phrase.  
-> La réponse est : À la bibliothèque..  
+> La réponse est : À la bibliothèque.  
 
 Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
@@ -16735,7 +16735,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Ces éléments sont explicitement nommés.  
-> La réponse est : Le nom de l’auteur et la date..  
+> La réponse est : Le nom de l’auteur et la date.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?
 
@@ -16748,7 +16748,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Ces éléments sont explicitement nommés.  
-> La réponse est : Le nom de l’auteur et la date..  
+> La réponse est : Le nom de l’auteur et la date.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Que relève Bih avant de citer l’article ?
 
@@ -16761,7 +16761,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Ces éléments sont explicitement nommés.  
-> La réponse est : Le nom de l’auteur et la date..  
+> La réponse est : Le nom de l’auteur et la date.  
 
 Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
@@ -16794,7 +16794,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse.  
-> La réponse est : Non ; le texte dit seulement qu’elle doit être vérifiée..  
+> La réponse est : Non ; le texte dit seulement qu’elle doit être vérifiée.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?
 
@@ -16807,7 +16807,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Elle vérifie l’auteur, la date et les sources avant de conserver les informations.  
-> La réponse est : Il faut vérifier les informations avant de les utiliser..  
+> La réponse est : Il faut vérifier les informations avant de les utiliser.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?
 
@@ -16820,7 +16820,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Elle vérifie l’auteur, la date et les sources avant de conserver les informations.  
-> La réponse est : Il faut vérifier les informations avant de les utiliser..  
+> La réponse est : Il faut vérifier les informations avant de les utiliser.  
 
 Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
@@ -16853,7 +16853,7 @@ Three generated variants:
 Full working after a second miss:
 
 > L’absence de source est l’obstacle mentionné dans le texte.  
-> La réponse est : Une page n’indique aucune source..  
+> La réponse est : Une page n’indique aucune source.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?
 
@@ -16866,7 +16866,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’absence de source est l’obstacle mentionné dans le texte.  
-> La réponse est : Une page n’indique aucune source..  
+> La réponse est : Une page n’indique aucune source.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Pourquoi demande-t-elle conseil ?
 
@@ -16879,7 +16879,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’absence de source est l’obstacle mentionné dans le texte.  
-> La réponse est : Une page n’indique aucune source..  
+> La réponse est : Une page n’indique aucune source.  
 
 Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
@@ -16912,7 +16912,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Elle vérifie l’auteur, la date et les sources avant de conserver les informations.  
-> La réponse est : Il faut vérifier les informations avant de les utiliser..  
+> La réponse est : Il faut vérifier les informations avant de les utiliser.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Peut-on affirmer que la page sans source est forcément fausse ?
 
@@ -16925,7 +16925,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le texte appelle à la vérification ; il ne prouve pas que cette page est fausse.  
-> La réponse est : Non ; le texte dit seulement qu’elle doit être vérifiée..  
+> La réponse est : Non ; le texte dit seulement qu’elle doit être vérifiée.  
 
 > Texte original : Bih prépare un exposé sur les marchés. À la bibliothèque, elle trouve un article en ligne. Avant de le citer, elle relève le nom de l’auteur et la date. Une autre page n’indique aucune source ; elle demande conseil à Mme Nji. Elle conserve les informations qu’elle peut vérifier. Quelle idée est soutenue par les actions de Bih ?
 
@@ -16938,7 +16938,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Elle vérifie l’auteur, la date et les sources avant de conserver les informations.  
-> La réponse est : Il faut vérifier les informations avant de les utiliser..  
+> La réponse est : Il faut vérifier les informations avant de les utiliser.  
 
 Sources: lecture (Textes de lecture originaux écrits pour l’application (la famille, les travaux de la maison, les clubs, la fête du village, le quartier et la santé) ; Bih prépare un exposé sur les marchés (Term 3, original text))
 
@@ -16971,7 +16971,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Quelqu’un désigne une personne non identifiée.  
-> La réponse est : Quelqu’un.  
+> La réponse est : Quelqu’un  
 
 > Dans « Plusieurs répondent », quel mot remplace des personnes ?
 
@@ -16984,7 +16984,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Plusieurs désigne un nombre imprécis de personnes.  
-> La réponse est : Plusieurs.  
+> La réponse est : Plusieurs  
 
 > Dans « Quelqu’un appelle », quel mot est un pronom indéfini ?
 
@@ -16997,7 +16997,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Quelqu’un désigne une personne non identifiée.  
-> La réponse est : Quelqu’un.  
+> La réponse est : Quelqu’un  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -17030,7 +17030,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Chacun est singulier : il commande lit.  
-> La réponse est : lit.  
+> La réponse est : lit  
 
 > Complète : Chacun ___ son message.
 
@@ -17043,7 +17043,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacun est singulier : il commande lit.  
-> La réponse est : lit.  
+> La réponse est : lit  
 
 > Complète : Chacun ___ son message.
 
@@ -17056,7 +17056,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacun est singulier : il commande lit.  
-> La réponse est : lit.  
+> La réponse est : lit  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -17089,7 +17089,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Chacun est singulier ; plusieurs est pluriel.  
-> La réponse est : Chacun prend la parole..  
+> La réponse est : Chacun prend la parole.  
 
 > Quelle phrase respecte l’accord ?
 
@@ -17102,7 +17102,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacun est singulier ; plusieurs est pluriel.  
-> La réponse est : Chacun prend la parole..  
+> La réponse est : Chacun prend la parole.  
 
 > Dans quelle phrase « plusieurs » est-il pronom ?
 
@@ -17115,7 +17115,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Employé sans nom après lui, plusieurs remplace un groupe nominal.  
-> La réponse est : Plusieurs ont répondu..  
+> La réponse est : Plusieurs ont répondu.  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -17148,7 +17148,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Plusieurs est pluriel : le verbe prend -ent.  
-> La réponse est : participent.  
+> La réponse est : participent  
 
 > Complète : Chacun ___ son message.
 
@@ -17161,7 +17161,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacun est singulier : il commande lit.  
-> La réponse est : lit.  
+> La réponse est : lit  
 
 > Complète : Chacun ___ son message.
 
@@ -17174,7 +17174,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacun est singulier : il commande lit.  
-> La réponse est : lit.  
+> La réponse est : lit  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -17207,7 +17207,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Chacun est singulier ; plusieurs est pluriel.  
-> La réponse est : Chacun prend la parole..  
+> La réponse est : Chacun prend la parole.  
 
 > Quelle phrase respecte l’accord ?
 
@@ -17220,7 +17220,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacun est singulier ; plusieurs est pluriel.  
-> La réponse est : Chacun prend la parole..  
+> La réponse est : Chacun prend la parole.  
 
 > Dans quelle phrase « plusieurs » est-il pronom ?
 
@@ -17233,7 +17233,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Employé sans nom après lui, plusieurs remplace un groupe nominal.  
-> La réponse est : Plusieurs ont répondu..  
+> La réponse est : Plusieurs ont répondu.  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -17266,7 +17266,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le navigateur permet de consulter des pages Web.  
-> La réponse est : Un navigateur..  
+> La réponse est : Un navigateur.  
 
 > Surfer sur le Web, c’est…
 
@@ -17279,7 +17279,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Surfer et naviguer décrivent la consultation des pages.  
-> La réponse est : passer d’une page à une autre en suivant des liens..  
+> La réponse est : passer d’une page à une autre en suivant des liens.  
 
 > Surfer sur le Web, c’est…
 
@@ -17292,7 +17292,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Surfer et naviguer décrivent la consultation des pages.  
-> La réponse est : passer d’une page à une autre en suivant des liens..  
+> La réponse est : passer d’une page à une autre en suivant des liens.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -17325,7 +17325,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le transfert depuis un service distant vers l’appareil est un téléchargement.  
-> La réponse est : le télécharger..  
+> La réponse est : le télécharger.  
 
 > Un document du site arrive sur ton appareil. Tu viens de…
 
@@ -17338,7 +17338,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le transfert depuis un service distant vers l’appareil est un téléchargement.  
-> La réponse est : le télécharger..  
+> La réponse est : le télécharger.  
 
 > Un document du site arrive sur ton appareil. Tu viens de…
 
@@ -17351,7 +17351,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le transfert depuis un service distant vers l’appareil est un téléchargement.  
-> La réponse est : le télécharger..  
+> La réponse est : le télécharger.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -17384,7 +17384,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité.  
-> La réponse est : Il faut lire et vérifier les informations retenues..  
+> La réponse est : Il faut lire et vérifier les informations retenues.  
 
 > Quel choix aide à rechercher un exposé sur les marchés ?
 
@@ -17397,7 +17397,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Une recherche utile combine sélection et vérification.  
-> La réponse est : Des mots-clés précis et une vérification des sources..  
+> La réponse est : Des mots-clés précis et une vérification des sources.  
 
 > Quel choix aide à rechercher un exposé sur les marchés ?
 
@@ -17410,7 +17410,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Une recherche utile combine sélection et vérification.  
-> La réponse est : Des mots-clés précis et une vérification des sources..  
+> La réponse est : Des mots-clés précis et une vérification des sources.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -17443,7 +17443,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le transfert depuis un service distant vers l’appareil est un téléchargement.  
-> La réponse est : le télécharger..  
+> La réponse est : le télécharger.  
 
 > Un document du site arrive sur ton appareil. Tu viens de…
 
@@ -17456,7 +17456,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le transfert depuis un service distant vers l’appareil est un téléchargement.  
-> La réponse est : le télécharger..  
+> La réponse est : le télécharger.  
 
 > Tu envoies ton fichier vers un espace en ligne. Tu le…
 
@@ -17469,7 +17469,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le transfert de l’appareil vers le service distant est un téléversement.  
-> La réponse est : téléverses..  
+> La réponse est : téléverses.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -17502,7 +17502,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Une recherche utile combine sélection et vérification.  
-> La réponse est : Des mots-clés précis et une vérification des sources..  
+> La réponse est : Des mots-clés précis et une vérification des sources.  
 
 > Pourquoi zapper ne suffit-il pas pour préparer un exposé ?
 
@@ -17515,7 +17515,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Passer vite d’un contenu à l’autre ne prouve ni sa pertinence ni sa fiabilité.  
-> La réponse est : Il faut lire et vérifier les informations retenues..  
+> La réponse est : Il faut lire et vérifier les informations retenues.  
 
 > Quel choix aide à rechercher un exposé sur les marchés ?
 
@@ -17528,7 +17528,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Une recherche utile combine sélection et vérification.  
-> La réponse est : Des mots-clés précis et une vérification des sources..  
+> La réponse est : Des mots-clés précis et une vérification des sources.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -17561,7 +17561,7 @@ Three generated variants:
 Full working after a second miss:
 
 > L’imparfait convient à une habitude passée.  
-> La réponse est : Nous téléphonions le soir..  
+> La réponse est : Nous téléphonions le soir.  
 
 > Autrefois, c’était notre habitude. Quelle phrase convient ?
 
@@ -17574,7 +17574,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’imparfait convient à une habitude passée.  
-> La réponse est : Nous téléphonions le soir..  
+> La réponse est : Nous téléphonions le soir.  
 
 > Autrefois, c’était notre habitude. Quelle phrase convient ?
 
@@ -17587,7 +17587,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’imparfait convient à une habitude passée.  
-> La réponse est : Nous téléphonions le soir..  
+> La réponse est : Nous téléphonions le soir.  
 
 Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
 
@@ -17620,7 +17620,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Était est l’imparfait de être ; il décrit une situation passée.  
-> La réponse est : L’écran était petit..  
+> La réponse est : L’écran était petit.  
 
 > Autrefois, c’était notre habitude. Quelle phrase convient ?
 
@@ -17633,7 +17633,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’imparfait convient à une habitude passée.  
-> La réponse est : Nous téléphonions le soir..  
+> La réponse est : Nous téléphonions le soir.  
 
 > Autrefois, c’était notre habitude. Quelle phrase convient ?
 
@@ -17646,7 +17646,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’imparfait convient à une habitude passée.  
-> La réponse est : Nous téléphonions le soir..  
+> La réponse est : Nous téléphonions le soir.  
 
 Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
 
@@ -17679,7 +17679,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le mot modèle est brun. On observe sa graphie et le son travaillé.  
-> La réponse est : brun.  
+> La réponse est : brun  
 
 > Quel mot suit le modèle un ?
 
@@ -17692,7 +17692,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le mot modèle est brun. On observe sa graphie et le son travaillé.  
-> La réponse est : brun.  
+> La réponse est : brun  
 
 > Quel mot appartient à la série étudiée ?
 
@@ -17705,7 +17705,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > parfum appartient aux exemples de cette leçon.  
-> La réponse est : parfum.  
+> La réponse est : parfum  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -17738,7 +17738,7 @@ Three generated variants:
 Full working after a second miss:
 
 > L’application ne peut pas entendre le lecteur.  
-> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+> La réponse est : Le repérage écrit des mots et de leurs graphies.  
 
 > Que travaille l’exercice sans audio ?
 
@@ -17751,7 +17751,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’application ne peut pas entendre le lecteur.  
-> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+> La réponse est : Le repérage écrit des mots et de leurs graphies.  
 
 > Que travaille l’exercice sans audio ?
 
@@ -17764,7 +17764,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’application ne peut pas entendre le lecteur.  
-> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+> La réponse est : Le repérage écrit des mots et de leurs graphies.  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -17797,7 +17797,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Les exemples retenus sont brun et parfum.  
-> La réponse est : brun, parfum.  
+> La réponse est : brun, parfum  
 
 > Quel conseil respecte les différences d’accent ?
 
@@ -17810,7 +17810,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
-> La réponse est : Demander au professeur le modèle de la classe..  
+> La réponse est : Demander au professeur le modèle de la classe.  
 
 > Quel conseil respecte les différences d’accent ?
 
@@ -17823,7 +17823,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
-> La réponse est : Demander au professeur le modèle de la classe..  
+> La réponse est : Demander au professeur le modèle de la classe.  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -17856,7 +17856,7 @@ Three generated variants:
 Full working after a second miss:
 
 > L’application ne peut pas entendre le lecteur.  
-> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+> La réponse est : Le repérage écrit des mots et de leurs graphies.  
 
 > Comment vérifier ta prononciation ?
 
@@ -17869,7 +17869,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
-> La réponse est : Avec un enseignant qui écoute ta lecture..  
+> La réponse est : Avec un enseignant qui écoute ta lecture.  
 
 > Comment vérifier ta prononciation ?
 
@@ -17882,7 +17882,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
-> La réponse est : Avec un enseignant qui écoute ta lecture..  
+> La réponse est : Avec un enseignant qui écoute ta lecture.  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -17915,7 +17915,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Les exemples retenus sont brun et parfum.  
-> La réponse est : brun, parfum.  
+> La réponse est : brun, parfum  
 
 > Quelle série contient seulement des mots étudiés ici ?
 
@@ -17928,7 +17928,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Les exemples retenus sont brun et parfum.  
-> La réponse est : brun, parfum.  
+> La réponse est : brun, parfum  
 
 > Quel conseil respecte les différences d’accent ?
 
@@ -17941,7 +17941,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
-> La réponse est : Demander au professeur le modèle de la classe..  
+> La réponse est : Demander au professeur le modèle de la classe.  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -17974,7 +17974,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Personne renvoie aux êtres humains ; rien aux choses.  
-> La réponse est : Personne.  
+> La réponse est : Personne  
 
 > Aucun être humain ne répond. Complète : ___ ne répond.
 
@@ -17987,7 +17987,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Personne renvoie aux êtres humains ; rien aux choses.  
-> La réponse est : Personne.  
+> La réponse est : Personne  
 
 > Il n’y a aucune chose à signaler. Complète : Je n’ai ___ à signaler.
 
@@ -18000,7 +18000,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Rien exprime ici l’absence de chose à signaler.  
-> La réponse est : rien.  
+> La réponse est : rien  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -18033,7 +18033,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas.  
-> La réponse est : Personne ne répond..  
+> La réponse est : Personne ne répond.  
 
 > Quelle phrase convient à l’écrit scolaire ?
 
@@ -18046,7 +18046,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas.  
-> La réponse est : Personne ne répond..  
+> La réponse est : Personne ne répond.  
 
 > Quelle phrase convient à l’écrit scolaire ?
 
@@ -18059,7 +18059,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas.  
-> La réponse est : Personne ne répond..  
+> La réponse est : Personne ne répond.  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -18092,7 +18092,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le déterminant une introduit ici le nom personne.  
-> La réponse est : Une personne attend..  
+> La réponse est : Une personne attend.  
 
 > Quelle phrase respecte l’accord du sujet ?
 
@@ -18105,7 +18105,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacune est singulier ; tous sujet pluriel commande répondent.  
-> La réponse est : Chacune répond à son tour..  
+> La réponse est : Chacune répond à son tour.  
 
 > Dans quelle phrase « personne » est-il un nom ?
 
@@ -18118,7 +18118,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le déterminant une introduit ici le nom personne.  
-> La réponse est : Une personne attend..  
+> La réponse est : Une personne attend.  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -18151,7 +18151,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Rien négatif s’accompagne de ne, élidé devant a.  
-> La réponse est : Rien n’a changé..  
+> La réponse est : Rien n’a changé.  
 
 > Quelle phrase convient à l’écrit scolaire ?
 
@@ -18164,7 +18164,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Pour exprimer qu’aucune personne ne répond, on écrit personne ne, sans ajouter pas.  
-> La réponse est : Personne ne répond..  
+> La réponse est : Personne ne répond.  
 
 > Quelle phrase exprime l’absence de changement ?
 
@@ -18177,7 +18177,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Rien négatif s’accompagne de ne, élidé devant a.  
-> La réponse est : Rien n’a changé..  
+> La réponse est : Rien n’a changé.  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -18210,7 +18210,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Chacune est singulier ; tous sujet pluriel commande répondent.  
-> La réponse est : Chacune répond à son tour..  
+> La réponse est : Chacune répond à son tour.  
 
 > Quelle phrase respecte l’accord du sujet ?
 
@@ -18223,7 +18223,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacune est singulier ; tous sujet pluriel commande répondent.  
-> La réponse est : Chacune répond à son tour..  
+> La réponse est : Chacune répond à son tour.  
 
 > Quelle phrase respecte l’accord du sujet ?
 
@@ -18236,7 +18236,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Chacune est singulier ; tous sujet pluriel commande répondent.  
-> La réponse est : Chacune répond à son tour..  
+> La réponse est : Chacune répond à son tour.  
 
 Sources: grammaire (Grammaire : phrase affirmative et négative, pronoms COD le, la, les, l’ ; accord des adjectifs en -al (exceptions banal, final, natal, naval), avec plusieurs noms, des adjectifs de couleur (simples, noms de choses invariables sauf rose, mauve, pourpre, fauve ; couleurs composées invariables))
 
@@ -18269,7 +18269,7 @@ Three generated variants:
 Full working after a second miss:
 
 > C’est une phrase déclarative complète.  
-> La réponse est : Un point..  
+> La réponse est : Un point.  
 
 > Quel signe termine « Bih écrit un message » ?
 
@@ -18282,7 +18282,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > C’est une phrase déclarative complète.  
-> La réponse est : Un point..  
+> La réponse est : Un point.  
 
 > Quel signe termine « Bih écrit un message » ?
 
@@ -18295,7 +18295,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > C’est une phrase déclarative complète.  
-> La réponse est : Un point..  
+> La réponse est : Un point.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -18328,7 +18328,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit.  
-> La réponse est : Le soir, Bih écrit..  
+> La réponse est : Le soir, Bih écrit.  
 
 > Quelle phrase est bien ponctuée ?
 
@@ -18341,7 +18341,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La virgule sépare clavier et souris, sans séparer le sujet du verbe.  
-> La réponse est : Bih utilise un clavier, une souris et un écran..  
+> La réponse est : Bih utilise un clavier, une souris et un écran.  
 
 > Quelle phrase détache correctement le moment ?
 
@@ -18354,7 +18354,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit.  
-> La réponse est : Le soir, Bih écrit..  
+> La réponse est : Le soir, Bih écrit.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -18387,7 +18387,7 @@ Three generated variants:
 Full working after a second miss:
 
 > La liste précise les outils annoncés.  
-> La réponse est : Les deux-points..  
+> La réponse est : Les deux-points.  
 
 > Quelle correction respecte sujet et verbe ?
 
@@ -18400,7 +18400,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément.  
-> La réponse est : Nji envoie un message..  
+> La réponse est : Nji envoie un message.  
 
 > Quelle correction respecte sujet et verbe ?
 
@@ -18413,7 +18413,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément.  
-> La réponse est : Nji envoie un message..  
+> La réponse est : Nji envoie un message.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -18446,7 +18446,7 @@ Three generated variants:
 Full working after a second miss:
 
 > La virgule sépare clavier et souris, sans séparer le sujet du verbe.  
-> La réponse est : Bih utilise un clavier, une souris et un écran..  
+> La réponse est : Bih utilise un clavier, une souris et un écran.  
 
 > Quelle phrase détache correctement le moment ?
 
@@ -18459,7 +18459,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le groupe Le soir est détaché ; le sujet Bih reste lié à écrit.  
-> La réponse est : Le soir, Bih écrit..  
+> La réponse est : Le soir, Bih écrit.  
 
 > Quelle phrase est bien ponctuée ?
 
@@ -18472,7 +18472,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La virgule sépare clavier et souris, sans séparer le sujet du verbe.  
-> La réponse est : Bih utilise un clavier, une souris et un écran..  
+> La réponse est : Bih utilise un clavier, une souris et un écran.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -18505,7 +18505,7 @@ Three generated variants:
 Full working after a second miss:
 
 > La liste précise les outils annoncés.  
-> La réponse est : Les deux-points..  
+> La réponse est : Les deux-points.  
 
 > Quelle correction respecte sujet et verbe ?
 
@@ -18518,7 +18518,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > On ne place pas de virgule entre le sujet et le verbe ni entre le verbe et ce complément.  
-> La réponse est : Nji envoie un message..  
+> La réponse est : Nji envoie un message.  
 
 > Quel signe annonce la liste dans « Voici mes outils ___ un stylo et un cahier » ?
 
@@ -18531,7 +18531,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La liste précise les outils annoncés.  
-> La réponse est : Les deux-points..  
+> La réponse est : Les deux-points.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -18564,7 +18564,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le clavier est un objet physique.  
-> La réponse est : Un clavier..  
+> La réponse est : Un clavier.  
 
 > Quel élément est un logiciel ?
 
@@ -18577,7 +18577,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le navigateur est un programme, contrairement aux objets matériels.  
-> La réponse est : Un navigateur..  
+> La réponse est : Un navigateur.  
 
 > Quel élément est un logiciel ?
 
@@ -18590,7 +18590,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le navigateur est un programme, contrairement aux objets matériels.  
-> La réponse est : Un navigateur..  
+> La réponse est : Un navigateur.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -18623,7 +18623,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le lien permet d’ouvrir une ressource.  
-> La réponse est : un lien..  
+> La réponse est : un lien.  
 
 > Un document ajouté à un courriel est…
 
@@ -18636,7 +18636,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La pièce jointe est un fichier envoyé avec le message.  
-> La réponse est : une pièce jointe..  
+> La réponse est : une pièce jointe.  
 
 > Un élément cliquable mène vers une page : c’est…
 
@@ -18649,7 +18649,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le lien permet d’ouvrir une ressource.  
-> La réponse est : un lien..  
+> La réponse est : un lien.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -18682,7 +18682,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Un mot de passe protège le compte et ne se partage pas avec un inconnu.  
-> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance..  
+> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance.  
 
 > Un inconnu réclame ton mot de passe. Que faire ?
 
@@ -18695,7 +18695,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Un mot de passe protège le compte et ne se partage pas avec un inconnu.  
-> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance..  
+> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance.  
 
 > Un inconnu réclame ton mot de passe. Que faire ?
 
@@ -18708,7 +18708,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Un mot de passe protège le compte et ne se partage pas avec un inconnu.  
-> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance..  
+> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -18741,7 +18741,7 @@ Three generated variants:
 Full working after a second miss:
 
 > La pièce jointe est un fichier envoyé avec le message.  
-> La réponse est : une pièce jointe..  
+> La réponse est : une pièce jointe.  
 
 > Un document ajouté à un courriel est…
 
@@ -18754,7 +18754,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La pièce jointe est un fichier envoyé avec le message.  
-> La réponse est : une pièce jointe..  
+> La réponse est : une pièce jointe.  
 
 > Un élément cliquable mène vers une page : c’est…
 
@@ -18767,7 +18767,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le lien permet d’ouvrir une ressource.  
-> La réponse est : un lien..  
+> La réponse est : un lien.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -18800,7 +18800,7 @@ Three generated variants:
 Full working after a second miss:
 
 > La visioconférence transmet de l’image et du son.  
-> La réponse est : Une visioconférence..  
+> La réponse est : Une visioconférence.  
 
 > Un inconnu réclame ton mot de passe. Que faire ?
 
@@ -18813,7 +18813,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Un mot de passe protège le compte et ne se partage pas avec un inconnu.  
-> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance..  
+> La réponse est : Ne pas le lui transmettre et demander conseil à un adulte de confiance.  
 
 > Tu veux voir et entendre ton correspondant à distance. Quel terme convient ?
 
@@ -18826,7 +18826,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La visioconférence transmet de l’image et du son.  
-> La réponse est : Une visioconférence..  
+> La réponse est : Une visioconférence.  
 
 Sources: vocabulaire (Vocabulaire de la famille élargie, du dictionnaire, de l’école (lycée camerounais : proviseur, censeur, surveillant général, intendant), de l’hygiène, des maladies et de l’environnement ; Internet, navigateur, moteur de recherche, téléchargement, TIC, courriel)
 
@@ -18859,7 +18859,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le mot modèle est pain. On observe sa graphie et le son travaillé.  
-> La réponse est : pain.  
+> La réponse est : pain  
 
 > Quel mot suit le modèle vin ?
 
@@ -18872,7 +18872,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le mot modèle est pain. On observe sa graphie et le son travaillé.  
-> La réponse est : pain.  
+> La réponse est : pain  
 
 > Quel mot appartient à la série étudiée ?
 
@@ -18885,7 +18885,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > matin appartient aux exemples de cette leçon.  
-> La réponse est : matin.  
+> La réponse est : matin  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -18918,7 +18918,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
-> La réponse est : Avec un enseignant qui écoute ta lecture..  
+> La réponse est : Avec un enseignant qui écoute ta lecture.  
 
 > Comment vérifier ta prononciation ?
 
@@ -18931,7 +18931,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
-> La réponse est : Avec un enseignant qui écoute ta lecture..  
+> La réponse est : Avec un enseignant qui écoute ta lecture.  
 
 > Comment vérifier ta prononciation ?
 
@@ -18944,7 +18944,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Un exercice écrit ne permet pas d’évaluer la réalisation d’un son.  
-> La réponse est : Avec un enseignant qui écoute ta lecture..  
+> La réponse est : Avec un enseignant qui écoute ta lecture.  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -18977,7 +18977,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
-> La réponse est : Demander au professeur le modèle de la classe..  
+> La réponse est : Demander au professeur le modèle de la classe.  
 
 > Quel conseil respecte les différences d’accent ?
 
@@ -18990,7 +18990,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Le professeur fournit le modèle oral ; l’application vérifie seulement l’écrit.  
-> La réponse est : Demander au professeur le modèle de la classe..  
+> La réponse est : Demander au professeur le modèle de la classe.  
 
 > Quelle série contient seulement des mots étudiés ici ?
 
@@ -19003,7 +19003,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Les exemples retenus sont pain et matin.  
-> La réponse est : pain, matin.  
+> La réponse est : pain, matin  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -19036,7 +19036,7 @@ Three generated variants:
 Full working after a second miss:
 
 > L’application ne peut pas entendre le lecteur.  
-> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+> La réponse est : Le repérage écrit des mots et de leurs graphies.  
 
 > Que travaille l’exercice sans audio ?
 
@@ -19049,7 +19049,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’application ne peut pas entendre le lecteur.  
-> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+> La réponse est : Le repérage écrit des mots et de leurs graphies.  
 
 > Que travaille l’exercice sans audio ?
 
@@ -19062,7 +19062,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > L’application ne peut pas entendre le lecteur.  
-> La réponse est : Le repérage écrit des mots et de leurs graphies..  
+> La réponse est : Le repérage écrit des mots et de leurs graphies.  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -19095,7 +19095,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Les exemples retenus sont pain et matin.  
-> La réponse est : pain, matin.  
+> La réponse est : pain, matin  
 
 > Quelle série contient seulement des mots étudiés ici ?
 
@@ -19108,7 +19108,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Les exemples retenus sont pain et matin.  
-> La réponse est : pain, matin.  
+> La réponse est : pain, matin  
 
 > Quelle série contient seulement des mots étudiés ici ?
 
@@ -19121,7 +19121,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Les exemples retenus sont pain et matin.  
-> La réponse est : pain, matin.  
+> La réponse est : pain, matin  
 
 Sources: orthographe (Orthographe : la cédille, homonymes et antonymes, le son [f] (f, ff, ph), le son [p] (p, pp) et ph, homophones quel(s)/quelle(s)/qu’elle(s), son/sont)
 
@@ -19154,7 +19154,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Lisons est au présent et chaque matin indique une habitude.  
-> La réponse est : Chaque matin, nous lisons les nouvelles..  
+> La réponse est : Chaque matin, nous lisons les nouvelles.  
 
 > Quelle phrase exprime une habitude au présent ?
 
@@ -19167,7 +19167,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Lisons est au présent et chaque matin indique une habitude.  
-> La réponse est : Chaque matin, nous lisons les nouvelles..  
+> La réponse est : Chaque matin, nous lisons les nouvelles.  
 
 > En ce moment, Bih fait cette action. Quelle phrase est au présent ?
 
@@ -19180,7 +19180,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Écrit est au présent ; écrivait est à l’imparfait et écrira au futur.  
-> La réponse est : Bih écrit un message..  
+> La réponse est : Bih écrit un message.  
 
 Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
 
@@ -19213,7 +19213,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Lisons est au présent et chaque matin indique une habitude.  
-> La réponse est : Chaque matin, nous lisons les nouvelles..  
+> La réponse est : Chaque matin, nous lisons les nouvelles.  
 
 > Quelle phrase exprime une habitude au présent ?
 
@@ -19226,7 +19226,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Lisons est au présent et chaque matin indique une habitude.  
-> La réponse est : Chaque matin, nous lisons les nouvelles..  
+> La réponse est : Chaque matin, nous lisons les nouvelles.  
 
 > Quelle phrase exprime une habitude au présent ?
 
@@ -19239,7 +19239,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Lisons est au présent et chaque matin indique une habitude.  
-> La réponse est : Chaque matin, nous lisons les nouvelles..  
+> La réponse est : Chaque matin, nous lisons les nouvelles.  
 
 Sources: conjugaison (Conjugaison : présent (verbes en -ger, -cer, -eler, -eter, -é-er ; deuxième et troisième groupes ; lire, dire, écrire), passé composé (avoir / être, accord avec être) ; tables de Bescherelle (usage scolaire courant))
 
@@ -19272,7 +19272,7 @@ Three generated variants:
 Full working after a second miss:
 
 > Les mots-clés concernent la recherche annoncée.  
-> La réponse est : Je choisis des mots-clés précis..  
+> La réponse est : Je choisis des mots-clés précis.  
 
 > Quel détail reste dans ce sujet ?
 
@@ -19285,7 +19285,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Les mots-clés concernent la recherche annoncée.  
-> La réponse est : Je choisis des mots-clés précis..  
+> La réponse est : Je choisis des mots-clés précis.  
 
 > Quel détail reste dans ce sujet ?
 
@@ -19298,7 +19298,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Les mots-clés concernent la recherche annoncée.  
-> La réponse est : Je choisis des mots-clés précis..  
+> La réponse est : Je choisis des mots-clés précis.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -19331,7 +19331,7 @@ Three generated variants:
 Full working after a second miss:
 
 > D’abord introduit le commencement.  
-> La réponse est : D’abord.  
+> La réponse est : D’abord  
 
 > Quelle suite est logique ?
 
@@ -19344,7 +19344,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > On rassemble et vérifie les informations avant de rédiger.  
-> La réponse est : Chercher, vérifier, rédiger..  
+> La réponse est : Chercher, vérifier, rédiger.  
 
 > Quel mot annonce la première étape ?
 
@@ -19357,7 +19357,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > D’abord introduit le commencement.  
-> La réponse est : D’abord.  
+> La réponse est : D’abord  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -19390,7 +19390,7 @@ Three generated variants:
 Full working after a second miss:
 
 > La qualité du paragraphe dépend de sa cohérence et de sa correction.  
-> La réponse est : Le lien des idées, les accords et la ponctuation..  
+> La réponse est : Le lien des idées, les accords et la ponctuation.  
 
 > Que vérifier à la relecture ?
 
@@ -19403,7 +19403,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La qualité du paragraphe dépend de sa cohérence et de sa correction.  
-> La réponse est : Le lien des idées, les accords et la ponctuation..  
+> La réponse est : Le lien des idées, les accords et la ponctuation.  
 
 > Quelle phrase conclut utilement ?
 
@@ -19416,7 +19416,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > Cette conclusion reprend le but de la recherche.  
-> La réponse est : Enfin, je rédige avec les informations vérifiées..  
+> La réponse est : Enfin, je rédige avec les informations vérifiées.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -19449,7 +19449,7 @@ Three generated variants:
 Full working after a second miss:
 
 > On rassemble et vérifie les informations avant de rédiger.  
-> La réponse est : Chercher, vérifier, rédiger..  
+> La réponse est : Chercher, vérifier, rédiger.  
 
 > Quelle suite est logique ?
 
@@ -19462,7 +19462,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > On rassemble et vérifie les informations avant de rédiger.  
-> La réponse est : Chercher, vérifier, rédiger..  
+> La réponse est : Chercher, vérifier, rédiger.  
 
 > Quel mot annonce la première étape ?
 
@@ -19475,7 +19475,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > D’abord introduit le commencement.  
-> La réponse est : D’abord.  
+> La réponse est : D’abord  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 
@@ -19508,7 +19508,7 @@ Three generated variants:
 Full working after a second miss:
 
 > La qualité du paragraphe dépend de sa cohérence et de sa correction.  
-> La réponse est : Le lien des idées, les accords et la ponctuation..  
+> La réponse est : Le lien des idées, les accords et la ponctuation.  
 
 > Que vérifier à la relecture ?
 
@@ -19521,7 +19521,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La qualité du paragraphe dépend de sa cohérence et de sa correction.  
-> La réponse est : Le lien des idées, les accords et la ponctuation..  
+> La réponse est : Le lien des idées, les accords et la ponctuation.  
 
 > Que vérifier à la relecture ?
 
@@ -19534,7 +19534,7 @@ Full working after a second miss:
 Full working after a second miss:
 
 > La qualité du paragraphe dépend de sa cohérence et de sa correction.  
-> La réponse est : Le lien des idées, les accords et la ponctuation..  
+> La réponse est : Le lien des idées, les accords et la ponctuation.  
 
 Sources: expression (Expression écrite et orale : phrases simples, mots de liaison, sketches, décrire et interpréter une image, parler d’une maladie (mal au / à la / à l’ / aux) ; conversation téléphonique, ponctuation, court paragraphe)
 

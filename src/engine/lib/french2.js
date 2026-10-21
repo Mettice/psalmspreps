@@ -265,6 +265,13 @@ export function fr2PlusQueParfait(v, p) {
   if (fr2Aux(v) === "être") pp += (feminine(p) ? "e" : "") + (plural(p) ? "s" : "");
   return withPronoun(p, `${aux} ${pp}`);
 }
+/** Passé antérieur: auxiliary in the passé simple + participle; agreement after être. */
+export function fr2PasseAnterieur(v, p) {
+  const aux = fr2PasseSimple(fr2Aux(v), p);
+  let pp = fr2Participle(v);
+  if (fr2Aux(v) === "être") pp += (feminine(p) ? "e" : "") + (plural(p) ? "s" : "");
+  return withPronoun(p, `${aux} ${pp}`);
+}
 /** Wrong on purpose: the passé composé where the plus-que-parfait is needed (for feedback only). */
 export const fr2PqpAsPc = (v, p) => fr2PasseCompose(v, p);
 // Impératif: the tu, nous and vous forms (k = 0, 1, 2). -er verbs and aller lose the -s of "tu".
@@ -299,6 +306,7 @@ export function fr2Que(p, form) {
 export const fr2SubjAsPresent = (v, p) => fr2Present(v, p);
 /** A full form with its pronoun in the Term 2 tenses too. */
 export function fr2Form2(v, p, t) {
+  if (t === "passé antérieur") return fr2PasseAnterieur(v, p);
   if (t === "futur simple") return withPronoun(p, fr2FuturSimple(v, p));
   if (t === "conditionnel présent") return withPronoun(p, fr2Conditionnel(v, p));
   if (t === "futur proche") return fr2FuturProche(v, p);

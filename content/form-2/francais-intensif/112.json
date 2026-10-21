@@ -1,0 +1,375 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 112,
+ "language": "fr",
+ "prerequisites": [
+  104
+ ],
+ "skills": [
+  {
+   "id": "fi2-112",
+   "name": "Les sujets multiples"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un verbe peut avoir plusieurs sujets reliés par et. Le verbe se met alors au pluriel : Bih et Nji écrivent. Avec un nom et moi, on emploie la première personne du pluriel : Bih et moi écrivons. Avec un nom et toi, sans moi, on emploie la deuxième personne du pluriel : Nji et toi écrivez. Cherche tous les sujets avant de choisir la terminaison. La leçon traite les sujets coordonnés par et.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : Bih et moi ___ un article.",
+  "steps": [
+   "Avec moi parmi les sujets, choisis nous.",
+   "Moi inclut le locuteur : nous préparons."
+  ],
+  "answer": "préparons",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c112-1",
+    "status": "draft",
+    "idea": "Des sujets reliés par et commandent ici le pluriel.",
+    "vars": {},
+    "example": [
+     "La radio et la télévision diffusent des informations."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-112-etape-1"
+    }
+   },
+   {
+    "id": "c112-2",
+    "status": "draft",
+    "idea": "Avec moi parmi les sujets, choisis nous.",
+    "vars": {},
+    "example": [
+     "Bih et moi préparons l’exposé."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-112-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Complète : Bih et moi ___ un article.",
+         "r": "préparons",
+         "w": [
+          "préparent",
+          "préparez"
+         ],
+         "y": "Moi inclut le locuteur : nous préparons."
+        },
+        {
+         "q": "Quel pronom remplace Nji et moi ?",
+         "r": "Nous",
+         "w": [
+          "Vous",
+          "Ils seulement"
+         ],
+         "y": "Moi et une autre personne forment nous."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c112-3",
+    "status": "draft",
+    "idea": "Avec toi, mais sans moi, choisis vous.",
+    "vars": {},
+    "example": [
+     "Nji et toi préparez le journal."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-112-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Complète : Nji et toi ___ le bulletin.",
+         "r": "préparez",
+         "w": [
+          "préparons",
+          "préparent"
+         ],
+         "y": "Toi et une autre personne correspondent à vous."
+        },
+        {
+         "q": "Quelle phrase est correcte ?",
+         "r": "Le journaliste et moi vérifions la source.",
+         "w": [
+          "Le journaliste et moi vérifie la source.",
+          "Le journaliste et moi vérifiez la source."
+         ],
+         "y": "Le groupe contient moi : on emploie nous vérifions."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-112-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : Bih et Nji ___ .",
+       "r": "écrivent",
+       "w": [
+        "écrit",
+        "écris"
+       ],
+       "y": "Bih et Nji correspondent à ils ou elles : pluriel."
+      },
+      {
+       "q": "Complète : Le journal et la radio ___ la nouvelle.",
+       "r": "annoncent",
+       "w": [
+        "annonce",
+        "annonces"
+       ],
+       "y": "Les deux sujets reliés par et commandent annoncent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-112-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : Bih et moi ___ un article.",
+       "r": "préparons",
+       "w": [
+        "préparent",
+        "préparez"
+       ],
+       "y": "Moi inclut le locuteur : nous préparons."
+      },
+      {
+       "q": "Quel pronom remplace Nji et moi ?",
+       "r": "Nous",
+       "w": [
+        "Vous",
+        "Ils seulement"
+       ],
+       "y": "Moi et une autre personne forment nous."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-112-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : Nji et toi ___ le bulletin.",
+       "r": "préparez",
+       "w": [
+        "préparons",
+        "préparent"
+       ],
+       "y": "Toi et une autre personne correspondent à vous."
+      },
+      {
+       "q": "Quelle phrase est correcte ?",
+       "r": "Le journaliste et moi vérifions la source.",
+       "w": [
+        "Le journaliste et moi vérifie la source.",
+        "Le journaliste et moi vérifiez la source."
+       ],
+       "y": "Le groupe contient moi : on emploie nous vérifions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

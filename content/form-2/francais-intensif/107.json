@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 107,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-107",
+   "name": "Le lexique des médias"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un média diffuse des informations à un public. La radio transmet principalement du son ; la télévision associe images et son. La presse écrite publie des articles dans des journaux ou des magazines, imprimés ou numériques. Sur Internet, les sites peuvent combiner texte, son et vidéo. Un journaliste recherche, vérifie et présente une information. Un titre annonce un sujet ; la source indique d’où vient l’information. Le support seul ne garantit pas la fiabilité.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que fait le titre d’un article ?",
+  "steps": [
+   "Les mots article, titre et source ont des fonctions différentes.",
+   "Le titre présente le sujet ; il ne suffit pas à prouver une information."
+  ],
+  "answer": "Il annonce son sujet.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c107-1",
+    "status": "draft",
+    "idea": "Un média diffuse des informations au public.",
+    "vars": {},
+    "example": [
+     "La radio peut diffuser un bulletin d’information."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-107-etape-1"
+    }
+   },
+   {
+    "id": "c107-2",
+    "status": "draft",
+    "idea": "Les mots article, titre et source ont des fonctions différentes.",
+    "vars": {},
+    "example": [
+     "Le titre annonce le sujet de l’article."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-107-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Que fait le titre d’un article ?",
+         "r": "Il annonce son sujet.",
+         "w": [
+          "Il prouve que tout est vrai.",
+          "Il remplace toutes les sources."
+         ],
+         "y": "Le titre présente le sujet ; il ne suffit pas à prouver une information."
+        },
+        {
+         "q": "Que précise une source ?",
+         "r": "L’origine d’une information.",
+         "w": [
+          "La couleur d’un clavier.",
+          "La taille du papier seulement."
+         ],
+         "y": "La source permet d’identifier l’origine de l’information."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c107-3",
+    "status": "draft",
+    "idea": "Vérifie une information quel que soit son support.",
+    "vars": {},
+    "example": [
+     "Je compare les sources avant de transmettre une nouvelle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-107-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ?",
+         "r": "Vérifier sa date et ses sources.",
+         "w": [
+          "La croire parce qu’elle est en ligne.",
+          "La partager parce que son titre est grand."
+         ],
+         "y": "La fiabilité dépend de la vérification, pas de la mise en page."
+        },
+        {
+         "q": "Le travail du journaliste comprend…",
+         "r": "la recherche et la vérification des informations.",
+         "w": [
+          "l’invention de toutes ses sources.",
+          "le remplacement des faits par des publicités."
+         ],
+         "y": "Le journaliste doit rechercher et vérifier ce qu’il présente."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-107-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel média peut-on écouter sans regarder un écran ?",
+       "r": "La radio.",
+       "w": [
+        "Une photographie imprimée.",
+        "Une affiche muette."
+       ],
+       "y": "La radio transmet du son."
+      },
+      {
+       "q": "Quel média associe habituellement images animées et son ?",
+       "r": "La télévision.",
+       "w": [
+        "Une feuille sans texte.",
+        "Une lettre manuscrite seule."
+       ],
+       "y": "Une émission télévisée associe images et son."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-107-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que fait le titre d’un article ?",
+       "r": "Il annonce son sujet.",
+       "w": [
+        "Il prouve que tout est vrai.",
+        "Il remplace toutes les sources."
+       ],
+       "y": "Le titre présente le sujet ; il ne suffit pas à prouver une information."
+      },
+      {
+       "q": "Que précise une source ?",
+       "r": "L’origine d’une information.",
+       "w": [
+        "La couleur d’un clavier.",
+        "La taille du papier seulement."
+       ],
+       "y": "La source permet d’identifier l’origine de l’information."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-107-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ?",
+       "r": "Vérifier sa date et ses sources.",
+       "w": [
+        "La croire parce qu’elle est en ligne.",
+        "La partager parce que son titre est grand."
+       ],
+       "y": "La fiabilité dépend de la vérification, pas de la mise en page."
+      },
+      {
+       "q": "Le travail du journaliste comprend…",
+       "r": "la recherche et la vérification des informations.",
+       "w": [
+        "l’invention de toutes ses sources.",
+        "le remplacement des faits par des publicités."
+       ],
+       "y": "Le journaliste doit rechercher et vérifier ce qu’il présente."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 115,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-115",
+   "name": "Le vocabulaire des réseaux sociaux"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un réseau social permet d’échanger des contenus et de communiquer avec d’autres utilisateurs. Un profil présente un utilisateur ; une publication est un contenu partagé ; un commentaire répond à un contenu. S’abonner permet de suivre des publications. Un message privé n’est pas une garantie de secret : son destinataire peut le transmettre. Avant de publier, respecte autrui, vérifie l’information et évite les renseignements personnels. Les noms cités dans la progression illustrent des services ; la leçon travaille le vocabulaire, sans demander de créer un compte.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un texte écrit en réaction à une publication est…",
+  "steps": [
+   "Un commentaire réagit à une publication.",
+   "Le commentaire répond ou réagit au contenu."
+  ],
+  "answer": "un commentaire.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c115-1",
+    "status": "draft",
+    "idea": "Profil et publication ne désignent pas la même chose.",
+    "vars": {},
+    "example": [
+     "Le profil présente l’utilisateur ; la publication est un contenu."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-115-etape-1"
+    }
+   },
+   {
+    "id": "c115-2",
+    "status": "draft",
+    "idea": "Un commentaire réagit à une publication.",
+    "vars": {},
+    "example": [
+     "Je commente un article sans insulter son auteur."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-115-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Un texte écrit en réaction à une publication est…",
+         "r": "un commentaire.",
+         "w": [
+          "une souris.",
+          "une batterie."
+         ],
+         "y": "Le commentaire répond ou réagit au contenu."
+        },
+        {
+         "q": "S’abonner à un compte permet notamment de…",
+         "r": "suivre ses publications.",
+         "w": [
+          "devenir son propriétaire.",
+          "connaître son mot de passe."
+         ],
+         "y": "Suivre un compte ne donne pas accès à ses secrets ni à sa propriété."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c115-3",
+    "status": "draft",
+    "idea": "Réfléchis aux destinataires et à la fiabilité avant de partager.",
+    "vars": {},
+    "example": [
+     "Un destinataire peut retransmettre un message privé."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-115-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Un message privé est-il impossible à retransmettre ?",
+         "r": "Non, son destinataire peut le copier ou le transférer.",
+         "w": [
+          "Oui, toujours.",
+          "Oui, s’il est court."
+         ],
+         "y": "Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité."
+        },
+        {
+         "q": "Avant de partager une nouvelle, il faut…",
+         "r": "vérifier l’information et respecter les personnes.",
+         "w": [
+          "ajouter une accusation sans preuve.",
+          "publier l’adresse d’un camarade."
+         ],
+         "y": "On vérifie les faits et on respecte la vie privée."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-115-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Comment appelle-t-on la présentation d’un utilisateur ?",
+       "r": "Un profil.",
+       "w": [
+        "Une imprimante.",
+        "Un câble."
+       ],
+       "y": "Le profil regroupe les informations présentées sur l’utilisateur."
+      },
+      {
+       "q": "Un contenu partagé sur le réseau est…",
+       "r": "une publication.",
+       "w": [
+        "un clavier.",
+        "un chargeur."
+       ],
+       "y": "Une publication peut contenir du texte, du son ou une image."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-115-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un texte écrit en réaction à une publication est…",
+       "r": "un commentaire.",
+       "w": [
+        "une souris.",
+        "une batterie."
+       ],
+       "y": "Le commentaire répond ou réagit au contenu."
+      },
+      {
+       "q": "S’abonner à un compte permet notamment de…",
+       "r": "suivre ses publications.",
+       "w": [
+        "devenir son propriétaire.",
+        "connaître son mot de passe."
+       ],
+       "y": "Suivre un compte ne donne pas accès à ses secrets ni à sa propriété."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-115-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un message privé est-il impossible à retransmettre ?",
+       "r": "Non, son destinataire peut le copier ou le transférer.",
+       "w": [
+        "Oui, toujours.",
+        "Oui, s’il est court."
+       ],
+       "y": "Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité."
+      },
+      {
+       "q": "Avant de partager une nouvelle, il faut…",
+       "r": "vérifier l’information et respecter les personnes.",
+       "w": [
+        "ajouter une accusation sans preuve.",
+        "publier l’adresse d’un camarade."
+       ],
+       "y": "On vérifie les faits et on respecte la vie privée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 123,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-123",
+   "name": "La communication téléphonique : préciser et transmettre"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Au téléphone, une demande peut nécessiter une précision. Présente-toi, indique le destinataire et l’objet de l’appel. Si le correspondant est absent, propose un rappel ou laisse un message. Avant de transmettre, vérifie le nom, le motif et les renseignements nécessaires. On peut reformuler pour confirmer. Ne révèle pas des renseignements personnels à un inconnu. Le travail proposé prépare un échange ; l’application n’écoute pas la voix.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel message peut-on transmettre clairement ?",
+  "steps": [
+   "Un message utile précise le nom et le motif.",
+   "Le nom et le motif permettent au destinataire de comprendre."
+  ],
+  "answer": "Nji a appelé pour confirmer la réunion du club.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c123-1",
+    "status": "draft",
+    "idea": "Une précision rend la demande compréhensible.",
+    "vars": {},
+    "example": [
+     "Je souhaite parler à la responsable du club de lecture."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-123-etape-1"
+    }
+   },
+   {
+    "id": "c123-2",
+    "status": "draft",
+    "idea": "Un message utile précise le nom et le motif.",
+    "vars": {},
+    "example": [
+     "Bih a appelé au sujet de la réunion."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-123-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel message peut-on transmettre clairement ?",
+         "r": "Nji a appelé pour confirmer la réunion du club.",
+         "w": [
+          "Quelqu’un voulait quelque chose.",
+          "Je n’ai rien écouté mais je sais tout."
+         ],
+         "y": "Le nom et le motif permettent au destinataire de comprendre."
+        },
+        {
+         "q": "Avant de noter un horaire mal entendu, que faire ?",
+         "r": "Le faire répéter et le reformuler.",
+         "w": [
+          "Choisir un horaire au hasard.",
+          "Remplacer l’horaire par une adresse inventée."
+         ],
+         "y": "La confirmation réduit le risque d’erreur."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c123-3",
+    "status": "draft",
+    "idea": "Vérifie avant de transmettre des informations personnelles.",
+    "vars": {},
+    "example": [
+     "Je demande conseil à un adulte de confiance."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-123-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Un inconnu demande l’adresse privée d’un camarade. Que faire ?",
+         "r": "Ne pas la donner et demander conseil à un adulte de confiance.",
+         "w": [
+          "La transmettre pour être poli.",
+          "La publier sur un réseau."
+         ],
+         "y": "La politesse n’oblige pas à divulguer la vie privée d’un autre."
+        },
+        {
+         "q": "Quelle formule termine poliment l’appel ?",
+         "r": "Merci, je transmettrai votre message. Au revoir.",
+         "w": [
+          "Je raccroche sans écouter.",
+          "Je vous interromps encore."
+         ],
+         "y": "On confirme la suite et on prend congé."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-123-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle demande précise le destinataire ?",
+       "r": "Puis-je parler à la responsable du club de lecture ?",
+       "w": [
+        "Passez-moi quelqu’un.",
+        "Vous savez déjà."
+       ],
+       "y": "La fonction demandée identifie l’interlocutrice recherchée."
+      },
+      {
+       "q": "Le son est mauvais. Que peux-tu demander ?",
+       "r": "Pourriez-vous répéter le nom ?",
+       "w": [
+        "Je vais deviner le nom.",
+        "Je transmets un nom inventé."
+       ],
+       "y": "Répéter évite de transmettre une information fausse."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-123-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel message peut-on transmettre clairement ?",
+       "r": "Nji a appelé pour confirmer la réunion du club.",
+       "w": [
+        "Quelqu’un voulait quelque chose.",
+        "Je n’ai rien écouté mais je sais tout."
+       ],
+       "y": "Le nom et le motif permettent au destinataire de comprendre."
+      },
+      {
+       "q": "Avant de noter un horaire mal entendu, que faire ?",
+       "r": "Le faire répéter et le reformuler.",
+       "w": [
+        "Choisir un horaire au hasard.",
+        "Remplacer l’horaire par une adresse inventée."
+       ],
+       "y": "La confirmation réduit le risque d’erreur."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-123-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un inconnu demande l’adresse privée d’un camarade. Que faire ?",
+       "r": "Ne pas la donner et demander conseil à un adulte de confiance.",
+       "w": [
+        "La transmettre pour être poli.",
+        "La publier sur un réseau."
+       ],
+       "y": "La politesse n’oblige pas à divulguer la vie privée d’un autre."
+      },
+      {
+       "q": "Quelle formule termine poliment l’appel ?",
+       "r": "Merci, je transmettrai votre message. Au revoir.",
+       "w": [
+        "Je raccroche sans écouter.",
+        "Je vous interromps encore."
+       ],
+       "y": "On confirme la suite et on prend congé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

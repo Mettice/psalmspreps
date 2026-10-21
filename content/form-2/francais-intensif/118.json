@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 118,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-118",
+   "name": "Les pronoms possessifs sujets"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un pronom possessif remplace un nom et indique une relation de possession : mon cahier devient le mien ; ta radio devient la tienne. Sa forme s’accorde avec ce qui est possédé : le mien, la mienne, les miens, les miennes. Le possesseur détermine la série : le tien, le sien, le nôtre, le vôtre, le leur. Le pronom peut être sujet : Le mien fonctionne. Les leurs fonctionnent. Un déterminant possessif accompagne un nom : mon cahier.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Remplace ma radio : ___ fonctionne.",
+  "steps": [
+   "Accorde la forme avec le nom remplacé.",
+   "Radio est féminin singulier : la mienne."
+  ],
+  "answer": "La mienne",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c118-1",
+    "status": "draft",
+    "idea": "Le pronom possessif remplace un groupe nominal.",
+    "vars": {},
+    "example": [
+     "Mon cahier est ici ; le tien est là."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-118-etape-1"
+    }
+   },
+   {
+    "id": "c118-2",
+    "status": "draft",
+    "idea": "Accorde la forme avec le nom remplacé.",
+    "vars": {},
+    "example": [
+     "Ma radio : la mienne ; mes cahiers : les miens."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-118-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Remplace ma radio : ___ fonctionne.",
+         "r": "La mienne",
+         "w": [
+          "Le mien",
+          "Les miens"
+         ],
+         "y": "Radio est féminin singulier : la mienne."
+        },
+        {
+         "q": "Remplace mes cahiers : ___ sont ici.",
+         "r": "Les miens",
+         "w": [
+          "La mienne",
+          "Le mien"
+         ],
+         "y": "Cahiers est masculin pluriel : les miens."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c118-3",
+    "status": "draft",
+    "idea": "Le verbe s’accorde avec le pronom sujet.",
+    "vars": {},
+    "example": [
+     "Le leur fonctionne ; les leurs fonctionnent."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-118-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Complète : Les leurs ___ bien.",
+         "r": "fonctionnent",
+         "w": [
+          "fonctionne",
+          "fonctionnes"
+         ],
+         "y": "Les leurs est pluriel et commande fonctionnent."
+        },
+        {
+         "q": "Quelle phrase distingue déterminant et pronom ?",
+         "r": "Mon cahier est ouvert ; le tien est fermé.",
+         "w": [
+          "Le mon est ouvert.",
+          "Le tien cahier est fermé."
+         ],
+         "y": "Mon accompagne cahier ; le tien remplace un groupe nominal."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-118-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel groupe est un pronom possessif ?",
+       "r": "Le mien",
+       "w": [
+        "Mon cahier",
+        "Un cahier"
+       ],
+       "y": "Le mien remplace un nom avec sa relation de possession."
+      },
+      {
+       "q": "Dans « La tienne fonctionne », quel groupe est sujet ?",
+       "r": "La tienne",
+       "w": [
+        "fonctionne",
+        "aucun sujet"
+       ],
+       "y": "Le pronom possessif la tienne est le sujet du verbe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-118-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Remplace ma radio : ___ fonctionne.",
+       "r": "La mienne",
+       "w": [
+        "Le mien",
+        "Les miens"
+       ],
+       "y": "Radio est féminin singulier : la mienne."
+      },
+      {
+       "q": "Remplace mes cahiers : ___ sont ici.",
+       "r": "Les miens",
+       "w": [
+        "La mienne",
+        "Le mien"
+       ],
+       "y": "Cahiers est masculin pluriel : les miens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-118-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : Les leurs ___ bien.",
+       "r": "fonctionnent",
+       "w": [
+        "fonctionne",
+        "fonctionnes"
+       ],
+       "y": "Les leurs est pluriel et commande fonctionnent."
+      },
+      {
+       "q": "Quelle phrase distingue déterminant et pronom ?",
+       "r": "Mon cahier est ouvert ; le tien est fermé.",
+       "w": [
+        "Le mon est ouvert.",
+        "Le tien cahier est fermé."
+       ],
+       "y": "Mon accompagne cahier ; le tien remplace un groupe nominal."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

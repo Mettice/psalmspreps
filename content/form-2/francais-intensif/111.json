@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 111,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-111",
+   "name": "Lire un court récit littéraire"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service.\nUn récit fait agir des personnages. Repère la situation de départ, l’événement qui la modifie et le dénouement. Une interprétation doit rester liée aux mots du texte. Ce texte original n’est pas un extrait d’une œuvre prescrite.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?",
+  "steps": [
+   "Repère l’événement qui crée le problème.",
+   "La rafale déclenche le problème à résoudre."
+  ],
+  "answer": "Une rafale fait tomber la lettre.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c111-1",
+    "status": "draft",
+    "idea": "Identifie la situation de départ.",
+    "vars": {},
+    "example": [
+     "Nji tient une lettre pour sa grand-mère."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-111-etape-1"
+    }
+   },
+   {
+    "id": "c111-2",
+    "status": "draft",
+    "idea": "Repère l’événement qui crée le problème.",
+    "vars": {},
+    "example": [
+     "Une rafale fait tomber la lettre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-111-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?",
+         "r": "Une rafale fait tomber la lettre.",
+         "w": [
+          "Nji achète un ordinateur.",
+          "La grand-mère arrive en avion."
+         ],
+         "y": "La rafale déclenche le problème à résoudre."
+        },
+        {
+         "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?",
+         "r": "Bih pose son cahier sur la lettre.",
+         "w": [
+          "Nji déchire la lettre.",
+          "Bih quitte la cour."
+         ],
+         "y": "Le cahier empêche la feuille de continuer à s’envoler."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c111-3",
+    "status": "draft",
+    "idea": "Appuie une interprétation sur un geste du récit.",
+    "vars": {},
+    "example": [
+     "Le geste de Bih illustre l’entraide."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-111-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ?",
+         "r": "Un petit geste peut rendre service.",
+         "w": [
+          "Il faut cacher les lettres des autres.",
+          "Le vent rend tout effort inutile."
+         ],
+         "y": "Le récit le montre par le geste simple de Bih."
+        },
+        {
+         "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?",
+         "r": "Non, le texte ne le donne pas.",
+         "w": [
+          "Oui, elle annonce forcément un mariage.",
+          "Oui, elle contient forcément de l’argent."
+         ],
+         "y": "Il ne faut pas inventer une information absente du récit."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-111-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. À qui la lettre est-elle destinée ?",
+       "r": "À la grand-mère de Nji.",
+       "w": [
+        "Au proviseur.",
+        "À un vendeur inconnu."
+       ],
+       "y": "La première phrase précise la destinataire."
+      },
+      {
+       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel personnage empêche la feuille de s’envoler ?",
+       "r": "Bih.",
+       "w": [
+        "La grand-mère.",
+        "Un chauffeur."
+       ],
+       "y": "Bih pose son cahier sur la feuille."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-111-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?",
+       "r": "Une rafale fait tomber la lettre.",
+       "w": [
+        "Nji achète un ordinateur.",
+        "La grand-mère arrive en avion."
+       ],
+       "y": "La rafale déclenche le problème à résoudre."
+      },
+      {
+       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?",
+       "r": "Bih pose son cahier sur la lettre.",
+       "w": [
+        "Nji déchire la lettre.",
+        "Bih quitte la cour."
+       ],
+       "y": "Le cahier empêche la feuille de continuer à s’envoler."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-111-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ?",
+       "r": "Un petit geste peut rendre service.",
+       "w": [
+        "Il faut cacher les lettres des autres.",
+        "Le vent rend tout effort inutile."
+       ],
+       "y": "Le récit le montre par le geste simple de Bih."
+      },
+      {
+       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?",
+       "r": "Non, le texte ne le donne pas.",
+       "w": [
+        "Oui, elle annonce forcément un mariage.",
+        "Oui, elle contient forcément de l’argent."
+       ],
+       "y": "Il ne faut pas inventer une information absente du récit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

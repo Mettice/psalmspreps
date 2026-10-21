@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 116,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-116",
+   "name": "Préparer un jeu de rôle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un jeu de rôle fait jouer une situation de communication : demander une information, transmettre un message ou résoudre un malentendu. Définis les personnages, leur relation et leur but. Prépare quelques répliques, écoute la réponse et adapte la suite. Un échange n’est pas une suite de monologues. Cette leçon prépare le dialogue par écrit ; l’application ne peut pas entendre ni noter ta prestation orale. Répète avec un partenaire ou un adulte si possible.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Ton interlocuteur parle trop vite. Que peux-tu dire ?",
+  "steps": [
+   "La réplique suivante tient compte de la réponse.",
+   "Une demande polie de répétition aide à comprendre."
+  ],
+  "answer": "Pourriez-vous répéter plus lentement ?",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c116-1",
+    "status": "draft",
+    "idea": "Chaque rôle a un interlocuteur et un but.",
+    "vars": {},
+    "example": [
+     "Un élève demande les horaires d’une bibliothèque."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-116-etape-1"
+    }
+   },
+   {
+    "id": "c116-2",
+    "status": "draft",
+    "idea": "La réplique suivante tient compte de la réponse.",
+    "vars": {},
+    "example": [
+     "Si l’horaire n’est pas compris, je demande une précision."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-116-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Ton interlocuteur parle trop vite. Que peux-tu dire ?",
+         "r": "Pourriez-vous répéter plus lentement ?",
+         "w": [
+          "Je réponds à une autre question.",
+          "Je prétends avoir tout compris."
+         ],
+         "y": "Une demande polie de répétition aide à comprendre."
+        },
+        {
+         "q": "La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ?",
+         "r": "Merci. À quelle heure ouvre-t-elle ?",
+         "w": [
+          "La pluie tombe loin d’ici.",
+          "Je refuse d’écouter votre réponse."
+         ],
+         "y": "La question précise l’information annoncée."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c116-3",
+    "status": "draft",
+    "idea": "Écouter et reformuler évitent les malentendus.",
+    "vars": {},
+    "example": [
+     "Si j’ai bien compris, elle ouvre l’après-midi."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-116-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase vérifie la compréhension ?",
+         "r": "Si j’ai bien compris, je peux venir demain après-midi.",
+         "w": [
+          "Je n’écoute jamais les réponses.",
+          "Je change les horaires à ma guise."
+         ],
+         "y": "La reformulation permet de confirmer l’information."
+        },
+        {
+         "q": "Que peut évaluer un partenaire pendant le jeu ?",
+         "r": "La clarté, l’écoute et la politesse.",
+         "w": [
+          "Seulement la couleur du cahier.",
+          "La réussite d’un compte Internet."
+         ],
+         "y": "Ces critères concernent une communication réelle."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-116-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un élève demande les horaires. Quel est son but ?",
+       "r": "Obtenir une information.",
+       "w": [
+        "Commander un repas sans rapport.",
+        "Réciter une liste de couleurs."
+       ],
+       "y": "Le but est d’obtenir l’horaire demandé."
+      },
+      {
+       "q": "Qui peut jouer l’autre rôle dans cette scène ?",
+       "r": "La personne qui accueille à la bibliothèque.",
+       "w": [
+        "Un objet qui ne répond pas.",
+        "Une publicité sans rapport."
+       ],
+       "y": "Le second rôle doit pouvoir répondre à la demande."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-116-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ton interlocuteur parle trop vite. Que peux-tu dire ?",
+       "r": "Pourriez-vous répéter plus lentement ?",
+       "w": [
+        "Je réponds à une autre question.",
+        "Je prétends avoir tout compris."
+       ],
+       "y": "Une demande polie de répétition aide à comprendre."
+      },
+      {
+       "q": "La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ?",
+       "r": "Merci. À quelle heure ouvre-t-elle ?",
+       "w": [
+        "La pluie tombe loin d’ici.",
+        "Je refuse d’écouter votre réponse."
+       ],
+       "y": "La question précise l’information annoncée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-116-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase vérifie la compréhension ?",
+       "r": "Si j’ai bien compris, je peux venir demain après-midi.",
+       "w": [
+        "Je n’écoute jamais les réponses.",
+        "Je change les horaires à ma guise."
+       ],
+       "y": "La reformulation permet de confirmer l’information."
+      },
+      {
+       "q": "Que peut évaluer un partenaire pendant le jeu ?",
+       "r": "La clarté, l’écoute et la politesse.",
+       "w": [
+        "Seulement la couleur du cahier.",
+        "La réussite d’un compte Internet."
+       ],
+       "y": "Ces critères concernent une communication réelle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

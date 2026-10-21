@@ -1,3 +1,4 @@
+// Term 3: rows 104–128; integration row 129 is excluded.
 // Form 2 Français intensif, Batches FI2-1 and FI2-2 content tests (Term 1, rows 1–25 and 27–51; Term 2, rows 53–76 and 78–102; integration rows 26, 52, 77 and 103 are not
 // lessons). Same rules as every subject, plus: every template is marked lang "fr".
 import { test } from "node:test";
@@ -16,7 +17,12 @@ import * as french from "../src/engine/lib/french.js";
 import * as french2 from "../src/engine/lib/french2.js";
 import { subjectSuite } from "./subject-suite.js";
 
-const BATCH = [...Array.from({ length: 25 }, (_, i) => i + 1), ...Array.from({ length: 25 }, (_, i) => i + 27), ...Array.from({ length: 24 }, (_, i) => i + 53), ...Array.from({ length: 25 }, (_, i) => i + 78)];
+const BATCH = [...Array.from({ length: 25 }, (_, i) => i + 1), ...Array.from({ length: 25 }, (_, i) => i + 27), ...Array.from({ length: 24 }, (_, i) => i + 53), ...Array.from({ length: 25 }, (_, i) => i + 78), ...Array.from({ length: 25 }, (_, i) => i + 104)];
+test("form 2 français intensif: Term 3 covers every lesson row and excludes integration", () => {
+  const spine = JSON.parse(readFileSync(new URL("../data/spine/form-2/francais-intensif.json", import.meta.url), "utf8"));
+  assert.deepEqual(BATCH.filter((n) => n >= 104), spine.terms[2].lessons.filter((l) => l.kind === "lesson").map((l) => l.seq));
+  assert.ok(!BATCH.includes(129));
+});
 subjectSuite({
   subject: "francais-intensif", dir: "form-2/francais-intensif", cls: "Form 2", spine: "form-2/francais-intensif", prefix: "fi2-", numbering: "seq",
   lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french, ...french2 },

@@ -1,0 +1,387 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 113,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-113",
+   "name": "Le passé antérieur"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé antérieur est un temps composé surtout employé dans les récits écrits. Il se forme avec avoir ou être au passé simple, suivi du participe passé : j’eus fini, elle fut partie. Avec être, le participe s’accorde avec le sujet : elles furent parties.\nIl peut marquer une action achevée avant une autre action au passé simple : Quand elle eut fini son article, elle le publia. Ne le confonds pas avec le plus-que-parfait, dont l’auxiliaire est à l’imparfait : elle avait fini.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "v": "finir",
+   "p": 4
+  },
+  "problem": "Conjugue « {v} » au passé antérieur avec nous.",
+  "steps": [
+   "Le sujet est nous.",
+   "La forme complète est {fr2Form2(v, p, 'passé antérieur')}."
+  ],
+  "answer": "{fr2Form2(v, p, 'passé antérieur')}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c113-1",
+    "status": "draft",
+    "idea": "Le temps demandé est le passé antérieur.",
+    "vars": {},
+    "example": [
+     "Lis la consigne et repère le verbe à l’infinitif."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-113-simple"
+    }
+   },
+   {
+    "id": "c113-2",
+    "status": "draft",
+    "idea": "La terminaison dépend du sujet.",
+    "vars": {},
+    "example": [
+     "Avec nous, on emploie la première personne du pluriel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-113-forme-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        "finir",
+        "parler",
+        "aller",
+        "partir",
+        "lire",
+        "écrire",
+        "faire",
+        "arriver"
+       ]
+      },
+      "p": {
+       "int": [
+        0,
+        7
+       ]
+      }
+     },
+     "prompt": "Conjugue « {v} » au passé antérieur avec « {fr2Pronoun(p)} ».",
+     "correct": "{fr2Form2(v, p, 'passé antérieur')}",
+     "distractors": [
+      {
+       "text": "{fr2Form2(v, p, 'présent')}",
+       "misconception": "temps"
+      },
+      {
+       "text": "{fr2Form2(v, (p + 4) % 8, 'passé antérieur')}",
+       "misconception": "sujet"
+      },
+      {
+       "text": "{fr2With(p, v)}",
+       "misconception": "inf"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "temps",
+       "explain": "Cette forme est au présent, pas au passé antérieur."
+      },
+      {
+       "id": "sujet",
+       "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+      },
+      {
+       "id": "inf",
+       "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+      }
+     ],
+     "solution": [
+      "Le temps demandé est le passé antérieur.",
+      "Le sujet est « {fr2Pronoun(p)} ».",
+      "La forme complète est : {answer}."
+     ],
+     "min_distractors": 2,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c113-3",
+    "status": "draft",
+    "idea": "Vérifie le temps et le sujet avant de valider.",
+    "vars": {},
+    "example": [
+     "Une forme correcte à un autre temps ne répond pas à la consigne."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-113-emploi-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ?",
+         "r": "Elle a fini avant de partir.",
+         "w": [
+          "Elle est partie avant de finir.",
+          "Les deux verbes sont au futur."
+         ],
+         "y": "Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit."
+        },
+        {
+         "q": "Quelle forme suit la construction du passé antérieur ?",
+         "r": "Nous eûmes terminé.",
+         "w": [
+          "Nous avions terminé.",
+          "Nous avons terminé."
+         ],
+         "y": "Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-113-simple",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "finir",
+      "parler",
+      "aller"
+     ]
+    },
+    "p": {
+     "pick": [
+      2,
+      4,
+      6
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé antérieur avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2Form2(v, p, 'passé antérieur')}",
+   "distractors": [
+    {
+     "text": "{fr2Form2(v, p, 'présent')}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2Form2(v, (p + 4) % 8, 'passé antérieur')}",
+     "misconception": "sujet"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette forme est au présent, pas au passé antérieur."
+    },
+    {
+     "id": "sujet",
+     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+    }
+   ],
+   "solution": [
+    "Le temps demandé est le passé antérieur.",
+    "Le sujet est « {fr2Pronoun(p)} ».",
+    "La forme complète est : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-113-forme",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "finir",
+      "parler",
+      "aller",
+      "partir",
+      "lire",
+      "écrire",
+      "faire",
+      "arriver"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé antérieur avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2Form2(v, p, 'passé antérieur')}",
+   "distractors": [
+    {
+     "text": "{fr2Form2(v, p, 'présent')}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2Form2(v, (p + 4) % 8, 'passé antérieur')}",
+     "misconception": "sujet"
+    },
+    {
+     "text": "{fr2With(p, v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette forme est au présent, pas au passé antérieur."
+    },
+    {
+     "id": "sujet",
+     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
+    },
+    {
+     "id": "inf",
+     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
+    }
+   ],
+   "solution": [
+    "Le temps demandé est le passé antérieur.",
+    "Le sujet est « {fr2Pronoun(p)} ».",
+    "La forme complète est : {answer}."
+   ],
+   "min_distractors": 2,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-113-emploi",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ?",
+       "r": "Elle a fini avant de partir.",
+       "w": [
+        "Elle est partie avant de finir.",
+        "Les deux verbes sont au futur."
+       ],
+       "y": "Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit."
+      },
+      {
+       "q": "Quelle forme suit la construction du passé antérieur ?",
+       "r": "Nous eûmes terminé.",
+       "w": [
+        "Nous avions terminé.",
+        "Nous avons terminé."
+       ],
+       "y": "Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

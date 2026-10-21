@@ -1,31 +1,44 @@
 {
- "_note": "Sources for Form 2 Français intensif (Batches FI2-1 and FI2-2, Terms 1 and 2, rows 1–25, 27–51, 53–76 and 78–102). Verb forms, plurals and adverbs are computed by src/engine/lib/french2.js from authored tables; everything else is authored. A French teacher must check it (TR-Z items).",
+ "_note": "Sources for Form 2 Français intensif (Batches FI2-1 and FI2-2, Terms 1 and 2, rows 1–25, 27–51, 53–76 and 78–102). Verb forms, plurals and adverbs are computed by src/engine/lib/french2.js from authored tables; everything else is authored. A French teacher must check it (TR-Z items). Term 3 FI2-3: rows 104–128, excluding integration row 129. Original texts and models; sound/oral and image exercises are preparation, with no audio assessment and scenes described in words.",
  "lecture": {
-  "ref": "Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma)",
+  "ref": "Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3)",
   "checked": "Original texts, not copied from a book; Bénakuma is an imaginary village. Not opened online for this batch (2026-10-18). A French teacher decides (TR-Z03)."
  },
  "litterature": {
-  "ref": "Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio",
+  "ref": "Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original)",
   "checked": "General literary knowledge, not opened online for this batch (2026-10-18); authors and titles to be checked by the teacher (TR-Z08)."
  },
  "vocabulaire": {
-  "ref": "Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban)",
+  "ref": "Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet",
   "checked": "Standard school French and general knowledge; not opened online for this batch (2026-10-18). A French teacher decides (TR-Z03)."
  },
  "conjugaison": {
   "ref": "Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant)",
-  "checked": "Forms computed by french2.js from the authored table and checked in tests-js/french2.test.js; the table must be checked by a French teacher (TR-Z01)."
+  "checked": "Forms computed by french2.js from the authored table and checked in tests-js/french2.test.js; the table must be checked by a French teacher (TR-Z01).",
+  "term3": {
+   "ref": "OQLF, passé antérieur; Alloprof, Le passé antérieur de l’indicatif",
+   "urls": [
+    "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559787/passe-anterieur",
+    "https://www.alloprof.qc.ca/fr/eleves/bv/francais/le-passe-anterieur-de-l-indicatif-f1202"
+   ],
+   "checked": "Official educational search-result summaries consulted 2026-10-21: auxiliary in the passé simple + past participle; anterior action in past narration. Known-answer tests cover avoir/être, elision and agreement. Teacher review pending."
+  }
  },
  "grammaire": {
-  "ref": "Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative",
+  "ref": "Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets",
   "checked": "Standard French grammar rules (Grevisse, usage scolaire); plurals and adverbs computed from authored tables in french2.js (TR-Z06, TR-Z07)."
  },
  "orthographe": {
   "ref": "Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot)",
-  "checked": "Standard school French; the sheet’s sound symbols (/ᴓ/ feu, /ә/ côte, [3] juge) are read as [ø], [o] and [ʒ] (inference, TR-Z04)."
+  "checked": "Standard school French; the sheet’s sound symbols (/ᴓ/ feu, /ә/ côte, [3] juge) are read as [ø], [o] and [ʒ] (inference, TR-Z04).",
+  "term3": {
+   "ref": "OQLF, traits articulatoires des voyelles",
+   "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22133/la-prononciation/notions-de-base-en-phonetique/les-traits-articulatoires-des-voyelles",
+   "checked": "Consulted 2026-10-21. Interpret the sheet’s symbols from parfum/un ([œ̃]), vin/pain ([ɛ̃]) and nature ([n]). Accent differences acknowledged; no voice assessment."
+  }
  },
  "expression": {
-  "ref": "Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images",
+  "ref": "Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots",
   "checked": "Method lessons written for the app; oral rows are taught as preparation, since the app cannot hear the pupil (TR-Z05)."
  }
 }

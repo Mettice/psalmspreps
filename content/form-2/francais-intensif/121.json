@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 121,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-121",
+   "name": "Préparer l’interprétation d’une image"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Interpréter une image consiste à distinguer la description visible, le message possible et son avis. On présente le document, décrit les éléments et leur place, puis on justifie une interprétation. Un détail isolé ne prouve pas tout.\nPréparation sans photographie : imagine la scène décrite dans les questions. Le professeur pourra ensuite utiliser une vraie image. L’application ne peut pas entendre ni noter la présentation orale.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ?",
+  "steps": [
+   "Une interprétation s’appuie sur plusieurs indices.",
+   "L’affiche et l’action convergent vers la propreté."
+  ],
+  "answer": "Participer à la propreté de la cour.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c121-1",
+    "status": "draft",
+    "idea": "Commence par les éléments décrits, sans inventer.",
+    "vars": {},
+    "example": [
+     "Au premier plan, une élève montre une affiche."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-121-etape-1"
+    }
+   },
+   {
+    "id": "c121-2",
+    "status": "draft",
+    "idea": "Une interprétation s’appuie sur plusieurs indices.",
+    "vars": {},
+    "example": [
+     "Une affiche de propreté et une action de nettoyage peuvent suggérer un appel à agir."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-121-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ?",
+         "r": "Participer à la propreté de la cour.",
+         "w": [
+          "Interdire tous les cahiers.",
+          "Quitter l’école définitivement."
+         ],
+         "y": "L’affiche et l’action convergent vers la propreté."
+        },
+        {
+         "q": "Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?",
+         "r": "Vérifier une information avant de la partager.",
+         "w": [
+          "Croire chaque titre sans lire.",
+          "Jeter tous les journaux."
+         ],
+         "y": "Le texte de l’affiche et la comparaison soutiennent la vérification."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c121-3",
+    "status": "draft",
+    "idea": "Signale clairement ton avis et les limites de ce que tu sais.",
+    "vars": {},
+    "example": [
+     "À mon avis, cette affiche invite à agir."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-121-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase signale un avis ?",
+         "r": "À mon avis, cette affiche est convaincante.",
+         "w": [
+          "Un élève est au premier plan.",
+          "L’affiche contient un titre."
+         ],
+         "y": "À mon avis annonce un jugement personnel."
+        },
+        {
+         "q": "Si l’image ne donne pas la date, que faire ?",
+         "r": "Dire que la date n’est pas indiquée.",
+         "w": [
+          "Inventer une date certaine.",
+          "Confondre la date avec la couleur."
+         ],
+         "y": "On distingue ce que l’on sait de ce qui n’est pas fourni."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-121-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Scène décrite : une élève montre une affiche devant un groupe. Quelle phrase décrit ce qui est annoncé ?",
+       "r": "Une élève montre une affiche.",
+       "w": [
+        "Elle est forcément la meilleure de la classe.",
+        "Tout le monde connaît son âge."
+       ],
+       "y": "Seule la première phrase reprend un élément donné."
+      },
+      {
+       "q": "Scène décrite : un garçon trie du papier près d’une poubelle. Quelle phrase décrit la scène ?",
+       "r": "Un garçon trie du papier.",
+       "w": [
+        "Il est certainement riche.",
+        "Il a forcément gagné un concours."
+       ],
+       "y": "Le tri du papier est annoncé ; les autres informations sont inventées."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-121-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ?",
+       "r": "Participer à la propreté de la cour.",
+       "w": [
+        "Interdire tous les cahiers.",
+        "Quitter l’école définitivement."
+       ],
+       "y": "L’affiche et l’action convergent vers la propreté."
+      },
+      {
+       "q": "Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?",
+       "r": "Vérifier une information avant de la partager.",
+       "w": [
+        "Croire chaque titre sans lire.",
+        "Jeter tous les journaux."
+       ],
+       "y": "Le texte de l’affiche et la comparaison soutiennent la vérification."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-121-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase signale un avis ?",
+       "r": "À mon avis, cette affiche est convaincante.",
+       "w": [
+        "Un élève est au premier plan.",
+        "L’affiche contient un titre."
+       ],
+       "y": "À mon avis annonce un jugement personnel."
+      },
+      {
+       "q": "Si l’image ne donne pas la date, que faire ?",
+       "r": "Dire que la date n’est pas indiquée.",
+       "w": [
+        "Inventer une date certaine.",
+        "Confondre la date avec la couleur."
+       ],
+       "y": "On distingue ce que l’on sait de ce qui n’est pas fourni."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

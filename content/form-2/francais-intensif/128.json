@@ -1,0 +1,387 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 128,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-128",
+   "name": "Description, portrait et narration"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La description présente un lieu ou un objet ; le portrait décrit une personne ou un personnage ; la narration raconte des événements. Un même texte peut combiner ces démarches : décrire la salle du club, présenter une élève puis raconter la préparation d’une annonce. Pour écrire, choisis ton but et organise les passages. Les détails doivent aider le lecteur à comprendre les personnages et les actions. Relis pour vérifier la cohérence, les temps, les accords et la ponctuation.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel passage raconte des événements ?",
+  "steps": [
+   "Une narration fait avancer les événements.",
+   "Les actions successives font avancer le récit."
+  ],
+  "answer": "Bih a ouvert le cahier, puis elle a lu l’annonce.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c128-1",
+    "status": "draft",
+    "idea": "Identifie le but principal du passage.",
+    "vars": {},
+    "example": [
+     "Une salle lumineuse : description ; une élève patiente : portrait."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-128-etape-1"
+    }
+   },
+   {
+    "id": "c128-2",
+    "status": "draft",
+    "idea": "Une narration fait avancer les événements.",
+    "vars": {},
+    "example": [
+     "Bih arriva, prit son cahier puis lut l’annonce."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-128-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel passage raconte des événements ?",
+         "r": "Bih a ouvert le cahier, puis elle a lu l’annonce.",
+         "w": [
+          "La table est ronde et blanche.",
+          "Bih est calme et attentive."
+         ],
+         "y": "Les actions successives font avancer le récit."
+        },
+        {
+         "q": "Quel passage peut préparer une narration ?",
+         "r": "Décrire brièvement la salle où l’action commence.",
+         "w": [
+          "Insérer une liste sans rapport.",
+          "Changer de personnage sans prévenir."
+         ],
+         "y": "Une description utile situe l’action à venir."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c128-3",
+    "status": "draft",
+    "idea": "Combine les passages sans perdre le fil du texte.",
+    "vars": {},
+    "example": [
+     "Je présente le lieu, le personnage, puis le problème et sa résolution."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-128-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel plan réunit les trois démarches ?",
+         "r": "Présenter la salle, faire le portrait de Bih, raconter son intervention.",
+         "w": [
+          "Répéter le même adjectif sans événement.",
+          "Changer de sujet à chaque phrase."
+         ],
+         "y": "Le plan articule description, portrait et narration autour d’une même scène."
+        },
+        {
+         "q": "Que vérifier à la fin ?",
+         "r": "La cohérence des passages, les accords et les temps.",
+         "w": [
+          "Seulement le nombre de couleurs citées.",
+          "Que le récit n’ait aucun lien avec son début."
+         ],
+         "y": "Les différentes démarches doivent former un ensemble compréhensible."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-128-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "« La salle est lumineuse ; une table occupe le centre. » C’est surtout…",
+       "r": "une description.",
+       "w": [
+        "une demande officielle.",
+        "une conjugaison isolée."
+       ],
+       "y": "Le passage présente un lieu et sa disposition."
+      },
+      {
+       "q": "« Bih est patiente et porte une veste bleue. » C’est surtout…",
+       "r": "un portrait.",
+       "w": [
+        "une recette.",
+        "un itinéraire."
+       ],
+       "y": "Le passage décrit une personne."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-128-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel passage raconte des événements ?",
+       "r": "Bih a ouvert le cahier, puis elle a lu l’annonce.",
+       "w": [
+        "La table est ronde et blanche.",
+        "Bih est calme et attentive."
+       ],
+       "y": "Les actions successives font avancer le récit."
+      },
+      {
+       "q": "Quel passage peut préparer une narration ?",
+       "r": "Décrire brièvement la salle où l’action commence.",
+       "w": [
+        "Insérer une liste sans rapport.",
+        "Changer de personnage sans prévenir."
+       ],
+       "y": "Une description utile situe l’action à venir."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-128-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel plan réunit les trois démarches ?",
+       "r": "Présenter la salle, faire le portrait de Bih, raconter son intervention.",
+       "w": [
+        "Répéter le même adjectif sans événement.",
+        "Changer de sujet à chaque phrase."
+       ],
+       "y": "Le plan articule description, portrait et narration autour d’une même scène."
+      },
+      {
+       "q": "Que vérifier à la fin ?",
+       "r": "La cohérence des passages, les accords et les temps.",
+       "w": [
+        "Seulement le nombre de couleurs citées.",
+        "Que le récit n’ait aucun lien avec son début."
+       ],
+       "y": "Les différentes démarches doivent former un ensemble compréhensible."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Écris un texte sur une annonce au club de l’école. Décris brièvement le lieu, présente un personnage et raconte comment il communique malgré un petit obstacle.",
+  "model": [
+   "La salle du club était claire et bien rangée. Bih, une élève attentive, tenait son cahier près de la table. Ce matin-là, le micro est tombé en panne. Elle a demandé aux camarades de se rapprocher, puis elle a lu lentement. Tout le monde a compris l’annonce."
+  ],
+  "checklist": [
+   "J’ai décrit le lieu et présenté le personnage.",
+   "J’ai raconté un obstacle et sa résolution.",
+   "Les passages, les temps et les accords sont cohérents."
+  ],
+  "checks": []
+ }
+}

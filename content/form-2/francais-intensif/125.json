@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 125,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-125",
+   "name": "Rechercher une information sur Internet"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une recherche commence par une question claire. Les mots-clés résument les notions importantes. Un moteur de recherche propose des résultats ; chaque résultat renvoie vers une ressource. Lis le titre et le résumé, puis consulte la page. Vérifie l’auteur, la date, les sources et la pertinence. Compare plusieurs ressources lorsque c’est possible. Un résultat bien placé ou sponsorisé n’est pas automatiquement le plus fiable. Note la source utilisée pour pouvoir la retrouver et la citer.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un titre correspond à ton sujet. Quelle étape suit ?",
+  "steps": [
+   "Le résultat doit être ouvert et vérifié.",
+   "Un titre pertinent ne suffit pas à vérifier l’information."
+  ],
+  "answer": "Ouvrir la ressource et vérifier son contenu et ses sources.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c125-1",
+    "status": "draft",
+    "idea": "Des mots-clés précis correspondent à la question.",
+    "vars": {},
+    "example": [
+     "Pour étudier les marchés de Bamenda, je combine marchés et Bamenda."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-125-etape-1"
+    }
+   },
+   {
+    "id": "c125-2",
+    "status": "draft",
+    "idea": "Le résultat doit être ouvert et vérifié.",
+    "vars": {},
+    "example": [
+     "Je vérifie l’auteur et la date de la page."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-125-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Un titre correspond à ton sujet. Quelle étape suit ?",
+         "r": "Ouvrir la ressource et vérifier son contenu et ses sources.",
+         "w": [
+          "Copier sans lire.",
+          "Croire le titre seulement."
+         ],
+         "y": "Un titre pertinent ne suffit pas à vérifier l’information."
+        },
+        {
+         "q": "Pourquoi noter la date d’une information ?",
+         "r": "Pour juger si elle convient à la question et au moment étudié.",
+         "w": [
+          "Pour prouver automatiquement qu’elle est vraie.",
+          "Pour éviter de lire le texte."
+         ],
+         "y": "La date aide à situer l’information, sans garantir sa vérité."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c125-3",
+    "status": "draft",
+    "idea": "La place dans les résultats ne prouve pas la fiabilité.",
+    "vars": {},
+    "example": [
+     "Je compare les informations et conserve les références."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-125-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?",
+         "r": "Non, il faut vérifier l’information.",
+         "w": [
+          "Oui, la publicité est une preuve.",
+          "Oui, sa place remplace ses sources."
+         ],
+         "y": "Une annonce ou un classement ne garantit pas l’exactitude."
+        },
+        {
+         "q": "Pourquoi conserver l’adresse et le titre de la source ?",
+         "r": "Pour la retrouver et citer l’origine de l’information.",
+         "w": [
+          "Pour inventer un auteur.",
+          "Pour éviter toute vérification."
+         ],
+         "y": "Une référence permet de retrouver le document utilisé."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-125-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quels mots-clés répondent à une recherche sur les marchés de Bamenda ?",
+       "r": "marchés Bamenda",
+       "w": [
+        "tout et rien",
+        "un jeu sans rapport"
+       ],
+       "y": "Les mots-clés reprennent le sujet et le lieu."
+      },
+      {
+       "q": "Quel outil propose des résultats à partir de mots-clés ?",
+       "r": "Un moteur de recherche.",
+       "w": [
+        "Une imprimante sans connexion.",
+        "Un câble seul."
+       ],
+       "y": "Le moteur de recherche aide à trouver des ressources."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-125-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un titre correspond à ton sujet. Quelle étape suit ?",
+       "r": "Ouvrir la ressource et vérifier son contenu et ses sources.",
+       "w": [
+        "Copier sans lire.",
+        "Croire le titre seulement."
+       ],
+       "y": "Un titre pertinent ne suffit pas à vérifier l’information."
+      },
+      {
+       "q": "Pourquoi noter la date d’une information ?",
+       "r": "Pour juger si elle convient à la question et au moment étudié.",
+       "w": [
+        "Pour prouver automatiquement qu’elle est vraie.",
+        "Pour éviter de lire le texte."
+       ],
+       "y": "La date aide à situer l’information, sans garantir sa vérité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-125-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?",
+       "r": "Non, il faut vérifier l’information.",
+       "w": [
+        "Oui, la publicité est une preuve.",
+        "Oui, sa place remplace ses sources."
+       ],
+       "y": "Une annonce ou un classement ne garantit pas l’exactitude."
+      },
+      {
+       "q": "Pourquoi conserver l’adresse et le titre de la source ?",
+       "r": "Pour la retrouver et citer l’origine de l’information.",
+       "w": [
+        "Pour inventer un auteur.",
+        "Pour éviter toute vérification."
+       ],
+       "y": "Une référence permet de retrouver le document utilisé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 109,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-109",
+   "name": "Lire un texte sur les médias scolaires"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club.\nPour répondre, distingue ce qui est écrit de ce que tu supposes. Appuie une interprétation sur un indice précis.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?",
+  "steps": [
+   "Retrouve l’ordre des actions.",
+   "Le texte précise avant d’afficher."
+  ],
+  "answer": "Avant de l’afficher.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c109-1",
+    "status": "draft",
+    "idea": "Repère les personnages et leur projet.",
+    "vars": {},
+    "example": [
+     "Bih et Nji préparent un bulletin scolaire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-109-etape-1"
+    }
+   },
+   {
+    "id": "c109-2",
+    "status": "draft",
+    "idea": "Retrouve l’ordre des actions.",
+    "vars": {},
+    "example": [
+     "Les élèves relisent avant d’afficher."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-109-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?",
+         "r": "Avant de l’afficher.",
+         "w": [
+          "Après plusieurs années.",
+          "Avant de l’écrire."
+         ],
+         "y": "Le texte précise avant d’afficher."
+        },
+        {
+         "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?",
+         "r": "Une erreur de date.",
+         "w": [
+          "La couleur d’une chaise.",
+          "Le prix d’un repas."
+         ],
+         "y": "La date de la rencontre est l’information vérifiée."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c109-3",
+    "status": "draft",
+    "idea": "Relie la vérification à son effet.",
+    "vars": {},
+    "example": [
+     "La bonne date aide les élèves à venir au club."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-109-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "lecture"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. À quoi sert la relecture dans ce récit ?",
+         "r": "À éviter de diffuser une mauvaise date.",
+         "w": [
+          "À supprimer toutes les rencontres.",
+          "À remplacer l’entretien par une rumeur."
+         ],
+         "y": "La relecture permet de corriger une erreur utile aux lecteurs."
+        },
+        {
+         "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?",
+         "r": "Vérifier avant d’informer.",
+         "w": [
+          "Un voyage en mer.",
+          "La panne du camion."
+         ],
+         "y": "Le récit montre comment une vérification améliore un bulletin."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-109-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Que préparent les élèves ?",
+       "r": "Un bulletin pour l’école.",
+       "w": [
+        "Une émission de cuisine.",
+        "Un permis de conduire."
+       ],
+       "y": "Le projet est annoncé au début du texte."
+      },
+      {
+       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Qui Bih interroge-t-elle ?",
+       "r": "La bibliothécaire.",
+       "w": [
+        "Un chauffeur.",
+        "Un gardien de stade."
+       ],
+       "y": "Le texte nomme son interlocutrice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-109-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?",
+       "r": "Avant de l’afficher.",
+       "w": [
+        "Après plusieurs années.",
+        "Avant de l’écrire."
+       ],
+       "y": "Le texte précise avant d’afficher."
+      },
+      {
+       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?",
+       "r": "Une erreur de date.",
+       "w": [
+        "La couleur d’une chaise.",
+        "Le prix d’un repas."
+       ],
+       "y": "La date de la rencontre est l’information vérifiée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-109-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "lecture"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. À quoi sert la relecture dans ce récit ?",
+       "r": "À éviter de diffuser une mauvaise date.",
+       "w": [
+        "À supprimer toutes les rencontres.",
+        "À remplacer l’entretien par une rumeur."
+       ],
+       "y": "La relecture permet de corriger une erreur utile aux lecteurs."
+      },
+      {
+       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?",
+       "r": "Vérifier avant d’informer.",
+       "w": [
+        "Un voyage en mer.",
+        "La panne du camion."
+       ],
+       "y": "Le récit montre comment une vérification améliore un bulletin."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

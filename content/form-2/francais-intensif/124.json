@@ -1,0 +1,387 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 124,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-124",
+   "name": "Écrire à partir d’une suite d’images"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour écrire à partir d’images, observe les personnages, le lieu, les actions et les changements. Distingue ce qui est visible de ce que tu ajoutes pour relier les scènes. Range les événements, puis rédige des phrases liées.\nDans cette préparation sans images affichées, les scènes sont décrites en mots : une élève trouve un cahier ; elle lit le nom sur la couverture ; elle rend le cahier à son propriétaire. Le professeur peut remplacer ces descriptions par des illustrations en classe.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelle suite suit les scènes proposées ?",
+  "steps": [
+   "Les scènes doivent être reliées dans l’ordre.",
+   "La découverte précède l’identification et la restitution."
+  ],
+  "answer": "Trouver, identifier, rendre.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c124-1",
+    "status": "draft",
+    "idea": "Repère l’action principale de chaque scène.",
+    "vars": {},
+    "example": [
+     "Une élève trouve un cahier."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-124-etape-1"
+    }
+   },
+   {
+    "id": "c124-2",
+    "status": "draft",
+    "idea": "Les scènes doivent être reliées dans l’ordre.",
+    "vars": {},
+    "example": [
+     "Trouver le cahier, lire le nom, le rendre."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-124-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle suite suit les scènes proposées ?",
+         "r": "Trouver, identifier, rendre.",
+         "w": [
+          "Rendre, détruire, chercher sans cahier.",
+          "Changer de personnage à chaque mot."
+         ],
+         "y": "La découverte précède l’identification et la restitution."
+        },
+        {
+         "q": "Quel lien convient entre la découverte et la lecture du nom ?",
+         "r": "Ensuite",
+         "w": [
+          "Pourtant hier demain",
+          "Sans aucun rapport"
+         ],
+         "y": "Ensuite marque l’étape suivante du récit."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c124-3",
+    "status": "draft",
+    "idea": "Ajoute seulement des liens compatibles avec les scènes.",
+    "vars": {},
+    "example": [
+     "L’élève rend le cahier après avoir identifié son propriétaire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-124-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle conclusion reste compatible avec les scènes ?",
+         "r": "Le propriétaire retrouve son cahier.",
+         "w": [
+          "Le cahier disparaît avant d’être trouvé, sans explication.",
+          "La scène prouve la richesse de l’élève."
+         ],
+         "y": "La dernière action annoncée est la restitution du cahier."
+        },
+        {
+         "q": "La description ne donne pas le nom de l’élève. Que peux-tu faire dans ton récit ?",
+         "r": "Choisir un nom en le présentant comme une création du récit.",
+         "w": [
+          "Affirmer que l’image donne forcément ce nom.",
+          "Prétendre que tout ajout est une preuve."
+         ],
+         "y": "On peut créer des liens narratifs sans les confondre avec les indices fournis."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-124-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Scène décrite : une élève ramasse un cahier tombé. Quelle action est donnée ?",
+       "r": "Elle ramasse un cahier.",
+       "w": [
+        "Elle vend un ordinateur.",
+        "Elle conduit un camion."
+       ],
+       "y": "Le récit doit partir des actions décrites."
+      },
+      {
+       "q": "Scène décrite : elle lit le nom sur la couverture. Que fait-elle ?",
+       "r": "Elle cherche à identifier le propriétaire.",
+       "w": [
+        "Elle efface toutes les pages.",
+        "Elle achète un cahier neuf."
+       ],
+       "y": "Lire le nom permet de savoir à qui le cahier appartient."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-124-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle suite suit les scènes proposées ?",
+       "r": "Trouver, identifier, rendre.",
+       "w": [
+        "Rendre, détruire, chercher sans cahier.",
+        "Changer de personnage à chaque mot."
+       ],
+       "y": "La découverte précède l’identification et la restitution."
+      },
+      {
+       "q": "Quel lien convient entre la découverte et la lecture du nom ?",
+       "r": "Ensuite",
+       "w": [
+        "Pourtant hier demain",
+        "Sans aucun rapport"
+       ],
+       "y": "Ensuite marque l’étape suivante du récit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-124-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle conclusion reste compatible avec les scènes ?",
+       "r": "Le propriétaire retrouve son cahier.",
+       "w": [
+        "Le cahier disparaît avant d’être trouvé, sans explication.",
+        "La scène prouve la richesse de l’élève."
+       ],
+       "y": "La dernière action annoncée est la restitution du cahier."
+      },
+      {
+       "q": "La description ne donne pas le nom de l’élève. Que peux-tu faire dans ton récit ?",
+       "r": "Choisir un nom en le présentant comme une création du récit.",
+       "w": [
+        "Affirmer que l’image donne forcément ce nom.",
+        "Prétendre que tout ajout est une preuve."
+       ],
+       "y": "On peut créer des liens narratifs sans les confondre avec les indices fournis."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "À partir des scènes décrites, raconte la découverte puis la restitution du cahier. Utilise ensuite et enfin. Tu peux donner un nom imaginaire à l’élève.",
+  "model": [
+   "Bih a trouvé un cahier dans la cour. Ensuite, elle a lu le nom inscrit sur la couverture. Elle a reconnu un camarade de sa classe. Enfin, elle lui a rendu le cahier, et il l’a remerciée."
+  ],
+  "checklist": [
+   "J’ai utilisé les actions des scènes décrites.",
+   "J’ai relié les événements dans l’ordre.",
+   "Mes ajouts restent compatibles avec les scènes."
+  ],
+  "checks": []
+ }
+}

@@ -169,3 +169,17 @@ test("Term 2 tenses: futur simple, conditionnel, futur proche, plus-que-parfait,
   assert.equal(f.fr2Subjonctif("faire", 6), "fassent");
   assert.equal(f.fr2Present("recevoir", 6), "reçoivent");
 });
+
+test("Term 3 passé antérieur: auxiliary, elision and agreement after être", () => {
+  assert.equal(f.fr2PasseAnterieur("finir", 0), "j’eus fini");
+  assert.equal(f.fr2PasseAnterieur("lire", 4), "nous eûmes lu");
+  assert.equal(f.fr2PasseAnterieur("écrire", 5), "vous eûtes écrit");
+  assert.equal(f.fr2PasseAnterieur("aller", 3), "elle fut allée");
+  assert.equal(f.fr2PasseAnterieur("partir", 7), "elles furent parties");
+  assert.equal(f.fr2PasseAnterieur("arriver", 6), "ils furent arrivés");
+  assert.equal(f.fr2PasseAnterieur("avoir", 2), "il eut eu");
+  assert.equal(f.fr2PasseAnterieur("être", 2), "il eut été");
+  assert.equal(f.fr2Form2("faire", 7, "passé antérieur"), "elles eurent fait");
+  assert.equal(f.fr2PlusQueParfait("partir", 7), "elles étaient parties");
+  assert.equal(f.fr2PasseCompose("partir", 7), "elles sont parties");
+});

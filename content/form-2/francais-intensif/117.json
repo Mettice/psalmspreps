@@ -1,0 +1,387 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 117,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-117",
+   "name": "Écrire un portrait"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un portrait décrit une personne ou un personnage. Le portrait physique présente son apparence ; le portrait moral évoque son caractère. Appuie un trait moral sur une action : Bih aide une camarade, elle est serviable. Organise les détails sans te moquer ni présenter un jugement gratuit comme un fait. Tu peux créer un personnage imaginaire. Le présent et les adjectifs précis aident à construire un portrait cohérent.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Nji attend calmement que chacun termine. Quel trait est illustré ?",
+  "steps": [
+   "Un geste peut illustrer un trait moral.",
+   "Attendre calmement est un indice de patience."
+  ],
+  "answer": "La patience.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c117-1",
+    "status": "draft",
+    "idea": "Distingue apparence et caractère.",
+    "vars": {},
+    "example": [
+     "Une veste bleue est un détail physique ; la patience est un trait moral."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-117-etape-1"
+    }
+   },
+   {
+    "id": "c117-2",
+    "status": "draft",
+    "idea": "Un geste peut illustrer un trait moral.",
+    "vars": {},
+    "example": [
+     "Elle explique la leçon à un camarade : elle est serviable."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-117-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Nji attend calmement que chacun termine. Quel trait est illustré ?",
+         "r": "La patience.",
+         "w": [
+          "La brutalité.",
+          "La taille physique."
+         ],
+         "y": "Attendre calmement est un indice de patience."
+        },
+        {
+         "q": "Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?",
+         "r": "Elle est serviable.",
+         "w": [
+          "Elle est forcément riche.",
+          "Elle est forcément la plus âgée."
+         ],
+         "y": "Le geste d’aide soutient serviable, mais pas la richesse ni l’âge."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c117-3",
+    "status": "draft",
+    "idea": "Relis les accords et évite les contradictions.",
+    "vars": {},
+    "example": [
+     "Une élève attentive ; des élèves attentifs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-117-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle phrase peut illustrer un portrait cohérent ?",
+         "r": "Elle est serviable : elle aide son voisin.",
+         "w": [
+          "Elle est toujours immobile : elle court sans arrêt.",
+          "Sa veste prouve qu’elle ment."
+         ],
+         "y": "Le trait moral est appuyé par une action pertinente."
+        },
+        {
+         "q": "Quelle phrase respecte l’accord ?",
+         "r": "Une journaliste attentive pose des questions.",
+         "w": [
+          "Une journaliste attentif pose des questions.",
+          "Une journaliste attentives pose des questions."
+         ],
+         "y": "Attentive s’accorde avec journaliste au féminin singulier."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-117-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel détail appartient au portrait physique ?",
+       "r": "Elle porte une veste bleue.",
+       "w": [
+        "Elle est patiente.",
+        "Elle aide volontiers."
+       ],
+       "y": "La veste est un détail visible de l’apparence."
+      },
+      {
+       "q": "Quel détail appartient au portrait moral ?",
+       "r": "Il est patient.",
+       "w": [
+        "Il porte un chapeau.",
+        "Ses chaussures sont noires."
+       ],
+       "y": "La patience est un trait de caractère."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-117-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Nji attend calmement que chacun termine. Quel trait est illustré ?",
+       "r": "La patience.",
+       "w": [
+        "La brutalité.",
+        "La taille physique."
+       ],
+       "y": "Attendre calmement est un indice de patience."
+      },
+      {
+       "q": "Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?",
+       "r": "Elle est serviable.",
+       "w": [
+        "Elle est forcément riche.",
+        "Elle est forcément la plus âgée."
+       ],
+       "y": "Le geste d’aide soutient serviable, mais pas la richesse ni l’âge."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-117-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase peut illustrer un portrait cohérent ?",
+       "r": "Elle est serviable : elle aide son voisin.",
+       "w": [
+        "Elle est toujours immobile : elle court sans arrêt.",
+        "Sa veste prouve qu’elle ment."
+       ],
+       "y": "Le trait moral est appuyé par une action pertinente."
+      },
+      {
+       "q": "Quelle phrase respecte l’accord ?",
+       "r": "Une journaliste attentive pose des questions.",
+       "w": [
+        "Une journaliste attentif pose des questions.",
+        "Une journaliste attentives pose des questions."
+       ],
+       "y": "Attentive s’accorde avec journaliste au féminin singulier."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Écris le portrait d’un personnage imaginaire qui travaille au journal de l’école. Donne un détail physique, un trait moral et une action qui illustre ce trait.",
+  "model": [
+   "Amina porte une veste bleue et tient un petit carnet. Elle est attentive et patiente. Pendant les entretiens, elle laisse chaque personne finir sa réponse. Ses camarades apprécient sa façon calme de travailler."
+  ],
+  "checklist": [
+   "J’ai organisé les détails physiques et moraux.",
+   "Une action illustre un trait de caractère.",
+   "J’ai relu les accords des adjectifs."
+  ],
+  "checks": []
+ }
+}

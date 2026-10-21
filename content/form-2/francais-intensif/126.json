@@ -1,0 +1,377 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 126,
+ "language": "fr",
+ "prerequisites": [
+  112,
+  113,
+  118
+ ],
+ "skills": [
+  {
+   "id": "fi2-126",
+   "name": "Réutiliser la grammaire et les temps étudiés"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pour relire un texte, repère le sujet, le verbe et les relations entre les événements. Un sujet pluriel commande normalement un verbe pluriel. Le choix du temps dépend du sens : présent pour ce qui se passe maintenant ou une habitude actuelle ; imparfait pour une description passée ; futur pour une action à venir ; conditionnel pour une hypothèse ou une demande polie. Dans un récit, le passé antérieur marque une action achevée avant une autre action passée. Ne change pas les temps au hasard.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelle forme décrit une habitude passée ?",
+  "steps": [
+   "Le contexte aide à choisir le temps.",
+   "Écoutions est à l’imparfait et convient à l’habitude passée."
+  ],
+  "answer": "Chaque soir, nous écoutions la radio.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c126-1",
+    "status": "draft",
+    "idea": "Le sujet commande l’accord du verbe.",
+    "vars": {},
+    "example": [
+     "Bih et moi écrivons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-126-etape-1"
+    }
+   },
+   {
+    "id": "c126-2",
+    "status": "draft",
+    "idea": "Le contexte aide à choisir le temps.",
+    "vars": {},
+    "example": [
+     "Autrefois, la radio occupait le centre de la pièce."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-126-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle forme décrit une habitude passée ?",
+         "r": "Chaque soir, nous écoutions la radio.",
+         "w": [
+          "Demain, nous écouterons la radio.",
+          "Nous écoutons en ce moment."
+         ],
+         "y": "Écoutions est à l’imparfait et convient à l’habitude passée."
+        },
+        {
+         "q": "Quelle phrase exprime une hypothèse correctement ?",
+         "r": "Si j’avais le temps, je lirais l’article.",
+         "w": [
+          "Si j’aurais le temps, je lirais l’article.",
+          "Si j’avais le temps, je lire l’article."
+         ],
+         "y": "Si + imparfait est suivi ici du conditionnel."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c126-3",
+    "status": "draft",
+    "idea": "Vérifie l’ordre des actions dans les temps composés.",
+    "vars": {},
+    "example": [
+     "Quand elle eut fini, elle publia son texte."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-126-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ?",
+         "r": "Finir précède publier.",
+         "w": [
+          "Publier précède finir.",
+          "Les deux actions sont au futur."
+         ],
+         "y": "Le passé antérieur présente l’action achevée avant l’action au passé simple."
+        },
+        {
+         "q": "Quelle révision corrige l’accord sans changer le sens ?",
+         "r": "Les leurs fonctionnent bien.",
+         "w": [
+          "Les leurs fonctionne bien.",
+          "Les leurs fonctionnes bien."
+         ],
+         "y": "Les leurs est pluriel et commande fonctionnent."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-126-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase respecte l’accord ?",
+       "r": "Les élèves vérifient leurs sources.",
+       "w": [
+        "Les élèves vérifie leurs sources.",
+        "Les élèves vérifies leurs sources."
+       ],
+       "y": "Les élèves est pluriel : vérifient."
+      },
+      {
+       "q": "Complète : La mienne ___ ici.",
+       "r": "est",
+       "w": [
+        "sont",
+        "sommes"
+       ],
+       "y": "La mienne est un sujet singulier."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-126-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle forme décrit une habitude passée ?",
+       "r": "Chaque soir, nous écoutions la radio.",
+       "w": [
+        "Demain, nous écouterons la radio.",
+        "Nous écoutons en ce moment."
+       ],
+       "y": "Écoutions est à l’imparfait et convient à l’habitude passée."
+      },
+      {
+       "q": "Quelle phrase exprime une hypothèse correctement ?",
+       "r": "Si j’avais le temps, je lirais l’article.",
+       "w": [
+        "Si j’aurais le temps, je lirais l’article.",
+        "Si j’avais le temps, je lire l’article."
+       ],
+       "y": "Si + imparfait est suivi ici du conditionnel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-126-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ?",
+       "r": "Finir précède publier.",
+       "w": [
+        "Publier précède finir.",
+        "Les deux actions sont au futur."
+       ],
+       "y": "Le passé antérieur présente l’action achevée avant l’action au passé simple."
+      },
+      {
+       "q": "Quelle révision corrige l’accord sans changer le sens ?",
+       "r": "Les leurs fonctionnent bien.",
+       "w": [
+        "Les leurs fonctionne bien.",
+        "Les leurs fonctionnes bien."
+       ],
+       "y": "Les leurs est pluriel et commande fonctionnent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

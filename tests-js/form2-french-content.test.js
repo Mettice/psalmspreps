@@ -18,6 +18,11 @@ import * as french2 from "../src/engine/lib/french2.js";
 import { subjectSuite } from "./subject-suite.js";
 
 const BATCH = [...Array.from({ length: 15 }, (_, i) => i + 1), ...Array.from({ length: 15 }, (_, i) => i + 18), ...Array.from({ length: 17 }, (_, i) => i + 36), ...Array.from({ length: 15 }, (_, i) => i + 54), ...Array.from({ length: 12 }, (_, i) => i + 70)];
+test("form 2 french: Term 3 covers every lesson row and excludes integration", () => {
+  const spine = JSON.parse(readFileSync(new URL("../data/spine/form-2/french.json", import.meta.url), "utf8"));
+  assert.deepEqual(BATCH.filter((n) => n >= 70), spine.terms[2].lessons.filter((l) => l.kind === "lesson").map((l) => l.seq));
+  assert.ok(!BATCH.includes(82));
+});
 subjectSuite({
   subject: "french", dir: "form-2/french", cls: "Form 2", spine: "form-2/french", prefix: "fr2-", numbering: "seq",
   lib: { ...maths, ...english, ...physics, ...chemistry, ...geography, ...homeeconomics, ...history, ...biology, ...computerscience, ...french, ...french2 },

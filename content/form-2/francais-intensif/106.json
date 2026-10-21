@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 106,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-106",
+   "name": "Le son nasal [œ̃] : un, parfum"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le modèle de cette leçon est [œ̃] : un, brun, parfum. Observe les graphies des mots modèles. Les symboles de la progression sont interprétés à partir des exemples donnés. Les accents peuvent réaliser les sons de façon différente.\nL’application vérifie seulement le repérage écrit. Elle ne fournit pas de modèle audio et ne peut pas entendre ta voix. Demande à un enseignant de lire les exemples, puis entraîne-toi oralement avec lui.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que peut vérifier cet exercice ?",
+  "steps": [
+   "Le travail écrit prépare la lecture orale.",
+   "L’application ne capte pas la voix du lecteur."
+  ],
+  "answer": "Le repérage écrit des mots modèles.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c106-1",
+    "status": "draft",
+    "idea": "Observe les mots modèles avant de classer.",
+    "vars": {},
+    "example": [
+     "un, brun, parfum"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-106-etape-1"
+    }
+   },
+   {
+    "id": "c106-2",
+    "status": "draft",
+    "idea": "Le travail écrit prépare la lecture orale.",
+    "vars": {},
+    "example": [
+     "Compare les graphies, puis lis avec le professeur."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-106-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Que peut vérifier cet exercice ?",
+         "r": "Le repérage écrit des mots modèles.",
+         "w": [
+          "L’enregistrement de ta voix.",
+          "La qualité de ton accent."
+         ],
+         "y": "L’application ne capte pas la voix du lecteur."
+        },
+        {
+         "q": "Qui peut fournir un modèle oral ?",
+         "r": "Un enseignant qui lit les mots.",
+         "w": [
+          "Le nombre de lettres seul.",
+          "Un score écrit sans audio."
+         ],
+         "y": "Une prononciation doit être entendue et pratiquée oralement."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c106-3",
+    "status": "draft",
+    "idea": "Vérifie les deux mots d’une série.",
+    "vars": {},
+    "example": [
+     "La série modèle est brun, parfum."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-106-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "orthographe"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle série contient uniquement les mots modèles ?",
+         "r": "brun, parfum",
+         "w": [
+          "pain, nature",
+          "brun, pain"
+         ],
+         "y": "Les deux mots doivent appartenir à la série étudiée."
+        },
+        {
+         "q": "Quel conseil respecte les différences d’accent ?",
+         "r": "Suivre le modèle oral donné en classe.",
+         "w": [
+          "Faire noter sa voix par cet exercice écrit.",
+          "Déclarer faux tout accent différent."
+         ],
+         "y": "Le professeur adapte le modèle oral à l’enseignement de la classe."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-106-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot appartient à la série étudiée ?",
+       "r": "brun",
+       "w": [
+        "pain",
+        "nature"
+       ],
+       "y": "Le mot brun appartient aux modèles de la leçon."
+      },
+      {
+       "q": "Quel autre mot appartient à cette série ?",
+       "r": "parfum",
+       "w": [
+        "nature",
+        "pain"
+       ],
+       "y": "Le mot parfum appartient à la même série de modèles."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-106-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que peut vérifier cet exercice ?",
+       "r": "Le repérage écrit des mots modèles.",
+       "w": [
+        "L’enregistrement de ta voix.",
+        "La qualité de ton accent."
+       ],
+       "y": "L’application ne capte pas la voix du lecteur."
+      },
+      {
+       "q": "Qui peut fournir un modèle oral ?",
+       "r": "Un enseignant qui lit les mots.",
+       "w": [
+        "Le nombre de lettres seul.",
+        "Un score écrit sans audio."
+       ],
+       "y": "Une prononciation doit être entendue et pratiquée oralement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-106-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "orthographe"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle série contient uniquement les mots modèles ?",
+       "r": "brun, parfum",
+       "w": [
+        "pain, nature",
+        "brun, pain"
+       ],
+       "y": "Les deux mots doivent appartenir à la série étudiée."
+      },
+      {
+       "q": "Quel conseil respecte les différences d’accent ?",
+       "r": "Suivre le modèle oral donné en classe.",
+       "w": [
+        "Faire noter sa voix par cet exercice écrit.",
+        "Déclarer faux tout accent différent."
+       ],
+       "y": "Le professeur adapte le modèle oral à l’enseignement de la classe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

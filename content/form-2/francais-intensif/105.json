@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 105,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-105",
+   "name": "Futur simple et conditionnel présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le futur simple situe une action à venir : Demain, nous publierons le journal. Le conditionnel présent peut exprimer une demande polie ou une hypothèse : Pourriez-vous répéter ? Si nous avions un ordinateur, nous publierions plus vite.\nCes temps utilisent le même radical : futur en -ai, -as, -a, -ons, -ez, -ont ; conditionnel en -ais, -ais, -ait, -ions, -iez, -aient. Avec si + imparfait, l’hypothèse peut être suivie du conditionnel : si tu venais, nous parlerions.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète avec parler au futur : Demain, nous ___ .",
+  "steps": [
+   "Les terminaisons distinguent futur et conditionnel.",
+   "Au futur, avec nous, on ajoute -ons au radical parler-."
+  ],
+  "answer": "parlerons",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c105-1",
+    "status": "draft",
+    "idea": "Le futur situe ici une action à venir.",
+    "vars": {},
+    "example": [
+     "Demain, nous publierons le journal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-105-etape-1"
+    }
+   },
+   {
+    "id": "c105-2",
+    "status": "draft",
+    "idea": "Les terminaisons distinguent futur et conditionnel.",
+    "vars": {},
+    "example": [
+     "Nous parlerons ; nous parlerions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-105-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Complète avec parler au futur : Demain, nous ___ .",
+         "r": "parlerons",
+         "w": [
+          "parlerions",
+          "parlions"
+         ],
+         "y": "Au futur, avec nous, on ajoute -ons au radical parler-."
+        },
+        {
+         "q": "Complète : Si nous avions le temps, nous ___ davantage.",
+         "r": "parlerions",
+         "w": [
+          "parlerons",
+          "parlez"
+         ],
+         "y": "Si + imparfait appelle ici une conséquence au conditionnel."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c105-3",
+    "status": "draft",
+    "idea": "Choisis le temps selon la situation, pas seulement selon la fin du mot.",
+    "vars": {},
+    "example": [
+     "Une demande polie peut utiliser le conditionnel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-105-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "conjugaison"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle demande est formulée au conditionnel ?",
+         "r": "Pourriez-vous répéter, s’il vous plaît ?",
+         "w": [
+          "Vous répéterez demain.",
+          "Vous répétez chaque jour."
+         ],
+         "y": "Pourriez est un conditionnel employé pour une demande polie."
+        },
+        {
+         "q": "Quelle phrase respecte l’hypothèse ?",
+         "r": "Si tu venais, nous travaillerions ensemble.",
+         "w": [
+          "Si tu viendrais, nous travaillerions ensemble.",
+          "Si tu venais, nous travaillons hier."
+         ],
+         "y": "On utilise ici si + imparfait, puis le conditionnel présent."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-105-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase est au futur simple ?",
+       "r": "Nous publierons demain.",
+       "w": [
+        "Nous publierions si nous pouvions.",
+        "Nous publions maintenant."
+       ],
+       "y": "Publierons est au futur simple."
+      },
+      {
+       "q": "Quelle forme est au conditionnel présent ?",
+       "r": "Je téléphonerais.",
+       "w": [
+        "Je téléphonerai.",
+        "Je téléphone."
+       ],
+       "y": "La terminaison -ais appartient ici au conditionnel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-105-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète avec parler au futur : Demain, nous ___ .",
+       "r": "parlerons",
+       "w": [
+        "parlerions",
+        "parlions"
+       ],
+       "y": "Au futur, avec nous, on ajoute -ons au radical parler-."
+      },
+      {
+       "q": "Complète : Si nous avions le temps, nous ___ davantage.",
+       "r": "parlerions",
+       "w": [
+        "parlerons",
+        "parlez"
+       ],
+       "y": "Si + imparfait appelle ici une conséquence au conditionnel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-105-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "conjugaison"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle demande est formulée au conditionnel ?",
+       "r": "Pourriez-vous répéter, s’il vous plaît ?",
+       "w": [
+        "Vous répéterez demain.",
+        "Vous répétez chaque jour."
+       ],
+       "y": "Pourriez est un conditionnel employé pour une demande polie."
+      },
+      {
+       "q": "Quelle phrase respecte l’hypothèse ?",
+       "r": "Si tu venais, nous travaillerions ensemble.",
+       "w": [
+        "Si tu viendrais, nous travaillerions ensemble.",
+        "Si tu venais, nous travaillons hier."
+       ],
+       "y": "On utilise ici si + imparfait, puis le conditionnel présent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 108,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-108",
+   "name": "Préparer la récitation d’un poème"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit.\nPour préparer une récitation, comprends le texte, repère ses vers et sa ponctuation. Mémorise par petits passages. Respire, articule et respecte le sens. Récite ensuite devant un adulte si possible. L’application prépare ce travail ; elle n’entend pas et ne note pas ta voix.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?",
+  "steps": [
+   "Comprendre le sens aide à mémoriser.",
+   "Les dernières lignes associent réflexion et recherche."
+  ],
+  "answer": "Il réfléchit et cherche une trace écrite.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c108-1",
+    "status": "draft",
+    "idea": "Un poème peut être organisé en vers.",
+    "vars": {},
+    "example": [
+     "Chaque ligne du poème proposé est un vers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-108-etape-1"
+    }
+   },
+   {
+    "id": "c108-2",
+    "status": "draft",
+    "idea": "Comprendre le sens aide à mémoriser.",
+    "vars": {},
+    "example": [
+     "Le lecteur écoute, puis vérifie l’information."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-108-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?",
+         "r": "Il réfléchit et cherche une trace écrite.",
+         "w": [
+          "Il répète sans comprendre.",
+          "Il casse la radio."
+         ],
+         "y": "Les dernières lignes associent réflexion et recherche."
+        },
+        {
+         "q": "Quelle méthode aide à mémoriser ce poème ?",
+         "r": "Comprendre puis apprendre un court passage à la fois.",
+         "w": [
+          "Ignorer tous les mots inconnus.",
+          "Changer les mots à chaque lecture."
+         ],
+         "y": "La compréhension et la répétition par passages soutiennent la mémoire."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c108-3",
+    "status": "draft",
+    "idea": "L’adulte peut écouter l’articulation et le rythme.",
+    "vars": {},
+    "example": [
+     "Je marque les pauses sans couper le sens."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-108-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Que peut contrôler un adulte pendant la récitation ?",
+         "r": "L’articulation, les pauses et le respect du texte.",
+         "w": [
+          "La couleur de l’écran seulement.",
+          "Le nombre de boutons de l’application."
+         ],
+         "y": "Une récitation est un travail oral qui demande une écoute."
+        },
+        {
+         "q": "Que peut affirmer l’application après cet exercice écrit ?",
+         "r": "Que tu as préparé certains éléments du texte.",
+         "w": [
+          "Que ta voix est parfaitement juste.",
+          "Que tu as chanté sans erreur."
+         ],
+         "y": "L’application ne dispose pas d’un enregistrement de la voix."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-108-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Quelle ligne évoque la réflexion ?",
+       "r": "J’écoute, puis je réfléchis,",
+       "w": [
+        "Une nouvelle ouvre le jour.",
+        "La radio chante dans la cour,"
+       ],
+       "y": "Le verbe réfléchis nomme la réflexion."
+      },
+      {
+       "q": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Quel média est nommé ?",
+       "r": "La radio.",
+       "w": [
+        "Le cinéma.",
+        "Une affiche."
+       ],
+       "y": "La première ligne nomme la radio."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-108-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?",
+       "r": "Il réfléchit et cherche une trace écrite.",
+       "w": [
+        "Il répète sans comprendre.",
+        "Il casse la radio."
+       ],
+       "y": "Les dernières lignes associent réflexion et recherche."
+      },
+      {
+       "q": "Quelle méthode aide à mémoriser ce poème ?",
+       "r": "Comprendre puis apprendre un court passage à la fois.",
+       "w": [
+        "Ignorer tous les mots inconnus.",
+        "Changer les mots à chaque lecture."
+       ],
+       "y": "La compréhension et la répétition par passages soutiennent la mémoire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-108-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que peut contrôler un adulte pendant la récitation ?",
+       "r": "L’articulation, les pauses et le respect du texte.",
+       "w": [
+        "La couleur de l’écran seulement.",
+        "Le nombre de boutons de l’application."
+       ],
+       "y": "Une récitation est un travail oral qui demande une écoute."
+      },
+      {
+       "q": "Que peut affirmer l’application après cet exercice écrit ?",
+       "r": "Que tu as préparé certains éléments du texte.",
+       "w": [
+        "Que ta voix est parfaitement juste.",
+        "Que tu as chanté sans erreur."
+       ],
+       "y": "L’application ne dispose pas d’un enregistrement de la voix."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

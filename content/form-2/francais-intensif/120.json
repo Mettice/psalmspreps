@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 120,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-120",
+   "name": "Le lexique de la correspondance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La correspondance est un échange de messages écrits. L’expéditeur envoie ; le destinataire reçoit. Une lettre privée s’adresse à un proche. Une lettre officielle s’adresse à une administration ou à une personne dans sa fonction. Une demande ou une requête présente clairement ce qu’on souhaite obtenir. L’objet annonce le motif de la lettre. On adapte le ton, la salutation et la formule finale au destinataire. Une adresse ou une signature ne remplace pas le contenu de la demande.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel objet convient pour utiliser la salle du club ?",
+  "steps": [
+   "L’objet annonce le motif d’une lettre officielle.",
+   "L’objet résume précisément ce qui est demandé."
+  ],
+  "answer": "Demande d’autorisation d’utiliser la salle.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c120-1",
+    "status": "draft",
+    "idea": "Distingue qui envoie et qui reçoit.",
+    "vars": {},
+    "example": [
+     "Bih écrit à Nji : Bih est expéditrice et Nji destinataire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-120-etape-1"
+    }
+   },
+   {
+    "id": "c120-2",
+    "status": "draft",
+    "idea": "L’objet annonce le motif d’une lettre officielle.",
+    "vars": {},
+    "example": [
+     "Objet : demande d’autorisation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-120-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel objet convient pour utiliser la salle du club ?",
+         "r": "Demande d’autorisation d’utiliser la salle.",
+         "w": [
+          "La salle est très jolie.",
+          "Bonjour mon ami !"
+         ],
+         "y": "L’objet résume précisément ce qui est demandé."
+        },
+        {
+         "q": "Quelle lettre est officielle ?",
+         "r": "Une demande adressée au proviseur dans sa fonction.",
+         "w": [
+          "Un mot d’anniversaire à un cousin.",
+          "Un message amical à sa sœur."
+         ],
+         "y": "Le destinataire agit ici comme responsable de l’établissement."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c120-3",
+    "status": "draft",
+    "idea": "Une demande doit être claire et polie.",
+    "vars": {},
+    "example": [
+     "Je sollicite l’autorisation d’utiliser la salle pour une réunion."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-120-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "vocabulaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle formulation convient dans une demande officielle ?",
+         "r": "Je sollicite l’autorisation d’utiliser la salle du club.",
+         "w": [
+          "Donne-moi la salle, tout de suite !",
+          "Tu sais bien ce que je veux."
+         ],
+         "y": "La demande précise son objet et garde un ton respectueux."
+        },
+        {
+         "q": "Pourquoi faut-il préciser la date et le but de la demande ?",
+         "r": "Pour que le destinataire comprenne et puisse répondre.",
+         "w": [
+          "Pour rendre la demande incompréhensible.",
+          "Pour remplacer toute formule de politesse."
+         ],
+         "y": "Les renseignements utiles permettent d’examiner la demande."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-120-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Qui est l’expéditeur d’une lettre ?",
+       "r": "La personne qui l’envoie.",
+       "w": [
+        "La personne qui la reçoit seulement.",
+        "Le meuble qui la porte."
+       ],
+       "y": "Expédier signifie envoyer."
+      },
+      {
+       "q": "Qui est le destinataire ?",
+       "r": "La personne à qui le message est adressé.",
+       "w": [
+        "La personne qui vend le papier.",
+        "La couleur de l’enveloppe."
+       ],
+       "y": "Le destinataire est celui à qui l’on écrit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-120-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel objet convient pour utiliser la salle du club ?",
+       "r": "Demande d’autorisation d’utiliser la salle.",
+       "w": [
+        "La salle est très jolie.",
+        "Bonjour mon ami !"
+       ],
+       "y": "L’objet résume précisément ce qui est demandé."
+      },
+      {
+       "q": "Quelle lettre est officielle ?",
+       "r": "Une demande adressée au proviseur dans sa fonction.",
+       "w": [
+        "Un mot d’anniversaire à un cousin.",
+        "Un message amical à sa sœur."
+       ],
+       "y": "Le destinataire agit ici comme responsable de l’établissement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-120-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "vocabulaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle formulation convient dans une demande officielle ?",
+       "r": "Je sollicite l’autorisation d’utiliser la salle du club.",
+       "w": [
+        "Donne-moi la salle, tout de suite !",
+        "Tu sais bien ce que je veux."
+       ],
+       "y": "La demande précise son objet et garde un ton respectueux."
+      },
+      {
+       "q": "Pourquoi faut-il préciser la date et le but de la demande ?",
+       "r": "Pour que le destinataire comprenne et puisse répondre.",
+       "w": [
+        "Pour rendre la demande incompréhensible.",
+        "Pour remplacer toute formule de politesse."
+       ],
+       "y": "Les renseignements utiles permettent d’examiner la demande."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

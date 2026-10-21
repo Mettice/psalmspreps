@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 127,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-127",
+   "name": "Lecture suivie : le micro silencieux"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin.\nLis les actions dans l’ordre et cherche comment les personnages réagissent au problème. Une interprétation se justifie par le texte. Ce récit original ne remplace pas une œuvre prescrite par l’établissement.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?",
+  "steps": [
+   "Observe les réactions et les aides.",
+   "Le texte explique le sens de son signe."
+  ],
+  "answer": "Parler lentement.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c127-1",
+    "status": "draft",
+    "idea": "Repère le problème rencontré par le personnage.",
+    "vars": {},
+    "example": [
+     "Le micro ne transmet pas la voix."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-127-etape-1"
+    }
+   },
+   {
+    "id": "c127-2",
+    "status": "draft",
+    "idea": "Observe les réactions et les aides.",
+    "vars": {},
+    "example": [
+     "Bih encourage Nji à parler lentement."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-127-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?",
+         "r": "Parler lentement.",
+         "w": [
+          "Quitter immédiatement le club.",
+          "Déchirer l’annonce."
+         ],
+         "y": "Le texte explique le sens de son signe."
+        },
+        {
+         "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que font les camarades ?",
+         "r": "Ils se rapprochent.",
+         "w": [
+          "Ils quittent tous l’école.",
+          "Ils réparent le micro dans le texte."
+         ],
+         "y": "Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c127-3",
+    "status": "draft",
+    "idea": "La fin permet de comprendre l’évolution du personnage.",
+    "vars": {},
+    "example": [
+     "Nji continue malgré le problème matériel."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-127-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "litterature"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quelle idée est soutenue par le dénouement ?",
+         "r": "On peut adapter sa manière de communiquer à un obstacle.",
+         "w": [
+          "Sans micro, personne ne peut jamais communiquer.",
+          "Le matériel décide de tout sans exception."
+         ],
+         "y": "Nji lit plus calmement et les autres se rapprochent."
+        },
+        {
+         "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ?",
+         "r": "Non, il dit seulement que le message a été compris.",
+         "w": [
+          "Oui, une réparation est décrite en détail.",
+          "Oui, parce que chacun possède un micro."
+         ],
+         "y": "La compréhension du message ne prouve pas la réparation de l’appareil."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-127-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel problème rencontre Nji ?",
+       "r": "Le micro reste silencieux.",
+       "w": [
+        "Le cahier brûle.",
+        "Le club ferme pour toujours."
+       ],
+       "y": "Le texte annonce un micro silencieux."
+      },
+      {
+       "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que doit lire Nji ?",
+       "r": "Une annonce.",
+       "w": [
+        "Un menu de restaurant.",
+        "Une carte routière."
+       ],
+       "y": "Sa tâche est donnée dès la première phrase."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-127-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?",
+       "r": "Parler lentement.",
+       "w": [
+        "Quitter immédiatement le club.",
+        "Déchirer l’annonce."
+       ],
+       "y": "Le texte explique le sens de son signe."
+      },
+      {
+       "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que font les camarades ?",
+       "r": "Ils se rapprochent.",
+       "w": [
+        "Ils quittent tous l’école.",
+        "Ils réparent le micro dans le texte."
+       ],
+       "y": "Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-127-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "litterature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quelle idée est soutenue par le dénouement ?",
+       "r": "On peut adapter sa manière de communiquer à un obstacle.",
+       "w": [
+        "Sans micro, personne ne peut jamais communiquer.",
+        "Le matériel décide de tout sans exception."
+       ],
+       "y": "Nji lit plus calmement et les autres se rapprochent."
+      },
+      {
+       "q": "Récit original — Le micro silencieux\nAu club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ?",
+       "r": "Non, il dit seulement que le message a été compris.",
+       "w": [
+        "Oui, une réparation est décrite en détail.",
+        "Oui, parce que chacun possède un micro."
+       ],
+       "y": "La compréhension du message ne prouve pas la réparation de l’appareil."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 104,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-104",
+   "name": "Le nom comme sujet"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le sujet indique de qui ou de quoi on parle avec le verbe. Pour le trouver, on peut demander qui est-ce qui ou qu’est-ce qui devant le verbe. Un nom ou un groupe nominal peut être sujet : La journaliste écrit. Le verbe s’accorde avec le nombre du sujet : les journalistes écrivent. Le sujet n’est pas nécessairement le mot le plus proche du verbe : Le frère de mes voisins téléphone. Le nom principal frère est singulier.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Complète : Les journalistes ___ un article.",
+  "steps": [
+   "Le verbe s’accorde avec le nom principal du sujet.",
+   "Le sujet est pluriel : écrivent."
+  ],
+  "answer": "écrivent",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c104-1",
+    "status": "draft",
+    "idea": "Cherche qui fait l’action exprimée par le verbe.",
+    "vars": {},
+    "example": [
+     "La journaliste écrit : la journaliste est sujet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-104-etape-1"
+    }
+   },
+   {
+    "id": "c104-2",
+    "status": "draft",
+    "idea": "Le verbe s’accorde avec le nom principal du sujet.",
+    "vars": {},
+    "example": [
+     "Les journalistes écrivent."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-104-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Complète : Les journalistes ___ un article.",
+         "r": "écrivent",
+         "w": [
+          "écrit",
+          "écris"
+         ],
+         "y": "Le sujet est pluriel : écrivent."
+        },
+        {
+         "q": "Complète : La journaliste ___ un article.",
+         "r": "écrit",
+         "w": [
+          "écrivent",
+          "écrivez"
+         ],
+         "y": "Le sujet est singulier : écrit."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c104-3",
+    "status": "draft",
+    "idea": "Un complément du nom ne change pas le nombre du nom principal.",
+    "vars": {},
+    "example": [
+     "Le frère des voisins téléphone."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-104-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "grammaire"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Complète : Le frère de mes voisins ___ .",
+         "r": "téléphone",
+         "w": [
+          "téléphonent",
+          "téléphonez"
+         ],
+         "y": "Le nom principal frère est singulier ; voisins est son complément."
+        },
+        {
+         "q": "Complète : Les amis de ma sœur ___ .",
+         "r": "téléphonent",
+         "w": [
+          "téléphone",
+          "téléphones"
+         ],
+         "y": "Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-104-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans « Le présentateur annonce les nouvelles », quel groupe est sujet ?",
+       "r": "Le présentateur",
+       "w": [
+        "les nouvelles",
+        "annonce"
+       ],
+       "y": "Le présentateur est celui qui annonce."
+      },
+      {
+       "q": "Dans « La radio diffuse un débat », quel groupe est sujet ?",
+       "r": "La radio",
+       "w": [
+        "un débat",
+        "diffuse"
+       ],
+       "y": "La radio est le sujet de diffuse."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-104-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : Les journalistes ___ un article.",
+       "r": "écrivent",
+       "w": [
+        "écrit",
+        "écris"
+       ],
+       "y": "Le sujet est pluriel : écrivent."
+      },
+      {
+       "q": "Complète : La journaliste ___ un article.",
+       "r": "écrit",
+       "w": [
+        "écrivent",
+        "écrivez"
+       ],
+       "y": "Le sujet est singulier : écrit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-104-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "grammaire"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète : Le frère de mes voisins ___ .",
+       "r": "téléphone",
+       "w": [
+        "téléphonent",
+        "téléphonez"
+       ],
+       "y": "Le nom principal frère est singulier ; voisins est son complément."
+      },
+      {
+       "q": "Complète : Les amis de ma sœur ___ .",
+       "r": "téléphonent",
+       "w": [
+        "téléphone",
+        "téléphones"
+       ],
+       "y": "Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ]
+}

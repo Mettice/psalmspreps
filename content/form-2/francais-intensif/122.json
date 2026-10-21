@@ -1,0 +1,387 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 122,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-122",
+   "name": "Écrire une narration"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une narration raconte des événements dans un ordre compréhensible. Présente la situation de départ, un événement qui change la situation, les actions et le dénouement. Les connecteurs un matin, soudain, ensuite et enfin guident le lecteur. Choisis un système de temps cohérent. Dans un récit au passé, l’imparfait peut décrire le cadre et le passé composé raconter les actions. Évite d’inventer plusieurs fins incompatibles. Relis la chronologie et les accords.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelle suite est chronologique ?",
+  "steps": [
+   "Les connecteurs rendent l’ordre lisible.",
+   "La correction doit intervenir après la découverte et avant la diffusion corrigée."
+  ],
+  "answer": "Découvrir l’erreur, la corriger, afficher le bulletin.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c122-1",
+    "status": "draft",
+    "idea": "Un récit présente des événements liés.",
+    "vars": {},
+    "example": [
+     "Le club préparait un bulletin quand une erreur a été découverte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-122-etape-1"
+    }
+   },
+   {
+    "id": "c122-2",
+    "status": "draft",
+    "idea": "Les connecteurs rendent l’ordre lisible.",
+    "vars": {},
+    "example": [
+     "D’abord on relit ; ensuite on corrige ; enfin on affiche."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-122-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quelle suite est chronologique ?",
+         "r": "Découvrir l’erreur, la corriger, afficher le bulletin.",
+         "w": [
+          "Afficher, découvrir, prétendre avoir déjà corrigé sans relire.",
+          "Conclure puis présenter un autre problème sans lien."
+         ],
+         "y": "La correction doit intervenir après la découverte et avant la diffusion corrigée."
+        },
+        {
+         "q": "Quel mot annonce un événement soudain ?",
+         "r": "Soudain",
+         "w": [
+          "Au centre",
+          "À gauche"
+         ],
+         "y": "Soudain situe une rupture dans le déroulement du récit."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c122-3",
+    "status": "draft",
+    "idea": "La fin doit répondre au problème du récit.",
+    "vars": {},
+    "example": [
+     "Le bulletin corrigé est affiché : le problème de date est résolu."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-122-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Une lettre s’envole ; Bih la récupère. Quelle fin convient ?",
+         "r": "La lettre peut enfin être remise à sa destinataire.",
+         "w": [
+          "La lettre n’a jamais existé sans explication.",
+          "Le texte devient une recette sans lien."
+         ],
+         "y": "Le dénouement suit la récupération de la lettre."
+        },
+        {
+         "q": "Que faut-il vérifier à la relecture ?",
+         "r": "L’ordre des événements et la cohérence des temps.",
+         "w": [
+          "Seulement le nombre de lignes.",
+          "Que chaque verbe change de temps au hasard."
+         ],
+         "y": "La chronologie et les temps rendent le récit compréhensible."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-122-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase lance un récit ?",
+       "r": "Un matin, Bih a trouvé une lettre devant la classe.",
+       "w": [
+        "La lettre est rectangulaire et blanche.",
+        "Veuillez agréer mes salutations."
+       ],
+       "y": "La phrase situe un événement dans le temps."
+      },
+      {
+       "q": "Quel élément change la situation ?",
+       "r": "Une erreur est découverte dans le bulletin.",
+       "w": [
+        "Le papier est blanc depuis le début.",
+        "Le titre contient un nom."
+       ],
+       "y": "La découverte d’une erreur crée un problème à résoudre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-122-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle suite est chronologique ?",
+       "r": "Découvrir l’erreur, la corriger, afficher le bulletin.",
+       "w": [
+        "Afficher, découvrir, prétendre avoir déjà corrigé sans relire.",
+        "Conclure puis présenter un autre problème sans lien."
+       ],
+       "y": "La correction doit intervenir après la découverte et avant la diffusion corrigée."
+      },
+      {
+       "q": "Quel mot annonce un événement soudain ?",
+       "r": "Soudain",
+       "w": [
+        "Au centre",
+        "À gauche"
+       ],
+       "y": "Soudain situe une rupture dans le déroulement du récit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-122-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une lettre s’envole ; Bih la récupère. Quelle fin convient ?",
+       "r": "La lettre peut enfin être remise à sa destinataire.",
+       "w": [
+        "La lettre n’a jamais existé sans explication.",
+        "Le texte devient une recette sans lien."
+       ],
+       "y": "Le dénouement suit la récupération de la lettre."
+      },
+      {
+       "q": "Que faut-il vérifier à la relecture ?",
+       "r": "L’ordre des événements et la cohérence des temps.",
+       "w": [
+        "Seulement le nombre de lignes.",
+        "Que chaque verbe change de temps au hasard."
+       ],
+       "y": "La chronologie et les temps rendent le récit compréhensible."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Raconte comment le club de l’école a découvert puis corrigé une erreur dans son bulletin. Présente le départ, le problème, les actions et la fin.",
+  "model": [
+   "Le club préparait son bulletin. Soudain, Bih a remarqué une mauvaise date. Elle a consulté la responsable et Nji a corrigé le texte. Enfin, le groupe a affiché le bulletin relu. Les lecteurs ont reçu la bonne information."
+  ],
+  "checklist": [
+   "J’ai raconté des événements dans l’ordre.",
+   "La fin répond au problème présenté.",
+   "J’ai gardé des temps cohérents."
+  ],
+  "checks": []
+ }
+}

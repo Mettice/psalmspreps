@@ -1,0 +1,387 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 2",
+ "lesson_no": 110,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi2-110",
+   "name": "Décrire un lieu ou un objet"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Décrire, c’est donner à voir un lieu ou un objet. Présente ce que tu décris, puis organise les détails : vue d’ensemble, disposition, formes, couleurs et éléments utiles. Utilise des repères comme à gauche, au fond, près de. Le présent et les adjectifs précis peuvent aider. Distingue ce que tu observes de ce que tu imagines. Relis pour éviter les détails contradictoires et les répétitions.",
+  "checks": []
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel groupe situe un détail ?",
+  "steps": [
+   "Les repères spatiaux ordonnent les détails.",
+   "À gauche est un repère spatial."
+  ],
+  "answer": "À gauche de la table",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c110-1",
+    "status": "draft",
+    "idea": "Une description organise ce qui est observable.",
+    "vars": {},
+    "example": [
+     "La salle contient une table et un écran."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi2-110-etape-1"
+    }
+   },
+   {
+    "id": "c110-2",
+    "status": "draft",
+    "idea": "Les repères spatiaux ordonnent les détails.",
+    "vars": {},
+    "example": [
+     "À gauche de la table, une chaise est vide."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-110-etape-2-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Quel groupe situe un détail ?",
+         "r": "À gauche de la table",
+         "w": [
+          "Tout à coup",
+          "Le lendemain"
+         ],
+         "y": "À gauche est un repère spatial."
+        },
+        {
+         "q": "Quelle suite reste cohérente ?",
+         "r": "La table est au centre. Une chaise est placée près d’elle.",
+         "w": [
+          "La table est seule. Aucun meuble n’existe.",
+          "La table est ronde. Elle n’a aucune forme."
+         ],
+         "y": "Les éléments de la description doivent rester compatibles."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   },
+   {
+    "id": "c110-3",
+    "status": "draft",
+    "idea": "Ne présente pas une supposition comme une observation.",
+    "vars": {},
+    "example": [
+     "Je vois un cahier ; je ne connais pas encore son propriétaire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi2-110-etape-3-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "expression"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ?",
+         "r": "Un cahier fermé est posé sur la table.",
+         "w": [
+          "Il contient forcément un secret.",
+          "Son propriétaire est certainement riche."
+         ],
+         "y": "L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire."
+        },
+        {
+         "q": "Que faut-il vérifier en relisant une description ?",
+         "r": "L’ordre des détails et les accords des adjectifs.",
+         "w": [
+          "Seulement la longueur du titre.",
+          "Que chaque phrase change de sujet."
+         ],
+         "y": "La description doit être organisée et grammaticalement correcte."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.y}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.y}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "La réponse est : {answer}"
+     ],
+     "show": 3,
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi2-110-etape-1",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle phrase décrit un lieu ?",
+       "r": "Au fond de la salle, un écran est posé sur une table.",
+       "w": [
+        "Hier, je partis en courant.",
+        "Je vous demande une autorisation."
+       ],
+       "y": "La phrase situe des éléments observables."
+      },
+      {
+       "q": "Quelle phrase décrit un objet ?",
+       "r": "Le poste de radio est petit et noir.",
+       "w": [
+        "Qui est à l’appareil ?",
+        "Je viendrai demain."
+       ],
+       "y": "La taille et la couleur décrivent l’objet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-110-etape-2",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel groupe situe un détail ?",
+       "r": "À gauche de la table",
+       "w": [
+        "Tout à coup",
+        "Le lendemain"
+       ],
+       "y": "À gauche est un repère spatial."
+      },
+      {
+       "q": "Quelle suite reste cohérente ?",
+       "r": "La table est au centre. Une chaise est placée près d’elle.",
+       "w": [
+        "La table est seule. Aucun meuble n’existe.",
+        "La table est ronde. Elle n’a aucune forme."
+       ],
+       "y": "Les éléments de la description doivent rester compatibles."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-110-etape-3",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "expression"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ?",
+       "r": "Un cahier fermé est posé sur la table.",
+       "w": [
+        "Il contient forcément un secret.",
+        "Son propriétaire est certainement riche."
+       ],
+       "y": "L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire."
+      },
+      {
+       "q": "Que faut-il vérifier en relisant une description ?",
+       "r": "L’ordre des détails et les accords des adjectifs.",
+       "w": [
+        "Seulement la longueur du titre.",
+        "Que chaque phrase change de sujet."
+       ],
+       "y": "La description doit être organisée et grammaticalement correcte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.y}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.y}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "La réponse est : {answer}"
+   ],
+   "show": 3,
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "prompt": "Décris le coin de travail d’un élève imaginaire. Présente le lieu, puis situe quelques objets avec à gauche, au centre ou au fond.",
+  "model": [
+   "Au fond de la pièce, une petite table est placée près de la fenêtre. Un cahier bleu est ouvert au centre. À gauche, un stylo repose à côté d’une radio noire. Le coin est simple et bien rangé."
+  ],
+  "checklist": [
+   "J’ai présenté le lieu et ordonné les détails.",
+   "J’ai utilisé des repères spatiaux.",
+   "J’ai relu les accords et la ponctuation."
+  ],
+  "checks": []
+ }
+}

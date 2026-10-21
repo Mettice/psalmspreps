@@ -1,4 +1,4 @@
-# Français intensif Form 2, Batches FI2-1, FI2-2: authored answers for review
+# Français intensif Form 2, Batches FI2-1, FI2-2, FI2-3: authored answers for review
 
 Every answer fixed by a person, not computed. Part 1: the tables, conventions and rules that computed answers come from.
 Part 2: every authored question template, with all its data (keys, statements, pairs, choices and feedback) and sources.
@@ -457,6 +457,128 @@ Regenerate with `npm run review:f2-francais-intensif`. Item IDs (TR-…) match `
 | 439 | `fi2-102-si` | 102 | fill the blank, 2 | conjugaison |
 | 440 | `fi2-102-spot` | 102 | spot the error, 3 | conjugaison |
 | 441 | `fi2-102-si-card` (card c102-2) | 102 | fill the blank, 1 | conjugaison |
+| 442 | `fi2-104-etape-1` | 104 | multiple choice, 1 | grammaire |
+| 443 | `fi2-104-etape-2` | 104 | multiple choice, 2 | grammaire |
+| 444 | `fi2-104-etape-3` | 104 | multiple choice, 3 | grammaire |
+| 445 | `fi2-104-etape-2-card` (card c104-2) | 104 | multiple choice, 1 | grammaire |
+| 446 | `fi2-104-etape-3-card` (card c104-3) | 104 | multiple choice, 1 | grammaire |
+| 447 | `fi2-105-etape-1` | 105 | multiple choice, 1 | conjugaison |
+| 448 | `fi2-105-etape-2` | 105 | multiple choice, 2 | conjugaison |
+| 449 | `fi2-105-etape-3` | 105 | multiple choice, 3 | conjugaison |
+| 450 | `fi2-105-etape-2-card` (card c105-2) | 105 | multiple choice, 1 | conjugaison |
+| 451 | `fi2-105-etape-3-card` (card c105-3) | 105 | multiple choice, 1 | conjugaison |
+| 452 | `fi2-106-etape-1` | 106 | multiple choice, 1 | orthographe |
+| 453 | `fi2-106-etape-2` | 106 | multiple choice, 2 | orthographe |
+| 454 | `fi2-106-etape-3` | 106 | multiple choice, 3 | orthographe |
+| 455 | `fi2-106-etape-2-card` (card c106-2) | 106 | multiple choice, 1 | orthographe |
+| 456 | `fi2-106-etape-3-card` (card c106-3) | 106 | multiple choice, 1 | orthographe |
+| 457 | `fi2-107-etape-1` | 107 | multiple choice, 1 | vocabulaire |
+| 458 | `fi2-107-etape-2` | 107 | multiple choice, 2 | vocabulaire |
+| 459 | `fi2-107-etape-3` | 107 | multiple choice, 3 | vocabulaire |
+| 460 | `fi2-107-etape-2-card` (card c107-2) | 107 | multiple choice, 1 | vocabulaire |
+| 461 | `fi2-107-etape-3-card` (card c107-3) | 107 | multiple choice, 1 | vocabulaire |
+| 462 | `fi2-108-etape-1` | 108 | multiple choice, 1 | expression |
+| 463 | `fi2-108-etape-2` | 108 | multiple choice, 2 | expression |
+| 464 | `fi2-108-etape-3` | 108 | multiple choice, 3 | expression |
+| 465 | `fi2-108-etape-2-card` (card c108-2) | 108 | multiple choice, 1 | expression |
+| 466 | `fi2-108-etape-3-card` (card c108-3) | 108 | multiple choice, 1 | expression |
+| 467 | `fi2-109-etape-1` | 109 | multiple choice, 1 | lecture |
+| 468 | `fi2-109-etape-2` | 109 | multiple choice, 2 | lecture |
+| 469 | `fi2-109-etape-3` | 109 | multiple choice, 3 | lecture |
+| 470 | `fi2-109-etape-2-card` (card c109-2) | 109 | multiple choice, 1 | lecture |
+| 471 | `fi2-109-etape-3-card` (card c109-3) | 109 | multiple choice, 1 | lecture |
+| 472 | `fi2-110-etape-1` | 110 | multiple choice, 1 | expression |
+| 473 | `fi2-110-etape-2` | 110 | multiple choice, 2 | expression |
+| 474 | `fi2-110-etape-3` | 110 | multiple choice, 3 | expression |
+| 475 | `fi2-110-etape-2-card` (card c110-2) | 110 | multiple choice, 1 | expression |
+| 476 | `fi2-110-etape-3-card` (card c110-3) | 110 | multiple choice, 1 | expression |
+| 477 | `fi2-111-etape-1` | 111 | multiple choice, 1 | litterature |
+| 478 | `fi2-111-etape-2` | 111 | multiple choice, 2 | litterature |
+| 479 | `fi2-111-etape-3` | 111 | multiple choice, 3 | litterature |
+| 480 | `fi2-111-etape-2-card` (card c111-2) | 111 | multiple choice, 1 | litterature |
+| 481 | `fi2-111-etape-3-card` (card c111-3) | 111 | multiple choice, 1 | litterature |
+| 482 | `fi2-112-etape-1` | 112 | multiple choice, 1 | grammaire |
+| 483 | `fi2-112-etape-2` | 112 | multiple choice, 2 | grammaire |
+| 484 | `fi2-112-etape-3` | 112 | multiple choice, 3 | grammaire |
+| 485 | `fi2-112-etape-2-card` (card c112-2) | 112 | multiple choice, 1 | grammaire |
+| 486 | `fi2-112-etape-3-card` (card c112-3) | 112 | multiple choice, 1 | grammaire |
+| 487 | `fi2-113-emploi` | 113 | multiple choice, 3 | conjugaison |
+| 488 | `fi2-113-emploi-card` (card c113-3) | 113 | multiple choice, 1 | conjugaison |
+| 489 | `fi2-114-etape-1` | 114 | multiple choice, 1 | orthographe |
+| 490 | `fi2-114-etape-2` | 114 | multiple choice, 2 | orthographe |
+| 491 | `fi2-114-etape-3` | 114 | multiple choice, 3 | orthographe |
+| 492 | `fi2-114-etape-2-card` (card c114-2) | 114 | multiple choice, 1 | orthographe |
+| 493 | `fi2-114-etape-3-card` (card c114-3) | 114 | multiple choice, 1 | orthographe |
+| 494 | `fi2-115-etape-1` | 115 | multiple choice, 1 | vocabulaire |
+| 495 | `fi2-115-etape-2` | 115 | multiple choice, 2 | vocabulaire |
+| 496 | `fi2-115-etape-3` | 115 | multiple choice, 3 | vocabulaire |
+| 497 | `fi2-115-etape-2-card` (card c115-2) | 115 | multiple choice, 1 | vocabulaire |
+| 498 | `fi2-115-etape-3-card` (card c115-3) | 115 | multiple choice, 1 | vocabulaire |
+| 499 | `fi2-116-etape-1` | 116 | multiple choice, 1 | expression |
+| 500 | `fi2-116-etape-2` | 116 | multiple choice, 2 | expression |
+| 501 | `fi2-116-etape-3` | 116 | multiple choice, 3 | expression |
+| 502 | `fi2-116-etape-2-card` (card c116-2) | 116 | multiple choice, 1 | expression |
+| 503 | `fi2-116-etape-3-card` (card c116-3) | 116 | multiple choice, 1 | expression |
+| 504 | `fi2-117-etape-1` | 117 | multiple choice, 1 | expression |
+| 505 | `fi2-117-etape-2` | 117 | multiple choice, 2 | expression |
+| 506 | `fi2-117-etape-3` | 117 | multiple choice, 3 | expression |
+| 507 | `fi2-117-etape-2-card` (card c117-2) | 117 | multiple choice, 1 | expression |
+| 508 | `fi2-117-etape-3-card` (card c117-3) | 117 | multiple choice, 1 | expression |
+| 509 | `fi2-118-etape-1` | 118 | multiple choice, 1 | grammaire |
+| 510 | `fi2-118-etape-2` | 118 | multiple choice, 2 | grammaire |
+| 511 | `fi2-118-etape-3` | 118 | multiple choice, 3 | grammaire |
+| 512 | `fi2-118-etape-2-card` (card c118-2) | 118 | multiple choice, 1 | grammaire |
+| 513 | `fi2-118-etape-3-card` (card c118-3) | 118 | multiple choice, 1 | grammaire |
+| 514 | `fi2-119-etape-1` | 119 | multiple choice, 1 | orthographe |
+| 515 | `fi2-119-etape-2` | 119 | multiple choice, 2 | orthographe |
+| 516 | `fi2-119-etape-3` | 119 | multiple choice, 3 | orthographe |
+| 517 | `fi2-119-etape-2-card` (card c119-2) | 119 | multiple choice, 1 | orthographe |
+| 518 | `fi2-119-etape-3-card` (card c119-3) | 119 | multiple choice, 1 | orthographe |
+| 519 | `fi2-120-etape-1` | 120 | multiple choice, 1 | vocabulaire |
+| 520 | `fi2-120-etape-2` | 120 | multiple choice, 2 | vocabulaire |
+| 521 | `fi2-120-etape-3` | 120 | multiple choice, 3 | vocabulaire |
+| 522 | `fi2-120-etape-2-card` (card c120-2) | 120 | multiple choice, 1 | vocabulaire |
+| 523 | `fi2-120-etape-3-card` (card c120-3) | 120 | multiple choice, 1 | vocabulaire |
+| 524 | `fi2-121-etape-1` | 121 | multiple choice, 1 | expression |
+| 525 | `fi2-121-etape-2` | 121 | multiple choice, 2 | expression |
+| 526 | `fi2-121-etape-3` | 121 | multiple choice, 3 | expression |
+| 527 | `fi2-121-etape-2-card` (card c121-2) | 121 | multiple choice, 1 | expression |
+| 528 | `fi2-121-etape-3-card` (card c121-3) | 121 | multiple choice, 1 | expression |
+| 529 | `fi2-122-etape-1` | 122 | multiple choice, 1 | expression |
+| 530 | `fi2-122-etape-2` | 122 | multiple choice, 2 | expression |
+| 531 | `fi2-122-etape-3` | 122 | multiple choice, 3 | expression |
+| 532 | `fi2-122-etape-2-card` (card c122-2) | 122 | multiple choice, 1 | expression |
+| 533 | `fi2-122-etape-3-card` (card c122-3) | 122 | multiple choice, 1 | expression |
+| 534 | `fi2-123-etape-1` | 123 | multiple choice, 1 | vocabulaire |
+| 535 | `fi2-123-etape-2` | 123 | multiple choice, 2 | vocabulaire |
+| 536 | `fi2-123-etape-3` | 123 | multiple choice, 3 | vocabulaire |
+| 537 | `fi2-123-etape-2-card` (card c123-2) | 123 | multiple choice, 1 | vocabulaire |
+| 538 | `fi2-123-etape-3-card` (card c123-3) | 123 | multiple choice, 1 | vocabulaire |
+| 539 | `fi2-124-etape-1` | 124 | multiple choice, 1 | expression |
+| 540 | `fi2-124-etape-2` | 124 | multiple choice, 2 | expression |
+| 541 | `fi2-124-etape-3` | 124 | multiple choice, 3 | expression |
+| 542 | `fi2-124-etape-2-card` (card c124-2) | 124 | multiple choice, 1 | expression |
+| 543 | `fi2-124-etape-3-card` (card c124-3) | 124 | multiple choice, 1 | expression |
+| 544 | `fi2-125-etape-1` | 125 | multiple choice, 1 | vocabulaire |
+| 545 | `fi2-125-etape-2` | 125 | multiple choice, 2 | vocabulaire |
+| 546 | `fi2-125-etape-3` | 125 | multiple choice, 3 | vocabulaire |
+| 547 | `fi2-125-etape-2-card` (card c125-2) | 125 | multiple choice, 1 | vocabulaire |
+| 548 | `fi2-125-etape-3-card` (card c125-3) | 125 | multiple choice, 1 | vocabulaire |
+| 549 | `fi2-126-etape-1` | 126 | multiple choice, 1 | grammaire |
+| 550 | `fi2-126-etape-2` | 126 | multiple choice, 2 | grammaire |
+| 551 | `fi2-126-etape-3` | 126 | multiple choice, 3 | grammaire |
+| 552 | `fi2-126-etape-2-card` (card c126-2) | 126 | multiple choice, 1 | grammaire |
+| 553 | `fi2-126-etape-3-card` (card c126-3) | 126 | multiple choice, 1 | grammaire |
+| 554 | `fi2-127-etape-1` | 127 | multiple choice, 1 | litterature |
+| 555 | `fi2-127-etape-2` | 127 | multiple choice, 2 | litterature |
+| 556 | `fi2-127-etape-3` | 127 | multiple choice, 3 | litterature |
+| 557 | `fi2-127-etape-2-card` (card c127-2) | 127 | multiple choice, 1 | litterature |
+| 558 | `fi2-127-etape-3-card` (card c127-3) | 127 | multiple choice, 1 | litterature |
+| 559 | `fi2-128-etape-1` | 128 | multiple choice, 1 | expression |
+| 560 | `fi2-128-etape-2` | 128 | multiple choice, 2 | expression |
+| 561 | `fi2-128-etape-3` | 128 | multiple choice, 3 | expression |
+| 562 | `fi2-128-etape-2-card` (card c128-2) | 128 | multiple choice, 1 | expression |
+| 563 | `fi2-128-etape-3-card` (card c128-3) | 128 | multiple choice, 1 | expression |
 
 ### `fi2-1-epi` · Lesson 1 · multiple choice, level 1
 
@@ -523,7 +645,7 @@ Full working after a second miss:
 > « petit » est à côté du nom « village ».  
 > Donc la réponse est « épithète ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-1-attr` · Lesson 1 · multiple choice, level 1
 
@@ -590,7 +712,7 @@ Full working after a second miss:
 > « propre » est relié au sujet par le verbe d’état « est ».  
 > Donc la réponse est « attribut du sujet ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-1-place` · Lesson 1 · multiple choice, level 2
 
@@ -657,7 +779,7 @@ Full working after a second miss:
 > « grand » se place avant le nom.  
 > Donc la réponse est « Mon oncle a une grande maison. ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-1-spot` · Lesson 1 · spot the error, level 3
 
@@ -718,7 +840,7 @@ Full working after a second miss:
 > La phrase fausse est « « manger » est un verbe d’état. ».  
 > Les verbes d’état sont être, sembler, paraître, devenir, rester.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `pilot-form-2-francais-intensif-1-1` · Lesson 1 · multiple choice, level 1
 
@@ -773,7 +895,7 @@ Full working after a second miss:
 
 > « Propre » est placé à côté du nom « cour », sans verbe : épithète.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `pilot-form-2-francais-intensif-1-2` · Lesson 1 · multiple choice, level 2
 
@@ -822,7 +944,7 @@ Full working after a second miss:
 
 > Le verbe d’état « est » relie l’adjectif « propre » au sujet « la cour ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-1-place-card` · Lesson 1 · multiple choice, level 1
 
@@ -889,7 +1011,7 @@ Full working after a second miss:
 > La plupart des adjectifs se placent après le nom.  
 > Donc la réponse est « C’est un élève sérieux. ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-2-emploi` · Lesson 2 · multiple choice, level 2
 
@@ -1415,7 +1537,7 @@ Full working after a second miss:
 > Arrière- : une génération plus haut.  
 > Donc la réponse est « mes arrière-grands-parents ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-4-age` · Lesson 4 · multiple choice, level 1
 
@@ -1482,7 +1604,7 @@ Full working after a second miss:
 > L’aîné est le premier né.  
 > Donc la réponse est « l’aîné ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-4-mots` · Lesson 4 · matching, level 2
 
@@ -1547,7 +1669,7 @@ Full working after a second miss:
 > un veuf → un homme qui a perdu sa femme  
 > une marraine → une femme qui s’engage à aider un enfant, son filleul  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-4-spot` · Lesson 4 · spot the error, level 3
 
@@ -1608,7 +1730,7 @@ Full working after a second miss:
 > La phrase fausse est « L’aîné est le plus jeune des enfants. ».  
 > L’aîné est le plus âgé.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-4-mots-card` · Lesson 4 · matching, level 1
 
@@ -1673,7 +1795,7 @@ Full working after a second miss:
 > une veuve → une femme qui a perdu son mari  
 > un orphelin → un enfant qui a perdu ses parents  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-5-mots` · Lesson 5 · multiple choice, level 1
 
@@ -1740,7 +1862,7 @@ Full working after a second miss:
 > Chaque ligne est un vers.  
 > Donc la réponse est « un vers ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-5-rime` · Lesson 5 · multiple choice, level 1
 
@@ -1807,7 +1929,7 @@ Full working after a second miss:
 > dort / trésor : même son [ɔr].  
 > Donc la réponse est « trésor ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-5-dire` · Lesson 5 · multiple choice, level 2
 
@@ -1873,7 +1995,7 @@ Full working after a second miss:
 > On regarde le public et on articule.  
 > Donc la réponse est « regarder le public et articuler ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-5-spot` · Lesson 5 · spot the error, level 3
 
@@ -1934,7 +2056,7 @@ Full working after a second miss:
 > La phrase fausse est « La grand-mère conte des histoires le matin à l’école. ».  
 > Elle conte sous le manguier ; la nuit, sa voix chante.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-5-dire-card` · Lesson 5 · multiple choice, level 1
 
@@ -2000,7 +2122,7 @@ Full working after a second miss:
 > La ponctuation montre les pauses.  
 > Donc la réponse est « aux virgules et aux points ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-6-lettre` · Lesson 6 · multiple choice, level 1
 
@@ -2066,7 +2188,7 @@ Full working after a second miss:
 > Elle vient juste avant la signature.  
 > Donc la réponse est « Ta nièce qui t’aime ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-6-texte` · Lesson 6 · multiple choice, level 1
 
@@ -2133,7 +2255,7 @@ Full working after a second miss:
 > « pour le mariage de l’oncle Simon ».  
 > Donc la réponse est « le mariage de l’oncle Simon ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-6-sent` · Lesson 6 · multiple choice, level 2
 
@@ -2200,7 +2322,7 @@ Full working after a second miss:
 > Chacun aide l’autre dans sa matière forte.  
 > Donc la réponse est « Eric l’aide en mathématiques et elle l’aide en français ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-6-spot` · Lesson 6 · spot the error, level 3
 
@@ -2261,7 +2383,7 @@ Full working after a second miss:
 > La phrase fausse est « Biloa écrit à son oncle Simon. ».  
 > Elle écrit à sa tante Ngo.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-6-sent-card` · Lesson 6 · multiple choice, level 1
 
@@ -2328,7 +2450,7 @@ Full working after a second miss:
 > « Grand-père est sévère mais juste ».  
 > Donc la réponse est « sévère mais juste ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-7-sv` · Lesson 7 · multiple choice, level 1
 
@@ -2395,7 +2517,7 @@ Full working after a second miss:
 > Qui ouvre ? mon oncle.  
 > Donc la réponse est « mon oncle ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-7-type` · Lesson 7 · multiple choice, level 1
 
@@ -2463,7 +2585,7 @@ Full working after a second miss:
 > Elle donne un ordre.  
 > Donc la réponse est « impérative ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-7-wo` · Lesson 7 · word order, level 2
 
@@ -2510,7 +2632,7 @@ Full working after a second miss:
 
 > La phrase est : Mon cousin répare son vélo dans la cour.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-7-spot` · Lesson 7 · spot the error, level 3
 
@@ -2571,7 +2693,7 @@ Full working after a second miss:
 > La phrase fausse est « Dans « Paul mange », le sujet est « mange ». ».  
 > « mange » est le verbe ; le sujet est Paul.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-7-wo-card` · Lesson 7 · word order, level 1
 
@@ -2618,7 +2740,7 @@ Full working after a second miss:
 
 > La phrase est : Mon cousin répare son vélo dans la cour.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-8-genre` · Lesson 8 · multiple choice, level 1
 
@@ -2685,7 +2807,7 @@ Full working after a second miss:
 > Les acteurs jouent les pièces de théâtre.  
 > Donc la réponse est « le théâtre ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-8-recit` · Lesson 8 · multiple choice, level 1
 
@@ -2751,7 +2873,7 @@ Full working after a second miss:
 > Le chien aboie, le fermier sort, le léopard s’enfuit.  
 > Donc la réponse est « le chien, en aboyant, puis le fermier ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-8-morale` · Lesson 8 · multiple choice, level 2
 
@@ -2817,7 +2939,7 @@ Full working after a second miss:
 > Le chien dit : « Chacun a son travail ».  
 > Donc la réponse est « chaque travail est utile ; il ne faut pas se moquer des autres ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-8-spot` · Lesson 8 · spot the error, level 3
 
@@ -2878,7 +3000,7 @@ Full working after a second miss:
 > La phrase fausse est « Le roman est toujours un poème de quatre vers. ».  
 > Le roman est un long récit en prose.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-8-morale-card` · Lesson 8 · multiple choice, level 1
 
@@ -2944,7 +3066,7 @@ Full working after a second miss:
 > Le léopard a failli l’attaquer.  
 > Donc la réponse est « elle a eu peur du léopard ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-9-liste` · Lesson 9 · multiple choice, level 1
 
@@ -3011,7 +3133,7 @@ Full working after a second miss:
 > ni fait partie de la liste.  
 > Donc la réponse est « ni ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-9-sens` · Lesson 9 · fill the blank, level 1
 
@@ -3077,7 +3199,7 @@ Full working after a second miss:
 > Le mot qui manque est « car ».  
 > Je prends mon parapluie, car il pleut.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-9-choix` · Lesson 9 · fill the blank, level 2
 
@@ -3143,7 +3265,7 @@ Full working after a second miss:
 > Le mot qui manque est « ni ».  
 > Il n’aime ni le poisson ni la viande.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-9-spot` · Lesson 9 · spot the error, level 3
 
@@ -3204,7 +3326,7 @@ Full working after a second miss:
 > La phrase fausse est « J’allume la lampe, donc il fait nuit. ».  
 > La nuit est la cause : « car il fait nuit ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-9-choix-card` · Lesson 9 · fill the blank, level 1
 
@@ -3270,7 +3392,7 @@ Full working after a second miss:
 > Le mot qui manque est « mais ».  
 > Il est petit mais très fort.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-10-emploi` · Lesson 10 · fill the blank, level 2
 
@@ -3795,7 +3917,7 @@ Full working after a second miss:
 > Les ancêtres sont en haut de l’arbre.  
 > Donc la réponse est « les ancêtres ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-12-lire` · Lesson 12 · multiple choice, level 1
 
@@ -3862,7 +3984,7 @@ Full working after a second miss:
 > Papa Ewane est le père de Rose, la mère de Tom.  
 > Donc la réponse est « son grand-père ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-12-gen` · Lesson 12 · multiple choice, level 2
 
@@ -3929,7 +4051,7 @@ Full working after a second miss:
 > Grands-parents, parents, petits-enfants.  
 > Donc la réponse est « trois ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-12-spot` · Lesson 12 · spot the error, level 3
 
@@ -3990,7 +4112,7 @@ Full working after a second miss:
 > La phrase fausse est « Paul est le grand-père de Linda. ».  
 > Paul est le père de Linda.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-12-gen-card` · Lesson 12 · multiple choice, level 1
 
@@ -4057,7 +4179,7 @@ Full working after a second miss:
 > Paul et Rose sont frère et sœur.  
 > Donc la réponse est « Rose ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-13-role` · Lesson 13 · multiple choice, level 1
 
@@ -4123,7 +4245,7 @@ Full working after a second miss:
 > On joue un personnage.  
 > Donc la réponse est « une scène où chacun joue un personnage dans une situation de la vie ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-13-formule` · Lesson 13 · multiple choice, level 1
 
@@ -4189,7 +4311,7 @@ Full working after a second miss:
 > On salue et on propose son aide.  
 > Donc la réponse est « Bonjour, soyez le bienvenu. Que puis-je faire pour vous ? ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-13-ordre` · Lesson 13 · multiple choice, level 2
 
@@ -4255,7 +4377,7 @@ Full working after a second miss:
 > On remercie et on prend congé.  
 > Donc la réponse est « Merci beaucoup, Madame. Au revoir. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-13-dial` · Lesson 13 · ordering, level 3
 
@@ -4305,7 +4427,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Infirmier : Bonjour. Soyez le bienvenu. → Malade : Bonjour. Pourriez-vous m’aider ? J’ai mal à la tête. → Infirmier : Asseyez-vous, je prends votre température. → Malade : Merci beaucoup..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-13-ordre-card` · Lesson 13 · multiple choice, level 1
 
@@ -4371,7 +4493,7 @@ Full working after a second miss:
 > On s’excuse avant de refuser.  
 > Donc la réponse est « Je suis désolé, mais je ne peux pas venir. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-14-mot` · Lesson 14 · multiple choice, level 1
 
@@ -4437,7 +4559,7 @@ Full working after a second miss:
 > Un paragraphe développe une idée.  
 > Donc la réponse est « un groupe de phrases sur une même idée ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-14-plan` · Lesson 14 · multiple choice, level 1
 
@@ -4503,7 +4625,7 @@ Full working after a second miss:
 > Elle annonce l’idée principale.  
 > Donc la réponse est « Mon école est très agréable. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-14-ordre` · Lesson 14 · ordering, level 2
 
@@ -4554,7 +4676,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Ma grand-mère est une femme courageuse. → D’abord, elle se lève avant le soleil. → Ensuite, elle travaille au champ toute la matinée. → Enfin, le soir, elle prépare le repas pour toute la famille..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-14-spot` · Lesson 14 · spot the error, level 3
 
@@ -4615,7 +4737,7 @@ Full working after a second miss:
 > La phrase fausse est « On commence le paragraphe par « enfin ». ».  
 > « Enfin » annonce la dernière idée.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-14-ordre-card` · Lesson 14 · ordering, level 1
 
@@ -4666,7 +4788,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Le samedi est un jour de travail chez nous. → D’abord, nous balayons la cour. → Ensuite, nous lavons le linge. → Enfin, nous rangeons la maison..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-15-type` · Lesson 15 · multiple choice, level 1
 
@@ -4733,7 +4855,7 @@ Full working after a second miss:
 > Préposition « à » + nom : complément du nom.  
 > Donc la réponse est « un complément du nom ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-15-cdn` · Lesson 15 · fill the blank, level 1
 
@@ -4798,7 +4920,7 @@ Full working after a second miss:
 > Le mot qui manque est « en ».  
 > Mon père a fabriqué une table en bois.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-15-qui` · Lesson 15 · fill the blank, level 2
 
@@ -4864,7 +4986,7 @@ Full working after a second miss:
 > Le mot qui manque est « qui ».  
 > La fille qui chante est ma cousine.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-15-wo` · Lesson 15 · word order, level 3
 
@@ -4911,7 +5033,7 @@ Full working after a second miss:
 
 > La phrase est : Le garçon qui joue au ballon est mon frère.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-15-qui-card` · Lesson 15 · fill the blank, level 1
 
@@ -4977,7 +5099,7 @@ Full working after a second miss:
 > Le mot qui manque est « qui ».  
 > La fille qui chante est ma cousine.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-16-son` · Lesson 16 · multiple choice, level 1
 
@@ -5372,7 +5494,7 @@ Full working after a second miss:
 > l’emploi du temps → l’horaire des cours de la semaine  
 > le bulletin → les notes du trimestre  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-17-quartier` · Lesson 17 · multiple choice, level 1
 
@@ -5439,7 +5561,7 @@ Full working after a second miss:
 > Le chef de quartier règle les problèmes du quartier.  
 > Donc la réponse est « le chef de quartier ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-17-voisin` · Lesson 17 · multiple choice, level 2
 
@@ -5505,7 +5627,7 @@ Full working after a second miss:
 > Un bon voisin aide les autres.  
 > Donc la réponse est « aider son voisin malade à aller au centre de santé ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-17-spot` · Lesson 17 · spot the error, level 3
 
@@ -5566,7 +5688,7 @@ Full working after a second miss:
 > La phrase fausse est « Le carrefour est l’endroit où l’on achète des médicaments. ».  
 > C’est la pharmacie ; le carrefour est un croisement de routes.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-17-voisin-card` · Lesson 17 · multiple choice, level 1
 
@@ -5632,7 +5754,7 @@ Full working after a second miss:
 > Un bon voisin aide les autres.  
 > Donc la réponse est « aider son voisin malade à aller au centre de santé ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-18-type` · Lesson 18 · multiple choice, level 1
 
@@ -5698,7 +5820,7 @@ Full working after a second miss:
 > La caricature exagère.  
 > Donc la réponse est « une caricature ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-18-mot` · Lesson 18 · multiple choice, level 1
 
@@ -5764,7 +5886,7 @@ Full working after a second miss:
 > La légende explique l’image.  
 > Donc la réponse est « la légende ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-18-msg` · Lesson 18 · multiple choice, level 2
 
@@ -5830,7 +5952,7 @@ Full working after a second miss:
 > Le slogan relie la moustiquaire et le paludisme.  
 > Donc la réponse est « dormir sous moustiquaire protège du paludisme ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-18-ordre` · Lesson 18 · ordering, level 3
 
@@ -5881,7 +6003,7 @@ Full working after a second miss:
 
 > Le bon ordre est : C’est une affiche du club santé. → Au centre, on voit des enfants qui se lavent les mains. → Le slogan dit : « Des mains propres, une santé solide ». → Cette affiche conseille de se laver souvent les mains. → À mon avis, ce conseil est très utile..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-18-msg-card` · Lesson 18 · multiple choice, level 1
 
@@ -5947,7 +6069,7 @@ Full working after a second miss:
 > Le slogan relie la moustiquaire et le paludisme.  
 > Donc la réponse est « dormir sous moustiquaire protège du paludisme ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-19-obs` · Lesson 19 · multiple choice, level 1
 
@@ -6013,7 +6135,7 @@ Full working after a second miss:
 > Le lieu répond à « Où ? ».  
 > Donc la réponse est « devant l’école ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-19-temps` · Lesson 19 · fill the blank, level 1
 
@@ -6078,7 +6200,7 @@ Full working after a second miss:
 > Le mot qui manque est « rentrent ».  
 > Le ciel est gris. Les enfants rentrent vite à la maison.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-19-plan` · Lesson 19 · ordering, level 2
 
@@ -6128,7 +6250,7 @@ Full working after a second miss:
 
 > Le bon ordre est : C’est la saison des pluies. → Devant l’école, des élèves plantent des arbres. → Le professeur leur montre comment faire. → Bientôt, l’école sera pleine d’ombre..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-19-spot` · Lesson 19 · spot the error, level 3
 
@@ -6189,7 +6311,7 @@ Full working after a second miss:
 > La phrase fausse est « On change de temps à chaque phrase. ».  
 > On garde le même temps.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-19-plan-card` · Lesson 19 · ordering, level 1
 
@@ -6239,7 +6361,7 @@ Full working after a second miss:
 
 > Le bon ordre est : C’est la saison des pluies. → Devant l’école, des élèves plantent des arbres. → Le professeur leur montre comment faire. → Bientôt, l’école sera pleine d’ombre..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-20-cod` · Lesson 20 · fill the blank, level 2
 
@@ -6306,7 +6428,7 @@ Full working after a second miss:
 > Le mot qui manque est « mangé ».  
 > J’ai mangé les mangues du jardin.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-20-spot` · Lesson 20 · spot the error, level 3
 
@@ -6367,7 +6489,7 @@ Full working after a second miss:
 > La phrase fausse est « Ma tante est venu hier. ».  
 > Avec être, on accorde : est venue.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-20-cod-card` · Lesson 20 · fill the blank, level 1
 
@@ -6434,7 +6556,7 @@ Full working after a second miss:
 > Le mot qui manque est « mangées ».  
 > Les mangues que j’ai mangées étaient sucrées.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-21-f` · Lesson 21 · fill the blank, level 1
 
@@ -6827,7 +6949,7 @@ Full working after a second miss:
 > Il est relié au sujet par « est ».  
 > Donc la réponse est « attribut du sujet ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-22-temps` · Lesson 22 · fill the blank, level 1
 
@@ -6958,7 +7080,7 @@ Full working after a second miss:
 > Le mot qui manque est « qui ».  
 > Le garçon qui chante est mon cousin.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-22-spot` · Lesson 22 · spot the error, level 3
 
@@ -7021,7 +7143,7 @@ Full working after a second miss:
 > La phrase fausse est « Hier, je lisais un livre et soudain je tombais. ».  
 > Une action soudaine : je suis tombé.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-22-util-card` · Lesson 22 · fill the blank, level 1
 
@@ -7087,7 +7209,7 @@ Full working after a second miss:
 > Le mot qui manque est « cueillies ».  
 > Les fleurs que ma sœur a cueillies sont jaunes.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-23-conte` · Lesson 23 · multiple choice, level 1
 
@@ -7154,7 +7276,7 @@ Full working after a second miss:
 > « Les fourmis la recollèrent ».  
 > Donc la réponse est « les fourmis ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-23-schema` · Lesson 23 · multiple choice, level 1
 
@@ -7220,7 +7342,7 @@ Full working after a second miss:
 > Le dénouement règle le problème.  
 > Donc la réponse est « les oiseaux reprennent leurs plumes et la tortue tombe ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-23-lecon` · Lesson 23 · multiple choice, level 2
 
@@ -7286,7 +7408,7 @@ Full working after a second miss:
 > Le titre le dit.  
 > Donc la réponse est « pourquoi la carapace de la tortue est craquelée ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-23-spot` · Lesson 23 · spot the error, level 3
 
@@ -7347,7 +7469,7 @@ Full working after a second miss:
 > La phrase fausse est « Le conte commence par « Depuis ce jour ». ».  
 > Il commence par « Il était une fois ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-23-lecon-card` · Lesson 23 · multiple choice, level 1
 
@@ -7413,7 +7535,7 @@ Full working after a second miss:
 > Le titre le dit.  
 > Donc la réponse est « pourquoi la carapace de la tortue est craquelée ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-24-into` · Lesson 24 · matching, level 1
 
@@ -7477,7 +7599,7 @@ Full working after a second miss:
 > le point d’interrogation (?) → la voix monte  
 > la virgule (,) → une courte pause  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-24-pause` · Lesson 24 · multiple choice, level 1
 
@@ -7543,7 +7665,7 @@ Full working after a second miss:
 > Comprendre aide à bien lire.  
 > Donc la réponse est « le lire une fois en silence pour le comprendre ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-24-ton` · Lesson 24 · multiple choice, level 2
 
@@ -7610,7 +7732,7 @@ Full working after a second miss:
 > « Hourra ! » exprime la joie.  
 > Donc la réponse est « un ton joyeux, voix forte ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-24-spot` · Lesson 24 · spot the error, level 3
 
@@ -7671,7 +7793,7 @@ Full working after a second miss:
 > La phrase fausse est « On ne fait jamais de pause. ».  
 > On fait des pauses aux virgules et aux points.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-24-ton-card` · Lesson 24 · multiple choice, level 1
 
@@ -7738,7 +7860,7 @@ Full working after a second miss:
 > La phrase exprime la tristesse.  
 > Donc la réponse est « un ton triste, voix douce ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-25-ordre` · Lesson 25 · ordering, level 1
 
@@ -7789,7 +7911,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Un après-midi, Paul jouait au ballon près de la route. → Soudain, le ballon a roulé sur la route. → Alors, Paul s’est arrêté et a regardé à gauche et à droite. → Enfin, il a récupéré son ballon en sécurité..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-25-mots` · Lesson 25 · fill the blank, level 1
 
@@ -7854,7 +7976,7 @@ Full working after a second miss:
 > Le mot qui manque est « Enfin ».  
 > Enfin, après une longue journée, tout le monde est rentré à la maison.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-25-temps` · Lesson 25 · fill the blank, level 2
 
@@ -7980,7 +8102,7 @@ Full working after a second miss:
 > La phrase fausse est « On raconte les images dans le désordre. ».  
 > On suit l’ordre de l’histoire.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-25-temps-card` · Lesson 25 · fill the blank, level 1
 
@@ -8570,7 +8692,7 @@ Full working after a second miss:
 > la vaccination → l’injection d’un vaccin pour se protéger  
 > une épidémie → beaucoup de malades en même temps dans une région  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-30-gestes` · Lesson 30 · multiple choice, level 1
 
@@ -8636,7 +8758,7 @@ Full working after a second miss:
 > Le savon enlève les microbes.  
 > Donc la réponse est « se laver souvent les mains avec du savon ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-30-def` · Lesson 30 · fill the blank, level 2
 
@@ -8702,7 +8824,7 @@ Full working after a second miss:
 > Le mot qui manque est « quarantaine ».  
 > Les voyageurs exposés restent en quarantaine pendant quelques jours.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-30-spot` · Lesson 30 · spot the error, level 3
 
@@ -8763,7 +8885,7 @@ Full working after a second miss:
 > La phrase fausse est « Tousser vers les autres est un geste barrière. ».  
 > On tousse dans son coude.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-30-def-card` · Lesson 30 · fill the blank, level 1
 
@@ -8829,7 +8951,7 @@ Full working after a second miss:
 > Le mot qui manque est « dépistage ».  
 > Le dépistage permet de savoir si une personne est malade.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-31-refrain` · Lesson 31 · multiple choice, level 1
 
@@ -8895,7 +9017,7 @@ Full working after a second miss:
 > « Lave tes mains … avec de l’eau et du savon ».  
 > Donc la réponse est « se laver les mains avec de l’eau et du savon ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-31-rime` · Lesson 31 · multiple choice, level 1
 
@@ -8961,7 +9083,7 @@ Full working after a second miss:
 > maison / savon : même son [ɔ̃].  
 > Donc la réponse est « savon ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-31-dire` · Lesson 31 · multiple choice, level 2
 
@@ -9027,7 +9149,7 @@ Full working after a second miss:
 > Le refrain est repris par tous.  
 > Donc la réponse est « plus fort, tous ensemble ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-31-spot` · Lesson 31 · spot the error, level 3
 
@@ -9088,7 +9210,7 @@ Full working after a second miss:
 > La phrase fausse est « Le refrain n’apparaît qu’une fois. ».  
 > Il apparaît au début et à la fin.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-31-dire-card` · Lesson 31 · multiple choice, level 1
 
@@ -9154,7 +9276,7 @@ Full working after a second miss:
 > Le refrain est repris par tous.  
 > Donc la réponse est « plus fort, tous ensemble ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-32-cause` · Lesson 32 · multiple choice, level 1
 
@@ -9221,7 +9343,7 @@ Full working after a second miss:
 > La rivière a débordé, l’eau a été salie.  
 > Donc la réponse est « l’eau salie après le débordement de la rivière ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-32-mot` · Lesson 32 · multiple choice, level 1
 
@@ -9287,7 +9409,7 @@ Full working after a second miss:
 > Il annonce les conseils à tout le village.  
 > Donc la réponse est « il passe de case en case pour donner les conseils ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-32-msg` · Lesson 32 · multiple choice, level 2
 
@@ -9353,7 +9475,7 @@ Full working after a second miss:
 > « En trois semaines, l’épidémie fut arrêtée ».  
 > Donc la réponse est « en trois semaines ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-32-spot` · Lesson 32 · spot the error, level 3
 
@@ -9414,7 +9536,7 @@ Full working after a second miss:
 > La phrase fausse est « L’épidémie a duré trois ans. ».  
 > Elle a été arrêtée en trois semaines.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-32-msg-card` · Lesson 32 · multiple choice, level 1
 
@@ -9480,7 +9602,7 @@ Full working after a second miss:
 > Le chef le dit : chaque famille gardera son eau propre.  
 > Donc la réponse est « une eau propre et l’hygiène protègent du choléra ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-33-type` · Lesson 33 · multiple choice, level 1
 
@@ -9548,7 +9670,7 @@ Full working after a second miss:
 > Taille et barbe : portrait physique.  
 > Donc la réponse est « physique ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-33-ordre` · Lesson 33 · ordering, level 1
 
@@ -9598,7 +9720,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Mon grand-père est un homme grand et maigre. → Son visage est ridé et souriant. → Une petite cicatrice marque son menton. → Il est sage et tout le village l’écoute..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-33-comp` · Lesson 33 · fill the blank, level 2
 
@@ -9663,7 +9785,7 @@ Full working after a second miss:
 > Le mot qui manque est « lion ».  
 > Il est fort comme un lion.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-33-spot` · Lesson 33 · spot the error, level 3
 
@@ -9724,7 +9846,7 @@ Full working after a second miss:
 > La phrase fausse est « On commence par un tout petit détail sans parler de la silhouette. ».  
 > On va du général au détail.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-33-comp-card` · Lesson 33 · fill the blank, level 1
 
@@ -9789,7 +9911,7 @@ Full working after a second miss:
 > Le mot qui manque est « lion ».  
 > Il est fort comme un lion.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-34-oeuvre` · Lesson 34 · matching, level 1
 
@@ -9853,7 +9975,7 @@ Full working after a second miss:
 > Une vie de boy → Ferdinand Oyono  
 > Trois prétendants… un mari → Guillaume Oyônô Mbia  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-34-narr` · Lesson 34 · multiple choice, level 1
 
@@ -9920,7 +10042,7 @@ Full working after a second miss:
 > Le narrateur raconte.  
 > Donc la réponse est « le narrateur ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-34-genre` · Lesson 34 · multiple choice, level 2
 
@@ -9986,7 +10108,7 @@ Full working after a second miss:
 > Un résumé dit l’essentiel en peu de mots.  
 > Donc la réponse est « Une chèvre se moque d’un chien qui veille, mais il lui sauve la vie contre un léopard. ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-34-spot` · Lesson 34 · spot the error, level 3
 
@@ -10047,7 +10169,7 @@ Full working after a second miss:
 > La phrase fausse est « Le narrateur est toujours l’éditeur du livre. ».  
 > L’éditeur publie le livre ; le narrateur raconte.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-34-genre-card` · Lesson 34 · multiple choice, level 1
 
@@ -10113,7 +10235,7 @@ Full working after a second miss:
 > Une pièce de théâtre est jouée sur une scène.  
 > Donc la réponse est « le théâtre ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-35-lieu` · Lesson 35 · multiple choice, level 1
 
@@ -10180,7 +10302,7 @@ Full working after a second miss:
 > Où jouent-ils ? dehors.  
 > Donc la réponse est « dehors : le lieu ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-36-emploi` · Lesson 36 · multiple choice, level 2
 
@@ -10705,7 +10827,7 @@ Full working after a second miss:
 > l’insalubrité → l’état d’un lieu sale et dangereux pour la santé  
 > le compost → un engrais fait avec des déchets de cuisine  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-38-tri` · Lesson 38 · multiple choice, level 1
 
@@ -10771,7 +10893,7 @@ Full working after a second miss:
 > Les déchets de cuisine se décomposent.  
 > Donc la réponse est « les épluchures et les restes de légumes ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-38-poll` · Lesson 38 · multiple choice, level 2
 
@@ -10838,7 +10960,7 @@ Full working after a second miss:
 > L’huile salit l’eau et le sol.  
 > Donc la réponse est « la pollution de l’eau et du sol ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-38-spot` · Lesson 38 · spot the error, level 3
 
@@ -10899,7 +11021,7 @@ Full working after a second miss:
 > La phrase fausse est « On met les bouteilles en plastique au compost. ».  
 > Le plastique ne se décompose pas.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-38-poll-card` · Lesson 38 · multiple choice, level 1
 
@@ -10966,7 +11088,7 @@ Full working after a second miss:
 > L’huile salit l’eau et le sol.  
 > Donc la réponse est « la pollution de l’eau et du sol ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-39-neg` · Lesson 39 · multiple choice, level 1
 
@@ -11032,7 +11154,7 @@ Full working after a second miss:
 > « C’est combien ? » demande le prix.  
 > Donc la réponse est « C’est combien, s’il vous plaît ? ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-39-desaccord` · Lesson 39 · multiple choice, level 1
 
@@ -11098,7 +11220,7 @@ Full working after a second miss:
 > On reconnaît l’avis de l’autre avant de dire le sien.  
 > Donc la réponse est « Je comprends, mais je ne suis pas d’accord. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-39-consoler` · Lesson 39 · multiple choice, level 2
 
@@ -11164,7 +11286,7 @@ Full working after a second miss:
 > On montre qu’on partage sa peine.  
 > Donc la réponse est « Je suis désolé. Je suis là si tu as besoin. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-39-dial` · Lesson 39 · ordering, level 3
 
@@ -11214,7 +11336,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Client : Bonjour, Madame. C’est combien, ce pagne ? → Vendeuse : Bonjour. C’est cinq mille francs. → Client : C’est un peu cher ; vous pouvez me faire un petit prix ? → Vendeuse : D’accord, quatre mille cinq cents, parce que c’est toi..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-39-consoler-card` · Lesson 39 · multiple choice, level 1
 
@@ -11280,7 +11402,7 @@ Full working after a second miss:
 > On montre qu’on partage sa peine.  
 > Donc la réponse est « Je suis désolé. Je suis là si tu as besoin. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-40-etape` · Lesson 40 · multiple choice, level 1
 
@@ -11347,7 +11469,7 @@ Full working after a second miss:
 > « Soudain » annonce le problème.  
 > Donc la réponse est « l’élément perturbateur ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-40-ordre` · Lesson 40 · ordering, level 1
 
@@ -11398,7 +11520,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Ewane vivait heureux avec sa grand-mère. → Un jour, sa grand-mère tomba malade. → Ewane courut chercher l’infirmier. → L’infirmier la soigna à temps. → Depuis, Ewane veut devenir médecin..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-40-narr` · Lesson 40 · multiple choice, level 2
 
@@ -11464,7 +11586,7 @@ Full working after a second miss:
 > Le narrateur dit « il » : il raconte de l’extérieur.  
 > Donc la réponse est « un narrateur à la troisième personne ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-40-spot` · Lesson 40 · spot the error, level 3
 
@@ -11525,7 +11647,7 @@ Full working after a second miss:
 > La phrase fausse est « Le récit commence par la situation finale. ».  
 > Il commence par la situation initiale.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-40-narr-card` · Lesson 40 · multiple choice, level 1
 
@@ -11591,7 +11713,7 @@ Full working after a second miss:
 > Le narrateur dit « il » : il raconte de l’extérieur.  
 > Donc la réponse est « un narrateur à la troisième personne ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-41-sent` · Lesson 41 · multiple choice, level 1
 
@@ -11659,7 +11781,7 @@ Full working after a second miss:
 > « Ouf » exprime le soulagement.  
 > Donc la réponse est « le soulagement ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-41-quel` · Lesson 41 · fill the blank, level 1
 
@@ -11725,7 +11847,7 @@ Full working after a second miss:
 > Le mot qui manque est « Quelle ».  
 > Quelle belle robe !  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-41-trans` · Lesson 41 · multiple choice, level 2
 
@@ -11792,7 +11914,7 @@ Full working after a second miss:
 > « Comme … ! »  
 > Donc la réponse est « Comme ce gâteau est bon ! ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-41-spot` · Lesson 41 · spot the error, level 3
 
@@ -11853,7 +11975,7 @@ Full working after a second miss:
 > La phrase fausse est « Comme il fait froid ? ».  
 > Une exclamation finit par « ! ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-41-trans-card` · Lesson 41 · multiple choice, level 1
 
@@ -11920,7 +12042,7 @@ Full working after a second miss:
 > « Que … ! »  
 > Donc la réponse est « Que tu as grandi ! ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-42-ecr` · Lesson 42 · fill the blank, level 1
 
@@ -12312,7 +12434,7 @@ Full working after a second miss:
 > L’excursion dure peu de temps.  
 > Donc la réponse est « une excursion ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-43-metier` · Lesson 43 · matching, level 1
 
@@ -12377,7 +12499,7 @@ Full working after a second miss:
 > le guide → fait visiter et explique le site  
 > l’hôtel → loge les voyageurs  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-43-sites` · Lesson 43 · matching, level 2
 
@@ -12442,7 +12564,7 @@ Full working after a second miss:
 > le parc national de Waza → des éléphants, des girafes et des lions  
 > le mont Cameroun → une haute montagne, près de Buea  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-43-spot` · Lesson 43 · spot the error, level 3
 
@@ -12503,7 +12625,7 @@ Full working after a second miss:
 > La phrase fausse est « Les chutes de la Lobé sont dans le parc de Waza. ».  
 > Elles sont près de Kribi.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-43-sites-card` · Lesson 43 · matching, level 1
 
@@ -12568,7 +12690,7 @@ Full working after a second miss:
 > Foumban → le palais des rois bamoun  
 > les chutes de la Lobé → des chutes qui tombent dans la mer, près de Kribi  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-44-but` · Lesson 44 · multiple choice, level 1
 
@@ -12634,7 +12756,7 @@ Full working after a second miss:
 > Des mots positifs qui donnent envie.  
 > Donc la réponse est « magnifique, inoubliable, paradis ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-44-slogan` · Lesson 44 · multiple choice, level 1
 
@@ -12700,7 +12822,7 @@ Full working after a second miss:
 > Il donne envie de voir la mer à Kribi.  
 > Donc la réponse est « Kribi, la mer comme vous ne l’avez jamais vue ! ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-44-ordre` · Lesson 44 · ordering, level 2
 
@@ -12751,7 +12873,7 @@ Full working after a second miss:
 
 > Le bon ordre est : C’est une affiche touristique sur Foumban. → Au centre, on voit le palais des rois bamoun. → Le slogan dit : « Foumban, des siècles d’histoire vous attendent ». → Cette affiche invite à découvrir la culture bamoun. → Je pense qu’elle donne envie d’y aller..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-44-spot` · Lesson 44 · spot the error, level 3
 
@@ -12812,7 +12934,7 @@ Full working after a second miss:
 > La phrase fausse est « Elle sert à donner les résultats des examens. ».  
 > Elle sert à attirer les touristes.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-44-ordre-card` · Lesson 44 · ordering, level 1
 
@@ -12863,7 +12985,7 @@ Full working after a second miss:
 
 > Le bon ordre est : C’est une affiche touristique sur Foumban. → Au centre, on voit le palais des rois bamoun. → Le slogan dit : « Foumban, des siècles d’histoire vous attendent ». → Cette affiche invite à découvrir la culture bamoun. → Je pense qu’elle donne envie d’y aller..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-45-plan` · Lesson 45 · ordering, level 1
 
@@ -12914,7 +13036,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Kribi, le 20 décembre → Chère maman, → Je suis devant les chutes de la Lobé : c’est magnifique ! → Bises, → Ewane.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-45-temps` · Lesson 45 · fill the blank, level 1
 
@@ -12979,7 +13101,7 @@ Full working after a second miss:
 > Les mots qui manquent sont « avons vu ».  
 > Ce matin, nous avons vu des éléphants au parc de Waza.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-45-impr` · Lesson 45 · multiple choice, level 2
 
@@ -13045,7 +13167,7 @@ Full working after a second miss:
 > Elle dit ce que l’on ressent.  
 > Donc la réponse est « C’est magnifique, je ne veux plus rentrer ! ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-45-spot` · Lesson 45 · spot the error, level 3
 
@@ -13106,7 +13228,7 @@ Full working after a second miss:
 > La phrase fausse est « On met la signature avant la formule d’appel. ».  
 > La signature vient à la fin.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-45-impr-card` · Lesson 45 · multiple choice, level 1
 
@@ -13172,7 +13294,7 @@ Full working after a second miss:
 > On prend congé avant de signer.  
 > Donc la réponse est « Je t’embrasse. À bientôt ! ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-46-p` · Lesson 46 · fill the blank, level 1
 
@@ -13564,7 +13686,7 @@ Full working after a second miss:
 > Il est relié au sujet par « semble ».  
 > Donc la réponse est « attribut du sujet ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-47-spot` · Lesson 47 · spot the error, level 3
 
@@ -13695,7 +13817,7 @@ Full working after a second miss:
 > en + participe présent = gérondif.  
 > Donc la réponse est « un gérondif ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-48-qui` · Lesson 48 · multiple choice, level 1
 
@@ -13762,7 +13884,7 @@ Full working after a second miss:
 > « son petit-fils Junior ».  
 > Donc la réponse est « le petit-fils du pêcheur ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-48-image` · Lesson 48 · multiple choice, level 1
 
@@ -13828,7 +13950,7 @@ Full working after a second miss:
 > « comme » relie les bras et les branches.  
 > Donc la réponse est « Ses bras, secs comme des branches, ramaient sans bruit. ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-48-sent` · Lesson 48 · multiple choice, level 2
 
@@ -13895,7 +14017,7 @@ Full working after a second miss:
 > « en criant de joie ».  
 > Donc la réponse est « une grande joie ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-48-spot` · Lesson 48 · spot the error, level 3
 
@@ -13956,7 +14078,7 @@ Full working after a second miss:
 > La phrase fausse est « Le pêcheur reste à la maison à cause du vent. ».  
 > Il part malgré le vent.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-48-sent-card` · Lesson 48 · multiple choice, level 1
 
@@ -14023,7 +14145,7 @@ Full working after a second miss:
 > « le cœur serré » montre l’inquiétude.  
 > Donc la réponse est « de l’inquiétude ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-49-verbe` · Lesson 49 · matching, level 1
 
@@ -14088,7 +14210,7 @@ Full working after a second miss:
 > gronder → d’une voix sévère  
 > supplier → d’une voix qui implore  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-49-signe` · Lesson 49 · multiple choice, level 1
 
@@ -14154,7 +14276,7 @@ Full working after a second miss:
 > Chaque nouvelle réplique commence par un tiret.  
 > Donc la réponse est « le tiret (—) ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-49-voix` · Lesson 49 · multiple choice, level 2
 
@@ -14221,7 +14343,7 @@ Full working after a second miss:
 > « hurla » : voix très forte.  
 > Donc la réponse est « d’une voix très forte et affolée ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-49-spot` · Lesson 49 · spot the error, level 3
 
@@ -14282,7 +14404,7 @@ Full working after a second miss:
 > La phrase fausse est « On lit tous les personnages exactement de la même façon. ».  
 > On change un peu la voix pour chaque personnage.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-49-voix-card` · Lesson 49 · multiple choice, level 1
 
@@ -14349,7 +14471,7 @@ Full working after a second miss:
 > « gronda » : voix sévère.  
 > Donc la réponse est « d’une voix sévère ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-50-type` · Lesson 50 · multiple choice, level 1
 
@@ -14416,7 +14538,7 @@ Full working after a second miss:
 > On présente un lieu en situant.  
 > Donc la réponse est « une description ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-50-portrait` · Lesson 50 · multiple choice, level 1
 
@@ -14482,7 +14604,7 @@ Full working after a second miss:
 > Elle décrit une personne.  
 > Donc la réponse est « Il est grand et porte toujours un chapeau de paille. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-50-narr` · Lesson 50 · matching, level 2
 
@@ -14546,7 +14668,7 @@ Full working after a second miss:
 > le portrait → l’apparence et le caractère d’une personne  
 > la description → des mots qui situent et des adjectifs pour un lieu  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-50-spot` · Lesson 50 · spot the error, level 3
 
@@ -14607,7 +14729,7 @@ Full working after a second miss:
 > La phrase fausse est « Le portrait décrit seulement un paysage. ».  
 > Le portrait décrit une personne.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-50-narr-card` · Lesson 50 · matching, level 1
 
@@ -14671,7 +14793,7 @@ Full working after a second miss:
 > le portrait → l’apparence et le caractère d’une personne  
 > la description → des mots qui situent et des adjectifs pour un lieu  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-51-ordre` · Lesson 51 · ordering, level 1
 
@@ -14722,7 +14844,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Ce matin-là, la classe partait en excursion à Foumban. → En route, le car tomba en panne. → Les élèves aidèrent le chauffeur à pousser le car. → Le moteur redémarra sous les applaudissements. → Le soir, tous racontaient leur aventure avec fierté..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-51-desc` · Lesson 51 · multiple choice, level 1
 
@@ -14788,7 +14910,7 @@ Full working after a second miss:
 > Elle décrit le lieu.  
 > Donc la réponse est « La plage de sable noir brillait sous un soleil éclatant. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-51-temps` · Lesson 51 · fill the blank, level 2
 
@@ -14914,7 +15036,7 @@ Full working after a second miss:
 > La phrase fausse est « On raconte les images dans le désordre. ».  
 > On suit l’ordre des images et du récit.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-51-temps-card` · Lesson 51 · fill the blank, level 1
 
@@ -15044,7 +15166,7 @@ Full working after a second miss:
 > Le mot qui manque est « clous ».  
 > Le menuisier plante des clous.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-53-spot` · Lesson 53 · spot the error, level 3
 
@@ -15105,7 +15227,7 @@ Full working after a second miss:
 > La phrase fausse est « Il y a des troux dans la route. ».  
 > « trou » prend -s : des trous.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-54-emploi` · Lesson 54 · multiple choice, level 1
 
@@ -15623,7 +15745,7 @@ Full working after a second miss:
 > Le maire.  
 > Donc la réponse est « le maire ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-56-commune` · Lesson 56 · multiple choice, level 1
 
@@ -15689,7 +15811,7 @@ Full working after a second miss:
 > L’état civil est une tâche de la commune.  
 > Donc la réponse est « à la mairie (centre d’état civil) ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-56-elu` · Lesson 56 · matching, level 2
 
@@ -15754,7 +15876,7 @@ Full working after a second miss:
 > le président du conseil régional → la région (collectivité)  
 > le gouverneur → la région (représentant de l’État)  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-56-spot` · Lesson 56 · spot the error, level 3
 
@@ -15815,7 +15937,7 @@ Full working after a second miss:
 > La phrase fausse est « La décentralisation supprime les collectivités locales. ».  
 > Elle leur donne des pouvoirs.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-56-elu-card` · Lesson 56 · matching, level 1
 
@@ -15880,7 +16002,7 @@ Full working after a second miss:
 > le président du conseil régional → la région (collectivité)  
 > le préfet → le département  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-57-forme` · Lesson 57 · multiple choice, level 1
 
@@ -15947,7 +16069,7 @@ Full working after a second miss:
 > Deux strophes.  
 > Donc la réponse est « deux ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-57-comp` · Lesson 57 · multiple choice, level 1
 
@@ -16013,7 +16135,7 @@ Full working after a second miss:
 > « Unique, comme notre unité ».  
 > Donc la réponse est « l’unité ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-57-dire` · Lesson 57 · multiple choice, level 2
 
@@ -16079,7 +16201,7 @@ Full working after a second miss:
 > Le poète est fier de sa patrie.  
 > Donc la réponse est « un ton fier et solennel ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-57-spot` · Lesson 57 · spot the error, level 3
 
@@ -16140,7 +16262,7 @@ Full working after a second miss:
 > La phrase fausse est « Le poète est triste et a honte. ».  
 > Il est fier.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-57-dire-card` · Lesson 57 · multiple choice, level 1
 
@@ -16206,7 +16328,7 @@ Full working after a second miss:
 > Le poète est fier de sa patrie.  
 > Donc la réponse est « un ton fier et solennel ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-58-comp` · Lesson 58 · multiple choice, level 1
 
@@ -16273,7 +16395,7 @@ Full working after a second miss:
 > Le camion ramasse les ordures.  
 > Donc la réponse est « elle envoie un camion pour ramasser les ordures ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-58-mot` · Lesson 58 · multiple choice, level 1
 
@@ -16339,7 +16461,7 @@ Full working after a second miss:
 > L’eau peut couler à nouveau.  
 > Donc la réponse est « enlever ce qui empêche l’eau de couler ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-58-idee` · Lesson 58 · multiple choice, level 2
 
@@ -16405,7 +16527,7 @@ Full working after a second miss:
 > Le vieux Ateba le dit à la fin.  
 > Donc la réponse est « Quand chacun fait sa part, tout le monde y gagne. ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-58-spot` · Lesson 58 · spot the error, level 3
 
@@ -16466,7 +16588,7 @@ Full working after a second miss:
 > La phrase fausse est « Le vieux Ateba refuse de participer. ».  
 > Il félicite les habitants.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-58-idee-card` · Lesson 58 · multiple choice, level 1
 
@@ -16532,7 +16654,7 @@ Full working after a second miss:
 > Le vieux Ateba le dit à la fin.  
 > Donc la réponse est « Quand chacun fait sa part, tout le monde y gagne. ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-59-ordre` · Lesson 59 · ordering, level 1
 
@@ -16583,7 +16705,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Ma voisine est une jeune femme élancée. → Son visage est rond et souriant. → Ses cheveux sont tressés en fines nattes. → Elle porte souvent une robe en pagne. → Elle est joyeuse et serviable..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-59-comp` · Lesson 59 · fill the blank, level 2
 
@@ -16648,7 +16770,7 @@ Full working after a second miss:
 > Le mot qui manque est « comme ».  
 > Ses yeux brillent comme des étoiles.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-59-spot` · Lesson 59 · spot the error, level 3
 
@@ -16709,7 +16831,7 @@ Full working after a second miss:
 > La phrase fausse est « On mélange tout sans ordre. ».  
 > On suit un ordre : du général au détail.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-59-comp-card` · Lesson 59 · fill the blank, level 1
 
@@ -16774,7 +16896,7 @@ Full working after a second miss:
 > Le mot qui manque est « comme ».  
 > Il est fort comme un lion.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-60-genre` · Lesson 60 · multiple choice, level 1
 
@@ -16840,7 +16962,7 @@ Full working after a second miss:
 > Un objet magique.  
 > Donc la réponse est « la calebasse qui se remplit d’eau ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-60-etapes` · Lesson 60 · ordering, level 1
 
@@ -16890,7 +17012,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Ngono reçoit une calebasse magique. → La sécheresse frappe le village. → Ngono donne à boire à une vieille femme. → Elle va de case en case. → Tout le village a bu..  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-60-morale` · Lesson 60 · multiple choice, level 2
 
@@ -16956,7 +17078,7 @@ Full working after a second miss:
 > « Plus elle donnait, plus la calebasse se remplissait ».  
 > Donc la réponse est « la calebasse se remplit encore plus ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-60-spot` · Lesson 60 · spot the error, level 3
 
@@ -17017,7 +17139,7 @@ Full working after a second miss:
 > La phrase fausse est « La calebasse se vide quand on partage. ».  
 > Elle se remplit quand on partage.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-60-morale-card` · Lesson 60 · multiple choice, level 1
 
@@ -17083,7 +17205,7 @@ Full working after a second miss:
 > « Plus elle donnait, plus la calebasse se remplissait ».  
 > Donc la réponse est « la calebasse se remplit encore plus ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-61-quoi` · Lesson 61 · multiple choice, level 1
 
@@ -17149,7 +17271,7 @@ Full working after a second miss:
 > « Tous » remplace un nom.  
 > Donc la réponse est « Tous ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-61-neg` · Lesson 61 · fill the blank, level 1
 
@@ -17214,7 +17336,7 @@ Full working after a second miss:
 > Le mot qui manque est « rien ».  
 > Il fait noir : je ne vois rien.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-61-diff` · Lesson 61 · multiple choice, level 2
 
@@ -17280,7 +17402,7 @@ Full working after a second miss:
 > chacun + verbe au singulier.  
 > Donc la réponse est « Chacun doit respecter la loi. ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-61-spot` · Lesson 61 · spot the error, level 3
 
@@ -17341,7 +17463,7 @@ Full working after a second miss:
 > La phrase fausse est « Je vois rien. ».  
 > Il faut « ne » : je ne vois rien.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-61-diff-card` · Lesson 61 · multiple choice, level 1
 
@@ -17407,7 +17529,7 @@ Full working after a second miss:
 > Il est seul : pronom.  
 > Donc la réponse est « Plusieurs sont partis tôt. ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-62-emploi` · Lesson 62 · multiple choice, level 1
 
@@ -17987,7 +18109,7 @@ Full working after a second miss:
 > Le Ngondo est la fête des Sawa.  
 > Donc la réponse est « le Ngondo ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-64-tol` · Lesson 64 · multiple choice, level 1
 
@@ -18053,7 +18175,7 @@ Full working after a second miss:
 > Accepter les autres.  
 > Donc la réponse est « le respect des différences ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-64-ailleurs` · Lesson 64 · matching, level 2
 
@@ -18118,7 +18240,7 @@ Full working after a second miss:
 > le fado → le Portugal  
 > la pizza → l’Italie  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-64-spot` · Lesson 64 · spot the error, level 3
 
@@ -18179,7 +18301,7 @@ Full working after a second miss:
 > La phrase fausse est « Le Ngondo est une fête du Japon. ».  
 > C’est une fête des Sawa au Cameroun.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-64-ailleurs-card` · Lesson 64 · matching, level 1
 
@@ -18244,7 +18366,7 @@ Full working after a second miss:
 > le fado → le Portugal  
 > le kimono → le Japon  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-65-quoi` · Lesson 65 · multiple choice, level 1
 
@@ -18310,7 +18432,7 @@ Full working after a second miss:
 > On joue une scène.  
 > Donc la réponse est « jouer un personnage dans une situation de la vie ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-65-poli` · Lesson 65 · multiple choice, level 1
 
@@ -18376,7 +18498,7 @@ Full working after a second miss:
 > Formule de politesse et vouvoiement.  
 > Donc la réponse est « Excusez-moi, monsieur, pourriez-vous m’aider ? ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-65-ordre` · Lesson 65 · ordering, level 2
 
@@ -18428,7 +18550,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-65-spot` · Lesson 65 · spot the error, level 3
 
@@ -18489,7 +18611,7 @@ Full working after a second miss:
 > La phrase fausse est « On n’écoute jamais les remarques. ».  
 > Les remarques aident à progresser.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-65-ordre-card` · Lesson 65 · ordering, level 1
 
@@ -18541,7 +18663,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Bonjour, madame. → Bonjour, jeune homme. Que puis-je pour vous ? → Je voudrais une copie de mon acte de naissance, s’il vous plaît. → Avez-vous votre ancien acte ? → Oui, le voici. → Revenez jeudi. Au revoir. → Merci beaucoup, madame. Au revoir..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-66-plan` · Lesson 66 · ordering, level 1
 
@@ -18592,7 +18714,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Un soir, la famille regardait la télévision. → Tout à coup, le courant fut coupé. → Alors, le père alluma une lampe. → Ensuite, la grand-mère raconta un conte. → Finalement, tous allèrent dormir, contents..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-66-lien` · Lesson 66 · fill the blank, level 1
 
@@ -18657,7 +18779,7 @@ Full working after a second miss:
 > Le mot qui manque est « finalement ».  
 > Après une longue journée, finalement ils rentrèrent à la maison.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-66-temps` · Lesson 66 · fill the blank, level 2
 
@@ -18722,7 +18844,7 @@ Full working after a second miss:
 > Le mot qui manque est « retentit ».  
 > Soudain, un cri retentit dans la nuit.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-66-spot` · Lesson 66 · spot the error, level 3
 
@@ -18783,7 +18905,7 @@ Full working after a second miss:
 > La phrase fausse est « « Finalement » commence toujours le récit. ».  
 > Il termine le récit.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-66-temps-card` · Lesson 66 · fill the blank, level 1
 
@@ -18848,7 +18970,7 @@ Full working after a second miss:
 > Le mot qui manque est « brillait ».  
 > Le soleil brillait et les oiseaux chantaient.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-67-quoi` · Lesson 67 · multiple choice, level 1
 
@@ -18914,7 +19036,7 @@ Full working after a second miss:
 > Il accompagne le nom « enfants ».  
 > Donc la réponse est « Quelques ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-67-tout` · Lesson 67 · fill the blank, level 1
 
@@ -18979,7 +19101,7 @@ Full working after a second miss:
 > Le mot qui manque est « Tout ».  
 > Tout le village est réuni.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-67-sing` · Lesson 67 · fill the blank, level 2
 
@@ -19044,7 +19166,7 @@ Full working after a second miss:
 > Le mot qui manque est « plusieurs ».  
 > J’ai plusieurs amis à Garoua.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-67-spot` · Lesson 67 · spot the error, level 3
 
@@ -19105,7 +19227,7 @@ Full working after a second miss:
 > La phrase fausse est « Aucuns élèves sont absents. ».  
 > On dit : aucun élève n’est absent.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-67-sing-card` · Lesson 67 · fill the blank, level 1
 
@@ -19170,7 +19292,7 @@ Full working after a second miss:
 > Le mot qui manque est « plusieurs ».  
 > J’ai plusieurs amis à Garoua.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-68-son` · Lesson 68 · multiple choice, level 1
 
@@ -19559,7 +19681,7 @@ Full working after a second miss:
 > la ségrégation raciale → séparer les gens selon leur « race »  
 > le tribalisme → favoriser les gens de sa tribu  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-69-paix` · Lesson 69 · multiple choice, level 2
 
@@ -19625,7 +19747,7 @@ Full working after a second miss:
 > Parler ensemble pour trouver une solution.  
 > Donc la réponse est « le dialogue ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-69-spot` · Lesson 69 · spot the error, level 3
 
@@ -19686,7 +19808,7 @@ Full working after a second miss:
 > La phrase fausse est « Le dialogue aggrave toujours les conflits. ».  
 > Le dialogue aide à les résoudre.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-69-paix-card` · Lesson 69 · multiple choice, level 1
 
@@ -19752,7 +19874,7 @@ Full working after a second miss:
 > Parler ensemble pour trouver une solution.  
 > Donc la réponse est « le dialogue ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-70-etapes` · Lesson 70 · ordering, level 1
 
@@ -19801,7 +19923,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Présenter le document → Décrire ce qu’on voit → Dire le message → Donner son avis.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-70-slogan` · Lesson 70 · multiple choice, level 1
 
@@ -19867,7 +19989,7 @@ Full working after a second miss:
 > Il parle de l’école.  
 > Donc la réponse est « Un enfant à l’école, un pays qui grandit ! ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-70-msg` · Lesson 70 · multiple choice, level 2
 
@@ -19933,7 +20055,7 @@ Full working after a second miss:
 > Ils sont unis malgré leurs différences.  
 > Donc la réponse est « l’unité et le vivre-ensemble ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-70-spot` · Lesson 70 · spot the error, level 3
 
@@ -19994,7 +20116,7 @@ Full working after a second miss:
 > La phrase fausse est « On ne doit jamais dire à qui s’adresse l’image. ».  
 > On dit le public visé.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-70-msg-card` · Lesson 70 · multiple choice, level 1
 
@@ -20060,7 +20182,7 @@ Full working after a second miss:
 > Le dessin dénonce un mauvais comportement.  
 > Donc la réponse est « Jeter les ordures dans les caniveaux provoque des inondations. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-71-obs` · Lesson 71 · multiple choice, level 1
 
@@ -20126,7 +20248,7 @@ Full working after a second miss:
 > On cherche l’action.  
 > Donc la réponse est « Que se passe-t-il ? ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-71-lien` · Lesson 71 · ordering, level 1
 
@@ -20176,7 +20298,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Un matin, Tabe trouva un porte-monnaie sur la route. → D’abord, il regarda autour de lui, mais il ne vit personne. → Ensuite, il le porta au commissariat. → Enfin, la propriétaire vint le remercier. → L’honnêteté est toujours récompensée..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-71-concl` · Lesson 71 · multiple choice, level 2
 
@@ -20242,7 +20364,7 @@ Full working after a second miss:
 > On vérifie majuscules, points, accords.  
 > Donc la réponse est « le relire pour corriger les fautes ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-71-spot` · Lesson 71 · spot the error, level 3
 
@@ -20303,7 +20425,7 @@ Full working after a second miss:
 > La phrase fausse est « On ne met jamais de conclusion. ».  
 > On termine par une conclusion ou une morale.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-71-concl-card` · Lesson 71 · multiple choice, level 1
 
@@ -20369,7 +20491,7 @@ Full working after a second miss:
 > La conclusion donne la leçon.  
 > Donc la réponse est « Le travail mène au succès. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-72-quoi` · Lesson 72 · multiple choice, level 1
 
@@ -20435,7 +20557,7 @@ Full working after a second miss:
 > Question + négation.  
 > Donc la réponse est « Ton frère ne joue-t-il pas au football ? ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-72-inv` · Lesson 72 · multiple choice, level 2
 
@@ -20502,7 +20624,7 @@ Full working after a second miss:
 > La négation entoure l’auxiliaire inversé.  
 > Donc la réponse est « N’êtes-vous pas allés au marché ? ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-72-si` · Lesson 72 · fill the blank, level 1
 
@@ -20566,7 +20688,7 @@ Full working after a second miss:
 > Le mot qui manque est « Non ».  
 > « Il n’est pas venu ? » — « Non, il est malade. »  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-72-spot` · Lesson 72 · spot the error, level 3
 
@@ -20627,7 +20749,7 @@ Full working after a second miss:
 > La phrase fausse est « Ne a-t-il pas mangé ? ».  
 > Devant une voyelle : N’a-t-il pas mangé ?  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-72-inv-card` · Lesson 72 · multiple choice, level 1
 
@@ -20694,7 +20816,7 @@ Full working after a second miss:
 > -t- entre deux voyelles.  
 > Donc la réponse est « Ne mange-t-elle pas de riz ? ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-73-e` · Lesson 73 · fill the blank, level 1
 
@@ -21016,7 +21138,7 @@ Full working after a second miss:
 > Le droit à l’éducation.  
 > Donc la réponse est « aller à l’école ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-74-aide` · Lesson 74 · multiple choice, level 2
 
@@ -21082,7 +21204,7 @@ Full working after a second miss:
 > Il faut protéger la victime.  
 > Donc la réponse est « Je l’encourage à en parler à un adulte de confiance et je l’accompagne. ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-74-spot` · Lesson 74 · spot the error, level 3
 
@@ -21143,7 +21265,7 @@ Full working after a second miss:
 > La phrase fausse est « Une victime doit toujours garder le silence. ».  
 > Elle doit en parler pour être protégée.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-74-aide-card` · Lesson 74 · multiple choice, level 1
 
@@ -21209,7 +21331,7 @@ Full working after a second miss:
 > Il faut protéger la victime.  
 > Donc la réponse est « Je l’encourage à en parler à un adulte de confiance et je l’accompagne. ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-75-mot` · Lesson 75 · matching, level 1
 
@@ -21274,7 +21396,7 @@ Full working after a second miss:
 > le supporter → il encourage son équipe  
 > la finale → le dernier match qui désigne le vainqueur  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-75-fair` · Lesson 75 · multiple choice, level 2
 
@@ -21340,7 +21462,7 @@ Full working after a second miss:
 > Or, argent, bronze.  
 > Donc la réponse est « la médaille de bronze ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-75-spot` · Lesson 75 · spot the error, level 3
 
@@ -21401,7 +21523,7 @@ Full working after a second miss:
 > La phrase fausse est « Le fair-play, c’est tricher pour gagner. ».  
 > C’est respecter les règles et l’adversaire.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-75-fair-card` · Lesson 75 · multiple choice, level 1
 
@@ -21467,7 +21589,7 @@ Full working after a second miss:
 > Or, argent, bronze.  
 > Donc la réponse est « la médaille de bronze ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-76-lex` · Lesson 76 · multiple choice, level 1
 
@@ -21533,7 +21655,7 @@ Full working after a second miss:
 > La casserole est un mot de la cuisine.  
 > Donc la réponse est « la casserole ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-76-sem` · Lesson 76 · multiple choice, level 2
 
@@ -21599,7 +21721,7 @@ Full working after a second miss:
 > Sens propre.  
 > Donc la réponse est « le petit lit d’un bébé (sens propre) ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-76-respect` · Lesson 76 · multiple choice, level 1
 
@@ -21665,7 +21787,7 @@ Full working after a second miss:
 > L’hymne est un symbole de la nation.  
 > Donc la réponse est « debout et immobile, avec respect ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-76-spot` · Lesson 76 · spot the error, level 3
 
@@ -21726,7 +21848,7 @@ Full working after a second miss:
 > La phrase fausse est « On chante l’hymne assis en bavardant. ».  
 > On le chante debout, avec respect.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-76-sem-card` · Lesson 76 · multiple choice, level 1
 
@@ -21792,7 +21914,7 @@ Full working after a second miss:
 > Sens propre.  
 > Donc la réponse est « le petit lit d’un bébé (sens propre) ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-78-sub` · Lesson 78 · fill the blank, level 2
 
@@ -21857,7 +21979,7 @@ Full working after a second miss:
 > Le mot qui manque est « Quand ».  
 > Quand il fait beau, nous travaillons au champ.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-78-spot` · Lesson 78 · spot the error, level 3
 
@@ -21918,7 +22040,7 @@ Full working after a second miss:
 > La phrase fausse est « Dans « Il dort parce qu’il est fatigué », il y a une seule proposition. ».  
 > Il y a deux verbes conjugués : deux propositions.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-78-sub-card` · Lesson 78 · fill the blank, level 1
 
@@ -21983,7 +22105,7 @@ Full working after a second miss:
 > Le mot qui manque est « Quand ».  
 > Quand il fait beau, nous travaillons au champ.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-79-emploi` · Lesson 79 · multiple choice, level 1
 
@@ -22497,7 +22619,7 @@ Full working after a second miss:
 > Elle veut convaincre d’acheter.  
 > Donc la réponse est « faire acheter un produit ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-81-mot` · Lesson 81 · matching, level 1
 
@@ -22562,7 +22684,7 @@ Full working after a second miss:
 > le logo → le dessin qui représente une marque  
 > le slogan → une phrase courte et frappante  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-81-critique` · Lesson 81 · multiple choice, level 2
 
@@ -22628,7 +22750,7 @@ Full working after a second miss:
 > Images, couleurs, slogan.  
 > Donc la réponse est « des couleurs vives et un slogan qui rime ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-81-spot` · Lesson 81 · spot the error, level 3
 
@@ -22689,7 +22811,7 @@ Full working after a second miss:
 > La phrase fausse est « Le logo est une longue phrase. ».  
 > C’est un dessin qui représente la marque.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-81-critique-card` · Lesson 81 · multiple choice, level 1
 
@@ -22755,7 +22877,7 @@ Full working after a second miss:
 > Images, couleurs, slogan.  
 > Donc la réponse est « des couleurs vives et un slogan qui rime ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-82-forme` · Lesson 82 · multiple choice, level 1
 
@@ -22821,7 +22943,7 @@ Full working after a second miss:
 > Le refrain revient.  
 > Donc la réponse est « le refrain ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-82-rime` · Lesson 82 · multiple choice, level 1
 
@@ -22887,7 +23009,7 @@ Full working after a second miss:
 > soleil / sommeil.  
 > Donc la réponse est « sommeil ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-82-sens` · Lesson 82 · multiple choice, level 2
 
@@ -22953,7 +23075,7 @@ Full working after a second miss:
 > « Le travail bâtit la nation ».  
 > Donc la réponse est « Le travail de chacun construit le pays. ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-82-spot` · Lesson 82 · spot the error, level 3
 
@@ -23014,7 +23136,7 @@ Full working after a second miss:
 > La phrase fausse est « « soleil » rime avec « nation ». ».  
 > « soleil » rime avec « sommeil ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-82-sens-card` · Lesson 82 · multiple choice, level 1
 
@@ -23080,7 +23202,7 @@ Full working after a second miss:
 > « Le travail bâtit la nation ».  
 > Donc la réponse est « Le travail de chacun construit le pays. ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-83-comp` · Lesson 83 · multiple choice, level 1
 
@@ -23147,7 +23269,7 @@ Full working after a second miss:
 > « deux apprentis ».  
 > Donc la réponse est « deux ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-83-mot` · Lesson 83 · multiple choice, level 1
 
@@ -23213,7 +23335,7 @@ Full working after a second miss:
 > Une épargne collective.  
 > Donc la réponse est « un groupe qui met de l’argent en commun ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-83-idee` · Lesson 83 · multiple choice, level 2
 
@@ -23279,7 +23401,7 @@ Full working after a second miss:
 > Le bouche-à-oreille.  
 > Donc la réponse est « Un client content parle de nous à d’autres clients. ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-83-spot` · Lesson 83 · spot the error, level 3
 
@@ -23340,7 +23462,7 @@ Full working after a second miss:
 > La phrase fausse est « Tchoua a fermé son atelier. ».  
 > Il a réussi et il emploie des apprentis.  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-83-idee-card` · Lesson 83 · multiple choice, level 1
 
@@ -23406,7 +23528,7 @@ Full working after a second miss:
 > Le bouche-à-oreille.  
 > Donc la réponse est « Un client content parle de nous à d’autres clients. ».  
 
-Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma))
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
 
 ### `fi2-84-ordre` · Lesson 84 · ordering, level 1
 
@@ -23456,7 +23578,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Le garage de M. Fon se trouve au bord de la route. → Devant, des voitures attendent d’être réparées. → À l’intérieur, des outils pendent au mur. → Au fond, un apprenti change une roue. → C’est un lieu bruyant mais accueillant..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-84-mot` · Lesson 84 · fill the blank, level 2
 
@@ -23521,7 +23643,7 @@ Full working after a second miss:
 > Les mots qui manquent sont « se dresse ».  
 > La grande usine se dresse au bord du fleuve.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-84-spot` · Lesson 84 · spot the error, level 3
 
@@ -23582,7 +23704,7 @@ Full working after a second miss:
 > La phrase fausse est « On parle seulement de ce qu’on mange. ».  
 > On décrit ce qu’on voit, entend et sent.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-84-mot-card` · Lesson 84 · fill the blank, level 1
 
@@ -23647,7 +23769,7 @@ Full working after a second miss:
 > Le mot qui manque est « brillent ».  
 > Les casseroles brillent sur les étagères.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-85-perso` · Lesson 85 · multiple choice, level 1
 
@@ -23713,7 +23835,7 @@ Full working after a second miss:
 > Il veut tout faire en un jour.  
 > Donc la réponse est « pressé et trop sûr de lui ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-85-etapes` · Lesson 85 · ordering, level 1
 
@@ -23763,7 +23885,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Le jeune homme lance un défi à Njoya. → Il travaille vite, sans compter les fils. → Le soir, son tissu est raté. → Njoya lui montre son tissu fait en un mois. → Le jeune homme devient apprenti..  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-85-morale` · Lesson 85 · multiple choice, level 2
 
@@ -23829,7 +23951,7 @@ Full working after a second miss:
 > « Chaque fil est à sa place ».  
 > Donc la réponse est « Le travail bien fait demande du temps et de la patience. ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-85-spot` · Lesson 85 · spot the error, level 3
 
@@ -23890,7 +24012,7 @@ Full working after a second miss:
 > La phrase fausse est « Le jeune homme réussit un tissu parfait en un jour. ».  
 > Son tissu est raté.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-85-morale-card` · Lesson 85 · multiple choice, level 1
 
@@ -23956,7 +24078,7 @@ Full working after a second miss:
 > « Chaque fil est à sa place ».  
 > Donc la réponse est « Le travail bien fait demande du temps et de la patience. ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-86-emploi` · Lesson 86 · multiple choice, level 1
 
@@ -24280,7 +24402,7 @@ Full working after a second miss:
 > Une œuvre parfaite.  
 > Donc la réponse est « un travail très réussi ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-87-spot` · Lesson 87 · spot the error, level 3
 
@@ -24407,7 +24529,7 @@ Full working after a second miss:
 > Le travail des ouvriers.  
 > Donc la réponse est « les travailleurs d’une entreprise ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-88-contrat` · Lesson 88 · multiple choice, level 1
 
@@ -24473,7 +24595,7 @@ Full working after a second miss:
 > Une récompense en argent.  
 > Donc la réponse est « une prime ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-88-mot` · Lesson 88 · matching, level 1
 
@@ -24538,7 +24660,7 @@ Full working after a second miss:
 > la grève → l’arrêt collectif du travail pour réclamer  
 > la retraite → la fin de la vie de travail à cause de l’âge  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-88-droit` · Lesson 88 · multiple choice, level 2
 
@@ -24604,7 +24726,7 @@ Full working after a second miss:
 > La ponctualité est un devoir.  
 > Donc la réponse est « arriver à l’heure ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-88-spot` · Lesson 88 · spot the error, level 3
 
@@ -24665,7 +24787,7 @@ Full working after a second miss:
 > La phrase fausse est « La grève est une fête des travailleurs. ».  
 > C’est un arrêt collectif du travail.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-88-droit-card` · Lesson 88 · multiple choice, level 1
 
@@ -24731,7 +24853,7 @@ Full working after a second miss:
 > La sécurité au travail est un droit.  
 > Donc la réponse est « travailler en sécurité ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-89-cand` · Lesson 89 · multiple choice, level 1
 
@@ -24797,7 +24919,7 @@ Full working after a second miss:
 > La politesse et la ponctualité comptent.  
 > Donc la réponse est « arriver à l’heure et saluer poliment ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-89-quest` · Lesson 89 · multiple choice, level 1
 
@@ -24863,7 +24985,7 @@ Full working after a second miss:
 > Il veut connaître la motivation.  
 > Donc la réponse est « Pourquoi voulez-vous ce poste ? ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-89-ordre` · Lesson 89 · ordering, level 2
 
@@ -24915,7 +25037,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-89-spot` · Lesson 89 · spot the error, level 3
 
@@ -24976,7 +25098,7 @@ Full working after a second miss:
 > La phrase fausse est « Partir sans saluer. ».  
 > On salue et on remercie.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-89-ordre-card` · Lesson 89 · ordering, level 1
 
@@ -25028,7 +25150,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Bonjour, madame. → Bonjour. Asseyez-vous. Parlez-moi de vous. → Je m’appelle Tabe ; j’ai un CAP de menuiserie. → Pourquoi voulez-vous ce poste ? → Parce que j’aime travailler le bois. → Très bien, nous vous rappellerons. → Je vous remercie de m’avoir reçu..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-90-plan` · Lesson 90 · ordering, level 1
 
@@ -25078,7 +25200,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Mon oncle Fon est mécanicien à Bamenda. → C’est un homme petit et costaud. → Ses mains sont noires de graisse. → Il est patient : il explique tout à ses apprentis. → J’admire son amour du travail bien fait..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-90-concl` · Lesson 90 · multiple choice, level 2
 
@@ -25144,7 +25266,7 @@ Full working after a second miss:
 > Une qualité avec un exemple.  
 > Donc la réponse est « Il est généreux : il aide les voisins. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-90-spot` · Lesson 90 · spot the error, level 3
 
@@ -25205,7 +25327,7 @@ Full working after a second miss:
 > La phrase fausse est « On écrit le portrait sans aucun ordre. ».  
 > On suit un plan.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-90-concl-card` · Lesson 90 · multiple choice, level 1
 
@@ -25271,7 +25393,7 @@ Full working after a second miss:
 > Une qualité avec un exemple.  
 > Donc la réponse est « Il est généreux : il aide les voisins. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-91-quoi` · Lesson 91 · multiple choice, level 1
 
@@ -25337,7 +25459,7 @@ Full working after a second miss:
 > Trois mots, une seule chose.  
 > Donc la réponse est « un arc-en-ciel ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-91-pl` · Lesson 91 · multiple choice, level 2
 
@@ -25404,7 +25526,7 @@ Full working after a second miss:
 > verbe + nom : seul le nom varie.  
 > Donc la réponse est « des tire-bouchons ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-91-prep` · Lesson 91 · fill the blank, level 1
 
@@ -25469,7 +25591,7 @@ Full working after a second miss:
 > Le mot qui manque est « chefs-d’œuvre ».  
 > Ce musée garde des chefs-d’œuvre.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-91-spot` · Lesson 91 · spot the error, level 3
 
@@ -25530,7 +25652,7 @@ Full working after a second miss:
 > La phrase fausse est « des machine à coudres ».  
 > On écrit : des machines à coudre.  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-91-pl-card` · Lesson 91 · multiple choice, level 1
 
@@ -25597,7 +25719,7 @@ Full working after a second miss:
 > nom + adjectif : les deux varient.  
 > Donc la réponse est « des coffres-forts ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-92-mm` · Lesson 92 · fill the blank, level 1
 
@@ -25982,7 +26104,7 @@ Full working after a second miss:
 > La Banque des États de l’Afrique centrale.  
 > Donc la réponse est « la BEAC ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-93-ops` · Lesson 93 · matching, level 1
 
@@ -26047,7 +26169,7 @@ Full working after a second miss:
 > le solde → l’argent qui reste sur le compte  
 > un retrait → retirer de l’argent de son compte  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-93-pret` · Lesson 93 · multiple choice, level 2
 
@@ -26113,7 +26235,7 @@ Full working after a second miss:
 > Le prix du prêt.  
 > Donc la réponse est « la somme payée en plus de l’argent prêté ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-93-spot` · Lesson 93 · spot the error, level 3
 
@@ -26174,7 +26296,7 @@ Full working after a second miss:
 > La phrase fausse est « L’intérêt est payé par la banque à celui qui emprunte. ».  
 > C’est l’emprunteur qui paie l’intérêt.  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-93-pret-card` · Lesson 93 · multiple choice, level 1
 
@@ -26240,7 +26362,7 @@ Full working after a second miss:
 > Le prix du prêt.  
 > Donc la réponse est « la somme payée en plus de l’argent prêté ».  
 
-Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban))
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
 
 ### `fi2-94-obs` · Lesson 94 · multiple choice, level 1
 
@@ -26306,7 +26428,7 @@ Full working after a second miss:
 > Le casque est un équipement de sécurité.  
 > Donc la réponse est « un casque ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-94-msg` · Lesson 94 · multiple choice, level 2
 
@@ -26372,7 +26494,7 @@ Full working after a second miss:
 > Égalité hommes-femmes.  
 > Donc la réponse est « Les femmes peuvent exercer tous les métiers. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-94-avis` · Lesson 94 · ordering, level 1
 
@@ -26422,7 +26544,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Cette photo montre un champ de thé à Ndu. → Au premier plan, des femmes cueillent les feuilles. → À l’arrière-plan, on voit des collines vertes. → Elle montre l’importance du travail agricole. → À mon avis, ces travailleuses méritent notre respect..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-94-spot` · Lesson 94 · spot the error, level 3
 
@@ -26483,7 +26605,7 @@ Full working after a second miss:
 > La phrase fausse est « Le casque de chantier est un objet de décoration. ».  
 > C’est un équipement de sécurité.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-94-msg-card` · Lesson 94 · multiple choice, level 1
 
@@ -26549,7 +26671,7 @@ Full working after a second miss:
 > L’enfant devrait être à l’école.  
 > Donc la réponse est « Elle dénonce le travail des enfants. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-95-temps` · Lesson 95 · fill the blank, level 1
 
@@ -26614,7 +26736,7 @@ Full working after a second miss:
 > Les mots qui manquent sont « Le matin ».  
 > Le matin, nous avons ouvert la boutique à sept heures.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-95-imprevu` · Lesson 95 · multiple choice, level 1
 
@@ -26680,7 +26802,7 @@ Full working after a second miss:
 > « Soudain » marque l’imprévu.  
 > Donc la réponse est « Soudain, un client est arrivé avec une voiture en panne. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-95-ordre` · Lesson 95 · ordering, level 2
 
@@ -26730,7 +26852,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-95-spot` · Lesson 95 · spot the error, level 3
 
@@ -26791,7 +26913,7 @@ Full working after a second miss:
 > La phrase fausse est « On ne dit jamais où se passe l’histoire. ».  
 > La situation initiale dit où et quand.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-95-ordre-card` · Lesson 95 · ordering, level 1
 
@@ -26841,7 +26963,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Samedi dernier, j’ai accompagné mon père à son garage. → D’abord, nous avons rangé les outils. → Ensuite, il m’a montré comment changer une roue. → Soudain, un client est arrivé avec une voiture en panne. → Le soir, j’étais fatigué mais fier..  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-96-affiche` · Lesson 96 · multiple choice, level 1
 
@@ -26907,7 +27029,7 @@ Full working after a second miss:
 > Quand ? Où ?  
 > Donc la réponse est « la date et le lieu ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-96-annonce` · Lesson 96 · multiple choice, level 1
 
@@ -26973,7 +27095,7 @@ Full working after a second miss:
 > Il faut savoir qui appeler.  
 > Donc la réponse est « le contact (téléphone ou adresse) ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-96-etapes` · Lesson 96 · ordering, level 2
 
@@ -27023,7 +27145,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-96-spot` · Lesson 96 · spot the error, level 3
 
@@ -27084,7 +27206,7 @@ Full working after a second miss:
 > La phrase fausse est « Une affiche doit contenir un très long texte. ».  
 > Elle dit l’essentiel en peu de mots.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-96-etapes-card` · Lesson 96 · ordering, level 1
 
@@ -27134,7 +27256,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Observer l’image → Choisir le type de texte et le destinataire → Écrire un brouillon → Relire et corriger → Recopier proprement.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-97-gram` · Lesson 97 · multiple choice, level 1
 
@@ -27201,7 +27323,7 @@ Full working after a second miss:
 > Pronom indéfini avec « ne ».  
 > Donc la réponse est « un pronom indéfini ».  
 
-Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative)
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
 
 ### `fi2-97-spot` · Lesson 97 · spot the error, level 3
 
@@ -27328,7 +27450,7 @@ Full working after a second miss:
 > Le riz pour sa famille.  
 > Donc la réponse est « du riz, car elle n’a pas assez d’argent ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-98-etapes` · Lesson 98 · ordering, level 1
 
@@ -27378,7 +27500,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Une fillette entre dans l’épicerie. → Elle explique que sa mère est malade. → Mme Ekwalla lui donne le riz. → Des années passent. → Une lettre de remerciement arrive..  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-98-morale` · Lesson 98 · multiple choice, level 2
 
@@ -27444,7 +27566,7 @@ Full working after a second miss:
 > La bonté a porté ses fruits.  
 > Donc la réponse est « La confiance et la générosité peuvent changer une vie. ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-98-spot` · Lesson 98 · spot the error, level 3
 
@@ -27505,7 +27627,7 @@ Full working after a second miss:
 > La phrase fausse est « La fillette ne revient jamais donner de nouvelles. ».  
 > Elle envoie une lettre de remerciement.  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-98-morale-card` · Lesson 98 · multiple choice, level 1
 
@@ -27571,7 +27693,7 @@ Full working after a second miss:
 > La bonté a porté ses fruits.  
 > Donc la réponse est « La confiance et la générosité peuvent changer une vie. ».  
 
-Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio)
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
 
 ### `fi2-99-tech` · Lesson 99 · multiple choice, level 1
 
@@ -27637,7 +27759,7 @@ Full working after a second miss:
 > On comprend avant de lire.  
 > Donc la réponse est « le lire en silence pour le comprendre ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-99-ponct` · Lesson 99 · multiple choice, level 1
 
@@ -27703,7 +27825,7 @@ Full working after a second miss:
 > L’intonation montante.  
 > Donc la réponse est « elle monte ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-99-spot` · Lesson 99 · spot the error, level 3
 
@@ -27764,7 +27886,7 @@ Full working after a second miss:
 > La phrase fausse est « On garde toujours les yeux sur ses pieds. ».  
 > On lève les yeux vers le public.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-100-temps` · Lesson 100 · fill the blank, level 1
 
@@ -27829,7 +27951,7 @@ Full working after a second miss:
 > Le mot qui manque est « rompit ».  
 > Soudain, un bruit rompit le silence.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-100-mix` · Lesson 100 · multiple choice, level 2
 
@@ -27895,7 +28017,7 @@ Full working after a second miss:
 > Portrait (petit et sage) + actions (ouvrit, salua).  
 > Donc la réponse est « Le vieux Njoya, petit et sage, ouvrit son atelier et salua les clients. ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-100-spot` · Lesson 100 · spot the error, level 3
 
@@ -27956,7 +28078,7 @@ Full working after a second miss:
 > La phrase fausse est « Une description raconte uniquement des actions. ».  
 > Elle montre un lieu ou un objet.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-100-mix-card` · Lesson 100 · multiple choice, level 1
 
@@ -28022,7 +28144,7 @@ Full working after a second miss:
 > Le lecteur voit le décor.  
 > Donc la réponse est « à aider le lecteur à imaginer où se passe l’histoire ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-101-type` · Lesson 101 · multiple choice, level 1
 
@@ -28088,7 +28210,7 @@ Full working after a second miss:
 > L’affiche informe.  
 > Donc la réponse est « une affiche ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-101-etapes` · Lesson 101 · ordering, level 1
 
@@ -28138,7 +28260,7 @@ Full working after a second miss:
 
 > Le bon ordre est : Observer les images → Choisir le type d’écrit → Faire un plan → Écrire un brouillon → Relire et recopier.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-101-grille` · Lesson 101 · multiple choice, level 2
 
@@ -28204,7 +28326,7 @@ Full working after a second miss:
 > On vérifie le sens.  
 > Donc la réponse est « Mon texte correspond-il aux images ? ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-101-spot` · Lesson 101 · spot the error, level 3
 
@@ -28265,7 +28387,7 @@ Full working after a second miss:
 > La phrase fausse est « On écrit un texte qui n’a rien à voir avec les images. ».  
 > Le texte doit correspondre aux images.  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-101-grille-card` · Lesson 101 · multiple choice, level 1
 
@@ -28331,7 +28453,7 @@ Full working after a second miss:
 > La cohérence des temps.  
 > Donc la réponse est « garder le même temps de récit ».  
 
-Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images)
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
 ### `fi2-102-si` · Lesson 102 · fill the blank, level 2
 
@@ -28523,4 +28645,7309 @@ Full working after a second miss:
 > Si j’avais le temps, je viendrais te voir.  
 
 Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-104-etape-1` · Lesson 104 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans « Le présentateur annonce les nouvelles », quel groupe est sujet ? | Le présentateur | les nouvelles · annonce | Le présentateur est celui qui annonce. |
+| Dans « La radio diffuse un débat », quel groupe est sujet ? | La radio | un débat · diffuse | La radio est le sujet de diffuse. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Dans « La radio diffuse un débat », quel groupe est sujet ?
+
+- ◻️ un débat  
+  _↳ feedback if chosen: La radio est le sujet de diffuse._
+- ◻️ diffuse  
+  _↳ feedback if chosen: La radio est le sujet de diffuse._
+- ✅ La radio
+
+Full working after a second miss:
+
+> La radio est le sujet de diffuse.  
+> La réponse est : La radio.  
+
+> Dans « La radio diffuse un débat », quel groupe est sujet ?
+
+- ◻️ diffuse  
+  _↳ feedback if chosen: La radio est le sujet de diffuse._
+- ◻️ un débat  
+  _↳ feedback if chosen: La radio est le sujet de diffuse._
+- ✅ La radio
+
+Full working after a second miss:
+
+> La radio est le sujet de diffuse.  
+> La réponse est : La radio.  
+
+> Dans « Le présentateur annonce les nouvelles », quel groupe est sujet ?
+
+- ◻️ annonce  
+  _↳ feedback if chosen: Le présentateur est celui qui annonce._
+- ◻️ les nouvelles  
+  _↳ feedback if chosen: Le présentateur est celui qui annonce._
+- ✅ Le présentateur
+
+Full working after a second miss:
+
+> Le présentateur est celui qui annonce.  
+> La réponse est : Le présentateur.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-104-etape-2` · Lesson 104 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Les journalistes ___ un article. | écrivent | écrit · écris | Le sujet est pluriel : écrivent. |
+| Complète : La journaliste ___ un article. | écrit | écrivent · écrivez | Le sujet est singulier : écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : La journaliste ___ un article.
+
+- ◻️ écrivent  
+  _↳ feedback if chosen: Le sujet est singulier : écrit._
+- ◻️ écrivez  
+  _↳ feedback if chosen: Le sujet est singulier : écrit._
+- ✅ écrit
+
+Full working after a second miss:
+
+> Le sujet est singulier : écrit.  
+> La réponse est : écrit.  
+
+> Complète : La journaliste ___ un article.
+
+- ◻️ écrivez  
+  _↳ feedback if chosen: Le sujet est singulier : écrit._
+- ✅ écrit
+- ◻️ écrivent  
+  _↳ feedback if chosen: Le sujet est singulier : écrit._
+
+Full working after a second miss:
+
+> Le sujet est singulier : écrit.  
+> La réponse est : écrit.  
+
+> Complète : Les journalistes ___ un article.
+
+- ✅ écrivent
+- ◻️ écrit  
+  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
+- ◻️ écris  
+  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
+
+Full working after a second miss:
+
+> Le sujet est pluriel : écrivent.  
+> La réponse est : écrivent.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-104-etape-3` · Lesson 104 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Le frère de mes voisins ___ . | téléphone | téléphonent · téléphonez | Le nom principal frère est singulier ; voisins est son complément. |
+| Complète : Les amis de ma sœur ___ . | téléphonent | téléphone · téléphones | Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Le frère de mes voisins ___ .
+
+- ✅ téléphone
+- ◻️ téléphonent  
+  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
+- ◻️ téléphonez  
+  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
+
+Full working after a second miss:
+
+> Le nom principal frère est singulier ; voisins est son complément.  
+> La réponse est : téléphone.  
+
+> Complète : Le frère de mes voisins ___ .
+
+- ✅ téléphone
+- ◻️ téléphonez  
+  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
+- ◻️ téléphonent  
+  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
+
+Full working after a second miss:
+
+> Le nom principal frère est singulier ; voisins est son complément.  
+> La réponse est : téléphone.  
+
+> Complète : Le frère de mes voisins ___ .
+
+- ◻️ téléphonent  
+  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
+- ◻️ téléphonez  
+  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
+- ✅ téléphone
+
+Full working after a second miss:
+
+> Le nom principal frère est singulier ; voisins est son complément.  
+> La réponse est : téléphone.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-104-etape-2-card` · Lesson 104 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Les journalistes ___ un article. | écrivent | écrit · écris | Le sujet est pluriel : écrivent. |
+| Complète : La journaliste ___ un article. | écrit | écrivent · écrivez | Le sujet est singulier : écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Les journalistes ___ un article.
+
+- ◻️ écrit  
+  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
+- ✅ écrivent
+- ◻️ écris  
+  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
+
+Full working after a second miss:
+
+> Le sujet est pluriel : écrivent.  
+> La réponse est : écrivent.  
+
+> Complète : La journaliste ___ un article.
+
+- ◻️ écrivez  
+  _↳ feedback if chosen: Le sujet est singulier : écrit._
+- ◻️ écrivent  
+  _↳ feedback if chosen: Le sujet est singulier : écrit._
+- ✅ écrit
+
+Full working after a second miss:
+
+> Le sujet est singulier : écrit.  
+> La réponse est : écrit.  
+
+> Complète : La journaliste ___ un article.
+
+- ✅ écrit
+- ◻️ écrivent  
+  _↳ feedback if chosen: Le sujet est singulier : écrit._
+- ◻️ écrivez  
+  _↳ feedback if chosen: Le sujet est singulier : écrit._
+
+Full working after a second miss:
+
+> Le sujet est singulier : écrit.  
+> La réponse est : écrit.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-104-etape-3-card` · Lesson 104 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Le frère de mes voisins ___ . | téléphone | téléphonent · téléphonez | Le nom principal frère est singulier ; voisins est son complément. |
+| Complète : Les amis de ma sœur ___ . | téléphonent | téléphone · téléphones | Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Les amis de ma sœur ___ .
+
+- ◻️ téléphones  
+  _↳ feedback if chosen: Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe._
+- ◻️ téléphone  
+  _↳ feedback if chosen: Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe._
+- ✅ téléphonent
+
+Full working after a second miss:
+
+> Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe.  
+> La réponse est : téléphonent.  
+
+> Complète : Les amis de ma sœur ___ .
+
+- ◻️ téléphone  
+  _↳ feedback if chosen: Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe._
+- ✅ téléphonent
+- ◻️ téléphones  
+  _↳ feedback if chosen: Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe._
+
+Full working after a second miss:
+
+> Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe.  
+> La réponse est : téléphonent.  
+
+> Complète : Le frère de mes voisins ___ .
+
+- ◻️ téléphonez  
+  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
+- ✅ téléphone
+- ◻️ téléphonent  
+  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
+
+Full working after a second miss:
+
+> Le nom principal frère est singulier ; voisins est son complément.  
+> La réponse est : téléphone.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-105-etape-1` · Lesson 105 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase est au futur simple ? | Nous publierons demain. | Nous publierions si nous pouvions. · Nous publions maintenant. | Publierons est au futur simple. |
+| Quelle forme est au conditionnel présent ? | Je téléphonerais. | Je téléphonerai. · Je téléphone. | La terminaison -ais appartient ici au conditionnel. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase est au futur simple ?
+
+- ◻️ Nous publierions si nous pouvions.  
+  _↳ feedback if chosen: Publierons est au futur simple._
+- ✅ Nous publierons demain.
+- ◻️ Nous publions maintenant.  
+  _↳ feedback if chosen: Publierons est au futur simple._
+
+Full working after a second miss:
+
+> Publierons est au futur simple.  
+> La réponse est : Nous publierons demain..  
+
+> Quelle forme est au conditionnel présent ?
+
+- ◻️ Je téléphone.  
+  _↳ feedback if chosen: La terminaison -ais appartient ici au conditionnel._
+- ◻️ Je téléphonerai.  
+  _↳ feedback if chosen: La terminaison -ais appartient ici au conditionnel._
+- ✅ Je téléphonerais.
+
+Full working after a second miss:
+
+> La terminaison -ais appartient ici au conditionnel.  
+> La réponse est : Je téléphonerais..  
+
+> Quelle phrase est au futur simple ?
+
+- ◻️ Nous publierions si nous pouvions.  
+  _↳ feedback if chosen: Publierons est au futur simple._
+- ◻️ Nous publions maintenant.  
+  _↳ feedback if chosen: Publierons est au futur simple._
+- ✅ Nous publierons demain.
+
+Full working after a second miss:
+
+> Publierons est au futur simple.  
+> La réponse est : Nous publierons demain..  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-105-etape-2` · Lesson 105 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète avec parler au futur : Demain, nous ___ . | parlerons | parlerions · parlions | Au futur, nous prend la terminaison -ons sur le radical parler-. |
+| Complète : Si nous avions le temps, nous ___ davantage. | parlerions | parlerons · parlez | Si + imparfait appelle ici une conséquence au conditionnel. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Si nous avions le temps, nous ___ davantage.
+
+- ◻️ parlerons  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+- ✅ parlerions
+- ◻️ parlez  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+
+Full working after a second miss:
+
+> Si + imparfait appelle ici une conséquence au conditionnel.  
+> La réponse est : parlerions.  
+
+> Complète : Si nous avions le temps, nous ___ davantage.
+
+- ◻️ parlez  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+- ✅ parlerions
+- ◻️ parlerons  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+
+Full working after a second miss:
+
+> Si + imparfait appelle ici une conséquence au conditionnel.  
+> La réponse est : parlerions.  
+
+> Complète : Si nous avions le temps, nous ___ davantage.
+
+- ✅ parlerions
+- ◻️ parlez  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+- ◻️ parlerons  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+
+Full working after a second miss:
+
+> Si + imparfait appelle ici une conséquence au conditionnel.  
+> La réponse est : parlerions.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-105-etape-3` · Lesson 105 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle demande est formulée au conditionnel ? | Pourriez-vous répéter, s’il vous plaît ? | Vous répéterez demain. · Vous répétez chaque jour. | Pourriez est un conditionnel employé pour une demande polie. |
+| Quelle phrase respecte l’hypothèse ? | Si tu venais, nous travaillerions ensemble. | Si tu viendrais, nous travaillerions ensemble. · Si tu venais, nous travaillons hier. | On utilise ici si + imparfait, puis le conditionnel présent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle demande est formulée au conditionnel ?
+
+- ✅ Pourriez-vous répéter, s’il vous plaît ?
+- ◻️ Vous répéterez demain.  
+  _↳ feedback if chosen: Pourriez est un conditionnel employé pour une demande polie._
+- ◻️ Vous répétez chaque jour.  
+  _↳ feedback if chosen: Pourriez est un conditionnel employé pour une demande polie._
+
+Full working after a second miss:
+
+> Pourriez est un conditionnel employé pour une demande polie.  
+> La réponse est : Pourriez-vous répéter, s’il vous plaît ?.  
+
+> Quelle demande est formulée au conditionnel ?
+
+- ✅ Pourriez-vous répéter, s’il vous plaît ?
+- ◻️ Vous répéterez demain.  
+  _↳ feedback if chosen: Pourriez est un conditionnel employé pour une demande polie._
+- ◻️ Vous répétez chaque jour.  
+  _↳ feedback if chosen: Pourriez est un conditionnel employé pour une demande polie._
+
+Full working after a second miss:
+
+> Pourriez est un conditionnel employé pour une demande polie.  
+> La réponse est : Pourriez-vous répéter, s’il vous plaît ?.  
+
+> Quelle phrase respecte l’hypothèse ?
+
+- ✅ Si tu venais, nous travaillerions ensemble.
+- ◻️ Si tu viendrais, nous travaillerions ensemble.  
+  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
+- ◻️ Si tu venais, nous travaillons hier.  
+  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
+
+Full working after a second miss:
+
+> On utilise ici si + imparfait, puis le conditionnel présent.  
+> La réponse est : Si tu venais, nous travaillerions ensemble..  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-105-etape-2-card` · Lesson 105 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète avec parler au futur : Demain, nous ___ . | parlerons | parlerions · parlions | Au futur, nous prend la terminaison -ons sur le radical parler-. |
+| Complète : Si nous avions le temps, nous ___ davantage. | parlerions | parlerons · parlez | Si + imparfait appelle ici une conséquence au conditionnel. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Si nous avions le temps, nous ___ davantage.
+
+- ◻️ parlerons  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+- ◻️ parlez  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+- ✅ parlerions
+
+Full working after a second miss:
+
+> Si + imparfait appelle ici une conséquence au conditionnel.  
+> La réponse est : parlerions.  
+
+> Complète : Si nous avions le temps, nous ___ davantage.
+
+- ◻️ parlerons  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+- ◻️ parlez  
+  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+- ✅ parlerions
+
+Full working after a second miss:
+
+> Si + imparfait appelle ici une conséquence au conditionnel.  
+> La réponse est : parlerions.  
+
+> Complète avec parler au futur : Demain, nous ___ .
+
+- ✅ parlerons
+- ◻️ parlions  
+  _↳ feedback if chosen: Au futur, nous prend la terminaison -ons sur le radical parler-._
+- ◻️ parlerions  
+  _↳ feedback if chosen: Au futur, nous prend la terminaison -ons sur le radical parler-._
+
+Full working after a second miss:
+
+> Au futur, nous prend la terminaison -ons sur le radical parler-.  
+> La réponse est : parlerons.  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-105-etape-3-card` · Lesson 105 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle demande est formulée au conditionnel ? | Pourriez-vous répéter, s’il vous plaît ? | Vous répéterez demain. · Vous répétez chaque jour. | Pourriez est un conditionnel employé pour une demande polie. |
+| Quelle phrase respecte l’hypothèse ? | Si tu venais, nous travaillerions ensemble. | Si tu viendrais, nous travaillerions ensemble. · Si tu venais, nous travaillons hier. | On utilise ici si + imparfait, puis le conditionnel présent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase respecte l’hypothèse ?
+
+- ◻️ Si tu viendrais, nous travaillerions ensemble.  
+  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
+- ✅ Si tu venais, nous travaillerions ensemble.
+- ◻️ Si tu venais, nous travaillons hier.  
+  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
+
+Full working after a second miss:
+
+> On utilise ici si + imparfait, puis le conditionnel présent.  
+> La réponse est : Si tu venais, nous travaillerions ensemble..  
+
+> Quelle demande est formulée au conditionnel ?
+
+- ✅ Pourriez-vous répéter, s’il vous plaît ?
+- ◻️ Vous répétez chaque jour.  
+  _↳ feedback if chosen: Pourriez est un conditionnel employé pour une demande polie._
+- ◻️ Vous répéterez demain.  
+  _↳ feedback if chosen: Pourriez est un conditionnel employé pour une demande polie._
+
+Full working after a second miss:
+
+> Pourriez est un conditionnel employé pour une demande polie.  
+> La réponse est : Pourriez-vous répéter, s’il vous plaît ?.  
+
+> Quelle phrase respecte l’hypothèse ?
+
+- ◻️ Si tu viendrais, nous travaillerions ensemble.  
+  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
+- ◻️ Si tu venais, nous travaillons hier.  
+  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
+- ✅ Si tu venais, nous travaillerions ensemble.
+
+Full working after a second miss:
+
+> On utilise ici si + imparfait, puis le conditionnel présent.  
+> La réponse est : Si tu venais, nous travaillerions ensemble..  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-106-etape-1` · Lesson 106 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel mot appartient à la série étudiée ? | brun | pain · nature | Le mot brun appartient aux modèles de la leçon. |
+| Quel autre mot appartient à cette série ? | parfum | nature · pain | Le mot parfum appartient à la même série de modèles. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel autre mot appartient à cette série ?
+
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot parfum appartient à la même série de modèles._
+- ◻️ pain  
+  _↳ feedback if chosen: Le mot parfum appartient à la même série de modèles._
+- ✅ parfum
+
+Full working after a second miss:
+
+> Le mot parfum appartient à la même série de modèles.  
+> La réponse est : parfum.  
+
+> Quel autre mot appartient à cette série ?
+
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot parfum appartient à la même série de modèles._
+- ✅ parfum
+- ◻️ pain  
+  _↳ feedback if chosen: Le mot parfum appartient à la même série de modèles._
+
+Full working after a second miss:
+
+> Le mot parfum appartient à la même série de modèles.  
+> La réponse est : parfum.  
+
+> Quel mot appartient à la série étudiée ?
+
+- ✅ brun
+- ◻️ pain  
+  _↳ feedback if chosen: Le mot brun appartient aux modèles de la leçon._
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot brun appartient aux modèles de la leçon._
+
+Full working after a second miss:
+
+> Le mot brun appartient aux modèles de la leçon.  
+> La réponse est : brun.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-106-etape-2` · Lesson 106 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que peut vérifier cet exercice ? | Le repérage écrit des mots modèles. | L’enregistrement de ta voix. · La qualité de ton accent. | L’application ne capte pas la voix du lecteur. |
+| Qui peut fournir un modèle oral ? | Un enseignant qui lit les mots. | Le nombre de lettres seul. · Un score écrit sans audio. | Une prononciation doit être entendue et pratiquée oralement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que peut vérifier cet exercice ?
+
+- ✅ Le repérage écrit des mots modèles.
+- ◻️ La qualité de ton accent.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+
+Full working after a second miss:
+
+> L’application ne capte pas la voix du lecteur.  
+> La réponse est : Le repérage écrit des mots modèles..  
+
+> Que peut vérifier cet exercice ?
+
+- ◻️ La qualité de ton accent.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ✅ Le repérage écrit des mots modèles.
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+
+Full working after a second miss:
+
+> L’application ne capte pas la voix du lecteur.  
+> La réponse est : Le repérage écrit des mots modèles..  
+
+> Qui peut fournir un modèle oral ?
+
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ✅ Un enseignant qui lit les mots.
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-106-etape-3` · Lesson 106 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient uniquement les mots modèles ? | brun, parfum | pain, nature · brun, pain | Les deux mots doivent appartenir à la série étudiée. |
+| Quel conseil respecte les différences d’accent ? | Suivre le modèle oral donné en classe. | Faire noter sa voix par cet exercice écrit. · Déclarer faux tout accent différent. | Le professeur adapte le modèle oral à l’enseignement de la classe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ✅ brun, parfum
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ brun, pain  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : brun, parfum.  
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ✅ brun, parfum
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ brun, pain  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : brun, parfum.  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ✅ Suivre le modèle oral donné en classe.
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+
+Full working after a second miss:
+
+> Le professeur adapte le modèle oral à l’enseignement de la classe.  
+> La réponse est : Suivre le modèle oral donné en classe..  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-106-etape-2-card` · Lesson 106 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que peut vérifier cet exercice ? | Le repérage écrit des mots modèles. | L’enregistrement de ta voix. · La qualité de ton accent. | L’application ne capte pas la voix du lecteur. |
+| Qui peut fournir un modèle oral ? | Un enseignant qui lit les mots. | Le nombre de lettres seul. · Un score écrit sans audio. | Une prononciation doit être entendue et pratiquée oralement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Qui peut fournir un modèle oral ?
+
+- ✅ Un enseignant qui lit les mots.
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+> Qui peut fournir un modèle oral ?
+
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ✅ Un enseignant qui lit les mots.
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+> Que peut vérifier cet exercice ?
+
+- ✅ Le repérage écrit des mots modèles.
+- ◻️ La qualité de ton accent.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+
+Full working after a second miss:
+
+> L’application ne capte pas la voix du lecteur.  
+> La réponse est : Le repérage écrit des mots modèles..  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-106-etape-3-card` · Lesson 106 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient uniquement les mots modèles ? | brun, parfum | pain, nature · brun, pain | Les deux mots doivent appartenir à la série étudiée. |
+| Quel conseil respecte les différences d’accent ? | Suivre le modèle oral donné en classe. | Faire noter sa voix par cet exercice écrit. · Déclarer faux tout accent différent. | Le professeur adapte le modèle oral à l’enseignement de la classe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel conseil respecte les différences d’accent ?
+
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ✅ Suivre le modèle oral donné en classe.
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+
+Full working after a second miss:
+
+> Le professeur adapte le modèle oral à l’enseignement de la classe.  
+> La réponse est : Suivre le modèle oral donné en classe..  
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ✅ brun, parfum
+- ◻️ brun, pain  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : brun, parfum.  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ✅ Suivre le modèle oral donné en classe.
+
+Full working after a second miss:
+
+> Le professeur adapte le modèle oral à l’enseignement de la classe.  
+> La réponse est : Suivre le modèle oral donné en classe..  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-107-etape-1` · Lesson 107 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel média peut-on écouter sans regarder un écran ? | La radio. | Une photographie imprimée. · Une affiche muette. | La radio transmet du son. |
+| Quel média associe habituellement images animées et son ? | La télévision. | Une feuille sans texte. · Une lettre manuscrite seule. | Une émission télévisée associe images et son. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel média peut-on écouter sans regarder un écran ?
+
+- ◻️ Une photographie imprimée.  
+  _↳ feedback if chosen: La radio transmet du son._
+- ✅ La radio.
+- ◻️ Une affiche muette.  
+  _↳ feedback if chosen: La radio transmet du son._
+
+Full working after a second miss:
+
+> La radio transmet du son.  
+> La réponse est : La radio..  
+
+> Quel média associe habituellement images animées et son ?
+
+- ◻️ Une lettre manuscrite seule.  
+  _↳ feedback if chosen: Une émission télévisée associe images et son._
+- ✅ La télévision.
+- ◻️ Une feuille sans texte.  
+  _↳ feedback if chosen: Une émission télévisée associe images et son._
+
+Full working after a second miss:
+
+> Une émission télévisée associe images et son.  
+> La réponse est : La télévision..  
+
+> Quel média associe habituellement images animées et son ?
+
+- ◻️ Une lettre manuscrite seule.  
+  _↳ feedback if chosen: Une émission télévisée associe images et son._
+- ✅ La télévision.
+- ◻️ Une feuille sans texte.  
+  _↳ feedback if chosen: Une émission télévisée associe images et son._
+
+Full working after a second miss:
+
+> Une émission télévisée associe images et son.  
+> La réponse est : La télévision..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-107-etape-2` · Lesson 107 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que fait le titre d’un article ? | Il annonce son sujet. | Il prouve que tout est vrai. · Il remplace toutes les sources. | Le titre présente le sujet ; il ne suffit pas à prouver une information. |
+| Que précise une source ? | L’origine d’une information. | La couleur d’un clavier. · La taille du papier seulement. | La source permet d’identifier l’origine de l’information. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que précise une source ?
+
+- ◻️ La taille du papier seulement.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ✅ L’origine d’une information.
+- ◻️ La couleur d’un clavier.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+
+Full working after a second miss:
+
+> La source permet d’identifier l’origine de l’information.  
+> La réponse est : L’origine d’une information..  
+
+> Que précise une source ?
+
+- ◻️ La couleur d’un clavier.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ◻️ La taille du papier seulement.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ✅ L’origine d’une information.
+
+Full working after a second miss:
+
+> La source permet d’identifier l’origine de l’information.  
+> La réponse est : L’origine d’une information..  
+
+> Que précise une source ?
+
+- ◻️ La taille du papier seulement.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ◻️ La couleur d’un clavier.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ✅ L’origine d’une information.
+
+Full working after a second miss:
+
+> La source permet d’identifier l’origine de l’information.  
+> La réponse est : L’origine d’une information..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-107-etape-3` · Lesson 107 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ? | Vérifier sa date et ses sources. | La croire parce qu’elle est en ligne. · La partager parce que son titre est grand. | La fiabilité dépend de la vérification, pas de la mise en page. |
+| Le travail du journaliste comprend… | la recherche et la vérification des informations. | l’invention de toutes ses sources. · le remplacement des faits par des publicités. | Le journaliste doit rechercher et vérifier ce qu’il présente. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ?
+
+- ✅ Vérifier sa date et ses sources.
+- ◻️ La partager parce que son titre est grand.  
+  _↳ feedback if chosen: La fiabilité dépend de la vérification, pas de la mise en page._
+- ◻️ La croire parce qu’elle est en ligne.  
+  _↳ feedback if chosen: La fiabilité dépend de la vérification, pas de la mise en page._
+
+Full working after a second miss:
+
+> La fiabilité dépend de la vérification, pas de la mise en page.  
+> La réponse est : Vérifier sa date et ses sources..  
+
+> Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ?
+
+- ✅ Vérifier sa date et ses sources.
+- ◻️ La croire parce qu’elle est en ligne.  
+  _↳ feedback if chosen: La fiabilité dépend de la vérification, pas de la mise en page._
+- ◻️ La partager parce que son titre est grand.  
+  _↳ feedback if chosen: La fiabilité dépend de la vérification, pas de la mise en page._
+
+Full working after a second miss:
+
+> La fiabilité dépend de la vérification, pas de la mise en page.  
+> La réponse est : Vérifier sa date et ses sources..  
+
+> Le travail du journaliste comprend…
+
+- ✅ la recherche et la vérification des informations.
+- ◻️ le remplacement des faits par des publicités.  
+  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
+- ◻️ l’invention de toutes ses sources.  
+  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
+
+Full working after a second miss:
+
+> Le journaliste doit rechercher et vérifier ce qu’il présente.  
+> La réponse est : la recherche et la vérification des informations..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-107-etape-2-card` · Lesson 107 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que fait le titre d’un article ? | Il annonce son sujet. | Il prouve que tout est vrai. · Il remplace toutes les sources. | Le titre présente le sujet ; il ne suffit pas à prouver une information. |
+| Que précise une source ? | L’origine d’une information. | La couleur d’un clavier. · La taille du papier seulement. | La source permet d’identifier l’origine de l’information. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que précise une source ?
+
+- ✅ L’origine d’une information.
+- ◻️ La taille du papier seulement.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ◻️ La couleur d’un clavier.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+
+Full working after a second miss:
+
+> La source permet d’identifier l’origine de l’information.  
+> La réponse est : L’origine d’une information..  
+
+> Que précise une source ?
+
+- ◻️ La couleur d’un clavier.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ◻️ La taille du papier seulement.  
+  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ✅ L’origine d’une information.
+
+Full working after a second miss:
+
+> La source permet d’identifier l’origine de l’information.  
+> La réponse est : L’origine d’une information..  
+
+> Que fait le titre d’un article ?
+
+- ◻️ Il remplace toutes les sources.  
+  _↳ feedback if chosen: Le titre présente le sujet ; il ne suffit pas à prouver une information._
+- ✅ Il annonce son sujet.
+- ◻️ Il prouve que tout est vrai.  
+  _↳ feedback if chosen: Le titre présente le sujet ; il ne suffit pas à prouver une information._
+
+Full working after a second miss:
+
+> Le titre présente le sujet ; il ne suffit pas à prouver une information.  
+> La réponse est : Il annonce son sujet..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-107-etape-3-card` · Lesson 107 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ? | Vérifier sa date et ses sources. | La croire parce qu’elle est en ligne. · La partager parce que son titre est grand. | La fiabilité dépend de la vérification, pas de la mise en page. |
+| Le travail du journaliste comprend… | la recherche et la vérification des informations. | l’invention de toutes ses sources. · le remplacement des faits par des publicités. | Le journaliste doit rechercher et vérifier ce qu’il présente. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Le travail du journaliste comprend…
+
+- ◻️ le remplacement des faits par des publicités.  
+  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
+- ✅ la recherche et la vérification des informations.
+- ◻️ l’invention de toutes ses sources.  
+  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
+
+Full working after a second miss:
+
+> Le journaliste doit rechercher et vérifier ce qu’il présente.  
+> La réponse est : la recherche et la vérification des informations..  
+
+> Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ?
+
+- ◻️ La partager parce que son titre est grand.  
+  _↳ feedback if chosen: La fiabilité dépend de la vérification, pas de la mise en page._
+- ✅ Vérifier sa date et ses sources.
+- ◻️ La croire parce qu’elle est en ligne.  
+  _↳ feedback if chosen: La fiabilité dépend de la vérification, pas de la mise en page._
+
+Full working after a second miss:
+
+> La fiabilité dépend de la vérification, pas de la mise en page.  
+> La réponse est : Vérifier sa date et ses sources..  
+
+> Le travail du journaliste comprend…
+
+- ✅ la recherche et la vérification des informations.
+- ◻️ le remplacement des faits par des publicités.  
+  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
+- ◻️ l’invention de toutes ses sources.  
+  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
+
+Full working after a second miss:
+
+> Le journaliste doit rechercher et vérifier ce qu’il présente.  
+> La réponse est : la recherche et la vérification des informations..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-108-etape-1` · Lesson 108 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Poème original — La voix du matin
+La radio chante dans la cour,
+Une nouvelle ouvre le jour.
+J’écoute, puis je réfléchis,
+Je cherche où le fait est écrit. Quelle ligne évoque la réflexion ? | J’écoute, puis je réfléchis, | Une nouvelle ouvre le jour. · La radio chante dans la cour, | Le verbe réfléchis nomme la réflexion. |
+| Poème original — La voix du matin
+La radio chante dans la cour,
+Une nouvelle ouvre le jour.
+J’écoute, puis je réfléchis,
+Je cherche où le fait est écrit. Quel média est nommé ? | La radio. | Le cinéma. · Une affiche. | La première ligne nomme la radio. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Poème original — La voix du matin
+> La radio chante dans la cour,
+> Une nouvelle ouvre le jour.
+> J’écoute, puis je réfléchis,
+> Je cherche où le fait est écrit. Quel média est nommé ?
+
+- ◻️ Une affiche.  
+  _↳ feedback if chosen: La première ligne nomme la radio._
+- ✅ La radio.
+- ◻️ Le cinéma.  
+  _↳ feedback if chosen: La première ligne nomme la radio._
+
+Full working after a second miss:
+
+> La première ligne nomme la radio.  
+> La réponse est : La radio..  
+
+> Poème original — La voix du matin
+> La radio chante dans la cour,
+> Une nouvelle ouvre le jour.
+> J’écoute, puis je réfléchis,
+> Je cherche où le fait est écrit. Quel média est nommé ?
+
+- ◻️ Une affiche.  
+  _↳ feedback if chosen: La première ligne nomme la radio._
+- ◻️ Le cinéma.  
+  _↳ feedback if chosen: La première ligne nomme la radio._
+- ✅ La radio.
+
+Full working after a second miss:
+
+> La première ligne nomme la radio.  
+> La réponse est : La radio..  
+
+> Poème original — La voix du matin
+> La radio chante dans la cour,
+> Une nouvelle ouvre le jour.
+> J’écoute, puis je réfléchis,
+> Je cherche où le fait est écrit. Quelle ligne évoque la réflexion ?
+
+- ✅ J’écoute, puis je réfléchis,
+- ◻️ Une nouvelle ouvre le jour.  
+  _↳ feedback if chosen: Le verbe réfléchis nomme la réflexion._
+- ◻️ La radio chante dans la cour,  
+  _↳ feedback if chosen: Le verbe réfléchis nomme la réflexion._
+
+Full working after a second miss:
+
+> Le verbe réfléchis nomme la réflexion.  
+> La réponse est : J’écoute, puis je réfléchis,.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-108-etape-2` · Lesson 108 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Poème original — La voix du matin
+La radio chante dans la cour,
+Une nouvelle ouvre le jour.
+J’écoute, puis je réfléchis,
+Je cherche où le fait est écrit. Que fait le lecteur après avoir écouté ? | Il réfléchit et cherche une trace écrite. | Il répète sans comprendre. · Il casse la radio. | Les dernières lignes associent réflexion et recherche. |
+| Quelle méthode aide à mémoriser ce poème ? | Comprendre puis apprendre un court passage à la fois. | Ignorer tous les mots inconnus. · Changer les mots à chaque lecture. | La compréhension et la répétition par passages soutiennent la mémoire. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle méthode aide à mémoriser ce poème ?
+
+- ✅ Comprendre puis apprendre un court passage à la fois.
+- ◻️ Ignorer tous les mots inconnus.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+- ◻️ Changer les mots à chaque lecture.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+
+Full working after a second miss:
+
+> La compréhension et la répétition par passages soutiennent la mémoire.  
+> La réponse est : Comprendre puis apprendre un court passage à la fois..  
+
+> Quelle méthode aide à mémoriser ce poème ?
+
+- ◻️ Ignorer tous les mots inconnus.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+- ✅ Comprendre puis apprendre un court passage à la fois.
+- ◻️ Changer les mots à chaque lecture.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+
+Full working after a second miss:
+
+> La compréhension et la répétition par passages soutiennent la mémoire.  
+> La réponse est : Comprendre puis apprendre un court passage à la fois..  
+
+> Quelle méthode aide à mémoriser ce poème ?
+
+- ✅ Comprendre puis apprendre un court passage à la fois.
+- ◻️ Ignorer tous les mots inconnus.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+- ◻️ Changer les mots à chaque lecture.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+
+Full working after a second miss:
+
+> La compréhension et la répétition par passages soutiennent la mémoire.  
+> La réponse est : Comprendre puis apprendre un court passage à la fois..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-108-etape-3` · Lesson 108 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que peut contrôler un adulte pendant la récitation ? | L’articulation, les pauses et le respect du texte. | La couleur de l’écran seulement. · Le nombre de boutons de l’application. | Une récitation est un travail oral qui demande une écoute. |
+| Que peut affirmer l’application après cet exercice écrit ? | Que tu as préparé certains éléments du texte. | Que ta voix est parfaitement juste. · Que tu as chanté sans erreur. | L’application ne dispose pas d’un enregistrement de la voix. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que peut contrôler un adulte pendant la récitation ?
+
+- ◻️ La couleur de l’écran seulement.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+- ✅ L’articulation, les pauses et le respect du texte.
+- ◻️ Le nombre de boutons de l’application.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+
+Full working after a second miss:
+
+> Une récitation est un travail oral qui demande une écoute.  
+> La réponse est : L’articulation, les pauses et le respect du texte..  
+
+> Que peut contrôler un adulte pendant la récitation ?
+
+- ◻️ La couleur de l’écran seulement.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+- ✅ L’articulation, les pauses et le respect du texte.
+- ◻️ Le nombre de boutons de l’application.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+
+Full working after a second miss:
+
+> Une récitation est un travail oral qui demande une écoute.  
+> La réponse est : L’articulation, les pauses et le respect du texte..  
+
+> Que peut affirmer l’application après cet exercice écrit ?
+
+- ◻️ Que ta voix est parfaitement juste.  
+  _↳ feedback if chosen: L’application ne dispose pas d’un enregistrement de la voix._
+- ◻️ Que tu as chanté sans erreur.  
+  _↳ feedback if chosen: L’application ne dispose pas d’un enregistrement de la voix._
+- ✅ Que tu as préparé certains éléments du texte.
+
+Full working after a second miss:
+
+> L’application ne dispose pas d’un enregistrement de la voix.  
+> La réponse est : Que tu as préparé certains éléments du texte..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-108-etape-2-card` · Lesson 108 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Poème original — La voix du matin
+La radio chante dans la cour,
+Une nouvelle ouvre le jour.
+J’écoute, puis je réfléchis,
+Je cherche où le fait est écrit. Que fait le lecteur après avoir écouté ? | Il réfléchit et cherche une trace écrite. | Il répète sans comprendre. · Il casse la radio. | Les dernières lignes associent réflexion et recherche. |
+| Quelle méthode aide à mémoriser ce poème ? | Comprendre puis apprendre un court passage à la fois. | Ignorer tous les mots inconnus. · Changer les mots à chaque lecture. | La compréhension et la répétition par passages soutiennent la mémoire. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle méthode aide à mémoriser ce poème ?
+
+- ✅ Comprendre puis apprendre un court passage à la fois.
+- ◻️ Ignorer tous les mots inconnus.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+- ◻️ Changer les mots à chaque lecture.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+
+Full working after a second miss:
+
+> La compréhension et la répétition par passages soutiennent la mémoire.  
+> La réponse est : Comprendre puis apprendre un court passage à la fois..  
+
+> Quelle méthode aide à mémoriser ce poème ?
+
+- ✅ Comprendre puis apprendre un court passage à la fois.
+- ◻️ Ignorer tous les mots inconnus.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+- ◻️ Changer les mots à chaque lecture.  
+  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+
+Full working after a second miss:
+
+> La compréhension et la répétition par passages soutiennent la mémoire.  
+> La réponse est : Comprendre puis apprendre un court passage à la fois..  
+
+> Poème original — La voix du matin
+> La radio chante dans la cour,
+> Une nouvelle ouvre le jour.
+> J’écoute, puis je réfléchis,
+> Je cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?
+
+- ◻️ Il répète sans comprendre.  
+  _↳ feedback if chosen: Les dernières lignes associent réflexion et recherche._
+- ✅ Il réfléchit et cherche une trace écrite.
+- ◻️ Il casse la radio.  
+  _↳ feedback if chosen: Les dernières lignes associent réflexion et recherche._
+
+Full working after a second miss:
+
+> Les dernières lignes associent réflexion et recherche.  
+> La réponse est : Il réfléchit et cherche une trace écrite..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-108-etape-3-card` · Lesson 108 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que peut contrôler un adulte pendant la récitation ? | L’articulation, les pauses et le respect du texte. | La couleur de l’écran seulement. · Le nombre de boutons de l’application. | Une récitation est un travail oral qui demande une écoute. |
+| Que peut affirmer l’application après cet exercice écrit ? | Que tu as préparé certains éléments du texte. | Que ta voix est parfaitement juste. · Que tu as chanté sans erreur. | L’application ne dispose pas d’un enregistrement de la voix. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que peut contrôler un adulte pendant la récitation ?
+
+- ◻️ La couleur de l’écran seulement.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+- ✅ L’articulation, les pauses et le respect du texte.
+- ◻️ Le nombre de boutons de l’application.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+
+Full working after a second miss:
+
+> Une récitation est un travail oral qui demande une écoute.  
+> La réponse est : L’articulation, les pauses et le respect du texte..  
+
+> Que peut contrôler un adulte pendant la récitation ?
+
+- ◻️ Le nombre de boutons de l’application.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+- ◻️ La couleur de l’écran seulement.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+- ✅ L’articulation, les pauses et le respect du texte.
+
+Full working after a second miss:
+
+> Une récitation est un travail oral qui demande une écoute.  
+> La réponse est : L’articulation, les pauses et le respect du texte..  
+
+> Que peut contrôler un adulte pendant la récitation ?
+
+- ✅ L’articulation, les pauses et le respect du texte.
+- ◻️ La couleur de l’écran seulement.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+- ◻️ Le nombre de boutons de l’application.  
+  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+
+Full working after a second miss:
+
+> Une récitation est un travail oral qui demande une écoute.  
+> La réponse est : L’articulation, les pauses et le respect du texte..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-109-etape-1` · Lesson 109 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Que préparent les élèves ? | Un bulletin pour l’école. | Une émission de cuisine. · Un permis de conduire. | Le projet est annoncé au début du texte. |
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Qui Bih interroge-t-elle ? | La bibliothécaire. | Un chauffeur. · Un gardien de stade. | Le texte nomme son interlocutrice. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Que préparent les élèves ?
+
+- ✅ Un bulletin pour l’école.
+- ◻️ Un permis de conduire.  
+  _↳ feedback if chosen: Le projet est annoncé au début du texte._
+- ◻️ Une émission de cuisine.  
+  _↳ feedback if chosen: Le projet est annoncé au début du texte._
+
+Full working after a second miss:
+
+> Le projet est annoncé au début du texte.  
+> La réponse est : Un bulletin pour l’école..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Qui Bih interroge-t-elle ?
+
+- ◻️ Un gardien de stade.  
+  _↳ feedback if chosen: Le texte nomme son interlocutrice._
+- ✅ La bibliothécaire.
+- ◻️ Un chauffeur.  
+  _↳ feedback if chosen: Le texte nomme son interlocutrice._
+
+Full working after a second miss:
+
+> Le texte nomme son interlocutrice.  
+> La réponse est : La bibliothécaire..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Qui Bih interroge-t-elle ?
+
+- ◻️ Un chauffeur.  
+  _↳ feedback if chosen: Le texte nomme son interlocutrice._
+- ◻️ Un gardien de stade.  
+  _↳ feedback if chosen: Le texte nomme son interlocutrice._
+- ✅ La bibliothécaire.
+
+Full working after a second miss:
+
+> Le texte nomme son interlocutrice.  
+> La réponse est : La bibliothécaire..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
+
+### `fi2-109-etape-2` · Lesson 109 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ? | Avant de l’afficher. | Après plusieurs années. · Avant de l’écrire. | Le texte précise avant d’afficher. |
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ? | Une erreur de date. | La couleur d’une chaise. · Le prix d’un repas. | La date de la rencontre est l’information vérifiée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?
+
+- ◻️ Avant de l’écrire.  
+  _↳ feedback if chosen: Le texte précise avant d’afficher._
+- ✅ Avant de l’afficher.
+- ◻️ Après plusieurs années.  
+  _↳ feedback if chosen: Le texte précise avant d’afficher._
+
+Full working after a second miss:
+
+> Le texte précise avant d’afficher.  
+> La réponse est : Avant de l’afficher..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?
+
+- ◻️ La couleur d’une chaise.  
+  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
+- ✅ Une erreur de date.
+- ◻️ Le prix d’un repas.  
+  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
+
+Full working after a second miss:
+
+> La date de la rencontre est l’information vérifiée.  
+> La réponse est : Une erreur de date..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?
+
+- ◻️ Le prix d’un repas.  
+  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
+- ◻️ La couleur d’une chaise.  
+  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
+- ✅ Une erreur de date.
+
+Full working after a second miss:
+
+> La date de la rencontre est l’information vérifiée.  
+> La réponse est : Une erreur de date..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
+
+### `fi2-109-etape-3` · Lesson 109 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. À quoi sert la relecture dans ce récit ? | À éviter de diffuser une mauvaise date. | À supprimer toutes les rencontres. · À remplacer l’entretien par une rumeur. | La relecture permet de corriger une erreur utile aux lecteurs. |
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ? | Vérifier avant d’informer. | Un voyage en mer. · La panne du camion. | Le récit montre comment une vérification améliore un bulletin. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?
+
+- ◻️ La panne du camion.  
+  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+- ◻️ Un voyage en mer.  
+  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+- ✅ Vérifier avant d’informer.
+
+Full working after a second miss:
+
+> Le récit montre comment une vérification améliore un bulletin.  
+> La réponse est : Vérifier avant d’informer..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?
+
+- ✅ Vérifier avant d’informer.
+- ◻️ La panne du camion.  
+  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+- ◻️ Un voyage en mer.  
+  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+
+Full working after a second miss:
+
+> Le récit montre comment une vérification améliore un bulletin.  
+> La réponse est : Vérifier avant d’informer..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?
+
+- ✅ Vérifier avant d’informer.
+- ◻️ La panne du camion.  
+  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+- ◻️ Un voyage en mer.  
+  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+
+Full working after a second miss:
+
+> Le récit montre comment une vérification améliore un bulletin.  
+> La réponse est : Vérifier avant d’informer..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
+
+### `fi2-109-etape-2-card` · Lesson 109 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ? | Avant de l’afficher. | Après plusieurs années. · Avant de l’écrire. | Le texte précise avant d’afficher. |
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ? | Une erreur de date. | La couleur d’une chaise. · Le prix d’un repas. | La date de la rencontre est l’information vérifiée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?
+
+- ◻️ Avant de l’écrire.  
+  _↳ feedback if chosen: Le texte précise avant d’afficher._
+- ✅ Avant de l’afficher.
+- ◻️ Après plusieurs années.  
+  _↳ feedback if chosen: Le texte précise avant d’afficher._
+
+Full working after a second miss:
+
+> Le texte précise avant d’afficher.  
+> La réponse est : Avant de l’afficher..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?
+
+- ◻️ La couleur d’une chaise.  
+  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
+- ✅ Une erreur de date.
+- ◻️ Le prix d’un repas.  
+  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
+
+Full working after a second miss:
+
+> La date de la rencontre est l’information vérifiée.  
+> La réponse est : Une erreur de date..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?
+
+- ◻️ Après plusieurs années.  
+  _↳ feedback if chosen: Le texte précise avant d’afficher._
+- ◻️ Avant de l’écrire.  
+  _↳ feedback if chosen: Le texte précise avant d’afficher._
+- ✅ Avant de l’afficher.
+
+Full working after a second miss:
+
+> Le texte précise avant d’afficher.  
+> La réponse est : Avant de l’afficher..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
+
+### `fi2-109-etape-3-card` · Lesson 109 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. À quoi sert la relecture dans ce récit ? | À éviter de diffuser une mauvaise date. | À supprimer toutes les rencontres. · À remplacer l’entretien par une rumeur. | La relecture permet de corriger une erreur utile aux lecteurs. |
+| Texte original — Le bulletin du club
+Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ? | Vérifier avant d’informer. | Un voyage en mer. · La panne du camion. | Le récit montre comment une vérification améliore un bulletin. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?
+
+- ◻️ La panne du camion.  
+  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+- ◻️ Un voyage en mer.  
+  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+- ✅ Vérifier avant d’informer.
+
+Full working after a second miss:
+
+> Le récit montre comment une vérification améliore un bulletin.  
+> La réponse est : Vérifier avant d’informer..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. À quoi sert la relecture dans ce récit ?
+
+- ◻️ À remplacer l’entretien par une rumeur.  
+  _↳ feedback if chosen: La relecture permet de corriger une erreur utile aux lecteurs._
+- ◻️ À supprimer toutes les rencontres.  
+  _↳ feedback if chosen: La relecture permet de corriger une erreur utile aux lecteurs._
+- ✅ À éviter de diffuser une mauvaise date.
+
+Full working after a second miss:
+
+> La relecture permet de corriger une erreur utile aux lecteurs.  
+> La réponse est : À éviter de diffuser une mauvaise date..  
+
+> Texte original — Le bulletin du club
+> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. À quoi sert la relecture dans ce récit ?
+
+- ✅ À éviter de diffuser une mauvaise date.
+- ◻️ À remplacer l’entretien par une rumeur.  
+  _↳ feedback if chosen: La relecture permet de corriger une erreur utile aux lecteurs._
+- ◻️ À supprimer toutes les rencontres.  
+  _↳ feedback if chosen: La relecture permet de corriger une erreur utile aux lecteurs._
+
+Full working after a second miss:
+
+> La relecture permet de corriger une erreur utile aux lecteurs.  
+> La réponse est : À éviter de diffuser une mauvaise date..  
+
+Sources: lecture (Textes de lecture originaux écrits pour l’application (la lettre de Biloa, le choléra à Bénakuma) ; Le bulletin du club (original, Term 3))
+
+### `fi2-110-etape-1` · Lesson 110 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase décrit un lieu ? | Au fond de la salle, un écran est posé sur une table. | Hier, je partis en courant. · Je vous demande une autorisation. | La phrase situe des éléments observables. |
+| Quelle phrase décrit un objet ? | Le poste de radio est petit et noir. | Qui est à l’appareil ? · Je viendrai demain. | La taille et la couleur décrivent l’objet. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase décrit un lieu ?
+
+- ◻️ Je vous demande une autorisation.  
+  _↳ feedback if chosen: La phrase situe des éléments observables._
+- ✅ Au fond de la salle, un écran est posé sur une table.
+- ◻️ Hier, je partis en courant.  
+  _↳ feedback if chosen: La phrase situe des éléments observables._
+
+Full working after a second miss:
+
+> La phrase situe des éléments observables.  
+> La réponse est : Au fond de la salle, un écran est posé sur une table..  
+
+> Quelle phrase décrit un lieu ?
+
+- ✅ Au fond de la salle, un écran est posé sur une table.
+- ◻️ Hier, je partis en courant.  
+  _↳ feedback if chosen: La phrase situe des éléments observables._
+- ◻️ Je vous demande une autorisation.  
+  _↳ feedback if chosen: La phrase situe des éléments observables._
+
+Full working after a second miss:
+
+> La phrase situe des éléments observables.  
+> La réponse est : Au fond de la salle, un écran est posé sur une table..  
+
+> Quelle phrase décrit un lieu ?
+
+- ◻️ Je vous demande une autorisation.  
+  _↳ feedback if chosen: La phrase situe des éléments observables._
+- ✅ Au fond de la salle, un écran est posé sur une table.
+- ◻️ Hier, je partis en courant.  
+  _↳ feedback if chosen: La phrase situe des éléments observables._
+
+Full working after a second miss:
+
+> La phrase situe des éléments observables.  
+> La réponse est : Au fond de la salle, un écran est posé sur une table..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-110-etape-2` · Lesson 110 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel groupe situe un détail ? | À gauche de la table | Tout à coup · Le lendemain | À gauche est un repère spatial. |
+| Quelle suite reste cohérente ? | La table est au centre. Une chaise est placée près d’elle. | La table est seule. Aucun meuble n’existe. · La table est ronde. Elle n’a aucune forme. | Les éléments de la description doivent rester compatibles. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle suite reste cohérente ?
+
+- ◻️ La table est ronde. Elle n’a aucune forme.  
+  _↳ feedback if chosen: Les éléments de la description doivent rester compatibles._
+- ◻️ La table est seule. Aucun meuble n’existe.  
+  _↳ feedback if chosen: Les éléments de la description doivent rester compatibles._
+- ✅ La table est au centre. Une chaise est placée près d’elle.
+
+Full working after a second miss:
+
+> Les éléments de la description doivent rester compatibles.  
+> La réponse est : La table est au centre. Une chaise est placée près d’elle..  
+
+> Quelle suite reste cohérente ?
+
+- ✅ La table est au centre. Une chaise est placée près d’elle.
+- ◻️ La table est ronde. Elle n’a aucune forme.  
+  _↳ feedback if chosen: Les éléments de la description doivent rester compatibles._
+- ◻️ La table est seule. Aucun meuble n’existe.  
+  _↳ feedback if chosen: Les éléments de la description doivent rester compatibles._
+
+Full working after a second miss:
+
+> Les éléments de la description doivent rester compatibles.  
+> La réponse est : La table est au centre. Une chaise est placée près d’elle..  
+
+> Quel groupe situe un détail ?
+
+- ◻️ Le lendemain  
+  _↳ feedback if chosen: À gauche est un repère spatial._
+- ✅ À gauche de la table
+- ◻️ Tout à coup  
+  _↳ feedback if chosen: À gauche est un repère spatial._
+
+Full working after a second miss:
+
+> À gauche est un repère spatial.  
+> La réponse est : À gauche de la table.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-110-etape-3` · Lesson 110 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ? | Un cahier fermé est posé sur la table. | Il contient forcément un secret. · Son propriétaire est certainement riche. | L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire. |
+| Que faut-il vérifier en relisant une description ? | L’ordre des détails et les accords des adjectifs. | Seulement la longueur du titre. · Que chaque phrase change de sujet. | La description doit être organisée et grammaticalement correcte. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ?
+
+- ◻️ Son propriétaire est certainement riche.  
+  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+- ◻️ Il contient forcément un secret.  
+  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+- ✅ Un cahier fermé est posé sur la table.
+
+Full working after a second miss:
+
+> L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire.  
+> La réponse est : Un cahier fermé est posé sur la table..  
+
+> Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ?
+
+- ✅ Un cahier fermé est posé sur la table.
+- ◻️ Il contient forcément un secret.  
+  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+- ◻️ Son propriétaire est certainement riche.  
+  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+
+Full working after a second miss:
+
+> L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire.  
+> La réponse est : Un cahier fermé est posé sur la table..  
+
+> Que faut-il vérifier en relisant une description ?
+
+- ◻️ Seulement la longueur du titre.  
+  _↳ feedback if chosen: La description doit être organisée et grammaticalement correcte._
+- ✅ L’ordre des détails et les accords des adjectifs.
+- ◻️ Que chaque phrase change de sujet.  
+  _↳ feedback if chosen: La description doit être organisée et grammaticalement correcte._
+
+Full working after a second miss:
+
+> La description doit être organisée et grammaticalement correcte.  
+> La réponse est : L’ordre des détails et les accords des adjectifs..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-110-etape-2-card` · Lesson 110 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel groupe situe un détail ? | À gauche de la table | Tout à coup · Le lendemain | À gauche est un repère spatial. |
+| Quelle suite reste cohérente ? | La table est au centre. Une chaise est placée près d’elle. | La table est seule. Aucun meuble n’existe. · La table est ronde. Elle n’a aucune forme. | Les éléments de la description doivent rester compatibles. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle suite reste cohérente ?
+
+- ◻️ La table est ronde. Elle n’a aucune forme.  
+  _↳ feedback if chosen: Les éléments de la description doivent rester compatibles._
+- ◻️ La table est seule. Aucun meuble n’existe.  
+  _↳ feedback if chosen: Les éléments de la description doivent rester compatibles._
+- ✅ La table est au centre. Une chaise est placée près d’elle.
+
+Full working after a second miss:
+
+> Les éléments de la description doivent rester compatibles.  
+> La réponse est : La table est au centre. Une chaise est placée près d’elle..  
+
+> Quel groupe situe un détail ?
+
+- ◻️ Tout à coup  
+  _↳ feedback if chosen: À gauche est un repère spatial._
+- ✅ À gauche de la table
+- ◻️ Le lendemain  
+  _↳ feedback if chosen: À gauche est un repère spatial._
+
+Full working after a second miss:
+
+> À gauche est un repère spatial.  
+> La réponse est : À gauche de la table.  
+
+> Quel groupe situe un détail ?
+
+- ◻️ Le lendemain  
+  _↳ feedback if chosen: À gauche est un repère spatial._
+- ◻️ Tout à coup  
+  _↳ feedback if chosen: À gauche est un repère spatial._
+- ✅ À gauche de la table
+
+Full working after a second miss:
+
+> À gauche est un repère spatial.  
+> La réponse est : À gauche de la table.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-110-etape-3-card` · Lesson 110 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ? | Un cahier fermé est posé sur la table. | Il contient forcément un secret. · Son propriétaire est certainement riche. | L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire. |
+| Que faut-il vérifier en relisant une description ? | L’ordre des détails et les accords des adjectifs. | Seulement la longueur du titre. · Que chaque phrase change de sujet. | La description doit être organisée et grammaticalement correcte. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ?
+
+- ◻️ Son propriétaire est certainement riche.  
+  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+- ✅ Un cahier fermé est posé sur la table.
+- ◻️ Il contient forcément un secret.  
+  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+
+Full working after a second miss:
+
+> L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire.  
+> La réponse est : Un cahier fermé est posé sur la table..  
+
+> Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ?
+
+- ◻️ Il contient forcément un secret.  
+  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+- ◻️ Son propriétaire est certainement riche.  
+  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+- ✅ Un cahier fermé est posé sur la table.
+
+Full working after a second miss:
+
+> L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire.  
+> La réponse est : Un cahier fermé est posé sur la table..  
+
+> Que faut-il vérifier en relisant une description ?
+
+- ◻️ Seulement la longueur du titre.  
+  _↳ feedback if chosen: La description doit être organisée et grammaticalement correcte._
+- ◻️ Que chaque phrase change de sujet.  
+  _↳ feedback if chosen: La description doit être organisée et grammaticalement correcte._
+- ✅ L’ordre des détails et les accords des adjectifs.
+
+Full working after a second miss:
+
+> La description doit être organisée et grammaticalement correcte.  
+> La réponse est : L’ordre des détails et les accords des adjectifs..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-111-etape-1` · Lesson 111 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. À qui la lettre est-elle destinée ? | À la grand-mère de Nji. | Au proviseur. · À un vendeur inconnu. | La première phrase précise la destinataire. |
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel personnage empêche la feuille de s’envoler ? | Bih. | La grand-mère. · Un chauffeur. | Bih pose son cahier sur la feuille. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel personnage empêche la feuille de s’envoler ?
+
+- ◻️ Un chauffeur.  
+  _↳ feedback if chosen: Bih pose son cahier sur la feuille._
+- ✅ Bih.
+- ◻️ La grand-mère.  
+  _↳ feedback if chosen: Bih pose son cahier sur la feuille._
+
+Full working after a second miss:
+
+> Bih pose son cahier sur la feuille.  
+> La réponse est : Bih..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. À qui la lettre est-elle destinée ?
+
+- ◻️ À un vendeur inconnu.  
+  _↳ feedback if chosen: La première phrase précise la destinataire._
+- ◻️ Au proviseur.  
+  _↳ feedback if chosen: La première phrase précise la destinataire._
+- ✅ À la grand-mère de Nji.
+
+Full working after a second miss:
+
+> La première phrase précise la destinataire.  
+> La réponse est : À la grand-mère de Nji..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. À qui la lettre est-elle destinée ?
+
+- ✅ À la grand-mère de Nji.
+- ◻️ À un vendeur inconnu.  
+  _↳ feedback if chosen: La première phrase précise la destinataire._
+- ◻️ Au proviseur.  
+  _↳ feedback if chosen: La première phrase précise la destinataire._
+
+Full working after a second miss:
+
+> La première phrase précise la destinataire.  
+> La réponse est : À la grand-mère de Nji..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-111-etape-2` · Lesson 111 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ? | Une rafale fait tomber la lettre. | Nji achète un ordinateur. · La grand-mère arrive en avion. | La rafale déclenche le problème à résoudre. |
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ? | Bih pose son cahier sur la lettre. | Nji déchire la lettre. · Bih quitte la cour. | Le cahier empêche la feuille de continuer à s’envoler. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?
+
+- ◻️ Nji achète un ordinateur.  
+  _↳ feedback if chosen: La rafale déclenche le problème à résoudre._
+- ◻️ La grand-mère arrive en avion.  
+  _↳ feedback if chosen: La rafale déclenche le problème à résoudre._
+- ✅ Une rafale fait tomber la lettre.
+
+Full working after a second miss:
+
+> La rafale déclenche le problème à résoudre.  
+> La réponse est : Une rafale fait tomber la lettre..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?
+
+- ✅ Bih pose son cahier sur la lettre.
+- ◻️ Nji déchire la lettre.  
+  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
+- ◻️ Bih quitte la cour.  
+  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
+
+Full working after a second miss:
+
+> Le cahier empêche la feuille de continuer à s’envoler.  
+> La réponse est : Bih pose son cahier sur la lettre..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?
+
+- ✅ Bih pose son cahier sur la lettre.
+- ◻️ Nji déchire la lettre.  
+  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
+- ◻️ Bih quitte la cour.  
+  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
+
+Full working after a second miss:
+
+> Le cahier empêche la feuille de continuer à s’envoler.  
+> La réponse est : Bih pose son cahier sur la lettre..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-111-etape-3` · Lesson 111 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ? | Un petit geste peut rendre service. | Il faut cacher les lettres des autres. · Le vent rend tout effort inutile. | Le récit le montre par le geste simple de Bih. |
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ? | Non, le texte ne le donne pas. | Oui, elle annonce forcément un mariage. · Oui, elle contient forcément de l’argent. | Il ne faut pas inventer une information absente du récit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ?
+
+- ✅ Un petit geste peut rendre service.
+- ◻️ Il faut cacher les lettres des autres.  
+  _↳ feedback if chosen: Le récit le montre par le geste simple de Bih._
+- ◻️ Le vent rend tout effort inutile.  
+  _↳ feedback if chosen: Le récit le montre par le geste simple de Bih._
+
+Full working after a second miss:
+
+> Le récit le montre par le geste simple de Bih.  
+> La réponse est : Un petit geste peut rendre service..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ?
+
+- ✅ Un petit geste peut rendre service.
+- ◻️ Il faut cacher les lettres des autres.  
+  _↳ feedback if chosen: Le récit le montre par le geste simple de Bih._
+- ◻️ Le vent rend tout effort inutile.  
+  _↳ feedback if chosen: Le récit le montre par le geste simple de Bih._
+
+Full working after a second miss:
+
+> Le récit le montre par le geste simple de Bih.  
+> La réponse est : Un petit geste peut rendre service..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?
+
+- ◻️ Oui, elle annonce forcément un mariage.  
+  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
+- ◻️ Oui, elle contient forcément de l’argent.  
+  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
+- ✅ Non, le texte ne le donne pas.
+
+Full working after a second miss:
+
+> Il ne faut pas inventer une information absente du récit.  
+> La réponse est : Non, le texte ne le donne pas..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-111-etape-2-card` · Lesson 111 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ? | Une rafale fait tomber la lettre. | Nji achète un ordinateur. · La grand-mère arrive en avion. | La rafale déclenche le problème à résoudre. |
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ? | Bih pose son cahier sur la lettre. | Nji déchire la lettre. · Bih quitte la cour. | Le cahier empêche la feuille de continuer à s’envoler. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?
+
+- ◻️ La grand-mère arrive en avion.  
+  _↳ feedback if chosen: La rafale déclenche le problème à résoudre._
+- ◻️ Nji achète un ordinateur.  
+  _↳ feedback if chosen: La rafale déclenche le problème à résoudre._
+- ✅ Une rafale fait tomber la lettre.
+
+Full working after a second miss:
+
+> La rafale déclenche le problème à résoudre.  
+> La réponse est : Une rafale fait tomber la lettre..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?
+
+- ◻️ Bih quitte la cour.  
+  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
+- ◻️ Nji déchire la lettre.  
+  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
+- ✅ Bih pose son cahier sur la lettre.
+
+Full working after a second miss:
+
+> Le cahier empêche la feuille de continuer à s’envoler.  
+> La réponse est : Bih pose son cahier sur la lettre..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?
+
+- ◻️ La grand-mère arrive en avion.  
+  _↳ feedback if chosen: La rafale déclenche le problème à résoudre._
+- ◻️ Nji achète un ordinateur.  
+  _↳ feedback if chosen: La rafale déclenche le problème à résoudre._
+- ✅ Une rafale fait tomber la lettre.
+
+Full working after a second miss:
+
+> La rafale déclenche le problème à résoudre.  
+> La réponse est : Une rafale fait tomber la lettre..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-111-etape-3-card` · Lesson 111 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ? | Un petit geste peut rendre service. | Il faut cacher les lettres des autres. · Le vent rend tout effort inutile. | Le récit le montre par le geste simple de Bih. |
+| Récit original — Le message envolé
+Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ? | Non, le texte ne le donne pas. | Oui, elle annonce forcément un mariage. · Oui, elle contient forcément de l’argent. | Il ne faut pas inventer une information absente du récit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?
+
+- ✅ Non, le texte ne le donne pas.
+- ◻️ Oui, elle annonce forcément un mariage.  
+  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
+- ◻️ Oui, elle contient forcément de l’argent.  
+  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
+
+Full working after a second miss:
+
+> Il ne faut pas inventer une information absente du récit.  
+> La réponse est : Non, le texte ne le donne pas..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ?
+
+- ◻️ Il faut cacher les lettres des autres.  
+  _↳ feedback if chosen: Le récit le montre par le geste simple de Bih._
+- ✅ Un petit geste peut rendre service.
+- ◻️ Le vent rend tout effort inutile.  
+  _↳ feedback if chosen: Le récit le montre par le geste simple de Bih._
+
+Full working after a second miss:
+
+> Le récit le montre par le geste simple de Bih.  
+> La réponse est : Un petit geste peut rendre service..  
+
+> Récit original — Le message envolé
+> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ?
+
+- ◻️ Le vent rend tout effort inutile.  
+  _↳ feedback if chosen: Le récit le montre par le geste simple de Bih._
+- ✅ Un petit geste peut rendre service.
+- ◻️ Il faut cacher les lettres des autres.  
+  _↳ feedback if chosen: Le récit le montre par le geste simple de Bih._
+
+Full working after a second miss:
+
+> Le récit le montre par le geste simple de Bih.  
+> La réponse est : Un petit geste peut rendre service..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-112-etape-1` · Lesson 112 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Bih et Nji ___ . | écrivent | écrit · écris | Bih et Nji correspondent à ils ou elles : pluriel. |
+| Complète : Le journal et la radio ___ la nouvelle. | annoncent | annonce · annonces | Les deux sujets reliés par et commandent annoncent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Le journal et la radio ___ la nouvelle.
+
+- ◻️ annonces  
+  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
+- ◻️ annonce  
+  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
+- ✅ annoncent
+
+Full working after a second miss:
+
+> Les deux sujets reliés par et commandent annoncent.  
+> La réponse est : annoncent.  
+
+> Complète : Le journal et la radio ___ la nouvelle.
+
+- ✅ annoncent
+- ◻️ annonces  
+  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
+- ◻️ annonce  
+  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
+
+Full working after a second miss:
+
+> Les deux sujets reliés par et commandent annoncent.  
+> La réponse est : annoncent.  
+
+> Complète : Le journal et la radio ___ la nouvelle.
+
+- ◻️ annonce  
+  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
+- ✅ annoncent
+- ◻️ annonces  
+  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
+
+Full working after a second miss:
+
+> Les deux sujets reliés par et commandent annoncent.  
+> La réponse est : annoncent.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-112-etape-2` · Lesson 112 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Bih et moi ___ un article. | préparons | préparent · préparez | Moi inclut le locuteur : nous préparons. |
+| Quel pronom remplace Nji et moi ? | Nous | Vous · Ils seulement | Moi et une autre personne forment nous. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Bih et moi ___ un article.
+
+- ◻️ préparent  
+  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
+- ✅ préparons
+- ◻️ préparez  
+  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
+
+Full working after a second miss:
+
+> Moi inclut le locuteur : nous préparons.  
+> La réponse est : préparons.  
+
+> Quel pronom remplace Nji et moi ?
+
+- ◻️ Ils seulement  
+  _↳ feedback if chosen: Moi et une autre personne forment nous._
+- ✅ Nous
+- ◻️ Vous  
+  _↳ feedback if chosen: Moi et une autre personne forment nous._
+
+Full working after a second miss:
+
+> Moi et une autre personne forment nous.  
+> La réponse est : Nous.  
+
+> Quel pronom remplace Nji et moi ?
+
+- ✅ Nous
+- ◻️ Ils seulement  
+  _↳ feedback if chosen: Moi et une autre personne forment nous._
+- ◻️ Vous  
+  _↳ feedback if chosen: Moi et une autre personne forment nous._
+
+Full working after a second miss:
+
+> Moi et une autre personne forment nous.  
+> La réponse est : Nous.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-112-etape-3` · Lesson 112 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Nji et toi ___ le bulletin. | préparez | préparons · préparent | Toi et une autre personne correspondent à vous. |
+| Quelle phrase est correcte ? | Le journaliste et moi vérifions la source. | Le journaliste et moi vérifie la source. · Le journaliste et moi vérifiez la source. | Le groupe contient moi : on emploie nous vérifions. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Nji et toi ___ le bulletin.
+
+- ◻️ préparent  
+  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
+- ✅ préparez
+- ◻️ préparons  
+  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
+
+Full working after a second miss:
+
+> Toi et une autre personne correspondent à vous.  
+> La réponse est : préparez.  
+
+> Complète : Nji et toi ___ le bulletin.
+
+- ◻️ préparons  
+  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
+- ✅ préparez
+- ◻️ préparent  
+  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
+
+Full working after a second miss:
+
+> Toi et une autre personne correspondent à vous.  
+> La réponse est : préparez.  
+
+> Quelle phrase est correcte ?
+
+- ◻️ Le journaliste et moi vérifie la source.  
+  _↳ feedback if chosen: Le groupe contient moi : on emploie nous vérifions._
+- ◻️ Le journaliste et moi vérifiez la source.  
+  _↳ feedback if chosen: Le groupe contient moi : on emploie nous vérifions._
+- ✅ Le journaliste et moi vérifions la source.
+
+Full working after a second miss:
+
+> Le groupe contient moi : on emploie nous vérifions.  
+> La réponse est : Le journaliste et moi vérifions la source..  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-112-etape-2-card` · Lesson 112 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Bih et moi ___ un article. | préparons | préparent · préparez | Moi inclut le locuteur : nous préparons. |
+| Quel pronom remplace Nji et moi ? | Nous | Vous · Ils seulement | Moi et une autre personne forment nous. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Complète : Bih et moi ___ un article.
+
+- ✅ préparons
+- ◻️ préparent  
+  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
+- ◻️ préparez  
+  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
+
+Full working after a second miss:
+
+> Moi inclut le locuteur : nous préparons.  
+> La réponse est : préparons.  
+
+> Complète : Bih et moi ___ un article.
+
+- ◻️ préparez  
+  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
+- ◻️ préparent  
+  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
+- ✅ préparons
+
+Full working after a second miss:
+
+> Moi inclut le locuteur : nous préparons.  
+> La réponse est : préparons.  
+
+> Complète : Bih et moi ___ un article.
+
+- ◻️ préparent  
+  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
+- ✅ préparons
+- ◻️ préparez  
+  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
+
+Full working after a second miss:
+
+> Moi inclut le locuteur : nous préparons.  
+> La réponse est : préparons.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-112-etape-3-card` · Lesson 112 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Nji et toi ___ le bulletin. | préparez | préparons · préparent | Toi et une autre personne correspondent à vous. |
+| Quelle phrase est correcte ? | Le journaliste et moi vérifions la source. | Le journaliste et moi vérifie la source. · Le journaliste et moi vérifiez la source. | Le groupe contient moi : on emploie nous vérifions. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase est correcte ?
+
+- ◻️ Le journaliste et moi vérifiez la source.  
+  _↳ feedback if chosen: Le groupe contient moi : on emploie nous vérifions._
+- ✅ Le journaliste et moi vérifions la source.
+- ◻️ Le journaliste et moi vérifie la source.  
+  _↳ feedback if chosen: Le groupe contient moi : on emploie nous vérifions._
+
+Full working after a second miss:
+
+> Le groupe contient moi : on emploie nous vérifions.  
+> La réponse est : Le journaliste et moi vérifions la source..  
+
+> Quelle phrase est correcte ?
+
+- ◻️ Le journaliste et moi vérifiez la source.  
+  _↳ feedback if chosen: Le groupe contient moi : on emploie nous vérifions._
+- ◻️ Le journaliste et moi vérifie la source.  
+  _↳ feedback if chosen: Le groupe contient moi : on emploie nous vérifions._
+- ✅ Le journaliste et moi vérifions la source.
+
+Full working after a second miss:
+
+> Le groupe contient moi : on emploie nous vérifions.  
+> La réponse est : Le journaliste et moi vérifions la source..  
+
+> Complète : Nji et toi ___ le bulletin.
+
+- ✅ préparez
+- ◻️ préparent  
+  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
+- ◻️ préparons  
+  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
+
+Full working after a second miss:
+
+> Toi et une autre personne correspondent à vous.  
+> La réponse est : préparez.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-113-emploi` · Lesson 113 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ? | Elle a fini avant de partir. | Elle est partie avant de finir. · Les deux verbes sont au futur. | Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit. |
+| Quelle forme suit la construction du passé antérieur ? | Nous eûmes terminé. | Nous avions terminé. · Nous avons terminé. | Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ?
+
+- ◻️ Elle est partie avant de finir.  
+  _↳ feedback if chosen: Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit._
+- ◻️ Les deux verbes sont au futur.  
+  _↳ feedback if chosen: Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit._
+- ✅ Elle a fini avant de partir.
+
+Full working after a second miss:
+
+> Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit.  
+> La réponse est : Elle a fini avant de partir..  
+
+> Quelle forme suit la construction du passé antérieur ?
+
+- ✅ Nous eûmes terminé.
+- ◻️ Nous avions terminé.  
+  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
+- ◻️ Nous avons terminé.  
+  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
+
+Full working after a second miss:
+
+> Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur.  
+> La réponse est : Nous eûmes terminé..  
+
+> Quelle forme suit la construction du passé antérieur ?
+
+- ◻️ Nous avions terminé.  
+  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
+- ◻️ Nous avons terminé.  
+  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
+- ✅ Nous eûmes terminé.
+
+Full working after a second miss:
+
+> Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur.  
+> La réponse est : Nous eûmes terminé..  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-113-emploi-card` · Lesson 113 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ? | Elle a fini avant de partir. | Elle est partie avant de finir. · Les deux verbes sont au futur. | Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit. |
+| Quelle forme suit la construction du passé antérieur ? | Nous eûmes terminé. | Nous avions terminé. · Nous avons terminé. | Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ?
+
+- ✅ Elle a fini avant de partir.
+- ◻️ Les deux verbes sont au futur.  
+  _↳ feedback if chosen: Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit._
+- ◻️ Elle est partie avant de finir.  
+  _↳ feedback if chosen: Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit._
+
+Full working after a second miss:
+
+> Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit.  
+> La réponse est : Elle a fini avant de partir..  
+
+> Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ?
+
+- ✅ Elle a fini avant de partir.
+- ◻️ Les deux verbes sont au futur.  
+  _↳ feedback if chosen: Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit._
+- ◻️ Elle est partie avant de finir.  
+  _↳ feedback if chosen: Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit._
+
+Full working after a second miss:
+
+> Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit.  
+> La réponse est : Elle a fini avant de partir..  
+
+> Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ?
+
+- ✅ Elle a fini avant de partir.
+- ◻️ Les deux verbes sont au futur.  
+  _↳ feedback if chosen: Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit._
+- ◻️ Elle est partie avant de finir.  
+  _↳ feedback if chosen: Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit._
+
+Full working after a second miss:
+
+> Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit.  
+> La réponse est : Elle a fini avant de partir..  
+
+Sources: conjugaison (Conjugaison : imparfait, passé composé, passé simple, participe présent et gérondif ; reconnaître les temps ; tables de Bescherelle (usage scolaire courant))
+
+### `fi2-114-etape-1` · Lesson 114 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel mot appartient à la série étudiée ? | nature | pain · brun | Le mot nature appartient aux modèles de la leçon. |
+| Quel autre mot appartient à cette série ? | navire | brun · pain | Le mot navire appartient à la même série de modèles. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel autre mot appartient à cette série ?
+
+- ✅ navire
+- ◻️ pain  
+  _↳ feedback if chosen: Le mot navire appartient à la même série de modèles._
+- ◻️ brun  
+  _↳ feedback if chosen: Le mot navire appartient à la même série de modèles._
+
+Full working after a second miss:
+
+> Le mot navire appartient à la même série de modèles.  
+> La réponse est : navire.  
+
+> Quel mot appartient à la série étudiée ?
+
+- ◻️ pain  
+  _↳ feedback if chosen: Le mot nature appartient aux modèles de la leçon._
+- ✅ nature
+- ◻️ brun  
+  _↳ feedback if chosen: Le mot nature appartient aux modèles de la leçon._
+
+Full working after a second miss:
+
+> Le mot nature appartient aux modèles de la leçon.  
+> La réponse est : nature.  
+
+> Quel autre mot appartient à cette série ?
+
+- ◻️ brun  
+  _↳ feedback if chosen: Le mot navire appartient à la même série de modèles._
+- ◻️ pain  
+  _↳ feedback if chosen: Le mot navire appartient à la même série de modèles._
+- ✅ navire
+
+Full working after a second miss:
+
+> Le mot navire appartient à la même série de modèles.  
+> La réponse est : navire.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-114-etape-2` · Lesson 114 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que peut vérifier cet exercice ? | Le repérage écrit des mots modèles. | L’enregistrement de ta voix. · La qualité de ton accent. | L’application ne capte pas la voix du lecteur. |
+| Qui peut fournir un modèle oral ? | Un enseignant qui lit les mots. | Le nombre de lettres seul. · Un score écrit sans audio. | Une prononciation doit être entendue et pratiquée oralement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que peut vérifier cet exercice ?
+
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ◻️ La qualité de ton accent.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ✅ Le repérage écrit des mots modèles.
+
+Full working after a second miss:
+
+> L’application ne capte pas la voix du lecteur.  
+> La réponse est : Le repérage écrit des mots modèles..  
+
+> Qui peut fournir un modèle oral ?
+
+- ✅ Un enseignant qui lit les mots.
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+> Qui peut fournir un modèle oral ?
+
+- ✅ Un enseignant qui lit les mots.
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-114-etape-3` · Lesson 114 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient uniquement les mots modèles ? | nature, navire | pain, brun · nature, pain | Les deux mots doivent appartenir à la série étudiée. |
+| Quel conseil respecte les différences d’accent ? | Suivre le modèle oral donné en classe. | Faire noter sa voix par cet exercice écrit. · Déclarer faux tout accent différent. | Le professeur adapte le modèle oral à l’enseignement de la classe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ◻️ pain, brun  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ nature, pain  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ✅ nature, navire
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : nature, navire.  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ✅ Suivre le modèle oral donné en classe.
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+
+Full working after a second miss:
+
+> Le professeur adapte le modèle oral à l’enseignement de la classe.  
+> La réponse est : Suivre le modèle oral donné en classe..  
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ◻️ nature, pain  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ pain, brun  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ✅ nature, navire
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : nature, navire.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-114-etape-2-card` · Lesson 114 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que peut vérifier cet exercice ? | Le repérage écrit des mots modèles. | L’enregistrement de ta voix. · La qualité de ton accent. | L’application ne capte pas la voix du lecteur. |
+| Qui peut fournir un modèle oral ? | Un enseignant qui lit les mots. | Le nombre de lettres seul. · Un score écrit sans audio. | Une prononciation doit être entendue et pratiquée oralement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Qui peut fournir un modèle oral ?
+
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ✅ Un enseignant qui lit les mots.
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+> Que peut vérifier cet exercice ?
+
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ✅ Le repérage écrit des mots modèles.
+- ◻️ La qualité de ton accent.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+
+Full working after a second miss:
+
+> L’application ne capte pas la voix du lecteur.  
+> La réponse est : Le repérage écrit des mots modèles..  
+
+> Qui peut fournir un modèle oral ?
+
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ✅ Un enseignant qui lit les mots.
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-114-etape-3-card` · Lesson 114 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient uniquement les mots modèles ? | nature, navire | pain, brun · nature, pain | Les deux mots doivent appartenir à la série étudiée. |
+| Quel conseil respecte les différences d’accent ? | Suivre le modèle oral donné en classe. | Faire noter sa voix par cet exercice écrit. · Déclarer faux tout accent différent. | Le professeur adapte le modèle oral à l’enseignement de la classe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ◻️ nature, pain  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ pain, brun  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ✅ nature, navire
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : nature, navire.  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ✅ Suivre le modèle oral donné en classe.
+
+Full working after a second miss:
+
+> Le professeur adapte le modèle oral à l’enseignement de la classe.  
+> La réponse est : Suivre le modèle oral donné en classe..  
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ◻️ nature, pain  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ✅ nature, navire
+- ◻️ pain, brun  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : nature, navire.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-115-etape-1` · Lesson 115 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Comment appelle-t-on la présentation d’un utilisateur ? | Un profil. | Une imprimante. · Un câble. | Le profil regroupe les informations présentées sur l’utilisateur. |
+| Un contenu partagé sur le réseau est… | une publication. | un clavier. · un chargeur. | Une publication peut contenir du texte, du son ou une image. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un contenu partagé sur le réseau est…
+
+- ✅ une publication.
+- ◻️ un clavier.  
+  _↳ feedback if chosen: Une publication peut contenir du texte, du son ou une image._
+- ◻️ un chargeur.  
+  _↳ feedback if chosen: Une publication peut contenir du texte, du son ou une image._
+
+Full working after a second miss:
+
+> Une publication peut contenir du texte, du son ou une image.  
+> La réponse est : une publication..  
+
+> Comment appelle-t-on la présentation d’un utilisateur ?
+
+- ◻️ Une imprimante.  
+  _↳ feedback if chosen: Le profil regroupe les informations présentées sur l’utilisateur._
+- ✅ Un profil.
+- ◻️ Un câble.  
+  _↳ feedback if chosen: Le profil regroupe les informations présentées sur l’utilisateur._
+
+Full working after a second miss:
+
+> Le profil regroupe les informations présentées sur l’utilisateur.  
+> La réponse est : Un profil..  
+
+> Comment appelle-t-on la présentation d’un utilisateur ?
+
+- ◻️ Un câble.  
+  _↳ feedback if chosen: Le profil regroupe les informations présentées sur l’utilisateur._
+- ✅ Un profil.
+- ◻️ Une imprimante.  
+  _↳ feedback if chosen: Le profil regroupe les informations présentées sur l’utilisateur._
+
+Full working after a second miss:
+
+> Le profil regroupe les informations présentées sur l’utilisateur.  
+> La réponse est : Un profil..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-115-etape-2` · Lesson 115 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un texte écrit en réaction à une publication est… | un commentaire. | une souris. · une batterie. | Le commentaire répond ou réagit au contenu. |
+| S’abonner à un compte permet notamment de… | suivre ses publications. | devenir son propriétaire. · connaître son mot de passe. | Suivre un compte ne donne pas accès à ses secrets ni à sa propriété. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> S’abonner à un compte permet notamment de…
+
+- ◻️ connaître son mot de passe.  
+  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
+- ◻️ devenir son propriétaire.  
+  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
+- ✅ suivre ses publications.
+
+Full working after a second miss:
+
+> Suivre un compte ne donne pas accès à ses secrets ni à sa propriété.  
+> La réponse est : suivre ses publications..  
+
+> S’abonner à un compte permet notamment de…
+
+- ◻️ devenir son propriétaire.  
+  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
+- ✅ suivre ses publications.
+- ◻️ connaître son mot de passe.  
+  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
+
+Full working after a second miss:
+
+> Suivre un compte ne donne pas accès à ses secrets ni à sa propriété.  
+> La réponse est : suivre ses publications..  
+
+> Un texte écrit en réaction à une publication est…
+
+- ◻️ une souris.  
+  _↳ feedback if chosen: Le commentaire répond ou réagit au contenu._
+- ✅ un commentaire.
+- ◻️ une batterie.  
+  _↳ feedback if chosen: Le commentaire répond ou réagit au contenu._
+
+Full working after a second miss:
+
+> Le commentaire répond ou réagit au contenu.  
+> La réponse est : un commentaire..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-115-etape-3` · Lesson 115 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un message privé est-il impossible à retransmettre ? | Non, son destinataire peut le copier ou le transférer. | Oui, toujours. · Oui, s’il est court. | Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité. |
+| Avant de partager une nouvelle, il faut… | vérifier l’information et respecter les personnes. | ajouter une accusation sans preuve. · publier l’adresse d’un camarade. | On vérifie les faits et on respecte la vie privée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un message privé est-il impossible à retransmettre ?
+
+- ✅ Non, son destinataire peut le copier ou le transférer.
+- ◻️ Oui, toujours.  
+  _↳ feedback if chosen: Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité._
+- ◻️ Oui, s’il est court.  
+  _↳ feedback if chosen: Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité._
+
+Full working after a second miss:
+
+> Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité.  
+> La réponse est : Non, son destinataire peut le copier ou le transférer..  
+
+> Avant de partager une nouvelle, il faut…
+
+- ✅ vérifier l’information et respecter les personnes.
+- ◻️ publier l’adresse d’un camarade.  
+  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+- ◻️ ajouter une accusation sans preuve.  
+  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+
+Full working after a second miss:
+
+> On vérifie les faits et on respecte la vie privée.  
+> La réponse est : vérifier l’information et respecter les personnes..  
+
+> Avant de partager une nouvelle, il faut…
+
+- ✅ vérifier l’information et respecter les personnes.
+- ◻️ publier l’adresse d’un camarade.  
+  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+- ◻️ ajouter une accusation sans preuve.  
+  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+
+Full working after a second miss:
+
+> On vérifie les faits et on respecte la vie privée.  
+> La réponse est : vérifier l’information et respecter les personnes..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-115-etape-2-card` · Lesson 115 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un texte écrit en réaction à une publication est… | un commentaire. | une souris. · une batterie. | Le commentaire répond ou réagit au contenu. |
+| S’abonner à un compte permet notamment de… | suivre ses publications. | devenir son propriétaire. · connaître son mot de passe. | Suivre un compte ne donne pas accès à ses secrets ni à sa propriété. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> S’abonner à un compte permet notamment de…
+
+- ✅ suivre ses publications.
+- ◻️ connaître son mot de passe.  
+  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
+- ◻️ devenir son propriétaire.  
+  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
+
+Full working after a second miss:
+
+> Suivre un compte ne donne pas accès à ses secrets ni à sa propriété.  
+> La réponse est : suivre ses publications..  
+
+> Un texte écrit en réaction à une publication est…
+
+- ◻️ une batterie.  
+  _↳ feedback if chosen: Le commentaire répond ou réagit au contenu._
+- ◻️ une souris.  
+  _↳ feedback if chosen: Le commentaire répond ou réagit au contenu._
+- ✅ un commentaire.
+
+Full working after a second miss:
+
+> Le commentaire répond ou réagit au contenu.  
+> La réponse est : un commentaire..  
+
+> S’abonner à un compte permet notamment de…
+
+- ✅ suivre ses publications.
+- ◻️ devenir son propriétaire.  
+  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
+- ◻️ connaître son mot de passe.  
+  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
+
+Full working after a second miss:
+
+> Suivre un compte ne donne pas accès à ses secrets ni à sa propriété.  
+> La réponse est : suivre ses publications..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-115-etape-3-card` · Lesson 115 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un message privé est-il impossible à retransmettre ? | Non, son destinataire peut le copier ou le transférer. | Oui, toujours. · Oui, s’il est court. | Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité. |
+| Avant de partager une nouvelle, il faut… | vérifier l’information et respecter les personnes. | ajouter une accusation sans preuve. · publier l’adresse d’un camarade. | On vérifie les faits et on respecte la vie privée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Avant de partager une nouvelle, il faut…
+
+- ✅ vérifier l’information et respecter les personnes.
+- ◻️ ajouter une accusation sans preuve.  
+  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+- ◻️ publier l’adresse d’un camarade.  
+  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+
+Full working after a second miss:
+
+> On vérifie les faits et on respecte la vie privée.  
+> La réponse est : vérifier l’information et respecter les personnes..  
+
+> Un message privé est-il impossible à retransmettre ?
+
+- ◻️ Oui, s’il est court.  
+  _↳ feedback if chosen: Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité._
+- ✅ Non, son destinataire peut le copier ou le transférer.
+- ◻️ Oui, toujours.  
+  _↳ feedback if chosen: Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité._
+
+Full working after a second miss:
+
+> Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité.  
+> La réponse est : Non, son destinataire peut le copier ou le transférer..  
+
+> Avant de partager une nouvelle, il faut…
+
+- ✅ vérifier l’information et respecter les personnes.
+- ◻️ ajouter une accusation sans preuve.  
+  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+- ◻️ publier l’adresse d’un camarade.  
+  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+
+Full working after a second miss:
+
+> On vérifie les faits et on respecte la vie privée.  
+> La réponse est : vérifier l’information et respecter les personnes..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-116-etape-1` · Lesson 116 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un élève demande les horaires. Quel est son but ? | Obtenir une information. | Commander un repas sans rapport. · Réciter une liste de couleurs. | Le but est d’obtenir l’horaire demandé. |
+| Qui peut jouer l’autre rôle dans cette scène ? | La personne qui accueille à la bibliothèque. | Un objet qui ne répond pas. · Une publicité sans rapport. | Le second rôle doit pouvoir répondre à la demande. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Qui peut jouer l’autre rôle dans cette scène ?
+
+- ◻️ Un objet qui ne répond pas.  
+  _↳ feedback if chosen: Le second rôle doit pouvoir répondre à la demande._
+- ◻️ Une publicité sans rapport.  
+  _↳ feedback if chosen: Le second rôle doit pouvoir répondre à la demande._
+- ✅ La personne qui accueille à la bibliothèque.
+
+Full working after a second miss:
+
+> Le second rôle doit pouvoir répondre à la demande.  
+> La réponse est : La personne qui accueille à la bibliothèque..  
+
+> Qui peut jouer l’autre rôle dans cette scène ?
+
+- ◻️ Un objet qui ne répond pas.  
+  _↳ feedback if chosen: Le second rôle doit pouvoir répondre à la demande._
+- ◻️ Une publicité sans rapport.  
+  _↳ feedback if chosen: Le second rôle doit pouvoir répondre à la demande._
+- ✅ La personne qui accueille à la bibliothèque.
+
+Full working after a second miss:
+
+> Le second rôle doit pouvoir répondre à la demande.  
+> La réponse est : La personne qui accueille à la bibliothèque..  
+
+> Un élève demande les horaires. Quel est son but ?
+
+- ◻️ Réciter une liste de couleurs.  
+  _↳ feedback if chosen: Le but est d’obtenir l’horaire demandé._
+- ✅ Obtenir une information.
+- ◻️ Commander un repas sans rapport.  
+  _↳ feedback if chosen: Le but est d’obtenir l’horaire demandé._
+
+Full working after a second miss:
+
+> Le but est d’obtenir l’horaire demandé.  
+> La réponse est : Obtenir une information..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-116-etape-2` · Lesson 116 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Ton interlocuteur parle trop vite. Que peux-tu dire ? | Pourriez-vous répéter plus lentement ? | Je réponds à une autre question. · Je prétends avoir tout compris. | Une demande polie de répétition aide à comprendre. |
+| La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ? | Merci. À quelle heure ouvre-t-elle ? | La pluie tombe loin d’ici. · Je refuse d’écouter votre réponse. | La question précise l’information annoncée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ?
+
+- ◻️ La pluie tombe loin d’ici.  
+  _↳ feedback if chosen: La question précise l’information annoncée._
+- ◻️ Je refuse d’écouter votre réponse.  
+  _↳ feedback if chosen: La question précise l’information annoncée._
+- ✅ Merci. À quelle heure ouvre-t-elle ?
+
+Full working after a second miss:
+
+> La question précise l’information annoncée.  
+> La réponse est : Merci. À quelle heure ouvre-t-elle ?.  
+
+> La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ?
+
+- ◻️ La pluie tombe loin d’ici.  
+  _↳ feedback if chosen: La question précise l’information annoncée._
+- ◻️ Je refuse d’écouter votre réponse.  
+  _↳ feedback if chosen: La question précise l’information annoncée._
+- ✅ Merci. À quelle heure ouvre-t-elle ?
+
+Full working after a second miss:
+
+> La question précise l’information annoncée.  
+> La réponse est : Merci. À quelle heure ouvre-t-elle ?.  
+
+> Ton interlocuteur parle trop vite. Que peux-tu dire ?
+
+- ◻️ Je prétends avoir tout compris.  
+  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
+- ◻️ Je réponds à une autre question.  
+  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
+- ✅ Pourriez-vous répéter plus lentement ?
+
+Full working after a second miss:
+
+> Une demande polie de répétition aide à comprendre.  
+> La réponse est : Pourriez-vous répéter plus lentement ?.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-116-etape-3` · Lesson 116 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase vérifie la compréhension ? | Si j’ai bien compris, je peux venir demain après-midi. | Je n’écoute jamais les réponses. · Je change les horaires à ma guise. | La reformulation permet de confirmer l’information. |
+| Que peut évaluer un partenaire pendant le jeu ? | La clarté, l’écoute et la politesse. | Seulement la couleur du cahier. · La réussite d’un compte Internet. | Ces critères concernent une communication réelle. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase vérifie la compréhension ?
+
+- ◻️ Je change les horaires à ma guise.  
+  _↳ feedback if chosen: La reformulation permet de confirmer l’information._
+- ✅ Si j’ai bien compris, je peux venir demain après-midi.
+- ◻️ Je n’écoute jamais les réponses.  
+  _↳ feedback if chosen: La reformulation permet de confirmer l’information._
+
+Full working after a second miss:
+
+> La reformulation permet de confirmer l’information.  
+> La réponse est : Si j’ai bien compris, je peux venir demain après-midi..  
+
+> Quelle phrase vérifie la compréhension ?
+
+- ◻️ Je n’écoute jamais les réponses.  
+  _↳ feedback if chosen: La reformulation permet de confirmer l’information._
+- ◻️ Je change les horaires à ma guise.  
+  _↳ feedback if chosen: La reformulation permet de confirmer l’information._
+- ✅ Si j’ai bien compris, je peux venir demain après-midi.
+
+Full working after a second miss:
+
+> La reformulation permet de confirmer l’information.  
+> La réponse est : Si j’ai bien compris, je peux venir demain après-midi..  
+
+> Que peut évaluer un partenaire pendant le jeu ?
+
+- ◻️ La réussite d’un compte Internet.  
+  _↳ feedback if chosen: Ces critères concernent une communication réelle._
+- ✅ La clarté, l’écoute et la politesse.
+- ◻️ Seulement la couleur du cahier.  
+  _↳ feedback if chosen: Ces critères concernent une communication réelle._
+
+Full working after a second miss:
+
+> Ces critères concernent une communication réelle.  
+> La réponse est : La clarté, l’écoute et la politesse..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-116-etape-2-card` · Lesson 116 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Ton interlocuteur parle trop vite. Que peux-tu dire ? | Pourriez-vous répéter plus lentement ? | Je réponds à une autre question. · Je prétends avoir tout compris. | Une demande polie de répétition aide à comprendre. |
+| La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ? | Merci. À quelle heure ouvre-t-elle ? | La pluie tombe loin d’ici. · Je refuse d’écouter votre réponse. | La question précise l’information annoncée. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Ton interlocuteur parle trop vite. Que peux-tu dire ?
+
+- ◻️ Je réponds à une autre question.  
+  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
+- ◻️ Je prétends avoir tout compris.  
+  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
+- ✅ Pourriez-vous répéter plus lentement ?
+
+Full working after a second miss:
+
+> Une demande polie de répétition aide à comprendre.  
+> La réponse est : Pourriez-vous répéter plus lentement ?.  
+
+> La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ?
+
+- ✅ Merci. À quelle heure ouvre-t-elle ?
+- ◻️ La pluie tombe loin d’ici.  
+  _↳ feedback if chosen: La question précise l’information annoncée._
+- ◻️ Je refuse d’écouter votre réponse.  
+  _↳ feedback if chosen: La question précise l’information annoncée._
+
+Full working after a second miss:
+
+> La question précise l’information annoncée.  
+> La réponse est : Merci. À quelle heure ouvre-t-elle ?.  
+
+> Ton interlocuteur parle trop vite. Que peux-tu dire ?
+
+- ◻️ Je prétends avoir tout compris.  
+  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
+- ✅ Pourriez-vous répéter plus lentement ?
+- ◻️ Je réponds à une autre question.  
+  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
+
+Full working after a second miss:
+
+> Une demande polie de répétition aide à comprendre.  
+> La réponse est : Pourriez-vous répéter plus lentement ?.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-116-etape-3-card` · Lesson 116 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase vérifie la compréhension ? | Si j’ai bien compris, je peux venir demain après-midi. | Je n’écoute jamais les réponses. · Je change les horaires à ma guise. | La reformulation permet de confirmer l’information. |
+| Que peut évaluer un partenaire pendant le jeu ? | La clarté, l’écoute et la politesse. | Seulement la couleur du cahier. · La réussite d’un compte Internet. | Ces critères concernent une communication réelle. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que peut évaluer un partenaire pendant le jeu ?
+
+- ◻️ Seulement la couleur du cahier.  
+  _↳ feedback if chosen: Ces critères concernent une communication réelle._
+- ◻️ La réussite d’un compte Internet.  
+  _↳ feedback if chosen: Ces critères concernent une communication réelle._
+- ✅ La clarté, l’écoute et la politesse.
+
+Full working after a second miss:
+
+> Ces critères concernent une communication réelle.  
+> La réponse est : La clarté, l’écoute et la politesse..  
+
+> Que peut évaluer un partenaire pendant le jeu ?
+
+- ◻️ Seulement la couleur du cahier.  
+  _↳ feedback if chosen: Ces critères concernent une communication réelle._
+- ✅ La clarté, l’écoute et la politesse.
+- ◻️ La réussite d’un compte Internet.  
+  _↳ feedback if chosen: Ces critères concernent une communication réelle._
+
+Full working after a second miss:
+
+> Ces critères concernent une communication réelle.  
+> La réponse est : La clarté, l’écoute et la politesse..  
+
+> Que peut évaluer un partenaire pendant le jeu ?
+
+- ◻️ Seulement la couleur du cahier.  
+  _↳ feedback if chosen: Ces critères concernent une communication réelle._
+- ◻️ La réussite d’un compte Internet.  
+  _↳ feedback if chosen: Ces critères concernent une communication réelle._
+- ✅ La clarté, l’écoute et la politesse.
+
+Full working after a second miss:
+
+> Ces critères concernent une communication réelle.  
+> La réponse est : La clarté, l’écoute et la politesse..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-117-etape-1` · Lesson 117 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel détail appartient au portrait physique ? | Elle porte une veste bleue. | Elle est patiente. · Elle aide volontiers. | La veste est un détail visible de l’apparence. |
+| Quel détail appartient au portrait moral ? | Il est patient. | Il porte un chapeau. · Ses chaussures sont noires. | La patience est un trait de caractère. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel détail appartient au portrait moral ?
+
+- ✅ Il est patient.
+- ◻️ Ses chaussures sont noires.  
+  _↳ feedback if chosen: La patience est un trait de caractère._
+- ◻️ Il porte un chapeau.  
+  _↳ feedback if chosen: La patience est un trait de caractère._
+
+Full working after a second miss:
+
+> La patience est un trait de caractère.  
+> La réponse est : Il est patient..  
+
+> Quel détail appartient au portrait moral ?
+
+- ◻️ Ses chaussures sont noires.  
+  _↳ feedback if chosen: La patience est un trait de caractère._
+- ✅ Il est patient.
+- ◻️ Il porte un chapeau.  
+  _↳ feedback if chosen: La patience est un trait de caractère._
+
+Full working after a second miss:
+
+> La patience est un trait de caractère.  
+> La réponse est : Il est patient..  
+
+> Quel détail appartient au portrait physique ?
+
+- ◻️ Elle est patiente.  
+  _↳ feedback if chosen: La veste est un détail visible de l’apparence._
+- ✅ Elle porte une veste bleue.
+- ◻️ Elle aide volontiers.  
+  _↳ feedback if chosen: La veste est un détail visible de l’apparence._
+
+Full working after a second miss:
+
+> La veste est un détail visible de l’apparence.  
+> La réponse est : Elle porte une veste bleue..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-117-etape-2` · Lesson 117 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Nji attend calmement que chacun termine. Quel trait est illustré ? | La patience. | La brutalité. · La taille physique. | Attendre calmement est un indice de patience. |
+| Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ? | Elle est serviable. | Elle est forcément riche. · Elle est forcément la plus âgée. | Le geste d’aide soutient serviable, mais pas la richesse ni l’âge. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?
+
+- ◻️ Elle est forcément la plus âgée.  
+  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
+- ◻️ Elle est forcément riche.  
+  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
+- ✅ Elle est serviable.
+
+Full working after a second miss:
+
+> Le geste d’aide soutient serviable, mais pas la richesse ni l’âge.  
+> La réponse est : Elle est serviable..  
+
+> Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?
+
+- ◻️ Elle est forcément riche.  
+  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
+- ◻️ Elle est forcément la plus âgée.  
+  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
+- ✅ Elle est serviable.
+
+Full working after a second miss:
+
+> Le geste d’aide soutient serviable, mais pas la richesse ni l’âge.  
+> La réponse est : Elle est serviable..  
+
+> Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?
+
+- ◻️ Elle est forcément la plus âgée.  
+  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
+- ✅ Elle est serviable.
+- ◻️ Elle est forcément riche.  
+  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
+
+Full working after a second miss:
+
+> Le geste d’aide soutient serviable, mais pas la richesse ni l’âge.  
+> La réponse est : Elle est serviable..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-117-etape-3` · Lesson 117 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase peut illustrer un portrait cohérent ? | Elle est serviable : elle aide son voisin. | Elle est toujours immobile : elle court sans arrêt. · Sa veste prouve qu’elle ment. | Le trait moral est appuyé par une action pertinente. |
+| Quelle phrase respecte l’accord ? | Une journaliste attentive pose des questions. | Une journaliste attentif pose des questions. · Une journaliste attentives pose des questions. | Attentive s’accorde avec journaliste au féminin singulier. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase respecte l’accord ?
+
+- ◻️ Une journaliste attentif pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+- ◻️ Une journaliste attentives pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+- ✅ Une journaliste attentive pose des questions.
+
+Full working after a second miss:
+
+> Attentive s’accorde avec journaliste au féminin singulier.  
+> La réponse est : Une journaliste attentive pose des questions..  
+
+> Quelle phrase respecte l’accord ?
+
+- ◻️ Une journaliste attentif pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+- ✅ Une journaliste attentive pose des questions.
+- ◻️ Une journaliste attentives pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+
+Full working after a second miss:
+
+> Attentive s’accorde avec journaliste au féminin singulier.  
+> La réponse est : Une journaliste attentive pose des questions..  
+
+> Quelle phrase peut illustrer un portrait cohérent ?
+
+- ◻️ Elle est toujours immobile : elle court sans arrêt.  
+  _↳ feedback if chosen: Le trait moral est appuyé par une action pertinente._
+- ✅ Elle est serviable : elle aide son voisin.
+- ◻️ Sa veste prouve qu’elle ment.  
+  _↳ feedback if chosen: Le trait moral est appuyé par une action pertinente._
+
+Full working after a second miss:
+
+> Le trait moral est appuyé par une action pertinente.  
+> La réponse est : Elle est serviable : elle aide son voisin..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-117-etape-2-card` · Lesson 117 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Nji attend calmement que chacun termine. Quel trait est illustré ? | La patience. | La brutalité. · La taille physique. | Attendre calmement est un indice de patience. |
+| Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ? | Elle est serviable. | Elle est forcément riche. · Elle est forcément la plus âgée. | Le geste d’aide soutient serviable, mais pas la richesse ni l’âge. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Nji attend calmement que chacun termine. Quel trait est illustré ?
+
+- ◻️ La brutalité.  
+  _↳ feedback if chosen: Attendre calmement est un indice de patience._
+- ✅ La patience.
+- ◻️ La taille physique.  
+  _↳ feedback if chosen: Attendre calmement est un indice de patience._
+
+Full working after a second miss:
+
+> Attendre calmement est un indice de patience.  
+> La réponse est : La patience..  
+
+> Nji attend calmement que chacun termine. Quel trait est illustré ?
+
+- ◻️ La taille physique.  
+  _↳ feedback if chosen: Attendre calmement est un indice de patience._
+- ◻️ La brutalité.  
+  _↳ feedback if chosen: Attendre calmement est un indice de patience._
+- ✅ La patience.
+
+Full working after a second miss:
+
+> Attendre calmement est un indice de patience.  
+> La réponse est : La patience..  
+
+> Nji attend calmement que chacun termine. Quel trait est illustré ?
+
+- ◻️ La taille physique.  
+  _↳ feedback if chosen: Attendre calmement est un indice de patience._
+- ✅ La patience.
+- ◻️ La brutalité.  
+  _↳ feedback if chosen: Attendre calmement est un indice de patience._
+
+Full working after a second miss:
+
+> Attendre calmement est un indice de patience.  
+> La réponse est : La patience..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-117-etape-3-card` · Lesson 117 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase peut illustrer un portrait cohérent ? | Elle est serviable : elle aide son voisin. | Elle est toujours immobile : elle court sans arrêt. · Sa veste prouve qu’elle ment. | Le trait moral est appuyé par une action pertinente. |
+| Quelle phrase respecte l’accord ? | Une journaliste attentive pose des questions. | Une journaliste attentif pose des questions. · Une journaliste attentives pose des questions. | Attentive s’accorde avec journaliste au féminin singulier. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase respecte l’accord ?
+
+- ✅ Une journaliste attentive pose des questions.
+- ◻️ Une journaliste attentives pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+- ◻️ Une journaliste attentif pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+
+Full working after a second miss:
+
+> Attentive s’accorde avec journaliste au féminin singulier.  
+> La réponse est : Une journaliste attentive pose des questions..  
+
+> Quelle phrase respecte l’accord ?
+
+- ◻️ Une journaliste attentif pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+- ◻️ Une journaliste attentives pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+- ✅ Une journaliste attentive pose des questions.
+
+Full working after a second miss:
+
+> Attentive s’accorde avec journaliste au féminin singulier.  
+> La réponse est : Une journaliste attentive pose des questions..  
+
+> Quelle phrase respecte l’accord ?
+
+- ✅ Une journaliste attentive pose des questions.
+- ◻️ Une journaliste attentives pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+- ◻️ Une journaliste attentif pose des questions.  
+  _↳ feedback if chosen: Attentive s’accorde avec journaliste au féminin singulier._
+
+Full working after a second miss:
+
+> Attentive s’accorde avec journaliste au féminin singulier.  
+> La réponse est : Une journaliste attentive pose des questions..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-118-etape-1` · Lesson 118 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel groupe est un pronom possessif ? | Le mien | Mon cahier · Un cahier | Le mien remplace un nom avec sa relation de possession. |
+| Dans « La tienne fonctionne », quel groupe est sujet ? | La tienne | fonctionne · aucun sujet | Le pronom possessif la tienne est le sujet du verbe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel groupe est un pronom possessif ?
+
+- ✅ Le mien
+- ◻️ Mon cahier  
+  _↳ feedback if chosen: Le mien remplace un nom avec sa relation de possession._
+- ◻️ Un cahier  
+  _↳ feedback if chosen: Le mien remplace un nom avec sa relation de possession._
+
+Full working after a second miss:
+
+> Le mien remplace un nom avec sa relation de possession.  
+> La réponse est : Le mien.  
+
+> Dans « La tienne fonctionne », quel groupe est sujet ?
+
+- ◻️ aucun sujet  
+  _↳ feedback if chosen: Le pronom possessif la tienne est le sujet du verbe._
+- ◻️ fonctionne  
+  _↳ feedback if chosen: Le pronom possessif la tienne est le sujet du verbe._
+- ✅ La tienne
+
+Full working after a second miss:
+
+> Le pronom possessif la tienne est le sujet du verbe.  
+> La réponse est : La tienne.  
+
+> Quel groupe est un pronom possessif ?
+
+- ◻️ Mon cahier  
+  _↳ feedback if chosen: Le mien remplace un nom avec sa relation de possession._
+- ✅ Le mien
+- ◻️ Un cahier  
+  _↳ feedback if chosen: Le mien remplace un nom avec sa relation de possession._
+
+Full working after a second miss:
+
+> Le mien remplace un nom avec sa relation de possession.  
+> La réponse est : Le mien.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-118-etape-2` · Lesson 118 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Remplace ma radio : ___ fonctionne. | La mienne | Le mien · Les miens | Radio est féminin singulier : la mienne. |
+| Remplace mes cahiers : ___ sont ici. | Les miens | La mienne · Le mien | Cahiers est masculin pluriel : les miens. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Remplace mes cahiers : ___ sont ici.
+
+- ◻️ La mienne  
+  _↳ feedback if chosen: Cahiers est masculin pluriel : les miens._
+- ◻️ Le mien  
+  _↳ feedback if chosen: Cahiers est masculin pluriel : les miens._
+- ✅ Les miens
+
+Full working after a second miss:
+
+> Cahiers est masculin pluriel : les miens.  
+> La réponse est : Les miens.  
+
+> Remplace mes cahiers : ___ sont ici.
+
+- ✅ Les miens
+- ◻️ Le mien  
+  _↳ feedback if chosen: Cahiers est masculin pluriel : les miens._
+- ◻️ La mienne  
+  _↳ feedback if chosen: Cahiers est masculin pluriel : les miens._
+
+Full working after a second miss:
+
+> Cahiers est masculin pluriel : les miens.  
+> La réponse est : Les miens.  
+
+> Remplace ma radio : ___ fonctionne.
+
+- ✅ La mienne
+- ◻️ Les miens  
+  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
+- ◻️ Le mien  
+  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
+
+Full working after a second miss:
+
+> Radio est féminin singulier : la mienne.  
+> La réponse est : La mienne.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-118-etape-3` · Lesson 118 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Les leurs ___ bien. | fonctionnent | fonctionne · fonctionnes | Les leurs est pluriel et commande fonctionnent. |
+| Quelle phrase distingue déterminant et pronom ? | Mon cahier est ouvert ; le tien est fermé. | Le mon est ouvert. · Le tien cahier est fermé. | Mon accompagne cahier ; le tien remplace un groupe nominal. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase distingue déterminant et pronom ?
+
+- ✅ Mon cahier est ouvert ; le tien est fermé.
+- ◻️ Le tien cahier est fermé.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+- ◻️ Le mon est ouvert.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+
+Full working after a second miss:
+
+> Mon accompagne cahier ; le tien remplace un groupe nominal.  
+> La réponse est : Mon cahier est ouvert ; le tien est fermé..  
+
+> Quelle phrase distingue déterminant et pronom ?
+
+- ✅ Mon cahier est ouvert ; le tien est fermé.
+- ◻️ Le mon est ouvert.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+- ◻️ Le tien cahier est fermé.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+
+Full working after a second miss:
+
+> Mon accompagne cahier ; le tien remplace un groupe nominal.  
+> La réponse est : Mon cahier est ouvert ; le tien est fermé..  
+
+> Quelle phrase distingue déterminant et pronom ?
+
+- ◻️ Le tien cahier est fermé.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+- ◻️ Le mon est ouvert.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+- ✅ Mon cahier est ouvert ; le tien est fermé.
+
+Full working after a second miss:
+
+> Mon accompagne cahier ; le tien remplace un groupe nominal.  
+> La réponse est : Mon cahier est ouvert ; le tien est fermé..  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-118-etape-2-card` · Lesson 118 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Remplace ma radio : ___ fonctionne. | La mienne | Le mien · Les miens | Radio est féminin singulier : la mienne. |
+| Remplace mes cahiers : ___ sont ici. | Les miens | La mienne · Le mien | Cahiers est masculin pluriel : les miens. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Remplace mes cahiers : ___ sont ici.
+
+- ✅ Les miens
+- ◻️ Le mien  
+  _↳ feedback if chosen: Cahiers est masculin pluriel : les miens._
+- ◻️ La mienne  
+  _↳ feedback if chosen: Cahiers est masculin pluriel : les miens._
+
+Full working after a second miss:
+
+> Cahiers est masculin pluriel : les miens.  
+> La réponse est : Les miens.  
+
+> Remplace ma radio : ___ fonctionne.
+
+- ◻️ Les miens  
+  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
+- ✅ La mienne
+- ◻️ Le mien  
+  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
+
+Full working after a second miss:
+
+> Radio est féminin singulier : la mienne.  
+> La réponse est : La mienne.  
+
+> Remplace ma radio : ___ fonctionne.
+
+- ◻️ Les miens  
+  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
+- ✅ La mienne
+- ◻️ Le mien  
+  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
+
+Full working after a second miss:
+
+> Radio est féminin singulier : la mienne.  
+> La réponse est : La mienne.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-118-etape-3-card` · Lesson 118 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Complète : Les leurs ___ bien. | fonctionnent | fonctionne · fonctionnes | Les leurs est pluriel et commande fonctionnent. |
+| Quelle phrase distingue déterminant et pronom ? | Mon cahier est ouvert ; le tien est fermé. | Le mon est ouvert. · Le tien cahier est fermé. | Mon accompagne cahier ; le tien remplace un groupe nominal. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase distingue déterminant et pronom ?
+
+- ◻️ Le mon est ouvert.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+- ✅ Mon cahier est ouvert ; le tien est fermé.
+- ◻️ Le tien cahier est fermé.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+
+Full working after a second miss:
+
+> Mon accompagne cahier ; le tien remplace un groupe nominal.  
+> La réponse est : Mon cahier est ouvert ; le tien est fermé..  
+
+> Quelle phrase distingue déterminant et pronom ?
+
+- ◻️ Le mon est ouvert.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+- ✅ Mon cahier est ouvert ; le tien est fermé.
+- ◻️ Le tien cahier est fermé.  
+  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+
+Full working after a second miss:
+
+> Mon accompagne cahier ; le tien remplace un groupe nominal.  
+> La réponse est : Mon cahier est ouvert ; le tien est fermé..  
+
+> Complète : Les leurs ___ bien.
+
+- ✅ fonctionnent
+- ◻️ fonctionnes  
+  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
+- ◻️ fonctionne  
+  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
+
+Full working after a second miss:
+
+> Les leurs est pluriel et commande fonctionnent.  
+> La réponse est : fonctionnent.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-119-etape-1` · Lesson 119 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel mot appartient à la série étudiée ? | pain | nature · navire | Le mot pain appartient aux modèles de la leçon. |
+| Quel autre mot appartient à cette série ? | matin | navire · nature | Le mot matin appartient à la même série de modèles. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel autre mot appartient à cette série ?
+
+- ◻️ navire  
+  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
+- ✅ matin
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
+
+Full working after a second miss:
+
+> Le mot matin appartient à la même série de modèles.  
+> La réponse est : matin.  
+
+> Quel autre mot appartient à cette série ?
+
+- ✅ matin
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
+- ◻️ navire  
+  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
+
+Full working after a second miss:
+
+> Le mot matin appartient à la même série de modèles.  
+> La réponse est : matin.  
+
+> Quel autre mot appartient à cette série ?
+
+- ◻️ nature  
+  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
+- ◻️ navire  
+  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
+- ✅ matin
+
+Full working after a second miss:
+
+> Le mot matin appartient à la même série de modèles.  
+> La réponse est : matin.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-119-etape-2` · Lesson 119 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que peut vérifier cet exercice ? | Le repérage écrit des mots modèles. | L’enregistrement de ta voix. · La qualité de ton accent. | L’application ne capte pas la voix du lecteur. |
+| Qui peut fournir un modèle oral ? | Un enseignant qui lit les mots. | Le nombre de lettres seul. · Un score écrit sans audio. | Une prononciation doit être entendue et pratiquée oralement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que peut vérifier cet exercice ?
+
+- ◻️ La qualité de ton accent.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ✅ Le repérage écrit des mots modèles.
+
+Full working after a second miss:
+
+> L’application ne capte pas la voix du lecteur.  
+> La réponse est : Le repérage écrit des mots modèles..  
+
+> Qui peut fournir un modèle oral ?
+
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ✅ Un enseignant qui lit les mots.
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+> Que peut vérifier cet exercice ?
+
+- ◻️ La qualité de ton accent.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ✅ Le repérage écrit des mots modèles.
+
+Full working after a second miss:
+
+> L’application ne capte pas la voix du lecteur.  
+> La réponse est : Le repérage écrit des mots modèles..  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-119-etape-3` · Lesson 119 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient uniquement les mots modèles ? | pain, matin | nature, navire · pain, nature | Les deux mots doivent appartenir à la série étudiée. |
+| Quel conseil respecte les différences d’accent ? | Suivre le modèle oral donné en classe. | Faire noter sa voix par cet exercice écrit. · Déclarer faux tout accent différent. | Le professeur adapte le modèle oral à l’enseignement de la classe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel conseil respecte les différences d’accent ?
+
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ✅ Suivre le modèle oral donné en classe.
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+
+Full working after a second miss:
+
+> Le professeur adapte le modèle oral à l’enseignement de la classe.  
+> La réponse est : Suivre le modèle oral donné en classe..  
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ✅ pain, matin
+- ◻️ nature, navire  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : pain, matin.  
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ✅ pain, matin
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ nature, navire  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : pain, matin.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-119-etape-2-card` · Lesson 119 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Que peut vérifier cet exercice ? | Le repérage écrit des mots modèles. | L’enregistrement de ta voix. · La qualité de ton accent. | L’application ne capte pas la voix du lecteur. |
+| Qui peut fournir un modèle oral ? | Un enseignant qui lit les mots. | Le nombre de lettres seul. · Un score écrit sans audio. | Une prononciation doit être entendue et pratiquée oralement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Qui peut fournir un modèle oral ?
+
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ✅ Un enseignant qui lit les mots.
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+> Que peut vérifier cet exercice ?
+
+- ◻️ La qualité de ton accent.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ◻️ L’enregistrement de ta voix.  
+  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ✅ Le repérage écrit des mots modèles.
+
+Full working after a second miss:
+
+> L’application ne capte pas la voix du lecteur.  
+> La réponse est : Le repérage écrit des mots modèles..  
+
+> Qui peut fournir un modèle oral ?
+
+- ◻️ Le nombre de lettres seul.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ◻️ Un score écrit sans audio.  
+  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ✅ Un enseignant qui lit les mots.
+
+Full working after a second miss:
+
+> Une prononciation doit être entendue et pratiquée oralement.  
+> La réponse est : Un enseignant qui lit les mots..  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-119-etape-3-card` · Lesson 119 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle série contient uniquement les mots modèles ? | pain, matin | nature, navire · pain, nature | Les deux mots doivent appartenir à la série étudiée. |
+| Quel conseil respecte les différences d’accent ? | Suivre le modèle oral donné en classe. | Faire noter sa voix par cet exercice écrit. · Déclarer faux tout accent différent. | Le professeur adapte le modèle oral à l’enseignement de la classe. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ◻️ nature, navire  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ✅ pain, matin
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : pain, matin.  
+
+> Quel conseil respecte les différences d’accent ?
+
+- ✅ Suivre le modèle oral donné en classe.
+- ◻️ Faire noter sa voix par cet exercice écrit.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ◻️ Déclarer faux tout accent différent.  
+  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+
+Full working after a second miss:
+
+> Le professeur adapte le modèle oral à l’enseignement de la classe.  
+> La réponse est : Suivre le modèle oral donné en classe..  
+
+> Quelle série contient uniquement les mots modèles ?
+
+- ◻️ pain, nature  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ✅ pain, matin
+- ◻️ nature, navire  
+  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+
+Full working after a second miss:
+
+> Les deux mots doivent appartenir à la série étudiée.  
+> La réponse est : pain, matin.  
+
+Sources: orthographe (Orthographe : ponctuation, doubles consonnes, liaisons, sons [f], [ʒ], [e], [ø], [o], [p], homophones (quel/qu’elle, son/sont, a/à, et/est, ses/ces, peu/peut, au/eau/haut, seau/saut/sot))
+
+### `fi2-120-etape-1` · Lesson 120 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Qui est l’expéditeur d’une lettre ? | La personne qui l’envoie. | La personne qui la reçoit seulement. · Le meuble qui la porte. | Expédier signifie envoyer. |
+| Qui est le destinataire ? | La personne à qui le message est adressé. | La personne qui vend le papier. · La couleur de l’enveloppe. | Le destinataire est celui à qui l’on écrit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Qui est l’expéditeur d’une lettre ?
+
+- ◻️ La personne qui la reçoit seulement.  
+  _↳ feedback if chosen: Expédier signifie envoyer._
+- ✅ La personne qui l’envoie.
+- ◻️ Le meuble qui la porte.  
+  _↳ feedback if chosen: Expédier signifie envoyer._
+
+Full working after a second miss:
+
+> Expédier signifie envoyer.  
+> La réponse est : La personne qui l’envoie..  
+
+> Qui est le destinataire ?
+
+- ◻️ La couleur de l’enveloppe.  
+  _↳ feedback if chosen: Le destinataire est celui à qui l’on écrit._
+- ◻️ La personne qui vend le papier.  
+  _↳ feedback if chosen: Le destinataire est celui à qui l’on écrit._
+- ✅ La personne à qui le message est adressé.
+
+Full working after a second miss:
+
+> Le destinataire est celui à qui l’on écrit.  
+> La réponse est : La personne à qui le message est adressé..  
+
+> Qui est le destinataire ?
+
+- ◻️ La couleur de l’enveloppe.  
+  _↳ feedback if chosen: Le destinataire est celui à qui l’on écrit._
+- ✅ La personne à qui le message est adressé.
+- ◻️ La personne qui vend le papier.  
+  _↳ feedback if chosen: Le destinataire est celui à qui l’on écrit._
+
+Full working after a second miss:
+
+> Le destinataire est celui à qui l’on écrit.  
+> La réponse est : La personne à qui le message est adressé..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-120-etape-2` · Lesson 120 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel objet convient pour utiliser la salle du club ? | Demande d’autorisation d’utiliser la salle. | La salle est très jolie. · Bonjour mon ami ! | L’objet résume précisément ce qui est demandé. |
+| Quelle lettre est officielle ? | Une demande adressée au proviseur dans sa fonction. | Un mot d’anniversaire à un cousin. · Un message amical à sa sœur. | Le destinataire agit ici comme responsable de l’établissement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle lettre est officielle ?
+
+- ◻️ Un mot d’anniversaire à un cousin.  
+  _↳ feedback if chosen: Le destinataire agit ici comme responsable de l’établissement._
+- ◻️ Un message amical à sa sœur.  
+  _↳ feedback if chosen: Le destinataire agit ici comme responsable de l’établissement._
+- ✅ Une demande adressée au proviseur dans sa fonction.
+
+Full working after a second miss:
+
+> Le destinataire agit ici comme responsable de l’établissement.  
+> La réponse est : Une demande adressée au proviseur dans sa fonction..  
+
+> Quel objet convient pour utiliser la salle du club ?
+
+- ◻️ Bonjour mon ami !  
+  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+- ✅ Demande d’autorisation d’utiliser la salle.
+- ◻️ La salle est très jolie.  
+  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+
+Full working after a second miss:
+
+> L’objet résume précisément ce qui est demandé.  
+> La réponse est : Demande d’autorisation d’utiliser la salle..  
+
+> Quel objet convient pour utiliser la salle du club ?
+
+- ✅ Demande d’autorisation d’utiliser la salle.
+- ◻️ La salle est très jolie.  
+  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+- ◻️ Bonjour mon ami !  
+  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+
+Full working after a second miss:
+
+> L’objet résume précisément ce qui est demandé.  
+> La réponse est : Demande d’autorisation d’utiliser la salle..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-120-etape-3` · Lesson 120 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle formulation convient dans une demande officielle ? | Je sollicite l’autorisation d’utiliser la salle du club. | Donne-moi la salle, tout de suite ! · Tu sais bien ce que je veux. | La demande précise son objet et garde un ton respectueux. |
+| Pourquoi faut-il préciser la date et le but de la demande ? | Pour que le destinataire comprenne et puisse répondre. | Pour rendre la demande incompréhensible. · Pour remplacer toute formule de politesse. | Les renseignements utiles permettent d’examiner la demande. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Pourquoi faut-il préciser la date et le but de la demande ?
+
+- ◻️ Pour remplacer toute formule de politesse.  
+  _↳ feedback if chosen: Les renseignements utiles permettent d’examiner la demande._
+- ✅ Pour que le destinataire comprenne et puisse répondre.
+- ◻️ Pour rendre la demande incompréhensible.  
+  _↳ feedback if chosen: Les renseignements utiles permettent d’examiner la demande._
+
+Full working after a second miss:
+
+> Les renseignements utiles permettent d’examiner la demande.  
+> La réponse est : Pour que le destinataire comprenne et puisse répondre..  
+
+> Pourquoi faut-il préciser la date et le but de la demande ?
+
+- ✅ Pour que le destinataire comprenne et puisse répondre.
+- ◻️ Pour rendre la demande incompréhensible.  
+  _↳ feedback if chosen: Les renseignements utiles permettent d’examiner la demande._
+- ◻️ Pour remplacer toute formule de politesse.  
+  _↳ feedback if chosen: Les renseignements utiles permettent d’examiner la demande._
+
+Full working after a second miss:
+
+> Les renseignements utiles permettent d’examiner la demande.  
+> La réponse est : Pour que le destinataire comprenne et puisse répondre..  
+
+> Quelle formulation convient dans une demande officielle ?
+
+- ✅ Je sollicite l’autorisation d’utiliser la salle du club.
+- ◻️ Tu sais bien ce que je veux.  
+  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+- ◻️ Donne-moi la salle, tout de suite !  
+  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+
+Full working after a second miss:
+
+> La demande précise son objet et garde un ton respectueux.  
+> La réponse est : Je sollicite l’autorisation d’utiliser la salle du club..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-120-etape-2-card` · Lesson 120 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel objet convient pour utiliser la salle du club ? | Demande d’autorisation d’utiliser la salle. | La salle est très jolie. · Bonjour mon ami ! | L’objet résume précisément ce qui est demandé. |
+| Quelle lettre est officielle ? | Une demande adressée au proviseur dans sa fonction. | Un mot d’anniversaire à un cousin. · Un message amical à sa sœur. | Le destinataire agit ici comme responsable de l’établissement. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle lettre est officielle ?
+
+- ◻️ Un mot d’anniversaire à un cousin.  
+  _↳ feedback if chosen: Le destinataire agit ici comme responsable de l’établissement._
+- ✅ Une demande adressée au proviseur dans sa fonction.
+- ◻️ Un message amical à sa sœur.  
+  _↳ feedback if chosen: Le destinataire agit ici comme responsable de l’établissement._
+
+Full working after a second miss:
+
+> Le destinataire agit ici comme responsable de l’établissement.  
+> La réponse est : Une demande adressée au proviseur dans sa fonction..  
+
+> Quel objet convient pour utiliser la salle du club ?
+
+- ✅ Demande d’autorisation d’utiliser la salle.
+- ◻️ La salle est très jolie.  
+  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+- ◻️ Bonjour mon ami !  
+  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+
+Full working after a second miss:
+
+> L’objet résume précisément ce qui est demandé.  
+> La réponse est : Demande d’autorisation d’utiliser la salle..  
+
+> Quel objet convient pour utiliser la salle du club ?
+
+- ✅ Demande d’autorisation d’utiliser la salle.
+- ◻️ La salle est très jolie.  
+  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+- ◻️ Bonjour mon ami !  
+  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+
+Full working after a second miss:
+
+> L’objet résume précisément ce qui est demandé.  
+> La réponse est : Demande d’autorisation d’utiliser la salle..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-120-etape-3-card` · Lesson 120 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle formulation convient dans une demande officielle ? | Je sollicite l’autorisation d’utiliser la salle du club. | Donne-moi la salle, tout de suite ! · Tu sais bien ce que je veux. | La demande précise son objet et garde un ton respectueux. |
+| Pourquoi faut-il préciser la date et le but de la demande ? | Pour que le destinataire comprenne et puisse répondre. | Pour rendre la demande incompréhensible. · Pour remplacer toute formule de politesse. | Les renseignements utiles permettent d’examiner la demande. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle formulation convient dans une demande officielle ?
+
+- ◻️ Donne-moi la salle, tout de suite !  
+  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+- ✅ Je sollicite l’autorisation d’utiliser la salle du club.
+- ◻️ Tu sais bien ce que je veux.  
+  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+
+Full working after a second miss:
+
+> La demande précise son objet et garde un ton respectueux.  
+> La réponse est : Je sollicite l’autorisation d’utiliser la salle du club..  
+
+> Quelle formulation convient dans une demande officielle ?
+
+- ◻️ Donne-moi la salle, tout de suite !  
+  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+- ✅ Je sollicite l’autorisation d’utiliser la salle du club.
+- ◻️ Tu sais bien ce que je veux.  
+  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+
+Full working after a second miss:
+
+> La demande précise son objet et garde un ton respectueux.  
+> La réponse est : Je sollicite l’autorisation d’utiliser la salle du club..  
+
+> Quelle formulation convient dans une demande officielle ?
+
+- ✅ Je sollicite l’autorisation d’utiliser la salle du club.
+- ◻️ Tu sais bien ce que je veux.  
+  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+- ◻️ Donne-moi la salle, tout de suite !  
+  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+
+Full working after a second miss:
+
+> La demande précise son objet et garde un ton respectueux.  
+> La réponse est : Je sollicite l’autorisation d’utiliser la salle du club..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-121-etape-1` · Lesson 121 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Scène décrite : une élève montre une affiche devant un groupe. Quelle phrase décrit ce qui est annoncé ? | Une élève montre une affiche. | Elle est forcément la meilleure de la classe. · Tout le monde connaît son âge. | Seule la première phrase reprend un élément donné. |
+| Scène décrite : un garçon trie du papier près d’une poubelle. Quelle phrase décrit la scène ? | Un garçon trie du papier. | Il est certainement riche. · Il a forcément gagné un concours. | Le tri du papier est annoncé ; les autres informations sont inventées. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Scène décrite : une élève montre une affiche devant un groupe. Quelle phrase décrit ce qui est annoncé ?
+
+- ◻️ Tout le monde connaît son âge.  
+  _↳ feedback if chosen: Seule la première phrase reprend un élément donné._
+- ✅ Une élève montre une affiche.
+- ◻️ Elle est forcément la meilleure de la classe.  
+  _↳ feedback if chosen: Seule la première phrase reprend un élément donné._
+
+Full working after a second miss:
+
+> Seule la première phrase reprend un élément donné.  
+> La réponse est : Une élève montre une affiche..  
+
+> Scène décrite : un garçon trie du papier près d’une poubelle. Quelle phrase décrit la scène ?
+
+- ◻️ Il a forcément gagné un concours.  
+  _↳ feedback if chosen: Le tri du papier est annoncé ; les autres informations sont inventées._
+- ◻️ Il est certainement riche.  
+  _↳ feedback if chosen: Le tri du papier est annoncé ; les autres informations sont inventées._
+- ✅ Un garçon trie du papier.
+
+Full working after a second miss:
+
+> Le tri du papier est annoncé ; les autres informations sont inventées.  
+> La réponse est : Un garçon trie du papier..  
+
+> Scène décrite : une élève montre une affiche devant un groupe. Quelle phrase décrit ce qui est annoncé ?
+
+- ✅ Une élève montre une affiche.
+- ◻️ Tout le monde connaît son âge.  
+  _↳ feedback if chosen: Seule la première phrase reprend un élément donné._
+- ◻️ Elle est forcément la meilleure de la classe.  
+  _↳ feedback if chosen: Seule la première phrase reprend un élément donné._
+
+Full working after a second miss:
+
+> Seule la première phrase reprend un élément donné.  
+> La réponse est : Une élève montre une affiche..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-121-etape-2` · Lesson 121 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ? | Participer à la propreté de la cour. | Interdire tous les cahiers. · Quitter l’école définitivement. | L’affiche et l’action convergent vers la propreté. |
+| Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ? | Vérifier une information avant de la partager. | Croire chaque titre sans lire. · Jeter tous les journaux. | Le texte de l’affiche et la comparaison soutiennent la vérification. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?
+
+- ✅ Vérifier une information avant de la partager.
+- ◻️ Jeter tous les journaux.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ◻️ Croire chaque titre sans lire.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+
+Full working after a second miss:
+
+> Le texte de l’affiche et la comparaison soutiennent la vérification.  
+> La réponse est : Vérifier une information avant de la partager..  
+
+> Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?
+
+- ◻️ Croire chaque titre sans lire.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ✅ Vérifier une information avant de la partager.
+- ◻️ Jeter tous les journaux.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+
+Full working after a second miss:
+
+> Le texte de l’affiche et la comparaison soutiennent la vérification.  
+> La réponse est : Vérifier une information avant de la partager..  
+
+> Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?
+
+- ◻️ Jeter tous les journaux.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ◻️ Croire chaque titre sans lire.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ✅ Vérifier une information avant de la partager.
+
+Full working after a second miss:
+
+> Le texte de l’affiche et la comparaison soutiennent la vérification.  
+> La réponse est : Vérifier une information avant de la partager..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-121-etape-3` · Lesson 121 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase signale un avis ? | À mon avis, cette affiche est convaincante. | Un élève est au premier plan. · L’affiche contient un titre. | À mon avis annonce un jugement personnel. |
+| Si l’image ne donne pas la date, que faire ? | Dire que la date n’est pas indiquée. | Inventer une date certaine. · Confondre la date avec la couleur. | On distingue ce que l’on sait de ce qui n’est pas fourni. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Si l’image ne donne pas la date, que faire ?
+
+- ◻️ Confondre la date avec la couleur.  
+  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
+- ✅ Dire que la date n’est pas indiquée.
+- ◻️ Inventer une date certaine.  
+  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
+
+Full working after a second miss:
+
+> On distingue ce que l’on sait de ce qui n’est pas fourni.  
+> La réponse est : Dire que la date n’est pas indiquée..  
+
+> Quelle phrase signale un avis ?
+
+- ◻️ L’affiche contient un titre.  
+  _↳ feedback if chosen: À mon avis annonce un jugement personnel._
+- ◻️ Un élève est au premier plan.  
+  _↳ feedback if chosen: À mon avis annonce un jugement personnel._
+- ✅ À mon avis, cette affiche est convaincante.
+
+Full working after a second miss:
+
+> À mon avis annonce un jugement personnel.  
+> La réponse est : À mon avis, cette affiche est convaincante..  
+
+> Quelle phrase signale un avis ?
+
+- ◻️ L’affiche contient un titre.  
+  _↳ feedback if chosen: À mon avis annonce un jugement personnel._
+- ◻️ Un élève est au premier plan.  
+  _↳ feedback if chosen: À mon avis annonce un jugement personnel._
+- ✅ À mon avis, cette affiche est convaincante.
+
+Full working after a second miss:
+
+> À mon avis annonce un jugement personnel.  
+> La réponse est : À mon avis, cette affiche est convaincante..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-121-etape-2-card` · Lesson 121 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ? | Participer à la propreté de la cour. | Interdire tous les cahiers. · Quitter l’école définitivement. | L’affiche et l’action convergent vers la propreté. |
+| Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ? | Vérifier une information avant de la partager. | Croire chaque titre sans lire. · Jeter tous les journaux. | Le texte de l’affiche et la comparaison soutiennent la vérification. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?
+
+- ✅ Vérifier une information avant de la partager.
+- ◻️ Jeter tous les journaux.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ◻️ Croire chaque titre sans lire.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+
+Full working after a second miss:
+
+> Le texte de l’affiche et la comparaison soutiennent la vérification.  
+> La réponse est : Vérifier une information avant de la partager..  
+
+> Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?
+
+- ◻️ Croire chaque titre sans lire.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ◻️ Jeter tous les journaux.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ✅ Vérifier une information avant de la partager.
+
+Full working after a second miss:
+
+> Le texte de l’affiche et la comparaison soutiennent la vérification.  
+> La réponse est : Vérifier une information avant de la partager..  
+
+> Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?
+
+- ◻️ Croire chaque titre sans lire.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ◻️ Jeter tous les journaux.  
+  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
+- ✅ Vérifier une information avant de la partager.
+
+Full working after a second miss:
+
+> Le texte de l’affiche et la comparaison soutiennent la vérification.  
+> La réponse est : Vérifier une information avant de la partager..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-121-etape-3-card` · Lesson 121 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase signale un avis ? | À mon avis, cette affiche est convaincante. | Un élève est au premier plan. · L’affiche contient un titre. | À mon avis annonce un jugement personnel. |
+| Si l’image ne donne pas la date, que faire ? | Dire que la date n’est pas indiquée. | Inventer une date certaine. · Confondre la date avec la couleur. | On distingue ce que l’on sait de ce qui n’est pas fourni. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Si l’image ne donne pas la date, que faire ?
+
+- ◻️ Inventer une date certaine.  
+  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
+- ◻️ Confondre la date avec la couleur.  
+  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
+- ✅ Dire que la date n’est pas indiquée.
+
+Full working after a second miss:
+
+> On distingue ce que l’on sait de ce qui n’est pas fourni.  
+> La réponse est : Dire que la date n’est pas indiquée..  
+
+> Quelle phrase signale un avis ?
+
+- ✅ À mon avis, cette affiche est convaincante.
+- ◻️ L’affiche contient un titre.  
+  _↳ feedback if chosen: À mon avis annonce un jugement personnel._
+- ◻️ Un élève est au premier plan.  
+  _↳ feedback if chosen: À mon avis annonce un jugement personnel._
+
+Full working after a second miss:
+
+> À mon avis annonce un jugement personnel.  
+> La réponse est : À mon avis, cette affiche est convaincante..  
+
+> Si l’image ne donne pas la date, que faire ?
+
+- ◻️ Inventer une date certaine.  
+  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
+- ✅ Dire que la date n’est pas indiquée.
+- ◻️ Confondre la date avec la couleur.  
+  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
+
+Full working after a second miss:
+
+> On distingue ce que l’on sait de ce qui n’est pas fourni.  
+> La réponse est : Dire que la date n’est pas indiquée..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-122-etape-1` · Lesson 122 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase lance un récit ? | Un matin, Bih a trouvé une lettre devant la classe. | La lettre est rectangulaire et blanche. · Veuillez agréer mes salutations. | La phrase situe un événement dans le temps. |
+| Quel élément change la situation ? | Une erreur est découverte dans le bulletin. | Le papier est blanc depuis le début. · Le titre contient un nom. | La découverte d’une erreur crée un problème à résoudre. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel élément change la situation ?
+
+- ✅ Une erreur est découverte dans le bulletin.
+- ◻️ Le titre contient un nom.  
+  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
+- ◻️ Le papier est blanc depuis le début.  
+  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
+
+Full working after a second miss:
+
+> La découverte d’une erreur crée un problème à résoudre.  
+> La réponse est : Une erreur est découverte dans le bulletin..  
+
+> Quelle phrase lance un récit ?
+
+- ◻️ La lettre est rectangulaire et blanche.  
+  _↳ feedback if chosen: La phrase situe un événement dans le temps._
+- ✅ Un matin, Bih a trouvé une lettre devant la classe.
+- ◻️ Veuillez agréer mes salutations.  
+  _↳ feedback if chosen: La phrase situe un événement dans le temps._
+
+Full working after a second miss:
+
+> La phrase situe un événement dans le temps.  
+> La réponse est : Un matin, Bih a trouvé une lettre devant la classe..  
+
+> Quel élément change la situation ?
+
+- ◻️ Le titre contient un nom.  
+  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
+- ◻️ Le papier est blanc depuis le début.  
+  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
+- ✅ Une erreur est découverte dans le bulletin.
+
+Full working after a second miss:
+
+> La découverte d’une erreur crée un problème à résoudre.  
+> La réponse est : Une erreur est découverte dans le bulletin..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-122-etape-2` · Lesson 122 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle suite est chronologique ? | Découvrir l’erreur, la corriger, afficher le bulletin. | Afficher, découvrir, prétendre avoir déjà corrigé sans relire. · Conclure puis présenter un autre problème sans lien. | La correction doit intervenir après la découverte et avant la diffusion corrigée. |
+| Quel mot annonce un événement soudain ? | Soudain | Au centre · À gauche | Soudain situe une rupture dans le déroulement du récit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle suite est chronologique ?
+
+- ◻️ Conclure puis présenter un autre problème sans lien.  
+  _↳ feedback if chosen: La correction doit intervenir après la découverte et avant la diffusion corrigée._
+- ◻️ Afficher, découvrir, prétendre avoir déjà corrigé sans relire.  
+  _↳ feedback if chosen: La correction doit intervenir après la découverte et avant la diffusion corrigée._
+- ✅ Découvrir l’erreur, la corriger, afficher le bulletin.
+
+Full working after a second miss:
+
+> La correction doit intervenir après la découverte et avant la diffusion corrigée.  
+> La réponse est : Découvrir l’erreur, la corriger, afficher le bulletin..  
+
+> Quelle suite est chronologique ?
+
+- ✅ Découvrir l’erreur, la corriger, afficher le bulletin.
+- ◻️ Conclure puis présenter un autre problème sans lien.  
+  _↳ feedback if chosen: La correction doit intervenir après la découverte et avant la diffusion corrigée._
+- ◻️ Afficher, découvrir, prétendre avoir déjà corrigé sans relire.  
+  _↳ feedback if chosen: La correction doit intervenir après la découverte et avant la diffusion corrigée._
+
+Full working after a second miss:
+
+> La correction doit intervenir après la découverte et avant la diffusion corrigée.  
+> La réponse est : Découvrir l’erreur, la corriger, afficher le bulletin..  
+
+> Quel mot annonce un événement soudain ?
+
+- ◻️ À gauche  
+  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
+- ✅ Soudain
+- ◻️ Au centre  
+  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
+
+Full working after a second miss:
+
+> Soudain situe une rupture dans le déroulement du récit.  
+> La réponse est : Soudain.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-122-etape-3` · Lesson 122 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Une lettre s’envole ; Bih la récupère. Quelle fin convient ? | La lettre peut enfin être remise à sa destinataire. | La lettre n’a jamais existé sans explication. · Le texte devient une recette sans lien. | Le dénouement suit la récupération de la lettre. |
+| Que faut-il vérifier à la relecture ? | L’ordre des événements et la cohérence des temps. | Seulement le nombre de lignes. · Que chaque verbe change de temps au hasard. | La chronologie et les temps rendent le récit compréhensible. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que faut-il vérifier à la relecture ?
+
+- ✅ L’ordre des événements et la cohérence des temps.
+- ◻️ Que chaque verbe change de temps au hasard.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+- ◻️ Seulement le nombre de lignes.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+
+Full working after a second miss:
+
+> La chronologie et les temps rendent le récit compréhensible.  
+> La réponse est : L’ordre des événements et la cohérence des temps..  
+
+> Que faut-il vérifier à la relecture ?
+
+- ◻️ Que chaque verbe change de temps au hasard.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+- ◻️ Seulement le nombre de lignes.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+- ✅ L’ordre des événements et la cohérence des temps.
+
+Full working after a second miss:
+
+> La chronologie et les temps rendent le récit compréhensible.  
+> La réponse est : L’ordre des événements et la cohérence des temps..  
+
+> Que faut-il vérifier à la relecture ?
+
+- ◻️ Que chaque verbe change de temps au hasard.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+- ◻️ Seulement le nombre de lignes.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+- ✅ L’ordre des événements et la cohérence des temps.
+
+Full working after a second miss:
+
+> La chronologie et les temps rendent le récit compréhensible.  
+> La réponse est : L’ordre des événements et la cohérence des temps..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-122-etape-2-card` · Lesson 122 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle suite est chronologique ? | Découvrir l’erreur, la corriger, afficher le bulletin. | Afficher, découvrir, prétendre avoir déjà corrigé sans relire. · Conclure puis présenter un autre problème sans lien. | La correction doit intervenir après la découverte et avant la diffusion corrigée. |
+| Quel mot annonce un événement soudain ? | Soudain | Au centre · À gauche | Soudain situe une rupture dans le déroulement du récit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel mot annonce un événement soudain ?
+
+- ◻️ Au centre  
+  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
+- ◻️ À gauche  
+  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
+- ✅ Soudain
+
+Full working after a second miss:
+
+> Soudain situe une rupture dans le déroulement du récit.  
+> La réponse est : Soudain.  
+
+> Quelle suite est chronologique ?
+
+- ◻️ Afficher, découvrir, prétendre avoir déjà corrigé sans relire.  
+  _↳ feedback if chosen: La correction doit intervenir après la découverte et avant la diffusion corrigée._
+- ◻️ Conclure puis présenter un autre problème sans lien.  
+  _↳ feedback if chosen: La correction doit intervenir après la découverte et avant la diffusion corrigée._
+- ✅ Découvrir l’erreur, la corriger, afficher le bulletin.
+
+Full working after a second miss:
+
+> La correction doit intervenir après la découverte et avant la diffusion corrigée.  
+> La réponse est : Découvrir l’erreur, la corriger, afficher le bulletin..  
+
+> Quel mot annonce un événement soudain ?
+
+- ◻️ À gauche  
+  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
+- ✅ Soudain
+- ◻️ Au centre  
+  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
+
+Full working after a second miss:
+
+> Soudain situe une rupture dans le déroulement du récit.  
+> La réponse est : Soudain.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-122-etape-3-card` · Lesson 122 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Une lettre s’envole ; Bih la récupère. Quelle fin convient ? | La lettre peut enfin être remise à sa destinataire. | La lettre n’a jamais existé sans explication. · Le texte devient une recette sans lien. | Le dénouement suit la récupération de la lettre. |
+| Que faut-il vérifier à la relecture ? | L’ordre des événements et la cohérence des temps. | Seulement le nombre de lignes. · Que chaque verbe change de temps au hasard. | La chronologie et les temps rendent le récit compréhensible. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Que faut-il vérifier à la relecture ?
+
+- ✅ L’ordre des événements et la cohérence des temps.
+- ◻️ Seulement le nombre de lignes.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+- ◻️ Que chaque verbe change de temps au hasard.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+
+Full working after a second miss:
+
+> La chronologie et les temps rendent le récit compréhensible.  
+> La réponse est : L’ordre des événements et la cohérence des temps..  
+
+> Que faut-il vérifier à la relecture ?
+
+- ◻️ Seulement le nombre de lignes.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+- ✅ L’ordre des événements et la cohérence des temps.
+- ◻️ Que chaque verbe change de temps au hasard.  
+  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+
+Full working after a second miss:
+
+> La chronologie et les temps rendent le récit compréhensible.  
+> La réponse est : L’ordre des événements et la cohérence des temps..  
+
+> Une lettre s’envole ; Bih la récupère. Quelle fin convient ?
+
+- ◻️ Le texte devient une recette sans lien.  
+  _↳ feedback if chosen: Le dénouement suit la récupération de la lettre._
+- ◻️ La lettre n’a jamais existé sans explication.  
+  _↳ feedback if chosen: Le dénouement suit la récupération de la lettre._
+- ✅ La lettre peut enfin être remise à sa destinataire.
+
+Full working after a second miss:
+
+> Le dénouement suit la récupération de la lettre.  
+> La réponse est : La lettre peut enfin être remise à sa destinataire..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-123-etape-1` · Lesson 123 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle demande précise le destinataire ? | Puis-je parler à la responsable du club de lecture ? | Passez-moi quelqu’un. · Vous savez déjà. | La fonction demandée identifie l’interlocutrice recherchée. |
+| Le son est mauvais. Que peux-tu demander ? | Pourriez-vous répéter le nom ? | Je vais deviner le nom. · Je transmets un nom inventé. | Répéter évite de transmettre une information fausse. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle demande précise le destinataire ?
+
+- ◻️ Vous savez déjà.  
+  _↳ feedback if chosen: La fonction demandée identifie l’interlocutrice recherchée._
+- ✅ Puis-je parler à la responsable du club de lecture ?
+- ◻️ Passez-moi quelqu’un.  
+  _↳ feedback if chosen: La fonction demandée identifie l’interlocutrice recherchée._
+
+Full working after a second miss:
+
+> La fonction demandée identifie l’interlocutrice recherchée.  
+> La réponse est : Puis-je parler à la responsable du club de lecture ?.  
+
+> Le son est mauvais. Que peux-tu demander ?
+
+- ◻️ Je vais deviner le nom.  
+  _↳ feedback if chosen: Répéter évite de transmettre une information fausse._
+- ◻️ Je transmets un nom inventé.  
+  _↳ feedback if chosen: Répéter évite de transmettre une information fausse._
+- ✅ Pourriez-vous répéter le nom ?
+
+Full working after a second miss:
+
+> Répéter évite de transmettre une information fausse.  
+> La réponse est : Pourriez-vous répéter le nom ?.  
+
+> Le son est mauvais. Que peux-tu demander ?
+
+- ✅ Pourriez-vous répéter le nom ?
+- ◻️ Je transmets un nom inventé.  
+  _↳ feedback if chosen: Répéter évite de transmettre une information fausse._
+- ◻️ Je vais deviner le nom.  
+  _↳ feedback if chosen: Répéter évite de transmettre une information fausse._
+
+Full working after a second miss:
+
+> Répéter évite de transmettre une information fausse.  
+> La réponse est : Pourriez-vous répéter le nom ?.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-123-etape-2` · Lesson 123 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel message peut-on transmettre clairement ? | Nji a appelé pour confirmer la réunion du club. | Quelqu’un voulait quelque chose. · Je n’ai rien écouté mais je sais tout. | Le nom et le motif permettent au destinataire de comprendre. |
+| Avant de noter un horaire mal entendu, que faire ? | Le faire répéter et le reformuler. | Choisir un horaire au hasard. · Remplacer l’horaire par une adresse inventée. | La confirmation réduit le risque d’erreur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Avant de noter un horaire mal entendu, que faire ?
+
+- ◻️ Choisir un horaire au hasard.  
+  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
+- ✅ Le faire répéter et le reformuler.
+- ◻️ Remplacer l’horaire par une adresse inventée.  
+  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
+
+Full working after a second miss:
+
+> La confirmation réduit le risque d’erreur.  
+> La réponse est : Le faire répéter et le reformuler..  
+
+> Avant de noter un horaire mal entendu, que faire ?
+
+- ◻️ Remplacer l’horaire par une adresse inventée.  
+  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
+- ◻️ Choisir un horaire au hasard.  
+  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
+- ✅ Le faire répéter et le reformuler.
+
+Full working after a second miss:
+
+> La confirmation réduit le risque d’erreur.  
+> La réponse est : Le faire répéter et le reformuler..  
+
+> Avant de noter un horaire mal entendu, que faire ?
+
+- ◻️ Remplacer l’horaire par une adresse inventée.  
+  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
+- ◻️ Choisir un horaire au hasard.  
+  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
+- ✅ Le faire répéter et le reformuler.
+
+Full working after a second miss:
+
+> La confirmation réduit le risque d’erreur.  
+> La réponse est : Le faire répéter et le reformuler..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-123-etape-3` · Lesson 123 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un inconnu demande l’adresse privée d’un camarade. Que faire ? | Ne pas la donner et demander conseil à un adulte de confiance. | La transmettre pour être poli. · La publier sur un réseau. | La politesse n’oblige pas à divulguer la vie privée d’un autre. |
+| Quelle formule termine poliment l’appel ? | Merci, je transmettrai votre message. Au revoir. | Je raccroche sans écouter. · Je vous interromps encore. | On confirme la suite et on prend congé. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle formule termine poliment l’appel ?
+
+- ✅ Merci, je transmettrai votre message. Au revoir.
+- ◻️ Je vous interromps encore.  
+  _↳ feedback if chosen: On confirme la suite et on prend congé._
+- ◻️ Je raccroche sans écouter.  
+  _↳ feedback if chosen: On confirme la suite et on prend congé._
+
+Full working after a second miss:
+
+> On confirme la suite et on prend congé.  
+> La réponse est : Merci, je transmettrai votre message. Au revoir..  
+
+> Quelle formule termine poliment l’appel ?
+
+- ✅ Merci, je transmettrai votre message. Au revoir.
+- ◻️ Je vous interromps encore.  
+  _↳ feedback if chosen: On confirme la suite et on prend congé._
+- ◻️ Je raccroche sans écouter.  
+  _↳ feedback if chosen: On confirme la suite et on prend congé._
+
+Full working after a second miss:
+
+> On confirme la suite et on prend congé.  
+> La réponse est : Merci, je transmettrai votre message. Au revoir..  
+
+> Un inconnu demande l’adresse privée d’un camarade. Que faire ?
+
+- ◻️ La publier sur un réseau.  
+  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
+- ◻️ La transmettre pour être poli.  
+  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
+- ✅ Ne pas la donner et demander conseil à un adulte de confiance.
+
+Full working after a second miss:
+
+> La politesse n’oblige pas à divulguer la vie privée d’un autre.  
+> La réponse est : Ne pas la donner et demander conseil à un adulte de confiance..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-123-etape-2-card` · Lesson 123 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel message peut-on transmettre clairement ? | Nji a appelé pour confirmer la réunion du club. | Quelqu’un voulait quelque chose. · Je n’ai rien écouté mais je sais tout. | Le nom et le motif permettent au destinataire de comprendre. |
+| Avant de noter un horaire mal entendu, que faire ? | Le faire répéter et le reformuler. | Choisir un horaire au hasard. · Remplacer l’horaire par une adresse inventée. | La confirmation réduit le risque d’erreur. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Avant de noter un horaire mal entendu, que faire ?
+
+- ◻️ Remplacer l’horaire par une adresse inventée.  
+  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
+- ◻️ Choisir un horaire au hasard.  
+  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
+- ✅ Le faire répéter et le reformuler.
+
+Full working after a second miss:
+
+> La confirmation réduit le risque d’erreur.  
+> La réponse est : Le faire répéter et le reformuler..  
+
+> Quel message peut-on transmettre clairement ?
+
+- ◻️ Quelqu’un voulait quelque chose.  
+  _↳ feedback if chosen: Le nom et le motif permettent au destinataire de comprendre._
+- ✅ Nji a appelé pour confirmer la réunion du club.
+- ◻️ Je n’ai rien écouté mais je sais tout.  
+  _↳ feedback if chosen: Le nom et le motif permettent au destinataire de comprendre._
+
+Full working after a second miss:
+
+> Le nom et le motif permettent au destinataire de comprendre.  
+> La réponse est : Nji a appelé pour confirmer la réunion du club..  
+
+> Quel message peut-on transmettre clairement ?
+
+- ✅ Nji a appelé pour confirmer la réunion du club.
+- ◻️ Je n’ai rien écouté mais je sais tout.  
+  _↳ feedback if chosen: Le nom et le motif permettent au destinataire de comprendre._
+- ◻️ Quelqu’un voulait quelque chose.  
+  _↳ feedback if chosen: Le nom et le motif permettent au destinataire de comprendre._
+
+Full working after a second miss:
+
+> Le nom et le motif permettent au destinataire de comprendre.  
+> La réponse est : Nji a appelé pour confirmer la réunion du club..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-123-etape-3-card` · Lesson 123 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un inconnu demande l’adresse privée d’un camarade. Que faire ? | Ne pas la donner et demander conseil à un adulte de confiance. | La transmettre pour être poli. · La publier sur un réseau. | La politesse n’oblige pas à divulguer la vie privée d’un autre. |
+| Quelle formule termine poliment l’appel ? | Merci, je transmettrai votre message. Au revoir. | Je raccroche sans écouter. · Je vous interromps encore. | On confirme la suite et on prend congé. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un inconnu demande l’adresse privée d’un camarade. Que faire ?
+
+- ◻️ La transmettre pour être poli.  
+  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
+- ◻️ La publier sur un réseau.  
+  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
+- ✅ Ne pas la donner et demander conseil à un adulte de confiance.
+
+Full working after a second miss:
+
+> La politesse n’oblige pas à divulguer la vie privée d’un autre.  
+> La réponse est : Ne pas la donner et demander conseil à un adulte de confiance..  
+
+> Un inconnu demande l’adresse privée d’un camarade. Que faire ?
+
+- ◻️ La transmettre pour être poli.  
+  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
+- ◻️ La publier sur un réseau.  
+  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
+- ✅ Ne pas la donner et demander conseil à un adulte de confiance.
+
+Full working after a second miss:
+
+> La politesse n’oblige pas à divulguer la vie privée d’un autre.  
+> La réponse est : Ne pas la donner et demander conseil à un adulte de confiance..  
+
+> Quelle formule termine poliment l’appel ?
+
+- ✅ Merci, je transmettrai votre message. Au revoir.
+- ◻️ Je vous interromps encore.  
+  _↳ feedback if chosen: On confirme la suite et on prend congé._
+- ◻️ Je raccroche sans écouter.  
+  _↳ feedback if chosen: On confirme la suite et on prend congé._
+
+Full working after a second miss:
+
+> On confirme la suite et on prend congé.  
+> La réponse est : Merci, je transmettrai votre message. Au revoir..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-124-etape-1` · Lesson 124 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Scène décrite : une élève ramasse un cahier tombé. Quelle action est donnée ? | Elle ramasse un cahier. | Elle vend un ordinateur. · Elle conduit un camion. | Le récit doit partir des actions décrites. |
+| Scène décrite : elle lit le nom sur la couverture. Que fait-elle ? | Elle cherche à identifier le propriétaire. | Elle efface toutes les pages. · Elle achète un cahier neuf. | Lire le nom permet de savoir à qui le cahier appartient. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Scène décrite : elle lit le nom sur la couverture. Que fait-elle ?
+
+- ◻️ Elle achète un cahier neuf.  
+  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
+- ✅ Elle cherche à identifier le propriétaire.
+- ◻️ Elle efface toutes les pages.  
+  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
+
+Full working after a second miss:
+
+> Lire le nom permet de savoir à qui le cahier appartient.  
+> La réponse est : Elle cherche à identifier le propriétaire..  
+
+> Scène décrite : elle lit le nom sur la couverture. Que fait-elle ?
+
+- ◻️ Elle achète un cahier neuf.  
+  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
+- ✅ Elle cherche à identifier le propriétaire.
+- ◻️ Elle efface toutes les pages.  
+  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
+
+Full working after a second miss:
+
+> Lire le nom permet de savoir à qui le cahier appartient.  
+> La réponse est : Elle cherche à identifier le propriétaire..  
+
+> Scène décrite : elle lit le nom sur la couverture. Que fait-elle ?
+
+- ◻️ Elle efface toutes les pages.  
+  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
+- ◻️ Elle achète un cahier neuf.  
+  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
+- ✅ Elle cherche à identifier le propriétaire.
+
+Full working after a second miss:
+
+> Lire le nom permet de savoir à qui le cahier appartient.  
+> La réponse est : Elle cherche à identifier le propriétaire..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-124-etape-2` · Lesson 124 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle suite suit les scènes proposées ? | Trouver, identifier, rendre. | Rendre, détruire, chercher sans cahier. · Changer de personnage à chaque mot. | La découverte précède l’identification et la restitution. |
+| Quel lien convient entre la découverte et la lecture du nom ? | Ensuite | Pourtant hier demain · Sans aucun rapport | Ensuite marque l’étape suivante du récit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle suite suit les scènes proposées ?
+
+- ✅ Trouver, identifier, rendre.
+- ◻️ Rendre, détruire, chercher sans cahier.  
+  _↳ feedback if chosen: La découverte précède l’identification et la restitution._
+- ◻️ Changer de personnage à chaque mot.  
+  _↳ feedback if chosen: La découverte précède l’identification et la restitution._
+
+Full working after a second miss:
+
+> La découverte précède l’identification et la restitution.  
+> La réponse est : Trouver, identifier, rendre..  
+
+> Quel lien convient entre la découverte et la lecture du nom ?
+
+- ◻️ Pourtant hier demain  
+  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
+- ✅ Ensuite
+- ◻️ Sans aucun rapport  
+  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
+
+Full working after a second miss:
+
+> Ensuite marque l’étape suivante du récit.  
+> La réponse est : Ensuite.  
+
+> Quel lien convient entre la découverte et la lecture du nom ?
+
+- ◻️ Sans aucun rapport  
+  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
+- ◻️ Pourtant hier demain  
+  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
+- ✅ Ensuite
+
+Full working after a second miss:
+
+> Ensuite marque l’étape suivante du récit.  
+> La réponse est : Ensuite.  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-124-etape-3` · Lesson 124 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle conclusion reste compatible avec les scènes ? | Le propriétaire retrouve son cahier. | Le cahier disparaît avant d’être trouvé, sans explication. · La scène prouve la richesse de l’élève. | La dernière action annoncée est la restitution du cahier. |
+| La description ne donne pas le nom de l’élève. Que peux-tu faire dans ton récit ? | Choisir un nom en le présentant comme une création du récit. | Affirmer que l’image donne forcément ce nom. · Prétendre que tout ajout est une preuve. | On peut créer des liens narratifs sans les confondre avec les indices fournis. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> La description ne donne pas le nom de l’élève. Que peux-tu faire dans ton récit ?
+
+- ◻️ Prétendre que tout ajout est une preuve.  
+  _↳ feedback if chosen: On peut créer des liens narratifs sans les confondre avec les indices fournis._
+- ✅ Choisir un nom en le présentant comme une création du récit.
+- ◻️ Affirmer que l’image donne forcément ce nom.  
+  _↳ feedback if chosen: On peut créer des liens narratifs sans les confondre avec les indices fournis._
+
+Full working after a second miss:
+
+> On peut créer des liens narratifs sans les confondre avec les indices fournis.  
+> La réponse est : Choisir un nom en le présentant comme une création du récit..  
+
+> La description ne donne pas le nom de l’élève. Que peux-tu faire dans ton récit ?
+
+- ✅ Choisir un nom en le présentant comme une création du récit.
+- ◻️ Prétendre que tout ajout est une preuve.  
+  _↳ feedback if chosen: On peut créer des liens narratifs sans les confondre avec les indices fournis._
+- ◻️ Affirmer que l’image donne forcément ce nom.  
+  _↳ feedback if chosen: On peut créer des liens narratifs sans les confondre avec les indices fournis._
+
+Full working after a second miss:
+
+> On peut créer des liens narratifs sans les confondre avec les indices fournis.  
+> La réponse est : Choisir un nom en le présentant comme une création du récit..  
+
+> La description ne donne pas le nom de l’élève. Que peux-tu faire dans ton récit ?
+
+- ◻️ Affirmer que l’image donne forcément ce nom.  
+  _↳ feedback if chosen: On peut créer des liens narratifs sans les confondre avec les indices fournis._
+- ◻️ Prétendre que tout ajout est une preuve.  
+  _↳ feedback if chosen: On peut créer des liens narratifs sans les confondre avec les indices fournis._
+- ✅ Choisir un nom en le présentant comme une création du récit.
+
+Full working after a second miss:
+
+> On peut créer des liens narratifs sans les confondre avec les indices fournis.  
+> La réponse est : Choisir un nom en le présentant comme une création du récit..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-124-etape-2-card` · Lesson 124 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle suite suit les scènes proposées ? | Trouver, identifier, rendre. | Rendre, détruire, chercher sans cahier. · Changer de personnage à chaque mot. | La découverte précède l’identification et la restitution. |
+| Quel lien convient entre la découverte et la lecture du nom ? | Ensuite | Pourtant hier demain · Sans aucun rapport | Ensuite marque l’étape suivante du récit. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel lien convient entre la découverte et la lecture du nom ?
+
+- ◻️ Sans aucun rapport  
+  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
+- ✅ Ensuite
+- ◻️ Pourtant hier demain  
+  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
+
+Full working after a second miss:
+
+> Ensuite marque l’étape suivante du récit.  
+> La réponse est : Ensuite.  
+
+> Quelle suite suit les scènes proposées ?
+
+- ◻️ Changer de personnage à chaque mot.  
+  _↳ feedback if chosen: La découverte précède l’identification et la restitution._
+- ◻️ Rendre, détruire, chercher sans cahier.  
+  _↳ feedback if chosen: La découverte précède l’identification et la restitution._
+- ✅ Trouver, identifier, rendre.
+
+Full working after a second miss:
+
+> La découverte précède l’identification et la restitution.  
+> La réponse est : Trouver, identifier, rendre..  
+
+> Quelle suite suit les scènes proposées ?
+
+- ◻️ Changer de personnage à chaque mot.  
+  _↳ feedback if chosen: La découverte précède l’identification et la restitution._
+- ✅ Trouver, identifier, rendre.
+- ◻️ Rendre, détruire, chercher sans cahier.  
+  _↳ feedback if chosen: La découverte précède l’identification et la restitution._
+
+Full working after a second miss:
+
+> La découverte précède l’identification et la restitution.  
+> La réponse est : Trouver, identifier, rendre..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-124-etape-3-card` · Lesson 124 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle conclusion reste compatible avec les scènes ? | Le propriétaire retrouve son cahier. | Le cahier disparaît avant d’être trouvé, sans explication. · La scène prouve la richesse de l’élève. | La dernière action annoncée est la restitution du cahier. |
+| La description ne donne pas le nom de l’élève. Que peux-tu faire dans ton récit ? | Choisir un nom en le présentant comme une création du récit. | Affirmer que l’image donne forcément ce nom. · Prétendre que tout ajout est une preuve. | On peut créer des liens narratifs sans les confondre avec les indices fournis. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle conclusion reste compatible avec les scènes ?
+
+- ◻️ Le cahier disparaît avant d’être trouvé, sans explication.  
+  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
+- ✅ Le propriétaire retrouve son cahier.
+- ◻️ La scène prouve la richesse de l’élève.  
+  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
+
+Full working after a second miss:
+
+> La dernière action annoncée est la restitution du cahier.  
+> La réponse est : Le propriétaire retrouve son cahier..  
+
+> Quelle conclusion reste compatible avec les scènes ?
+
+- ◻️ Le cahier disparaît avant d’être trouvé, sans explication.  
+  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
+- ◻️ La scène prouve la richesse de l’élève.  
+  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
+- ✅ Le propriétaire retrouve son cahier.
+
+Full working after a second miss:
+
+> La dernière action annoncée est la restitution du cahier.  
+> La réponse est : Le propriétaire retrouve son cahier..  
+
+> Quelle conclusion reste compatible avec les scènes ?
+
+- ◻️ Le cahier disparaît avant d’être trouvé, sans explication.  
+  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
+- ◻️ La scène prouve la richesse de l’élève.  
+  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
+- ✅ Le propriétaire retrouve son cahier.
+
+Full working after a second miss:
+
+> La dernière action annoncée est la restitution du cahier.  
+> La réponse est : Le propriétaire retrouve son cahier..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-125-etape-1` · Lesson 125 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quels mots-clés répondent à une recherche sur les marchés de Bamenda ? | marchés Bamenda | tout et rien · un jeu sans rapport | Les mots-clés reprennent le sujet et le lieu. |
+| Quel outil propose des résultats à partir de mots-clés ? | Un moteur de recherche. | Une imprimante sans connexion. · Un câble seul. | Le moteur de recherche aide à trouver des ressources. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quels mots-clés répondent à une recherche sur les marchés de Bamenda ?
+
+- ✅ marchés Bamenda
+- ◻️ tout et rien  
+  _↳ feedback if chosen: Les mots-clés reprennent le sujet et le lieu._
+- ◻️ un jeu sans rapport  
+  _↳ feedback if chosen: Les mots-clés reprennent le sujet et le lieu._
+
+Full working after a second miss:
+
+> Les mots-clés reprennent le sujet et le lieu.  
+> La réponse est : marchés Bamenda.  
+
+> Quel outil propose des résultats à partir de mots-clés ?
+
+- ◻️ Une imprimante sans connexion.  
+  _↳ feedback if chosen: Le moteur de recherche aide à trouver des ressources._
+- ◻️ Un câble seul.  
+  _↳ feedback if chosen: Le moteur de recherche aide à trouver des ressources._
+- ✅ Un moteur de recherche.
+
+Full working after a second miss:
+
+> Le moteur de recherche aide à trouver des ressources.  
+> La réponse est : Un moteur de recherche..  
+
+> Quels mots-clés répondent à une recherche sur les marchés de Bamenda ?
+
+- ✅ marchés Bamenda
+- ◻️ tout et rien  
+  _↳ feedback if chosen: Les mots-clés reprennent le sujet et le lieu._
+- ◻️ un jeu sans rapport  
+  _↳ feedback if chosen: Les mots-clés reprennent le sujet et le lieu._
+
+Full working after a second miss:
+
+> Les mots-clés reprennent le sujet et le lieu.  
+> La réponse est : marchés Bamenda.  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-125-etape-2` · Lesson 125 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un titre correspond à ton sujet. Quelle étape suit ? | Ouvrir la ressource et vérifier son contenu et ses sources. | Copier sans lire. · Croire le titre seulement. | Un titre pertinent ne suffit pas à vérifier l’information. |
+| Pourquoi noter la date d’une information ? | Pour juger si elle convient à la question et au moment étudié. | Pour prouver automatiquement qu’elle est vraie. · Pour éviter de lire le texte. | La date aide à situer l’information, sans garantir sa vérité. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Pourquoi noter la date d’une information ?
+
+- ✅ Pour juger si elle convient à la question et au moment étudié.
+- ◻️ Pour éviter de lire le texte.  
+  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
+- ◻️ Pour prouver automatiquement qu’elle est vraie.  
+  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
+
+Full working after a second miss:
+
+> La date aide à situer l’information, sans garantir sa vérité.  
+> La réponse est : Pour juger si elle convient à la question et au moment étudié..  
+
+> Pourquoi noter la date d’une information ?
+
+- ✅ Pour juger si elle convient à la question et au moment étudié.
+- ◻️ Pour prouver automatiquement qu’elle est vraie.  
+  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
+- ◻️ Pour éviter de lire le texte.  
+  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
+
+Full working after a second miss:
+
+> La date aide à situer l’information, sans garantir sa vérité.  
+> La réponse est : Pour juger si elle convient à la question et au moment étudié..  
+
+> Pourquoi noter la date d’une information ?
+
+- ◻️ Pour éviter de lire le texte.  
+  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
+- ✅ Pour juger si elle convient à la question et au moment étudié.
+- ◻️ Pour prouver automatiquement qu’elle est vraie.  
+  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
+
+Full working after a second miss:
+
+> La date aide à situer l’information, sans garantir sa vérité.  
+> La réponse est : Pour juger si elle convient à la question et au moment étudié..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-125-etape-3` · Lesson 125 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Le premier résultat est sponsorisé. Cela garantit-il son exactitude ? | Non, il faut vérifier l’information. | Oui, la publicité est une preuve. · Oui, sa place remplace ses sources. | Une annonce ou un classement ne garantit pas l’exactitude. |
+| Pourquoi conserver l’adresse et le titre de la source ? | Pour la retrouver et citer l’origine de l’information. | Pour inventer un auteur. · Pour éviter toute vérification. | Une référence permet de retrouver le document utilisé. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Pourquoi conserver l’adresse et le titre de la source ?
+
+- ◻️ Pour inventer un auteur.  
+  _↳ feedback if chosen: Une référence permet de retrouver le document utilisé._
+- ◻️ Pour éviter toute vérification.  
+  _↳ feedback if chosen: Une référence permet de retrouver le document utilisé._
+- ✅ Pour la retrouver et citer l’origine de l’information.
+
+Full working after a second miss:
+
+> Une référence permet de retrouver le document utilisé.  
+> La réponse est : Pour la retrouver et citer l’origine de l’information..  
+
+> Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?
+
+- ◻️ Oui, sa place remplace ses sources.  
+  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
+- ◻️ Oui, la publicité est une preuve.  
+  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
+- ✅ Non, il faut vérifier l’information.
+
+Full working after a second miss:
+
+> Une annonce ou un classement ne garantit pas l’exactitude.  
+> La réponse est : Non, il faut vérifier l’information..  
+
+> Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?
+
+- ✅ Non, il faut vérifier l’information.
+- ◻️ Oui, sa place remplace ses sources.  
+  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
+- ◻️ Oui, la publicité est une preuve.  
+  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
+
+Full working after a second miss:
+
+> Une annonce ou un classement ne garantit pas l’exactitude.  
+> La réponse est : Non, il faut vérifier l’information..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-125-etape-2-card` · Lesson 125 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Un titre correspond à ton sujet. Quelle étape suit ? | Ouvrir la ressource et vérifier son contenu et ses sources. | Copier sans lire. · Croire le titre seulement. | Un titre pertinent ne suffit pas à vérifier l’information. |
+| Pourquoi noter la date d’une information ? | Pour juger si elle convient à la question et au moment étudié. | Pour prouver automatiquement qu’elle est vraie. · Pour éviter de lire le texte. | La date aide à situer l’information, sans garantir sa vérité. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Un titre correspond à ton sujet. Quelle étape suit ?
+
+- ✅ Ouvrir la ressource et vérifier son contenu et ses sources.
+- ◻️ Copier sans lire.  
+  _↳ feedback if chosen: Un titre pertinent ne suffit pas à vérifier l’information._
+- ◻️ Croire le titre seulement.  
+  _↳ feedback if chosen: Un titre pertinent ne suffit pas à vérifier l’information._
+
+Full working after a second miss:
+
+> Un titre pertinent ne suffit pas à vérifier l’information.  
+> La réponse est : Ouvrir la ressource et vérifier son contenu et ses sources..  
+
+> Un titre correspond à ton sujet. Quelle étape suit ?
+
+- ✅ Ouvrir la ressource et vérifier son contenu et ses sources.
+- ◻️ Croire le titre seulement.  
+  _↳ feedback if chosen: Un titre pertinent ne suffit pas à vérifier l’information._
+- ◻️ Copier sans lire.  
+  _↳ feedback if chosen: Un titre pertinent ne suffit pas à vérifier l’information._
+
+Full working after a second miss:
+
+> Un titre pertinent ne suffit pas à vérifier l’information.  
+> La réponse est : Ouvrir la ressource et vérifier son contenu et ses sources..  
+
+> Pourquoi noter la date d’une information ?
+
+- ✅ Pour juger si elle convient à la question et au moment étudié.
+- ◻️ Pour éviter de lire le texte.  
+  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
+- ◻️ Pour prouver automatiquement qu’elle est vraie.  
+  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
+
+Full working after a second miss:
+
+> La date aide à situer l’information, sans garantir sa vérité.  
+> La réponse est : Pour juger si elle convient à la question et au moment étudié..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-125-etape-3-card` · Lesson 125 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Le premier résultat est sponsorisé. Cela garantit-il son exactitude ? | Non, il faut vérifier l’information. | Oui, la publicité est une preuve. · Oui, sa place remplace ses sources. | Une annonce ou un classement ne garantit pas l’exactitude. |
+| Pourquoi conserver l’adresse et le titre de la source ? | Pour la retrouver et citer l’origine de l’information. | Pour inventer un auteur. · Pour éviter toute vérification. | Une référence permet de retrouver le document utilisé. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?
+
+- ✅ Non, il faut vérifier l’information.
+- ◻️ Oui, sa place remplace ses sources.  
+  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
+- ◻️ Oui, la publicité est une preuve.  
+  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
+
+Full working after a second miss:
+
+> Une annonce ou un classement ne garantit pas l’exactitude.  
+> La réponse est : Non, il faut vérifier l’information..  
+
+> Pourquoi conserver l’adresse et le titre de la source ?
+
+- ◻️ Pour inventer un auteur.  
+  _↳ feedback if chosen: Une référence permet de retrouver le document utilisé._
+- ◻️ Pour éviter toute vérification.  
+  _↳ feedback if chosen: Une référence permet de retrouver le document utilisé._
+- ✅ Pour la retrouver et citer l’origine de l’information.
+
+Full working after a second miss:
+
+> Une référence permet de retrouver le document utilisé.  
+> La réponse est : Pour la retrouver et citer l’origine de l’information..  
+
+> Pourquoi conserver l’adresse et le titre de la source ?
+
+- ◻️ Pour inventer un auteur.  
+  _↳ feedback if chosen: Une référence permet de retrouver le document utilisé._
+- ✅ Pour la retrouver et citer l’origine de l’information.
+- ◻️ Pour éviter toute vérification.  
+  _↳ feedback if chosen: Une référence permet de retrouver le document utilisé._
+
+Full working after a second miss:
+
+> Une référence permet de retrouver le document utilisé.  
+> La réponse est : Pour la retrouver et citer l’origine de l’information..  
+
+Sources: vocabulaire (Vocabulaire : famille élargie et arbre généalogique, école et voisinage, épidémies, hygiène et environnement, tourisme (sites : chutes de la Lobé, Limbé, mont Cameroun, parc de Waza, Foumban) ; médias, réseaux sociaux, correspondance, téléphone, recherche sur Internet)
+
+### `fi2-126-etape-1` · Lesson 126 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle phrase respecte l’accord ? | Les élèves vérifient leurs sources. | Les élèves vérifie leurs sources. · Les élèves vérifies leurs sources. | Les élèves est pluriel : vérifient. |
+| Complète : La mienne ___ ici. | est | sont · sommes | La mienne est un sujet singulier. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase respecte l’accord ?
+
+- ◻️ Les élèves vérifies leurs sources.  
+  _↳ feedback if chosen: Les élèves est pluriel : vérifient._
+- ◻️ Les élèves vérifie leurs sources.  
+  _↳ feedback if chosen: Les élèves est pluriel : vérifient._
+- ✅ Les élèves vérifient leurs sources.
+
+Full working after a second miss:
+
+> Les élèves est pluriel : vérifient.  
+> La réponse est : Les élèves vérifient leurs sources..  
+
+> Quelle phrase respecte l’accord ?
+
+- ◻️ Les élèves vérifie leurs sources.  
+  _↳ feedback if chosen: Les élèves est pluriel : vérifient._
+- ◻️ Les élèves vérifies leurs sources.  
+  _↳ feedback if chosen: Les élèves est pluriel : vérifient._
+- ✅ Les élèves vérifient leurs sources.
+
+Full working after a second miss:
+
+> Les élèves est pluriel : vérifient.  
+> La réponse est : Les élèves vérifient leurs sources..  
+
+> Complète : La mienne ___ ici.
+
+- ✅ est
+- ◻️ sont  
+  _↳ feedback if chosen: La mienne est un sujet singulier._
+- ◻️ sommes  
+  _↳ feedback if chosen: La mienne est un sujet singulier._
+
+Full working after a second miss:
+
+> La mienne est un sujet singulier.  
+> La réponse est : est.  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-126-etape-2` · Lesson 126 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle forme décrit une habitude passée ? | Chaque soir, nous écoutions la radio. | Demain, nous écouterons la radio. · Nous écoutons en ce moment. | Écoutions est à l’imparfait et convient à l’habitude passée. |
+| Quelle phrase exprime une hypothèse correctement ? | Si j’avais le temps, je lirais l’article. | Si j’aurais le temps, je lirais l’article. · Si j’avais le temps, je lire l’article. | Si + imparfait est suivi ici du conditionnel. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle phrase exprime une hypothèse correctement ?
+
+- ◻️ Si j’aurais le temps, je lirais l’article.  
+  _↳ feedback if chosen: Si + imparfait est suivi ici du conditionnel._
+- ◻️ Si j’avais le temps, je lire l’article.  
+  _↳ feedback if chosen: Si + imparfait est suivi ici du conditionnel._
+- ✅ Si j’avais le temps, je lirais l’article.
+
+Full working after a second miss:
+
+> Si + imparfait est suivi ici du conditionnel.  
+> La réponse est : Si j’avais le temps, je lirais l’article..  
+
+> Quelle forme décrit une habitude passée ?
+
+- ◻️ Nous écoutons en ce moment.  
+  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
+- ◻️ Demain, nous écouterons la radio.  
+  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
+- ✅ Chaque soir, nous écoutions la radio.
+
+Full working after a second miss:
+
+> Écoutions est à l’imparfait et convient à l’habitude passée.  
+> La réponse est : Chaque soir, nous écoutions la radio..  
+
+> Quelle forme décrit une habitude passée ?
+
+- ◻️ Demain, nous écouterons la radio.  
+  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
+- ✅ Chaque soir, nous écoutions la radio.
+- ◻️ Nous écoutons en ce moment.  
+  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
+
+Full working after a second miss:
+
+> Écoutions est à l’imparfait et convient à l’habitude passée.  
+> La réponse est : Chaque soir, nous écoutions la radio..  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-126-etape-3` · Lesson 126 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ? | Finir précède publier. | Publier précède finir. · Les deux actions sont au futur. | Le passé antérieur présente l’action achevée avant l’action au passé simple. |
+| Quelle révision corrige l’accord sans changer le sens ? | Les leurs fonctionnent bien. | Les leurs fonctionne bien. · Les leurs fonctionnes bien. | Les leurs est pluriel et commande fonctionnent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ?
+
+- ◻️ Les deux actions sont au futur.  
+  _↳ feedback if chosen: Le passé antérieur présente l’action achevée avant l’action au passé simple._
+- ◻️ Publier précède finir.  
+  _↳ feedback if chosen: Le passé antérieur présente l’action achevée avant l’action au passé simple._
+- ✅ Finir précède publier.
+
+Full working after a second miss:
+
+> Le passé antérieur présente l’action achevée avant l’action au passé simple.  
+> La réponse est : Finir précède publier..  
+
+> Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ?
+
+- ✅ Finir précède publier.
+- ◻️ Les deux actions sont au futur.  
+  _↳ feedback if chosen: Le passé antérieur présente l’action achevée avant l’action au passé simple._
+- ◻️ Publier précède finir.  
+  _↳ feedback if chosen: Le passé antérieur présente l’action achevée avant l’action au passé simple._
+
+Full working after a second miss:
+
+> Le passé antérieur présente l’action achevée avant l’action au passé simple.  
+> La réponse est : Finir précède publier..  
+
+> Quelle révision corrige l’accord sans changer le sens ?
+
+- ✅ Les leurs fonctionnent bien.
+- ◻️ Les leurs fonctionne bien.  
+  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
+- ◻️ Les leurs fonctionnes bien.  
+  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
+
+Full working after a second miss:
+
+> Les leurs est pluriel et commande fonctionnent.  
+> La réponse est : Les leurs fonctionnent bien..  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-126-etape-2-card` · Lesson 126 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quelle forme décrit une habitude passée ? | Chaque soir, nous écoutions la radio. | Demain, nous écouterons la radio. · Nous écoutons en ce moment. | Écoutions est à l’imparfait et convient à l’habitude passée. |
+| Quelle phrase exprime une hypothèse correctement ? | Si j’avais le temps, je lirais l’article. | Si j’aurais le temps, je lirais l’article. · Si j’avais le temps, je lire l’article. | Si + imparfait est suivi ici du conditionnel. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle forme décrit une habitude passée ?
+
+- ◻️ Demain, nous écouterons la radio.  
+  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
+- ◻️ Nous écoutons en ce moment.  
+  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
+- ✅ Chaque soir, nous écoutions la radio.
+
+Full working after a second miss:
+
+> Écoutions est à l’imparfait et convient à l’habitude passée.  
+> La réponse est : Chaque soir, nous écoutions la radio..  
+
+> Quelle phrase exprime une hypothèse correctement ?
+
+- ✅ Si j’avais le temps, je lirais l’article.
+- ◻️ Si j’avais le temps, je lire l’article.  
+  _↳ feedback if chosen: Si + imparfait est suivi ici du conditionnel._
+- ◻️ Si j’aurais le temps, je lirais l’article.  
+  _↳ feedback if chosen: Si + imparfait est suivi ici du conditionnel._
+
+Full working after a second miss:
+
+> Si + imparfait est suivi ici du conditionnel.  
+> La réponse est : Si j’avais le temps, je lirais l’article..  
+
+> Quelle phrase exprime une hypothèse correctement ?
+
+- ◻️ Si j’avais le temps, je lire l’article.  
+  _↳ feedback if chosen: Si + imparfait est suivi ici du conditionnel._
+- ◻️ Si j’aurais le temps, je lirais l’article.  
+  _↳ feedback if chosen: Si + imparfait est suivi ici du conditionnel._
+- ✅ Si j’avais le temps, je lirais l’article.
+
+Full working after a second miss:
+
+> Si + imparfait est suivi ici du conditionnel.  
+> La réponse est : Si j’avais le temps, je lirais l’article..  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-126-etape-3-card` · Lesson 126 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ? | Finir précède publier. | Publier précède finir. · Les deux actions sont au futur. | Le passé antérieur présente l’action achevée avant l’action au passé simple. |
+| Quelle révision corrige l’accord sans changer le sens ? | Les leurs fonctionnent bien. | Les leurs fonctionne bien. · Les leurs fonctionnes bien. | Les leurs est pluriel et commande fonctionnent. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quelle révision corrige l’accord sans changer le sens ?
+
+- ✅ Les leurs fonctionnent bien.
+- ◻️ Les leurs fonctionnes bien.  
+  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
+- ◻️ Les leurs fonctionne bien.  
+  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
+
+Full working after a second miss:
+
+> Les leurs est pluriel et commande fonctionnent.  
+> La réponse est : Les leurs fonctionnent bien..  
+
+> Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ?
+
+- ✅ Finir précède publier.
+- ◻️ Les deux actions sont au futur.  
+  _↳ feedback if chosen: Le passé antérieur présente l’action achevée avant l’action au passé simple._
+- ◻️ Publier précède finir.  
+  _↳ feedback if chosen: Le passé antérieur présente l’action achevée avant l’action au passé simple._
+
+Full working after a second miss:
+
+> Le passé antérieur présente l’action achevée avant l’action au passé simple.  
+> La réponse est : Finir précède publier..  
+
+> Quelle révision corrige l’accord sans changer le sens ?
+
+- ◻️ Les leurs fonctionne bien.  
+  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
+- ◻️ Les leurs fonctionnes bien.  
+  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
+- ✅ Les leurs fonctionnent bien.
+
+Full working after a second miss:
+
+> Les leurs est pluriel et commande fonctionnent.  
+> La réponse est : Les leurs fonctionnent bien..  
+
+Sources: grammaire (Grammaire : adjectif épithète et attribut, phrases simples et types de phrases, conjonctions de coordination, expansion du groupe nominal, accord du participe passé (être, avoir, COD placé avant), pluriel des noms en -al, -ail, -ou, -au, -eau, -eu, adverbes de lieu et de manière (-ment), phrase exclamative ; nom sujet, sujets coordonnés par et, nom/pronom/moi/toi, pronoms possessifs sujets)
+
+### `fi2-127-etape-1` · Lesson 127 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel problème rencontre Nji ? | Le micro reste silencieux. | Le cahier brûle. · Le club ferme pour toujours. | Le texte annonce un micro silencieux. |
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que doit lire Nji ? | Une annonce. | Un menu de restaurant. · Une carte routière. | Sa tâche est donnée dès la première phrase. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel problème rencontre Nji ?
+
+- ◻️ Le club ferme pour toujours.  
+  _↳ feedback if chosen: Le texte annonce un micro silencieux._
+- ✅ Le micro reste silencieux.
+- ◻️ Le cahier brûle.  
+  _↳ feedback if chosen: Le texte annonce un micro silencieux._
+
+Full working after a second miss:
+
+> Le texte annonce un micro silencieux.  
+> La réponse est : Le micro reste silencieux..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que doit lire Nji ?
+
+- ◻️ Une carte routière.  
+  _↳ feedback if chosen: Sa tâche est donnée dès la première phrase._
+- ◻️ Un menu de restaurant.  
+  _↳ feedback if chosen: Sa tâche est donnée dès la première phrase._
+- ✅ Une annonce.
+
+Full working after a second miss:
+
+> Sa tâche est donnée dès la première phrase.  
+> La réponse est : Une annonce..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que doit lire Nji ?
+
+- ✅ Une annonce.
+- ◻️ Un menu de restaurant.  
+  _↳ feedback if chosen: Sa tâche est donnée dès la première phrase._
+- ◻️ Une carte routière.  
+  _↳ feedback if chosen: Sa tâche est donnée dès la première phrase._
+
+Full working after a second miss:
+
+> Sa tâche est donnée dès la première phrase.  
+> La réponse est : Une annonce..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-127-etape-2` · Lesson 127 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ? | Parler lentement. | Quitter immédiatement le club. · Déchirer l’annonce. | Le texte explique le sens de son signe. |
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que font les camarades ? | Ils se rapprochent. | Ils quittent tous l’école. · Ils réparent le micro dans le texte. | Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?
+
+- ◻️ Déchirer l’annonce.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ◻️ Quitter immédiatement le club.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ✅ Parler lentement.
+
+Full working after a second miss:
+
+> Le texte explique le sens de son signe.  
+> La réponse est : Parler lentement..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?
+
+- ◻️ Déchirer l’annonce.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ◻️ Quitter immédiatement le club.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ✅ Parler lentement.
+
+Full working after a second miss:
+
+> Le texte explique le sens de son signe.  
+> La réponse est : Parler lentement..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?
+
+- ◻️ Quitter immédiatement le club.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ◻️ Déchirer l’annonce.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ✅ Parler lentement.
+
+Full working after a second miss:
+
+> Le texte explique le sens de son signe.  
+> La réponse est : Parler lentement..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-127-etape-3` · Lesson 127 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quelle idée est soutenue par le dénouement ? | On peut adapter sa manière de communiquer à un obstacle. | Sans micro, personne ne peut jamais communiquer. · Le matériel décide de tout sans exception. | Nji lit plus calmement et les autres se rapprochent. |
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ? | Non, il dit seulement que le message a été compris. | Oui, une réparation est décrite en détail. · Oui, parce que chacun possède un micro. | La compréhension du message ne prouve pas la réparation de l’appareil. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ?
+
+- ◻️ Oui, parce que chacun possède un micro.  
+  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
+- ✅ Non, il dit seulement que le message a été compris.
+- ◻️ Oui, une réparation est décrite en détail.  
+  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
+
+Full working after a second miss:
+
+> La compréhension du message ne prouve pas la réparation de l’appareil.  
+> La réponse est : Non, il dit seulement que le message a été compris..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quelle idée est soutenue par le dénouement ?
+
+- ◻️ Sans micro, personne ne peut jamais communiquer.  
+  _↳ feedback if chosen: Nji lit plus calmement et les autres se rapprochent._
+- ◻️ Le matériel décide de tout sans exception.  
+  _↳ feedback if chosen: Nji lit plus calmement et les autres se rapprochent._
+- ✅ On peut adapter sa manière de communiquer à un obstacle.
+
+Full working after a second miss:
+
+> Nji lit plus calmement et les autres se rapprochent.  
+> La réponse est : On peut adapter sa manière de communiquer à un obstacle..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ?
+
+- ✅ Non, il dit seulement que le message a été compris.
+- ◻️ Oui, une réparation est décrite en détail.  
+  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
+- ◻️ Oui, parce que chacun possède un micro.  
+  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
+
+Full working after a second miss:
+
+> La compréhension du message ne prouve pas la réparation de l’appareil.  
+> La réponse est : Non, il dit seulement que le message a été compris..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-127-etape-2-card` · Lesson 127 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ? | Parler lentement. | Quitter immédiatement le club. · Déchirer l’annonce. | Le texte explique le sens de son signe. |
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que font les camarades ? | Ils se rapprochent. | Ils quittent tous l’école. · Ils réparent le micro dans le texte. | Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que font les camarades ?
+
+- ◻️ Ils quittent tous l’école.  
+  _↳ feedback if chosen: Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro._
+- ◻️ Ils réparent le micro dans le texte.  
+  _↳ feedback if chosen: Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro._
+- ✅ Ils se rapprochent.
+
+Full working after a second miss:
+
+> Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro.  
+> La réponse est : Ils se rapprochent..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?
+
+- ◻️ Déchirer l’annonce.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ✅ Parler lentement.
+- ◻️ Quitter immédiatement le club.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+
+Full working after a second miss:
+
+> Le texte explique le sens de son signe.  
+> La réponse est : Parler lentement..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?
+
+- ◻️ Déchirer l’annonce.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ◻️ Quitter immédiatement le club.  
+  _↳ feedback if chosen: Le texte explique le sens de son signe._
+- ✅ Parler lentement.
+
+Full working after a second miss:
+
+> Le texte explique le sens de son signe.  
+> La réponse est : Parler lentement..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-127-etape-3-card` · Lesson 127 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quelle idée est soutenue par le dénouement ? | On peut adapter sa manière de communiquer à un obstacle. | Sans micro, personne ne peut jamais communiquer. · Le matériel décide de tout sans exception. | Nji lit plus calmement et les autres se rapprochent. |
+| Récit original — Le micro silencieux
+Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ? | Non, il dit seulement que le message a été compris. | Oui, une réparation est décrite en détail. · Oui, parce que chacun possède un micro. | La compréhension du message ne prouve pas la réparation de l’appareil. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ?
+
+- ◻️ Oui, parce que chacun possède un micro.  
+  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
+- ✅ Non, il dit seulement que le message a été compris.
+- ◻️ Oui, une réparation est décrite en détail.  
+  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
+
+Full working after a second miss:
+
+> La compréhension du message ne prouve pas la réparation de l’appareil.  
+> La réponse est : Non, il dit seulement que le message a été compris..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quelle idée est soutenue par le dénouement ?
+
+- ◻️ Le matériel décide de tout sans exception.  
+  _↳ feedback if chosen: Nji lit plus calmement et les autres se rapprochent._
+- ✅ On peut adapter sa manière de communiquer à un obstacle.
+- ◻️ Sans micro, personne ne peut jamais communiquer.  
+  _↳ feedback if chosen: Nji lit plus calmement et les autres se rapprochent._
+
+Full working after a second miss:
+
+> Nji lit plus calmement et les autres se rapprochent.  
+> La réponse est : On peut adapter sa manière de communiquer à un obstacle..  
+
+> Récit original — Le micro silencieux
+> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ?
+
+- ✅ Non, il dit seulement que le message a été compris.
+- ◻️ Oui, parce que chacun possède un micro.  
+  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
+- ◻️ Oui, une réparation est décrite en détail.  
+  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
+
+Full working after a second miss:
+
+> La compréhension du message ne prouve pas la réparation de l’appareil.  
+> La réponse est : Non, il dit seulement que le message a été compris..  
+
+Sources: litterature (Initiation à la littérature : genres (conte, fable, poème, roman, théâtre), schéma narratif, auteur, narrateur ; textes originaux (Ma grand-mère, La chèvre et le chien, Lave tes mains, Le vieux pêcheur de Kribi) et une version écrite d’un conte traditionnel (la carapace de la tortue) ; œuvres camerounaises : Ferdinand Oyono, Une vie de boy ; Mongo Beti (Eza Boto), Ville cruelle ; Guillaume Oyônô Mbia, Trois prétendants… un mari ; Francis Bebey, Le Fils d’Agatha Moudio ; Le message envolé et Le micro silencieux (originaux, pas des extraits d’œuvres prescrites), La voix du matin (poème original))
+
+### `fi2-128-etape-1` · Lesson 128 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| « La salle est lumineuse ; une table occupe le centre. » C’est surtout… | une description. | une demande officielle. · une conjugaison isolée. | Le passage présente un lieu et sa disposition. |
+| « Bih est patiente et porte une veste bleue. » C’est surtout… | un portrait. | une recette. · un itinéraire. | Le passage décrit une personne. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> « La salle est lumineuse ; une table occupe le centre. » C’est surtout…
+
+- ◻️ une demande officielle.  
+  _↳ feedback if chosen: Le passage présente un lieu et sa disposition._
+- ✅ une description.
+- ◻️ une conjugaison isolée.  
+  _↳ feedback if chosen: Le passage présente un lieu et sa disposition._
+
+Full working after a second miss:
+
+> Le passage présente un lieu et sa disposition.  
+> La réponse est : une description..  
+
+> « La salle est lumineuse ; une table occupe le centre. » C’est surtout…
+
+- ◻️ une demande officielle.  
+  _↳ feedback if chosen: Le passage présente un lieu et sa disposition._
+- ✅ une description.
+- ◻️ une conjugaison isolée.  
+  _↳ feedback if chosen: Le passage présente un lieu et sa disposition._
+
+Full working after a second miss:
+
+> Le passage présente un lieu et sa disposition.  
+> La réponse est : une description..  
+
+> « Bih est patiente et porte une veste bleue. » C’est surtout…
+
+- ◻️ une recette.  
+  _↳ feedback if chosen: Le passage décrit une personne._
+- ◻️ un itinéraire.  
+  _↳ feedback if chosen: Le passage décrit une personne._
+- ✅ un portrait.
+
+Full working after a second miss:
+
+> Le passage décrit une personne.  
+> La réponse est : un portrait..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-128-etape-2` · Lesson 128 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel passage raconte des événements ? | Bih a ouvert le cahier, puis elle a lu l’annonce. | La table est ronde et blanche. · Bih est calme et attentive. | Les actions successives font avancer le récit. |
+| Quel passage peut préparer une narration ? | Décrire brièvement la salle où l’action commence. | Insérer une liste sans rapport. · Changer de personnage sans prévenir. | Une description utile situe l’action à venir. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel passage peut préparer une narration ?
+
+- ◻️ Insérer une liste sans rapport.  
+  _↳ feedback if chosen: Une description utile situe l’action à venir._
+- ◻️ Changer de personnage sans prévenir.  
+  _↳ feedback if chosen: Une description utile situe l’action à venir._
+- ✅ Décrire brièvement la salle où l’action commence.
+
+Full working after a second miss:
+
+> Une description utile situe l’action à venir.  
+> La réponse est : Décrire brièvement la salle où l’action commence..  
+
+> Quel passage raconte des événements ?
+
+- ✅ Bih a ouvert le cahier, puis elle a lu l’annonce.
+- ◻️ Bih est calme et attentive.  
+  _↳ feedback if chosen: Les actions successives font avancer le récit._
+- ◻️ La table est ronde et blanche.  
+  _↳ feedback if chosen: Les actions successives font avancer le récit._
+
+Full working after a second miss:
+
+> Les actions successives font avancer le récit.  
+> La réponse est : Bih a ouvert le cahier, puis elle a lu l’annonce..  
+
+> Quel passage raconte des événements ?
+
+- ◻️ Bih est calme et attentive.  
+  _↳ feedback if chosen: Les actions successives font avancer le récit._
+- ◻️ La table est ronde et blanche.  
+  _↳ feedback if chosen: Les actions successives font avancer le récit._
+- ✅ Bih a ouvert le cahier, puis elle a lu l’annonce.
+
+Full working after a second miss:
+
+> Les actions successives font avancer le récit.  
+> La réponse est : Bih a ouvert le cahier, puis elle a lu l’annonce..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-128-etape-3` · Lesson 128 · multiple choice, level 3
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel plan réunit les trois démarches ? | Présenter la salle, faire le portrait de Bih, raconter son intervention. | Répéter le même adjectif sans événement. · Changer de sujet à chaque phrase. | Le plan articule description, portrait et narration autour d’une même scène. |
+| Que vérifier à la fin ? | La cohérence des passages, les accords et les temps. | Seulement le nombre de couleurs citées. · Que le récit n’ait aucun lien avec son début. | Les différentes démarches doivent former un ensemble compréhensible. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel plan réunit les trois démarches ?
+
+- ✅ Présenter la salle, faire le portrait de Bih, raconter son intervention.
+- ◻️ Répéter le même adjectif sans événement.  
+  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+- ◻️ Changer de sujet à chaque phrase.  
+  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+
+Full working after a second miss:
+
+> Le plan articule description, portrait et narration autour d’une même scène.  
+> La réponse est : Présenter la salle, faire le portrait de Bih, raconter son intervention..  
+
+> Quel plan réunit les trois démarches ?
+
+- ◻️ Changer de sujet à chaque phrase.  
+  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+- ◻️ Répéter le même adjectif sans événement.  
+  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+- ✅ Présenter la salle, faire le portrait de Bih, raconter son intervention.
+
+Full working after a second miss:
+
+> Le plan articule description, portrait et narration autour d’une même scène.  
+> La réponse est : Présenter la salle, faire le portrait de Bih, raconter son intervention..  
+
+> Que vérifier à la fin ?
+
+- ✅ La cohérence des passages, les accords et les temps.
+- ◻️ Seulement le nombre de couleurs citées.  
+  _↳ feedback if chosen: Les différentes démarches doivent former un ensemble compréhensible._
+- ◻️ Que le récit n’ait aucun lien avec son début.  
+  _↳ feedback if chosen: Les différentes démarches doivent former un ensemble compréhensible._
+
+Full working after a second miss:
+
+> Les différentes démarches doivent former un ensemble compréhensible.  
+> La réponse est : La cohérence des passages, les accords et les temps..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-128-etape-2-card` · Lesson 128 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel passage raconte des événements ? | Bih a ouvert le cahier, puis elle a lu l’annonce. | La table est ronde et blanche. · Bih est calme et attentive. | Les actions successives font avancer le récit. |
+| Quel passage peut préparer une narration ? | Décrire brièvement la salle où l’action commence. | Insérer une liste sans rapport. · Changer de personnage sans prévenir. | Une description utile situe l’action à venir. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel passage raconte des événements ?
+
+- ◻️ La table est ronde et blanche.  
+  _↳ feedback if chosen: Les actions successives font avancer le récit._
+- ✅ Bih a ouvert le cahier, puis elle a lu l’annonce.
+- ◻️ Bih est calme et attentive.  
+  _↳ feedback if chosen: Les actions successives font avancer le récit._
+
+Full working after a second miss:
+
+> Les actions successives font avancer le récit.  
+> La réponse est : Bih a ouvert le cahier, puis elle a lu l’annonce..  
+
+> Quel passage peut préparer une narration ?
+
+- ✅ Décrire brièvement la salle où l’action commence.
+- ◻️ Insérer une liste sans rapport.  
+  _↳ feedback if chosen: Une description utile situe l’action à venir._
+- ◻️ Changer de personnage sans prévenir.  
+  _↳ feedback if chosen: Une description utile situe l’action à venir._
+
+Full working after a second miss:
+
+> Une description utile situe l’action à venir.  
+> La réponse est : Décrire brièvement la salle où l’action commence..  
+
+> Quel passage peut préparer une narration ?
+
+- ◻️ Changer de personnage sans prévenir.  
+  _↳ feedback if chosen: Une description utile situe l’action à venir._
+- ✅ Décrire brièvement la salle où l’action commence.
+- ◻️ Insérer une liste sans rapport.  
+  _↳ feedback if chosen: Une description utile situe l’action à venir._
+
+Full working after a second miss:
+
+> Une description utile situe l’action à venir.  
+> La réponse est : Décrire brièvement la salle où l’action commence..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
+
+### `fi2-128-etape-3-card` · Lesson 128 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | y |
+|---|---|---|---|
+| Quel plan réunit les trois démarches ? | Présenter la salle, faire le portrait de Bih, raconter son intervention. | Répéter le même adjectif sans événement. · Changer de sujet à chaque phrase. | Le plan articule description, portrait et narration autour d’une même scène. |
+| Que vérifier à la fin ? | La cohérence des passages, les accords et les temps. | Seulement le nombre de couleurs citées. · Que le récit n’ait aucun lien avec son début. | Les différentes démarches doivent former un ensemble compréhensible. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`
+
+- Feedback `w0`: “{X.y}”
+- Feedback `w1`: “{X.y}”
+
+Three generated variants:
+
+> Quel plan réunit les trois démarches ?
+
+- ◻️ Changer de sujet à chaque phrase.  
+  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+- ✅ Présenter la salle, faire le portrait de Bih, raconter son intervention.
+- ◻️ Répéter le même adjectif sans événement.  
+  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+
+Full working after a second miss:
+
+> Le plan articule description, portrait et narration autour d’une même scène.  
+> La réponse est : Présenter la salle, faire le portrait de Bih, raconter son intervention..  
+
+> Que vérifier à la fin ?
+
+- ◻️ Que le récit n’ait aucun lien avec son début.  
+  _↳ feedback if chosen: Les différentes démarches doivent former un ensemble compréhensible._
+- ✅ La cohérence des passages, les accords et les temps.
+- ◻️ Seulement le nombre de couleurs citées.  
+  _↳ feedback if chosen: Les différentes démarches doivent former un ensemble compréhensible._
+
+Full working after a second miss:
+
+> Les différentes démarches doivent former un ensemble compréhensible.  
+> La réponse est : La cohérence des passages, les accords et les temps..  
+
+> Quel plan réunit les trois démarches ?
+
+- ✅ Présenter la salle, faire le portrait de Bih, raconter son intervention.
+- ◻️ Changer de sujet à chaque phrase.  
+  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+- ◻️ Répéter le même adjectif sans événement.  
+  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+
+Full working after a second miss:
+
+> Le plan articule description, portrait et narration autour d’une même scène.  
+> La réponse est : Présenter la salle, faire le portrait de Bih, raconter son intervention..  
+
+Sources: expression (Expression orale et écrite : récitation, jeux de rôle, interprétation d’images et d’affiches, lecture expressive, paragraphe, portrait, narration, carte postale, récit à partir d’images ; description, portrait, narration et scènes décrites en mots)
 
